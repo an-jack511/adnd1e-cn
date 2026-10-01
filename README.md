@@ -73,7 +73,7 @@ npm run build:search-index
 - Build command: `npm run build`
 - Build output directory: `dist`
 
-将仓库推送到 GitHub 后，在 Cloudflare Pages 连接该仓库即可启用自动构建。站点使用静态输出，不需要 Cloudflare Worker、D1 或后端服务。
+代码仓库：[an-jack511/adnd1e-cn](https://github.com/an-jack511/adnd1e-cn)。Cloudflare Pages 项目已连接 `main` 分支；推送新提交后会自动构建。站点地址：[adnd1e-cn.pages.dev](https://adnd1e-cn.pages.dev)。站点使用静态输出，不需要 Cloudflare Worker、D1 或后端服务。
 
 ## Git
 

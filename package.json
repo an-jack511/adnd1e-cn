@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "tsx scripts/validate-data.ts",
     "build": "astro build",
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
