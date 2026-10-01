@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { books } from '../../data/public/books';
+export function getStaticPaths() { return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
+const { book } = Astro.props;
+---
+<BaseLayout title={`${book.short} · ${book.titleZh}`}><article><header class="entry-header"><h1>{book.titleZh}</h1><div class="english">{book.short} · {book.title}</div></header><p>{book.description}</p><div class="notice">这里是规则书阅读模式的结构化入口。请将有版权限制的连续正文放在受控的 translation-source/ 或本地内容目录，不要在公开仓库中自动带入整本书。</div><h2>章节入口</h2><ul>{book.chapters.map((chapter) => <li><a href={chapter.href}>{chapter.title}</a></li>)}</ul><SourceList sources={book.source} /><p><a href="/books">← 返回规则书</a></p></article></BaseLayout>

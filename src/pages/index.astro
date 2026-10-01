@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { books } from '../data/public/books';
+import { spells } from '../data/public/spells';
+import { monsters } from '../data/public/monsters';
+import { items } from '../data/public/items';
+import { rules } from '../data/public/rules';
+---
+<BaseLayout>
+  <section>
+    <h1>AD&amp;D 第一版中文规则索引</h1>
+    <p class="lede">Advanced Dungeons &amp; Dragons 1st Edition</p>
+    <form class="search-form" action="/search" method="get">
+      <label class="screen-only" for="home-search">搜索规则、法术、怪物或装备</label>
+      <input id="home-search" name="q" type="search" placeholder="搜索中文名、英文名、标签或来源……" />
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+
+  <div class="home-grid">
+    <fieldset><legend>快速入口</legend><ul>
+      <li><a href="/adventure">冒险</a></li>
+      <li><a href="/combat">战斗</a></li>
+      <li><a href="/races">种族</a></li>
+      <li><a href="/classes">职业</a></li>
+      <li><a href="/spells">法术表</a></li>
+    </ul></fieldset>
+    <fieldset><legend>资料库</legend><ul>
+      <li><a href="/equipment">装备与物品</a></li>
+      <li><a href="/monsters">怪物合集</a></li>
+      <li><a href="/psionics">灵能与其他规则</a></li>
+      <li><a href="/books">规则书</a></li>
+      <li><a href="/tables">随机表</a></li>
+    </ul></fieldset>
+    <fieldset><legend>桌面工具</legend><ul>
+      <li><a href="/character">快速车卡</a></li>
+      <li><a href="/search">全站搜索</a></li>
+      <li><a href="/rules">规则索引</a></li>
+    </ul></fieldset>
+  </div>
+
+  <hr class="rule" />
+  <div class="two-column">
+    <section>
+      <h2>按对象查找</h2>
+      <p><a href="/spells">法术</a>（{spells.length} 条示例） · <a href="/monsters">怪物</a>（{monsters.length} 条示例） · <a href="/equipment">装备</a>（{items.length} 条示例）</p>
+      <p><a href="/combat">战斗规则</a>（{rules.filter((rule) => rule.category === 'combat').length} 条） · <a href="/adventure">冒险规则</a>（{rules.filter((rule) => rule.category === 'adventure').length} 条）</p>
+    </section>
+    <section>
+      <h2>规则书</h2>
+      <p>{books.map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}`}>{book.short}</a></span>)}</p>
+      <p class="muted small">规则书是来源与连续阅读入口；结构化条目按实际查询需求重新组织。</p>
+    </section>
+  </div>
+
+  <div class="notice"><strong>版权与内容说明：</strong>当前版本只包含示例数据、结构化字段和少量短说明。未来翻译内容请放入明确授权的内容目录，并通过导入脚本进入数据层。</div>
+</BaseLayout>

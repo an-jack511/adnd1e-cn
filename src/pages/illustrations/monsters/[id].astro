@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { monsters } from '../../../data/public/monsters';
+export function getStaticPaths() { return monsters.filter((monster) => monster.illustration).map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
+const { monster } = Astro.props;
+---
+<BaseLayout title={`${monster.nameEn} · 插图`}><article><header class="entry-header"><h1>{monster.nameEn} / {monster.nameZh}</h1></header>{monster.illustration && <p><img src={monster.illustration.src} alt={`${monster.nameEn} / ${monster.nameZh} 插图`} style="max-width:100%; height:auto; border:1px solid #bdb8ae;" /></p>}<p class="muted">来源：{monster.illustration?.source} p.{monster.illustration?.page}</p><p><a href={`/monsters/${monster.id}`}>← 返回怪物条目</a></p></article></BaseLayout>

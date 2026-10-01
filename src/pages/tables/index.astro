@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { tables } from '../../data/public/tables';
+---
+<BaseLayout title="随机表"><h1>随机表</h1><p class="lede">通用 d100 随机表系统。表格结果可以链接到怪物或规则条目。</p>{tables.map((table) => <section class="notice"><h2>{table.title}</h2><p>骰子：{table.dice}</p><button class="roll-button" data-table={table.id}>掷骰</button><div class="dice-result" id={`result-${table.id}`}>尚未掷骰。</div></section>)}
+  <script define:vars={{ tables }}>
+    document.querySelectorAll('.roll-button').forEach((button) => button.addEventListener('click', () => { const table = tables.find((entry) => entry.id === button.dataset.table); const roll = Math.floor(Math.random() * 100) + 1; const result = table.entries.find((entry) => roll >= entry.min && roll <= entry.max); const target = document.querySelector(`#result-${table.id}`); target.innerHTML = `<strong>d100 = ${roll}</strong><br />${result.href ? `<a href="${result.href}">${result.result}</a>` : result.result}`; }));
+  </script>
+</BaseLayout>

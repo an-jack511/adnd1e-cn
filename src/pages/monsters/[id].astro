@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { monsters } from '../../data/public/monsters';
+export function getStaticPaths() { return monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
+const { monster } = Astro.props;
+---
+<BaseLayout title={`${monster.nameZh} ${monster.nameEn}`} description={`${monster.nameZh}（${monster.nameEn}）AD&D 1E 怪物条目。`}>
+  <article>
+    <header class="entry-header"><h1>{monster.nameZh}</h1><div class="english">{monster.nameEn}</div></header>
+    <div class="entry-meta">
+      <div><dt>频率</dt><dd>{monster.frequency}</dd></div><div><dt>出现数量</dt><dd>{monster.numberAppearing}</dd></div><div><dt>AC</dt><dd>{monster.armorClass}</dd></div><div><dt>移动</dt><dd>{monster.movement}</dd></div>
+      <div><dt>HD</dt><dd>{monster.hitDice}</dd></div><div><dt>巢穴</dt><dd>{monster.inLair}</dd></div><div><dt>宝藏</dt><dd>{monster.treasureType}</dd></div><div><dt>攻击</dt><dd>{monster.attacks}</dd></div>
+      <div><dt>伤害</dt><dd>{monster.damage}</dd></div><div><dt>阵营</dt><dd>{monster.alignment}</dd></div><div><dt>体型</dt><dd>{monster.size}</dd></div><div><dt>环境</dt><dd>{monster.environment}</dd></div>
+    </div>
+    <p><strong>特殊攻击：</strong>{monster.specialAttacks} · <strong>特殊防御：</strong>{monster.specialDefenses}</p>
+    <p><strong>魔法抗性：</strong>{monster.magicResistance} · <strong>智力：</strong>{monster.intelligence} · <strong>灵能：</strong>{monster.psionics}</p>
+    <p>{monster.description}</p>
+    {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
+    <SourceList sources={monster.source} />
+    <p><a href="/monsters">← 返回怪物合集</a></p>
+  </article>
+</BaseLayout>

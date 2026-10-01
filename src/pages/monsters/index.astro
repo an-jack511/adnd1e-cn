@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntryTable from '../../components/EntryTable.astro';
+import { monsters } from '../../data/public/monsters';
+const sources = [...new Set(monsters.flatMap((monster) => monster.source.map((source) => source.book)))].sort();
+const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.hitDice, String(monster.armorClass), monster.alignment, monster.size, monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
+const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]);
+---
+<BaseLayout title="怪物合集" description="AD&D 1E 中文怪物索引与筛选。">
+  <div class="section-heading"><h1>怪物合集</h1><a href="/search?type=monster">在全站搜索怪物</a></div>
+  <p class="lede">列表不显示缩略图，把版面留给统计数据。拥有插图的条目会在正文提供独立查看链接。</p>
+  <div class="controls"><div class="filter-grid">
+    <label>名称 <input id="monster-name" type="search" placeholder="中文或英文" /></label>
+    <label>HD <input id="monster-hd" type="search" placeholder="例如 5+2" /></label>
+    <label>AC ≤ <input id="monster-ac" type="number" /></label>
+    <label>阵营 <input id="monster-alignment" type="search" /></label>
+    <label>体型 <select id="monster-size"><option value="">全部体型</option>{[...new Set(monsters.map((monster) => monster.size))].map((value) => <option value={value}>{value}</option>)}</select></label>
+    <label>环境 <input id="monster-environment" type="search" /></label>
+    <label>来源 <select id="monster-source"><option value="">全部来源</option>{sources.map((source) => <option value={source}>{source}</option>)}</select></label>
+  </div></div>
+  <p id="monster-count" class="results-count">显示 {monsters.length} 条怪物</p>
+  <div id="monster-results"><EntryTable headers={['中文名', '英文名', 'HD', 'AC', '阵营', '体型', '环境', '移动', '魔抗', '灵能']} rows={rows} links={links} /></div>
+  <script define:vars={{ monsters }}>
+    const inputs = ['name', 'hd', 'ac', 'alignment', 'size', 'environment', 'source'].map((key) => document.querySelector(`#monster-${key}`));
+    const [name, hd, ac, alignment, size, environment, source] = inputs;
+    const count = document.querySelector('#monster-count');
+    const results = document.querySelector('#monster-results');
+    const render = () => {
+      const query = name.value.trim().toLowerCase();
+      const filtered = monsters.filter((monster) => (!query || `${monster.nameZh} ${monster.nameEn} ${monster.description}`.toLowerCase().includes(query)) && (!hd.value || monster.hitDice.toLowerCase().includes(hd.value.trim().toLowerCase())) && (!ac.value || monster.armorClass <= Number(ac.value)) && (!alignment.value || monster.alignment.includes(alignment.value.trim())) && (!size.value || monster.size === size.value) && (!environment.value || monster.environment.includes(environment.value.trim())) && (!source.value || monster.source.some((entry) => entry.book === source.value)));
+      count.textContent = `显示 ${filtered.length} 条怪物`;
+      results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>HD</th><th>AC</th><th>阵营</th><th>体型</th><th>环境</th><th>移动</th><th>魔抗</th><th>灵能</th></tr></thead><tbody>${filtered.map((monster) => `<tr><td><a href="/monsters/${monster.id}">${monster.nameZh}</a></td><td>${monster.nameEn}</td><td>${monster.hitDice}</td><td>${monster.armorClass}</td><td>${monster.alignment}</td><td>${monster.size}</td><td>${monster.environment}</td><td>${monster.movement}</td><td>${monster.magicResistance}</td><td>${monster.psionics}</td></tr>`).join('')}</tbody></table></div>`;
+    };
+    inputs.forEach((input) => input.addEventListener('input', render));
+  </script>
+</BaseLayout>

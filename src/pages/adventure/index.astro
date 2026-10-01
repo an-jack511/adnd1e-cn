@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { rules } from '../../data/public/rules';
+const adventureRules = rules.filter((rule) => rule.category === 'adventure');
+const topics = ['时间', 'Movement', '地下城探索', '荒野旅行', '光照', '门', '聆听', '搜索', '陷阱', '遭遇', '突袭', '天气', '坐骑', '雇员', 'Henchmen', '负重', '休息', '食物', '水', '追逐', '随机遭遇'];
+---
+<BaseLayout title="冒险规则"><h1>冒险规则</h1><p class="lede">按跑团流程整理时间、移动、地下城、荒野与遭遇相关规则。</p><h2>查询目录</h2><div class="link-index">{topics.map((topic) => { const rule = adventureRules.find((entry) => entry.title.toLowerCase().includes(topic.split(' ')[0].toLowerCase())); return rule ? <a href={`/adventure/${rule.id}`}>{topic}</a> : <span class="muted">{topic}（待补）</span>; })}</div><h2>当前已整理</h2><div class="catalog-list">{adventureRules.map((rule) => <article class="catalog-row"><div class="book-code">ADVENTURE</div><div><h3><a href={`/adventure/${rule.id}`}>{rule.title}</a></h3><p>{rule.summary}</p></div></article>)}</div></BaseLayout>

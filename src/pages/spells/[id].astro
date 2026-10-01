@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { spells } from '../../data/public/spells';
+export function getStaticPaths() { return spells.map((spell) => ({ params: { id: spell.id }, props: { spell } })); }
+const { spell } = Astro.props;
+---
+<BaseLayout title={`${spell.nameZh} ${spell.nameEn}`} description={`${spell.nameZh}（${spell.nameEn}）AD&D 1E 法术条目。`}>
+  <article>
+    <header class="entry-header"><h1>{spell.nameZh}</h1><div class="english">{spell.nameEn} · {spell.classes.join(' / ')}</div></header>
+    <div class="entry-meta">
+      <div><dt>环级</dt><dd>{spell.level}</dd></div><div><dt>学派</dt><dd>{spell.school}</dd></div><div><dt>成分</dt><dd>{spell.components.join(' / ')}</dd></div><div><dt>施法时间</dt><dd>{spell.castingTime}</dd></div>
+      <div><dt>距离</dt><dd>{spell.range}</dd></div><div><dt>持续时间</dt><dd>{spell.duration}</dd></div><div><dt>范围</dt><dd>{spell.areaOfEffect}</dd></div><div><dt>豁免</dt><dd>{spell.savingThrow}</dd></div>
+    </div>
+    {spell.reversible && <p class="notice"><strong>可逆法术：</strong>请同时查阅正向与逆向效果。</p>}
+    <p>{spell.description}</p>
+    {spell.materialComponent && <p><strong>材料成分：</strong>{spell.materialComponent}</p>}
+    <p>{spell.tags.map((tag) => <span class="tag">{tag}</span>)}</p>
+    <SourceList sources={spell.source} />
+    <p><a href="/spells">← 返回法术表</a></p>
+  </article>
+</BaseLayout>

@@ -1,0 +1,18 @@
+---
+import type { SourceReference } from '../schemas';
+import { books } from '../data/public/books';
+
+interface Props { sources: SourceReference[] }
+const { sources } = Astro.props;
+const bookHref = (book: string) => books.find((entry) => entry.short === book || entry.title === book)?.id;
+---
+<div class="source-list">
+  <span class="label">来源：</span>
+  {sources.map((source, index) => (
+    <span class="source-ref">
+      {index > 0 && <span aria-hidden="true"> · </span>}
+      {bookHref(source.book) ? <a href={`/books/${bookHref(source.book)}`}>{source.book}</a> : source.book}
+      {source.page ? ` p.${source.page}` : ''}{source.section ? ` · ${source.section}` : ''}
+    </span>
+  ))}
+</div>

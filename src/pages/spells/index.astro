@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntryTable from '../../components/EntryTable.astro';
+import SourceList from '../../components/SourceList.astro';
+import { spells } from '../../data/public/spells';
+const classes = [...new Set(spells.flatMap((spell) => spell.classes))].sort();
+const schools = [...new Set(spells.map((spell) => spell.school))].sort();
+const sources = [...new Set(spells.flatMap((spell) => spell.source.map((source) => source.book)))].sort();
+const rows = spells.map((spell) => [spell.nameZh, spell.nameEn, spell.classes.join(' / '), String(spell.level), spell.school, spell.components.join('/'), spell.range]);
+const links = spells.map((spell) => [`/spells/${spell.id}`, undefined, undefined, undefined, undefined, undefined, undefined]);
+---
+<BaseLayout title="法术表" description="AD&D 1E 中文法术索引与组合筛选。">
+  <div class="section-heading"><h1>法术表</h1><a href="/search?type=spell">在全站搜索法术</a></div>
+  <p class="lede">保留 Magic-User、Illusionist、Cleric、Druid、segment、reversible spell 等 1E 语境。当前为可扩展的示例数据集。</p>
+  <div class="controls">
+    <div class="filter-grid">
+      <label>名称 <input id="spell-name" type="search" placeholder="中文或英文" /></label>
+      <label>职业 <select id="spell-class"><option value="">全部职业</option>{classes.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
+      <label>环级 <select id="spell-level"><option value="">全部等级</option>{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((level) => <option value={level}>{level}</option>)}</select></label>
+      <label>学派 <select id="spell-school"><option value="">全部学派</option>{schools.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
+      <label>来源 <select id="spell-source"><option value="">全部来源</option>{sources.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
+    </div>
+    <div class="checkbox-row">{['V', 'S', 'M'].map((component) => <label><input type="checkbox" name="spell-component" value={component} /> {component}</label>)}<label><input id="spell-reversible" type="checkbox" /> 仅可逆法术</label></div>
+  </div>
+  <p id="spell-count" class="results-count">显示 {spells.length} 条法术</p>
+  <div id="spell-results">
+    <EntryTable headers={['中文名', '英文名', '职业', '环级', '学派', '成分', '距离']} rows={rows} links={links} />
+  </div>
+  <p class="muted small">来源字段示例：</p>
+  <SourceList sources={spells[0].source} />
+  <script define:vars={{ spells }}>
+    const name = document.querySelector('#spell-name');
+    const classSelect = document.querySelector('#spell-class');
+    const levelSelect = document.querySelector('#spell-level');
+    const schoolSelect = document.querySelector('#spell-school');
+    const sourceSelect = document.querySelector('#spell-source');
+    const reversible = document.querySelector('#spell-reversible');
+    const componentChecks = [...document.querySelectorAll('input[name="spell-component"]')];
+    const results = document.querySelector('#spell-results');
+    const count = document.querySelector('#spell-count');
+    const render = () => {
+      const query = name.value.trim().toLowerCase();
+      const chosenComponents = componentChecks.filter((input) => input.checked).map((input) => input.value);
+      const filtered = spells.filter((spell) => (!query || `${spell.nameZh} ${spell.nameEn} ${spell.description} ${spell.tags.join(' ')}`.toLowerCase().includes(query)) && (!classSelect.value || spell.classes.includes(classSelect.value)) && (!levelSelect.value || String(spell.level) === levelSelect.value) && (!schoolSelect.value || spell.school === schoolSelect.value) && (!sourceSelect.value || spell.source.some((source) => source.book === sourceSelect.value)) && (!chosenComponents.length || chosenComponents.every((component) => spell.components.includes(component))) && (!reversible.checked || spell.reversible));
+      count.textContent = `显示 ${filtered.length} 条法术`;
+      results.innerHTML = `<div class="table-wrap"><table class="data-table"><thead><tr><th>中文名</th><th>英文名</th><th>职业</th><th>环级</th><th>学派</th><th>成分</th><th>距离</th></tr></thead><tbody>${filtered.map((spell) => `<tr><td><a href="/spells/${spell.id}">${spell.nameZh}</a></td><td>${spell.nameEn}</td><td>${spell.classes.join(' / ')}</td><td>${spell.level}</td><td>${spell.school}</td><td>${spell.components.join('/')}</td><td>${spell.range}</td></tr>`).join('')}</tbody></table></div>`;
+    };
+    [name, classSelect, levelSelect, schoolSelect, sourceSelect, reversible, ...componentChecks].forEach((element) => element.addEventListener('input', render));
+  </script>
+</BaseLayout>

@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { races } from '../../data/public/races';
+---
+<BaseLayout title="种族"><h1>种族</h1><p class="lede">种族限制、语言、移动与特殊能力索引。种族条目保持与职业、多职业和等级限制的交叉链接空间。</p><div class="catalog-list">{races.map((entry) => <article class="catalog-row"><div class="book-code">{entry.nameEn}</div><div><h3><a href={`/races/${entry.id}`}>{entry.nameZh}</a></h3><p>属性：{entry.modifiers} · 移动：{entry.movement}</p><p class="muted small">{entry.abilities.join(' · ')}</p></div></article>)}</div></BaseLayout>

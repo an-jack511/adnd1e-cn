@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props { title?: string; description?: string; noIndex?: boolean }
+const { title = 'AD&D 第一版中文规则索引', description = 'AD&D 1st Edition 中文规则参考站。', noIndex = false } = Astro.props;
+const pageTitle = title === 'AD&D 第一版中文规则索引' ? title : `${title} · AD&D 1E 中文规则索引`;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex" />}
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <SiteHeader />
+    <main class="page-shell">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

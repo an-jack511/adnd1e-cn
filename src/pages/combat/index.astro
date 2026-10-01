@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { rules } from '../../data/public/rules';
+const combatRules = rules.filter((rule) => rule.category === 'combat');
+const directory = ['战斗流程', '突袭 Surprise', '先攻 Initiative', 'Segment', '移动 Movement', '近战 Melee', '远程攻击 Missile combat', '护甲等级 Armor Class', '攻击矩阵 Attack matrix', '伤害 Damage', '武器速度 Weapon speed', '战斗施法 Spell casting in combat', '法术中断 Spell interruption', 'Charge', 'Cover', 'Grappling', 'Pummeling', 'Overbearing', 'Morale', 'Unconsciousness', 'Death', 'Healing'];
+---
+<BaseLayout title="战斗规则"><h1>战斗规则</h1><p class="lede">将 PHB、DMG 与扩展来源按跑团中的查询顺序重新排列。英文术语保留，便于对照原书。</p><h2>战斗目录</h2><div class="link-index">{directory.map((label) => <span>{combatRules.find((rule) => rule.title.toLowerCase().includes(label.split(' ')[0].toLowerCase())) ? <a href={`/combat/${combatRules.find((rule) => rule.title.toLowerCase().includes(label.split(' ')[0].toLowerCase())).id}`}>{label}</a> : <span class="muted">{label}（待补）</span>}</span>)}</div><h2>当前已整理</h2><div class="catalog-list">{combatRules.map((rule) => <article class="catalog-row"><div class="book-code">COMBAT</div><div><h3><a href={`/combat/${rule.id}`}>{rule.title}</a></h3><p>{rule.summary}</p></div></article>)}</div></BaseLayout>

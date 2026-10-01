@@ -1,0 +1,21 @@
+{
+  "name": "adnd1e-cn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "build:search-index": "tsx scripts/build-search-index.ts"
+  },
+  "dependencies": {
+    "astro": "5.15.5",
+    "typescript": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest"
+  }
+}

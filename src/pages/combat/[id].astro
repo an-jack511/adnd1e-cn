@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { rules } from '../../data/public/rules';
+export function getStaticPaths() { return rules.filter((rule) => rule.category === 'combat').map((rule) => ({ params: { id: rule.id }, props: { rule } })); }
+const { rule } = Astro.props;
+---
+<BaseLayout title={rule.title}><article><header class="entry-header"><h1>{rule.title}</h1><p class="lede">{rule.summary}</p></header>{rule.body.map((paragraph) => <p>{paragraph}</p>)}{rule.related && <><h2>相关规则</h2><ul class="related-list">{rule.related.map((related) => <li><a href={related.href}>{related.label}</a></li>)}</ul></>}<SourceList sources={rule.source} /><p><a href="/combat">← 返回战斗目录</a></p></article></BaseLayout>

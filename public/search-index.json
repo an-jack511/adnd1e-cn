@@ -1,0 +1,800 @@
+[
+  {
+    "type": "法术",
+    "href": "/spells/detect-magic",
+    "nameZh": "侦测魔法",
+    "nameEn": "Detect Magic",
+    "description": "使施法者能够察觉视野内物体或生物上的魔法灵光。灵光的强弱与性质由主持人裁定。",
+    "tags": [
+      "信息",
+      "探索"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/magic-missile",
+    "nameZh": "魔法飞弹",
+    "nameEn": "Magic Missile",
+    "description": "从施法者指尖射出一枚或多枚魔法飞弹，自动命中可见目标。",
+    "tags": [
+      "战斗"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/shield",
+    "nameZh": "护盾术",
+    "nameEn": "Shield",
+    "description": "形成一面不可见的护盾，改善施法者正面受到的 AC 与飞弹防护。",
+    "tags": [
+      "防御",
+      "战斗"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/sleep",
+    "nameZh": "睡眠术",
+    "nameEn": "Sleep",
+    "description": "使一定数量的低生命骰生物陷入魔法睡眠。",
+    "tags": [
+      "控制",
+      "战斗"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/read-magic",
+    "nameZh": "阅读魔法",
+    "nameEn": "Read Magic",
+    "description": "阅读魔法卷轴、书籍和铭文中的文字，但不会使其内容永久可读。",
+    "tags": [
+      "信息",
+      "探索"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/cure-light-wounds",
+    "nameZh": "治疗轻伤",
+    "nameEn": "Cure Light Wounds",
+    "description": "恢复受术者少量生命值。其可逆形式造成同等性质的伤害。",
+    "tags": [
+      "治疗",
+      "防御"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/bless",
+    "nameZh": "祝福",
+    "nameEn": "Bless",
+    "description": "鼓舞盟友，使其在特定检定或战斗情境中获得小幅加值。",
+    "tags": [
+      "防御",
+      "支持"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/entangle",
+    "nameZh": "纠缠术",
+    "nameEn": "Entangle",
+    "description": "令范围内的植物缠住生物，具体效果取决于地形与植物数量。",
+    "tags": [
+      "控制",
+      "探索"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/invisibility",
+    "nameZh": "隐形术",
+    "nameEn": "Invisibility",
+    "description": "使目标从普通视觉中消失；攻击或施法通常会终止效果。",
+    "tags": [
+      "探索",
+      "防御",
+      "移动"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "法术",
+    "href": "/spells/fireball",
+    "nameZh": "火球术",
+    "nameEn": "Fireball",
+    "description": "在指定点爆发火焰，伤害范围内生物。球体会受空间限制影响。",
+    "tags": [
+      "战斗",
+      "范围"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/owlbear",
+    "nameZh": "枭熊",
+    "nameEn": "Owlbear",
+    "description": "凶猛的混合兽，拥有羽毛、利爪与强大的拥抱攻击。",
+    "tags": [
+      "森林",
+      "中立",
+      "大型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/goblin",
+    "nameZh": "哥布林",
+    "nameEn": "Goblin",
+    "description": "群居的地精类生物，偏好伏击与数量优势。",
+    "tags": [
+      "地下/丘陵",
+      "混乱邪恶",
+      "小型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/orc",
+    "nameZh": "兽人",
+    "nameEn": "Orc",
+    "description": "好战且组织松散的类人生物，常以部落形式活动。",
+    "tags": [
+      "任何",
+      "混乱邪恶",
+      "中型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/kobold",
+    "nameZh": "狗头人",
+    "nameEn": "Kobold",
+    "description": "小型、警觉并擅长利用陷阱的类人生物。",
+    "tags": [
+      "地下",
+      "守序邪恶",
+      "小型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/ogre",
+    "nameZh": "食人魔",
+    "nameEn": "Ogre",
+    "description": "体型巨大的类人生物，通常携带粗重武器与杂物。",
+    "tags": [
+      "任何",
+      "混乱邪恶",
+      "大型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/skeleton",
+    "nameZh": "骷髅",
+    "nameEn": "Skeleton",
+    "description": "由死灵力量驱动的无生命骨骼，执行简单命令。",
+    "tags": [
+      "任何",
+      "中立邪恶",
+      "中型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/zombie",
+    "nameZh": "僵尸",
+    "nameEn": "Zombie",
+    "description": "缓慢而顽强的无生命生物，常被用于守卫与劳役。",
+    "tags": [
+      "任何",
+      "中立邪恶",
+      "中型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/giant-rat",
+    "nameZh": "巨鼠",
+    "nameEn": "Giant Rat",
+    "description": "适应阴暗环境的啮齿动物，咬伤可能传播疾病。",
+    "tags": [
+      "地下/城市",
+      "中立",
+      "小型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/giant-spider",
+    "nameZh": "巨型蜘蛛",
+    "nameEn": "Giant Spider",
+    "description": "会结网并使用毒素捕食的巨型节肢动物。",
+    "tags": [
+      "森林/地下",
+      "中立",
+      "大型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "怪物",
+    "href": "/monsters/young-red-dragon",
+    "nameZh": "幼年红龙",
+    "nameEn": "Young Red Dragon",
+    "description": "拥有炽热吐息的年轻红龙示例；完整龙类成长阶段另行整理。",
+    "tags": [
+      "山地",
+      "混乱邪恶",
+      "大型"
+    ],
+    "source": [
+      "MM"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/long-sword",
+    "nameZh": "长剑",
+    "nameEn": "Long Sword",
+    "description": "常见的单手军用剑。",
+    "tags": [
+      "武器",
+      "近战"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/short-sword",
+    "nameZh": "短剑",
+    "nameEn": "Short Sword",
+    "description": "适合近身与狭窄空间作战的剑。",
+    "tags": [
+      "武器",
+      "近战"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/dagger",
+    "nameZh": "匕首",
+    "nameEn": "Dagger",
+    "description": "可近战，也可投掷的短兵器。",
+    "tags": [
+      "武器",
+      "投掷"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/mace",
+    "nameZh": "钉头锤",
+    "nameEn": "Mace",
+    "description": "钝击武器，常见于牧师。",
+    "tags": [
+      "武器",
+      "钝击"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/shield",
+    "nameZh": "盾牌",
+    "nameEn": "Shield",
+    "description": "提供 AC 改善的手持防具。",
+    "tags": [
+      "护甲",
+      "防御"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/leather-armor",
+    "nameZh": "皮甲",
+    "nameEn": "Leather Armor",
+    "description": "轻型皮制护甲，可供盗贼与其他轻装职业使用。",
+    "tags": [
+      "护甲"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/backpack",
+    "nameZh": "背包",
+    "nameEn": "Backpack",
+    "description": "用于携带冒险物资的容器。",
+    "tags": [
+      "冒险",
+      "容器"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/lantern",
+    "nameZh": "提灯",
+    "nameEn": "Lantern",
+    "description": "以油为燃料的照明工具；参见光照规则。",
+    "tags": [
+      "光照",
+      "探索"
+    ],
+    "source": [
+      "PHB",
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/warhorse",
+    "nameZh": "战马",
+    "nameEn": "Warhorse",
+    "description": "训练用于骑战的马匹。骑乘与冲锋规则另见战斗章节。",
+    "tags": [
+      "动物",
+      "坐骑"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "装备",
+    "href": "/equipment/healing-potion",
+    "nameZh": "治疗药水",
+    "nameEn": "Potion of Healing",
+    "description": "饮用后恢复一定生命值；具体可用版本与价格由主持人决定。",
+    "tags": [
+      "魔法",
+      "治疗"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "职业",
+    "href": "/classes/fighter",
+    "nameZh": "战士",
+    "nameEn": "Fighter",
+    "description": "专精武器与近战的基础职业。战士的价值在于稳定的战斗能力、广泛的装备选择与高等级后的战斗成长。",
+    "tags": [
+      "STR"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "职业",
+    "href": "/classes/magic-user",
+    "nameZh": "魔法使用者",
+    "nameEn": "Magic-User",
+    "description": "以研究法术为核心的施法职业。法术书、准备与施法时机是该职业在战场上的关键。",
+    "tags": [
+      "INT"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "种族",
+    "href": "/races/human",
+    "nameZh": "人类",
+    "nameEn": "Human",
+    "description": "适应性强；可选择任意单一职业",
+    "tags": [
+      "12\""
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "种族",
+    "href": "/races/elf",
+    "nameZh": "精灵",
+    "nameEn": "Elf",
+    "description": "黑暗视觉/夜视（按版本）；对特定秘门与隐藏门有察觉能力；可多职业",
+    "tags": [
+      "12\""
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/initiative",
+    "nameZh": "先攻 Initiative",
+    "nameEn": "",
+    "description": "每轮开始时确定行动顺序；具体采用团规或规则书版本应在战役说明中注明。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB",
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/surprise",
+    "nameZh": "突袭 Surprise",
+    "nameEn": "",
+    "description": "决定一方是否在遭遇初始阶段失去行动或遭受特殊限制。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/rules/spell-casting",
+    "nameZh": "施法与 segments",
+    "nameEn": "",
+    "description": "AD&D 1E 施法时间以 segment 表示，不能直接套用现代回合制法术动作。",
+    "tags": [
+      "rules"
+    ],
+    "source": [
+      "PHB",
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/armor-class",
+    "nameZh": "护甲等级 Armor Class",
+    "nameEn": "",
+    "description": "1E 的 AC 通常越低越好；武器调整值与盾牌等修正依具体表格处理。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/movement-time-distance",
+    "nameZh": "移动、时间与距离",
+    "nameEn": "",
+    "description": "将英尺、英寸标记、round 与 turn 分开记录。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/encumbrance",
+    "nameZh": "负重 Encumbrance",
+    "nameEn": "",
+    "description": "物品重量会影响移动、行动与长途旅行。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/light",
+    "nameZh": "光照 Light",
+    "nameEn": "",
+    "description": "火把、提灯、法术与黑暗视觉决定可见范围。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/traps",
+    "nameZh": "陷阱 Traps",
+    "nameEn": "",
+    "description": "搜索、触发与解除陷阱是地下城探索流程的一部分。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/rules/strongholds",
+    "nameZh": "据点 Strongholds",
+    "nameEn": "",
+    "description": "高等级人物可以通过职业能力、财富与故事进展建立据点。",
+    "tags": [
+      "rules"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/rules/ability-scores",
+    "nameZh": "属性与派生值",
+    "nameEn": "",
+    "description": "角色卡根据 STR、DEX、CON、CHA 等属性显示常用派生值。",
+    "tags": [
+      "rules"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/rules/campaign-management",
+    "nameZh": "战役管理（预留）",
+    "nameEn": "",
+    "description": "用于放置未来的战役、训练、追随者和世界设定索引。",
+    "tags": [
+      "rules"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/rules/optional-rules",
+    "nameZh": "可选规则（预留）",
+    "nameEn": "",
+    "description": "用于 UA 与其他扩展来源的可选规则。",
+    "tags": [
+      "rules"
+    ],
+    "source": [
+      "UA"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/combat-sequence",
+    "nameZh": "战斗流程",
+    "nameEn": "",
+    "description": "以 round 为单位组织声明、先攻、移动、攻击与结算。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/damage",
+    "nameZh": "伤害 Damage",
+    "nameEn": "",
+    "description": "攻击命中后按武器、怪物或法术的伤害表达式处理。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/spell-interruption",
+    "nameZh": "法术中断",
+    "nameEn": "",
+    "description": "施法时间跨越战斗流程时，受到攻击或其他干扰可能导致施法失败。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/multiple-attacks",
+    "nameZh": "多重攻击",
+    "nameEn": "",
+    "description": "高等级职业或特定生物可能在一轮中拥有多次攻击。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/combat/weapon-proficiency",
+    "nameZh": "武器熟练（预留）",
+    "nameEn": "",
+    "description": "用于扩展不同版本的武器熟练与非熟练规则。",
+    "tags": [
+      "combat"
+    ],
+    "source": [
+      "UA"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/encounters",
+    "nameZh": "遭遇 Encounters",
+    "nameEn": "",
+    "description": "从旅行、地下城与城市活动中进入遭遇流程。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/silent-movement",
+    "nameZh": "静默移动",
+    "nameEn": "",
+    "description": "移动噪音、环境与地形会影响偷袭和遭遇判断。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "PHB"
+    ],
+    "aliases": []
+  },
+  {
+    "type": "规则",
+    "href": "/adventure/pursuit",
+    "nameZh": "追逐 Pursuit",
+    "nameEn": "",
+    "description": "用于处理逃跑、追赶与距离变化。",
+    "tags": [
+      "adventure"
+    ],
+    "source": [
+      "DMG"
+    ],
+    "aliases": []
+  }
+]

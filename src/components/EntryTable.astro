@@ -1,0 +1,16 @@
+---
+interface Props { headers: string[]; rows: string[][]; links?: (string | undefined)[][] }
+const { headers, rows, links = [] } = Astro.props;
+---
+<div class="table-wrap">
+  <table class="data-table">
+    <thead><tr>{headers.map((header) => <th scope="col">{header}</th>)}</tr></thead>
+    <tbody>
+      {rows.map((row, rowIndex) => (
+        <tr>
+          {row.map((cell, cellIndex) => <td>{links[rowIndex]?.[cellIndex] ? <a href={links[rowIndex][cellIndex]}>{cell}</a> : cell}</td>)}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
