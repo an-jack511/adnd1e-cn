@@ -8,7 +8,7 @@ const links = items.map((item) => [`/equipment/${item.id}`, undefined, undefined
 ---
 <BaseLayout title="装备与物品" description="AD&D 1E 中文装备与魔法物品索引。">
   <div class="section-heading"><h1>装备与物品</h1><a href="/search?type=item">在全站搜索装备</a></div>
-  <p class="lede">普通装备与魔法物品共用一个可扩展结构；武器保留 S/M、L、长度、space required、speed factor、AC adjustment 等 1E 属性。</p>
+  <p class="lede">普通装备与魔法物品。武器条目保留 S/M、L、长度、space required、speed factor 与 AC adjustment 等 1E 数据。</p>
   <div class="controls"><div class="filter-grid">
     <label>名称 <input id="item-name" type="search" /></label>
     <label>类别 <select id="item-category"><option value="">全部类别</option>{categories.map((category) => <option value={category}>{category}</option>)}</select></label>

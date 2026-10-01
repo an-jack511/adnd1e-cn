@@ -4,54 +4,31 @@ import { books } from '../data/public/books';
 import { spells } from '../data/public/spells';
 import { monsters } from '../data/public/monsters';
 import { items } from '../data/public/items';
-import { rules } from '../data/public/rules';
 ---
 <BaseLayout>
-  <section>
-    <h1>AD&amp;D 第一版中文规则索引</h1>
-    <p class="lede">Advanced Dungeons &amp; Dragons 1st Edition</p>
-    <form class="search-form" action="/search" method="get">
-      <label class="screen-only" for="home-search">搜索规则、法术、怪物或装备</label>
-      <input id="home-search" name="q" type="search" placeholder="搜索中文名、英文名、标签或来源……" />
-      <button type="submit">搜索</button>
-    </form>
-  </section>
+  <p class="home-intro">本站整理 AD&amp;D 1st Edition 中文规则资料。条目按跑团时的查询用途编排，并保留原书来源。</p>
+  <form class="home-search" action="/search" method="get">
+    <label for="home-search">站内检索：</label>
+    <input id="home-search" name="q" type="search" size="34" />
+    <button type="submit">搜索</button>
+  </form>
 
-  <div class="home-grid">
-    <fieldset><legend>快速入口</legend><ul>
-      <li><a href="/adventure">冒险</a></li>
-      <li><a href="/combat">战斗</a></li>
-      <li><a href="/races">种族</a></li>
-      <li><a href="/classes">职业</a></li>
-      <li><a href="/spells">法术表</a></li>
-    </ul></fieldset>
-    <fieldset><legend>资料库</legend><ul>
-      <li><a href="/equipment">装备与物品</a></li>
-      <li><a href="/monsters">怪物合集</a></li>
-      <li><a href="/psionics">灵能与其他规则</a></li>
-      <li><a href="/books">规则书</a></li>
-      <li><a href="/tables">随机表</a></li>
-    </ul></fieldset>
-    <fieldset><legend>桌面工具</legend><ul>
-      <li><a href="/character">快速车卡</a></li>
-      <li><a href="/search">全站搜索</a></li>
-      <li><a href="/rules">规则索引</a></li>
-    </ul></fieldset>
-  </div>
+  <h2>规则资料</h2>
+  <table class="home-directory"><tbody>
+    <tr><th scope="row"><a href="/adventure/">冒险</a></th><td><a href="/adventure/movement-time-distance/">时间与移动</a> · <a href="/adventure/light/">光照</a> · <a href="/adventure/traps/">陷阱</a> · <a href="/adventure/encounters/">遭遇</a> · <a href="/adventure/encumbrance/">负重</a></td></tr>
+    <tr><th scope="row"><a href="/combat/">战斗</a></th><td><a href="/combat/combat-sequence/">战斗流程</a> · <a href="/combat/surprise/">突袭</a> · <a href="/combat/initiative/">先攻</a> · <a href="/combat/armor-class/">AC</a> · <a href="/combat/damage/">伤害</a></td></tr>
+    <tr><th scope="row">人物</th><td><a href="/races/">种族</a> · <a href="/classes/">职业</a> · <a href="/character/">快速车卡</a> · <a href="/rules/ability-scores/">属性与派生值</a></td></tr>
+    <tr><th scope="row">资料库</th><td><a href="/spells/">法术表</a>（{spells.length}） · <a href="/equipment/">装备与物品</a>（{items.length}） · <a href="/monsters/">怪物合集</a>（{monsters.length}） · <a href="/tables/">随机表</a></td></tr>
+    <tr><th scope="row">其他规则</th><td><a href="/psionics/">灵能与其他规则</a> · <a href="/rules/strongholds/">据点</a> · <a href="/rules/">全部规则索引</a></td></tr>
+  </tbody></table>
 
-  <hr class="rule" />
-  <div class="two-column">
-    <section>
-      <h2>按对象查找</h2>
-      <p><a href="/spells">法术</a>（{spells.length} 条示例） · <a href="/monsters">怪物</a>（{monsters.length} 条示例） · <a href="/equipment">装备</a>（{items.length} 条示例）</p>
-      <p><a href="/combat">战斗规则</a>（{rules.filter((rule) => rule.category === 'combat').length} 条） · <a href="/adventure">冒险规则</a>（{rules.filter((rule) => rule.category === 'adventure').length} 条）</p>
-    </section>
-    <section>
-      <h2>规则书</h2>
-      <p>{books.map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}`}>{book.short}</a></span>)}</p>
-      <p class="muted small">规则书是来源与连续阅读入口；结构化条目按实际查询需求重新组织。</p>
-    </section>
-  </div>
+  <h2>规则书</h2>
+  <p class="book-shortcuts">{books.map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a></span>)}</p>
 
-  <div class="notice"><strong>版权与内容说明：</strong>当前版本只包含示例数据、结构化字段和少量短说明。未来翻译内容请放入明确授权的内容目录，并通过导入脚本进入数据层。</div>
+  <h2>最近整理</h2>
+  <table class="updates-table"><tbody>
+    <tr><td>2026-10-02</td><td>调整目录和查询页面排版。</td></tr>
+    <tr><td>2026-10-01</td><td>建立法术、怪物、装备索引及来源链接。</td></tr>
+  </tbody></table>
+  <p class="small">当前为示例数据。完整翻译内容将按来源核对后逐批加入。</p>
 </BaseLayout>

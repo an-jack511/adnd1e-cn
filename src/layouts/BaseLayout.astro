@@ -6,6 +6,18 @@ import SiteFooter from '../components/SiteFooter.astro';
 interface Props { title?: string; description?: string; noIndex?: boolean }
 const { title = 'AD&D 第一版中文规则索引', description = 'AD&D 1st Edition 中文规则参考站。', noIndex = false } = Astro.props;
 const pageTitle = title === 'AD&D 第一版中文规则索引' ? title : `${title} · AD&D 1E 中文规则索引`;
+const segments = Astro.url.pathname.split('/').filter(Boolean);
+const isHome = segments.length === 0;
+const sectionNames: Record<string, string> = {
+  adventure: '冒险规则', combat: '战斗规则', races: '种族', classes: '职业',
+  spells: '法术表', equipment: '装备与物品', monsters: '怪物合集',
+  psionics: '灵能与其他规则', character: '快速车卡', books: '规则书',
+  rules: '规则索引', tables: '随机表', search: '全站搜索', illustrations: '插图'
+};
+const section = segments[0];
+const sectionHref = section === 'illustrations' ? '/monsters/' : `/${section}/`;
+const sectionTitle = section === 'illustrations' ? '怪物合集' : sectionNames[section];
+const crumbTitle = segments.length > 1 ? title.replace(/^.*? · /, '').replace(/\s+[A-Z][A-Za-z -]*$/, '') : undefined;
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -16,9 +28,10 @@ const pageTitle = title === 'AD&D 第一版中文规则索引' ? title : `${titl
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{pageTitle}</title>
   </head>
-  <body>
+  <body class={isHome ? 'home-page' : `section-${section}`}>
     <SiteHeader />
     <main class="page-shell">
+      {!isHome && <nav class="breadcrumbs" aria-label="当前位置"><a href="/">首页</a> &gt; {segments.length > 1 ? <><a href={sectionHref}>{sectionTitle}</a> &gt; <span>{crumbTitle}</span></> : <span>{sectionTitle}</span>}</nav>}
       <slot />
     </main>
     <SiteFooter />

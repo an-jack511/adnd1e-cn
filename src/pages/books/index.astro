@@ -2,4 +2,4 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { books } from '../../data/public/books';
 ---
-<BaseLayout title="规则书"><h1>规则书</h1><p class="lede">Book Mode 的入口。结构化 Reference Mode 会反向链接回这里的来源章节；完整书页只放入用户已有或明确授权的内容。</p><div class="book-list">{books.map((book) => <article class="book-row"><div class="book-code">{book.short}</div><div><h3><a href={`/books/${book.id}`}>{book.titleZh}</a></h3><p>{book.description}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="规则书"><h1>规则书</h1><p class="lede">按原书顺序阅读的入口。规则条目会标明来源并链接到相应章节；连续正文仅收录已有或明确授权的内容。</p><div class="book-list">{books.map((book) => <article class="book-row"><div class="book-code">{book.short}</div><div><h3><a href={`/books/${book.id}`}>{book.titleZh}</a></h3><p>{book.description}</p></div></article>)}</div></BaseLayout>

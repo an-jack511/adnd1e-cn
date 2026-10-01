@@ -2,6 +2,18 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { rules } from '../../data/public/rules';
 const combatRules = rules.filter((rule) => rule.category === 'combat');
-const directory = ['战斗流程', '突袭 Surprise', '先攻 Initiative', 'Segment', '移动 Movement', '近战 Melee', '远程攻击 Missile combat', '护甲等级 Armor Class', '攻击矩阵 Attack matrix', '伤害 Damage', '武器速度 Weapon speed', '战斗施法 Spell casting in combat', '法术中断 Spell interruption', 'Charge', 'Cover', 'Grappling', 'Pummeling', 'Overbearing', 'Morale', 'Unconsciousness', 'Death', 'Healing'];
+const groups = [
+  { name: '开始与顺序', entries: [['战斗流程', 'combat-sequence'], ['突袭 Surprise', 'surprise'], ['先攻 Initiative', 'initiative'], ['Segment', ''], ['移动 Movement', '']] },
+  { name: '攻击与防御', entries: [['近战 Melee', ''], ['远程 Missile', ''], ['护甲等级 AC', 'armor-class'], ['攻击矩阵', ''], ['伤害 Damage', 'damage'], ['武器速度', ''], ['多重攻击', 'multiple-attacks']] },
+  { name: '施法', entries: [['战斗施法', '/rules/spell-casting'], ['法术中断', 'spell-interruption']] },
+  { name: '特殊情形', entries: [['冲锋', ''], ['掩护', ''], ['擒抱', ''], ['拳击', ''], ['压倒', ''], ['士气', ''], ['昏迷与死亡', ''], ['治疗', '']] }
+];
 ---
-<BaseLayout title="战斗规则"><h1>战斗规则</h1><p class="lede">将 PHB、DMG 与扩展来源按跑团中的查询顺序重新排列。英文术语保留，便于对照原书。</p><h2>战斗目录</h2><div class="link-index">{directory.map((label) => <span>{combatRules.find((rule) => rule.title.toLowerCase().includes(label.split(' ')[0].toLowerCase())) ? <a href={`/combat/${combatRules.find((rule) => rule.title.toLowerCase().includes(label.split(' ')[0].toLowerCase())).id}`}>{label}</a> : <span class="muted">{label}（待补）</span>}</span>)}</div><h2>当前已整理</h2><div class="catalog-list">{combatRules.map((rule) => <article class="catalog-row"><div class="book-code">COMBAT</div><div><h3><a href={`/combat/${rule.id}`}>{rule.title}</a></h3><p>{rule.summary}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="战斗规则">
+  <h1>战斗规则</h1>
+  <p class="lede">按跑团中的查询顺序编排；英文术语保留，便于对照原书。灰字项目尚待录入。</p>
+  <h2>目录</h2>
+  <table class="directory-groups"><tbody>{groups.map((group) => <tr><th scope="row">{group.name}</th><td>{group.entries.map(([label, id]) => id ? <a href={id.startsWith('/') ? id : `/combat/${id}/`}>{label}</a> : <span class="muted">{label}</span>)}</td></tr>)}</tbody></table>
+  <h2>已整理条目</h2>
+  <ul class="entry-index">{combatRules.map((rule) => <li><a href={`/combat/${rule.id}/`}>{rule.title}</a> — {rule.summary}</li>)}</ul>
+</BaseLayout>

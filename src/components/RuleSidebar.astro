@@ -1,0 +1,16 @@
+---
+import { rules } from '../data/public/rules';
+interface Props { category: 'adventure' | 'combat' | 'rules' }
+const { category } = Astro.props;
+const heading = category === 'adventure' ? '冒险规则' : category === 'combat' ? '战斗规则' : '其他规则';
+const entries = rules.filter((rule) => rule.category === category);
+const section = category === 'rules' ? 'rules' : category;
+---
+<aside class="article-sidebar" aria-label="同类规则目录">
+  <h3><a href={`/${section}/`}>{heading}</a></h3>
+  {entries.map((rule) => <a href={`/${section}/${rule.id}/`}>{rule.title}</a>)}
+  <h3>相关目录</h3>
+  <a href="/spells/">法术表</a>
+  <a href="/equipment/">装备与物品</a>
+  <a href="/tables/">随机表</a>
+</aside>

@@ -2,6 +2,18 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { rules } from '../../data/public/rules';
 const adventureRules = rules.filter((rule) => rule.category === 'adventure');
-const topics = ['时间', 'Movement', '地下城探索', '荒野旅行', '光照', '门', '聆听', '搜索', '陷阱', '遭遇', '突袭', '天气', '坐骑', '雇员', 'Henchmen', '负重', '休息', '食物', '水', '追逐', '随机遭遇'];
+const groups = [
+  { name: '地下城与探索', entries: [['时间与移动', 'movement-time-distance'], ['光照', 'light'], ['陷阱', 'traps'], ['静默移动', 'silent-movement'], ['门', ''], ['搜索', ''], ['聆听', '']] },
+  { name: '遭遇', entries: [['遭遇流程', 'encounters'], ['突袭', '/combat/surprise'], ['随机遭遇', ''], ['追逐', 'pursuit']] },
+  { name: '荒野与旅行', entries: [['荒野旅行', ''], ['天气', ''], ['坐骑', ''], ['食物与水', ''], ['休息', '']] },
+  { name: '其他', entries: [['负重', 'encumbrance'], ['雇员', ''], ['Henchmen', '']] }
+];
 ---
-<BaseLayout title="冒险规则"><h1>冒险规则</h1><p class="lede">按跑团流程整理时间、移动、地下城、荒野与遭遇相关规则。</p><h2>查询目录</h2><div class="link-index">{topics.map((topic) => { const rule = adventureRules.find((entry) => entry.title.toLowerCase().includes(topic.split(' ')[0].toLowerCase())); return rule ? <a href={`/adventure/${rule.id}`}>{topic}</a> : <span class="muted">{topic}（待补）</span>; })}</div><h2>当前已整理</h2><div class="catalog-list">{adventureRules.map((rule) => <article class="catalog-row"><div class="book-code">ADVENTURE</div><div><h3><a href={`/adventure/${rule.id}`}>{rule.title}</a></h3><p>{rule.summary}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="冒险规则">
+  <h1>冒险规则</h1>
+  <p class="lede">按探索与旅行时的查询顺序整理。灰字项目尚待录入。</p>
+  <h2>目录</h2>
+  <table class="directory-groups"><tbody>{groups.map((group) => <tr><th scope="row">{group.name}</th><td>{group.entries.map(([label, id]) => id ? <a href={id.startsWith('/') ? id : `/adventure/${id}/`}>{label}</a> : <span class="muted">{label}</span>)}</td></tr>)}</tbody></table>
+  <h2>已整理条目</h2>
+  <ul class="entry-index">{adventureRules.map((rule) => <li><a href={`/adventure/${rule.id}/`}>{rule.title}</a> — {rule.summary}</li>)}</ul>
+</BaseLayout>

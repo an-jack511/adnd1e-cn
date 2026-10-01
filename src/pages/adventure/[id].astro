@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
+import RuleSidebar from '../../components/RuleSidebar.astro';
 import { rules } from '../../data/public/rules';
 export function getStaticPaths() { return rules.filter((rule) => rule.category === 'adventure').map((rule) => ({ params: { id: rule.id }, props: { rule } })); }
 const { rule } = Astro.props;
 ---
-<BaseLayout title={rule.title}><article><header class="entry-header"><h1>{rule.title}</h1><p class="lede">{rule.summary}</p></header>{rule.body.map((paragraph) => <p>{paragraph}</p>)}{rule.related && <><h2>相关规则</h2><ul class="related-list">{rule.related.map((related) => <li><a href={related.href}>{related.label}</a></li>)}</ul></>}<SourceList sources={rule.source} /><p><a href="/adventure">← 返回冒险目录</a></p></article></BaseLayout>
+<BaseLayout title={rule.title}><div class="article-layout"><RuleSidebar category="adventure" /><article class="article-body"><header class="entry-header"><h1>{rule.title}</h1><p class="lede">{rule.summary}</p></header>{rule.body.map((paragraph) => <p>{paragraph}</p>)}{rule.related && <><h2>相关规则</h2><ul class="related-list">{rule.related.map((related) => <li><a href={related.href}>{related.label}</a></li>)}</ul></>}<SourceList sources={rule.source} /><p><a href="/adventure">← 返回冒险目录</a></p></article></div></BaseLayout>
