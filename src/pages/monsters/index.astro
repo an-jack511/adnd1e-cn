@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EntryTable from '../../components/EntryTable.astro';
 import { monsters } from '../../data/public/monsters';
 const sources = [...new Set(monsters.flatMap((monster) => monster.source.map((source) => source.book)))].sort();
-const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.hitDice, String(monster.armorClass), monster.alignment, monster.size, monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
+const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.hitDice, monster.armorClassText ?? String(monster.armorClass), monster.alignment, monster.size, monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
 const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]);
 ---
 <BaseLayout title="怪物合集" description="AD&D 1E 中文怪物索引与筛选。">
@@ -29,7 +29,7 @@ const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, u
       const query = name.value.trim().toLowerCase();
       const filtered = monsters.filter((monster) => (!query || `${monster.nameZh} ${monster.nameEn} ${monster.description}`.toLowerCase().includes(query)) && (!hd.value || monster.hitDice.toLowerCase().includes(hd.value.trim().toLowerCase())) && (!ac.value || monster.armorClass <= Number(ac.value)) && (!alignment.value || monster.alignment.includes(alignment.value.trim())) && (!size.value || monster.size === size.value) && (!environment.value || monster.environment.includes(environment.value.trim())) && (!source.value || monster.source.some((entry) => entry.book === source.value)));
       count.textContent = `显示 ${filtered.length} 条怪物`;
-      results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>HD</th><th>AC</th><th>阵营</th><th>体型</th><th>环境</th><th>移动</th><th>魔抗</th><th>灵能</th></tr></thead><tbody>${filtered.map((monster) => `<tr><td><a href="/monsters/${monster.id}">${monster.nameZh}</a></td><td>${monster.nameEn}</td><td>${monster.hitDice}</td><td>${monster.armorClass}</td><td>${monster.alignment}</td><td>${monster.size}</td><td>${monster.environment}</td><td>${monster.movement}</td><td>${monster.magicResistance}</td><td>${monster.psionics}</td></tr>`).join('')}</tbody></table></div>`;
+      results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>HD</th><th>AC</th><th>阵营</th><th>体型</th><th>环境</th><th>移动</th><th>魔抗</th><th>灵能</th></tr></thead><tbody>${filtered.map((monster) => `<tr><td><a href="/monsters/${monster.id}">${monster.nameZh}</a></td><td>${monster.nameEn}</td><td>${monster.hitDice}</td><td>${monster.armorClassText ?? monster.armorClass}</td><td>${monster.alignment}</td><td>${monster.size}</td><td>${monster.environment}</td><td>${monster.movement}</td><td>${monster.magicResistance}</td><td>${monster.psionics}</td></tr>`).join('')}</tbody></table></div>`;
     };
     inputs.forEach((input) => input.addEventListener('input', render));
   </script>

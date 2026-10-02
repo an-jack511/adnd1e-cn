@@ -13,8 +13,9 @@ const gear = Array.from({ length: 7 }, (_, index) => index);
 ---
 <BaseLayout title="快速车卡">
   <h1>快速车卡</h1>
-  <p class="lede">参照 REF2《Player Character Sheets》的记录顺序重新编排：常用战斗数据在前，背景、物资与随从在后。网页表格为重新设计的可编辑版本，不是原表扫描复刻。</p>
+  <p class="lede">人物记录 · 属性、战斗、装备、经历与随从</p>
   <form id="character-form" class="record-sheet">
+    <section class="character-actions screen-only" aria-label="车卡操作"><h2>保存与导出</h2><button type="button" id="roll-3d6">随机 3d6</button><button type="button" id="roll-4d6">随机 4d6 去最低</button><button type="button" id="save-character">保存到浏览器</button><button type="button" id="load-character">加载保存</button><button type="button" id="export-character">导出人物 JSON</button><label class="button" for="import-character">导入人物 JSON</label><input id="import-character" class="visually-hidden" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 导出 PDF</button><p id="character-status" class="small muted" role="status"></p></section>
     <section class="sheet-page" aria-label="人物卡正面">
       <h2>角色记录 · 正面</h2>
       <div class="sheet-identity">
@@ -27,7 +28,7 @@ const gear = Array.from({ length: 7 }, (_, index) => index);
       </div>
 
       <div class="sheet-top-columns">
-        <section><h3>属性 Abilities</h3><div class="table-wrap"><table class="data-table sheet-abilities"><thead><tr><th>属性</th><th>值</th><th>常用调整</th></tr></thead><tbody>{abilities.map(([key, label]) => <tr><th scope="row">{key} <span class="small">{label}</span></th><td><input name={key} aria-label={`${label}数值`} inputmode="text" /></td><td id={`derived-${key}`}>—</td></tr>)}</tbody></table></div><p class="small muted">非凡力量可写作 18/01—18/00。派生值摘自 PHB 属性表工作译稿，尚待人工复核；不适用的分值请查原表。</p></section>
+        <section><h3>属性 Abilities</h3><div class="table-wrap"><table class="data-table sheet-abilities"><thead><tr><th>属性</th><th>值</th><th>常用调整</th></tr></thead><tbody>{abilities.map(([key, label]) => <tr><th scope="row">{key} <span class="small">{label}</span></th><td><input name={key} aria-label={`${label}数值`} inputmode="text" /></td><td id={`derived-${key}`}>—</td></tr>)}</tbody></table></div><p class="small muted">非凡力量：18/01—18/00。</p></section>
         <section><h3>豁免检定 Saving Throws</h3><div class="table-wrap"><table class="data-table sheet-saves"><thead><tr><th>类别</th><th>目标值</th><th>调整／原因</th></tr></thead><tbody>{saves.map((save, index) => <tr><th scope="row">{save}</th><td><input name={`save_${index}`} aria-label={`${save}目标值`} inputmode="numeric" /></td><td><input name={`save_note_${index}`} aria-label={`${save}调整`} /></td></tr>)}</tbody></table></div><label class="sheet-line">抗性／免疫 <input name="resistances" /></label></section>
       </div>
 
@@ -71,7 +72,6 @@ const gear = Array.from({ length: 7 }, (_, index) => index);
       <label class="sheet-line">值得记录的事件<textarea name="noteworthy_events" rows="3"></textarea></label>
     </section>
 
-    <section class="character-actions screen-only" aria-label="车卡操作"><h2>操作</h2><button type="button" id="roll-3d6">随机 3d6</button><button type="button" id="roll-4d6">随机 4d6 去最低</button><button type="button" id="save-character">保存到浏览器</button><button type="button" id="load-character">加载保存</button><button type="button" id="export-character">导出 JSON</button><label class="button" for="import-character">导入 JSON</label><input id="import-character" class="visually-hidden" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 保存 PDF</button><p id="character-status" class="small muted" role="status"></p></section>
   </form>
   <aside class="character-guide screen-only"><h2>规则提示</h2><ul id="rule-hints"><li>选择种族与职业后显示提示。</li></ul><p class="small muted">此表借鉴 REF2 将常用战斗信息置于正面、经历和物资置于背面的安排。保留浏览器本地保存、JSON 导入导出与打印功能。</p></aside>
   <script define:vars={{ classes, races, abilityTables }}>
@@ -119,7 +119,7 @@ const gear = Array.from({ length: 7 }, (_, index) => index);
     document.querySelector('#roll-4d6').addEventListener('click', () => roll(true));
     document.querySelector('#save-character').addEventListener('click', () => { localStorage.setItem('adnd1e-character', JSON.stringify(data())); status.textContent = '已保存到此浏览器。'; });
     document.querySelector('#load-character').addEventListener('click', () => { try { const saved = JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null'); if (!saved) { status.textContent = '没有找到保存的人物。'; return; } applyData(saved); status.textContent = '已加载保存的人物。'; } catch { status.textContent = '保存内容无法读取。'; } });
-    document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(data(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${data().name || 'adnd1e-character'}.json`; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000); });
+    document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(data(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${data().name || 'adnd1e-character'}.json`; document.body.append(link); link.click(); link.remove(); status.textContent = `已请求下载 ${link.download}。`; setTimeout(() => URL.revokeObjectURL(link.href), 30000); });
     document.querySelector('#import-character').addEventListener('change', async (event) => { const file = event.target.files?.[0]; if (!file) return; try { applyData(JSON.parse(await file.text())); status.textContent = '已导入 JSON。'; } catch { status.textContent = 'JSON 无法读取或格式不正确。'; } });
     document.querySelector('#print-character').addEventListener('click', () => window.print());
     update();

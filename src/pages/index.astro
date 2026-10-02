@@ -7,7 +7,6 @@ import { items } from '../data/public/items';
 import published from '../data/published/books.json';
 ---
 <BaseLayout>
-  <p class="home-intro">本站整理 AD&amp;D 1st Edition 中文规则资料。条目按跑团时的查询用途编排，并保留原书来源。</p>
   <form class="home-search" action="/search" method="get">
     <label for="home-search">站内检索：</label>
     <input id="home-search" name="q" type="search" size="34" />
@@ -24,12 +23,6 @@ import published from '../data/published/books.json';
   </tbody></table>
 
   <h2>规则书</h2>
-  <p class="book-shortcuts">{books.map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a>{published.some((topic) => topic.book === book.id) && `（${published.filter((topic) => topic.book === book.id).length} 篇）`}</span>)}</p>
+  <p class="book-shortcuts">{books.filter((book) => published.some((topic) => topic.book === book.id)).map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a>（{published.filter((topic) => topic.book === book.id).length} 篇）</span>)}</p>
 
-  <h2>最近整理</h2>
-  <table class="updates-table"><tbody>
-    <tr><td>2026-10-02</td><td>接入 PHB、DMG 与 MM 已有中文工作译稿，并更新快速车卡。</td></tr>
-    <tr><td>2026-10-01</td><td>建立法术、怪物、装备索引及来源链接。</td></tr>
-  </tbody></table>
-  <p class="small">法术、怪物、装备的结构化数据仍在扩充；书内译文为工作稿，尚未经逐句终校。</p>
 </BaseLayout>

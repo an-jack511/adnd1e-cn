@@ -14,13 +14,23 @@ const links = items.map((item) => [`/equipment/${item.id}`, undefined, undefined
     <label>类别 <select id="item-category"><option value="">全部类别</option>{categories.map((category) => <option value={category}>{category}</option>)}</select></label>
     <label>价格上限（gp） <input id="item-price" type="number" min="0" /></label>
     <label>速度因子 <input id="item-speed" type="search" /></label>
+    <label>伤害 <input id="item-damage" type="search" size="8" placeholder="如 1d8" /></label>
+    <label>来源 <select id="item-source"><option value="">全部来源</option><option value="PHB">PHB</option><option value="DMG">DMG</option></select></label>
   </div></div>
   <p id="item-count" class="results-count">显示 {items.length} 件物品</p>
   <div id="item-results"><EntryTable headers={['中文名', '英文名', '类别', '价格', '重量', '伤害 S/M', '伤害 L', '速度因子', 'AC 调整']} rows={rows} links={links} /></div>
   <script define:vars={{ items }}>
-    const name = document.querySelector('#item-name'); const category = document.querySelector('#item-category'); const price = document.querySelector('#item-price'); const speed = document.querySelector('#item-speed'); const count = document.querySelector('#item-count'); const results = document.querySelector('#item-results');
-    const numericPrice = (value) => Number.parseFloat(value.replace(/[^0-9.]/g, '')) || 0;
-    const render = () => { const query = name.value.trim().toLowerCase(); const filtered = items.filter((item) => (!query || `${item.nameZh} ${item.nameEn} ${item.description} ${item.tags.join(' ')}`.toLowerCase().includes(query)) && (!category.value || item.category === category.value) && (!price.value || numericPrice(item.price) <= Number(price.value)) && (!speed.value || item.speedFactor === speed.value)); count.textContent = `显示 ${filtered.length} 件物品`; results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>类别</th><th>价格</th><th>重量</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>AC 调整</th></tr></thead><tbody>${filtered.map((item) => `<tr><td><a href="/equipment/${item.id}">${item.nameZh}</a></td><td>${item.nameEn}</td><td>${item.category}</td><td>${item.price}</td><td>${item.weight}</td><td>${item.damageSmallMedium ?? '—'}</td><td>${item.damageLarge ?? '—'}</td><td>${item.speedFactor ?? '—'}</td><td>${item.acAdjustment ?? '—'}</td></tr>`).join('')}</tbody></table></div>`; };
-    [name, category, price, speed].forEach((input) => input.addEventListener('input', render));
+    const name = document.querySelector('#item-name'); const category = document.querySelector('#item-category'); const price = document.querySelector('#item-price'); const speed = document.querySelector('#item-speed'); const damage = document.querySelector('#item-damage'); const source = document.querySelector('#item-source'); const count = document.querySelector('#item-count'); const results = document.querySelector('#item-results');
+    const numericPrice = (value) => {
+      const amount = Number.parseFloat(value.replace(/,/g, '').match(/[\d.]+/)?.[0] ?? '');
+      if (!Number.isFinite(amount)) return Infinity;
+      if (/c\.p\./i.test(value)) return amount / 100;
+      if (/s\.p\./i.test(value)) return amount / 10;
+      if (/e\.p\./i.test(value)) return amount / 2;
+      if (/p\.p\./i.test(value)) return amount * 5;
+      return amount;
+    };
+    const render = () => { const query = name.value.trim().toLowerCase(); const filtered = items.filter((item) => (!query || `${item.nameZh} ${item.nameEn} ${item.description} ${item.tags.join(' ')}`.toLowerCase().includes(query)) && (!category.value || item.category === category.value) && (!price.value || numericPrice(item.price) <= Number(price.value)) && (!speed.value || item.speedFactor === speed.value) && (!damage.value || `${item.damageSmallMedium ?? ''} ${item.damageLarge ?? ''}`.toLowerCase().includes(damage.value.trim().toLowerCase())) && (!source.value || item.source.some((entry) => entry.book === source.value))); count.textContent = `显示 ${filtered.length} 件物品`; results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>类别</th><th>价格</th><th>重量</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>AC 调整</th></tr></thead><tbody>${filtered.map((item) => `<tr><td><a href="/equipment/${item.id}">${item.nameZh}</a></td><td>${item.nameEn}</td><td>${item.category}</td><td>${item.price}</td><td>${item.weight}</td><td>${item.damageSmallMedium ?? '—'}</td><td>${item.damageLarge ?? '—'}</td><td>${item.speedFactor ?? '—'}</td><td>${item.acAdjustment ?? '—'}</td></tr>`).join('')}</tbody></table></div>`; };
+    [name, category, price, speed, damage, source].forEach((input) => input.addEventListener('input', render));
   </script>
 </BaseLayout>

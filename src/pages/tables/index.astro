@@ -1,9 +1,73 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { tables } from '../../data/public/tables';
+const dungeon = tables.filter((table) => table.category === '地下城');
+const encounter = tables.filter((table) => table.category === '随机遭遇');
+const treasure = tables.filter((table) => table.category === '战利品');
+const period = dungeon.find((table) => table.title.startsWith('表 I：'));
 ---
-<BaseLayout title="随机表"><h1>随机表</h1><p class="lede">通用 d100 随机表系统。表格结果可以链接到怪物或规则条目。</p>{tables.map((table) => <section class="notice"><h2>{table.title}</h2><p>骰子：{table.dice}</p><button class="roll-button" data-table={table.id}>掷骰</button><div class="dice-result" id={`result-${table.id}`}>尚未掷骰。</div></section>)}
-  <script define:vars={{ tables }}>
-    document.querySelectorAll('.roll-button').forEach((button) => button.addEventListener('click', () => { const table = tables.find((entry) => entry.id === button.dataset.table); const roll = Math.floor(Math.random() * 100) + 1; const result = table.entries.find((entry) => roll >= entry.min && roll <= entry.max); const target = document.querySelector(`#result-${table.id}`); target.innerHTML = `<strong>d100 = ${roll}</strong><br />${result.href ? `<a href="${result.href}">${result.result}</a>` : result.result}`; }));
+<BaseLayout title="随机表">
+  <h1>随机表</h1>
+  <p>地下城 {dungeon.length} 表 · 遭遇 {encounter.length} 表 · 财宝与魔法物品 {treasure.length} 表</p>
+
+  <h2>随机地下城</h2>
+  <p>从通道开始，逐段掷周期检查表；遇到门、房间或楼梯时继续掷对应子表。</p>
+  <p><button type="button" id="next-dungeon">生成下一段</button> <button type="button" id="clear-dungeon">清空记录</button>　<a href="/books/dmg/dmg-appendix-a-random-dungeon-generation/">阅读附录 A</a></p>
+  <ol id="dungeon-log" aria-live="polite"></ol>
+
+  <h2>随机遭遇</h2>
+  <p><label for="encounter-table">选择环境／等级表：</label>
+    <select id="encounter-table">{encounter.map((table) => <option value={table.id}>{table.title}（{table.dice}）</option>)}</select>
+    <button type="button" id="roll-encounter">掷骰</button></p>
+  <div id="encounter-result" aria-live="polite">尚未掷骰。</div>
+  <p><a href="/books/dmg/dmg-appendix-c-random-monster-encounters/">阅读附录 C 随机遭遇说明</a></p>
+
+  <h2>战利品与魔法物品</h2>
+  <p>先确定宝藏类型，再掷对应的货币、魔法或混合宝藏表。</p>
+  <p><label for="treasure-table">选择财宝表：</label>
+    <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{table.title}（{table.dice}）</option>)}</select>
+    <button type="button" id="roll-treasure">掷骰</button></p>
+  <div id="treasure-result" aria-live="polite">尚未掷骰。</div>
+  <p><a href="/books/dmg/dmg-treasure/">阅读 DMG 财宝判定</a></p>
+
+  <h2>查全部随机表</h2>
+  {(['地下城', '随机遭遇', '战利品'] as const).map((category) => <details><summary>{category}（{tables.filter((table) => table.category === category).length}）</summary><ul class="compact-list">{tables.filter((table) => table.category === category).map((table) => <li><a href={table.sourceHref}>{table.title}</a>　{table.dice}</li>)}</ul></details>)}
+  <script define:vars={{ tables, periodId: period?.id }}>
+    const byId = new Map(tables.map((table) => [table.id, table]));
+    const roll = (table) => {
+      const sides = Number(table.dice.slice(1));
+      const die = Math.floor(Math.random() * sides) + 1;
+      return { table, die, entry: table.entries.find((entry) => die >= entry.min && die <= entry.max) };
+    };
+    const line = (rolled) => {
+      const fragment = document.createDocumentFragment();
+      const strong = document.createElement('strong');
+      strong.textContent = `${rolled.table.dice} = ${rolled.die}`;
+      fragment.append(strong, `：${rolled.entry?.result ?? '未匹配结果'}　`);
+      if (rolled.entry?.href) {
+        const link = document.createElement('a'); link.href = rolled.entry.href; link.textContent = '条目'; fragment.append(link, '　');
+      }
+      const source = document.createElement('a'); source.href = rolled.table.sourceHref; source.textContent = '原表'; fragment.append(source);
+      return fragment;
+    };
+    const perform = (selectId, resultId) => {
+      const table = byId.get(document.getElementById(selectId).value);
+      const target = document.getElementById(resultId); target.replaceChildren(line(roll(table)));
+    };
+    document.getElementById('roll-encounter').addEventListener('click', () => perform('encounter-table', 'encounter-result'));
+    document.getElementById('roll-treasure').addEventListener('click', () => perform('treasure-table', 'treasure-result'));
+    document.getElementById('clear-dungeon').addEventListener('click', () => document.getElementById('dungeon-log').replaceChildren());
+    document.getElementById('next-dungeon').addEventListener('click', () => {
+      const first = roll(byId.get(periodId));
+      const item = document.createElement('li'); item.append(line(first));
+      const refs = [...first.entry.result.matchAll(/表\s*(II|III|IV|V|VI|VII|VIII)(?![.A-Z])/g)].map((match) => match[1]);
+      const prefix = { II: '表 II：门', III: '表 III：侧向通道', IV: '表 IV：转向', V: '表 V：大厅', VI: '表 VI：楼梯', VII: '表 VII：机关', VIII: '表 VIII：洞穴' };
+      for (const ref of refs) {
+        const related = tables.find((table) => table.category === '地下城' && table.title.startsWith(prefix[ref]));
+        if (!related) continue;
+        const detail = document.createElement('div'); detail.append(`${related.title}：`, line(roll(related))); item.append(detail);
+      }
+      document.getElementById('dungeon-log').append(item);
+    });
   </script>
 </BaseLayout>

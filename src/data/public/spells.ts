@@ -1,6 +1,7 @@
 import type { Spell } from '../../schemas';
+import imported from './spells-imported.json';
 
-export const spells: Spell[] = [
+const examples: Spell[] = [
   { id: 'detect-magic', nameZh: '侦测魔法', nameEn: 'Detect Magic', classes: ['Magic-User', 'Illusionist', 'Cleric'], level: 1, school: '通用', components: ['V', 'S'], castingTime: '1 segment', range: '0', duration: '2 rounds/level', areaOfEffect: '扇形视野', savingThrow: '无', reversible: false, description: '使施法者能够察觉视野内物体或生物上的魔法灵光。灵光的强弱与性质由主持人裁定。', tags: ['信息', '探索'], source: [{ book: 'PHB', page: 65, section: 'Spell Explanations' }] },
   { id: 'magic-missile', nameZh: '魔法飞弹', nameEn: 'Magic Missile', classes: ['Magic-User'], level: 1, school: '塑能', components: ['V', 'S', 'M'], castingTime: '1 segment', range: '6" + 1"/level', duration: '即时', areaOfEffect: '一个目标', savingThrow: '无', reversible: false, materialComponent: '一小段稻草或类似物', description: '从施法者指尖射出一枚或多枚魔法飞弹，自动命中可见目标。', tags: ['战斗'], source: [{ book: 'PHB', page: 67, section: 'Magic-User Spells' }] },
   { id: 'shield', nameZh: '护盾术', nameEn: 'Shield', classes: ['Magic-User'], level: 1, school: '塑能', components: ['V', 'S', 'M'], castingTime: '1 segment', range: '0', duration: '5 rounds + 1/level', areaOfEffect: '施法者', savingThrow: '无', reversible: false, materialComponent: '一小片木盾', description: '形成一面不可见的护盾，改善施法者正面受到的 AC 与飞弹防护。', tags: ['防御', '战斗'], source: [{ book: 'PHB', page: 68 }] },
@@ -12,3 +13,7 @@ export const spells: Spell[] = [
   { id: 'invisibility', nameZh: '隐形术', nameEn: 'Invisibility', classes: ['Magic-User', 'Illusionist'], level: 2, school: '幻术', components: ['V', 'S', 'M'], castingTime: '2 segments', range: '接触', duration: '永久（或直到攻击）', areaOfEffect: '一个生物或物体', savingThrow: '无', reversible: false, materialComponent: '一根眼睫毛', description: '使目标从普通视觉中消失；攻击或施法通常会终止效果。', tags: ['探索', '防御', '移动'], source: [{ book: 'PHB', page: 69 }] },
   { id: 'fireball', nameZh: '火球术', nameEn: 'Fireball', classes: ['Magic-User'], level: 3, school: '塑能', components: ['V', 'S', 'M'], castingTime: '3 segments', range: '10" + 1"/level', duration: '即时', areaOfEffect: '20 英尺半径', savingThrow: '½', reversible: false, materialComponent: '一小颗蝙蝠粪便与硫磺', description: '在指定点爆发火焰，伤害范围内生物。球体会受空间限制影响。', tags: ['战斗', '范围'], source: [{ book: 'PHB', page: 73 }] }
 ];
+
+const importedSpells = imported as Spell[];
+const importedIds = new Set(importedSpells.map((spell) => spell.id));
+export const spells: Spell[] = [...importedSpells, ...examples.filter((spell) => !importedIds.has(spell.id))];

@@ -33,6 +33,7 @@ export const MonsterSchema = z.object({
   frequency: z.string(),
   numberAppearing: z.string(),
   armorClass: z.number(),
+  armorClassText: z.string().optional(),
   movement: z.string(),
   hitDice: z.string(),
   inLair: z.string(),

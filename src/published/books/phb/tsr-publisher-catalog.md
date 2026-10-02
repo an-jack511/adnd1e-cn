@@ -42,13 +42,13 @@
 
 每个高级《龙与地下城》模组都是可直接开玩的冒险设定，包含相应的怪物、财宝、诡计、陷阱、地图、背景资料与历史。各模组虽可独立使用，但若干系列专为连贯推进的冒险而设计。
 
-- **巨人系列：** G1《丘陵巨人首领的堡寨》*Steading of the Hill Giant Chief*；G2《霜巨人领主的冰川裂谷》*Glacial Rift of the Frost Giant Jarl*；G3《火巨人之王的大殿》*Hall of the Fire Giant King*。
-- **地下深处系列：** D1《深入地下深处》*Descent into the Depths of the Earth*；D2《寇涛鱼人神龛》*Shrine of the Kuo-Toa*；D3《卓尔之穴》*Vault of the Drow*。
-- **S 系列：** S1《恐怖之墓》*Tomb of Horrors*；S2《白羽山》*White Plume Mountain*；S3《屏障峰探险》*Expedition to the Barrier Peaks*。
+- <strong>巨人系列：</strong> G1《丘陵巨人首领的堡寨》*Steading of the Hill Giant Chief*；G2《霜巨人领主的冰川裂谷》*Glacial Rift of the Frost Giant Jarl*；G3《火巨人之王的大殿》*Hall of the Fire Giant King*。
+- <strong>地下深处系列：</strong> D1《深入地下深处》*Descent into the Depths of the Earth*；D2《寇涛鱼人神龛》*Shrine of the Kuo-Toa*；D3《卓尔之穴》*Vault of the Drow*。
+- <strong>S 系列：</strong> S1《恐怖之墓》*Tomb of Horrors*；S2《白羽山》*White Plume Mountain*；S3《屏障峰探险》*Expedition to the Barrier Peaks*。
 - T1《霍姆莱特村》*The Village of Hommlet*。
 - C1《塔莫阿坎隐秘神龛》*Hidden Shrine of Tamoachan*；C2《因弗内斯幽灵塔》*Ghost Tower of Inverness*。
 - Q1《恶魔蛛网坑女王》*Queen of the Demonweb Pits*。
-- **奴隶主系列：** A1《地下城奴隶贩子的巢穴》*Slave Pits of the Undercity*；A2《奴隶贩子据点》*Secret of the Slavers' Stockade*；A3《突袭奴隶主巢穴》*Assault on the Aerie of the Slave Lords*；A4《奴隶主地牢》*In the Dungeons of the Slave Lords*。
+- <strong>奴隶主系列：</strong> A1《地下城奴隶贩子的巢穴》*Slave Pits of the Undercity*；A2《奴隶贩子据点》*Secret of the Slavers' Stockade*；A3《突袭奴隶主巢穴》*Assault on the Aerie of the Slave Lords*；A4《奴隶主地牢》*In the Dungeons of the Slave Lords*。
 
 ## 《龙与地下城》游戏系列 The Dungeons & Dragons Game Family
 
@@ -64,9 +64,9 @@
 
 ### 《龙与地下城》游戏辅助用品 Playing Aids
 
-- **地下城地貌组件 Dungeon Geomorphs：** 第一至第三套，涵盖基础与低层地下城、洞穴与洞窟。
-- **野外地貌组件 Outdoor Geomorphs：** 第一套，围墙城市。
-- **怪物与财宝组合 Monster & Treasure Assortment：** 第一至第三套，适用于第一至第九层。
+- <strong>地下城地貌组件 Dungeon Geomorphs：</strong> 第一至第三套，涵盖基础与低层地下城、洞穴与洞窟。
+- <strong>野外地貌组件 Outdoor Geomorphs：</strong> 第一套，围墙城市。
+- <strong>怪物与财宝组合 Monster & Treasure Assortment：</strong> 第一至第三套，适用于第一至第九层。
 
 ### 《龙与地下城》角色记录 D&D Character Records
 
@@ -78,11 +78,11 @@
 
 ### 其他游戏与刊物
 
-- **《剑与法术》 Swords & Spells：** 《龙与地下城》微缩模型兵棋规则，适用于1:10与1:1比例。
-- **《龙》 The Dragon：** 专业杂志，刊载剑与魔法、奇幻与科幻游戏，以及相关小说。
-- **《锁子甲》 Chainmail：** 中世纪微缩模型规则，附奇幻补充规则。
-- **《地下城！》 Dungeon!：** 奇幻地下城冒险桌游，供1至8名玩家游玩。
-- **《伽马世界》 Gamma World：** 科幻奇幻角色扮演游戏。核灾难改变了生命形态，世界因而变得陌生、险恶而可怖。盒内包括规则书、游戏地图和多面体骰子套装，并配有精美全彩图盒。
+- <strong>《剑与法术》 Swords & Spells：</strong> 《龙与地下城》微缩模型兵棋规则，适用于1:10与1:1比例。
+- <strong>《龙》 The Dragon：</strong> 专业杂志，刊载剑与魔法、奇幻与科幻游戏，以及相关小说。
+- <strong>《锁子甲》 Chainmail：</strong> 中世纪微缩模型规则，附奇幻补充规则。
+- <strong>《地下城！》 Dungeon!：</strong> 奇幻地下城冒险桌游，供1至8名玩家游玩。
+- <strong>《伽马世界》 Gamma World：</strong> 科幻奇幻角色扮演游戏。核灾难改变了生命形态，世界因而变得陌生、险恶而可怖。盒内包括规则书、游戏地图和多面体骰子套装，并配有精美全彩图盒。
 
 ## 配件与订购 Accessories
 

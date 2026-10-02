@@ -1,8 +1,8 @@
 # AD&D 1E 中文规则索引
 
-一个面向跑团现场快速查询的 AD&D 1st Edition 中文参考站 MVP。它使用按规则对象组织的静态数据，而不是要求使用者按规则书页码寻找内容。
+一个面向跑团现场快速查询的 AD&D 1st Edition 中文参考站。它使用按规则对象组织的静态数据，同时保留规则书阅读模式。
 
-结构化示例数据包含 10 个法术、10 个怪物、10 件装备、2 个职业、2 个种族、战斗/冒险/其他规则条目与 1 个随机表。规则书阅读模式另收录用户确认可公开发布的 PHB、DMG、MM 中文工作译稿 366 篇，尚未经逐句终校。快速车卡以浏览器本地数据工作。
+当前结构化索引包含 387 条法术、116 个怪物、442 件装备及魔法物品、131 张 DMG 随机表；规则书模式收录 PHB、DMG、MM 中文正文 410 篇。职业、种族与规则速查仍在扩充。快速车卡以浏览器本地数据工作。
 
 ## 技术栈
 
@@ -67,9 +67,9 @@ npm run build:search-index
 
 ## 导入流程预留
 
-现有中文工作译稿来自本地独立工程的 `manuscript/`。确认发布权限后，运行 `scripts/import/published-books.ts` 将明确列出的 PHB、DMG、MM Markdown 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
+现有中文工作译稿来自本地独立工程的 `manuscript/` 及旧版 `build/chm/content/`。`scripts/import/published-books.ts` 将 PHB、DMG、MM 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
 
-继续结构化法术、怪物和物品时，可在 `scripts/import/spells.ts`、`scripts/import/monsters.ts` 中增添审校与字段映射。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
+`scripts/import/spells.ts`、`monsters.ts`、`items.ts`、`magic-items.ts` 与 `random-tables.ts` 分别生成结构化索引。改动父目录译稿后，先运行对应导入脚本，再运行 `npm run build:search-index`、`npm run validate:data` 和 `npm run build`。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
 
 ## 快速车卡
 

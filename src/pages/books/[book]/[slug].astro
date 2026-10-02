@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { books } from '../../../data/public/books';
 import published from '../../../data/published/books.json';
+import { continuationParent, continuationNumber } from '../../../utils/book-continuations';
 
 type Topic = (typeof published)[number];
 export function getStaticPaths() {
@@ -17,18 +18,25 @@ const siblings = published.filter((entry) => entry.book === topic.book);
 const position = siblings.findIndex((entry) => entry.slug === topic.slug);
 const previous = siblings[position - 1];
 const next = siblings[position + 1];
+const parentSlug = topic.book === 'dmg' ? continuationParent(topic.slug) : undefined;
+const parent = parentSlug ? siblings.find((entry) => entry.slug === parentSlug) : undefined;
+const continuations = topic.book === 'dmg' ? siblings.filter((entry) => continuationParent(entry.slug) === (parentSlug ?? topic.slug)).sort((a, b) => continuationNumber(a.slug) - continuationNumber(b.slug)) : [];
+const continuationIndex = parentSlug ? continuations.findIndex((entry) => entry.slug === topic.slug) : -1;
+const back = parentSlug ? (continuationIndex <= 0 ? parent : continuations[continuationIndex - 1]) : previous;
+const forward = parentSlug ? continuations[continuationIndex + 1] : (continuations[0] ?? next);
 ---
 <BaseLayout title={`${topic.title} · ${book.short}`} description={`${book.short} 中文工作译稿：${topic.title}。`}>
   <article class="book-article">
     <h1>{topic.title}{topic.titleEn && <small> {topic.titleEn}</small>}</h1>
-    <p class="small muted">{book.short} · {topic.group} · 中文工作译稿，尚未经逐句终校。图版与扫描页未随文字稿发布。</p>
+    <p class="small muted">{book.short} · {parent ? `续页：${parent.title}` : topic.group}</p>
     <div class="book-body"><Content /></div>
+    {!parentSlug && continuations.length > 0 && <section class="book-continuations"><h2>本章后续页</h2><ol>{continuations.map((entry, index) => <li><a href={`/books/${book.id}/${entry.slug}/`}>第 {index + 2} 页：{entry.title === entry.slug ? '续页' : entry.title}</a></li>)}</ol></section>}
     <hr class="rule" />
     <p class="source-list"><span class="label">来源：</span><a href={`/books/${book.id}/`}>{book.short}</a> · <span title={topic.sourceFile}>译稿章节：{topic.title}</span></p>
     <nav class="book-page-nav" aria-label="相邻章节">
-      {previous && <a href={`/books/${book.id}/${previous.slug}/`}>← {previous.title}</a>}
+      {back && <a href={`/books/${book.id}/${back.slug}/`}>← {back.title === back.slug ? '上一页' : back.title}</a>}
       <a href={`/books/${book.id}/`}>返回目录</a>
-      {next && <a href={`/books/${book.id}/${next.slug}/`}>{next.title} →</a>}
+      {forward && <a href={`/books/${book.id}/${forward.slug}/`}>{forward.title === forward.slug ? '下一页' : forward.title} →</a>}
     </nav>
   </article>
 </BaseLayout>

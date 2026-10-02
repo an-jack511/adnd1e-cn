@@ -1,6 +1,7 @@
 import type { Monster } from '../../schemas';
+import imported from './monsters-imported.json';
 
-export const monsters: Monster[] = [
+const examples: Monster[] = [
   { id: 'owlbear', nameZh: '枭熊', nameEn: 'Owlbear', frequency: '罕见', numberAppearing: '1d4', armorClass: 5, movement: '12"', hitDice: '5+2', inLair: '20%', treasureType: '无', attacks: '2 爪 / 1 咬', damage: '1d6/1d6/1d6', specialAttacks: '拥抱', specialDefenses: '无', magicResistance: '标准', intelligence: '动物', alignment: '中立', size: '大型', psionics: '无', environment: '森林', description: '凶猛的混合兽，拥有羽毛、利爪与强大的拥抱攻击。', illustration: { src: '/assets/monsters/owlbear.svg', source: 'Monster Manual', page: 77 }, source: [{ book: 'MM', page: 77 }] },
   { id: 'goblin', nameZh: '哥布林', nameEn: 'Goblin', frequency: '常见', numberAppearing: '40–400', armorClass: 6, movement: '6"', hitDice: '1-1', inLair: '40%', treasureType: 'C', attacks: '1', damage: '1d6 或武器', specialAttacks: '无', specialDefenses: '无', magicResistance: '标准', intelligence: '平均', alignment: '混乱邪恶', size: '小型', psionics: '无', environment: '地下/丘陵', description: '群居的地精类生物，偏好伏击与数量优势。', source: [{ book: 'MM', page: 47 }] },
   { id: 'orc', nameZh: '兽人', nameEn: 'Orc', frequency: '常见', numberAppearing: '30–100', armorClass: 6, movement: '9"', hitDice: '1', inLair: '40%', treasureType: 'D', attacks: '1', damage: '1d8 或武器', specialAttacks: '无', specialDefenses: '无', magicResistance: '标准', intelligence: '平均', alignment: '混乱邪恶', size: '中型', psionics: '无', environment: '任何', description: '好战且组织松散的类人生物，常以部落形式活动。', source: [{ book: 'MM', page: 75 }] },
@@ -12,3 +13,7 @@ export const monsters: Monster[] = [
   { id: 'giant-spider', nameZh: '巨型蜘蛛', nameEn: 'Giant Spider', frequency: '不常见', numberAppearing: '1–4', armorClass: 4, movement: '18"', hitDice: '2+2', inLair: '30%', treasureType: 'J', attacks: '1', damage: '1d6 + 毒', specialAttacks: '毒、蛛网', specialDefenses: '无', magicResistance: '标准', intelligence: '动物', alignment: '中立', size: '大型', psionics: '无', environment: '森林/地下', description: '会结网并使用毒素捕食的巨型节肢动物。', source: [{ book: 'MM', page: 91 }] },
   { id: 'young-red-dragon', nameZh: '幼年红龙', nameEn: 'Young Red Dragon', frequency: '极罕见', numberAppearing: '1', armorClass: 0, movement: '9"/24"', hitDice: '10', inLair: '25%', treasureType: 'H', attacks: '2 爪 / 1 咬', damage: '1d8/1d8/2d10', specialAttacks: '吐息、法术', specialDefenses: '免疫火焰', magicResistance: '标准', intelligence: '卓越', alignment: '混乱邪恶', size: '大型', psionics: '无', environment: '山地', description: '拥有炽热吐息的年轻红龙示例；完整龙类成长阶段另行整理。', illustration: { src: '/assets/monsters/dragon.svg', source: 'Monster Manual', page: 30 }, source: [{ book: 'MM', page: 30 }] }
 ];
+
+const importedMonsters = imported as Monster[];
+const importedIds = new Set(importedMonsters.map((monster) => monster.id));
+export const monsters: Monster[] = [...importedMonsters.map((monster) => ({ ...monster, illustration: examples.find((entry) => entry.id === monster.id)?.illustration })), ...examples.filter((monster) => !importedIds.has(monster.id))];

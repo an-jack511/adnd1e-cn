@@ -11,7 +11,7 @@ const links = spells.map((spell) => [`/spells/${spell.id}`, undefined, undefined
 ---
 <BaseLayout title="法术表" description="AD&D 1E 中文法术索引与组合筛选。">
   <div class="section-heading"><h1>法术表</h1><a href="/search?type=spell">在全站搜索法术</a></div>
-  <p class="lede">保留 Magic-User、Illusionist、Cleric、Druid、segment、reversible spell 等 1E 语境。当前为可扩展的示例数据集。</p>
+  <p class="lede">{spells.length} 条法术 · Magic-User / Illusionist / Cleric / Druid · 可按环级、学派、成分和来源筛选。</p>
   <div class="controls">
     <div class="filter-grid">
       <label>名称 <input id="spell-name" type="search" placeholder="中文或英文" /></label>

@@ -3,22 +3,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import { books } from '../../data/public/books';
 import published from '../../data/published/books.json';
+import { continuationParent } from '../../utils/book-continuations';
 export function getStaticPaths() { return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
 const { book } = Astro.props;
 const topics = published.filter((topic) => topic.book === book.id);
+const visibleTopics = topics.filter((topic) => !continuationParent(topic.slug));
 const groupsInSource = book.id === 'mm'
-  ? [...new Set(topics.map((topic) => topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group))]
-  : [...new Set(topics.map((topic) => topic.group))];
+  ? [...new Set(visibleTopics.map((topic) => topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group))]
+  : [...new Set(visibleTopics.map((topic) => topic.group === '补充篇页' ? '附录补充' : topic.group))];
 const groups = book.id === 'phb'
   ? ['原书章节概览', '角色法术', '法术表', '法术说明', '冒险', '“怪物”一词', ...groupsInSource.filter((group) => !['原书章节概览', '角色法术', '法术表', '法术说明', '冒险', '“怪物”一词'].includes(group))].filter((group) => groupsInSource.includes(group))
   : groupsInSource;
-const groupFor = (topic: (typeof topics)[number]) => book.id === 'mm' && topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group;
+const groupFor = (topic: (typeof topics)[number]) => book.id === 'mm' && topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group === '补充篇页' ? '附录补充' : topic.group;
 ---
 <BaseLayout title={`${book.short} · ${book.titleZh}`}><article><header class="entry-header"><h1>{book.titleZh}</h1><div class="english">{book.short} · {book.title}</div></header><p>{book.description}</p>
   {topics.length > 0 ? <>
-    <p class="small muted">已发布 {topics.length} 篇中文工作译稿；尚未经逐句终校。原书扫描与图版未包含在本次文字发布中。</p>
+    <p class="small muted">{topics.length} 篇正文</p>
     {book.id === 'mm' && <p class="letter-jump">字头：{groups.filter((group) => group.endsWith(' 字头')).map((group) => <><a href={`#letter-${group.charAt(0)}`}>{group.charAt(0)}</a> </>)}</p>}
     <h2>章节目录</h2>
-    {groups.map((group) => <section class="book-toc-group" id={book.id === 'mm' && group.endsWith(' 字头') ? `letter-${group.charAt(0)}` : undefined}><h3>{group}</h3><ul class="book-toc">{topics.filter((topic) => groupFor(topic) === group).map((topic) => <li><a href={`/books/${book.id}/${topic.slug}/`}>{topic.title}</a>{topic.titleEn && <span class="muted small"> {topic.titleEn}</span>}</li>)}</ul></section>)}
-  </> : <><p class="notice">【内容说明】此处目前仅有章节索引；连续正文将在确认授权后加入。</p><h2>章节目录</h2><ul>{book.chapters.map((chapter) => <li><a href={chapter.href}>{chapter.title}</a></li>)}</ul></>}
+    {groups.map((group) => <section class="book-toc-group" id={book.id === 'mm' && group.endsWith(' 字头') ? `letter-${group.charAt(0)}` : undefined}><h3>{group}</h3><ul class="book-toc">{visibleTopics.filter((topic) => groupFor(topic) === group).map((topic) => <li><a href={`/books/${book.id}/${topic.slug}/`}>{topic.title}</a>{topic.titleEn && <span class="muted small"> {topic.titleEn}</span>}</li>)}</ul></section>)}
+  </> : <><p>暂无正文。</p></>}
   <SourceList sources={book.source} /><p><a href="/books">← 返回规则书</a></p></article></BaseLayout>
