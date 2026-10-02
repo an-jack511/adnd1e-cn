@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { books } from '../../data/public/books';
+import published from '../../data/published/books.json';
 ---
-<BaseLayout title="规则书"><h1>规则书</h1><p class="lede">按原书顺序阅读的入口。规则条目会标明来源并链接到相应章节；连续正文仅收录已有或明确授权的内容。</p><div class="book-list">{books.map((book) => <article class="book-row"><div class="book-code">{book.short}</div><div><h3><a href={`/books/${book.id}`}>{book.titleZh}</a></h3><p>{book.description}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="规则书"><h1>规则书</h1><p class="lede">按原书顺序阅读的入口。PHB、DMG 与 MM 已接入现有中文工作译稿；其他书目继续保留入口。</p><div class="book-list">{books.map((book) => <article class="book-row"><div class="book-code">{book.short}</div><div><h3><a href={`/books/${book.id}`}>{book.titleZh}</a></h3><p>{book.description} {published.some((topic) => topic.book === book.id) && `已发布 ${published.filter((topic) => topic.book === book.id).length} 篇。`}</p></div></article>)}</div></BaseLayout>

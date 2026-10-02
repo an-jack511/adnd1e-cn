@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
+import PublishedLinks from '../../components/PublishedLinks.astro';
 import { spells } from '../../data/public/spells';
 export function getStaticPaths() { return spells.map((spell) => ({ params: { id: spell.id }, props: { spell } })); }
 const { spell } = Astro.props;
@@ -16,6 +17,7 @@ const { spell } = Astro.props;
     <p>{spell.description}</p>
     {spell.materialComponent && <p><strong>材料成分：</strong>{spell.materialComponent}</p>}
     <p>{spell.tags.map((tag) => <span class="tag">{tag}</span>)}</p>
+    <PublishedLinks kind="spell" id={spell.id} classes={spell.classes} />
     <SourceList sources={spell.source} />
     <p><a href="/spells">← 返回法术表</a></p>
   </article>

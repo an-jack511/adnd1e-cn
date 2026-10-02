@@ -31,7 +31,7 @@ const crumbTitle = segments.length > 1 ? title.replace(/^.*? · /, '').replace(/
   <body class={isHome ? 'home-page' : `section-${section}`}>
     <SiteHeader />
     <main class="page-shell">
-      {!isHome && <nav class="breadcrumbs" aria-label="当前位置"><a href="/">首页</a> &gt; {segments.length > 1 ? <><a href={sectionHref}>{sectionTitle}</a> &gt; <span>{crumbTitle}</span></> : <span>{sectionTitle}</span>}</nav>}
+      {!isHome && <nav class="breadcrumbs" aria-label="当前位置"><a href="/">首页</a> &gt; {section === 'books' && segments.length > 2 ? <><a href="/books/">规则书</a> &gt; <a href={`/books/${segments[1]}/`}>{segments[1].toUpperCase()}</a> &gt; <span>{title.split(' · ')[0]}</span></> : segments.length > 1 ? <><a href={sectionHref}>{sectionTitle}</a> &gt; <span>{crumbTitle}</span></> : <span>{sectionTitle}</span>}</nav>}
       <slot />
     </main>
     <SiteFooter />

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
+import PublishedLinks from '../../components/PublishedLinks.astro';
 import { monsters } from '../../data/public/monsters';
 export function getStaticPaths() { return monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
 const { monster } = Astro.props;
@@ -29,6 +30,7 @@ const { monster } = Astro.props;
     </tbody></table>
     <p>{monster.description}</p>
     {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
+    <PublishedLinks kind="monster" id={monster.id} />
     <SourceList sources={monster.source} />
     <p><a href="/monsters">← 返回怪物合集</a></p>
   </article>

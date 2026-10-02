@@ -2,30 +2,126 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { classes } from '../../data/public/classes';
 import { races } from '../../data/public/races';
+import abilityTables from '../../data/public/ability-tables.json';
+const abilities = [
+  ['STR', '力量'], ['INT', '智力'], ['WIS', '感知'],
+  ['DEX', '敏捷'], ['CON', '体质'], ['CHA', '魅力']
+];
+const saves = ['麻痹／毒素', '石化／变形', '权杖／法杖／魔杖', '吐息武器', '法术'];
+const weapons = Array.from({ length: 4 }, (_, index) => index);
+const gear = Array.from({ length: 7 }, (_, index) => index);
 ---
-<BaseLayout title="快速车卡"><div class="section-heading"><h1>快速车卡</h1><span class="muted small">localStorage · JSON · 打印</span></div><p class="lede">这是桌面辅助工具，不替主持人裁决版本差异。最低属性、种族限制和多职业提示只做提示，不阻止强制填写。</p>
-  <div class="character-layout">
-    <form id="character-form" class="character-form">
-      <h2>人物基础</h2><div class="field-grid"><label>姓名<input name="name" /></label><label>种族<select name="race"><option value="">请选择</option>{races.map((race) => <option value={race.id}>{race.nameZh}</option>)}</select></label><label>职业<select name="class"><option value="">请选择</option>{classes.map((entry) => <option value={entry.id}>{entry.nameZh}</option>)}</select></label><label>等级<input name="level" type="number" min="1" value="1" /></label><label>阵营<input name="alignment" /></label></div>
-      <h2>属性</h2><div class="table-wrap"><table class="data-table ability-table"><thead><tr><th>属性</th><th>数值</th><th>常用派生值</th></tr></thead><tbody>{['STR','INT','WIS','DEX','CON','CHA'].map((ability) => <tr><th scope="row">{ability}</th><td><input name={ability} type="text" inputmode="numeric" /></td><td id={`derived-${ability}`}>—</td></tr>)}</tbody></table></div>
-      <h2>操作</h2><div class="character-actions"><button type="button" id="roll-3d6">随机 3d6</button><button type="button" id="roll-4d6">随机 4d6 去最低</button><button type="button" id="save-character">保存到浏览器</button><button type="button" id="load-character">加载保存</button><button type="button" id="export-character">导出 JSON</button><label class="button" for="import-character">导入 JSON</label><input id="import-character" class="screen-only" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 保存 PDF</button></div>
-      <p id="character-status" class="small muted"></p>
-    </form>
-    <aside class="character-form"><h2>规则提示</h2><ul id="rule-hints"><li>选择种族与职业后显示提示。</li></ul><h2>常用派生值</h2><ul class="derived-list"><li><span>STR 命中 / 伤害</span><strong id="summary-str">—</strong></li><li><span>STR 负重</span><strong id="summary-weight">—</strong></li><li><span>DEX 反应 / 飞弹 / 防御</span><strong id="summary-dex">—</strong></li><li><span>CON HP / System Shock</span><strong id="summary-con">—</strong></li><li><span>CHA Henchmen / Loyalty</span><strong id="summary-cha">—</strong></li></ul><p class="muted small">Exceptional Strength 以 18/xx 文本保留；本 MVP 不代掷角色职业专属表。</p></aside>
-  </div>
-  <script define:vars={{ classes, races }}>
-    const form = document.querySelector('#character-form'); const status = document.querySelector('#character-status'); const inputs = [...form.querySelectorAll('input, select')]; const abilities = ['STR', 'INT', 'WIS', 'DEX', 'CON', 'CHA'];
-    const abilityNumber = (value) => { const match = String(value ?? '').match(/^18(?:\/(\d+))?$/); if (match) return 18 + Number(match[1] ?? 0) / 100; const n = Number(value); return Number.isFinite(n) ? n : 0; };
-    const adjust = (score) => score >= 18 ? 1 : score <= 3 ? -3 : score <= 5 ? -2 : score <= 8 ? -1 : score <= 12 ? 0 : score <= 15 ? 1 : 2;
-    const characterData = () => Object.fromEntries(inputs.map((input) => [input.name || input.id, input.value]));
-    const update = () => { const data = characterData(); const str = abilityNumber(data.STR); const dex = abilityNumber(data.DEX); const con = abilityNumber(data.CON); const cha = abilityNumber(data.CHA); const strAdj = adjust(str); const dexAdj = adjust(dex); const conAdj = adjust(con); const chaAdj = adjust(cha); document.querySelector('#derived-STR').textContent = `${strAdj >= 0 ? '+' : ''}${strAdj} 命中 / 伤害`; document.querySelector('#derived-DEX').textContent = `${dexAdj >= 0 ? '+' : ''}${dexAdj} 反应 / 飞弹 / 防御`; document.querySelector('#derived-CON').textContent = `${conAdj >= 0 ? '+' : ''}${conAdj} HP（示例）`; document.querySelector('#derived-CHA').textContent = `${Math.max(1, 4 + chaAdj)} 名随从（示例）`; document.querySelector('#summary-str').textContent = `${strAdj >= 0 ? '+' : ''}${strAdj} / ${strAdj >= 0 ? '+' : ''}${strAdj}`; document.querySelector('#summary-weight').textContent = `${Math.max(0, 50 + str * 10)} lb.（示例）`; document.querySelector('#summary-dex').textContent = `${dexAdj >= 0 ? '+' : ''}${dexAdj} / ${dexAdj >= 0 ? '+' : ''}${dexAdj} / ${dexAdj >= 0 ? '+' : ''}${dexAdj}`; document.querySelector('#summary-con').textContent = `${conAdj >= 0 ? '+' : ''}${conAdj} / ${Math.min(99, 50 + con * 2)}%`; document.querySelector('#summary-cha').textContent = `${Math.max(1, 4 + chaAdj)} / ${chaAdj >= 0 ? '+' : ''}${chaAdj}`; const hints = []; const race = races.find((entry) => entry.id === data.race); const classEntry = classes.find((entry) => entry.id === data.class); if (race) hints.push(`${race.nameZh}：${race.restrictions}；等级限制：${race.levelLimits}。`); if (classEntry) hints.push(`${classEntry.nameZh}：主属性 ${classEntry.primeRequisite}；最低属性与多职业限制请对照来源。`); document.querySelector('#rule-hints').innerHTML = (hints.length ? hints : ['选择种族与职业后显示提示。']).map((hint) => `<li>${hint}</li>`).join(''); };
-    const roll = (dropLowest) => { const scores = []; for (let i = 0; i < 6; i += 1) { const dice = Array.from({ length: dropLowest ? 4 : 3 }, () => Math.floor(Math.random() * 6) + 1).sort((a, b) => b - a); scores.push(dice.slice(0, 3).reduce((sum, value) => sum + value, 0)); } abilities.forEach((ability, index) => { form.elements[ability].value = scores[index]; }); update(); status.textContent = dropLowest ? '已生成 4d6 去最低。' : '已生成 3d6。'; };
-    inputs.forEach((input) => input.addEventListener('input', update));
-    document.querySelector('#roll-3d6').addEventListener('click', () => roll(false)); document.querySelector('#roll-4d6').addEventListener('click', () => roll(true));
-    document.querySelector('#save-character').addEventListener('click', () => { localStorage.setItem('adnd1e-character', JSON.stringify(characterData())); status.textContent = '已保存到此浏览器。'; });
-    document.querySelector('#load-character').addEventListener('click', () => { const saved = JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null'); if (!saved) { status.textContent = '没有找到保存的人物。'; return; } Object.entries(saved).forEach(([key, value]) => { if (form.elements[key]) form.elements[key].value = value; }); update(); status.textContent = '已加载保存的人物。'; });
-    document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(characterData(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${characterData().name || 'adnd1e-character'}.json`; link.click(); URL.revokeObjectURL(link.href); });
-    document.querySelector('#import-character').addEventListener('change', async (event) => { const file = event.target.files[0]; if (!file) return; const imported = JSON.parse(await file.text()); Object.entries(imported).forEach(([key, value]) => { if (form.elements[key]) form.elements[key].value = value; }); update(); status.textContent = '已导入 JSON。'; });
-    document.querySelector('#print-character').addEventListener('click', () => window.print()); update();
+<BaseLayout title="快速车卡">
+  <h1>快速车卡</h1>
+  <p class="lede">参照 REF2《Player Character Sheets》的记录顺序重新编排：常用战斗数据在前，背景、物资与随从在后。网页表格为重新设计的可编辑版本，不是原表扫描复刻。</p>
+  <form id="character-form" class="record-sheet">
+    <section class="sheet-page" aria-label="人物卡正面">
+      <h2>角色记录 · 正面</h2>
+      <div class="sheet-identity">
+        <label>姓名<input name="name" autocomplete="off" /></label>
+        <label>种族<select name="race"><option value="">请选择</option>{races.map((race) => <option value={race.id}>{race.nameZh}</option>)}</select></label>
+        <label>职业<select name="class"><option value="">请选择</option>{classes.map((entry) => <option value={entry.id}>{entry.nameZh}</option>)}</select></label>
+        <label>等级<input name="level" type="number" min="1" value="1" /></label>
+        <label>阵营<input name="alignment" /></label>
+        <label>经验值<input name="xp" inputmode="numeric" /></label>
+      </div>
+
+      <div class="sheet-top-columns">
+        <section><h3>属性 Abilities</h3><div class="table-wrap"><table class="data-table sheet-abilities"><thead><tr><th>属性</th><th>值</th><th>常用调整</th></tr></thead><tbody>{abilities.map(([key, label]) => <tr><th scope="row">{key} <span class="small">{label}</span></th><td><input name={key} aria-label={`${label}数值`} inputmode="text" /></td><td id={`derived-${key}`}>—</td></tr>)}</tbody></table></div><p class="small muted">非凡力量可写作 18/01—18/00。派生值摘自 PHB 属性表工作译稿，尚待人工复核；不适用的分值请查原表。</p></section>
+        <section><h3>豁免检定 Saving Throws</h3><div class="table-wrap"><table class="data-table sheet-saves"><thead><tr><th>类别</th><th>目标值</th><th>调整／原因</th></tr></thead><tbody>{saves.map((save, index) => <tr><th scope="row">{save}</th><td><input name={`save_${index}`} aria-label={`${save}目标值`} inputmode="numeric" /></td><td><input name={`save_note_${index}`} aria-label={`${save}调整`} /></td></tr>)}</tbody></table></div><label class="sheet-line">抗性／免疫 <input name="resistances" /></label></section>
+      </div>
+
+      <div class="sheet-triple">
+        <label>视觉与侦测<textarea name="senses" rows="2"></textarea></label>
+        <label>语言<textarea name="languages" rows="2"></textarea></label>
+        <label>反应调整／荣誉<textarea name="reactionHonor" rows="2"></textarea></label>
+      </div>
+
+      <div class="sheet-triple">
+        <section><h3>移动 Movement</h3><div class="sheet-pairs"><label>基础<input name="move_base" /></label><label>负重<input name="move_loaded" /></label><label>奔跑<input name="move_run" /></label><label>特殊<input name="move_special" /></label></div></section>
+        <section><h3>护甲 Armor</h3><div class="sheet-pairs"><label>AC<input name="ac" /></label><label>突袭时<input name="ac_surprised" /></label><label>无盾<input name="ac_shieldless" /></label><label>背后<input name="ac_rear" /></label></div></section>
+        <section><h3>生命值 Hit Points</h3><div class="sheet-pairs"><label>最大 HP<input name="hp_max" inputmode="numeric" /></label><label>当前 HP<input name="hp_current" inputmode="numeric" /></label></div><label class="sheet-line">伤势记录<textarea name="wounds" rows="2"></textarea></label></section>
+      </div>
+
+      <h3>武器与攻击 Weapon Combat</h3>
+      <div class="table-wrap"><table class="data-table sheet-weapons"><thead><tr><th>武器</th><th>每轮攻击</th><th>命中调整</th><th>伤害调整</th><th>THAC0</th><th>伤害 S/M</th><th>伤害 L</th><th>射程／备注</th></tr></thead><tbody>{weapons.map((index) => <tr>{['name','attacks','hit','damage_adj','thac0','sm','large','notes'].map((key) => <td><input name={`weapon_${index}_${key}`} aria-label={`第 ${index + 1} 件武器 ${key}`} /></td>)}</tr>)}</tbody></table></div>
+      <div class="sheet-pair-notes"><label>特殊攻击<textarea name="special_attacks" rows="2"></textarea></label><label>弹药／消耗品<textarea name="ammunition" rows="2"></textarea></label></div>
+
+      <h3>徒手战斗 Unarmed Combat</h3>
+      <div class="sheet-pairs sheet-unarmed"><label>方式<input name="unarmed_style" /></label><label>攻击形式<input name="unarmed_form" /></label><label>命中／伤害<input name="unarmed_adjustment" /></label><label>效果／备注<input name="unarmed_effect" /></label></div>
+      <div class="sheet-triple"><label>魔法物品<textarea name="magic_items" rows="4"></textarea></label><label>熟练项／技艺<textarea name="proficiencies" rows="4"></textarea></label><label>特殊能力<textarea name="special_abilities" rows="4"></textarea></label></div>
+    </section>
+
+    <section class="sheet-page" aria-label="人物卡背面">
+      <h2>角色记录 · 背面</h2>
+      <h3>人物描述 Description</h3>
+      <div class="sheet-identity">
+        <label>故乡<input name="homeland" /></label><label>家族／氏族<input name="family" /></label><label>宗教<input name="religion" /></label>
+        <label>性别<input name="sex" /></label><label>年龄<input name="age" /></label><label>社会身份<input name="social_status" /></label>
+        <label>身高／体重<input name="height_weight" /></label><label>发色／瞳色<input name="hair_eyes" /></label><label>外貌<input name="appearance" /></label>
+      </div>
+      <div class="sheet-pair-notes"><label>性格、习惯、恐惧与愿望<textarea name="personality" rows="4"></textarea></label><label>经历与背景<textarea name="history" rows="4"></textarea></label></div>
+
+      <h3>装备与物资 Gear &amp; Supplies</h3>
+      <div class="table-wrap"><table class="data-table sheet-gear"><thead><tr><th>物品</th><th>携带位置</th><th>数量／重量</th><th>备注</th></tr></thead><tbody>{gear.map((index) => <tr>{['item','location','quantity','note'].map((key) => <td><input name={`gear_${index}_${key}`} aria-label={`第 ${index + 1} 件装备 ${key}`} /></td>)}</tr>)}</tbody></table></div>
+      <div class="sheet-triple"><label>水／饮料<input name="supplies_water" /></label><label>口粮<input name="supplies_rations" /></label><label>坐骑饲料<input name="supplies_feed" /></label></div>
+
+      <div class="sheet-triple"><label>经验记录<textarea name="experience_notes" rows="4"></textarea></label><label>钱币与宝石<textarea name="treasure_coins" rows="4"></textarea></label><label>贵重物品<textarea name="treasure_valuables" rows="4"></textarea></label></div>
+      <div class="sheet-pair-notes"><label>家人与重要人物<textarea name="family_notes" rows="4"></textarea></label><label>随从／动物伙伴<textarea name="henchmen" rows="4"></textarea></label></div>
+      <label class="sheet-line">值得记录的事件<textarea name="noteworthy_events" rows="3"></textarea></label>
+    </section>
+
+    <section class="character-actions screen-only" aria-label="车卡操作"><h2>操作</h2><button type="button" id="roll-3d6">随机 3d6</button><button type="button" id="roll-4d6">随机 4d6 去最低</button><button type="button" id="save-character">保存到浏览器</button><button type="button" id="load-character">加载保存</button><button type="button" id="export-character">导出 JSON</button><label class="button" for="import-character">导入 JSON</label><input id="import-character" class="visually-hidden" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 保存 PDF</button><p id="character-status" class="small muted" role="status"></p></section>
+  </form>
+  <aside class="character-guide screen-only"><h2>规则提示</h2><ul id="rule-hints"><li>选择种族与职业后显示提示。</li></ul><p class="small muted">此表借鉴 REF2 将常用战斗信息置于正面、经历和物资置于背面的安排。保留浏览器本地保存、JSON 导入导出与打印功能。</p></aside>
+  <script define:vars={{ classes, races, abilityTables }}>
+    const form = document.querySelector('#character-form');
+    const status = document.querySelector('#character-status');
+    const fields = [...form.querySelectorAll('input[name], select[name], textarea[name]')];
+    const abilities = ['STR', 'INT', 'WIS', 'DEX', 'CON', 'CHA'];
+    const range = (label, score) => {
+      const exceptional = String(score).trim().match(/^18\/(\d{1,2}|00)$/);
+      if (exceptional) {
+        if (!label.startsWith('18/')) return false;
+        const n = exceptional[1] === '00' ? 100 : Number(exceptional[1]);
+        if (label === '18/00') return n === 100;
+        const match = label.match(/^18\/(\d+)[–-](\d+)$/);
+        return Boolean(match && n >= Number(match[1]) && n <= Number(match[2]));
+      }
+      if (label.includes('/')) return false;
+      const n = Number(score);
+      if (!Number.isInteger(n) || n < 3 || n > 18) return false;
+      const match = label.match(/^(\d+)(?:[–-](\d+))?$/);
+      return Boolean(match && n >= Number(match[1]) && n <= Number(match[2] ?? match[1]));
+    };
+    const adjustment = (ability, score) => {
+      if (!score) return '—';
+      const table = abilityTables[ability];
+      if (!table) return '请查 PHB 属性表';
+      const row = table.rows.find((entry) => range(entry[0], score));
+      return row ? `${table.labels.map((label, index) => `${label} ${row[index + 1]}`).join('；')}（PHB p.${table.page}）` : '请查 PHB 属性表';
+    };
+    const data = () => Object.fromEntries(fields.map((field) => [field.name, field.value]));
+    const update = () => {
+      const character = data();
+      for (const ability of abilities) document.querySelector(`#derived-${ability}`).textContent = adjustment(ability, character[ability]);
+      const hints = [];
+      const race = races.find((entry) => entry.id === character.race);
+      const classEntry = classes.find((entry) => entry.id === character.class);
+      if (race) hints.push(`${race.nameZh}：${race.restrictions}；等级限制：${race.levelLimits}。`);
+      if (classEntry) hints.push(`${classEntry.nameZh}：主属性 ${classEntry.primeRequisite}；最低属性与多职业限制请对照来源。`);
+      document.querySelector('#rule-hints').replaceChildren(...(hints.length ? hints : ['选择种族与职业后显示提示。']).map((hint) => { const li = document.createElement('li'); li.textContent = hint; return li; }));
+    };
+    const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); for (const field of fields) if (typeof values[field.name] === 'string' || typeof values[field.name] === 'number') field.value = String(values[field.name]); update(); };
+    const roll = (dropLowest) => { for (const ability of abilities) { const dice = Array.from({ length: dropLowest ? 4 : 3 }, () => Math.floor(Math.random() * 6) + 1).sort((a, b) => b - a); form.elements[ability].value = String(dice.slice(0, 3).reduce((sum, value) => sum + value, 0)); } update(); status.textContent = dropLowest ? '已生成 4d6 去最低。' : '已生成 3d6。'; };
+    fields.forEach((field) => field.addEventListener('input', update));
+    document.querySelector('#roll-3d6').addEventListener('click', () => roll(false));
+    document.querySelector('#roll-4d6').addEventListener('click', () => roll(true));
+    document.querySelector('#save-character').addEventListener('click', () => { localStorage.setItem('adnd1e-character', JSON.stringify(data())); status.textContent = '已保存到此浏览器。'; });
+    document.querySelector('#load-character').addEventListener('click', () => { try { const saved = JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null'); if (!saved) { status.textContent = '没有找到保存的人物。'; return; } applyData(saved); status.textContent = '已加载保存的人物。'; } catch { status.textContent = '保存内容无法读取。'; } });
+    document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(data(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${data().name || 'adnd1e-character'}.json`; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000); });
+    document.querySelector('#import-character').addEventListener('change', async (event) => { const file = event.target.files?.[0]; if (!file) return; try { applyData(JSON.parse(await file.text())); status.textContent = '已导入 JSON。'; } catch { status.textContent = 'JSON 无法读取或格式不正确。'; } });
+    document.querySelector('#print-character').addEventListener('click', () => window.print());
+    update();
   </script>
 </BaseLayout>

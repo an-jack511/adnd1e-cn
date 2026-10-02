@@ -6,6 +6,8 @@ import { items } from '../src/data/public/items';
 import { classes } from '../src/data/public/classes';
 import { races } from '../src/data/public/races';
 import { rules } from '../src/data/public/rules';
+import published from '../src/data/published/books.json';
+import bookSearch from '../src/data/published/book-search.json';
 
 const source = (entry: { source: { book: string }[] }) => entry.source.map((item) => item.book);
 const index = [
@@ -14,7 +16,8 @@ const index = [
   ...items.map((entry) => ({ type: '装备', href: `/equipment/${entry.id}`, nameZh: entry.nameZh, nameEn: entry.nameEn, description: entry.description, tags: entry.tags, source: source(entry), aliases: [] })),
   ...classes.map((entry) => ({ type: '职业', href: `/classes/${entry.id}`, nameZh: entry.nameZh, nameEn: entry.nameEn, description: entry.description, tags: [entry.primeRequisite], source: source(entry), aliases: [] })),
   ...races.map((entry) => ({ type: '种族', href: `/races/${entry.id}`, nameZh: entry.nameZh, nameEn: entry.nameEn, description: entry.abilities.join('；'), tags: [entry.movement], source: source(entry), aliases: [] })),
-  ...rules.map((entry) => ({ type: '规则', href: `/${entry.category === 'combat' ? 'combat' : entry.category === 'adventure' ? 'adventure' : 'rules'}/${entry.id}`, nameZh: entry.title, nameEn: '', description: entry.summary, tags: [entry.category], source: source(entry), aliases: [] }))
+  ...rules.map((entry) => ({ type: '规则', href: `/${entry.category === 'combat' ? 'combat' : entry.category === 'adventure' ? 'adventure' : 'rules'}/${entry.id}`, nameZh: entry.title, nameEn: '', description: entry.summary, tags: [entry.category], source: source(entry), aliases: [] })),
+  ...published.map((entry) => ({ type: '规则书', href: `/books/${entry.book}/${entry.slug}/`, nameZh: entry.title, nameEn: entry.titleEn, description: entry.excerpt, searchText: bookSearch.find((searchEntry) => searchEntry.book === entry.book && searchEntry.slug === entry.slug)?.text ?? '', tags: [entry.group], source: [entry.book.toUpperCase()], aliases: [] }))
 ];
 await writeFile(resolve('public/search-index.json'), `${JSON.stringify(index, null, 2)}\n`, 'utf8');
 console.log(`Wrote ${index.length} search records.`);

@@ -2,7 +2,7 @@
 
 一个面向跑团现场快速查询的 AD&D 1st Edition 中文参考站 MVP。它使用按规则对象组织的静态数据，而不是要求使用者按规则书页码寻找内容。
 
-当前示例数据包含 10 个法术、10 个怪物、10 件装备、2 个职业、2 个种族、战斗/冒险/其他规则条目、1 个随机表和一个基于 `localStorage` 的快速车卡工具。示例数据不等同于完整规则书正文。
+结构化示例数据包含 10 个法术、10 个怪物、10 件装备、2 个职业、2 个种族、战斗/冒险/其他规则条目与 1 个随机表。规则书阅读模式另收录用户确认可公开发布的 PHB、DMG、MM 中文工作译稿 366 篇，尚未经逐句终校。快速车卡以浏览器本地数据工作。
 
 ## 技术栈
 
@@ -40,6 +40,8 @@ npm run build:search-index
 - `items.ts`：保留武器的 S/M、L、长度、space required、speed factor、AC adjustment。
 - `classes.ts`、`races.ts`、`rules.ts`、`books.ts`、`tables.ts`：其他索引数据。
 - `src/schemas/`：Zod schema 与公共 TypeScript 类型。
+- `src/published/books/`：经明确确认可公开发布的中文译稿 Markdown；与结构化示例数据分开。
+- `src/data/published/books.json`：已发布章节目录与来源文件标记。
 
 每个结构化条目都使用统一的 `SourceReference`：
 
@@ -65,7 +67,13 @@ npm run build:search-index
 
 ## 导入流程预留
 
-未来可将已审阅、明确授权的翻译 Markdown 放在仓库外部或受控目录，通过 `scripts/import/spells.ts`、`scripts/import/monsters.ts` 等脚本转换为 schema 数据，再进入人工 review。`translation-source/`、`generated/` 等目录不应默认加入公开发布内容。
+现有中文工作译稿来自本地独立工程的 `manuscript/`。确认发布权限后，运行 `scripts/import/published-books.ts` 将明确列出的 PHB、DMG、MM Markdown 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
+
+继续结构化法术、怪物和物品时，可在 `scripts/import/spells.ts`、`scripts/import/monsters.ts` 中增添审校与字段映射。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
+
+## 快速车卡
+
+`/character/` 按本地 REF2《Player Character Sheets》的字段顺序组织正反两面：正面为属性、豁免、移动、护甲、生命值和战斗数据；背面为人物经历、装备、物资、财宝与随从。网页表单为新设计，不复制原书版面图。保存使用 `localStorage`，支持 JSON 导入导出与浏览器打印。`scripts/import/ability-tables.ts` 从仓库外的 PHB 工作译稿提取属性表数值，生成 `src/data/public/ability-tables.json`；目前涵盖 STR、WIS、DEX、CON、CHA，INT 与不适用分值提示查原表。工作译稿尚待人工终校，跑团时应核对原规则。
 
 ## Cloudflare Pages
 
@@ -85,4 +93,4 @@ git branch -M main
 git push -u origin main
 ```
 
-版权策略：公开仓库只放代码、schema、示例数据、用户已有或明确授权的内容。不要从互联网抓取或提交 AD&D 1E PHB、DMG、MM 的完整受版权保护正文。
+版权策略：公开仓库只放代码、schema、示例数据及用户已确认可公开发布的译稿。不要从互联网抓取或提交原书扫描、原文或未确认可公开发布的内容。

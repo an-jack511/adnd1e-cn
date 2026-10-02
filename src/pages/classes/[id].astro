@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
+import PublishedLinks from '../../components/PublishedLinks.astro';
 import { classes } from '../../data/public/classes';
 export function getStaticPaths() { return classes.map((entry) => ({ params: { id: entry.id }, props: { entry } })); }
 const { entry } = Astro.props;
 ---
-<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><header class="entry-header"><h1>{entry.nameZh}</h1><div class="english">{entry.nameEn}</div></header><div class="entry-meta"><div><dt>主属性</dt><dd>{entry.primeRequisite}</dd></div><div><dt>Hit Dice</dt><dd>{entry.hitDie}</dd></div><div><dt>允许阵营</dt><dd>{entry.alignment}</dd></div><div><dt>允许武器</dt><dd>{entry.weapons}</dd></div><div><dt>允许护甲</dt><dd>{entry.armor}</dd></div></div><p>{entry.description}</p><h2>特殊能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul><p class="notice">等级表、XP、followers、stronghold 与 spell progression 可从授权来源继续添加；当前页面不阻止使用者按战役需要扩展。</p><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article></BaseLayout>
+<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><header class="entry-header"><h1>{entry.nameZh}</h1><div class="english">{entry.nameEn}</div></header><div class="entry-meta"><div><dt>主属性</dt><dd>{entry.primeRequisite}</dd></div><div><dt>Hit Dice</dt><dd>{entry.hitDie}</dd></div><div><dt>允许阵营</dt><dd>{entry.alignment}</dd></div><div><dt>允许武器</dt><dd>{entry.weapons}</dd></div><div><dt>允许护甲</dt><dd>{entry.armor}</dd></div></div><p>{entry.description}</p><h2>特殊能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul><p class="notice">等级表、XP、followers、stronghold 与 spell progression 将继续从译稿结构化；当前可先阅读原书章节。</p><PublishedLinks kind="class" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article></BaseLayout>

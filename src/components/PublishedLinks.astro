@@ -1,0 +1,35 @@
+---
+import published from '../data/published/books.json';
+interface Props { kind: 'rule' | 'monster' | 'spell' | 'class' | 'race'; id: string; classes?: string[] }
+const { kind, id, classes = [] } = Astro.props;
+const ruleMap: Record<string, string[]> = {
+  initiative: ['phb/initiative', 'dmg/dmg-combat'], surprise: ['phb/surprise'],
+  'combat-sequence': ['phb/combat-procedures', 'dmg/dmg-combat'],
+  'armor-class': ['phb/armor-class', 'dmg/dmg-combat'],
+  damage: ['phb/damage', 'dmg/dmg-combat'],
+  'spell-interruption': ['phb/spell-combat', 'dmg/dmg-combat'],
+  'multiple-attacks': ['phb/melee-combat'],
+  healing: ['phb/healing'],
+  'movement-time-distance': ['phb/movement-time-distance'],
+  encumbrance: ['phb/encumbrance'], light: ['phb/light'],
+  traps: ['phb/traps', 'dmg/dmg-appendix-g-traps'],
+  encounters: ['phb/encounters', 'dmg/dmg-appendix-c-random-monster-encounters'],
+  'silent-movement': ['phb/silent-movement'], pursuit: ['dmg/dmg-combat'],
+  'spell-casting': ['phb/overview-spell-casting', 'phb/spell-combat'],
+  'ability-scores': ['phb/overview-character-abilities', 'dmg/dmg-character-abilities'],
+  strongholds: ['dmg/dmg-strongholds']
+};
+const spellChapters: Record<string, string> = {
+  'Magic-User': 'phb/spell-explanations-magic-users',
+  Illusionist: 'phb/spell-explanations-illusionists',
+  Cleric: 'phb/spell-explanations-clerics',
+  Druid: 'phb/spell-explanations-druids'
+};
+const candidates = kind === 'rule' ? ruleMap[id] ?? []
+  : kind === 'monster' ? [`mm/mm-${id}`]
+  : kind === 'spell' ? classes.map((className) => spellChapters[className]).filter(Boolean)
+  : kind === 'class' ? ['phb/overview-character-classes', ...(id === 'magic-user' ? ['phb/spell-explanations-magic-users'] : [])]
+  : ['phb/overview-character-races'];
+const links = [...new Set(candidates)].map((key) => published.find((entry) => `${entry.book}/${entry.slug}` === key)).filter(Boolean);
+---
+{links.length > 0 && <p class="source-list"><span class="label">译文：</span>{links.map((entry, index) => <span>{index > 0 && ' · '}<a href={`/books/${entry!.book}/${entry!.slug}/`}>{entry!.book.toUpperCase()}：{entry!.title}</a></span>)}</p>}

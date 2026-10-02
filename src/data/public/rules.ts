@@ -20,5 +20,6 @@ export const rules: RuleEntry[] = [
   { id: 'weapon-proficiency', title: '武器熟练（预留）', category: 'combat', summary: '用于扩展不同版本的武器熟练与非熟练规则。', body: ['当前为入口条目，数据结构已允许职业能力链接到此页面。'], source: [{ book: 'UA', section: 'Weapon Proficiencies' }] },
   { id: 'encounters', title: '遭遇 Encounters', category: 'adventure', summary: '从旅行、地下城与城市活动中进入遭遇流程。', body: ['遭遇流程应同时考虑距离、突袭、光照、地形、意图与反应。', '随机遭遇表可作为遭遇的来源之一，但不应替代主持人的情境判断。'], related: [{ label: '突袭', href: '/combat/surprise' }, { label: '随机表', href: '/tables' }], source: [{ book: 'DMG', page: 47, section: 'Encounters' }] },
   { id: 'silent-movement', title: '静默移动', category: 'adventure', summary: '移动噪音、环境与地形会影响偷袭和遭遇判断。', body: ['记录角色是否主动降低速度、是否穿戴会发声的装备，以及地面材质。'], source: [{ book: 'PHB', page: 102, section: 'Movement' }] },
-  { id: 'pursuit', title: '追逐 Pursuit', category: 'adventure', summary: '用于处理逃跑、追赶与距离变化。', body: ['将移动率、地形、负重、体力与随机事件分开记录，便于扩展完整规则。'], source: [{ book: 'DMG', page: 69, section: 'Chases' }] }
+  { id: 'pursuit', title: '追逐 Pursuit', category: 'adventure', summary: '用于处理逃跑、追赶与距离变化。', body: ['将移动率、地形、负重、体力与随机事件分开记录，便于扩展完整规则。'], source: [{ book: 'DMG', page: 69, section: 'Chases' }] },
+  { id: 'healing', title: '治疗 Healing', category: 'combat', summary: '生命值可由休息、法术、圣疗、药水及其他魔法效果恢复。', body: ['一般休息每天恢复 1 点生命值；长期休息后的恢复速度、魔法治疗与生命值上限应对照《玩家手册》原文译稿裁定。'], related: [{ label: '治疗法术', href: '/spells/cure-light-wounds' }], source: [{ book: 'PHB', section: 'Healing' }] }
 ];

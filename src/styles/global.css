@@ -109,6 +109,23 @@ li { margin: 1px 0; }
 .book-row > div:last-child, .catalog-row > div:last-child { margin-left: 100px; }
 .book-row h3, .catalog-row h3 { display: inline; font-size: 15px; font-weight: normal; margin: 0; }
 .book-row p, .catalog-row p { color: #444; margin: 1px 0 0; font-size: 13px; }
+.book-toc-group h3 { border-bottom: 1px dotted #aaa; margin-top: 11px; }
+.book-toc { columns: 2; column-gap: 25px; font-size: 13px; }
+.book-toc li { break-inside: avoid; margin: 1px 0; }
+.letter-jump a { margin-right: 5px; }
+.book-location { color: #666; font-size: 12px; margin: 2px 0 4px; }
+.book-article h1 small { color: #555; font-size: 16px; font-weight: normal; }
+.book-body { overflow-x: auto; margin-top: 10px; }
+.book-body h2 { font-size: 17px; }
+.book-body h3 { font-size: 15px; }
+.book-body h4 { font-size: 14px; margin: 9px 0 3px; }
+.book-body p { margin: 5px 0 8px; }
+.book-body table { border-collapse: collapse; margin: 7px 0 10px; font: 13px/1.35 Verdana, Arial, '宋体', SimSun, sans-serif; }
+.book-body th, .book-body td { border: 1px solid #aaa; padding: 2px 5px; vertical-align: top; }
+.book-body th { background: #ddd; }
+.book-body blockquote { margin: 7px 12px; border-left: 3px solid #aaa; padding-left: 8px; }
+.book-body .spell-meta { border-left: 2px solid #aaa; padding-left: 8px; margin: 5px 0 8px; font-size: 13px; }
+.book-page-nav { display: flex; flex-wrap: wrap; gap: 5px 16px; font-size: 13px; margin: 7px 0; }
 .two-column { columns: 2; column-gap: 28px; }
 
 .search-form { margin: 7px 0; }
@@ -135,6 +152,39 @@ li { margin: 1px 0; }
 .dice-result { border: 1px solid #aaa; padding: 4px; margin-top: 5px; }
 .print-only { display: none; }
 
+.section-character .page-shell { width: 1040px; }
+.record-sheet { font-size: 13px; }
+.record-sheet h2 { margin-top: 9px; }
+.record-sheet h3 { font-size: 14px; border-bottom: 1px solid #999; margin: 9px 0 3px; }
+.record-sheet label { display: block; font-size: 12px; }
+.record-sheet label > input, .record-sheet label > select, .record-sheet label > textarea { display: block; width: 100%; margin-top: 1px; }
+.record-sheet textarea { resize: vertical; }
+.sheet-page { border-bottom: 1px solid #999; padding-bottom: 9px; margin-bottom: 9px; }
+.sheet-identity { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 3px 7px; }
+.sheet-identity label:first-child { grid-column: span 2; }
+.sheet-identity input, .sheet-identity select { min-width: 0; }
+.sheet-top-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
+.sheet-top-columns section { min-width: 0; }
+.sheet-abilities, .sheet-saves, .sheet-weapons, .sheet-gear { width: 100%; }
+.sheet-abilities input, .sheet-saves input { width: 100%; min-width: 42px; }
+.sheet-abilities td:nth-child(2) { width: 65px; }
+.sheet-saves td:nth-child(2) { width: 65px; }
+.sheet-line { margin-top: 4px; }
+.sheet-triple { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 7px; }
+.sheet-triple > section { min-width: 0; }
+.sheet-pairs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3px 6px; }
+.sheet-unarmed { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.sheet-weapons { min-width: 760px; }
+.sheet-weapons td { padding: 1px 2px; }
+.sheet-weapons input, .sheet-gear input { width: 100%; min-width: 0; border: 0; background: transparent; padding: 1px 2px; }
+.sheet-weapons th:first-child { width: 160px; }
+.sheet-weapons th:last-child { width: 170px; }
+.sheet-pair-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 7px; }
+.sheet-gear { min-width: 550px; }
+.sheet-gear th:first-child { width: 35%; }
+.character-guide { border-top: 1px solid #999; padding-top: 2px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
 .article-layout { display: flex; gap: 15px; align-items: flex-start; }
 .article-sidebar { flex: 0 0 165px; border-right: 1px solid #bbb; padding-right: 10px; font-size: 13px; }
 .article-sidebar h3 { font-size: 13px; border-bottom: 1px solid #999; margin: 5px 0 3px; }
@@ -153,20 +203,42 @@ li { margin: 1px 0; }
   .entry-meta dt { min-width: 95px; }
   .entry-meta dd { min-width: 0; }
   .character-layout, .article-layout { display: block; }
+  .sheet-identity { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sheet-top-columns, .sheet-triple, .sheet-pair-notes { grid-template-columns: 1fr; }
+  .sheet-unarmed { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .character-layout aside { border-left: 0; border-top: 1px solid #aaa; padding: 4px 0 0; margin-top: 12px; }
   .article-sidebar { border-right: 0; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 8px; }
   .article-sidebar a { display: inline; margin-right: 8px; }
   .field-grid label { width: 46%; }
   .book-code { width: 75px; }
+  .book-toc { columns: 1; }
   .book-row > div:last-child, .catalog-row > div:last-child { margin-left: 75px; }
 }
 
 @media print {
+  @page { size: A4 portrait; margin: 8mm; }
   html, body { background: #fff; color: #000; }
   .site-header, .site-footer, .breadcrumbs, .screen-only, button, .button, .character-actions, .controls { display: none !important; }
   .page-shell { width: 100% !important; max-width: none; margin: 0; padding: 0; }
   .print-only { display: block; }
   .character-layout { display: block; }
   .character-layout aside { border: 0; padding: 0; }
+  .record-sheet { font-size: 8pt; }
+  .record-sheet label { font-size: 7.5pt; }
+  .record-sheet input, .record-sheet select, .record-sheet textarea { font: 8pt Georgia, 'Times New Roman', '宋体', SimSun, serif; border: 0; border-bottom: 1px solid #777; background: transparent; padding: 0 1px; }
+  .record-sheet textarea { height: 18mm; }
+  .record-sheet .sheet-triple:last-child textarea { height: 23mm; }
+  .record-sheet h2 { font-size: 13pt; margin: 2px 0 3px; }
+  .record-sheet h3 { font-size: 9pt; margin: 4px 0 2px; }
+  .record-sheet .data-table { font-size: 7.5pt; }
+  .record-sheet .data-table th, .record-sheet .data-table td { padding: 1px 2px; }
+  .record-sheet .sheet-weapons, .record-sheet .sheet-gear { min-width: 0; }
+  .record-sheet .sheet-weapons th:first-child, .record-sheet .sheet-weapons th:last-child { width: auto; }
+  .sheet-page { break-after: page; page-break-after: always; border: 0; margin: 0; padding: 0; }
+  .sheet-page:last-of-type { break-after: auto; page-break-after: auto; }
+  .sheet-top-columns { gap: 7px; }
+  .sheet-triple, .sheet-pair-notes { gap: 4px; margin-top: 4px; }
+  .sheet-identity { gap: 2px 4px; }
+  .character-guide { display: none; }
   a { color: #000 !important; text-decoration: none !important; }
 }

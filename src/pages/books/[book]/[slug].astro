@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { books } from '../../../data/public/books';
+import published from '../../../data/published/books.json';
+
+type Topic = (typeof published)[number];
+export function getStaticPaths() {
+  return published.map((topic) => ({ params: { book: topic.book, slug: topic.slug }, props: { topic } }));
+}
+const { topic } = Astro.props as { topic: Topic };
+const modules = import.meta.glob('../../../published/books/**/*.md', { eager: true });
+const markdown = modules[`../../../published/books/${topic.book}/${topic.slug}.md`] as { Content: any } | undefined;
+if (!markdown) throw new Error(`Missing published text: ${topic.book}/${topic.slug}`);
+const Content = markdown.Content;
+const book = books.find((entry) => entry.id === topic.book)!;
+const siblings = published.filter((entry) => entry.book === topic.book);
+const position = siblings.findIndex((entry) => entry.slug === topic.slug);
+const previous = siblings[position - 1];
+const next = siblings[position + 1];
+---
+<BaseLayout title={`${topic.title} · ${book.short}`} description={`${book.short} 中文工作译稿：${topic.title}。`}>
+  <article class="book-article">
+    <h1>{topic.title}{topic.titleEn && <small> {topic.titleEn}</small>}</h1>
+    <p class="small muted">{book.short} · {topic.group} · 中文工作译稿，尚未经逐句终校。图版与扫描页未随文字稿发布。</p>
+    <div class="book-body"><Content /></div>
+    <hr class="rule" />
+    <p class="source-list"><span class="label">来源：</span><a href={`/books/${book.id}/`}>{book.short}</a> · <span title={topic.sourceFile}>译稿章节：{topic.title}</span></p>
+    <nav class="book-page-nav" aria-label="相邻章节">
+      {previous && <a href={`/books/${book.id}/${previous.slug}/`}>← {previous.title}</a>}
+      <a href={`/books/${book.id}/`}>返回目录</a>
+      {next && <a href={`/books/${book.id}/${next.slug}/`}>{next.title} →</a>}
+    </nav>
+  </article>
+</BaseLayout>
