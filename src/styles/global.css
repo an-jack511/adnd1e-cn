@@ -112,6 +112,7 @@ li { margin: 1px 0; }
 .book-toc-group h3 { border-bottom: 1px dotted #aaa; margin-top: 11px; }
 .book-toc { columns: 2; column-gap: 25px; font-size: 13px; }
 .book-toc li { break-inside: avoid; margin: 1px 0; }
+.book-toc-monsters { columns: 1; }
 .letter-jump a { margin-right: 5px; }
 .book-location { color: #666; font-size: 12px; margin: 2px 0 4px; }
 .book-article h1 small { color: #555; font-size: 16px; font-weight: normal; }

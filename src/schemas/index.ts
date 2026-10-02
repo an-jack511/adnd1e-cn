@@ -79,12 +79,16 @@ export type Item = z.infer<typeof ItemSchema>;
 export type ClassEntry = {
   id: string; nameZh: string; nameEn: string; primeRequisite: string; hitDie: string;
   alignment: string; weapons: string; armor: string; description: string;
+  minimumAbilities: Partial<Record<'STR' | 'INT' | 'WIS' | 'DEX' | 'CON' | 'CHA', number>>;
+  eligibleRaces: string[]; spellcasting: string;
   abilities: { name: string; description: string; href?: string }[]; source: SourceReference[];
 };
 
 export type RaceEntry = {
   id: string; nameZh: string; nameEn: string; modifiers: string; restrictions: string;
-  levelLimits: string; languages: string; movement: string; abilities: string[]; source: SourceReference[];
+  levelLimits: string; languages: string; movement: string; abilities: string[];
+  eligibleClasses: { id: string; limit: string }[]; multiclass: string[];
+  savingThrows: string; detection: string; source: SourceReference[];
 };
 
 export type RuleEntry = {

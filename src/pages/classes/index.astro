@@ -2,4 +2,4 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { classes } from '../../data/public/classes';
 ---
-<BaseLayout title="职业"><h1>职业</h1><p class="lede">职业数据与能力入口。完整等级表、XP 表和高等级能力可继续从已授权翻译导入。</p><div class="catalog-list">{classes.map((entry) => <article class="catalog-row"><div class="book-code">{entry.nameEn}</div><div><h3><a href={`/classes/${entry.id}`}>{entry.nameZh}</a></h3><p>{entry.description}</p><p class="muted small">主属性：{entry.primeRequisite} · Hit Dice：{entry.hitDie} · 阵营：{entry.alignment}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="职业"><h1>职业</h1><div class="table-wrap"><table class="data-table compact"><thead><tr><th>职业</th><th>英文</th><th>最低属性</th><th>生命骰</th><th>阵营</th><th>施法</th></tr></thead><tbody>{classes.map((entry) => <tr><td><a href={`/classes/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{Object.entries(entry.minimumAbilities).map(([ability, score]) => `${ability} ${score}`).join('、')}</td><td>{entry.hitDie}</td><td>{entry.alignment}</td><td>{entry.spellcasting}</td></tr>)}</tbody></table></div></BaseLayout>

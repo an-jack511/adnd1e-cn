@@ -108,8 +108,15 @@ const gear = Array.from({ length: 7 }, (_, index) => index);
       const hints = [];
       const race = races.find((entry) => entry.id === character.race);
       const classEntry = classes.find((entry) => entry.id === character.class);
-      if (race) hints.push(`${race.nameZh}：${race.restrictions}；等级限制：${race.levelLimits}。`);
-      if (classEntry) hints.push(`${classEntry.nameZh}：主属性 ${classEntry.primeRequisite}；最低属性与多职业限制请对照来源。`);
+        if (race) hints.push(`${race.nameZh}：${race.restrictions}；${race.levelLimits}。`);
+        if (classEntry) {
+          hints.push(`${classEntry.nameZh}：最低属性 ${Object.entries(classEntry.minimumAbilities).map(([ability, value]) => `${ability} ${value}`).join('、')}。`);
+          const missing = Object.entries(classEntry.minimumAbilities).filter(([ability, value]) => Number(character[ability]) < value).map(([ability]) => ability);
+          if (missing.length) hints.push(`未达职业最低属性：${missing.join('、')}。仍可继续填写，须由主持人裁定。`);
+          if (race && !classEntry.eligibleRaces.includes(race.id)) hints.push(`${race.nameZh}在 PHB 玩家角色职业表中不能选${classEntry.nameZh}。`);
+          const limit = race?.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit;
+          if (limit) hints.push(`${race.nameZh}／${classEntry.nameZh}等级上限：${limit}。`);
+        }
       document.querySelector('#rule-hints').replaceChildren(...(hints.length ? hints : ['选择种族与职业后显示提示。']).map((hint) => { const li = document.createElement('li'); li.textContent = hint; return li; }));
     };
     const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); for (const field of fields) if (typeof values[field.name] === 'string' || typeof values[field.name] === 'number') field.value = String(values[field.name]); update(); };

@@ -4,6 +4,9 @@ import { monsters } from '../src/data/public/monsters';
 import { items } from '../src/data/public/items';
 import { books } from '../src/data/public/books';
 import { tables } from '../src/data/public/tables';
+import { classes } from '../src/data/public/classes';
+import { races } from '../src/data/public/races';
+import classTables from '../src/data/public/class-tables.json';
 import { SpellSchema, MonsterSchema, ItemSchema } from '../src/schemas';
 import published from '../src/data/published/books.json';
 import { existsSync, readFileSync } from 'node:fs';
@@ -14,6 +17,18 @@ const unique = (values: string[], label: string) => { const duplicates = values.
 SpellSchema.array().parse(spells); MonsterSchema.array().parse(monsters); ItemSchema.array().parse(items);
 unique(spells.map((entry) => entry.id), 'spells'); unique(monsters.map((entry) => entry.id), 'monsters'); unique(items.map((entry) => entry.id), 'items');
 unique(tables.map((entry) => entry.id), 'random tables');
+unique(classes.map((entry) => entry.id), 'classes'); unique(races.map((entry) => entry.id), 'races');
+for (const entry of classes) {
+  if (!classTables[entry.id as keyof typeof classTables]?.rows.length) fail(`Missing class XP table: ${entry.id}`);
+  for (const raceId of entry.eligibleRaces) {
+    const race = races.find((item) => item.id === raceId);
+    if (!race || !race.eligibleClasses.some((item) => item.id === entry.id)) fail(`Class/race mismatch: ${entry.id}/${raceId}`);
+  }
+}
+for (const entry of races) for (const allowed of entry.eligibleClasses) {
+  const chosenClass = classes.find((item) => item.id === allowed.id);
+  if (!chosenClass || !chosenClass.eligibleRaces.includes(entry.id)) fail(`Race/class mismatch: ${entry.id}/${allowed.id}`);
+}
 const bookIds = new Set(books.flatMap((book) => [book.id, book.short, book.title]));
 for (const entry of [...spells, ...monsters, ...items]) for (const source of entry.source) if (!bookIds.has(source.book)) fail(`Unknown source "${source.book}"`);
 for (const monster of monsters) if (monster.illustration && !monster.illustration.src.startsWith('/assets/')) fail(`Illustration must be local: ${monster.id}`);
@@ -35,4 +50,4 @@ for (const chapter of published) {
     if (!publishedKeys.has(`${match[1]}/${match[2]}`)) fail(`Broken book link in ${chapter.book}/${chapter.slug}: ${match[0]}`);
   }
 }
-console.log(`Validated ${spells.length} spells, ${monsters.length} monsters, ${items.length} items, ${tables.length} random tables, ${books.length} books and ${published.length} published chapters.`);
+console.log(`Validated ${spells.length} spells, ${monsters.length} monsters, ${items.length} items, ${classes.length} classes, ${races.length} races, ${tables.length} random tables, ${books.length} books and ${published.length} published chapters.`);

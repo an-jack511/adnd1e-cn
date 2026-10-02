@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { races } from '../../data/public/races';
+import { classes } from '../../data/public/classes';
 ---
-<BaseLayout title="种族"><h1>种族</h1><p class="lede">种族限制、语言、移动与特殊能力索引。种族条目保持与职业、多职业和等级限制的交叉链接空间。</p><div class="catalog-list">{races.map((entry) => <article class="catalog-row"><div class="book-code">{entry.nameEn}</div><div><h3><a href={`/races/${entry.id}`}>{entry.nameZh}</a></h3><p>属性：{entry.modifiers} · 移动：{entry.movement}</p><p class="muted small">{entry.abilities.join(' · ')}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="种族"><h1>种族</h1><div class="table-wrap"><table class="data-table compact"><thead><tr><th>种族</th><th>英文</th><th>属性调整</th><th>移动</th><th>可选职业</th></tr></thead><tbody>{races.map((entry) => <tr><td><a href={`/races/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{entry.modifiers}</td><td>{entry.movement}</td><td>{entry.eligibleClasses.map(({ id }) => classes.find((item) => item.id === id)?.nameZh ?? id).join('、')}</td></tr>)}</tbody></table></div></BaseLayout>

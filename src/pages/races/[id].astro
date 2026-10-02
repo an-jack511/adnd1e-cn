@@ -3,7 +3,18 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { races } from '../../data/public/races';
+import { classes } from '../../data/public/classes';
 export function getStaticPaths() { return races.map((entry) => ({ params: { id: entry.id }, props: { entry } })); }
 const { entry } = Astro.props;
 ---
-<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><header class="entry-header"><h1>{entry.nameZh}</h1><div class="english">{entry.nameEn}</div></header><div class="entry-meta"><div><dt>属性调整</dt><dd>{entry.modifiers}</dd></div><div><dt>职业限制</dt><dd>{entry.restrictions}</dd></div><div><dt>等级限制</dt><dd>{entry.levelLimits}</dd></div><div><dt>移动</dt><dd>{entry.movement}</dd></div><div><dt>语言</dt><dd>{entry.languages}</dd></div></div><h2>特殊能力</h2><ul>{entry.abilities.map((ability) => <li>{ability}</li>)}</ul><PublishedLinks kind="race" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/races">← 返回种族</a></p></article></BaseLayout>
+<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><h1>{entry.nameZh} <small>{entry.nameEn}</small></h1>
+<div class="table-wrap"><table class="data-table compact"><tbody>
+<tr><th>属性调整</th><td>{entry.modifiers}</td></tr><tr><th>移动</th><td>{entry.movement}</td></tr>
+<tr><th>语言</th><td>{entry.languages}</td></tr><tr><th>豁免</th><td>{entry.savingThrows}</td></tr>
+<tr><th>侦察</th><td>{entry.detection}</td></tr>
+</tbody></table></div>
+<h2>可选职业与等级上限</h2><div class="table-wrap"><table class="data-table compact"><thead><tr><th>职业</th><th>等级上限</th></tr></thead><tbody>{entry.eligibleClasses.map(({ id, limit }) => <tr><td><a href={`/classes/${id}/`}>{classes.find((item) => item.id === id)?.nameZh ?? id}</a></td><td>{limit}</td></tr>)}</tbody></table></div>
+<p>表中“最高”值是 PHB 表列上限；部分职业另受属性值影响。</p>
+<h2>多职业</h2><p>{entry.multiclass.join(' · ')}</p>
+<h2>种族能力</h2><ul>{entry.abilities.map((ability) => <li>{ability}</li>)}</ul>
+<PublishedLinks kind="race" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/races">← 返回种族</a></p></article></BaseLayout>

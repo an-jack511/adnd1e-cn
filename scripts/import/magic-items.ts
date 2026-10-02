@@ -27,7 +27,8 @@ for (let index = 0; index < lines.length; index++) {
     let id = baseId, suffix = 2;
     while (ids.has(id)) id = `${baseId}-${suffix++}`;
     ids.add(id);
-    items.push({ id, nameZh: chinese, nameEn: english, category: '魔法物品', price: row[3] === '—' ? '未列售价' : `参考售价 ${row[3]} gp`, weight: '见正文', description: `${section}。DMG 表列 XP：${row[2]}；随机骰值：${row[0]}。使用效果与限制请核对同章物品说明。`, tags: ['魔法物品', section], source: [{ book: 'DMG', section: heading }] });
+    const nameZh = /^III\.A\. 药水/.test(heading) && !/药水|油剂|滤剂|毒药/.test(chinese) ? `${chinese}药水` : chinese;
+    items.push({ id, nameZh, nameEn: english, category: '魔法物品', price: row[3] === '—' ? '未列售价' : `参考售价 ${row[3]} gp`, weight: '未列', description: `${section}。DMG 表列 XP：${row[2]}；随机骰值：${row[0]}。`, tags: ['魔法物品', section], source: [{ book: 'DMG', section: heading }] });
   }
 }
 writeFileSync(resolve('src/data/public/magic-items-imported.json'), `${JSON.stringify(items, null, 2)}\n`);

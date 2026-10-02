@@ -3,7 +3,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { classes } from '../../data/public/classes';
+import { races } from '../../data/public/races';
+import tables from '../../data/public/class-tables.json';
 export function getStaticPaths() { return classes.map((entry) => ({ params: { id: entry.id }, props: { entry } })); }
 const { entry } = Astro.props;
+const table = tables[entry.id as keyof typeof tables];
+const requirements = Object.entries(entry.minimumAbilities).map(([score, minimum]) => `${score} ${minimum}`).join('、');
 ---
-<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><header class="entry-header"><h1>{entry.nameZh}</h1><div class="english">{entry.nameEn}</div></header><div class="entry-meta"><div><dt>主属性</dt><dd>{entry.primeRequisite}</dd></div><div><dt>Hit Dice</dt><dd>{entry.hitDie}</dd></div><div><dt>允许阵营</dt><dd>{entry.alignment}</dd></div><div><dt>允许武器</dt><dd>{entry.weapons}</dd></div><div><dt>允许护甲</dt><dd>{entry.armor}</dd></div></div><p>{entry.description}</p><h2>特殊能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul><p class="notice">等级表、XP、followers、stronghold 与 spell progression 将继续从译稿结构化；当前可先阅读原书章节。</p><PublishedLinks kind="class" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article></BaseLayout>
+<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><h1>{entry.nameZh} <small>{entry.nameEn}</small></h1><p>{entry.description}</p>
+<div class="table-wrap"><table class="data-table compact"><tbody>
+<tr><th>最低属性</th><td>{requirements}</td><th>主属性</th><td>{entry.primeRequisite}</td></tr>
+<tr><th>生命骰</th><td>{entry.hitDie}</td><th>阵营</th><td>{entry.alignment}</td></tr>
+<tr><th>护甲</th><td>{entry.armor}</td><th>武器</th><td>{entry.weapons}</td></tr>
+<tr><th>施法</th><td colspan="3">{entry.spellcasting}</td></tr>
+<tr><th>可选种族</th><td colspan="3">{entry.eligibleRaces.map((id, index) => <>{index > 0 && ' · '}<a href={`/races/${id}/`}>{races.find((race) => race.id === id)?.nameZh ?? id}</a></>)}</td></tr>
+</tbody></table></div>
+<h2>职业能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul>
+<h2>经验等级表</h2><div class="table-wrap"><table class="data-table compact"><thead><tr>{table.headers.map((header) => <th>{header}</th>)}</tr></thead><tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}</tbody></table></div>
+<PublishedLinks kind="class" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article></BaseLayout>

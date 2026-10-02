@@ -7,20 +7,22 @@ import { continuationParent } from '../../utils/book-continuations';
 export function getStaticPaths() { return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
 const { book } = Astro.props;
 const topics = published.filter((topic) => topic.book === book.id);
-const visibleTopics = topics.filter((topic) => !continuationParent(topic.slug));
-const groupsInSource = book.id === 'mm'
-  ? [...new Set(visibleTopics.map((topic) => topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group))]
-  : [...new Set(visibleTopics.map((topic) => topic.group === '补充篇页' ? '附录补充' : topic.group))];
-const groups = book.id === 'phb'
-  ? ['原书章节概览', '角色法术', '法术表', '法术说明', '冒险', '“怪物”一词', ...groupsInSource.filter((group) => !['原书章节概览', '角色法术', '法术表', '法术说明', '冒险', '“怪物”一词'].includes(group))].filter((group) => groupsInSource.includes(group))
-  : groupsInSource;
-const groupFor = (topic: (typeof topics)[number]) => book.id === 'mm' && topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : topic.group === '补充篇页' ? '附录补充' : topic.group;
+const visibleTopics = topics.filter((topic) => !continuationParent(topic.slug) && topic.group !== '原书章节概览' && topic.group !== '书末附页：TSR 出版目录与广告');
+const phbGroups: Record<string, string> = {
+  'character-fundamentals': '阵营与人物', 'creating-a-character': '前言与人物创建', foreword: '前言与人物创建', preface: '前言与人物创建', 'the-game': '前言与人物创建', 'original-contents': '前言与人物创建', 'table-index': '前言与人物创建',
+  'group-04': '角色属性', 'group-22': '法术说明', 'group-23': '法术说明', 'group-25': '经验与成长', 'experience': '经验与成长', 'group-26': '冒险', 'poison': '冒险', 'group-27': '冒险', 'successful-adventures': '冒险', 'hirelings-henchmen': '冒险', 'monster-term': '前言与人物创建'
+};
+const groupFor = (topic: (typeof topics)[number]) => book.id === 'mm' && topic.group === '怪物条目' ? `${topic.titleEn.charAt(0).toUpperCase()} 字头` : book.id === 'phb' && phbGroups[topic.slug] ? phbGroups[topic.slug] : topic.group === '补充篇页' ? '附录' : topic.group;
+const groupsInSource = [...new Set(visibleTopics.map(groupFor))];
+const groups = book.id === 'phb' ? ['前言与人物创建', '阵营与人物', '角色属性', '角色种族', '角色职业', '装备', '角色法术', '法术表', '法术说明', '冒险', '经验与成长', ...groupsInSource.filter((group) => !['前言与人物创建', '阵营与人物', '角色属性', '角色种族', '角色职业', '装备', '角色法术', '法术表', '法术说明', '冒险', '经验与成长'].includes(group))].filter((group) => groupsInSource.includes(group)) : groupsInSource;
+const displayTitle = (topic: (typeof topics)[number]) => topic.slug === 'climate-ecology' ? '气候与生态' : topic.title;
+const orderedTopics = (group: string) => visibleTopics.filter((topic) => groupFor(topic) === group).sort((a, b) => book.id === 'mm' ? a.titleEn.localeCompare(b.titleEn, 'en') : 0);
 ---
 <BaseLayout title={`${book.short} · ${book.titleZh}`}><article><header class="entry-header"><h1>{book.titleZh}</h1><div class="english">{book.short} · {book.title}</div></header><p>{book.description}</p>
   {topics.length > 0 ? <>
     <p class="small muted">{topics.length} 篇正文</p>
     {book.id === 'mm' && <p class="letter-jump">字头：{groups.filter((group) => group.endsWith(' 字头')).map((group) => <><a href={`#letter-${group.charAt(0)}`}>{group.charAt(0)}</a> </>)}</p>}
     <h2>章节目录</h2>
-    {groups.map((group) => <section class="book-toc-group" id={book.id === 'mm' && group.endsWith(' 字头') ? `letter-${group.charAt(0)}` : undefined}><h3>{group}</h3><ul class="book-toc">{visibleTopics.filter((topic) => groupFor(topic) === group).map((topic) => <li><a href={`/books/${book.id}/${topic.slug}/`}>{topic.title}</a>{topic.titleEn && <span class="muted small"> {topic.titleEn}</span>}</li>)}</ul></section>)}
+    {groups.map((group) => <section class="book-toc-group" id={book.id === 'mm' && group.endsWith(' 字头') ? `letter-${group.charAt(0)}` : undefined}><h3>{group}</h3><ul class:list={['book-toc', { 'book-toc-monsters': book.id === 'mm' && group.endsWith(' 字头') }]}>{orderedTopics(group).map((topic) => <li><a href={`/books/${book.id}/${topic.slug}/`}>{displayTitle(topic)}</a>{topic.titleEn && <span class="muted small"> {topic.titleEn}</span>}</li>)}</ul></section>)}
   </> : <><p>暂无正文。</p></>}
   <SourceList sources={book.source} /><p><a href="/books">← 返回规则书</a></p></article></BaseLayout>

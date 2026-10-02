@@ -7,6 +7,6 @@ const { item } = Astro.props;
 ---
 <BaseLayout title={`${item.nameZh} ${item.nameEn}`}><article>
   <header class="entry-header"><h1>{item.nameZh}</h1><div class="english">{item.nameEn} · {item.category}</div></header>
-  <div class="entry-meta"><div><dt>价格</dt><dd>{item.price}</dd></div><div><dt>重量</dt><dd>{item.weight}</dd></div><div><dt>伤害 S/M</dt><dd>{item.damageSmallMedium ?? '—'}</dd></div><div><dt>伤害 L</dt><dd>{item.damageLarge ?? '—'}</dd></div><div><dt>长度</dt><dd>{item.length ?? '—'}</dd></div><div><dt>Space required</dt><dd>{item.spaceRequired ?? '—'}</dd></div><div><dt>Speed factor</dt><dd>{item.speedFactor ?? '—'}</dd></div><div><dt>AC adjustment</dt><dd>{item.acAdjustment ?? '—'}</dd></div></div>
-  <p>{item.description}</p><p>{item.tags.map((tag) => <span class="tag">{tag}</span>)}</p><SourceList sources={item.source} /><p><a href="/equipment">← 返回装备与物品</a></p>
+  <div class="entry-meta"><div><dt>价格</dt><dd>{item.price}</dd></div><div><dt>负重</dt><dd>{item.weight}</dd></div><div><dt>伤害 S/M</dt><dd>{item.damageSmallMedium ?? '—'}</dd></div><div><dt>伤害 L</dt><dd>{item.damageLarge ?? '—'}</dd></div><div><dt>长度</dt><dd>{item.length ?? '—'}</dd></div><div><dt>所需空间</dt><dd>{item.spaceRequired ?? '—'}</dd></div><div><dt>速度因子</dt><dd>{item.speedFactor ?? '—'}</dd></div><div><dt>AC 调整</dt><dd>{item.acAdjustment ?? '—'}</dd></div></div>
+  <p>{item.description}</p><SourceList sources={item.source} /><p><a href={item.category === '魔法物品' ? '/equipment/magic-items/' : '/equipment/'}>← 返回{item.category === '魔法物品' ? '魔法物品' : '装备与物品'}</a></p>
 </article></BaseLayout>

@@ -15,7 +15,7 @@ const ruleMap: Record<string, string[]> = {
   traps: ['phb/traps', 'dmg/dmg-appendix-g-traps'],
   encounters: ['phb/encounters', 'dmg/dmg-appendix-c-random-monster-encounters'],
   'silent-movement': ['phb/silent-movement'], pursuit: ['dmg/dmg-combat'],
-  'spell-casting': ['phb/overview-spell-casting', 'phb/spell-combat'],
+  'spell-casting': ['phb/group-23', 'phb/spell-combat'],
   'ability-scores': ['phb/overview-character-abilities', 'dmg/dmg-character-abilities'],
   strongholds: ['dmg/dmg-strongholds']
 };
@@ -28,8 +28,8 @@ const spellChapters: Record<string, string> = {
 const candidates = kind === 'rule' ? ruleMap[id] ?? []
   : kind === 'monster' ? [`mm/mm-${id}`]
   : kind === 'spell' ? classes.map((className) => spellChapters[className]).filter(Boolean)
-  : kind === 'class' ? ['phb/overview-character-classes', ...(id === 'magic-user' ? ['phb/spell-explanations-magic-users'] : [])]
-  : ['phb/overview-character-races'];
+  : kind === 'class' ? (id === 'bard' ? ['phb/appendix-bards', 'phb/bard-class'] : [`phb/${id}`])
+  : ['phb/races', `phb/${({ dwarf: 'dwarves', elf: 'elves', gnome: 'gnomes', 'half-elf': 'half-elves', halfling: 'halflings', 'half-orc': 'half-orcs', human: 'humans' } as Record<string, string>)[id]}`];
 const links = [...new Set(candidates)].map((key) => published.find((entry) => `${entry.book}/${entry.slug}` === key)).filter(Boolean);
 ---
 {links.length > 0 && <p class="source-list"><span class="label">译文：</span>{links.map((entry, index) => <span>{index > 0 && ' · '}<a href={`/books/${entry!.book}/${entry!.slug}/`}>{entry!.book.toUpperCase()}：{entry!.title}</a></span>)}</p>}
