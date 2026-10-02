@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { tables } from '../../data/public/tables';
+const count = (category: string) => tables.filter((table) => table.category === category).length;
+---
+<BaseLayout title="主持游戏"><h1>主持游戏</h1><p>按主持时的动作查表；掷骰结果保留 DMG 原表链接。</p>
+<table class="home-directory"><tbody>
+<tr><th scope="row">遭遇</th><td><a href="/play/encounter/">遭遇流程</a> · <a href="/tables/#encounter">随机遭遇</a>（{count('随机遭遇')} 表） · <a href="/play/combat/#morale">士气</a></td></tr>
+<tr><th scope="row">地下城</th><td><a href="/tables/#dungeon">随机地下城</a>（{count('地下城')} 表） · <a href="/play/travel/#actions">搜索与陷阱</a></td></tr>
+<tr><th scope="row">财宝</th><td><a href="/tables/#treasure">财宝与魔法物品表</a>（{count('战利品')} 表） · <a href="/equipment/magic-items/">魔法物品索引</a></td></tr>
+<tr><th scope="row">旅行</th><td><a href="/play/travel/">时间、移动与负重</a> · <a href="/tables/#encounter">荒野遭遇</a></td></tr>
+<tr><th scope="row">角色</th><td><a href="/play/downtime/#people">雇员与随从</a> · <a href="/play/advancement/">经验与升级</a></td></tr>
+</tbody></table>
+<h2>原书</h2><p><a href="/books/dmg/">《地下城主指南》</a> · <a href="/books/phb/">《玩家手册》</a> · <a href="/books/mm/">《怪物图鉴》</a></p>
+</BaseLayout>

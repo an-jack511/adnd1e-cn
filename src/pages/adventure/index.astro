@@ -1,19 +1,17 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { rules } from '../../data/public/rules';
-const adventureRules = rules.filter((rule) => rule.category === 'adventure');
-const groups = [
-  { name: '地下城与探索', entries: [['时间与移动', 'movement-time-distance'], ['光照', 'light'], ['陷阱', 'traps'], ['静默移动', 'silent-movement'], ['门', ''], ['搜索', ''], ['聆听', '']] },
-  { name: '遭遇', entries: [['遭遇流程', 'encounters'], ['突袭', '/combat/surprise'], ['随机遭遇', ''], ['追逐', 'pursuit']] },
-  { name: '荒野与旅行', entries: [['荒野旅行', ''], ['天气', ''], ['坐骑', ''], ['食物与水', ''], ['休息', '']] },
-  { name: '其他', entries: [['负重', 'encumbrance'], ['雇员', ''], ['Henchmen', '']] }
-];
+import { playPages } from '../../data/public/play';
+const guide = playPages.find((page) => page.slug === 'travel')!;
+const entries = rules.filter((rule) => rule.category === 'adventure');
 ---
 <BaseLayout title="冒险规则">
   <h1>冒险规则</h1>
-  <p class="lede">按探索与旅行时的查询顺序整理。灰字项目尚待录入。</p>
-  <h2>目录</h2>
-  <table class="directory-groups"><tbody>{groups.map((group) => <tr><th scope="row">{group.name}</th><td>{group.entries.map(([label, id]) => id ? <a href={id.startsWith('/') ? id : `/adventure/${id}/`}>{label}</a> : <span class="muted">{label}</span>)}</td></tr>)}</tbody></table>
-  <h2>已整理条目</h2>
-  <ul class="entry-index">{adventureRules.map((rule) => <li><a href={`/adventure/${rule.id}/`}>{rule.title}</a> — {rule.summary}</li>)}</ul>
+  <p>{guide.intro}</p>
+  <h2>旅行与探索次序</h2>
+  <ol>{guide.sequence.map((step) => <li>{step}</li>)}</ol>
+  <p>速查：{guide.sections.map((section, index) => <span><a href={`/play/travel/#${section.id}`}>{section.title}</a>{index < guide.sections.length - 1 ? ' · ' : ''}</span>)}</p>
+  <h2>常用规则</h2>
+  <table class="directory-groups"><tbody>{entries.map((rule) => <tr><th scope="row"><a href={`/adventure/${rule.id}/`}>{rule.title}</a></th><td>{rule.summary}</td></tr>)}</tbody></table>
+  <p><a href="/play/travel/">阅读完整探索流程与出处</a> · <a href="/play/encounter/">遭遇</a> · <a href="/dm/">主持人工具</a></p>
 </BaseLayout>

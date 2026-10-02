@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { playPages } from '../../data/public/play';
+---
+<BaseLayout title="游戏中"><h1>游戏中</h1><p>按当前桌面上的事情查规则；每个流程保留原书来源。</p>
+<table class="home-directory"><tbody>{playPages.map((page) => <tr><th scope="row"><a href={`/play/${page.slug}/`}>{page.title}</a></th><td>{page.intro}</td></tr>)}</tbody></table>
+</BaseLayout>

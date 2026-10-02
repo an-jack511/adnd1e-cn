@@ -13,14 +13,22 @@ import published from '../data/published/books.json';
     <button type="submit">搜索</button>
   </form>
 
-  <h2>规则资料</h2>
+  <h2>游戏中</h2>
   <table class="home-directory"><tbody>
-    <tr><th scope="row"><a href="/adventure/">冒险</a></th><td><a href="/adventure/movement-time-distance/">时间与移动</a> · <a href="/adventure/light/">光照</a> · <a href="/adventure/traps/">陷阱</a> · <a href="/adventure/encounters/">遭遇</a> · <a href="/adventure/encumbrance/">负重</a></td></tr>
-    <tr><th scope="row"><a href="/combat/">战斗</a></th><td><a href="/combat/combat-sequence/">战斗流程</a> · <a href="/combat/surprise/">突袭</a> · <a href="/combat/initiative/">先攻</a> · <a href="/combat/armor-class/">AC</a> · <a href="/combat/damage/">伤害</a></td></tr>
-    <tr><th scope="row">人物</th><td><a href="/races/">种族</a> · <a href="/classes/">职业</a> · <a href="/character/">快速车卡</a> · <a href="/rules/ability-scores/">属性与派生值</a></td></tr>
-    <tr><th scope="row">资料库</th><td><a href="/spells/">法术表</a>（{spells.length}） · <a href="/equipment/">装备与物品</a>（{items.length}） · <a href="/monsters/">怪物合集</a>（{monsters.length}） · <a href="/tables/">随机表</a></td></tr>
-    <tr><th scope="row">其他规则</th><td><a href="/psionics/">灵能与其他规则</a> · <a href="/rules/strongholds/">据点</a> · <a href="/rules/">全部规则索引</a></td></tr>
+    <tr><th scope="row"><a href="/play/character-creation/">创建角色</a></th><td>属性 → 种族与职业 → 装备 → 人物卡</td></tr>
+    <tr><th scope="row"><a href="/play/travel/">旅行与探索</a></th><td>负重、时间、移动、光照与搜索</td></tr>
+    <tr><th scope="row"><a href="/play/encounter/">遭遇</a></th><td>突袭、距离、反应；交涉、逃跑或战斗</td></tr>
+    <tr><th scope="row"><a href="/play/combat/">战斗</a></th><td><a href="/play/combat/#sequence">战斗流程</a> · <a href="/play/combat/#initiative">先攻</a> · <a href="/play/combat/#spell-combat">施法</a> · <a href="/play/combat/#damage">伤害</a></td></tr>
+    <tr><th scope="row"><a href="/play/magic/">施法与魔法</a></th><td>准备、成分、施法时间与中断</td></tr>
+    <tr><th scope="row"><a href="/play/downtime/">城镇与休整</a></th><td>购买、雇员、治疗与补给</td></tr>
+    <tr><th scope="row"><a href="/play/advancement/">成长与升级</a></th><td>经验值、等级表与职业变化</td></tr>
   </tbody></table>
+
+  <h2>查资料</h2>
+  <p><a href="/spells/">法术</a>（{spells.length}） · <a href="/monsters/">怪物</a>（{monsters.length}） · <a href="/equipment/">装备</a> · <a href="/equipment/magic-items/">魔法物品</a> · <a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/rules/">全部规则</a></p>
+
+  <h2>工具</h2>
+  <p><a href="/character/">REF2 快速车卡</a> · <a href="/dm/">主持游戏</a> · <a href="/tables/">随机表</a></p>
 
   <h2>规则书</h2>
   <p class="book-shortcuts">{books.filter((book) => published.some((topic) => topic.book === book.id)).map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a>（{published.filter((topic) => topic.book === book.id).length} 篇）</span>)}</p>

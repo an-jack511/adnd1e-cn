@@ -10,19 +10,19 @@ const period = dungeon.find((table) => table.title.startsWith('表 I：'));
   <h1>随机表</h1>
   <p>地下城 {dungeon.length} 表 · 遭遇 {encounter.length} 表 · 财宝与魔法物品 {treasure.length} 表</p>
 
-  <h2>随机地下城</h2>
+  <h2 id="dungeon">随机地下城</h2>
   <p>从通道开始，逐段掷周期检查表；遇到门、房间或楼梯时继续掷对应子表。</p>
   <p><button type="button" id="next-dungeon">生成下一段</button> <button type="button" id="clear-dungeon">清空记录</button>　<a href="/books/dmg/dmg-appendix-a-random-dungeon-generation/">阅读附录 A</a></p>
   <ol id="dungeon-log" aria-live="polite"></ol>
 
-  <h2>随机遭遇</h2>
+  <h2 id="encounter">随机遭遇</h2>
   <p><label for="encounter-table">选择环境／等级表：</label>
     <select id="encounter-table">{encounter.map((table) => <option value={table.id}>{table.title}（{table.dice}）</option>)}</select>
     <button type="button" id="roll-encounter">掷骰</button></p>
   <div id="encounter-result" aria-live="polite">尚未掷骰。</div>
   <p><a href="/books/dmg/dmg-appendix-c-random-monster-encounters/">阅读附录 C 随机遭遇说明</a></p>
 
-  <h2>战利品与魔法物品</h2>
+  <h2 id="treasure">战利品与魔法物品</h2>
   <p>先确定宝藏类型，再掷对应的货币、魔法或混合宝藏表。</p>
   <p><label for="treasure-table">选择财宝表：</label>
     <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{table.title}（{table.dice}）</option>)}</select>

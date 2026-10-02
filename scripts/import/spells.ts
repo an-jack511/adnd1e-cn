@@ -29,7 +29,7 @@ for (const [characterClass, file] of classFiles) {
     const level = Number(field('等级 Level'));
     if (!Number.isInteger(level) || level < 1) { skipped.push(`${file}: ${heading}`); continue; }
     const school = clean([...heading.matchAll(/（([^）]+)）/g)].at(-1)?.[1] ?? '未注明').replace(/，?可逆\s*Reversible/i, '').trim();
-    const components = (field('成分 Components').match(/[VSM]/g) ?? []).filter((part): part is 'V' | 'S' | 'M' => ['V', 'S', 'M'].includes(part));
+    const components = (field('成分 Components').match(/[VSM]/g) ?? []) as Spell['components'];
     const rest = chunk.slice(chunk.indexOf(meta[0]) + meta[0].length).split(/(?=^##\s)/m)[0];
     const description = clean(rest).slice(0, 5000);
     const baseId = slugify(english);

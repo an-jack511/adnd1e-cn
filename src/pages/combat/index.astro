@@ -1,19 +1,17 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { rules } from '../../data/public/rules';
-const combatRules = rules.filter((rule) => rule.category === 'combat');
-const groups = [
-  { name: '开始与顺序', entries: [['战斗流程', 'combat-sequence'], ['突袭 Surprise', 'surprise'], ['先攻 Initiative', 'initiative'], ['Segment', ''], ['移动 Movement', '']] },
-  { name: '攻击与防御', entries: [['近战 Melee', ''], ['远程 Missile', ''], ['护甲等级 AC', 'armor-class'], ['攻击矩阵', ''], ['伤害 Damage', 'damage'], ['武器速度', ''], ['多重攻击', 'multiple-attacks']] },
-  { name: '施法', entries: [['战斗施法', '/rules/spell-casting'], ['法术中断', 'spell-interruption']] },
-  { name: '特殊情形', entries: [['冲锋', ''], ['掩护', ''], ['擒抱', ''], ['拳击', ''], ['压倒', ''], ['士气', ''], ['昏迷与死亡', ''], ['治疗', 'healing']] }
-];
+import { playPages } from '../../data/public/play';
+const guide = playPages.find((page) => page.slug === 'combat')!;
+const entries = rules.filter((rule) => rule.category === 'combat');
 ---
 <BaseLayout title="战斗规则">
   <h1>战斗规则</h1>
-  <p class="lede">按跑团中的查询顺序编排；英文术语保留，便于对照原书。灰字项目尚待录入。</p>
-  <h2>目录</h2>
-  <table class="directory-groups"><tbody>{groups.map((group) => <tr><th scope="row">{group.name}</th><td>{group.entries.map(([label, id]) => id ? <a href={id.startsWith('/') ? id : `/combat/${id}/`}>{label}</a> : <span class="muted">{label}</span>)}</td></tr>)}</tbody></table>
-  <h2>已整理条目</h2>
-  <ul class="entry-index">{combatRules.map((rule) => <li><a href={`/combat/${rule.id}/`}>{rule.title}</a> — {rule.summary}</li>)}</ul>
+  <p>{guide.intro}</p>
+  <h2>一轮中的次序</h2>
+  <ol>{guide.sequence.map((step) => <li>{step}</li>)}</ol>
+  <p>速查：{guide.sections.map((section, index) => <span><a href={`/play/combat/#${section.id}`}>{section.title}</a>{index < guide.sections.length - 1 ? ' · ' : ''}</span>)}</p>
+  <h2>常用规则</h2>
+  <table class="directory-groups"><tbody>{entries.map((rule) => <tr><th scope="row"><a href={`/combat/${rule.id}/`}>{rule.title}</a></th><td>{rule.summary}</td></tr>)}</tbody></table>
+  <p><a href="/play/combat/">阅读完整战斗流程与出处</a> · <a href="/play/encounter/">从遭遇开始</a> · <a href="/equipment/">查武器</a></p>
 </BaseLayout>

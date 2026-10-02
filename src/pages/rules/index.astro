@@ -3,4 +3,4 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { rules } from '../../data/public/rules';
 const groups = [{ key: 'combat', label: '战斗规则' }, { key: 'adventure', label: '冒险规则' }, { key: 'rules', label: '其他规则' }];
 ---
-<BaseLayout title="规则索引"><h1>规则索引</h1><p class="lede">按实际查询对象组织的跨来源规则。规则书只是来源，不是唯一的浏览方式。</p>{groups.map((group) => <section><h2>{group.label}</h2><div class="link-index">{rules.filter((rule) => rule.category === group.key).map((rule) => <a href={`/${rule.category === 'combat' ? 'combat' : rule.category === 'adventure' ? 'adventure' : 'rules'}/${rule.id}`}>{rule.title}</a>)}</div></section>)}</BaseLayout>
+<BaseLayout title="规则索引"><h1>规则索引</h1><p><a href="/play/">按游戏情形查规则</a> · <a href="/play/combat/">战斗整页</a> · <a href="/play/travel/">旅行与探索</a> · <a href="/play/magic/">施法与魔法</a></p>{groups.map((group) => <section><h2>{group.label}</h2><div class="link-index">{rules.filter((rule) => rule.category === group.key && !rule.title.includes('预留')).map((rule) => <a href={`/${rule.category === 'combat' ? 'combat' : rule.category === 'adventure' ? 'adventure' : 'rules'}/${rule.id}`}>{rule.title}</a>)}</div></section>)}</BaseLayout>

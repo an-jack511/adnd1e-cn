@@ -10,7 +10,7 @@ button, .button { border: 1px solid #888; border-radius: 0; background: #eee; pa
 input, select, textarea { border: 1px solid #888; border-radius: 0; background: #fff; padding: 2px 3px; }
 input[type='checkbox'], input[type='radio'], input[type='file'] { border: 0; padding: 0; background: transparent; }
 
-.site-header, .page-shell, .site-footer { width: 900px; max-width: calc(100% - 32px); margin-left: 24px; margin-right: 0; }
+.site-header, .page-shell, .site-footer { width: 900px; max-width: calc(100% - 32px); margin-left: auto; margin-right: auto; }
 .section-monsters .page-shell, .section-spells .page-shell, .section-equipment .page-shell { width: 1040px; }
 .site-header { padding-top: 7px; }
 .masthead { padding-bottom: 2px; }
@@ -146,6 +146,7 @@ li { margin: 1px 0; }
 .field-grid input, .field-grid select { display: block; width: 100%; max-width: 21ch; margin-top: 1px; }
 .ability-table td input { width: 6ch; }
 .character-actions { display: block; margin-top: 5px; }
+.record-sheet .screen-only, .character-guide.screen-only { position: static; width: auto; height: auto; padding: 0; margin: initial; overflow: visible; clip: auto; white-space: normal; border: 0; }
 .character-actions button, .character-actions .button { display: inline-block; margin: 0 3px 4px 0; font-size: 12px; }
 .derived-list { margin: 2px 0 8px; padding: 0; list-style: none; font-size: 12px; }
 .derived-list li { border-bottom: 1px dotted #bbb; padding: 2px 0; }

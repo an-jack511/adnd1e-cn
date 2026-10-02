@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { playPages } from '../../data/public/play';
+export function getStaticPaths() { return playPages.map((page) => ({ params: { slug: page.slug }, props: { page } })); }
+const { page } = Astro.props;
+---
+<BaseLayout title={page.title}><article class="play-guide"><h1>{page.title}</h1><p>{page.intro}</p>
+<h2>速查流程</h2><ol>{page.sequence.map((step) => <li>{step}</li>)}</ol>
+<p class="small">本页：{page.sections.map((section, index) => <>{index > 0 && ' · '}<a href={`#${section.id}`}>{section.title}</a></>)}</p>
+{page.sections.map((section) => <section id={section.id}><h2>{section.title}</h2><ul>{section.points.map((point) => <li>{point}</li>)}</ul>
+<p class="small">{section.links.map((item, index) => <>{index > 0 && ' · '}<a href={item.href}>{item.label}</a></>)}</p>
+<p class="source-list">来源：{section.sources.map((item, index) => <>{index > 0 && ' · '}<a href={item.href}>{item.label}</a></>)}</p></section>)}
+</article></BaseLayout>

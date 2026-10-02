@@ -28,7 +28,8 @@ npm run build
 
 ```bash
 npm run validate:data
-npm run build:search-index
+npm run test:rules
+npm run check:links
 ```
 
 ## 数据结构
@@ -39,6 +40,8 @@ npm run build:search-index
 - `monsters.ts`：保留 HD、AC、移动、出现数量、宝藏、特殊攻击、魔抗、灵能等字段。
 - `items.ts`：保留武器的 S/M、L、长度、space required、speed factor、AC adjustment。
 - `classes.ts`、`races.ts`、`rules.ts`、`books.ts`、`tables.ts`：其他索引数据。
+- `play.ts`：按创建角色、旅行、遭遇、战斗、施法、休整与升级组织桌边流程。
+- `src/rules-engine/`：车卡资格、属性、护甲、装备和负重的纯计算函数；不依赖页面。
 - `src/schemas/`：Zod schema 与公共 TypeScript 类型。
 - `src/published/books/`：经明确确认可公开发布的中文译稿 Markdown；与结构化示例数据分开。
 - `src/data/published/books.json`：已发布章节目录与来源文件标记。
@@ -69,11 +72,13 @@ npm run build:search-index
 
 现有中文工作译稿来自本地独立工程的 `manuscript/` 及旧版 `build/chm/content/`。`scripts/import/published-books.ts` 将 PHB、DMG、MM 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
 
-`scripts/import/spells.ts`、`monsters.ts`、`items.ts`、`magic-items.ts` 与 `random-tables.ts` 分别生成结构化索引。改动父目录译稿后，先运行对应导入脚本，再运行 `npm run build:search-index`、`npm run validate:data` 和 `npm run build`。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
+`scripts/import/spells.ts`、`monsters.ts`、`items.ts`、`magic-items.ts` 与 `random-tables.ts` 分别生成结构化索引。改动父目录译稿后，先运行对应导入脚本，再运行 `npm run validate:data` 和 `npm run build`。搜索索引由 Astro 静态路由直接生成，不需要单独维护 JSON 副本。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
 
 ## 快速车卡
 
-`/character/` 按本地 REF2《Player Character Sheets》的字段顺序组织正反两面：正面为属性、豁免、移动、护甲、生命值和战斗数据；背面为人物经历、装备、物资、财宝与随从。网页表单为新设计，不复制原书版面图。保存使用 `localStorage`，支持 JSON 导入导出与浏览器打印。`scripts/import/ability-tables.ts` 从仓库外的 PHB 工作译稿提取属性表数值，生成 `src/data/public/ability-tables.json`；目前涵盖 STR、WIS、DEX、CON、CHA，INT 与不适用分值提示查原表。工作译稿尚待人工终校，跑团时应核对原规则。
+`/character/` 按本地 REF2《Player Character Sheets》的字段顺序组织正反两面：正面为属性、豁免、移动、护甲、生命值和战斗数据；背面为人物经历、装备、物资、财宝与随从。网页表单为新设计，不复制原书版面图。保存使用 `localStorage`，支持多人物保存、复制、加载、JSON 导入导出与浏览器打印。资格、AC、装备冲突与负重检查不会阻止 DM 修改。`/character/abilities/` 展示从 PHB 工作译稿整理的六项属性表，供核对车卡派生值。工作译稿尚待人工终校，跑团时应核对原规则。
+
+信息架构与后续开发顺序见 `docs/architecture.md`。旧的 `/books/`、`/combat/`、`/adventure/` 等链接继续有效；`/play/` 按游戏情境组织规则，`/dm/` 集中主持人工具。
 
 ## Cloudflare Pages
 

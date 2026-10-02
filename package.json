@@ -9,8 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
-    "build:search-index": "tsx scripts/build-search-index.ts",
-    "check:links": "tsx scripts/check-built-links.ts"
+    "check:links": "tsx scripts/check-built-links.ts",
+    "test:rules": "tsx scripts/test-rules-engine.ts"
   },
   "dependencies": {
     "astro": "5.15.5",
