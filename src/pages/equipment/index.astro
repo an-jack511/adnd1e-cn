@@ -16,7 +16,7 @@ const links = ordinaryItems.map((item) => [`/equipment/${item.id}`, undefined, u
     <label>价格上限（gp） <input id="item-price" type="number" min="0" /></label>
     <label>速度因子 <input id="item-speed" type="search" /></label>
     <label>伤害 <input id="item-damage" type="search" size="8" placeholder="如 1d8" /></label>
-    <label>来源 <select id="item-source"><option value="">全部来源</option><option value="PHB">PHB</option><option value="DMG">DMG</option></select></label>
+    <label>来源 <select id="item-source"><option value="">全部来源</option><option value="PHB">PHB</option><option value="DMG">DMG</option><option value="UA">UA</option></select></label>
   </div></div>
   <p id="item-count" class="results-count">显示 {ordinaryItems.length} 件装备</p>
   <div id="item-results"><EntryTable headers={['中文名', '英文名', '类别', '价格', '负重', '伤害 S/M', '伤害 L', '速度因子', 'AC 调整']} rows={rows} links={links} /></div>
@@ -33,5 +33,7 @@ const links = ordinaryItems.map((item) => [`/equipment/${item.id}`, undefined, u
     };
     const render = () => { const query = name.value.trim().toLowerCase(); const filtered = items.filter((item) => (!query || `${item.nameZh} ${item.nameEn} ${item.description} ${item.tags.join(' ')}`.toLowerCase().includes(query)) && (!category.value || item.category === category.value) && (!price.value || numericPrice(item.price) <= Number(price.value)) && (!speed.value || item.speedFactor === speed.value) && (!damage.value || `${item.damageSmallMedium ?? ''} ${item.damageLarge ?? ''}`.toLowerCase().includes(damage.value.trim().toLowerCase())) && (!source.value || item.source.some((entry) => entry.book === source.value))); count.textContent = `显示 ${filtered.length} 件装备`; results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>类别</th><th>价格</th><th>负重</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>AC 调整</th></tr></thead><tbody>${filtered.map((item) => `<tr><td><a href="/equipment/${item.id}">${item.nameZh}</a></td><td>${item.nameEn}</td><td>${item.category}</td><td>${item.price}</td><td>${item.weight}</td><td>${item.damageSmallMedium ?? '—'}</td><td>${item.damageLarge ?? '—'}</td><td>${item.speedFactor ?? '—'}</td><td>${item.acAdjustment ?? '—'}</td></tr>`).join('')}</tbody></table></div>`; };
     [name, category, price, speed, damage, source].forEach((input) => input.addEventListener('input', render));
+    const params = new URLSearchParams(location.search);
+    if (params.has('source')) { source.value = params.get('source'); render(); }
   </script>
 </BaseLayout>

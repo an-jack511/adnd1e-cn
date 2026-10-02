@@ -1,4 +1,5 @@
 import imported from './tables-imported.json';
+import uaImported from './ua-tables-imported.json';
 
 export type RandomTable = {
   id: string;
@@ -9,4 +10,4 @@ export type RandomTable = {
   entries: { min: number; max: number; result: string; href?: string }[];
 };
 
-export const tables: RandomTable[] = imported as RandomTable[];
+export const tables: RandomTable[] = [...(imported as RandomTable[]), ...(uaImported as RandomTable[])];

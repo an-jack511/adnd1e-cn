@@ -16,7 +16,7 @@ const links = spells.map((spell) => [`/spells/${spell.id}`, undefined, undefined
     <div class="filter-grid">
       <label>名称 <input id="spell-name" type="search" placeholder="中文或英文" /></label>
       <label>职业 <select id="spell-class"><option value="">全部职业</option>{classes.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
-      <label>环级 <select id="spell-level"><option value="">全部等级</option>{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((level) => <option value={level}>{level}</option>)}</select></label>
+      <label>环级 <select id="spell-level"><option value="">全部等级</option>{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((level) => <option value={level}>{level === 0 ? '0（小法术）' : level}</option>)}</select></label>
       <label>学派 <select id="spell-school"><option value="">全部学派</option>{schools.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
       <label>来源 <select id="spell-source"><option value="">全部来源</option>{sources.map((entry) => <option value={entry}>{entry}</option>)}</select></label>
     </div>
@@ -46,5 +46,10 @@ const links = spells.map((spell) => [`/spells/${spell.id}`, undefined, undefined
       results.innerHTML = `<div class="table-wrap"><table class="data-table"><thead><tr><th>中文名</th><th>英文名</th><th>职业</th><th>环级</th><th>学派</th><th>成分</th><th>距离</th></tr></thead><tbody>${filtered.map((spell) => `<tr><td><a href="/spells/${spell.id}">${spell.nameZh}</a></td><td>${spell.nameEn}</td><td>${spell.classes.join(' / ')}</td><td>${spell.level}</td><td>${spell.school}</td><td>${spell.components.join('/')}</td><td>${spell.range}</td></tr>`).join('')}</tbody></table></div>`;
     };
     [name, classSelect, levelSelect, schoolSelect, sourceSelect, reversible, ...componentChecks].forEach((element) => element.addEventListener('input', render));
+    const params = new URLSearchParams(location.search);
+    if (params.has('source')) sourceSelect.value = params.get('source');
+    if (params.has('level')) levelSelect.value = params.get('level');
+    if (params.has('class')) classSelect.value = params.get('class');
+    if ([...params.keys()].length) render();
   </script>
 </BaseLayout>

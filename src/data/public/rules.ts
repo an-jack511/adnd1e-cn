@@ -49,4 +49,13 @@ const revisions: Record<string, Partial<RuleEntry>> = {
   pursuit: { summary: '逃跑与追逐要比较移动率、地形、负重和双方行动；投下食物或财宝有时会使追兵停下。', body: ['高速移动时无法正常绘图。沿熟悉路线与在未知地下城中边探索边逃跑，也采用不同速度。', '距离变化与是否继续追击由具体情境裁定，不能只掷一次统一的追逐检定。'] }
 };
 
-export const rules: RuleEntry[] = baseline.filter((entry) => !['campaign-management', 'optional-rules'].includes(entry.id)).map((entry) => ({ ...entry, ...revisions[entry.id] }));
+const uaRules: RuleEntry[] = [
+  { id: 'comeliness', title: '容貌 Comeliness（UA）', category: 'rules', summary: 'UA 新增容貌属性，独立于魅力；影响初见印象及特定交往。', body: ['容貌不取代魅力；依 UA 容貌表记录数值与调整。极端数值可能产生吸引、厌恶或惊愕等特殊反应。'], related: [{ label: '容貌原书表', href: '/books/ua/ua-comeliness/' }], source: [{ book: 'UA', section: 'ua-comeliness' }] },
+  { id: 'ua-weapon-specialization', title: '武器专精（UA）', category: 'combat', summary: 'UA 战士可按武器专精规则投入额外熟练项，获得所选武器的特殊加值。', body: ['先核对职业资格及武器熟练项成本；专精与普通熟练不是同一回事。骑士和 UA 圣武士不享有武器专精。', '专精的命中、伤害与攻击次数依所选武器及等级表确定，不套用所有武器。'], related: [{ label: '战士', href: '/classes/fighter/' }, { label: 'UA 战士章节', href: '/books/ua/ua-fighter/' }], source: [{ book: 'UA', section: 'ua-fighter' }] },
+  { id: 'ua-cantrips', title: '小法术 Cantrips（UA）', category: 'rules', summary: 'UA 的小法术是独立的 0 环微效法术，有施放和准备规则。', body: ['小法术按各自影响范围、施法时间及成分处理；不能把它们视为无限次使用的现代版戏法。', '魔法师和幻术师小法术清单分别列于法术表，可按 UA 来源及 0 环筛选。'], related: [{ label: '0 环法术', href: '/spells/?level=0' }], source: [{ book: 'UA', section: 'ua-magic-user-cantrips' }] },
+  { id: 'ua-weaponless-combat', title: '徒手战斗（UA）', category: 'combat', summary: 'UA 附录 Q 单列拳击、擒抱及压制的徒手战斗流程与结果表。', body: ['先确定动作类型和参与者状态，再使用相应命中及结果表；不要将普通武器伤害表直接套用。', '杂技盗贼的翻腾可影响部分徒手拳击结果。'], related: [{ label: 'UA 附录 Q', href: '/books/ua/ua-appendix-q-weaponless-combat/' }], source: [{ book: 'UA', section: 'ua-appendix-q-weaponless-combat' }] },
+  { id: 'ua-nonlethal-combat', title: '非致命战斗（UA）', category: 'combat', summary: 'UA 附录 R 处理俘虏、制服与非致命伤害。', body: ['在攻击前明确是否意图制服；攻击、伤害和失去行动能力按附录 R 专门流程记录。', '非致命伤害与普通伤害分开追踪，不自动等同于现代规则的伤害模式。'], related: [{ label: 'UA 附录 R', href: '/books/ua/ua-appendix-r-nonlethal-combat/' }], source: [{ book: 'UA', section: 'ua-appendix-r-nonlethal-combat' }] },
+  { id: 'ua-darkness-combat', title: '黑暗中作战（UA）', category: 'combat', summary: 'UA 对无光、视力受限及对手可见性提供补充战斗判定。', body: ['先确定实际光照、视线及特殊视觉，再核对该情形的命中与防护调整。', '黑暗不自动令所有视觉能力完全失效；按对应生物和光源具体裁定。'], related: [{ label: '光照', href: '/adventure/light/' }], source: [{ book: 'UA', section: 'ua-dm-darkness-combat' }] }
+];
+
+export const rules: RuleEntry[] = [...baseline.filter((entry) => !['campaign-management', 'optional-rules'].includes(entry.id)).map((entry) => ({ ...entry, ...revisions[entry.id] })), ...uaRules];

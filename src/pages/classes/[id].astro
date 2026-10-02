@@ -5,9 +5,10 @@ import PublishedLinks from '../../components/PublishedLinks.astro';
 import { classes } from '../../data/public/classes';
 import { races } from '../../data/public/races';
 import tables from '../../data/public/class-tables.json';
+import uaTables from '../../data/public/ua-class-tables.json';
 export function getStaticPaths() { return classes.map((entry) => ({ params: { id: entry.id }, props: { entry } })); }
 const { entry } = Astro.props;
-const table = tables[entry.id as keyof typeof tables];
+const table = ({ ...tables, ...uaTables } as Record<string, { headers: string[]; rows: string[][] }>)[entry.id];
 const requirements = Object.entries(entry.minimumAbilities).map(([score, minimum]) => `${score} ${minimum}`).join('、');
 ---
 <BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article><h1>{entry.nameZh} <small>{entry.nameEn}</small></h1><p>{entry.description}</p>

@@ -12,7 +12,7 @@ const bookHref = (book: string) => books.find((entry) => entry.short === book ||
     <span class="source-ref">
       {index > 0 && <span aria-hidden="true"> · </span>}
       {bookHref(source.book) ? <a href={`/books/${bookHref(source.book)}`}>{source.book}</a> : source.book}
-      {source.page ? ` p.${source.page}` : ''}{source.section ? ` · ${source.section}` : ''}
+      {source.page ? ` p.${source.page}` : ''}{source.section ? source.book === 'UA' && source.section.startsWith('ua-') ? <> · <a href={`/books/ua/${source.section}/`}>对应章节</a></> : ` · ${source.section}` : ''}
     </span>
   ))}
 </div>

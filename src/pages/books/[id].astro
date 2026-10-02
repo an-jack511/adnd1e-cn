@@ -19,6 +19,7 @@ const displayTitle = (topic: (typeof topics)[number]) => topic.slug === 'climate
 const orderedTopics = (group: string) => visibleTopics.filter((topic) => groupFor(topic) === group).sort((a, b) => book.id === 'mm' ? a.titleEn.localeCompare(b.titleEn, 'en') : 0);
 ---
 <BaseLayout title={`${book.short} · ${book.titleZh}`}><article><header class="entry-header"><h1>{book.titleZh}</h1><div class="english">{book.short} · {book.title}</div></header><p>{book.description}</p>
+  {book.id === 'ua' && <p><strong>按条目速查：</strong> <a href="/spells/?source=UA">UA 法术与小法术</a> · <a href="/classes/cavalier/">骑士</a> · <a href="/classes/barbarian/">野蛮人</a> · <a href="/classes/thief-acrobat/">杂技盗贼</a> · <a href="/equipment/?source=UA">武器</a> · <a href="/equipment/magic-items/?source=UA">魔法物品</a> · <a href="/tables/#treasure">魔法物品随机表</a> · <a href="/combat/ua-weapon-specialization/">武器专精</a></p>}
   {topics.length > 0 ? <>
     <p class="small muted">{topics.length} 篇正文</p>
     {book.id === 'mm' && <p class="letter-jump">字头：{groups.filter((group) => group.endsWith(' 字头')).map((group) => <><a href={`#letter-${group.charAt(0)}`}>{group.charAt(0)}</a> </>)}</p>}

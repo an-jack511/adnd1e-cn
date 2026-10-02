@@ -53,7 +53,12 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
       </div>
 
       <div class="sheet-triple">
-        <section><h3>移动 Movement</h3><div class="sheet-pairs"><label>基础<input name="move_base" /></label><label>负重<input name="move_loaded" /></label><label>奔跑<input name="move_run" /></label><label>特殊<input name="move_special" /></label></div></section>
+        <section><h3>移动 Movement</h3><div class="sheet-pairs"><label>基础<input name="move_base" readonly /></label><label>实际<input name="move_loaded" readonly /></label><label>奔跑<input name="move_run" readonly /></label><label>特殊<input name="move_special" /></label></div>
+          <div class="movement-controls screen-only"><label>携带钱币 <input name="coins_carried" type="number" min="0" step="1" value="0" /> 枚</label><br />
+            <label><input name="move_bulky" type="checkbox" /> 体积／笨重：上调一档（DM）</label><br />
+            <label><input name="move_terrain" type="checkbox" /> 地形使移动减半（DM）</label><br />
+            <label>其他调整 <input name="move_adjustment" type="number" step="0.5" value="0" /> 寸</label><br />
+            <label><input name="manual_movement" type="checkbox" /> 手动覆盖实际移动率</label></div><p id="movement-breakdown" class="small"></p></section>
         <section><h3>护甲 Armor</h3><div class="sheet-pairs"><label>护甲<select name="armor_item"><option value="">无甲</option>{armorItems.map((item) => <option value={item.id}>{item.nameZh}</option>)}</select></label><label>盾牌<select name="shield_item"><option value="">无盾</option>{shieldItems.map((item) => <option value={item.id}>{item.nameZh}</option>)}</select></label><label>AC<input name="ac" readonly /></label><label>DM 调整<input name="ac_modifier" type="number" value="0" /></label><label>突袭时<input name="ac_surprised" /></label><label>无盾<input name="ac_shieldless" /></label><label>背后<input name="ac_rear" /></label></div><label class="small screen-only"><input type="checkbox" name="manual_ac" /> 手动覆盖 AC</label><p id="ac-breakdown" class="small"></p></section>
         <section><h3>生命值 Hit Points</h3><div class="sheet-pairs"><label>最大 HP<input name="hp_max" inputmode="numeric" /></label><label>当前 HP<input name="hp_current" inputmode="numeric" /></label></div><label class="sheet-line">伤势记录<textarea name="wounds" rows="2"></textarea></label></section>
       </div>
@@ -99,7 +104,7 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
     import { items } from '../../data/public/items';
     import { spells } from '../../data/public/spells';
     import { abilityAdjustment } from '../../rules-engine/abilities';
-    import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance } from '../../rules-engine/character';
+    import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement } from '../../rules-engine/character';
     const form = document.querySelector('#character-form');
     const status = document.querySelector('#character-status');
     const fields = [...form.querySelectorAll('input[name], select[name], textarea[name]')];
@@ -123,7 +128,7 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
     const data = () => Object.fromEntries(fields.map((field) => [field.name, field.type === 'checkbox' ? field.checked : field.value]));
     const update = () => {
       const character = data();
-      const exceptionalAllowed = character.STR === '18' && ['fighter', 'paladin', 'ranger'].includes(character.class);
+      const exceptionalAllowed = character.STR === '18' && ['fighter', 'paladin', 'ranger', 'cavalier', 'barbarian'].includes(character.class);
       document.querySelector('#exceptional-row').hidden = !exceptionalAllowed;
       for (const ability of abilities) document.querySelector(`#derived-${ability}`).textContent = abilityAdjustment(ability, ability === 'STR' && exceptionalAllowed && character.exceptional_strength ? `18/${character.exceptional_strength === '00' ? '00' : character.exceptional_strength.split('–')[0]}` : character[ability]).display;
       const race = races.find((entry) => entry.id === character.race);
@@ -145,14 +150,23 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
       form.elements.ac.readOnly = !character.manual_ac;
       if (!character.manual_ac) form.elements.ac.value = String(ac.value);
       document.querySelector('#ac-breakdown').textContent = `${ac.components.map((part, index) => `${part.label} ${index ? part.value >= 0 ? '+' + part.value : part.value : part.value}`).join('；')} → AC ${ac.value}。${ac.notes.join(' ')}`;
-      const carried = [armor, shield, ...weapons.map((index) => items.find((item) => item.id === character[`weapon_${index}_name`])), ...gear.map((index) => items.find((item) => item.nameZh === character[`gear_${index}_item`] || item.id === character[`gear_${index}_item`]))].filter(Boolean);
-      const entries = carried.map((item) => ({ item, quantity: gear.some((index) => character[`gear_${index}_item`] === item.nameZh || character[`gear_${index}_item`] === item.id) ? Number(character[`gear_${gear.find((index) => character[`gear_${index}_item`] === item.nameZh || character[`gear_${index}_item`] === item.id)}_quantity`]) || 1 : 1 }));
+      const equipped = [armor, shield, ...weapons.map((index) => items.find((item) => item.id === character[`weapon_${index}_name`]))].filter(Boolean);
+      const entries = [...equipped.map((item) => ({ item, quantity: 1 })), ...gear.map((index) => ({ item: items.find((item) => item.nameZh === character[`gear_${index}_item`] || item.id === character[`gear_${index}_item`]), quantity: Number(character[`gear_${index}_quantity`]) || 1 })).filter((entry) => entry.item)];
       const encumbrance = computeEncumbrance(entries);
-      document.querySelector('#encumbrance-result').textContent = `已知负重 ${encumbrance.value.toFixed(1)} 磅；${encumbrance.movement}。${encumbrance.unknown.length ? `未列重量：${encumbrance.unknown.join('、')}。` : ''}力量、体积仍须核对。`;
+      const unlistedGear = gear.map((index) => character[`gear_${index}_item`]).filter((name) => name && !items.some((item) => item.nameZh === name || item.id === name));
+      const coins = Math.max(0, Number(character.coins_carried) || 0);
+      const raceBase = character.class === 'barbarian' ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12);
+      const movement = computeMovement({ base: raceBase, weightPounds: encumbrance.value + coins / 10, strength: exceptionalAllowed && character.exceptional_strength ? `18/${character.exceptional_strength === '00' ? '00' : character.exceptional_strength.split('–')[0]}` : character.STR, bulky: character.move_bulky, difficultTerrain: character.move_terrain, otherAdjustment: Number(character.move_adjustment) || 0 });
+      form.elements.move_base.value = `${movement.base}"`;
+      form.elements.move_loaded.readOnly = !character.manual_movement;
+      if (!character.manual_movement) form.elements.move_loaded.value = `${movement.effective}"`;
+      form.elements.move_run.value = movement.run;
+      document.querySelector('#movement-breakdown').textContent = `已知装备 ${encumbrance.value.toFixed(1)} 磅＋钱币 ${coins / 10} 磅；${movement.notes.join(' ')}${character.manual_movement ? ' 实际移动率已由 DM 手动覆盖。' : ''}`;
+      document.querySelector('#encumbrance-result').textContent = `已知总负重 ${(encumbrance.value + coins / 10).toFixed(1)} 磅；移动 ${character.manual_movement ? form.elements.move_loaded.value : `${movement.effective}"`}。${[...encumbrance.unknown, ...unlistedGear].length ? `未能计重：${[...encumbrance.unknown, ...unlistedGear].join('、')}。` : ''}`;
       const issues = [...checkEligibility(candidate, classes, races), ...weapons.flatMap((index) => checkEquipment(character.class, items.find((item) => item.id === character[`weapon_${index}_name`]), index === 0 ? armor : undefined, index === 0 ? shield : undefined))];
       for (const index of weapons) { const spell = spells.find((entry) => entry.id === character[`spell_${index}`]); if (spell && !spell.classes.includes(classEntry?.nameEn ?? '')) issues.push({ code: 'spell', message: `${spell.nameZh}不在当前职业法术表中`, source: 'PHB 法术表' }); }
       document.querySelector('#rule-status').textContent = issues.length ? `${character.dm_override ? 'DM 覆盖已启用；' : ''}存在 ${issues.length} 项规则冲突` : '当前已填写项目未发现规则冲突';
-      const hints = [...issues.map((issue) => `⚠ ${issue.message}（${issue.source}）`), ...(race && classEntry ? [`${race.nameZh}／${classEntry.nameZh}等级上限：${race.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit ?? '不允许'}。`] : []), ...ac.notes, ...encumbrance.notes];
+      const hints = [...issues.map((issue) => `⚠ ${issue.message}（${issue.source}）`), ...(race && classEntry ? [`${race.nameZh}／${classEntry.nameZh}等级上限：${race.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit ?? '不允许'}。`] : []), ...ac.notes, ...encumbrance.notes, ...(unlistedGear.length ? ['有自由填写的装备未能自动计重。'] : [])];
       document.querySelector('#rule-hints').replaceChildren(...hints.map((hint) => { const li = document.createElement('li'); li.textContent = hint; return li; }));
     };
     const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); if ('class' in values) form.elements.class.value = String(values.class); lastSpellClass = ''; updateSpellOptions(form.elements.class.value); for (const field of fields) { let value = values[field.name]; if (field.type === 'checkbox' && typeof value === 'boolean') field.checked = value; else if (typeof value === 'string' || typeof value === 'number') { if (field.name.startsWith('weapon_') && field.name.endsWith('_name')) value = items.find((entry) => entry.nameZh === value)?.id ?? value; field.value = String(value); } } if (values.ac && !('manual_ac' in values) && !values.armor_item) form.elements.manual_ac.checked = true; update(); };

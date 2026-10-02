@@ -1,5 +1,6 @@
 import type { ClassEntry, Item, RaceEntry } from '../schemas';
 import abilityTables from '../data/public/ability-tables.json';
+import { abilityAdjustment } from './abilities';
 
 export type Ability = 'STR' | 'INT' | 'WIS' | 'DEX' | 'CON' | 'CHA';
 export type RuleIssue = { code: string; message: string; source: string };
@@ -59,6 +60,30 @@ export function computeEncumbrance(entries: { item: Item; quantity: number }[]):
   const value = components.reduce((sum, part) => sum + part.value, 0);
   const movement = value <= 35 ? '通常 12 寸' : value <= 70 ? '通常 9 寸' : value <= 105 ? '通常 6 寸' : '通常 3 寸';
   return { value, components, unknown, movement, notes: ['PHB 四档负重是概略指引；力量、体积、坐骑与魔法装备可能改变结论。', ...(unknown.length ? ['有物品未列重量，当前总重为已知部分下限。'] : [])] };
+}
+
+export type MovementInput = { base: number; weightPounds: number; strength: string; bulky?: boolean; difficultTerrain?: boolean; otherAdjustment?: number };
+export type MovementResult = { base: number; loaded: number; effective: number; tier: number; allowancePounds: number; limits: number[]; run: string; notes: string[] };
+export function computeMovement(input: MovementInput): MovementResult {
+  const allowanceText = abilityAdjustment('STR', input.strength).values.find((entry) => entry.label === '负重（gp）')?.value ?? '正常';
+  const allowanceGp = allowanceText === '正常' ? 0 : Number(allowanceText.replace(/[+,−,\s]/g, (match) => match === '−' ? '-' : ''));
+  const allowancePounds = Number.isFinite(allowanceGp) ? allowanceGp / 10 : 0;
+  const limits = [35, 70, 105].map((limit) => Math.max(0, limit + allowancePounds));
+  const weight = Math.max(0, input.weightPounds);
+  let tier = weight <= limits[0] ? 0 : weight <= limits[1] ? 1 : weight <= limits[2] ? 2 : 3;
+  if (input.bulky) tier = Math.min(3, tier + 1);
+  const base = Math.max(0, input.base || 0);
+  const loaded = Math.min(base, [12, 9, 6, 3][tier]);
+  const adjusted = loaded * (input.difficultTerrain ? 0.5 : 1) + (input.otherAdjustment || 0);
+  const effective = Math.max(0, Math.round(adjusted * 10) / 10);
+  const run = ['可快速奔跑', '只能笨拙地奔跑', '可短距离小跑', '无法小跑'][tier];
+  const notes = [
+    `PHB 负重档：${limits.map((limit) => `${limit} 磅`).join('／')}；力量调整 ${allowancePounds >= 0 ? '+' : ''}${allowancePounds} 磅。`,
+    input.bulky ? 'DM 体积裁定：上调一档。' : '',
+    input.difficultTerrain ? 'DM 地形裁定：移动减半。' : '',
+    input.otherAdjustment ? `DM／魔法调整：${input.otherAdjustment >= 0 ? '+' : ''}${input.otherAdjustment} 寸。` : ''
+  ].filter(Boolean);
+  return { base, loaded, effective, tier, allowancePounds, limits, run, notes };
 }
 
 export function checkEquipment(classId: string, weapon: Item | undefined, armor: Item | undefined, shield: Item | undefined): RuleIssue[] {

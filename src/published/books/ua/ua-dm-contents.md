@@ -1,0 +1,71 @@
+以下保留原书印刷第 73 页地下城主部分的章节与表格层级。数字是原书印刷页码，供逐页核对。
+
+## 章节
+
+- 创建玩家角色 Creating the Player Character
+  - 属性值生成法 V Generation of Ability Scores, Method V——74
+  - 玩家角色初始生命值 Starting Hit Points for Player Characters——74
+- 角色属性（容貌） Character Abilities (Comeliness)——74
+- 角色职业 Character Classes
+  - 骑士随从 Followers for Cavaliers——74
+  - 骑士部属／侍从 Henchmen (Retainers) for Cavaliers——75
+- 护甲、护甲等级与武器 Armor, Armor Class & Weapons
+  - 护甲种类与负重表 Types of Armor & Encumbrance Table——75
+  - 新护甲种类说明 Descriptions of New Armor Types——75
+  - 战马与马铠 Warhorses and Barding——76
+  - 新武器种类说明 Descriptions of New Weapon Types——77
+- 角色法术 Character Spells
+  - 魔法师获得小法术 Acquisition of Cantrips, Magic-Users——79
+  - 魔法师法术书 Magic-User Spell Books——79
+  - 幻术师获得法术 Acquisition of Illusionist Spells——80
+  - 幻术师获得小法术 Acquisition of Cantrips, Illusionists——80
+  - 幻术师法术书 Illusionist Spell Books——80
+  - 魔法师／幻术师施法费用 Cost of Magic-User/Illusionist Spell Casting——80
+- 法术说明 Spell Explanations——81
+- 冒险（水下使用法术） The Adventure (Underwater Spell Use)——81
+- 战斗（黑暗的影响） Combat (Effects of Darkness)——82
+- 战役 The Campaign
+  - 社会阶级与品秩 Social Class and Rank——82
+  - 出生境况 Circumstances of Birth——83
+- 宝物 Treasure
+  - 随机宝物判定表 Random Treasure Determination Tables——84
+  - 药水 Potions——90
+  - 卷轴 Scrolls——91
+  - 戒指 Rings——92
+  - 权杖 Rods——94
+  - 法杖 Staves——94
+  - 魔杖 Wands——96
+  - 杂项魔法 Miscellaneous Magic——97
+  - 护甲与盾牌 Armor and Shield——104
+  - 剑 Swords——104
+  - 杂项武器 Miscellaneous Weapons——105
+- 附录 Appendices
+  - 附录 Q：徒手战斗 Weaponless Combat——106
+  - 附录 R：非致命战斗 Non-Lethal Combat——109
+  - 附录 S：非人类神祇 Non-Human Deities——109
+  - 附录 T：长柄武器名称 The Nomenclature of Pole Arms——123
+
+## 表格与图表 Tables and Charts
+
+- 护甲种类与负重 Armor, Types & Encumbrance——75
+- 着铠战马移动速度 Barded Warhorse Movement Rate——76
+- 出生表 Birth Table——83
+- 角色生成法 V Character Generation Method V——74
+- 非人类神祇牧师速查表 Clerical Quick Reference Chart, Non-Human Deities——121–122
+- 初始生命值 Hit Points (Starting)——74
+- 幻术师初始法术表 Illusionist Spells, Starting List——80
+- 压制攻击的护甲等级调整 Overbearing, Armor Class Adjustments——108
+- 父母婚姻状况表 Parents' Marital Status Table——83
+- 拳击致昏几率表 Pummeling Table (Chance of Stunning)——107
+- 社会阶级表 Social Class Table——82
+- 宝物表 III：魔法物品 Treasure Table III: Magic Items——84
+  - 护甲与盾牌 III.F／III.F.2——88
+  - 杂项魔法 III.E.1–III.E.5——86–87
+  - 杂项魔法 III.E.6／III.E.7——88
+  - 杂项武器 III.H／III.H.2——89
+  - 药水 III.A／III.A.2——84
+  - 戒指 III.C／III.C.2——85
+  - 权杖与法杖 III.D——85
+  - 卷轴 III.B／III.B.2——84–85
+  - 剑 III.G／III.G.2——88–89
+  - 魔杖 III.D.2——86

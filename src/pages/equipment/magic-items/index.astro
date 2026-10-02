@@ -4,10 +4,15 @@ import { items } from '../../../data/public/items';
 const magicItems = items.filter((item) => item.category === '魔法物品');
 ---
 <BaseLayout title="魔法物品"><h1>魔法物品</h1><p><a href="/equipment/">← 普通装备与武器</a></p>
-<label>名称 <input id="magic-query" type="search" size="28" /></label> <span id="magic-count">{magicItems.length} 项</span>
-<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>参考售价</th><th>来源</th></tr></thead><tbody id="magic-rows">{magicItems.map((item) => <tr data-search={`${item.nameZh} ${item.nameEn}`.toLowerCase()}><td><a href={`/equipment/${item.id}/`}>{item.nameZh}</a></td><td>{item.nameEn}</td><td>{item.price}</td><td>{item.source.map((entry) => entry.book).join('、')}</td></tr>)}</tbody></table></div>
+<label>名称 <input id="magic-query" type="search" size="28" /></label> <label>来源 <select id="magic-source"><option value="">全部来源</option><option value="DMG">DMG</option><option value="UA">UA</option></select></label> <span id="magic-count">{magicItems.length} 项</span>
+<div class="table-wrap"><table class="data-table compact"><thead><tr><th>中文名</th><th>英文名</th><th>参考售价</th><th>来源</th></tr></thead><tbody id="magic-rows">{magicItems.map((item) => <tr data-search={`${item.nameZh} ${item.nameEn}`.toLowerCase()} data-source={item.source.map((entry) => entry.book).join(' ')}><td><a href={`/equipment/${item.id}/`}>{item.nameZh}</a></td><td>{item.nameEn}</td><td>{item.price}</td><td>{item.source.map((entry) => entry.book).join('、')}</td></tr>)}</tbody></table></div>
 <script>
 const query = document.querySelector<HTMLInputElement>('#magic-query');
+const source = document.querySelector<HTMLSelectElement>('#magic-source');
 const rows = [...document.querySelectorAll<HTMLTableRowElement>('#magic-rows tr')];
-query?.addEventListener('input', () => { const value = query.value.trim().toLowerCase(); let count = 0; for (const row of rows) { row.hidden = !row.dataset.search?.includes(value); if (!row.hidden) count++; } document.querySelector('#magic-count')!.textContent = `${count} 项`; });
+const filter = () => { const value = query?.value.trim().toLowerCase() ?? ''; let count = 0; for (const row of rows) { row.hidden = !row.dataset.search?.includes(value) || !!source?.value && !row.dataset.source?.includes(source.value); if (!row.hidden) count++; } document.querySelector('#magic-count')!.textContent = `${count} 项`; };
+query?.addEventListener('input', filter);
+source?.addEventListener('input', filter);
+const params = new URLSearchParams(location.search);
+if (params.has('source') && source) { source.value = params.get('source') ?? ''; filter(); }
 </script></BaseLayout>

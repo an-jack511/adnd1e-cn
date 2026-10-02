@@ -25,13 +25,13 @@ const period = dungeon.find((table) => table.title.startsWith('表 I：'));
   <h2 id="treasure">战利品与魔法物品</h2>
   <p>先确定宝藏类型，再掷对应的货币、魔法或混合宝藏表。</p>
   <p><label for="treasure-table">选择财宝表：</label>
-    <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{table.title}（{table.dice}）</option>)}</select>
+    <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{table.sourceHref.includes('/ua/') ? 'UA' : 'DMG'} · {table.title}（{table.dice}）</option>)}</select>
     <button type="button" id="roll-treasure">掷骰</button></p>
   <div id="treasure-result" aria-live="polite">尚未掷骰。</div>
   <p><a href="/books/dmg/dmg-treasure/">阅读 DMG 财宝判定</a></p>
 
   <h2>查全部随机表</h2>
-  {(['地下城', '随机遭遇', '战利品'] as const).map((category) => <details><summary>{category}（{tables.filter((table) => table.category === category).length}）</summary><ul class="compact-list">{tables.filter((table) => table.category === category).map((table) => <li><a href={table.sourceHref}>{table.title}</a>　{table.dice}</li>)}</ul></details>)}
+  {(['地下城', '随机遭遇', '战利品'] as const).map((category) => <details><summary>{category}（{tables.filter((table) => table.category === category).length}）</summary><ul class="compact-list">{tables.filter((table) => table.category === category).map((table) => <li>{table.sourceHref.includes('/ua/') ? 'UA' : 'DMG'} · <a href={table.sourceHref}>{table.title}</a>　{table.dice}</li>)}</ul></details>)}
   <script define:vars={{ tables, periodId: period?.id }}>
     const byId = new Map(tables.map((table) => [table.id, table]));
     const roll = (table) => {

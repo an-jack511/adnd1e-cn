@@ -11,3 +11,8 @@ export const races: RaceEntry[] = [
   { id: 'halfling', nameZh: '半身人', nameEn: 'Halfling', modifiers: 'STR −1；DEX +1', restrictions: '战士、盗贼', levelLimits: '战士最高 6（依亚种和力量）；盗贼无限', languages: '通用语、半身人语及相关语言', movement: '6 寸', eligibleClasses: allowed([['fighter','最高 6（亚种、力量相关）'],['thief','无限']]), multiclass: ['战士／盗贼'], savingThrows: '抗魔法与毒素的豁免加值随体质提高', detection: '户外隐蔽与安静移动具有种族优势', abilities: ['红外视觉范围依亚种而异', '使用投石索与投掷武器时有命中优势'], source },
   { id: 'half-orc', nameZh: '半兽人', nameEn: 'Half-Orc', modifiers: 'STR +1；CON +1；CHA −2', restrictions: '牧师、战士、盗贼、刺客', levelLimits: '牧师 4；战士 10；盗贼 8（依敏捷）；刺客无限', languages: '通用语、兽人语及相关语言', movement: '12 寸', eligibleClasses: allowed([['cleric','最高 4'],['fighter','最高 10'],['thief','最高 8（敏捷相关）'],['assassin','无限']]), multiclass: ['牧师／战士', '牧师／盗贼', '战士／盗贼', '牧师／刺客', '战士／刺客'], savingThrows: '无种族豁免加值', detection: '无特殊侦察能力', abilities: ['60 英尺红外视觉', '力量和体质加值使其适合战斗职业'], source }
 ];
+for (const race of races) {
+  if (['human', 'elf', 'half-elf'].includes(race.id)) race.eligibleClasses.push({ id: 'cavalier', limit: race.id === 'human' ? '无限' : '见 UA 血统与等级限制' });
+  if (race.id === 'human') race.eligibleClasses.push({ id: 'barbarian', limit: '无限' });
+  race.eligibleClasses.push({ id: 'thief-acrobat', limit: '以盗贼等级上限为准；从 6 级分流' });
+}

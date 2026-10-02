@@ -5,6 +5,36 @@ const source = (section: string) => [{ book: 'PHB', section }];
 
 export const classes: ClassEntry[] = [
   {
+    id: 'cavalier', nameZh: '骑士', nameEn: 'Cavalier', primeRequisite: '无经验加值', minimumAbilities: { STR: 15, DEX: 15, CON: 15, INT: 10, WIS: 10 },
+    eligibleRaces: ['human', 'elf', 'half-elf'], hitDie: '1d10+3（直接入职）；0 级侍从另见正文', alignment: '任意善良',
+    armor: '任意；依骑士守则优先选用最佳护甲', weapons: '任意；首选骑枪及骑兵武器', spellcasting: '无',
+    description: 'UA 的骑乘战士职业，须遵守骑士守则并侍奉神祇、贵族、组织或事业；精灵、半精灵骑士另有血统和出身条件。',
+    abilities: [
+      { name: '首选武器', description: '骑枪、选定的剑与骑兵武器随等级获得命中加值；首选武器攻击次数按高 5 级计算。' },
+      { name: '骑乘与格挡', description: '骑乘攻击、骑术和盾牌格挡有专门规则。' },
+      { name: '恐惧与心智抵抗', description: '免疫恐惧；善良骑士可将此保护延伸到近旁盟友，对影响心智的魔法另有抵抗。' }
+    ], source: [{ book: 'UA', section: 'ua-cavalier' }]
+  },
+  {
+    id: 'barbarian', nameZh: '野蛮人', nameEn: 'Barbarian', primeRequisite: '无经验加值', minimumAbilities: { STR: 15, CON: 15, DEX: 14 },
+    eligibleRaces: ['human'], hitDie: 'd12', alignment: '非守序', armor: '任意；笨重护甲削弱敏捷防护加值', weapons: '任意；初始须熟练手斧、匕首和矛', spellcasting: '无',
+    description: 'UA 的战士子职业；感知不得高于 16，基础移动率 15″，不可兼任两个职业。',
+    abilities: [
+      { name: '野外生存', description: '具有荒野求生、攀爬、快速移动和警觉等专门能力。' },
+      { name: '属性防护', description: '敏捷高于 14 与体质高于 14 时，按野蛮人专用规则调整 AC 和生命值。' },
+      { name: '天然攻击', description: '从 4 级起，徒手攻击逐渐能伤害要求魔法武器的生物；不提供命中或伤害加值。' }
+    ], source: [{ book: 'UA', section: 'ua-barbarian' }]
+  },
+  {
+    id: 'thief-acrobat', nameZh: '杂技盗贼', nameEn: 'Thief-Acrobat', primeRequisite: 'STR、DEX', minimumAbilities: { STR: 15, DEX: 16 },
+    eligibleRaces: allRaces, hitDie: '沿用盗贼', alignment: '沿用盗贼', armor: '轻装；杂技动作受负重及笨重护甲限制', weapons: '沿用盗贼', spellcasting: '无',
+    description: 'UA 的盗贼分流职业；盗贼升过 5 级后，需师傅训练 6 周，才从第 6 级转入杂技路线。',
+    abilities: [
+      { name: '杂技', description: '走钢索、撑杆跳、跳跃、翻腾与坠落减伤；效果依等级表及负重决定。' },
+      { name: '盗贼技能变化', description: '扒窃、开锁、寻找及拆除陷阱停留在 5 级数值；攀墙继续成长。' }
+    ], source: [{ book: 'UA', section: 'ua-thief-acrobat' }]
+  },
+  {
     id: 'cleric', nameZh: '牧师', nameEn: 'Cleric', primeRequisite: 'WIS', minimumAbilities: { WIS: 9 },
     eligibleRaces: ['human', 'half-elf', 'half-orc'], hitDie: 'd8', alignment: '除绝对中立外任意',
     armor: '任意护甲与盾牌', weapons: '棍棒、连枷、锤、钉头锤、长杖', spellcasting: '牧师法术；祈祷准备',

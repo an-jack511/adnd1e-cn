@@ -5,8 +5,9 @@
  */
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, join, posix, resolve } from 'node:path';
+import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
@@ -87,7 +88,7 @@ for (const book of ['phb', 'dmg'] as const) {
       .replace(/\s(?:style|class|align|valign|width|height|border|cellpadding|cellspacing|bgcolor|face|size)=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
       .replace(/<a\b[^>]*href=(['"])([^'"]+)\1[^>]*>/gi, (_match, _quote: string, href: string) => {
         if (href.startsWith('#')) return `<a href="${href}">`;
-        const target = href.match(/^(?:\.\.\/)?(phb|dmg|mm)\/([^#?]+)\.html(#[^?]+)?$/i);
+        const target = href.match(/^(?:\.\.\/)?(phb|dmg|mm|ua)\/([^#?]+)\.html(#[^?]+)?$/i);
         if (target) return `<a href="/books/${target[1].toLowerCase()}/${target[2]}/${target[3] ?? ''}">`;
         const local = href.match(/^([^./#?]+)\.html(#[^?]+)?$/i);
         return local ? `<a href="/books/${book}/${local[1]}/${local[2] ?? ''}">` : '<span>';
@@ -158,6 +159,7 @@ for (const book of bookIds) {
     markdown = markdown.replace(/<img\b[^>]*>/gi, '');
     markdown = markdown.replace(/\]\(([^)]+)\)/g, (_match, target: string) => `](${rewriteTarget(target, book)})`);
     markdown = markdown.replace(/href=(['"])([^'"]+)\1/g, (_match, quote: string, target: string) => `href=${quote}${rewriteTarget(target, book)}${quote}`);
+    if (book === 'ua' && slug === 'ua-spell-tables') markdown += '\n\n- [牧师法术表](/books/ua/ua-cleric-spell-table/)\n- [德鲁伊法术表](/books/ua/ua-druid-spell-table/)\n- [魔法师法术表](/books/ua/ua-magic-user-spell-table/)\n- [幻术师法术表](/books/ua/ua-illusionist-spell-table/)';
     markdown = fixEmphasis(markdown.trim()) + '\n';
     await writeFile(join(outputRoot, book, `${slug}.md`), markdown, 'utf8');
     const text = markdown
@@ -188,12 +190,31 @@ for (const book of bookIds) {
   }
 }
 
+// men.md was a temporary catch-all: keep Men at its old URL, and publish
+// Merman–Zombie as separate stable chapters under their real letter headings.
+const mmSource = await readFile(join(sourceRoot, 'mm', 'topics', 'men.md'), 'utf8');
+const mmSplit = splitMenManuscript(mmSource);
+const menTopic = published.find((entry) => entry.book === 'mm' && entry.slug === 'mm-men');
+const menSearch = search.find((entry) => entry.book === 'mm' && entry.slug === 'mm-men');
+if (!menTopic || !menSearch) throw new Error('MM Men chapter missing from manifest');
+const menMarkdown = fixEmphasis(mmSplit.men.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
+await writeFile(join(outputRoot, 'mm', 'mm-men.md'), menMarkdown, 'utf8');
+menSearch.text = menMarkdown.replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
+menTopic.excerpt = menSearch.text.slice(0, 170);
+for (const section of mmSplit.monsters) {
+  const markdown = fixEmphasis(section.markdown.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
+  await writeFile(join(outputRoot, 'mm', `${section.slug}.md`), markdown, 'utf8');
+  const text = markdown.replace(/<[^>]*>/g, ' ').replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
+  published.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, group: '怪物条目', excerpt: text.slice(0, 170), sourceFile: 'manuscript/mm/topics/men.md' });
+  search.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, text });
+}
+
 await importLegacy();
 const validChapters = new Set(published.map((topic) => `${topic.book}/${topic.slug}`));
 for (const topic of published) {
   const path = join(outputRoot, topic.book, `${topic.slug}.md`);
   const markdown = await readFile(path, 'utf8');
-  const repaired = markdown.replace(/\/books\/(phb|dmg|mm)\/([a-z0-9-]+)\//g, (href, book: string, slug: string) => validChapters.has(`${book}/${slug}`) ? href : `/books/${book}/`);
+  const repaired = markdown.replace(/\/books\/(phb|dmg|mm|ua)\/([a-z0-9-]+)\//g, (href, book: string, slug: string) => validChapters.has(`${book}/${slug}`) ? href : `/books/${book}/`);
   if (repaired !== markdown) await writeFile(path, repaired, 'utf8');
 }
 await mkdir(resolve('src/data/published'), { recursive: true });
