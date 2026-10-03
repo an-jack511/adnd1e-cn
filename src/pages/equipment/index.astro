@@ -16,7 +16,7 @@ const links = ordinaryItems.map((item) => [`/equipment/${item.id}`, undefined, u
     <label>价格上限（gp） <input id="item-price" type="number" min="0" /></label>
     <label>速度因子 <input id="item-speed" type="search" /></label>
     <label>伤害 <input id="item-damage" type="search" size="8" placeholder="如 1d8" /></label>
-    <label>来源 <select id="item-source"><option value="">全部来源</option><option value="PHB">PHB</option><option value="DMG">DMG</option><option value="UA">UA</option></select></label>
+    <label>来源 <select id="item-source"><option value="">全部来源</option><option value="PHB">PHB</option><option value="DMG">DMG</option><option value="UA">UA</option><option value="OA">OA</option></select></label>
   </div></div>
   <p id="item-count" class="results-count">显示 {ordinaryItems.length} 件装备</p>
   <div id="item-results"><EntryTable headers={['中文名', '英文名', '类别', '价格', '负重', '伤害 S/M', '伤害 L', '速度因子', 'AC 调整']} rows={rows} links={links} /></div>

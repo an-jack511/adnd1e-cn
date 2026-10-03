@@ -23,13 +23,17 @@ const spellChapters: Record<string, string> = {
   'Magic-User': 'phb/spell-explanations-magic-users',
   Illusionist: 'phb/spell-explanations-illusionists',
   Cleric: 'phb/spell-explanations-clerics',
-  Druid: 'phb/spell-explanations-druids'
+  Druid: 'phb/spell-explanations-druids',
+  Shukenja: 'oa/oa-shukenja-spells',
+  'Wu Jen': 'oa/oa-wu-jen-spells'
 };
+const oaRaceIds = new Set(['korobokuru', 'hengeyokai', 'spirit-folk']);
+const raceSlugs: Record<string, string> = { dwarf: 'dwarves', elf: 'elves', gnome: 'gnomes', 'half-elf': 'half-elves', halfling: 'halflings', 'half-orc': 'half-orcs', human: 'humans' };
 const candidates = kind === 'rule' ? ruleMap[id] ?? []
   : kind === 'monster' ? [`mm/mm-${id}`]
   : kind === 'spell' ? classes.map((className) => spellChapters[className]).filter(Boolean)
-  : kind === 'class' ? (id === 'bard' ? ['phb/appendix-bards', 'phb/bard-class'] : [`phb/${id}`])
-  : ['phb/races', `phb/${({ dwarf: 'dwarves', elf: 'elves', gnome: 'gnomes', 'half-elf': 'half-elves', halfling: 'halflings', 'half-orc': 'half-orcs', human: 'humans' } as Record<string, string>)[id]}`];
+  : kind === 'class' ? (id.startsWith('oa-') ? ['oa/oa-oriental-classes'] : id === 'bard' ? ['phb/appendix-bards', 'phb/bard-class'] : [`phb/${id}`])
+  : [...(oaRaceIds.has(id) ? ['oa/oa-classes-races'] : []), 'phb/races', ...(raceSlugs[id] ? [`phb/${raceSlugs[id]}`] : [])];
 const links = [...new Set(candidates)].map((key) => published.find((entry) => `${entry.book}/${entry.slug}` === key)).filter(Boolean);
 ---
 {links.length > 0 && <p class="source-list"><span class="label">译文：</span>{links.map((entry, index) => <span>{index > 0 && ' · '}<a href={`/books/${entry!.book}/${entry!.slug}/`}>{entry!.book.toUpperCase()}：{entry!.title}</a></span>)}</p>}

@@ -1,9 +1,10 @@
 import type { ClassEntry } from '../../schemas';
+import { oaClasses } from './oa-classes';
 
 const allRaces = ['human', 'dwarf', 'elf', 'gnome', 'half-elf', 'halfling', 'half-orc'];
 const source = (section: string) => [{ book: 'PHB', section }];
 
-export const classes: ClassEntry[] = [
+const baseClasses: ClassEntry[] = [
   {
     id: 'cavalier', nameZh: '骑士', nameEn: 'Cavalier', primeRequisite: '无经验加值', minimumAbilities: { STR: 15, DEX: 15, CON: 15, INT: 10, WIS: 10 },
     eligibleRaces: ['human', 'elf', 'half-elf'], hitDie: '1d10+3（直接入职）；0 级侍从另见正文', alignment: '任意善良',
@@ -157,3 +158,5 @@ export const classes: ClassEntry[] = [
     ], source: source('Appendix II: The Bard')
   }
 ];
+
+export const classes: ClassEntry[] = [...baseClasses, ...oaClasses];

@@ -1,0 +1,10 @@
+import type { RaceEntry } from '../../schemas';
+
+const source = [{ book: 'OA', page: 11, section: 'Character Classes and Races' }];
+const allowed = (entries: [string, string][]) => entries.map(([id, limit]) => ({ id, limit }));
+
+export const oaRaces: RaceEntry[] = [
+  { id: 'korobokuru', nameZh: '科罗博库鲁', nameEn: 'Korobokuru', modifiers: '力量 +1、体质 +1、智力 −2；力量与体质受上限约束', restrictions: '属性最低／最高：STR 8/19、DEX 6/18、CON 12/19、INT 3/15、WIS 3/17、CHA 3/16', levelLimits: '武士 6、蛮族 10、巫人 7、兵士无限、义侠 10', languages: '本部族语言、贸易语、灵族语、Hengeyokai 语；不能学习阵营语言', movement: '6 寸', eligibleClasses: allowed([['oa-samurai', '最高 6'], ['oa-barbarian', '最高 10'], ['oa-wu-jen', '最高 7'], ['oa-bushi', '无限'], ['oa-yakuza', '最高 10']]), multiclass: ['依东方职业组合规则'], savingThrows: '对魔法权杖、法杖、魔杖和法术，以及毒素获得体质相关豁免加值', detection: '120 英尺红外视觉；有机会辨识普通植物和动物', abilities: ['攻击 Bakemono、哥布林、哥布林鼠和大地精时命中 +1', '巨人、Oni、食人魔、食人魔法师和泰坦攻击时命中 −4', '体型限制部分长柄武器和弓类'], source },
+  { id: 'hengeyokai', nameZh: '变形妖', nameEn: 'Hengeyokai', modifiers: '依动物类型在属性上进行调整', restrictions: '属性最低／最高：STR 12/18、DEX 9/18、CON 12/18、INT 12/18、WIS 12/18、CHA 12/17', levelLimits: '兵士无限、剑圣 6、修贤者 8、巫人 9；其他东方职业不可选', languages: '通用贸易语、Hengeyokai 语；依动物类型获得其他语言', movement: '依动物类型', eligibleClasses: allowed([['oa-bushi', '无限'], ['oa-kensai', '最高 6'], ['oa-shukenja', '最高 8'], ['oa-wu-jen', '最高 9']]), multiclass: ['依动物形态与东方职业规则'], savingThrows: '依动物类型和职业；变形时保留多数精神能力', detection: '依动物形态；通常拥有动物的感官', abilities: ['可在人形、动物形和混合形之间变换', '变形妖的动物类型决定外观、移动和特殊能力', '在变形状态下仍保留智慧和语言能力'], source },
+  { id: 'spirit-folk', nameZh: '灵族', nameEn: 'Spirit Folk', modifiers: '依祖先灵体与血统获得调整', restrictions: '属性最低／最高：STR 6/18、DEX 12/18、CON 6/14、INT 12/18、WIS 9/18、CHA 14/18', levelLimits: '武士 12、剑圣 9、僧侣 17、兵士无限', languages: '通用贸易语、灵族语；另依自然灵体血统获得语言', movement: '12 寸', eligibleClasses: allowed([['oa-samurai', '最高 12'], ['oa-kensai', '最高 9'], ['oa-monk', '最高 17'], ['oa-bushi', '无限']]), multiclass: ['依东方职业组合规则'], savingThrows: '依祖先灵体；对自然与灵体效果通常有特殊抵抗', detection: '依祖先类型获得自然、灵体或水域感知', abilities: ['外貌近似人类，但与自然灵体有血缘', '可从祖先灵体获得与水、树木、山岭或其他自然力量有关的能力', '与自然和自然力量有紧密联系'], source }
+];

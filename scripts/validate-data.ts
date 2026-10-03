@@ -20,7 +20,7 @@ unique(spells.map((entry) => entry.id), 'spells'); unique(monsters.map((entry) =
 unique(tables.map((entry) => entry.id), 'random tables');
 unique(classes.map((entry) => entry.id), 'classes'); unique(races.map((entry) => entry.id), 'races');
 for (const entry of classes) {
-  if (!({ ...classTables, ...uaClassTables } as Record<string, { rows: string[][] }>)[entry.id]?.rows.length) fail(`Missing class XP table: ${entry.id}`);
+  if (!entry.source.some((source) => source.book === 'OA') && !({ ...classTables, ...uaClassTables } as Record<string, { rows: string[][] }>)[entry.id]?.rows.length) fail(`Missing class XP table: ${entry.id}`);
   for (const raceId of entry.eligibleRaces) {
     const race = races.find((item) => item.id === raceId);
     if (!race || !race.eligibleClasses.some((item) => item.id === entry.id)) fail(`Class/race mismatch: ${entry.id}/${raceId}`);
@@ -47,7 +47,7 @@ for (const chapter of published) {
   if (!existsSync(path)) fail(`Missing published Markdown: ${chapter.book}/${chapter.slug}`);
   const body = readFileSync(path, 'utf8');
   if (/asset:|#unavailable-link|<script\b/i.test(body)) fail(`Unresolved or unsafe content: ${chapter.book}/${chapter.slug}`);
-  for (const match of body.matchAll(/\/books\/(phb|dmg|mm|ua)\/([a-z0-9-]+)\//g)) {
+  for (const match of body.matchAll(/\/books\/(phb|dmg|mm|ua|oa)\/([a-z0-9-]+)\//g)) {
     if (!publishedKeys.has(`${match[1]}/${match[2]}`)) fail(`Broken book link in ${chapter.book}/${chapter.slug}: ${match[0]}`);
   }
 }

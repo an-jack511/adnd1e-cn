@@ -1,6 +1,7 @@
 import type { Spell } from '../../schemas';
 import imported from './spells-imported.json';
 import uaImported from './ua-spells-imported.json';
+import { oaSpells } from './oa-spells';
 
 const examples: Spell[] = [
   { id: 'detect-magic', nameZh: '侦测魔法', nameEn: 'Detect Magic', classes: ['Magic-User', 'Illusionist', 'Cleric'], level: 1, school: '通用', components: ['V', 'S'], castingTime: '1 segment', range: '0', duration: '2 rounds/level', areaOfEffect: '扇形视野', savingThrow: '无', reversible: false, description: '使施法者能够察觉视野内物体或生物上的魔法灵光。灵光的强弱与性质由主持人裁定。', tags: ['信息', '探索'], source: [{ book: 'PHB', page: 65, section: 'Spell Explanations' }] },
@@ -17,4 +18,4 @@ const examples: Spell[] = [
 
 const importedSpells = imported as Spell[];
 const importedIds = new Set(importedSpells.map((spell) => spell.id));
-export const spells: Spell[] = [...importedSpells, ...(uaImported as Spell[]), ...examples.filter((spell) => !importedIds.has(spell.id))];
+export const spells: Spell[] = [...importedSpells, ...(uaImported as Spell[]), ...oaSpells, ...examples.filter((spell) => !importedIds.has(spell.id))];

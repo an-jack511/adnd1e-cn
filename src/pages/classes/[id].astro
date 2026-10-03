@@ -20,5 +20,5 @@ const requirements = Object.entries(entry.minimumAbilities).map(([score, minimum
 <tr><th>可选种族</th><td colspan="3">{entry.eligibleRaces.map((id, index) => <>{index > 0 && ' · '}<a href={`/races/${id}/`}>{races.find((race) => race.id === id)?.nameZh ?? id}</a></>)}</td></tr>
 </tbody></table></div>
 <h2>职业能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul>
-<h2>经验等级表</h2><div class="table-wrap"><table class="data-table compact"><thead><tr>{table.headers.map((header) => <th>{header}</th>)}</tr></thead><tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}</tbody></table></div>
+{table ? <><h2>经验等级表</h2><div class="table-wrap"><table class="data-table compact"><thead><tr>{table.headers.map((header) => <th>{header}</th>)}</tr></thead><tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}</tbody></table></div></> : <p class="muted">等级与职业能力表见 OA 的东方职业正文。</p>}
 <PublishedLinks kind="class" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article></BaseLayout>

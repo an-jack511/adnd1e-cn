@@ -2,6 +2,7 @@ import type { Item } from '../../schemas';
 import imported from './items-imported.json';
 import magicImported from './magic-items-imported.json';
 import uaImported from './ua-items-imported.json';
+import { oaItems } from './oa-items';
 
 const examples: Item[] = [
   { id: 'long-sword', nameZh: '长剑', nameEn: 'Long Sword', category: '武器', price: '15 gp', weight: '4 lb.', damageSmallMedium: '1d8', damageLarge: '1d12', length: '4 ft.', spaceRequired: '—', speedFactor: '5', acAdjustment: '—', description: '常见的单手军用剑。', tags: ['武器', '近战'], source: [{ book: 'PHB', page: 38 }] },
@@ -22,4 +23,4 @@ const importedItems: Item[] = (imported as Item[]).map((item) => {
   return existing ? { ...item, id: existing.id, nameEn: existing.nameEn, weight: item.weight === '见负重表' ? existing.weight : item.weight, damageSmallMedium: item.damageSmallMedium ?? existing.damageSmallMedium, damageLarge: item.damageLarge ?? existing.damageLarge, length: item.length ?? existing.length, spaceRequired: item.spaceRequired ?? existing.spaceRequired, speedFactor: item.speedFactor ?? existing.speedFactor, acAdjustment: item.acAdjustment ?? existing.acAdjustment, tags: [...new Set([...item.tags, ...existing.tags])] } : item;
 });
 const usedIds = new Set(importedItems.map((item) => item.id));
-export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...(uaImported as Item[]), ...examples.filter((item) => !usedIds.has(item.id))];
+export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...(uaImported as Item[]), ...oaItems, ...examples.filter((item) => !usedIds.has(item.id))];
