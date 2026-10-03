@@ -12,5 +12,5 @@ export const books: Book[] = [
   { id: 'oa', short: 'OA', title: 'Oriental Adventures', titleZh: '东方冒险', description: '东方职业、种族、荣誉、武术、法术、装备、怪物与卡拉图设定的完整中文译稿。', source: [{ book: 'OA' }], chapters: [] },
   { id: 'motp', short: 'MotP', title: 'Manual of the Planes', titleZh: '位面手册', description: '位面结构、内层位面、星界、外层位面、附录生物与位面法术索引的完整中文译稿。', source: [{ book: 'MotP' }], chapters: [] },
   { id: 'ff', short: 'Fiend Folio', title: 'Fiend Folio', titleZh: 'Fiend Folio', description: '额外怪物来源。', source: [{ book: 'Fiend Folio' }], chapters: [{ title: '额外怪物', href: '/monsters?source=Fiend%20Folio' }] },
-  { id: 'dd', short: 'D&DG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇与宇宙设定的来源索引。', source: [{ book: 'Deities & Demigods' }], chapters: [{ title: '神祇（预留）', href: '/psionics' }] }
+  { id: 'ddg', short: 'DDG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇能力、神话体系、牧师规则、神圣物品与位面旅行的完整中文译稿。', source: [{ book: 'DDG' }], chapters: [] }
 ];
