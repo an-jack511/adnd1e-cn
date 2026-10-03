@@ -9,6 +9,7 @@ export const books: Book[] = [
   { id: 'ua', short: 'UA', title: 'Unearthed Arcana', titleZh: '破解奥秘', description: '扩展职业、法术、装备与可选规则的中文工作译稿。', source: [{ book: 'UA' }], chapters: [] },
   { id: 'dsg', short: 'DSG', title: "Dungeoneer's Survival Guide", titleZh: '地城生存指南', description: '地下探险、深地环境、远征、战役设计与地图制作的完整中文译稿。', source: [{ book: 'DSG' }], chapters: [] },
   { id: 'wsg', short: 'WSG', title: 'Wilderness Survival Guide', titleZh: '荒野生存指南', description: '荒野地形、天气、补给、移动、自然危害与战役主持的完整中文译稿。', source: [{ book: 'WSG' }], chapters: [] },
+  { id: 'oa', short: 'OA', title: 'Oriental Adventures', titleZh: '东方冒险', description: '东方职业、种族、荣誉、武术、法术、装备、怪物与卡拉图设定的完整中文译稿。', source: [{ book: 'OA' }], chapters: [] },
   { id: 'ff', short: 'Fiend Folio', title: 'Fiend Folio', titleZh: 'Fiend Folio', description: '额外怪物来源。', source: [{ book: 'Fiend Folio' }], chapters: [{ title: '额外怪物', href: '/monsters?source=Fiend%20Folio' }] },
   { id: 'dd', short: 'D&DG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇与宇宙设定的来源索引。', source: [{ book: 'Deities & Demigods' }], chapters: [{ title: '神祇（预留）', href: '/psionics' }] }
 ];
