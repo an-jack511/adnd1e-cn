@@ -5184,6 +5184,231 @@
     "sourceFile": "manuscript/oa/topics/treasure-magic.md"
   },
   {
+    "book": "motp",
+    "slug": "motp-title-credits",
+    "title": "书名页、致谢与制作人员",
+    "titleEn": "Title, Thanks, and Credits",
+    "group": "前置部分",
+    "excerpt": "位面手册 Manual of the Planes Jeff Grubb 著 到这里，所有已知存在位面的源书终于来了！ 特别致谢 Special Thanks 尽管封面上的署名很小，这个项目却得益于许多人的投入：他们提供建议、改稿、意见、问题，以及让作品变得更好的灵感。没有他们，这本书不会以现在的样子面世。 感谢 Mike Breault",
+    "sourceFile": "manuscript/motp/topics/title-credits.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-foreword",
+    "title": "前言",
+    "titleEn": "Foreword",
+    "group": "前置部分",
+    "excerpt": "欢迎来到 AD&D® 游戏的核心。我的朋友 Fibber McGee 和 Molly 曾说过：“人们把一切都塞进盒子里。”这正是我在写这本书时努力避免的事：把一个活生生的、不断变化的世界塞进一个盒子。当你沿着一条道路前进时，路旁的景物会变；但在一场冒险结束时，你回望来路，往往会发现自己曾走过许多岔路。 这本书的目的，是让你在故事中追问“还",
+    "sourceFile": "manuscript/motp/topics/foreword.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-contents",
+    "title": "原书目录",
+    "titleEn": "Table of Contents",
+    "group": "前置部分",
+    "excerpt": "以下目录保留原书章节顺序与页码。页码为原书印刷页码，不是扫描 PDF 页码。 关于位面的导言 An Introduction to the Planes - 组织 Organization …… 5 - 时间 Time …… 5 - 法术摘要 Spell Summary …… 8 以太位面 The Ethereal Plane …… 11",
+    "sourceFile": "manuscript/motp/topics/contents.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-introduction",
+    "title": "关于位面的导言",
+    "titleEn": "An Introduction to the Planes",
+    "group": "位面总论",
+    "excerpt": "“位面”一词涵盖了《高级龙与地下城》世界中所有彼此相连的异界层次。位面彼此不同：有的拥有不同的物理法则，有的拥有不同的时间流速，有的甚至没有通常意义上的空间。它们不只是遥远的地点，而是可以改变冒险者、法术和世界本身的环境。 位面的类别 The Planes 本书把位面分成四类：原初位面、内层位面、星界位面和外层位面。 - 原初位面 Pri",
+    "sourceFile": "manuscript/motp/topics/introduction.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-spell-summary",
+    "title": "法术摘要",
+    "titleEn": "Spell Summary",
+    "group": "位面总论",
+    "excerpt": "法术在不同位面上的作用并不完全相同。原书把可用法术、法术等级和特殊限制集中列在两页密集速查表中；为保留全部名称、缩写和页码，本批先接入原书清晰版，后续再逐列文本化并与本书法术章节建立跳转。 位面中的法术规则 Introduction 唤来或召唤生物的法术，会把目标从它原本所在的地方带到施法者所在的位面；法术结束时，目标通常会回到原处。驱散",
+    "sourceFile": "manuscript/motp/topics/spell-summary.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-ethereal-overview",
+    "title": "以太位面：概览与边界",
+    "titleEn": "The Ethereal Plane: Overview and the Border Ethereal",
+    "group": "内层位面",
+    "excerpt": "概览 Overview 以太位面是一片如雾般的空间，原初位面与内层位面都以某种方式映照其中。它不是普通的空气，也不是单纯的黑暗；旅行者会看到朦胧的色彩、模糊的形体，以及被雾气分隔的距离。穿过以太位面，往往能从物质世界的一处抵达另一处，或从原初位面进入某个内层位面。 以太位面没有稳定的地面、天空和方向。角色可以向任意方向移动，常规意义上的上",
+    "sourceFile": "manuscript/motp/topics/ethereal-overview.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-ethereal-encounters",
+    "title": "以太位面：遭遇",
+    "titleEn": "The Ethereal Plane: Encounters",
+    "group": "内层位面",
+    "excerpt": "遭遇 Encounters 边界以太中的遭遇通常来自两类生物：能够进入以太位面的生物，以及本来就生活在那里的生物。角色在边界以太中移动时，遭遇可能发生在原初位面建筑的阴影之间，也可能发生在完全看不见原初位面的深层以太中。 地下城主可以按原书的遭遇类别建立随机表。普通怪物、稀有怪物和极稀有怪物的名单与出现数量保留在附表中；其中 MM、MMI",
+    "sourceFile": "manuscript/motp/topics/ethereal-encounters.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-ethereal-combat-magic",
+    "title": "以太位面：战斗与魔法",
+    "titleEn": "The Ethereal Plane: Combat and Magic",
+    "group": "内层位面",
+    "excerpt": "战斗 Combat 以太位面的战斗规则建立在一个事实之上：并非所有武器、护甲和法术都能影响以太位面中的目标。角色必须先判断自己、目标和攻击手段分别位于哪里，再判断攻击是否能够跨越边界。 在以太位面中，通常的近战与远程攻击仍可进行，但武器必须能够影响以太目标。非魔法武器可能无法伤害某些以太生物；魔法武器通常可以，但具体加值与特殊能力仍以该武",
+    "sourceFile": "manuscript/motp/topics/ethereal-combat-magic.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-ethereal-players-demi-planes",
+    "title": "以太位面：玩家角色与半位面",
+    "titleEn": "The Ethereal Plane: Player Characters and Demi-Planes",
+    "group": "内层位面",
+    "excerpt": "玩家角色 Player Characters 魔法师与幻术师 Magic-Users and Illusionists 魔法师与幻术师在以太位面中只要休息并学习了带来的法术，便可正常恢复法术。由于这里的主观时间是原初位面的十倍，法术恢复会显得更快。 牧师与德鲁伊 Clerics and Druids 牧师与德鲁伊能否恢复完整法术，取决于其",
+    "sourceFile": "manuscript/motp/topics/ethereal-players-demi-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-inner-planes",
+    "title": "内层位面",
+    "titleEn": "The Inner Planes",
+    "group": "内层位面",
+    "excerpt": "内层位面也叫元素位面，是由一种或多种物质构成的位面。六个主要位面与十二个次要位面围绕原初位面排列，并由以太位面包围。 主要位面 Major Planes - 元素火焰位面 Plane of Elemental Fire - 元素土位面 Plane of Elemental Earth - 元素空气位面 Plane of Elemental",
+    "sourceFile": "manuscript/motp/topics/inner-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-elemental-air",
+    "title": "元素空气位面",
+    "titleEn": "The Plane of Elemental Air",
+    "group": "内层位面",
+    "excerpt": "元素空气位面是所有内层位面中最适合原初位面生物的一个。这里的物质可以呼吸，旅行也相对容易；空气元素、风巨灵、空气元素公爵、尘魔、无形追猎者等生物能够在此召来元素生物。许多非本土神祇也把这里作为领域，包括拉文、亨托尔、图拉、风暴之神与东方神话中的舒、风神、风伯和雷神。 旅行者最先注意到这里的蓝色。原初位面的天空蓝色在此变成环绕四周的深蓝穹顶",
+    "sourceFile": "manuscript/motp/topics/elemental-air.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-elemental-fire",
+    "title": "元素火焰位面",
+    "titleEn": "The Plane of Elemental Fire",
+    "group": "内层位面",
+    "excerpt": "元素火焰位面是极端危险的地狱般环境，未经保护的旅行者几乎无法生存。这里的火焰会燃烧所有燃料，天空和地面都由火、热气、烟、熔岩和灼热金属构成。火元素、火巨灵、火焰公爵和火焰相关的准元素生物在此居住。 元素火焰位面同时也是火焰与锻造的领域。火焰公爵、阿泽尔、火巨灵和某些伟大力量在此拥有城堡、熔炉和战场。旅行者从内层位面中心向外移动时，会先遇到",
+    "sourceFile": "manuscript/motp/topics/elemental-fire.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-elemental-earth",
+    "title": "元素土位面",
+    "titleEn": "The Plane of Elemental Earth",
+    "group": "内层位面",
+    "excerpt": "元素土位面是没有空气、没有开阔天空的巨大固体。旅行者若没有特殊能力，只能在岩石中被包围、挤压和窒息。这里的岩层并非静止：地震、断层、矿脉、化石和元素口袋不断改变环境。土元素、矿物生物、矮人、道恩（dao）以及各种被困在岩石中的生物都在此活动。 生存 Survival 压力、呼吸与感官 Pressure, Breathing, and Se",
+    "sourceFile": "manuscript/motp/topics/elemental-earth.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-elemental-water",
+    "title": "元素水位面",
+    "titleEn": "The Plane of Elemental Water",
+    "group": "内层位面",
+    "excerpt": "元素水位面是一片没有表面的无尽海洋。上方没有空气，下方没有海床，水的压力均匀地延伸到看不见的深处。这里的水通常清澈而带绿色；越接近其他元素位面，水会混入泥、沙、冰、蒸汽或盐。水元素、海洋生物、海巨灵、马里德（marid）和来自原初位面的水生居民在此生活。 生存 Survival 呼吸与视觉 Breathing and Vision 没有水",
+    "sourceFile": "manuscript/motp/topics/elemental-water.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-para-elemental-planes",
+    "title": "副元素位面",
+    "titleEn": "The Para-Elemental Planes",
+    "group": "内层位面",
+    "excerpt": "副元素位面是四个主要元素位面之间的较小位面：烟（Smoke）位于火与空气之间，灰烬（Ash）位于火与土之间，蒸汽（Steam）位于火与水之间，泥（Ooze）位于土与水之间。它们比主要元素位面更难穿越，也很少有稳定的居民；但它们仍有元素领主、口袋、怪物和可供冒险的边界。 生存 Survival 烟位面以窒息性烟雾和灼热颗粒为主；除非拥有抗烟",
+    "sourceFile": "manuscript/motp/topics/para-elemental-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-energy-planes",
+    "title": "能量位面",
+    "titleEn": "The Energy Planes",
+    "group": "内层位面",
+    "excerpt": "正能量位面与负能量位面分别代表生命能量与死亡、衰败的能量。它们与四个主要元素位面相邻：正能量位面一侧连接蒸汽、闪电、辐射和矿物；负能量位面一侧连接灰烬、尘土、盐和真空。两个位面都没有伟大力量或半神居住，因为它们的能量本身足以摧毁普通生物。 生存 Survival 正能量位面会把生命能量灌入旅行者。未经保护的生物每轮获得生命值；生命值超过最",
+    "sourceFile": "manuscript/motp/topics/energy-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-quasi-elemental-planes",
+    "title": "准元素位面",
+    "titleEn": "The Quasi-Elemental Planes",
+    "group": "内层位面",
+    "excerpt": "准元素位面位于正能量或负能量位面与四个主要元素位面之间。正准元素位面包括闪电、辐射、矿物和蒸汽；负准元素位面包括真空、灰烬、尘土和盐。它们的危险来自边界能量与邻接元素的混合。 正准元素位面 Positive Quasi-Planes 生存 Survival 闪电位面最危险的是连续电击与震耳欲聋的雷声。闪电会从云层中迸发，可能使生物麻痹；辐",
+    "sourceFile": "manuscript/motp/topics/quasi-elemental-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-astral-plane",
+    "title": "星界位面",
+    "titleEn": "The Astral Plane",
+    "group": "星界与外层位面",
+    "excerpt": "星界位面是一片向所有方向延伸的跨维度虚无。它没有真正的物质，只有断续的银色流体和连接各个位面的思维通道。星界连接原初位面与外层位面，是旅行者从一个世界前往另一个世界的最快路径之一。 星界的“地面”只是旅行者的心理参照。生物不会自然下落，方向由意志和感知决定；没有重力，也没有昼夜。旅行者通常以灵体形式到达星界，自己的银色灵魂之弦仍连接着原本",
+    "sourceFile": "manuscript/motp/topics/astral-plane.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-outer-planes",
+    "title": "外层位面",
+    "titleEn": "The Outer Planes",
+    "group": "星界与外层位面",
+    "excerpt": "外层位面也称力量位面，是最强大的超自然生物和伟大力量的居所。它们由信念、阵营和神祇的意志塑造，通常比原初位面更像一个完整世界。外层位面组成一个巨大的车轮：上方是善良与秩序，侧面是中立与混合阵营，下方是邪恶与混乱。 每个位面都可能有许多层。层与层之间在物理上无限延伸，入口通常经由星界、位面通道、永久门或特定的神祇领域。外层位面缺少以太云，但",
+    "sourceFile": "manuscript/motp/topics/outer-planes.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-outer-plane-descriptions",
+    "title": "外层位面描述",
+    "titleEn": "Outer Plane Descriptions",
+    "group": "星界与外层位面",
+    "excerpt": "本节从秩序的尼瓦尔开始，沿外层位面车轮依次介绍主要位面。每个位面都有自己的层、居民、伟大力量和通道；下列描述是战役使用的基础，地下城主可以依照神祇、阵营和战役主题扩展。 河流与通道 Rivers and Conduits 斯提克斯河（River Styx）贯穿大多数下层位面。它从九层地狱流经格赫纳、塔纳厘、深渊、塔耳塔洛斯和潘德莫尼姆，最",
+    "sourceFile": "manuscript/motp/topics/outer-plane-descriptions.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-appendix-prime-material",
+    "title": "附录 I：原初位面",
+    "titleEn": "Appendix I: The Prime Material Planes",
+    "group": "附录与索引",
+    "excerpt": "原初位面也称众多原初世界，是最接近普通冒险世界的位面集合。每个原初世界都有自己的物理、魔法和时间条件；它们之间可能相似，也可能完全不同。以本位面为基准，地下城主可以为另一个原初世界指定三个参数：物理因素（PF）、魔法因素（MF）和时间因素（TF）。 到达原初位面 Reaching the Prime Material Planes 以太位",
+    "sourceFile": "manuscript/motp/topics/appendix-prime-material.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-appendix-inner-creatures",
+    "title": "附录 II：内层位面生物",
+    "titleEn": "Appendix II: Creatures of the Inner Planes",
+    "group": "附录与索引",
+    "excerpt": "内层位面生物以元素环境为家。地下城主可以把《怪物图鉴》《怪物图鉴 II》和《恶魔宝典》中的普通生物改造成元素对应体；它们的频率、数量、护甲、伤害、魔法抗性、智力、阵营和体型通常保持不变，主要改变外观、移动方式、免疫和脆弱性。 通用能力 General Abilities 元素生物通常可以穿越自己的位面以及相邻的副元素、准元素位面；它们能看",
+    "sourceFile": "manuscript/motp/topics/appendix-inner-creatures.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-appendix-outer-creatures",
+    "title": "附录 III：外层位面生物",
+    "titleEn": "Appendix III: Summary of Creatures from the Outer Planes",
+    "group": "附录与索引",
+    "excerpt": "本附录汇总外层位面描述中提到的几类生物，供地下城主快速建立遭遇。它不是完整怪物书，而是说明这些生物在位面中的身份、常见能力和使用方式。 战士灵魂与马鲁特 Einheriar and Maruts 英赫里亚（Einheriar）是阿斯加德与瓦尔哈拉的战士灵魂。他们通常保留生前的职业、武器与阵营，可作为神祇军队、守卫或挑战者出现。等级依照 d",
+    "sourceFile": "manuscript/motp/topics/appendix-outer-creatures.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-appendix-powers",
+    "title": "附录 IV：伟大力量的能力",
+    "titleEn": "Appendix IV: Abilities of the Powers",
+    "group": "附录与索引",
+    "excerpt": "外层位面中的伟大力量包括伟大神祇、较弱神祇、半神、恶魔领主、魔鬼领主和拥有领域的其他超自然存在。它们拥有标准神性、个人神性和本位面神性；地下城主可根据战役设定决定具体力量的排名。 标准神性 Standard Divine Abilities 多数力量可以使用星界旅行、指挥、持续光明或黑暗、治疗、侦测、以太旅行、齿轮、悬浮、自我变形、防护、",
+    "sourceFile": "manuscript/motp/topics/appendix-powers.md"
+  },
+  {
+    "book": "motp",
+    "slug": "motp-indexes",
+    "title": "主题索引与法术索引",
+    "titleEn": "Subject Index and Spell Index",
+    "group": "附录与索引",
+    "excerpt": "本主题汇总原书最后几页的主题索引与法术索引。页码为原书印刷页码，方便在扫描版中查找；中文名称按本项目译文，括号内保留英文关键词。 主题索引 Subject Index 主题索引覆盖以下主要条目：防护法术、拱门与天界守卫、护甲、神器、灰烬、星界、星界搜索者、阿泽尔、巴哈姆特、边界、泡、魅惑、颜色池、通道、协同对立、构装体、道恩、恶魔、魔鬼、",
+    "sourceFile": "manuscript/motp/topics/indexes.md"
+  },
+  {
     "book": "mm",
     "slug": "mm-merman",
     "title": "人鱼",
