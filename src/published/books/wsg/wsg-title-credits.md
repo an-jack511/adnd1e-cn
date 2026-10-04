@@ -1,3 +1,5 @@
+<!-- source: PDF pages 1–3 -->
+
 <strong>荒野生存指南 Wilderness Survival Guide</strong>  
 作者：Kim Mohan（金·莫汉）  
 TSR, Inc.／TSR UK Ltd.，1986。

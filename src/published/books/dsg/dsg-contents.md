@@ -176,11 +176,38 @@
 
 ## 地下城主部分 Dungeon Master’s Section（第 64–120 页）
 
-- 地下城主目录（第 64 页）
+### 地下环境 The Underground Environment（第 65 页）
+
+- 地下地理：三维领域 Underground Geography: Domains in Three Dimensions（第 69 页）
+  - 地下世界本质的理论 Theories on the Nature of the Underdark（第 70 页）
+
+### 幽暗地域的文化 The Cultures of the Underdark（第 73 页）
+
+- 价值观与目标 Values and Objectives（第 73 页）
+
+### 深地诸域 The Lands of Deepearth（第 75 页）
+
+### 地下冒险：战役考量 Underground Adventures: Campaign Considerations（第 99 页）
+
+- 冒险世界：设定的重要性 Worlds of Adventure: The Importance of Setting（第 100 页）
+- 情节与反情节：故事的重要性 Plot and Counterplot: The Importance of Story（第 103 页）
+- 地下城主技巧 Techniques of Story and Campaign Design（第 109 页）
+- 运行游戏 Running the Game（第 111 页）
+- 来自玩家的帮助 Help from the Players（第 113 页）
+
+### 绘制新设定地图 Mapping New Settings（第 114 页）
+
+- 基础制图考量 Basic Mapping Considerations（第 114 页）
+- 透视制图 Perspective Mapping（第 114 页）
+- 选择起点 Selecting a Starting Point（第 115 页）
+- 绘制地图 Drawing the Map（第 116 页）
+- 地图标记 Map Keys（第 118 页）
+- 几何拼图制图 Geomorphic Mapping（第 117 页）
+- 使用几何拼图 Using Geomorphs（第 120 页）
 
 ## 汇总表 Compiled Tables（第 121 页）
 
-## 索引 Index（第 128 页）
+## 透视地图 Perspective Maps（第 128 页）
 
 ## 原书表格
 

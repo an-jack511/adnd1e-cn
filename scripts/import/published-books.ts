@@ -12,6 +12,18 @@ type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
 
+// These unprefixed DSG filenames are superseded working copies. Keep the
+// manifest's retranslation files as the single public source for each chapter.
+const supersededDsgSources = new Set([
+  'campaign-design.md',
+  'campaign-management.md',
+  'compiled-tables-index.md',
+  'cultures-underdark.md',
+  'deepearth-areas.md',
+  'deepearth.md',
+  'mapping-geomorphs.md',
+]);
+
 const sourceRoot = resolve(process.argv[2] ?? '../manuscript');
 const outputRoot = resolve('src/published/books');
 const indexPath = resolve('src/data/published/books.json');
@@ -136,7 +148,7 @@ const search: Array<{ book: BookId; slug: string; title: string; titleEn: string
 for (const book of bookIds) {
   const manifest = manifests.get(book)!;
   const byFile = new Map((manifest.topics as Topic[]).map((topic) => [basename(topic.file), topic]));
-  const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md'));
+  const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md') && !(book === 'dsg' && supersededDsgSources.has(file)));
   const orderedFiles = [
     ...(manifest.topics as Topic[]).map((topic) => basename(topic.file)),
     ...topicFiles.filter((file) => !byFile.has(file)).sort()
