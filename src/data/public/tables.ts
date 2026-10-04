@@ -1,5 +1,6 @@
 import imported from './tables-imported.json';
 import uaImported from './ua-tables-imported.json';
+import ffImported from './ff-tables-imported.json';
 import { oaTables } from './oa-tables';
 
 export type RandomTable = {
@@ -11,4 +12,4 @@ export type RandomTable = {
   entries: { min: number; max: number; result: string; href?: string }[];
 };
 
-export const tables: RandomTable[] = [...(imported as RandomTable[]), ...(uaImported as RandomTable[]), ...oaTables];
+export const tables: RandomTable[] = [...(imported as RandomTable[]), ...(uaImported as RandomTable[]), ...(ffImported as RandomTable[]), ...oaTables];

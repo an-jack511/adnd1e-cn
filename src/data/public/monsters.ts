@@ -1,5 +1,6 @@
 import type { Monster } from '../../schemas';
 import imported from './monsters-imported.json';
+import ffImported from './ff-monsters-imported.json';
 import { oaMonsters } from './oa-monsters';
 
 const examples: Monster[] = [
@@ -16,10 +17,12 @@ const examples: Monster[] = [
 ];
 
 const importedMonsters = imported as Monster[];
+const ffMonsters = ffImported as Monster[];
 const importedIds = new Set(importedMonsters.map((monster) => monster.id));
 const oaIds = new Set(oaMonsters.map((monster) => monster.id));
 export const monsters: Monster[] = [
   ...importedMonsters.map((monster) => ({ ...monster, illustration: examples.find((entry) => entry.id === monster.id)?.illustration })),
+  ...ffMonsters.filter((monster) => !importedIds.has(monster.id)),
   ...oaMonsters.filter((monster) => !importedIds.has(monster.id)),
-  ...examples.filter((monster) => !importedIds.has(monster.id) && !oaIds.has(monster.id))
+  ...examples.filter((monster) => !importedIds.has(monster.id) && !oaIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id))
 ];

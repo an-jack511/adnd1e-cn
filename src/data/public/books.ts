@@ -11,7 +11,7 @@ export const books: Book[] = [
   { id: 'wsg', short: 'WSG', title: 'Wilderness Survival Guide', titleZh: '荒野生存指南', description: '荒野地形、天气、补给、移动、自然危害与战役主持的完整中文译稿。', source: [{ book: 'WSG' }], chapters: [] },
   { id: 'oa', short: 'OA', title: 'Oriental Adventures', titleZh: '东方冒险', description: '东方职业、种族、荣誉、武术、法术、装备、怪物与卡拉图设定的完整中文译稿。', source: [{ book: 'OA' }], chapters: [] },
   { id: 'motp', short: 'MotP', title: 'Manual of the Planes', titleZh: '位面手册', description: '位面结构、内层位面、星界、外层位面、附录生物与位面法术索引的完整中文译稿。', source: [{ book: 'MotP' }], chapters: [] },
-  { id: 'ff', short: 'Fiend Folio', title: 'Fiend Folio', titleZh: 'Fiend Folio', description: '额外怪物来源。', source: [{ book: 'Fiend Folio' }], chapters: [{ title: '额外怪物', href: '/monsters?source=Fiend%20Folio' }] },
+  { id: 'ff', short: 'FF', title: 'Fiend Folio', titleZh: '恶魔宝典', description: 'Fiend Folio 的完整中文逐页重译，包含额外怪物、遭遇表、等级表、索引与书后附页。', source: [{ book: 'FF' }], chapters: [{ title: '额外怪物', href: '/monsters?source=FF' }, { title: '恶魔宝典正文', href: '/books/ff/' }] },
   { id: 'ddg', short: 'DDG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇能力、神话体系、牧师规则、神圣物品与位面旅行的完整中文译稿。', source: [{ book: 'DDG' }], chapters: [] },
   { id: 'll', short: 'L&L', title: 'Legends & Lore', titleZh: '传奇与学识', description: '神祇战役规则、神话体系、神庙陈设、牧师速查与已知位面资料的完整中文译稿。', source: [{ book: 'L&L' }], chapters: [] },
   { id: 'dmdk', short: 'DMDK', title: "Dungeon Master's Design Kit", titleZh: '地下城主设计工具箱', description: '冒险设计、表单、示例冒险与冒险菜谱的完整中文译稿。', source: [{ book: 'DMDK' }], chapters: [] }
