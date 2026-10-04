@@ -1,1 +1,3 @@
+<!-- source: OCR/ua-raw/pages/page-065.png–page-071.png; 原书印刷 pp. 65–71 -->
+
 原书在魔法师九环详述后进入幻术师章节。先见[幻术师专属小法术](/books/ua/ua-illusionist-cantrips/)，再按环位查阅[一环法术](/books/ua/ua-illusionist-spells-1/)、[二环法术](/books/ua/ua-illusionist-spells-2/)、[三环法术](/books/ua/ua-illusionist-spells-3/)、[四环法术](/books/ua/ua-illusionist-spells-4/)、[五环法术](/books/ua/ua-illusionist-spells-5/)、[六环法术](/books/ua/ua-illusionist-spells-6/)与[七环法术](/books/ua/ua-illusionist-spells-7/)。零至七环的完整名单见[幻术师法术表](/books/ua/ua-illusionist-spell-table/)。

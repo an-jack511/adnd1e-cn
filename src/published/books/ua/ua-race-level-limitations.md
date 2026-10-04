@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 9–10 / printed pp. 8–9 -->
+
+# 角色种族表 II：职业等级上限 Character Race Table II: Class Level Limitations
+
 ## 本表用法 How to Use This Table
 
 非人类玩家角色的新职业等级上限，不仅取决于种族和职业，也取决于该职业所重视的属性值。因此，原表按种族分为若干子表。在相应子表中，以职业与属性值交叉查得角色可达到的最高职业等级。

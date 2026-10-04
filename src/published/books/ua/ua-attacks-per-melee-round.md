@@ -1,3 +1,7 @@
+<!-- source: PDF p. 22 / printed p. 21 -->
+
+# 每近战轮攻击次数表 Attacks Per Melee Round Table
+
 本表适用于<strong>战士、骑士及其子职业</strong>使用刺击或劈砍武器时的一般每轮攻击次数。使用<strong>专精武器</strong>的战士与游侠应改用前文的武器专精表。
 
 | 职业 | 等级 | 每近战轮攻击次数 |

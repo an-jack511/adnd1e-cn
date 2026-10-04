@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-070.png–page-071.png; 原书印刷 pp. 70–71 -->
+
+# 幻术师六环法术 Sixth Level Spells
+
 以下四项依原书印刷第 70–71 页详述顺序排列。第 70 页的同心线幻术图置于*幻象群*后，第 71 页的场景插图也按原页保留。
 
 ## 死亡雾 Death Fog（变化／塑能系 Alteration-Evocation）
@@ -7,7 +11,7 @@
 | 等级 | 6 | 法术成分 | 言语、姿势、材料 |
 | 距离 | 3″ | 施法时间 | 6 段 |
 | 持续时间 | <strong>1–4 轮＋每级 1 轮</strong> | 豁免 | 无 |
-| 影响范围 | 每施法者等级 <strong>2 立方″</strong> | | |
+| 影响范围 | 每施法者等级 <strong>2 立方英尺</strong> | | |
 
 造出一片与*实体浓雾*相同、却<strong>强酸性</strong>的云雾。接触它的植物会死亡：青草等小植物 <strong>2 轮</strong>，灌木 <strong>4 轮</strong>，小树 <strong>8 轮</strong>，大树 <strong>16 轮</strong>。不免疫酸的动物生命，按在雾中暴露的连续轮次受伤：
 

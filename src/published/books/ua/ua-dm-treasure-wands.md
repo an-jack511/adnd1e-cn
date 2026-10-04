@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-087.png; 原书印刷 p. 86 -->
+
+# 财宝：魔杖表 III.D.2 Wands
+
 以下译录原书印刷第 86 页。经验值和售价均假定魔杖<strong>充能全满</strong>。如无括号限制，各职业均可使用。
 
 | d% | 结果 | 经验值 | 售价 |

@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-068.png–page-069.png; 原书印刷 pp. 68–69 -->
+
+# 幻术师三环法术 Third Level Spells
+
 以下四项按原书印刷第 68–69 页详述顺序排列。*幻影坐骑*的数值栏列有材料成分，但正文没有说明具体材料，译文保留这一缺漏。
 
 ## 蒙骗术 Delude（变化系 Alteration）

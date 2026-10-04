@@ -1,3 +1,5 @@
+<!-- source: OCR/ua-raw/pages/page-074.png; 原书印刷 p. 74 -->
+
 原书印刷第 74 页提出属性值生成法 V 与初始生命值下限，并补充说明[容貌属性](/books/ua/ua-comeliness/)。
 
 ## 属性值生成法 V Generation of Ability Scores, Method V

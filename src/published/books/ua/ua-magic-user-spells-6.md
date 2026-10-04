@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-059.png–page-061.png; 原书印刷 pp. 59–61 -->
+
+# 魔法师六环法术 Sixth Level Spells
+
 以下六项依原书第 59–61 页详述顺序排列。末项*化水为尘*沿用本书德鲁伊版规则，但施法时间与材料有别。
 
 ## 连环闪电 Chain Lightning（塑能系 Evocation）

@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 36–37 / printed pp. 35–36 -->
+
+# 三环法术 Third Level Spells
+
 ## 暴雨术 Cloudburst（变化系 Alteration）
 
 | 项目 | 数值 | 项目 | 数值 |

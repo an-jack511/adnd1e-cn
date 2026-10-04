@@ -1,3 +1,7 @@
+<!-- source: PDF p. 51 / printed p. 50 -->
+
+# 惊扰声音小法术 Haunting-Sound Cantrips
+
 以下八项依原书第 51 页双栏顺序排列。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 吱嘎声 Creak（塑能系 Evocation）

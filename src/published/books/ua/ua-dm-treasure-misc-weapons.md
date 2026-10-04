@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-090.png; 原书印刷 p. 89 -->
+
+# 财宝：杂项武器表 III.H 与 III.H.2 Miscellaneous Weapons
+
 以下译录原书印刷第 89 页的两张魔法武器表。经验值和售价的单位分别为经验点与金币；弹药数量也按原书保留。
 
 ## III.H 杂项武器

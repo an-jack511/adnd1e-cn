@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 48–49 / printed pp. 47–48 -->
+
+# 手法小法术 Legerdemain Cantrips
+
 以下六项依原书第 48–49 页顺序排列；原书在双栏中先排左栏的*变换*，再排右栏的*分心*、*隐藏*、*消音*、*藏掌*，最后续至下一页的*展示*。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 变换 Change（变化系 Alteration）

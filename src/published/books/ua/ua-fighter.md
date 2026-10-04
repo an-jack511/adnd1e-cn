@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 19–20 / printed pp. 18–19 -->
+
+# 战士 Fighter
+
 战士职业在两方面得到扩充。其一，战士可以使用本书所述的任何新武器；其二，战士获得威力更强的<strong>武器专精</strong>能力。
 
 ## 武器专精 Weapon Specialization

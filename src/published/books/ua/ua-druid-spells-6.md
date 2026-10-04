@@ -1,3 +1,7 @@
+<!-- source: PDF p. 45 / printed p. 44 -->
+
+# 六环法术 Sixth Level Spells
+
 ## 活橡树术 Liveoak（附魔系 Enchantment）
 
 | 项目 | 数值 | 项目 | 数值 |

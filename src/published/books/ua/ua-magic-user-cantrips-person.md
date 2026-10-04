@@ -1,3 +1,7 @@
+<!-- source: PDF p. 49 / printed p. 48 -->
+
+# 影响人物的小法术 Person-Affecting Cantrips
+
 以下十项依原书第 49 页双栏顺序排列。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 打嗝 Belch（塑能系 Evocation）

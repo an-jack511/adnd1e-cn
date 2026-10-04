@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-086.png; 原书印刷 p. 85 -->
+
+# 财宝：戒指表 III.C 与 III.C.2 Rings
+
 以下译录原书印刷第 85 页。经验值和售价的单位分别为经验点与金币。
 
 ## III.C 戒指

@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-089.png; 原书印刷 p. 88 -->
+
+# 财宝：护甲与盾牌表 III.F 与 III.F.2 Armor and Shield
+
 以下译录原书印刷第 88 页，按表中掷骰、经验值与金币售价照录。
 
 ## III.F 护甲与盾牌

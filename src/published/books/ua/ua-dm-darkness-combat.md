@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-082.png; 原书印刷 p. 82 -->
+
+# 战斗：黑暗的影响 Effects of Darkness
+
 原书印刷第 82 页说明，在黑暗或照明不足的环境中进行战斗时，按目标可见程度裁定：
 
 1. <strong>完全看不见</strong>对手：如攻击隐形目标，命中掷骰 <strong>−4</strong>。

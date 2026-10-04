@@ -1,3 +1,7 @@
+<!-- source: PDF p. 23 / printed p. 22 -->
+
+# 盗贼 Thief
+
 如<strong>角色职业表 II</strong>所示，盗贼并非只能穿皮甲；然而，穿着其他护甲会降低某些职业特殊能力的成功率。不穿护甲时，部分能力又可获得加值。修正如下：
 
 ## 盗贼表 II：护甲对盗贼职能的影响 Thieves Table II

@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-085.png; 原书印刷 p. 84 -->
+
+# 财宝：随机决定魔法物品 Treasure: Random Treasure Determination
+
 原书印刷第 84 页修订《地下城主指南》的“III. 魔法物品”随机表。先掷 d% 决定物品大类，再按该类的第二次 d% 掷骰选用表号。各表在后续主题依原书顺序列出。
 
 | 首次 d% | 物品大类 | 第二次 d% → 表号 |

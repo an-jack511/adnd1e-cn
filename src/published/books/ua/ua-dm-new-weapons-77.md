@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-077.png; 原书印刷 p. 77 -->
+
+# 新武器说明（一） Descriptions of New Weapon Types, Part I
+
 以下依原书印刷第 77 页顺序，译录回索棍至套索；捕人叉和后续武器见[续篇](/books/ua/ua-dm-new-weapons-78/)。
 
 ## 回索棍 Aklys

@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-069.png–page-070.png; 原书印刷 pp. 69–70 -->
+
+# 幻术师五环法术 Fifth Level Spells
+
 以下四项依原书印刷第 69–70 页详述顺序排列。
 
 ## 高级幻象 Advanced Illusion（幻术／幻影系 Illusion/Phantasm）

@@ -1,3 +1,7 @@
+<!-- source: PDF p. 14 / printed p. 13 -->
+
+# 角色职业表 II：可用护甲与武器 Character Classes Table II: Armor and Weapons Permitted
+
 | 职业 | 护甲 | 盾牌 | 可用武器 | 油 | 毒药 |
 |:---|:---|:---|:---|:---:|:---|
 | 骑士 Cavalier | 任意¹ | 任意 | 任意¹ | 不可² | 仅限邪恶阵营 |

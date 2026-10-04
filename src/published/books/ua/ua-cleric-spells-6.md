@@ -1,3 +1,7 @@
+<!-- source: PDF p. 41 / printed p. 40 -->
+
+# 六环法术 Sixth Level Spells
+
 ## 禁制术 Forbiddance（防护系 Abjuration）
 
 | 项目 | 数值 | 项目 | 数值 |

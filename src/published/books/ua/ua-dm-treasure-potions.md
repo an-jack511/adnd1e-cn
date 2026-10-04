@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-085.png; 原书印刷 p. 84 -->
+
+# 财宝：药水表 III.A 与 III.A.2 Potions
+
 以下译录原书印刷第 84 页。经验值和售价的单位分别为经验点与金币。
 
 ## III.A 药水

@@ -1,5 +1,7 @@
 以下依原书印刷第 101 页译录；贤者之石的说明延续至第 102 页。
 
+<!-- source: OCR/ua-raw/pages/page-102.png–page-103.png; 原书印刷 pp. 101–102 -->
+
 ## 休沃德的便利背包 Heward’s Handy Haversack
 
 外观是精良但用旧的皮背包，配黄铜扣具。两个侧袋各看似只能装约一夸脱，实际每袋如次元袋，可装 <strong>2 立方英尺</strong>或 <strong>20 磅</strong>；中央主袋可装 <strong>8 立方英尺</strong>或 <strong>80 磅</strong>。佩戴者伸进其中任一袋寻找指定物件时，该物件总在最上面。背包及其中物品在<strong>所有原因的豁免</strong>上均 <strong>+2</strong>。

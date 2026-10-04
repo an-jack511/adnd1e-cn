@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-064.png–page-065.png; 原书印刷 p. 65 -->
+
+# 魔法师九环法术 Ninth Level Spells
+
 以下四项依原书印刷第 65 页详述顺序排列。*救援术*是魔法师版本，传送与逆向召唤的限制和牧师版本略有不同。
 
 ## 晶化脆裂 Crystalbrittle（变化系 Alteration）

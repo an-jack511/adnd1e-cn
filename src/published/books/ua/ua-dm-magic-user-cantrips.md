@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-079.png; 原书印刷 p. 79 -->
+
+# 魔法师取得小法术 Acquisition of Cantrips, Magic-Users
+
 原书印刷第 79 页。一般小法术的已知数量与种类依本书第 30 页的[魔法师小法术表](/books/ua/ua-magic-user-spell-table/)随机决定。<strong>实用组</strong>例外：学徒每点智力可选一种实用小法术，从 20 项中自行挑选，用于减轻见习事务的劳累。
 
 | 其他五组 | 可知数量，随机决定 |

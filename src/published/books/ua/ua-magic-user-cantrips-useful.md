@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 46–47 / printed pp. 45–46 -->
+
+# 实用小法术 Useful Cantrips
+
 以下 20 项依原书第 45–47 页顺序排列。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 凉意 Chill（塑能系 Evocation）

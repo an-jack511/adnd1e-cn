@@ -1,1 +1,3 @@
+<!-- source: OCR/ua-raw/pages/page-032.png–page-042.png; 原书印刷 pp. 31–41 -->
+
 本节依原书环级与条目顺序，详述《破解奥秘》新增或修订的牧师法术。完整的各环法术名单见[牧师法术表](/books/ua/ua-cleric-spell-table/)。

@@ -1,3 +1,5 @@
+<!-- source: OCR/ua-raw/pages/page-030.png; 原书印刷 p. 29 -->
+
 原书第 30 页把魔法师小法术按<strong>实用、反向、手法、影响人物、个人、惊扰</strong>六组排列。六列各自从编号 1 起算；空格表示该组没有对应编号。本书稍后逐一详述所有小法术，以下中文名为与原表对照的工作译名。
 
 | 编号 | 实用 Useful | 反向 Reversed | 手法 Legerdemain | 影响人物 Person-Affecting | 个人 Personal | 惊扰 Haunting |

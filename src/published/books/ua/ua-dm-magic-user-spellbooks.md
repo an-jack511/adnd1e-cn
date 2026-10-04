@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-079.png–page-080.png; 原书印刷 pp. 79–80 -->
+
+# 魔法师法术书 Magic-User Spell Books
+
 原书印刷第 79–80 页。这里大部分规则也适用于幻术师；两者区别另见[幻术师法术书](/books/ua/ua-dm-illusionist-spells/)。学徒毕业时必有一本<strong>一环法术书</strong>，也可能有一本<strong>小法术书</strong>，取决于地下城主与玩家的选择。
 
 ## 种类与容量

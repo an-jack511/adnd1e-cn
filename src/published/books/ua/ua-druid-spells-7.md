@@ -1,3 +1,7 @@
+<!-- source: PDF p. 45 / printed p. 44 -->
+
+# 七环法术 Seventh Level Spells
+
 ## 变化长杖 Changestaff（塑能／附魔系 Evocation–Enchantment）
 
 | 项目 | 数值 | 项目 | 数值 |

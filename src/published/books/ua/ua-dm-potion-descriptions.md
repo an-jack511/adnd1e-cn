@@ -1,3 +1,5 @@
+<!-- source: OCR/ua-raw/pages/page-091.png–page-092.png; 原书印刷 pp. 90–91 -->
+
 以下按原书印刷第 90–91 页的顺序译录新药水、油与媚药。
 
 ## 健康灵药 Elixir of Health

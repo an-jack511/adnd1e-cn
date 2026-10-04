@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-066.png–page-067.png; 原书印刷 pp. 66–67 -->
+
+# 幻术师一环法术 First Level Spells
+
 以下四项按原书印刷第 66–67 页详述顺序排列。
 
 ## 彩色法球 Chromatic Orb（变化／塑能系 Alteration-Evocation）

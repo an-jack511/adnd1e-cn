@@ -1,3 +1,5 @@
+<!-- source: PDF p. 5; printed p. 4 -->
+
 ## 杰夫·格鲁布 Jeff Grubb
 
 警告：本书装了满满一载。

@@ -1,3 +1,7 @@
+<!-- source: PDF p. 8 / printed p. 7 -->
+
+# 角色种族 Character Races
+
 下列图表与文字会说明，AD&D 游戏如今为玩家角色提供了许多新机会。创建角色时，玩家可以从 15 种种族类型、13 种职业与子职业（不含吟游诗人）中选择；每一种获准采用的种族与职业组合，都有自己的特点。地下城主也会发现，这些选择同样可以用于自己战役世界中的非玩家角色。
 
 本章先列[角色种族表 I：职业限制](/books/ua/ua-race-class-limitations/)，再列[角色种族表 II：职业等级上限](/books/ua/ua-race-level-limitations/)和新增亚种族说明。

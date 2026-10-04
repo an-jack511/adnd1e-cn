@@ -1,3 +1,7 @@
+<!-- source: PDF p. 8 / printed p. 7 -->
+
+# 角色种族表 I：角色职业限制 Character Race Table I: Character Class Limitations
+
 表中的“可”表示该种族可以选择相应职业，“不可”表示不能选择。为便于阅读，原书同一张宽表的上下两部分分别排成矮人与精灵、以及其他种族两张表；各列、各行和阵营要求仍按原书顺序排列。
 
 | 职业 Character Class | 灰矮人 | 丘陵矮人 | 山地矮人 | 黑暗精灵 | 灰精灵 | 高等精灵 | 山谷精灵 | 野精灵 | 木精灵 |

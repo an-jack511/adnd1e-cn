@@ -2,6 +2,8 @@ import type { Item } from '../../schemas';
 import imported from './items-imported.json';
 import magicImported from './magic-items-imported.json';
 import uaImported from './ua-items-imported.json';
+import uaWeaponCombat from './ua-weapon-combat.json';
+import uaWeaponHandheld from './ua-weapon-handheld.json';
 import { oaItems } from './oa-items';
 import { dsgItems } from './dsg-items';
 import { wsgItems } from './wsg-items';
@@ -25,4 +27,23 @@ const importedItems: Item[] = (imported as Item[]).map((item) => {
   return existing ? { ...item, id: existing.id, nameEn: existing.nameEn, weight: item.weight === '见负重表' ? existing.weight : item.weight, damageSmallMedium: item.damageSmallMedium ?? existing.damageSmallMedium, damageLarge: item.damageLarge ?? existing.damageLarge, length: item.length ?? existing.length, spaceRequired: item.spaceRequired ?? existing.spaceRequired, speedFactor: item.speedFactor ?? existing.speedFactor, acAdjustment: item.acAdjustment ?? existing.acAdjustment, tags: [...new Set([...item.tags, ...existing.tags])] } : item;
 });
 const usedIds = new Set(importedItems.map((item) => item.id));
-export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...(uaImported as Item[]), ...oaItems, ...dsgItems, ...wsgItems, ...examples.filter((item) => !usedIds.has(item.id))];
+const uaCombatById = uaWeaponCombat as Record<string, Item['weaponCombat']>;
+const uaHandheldById = uaWeaponHandheld as Record<string, NonNullable<Item['weaponCombat']>['handHeld']>;
+const uaItemsWithCombat = (uaImported as Item[]).map((item) => {
+  const combat = uaCombatById[item.id];
+  const handHeld = uaHandheldById[item.id];
+  return combat || handHeld ? { ...item, weaponCombat: { ...combat, ...(handHeld ? { handHeld } : {}) } } : item;
+});
+const uaCombatOnly: Item[] = [
+  ['ua-weapon-bow-composite-long', '长复合弓', 'Bow, Composite, Long'],
+  ['ua-weapon-bow-composite-short', '短复合弓', 'Bow, Composite, Short'],
+  ['ua-weapon-bow-long', '长弓', 'Bow, Long'],
+  ['ua-weapon-bow-short', '短弓', 'Bow, Short'],
+  ['ua-weapon-crossbow-hand', '手弩', 'Crossbow, Hand'],
+  ['ua-weapon-crossbow-heavy', '重弩', 'Crossbow, Heavy'],
+  ['ua-weapon-crossbow-light', '轻弩', 'Crossbow, Light'],
+  ['ua-weapon-dart', '飞镖', 'Dart'],
+  ['ua-weapon-hammer', '锤', 'Hammer'],
+  ['ua-weapon-javelin', '标枪', 'Javelin']
+].map(([id, nameZh, nameEn]) => ({ id, nameZh, nameEn, category: '武器', price: '见 UA 装备价目', weight: '见 UA 重量与伤害表', description: 'UA 武器表：投掷／射击数据见原书第 28 页；重量与伤害见相应武器表。', tags: ['武器', 'UA'], source: [{ book: 'UA', section: 'ua-weapons' }], weaponCombat: (uaWeaponCombat as Record<string, Item['weaponCombat']>)[id] }));
+export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...uaItemsWithCombat, ...uaCombatOnly, ...oaItems, ...dsgItems, ...wsgItems, ...examples.filter((item) => !usedIds.has(item.id))];

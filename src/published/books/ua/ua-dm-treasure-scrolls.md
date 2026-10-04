@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-085.png–page-086.png; 原书印刷 pp. 84–85 -->
+
+# 财宝：卷轴表 III.B 与 III.B.2 Scrolls
+
 以下合并原书印刷第 84–85 页的连续表格。III.B 表第三栏对法术卷轴给出<strong>法术环位范围</strong>，对防护卷轴给出<strong>经验值</strong>。星号标明牧师法术环位。
 
 ## III.B 卷轴

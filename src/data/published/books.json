@@ -3295,6 +3295,15 @@
   },
   {
     "book": "ua",
+    "slug": "ua-title-credits",
+    "title": "书名页与出版信息",
+    "titleEn": "Title and Credits",
+    "group": "前置部分",
+    "excerpt": "《破解奥秘》 Unearthed Arcana 盖瑞·吉盖克斯（Gary Gygax）著。 本书供《高级龙与地下城》游戏的玩家使用，包含大量此前从未出版过的资料。它也是适合中级及高级玩家和地下城主的优秀资源，适用年龄为 10 岁及以上。 《破解奥秘》是一本新的构想与新发现汇编，服务于 AD&D 游戏战役，对玩家和地下城主同样有益。 出版商",
+    "sourceFile": "manuscript/ua/topics/title-credits.md"
+  },
+  {
+    "book": "ua",
     "slug": "ua-dedication",
     "title": "献辞",
     "titleEn": "Dedication",
@@ -3353,7 +3362,7 @@
     "title": "容貌",
     "titleEn": "Comeliness",
     "group": "玩家部分",
-    "excerpt": "容貌反映角色的外表吸引力、社交仪态与个人美貌。它决定他人对角色的初次反应；容貌很高的角色甚至可能影响他人的意志和行动。魅力专门涉及领导力和角色之间的交往，容貌则关系到外貌吸引力与第一印象。两者并不相同，不过魅力会影响容貌。 确定角色原有的六项属性后，还须确定其长相：丑陋、寒碜、平凡，还是漂亮？掷 3d6 并相加，取得 3 至 18 的容貌",
+    "excerpt": "容貌 Comeliness 容貌反映角色的外表吸引力、社交仪态与个人美貌。它决定他人对角色的初次反应；容貌很高的角色甚至可能影响他人的意志和行动。魅力专门涉及领导力和角色之间的交往，容貌则关系到外貌吸引力与第一印象。两者并不相同，不过魅力会影响容貌。 确定角色原有的六项属性后，还须确定其长相：丑陋、寒碜、平凡，还是漂亮？掷 3d6 并相加",
     "sourceFile": "manuscript/ua/topics/comeliness.md"
   },
   {
@@ -3362,7 +3371,7 @@
     "title": "角色种族",
     "titleEn": "Character Races",
     "group": "玩家部分",
-    "excerpt": "下列图表与文字会说明，AD&D 游戏如今为玩家角色提供了许多新机会。创建角色时，玩家可以从 15 种种族类型、13 种职业与子职业（不含吟游诗人）中选择；每一种获准采用的种族与职业组合，都有自己的特点。地下城主也会发现，这些选择同样可以用于自己战役世界中的非玩家角色。 本章先列角色种族表 I：职业限制，再列角色种族表 II：职业等级上限和",
+    "excerpt": "角色种族 Character Races 下列图表与文字会说明，AD&D 游戏如今为玩家角色提供了许多新机会。创建角色时，玩家可以从 15 种种族类型、13 种职业与子职业（不含吟游诗人）中选择；每一种获准采用的种族与职业组合，都有自己的特点。地下城主也会发现，这些选择同样可以用于自己战役世界中的非玩家角色。 本章先列角色种族表 I：职业",
     "sourceFile": "manuscript/ua/topics/character-races.md"
   },
   {
@@ -3371,7 +3380,7 @@
     "title": "角色职业限制（角色种族表 I）",
     "titleEn": "Character Class Limitations (Character Race Table I)",
     "group": "玩家部分",
-    "excerpt": "表中的“可”表示该种族可以选择相应职业，“不可”表示不能选择。为便于阅读，原书同一张宽表的上下两部分分别排成矮人与精灵、以及其他种族两张表；各列、各行和阵营要求仍按原书顺序排列。 职业 Character Class 灰矮人 丘陵矮人 山地矮人 黑暗精灵 灰精灵 高等精灵 山谷精灵 野精灵 木精灵 :--- :---: :---: :--",
+    "excerpt": "角色种族表 I：角色职业限制 Character Race Table I: Character Class Limitations 表中的“可”表示该种族可以选择相应职业，“不可”表示不能选择。为便于阅读，原书同一张宽表的上下两部分分别排成矮人与精灵、以及其他种族两张表；各列、各行和阵营要求仍按原书顺序排列。 职业 Character ",
     "sourceFile": "manuscript/ua/topics/race-class-limitations.md"
   },
   {
@@ -3380,7 +3389,7 @@
     "title": "职业等级上限（角色种族表 II）",
     "titleEn": "Class Level Limitations (Character Race Table II)",
     "group": "玩家部分",
-    "excerpt": "本表用法 How to Use This Table 非人类玩家角色的新职业等级上限，不仅取决于种族和职业，也取决于该职业所重视的属性值。因此，原表按种族分为若干子表。在相应子表中，以职业与属性值交叉查得角色可达到的最高职业等级。 每张子表左列的属性值，随职业而指向不同属性：战士、游侠、刺客看力量；魔法师、幻术师看智力；牧师、德鲁伊看感知",
+    "excerpt": "角色种族表 II：职业等级上限 Character Race Table II: Class Level Limitations 本表用法 How to Use This Table 非人类玩家角色的新职业等级上限，不仅取决于种族和职业，也取决于该职业所重视的属性值。因此，原表按种族分为若干子表。在相应子表中，以职业与属性值交叉查得角色可",
     "sourceFile": "manuscript/ua/topics/race-level-limitations.md"
   },
   {
@@ -3389,7 +3398,7 @@
     "title": "矮人",
     "titleEn": "Dwarves",
     "group": "玩家部分",
-    "excerpt": "灰矮人 Gray Dwarves ，又称杜尔加（duergar），通常只见于大地深处。这个亚种族大多数成员是守序邪恶，略有中立倾向；但玩家角色灰矮人可以属于任意阵营。杜尔加比其他矮人瘦，皮肤与头发从中灰色到深灰色不等。 和其他矮人一样，灰矮人可以成为战士、牧师或盗贼；盗贼还可选择刺客子职业或杂技盗贼分支。灰矮人可组成战士／牧师、战士／盗贼",
+    "excerpt": "矮人 Dwarves 灰矮人 Gray Dwarves ，又称杜尔加（duergar），通常只见于大地深处。这个亚种族大多数成员是守序邪恶，略有中立倾向；但玩家角色灰矮人可以属于任意阵营。杜尔加比其他矮人瘦，皮肤与头发从中灰色到深灰色不等。 和其他矮人一样，灰矮人可以成为战士、牧师或盗贼；盗贼还可选择刺客子职业或杂技盗贼分支。灰矮人可组成",
     "sourceFile": "manuscript/ua/topics/race-dwarves.md"
   },
   {
@@ -3398,7 +3407,7 @@
     "title": "精灵",
     "titleEn": "Elves",
     "group": "玩家部分",
-    "excerpt": "灰精灵 Gray Elves。 灰精灵是罕见的精灵亚种族，拥有高等精灵的全部能力，包括抵抗 睡眠术 Sleep 和 魅惑术 Charm 、使用剑与弓的能力、红外视觉、侦测密门与隐蔽门，以及独处时无声移动。两种精灵会说相同的语言。灰精灵最初掷出智力值后再加 1 点 ，所以新玩家角色的智力最高可达 19 。灰精灵比高等精灵更少见，通常不会长期",
+    "excerpt": "精灵 Elves 灰精灵 Gray Elves。 灰精灵是罕见的精灵亚种族，拥有高等精灵的全部能力，包括抵抗 睡眠术 Sleep 和 魅惑术 Charm 、使用剑与弓的能力、红外视觉、侦测密门与隐蔽门，以及独处时无声移动。两种精灵会说相同的语言。灰精灵最初掷出智力值后再加 1 点 ，所以新玩家角色的智力最高可达 19 。灰精灵比高等精灵更",
     "sourceFile": "manuscript/ua/topics/race-elves.md"
   },
   {
@@ -3407,7 +3416,7 @@
     "title": "侏儒",
     "titleEn": "Gnomes",
     "group": "玩家部分",
-    "excerpt": "地底侏儒 Deep Gnomes 又称斯维夫尼布林（svirfneblin），是栖居地底深处的侏儒亚种族。他们可选择地表侏儒获准选择的任意职业或多职业组合。不是幻术师的地底侏儒，在较高等级还会获得特殊能力。地底侏儒比地表亲族更健壮，粗糙的皮肤从中棕色到灰棕色不等，眼睛呈灰色。 地底侏儒保有侏儒侦测坡度、不稳固墙壁，以及判断地下深度与方向的",
+    "excerpt": "侏儒 Gnomes 地底侏儒 Deep Gnomes 又称斯维夫尼布林（svirfneblin），是栖居地底深处的侏儒亚种族。他们可选择地表侏儒获准选择的任意职业或多职业组合。不是幻术师的地底侏儒，在较高等级还会获得特殊能力。地底侏儒比地表亲族更健壮，粗糙的皮肤从中棕色到灰棕色不等，眼睛呈灰色。 地底侏儒保有侏儒侦测坡度、不稳固墙壁，以及",
     "sourceFile": "manuscript/ua/topics/race-gnomes.md"
   },
   {
@@ -3416,7 +3425,7 @@
     "title": "半精灵",
     "titleEn": "Half-Elves",
     "group": "玩家部分",
-    "excerpt": "高等精灵血统的半精灵，已在《玩家手册》第 17 页 详述。灰精灵、木精灵和山谷精灵的后裔，能力与限制与之相近。野精灵对人类的信任，连把人扔出去的距离都不到，因此从未听说过格鲁加赫血统的半精灵。卓尔血统的半精灵继承了精灵父母在光线方面的不利条件，却没有纯血卓尔的特殊优势；黑暗精灵群体也把他们视为流亡者。",
+    "excerpt": "半精灵 Half-Elves 高等精灵血统的半精灵，已在《玩家手册》第 17 页 详述。灰精灵、木精灵和山谷精灵的后裔，能力与限制与之相近。野精灵对人类的信任，连把人扔出去的距离都不到，因此从未听说过格鲁加赫血统的半精灵。卓尔血统的半精灵继承了精灵父母在光线方面的不利条件，却没有纯血卓尔的特殊优势；黑暗精灵群体也把他们视为流亡者。",
     "sourceFile": "manuscript/ua/topics/race-half-elves.md"
   },
   {
@@ -3425,7 +3434,7 @@
     "title": "半身人",
     "titleEn": "Halflings",
     "group": "玩家部分",
-    "excerpt": "健壮、毛脚和长足三种半身人，已在《玩家手册》第 17 页 作一般说明。三者的职业等级上限差异见本书角色种族表 II。为等级提升与能力判定计，混血半身人视为健壮半身人。",
+    "excerpt": "半身人 Halflings 健壮、毛脚和长足三种半身人，已在《玩家手册》第 17 页 作一般说明。三者的职业等级上限差异见本书角色种族表 II。为等级提升与能力判定计，混血半身人视为健壮半身人。",
     "sourceFile": "manuscript/ua/topics/race-halflings.md"
   },
   {
@@ -3434,7 +3443,7 @@
     "title": "半兽人",
     "titleEn": "Half-orcs",
     "group": "玩家部分",
-    "excerpt": "半兽人已在《玩家手册》第 17 页 说明；本书表格提供的资料对该说明作了修订。",
+    "excerpt": "半兽人 Half-orcs 半兽人已在《玩家手册》第 17 页 说明；本书表格提供的资料对该说明作了修订。",
     "sourceFile": "manuscript/ua/topics/race-half-orcs.md"
   },
   {
@@ -3443,7 +3452,7 @@
     "title": "人类",
     "titleEn": "Humans",
     "group": "玩家部分",
-    "excerpt": "人类是 AD&D 游戏宇宙中的主导种族，可选职业与可达到的等级都没有种族上限。请注意，只有人类玩家角色可以使用本书后文提出的一种特殊角色生成方法：玩家先选定角色职业，再确定任何属性值。",
+    "excerpt": "人类 Humans 人类是 AD&D 游戏宇宙中的主导种族，可选职业与可达到的等级都没有种族上限。请注意，只有人类玩家角色可以使用本书后文提出的一种特殊角色生成方法：玩家先选定角色职业，再确定任何属性值。",
     "sourceFile": "manuscript/ua/topics/race-humans.md"
   },
   {
@@ -3452,7 +3461,7 @@
     "title": "种族偏好表",
     "titleEn": "Racial Preferences Table",
     "group": "玩家部分",
-    "excerpt": "本表记录各种族对其他种族类型的基本接受程度。列标题使用下方所列的种族简称，列序与各行的行序相同。横读一行，即可看到该种族或亚种族通常如何看待各列种族。关系不一定对等：例如，黑暗精灵厌恶所有半身人，而长足半身人对黑暗精灵通常持中立态度。 代码 含义 :---: :--- P 一般特别喜爱该种族，与其成员交往时会体现出来 G 对该种族怀有相当",
+    "excerpt": "种族偏好表 Racial Preferences Table 本表记录各种族对其他种族类型的基本接受程度。列标题使用下方所列的种族简称，列序与各行的行序相同。横读一行，即可看到该种族或亚种族通常如何看待各列种族。关系不一定对等：例如，黑暗精灵厌恶所有半身人，而长足半身人对黑暗精灵通常持中立态度。 代码 含义 :---: :--- P 一般",
     "sourceFile": "manuscript/ua/topics/racial-preferences.md"
   },
   {
@@ -3461,7 +3470,7 @@
     "title": "角色职业",
     "titleEn": "Character Classes",
     "group": "玩家部分",
-    "excerpt": "本章按原书先列生命骰、法术能力和职业等级上限表，再列可用护甲与武器表；随后依原书目录介绍各职业与子职业的职能、能力和等级。",
+    "excerpt": "角色职业 Character Classes 本章按原书先列生命骰、法术能力和职业等级上限表，再列可用护甲与武器表；随后依原书目录介绍各职业与子职业的职能、能力和等级。",
     "sourceFile": "manuscript/ua/topics/character-classes.md"
   },
   {
@@ -3470,7 +3479,7 @@
     "title": "生命骰、法术能力与等级上限（职业表 I）",
     "titleEn": "Hit Dice, Spell Ability, and Class Level Limit (Character Classes Table I)",
     "group": "玩家部分",
-    "excerpt": "职业 生命骰类型 最多生命骰 法术能力 职业等级上限 :--- :---: :---: :---: :--- 骑士 Cavalier d10¹ 10 无 无 圣武士 Paladin d10¹ 9 有² 无 牧师 Cleric d8 9 有 无 德鲁伊 Druid d8 14 有 23（秘会大祭司 Hierophant of the Cab",
+    "excerpt": "角色职业表 I：生命骰、法术能力与职业等级上限 Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit 职业 生命骰类型 最多生命骰 法术能力 职业等级上限 :--- :---: :---: :---: :--- 骑士 Cavalier d10¹ ",
     "sourceFile": "manuscript/ua/topics/class-hit-dice.md"
   },
   {
@@ -3479,7 +3488,7 @@
     "title": "可用护甲与武器（职业表 II）",
     "titleEn": "Armor and Weapons Permitted (Character Classes Table II)",
     "group": "玩家部分",
-    "excerpt": "职业 护甲 盾牌 可用武器 油 毒药 :--- :--- :--- :--- :---: :--- 骑士 Cavalier 任意¹ 任意 任意¹ 不可² 仅限邪恶阵营 圣武士 Paladin 任意¹ 任意 任意¹ 不可² 绝不可用 牧师 Cleric 任意 任意 棍棒、连枷、锤、硬头锤、长杖、套索、击昏棒、杖投石索 可 仅限邪恶阵营 德鲁",
+    "excerpt": "角色职业表 II：可用护甲与武器 Character Classes Table II: Armor and Weapons Permitted 职业 护甲 盾牌 可用武器 油 毒药 :--- :--- :--- :--- :---: :--- 骑士 Cavalier 任意¹ 任意 任意¹ 不可² 仅限邪恶阵营 圣武士 Paladin 任",
     "sourceFile": "manuscript/ua/topics/class-equipment.md"
   },
   {
@@ -3488,7 +3497,7 @@
     "title": "骑士",
     "titleEn": "Cavalier",
     "group": "玩家部分",
-    "excerpt": "骑士职业没有主要属性，因此不会因属性优异而获得经验值加值。角色的力量、敏捷、体质均须至少 15 ，智力和感知均须至少 10 。骑士起始必须属于善良阵营：守序善良、中立善良或混乱善良。骑士的攻击和豁免按战士处理，但使用某些武器时还会获得额外能力，对某些豁免也有调整。骑士及其子职业圣武士不享有武器专精的好处。 要成为骑士，角色必须侍奉某位神祇",
+    "excerpt": "骑士 Cavalier 骑士职业没有主要属性，因此不会因属性优异而获得经验值加值。角色的力量、敏捷、体质均须至少 15 ，智力和感知均须至少 10 。骑士起始必须属于善良阵营：守序善良、中立善良或混乱善良。骑士的攻击和豁免按战士处理，但使用某些武器时还会获得额外能力，对某些豁免也有调整。骑士及其子职业圣武士不享有武器专精的好处。 要成为骑",
     "sourceFile": "manuscript/ua/topics/cavalier.md"
   },
   {
@@ -3497,7 +3506,7 @@
     "title": "圣武士",
     "titleEn": "Paladin",
     "group": "玩家部分",
-    "excerpt": "圣武士不再视为战士的子职业，而是 骑士的子职业 。圣武士必须满足骑士的全部属性要求，且感知至少 13 、魅力至少 17 。他们仍献身于守序善良阵营的事业，追随拥护这一阵营的神祇与组织。圣武士若偏离守序善良，就会变为骑士，并失去全部圣武士特殊能力。 圣武士起初须具有适当的社会地位，或者得到当地贵族资助。若属于后者，角色须先经历骑马侍从与枪骑",
+    "excerpt": "圣武士 Paladin 圣武士不再视为战士的子职业，而是 骑士的子职业 。圣武士必须满足骑士的全部属性要求，且感知至少 13 、魅力至少 17 。他们仍献身于守序善良阵营的事业，追随拥护这一阵营的神祇与组织。圣武士若偏离守序善良，就会变为骑士，并失去全部圣武士特殊能力。 圣武士起初须具有适当的社会地位，或者得到当地贵族资助。若属于后者，角",
     "sourceFile": "manuscript/ua/topics/paladin.md"
   },
   {
@@ -3506,7 +3515,7 @@
     "title": "德鲁伊",
     "titleEn": "Druid",
     "group": "玩家部分",
-    "excerpt": "研究德鲁伊的资料不难发现，大德鲁伊（The Great Druid， 14 级 ）之上必然还有更高位阶：毕竟每片地区或土地都可能有自己的大德鲁伊。更高位的是 至高德鲁伊 Grand Druid ，经验值至少 3,000,001 ，等级 15 ，有九位特殊德鲁伊侍奉；这九人不属于任何特定地方的德鲁伊等级体系。因此，任何等级的德鲁伊都可以踏上",
+    "excerpt": "德鲁伊 Druid 研究德鲁伊的资料不难发现，大德鲁伊（The Great Druid， 14 级 ）之上必然还有更高位阶：毕竟每片地区或土地都可能有自己的大德鲁伊。更高位的是 至高德鲁伊 Grand Druid ，经验值至少 3,000,001 ，等级 15 ，有九位特殊德鲁伊侍奉；这九人不属于任何特定地方的德鲁伊等级体系。因此，任何等",
     "sourceFile": "manuscript/ua/topics/druid.md"
   },
   {
@@ -3515,7 +3524,7 @@
     "title": "战士",
     "titleEn": "Fighter",
     "group": "玩家部分",
-    "excerpt": "战士职业在两方面得到扩充。其一，战士可以使用本书所述的任何新武器；其二，战士获得威力更强的 武器专精 能力。 武器专精 Weapon Specialization 只有 战士 及其子职业 游侠 可以使用武器专精。角色选择专精某一种武器，同时放弃对其他武器的广泛训练；是否专精，必须在创建角色时决定。武器专精占用 2 个武器熟练项 ：因此初始",
+    "excerpt": "战士 Fighter 战士职业在两方面得到扩充。其一，战士可以使用本书所述的任何新武器；其二，战士获得威力更强的 武器专精 能力。 武器专精 Weapon Specialization 只有 战士 及其子职业 游侠 可以使用武器专精。角色选择专精某一种武器，同时放弃对其他武器的广泛训练；是否专精，必须在创建角色时决定。武器专精占用 2 个",
     "sourceFile": "manuscript/ua/topics/fighter.md"
   },
   {
@@ -3524,7 +3533,7 @@
     "title": "野蛮人",
     "titleEn": "Barbarian",
     "group": "玩家部分",
-    "excerpt": "野蛮人是 战士的子职业 ，擅长在险恶荒野中生存所需的众多技能：快速移动、攀爬、多种武器、某些“第六感”，以及多项次要与第三类能力。他们强韧耐久，受伤后恢复迅速。野蛮人角色的 力量与体质均至少为 15 ， 敏捷至少为 14 ， 感知不得高于 16 。野蛮人没有首要属性，因此没有所得经验值加成；玩家角色野蛮人不能兼任两个职业。 野蛮人的敏捷每",
+    "excerpt": "野蛮人 Barbarian 野蛮人是 战士的子职业 ，擅长在险恶荒野中生存所需的众多技能：快速移动、攀爬、多种武器、某些“第六感”，以及多项次要与第三类能力。他们强韧耐久，受伤后恢复迅速。野蛮人角色的 力量与体质均至少为 15 ， 敏捷至少为 14 ， 感知不得高于 16 。野蛮人没有首要属性，因此没有所得经验值加成；玩家角色野蛮人不能兼",
     "sourceFile": "manuscript/ua/topics/barbarian.md"
   },
   {
@@ -3533,7 +3542,7 @@
     "title": "游侠",
     "titleEn": "Ranger",
     "group": "玩家部分",
-    "excerpt": "战士子职业 游侠 可以使用前述战士的 武器专精 规则。此外，下列追踪、“巨人类”对手及武器使用资料，应取代或补充《玩家手册》中对应的职业描述。 追踪 Tracking 追踪主要用于户外；在特定地下或“室内”环境中，游侠也能追踪生物。 户外追踪。 基础成功率为 游侠每级 10%，另加 10% ，如 1 级为 20%、6 级为 70%；10 ",
+    "excerpt": "游侠 Ranger 战士子职业 游侠 可以使用前述战士的 武器专精 规则。此外，下列追踪、“巨人类”对手及武器使用资料，应取代或补充《玩家手册》中对应的职业描述。 追踪 Tracking 追踪主要用于户外；在特定地下或“室内”环境中，游侠也能追踪生物。 户外追踪。 基础成功率为 游侠每级 10%，另加 10% ，如 1 级为 20%、6 ",
     "sourceFile": "manuscript/ua/topics/ranger.md"
   },
   {
@@ -3542,7 +3551,7 @@
     "title": "每近战轮攻击次数表",
     "titleEn": "Attacks Per Melee Round Table",
     "group": "玩家部分",
-    "excerpt": "本表适用于 战士、骑士及其子职业 使用刺击或劈砍武器时的一般每轮攻击次数。使用 专精武器 的战士与游侠应改用前文的武器专精表。 职业 等级 每近战轮攻击次数 :--- :---: :---: 战士 1–6 1/1 野蛮人 1–5 1/1 游侠 1–7 1/1 骑士 1–5 1/1 圣武士 1–6 1/1 战士 7–12 3/2 野蛮人 6",
+    "excerpt": "每近战轮攻击次数表 Attacks Per Melee Round Table 本表适用于 战士、骑士及其子职业 使用刺击或劈砍武器时的一般每轮攻击次数。使用 专精武器 的战士与游侠应改用前文的武器专精表。 职业 等级 每近战轮攻击次数 :--- :---: :---: 战士 1–6 1/1 野蛮人 1–5 1/1 游侠 1–7 1/1 ",
     "sourceFile": "manuscript/ua/topics/attacks-per-melee-round.md"
   },
   {
@@ -3551,7 +3560,7 @@
     "title": "盗贼",
     "titleEn": "Thief",
     "group": "玩家部分",
-    "excerpt": "如 角色职业表 II 所示，盗贼并非只能穿皮甲；然而，穿着其他护甲会降低某些职业特殊能力的成功率。不穿护甲时，部分能力又可获得加值。修正如下： 盗贼表 II：护甲对盗贼职能的影响 Thieves Table II 盗贼职能 无护甲¹ 精灵锁子甲² 镶钉皮甲或棉甲² :--- :---: :---: :---: 扒窃 +5% −20% −3",
+    "excerpt": "盗贼 Thief 如 角色职业表 II 所示，盗贼并非只能穿皮甲；然而，穿着其他护甲会降低某些职业特殊能力的成功率。不穿护甲时，部分能力又可获得加值。修正如下： 盗贼表 II：护甲对盗贼职能的影响 Thieves Table II 盗贼职能 无护甲¹ 精灵锁子甲² 镶钉皮甲或棉甲² :--- :---: :---: :---: 扒窃 +5",
     "sourceFile": "manuscript/ua/topics/thief.md"
   },
   {
@@ -3560,7 +3569,7 @@
     "title": "杂技盗贼",
     "titleEn": "Thief-Acrobat",
     "group": "玩家部分",
-    "excerpt": "任何 力量至少 15、敏捷至少 16 的盗贼，在升过 5 级 后，可以放弃普通盗贼的发展路线，成为“分流职业” 杂技盗贼 。角色不再练习提升手指灵巧度的活动，而改以体能训练磨练协调性、肌肉控制和平衡能力。因此，以下盗贼技能 不再随等级提升 ： 扒窃、开锁、寻找陷阱、拆除陷阱 ；杂技盗贼也 永远不会获得解读魔法 能力。升至 5 级时已取得的",
+    "excerpt": "杂技盗贼 Thief-Acrobat 任何 力量至少 15、敏捷至少 16 的盗贼，在升过 5 级 后，可以放弃普通盗贼的发展路线，成为“分流职业” 杂技盗贼 。角色不再练习提升手指灵巧度的活动，而改以体能训练磨练协调性、肌肉控制和平衡能力。因此，以下盗贼技能 不再随等级提升 ： 扒窃、开锁、寻找陷阱、拆除陷阱 ；杂技盗贼也 永远不会获得",
     "sourceFile": "manuscript/ua/topics/thief-acrobat.md"
   },
   {
@@ -3569,7 +3578,7 @@
     "title": "金钱（骑士）",
     "titleEn": "Money (for Cavaliers)",
     "group": "玩家部分",
-    "excerpt": "骑士的起始金钱与装备 Starting Money and Equipment for Cavaliers 骑士得到领主或骑士团支持，创建角色时拥有其他职业不易获得的资金和装备。具体数量与种类取决于角色的 社会等级 ： 社会等级 起始金钱 起始装备 :--- :---: :--- 下中产阶层或更低的骑手 20–80 金币 盾牌、任意种类的",
+    "excerpt": "金钱 Money 骑士的起始金钱与装备 Starting Money and Equipment for Cavaliers 骑士得到领主或骑士团支持，创建角色时拥有其他职业不易获得的资金和装备。具体数量与种类取决于角色的 社会等级 ： 社会等级 起始金钱 起始装备 :--- :---: :--- 下中产阶层或更低的骑手 20–80 金币",
     "sourceFile": "manuscript/ua/topics/money.md"
   },
   {
@@ -3578,7 +3587,7 @@
     "title": "装备角色",
     "titleEn": "Equipping the Character",
     "group": "玩家部分",
-    "excerpt": "本章补充《玩家手册》的装备资料。新护甲与武器的 基本购置价格 见下表；护甲等级见“护甲”主题，各职业的武器熟练项、新武器重量及伤害、近战与远程武器的护甲等级命中调整见后续“武器”主题。金额沿用原书的金币 gp 、银币 sp 、琥珀金币 ep 单位。 基本装备与补给价格 Basic Equipment and Supplies Costs ",
+    "excerpt": "装备角色 Equipping the Character 本章补充《玩家手册》的装备资料。新护甲与武器的 基本购置价格 见下表；护甲等级见“护甲”主题，各职业的武器熟练项、新武器重量及伤害、近战与远程武器的护甲等级命中调整见后续“武器”主题。金额沿用原书的金币 gp 、银币 sp 、琥珀金币 ep 单位。 基本装备与补给价格 Basic ",
     "sourceFile": "manuscript/ua/topics/equipping-character.md"
   },
   {
@@ -3587,7 +3596,7 @@
     "title": "护甲",
     "titleEn": "Armor",
     "group": "玩家部分",
-    "excerpt": "护甲等级表 Armor Class Table 此表按原书列出各种护甲和盾牌组合的 护甲等级（AC） 。数字越低，防护越强。 护甲配置 AC :--- :---: 无护甲 10 仅盾牌 9 皮甲或棉甲 8 皮甲＋盾牌、棉甲＋盾牌、镶钉皮甲或环甲 7 镶钉皮甲＋盾牌、环甲＋盾牌，或鳞甲 6 鳞甲＋盾牌、锁子甲，或精灵锁子甲 5 锁子甲＋盾牌",
+    "excerpt": "护甲 Armor 护甲等级表 Armor Class Table 此表按原书列出各种护甲和盾牌组合的 护甲等级（AC） 。数字越低，防护越强。 护甲配置 AC :--- :---: 无护甲 10 仅盾牌 9 皮甲或棉甲 8 皮甲＋盾牌、棉甲＋盾牌、镶钉皮甲或环甲 7 镶钉皮甲＋盾牌、环甲＋盾牌，或鳞甲 6 鳞甲＋盾牌、锁子甲，或精灵锁子甲",
     "sourceFile": "manuscript/ua/topics/armor.md"
   },
   {
@@ -3596,7 +3605,7 @@
     "title": "武器",
     "titleEn": "Weapons",
     "group": "玩家部分",
-    "excerpt": "以下各表沿用原书第 26–28 页的顺序，补充新武器及相关职业的熟练规则。重量用 金币重量 表示； 1–6 等记号表示伤害范围，并非骰子表达式。 武器熟练表 Weapon Proficiency Table 职业 初始熟练武器数 不熟练命中惩罚 获得新熟练项的等级间隔 :--- :---: :---: :---: 骑士 Cavalier ",
+    "excerpt": "武器 Weapons 以下各表沿用原书第 26–28 页的顺序，补充新武器及相关职业的熟练规则。重量用 金币重量 表示； 1–6 等记号表示伤害范围，并非骰子表达式。 武器熟练表 Weapon Proficiency Table 职业 初始熟练武器数 不熟练命中惩罚 获得新熟练项的等级间隔 :--- :---: :---: :---: 骑",
     "sourceFile": "manuscript/ua/topics/weapons.md"
   },
   {
@@ -3614,7 +3623,7 @@
     "title": "法术表",
     "titleEn": "Spell Tables",
     "group": "玩家部分",
-    "excerpt": "以下法术依原书的 职业→环级→编号 顺序列出。英文名供与原书逐项对照； 斜体 标出本书新增并详述的法术。法术表并不代替正文中的施法时间、范围、持续时间和效果说明。 - 牧师法术表 - 德鲁伊法术表 - 魔法师法术表 - 幻术师法术表",
+    "excerpt": "法术表 Spell Tables 以下法术依原书的 职业→环级→编号 顺序列出。英文名供与原书逐项对照； 斜体 标出本书新增并详述的法术。法术表并不代替正文中的施法时间、范围、持续时间和效果说明。 - 牧师法术表 - 德鲁伊法术表 - 魔法师法术表 - 幻术师法术表",
     "sourceFile": "manuscript/ua/topics/spell-tables.md"
   },
   {
@@ -3623,7 +3632,7 @@
     "title": "牧师法术表",
     "titleEn": "Cleric Spell Table",
     "group": "玩家部分",
-    "excerpt": "一至三环（原书第 28 页） 编号 一环 二环 三环 :---: :--- :--- :--- 1 祝福术 Bless 援助术 Aid 操纵死尸 Animate Dead 2 仪式术 Ceremony 卜筮术 Augury 暴雨术 Cloudburst 3 合祷术 Combine 圣歌 Chant 恒定光亮 Continual Light",
+    "excerpt": "牧师法术表 Clerics 一至三环（原书第 28 页） 编号 一环 二环 三环 :---: :--- :--- :--- 1 祝福术 Bless 援助术 Aid 操纵死尸 Animate Dead 2 仪式术 Ceremony 卜筮术 Augury 暴雨术 Cloudburst 3 合祷术 Combine 圣歌 Chant 恒定光亮 C",
     "sourceFile": "manuscript/ua/topics/cleric-spell-table.md"
   },
   {
@@ -3632,7 +3641,7 @@
     "title": "德鲁伊法术表",
     "titleEn": "Druid Spell Table",
     "group": "玩家部分",
-    "excerpt": "原书第 29 页把德鲁伊列为牧师职业的一种。下表沿用原书每环级的编号和顺序； 斜体 法术在本书另有详述，已见于《玩家手册》的法术沿用其通行译名。 一至三环 编号 一环 二环 三环 :---: :--- :--- :--- 1 动物友谊 Animal Friendship 树皮术 Barkskin 召雷术 Call Lightning 2 ",
+    "excerpt": "德鲁伊法术表 Druids (Clerics) 原书第 29 页把德鲁伊列为牧师职业的一种。下表沿用原书每环级的编号和顺序； 斜体 法术在本书另有详述，已见于《玩家手册》的法术沿用其通行译名。 一至三环 编号 一环 二环 三环 :---: :--- :--- :--- 1 动物友谊 Animal Friendship 树皮术 Barksk",
     "sourceFile": "manuscript/ua/topics/druid-spell-table.md"
   },
   {
@@ -3650,7 +3659,7 @@
     "title": "魔法师法术表",
     "titleEn": "Magic-User Spell Table",
     "group": "玩家部分",
-    "excerpt": "原书第 30–31 页的一至九环法术按编号逐项列出。 斜体 依原书标识本书另有详述的法术；第四环第 18 与第 20 行均印为 Massmorph ，此处照录并标注待校勘。 一至五环 编号 一环 二环 三环 四环 五环 :---: :--- :--- :--- :--- :--- 1 影响普通火焰 Affect Normal Fires ",
+    "excerpt": "魔法师法术表 Magic-Users, Spells 原书第 30–31 页的一至九环法术按编号逐项列出。 斜体 依原书标识本书另有详述的法术；第四环第 18 与第 20 行均印为 Massmorph ，此处照录并标注待校勘。 一至五环 编号 一环 二环 三环 四环 五环 :---: :--- :--- :--- :--- :--- 1 ",
     "sourceFile": "manuscript/ua/topics/magic-user-spell-table.md"
   },
   {
@@ -3659,7 +3668,7 @@
     "title": "幻术师法术表",
     "titleEn": "Illusionist Spell Table",
     "group": "玩家部分",
-    "excerpt": "原书第 31 页列出八种次级幻术小法术及一至七环法术。所有小法术与表中 斜体 法术在本书另有详述。 小法术与一至三环 编号 次级幻术小法术 一环 二环 三环 :---: :--- :--- :--- :--- 1 彩色光点 Colored Lights 声音幻象术 Audible Glamer 改变自身 Alter Self 恒定黑暗 C",
+    "excerpt": "幻术师法术表 Illusionists (Magic-Users) 原书第 31 页列出八种次级幻术小法术及一至七环法术。所有小法术与表中 斜体 法术在本书另有详述。 小法术与一至三环 编号 次级幻术小法术 一环 二环 三环 :---: :--- :--- :--- :--- 1 彩色光点 Colored Lights 声音幻象术 Aud",
     "sourceFile": "manuscript/ua/topics/illusionist-spell-table.md"
   },
   {
@@ -3677,7 +3686,7 @@
     "title": "一环法术",
     "titleEn": "First Level Spells",
     "group": "玩家部分",
-    "excerpt": "仪式术 Ceremony（祈唤系 Invocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 接触 施法时间 1 小时 持续时间 永久 豁免 特殊 影响范围 一名生物、一件物品或一片区域；见下文 仪式术在宗教组织中有多种用途，施法者等级决定可主持哪一种。仪式完成后不留",
+    "excerpt": "一环法术 First Level Spells 仪式术 Ceremony（祈唤系 Invocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 接触 施法时间 1 小时 持续时间 永久 豁免 特殊 影响范围 一名生物、一件物品或一片区域；见下文 仪式术在宗教组织中有多种",
     "sourceFile": "manuscript/ua/topics/cleric-spells-1.md"
   },
   {
@@ -3686,7 +3695,7 @@
     "title": "二环法术",
     "titleEn": "Second Level Spells",
     "group": "玩家部分",
-    "excerpt": "援助术 Aid（死灵／咒法系 Necromantic–Conjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 接触 施法时间 4 段 持续时间 1 轮＋每级 1 轮 豁免 无 影响范围 一人 受术者获得 祝福术 的好处，并额外得到 1–8 点生命值。祝福与这些生",
+    "excerpt": "二环法术 Second Level Spells 援助术 Aid（死灵／咒法系 Necromantic–Conjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 接触 施法时间 4 段 持续时间 1 轮＋每级 1 轮 豁免 无 影响范围 一人 受术者获得 祝福术 ",
     "sourceFile": "manuscript/ua/topics/cleric-spells-2.md"
   },
   {
@@ -3695,7 +3704,7 @@
     "title": "三环法术",
     "titleEn": "Third Level Spells",
     "group": "玩家部分",
-    "excerpt": "暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 5 段 持续时间 1 轮 豁免 无；特殊情况见下文 影响范围 直径 3″、最高 6″ 的圆柱 此术使范围内的大气瞬间将水汽凝成大颗雨滴，形成猛烈骤雨",
+    "excerpt": "三环法术 Third Level Spells 暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 5 段 持续时间 1 轮 豁免 无；特殊情况见下文 影响范围 直径 3″、最高 6″ 的圆柱 此术使",
     "sourceFile": "manuscript/ua/topics/cleric-spells-3.md"
   },
   {
@@ -3704,7 +3713,7 @@
     "title": "四环法术",
     "titleEn": "Fourth Level Spells",
     "group": "玩家部分",
-    "excerpt": "驱逐术 Abjure（防护系 Abjuration；逆向为咒法／召唤系 Conjuration/Summoning） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 4 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 轮 持续时间 永久 豁免 成功则无效；见下文 影响范围 一名生物 牧师试图将一名来自其他位面的",
+    "excerpt": "四环法术 Fourth Level Spells 驱逐术 Abjure（防护系 Abjuration；逆向为咒法／召唤系 Conjuration/Summoning） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 4 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 轮 持续时间 永久 豁免 成功则无效；见下文",
     "sourceFile": "manuscript/ua/topics/cleric-spells-4.md"
   },
   {
@@ -3713,7 +3722,7 @@
     "title": "五环法术",
     "titleEn": "Fifth Level Spells",
     "group": "玩家部分",
-    "excerpt": "空中行走 Air Walk（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 接触 施法时间 1 段 持续时间 6 回合＋每级 1 回合 豁免 无 影响范围 一名生物 受术者可像踏在坚实地面上一样在空中行走。上升如同爬坡：以 45° 角上升时移动力减",
+    "excerpt": "五环法术 Fifth Level Spells 空中行走 Air Walk（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 接触 施法时间 1 段 持续时间 6 回合＋每级 1 回合 豁免 无 影响范围 一名生物 受术者可像踏在坚实地面上一样在空中",
     "sourceFile": "manuscript/ua/topics/cleric-spells-5.md"
   },
   {
@@ -3722,7 +3731,7 @@
     "title": "六环法术",
     "titleEn": "Sixth Level Spells",
     "group": "玩家部分",
-    "excerpt": "禁制术 Forbiddance（防护系 Abjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 3″ 施法时间 6 轮 持续时间 永久 豁免 特殊 影响范围 每级 6 立方″ 此术只能用来保护已经圣化的区域（见一环 仪式术 ）。入侵者能否进入，取决于其律法／混乱倾",
+    "excerpt": "六环法术 Sixth Level Spells 禁制术 Forbiddance（防护系 Abjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 3″ 施法时间 6 轮 持续时间 永久 豁免 特殊 影响范围 每级 6 立方″ 此术只能用来保护已经圣化的区域（见一环 ",
     "sourceFile": "manuscript/ua/topics/cleric-spells-6.md"
   },
   {
@@ -3731,7 +3740,7 @@
     "title": "七环法术",
     "titleEn": "Seventh Level Spells",
     "group": "玩家部分",
-    "excerpt": "强制履约 Exaction（塑能／变化系 Evocation–Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 轮 持续时间 特殊 豁免 特殊 影响范围 一名生物 牧师当面要求一名强大的异位面生物履行某项职务或使命，例如天使使者或有专名的",
+    "excerpt": "七环法术 Seventh Level Spells 强制履约 Exaction（塑能／变化系 Evocation–Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 轮 持续时间 特殊 豁免 特殊 影响范围 一名生物 牧师当面要求一名强大的",
     "sourceFile": "manuscript/ua/topics/cleric-spells-7.md"
   },
   {
@@ -3749,7 +3758,7 @@
     "title": "一环法术",
     "titleEn": "First Level Spells",
     "group": "玩家部分",
-    "excerpt": "仪式术 Ceremony（祈唤系 Invocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 接触 施法时间 1 小时 持续时间 永久 豁免 特殊 影响范围 一名生物、一件物品或一片区域 德鲁伊的 仪式术 与牧师的同名法术相似，在德鲁伊阶层内有多种用途。施法后不留下魔",
+    "excerpt": "一环法术 First Level Spells 仪式术 Ceremony（祈唤系 Invocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 接触 施法时间 1 小时 持续时间 永久 豁免 特殊 影响范围 一名生物、一件物品或一片区域 德鲁伊的 仪式术 与牧师的同名法",
     "sourceFile": "manuscript/ua/topics/druid-spells-1.md"
   },
   {
@@ -3758,7 +3767,7 @@
     "title": "二环法术",
     "titleEn": "Second Level Spells",
     "group": "玩家部分",
-    "excerpt": "火焰之刃 Flame Blade（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 0 施法时间 3 段 持续时间 每级 1 轮 豁免 无 影响范围 长 3 尺的剑形火刃 德鲁伊手中迸出一束炽热红焰，如弯刀般挥舞。命中造成 5–8 点伤害；若目标是不死",
+    "excerpt": "二环法术 Second Level Spells 火焰之刃 Flame Blade（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 0 施法时间 3 段 持续时间 每级 1 轮 豁免 无 影响范围 长 3 尺的剑形火刃 德鲁伊手中迸出一束炽热红焰，如",
     "sourceFile": "manuscript/ua/topics/druid-spells-2.md"
   },
   {
@@ -3767,7 +3776,7 @@
     "title": "三环法术",
     "titleEn": "Third Level Spells",
     "group": "玩家部分",
-    "excerpt": "暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 5 段 持续时间 1 轮 豁免 无；特殊情况见下文 影响范围 直径 3″、最高 6″ 的圆柱 基本效果与牧师三环暴雨术相同，但不能藉此术引发闪电，也",
+    "excerpt": "三环法术 Third Level Spells 暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 5 段 持续时间 1 轮 豁免 无；特殊情况见下文 影响范围 直径 3″、最高 6″ 的圆柱 基本效",
     "sourceFile": "manuscript/ua/topics/druid-spells-3.md"
   },
   {
@@ -3776,7 +3785,7 @@
     "title": "五环法术",
     "titleEn": "Fifth Level Spells",
     "group": "玩家部分",
-    "excerpt": "原书在三环详述后直接进入本环；四环完整法术名单见德鲁伊法术表。 月光术 Moonbeam（塑能／变化系 Evocation–Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 7 段 持续时间 每级 1 轮 豁免 无 影响范围 直径 1″",
+    "excerpt": "五环法术 Fifth Level Spells 原书在三环详述后直接进入本环；四环完整法术名单见德鲁伊法术表。 月光术 Moonbeam（塑能／变化系 Evocation–Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 7 段 持续时",
     "sourceFile": "manuscript/ua/topics/druid-spells-5.md"
   },
   {
@@ -3785,7 +3794,7 @@
     "title": "六环法术",
     "titleEn": "Sixth Level Spells",
     "group": "玩家部分",
-    "excerpt": "活橡树术 Liveoak（附魔系 Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 接触 施法时间 1 回合 持续时间 每级 1 天 豁免 无 影响范围 一棵橡树 德鲁伊选一棵健康橡树施法，让它担任守卫。同一名德鲁伊同时只能维持一棵 活橡树 ，旧法术有效时",
+    "excerpt": "六环法术 Sixth Level Spells 活橡树术 Liveoak（附魔系 Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 接触 施法时间 1 回合 持续时间 每级 1 天 豁免 无 影响范围 一棵橡树 德鲁伊选一棵健康橡树施法，让它担任守卫。同一",
     "sourceFile": "manuscript/ua/topics/druid-spells-6.md"
   },
   {
@@ -3794,7 +3803,7 @@
     "title": "七环法术",
     "titleEn": "Seventh Level Spells",
     "group": "玩家部分",
-    "excerpt": "变化长杖 Changestaff（塑能／附魔系 Evocation–Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势、材料 距离 接触 施法时间 3 段 持续时间 特殊 豁免 无 影响范围 德鲁伊的长杖 德鲁伊把一根死木长杖变成最大体型的树人。首先必须找到过去 24 ",
+    "excerpt": "七环法术 Seventh Level Spells 变化长杖 Changestaff（塑能／附魔系 Evocation–Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势、材料 距离 接触 施法时间 3 段 持续时间 特殊 豁免 无 影响范围 德鲁伊的长杖 德鲁伊把一根",
     "sourceFile": "manuscript/ua/topics/druid-spells-7.md"
   },
   {
@@ -3812,7 +3821,7 @@
     "title": "小法术",
     "titleEn": "Cantrips",
     "group": "玩家部分",
-    "excerpt": "小法术是魔法师与幻术师学徒在漫长训练中习得并使用的微小法术。零级的三个阶段及每日使用次数如下；小法术和高环法术一样，必须事先记忆。 零级阶段 经验值 每日小法术 :--- :---: :---: 初学者 Neophyte −2,000 至 −1,001 1 入门者 Initiate −1,000 至 −501 2 学徒 Apprentic",
+    "excerpt": "魔法师小法术 Magic-User Spells: Cantrips 小法术是魔法师与幻术师学徒在漫长训练中习得并使用的微小法术。零级的三个阶段及每日使用次数如下；小法术和高环法术一样，必须事先记忆。 零级阶段 经验值 每日小法术 :--- :---: :---: 初学者 Neophyte −2,000 至 −1,001 1 入门者 In",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips.md"
   },
   {
@@ -3821,7 +3830,7 @@
     "title": "实用小法术",
     "titleEn": "Useful Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下 20 项依原书第 45–47 页顺序排列。除各项所列差异外，均遵守小法术通则。 凉意 Chill（塑能系 Evocation） 影响范围： 1 尺立方。 施法时间： 1/2 段。 使无生命的液体或固体瞬间降温约 40°F，但最低只降至冰点；随后缓慢回到原温。言语成分是轻轻吹口哨，姿势是拇指向下点。 清洁 Clean（防护系 Abju",
+    "excerpt": "实用小法术 Useful Cantrips 以下 20 项依原书第 45–47 页顺序排列。除各项所列差异外，均遵守小法术通则。 凉意 Chill（塑能系 Evocation） 影响范围： 1 尺立方。 施法时间： 1/2 段。 使无生命的液体或固体瞬间降温约 40°F，但最低只降至冰点；随后缓慢回到原温。言语成分是轻轻吹口哨，姿势是拇指",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-useful.md"
   },
   {
@@ -3830,7 +3839,7 @@
     "title": "反向小法术",
     "titleEn": "Reversed Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下 12 项依原书第 47–48 页顺序排列。除各项所列差异外，均遵守小法术通则。 凝结 Curdle（附魔系 Enchantment） 影响范围： 一件物品。 施法时间： 1/6 段。 此术不限于凝结牛奶，也会加速多种食物、饮料的腐败或植物的枯萎，但达不到 腐败食粮与饮水 的效果。它与 保鲜 大体相似，效果却是永久的。施法者发出作呕声",
+    "excerpt": "反向小法术 Reversed Cantrips 以下 12 项依原书第 47–48 页顺序排列。除各项所列差异外，均遵守小法术通则。 凝结 Curdle（附魔系 Enchantment） 影响范围： 一件物品。 施法时间： 1/6 段。 此术不限于凝结牛奶，也会加速多种食物、饮料的腐败或植物的枯萎，但达不到 腐败食粮与饮水 的效果。它与 ",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-reversed.md"
   },
   {
@@ -3839,7 +3848,7 @@
     "title": "手法小法术",
     "titleEn": "Legerdemain Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下六项依原书第 48–49 页顺序排列；原书在双栏中先排左栏的 变换 ，再排右栏的 分心 、 隐藏 、 消音 、 藏掌 ，最后续至下一页的 展示 。除各项所列差异外，均遵守小法术通则。 变换 Change（变化系 Alteration） 影响范围： 一件物品。 施法时间： 1/10 段。 将一个小物变成另一个，但只对动物、植物类目标有效",
+    "excerpt": "手法小法术 Legerdemain Cantrips 以下六项依原书第 48–49 页顺序排列；原书在双栏中先排左栏的 变换 ，再排右栏的 分心 、 隐藏 、 消音 、 藏掌 ，最后续至下一页的 展示 。除各项所列差异外，均遵守小法术通则。 变换 Change（变化系 Alteration） 影响范围： 一件物品。 施法时间： 1/10 ",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-legerdemain.md"
   },
   {
@@ -3848,7 +3857,7 @@
     "title": "影响人物的小法术",
     "titleEn": "Person-Affecting Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下十项依原书第 49 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 打嗝 Belch（塑能系 Evocation） 影响范围： 一人。 施法时间： 1/10 段。 使目标不由自主地打嗝。豁免只决定响度：失败便大声打嗝，成功则声音较轻、沉闷。施法者自己几乎无声地打一个嗝，同时用手压住横膈膜。 眨眼 Blink（塑能系 Evocat",
+    "excerpt": "影响人物的小法术 Person-Affecting Cantrips 以下十项依原书第 49 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 打嗝 Belch（塑能系 Evocation） 影响范围： 一人。 施法时间： 1/10 段。 使目标不由自主地打嗝。豁免只决定响度：失败便大声打嗝，成功则声音较轻、沉闷。施法者自己几乎无声地",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-person.md"
   },
   {
@@ -3857,7 +3866,7 @@
     "title": "个人小法术",
     "titleEn": "Personal Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下十项依原书第 50–51 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 蜜蜂 Bee（召唤系 Summoning） 影响范围： 一只蜜蜂。 施法时间： 1/2 段。 从不知何处召来一只蜜蜂，数秒内出现在施法者注视的一点，距其最多 1″ 。蜜蜂已被激怒，若落在活物身上，有 90% 概率蜇它；若目标平常会对蜂蜇有剧烈反应，此时自然",
+    "excerpt": "个人小法术 Personal Cantrips 以下十项依原书第 50–51 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 蜜蜂 Bee（召唤系 Summoning） 影响范围： 一只蜜蜂。 施法时间： 1/2 段。 从不知何处召来一只蜜蜂，数秒内出现在施法者注视的一点，距其最多 1″ 。蜜蜂已被激怒，若落在活物身上，有 90% ",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-personal.md"
   },
   {
@@ -3866,7 +3875,7 @@
     "title": "惊扰声音小法术",
     "titleEn": "Haunting-Sound Cantrips",
     "group": "玩家部分",
-    "excerpt": "以下八项依原书第 51 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 吱嘎声 Creak（塑能系 Evocation） 影响范围： 特殊。 施法时间： 1/6 段。 发出仿佛锈蚀铰链的门缓缓打开，或有人踩过吱嘎地板的声响。开门声持续 1/3 段 ；脚步般的地板声持续 1/2 段 ，听起来可移动最多 10 尺 。施法者喉中轻轻吱嘎，",
+    "excerpt": "惊扰声音小法术 Haunting-Sound Cantrips 以下八项依原书第 51 页双栏顺序排列。除各项所列差异外，均遵守小法术通则。 吱嘎声 Creak（塑能系 Evocation） 影响范围： 特殊。 施法时间： 1/6 段。 发出仿佛锈蚀铰链的门缓缓打开，或有人踩过吱嘎地板的声响。开门声持续 1/3 段 ；脚步般的地板声持续 ",
     "sourceFile": "manuscript/ua/topics/magic-user-cantrips-haunting.md"
   },
   {
@@ -3875,7 +3884,7 @@
     "title": "一环法术",
     "titleEn": "First Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下十项依原书第 51–53 页顺序排列；页中的“警报术”从小法术之后起始。斜体新增项与魔法师法术表对应。 警报术 Alarm（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 轮 持续时间 2–8 回合＋每级 1 回合 豁免 无 ",
+    "excerpt": "魔法师一环法术 First Level Spells 以下十项依原书第 51–53 页顺序排列；页中的“警报术”从小法术之后起始。斜体新增项与魔法师法术表对应。 警报术 Alarm（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 ",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-1.md"
   },
   {
@@ -3884,7 +3893,7 @@
     "title": "二环法术",
     "titleEn": "Second Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下十二项依原书第 53–55 页顺序排列，与魔法师法术表的新增项对应。 绑缚术 Bind（变化／附魔系 Alteration/Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 3″ 施法时间 2 段 持续时间 每级 1 轮 豁免 无 影响范围 特殊 令非",
+    "excerpt": "魔法师二环法术 Second Level Spells 以下十二项依原书第 53–55 页顺序排列，与魔法师法术表的新增项对应。 绑缚术 Bind（变化／附魔系 Alteration/Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势、材料 距离 3″ 施法时间 2 段",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-2.md"
   },
   {
@@ -3893,7 +3902,7 @@
     "title": "三环法术",
     "titleEn": "Third Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下八项依原书第 55–56 页顺序排列，与魔法师法术表的新增项对应。 暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 3 段 持续时间 1 轮 豁免 无（及特殊情况） 影响范围 直径 3″、最高",
+    "excerpt": "魔法师三环法术 Third Level Spells 以下八项依原书第 55–56 页顺序排列，与魔法师法术表的新增项对应。 暴雨术 Cloudburst（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势、材料 距离 每级 1″ 施法时间 3 段 持续时间 1 ",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-3.md"
   },
   {
@@ -3902,7 +3911,7 @@
     "title": "四环法术",
     "titleEn": "Fourth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下八项依原书第 56–58 页详述顺序排列。法术表另将 巫师之眼 Wizard Eye 印为本书有详述的新项，但本节在 紫外视觉 后直接进入五环，并无该法术说明；此处不补写其他版本的规则。 解除幻象 Dispel Illusion（防护系 Abjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 4 ",
+    "excerpt": "魔法师四环法术 Fourth Level Spells 以下八项依原书第 56–58 页详述顺序排列。法术表另将 巫师之眼 Wizard Eye 印为本书有详述的新项，但本节在 紫外视觉 后直接进入五环，并无该法术说明；此处不补写其他版本的规则。 解除幻象 Dispel Illusion（防护系 Abjuration） 项目 数值 项目 ",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-4.md"
   },
   {
@@ -3911,7 +3920,7 @@
     "title": "五环法术",
     "titleEn": "Fifth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下六项依原书第 58–59 页详述顺序排列。 传讯术 Sending 虽未在前面的法术表中用斜体标为新增详述，原书此处仍给出完整规则，故照录。 回避术 Avoidance（防护／变化系 Abjuration/Alteration，可逆向） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材",
+    "excerpt": "魔法师五环法术 Fifth Level Spells 以下六项依原书第 58–59 页详述顺序排列。 传讯术 Sending 虽未在前面的法术表中用斜体标为新增详述，原书此处仍给出完整规则，故照录。 回避术 Avoidance（防护／变化系 Abjuration/Alteration，可逆向） 项目 数值 项目 数值 :--- :--- ",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-5.md"
   },
   {
@@ -3920,7 +3929,7 @@
     "title": "六环法术",
     "titleEn": "Sixth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下六项依原书第 59–61 页详述顺序排列。末项 化水为尘 沿用本书德鲁伊版规则，但施法时间与材料有别。 连环闪电 Chain Lightning（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 4″＋每级 1/2″ 施法时间 6 段 持续时间 瞬",
+    "excerpt": "魔法师六环法术 Sixth Level Spells 以下六项依原书第 59–61 页详述顺序排列。末项 化水为尘 沿用本书德鲁伊版规则，但施法时间与材料有别。 连环闪电 Chain Lightning（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-6.md"
   },
   {
@@ -3929,7 +3938,7 @@
     "title": "七环法术",
     "titleEn": "Seventh Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下八项依原书第 61–63 页详述顺序排列；第 61 页的法术插图置于 力牢术 后，保留原裁片与清晰修复版。 放逐术 Banishment（防护／塑能系 Abjuration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势、材料 距离 2″ 施法时间 7 段 持续时间",
+    "excerpt": "魔法师七环法术 Seventh Level Spells 以下八项依原书第 61–63 页详述顺序排列；第 61 页的法术插图置于 力牢术 后，保留原裁片与清晰修复版。 放逐术 Banishment（防护／塑能系 Abjuration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-7.md"
   },
   {
@@ -3938,7 +3947,7 @@
     "title": "八环法术",
     "titleEn": "Eighth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项按原书印刷第 63–64 页顺序译录。原书在 强求术 的数值栏只列言语、姿势，正文却又规定材料成分；两处均照录。 束缚术 Binding（附魔／塑能系 Enchantment-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 8 法术成分 言语、姿势、材料 距离 1″ 施法时间 特殊 持续",
+    "excerpt": "魔法师八环法术 Eighth Level Spells 以下四项按原书印刷第 63–64 页顺序译录。原书在 强求术 的数值栏只列言语、姿势，正文却又规定材料成分；两处均照录。 束缚术 Binding（附魔／塑能系 Enchantment-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 8 法术",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-8.md"
   },
   {
@@ -3947,7 +3956,7 @@
     "title": "九环法术",
     "titleEn": "Ninth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项依原书印刷第 65 页详述顺序排列。 救援术 是魔法师版本，传送与逆向召唤的限制和牧师版本略有不同。 晶化脆裂 Crystalbrittle（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 9 法术成分 言语、姿势 距离 接触 施法时间 9 段 持续时间 永久 豁免 特殊 影响",
+    "excerpt": "魔法师九环法术 Ninth Level Spells 以下四项依原书印刷第 65 页详述顺序排列。 救援术 是魔法师版本，传送与逆向召唤的限制和牧师版本略有不同。 晶化脆裂 Crystalbrittle（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 9 法术成分 言语、姿势 距离 接",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-9.md"
   },
   {
@@ -3965,7 +3974,7 @@
     "title": "幻术师专属小法术",
     "titleEn": "Minor Illusion Cantrips",
     "group": "玩家部分",
-    "excerpt": "幻术师及见习幻术师同样遵循魔法师小法术的通用规则，也能使用其中列出的魔法师小法术。以下八项为原书印刷第 65–66 页另外列出的 幻术师专属 小法术。 彩色光点 Colored Lights（变化系 Alteration） 影响范围 特殊 施法时间 1/2 段 :--- :--- :--- :--- 造出一枚或多枚柔和色彩的光球：可以是一",
+    "excerpt": "幻术师专属小法术 Minor Illusion Cantrips 幻术师及见习幻术师同样遵循魔法师小法术的通用规则，也能使用其中列出的魔法师小法术。以下八项为原书印刷第 65–66 页另外列出的 幻术师专属 小法术。 彩色光点 Colored Lights（变化系 Alteration） 影响范围 特殊 施法时间 1/2 段 :--- :",
     "sourceFile": "manuscript/ua/topics/illusionist-cantrips.md"
   },
   {
@@ -3974,7 +3983,7 @@
     "title": "一环法术",
     "titleEn": "First Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项按原书印刷第 66–67 页详述顺序排列。 彩色法球 Chromatic Orb（变化／塑能系 Alteration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 姿势、材料 距离 0；可投至 3″ 施法时间 1 段 持续时间 特殊 豁免 特殊 影响范围 一个生物 幻术师",
+    "excerpt": "幻术师一环法术 First Level Spells 以下四项按原书印刷第 66–67 页详述顺序排列。 彩色法球 Chromatic Orb（变化／塑能系 Alteration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 姿势、材料 距离 0；可投至 3″ 施法时间 1 段 ",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-1.md"
   },
   {
@@ -3983,7 +3992,7 @@
     "title": "二环法术",
     "titleEn": "Second Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项依原书印刷第 67–68 页详述顺序排列。 改变自身 Alter Self（变化／幻术系 Alteration/Illusion） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势 距离 0 施法时间 2 段 持续时间 3–12 轮＋每级 2 轮 豁免 无 影响范围 幻术师本人 类似 ",
+    "excerpt": "幻术师二环法术 Second Level Spells 以下四项依原书印刷第 67–68 页详述顺序排列。 改变自身 Alter Self（变化／幻术系 Alteration/Illusion） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 2 法术成分 言语、姿势 距离 0 施法时间 2 段 持续时间 3–12 ",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-2.md"
   },
   {
@@ -3992,7 +4001,7 @@
     "title": "三环法术",
     "titleEn": "Third Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项按原书印刷第 68–69 页详述顺序排列。 幻影坐骑 的数值栏列有材料成分，但正文没有说明具体材料，译文保留这一缺漏。 蒙骗术 Delude（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势 距离 0 施法时间 3 段 持续时间 每级 1 回合 豁免 成",
+    "excerpt": "幻术师三环法术 Third Level Spells 以下四项按原书印刷第 68–69 页详述顺序排列。 幻影坐骑 的数值栏列有材料成分，但正文没有说明具体材料，译文保留这一缺漏。 蒙骗术 Delude（变化系 Alteration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 3 法术成分 言语、姿势 距离 0",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-3.md"
   },
   {
@@ -4001,7 +4010,7 @@
     "title": "四环法术",
     "titleEn": "Fourth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项依原书印刷第 69 页详述顺序排列。 解除魔法 Dispel Magic（防护系 Abjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 4 法术成分 言语、姿势 距离 9″ 施法时间 4 段 持续时间 永久 豁免 无 影响范围 边长 3″ 的立方体 基本等同牧师三环 解除魔法 ，但幻术师须以",
+    "excerpt": "幻术师四环法术 Fourth Level Spells 以下四项依原书印刷第 69 页详述顺序排列。 解除魔法 Dispel Magic（防护系 Abjuration） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 4 法术成分 言语、姿势 距离 9″ 施法时间 4 段 持续时间 永久 豁免 无 影响范围 边长 3",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-4.md"
   },
   {
@@ -4010,7 +4019,7 @@
     "title": "五环法术",
     "titleEn": "Fifth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项依原书印刷第 69–70 页详述顺序排列。 高级幻象 Advanced Illusion（幻术／幻影系 Illusion/Phantasm） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 6″＋每级 1″ 施法时间 5 段 持续时间 每级 1 轮 豁免 特殊 影响范围 ",
+    "excerpt": "幻术师五环法术 Fifth Level Spells 以下四项依原书印刷第 69–70 页详述顺序排列。 高级幻象 Advanced Illusion（幻术／幻影系 Illusion/Phantasm） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 5 法术成分 言语、姿势、材料 距离 6″＋每级 1″ 施法时间 ",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-5.md"
   },
   {
@@ -4019,7 +4028,7 @@
     "title": "六环法术",
     "titleEn": "Sixth Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下四项依原书印刷第 70–71 页详述顺序排列。第 70 页的同心线幻术图置于 幻象群 后，第 71 页的场景插图也按原页保留。 死亡雾 Death Fog（变化／塑能系 Alteration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 6 法术成分 言语、姿势、材料 距离 3″ 施法时间",
+    "excerpt": "幻术师六环法术 Sixth Level Spells 以下四项依原书印刷第 70–71 页详述顺序排列。第 70 页的同心线幻术图置于 幻象群 后，第 71 页的场景插图也按原页保留。 死亡雾 Death Fog（变化／塑能系 Alteration-Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-6.md"
   },
   {
@@ -4028,7 +4037,7 @@
     "title": "七环法术",
     "titleEn": "Seventh Level Spells",
     "group": "玩家部分",
-    "excerpt": "以下两项为原书印刷第 71 页的新增详述。幻术师专属小法术与一至七环新增法术的正文至此按原书顺序录入。 阴影行走 Shadow Walk（幻术／附魔系 Illusion-Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言语、姿势 距离 接触 施法时间 1 段 持续时间 每级 6",
+    "excerpt": "幻术师七环法术 Seventh Level Spells 以下两项为原书印刷第 71 页的新增详述。幻术师专属小法术与一至七环新增法术的正文至此按原书顺序录入。 阴影行走 Shadow Walk（幻术／附魔系 Illusion-Enchantment） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 7 法术成分 言",
     "sourceFile": "manuscript/ua/topics/illusionist-spells-7.md"
   },
   {
@@ -4100,7 +4109,7 @@
     "title": "新武器说明（一）",
     "titleEn": "Descriptions of New Weapon Types, Part I",
     "group": "地下城主部分",
-    "excerpt": "以下依原书印刷第 77 页顺序，译录回索棍至套索；捕人叉和后续武器见续篇。 回索棍 Aklys 带配重的短棍，棍尾系结实皮索。虽可手持击打，主要用途是投掷，随后拉索收回。每次命中有 5% 几率缠住目标，亦即命中后掷 d20 得 20 。皮索约 10 尺 长，通常绑在使用者腕部或护手上。若目标不大于人类体型，使用者可将其拉下坐骑，或使双足者",
+    "excerpt": "新武器说明（一） Descriptions of New Weapon Types, Part I 以下依原书印刷第 77 页顺序，译录回索棍至套索；捕人叉和后续武器见续篇。 回索棍 Aklys 带配重的短棍，棍尾系结实皮索。虽可手持击打，主要用途是投掷，随后拉索收回。每次命中有 5% 几率缠住目标，亦即命中后掷 d20 得 20 。皮索",
     "sourceFile": "manuscript/ua/topics/dm-new-weapons-77.md"
   },
   {
@@ -4109,7 +4118,7 @@
     "title": "新武器说明（二）",
     "titleEn": "Descriptions of New Weapon Types, Part II",
     "group": "地下城主部分",
-    "excerpt": "承接第 77 页的武器，以下译录原书印刷第 77–78 页的捕人叉至长鞭。原页的持鞭插图保留于本节。 捕人叉 Man Catcher 有两支弯叉的长柄武器，可围住约人类体型的类人生物。比人类大或小 50% 以上 者不受影响：不是叉围不住，就是能从叉间滑出。简单型两叉末端向内弯，允许目标进入，却难以退出，尤其在使用者操纵时。复杂型有可活动叉",
+    "excerpt": "新武器说明（二） Descriptions of New Weapon Types, Part II 承接第 77 页的武器，以下译录原书印刷第 77–78 页的捕人叉至长鞭。原页的持鞭插图保留于本节。 捕人叉 Man Catcher 有两支弯叉的长柄武器，可围住约人类体型的类人生物。比人类大或小 50% 以上 者不受影响：不是叉围不住，",
     "sourceFile": "manuscript/ua/topics/dm-new-weapons-78.md"
   },
   {
@@ -4118,7 +4127,7 @@
     "title": "角色法术",
     "titleEn": "Character Spells",
     "group": "地下城主部分",
-    "excerpt": "地下城主部分按原书印刷第 79–80 页说明魔法师与幻术师取得小法术、初始法术书、记载与直接施法，以及为他人施法的费用。见下列分节。",
+    "excerpt": "角色法术 Character Spells 地下城主部分按原书印刷第 79–80 页说明魔法师与幻术师取得小法术、初始法术书、记载与直接施法，以及为他人施法的费用。见下列分节。",
     "sourceFile": "manuscript/ua/topics/dm-character-spells.md"
   },
   {
@@ -4127,7 +4136,7 @@
     "title": "魔法师取得小法术",
     "titleEn": "Acquisition of Cantrips, Magic-Users",
     "group": "地下城主部分",
-    "excerpt": "原书印刷第 79 页。一般小法术的已知数量与种类依本书第 30 页的魔法师小法术表随机决定。 实用组 例外：学徒每点智力可选一种实用小法术，从 20 项中自行挑选，用于减轻见习事务的劳累。 其他五组 可知数量，随机决定 :--- :---: 反向组 Reversed 2–8 手法组 Legerdemain 2–5 影响人物组 Person",
+    "excerpt": "魔法师取得小法术 Acquisition of Cantrips, Magic-Users 原书印刷第 79 页。一般小法术的已知数量与种类依本书第 30 页的魔法师小法术表随机决定。 实用组 例外：学徒每点智力可选一种实用小法术，从 20 项中自行挑选，用于减轻见习事务的劳累。 其他五组 可知数量，随机决定 :--- :---: 反向组",
     "sourceFile": "manuscript/ua/topics/dm-magic-user-cantrips.md"
   },
   {
@@ -4136,7 +4145,7 @@
     "title": "魔法师法术书",
     "titleEn": "Magic-User Spell Books",
     "group": "地下城主部分",
-    "excerpt": "原书印刷第 79–80 页。这里大部分规则也适用于幻术师；两者区别另见幻术师法术书。学徒毕业时必有一本 一环法术书 ，也可能有一本 小法术书 ，取决于地下城主与玩家的选择。 种类与容量 法术环位 标准法术书容量 旅行法术书容量 :--- ---: ---: 小法术 36 项 9 项 一至三环 24 项 6 项 四至六环 16 项 4 项 ",
+    "excerpt": "魔法师法术书 Magic-User Spell Books 原书印刷第 79–80 页。这里大部分规则也适用于幻术师；两者区别另见幻术师法术书。学徒毕业时必有一本 一环法术书 ，也可能有一本 小法术书 ，取决于地下城主与玩家的选择。 种类与容量 法术环位 标准法术书容量 旅行法术书容量 :--- ---: ---: 小法术 36 项 9 ",
     "sourceFile": "manuscript/ua/topics/dm-magic-user-spellbooks.md"
   },
   {
@@ -4145,7 +4154,7 @@
     "title": "幻术师取得法术、小法术与法术书",
     "titleEn": "Illusionist Spells and Spell Books",
     "group": "地下城主部分",
-    "excerpt": "以下依原书印刷第 80 页译录。 初始法术 Acquisition of Illusionist Spells 幻术师起始同魔法师一样有一本容量有限的法术书。下表分 攻击、防御、杂项 三组，初始人物每组各得 一项 ；另 必定拥有阅读幻术魔法 。 掷骰 攻击法术 Offensive 防御法术 Defensive 杂项法术 Miscellan",
+    "excerpt": "幻术师取得法术、小法术与法术书 Illusionist Spells and Spell Books 以下依原书印刷第 80 页译录。 初始法术 Acquisition of Illusionist Spells 幻术师起始同魔法师一样有一本容量有限的法术书。下表分 攻击、防御、杂项 三组，初始人物每组各得 一项 ；另 必定拥有阅读幻术魔",
     "sourceFile": "manuscript/ua/topics/dm-illusionist-spells.md"
   },
   {
@@ -4172,7 +4181,7 @@
     "title": "水下施法",
     "titleEn": "Underwater Spell Use",
     "group": "地下城主部分",
-    "excerpt": "以下依原书印刷第 81–82 页译录。带 的法术虽然通常无法在水下使用，但可以在 空气水泡 （Airy Water）法术的范围内施展并生效。 水下无法使用的法术 施法职业 环位 法术 :--- :--- :--- 牧师 一环 降水术 Precipitation 牧师 二环 尘旋风 Dust Devil 牧师 三环 暴雨术 Cloudbur",
+    "excerpt": "冒险：水下施法 Underwater Spell Use 以下依原书印刷第 81–82 页译录。带 的法术虽然通常无法在水下使用，但可以在 空气水泡 （Airy Water）法术的范围内施展并生效。 水下无法使用的法术 施法职业 环位 法术 :--- :--- :--- 牧师 一环 降水术 Precipitation 牧师 二环 尘旋风 ",
     "sourceFile": "manuscript/ua/topics/dm-underwater-spells.md"
   },
   {
@@ -4181,7 +4190,7 @@
     "title": "战斗：黑暗的影响",
     "titleEn": "Combat: Effects of Darkness",
     "group": "地下城主部分",
-    "excerpt": "原书印刷第 82 页说明，在黑暗或照明不足的环境中进行战斗时，按目标可见程度裁定： 1. 完全看不见 对手：如攻击隐形目标，命中掷骰 −4 。 2. 勉强辨认出 对手，例如只见模糊轮廓，或背景前更深的一团形状：命中掷骰 −2 。 3. 日光下，以及火把、提灯、 光亮术 、 恒久光亮术 等通常照明条件下，战斗不受照明影响。 4. 对在黑暗中",
+    "excerpt": "战斗：黑暗的影响 Effects of Darkness 原书印刷第 82 页说明，在黑暗或照明不足的环境中进行战斗时，按目标可见程度裁定： 1. 完全看不见 对手：如攻击隐形目标，命中掷骰 −4 。 2. 勉强辨认出 对手，例如只见模糊轮廓，或背景前更深的一团形状：命中掷骰 −2 。 3. 日光下，以及火把、提灯、 光亮术 、 恒久光亮",
     "sourceFile": "manuscript/ua/topics/dm-darkness-combat.md"
   },
   {
@@ -4190,7 +4199,7 @@
     "title": "战役：社会阶级与地位",
     "titleEn": "The Campaign: Social Class and Rank",
     "group": "地下城主部分",
-    "excerpt": "地下城主可依原书印刷第 82 页的表格决定每名角色的社会阶级。此表没有预设政治制度或社会背景；各阶层的具体地位应由战役世界决定。 d% 社会／经济阶级 缩写 :---: :--- :---: 01–04 下下阶级 Lower Lower Class LLC 05–10 中下阶级 Middle Lower Class MLC 11–20 上",
+    "excerpt": "战役：社会阶级与地位 Social Class and Rank 地下城主可依原书印刷第 82 页的表格决定每名角色的社会阶级。此表没有预设政治制度或社会背景；各阶层的具体地位应由战役世界决定。 d% 社会／经济阶级 缩写 :---: :--- :---: 01–04 下下阶级 Lower Lower Class LLC 05–10 中下",
     "sourceFile": "manuscript/ua/topics/dm-social-class.md"
   },
   {
@@ -4199,7 +4208,7 @@
     "title": "战役：出生境况",
     "titleEn": "The Campaign: Circumstances of Birth",
     "group": "地下城主部分",
-    "excerpt": "原书印刷第 83 页说明，角色的来历与背景基本由地下城主依战役世界决定。以下两表可用作出生顺序和父母婚姻状况的随机起点。 出生顺序表 Birth Table d% 出生顺序 d% 出生顺序 :---: :--- :---: :--- 01–05 独生子女 81–85 第七个孩子 06–10 第一个孩子 86–90 第八个孩子 11–20 ",
+    "excerpt": "战役：出生境况 Circumstances of Birth 原书印刷第 83 页说明，角色的来历与背景基本由地下城主依战役世界决定。以下两表可用作出生顺序和父母婚姻状况的随机起点。 出生顺序表 Birth Table d% 出生顺序 d% 出生顺序 :---: :--- :---: :--- 01–05 独生子女 81–85 第七个孩子",
     "sourceFile": "manuscript/ua/topics/dm-circumstances-of-birth.md"
   },
   {
@@ -4208,7 +4217,7 @@
     "title": "财宝：随机魔法物品总表",
     "titleEn": "Treasure: Random Treasure Determination",
     "group": "地下城主部分",
-    "excerpt": "原书印刷第 84 页修订《地下城主指南》的“III. 魔法物品”随机表。先掷 d% 决定物品大类，再按该类的第二次 d% 掷骰选用表号。各表在后续主题依原书顺序列出。 首次 d% 物品大类 第二次 d% → 表号 :---: :--- :--- 01–20 药水 Potions 01–65 → III.A；66–00 → III.A.2 ",
+    "excerpt": "财宝：随机决定魔法物品 Treasure: Random Treasure Determination 原书印刷第 84 页修订《地下城主指南》的“III. 魔法物品”随机表。先掷 d% 决定物品大类，再按该类的第二次 d% 掷骰选用表号。各表在后续主题依原书顺序列出。 首次 d% 物品大类 第二次 d% → 表号 :---: :--- ",
     "sourceFile": "manuscript/ua/topics/dm-treasure-random-tables.md"
   },
   {
@@ -4217,7 +4226,7 @@
     "title": "药水表 III.A／III.A.2",
     "titleEn": "Potions",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 84 页。经验值和售价的单位分别为经验点与金币。 III.A 药水 d% 结果 经验值 售价 :---: :--- ---: ---: 01–03 动物控制药水 Animal Control 250 400 04–06 顺风耳药水 Clairaudience 250 400 07–09 千里眼药水 Clairvoyan",
+    "excerpt": "财宝：药水表 III.A 与 III.A.2 Potions 以下译录原书印刷第 84 页。经验值和售价的单位分别为经验点与金币。 III.A 药水 d% 结果 经验值 售价 :---: :--- ---: ---: 01–03 动物控制药水 Animal Control 250 400 04–06 顺风耳药水 Clairaudience",
     "sourceFile": "manuscript/ua/topics/dm-treasure-potions.md"
   },
   {
@@ -4226,7 +4235,7 @@
     "title": "卷轴表 III.B／III.B.2",
     "titleEn": "Scrolls",
     "group": "地下城主部分",
-    "excerpt": "以下合并原书印刷第 84–85 页的连续表格。III.B 表第三栏对法术卷轴给出 法术环位范围 ，对防护卷轴给出 经验值 。星号标明牧师法术环位。 III.B 卷轴 d% 结果 法术环位范围／经验值 :---: :--- :--- 01–10 1 个法术 1–4 11–16 1 个法术 1–6 17–19 1 个法术 2–9（d8+1）或",
+    "excerpt": "财宝：卷轴表 III.B 与 III.B.2 Scrolls 以下合并原书印刷第 84–85 页的连续表格。III.B 表第三栏对法术卷轴给出 法术环位范围 ，对防护卷轴给出 经验值 。星号标明牧师法术环位。 III.B 卷轴 d% 结果 法术环位范围／经验值 :---: :--- :--- 01–10 1 个法术 1–4 11–16 1",
     "sourceFile": "manuscript/ua/topics/dm-treasure-scrolls.md"
   },
   {
@@ -4235,7 +4244,7 @@
     "title": "戒指表 III.C／III.C.2",
     "titleEn": "Rings",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 85 页。经验值和售价的单位分别为经验点与金币。 III.C 戒指 d% 结果 经验值 售价 :---: :--- ---: ---: 01–06 逆反戒指 Contrariness — 1,000 07–12 妄想戒指 Delusion — 2,000 13–14 灯神召唤戒指 Djinni Summoning 3,",
+    "excerpt": "财宝：戒指表 III.C 与 III.C.2 Rings 以下译录原书印刷第 85 页。经验值和售价的单位分别为经验点与金币。 III.C 戒指 d% 结果 经验值 售价 :---: :--- ---: ---: 01–06 逆反戒指 Contrariness — 1,000 07–12 妄想戒指 Delusion — 2,000 13–",
     "sourceFile": "manuscript/ua/topics/dm-treasure-rings.md"
   },
   {
@@ -4244,7 +4253,7 @@
     "title": "权杖与法杖表 III.D",
     "titleEn": "Rods & Staves",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 85 页。经验值和售价均按魔法物品 充能全满 计算； 每次充能 的数值按原书单位照录。若条目后未注明职业限制，各职业都能使用。 d% 结果 经验值 售价 :---: :--- ---: ---: 01–06 吸收权杖 Rod of Absorption（C、M） 7,500 40,000 07–10 警戒权杖 Rod ",
+    "excerpt": "财宝：权杖与法杖表 III.D Rods & Staves 以下译录原书印刷第 85 页。经验值和售价均按魔法物品 充能全满 计算； 每次充能 的数值按原书单位照录。若条目后未注明职业限制，各职业都能使用。 d% 结果 经验值 售价 :---: :--- ---: ---: 01–06 吸收权杖 Rod of Absorption（C、M",
     "sourceFile": "manuscript/ua/topics/dm-treasure-rods-staves.md"
   },
   {
@@ -4253,7 +4262,7 @@
     "title": "魔杖表 III.D.2",
     "titleEn": "Wands",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 86 页。经验值和售价均假定魔杖 充能全满 。如无括号限制，各职业均可使用。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 万能魔杖 Anything Wand 2,500 12,500 02–05 小圆盾魔杖 Buckler Wand（F、M、T） 500 5,000 06–07 咒法魔杖",
+    "excerpt": "财宝：魔杖表 III.D.2 Wands 以下译录原书印刷第 86 页。经验值和售价均假定魔杖 充能全满 。如无括号限制，各职业均可使用。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 万能魔杖 Anything Wand 2,500 12,500 02–05 小圆盾魔杖 Buckler Wand（F、M、T）",
     "sourceFile": "manuscript/ua/topics/dm-treasure-wands.md"
   },
   {
@@ -4262,7 +4271,7 @@
     "title": "杂项魔法物品表 III.E.1–2",
     "titleEn": "Miscellaneous Magic, Tables III.E.1–2",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 86 页，延续随机魔法物品总表。经验值和售价的单位分别为经验点与金币；斜线分隔不同型号的原书数值。 III.E.1 d% 结果 经验值 售价 :---: :--- ---: ---: 01–02 炼金壶 Alchemy Jug 3,000 12,000 03–04 无法逃避定位护符 Amulet of Inescapa",
+    "excerpt": "财宝：杂项魔法物品表 III.E.1–III.E.2 Miscellaneous Magic 以下译录原书印刷第 86 页，延续随机魔法物品总表。经验值和售价的单位分别为经验点与金币；斜线分隔不同型号的原书数值。 III.E.1 d% 结果 经验值 售价 :---: :--- ---: ---: 01–02 炼金壶 Alchemy Jug",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-e1-e2.md"
   },
   {
@@ -4271,7 +4280,7 @@
     "title": "杂项魔法物品表 III.E.3",
     "titleEn": "Miscellaneous Magic, Table III.E.3",
     "group": "地下城主部分",
-    "excerpt": "以下合并原书印刷第 86–87 页的 III.E.3 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01–15 奇妙力量塑像 Figurine of Wondrous Power 100¹ 1,000¹ 16 诅咒瓶 Flask of Curses — 1,000 17–1",
+    "excerpt": "财宝：杂项魔法物品表 III.E.3 以下合并原书印刷第 86–87 页的 III.E.3 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01–15 奇妙力量塑像 Figurine of Wondrous Power 100¹ 1,000¹ 16 诅咒瓶 Flask of ",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-e3.md"
   },
   {
@@ -4280,7 +4289,7 @@
     "title": "杂项魔法物品表 III.E.4",
     "titleEn": "Miscellaneous Magic, Table III.E.4",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 87 页的 III.E.4 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 获益咒法秘典 Libram of Gainful Conjuration（M） 8,000 40,000 02 难言诅咒秘典 Libram of Ineffable Damn",
+    "excerpt": "财宝：杂项魔法物品表 III.E.4 以下译录原书印刷第 87 页的 III.E.4 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 获益咒法秘典 Libram of Gainful Conjuration（M） 8,000 40,000 02 难言诅咒秘典 Libra",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-e4.md"
   },
   {
@@ -4289,7 +4298,7 @@
     "title": "杂项魔法物品表 III.E.5",
     "titleEn": "Miscellaneous Magic, Table III.E.5",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 87 页的 III.E.5 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 大法师长袍 Robe of the Archmagi（M） 6,000 65,000 02–08 融入长袍 Robe of Blending 3,500 35,000 09 ",
+    "excerpt": "财宝：杂项魔法物品表 III.E.5 以下译录原书印刷第 87 页的 III.E.5 表。经验值和售价的单位分别为经验点与金币。 d% 结果 经验值 售价 :---: :--- ---: ---: 01 大法师长袍 Robe of the Archmagi（M） 6,000 65,000 02–08 融入长袍 Robe of Blendi",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-e5.md"
   },
   {
@@ -4298,7 +4307,7 @@
     "title": "杂项魔法物品表 III.E.6–7",
     "titleEn": "Miscellaneous Magic, Tables III.E.6–7",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 88 页的两张新杂项魔法物品表。经验值和售价的单位分别为经验点与金币；未列值的星号条目依具体物品说明处理。 III.E.6 d% 结果 经验值 售价 :---: :--- ---: ---: 01–04 防不死生物护符 Amulet Versus Undead 每级 200 每级 1,000 05 万能物品 Anyth",
+    "excerpt": "财宝：杂项魔法物品表 III.E.6–III.E.7 以下译录原书印刷第 88 页的两张新杂项魔法物品表。经验值和售价的单位分别为经验点与金币；未列值的星号条目依具体物品说明处理。 III.E.6 d% 结果 经验值 售价 :---: :--- ---: ---: 01–04 防不死生物护符 Amulet Versus Undead 每级",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-e6-e7.md"
   },
   {
@@ -4307,7 +4316,7 @@
     "title": "护甲与盾牌表 III.F／III.F.2",
     "titleEn": "Armor and Shield",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 88 页，按表中掷骰、经验值与金币售价照录。 III.F 护甲与盾牌 d% 结果 经验值 售价 :---: :--- ---: ---: 01–05 锁子甲 +1 Chain Mail 600 3,500 06–09 锁子甲 +2 Chain Mail 1,200 7,500 10–11 锁子甲 +3 Chain Ma",
+    "excerpt": "财宝：护甲与盾牌表 III.F 与 III.F.2 Armor and Shield 以下译录原书印刷第 88 页，按表中掷骰、经验值与金币售价照录。 III.F 护甲与盾牌 d% 结果 经验值 售价 :---: :--- ---: ---: 01–05 锁子甲 +1 Chain Mail 600 3,500 06–09 锁子甲 +2 C",
     "sourceFile": "manuscript/ua/topics/dm-treasure-armor-shields.md"
   },
   {
@@ -4316,7 +4325,7 @@
     "title": "剑表 III.G／III.G.2",
     "titleEn": "Swords",
     "group": "地下城主部分",
-    "excerpt": "以下合并原书印刷第 88–89 页的两张剑表。经验值和售价的单位分别为经验点与金币。除特指剑型的条目，原书注明随机所得的剑有 65% 为长剑、 20% 为阔剑、 5% 为弯刃剑、 5% 为短剑、 4% 为手半剑、 1% 为双手剑。 III.G 剑 d% 结果 经验值 售价 :---: :--- ---: ---: 01–25 剑 +1 4",
+    "excerpt": "财宝：剑表 III.G 与 III.G.2 Swords 以下合并原书印刷第 88–89 页的两张剑表。经验值和售价的单位分别为经验点与金币。除特指剑型的条目，原书注明随机所得的剑有 65% 为长剑、 20% 为阔剑、 5% 为弯刃剑、 5% 为短剑、 4% 为手半剑、 1% 为双手剑。 III.G 剑 d% 结果 经验值 售价 :---",
     "sourceFile": "manuscript/ua/topics/dm-treasure-swords.md"
   },
   {
@@ -4325,7 +4334,7 @@
     "title": "杂项武器表 III.H／III.H.2",
     "titleEn": "Miscellaneous Weapons",
     "group": "地下城主部分",
-    "excerpt": "以下译录原书印刷第 89 页的两张魔法武器表。经验值和售价的单位分别为经验点与金币；弹药数量也按原书保留。 III.H 杂项武器 d% 结果 经验值 售价 :---: :--- ---: ---: 01–08 箭 +1，2–24 支 20 120 09–12 箭 +2，2–16 支 50 300 13–14 箭 +3，2–12 支 75 ",
+    "excerpt": "财宝：杂项武器表 III.H 与 III.H.2 Miscellaneous Weapons 以下译录原书印刷第 89 页的两张魔法武器表。经验值和售价的单位分别为经验点与金币；弹药数量也按原书保留。 III.H 杂项武器 d% 结果 经验值 售价 :---: :--- ---: ---: 01–08 箭 +1，2–24 支 20 120",
     "sourceFile": "manuscript/ua/topics/dm-treasure-misc-weapons.md"
   },
   {
@@ -4361,7 +4370,7 @@
     "title": "魔法物品详述：权杖",
     "titleEn": "Rods (III.D)",
     "group": "地下城主部分",
-    "excerpt": "以下按原书印刷第 94 页译录。 警戒权杖 Rod of Alertness 外表与 步兵钉头锤 +1 无异。持有者避免被突袭的掷骰 +1 ，战斗先攻掷骰也 +1 。紧握权杖并专心时，可侦测阵营、邪恶、善良、幻术、隐形、谎言或魔法；这些侦测 不消耗充能 。 把权杖插在地上并命它警戒，便能感知 12″ 半径 内有意伤害持有者的生物。杖头八道",
+    "excerpt": "以下按原书印刷第 93–94 页译录。 警戒权杖 Rod of Alertness 外表与 步兵钉头锤 +1 无异。持有者避免被突袭的掷骰 +1 ，战斗先攻掷骰也 +1 。紧握权杖并专心时，可侦测阵营、邪恶、善良、幻术、隐形、谎言或魔法；这些侦测 不消耗充能 。 把权杖插在地上并命它警戒，便能感知 12″ 半径 内有意伤害持有者的生物。杖",
     "sourceFile": "manuscript/ua/topics/dm-rod-descriptions.md"
   },
   {
@@ -4379,7 +4388,7 @@
     "title": "魔法物品详述：新魔杖",
     "titleEn": "Wands (III.D.2)",
     "group": "地下城主部分",
-    "excerpt": "以下依原书印刷第 96–97 页译录。 万能魔杖 Anything Wand 平时如普通 奇迹魔杖 ，但最多用 50 次 便完全耗尽。另有三次特殊命令机会，每次可仿效 任何一种已知魔杖 ，但同一种魔杖的效果只能仿效一次；重复命令不生效，仍计入三次机会。第三次命令之后，无论成功与否，魔杖都耗尽无用。不能再充能。 小圆盾魔杖 Buckler ",
+    "excerpt": "以下依原书印刷第 95–97 页译录。 万能魔杖 Anything Wand 平时如普通 奇迹魔杖 ，但最多用 50 次 便完全耗尽。另有三次特殊命令机会，每次可仿效 任何一种已知魔杖 ，但同一种魔杖的效果只能仿效一次；重复命令不生效，仍计入三次机会。第三次命令之后，无论成功与否，魔杖都耗尽无用。不能再充能。 小圆盾魔杖 Buckler ",
     "sourceFile": "manuscript/ua/topics/dm-wand-descriptions.md"
   },
   {
@@ -4478,7 +4487,7 @@
     "title": "附录 S：矮人与精灵神祇",
     "titleEn": "Appendix S: Dwarven and Elven Deities",
     "group": "附录",
-    "excerpt": "以下译录原书印刷第 110–116 页。 矮人诸神 矮人神系是最强大的非人类神系之一，也反映了矮人的性格与信仰。大多数高等矮人神至少有普通矮人的两倍高，最高的摩拉丁高达 20 英尺；半神大致与普通矮人等高，没人高过铸魂者摩拉丁。矮人拒绝把自己视作“次等种族”，并认为自己可能是仅次于人类的强大种族。 矮人的圣徽几乎从不使用活物，而是工具、武",
+    "excerpt": "以下译录原书印刷第 110–116 页。当前已按扫描页与 OCR 完成印刷第 110–111 页的逐项核对；后续页继续沿用同一格式。 矮人诸神 非人类神系中，矮人神系是最强大的神系之一；正如人类神系反映其人类崇拜者的性格与信仰，矮人神系也充分反映矮人的性格与信仰。描述矮人神系时，可以看出它与通常的人类宗教之间存在若干明显差异。 所有较高等",
     "sourceFile": "manuscript/ua/topics/appendix-s-dwarves-elves.md"
   },
   {
@@ -4487,7 +4496,7 @@
     "title": "附录 S：侏儒与兽人神祇",
     "titleEn": "Appendix S: Gnomish and Orcish Deities",
     "group": "附录",
-    "excerpt": "以下译录原书印刷第 117–122 页。 侏儒诸神 侏儒神系成员最少，通常只有六七位。除“地下爬行者”乌尔德伦外，都由加尔·闪金统领，居住在双重乐园的黄金丘陵；乌尔德伦住在深渊。所有侏儒神都积极关注侏儒命运，经常亲自冒险，男性与女性侏儒同样敬拜他们。神祇大多聪明、实际、乐于助人，常携带武器、动物或另一位神作为伙伴；恶作剧是他们对敌人的主要",
+    "excerpt": "以下译录原书印刷第 117–122 页。 侏儒诸神 半人类神系中，成员最少的很可能是侏儒神系。按大多数统计，统治侏儒族的神祇只有六七位，不过其他宇宙中可能还有更多。除“地下爬行者”乌尔德伦外，所有侏儒神都由加尔·闪金统领（见《传说与学识》）。除一位之外，它们都居住在双重乐园的一个位面上，那里有一片称为黄金丘陵的区域；虔诚侏儒的灵魂死后会前",
     "sourceFile": "manuscript/ua/topics/appendix-s-gnomes-orcs.md"
   },
   {
@@ -4496,7 +4505,7 @@
     "title": "附录 S：半身人与神祇速查表",
     "titleEn": "Appendix S: Halflings and Reference Charts",
     "group": "附录",
-    "excerpt": "以下译录原书印刷第 115–123 页；半身人神祇部分承接上一主题。 半身人诸神 半身人神系很小，以约恩达拉为高等神，另有数位次等神和半神。各社区通常只敬拜其中四五位，且不同地区可能完全不同。所有半身人神都承诺共同对抗半身人的敌人，主要掌管安全、丰足、大地、青年、游戏、幽默、好运、法律、和平、秘密、爱情和友谊；没有邪恶、战争、痛苦、火、水",
+    "excerpt": "以下译录原书印刷第 115–123 页；半身人神祇部分承接上一主题。 半身人诸神 半身人神系规模很小，有一位高等神（约恩达拉），以及几位次等神和半神。大多数半身人社区只崇拜其中少数几位，最多四五位；与所有宗教一样，不同地区的居民可能完全崇拜不同的一群神。约恩达拉是半身人诸神中的最高权威，不过据说她对布兰多巴里斯的控制有时很有限。不论各自的",
     "sourceFile": "manuscript/ua/topics/appendix-s-halflings-reference.md"
   },
   {
@@ -4505,7 +4514,7 @@
     "title": "附录 T：长柄武器",
     "titleEn": "Appendix T: Pole Arms",
     "group": "附录",
-    "excerpt": "以下译录原书印刷第 123–129 页。 为什么需要分类 中世纪使用过数量惊人的武器，而名称极不统一。连钉头锤与晨星这类易辨武器都常被误称，更不用说数十种长柄武器。钉头锤通常是短柄一体铸造、带凸缘头的武器；晨星则多是步兵使用的长木柄，顶端装有布满放射尖刺的木或金属头。 大多数中世纪武器源于猎具或农具，随着战争发展由简单形制演变为专门武器或",
+    "excerpt": "以下译录原书印刷第 123–129 页。原书页面中的武器图版、比例说明和图中标签均列入本主题；图像资产在最终 CHM 构建阶段按对应原页保留。 长柄武器的名称与分类 中世纪时期使用过数量惊人的不同武器。几乎同样令人惊讶的是，人们为这些武器所使用的名称并不统一。看起来，本应是这方面权威的作者，却粗心地把一种武器归入完全错误的分类，从而使不了",
     "sourceFile": "manuscript/ua/topics/appendix-t-pole-arms.md"
   },
   {
@@ -4514,8 +4523,17 @@
     "title": "后记与制作人员",
     "titleEn": "Afterword and Credits",
     "group": "后置部分",
-    "excerpt": "以下译录原书印刷第 130 页。 《破解奥秘》至此结束。编者希望本书回答的问题多于它提出的问题，也知道读者和玩家必然会对这些材料产生疑问。若发现难点或无法理解的内容，可致信 TSR 的“奥秘问题”栏目；编者不一定能提供个别答复，但会尽力，并尝试在未来的《DRAGON》杂志中刊登后续文章。 创作与设计： Gary Gygax 设计顾问： F",
+    "excerpt": "《未探知的奥秘》至此结束。这是一部我们希望能够回答的问题远多于它提出的问题的作品。不过，正如你也应当意识到的那样，读者和游戏玩家必然会对这些材料产生疑问。如果你认为自己发现了某个疑难点，或者不理解所读到的内容，可以写信给 TSR, Inc. 的“奥秘问题”栏目，邮寄地址为：P.O. Box 756, Lake Geneva, WI 531",
     "sourceFile": "manuscript/ua/topics/afterword.md"
+  },
+  {
+    "book": "ua",
+    "slug": "ua-back-cover",
+    "title": "封底广告与出版信息",
+    "titleEn": "Back Cover Advertisement and Publication Information",
+    "group": "后置部分",
+    "excerpt": "封面文字： Advanced Dungeons & Dragons UNEARTHED ARCANA 。 “把所有新发现，以及大量刚刚揭开的秘密，收在一对书封之中。” 这是最新的 AD&D 游戏书，进一步界定并描述游戏系统。书中为玩家和地下城主收录了新的法术、角色职业、魔法物品、武器，以及更多内容。 出版者： TSR, Inc. 地址： ",
+    "sourceFile": "manuscript/ua/topics/back-cover.md"
   },
   {
     "book": "dsg",
@@ -5045,7 +5063,7 @@
     "title": "角色规则补充",
     "titleEn": "Character Rules",
     "group": "角色创建",
-    "excerpt": "印刷第 28–30 页。 多重攻击 高等级角色、专精武器和某些职业能力可以在一轮内进行多次攻击。表 36 按职业、武器和等级列出攻击次数；骑乘、双持、武术和特殊动作可能使用不同的节奏。不要把多次攻击误当成多名角色同时行动。 多职业与双职业 多职业角色同时获得两个或更多职业的能力，但经验与生命值按规则分配；双职业角色先完成一个职业阶段，再转",
+    "excerpt": "印刷第 28–30 页。 多重攻击 高等级角色、专精武器和某些职业能力可以在一轮内进行多次攻击。以下表 36 只适用于近战武器，不适用于飞射武器；武器熟练项和专精仍可能提高近战或飞射武器的攻击次数。能进行多次攻击的角色可以把这些攻击分配给不同目标。表中的 3/2 表示两轮三次攻击：第一轮一次，第二轮两次，然后重复； 2/1 表示每轮两次；",
     "sourceFile": "manuscript/oa/topics/character-rules.md"
   },
   {

@@ -1,3 +1,7 @@
+<!-- source: PDF p. 43 / printed p. 42 -->
+
+# 二环法术 Second Level Spells
+
 ## 火焰之刃 Flame Blade（塑能系 Evocation）
 
 | 项目 | 数值 | 项目 | 数值 |

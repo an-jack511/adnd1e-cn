@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-077.png–page-078.png; 原书印刷 pp. 77–78 -->
+
+# 新武器说明（二） Descriptions of New Weapon Types, Part II
+
 承接[第 77 页的武器](/books/ua/ua-dm-new-weapons-77/)，以下译录原书印刷第 77–78 页的捕人叉至长鞭。原页的持鞭插图保留于本节。
 
 ## 捕人叉 Man Catcher

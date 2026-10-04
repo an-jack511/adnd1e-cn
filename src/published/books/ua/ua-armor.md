@@ -1,3 +1,7 @@
+<!-- source: PDF p. 26 / printed p. 25 -->
+
+# 护甲 Armor
+
 ## 护甲等级表 Armor Class Table
 
 此表按原书列出各种护甲和盾牌组合的<strong>护甲等级（AC）</strong>。数字越低，防护越强。

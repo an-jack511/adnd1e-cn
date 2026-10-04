@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 21–22 / printed pp. 20–21 -->
+
+# 游侠 Ranger
+
 战士子职业<strong>游侠</strong>可以使用前述战士的<strong>武器专精</strong>规则。此外，下列追踪、“巨人类”对手及武器使用资料，应取代或补充《玩家手册》中对应的职业描述。
 
 ## 追踪 Tracking

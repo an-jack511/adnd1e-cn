@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 32–33 / printed pp. 31–32 -->
+
+# 一环法术 First Level Spells
+
 ## 仪式术 Ceremony（祈唤系 Invocation）
 
 | 项目 | 数值 | 项目 | 数值 |

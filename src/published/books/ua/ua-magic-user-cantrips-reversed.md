@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 47–48 / printed pp. 46–47 -->
+
+# 反向小法术 Reversed Cantrips
+
 以下 12 项依原书第 47–48 页顺序排列。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 凝结 Curdle（附魔系 Enchantment）

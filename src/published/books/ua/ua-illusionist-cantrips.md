@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-065.png–page-066.png; 原书印刷 pp. 65–66 -->
+
+# 幻术师专属小法术 Minor Illusion Cantrips
+
 幻术师及见习幻术师同样遵循[魔法师小法术的通用规则](/books/ua/ua-magic-user-cantrips/)，也能使用其中列出的魔法师小法术。以下八项为原书印刷第 65–66 页另外列出的<strong>幻术师专属</strong>小法术。
 
 ## 彩色光点 Colored Lights（变化系 Alteration）

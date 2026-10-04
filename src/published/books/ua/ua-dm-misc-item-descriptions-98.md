@@ -1,5 +1,7 @@
 以下依原书印刷第 98 页译录。
 
+<!-- source: OCR/ua-raw/pages/page-099.png; 原书印刷 p. 98 -->
+
 ## 多种足迹靴 Boots of Varied Tracks
 
 佩戴者可命令靴子改变留下的足迹，使其小如半身人、大如食人魔，且可呈赤脚或穿鞋的样子。每双靴还具有下表 <strong>16 种足迹中的四种</strong>，发现时可掷骰决定：

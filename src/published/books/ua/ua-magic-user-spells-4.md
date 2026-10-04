@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-057.png–page-058.png; 原书印刷 pp. 56–58 -->
+
+# 魔法师四环法术 Fourth Level Spells
+
 以下八项依原书第 56–58 页详述顺序排列。法术表另将*巫师之眼 Wizard Eye*印为本书有详述的新项，但本节在*紫外视觉*后直接进入五环，并无该法术说明；此处不补写其他版本的规则。
 
 ## 解除幻象 Dispel Illusion（防护系 Abjuration）

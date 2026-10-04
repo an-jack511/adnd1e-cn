@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-080.png; 原书印刷 p. 80 -->
+
+# 幻术师取得法术、小法术与法术书 Illusionist Spells and Spell Books
+
 以下依原书印刷第 80 页译录。
 
 ## 初始法术 Acquisition of Illusionist Spells

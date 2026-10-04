@@ -1,3 +1,7 @@
+<!-- source: PDF p. 45 / printed p. 44 -->
+
+# 五环法术 Fifth Level Spells
+
 原书在三环详述后直接进入本环；四环完整法术名单见[德鲁伊法术表](/books/ua/ua-druid-spell-table/)。
 
 ## 月光术 Moonbeam（塑能／变化系 Evocation–Alteration）

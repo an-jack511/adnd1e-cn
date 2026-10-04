@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-055.png–page-057.png; 原书印刷 pp. 55–56 -->
+
+# 魔法师三环法术 Third Level Spells
+
 以下八项依原书第 55–56 页顺序排列，与[魔法师法术表](/books/ua/ua-magic-user-spell-table/)的新增项对应。
 
 ## 暴雨术 Cloudburst（变化系 Alteration）

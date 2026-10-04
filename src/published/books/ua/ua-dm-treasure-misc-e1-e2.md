@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-087.png; 原书印刷 p. 86 -->
+
+# 财宝：杂项魔法物品表 III.E.1–III.E.2 Miscellaneous Magic
+
 以下译录原书印刷第 86 页，延续随机魔法物品总表。经验值和售价的单位分别为经验点与金币；斜线分隔不同型号的原书数值。
 
 ## III.E.1

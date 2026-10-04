@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-084.png; 原书印刷 p. 83 -->
+
+# 战役：出生境况 Circumstances of Birth
+
 原书印刷第 83 页说明，角色的来历与背景基本由地下城主依战役世界决定。以下两表可用作出生顺序和父母婚姻状况的随机起点。
 
 ## 出生顺序表 Birth Table

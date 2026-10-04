@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 41–42 / printed pp. 40–41 -->
+
+# 七环法术 Seventh Level Spells
+
 ## 强制履约 Exaction（塑能／变化系 Evocation–Alteration）
 
 | 项目 | 数值 | 项目 | 数值 |

@@ -66,6 +66,19 @@ export const ItemSchema = z.object({
   spaceRequired: z.string().optional(),
   speedFactor: z.string().optional(),
   acAdjustment: z.string().optional(),
+  weaponCombat: z.object({
+    handHeld: z.object({
+      length: z.string(),
+      spaceRequired: z.string(),
+      speedFactor: z.string(),
+      armorClassAdjustments: z.array(z.string()).length(11)
+    }).optional(),
+    missile: z.object({
+      fireRate: z.string(),
+      range: z.object({ short: z.string(), medium: z.string(), long: z.string() }),
+      armorClassAdjustments: z.array(z.string()).length(11)
+    }).optional()
+  }).optional(),
   description: z.string(),
   tags: z.array(z.string()),
   source: z.array(SourceReferenceSchema)

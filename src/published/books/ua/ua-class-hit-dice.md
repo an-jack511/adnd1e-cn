@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 13–14 / printed pp. 12–13 -->
+
+# 角色职业表 I：生命骰、法术能力与职业等级上限 Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit
+
 | 职业 | 生命骰类型 | 最多生命骰 | 法术能力 | 职业等级上限 |
 |:---|:---:|:---:|:---:|:---|
 | 骑士 Cavalier | d10¹ | 10 | 无 | 无 |

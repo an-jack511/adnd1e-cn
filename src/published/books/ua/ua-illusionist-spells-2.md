@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-067.png–page-068.png; 原书印刷 pp. 67–68 -->
+
+# 幻术师二环法术 Second Level Spells
+
 以下四项依原书印刷第 67–68 页详述顺序排列。
 
 ## 改变自身 Alter Self（变化／幻术系 Alteration/Illusion）

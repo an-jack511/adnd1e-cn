@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-053.png–page-055.png; 原书印刷 pp. 53–55 -->
+
+# 魔法师二环法术 Second Level Spells
+
 以下十二项依原书第 53–55 页顺序排列，与[魔法师法术表](/books/ua/ua-magic-user-spell-table/)的新增项对应。
 
 ## 绑缚术 Bind（变化／附魔系 Alteration/Enchantment）
@@ -41,7 +45,7 @@
 | 等级 | 2 | 法术成分 | 言语、姿势、材料 |
 | 距离 | 1″ | 施法时间 | 2 段 |
 | 持续时间 | 每级 1 轮 | 豁免 | 成功则无效 |
-| 影响范围 | 直径 6 尺的球体 | | |
+| 影响范围 | 直径 <strong>6 英寸</strong>的球体 | | |
 
 在施法者最多 <strong>1″</strong>远处生成由普通火构成的燃烧球。球体按施法者手指的方向滚动，甚至可上坡，也能越过不高于 <strong>4 尺</strong>的矮墙、家具等。接触会点燃易燃物，击中的生物受 <strong>2–8 点伤害</strong>；球心 <strong>5 尺半径</strong>内的所有生物均须<strong>对法术豁免</strong>，失败者受同样伤害，成功者完全无效。
 
@@ -83,7 +87,7 @@
 | 持续时间 | 特殊 | 豁免 | 特殊 |
 | 影响范围 | 一个目标 | | |
 
-造出一支魔法箭，像由<strong>等级等于施法者的战士</strong>用弓射出那样判定命中。为命中判定视同 <strong>＋1 武器</strong>；即使目标通常不受箭矢或仅＋1 魔法武器伤害，箭上的酸液仍可能伤它。箭体造成 <strong>2–5 点伤害</strong>，命中时另喷出约 <strong>8 盎司酸液</strong>，覆盖直径 <strong>1 尺</strong>，造成 <strong>2–8 点伤害</strong>，并允许物品豁免；不使用飞溅伤害规则。
+造出一支魔法箭，像由<strong>等级等于施法者的战士</strong>用弓射出那样判定命中。为命中判定视同 <strong>＋1 武器</strong>；即使目标通常不受箭矢或仅＋1 魔法武器伤害，箭上的酸液仍可能伤它。箭体造成 <strong>2–5 点伤害</strong>，命中时另喷出约 <strong>8 盎司酸液</strong>，覆盖直径 <strong>1 英寸</strong>，造成 <strong>2–8 点伤害</strong>，并允许物品豁免；不使用飞溅伤害规则。
 
 酸液在 <strong>3 级</strong>施法者手中造成 <strong>1 轮</strong>伤害，<strong>4–6 级</strong>为 <strong>2 轮</strong>，其后每跨过一个三级区间再增加 <strong>1 轮</strong>，除非先中和酸液。材料成分是一支飞镖、磨碎的大黄叶和蝰蛇胃。
 

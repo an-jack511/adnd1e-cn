@@ -1,3 +1,5 @@
+<!-- source: OCR/ua-raw/pages/page-081.png; 原书印刷 p. 81 -->
+
 以下译自原书印刷第 81 页，补充魔法师八环法术的裁定。
 
 ## 永久术 Permanency

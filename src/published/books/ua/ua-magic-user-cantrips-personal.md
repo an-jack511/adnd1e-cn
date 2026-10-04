@@ -1,3 +1,7 @@
+<!-- source: PDF pp. 50–51 / printed pp. 49–50 -->
+
+# 个人小法术 Personal Cantrips
+
 以下十项依原书第 50–51 页双栏顺序排列。除各项所列差异外，均遵守[小法术通则](/books/ua/ua-magic-user-cantrips/)。
 
 ## 蜜蜂 Bee（召唤系 Summoning）
@@ -8,7 +12,7 @@
 
 ## 蓝光 Bluelight（咒法系 Conjuration）
 
-<strong>影响范围：</strong>直径 <strong>1/4 尺</strong>的光球。<strong>施法时间：</strong>1/2 段。
+<strong>影响范围：</strong>直径 <strong>3/4 英寸</strong>的光球。<strong>施法时间：</strong>1/2 段。
 
 施法者张开的掌中出现一个直径约 <strong>3 英寸</strong>的蓝色发光小球，直到停止专注才熄灭。远看颇为诡异，但只能照亮周围 <strong>5 尺</strong>；光在此范围外不产生反射，也不影响红外视觉或紫外视觉。施法者须吟出一句同时用到“蓝”与“光”的押韵词句。
 

@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-058.png–page-059.png; 原书印刷 pp. 58–59 -->
+
+# 魔法师五环法术 Fifth Level Spells
+
 以下六项依原书第 58–59 页详述顺序排列。*传讯术 Sending*虽未在前面的法术表中用斜体标为新增详述，原书此处仍给出完整规则，故照录。
 
 ## 回避术 Avoidance（防护／变化系 Abjuration/Alteration，可逆向）

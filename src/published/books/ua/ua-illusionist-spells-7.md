@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-071.png; 原书印刷 p. 71 -->
+
+# 幻术师七环法术 Seventh Level Spells
+
 以下两项为原书印刷第 71 页的新增详述。幻术师专属小法术与一至七环新增法术的正文至此按原书顺序录入。
 
 ## 阴影行走 Shadow Walk（幻术／附魔系 Illusion-Enchantment）

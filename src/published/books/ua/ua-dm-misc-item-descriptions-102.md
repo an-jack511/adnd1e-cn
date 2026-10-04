@@ -1,5 +1,7 @@
 以下依原书印刷第 102 页译录；本页开头延续上一页的贤者之石说明。
 
+<!-- source: OCR/ua-raw/pages/page-103.png; 原书印刷 p. 102 -->
+
 ## 随取袋 Pouch of Accessibility
 
 外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,000 金币重量</strong>。每小袋最多装 <strong>100 金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、便携洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>10 金币重量</strong>，装满后重 <strong>40 金币重量</strong>。

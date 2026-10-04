@@ -1,3 +1,7 @@
+<!-- source: OCR/ua-raw/pages/page-089.png–page-090.png; 原书印刷 pp. 88–89 -->
+
+# 财宝：剑表 III.G 与 III.G.2 Swords
+
 以下合并原书印刷第 88–89 页的两张剑表。经验值和售价的单位分别为经验点与金币。除特指剑型的条目，原书注明随机所得的剑有 <strong>65%</strong> 为长剑、<strong>20%</strong> 为阔剑、<strong>5%</strong> 为弯刃剑、<strong>5%</strong> 为短剑、<strong>4%</strong> 为手半剑、<strong>1%</strong> 为双手剑。
 
 ## III.G 剑
