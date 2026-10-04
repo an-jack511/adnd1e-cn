@@ -1,3 +1,5 @@
+<!-- source: PDF pages 2–3 -->
+
 <strong>《地城生存指南》</strong>  
 Douglas Niles 著
 
