@@ -2,7 +2,7 @@
 
 一个面向跑团现场快速查询的 AD&D 1st Edition 中文参考站。它使用按规则对象组织的静态数据，同时保留规则书阅读模式。
 
-当前结构化索引包含 611 条法术、206 个怪物、582 件装备及魔法物品、149 张随机表，以及 14 个职业、7 个种族；规则书模式收录 PHB、DMG、MM、UA、DSG、WSG、OA、MotP、DDG、L&L、DMDK 中文正文。快速车卡以浏览器本地数据工作。
+当前结构化索引包含 622 条法术、378 个怪物、706 件装备及魔法物品、179 张随机表，以及 24 个职业、10 个种族；规则书模式收录 PHB、DMG、MM、UA、DSG、WSG、OA、MotP、DDG、L&L、DMDK、FF 中文正文。快速车卡以浏览器本地数据工作。
 
 ## 技术栈
 
@@ -70,7 +70,7 @@ npm run check:links
 
 ## 导入流程预留
 
-现有中文工作译稿来自本地独立工程的 `manuscript/` 及旧版 `build/chm/content/`。`scripts/import/published-books.ts` 将 PHB、DMG、MM、UA、DSG、WSG、OA、MotP、DDG、L&L、DMDK 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
+现有中文工作译稿来自本地独立工程的 `manuscript/` 及旧版 `build/chm/content/`。`scripts/import/published-books.ts` 将 PHB、DMG、MM、UA、DSG、WSG、OA、MotP、DDG、L&L、DMDK、FF 文字复制为站点内容，并生成目录与检索数据。Cloudflare 构建不读取本地父目录；已发布的 Markdown 会进入公开仓库。导入脚本不复制原书扫描 PDF、原书插图或 `asset:` 图片链接，也不从互联网抓取原文。
 
 `scripts/import/spells.ts`、`monsters.ts`、`items.ts`、`magic-items.ts` 与 `random-tables.ts` 分别生成 PHB／DMG／MM 结构化索引。UA 的法术、武器与魔法物品、职业经验表和完整战利品随机表分别由 `ua-spells.ts`、`ua-items.ts`、`ua-class-tables.ts`、`ua-tables.ts` 导入；先更新正文，再按上述顺序运行导入脚本。UA 没有独立怪物图鉴数据块，因此不会虚构 UA 怪物条目。改动父目录译稿后，运行 `npm run validate:data` 和 `npm run build`。搜索索引由 Astro 静态路由直接生成，不需要单独维护 JSON 副本。未确认可公开发布的草稿仍应留在仓库外或受控目录；不要直接把整个本地工作目录推送到 GitHub。
 
