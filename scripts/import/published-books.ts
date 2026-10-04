@@ -24,6 +24,26 @@ const supersededDsgSources = new Set([
   'mapping-geomorphs.md',
 ]);
 
+// The WSG manifest now points at the page-audited retranslation files. Keep
+// older summary copies out of the public mirror so each chapter has one
+// canonical site entry.
+const supersededWsgSources = new Set([
+  'camping.md',
+  'dm.md',
+  'environment.md',
+  'magic.md',
+  'medicine.md',
+  'natural-hazards.md',
+  'overview.md',
+  'preface-contents.md',
+  'proficiencies.md',
+  'title-credits.md',
+  'vision.md',
+  'weather-appendix.md',
+  'weather-clothing.md',
+  'what-is-it.md',
+]);
+
 const sourceRoot = resolve(process.argv[2] ?? '../manuscript');
 const outputRoot = resolve('src/published/books');
 const indexPath = resolve('src/data/published/books.json');
@@ -148,7 +168,9 @@ const search: Array<{ book: BookId; slug: string; title: string; titleEn: string
 for (const book of bookIds) {
   const manifest = manifests.get(book)!;
   const byFile = new Map((manifest.topics as Topic[]).map((topic) => [basename(topic.file), topic]));
-  const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md') && !(book === 'dsg' && supersededDsgSources.has(file)));
+  const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md')
+    && !(book === 'dsg' && supersededDsgSources.has(file))
+    && !(book === 'wsg' && supersededWsgSources.has(file)));
   const orderedFiles = [
     ...(manifest.topics as Topic[]).map((topic) => basename(topic.file)),
     ...topicFiles.filter((file) => !byFile.has(file)).sort()
