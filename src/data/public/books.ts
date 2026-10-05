@@ -13,7 +13,6 @@ export const books: Book[] = [
   { id: 'motp', short: 'MotP', title: 'Manual of the Planes', titleZh: '位面手册', description: '位面结构、内层位面、星界、外层位面、附录生物与位面法术索引的完整中文译稿。', source: [{ book: 'MotP' }], chapters: [] },
   { id: 'ff', short: 'FF', title: 'Fiend Folio', titleZh: '恶魔宝典', description: 'Fiend Folio 的完整中文逐页重译，包含额外怪物、遭遇表、等级表、索引与书后附页。', source: [{ book: 'FF' }], chapters: [{ title: '额外怪物', href: '/monsters?source=FF' }, { title: '恶魔宝典正文', href: '/books/ff/' }] },
   { id: 'mm2', short: 'MM2', title: 'Monster Manual II', titleZh: '怪物图鉴 II', description: 'Monster Manual II 的完整中文逐页重译，包含怪物条目、地下城与户外遭遇表、水域与位面表、分类索引及名称索引。', source: [{ book: 'MM2' }], chapters: [{ title: '新增怪物', href: '/monsters?source=MM2' }, { title: '怪物图鉴 II 正文', href: '/books/mm2/' }] },
-  { id: 'ref1', short: 'REF1', title: "Dungeon Master's Screen", titleZh: '地下城主屏风', description: 'Dungeon Master\'s Screen 的完整中文逐页重译，包含职业摘要、战斗与豁免矩阵、遭遇规则、法术表、武器和装备价格。', source: [{ book: 'REF1' }], chapters: [{ title: '地下城主屏风正文', href: '/books/ref1/' }] },
   { id: 'ddg', short: 'DDG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇能力、神话体系、牧师规则、神圣物品与位面旅行的完整中文译稿。', source: [{ book: 'DDG' }], chapters: [] },
   { id: 'll', short: 'L&L', title: 'Legends & Lore', titleZh: '传奇与学识', description: '神祇战役规则、神话体系、神庙陈设、牧师速查与已知位面资料的完整中文译稿。', source: [{ book: 'L&L' }], chapters: [] },
   { id: 'dmdk', short: 'DMDK', title: "Dungeon Master's Design Kit", titleZh: '地下城主设计工具箱', description: '冒险设计、表单、示例冒险与冒险菜谱的完整中文译稿。', source: [{ book: 'DMDK' }], chapters: [] }
