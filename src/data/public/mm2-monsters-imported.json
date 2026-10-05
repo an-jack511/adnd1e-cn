@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "mm2-derro",
+    "nameZh": "Derro",
+    "nameEn": "Derro",
+    "frequency": "极罕见",
+    "numberAppearing": "3–30",
+    "armorClass": 0,
+    "armorClassText": "见下文",
+    "movement": "9\"",
+    "hitDice": "3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 或 2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "30%",
+    "intelligence": "很高至天才",
+    "alignment": "混沌邪恶",
+    "size": "S（4 英尺高）",
+    "psionics": "仅个体具有；攻击/防御模式：仅个体具有",
+    "environment": "原条目未单列",
+    "description": "Derro 是一种身材像矮人的退化种族，可能是邪恶人类与矮人的混合后代。它们居住在 drow 及其同类（kuo-toan、夺心魔、troglodyte 等）常见的广大地下领域。Derro 憎恨光，在阳光下会感到恶心，但它们会在夜间通过隐秘的竖井出口来到地表，偷窃并绑架人类作为奴隶。传闻说，有些人类还会被吃掉。 Derro 拥有很高的敏捷（15–18），因此护甲等级必须相应调整。护甲与武器按下列概率出现： * 40%–50% 的 derro 会使用镶钉皮甲和连发轻弩（最大射程 12\"，每轮 2 发，容量 6 枝弩矢，每枝造成 1–3 点伤害）。弩矢上的 derro 毒素会额外造成 2–12 点伤害，除非目标成功豁免。 * 20%–30% 的 derro 会使用镶钉皮甲、钩镰戟（一种超过 6 英尺长的武器，造成 1–4 点伤害，有 25% 的概率把人类大小或更小的受害者拉得失去平衡）和匕首。 * 10%–20% 的 derro 会使用鳞甲皮（龙皮或类似材料，防护力等同链甲）、匕首、小圆盾（带尖刺，攻击时等同匕首）和 aklys。Aklys 带尖刺和钩子，拉倒或拉失对手平衡的效果只有钩镰戟的一半。 * 10%–20% 的 derro 会使用鳞甲皮、小圆盾、矛和皮革镐（伤害等同军用镐）。 每遇到 3 只 derro，就会有 1 只拥有 4 个生命骰。每遇到 6 只，就会有 1 只拥有 5 个生命骰。如果遇到 10 只或更多，就会有一只 7 生命骰的首领和一只 6 生命骰的副官。所有这些高等级 derro 都是在最初数量之外额外出现的。所有高等级 derro 都穿鳞甲皮并使用精良武器。如果遇到 20 只或更多，还会有一名 savant（下文详述）和两名 student savant。 Derro 巢穴总会有 30 只加上 3–12 只额外的普通 derro、相应数量的高等级首领、1–3 名 savant、2–5 名 student savant、15–40 名奴隶（80% 为女性）以及 1–3 只 gargoyle（概率 70%）或一只 lamia（概率 30%）作为盟友。 Savant derro 具有贤者般的气质，能够使用任何种类的魔法物品和武器。他们会施放下列法术：影响普通火焰、反魔法外壳、闪现、光、闪电箭、次级创造术、魅惑人类、云杀术、心灵感应、催眠图案、冰风暴、隐形、浮空术、麻痹、排斥术、阴影魔法、蜘蛛攀爬、腹语术、雾墙、力墙。 他们拥有称作 student savant 或学生的学徒。后者只知道一个较小的研究领域，并且只有 25% 的概率能够使用非战士魔法物品。Derro savant 拥有 5–8 个生命骰；学生拥有 4–7 个生命骰。Savant 会有 2–3 件有用且正在使用的攻击和/或防御魔法物品；学生会有 1 件较弱物品。Savant 知道 6–9 个法术，学生知道 1–3 个。他们也能理解语言和阅读魔法。能力按 12 级处理。 典型魔法物品包括：任意药水；任意卷轴；火焰抗性、隐形、防护和法术储存戒指；任意魔杖；+1 镶钉皮甲与盾牌；防御护腕、护盾胸针、防护斗篷等；最高 +3 的任意剑；以及任意杂项魔法武器。 据说 derro 在地下深处有一座主要据点；他们的 savant 在那里策划阴谋，准备毁灭上层世界并奴役全人类。Derro 的红外视觉很差（范围 30 英尺），但紫外视觉很好（120 英尺）。他们会说自己的语言、一些通用语，并知道地下世界的贸易通用语。 Derro 与人类非常相似，只是更矮，按身高比例来说肌肉略强壮。五官通常粗陋。头发为淡棕色或黄色，皮肤非常白并带有蓝色底调，眼睛很大。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Derro"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dragonnel",
+    "nameZh": "Dragonnel",
+    "nameEn": "Dragonnel",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "12\"/18\"（未骑乘时 MC：C；骑乘时 D）",
+    "hitDice": "8+4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "半智能",
+    "alignment": "中立（邪恶）",
+    "size": "L（长 24 英尺以上）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些生物似乎同时与龙和空龙（翼龙）有着远亲关系，尽管它们是独立的物种。Dragonnel 虽然和小型龙一样大，却没有吐息武器。Dragonnel 会用长着利爪的前足凶狠地抓击，随后用满是尖牙的喙猛咬。这些生物智力低下，但有时也会做出邪恶行径。 过去，Dragonnel 曾栖息于 Greyhawk 世界，从 Kron Hills 和 Glorioles 一带直到 Drachensgrab Mountains；但除了 Pomarj 之外，这个物种如今几乎到处灭绝。在那里，这些怪物被捕获、驯服，如今被居住在当地、混迹于各类 humanoid 部落中的邪恶人类用作坐骑。 幸运的是，这些生物数量太少，不足以对周围国家构成严重威胁。不过有传言说，Wild Coast 沿岸曾有人目击过数十名骑乘 Dragonnel 的掠袭者。 Dragonnel 的腹部呈灰色，沿尾部渐渐变为尘土般的红紫色。背部棘刺为栗红色，喙为灰色，头部的褶冠为白色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dragonnel"
+      }
+    ]
+  },
+  {
+    "id": "mm2-drider",
+    "nameZh": "Drider",
+    "nameEn": "Drider",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "12\"",
+    "hitDice": "6+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "法术、麻痹",
+    "specialDefenses": "无",
+    "magicResistance": "15%",
+    "intelligence": "高",
+    "alignment": "混沌邪恶",
+    "size": "L",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Drider 是 Lolth 魔法的特殊产物。当具有潜力的 drow 达到 6 级或略高等级时，Lolth 会召唤它们，并让它们接受一项特别设计的试炼。未能通过的 drow 会变成 Drider。 Drider 看起来像巨型蜘蛛与 drow 的混合体。苍白、臃肿的 drow 躯干、头部和手臂上会长出 8 条蜘蛛腿。由于身体臃肿，无法分辨 Drider 的性别，但遭遇到的 Drider 中有 60% 为雌性。 Drider 会保留转化前拥有的 drow 能力；因此所有 Drider 都具有魔法或牧师能力，具体类型取决于它们是雄性还是雌性。雌性 Drider 拥有相当于 6 级或 7 级牧师的牧师能力；雄性 Drider 拥有相当于 6、7 或 8 级魔法使用者的魔法能力。 此外，Drider 还拥有 drow 的天然法术能力，因此每天能够施放以下法术一次：舞光术、黑暗术、侦测魔法、妖火、侦测阵营和浮空术。雌性 Drider 还可以每天施放一次洞悉术、侦测谎言、解除魔法和建议术。 战斗中，所有 Drider 都按 7 生命骰怪物进行战斗，通常使用剑或斧，不过许多 Drider 会把弓背在身后。Drider 也可以用咬击攻击，造成 1–4 点伤害。被咬者必须以 -2 惩罚进行对抗毒素豁免，否则会因 Drider 的唾液麻痹 1–2 轮。 Drider 是 drow 社群的弃民，因此对 drow 毫无好感。它们很少成群出现，更喜欢独自行动。Drider 有 10% 的概率会有 2–12 只巨型蜘蛛陪伴。它们通常生活在地下，经常尾随受害者，直到出现合适的击杀机会。它们的食物主要是受害者的血，因为它们已经获得了蜘蛛的习性。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Drider"
+      }
+    ]
+  },
+  {
+    "id": "mm2-duergar",
+    "nameZh": "Duergar",
+    "nameEn": "Duergar",
+    "frequency": "极罕见",
+    "numberAppearing": "2–8 或 201–300",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "6\"",
+    "hitDice": "1+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1（或更多）",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "豁免获得 +4",
+    "magicResistance": "标准",
+    "intelligence": "平均至天才",
+    "alignment": "守序邪恶（中立）",
+    "size": "S（高 4 英尺）",
+    "psionics": "71–90（每等级 2 点）；攻击/防御模式：B、C、D/F、G、H",
+    "environment": "原条目未单列",
+    "description": "Duergar 是一种很少遇见的邪恶矮人种族，也被称为灰矮人或灰色者。他们极端恶毒，居住在地下深处，在那里邪恶的本性不必承受阳光。通常只能发现少数这种邪恶生物，但偶尔也会发现拥有数百名 Duergar 的巢穴。 每遇到 4 名普通 Duergar，就会有 1 名拥有双倍生命骰，也就是说每 4 名中有 1 名为 2 级。若在巢穴外遇到 9 名，则会有一名拥有三倍或四倍生命骰（3 或 4 级）的额外 Duergar 领导这群生物。 一级 Duergar 携带镐、锤、矛链和盾牌，出现概率为 75%；二级 Duergar 携带镐、轻弩链和盾牌，出现概率为 25%。额外的武器和护甲如下： | 数量 | 等级与装备 | |---|---| | +1/16 | 3 级：锤、短剑、板甲和盾牌 | | +1/16 | 4 级：锤、短剑、板甲和盾牌 | | +4–6 | 5 级：锤、短剑、板甲和盾牌 | | +2–3 | 6 级：锤、短剑、板甲和盾牌 | | +1 | 7–9 级：锤*、短剑*、板甲*和盾牌* | | +4–6 | 3–6 级／3–6 级牧师／刺客：任意可用装备*／任意可用装备* | | +1 | 7–9 级／7–9 级牧师／刺客：任意可用装备*／任意可用装备* | *每等级有 5% 的概率出现魔法物品；若等级分段，取较低等级的一半加到较高等级上，并向上取整，以确定实际大致等级。 此外，还会有相当于普通战士总数 10% 的非战斗幼年 Duergar，也就是每 21–30 名中有 1 名幼年个体。Duergar 的巢穴总是在地下，规模庞大，由许多通道、房间、厅室和秘密区域组成。巢穴综合体中有 25% 的概率饲养着某种怪物守卫。巢穴中有 10–40 名奴隶的概率为 75%。掷 1d20 决定奴隶的种类： | 1d20 | 奴隶 | |---:|---| | 1–8 | 山地矮人或兽人 | | 9–12 | 矮人或地精 | | 13–16 | 侏儒或 Xvart | | 17–18 | 粗壮型半身人或 Kobold | | 19 | Svirfneblin 或 Norker | | 20 | 冒险者或其他生物 | 冒险者的类型通常是标准类型，而“其他生物”则包括 drow、Grimlock 等。 已知 Duergar 会与 Derro（见该条目）及类似的邪恶生物共同居住，但这种社群很少见。Duergar 以 3/6 的概率使敌人措手不及，而它们自己只有 1/10 的概率被措手不及。和普通矮人一样，Duergar 对魔法攻击（死灵魔法、变形术、魔棒等以及法术）的豁免获得 +4。它们免疫麻痹和毒素。幻术／幻象类别的法术不会影响 Duergar。 所有 Duergar 都拥有以下灵能学科：扩张、隐形、分子吸引和缩小。其施展等级等于经验生命骰数。 Duergar 拥有 12\" 范围的红外视觉。它们会说地下生物使用的无声语言、自己的语言以及矮人语。有些还会说其他语言。 Duergar 看起来像消瘦、面容邪恶的矮人，皮肤为中灰至深灰色。他们喜欢穿暗淡颜色的衣服，通常选择能够融入环境的服饰。他们的寿命比普通矮人更长，有些能活到 500 岁以上。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Duergar"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dustdigger",
+    "nameZh": "Dustdigger",
+    "nameEn": "Dustdigger",
+    "frequency": "不常见",
+    "numberAppearing": "1–20",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "3\"",
+    "hitDice": "4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "幻术／海市蜃楼（见下文）",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "半智能",
+    "alignment": "中立",
+    "size": "L",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Dustdigger 栖息在干旱地区，那里的土壤松散而多沙，例如沙丘。Dustdigger 通常会挖出一个洞，用一层沙子把自己盖住，然后使身体膨胀，填满自己挖出的洞，让上方地面与周围地形齐平。 当一只动物走到 Dustdigger 上方时，Dustdigger 会收缩，制造出极像流沙坑的区域。Dustdigger 会利用向自己口部移动的沙子减缓猎物逃跑。完全收缩后，它会把手臂折叠到受害者周围，并试图在吞食之前杀死对方。Dustdigger 的背面护甲等级为 4，但正面只有护甲等级 7。一旦 Dustdigger 折叠起来，猎物就会被困住，无法攻击。因此，最好的防御策略是在 Dustdigger 折叠之前认出它。 Dustdigger 看起来像围绕中央巨口、长着 5 条臂的巨型海星。它们只在夜间出现在地面上，而且一次从不超过几分钟。它们经常成群行动。 20% 的 Dustdigger 天生具有幻术才能。当接近的受害者进入攻击范围时，它们通常会在沙漠沙地中制造出一片冒泡的水池幻象。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dustdigger"
+      }
+    ]
+  },
+  {
+    "id": "mm2-eagle",
+    "nameZh": "Eagle",
+    "nameEn": "Eagle",
+    "frequency": "罕见",
+    "numberAppearing": "1 或 2（5–12）",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "1\"/30\"（MC：C）",
+    "hitDice": "1+3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "M（身长 6 英尺；翼展 7 英尺以上）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Eagle 有若干种类，但通常都符合这里给出的数据。通常会遇到一只鸟或一对配偶，但也有轻微概率（5%）在一处繁殖地遭遇它们，此时会有 5–12 只在巢中。巢位于最高的树上、悬崖上或山中。一个巢中会有 1–4 枚蛋。巢中还有 10% 的概率出现某种小型闪亮物品（硬币、宝石等）。 Eagle 攻击时通常会从高处俯冲。如果从至少 100 英尺的高度俯冲，俯冲移动速度为正常速度的两倍，伤害限制为两次爪击。不过，这些攻击命中获得 +2，并造成双倍正常伤害。由于视力异常出色，Eagle 几乎不会被突袭。 除非异常饥饿，Eagle 不会攻击哪怕是较小的半人类；不过，例如 Brownie 就会处于相当大的危险之中，因为这些鸟会毫不犹豫地攻击这么大的猎物。 Eagle 很难训练用于狩猎，只有约 25% 能被适当驯养。尽管如此，可孵化的蛋或幼鹰在公开市场上能卖到 60–100 gp。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Eagle"
+      }
+    ]
+  },
+  {
+    "id": "mm2-eblis",
+    "nameZh": "Eblis",
+    "nameEn": "Eblis",
+    "frequency": "极罕见",
+    "numberAppearing": "4–16",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "12\"/12\"（MC：C）",
+    "hitDice": "4+4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "4",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "低至非凡",
+    "alignment": "中立邪恶",
+    "size": "M（高 8 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Eblis，也就是鹳人，人类很少见到它们；或者说，能活着讲述这种遭遇的人很少。这些高大的邪恶鸟人生活在亚热带和热带气候的沼泽与湿地中。每个群体由若干对配偶及其后代组成。当一个部落变得太大、超出其栖息地承载能力时，年轻个体会组成新的群体，寻找属于自己的区域。 Eblis 伴侣会用芦苇和草仔细建造小屋，每个社群有 2–8 间小屋。即使仔细搜索，也有 90% 的概率无法发现这些住所。小屋中会有芦苇、树枝等堆成的巢，30% 的概率其中有一枚蛋。此外，还有 25% 的概率会有以下一项：1–2：金属管中的卷轴；3–5：药水；6：戒指；7：杂项魔法物品（仅限小型）；8–9：魔法匕首或魔法小刀；10–20：1–4 件金属珠宝。 由于这些生物喜爱闪亮物品，巢中总会有一些金属、玻璃或类似物品。 Eblis 转身和出击都非常迅速，因此护甲等级出色。它们的脖子像蛇一样细长、坚韧而强壮。攻击方式是用喙刺击。在每个 Eblis 社群中，会有 1 名个体能够通过舞蹈和发声使用幻术师魔法。每个这样的鹳人拥有下列法术中的 2–8 个，每个法术每天可使用一次，施法能力为 3 级：1=听觉幻象；2=改变自身；3=催眠术；4=惊恐术；5=迷雾墙；6=模糊术；7=催眠图纹；8=低语之风。 由于这些生物喜爱水和潮湿，而且总是湿漉漉的，它们并不像羽毛形态所暗示的那样容易受到火焰伤害。对火焰的豁免获得 +1，且每颗伤害骰的伤害 -1。Eblis 看起来像巨大的灰褐色鹳。雄性的头部为红褐色，脖子和腿为黑色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Eblis"
+      }
+    ]
+  },
+  {
+    "id": "mm2-grugach",
+    "nameZh": "Grugach",
+    "nameEn": "Grugach",
+    "frequency": "极罕见",
+    "numberAppearing": "20–80",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "15\"",
+    "hitDice": "1+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "使用弓或矛时 +1",
+    "specialDefenses": "陷阱（见下文）",
+    "magicResistance": "仅对魅惑和睡眠为 90%",
+    "intelligence": "平均及以上",
+    "alignment": "中立（混沌）",
+    "size": "S（高 4.5 英尺）",
+    "psionics": "无*；攻击/防御模式：无/无*",
+    "environment": "原条目未单列",
+    "description": "*在罕见的角色情况下可能拥有。 Grugach 是与 sylvan elf 相近的“野生”精灵，但体型更小、更瘦，肤色也非常白。他们完全排斥外族，甚至不信任其他种类的精灵。因此，除了在自己的部族群体中，他们几乎不会、甚至从不在外界被遇到。 除非另有说明，Grugach 符合 wood elf 以及精灵族的一般具体规则。尽管身材矮小，Grugach 肩膀宽阔、力量强大（力量骰额外 +2；将 19 或 20 按 18 处理）。 Grugach 不是魔法使用者，但拥有双职业的个体会是战士／德鲁伊。他们与森林中的所有动物关系良好，邪恶动物除外。他们经常（70%）以雄鹿为坐骑。 据称与 wood elf 的随机接触中，大约 20% 实际上会是与 Grugach 的接触。所有成年 Grugach 都能设置陷阱。这些陷阱主要是设在其家园领地内部及周围的坑洞和套索。所有这种陷阱都隐藏得很好，经过附近的生物几乎有 90% 的概率会掉入其中。如果角色在穿越陷阱区域时仔细检查，掉入陷阱的概率会降至 30%。 坑洞通常有 10 英尺深并布满尖桩，因此伤害为 1–4 点（落入土底坑洞），再加上每根尖桩 1–6 点，并有 50% 的概率附带毒素。套索通常会套住生物并把它们猛地拽离地面，使其悬在离地 5 英尺或更高处。有些套索可能是落木陷阱：沉重的木头会砸下，造成 5d6–8d6 点伤害，并把受害者压在下面。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Grugach"
+      }
+    ]
+  },
+  {
+    "id": "mm2-valley-elf",
+    "nameZh": "Valley Elf",
+    "nameEn": "Valley Elf",
+    "frequency": "极罕见",
+    "numberAppearing": "10–40（20–240）",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "12\"",
+    "hitDice": "1+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "使用弓或剑时 +1",
+    "specialDefenses": "见下文",
+    "magicResistance": "仅对魅惑和睡眠为 90%",
+    "intelligence": "高及以上",
+    "alignment": "混沌中立",
+    "size": "M（高 5.5 英尺以上）",
+    "psionics": "无*；攻击/防御模式：无/无*",
+    "environment": "原条目未单列",
+    "description": "*在罕见的角色情况下可能拥有。 无论 Valley Elf 是一个独立的精灵种族，还是 Gray Elf 的一个分支，Mage Valley 的精灵（Valley Elf）都有鲜明的特征和个性。他们与大多数人类一样高大，身材纤细，面部特征尖锐而突出。他们隐居，并且憎恨入侵。总的来说，Valley Elf 属于中立阵营。 除此之外，他们往往遵循 Gray Elf 的相同特征，尽管据目前所知，除马以外他们不会使用其他坐骑。所有其他种类的精灵，包括 dark elf（drow），都会避开 Valley Elf。反过来，后者也不喜欢与任何种族交往，或许只会容忍 gnomekind。 在栖息地类型、群体构成、武器和特殊能力方面，Valley Elf 遵循《怪物图鉴 I》中“Elf”条目（见该条目）的数据。 Valley Elf 使用 cooshee（见该条目）作为守卫动物；75% 的游荡群体中会有 1–4 只，而在它们的巢穴中有 90% 的概率会有 2–8 只。在 WORLD OF GREYHAWK™ 奇幻世界设定中，Valley Elf 只出现在 Mage Valley 的紧邻区域。成群的 Valley Elf 曾袭入 Bissel、Gran March、Ket 和 Grand Duchy of Geoff，这很可能是奉其领主之命行事。 他们对 gnome 的容忍，可能源于这些半人类同样为 Valley 的 Mage 服务这一事实。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Valley Elf"
+      }
+    ]
+  },
+  {
+    "id": "mm2-elfin-cat",
+    "nameZh": "Elfin Cat",
+    "nameEn": "Elfin Cat",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "18\"",
+    "hitDice": "3+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "20%",
+    "intelligence": "半智能至低",
+    "alignment": "中立",
+    "size": "S",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Elfin Cat 只栖息于温带地区的 sylvan woodland。它通常被误认为 wild cat，或者可能是 lynx，但这是因为这种生物不希望被认出有什么不寻常之处。Elfin Cat 速度很快，攀爬极其迅速，游泳良好，还能轻易跳跃 20 英尺或更远。 它们独居，但如果在巢穴中遇到，则会有 1 只成年雌性、1–4 只幼猫，并且 1 只雄性会在 1–4 轮内从一段距离外赶来。巢穴中的任何财宝，都是某个友善生物（例如 elf 或 gnome 等）放在那里安全保管的物品。 虽然 Elfin Cat 能用爪和牙攻击、防卫自己，但它们更喜欢避免这类冲突。它们依靠魔法力量生存，包括：enlarge（每天 1 次）、reduce（每天 2 次）、pass without trace、tree（树枝，不是整棵树；每天 2 次）和 trip（每天 1 次）。Enlarge 实际上会将攻击力提高到正常值的两倍。这些类法术能力按 9 级能力施展。 此外，Elfin Cat 移动时能达到 99.9% 的无声程度。它们以 90% 的概率隐藏在自然环境中。敏锐的感官使它们除非在 20 次中出现 1 次，否则不会被突袭；反过来，它们以 5/6 的概率突袭对方。 Elfin Cat 使用一种有限的 ESP 能力，读取附近生物的思想，以确定对方的友善或敌对意图。这些生物用自己的语言彼此交流。由于与精灵交往，它们会说几句 Elf 语；有些也会说 Gnome、Brownie 等语言。 一只或多只 Elfin Cat 会与 sylvan elf、woodland gnome、brownie、sprite 等社群结伴。作为食物和保护的回报，Elfin Cat 会充当哨兵，报告区域内出现的怪物或其他入侵者，并说明这些生物有何意图。 Elfin Cat 会以小型形态在田野和森林中游荡。它们只有为了吓退潜在敌人才会使用放大后的形态。 Elfin Cat 大约有普通狗那么大。皮毛呈灰褐色，带有深棕色或黑色条纹。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Elfin Cat"
+      }
+    ]
+  },
+  {
+    "id": "mm2-executioners-hood",
+    "nameZh": "Executioner's Hood",
+    "nameEn": "Executioner's Hood",
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "6\"",
+    "hitDice": "2+2、4+4、6+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "以 1–3 造成突袭；见下文",
+    "specialDefenses": "免疫睡眠法术",
+    "magicResistance": "标准",
+    "intelligence": "半智能",
+    "alignment": "中立",
+    "size": "S–M（袋状形态直径 1–3 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Executioner's Hood 是一种小型袋状怪物，有独特的捕猎方式。怪物会爬进某个凹处，等待受害者靠近。当猎物进入时，兜帽会迅速套住受害者的头部（需要进行命中检定），立即造成 1–4 点伤害，并继续通过勒绞和窒息造成 1–4 点伤害，直到猎物死亡或怪物被杀死。 由于这种怪物喜欢包住头部，因此很难杀死 Executioner's Hood。它完全不受睡眠法术影响，而且它的攻击方式（纤维丝束）会使受害者承受 Executioner's Hood 所承受的任何其他法术效果。 不过，将烈性白兰地倒在兜帽上，会使怪物每轮损失 1 点伤害能力；4 轮后，兜帽会脱落并陷入醉态（假定使用了整整 1 夸脱白兰地）。 这种怪物看起来几乎与真正的行刑兜帽完全相同。颜色为暗黑色，有两个眼孔，实际上既能用来看向外面，也能用来看入自身腔体。怪物厚约 1 英寸。它能够摊开成圆盘形，并且已知会像 lurker above（见该条目）一样捕猎。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Executioner's Hood"
+      }
+    ]
+  },
+  {
+    "id": "mm2-faerie-dragon",
+    "nameZh": "Faerie Dragon",
+    "nameEn": "Faerie Dragon",
+    "frequency": "极罕见",
+    "numberAppearing": "1–6",
+    "armorClass": 5,
+    "armorClassText": "5（隐形时 1）",
+    "movement": "6\"/24\"（MC：A）",
+    "hitDice": "见下文",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "吐息武器、魔法使用",
+    "specialDefenses": "隐形",
+    "magicResistance": "见下文",
+    "intelligence": "高至天才",
+    "alignment": "混沌善良",
+    "size": "S（1–1.5 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种混沌的 pseudodragon 分支生活在所有气候中宁静而纠缠的森林里，常常与一群 sprites 或 pixies 同住。 Faerie dragon 可以随意变为隐形。隐形时它们仍能攻击，也能使用魔法或吐息武器。它们按 4 生命骰怪物攻击，咬击造成 1–2 点伤害。不过，faerie dragon 更可能使用“欣快气体”吐息武器。该生物喷出一个直径 2 英尺的球形气云，大小刚好足够让目标吸入一剂。 未能通过对抗吐息武器豁免的受害者，会在 3–12 轮内幸福地四处游荡；此期间无法攻击，实际护甲等级比正常情况差 10%。只要每轮在 1d20 上进行一次不高于自身智力的豁免，受害者就能继续把注意力放在周围情况上。一旦某轮智力豁免失败，他就会完全失去对当前事务的兴趣，表示气体已经发挥最大欣快效果。 除非走投无路或防卫巢穴，faerie dragon 绝不会以任何方式直接攻击。不过，它会在任何机会使用魔法对路人制造恶作剧。大多数（65%）faerie dragon 会按随附表格所示等级、像魔法使用者一样施法；35% 会使用德鲁伊法术。所有法术选择都只考虑制造恶作剧的潜力。除非某只 faerie dragon 想出了一个精妙的恶作剧，否则不会学习攻击性或防御性法术。所有 faerie dragon 在第一次有机会时都会学习水下呼吸和传说学识术。 虽然许多 faerie dragon 的恶作剧是临时起意，但一个大型恶作剧往往要准备数月。Faerie dragon 喜欢游泳和潜水。它们能够悬停，机动等级为 A。它们吃水果、根、块茎、坚果、蜂蜜和谷物，有时会费尽心思弄到新鲜苹果派。 所有 faerie dragon 都能在最远 2 英里的距离内相互进行心灵感应交流。它们会说自己的语言和阵营语言，以及 sprite、pixie、elf 的语言，还有当地鸟兽的语言。它们经常利用森林生物帮助自己制造恶作剧。 Faerie dragon 看起来像纤细的微型龙，长着可抓握的长尾巴、蝴蝶翅膀和巨大的笑容。它们的颜色从极幼个体的红色到远古个体的紫色，范围见附表。雌性的皮肤在阳光下闪耀明亮金色，雄性则带有银色光泽。 ### Faerie Dragon 法术 #### 魔法使用者法术 | 等级 | 法术 | |---:|---| | 1 | 舞光术、传讯术、睡眠术、无形仆役、腹语术 | | 2 | 听觉幻象、遗忘术、浮空术、魔法嘴、烟火术 | | 3 | 飞行术、幻象力场、缓慢术、建议术、水下呼吸 | | 4 | 火焰魅惑、笨拙术、幻境、变形他人、变形自身 | | 5 | 距离扭曲、Mordenkainen 的忠诚猎犬、心灵遥控、石转泥、力墙术 | | 6 | 控制天气、传说学识术、投影术 | | 7 | 有限愿望、拟像术 | | 8 | Otto 的不可抗拒之舞 | #### 德鲁伊法术 | 等级 | 法术 | |---:|---| | 1 | 动物友谊、纠缠、妖火、无踪通过、与动物交谈 | | 2 | 魅惑人类或哺乳动物、制造水、遮蔽、绊倒、弯曲木材 | | 3 | 植物生长、烟火术、塑石术、水下呼吸 | | 4 | 召唤动物（1）、召唤林地生物、控制半径 10 英尺内温度、与植物交谈 | | 5 | 动物生长、控制风、石转泥 | | 6 | 植物传送、召唤天气 | | 7 | 活化岩石 | ### Faerie Dragon 年龄表 | 颜色 | 魔法抗性 | 魔法使用者等级 | 德鲁伊等级 | |---|---:|---:|---:| | 红 | 12% | 2 | 3 | | 红橙 | 24% | 4 | 4 | | 橙 | 35% | 6 | 5 | | 黄 | 48% | 8 | 6 | | 绿 | 60% | 10 | 8 | | 蓝绿 | 72% | 12 | 10 | | 蓝 | 84% | 14 | 12 | | 紫 | 96% | 16 | 14 | | 年龄等级 | 生命值 | 年龄 | |---:|---:|---| | 1 | 1–2 | 极幼 | | 2 | 3–4 | 幼年 | | 3 | 5–6 | 亚成体 | | 4 | 7–8 | 年轻成年 | | 5 | 9–10 | 成年 | | 6 | 11–12 | 老年 | | 7 | 13–14 | 极老 | | 8 | 15–16 | 远古 |",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Faerie Dragon"
+      }
+    ]
+  },
+  {
+    "id": "mm2-froghemoth",
+    "nameZh": "Froghemoth",
+    "nameEn": "Froghemoth",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 2,
+    "armorClassText": "2（触手）／4（身体）／6（舌头）",
+    "movement": "2\"/8\"（普通沼泽中 4\"）",
+    "hitDice": "16（见下文）",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 或 4",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "见下文",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "L（长 18 英尺，宽 10 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Froghemoth 体型巨大而怪异，只在拥有大型猎物的巨大沼泽或相对浅（100 英尺或更浅）的淡水水域中发现。除了春季交配期，它们都是独居生物。晚春时，雌性只会产下 10–100 枚直径约 1 英尺的蛋。这些蛋会被留在浅水中；Tadhemoth 孵化后，其中约 90% 会被较早孵化的同类或其他掠食者吃掉。少数幸存者会寻找更深的水域，在那里生长 3 年后成年。存活率约为 1–4%。 Froghemoth 的触手非常强壮，覆盖着厚实而坚韧的皮肤。4 条触手每条约长 15 英尺或更长。怪物的身体受到的保护只比触手略差；其中一条触手需要 19–22 点伤害才能被切断或使其失去作用，而怪物身体在真正死亡前能够承受完整的 16 生命骰伤害（16–128 点）。受伤的肢体会在 2–5 周内愈合或再生。舌头是最脆弱的攻击附肢，只需 12–16 点伤害即可切断。 Froghemoth 在水中的移动相当迅速，靠有蹼的后足蹬水推动身体前进。在沼泽或湿地中，Froghemoth 会腹部贴地滑行，靠后腿和触手推动。在干燥陆地上，它通过短促的跳跃移动，触手远远伸在前方，腿则把身体向前并向上托起。 Froghemoth 唯一可能拥有的财宝，是粗心受害者遗落的物品。大多数猎物会在怪物巢穴之外被杀死并吞食；巢穴通常是被水淹没的树木和碎屑集合处。正常的狩猎／攻击方式是伏击。怪物会把身体沉在水下，只让可伸缩的眼柄升到完整的 3 英尺高度、刚好露出水面，鼻柄也如此；4 条触手则向前伸出，通常在岸边附近，伺机抓住毫无防备的受害者。 另一种伏击方式是怪物蹲伏在遮蔽性的植被中；当猎物进入范围，它会把头向前伸出，用 10 英尺长、带倒刺的舌头（力量 18/50）猛抽并捕获猎物。舌头会立即收回，把受害者拖向满是牙齿的巨口；掷出 19 或 20（若目标为 S 体型则为 14–20）时，受害者会被整个吞下；否则会因撕咬和咀嚼受到 5–50 点伤害。 被整个吞下的生物会立即受到消化液造成的 4–16 点伤害。它们只能使用匕首或类似的短型刺击武器攻击怪物的胃，不包括短剑。留在胃中的每个后续回合还会受到 4–16 点伤害。受害者在 2 轮后失去意识。当生命值降至 -10 或更低时，受害者会被消化并完全消失，此后任何形式的复活都不再可能。 如果被舌头抓住的受害者没有被突袭（1 或 2），则将 1d6 的结果（3、4、5 或 6）与用来决定 Froghemoth 速度和准确性的 1d8 结果（1–8）比较。如果受害者的结果等于或高于 Froghemoth，就可以尝试抓住某个固定物体，抵抗被拖向怪物巨口。如果够得到这种物体，成功抓住并保持住它就能抵抗拖拽。 除非猎物的力量超过 18/50，否则在被抓住之后的每一轮，都必须把自己的 1d6 结果与 Froghemoth 的 1d8 结果比较。任何低于 1d8 结果的结果，都表示受害者失去抓握，随即被咬住或立即吞下。被舌头抓住的生物不能攻击舌头，但同伴可以攻击它。与此同时，怪物会用触手伤害正在抵抗的猎物以及协助它的人。 如果 Froghemoth 的舌头被切断，它会用触手攻击 2–5 轮，每次造成双倍伤害（10–16 点生命值）。如果之后仍受到活跃对手的抵抗，它就会退回水中并潜伏起来疗伤。 普通火焰不会伤害 Froghemoth，但极大的火焰或极热的火焰会造成一半正常伤害，并使怪物退后 1 轮。除非 Burning Hands 造成 10 点或更多伤害，否则不会让 Froghemoth 后退；但 Fireball、Flame Strike 等法术会使其后退。电击攻击每颗伤害骰只造成 1 点伤害，并使生物在 1 轮内的移动和攻击速度降为正常的一半。其他攻击方式造成正常伤害。 Froghemoth 的腹部为黄色；后腿和触手的下侧为淡黄色。侧面为浅绿色，背部以及上腿和触手为斑驳的绿色。眼柄为黄绿色，两个鼻柄也是黄绿色。眼球为带绿色调的琥珀色，竖直裂缝状瞳孔为明亮的绿色，边缘带橙色。 ### Tadhemoth 阶段 未成熟的 Froghemoth 在 6 个月内每月生长约 1 英尺，之后速度减慢 60%，直到成熟。早期形态在胸部区域有 4 个鳍，后部有 2 个鳍。这种生物像鱼一样，并有凶猛的咬击（2–8 点生命值）。6 个月后，胸部的生长物开始拉长成为触手，而后部肢体直到 Tadhemoth 阶段最后一两个月才出现明显变化；那时它们会变长，成为粗壮而弯曲、脚趾带蹼的腿。 初步成长后，生物的嘴会显著增大，伤害数值根据体型为 3–24、4–32 或 5–40。Tadhemoth 完全水生，拥有鳃，游泳速度为 16\"。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Froghemoth"
+      }
+    ]
+  },
+  {
+    "id": "mm2-galeb-duhr",
+    "nameZh": "Galeb Duhr",
+    "nameEn": "Galeb Duhr",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": -2,
+    "armorClassText": "-2",
+    "movement": "6\"",
+    "hitDice": "8–10",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "20%",
+    "intelligence": "非常高",
+    "alignment": "中立",
+    "size": "L（高 8–12 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Galeb Duhr 是一种奇特的巨石状生物，附肢充当手和脚。这些有智慧的生物体型巨大，行动缓慢。它们生活在岩石或山区，在那里能感受“土之力量”，并控制周围的岩石。 Galeb Duhr 可以像 20 级魔法使用者一样施放下列法术，每轮一次：移土术、塑石术、穿墙术、石转泥和石墙术。它们能像 Treant 控制树木一样，使 6\" 内的 1–2 块巨石活动起来（护甲等级 0；移动 3\"；生命骰 9；伤害 4d6）。 Galeb Duhr 受到寒冷类攻击时承受双倍伤害，并以 -4 惩罚进行对抗寒冷的豁免。它们不受闪电或普通火焰伤害，但会承受魔法火焰的全部伤害，对火焰攻击的豁免获得 +4。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Galeb Duhr"
+      }
+    ]
+  },
+  {
+    "id": "mm2-fomorian-giant",
+    "nameZh": "Fomorian Giant",
+    "nameEn": "Fomorian Giant",
+    "frequency": "不常见",
+    "numberAppearing": "1–4",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "9\"",
+    "hitDice": "13+1–3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "平均",
+    "alignment": "中立邪恶",
+    "size": "L（高 13.5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Fomorian 是巨人族中最丑陋、畸形且邪恶的种类。他们倾向于独居，栖息在山洞或废弃矿井等荒凉地点。他们厚实、多毛的皮肤，加上用于保护自身的毛皮和奇怪金属片，使有效护甲等级达到 3。 虽然这些畸形怪物相对于自身大小移动缓慢，但它们可以极其隐蔽地移动，并根据地形获得 +1 至 +3 的突袭优势。 如果在巢穴中遇到它们，则每名雄性有 25% 的概率会有 1–2 名雌性；每名雌性还会有 1–3 名幼体。雌性与雄性相同，但生命骰不获得额外加值。幼年 Fomorian 具有以下数据： | 体型阶段（年龄） | 生命骰 | 伤害 | |---|---:|---:| | 小型（1） | 7d4 | 2–8 | | 半成年（2–3） | 13d4 | 4–16 | | 接近成年（4–6） | 13d6 | 4–24 | 虽然畸形使它们无法投掷岩石，但同样的缺陷也让 Fomorian Giant 在正常情况下永远不会被突袭。位置奇怪的眼睛、巨大的耳朵和／或大鼻子，使它们能够察觉任何正常的接近方式。 使用的武器从巨大木棒到连接沉重金属球的链条不等。最强壮的 Fomorian 有时会使用粗制盾牌和更好的护甲，因此护甲等级可能达到 2，甚至 1。 Fomorian 会有可怕的畸形，例如一条手臂长在错误的位置；短腿上长着巨大的脚；像鱼一样位于侧面的眼睛，或者头后长着一只眼睛；背部有驼峰；尖而狭长的头；扇动的耳朵；张开的或极小的嘴；巨大的鼻子或口鼻部，等等。它们身上零散地长着一片片像铁丝一样坚硬的毛发。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Fomorian Giant"
+      }
+    ]
+  },
+  {
+    "id": "mm2-firbolg",
+    "nameZh": "Firbolg",
+    "nameEn": "Firbolg",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4 或 4–16",
+    "armorClass": 2,
+    "armorClassText": "2",
+    "movement": "15\"",
+    "hitDice": "13+2–7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "15%",
+    "intelligence": "平均至天才",
+    "alignment": "中立（混沌善良）",
+    "size": "L（高 10.5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "在巨人族的次要种族中，Firbolg 是最强大的。他们谨慎、狡猾，并拥有相当强的魔法力量。他们已经学会不信任并畏惧人类，只会出现在偏远而荒野的地方。90% 的遭遇会是小群 Firbolg 或一名独行者；不过有 10% 的概率，遭遇的是为某种目的聚集在一起的几个群体组成的联盟。 Firbolg 偏爱双手剑和大型 halberd。所有 Firbolg 武器都非常巨大，因此他们用一只手使用自己偏爱的、由人类制造的武器，而自己的武器则用一只或两只手使用。他们的双倍尺寸木棒、斧、矛等武器，若用双手使用，会造成双倍正常武器伤害。 一只手空闲的 Firbolg 能够拍开箭、弩矢、子弹、飞镖和石块之类的射弹，或抓住诸如标枪之类的射弹。他们每轮可以这样做两次，并在 1d20 上掷出 6 或更高即可成功（75% 的概率）。 除魔法抗性外，每名 Firbolg 还拥有与生命骰有关、且不受年龄影响的天生类法术能力；只要没有在近战中被其他事情占用，就能随意使用，每轮一次。这些能力是：侦测魔法、如药水般的缩小术（效果和最大持续时间均加倍）、伪造黄金、遗忘术和改变自身。每项能力每天可使用一次。 每遇到一名 Firbolg，就有 5% 的概率其中 1 名是萨满。不过，除标准萨满法术外，Firbolg 萨满还能每个等级使用 2 个随机决定的一环幻术师法术。在 6 级和 7 级时，Firbolg 萨满同样会获得随机决定的二环幻术师法术。因此，7 级萨满除其他法术和类法术能力外，还会有 10 个一环和 4 个二环幻术师法术。 这些看起来像人类的巨人并不总会张开双臂欢迎陌生人，但通常 Firbolg 不会试图杀死他们（当然，除非受到挑衅）。不过，他们确实喜欢伪装成小个子，骗走人类的财宝。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Firbolg"
+      }
+    ]
+  },
+  {
+    "id": "mm2-verbeeg",
+    "nameZh": "Verbeeg",
+    "nameEn": "Verbeeg",
+    "frequency": "不常见",
+    "numberAppearing": "1–2、1–6 或 5–30（见下文）",
+    "armorClass": 4,
+    "armorClassText": "4 或更好",
+    "movement": "18\"",
+    "hitDice": "5+5",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "投掷矛造成 1–6（+力量加值）",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "平均至非常高",
+    "alignment": "中立（邪恶）",
+    "size": "L（高 8.5–10 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Verbeeg 或人类巨人，是一种居住在与 hill giant 和 ogre（见相关条目）相同区域的人类巨人种族。与 Verbeeg 的遭遇有 30% 的概率会与 hill giant（40%）或 ogre（60%）一起发生；有 50% 的概率会遇到 1–6 名游荡生物；有 30% 的概率是在巢穴中，此时共有 5–30 名 Verbeeg；另有 20% 的概率会遇到 1–2 名加上其他生物。 由于 Verbeeg 有智慧，它们通常会指挥与其共同居住的 hill giant 或 ogre。此外，如果这些巨人拥有防护材料，也会用来改善护甲等级，例如毛皮、兽皮、盾牌等奇怪金属片。Verbeeg 通常使用木棒和矛，但那些能获得更好武器的个体会使用更好的装备。 Verbeeg 的力量范围为 18/51 至 18/00。掷 1d10 确定力量及相应加值： | 1d10 | 力量 | 加值与投掷距离 | |---:|---|---| | 1–2 | 18/51–75 | +3，投掷距离 +3\" | | 3–6 | 18/76–90 | +4，投掷距离 +4\" | | 7–9 | 18/91–99 | +5，投掷距离 +5\" | | 0 | 18/00 | +6，投掷距离 +6\" | 投掷矛拥有正常射程，另加 3–6\" 的奖励射程。因此，力量 18/00 的 Verbeeg 能把矛投到 9\" 远，造成 7–12 点伤害。每名 Verbeeg 遭遇时至少会有 3 支矛。 Verbeeg 的巢穴中总会有一名力量 18/00、生命值不低于 40 的首领。首领会有 2 名雌性，每多 1 名雄性就会有 1 名雌性。幼年 Verbeeg 约占总人口的 50%。当人口超过 9 时，所有遇到的 Verbeeg 有可能（每名 Verbeeg 2%）带有一名任意性别的萨满。Verbeeg 萨满最高可达 7 级。 部落有 90% 的概率不会拥有它们无法理解或使用的魔法物品。雌性与雄性在战斗中相同。幼年个体的战斗能力相当于 Bugbear（50%）或 Goblin（50%）。巢穴中会有 2–8 只狼（75%）或 1–4 只 worg（25%）作为守卫。在北极气候中，会饲养 1–3 只冬狼（25%）或 1–2 只北极熊（75%）来执行这一职责。 Verbeeg 相对于自身的巨大身高而言异常瘦削。有些还带有畸形，使其外表更加可怕。著名的 Verbeeg 通常是跟踪人类的恶棍（Jimmy Squarefoot 和 Jack-in-Irons 就是其中两名），除此之外它们看起来像人类。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Verbeeg"
+      }
+    ]
+  },
+  {
+    "id": "mm2-gibbering-mouther",
+    "nameZh": "Gibbering Mouther",
+    "nameEn": "Gibbering Mouther",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 1,
+    "armorClassText": "1",
+    "movement": "3\"/6\"",
+    "hitDice": "4+3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "6+",
+    "damage": "未记载",
+    "specialAttacks": "吐液、喃喃、对抗混乱的豁免",
+    "specialDefenses": "控制半径 5 英尺内地面的密度",
+    "magicResistance": "标准",
+    "intelligence": "半智能",
+    "alignment": "中立",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Gibbering Mouther 是一种类似变形虫的生命形态，由大量嘴和眼睛组成。它最喜欢闭上眼睛和嘴，潜伏等待，使自己看起来像一块土质材料。这样一来，它就能突袭偶然经过的队伍。它唯一的动机是吃掉一切可食且够得着的东西，无论食物是动物、植物还是矿物。由于过度饥饿，Mouther 的巢穴及周围区域都会被啃食得一干二净。 Gibbering Mouther 喜欢栖息在寒冷和地下区域。这种生物通过向前渗流来推动自身，先把数张嘴固定在地上，再将身体向前拉动。在泥浆和流沙等流动、黏稠的地形上，Mouther 能通过一连串肌肉收缩移动得更快。若有机会，它会使用自己的特殊能力改变地面（见下文），让这种快速移动方式成为可能。 Mouther 的大脑位于身体中部，而胶状身体使这个要害很难被击中；因此它的护甲等级为 1。 Mouther 的攻击方式不止一种。如果 Mouther 的唾液击中坚硬而寒冷的表面，就会爆发出明亮的闪光。若正在看向闪光的角色未能通过对抗石化的豁免，闪光会使其失明 1 轮。 Mouther 会伸出嘴并以每轮 6 张嘴进行撕咬。每张命中的嘴都会咬住目标，并在保持连接的每轮额外吸取 1 点伤害。当 3 张或更多嘴同时咬住一名角色时，该角色从此每轮必须检查是否滑倒。在 2d6 上掷出 4 或更低表示角色倒地（若敏捷为 15 或更高则获得 +1）。若角色倒地，Gibbering Mouther 会流过受害者，用另外 12 张嘴进行撕咬。如果有机会在拖倒一名受害者后继续捕猎，Mouther 会困住其他猎物。 当 Mouther 看见任何可食物体时，它可以开始发出语无伦次的喃喃声；除非在对抗法术时豁免成功，否则半径 6\" 内的所有角色都会陷入混乱。每听到喃喃声 1 轮，范围内角色都必须再次豁免。如果角色陷入混乱，掷 1d8 决定其行动： | 1d8 | 混乱行动 | |---:|---| | 1 | 徘徊 1 轮 | | 2–5 | 晕眩站立 1 轮 | | 6–7 | 攻击最近的活物 1 轮 | | 8 | 视为受到恐惧术影响（豁免获得 +2），逃跑 2 轮 | Mouther 会持续加热自己半径 5 英尺内的地面和石头，并能通过改变这种材料的稠度来控制其状态，使其变成面团状、黏稠的流沙或混凝土。改变泥土需要 5 段时间，而使石头转变为下一个最接近的形态需要完整 1 轮。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Gibbering Mouther"
+      }
+    ]
+  },
+  {
+    "id": "mm2-gloomwing",
+    "nameZh": "Gloomwing",
+    "nameEn": "Gloomwing",
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": 1,
+    "armorClassText": "1",
+    "movement": "1\"/12\"（MC：D）",
+    "hitDice": "5+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "信息素",
+    "specialDefenses": "混乱",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "M（翼展 8 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Gloomwing 是速度和敏捷都极高的空中食肉动物。它们的幼虫阶段是 tenebrous worm（见该条目）。虽然 Gloomwing 不如 tenebrous worm 强壮，但仍然是致命的对手，会积极寻找空中和地面上的猎物。 这种生物的翅膀和身体带有黑色与银色的几何图案；任何从正上方直视怪物的有智慧生物都会因此陷入混乱（对抗法术豁免，否则混乱）。这种色彩还提供了极佳的伪装，使 Gloomwing 几乎无法被发现。因此，Gloomwing 在 1d6 上掷出 1–3 时获得突袭。 地面上体型小于半身人的生物会被带走，并在半空中吞食；较大的猎物则会遭到悬停和劈砍攻击，使用 2 只前爪和颚，因为这种生物缺乏同时使用全部 8 只爪的力量和协调能力。在近战的第 2 轮以及每个后续轮次，Gloomwing 会释放一种可能导致非昆虫生物虚弱的信息素。暴露的生物必须进行对抗毒素的豁免，否则每暴露一轮失去 1 点力量。失去的力量会在暴露停止后 1–4 段时间恢复。第一次豁免成功的生物不必再次豁免，多个 Gloomwing 也不要求多次豁免。 这种气味还可能吸引额外的 1–4 只 Gloomwing（每轮 20% 的概率，与现场已有 Gloomwing 的数量无关）。 产卵雌性（1d6 掷出 1–2）会把被杀死猎物的尸体用作产卵处；12 天后，4–10 条 tenebrous worm 会从尸体中孵出。除非用祛病术清除感染，否则尸体无法承受任何复活尝试。如果不杀死蠕虫，它们会将尸体完全吞食。 Gloomwing 是巨大的蛾，翅膀和身体布满黑银条纹。大型蕨类植物般的触角为暗紫貂色，尖端为白色。8 条腿的每一条都装备着彩虹色珍珠爪。伸出的嘴配有两组象牙颚，每只 Gloomwing 的颚价值 25 gp。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Gloomwing"
+      }
+    ]
+  },
+  {
+    "id": "mm2-goat",
+    "nameZh": "Goat",
+    "nameEn": "Goat",
+    "frequency": "不常见",
+    "numberAppearing": "5–20",
+    "armorClass": 7,
+    "armorClassText": "7",
+    "movement": "15\"",
+    "hitDice": "1+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "冲锋",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Goat 栖息在丘陵、平原和山地的灌木丛生区域。除非被逼入绝境，否则它们只会攻击。雄山羊可以发动冲锋，使命中骰获得 +2，并额外造成 1–2 点伤害。一群 Goat 由 1–2 只雄山羊、最多 12 只雌山羊以及其余的幼崽组成；幼崽不是战斗者。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Goat"
+      }
+    ]
+  },
+  {
+    "id": "mm2-gorgimera",
+    "nameZh": "Gorgimera",
+    "nameEn": "Gorgimera",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 5,
+    "armorClassText": "5/2",
+    "movement": "12\"/15\"（MC：E）",
+    "hitDice": "10",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "5",
+    "damage": "未记载",
+    "specialAttacks": "吐息武器（2 种）",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "半智能",
+    "alignment": "混沌邪恶",
+    "size": "L（肩高 5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "虽然 Gorgimera 的外表与 Chimera 相似，但它是更可怕的怪物。这种不育的混合体拥有 gorgon 的后躯和头部、lion 的前躯和头部，以及 red dragon 的中段身体、翅膀和头部。 只有 Lion 部分的护甲等级为 5。Gorgimera 可以用爪攻击，用 Lion 头咬击，用 Gorgon 头顶撞，用 Dragon 头咬击。此外，Gorgon 头每天可以两次呼出石化吐息（长 3\"、底部宽 1\" 的锥形区域），Dragon 头每天可以两次呼出火焰吐息（长 5\"、底部宽 2\" 的锥形区域）。 面对 10 英尺或更远的对手时，怪物总会使用其中一种吐息武器，因为它知道吐息武器的范围和效果。在近战中，它有 1/6 的概率使用火焰吐息，也有相同概率使用石化吐息（掷 1d6：1=龙息；2=石化吐息；3–6=标准攻击顺序）。 龙息造成 3–24（3d8）点伤害，适用对抗吐息武器的豁免。除非受害者成功通过对抗石化的豁免，否则 Gorgon 吐息会将其变成石头。Gorgimera 会说一种极其有限的 red dragon 语言。Gorgon 头能够看入星界位面和以太位面，其吐息武器也能延伸到这些位面。 Gorgimera 看起来几乎与 Chimera 完全相同，只有 Gorgon 部分呈金属蓝色。Gorgon 的眼睛为带红色边缘的淡蓝色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Gorgimera"
+      }
+    ]
+  },
+  {
+    "id": "mm2-greenhag",
+    "nameZh": "Greenhag",
+    "nameEn": "Greenhag",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": -2,
+    "armorClassText": "-2",
+    "movement": "12\"/12\"",
+    "hitDice": "9",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "35%",
+    "intelligence": "低至非常高",
+    "alignment": "中立邪恶",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Greenhag 是一种邪恶生物种族，与 annis 和 nighthag（见相关条目）都有亲缘关系。和 annis 一样，Greenhag 栖息在主物质位面。许多这种可怕生物生活在森林和荒凉的沼泽地，也有一些居住在湿地和河流中。后面这些通常被称为 shellycoat。它们的巢穴总是一个小洞穴，可能是挖在土中的。 任何种类的 Greenhag 都用岩石般坚硬的爪子抓击攻击。它们的力量为 18/00，因此每次这种攻击的伤害额外获得 +6。 为了把受害者引诱到身边，Greenhag 通常使用模仿能力。这使它们能够模仿成年或未成年、男性或女性、人类或半人类的声音。呼救声、哭泣声等都是 Greenhag 经常使用的欺骗手段。它们还能够模仿常见动物的声音，例如家禽、猫、狗、山羊、绵羊和牛的声音。 Greenhag 拥有以下类法术能力：一次只能使用 1 项，每轮 1 次，且可以随意使用：听觉幻象、舞光术、隐形术、无踪通过、改变自身、与怪物交谈、水下呼吸、虚弱术。每项能力都按 9 级能力施展。 由于颜色，以及它们有 90% 的概率能够无声移动并藏在树叶中（即使是水下植物），Greenhag 以 5/6 的概率发动突袭（若从隐形状态攻击则为 19/20）。由于感官极其敏锐，包括红外视觉和超视觉，它们只有 1/20 的概率被突袭。 Greenhag 会说自己的语言（Annis 的一种方言）、Ogre 语、通用 Giant 语和通用语。 典型的 Greenhag 看起来像有绿色皮肤的 Nighthag。毛发颜色从接近黑色到橄榄绿色不等，眼睛颜色从琥珀色到橙色不等。它们经常像农民一样穿衣。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Greenhag"
+      }
+    ]
+  },
+  {
+    "id": "mm2-grippli",
+    "nameZh": "Grippli",
+    "nameEn": "Grippli",
+    "frequency": "罕见",
+    "numberAppearing": "1–10；巢穴内 5d6",
+    "armorClass": 9,
+    "armorClassText": "9",
+    "movement": "9\"/15\"",
+    "hitDice": "1+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "以 1–4 突袭",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非常高至非凡",
+    "alignment": "中立",
+    "size": "S（高 2.5 英尺）",
+    "psionics": "1561–250；攻击/防御模式：A、C/G、J",
+    "environment": "原条目未单列",
+    "description": "Grippli 看起来像小型、聪明的类人树蛙。它们吃昆虫和水果。Grippli 的手脚适合在树枝间轻松移动。它们的寿命可达 700 年，后代很少。Grippli 生活在沼泽和雨林中。灰绿色的皮肤为它们提供天然伪装（以 1–4 突袭）。它们拥有 10\" 范围的超视觉，因此无论昼夜都能很好地活动。 Grippli 不好战。它们喜欢鲜艳的颜色，据说曾袭击旅行者，偷走鲜艳衣物来装饰自己的小屋。它们用套索、网、毒镖和弩矢保护自己，偶尔也使用剑或匕首。少数个体（1%–2%）拥有灵能力量。 Grippli 的巢穴建在地面上，由泥土和木头小屋组成。巢穴中会有 5–30 名雄性、同样数量的雌性以及 1–6 名后代（非战斗者）。此外，部落母亲也会在那里；她的护甲等级为 7，生命骰为 3，伤害为 1d6+1，并且每天一次可以释放麝香云，将其视为臭云术。部落母亲会有 1–3 名配偶，配偶的护甲等级为 8，生命骰为 2，伤害为 1d4+1 毒素。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Grippli"
+      }
+    ]
+  },
+  {
+    "id": "mm2-grig",
+    "nameZh": "Grig",
+    "nameEn": "Grig",
+    "frequency": "极罕见",
+    "numberAppearing": "2–12（或 5–50）",
+    "armorClass": 2,
+    "armorClassText": "2",
+    "movement": "6\"（或跳跃 12\"）",
+    "hitDice": "1/2+1（2–5 点生命值）",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3 或 2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "法术",
+    "magicResistance": "30%",
+    "intelligence": "低至平均",
+    "alignment": "中立善良",
+    "size": "S（高 1.5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "跳跃的 Grig 看起来像某种 Sprite。它们只在 sylvan woodland 和草地中发现，害羞怕生，但其他方面性情善良友好。它们是夜行生物，在大多数情况下会在林间空地被遇到。那里可能有 1 个或几个其他 Grig 群体，或者一支 Atomie 部族（见该条目），或两者都有；它们会聚集在月光下游戏和跳舞。 其他 Grig 或 Atomie 出现的概率为 30%：1–15=5–50 只 Grig；16–25=2–12 只 Grig 和 30–120 只 Atomie；26–30=5–50 只 Grig 和 30–120 只 Atomie。一个或多个 Grig 会演奏弓弦乐器，其他成员则享受圆圈舞和其他消遣。 Grig 的高护甲等级来自体型、敏捷和跳跃能力。它们的腿更像蟋蟀或蚱蜢，而不是 Sprite 的腿；再加上小而纱质的翅膀，这些肢体使 Grig 能跳跃很远的距离。 它们只攻击邪恶敌人或骚扰 Grig 的人。通常会结合发射投射物和近战攻击。由于技巧和敏捷，Grig 投掷投射物时命中获得 +2。每只 Grig 至少携带 6 支小镖，会在跳跃飞行中投掷；随后落地，用针状匕首刺击。 Grig 的小镖由 Grig 使用时等同大型镖，但其他人使用时每支只造成 1 点伤害。同样，Grig 的匕首对 Grig 而言等同短剑造成伤害，但在其他人手中只是一把小刀。 Grig 拥有以下类法术能力：一次只能使用 1 项，每轮 1 次，可以随意使用：改变自身、纠缠、隐形术、烟火术、绊倒和腹语术。这些魔法能力按 6 级能力使用。 Grig 喜欢用这些魔法进行快乐的恶作剧，也用来保护自己；与这些生物相遇时，人们报告过许多恶作剧。 Grig fiddler 有 25% 的概率能够演奏出效果等同于魔法使用者法术 Otto's Irresistible Dance 的曲调。对抗法术的豁免适用于演奏者 30 英尺范围内的所有生物。豁免失败意味着受害者必须一直跳舞，直到 Grig 停止演奏，或受害者因疲惫倒下。Grig 可以演奏数小时。 Grig 有 90% 的概率发动突袭，自己被突袭的概率只有 10%。它们的听觉是人类正常水平的两倍，拥有 180 英尺红外视觉和超视觉。 除了自己的语言外，Grig 还会说 Atomie、Brownie、Pixie 和 Sprite 的语言。当然，如果它们愿意放慢语速并降低音调，也能说通用语。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Grig"
+      }
+    ]
+  },
+  {
+    "id": "mm2-grim",
+    "nameZh": "Grim",
+    "nameEn": "Grim",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 0,
+    "armorClassText": "0",
+    "movement": "18\" 或 36\"（猫头鹰形态 MC：C）",
+    "hitDice": "4+2–8",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "见下文",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "25%",
+    "intelligence": "平均",
+    "alignment": "中立善良",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Grim 是守卫者，会监视并对抗邪恶。它们是夜行生物，通常出没于人类聚居地的边缘或墓地。Grim 会以以下形态中的任意一种被遇到：黑猫（攻击方式如 Giant Lynx：1–2/1–2/1–4，并带撕裂攻击）、黑狗（攻击方式如 War Dog：2–8）以及黑猫头鹰（攻击方式如 Giant Owl：2–8/2–8/2–5）。 每只 Grim 必须以所选形态完整维持一整夜。白昼时它们会变成以太态，等待太阳落山。前一天承受的伤害会在第二天日落时减轻。 除所选形态本身的攻击方式外，Grim 还能像 8 级牧师一样驱散不死生物；如果对象是来自下层外层位面的邪恶生物，驱散骰获得 +2。 只有具有 +7 或更高魔法附魔的武器才能命中 Grim。每只 Grim 会在 10 英尺半径内持续散发防护邪恶，并能在 7\" 距离内侦测邪恶。因此，邪恶生物永远不会突袭它们，而它们的感官使其能够以 1/10 的概率突袭其他生物。 Grim 通常驱逐邪恶生物，并警告善良生物这些怪物即将带来的危险。警告通过奇怪的叫声完成，可能是哀鸣、嚎叫或悲伤语调的呜咽。除非眼前即将发生冲突，否则它们不会与人类或半人类交流，也不会为此做其他事情；在这种情况下，它们总会协助对抗邪恶。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Grim"
+      }
+    ]
+  },
+  {
+    "id": "mm2-chaggrin",
+    "nameZh": "Grue, Elemental",
+    "nameEn": "Chaggrin",
+    "frequency": "极罕见（不常见）",
+    "numberAppearing": "1（2–5）",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "12\"（3\"）",
+    "hitDice": "5+5",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "需要 +7 或更好的武器才能命中；免疫土元素魔法",
+    "magicResistance": "标准",
+    "intelligence": "低至平均",
+    "alignment": "中立邪恶",
+    "size": "S",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Chaggrin 或 soil beast，是来自土元素位面的 Grue。在主物质位面上，它通常呈现黄色刺猬的形态，但像头骨一样的头部很容易将它与普通动物区分开。它虽然只有 2–3 拃长，却重达 140 磅，有些甚至重达 210 磅。 Chaggrin 喜欢折磨受害者，通常会把长而锋利如剃刀的前爪挖进猎物体内，然后抓住不放；可怜的受害者会四处奔逃，试图逃离或甩掉这个 Grue。 这种黏附每轮额外造成 7–12 点伤害。若 Grue 处于刺猬形态，未受保护的皮肤接触它的刺，每轮会受到 1–4 点伤害。 任何影响土地的法术都不能对 Chaggrin 生效，包括地震术、挖掘术、透视术、石化术、塑石术、穿墙术、移土术、玻璃钢术、石转泥、石墙术和石转肉。仅仅有 Chaggrin 在这种魔法 40 英尺内，就会驱散该魔法，即使其魔法效果此前已经永久化。魔法物品不受影响。 Chaggrin 可以随意变成大型鼹鼠、刺猬或双足类人形态。最后一种是它在自己位面的自然形态。在这种形态下，它能融入天然土壤或石头的表面，并突然出现，以 1–5 的概率突袭对手。唯一能发现这个 Grue 存在的线索，是仔细观察区域时才能隐约看见的一道潮湿、黑暗轮廓。 Chaggrin 的自然形态令人恶心。身体看起来像块状、潮湿的黏土，面容不对称而凶恶。小眼睛闪烁着野兽般的光芒。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Chaggrin"
+      }
+    ]
+  },
+  {
+    "id": "mm2-phororhacos",
+    "nameZh": "Phororhacos",
+    "nameEn": "Phororhacos",
+    "frequency": "不常见",
+    "numberAppearing": "2–12",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "15\"（跳跃 +1）",
+    "hitDice": "7+7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "L（10 英尺高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Phororhacos 是中新世时期不会飞的鸟。它是无所畏惧的杀手，即使处于数量劣势也经常攻击。它跳跃攻击时（初次攻击总会这样做），爪击造成双倍伤害（2–8/2–8）。这种生物不是恐龙，但可以在支持这类生命形态的环境中生存。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Phororhacos"
+      }
+    ]
+  },
+  {
+    "id": "mm2-podokesaurus",
+    "nameZh": "Podokesaurus",
+    "nameEn": "Podokesaurus",
+    "frequency": "不常见",
+    "numberAppearing": "3–12",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "21\"",
+    "hitDice": "2+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S（10 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些敏捷的食肉动物在三叠纪的草原上成群捕猎。它们会逃离更大的捕食者，却会无情追逐任何被视为猎物的生物。Podokesaurus 从吻部到尾部虽然有 10 英尺长，但身体纤细、体重很轻。因此这些生物速度极快，通常会先发动攻击；它们的速度也解释了其良好的护甲等级。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Podokesaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-struthiomimus",
+    "nameZh": "Struthiomimus",
+    "nameEn": "Struthiomimus",
+    "frequency": "不常见",
+    "numberAppearing": "1–6",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "18\"",
+    "hitDice": "6+3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "L（16 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种上白垩纪恐龙是杂食动物。它必须非常饥饿才会攻击人类，但较小的类人生物和半人类会被视为可能的食物。它通常偏好高草地区作为栖息地。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Struthiomimus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-tanystropheus",
+    "nameZh": "Tanystropheus",
+    "nameEn": "Tanystropheus",
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "6\"//18\"",
+    "hitDice": "6+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "1–6/1–6/3–12；5/6 的概率突袭",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（31–40 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种生物像一条长着细长突出腿的蛇，后腿有蹼，适于游泳。它约有一半长度是脖子和头部。头和颚很长，颚内布满锋利牙齿；相对于身体，头部很小。这种食肉动物潜伏在河岸和沼泽边缘，在水中巡游。突袭攻击时，命中获得 +2。如果受害者体重低于 500 磅，怪物会把它拖入水中，进一步攻击并吞食。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Tanystropheus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-tennodontosaurus",
+    "nameZh": "Tennodontosaurus",
+    "nameEn": "Tennodontosaurus",
+    "frequency": "罕见",
+    "numberAppearing": "1（10% 的概率为 2）",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "//24\"",
+    "hitDice": "10",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1（和 1）",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（30 英尺以上长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种怪物是大型鱼龙。虽然它不是恐龙，却和 mosasaur 等生物一样繁盛于海洋环境。它的速度与凶猛使它能够和任何生物争夺猎物。Tennodontosaurus 进食狂热时，会用强有力的尾巴抽击；任何位于其身后的生物被尾巴击中都会受伤。它会无所畏惧地攻击，也会为了争夺食物与其他捕食者战斗。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Tennodontosaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-diakk",
+    "nameZh": "Diakk",
+    "nameEn": "Diakk",
+    "frequency": "常见",
+    "numberAppearing": "2–16",
+    "armorClass": 0,
+    "armorClassText": "0 或 3",
+    "movement": "21\" 或 12\"",
+    "hitDice": "6+6 或 8+8",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 或 2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "30%",
+    "intelligence": "低至平均",
+    "alignment": "中立邪恶（守序）",
+    "size": "L 或 M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "哈得斯的阴郁之地住着许多怪物，其中最常见的是 diakka。与 hordling（这些位面上第二常见的居民）不同，diakka 组织性更强，不喜欢反复无常的行为。 Diakka 面对明显强大的对手时，通常会试图把对手逼成紧密的一团。它们围住对手，并使用听觉幻象，让人听起来像有更多 diakka 正在逼近。最大型的 diakka 会在近战中进进出出，适时使用跳跃和虚弱术。如果至少 4 只这种生物成功绕着对手转圈，同时连续 4 轮发出奇怪的叫喊和呱呱声，那么这种盘旋舞蹈的声音和节奏会引发一种催眠式虚弱，其区域效果与虚弱射线法术完全相同。每个目标都必须进行对抗法术的豁免，不受魔法抗性影响；失败者如同受到 13 级魔法使用者施放的虚弱术影响，即力量损失 40%，持续 13 轮。 对手受到影响后，单只 diakka 会使用物理攻击和剩余的类法术能力杀死猎物，随后整群生物享用尸体。虽然并不聪明，diakka 不会愚蠢地攻击。初次接触时，群体中最强大的成员会评估遇到的对象，判断其意图和弱点。弱点会让对手陷入远比敌意更危险的处境。只有在某种安抚方式无法奏效时，它们才会攻击极其强大且敌意明显的生物。没有 diakk 想被杀死，无论最后是被吃掉还是怎样（因为它们经常被 hordling 以及这些位面的其他居民吃掉）。即使不同群体之间也互不信任，因为群体服从强者统治。 偶尔可以在主物质位面找到一只 diakk，但它总是因为召唤而出现。Night hag 经常使用 diakka 作为守卫。Diakka 会说哈得斯通用的仇恨语言，也会说自己的语言。 Diakka 有两种：高型（HD 6+6）与宽型（HD 8+8）。下面会说明两者的区别，但它们不是彼此分离的种族；任意群体都会有数量相等或近乎相等的两种类型。它们的巢穴中总会有 13–16 只这种生物。 高型 diakk 可以用长而锋利的喙造成凶猛的刺击；宽型 diakk 用长着爪的手臂撕抓。两种 diakka 都可以随意使用下列类法术能力，一次一种、每轮 1 次：攻击时以接触施展虚弱术（每天 1 次）、跳跃术（每天 2 次）、听觉幻象（每天 1 次），以及仅能由群体施展的虚弱术（见上文）。 高型 diakka 像长着喙的巨大鹳鸟，拥有类人的头和脸以及细长的类人手臂。宽型 diakka 像巨大而矮胖的鹈鹕，类人头部长着缩短的喙；它们没有翅膀，而是有短粗的手臂，末端长着巨大弯曲的爪子。羽毛颜色呈令人恶心的色调和组合，并且变化极大，包括豌豆绿与锈红橙、紫色与橙色及粉色、肮脏的黄色。头部有羽毛，但脸部颜色鲜艳且没有羽毛。腿、喙、脚、爪等通常为黑色、深棕、栗色或深绿色。高型 diakka 非常快，会发出类似潜鸟的叫声；宽型 diakka 相当缓慢，攻击时会发出吞咽般的呱呱声和乌鸦叫。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Diakk"
+      }
+    ]
+  },
+  {
+    "id": "mm2-ankisaurus",
+    "nameZh": "Ankisaurus",
+    "nameEn": "Ankisaurus",
+    "frequency": "常见",
+    "numberAppearing": "2–20",
+    "armorClass": 7,
+    "armorClassText": "7",
+    "movement": "12\"",
+    "hitDice": "2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "攀爬",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "M（7 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些双足食草动物可以直立进食，也可以四肢着地进食。如果附近有足够大的植被，它们会爬上去躲避小型捕食者。它们的牙齿足够锋利，能对对手进行反击式撕咬，但它们并不主动攻击。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Ankisaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-camptosaurus",
+    "nameZh": "Camptosaurus",
+    "nameEn": "Camptosaurus",
+    "frequency": "常见",
+    "numberAppearing": "2–16",
+    "armorClass": 7,
+    "armorClassText": "7",
+    "movement": "9\"（冲锋时 18\"）",
+    "hitDice": "1–3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "0",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S、M 或 L",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些行动迟缓、极其愚蠢的生物是任何饥饿捕食者的容易猎物。它们通常愚蠢到直到同伴中的一只被杀才会逃跑。任何被卷入这些生物冲锋的人，都必须进行对抗死亡射线的豁免，否则会被踩死。一个群体会由小型、中型和大型个体组成。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Camptosaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-compsognathus",
+    "nameZh": "Compsognathus",
+    "nameEn": "Compsognathus",
+    "frequency": "常见",
+    "numberAppearing": "1–12",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "10\"",
+    "hitDice": "1-1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "1d6 掷出 1–3 时突袭",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S（1.5 英尺高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Compsognathus 是侏罗纪时期非常小的食肉恐龙。这些生物经常成群捕猎。它们身材小，即使成群也容易隐藏并突袭猎物。夜间可能攻击熟睡的猎物，因为 compsognathus 往往在夜间活动。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Compsognathus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dacentrurus",
+    "nameZh": "Dacentrurus",
+    "nameEn": "Dacentrurus",
+    "frequency": "不常见",
+    "numberAppearing": "2–8",
+    "armorClass": 3,
+    "armorClassText": "3/6",
+    "movement": "9\"",
+    "hitDice": "10",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（15 英尺长，6 英尺高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种生物看起来像一只背部和尾部长着长而锋利尖刺、取代骨板的剑龙。它也是一种积极防御者，主要生活在植被茂密的地区。受到攻击时，它的主动防御有 75% 的概率使护甲等级为 3。攻击者在击打这种恐龙的颈部、背部或尾部时，还有 25% 的概率必须承受一次造成 1–8 点伤害的反击。Dacentrurus 会不断转动身体，让摆动的尾巴能够击打对手。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dacentrurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-deinonychus",
+    "nameZh": "Deinonychus",
+    "nameEn": "Deinonychus",
+    "frequency": "罕见",
+    "numberAppearing": "1–6",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "21\"（跳跃 +1）",
+    "hitDice": "4+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "撕腹爪，造成 2–12",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（12 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种快速食肉动物把速度、长而能抓握的前臂、大牙齿以及带撕裂爪的后腿组合成可怕的攻击方式。它通过奔跑追猎、跳跃，并在抓挠和撕咬的同时用后腿进行撕腹攻击。跳跃式后爪攻击命中获得 +2，并造成 2–12 点伤害。由于这些恐龙只有约 6 英尺高，它们可能会被误认为相对无害的生物。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Deinonychus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dilophosaurus",
+    "nameZh": "Dilophosaurus",
+    "nameEn": "Dilophosaurus",
+    "frequency": "罕见",
+    "numberAppearing": "1–3",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "18\"（跳跃 +1）",
+    "hitDice": "8+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（20 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种怪物脆弱的头骨不适合附着强大的颚部肌肉，因此它使用带爪的后脚，特别是脚上的刺，对猎物造成可怕伤口；同时用蛇一样的颈部伸头撕咬。它偏爱开阔区域而不是丛林，很少进入树木密集的地区。Dilophosaurus 经常与一只或多只同类一起捕猎，寻找大型恐龙杀死后享用。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dilophosaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dimetrodon",
+    "nameZh": "Dimetrodon",
+    "nameEn": "Dimetrodon",
+    "frequency": "不常见",
+    "numberAppearing": "1 或 2",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "12\"//6\"",
+    "hitDice": "3–5",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（9 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "“帆背” dimetrodon 是二叠纪早期的凶猛捕食者。它像短吻鳄，实际上是爬行动物而不是恐龙。它能否游泳尚不确定，但很可能可以。强力撕咬弥补了它没有爪击的缺陷。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dimetrodon"
+      }
+    ]
+  },
+  {
+    "id": "mm2-euparkeria",
+    "nameZh": "Euparkeria",
+    "nameEn": "Euparkeria",
+    "frequency": "常见",
+    "numberAppearing": "2–8",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "15\"",
+    "hitDice": "1+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S（3 英尺高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种下三叠纪的小型食肉恐龙祖先，大小约等于小狗。它们以 2–8 只成群出现；如果有 3 只或更多，就会攻击 1–2 个小型生物或单个类人生物大小的生物。如果足够饥饿，一群 euparkeria 会跟踪并攻击一大群猎物，尤其是在目标中有一人受伤时。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Euparkeria"
+      }
+    ]
+  },
+  {
+    "id": "mm2-kentrosaurus",
+    "nameZh": "Kentrosaurus",
+    "nameEn": "Kentrosaurus",
+    "frequency": "不常见",
+    "numberAppearing": "1–6",
+    "armorClass": 2,
+    "armorClassText": "2/6",
+    "movement": "9\"",
+    "hitDice": "11",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（16 英尺以上长，6 英尺以上高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种恐龙看起来像剑龙和 Dacentrurus 的混合体。脊柱区域从颈部到髋关节都有骨质背板保护；其后则是一路延伸到尾尖的锋利后弯尖刺。它会把尾巴转向敌人。攻击其后三分之一身体的生物有 25% 的概率遭到一次造成 1–8 点伤害的攻击。它有 80% 的概率以护甲等级 2 防御。Kentrosaurus 也生活在丛林中。（参见 “Dacentrurus”、“Stegosaurus”。）",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Kentrosaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-mamenchisaurus",
+    "nameZh": "Mamenchisaurus",
+    "nameEn": "Mamenchisaurus",
+    "frequency": "不常见",
+    "numberAppearing": "1–6",
+    "armorClass": 7,
+    "armorClassText": "7",
+    "movement": "6\"",
+    "hitDice": "18",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（80 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种生活在沼泽中的食草动物非常长，像一只瘦长的 diplodocus（见相关条目）。它用 35 英尺长的脖子取食；为了避免身体暴露在潜伏的捕食者面前，它会把身体浸在水中。它只会在防御时攻击，但如果不小心踩到某个小型生物（例如人类），会造成 3–24 点伤害。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Mamenchisaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-massopondylus",
+    "nameZh": "Massopondylus",
+    "nameEn": "Massopondylus",
+    "frequency": "不常见",
+    "numberAppearing": "4–16",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "15\"",
+    "hitDice": "7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（18 英尺以上）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种看似温顺的食草动物拥有长而锋利的牙齿，能够用来防御性撕咬。受到攻击时，它们会迅速咬击，然后逃跑。它们很愚蠢，任何陌生生物靠近都可能被理解为攻击。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Massopondylus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-nothosaurus",
+    "nameZh": "Nothosaurus",
+    "nameEn": "Nothosaurus",
+    "frequency": "不常见",
+    "numberAppearing": "1",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "3\"//18\"",
+    "hitDice": "14",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1（和 2）",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（60 英尺以上长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Nothosaurus 是一种特别好斗的海生恐龙。它生活在热带海域，不断寻找猎物。上岸时，它用鳍肢缓慢爬行，但游泳速度很快。陷入狂暴时，它会用巨大的前鳍肢横扫；这种攻击只会对皮肤柔软或体型小的生物造成伤害。它通常以迅疾的撕咬攻击，长脖子高速移动，把头甩向目标。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Nothosaurus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-ornitholestes",
+    "nameZh": "Ornitholestes",
+    "nameEn": "Ornitholestes",
+    "frequency": "罕见",
+    "numberAppearing": "2–12",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "24\"",
+    "hitDice": "2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "M（6.5 英尺高）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些在侏罗纪平原上游荡、速度极快的食肉动物，会捕猎从昆虫和蛋到与自身体型相当的各种小型猎物。虽然体重相当轻，但由于速度很快，很难击中。只要数量明显超过受害者且足够饥饿，ornitholestes 也会攻击大型生物。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Ornitholestes"
+      }
+    ]
+  },
+  {
+    "id": "mm2-hangman-tree",
+    "nameZh": "Hangman Tree",
+    "nameEn": "Hangman Tree",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 3,
+    "armorClassText": "3/6（附肢）",
+    "movement": "0\"（实际上）",
+    "hitDice": "每年 6 点生命值",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "每年龄 1%",
+    "intelligence": "低",
+    "alignment": "中立邪恶",
+    "size": "L（高 20 英尺以上）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Hangman Tree 因其绳索般的附肢而得名。这些强韧藤蔓的末端像套索，垂下时看起来就像悬挂的绳子。Hangman Tree 是落叶树，分布于温带至亚热带气候。浅根系和少量叶片使它们必须通过直接摄入蛋白质来补充营养，因此每棵树都会捕捉猎物。 Hangman Tree 能非常缓慢地移动，完全长成后每天实际只移动几英尺。幼树*每小时移动约 6 英尺，成熟树的速度约为其三分之一。所有 Hangman Tree 都独居。天气结冰时，它们会扎下主根并进入休眠。 Hangman Tree 对任何财宝都不感兴趣，而且因为不断移动，附近很少能找到财宝，不过无法消化的物品会定期从树干腹部排出。 树会把套索般的附肢垂向猎物进行攻击。每棵树有 6–9 条附肢，但一次只能控制 3 条。切断并摧毁一条藤蔓需要 13–20 点伤害；这不计入对树本体造成的伤害。 藤蔓附肢接触受害者后会收紧。藤蔓每轮造成 1–3 点伤害，并收紧、吊起重达 1000 磅的猎物，将其送到上方树干的开口处。这需要完整 4 轮。第 5 轮，受害者会被丢入 Hangman Tree 树干桶状腔体内的酸性分泌物中。受害者每轮受到 3–12 点酸伤害，直至死亡，随后开始消化。 由于树干胃部开口周围有尖锐的生长物，且尖端向下、向内，几乎不可能从树干胃中逃脱。一次最多约能容纳 3 名与人类同等大小的受害者。 每棵 Hangman Tree 都有一种幻觉香气，可以随意释放，通常在猎物距离 30–80 英尺时释放。这会使受害者以为它是一种普通的 quickwood、Treant 等。经过多年学习，这种树可以结结巴巴地说通用语。每棵树还根据年龄拥有魔法抗性，因为它从周围环境中汲取力量。 闪电或电击攻击树时会造成双倍伤害。极度寒冷会使树进入休眠，直到解冻。黑暗也会使它的活动减慢，虽然它仍以一半效率运作。 Hangman Tree 看起来像枝条很少、叶片稀疏的粗壮橡树。树干上通常很高的位置会有结节状突起，那些是感觉器官。树干下部会有一个疤痕般的位置，用来排出无法消化的东西。 *树龄可选参考：非战斗幼芽 1–10 年；幼树 11–25 年；成熟树 26–75 年；老树 76–150 年；远古树 151 年以上。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Hangman Tree"
+      }
+    ]
+  },
+  {
+    "id": "mm2-harginn",
+    "nameZh": "Harginn",
+    "nameEn": "Harginn",
+    "frequency": "极罕见（不常见）",
+    "numberAppearing": "1（2–8）",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "15\"",
+    "hitDice": "4+4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "+1 或更好的武器才能命中；免疫火焰类法术",
+    "magicResistance": "标准",
+    "intelligence": "平均至高",
+    "alignment": "中立邪恶",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Harginn 或 flame horror，是来自火元素位面的 Grue。被召唤到主物质位面时，Harginn 通常会呈现人类形态，只是作为人的下半身和腿的位置被火焰取代。Harginn 可以变成普通篝火、约 8 英尺高的火柱，或变得非常像人类，呈现青铜人像的形态。 Harginn 以任何形态都移动迅速，并通过指尖喷出一股火焰进行攻击。这股火焰会向外膨胀，覆盖宽 3 英尺、长 6 英尺的区域，火焰爆发范围内的所有生物都会受到伤害。Harginn 也能闪现（参见同名法术），而且在战斗中总会这样做。 任何火焰类或影响火焰的法术都不能对 Harginn 生效，包括：制造火焰、烟火术、生火术、火墙术、火焰种子、Sustarre 战车、火焰风暴、燃烧之手、火球术、火焰打击、火焰箭、火焰魅惑、火焰护盾、火焰陷阱、延迟爆裂火球、焚云术和流星群。Harginn 出现在这种魔法 20 英尺内时，会驱散该魔法，即使它此前已经永久化。魔法物品不受影响。 Harginn 毫无疑问十分可怕。只要能辨认出它的特征，就会发现它表现出带着嘲弄的邪恶和巨大的残酷。怪物的眼睛发出黑色光芒，身体颜色则呈现此类火焰常见的颜色，如猩红与橙色、深红与紫蓝色、黄色与橙色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Harginn"
+      }
+    ]
+  },
+  {
+    "id": "mm2-ildriss",
+    "nameZh": "Ildriss",
+    "nameEn": "Ildriss",
+    "frequency": "极罕见（不常见）",
+    "numberAppearing": "1（2–8）",
+    "armorClass": 2,
+    "armorClassText": "2",
+    "movement": "3\"（滚动雾）；其他情况 24\"（MC：A）",
+    "hitDice": "4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "+2 或更好的武器才能命中；免疫空气类法术",
+    "magicResistance": "标准",
+    "intelligence": "低至非常高",
+    "alignment": "中立邪恶",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Ildriss 或 wind terror，是来自空气元素位面的生物。在主物质位面上，Ildriss 要么像风一样隐形，要么显现为一团雾状云，带有蒸汽般的触手和 3 只微微发光的红色眼睛（后者是它在自己位面的自然形态）。它会以第一种形态四处疾行，但要进行攻击，必须变得更实体化，也就是变成雾状实体。 随后 Ildriss 会旋转，雾状手臂携带着微小颗粒，以足以造成可怕擦伤的力量撞击，正如风吹沙尘会割伤活物一样。由于 Ildriss 能够在高空或地面附近隐形移动，它们总有 4/6 的概率发动突袭，并且每轮总是先攻击。 任何空气类或影响空气的法术都不能对 Ildriss 生效，包括：控制天气、风行术、召雷术、控制风、臭云术、狂风术、闪电术、毒云杀、寒冰锥、隐形潜伏者、迷雾墙和云雾术。如果来自空气位面的元素 Grue 在 50 英尺内，不仅空气类或影响空气的法术无法运作，已有的效果即使永久存在，也会被完全驱散。魔法物品不受影响。 由于形态模糊且本质为空气，Ildriss 很难被命中，因此护甲等级为 2。它们在主物质位面上比其他 Grue 更不实体（因此需要 +2 或更好的魔法武器才能命中）。Ildriss 通常为灰色、淡黄色，或很少见的白色。眼睛呈金字塔形，颜色从深橙色到猩红色再到栗红色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Ildriss"
+      }
+    ]
+  },
+  {
+    "id": "mm2-varrdig",
+    "nameZh": "Varrdig",
+    "nameEn": "Varrdig",
+    "frequency": "极罕见（不常见）",
+    "numberAppearing": "1–3（2–5）",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "6\"/18\"",
+    "hitDice": "6+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2（1）",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "+1 或更好的武器才能命中；免疫水元素法术",
+    "magicResistance": "标准",
+    "intelligence": "半智能至平均",
+    "alignment": "中立邪恶",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "*括号中的数据适用于水元素位面。 Varrdig 或 fluid brute，是来自水元素位面的生物。Varrdig 可以显现为一滩水、一座喷泉或一大片水体的一部分；不过在后一种情况下，它略带绿色的色调会使细心的观察者注意到它。它的真实形态是一个球状、果冻般的团块，半透明；下缘有一圈小型、带爪的腿，中部向外辐射出管状突起。 这些柔软的软管在自身元素位面中通过喷射水流提供推进力。在其他地方，Varrdig 会用这些水流喷管攻击，因为水流的力量很大，射程可达 6 英尺，并且有 1/6 的概率使受害者失明 1–4 轮。无助的对手会在 1 轮内被淹死，因为 Varrdig 会把一根管子插入其鼻孔。在水中，攻击方式是让身体快速推进，撞向对手。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Varrdig"
+      }
+    ]
+  },
+  {
+    "id": "mm2-hollyphant",
+    "nameZh": "Hollyphant",
+    "nameEn": "Hollyphant",
+    "frequency": "罕见",
+    "numberAppearing": "1–3",
+    "armorClass": -4,
+    "armorClassText": "-4",
+    "movement": "9\"/42\"（MC：B）",
+    "hitDice": "8+8",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "60%",
+    "intelligence": "天才",
+    "alignment": "善良（守序）",
+    "size": "S（长 2 英尺以上）",
+    "psionics": "201–300；攻击/防御模式：全部/全部",
+    "environment": "原条目未单列",
+    "description": "Hollyphant 是上层外层位面的生物。它们被神祇用作信使和助手，因此有时也会在主物质位面遇到。出现时，会有 1–3 只 Hollyphant 飞行；只有 5% 的概率它们会步行。 看到这些长着金色皮毛的奇异生物，会使善良角色产生强烈的喜爱和合作愿望；中立者会不安；邪恶角色则会产生夹杂恐惧的憎恶。这种反应由围绕 Hollyphant 的某种心灵感应灵气引起，不允许豁免。Hollyphant 希望帮助善良者，不喜欢中立者，并会设法摧毁邪恶者。 普通攻击是向上突出的象牙獠牙，但 Hollyphant 还有远为有效的攻击和防御方式。每只 Hollyphant 每天 3 次可以通过鼻子吹号。每次号声都能产生特定 Hollyphant 所希望的效果：如爆破号角般爆破；如震聋鼓般使人失聪，但形状为 1\"×3\"×7\" 的锥形；以及“太阳火花”，即一股正能量粒子的锥形爆发，尺寸为 1\"×2\"×5\"，对不死生物和下层外层位面生物造成 8d6+8 点伤害。 Hollyphant 还能在 16 级能力下随意使用以下类法术能力，一次只能使用 1 项，每轮 1 次：每天一次放逐术（见下文）；祝福术；每天两次治疗重伤；每天一次火焰打击；每天一次治疗术；光亮术；每天两次防护邪恶（半径 10 英尺内）；每天一次复活术；无误传送术。 放逐术会迫使来自其他位面的生物立即回到自己的居所。除非从自身位面获得特殊召唤或离开手段，否则目标不能返回。如果目标位于 2\" 范围内，并且所有受影响生物的生命骰总数不超过 32，则可以一次放逐超过 1 个生物。 如果目标生物成功通过对抗该法术的豁免，Hollyphant 会受到能量反噬，承受 2–12 点伤害，并被击晕 2–12 段时间。 Hollyphant 的皮毛会持续散发无敌结界。它们的獠牙使自身免疫所有疾病和毒素，但獠牙不会使其他生物获得这种能力。只有 +7 或更好的魔法武器才能伤害它们。它们能自动侦测半径 2\" 内的邪恶。 Hollyphant 能以 50% 的成功率施展召门术，召来另一只 Hollyphant*（70%）或适当的 Deva*（30%）。它们通常拥有 4 项次要灵能学科和 2 项主要灵能学科。它们不会重复 Hollyphant 的类法术或其他能力。交流方式是自己的语言或有限形式的心灵感应。 Hollyphant 当然是星界位面和以太位面的旅行者，因为它们在履行职责时必须穿越这些位面。 这些生物的金色皮毛仿佛发光。它们的翅膀同样为金色，小型獠牙为象牙色。Hollyphant 的眼睛从琥珀色到发光的棕色不等，眼睛大而和善。 *作为替代者，也可能召来 Baku、Lammasu、Opinicus、Shedu 等。 作为替代者，也可能召来 Greater Lammasu、Greater Shedu、Ki-rin、Phoenix 等。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Hollyphant"
+      }
+    ]
+  },
+  {
+    "id": "mm2-hybsil",
+    "nameZh": "Hybsil",
+    "nameEn": "Hybsil",
+    "frequency": "罕见",
+    "numberAppearing": "1d6×10",
+    "armorClass": 7,
+    "armorClassText": "7",
+    "movement": "15\"",
+    "hitDice": "1–1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1（武器）",
+    "damage": "未记载",
+    "specialAttacks": "无",
+    "specialDefenses": "所有豁免获得 +4",
+    "magicResistance": "标准",
+    "intelligence": "平均至非常高",
+    "alignment": "守序善良",
+    "size": "S（高 3 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些小型羚羊半人马看起来像 centaur 与 pixie、brownie 或 sprite 的混合体。它们会说 Hybsil 语、Elf 语和通用语。Bugbear、Ogre，尤其是 Gnoll，是它们的死敌。它们通常与大多数四足哺乳动物关系友好，包括羚羊、斑马、鹿和马。 战斗中，它们使用短匕首，但主要武器是弓箭。箭造成 1–4 点伤害，并涂有一种稀有植物汁液，会导致睡眠 1–4 小时（对抗毒素的豁免受到 -4 惩罚）。由于体质强健，Hybsil 的所有豁免都获得 +4。 Hybsil 生活在温带或亚热带草原上的大家庭或紧密部族中。他们是半游牧民族，可能漫游广阔区域，也可能一生都生活在一小片灌木丛或林间空地中。部族首领会是一名巫医，能够施展德鲁伊（60%）或魔法使用者（40%）法术，施法等级最高可达 7 级。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Hybsil"
+      }
+    ]
+  },
+  {
+    "id": "mm2-kampfult",
+    "nameZh": "Kampfult",
+    "nameEn": "Kampfult",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "3\"",
+    "hitDice": "2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "6",
+    "damage": "未记载",
+    "specialAttacks": "以 1–3 突袭",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "中立邪恶",
+    "size": "S（许多细长部分）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Kampfult 也被称为 sinewy mugger，最初栖息在茂密的林地中，把绳索般的身体伪装在藤蔓和蔓生植物之间。毫无戒心的猎物会被困住，因为 Kampfult 会把藤蔓般的附肢绕成环，缠住受害者，将其压碎并勒死。 人类积极猎杀这种生物后，残存的 Kampfult 现在通常出现在废墟或地城中。在那里，它们看起来像绳子或网，使粗心大意者遭到突袭。 它们可以同时攻击数个生物。一旦被附肢击中，受害者就无法逃脱，直到 Kampfult 被杀死。只有生物的中央部分会受到伤害。Kampfult 有 6 条约 6 英尺长的攻击附肢，以及 6 条 1 英尺长的移动附肢。这些附肢沿着略粗的身体部分排列，中央躯干约 4 英尺长。怪物会收起或拉入附肢，以伪装自己。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Kampfult"
+      }
+    ]
+  },
+  {
+    "id": "mm2-kech",
+    "nameZh": "Kech",
+    "nameEn": "Kech",
+    "frequency": "罕见",
+    "numberAppearing": "2–8",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "15\"（见下文）",
+    "hitDice": "5",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "以 5/6 突袭",
+    "specialDefenses": "伪装",
+    "magicResistance": "标准",
+    "intelligence": "平均",
+    "alignment": "中立邪恶",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Kech 是邪恶的森林魔物，生命中的主要目标似乎是误导、设套并吞食人类。它们遍布所有气候的深林，从热带到亚北极地区都能发现。它们在那里挖坑、设套索、架设落木陷阱，捕捉毫无戒心的旅行者。 更糟糕的是，几支小群体有时会合并，袭击森林中的社群，把毫无防备的受害者带到遥远地点，以便 Kech 不受干扰地享用。它们也经常模仿求救声，把猎物引入设好陷阱的区域进行伏击。 攻击方式是爪击和咬击。由于 Kech 有 5/6 的概率发动突袭，它们通常会冲向 1 或 2 名选定的受害者，将其杀死，然后带走尸体。它们的伪装颜色和林地技巧使追踪脚印的概率降低至 50%。它们有 50% 的概率无声移动。 Kech 是披着叶状韧皮的绿色类人生物。长臂和带抓握趾的脚使它们能够极快地爬树（每轮 60 英尺），也能在高处树枝间摆荡。它们的人类般面孔长着塞满獠牙的大嘴和突出的下颚。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Kech"
+      }
+    ]
+  },
+  {
+    "id": "mm2-korred",
+    "nameZh": "Korred",
+    "nameEn": "Korred",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "9\"",
+    "hitDice": "6+1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 或依武器类型",
+    "damage": "未记载",
+    "specialAttacks": "投掷岩石（2d8）",
+    "specialDefenses": "笑声（6\"）",
+    "magicResistance": "25%",
+    "intelligence": "非常高",
+    "alignment": "混沌中立",
+    "size": "S（高 3 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些热爱舞蹈的族群总会携带木棒和大袋子，袋中装有头发、剪刀及其他物品。他们能在 1–4 轮内将头发编织成会活动的纠缠绳索和套索，从而困住入侵者（绳索：护甲等级 1；生命值 5；移动 3\"；对抗麻痹豁免，否则被困）。Korred 袋中的物品如果洒上圣水，就会变成金子（价值 50–200 gp）。 Korred 力量很大，能把巨石投到 10\" 远（伤害 2d8），并有传言说它们建造了德鲁伊的石圈。它们可以用剪刀攻击（伤害 d4+4）、木棒攻击（伤害 d6+4），或徒手攻击（伤害 1–2+4）。 Korred 每天可以笑 3 次。6\" 内听到笑声的生物必须在 1d20 上掷出不低于自身魅力，否则会被击晕 1–4 轮。Korred 可以随意使用以下能力：塑石术、活化岩石、石门术（传送 3\"）、粉碎岩石、石转泥和与石交谈。 Korred 每周会有一天假日，在那天跳舞和演奏音乐。打断舞蹈的人必须对抗法术豁免，否则会自己跳起来，每轮失去 1–4 点生命值，直到死亡、被束缚，或 Korred 逃走。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Korred"
+      }
+    ]
+  },
+  {
+    "id": "mm2-kraken",
+    "nameZh": "Kraken",
+    "nameEn": "Kraken",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 5,
+    "armorClassText": "5/0",
+    "movement": "3\"/21\"",
+    "hitDice": "20",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2 和 4–6，以及 1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "标准",
+    "intelligence": "天才",
+    "alignment": "中立邪恶",
+    "size": "L",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Kraken 是一类能呼吸空气和水的鱿鱼状生物，居住在海洋黑暗深处。据说很久以前，这些怪物体型更小，生活在浅海沿岸，并有人类崇拜者为它们服务、献上祭品。自然界的某种剧变，也可能是一场与善良力量的战斗，使幸存的怪物退入深海。 在那里，虽然数量减少到寥寥无几，幸存者却变得巨大而强大。它们现在寻求杀死所有善良生物，并吞食一切小型生命。Kraken 是好斗的猎手，甚至会与大型抹香鲸战斗，而且通常能获胜。 触手的护甲等级为 6，暴露在外的头部也是 6。身体由极厚、极坚固的甲壳保护，护甲等级为 0。后喷射移动速度为 21\"，游泳速度为 3\"。 攻击方式是用一对带倒刺的触手、4–6 条其他打击触手，以及可能用巨喙咬击。至少 2 条触手会用来固定 Kraken 或保持稳定。带倒刺的触手会抓取并把猎物拖向喙状嘴。其他触手若命中，则会缠住并压缩猎物，从第二轮及其后每轮造成 3–12 点伤害。 要摆脱这种压缩，必须切断触手（用锋利武器造成 16 点伤害）。关于触手命中如何影响受害者，参见“Giant Squid”。如果 4 条或更多触手抓住猎物时 Kraken 正在承受伤害，怪物会逃向深处，把毫无防备的受害者带到巢穴；巢穴位于水面下至少 1000 英尺的海底洞穴中。如果 Kraken 有 3 条或更多触手被切断，它会立即撤退。 Kraken 的墨云长 8\"、宽 8\"、高 12\"；这种物质在被水稀释前的 2–5 轮内具有毒性。处于棕褐色墨云中的生物每暴露一轮受到 1–4 点伤害。与此同时，Kraken 会向后喷射，返回巢穴。 Kraken 会攻击船只，试图把它们拖入水中。它至少比最大的 Giant Squid 大 10%，能够将长达 60 英尺的船只拖到水下。更大的船只会在 10 轮内被拖到停止。如果 Kraken 能在攻击期间用 6 条或更多触手维持 3 个连续轮次的压缩抓握，船只会受到如同被撞击的伤害，随后进水；由于浮力丧失，船会在 2–8 轮内面临被 Kraken 拖下水的危险。 Kraken 天生能在一个球体（直径 128 英尺）或半球中制造 airy water，范围是通常大小的 6 倍（直径 240 英尺），这种状态会持续完整一天。 它们还可以随意使用以下类法术能力，一次只能使用 1 项：火妖术，持续 8 小时；控制半径 40 英尺内的温度，持续 1 天；每天一次控制风；每天一次召唤天气；每天 3 次动物（鱼类）召唤。鱼类召唤会把鱼带到区域内，但不会控制它们。 有传言说，一些 Kraken 会维持洞穴复合体，饲养和繁殖人类奴隶，让奴隶服侍并喂养它们。这些海底地城会在 Kraken 利用风和天气把船只引到该区域时补充库存。这样的巢穴有 50% 的概率拥有 A 类财宝，以及条目中列出的其他财宝。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Kraken"
+      }
+    ]
+  },
+  {
+    "id": "mm2-greater-lammasu",
+    "nameZh": "Greater Lammasu",
+    "nameEn": "Greater Lammasu",
+    "frequency": "极罕见",
+    "numberAppearing": "1–2",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "15\"/30\"（MC：B）",
+    "hitDice": "12+7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "40%",
+    "intelligence": "超级天才",
+    "alignment": "守序善良",
+    "size": "L（肩高 5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "和体型较小、力量较弱的同族一样，Greater Lammasu 喜欢温暖地区，但偶尔也会进入北极地区。它们同样寻求保护和帮助善良阵营、尤其是守序和法律生物。它们通常与 6 只或更多普通 Lammasu 一起生活。 Greater Lammasu 可以随意在星界位面和以太位面旅行。它们可以随意使用隐形术、次元门和无误传送术，一次只能使用 1 项，每轮 1 次。 它们会在半径 20 英尺内散发双倍效果的防护邪恶：邪恶攻击受到 -4，任何豁免检定获得 +4。它们以 5 级能力使用牧师法术，法术构成为：5 个一环、4 个二环、3 个三环、2 个四环和 1 个五环。 Greater Lammasu 的治疗效果为双倍强度，基于 1d6+1，因此治疗轻伤能恢复 4–14 点失去的生命值，治疗重伤效果加倍（8–28 点）。50% 的 Greater Lammasu 除低阶法术使用外，还能说神圣咒语。它们的类法术能力等级为 12（等于生命骰）。 Greater Lammasu 拥有共情和心灵感应交流能力，会说守序善良者的有限语言以及 Lammasu 语言。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Greater Lammasu"
+      }
+    ]
+  },
+  {
+    "id": "mm2-marid",
+    "nameZh": "Marid",
+    "nameEn": "Marid",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 0,
+    "armorClassText": "0",
+    "movement": "9\"／15\"／24\"（MC：B）",
+    "hitDice": "13",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "25%",
+    "intelligence": "高至天才",
+    "alignment": "混沌",
+    "size": "L（高 18 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Marid 是精灵种族中力量最强的一支，属于水元素生物。它们很少离开自己的位面，极少来到主物质位面。 Marid 可以随意使用下列类法术能力，但一次只能使用 1 项，每日 2 次：侦测邪恶／善良、侦测隐形、侦测魔法、隐形术、液态形态（如同气态形态），变形术和净化水。它们每天最多可以使用 7 次：气化形体、降低水位、分水术、雾墙术，以及赋予水下呼吸（持续 1 天）。 它们总能制造水，并将水塑造成一股射程 6\" 的水流；水流会使目标失明（豁免成功则避免），并造成 1–6 点伤害。Marid 可以在水面上行走。它们每年一次可以改变现实。它们以 26 级法术使用者的能力施法。 Marid 可以自由携带 10,000 金币；超过这个数量后，每多携带 2,000 金币，双倍负重时间就增加 1 轮。它携带 20,000 金币时能坚持 3 轮，因此携带 12,000 金币时能坚持 8 轮。疲倦后必须休息 6 轮。 Marid 游泳极快，能够在任何深度呼吸水，并拥有超视觉和红外视觉。水系法术不会伤害它们。寒冷攻击使其豁免获得 +2、每个伤害骰 -2；火焰攻击每个伤害骰额外 +1，并使其豁免受到 -1。蒸汽不会伤害它们。 它们容忍 Djinn 和 Jann，厌恶 Dao 与 Efreet。Marid 由一位帕迪沙统治，贵族拥有不同头衔。普通 Marid 独立、傲慢且自负；贿赂和奉承通常只能得到一点帮助，不能依赖它们履行承诺。 Marid 通过心灵感应掌握所有语言。它们可以进入星界位面、元素位面、以太位面和主物质位面。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Marid"
+      }
+    ]
+  },
+  {
+    "id": "mm2-mihstu",
+    "nameZh": "Mihstu",
+    "nameEn": "Mihstu",
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": -2,
+    "armorClassText": "-2",
+    "movement": "6\"／6\"（MC：B）",
+    "hitDice": "8+2",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "4 条触手",
+    "damage": "未记载",
+    "specialAttacks": "吸取体质",
+    "specialDefenses": "+2 武器才能命中",
+    "magicResistance": "10%",
+    "intelligence": "高",
+    "alignment": "中立邪恶",
+    "size": "M（直径 6 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Mihstu 是拥有自由意志的元素生物，来自气元素位面的副元素“空气”部分。它们偏爱阴凉、潮湿、几乎没有阳光的地方；雾云会从裂缝中渗入。 它们的形体会伸出 4 条触手，末端是锋利的爪。Mihstu 会包住受害者，每轮吸取 1 点体质；体质降到 0 时，受害者死亡。失去的体质每天只能恢复 1 点，而且必须休息。Mihstu 被包住时，只有魔法攻击能够伤害它。 只有 +2 或更好的武器才能命中 Mihstu。它们免疫电击和飞射物，包括魔法飞弹。寒冷会使其昏迷 2d6 轮。 Mihstu 独居，形体如幽灵般，会惊吓入侵者。有些 Mihstu 会为强大的魔法使用者服务，以换取强力魔法物品。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Mihstu"
+      }
+    ]
+  },
+  {
+    "id": "mm2-myconid",
+    "nameZh": "Myconid",
+    "nameEn": "Myconid",
+    "frequency": "稀有",
+    "numberAppearing": "1–12（20–200）",
+    "armorClass": 10,
+    "armorClassText": "10",
+    "movement": "9\"",
+    "hitDice": "1–6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "孢子云，见下文",
+    "specialDefenses": "毒性皮肤",
+    "magicResistance": "标准",
+    "intelligence": "平均",
+    "alignment": "守序中立",
+    "size": "S 至 L（每个生命骰高 2 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Myconid（真菌人）外形像长着人形身体的行走伞菌。它们的肉体肿胀而多孔，颜色从紫色到灰色不等。除了手部以外，它们的皮肤都会渗出对动物肉体有毒的物质；在大多数部位与 Myconid 直接接触，会使接触者受到 1–4 点伤害。 它们肥厚的手各有 2 根短指和两侧各 1 根拇指。Myconid 生活在适合真菌生长的地下深处，从不来到地表，并极度害怕直射阳光。阳光对它们的确切影响未知，但必然有害，否则真菌人不会如此恐惧。 Myconid 社会建立在“圈”之上：圈是极其紧密的社会群体，通过集体工作和融合仪式联系在一起。每个圈的日程严格安排为 8 小时休息、8 小时培育真菌或进行其他必要工作、8 小时融合。对 Myconid 而言，融合同时是娱乐、崇拜和社会交往。 真菌人围成紧密的圆圈，年长成员释放联系孢子和致幻孢子。整个群体随后合并为持续 8 小时的集体心灵感应幻觉。Myconid 认为融合是存在的理由。只有 Distress 孢子能让圈在融合结束前离开融合状态。 一个 Myconid 圈通常有 20 名成员，每种生命骰大小各 4 名，即 4 名 1HD、4 名 2HD，依此类推至 5HD。Myconid 随年龄增长，身高和重量也会增加，每多 1 个生命骰便增加 2 英尺身高；1HD Myconid 只有 2 英尺高，6HD 的菌王则高 12 英尺。 它们的近战伤害也随体型增加。真菌人用合拢的双手像棍棒一样击打，每次攻击造成相当于生命骰数的 1d4 点伤害：1HD 造成 1–4 点，2HD 造成 2–8 点，依此类推，6HD 的菌王一次命中造成 6–24 点伤害。 Myconid 还能喷出特殊孢子云。随着个体成长，它们可以释放的孢子种类和每天能够喷出的次数都会增加。每种孢子每天能喷出的次数等于 Myconid 的生命骰数。例如，3HD Myconid 能够喷出 3 种孢子，每种每天 3 次。孢子类型按获得能力的先后顺序如下。 ### 孢子类型 #### Distress（求救） 用于通知其他 Myconid 有危险或需要帮助。孢子云每轮扩大 40 英尺，能够引起喷出者周围所有 Myconid 的注意，最大扩大至 120 英尺。1HD 时获得。 #### Reproducer（繁殖） 只在适当时间释放，用于生长新的 Myconid，以控制种群数量。Myconid 死亡时也会自动喷出。2HD 时获得。 #### Rapport（联系） 主要用于融合过程，也能让 Myconid 与其他种族交流，因为真菌人不说话。它可以对 1 个生物喷出一小团孢子；若目标对抗毒素豁免失败，就能与 Myconid 进行心灵感应联系，以正常的思想对话。自愿者可以主动放弃豁免。效果持续的轮数等于喷出者的生命骰数。3HD 时获得。 #### Pacifier（安抚） 可对单个生物喷出。目标若对抗毒素豁免失败，就完全变得被动，什么都不能做，只能观察；即使遭到攻击也不能采取行动。效果持续轮数等于喷出者的生命骰数。4HD 时获得。 #### Hallucinator（致幻） 主要用于融合仪式，但也会影响其他生物。孢子云可射向 1 个生物；目标若对抗毒素豁免失败，会产生剧烈幻觉，持续轮数等于负责喷出的 Myconid 的生命骰数。致幻生物掷 1d20 决定行为：1–10 蜷缩并呜咽；11–15 凝视虚无；16–18 朝随机方向尖叫逃跑；19–20 攻击最近的生物，试图杀死它。5HD 时获得。 #### Animator（动画） 6HD 时获得，只有菌王能够达到这一级。菌王可以用这种孢子感染死去的人或动物。紫色真菌会覆盖尸体，接管尸体系统，使其活动起来，看起来像僵尸：AC10、移动 9\"、1 个生命骰、4 点生命值、2 次攻击、骨爪造成 1–3／1–3 点伤害。 这种尸体并非不死生物，不能被牧师驱散。活动尸体比生前缓慢，并总是在近战轮最后攻击，类似僵尸。尸体会继续腐烂，真菌逐渐取代缺失部位，并适应接管这些部位的功能。最终腐烂严重到无法继续行动。感染后 1–4 天发生动画，尸体活动 2–5 周后腐烂。 活动尸体会尽其所能服从简单命令；命令通过 Animator 的联系孢子传达，而且命令优先于自我保存。 Myconid 菌王永远是菌落中最大的成员，也是唯一 6HD 的个体；它也是唯一不属于任何圈的 Myconid。其他真菌人把脱离圈看作可怕而可怜的孤独。领导被视为极其不愉快的职责，近乎一种谴责；但老菌王死亡时，最强的 5HD Myconid 总会接替它。 菌王必须置身圈外，以保持客观并专心履行领导职责。它会为菌落活动守卫，使 Myconid 不必诉诸暴力，并协调工作安排，关注可能影响菌落的外界事务。菌王还会进行真菌炼金术，酿造在困难时刻可能有用的特殊药剂。 总的来说，Myconid 是爱好和平的种族，只希望工作并在和平中融合。战斗中，只要可能，它们会避免杀死对手，因为暴力会对融合产生不利影响。然而，真菌人和类人生物之间从未达成和解；双方都把对方视为令人作呕的威胁，而有限的地下空间和人口压力不可避免地导致冲突。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Myconid"
+      }
+    ]
+  },
+  {
+    "id": "mm2-opinicus",
+    "nameZh": "Opinicus",
+    "nameEn": "Opinicus",
+    "frequency": "极罕见",
+    "numberAppearing": "1–2",
+    "armorClass": -2,
+    "armorClassText": "-2",
+    "movement": "21\"／30\"（MC：B）",
+    "hitDice": "7+7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "4",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "35%",
+    "intelligence": "非常高至超凡",
+    "alignment": "混沌善良",
+    "size": "M",
+    "psionics": "205–250 点；攻击/防御模式：全／全",
+    "environment": "原条目未单列",
+    "description": "Opinicus 是居住在沙漠中的善良生物，通常栖息于废弃城市、宫殿或神殿等古老遗迹。它们偶尔会在其他地方出现，通常是为了执行某项善行任务。虽然 Opinicus 以有益行为和友善性格闻名，也喜欢捉弄人和开玩笑；这些行为降低了它们的声望，但善良生物很少拒绝 Opinicus 的援助。邪恶生物当然会畏惧 Opinicus。 普通攻击是 2 次爪击（1–3／1–3）和后爪撕裂。此外，Opinicus 拥有 7 级牧师的施法能力，能够驱散不死生物。它们每天可以使用一次圣言术、每天两次次元门、每天 3 次治疗术。 Opinicus 拥有发光凝视，也称“太阳火花”：形状为 2\"×1\"×2\" 的锥体，影响不死生物和下层外位面的生物，包括 Acheron、九层地狱、Gehenna、Hades、Tartarus、Abyss 和 Pandemonium。凝视每 10 轮最多使用一次，对受害者造成 2–16 点伤害；对抗法术豁免成功则伤害减半。 由于感知敏锐，Opinicus 永远不会被突袭。在自己的栖息地有 5/6 的概率突袭，在其他地方有 3/6 的概率突袭。它们能进行星界和以太旅行，拥有 3–5 种次级灵能学科和 1–2 种主级灵能学科，常用这些能力恶作剧。 Opinicus 看起来像猴、骆驼、狮子和鹰的混合体，但它们当然不是混合物，而是独立的生物。颜色从浅黄褐到金棕不等，翅膀比身体略深，前爪有抓握能力。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Opinicus"
+      }
+    ]
+  },
+  {
+    "id": "mm2-pech",
+    "nameZh": "Pech",
+    "nameEn": "Pech",
+    "frequency": "稀有",
+    "numberAppearing": "5–20（巢穴中翻倍）",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "9\"",
+    "hitDice": "4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "25%",
+    "intelligence": "平均至超凡",
+    "alignment": "中立善良",
+    "size": "S（高 4 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "没有人知道 Pech 究竟是什么，也不知道它们是否来自主物质位面或地元素位面。无论如何，这些细瘦的生物生活在黑暗地方并加工石头。它们的肉体几乎像花岗岩一样坚硬。 Pech 巢穴中会有几只更大的个体；雌性数量等于雄性，幼体数量为雌性的 20%–50%。巢穴还会有 50–100 颗宝石、各种装饰石制成的盘碟和饰物，以及未加工金属。石制饰品按最低基础价值计价，每件平均重量 150 金币。 Pech 使用镐和鹤嘴锤进行工作和武装，通常两种装备数量相等；鹤嘴锤按战锤处理。 每个 Pech 每天可以施展 4 次塑石术和石语术。4 个 Pech 合在一起，能够像 16 级魔法使用者一样施展石墙术；8 个 Pech 可以共同施展石化为肉术。这些“群体”法术每天每个群体只能施展一次。 Pech 免疫石化。如果与石魔像等岩石生物战斗，它们对石头的知识使其能够进行完整的正常攻击，并且完全有能力把对方击成碎石。 Pech 基本上是善良生物，只希望独处。它们憎恨明亮光线和开放天空，拥有红外视觉和红外以上视觉。 Pech 身材瘦削，手脚长，宽大的手掌和脚掌非常适合支撑身体并使用石工工具。它们的皮肤呈淡黄色，头发为红色或红棕色，眼睛大而无瞳孔。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Pech"
+      }
+    ]
+  },
+  {
+    "id": "mm2-phoenix",
+    "nameZh": "Phoenix",
+    "nameEn": "Phoenix",
+    "frequency": "极罕见",
+    "numberAppearing": "1（1–4）",
+    "armorClass": -3,
+    "armorClassText": "-3",
+    "movement": "6\"／39\"（MC：D）",
+    "hitDice": "20",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 或 2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "50%",
+    "intelligence": "天才",
+    "alignment": "中立善良",
+    "size": "M",
+    "psionics": "见下文",
+    "environment": "原条目未单列",
+    "description": "Phoenix 极少出现在主物质位面，原生于 Elysium 的上层外位面。它能适应几乎任何气候，甚至能生活在虚空中，因为寒冷、炎热等环境条件都不会伤害它。不过 Phoenix 偏爱美丽与林地宁静，在主物质位面通常只出现在这样的地方。 不幸的是，Phoenix 羽毛平均每根值 50 金币；宝石般的喙、爪和眼睛价值是其 100 倍；它的身体也受到想要制造特定药剂的炼金术士珍视。因此，这种稀有生物更加稀有。 Phoenix 飞行时用钻石般坚硬的爪攻击，落地时只有一次长而锋利的喙击。但它既聪明又具有魔法力量，通常会选择更有效的攻击和防御方式。 Phoenix 发出的尖锐口哨使它能够在近战中先行动；30 英尺内的对手会受到声音影响，使 Phoenix 的先攻骰获得 +3 优势。凭借这种优势，它可以在每轮近战一次、一次只能使用 1 项、以 20 级能力随意使用以下类法术能力：影响普通火焰、听觉幻象、闪现、失明、呼唤林地生物（每日一次）、控制 10 英尺半径内的温度、持续光亮、彩色喷射（每日 3 次）、舞光术、二向分割术（每日一次）、寻路术（每日一次）、寻找陷阱、火焰魅惑、熄灭火焰（每日一次）、火种（每日一次）、火焰护盾、火焰风暴（每日一次）、金属加热（每日 3 次）、高等隐形、焚云术（每周一次）、误导术、毒素中和（每日一次）、变形术（每日 3 次）、生火术、烟火术、转生术（每日一次）、移除诅咒、10 英尺半径内移除恐惧、蛇魅惑、幻幕（每日一次）和火墙术（每日一次）。 Phoenix 只需展开翅膀并发出叫声，就能以 40 级能力驱散幻术或驱散魔法。此外，Phoenix 的舞蹈相当于双倍强度的 40 级驱魔术，能对抗除最强大邪恶魔法（例如神器或遗物的魔法）之外的一切邪法。 Phoenix 自动侦测魅惑、邪恶和魔法，并在 10 英尺半径内散发防护邪恶。它可以进入以太形态，进行星界或以太旅行。只有 +3 或更好的武器才能命中它。Phoenix 永远不会被突袭，红外视觉范围 120 英尺，红外以上视觉为正常值两倍。 它的翅膀接触等同于治疗轻伤；每只 Phoenix 每天可以对每个个体使用 2 次翅膀接触。冠羽接触等同于治愈疾病，但使用限制与治疗法杖相同。 走投无路时，Phoenix 可以让自己流出的血滴充当冬青浆果型火种；每受到 5 点伤害就产生 1 个火种。危急时，Phoenix 会创造双倍强度的 40 级火焰风暴与焚云术组合，哪怕之前已经使用过这些能力。这样会摧毁成年 Phoenix，但会留下一枚宝石般的蛋；新 Phoenix 会在 20 天后从蛋中诞生。 Phoenix 有自己的语言，也能与所有鸟类交谈；此外，它会以有限的心灵感应、共情和心灵共感交流。 虽然 Phoenix 不能通过灵能攻击或被灵能攻击，但拥有以下灵能学科：每日一次、20 级能力的细胞调整（牧师类）；每日 3 次能量控制；每日 3 次、20 级能力的分子搅动；每周一次、10 级能力的概率旅行。 Phoenix 外形类似孔雀，但大得多，比例也不同。羽毛呈明亮紫色，夹杂深红和火焰橙色区域；喙和爪为蓝紫色，眼睛是深色、发光的红宝石。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Phoenix"
+      }
+    ]
+  },
+  {
+    "id": "mm2-phycomid",
+    "nameZh": "Phycomid",
+    "nameEn": "Phycomid",
+    "frequency": "稀有",
+    "numberAppearing": "1–4",
+    "armorClass": 5,
+    "armorClassText": "5",
+    "movement": "3\"",
+    "hitDice": "4",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "感染",
+    "specialDefenses": "见下文",
+    "magicResistance": "见下文",
+    "intelligence": "无法评级",
+    "alignment": "中立邪恶",
+    "size": "S（最大直径 2 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Phycomid 的外形像藻类纤维团和分解中的乳白色物质，上面长着有菌盖的真菌。它们攻击时会分泌高度碱性的物质。 攻击时，Phycomid 会伸出一根管状器官，向 7–12 英尺外发射小球状碱液。除了碱液伤害，液滴还可能使受害者成为新 Phycomid 生长的宿主。 目标若对抗毒素豁免失败，感染部位会在 5–8 轮内长出蘑菇状突起，并造成 5–8 点伤害。随后突起开始遍布宿主全身，在 5–8 轮内杀死宿主，并将其变成新的 Phycomid。治病术可以阻止感染在宿主体内扩散。 Phycomid 免疫所有形式的心灵攻击，包括魅惑、定身等。对火焰攻击进行豁免时获得 +4，所受伤害为一半或完全无伤。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Phycomid"
+      }
+    ]
+  },
+  {
+    "id": "mm2-planetar",
+    "nameZh": "Planetar",
+    "nameEn": "Planetar",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": -7,
+    "armorClassText": "-7",
+    "movement": "16\"／48\"／24\"（MC：B）",
+    "hitDice": "144 点生命值",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "75%",
+    "intelligence": "超级天才；智慧 21",
+    "alignment": "善良",
+    "size": "L（高 8.5 英尺）",
+    "psionics": "288 点；攻击/防御模式：全／全",
+    "environment": "原条目未单列",
+    "description": "Planetar 是强大灵体的化身，能够充当次级神祇的右手；数量众多的 Planetar 则会侍奉主要神祇。这些生物居住在善良的上层外位面，但能随意前往除最低层位面之外的任何位面：Hell、Gehenna、Hades、Tartarus 和 Abyss。若神祇命令，它们甚至能够进入最低层的邪恶位面。只有 Solar 的善良力量比 Planetar 更强。 Planetar 可以是任何善良阵营：守序、 中立或混沌；具体阵营由其侍奉的主人决定。每个 Planetar 每轮有 3 次攻击，通常使用只有 Planetar 能使用的巨剑。这把剑等同于同时具备 +4、守护者和伤口制造特性的武器，后者只对邪恶生物生效。判断攻击时，视 Planetar 敏捷为 21，并视为 17 级战士。 所有 Planetar 拥有相当于 7 级牧师和 7 级德鲁伊的类法术能力，并获得相应加值（智慧为 21）。此外，它们可以随意使用下列类法术能力，一次 1 项、每轮一次：活化物体（每日一次）、刃墙术（每日 3 次）、持续光亮（半径最多 10\"）、控制天气（每日一次）、驱散邪恶（每日 3 次）、驱散幻术（每日 7 次）、驱散魔法（每日 3 次）、地震术（每日一次）、以太形态、弱智术（每日一次）、有限祈愿术（每日一次）、物品变形术、火焰风暴（每日一次）、火焰打击（每日 3 次）、治疗术（每日 3 次）、圣言术（每日一次）、高等隐形（半径最多 10 英尺）、虫灾（每日一次）、有限祈愿术（每日一次）、自身变形术、死者复活（每日 3 次）、阅读魔法、移除诅咒、移除恐惧、抵抗寒冷（双倍效果）、抵抗火焰（双倍效果）、复原术（每日一次）、变形（每日一次）、与死者交谈、符文（任意一种，每日一次）、无误传送术、真实视觉（每日 3 次）、召唤天气（每日一次）和风行术（每日 7 次）。 每个 Planetar 可以随意从自身向外维持一个防护邪恶球体，范围从自身大小到完整 40 英尺半径不等，维护自动进行。Planetar 需要时可以进行神谕。它们总能通过接触治愈失明、失聪、疾病或轻伤。 Planetar 自动侦测邪恶、幻术、隐形、谎言、魔法和陷阱，并始终保持侦测阵营。它能通过心灵感应或通晓语言交流，也能阅读任何语言。它始终拥有 12\" 红外视觉和正常范围两倍的红外以上视觉。 每天一次，Planetar 可以召来相应数量的 Deva（1–3、1–4 或 1–6），类型可以是 Astral、Monadic 或 Movanic。每天一次，它还能召唤：守序善良时 1–4 Couatl；中立善良时 1–2 Baku；混沌善良时 1–2 Androsphinx。 Planetar 会受到 Deva 条目中所列攻击形式的影响。只有 +4 或更好的武器才能伤害它们。它们永远不会被突袭，免疫任何生命等级损失，无论来自不死生物还是魔法。它们不能被迷惑、魅惑、困惑、支配或弱智，灵魂不能被囚禁或捕获，并免疫死亡法术。 Planetar 每轮再生 4 点生命值。在上层外位面之外遭遇时，只有它们的物质身体能被伤害；Planetar 的灵魂会回到自己的位面，重新形成肉身，这一过程需要 4 个十年。它们的魅力效果为 21。 Planetar 拥有以下灵能能力：14 级动物心灵感应、光环改变、身体控制、身体平衡、9 级身体武器、17 级群体支配、分子搅动、预知、缩小、17 级心灵遥控和心灵投射。 Planetar 看起来像高大而强壮的类人生物。物质形态的皮肤呈蛋白石色，头部无毛，双眼发出蓝光；翅膀成对，也呈蛋白石色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Planetar"
+      }
+    ]
+  },
+  {
+    "id": "mm2-pyrolisk",
+    "nameZh": "Pyrolisk",
+    "nameEn": "Pyrolisk",
+    "frequency": "稀有",
+    "numberAppearing": "1–4",
+    "armorClass": 6,
+    "armorClassText": "6",
+    "movement": "6\"／18\"（MC：C）",
+    "hitDice": "4+3",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "凝视",
+    "specialDefenses": "免疫火焰",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "中立邪恶",
+    "size": "S",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Pyrolisk 几乎与 Cockatrice 完全相同，但仔细观察会发现尾部有一根红色羽毛，灰色翅膀带有红色。它和同族一样栖息在温带至热带地区。 除了较弱的喙击，Pyrolisk 还有凝视能力。与其凝视相遇的目标会因内部突然燃烧而爆发火焰：对抗石化的豁免失败会立即死亡，成功则受到 2–13 点伤害。天生或魔法抗火（无论来自法术、戒指或其他效果）的生物免疫凝视；通过豁免的受害者此后免疫该只 Pyrolisk 的凝视。 Pyrolisk 还能使 30 英尺内任何火源爆炸成烟火，效果等同德鲁伊的烟火术。它可以随意使用，每轮一次，只为享受火焰；效果区域是火源的 10 倍，持续完整 1 轮，并使其中所有生物暂时失明。 Pyrolisk 免疫所有火焰攻击，无论魔法或普通火焰。它们的天敌是 Phoenix，因为 Phoenix 同样免疫火焰，而且是善良生物。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Pyrolisk"
+      }
+    ]
+  },
+  {
+    "id": "mm2-quickling",
+    "nameZh": "Quickling",
+    "nameEn": "Quickling",
+    "frequency": "极罕见",
+    "numberAppearing": "4–16",
+    "armorClass": -3,
+    "armorClassText": "-3",
+    "movement": "96\"",
+    "hitDice": "1½",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "按 19 级牧师进行豁免",
+    "intelligence": "高至天才",
+    "alignment": "混沌邪恶（或中立）",
+    "size": "S（高 2 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这些细小、纤细而行动极快的生物据说是曾经涉足魔法和不该接触的神秘学、从而被改变的 Brownie 种族。传说中，这些小生物变成了极度恶毒、憎恨人类、半人类和其他小型生物的邪恶存在。它们生活在黑暗林地和荒野的邪恶地区。 在任何遭遇到的 Quickling 群体中，都会有 1 个 3 生命骰个体。若遭遇超过 10 个，则其中 2 个拥有 3 生命骰，另有 1 个 4½ 生命骰的首领。 由于惊人的速度，Quickling 拥有极佳的护甲等级。这种速度还使它们每轮能够用针状匕首攻击 3 次。首领有 75% 的概率拥有毒药；除非目标每次被这些生物的匕首命中后都成功通过对抗毒素的豁免，否则会陷入药物造成的沉睡。 所有 Quickling 每天可以使用一次、一次 1 项、随意使用以下类法术能力：传声术、遗忘术、浮空术、粉碎术、挖掘术和火焰魅惑。 Quickling 移动时有 90% 的概率能被看见，但若在天然掩护中静止，则完全隐形。攻击时只能看见一道模糊的影子。因此，它们的速度和 18 点敏捷使其对所有攻击形式的豁免都按 19 级牧师计算。Quickling 不可能被突袭。 Quickling 会说自己的语言、Brownie 语、Pixie 语和半身人语。多数 Quickling 能说许多通用语词汇，但音调很高、速度太快，难以理解。 Quickling 种族寿命短暂，因为它们的运动速度极快。它们约 1–2 岁成熟，12–15 岁死亡。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Quickling"
+      }
+    ]
+  },
+  {
+    "id": "mm2-russet-mold",
+    "nameZh": "Russet Mold",
+    "nameEn": "Russet Mold",
+    "frequency": "极罕见",
+    "numberAppearing": "1 片",
+    "armorClass": 9,
+    "armorClassText": "9",
+    "movement": "0\"",
+    "hitDice": "每 10 平方英尺 12–16 生命值",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "0",
+    "damage": "未记载",
+    "specialAttacks": "孢子",
+    "specialDefenses": "见下文",
+    "magicResistance": "见下文",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S 至 L",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Russet Mold 只生长在地下潮湿地区。距离超过 30 英尺时，它常被误认为铁锈（概率 70%）。它免疫所有涉及武器、火焰和寒冷的攻击，但容易受到酒精、酸和对植物有害的化合物（例如盐）的作用。对它施展治病术或持续光亮术，可以立即杀死它。 Russet Mold 不进行物理攻击，但会在 3 英尺半径内释放几乎不可见的孢子云；超过这个范围，孢子会落到地面并失去作用。如果接触霉菌，它也会注入孢子。任何经过 3 英尺内或接触它的生物都会受到 5–20 点毒性伤害，并必须进行对抗毒素的豁免。豁免失败会患病，并在 2–5 轮内死亡，除非施展治病术。 任何因接触 Russet Mold 而死亡的角色都会发生变形。身体首先会从接触处残留的孢子长出新的霉菌；完全被霉菌包住后，一个 Vegepygmy 会从遗体中站起。整个过程需要 21–24 小时（1d4+20）。植物定身术会在法术持续期间停止霉菌生长；如果霉菌生长超过 1 小时，除非使用祈愿术，否则受害者无法恢复。 Russet Mold 的颜色从金棕色到锈红色不等，质地像冷粥，表面覆盖短小的毛发状突起。这些突起直立着，不停摇摆，仿佛处于微风中。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Russet Mold"
+      }
+    ]
+  },
+  {
+    "id": "mm2-shade",
+    "nameZh": "Shade",
+    "nameEn": "Shade",
+    "frequency": "极罕见（稀有）",
+    "numberAppearing": "通常 1–2",
+    "armorClass": 0,
+    "armorClassText": "原生物",
+    "movement": "原生物",
+    "hitDice": "原职业和等级",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "原职业和等级",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "可变",
+    "intelligence": "低至天才",
+    "alignment": "任意（善良除外）",
+    "size": "与原生物相同",
+    "psionics": "与原生物相同；攻击/防御模式：与原生物相同",
+    "environment": "原条目未单列",
+    "description": "所有了解 Shade 的权威都同意：它们原本是普通人类，通过奥术魔法或黑暗科学交易自己的灵魂或精神，换取 Shadowstuff 的本质。它们保留原种族的形体和能力，却通过与 Shadowstuff 融合而获得力量。真正的原生 Shade 无人知晓，也没人知道 Shade 是否与 Shadow 或 Shadow 位面的某种力量或物质有关。从活物转化为无生命 Shade 的方法已经失传。 如果公式被重新发现，任何人类或半人类都可以成为 Shade。已知矮人、精灵、侏儒、半精灵、半身人、人类和偶尔的半兽人会为了 Shadowstuff 的黑暗诱惑而放弃善良。成为 Shade 不会改变种族、职业或等级限制（下文说明的部分除外）。 Shadowstuff 极大延长 Shade 的生命；除非意外或被杀，它们不会死亡。进入阴影后，疾病不再对它们产生影响；战斗中失去的身体部位（头部除外）可以在 1–4 周内重新生长。这种不自然的活力也表现为生命值再生，每轮恢复 1 点。 由于主物质位面的光照不断变化，Shade 尽可能居住在 Shadow 位面（在那里很稀有）。除非有足够动机，例如财宝、被迫服役或复仇，否则它们不会离开该位面。 Shade 在阴影中拥有巨大力量；随着阴影减弱，无论是光线增强还是变得极端黑暗，这些阴影生物的力量也会衰退。下表给出不同光照下的确切能力。 | 光照条件 | 能力值修正 | 魔法抗性 | 生命值 | 特殊能力 | |---|---:|---|---|---| | 明亮光线；阳光 | -2 | 标准；豁免骰 -4 | 每骰 -2 | 无 | | 平均光线 | -1 | 每等级 5% | 每骰 -1 | 无 | | 黄昏 | 正常 | 每等级 5% | 正常 | 阴影行走 | | 阴影光线 | +2 | 每等级 5% | 每骰 +1 | 阴影行走；阴影影像 | | 夜晚／黑暗 | +1 | 每等级 5% | 正常 | 阴影行走 | | 完全黑暗 | 正常 | 标准 | 正常 | 无 | ### 光照示例 明亮光线包括晴朗白昼的阳光、持续光亮术的中心，以及没有阴影的光线（例如多处光源照明）。平均光线包括有阴影或云层的正常白昼、光亮术中心和妖火术的轮廓。黄昏包括日落、普通室内光线、光亮术和持续光亮术的边缘。阴影光线包括昏暗房间、森林光线和 Shadow 位面的地下火炬光。夜晚／黑暗包括夜间有窗的房间、无月或多云夜空；完全黑暗包括漆黑、阴云密布的夜空、未点灯的室内或洞穴，以及黑暗术的范围。 ### 能力值、魔法抗性与生命值 光照会影响 Shade 的能力值。除力量外，加值可以使能力值超过正常种族上限。每个 +1 为力量增加 10% 至 18 点；超过 18/00 的力量按 19 点计算。惩罚会使力量降低整点：18/00 在 -1 时降为 17，在 -2 时降为 16。 Shade 的魔法抗性按当地光照检查，最高不会超过 60%。例如，黄昏中的 13 级 Shade 战士魔法抗性为 60%，而不是 65%。明亮光线中的 Shade 具有标准魔法抗性，且所有豁免骰受到 -4，因为光线是它的弱点。 生命值的加值和惩罚按生命骰计算；任何生命骰都不能低于 1 点。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Shade"
+      }
+    ]
+  },
+  {
+    "id": "mm2-shadow-dragon",
+    "nameZh": "Shadow Dragon",
+    "nameEn": "Shadow Dragon",
+    "frequency": "极罕见",
+    "numberAppearing": "1（75%）；2（25%）",
+    "armorClass": -2,
+    "armorClassText": "-2",
+    "movement": "18\"/24\"（MC：E）",
+    "hitDice": "4–6（每骰 +1）",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "20%",
+    "intelligence": "非常高至天才",
+    "alignment": "中立邪恶",
+    "size": "L（20–30 英尺长）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Shadow dragon 是夜行、地下生物，或者栖息在 Shadowland 一类的幽暗位面。该物种同样独立而孤僻。只有偶尔才会遇到一对配偶。雌性会在黑暗处产下一窝 5–8 枚蛋，第一枚孵化的幼龙会迅速吞食其余幼龙。Shadow dragon 无法忍受极热气候或北极环境，但在较凉爽的温带地区十分兴旺。 Shadow dragon 更喜欢步行而非飞行，因为它们是糟糕的飞行者，只能飞行几轮便会疲惫。Shadow dragon 的体型决定其生命骰。25% 为小型（全部为雌性），50% 为平均型，25% 为大型（全部为雄性）。年龄像所有龙一样决定每生命骰的点数，但 Shadow dragon 每骰总是额外获得 +1，因此极幼龙（刚孵化）每骰有 2 点，而远古个体每骰有 9 点。 Shadow dragon 在明亮光线下的视觉能力较差。在星光下，它们仍能正常视觉（至少达到人类日光标准的 100%）。它们拥有超视觉能力，以及极其出色的红外视觉（180 英尺）。 所有 Shadow dragon 都会说所有邪恶龙的语言，并根据智力额外掌握 1–4 种语言（智力 11–12：1 种语言；13–14：2 种，依此类推）。 智力为 17–18 的个体能够使用 3–4 环幻术师法术；从成年阶段起，每个法术等级有 2 个法术。因此，一条智力为 17 或 18 的成年 Shadow dragon 会有 2 个一环幻术师法术；一条智力为 18 的远古龙则会在一至四环各有 2 个法术。 正常情况下，爪击和撕咬攻击会紧接着吐息攻击。Shadow dragon 的吐息武器是一团长 40 英尺、宽 30 英尺、高 20 英尺的黑暗云团。这种有形的物质会使范围内的生物失明，即使它们拥有红外视觉也一样；它还会降低受害者的生命能量，使其在持续时间内只剩通常活力的 25%（等级或生命骰；若豁免成功则为 50%），持续轮数等于龙的年龄阶段数。由于暴露于这种黑暗，法术会永久丧失，直到以正常方式重新学习或恢复。当然，暴露不会对 Shadow dragon 造成任何影响。 所有 Shadow dragon 都能像 10 级盗贼一样藏入阴影。由于它们的本质和物质构成，只有魔法武器才能伤害它们。它们免疫所有类型的生命等级损失。Shadow dragon 不能被制服，也不能被出售。 Shadow dragon 的宝藏通常是 10–80 颗不透明、颜色深暗的宝石，其中偏爱黑色。它珍视与阴影和黑暗有关的物品，并会尝试摧毁处理火焰和／或光明的魔法。同样，它不会使用光明或火焰类法术。 Shadow dragon 看起来像由深浅不一的阴影构成的蠕虫状龙。蝙蝠般的翅膀半透明，身体大部分也一样。若有人试图发现 Shadow dragon，最容易先看到的是它那一双如凶猛灰色乳光池般的眼睛；但到那时通常已经太迟了。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Shadow Dragon"
+      }
+    ]
+  },
+  {
+    "id": "mm2-giant-dragonfly",
+    "nameZh": "Giant Dragonfly",
+    "nameEn": "Giant Dragonfly",
+    "frequency": "罕见",
+    "numberAppearing": "1–6",
+    "armorClass": 3,
+    "armorClassText": "3",
+    "movement": "1\"/36\"（悬停）（MC：B）",
+    "hitDice": "7（大型个体 8+1–8）",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "先攻检定 +2",
+    "specialDefenses": "见下文",
+    "magicResistance": "按 16 级魔法使用者进行豁免",
+    "intelligence": "低",
+    "alignment": "中立",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "不同于它们的小型近亲，Giant Dragonfly 是会猎杀人类的危险掠食者。由于无畏的本性和贪婪的食欲，这些巨型昆虫不只猎食其他各种类似生物，也会捕食任何温血生物。Giant Dragonfly 分布于亚热带至温带地区。热带地区还存在更大的个体，其怪物数据列在括号中。由于速度极快，能够悬停并突然冲刺，Giant Dragonfly 的先攻检定获得 +2。 如果 Giant Dragonfly 获得先攻，它们就无法被手持武器有效攻击，且对它们的射击攻击受到 -4 惩罚。若未取得先攻，手持武器可以正常命中，但射击仍受到 -2 惩罚。 Giant Dragonfly 除了鲜艳闪亮的颜色和有价值的皮肤外，并不起眼。皮肤若以魔法妥善保存，每平方英尺可卖到 600 gp。它可用于服装和装饰。普通个体只能取得约 6 平方英尺的皮肤。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Giant Dragonfly"
+      }
+    ]
+  },
+  {
+    "id": "mm2-dragon-horse",
+    "nameZh": "Dragon Horse",
+    "nameEn": "Dragon Horse",
+    "frequency": "罕见",
+    "numberAppearing": "1 或 2–3（15%）",
+    "armorClass": 0,
+    "armorClassText": "0",
+    "movement": "24\"/48\"（MC：B）",
+    "hitDice": "8",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "吐息、法术",
+    "specialDefenses": "见下文",
+    "magicResistance": "25%",
+    "intelligence": "平均至非凡",
+    "alignment": "中立善良",
+    "size": "L（肩高 6 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "这种居于天空的 Dragon Horse 是 ki-rin 的近亲。它们漫游在空中的广阔地域（主物质位面上空或空气元素位面），在其他地方遇到它们的概率很低（5%）。遇到 2 或 3 只的概率同样很低；若确实遇到，它们会是一匹公马、一匹母马和一匹幼马（成长 50%–75%；用 1d6 掷骰，结果为 4–6 时分别为 50%–75% 的成长）。自由漫游的 Dragon Horse 对财物或宝藏毫无兴趣。 它们以两次蹄击攻击。如果生物在飞行中攻击，或通过后足站立攻击，则每次伤害 +2（3–10/3–10）。除蹄击外，Dragon Horse 还能将吐息作为武器或防御手段。每轮一次，Dragon Horse 可以随意呼出 fog cloud、gust of wind 或 cone of cold；吐息的尺寸和效果有限（底面直径 1\"、长度 2\"，造成 4d8 点伤害）。其他吐息武器的使用按 8 级能力施展。 Dragon Horse 的感官异常敏锐，包括红外和超视觉能力，均为正常水平的三倍。因此，这些生物永远不会被突袭。它们的视觉能力包括侦测灵光，所以能够感知所遇生物的阵营。这种能力，加上初步的共情能力，使它们几乎不可能被邪恶生物欺骗或奴役。 Dragon Horse 能够穿越星界位面和以太位面，虽然除非偶然穿越以太位面、短暂停留于空气元素位面，否则并不以此闻名。它们会说 ki-rin 语言的一种初级形式，大量交流通过彼此的共情接收完成。 Dragon Horse 是极受追求的坐骑和战马，但很少有人能真正将其用于此事，因为这种生物必须愿意成为同伴和伙伴，而且任何 Dragon Horse 都不喜欢长时间受困于陆地。一匹受到爱护、谨慎抚养，并且经常被带入天空穹顶的幼马，或许会成为值得信赖的同伴和坐骑，前提是绝不能要求它被陆地束缚。由于成熟过程需要 20 年，这样抚养幼马的案例几乎无人知晓。邪恶的存在会使这些生物想要离开、前往别处。 Dragon Horse 看起来像没有角的 ki-rin。它们的毛色从淡天蓝到银蓝不等，鬃毛和尾巴为纯白至银色。蹄子则是深天蓝到靛蓝色。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Dragon Horse"
+      }
+    ]
+  },
+  {
+    "id": "mm2-greater",
+    "nameZh": "Shedu",
+    "nameEn": "Greater",
+    "frequency": "极罕见",
+    "numberAppearing": "1–2（18）",
+    "armorClass": 2,
+    "armorClassText": "2",
+    "movement": "15\"／30\"（MC：B）",
+    "hitDice": "14+14",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "50%",
+    "intelligence": "天才（智慧 16–18）",
+    "alignment": "守序善良",
+    "size": "L（肩高 6 英尺）",
+    "psionics": "120–150 点；攻击/防御模式：全／全",
+    "environment": "原条目未单列",
+    "description": "Greater Shedu 是 Lesser Shedu 的亲密盟友，通常最仁慈地统治 6 只或更多普通 Shedu 的群体。它们偏好 Lammasu 和 Shedu 都喜欢的温暖干燥气候，但经常漫游主物质、星界和以太位面，寻找需要帮助的善良生物，援助它们并与邪恶战斗。 Greater Shedu 以强力的前蹄击打攻击，在 10 英尺半径内散发防护邪恶。它们可以随意进入以太形态和隐形。Greater Shedu 拥有 7 个次级和 4 个主级灵能学科，以 14 级掌握度使用。 常见次级学科为：听觉或视觉、侦测邪恶或侦测魔法、支配或催眠、分子搅动、物品阅读或心灵感应，以及预知。常见主级学科为：身体控制或能量控制、群体支配或心灵屏障、分子操纵或心灵遥控（3150 金币重量）、形体改变。 Greater Shedu 使用维度行走、概率旅行和无力量消耗的无误传送术。除守序善良、Lammasu、Shedu、通用语和根语外，它们还能说话，并能与大多数动物和怪物进行心灵感应，甚至能以初级方式与植物交流。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Greater"
+      }
+    ]
+  },
+  {
+    "id": "mm2-sirine",
+    "nameZh": "Sirine",
+    "nameEn": "Sirine",
+    "frequency": "稀有／极罕见",
+    "numberAppearing": "1 或 2–8",
+    "armorClass": 3,
+    "armorClassText": "3 或更好",
+    "movement": "12\"／24\"",
+    "hitDice": "4–7",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1",
+    "damage": "未记载",
+    "specialAttacks": "见下文",
+    "specialDefenses": "见下文",
+    "magicResistance": "20% 或更高",
+    "intelligence": "高至天才",
+    "alignment": "任意（等概率）；见下文",
+    "size": "M",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Sirine 是美丽的人形女性，在咸水和淡水之上或之下都能生活。它们通常独居，所有遭遇都发生在偏僻、无人居住的地方。由于种族的高敏捷和魔法本质，Sirine 的护甲等级为 3。它们通常携带小型短剑和匕首；30% 会有标枪（其中 40%）或投石索（其中 60%）。任何武器有 10% 的基础概率是 +7 魔法武器或闪电标枪，应逐件检查。 Sirine 拥有以下魔法能力：歌声（3\" 范围内所有具有敌意的听者会被魅惑）、自身变形、云雾术和高等隐形。每项每天一次，一次只能使用 1 项。与 Sirine 近战接触的任何智能生物必须对抗毒素豁免，否则变成白痴（智力 = 2）。这种白痴状态可以由 Sirine 随意移除，但需要 Sirine 接触；否则可以用驱散魔法恢复智力。Sirine 免疫所有形式的气体。 所有豁免按 11 级魔法使用者计算，对毒素的豁免另获 +2。若遇到超过 1 只（概率 30%），它们总在 Sirine 的家园地区。单只 Sirine 总是 6 或 7 生命骰。若遇到 2–8 只，至少有 1 只为 6 或 7 生命骰，其余以相等概率为 4、5、6 或 7 生命骰。 Sirine 群体在善良、邪恶和绝对中立方面的阵营总是相同；例如，邪恶 Sirine 群体中可以同时有守序、 中立和混沌成员。Sirine 同样能呼吸空气和水，拥有红外和红外以上视觉，会说自己的语言和通用语。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Sirine"
+      }
+    ]
+  },
+  {
+    "id": "mm2-stegocentipede",
+    "nameZh": "Stegocentipede",
+    "nameEn": "Stegocentipede",
+    "frequency": "极罕见",
+    "numberAppearing": "1",
+    "armorClass": 3,
+    "armorClassText": "3／6",
+    "movement": "15\"",
+    "hitDice": "9",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "1 和 1",
+    "damage": "未记载",
+    "specialAttacks": "毒",
+    "specialDefenses": "脊柱护甲",
+    "magicResistance": "标准",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "L（长 18 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Stegocentipede 可能在某个遥远的平行世界进化而来，或是某个疯狂遗传操纵者的作品。无论哪种情况，幸运的是这种怪物很少出现。它能适应温带和热带，几乎任何栖息地都适合。它们往往不育。 沿 Stegocentipede 脊柱排列的几丁质板，在大多数（75%）战斗情况下提供 AC3。更大的重量和无腿的尾部使其比其他蜈蚣类移动慢一些。 它不断狩猎，冲向猎物并用巨大的颚夹住。每次咬击都注入毒素，需要进行相应豁免。后半部以较细的蝎状尾巴结束，末端有厚重护甲。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Stegocentipede"
+      }
+    ]
+  },
+  {
+    "id": "mm2-taer",
+    "nameZh": "Taer",
+    "nameEn": "Taer",
+    "frequency": "极罕见",
+    "numberAppearing": "11–30",
+    "armorClass": 4,
+    "armorClassText": "4",
+    "movement": "18\"",
+    "hitDice": "3+6",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "3 或 1",
+    "damage": "未记载",
+    "specialAttacks": "恶臭",
+    "specialDefenses": "免疫寒冷",
+    "magicResistance": "标准",
+    "intelligence": "低（非常狡猾）",
+    "alignment": "中立",
+    "size": "M（高 6.5 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Taer 看起来像白发、油腻、蓬乱的穴居人，可能确实是人类的某个亲族。发色从灰色到雪白，头很大但几乎没有额头。 这个邪恶种族生活在最寒冷的山区，居住在洞穴中，不断寻找食物。普通攻击是踢、拳和咬；其中 50% 的个体拥有粗制长矛，会在接近近战前投掷，命中 +1、伤害 +3。 Taer 会分泌脂肪物质，散发特别恶臭。10 英尺内任何生物必须进行对抗吐息武器的豁免；失败者迷失方向并恶心 2–5 小时，攻击命中受到 -2、伤害受到 -1。分泌物还能帮助它们抵抗寒冷，包括魔法寒冷。 Taer 的财宝通常是抛光牙齿、角和粗刻石像。财宝来自人类受害者的概率为 15%；若有财宝，其中包含 1 件魔法物品的概率为 10%，尤其可能是武器。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Taer"
+      }
+    ]
+  },
+  {
+    "id": "mm2-tasloi",
+    "nameZh": "Tasloi",
+    "nameEn": "Tasloi",
+    "frequency": "稀有",
+    "numberAppearing": "1–6",
+    "armorClass": 5,
+    "armorClassText": "5（持盾）",
+    "movement": "9\"（树上 15\"）",
+    "hitDice": "1",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "2 或 1",
+    "damage": "未记载",
+    "specialAttacks": "1–4 突袭",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "中立",
+    "size": "S（2–3 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Tasloi 生活在湿热的热带森林中，很少被人类看到。它们害羞而恶意，喜欢从树上伏击弱小、粗心的目标。适应地面以上生活的 Tasloi 在地面上缓慢笨拙，只能采取半直立姿态；但在树上通道中敏捷迅速。 它们精通隐蔽，掷 1d6 得 1–4 即突袭，也有 75% 的概率隐藏在阴影中。它们有红外视觉，适合黑暗丛林；完全日光下命中检定受到 -1。 Tasloi 什么都吃，尤其喜欢人类和精灵等各种肉。它们通常从上方攻击，尽量捕获目标；若成功突袭，会使用网。如果队伍警惕或有所准备，Tasloi 会以短促、突然的袭击和撤退逐渐消耗对手；若可能，还会在战斗后偷走敌人的尸体。 Tasloi 以由数个家庭组成的松散部族生活。每 70 名以上有 1 名首领（5 生命骰），部族有 30% 的概率有萨满，萨满最高可升至 5 级。武器组合为：小盾和标枪 20%；棍棒和标枪 40%；短剑和小盾 10%；标枪和网 15%；短剑和网 10%；标枪和套索 5%。使用盾牌时，护甲等级为 5。穿越树木时，标枪和盾牌通常背在身后。 巢穴中除了雄性外，有 70% 的雌性和 50% 的幼体。幼体完全不战斗。巢穴由 1–6 棵大树组成，树上有 4–24 座离地 50–100 英尺的平台，树之间以藤蔓和绳索相连。有 60% 的概率拥有 1–6 只训练过的巨型蜘蛛，20% 的概率拥有 2–8 只训练过的巨型黄蜂；据说 Tasloi 能骑黄蜂远行。 Tasloi 会说自己的语言，也会说猴类和猿类语言；约 5% 的个体学会用于交易的混合通用语。它们是长腿、扁头的类人生物，弯腰行走，偶尔用指关节触地；皮肤有光泽的绿色，稀疏覆盖粗黑毛；眼睛像猫，呈金色；脚长而有抓握能力，夜间能听见它们高而轻的耳语。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Tasloi"
+      }
+    ]
+  },
+  {
+    "id": "mm2-thessalhydra",
+    "nameZh": "Thessalhydra",
+    "nameEn": "Thessalhydra",
+    "frequency": "稀有",
+    "numberAppearing": "1",
+    "armorClass": 0,
+    "armorClassText": "0",
+    "movement": "12\"",
+    "hitDice": "身体 12",
+    "inLair": "未记载",
+    "treasureType": "未记载",
+    "attacks": "最多 10",
+    "damage": "未记载",
+    "specialAttacks": "酸性唾液、喷吐",
+    "specialDefenses": "免疫酸",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "中立",
+    "size": "L（长 36 英尺，高 20 英尺）",
+    "psionics": "无；攻击/防御模式：无/无",
+    "environment": "原条目未单列",
+    "description": "Thessalhydra 喜欢阴暗潮湿环境，因此通常在沼泽、丛林和地下巢穴中出现。它的巨大主口周围环绕一圈蛇头；每次咬击造成 1–6 点伤害，除非受害者对抗毒素豁免成功，否则再受 1–6 点毒素伤害。主口咬击造成 1–20 点伤害，豁免失败时再受 1–20 点酸性伤害。尾部钳击可抓住对手，造成 1–12 点伤害，并在同一轮把受害者放进中央巨口。 每个边缘蛇头长约 6 英尺，因此许多生物都能在同一近战轮受到攻击。每个边缘头受到 12 点伤害才会被切断；切断头部不会伤害身体，Thessalhydra 会在 12 天内再生失去的头。 每天一次，Thessalhydra 可以从主口喷出一团酸性唾液，范围是距离 3\" 内、直径 12 英尺的圆。范围内生物受到 12–72 点酸伤害，对抗毒素豁免成功则减半。任何酸，包括有毒酸，都不会影响 Thessalhydra。 放进中央巨口的物品通常会被毁坏；物品持有者每轮必须进行酸和挤压豁免，直到物品取出。",
+    "source": [
+      {
+        "book": "MM2",
+        "section": "Thessalhydra"
+      }
+    ]
+  }
+]
