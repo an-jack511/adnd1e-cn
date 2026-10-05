@@ -7,7 +7,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
