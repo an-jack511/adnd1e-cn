@@ -3,6 +3,7 @@ import imported from './monsters-imported.json';
 import ffImported from './ff-monsters-imported.json';
 import mm2Imported from './mm2-monsters-imported.json';
 import { oaMonsters } from './oa-monsters';
+import { ref3Monsters } from './ref3-monsters';
 
 const examples: Monster[] = [
   { id: 'owlbear', nameZh: '枭熊', nameEn: 'Owlbear', frequency: '罕见', numberAppearing: '1d4', armorClass: 5, movement: '12"', hitDice: '5+2', inLair: '20%', treasureType: '无', attacks: '2 爪 / 1 咬', damage: '1d6/1d6/1d6', specialAttacks: '拥抱', specialDefenses: '无', magicResistance: '标准', intelligence: '动物', alignment: '中立', size: '大型', psionics: '无', environment: '森林', description: '凶猛的混合兽，拥有羽毛、利爪与强大的拥抱攻击。', illustration: { src: '/assets/monsters/owlbear.svg', source: 'Monster Manual', page: 77 }, source: [{ book: 'MM', page: 77 }] },
@@ -27,5 +28,6 @@ export const monsters: Monster[] = [
   ...ffMonsters.filter((monster) => !importedIds.has(monster.id)),
   ...mm2Monsters.filter((monster) => !importedIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id)),
   ...oaMonsters.filter((monster) => !importedIds.has(monster.id)),
+  ...ref3Monsters,
   ...examples.filter((monster) => !importedIds.has(monster.id) && !oaIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id))
 ];
