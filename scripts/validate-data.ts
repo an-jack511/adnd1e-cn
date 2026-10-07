@@ -47,7 +47,7 @@ for (const chapter of published) {
   if (!existsSync(path)) fail(`Missing published Markdown: ${chapter.book}/${chapter.slug}`);
   const body = readFileSync(path, 'utf8');
   if (/asset:|#unavailable-link|<script\b/i.test(body)) fail(`Unresolved or unsafe content: ${chapter.book}/${chapter.slug}`);
-  for (const match of body.matchAll(/\/books\/(phb|dmg|mm|ua|oa|mm2|ref3|ref4)\/([a-z0-9-]+)\//g)) {
+  for (const match of body.matchAll(/\/books\/(phb|dmg|mm|ua|oa|mm2|ref3|ref4|ref5)\/([a-z0-9-]+)\//g)) {
     if (!publishedKeys.has(`${match[1]}/${match[2]}`)) fail(`Broken book link in ${chapter.book}/${chapter.slug}: ${match[0]}`);
   }
 }

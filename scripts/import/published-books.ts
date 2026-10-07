@@ -7,7 +7,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
@@ -120,7 +120,7 @@ for (const book of ['phb', 'dmg'] as const) {
       .replace(/\s(?:style|class|align|valign|width|height|border|cellpadding|cellspacing|bgcolor|face|size)=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, '')
       .replace(/<a\b[^>]*href=(['"])([^'"]+)\1[^>]*>/gi, (_match, _quote: string, href: string) => {
         if (href.startsWith('#')) return `<a href="${href}">`;
-        const target = href.match(/^(?:\.\.\/)?(phb|dmg|mm|ua)\/([^#?]+)\.html(#[^?]+)?$/i);
+        const target = href.match(/^(?:\.\.\/)?(phb|dmg|mm|ua|ref5)\/([^#?]+)\.html(#[^?]+)?$/i);
         if (target) return `<a href="/books/${target[1].toLowerCase()}/${target[2]}/${target[3] ?? ''}">`;
         const local = href.match(/^([^./#?]+)\.html(#[^?]+)?$/i);
         return local ? `<a href="/books/${book}/${local[1]}/${local[2] ?? ''}">` : '<span>';
@@ -248,7 +248,7 @@ const validChapters = new Set(published.map((topic) => `${topic.book}/${topic.sl
 for (const topic of published) {
   const path = join(outputRoot, topic.book, `${topic.slug}.md`);
   const markdown = await readFile(path, 'utf8');
-  const repaired = markdown.replace(/\/books\/(phb|dmg|mm|ua)\/([a-z0-9-]+)\//g, (href, book: string, slug: string) => validChapters.has(`${book}/${slug}`) ? href : `/books/${book}/`);
+  const repaired = markdown.replace(/\/books\/(phb|dmg|mm|ua|ref5)\/([a-z0-9-]+)\//g, (href, book: string, slug: string) => validChapters.has(`${book}/${slug}`) ? href : `/books/${book}/`);
   if (repaired !== markdown) await writeFile(path, repaired, 'utf8');
 }
 await mkdir(resolve('src/data/published'), { recursive: true });

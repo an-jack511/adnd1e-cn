@@ -15,6 +15,7 @@ export const books: Book[] = [
   { id: 'mm2', short: 'MM2', title: 'Monster Manual II', titleZh: '怪物图鉴 II', description: 'Monster Manual II 的完整中文逐页重译，包含怪物条目、地下城与户外遭遇表、水域与位面表、分类索引及名称索引。', source: [{ book: 'MM2' }], chapters: [{ title: '新增怪物', href: '/monsters?source=MM2' }, { title: '怪物图鉴 II 正文', href: '/books/mm2/' }] },
   { id: 'ref3', short: 'REF3', title: 'The Book of Lairs', titleZh: '巢穴之书', description: '《巢穴之书》的完整中文逐页重译，包含遭遇、怪物统计、地图版面登记、目录与封底资料。', source: [{ book: 'REF3' }], chapters: [{ title: '巢穴之书正文', href: '/books/ref3/' }] },
   { id: 'ref4', short: 'REF4', title: 'The Book of Lairs II', titleZh: '巢穴之书 II', description: '《巢穴之书 II》的完整中文逐页重译，包含城市、荒野、地下、水域、异界遭遇、怪物统计、索引与封底资料。', source: [{ book: 'REF4' }], chapters: [{ title: '巢穴之书 II 正文', href: '/books/ref4/' }] },
+  { id: 'ref5', short: 'REF5', title: 'Lords of Darkness', titleZh: '黑暗诸王', description: '《黑暗诸王》的完整中文逐页重译，包含不死生物遭遇、巢穴、怪物统计、夜间画廊、世俗指南与不死法术。', source: [{ book: 'REF5' }], chapters: [{ title: '黑暗诸王正文', href: '/books/ref5/' }] },
   { id: 'ddg', short: 'DDG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇能力、神话体系、牧师规则、神圣物品与位面旅行的完整中文译稿。', source: [{ book: 'DDG' }], chapters: [] },
   { id: 'll', short: 'L&L', title: 'Legends & Lore', titleZh: '传奇与学识', description: '神祇战役规则、神话体系、神庙陈设、牧师速查与已知位面资料的完整中文译稿。', source: [{ book: 'L&L' }], chapters: [] },
   { id: 'dmdk', short: 'DMDK', title: "Dungeon Master's Design Kit", titleZh: '地下城主设计工具箱', description: '冒险设计、表单、示例冒险与冒险菜谱的完整中文译稿。', source: [{ book: 'DMDK' }], chapters: [] }

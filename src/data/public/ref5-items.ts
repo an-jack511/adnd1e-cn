@@ -1,0 +1,11 @@
+import type { Item } from '../../schemas';
+
+export const ref5Items: Item[] = [
+  { id: 'ref5-bone-ring', nameZh: '骨戒指', nameEn: 'Bone Ring', category: '魔法物品', price: '20,000 gp', weight: '—', description: '由人骨雕刻而成，阻止来自不死者或敌对法术的能量吸取与力量吸取；每枚戒指有 1d100 次使用次数，耗尽后碎成尘埃，不能重新充能。', tags: ['魔法', '防御', '不死者'], source: [{ book: 'REF5', page: 89, section: 'Magic Items Associated with Undead' }] },
+  { id: 'ref5-dark-crown', nameZh: '暗冠', nameEn: 'Dark Crown', category: '魔法物品', price: '20,000 gp', weight: '—', description: '防护头冠，使佩戴者免疫自然和魔法恐惧、麻痹、石化、幽灵衰老与巫妖寒冷攻击；每九轮一次可通过触碰产生 disruption mace 的效果。', tags: ['魔法', '防御', '不死者'], source: [{ book: 'REF5', page: 89, section: 'Magic Items Associated with Undead' }] },
+  { id: 'ref5-hand-of-harrowing', nameZh: '恐怖之手', nameEn: 'Hand of Harrowing', category: '魔法物品', price: '25,000 gp', weight: '—', description: '被附魔的断手可悬浮或放置在门槛处；它会伤害、麻痹并减速附近不死者，还能迫使不死者远离守卫区域。', tags: ['魔法', '防御', '不死者'], source: [{ book: 'REF5', page: 89, section: 'Magic Items Associated with Undead' }] },
+  { id: 'ref5-mirror-against-undead', nameZh: '对不死者之镜', nameEn: 'Mirror Against Undead', category: '魔法物品', price: '—', weight: '—', description: '镜子的反光面会使幽灵和吸血鬼退缩；吸血鬼遇到自己的目光会麻痹，幽灵则可能消失、麻痹或退缩。镜子必须有光线才能生效。', tags: ['魔法', '防御', '不死者'], source: [{ book: 'REF5', page: 89, section: 'Magic Items Associated with Undead' }] },
+  { id: 'ref5-sunstrike-holy-symbol', nameZh: '太阳打击圣徽', nameEn: 'Sunstrike Holy Symbol', category: '圣徽', price: '—', weight: '—', description: '半径 2" 内出现不死者时一次性激活；近距离造成 4d6 能量伤害，并使范围内生物面临致盲与额外伤害豁免。', tags: ['圣徽', '光明', '不死者'], source: [{ book: 'REF5', page: 93, section: 'Sunstrike' }] },
+  { id: 'ref5-life-glyph', nameZh: '生命圣徽', nameEn: 'Life Glyph', category: '圣徽', price: '—', weight: '—', description: '保护开口、门口或通道；接触、经过或穿过的多数不死者会被彻底摧毁，巫妖则会被破坏 1d6×10 天并重聚为半巫妖。', tags: ['圣徽', '防御', '不死者'], source: [{ book: 'REF5', page: 92, section: 'Runes and Holy Symbols Effective Against Undead' }] },
+  { id: 'ref5-sunstone-talisman', nameZh: '日光石护符', nameEn: 'Sunstone Talisman', category: '护符', price: '—', weight: '—', description: '在完整阳光下充能 36 轮后可作用一次；使受影响的不死者退缩，并暂时失去再生、能量吸取、寒冷伤害或控制半强度不死者等能力。', tags: ['护符', '光明', '不死者'], source: [{ book: 'REF5', page: 93, section: 'Talismans' }] }
+];
