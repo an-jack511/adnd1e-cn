@@ -159,4 +159,18 @@ const baseClasses: ClassEntry[] = [
   }
 ];
 
+const dlaRaceAccess: Record<string, string[]> = {
+  'dla-kender': ['fighter', 'barbarian', 'ranger', 'thief', 'thief-acrobat', 'cleric', 'druid'],
+  'dla-gully-dwarf': ['fighter', 'thief'],
+  'dla-krynn-minotaur': ['fighter', 'cleric'],
+  'dla-silvanesti-elf': ['paladin', 'fighter', 'ranger', 'magic-user', 'illusionist'],
+  'dla-qualinesti-elf': ['fighter', 'magic-user', 'thief']
+};
+for (const classEntry of baseClasses) {
+  if (classEntry.eligibleRaces === allRaces) classEntry.eligibleRaces = [...allRaces];
+  for (const [raceId, classIds] of Object.entries(dlaRaceAccess)) {
+    if (classIds.includes(classEntry.id)) classEntry.eligibleRaces.push(raceId);
+  }
+}
+
 export const classes: ClassEntry[] = [...baseClasses, ...oaClasses];

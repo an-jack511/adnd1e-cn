@@ -1,0 +1,8 @@
+import type { Spell } from '../../schemas';
+
+export const dlaSpells: Spell[] = [
+  { id: 'dla-kiss-of-nights-guardian', nameZh: '夜之守护者之吻', nameEn: "Kiss of Night's Guardian", classes: ['Magic-User'], level: 9, school: '塑能', components: ['V', 'S'], castingTime: '1 segment', range: '接触', duration: '1 次通过', areaOfEffect: '1 人', savingThrow: '无', reversible: false, description: '保护目标穿过 Shoikan 林地一次；能减轻恐惧并阻止林地不死生物攻击，但使用武器或法术会使保护失效。', tags: ['防护', '不死者', '龙枪'], source: [{ book: 'DLA', page: 37, section: "Kiss of Night's Guardian" }] },
+  { id: 'dla-mindspin', nameZh: '心灵旋转', nameEn: 'Mindspin', classes: ['Magic-User', 'Illusionist'], level: 7, school: '幻术／幻象', components: ['V', 'S'], castingTime: '3 小时', range: '特殊', duration: '特殊', areaOfEffect: '1 人', savingThrow: '有害时 neg.', reversible: false, description: '取出目标内心深处的噩梦并塑造成幻术，形成梦魇与梦影；梦境分三层扭曲空间、时间、同伴和自我感知。', tags: ['幻术', '梦境', '龙枪'], source: [{ book: 'DLA', page: 37, section: 'Mindspin' }] },
+  { id: 'dla-timeheal', nameZh: '时间治愈', nameEn: 'Timeheal', classes: ['Magic-User'], level: 5, school: '塑能', components: ['V', 'M'], castingTime: '3 segments', range: '接触', duration: '永久', areaOfEffect: '1 生物', savingThrow: '特殊', reversible: false, description: '令目标身体向后滑回时间中的节点以模拟治疗；施法者每等级保证治愈施法前一分钟，额外每分钟有 5% 失败率。', tags: ['治疗', '时间', '龙枪'], source: [{ book: 'DLA', page: 38, section: 'Timeheal' }] },
+  { id: 'dla-timereaver', nameZh: '时间逆流', nameEn: 'Timereaver', classes: ['Magic-User'], level: 9, school: '塑能', components: ['V', 'S', 'M'], castingTime: '3 turns', range: '1"', duration: '永久', areaOfEffect: '半径 1"', savingThrow: '无', reversible: false, description: '高等法术时代的时间魔法；以时间回溯和替代现实为主题，完整效果依原书施法条目裁定。', tags: ['时间', '龙枪'], source: [{ book: 'DLA', page: 38, section: 'Timereaver' }] }
+];

@@ -6,6 +6,7 @@ import { oaMonsters } from './oa-monsters';
 import { ref3Monsters } from './ref3-monsters';
 import { ref4Monsters } from './ref4-monsters';
 import { ref5Monsters } from './ref5-monsters';
+import { dlaMonsters } from './dla-monsters';
 
 const examples: Monster[] = [
   { id: 'owlbear', nameZh: '枭熊', nameEn: 'Owlbear', frequency: '罕见', numberAppearing: '1d4', armorClass: 5, movement: '12"', hitDice: '5+2', inLair: '20%', treasureType: '无', attacks: '2 爪 / 1 咬', damage: '1d6/1d6/1d6', specialAttacks: '拥抱', specialDefenses: '无', magicResistance: '标准', intelligence: '动物', alignment: '中立', size: '大型', psionics: '无', environment: '森林', description: '凶猛的混合兽，拥有羽毛、利爪与强大的拥抱攻击。', illustration: { src: '/assets/monsters/owlbear.svg', source: 'Monster Manual', page: 77 }, source: [{ book: 'MM', page: 77 }] },
@@ -33,5 +34,6 @@ export const monsters: Monster[] = [
   ...ref3Monsters,
   ...ref4Monsters,
   ...ref5Monsters,
+  ...dlaMonsters,
   ...examples.filter((monster) => !importedIds.has(monster.id) && !oaIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id))
 ];
