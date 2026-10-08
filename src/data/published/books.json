@@ -2197,6 +2197,33 @@
   },
   {
     "book": "mm",
+    "slug": "mm-cover",
+    "title": "封面",
+    "titleEn": "Cover",
+    "group": "前置部分",
+    "excerpt": "本页收录原书封面的清晰汉化版；封面构图、作者署名与副标题均依照原书保留。",
+    "sourceFile": "manuscript/mm/topics/cover-retranslation.md"
+  },
+  {
+    "book": "mm",
+    "slug": "mm-treasure-types",
+    "title": "宝物类型",
+    "titleEn": "Treasure Types",
+    "group": "附录",
+    "excerpt": "原书印刷页：105。按 OCR 文本并核对原书表格图像重译；所有数量与出现概率均保留。 表中“无”表示该类财宝不存在；“每个个体”表示每一只怪物分别获得该数量；“任意”表示按该财宝类型的通常随机表决定。 财宝类型 铜币（千枚） 银币（千枚） 电子币（千枚） 金币（千枚） 铂金币（百枚） 宝石 珠宝 地图或魔法 --- --- --- --",
+    "sourceFile": "manuscript/mm/topics/treasure-types-retranslation.md"
+  },
+  {
+    "book": "mm",
+    "slug": "mm-index-retranslation",
+    "title": "主要条目索引",
+    "titleEn": "Index of Major Listings",
+    "group": "附录",
+    "excerpt": "原书印刷页：106–109。按原书字母层级逐项转录、翻译，并保留交叉引用与页码。 A - Aerial Servant（空中仆役）……6 - Air Elemental（空气元素，见 Elemental〔元素〕） - Androsphinx（雄性斯芬克斯，见 Sphinx〔斯芬克斯〕） - Ankheg（锹甲怪）……6 - Ant, Gi",
+    "sourceFile": "manuscript/mm/topics/index-retranslation.md"
+  },
+  {
+    "book": "mm",
     "slug": "mm-aerial-servant",
     "title": "空灵仆从",
     "titleEn": "Aerial Servant",
@@ -9329,8 +9356,8 @@
     "title": "纳迦",
     "titleEn": "Naga",
     "group": "怪物条目",
-    "excerpt": "项目 守护纳迦 灵魂纳迦 水纳迦 --- ---: ---: ---: 出现频率 极罕见 稀有 不常见 出现数量 1–2 1–3 1–4 护甲等级 3 4 5 移动力 15 寸 12 寸 9 寸／18 寸（水中） 生命骰 11–12 9–10 7–8 在巢穴概率 75% 60% 45% 财宝类型 H I、B、X D 攻击次数 1 次 1 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "纳迦 Naga 项目 守护纳迦 Guardian 灵魂纳迦 Spirit 水纳迦 Water --- ---: ---: ---: 出现频率 极罕见 罕见 不常见 出现数量 1–2 1–3 1–4 护甲等级 3 4 5 移动力 15 寸 12 寸 9 寸／18 寸 生命骰 11–12 9–10 7–8 在巢穴概率 75% 60% 45% ",
+    "sourceFile": "manuscript/mm/topics/naga-retranslation.md"
   },
   {
     "book": "mm",
@@ -9338,8 +9365,8 @@
     "title": "新奥提尤格",
     "titleEn": "Neo-Otyugh",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1 护甲等级 0 移动力 6 寸 生命骰 9–12 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 2–12／2–12／1–？ 特殊攻击 疾病 特殊防御 永不被突袭 魔法抗力 标准 智力 平均至极高 阵营 中立 体型 L 灵能能力 无 新奥提尤格是奥提尤格的更大、更聪明种",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "新奥提尤格 Neo-Otyugh 项目 数据 --- --- 出现频率 罕见 出现数量 1 护甲等级 0 移动力 6 寸 生命骰 9–12 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 2–12／2–12／1–3 特殊攻击 疾病 特殊防御 永不受突袭 魔法抗力 标准 智力 普通至非常高 阵营 中立 体型 L 灵能能力 无；",
+    "sourceFile": "manuscript/mm/topics/neo-otyugh-retranslation.md"
   },
   {
     "book": "mm",
@@ -9347,8 +9374,8 @@
     "title": "夜女巫",
     "titleEn": "Night Hag",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 9 移动力 9 寸 生命骰 8 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–12 特殊攻击 见下文 特殊防御 见下文 魔法抗力 65% 智力 卓越 阵营 中立（邪恶） 体型 M 灵能能力 无 夜女巫一族统治着哈迪斯曲折混乱的位面，极少在别处出现。在自己",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "夜女巫 Night Hag 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 9 移动力 9 寸 生命骰 8 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–12 特殊攻击 见下文 特殊防御 见下文 魔法抗力 65% 智力 极高 阵营 中立（邪恶） 体型 M 灵能能力 无；攻击／防御模式：无 夜女巫一族统",
+    "sourceFile": "manuscript/mm/topics/night-hag-retranslation.md"
   },
   {
     "book": "mm",
@@ -9356,8 +9383,8 @@
     "title": "梦魇马",
     "titleEn": "Nightmare",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 −4 移动力 15 寸／36 寸（飞行） 生命骰 6+6 在巢穴概率 无 财宝类型 无 攻击次数 3 次 攻击伤害 2–8／4–10／4–8 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 智力 高 阵营 中立（邪恶） 体型 L 灵能能力 无 梦魇马又称“恶魔马”或“地",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "梦魇马 Nightmare 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 −4 移动力 15 寸／36 寸 生命骰 6+6 在巢穴概率 无 财宝类型 无 攻击次数 3 次 攻击伤害 2–8／4–10／4–10 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 智力 高 阵营 中立（邪恶） 体型 L 灵能能力 无；攻击",
+    "sourceFile": "manuscript/mm/topics/nightmare-retranslation.md"
   },
   {
     "book": "mm",
@@ -9365,8 +9392,8 @@
     "title": "尼克希",
     "titleEn": "Nixie",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 20–80 护甲等级 7 移动力 6 寸／12 寸（水中） 生命骰 每人 1–4 点生命值 在巢穴概率 95% 财宝类型 C、Q 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 魅惑 特殊防御 无 魔法抗力 25% 智力 极高 阵营 中立 体型 S（高 4 尺） 灵能能力 无 尼克希",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "尼克希 Nixie 项目 数据 --- --- 出现频率 罕见 出现数量 20–80 护甲等级 7 移动力 6 寸／7 寸／12 寸 生命骰 1–4 点生命值 在巢穴概率 95% 财宝类型 C、Q 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 魅惑 特殊防御 无 魔法抗力 25% 智力 极高 阵营 中立 体型 S（高 4 尺） 灵能能",
+    "sourceFile": "manuscript/mm/topics/nixie-retranslation.md"
   },
   {
     "book": "mm",
@@ -9374,8 +9401,8 @@
     "title": "宁芙",
     "titleEn": "Nymph",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 9 移动力 12 寸 生命骰 3 在巢穴概率 100% 财宝类型 Q（乘以 10）、X 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 卓越 阵营 中立（善良） 体型 M 灵能能力 无 宁芙是外表永远年轻而美丽的女性，居住在荒",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "宁芙 Nymph 项目 数据 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 9 移动力 12 寸 生命骰 3 在巢穴概率 100% 财宝类型 Q（×10）、X 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 极高 阵营 中立（善良） 体型 M 灵能能力 无；攻击／防御模式：无 这些美",
+    "sourceFile": "manuscript/mm/topics/nymph-retranslation.md"
   },
   {
     "book": "mm",
@@ -9383,8 +9410,8 @@
     "title": "黄褐色胶冻",
     "titleEn": "Ochre Jelly",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–3 护甲等级 8 移动力 3 寸 生命骰 6 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 3–12 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 智力 非智能 阵营 中立 体型 M 灵能能力 无 黄褐色胶冻是巨型变形虫，缓慢渗过地城，寻找并吞食各种肉类或纤维素，尤",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "黄褐色胶冻 Ochre Jelly 项目 数据 --- --- 出现频率 不常见 出现数量 1–3 护甲等级 8 移动力 3 寸 生命骰 6 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 3–12 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 智力 无 阵营 中立 体型 M 灵能能力 无；攻击／防御模式：无 黄褐色胶冻是一种",
+    "sourceFile": "manuscript/mm/topics/ochre-jelly-retranslation.md"
   },
   {
     "book": "mm",
@@ -9392,8 +9419,8 @@
     "title": "巨型章鱼",
     "titleEn": "Octopus, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 7 移动力 3 寸／12 寸（水中） 生命骰 8 在巢穴概率 70% 财宝类型 R 攻击次数 7 次 攻击伤害 1–4（×6）／2–12 特殊攻击 缠绕 特殊防御 见下文 魔法抗力 标准 智力 动物 阵营 中立（邪恶） 体型 L 灵能能力 无 巨型章鱼栖息在温暖、浅至",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型章鱼 Octopus, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 1–3 护甲等级 7 移动力 3 寸／12 寸 生命骰 8 在巢穴概率 70% 财宝类型 R 攻击次数 7 次 攻击伤害 1–4（×6）／2–12 特殊攻击 缠绕 特殊防御 见下文 魔法抗力 标准 智力 动物 阵营 中立（邪恶） 体型 L 灵能能",
+    "sourceFile": "manuscript/mm/topics/giant-octopus-retranslation.md"
   },
   {
     "book": "mm",
@@ -9401,8 +9428,8 @@
     "title": "食人魔",
     "titleEn": "Ogre",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 2–20 护甲等级 5 移动力 9 寸 生命骰 4+1 在巢穴概率 20% 财宝类型 个体财宝 M（乘以 10）、Q、B、S；巢穴财宝 攻击次数 1 次 攻击伤害 1–10 或按武器类型 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 L（高 9 尺以上） ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "食人魔 Ogre 项目 数据 --- --- 出现频率 常见 出现数量 2–20 护甲等级 5 移动力 9 寸 生命骰 4+1 在巢穴概率 20% 财宝类型 个体：M（×10）、Q、B；巢穴：S 攻击次数 1 次 攻击伤害 1–10，或按武器类型 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 L（高 9 尺以",
+    "sourceFile": "manuscript/mm/topics/ogre-retranslation.md"
   },
   {
     "book": "mm",
@@ -9410,8 +9437,8 @@
     "title": "食人魔法师",
     "titleEn": "Ogre Mage",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–6 护甲等级 4 移动力 9 寸／15 寸（飞行） 生命骰 5+2 在巢穴概率 35% 财宝类型 G（魔法物品）、R、S 攻击次数 1 次 攻击伤害 1–12 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 平均至卓越 阵营 守序邪恶 体型 L（高约 10 尺） 灵能能力 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "食人魔法师 Ogre Mage 项目 数据 --- --- 出现频率 极罕见 出现数量 1–6 护甲等级 4 移动力 9 寸／15 寸 生命骰 5+2 在巢穴概率 35% 财宝类型 G（魔法）、R、S 攻击次数 1 次 攻击伤害 1–12 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 普通至极高 阵营 守序邪恶 体型 L（高 10",
+    "sourceFile": "manuscript/mm/topics/ogre-mage-retranslation.md"
   },
   {
     "book": "mm",
@@ -9419,8 +9446,8 @@
     "title": "兽人",
     "titleEn": "Orc",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 30–300 护甲等级 6 移动力 9 寸 生命骰 1 在巢穴概率 35% 财宝类型 个体财宝 I；巢穴财宝 C、Q（乘以 10）、S 攻击次数 1 次 攻击伤害 1–8 或按武器类型 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 平均（低） 阵营 守序邪恶 体型 M（高 6 尺以",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "兽人 Orc 项目 数据 --- --- 出现频率 常见 出现数量 30–300 护甲等级 6 移动力 9 寸 生命骰 1 在巢穴概率 35% 财宝类型 个体：L；巢穴：C、O、Q（×10）、S 攻击次数 1 次 攻击伤害 1–8，或按武器类型 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 普通（低） 阵营 守序邪恶 体型 M（高 6",
+    "sourceFile": "manuscript/mm/topics/orc-retranslation.md"
   },
   {
     "book": "mm",
@@ -9428,8 +9455,8 @@
     "title": "巨型水獭",
     "titleEn": "Otter, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 5 移动力 9 寸／18 寸（水中） 生命骰 5 在巢穴概率 10% 财宝类型 无 攻击次数 1 次 攻击伤害 3–18 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立 体型 L 灵能能力 无 巨型水獭生活在湖泊与河流中，通常没有攻击性，但受到威",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型水獭 Otter, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 2–5 护甲等级 5 移动力 9／7／18 寸 生命骰 5 在巢穴概率 10% 财宝类型 无 攻击次数 1 次 攻击伤害 3–18 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智 阵营 中立 体型 L 灵能能力 无；攻击／防御模式：无 巨型水",
+    "sourceFile": "manuscript/mm/topics/giant-otter-retranslation.md"
   },
   {
     "book": "mm",
@@ -9437,8 +9464,8 @@
     "title": "奥提尤格",
     "titleEn": "Otyugh",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1（或 2） 护甲等级 3 移动力 6 寸 生命骰 6–8 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 1–8／1–8／2–24 特殊攻击 疾病 特殊防御 永不被突袭 魔法抗力 标准 智力 低至平均 阵营 中立 体型 M–L 灵能能力 无 奥提尤格是杂食性的怪异拾荒",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "奥提尤格 Otyugh 项目 数据 --- --- 出现频率 不常见 出现数量 1（2） 护甲等级 3 移动力 6 寸 生命骰 6–8 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 1–8／1–8／2–5 特殊攻击 疾病 特殊防御 永不受突袭 魔法抗力 标准 智力 低至普通 阵营 中立 体型 M–L 灵能能力 无；攻击／防",
+    "sourceFile": "manuscript/mm/topics/otyugh-retranslation.md"
   },
   {
     "book": "mm",
@@ -9446,8 +9473,8 @@
     "title": "巨型猫头鹰",
     "titleEn": "Owl, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 6 移动力 3 寸／18 寸（飞行） 生命骰 4 在巢穴概率 5% 财宝类型 Q（乘以 5）、X 攻击次数 3 次 攻击伤害 2–8／2–8／2–5 特殊攻击 以 1–5 结果突袭 特殊防御 无 魔法抗力 标准 智力 极高 阵营 中立 体型 M 灵能能力 无 巨型猫头",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型猫头鹰 Owl, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 2–5 护甲等级 6 移动力 3 寸／18 寸 生命骰 4 在巢穴概率 5% 财宝类型 Q（×5）、X 攻击次数 3 次 攻击伤害 2–8／2–8／2–5 特殊攻击 1–5 的突袭 特殊防御 无 魔法抗力 标准 智力 极高 阵营 中立 体型 M 灵能能",
+    "sourceFile": "manuscript/mm/topics/giant-owl-retranslation.md"
   },
   {
     "book": "mm",
@@ -9455,8 +9482,8 @@
     "title": "枭熊",
     "titleEn": "Owlbear",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 5 移动力 12 寸 生命骰 5+2 在巢穴概率 30% 财宝类型 C 攻击次数 3 次 攻击伤害 1–6／1–6／2–12 特殊攻击 拥抱 特殊防御 无 魔法抗力 标准 智力 低 阵营 中立 体型 L（高 8 尺） 灵能能力 无 枭熊很可能是某个疯狂巫师进行遗传实验",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "枭熊 Owlbear 项目 数据 --- --- 出现频率 罕见 出现数量 2–5 护甲等级 5 移动力 12 寸 生命骰 5+2 在巢穴概率 30% 财宝类型 C 攻击次数 3 次 攻击伤害 1–6／1–6／2–12 特殊攻击 拥抱 特殊防御 无 魔法抗力 标准 智力 低 阵营 中立 体型 L（高 8 尺） 灵能能力 无；攻击／防御模式",
+    "sourceFile": "manuscript/mm/topics/owlbear-retranslation.md"
   },
   {
     "book": "mm",
@@ -9464,8 +9491,8 @@
     "title": "飞马",
     "titleEn": "Pegasus",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–10 护甲等级 6 移动力 24 寸／48 寸（飞行） 生命骰 4 在巢穴概率 15% 财宝类型 无 攻击次数 3 次 攻击伤害 1–8／1–8／1–3 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 平均 阵营 混乱善良 体型 L 灵能能力 无 飞马生活在偏远地区，通常羞怯而",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "天马 Pegasus 项目 数据 --- --- 出现频率 极罕见 出现数量 1–10 护甲等级 6 移动力 24 寸／48 寸 生命骰 4 在巢穴概率 15% 财宝类型 无 攻击次数 3 次 攻击伤害 1–8／1–8／1–3 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 普通 阵营 混乱善良 体型 L 灵能能力 无；攻击／防御模式：",
+    "sourceFile": "manuscript/mm/topics/pegasus-retranslation.md"
   },
   {
     "book": "mm",
@@ -9473,8 +9500,8 @@
     "title": "鹏鸟",
     "titleEn": "Peryton",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–8 护甲等级 7 移动力 12 寸／21 寸（飞行） 生命骰 4 在巢穴概率 10% 财宝类型 B 攻击次数 1 次 攻击伤害 4–16 特殊攻击 命中 +2 特殊防御 仅 +1 或更好武器可命中 魔法抗力 标准 智力 平均 阵营 混乱邪恶 体型 M 灵能能力 无 鹏鸟栖息在岩石丘",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "鹏鸟 Peryton 项目 数据 --- --- 出现频率 罕见 出现数量 2–8 护甲等级 7 移动力 12 寸／21 寸 生命骰 4 在巢穴概率 10% 财宝类型 B 攻击次数 1 次 攻击伤害 4–16 特殊攻击 命中骰 +2 特殊防御 需要 +1 或更好的武器才能命中 魔法抗力 标准 智力 普通 阵营 混乱邪恶 体型 M 灵能能力",
+    "sourceFile": "manuscript/mm/topics/peryton-retranslation.md"
   },
   {
     "book": "mm",
@@ -9482,8 +9509,8 @@
     "title": "穿刺怪",
     "titleEn": "Piercer",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 3–18 护甲等级 3 移动力 1 寸 生命骰 1–4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 1–6／2–12／3–18 或 4–24 特殊攻击 95% 的机会突袭 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 S–M 灵能能力 无 穿刺怪栖息在洞",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "穿刺怪 Piercer 项目 数据 --- --- 出现频率 不常见 出现数量 3–18 护甲等级 3 移动力 1 寸 生命骰 1–4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 1–6／2–12／3–18，或 4–24 特殊攻击 95% 概率突袭 特殊防御 无 魔法抗力 标准 智力 无 阵营 中立 体型 S 至 M 灵能能",
+    "sourceFile": "manuscript/mm/topics/piercer-retranslation.md"
   },
   {
     "book": "mm",
@@ -9491,8 +9518,8 @@
     "title": "巨型狗鱼",
     "titleEn": "Pike, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–8 护甲等级 5 移动力 36 寸 生命骰 4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 4–16 特殊攻击 以 1–4 结果突袭 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 L（长 9–14 尺） 灵能能力 无 巨型狗鱼生活在深而大的湖泊中，是凶",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型狗鱼 Pike, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 1–8 护甲等级 5 移动力 36 寸 生命骰 4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 4–16 特殊攻击 1–4 的突袭 特殊防御 无 魔法抗力 标准 智力 无 阵营 中立 体型 L（长 9–14 尺） 灵能能力 无；攻击／防御",
+    "sourceFile": "manuscript/mm/topics/giant-pike-retranslation.md"
   },
   {
     "book": "mm",
@@ -9500,8 +9527,8 @@
     "title": "皮克精",
     "titleEn": "Pixie",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 5–20 护甲等级 5 移动力 6 寸／12 寸（飞行） 生命骰 每人 1–4 点生命值 在巢穴概率 5% 财宝类型 R、S、T、X 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 见下文 特殊防御 见下文 魔法抗力 25% 智力 卓越 阵营 中立 体型 S（高 2.5 尺） 灵能",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "皮克精 Pixie 项目 数据 --- --- 出现频率 极罕见 出现数量 5–20 护甲等级 5 移动力 6 寸／12 寸 生命骰 每人 1–4 点生命值 在巢穴概率 5% 财宝类型 R、S、T、X 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 见下文 特殊防御 见下文 魔法抗力 25% 智力 极高 阵营 中立 体型 S（高 2½ ",
+    "sourceFile": "manuscript/mm/topics/pixie-retranslation.md"
   },
   {
     "book": "mm",
@@ -9509,8 +9536,8 @@
     "title": "巨型豪猪",
     "titleEn": "Porcupine, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–2 护甲等级 5 移动力 6 寸 生命骰 6 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–8 特殊攻击 发射棘刺 特殊防御 棘刺 魔法抗力 标准 智力 动物 阵营 中立 体型 L 灵能能力 无 巨型豪猪主要生活在林地，愚钝而不主动攻击，但受威胁时很容易自卫。它会",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型豪猪 Porcupine, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1–2 护甲等级 5 移动力 6 寸 生命骰 6 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 2–8 特殊攻击 发射刺针 特殊防御 刺针 魔法抗力 标准 智力 动物 阵营 中立 体型 L 灵能能力 无；攻击／防御模式：无 巨",
+    "sourceFile": "manuscript/mm/topics/giant-porcupine-retranslation.md"
   },
   {
     "book": "mm",
@@ -9518,8 +9545,8 @@
     "title": "巨型僧帽水母",
     "titleEn": "Portuguese Man-o-War, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–10 护甲等级 9 移动力 1 寸 生命骰 1–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–10 特殊攻击 麻痹 特殊防御 透明 魔法抗力 标准 智力 非智能 阵营 中立 体型 S–L 灵能能力 无 巨型僧帽水母漂浮在温暖海水中，拖着有毒触手。任何触碰触手",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型僧帽水母 Portuguese Man-o-War, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1–10 护甲等级 9 移动力 1 寸 生命骰 1–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–10 特殊攻击 麻痹 特殊防御 透明 魔法抗力 标准 智力 无 阵营 中立 体型 S 至 L ",
+    "sourceFile": "manuscript/mm/topics/portuguese-man-o-war-retranslation.md"
   },
   {
     "book": "mm",
@@ -9527,8 +9554,8 @@
     "title": "伪龙",
     "titleEn": "Pseudo-Dragon",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 2 移动力 6 寸／24 寸（飞行） 生命骰 2 在巢穴概率 5% 财宝类型 Q（乘以 10） 攻击次数 1 次 攻击伤害 1–3 特殊攻击 毒刺 特殊防御 变色能力 魔法抗力 35% 智力 平均 阵营 中立（善良） 体型 S（长 1.5 尺） 灵能能力 无 伪龙可在除",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "伪龙 Pseudo-Dragon 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 2 移动力 6 寸／24 寸 生命骰 2 在巢穴概率 5% 财宝类型 Q（×10） 攻击次数 1 次 攻击伤害 1–3 特殊攻击 毒刺 特殊防御 变色能力 魔法抗力 35% 智力 普通 阵营 中立（善良） 体型 S（长 1½ 尺） 灵能",
+    "sourceFile": "manuscript/mm/topics/pseudo-dragon-retranslation.md"
   },
   {
     "book": "mm",
@@ -9536,8 +9563,8 @@
     "title": "紫虫",
     "titleEn": "Purple Worm",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–2 护甲等级 6 移动力 9 寸 生命骰 15 在巢穴概率 30% 财宝类型 B、Q（乘以 5）、X 攻击次数 1 次及 7 次 攻击伤害 2–24／2–4 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 L（长 50 尺） 灵能能力 无 紫虫在地下",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "紫虫 Purple Worm 项目 数据 --- --- 出现频率 罕见 出现数量 1–2 护甲等级 6 移动力 9 寸 生命骰 15 在巢穴概率 30% 财宝类型 B、Q（×5）、X 攻击次数 1 次及 1 次 攻击伤害 2–24／2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 无 阵营 中立 体型 L（长 50 尺） 灵",
+    "sourceFile": "manuscript/mm/topics/purple-worm-retranslation.md"
   },
   {
     "book": "mm",
@@ -9545,8 +9572,8 @@
     "title": "夸赛魔",
     "titleEn": "Quasit",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 2 移动力 15 寸 生命骰 3 在巢穴概率 0% 财宝类型 Q（乘以 3） 攻击次数 3 次 攻击伤害 1–2／1–2／1–4 特殊攻击 见下文 特殊防御 见下文 魔法抗力 25% 智力 低 阵营 混乱邪恶 体型 S 灵能能力 无 夸赛魔在物质位面稀有，在潘德摩尼乌姆",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "夸赛魔 Quasit 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 2 移动力 15 寸 生命骰 3 在巢穴概率 0% 财宝类型 Q（×3） 攻击次数 3 次 攻击伤害 1–2／1–2／1–4 特殊攻击 见攻击方式 特殊防御 见下文 魔法抗力 25% 智力 低 阵营 混乱邪恶 体型 S 灵能能力 无；攻击／防御模式",
+    "sourceFile": "manuscript/mm/topics/quasit-retranslation.md"
   },
   {
     "book": "mm",
@@ -9554,8 +9581,8 @@
     "title": "罗刹",
     "titleEn": "Rakshasa",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见至稀有 出现数量 1–4 护甲等级 −4 移动力 15 寸 生命骰 7 在巢穴概率 25% 财宝类型 F 攻击次数 3 次 攻击伤害 1–3／1–3／2–5 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 极高 阵营 守序邪恶 体型 M 灵能能力 无 罗刹最初在印度被发现，是包裹于肉",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "罗刹 Rakshasa 项目 数据 --- --- 出现频率 极罕见至罕见 出现数量 1–4 护甲等级 −4 移动力 15 寸 生命骰 7 在巢穴概率 25% 财宝类型 F 攻击次数 3 次 攻击伤害 1–3／1–3／2–5 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 极高 阵营 守序邪恶 体型 M 灵能能力 无；攻击／防",
+    "sourceFile": "manuscript/mm/topics/rakshasa-retranslation.md"
   },
   {
     "book": "mm",
@@ -9563,8 +9590,8 @@
     "title": "巨型公羊",
     "titleEn": "Ram, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–8 护甲等级 6 移动力 15 寸 生命骰 4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–12 特殊攻击 冲锋 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（肩高 6 尺） 灵能能力 无 巨型羊只出现在丘陵或山地。成年个体无论雌雄均符合上述数据",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型公羊 Ram, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 2–8 护甲等级 6 移动力 15 寸 生命骰 4 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–12 特殊攻击 冲锋 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（肩高 6 尺） 灵能能力 无；攻击／防御模式：无 巨型",
+    "sourceFile": "manuscript/mm/topics/giant-ram-retranslation.md"
   },
   {
     "book": "mm",
@@ -9572,8 +9599,8 @@
     "title": "巨型鼠",
     "titleEn": "Rat, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 5–50 护甲等级 7 移动力 12 寸／6 寸（水中） 生命骰 每只 1–4 点生命值 在巢穴概率 10% 财宝类型 C 攻击次数 1 次 攻击伤害 1–3 特殊攻击 疾病 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立（邪恶） 体型 S 灵能能力 无 各种鼠都很常见，苏门答",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型鼠（苏门答腊） Rat, Giant (Sumatran) 项目 数据 --- --- 出现频率 常见 出现数量 5–50 护甲等级 7 移动力 12 寸／6 寸 生命骰 每只 1–4 点生命值 在巢穴概率 10% 财宝类型 C 攻击次数 1 次 攻击伤害 1–3 特殊攻击 疾病 特殊防御 无 魔法抗力 标准 智力 半智 阵营 中立（",
+    "sourceFile": "manuscript/mm/topics/giant-rat-retranslation.md"
   },
   {
     "book": "mm",
@@ -9581,8 +9608,8 @@
     "title": "鳐",
     "titleEn": "Ray",
     "group": "怪物条目",
-    "excerpt": "蝠鲼 Manta Ray 项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 6 移动力 18 寸 生命骰 8–11 在巢穴概率 0% 财宝类型 J–N（×10）、O（×5）、X 攻击次数 1 次咬噬、1 次尾刺 攻击伤害 3–12／2–20 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "鳐 Ray 项目 Manta 鳐 Pungi 鳐 Sting 鳐 --- ---: ---: ---: 出现频率 不常见 罕见 常见 出现数量 1 1–3 1–3 护甲等级 6 7 7 移动力 18 寸 12 寸 9 寸 生命骰 8–11 4 1 在巢穴概率 0% 0% 0% 财宝类型 J–N（×10）、Q（×5）、X 无 无 攻击次数 ",
+    "sourceFile": "manuscript/mm/topics/ray-retranslation.md"
   },
   {
     "book": "mm",
@@ -9590,8 +9617,8 @@
     "title": "雷莫拉兹",
     "titleEn": "Remorhaz",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 全身 0；头部 2；腹部 4 移动力 12 寸 生命骰 7–14 在巢穴概率 20% 财宝类型 F 攻击次数 1 次 攻击伤害 6–36 特殊攻击 见下文 特殊防御 见下文 魔法抗力 75% 智力 动物 阵营 中立 体型 L（长 21–42 尺） 灵能能力 无 雷莫拉兹",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "冰虫 Remorhaz 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 身体总体 0；头部 2；腹部 4 移动力 12 寸 生命骰 7–14 在巢穴概率 20% 财宝类型 F 攻击次数 1 次 攻击伤害 6–36 特殊攻击 见下文 特殊防御 见下文 魔法抗力 75% 智力 动物 阵营 中立 体型 L（长 21–42 ",
+    "sourceFile": "manuscript/mm/topics/remorhaz-retranslation.md"
   },
   {
     "book": "mm",
@@ -9599,8 +9626,8 @@
     "title": "犀牛",
     "titleEn": "Rhinoceros",
     "group": "怪物条目",
-    "excerpt": "犀牛 Rhinoceros 项目 数据 --- --- 出现频率 常见 出现数量 1–6 护甲等级 6 移动力 12 寸 生命骰 8–9 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–8／2–12 特殊攻击 冲锋 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L 灵能能力 无 犀牛大体上是好斗的食草动物。少数",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "犀牛 Rhinoceros 项目 犀牛 Rhinoceros 长毛犀牛 Woolly Rhinoceros --- ---: ---: 出现频率 常见 常见 出现数量 1–6 1–4 护甲等级 6 5 移动力 12 寸 12 寸 生命骰 8–9 10 在巢穴概率 无 无 财宝类型 无 无 攻击次数 1 次 1 次 攻击伤害 2–8／2–1",
+    "sourceFile": "manuscript/mm/topics/rhinoceros-retranslation.md"
   },
   {
     "book": "mm",
@@ -9608,8 +9635,8 @@
     "title": "巨鸟",
     "titleEn": "Roc",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–2 护甲等级 4 移动力 3 寸／30 寸（飞行） 生命骰 18 在巢穴概率 10% 财宝类型 C 攻击次数 2 次或 1 次 攻击伤害 3–18／3–18，或 4–24 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（翼展 60 尺以上） 灵能能力 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "鹏鸟 Roc 项目 数据 --- --- 出现频率 罕见 出现数量 1–2 护甲等级 4 移动力 3 寸／30 寸 生命骰 18 在巢穴概率 10% 财宝类型 C 攻击次数 2 次或 1 次 攻击伤害 3–18／3–18，或 4–24 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（翼展 60 尺以上） 灵能",
+    "sourceFile": "manuscript/mm/topics/roc-retranslation.md"
   },
   {
     "book": "mm",
@@ -9617,8 +9644,8 @@
     "title": "绳怪",
     "titleEn": "Roper",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 0 移动力 3 寸 生命骰 10–12 在巢穴概率 90% 财宝类型 见下文 攻击次数 1 次 攻击伤害 5–20 特殊攻击 6 根毒性丝索 特殊防御 见下文 魔法抗力 80% 智力 超常 阵营 混乱邪恶 体型 L 灵能能力 无 绳怪居住在地下洞穴，以各种生物为食，但",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "绳怪 Roper 项目 数据 --- --- 出现频率 罕见 出现数量 1–3 护甲等级 0 移动力 3 寸 生命骰 10–12 在巢穴概率 90% 财宝类型 见下文 攻击次数 1 次 攻击伤害 5–20 特殊攻击 6 条毒索 特殊防御 见下文 魔法抗力 80% 智力 极高 阵营 混乱邪恶 体型 L 灵能能力 无；攻击／防御模式：无 绳怪",
+    "sourceFile": "manuscript/mm/topics/roper-retranslation.md"
   },
   {
     "book": "mm",
@@ -9626,8 +9653,8 @@
     "title": "腐尸蛆",
     "titleEn": "Rot Grub",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 5–20 护甲等级 9 移动力 1 寸 生命骰 1 点生命值 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 S 灵能能力 无 腐尸蛆偶尔出现在内脏或粪便堆中，极少出现在天花板、墙壁或地板里。这",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "腐尸蛆 Rot Grub 项目 数据 --- --- 出现频率 罕见 出现数量 5–20 护甲等级 9 移动力 1 寸 生命骰 1 点生命值 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 无 阵营 中立 体型 S 灵能能力 无；攻击／防御模式：无 腐尸蛆偶尔会出现在脏物或",
+    "sourceFile": "manuscript/mm/topics/rot-grub-retranslation.md"
   },
   {
     "book": "mm",
@@ -9635,8 +9662,8 @@
     "title": "锈蚀怪",
     "titleEn": "Rust Monster",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–2 护甲等级 2 移动力 18 寸 生命骰 5 在巢穴概率 10% 财宝类型 Q（×10） 攻击次数 2 次 攻击伤害 无 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 锈蚀怪只栖息在黑暗的地下区域，四处寻找各种金属，尤其是铁、钢",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "锈蚀怪 Rust Monster 项目 数据 --- --- 出现频率 不常见 出现数量 1–2 护甲等级 2 移动力 18 寸 生命骰 5 在巢穴概率 10% 财宝类型 Q（×10） 攻击次数 2 次 攻击伤害 无 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无；攻击／防御模式：无 锈蚀怪",
+    "sourceFile": "manuscript/mm/topics/rust-monster-retranslation.md"
   },
   {
     "book": "mm",
@@ -9644,8 +9671,8 @@
     "title": "沙华鱼人",
     "titleEn": "Sahuagin",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 20–80 护甲等级 5 移动力 12 寸／24 寸（水中） 生命骰 2+2 在巢穴概率 25% 财宝类型 个体 N；巢穴 I、O、F、Q（×10）、X、Y 攻击次数 1 次（武器） 攻击伤害 依武器而定 特殊攻击 见下文 特殊防御 见下文 魔法抗力 标准 智力 高 阵营 守序邪恶 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "沙华鱼人 Sahuagin 项目 数据 --- --- 出现频率 不常见 出现数量 20–80 护甲等级 5 移动力 12 寸／24 寸 生命骰 2+2 在巢穴概率 25% 财宝类型 个体：N；巢穴：I、O、P、Q（×10）、X、Y 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 见下文 特殊防御 见下文 魔法抗力 标准 智力 高 阵营",
+    "sourceFile": "manuscript/mm/topics/sahuagin-retranslation.md"
   },
   {
     "book": "mm",
@@ -9653,8 +9680,8 @@
     "title": "火蜥蜴",
     "titleEn": "Salamander",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 上半身 5；下半身 3 移动力 9 寸 生命骰 7+7 在巢穴概率 75% 财宝类型 F 攻击次数 2 次 攻击伤害 依武器／2–12 特殊攻击 热量 特殊防御 需 +1 或更好的武器命中 魔法抗力 标准 智力 高 阵营 混乱邪恶 体型 M 灵能能力 无 火蜥蜴来自火",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "火蜥蜴 Salamander 项目 数据 --- --- 出现频率 罕见 出现数量 2–5 护甲等级 5／3 移动力 9 寸 生命骰 7+7 在巢穴概率 75% 财宝类型 F 攻击次数 2 次 攻击伤害 按武器类型／2–12 特殊攻击 高热 特殊防御 需要 +1 或更好的武器才能命中 魔法抗力 标准 智力 高 阵营 混乱邪恶 体型 M 灵",
+    "sourceFile": "manuscript/mm/topics/salamander-retranslation.md"
   },
   {
     "book": "mm",
@@ -9662,8 +9689,8 @@
     "title": "萨梯",
     "titleEn": "Satyr",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 2–8 护甲等级 5 移动力 18 寸 生命骰 5 在巢穴概率 40% 财宝类型 I、S、X 攻击次数 1 次 攻击伤害 2–8 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 极高 阵营 中立 体型 M 灵能能力 无 萨梯（或称牧神）只居住在林地，主要兴趣是嬉戏、吹笛和",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "萨梯 Satyr 项目 数据 --- --- 出现频率 不常见 出现数量 2–8 护甲等级 5 移动力 18 寸 生命骰 5 在巢穴概率 40% 财宝类型 I、S、X 攻击次数 1 次 攻击伤害 2–8 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 极高 阵营 中立 体型 M 灵能能力 无；攻击／防御模式：无 萨梯（或称牧神",
+    "sourceFile": "manuscript/mm/topics/satyr-retranslation.md"
   },
   {
     "book": "mm",
@@ -9671,8 +9698,8 @@
     "title": "巨型蝎",
     "titleEn": "Scorpion, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 3 移动力 15 寸 生命骰 5+5 在巢穴概率 50% 财宝类型 D 攻击次数 3 次 攻击伤害 1–10／1–10／1–4 特殊攻击 毒刺 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 M 灵能能力 无 巨型蝎是凶猛的捕食者，即使在地城等较冷的地",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型蝎 Scorpion, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 3 移动力 15 寸 生命骰 5+5 在巢穴概率 50% 财宝类型 D 攻击次数 3 次 攻击伤害 1–10／1–10／1–4 特殊攻击 毒刺 特殊防御 无 魔法抗力 标准 智力 无 阵营 中立 体型 M 灵能能力 无；攻击／",
+    "sourceFile": "manuscript/mm/topics/giant-scorpion-retranslation.md"
   },
   {
     "book": "mm",
@@ -9680,8 +9707,8 @@
     "title": "海巫婆",
     "titleEn": "Sea Hag",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 7 移动力 15 寸 生命骰 3 在巢穴概率 10% 财宝类型 C、Y 攻击次数 1 次 攻击伤害 匕首 特殊攻击 死亡凝视 特殊防御 见下文 魔法抗力 50% 智力 平均 阵营 混乱邪恶 体型 M 灵能能力 无 海巫婆居住在温暖海域的茂密浅滩，极少数变种生活在淡水",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "海巫婆 Sea Hag 项目 数据 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 7 移动力 15 寸 生命骰 3 在巢穴概率 10% 财宝类型 C、Y 攻击次数 1 次 攻击伤害 匕首 特殊攻击 死亡凝视 特殊防御 见下文 魔法抗力 50% 智力 普通 阵营 混乱邪恶 体型 M 灵能能力 无；攻击／防御模式：无 海巫婆栖",
+    "sourceFile": "manuscript/mm/topics/sea-hag-retranslation.md"
   },
   {
     "book": "mm",
@@ -9689,8 +9716,8 @@
     "title": "巨型海马",
     "titleEn": "Sea Horse, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 1–20 护甲等级 7 移动力 2 寸 生命骰 2–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–4／2–5／2–8 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立 体型 L 灵能能力 无 巨型海马是除最寒冷水域外各处都能发现的海生草食动物。",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型海马 Sea Horse, Giant 项目 数据 --- --- 出现频率 常见 出现数量 1–20 护甲等级 7 移动力 21 寸 生命骰 2–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–4／2–5／2–8 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智 阵营 中立 体型 L 灵能能力 无；攻击／防",
+    "sourceFile": "manuscript/mm/topics/giant-sea-horse-retranslation.md"
   },
   {
     "book": "mm",
@@ -9698,8 +9725,8 @@
     "title": "海狮",
     "titleEn": "Sea Lion",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 3–12 护甲等级 头部 5；身体 3 移动力 18 寸 生命骰 6 在巢穴概率 20% 财宝类型 B 攻击次数 3 次 攻击伤害 1–6／1–6／2–12 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立 体型 L 灵能能力 无 海狮是栖息在近海水域的可怕食肉动",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "海狮 Sea Lion 项目 数据 --- --- 出现频率 不常见 出现数量 3–12 护甲等级 头部 5／身体 3 移动力 18 寸 生命骰 6 在巢穴概率 20% 财宝类型 B 攻击次数 3 次 攻击伤害 1–6／1–6／2–12 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智 阵营 中立 体型 L 灵能能力 无；攻击／防御",
+    "sourceFile": "manuscript/mm/topics/sea-lion-retranslation.md"
   },
   {
     "book": "mm",
@@ -9707,8 +9734,8 @@
     "title": "影子",
     "titleEn": "Shadow",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–20 护甲等级 7 移动力 12 寸 生命骰 3+3 在巢穴概率 40% 财宝类型 F 攻击次数 1 次 攻击伤害 2–5 特殊攻击 力量吸取 特殊防御 需 +1 或更好的武器命中 魔法抗力 见下文 智力 低 阵营 混乱邪恶 体型 M 灵能能力 无 这些可怕的不死生物出没于古老遗迹",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "阴影 Shadow 项目 数据 --- --- 出现频率 罕见 出现数量 2–20 护甲等级 7 移动力 12 寸 生命骰 3+3 在巢穴概率 40% 财宝类型 F 攻击次数 1 次 攻击伤害 2–5 特殊攻击 力量吸取 特殊防御 需要 +1 或更好的武器才能命中 魔法抗力 见下文 智力 低 阵营 混乱邪恶 体型 M 灵能能力 无；攻击／",
+    "sourceFile": "manuscript/mm/topics/shadow-retranslation.md"
   },
   {
     "book": "mm",
@@ -9716,8 +9743,8 @@
     "title": "蹒跚怪",
     "titleEn": "Shambling Mound",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 0 移动力 6 寸 生命骰 8–11 在巢穴概率 30% 财宝类型 B、T、X 攻击次数 2 次 攻击伤害 2–16／2–16 特殊攻击 窒息 特殊防御 见下文 魔法抗力 见下文 智力 低 阵营 中立 体型 L 灵能能力 无 蹒跚怪又称“沼怪”，出没于阴沉沼泽或某些潮",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "蹒跚怪 Shambling Mound 项目 数据 --- --- 出现频率 罕见 出现数量 1–3 护甲等级 0 移动力 6 寸 生命骰 8–11 在巢穴概率 30% 财宝类型 B、T、X 攻击次数 2 次 攻击伤害 2–16／2–16 特殊攻击 窒息 特殊防御 见下文 魔法抗力 见下文 智力 低 阵营 中立 体型 L 灵能能力 无；攻",
+    "sourceFile": "manuscript/mm/topics/shambling-mound-retranslation.md"
   },
   {
     "book": "mm",
@@ -9725,8 +9752,8 @@
     "title": "鲨鱼",
     "titleEn": "Shark",
     "group": "怪物条目",
-    "excerpt": "鲨鱼 Shark 项目 数据 --- --- 出现频率 常见 出现数量 3–12 护甲等级 6 移动力 24 寸 生命骰 3–8 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 2–5、2–8 或 3–12 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 M–L 灵能能力 无 鲨鱼在海洋中不断游动，",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "鲨鱼 Shark 项目 普通鲨鱼 Shark 巨型鲨鱼（巨齿鲨） Giant Shark (Megalodon) --- ---: ---: 出现频率 常见 罕见 出现数量 3–12 1–3 护甲等级 6 5 移动力 24 寸 18 寸 生命骰 3–8 10–15 在巢穴概率 0% 0% 财宝类型 无 无 攻击次数 1 次 1 次 攻击伤",
+    "sourceFile": "manuscript/mm/topics/shark-retranslation.md"
   },
   {
     "book": "mm",
@@ -9734,8 +9761,8 @@
     "title": "舍杜",
     "titleEn": "Shedu",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–8 护甲等级 4 移动力 12 寸／24 寸（飞行） 生命骰 9+9 在巢穴概率 25% 财宝类型 G 攻击次数 2 次 攻击伤害 1–6／1–6 特殊攻击 见下文 特殊防御 见下文 魔法抗力 25% 智力 超常 阵营 守序善良 体型 L 灵能能力 70–100；攻击／防御模式：全",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "舍杜 Shedu 项目 数据 --- --- 出现频率 罕见 出现数量 2–8 护甲等级 4 移动力 12 寸／24 寸 生命骰 9+9 在巢穴概率 25% 财宝类型 G 攻击次数 2 次 攻击伤害 1–6／1–6 特殊攻击 见下文 特殊防御 见下文 魔法抗力 25% 智力 极高 阵营 守序善良 体型 L 灵能能力 70–100；攻击／防",
+    "sourceFile": "manuscript/mm/topics/shedu-retranslation.md"
   },
   {
     "book": "mm",
@@ -9743,8 +9770,8 @@
     "title": "尖叫蕈",
     "titleEn": "Shrieker",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 2–8 护甲等级 7 移动力 1 寸 生命骰 3 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 无 特殊防御 尖叫声 魔法抗力 标准 智力 非智能 阵营 中立 体型 S–L 灵能能力 无 尖叫蕈通常是安静、无心智却能移动的真菌，生活在地下黑暗处。30 尺内出现光",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "尖叫蕈 Shrieker 项目 数据 --- --- 出现频率 常见 出现数量 2–8 护甲等级 7 移动力 1 寸 生命骰 3 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 无 特殊防御 噪音 魔法抗力 标准 智力 无 阵营 中立 体型 S 至 L 灵能能力 无；攻击／防御模式：无 尖叫蕈通常是安静而无心智、能够",
+    "sourceFile": "manuscript/mm/topics/shrieker-retranslation.md"
   },
   {
     "book": "mm",
@@ -9752,8 +9779,8 @@
     "title": "骷髅",
     "titleEn": "Skeleton",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 3–30 护甲等级 7 移动力 12 寸 生命骰 1 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 1–6 特殊攻击 无 特殊防御 见下文 魔法抗力 见下文 智力 非智能 阵营 中立 体型 M 灵能能力 无 骷髅是由强大魔法师或邪恶阵营牧师以魔法唤起的不死生物，只会遵照唤起",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "骷髅 Skeleton 项目 数据 --- --- 出现频率 罕见 出现数量 3–30 护甲等级 7 移动力 12 寸 生命骰 1 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 1–6 特殊攻击 无 特殊防御 见下文 魔法抗力 见下文 智力 无 阵营 中立 体型 M 灵能能力 无；攻击／防御模式：无 骷髅是由魔法赋予活动能力的",
+    "sourceFile": "manuscript/mm/topics/skeleton-retranslation.md"
   },
   {
     "book": "mm",
@@ -9761,8 +9788,8 @@
     "title": "巨型臭鼬",
     "titleEn": "Skunk, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 7 移动力 9 寸 生命骰 5 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–6 特殊攻击 喷射麝香 特殊防御 喷射麝香 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 巨型臭鼬是森林中的杂食动物，也会闯入人类营地觅食。受到严重威胁时，",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型臭鼬 Skunk, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 7 移动力 9 寸 生命骰 5 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–6 特殊攻击 喷射臭液 特殊防御 喷射臭液 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无；攻击／防御模式：无 巨型臭鼬是",
+    "sourceFile": "manuscript/mm/topics/giant-skunk-retranslation.md"
   },
   {
     "book": "mm",
@@ -9770,8 +9797,8 @@
     "title": "滑行追踪者",
     "titleEn": "Slithering Tracker",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1 护甲等级 5 移动力 12 寸 生命骰 5 在巢穴概率 10% 财宝类型 C 攻击次数 0 攻击伤害 无 特殊攻击 麻痹 特殊防御 透明 魔法抗力 标准 智力 平均 阵营 中立 体型 S（长约 2½ 尺） 灵能能力 无 这种怪物透明得几乎无法发现，发现概率仅 5%。它栖息在地城和其",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "滑行追踪者 Slithering Tracker 项目 数据 --- --- 出现频率 罕见 出现数量 1 护甲等级 5 移动力 12 寸 生命骰 5 在巢穴概率 10% 财宝类型 C 攻击次数 0 攻击伤害 无 特殊攻击 麻痹 特殊防御 透明 魔法抗力 标准 智力 普通 阵营 中立 体型 S（长 2½ 尺） 灵能能力 无；攻击／防御模式",
+    "sourceFile": "manuscript/mm/topics/slithering-tracker-retranslation.md"
   },
   {
     "book": "mm",
@@ -9779,8 +9806,8 @@
     "title": "巨型蛞蝓",
     "titleEn": "Slug, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 8 移动力 6 寸 生命骰 12 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–12 特殊攻击 喷射酸液 特殊防御 见下文 魔法抗力 标准 智力 非智能 阵营 中立 体型 L 灵能能力 无 巨型蛞蝓避开光线，偏爱地城深处等场所。它们能吃掉木材等物质，也",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型蛞蝓 Slug, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 8 移动力 6 寸 生命骰 12 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–12 特殊攻击 喷吐酸液 特殊防御 见下文 魔法抗力 标准 智力 无 阵营 中立 体型 L 灵能能力 无；攻击／防御模式：无 巨型蛞蝓远离",
+    "sourceFile": "manuscript/mm/topics/giant-slug-retranslation.md"
   },
   {
     "book": "mm",
@@ -9788,8 +9815,8 @@
     "title": "巨蛇",
     "titleEn": "Snake, Giant",
     "group": "怪物条目",
-    "excerpt": "双头蛇 Amphisbaena 项目 数据 --- --- 出现频率 极罕见 出现数量 1–3 护甲等级 3 移动力 12 寸 生命骰 6 在巢穴概率 0% 财宝类型 无 攻击次数 2 次 攻击伤害 1–3／1–4 特殊攻击 毒素 特殊防御 见下文 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 双头蛇两端各有一颗头，两颗",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨蛇 Snake, Giant 项目 双头蛇 Amphisbaena 缠绕蛇 Constrictor 毒蛇 Poisonous 海蛇 Sea 喷吐蛇 Spitting --- ---: ---: ---: ---: ---: 出现频率 极罕见 不常见 不常见 不常见 罕见 出现数量 1–3 1–2 1–6 1–8 1–4 护甲等级 3 5",
+    "sourceFile": "manuscript/mm/topics/giant-snake-retranslation.md"
   },
   {
     "book": "mm",
@@ -9797,8 +9824,8 @@
     "title": "幽魂",
     "titleEn": "Spectre",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–6 护甲等级 2 移动力 15 寸／30 寸（飞行） 生命骰 7+3 在巢穴概率 20% 财宝类型 Q（×3）、X、Y 攻击次数 1 次 攻击伤害 1–8 特殊攻击 能量吸取 特殊防御 需 +1 或更好的武器命中 魔法抗力 见下文 智力 高 阵营 守序邪恶 体型 M 灵能能力 无 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "幽魂 Spectre 项目 数据 --- --- 出现频率 罕见 出现数量 1–6 护甲等级 2 移动力 15 寸／30 寸 生命骰 7+3 在巢穴概率 20% 财宝类型 Q（×3）、X、Y 攻击次数 1 次 攻击伤害 1–8 特殊攻击 能量吸取 特殊防御 需要 +1 或更好的武器才能命中 魔法抗力 见下文 智力 高 阵营 守序邪恶 体型",
+    "sourceFile": "manuscript/mm/topics/spectre-retranslation.md"
   },
   {
     "book": "mm",
@@ -9806,8 +9833,8 @@
     "title": "狮身人面像",
     "titleEn": "Sphinx",
     "group": "怪物条目",
-    "excerpt": "公狮身人面像 Androsphinx 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 −2 移动力 18 寸／30 寸（飞行） 生命骰 12 在巢穴概率 60% 财宝类型 U 攻击次数 2 次 攻击伤害 2–12／2–12 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 超常 阵营 混乱善良 体型 L（高 8 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "斯芬克斯 Sphinx 项目 Andro- Crio- Gyno- Hieraco- --- ---: ---: ---: ---: 出现频率 极罕见 罕见 罕见 罕见 出现数量 1 1–4 1 1–6 护甲等级 −2 0 −1 1 移动力 18 寸／30 寸 12 寸／24 寸 15 寸／24 寸 9 寸／36 寸 生命骰 12 10 ",
+    "sourceFile": "manuscript/mm/topics/sphinx-retranslation.md"
   },
   {
     "book": "mm",
@@ -9815,8 +9842,8 @@
     "title": "蜘蛛",
     "titleEn": "Spider",
     "group": "怪物条目",
-    "excerpt": "巨型蜘蛛 Giant Spider 项目 数据 --- --- 出现频率 不常见 出现数量 1–8 护甲等级 4 移动力 3 寸／12 寸（蛛网） 生命骰 4+4 在巢穴概率 70% 财宝类型 C 攻击次数 1 次 攻击伤害 2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 L 灵能能力 无 巨型蜘蛛",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "蜘蛛 Spider 项目 巨型 Giant 巨大 Huge 大型 Large 位相 Phase 水生巨型 Water, Giant --- ---: ---: ---: ---: ---: 出现频率 不常见 常见 常见 罕见 常见 出现数量 1–8 1–12 2–20 1–4 1–10 护甲等级 4 6 8 7 5 移动力 3 寸／12 ",
+    "sourceFile": "manuscript/mm/topics/spider-retranslation.md"
   },
   {
     "book": "mm",
@@ -9824,8 +9851,8 @@
     "title": "精灵妖",
     "titleEn": "Sprite",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 10–100 护甲等级 6 移动力 9 寸／18 寸（飞行） 生命骰 1 在巢穴概率 20% 财宝类型 C 攻击次数 1 次 攻击伤害 依武器而定 特殊攻击 见下文 特殊防御 见下文 魔法抗力 标准 智力 极高 阵营 中立（善良） 体型 S（高 2 尺） 灵能能力 无 精灵妖居住在草地",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "精灵妖 Sprite 项目 数据 --- --- 出现频率 罕见 出现数量 10–100 护甲等级 6 移动力 9 寸／18 寸 生命骰 1 在巢穴概率 20% 财宝类型 C 攻击次数 1 次 攻击伤害 按武器类型 特殊攻击 见下文 特殊防御 见下文 魔法抗力 标准 智力 极高 阵营 中立（善良） 体型 S（高 2 尺） 灵能能力 无；攻",
+    "sourceFile": "manuscript/mm/topics/sprite-retranslation.md"
   },
   {
     "book": "mm",
@@ -9833,8 +9860,8 @@
     "title": "巨型乌贼",
     "titleEn": "Squid, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1 护甲等级 身体 3；触手与头部 7 移动力 3 寸／18 寸（水中） 生命骰 12 在巢穴概率 40% 财宝类型 A 攻击次数 9 次 攻击伤害 1–6（×8）／5–20 特殊攻击 绞缠 特殊防御 见下文 魔法抗力 标准 智力 非智能 阵营 中立 体型 L 灵能能力 无 巨型乌贼生",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "巨型乌贼 Squid, Giant 项目 数据 --- --- 出现频率 罕见 出现数量 1 护甲等级 身体 3；头部与触手 7 移动力 3 寸／18 寸 生命骰 12 在巢穴概率 40% 财宝类型 A 攻击次数 9 次 攻击伤害 1–6（×8）／5–20 特殊攻击 缠绕 特殊防御 见下文 魔法抗力 标准 智力 无 阵营 中立 体型 L ",
+    "sourceFile": "manuscript/mm/topics/giant-squid-retranslation.md"
   },
   {
     "book": "mm",
@@ -9842,8 +9869,8 @@
     "title": "鹿",
     "titleEn": "Stag",
     "group": "怪物条目",
-    "excerpt": "鹿 Stag 项目 数据 --- --- 出现频率 常见 出现数量 1–4 护甲等级 7 移动力 24 寸 生命骰 3 在巢穴概率 0% 财宝类型 无 攻击次数 1 次或 2 次 攻击伤害 2–8，或 1–3／1–3 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L 灵能能力 无 鹿是温带森林和草原中的食草动物",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "鹿 Stag 项目 普通鹿 Stag 巨鹿 Stag, Giant --- ---: ---: 出现频率 常见 罕见 出现数量 1–4 1–2 护甲等级 7 7 移动力 24 寸 21 寸 生命骰 3 5 在巢穴概率 0% 0% 财宝类型 无 无 攻击次数 1 或 2 次 1 或 2 次 攻击伤害 2–8，或 1–3／1–3 4–16，或",
+    "sourceFile": "manuscript/mm/topics/stag-retranslation.md"
   },
   {
     "book": "mm",
@@ -9851,8 +9878,8 @@
     "title": "血蚊",
     "titleEn": "Stirge",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 3–30 护甲等级 8 移动力 3 寸／18 寸（飞行） 生命骰 1+1 在巢穴概率 60% 财宝类型 D 攻击次数 1 次 攻击伤害 1–3 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 S 灵能能力 无 血蚊只在极其黑暗、纠结的森林或地下巢穴出现。它",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "血蚊 Stirge 项目 数据 --- --- 出现频率 不常见 出现数量 3–30 护甲等级 8 移动力 3 寸／18 寸 生命骰 1+1 在巢穴概率 60% 财宝类型 D 攻击次数 1 次 攻击伤害 1–3 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 S 灵能能力 无；攻击／防御模式：无 血蚊只出现在非",
+    "sourceFile": "manuscript/mm/topics/stirge-retranslation.md"
   },
   {
     "book": "mm",
@@ -9860,8 +9887,8 @@
     "title": "缠绕海草",
     "titleEn": "Strangle Weed",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 3–12 护甲等级 6 移动力 无 生命骰 2–4 在巢穴概率 100% 财宝类型 J–N、Q、C（仅魔法物品） 攻击次数 1 次 攻击伤害 见下文 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 S 灵能能力 无 缠绕海草是生活在相对温暖海水中的有智慧海",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "缠绕海草 Strangle Weed 项目 数据 --- --- 出现频率 常见 出现数量 3–12 护甲等级 8 移动力 无 生命骰 2–4 在巢穴概率 100% 财宝类型 J–N、Q、C（仅魔法物品） 攻击次数 1 次 攻击伤害 见下文 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 S 灵能能力 无；攻",
+    "sourceFile": "manuscript/mm/topics/strangle-weed-retranslation.md"
   },
   {
     "book": "mm",
@@ -9869,8 +9896,8 @@
     "title": "苏魔兽",
     "titleEn": "Su-monster",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 9 寸 生命骰 5+5 在巢穴概率 30% 财宝类型 C、Y 攻击次数 5 次 攻击伤害 1–4（×4）／2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 平均 阵营 混乱 体型 M 灵能能力 120；攻击／防御模式：见下文 苏魔兽栖息在荒",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "苏魔兽 Su-monster 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 9 寸 生命骰 5+5 在巢穴概率 30% 财宝类型 C、Y 攻击次数 5 次 攻击伤害 1–4（×4）／2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 普通 阵营 混乱 体型 M 灵能能力 120；攻击／防",
+    "sourceFile": "manuscript/mm/topics/su-monster-retranslation.md"
   },
   {
     "book": "mm",
@@ -9878,8 +9905,8 @@
     "title": "风精灵",
     "titleEn": "Sylph",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 9 移动力 12 寸／36 寸（飞行） 生命骰 3 在巢穴概率 10% 财宝类型 Q（×10）、X 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 超常 阵营 中立（善良） 体型 M 灵能能力 无 风精灵是与树精相似的美丽生物，但",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "风精灵 Sylph 项目 数据 --- --- 出现频率 极罕见 出现数量 1 护甲等级 9 移动力 12 寸／36 寸 生命骰 3 在巢穴概率 10% 财宝类型 Q（×10）、X 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 50% 智力 极高 阵营 中立（善良） 体型 M 灵能能力 无；攻击／防御模式：无 ",
+    "sourceFile": "manuscript/mm/topics/sylph-retranslation.md"
   },
   {
     "book": "mm",
@@ -9887,8 +9914,8 @@
     "title": "思维吞噬者",
     "titleEn": "Thought Eater",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 9 移动力 6 寸 生命骰 3 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 非智能 阵营 中立 体型 S 灵能能力 无 思维吞噬者居住在以太界，但感官延伸至物质位面；任一位面中使用灵能或与灵能",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：94。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 9 移动力 6 寸 生命骰 3 在巢穴概率 0% 财宝类型 无 攻击次数 0 攻击伤害 无 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 非智能 阵营 中立 体型 S 灵能能力 无 攻击／防御模式 ",
+    "sourceFile": "manuscript/mm/topics/thought-eater-retranslation.md"
   },
   {
     "book": "mm",
@@ -9896,8 +9923,8 @@
     "title": "巨型蜱",
     "titleEn": "Tick, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 3–12 护甲等级 3 移动力 3 寸 生命骰 2–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 1–4 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 S 灵能能力 无 巨型蜱出现在森林中，偶尔也在洞穴或地窟里。它们试图落到猎物身上，插",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：94。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 3–12 护甲等级 3 移动力 3 寸 生命骰 2–4 在巢穴概率 0% 财宝类型 无 攻击次数 1 攻击伤害 1–4 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 S 灵能能力 无 攻击／防御模式",
+    "sourceFile": "manuscript/mm/topics/giant-tick-retranslation.md"
   },
   {
     "book": "mm",
@@ -9905,8 +9932,8 @@
     "title": "虎",
     "titleEn": "Tiger",
     "group": "怪物条目",
-    "excerpt": "虎 Tiger 项目 数据 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 6 移动力 12 寸 生命骰 5+5 在巢穴概率 5% 财宝类型 无 攻击次数 3 次 攻击伤害 2–5／2–5／1–10 特殊攻击 后爪 2–8／2–8 特殊防御 仅在 1 点时被突袭 魔法抗力 标准 智力 半智能 阵营 中立 体型 L 灵能能力 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：94。按 OCR 文本并核对原页图像重译。 虎 Tiger 项目 虎 --- --- 出现频率 不常见 出现数量 1–4 护甲等级 6 移动力 12 寸 生命骰 5+5 在巢穴概率 5% 财宝类型 无 攻击次数 3 攻击伤害 2–5／2–5／1–10 特殊攻击 后爪，每次 2–8 特殊防御 仅在掷出 1 时遭受突袭 魔法抗力 ",
+    "sourceFile": "manuscript/mm/topics/tiger-retranslation.md"
   },
   {
     "book": "mm",
@@ -9914,8 +9941,8 @@
     "title": "泰坦",
     "titleEn": "Titan",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–2（10%） 护甲等级 2 至 −3 移动力 21 寸或 15 寸 生命骰 17–22 在巢穴概率 10% 财宝类型 E、Q（×10）、R 攻击次数 1 次 攻击伤害 7–42／8–48 特殊攻击 见下文 特殊防御 见下文 魔法抗力 60% 智力 天才至超天才 阵营 混乱善良 体",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：94–95。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 极罕见 出现数量 1–2（10%） 护甲等级 2 至 −3 移动力 21 寸或 15 寸 生命骰 17–22 在巢穴概率 10% 财宝类型 E、Q（×10）、R 攻击次数 1 攻击伤害 7–42／8–48 特殊攻击 见下文 特殊防御 见下文",
+    "sourceFile": "manuscript/mm/topics/titan-retranslation.md"
   },
   {
     "book": "mm",
@@ -9923,8 +9950,8 @@
     "title": "泰坦兽",
     "titleEn": "Titanothere",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 12 寸 生命骰 12 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 2–16 特殊攻击 冲锋、践踏 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（高 8 尺） 灵能能力 无 泰坦兽是更新世温带平原上的巨大无畏食草动物，通",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：95。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 12 寸 生命骰 12 在巢穴概率 无 财宝类型 无 攻击次数 1 攻击伤害 2–16 特殊攻击 冲锋与践踏 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 L（高 8 尺） 灵能能力",
+    "sourceFile": "manuscript/mm/topics/titanothere-retranslation.md"
   },
   {
     "book": "mm",
@@ -9932,8 +9959,8 @@
     "title": "巨型蟾蜍",
     "titleEn": "Toad, Giant",
     "group": "怪物条目",
-    "excerpt": "巨型蟾蜍 Giant Toad 项目 数据 --- --- 出现频率 常见 出现数量 1–12 护甲等级 6 移动力 6 寸（跳跃 6 寸） 生命骰 2+4 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 巨型蟾蜍遍布大多数",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：95。按 OCR 文本并核对原页图像重译。 巨型蟾蜍 Giant Toad 项目 巨型蟾蜍 --- --- 出现频率 常见 出现数量 1–12 护甲等级 6 移动力 6 寸 + 6 寸跳跃 生命骰 2+4 在巢穴概率 0% 财宝类型 无 攻击次数 1 攻击伤害 2–8 特殊攻击 见下文 特殊防御 无 魔法抗力 标准 智力 动物",
+    "sourceFile": "manuscript/mm/topics/giant-toad-retranslation.md"
   },
   {
     "book": "mm",
@@ -9941,8 +9968,8 @@
     "title": "诱捕者",
     "titleEn": "Trapper",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1 护甲等级 3 移动力 3 寸 生命骰 12 在巢穴概率 85% 财宝类型 G 攻击次数 4 次以上 攻击伤害 见下文 特殊攻击 见下文 特殊防御 标准 魔法抗力 标准 智力 高 阵营 中立 体型 L 灵能能力 无 诱捕者是只在洞穴、地窟和其他黑暗处出现的狡猾怪物，偏好地下居所。它们",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：95–96。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1 护甲等级 3 移动力 3 寸 生命骰 12 在巢穴概率 85% 财宝类型 G 攻击次数 4+ 攻击伤害 见下文 特殊攻击 见下文 特殊防御 标准 魔法抗力 标准 智力 高 阵营 中立 体型 L 灵能能力 无 攻击／防御模",
+    "sourceFile": "manuscript/mm/topics/trapper-retranslation.md"
   },
   {
     "book": "mm",
@@ -9950,8 +9977,8 @@
     "title": "树人",
     "titleEn": "Treant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–20 护甲等级 0 移动力 12 寸 生命骰 7–12 在巢穴概率 10% 财宝类型 Q（×5）、S 攻击次数 2 次 攻击伤害 2–16／3–18／4–24（见下文） 特殊攻击 见下文 特殊防御 永不被突袭 魔法抗力 标准 智力 极高 阵营 混乱善良 体型 L 灵能能力 无 树人",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：96。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–20 护甲等级 0 移动力 12 寸 生命骰 7–12 在巢穴概率 10% 财宝类型 Q（×5）、S 攻击次数 2 攻击伤害 2–16／3–18／4–24（见下文） 特殊攻击 见下文 特殊防御 永不被突袭 魔法抗力 标准 智力",
+    "sourceFile": "manuscript/mm/topics/treant-retranslation.md"
   },
   {
     "book": "mm",
@@ -9959,8 +9986,8 @@
     "title": "海精灵",
     "titleEn": "Triton",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 10–60 护甲等级 5 移动力 15 寸 生命骰 3 在巢穴概率 25% 财宝类型 C、R、S、T、X 攻击次数 1 次 攻击伤害 依武器而定 特殊攻击 见下文 特殊防御 见下文 魔法抗力 90% 智力 高及以上 阵营 中立（善良） 体型 M 灵能能力 见下文 据说海精灵来自水元素位",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：96–97。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 10–60 护甲等级 5 移动力 15 寸 生命骰 3 在巢穴概率 25% 财宝类型 C、R、S、T、X 攻击次数 1 攻击伤害 依武器类型而定 特殊攻击 见下文 特殊防御 见下文 魔法抗力 90% 智力 高及以上 阵营 中",
+    "sourceFile": "manuscript/mm/topics/triton-retranslation.md"
   },
   {
     "book": "mm",
@@ -9968,8 +9995,8 @@
     "title": "穴居怪",
     "titleEn": "Troglodyte",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 10–100 护甲等级 5 移动力 12 寸 生命骰 2 在巢穴概率 15% 财宝类型 A 攻击次数 3 次或 1 次 攻击伤害 1–3／1–3／2–5，或依武器而定 特殊攻击 恶臭反感 特殊防御 见下文 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 M 灵能能力 无 穴居怪是生活在",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：97。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 常见 出现数量 10–100 护甲等级 5 移动力 12 寸 生命骰 2 在巢穴概率 15% 财宝类型 A 攻击次数 3 次或 1 次 攻击伤害 1–3／1–3／2–5，或依武器类型而定 特殊攻击 反感气味 特殊防御 见下文 魔法抗力 标准 智力",
+    "sourceFile": "manuscript/mm/topics/troglodyte-retranslation.md"
   },
   {
     "book": "mm",
@@ -9977,8 +10004,8 @@
     "title": "巨魔",
     "titleEn": "Troll",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 4 移动力 12 寸 生命骰 6+6 在巢穴概率 40% 财宝类型 D 攻击次数 3 次 攻击伤害 5–8／5–8／2–12 特殊攻击 见下文 特殊防御 再生 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 L（高 9 尺以上） 灵能能力 无 巨魔是几乎遍布各地的",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：97。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 4 移动力 12 寸 生命骰 6+6 在巢穴概率 40% 财宝类型 D 攻击次数 3 攻击伤害 5–8／5–8／2–12 特殊攻击 见下文 特殊防御 再生 魔法抗力 标准 智力 低 阵营 混乱邪恶 体型 L（",
+    "sourceFile": "manuscript/mm/topics/troll-retranslation.md"
   },
   {
     "book": "mm",
@@ -9986,8 +10013,8 @@
     "title": "巨龟",
     "titleEn": "Turtle",
     "group": "怪物条目",
-    "excerpt": "巨型海龟 Sea Turtle, Giant 项目 数据 --- --- 出现频率 不常见 出现数量 1–3 护甲等级 身体 2；头与鳍 5 移动力 3 寸／15 寸（水中） 生命骰 15 在巢穴概率 0% 财宝类型 无 攻击次数 1 次 攻击伤害 4–16 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 智力 非智能 阵营 中立 体型 ",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：97。按 OCR 文本并核对原页图像重译。 巨型海龟 Sea Turtle, Giant 项目 巨型海龟 --- --- 出现频率 不常见 出现数量 1–3 护甲等级 2／5 移动力 11／15 寸 生命骰 15 在巢穴概率 0% 财宝类型 无 攻击次数 1 攻击伤害 4–16 特殊攻击 无 特殊防御 见下文 魔法抗力 标准 ",
+    "sourceFile": "manuscript/mm/topics/giant-turtle-retranslation.md"
   },
   {
     "book": "mm",
@@ -9995,8 +10022,8 @@
     "title": "乌木巨怪",
     "titleEn": "Umber Hulk",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–4 护甲等级 2 移动力 6 寸（掘进 1–6 寸） 生命骰 8+8 在巢穴概率 30% 财宝类型 G 攻击次数 3 次 攻击伤害 3–12／3–12／2–12 特殊攻击 混乱凝视 特殊防御 无 魔法抗力 标准 智力 平均 阵营 混乱邪恶 体型 L（高 8 尺、宽 5 尺） 灵能能",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：98。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–4 护甲等级 2 移动力 6 寸（掘进 1–6 寸） 生命骰 8+8 在巢穴概率 30% 财宝类型 G 攻击次数 3 攻击伤害 3–12／3–12／2–10 特殊攻击 混乱 特殊防御 无 魔法抗力 标准 智力 平均 阵营 混乱",
+    "sourceFile": "manuscript/mm/topics/umber-hulk-retranslation.md"
   },
   {
     "book": "mm",
@@ -10004,8 +10031,8 @@
     "title": "独角兽",
     "titleEn": "Unicorn",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 2 移动力 24 寸 生命骰 4+4 在巢穴概率 5% 财宝类型 X 攻击次数 3 次 攻击伤害 1–6／1–6／1–12 特殊攻击 冲锋 特殊防御 见下文 魔法抗力 见下文 智力 平均 阵营 混乱善良 体型 L 灵能能力 无 独角兽只栖息在远离人类聚居地的温带林地。",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：98。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 2–5 护甲等级 2 移动力 24 寸 生命骰 4+4 在巢穴概率 5% 财宝类型 X 攻击次数 3 攻击伤害 1–6／1–6／1–12 特殊攻击 冲锋 特殊防御 见下文 魔法抗力 见下文 智力 平均 阵营 混乱善良 体型 L 灵",
+    "sourceFile": "manuscript/mm/topics/unicorn-retranslation.md"
   },
   {
     "book": "mm",
@@ -10013,8 +10040,8 @@
     "title": "吸血鬼",
     "titleEn": "Vampire",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–4 护甲等级 1 移动力 12 寸／18 寸（飞行） 生命骰 8+3 在巢穴概率 25% 财宝类型 F 攻击次数 1 次 攻击伤害 5–10 特殊攻击 能量吸取 特殊防御 需 +1 或更好的武器命中 魔法抗力 见下文 智力 超常 阵营 混乱邪恶 体型 M 灵能能力 无 吸血鬼是最令",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：99。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–4 护甲等级 1 移动力 12／18 寸 生命骰 8+3 在巢穴概率 25% 财宝类型 F 攻击次数 1 攻击伤害 5–10 特殊攻击 能量吸取 特殊防御 需 +1 或更好的武器命中 魔法抗力 见下文 智力 超常 阵营 混乱邪",
+    "sourceFile": "manuscript/mm/topics/vampire-retranslation.md"
   },
   {
     "book": "mm",
@@ -10022,8 +10049,8 @@
     "title": "巨型黄蜂",
     "titleEn": "Wasp, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–20 护甲等级 4 移动力 6 寸／21 寸（飞行） 生命骰 4 在巢穴概率 25% 财宝类型 Q（×20） 攻击次数 2 次 攻击伤害 2–8／1–4 特殊攻击 毒素 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 M 灵能能力 无 巨型黄蜂不断捕猎，因此令人畏惧，",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：99。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–20 护甲等级 4 移动力 6／21 寸 生命骰 4 在巢穴概率 25% 财宝类型 Q（×20） 攻击次数 2 攻击伤害 2–8／1–4 特殊攻击 毒素 特殊防御 无 魔法抗力 标准 智力 非智能 阵营 中立 体型 M 灵能能",
+    "sourceFile": "manuscript/mm/topics/giant-wasp-retranslation.md"
   },
   {
     "book": "mm",
@@ -10031,8 +10058,8 @@
     "title": "水怪",
     "titleEn": "Water Weird",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–3 护甲等级 4 移动力 12 寸 生命骰 3+3 在巢穴概率 50% 财宝类型 I、O、P、Y 攻击次数 0 攻击伤害 无 特殊攻击 溺水 特殊防御 见下文 魔法抗力 标准 智力 超常 阵营 混乱邪恶 体型 L（长 10 尺以上） 灵能能力 无 水怪是来自水元素位面的生命体，以",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：100。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 极罕见 出现数量 1–3 护甲等级 4 移动力 12 寸 生命骰 3+3 在巢穴概率 50% 财宝类型 I、O、P、Y 攻击次数 0 攻击伤害 无 特殊攻击 溺水 特殊防御 见下文 魔法抗力 标准 智力 极高 阵营 混乱邪恶 体型 L（长 10",
+    "sourceFile": "manuscript/mm/topics/water-weird-retranslation.md"
   },
   {
     "book": "mm",
@@ -10040,8 +10067,8 @@
     "title": "巨型鼬",
     "titleEn": "Weasel, Giant",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–8 护甲等级 6 移动力 15 寸 生命骰 3+3 在巢穴概率 15% 财宝类型 无 攻击次数 1 次 攻击伤害 2–12 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 巨型鼬极其凶猛，会积极追捕猎物并战斗至死。它们偏好林地，也会在地",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：100。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–8 护甲等级 6 移动力 15 寸 生命骰 3+3 在巢穴概率 15% 财宝类型 无 攻击次数 1 攻击伤害 2–12 特殊攻击 吸血 特殊防御 无 魔法抗力 标准 智力 动物 阵营 中立 体型 M 灵能能力 无 攻击／防御",
+    "sourceFile": "manuscript/mm/topics/giant-weasel-retranslation.md"
   },
   {
     "book": "mm",
@@ -10049,8 +10076,8 @@
     "title": "鲸鱼",
     "titleEn": "Whale",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 常见 出现数量 1–8 护甲等级 4 移动力 18–24 寸 生命骰 12–36 在巢穴概率 0% 财宝类型 见下文 攻击次数 1 次 攻击伤害 5–20 至 15–60，或 1–8 至 5–40 特殊攻击 尾击 特殊防御 无 魔法抗力 标准 智力 低 阵营 中立 体型 L 灵能能力 无 海洋中生活着",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：100。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 常见 出现数量 1–8 护甲等级 4 移动力 18–24 寸 生命骰 12–36 在巢穴概率 0% 财宝类型 见下文 攻击次数 1 攻击伤害 5–20 至 15–60，或 1–8 至 5–40 特殊攻击 尾击 特殊防御 无 魔法抗力 标准 智力",
+    "sourceFile": "manuscript/mm/topics/whale-retranslation.md"
   },
   {
     "book": "mm",
@@ -10058,8 +10085,8 @@
     "title": "怨魂",
     "titleEn": "Wight",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 2–16 护甲等级 5 移动力 12 寸 生命骰 4+3 在巢穴概率 70% 财宝类型 G 攻击次数 1 次 攻击伤害 1–4 特殊攻击 能量吸取 特殊防御 仅银制或魔法武器能命中 魔法抗力 见下文 智力 平均 阵营 守序邪恶 体型 M 灵能能力 无 “怨魂”一词已失去原本“人”的含",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：100。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 2–16 护甲等级 5 移动力 12 寸 生命骰 4+3 在巢穴概率 70% 财宝类型 B 攻击次数 1 攻击伤害 1–4 特殊攻击 能量吸取 特殊防御 银制或魔法武器才能命中 魔法抗力 见下文 智力 平均 阵营 守序邪恶 体",
+    "sourceFile": "manuscript/mm/topics/wight-retranslation.md"
   },
   {
     "book": "mm",
@@ -10067,8 +10094,8 @@
     "title": "鬼火",
     "titleEn": "Will-o'-Wisp",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1（或 1–3） 护甲等级 −8 移动力 18 寸 生命骰 9 在巢穴概率 5% 财宝类型 Z 攻击次数 1 次 攻击伤害 2–16 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 超常 阵营 混乱邪恶 体型 S 灵能能力 无 鬼火常在沼泽、泥潭、湿地或墓穴等危险荒废处出",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：101。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 1（或 1–3） 护甲等级 −8 移动力 18 寸 生命骰 9 在巢穴概率 5% 财宝类型 Z 攻击次数 1 攻击伤害 2–16 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 超常 阵营 混乱邪恶 体型 S 灵能",
+    "sourceFile": "manuscript/mm/topics/will-o-wisp-retranslation.md"
   },
   {
     "book": "mm",
@@ -10076,8 +10103,8 @@
     "title": "风行者",
     "titleEn": "Wind Walker",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 7 移动力 15 寸／30 寸（飞行） 生命骰 6+3 在巢穴概率 20% 财宝类型 C、R 攻击次数 见下文 攻击伤害 3–18 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 极高 阵营 中立 体型 L 灵能能力 无 风行者来自空气元素位面，在物质位面",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：101。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 1–3 护甲等级 7 移动力 15／30 寸 生命骰 6+3 在巢穴概率 20% 财宝类型 C、R 攻击次数 见下文 攻击伤害 3–18 特殊攻击 见下文 特殊防御 见下文 魔法抗力 见下文 智力 极高 阵营 中立 体型 L 灵",
+    "sourceFile": "manuscript/mm/topics/wind-walker-retranslation.md"
   },
   {
     "book": "mm",
@@ -10085,8 +10112,8 @@
     "title": "狼",
     "titleEn": "Wolf",
     "group": "怪物条目",
-    "excerpt": "狼 Wolf 项目 数据 --- --- 出现频率 常见 出现数量 2–20 护甲等级 7 移动力 18 寸 生命骰 2+2 在巢穴概率 10% 财宝类型 无 攻击次数 1 次 攻击伤害 2–5 特殊攻击 无 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立 体型 S 灵能能力 无 狼是从极地到温带森林都能发现的食肉动物，总是成群狩",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：101。按 OCR 文本并核对原页图像重译。 项目 普通狼 恐狼／座狼（Worg） 冬狼 --- ---: ---: ---: 出现频率 常见 稀有 极罕见 出现数量 2–20 3–12 2–8 护甲等级 7 6 5 移动力 18 寸 18 寸 18 寸 生命骰 2+2 3+3（座狼 4+4） 6 在巢穴概率 10% 10% ",
+    "sourceFile": "manuscript/mm/topics/wolf-retranslation.md"
   },
   {
     "book": "mm",
@@ -10094,8 +10121,8 @@
     "title": "狼獾",
     "titleEn": "Wolverine",
     "group": "怪物条目",
-    "excerpt": "狼獾 Wolverine 项目 数据 --- --- 出现频率 不常见 出现数量 1 护甲等级 5 移动力 12 寸 生命骰 3 在巢穴概率 15% 财宝类型 无 攻击次数 3 次 攻击伤害 1–4／1–4／2–4 特殊攻击 麝香 特殊防御 无 魔法抗力 标准 智力 半智能 阵营 中立（邪恶） 体型 S 灵能能力 无 狼獾只生活在寒冷地区",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：101–102。按 OCR 文本并核对原页图像重译。 项目 普通狼獾 巨型狼獾 --- ---: ---: 出现频率 不常见 稀有 出现数量 1 1 护甲等级 5 4 移动力 12 寸 15 寸 生命骰 3 4+4 在巢穴概率 15% 15% 财宝类型 无 无 攻击次数 3 3 攻击伤害 1–4／1–4／2–5 2–5／2–5",
+    "sourceFile": "manuscript/mm/topics/wolverine-retranslation.md"
   },
   {
     "book": "mm",
@@ -10103,8 +10130,8 @@
     "title": "幽影",
     "titleEn": "Wraith",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 2–12 护甲等级 4 移动力 12 寸／24 寸（飞行） 生命骰 5+3 在巢穴概率 25% 财宝类型 E 攻击次数 1 次 攻击伤害 1–6 特殊攻击 能量吸取 特殊防御 仅银制或魔法武器能命中 魔法抗力 见下文 智力 极高 阵营 守序邪恶 体型 M 灵能能力 无 幽影是不死生物",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：102。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 2–12 护甲等级 4 移动力 12／24 寸 生命骰 5+3 在巢穴概率 25% 财宝类型 E 攻击次数 1 攻击伤害 1–6 特殊攻击 能量吸取 特殊防御 银制或魔法武器才能命中 魔法抗力 见下文 智力 极高 阵营 守序邪",
+    "sourceFile": "manuscript/mm/topics/wraith-retranslation.md"
   },
   {
     "book": "mm",
@@ -10112,8 +10139,8 @@
     "title": "飞龙",
     "titleEn": "Wyvern",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1–6 护甲等级 3 移动力 6 寸／24 寸（飞行） 生命骰 7+7 在巢穴概率 30% 财宝类型 E 攻击次数 2 次 攻击伤害 2–16／1–4 特殊攻击 毒素 特殊防御 无 魔法抗力 标准 智力 低 阵营 中立（邪恶） 体型 L（长 35 尺） 灵能能力 无 飞龙与龙有远亲关",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：102。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 不常见 出现数量 1–6 护甲等级 3 移动力 6／24 寸 生命骰 7+7 在巢穴概率 30% 财宝类型 E 攻击次数 2 攻击伤害 2–16／1–6 特殊攻击 毒素 特殊防御 无 魔法抗力 标准 智力 低 阵营 中立（邪恶） 体型 L（长 ",
+    "sourceFile": "manuscript/mm/topics/wyvern-retranslation.md"
   },
   {
     "book": "mm",
@@ -10121,8 +10148,8 @@
     "title": "岩石兽",
     "titleEn": "Xorn",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 −2 移动力 9 寸 生命骰 7+7 在巢穴概率 40% 财宝类型 O、P、Q（×5）、X、Y 攻击次数 4 次 攻击伤害 1–3（×3）／6–24 特殊攻击 1–5 时突袭 特殊防御 见下文 魔法抗力 标准 智力 平均 阵营 中立 体型 M（高 5 尺） 灵能能力",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：102。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 −2 移动力 9 寸 生命骰 7+7 在巢穴概率 40% 财宝类型 O、P、Q（×5）、X、Y 攻击次数 4 攻击伤害 1–3（×3）、6–24 特殊攻击 以 1–5 突袭 特殊防御 见下文 魔法抗力 标准 ",
+    "sourceFile": "manuscript/mm/topics/xorn-retranslation.md"
   },
   {
     "book": "mm",
@@ -10130,8 +10157,8 @@
     "title": "雪怪",
     "titleEn": "Yeti",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 1–6 护甲等级 6 移动力 15 寸 生命骰 4+4 在巢穴概率 10% 财宝类型 D 攻击次数 2 次 攻击伤害 1–6／1–6 特殊攻击 见下文 特殊防御 免疫寒冷 魔法抗力 标准 智力 平均 阵营 中立 体型 L（高 8 尺） 灵能能力 无 雪怪只栖息在冰天雪地的地区，很少被",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：103。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 极罕见 出现数量 1–6 护甲等级 6 移动力 15 寸 生命骰 4+4 在巢穴概率 10% 财宝类型 D 攻击次数 2 攻击伤害 1–6／1–6 特殊攻击 见下文 特殊防御 不受寒冷影响 魔法抗力 标准 智力 平均 阵营 中立 体型 L（高 ",
+    "sourceFile": "manuscript/mm/topics/yeti-retranslation.md"
   },
   {
     "book": "mm",
@@ -10139,8 +10166,8 @@
     "title": "僵尸",
     "titleEn": "Zombie",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 稀有 出现数量 3–24 护甲等级 8 移动力 6 寸 生命骰 2 在巢穴概率 无 财宝类型 无 攻击次数 1 次 攻击伤害 1–8 特殊攻击 无 特殊防御 无 魔法抗力 见下文 智力 非智能 阵营 中立 体型 M 灵能能力 无 僵尸是被魔法唤起的尸体，由邪恶魔法师或牧师控制。它们遵循即时下达或预先指",
-    "sourceFile": "manuscript/mm/topics/men.md"
+    "excerpt": "原书印刷页：103。按 OCR 文本并核对原页图像重译。 项目 数据 --- --- 出现频率 稀有 出现数量 3–24 护甲等级 8 移动力 6 寸 生命骰 2 在巢穴概率 无 财宝类型 无 攻击次数 1 攻击伤害 1–8 特殊攻击 无 特殊防御 无 魔法抗力 见下文 智力 非智能 阵营 中立 体型 M 灵能能力 无 攻击／防御模式 无",
+    "sourceFile": "manuscript/mm/topics/zombie-retranslation.md"
   },
   {
     "book": "phb",

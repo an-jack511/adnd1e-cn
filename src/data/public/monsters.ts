@@ -27,7 +27,7 @@ const mm2Monsters = mm2Imported as Monster[];
 const importedIds = new Set(importedMonsters.map((monster) => monster.id));
 const oaIds = new Set(oaMonsters.map((monster) => monster.id));
 export const monsters: Monster[] = [
-  ...importedMonsters.map((monster) => ({ ...monster, illustration: examples.find((entry) => entry.id === monster.id)?.illustration })),
+  ...importedMonsters.map((monster) => ({ ...monster, illustration: examples.find((entry) => entry.id === monster.id)?.illustration ?? monster.illustration })),
   ...ffMonsters.filter((monster) => !importedIds.has(monster.id)),
   ...mm2Monsters.filter((monster) => !importedIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id)),
   ...oaMonsters.filter((monster) => !importedIds.has(monster.id)),

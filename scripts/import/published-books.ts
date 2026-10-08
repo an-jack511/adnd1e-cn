@@ -43,6 +43,11 @@ const supersededWsgSources = new Set([
   'weather-clothing.md',
   'what-is-it.md',
 ]);
+const supersededMmSources = new Set([
+  'cover-retranslation.md',
+  'index-retranslation.md',
+  'treasure-types-retranslation.md',
+]);
 
 const sourceRoot = resolve(process.argv[2] ?? '../manuscript');
 const outputRoot = resolve('src/published/books');
@@ -60,6 +65,15 @@ const fixEmphasis = (value: string) => value.replace(/\*\*([^*|\n]+)\*\*/g, (mat
 const manifests = new Map<BookId, { title: string; title_en: string; topics: Topic[] }>();
 const slugByFile = new Map<string, string>();
 const aliases = new Map<string, string>();
+const normalizeEnglish = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '');
+const retranslationKey = (file: string) => {
+  let stem = basename(file, '.md').replace(/-retranslation$/, '');
+  if (stem === 'giant-turtle') return 'turtle';
+  if (stem === 'portuguese-man-o-war') return normalizeEnglish('Portuguese Man-o-War, Giant');
+  if (stem.startsWith('giant-')) stem = `${stem.slice('giant-'.length)} giant`;
+  return normalizeEnglish(stem);
+};
+const mmRetranslations = new Map<string, { file: string; markdown: string }>();
 
 for (const book of bookIds) {
   const manifest = JSON.parse(await readFile(join(sourceRoot, book, 'book.json'), 'utf8'));
@@ -78,6 +92,9 @@ for (const book of bookIds) {
     const sourceName = basename(file, '.md');
     const key = `${book}/${sourceName}`;
     if (!aliases.has(key)) aliases.set(key, sourceName);
+    if (book === 'mm' && file.endsWith('-retranslation.md') && !supersededMmSources.has(file)) {
+      mmRetranslations.set(retranslationKey(file), { file, markdown: await readFile(join(sourceRoot, book, 'topics', file), 'utf8') });
+    }
   }
   if (book === 'phb') {
     for (const file of await readdir(join(sourceRoot, book, 'overviews'))) {
@@ -170,7 +187,8 @@ for (const book of bookIds) {
   const byFile = new Map((manifest.topics as Topic[]).map((topic) => [basename(topic.file), topic]));
   const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md')
     && !(book === 'dsg' && supersededDsgSources.has(file))
-    && !(book === 'wsg' && supersededWsgSources.has(file)));
+    && !(book === 'wsg' && supersededWsgSources.has(file))
+    && !(book === 'mm' && file.endsWith('-retranslation.md') && !supersededMmSources.has(file)));
   const orderedFiles = [
     ...(manifest.topics as Topic[]).map((topic) => basename(topic.file)),
     ...topicFiles.filter((file) => !byFile.has(file)).sort()
@@ -236,10 +254,12 @@ await writeFile(join(outputRoot, 'mm', 'mm-men.md'), menMarkdown, 'utf8');
 menSearch.text = menMarkdown.replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
 menTopic.excerpt = menSearch.text.slice(0, 170);
 for (const section of mmSplit.monsters) {
-  const markdown = fixEmphasis(section.markdown.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
+  const replacement = mmRetranslations.get(normalizeEnglish(section.titleEn));
+  const sourceMarkdown = replacement?.markdown ?? section.markdown;
+  const markdown = fixEmphasis(sourceMarkdown.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
   await writeFile(join(outputRoot, 'mm', `${section.slug}.md`), markdown, 'utf8');
   const text = markdown.replace(/<[^>]*>/g, ' ').replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
-  published.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, group: '怪物条目', excerpt: text.slice(0, 170), sourceFile: 'manuscript/mm/topics/men.md' });
+  published.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, group: '怪物条目', excerpt: text.slice(0, 170), sourceFile: replacement ? `manuscript/mm/topics/${replacement.file}` : 'manuscript/mm/topics/men.md' });
   search.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, text });
 }
 
