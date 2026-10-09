@@ -14,4 +14,6 @@ ADVANCED DUNGEONS & DRAGONS、AD&D、FORGOTTEN REALMS、PRODUCTS OF YOUR IMAGINA
 
 ## 第 2 页
 
-本页为原书插图页／空白页，未见可译正文。
+<strong>玩家地图 Players' Map</strong>
+
+本页为原书的玩家地图插图；地图本身没有其他可译正文。
