@@ -4,10 +4,10 @@
  * Only Markdown text is imported; scans and source illustrations are excluded.
  */
 import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
-import { basename, join, posix, resolve } from 'node:path';
+import { basename, dirname, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'fr'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'fr', 'gha'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
@@ -50,6 +50,7 @@ const supersededMmSources = new Set([
 ]);
 
 const sourceRoot = resolve(process.argv[2] ?? '../manuscript');
+const sourceBookDir = (book: BookId) => book === 'gha' ? 'greyhawk-adventures' : book;
 const outputRoot = resolve('src/published/books');
 const publicAssetRoot = resolve('public/assets/books');
 const sourceAssetRoot = resolve('../assets');
@@ -78,7 +79,7 @@ const retranslationKey = (file: string) => {
 const mmRetranslations = new Map<string, { file: string; markdown: string }>();
 
 for (const book of bookIds) {
-  const manifest = JSON.parse(await readFile(join(sourceRoot, book, 'book.json'), 'utf8'));
+  const manifest = JSON.parse(await readFile(join(sourceRoot, sourceBookDir(book), 'book.json'), 'utf8'));
   manifests.set(book, manifest);
   for (const topic of manifest.topics as Topic[]) {
     const sourceName = basename(topic.file, '.md');
@@ -89,17 +90,17 @@ for (const book of bookIds) {
     aliases.set(key, topic.slug);
     if (topic.page && !aliases.has(`${book}/${topic.page}`)) aliases.set(`${book}/${topic.page}`, topic.slug);
   }
-  for (const file of await readdir(join(sourceRoot, book, 'topics'))) {
+  for (const file of await readdir(join(sourceRoot, sourceBookDir(book), 'topics'))) {
     if (!file.endsWith('.md')) continue;
     const sourceName = basename(file, '.md');
     const key = `${book}/${sourceName}`;
     if (!aliases.has(key)) aliases.set(key, sourceName);
     if (book === 'mm' && file.endsWith('-retranslation.md') && !supersededMmSources.has(file)) {
-      mmRetranslations.set(retranslationKey(file), { file, markdown: await readFile(join(sourceRoot, book, 'topics', file), 'utf8') });
+      mmRetranslations.set(retranslationKey(file), { file, markdown: await readFile(join(sourceRoot, sourceBookDir(book), 'topics', file), 'utf8') });
     }
   }
   if (book === 'phb') {
-    for (const file of await readdir(join(sourceRoot, book, 'overviews'))) {
+    for (const file of await readdir(join(sourceRoot, sourceBookDir(book), 'overviews'))) {
       if (!file.endsWith('.md')) continue;
       const key = `${book}/${basename(file, '.md')}`;
       if (!aliases.has(key)) aliases.set(key, `overview-${basename(file, '.md')}`);
@@ -188,7 +189,7 @@ const pendingFrAssets = new Map<string, { source: string; destination: string }>
 for (const book of bookIds) {
   const manifest = manifests.get(book)!;
   const byFile = new Map((manifest.topics as Topic[]).map((topic) => [basename(topic.file), topic]));
-  const topicFiles = (await readdir(join(sourceRoot, book, 'topics'))).filter((file) => file.endsWith('.md')
+  const topicFiles = (await readdir(join(sourceRoot, sourceBookDir(book), 'topics'))).filter((file) => file.endsWith('.md')
     && !(book === 'dsg' && supersededDsgSources.has(file))
     && !(book === 'wsg' && supersededWsgSources.has(file))
     && !(book === 'mm' && file.endsWith('-retranslation.md') && !supersededMmSources.has(file)));
@@ -203,20 +204,21 @@ for (const book of bookIds) {
     seen.add(file);
     const topic = byFile.get(file);
     const slug = topic?.slug ?? basename(file, '.md');
-    const raw = await readFile(join(sourceRoot, book, 'topics', file), 'utf8');
+    const raw = await readFile(join(sourceRoot, sourceBookDir(book), 'topics', file), 'utf8');
     if (/<script\b|javascript:|\bon\w+\s*=/i.test(raw)) throw new Error(`Unsafe markup in ${book}/${file}`);
     const firstHeading = raw.match(/^#{1,6}\s+(.+)$/m)?.[1]?.trim() ?? slug;
     const title = topic?.title ?? firstHeading.replace(/\s+[A-Z][A-Za-z' -]*$/, '').trim();
     const titleEn = topic?.title_en ?? '';
     const group = topic?.group ?? (file.startsWith('appendix-') ? '附录续页' : '补充篇页');
     let markdown = raw.replace(/^#\s+.+\r?\n/, '');
-    if (book === 'fr') {
+    if (book === 'fr' || book === 'gha') {
       markdown = markdown.replace(/!\[([^\]]*)\]\(asset:([^)]*)\)/g, (_match, alt: string, asset: string) => {
         const assetName = basename(asset);
-        const source = join(sourceAssetRoot, assetName);
-        const destination = join(publicAssetRoot, 'fr', assetName);
-        pendingFrAssets.set(assetName, { source, destination });
-        return `![${alt}](/assets/books/fr/${assetName})`;
+        const assetFolder = book === 'gha' ? 'greyhawk-adventures' : '';
+        const source = join(sourceAssetRoot, assetFolder, assetName);
+        const destination = join(publicAssetRoot, book, assetName);
+        pendingFrAssets.set(`${book}/${assetName}`, { source, destination });
+        return `![${alt}](/assets/books/${book}/${assetName})`;
       });
     } else {
       markdown = markdown.replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '');
@@ -233,15 +235,15 @@ for (const book of bookIds) {
       .replace(/[#*_|>`~]/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
-    published.push({ book, slug, title, titleEn, group, excerpt: text.slice(0, 170), sourceFile: `manuscript/${book}/topics/${file}` });
+    published.push({ book, slug, title, titleEn, group, excerpt: text.slice(0, 170), sourceFile: `manuscript/${sourceBookDir(book)}/topics/${file}` });
     search.push({ book, slug, title, titleEn, text });
   }
   if (book === 'phb') {
-    for (const file of (await readdir(join(sourceRoot, book, 'overviews'))).filter((name) => name.endsWith('.md'))) {
+    for (const file of (await readdir(join(sourceRoot, sourceBookDir(book), 'overviews'))).filter((name) => name.endsWith('.md'))) {
       const sourceName = basename(file, '.md');
       const slug = aliases.get(`${book}/${sourceName}`);
       if (!slug?.startsWith('overview-')) continue;
-      const raw = await readFile(join(sourceRoot, book, 'overviews', file), 'utf8');
+      const raw = await readFile(join(sourceRoot, sourceBookDir(book), 'overviews', file), 'utf8');
       const firstHeading = raw.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? sourceName;
       let markdown = raw.replace(/^#\s+.+\r?\n/, '');
       markdown = markdown.replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').replace(/<img\b[^>]*>/gi, '');
@@ -249,15 +251,18 @@ for (const book of bookIds) {
       markdown = markdown.replace(/href=(['"])([^'"]+)\1/g, (_match, quote: string, target: string) => `href=${quote}${rewriteTarget(target, book)}${quote}`);
       await writeFile(join(outputRoot, book, `${slug}.md`), fixEmphasis(markdown.trim()) + '\n', 'utf8');
       const text = markdown.replace(/<[^>]*>/g, ' ').replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
-      published.push({ book, slug, title: firstHeading, titleEn: '', group: '原书章节概览', excerpt: text.slice(0, 170), sourceFile: `manuscript/${book}/overviews/${file}` });
+      published.push({ book, slug, title: firstHeading, titleEn: '', group: '原书章节概览', excerpt: text.slice(0, 170), sourceFile: `manuscript/${sourceBookDir(book)}/overviews/${file}` });
       search.push({ book, slug, title: firstHeading, titleEn: '', text });
     }
   }
 }
 
 if (pendingFrAssets.size) {
-  await mkdir(join(publicAssetRoot, 'fr'), { recursive: true });
-  for (const { source, destination } of pendingFrAssets.values()) await copyFile(source, destination);
+  await mkdir(publicAssetRoot, { recursive: true });
+  for (const { source, destination } of pendingFrAssets.values()) {
+    await mkdir(dirname(destination), { recursive: true });
+    await copyFile(source, destination);
+  }
 }
 
 // men.md was a temporary catch-all: keep Men at its old URL, and publish
@@ -293,4 +298,4 @@ await mkdir(resolve('src/data/published'), { recursive: true });
 await writeFile(indexPath, `${JSON.stringify(published, null, 2)}\n`, 'utf8');
 await writeFile(searchPath, `${JSON.stringify(search)}\n`, 'utf8');
 console.log(`Imported ${published.length} translated topics: ${bookIds.map((book) => `${book} ${published.filter((topic) => topic.book === book).length}`).join(', ')}.`);
-console.log(`Source scans were not copied; FR referenced image assets copied: ${pendingFrAssets.size}.`);
+console.log(`Source scans were not copied; FR/GHA referenced image assets copied: ${pendingFrAssets.size}.`);

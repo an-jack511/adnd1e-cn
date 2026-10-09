@@ -9,6 +9,7 @@ import { dsgItems } from './dsg-items';
 import { wsgItems } from './wsg-items';
 import { ref5Items } from './ref5-items';
 import { dlaItems } from './dla-items';
+import { ghaItems } from './gha-items';
 
 const examples: Item[] = [
   { id: 'long-sword', nameZh: '长剑', nameEn: 'Long Sword', category: '武器', price: '15 gp', weight: '4 lb.', damageSmallMedium: '1d8', damageLarge: '1d12', length: '4 ft.', spaceRequired: '—', speedFactor: '5', acAdjustment: '—', description: '常见的单手军用剑。', tags: ['武器', '近战'], source: [{ book: 'PHB', page: 38 }] },
@@ -48,4 +49,4 @@ const uaCombatOnly: Item[] = [
   ['ua-weapon-hammer', '锤', 'Hammer'],
   ['ua-weapon-javelin', '标枪', 'Javelin']
 ].map(([id, nameZh, nameEn]) => ({ id, nameZh, nameEn, category: '武器', price: '见 UA 装备价目', weight: '见 UA 重量与伤害表', description: 'UA 武器表：投掷／射击数据见原书第 28 页；重量与伤害见相应武器表。', tags: ['武器', 'UA'], source: [{ book: 'UA', section: 'ua-weapons' }], weaponCombat: (uaWeaponCombat as Record<string, Item['weaponCombat']>)[id] }));
-export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...uaItemsWithCombat, ...uaCombatOnly, ...oaItems, ...dsgItems, ...wsgItems, ...ref5Items, ...dlaItems, ...examples.filter((item) => !usedIds.has(item.id))];
+export const items: Item[] = [...importedItems, ...(magicImported as Item[]), ...uaItemsWithCombat, ...uaCombatOnly, ...oaItems, ...dsgItems, ...wsgItems, ...ref5Items, ...dlaItems, ...ghaItems, ...examples.filter((item) => !usedIds.has(item.id))];

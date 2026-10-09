@@ -28,7 +28,7 @@ import published from '../data/published/books.json';
   <p><a href="/spells/">法术</a>（{spells.length}） · <a href="/monsters/">怪物</a>（{monsters.length}） · <a href="/equipment/">装备</a> · <a href="/equipment/magic-items/">魔法物品</a> · <a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/rules/">全部规则</a></p>
 
   <h2>工具</h2>
-  <p><a href="/character/">REF2 快速车卡</a> · <a href="/dm/">主持游戏</a> · <a href="/tables/">随机表</a></p>
+  <p><a href="/character/">快速车卡</a> · <a href="/dm/">主持游戏</a> · <a href="/tables/">随机表</a></p>
 
   <h2>规则书</h2>
   <p class="book-shortcuts">{books.filter((book) => published.some((topic) => topic.book === book.id)).map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a>（{published.filter((topic) => topic.book === book.id).length} 篇）</span>)}</p>

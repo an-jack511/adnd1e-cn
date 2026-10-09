@@ -20,5 +20,6 @@ export const books: Book[] = [
   { id: 'ddg', short: 'DDG', title: 'Deities & Demigods', titleZh: '诸神与半神', description: '神祇能力、神话体系、牧师规则、神圣物品与位面旅行的完整中文译稿。', source: [{ book: 'DDG' }], chapters: [] },
   { id: 'll', short: 'L&L', title: 'Legends & Lore', titleZh: '传奇与学识', description: '神祇战役规则、神话体系、神庙陈设、牧师速查与已知位面资料的完整中文译稿。', source: [{ book: 'L&L' }], chapters: [] },
   { id: 'dmdk', short: 'DMDK', title: "Dungeon Master's Design Kit", titleZh: '地下城主设计工具箱', description: '冒险设计、表单、示例冒险与冒险菜谱的完整中文译稿。', source: [{ book: 'DMDK' }], chapters: [] },
-  { id: 'fr', short: 'FR', title: 'Forgotten Realms: Cyclopedia of the Realms', titleZh: '被遗忘的国度', description: '被遗忘国度的地理、历史、人物、组织、神祇、语言、货币、魔法与地图资料的完整中文逐页译稿。', source: [{ book: 'FR' }], chapters: [{ title: '被遗忘的国度正文', href: '/books/fr/' }] }
+  { id: 'fr', short: 'FR', title: 'Forgotten Realms: Cyclopedia of the Realms', titleZh: '被遗忘的国度', description: '被遗忘国度的地理、历史、人物、组织、神祇、语言、货币、魔法与地图资料的完整中文逐页译稿。', source: [{ book: 'FR' }], chapters: [{ title: '被遗忘的国度正文', href: '/books/fr/' }] },
+  { id: 'gha', short: 'GHA', title: 'Greyhawk Adventures', titleZh: '灰鹰冒险', description: '灰鹰战役资料的第 1–103 页中文逐页译稿，含神祇、怪物、人物、法术、魔法物品、奥斯地理和地下城主注记；第 104 页起的冒险模组按项目范围排除。', source: [{ book: 'GHA' }], chapters: [{ title: '灰鹰冒险正文', href: '/books/gha/' }, { title: '灰鹰怪物', href: '/monsters?source=GHA' }, { title: '灰鹰法术', href: '/spells?source=GHA' }, { title: '灰鹰魔法物品', href: '/equipment?source=GHA' }] }
 ];

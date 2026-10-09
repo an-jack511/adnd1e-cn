@@ -10,7 +10,7 @@ export const playPages: PlayPage[] = [
       { id: 'race-class', title: '种族与职业', points: ['以 PHB 种族表 I 查可选职业；表 II 查种族等级上限。括号中的职业上限只用于非玩家角色。', '职业还可能有最低属性、阵营和进阶限制。多职业与人类双职不是同一规则。'], links: [link('种族表', '/races/'), link('职业表', '/classes/'), link('车卡资格检查', '/character/')], sources: [phb('races', '种族职业表'), phb('overview-character-classes', '职业')] },
       { id: 'identity', title: '阵营、生命值与金钱', points: ['根据职业限制选阵营；从职业生命骰确定初始生命值，并应用符合条件的体质调整。', '初始金钱按所选职业掷骰；记录购物前余额和最终携带的每件装备。'], links: [link('职业详情与等级表', '/classes/'), link('装备价格表', '/equipment/')], sources: [phb('creating-a-character', '创建玩家角色'), phb('money-equipment-and-arms', '金钱与装备')] },
       { id: 'equipment', title: '装备、AC 与负重', points: ['穿戴护甲确定基础 AC；有效盾牌、敏捷及魔法修正另计。盾牌不总能防护侧后方攻击。', '负重既看重量也看体积；PHB 的四档移动仅是通常情形，力量、笨重程度和 DM 裁定会影响结果。'], links: [link('装备索引', '/equipment/'), link('人物卡 AC 与负重', '/character/')], sources: [phb('money-equipment-and-arms', '护甲等级表'), phb('encumbrance', '负重')] },
-      { id: 'finish', title: '能力、法术与记录', points: ['写下职业与种族能力、语言、豁免和武器数据；施法职业按各自规则记录法术书或可用法术。', '最后核对角色是否符合属性、种族、阵营与装备要求。车卡的 DM 覆盖仅记录裁定，不改写 RAW。'], links: [link('REF2 人物卡', '/character/'), link('法术索引', '/spells/')], sources: [phb('spell-tables', '法术表'), phb('races', '种族')] }
+      { id: 'finish', title: '能力、法术与记录', points: ['写下职业与种族能力、语言、豁免和武器数据；施法职业按各自规则记录法术书或可用法术。', '最后核对角色是否符合属性、种族、阵营与装备要求。车卡的 DM 覆盖仅记录裁定，不改写 RAW。'], links: [link('人物卡', '/character/'), link('法术索引', '/spells/')], sources: [phb('spell-tables', '法术表'), phb('races', '种族')] }
     ] },
   { slug: 'travel', title: '旅行与探索', intro: '把出发准备、时间推进、探索动作和遭遇放在同一张桌边流程上。',
     sequence: ['核对装备、负重、坐骑、口粮和光源', '声明路线与速度，推进探索回合或旅行日', '处理搜索、门、光照与地图', '按地点和时段检查遭遇与环境风险', '结算休息、补给和恢复'], sections: [
@@ -49,6 +49,6 @@ export const playPages: PlayPage[] = [
     ] },
   { slug: 'advancement', title: '成长与升级', intro: '先确认经验值，再按职业表逐项更新人物卡；不要只把等级数字加一。', sequence: ['核对经验值门槛和训练要求', '检查种族等级上限及双职／多职业规则', '记录新增生命骰或固定生命值', '更新攻击、豁免、职业能力和法术', '保存升级前后人物卡'], sections: [
     { id: 'experience', title: '经验与资格', points: ['职业等级表给出经验值门槛；DMG 对经验分配和训练有补充。', '非人职业等级可能受属性值和种族上限约束；吟游诗人等特殊进阶须按附录处理。'], links: [link('职业等级表', '/classes/'), link('种族等级限制', '/races/')], sources: [phb('experience', '经验'), phb('races', '种族等级表'), dmg('dmg-experience', '经验')] },
-    { id: 'changes', title: '逐项更新', points: ['职业表决定新增生命骰或固定生命值；体质调整只在适用的生命骰上处理。', '核对攻击矩阵、豁免表、盗贼能力、驱散不死、法术位和高等级能力；不同职业变化不同。', '若目前没有经过原表核对的自动计算，就保留手动记录，不给出虚构数值。'], links: [link('职业详情', '/classes/'), link('REF2 人物卡', '/character/')], sources: [phb('attack-saving-throw-matrices', '攻击与豁免矩阵'), phb('spell-tables', '法术表')] }
+    { id: 'changes', title: '逐项更新', points: ['职业表决定新增生命骰或固定生命值；体质调整只在适用的生命骰上处理。', '核对攻击矩阵、豁免表、盗贼能力、驱散不死、法术位和高等级能力；不同职业变化不同。', '若目前没有经过原表核对的自动计算，就保留手动记录，不给出虚构数值。'], links: [link('职业详情', '/classes/'), link('人物卡', '/character/')], sources: [phb('attack-saving-throw-matrices', '攻击与豁免矩阵'), phb('spell-tables', '法术表')] }
     ] }
 ];
