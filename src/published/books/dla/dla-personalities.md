@@ -1,5 +1,7 @@
 ## 第 108 页
 
+<strong>插图记录：</strong>页眉为人物章节标题与长矛装饰图样；本页含 Takhisis、Fizban、Pyrite、Raistlin 与 Lord Soth 的人物数据框，无独立肖像插图说明文字。
+
 ## Takhisis
 
 ### 黑暗女王 The Queen of Darkness
@@ -76,6 +78,8 @@ Lord Soth 的悲惨历史在《Solamnia 骑士团》的历史中有部分讲述�
 
 ## 第 109 页
 
+<strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Kitiara、Duncan、Kharas 与 Reghar Fireforge 的人物数据框，无独立肖像插图说明文字。
+
 ## Kitiara
 
 自从她在黑暗女王旗帜下征服世界的梦想破灭后，Kitiara 平静的外表下始终压抑着挫败与怒火。她从未承认失败；事实上，她已经把 Sanction 变成一处避风港，甚至连拥有善良巨龙的骑士都不愿贸然进攻。
@@ -148,6 +152,8 @@ Reghar 有一个活到成年的儿子（Flint 的父亲）。他的另一个儿�
 
 ## 第 110 页
 
+<strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Reghar Fireforge、Amothus Palanthus、Elistan、Par-Salian 与 Justarius 的人物数据框，无独立肖像插图说明文字。
+
 ### Reghar Fireforge
 
 <strong>9 级丘陵矮人战士</strong>
@@ -208,6 +214,8 @@ Par-Salian 并不是行动派巫师，更喜欢把时间花在研究上。他主
 
 ## 第 111 页
 
+<strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Justarius、Ladonna、Maquesta Kar-Thon 与 Bas-Ohn Koraf 的人物数据框，无独立肖像插图说明文字。
+
 威胁仍然存在，Par-Salian 就无法这样做。在任何情况下，Par-Salian 都不会离开 Wayreth 高塔。
 
 ### Par-Salian
@@ -267,6 +275,8 @@ Ladonna 是一名六十多岁、异常美丽的人类女性，是一位强大的
 <strong>插图说明：</strong>本页含有 Reghar Fireforge、Amothus Palanthus、Elistan、Par-Salian、Justarius 与 Ladonna 的人物插图或数据框。
 
 ## 第 112 页
+
+<strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Maquesta、Bas-Ohn Koraf、Dalamar、Crysania 与 Caramon 的人物数据框，无独立肖像插图说明文字。
 
 ## Maquesta Kar-Thon
 
@@ -365,6 +375,8 @@ Crysania 虔诚，但也有野心。她知道自己拥有在 Elistan 离世后�
 <strong>插图说明：</strong>本页含有 Reghar、Dalamar、Crysania 与 Caramon 的人物插图或数据框。
 
 ## 第 113 页
+
+<strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Caramon、Tasslehoff、Tika 与 Tanis 的人物数据框，无独立肖像插图说明文字。
 
 ## Caramon Majere
 
@@ -476,6 +488,6 @@ Tanis 心中始终保留着对 Kitiara 的幻想——就像 Kitiara 帮助他�
 * <strong>矮人及相关分支：</strong>矮人 Dwarves、肯德 Kender、侏儒 Gnomes，以及 Theiwar、Hylar、Daewar、Daergar、Neidar、Klar 与 Aghar。
 * <strong>其他节点：</strong>Thanoi。
 
-图中的中央竖列标为 Greystone（灰石），分支连线是原书图表所表示的谱系或类别关系；这里不将图表改写成新的规则解释。
+图中的中央竖列标为 Greystone（灰石）。原图节点逐项保留为：Dragons（龙）分为 Metallic（金属龙）与 Chromatic（色彩龙），并连接 Draconians（龙人）；左侧 Ogres（食人魔）连接 Minotaurs（牛头怪）、Giants（巨人）、Goblins（地精）与 Irda，右侧连接 Minotaurs、Thanoi、Giants、Trolls（巨魔）、Goblins、Kobolds（狗头人）、Hobgoblins（熊地精）、Bugbears（熊地怪）和 Ogres；Animals（动物）连接 Magical Creatures（魔法生物）、Pegasus（飞马）与 Griffons（狮鹫）；Humans（人类）连接 Gnomes（侏儒）、Sirens（海妖）、Shadow People（影民）、Humans 与 Half-Elves（半精灵）；Elves（精灵）连接 Silvanesti、Kagonesti、Qualinesti、Dimernesti 与 Dargonesti；Dwarves（矮人）分出 Kender（坎德）、Gnomes、Theiwar、Hylar、Daewar、Daergar、Neidar、Klar 与 Aghar。Thanoi 作为独立节点保留。分支连线是原书图表所表示的谱系或类别关系；这里不将图表改写成新的规则解释。
 
 <strong>插图说明：</strong>本页包含角色阵营追踪图与《克莱恩的种族》关系图；阵营图的灰色区域代表 Transition（过渡）。
