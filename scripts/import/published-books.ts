@@ -3,11 +3,11 @@
  * This script is manual: the Cloudflare build never reads the parent manuscript.
  * Only Markdown text is imported; scans and source illustrations are excluded.
  */
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'fr'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
@@ -51,6 +51,8 @@ const supersededMmSources = new Set([
 
 const sourceRoot = resolve(process.argv[2] ?? '../manuscript');
 const outputRoot = resolve('src/published/books');
+const publicAssetRoot = resolve('public/assets/books');
+const sourceAssetRoot = resolve('../assets');
 const indexPath = resolve('src/data/published/books.json');
 const searchPath = resolve('src/data/published/book-search.json');
 const legacyRoot = resolve('../build/chm/content');
@@ -181,6 +183,7 @@ function rewriteTarget(target: string, book: BookId): string {
 
 const published: PublishedTopic[] = [];
 const search: Array<{ book: BookId; slug: string; title: string; titleEn: string; text: string }> = [];
+const pendingFrAssets = new Map<string, { source: string; destination: string }>();
 
 for (const book of bookIds) {
   const manifest = manifests.get(book)!;
@@ -207,7 +210,17 @@ for (const book of bookIds) {
     const titleEn = topic?.title_en ?? '';
     const group = topic?.group ?? (file.startsWith('appendix-') ? '附录续页' : '补充篇页');
     let markdown = raw.replace(/^#\s+.+\r?\n/, '');
-    markdown = markdown.replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '');
+    if (book === 'fr') {
+      markdown = markdown.replace(/!\[([^\]]*)\]\(asset:([^)]*)\)/g, (_match, alt: string, asset: string) => {
+        const assetName = basename(asset);
+        const source = join(sourceAssetRoot, assetName);
+        const destination = join(publicAssetRoot, 'fr', assetName);
+        pendingFrAssets.set(assetName, { source, destination });
+        return `![${alt}](/assets/books/fr/${assetName})`;
+      });
+    } else {
+      markdown = markdown.replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '');
+    }
     markdown = markdown.replace(/<img\b[^>]*>/gi, '');
     markdown = markdown.replace(/\]\(([^)]+)\)/g, (_match, target: string) => `](${rewriteTarget(target, book)})`);
     markdown = markdown.replace(/href=(['"])([^'"]+)\1/g, (_match, quote: string, target: string) => `href=${quote}${rewriteTarget(target, book)}${quote}`);
@@ -240,6 +253,11 @@ for (const book of bookIds) {
       search.push({ book, slug, title: firstHeading, titleEn: '', text });
     }
   }
+}
+
+if (pendingFrAssets.size) {
+  await mkdir(join(publicAssetRoot, 'fr'), { recursive: true });
+  for (const { source, destination } of pendingFrAssets.values()) await copyFile(source, destination);
 }
 
 // men.md was a temporary catch-all: keep Men at its old URL, and publish
@@ -275,4 +293,4 @@ await mkdir(resolve('src/data/published'), { recursive: true });
 await writeFile(indexPath, `${JSON.stringify(published, null, 2)}\n`, 'utf8');
 await writeFile(searchPath, `${JSON.stringify(search)}\n`, 'utf8');
 console.log(`Imported ${published.length} translated topics: ${bookIds.map((book) => `${book} ${published.filter((topic) => topic.book === book).length}`).join(', ')}.`);
-console.log('Source scans and original illustrations were not copied.');
+console.log(`Source scans were not copied; FR referenced image assets copied: ${pendingFrAssets.size}.`);

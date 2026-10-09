@@ -9279,6 +9279,762 @@
     "sourceFile": "manuscript/dla/topics/appendices.md"
   },
   {
+    "book": "fr",
+    "slug": "fr-cover",
+    "title": "封面",
+    "titleEn": "Cover",
+    "group": "前置部分",
+    "excerpt": "!被遗忘的国度中文封面层（保留原英文品牌与原画面） !被遗忘的国度原书封面 高级龙与地下城 被遗忘的国度 战役设定集 被遗忘的国度——一个全新的《高级龙与地下城》游戏战役世界！ 原书封面，PDF 第 1 页。",
+    "sourceFile": "manuscript/fr/topics/cover.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-inside-cover",
+    "title": "扉页图像",
+    "titleEn": "Inside Cover",
+    "group": "前置部分",
+    "excerpt": "!被遗忘的国度扉页图像 原书扉页整页图像，PDF 第 2 页。保留原图，不将无文字的装饰区域概括为正文。",
+    "sourceFile": "manuscript/fr/topics/inside-cover.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-epigraph",
+    "title": "题词",
+    "titleEn": "Epigraph",
+    "group": "前置部分",
+    "excerpt": "!被遗忘的国度题词原图 “我还观察到这些事情：我们世界的知识应当像珍贵花朵一样受到培育，因为它是我们拥有的最珍贵之物。因此，守护写下的文字，也留意未写下的言语——趁它们消逝之前将其记录下来……好好学习阅读、书写和真实聆听的技艺，它们将引领你抵达一切艺术中最伟大的艺术：理解。” ——烛堡的阿兰多（Alaunndo of Candlekeep",
+    "sourceFile": "manuscript/fr/topics/epigraph.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-contents",
+    "title": "目录与制作人员",
+    "titleEn": "Contents and Credits",
+    "group": "前置部分",
+    "excerpt": "!国度百科全书目录原图 目录 Table of Contents 原书项目 页码 --- ---: 导论 Introductions 4 本产品说明 About this Product 5 国度中的时间 Time in the Realms 6 国度中的名字 Names in the Realms 7 国度的语言 Languages o",
+    "sourceFile": "manuscript/fr/topics/contents.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-copyright",
+    "title": "版权与发行信息",
+    "titleEn": "Copyright and Distribution",
+    "group": "前置部分",
+    "excerpt": "!被遗忘的国度版权页原图 TSR, Inc. 邮政信箱 756 Lake Geneva, WI 53147 TSR UK Ltd. The Mill, Rathmore Road Cambridge CB1 4AD United Kingdom ADVANCED DUNGEONS & DRAGONS、AD&D、FORGOTTEN REAL",
+    "sourceFile": "manuscript/fr/topics/copyright.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-introduction",
+    "title": "导言",
+    "titleEn": "Introduction",
+    "group": "导言",
+    "excerpt": "!被遗忘的国度导言页原图 以下内容是对被遗忘的国度世界的简短介绍，希望能为使用《高级龙与地下城》系统的战役带来娱乐、启发并提供信息。本书以及其中包含的百科全书，与它的配套卷册《国度地下城主资料集》一起，应当能够让人使用这个世界创建独立的战役设定。 被遗忘的国度是一个与十三、十四世纪的地球非常相似的世界。直到最近，这个世界的大部分讨论区域仍",
+    "sourceFile": "manuscript/fr/topics/introduction.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-about-product",
+    "title": "关于本产品",
+    "titleEn": "About This Product",
+    "group": "导言",
+    "excerpt": "!《被遗忘的国度》产品说明原页 《被遗忘的国度》盒装套装包含两本书、四张地图和两套塑料覆膜。塑料覆膜用于在不必把六角格或其他网格覆盖到地图表面的情况下，测定国度中的距离。 其中两张地图用于展示国度的总体概览：范围从西面的月之海群岛一直到东面的萨伊红袍法师之地，并从北方的世界之脊山脉一直到南方的楚尔特丛林。这些地图依据国度中的代表人物贤者伊",
+    "sourceFile": "manuscript/fr/topics/about-product.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-time-in-realms",
+    "title": "国度中的时间",
+    "titleEn": "Time in the Realms",
+    "group": "导言",
+    "excerpt": "!《国度中的时间》原页一 !《国度中的时间》原页二 日历与纪年表 The Calendar and Roll of Years 下列日历专为科米尔王国制定。 一年由 365 天组成：12 个月，每个月恰好 30 天（这是由于只有一轮月亮及其伴随天体），再加上落在月份之间的 5 天。这些日子是特殊节日。闰年纯粹为了社会上的便利而保留，并提供",
+    "sourceFile": "manuscript/fr/topics/time-in-realms.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-names-in-realms",
+    "title": "国度中的名字",
+    "titleEn": "Names in the Realms",
+    "group": "导言",
+    "excerpt": "!《国度中的名字》原页 国度中的命名体系既广泛又多样，许多地方习俗都很常见。玩家角色在自己的生涯中可以使用一个或两个部分组成的名字、绰号、头衔或化名。一般的命名准则如下。 普通人类 Common Humanity 绝大多数人类只使用一个名字，例如“杜斯特（Doust）”或“哀悼之墓（Mourngrym）”；如果可能造成混淆，则会再加上第二",
+    "sourceFile": "manuscript/fr/topics/names-in-realms.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-languages-of-realms",
+    "title": "国度中的语言",
+    "titleEn": "Languages of the Realms",
+    "group": "导言",
+    "excerpt": "!《国度中的语言》原页一 !《国度中的语言》原页二 坠星海以北、以东的大多数人至少在某种程度上识字。旅行者和教师表示，被遗忘的国度各处并非都是如此。附近地区以西门、南塞姆比亚以及或许希尔斯法为主要识字区域；在剑湾，深水城也属于此类。再往其他地方，“相信你的舌头”，正如行路人所说。 需要注意的是，每一种阵营都有自己的特殊语言，通常只有同阵营",
+    "sourceFile": "manuscript/fr/topics/languages-of-realms.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-currency-in-realms",
+    "title": "国度中的货币",
+    "titleEn": "Currency in the Realms",
+    "group": "导言",
+    "excerpt": "!《国度中的货币》原页一 !《国度中的货币》原页二 各种各样的物物交换与铸币在国度各地都很常见。以下体系属于科米尔这个国家，也代表了其他有组织国家的典型情况。 科米尔最受偏好的货币形式是王室铸币：一面印有龙，另一面刻有国库日期标记（在科米尔以及多数类似国家，伪造货币的惩罚是死刑）。这里没有纸币，只有 IOU；这些 IOU 被称为“血券”，",
+    "sourceFile": "manuscript/fr/topics/currency-in-realms.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-religion-human-deities-1",
+    "title": "国度中的宗教：人类神祇（一）",
+    "titleEn": "Religion in the Realms: Human Deities I",
+    "group": "导言",
+    "excerpt": "!《信仰标志》原页一 !《信仰标志》原页二 !《信仰标志》原页三 !《信仰标志》原页四 !《信仰标志》原页五 国度中的宗教 Religion in the Realms 国度中的“神”也被称为力量（Powers），是重要的存在；他们向崇拜者赐予魔法，并介入尘世事务，而且会随着自己拥有的凡人信徒数量而增强或减弱个人力量。侍奉神祇的牧师只有在",
+    "sourceFile": "manuscript/fr/topics/religion-human-deities-1.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-religion-human-deities-2",
+    "title": "国度中的宗教：人类神祇（二）",
+    "titleEn": "Religion in the Realms: Human Deities II",
+    "group": "导言",
+    "excerpt": "!人类神祇与元素领主信仰标志原页一 !人类神祇与元素领主信仰标志原页二 莉莉拉 LLIRA（LEER-ah） 欢乐女士（Our Lady of Joy） 项目 内容 --- --- 领域 欢乐、无忧感、满足、释放、好客、幸福、舞蹈、节庆守护者 阵营 CG 力量等级 半神力（Demipower） 主位面 阿文多（Arvandor） 象征 三",
+    "sourceFile": "manuscript/fr/topics/religion-human-deities-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-other-gods-and-faiths",
+    "title": "其他神祇与信仰",
+    "titleEn": "Other Gods and Faiths",
+    "group": "导言",
+    "excerpt": "!其他神祇与神祇联盟原页一 !其他神祇与职业信仰表原页二 精灵名单续表 拉贝拉斯·伊诺瑞斯（Labelas Enoreth；长寿之神） 半身人 HALFLINGS 杨达拉（Yondalla；赐予者与保护者） 希拉·佩罗伊尔（Sheela Peryroyl；智者） 阿沃林（Arvoreen；守卫者） 希罗拉莉（Cyrrollalee；忠贞者",
+    "sourceFile": "manuscript/fr/topics/other-gods-and-faiths.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-abeir-toril-adventuring-companies-1",
+    "title": "阿比尔-托里尔与冒险公司（一）",
+    "titleEn": "Abeir-Toril and Adventuring Companies I",
+    "group": "百科条目",
+    "excerpt": "!阿比尔-托里尔与冒险公司原页 阿比尔-托里尔 ABEIR-TORIL（Ai-BEER-toh-RILL） 概览 AT A GLANCE 阿比尔-托里尔，更常被称为托里尔，是费伦与被遗忘的国度所依托的球体的名称，就像欧亚大陆所依托的球体是地球一样。这个名字很古老，意思是“生命摇篮”，日常生活中很少使用。 伊尔明斯特的笔记 ELMINSTE",
+    "sourceFile": "manuscript/fr/topics/abeir-toril-adventuring-companies-1.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-adventuring-companies-2",
+    "title": "冒险公司（二）",
+    "titleEn": "Adventuring Companies II",
+    "group": "百科条目",
+    "excerpt": "!冒险公司原页一 !冒险公司原页二 猎团 The Hunt 猎团活跃于科米尔、塞姆比亚、谷地和月海地区。尽管早期在阿肯代尔与当地部队发生残酷战斗并损失了几名成员，队伍仍从八人迅速增长到十四人。猎团最近一直活跃在秘斯·德拉诺地区；由于他们很少公开接受委托，其目标与性质仍然大体不明，迄今几乎完全依靠自主冒险所得的成果维持活动。 猎团成员如下：",
+    "sourceFile": "manuscript/fr/topics/adventuring-companies-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-adventuring-companies-rules",
+    "title": "冒险公司规则续文",
+    "titleEn": "Adventuring Company Rules Continued",
+    "group": "百科条目",
+    "excerpt": "!冒险公司规则原页 某些历史悠久的团体会把赚取的钱留出一部分作为“应急基金”，以防成员突然死亡或失踪。团体可以在每次冒险后分掉宝藏，也可以维持一笔共同基金，用于继续冒险。 行为准则（Codes of Conduct）： 这同样会根据团体的阵营而改变，也可以通过服从首领、寻求贤者建议（伊尔明斯特称这是一种不必要而浪费时间的支出），或进行民主",
+    "sourceFile": "manuscript/fr/topics/adventuring-companies-rules.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-aglarond-amn-anauroch-arabel-1",
+    "title": "阿格拉隆、安姆、阿诺洛克与阿拉贝尔（一）",
+    "titleEn": "Aglarond, Amn, Anauroch, and Arabel I",
+    "group": "百科条目",
+    "excerpt": "!阿格拉隆与安姆原页 !内海诸地地图原页 阿格拉隆 AGLAROND（AHG-lah-rond） 概览 AT A GLANCE 阿格拉隆是内海以东、海盗群岛以西的一块小型海岸国家。它北面和西面以内海为界，南面以尤伊尔森林为界，东面与萨伊接壤。由于统治者“辛布尔”的显赫，以及它与萨伊红袍法师反复交战，阿格拉隆是北方居民最熟悉的东部国家之一。",
+    "sourceFile": "manuscript/fr/topics/aglarond-amn-anauroch-arabel-1.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-arabel-map",
+    "title": "阿拉贝尔地图与地图索引",
+    "titleEn": "Arabel Map and Map Key",
+    "group": "百科条目",
+    "excerpt": "!阿拉贝尔总图原页 !阿拉贝尔地图索引原页 阿拉贝尔总图 Master Map of Arabel 原图中的编号、道路、城墙、建筑轮廓和指北针全部保留。以下为原书地图索引的逐项翻译；英文名称保留以便与地图上的文字对应。 编号 地图索引 ---: --- 1 城塞（兼监狱）（Citadel and jail） 2 宫殿（法院、议事厅）（Pa",
+    "sourceFile": "manuscript/fr/topics/arabel-map.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-arabel-archendale-asbravn-baldurs-gate",
+    "title": "阿拉贝尔续文、阿肯代尔、阿斯布拉文与博德之门",
+    "titleEn": "Arabel Continued, Archendale, Asbravn, and Baldur's Gate",
+    "group": "百科条目",
+    "excerpt": "!阿拉贝尔续文与阿肯代尔原页 !阿斯布拉文、博德之门与野蛮人原页 阿拉贝尔续文 Arabel Continued 贡德加尔的军队在科米尔的推进主力面前简单地消散了，随后不知所踪。阿祖恩四世国王的军队在清晨重新夺回阿拉贝尔，没有挥出一刀；没有人找到贡德加尔的尸体。众所周知，他向北逃走，随后经由泰什波，继续向东；此后他的命运变成相互矛盾的传闻",
+    "sourceFile": "manuscript/fr/topics/arabel-archendale-asbravn-baldurs-gate.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-battledale-battle-of-bones-beregost-boareskyr-candlekeep",
+    "title": "战斗谷地、战斗之骨、贝雷戈斯特、博阿雷斯克尔桥与烛堡",
+    "titleEn": "Battledale, Battle of the Bones, Beregost, Boareskyr Bridge, and Candlekeep",
+    "group": "百科条目",
+    "excerpt": "!战斗谷地、战斗之骨与贝雷戈斯特原页 !博阿雷斯克尔桥、卡林杉与烛堡原页 战斗谷地游戏信息 Battledale: Game Information 战斗谷地虽然名字充满敌意，却没有常备军；“战争大臣”这一头衔是世袭的。伊尔梅特是一名 12 级战士，留着深色胡须，性情阴沉，却总是对该地区各派势力的力量感到惊讶。 战斗之骨 THE BATT",
+    "sourceFile": "manuscript/fr/topics/battledale-battle-of-bones-beregost-boareskyr-candlekeep.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-calaunt-cavaliers-citadel",
+    "title": "卡兰特、骑士与圣武士、棋森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普",
+    "titleEn": "Calaunt, Cavaliers and Paladins, Chessenta, Citadel of the Raven, Clerics, Cloak Wood, and Corm Orp",
+    "group": "百科条目",
+    "excerpt": "!卡兰特、骑士与渡鸦堡垒原页 !渡鸦堡垒、牧师与科姆奥普原页 烛堡（续） CANDLEKEEP (CONTINUED) 在查阅资料时，旅行者可以像贤者本人那样进行研究，并在某个特殊类别中拥有知识；就真实性而言，这种研究不再收取额外费用。 魔法书籍和其他危险物品存放在内室。只有守护者（该组织的首领）与读者（他那批技艺精湛的工作人员）可以进入",
+    "sourceFile": "manuscript/fr/topics/calaunt-cavaliers-citadel.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-corm-orp-cormyr",
+    "title": "科姆奥普与科米尔",
+    "titleEn": "Corm Orp and Cormyr",
+    "group": "百科条目",
+    "excerpt": "!科姆奥普、牧师与科米尔原页 !科米尔地图原页 科姆奥普 CORM ORP（续） 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个小村以数量众多的半身人居民而闻名；他们与少数人类居民相处融洽，尽管村子的领主邓达斯·赫特尔是人类，村民卫队也是人类。这一点让大多数半身人相当自在，因为他们更愿意看着别人替自己战斗。 有地位的半身人牧师",
+    "sourceFile": "manuscript/fr/topics/corm-orp-cormyr.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-cormyr-lineage-daggerdale",
+    "title": "科米尔王室谱系、习俗、匕首谷地、匕首滩与谷伦",
+    "titleEn": "Cormyr Lineage, Customs, Daggerdale, Daggerford, and Daerlun",
+    "group": "百科条目",
+    "excerpt": "!科米尔近代王室谱系与军政规则原页 !匕首谷地、匕首滩与谷地诸国原页 科米尔 CORMYR（续） 科米尔近代王室谱系 Recent Royal Lineage of Cormyr 下表转写原书“近代科米尔王室谱系（古老诸王）”图。图中 表示暴力死亡（例如死于战争、冲突等）；括号中的年份为相关人物生卒年，国王旁的年份为其统治年。 君主 统治",
+    "sourceFile": "manuscript/fr/topics/cormyr-lineage-daggerdale.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dalelands-damara-darkhold",
+    "title": "谷地诸国、达马拉与黑堡",
+    "titleEn": "Dalelands, Damara, and Darkhold",
+    "group": "百科条目",
+    "excerpt": "!谷地诸国地图与议会名单原页 !达马拉、黑堡与深谷地原页 谷地诸国 THE DALELANDS（续） 伊尔明斯特的笔记 ELMINSTER'S NOTES 谷地诸国的建立远早于现有任何一座谷地，早了数百年；“谷地纪年”这个名称，实际上是为了纪念人类获准在内海以北和以西土地上定居。 在那些古老年代，苏萨尔以及后来称为塞尔伦的乔达坦，还只是沿",
+    "sourceFile": "manuscript/fr/topics/dalelands-damara-darkhold.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-deepingdale-dragonspear",
+    "title": "深谷地、德德卢克、龙类与龙矛城堡",
+    "titleEn": "Deepingdale, Dhedluk, Dragons, and Dragonspear Castle",
+    "group": "百科条目",
+    "excerpt": "!深谷地、德德卢克与龙灾原页 !龙矛城堡与德鲁伊条目原页 深谷地 DEEPINGDALE（续） 概览 AT A GLANCE 野兽与木材。和许多谷地社群一样，它散布着许多农庄，但把位于山谷尽头的高月镇视为自己的“首都”。 伊尔明斯特的笔记 ELMINSTER'S NOTES 深谷地与当地精灵保持着良好关系。如今精灵法庭已经离开，许多独居精",
+    "sourceFile": "manuscript/fr/topics/deepingdale-dragonspear.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-druids-dwarves-elturel",
+    "title": "德鲁伊、杜拉格之塔、矮人、东行镇、艾尔特瑞尔与精灵",
+    "titleEn": "Druids, Durlag's Tower, Dwarves, Easting, Elturel, and Elves",
+    "group": "百科条目",
+    "excerpt": "!德鲁伊、杜拉格之塔与矮人条目原页 !矮人、东行镇与艾尔特瑞尔原页 !精灵条目开头原页 德鲁伊 DRUIDS 概览 AT A GLANCE 德鲁伊是牧师中的一个分支，倾向于在标准的神殿建筑之外进行崇拜。他们在国度各地游荡，或组织成松散联系的“圈”。这些德鲁伊圈承担着与牧师信仰中的等级体系相同的职能，但规模小得多，对于哪些活动归于哪一层级的",
+    "sourceFile": "manuscript/fr/topics/druids-dwarves-elturel.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-elves-evereska-eveningstar",
+    "title": "精灵亚种、精灵退隐、艾弗瑞斯卡、埃斯帕、埃森布拉与星落之夜",
+    "titleEn": "Elven Subraces, Retreat, Evereska, Espar, EssembrA, and Eveningstar",
+    "group": "百科条目",
+    "excerpt": "!精灵亚种与精灵退隐原页 !艾弗瑞斯卡、埃斯帕与星落之夜原页 精灵 THE ELVEN（续） 精灵各亚种之间可以杂交，但在精灵的情况下，孩子会继承父亲或母亲一方的种族特征（不存在卓尔／月精灵混血；这种不太可能的结合所生孩子，要么拥有黑暗精灵的全部特征，要么拥有月精灵的全部特征）。已知亚种如下。 金精灵 Gold Elves 金精灵也被称为",
+    "sourceFile": "manuscript/fr/topics/elves-evereska-eveningstar.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-evermeet-featherdale",
+    "title": "永聚岛舰队、埃尔弗苏尔与羽谷",
+    "titleEn": "Evermeet Fleet, Elversult, and Featherdale",
+    "group": "百科条目",
+    "excerpt": "!永聚岛与精灵海军原页 永聚岛 EVERMEET 概览 AT A GLANCE 永聚岛是一座大型岛屿，位于月沙群岛以西数千英里，规模与月沙群岛相近。尽管距离遥远，永聚岛对国度中有学识的人来说仍广为人知，因为它是精灵国家最后的家园。 伊尔明斯特的笔记 ELMINSTER'S NOTES 永聚岛是精灵的岛屿王国，位于暴风海域彼端、人类领土以西",
+    "sourceFile": "manuscript/fr/topics/evermeet-featherdale.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-fields-fighters-forgotten-forest",
+    "title": "亡者原野、战士与遗忘森林",
+    "titleEn": "Fields of the Dead, Fighters, and the Forgotten Forest",
+    "group": "百科条目",
+    "excerpt": "!亡者原野、战士职业与遗忘森林原页 亡者原野 FIELDS OF THE DEAD 概览 AT A GLANCE 蜿蜒之水与琼萨尔河之间是一片开阔起伏的土地，以农耕为主；琼萨尔河沿岸则种植农作物。 伊尔明斯特的笔记 ELMINSTER'S NOTES 尽管表面看起来和平，约 500 个冬季以前，这片土地曾是争夺卡林杉以北地区控制权的各方势",
+    "sourceFile": "manuscript/fr/topics/fields-fighters-forgotten-forest.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-glacier-glister-goblins-gnomes",
+    "title": "白龙冰川、格利斯特、妖精类与侏儒",
+    "titleEn": "Glacier of the White Worm, Glister, Goblin Races, and Gnomes",
+    "group": "百科条目",
+    "excerpt": "!白龙冰川、格利斯特与妖精类原页 白龙冰川 GLACIER OF THE WHITE WORM（续） 白龙冰川从地脊山脉最高峰之间流出，东侧经一处高崖流入穆尔马斯特以东的月海，另一侧则流入冰融湖。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片冰川是大量极地生物的家园，因此有人认为它过去曾是北方更大冰原的一部分。它的位置比海拔",
+    "sourceFile": "manuscript/fr/topics/glacier-glister-goblins-gnomes.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-greycloak-halfaxe-halfelves",
+    "title": "灰斗篷山、半斧小径与半精灵",
+    "titleEn": "Greycloak Hills, Halfaxe Trail, and Half-Elven Peoples",
+    "group": "百科条目",
+    "excerpt": "!灰斗篷山、半斧小径与半精灵原页 灰斗篷山 GREYCLOAK HILLS 概览 AT A GLANCE 灰斗篷山是一片高耸起伏的土脊，覆盖着杂草与偶尔出现的小片树木。 伊尔明斯特的笔记 ELMINSTER'S NOTES 灰斗篷山是一小群高耸、偏远的山丘，位于艾弗瑞斯卡以北，被视为该精灵家园的前哨；不到三十年前，一批精灵与半精灵在此定居",
+    "sourceFile": "manuscript/fr/topics/greycloak-halfaxe-halfelves.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-halflings-hammer-hall",
+    "title": "半身人与锤厅",
+    "titleEn": "Halflings and Hammer Hall",
+    "group": "百科条目",
+    "excerpt": "!半身人与锤厅原页 半身人 HALFLINGS 概览 AT A GLANCE 半身人是主要种族中最小的一支；如果在大城市（以及一些小城市）之外寻找他们的社群，就会发现他们也是数量最多、增长最快的种族之一。他们看起来像矮小的街头顽童，年龄虽小却见多识广。 被遗忘国度的半身人全身覆盖着一层细薄的绒毛，手背和脚背尤其明显。他们的脸通常没有毛发，",
+    "sourceFile": "manuscript/fr/topics/halflings-hammer-hall.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-harpers-harrowdale-haunted-halls",
+    "title": "竖琴手、哈罗谷与闹鬼大厅",
+    "titleEn": "Harpers, Harrowdale, and the Haunted Halls",
+    "group": "百科条目",
+    "excerpt": "!竖琴手、哈罗谷与闹鬼大厅原页 竖琴手 THE HARPERS 概览 AT A GLANCE 竖琴手是一个在北方活动的神秘组织，由高等级冒险者组成，尤其包括吟游诗人与游侠。这个组织的确切目标未知，人数与完整成员身份也未知，不过有几名成员颇为知名。 伊尔明斯特的笔记 ELMINSTER'S NOTES 以下内容来自暗影谷圈德鲁伊布里亚多恩，",
+    "sourceFile": "manuscript/fr/topics/harpers-harrowdale-haunted-halls.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-high-dale-hillsfar",
+    "title": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔法与山缘镇",
+    "titleEn": "Haunted Halls Continued, High Dale, High Horn, High Moor, Hill of Lost Souls, Hillsfar, and Hill's Edge",
+    "group": "百科条目",
+    "excerpt": "!闹鬼大厅、高谷、高角与高荒原原页 !失魂山、希尔法与山缘镇原页 闹鬼大厅 THE HAUNTED HALLS（续） 闹鬼大厅建在峡谷本身的峭壁中，主要大门扭曲、锈蚀，偏向一侧。 伊尔明斯特的笔记 ELMINSTER'S NOTES 闹鬼大厅长期以来一直是强盗巢穴，最近一次清剿发生在阿祖恩三世统治时期；此后一直无人占据。冒险公司后来数次袭",
+    "sourceFile": "manuscript/fr/topics/high-dale-hillsfar.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-hilp-immersea-impiltur",
+    "title": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与安皮尔图尔",
+    "titleEn": "Hilp, Hlintar, Hluthvar, Huddagh, Immersea, and Impiltur",
+    "group": "百科条目",
+    "excerpt": "!希尔普、赫林塔尔、赫卢萨尔与因默海原页 !因默海地图与索引原页 希尔普 HILP 概览 AT A GLANCE 希尔普是科米尔南部的一座小镇，没有设防，四周是起伏的农田与牧场。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这座位于因默海与苏萨尔之间的困倦村庄，以很久以前杀死或赶走侵扰当地的所有巨魔的战士命名。这里是当地农民市场",
+    "sourceFile": "manuscript/fr/topics/hilp-immersea-impiltur.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-impiltur-iriaebor-kara-tur",
+    "title": "安皮尔图尔续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团",
+    "titleEn": "Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North",
+    "group": "百科条目",
+    "excerpt": "!安皮尔图尔、伊里阿波尔与铁屋原页 安皮尔图尔 IMPILTUR（续） 安皮尔图尔的另一个近邻值得怀疑：在北方与东方的大谷地，以及纳瑟尔曾经繁盛的森林北部，住着一名强大而神秘的法师——奈提亚奇。他统治着阴沉的人类与奇异野兽；只要没有受邀者进入森林，他们就会和平共处；未经邀请的来客会直接消失。 萨姆布里尔是 17 级魔法使用者，混乱善良阵营",
+    "sourceFile": "manuscript/fr/topics/impiltur-iriaebor-kara-tur.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-knights-shield-lantan",
+    "title": "北方骑士团续文、盾之骑士团与兰坦",
+    "titleEn": "Knights of the North Continued, Knights of the Shield, and Lantan",
+    "group": "百科条目",
+    "excerpt": "!北方骑士团、盾之骑士团与兰坦原页 !兰坦王政与船只规则原页 北方骑士团 KNIGHTS OF THE NORTH（续） 伊尔明斯特的笔记 ELMINSTER'S NOTES 渡鸦堡垒最初是一座由各方共同拥有的堡垒，保护月海诸城免受兽人攻击。它最近被珍铎城接管。起初，堡垒由各月海城市共同出资、由来自整个国度的冒险者驻守并增援；在八十多个冬",
+    "sourceFile": "manuscript/fr/topics/knights-shield-lantan.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-lantan-laughing-hollow-lords-magic",
+    "title": "兰坦续文、欢笑空洞、孤寂荒原、领主联盟与魔法使用者",
+    "titleEn": "Lantan Continued, Laughing Hollow, Lonely Moor, Lords' Alliance, and Magic-Users",
+    "group": "百科条目",
+    "excerpt": "!兰坦人物、船只与规则原页 !欢笑空洞、孤寂荒原与领主联盟原页 !领主联盟与魔法使用者原页 兰坦人的外貌与活动 LANTANNA 兰坦人偏好穿黄色色调的服装，通常拥有深绿色或黑色眼睛、铜色头发，皮肤颜色像羊皮纸或旧象牙。在自己的岛上，他们穿宽松长袍并戴大遮阳帽；出海或在其他地方贸易时，则穿着一切实用的衣物。 兰坦人经常以物易物，但彼此之间",
+    "sourceFile": "manuscript/fr/topics/lantan-laughing-hollow-lords-magic.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-mages-sigils-mankind-marsember-chelimber",
+    "title": "法师印记、人类、马林博尔与切林伯沼泽",
+    "titleEn": "Mages' Sigils, Mankind, Marsember, and Marsh of Chelimber",
+    "group": "百科条目",
+    "excerpt": "!法师印记、人类与马林博尔原页 !切林伯沼泽原页 法师印记 MAGES' SIGILS 魔法使用者可以从达到足够等级的另一名法师那里获得额外魔法使用者法术，具体按《地下城主指南》的规定处理。法术在哪里学会，通常不会决定它的能力。 魔法使用者会从法术书中重新学习法术，通常维护两套法术书：一套是用于荒野旅行的便携套，另一套是存放在基地、更加庞",
+    "sourceFile": "manuscript/fr/topics/mages-sigils-mankind-marsember-chelimber.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-mercenary-companies",
+    "title": "面具之眼、梅尔万特与雇佣兵公司",
+    "titleEn": "Maskyr's Eye, Melvaunt, and Mercenary Companies",
+    "group": "百科条目",
+    "excerpt": "!面具之眼、梅尔万特与雇佣兵公司原页 !雇佣兵公司、蓝野猪骑士团与雇佣兵规则原页 面具之眼 MASKYR'S EYE 概览 AT A GLANCE 面具之眼是一座拥有 20 座主要建筑的村庄，位于巨脊山脉脚下、白龙冰川的阴影之中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个小社群主要以农耕与养马为生，目前没有高等级人物居住",
+    "sourceFile": "manuscript/fr/topics/mercenary-companies.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-mercenary-merchant-companies",
+    "title": "雇佣兵通用规则与商人公司",
+    "titleEn": "Mercenary Rules and Merchant Companies",
+    "group": "百科条目",
+    "excerpt": "!雇佣兵通用规则与商人公司原页 !商人标志与商队公司原页 雇佣兵规则 MERCENARY COMPANIES（续） 雇佣兵合同通常还会协商以下事项： 风险。 危险情形（例如高额赏金，或在战争中途走上战场）可能需要额外激励。这样的情形包括：与来自其他位面的强大生物率领的敌人战斗；与拥有魔法学校的国家战斗，例如科米尔的战斗巫师；以及攻击以记仇",
+    "sourceFile": "manuscript/fr/topics/mercenary-merchant-companies.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-mistledale-moonshae-mulmaster",
+    "title": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺",
+    "titleEn": "Mistledale, Moonsea, Moonshae Islands, Mulhorand, Mulmaster, and Myth Drannor",
+    "group": "百科条目",
+    "excerpt": "!迷雾谷、月海与月沙群岛原页 !月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺原页 迷雾谷 MISTLEDALE 概览 AT A GLANCE 迷雾谷是一片宽阔的农田空地，位于提尔弗峡口通往矗立之石的道路上。最大的社群是艾什本福特；除此之外，整个地区散布着小农场与栅寨。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个安静的农业",
+    "sourceFile": "manuscript/fr/topics/mistledale-moonshae-mulmaster.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-myth-drannor-neverwinter-nimbral",
+    "title": "迷斯·德拉诺、无冬城、奥德林与尼姆布拉",
+    "titleEn": "Myth Drannor, Neverwinter, Ordulin, and Nimbral",
+    "group": "百科条目",
+    "excerpt": "!迷斯·德拉诺约在象牙年地图与历史原页 !迷斯·德拉诺约在虫年地图与无冬城原页 迷斯·德拉诺 MYTH DRANNOR（续） 精灵史诗与人类传说都把迷斯·德拉诺描述为一座超越今日最辉煌城市的地方，甚至胜过宏伟的深水城。如今它已经失落，成为传说中的废墟。 伊尔明斯特的笔记 ELMINSTER'S NOTES 迷斯·德拉诺曾是吟游诗人、故事讲",
+    "sourceFile": "manuscript/fr/topics/myth-drannor-neverwinter-nimbral.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-north-orlumbor-pirate-isles",
+    "title": "北方、奥伦巴尔与海盗岛",
+    "titleEn": "The North, Orlumbor, and the Pirate Isles",
+    "group": "百科条目",
+    "excerpt": "!北方、奥伦巴尔与海盗岛原页 !海盗岛历史与船队规则原页 北方 THE NORTH 概览 AT A GLANCE 落日之海以东、龙湾以北的地区，延伸至剑之海，并包括月沙群岛但不包括精灵岛永聚岛，被称为“北方”。这是已知文明与非文明世界中最为人熟悉的地区。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和剑湾一样，北方的定义取决于说",
+    "sourceFile": "manuscript/fr/topics/north-orlumbor-pirate-isles.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-pirate-isles-procampur-rangers",
+    "title": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔与游侠",
+    "titleEn": "Pirate Isles Continued, Priapurl, Pros, Proskur, Procampur, and Rangers",
+    "group": "百科条目",
+    "excerpt": "!海盗岛港口防御与普罗坎普尔原页 !普罗坎普尔与游侠原页 海盗岛 THE PIRATE ISLES（续） 龙岛北港的堡垒建在狭窄港口入口西侧的峭壁中；南港堡垒则正好坐落在港口入口处。两座堡垒都配备一组神秘的萨伊巨炮。 锁港铁链。 铁链升起时，会阻止所有船只穿越港口。链环有人的身体那么粗，由铸铁制成并包铅。每座堡垒都有一条铁链。 阻船礁。 ",
+    "sourceFile": "manuscript/fr/topics/pirate-isles-procampur-rangers.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-rashemen",
+    "title": "拉舍曼",
+    "titleEn": "Rashemen",
+    "group": "百科条目",
+    "excerpt": "!拉舍曼地理、胡龙与女巫原页 !拉舍曼火酒与规则原页 拉舍曼 RASHEMEN（Rah-SHEH-men） 概览 AT A GLANCE 拉舍曼位于神秘土地萨伊以北，是已知国度最东端的地区。它东面是无数里长的岩石草原荒地，再往外是近来无人抵达、也无法抵达的传说人类王国。 拉舍曼居民是一支身材短小而肌肉发达的人类，主要和牧群一起生活，擅长雕",
+    "sourceFile": "manuscript/fr/topics/rashemen.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-raurin-scardale-scornubel",
+    "title": "拉乌林、雷丹瑟尔、塞尔伦、疤谷与斯科努贝尔",
+    "titleEn": "Raurin, Reddansyr, Saerloon, Scardale, and Scornubel",
+    "group": "百科条目",
+    "excerpt": "!拉乌林、雷丹瑟尔与疤谷原页 !疤谷与斯科努贝尔原页 拉乌林 RAURIN（ROAR-in） 概览 AT A GLANCE 拉乌林是一个近乎神话的沙漠，位于穆尔霍兰德领地之外的最东南方，是一片巨大沙海，足以吞没北方的整座国家。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和北方的阿诺洛克不同，拉乌林是一片被稀有绿洲与死去王国点缀",
+    "sourceFile": "manuscript/fr/topics/raurin-scardale-scornubel.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-scornubel-sembia",
+    "title": "斯科努贝尔商队公司、地图索引与塞姆比亚",
+    "titleEn": "Scornubel Companies, Map Key, and Sembia",
+    "group": "百科条目",
+    "excerpt": "!斯科努贝尔商队公司与塞姆比亚原页 !斯科努贝尔地图与地图索引原页 !塞姆比亚历史原页 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES（续） 便足贸易大师 Surefeet Trademasters 便足贸易大师由一个议会领导，成员是商人芬格·瑟伦布尔、阿拉玛·杜尔弗和普里斯特·瑟尔米普。公司总部位于斯科努贝尔",
+    "sourceFile": "manuscript/fr/topics/scornubel-sembia.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-shaar-shadowdale",
+    "title": "夏尔与暗影谷",
+    "titleEn": "The Shaar and Shadowdale",
+    "group": "百科条目",
+    "excerpt": "!夏尔与暗影谷地图条目原页 !暗影谷地点说明原页 !暗影谷及周边地图原页 !暗影谷地点续文原页 夏尔 THE SHAAR 概览 AT A GLANCE 夏尔是位于维尔洪湾以南遥远地区的一片广阔平原与草原。 伊尔明斯特的笔记 ELMINSTER'S NOTES 夏尔由一望无际的厚草原组成，居住着游牧民、牧民与劫掠者；据说这些人拥有强大而神秘",
+    "sourceFile": "manuscript/fr/topics/shaar-shadowdale.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-sossal-suzail-tarkhaldale",
+    "title": "索萨尔、苏泽尔与塔克哈尔谷",
+    "titleEn": "Sossal, Suzail, and Tarkhaldale",
+    "group": "百科条目",
+    "excerpt": "!索萨尔、苏巴尔与南方原页 !立石、苏尔德、苏泽尔与剑湾原页 !苏泽尔地图原页 !苏泽尔地图索引原页 !塔克哈尔谷、塔塞尔谷、泰申谷与泰瑟尔原页 索萨尔 SOSSAL（SAW-sall） 概览 AT A GLANCE 在遥远北方、大冰川另一侧的是传奇王国索萨尔。这个偏远国家是索萨尔希姆人的家园；他们是一支非常高大、金发的民族，穿着白色衣物",
+    "sourceFile": "manuscript/fr/topics/sossal-suzail-tarkhaldale.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-thar-waterdeep-way-inn",
+    "title": "泰尔至途道旅店",
+    "titleEn": "Thar to The Way Inn",
+    "group": "百科条目",
+    "excerpt": "!泰尔、泰伊与盗贼子类原页 !泰尔鲁克、瓦萨与失语谷原页 !维尔洪海湾、沃恩拉尔与深水城原页 !深水城领主、途道镇与途道旅店原页 泰尔 THAR（灰色大地 THE GREAT GREY LANDS） 概览 AT A GLANCE 泰尔的灰色大地从月海向北延伸，成为不断升高的阶地，最终抵达大冰川佩尔鲁里亚。 伊尔明斯特的笔记 ELMINST",
+    "sourceFile": "manuscript/fr/topics/thar-waterdeep-way-inn.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-westgate",
+    "title": "西门与地图索引",
+    "titleEn": "Westgate and Map Key",
+    "group": "百科条目",
+    "excerpt": "!西门条目原页 !西门地图索引原页 西门 WESTGATE 概览 AT A GLANCE 西门是一座重要的港口城市，位于连接内海（东）、剑湾（西）、安姆、泰瑟尔、北方、剑湾沿岸和遥远南方的贸易道路上。它是一座设防城市，城墙外零散建有商贸公司与较小建筑。 伊尔明斯特的笔记 ELMINSTER'S NOTES 只要人类在内海地区活动，西门就一",
+    "sourceFile": "manuscript/fr/topics/westgate.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-yellow-snake-zhentarim",
+    "title": "黄蛇隘口至泽恩塔林",
+    "titleEn": "Yellow Snake Pass to the Zhentarim",
+    "group": "百科条目",
+    "excerpt": "!尖齿森林与黄蛇隘口原页 !珍铎城与泽恩塔林网络图原页 尖齿森林 THE WOOD OF SHARP TEETH 概览 AT A GLANCE 这片森林是一座灌木丛迷宫，荨麻和荆棘纠缠其中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片广阔森林之所以得名，是因为它完全野生，并且充满对人类危险的森林生物。萨堤尔据说在这里成群居",
+    "sourceFile": "manuscript/fr/topics/yellow-snake-zhentarim.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-shadowdale-census-1",
+    "title": "暗影谷人口普查（一）",
+    "titleEn": "Shadowdale Census I",
+    "group": "附录",
+    "excerpt": "!暗影谷人口普查原页一 !暗影谷人口普查原页二 附录：暗影谷 APPENDIX: SHADOWDALE 暗影谷（本谷地社群居民记录） 以下是被称为暗影谷地区的一份人口普查摘录，列出谷地主要居民。居民条目后可能附有若干备注： - “宣誓” 表示该人已向杜斯特宣誓效忠；在所有仍活着的案例中，他们后来又向新领主莫恩格林重新宣誓。 - “发放武器",
+    "sourceFile": "manuscript/fr/topics/shadowdale-census-1.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-shadowdale-census-2",
+    "title": "暗影谷人口普查（二）",
+    "titleEn": "Shadowdale Census II",
+    "group": "附录",
+    "excerpt": "!暗影谷人口普查续页原页 暗影谷居民续录 贝斯蒂尔家续文 - 海因·贝斯蒂尔 ：农夫。已宣誓；被记载为像黄鼠狼一样、爱抱怨的男人；博斯特·贝斯蒂尔的兄弟。 - 梅尔娜·贝斯蒂尔 ：海因的妻子。 - 布里塔莉娅·“小比特”·贝斯蒂尔 、 赫尔德·贝斯蒂尔 与 克拉扬·贝斯蒂尔 ：子女；在宣誓时全部获赠匕首。 精灵树家族 - 内尔多克·精灵树",
+    "sourceFile": "manuscript/fr/topics/shadowdale-census-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-front-matter-forms",
+    "title": "角色记录表、封面与书目信息",
+    "titleEn": "Forms, Cover, and Credits",
+    "group": "附录",
+    "excerpt": "!冒险公司角色记录表原页 !《被遗忘的国度》DM 资料书封面原页 !伊尔明斯特题词原页 !目录与制作人员原页 !书册背面原页 冒险公司记录表 ADVENTURING COMPANY 标志（如有） 角色编号 玩家姓名 角色姓名 职业与等级 种族与性别 阵营 特殊能力 战斗调整值 护甲类别与类型 生命值 --- --- --- --- ---",
+    "sourceFile": "manuscript/fr/topics/front-matter-forms.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-introductions",
+    "title": "《国度 DM 资料书》导言",
+    "titleEn": "DM's Sourcebook Introductions",
+    "group": "DM资料书",
+    "excerpt": "!导言第 4 页原页 !导言第 5 页原页 埃德·格林伍德 ED GREENWOOD 诸位安好！欢迎来到我的世界：被遗忘的国度。一片辽阔土地，充满奇异的壮丽景观，是生动冒险的背景。伊尔明斯特带我最先抵达那里。 欢迎来到我们的世界。现在，国度也属于你们；这个世界近二十年来以其丰富多样令我着迷，如今呈现在这里，也会在未来的书页中继续呈现，供你",
+    "sourceFile": "manuscript/fr/topics/dm-introductions.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-using-setting",
+    "title": "使用设定与建立战役",
+    "titleEn": "Using the Setting",
+    "group": "DM资料书",
+    "excerpt": "!使用《被遗忘的国度》与战役设定原页一 !建立战役与新玩家建议原页 使用《被遗忘的国度》 USING THE FORGOTTEN REALMS 《被遗忘的国度》盒装套装是进入一个奇幻世界的介绍；它可以独立使用，也可以由 DM 为 AD&D 体系扩展。 盒装套装包括： - 一册《国度百科》； - 一册《国度 DM 资料书》； - 两张展示整",
+    "sourceFile": "manuscript/fr/topics/dm-using-setting.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-experienced-players",
+    "title": "有经验玩家与跨世界角色",
+    "titleEn": "Experienced Players and Transferred Characters",
+    "group": "DM资料书",
+    "excerpt": "!有经验玩家战役原页 !跨世界角色与冒险公司字段原页 给第一次玩游戏的玩家和 DM，推荐以下产品：N4《寻宝》为在月沙群岛以北的科林群岛建立 1 级角色提供了优秀背景；N5《伊尔法恩之下》为第一次玩游戏的玩家，在达格福德建立了初始战役设定。 有经验玩家的战役 STARTING CAMPAIGNS FOR EXPERIENCED PLAYE",
+    "sourceFile": "manuscript/fr/topics/dm-experienced-players.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-maps-movement",
+    "title": "地图、六角格与移动",
+    "titleEn": "Maps, Hex Grids, and Movement",
+    "group": "DM资料书",
+    "excerpt": "!已知国度与美国比例图原页 !地图与移动规则原页 为 AD&D 游戏建立冒险 SETTING UP FOR AD&D GAME ADVENTURES 被遗忘国度中的冒险按标准 AD&D 游戏冒险运行，使用《地下城主指南》的规则与建议，尤其是“冒险”（第 47–58 页）和“战役”（第 86–100 页）两节。下面的内容是帮助 DM 按自己",
+    "sourceFile": "manuscript/fr/topics/dm-maps-movement.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-movement-terrain",
+    "title": "地形移动与混合地形",
+    "titleEn": "Movement, Terrain, and Mixed Terrain",
+    "group": "DM资料书",
+    "excerpt": "!移动速度与地形分类原页 !混合地形与水路移动原页 骑乘移动（六角格／日） 负重 普通 N 崎岖 R 极崎岖 VR --- ---: ---: ---: 轻型马 10 4 1 中型马 7 3 1 重型马 5 2.5 1 役马 5 2.5 1 手推车 4 2.5 — 马车 4 2.5 — 《荒野生存指南》步行移动 以下为六角格／半日；斜线后",
+    "sourceFile": "manuscript/fr/topics/dm-movement-terrain.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-dm-encounters-dragons",
+    "title": "国度中的遭遇与巨龙",
+    "titleEn": "Encounters and Dragons",
+    "group": "DM资料书",
+    "excerpt": "!国度遭遇规则与遭遇表原页 !巨龙规则与驯服表原页 国度中的遭遇 ENCOUNTERS IN THE REALMS 穿越乡野的个人或队伍可能在途中遇到各种未计划的冒险。这些随机遭遇可能帮助或妨碍玩家角色的最终目标，也可能本身就构成一晚的冒险。本节讨论如何判断哪里会出现什么生物，以及 DM 如何为自己的地区制作随机遭遇表。 当玩家角色穿越已",
+    "sourceFile": "manuscript/fr/topics/dm-encounters-dragons.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-selected-npcs-1",
+    "title": "国度中的重要 NPC（一）",
+    "titleEn": "Selected NPCs of the Realms I",
+    "group": "附录",
+    "excerpt": "Selected NPCs of the Realms 国度是一个活着、不断成长的世界，是提供 NPC 的极佳背景。这里有数以千计的人物，他们拥有姓名、事迹、性情与历史；玩家角色只是其中一小部分，却是重要的一部分。更重要的是，这些人物就是国度本身。若把这样的人口主体写入书中，即使像这里一样压缩呈现，也会成为一部巨大而令人难以阅读的书。 下",
+    "sourceFile": "manuscript/fr/topics/selected-npcs.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-selected-npcs-2",
+    "title": "国度中的重要 NPC（二）",
+    "titleEn": "Selected NPCs of the Realms II",
+    "group": "附录",
+    "excerpt": "Elminster（续） Elminster 已经去世的老师是五百多年前死于深水城的那位贤者；在那个魔法领域最后的岁月里，他曾身处迷斯·德拉诺附近。贤者目前住在暗影谷这个小小的农耕社区，在一所俯瞰鱼塘的两层房屋中，与他的助手和抄写员拉埃欧同住。 Elminster 或许是国度中知识最渊博、消息最灵通的人；这也可能只是他自己的看法，不过他在",
+    "sourceFile": "manuscript/fr/topics/selected-npcs-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-selected-npcs-3",
+    "title": "国度中的重要 NPC（三）",
+    "titleEn": "Selected NPCs of the Realms III",
+    "group": "附录",
+    "excerpt": "Khelben “黑杖”·阿伦松（续） Khelben 的更完整资料见《FR1：深水城与北方》。他身高约六英尺，肌肉发达，留着胡子，发际线后移，黑发夹杂白发，举止高贵。他极其睿智却不自负，对北方人类自脱离蛮荒以来所实践的魔法历史、传说与传统都十分精通。 Korth 据点： 塞姆比亚。 等级／职业： 5 级战士。 阵营／信仰： 混乱中立，坦",
+    "sourceFile": "manuscript/fr/topics/selected-npcs-3.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-selected-npcs-4",
+    "title": "国度中的重要 NPC（四）",
+    "titleEn": "Selected NPCs of the Realms IV",
+    "group": "附录",
+    "excerpt": "Osper Linthalam（续） Osper 秃顶，胡子和浓密眉毛已经变白；他戴着许多戒指，其中一些可能是魔法物品。 Perendra（Per-EN-drah） 据点： 沃恩拉尔。 6 级魔法使用者。 阵营／信仰： 混乱善良，密斯特拉与泰莫拉。 种族／性别： 人类女性。 这位神秘女士出身高贵，是泰瑟尔一个在内战中失散的贵族家庭后裔。她",
+    "sourceFile": "manuscript/fr/topics/selected-npcs-4.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-selected-npcs-5",
+    "title": "国度中的重要 NPC（五）",
+    "titleEn": "Selected NPCs of the Realms V",
+    "group": "附录",
+    "excerpt": "Vangerdahast（续） Vangerdahast 是科米尔的皇家魔法师、紫龙的宫廷巫师，也是苏泽尔法师委员会的首领。他是一个中年、略胖、留白胡子的男人，性情和善却严肃，一生忠于 Azoun；他是 Azoun 童年时代的导师之一，教导历史、科米尔家系以及魔法事务。 Vangerdahast 在国王年轻时帮助过他，并在整个统治期间支持",
+    "sourceFile": "manuscript/fr/topics/selected-npcs-5.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-recent-news-rumors-1",
+    "title": "国度近期新闻与传闻（一）",
+    "titleEn": "Recent News and Rumors I",
+    "group": "附录",
+    "excerpt": "Recent News and Rumors in the Realms 本节收录过去两年传入北方国度居民耳中的一些消息，即虫年与王子年。这些新闻片段并不完整，有时也略不准确；它们按原本传开的方式记录，用来表现国度的气息，让人感到它是一个活着、不断变化的世界，而不是一份事件年表或严格的历史记录。 事件大致按消息传开、并为人所知的月份排列。",
+    "sourceFile": "manuscript/fr/topics/recent-news-rumors.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-recent-news-rumors-2",
+    "title": "国度近期新闻与传闻（二）",
+    "titleEn": "Recent News and Rumors II",
+    "group": "附录",
+    "excerpt": "Takh（四月） - 龙矛城堡燃烧的废墟周围，开放荒原上的残酷战斗仍在继续。一团具有魔法性质的雾已经升起并笼罩这片土地；雾中仍有小队人类和恶魔交战。附近的商队旅行已经停止，南行路线改走博德之门。安姆军队聚集在北方边境，却没有向战场移动。有人传言凯尔本的魔法无法驱散这团奇怪的雾。凶恶的恶魔尸体已经被抬过城市街道，人们担心九层地狱与我们世界之",
+    "sourceFile": "manuscript/fr/topics/recent-news-rumors-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-recent-news-rumors-3",
+    "title": "国度近期新闻与传闻（三）",
+    "titleEn": "Recent News and Rumors III",
+    "group": "附录",
+    "excerpt": "Nightal（十二月，续） - 三艘船全部无影无踪。它们是本季最早离港的船只之一；在航季开始的前两个十日里失踪如此多船只，极其令人不安。 - 消失的船只包括：独立帆船“鼠爪号”，由塞尔伦的 Strauph Omerehellin 船长指挥，装载来自南方城市、准备运往月海城市的椰枣、坚果和橄榄油；它十四天前离开塞尔伦，六天前本应抵达希尔法",
+    "sourceFile": "manuscript/fr/topics/recent-news-rumors-3.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-recent-news-rumors-4",
+    "title": "国度近期新闻与传闻（四）",
+    "titleEn": "Recent News and Rumors IV",
+    "group": "附录",
+    "excerpt": "Uktar（十一月） - 珍铎城的军队从希尔法手中夺取了一个储藏矿石、宝石和龙鳞的地点；希尔法方面把失败归因于突袭，但后来出现了高等巫术介入的报告，包括大地本身长出手臂并攻击熟睡的军队。希尔法部队溃退，珍铎城很可能会控制该城直到春季。乌鸦堡垒的工作队据说正在被运往尤拉什，帮助修筑防御阵地。 - “蓝钻石”号是一艘在遥远东方某处制造的魔法飞",
+    "sourceFile": "manuscript/fr/topics/recent-news-rumors-4.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-1",
+    "title": "国度魔法书（一）",
+    "titleEn": "Books of the Forgotten Realms I",
+    "group": "资源附录",
+    "excerpt": "Books of the Forgotten Realms 以下是国度中一些重要魔法书的描述。它们按外观、历史和内容说明；若某本书包含新的或独有的法术，也用《玩家手册》的标准格式列出。 Nchaser 的《Eiyromancia》 外观 这本书很薄，用黑皮革装订，封面上压印并嵌有珍珠母制成的书名“Eiyromancia”。书边整体用锤打铜",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-1.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-2",
+    "title": "国度魔法书（二）",
+    "titleEn": "Books of the Forgotten Realms II",
+    "group": "资源附录",
+    "excerpt": "《银爪之书》续文 书中第二十三页在 Casimur 取得它时超出他的掌握范围，包含把火焰法术强化为火焰射线的笔记。法术持续两轮；第一轮造成施法者等级加 1 的伤害，第二轮造成施法者等级一半的伤害，并按前文所述受口头成分控制。 Chambeeleon 外观 这本书极其华美。封面是抛光、带彩虹光泽的鲍鱼壳片，以锤打金包边和包角；书页由抛光金制",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-2.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-3",
+    "title": "国度魔法书（三）",
+    "titleEn": "Books of the Forgotten Realms III",
+    "group": "资源附录",
+    "excerpt": "Nathlum 续文：毒药 Huld（又称“跃动”或“死亡之舞”） Huld 是无味油，对非类人生物有效，但对半人类和人类无效，只能通过侵入方式使用。无论剂量如何，效果相同，在涂抹后 1–4 轮出现；豁免则不受伤害。它造成剧烈肌肉痉挛，伴随恶心、运动控制丧失、失衡和失语，持续 1–6 轮。期间受害者无助，却并不是容易进行肉体攻击的目标，因",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-3.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-4",
+    "title": "国度魔法书（四）",
+    "titleEn": "Books of the Forgotten Realms IV",
+    "group": "资源附录",
+    "excerpt": "Bowgentle 的书 外观与历史 这本书由两块黑色板岩构成，外侧雕刻着人类与巨龙相对的图案。若干额外页面似乎被撕掉。封面图案在前后封面和书脊上连续展开，只在书脊处中断；封面中央有一块凸起的椭圆金属板。 银月城的 Bowgentle 是一位言谈温和、举止优雅的法师，在北方和剑湾诸城受到爱戴。他认为魔法属于所有人，所有人都应受益。传奇把许",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-4.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-5",
+    "title": "国度魔法书（五）",
+    "titleEn": "Books of the Forgotten Realms V",
+    "group": "资源附录",
+    "excerpt": "Num 的祷告书（续） Briartangle（荆棘缠绕，变化） 等级： 4。 射程： 每等级 1 英寸（从施法者到选定法术焦点的距离）。 持续时间： 每等级 1 轮。 作用范围： 特殊。 成分： V、S、M。 施法时间： 6 个轮。 豁免： 减半。 荆棘缠绕会把活灌木或任何下层植被瞬间变成密集、纠缠、最棘手的荆棘，长到 6 英尺高，水平",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-5.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-6",
+    "title": "国度魔法书（六）",
+    "titleEn": "Books of the Forgotten Realms VI",
+    "group": "资源附录",
+    "excerpt": "Sabirine 的《Specular》 外观 这是一本大而沉重的书。薄薄的乌木片上，用大型黄铜包角固定着最薄的苏斯木板；书板上又贴有薄黑色大理石片。 历史与描述 Sabirine 是很久以前的一名法师，曾参与北方的探索；如今北方商贩与旅人的炉边传说中，还能听到她的冒险故事。她在荒野各处的藏身处和常去地点编纂、隐藏法术书，而这本名为《Sp",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-6.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-7",
+    "title": "国度魔法书（七）",
+    "titleEn": "Books of the Forgotten Realms VII",
+    "group": "资源附录",
+    "excerpt": "《战争之红书》中的祷文 除下文详述的独有祷文外，《战争之红书》依次收录以下牧师法术；这些独有祷文专属于 Tempus 的牧师，其他神祇是否会以相同方式听见并回应它们，不得而知： bless、command、cure light wounds、detect magic、remove fear、augury、chant、hold person",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-7.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-8",
+    "title": "国度魔法书（八）",
+    "titleEn": "Books of the Forgotten Realms VIII",
+    "group": "资源附录",
+    "excerpt": "Aubayreer 的工作册（Aubayreer’s Workbook） 外观 这本书由一长条绿色的 hexel 树皮制成，反复折叠成手风琴状。它被夹在两块长方形涂油木板之间，以麻绳固定并保护。木板之一刻有如下符文；正是凭借这个符文，才能辨认出这本作品属于法师 Aubayreer。 历史与描述 Aubayreer 是谷地诸国定居早期的一名",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-8.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-9",
+    "title": "国度魔法书（九）",
+    "titleEn": "Books of the Forgotten Realms IX",
+    "group": "资源附录",
+    "excerpt": "The Scalamagdrion 的内容与守护者 内容 Elminster 根据 Hethcanter 的详尽笔记描述了这部书的内容如下。 The Scalamagdrion 的第一页和最后一页是空白的。其余页面上有 23 道法术，每页一道，且每页背面为空白；另有一页只包含一幅奇怪的插图。页面从书前向后的顺序是：空白、write、era",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-9.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-books-forgotten-realms-10",
+    "title": "国度魔法书（十）",
+    "titleEn": "Books of the Forgotten Realms X",
+    "group": "资源附录",
+    "excerpt": "Stealspell 余文与 Shoon 被盗的法术可以在施法者施放时不需要材料成分，甚至不需要理解或达到足以施放它的等级。捕获法术不会揭示被盗法术的身份。以这种方式施放的法术，视为由法术被偷走的那个生物的等级施放。灵能能力不能以这种方式被偷走。 被盗法术在一轮结束时转移。如果目标正在施放一道法术，则该法术不会被偷走。被盗法术可以保留，而",
+    "sourceFile": "manuscript/fr/topics/books-of-forgotten-realms-10.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-backmatter-index-and-random-chart",
+    "title": "后置索引与随机怪物图表",
+    "titleEn": "Backmatter Index and Random Monster Chart",
+    "group": "后置资源",
+    "excerpt": "《国度百科全书》与《国度 DM 资料书》合并索引 第 195–196 页是本套资料的合并索引，涵盖《国度百科全书》和《国度 DM 资料书》。原书以粗体印刷的词条或页码指向《国度 DM 资料书》；粗斜体词条指向新法术。索引中的英文专名与页码必须原样保留，以便与原书、地图及本站的英文检索键对应；本站显示时同时使用已经登记的中文译名。 索引逐项",
+    "sourceFile": "manuscript/fr/topics/backmatter-index-and-random-chart.md"
+  },
+  {
+    "book": "fr",
+    "slug": "fr-maps-and-back-cover",
+    "title": "地图、图板与封底",
+    "titleEn": "Maps, Plates, and Back Cover",
+    "group": "后置资源",
+    "excerpt": "原书后置图像页 PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、Moonsea、Dalelands、Cormyr、Sembia、剑湾及其周边区域的全彩地图、区域放大图、道路与河流标注、城镇与遗迹位置、比例信息和图例。第206页与第216页为原书的空白／彩色地图页，保留原始页面，不将空白误识为缺页。 PDF 第19",
+    "sourceFile": "manuscript/fr/topics/maps-and-back-cover.md"
+  },
+  {
     "book": "mm",
     "slug": "mm-merman",
     "title": "人鱼",
