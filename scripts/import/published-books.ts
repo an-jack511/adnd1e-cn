@@ -7,7 +7,7 @@ import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { basename, dirname, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 
-const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'dl-atlas', 'ilh', 'fr', 'gha'] as const;
+const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'dl-atlas', 'ilh', 'fr', 'gha', 'gh-folio'] as const;
 type BookId = typeof bookIds[number];
 type Topic = { slug: string; title: string; title_en?: string; group?: string; page?: string; file: string };
 type PublishedTopic = { book: BookId; slug: string; title: string; titleEn: string; group: string; excerpt: string; sourceFile: string };
@@ -211,10 +211,10 @@ for (const book of bookIds) {
     const titleEn = topic?.title_en ?? '';
     const group = topic?.group ?? (file.startsWith('appendix-') ? '附录续页' : '补充篇页');
     let markdown = raw.replace(/^#\s+.+\r?\n/, '');
-    if (book === 'fr' || book === 'gha') {
+    if (book === 'fr' || book === 'gha' || book === 'gh-folio') {
       markdown = markdown.replace(/!\[([^\]]*)\]\(asset:([^)]*)\)/g, (_match, alt: string, asset: string) => {
         const assetName = basename(asset);
-        const assetFolder = book === 'gha' ? 'greyhawk-adventures' : '';
+        const assetFolder = book === 'gha' ? 'greyhawk-adventures' : book === 'gh-folio' ? 'gh-folio' : '';
         const source = join(sourceAssetRoot, assetFolder, assetName);
         const destination = join(publicAssetRoot, book, assetName);
         pendingFrAssets.set(`${book}/${assetName}`, { source, destination });
