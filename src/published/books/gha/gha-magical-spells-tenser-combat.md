@@ -79,6 +79,8 @@
 
 ### Tenser 的重击法杖术（变化系）
 
+![冒险者在室内交锋，原书 PDF 第 70 页裁片](/assets/books/gha/gha_tenser_staff_smiting_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 等级 | 4 |
