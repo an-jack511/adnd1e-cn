@@ -1,6 +1,8 @@
 
 ## 奈罗夫·加斯加尔 Nerof Gasgal
 
+![奈罗夫·加斯加尔在灰鹰城的市政厅接见来访者，原书 PDF 第 35 页裁片](/assets/books/gha/gha_nerof_gasgal_illustration.png)
+
 <strong>灰鹰自由城的市长</strong>
 
 | 项目 | 数据 |
