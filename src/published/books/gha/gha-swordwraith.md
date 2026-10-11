@@ -1,6 +1,8 @@
 
 ## 剑魂 Swordwraith
 
+![剑魂在古战场的遭遇，原书 PDF 第 32 页裁片](/assets/books/gha/gha_swordwraith_illustration.png)
+
 *（斯塔克丘陵亡灵精魂）*
 
 | 项目 | 数据 |

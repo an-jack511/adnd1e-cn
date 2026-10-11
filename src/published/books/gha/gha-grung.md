@@ -1,6 +1,8 @@
 
 ## Grung
 
+![沼泽中的 Grung 与冒险者，原书 PDF 第 28 页裁片](/assets/books/gha/gha_grung_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 气候／地形 | 热带和亚热带沼泽 |
