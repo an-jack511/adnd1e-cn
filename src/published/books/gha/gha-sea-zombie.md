@@ -1,6 +1,8 @@
 
 ## 海尸 Sea Zombie（“溺亡者”）
 
+![海尸出现于水下，原书 PDF 第 33 页裁片](/assets/books/gha/gha_sea_zombie_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 气候／地形 | 沿海浅水区，咸水和淡水 |

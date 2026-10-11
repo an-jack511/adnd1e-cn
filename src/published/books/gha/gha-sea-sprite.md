@@ -1,6 +1,8 @@
 
 ## 海精灵 Sea Sprite
 
+![海精灵与水下冒险者，原书 PDF 第 31 页裁片](/assets/books/gha/gha_sea_sprite_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 气候／地形 | 热带海洋 |
