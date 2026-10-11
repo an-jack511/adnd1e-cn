@@ -3,6 +3,8 @@
 
 ### Korenth Zan
 
+![窗边的两名人物，原书 PDF 第 45 页裁片](/assets/books/gha/gha_korenth_zan_illustration.png)
+
 <strong>服从之父——绯红兄弟会</strong>
 
 | 项目 | 数据 |

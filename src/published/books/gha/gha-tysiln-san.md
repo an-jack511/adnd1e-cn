@@ -1,6 +1,8 @@
 
 ## Tysiln San
 
+![星空下张开双臂的施法者，原书 PDF 第 44 页裁片](/assets/books/gha/gha_tysiln_san_mage_illustration.png)
+
 <strong>法师谷第一守护者</strong>
 
 | 项目 | 数据 |
