@@ -3,6 +3,10 @@
 
 ### Karll of Urnst
 
+![骑士率领队伍出征，原书 PDF 第 46 页裁片](/assets/books/gha/gha_karll_of_urnst_illustration.png)
+
+![骑士与同伴在崖边迎战敌人，原书 PDF 第 47 页裁片](/assets/books/gha/gha_tang_horrific_raid_illustration.png)
+
 <strong>乌恩斯特公爵</strong>
 
 | 项目 | 数据 |

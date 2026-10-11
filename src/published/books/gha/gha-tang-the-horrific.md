@@ -1,6 +1,8 @@
 
 ## Tang the Horrific
 
+![草原游牧者与骆驼，原书 PDF 第 48 页裁片](/assets/books/gha/gha_tang_horrific_nomad_illustration.png)
+
 <strong>部族王子——干燥草原</strong>
 
 | 项目 | 数据 |
