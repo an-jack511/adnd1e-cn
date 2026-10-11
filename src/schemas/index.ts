@@ -32,7 +32,7 @@ export const MonsterSchema = z.object({
   nameEn: z.string(),
   frequency: z.string(),
   numberAppearing: z.string(),
-  armorClass: z.number(),
+  armorClass: z.number().nullable(),
   armorClassText: z.string().optional(),
   movement: z.string(),
   hitDice: z.string(),

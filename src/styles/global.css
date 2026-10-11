@@ -1,10 +1,11 @@
 * { box-sizing: border-box; }
 html { background: #fff; }
 body { margin: 0; background: #fff; color: #222; font: 15px/1.48 Georgia, 'Times New Roman', '宋体', SimSun, serif; }
-a:link { color: #0000aa; text-decoration: underline; }
-a:visited { color: #551a8b; }
-a:active { color: #c00; }
-a:hover { text-decoration: underline; }
+a:link { color: #6b1d1d; text-decoration: none; }
+a:visited { color: #5a2a2a; text-decoration: none; }
+a:active { color: #a00000; }
+a:hover { color: #8a2020; text-decoration: underline; text-underline-offset: 2px; }
+a:focus-visible { outline: 1px dotted #6b1d1d; outline-offset: 2px; }
 button, input, select, textarea { font: 13px Arial, '宋体', SimSun, sans-serif; color: #111; }
 button, .button { border: 1px solid #888; border-radius: 0; background: #eee; padding: 2px 7px; cursor: pointer; }
 input, select, textarea { border: 1px solid #888; border-radius: 0; background: #fff; padding: 2px 3px; }
@@ -49,6 +50,16 @@ li { margin: 1px 0; }
 .home-directory th, .home-directory td { text-align: left; vertical-align: top; border-bottom: 1px dotted #bbb; padding: 3px 5px 3px 0; }
 .home-directory th { width: 85px; white-space: nowrap; }
 .home-directory a { margin-right: 6px; white-space: nowrap; }
+.play-path { margin: 6px 0 12px; padding-left: 28px; }
+.play-path li { padding: 2px 0; }
+.play-directory th { width: 115px; }
+.play-directory td { color: #444; }
+.play-guide > nav { border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; padding: 4px 0; margin: 7px 0 10px; font-size: 13px; }
+.play-guide > nav a { margin-right: 12px; white-space: nowrap; }
+.play-guide .sequence { margin-top: 5px; }
+.play-guide .guide-section { border-top: 1px dotted #aaa; padding-top: 3px; }
+.play-guide .guide-section h2 { border-bottom: 0; margin-top: 10px; }
+.play-guide .guide-links { margin: 4px 0 2px; }
 .updates { padding-left: 24px; font-size: 13px; }
 .updates time { color: #555; font-family: Verdana, Arial, sans-serif; font-size: 12px; margin-right: 8px; }
 .book-links { margin: 4px 0; }
@@ -120,6 +131,8 @@ li { margin: 1px 0; }
 .book-cover img { display: block; width: 100%; height: auto; border: 1px solid #aaa; }
 .book-cover figcaption { margin-top: 3px; color: #555; font-size: 12px; }
 .book-body { overflow-x: auto; margin-top: 10px; }
+.book-body img { display: block; max-width: 100%; height: auto; margin: 8px auto; }
+.book-article[data-book='gha'] .book-body img { max-height: 560px; width: auto; }
 .book-body h2 { font-size: 17px; }
 .book-body h3 { font-size: 15px; }
 .book-body h4 { font-size: 14px; margin: 9px 0 3px; }

@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { classes } from '../../data/public/classes';
 import { races } from '../../data/public/races';
 import { items } from '../../data/public/items';
+import { spells } from '../../data/public/spells';
 const abilities = [
   ['STR', '力量'], ['INT', '智力'], ['WIS', '感知'],
   ['DEX', '敏捷'], ['CON', '体质'], ['CHA', '魅力']
@@ -14,27 +15,31 @@ const armorItems = items.filter((item) => item.category === '护甲' && ['皮甲
 const shieldItems = items.filter((item) => item.category === '护甲' && /盾/.test(item.nameZh));
 const weaponItems = items.filter((item) => item.category === '武器');
 const carryItems = items.filter((item) => item.category !== '魔法物品');
+const ruleSources = [...new Set([...classes, ...races, ...items, ...spells].flatMap((entry) => entry.source.map((source) => source.book)))].sort();
+const sourceLabel = (entry) => [...new Set(entry.source.map((source) => source.book))].join('、');
 ---
 <BaseLayout title="快速车卡">
   <h1>快速车卡</h1>
   <p class="lede">人物记录 · 属性、战斗、装备、经历与随从 · <a href="/character/abilities/">PHB 属性表</a></p>
+  <p class="notice"><strong>规则范围：</strong>本页同时收录核心与扩展资料。先勾选本战役启用的规则书；来源标签不是兼容性保证，战役专用种族与职业仍需 DM 核准。</p>
   <form id="character-form" class="record-sheet">
     <input type="hidden" name="character_id" />
+    <input type="hidden" name="campaign_sources" />
     <section class="character-actions" aria-label="车卡操作"><h2>保存与导出</h2>
       <button type="button" id="new-character">新建</button>
-      <button type="button" id="roll-3d6">随机 3d6</button><button type="button" id="roll-4d6">随机 4d6 去最低</button>
       <button type="button" id="save-character">保存</button>
       <select id="saved-characters" aria-label="浏览器保存的人物"><option value="">选择已保存的人物</option></select>
       <button type="button" id="load-character">加载</button><button type="button" id="copy-character">复制</button><button type="button" id="delete-character">删除</button>
       <button type="button" id="export-character">导出 JSON</button><label class="button" for="import-character">导入 JSON</label><input id="import-character" class="visually-hidden" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 导出 PDF</button>
       <p id="character-status" class="small muted" role="status"></p>
     </section>
+    <fieldset class="screen-only"><legend>本战役启用的角色规则来源</legend>{ruleSources.map((source) => <label><input class="rule-source" type="checkbox" value={source} checked={['PHB', 'DMG', 'MM'].includes(source)} /> {source}</label>)}<p class="small">默认仅启用核心来源。扩展资料仍可检索；勾选后才进入本角色的选择器。配置会保存在浏览器和角色导出文件中。</p></fieldset>
     <section class="sheet-page" aria-label="人物卡正面">
       <h2>角色记录 · 正面</h2>
       <div class="sheet-identity">
         <label>姓名<input name="name" autocomplete="off" /></label>
-        <label>种族<select name="race"><option value="">请选择</option>{races.map((race) => <option value={race.id}>{race.nameZh}</option>)}</select></label>
-        <label>职业<select name="class"><option value="">请选择</option>{classes.map((entry) => <option value={entry.id}>{entry.nameZh}</option>)}</select></label>
+        <label>种族<select name="race"><option value="">请选择</option>{races.map((race) => <option value={race.id} data-rule-sources={sourceLabel(race)}>{race.nameZh}［{sourceLabel(race)}］</option>)}</select></label>
+        <label>职业<select name="class"><option value="">请选择</option>{classes.map((entry) => <option value={entry.id} data-rule-sources={sourceLabel(entry)}>{entry.nameZh}［{sourceLabel(entry)}］</option>)}</select></label>
         <label>等级<input name="level" type="number" min="1" value="1" /></label>
         <label>阵营<select name="alignment"><option value="">请选择</option>{[['LG','守序善良'],['NG','中立善良'],['CG','混乱善良'],['LN','守序中立'],['TN','绝对中立'],['CN','混乱中立'],['LE','守序邪恶'],['NE','中立邪恶'],['CE','混乱邪恶']].map(([code, name]) => <option value={code}>{name}</option>)}</select></label>
         <label>经验值<input name="xp" inputmode="numeric" /></label>
@@ -59,19 +64,19 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
             <label><input name="move_terrain" type="checkbox" /> 地形使移动减半（DM）</label><br />
             <label>其他调整 <input name="move_adjustment" type="number" step="0.5" value="0" /> 寸</label><br />
             <label><input name="manual_movement" type="checkbox" /> 手动覆盖实际移动率</label></div><p id="movement-breakdown" class="small"></p></section>
-        <section><h3>护甲 Armor</h3><div class="sheet-pairs"><label>护甲<select name="armor_item"><option value="">无甲</option>{armorItems.map((item) => <option value={item.id}>{item.nameZh}</option>)}</select></label><label>盾牌<select name="shield_item"><option value="">无盾</option>{shieldItems.map((item) => <option value={item.id}>{item.nameZh}</option>)}</select></label><label>AC<input name="ac" readonly /></label><label>DM 调整<input name="ac_modifier" type="number" value="0" /></label><label>突袭时<input name="ac_surprised" /></label><label>无盾<input name="ac_shieldless" /></label><label>背后<input name="ac_rear" /></label></div><label class="small screen-only"><input type="checkbox" name="manual_ac" /> 手动覆盖 AC</label><p id="ac-breakdown" class="small"></p></section>
+        <section><h3>护甲 Armor</h3><div class="sheet-pairs"><label>护甲<select name="armor_item"><option value="">无甲</option>{armorItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></label><label>盾牌<select name="shield_item"><option value="">无盾</option>{shieldItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></label><label>AC<input name="ac" readonly /></label><label>DM 调整<input name="ac_modifier" type="number" value="0" /></label><label>突袭时<input name="ac_surprised" /></label><label>无盾<input name="ac_shieldless" /></label><label>背后<input name="ac_rear" /></label></div><label class="small screen-only"><input type="checkbox" name="manual_ac" /> 手动覆盖 AC</label><p id="ac-breakdown" class="small"></p></section>
         <section><h3>生命值 Hit Points</h3><div class="sheet-pairs"><label>最大 HP<input name="hp_max" inputmode="numeric" /></label><label>当前 HP<input name="hp_current" inputmode="numeric" /></label></div><label class="sheet-line">伤势记录<textarea name="wounds" rows="2"></textarea></label></section>
       </div>
 
       <h3>武器与攻击 Weapon Combat</h3>
-      <div class="table-wrap"><table class="data-table sheet-weapons"><thead><tr><th>武器</th><th>每轮攻击</th><th>命中调整</th><th>伤害调整</th><th>THAC0</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>射程／备注</th></tr></thead><tbody>{weapons.map((index) => <tr><td><select name={`weapon_${index}_name`} aria-label={`第 ${index + 1} 件武器`}><option value="">—</option>{weaponItems.map((item) => <option value={item.id}>{item.nameZh}</option>)}</select></td>{['attacks','hit','damage_adj','thac0','sm','large','speed','notes'].map((key) => <td><input name={`weapon_${index}_${key}`} aria-label={`第 ${index + 1} 件武器 ${key}`} /></td>)}</tr>)}</tbody></table></div>
+      <div class="table-wrap"><table class="data-table sheet-weapons"><thead><tr><th>武器</th><th>每轮攻击</th><th>命中调整</th><th>伤害调整</th><th>THAC0</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>射程／备注</th></tr></thead><tbody>{weapons.map((index) => <tr><td><select name={`weapon_${index}_name`} aria-label={`第 ${index + 1} 件武器`}><option value="">—</option>{weaponItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></td>{['attacks','hit','damage_adj','thac0','sm','large','speed','notes'].map((key) => <td><input name={`weapon_${index}_${key}`} aria-label={`第 ${index + 1} 件武器 ${key}`} /></td>)}</tr>)}</tbody></table></div>
       <div class="sheet-pair-notes"><label>特殊攻击<textarea name="special_attacks" rows="2"></textarea></label><label>弹药／消耗品<textarea name="ammunition" rows="2"></textarea></label></div>
 
       <h3>徒手战斗 Unarmed Combat</h3>
       <div class="sheet-pairs sheet-unarmed"><label>方式<input name="unarmed_style" /></label><label>攻击形式<input name="unarmed_form" /></label><label>命中／伤害<input name="unarmed_adjustment" /></label><label>效果／备注<input name="unarmed_effect" /></label></div>
       <div class="sheet-triple"><label>魔法物品<textarea name="magic_items" rows="4"></textarea></label><label>熟练项／技艺<textarea name="proficiencies" rows="4"></textarea></label><label>特殊能力<textarea name="special_abilities" rows="4"></textarea></label></div>
       <h3>法术 Spells</h3>
-      <p class="small">准备／记忆法术按职业从法术资料库选择；可用环级与法术位仍须核对职业等级表。</p>
+      <p class="small">此处暂作记录，不代表完成起始法术取得程序。魔法师与幻术师的随机起始法术、法术书和今日记忆必须分别处理。</p>
       <div class="sheet-pairs">{[0, 1, 2, 3].map((index) => <label>第 {index + 1} 个法术<select name={`spell_${index}`} class="spell-choice"><option value="">—</option></select></label>)}</div>
       <label class="sheet-line">法术书／祈祷记录<textarea name="spellbook_notes" rows="3"></textarea></label>
     </section>
@@ -111,6 +116,11 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
     const abilities = ['STR', 'INT', 'WIS', 'DEX', 'CON', 'CHA'];
     const weapons = [0, 1, 2, 3];
     const gear = [0, 1, 2, 3, 4, 5, 6];
+    const sourceChecks = [...document.querySelectorAll('.rule-source')];
+    const enabledSources = () => new Set(sourceChecks.filter((input) => input.checked).map((input) => input.value));
+    const entryEnabled = (entry) => entry?.source.some((source) => enabledSources().has(source.book));
+    const saveCampaignProfile = () => { const sources = [...enabledSources()]; form.elements.campaign_sources.value = JSON.stringify(sources); localStorage.setItem('adnd1e-campaign-profile', JSON.stringify({ sources })); };
+    const applyCampaignSources = (sources) => { const selected = new Set(Array.isArray(sources) ? sources : []); for (const input of sourceChecks) input.checked = selected.has(input.value); saveCampaignProfile(); };
     let lastSpellClass = '';
     const updateSpellOptions = (classId) => {
       if (lastSpellClass === classId) return;
@@ -118,8 +128,8 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
       for (const select of form.querySelectorAll('.spell-choice')) {
         const previous = select.value;
         const options = [new Option('—', '')];
-        for (const spell of spells.filter((entry) => spellClass && entry.classes.includes(spellClass))) options.push(new Option(`${spell.level}环 ${spell.nameZh} / ${spell.nameEn}`, spell.id));
-        if (previous && !options.some((option) => option.value === previous)) { const old = spells.find((entry) => entry.id === previous); options.push(new Option(`${old?.nameZh ?? previous}（当前职业不可用）`, previous)); }
+        for (const spell of spells.filter((entry) => spellClass && entry.classes.includes(spellClass) && entryEnabled(entry))) options.push(new Option(`${spell.level}环 ${spell.nameZh} / ${spell.nameEn}［${spell.source.map((source) => source.book).join('、')}］`, spell.id));
+        if (previous && !options.some((option) => option.value === previous)) { const old = spells.find((entry) => entry.id === previous); options.push(new Option(`${old?.nameZh ?? previous}（职业或规则来源当前不可用）`, previous)); }
         select.replaceChildren(...options);
         select.value = previous;
       }
@@ -134,15 +144,20 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
       const race = races.find((entry) => entry.id === character.race);
       const classEntry = classes.find((entry) => entry.id === character.class);
       updateSpellOptions(character.class);
+      for (const option of form.querySelectorAll('option[data-rule-sources]')) { const allowed = option.dataset.ruleSources.split('、').some((source) => enabledSources().has(source)); option.disabled = option.selected ? false : !allowed; }
       const candidate = { raceId: character.race, classId: character.class, alignment: character.alignment, abilities: character };
       const classSelect = form.elements.class;
       for (const option of classSelect.options) {
         if (!option.value) continue;
+        const entry = classes.find((item) => item.id === option.value);
         const reasons = checkEligibility({ ...candidate, classId: option.value }, classes, races);
-        option.disabled = !character.dm_override && option.value !== character.class && reasons.length > 0;
+        const sourceDisabled = !entryEnabled(entry);
+        option.disabled = option.value !== character.class && (sourceDisabled || (!character.dm_override && reasons.length > 0));
         option.title = reasons.map((issue) => issue.message).join('；');
-        option.textContent = `${classes.find((entry) => entry.id === option.value)?.nameZh ?? option.value}${reasons.length ? '（不符合条件）' : ''}`;
+        const books = entry?.source.map((source) => source.book).join('、') ?? '来源待补';
+        option.textContent = `${entry?.nameZh ?? option.value}［${books}］${sourceDisabled ? '（规则书未启用）' : reasons.length ? '（不符合条件）' : ''}`;
       }
+      for (const option of form.elements.race.options) { if (!option.value) continue; const entry = races.find((item) => item.id === option.value); option.disabled = option.value !== character.race && !entryEnabled(entry); }
       const armor = items.find((item) => item.id === character.armor_item);
       const shield = items.find((item) => item.id === character.shield_item);
       const weapon = items.find((item) => item.id === character.weapon_0_name);
@@ -165,21 +180,20 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
       document.querySelector('#encumbrance-result').textContent = `已知总负重 ${(encumbrance.value + coins / 10).toFixed(1)} 磅；移动 ${character.manual_movement ? form.elements.move_loaded.value : `${movement.effective}"`}。${[...encumbrance.unknown, ...unlistedGear].length ? `未能计重：${[...encumbrance.unknown, ...unlistedGear].join('、')}。` : ''}`;
       const issues = [...checkEligibility(candidate, classes, races), ...weapons.flatMap((index) => checkEquipment(character.class, items.find((item) => item.id === character[`weapon_${index}_name`]), index === 0 ? armor : undefined, index === 0 ? shield : undefined))];
       for (const index of weapons) { const spell = spells.find((entry) => entry.id === character[`spell_${index}`]); if (spell && !spell.classes.includes(classEntry?.nameEn ?? '')) issues.push({ code: 'spell', message: `${spell.nameZh}不在当前职业法术表中`, source: 'PHB 法术表' }); }
-      document.querySelector('#rule-status').textContent = issues.length ? `${character.dm_override ? 'DM 覆盖已启用；' : ''}存在 ${issues.length} 项规则冲突` : '当前已填写项目未发现规则冲突';
-      const hints = [...issues.map((issue) => `⚠ ${issue.message}（${issue.source}）`), ...(race && classEntry ? [`${race.nameZh}／${classEntry.nameZh}等级上限：${race.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit ?? '不允许'}。`] : []), ...ac.notes, ...encumbrance.notes, ...(unlistedGear.length ? ['有自由填写的装备未能自动计重。'] : [])];
+      document.querySelector('#rule-status').textContent = issues.length ? `${character.dm_override ? 'DM 覆盖已启用；' : ''}存在 ${issues.length} 项已检查规则冲突` : '当前已检查范围内未发现冲突；这不代表人物已经完成';
+      const sourceIssues = [...(!entryEnabled(race) && race ? [`⚠ ${race.nameZh}的来源规则书未启用。`] : []), ...(!entryEnabled(classEntry) && classEntry ? [`⚠ ${classEntry.nameZh}的来源规则书未启用。`] : [])];
+      const hints = [...sourceIssues, ...issues.map((issue) => `⚠ ${issue.message}（${issue.source}）`), ...(race && classEntry ? [`${race.nameZh}／${classEntry.nameZh}等级上限：${race.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit ?? '不允许'}。`] : []), ...ac.notes, ...encumbrance.notes, ...(unlistedGear.length ? ['有自由填写的装备未能自动计重。'] : [])];
       document.querySelector('#rule-hints').replaceChildren(...hints.map((hint) => { const li = document.createElement('li'); li.textContent = hint; return li; }));
     };
-    const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); if ('class' in values) form.elements.class.value = String(values.class); lastSpellClass = ''; updateSpellOptions(form.elements.class.value); for (const field of fields) { let value = values[field.name]; if (field.type === 'checkbox' && typeof value === 'boolean') field.checked = value; else if (typeof value === 'string' || typeof value === 'number') { if (field.name.startsWith('weapon_') && field.name.endsWith('_name')) value = items.find((entry) => entry.nameZh === value)?.id ?? value; field.value = String(value); } } if (values.ac && !('manual_ac' in values) && !values.armor_item) form.elements.manual_ac.checked = true; update(); };
-    const roll = (dropLowest) => { for (const ability of abilities) { const dice = Array.from({ length: dropLowest ? 4 : 3 }, () => Math.floor(Math.random() * 6) + 1).sort((a, b) => b - a); form.elements[ability].value = String(dice.slice(0, 3).reduce((sum, value) => sum + value, 0)); } update(); status.textContent = dropLowest ? '已生成 4d6 去最低。' : '已生成 3d6。'; };
+    const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); if (typeof values.campaign_sources === 'string') { try { applyCampaignSources(JSON.parse(values.campaign_sources)); } catch {} } if ('class' in values) form.elements.class.value = String(values.class); lastSpellClass = ''; updateSpellOptions(form.elements.class.value); for (const field of fields) { let value = values[field.name]; if (field.type === 'checkbox' && typeof value === 'boolean') field.checked = value; else if (typeof value === 'string' || typeof value === 'number') { if (field.name.startsWith('weapon_') && field.name.endsWith('_name')) value = items.find((entry) => entry.nameZh === value)?.id ?? value; field.value = String(value); } } if (values.ac && !('manual_ac' in values) && !values.armor_item) form.elements.manual_ac.checked = true; update(); };
     fields.forEach((field) => { field.addEventListener('input', update); field.addEventListener('change', update); });
+    sourceChecks.forEach((input) => input.addEventListener('change', () => { saveCampaignProfile(); lastSpellClass = ''; update(); }));
     weapons.forEach((index) => form.elements[`weapon_${index}_name`].addEventListener('change', () => { const item = items.find((entry) => entry.id === form.elements[`weapon_${index}_name`].value); if (!item) return; form.elements[`weapon_${index}_sm`].value = item.damageSmallMedium ?? ''; form.elements[`weapon_${index}_large`].value = item.damageLarge ?? ''; form.elements[`weapon_${index}_speed`].value = item.speedFactor ?? ''; update(); }));
-    document.querySelector('#roll-3d6').addEventListener('click', () => roll(false));
-    document.querySelector('#roll-4d6').addEventListener('click', () => roll(true));
     const savedSelect = document.querySelector('#saved-characters');
     const readSaved = () => { try { const value = JSON.parse(localStorage.getItem('adnd1e-characters') ?? '[]'); return Array.isArray(value) ? value : []; } catch { return []; } };
     const refreshSaved = (selected = '') => { savedSelect.replaceChildren(new Option('选择已保存的人物', ''), ...readSaved().map((entry) => new Option(entry.name || '未命名人物', entry.character_id))); savedSelect.value = selected; };
     const saveCurrent = () => { if (!form.elements.character_id.value) form.elements.character_id.value = crypto.randomUUID(); const current = data(); const saved = readSaved().filter((entry) => entry.character_id !== current.character_id); saved.push(current); localStorage.setItem('adnd1e-characters', JSON.stringify(saved)); localStorage.setItem('adnd1e-character', JSON.stringify(current)); refreshSaved(current.character_id); status.textContent = '已保存到此浏览器。'; };
-    document.querySelector('#new-character').addEventListener('click', () => { form.reset(); form.elements.character_id.value = ''; lastSpellClass = ''; update(); savedSelect.value = ''; status.textContent = '已新建空白人物卡。'; });
+    document.querySelector('#new-character').addEventListener('click', () => { const sources = [...enabledSources()]; form.reset(); applyCampaignSources(sources); form.elements.character_id.value = ''; lastSpellClass = ''; update(); savedSelect.value = ''; status.textContent = '已新建空白人物卡，并保留战役规则配置。'; });
     document.querySelector('#save-character').addEventListener('click', saveCurrent);
     document.querySelector('#load-character').addEventListener('click', () => { try { const saved = readSaved().find((entry) => entry.character_id === savedSelect.value) ?? JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null'); if (!saved) { status.textContent = '没有找到保存的人物。'; return; } applyData(saved); refreshSaved(saved.character_id); status.textContent = '已加载保存的人物。'; } catch { status.textContent = '保存内容无法读取。'; } });
     document.querySelector('#copy-character').addEventListener('click', () => { const current = { ...data(), character_id: crypto.randomUUID(), name: `${data().name || '未命名人物'}（副本）` }; applyData(current); saveCurrent(); status.textContent = '已复制并保存人物。'; });
@@ -187,6 +201,7 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
     document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(data(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${data().name || 'adnd1e-character'}.json`; document.body.append(link); link.click(); link.remove(); status.textContent = `已请求下载 ${link.download}。`; setTimeout(() => URL.revokeObjectURL(link.href), 30000); });
     document.querySelector('#import-character').addEventListener('change', async (event) => { const file = event.target.files?.[0]; if (!file) return; try { applyData(JSON.parse(await file.text())); status.textContent = '已导入 JSON。'; } catch { status.textContent = 'JSON 无法读取或格式不正确。'; } });
     document.querySelector('#print-character').addEventListener('click', () => window.print());
+    try { const profile = JSON.parse(localStorage.getItem('adnd1e-campaign-profile') ?? 'null'); if (Array.isArray(profile?.sources)) applyCampaignSources(profile.sources); else saveCampaignProfile(); } catch { saveCampaignProfile(); }
     refreshSaved();
     update();
   </script>

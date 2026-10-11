@@ -34,7 +34,7 @@ function importBlock(raw: string, heading: string, sourceFile: string) {
   if (!stats.has('生命骰') && !stats.has('生命骰 Hit Dice')) return;
   const armorText = field(stats, '护甲等级');
   const armorClass = Number(armorText.replace(/[−–]/g, '-').match(/-?\d+/)?.[0]);
-  const normalizedArmorClass = Number.isFinite(armorClass) ? armorClass : 0;
+  const normalizedArmorClass = Number.isFinite(armorClass) ? armorClass : null;
   const firstTable = raw.search(/^\|\s*项目\s*\|/m);
   const afterTable = firstTable >= 0 ? raw.slice(raw.indexOf('\n', firstTable) + 1).replace(/^(?:\|[^\n]*\n)+/m, '') : raw;
   monsters.push({
@@ -78,5 +78,4 @@ for (const file of readdirSync(sourceRoot).filter((name) => name.endsWith('.md')
 writeFileSync(resolve('src/data/public/mm2-monsters-imported.json'), `${JSON.stringify(monsters, null, 2)}\n`);
 console.log(`Imported ${monsters.length} MM2 monster records. Skipped ${skipped.length} malformed stat blocks.`);
 if (skipped.length) console.log(skipped.join(', '));
-
 

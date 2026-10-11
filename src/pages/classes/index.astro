@@ -1,5 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { classes } from '../../data/public/classes';
+const sources = [...new Set(classes.flatMap((entry) => entry.source.map((source) => source.book)))].sort();
 ---
-<BaseLayout title="职业"><h1>职业</h1><div class="table-wrap"><table class="data-table compact"><thead><tr><th>职业</th><th>英文</th><th>最低属性</th><th>生命骰</th><th>阵营</th><th>施法</th></tr></thead><tbody>{classes.map((entry) => <tr><td><a href={`/classes/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{Object.entries(entry.minimumAbilities).map(([ability, score]) => `${ability} ${score}`).join('、')}</td><td>{entry.hitDie}</td><td>{entry.alignment}</td><td>{entry.spellcasting}</td></tr>)}</tbody></table></div></BaseLayout>
+<BaseLayout title="职业"><h1>职业</h1>
+  <p class="lede">核心与扩展职业统一收录；来源不同不代表能在同一战役中直接混用，请先确认 DM 启用的规则书。</p>
+  <label>规则来源 <select id="class-source"><option value="">全部来源</option>{sources.map((source) => <option value={source}>{source}</option>)}</select></label>
+  <p id="class-count" class="results-count">显示 {classes.length} 个职业</p>
+  <div class="table-wrap"><table class="data-table compact"><thead><tr><th>职业</th><th>英文</th><th>来源</th><th>最低属性</th><th>生命骰</th><th>阵营</th><th>施法</th></tr></thead><tbody>{classes.map((entry) => <tr data-sources={entry.source.map((source) => source.book).join(' ')}><td><a href={`/classes/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{entry.source.map((source) => source.book).join('、')}</td><td>{Object.entries(entry.minimumAbilities).map(([ability, score]) => `${ability} ${score}`).join('、')}</td><td>{entry.hitDie}</td><td>{entry.alignment}</td><td>{entry.spellcasting}</td></tr>)}</tbody></table></div>
+  <script>
+    const select = document.querySelector('#class-source');
+    const rows = [...document.querySelectorAll('tbody tr')];
+    const count = document.querySelector('#class-count');
+    const apply = () => { const source = select.value; let shown = 0; for (const row of rows) { row.hidden = Boolean(source && !row.dataset.sources.split(' ').includes(source)); if (!row.hidden) shown += 1; } count.textContent = `显示 ${shown} 个职业`; const url = new URL(window.location.href); source ? url.searchParams.set('source', source) : url.searchParams.delete('source'); history.replaceState({}, '', url); };
+    select.value = new URLSearchParams(location.search).get('source') ?? '';
+    select.addEventListener('change', apply); apply();
+  </script>
+</BaseLayout>

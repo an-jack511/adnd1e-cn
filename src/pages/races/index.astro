@@ -2,5 +2,19 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { races } from '../../data/public/races';
 import { classes } from '../../data/public/classes';
+const sources = [...new Set(races.flatMap((entry) => entry.source.map((source) => source.book)))].sort();
 ---
-<BaseLayout title="种族"><h1>种族</h1><div class="table-wrap"><table class="data-table compact"><thead><tr><th>种族</th><th>英文</th><th>属性调整</th><th>移动</th><th>可选职业</th></tr></thead><tbody>{races.map((entry) => <tr><td><a href={`/races/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{entry.modifiers}</td><td>{entry.movement}</td><td>{entry.eligibleClasses.map(({ id }) => classes.find((item) => item.id === id)?.nameZh ?? id).join('、')}</td></tr>)}</tbody></table></div></BaseLayout>
+<BaseLayout title="种族"><h1>种族</h1>
+  <p class="lede">种族来自不同核心、地区与战役资料；职业组合和等级上限必须按该来源及战役规则核对。</p>
+  <label>规则来源 <select id="race-source"><option value="">全部来源</option>{sources.map((source) => <option value={source}>{source}</option>)}</select></label>
+  <p id="race-count" class="results-count">显示 {races.length} 个种族</p>
+  <div class="table-wrap"><table class="data-table compact"><thead><tr><th>种族</th><th>英文</th><th>来源</th><th>属性调整</th><th>移动</th><th>可选职业</th></tr></thead><tbody>{races.map((entry) => <tr data-sources={entry.source.map((source) => source.book).join(' ')}><td><a href={`/races/${entry.id}/`}>{entry.nameZh}</a></td><td>{entry.nameEn}</td><td>{entry.source.map((source) => source.book).join('、')}</td><td>{entry.modifiers}</td><td>{entry.movement}</td><td>{entry.eligibleClasses.map(({ id }) => classes.find((item) => item.id === id)?.nameZh ?? id).join('、')}</td></tr>)}</tbody></table></div>
+  <script>
+    const select = document.querySelector('#race-source');
+    const rows = [...document.querySelectorAll('tbody tr')];
+    const count = document.querySelector('#race-count');
+    const apply = () => { const source = select.value; let shown = 0; for (const row of rows) { row.hidden = Boolean(source && !row.dataset.sources.split(' ').includes(source)); if (!row.hidden) shown += 1; } count.textContent = `显示 ${shown} 个种族`; const url = new URL(window.location.href); source ? url.searchParams.set('source', source) : url.searchParams.delete('source'); history.replaceState({}, '', url); };
+    select.value = new URLSearchParams(location.search).get('source') ?? '';
+    select.addEventListener('change', apply); apply();
+  </script>
+</BaseLayout>

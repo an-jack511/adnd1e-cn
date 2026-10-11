@@ -2,6 +2,17 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { playPages } from '../../data/public/play';
 ---
-<BaseLayout title="游戏中"><h1>游戏中</h1><p>按当前桌面上的事情查规则；每个流程保留原书来源。</p>
-<table class="home-directory"><tbody>{playPages.map((page) => <tr><th scope="row"><a href={`/play/${page.slug}/`}>{page.title}</a></th><td>{page.intro}</td></tr>)}</tbody></table>
+<BaseLayout title="游戏中"><h1>游戏中</h1><p>按当前桌面上的事情查规则；先沿流程走，再进入专题，最后回到原书核对。</p>
+<h2>建议路径</h2>
+<ol class="play-path">
+  <li><a href="/play/character-creation/">创建角色</a>：从属性、种族与职业走到人物卡。</li>
+  <li><a href="/play/travel/">旅行与探索</a>：准备负重、时间、光源和路线。</li>
+  <li><a href="/play/encounter/">遭遇</a>：先判断察觉、距离和意图，不默认开战。</li>
+  <li><a href="/play/combat/">战斗</a>：按突袭、先攻、行动、结算逐轮处理。</li>
+  <li><a href="/play/downtime/">城镇与休整</a>：补给、治疗、经验和下一次出发。</li>
+</ol>
+<h2>按场景查</h2>
+<table class="home-directory play-directory"><tbody>{playPages.map((page) => <tr><th scope="row"><a href={`/play/${page.slug}/`}>{page.title}</a></th><td>{page.intro}</td></tr>)}</tbody></table>
+<h2>深入专题</h2>
+<p><a href="/combat/">战斗规则索引</a> · <a href="/rules/">跨书规则专题</a> · <a href="/character/">快速车卡</a> · <a href="/books/">规则书与出处</a></p>
 </BaseLayout>
