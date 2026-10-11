@@ -1,6 +1,8 @@
 
 ## 奥格·嫩申 Org Nenshen
 
+![人物从高处坠落，原书 PDF 第 39 页裁片](/assets/books/gha/gha_org_nenshen_falling_illustration.png)
+
 <strong>灰鹰自由城盗贼公会会长</strong>
 
 | 项目 | 数据 |

@@ -3,6 +3,8 @@
 
 ### Jaran Krimeeah
 
+![法师站在石阶旁，原书 PDF 第 42 页裁片](/assets/books/gha/gha_jaran_krimeeah_illustration.png)
+
 <strong>山谷法师、卓越法师、黑色之人——法师谷</strong>
 
 | 项目 | 数据 |

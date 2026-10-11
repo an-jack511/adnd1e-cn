@@ -1,6 +1,8 @@
 
 ## 森塔尔·努雷夫 Sental Nurev
 
+![守卫与来访者交谈，原书 PDF 第 37 页裁片](/assets/books/gha/gha_sental_nurev_illustration.png)
+
 <strong>灰鹰自由城守卫总队长</strong>
 
 | 项目 | 数据 |
