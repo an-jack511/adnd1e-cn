@@ -37,6 +37,8 @@
 
 ### Bigby 的灵巧手指术（塑能系）
 
+![Bigby 的灵巧手指术操控器具，原书 PDF 第 51 页裁片](/assets/books/gha/gha_bigby_dextrous_digits_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 等级 | 2 |
