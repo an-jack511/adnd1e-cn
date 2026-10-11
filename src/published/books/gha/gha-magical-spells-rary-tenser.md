@@ -161,6 +161,8 @@
 
 ### Rary 的位面真相术（预言系）
 
+![法师研读典籍，原书 PDF 第 68 页裁片](/assets/books/gha/gha_rary_plane_truth_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 等级 | 7 |

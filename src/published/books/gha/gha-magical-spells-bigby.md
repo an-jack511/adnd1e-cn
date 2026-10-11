@@ -191,6 +191,8 @@
 
 ### Bigby 的至高力量雕塑术（塑能系）
 
+![法师以力场形成攻城槌，原书 PDF 第 53 页裁片](/assets/books/gha/gha_bigby_force_sculpture_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 等级 | 8 |

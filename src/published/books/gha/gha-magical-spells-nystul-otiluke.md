@@ -55,6 +55,8 @@
 
 ### Nystul 的 Grue 召唤术（咒法／召唤系）
 
+![Grue 与武器的图像，原书 PDF 第 60 页裁片](/assets/books/gha/gha_nystul_grue_illustration.png)
+
 | 项目 | 数据 |
 | --- | --- |
 | 等级 | 4 |
