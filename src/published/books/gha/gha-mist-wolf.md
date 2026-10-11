@@ -1,6 +1,3 @@
-![雾狼条目，PDF 第 32 页](/assets/books/gha/gha_monsters_page_032_original.png)
-![雾狼续文与海尸条目，PDF 第 33 页](/assets/books/gha/gha_monsters_page_033_original.png)
-![雾狼续文与海尸续文，PDF 第 34 页](/assets/books/gha/gha_monsters_page_034_original.png)
 
 ## 雾狼 Mist Wolf
 

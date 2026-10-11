@@ -1,6 +1,3 @@
-![魔法法术与 Bigby 法术，第 51 页](/assets/books/gha/gha_magical_spells_page_051_original.png)
-![Bigby 法术，第 52 页](/assets/books/gha/gha_magical_spells_page_052_original.png)
-![Bigby 法术与攻城弩矢表，第 53 页](/assets/books/gha/gha_magical_spells_page_053_original.png)
 
 ## 魔法法术
 

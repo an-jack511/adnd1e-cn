@@ -1,6 +1,3 @@
-![Mordenkainen 法术，第 57 页](/assets/books/gha/gha_magical_spells_page_057_original.png)
-![Mordenkainen 法术与幻影召唤数据，第 58 页](/assets/books/gha/gha_magical_spells_page_058_original.png)
-![Nystul 法术，第 59 页](/assets/books/gha/gha_magical_spells_page_059_original.png)
 
 ## Mordenkainen 的法术
 

@@ -1,5 +1,3 @@
-![法尔图斯条目，PDF 第 17 页](/assets/books/gha/gha_nerull_pholtus_page_017_original.png)
-![法尔图斯牧师与附加法术，PDF 第 18 页](/assets/books/gha/gha_pholtus_ralishaz_ulaa_page_018_original.png)
 
 ## 法尔图斯（次等神） Pholtus (Lesser Deity)
 

@@ -1,6 +1,3 @@
-![剑魂条目，PDF 第 31 页](/assets/books/gha/gha_monsters_page_031_original.png)
-![剑魂续文与雾狼条目，PDF 第 32 页](/assets/books/gha/gha_monsters_page_032_original.png)
-![剑魂续文，PDF 第 33 页](/assets/books/gha/gha_monsters_page_033_original.png)
 
 ## 剑魂 Swordwraith
 

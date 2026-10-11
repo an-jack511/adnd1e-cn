@@ -1,4 +1,3 @@
-![艾罗娜条目，PDF 第 11 页](/assets/books/gha/gha_ehlonna_page_011_original.png)
 
 ## 艾罗娜（次等神） Ehlonna (Lesser Deity)
 

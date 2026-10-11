@@ -1,5 +1,3 @@
-![Tang the Horrific 条目，PDF 第 47 页](/assets/books/gha/gha_hall_of_heroes_page_047_original.png)
-![Tang the Horrific 续文与 Timitrios Spartakos 开篇，PDF 第 48 页](/assets/books/gha/gha_hall_of_heroes_page_048_original.png)
 
 ## Tang the Horrific
 

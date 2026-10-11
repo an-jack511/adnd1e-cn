@@ -1,6 +1,3 @@
-![奥格·嫩申条目，PDF 第 38 页](/assets/books/gha/gha_hall_of_heroes_page_038_original.png)
-![奥格·嫩申续文与图林·死亡猎手条目，PDF 第 39 页](/assets/books/gha/gha_hall_of_heroes_page_039_original.png)
-![奥格·嫩申续文，PDF 第 40 页](/assets/books/gha/gha_hall_of_heroes_page_040_original.png)
 
 ## 奥格·嫩申 Org Nenshen
 

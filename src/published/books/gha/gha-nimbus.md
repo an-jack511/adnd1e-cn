@@ -1,6 +1,3 @@
-![Nimbus 条目，PDF 第 29 页](/assets/books/gha/gha_monsters_page_029_original.png)
-![Nimbus 续文与海精灵条目，PDF 第 30 页](/assets/books/gha/gha_monsters_page_030_original.png)
-![Nimbus 续文，PDF 第 31 页](/assets/books/gha/gha_monsters_page_031_original.png)
 
 ## 尼布斯 Nimbus
 

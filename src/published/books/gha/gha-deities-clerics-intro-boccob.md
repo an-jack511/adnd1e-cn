@@ -1,6 +1,4 @@
-![灰鹰神祇与牧师，PDF 第 5 页](/assets/books/gha/gha_deities_page_005_original.png)
 
-![灰鹰神祇与牧师，PDF 第 6 页](/assets/books/gha/gha_deities_page_006_original.png)
 
 ## 灰鹰的神祇与牧师
 

@@ -1,4 +1,3 @@
-![《灰鹰冒险》版权与书名页，PDF 第 2 页](/assets/books/gha/gha_title_credits_page_002_original.png)
 
 ## 灰鹰冒险
 

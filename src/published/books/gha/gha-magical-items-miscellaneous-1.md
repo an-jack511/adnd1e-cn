@@ -1,6 +1,5 @@
 ## Miscellaneous Magic Items
 
-![原书第 77 页](/assets/books/gha/gha_magical_items_page_077_original.png)
 
 ### 洛特米尔山脉的铁砧
 
@@ -58,7 +57,6 @@
 
 经验值：3,000；金币价值：25,000。
 
-![原书第 78 页](/assets/books/gha/gha_magical_items_page_078_original.png)
 
 ### 阿梅迪奥的猎豹斗篷
 
@@ -148,7 +146,6 @@
 
 经验值：1,000；金币价值：10,000。
 
-![原书第 79 页](/assets/books/gha/gha_magical_items_page_079_original.png)
 
 ### 维路纳的梦帽
 

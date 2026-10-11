@@ -1,5 +1,3 @@
-![伊乌兹条目，PDF 第 15 页](/assets/books/gha/gha_istus_iuz_page_015_original.png)
-![伊乌兹与奈落条目，PDF 第 16 页](/assets/books/gha/gha_iuz_nerull_page_016_original.png)
 
 ## 伊乌兹（半神） Iuz (Demi-god)
 

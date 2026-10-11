@@ -1,6 +1,3 @@
-![图林·死亡猎手条目，PDF 第 39 页](/assets/books/gha/gha_hall_of_heroes_page_039_original.png)
-![图林·死亡猎手续文，PDF 第 40 页](/assets/books/gha/gha_hall_of_heroes_page_040_original.png)
-![图林·死亡猎手续文与任·星之子条目，PDF 第 41 页](/assets/books/gha/gha_hall_of_heroes_page_041_original.png)
 
 ## 图林·死亡猎手 Turin Deathstalker
 

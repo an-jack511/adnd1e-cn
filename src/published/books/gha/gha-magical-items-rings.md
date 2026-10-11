@@ -1,4 +1,3 @@
-![灰鹰魔法物品与戒指，第 73 页](/assets/books/gha/gha_magical_items_page_073_original.png)
 
 ## 灰鹰魔法物品
 

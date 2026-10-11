@@ -1,5 +1,3 @@
-![法师谷续文与 Tysiln San 条目，PDF 第 43 页](/assets/books/gha/gha_hall_of_heroes_page_043_original.png)
-![Tysiln San 续文与绯红兄弟会开篇，PDF 第 44 页](/assets/books/gha/gha_hall_of_heroes_page_044_original.png)
 
 ## Tysiln San
 

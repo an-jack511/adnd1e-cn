@@ -1,5 +1,3 @@
-![水晶雾生物条目，PDF 第 25 页](/assets/books/gha/gha_monsters_page_026_original.png)
-![水晶雾生物与灰鹰龙条目，PDF 第 26 页](/assets/books/gha/gha_monsters_page_026_original.png)
 
 ## 水晶雾生物 Crystalmist
 

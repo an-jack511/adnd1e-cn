@@ -1,4 +1,3 @@
-![圣·库斯伯特条目，PDF 第 10 页](/assets/books/gha/gha_st_cuthbert_page_010_original.png)
 
 ## 圣·库斯伯特（次等神） St. Cuthbert (Lesser Deity)
 

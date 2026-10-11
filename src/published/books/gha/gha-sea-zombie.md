@@ -1,5 +1,3 @@
-![海尸条目，PDF 第 33 页](/assets/books/gha/gha_monsters_page_033_original.png)
-![海尸续文，PDF 第 34 页](/assets/books/gha/gha_monsters_page_034_original.png)
 
 ## 海尸 Sea Zombie（“溺亡者”）
 

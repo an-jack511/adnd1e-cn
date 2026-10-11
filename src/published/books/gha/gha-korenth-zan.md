@@ -1,5 +1,3 @@
-![绯红兄弟会与 Korenth Zan 条目，PDF 第 44 页](/assets/books/gha/gha_hall_of_heroes_page_044_original.png)
-![Korenth Zan 续文与 Alesh Marin 条目，PDF 第 45 页](/assets/books/gha/gha_hall_of_heroes_page_045_original.png)
 
 ## 绯红兄弟会 The Scarlet Brotherhood
 

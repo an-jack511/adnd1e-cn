@@ -1,6 +1,3 @@
-![Ingundi 条目，PDF 第 28 页](/assets/books/gha/gha_monsters_page_028_original.png)
-![Ingundi 续文与 Nimbus 条目，PDF 第 29 页](/assets/books/gha/gha_monsters_page_029_original.png)
-![Ingundi 续文，PDF 第 30 页](/assets/books/gha/gha_monsters_page_030_original.png)
 
 ## Ingundi
 

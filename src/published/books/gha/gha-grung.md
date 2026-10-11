@@ -1,6 +1,3 @@
-![Grung 条目，PDF 第 27 页](/assets/books/gha/gha_monsters_page_027_original.png)
-![Grung 续文与 Ingundi 条目，PDF 第 28 页](/assets/books/gha/gha_monsters_page_028_original.png)
-![Grung 续文，PDF 第 29 页](/assets/books/gha/gha_monsters_page_029_original.png)
 
 ## Grung
 

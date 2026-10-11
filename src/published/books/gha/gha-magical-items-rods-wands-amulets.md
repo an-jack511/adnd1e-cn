@@ -1,6 +1,3 @@
-![灰鹰魔法物品：权杖、法杖和魔杖，第 74 页](/assets/books/gha/gha_magical_items_page_074_original.png)
-![灰鹰魔法物品：魔杖，第 75 页](/assets/books/gha/gha_magical_items_page_075_original.png)
-![灰鹰魔法物品：魔杖与护符，第 76 页](/assets/books/gha/gha_magical_items_page_076_original.png)
 
 ## 权杖、法杖与魔杖
 

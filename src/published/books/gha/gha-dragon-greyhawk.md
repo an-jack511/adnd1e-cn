@@ -1,7 +1,7 @@
-![灰鹰龙条目，PDF 第 26 页](/assets/books/gha/gha_monsters_page_026_original.png)
-![灰鹰龙续文与 Grung 条目，PDF 第 27 页](/assets/books/gha/gha_monsters_page_027_original.png)
 
 ## 灰鹰龙 Dragon, Greyhawk
+
+![灰鹰龙肖像，原书 PDF 第 27 页裁片](/assets/books/gha/gha_greyhawk_dragon_illustration.png)
 
 | 项目 | 数据 |
 | --- | --- |

@@ -1,5 +1,3 @@
-![德里德·范申条目，PDF 第 36 页](/assets/books/gha/gha_hall_of_heroes_page_036_original.png)
-![德里德·范申续文，PDF 第 37 页](/assets/books/gha/gha_hall_of_heroes_page_037_original.png)
 
 ## 德里德·范申 Derider Fanshen
 

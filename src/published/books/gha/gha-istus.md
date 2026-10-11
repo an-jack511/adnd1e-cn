@@ -1,5 +1,3 @@
-![伊斯图丝条目，PDF 第 14 页](/assets/books/gha/gha_istus_page_014_original.png)
-![伊斯图丝牧师与附加法术，PDF 第 15 页](/assets/books/gha/gha_istus_iuz_page_015_original.png)
 
 ## 伊斯图丝（主要神） Istus (Major Deity)
 

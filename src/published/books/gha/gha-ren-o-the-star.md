@@ -1,6 +1,3 @@
-![任·星之子条目，PDF 第 40 页](/assets/books/gha/gha_hall_of_heroes_page_040_original.png)
-![任·星之子续文，PDF 第 41 页](/assets/books/gha/gha_hall_of_heroes_page_041_original.png)
-![任·星之子续文与法师谷开篇，PDF 第 42 页](/assets/books/gha/gha_hall_of_heroes_page_042_original.png)
 
 ## 任·星之子 Ren o’ the Star
 

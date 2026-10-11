@@ -1,8 +1,7 @@
-![小鼠兽条目，PDF 第 23 页](/assets/books/gha/gha_monsters_page_023_original.png)
-![小鼠兽续文与变形猫条目，PDF 第 24 页](/assets/books/gha/gha_monsters_illustration_page_024_original.png)
-![小鼠兽续文，PDF 第 25 页](/assets/books/gha/gha_monsters_page_025_original.png)
 
 ## 小鼠兽 Camprat
+
+![小鼠兽在容器旁觅食的插图，原书 PDF 第 23 页裁片](/assets/books/gha/gha_camprat_illustration.png)
 
 | 项目 | 数据 |
 | --- | --- |

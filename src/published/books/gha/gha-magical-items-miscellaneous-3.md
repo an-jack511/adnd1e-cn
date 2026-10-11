@@ -1,6 +1,7 @@
 ## Miscellaneous Magic Items
 
-![原书第 84 页](/assets/books/gha/gha_magical_items_page_084_original.png)
+![荒野战士与远征队的插图，原书 PDF 第 85 页裁片](/assets/books/gha/gha_magical_items_illustration.png)
+
 
 ### 塞伦涅之星
 
@@ -77,7 +78,6 @@
 
 被召唤的巨灵必须服从头巾持有者的第一个命令。从那以后，在这顶头巾的整个使用寿命中，每接受一次额外命令，就会累积 5% 的概率，使被召唤的巨灵忽略命令，转而攻击召唤者。无法得知每顶头巾已经被使用过多少次。如果与头巾关联的巨灵被杀死，头巾就会失去作用。
 
-![原书第 85 页插图](/assets/books/gha/gha_magical_items_page_085_original.png)
 
 ## 护甲与盾牌
 

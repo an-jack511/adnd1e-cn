@@ -1,5 +1,3 @@
-![任·星之子续文与法师谷开篇，PDF 第 42 页](/assets/books/gha/gha_hall_of_heroes_page_042_original.png)
-![法师谷与 Jaran Krimeeah 续文，PDF 第 43 页](/assets/books/gha/gha_hall_of_heroes_page_043_original.png)
 
 ## 法师谷 The Valley of the Mage
 

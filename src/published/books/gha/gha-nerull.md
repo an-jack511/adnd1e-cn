@@ -1,5 +1,3 @@
-![奈落条目起始页，PDF 第 16 页](/assets/books/gha/gha_iuz_nerull_page_016_original.png)
-![奈落牧师与附加法术，PDF 第 17 页](/assets/books/gha/gha_nerull_pholtus_page_017_original.png)
 
 ## 奈落（主要神） Nerull (Major Deity)
 

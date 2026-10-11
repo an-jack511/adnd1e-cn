@@ -1,5 +1,3 @@
-![Timitrios Spartakos 条目，PDF 第 48 页](/assets/books/gha/gha_hall_of_heroes_page_048_original.png)
-![Timitrios Spartakos 续文与 Guiliana Mortidus 开篇，PDF 第 49 页](/assets/books/gha/gha_hall_of_heroes_page_049_original.png)
 
 ## Timitrios Spartakos
 

@@ -1,4 +1,3 @@
-![献辞与导言，PDF 第 3 页](/assets/books/gha/gha_dedication_introduction_page_003_original.png)
 
 ## 献辞
 

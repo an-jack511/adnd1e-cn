@@ -1,6 +1,5 @@
 ## Armor and Shields
 
-![原书第 87 页](/assets/books/gha/gha_armor_weapons_page_087_original.png)
 
 ### 波马吉的哥布林盾牌 +2
 
@@ -104,7 +103,6 @@
 
 经验值：1,000；金币价值：5,000。
 
-![原书第 88 页](/assets/books/gha/gha_armor_weapons_page_088_original.png)
 
 ### 荒野海岸之剑 +3
 

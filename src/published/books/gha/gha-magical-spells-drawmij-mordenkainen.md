@@ -1,6 +1,3 @@
-![Drawmij 法术，第 54 页](/assets/books/gha/gha_magical_spells_page_054_original.png)
-![Drawmij 法术，第 55 页](/assets/books/gha/gha_magical_spells_page_055_original.png)
-![Drawmij 与 Mordenkainen 法术，第 56 页](/assets/books/gha/gha_magical_spells_page_056_original.png)
 
 ## Drawmij 的法术
 

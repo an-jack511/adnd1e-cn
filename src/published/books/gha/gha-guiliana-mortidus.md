@@ -1,5 +1,3 @@
-![Guiliana Mortidus 条目，PDF 第 49 页](/assets/books/gha/gha_hall_of_heroes_page_049_original.png)
-![Guiliana Mortidus 续文，PDF 第 50 页](/assets/books/gha/gha_hall_of_heroes_page_050_original.png)
 
 ## Guiliana Mortidus
 

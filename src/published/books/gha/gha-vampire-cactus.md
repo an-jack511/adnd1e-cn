@@ -1,5 +1,3 @@
-![吸血仙人掌条目，PDF 第 22 页](/assets/books/gha/gha_monsters_page_022_original.png)
-![吸血仙人掌续文，PDF 第 23 页](/assets/books/gha/gha_monsters_page_023_original.png)
 
 ## 吸血仙人掌 Cactus, Vampire
 

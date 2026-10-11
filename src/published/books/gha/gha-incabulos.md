@@ -1,4 +1,3 @@
-![法兰恩脚痛法术续文与因卡布洛斯条目，PDF 第 13 页](/assets/books/gha/gha_incabulos_page_013_original.png)
 
 ### 脚痛续文 Footsore continued
 

@@ -1,5 +1,3 @@
-![灰鹰怪物章节与兽人条目，PDF 第 21 页](/assets/books/gha/gha_monsters_page_021_original.png)
-![兽人续文与吸血仙人掌条目，PDF 第 22 页](/assets/books/gha/gha_monsters_page_022_original.png)
 
 ## 灰鹰的怪物 Monsters of Greyhawk
 

@@ -1,6 +1,4 @@
-![灰鹰神祇与牧师，PDF 第 7 页](/assets/books/gha/gha_deities_page_007_original.png)
 
-![灰鹰神祇与牧师，PDF 第 8 页](/assets/books/gha/gha_deities_page_008_original.png)
 
 ## 博克布的牧师（续）
 
@@ -28,6 +26,8 @@
 牧师必须随身携带博克布的象征，才能施展此法术。材料成分是一只小型铁与金银合金圆轮，轮的一侧中央竖着一根杆。牧师向目标掷出圆盘，同时完成对博克布的祈祷。
 
 ## 塞莱斯蒂安（次等神） Celestian (Lesser Deity)
+
+![塞莱斯蒂安端坐于星空与诸行星之间，原书 PDF 第 7 页裁片](/assets/books/gha/gha_celestian_avatar_illustration.png)
 
 AL 守序善良；WAL 任意善良；SoC 星辰、空间、漫游者；SY 带七颗星的黑色圆环；CR 黑色；PN 星界。
 

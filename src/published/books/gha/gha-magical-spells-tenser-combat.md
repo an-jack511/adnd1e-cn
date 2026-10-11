@@ -1,8 +1,7 @@
-![Tenser 法术，第 70 页](/assets/books/gha/gha_magical_spells_page_070_original.png)
-![Tenser 法术，第 71 页](/assets/books/gha/gha_magical_spells_page_071_original.png)
-![Tenser 法术插图，第 72 页](/assets/books/gha/gha_magical_spells_page_072_original.png)
 
 ## Tenser 的法术
+
+![猎鹰攻击场景，原书 PDF 第 72 页裁片](/assets/books/gha/gha_tenser_illustration.png)
 
 ### Tenser 的燃焰之刃术（变化系）
 

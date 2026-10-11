@@ -1,6 +1,3 @@
-![森塔尔·努雷夫条目，PDF 第 37 页](/assets/books/gha/gha_hall_of_heroes_page_037_original.png)
-![森塔尔·努雷夫续文与奥格·嫩申条目，PDF 第 38 页](/assets/books/gha/gha_hall_of_heroes_page_038_original.png)
-![森塔尔·努雷夫续文，PDF 第 39 页](/assets/books/gha/gha_hall_of_heroes_page_039_original.png)
 
 ## 森塔尔·努雷夫 Sental Nurev
 

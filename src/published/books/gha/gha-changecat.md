@@ -1,5 +1,3 @@
-![变形猫条目，PDF 第 24 页](/assets/books/gha/gha_monsters_illustration_page_024_original.png)
-![变形猫续文，PDF 第 25 页](/assets/books/gha/gha_monsters_page_025_original.png)
 
 ## 变形猫 Changecat
 

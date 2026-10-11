@@ -1,6 +1,3 @@
-![海精灵条目，PDF 第 30 页](/assets/books/gha/gha_monsters_page_030_original.png)
-![海精灵续文与剑魂条目，PDF 第 31 页](/assets/books/gha/gha_monsters_page_031_original.png)
-![海精灵续文与剑魂续文，PDF 第 32 页](/assets/books/gha/gha_monsters_page_032_original.png)
 
 ## 海精灵 Sea Sprite
 

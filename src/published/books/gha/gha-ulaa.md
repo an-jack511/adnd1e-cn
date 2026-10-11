@@ -1,8 +1,7 @@
-![乌拉条目，PDF 第 18 页](/assets/books/gha/gha_pholtus_ralishaz_ulaa_page_018_original.png)
-![乌拉牧师与附加法术，PDF 第 19 页](/assets/books/gha/gha_ralishaz_ulaa_page_019_original.png)
-![乌拉牧师与命令大地，PDF 第 20 页](/assets/books/gha/gha_ulaa_clerics_page_020_original.png)
 
 ## 乌拉（主要神） Ulaa (Major Deity)
+
+![乌拉挥舞战锤与敌人交战的场景，原书 PDF 第 19 页裁片](/assets/books/gha/gha_ulaa_illustration.png)
 
 AL 守序善良；WAL 任意善良、中立；SoC 丘陵、山脉、宝石；SY 内含红宝石之心的山峰；CR 绿色、棕色、灰色；PN 七重天堂、协调对立。
 

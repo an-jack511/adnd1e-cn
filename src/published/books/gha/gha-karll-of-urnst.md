@@ -1,5 +1,3 @@
-![奥斯其他地区与 Karll of Urnst 条目，PDF 第 46 页](/assets/books/gha/gha_hall_of_heroes_page_046_original.png)
-![Karll of Urnst 续文与 Tang the Horrific 开篇，PDF 第 47 页](/assets/books/gha/gha_hall_of_heroes_page_047_original.png)
 
 ## 奥斯其他地区 Elsewhere on Oerth
 

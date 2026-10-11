@@ -1,5 +1,3 @@
-![Alesh Marin 条目，PDF 第 45 页](/assets/books/gha/gha_hall_of_heroes_page_045_original.png)
-![Alesh Marin 续文与奥斯其他地区开篇，PDF 第 46 页](/assets/books/gha/gha_hall_of_heroes_page_046_original.png)
 
 ## Alesh Marin
 

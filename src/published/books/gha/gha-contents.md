@@ -1,4 +1,3 @@
-![《灰鹰冒险》目录，PDF 第 4 页](/assets/books/gha/gha_contents_page_004_original.png)
 
 ## 目录
 

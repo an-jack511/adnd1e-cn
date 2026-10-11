@@ -1,6 +1,5 @@
 ## Miscellaneous Magic Items
 
-![原书第 80 页](/assets/books/gha/gha_magical_items_page_080_original.png)
 
 ### 尼尔·迪夫的疾行驳船
 
@@ -89,7 +88,6 @@
 
 经验值：750；金币价值：5,000。
 
-![原书第 81 页](/assets/books/gha/gha_magical_items_page_081_original.png)
 
 ### 屏障峰的号角
 
@@ -171,7 +169,6 @@
 
 经验值：1,500；金币价值：7,500。
 
-![原书第 82 页](/assets/books/gha/gha_magical_items_page_082_original.png)
 
 ### 梅德吉亚的失船手镯
 
@@ -277,7 +274,6 @@
 
 经验值：300*<strong>；金币价值：2,500</strong>*。
 
-![原书第 83 页](/assets/books/gha/gha_magical_items_page_083_original.png)
 
 ### 灰鹰的棱镜
 

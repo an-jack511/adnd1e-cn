@@ -1,4 +1,3 @@
-![法兰恩条目，PDF 第 12 页](/assets/books/gha/gha_fharlanghn_page_012_original.png)
 
 ## 法兰恩（次等神） Fharlanghn (Lesser Deity)
 

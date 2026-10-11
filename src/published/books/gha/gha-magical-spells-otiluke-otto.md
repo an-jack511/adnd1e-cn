@@ -1,6 +1,3 @@
-![Otiluke 法术，第 64 页](/assets/books/gha/gha_magical_spells_page_064_original.png)
-![Otto 法术，第 65 页](/assets/books/gha/gha_magical_spells_page_065_original.png)
-![Otto 法术，第 66 页](/assets/books/gha/gha_magical_spells_page_066_original.png)
 
 ## Otiluke 的法术
 

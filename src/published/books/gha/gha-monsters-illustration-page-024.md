@@ -1,3 +1,4 @@
-![灰鹰怪物插图，PDF 第 24 页](/assets/books/gha/gha_monsters_illustration_page_024_original.png)
 
-本页为灰鹰怪物章节的整页插图。原书未提供独立图注，保留原构图与画面，不另行臆造说明。
+![野猪袭击营地场景，原书 PDF 第 24 页怪物章节插图裁片](/assets/books/gha/gha_monsters_illustration.png)
+
+原书 PDF 第 24 页的实质性黑白插图。原书未提供独立图注，不臆造说明。

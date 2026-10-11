@@ -1,5 +1,3 @@
-![奈罗夫·加斯加尔条目，PDF 第 35 页](/assets/books/gha/gha_hall_of_heroes_page_035_original.png)
-![奈罗夫·加斯加尔续文与德里德·范申条目，PDF 第 36 页](/assets/books/gha/gha_hall_of_heroes_page_036_original.png)
 
 ## 奈罗夫·加斯加尔 Nerof Gasgal
 

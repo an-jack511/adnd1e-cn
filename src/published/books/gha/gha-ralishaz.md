@@ -1,5 +1,3 @@
-![拉利沙兹条目，PDF 第 18 页](/assets/books/gha/gha_pholtus_ralishaz_ulaa_page_018_original.png)
-![拉利沙兹牧师与乌拉条目，PDF 第 19 页](/assets/books/gha/gha_ralishaz_ulaa_page_019_original.png)
 
 ## 拉利沙兹（次等神） Ralishaz (Lesser Deity)
 

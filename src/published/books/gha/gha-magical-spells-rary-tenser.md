@@ -1,8 +1,7 @@
-![Rary 法术，第 67 页](/assets/books/gha/gha_magical_spells_page_067_original.png)
-![Rary 法术，第 68 页](/assets/books/gha/gha_magical_spells_page_068_original.png)
-![Tenser 法术与猎鹰插图，第 69 页](/assets/books/gha/gha_magical_spells_page_069_original.png)
 
 ## Rary 的法术
+
+![猎鹰俯冲攻击的插图，原书 PDF 第 69 页裁片](/assets/books/gha/gha_hunting_hawk_illustration.png)
 
 ### Rary 的共情感知术（预言系）
 

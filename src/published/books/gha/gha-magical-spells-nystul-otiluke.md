@@ -1,7 +1,3 @@
-![Nystul 法术与 grue 召唤，第 60 页](/assets/books/gha/gha_magical_spells_page_060_original.png)
-![Nystul 与 Otiluke 法术，第 61 页](/assets/books/gha/gha_magical_spells_page_061_original.png)
-![Otiluke 法术，第 62 页](/assets/books/gha/gha_magical_spells_page_062_original.png)
-![Otiluke 屏障法术，第 63 页](/assets/books/gha/gha_magical_spells_page_063_original.png)
 
 ## Nystul 的法术
 
