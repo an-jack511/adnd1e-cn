@@ -1,6 +1,8 @@
 
 ## 任·星之子 Ren o’ the Star
 
+![夜间城中一群旅人的遭遇场景，原书 PDF 第 41 页裁片](/assets/books/gha/gha_ren_o_the_star_illustration.png)
+
 <strong>灰鹰自由城贸易联合会会长</strong>
 
 | 项目 | 数据 |
