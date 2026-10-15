@@ -16,3 +16,24 @@ export function calculateSingleCareerInitialHp(input:{classIds:readonly InitialC
   if(input.classIds.length!==1)return{status:'needs-dm',reason:'并行多职业一级生命值涉及PHB p.33–34的职业分别掷骰与分配规则，不能按单职业结果直接相加。',sourceIds:['phb:33-34:multiclass-hp']};
   return calculateCoreHpAward({classId:input.classIds[0],targetLevel:1,constitution:input.constitution,rolls:input.rolls});
 }
+
+export interface MulticlassInitialHpPlan {
+  readonly status:'calculated'; readonly mode:'multiclass'; readonly constitution:number;
+  readonly classCount:number; readonly classAwards:readonly HpAwardPlan[];
+  readonly adjustedTotal:number; readonly exactNumerator:number; readonly exactDenominator:number;
+  readonly actualAward:number; readonly rounding:'fractions-below-one-half-down-otherwise-up';
+  readonly sourceIds:readonly string[];
+}
+
+/** PHB p.19: roll each class's appropriate dice, total with CON adjustments, divide by class count, then round halves up. */
+export function calculateCoreInitialHp(input:{classIds:readonly InitialCoreClassId[];constitution:number;rollsByClass:Readonly<Partial<Record<InitialCoreClassId,readonly number[]>>>}):HpAwardPlan|MulticlassInitialHpPlan{
+  if(!input.classIds.length||input.classIds.length>3)throw new Error('Initial HP needs one to three distinct core careers.');
+  if(new Set(input.classIds).size!==input.classIds.length)throw new Error('Initial HP careers must be distinct.');
+  if(input.classIds.length===1)return calculateCoreHpAward({classId:input.classIds[0],targetLevel:1,constitution:input.constitution,rolls:input.rollsByClass[input.classIds[0]]??[]});
+  const classAwards=input.classIds.map(classId=>calculateCoreHpAward({classId,targetLevel:1,constitution:input.constitution,rolls:input.rollsByClass[classId]??[]}));
+  const adjustedTotal=classAwards.reduce((sum,plan)=>sum+plan.actualAward,0),classCount=input.classIds.length;
+  const actualAward=Math.floor(adjustedTotal/classCount+0.5);
+  return{status:'calculated',mode:'multiclass',constitution:input.constitution,classCount,classAwards,adjustedTotal,
+    exactNumerator:adjustedTotal,exactDenominator:classCount,actualAward,rounding:'fractions-below-one-half-down-otherwise-up',
+    sourceIds:[...new Set(['phb:19:multiclass-hit-points',...classAwards.flatMap(plan=>plan.sourceIds)])]};
+}

@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import { playerProjection, replayCharacter, createCharacterRuntime } from '../src/character/domain/character-record';
+import { admitCoreCreation, newCoreCreation, recordCreationTask, selectCoreCandidate } from '../src/character/workflows/core-create';
+import { createRuntimeFromAdmittedCoreCreation, replayRegistryForCoreAdmission } from '../src/character/workflows/core-admission';
+
+const generation={draftId:'draft',draftRevision:1,batchId:'batch',method:'DMG:I' as const,scores:{STR:16,INT:13,WIS:14,DEX:15,CON:14,CHA:15}};
+let document=newCoreCreation({id:'creation-admit',name:'Archive Hero',generation});
+document=selectCoreCandidate(document,{raceId:'human',subraceId:null,sex:'male',alignmentId:'NG',initialScores:generation.scores,classIds:['fighter'],mode:'single',campaign:{allowedRaceIds:['human'],bardEnabled:false}});
+for(const id of ['hp','money','languages','proficiencies','equipment','initial-spells','psionics','admission-context'] as const)document=recordCreationTask(document,id,{status:id==='initial-spells'||id==='psionics'?'not-applicable':'complete',sourceIds:['fixture:source'],note:'verified fixture',facts:id==='initial-spells'||id==='psionics'?null:{recorded:true}});
+assert.throws(()=>createRuntimeFromAdmittedCoreCreation({document}),/DM-admitted/);
+document=admitCoreCreation(document,{actorId:'dm-one',at:'576-01-01T00:00:00Z',scope:'campaign-one'});
+const archive=createRuntimeFromAdmittedCoreCreation({document,characterId:'hero-one'});
+assert.equal(archive.runtime.transaction.revision,1);assert.equal(archive.runtime.transaction.events.length,1);
+assert.equal(archive.runtime.transaction.facts.identity.name,'Archive Hero');assert.equal(archive.runtime.transaction.facts.modules[0].kind,'adnd1e-core-creation');
+assert.ok(archive.registeredSourceIds.includes('fixture:source'));assert.ok(archive.registeredSourceIds.includes('project:core-creation-admission'));
+const projection=playerProjection(archive.runtime);assert.equal(projection.modules.length,1);assert.equal((projection.modules[0].data as any).status,'admitted');
+const pristine=createCharacterRuntime({characterId:'hero-one',branchId:'main',name:'Archive Hero',raceId:'human',alignment:'NG',description:'Admitted core creation creation-admit'});
+const replayed=replayCharacter(pristine,archive.runtime.transaction.events,replayRegistryForCoreAdmission(archive));
+assert.deepEqual(replayed.transaction.facts,archive.runtime.transaction.facts);
+const tampered=structuredClone(archive);(tampered.registeredSourceIds as string[]).splice(tampered.registeredSourceIds.indexOf('fixture:source'),1);
+assert.throws(()=>replayCharacter(pristine,tampered.runtime.transaction.events,replayRegistryForCoreAdmission(tampered)),/source/);
+console.log('PASS: only DM-admitted creation becomes an event-sourced runtime; source registry, player projection and replay are preserved and missing evidence fails closed.');

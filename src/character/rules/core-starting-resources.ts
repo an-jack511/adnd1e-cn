@@ -2,6 +2,7 @@ import type { InitialCoreClassId } from './core-progression';
 
 export const startingResourceSources = Object.freeze({
   'phb:19:class-families': Object.freeze({book:'PHB',printedPages:[18,19] as const,pdfPages:[19,20] as const,section:'Character Classes and Sub-Classes',status:'verified-text-and-page-image' as const}),
+  'phb:19:multiclass-hit-points': Object.freeze({book:'PHB',printedPages:[19] as const,pdfPages:[20] as const,section:'Notes Regarding Character Classes Table I — Hit Dice Type',status:'verified-text-and-page-image' as const}),
   'phb:35:starting-money': Object.freeze({book:'PHB',printedPages:[35] as const,pdfPages:[36] as const,section:'Money — Starting Money',status:'verified-text-and-page-image' as const}),
   'dmg:25:starting-money': Object.freeze({book:'DMG',printedPages:[25] as const,pdfPages:[26] as const,section:'Player Character Starting Money',status:'verified-text' as const}),
 });
