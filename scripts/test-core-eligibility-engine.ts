@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import { evaluateCoreEligibility,type CoreCandidate } from '../src/character/engine/core-eligibility';
+const scores={STR:16,INT:13,WIS:14,DEX:15,CON:14,CHA:15} as const;
+const base:CoreCandidate={raceId:'human',subraceId:null,sex:'male',alignmentId:'NG',initialScores:{...scores},classIds:['fighter'],mode:'single',campaign:{allowedRaceIds:['dwarf','elf','gnome','half-elf','halfling','half-orc','human'],bardEnabled:false}};
+let r=evaluateCoreEligibility(base);assert.equal(r.verdict,'allowed');assert.equal(r.classLevelCaps.fighter,'unlimited');
+r=evaluateCoreEligibility({...base,raceId:'elf',subraceId:'high-elf',classIds:['fighter','magic-user'],mode:'multiclass'});assert.equal(r.verdict,'allowed');assert.equal(r.adjustedScores.DEX,16);assert.equal(r.adjustedScores.CON,13);assert.equal(r.classLevelCaps.fighter,5);
+r=evaluateCoreEligibility({...base,raceId:'human',classIds:['fighter','magic-user'],mode:'multiclass'});assert.equal(r.verdict,'forbidden');
+r=evaluateCoreEligibility({...base,raceId:'elf',subraceId:null,classIds:['fighter','magic-user'],mode:'multiclass'});assert.equal(r.verdict,'needs-dm');assert.ok(r.issues.some(i=>i.id==='subrace-required'));
+r=evaluateCoreEligibility({...base,raceId:'half-orc',classIds:['thief'],initialScores:{...scores,DEX:15}});assert.equal(r.verdict,'needs-dm');assert.ok(r.issues.some(i=>i.id==='pending-range-DEX'));
+r=evaluateCoreEligibility({...base,classIds:['paladin'],alignmentId:'NG',initialScores:{STR:12,INT:9,WIS:13,DEX:10,CON:9,CHA:17}});assert.equal(r.verdict,'forbidden');assert.ok(r.issues.some(i=>i.id==='alignment-paladin'));
+r=evaluateCoreEligibility({...base,classIds:['bard'],initialScores:{STR:15,INT:12,WIS:15,DEX:15,CON:10,CHA:15}});assert.equal(r.verdict,'forbidden');assert.ok(r.issues.some(i=>i.id==='bard-not-fresh'));
+r=evaluateCoreEligibility({...base,classIds:['fighter'],initialScores:{...scores,INT:5}});assert.equal(r.verdict,'allowed');
+r=evaluateCoreEligibility({...base,classIds:['fighter'],initialScores:{...scores,WIS:5}});assert.equal(r.verdict,'forbidden');assert.ok(r.issues.some(i=>i.id==='low-wis'));
+r=evaluateCoreEligibility({...base,raceId:'dwarf',subraceId:'hill-dwarf',classIds:['fighter'],initialScores:{...scores,STR:18,CHA:8}});assert.equal(r.adjustedScores.CHA,7);assert.equal(r.adjustedScores.STR,18);assert.equal(r.classLevelCaps.fighter,9);
+assert.throws(()=>evaluateCoreEligibility({...base,classIds:[]}));assert.throws(()=>evaluateCoreEligibility({...base,classIds:['fighter','fighter'],mode:'multiclass'}));
+console.log('PASS: core single/multiclass, adjustments, minima, alignment, low-score forced class, explicit combinations, conditional caps and unresolved conflicts. Not dual-class/Bard/admission certification.');

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { newCoreCampaignProfile,profileCoverage,profileSemanticKey,reviseCampaignProfile,validateCampaignProfile } from '../src/character/engine/campaign-profile';
+let profile=newCoreCampaignProfile({id:'greyhawk-1',name:'灰鹰长期战役',dmActorId:'dm-1'});validateCampaignProfile(profile);
+assert.equal(profileCoverage(profile).implementationReady,true);assert(profileCoverage(profile).unresolvedScopes.includes('combat-matrices'));
+const before=profileSemanticKey(profile);profile=reviseCampaignProfile(profile,{options:[{id:'ability-generation',value:'DMG:III',sourceIds:['DMG:p11']}],houseRules:[{id:'training-price',label:'训练价格表变体',description:'只替换费用，不跳过训练。',replacesRuleIds:['DMG:p86:cost'],actorId:'dm-1',reason:'本战役经济尺度'}]});
+assert.equal(profile.revision,1);assert.notEqual(profileSemanticKey(profile),before);
+assert.throws(()=>reviseCampaignProfile(profile,{packs:[{id:'adnd1e-ua-character',version:'0.1.0'}]}),/needs/);
+assert.throws(()=>reviseCampaignProfile(profile,{packs:[{id:'adnd1e-core-character',version:'0.7.0'},{id:'adnd1e-ua-character',version:'0.1.0'}]}),/not implementation-ready/);
+assert.throws(()=>reviseCampaignProfile(profile,{options:[{id:'fraction',value:1.5,sourceIds:['x']}]}),/safe integers/);
+assert.throws(()=>reviseCampaignProfile(profile,{houseRules:[{id:'silent',label:'x',description:'x',replacesRuleIds:[],actorId:'dm',reason:'x'}]}),/must say/);
+console.log('Campaign profile dependencies, pending-pack refusal, explicit house rules and semantic identity passed.');

@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { requiredGateIds, assessRelease, type ReleaseManifest } from '../src/character/audit/release-gate';
+const fixture: ReleaseManifest={version:1,updatedAt:'test',gates:requiredGateIds.map(id=>({id,status:'accepted',evidence:[{kind:'automated-test',locator:'fixture only'}],remaining:[]}))};
+assert.equal(assessRelease(fixture).ready,true);
+assert.throws(()=>assessRelease({...fixture,gates:fixture.gates.slice(1)}),/omitted/);
+assert.throws(()=>assessRelease({...fixture,gates:[...fixture.gates,fixture.gates[0]]}),/duplicated/);
+const unfinished=structuredClone(fixture);unfinished.gates[0].remaining.push('not done');assert.throws(()=>assessRelease(unfinished),/unfinished/);
+const noEvidence=structuredClone(fixture);noEvidence.gates[0].evidence=[];assert.throws(()=>assessRelease(noEvidence),/evidence/);
+const pending=structuredClone(fixture);pending.gates[0].status='partial';assert.equal(assessRelease(pending).ready,false);
+console.log('PASS: omitted gate, duplicate gate, false acceptance and missing evidence rejected. Fixture does not certify real project acceptance.');

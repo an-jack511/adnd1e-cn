@@ -1,0 +1,4467 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:adnd1e-cn:character:1.1",
+  "title": "AD&D 1e portable character, design candidate 1.1",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "adnd1e-character"
+    },
+    "schemaVersion": {
+      "const": "1.1.0"
+    },
+    "document": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "characterId": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parentRevision": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "branchId": {
+          "type": "string"
+        },
+        "exportedAt": {
+          "type": "string"
+        },
+        "view": {
+          "enum": [
+            "player",
+            "dm-private",
+            "archive"
+          ]
+        },
+        "archiveGuarantee": {
+          "enum": [
+            "checkpoint-and-audit",
+            "full-replay"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "characterId",
+        "revision",
+        "parentRevision",
+        "branchId",
+        "exportedAt",
+        "view",
+        "archiveGuarantee"
+      ],
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "engineContractVersion": {
+          "type": "string"
+        },
+        "profileId": {
+          "type": "string"
+        },
+        "profileRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "packs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              },
+              "digest": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "version",
+              "digest"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "options": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": true
+        },
+        "decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "ruleId": {
+                "type": "string"
+              },
+              "choice": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "actorId": {
+                "type": "string"
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "ruleId",
+              "choice",
+              "reason",
+              "actorId",
+              "sourceIds"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "definitions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "facts": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": true
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "facts",
+              "sourceIds"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "embeddedBundles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "digest": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonicalization": {
+                "const": "adnd1e-integer-json-v1"
+              },
+              "document": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "id",
+              "version",
+              "digest",
+              "canonicalization",
+              "document"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "engineContractVersion",
+        "profileId",
+        "profileRevision",
+        "packs",
+        "options",
+        "decisions",
+        "sources",
+        "definitions",
+        "embeddedBundles"
+      ],
+      "additionalProperties": false
+    },
+    "checkpoint": {
+      "type": "object",
+      "properties": {
+        "atSequence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "facts": {
+          "$ref": "#/$defs/facts"
+        }
+      },
+      "required": [
+        "atSequence",
+        "facts"
+      ],
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "rolls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "eventId": {
+            "type": "string"
+          },
+          "expression": {
+            "type": "string"
+          },
+          "faces": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "keptIndices": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "total": {
+            "type": "number"
+          },
+          "method": {
+            "enum": [
+              "browser-rng",
+              "physical",
+              "dm-supplied"
+            ]
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "eventId",
+          "expression",
+          "faces",
+          "keptIndices",
+          "total",
+          "method",
+          "sourceIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "operation": {
+            "enum": [
+              "set",
+              "add",
+              "suppress"
+            ]
+          },
+          "value": {},
+          "reason": {
+            "type": "string"
+          },
+          "actorId": {
+            "type": "string"
+          },
+          "eventId": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "expiresAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "target",
+          "operation",
+          "value",
+          "reason",
+          "actorId",
+          "eventId",
+          "scope",
+          "expiresAt",
+          "sourceIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "cache": {
+      "type": "object",
+      "properties": {
+        "engineVersion": {
+          "type": "string"
+        },
+        "rulesDigest": {
+          "type": "string"
+        },
+        "throughSequence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "values": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": true
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "engineVersion",
+        "rulesDigest",
+        "throughSequence",
+        "values",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "creator": {
+          "type": "string"
+        },
+        "importedFrom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "migrations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string"
+              },
+              "to": {
+                "type": "string"
+              },
+              "at": {
+                "type": "string"
+              },
+              "warnings": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "from",
+              "to",
+              "at",
+              "warnings"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "unmappedLegacy": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "creator",
+        "importedFrom",
+        "migrations",
+        "unmappedLegacy"
+      ],
+      "additionalProperties": false
+    },
+    "extensions": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "proposals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actorId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "createdAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "submitted",
+              "accepted",
+              "rejected"
+            ]
+          },
+          "publicInputs": {
+            "type": "object"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "actorId",
+          "createdAt",
+          "status",
+          "publicInputs",
+          "expectedRevision"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "format",
+    "schemaVersion",
+    "document",
+    "rules",
+    "checkpoint",
+    "events",
+    "rolls",
+    "overrides",
+    "cache",
+    "provenance",
+    "extensions",
+    "proposals"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "book": {
+          "type": "string"
+        },
+        "printing": {
+          "type": "string"
+        },
+        "printedPages": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "pdfPages": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "section": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "verified-text",
+            "verified-visual",
+            "pending"
+          ]
+        },
+        "locator": {
+          "type": "string"
+        },
+        "verificationScope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "book",
+        "printing",
+        "printedPages",
+        "pdfPages",
+        "section",
+        "status",
+        "locator"
+      ],
+      "additionalProperties": false
+    },
+    "facts": {
+      "type": "object",
+      "properties": {
+        "identity": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "raceId": {
+              "type": "string"
+            },
+            "sex": {
+              "type": "string"
+            },
+            "alignment": {
+              "type": "string"
+            },
+            "ageYears": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "raceId",
+            "sex",
+            "alignment",
+            "ageYears",
+            "languages",
+            "description"
+          ],
+          "additionalProperties": false
+        },
+        "abilities": {
+          "type": "object",
+          "properties": {
+            "base": {
+              "type": "object",
+              "properties": {
+                "STR": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                },
+                "INT": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                },
+                "WIS": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                },
+                "DEX": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                },
+                "CON": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                },
+                "CHA": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 3,
+                  "maximum": 18
+                }
+              },
+              "required": [
+                "STR",
+                "INT",
+                "WIS",
+                "DEX",
+                "CON",
+                "CHA"
+              ],
+              "additionalProperties": false
+            },
+            "exceptionalStrength": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 100
+            },
+            "generation": {
+              "type": "object",
+              "properties": {
+                "methodId": {
+                  "type": "string"
+                },
+                "rollIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "assignment": {
+                  "type": "object",
+                  "properties": {},
+                  "required": [],
+                  "additionalProperties": true
+                }
+              },
+              "required": [
+                "methodId",
+                "rollIds",
+                "assignment"
+              ],
+              "additionalProperties": false
+            },
+            "changes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "ability": {
+                    "type": "string"
+                  },
+                  "amount": {
+                    "type": "number"
+                  },
+                  "scope": {
+                    "enum": [
+                      "permanent",
+                      "temporary"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "eventId": {
+                    "type": "string"
+                  },
+                  "expiresAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "ability",
+                  "amount",
+                  "scope",
+                  "reason",
+                  "eventId",
+                  "expiresAt"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "base",
+            "exceptionalStrength",
+            "generation",
+            "changes"
+          ],
+          "additionalProperties": false
+        },
+        "careers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "classId": {
+                "type": "string"
+              },
+              "variantId": {
+                "type": "string"
+              },
+              "level": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "xp": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "status": {
+                "enum": [
+                  "active",
+                  "inactive",
+                  "former",
+                  "staged"
+                ]
+              },
+              "levelHistory": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "level": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "eventId": {
+                      "type": "string"
+                    },
+                    "hpDice": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    },
+                    "hpAward": {
+                      "type": [
+                        "number",
+                        "null"
+                      ],
+                      "minimum": 0
+                    },
+                    "sourceIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "basis": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "enum": [
+                            "accepted-rule-result",
+                            "dm-override",
+                            "imported-assertion"
+                          ]
+                        },
+                        "rulesDigest": {
+                          "type": "string"
+                        },
+                        "conAtAward": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "components": {
+                          "type": "object",
+                          "additionalProperties": true
+                        },
+                        "decisionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "rulesDigest",
+                        "conAtAward",
+                        "components",
+                        "decisionId"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "awardId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "level",
+                    "eventId",
+                    "hpDice",
+                    "hpAward",
+                    "sourceIds"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "training": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/activity"
+                }
+              },
+              "choices": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": true
+              }
+            },
+            "required": [
+              "id",
+              "classId",
+              "variantId",
+              "level",
+              "xp",
+              "status",
+              "levelHistory",
+              "training",
+              "choices"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "resources": {
+          "type": "object",
+          "properties": {
+            "hp": {
+              "type": "object",
+              "properties": {
+                "damage": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "temporary": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "damage",
+                "temporary"
+              ],
+              "additionalProperties": false
+            },
+            "wallets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "locationId": {
+                    "type": "string"
+                  },
+                  "coins": {
+                    "type": "object",
+                    "properties": {
+                      "pp": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 0
+                      },
+                      "gp": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 0
+                      },
+                      "ep": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 0
+                      },
+                      "sp": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 0
+                      },
+                      "cp": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "pp",
+                      "gp",
+                      "ep",
+                      "sp",
+                      "cp"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "id",
+                  "locationId",
+                  "coins"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "inventory": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "definitionId": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "quantity": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "locationId": {
+                    "type": "string"
+                  },
+                  "equipped": {
+                    "type": "boolean"
+                  },
+                  "customFacts": {
+                    "type": "object",
+                    "properties": {},
+                    "required": [],
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "definitionId",
+                  "label",
+                  "quantity",
+                  "locationId",
+                  "equipped",
+                  "customFacts"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "conditions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "definitionId": {
+                    "type": "string"
+                  },
+                  "scope": {
+                    "type": "string"
+                  },
+                  "since": {
+                    "type": "string"
+                  },
+                  "expiresAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "eventId": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "definitionId",
+                  "scope",
+                  "since",
+                  "expiresAt",
+                  "eventId"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "abilitiesUsed": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": true
+            },
+            "locations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "person",
+                      "container",
+                      "body-slot",
+                      "storage",
+                      "mount"
+                    ]
+                  },
+                  "parentId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "containerInstanceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "entityId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "kind",
+                  "parentId",
+                  "containerInstanceId",
+                  "entityId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "hp",
+            "wallets",
+            "inventory",
+            "conditions",
+            "abilitiesUsed",
+            "locations"
+          ],
+          "additionalProperties": false
+        },
+        "magic": {
+          "type": "object",
+          "properties": {
+            "understanding": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "spellId": {
+                    "type": "string"
+                  },
+                  "level": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "untested",
+                      "understood",
+                      "failed",
+                      "recheck-required"
+                    ]
+                  },
+                  "basis": {
+                    "type": "string"
+                  },
+                  "checkEventIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "spellId",
+                  "level",
+                  "status",
+                  "basis",
+                  "checkEventIds"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "books": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "locationId": {
+                    "type": "string"
+                  },
+                  "entries": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "spellId": {
+                          "type": "string"
+                        },
+                        "acquiredBy": {
+                          "type": "string"
+                        },
+                        "eventId": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "spellId",
+                        "acquiredBy",
+                        "eventId"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "label",
+                  "locationId",
+                  "entries"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "memory": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "spellId": {
+                    "type": "string"
+                  },
+                  "careerId": {
+                    "type": "string"
+                  },
+                  "spellLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "memorized",
+                      "expended",
+                      "lost"
+                    ]
+                  },
+                  "preparedEventId": {
+                    "type": "string"
+                  },
+                  "spentEventId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "spellId",
+                  "careerId",
+                  "spellLevel",
+                  "status",
+                  "preparedEventId",
+                  "spentEventId"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "research": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/activity"
+              }
+            },
+            "qualificationRounds": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "intelligence": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "candidateSetId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "policyId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "attemptOrder": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "minimum": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "maximum": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "unstarted",
+                      "in-progress",
+                      "minimum-retry",
+                      "complete",
+                      "needs-dm"
+                    ]
+                  },
+                  "eventIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "careerId",
+                  "spellLevel",
+                  "intelligence",
+                  "candidateSetId",
+                  "policyId",
+                  "attemptOrder",
+                  "minimum",
+                  "maximum",
+                  "status",
+                  "eventIds"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "understanding",
+            "books",
+            "memory",
+            "research",
+            "qualificationRounds"
+          ],
+          "additionalProperties": false
+        },
+        "campaign": {
+          "type": "object",
+          "properties": {
+            "time": {
+              "type": "string"
+            },
+            "status": {
+              "enum": [
+                "draft",
+                "active",
+                "training",
+                "incapacitated",
+                "dead",
+                "retired"
+              ]
+            },
+            "relationships": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "entityId": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "hireling",
+                      "henchman",
+                      "follower",
+                      "mount",
+                      "patron",
+                      "deity",
+                      "organization"
+                    ]
+                  },
+                  "publicFacts": {
+                    "type": "object",
+                    "properties": {},
+                    "required": [],
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "entityId",
+                  "kind",
+                  "publicFacts"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "properties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "locationId": {
+                    "type": "string"
+                  },
+                  "ownership": {
+                    "type": "string"
+                  },
+                  "details": {
+                    "type": "object",
+                    "properties": {},
+                    "required": [],
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "label",
+                  "locationId",
+                  "ownership",
+                  "details"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "activities": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/activity"
+              }
+            },
+            "goals": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "admission": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "enum": [
+                    "unsubmitted",
+                    "pending",
+                    "accepted",
+                    "rejected"
+                  ]
+                },
+                "decisionId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "acceptedScopes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "outstanding": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "status",
+                "decisionId",
+                "acceptedScopes",
+                "outstanding"
+              ],
+              "additionalProperties": false
+            },
+            "lifeState": {
+              "enum": [
+                "alive",
+                "unconscious",
+                "dying",
+                "dead",
+                "undead",
+                "unknown"
+              ]
+            },
+            "actionRestrictions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "actions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "effectId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sourceEventId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "endsAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "releaseCondition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "disclosure": {
+                    "enum": [
+                      "public",
+                      "private"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "actions",
+                  "reason",
+                  "effectId",
+                  "sourceEventId",
+                  "endsAt",
+                  "releaseCondition",
+                  "disclosure"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "time",
+            "status",
+            "relationships",
+            "properties",
+            "activities",
+            "goals",
+            "admission",
+            "lifeState",
+            "actionRestrictions"
+          ],
+          "additionalProperties": false
+        },
+        "careerPath": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "enum": [
+                "undecided",
+                "single",
+                "multiclass",
+                "dualclass",
+                "bard-staged",
+                "oa-ninja-split"
+              ]
+            },
+            "careerIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "phases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "careerId": {
+                    "type": "string"
+                  },
+                  "status": {
+                    "enum": [
+                      "planned",
+                      "active",
+                      "completed",
+                      "inactive"
+                    ]
+                  },
+                  "eventId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "careerId",
+                  "status",
+                  "eventId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "mode",
+            "careerIds",
+            "phases"
+          ],
+          "additionalProperties": false
+        },
+        "hpAwards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "grantKind": {
+                "enum": [
+                  "accepted-rule-result",
+                  "dm-override",
+                  "imported-assertion",
+                  "fixed-increment"
+                ]
+              },
+              "careerEventIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "dieRollIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "algorithmId": {
+                "type": "string"
+              },
+              "contributions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "careerId": {
+                      "type": "string"
+                    },
+                    "diceTotal": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "conAtAward": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "conContribution": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "careerId",
+                    "diceTotal",
+                    "conAtAward",
+                    "conContribution"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "divisor": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "unrounded": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "rounding": {
+                "type": "string"
+              },
+              "actualAward": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "decisionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "grantKind",
+              "careerEventIds",
+              "dieRollIds",
+              "algorithmId",
+              "contributions",
+              "divisor",
+              "unrounded",
+              "rounding",
+              "actualAward",
+              "sourceIds",
+              "decisionId"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "advancement": {
+          "type": "object",
+          "properties": {
+            "adventureAssessments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "adventureId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "rating": {
+                    "enum": [
+                      "E",
+                      "S",
+                      "F",
+                      "P"
+                    ]
+                  },
+                  "eventId": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "adventureId",
+                  "careerId",
+                  "rating",
+                  "eventId"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "xpBatches": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "adventureId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "proposed",
+                      "awarded",
+                      "not-earned",
+                      "needs-dm"
+                    ]
+                  },
+                  "allocations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "careerId": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "amount": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "required": [
+                        "careerId",
+                        "amount",
+                        "reason"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "eventId": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "adventureId",
+                  "status",
+                  "allocations",
+                  "eventId"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "pending": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "targetLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "eligible",
+                      "training",
+                      "challenge-pending",
+                      "completed",
+                      "needs-dm"
+                    ]
+                  },
+                  "policyId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "requiredTasks": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "eventIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "careerId",
+                  "targetLevel",
+                  "status",
+                  "policyId",
+                  "requiredTasks",
+                  "eventIds"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "adventureAssessments",
+            "xpBatches",
+            "pending"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "identity",
+        "abilities",
+        "careers",
+        "resources",
+        "magic",
+        "campaign",
+        "careerPath",
+        "hpAwards",
+        "advancement"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "parentId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "enum": [
+            "creation.abilities-generated",
+            "career.initialized",
+            "funds.granted",
+            "inventory.purchased",
+            "creation.review-requested",
+            "campaign.admitted",
+            "resource.damage-recorded",
+            "resource.healing-recorded",
+            "experience.awarded",
+            "training.payment-recorded",
+            "training.interval-recorded",
+            "advancement.completed",
+            "spell.understanding-checked",
+            "spell.acquired",
+            "spell.memorized",
+            "spell.expended",
+            "condition.applied",
+            "condition.removed",
+            "ruling.applied",
+            "correction.applied"
+          ]
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "authority": {
+          "enum": [
+            "player",
+            "dm-attested",
+            "system"
+          ]
+        },
+        "recordedAt": {
+          "type": "string"
+        },
+        "campaignTime": {
+          "type": "string"
+        },
+        "status": {
+          "const": "committed"
+        },
+        "payload": {
+          "type": "object"
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rollIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "supersedesId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "sequence",
+        "parentId",
+        "type",
+        "actorId",
+        "authority",
+        "recordedAt",
+        "campaignTime",
+        "status",
+        "payload",
+        "sourceIds",
+        "rollIds",
+        "supersedesId"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "creation.abilities-generated"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "method": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "assignment": {
+                    "type": "object",
+                    "properties": {
+                      "STR": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "INT": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "WIS": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "DEX": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "CON": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "CHA": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "STR",
+                      "INT",
+                      "WIS",
+                      "DEX",
+                      "CON",
+                      "CHA"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "method",
+                  "assignment"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "career.initialized"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "level": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "hpRoll": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "conBonus": {
+                    "type": "integer"
+                  },
+                  "hpAward": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "required": [
+                  "careerId",
+                  "level",
+                  "hpRoll",
+                  "conBonus",
+                  "hpAward"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "funds.granted"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "walletId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "coins": {
+                    "type": "object",
+                    "properties": {
+                      "pp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "gp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "ep": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "sp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "cp": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "pp",
+                      "gp",
+                      "ep",
+                      "sp",
+                      "cp"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "walletId",
+                  "coins"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "inventory.purchased"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "walletId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "definitionId": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "quantity": {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        "locationId": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "equipped": {
+                          "type": "boolean"
+                        },
+                        "costCp": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "definitionId",
+                        "quantity",
+                        "locationId",
+                        "equipped",
+                        "costCp"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "totalCp": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "change": {
+                    "type": "object",
+                    "properties": {
+                      "pp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "gp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "ep": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "sp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "cp": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "pp",
+                      "gp",
+                      "ep",
+                      "sp",
+                      "cp"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "walletId",
+                  "items",
+                  "totalCp",
+                  "change"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "creation.review-requested"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "pending": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "pending"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "campaign.admitted"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "decisionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "language": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "ageYears": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "acceptedScopes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "decisionId",
+                  "language",
+                  "ageYears",
+                  "acceptedScopes"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "resource.damage-recorded"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "damageBefore": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "damageAfter": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "cause": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "amount",
+                  "damageBefore",
+                  "damageAfter",
+                  "cause"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "resource.healing-recorded"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "damageBefore": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "damageAfter": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "methodId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "restrictionsReleased": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "amount",
+                  "damageBefore",
+                  "damageAfter",
+                  "methodId",
+                  "restrictionsReleased"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "experience.awarded"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "batchId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "adventureId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "allocations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "careerId": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "xpBefore": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "xpAfter": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "awarded": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "policyId": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "primeBonusXp": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "careerId",
+                        "xpBefore",
+                        "xpAfter",
+                        "awarded",
+                        "primeBonusXp",
+                        "policyId"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "batchId",
+                  "adventureId",
+                  "allocations"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "training.payment-recorded"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "activityId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "walletId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "paidCp": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "coinsBefore": {
+                    "type": "object",
+                    "properties": {
+                      "pp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "gp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "ep": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "sp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "cp": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "pp",
+                      "gp",
+                      "ep",
+                      "sp",
+                      "cp"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "coinsAfter": {
+                    "type": "object",
+                    "properties": {
+                      "pp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "gp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "ep": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "sp": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "cp": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "pp",
+                      "gp",
+                      "ep",
+                      "sp",
+                      "cp"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "activityId",
+                  "walletId",
+                  "paidCp",
+                  "coinsBefore",
+                  "coinsAfter"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "training.interval-recorded"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "activityId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "start": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "end": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "continuous": {
+                    "type": "boolean"
+                  },
+                  "interruptions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "activityId",
+                  "start",
+                  "end",
+                  "continuous",
+                  "interruptions"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "advancement.completed"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "fromLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "toLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "activityIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "hpAwardId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "tasksCompleted": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "careerId",
+                  "fromLevel",
+                  "toLevel",
+                  "activityIds",
+                  "hpAwardId",
+                  "tasksCompleted"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "spell.understanding-checked"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "roundId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "intAtCheck": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "attemptReason": {
+                    "enum": [
+                      "first-pass",
+                      "minimum-retry",
+                      "permanent-int-change",
+                      "dm-adopted-interpretation"
+                    ]
+                  },
+                  "outcome": {
+                    "enum": [
+                      "understood",
+                      "failed"
+                    ]
+                  },
+                  "policyId": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "roundId",
+                  "careerId",
+                  "spellId",
+                  "spellLevel",
+                  "intAtCheck",
+                  "attemptReason",
+                  "outcome",
+                  "policyId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "spell.acquired"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "bookId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sourceInstanceId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "methodId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "qualificationEventId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "consumedSource": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "careerId",
+                  "spellId",
+                  "bookId",
+                  "sourceInstanceId",
+                  "methodId",
+                  "qualificationEventId",
+                  "consumedSource"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "spell.memorized"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "careerId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "memoryId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "spellLevel": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "activityId": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "careerId",
+                  "memoryId",
+                  "spellId",
+                  "spellLevel",
+                  "activityId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "spell.expended"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "memoryId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "reason": {
+                    "enum": [
+                      "cast",
+                      "interrupted",
+                      "lost"
+                    ]
+                  },
+                  "materialInstanceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "memoryId",
+                  "reason",
+                  "materialInstanceIds"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "condition.applied"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "conditionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "definitionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "scope": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "expiresAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "conditionId",
+                  "definitionId",
+                  "scope",
+                  "expiresAt"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "condition.removed"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "conditionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "methodId": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "conditionId",
+                  "methodId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "ruling.applied"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "decisionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "target": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "operation": {
+                    "enum": [
+                      "set",
+                      "add",
+                      "suppress"
+                    ]
+                  },
+                  "value": {},
+                  "scope": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "expiresAt": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "decisionId",
+                  "target",
+                  "operation",
+                  "value",
+                  "scope",
+                  "expiresAt"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "correction.applied"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "payload": {
+                "type": "object",
+                "properties": {
+                  "correctsEventIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "affectedFields": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "decisionId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "correctsEventIds",
+                  "reason",
+                  "affectedFields",
+                  "decisionId"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "activity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "approved",
+            "in-progress",
+            "completed",
+            "failed",
+            "interrupted"
+          ]
+        },
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inputs": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": true
+        },
+        "eventIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "status",
+        "start",
+        "end",
+        "inputs",
+        "eventIds"
+      ],
+      "additionalProperties": false
+    },
+    "rational": {
+      "type": "object",
+      "properties": {
+        "numerator": {
+          "type": "integer"
+        },
+        "denominator": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "numerator",
+        "denominator"
+      ],
+      "additionalProperties": false
+    },
+    "eventPayloads": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "creation.abilities-generated"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "method": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "assignment": {
+                  "type": "object",
+                  "properties": {
+                    "STR": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "INT": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "WIS": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "DEX": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "CON": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "CHA": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "STR",
+                    "INT",
+                    "WIS",
+                    "DEX",
+                    "CON",
+                    "CHA"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "method",
+                "assignment"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "career.initialized"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "careerId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "level": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "hpRoll": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "conBonus": {
+                  "type": "integer"
+                },
+                "hpAward": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "required": [
+                "careerId",
+                "level",
+                "hpRoll",
+                "conBonus",
+                "hpAward"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "funds.granted"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "walletId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "coins": {
+                  "type": "object",
+                  "properties": {
+                    "pp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "gp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "ep": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "sp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "cp": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "pp",
+                    "gp",
+                    "ep",
+                    "sp",
+                    "cp"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "walletId",
+                "coins"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "inventory.purchased"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "walletId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "definitionId": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "quantity": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "locationId": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "equipped": {
+                        "type": "boolean"
+                      },
+                      "costCp": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "definitionId",
+                      "quantity",
+                      "locationId",
+                      "equipped",
+                      "costCp"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "totalCp": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "change": {
+                  "type": "object",
+                  "properties": {
+                    "pp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "gp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "ep": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "sp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "cp": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "pp",
+                    "gp",
+                    "ep",
+                    "sp",
+                    "cp"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "walletId",
+                "items",
+                "totalCp",
+                "change"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "creation.review-requested"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "pending": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "pending"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "campaign.admitted"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "decisionId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "language": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ageYears": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "acceptedScopes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "decisionId",
+                "language",
+                "ageYears",
+                "acceptedScopes"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource.damage-recorded"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "damageBefore": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "damageAfter": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "cause": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "amount",
+                "damageBefore",
+                "damageAfter",
+                "cause"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource.healing-recorded"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "damageBefore": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "damageAfter": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "methodId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "restrictionsReleased": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "amount",
+                "damageBefore",
+                "damageAfter",
+                "methodId",
+                "restrictionsReleased"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "experience.awarded"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "batchId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "adventureId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "allocations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "careerId": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "xpBefore": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "xpAfter": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "awarded": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "primeBonusCpOrXp": {
+                        "type": "integer"
+                      },
+                      "policyId": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "careerId",
+                      "xpBefore",
+                      "xpAfter",
+                      "awarded",
+                      "primeBonusCpOrXp",
+                      "policyId"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "batchId",
+                "adventureId",
+                "allocations"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "training.payment-recorded"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "activityId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "walletId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "paidCp": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "coinsBefore": {
+                  "type": "object",
+                  "properties": {
+                    "pp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "gp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "ep": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "sp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "cp": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "pp",
+                    "gp",
+                    "ep",
+                    "sp",
+                    "cp"
+                  ],
+                  "additionalProperties": false
+                },
+                "coinsAfter": {
+                  "type": "object",
+                  "properties": {
+                    "pp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "gp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "ep": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "sp": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "cp": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "pp",
+                    "gp",
+                    "ep",
+                    "sp",
+                    "cp"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "activityId",
+                "walletId",
+                "paidCp",
+                "coinsBefore",
+                "coinsAfter"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "training.interval-recorded"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "activityId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "start": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "end": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "continuous": {
+                  "type": "boolean"
+                },
+                "interruptions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "activityId",
+                "start",
+                "end",
+                "continuous",
+                "interruptions"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "advancement.completed"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "careerId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fromLevel": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "toLevel": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "activityIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "hpAwardId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "tasksCompleted": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "careerId",
+                "fromLevel",
+                "toLevel",
+                "activityIds",
+                "hpAwardId",
+                "tasksCompleted"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "spell.understanding-checked"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "roundId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "careerId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "spellId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "spellLevel": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "intAtCheck": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "attemptReason": {
+                  "enum": [
+                    "first-pass",
+                    "minimum-retry",
+                    "permanent-int-change",
+                    "dm-adopted-interpretation"
+                  ]
+                },
+                "outcome": {
+                  "enum": [
+                    "understood",
+                    "failed"
+                  ]
+                },
+                "policyId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "roundId",
+                "careerId",
+                "spellId",
+                "spellLevel",
+                "intAtCheck",
+                "attemptReason",
+                "outcome",
+                "policyId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "spell.acquired"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "careerId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "spellId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "bookId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sourceInstanceId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "methodId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "qualificationEventId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "consumedSource": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "careerId",
+                "spellId",
+                "bookId",
+                "sourceInstanceId",
+                "methodId",
+                "qualificationEventId",
+                "consumedSource"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "spell.memorized"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "careerId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "memoryId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "spellId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "spellLevel": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "activityId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "careerId",
+                "memoryId",
+                "spellId",
+                "spellLevel",
+                "activityId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "spell.expended"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "memoryId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reason": {
+                  "enum": [
+                    "cast",
+                    "interrupted",
+                    "lost"
+                  ]
+                },
+                "materialInstanceIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "memoryId",
+                "reason",
+                "materialInstanceIds"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "condition.applied"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "conditionId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "definitionId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "expiresAt": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "conditionId",
+                "definitionId",
+                "scope",
+                "expiresAt"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "condition.removed"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "conditionId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "methodId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "conditionId",
+                "methodId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "ruling.applied"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "decisionId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "operation": {
+                  "enum": [
+                    "set",
+                    "add",
+                    "suppress"
+                  ]
+                },
+                "value": {},
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "expiresAt": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "decisionId",
+                "target",
+                "operation",
+                "value",
+                "scope",
+                "expiresAt"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "correction.applied"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "correctsEventIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "affectedFields": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "decisionId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "correctsEventIds",
+                "reason",
+                "affectedFields",
+                "decisionId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "type",
+            "payload"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

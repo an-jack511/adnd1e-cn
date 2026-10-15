@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:adnd1e-cn:player-projection:1.0",
+  "title": "Public player projection; not full archive",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "adnd1e-character-projection"
+    },
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "projection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "characterId": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "exportedAt": {
+          "type": "string"
+        },
+        "view": {
+          "const": "player"
+        },
+        "purpose": {
+          "const": "readable-public-exchange"
+        },
+        "restoresPrivateArchive": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "characterId",
+        "revision",
+        "exportedAt",
+        "view",
+        "purpose",
+        "restoresPrivateArchive"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "race": {
+          "type": "string"
+        },
+        "careers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "level": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "label",
+              "level"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "alignment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "race",
+        "careers",
+        "alignment"
+      ],
+      "additionalProperties": false
+    },
+    "health": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "disclosure": {
+              "const": "exact"
+            },
+            "maximum": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "current": {
+              "type": "integer"
+            },
+            "publicConditions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "disclosure",
+            "maximum",
+            "current",
+            "publicConditions"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "disclosure": {
+              "const": "qualitative"
+            },
+            "description": {
+              "type": "string"
+            },
+            "publicConditions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "disclosure",
+            "description",
+            "publicConditions"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number",
+                "minimum": 0
+              },
+              "location": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "quantity",
+              "location"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "coins": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "pp": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "gp": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "ep": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sp": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "cp": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "label",
+              "pp",
+              "gp",
+              "ep",
+              "sp",
+              "cp"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "items",
+        "coins"
+      ],
+      "additionalProperties": false
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "sourceBook": {
+            "type": "string"
+          },
+          "printedPages": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "status": {
+            "enum": [
+              "historical-result",
+              "dm-public-ruling",
+              "needs-check"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "description",
+          "sourceBook",
+          "printedPages",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "publicActivities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "publicStatus": {
+            "enum": [
+              "received",
+              "in-progress",
+              "no-public-result",
+              "interrupted",
+              "stopped",
+              "result-announced"
+            ]
+          },
+          "declaredLevel": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "spentCp": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "publicElapsed": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "publicStatus",
+          "declaredLevel",
+          "spentCp",
+          "publicElapsed"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "publicHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "kind": {
+            "enum": [
+              "player-action",
+              "public-ruling",
+              "public-resource-change",
+              "public-result"
+            ]
+          },
+          "time": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sequence",
+          "kind",
+          "time",
+          "summary"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "format",
+    "schemaVersion",
+    "projection",
+    "identity",
+    "health",
+    "resources",
+    "capabilities",
+    "publicActivities",
+    "publicHistory",
+    "warnings"
+  ],
+  "additionalProperties": false
+}

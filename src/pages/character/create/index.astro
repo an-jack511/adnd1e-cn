@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { methodLabels, source } from '../../../character/creation/model';
+---
+<BaseLayout title="角色创建 · 属性向导">
+  <h1>角色创建 · 属性向导</h1>
+  <p>先确定本团允许的 DMG 属性生成方法，保留全部骰点，再分配六项属性。当前为第一阶段创建草稿。</p>
+  <p class="notice">本页尚未完成种族、职业、生命值、金钱、法术和升级程序；完成属性不代表角色已合法入场。<a href="/character/">返回完整人物记录表</a></p>
+  <p>完成并保存属性后，可进入<a href="/character/create/core/">核心种族与职业资格检查</a>。</p>
+  <section aria-label="草稿与备份">
+    <h2>草稿与备份</h2>
+    <label>草稿姓名 <input id="draft-name" maxlength="200" autocomplete="off" /></label>
+    <div class="draft-actions"><button id="new-draft" type="button">新建</button><button id="save-draft" type="button">保存到浏览器</button><button id="export-draft" type="button">导出草稿文件</button><label>导入草稿 <input id="import-draft" type="file" accept=".json,application/json" /></label></div>
+    <div class="draft-actions"><select id="draft-library" aria-label="浏览器中的创建草稿"><option value="">选择草稿</option></select><button id="load-draft" type="button">加载</button></div>
+    <p id="draft-revision" class="small"></p><p id="creation-status" role="status" aria-live="polite"></p>
+  </section>
+  <section aria-label="生成属性">
+    <h2>1. 确定生成方法</h2>
+    <label for="generation-method">DMG 生成方法</label> <select id="generation-method">{Object.entries(methodLabels).map(([id,label])=><option value={id}>{label}</option>)}</select>
+    <p><label><input id="method-approved" type="checkbox" /> 已与 DM 确定本次采用的方法和重掷许可</label></p>
+    <p class="small">这是本地记录声明，不是线上 DM 授权认证。OA 同名方法有不同选择规则，UA 方法 V 另有前置，本原型尚不执行它们。</p>
+    <button id="generate-abilities" type="button">生成完整骰池</button>
+    <p>依据：<a href={source.href}>DMG 印刷第 {source.printedPage} 页 · 属性生成</a></p>
+    <h2>2. 确认属性分配</h2>
+    <p id="current-method"></p><div id="assignment-choices" class="assignment-grid"></div><button id="confirm-assignments" type="button" disabled>检查并确认分配</button>
+    <div id="ability-results" class="ability-grid" aria-label="六项属性结果"></div>
+    <p class="small">显示原始生成值，尚未加入种族、年龄或其他变化。I / II 每个骰组只能用一次；III 取各项最高；IV 保持整组原顺序。</p>
+    <details><summary>查看完整原骰和采用结果</summary><div class="table-wrap"><table class="data-table"><thead><tr><th scope="col">骰组/属性</th><th scope="col">原骰</th><th scope="col">最高三骰之和</th><th scope="col">采用</th></tr></thead><tbody id="candidate-body"></tbody></table></div></details>
+    <p id="history-count" class="small"></p>
+  </section>
+  <noscript>本向导需要浏览器脚本；原书和人物表仍可静态阅读。</noscript>
+  <script>import { startCreation } from '../../../character/creation/controller'; startCreation();</script>
+</BaseLayout>
+<style>
+  .draft-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:.8rem 0}
+  button,select,input{font:inherit}button,select{min-height:44px}input[type=file]{max-width:100%}
+  .assignment-grid,.ability-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;margin:1rem 0}
+  .assignment-grid :global(label){display:flex;flex-direction:column;gap:.3rem;min-width:0}
+  .assignment-grid :global(select){max-width:100%;min-height:44px}
+  .ability-grid :global(div){padding:.8rem;border:1px solid #ddd}
+  #creation-status{padding:.5rem;background:#f4f1eb}#creation-status[data-error=true]{border-left:4px solid #8b2020}details{margin:1rem 0}
+  @media(max-width:600px){
+    .assignment-grid{grid-template-columns:1fr}.ability-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .draft-actions{align-items:stretch}.draft-actions button{flex:1 1 120px;white-space:nowrap}
+    .draft-actions>label{flex-basis:100%;min-width:0}select{max-width:100%}
+  }
+</style>

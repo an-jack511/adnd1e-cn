@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="角色创建 · 核心资格">
+  <h1>角色创建 · 核心资格</h1>
+  <p>从已确认的属性草稿继续选择核心种族、阵营和普通职业。系统执行种族调整、属性门槛、明确多职业组合与等级上限检查。</p>
+  <p class="notice">本页仍不是完整角色：HP、金钱、装备、语言、武器熟练、初始法术、灵能及DM入场尚未完成。吟游诗人、双职、UA和OA使用独立路径，不在普通职业选择中悄悄混用。</p>
+  <section aria-label="核心角色候选">
+    <h2>属性与身份</h2>
+    <div class="fields"><label>属性草稿 <select id="core-draft"><option value="">选择已确认属性草稿</option></select></label><label>种族 <select id="core-race"></select></label><label>亚种 <select id="core-subrace"></select></label><label>性别（用于原表上限） <select id="core-sex"><option value="male">男性</option><option value="female">女性</option></select></label><label>阵营 <select id="core-alignment"></select></label><label>职业模式 <select id="core-mode"><option value="single">单职业</option><option value="multiclass">同时多职业</option></select></label></div>
+    <fieldset><legend>普通核心职业</legend><div id="core-classes" class="choices"></div></fieldset>
+    <button id="core-evaluate" type="button">检查核心资格</button> <button id="core-export" type="button" disabled>导出创建进度</button>
+    <p id="core-status" role="status" aria-live="polite">尚未检查。</p>
+    <div id="core-results" class="scores" aria-label="调整后属性"></div><ul id="core-issues"></ul>
+  </section>
+  <section id="core-resources" aria-label="一级生命值与起始金钱" hidden>
+    <h2>一级生命值与起始金钱</h2>
+    <p class="notice">可让浏览器掷骰，也可录入桌上实体骰结果。两种方式都会把每枚骰面和方式写入创建进度；多职业不会套用单职业捷径。</p>
+    <div class="resource-grid">
+      <div><h3>一级 HP</h3><p id="core-hp-help"></p><label>掷骰方式 <select id="core-hp-faces-mode"><option value="browser">浏览器掷骰</option><option value="manual">手工录入</option></select></label><label>骰面（逗号分隔） <input id="core-hp-faces" inputmode="numeric" /></label><button id="core-hp-record" type="button">掷骰并记录 HP</button></div>
+      <div><h3>起始金钱</h3><p id="core-money-help"></p><label>掷骰方式 <select id="core-money-faces-mode"><option value="browser">浏览器掷骰</option><option value="manual">手工录入</option></select></label><label>骰面（逗号分隔） <input id="core-money-faces" inputmode="numeric" /></label><button id="core-money-record" type="button">掷骰并记录金钱</button></div>
+    </div>
+    <p id="core-resource-status" role="status" aria-live="polite">先完成核心资格检查。</p>
+  </section>
+  <p>依据包：PHB核心资格1.0.0；每个结果保留来源ID。原书冲突显示“需DM”，不会选一个值冒充唯一RAW。<a href="/books/phb/">查看PHB目录</a></p>
+  <script>import {startCoreCandidate} from '../../../character/ui/core-candidate-controller';startCoreCandidate();</script>
+</BaseLayout>
+<style>.fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem}.fields label,.resource-grid label{display:flex;flex-direction:column;gap:.2rem}.fields select,button,.resource-grid select,.resource-grid input{min-height:44px;font:inherit}.choices{display:flex;flex-wrap:wrap;gap:.7rem}.choices label{min-width:8rem}.scores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem}.scores :global(div){border:1px solid #aaa;padding:.5rem}.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.resource-grid>div{border:1px solid #aaa;padding:1rem}.resource-grid label,.resource-grid button{margin:.5rem 0}#core-status,#core-resource-status{padding:.6rem;background:#f4f1eb}#core-status[data-error=true]{border-left:4px solid #8b2020}@media(max-width:650px){.fields,.resource-grid{grid-template-columns:1fr}.scores{grid-template-columns:repeat(2,minmax(0,1fr))}}</style>

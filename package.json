@@ -10,7 +10,9 @@
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
     "check:links": "tsx scripts/check-built-links.ts",
-    "test:rules": "tsx scripts/test-rules-engine.ts"
+    "test:rules": "tsx scripts/test-rules-engine.ts",
+    "test:character": "tsx scripts/test-character-suite.ts",
+    "check:character-release": "tsx scripts/check-character-release.ts"
   },
   "dependencies": {
     "astro": "5.15.5",

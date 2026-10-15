@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { applyCoreXpBatch, performanceAverage, planBardTraining, planBelowNameTraining, planNameLevelTraining } from '../src/character/engine/core-training';
+assert.deepEqual(performanceAverage(['E','S','F','P']),{numerator:10,denominator:4,decimal:2.5,ratings:['E','S','F','P']});
+const tutor=planBelowNameTraining({currentLevel:2,ratings:['E','S'],route:'tutor'});assert.deepEqual([tutor.weeksNumerator,tutor.weeksDenominator,tutor.weeklyCostGp,tutor.totalCostGpNumerator,tutor.totalCostGpDenominator],[3,2,3000,9000,2]);
+const self=planBelowNameTraining({currentLevel:1,ratings:['E','E','S'],route:'self'});assert.deepEqual([self.weeksNumerator,self.weeksDenominator,self.weeklyCostGp,self.totalCostGpNumerator],[8,3,1500,12000]);assert.throws(()=>planBelowNameTraining({currentLevel:1,ratings:['S'],route:'self'}),/under 2/);
+const name=planNameLevelTraining({currentLevel:9,ratings:['E','S'],costFamily:'fighter'});assert.deepEqual([name.weeklyCostGp,name.totalCostGpNumerator,name.totalCostGpDenominator],[9000,27000,2]);
+assert.equal(planBardTraining({targetLevel:5,monetaryGainsGp:101}).minimumContributionGp,5051);
+assert.deepEqual(applyCoreXpBatch({currentXp:1900,nextLevelThreshold:2001,batchXp:500}),{status:'awarded',newXp:2400,awardedXp:500,rejectedXp:0,nowEligible:true,sourceIds:['dmg:86:gaining-levels']});
+const blocked=applyCoreXpBatch({currentXp:2400,nextLevelThreshold:2001,batchXp:500});assert.equal(blocked.status,'blocked-pending-level');assert.equal(blocked.newXp,2400);
+console.log('PASS: public E/S/F/P equal-weight fractions, tutor/self time and cost, name-level and Bard branches, full crossing XP batch and subsequent XP stop.');

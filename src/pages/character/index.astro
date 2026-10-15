@@ -18,8 +18,11 @@ const carryItems = items.filter((item) => item.category !== '魔法物品');
 const ruleSources = [...new Set([...classes, ...races, ...items, ...spells].flatMap((entry) => entry.source.map((source) => source.book)))].sort();
 const sourceLabel = (entry) => [...new Set(entry.source.map((source) => source.book))].join('、');
 ---
-<BaseLayout title="快速车卡">
-  <h1>快速车卡</h1>
+<BaseLayout title="角色与人物记录">
+  <h1>角色与人物记录</h1>
+  <p class="notice"><a href="/character/create/">使用 DMG 属性创建向导</a>：完整四种生成方法、骰点过程、草稿保存与文件备份。下方继续用于完整人物记录。</p>
+  <p><a href="/character/import/">角色文件隔离检查与原件保全</a>：识别草稿、旧档、完整候选档案和公开摘要，不覆盖已有角色。</p>
+  <p><a href="/character/campaign/">配置战役角色规则</a>：保存规则包版本、DM 允许的选项与显式房规；未核扩展不会被悄悄启用。</p>
   <p class="lede">人物记录 · 属性、战斗、装备、经历与随从 · <a href="/character/abilities/">PHB 属性表</a></p>
   <p class="notice"><strong>规则范围：</strong>本页同时收录核心与扩展资料。先勾选本战役启用的规则书；来源标签不是兼容性保证，战役专用种族与职业仍需 DM 核准。</p>
   <form id="character-form" class="record-sheet">

@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import { admitCoreCreation, decideEligibilityIssue, newCoreCreation, parseCoreCreation, recordCreationTask, selectCoreCandidate } from '../src/character/workflows/core-create';
+const generation={draftId:'draft',draftRevision:2,batchId:'batch',method:'DMG:I' as const,scores:{STR:16,INT:13,WIS:14,DEX:15,CON:14,CHA:15}};
+let doc=newCoreCreation({id:'creation',name:'Test',generation});assert.equal(doc.status,'selection');
+doc=selectCoreCandidate(doc,{raceId:'human',subraceId:null,sex:'male',alignmentId:'NG',initialScores:generation.scores,classIds:['fighter'],mode:'single',campaign:{allowedRaceIds:['dwarf','elf','gnome','half-elf','halfling','half-orc','human'],bardEnabled:false}});assert.equal(doc.status,'incomplete');
+for(const id of ['hp','money','languages','proficiencies','equipment','initial-spells','psionics','admission-context'] as const)doc=recordCreationTask(doc,id,{status:id==='initial-spells'||id==='psionics'?'not-applicable':'complete',sourceIds:['test-source'],note:'fixture',facts:id==='initial-spells'||id==='psionics'?null:{recorded:true}});
+assert.equal(doc.status,'ready-for-review');doc=admitCoreCreation(doc,{actorId:'dm',at:'2026-10-14',scope:'fixture only'});assert.equal(doc.status,'admitted');assert.throws(()=>selectCoreCandidate(doc,doc.candidate!));
+let conflicted=newCoreCreation({id:'conflict',name:'Conflict',generation:{...generation,scores:{...generation.scores,DEX:15}}});
+conflicted=selectCoreCandidate(conflicted,{raceId:'half-orc',subraceId:null,sex:'male',alignmentId:'TN',initialScores:conflicted.generation.scores,classIds:['thief'],mode:'single',campaign:{allowedRaceIds:['half-orc'],bardEnabled:false}});assert.equal(conflicted.status,'needs-dm');
+const issue=(conflicted.evaluation as any).issues.find((i:any)=>i.id==='pending-range-DEX');assert.ok(issue);
+conflicted=decideEligibilityIssue(conflicted,{issueId:issue.id,choice:'accepted-exception',actorId:'dm',reason:'campaign adopts PHB table III value',sourceIds:issue.sourceIds});assert.notEqual(conflicted.status,'needs-dm');
+assert.throws(()=>decideEligibilityIssue(conflicted,{issueId:'made-up',choice:'accepted-exception',actorId:'dm',reason:'bad',sourceIds:['none']}));
+const forged=structuredClone(conflicted) as any;forged.status='admitted';forged.admission={actorId:'fake',at:'now',scope:'fake'};assert.throws(()=>parseCoreCreation(forged),/unresolved|incomplete/i);
+console.log('PASS: core creation selection, recomputed eligibility, task completeness, scoped DM decisions and admission immutability. Task rule algorithms remain separate gates.');

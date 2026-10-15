@@ -1,0 +1,20 @@
+import { characterRulePacks,findRulePack,type CampaignRuleProfile,type HouseRule,type ProfileOption,type ProfilePack } from '../rules/campaign-profile';
+import { canonical,type Json } from '../domain/transactions';
+const id=(value:string,label:string)=>{if(typeof value!=='string'||!value.trim())throw new Error(`${label} is required.`)};
+const unique=(values:readonly string[],label:string)=>{if(new Set(values).size!==values.length)throw new Error(`Duplicate ${label}.`)};
+export function validateCampaignProfile(profile:CampaignRuleProfile,{allowPending=false}:{allowPending?:boolean}={}):void{
+  if(profile.format!=='adnd1e-campaign-profile'||profile.schemaVersion!=='1.0.0')throw new Error('Unsupported campaign profile version.');
+  id(profile.id,'profile id');id(profile.name,'profile name');id(profile.dmActorId,'DM actor');
+  if(!Number.isSafeInteger(profile.revision)||profile.revision<0)throw new Error('Invalid profile revision.');
+  unique(profile.packs.map(pack=>pack.id),'rule pack');
+  const active=new Set(profile.packs.map(pack=>pack.id));
+  for(const ref of profile.packs){const pack=findRulePack(ref.id);if(!pack)throw new Error(`Unknown rule pack ${ref.id}.`);if(pack.version!==ref.version)throw new Error(`Rule pack version mismatch for ${ref.id}.`);for(const dependency of pack.dependsOn)if(!active.has(dependency))throw new Error(`Rule pack ${ref.id} needs ${dependency}.`);for(const conflict of pack.conflictsWith)if(active.has(conflict))throw new Error(`Rule packs ${ref.id} and ${conflict} conflict.`);if(pack.status==='pending'&&!allowPending)throw new Error(`Rule pack ${ref.id} is not implementation-ready.`)}
+  unique(profile.options.map(option=>option.id),'option');unique(profile.houseRules.map(rule=>rule.id),'house rule');
+  profile.options.forEach(option=>{id(option.id,'option id');if(typeof option.value==='number'&&!Number.isSafeInteger(option.value))throw new Error('Option numbers must be safe integers.');if(!option.sourceIds.length)throw new Error('Options need rule sources.');canonical(option as unknown as Json)});
+  profile.houseRules.forEach(rule=>{for(const [value,label] of [[rule.id,'house rule id'],[rule.label,'house rule label'],[rule.description,'house rule description'],[rule.actorId,'house rule actor'],[rule.reason,'house rule reason']] as const)id(value,label);if(!rule.replacesRuleIds.length)throw new Error('A house rule must say which printed/project rule it replaces.');canonical(rule as unknown as Json)});
+}
+export function newCoreCampaignProfile(input:{id:string;name:string;dmActorId:string}):CampaignRuleProfile{return{format:'adnd1e-campaign-profile',schemaVersion:'1.0.0',id:input.id,revision:0,name:input.name,dmActorId:input.dmActorId,packs:[{id:'adnd1e-core-character',version:findRulePack('adnd1e-core-character')!.version}],options:[],houseRules:[]}}
+export function reviseCampaignProfile(profile:CampaignRuleProfile,input:{packs?:readonly ProfilePack[];options?:readonly ProfileOption[];houseRules?:readonly HouseRule[]}):CampaignRuleProfile{const next={...profile,revision:profile.revision+1,packs:input.packs??profile.packs,options:input.options??profile.options,houseRules:input.houseRules??profile.houseRules};validateCampaignProfile(next);return next}
+export function profileCoverage(profile:CampaignRuleProfile){validateCampaignProfile(profile,{allowPending:true});const packs=profile.packs.map(ref=>findRulePack(ref.id)!);return{verifiedScopes:[...new Set(packs.flatMap(pack=>pack.verifiedScopes))].sort(),unresolvedScopes:[...new Set(packs.flatMap(pack=>pack.unresolvedScopes))].sort(),implementationReady:packs.every(pack=>pack.status!=='pending'),warnings:packs.flatMap(pack=>pack.status==='verified'?[]:[`${pack.label}：${pack.status==='partial'?'仅已核范围可自动执行':'尚不可执行'}。`])}}
+export function profileSemanticKey(profile:CampaignRuleProfile):string{validateCampaignProfile(profile,{allowPending:true});return canonical({packs:profile.packs,options:profile.options,houseRules:profile.houseRules} as unknown as Json)}
+export const listedCharacterRulePacks=()=>characterRulePacks.map(pack=>({...pack}));

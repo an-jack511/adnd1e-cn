@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { calculateCoreHpAward, checkCoreAdvancement } from '../src/character/engine/core-progression';
+let check=checkCoreAdvancement({classId:'fighter',currentLevel:1,xp:2000,levelCap:'unlimited'});assert.equal(check.status,'not-eligible');assert.match(check.reasons[0],/1 XP/);
+check=checkCoreAdvancement({classId:'fighter',currentLevel:1,xp:2001,levelCap:'unlimited'});assert.equal(check.status,'eligible');assert.equal(check.targetLevel,2);
+check=checkCoreAdvancement({classId:'druid',currentLevel:11,xp:300001,levelCap:14});assert.equal(check.status,'needs-dm');assert.ok(check.reasons.some(x=>/seat|Druid|Vacant/i.test(x)));
+check=checkCoreAdvancement({classId:'fighter',currentLevel:8,xp:250001,levelCap:8});assert.equal(check.status,'needs-dm');assert.ok(check.reasons.some(x=>/上限/.test(x)));
+check=checkCoreAdvancement({classId:'fighter',currentLevel:11,xp:9999999,levelCap:'unlimited'});assert.equal(check.status,'unknown');
+let hp=calculateCoreHpAward({classId:'ranger',targetLevel:1,constitution:18,rolls:[1,8]});assert.deepEqual(hp.adjustedDice,[5,12]);assert.equal(hp.actualAward,17);
+hp=calculateCoreHpAward({classId:'cleric',targetLevel:1,constitution:3,rolls:[1]});assert.deepEqual(hp.adjustedDice,[1]);assert.equal(hp.actualAward,1);
+hp=calculateCoreHpAward({classId:'fighter',targetLevel:10,constitution:18,rolls:[]});assert.equal(hp.actualAward,3);assert.equal(hp.constitutionAdjustment,4);
+hp=calculateCoreHpAward({classId:'bard',targetLevel:1,constitution:18,rolls:[]});assert.equal(hp.actualAward,0);
+assert.throws(()=>calculateCoreHpAward({classId:'fighter',targetLevel:1,constitution:18,rolls:[]}));assert.throws(()=>calculateCoreHpAward({classId:'fighter',targetLevel:1,constitution:19,rolls:[5]}));
+console.log('PASS: XP qualification, explicit-row refusal, level/gate needs-DM, per-die CON floor, fighter bonus, fixed HP and Bard zero-new-die. No training grant or multiclass HP claim.');

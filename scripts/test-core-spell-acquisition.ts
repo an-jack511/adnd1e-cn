@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { intelligenceSpellRule, newKnowabilityState, planIllusionistInitialSpells, planMagicUserInitialSpells, recordKnowabilityAttempt } from '../src/character/engine/core-spell-acquisition';
+assert.deepEqual([9,10,13,15,17,18,19].map(i=>{const r=intelligenceSpellRule(i);return[r.chancePercent,r.minimumPerLevel,r.maximumPerLevel]}),[[35,4,6],[45,5,7],[55,6,9],[65,7,11],[75,8,14],[85,9,18],[95,10,null]]);
+const ids=Array.from({length:6},(_,i)=>`spell-${i+1}`);let state=newKnowabilityState(9,ids);for(let i=0;i<6;i++)state=recordKnowabilityAttempt(state,ids[i],i<2?10:90);assert.equal(state.round,2);assert.equal(state.status,'checking');state=recordKnowabilityAttempt(state,'spell-3',20);state=recordKnowabilityAttempt(state,'spell-4',20);assert.equal(state.status,'minimum-reached');assert.throws(()=>recordKnowabilityAttempt(state,'spell-5',20),/already stopped/);
+let maximum=newKnowabilityState(9,ids);for(let i=0;i<6;i++)maximum=recordKnowabilityAttempt(maximum,ids[i],1);assert.equal(maximum.status,'maximum-reached');
+const mu=planMagicUserInitialSpells({rolls:{offensive:6,defensive:7,miscellaneous:2}});assert.deepEqual(mu.spells,['read-magic','magic-missile','shield','detect-magic']);
+const choice=planMagicUserInitialSpells({rolls:{offensive:10,defensive:10,miscellaneous:10},choices:{offensive:'sleep',defensive:'shield',miscellaneous:'write'},hardCampaignChoice:true,extraCategory:'defensive',extraRoll:10,extraChoice:'feather-fall'});assert.equal(choice.spells.length,5);
+assert.throws(()=>planMagicUserInitialSpells({rolls:{offensive:10,defensive:1,miscellaneous:1},choices:{offensive:'nystuls-magic-aura'}}),/requires a choice/);
+assert.equal(planIllusionistInitialSpells({rolls:[1,1]}).status,'incomplete');const ill=planIllusionistInitialSpells({rolls:[1,1,2,12]});assert.equal(ill.status,'complete');assert.deepEqual(ill.spells,['audible-glamer','change-self','wall-of-fog']);assert.deepEqual(ill.rolls,[1,1,2,12]);
+console.log('PASS: PHB10 chance/min/max and minimum retry state; DMG39 MU/illusionist starting grants, d10 choice, duplicate d12, hard-campaign options and forbidden-start guard.');
