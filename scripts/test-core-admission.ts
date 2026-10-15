@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { playerProjection, replayCharacter, createCharacterRuntime } from '../src/character/domain/character-record';
 import { admitCoreCreation, newCoreCreation, recordCreationTask, selectCoreCandidate } from '../src/character/workflows/core-create';
-import { createRuntimeFromAdmittedCoreCreation, replayRegistryForCoreAdmission } from '../src/character/workflows/core-admission';
+import { createRuntimeFromAdmittedCoreCreation, replayRegistryForCoreAdmission, parseCoreAdmissionArchive } from '../src/character/workflows/core-admission';
+import { newCoreCampaignArchive, commitCoreCampaignAction, parseCoreCampaignArchive } from '../src/character/workflows/core-campaign-runtime';
 
 const generation={draftId:'draft',draftRevision:1,batchId:'batch',method:'DMG:I' as const,scores:{STR:16,INT:13,WIS:14,DEX:15,CON:14,CHA:15}};
 let document=newCoreCreation({id:'creation-admit',name:'Archive Hero',generation});
@@ -10,6 +11,11 @@ for(const id of ['hp','money','languages','proficiencies','equipment','initial-s
 assert.throws(()=>createRuntimeFromAdmittedCoreCreation({document}),/DM-admitted/);
 document=admitCoreCreation(document,{actorId:'dm-one',at:'576-01-01T00:00:00Z',scope:'campaign-one'});
 const archive=createRuntimeFromAdmittedCoreCreation({document,characterId:'hero-one'});
+assert.deepEqual(parseCoreAdmissionArchive(JSON.parse(JSON.stringify(archive))),archive);
+const forgedFacts=structuredClone(archive);forgedFacts.runtime.transaction.facts.identity.name='Changed outside history';assert.throws(()=>parseCoreAdmissionArchive(forgedFacts),/reconstructed/);
+const forgedEvent=structuredClone(archive);forgedEvent.runtime.transaction.events[0].actorId='different-dm';assert.throws(()=>parseCoreAdmissionArchive(forgedEvent),/reconstructed/);
+const unknownTail=structuredClone(archive);unknownTail.runtime.transaction.events.push(structuredClone(unknownTail.runtime.transaction.events[0]));assert.throws(()=>parseCoreAdmissionArchive(unknownTail),/genesis/);
+const staleCache=structuredClone(archive) as any;staleCache.runtime.cache={values:{hp:999}};assert.throws(()=>parseCoreAdmissionArchive(staleCache),/reconstructed/);
 assert.equal(archive.runtime.transaction.revision,1);assert.equal(archive.runtime.transaction.events.length,1);
 assert.equal(archive.runtime.transaction.facts.identity.name,'Archive Hero');assert.equal(archive.runtime.transaction.facts.modules[0].kind,'adnd1e-core-creation');
 assert.ok(archive.registeredSourceIds.includes('fixture:source'));assert.ok(archive.registeredSourceIds.includes('project:core-creation-admission'));
@@ -19,4 +25,14 @@ const replayed=replayCharacter(pristine,archive.runtime.transaction.events,repla
 assert.deepEqual(replayed.transaction.facts,archive.runtime.transaction.facts);
 const tampered=structuredClone(archive);(tampered.registeredSourceIds as string[]).splice(tampered.registeredSourceIds.indexOf('fixture:source'),1);
 assert.throws(()=>replayCharacter(pristine,tampered.runtime.transaction.events,replayRegistryForCoreAdmission(tampered)),/source/);
+let campaign=newCoreCampaignArchive(archive);
+campaign=commitCoreCampaignAction(campaign,{id:'xp-one',actorId:'dm-one',at:'day-one',expectedRevision:1,intent:{type:'experience',assessment:{id:'session-one',xp:2100,rating:'E',sourceIds:['session:one']}}});
+assert.equal((campaign.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')!.data as any).xp,2100);
+campaign=commitCoreCampaignAction(campaign,{id:'open-two',actorId:'dm-one',at:'day-two',expectedRevision:2,intent:{type:'open-advancement'}});
+assert.equal((campaign.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')!.data as any).level,1);
+assert.equal((campaign.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')!.data as any).status,'training-planned');
+assert.deepEqual(parseCoreCampaignArchive(JSON.parse(JSON.stringify(campaign))),campaign);
+assert.throws(()=>commitCoreCampaignAction(campaign,{id:'late-xp',actorId:'dm',at:'day-three',expectedRevision:3,intent:{type:'experience',assessment:{id:'too-early',xp:1,rating:'E',sourceIds:['session:two']}}}),/blocked/);
+const changedCampaign=structuredClone(campaign);(changedCampaign.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')!.data as any).level=99;assert.throws(()=>parseCoreCampaignArchive(changedCampaign),/replayed/);
+assert.equal(archive.runtime.transaction.revision,1,'Campaign operations must not alter the admitted creation archive');
 console.log('PASS: only DM-admitted creation becomes an event-sourced runtime; source registry, player projection and replay are preserved and missing evidence fails closed.');

@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="角色战役结算">
+  <h1>角色战役结算</h1>
+  <p>打开已准入的单职业核心角色，或继续已有运营档案。经验结算由 DM 记录；达到经验门槛后，等级仍需经过适用裁定与训练才能授予。</p>
+  <label>准入或运营档案 <input id="operations-file" type="file" accept="application/json,.json" /></label>
+  <h2 id="operations-summary">尚未打开角色</h2>
+  <label>DM 身份 <input id="operations-actor" /></label>
+  <label>战役时间 <input id="operations-at" placeholder="例如 CY576 第42日" /></label>
+  <fieldset><legend>冒险结算</legend>
+    <label>结算 ID <input id="operations-assessment" placeholder="每次结算独立且不可重复" /></label>
+    <label>场次来源 <input id="operations-source" placeholder="session:campaign:42" /></label>
+    <label>本次所得经验 <input id="operations-amount" type="number" min="0" step="1" /></label>
+    <label>DM 表现评定 <select id="operations-rating"><option value="E">E · 优秀</option><option value="S">S · 良好</option><option value="F">F · 一般</option><option value="P">P · 差</option></select></label>
+    <button id="operations-xp" type="button" disabled>记录经验结算</button>
+  </fieldset>
+  <button id="operations-open" type="button" disabled>检查并开启升级候选</button>
+  <fieldset><legend>训练与等级授予 · DMG p.86</legend>
+    <p id="operations-training-summary">先打开角色档案。</p>
+    <label>裁定理由（门槛、费用例外或中断）<textarea id="operations-reason"></textarea></label>
+    <button id="operations-gate" type="button" disabled>记录 DM 升级门槛裁定</button>
+    <label>训练方式 <select id="operations-route"><option value="tutor">名号前：导师</option><option value="self">名号前：自修（须符合表现要求）</option><option value="name-level">已达名号：自行训练（需 DM 确认适用）</option></select></label>
+    <label>名号训练费用族 <select id="operations-cost-family"><option value="cleric">牧师</option><option value="fighter">战士</option><option value="magic-user">魔法师</option><option value="thief">盗贼</option></select></label>
+    <label>接受费用 cp（留空按原书公式）<input id="operations-cost" type="number" min="0" step="1" /></label>
+    <button id="operations-plan" type="button" disabled>计算并记录训练计划</button>
+    <label>付款钱包 <select id="operations-wallet"></select></label>
+    <label>本次支付费用 cp <input id="operations-payment" type="number" min="1" step="1" /></label>
+    <p>财富入账与经验独立结算。填写钱币、来源和理由后，收入记入上方选择的钱包。</p>
+    <label>财富来源 <input id="operations-income-source" placeholder="session:treasure:42" /></label>
+    <div class="coins">{['cp','sp','ep','gp','pp'].map(coin=><label>收入 {coin}<input id={`operations-income-${coin}`} type="number" min="0" step="1" value="0" /></label>)}</div>
+    <button id="operations-income" type="button" disabled>记录 DM 确认的财富入账</button>
+    <div class="coins">{['cp','sp','ep','gp','pp'].map(coin=><label>交付 {coin}<input id={`operations-tender-${coin}`} type="number" min="0" step="1" value="0" /></label>)}</div>
+    <div class="coins">{['cp','sp','ep','gp','pp'].map(coin=><label>找零 {coin}<input id={`operations-change-${coin}`} type="number" min="0" step="1" value="0" /></label>)}</div>
+    <button id="operations-pay" type="button" disabled>付款并扣除钱包钱币</button>
+    <button id="operations-start" type="button" disabled>开始连续训练</button>
+    <label>连续训练周数分子 <input id="operations-weeks-n" type="number" min="1" step="1" value="1" /></label>
+    <label>连续训练周数分母 <input id="operations-weeks-d" type="number" min="1" step="1" value="1" /></label>
+    <label><input id="operations-continuous" type="checkbox" />DM 确认此段属于未中断的训练</label>
+    <button id="operations-segment" type="button" disabled>记录连续训练时间</button>
+    <button id="operations-interrupt" type="button" disabled>记录严重中断</button>
+    <label>升级 HP 原始骰面（逗号分隔；无新生命骰时留空）<input id="operations-hp" /></label>
+    <button id="operations-award" type="button" disabled>授予等级与 HP 增量</button>
+  </fieldset>
+  <button id="operations-export" type="button" disabled>导出运营事件档案</button>
+  <p id="operations-status" role="status" aria-live="polite">尚未打开档案。</p>
+  <details><summary>成长事实与待办</summary><pre id="operations-state"></pre></details>
+  <p>训练过程保留付款、时间与 DM 裁定。名号训练的适用阶段与费用族须由 DM 填写理由确认。多人签名、日历占用及其他战役活动仍在接入中。</p>
+  <p><a href="/character/">角色首页</a> · <a href="/character/archive/">一级准入档案</a></p>
+  <script>import { startCoreCampaign } from '../../../character/ui/core-campaign-controller';startCoreCampaign();</script>
+</BaseLayout>
+<style>label{display:flex;flex-direction:column;gap:.3rem;margin:.8rem 0}input,select,button{font:inherit;min-height:44px}fieldset{max-width:45rem}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style>

@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="准入角色档案">
+  <h1>准入角色档案</h1>
+  <p>打开 DM 审核页导出的准入事件档案。系统核对事实、事件、回执和来源，并重新计算属性与资格。文件仅在浏览器内读取。</p>
+  <label>准入事件档案 <input id="archive-file" type="file" accept="application/json,.json" /></label>
+  <button id="archive-print" type="button">打印当前档案</button>
+  <p id="archive-status" role="status" aria-live="polite">等待打开准入档案。</p>
+  <article id="archive-character" aria-label="已校验的一级角色"></article>
+  <p><a href="/character/review/">DM 创建审核</a> · <a href="/character/import/">其他格式与损坏文件检查</a> · <a href="/character/">角色首页</a></p>
+  <script>import { startCoreArchive } from '../../../character/ui/core-archive-controller';startCoreArchive();</script>
+</BaseLayout>
+<style>input,button{font:inherit;min-height:44px}article :global(pre){white-space:pre-wrap;overflow-wrap:anywhere}article :global(dl){display:grid;grid-template-columns:4rem 1fr}article :global(section){border-top:1px solid #aaa;padding:.5rem 0}@media print{input,button{display:none}}</style>

@@ -176,6 +176,21 @@ function subtractCoins(wallet: CoinCounts, tender: CoinCounts, change: CoinCount
   return next as unknown as CoinCounts;
 }
 
+export function spendCoreWallet(input:{ledger:CoreInventoryLedger;walletId:string;amountCp:number;tender:CoinCounts;change:CoinCounts}):CoreInventoryLedger{
+  validateCoreInventoryLedger(input.ledger);requireWhole(input.amountCp,'expense cp',1);
+  const wallet=input.ledger.wallets.find(item=>item.id===input.walletId);if(!wallet)throw new Error('Expense wallet not found.');
+  if(moneyValueCp(input.tender)-moneyValueCp(input.change)!==input.amountCp)throw new Error('Expense tender and change do not match the payment.');
+  const coins=subtractCoins(wallet.coins,input.tender,input.change);
+  const next={...structuredClone(input.ledger),revision:input.ledger.revision+1,wallets:input.ledger.wallets.map(item=>item.id===wallet.id?{...structuredClone(item),coins}:structuredClone(item))};
+  validateCoreInventoryLedger(next);return next;
+}
+export function receiveCoreWallet(input:{ledger:CoreInventoryLedger;walletId:string;coins:CoinCounts}):CoreInventoryLedger{
+  validateCoreInventoryLedger(input.ledger);if(moneyValueCp(input.coins)<=0)throw new Error('Income must contain positive coin value.');
+  const wallet=input.ledger.wallets.find(item=>item.id===input.walletId);if(!wallet)throw new Error('Income wallet not found.');
+  const coins=Object.fromEntries(denominations.map(id=>[id,safeAdd(wallet.coins[id],input.coins[id],`${id} income`)])) as unknown as CoinCounts;
+  const next={...structuredClone(input.ledger),revision:input.ledger.revision+1,wallets:input.ledger.wallets.map(item=>item.id===wallet.id?{...structuredClone(item),coins}:structuredClone(item))};validateCoreInventoryLedger(next);return next;
+}
+
 /**
  * Atomically commits an actual, DM-approved purchase.  PHB list prices are
  * reported for comparison only; agreed prices, availability, tender and change

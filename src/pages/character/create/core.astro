@@ -3,8 +3,14 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="角色创建 · 核心资格">
   <h1>角色创建 · 核心资格</h1>
+  <label>继续已有创建进度 <input id="core-import" type="file" accept="application/json,.json" /></label>
+  <label>本地创建进度 <select id="core-saved"><option value="">选择浏览器保存的进度</option></select></label>
+  <button id="core-save-local" type="button">保存本地创建进度</button>
+  <button id="core-load-local" type="button">加载本地进度</button>
+  <p>导入后身份选择保持锁定；可以继续填写未完成事项。若需要不同身份，请保留原文件并重新创建。</p>
+  <details><summary>已记录的创建任务</summary><ul id="core-task-summary"></ul></details>
   <p>从已确认的属性草稿继续选择核心种族、阵营和普通职业。系统执行种族调整、属性门槛、明确多职业组合与等级上限检查。</p>
-  <p class="notice">本页仍不是完整角色：HP、金钱、装备、语言、武器熟练、初始法术、灵能及DM入场尚未完成。吟游诗人、双职、UA和OA使用独立路径，不在普通职业选择中悄悄混用。</p>
+  <p class="notice">完成资格检查后，逐项记录 HP、资金、语言、熟练、采购、初始法术及战役入场设置，再导出交给 DM 审核。任务清单会保留尚未完成或待裁定的事项。吟游诗人、双职、UA 和 OA 使用独立规则路径。</p>
   <section aria-label="核心角色候选">
     <h2>属性与身份</h2>
     <div class="fields"><label>属性草稿 <select id="core-draft"><option value="">选择已确认属性草稿</option></select></label><label>种族 <select id="core-race"></select></label><label>亚种 <select id="core-subrace"></select></label><label>性别（用于原表上限） <select id="core-sex"><option value="male">男性</option><option value="female">女性</option></select></label><label>阵营 <select id="core-alignment"></select></label><label>职业模式 <select id="core-mode"><option value="single">单职业</option><option value="multiclass">同时多职业</option></select></label></div>
@@ -29,6 +35,17 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     <button id="core-language-record" type="button">检查并记录语言</button>
     <p id="core-language-status" role="status" aria-live="polite"></p>
   </section>
+  <section id="core-initial-spells" aria-label="初始法术"></section>
+  <section id="core-starting-equipment" aria-label="初始装备"></section>
+  <section id="core-campaign-admission" aria-label="战役入场与灵能"></section>
+  <section id="core-proficiencies" hidden aria-label="开局武器熟练">
+    <h2>开局武器熟练</h2>
+    <p>PHB p.37：按职业分配开局武器熟练位。选择具体武器后，系统检查职业许可。其他武器可以手工记录，并交由 DM 核对；一项熟练不会授予整类武器。</p>
+    <p id="core-proficiency-help"></p><div id="core-proficiency-choices"></div>
+    <button id="core-proficiency-record" type="button">检查并记录熟练</button>
+    <p id="core-proficiency-status" role="status" aria-live="polite"></p>
+  </section>
+  <p><a href="/character/review/">将导出的创建进度交给 DM 审核</a></p>
   <p>依据包：PHB核心资格1.0.0；每个结果保留来源ID。原书冲突显示“需DM”，不会选一个值冒充唯一RAW。<a href="/books/phb/">查看PHB目录</a></p>
   <script>import {startCoreCandidate} from '../../../character/ui/core-candidate-controller';startCoreCandidate();</script>
 </BaseLayout>

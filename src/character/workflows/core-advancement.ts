@@ -1,11 +1,33 @@
 import type { InitialCoreClassId } from '../rules/core-progression';
 import type { PerformanceRating } from '../rules/core-training';
-import { applyCoreXpBatch, planBelowNameTraining } from '../engine/core-training';
+import { applyCoreXpBatch, planBelowNameTraining, planNameLevelTraining } from '../engine/core-training';
 import { calculateCoreHpAward, checkCoreAdvancement } from '../engine/core-progression';
 import { getCoreProgressionRow } from '../rules/core-progression';
 export interface AdventureAssessment {readonly id:string;readonly xp:number;readonly rating:PerformanceRating;readonly sourceIds:readonly string[]}
 export interface TrainingSegment {readonly id:string;readonly weeksNumerator:number;readonly weeksDenominator:number;readonly dmConfirmedContinuous:boolean}
-export interface CoreAdvancementState {readonly format:'adnd1e-core-advancement';readonly schemaVersion:'1.0.0';readonly id:string;readonly revision:number;readonly classId:InitialCoreClassId;readonly level:number;readonly xp:number;readonly constitution:number;readonly levelCap:number|'unlimited'|'needs-dm'|null;readonly status:'adventuring'|'eligible-needs-dm'|'training-planned'|'training-active'|'ready-for-award'|'training-interrupted';readonly assessments:readonly AdventureAssessment[];readonly candidate:null|{readonly targetLevel:number;readonly sourceIds:readonly string[];readonly dmDecision:null|{readonly actorId:string;readonly reason:string};readonly training:null|ReturnType<typeof planBelowNameTraining>;readonly acceptedCostCp:number|null;readonly acceptedCostDecision:null|{readonly actorId:string;readonly reason:string};readonly paymentsCp:readonly number[];readonly segments:readonly TrainingSegment[];readonly interruption:null|{readonly actorId:string;readonly reason:string}};readonly history:readonly Record<string,unknown>[]}
+export interface CoreAdvancementState {
+  readonly format:'adnd1e-core-advancement';readonly schemaVersion:'1.0.0';readonly id:string;readonly revision:number;
+  readonly classId:InitialCoreClassId;readonly level:number;readonly xp:number;readonly constitution:number;
+  readonly levelCap:number|'unlimited'|'needs-dm'|null;
+  readonly status:'adventuring'|'eligible-needs-dm'|'training-planned'|'training-active'|'ready-for-award'|'training-interrupted';
+  readonly assessments:readonly AdventureAssessment[];
+  readonly candidate:null|{
+    readonly targetLevel:number;readonly sourceIds:readonly string[];readonly dmDecision:null|{readonly actorId:string;readonly reason:string};
+    readonly training:null|ReturnType<typeof planBelowNameTraining>|ReturnType<typeof planNameLevelTraining>;
+    readonly acceptedCostCp:number|null;readonly acceptedCostDecision:null|{readonly actorId:string;readonly reason:string};
+    readonly paymentsCp:readonly number[];readonly segments:readonly TrainingSegment[];readonly interruption:null|{readonly actorId:string;readonly reason:string};
+  };
+  readonly history:readonly Record<string,unknown>[];
+}
+export function attachNameLevelTrainingPlan(state:CoreAdvancementState,input:{costFamily:Parameters<typeof planNameLevelTraining>[0]['costFamily'];actorId:string;reason:string;acceptedCostCp:number}){
+  if(state.status!=='training-planned'||!state.candidate)throw new Error('Advancement is not ready for name-level training.');
+  if(!input.actorId.trim()||!input.reason.trim())throw new Error('Name-level regime and cost family require a recorded DM determination.');
+  if(!['cleric','fighter','magic-user','thief'].includes(input.costFamily))throw new Error('Unknown printed name-level cost family.');
+  integer(input.acceptedCostCp,'accepted training cost cp');
+  const training=planNameLevelTraining({currentLevel:state.level,ratings:state.assessments.map(item=>item.rating),costFamily:input.costFamily});
+  const decision={actorId:input.actorId,reason:input.reason};
+  return {...state,revision:state.revision+1,candidate:{...state.candidate,training,acceptedCostCp:input.acceptedCostCp,acceptedCostDecision:decision},history:[...state.history,{type:'training.planned',regime:'name-level',costFamily:input.costFamily,...decision,acceptedCostCp:input.acceptedCostCp,formula:{numerator:training.totalCostGpNumerator,denominator:training.totalCostGpDenominator,unit:'gp'}}]} satisfies CoreAdvancementState;
+}
 function integer(value:number,label:string,min=0){if(!Number.isSafeInteger(value)||value<min)throw new Error(`${label} must be a safe integer >= ${min}.`);}
 function nextThreshold(state:CoreAdvancementState){const found=getCoreProgressionRow(state.classId,state.level+1);if(found.status==='unknown')throw new Error(found.reason);return found.row.xpMin;}
 export function newCoreAdvancement(input:{id?:string;classId:InitialCoreClassId;level:number;xp:number;constitution:number;levelCap:number|'unlimited'|'needs-dm'|null}):CoreAdvancementState{integer(input.level,'level',1);integer(input.xp,'xp');integer(input.constitution,'constitution',3);if(input.constitution>18)throw new Error('CON outside verified 3–18 range.');return{format:'adnd1e-core-advancement',schemaVersion:'1.0.0',id:input.id??crypto.randomUUID(),revision:0,classId:input.classId,level:input.level,xp:input.xp,constitution:input.constitution,levelCap:input.levelCap,status:'adventuring',assessments:[],candidate:null,history:[]};}

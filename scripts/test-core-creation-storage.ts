@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import { readCoreCreationLibrary, saveCoreCreationLibrary } from '../src/character/workflows/core-creation-storage';
+import { newCoreCreation } from '../src/character/workflows/core-create';
+const values=new Map<string,string>();let fail=false;
+const storage={getItem:(key:string)=>values.get(key)??null,setItem:(key:string,value:string)=>{if(fail)throw new Error('quota');values.set(key,value);}};
+const doc=newCoreCreation({id:'saved',name:'Draft',generation:{draftId:'d',draftRevision:0,batchId:'b',method:'DMG:I',scores:{STR:12,INT:12,WIS:12,DEX:12,CON:12,CHA:12}}});
+saveCoreCreationLibrary(storage,doc,null);assert.deepEqual(readCoreCreationLibrary(storage),[doc]);
+const newer={...doc,revision:1,name:'Changed'};saveCoreCreationLibrary(storage,newer,doc);
+assert.throws(()=>saveCoreCreationLibrary(storage,{...newer,name:'Same revision rewrite'},newer),/修订号/);
+assert.throws(()=>saveCoreCreationLibrary(storage,doc,newer),/修订号/);
+assert.throws(()=>saveCoreCreationLibrary(storage,{...doc,revision:2},doc),/另一个页面/);
+assert.throws(()=>saveCoreCreationLibrary(storage,doc,null),/另一个页面/);
+const before=[...values.values()][0];fail=true;assert.throws(()=>saveCoreCreationLibrary(storage,{...newer,revision:2},newer),/quota/);assert.equal([...values.values()][0],before);
+fail=false;storage.setItem([...values.keys()][0],'{broken');assert.throws(()=>readCoreCreationLibrary(storage));assert.equal([...values.values()][0],'{broken');
+console.log('PASS: core creation local library round-trip, stale editor and same-ID import conflicts, quota preservation and corrupt original preservation. Actual cross-tab locks remain a browser test.');
