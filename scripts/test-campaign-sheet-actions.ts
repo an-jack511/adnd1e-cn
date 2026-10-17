@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {admittedFighter} from './fixtures/admitted-fighter';
+import {admittedCoreCharacter} from './fixtures/admitted-core-character';
 import {previewSheetAction,commitSheetAction} from '../src/character/actions/campaign-actions';
 import {campaignSheet} from '../src/character/application/campaign-sheet';
 import {assertCoreCampaignAppendCapacity,parseCoreCampaignArchive} from '../src/character/workflows/core-campaign-runtime';
@@ -7,6 +8,10 @@ import {applyActualHealing} from '../src/character/engine/core-actual-healing';
 import {administerFriendlyAid,reviveFromZeroHp} from '../src/character/engine/core-life-state';
 let archive=admittedFighter();const context=(id:string)=>({id,actorId:'table-player',at:'recorded table time'});
 const first=campaignSheet(archive);assert.equal(first.maximumHp,7);assert.equal(first.life,null);assert.equal(first.level,1);
+const thiefSheet=campaignSheet(admittedCoreCharacter('thief'));
+assert.equal(thiefSheet.thiefFunctions?.find(skill=>skill.id==='pick-pockets')?.target,35);
+assert.equal(thiefSheet.thiefFunctions?.find(skill=>skill.id==='read-languages')?.target,null);
+assert.equal(thiefSheet.backstab?.multiplier,2);
 const original=JSON.stringify(archive),init=previewSheetAction(archive,{type:'character.initializeLife',currentHp:7,confirmed:true},context('initialize'));
 assert.equal(JSON.stringify(archive),original,'preview cannot mutate archive');
 assert.throws(()=>commitSheetAction(archive,{...init}),/Unknown/,'forged plan cannot commit');

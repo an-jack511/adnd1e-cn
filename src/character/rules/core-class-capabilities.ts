@@ -1,7 +1,7 @@
 /**
  * Verified AD&D 1e PHB core-class capability facts.
  *
- * This pack does not duplicate progression, spell-capacity, thief-skill,
+ * This pack does not duplicate progression, spell-capacity,
  * attack, saving-throw, or follower-composition tables.  A delegated entry
  * is an explicit link to such a subsystem, never an invented summary value.
  */
@@ -119,7 +119,7 @@ export const coreClassCapabilities: Readonly<Record<InitialCoreClassId, readonly
     c({id:'illusionist-item-creation',classId:'illusionist',label:'制造幻术魔法物品',kind:'action',minimumLevel:10,status:'needs-dm',visibility:'dm-secret',resolution:'delegated',rule:'10级起可制造产生或维持幻术的物品，流程大体参照魔法师；具体资格、成本与成功由DMG流程裁定。',delegatedTo:'core-magic-item-fabrication',sourceIds:phb('phb:26:illusionist')}),
   ),
   thief: list(
-    c({id:'thief-functions',classId:'thief',label:'盗贼技能',kind:'delegated-table',minimumLevel:1,status:'needs-dm',visibility:'dm-secret',resolution:'delegated',rule:'扒窃、开锁、找/拆陷阱、潜行、藏影、听声、攀墙及背刺均依等级/种族/敏捷/装备和情境；暗骰结果不应泄露。',delegatedTo:'verified thief skill tables (not yet in this pack)',sourceIds:phb('phb:26-28:thief')}),
+    c({id:'thief-functions',classId:'thief',label:'盗贼技能目标',kind:'action',minimumLevel:1,status:'verified',visibility:'player',resolution:'requires-roll',rule:'人物卡显示PHB盗贼表叠加敏捷与种族调整后的目标百分比；实际掷骰、机会、观察者和情境修正由DM处理。',delegatedTo:'core-thief-functions',sourceIds:phb('phb:26-28:thief')}),
     c({id:'thief-read-languages',classId:'thief',label:'阅读语言',kind:'action',minimumLevel:4,status:'verified',visibility:'player',resolution:'requires-roll',rule:'4级20%，以后每级+5%，最高80%；同一文字失败后仅在升一级后可重试。',sourceIds:phb('phb:26-28:thief')}),
     c({id:'thief-scroll-use',classId:'thief',label:'使用魔法卷轴',kind:'action',minimumLevel:10,status:'needs-dm',visibility:'dm-secret',resolution:'requires-dm',rule:'10级起可辨读魔法文字并使用除牧师（但不排除德鲁伊）之外卷轴；有25%误解及随法术环级增长的反向风险，细节由DM裁定。',sourceIds:phb('phb:26-28:thief')}),
     c({id:'thief-headquarters',classId:'thief',label:'盗贼总部与团伙',kind:'stronghold',minimumLevel:10,status:'needs-dm',visibility:'dm-summary',resolution:'requires-dm',rule:'可在城镇内或一英里内以小型城堡式建筑设总部并吸引4–24盗贼，但会引发与本地盗贼公会的战争；不能建立其他职业式领地。',sourceIds:phb('phb:26-28:thief')}),
@@ -127,7 +127,7 @@ export const coreClassCapabilities: Readonly<Record<InitialCoreClassId, readonly
   assassin: list(
     c({id:'assassin-poison-and-assassination',classId:'assassin',label:'用毒与行刺',kind:'action',minimumLevel:1,status:'needs-dm',visibility:'dm-secret',resolution:'requires-dm',rule:'可用吞服/武器毒并在突袭时选择行刺表；注意毒物的概率、观察者反应、行刺表与XP均由DM裁定。',delegatedTo:'DM assassination/poison procedures',sourceIds:phb('phb:28-30:assassin')}),
     c({id:'assassin-disguise',classId:'assassin',label:'乔装',kind:'action',minimumLevel:1,status:'needs-dm',visibility:'dm-secret',resolution:'requires-dm',rule:'可乔装成人类、亚人或类人生物及不同性别/职业；每日识破基础2%，多项伪装与观察者INT+WIS修正由DM暗中结算。',sourceIds:phb('phb:28-30:assassin')}),
-    c({id:'assassin-thief-functions',classId:'assassin',label:'盗贼技能',kind:'delegated-table',minimumLevel:3,status:'needs-dm',visibility:'dm-secret',resolution:'delegated',rule:'除背刺外，盗贼技能按刺客等级低2级执行；1–2级无对应盗贼技能等级。',delegatedTo:'verified thief skill tables (not yet in this pack)',sourceIds:phb('phb:28-30:assassin')}),
+    c({id:'assassin-thief-functions',classId:'assassin',label:'盗贼技能目标',kind:'action',minimumLevel:3,status:'verified',visibility:'player',resolution:'requires-roll',rule:'除背刺外，盗贼技能按刺客等级低2级执行；1–2级无对应盗贼技能等级。实际掷骰与暗中发现由DM处理。',delegatedTo:'core-thief-functions',sourceIds:phb('phb:28-30:assassin')}),
     c({id:'assassin-alignment-languages',classId:'assassin',label:'额外阵营语言',kind:'passive',minimumLevel:9,status:'verified',visibility:'player',resolution:'requires-dm',rule:'INT至少15时9级获得一种，此后每级一种；上限为INT−14且最多4种，选择范围依原文。',sourceIds:phb('phb:28-30:assassin')}),
     c({id:'assassin-hirelings',classId:'assassin',label:'刺客雇员/随从限制',kind:'follower',minimumLevel:4,status:'verified',visibility:'player',resolution:'requires-dm',rule:'4级可雇低级刺客，8级可含盗贼，12级可雇任何职业；仅中立或邪恶者服务，随从总量仍受魅力约束。',sourceIds:phb('phb:28-30:assassin')}),
     c({id:'assassin-guildmaster',classId:'assassin',label:'刺客公会首领',kind:'advancement-gate',minimumLevel:14,status:'needs-dm',visibility:'dm-summary',resolution:'requires-dm',rule:'升14级须具XP并行刺或死斗击败本地14级会长；取得7–28名公会成员，换主时每人75%可能离开，最大人数由DM定。',sourceIds:phb('phb:28-30:assassin')}),
@@ -138,7 +138,7 @@ export const coreClassCapabilities: Readonly<Record<InitialCoreClassId, readonly
     c({id:'monk-weapon-damage',classId:'monk',label:'武器伤害加值',kind:'passive',minimumLevel:1,status:'verified',visibility:'player',resolution:'automatic',engineFormula:'monk-weapon-damage-bonus',rule:'使用允许武器命中时，伤害加每级二分之一点；不得使用力量命中或伤害加值。',sourceIds:phb('phb:30-32:monk')}),
     c({id:'monk-save-and-missile-defence',classId:'monk',label:'武僧豁免防御',kind:'passive',minimumLevel:1,status:'needs-dm',visibility:'dm-summary',resolution:'requires-dm',rule:'用盗贼豁免表；可用石化豁免躲开本应命中的非魔法投射物；成功豁免通常免伤，9级起可减半某些失败豁免伤害，但不适用于无伤害量效果。',sourceIds:phb('phb:30-32:monk')}),
     c({id:'monk-surprise',classId:'monk',label:'武僧受惊概率',kind:'passive',minimumLevel:1,status:'verified',visibility:'player',resolution:'automatic',engineFormula:'monk-surprise-percent',rule:'1级33⅓%，2级32%，此后每级下降2个百分点。',sourceIds:phb('phb:30-32:monk')}),
-    c({id:'monk-thief-functions',classId:'monk',label:'武僧盗贼技能',kind:'delegated-table',minimumLevel:1,status:'needs-dm',visibility:'dm-secret',resolution:'delegated',rule:'开锁、找/拆陷阱、潜行、藏影、听声、攀墙按同级盗贼执行；不含扒窃。',delegatedTo:'verified thief skill tables (not yet in this pack)',sourceIds:phb('phb:30-32:monk')}),
+    c({id:'monk-thief-functions',classId:'monk',label:'武僧盗贼技能目标',kind:'action',minimumLevel:1,status:'verified',visibility:'player',resolution:'requires-roll',rule:'开锁、找/拆陷阱、潜行、藏影、听声、攀墙按同级盗贼执行；不含扒窃。实际掷骰与暗中发现由DM处理。',delegatedTo:'core-thief-functions',sourceIds:phb('phb:30-32:monk')}),
     c({id:'monk-speak-with-animals',classId:'monk',label:'与动物交谈',kind:'passive',minimumLevel:3,status:'verified',visibility:'player',resolution:'automatic',rule:'如德鲁伊般与动物交谈。',sourceIds:phb('phb:30-32:monk')}),
     c({id:'monk-esp-mask',classId:'monk',label:'心智遮蔽',kind:'passive',minimumLevel:4,status:'verified',visibility:'player',resolution:'automatic',engineFormula:'monk-esp-percent',rule:'4级ESP成功率仅30%，此后每级再降2个百分点。',sourceIds:phb('phb:30-32:monk')}),
     c({id:'monk-slow-fall',classId:'monk',label:'借壁缓降',kind:'passive',minimumLevel:4,status:'verified',visibility:'player',resolution:'requires-dm',rule:'4级距墙10英尺内最多20英尺；6级距墙40英尺内最多30英尺；13级距墙80英尺内任意距离；须能周期接触墙或类似表面。',sourceIds:phb('phb:30-32:monk')}),
@@ -162,7 +162,7 @@ export const coreClassCapabilityPack = Object.freeze({
   id: 'adnd1e:phb:core-class-capabilities', version: '1.0.0', verifiedAt: '2026-10-15',
   status: 'verified-with-explicit-dm-and-unsupported-boundaries', sources: coreClassCapabilitySources,
   classes: coreClassCapabilities,
-  exclusions: Object.freeze(['bard (staged optional path)', 'complete combat matrices', 'spell capacity rows', 'thief percentage rows', 'monk table II numeric rows', 'DM follower composition tables']),
+  exclusions: Object.freeze(['bard (staged optional path)', 'complete combat matrices', 'spell capacity rows', 'monk table II numeric rows', 'DM follower composition tables']),
 });
 
 export function getCoreClassCapabilities(classId: InitialCoreClassId): readonly CoreClassCapability[] {

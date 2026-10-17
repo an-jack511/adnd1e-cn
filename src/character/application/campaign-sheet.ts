@@ -12,6 +12,7 @@ import type {CampaignSpellLedger,PreparationCourse} from '../workflows/core-camp
 import type {CoreCampaignCalendar} from '../workflows/core-calendar';
 import {formatCampaignMinute} from './campaign-time';
 import {projectCapabilitiesForPlayer, reviewCoreClassCapabilities, type CapabilityAtLevel} from '../engine/core-class-capabilities';
+import {coreBackstabView, coreThiefFunctions, type CoreThiefFunctionView} from '../engine/core-thief-functions';
 import type { PublicRelationshipProjectionFile } from '../engine/core-relationships-public';
 
 export interface CampaignSheet {
@@ -22,6 +23,8 @@ export interface CampaignSheet {
   combat:ReturnType<typeof coreCombatBase>;defense:CoreDefenseView;defenseSelection:DefenseSelection|null;
   abilities:{label:string;initial:number;adjusted:number;recordedCurrent:number|null}[];
   capabilities:readonly CapabilityAtLevel[];
+  thiefFunctions:readonly CoreThiefFunctionView[]|null;
+  backstab:{multiplier:number;attackBonus:number;sourceIds:readonly string[]}|null;
   spells:CampaignSpellView|null;calendar:{minutesPerDay:number;daysPerWeek:number}|null;
   relationships:PublicRelationshipProjectionFile|null;
 }
@@ -55,9 +58,12 @@ export function campaignSheet(input:CoreCampaignArchive):CampaignSheet{
   }):[];
   const capabilityReview=reviewCoreClassCapabilities(classId as InitialCoreClassId,level);
   const playerCapabilities=Object.freeze([...projectCapabilitiesForPlayer(classId as InitialCoreClassId,level),...capabilityReview.locked.filter(item=>item.visibility==='player')]);
+  const thiefClass=classId==='thief'||classId==='assassin'||classId==='monk'?classId:null;
+  const thiefFunctions=thiefClass?coreThiefFunctions({classId:thiefClass,level,raceId:candidate.raceId as Parameters<typeof coreThiefFunctions>[0]['raceId'],dexterity:adjusted.DEX}):null;
+  const backstab=thiefClass?coreBackstabView(level):null;
   return {name:origin.name,race:raceLabels[candidate.raceId]??'待核种族',career:careerLabels[classId]??'待核职业',level:state?.level??1,xp:state?.xp??0,
     maximumHp:state?.life?.maximumHp??(typeof initialHp==='number'?initialHp+earned:null),life:state?.life?structuredClone(state.life):null,
     inventory:inventory?structuredClone(inventory):null,wealthCp:inventory?.wallets.reduce((sum,w)=>sum+moneyValueCp(w.coins),0)??0,prepared,
     history:archive.actions.map(a=>({label:actionLabels[a.intent.type]??'战役活动',at:a.at,gameTime:state?.calendar?(a.intent.type==='cast-prepared'&&a.intent.atMinute!==undefined?formatCampaignMinute(a.intent.atMinute,state.calendar.minutesPerDay):a.intent.type==='prepare-spells'?`${formatCampaignMinute(a.intent.facts.restStartMinute,state.calendar.minutesPerDay)} → ${formatCampaignMinute(a.intent.facts.studyEndMinute,state.calendar.minutesPerDay)}`:null):null})),revision:archive.runtime.transaction.revision,
-    combat:coreCombatBase(classId as InitialCoreClassId,level),defense:coreDefense({classId:classId as InitialCoreClassId,level,dexterity:adjusted.DEX,inventory,selection:defenseSelection}),defenseSelection,abilities,capabilities:playerCapabilities,spells,calendar:state?.calendar?{minutesPerDay:state.calendar.minutesPerDay,daysPerWeek:state.calendar.daysPerWeek}:null,relationships:state?.relationships?.data?structuredClone(state.relationships.data):null};
+    combat:coreCombatBase(classId as InitialCoreClassId,level),defense:coreDefense({classId:classId as InitialCoreClassId,level,dexterity:adjusted.DEX,inventory,selection:defenseSelection}),defenseSelection,abilities,capabilities:playerCapabilities,thiefFunctions,backstab,spells,calendar:state?.calendar?{minutesPerDay:state.calendar.minutesPerDay,daysPerWeek:state.calendar.daysPerWeek}:null,relationships:state?.relationships?.data?structuredClone(state.relationships.data):null};
 }

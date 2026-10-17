@@ -12,6 +12,7 @@ tests.push('test-core-divine-creation.ts');
 tests.push('test-core-all-career-advancement.ts');
 tests.push('test-core-calendar.ts');
 tests.push('test-core-combat-defense.ts');
+tests.push('test-core-thief-functions.ts');
 tests.push('test-campaign-preparation.ts');
 tests.push('test-core-growth-checklist.ts');
 tests.push('test-core-campaign-storage.ts');

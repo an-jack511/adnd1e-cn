@@ -24,6 +24,11 @@ Object.assign(entries,{
   'phb:11:dex-defense':{book:'PHB',printedPages:[11],pdfPages:[12],section:'Dexterity Table I and defensive adjustment notes'},
   'phb:36:ordinary-defense':{book:'PHB',printedPages:[36],pdfPages:[37],section:'Armor; Armor Class Table; shield limits'},
   'phb:30-31:monk-defense':{book:'PHB',printedPages:[30,31],pdfPages:[31,32],section:'The Monk; Monks Table II'},
+  'phb:26-27:thief-functions':{book:'PHB',printedPages:[26,27],pdfPages:[27,28],section:'The Thief; Thief Function Table'},
+  'phb:11:dex-thief-adjustment':{book:'PHB',printedPages:[11],pdfPages:[12],section:'Dexterity Table II: Adjustments For Thieves'},
+  'phb:26-28:thief':{book:'PHB',printedPages:[26,27,28],pdfPages:[27,28,29],section:'The Thief'},
+  'phb:28-30:assassin':{book:'PHB',printedPages:[28,29,30],pdfPages:[29,30,31],section:'The Assassin'},
+  'phb:30-32:monk':{book:'PHB',printedPages:[30,31,32],pdfPages:[31,32,33],section:'The Monk'},
 });
 export function resolveDisplayRuleSource(id:string):DisplayRuleSource|null{
   const source:SourceShape|null=Object.hasOwn(entries,id)?entries[id]:Object.hasOwn(coreLifeStateSources,id)?coreLifeStateSources[id as keyof typeof coreLifeStateSources]:null;if(!source)return null;
