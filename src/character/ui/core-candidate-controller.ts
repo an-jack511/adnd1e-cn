@@ -14,7 +14,10 @@ import { coreWeaponChoices } from '../rules/core-weapon-choices';
 import { renderInitialSpells } from './core-initial-spells';
 import { renderStartingEquipment } from './core-starting-equipment';
 import { readCoreCreationLibrary, saveCoreCreationLibrary } from '../workflows/core-creation-storage';
+import { enterPlayerCreatedCharacter } from '../workflows/core-creation-entry';
+import { saveBrowserCampaign } from '../workflows/core-campaign-browser-storage';
 import type { CoreAlignmentId as LanguageAlignmentId, CoreLanguageCareerId, CoreRaceId as LanguageRaceId } from '../rules/core-languages';
+import { characterLabel, taskLabel } from './character-labels';
 const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
 export function startCoreCandidate(){
   const draftSelect=get<HTMLSelectElement>('core-draft'),raceSelect=get<HTMLSelectElement>('core-race'),subrace=get<HTMLSelectElement>('core-subrace');
@@ -23,6 +26,7 @@ export function startCoreCandidate(){
   const languages=get<HTMLElement>('core-languages'),languageAutomatic=get('core-language-automatic'),languageSlots=get('core-language-slots'),languageStatus=get('core-language-status');
   let evaluated:ReturnType<typeof selectCoreCandidate>|null=null;
   let savedBase:ReturnType<typeof selectCoreCandidate>|null=null;
+  const issueText=(value:string)=>value.replace('PHB20 says normally only humans are single-class clerics; tableI permission is not a blanket single-class ban.','PHB p.20：通常只有人类可以单职业担任牧师；表 I 的许可并不等于对所有非人类一概禁止。');
   function refreshSaved(){try{get<HTMLSelectElement>('core-saved').replaceChildren(new Option('选择浏览器保存的进度',''),...readCoreCreationLibrary(localStorage).map(doc=>new Option(`${doc.name||'未命名'} · r${doc.revision}`,doc.id)));}catch(error){message((error as Error).message,true);}}
   refreshSaved();
   async function saveCurrentCreation(){
@@ -35,12 +39,13 @@ export function startCoreCandidate(){
     return snapshot;
   }
   get('core-save-local').addEventListener('click',async()=>{try{await saveCurrentCreation();message('已保存本地创建进度，建议同时导出文件备份。');}catch(error){message((error as Error).message,true);}});
+  get('core-enter-sheet').addEventListener('click',async()=>{try{if(!evaluated)throw new Error('请先完成身份资格检查。');const snapshot=await saveCurrentCreation();const result=await enterPlayerCreatedCharacter(snapshot,saveBrowserCampaign);message('已保存玩家角色，正在打开人物卡。');location.assign(result.url);}catch(error){message((error as Error).message,true);}});
   get('core-load-local').addEventListener('click',()=>{try{
     const selected=readCoreCreationLibrary(localStorage).find(doc=>doc.id===get<HTMLSelectElement>('core-saved').value);if(!selected)throw new Error('请选择本地创建进度。');
     if(evaluated)throw new Error('当前有打开的创建进度，请先导出备份，再刷新页面加载。');
     restoreCreation(selected);savedBase=structuredClone(selected);
   }catch(error){message((error as Error).message,true);}});
-  function renderTaskSummary(){const list=get('core-task-summary');list.replaceChildren();for(const task of evaluated?.tasks??[]){const li=document.createElement('li');li.textContent=`${task.id}：${task.status} · ${task.note}`;list.append(li);}}
+  function renderTaskSummary(){const list=get('core-task-summary');list.replaceChildren();for(const task of evaluated?.tasks??[]){const li=document.createElement('li');li.textContent=`${taskLabel(task.id)}：${characterLabel(task.status)} · ${task.note}`;list.append(li);}const enter=get<HTMLButtonElement>('core-enter-sheet');if(enter)enter.disabled=!evaluated?.candidate||evaluated.status==='blocked'||evaluated.status==='selection';}
   function renderSpells(){
     const update=(value:NonNullable<typeof evaluated>)=>{evaluated=value;renderTaskSummary();};
     renderInitialSpells(get('core-initial-spells'),()=>evaluated,update);
@@ -51,9 +56,9 @@ export function startCoreCandidate(){
   try{drafts=readLibrary(localStorage).filter(d=>d.scores!==null&&d.activeBatch!==null);draftSelect.replaceChildren(new Option('选择已确认属性草稿',''),...drafts.map(d=>new Option(`${d.name||'未命名'} · ${Object.values(d.scores!).join('/')}`,d.id)));}
   catch(e){message((e as Error).message,true);}
   raceSelect.replaceChildren(...pack.races.map(r=>new Option(r.label,r.id)));
-  get<HTMLSelectElement>('core-alignment').replaceChildren(...coreAlignmentIds.map(id=>new Option(id,id)));
+  get<HTMLSelectElement>('core-alignment').replaceChildren(...coreAlignmentIds.map(id=>new Option(characterLabel(id),id)));
   for(const c of pack.classes.filter(c=>c.id!=='bard')){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.value=c.id;input.name='core-class';label.append(input,document.createTextNode(' '+c.label));classes.append(label);}
-  function renderSubraces(){const r=pack.races.find(x=>x.id===raceSelect.value)!;subrace.replaceChildren(new Option(r.subraceIds.length?'请选择原书亚种':'不适用',''),...r.subraceIds.map(id=>new Option(id,id)));subrace.disabled=!r.subraceIds.length;}
+  function renderSubraces(){const r=pack.races.find(x=>x.id===raceSelect.value)!;subrace.replaceChildren(new Option(r.subraceIds.length?'请选择亚种':'不适用',''),...r.subraceIds.map(id=>new Option(characterLabel(id),id)));subrace.disabled=!r.subraceIds.length;}
   raceSelect.addEventListener('change',renderSubraces);renderSubraces();
   function invalidate(){evaluated=null;savedBase=null;get('core-initial-spells').replaceChildren();get('core-starting-equipment').replaceChildren();get<HTMLButtonElement>('core-export').disabled=true;resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;resourceStatus.textContent='先完成核心资格检查。';renderTaskSummary();}
   const weaponFamilies:CoreWeaponFamily[]=['bo-stick','club','crossbow','crossbow-heavy','dagger','dart','flail','hammer','hand-axe','javelin','jo-stick','longbow','mace','pike','pole-arm','scimitar','sling','spear','staff','sword-bastard','sword-broad','sword-long','sword-short','sword-two-handed','other'];
@@ -64,7 +69,7 @@ export function startCoreCandidate(){
     get('core-proficiency-status').textContent='';
     if(evaluated.candidate.classIds.length!==1){get('core-proficiency-help').textContent='同时多职业的熟练组合需专门规则流程，暂保留为待完成。';return;}
     const plan=coreWeaponProficiencySlots(evaluated.candidate.classIds[0] as InitialCoreClassId,1);
-    get('core-proficiency-help').textContent=`${plan.classId}：${plan.totalSlots} 个熟练位，非熟练惩罚 ${plan.nonProficiencyPenalty}；每 ${coreWeaponProficiencyRules[plan.classId].levelsPerAddedSlot} 级增加一位（PHB p.37）。`;
+    get('core-proficiency-help').textContent=`${characterLabel(plan.classId)}：${plan.totalSlots} 个熟练位，非熟练惩罚 ${plan.nonProficiencyPenalty}；每 ${coreWeaponProficiencyRules[plan.classId].levelsPerAddedSlot} 级增加一位（PHB p.37）。`;
     for(let index=0;index<plan.totalSlots;index++){
       const row=document.createElement('div');row.dataset.proficiency='true';
       const label=document.createElement('label');label.textContent=`熟练 ${index+1} `;
@@ -107,14 +112,14 @@ export function startCoreCandidate(){
     if(!evaluated?.candidate)return;const ids=evaluated.candidate.classIds as InitialCoreClassId[];
     resources.hidden=false;
     const rollFields=get('core-hp-class-rolls');rollFields.replaceChildren();
-    const descriptions:string[]=[];for(const id of ids){const row=getCoreProgressionRow(id,1);if(row.status==='unknown')continue;descriptions.push(`${id} ${row.row.hitDiceGained}d${row.row.hitDieSides}`);const label=document.createElement('label');label.textContent=`${id} 骰面（逗号分隔）`;const input=document.createElement('input');input.id=`core-hp-faces-${id}`;input.inputMode='numeric';label.append(input);rollFields.append(label);}
+    const descriptions:string[]=[];for(const id of ids){const row=getCoreProgressionRow(id,1);if(row.status==='unknown')continue;descriptions.push(`${characterLabel(id)} ${row.row.hitDiceGained}d${row.row.hitDieSides}`);const label=document.createElement('label');label.textContent=`${characterLabel(id)} 骰面（逗号分隔）`;const input=document.createElement('input');input.id=`core-hp-faces-${id}`;input.inputMode='numeric';label.append(input);rollFields.append(label);}
     hpHelp.textContent=`${descriptions.join('；')}。各职业分别掷适用生命骰并逐骰应用该职业体质修正；合计后除以 ${ids.length}，不足半点舍、半点以上进。`;
     if(ids.length!==1){moneyHelp.textContent='多职业起始金钱在当前已核资料中未封口，系统不会相加或择优。';return;}
-    const id=ids[0],money=startingMoneyRules[startingMoneyFamilyByClass[id]];moneyHelp.textContent=`${id}：${money.diceCount}d${money.dieSides}${money.multiplierGp===1?'':' × '+money.multiplierGp} gp（PHB p.35）。`;
+    const id=ids[0],money=startingMoneyRules[startingMoneyFamilyByClass[id]];moneyHelp.textContent=`${characterLabel(id)}：${money.diceCount}d${money.dieSides}${money.multiplierGp===1?'':' × '+money.multiplierGp} gp（PHB p.35）。`;
   }
   const alignmentMap:Record<string,LanguageAlignmentId>={LG:'lawful-good',NG:'neutral-good',CG:'chaotic-good',LN:'lawful-neutral',TN:'true-neutral',CN:'chaotic-neutral',LE:'lawful-evil',NE:'neutral-evil',CE:'chaotic-evil'};
   function currentLanguagePlan(selections:readonly LanguageSelectionInput[]=[]){if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const result=evaluated.evaluation as ReturnType<typeof evaluateCoreEligibility>;return planCoreLanguages({raceId:evaluated.candidate.raceId as LanguageRaceId,alignmentId:alignmentMap[evaluated.candidate.alignmentId],intelligence:result.adjustedScores.INT,careers:evaluated.candidate.classIds.map(classId=>({classId:classId as CoreLanguageCareerId,level:1})),selections});}
-  function renderLanguagePlan(){const plan=currentLanguagePlan();languages.hidden=false;languageAutomatic.textContent=`自动语言：${plan.automaticLanguages.map(item=>item.languageId).join('、')||'无'}${plan.automaticCommunications.length?`；特殊交流：${plan.automaticCommunications.join('、')}`:''}。普通语言学习期：${plan.ordinaryStudyMonths}个月。`;languageSlots.replaceChildren();for(const entitlement of plan.entitlements)for(let index=0;index<entitlement.count;index++){const wrap=document.createElement('div');wrap.dataset.entitlement=entitlement.entitlementId;const label=document.createElement('label');label.textContent=`${entitlement.kind} ${index+1}/${entitlement.count}`;let field:HTMLInputElement|HTMLSelectElement;if(entitlement.allowedLanguageIds){field=document.createElement('select');field.append(new Option('请选择',''),...entitlement.allowedLanguageIds.map(id=>new Option(id,id)));}else{field=document.createElement('input');field.placeholder='输入语言名称；不确定时可先记录计划';}field.className='core-language-choice';label.append(field);wrap.append(label);languageSlots.append(wrap);}languageStatus.textContent=plan.entitlements.length?'请填满需要的语言位；不确定的选择可先记录为待补充。':'没有额外语言位，仍会记录自动语言。';}
+  function renderLanguagePlan(){const plan=currentLanguagePlan();languages.hidden=false;languageAutomatic.textContent=`自动语言：${plan.automaticLanguages.map(item=>characterLabel(item.languageId)).join('、')||'无'}${plan.automaticCommunications.length?`；特殊交流：${plan.automaticCommunications.map(characterLabel).join('、')}`:''}。普通语言学习期：${plan.ordinaryStudyMonths}个月。`;languageSlots.replaceChildren();for(const entitlement of plan.entitlements)for(let index=0;index<entitlement.count;index++){const wrap=document.createElement('div');wrap.dataset.entitlement=entitlement.entitlementId;const label=document.createElement('label');label.textContent=`${entitlement.kind==='intelligence-extra'?'智力额外语言':'职业语言'} ${index+1}/${entitlement.count}`;let field:HTMLInputElement|HTMLSelectElement;if(entitlement.allowedLanguageIds){field=document.createElement('select');field.append(new Option('请选择',''),...entitlement.allowedLanguageIds.map(id=>new Option(characterLabel(id),id)));}else{field=document.createElement('input');field.placeholder='输入语言名称；不确定时可先记录计划';}field.className='core-language-choice';label.append(field);wrap.append(label);languageSlots.append(wrap);}languageStatus.textContent=plan.entitlements.length?'请填满需要的语言位；不确定的选择可先记录为待补充。':'没有额外语言位，仍会记录自动语言。';}
   get('core-evaluate').addEventListener('click',()=>{
     try{
       const draft=drafts.find(d=>d.id===draftSelect.value);if(!draft?.scores||!draft.activeBatch)throw new Error('请先选择已确认六项属性的草稿。');
@@ -124,11 +129,11 @@ export function startCoreCandidate(){
       const candidate:CoreCandidate={raceId:raceSelect.value as CoreCandidate['raceId'],subraceId:subrace.value||null,sex:get<HTMLSelectElement>('core-sex').value as CoreCandidate['sex'],alignmentId:get<HTMLSelectElement>('core-alignment').value as CoreCandidate['alignmentId'],initialScores,classIds,mode,campaign:{allowedRaceIds:pack.races.map(r=>r.id),bardEnabled:false}};
       const result=evaluateCoreEligibility(candidate);
       let creation=newCoreCreation({name:draft.name,generation:{draftId:draft.id,draftRevision:draft.revision,batchId:draft.activeBatch.id,method:draft.activeBatch.method,scores:initialScores}});evaluated=selectCoreCandidate(creation,candidate);
-      results.replaceChildren();for(const id of coreAbilityIds){const item=document.createElement('div');item.textContent=`${id} ${draft.scores[id]} → ${result.adjustedScores[id]}`;results.append(item);}
+      results.replaceChildren();for(const id of coreAbilityIds){const item=document.createElement('div');item.textContent=`${characterLabel(id)} ${draft.scores[id]} → ${result.adjustedScores[id]}`;results.append(item);}
       issues.replaceChildren();
-      if(!result.issues.length){const li=document.createElement('li');li.textContent='核心资格检查没有发现阻断项；仍须完成HP、金钱、装备、语言、熟练和法术等创建任务。';issues.append(li);}
-      for(const item of result.issues){const li=document.createElement('li');const refs=item.sourceIds.map(id=>{const s=pack.sources.find(x=>x.id===id);return s?`${s.book} p.${s.printedPage}`:id;}).join('、');li.textContent=`${item.verdict==='forbidden'?'禁止':'待确认'}：${item.message}（${refs}）`;issues.append(li);}
-      const caps=Object.entries(result.classLevelCaps).map(([id,value])=>`${id}: ${value==='unlimited'?'不限':value==='needs-dm'?'待确认':value}`).join('；');
+      if(!result.issues.length){const li=document.createElement('li');li.textContent='核心资格检查没有发现阻断项；仍须完成生命值、金钱、装备、语言、熟练和法术等创建任务。';issues.append(li);}
+      for(const item of result.issues){const li=document.createElement('li');const refs=item.sourceIds.map(id=>{const s=pack.sources.find(x=>x.id===id);return s?`${s.book} p.${s.printedPage}`:'原书来源待补充';}).join('、');li.textContent=`${item.verdict==='forbidden'?'禁止':'待确认'}：${issueText(item.message)}（${refs}）`;issues.append(li);}
+      const caps=Object.entries(result.classLevelCaps).map(([id,value])=>`${characterLabel(id)}：${value==='unlimited'?'不限':value==='needs-dm'?'待补充':value}`).join('；');
       message(`${result.verdict==='allowed'?'核心资格允许':result.verdict==='forbidden'?'核心资格不合法':'核心资格存在待确认事项'}。等级上限：${caps}` ,result.verdict==='forbidden');
       get<HTMLButtonElement>('core-export').disabled=false;
       if(result.verdict!=='forbidden'){renderResourcePlan();renderLanguagePlan();renderProficiencies();}else{resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;}
@@ -138,7 +143,7 @@ export function startCoreCandidate(){
     try{if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const ids=evaluated.candidate.classIds as InitialCoreClassId[];
       const rollsByClass:Partial<Record<InitialCoreClassId,number[]>>={},methods:Record<string,string>={};for(const id of ids){const row=getCoreProgressionRow(id,1);if(row.status==='unknown')throw new Error(row.reason);const roll=parseHpFaces(id,row.row.hitDiceGained,row.row.hitDieSides);rollsByClass[id]=roll.values;methods[id]=roll.method;}
       const con=(evaluated.evaluation as ReturnType<typeof evaluateCoreEligibility>).adjustedScores.CON,plan=calculateCoreInitialHp({classIds:ids,constitution:con,rollsByClass});
-      evaluated=recordCreationTask(evaluated,'hp',{status:'complete',sourceIds:[...plan.sourceIds],note:`一级生命值 ${plan.actualAward}`,facts:{...plan,rollMethods:methods}});resourceStatus.textContent=`已记录 HP ${plan.actualAward}；${ids.map(id=>`${id}: ${(rollsByClass[id]??[]).join(', ')}`).join('；')}。`;
+      evaluated=recordCreationTask(evaluated,'hp',{status:'complete',sourceIds:[...plan.sourceIds],note:`一级生命值 ${plan.actualAward}`,facts:{...plan,rollMethods:methods}});resourceStatus.textContent=`已记录生命值 ${plan.actualAward}；${ids.map(id=>`${characterLabel(id)}：${(rollsByClass[id]??[]).join(', ')}`).join('；')}。`;
     }catch(e){resourceStatus.textContent=(e as Error).message;}
   });
   get('core-money-record').addEventListener('click',()=>{
@@ -162,7 +167,7 @@ export function startCoreCandidate(){
       renderTaskSummary();results.replaceChildren();issues.replaceChildren();
       const result=evaluateCoreEligibility(candidate);
       for(const id of coreAbilityIds){const item=document.createElement('div');item.textContent=`${id} ${restored.generation.scores[id]} → ${result.adjustedScores[id]}`;results.append(item);}
-      for(const issue of result.issues){const li=document.createElement('li');li.textContent=`${issue.message}（${issue.sourceIds.join('、')}）`;issues.append(li);}
+      for(const issue of result.issues){const li=document.createElement('li');li.textContent=`${issueText(issue.message)}（${issue.sourceIds.length?'已有原书依据':'原书来源待补充'}）`;issues.append(li);}
       resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;
       for(const id of ['core-initial-spells','core-starting-equipment'])get(id).replaceChildren();
       if(restored.status!=='admitted'&&restored.status!=='blocked'){renderResourcePlan();renderLanguagePlan();renderProficiencies();}

@@ -3,6 +3,7 @@ import { parseCoreCreation } from '../workflows/core-create';
 import { evaluateCoreEligibility } from '../engine/core-eligibility';
 import { coreAbilityIds, coreEligibilityPack } from '../rules/core-eligibility';
 import { renderRuleSources } from './source-links';
+import { characterLabel, taskLabel } from './character-labels';
 
 export function startCoreArchive(){
   const status=document.getElementById('archive-status')!,host=document.getElementById('archive-character')!;
@@ -21,7 +22,7 @@ export function startCoreArchive(){
       const admission=document.createElement('p');admission.textContent=`准入：${creation.admission!.actorId} · ${creation.admission!.at} · ${creation.admission!.scope}`;fragment.append(admission);
       for(const task of creation.tasks){
         const section=document.createElement('section'),heading=document.createElement('h3'),note=document.createElement('p');
-        heading.textContent=`${task.id} · ${task.status}`;note.textContent=task.note;section.append(heading,note);
+        heading.textContent=`${taskLabel(task.id)} · ${characterLabel(task.status)}`;note.textContent=task.note;section.append(heading,note);
         if(task.facts){const details=document.createElement('details'),summary=document.createElement('summary'),pre=document.createElement('pre');summary.textContent='事实、计算过程与裁定';pre.textContent=JSON.stringify(task.facts,null,2);details.append(summary,pre);section.append(details);}
         const sources=document.createElement('div');renderRuleSources(sources,task.sourceIds);section.append(sources);fragment.append(section);
       }

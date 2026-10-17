@@ -10,7 +10,7 @@ export function renderInitialSpells(host:HTMLElement,read:()=>CoreCreation|null,
   const heading=document.createElement('h2');heading.textContent='初始法术';host.append(heading);
   const ids=doc.candidate.classIds,arcane=ids.filter(id=>id==='magic-user'||id==='illusionist');
   const status=document.createElement('p');status.setAttribute('role','status');
-  const explanation=document.createElement('p');explanation.textContent='DMG p.39 的初始授予与 PHB p.10 的 Chance to Know 分别记录。初始授予不会自动填满智力最低法术数，也不会等同于已记忆法术。';host.append(explanation);
+  const explanation=document.createElement('p');explanation.textContent='DMG p.39 的初始授予与 PHB p.10 的法术知悉概率（Chance to Know）分别记录。初始授予不会自动填满智力最低法术数，也不会等同于已记忆法术。';host.append(explanation);
   if(!arcane.length){
     if(ids.some(id=>id==='cleric'||id==='druid')){if(ids.length===1)renderDivineInitialSpells(host,read,write);else{status.textContent='多职业神术准备仍需对应流程。';host.append(status);}return;}
     const button=document.createElement('button');button.type='button';button.textContent='记录一级无初始施法任务';
@@ -30,7 +30,7 @@ export function renderInitialSpells(host:HTMLElement,read:()=>CoreCreation|null,
   const illusionRolls=document.createElement('input');
   if(ids[0]==='illusionist'){
     const label=document.createElement('label');label.textContent='依次输入 d12 骰面（逗号分隔，重复结果继续掷）';illusionRolls.placeholder='例如 1, 1, 5, 12';label.append(illusionRolls);host.append(label);
-    const table=document.createElement('p');table.textContent=illusionistInitialTable.map((id,index)=>`${index+1} ${id}`).join('；');host.append(table);
+    const table=document.createElement('p');table.textContent=illusionistInitialTable.map((id,index)=>`${index+1} ${arcaneSpellLabel(id)}`).join('；');host.append(table);
   }
   const button=document.createElement('button');button.type='button';button.textContent='计算并记录初始授予';host.append(button,status);
   const savedFacts=doc.tasks.find(task=>task.id==='initial-spells')?.facts;

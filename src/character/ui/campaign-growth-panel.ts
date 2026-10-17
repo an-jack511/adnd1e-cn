@@ -4,9 +4,10 @@ import type {CampaignSheet} from '../application/campaign-sheet';
 import type {GrowthAction} from '../actions/growth-actions';
 import {gameTimeFields,readGameMinute} from './campaign-spell-panel';
 import {moneyValueCp,emptyCoins,type CoinCounts} from '../engine/core-inventory';
+import {characterLabel} from './character-labels';
 const esc=(v:unknown)=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const gp=(cp:number)=>`${(cp/200).toLocaleString()} gp`;
-const stages:Record<string,string>={adventuring:'冒险中', 'eligible-needs-dm':'资格待战役确认','training-planned':'课程筹备','training-active':'实际训练中','ready-for-award':'训练完成，待正式授级','training-interrupted':'严重中断，须重新开课'};
+const stages:Record<string,string>={adventuring:'冒险中', 'eligible-needs-dm':'资格待补充','training-planned':'课程筹备','training-active':'实际训练中','ready-for-award':'训练完成，待正式授级','training-interrupted':'严重中断，须重新开课'};
 const button=(op:string,label:string,disabled=false)=>`<button data-operation="growth-${op}" ${disabled?'disabled':''}>${label}</button>`;
 const denominations=['pp','gp','ep','sp','cp'] as const;
 function coinFields(prefix:string){return `<div class="coin-fields">${denominations.map(d=>`<label>${d}<input type="number" name="${prefix}${d}" min="0" step="1" value="0" required/></label>`).join('')}</div>`;}
@@ -20,7 +21,7 @@ export function renderCampaignGrowth(sheet:CampaignSheet,view:CampaignGrowthView
   if(sheet.life?.hpSettlement==='needs-dm')next=`<h3>先确认实际当前HP</h3><p>最大HP已改变，但当前HP不会按升级或训练自动补满。</p>${button('settle-hp','确认实际当前HP')}`;
   else if(!sheet.life)next='<h3>确认人物当前状态</h3><p>训练和授级前先记录实际当前HP；这不是治疗或重置。</p><button data-operation="initialize">确认当前HP</button>';
   else if(view.status==='adventuring')next=view.check.status==='not-eligible'?`<h3>经验尚未达到下一门槛</h3><p>还需 ${(view.check.threshold!-view.xp).toLocaleString()} XP。录入团桌已经结算的实际数额，不按持有金币自动发经验。</p>${button('xp','录入已确认经验结算')}`:!view.assessments.length&&view.priorCourseRatings.length?`<h3>原经验已跨越另一门槛</h3><p>仍须另行训练。先明确本轮是否采用上轮完整评定集，不虚构新冒险或再次发经验。</p>${button('adopt-ratings','记录本轮评定采用')}`:`<h3>经验已达标，等级尚未提升</h3><p>进入资格检查、训练与实际授级，不直接修改等级。</p>${button('open','检查升级条件')}`;
-  else if(view.status==='eligible-needs-dm')next=`<h3>等待战役确认资格条件</h3><ul class="plain-list">${view.check.reasons.map(r=>`<li>${esc(r)}</li>`).join('')}</ul><p>系统不代替世界名额、挑战或种族上限裁定。</p>${button('gate','记录本次战役处理')}`;
+  else if(view.status==='eligible-needs-dm')next=`<h3>补充升级资格条件</h3><ul class="plain-list">${view.check.reasons.map(r=>`<li>${esc(r)}</li>`).join('')}</ul><p>系统只记录已经发生的战役事实；名额、挑战或例外由团桌自行处理。</p>${button('gate','记录本次处理')}`;
   else if(view.status==='training-planned'&&!c?.planned)next=`<h3>选择并确认实际课程</h3><p>按已取得等级收费；导师须同职业同专业且实际可用。自修是否可行由已记录的平均评定决定。</p>${button('plan','查看训练方案')}`;
   else if(view.status==='training-planned'&&c?.remainingCp)next=`<h3>支付已确认课程费用</h3><p>应付余额 ${gp(c.remainingCp)}。只扣实际钱包和面额，不自动找零或跨钱包挪款。</p>${button('pay','支付课程余额',!view.wallets.length)} ${button('income','记录实际收入',!view.wallets.length)}`;
   else if(view.status==='training-planned')next=`<h3>费用已付，开始实际课程</h3><p>开始不等于完成；仍须登记已发生的连续训练及战役时间。</p>${button('start','确认开始课程',!canAct)}`;
@@ -28,7 +29,7 @@ export function renderCampaignGrowth(sheet:CampaignSheet,view:CampaignGrowthView
   else if(view.status==='ready-for-award')next=`<h3>确认授级与生命值增长</h3><p>${view.coverageIssue?'时间、位置或活动后果仍待核对；不要跳过裁定。':'已核实际课程时间；继续记录正式授级和原书要求的实际生命骰。'}</p>${button('award','预览正式升级',!view.coverage||!canAct)}`;
   else next=`<h3>中断课程的收益与预付已损失</h3><p>旧课程保留在历史；不能免费恢复旧进度或退还已花费用。</p>${button('restart','记录重新开课裁定')}`;
   const before=view.combatBefore,after=view.combatAfter;
-  return `<div class="page-heading"><p class="eyebrow">PROGRESS · 持续战役人物</p><h1>${esc(view.name)}的成长</h1><p>${esc(view.career)} · 已取得${view.level}级 · ${stages[view.status]}</p></div>
+  return `<div class="page-heading"><p class="eyebrow">成长 · 持续战役人物</p><h1>${esc(view.name)}的成长</h1><p>${esc(characterLabel(view.career))} · 已取得${view.level}级 · ${stages[view.status]}</p></div>
 <section class="growth-overview"><div><span>当前经验</span><strong>${view.xp.toLocaleString()}</strong><small>下一门槛 ${view.check.threshold?.toLocaleString()??'待核'} XP</small></div><div><span>已经取得 / 候升等级</span><strong>${view.level} <small>→ ${view.check.targetLevel}</small></strong><small>经验达标不自动升级</small></div><div><span>最大HP</span><strong>${view.maximumHp??'待核'}</strong><small>当前 ${sheet.life?.currentHp??'待确认'}；不会自动治疗</small></div><div data-save-state><span>保存状态</span><strong>待核</strong><small>读取现有角色库</small></div></section>
     <div class="work-columns"><section class="paper-section"><h2>当前需要完成什么</h2><div class="growth-next">${next}</div>${!view.calendar?`<p class="inline-note">尚未配置本战役日历；记录训练时间前须明确采用。</p>${button('calendar','设置战役日历')}`:''}
     ${c?.planned?`<h3>已确认课程</h3><dl class="facts"><dt>连续课程</dt><dd>${c.weeksNumerator}/${c.weeksDenominator}周${c.requiredMinutes!==null?` · ${c.requiredMinutes.toLocaleString()}战役分钟`:''}</dd><dt>已付 / 约定</dt><dd>${gp(c.paidCp)} / ${gp(c.acceptedCostCp!)}</dd><dt>已记录分段</dt><dd>${c.segments.length}段</dd></dl>`:''}

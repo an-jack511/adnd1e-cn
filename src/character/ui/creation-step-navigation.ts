@@ -121,7 +121,7 @@ export function startCreationStepNavigation(): void {
       const ids = stepTasks[tab.dataset.createTab ?? ''];
       const matched = tasks.filter(task => ids?.includes(task.id));
       const text = matched.length && matched.length === ids?.length
-        ? matched.every(task => ['complete', 'not-applicable'].includes(task.status)) ? '已记录' : matched.some(task => task.status === 'needs-dm') ? '待裁定' : '待完成'
+        ? matched.every(task => ['complete', 'not-applicable'].includes(task.status)) ? '已记录' : matched.some(task => task.status === 'needs-dm') ? '待补充' : '待完成'
         : '';
       const badge = tab.querySelector('small');
       if (badge && badge.textContent !== text) badge.textContent = text;

@@ -337,7 +337,7 @@ export const coreEligibilityPack = {
     {id:'low-cha',ability:'CHA',maximum:5,onlyClassId:'assassin',...ev(['phb-13'])},
   ] as const,
   normalSingleClassCleric:{id:'normal-human-single-cleric',...ev(['phb-20']),
-    human:true,nonhuman:'needs-dm',note:'PHB20 says normally only humans are single-class clerics; tableI permission is not a blanket single-class ban.'},
+    human:true,nonhuman:'needs-dm',note:'PHB p.20：通常只有人类可以单职业担任牧师；表 I 的许可并不等于对所有非人类一概禁止。'},
   npcOnlyClassLimits:[
     {id:'npc-dwarf-cleric',raceId:'dwarf',classId:'cleric',level:8,...ev(['phb-14'])},
     {id:'npc-elf-cleric',raceId:'elf',classId:'cleric',level:7,...ev(['phb-14'])},

@@ -61,11 +61,31 @@ import '../../../styles/character-prototype.css';
   const reviewSaveNoteWrapped = document.querySelector<HTMLElement>('#create-panel-review .create-action-row + p');
   if (reviewSaveNoteWrapped) reviewSaveNoteWrapped.textContent = '导出文件是自己的备份，也方便以后迁移到其他工具；它不会改变角色状态。';
   document.querySelector<HTMLElement>('#create-panel-review [data-create-save]')?.closest('.create-action-row')?.remove();
+  const reviewActions = document.querySelector<HTMLElement>('#create-panel-review .create-action-row');
+  if (reviewActions && !document.getElementById('core-enter-sheet')) {
+    const action = document.createElement('div');
+    action.className = 'create-action-row';
+    action.innerHTML = '<button type="button" id="core-enter-sheet" class="primary" disabled>保存并打开角色卡</button>';
+    reviewActions.before(action);
+  }
+  if (!document.getElementById('core-enter-sheet')) {
+    const reviewPanel = document.querySelector<HTMLElement>('#create-panel-review');
+    const action = document.createElement('div');
+    action.className = 'create-action-row';
+    action.innerHTML = '<button type="button" id="core-enter-sheet" class="primary" disabled>保存并打开角色卡</button>';
+    reviewPanel?.querySelector('details')?.before(action);
+  }
+  const reviewEntryNote = document.querySelector<HTMLElement>('#create-panel-review .create-action-row + p');
+  if (reviewEntryNote) reviewEntryNote.textContent = '角色卡会保留未完成事项，不会在这里写入 DM 审核；导出文件是自己的备份，也方便以后迁移到 DM Studio。';
   const identityTaskNote = document.querySelector<HTMLElement>('#create-panel-identity .inline-note');
   if (identityTaskNote) identityTaskNote.textContent = '检查通过后，下面的开局任务会直接展开；没有完成的事项会显示为待补充。';
   const navNote = document.querySelector<HTMLElement>('.nav-foot p');
   if (navNote) navNote.textContent = '保留骰点与创建依据；完成后可导出自己的角色文件。';
   const reviewNumber = document.querySelector<HTMLElement>('#create-tab-review span');
   if (reviewNumber) reviewNumber.textContent = '07';
+  document.querySelectorAll<HTMLElement>('#create-workspace *').forEach(node => {
+    if (node.childElementCount !== 0 || !node.textContent) return;
+    node.textContent = node.textContent.replace(/一级 HP/g, '一级生命值').replace(/HP/g, '生命值').replace(/XP/g, '经验值').replace(/STR/g, '力量').replace(/INT/g, '智力').replace(/WIS/g, '智慧').replace(/DEX/g, '敏捷').replace(/CON/g, '体质').replace(/CHA/g, '魅力');
+  });
 </script>
 </body></html>

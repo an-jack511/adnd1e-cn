@@ -1,13 +1,14 @@
 import type { CampaignSheet } from '../application/campaign-sheet';
 import type { CapabilityAtLevel } from '../engine/core-class-capabilities';
 import { resolveDisplayRuleSource } from '../rules/source-directory';
+import { characterLabel } from './character-labels';
 
 const esc = (value: unknown) => String(value).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]!));
 
 function sourceLinks(ids: readonly string[]) {
   return ids.map(id => {
     const source = resolveDisplayRuleSource(id);
-    if (!source) return `<span class="source-missing">待解析来源：${esc(id)}</span>`;
+    if (!source) return '<span class="source-missing">原书来源待补充</span>';
     return `<a href="${esc(source.directoryUrl)}">${esc(source.book)} 原书 p.${source.printedPages.join('、')}</a>`;
   }).join(' · ');
 }
@@ -23,7 +24,7 @@ function valueText(capability: CapabilityAtLevel) {
 }
 
 function capabilityRow(capability: CapabilityAtLevel, locked = false) {
-  const status = capability.status === 'verified' ? '已核验' : capability.status === 'needs-dm' ? '待战役确认' : '未接入';
+  const status = capability.status === 'verified' ? '已核验' : capability.status === 'needs-dm' ? '待补充' : '未接入';
   return `<li class="capability-row ${locked ? 'is-locked' : ''}">
     <div><strong>${esc(capability.label)}</strong><small>${locked ? `${capability.minimumLevel}级后开放 · ` : ''}${esc(status)}${valueText(capability)}</small></div>
     <details><summary>规则说明与依据</summary><p>${esc(capability.rule)}</p><p class="source-line">${sourceLinks(capability.sourceIds)}</p>${capability.delegatedTo ? `<p class="muted">具体分表：${esc(capability.delegatedTo)}。本页不替团桌决定世界状态。</p>` : ''}</details>
@@ -45,7 +46,7 @@ export function renderCampaignCapabilities(sheet: CampaignSheet) {
   const active = sheet.capabilities.filter(capability => capability.availability === 'active');
   const locked = sheet.capabilities.filter(capability => capability.availability === 'locked');
   return `<section id="sheet-capabilities" class="paper-section capability-panel" aria-labelledby="capability-heading">
-    <div class="section-title"><h2 id="capability-heading">职业能力与戒律</h2><span class="muted">${esc(sheet.career)} · ${sheet.level}级</span></div>
+    <div class="section-title"><h2 id="capability-heading">职业能力与戒律</h2><span class="muted">${esc(characterLabel(sheet.career))} · ${sheet.level}级</span></div>
     <p class="muted">这里显示当前职业的玩家可见能力、限制与待确认事项。秘密矩阵、追随者构成和未核分表不会被自动展开。</p>
     <ul class="capability-list">${active.map(capability => capabilityRow(capability)).join('') || '<li>当前没有已核验的玩家可见职业能力。</li>'}</ul>
     ${renderThiefFunctions(sheet)}

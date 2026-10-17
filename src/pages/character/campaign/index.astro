@@ -1,6 +1,18 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { characterRulePacks } from '../../../character/rules/campaign-profile';
+const scopeLabels: Record<string, string> = {
+  'ability-generation': '属性生成',
+  'core-eligibility': '种族与职业资格',
+  'core-creation': '核心角色创建',
+  'core-progression': '职业成长表',
+  'core-spells': '核心法术管理',
+  'core-equipment': '核心装备与财富',
+  'core-hirelings': '雇佣与随从',
+  'core-training': '训练与升级',
+  'core-research': '研究与制造',
+};
+const scopeLabel = (id: string) => scopeLabels[id] ?? '其他规则范围';
 ---
 <BaseLayout title="角色 · 战役规则备忘">
   <h1>战役规则备忘</h1>
@@ -9,7 +21,7 @@ import { characterRulePacks } from '../../../character/rules/campaign-profile';
   <form id="profile-form">
     <fieldset><legend>战役</legend><label>战役名称 <input id="profile-name" required maxlength="120" /></label></fieldset>
     <fieldset><legend>角色规则包</legend>
-      {characterRulePacks.map(pack=><label class="pack"><input class="profile-pack" type="checkbox" value={pack.id} data-version={pack.version} checked={pack.id==='adnd1e-core-character'} disabled={pack.id==='adnd1e-core-character'||pack.status==='pending'} /> <strong>{pack.label}</strong> <span>{pack.version} · {pack.status==='partial'?'部分已核':pack.status==='verified'?'已核':'尚不可执行'}</span><small>已核：{pack.verifiedScopes.length?pack.verifiedScopes.join('、'):'无'}<br/>待核：{pack.unresolvedScopes.join('、')}</small></label>)}
+      {characterRulePacks.map(pack=><label class="pack"><input class="profile-pack" type="checkbox" value={pack.id} data-version={pack.version} checked={pack.id==='adnd1e-core-character'} disabled={pack.id==='adnd1e-core-character'||pack.status==='pending'} /> <strong>{pack.label}</strong> <span>{pack.version} · {pack.status==='partial'?'部分已核':pack.status==='verified'?'已核':'尚不可执行'}</span><small>已核：{pack.verifiedScopes.length?pack.verifiedScopes.map(scopeLabel).join('、'):'无'}<br/>待核：{pack.unresolvedScopes.length?pack.unresolvedScopes.map(scopeLabel).join('、'):'无'}</small></label>)}
     </fieldset>
     <fieldset><legend>属性生成</legend><label>本战役使用的方法 <select id="ability-method"><option value="DMG:I">DMG 方法 I</option><option value="DMG:II">DMG 方法 II</option><option value="DMG:III">DMG 方法 III</option><option value="DMG:IV">DMG 方法 IV</option></select></label><p class="small">这只是角色创建时的规则备忘，不会替代团桌对具体角色的处理。</p></fieldset>
     <button type="submit">验证并保存到此浏览器</button> <button id="profile-export" type="button">导出配置文件</button>
@@ -18,9 +30,9 @@ import { characterRulePacks } from '../../../character/rules/campaign-profile';
   <section aria-labelledby="coverage-title"><h2 id="coverage-title">当前覆盖</h2><div id="profile-coverage"><p>填写战役身份后验证配置。</p></div></section>
   <script>
     import { newCoreCampaignProfile, profileCoverage, reviseCampaignProfile, validateCampaignProfile } from '../../../character/engine/campaign-profile';
-    const form=document.querySelector('#profile-form');const status=document.querySelector('#profile-status');const coverage=document.querySelector('#profile-coverage');
+    const form=document.querySelector('#profile-form');const status=document.querySelector('#profile-status');const coverage=document.querySelector('#profile-coverage');const scopeLabels={'ability-generation':'属性生成','core-eligibility':'种族与职业资格','core-creation':'核心角色创建','core-progression':'职业成长表','core-spells':'核心法术管理','core-equipment':'核心装备与财富','core-hirelings':'雇佣与随从','core-training':'训练与升级','core-research':'研究与制造'};const scopeLabel=(id)=>scopeLabels[id]??'其他规则范围';
     let saved=null;const value=(id)=>document.querySelector(id).value.trim();
-    const render=(profile)=>{const result=profileCoverage(profile);coverage.replaceChildren();const good=document.createElement('p');good.textContent=`本配置可执行：${result.implementationReady?'是':'否'}。已核模块 ${result.verifiedScopes.length} 项；仍待核 ${result.unresolvedScopes.length} 项。`;coverage.append(good);for(const warning of result.warnings){const p=document.createElement('p');p.textContent=warning;coverage.append(p)}const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='查看仍待核范围';const list=document.createElement('ul');for(const item of result.unresolvedScopes){const li=document.createElement('li');li.textContent=item;list.append(li)}details.append(summary,list);coverage.append(details)};
+    const render=(profile)=>{const result=profileCoverage(profile);coverage.replaceChildren();const good=document.createElement('p');good.textContent=`本配置可执行：${result.implementationReady?'是':'否'}。已核模块 ${result.verifiedScopes.length} 项；仍待核 ${result.unresolvedScopes.length} 项。`;coverage.append(good);for(const warning of result.warnings){const p=document.createElement('p');p.textContent=warning;coverage.append(p)}const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='查看仍待核范围';const list=document.createElement('ul');for(const item of result.unresolvedScopes){const li=document.createElement('li');li.textContent=scopeLabel(item);list.append(li)}details.append(summary,list);coverage.append(details)};
     const build=()=>{const name=value('#profile-name');if(!name)throw new Error('请填写战役名称。');let profile=newCoreCampaignProfile({id:saved?.id??crypto.randomUUID(),name,dmActorId:'local-player'});const options=[{id:'ability-generation',value:value('#ability-method'),sourceIds:['DMG:p11']}];profile=reviseCampaignProfile(profile,{options,houseRules:[]});if(saved)profile={...profile,revision:saved.revision+1};validateCampaignProfile(profile);return profile};
     form.addEventListener('submit',event=>{event.preventDefault();try{saved=build();localStorage.setItem('adnd1e-campaign-profile-v1',JSON.stringify(saved));render(saved);status.textContent='配置已验证并保存到此浏览器。请另行导出备份。'}catch(error){status.textContent=error.message}});
     document.querySelector('#profile-export').addEventListener('click',()=>{try{const profile=build();const blob=new Blob([JSON.stringify(profile,null,2)],{type:'application/json'});const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download=`${profile.name}.adnd1e-campaign.json`;link.click();setTimeout(()=>URL.revokeObjectURL(link.href),30000);status.textContent='已请求下载战役配置文件。'}catch(error){status.textContent=error.message}});

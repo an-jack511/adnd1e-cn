@@ -1,6 +1,6 @@
 import { canonical, type Json } from '../domain/transactions';
 import { characterRegistry, commitCharacter, type CharacterRuntime } from '../domain/character-record';
-import { parseCoreAdmissionArchive, type CoreAdmissionArchive } from './core-admission';
+import { parseCoreGenesisArchive, type CoreGenesisArchive } from './core-admission';
 import { parseCoreCreation } from './core-create';
 import { evaluateCoreEligibility } from '../engine/core-eligibility';
 import { newCoreAdvancement, awardAdventureXp, openAdvancementCandidate, attachTrainingPlan, payTraining, startTraining, recordTrainingSegment, awardCoreLevel, acceptAdvancementGate, interruptTraining, type AdventureAssessment, type CoreAdvancementState, type TrainingSegment } from './core-advancement';
@@ -66,13 +66,13 @@ export type CampaignAction={id:string;actorId:string;at:string;expectedRevision:
   {type:'natural-recovery';routeId:NaturalRecoveryRouteId|null;restStartDay:number;restEndDayExclusive:number;continuity:'new'|'continuous';priorContinuousRestDays:number;locationId:string;constitutionHealingAdjustment?:number;dmAwardHp?:number;rulingId?:string;reason:string;rulings?:CoreCampaignCalendar['overlapRulings']}|
   {type:'cast-prepared';copyId:string;components:'satisfied'|'not-required'|'needs-dm';observedOutcome:string;reason:string;atMinute?:number}|{type:'import-public-relationships';projection:PublicRelationshipProjectionFile}};
 export interface CoreCampaignArchive{
-  format:'adnd1e-core-campaign-runtime';schemaVersion:1;genesis:CoreAdmissionArchive;
+  format:'adnd1e-core-campaign-runtime';schemaVersion:1;genesis:CoreGenesisArchive;
   actions:CampaignAction[];runtime:CharacterRuntime;
 }
 const sourceId='project:core-campaign-advancement';
 const asJson=(value:unknown)=>JSON.parse(JSON.stringify(value)) as Json;
-function base(archive:CoreAdmissionArchive){
-  const genesis=parseCoreAdmissionArchive(archive),document=parseCoreCreation(genesis.runtime.transaction.facts.modules[0].data);
+function base(archive:CoreGenesisArchive){
+  const genesis=parseCoreGenesisArchive(archive),document=parseCoreCreation(genesis.runtime.transaction.facts.modules[0].data);
   const candidate=document.candidate!;
   if(candidate.classIds.length!==1||candidate.classIds[0]==='bard')throw new Error('Campaign adapter requires a single ordinary core career.');
   const eligibility=evaluateCoreEligibility(candidate),classId=candidate.classIds[0] as InitialCoreClassId;
@@ -86,13 +86,13 @@ function base(archive:CoreAdmissionArchive){
   const publicSpells=initialSpells&&['adnd1e.spell-ledger-player-projection','adnd1e.spell-ledger-player-portable'].includes(initialSpells.schema)?structuredClone(initialSpells):null;
   return {genesis,inventory,initialWeaponIds,publicSpells,adjustedScores:eligibility.adjustedScores,initialHp:typeof initialHp==='number'?initialHp:null,state:newCoreAdvancement({id:`${document.id}:advancement`,classId,level:1,xp:0,constitution:eligibility.adjustedScores.CON,levelCap:eligibility.classLevelCaps[classId]})};
 }
-export function newCoreCampaignArchive(admission:CoreAdmissionArchive):CoreCampaignArchive{
-  const {genesis}=base(admission);return {format:'adnd1e-core-campaign-runtime',schemaVersion:1,genesis,actions:[],runtime:structuredClone(genesis.runtime)};
+export function newCoreCampaignArchive(genesis:CoreGenesisArchive):CoreCampaignArchive{
+  const {genesis:checked}=base(genesis);return {format:'adnd1e-core-campaign-runtime',schemaVersion:1,genesis:checked,actions:[],runtime:structuredClone(checked.runtime)};
 }
 /** Rebuild supported history, including legacy actions. Not a new-operation writer:
  * use commitCoreCampaignAction for present-day write policy and legacy refusal.
  */
-export function replayCoreCampaignActions(genesis:CoreAdmissionArchive,actions:CampaignAction[]):CoreCampaignArchive{
+export function replayCoreCampaignActions(genesis:CoreGenesisArchive,actions:CampaignAction[]):CoreCampaignArchive{
   const initial=base(genesis);let runtime=structuredClone(initial.genesis.runtime),state:CoreAdvancementState=initial.state,inventory=initial.inventory;
   let calendar:CoreCampaignCalendar|null=null;
   let datedLevelAwards:(ReturnType<typeof inspectCoreDatedTrainingCourse>&{eventId:string;actorId:string;awardMinute:number;consequencePolicy?:'v1'|'v2';locationPolicy?:'v1'})[]|null=null;

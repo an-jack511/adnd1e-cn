@@ -22,6 +22,7 @@ import { inspectCoreDatedTrainingCourse } from '../workflows/core-dated-training
 import {inspectCoreActivityConsequences,type ActivityConsequenceFinding} from '../workflows/core-activity-consequences';
 import {completedCoreRestHistory} from '../workflows/core-rest-history';
 import {inspectCoreTrainingLocationBoundaries,type TrainingLocationBoundary} from '../workflows/core-training-location';
+import { characterLabel } from './character-labels';
 
 export function startCoreCampaign(){
   const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
@@ -45,7 +46,7 @@ export function startCoreCampaign(){
     get('operations-storage-status').textContent=(io.busy?'正在处理档案，请稍候。':'')+(!current?'尚未打开档案。':current===savedSnapshot?'当前事件进度已保存到本地；仍建议另存文件备份。':'当前事件进度尚未保存到本地；可导出文件，或保存本地档案。');
   }
   function downloadText(text:string,name:string){const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}
-  async function refreshSlots(){savedSlots=await listBrowserCampaignSlots();get<HTMLSelectElement>('operations-local-slots').replaceChildren(new Option('选择已保存角色与分支',''),...savedSlots.map((slot,index)=>new Option(`${slot.characterId} · ${slot.branchId}`,String(index))));}
+  async function refreshSlots(){savedSlots=await listBrowserCampaignSlots();get<HTMLSelectElement>('operations-local-slots').replaceChildren(new Option('选择已保存角色与分支',''),...savedSlots.map((slot,index)=>new Option(`角色 ${index+1} · ${slot.branchId}`,String(index))));}
   refreshSlots().catch(error=>{storageNotice(`本地保存不可用：${(error as Error).message}；文件导入导出仍可使用。`);});
   function slot(){if(!current)throw new Error('请先打开档案。');return {characterId:current.runtime.transaction.characterId,branchId:current.runtime.transaction.branchId};}
   async function refreshHistory(){
@@ -91,13 +92,13 @@ export function startCoreCampaign(){
     renderStorageControls();
     const module=current.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement');
     get('operations-summary').textContent=`${current.runtime.transaction.facts.identity.name} · 事件修订 ${current.runtime.transaction.revision}`;
-    get('operations-state').textContent=module?JSON.stringify(module.data,null,2):'一级，经验 0；尚无结算事件。';
+    get('operations-state').textContent=module?'当前角色的事件记录已载入；详细规则依据保留在档案中。':'一级，经验 0；尚无结算事件。';
     for(const id of ['operations-xp','operations-open','operations-export','operations-income'])get<HTMLButtonElement>(id).disabled=false;
     const state=module?.data as unknown as (CoreAdvancementState&{inventory:CoreInventoryLedger|null;calendar?:CoreCampaignCalendar;lifeRecovery?:{restActivityId:string;completed:boolean;consequencePolicy?:'v1'|'v2';resolution?:{method:string}};datedLevelAwards?:{activityIds:string[];consequencePolicy?:'v1'|'v2'}[];weaponProficiencies?:{weaponId:string}[];life?:CoreLifeState;spells?:{preparedCopies:{id:string;status:string;spell:{displayName:string;level:number}}[]}})|undefined;
     const restHistory=completedCoreRestHistory(current),historyContainer=get('operations-rest-history');historyContainer.replaceChildren();
     for(const receipt of restHistory){const row=document.createElement('p');row.textContent=`事件 ${receipt.actionId} · 零 HP 事件 ${receipt.episodeId} · 休养 ${receipt.startMinute}–${receipt.endMinuteExclusive} 游戏分钟 · 完成确认至 ${receipt.completedThroughMinute} · 策略 ${receipt.consequencePolicy}。后来的零 HP 事件不会覆盖此证明。`;historyContainer.append(row);}
     if(!restHistory.length)historyContainer.textContent='尚无完整休养完成证明；Heal 解除禁令不计作休满一周。';
-    if(state){const labels:Record<CoreAdvancementState['status'],string>={adventuring:'可冒险', 'eligible-needs-dm':'升级资格待确认','training-planned':'训练待安排','training-active':'训练进行中','ready-for-award':'训练完成，待授予等级','training-interrupted':'训练已中断'};get('operations-summary').textContent=`${current.runtime.transaction.facts.identity.name} · ${state.classId} ${state.level}级 · ${state.xp} XP · ${labels[state.status]}`;}
+    if(state){const labels:Record<CoreAdvancementState['status'],string>={adventuring:'可冒险', 'eligible-needs-dm':'升级资格待补充','training-planned':'训练待安排','training-active':'训练进行中','ready-for-award':'训练完成，待授予等级','training-interrupted':'训练已中断'};get('operations-summary').textContent=`${current.runtime.transaction.facts.identity.name} · ${characterLabel(state.classId)} ${state.level}级 · ${state.xp} 经验 · ${labels[state.status]}`;}
     if(state){
       const choices=get<HTMLSelectElement>('operations-overrun-assessments'),selected=new Set([...choices.selectedOptions].map(option=>option.value));
       const eligibility=checkCoreAdvancement({classId:state.classId,currentLevel:state.level,xp:state.xp,levelCap:state.levelCap});
@@ -113,11 +114,13 @@ export function startCoreCampaign(){
       if(routes.selectedOptions[0]?.disabled)routes.value=stage.stage==='name-level'?'name-level':'tutor';
       if(stage.printedCostFamily)family.value=stage.printedCostFamily;
       family.disabled=stage.stage==='below-name'||stage.printedCostFamily!==null;
-      get('operations-stage-summary').textContent=`${state.classId} 的训练名号为 ${stage.title}（${stage.attainedNameLevel}级），按当前已取得的 ${state.level}级判定：${stage.stage==='below-name'?'名号前；升至名号本身仍走此阶段。':'已达名号；按表现周数自行训练，不加倍时间。'}${stage.stage==='name-level'&&stage.printedCostFamily===null?'DMG 仅列四个基础费用族；本职业的采用解释须由 DM 明确记录，不自动认定。':''}`;
+      get('operations-stage-summary').textContent=`${characterLabel(state.classId)} 的训练名号为 ${stage.title}（${stage.attainedNameLevel}级），按当前已取得的 ${state.level}级判定：${stage.stage==='below-name'?'名号前；升至名号本身仍走此阶段。':'已达名号；按表现周数自行训练，不加倍时间。'}${stage.stage==='name-level'&&stage.printedCostFamily===null?'DMG 仅列四个基础费用族；本职业的采用解释须由 DM 明确记录，不自动认定。':''}`;
       renderRuleSources(get('operations-stage-sources'),stage.sourceIds);
     }
     const life=state?.life;
-    get('operations-life-summary').textContent=life?`HP ${life.currentHp??'待裁定'} / ${life.maximumHp}；${life.mortality}；行动限制 ${life.actionRestriction}`:'首次使用前，请按实际游戏情况确认当前 HP；上限来自创建与成长记录。';
+    const lifeLabels:Record<string,string>={'alive':'存活','unconscious-bleeding':'昏迷／失血','unconscious-stabilized':'昏迷／已稳定','dead':'死亡','revived':'已复活','zero-hp-convalescence':'零 HP 休养'};
+    const restrictionLabels:Record<string,string>={'none':'无','zero-hp-convalescence':'零 HP 休养中'};
+    get('operations-life-summary').textContent=life?`HP ${life.currentHp??'待补充'} / ${life.maximumHp}；${lifeLabels[life.mortality]??life.mortality}；行动限制 ${restrictionLabels[life.actionRestriction]??life.actionRestriction}`:'首次使用前，请按实际游戏情况确认当前 HP；上限来自创建与成长记录。';
     get<HTMLButtonElement>('operations-life-initialize').disabled=!!life;
     get<HTMLButtonElement>('operations-life-settle').disabled=life?.hpSettlement!=='needs-dm';
     get<HTMLButtonElement>('operations-life-hit').disabled=life?.mortality!=='alive'||life.hpSettlement!=='settled';
@@ -175,7 +178,7 @@ export function startCoreCampaign(){
     const carrier=inventory?.locations.find(location=>location.kind==='character');
     if(inventory&&carrier){const burden=assessCoreEncumbranceGuideline({ledger:inventory,carrierLocationId:carrier.id});get('operations-burden').textContent=`已知携带重量下界 ${burden.knownWeightGp} gp 重量单位；${burden.unknownWeightItemIds.length} 件重量未知。体积与力量修正仍需按本战役确认，不能据此直接认定实际移动率。`;}
     const training=state?.candidate?.training;
-    get('operations-training-summary').textContent=training?`训练 ${training.weeksNumerator}/${training.weeksDenominator} 周；原书费用 ${training.totalCostGpNumerator}/${training.totalCostGpDenominator} gp；接受费用 ${state!.candidate!.acceptedCostCp} cp；已付 ${state!.candidate!.paymentsCp.reduce((a,b)=>a+b,0)} cp。`:state?`当前阶段：${state.status}。`:'尚无升级候选。';
+    get('operations-training-summary').textContent=training?`训练 ${training.weeksNumerator}/${training.weeksDenominator} 周；原书费用 ${training.totalCostGpNumerator}/${training.totalCostGpDenominator} gp；接受费用 ${state!.candidate!.acceptedCostCp} cp；已付 ${state!.candidate!.paymentsCp.reduce((a,b)=>a+b,0)} cp。`:state?`当前阶段：${characterLabel(state.status)}。`:'尚无升级候选。';
   }
   get<HTMLInputElement>('operations-file').addEventListener('change',async event=>{
     const file=(event.target as HTMLInputElement).files?.[0];if(!file)return;
