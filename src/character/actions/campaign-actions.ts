@@ -8,6 +8,7 @@ import {formatCampaignMinute} from '../application/campaign-time';
 import {growthActionSchema,isGrowthAction,buildGrowthIntent} from './growth-actions';
 import {campaignGrowth,growthStatusLabels} from '../application/campaign-growth';
 import {journalActivitySchema,buildJournalActivity,activityLabels} from './journal-actions';
+import { parsePublicRelationshipProjection, type PublicRelationshipProjectionFile } from '../engine/core-relationships-public';
 
 const text=z.string().trim().min(1).max(500),positive=z.number().int().min(1);
 const coins=z.object({cp:z.number().int().min(0),sp:z.number().int().min(0),ep:z.number().int().min(0),gp:z.number().int().min(0),pp:z.number().int().min(0)}).strict();
@@ -35,6 +36,7 @@ export const sheetActionSchema=z.discriminatedUnion('type',[
   z.object({type:z.literal('character.commitRevival'),assessmentId:text,changeId:text,appearanceTurns:z.number().int().min(1).max(6).optional(),reason:text}).strict(),
   z.object({type:z.literal('character.naturalRecovery'),routeId:z.enum(['phb-105-natural','dmg-82-natural','campaign-adopted-ruling']).nullable(),restStartDay:positive,restEndDayExclusive:positive,continuity:z.enum(['new','continuous']),priorContinuousRestDays:z.number().int().nonnegative(),locationId:text,constitutionHealingAdjustment:z.number().int().optional(),dmAwardHp:z.number().int().nonnegative().optional(),rulingId:text.optional(),reason:text,rulings:z.array(overlapRuling).optional()}).strict(),
   z.object({type:z.literal('character.castSpell'),copyId:text,componentsConfirmed:z.literal(true),outcome:z.string().max(1000),atMinute:z.number().int().nonnegative().optional()}).strict(),
+  z.object({type:z.literal('character.importPublicRelationships'),projection:z.unknown()}).strict(),
 ]);
 export type SheetAction=z.infer<typeof sheetActionSchema>;
 export type ActionContext={id:string;actorId:string;at:string};
@@ -65,6 +67,7 @@ export function previewSheetAction(input:CoreCampaignArchive,request:SheetAction
   else if(action.type==='character.assessRevival'){title='评估复活资格';intent={type:'assess-revival',assessmentId:action.assessmentId,methodId:action.methodId,subjectRaceId:action.subjectRaceId,deathInterval:{value:action.deathIntervalValue,unit:action.deathIntervalUnit},bodyAvailable:action.bodyAvailable,...action.casterLevel===undefined?{}:{casterLevel:action.casterLevel},...action.checkRoute===undefined?{}:{checkRoute:action.checkRoute},...action.percentileRoll===undefined?{}:{percentileRoll:action.percentileRoll},reason:action.reason};}
   else if(action.type==='character.commitRevival'){title='提交复活结果';intent={type:'commit-revival',assessmentId:action.assessmentId,changeId:action.changeId,...action.appearanceTurns===undefined?{}:{appearanceTurns:action.appearanceTurns},reason:action.reason};}
   else if(action.type==='character.naturalRecovery'){title='结算自然恢复';intent={type:'natural-recovery',routeId:action.routeId,restStartDay:action.restStartDay,restEndDayExclusive:action.restEndDayExclusive,continuity:action.continuity,priorContinuousRestDays:action.priorContinuousRestDays,locationId:action.locationId,...action.constitutionHealingAdjustment===undefined?{}:{constitutionHealingAdjustment:action.constitutionHealingAdjustment},...action.dmAwardHp===undefined?{}:{dmAwardHp:action.dmAwardHp},...action.rulingId===undefined?{}:{rulingId:action.rulingId},reason:action.reason,...action.rulings===undefined?{}:{rulings:action.rulings}};}
+  else if(action.type==='character.importPublicRelationships'){title='导入公开随从与雇佣关系';const projection=parsePublicRelationshipProjection(action.projection,archive.runtime.transaction.characterId);intent={type:'import-public-relationships',projection:projection as PublicRelationshipProjectionFile};}
   else {title='消耗法术准备副本';intent={type:'cast-prepared',copyId:action.copyId,components:'satisfied',observedOutcome:action.outcome,reason:'团桌已确认本次组件与情境；这里只记录实际消费，不自动结算法术效果。',...action.atMinute===undefined?{}:{atMinute:action.atMinute}};}
   const command:CampaignAction={...context,expectedRevision:archive.runtime.transaction.revision,intent};
   const next=commitCoreCampaignAction(archive,command),before=campaignSheet(archive),after=campaignSheet(next);

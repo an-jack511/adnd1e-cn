@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:adnd1e-cn:relationship-player-projection:1.0.0",
+  "title": "AD&D 1e public relationship projection",
+  "description": "Public facts accepted by the player campaign archive. This is not a private relationship archive and cannot contain loyalty, morale or referee notes.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "format": { "const": "adnd1e-relationship-player-projection" },
+    "schemaVersion": { "const": "1.0.0" },
+    "characterId": { "type": "string", "minLength": 1 },
+    "exportedAt": { "type": "string", "minLength": 1 },
+    "revision": { "type": "integer", "minimum": 0 },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "schema": { "const": "adnd1e.relationship-player-projection" },
+          "schemaVersion": { "const": 1 },
+          "relationshipId": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["henchman", "standard-hireling", "expert-hireling", "mercenary"] },
+          "displayName": { "type": "string", "minLength": 1 },
+          "status": { "enum": ["prospective", "active", "missing", "dismissed", "dead", "departed"] },
+          "contract": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "startedOn": { "type": "string", "minLength": 1 },
+              "endsOn": { "type": ["string", "null"] },
+              "payGpPerPeriod": { "type": ["number", "null"], "minimum": 0 },
+              "payPeriod": { "enum": ["day", "week", "month", "year", "adventure-share", "special"] },
+              "treasureShare": { "type": ["string", "null"] },
+              "duties": { "type": "array", "items": { "type": "string" } },
+              "quartersProvided": { "type": "boolean" },
+              "foodAndClothingProvided": { "type": "boolean" },
+              "employerProvidedEquipment": { "type": "array", "items": { "type": "string" } }
+            },
+            "required": ["startedOn", "endsOn", "payGpPerPeriod", "payPeriod", "treasureShare", "duties", "quartersProvided", "foodAndClothingProvided", "employerProvidedEquipment"]
+          },
+          "observedHistory": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": { "at": { "type": "string", "minLength": 1 }, "summary": { "type": "string", "minLength": 1 } },
+              "required": ["at", "summary"]
+            }
+          },
+          "disclosure": { "const": "public-facts-only" }
+        },
+        "required": ["schema", "schemaVersion", "relationshipId", "kind", "displayName", "status", "contract", "observedHistory", "disclosure"]
+      }
+    },
+    "payments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "relationshipId": { "type": "string", "minLength": 1 },
+          "at": { "type": "string", "minLength": 1 },
+          "amountGp": { "type": "number", "minimum": 0 },
+          "purpose": { "enum": ["initial", "wage", "bonus", "share", "other"] },
+          "contractActionId": { "type": "string", "minLength": 1 },
+          "periodLabel": { "type": ["string", "null"] }
+        },
+        "required": ["id", "relationshipId", "at", "amountGp", "purpose", "contractActionId", "periodLabel"]
+      }
+    }
+  },
+  "required": ["format", "schemaVersion", "characterId", "exportedAt", "revision", "relationships", "payments"]
+}

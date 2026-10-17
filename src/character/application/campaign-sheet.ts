@@ -12,6 +12,7 @@ import type {CampaignSpellLedger,PreparationCourse} from '../workflows/core-camp
 import type {CoreCampaignCalendar} from '../workflows/core-calendar';
 import {formatCampaignMinute} from './campaign-time';
 import {projectCapabilitiesForPlayer, reviewCoreClassCapabilities, type CapabilityAtLevel} from '../engine/core-class-capabilities';
+import type { PublicRelationshipProjectionFile } from '../engine/core-relationships-public';
 
 export interface CampaignSheet {
   name:string;race:string;career:string;level:number;xp:number;maximumHp:number|null;
@@ -22,10 +23,11 @@ export interface CampaignSheet {
   abilities:{label:string;initial:number;adjusted:number;recordedCurrent:number|null}[];
   capabilities:readonly CapabilityAtLevel[];
   spells:CampaignSpellView|null;calendar:{minutesPerDay:number;daysPerWeek:number}|null;
+  relationships:PublicRelationshipProjectionFile|null;
 }
 export const careerLabels:Record<string,string>={fighter:'战士','magic-user':'魔法师',cleric:'牧师',druid:'德鲁伊',paladin:'圣武士',ranger:'游侠',illusionist:'幻术师',thief:'盗贼',assassin:'刺客',monk:'武僧'};
 const raceLabels:Record<string,string>={human:'人类',elf:'精灵',dwarf:'矮人',gnome:'侏儒','half-elf':'半精灵',halfling:'半身人','half-orc':'半兽人'};
-export const actionLabels:Record<string,string>={'initialize-life':'确认当前生命','damage':'受到伤害','actual-healing':'接受治疗','consume-item':'使用物品','cast-prepared':'消耗准备副本','experience':'冒险经验结算','award-level-dated':'正式授级','income':'财富入账','expense':'财富支出','relocate-item':'物品位置变化','unpack-item':'拆分同质整包','friendly-aid':'友方援助','zero-hp-round':'零HP经过一轮','recover-zero-hp':'零HP苏醒与休养','complete-zero-hp-rest':'完成零HP最低休养','restart-zero-hp-rest':'重新开始零HP最低休养','resolve-heal-convalescence':'Heal解除休养','assess-revival':'评估复活资格','commit-revival':'提交复活结果','natural-recovery':'自然恢复','record-defense':'确认实际穿戴','prepare-spells':'完成法术学习／祈祷'};
+export const actionLabels:Record<string,string>={'initialize-life':'确认当前生命','damage':'受到伤害','actual-healing':'接受治疗','consume-item':'使用物品','cast-prepared':'消耗准备副本','experience':'冒险经验结算','award-level-dated':'正式授级','income':'财富入账','expense':'财富支出','relocate-item':'物品位置变化','unpack-item':'拆分同质整包','friendly-aid':'友方援助','zero-hp-round':'零HP经过一轮','recover-zero-hp':'零HP苏醒与休养','complete-zero-hp-rest':'完成零HP最低休养','restart-zero-hp-rest':'重新开始零HP最低休养','resolve-heal-convalescence':'Heal解除休养','assess-revival':'评估复活资格','commit-revival':'提交复活结果','natural-recovery':'自然恢复','record-defense':'确认实际穿戴','prepare-spells':'完成法术学习／祈祷','import-public-relationships':'更新公开随从与雇佣关系'};
 export const lifeLabels:Record<string,string>={alive:'清醒存活','unconscious-bleeding':'昏迷、失血中','unconscious-stabilized':'昏迷、已稳定',dead:'死亡','forever-dead':'无法按普通手段复活',none:'无',unconscious:'昏迷','zero-hp-convalescence':'零HP恢复期','raise-dead-bed-rest':'复活后卧床期','reincarnation-rebuild-pending':'转生人物重建待办','dm-defined':'战役裁定限制'};
 actionLabels['actual-healing']='接受实际治疗';
 actionLabels['record-defense']='确认实际穿戴';
@@ -33,7 +35,7 @@ actionLabels['prepare-spells']='完成法术学习／祈祷';
 /** A whitelist view-model. Never pass whole archive/module JSON to a player UI. */
 export function campaignSheet(input:CoreCampaignArchive):CampaignSheet{
   const archive=parseCoreCampaignArchive(input),origin=parseCoreCreation(archive.genesis.runtime.transaction.facts.modules[0].data);
-  const state=archive.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')?.data as unknown as (CoreAdvancementState&{life?:CoreLifeState;inventory:CoreInventoryLedger|null;spells?:CampaignSpellLedger;defense?:DefenseSelection;calendar?:CoreCampaignCalendar;spellPreparationCourses?:PreparationCourse[]})|undefined;
+  const state=archive.runtime.transaction.facts.modules.find(m=>m.id==='core-advancement')?.data as unknown as (CoreAdvancementState&{life?:CoreLifeState;inventory:CoreInventoryLedger|null;spells?:CampaignSpellLedger;defense?:DefenseSelection;calendar?:CoreCampaignCalendar;spellPreparationCourses?:PreparationCourse[];relationships?:{data?:PublicRelationshipProjectionFile}})|undefined;
   const candidate=origin.candidate!,classId=candidate.classIds[0];
   const initialHp=origin.tasks.find(t=>t.id==='hp')?.facts?.actualAward;
   const earned=state?.history.filter(e=>e.type==='advancement.awarded').reduce((sum,e)=>sum+Number((e.hp as {actualAward:number}).actualAward),0)??0;
@@ -57,5 +59,5 @@ export function campaignSheet(input:CoreCampaignArchive):CampaignSheet{
     maximumHp:state?.life?.maximumHp??(typeof initialHp==='number'?initialHp+earned:null),life:state?.life?structuredClone(state.life):null,
     inventory:inventory?structuredClone(inventory):null,wealthCp:inventory?.wallets.reduce((sum,w)=>sum+moneyValueCp(w.coins),0)??0,prepared,
     history:archive.actions.map(a=>({label:actionLabels[a.intent.type]??'战役活动',at:a.at,gameTime:state?.calendar?(a.intent.type==='cast-prepared'&&a.intent.atMinute!==undefined?formatCampaignMinute(a.intent.atMinute,state.calendar.minutesPerDay):a.intent.type==='prepare-spells'?`${formatCampaignMinute(a.intent.facts.restStartMinute,state.calendar.minutesPerDay)} → ${formatCampaignMinute(a.intent.facts.studyEndMinute,state.calendar.minutesPerDay)}`:null):null})),revision:archive.runtime.transaction.revision,
-    combat:coreCombatBase(classId as InitialCoreClassId,level),defense:coreDefense({classId:classId as InitialCoreClassId,level,dexterity:adjusted.DEX,inventory,selection:defenseSelection}),defenseSelection,abilities,capabilities:playerCapabilities,spells,calendar:state?.calendar?{minutesPerDay:state.calendar.minutesPerDay,daysPerWeek:state.calendar.daysPerWeek}:null};
+    combat:coreCombatBase(classId as InitialCoreClassId,level),defense:coreDefense({classId:classId as InitialCoreClassId,level,dexterity:adjusted.DEX,inventory,selection:defenseSelection}),defenseSelection,abilities,capabilities:playerCapabilities,spells,calendar:state?.calendar?{minutesPerDay:state.calendar.minutesPerDay,daysPerWeek:state.calendar.daysPerWeek}:null,relationships:state?.relationships?.data?structuredClone(state.relationships.data):null};
 }
