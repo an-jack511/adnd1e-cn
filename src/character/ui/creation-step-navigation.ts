@@ -3,8 +3,10 @@ export function startCreationStepNavigation(): void {
   const root = document.querySelector<HTMLElement>('[data-creation-navigation]');
   if (!root || root.dataset.navigationReady === 'true') return;
   root.dataset.navigationReady = 'true';
-  const tabs = [...root.querySelectorAll<HTMLButtonElement>('[data-create-tab]')];
-  const panels = [...root.querySelectorAll<HTMLElement>('[data-create-panel]')];
+  const tabs = [...root.querySelectorAll<HTMLButtonElement>('[data-create-tab]')]
+    .filter(tab => getComputedStyle(tab).display !== 'none');
+  const panels = [...root.querySelectorAll<HTMLElement>('[data-create-panel]')]
+    .filter(panel => getComputedStyle(panel).display !== 'none');
   if (!tabs.length || tabs.length !== panels.length) return;
   let selected = 0, scheduled = false, restoredName = '';
   const core = document.body.dataset.createStage === 'core';
@@ -19,7 +21,7 @@ export function startCreationStepNavigation(): void {
     equipment: '装备采购', 'initial-spells': '初始法术', psionics: '灵能检查', 'admission-context': '入场约定',
   };
   const statusLabels: Record<string, string> = {
-    pending: '待完成', complete: '已记录完成', 'not-applicable': '已记录不适用', 'needs-dm': '待战役确认',
+    pending: '待补充', complete: '已记录完成', 'not-applicable': '已记录不适用', 'needs-dm': '待补充',
   };
   const stepTasks: Record<string, string[]> = {
     resources: ['hp', 'money'], languages: ['languages'], proficiencies: ['proficiencies'],
@@ -46,17 +48,22 @@ export function startCreationStepNavigation(): void {
       else tab.removeAttribute('aria-current');
     });
     // Only the wrappers are hidden here. Business hosts keep their own hidden/required/disabled states.
-    panels.forEach((panel, i) => { panel.hidden = i !== selected; });
+    // Core creation is a continuous checklist: keep every sourced task on one
+    // page and use the left rail as a jump list instead of an eight-screen maze.
+    panels.forEach((panel, i) => { panel.hidden = core ? false : i !== selected; });
     const prev = root!.querySelector<HTMLButtonElement>('[data-create-prev]');
     const next = root!.querySelector<HTMLButtonElement>('[data-create-next]');
-    if (prev) prev.disabled = selected === 0;
+    if (prev) { prev.disabled = selected === 0; prev.hidden = core; }
     if (next) {
-      next.hidden = selected === tabs.length - 1;
+      next.hidden = core || selected === tabs.length - 1;
       const label = tabs[selected + 1]?.dataset.stepLabel;
       next.textContent = label ? `下一步：${label}` : '下一步';
     }
     put('[data-create-position]', `第 ${selected + 1} / ${tabs.length} 步 · 浏览步骤不代表完成`);
-    if (focus) panels[selected].querySelector<HTMLElement>('h2')?.focus({ preventScroll: true });
+    if (focus) {
+      panels[selected].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      panels[selected].querySelector<HTMLElement>('h2')?.focus({ preventScroll: true });
+    }
   }
 
   tabs.forEach((tab, index) => {

@@ -6,7 +6,7 @@ import '../../../styles/character-prototype.css';
 <body class="create-workspace" data-create-stage="core">
 <a class="skip" href="#create-workspace">跳至创建步骤</a>
 <div class="folio-shell"><aside class="folio-nav"><a class="wordmark" href="/">AD&D <span>FIRST EDITION · 中文参考</span></a><div class="nav-caption">人物与战役</div><nav aria-label="角色主导航"><a class="active" aria-current="page" href="/character/create/">创建角色</a><a href="/character/sheet/">我的角色</a><a href="/character/growth/">角色成长</a><a href="/character/journal/">战役记录</a></nav><div class="nav-foot"><p>保留骰点与裁定依据。创建进度尚不是正式入场角色。</p></div></aside><div class="folio-main">
-<header class="workbar"><span>创建角色 · 第二阶段 / 核心创建进度</span><div><button id="core-save-local" type="button">保存创建进度</button><button id="core-export" type="button" disabled>导出创建进度</button></div></header>
+<header class="workbar"><span>创建角色 · 第二阶段 / 核心创建进度</span><div><button id="core-save-local" type="button">保存进度</button><button id="core-export" type="button" disabled>导出进度</button></div></header>
 <main id="create-workspace" tabindex="-1" data-creation-navigation><div class="page-heading"><p class="eyebrow">创建角色 · 第二阶段</p><h1>确定身份，逐项准备入场</h1><p>先检查核心资格，再完成开局任务。步骤浏览不会自动记录选择或授予角色资格。</p></div><details class="create-resume"><summary>继续本地进度或导入创建文件</summary><div class="create-action-row"><label>本地创建进度<select id="core-saved"><option value="">选择浏览器保存的进度</option></select></label><button id="core-load-local" type="button">加载本地进度</button><label class="file-button">导入创建文件<input id="core-import" type="file" accept="application/json,.json" /></label></div><p>导入后身份选择保持锁定，可以继续未完成事项。当前已有进度时，请先导出备份，再按现有流程重新打开；不同身份请重新创建。</p></details><p id="core-status" class="app-status create-live-status" role="status" aria-live="polite">尚未检查核心资格。</p><div class="creation-layout create-layout"><div class="step-list create-step-list" role="tablist" aria-label="创建步骤"><button type="button" role="tab" id="create-tab-identity" data-create-tab="identity" aria-controls="create-panel-identity" aria-selected="true" tabindex="0"><span>01</span>身份资格</button><button type="button" role="tab" id="create-tab-resources" data-create-tab="resources" aria-controls="create-panel-resources" aria-selected="false" tabindex="-1"><span>02</span>生命与资金</button><button type="button" role="tab" id="create-tab-languages" data-create-tab="languages" aria-controls="create-panel-languages" aria-selected="false" tabindex="-1"><span>03</span>语言</button><button type="button" role="tab" id="create-tab-proficiencies" data-create-tab="proficiencies" aria-controls="create-panel-proficiencies" aria-selected="false" tabindex="-1"><span>04</span>武器熟练</button><button type="button" role="tab" id="create-tab-equipment" data-create-tab="equipment" aria-controls="create-panel-equipment" aria-selected="false" tabindex="-1"><span>05</span>装备采购</button><button type="button" role="tab" id="create-tab-spells" data-create-tab="spells" aria-controls="create-panel-spells" aria-selected="false" tabindex="-1"><span>06</span>初始法术</button><button type="button" role="tab" id="create-tab-admission" data-create-tab="admission" aria-controls="create-panel-admission" aria-selected="false" tabindex="-1"><span>07</span>战役约定</button><button type="button" role="tab" id="create-tab-review" data-create-tab="review" aria-controls="create-panel-review" aria-selected="false" tabindex="-1"><span>08</span>检查与保存</button></div><div class="create-step-content"><section class="paper-section create-step-panel" id="create-panel-identity" data-create-panel="identity" role="tabpanel" aria-labelledby="create-tab-identity" ><h2 tabindex="-1">选择属性草稿与核心身份</h2><p>从第一阶段已确认并保存的六项属性继续。种族调整、属性门槛、明确多职业组合与等级上限由现有规则检查。</p><section aria-label="核心角色候选">
   
     <div class="fields"><label>属性草稿 <select id="core-draft"><option value="">选择已确认属性草稿</option></select></label><label>种族 <select id="core-race"></select></label><label>亚种 <select id="core-subrace"></select></label><label>性别（用于原表上限） <select id="core-sex"><option value="male">男性</option><option value="female">女性</option></select></label><label>阵营 <select id="core-alignment"></select></label><label>职业模式 <select id="core-mode"><option value="single">单职业</option><option value="multiclass">同时多职业</option></select></label></div>
@@ -43,4 +43,28 @@ import '../../../styles/character-prototype.css';
 <noscript>创建需要启用 JavaScript。步骤导航只组织现有流程，不替代规则检查；请启用脚本后继续。</noscript>
 </div></div><script>import { startCoreCandidate } from '../../../character/ui/core-candidate-controller'; import { startCreationStepNavigation } from '../../../character/ui/creation-step-navigation'; startCoreCandidate(); startCreationStepNavigation();</script>
 <script>/* 兼容旧版创建进度；当前玩家端不提供审核入口。 */</script>
+<script>
+  const heading = document.querySelector<HTMLElement>('.page-heading h1');
+  if (heading) heading.textContent = '确定身份，准备开局';
+  const intro = heading?.nextElementSibling;
+  if (intro) intro.textContent = '这是一张连续清单：先选身份，再补齐生命、资金、语言、熟练、装备和法术。页面只记录你的创建过程。';
+  const admission = document.querySelector<HTMLElement>('#create-panel-admission h2');
+  if (admission) admission.textContent = '可选规则与战役设置';
+  const review = document.querySelector<HTMLElement>('#create-panel-review h2');
+  if (review) review.textContent = '核对事项，保存';
+  const identityNote = document.querySelector<HTMLElement>('#create-panel-identity h2 + p');
+  if (identityNote) identityNote.textContent = '从已确认的六项属性继续。选好种族、职业和阵营后，下面的开局任务会直接展开。';
+  const reviewNote = document.querySelector<HTMLElement>('#create-panel-review h2 + p');
+  if (reviewNote) reviewNote.textContent = '只显示已经记录的创建事项；没有填完的内容会清楚标成待补充。';
+  const reviewSaveNote = document.querySelector<HTMLElement>('#create-panel-review [data-create-save] + p');
+  if (reviewSaveNote) reviewSaveNote.textContent = '导出文件是自己的备份，也方便以后迁移到其他工具；它不会改变角色状态。';
+  const reviewSaveNoteWrapped = document.querySelector<HTMLElement>('#create-panel-review .create-action-row + p');
+  if (reviewSaveNoteWrapped) reviewSaveNoteWrapped.textContent = '导出文件是自己的备份，也方便以后迁移到其他工具；它不会改变角色状态。';
+  const identityTaskNote = document.querySelector<HTMLElement>('#create-panel-identity .inline-note');
+  if (identityTaskNote) identityTaskNote.textContent = '检查通过后，下面的开局任务会直接展开；没有完成的事项会显示为待补充。';
+  const navNote = document.querySelector<HTMLElement>('.nav-foot p');
+  if (navNote) navNote.textContent = '保留骰点与创建依据；完成后可导出自己的角色文件。';
+  const reviewNumber = document.querySelector<HTMLElement>('#create-tab-review span');
+  if (reviewNumber) reviewNumber.textContent = '07';
+</script>
 </body></html>

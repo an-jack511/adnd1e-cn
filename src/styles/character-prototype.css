@@ -33,8 +33,7 @@ button:hover,.file-button:hover{background:#f3f5f7}
 #sheet-save,#sheet-recovery{display:none}
 #create-panel-admission,#create-tab-admission{display:none!important}
 #create-panel-method .check-row{display:none}
-#create-tab-review span{font-size:0}
-#create-tab-review span::after{content:'07';font-size:12px}
+#create-tab-review span{font-size:12px}
 #core-starting-equipment label:has(input[type=hidden]),#core-initial-spells label:has(input[placeholder*="DM"]),#core-initial-spells label:has(textarea),#core-initial-spells label:has(input[type=checkbox]){display:none!important}
 #core-language-slots label:has(.core-language-approved){display:none!important}
 .dm-handoff{border-top:1px solid var(--line);margin-top:22px;padding-top:14px;font-size:12px}

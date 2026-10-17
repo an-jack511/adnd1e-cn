@@ -5,7 +5,7 @@ import { recordCreationTask, type CoreCreation } from '../workflows/core-create'
 export function renderStartingEquipment(host:HTMLElement,read:()=>CoreCreation|null,write:(value:CoreCreation)=>void){
   host.replaceChildren();
   const title=document.createElement('h2');title.textContent='初始装备与采购';host.append(title);
-  const description=document.createElement('p');description.textContent='PHB pp.35–37 为参考价。先记录准备购买的物品、实际价格和找零；供应、职业许可、重量与携带方式由战役自行确认。';host.append(description);
+  const description=document.createElement('p');description.textContent='PHB pp.35–37 为参考价。先记录准备购买的物品、实际价格和找零；尚未确定的供应、重量与携带方式会保留为待补充。';host.append(description);
   const rows=document.createElement('div'),status=document.createElement('p');status.setAttribute('role','status');
   function field(labelText:string,input:HTMLElement){const label=document.createElement('label');label.textContent=labelText;label.append(input);return label;}
   function numeric(value:string){const input=document.createElement('input');input.type='number';input.min='0';input.step='1';input.value=value;return input;}
@@ -25,7 +25,7 @@ export function renderStartingEquipment(host:HTMLElement,read:()=>CoreCreation|n
     if(!lines.length)throw new Error('请先添加至少一项物品。');
     const actualCostCp=lines.reduce((sum,line)=>sum+line.agreedUnitPriceCp*line.quantity,0),tenderCp=Number(tender.value)*100,changeCp=Number(change.value);
     if(tenderCp-changeCp!==actualCostCp)throw new Error('付款减找零必须等于采购计划总额。');
-    write(recordCreationTask(document,'equipment',{status:'needs-dm',sourceIds:['phb:35:money-equipment','phb:36:equipment-armor','phb:37:weapon-weight'],note:'采购计划已记录；它不是已批准库存，战役可自行确认后再建立实际物品。',facts:{purchasePlan:{lines,tenderGp:Number(tender.value),changeCp,actualCostCp},startingMoneyRevision:document.revision}}));
+    write(recordCreationTask(document,'equipment',{status:'needs-dm',sourceIds:['phb:35:money-equipment','phb:36:equipment-armor','phb:37:weapon-weight'],note:'采购计划已记录；尚未确定的库存与携带事实保留在档案中。',facts:{purchasePlan:{lines,tenderGp:Number(tender.value),changeCp,actualCostCp},startingMoneyRevision:document.revision}}));
     status.textContent=`已记录 ${lines.length} 项采购计划，计划金额 ${actualCostCp} cp；尚未写入实际库存。`;
   }catch(error){status.textContent=(error as Error).message;}});
 }

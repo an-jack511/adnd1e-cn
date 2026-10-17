@@ -18,9 +18,6 @@ export function renderDivineInitialSpells(host:HTMLElement,read:()=>CoreCreation
   function number(text:string){const input=document.createElement('input');input.type='number';input.min='0';host.append(label(text,input));return input;}
   const rest=number('实际休息小时'),prayer=number('实际祈祷分钟');
   rest.step='any';
-  const at=document.createElement('input');at.value='待战役确认';
-  const approved=document.createElement('input');approved.type='checkbox';
-  const approvedText=document.createElement('span');
   const button=document.createElement('button');button.type='button';button.textContent='检查神术授予与准备';const status=document.createElement('p');status.setAttribute('role','status');host.append(button,status);
   const task=doc.tasks.find(item=>item.id==='initial-spells'),saved=task?.facts?.ledger;
   if(saved&&typeof saved==='object'){
@@ -31,14 +28,13 @@ export function renderDivineInitialSpells(host:HTMLElement,read:()=>CoreCreation
       grants.forEach((grant,index)=>{if(fields[index]&&typeof grant.grantedSpell?.definitionId==='string')fields[index].value=grant.grantedSpell.definitionId;});
     }
     const session=Array.isArray(ledger.recoverySessions)?ledger.recoverySessions.at(-1):undefined;
-    if(session){if(typeof session.actualRestMinutes==='number')rest.value=String(session.actualRestMinutes/60);else if(typeof session.actualRestHours==='number')rest.value=String(session.actualRestHours);if(typeof session.actualStudyOrPrayerMinutes==='number')prayer.value=String(session.actualStudyOrPrayerMinutes);if(typeof session.completedAt==='string')at.value=session.completedAt;}
+    if(session){if(typeof session.actualRestMinutes==='number')rest.value=String(session.actualRestMinutes/60);else if(typeof session.actualRestHours==='number')rest.value=String(session.actualRestHours);if(typeof session.actualStudyOrPrayerMinutes==='number')prayer.value=String(session.actualStudyOrPrayerMinutes);}
     status.textContent=task?.note??'';
   }
   const refreshMode=()=>{
     const none=mode.value==='none';
     fields.forEach(field=>{field.disabled=none;if(none)field.value='';});
     rest.disabled=none;prayer.disabled=none;
-    approvedText.textContent=none?'待战役确认本次未授予／暂不准备':'待战役确认本战役允许本次实际授予';
     if(none){rest.value='0';prayer.value='0';button.textContent='记录未授予／暂不准备';}
     else{button.textContent='检查神术授予与准备';}
   };
@@ -49,6 +45,6 @@ export function renderDivineInitialSpells(host:HTMLElement,read:()=>CoreCreation
     const id=crypto.randomUUID();
     const grants=mode.value==='none'?[]:fields.filter(field=>field.value).map((field,index)=>{const spell=choices.find(item=>item.definitionId===field.value);if(!spell)throw new Error('法术不在已核一环表中。');return {id:`${id}:grant:${index}`,tradition:classId,requestedSpell:spell,grantedSpell:spell,authority:'dm-adjudicated' as const,status:'granted' as const,publicMessage:'已记录本次实际授予；战役自行确认',private:{trueAuthorityId:null,reason:'',dmNotes:[]}};});
     if(mode.value!=='none'&&!grants.length)throw new Error('请至少选择一个实际授予的神术；若本次没有授予，请切换为“未授予／暂不准备”。');
-    const result=recordCoreDivineCreation(current,{grants,restHours:Number(rest.value),prayerMinutes:Number(prayer.value),completedAt:at.value.trim(),sessionId:id});write(result.document);status.textContent=result.document.tasks.find(task=>task.id==='initial-spells')!.note;
+    const result=recordCoreDivineCreation(current,{grants,restHours:Number(rest.value),prayerMinutes:Number(prayer.value),completedAt:new Date().toISOString(),sessionId:id});write(result.document);status.textContent=result.document.tasks.find(task=>task.id==='initial-spells')!.note;
   }catch(error){status.textContent=(error as Error).message;}});
 }

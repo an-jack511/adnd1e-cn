@@ -9,7 +9,7 @@ function portableLedger(ledger:Parameters<typeof projectSpellLedgerForPlayer>[0]
   return {...projection,schema:'adnd1e.spell-ledger-player-portable' as const,recoverySessions:projection.recoverySessions.map(({actualRestHours,...session})=>({...session,actualRestMinutes:session.actualRestMinutes??Math.round(actualRestHours!*60)}))};
 }
 
-/** Creation-only adapter. Grants are explicit DM facts; spell capacity is recomputed. */
+/** Creation-only adapter. The player archive records the observed grant and preparation facts; a separate referee tool may later interpret them. */
 export function recordCoreDivineCreation(document:CoreCreation,input:{
   grants:readonly DivineGrantRecord[];restHours:number;prayerMinutes:number;completedAt:string;sessionId:string;
 }){
@@ -24,7 +24,7 @@ export function recordCoreDivineCreation(document:CoreCreation,input:{
   let ledger=createCoreSpellLedger({id:`${current.id}:spells`,characterId:current.id,careerId:classId,tradition:classId});
   if(!input.grants.length){
     const sourceIds=['project:core-divine-creation',...(capacity.status==='needs-dm'?capacity.sourceIds:capacity.tracks.flatMap(track=>track.sourceIds))];
-    return {document:recordCreationTask(current,'initial-spells',{status:'needs-dm',sourceIds,note:'明确选择开局不准备神术，等待 DM 审核；没有创建可用副本。',facts:{capacity,ledger:portableLedger(ledger),preparedNone:true}}),dmLedger:ledger};
+    return {document:recordCreationTask(current,'initial-spells',{status:'needs-dm',sourceIds,note:'已记录开局不准备神术；没有创建可用副本，后续可补充实际授予。',facts:{capacity,ledger:portableLedger(ledger),preparedNone:true}}),dmLedger:ledger};
   }
   for(const grant of input.grants)ledger=recordDivineGrant(ledger,grant);
   const requested=input.grants.filter(grant=>grant.status==='granted'&&grant.grantedSpell).map(grant=>({copyId:`${input.sessionId}:${grant.id}`,spell:grant.grantedSpell!,preparedFrom:{kind:'divine-grant' as const,id:grant.id}}));
@@ -32,5 +32,5 @@ export function recordCoreDivineCreation(document:CoreCreation,input:{
   ledger=recordRecoverySession(ledger,{id:input.sessionId,requested,actualRestMinutes:Math.round(input.restHours*60),actualStudyOrPrayerMinutes:input.prayerMinutes,interruption:'none',completedAt:input.completedAt,preparedCapacityByLevel:limits});
   const session=ledger.recoverySessions.at(-1)!;
   const sourceIds=[...new Set(['project:core-divine-creation',...ledger.divineGrants.flatMap(grant=>grant.requestedSpell.sourceIds),...(capacity.status==='needs-dm'?capacity.sourceIds:capacity.tracks.flatMap(track=>track.sourceIds))])];
-  return {document:recordCreationTask(current,'initial-spells',{status:session.status==='completed'?'needs-dm':'pending',sourceIds,note:session.status==='completed'?'神术授予与开局祈祷已记录，待 DM 审核。':`神术准备尚未完成：${session.status}`,facts:{capacity,ledger:portableLedger(ledger)}}),dmLedger:ledger};
+  return {document:recordCreationTask(current,'initial-spells',{status:session.status==='completed'?'needs-dm':'pending',sourceIds,note:session.status==='completed'?'神术授予与开局祈祷已记录；实际战役解释保留在档案中。':`神术准备尚未完成：${session.status}`,facts:{capacity,ledger:portableLedger(ledger)}}),dmLedger:ledger};
 }
