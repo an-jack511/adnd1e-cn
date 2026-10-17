@@ -47,7 +47,7 @@ export function renderDivineInitialSpells(host:HTMLElement,read:()=>CoreCreation
     const current=read();if(!current)throw new Error('角色已失效。');
     if(mode.value!=='none'&&(!rest.value.trim()||!prayer.value.trim()))throw new Error('请记录实际休息、祈祷时间和完成时点。');
     const id=crypto.randomUUID();
-    const grants=mode.value==='none'?[]:fields.filter(field=>field.value).map((field,index)=>{const spell=choices.find(item=>item.definitionId===field.value);if(!spell)throw new Error('法术不在已核一环表中。');return {id:`${id}:grant:${index}`,tradition:classId,requestedSpell:spell,grantedSpell:spell,authority:'dm-adjudicated' as const,status:'granted' as const,publicMessage:'开局实际授予，待创建审核确认',private:{trueAuthorityId:null,reason:'',dmNotes:[]}};});
+    const grants=mode.value==='none'?[]:fields.filter(field=>field.value).map((field,index)=>{const spell=choices.find(item=>item.definitionId===field.value);if(!spell)throw new Error('法术不在已核一环表中。');return {id:`${id}:grant:${index}`,tradition:classId,requestedSpell:spell,grantedSpell:spell,authority:'dm-adjudicated' as const,status:'granted' as const,publicMessage:'已记录本次实际授予；战役自行确认',private:{trueAuthorityId:null,reason:'',dmNotes:[]}};});
     if(mode.value!=='none'&&!grants.length)throw new Error('请至少选择一个实际授予的神术；若本次没有授予，请切换为“未授予／暂不准备”。');
     const result=recordCoreDivineCreation(current,{grants,restHours:Number(rest.value),prayerMinutes:Number(prayer.value),completedAt:at.value.trim(),sessionId:id});write(result.document);status.textContent=result.document.tasks.find(task=>task.id==='initial-spells')!.note;
   }catch(error){status.textContent=(error as Error).message;}});

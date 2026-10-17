@@ -19,7 +19,7 @@ const navigation = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>{title} · 正式档案工作区</title>
+    <title>{title} · 角色工作区</title>
     <meta name="robots" content="noindex" />
   </head>
   <body data-character-page={page}>
@@ -36,7 +36,7 @@ const navigation = [
               aria-current={item.page === page ? 'page' : undefined}
               data-workspace-link={!item.transition ? true : undefined}
             >
-              {item.label}{item.transition && <small>（过渡）</small>}
+              {item.label}
             </a>
           ))}
         </nav>
@@ -44,33 +44,34 @@ const navigation = [
       </aside>
       <div class="folio-main">
         <header class="workbar">
-          <span>{title} · 正式档案工作区</span>
+          <span>{title}</span>
           <div>
-            <button type="button" id="sheet-switch" disabled>切换角色</button>
             <label class="file-button">打开角色文件<input type="file" id="sheet-file" accept="application/json,.json" /></label>
             <button id="sheet-save" disabled>保存到本机</button>
-            <button id="sheet-recovery" disabled>历史恢复</button>
             <button id="sheet-export" disabled>导出角色</button>
           </div>
         </header>
         <details class="prototype-notice">
-          <summary>正式档案接入预览 · 支持范围与备份提醒</summary>
-          <p>正式档案接入预览，不是虚构演示。支持现有单职业核心角色与运营档；本机保存后日常动作自动保存，仍需定期导出。战役记录按公开字段展示已记录活动；研究、制造、据点等长期活动尚未完整接入，不自动产生收益。复杂生命流程及未接入操作暂不放入普通角色卡。创建角色暂使用现有向导。</p>
+          <summary>使用说明与备份提醒</summary>
+          <p>这是可操作的角色卡。打开或创建角色后，日常操作会自动保存到当前浏览器；仍建议定期导出备份。未接入的研究、制造、据点等长期活动不会被程序擅自计算。</p>
         </details>
         <section class="paper-section" aria-label="本地角色">
-          <label>已保存的角色<select id="sheet-library"><option value="">正在查找本地角色…</option></select></label>
-          <button id="sheet-load">打开所选角色</button>
+          <div class="character-picker-row">
+            <label>已保存的角色<select id="sheet-library"><option value="">正在查找本地角色…</option></select></label>
+            <button id="sheet-load">打开角色</button>
+            <button type="button" id="sheet-switch" class="secondary-action" disabled>换一个角色</button>
+          </div>
         </section>
         <main id="real-sheet" tabindex="-1">
           <div class="page-heading">
-            <p class="eyebrow">正式档案 · {title}</p>
             <h1>{title}</h1>
-            <p>选择已有本地角色，或导入现有准入／运营文件。不会把旧手工表猜成合法角色。</p>
+            <p>选择已有角色，或打开一份角色文件。</p>
           </div>
         </main>
         <p id="sheet-status" class="app-status" role="status" aria-live="polite"></p>
         <details>
-          <summary>范围、隐私与高级工具</summary>
+          <summary>更多工具与规则说明</summary>
+          <p><button type="button" id="sheet-recovery" disabled>恢复历史版本</button></p>
           <p><label class="file-button">导入公开随从／雇佣<input type="file" id="relationship-file" accept="application/json,.json" /></label></p>
           <p>公开关系文件只接受姓名、身份、合同、公开支付和公开历史；私密忠诚、士气、阵营、宗教及主持人备注会被拒绝。它用于接收未来 DM Studio 的公开投影，不是本站的审核入口。</p>
           <p>角色保存在当前浏览器的本地数据库中，人物卡、成长与战役记录共用现有档案。请定期导出文件备份；清理浏览器数据或更换浏览器后，本地角色可能不可用。</p>
@@ -85,7 +86,7 @@ const navigation = [
     </div>
     <dialog id="sheet-action" aria-labelledby="sheet-action-title">
       <form id="sheet-action-form">
-        <p class="eyebrow">规则动作 · 实际档案</p>
+        <p class="eyebrow">角色操作</p>
         <h2 id="sheet-action-title"></h2>
         <div id="sheet-fields"></div>
         <div id="sheet-preview" class="action-preview" role="status"></div>

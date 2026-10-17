@@ -27,6 +27,11 @@ const core = page('src/character/ui/core-candidate-controller.ts');
 if (core.includes('DM 已确认') || core.includes('DM 许可的稳定语言 ID')) {
   throw new Error('Core creation still exposes a DM approval field.');
 }
+const admission = page('src/character/ui/core-campaign-admission.ts');
+const divine = page('src/character/ui/core-divine-initial-spells.ts');
+if (admission.includes('确认此设置的 DM 身份') || admission.includes('导出创建进度交给 DM 审核') || divine.includes('待创建审核确认')) {
+  throw new Error('Player creation still exposes the future DM Studio review workflow.');
+}
 
 const distReview = join(root, 'dist/character/review/index.html');
 if (existsSync(distReview)) {

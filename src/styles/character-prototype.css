@@ -43,3 +43,7 @@ button:hover,.file-button:hover{background:#f3f5f7}
 .button-link.primary{background:var(--ink);border-color:var(--ink);color:#fff}
 .dm-principles{margin-top:18px}
 @media(max-width:800px){.folio-shell{display:block}.folio-nav{position:static;height:auto;padding:16px 18px;border-right:0;border-bottom:1px solid var(--line)}.wordmark{font-size:24px;display:flex;gap:15px;align-items:center}.wordmark span{font-size:8px;margin:0}.nav-caption,.nav-foot{display:none}.folio-nav nav{position:fixed;z-index:5;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:#fff;border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}.folio-nav nav a{text-align:center;font-size:12px;padding:12px 0;border:0;border-top:3px solid transparent;min-height:58px}.folio-nav nav a.active{border-top-color:var(--red)}.folio-main{padding:0 18px 80px}.workbar{padding:10px 0}.workbar>div{width:100%;justify-content:stretch}.workbar button,.file-button{flex:1 1 110px;justify-content:center}.creation-layout{display:block}.step-list{flex-direction:row;overflow:auto;margin:0 -18px 20px;padding:0 18px}.dm-entry-grid{grid-template-columns:1fr}}
+
+:root{--paper:#fff;--white:#fff}
+.character-picker-row{display:flex;align-items:end;gap:10px}.character-picker-row label{flex:1}.character-picker-row button{white-space:nowrap}.secondary-action{color:var(--muted)}
+@media(max-width:640px){.character-picker-row{display:grid;grid-template-columns:1fr 1fr}.character-picker-row label{grid-column:1/-1}.character-picker-row button{width:100%}}
