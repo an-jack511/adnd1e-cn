@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {admittedCoreCharacter} from './fixtures/admitted-core-character';
+import {previewSheetAction,commitSheetAction,type SheetAction} from '../src/character/actions/campaign-actions';
+import {campaignSheet} from '../src/character/application/campaign-sheet';
+import {campaignJournal} from '../src/character/application/campaign-journal';
+import {parseCoreCampaignArchive,type CoreCampaignArchive} from '../src/character/workflows/core-campaign-runtime';
+let serial=0;
+const apply=(archive:CoreCampaignArchive,action:SheetAction)=>commitSheetAction(archive,previewSheetAction(archive,action,{id:`journal-activity-test-${++serial}`,actorId:'private-recorder',at:'recorded-at-not-game-time'}));
+let archive=admittedCoreCharacter('fighter');
+const actual={type:'character.recordActivity',kind:'travel',startMinute:0,endMinuteExclusive:120,location:'公开行程',actualIntervalConfirmed:true} as const;
+assert.throws(()=>apply(archive,actual),/日历/);
+archive=apply(archive,{type:'character.initializeLife',currentHp:campaignSheet(archive).maximumHp!,confirmed:true});
+archive=apply(archive,{type:'character.growth.calendar',minutesPerDay:1440,daysPerWeek:7,adoptedConfirmed:true});
+const before=campaignSheet(archive),base=JSON.stringify(archive),preview=previewSheetAction(archive,actual,{id:'preview-actual-travel',actorId:'private-recorder',at:'not-a-game-date'});
+assert.equal(JSON.stringify(archive),base,'preview is immutable');
+assert.match(preview.changes.join(' '),/第1天 00:00 → 第1天 02:00/);
+archive=commitSheetAction(archive,preview);
+let next=120;
+for(const kind of ['rest','study','language-study','spell-research','magic-item-manufacture','adventuring','other'] as const){
+  archive=apply(archive,{...actual,kind,startMinute:next,endMinuteExclusive:next+60});next+=60;
+}
+const after=campaignSheet(archive);
+assert.equal(after.life!.currentHp,before.life!.currentHp);assert.equal(after.maximumHp,before.maximumHp);
+assert.equal(after.wealthCp,before.wealthCp);assert.equal(after.xp,before.xp);assert.equal(after.level,before.level);
+assert.deepEqual(after.prepared,before.prepared);assert.deepEqual(after.inventory,before.inventory,'manufacturing occupancy does not produce items or charge inferred costs');
+const unchanged=JSON.stringify(archive);
+assert.throws(()=>apply(archive,{...actual,startMinute:10,endMinuteExclusive:20}),/overlap/);
+assert.throws(()=>apply(archive,{...actual,startMinute:300,endMinuteExclusive:300}),/结束/);
+assert.throws(()=>apply(archive,{...actual,kind:'training'} as unknown as SheetAction),'ordinary activity cannot fabricate advancement progress');
+assert.equal(JSON.stringify(archive),unchanged,'failed operations do not change archive');
+assert.deepEqual(parseCoreCampaignArchive(JSON.parse(unchanged)),archive);
+const journal=campaignJournal(archive);assert.equal(journal.entries.at(-1)!.recordedAt,'recorded-at-not-game-time');assert.match(journal.entries.at(-1)!.gameTime!,/第1天/);
+assert.ok(!JSON.stringify(journal).includes('private-recorder'));
+console.log('PASS: actual activity preview/commit, explicit calendar, exact intervals, conflict refusal, no invented rest/research/manufacturing rewards and public journal replay.');

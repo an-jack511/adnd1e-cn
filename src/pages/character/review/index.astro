@@ -19,6 +19,8 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   <p>未完成的创建任务需回到对应创建流程处理。此页不会通过勾选将缺少的 HP、装备或法术事实变成已完成。</p>
   <button id="review-export" type="button" disabled>导出审核后的创建记录</button>
   <button id="review-runtime" type="button" disabled>导出正式事件档案</button>
+  <button id="review-enter" type="button" disabled>保存并进入我的角色</button>
+  <p>只为已明确准入、符合当前创建检查的单一普通核心职业建立人物卡。与现有角色库共用身份；同分支已有档案时拒绝覆盖。无法保存时请导出原件，不把准入视为数据库写入成功。</p>
   <p><a href="/character/create/core/">核心角色创建</a> · <a href="/character/import/">档案检查与恢复</a> · <a href="/character/">角色首页</a></p>
   <script>import { startCoreReview } from '../../../character/ui/core-review-controller';startCoreReview();</script>
 </BaseLayout>

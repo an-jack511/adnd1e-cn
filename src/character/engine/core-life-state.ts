@@ -314,6 +314,23 @@ export function assessSevereZeroHpInjury(state: CoreLifeState) {
   });
 }
 
+/** DMG 82's specific Heal exception, not ordinary cure/potion healing.
+ * The caller attests an actual target effect; this does not cast a spell, restore
+ * HP, end another revival restriction or settle any other Heal effects.
+ */
+export function resolveHealConvalescenceException(state: CoreLifeState, input: {
+  readonly spellEffect: 'heal'; readonly episodeId: string; readonly effectEvidenceId: string;
+  readonly actorId: string; readonly reason: string;
+}) {
+  validateCoreLifeState(state);
+  if(input.spellEffect !== 'heal')throw new Error('Only the Heal spell ends this restriction.');
+  requiredId(input.actorId,'DM actor');requiredId(input.reason,'DM reason');requiredId(input.effectEvidenceId,'Heal effect evidence');
+  if(state.mortality!=='alive'||state.actionRestriction!=='zero-hp-convalescence'||!state.zeroHpEpisode
+    ||state.zeroHpEpisode.id!==input.episodeId)throw new Error('Heal exception requires the current living zero-HP convalescence episode.');
+  return {state:validateCoreLifeState({...state,actionRestriction:'none'}),hpChanged:false as const,
+    evidence:structuredClone(input),sourceIds:['dmg:82:zero-hit-points'] as const};
+}
+
 export function recordSevereZeroHpInjury(state: CoreLifeState, input: {
   readonly changeId: string;
   readonly description: string;

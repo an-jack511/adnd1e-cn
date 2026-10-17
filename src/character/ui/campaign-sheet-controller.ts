@@ -1,0 +1,142 @@
+import {parseCoreCampaignArchive,newCoreCampaignArchive,type CoreCampaignArchive} from '../workflows/core-campaign-runtime';
+import {parseCoreAdmissionArchive} from '../workflows/core-admission';
+import {campaignSheet,lifeLabels} from '../application/campaign-sheet';
+import {previewSheetAction,commitSheetAction,type SheetAction,type SheetActionPlan} from '../actions/campaign-actions';
+import {listBrowserCampaignSlots,loadBrowserCampaign,saveBrowserCampaign, recoverBrowserCampaignSnapshot} from '../workflows/core-campaign-browser-storage';
+import {CORE_CAMPAIGN_HISTORY_LIMIT} from '../workflows/core-campaign-storage';
+import type {CampaignSlot} from '../workflows/core-campaign-storage';
+import {renderCampaignCombat,bindCampaignCombat,defenseFields} from './campaign-combat-panel';
+import {renderCampaignSpells,preparationFields,bindPreparationFields,readPreparationFacts,gameTimeFields,readGameMinute} from './campaign-spell-panel';
+import {campaignGrowth} from '../application/campaign-growth';
+import {renderCampaignGrowth,growthFields,readGrowthAction} from './campaign-growth-panel';
+import {campaignJournal} from '../application/campaign-journal';
+import {renderCampaignJournal} from './campaign-journal-panel';
+import {journalActivityFields,readJournalActivity} from './journal-activity-panel';
+import {renderCampaignCapabilities} from './campaign-capabilities-panel';
+import {renderCampaignRecovery, type CampaignRecoverySnapshot} from './campaign-recovery-panel';
+import {coreEquipmentById} from '../rules/core-inventory';
+const esc=(v:unknown)=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+const coinLabels:Record<string,string>={cp:'cp',sp:'sp',ep:'ep',gp:'gp',pp:'pp'};
+const coinSummary=(coins:Record<string,number>)=>Object.entries(coinLabels).filter(([id])=>coins[id]>0).map(([id,label])=>`${coins[id]}${label}`).join(' ')||'0';
+function renderCampaignInventory(sheet:ReturnType<typeof campaignSheet>):string{
+  const inventory=sheet.inventory;
+  if(!inventory)return '<h2 id="sheet-equipment">装备与财富</h2><p>没有已核库存，不能从手工文本推断装备或钱币。</p>';
+  const wallets=inventory.wallets.map(wallet=>`<li><div><strong>${esc(wallet.label)}</strong><small>${coinSummary(wallet.coins as unknown as Record<string,number>)} · ${esc(inventory.locations.find(location=>location.id===wallet.locationId)?.label??'位置待核')}</small></div></li>`).join('')||'<li>尚无已核钱包。</li>';
+  const items=inventory.items.map(item=>{const location=inventory.locations.find(entry=>entry.id===item.locationId)?.label??'位置待核',definition=item.definitionId?coreEquipmentById[item.definitionId]:undefined,unpackable=definition?.purchaseUnit==='dozen'||definition?.purchaseUnit==='score';return `<li><div><strong>${esc(item.label)}</strong><small>数量 ${item.quantity} · ${esc(location)} · ${item.weight.kind==='unknown'?'重量待核':`单位约 ${item.weight.unitWeightGp} gp 重量`}</small></div><span class="mini-actions"><button data-operation="item" data-id="${esc(item.id)}" ${!item.quantity?'disabled':''}>使用／损失</button><button data-operation="item-relocate" data-id="${esc(item.id)}">移动</button>${unpackable?`<button data-operation="item-unpack" data-id="${esc(item.id)}">拆包</button>`:''}</span></li>`;}).join('')||'<li>没有已核库存。</li>';
+  const carrier=inventory.locations.find(location=>location.kind==='character');
+  const knownWeight=inventory.items.filter(item=>item.locationId===carrier?.id&&item.weight.kind!=='unknown').reduce((sum,item)=>sum+(item.weight.kind==='unknown'?0:item.weight.unitWeightGp*item.quantity),0);
+  return `<div class="section-title"><h2 id="sheet-equipment">装备与财富</h2><span class="badge">账面 ${(sheet.wealthCp/200).toLocaleString()} gp</span></div><p>钱币按钱包和面额保存；收入、支出、物品消耗与位置变化都写入事件历史。</p><div class="quick-actions"><button data-operation="wealth-income">记录财富入账</button><button data-operation="wealth-expense">记录财富支出</button><button data-operation="burden">查看负重下界</button></div><h3>钱币</h3><ul class="rule-list">${wallets}</ul><h3>物品</h3><ul class="rule-list">${items}</ul><p class="inline-note">当前人物位置下已知物品重量下界约 ${knownWeight.toLocaleString()} gp 重量单位；未包含未知重量、体积、力量修正或 DM 对移动率的裁定。</p>`;
+}
+export function startCampaignSheet(){
+  const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T,root=get<HTMLElement>('real-sheet'),dialog=get<HTMLDialogElement>('sheet-action');
+  let current:CoreCampaignArchive|null=null,saved:CoreCampaignArchive|null=null,token:string|null=null,slots:CampaignSlot[]=[],recoveryHistory:CampaignRecoverySnapshot[]=[],generation=0,ioBusy=false,saving=false,auto=false,plan:SheetActionPlan|null=null,kind='',selectedId='';
+  const say=(text:string,error=false)=>{get('sheet-status').textContent=text;get('sheet-status').dataset.error=String(error);};
+  const slot=():CampaignSlot=>({characterId:current!.runtime.transaction.characterId,branchId:current!.runtime.transaction.branchId});
+  function refreshWorkspaceLinks(){
+    if(current&&current===saved&&token&&!saving){const selected=new URL(location.href);selected.searchParams.set('character',slot().characterId);selected.searchParams.set('branch',slot().branchId);history.replaceState(history.state,'',selected.pathname+selected.search+selected.hash);}
+    document.querySelectorAll<HTMLAnchorElement>('[data-workspace-link]').forEach(link=>{
+      const url=new URL(link.getAttribute('href')!,location.origin);url.search='';
+      if(current&&current===saved&&!saving){url.searchParams.set('character',slot().characterId);url.searchParams.set('branch',slot().branchId);}
+      link.href=url.pathname+url.search;link.onclick=e=>{if(current&&(current!==saved||saving)){e.preventDefault();say('请先保存当前角色后切换工作区；不会把未保存快照交给另一个页面。',true);}};
+    });
+  }
+  const download=(text:string)=>{const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download=`${current!.runtime.transaction.characterId}.adnd1e-campaign.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+  async function refresh(){try{slots=await listBrowserCampaignSlots();const options=await Promise.all(slots.map(async(slot,i)=>{const loaded=await loadBrowserCampaign(slot);return new Option(loaded.status==='ready'?`${loaded.archive.runtime.transaction.facts.identity.name}（存档${i+1}）`:`待检查的存档${i+1}`,String(i));}));get<HTMLSelectElement>('sheet-library').replaceChildren(new Option('选择本地角色',''),...options);}catch{say('本地数据库暂不可用；仍可打开文件并导出保存。',true);}}
+  function refreshSaveStatus(){
+    refreshWorkspaceLinks();
+    get<HTMLButtonElement>('sheet-save').disabled=!current||saving||ioBusy||current===saved;
+    const recovery=get<HTMLButtonElement>('sheet-recovery');if(recovery)recovery.disabled=!current||!saved||!token||!recoveryHistory.length||saving||ioBusy;
+    const switchButton=get<HTMLButtonElement>('sheet-switch');if(switchButton)switchButton.disabled=!current||saving||ioBusy||current!==saved;
+    const status=root.querySelector('[data-save-state]');if(!status)return;
+    status.querySelector('strong')!.textContent=saving?'正在保存…':current===saved?'本机已保存':'有未保存进度';
+    status.querySelector('small')!.textContent=auto?'后续动作自动保存':'首次保存后启用自动保存';
+  }
+  function render(){
+    get('sheet-library').closest('section')!.hidden=Boolean(current);
+    get<HTMLButtonElement>('sheet-save').disabled=!current||saving||ioBusy||current===saved;get<HTMLButtonElement>('sheet-export').disabled=!current;
+    if(!current)return;
+    if(document.body.dataset.characterPage==='journal')root.innerHTML=renderCampaignJournal(campaignJournal(current));
+    else {
+    const sheet=campaignSheet(current),life=sheet.life;
+    if(document.body.dataset.characterPage==='growth')root.innerHTML=renderCampaignGrowth(sheet,campaignGrowth(current));
+    else {
+root.innerHTML=`<div class="page-heading"><p class="eyebrow">PERSONA · 当前运营状态</p><h1>${esc(sheet.name)}</h1><p>${sheet.race} · ${sheet.career} ${sheet.level}级</p></div><section class="vitals"><div class="hp-vital"><span>当前 / 最大 HP</span><strong>${life?.currentHp??'待确认'}<small> / ${sheet.maximumHp??'待核'}</small></strong><button data-operation="${life?'damage':'initialize'}">${life?'记录伤害':'确认当前HP'}</button></div><div><span>已经取得等级</span><strong>${sheet.level}</strong><small>经验达标不自动授级</small></div><div><span>经验 XP</span><strong>${sheet.xp.toLocaleString()}</strong></div><div data-save-state><span>保存状态</span><strong style="font-size:18px">${saved===current?'本机已保存':'有未保存进度'}</strong><small>${auto?'后续动作自动保存':'首次保存后启用自动保存'}</small></div></section><p class="inline-note">生命状态：${esc(life?lifeLabels[life.mortality]??'待核':'尚未确认')}；行动限制：${esc(life?lifeLabels[life.actionRestriction]??'待核':'尚未确认')}。受伤与苏醒、休养禁令分别处理；高级生命操作请使用团务工具。</p>
+ <div class="work-columns"><section class="paper-section">${renderCampaignSpells(sheet)}${renderCampaignInventory(sheet)}</section><aside class="context-panel"><h2>最近活动</h2>${sheet.history.slice(-8).reverse().map(e=>`<p><strong>${e.label}</strong>${e.gameTime?`<br/>${esc(e.gameTime)}`:''}<br/><small>记录于 ${esc(e.at)}</small></p>`).join('')||'<p>尚无运营动作。</p>'}<a data-workspace-link href="/character/journal/">查看完整战役记录 →</a><p>人物卡、成长和战役记录共用此角色档案；高级历史纠错另行处理，不删除旧事件。</p></aside></div>`;
+root.querySelector('.work-columns')!.insertAdjacentHTML('beforebegin','<nav class="sheet-quicknav" aria-label="人物卡分区"><a href="#sheet-combat">战斗</a><a href="#sheet-spells">法术</a><a href="#sheet-equipment">装备与财富</a><a href="#sheet-abilities">属性</a><a href="#sheet-capabilities">职业能力</a></nav>'+renderCampaignCombat(sheet)+renderCampaignCapabilities(sheet));bindCampaignCombat(root,sheet);
+    const defenseVital=root.querySelector<HTMLElement>('.vitals>div:nth-child(2)')!;defenseVital.innerHTML=`<span>护甲等级 AC</span><strong>${sheet.defense.ac??'待确认'}</strong><small>${sheet.defense.ac===null?'请确认实际穿戴':'普通装备参考值 · 越低越好'}</small>`;
+    if(life?.mortality==='alive'&&life.currentHp!==null&&life.currentHp>0){const button=document.createElement('button');button.textContent='实际治疗';button.dataset.operation='heal';root.querySelector('.hp-vital')!.append(button);}
+    }
+    }
+   root.querySelectorAll<HTMLButtonElement>('[data-operation]').forEach(b=>b.onclick=()=>{
+      if(['wealth-income','wealth-expense','item-relocate','item-unpack'].includes(b.dataset.operation??'')){openInventory(b.dataset.operation!,b.dataset.id??'');return;}
+      if(b.dataset.operation==='burden'){say('负重只显示已知重量下界；体积、未知重量、力量修正和移动率仍须 DM 按本战役裁定。');return;}
+      if(b.dataset.operation!=='journal-activity'){open(b.dataset.operation!,b.dataset.id??'');return;}
+      if(!current||ioBusy)return;const calendar=campaignGrowth(current).calendar;
+      if(!calendar){say('先在成长工作区明确本战役日历。',true);return;}
+      kind='journal-activity';selectedId='';plan=null;get('sheet-action-title').textContent='登记实际活动时段';get('sheet-preview').textContent='先预览，确认后才记录；不会自动结算活动收益。';get('sheet-apply').textContent='预览结果';get('sheet-fields').innerHTML=journalActivityFields(calendar.minutesPerDay);dialog.showModal();
+    });
+    if(document.body.dataset.characterPage==='sheet'&&saved===current&&recoveryHistory.length){
+      root.insertAdjacentHTML('beforeend',renderCampaignRecovery(recoveryHistory));
+      root.querySelectorAll<HTMLButtonElement>('[data-recovery-generation]').forEach(button=>button.onclick=async()=>{
+        if(!current||!saved||!token){say('当前没有可恢复的本机历史快照。',true);return;}
+        const requested=Number(button.dataset.recoveryGeneration);try{
+          const result=await recoverBrowserCampaignSnapshot(slot(),token,requested);
+          const url=URL.createObjectURL(new Blob([JSON.stringify(result.recovered,null,2)],{type:'application/json'}));
+          const link=document.createElement('a');link.href=url;link.download=`${result.recovered.runtime.transaction.characterId}.recovery-g${result.recoveredGeneration}.adnd1e-campaign.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+          say(`已请求导出第 ${result.recoveredGeneration} 代恢复副本；当前角色未回滚，较新事件未删除。`);
+        }catch(error){say(`恢复基线已改变或历史快照不可用；当前角色未修改。${(error as Error).message}`,true);}
+      });
+    }
+    refreshSaveStatus();
+  }
+  async function save(){
+    if(!current||saving||ioBusy||current===saved)return;saving=true;const snapshot=current;refreshSaveStatus();
+    try{const previous=saved,previousGeneration=generation;const result=await saveBrowserCampaign(slot(),snapshot,token);if(result.status!=='saved'){auto=false;throw new Error(result.reason);}if(previous)recoveryHistory=[{generation:previousGeneration,archive:previous},...recoveryHistory].slice(0,CORE_CAMPAIGN_HISTORY_LIMIT);generation=result.generation;token=result.token;saved=snapshot;auto=true;say(current===snapshot?'已保存到本机；建议同时导出文件备份。':'旧快照已保存，正在保存新增进度。');}
+    catch(e){auto=false;say(`未覆盖本机原件；内存进度保留，请导出。${(e as Error).message}`,true);}
+    finally{saving=false;refreshSaveStatus();if(auto&&current!==saved)void save();}
+  }
+  get('sheet-save').onclick=()=>void save();get('sheet-export').onclick=()=>{if(current){download(JSON.stringify(current,null,2));say('已请求下载完整运营档；请确认文件落盘，不要公开分享其中审核信息。');}};
+  get<HTMLButtonElement>('sheet-recovery').onclick=()=>{const panel=root.querySelector<HTMLElement>('.recovery-panel');if(panel)panel.scrollIntoView({behavior:'smooth',block:'start'});else say('当前没有可用的历史快照；首次保存后才会产生恢复历史。',true);};
+  const switchButton=get<HTMLButtonElement>('sheet-switch');if(switchButton)switchButton.onclick=()=>{
+    if(!current||saving||ioBusy||current!==saved){say('先完成当前保存；未保存进度不会被切换操作丢弃。',true);return;}
+    current=null;saved=null;token=null;recoveryHistory=[];generation=0;auto=false;plan=null;dialog.close();
+    const url=new URL(location.href);url.searchParams.delete('character');url.searchParams.delete('branch');history.replaceState(history.state,'',url.pathname+url.search);
+    root.replaceChildren();const heading=document.createElement('h1'),explanation=document.createElement('p');heading.textContent='选择要继续的人物';explanation.textContent='已保存的原角色仍保留在本机；选择另一角色或打开文件，不合并不同人物的档案。';root.append(heading,explanation);
+    get('sheet-library').closest('section')!.hidden=false;get<HTMLButtonElement>('sheet-export').disabled=true;refreshSaveStatus();void refresh();say('当前角色已保存并退出工作区；本机原件未删除。');get<HTMLSelectElement>('sheet-library').focus();
+  };
+  get('sheet-load').onclick=async()=>{if(current||ioBusy||saving){say('请先导出当前进度，再刷新打开另一角色。',true);return;}const index=get<HTMLSelectElement>('sheet-library').value;if(!index||!slots[Number(index)])return;ioBusy=true;try{const loaded=await loadBrowserCampaign(slots[Number(index)]);if(loaded.status!=='ready')throw new Error(loaded.status==='preserved'?'存储原件损坏或版本未知，未修改；请使用团务工具保全。':'本地档案已不存在。');current=loaded.archive;saved=current;token=loaded.token;recoveryHistory=loaded.history;generation=loaded.generation;auto=true;say('已加载并校验本机档案；后续动作自动保存。');}catch(e){say((e as Error).message,true);}finally{ioBusy=false;render();}};
+  get<HTMLInputElement>('sheet-file').onchange=async e=>{const input=e.target as HTMLInputElement,file=input.files?.[0];if(!file)return;if(current||ioBusy||saving){input.value='';say('为保留当前进度，请先导出并刷新，再打开文件。',true);return;}ioBusy=true;try{if(file.size>8*1024*1024)throw new Error('文件超过8MiB，保持原件，请转隔离检查。');const raw=JSON.parse(await file.text());const archive=raw?.format==='adnd1e-core-admission-runtime'?newCoreCampaignArchive(parseCoreAdmissionArchive(raw)):parseCoreCampaignArchive(raw);current=archive;saved=null;token=null;recoveryHistory=[];generation=0;auto=false;say('文件已通过重放核对；尚未写入本机。若同分支已存在，保存会阻止覆盖而不是强行合并。');}catch{say('无法作为当前支持的正式档案打开。原件和本机角色未改动，请使用隔离检查工具。',true);}finally{ioBusy=false;input.value='';render();}};
+function open(operation:string,id:string){if(ioBusy||!current)return;kind=operation;selectedId=id;plan=null;get('sheet-action-title').textContent={initialize:'确认实际当前HP',damage:'记录受到的伤害',item:'记录实际物品消耗',cast:'消耗准备副本'}[operation]??'角色动作';get('sheet-preview').textContent='先预览，确认后才应用；取消不改变角色。';get('sheet-apply').textContent='预览结果';get('sheet-fields').innerHTML=operation==='initialize'?'<label>团桌确认的当前HP<input name="amount" type="number" min="1" required/></label><label class="check-row"><input name="confirmed" type="checkbox" required/>这是实际HP确认，不是治疗或重置</label>':operation==='damage'?'<label>实际伤害<input name="amount" type="number" min="1" value="1" required/></label><label>原因<input name="reason" value="团桌伤害" required/></label><label>同一击进入负HP的规则<select name="entry"><option value="">尚未裁定</option><option value="strict-zero">严格零HP</option><option value="allow-minus-three">本战役采用可至−3原书选项</option></select></label>':operation==='item'?'<label>档案库存单位的消耗数量<input name="amount" type="number" min="1" value="1" required/></label><label>说明<input name="reason" value="实际使用" required/></label><p>一包不自动等于一天或一件；成包拆分请使用团务工具。</p>':'<label class="check-row"><input name="confirmed" type="checkbox" required/>团桌已确认本次组件与情境</label><label>实际效果说明（可留空，不自动计算）<input name="outcome"/></label>';if(operation==='heal'){get('sheet-action-title').textContent='记录实际治疗';get('sheet-fields').innerHTML='<label>实际恢复量<input name="amount" type="number" min="1" value="1" required/></label><label>来源说明<input name="reason" value="团桌已结算的治疗" required/></label><p>PHB印刷105–106：只登记实际效果，不超过最大HP。不能替代零HP苏醒、复活、自然恢复计算或解除休养禁令。</p>';}if(operation==='defense'){get('sheet-action-title').textContent='确认实际穿戴';get('sheet-fields').innerHTML=defenseFields(campaignSheet(current));}if(operation==='prepare'){get('sheet-action-title').textContent='完成法术学习／祈祷';get('sheet-fields').innerHTML=preparationFields(campaignSheet(current));bindPreparationFields(get<HTMLFormElement>('sheet-action-form'),campaignSheet(current));}if(operation==='cast'){const cal=campaignSheet(current).calendar;if(cal)get('sheet-fields').insertAdjacentHTML('beforeend',gameTimeFields('cast',cal.minutesPerDay,'本次实际施法时间'));}if(operation.startsWith('growth-')){const fields=growthFields(campaignGrowth(current),operation);get('sheet-action-title').textContent=fields.title;get('sheet-fields').innerHTML=fields.html;}dialog.showModal();}
+   function openInventory(operation:string,id=''){
+     if(!current||ioBusy)return;
+     const sheet=campaignSheet(current),inventory=sheet.inventory;kind=operation;selectedId=id;plan=null;
+     const title:Record<string,string>={'wealth-income':'记录财富入账','wealth-expense':'记录财富支出','item-relocate':'记录物品位置变化','item-unpack':'拆分同质整包'};
+     get('sheet-action-title').textContent=title[operation]??'装备与财富';get('sheet-preview').textContent='先预览，确认后才应用；取消不改变角色。';get('sheet-apply').textContent='预览结果';
+     const walletOptions=inventory?.wallets.map(wallet=>`<option value="${esc(wallet.id)}">${esc(wallet.label)} · ${coinSummary(wallet.coins as unknown as Record<string,number>)}</option>`).join('')??'';
+     const coinFields=(prefix:string)=>['cp','sp','ep','gp','pp'].map(coin=>`<label>${coin}<input name="${prefix}-${coin}" type="number" min="0" step="1" value="0" required/></label>`).join('');
+     if(operation==='wealth-income')get('sheet-fields').innerHTML=`<label>钱包<select name="walletId" required>${walletOptions}</select></label><fieldset><legend>收入</legend><div class="coin-fields">${coinFields('income')}</div></fieldset><label>来源标识<input name="sourceId" value="session:wealth" required/></label><label>说明<input name="reason" value="团桌已确认的实际钱币变化" required/></label><p>只记录实际钱币变化；不会自动授予经验或推断战利品分配。</p>`;
+     if(operation==='wealth-expense')get('sheet-fields').innerHTML=`<label>钱包<select name="walletId" required>${walletOptions}</select></label><fieldset><legend>交付</legend><div class="coin-fields">${coinFields('tender')}</div></fieldset><fieldset><legend>找零</legend><div class="coin-fields">${coinFields('change')}</div></fieldset><label>本次支出总额（cp）<input name="amountCp" type="number" min="1" required/></label><label>来源标识<input name="sourceId" value="session:wealth" required/></label><label>说明<input name="reason" value="团桌已确认的实际钱币支出" required/></label><p>交付减找零必须等于支出总额；不把价格表当成实际成交价。</p>`;
+     if(operation==='item-relocate'){const locations=inventory?.locations.map(location=>`<option value="${esc(location.id)}">${esc(location.label)}</option>`).join('')??'';get('sheet-fields').innerHTML=`<label>目标位置<select name="destinationLocationId" required>${locations}</select></label><label>来源标识<input name="sourceId" value="session:item-location" required/></label><label>说明<input name="reason" value="团桌已确认的实际位置变化" required/></label><p>只记录位置事实，不自动证明负重、可及性或移动率。</p>`;}
+     if(operation==='item-unpack')get('sheet-fields').innerHTML='<label>拆出的整包数量<input name="bundleCount" type="number" min="1" value="1" required/></label><label>来源标识<input name="sourceId" value="session:bundle-unpack" required/></label><label>说明<input name="reason" value="团桌已确认的同质整包拆分" required/></label><p>仅支持原书数据明确标记为 dozen／score 的同质整包；混合包交由团务工具与 DM 裁定。</p>';
+     dialog.showModal();
+   }
+   get('sheet-cancel').onclick=()=>dialog.close();get<HTMLFormElement>('sheet-action-form').oninput=()=>{plan=null;get('sheet-apply').textContent='重新预览';};
+   get<HTMLFormElement>('sheet-action-form').onsubmit=e=>{e.preventDefault();if(!current||ioBusy)return;try{if(plan){current=commitSheetAction(current,plan);plan=null;dialog.close();render();say('动作已应用；'+(auto?'正在自动保存。':'尚未保存，请保存到本机或导出。'));if(auto)void save();return;}const data=new FormData(e.currentTarget as HTMLFormElement);const readCoins=(prefix:string)=>({cp:Number(data.get(`${prefix}-cp`)),sp:Number(data.get(`${prefix}-sp`)),ep:Number(data.get(`${prefix}-ep`)),gp:Number(data.get(`${prefix}-gp`)),pp:Number(data.get(`${prefix}-pp`))});let request:SheetAction;
+    if(kind==='journal-activity')request=readJournalActivity(e.currentTarget as HTMLFormElement,campaignGrowth(current).calendar!.minutesPerDay);
+    else if(kind.startsWith('growth-'))request=readGrowthAction(e.currentTarget as HTMLFormElement,campaignGrowth(current),kind);
+    else if(kind==='initialize'){if(data.get('confirmed')!=='on')throw new Error('Confirm actual HP.');request={type:'character.initializeLife',currentHp:Number(data.get('amount')),confirmed:true};}
+    else if(kind==='damage'){const entry=data.get('entry');request={type:'character.takeDamage',amount:Number(data.get('amount')),cause:String(data.get('reason')),...entry?{sameBlowEntryRule:entry as 'strict-zero'|'allow-minus-three'}:{}};}
+    else if(kind==='defense'){if(data.get('confirmed')!=='on')throw new Error('Confirm actual equipment.');request={type:'character.equipDefense',selection:{armorItemId:String(data.get('armor')??'')||null,shieldItemId:String(data.get('shield')??'')||null,ordinaryEquipmentConfirmed:true,note:'团桌已确认普通装备的实际穿戴状态；不结算穿脱时间或手部占用。'}};}
+    else if(kind==='heal')request={type:'character.heal',amount:Number(data.get('amount')),description:String(data.get('reason'))};
+    else if(kind==='prepare')request={type:'character.prepareSpells',facts:readPreparationFacts(e.currentTarget as HTMLFormElement,campaignSheet(current))};
+    else if(kind==='item')request={type:'character.useItem',itemId:selectedId,quantity:Number(data.get('amount')),reason:String(data.get('reason'))};
+     else if(kind==='wealth-income')request={type:'character.receiveWealth',walletId:String(data.get('walletId')),coins:readCoins('income'),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};
+     else if(kind==='wealth-expense')request={type:'character.spendWealth',walletId:String(data.get('walletId')),amountCp:Number(data.get('amountCp')),tender:readCoins('tender'),change:readCoins('change'),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};
+     else if(kind==='item-relocate')request={type:'character.relocateItem',itemId:selectedId,destinationLocationId:String(data.get('destinationLocationId')),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};
+     else if(kind==='item-unpack')request={type:'character.unpackItem',itemId:selectedId,bundleCount:Number(data.get('bundleCount')),pieceInstanceId:crypto.randomUUID(),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};
+    else {if(data.get('confirmed')!=='on')throw new Error('Confirm actual casting.');request={type:'character.castSpell',copyId:selectedId,componentsConfirmed:true,outcome:String(data.get('outcome')??''),...campaignSheet(current).calendar?{atMinute:readGameMinute(data,'cast',campaignSheet(current).calendar!.minutesPerDay)}:{}};}
+    plan=previewSheetAction(current,request,{id:crypto.randomUUID(),actorId:'local-table-player',at:new Date().toISOString()});get('sheet-preview').textContent=plan.changes.join('；');get('sheet-apply').textContent='确认应用';
+  }catch(error){plan=null;const rawMessage=(error as Error).message;const message=kind==='journal-activity'&&/overlap/i.test(rawMessage)?'该时段与已记录活动重叠，须先处理实际兼容性或例外裁定。本次没有应用，也没有自动结束旧活动。':rawMessage;get('sheet-preview').textContent=/[\u4e00-\u9fff]/.test(message)&&message.length<240&&!message.startsWith('[')?message:'当前规则条件不满足，本次没有应用。请核对数量、生命状态、准备副本或战役采用；复杂情况转团务工具处理。';}};
+  window.addEventListener('beforeunload',event=>{if(current&&current!==saved){event.preventDefault();event.returnValue='';}});
+  void refresh().then(()=>{const params=new URLSearchParams(location.search),characterId=params.get('character'),branchId=params.get('branch');if(!characterId||!branchId)return;const index=slots.findIndex(s=>s.characterId===characterId&&s.branchId===branchId);if(index<0){say('找不到指定的本地角色分支；没有创建替代角色，请检查原浏览器或导入备份。',true);return;}get<HTMLSelectElement>('sheet-library').value=String(index);get<HTMLButtonElement>('sheet-load').click();});
+}

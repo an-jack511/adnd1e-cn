@@ -2,6 +2,7 @@ import { parseCoreAdmissionArchive } from '../workflows/core-admission';
 import { parseCoreCreation } from '../workflows/core-create';
 import { evaluateCoreEligibility } from '../engine/core-eligibility';
 import { coreAbilityIds, coreEligibilityPack } from '../rules/core-eligibility';
+import { renderRuleSources } from './source-links';
 
 export function startCoreArchive(){
   const status=document.getElementById('archive-status')!,host=document.getElementById('archive-character')!;
@@ -18,7 +19,12 @@ export function startCoreArchive(){
       const attributes=document.createElement('dl');
       for(const id of coreAbilityIds){const term=document.createElement('dt'),value=document.createElement('dd');term.textContent=id;value.textContent=`${eligibility.adjustedScores[id]}（生成值 ${creation.generation.scores[id]}）`;attributes.append(term,value);}fragment.append(attributes);
       const admission=document.createElement('p');admission.textContent=`准入：${creation.admission!.actorId} · ${creation.admission!.at} · ${creation.admission!.scope}`;fragment.append(admission);
-      for(const task of creation.tasks){const section=document.createElement('section'),heading=document.createElement('h3'),note=document.createElement('p');heading.textContent=`${task.id} · ${task.status}`;note.textContent=task.note;section.append(heading,note);if(task.facts){const details=document.createElement('details'),summary=document.createElement('summary'),pre=document.createElement('pre');summary.textContent='事实、计算过程与裁定';pre.textContent=JSON.stringify(task.facts,null,2);details.append(summary,pre);section.append(details);}const sources=document.createElement('p');sources.textContent=`来源：${task.sourceIds.join('；')}`;section.append(sources);fragment.append(section);}
+      for(const task of creation.tasks){
+        const section=document.createElement('section'),heading=document.createElement('h3'),note=document.createElement('p');
+        heading.textContent=`${task.id} · ${task.status}`;note.textContent=task.note;section.append(heading,note);
+        if(task.facts){const details=document.createElement('details'),summary=document.createElement('summary'),pre=document.createElement('pre');summary.textContent='事实、计算过程与裁定';pre.textContent=JSON.stringify(task.facts,null,2);details.append(summary,pre);section.append(details);}
+        const sources=document.createElement('div');renderRuleSources(sources,task.sourceIds);section.append(sources);fragment.append(section);
+      }
       host.replaceChildren(fragment);status.textContent='已校验准入档案并重新计算资格与属性。此页展示一级创建记录；战役中的后续变化需使用运营档案流程。';
     }catch(error){status.textContent=`档案未替换：${(error as Error).message}`;}
   });

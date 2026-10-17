@@ -10,6 +10,27 @@ tests.push('test-core-creation-lifecycle.ts');
 tests.push('test-core-creation-storage.ts');
 tests.push('test-core-divine-creation.ts');
 tests.push('test-core-all-career-advancement.ts');
+tests.push('test-core-calendar.ts');
+tests.push('test-core-combat-defense.ts');
+tests.push('test-campaign-preparation.ts');
+tests.push('test-core-growth-checklist.ts');
+tests.push('test-core-campaign-storage.ts');
+tests.push('test-core-relationship-operations.ts','test-core-training-restart.ts');
+tests.push('test-core-heal-convalescence.ts');
+tests.push('test-core-editor-io.ts');
+tests.push('test-character-prototype.ts','test-campaign-sheet-actions.ts');
+tests.push('test-core-training-stage.ts');
+tests.push('test-core-overrun-training.ts');
+tests.push('test-core-dated-training.ts');
+tests.push('test-core-activity-consequences.ts');
+tests.push('test-core-rest-history.ts');
+tests.push('test-core-training-location.ts');
+tests.push('test-campaign-growth.ts');
+tests.push('test-growth-independent-p2.ts');
+tests.push('test-campaign-journal.ts','test-journal-activity-actions.ts');
+tests.push('test-journal-independent-privacy.ts');
+tests.push('test-core-arcane-creation.ts','test-core-creation-entry.ts');
+tests.push('test-creation-independent-entry.ts');
 // Implemented sidecars join the executable suite without pretending absent modules passed.
 for(const name of ['test-core-eligibility-data.ts','test-core-progression-data.ts','test-character-archive.ts']){
   if(existsSync(resolve(root,'scripts',name)))tests.push(name);else console.log('PENDING module test:',name);

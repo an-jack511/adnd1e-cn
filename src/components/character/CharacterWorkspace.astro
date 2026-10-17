@@ -1,0 +1,104 @@
+---
+import '../../styles/character-prototype.css';
+
+interface Props {
+  page: 'sheet' | 'growth' | 'journal';
+}
+
+const { page } = Astro.props;
+const title = { sheet: '我的角色', growth: '角色成长', journal: '战役记录' }[page];
+const navigation = [
+  { page: 'create', href: '/character/create/', label: '创建角色', transition: true },
+  { page: 'sheet', href: '/character/sheet/', label: '我的角色', transition: false },
+  { page: 'growth', href: '/character/growth/', label: '角色成长', transition: false },
+  { page: 'journal', href: '/character/journal/', label: '战役记录', transition: false },
+];
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title} · 正式档案工作区</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body data-character-page={page}>
+    <a class="skip" href="#real-sheet">跳至角色工作区</a>
+    <div class="folio-shell">
+      <aside class="folio-nav">
+        <a class="wordmark" href="/">AD&D <span>FIRST EDITION · 中文参考</span></a>
+        <div class="nav-caption">人物与战役 · 逐步接入</div>
+        <nav aria-label="角色主导航">
+          {navigation.map(item => (
+            <a
+              href={item.href}
+              class:list={{ active: item.page === page }}
+              aria-current={item.page === page ? 'page' : undefined}
+              data-workspace-link={!item.transition ? true : undefined}
+            >
+              {item.label}{item.transition && <small>（过渡）</small>}
+            </a>
+          ))}
+        </nav>
+        <div class="nav-foot"><p>共用现有本地角色数据库，不建立第二套角色库。</p></div>
+      </aside>
+      <div class="folio-main">
+        <header class="workbar">
+          <span>{title} · 正式档案工作区</span>
+          <div>
+            <button type="button" id="sheet-switch" disabled>切换角色</button>
+            <label class="file-button">打开角色文件<input type="file" id="sheet-file" accept="application/json,.json" /></label>
+            <button id="sheet-save" disabled>保存到本机</button>
+            <button id="sheet-recovery" disabled>历史恢复</button>
+            <button id="sheet-export" disabled>导出角色</button>
+          </div>
+        </header>
+        <details class="prototype-notice">
+          <summary>正式档案接入预览 · 支持范围与备份提醒</summary>
+          <p>正式档案接入预览，不是虚构演示。支持现有单职业核心准入／运营档；本机保存后日常动作自动保存，仍需定期导出。战役记录按公开字段展示已记录活动；研究、制造、据点等长期活动尚未完整接入，不自动产生收益。复杂生命流程及未接入操作暂使用折叠区的高级团务工具。创建角色暂使用现有向导。</p>
+        </details>
+        <section class="paper-section" aria-label="本地角色">
+          <label>已保存的角色<select id="sheet-library"><option value="">正在查找本地角色…</option></select></label>
+          <button id="sheet-load">打开所选角色</button>
+        </section>
+        <main id="real-sheet" tabindex="-1">
+          <div class="page-heading">
+            <p class="eyebrow">正式档案 · {title}</p>
+            <h1>{title}</h1>
+            <p>选择已有本地角色，或导入现有准入／运营文件。不会把旧手工表猜成合法角色。</p>
+          </div>
+        </main>
+        <p id="sheet-status" class="app-status" role="status" aria-live="polite"></p>
+        <details>
+          <summary>范围、隐私与高级工具</summary>
+          <p>角色保存在当前浏览器的本地数据库中，人物卡、成长与战役记录共用现有档案。请定期导出文件备份；清理浏览器数据或更换浏览器后，本地角色可能不可用。</p>
+          <p>实际治疗只处理正HP、已确认的效果量，不推算自然恢复或解除休养。攻击／豁免只显示核心单职业原表；AC仅处理明确确认的普通装备，不结算本次战斗情境。普通法术准备已接入现有账本及明确战役日历；中断、例外、高环完整神术清单和通用纠错仍需补齐。DM本地模式不是身份认证。查看只读取公开字段；完整运营导出仍可能含原始审核信息，仅分享给有权查看的人。</p>
+          <ul class="plain-list">
+            <li><a href="/character/operations/">高级团务工具（旧版操作入口）→</a></li>
+            <li><a href="/character/review/">DM 本地审核工具 →</a></li>
+            <li><a href="/dm/">DM 参考资料 →</a></li>
+            <li><a href="/character/prototype/">设计原型（虚构角色演示）→</a></li>
+            <li><a href="/character/import/">未知格式与原件隔离检查 →</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+    <dialog id="sheet-action" aria-labelledby="sheet-action-title">
+      <form id="sheet-action-form">
+        <p class="eyebrow">规则动作 · 实际档案</p>
+        <h2 id="sheet-action-title"></h2>
+        <div id="sheet-fields"></div>
+        <div id="sheet-preview" class="action-preview" role="status"></div>
+        <div class="dialog-actions">
+          <button type="button" id="sheet-cancel">取消</button>
+          <button type="submit" class="primary" id="sheet-apply">预览结果</button>
+        </div>
+      </form>
+    </dialog>
+    <noscript>角色工作区需要启用 JavaScript 才能打开和操作本地档案。规则书目录仍可直接阅读。</noscript>
+    <script>
+      import { startCampaignSheet } from '../../character/ui/campaign-sheet-controller';
+      startCampaignSheet();
+    </script>
+  </body>
+</html>

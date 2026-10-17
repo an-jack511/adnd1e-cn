@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import {admittedCoreCharacter} from './fixtures/admitted-core-character';
+import {parseCoreCreation} from '../src/character/workflows/core-create';
+import {campaignFromCreatedCharacter,enterCreatedCharacter,admitCoreCreationForCampaign} from '../src/character/workflows/core-creation-entry';
+import {saveCoreCampaign,type CoreCampaignStoragePort} from '../src/character/workflows/core-campaign-storage';
+import {campaignSheet} from '../src/character/application/campaign-sheet';
+
+const source=admittedCoreCharacter('fighter'),document=parseCoreCreation(source.genesis.runtime.transaction.facts.modules[0].data);
+const archive=campaignFromCreatedCharacter(document);
+assert.equal(archive.runtime.transaction.characterId,document.id);
+assert.equal(archive.runtime.transaction.branchId,'main');assert.equal(archive.actions.length,0);
+assert.equal(campaignSheet(archive).life,null,'handoff does not fabricate actual current HP');
+assert.equal(campaignSheet(archive).defenseSelection,null,'handoff does not equip best carried armor');
+const raw=JSON.stringify(document),data=new Map<string,string>();
+const port:CoreCampaignStoragePort={getItem:key=>data.get(key)??null,compareAndSet:(key,expected,next)=>{if((data.get(key)??null)!==expected)return false;data.set(key,next);return true;}};
+const saved=await enterCreatedCharacter(document,async(slot,value,expected)=>{assert.equal(expected,null);return saveCoreCampaign(port,slot,value,expected);});
+assert.match(saved.url,/\/character\/sheet\/\?character=/);assert.equal(new URL(saved.url,'https://test.invalid').searchParams.get('character'),document.id);
+const original=[...data.entries()];
+await assert.rejects(()=>enterCreatedCharacter(document,async(slot,value,expected)=>saveCoreCampaign(port,slot,value,expected)),/未覆盖/);
+assert.deepEqual([...data.entries()],original,'repeated admission cannot overwrite a campaign slot, even identical genesis');
+await assert.rejects(()=>enterCreatedCharacter(document,async()=>({status:'failed',reason:'quota unavailable'})),/仍保留/);
+assert.equal(JSON.stringify(document),raw,'failed/successful persistence does not mutate source creation');
+const pending=parseCoreCreation({...structuredClone(document),admission:null});
+assert.throws(()=>campaignFromCreatedCharacter(pending),/准入/);
+const admitted=admitCoreCreationForCampaign(pending,{actorId:'actual-dm',scope:'actual-campaign',at:'recorded review'});assert.equal(admitted.status,'admitted');
+assert.equal(admitted.id,document.id);
+console.log('PASS: current creation admission -> same-ID formal campaign -> same local library writer, no automatic HP/equipment, reject pending and duplicate slots, quota failure preserves source.');

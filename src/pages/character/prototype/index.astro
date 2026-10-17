@@ -1,0 +1,17 @@
+---
+import '../../../styles/character-prototype.css';
+---
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex"/><title>角色工作区 · AD&D 1e 设计原型</title></head><body>
+<a class="skip" href="#workspace">跳至人物工作区</a>
+<div class="folio-shell">
+  <aside class="folio-nav"><a class="wordmark" href="/">AD&D <span>FIRST EDITION · 中文参考</span></a><div class="nav-caption">人物与战役</div><nav aria-label="角色主导航"><a href="#create" data-view="create"><span>01</span> 创建角色</a><a href="#sheet" data-view="sheet"><span>02</span> 我的角色</a><a href="#growth" data-view="growth"><span>03</span> 角色成长</a><a href="#journal" data-view="journal"><span>04</span> 战役记录</a></nav><div class="nav-foot"><a href="/character/">现有角色工具 ↗</a><a href="/books/">规则书目录 ↗</a><p>规则可重组，不能悄悄改写。</p></div></aside>
+  <div class="folio-main"><header class="workbar"><span>CHARACTER WORKSPACE <b>设计评审 · A</b></span><div><button id="export-prototype">导出演示</button><label class="file-button">打开演示<input id="import-prototype" type="file" accept=".json,application/json"/></label><button id="reset-prototype">重置</button></div></header>
+  <div class="prototype-notice">交互设计原型 · 仅使用虚构角色，不写入现有角色库。刷新会丢失未导出演示；计算复用现有引擎，不等于完成 RAW 准入。</div>
+  <main id="workspace" tabindex="-1"></main><p id="app-status" class="app-status" role="status" aria-live="polite">演示已就绪，尚未保存到浏览器。</p>
+  </div>
+</div>
+<dialog id="action-dialog" aria-labelledby="action-title"><form id="action-form"><p class="eyebrow">角色动作 · 结果预览</p><h2 id="action-title"></h2><div id="action-fields"></div><div id="action-preview" class="action-preview" role="status"></div><div class="dialog-actions"><button type="button" id="cancel-action">取消</button><button type="submit" class="primary" id="confirm-action">预览结果</button></div></form></dialog>
+<dialog id="source-dialog" aria-labelledby="source-title"><h2 id="source-title">规则与实现边界</h2><div id="source-content"></div><button id="close-source">返回角色</button></dialog>
+<noscript>交互原型需要启用 JavaScript。规则书目录仍可直接阅读。</noscript>
+<script>import { startPrototype } from '../../../character/prototype/controller';startPrototype();</script>
+</body></html>

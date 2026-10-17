@@ -26,13 +26,18 @@ export function startCoreCandidate(){
   let savedBase:ReturnType<typeof selectCoreCandidate>|null=null;
   function refreshSaved(){try{get<HTMLSelectElement>('core-saved').replaceChildren(new Option('选择浏览器保存的进度',''),...readCoreCreationLibrary(localStorage).map(doc=>new Option(`${doc.name||'未命名'} · r${doc.revision}`,doc.id)));}catch(error){message((error as Error).message,true);}}
   refreshSaved();
-  get('core-save-local').addEventListener('click',async()=>{try{
+  async function saveCurrentCreation(){
     if(!evaluated)throw new Error('请先检查或导入创建进度。');
     if(!navigator.locks)throw new Error('浏览器不支持跨页保存锁，请导出文件备份。');
     const snapshot=structuredClone(evaluated),base=savedBase;
     await navigator.locks.request('adnd1e-core-creation-library',()=>saveCoreCreationLibrary(localStorage,snapshot,base));
-    savedBase=snapshot;refreshSaved();message('已保存本地创建进度，建议同时导出文件备份。');
-  }catch(error){message((error as Error).message,true);}});
+    savedBase=snapshot;refreshSaved();
+    if(JSON.stringify(evaluated)!==JSON.stringify(snapshot))throw new Error('上一快照已保存，但刚才又有新进度；请再次保存后继续，不会跳转丢失修改。');
+    return snapshot;
+  }
+  get('core-save-local').addEventListener('click',async()=>{try{await saveCurrentCreation();message('已保存本地创建进度，建议同时导出文件备份。');}catch(error){message((error as Error).message,true);}});
+  let sendingForReview=false;
+  get('core-send-review')?.addEventListener('click',async()=>{if(sendingForReview)return;sendingForReview=true;try{const snapshot=await saveCurrentCreation();location.assign(`/character/review/?${new URLSearchParams({creation:snapshot.id})}`);}catch(error){message((error as Error).message,true);sendingForReview=false;}});
   get('core-load-local').addEventListener('click',()=>{try{
     const selected=readCoreCreationLibrary(localStorage).find(doc=>doc.id===get<HTMLSelectElement>('core-saved').value);if(!selected)throw new Error('请选择本地创建进度。');
     if(evaluated)throw new Error('当前有打开的创建进度，请先导出备份，再刷新页面加载。');

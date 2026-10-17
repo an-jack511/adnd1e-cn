@@ -1,0 +1,47 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {inspectArchive} from '../src/character/interchange/archive';
+import {createPrototype,previewAction,validatePrototype,gearCost} from '../src/character/prototype/model';
+import {generate,evaluate,totals,deterministicChoices} from '../src/character/creation/engine';
+import {methods} from '../src/character/creation/model';
+import {lowLevelMuCombat as combat} from '../src/character/rules/core-mu-low-level-combat';
+assert.equal(combat.armorClasses.length,combat.attackTargets.length);
+assert.deepEqual(combat.attackTargets.slice(6,12),[20,20,20,20,20,20]);
+assert.deepEqual(combat.saves.map(s=>s.target),[14,13,11,15,12]);
+const designExample=inspectArchive(readFileSync(new URL('../docs/character-redesign/example-fighter-v1.1.json',import.meta.url),'utf8'));
+assert.equal(designExample.kind,'full-candidate');
+assert.equal(designExample.validation.structure,'passed');
+assert.equal(designExample.validation.rulesValidated,false,'structural example is NOT a certified playable archive');
+
+for(const method of methods){
+  const batch=generate(method,()=>4,'test-'+method,'fixture');
+  const choices=deterministicChoices(batch)??[0,1,2,3,4,5];
+  assert.deepEqual(Object.values(evaluate(batch,choices)),[12,12,12,12,12,12]);
+}
+const two=generate('DMG:II',()=>4,'fixture-ii','fixture');two.candidates[11]=[6,6,6];
+assert.throws(()=>evaluate(two,[0,1,2,3,4,5]),/最高/);
+assert.equal(totals(two)[11],18);
+let s=createPrototype();assert.equal(gearCost,866);assert.equal(s.cp,11134);assert.equal(s.maximumHp,4);
+const frozen=JSON.stringify(s),preview=previewAction(s,{kind:'damage',amount:2});
+assert.equal(JSON.stringify(s),frozen,'preview must not mutate input');assert.equal(preview.next.hp,2);
+assert.throws(()=>previewAction(s,{kind:'damage',amount:4}),/零 HP/);
+assert.equal(JSON.stringify(s),frozen,'failed action must be atomic');
+s=preview.next;s=previewAction(s,{kind:'heal',amount:20}).next;assert.equal(s.hp,4);
+s=previewAction(s,{kind:'cast'}).next;assert.equal(s.prepared,null);assert.throws(()=>previewAction(s,{kind:'cast'}),/没有/);
+s=previewAction(s,{kind:'use-item'}).next;assert.equal(s.gear.find(i=>i.id==='torch')?.quantity,5);
+assert.throws(()=>previewAction(s,{kind:'train'}),/2501/);
+s=previewAction(s,{kind:'settle',amount:2501,gp:1600}).next;assert.equal(s.level,1);assert.equal(s.xp,2501);
+assert.throws(()=>previewAction(s,{kind:'settle',amount:1,gp:1}),/停止/);
+s=previewAction(s,{kind:'train'}).next;assert.equal(s.cp,31134);assert.equal(s.level,1);
+assert.throws(()=>previewAction(s,{kind:'level',roll:3}),/先完成/);
+s=previewAction(s,{kind:'advance-time'}).next;assert.equal(s.day,8);assert.equal(s.level,1);
+s=previewAction(s,{kind:'level',roll:3}).next;assert.equal(s.level,2);assert.equal(s.maximumHp,7);assert.equal(s.hp,4);assert.equal(s.prepared,null);
+const beforeResearch=structuredClone(s);s=previewAction(s,{kind:'research'}).next;
+for(const key of ['cp','day','hp','maximumHp','xp','level','spells','prepared'] as const)assert.deepEqual(s[key],beforeResearch[key]);
+assert.deepEqual(validatePrototype(JSON.parse(JSON.stringify(s))),s);
+assert.throws(()=>validatePrototype({...s,format:'adnd1e-character'}));
+assert.throws(()=>validatePrototype({...s,schemaVersion:'99.0.0'}));
+assert.throws(()=>validatePrototype({...s,hp:0}));
+assert.throws(()=>validatePrototype({...s,gear:[...s.gear,s.gear[0]]}));
+assert.throws(()=>createPrototype('invalid',{STR:10,INT:8,WIS:11,DEX:12,CON:14,CHA:10}));
+console.log('PASS: Phase A synthetic prototype; four DMG methods, immutable previews, atomic rejection, resource consumption, gated XP/training/growth, explicit research proposal, prototype-only round trip. NOT production archive/UI certification.');

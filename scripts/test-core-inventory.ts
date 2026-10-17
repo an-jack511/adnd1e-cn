@@ -12,6 +12,8 @@ import {
   recordCoreEncumbranceRuling,
   relocateInventoryItem,
   validateCoreInventoryLedger,
+  unpackCoreInventoryBundle,
+  consumeCoreInventoryItem,
   type CoinCounts,
   type CoreInventoryLedger,
 } from '../src/character/engine/core-inventory';
@@ -86,6 +88,16 @@ assert.deepEqual(purchase.next.items.find((item) => item.id === 'arrows-1')?.wei
 });
 
 const assessment = assessCoreEncumbranceGuideline({ ledger: purchase.next, carrierLocationId: 'hero' });
+const unpacked=unpackCoreInventoryBundle({ledger:purchase.next,itemId:'arrows-1',bundleCount:1,pieceInstanceId:'single-arrows',eventId:'unpack-arrows',expectedRevision:purchase.next.revision});
+const arrows=unpacked.items.find(item=>item.id==='single-arrows')!;
+assert.equal(arrows.quantity,12);assert.equal(arrows.definitionId,null);assert.equal(arrows.bulk,'unknown');
+assert.deepEqual(arrows.weight,{kind:'approximate',unitWeightGp:2,sourceId:'phb:37:weapon-weight'});
+assert.equal(assessCoreEncumbranceGuideline({ledger:unpacked,carrierLocationId:'hero'}).knownWeightGp,assessment.knownWeightGp);
+const fired=consumeCoreInventoryItem({ledger:unpacked,itemId:'single-arrows',quantity:1,expectedRevision:unpacked.revision});
+assert.equal(fired.items.find(item=>item.id==='single-arrows')!.quantity,11);
+assert.equal(assessCoreEncumbranceGuideline({ledger:fired,carrierLocationId:'hero'}).knownWeightGp,assessment.knownWeightGp-2);
+assert.equal(unpacked.items.find(item=>item.id==='single-arrows')!.quantity,12);
+assert.throws(()=>unpackCoreInventoryBundle({ledger:purchase.next,itemId:'rope-1',bundleCount:1,pieceInstanceId:'rope-pieces',eventId:'bad-unpack',expectedRevision:purchase.next.revision}),/homogeneous/);
 assert.equal(assessment.status, 'guideline-only-needs-dm');
 assert.equal(assessment.knownWeightGp, 134, '110 equal-weight coins plus 24 gp-weight arrows');
 assert.deepEqual(assessment.knownWeightPounds, { numerator: 134, denominator: 10 });

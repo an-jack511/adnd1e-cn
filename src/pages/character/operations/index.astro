@@ -5,6 +5,17 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   <h1>角色战役结算</h1>
   <p>打开已准入的单职业核心角色，或继续已有运营档案。经验结算由 DM 记录；达到经验门槛后，等级仍需经过适用裁定与训练才能授予。</p>
   <label>准入或运营档案 <input id="operations-file" type="file" accept="application/json,.json" /></label>
+  <label>浏览器保存的角色与分支 <select id="operations-local-slots"><option value="">正在读取</option></select></label>
+  <button id="operations-local-load" type="button">加载本地运营档案</button>
+  <button id="operations-local-save" type="button" disabled>保存本地运营档案</button>
+  <p id="operations-storage-status" aria-live="polite">尚未打开档案。</p>
+  <p id="operations-storage-notice" role="status"></p>
+  <details><summary>历史备份与原件保全</summary>
+    <label>已保存的历史版本 <select id="operations-local-history"></select></label>
+    <button id="operations-history-export" type="button" disabled>导出选定历史，不覆盖当前档案</button>
+    <button id="operations-raw-export" type="button" disabled>导出无法识别的存储原件</button>
+    <p>最多保留五个历史快照。恢复会导出独立候选文件，不将当前分支倒退。浏览器保存之外请保留文件备份。</p>
+  </details>
   <h2 id="operations-summary">尚未打开角色</h2>
   <label>DM 身份 <input id="operations-actor" /></label>
   <label>战役时间 <input id="operations-at" placeholder="例如 CY576 第42日" /></label>
@@ -16,7 +27,17 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     <button id="operations-xp" type="button" disabled>记录经验结算</button>
   </fieldset>
   <button id="operations-open" type="button" disabled>检查并开启升级候选</button>
+  <details id="operations-overrun"><summary>单批经验跨多门槛：明确记录本团采用解释</summary>
+    <p id="operations-overrun-summary">此入口不发放经验或等级。</p>
+    <p>若已经完成一次授级，实际经验仍达到下一等级，而评价已结算，可由 DM 采用“复用上一课程完整真实冒险评价集合”的后续训练依据。这不是原书已唯一封口的处理；不增加或削减 XP，不伪造新冒险，也不免除下一次训练及职业门槛。须全选核对列出的评价，不能只取较好的评级。</p>
+    <label>上一课程的完整历史冒险评价（须全选）<select id="operations-overrun-assessments" multiple></select></label>
+    <label>本团采用解释与选取理由<textarea id="operations-overrun-reason"></textarea></label>
+    <label><input id="operations-overrun-confirm" type="checkbox" /> DM 明确采用上述解释，不将其标记为唯一 RAW</label>
+    <button id="operations-overrun-basis" type="button" disabled>记录后续训练的评价依据，不改变 XP</button>
+  </details>
   <fieldset><legend>训练与等级授予 · DMG p.86</legend>
+    <p id="operations-stage-summary">按当前已取得等级及职业名号判定训练阶段，不按拟升级等级提前切换。</p>
+    <div id="operations-stage-sources"></div>
     <p id="operations-training-summary">先打开角色档案。</p>
     <label>裁定理由（门槛、费用例外或中断）<textarea id="operations-reason"></textarea></label>
     <button id="operations-gate" type="button" disabled>记录 DM 升级门槛裁定</button>
@@ -34,18 +55,115 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     <div class="coins">{['cp','sp','ep','gp','pp'].map(coin=><label>找零 {coin}<input id={`operations-change-${coin}`} type="number" min="0" step="1" value="0" /></label>)}</div>
     <button id="operations-pay" type="button" disabled>付款并扣除钱包钱币</button>
     <button id="operations-start" type="button" disabled>开始连续训练</button>
+    <details><summary>战役日历单位（首次确认后固定）</summary>
+      <label>每天分钟数 <input id="operations-day-minutes" type="number" min="1" step="1" value="1440" /></label>
+      <label>每周天数 <input id="operations-week-days" type="number" min="1" step="1" value="7" /></label>
+      <button id="operations-calendar" type="button" disabled>确认本角色战役日历单位</button>
+    </details>
+    <label>训练开始：战役第几天 <input id="operations-training-day" type="number" min="1" step="1" value="1" /></label>
+    <label>当天已过分钟 <input id="operations-training-minute" type="number" min="0" step="1" value="0" /></label>
+    <label>训练地点 <input id="operations-training-location" /></label>
     <label>连续训练周数分子 <input id="operations-weeks-n" type="number" min="1" step="1" value="1" /></label>
     <label>连续训练周数分母 <input id="operations-weeks-d" type="number" min="1" step="1" value="1" /></label>
     <label><input id="operations-continuous" type="checkbox" />DM 确认此段属于未中断的训练</label>
     <button id="operations-segment" type="button" disabled>记录连续训练时间</button>
     <button id="operations-interrupt" type="button" disabled>记录严重中断</button>
+    <button id="operations-restart-training" type="button" disabled>中断后重新安排训练（旧款及进度不返还）</button>
+    <details><summary>旧课程进度的时间对账（不重复增加进度）</summary>
+      <p>仅对已记录但尚无日历占用的本次课程片段使用。先在上方填写实际开始日、日内分钟和地点；按原分数周数建立时间事实，不退费、不重新累计训练。</p>
+      <label>待对账片段<select id="operations-reconcile-segment"></select></label>
+      <label>DM 实际时间与地点依据<textarea id="operations-reconcile-reason"></textarea></label>
+      <button id="operations-reconcile-training" type="button" disabled>给已有进度补记日历事实</button>
+    </details>
+    <p id="operations-legacy-training"></p>
+    <p id="operations-training-coverage">授级需要本课程完整的日历占用。</p>
+    <details><summary>连续训练的跨地点事实核对</summary>
+      <p id="operations-location-summary">先记录本课程的实际时间与地点。</p>
+      <label>相接片段的地点边界<select id="operations-location-boundary"></select></label>
+      <label>实际情形<select id="operations-location-method"><option value="same-physical-place">两个地点标识实际指同一物理地点</option><option value="instantaneous-movement">已有依据的瞬时移动（不自动施法）</option></select></label>
+      <label>实际移动/地点认定依据<textarea id="operations-location-reason"></textarea></label>
+      <label>事实来源标识<input id="operations-location-source" placeholder="session:movement:42" /></label>
+      <label><input id="operations-location-confirm" type="checkbox" /> DM 确认该实际情形没有中断本课程；普通旅行不能在这里伪装为瞬移</label>
+      <button id="operations-location-record" type="button" disabled>记录实际地点边界，不增加训练时间</button>
+    </details>
+    <label>实际授级：战役第几日<input id="operations-award-day" type="number" min="1" step="1" /></label>
+    <label>授级日内分钟<input id="operations-award-minute" type="number" min="0" step="1" value="0" /></label>
     <label>升级 HP 原始骰面（逗号分隔；无新生命骰时留空）<input id="operations-hp" /></label>
     <button id="operations-award" type="button" disabled>授予等级与 HP 增量</button>
   </fieldset>
   <button id="operations-export" type="button" disabled>导出运营事件档案</button>
+  <fieldset><legend>物资使用与携带位置</legend>
+    <p>数量按档案中的库存单位计算。同质的一打或一组弹药可先拆成单件；一周口粮与混合包装仍需单独处理，不能把一包直接当成一天口粮。</p>
+    <label>物品实例 <select id="operations-item"></select></label>
+    <label>使用或损失数量 <input id="operations-item-quantity" type="number" min="1" step="1" value="1" /></label>
+    <label>目标携带位置 <select id="operations-item-location"></select></label>
+    <label>操作来源 <input id="operations-item-source" placeholder="session:resource-use:42" /></label>
+    <label>使用、损失或移动说明 <textarea id="operations-item-reason"></textarea></label>
+    <button id="operations-consume" type="button" disabled>记录使用或损失</button>
+    <button id="operations-unpack" type="button" disabled>将所填数量的同质整包拆成单件</button>
+    <button id="operations-relocate" type="button" disabled>记录携带位置变化</button>
+    <p id="operations-burden"></p>
+  </fieldset>
   <p id="operations-status" role="status" aria-live="polite">尚未打开档案。</p>
   <details><summary>成长事实与待办</summary><pre id="operations-state"></pre></details>
-  <p>训练过程保留付款、时间与 DM 裁定。名号训练的适用阶段与费用族须由 DM 填写理由确认。多人签名、日历占用及其他战役活动仍在接入中。</p>
+  <section aria-label="职业成长待办"><h2>职业成长待办</h2><p>以下按当前等级重新计算。新能力与容量不会自动生成法术、熟练选择、随从或据点。</p><div id="operations-growth"></div></section>
+  <fieldset><legend>已准备法术</legend>
+    <p id="operations-spell-summary">打开角色后显示可用准备副本。</p>
+    <label>准备副本 <select id="operations-spell-copy"></select></label>
+    <label>组件与情境 <select id="operations-spell-components"><option value="needs-dm">待 DM 确认</option><option value="satisfied">已确认满足</option><option value="not-required">此情况不要求组件（须说明）</option></select></label>
+    <label>DM 确认理由 <textarea id="operations-spell-reason"></textarea></label>
+    <label>已裁定的效果记录 <textarea id="operations-spell-outcome"></textarea></label>
+    <button id="operations-cast" type="button" disabled>记录施放并消耗所选副本</button>
+    <p>材料物品消耗、打断与战斗时机仍须对应团桌裁定；此操作不会自动命中、造成伤害、补回法术或从物资中扣除组件。</p>
+  </fieldset>
+  <fieldset><legend>生命状态 · DMG p.82</legend>
+    <p id="operations-life-summary">尚未确认生命状态。</p>
+    <details><summary>历次完整休养的完成证明</summary><p>这里保留各次历史完成声明及当时检查策略，不代表后补事实已经复查。请同时查看活动后果面板；Heal 解除禁令不等于休满一周。</p><div id="operations-rest-history"></div></details>
+    <label>确认当前 HP <input id="operations-life-hp" type="number" step="1" /></label>
+    <label>确认理由或伤害原因 <textarea id="operations-life-reason"></textarea></label>
+    <button id="operations-life-initialize" type="button" disabled>首次确认当前 HP</button>
+    <button id="operations-life-settle" type="button" disabled>解决待裁定的当前 HP</button>
+    <label>本次伤害 <input id="operations-life-damage" type="number" min="1" step="1" /></label>
+    <label>同一击进入负 HP 的战役规则 <select id="operations-life-policy"><option value="">尚未裁定</option><option value="strict-zero">严格零 HP</option><option value="allow-minus-three">采用同一击可至 -3 的可选规则</option></select></label>
+    <button id="operations-life-hit" type="button" disabled>记录伤害</button>
+    <button id="operations-life-round" type="button" disabled>推进一个无人援助回合</button>
+    <button id="operations-life-aid" type="button" disabled>记录友方援助</button>
+    <details><summary>零 HP 苏醒与恢复期</summary>
+      <p>先在“确认当前 HP”填写实际治疗后的 HP，在原因中确认昏迷已经历完。这里不自动施放法术或扣除药水。</p>
+      <label>实际治疗来源 <input id="operations-life-heal-source" /></label>
+      <label>昏迷时长的 d6 骰面 <input id="operations-life-coma" type="number" min="1" max="6" step="1" /></label>
+      <label>昏迷结束后休养开始日 <input id="operations-life-rest-day" type="number" min="1" step="1" value="1" /></label>
+      <label>休养开始日内分钟 <input id="operations-life-rest-minute" type="number" min="0" step="1" value="0" /></label>
+      <label>休养地点 <input id="operations-life-rest-location" /></label>
+      <button id="operations-life-recover" type="button" disabled>记录苏醒并安排最低恢复期</button>
+      <label>休养中断/重新开始的事实来源<input id="operations-life-rest-restart-source" /></label>
+      <button id="operations-life-rest-restart" type="button" disabled>按上方日期地点重新开始完整休养（不加 HP）</button>
+      <label>已完成休养至战役第几日 <input id="operations-life-finish-day" type="number" min="1" step="1" /></label>
+      <label>完成日内分钟 <input id="operations-life-finish-minute" type="number" min="0" step="1" value="0" /></label>
+      <button id="operations-life-finish" type="button" disabled>确认最低休养已完成</button>
+      <p>若实际受到 Heal，可在上方填写其生效日期，以 DMG p.82 的明确例外解除本次禁令。这里只结算禁令，不自动恢复 HP、消耗施法者副本或解除其他复活限制。</p>
+      <label>Heal 生效记录标识（本地或外部战役记录）<input id="operations-life-heal-evidence" /></label>
+      <label><input id="operations-life-heal-confirm" type="checkbox" /> DM 确认本人物实际受到 Heal；不是一般 cure 或药水</label>
+      <button id="operations-life-heal-exception" type="button" disabled>以 Heal 解除本次零 HP 休养禁令</button>
+    </details>
+    <p>援助只停止继续恶化，不会自动治疗、苏醒或解除恢复期。复活与永久变化的完整操作仍在接入中。</p>
+  </fieldset>
+  <fieldset><legend>取得新增武器熟练</legend>
+    <label>具体武器 <select id="operations-new-weapon"></select></label>
+    <label>DM 取得条件确认 <textarea id="operations-weapon-reason"></textarea></label>
+    <button id="operations-learn-weapon" type="button" disabled>记录新的武器熟练</button>
+  </fieldset>
+  <fieldset><legend>训练与零 HP 休养：重叠活动后果</legend>
+    <p id="operations-consequence-summary">打开档案后检查当前课程与休养。</p>
+    <label>实际活动对<select id="operations-consequence-pair"></select></label>
+    <label>处理性质<select id="operations-consequence-disposition"><option value="compatible-facts">未封口情形：DM 确认实际兼容</option><option value="rule-exception">明确采用规则例外（非 RAW）</option></select></label>
+    <label>实际情境与依据<textarea id="operations-consequence-reason"></textarea></label>
+    <label>事实来源标识<input id="operations-consequence-source" placeholder="session:activity-ruling:42" /></label>
+    <label><input id="operations-consequence-confirm" type="checkbox" /> 若采用规则例外，明确将其标记为非 RAW</label>
+    <button id="operations-consequence-adjudicate" type="button" disabled>记录后果裁定，不授级或治疗</button>
+    <p>已知禁止活动不能靠兼容说明放行。训练严重中断可使用重训入口；未核情境交由 DM 说明，不能从普通重叠备注推定连续性。</p>
+  </fieldset>
+  <p>训练过程保留付款、日历占用与 DM 裁定。名号阶段按 DMG 称号与 PHB 等级表判定；子职业及武僧的费用族采用解释仍须 DM 明确记录。多人签名、研究等活动的完整联动仍在接入中。</p>
   <p><a href="/character/">角色首页</a> · <a href="/character/archive/">一级准入档案</a></p>
   <script>import { startCoreCampaign } from '../../../character/ui/core-campaign-controller';startCoreCampaign();</script>
 </BaseLayout>

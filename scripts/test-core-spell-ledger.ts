@@ -4,6 +4,7 @@ import {
   addArcaneSource,
   assessSpellEligibility,
   castPreparedSpell,
+  castPublicPreparedSpell,
   createCoreSpellLedger,
   projectSpellLedgerForPlayer,
   recordArcaneTranscription,
@@ -126,6 +127,12 @@ assert.throws(() => recordRecoverySession(divine, {
   actualRestHours: 4, actualStudyOrPrayerMinutes: 15, interruption: 'none', preparedCapacityByLevel: { 1: 2 }, completedAt: 'tomorrow',
 }), /only one prepared copy/);
 const divineProjectionText = JSON.stringify(projectSpellLedgerForPlayer(divine));
+const visible=projectSpellLedgerForPlayer(divine);
+const pendingCast=castPublicPreparedSpell(visible,{castingId:'public-pending',preparedCopyId:'divine-prepared-1',occurredAt:'day 43',componentState:'needs-dm'});assert.equal(pendingCast.status,'needs-dm');assert.equal(pendingCast.ledger.preparedCopies[0].status,'ready');
+const publicCast=castPublicPreparedSpell(visible,{castingId:'public-cast',preparedCopyId:'divine-prepared-1',occurredAt:'day 43',componentState:'satisfied',observedOutcome:'Effect resolved separately by DM'});
+assert.equal(publicCast.status,'cast');assert.equal(publicCast.ledger.preparedCopies[0].status,'expended');assert.equal(visible.preparedCopies[0].status,'ready');
+assert.throws(()=>castPublicPreparedSpell(publicCast.ledger,{castingId:'second-public-cast',preparedCopyId:'divine-prepared-1',occurredAt:'day 43',componentState:'satisfied'}),/ready prepared copy/);
+assert.equal(JSON.stringify(publicCast.ledger).includes('secret-deity-avatar'),false);
 for (const secret of ['secret-deity-avatar', 'hidden test', 'Do not reveal', 'ruling-rest-1']) {
   assert.equal(divineProjectionText.includes(secret), false, `divine player projection leaked: ${secret}`);
 }

@@ -75,7 +75,8 @@ export interface SpellRecoverySession {
   readonly requested: readonly RecoveryRequest[];
   readonly requiredRestHours: number;
   readonly requiredStudyOrPrayerMinutes: number;
-  readonly actualRestHours: number;
+  readonly actualRestHours?: number;
+  readonly actualRestMinutes?: number;
   readonly actualStudyOrPrayerMinutes: number;
   readonly interruption: 'none' | 'possible' | 'confirmed';
   readonly status: 'planned' | 'needs-rest' | 'needs-study-or-prayer' | 'needs-dm' | 'completed';
@@ -212,16 +213,21 @@ function recoveryRequirements(requested: readonly RecoveryRequest[]) {
 }
 
 export function recordRecoverySession(ledger: CoreSpellLedger, input: {
-  readonly id: string; readonly requested: readonly RecoveryRequest[]; readonly actualRestHours: number;
+  readonly id: string; readonly requested: readonly RecoveryRequest[]; readonly actualRestHours?: number; readonly actualRestMinutes?: number;
   readonly actualStudyOrPrayerMinutes: number; readonly interruption: SpellRecoverySession['interruption'];
   /** Verified career/ability capacity by spell level; this ledger does not invent the class table. */
   readonly preparedCapacityByLevel: Readonly<Record<number, number>>;
   readonly rulingId?: string; readonly completedAt?: string;
 }): CoreSpellLedger {
-  uniqueId(ledger, input.id); nonNegative(input.actualRestHours, 'actual rest hours'); nonNegative(input.actualStudyOrPrayerMinutes, 'actual study/prayer minutes');
+  uniqueId(ledger, input.id);
+  if((input.actualRestHours===undefined)===(input.actualRestMinutes===undefined))throw new Error('Provide exactly one recorded rest duration: hours or minutes.');
+  if(input.actualRestHours!==undefined)nonNegative(input.actualRestHours,'actual rest hours');
+  if(input.actualRestMinutes!==undefined)nonNegative(input.actualRestMinutes,'actual rest minutes');
+  const actualRestMinutes=input.actualRestMinutes??input.actualRestHours!*60;
+  nonNegative(actualRestMinutes,'actual rest minutes');nonNegative(input.actualStudyOrPrayerMinutes, 'actual study/prayer minutes');
   const required = recoveryRequirements(input.requested); let status: SpellRecoverySession['status'];
   if (input.interruption !== 'none' && !input.rulingId?.trim()) status = 'needs-dm';
-  else if (input.actualRestHours < required.restHours) status = 'needs-rest';
+  else if (actualRestMinutes < required.restHours*60) status = 'needs-rest';
   else if (input.actualStudyOrPrayerMinutes < required.minutes) status = 'needs-study-or-prayer';
   else status = 'completed';
   if (status === 'completed' && !input.completedAt?.trim()) throw new Error('A completed recovery session requires completedAt.');
@@ -253,7 +259,7 @@ export function recordRecoverySession(ledger: CoreSpellLedger, input: {
     if (currentlyReady + requestedCount > capacity) throw new Error(`Prepared spell capacity exceeded at spell level ${level}.`);
   }
   const session: SpellRecoverySession = Object.freeze({ id: input.id, requested: Object.freeze(input.requested.map(request => Object.freeze({ ...request, preparedFrom: Object.freeze({ ...request.preparedFrom }) }))),
-    requiredRestHours: required.restHours, requiredStudyOrPrayerMinutes: required.minutes, actualRestHours: input.actualRestHours,
+    requiredRestHours: required.restHours, requiredStudyOrPrayerMinutes: required.minutes, ...(input.actualRestMinutes===undefined?{actualRestHours:input.actualRestHours!}:{actualRestMinutes:input.actualRestMinutes}),
     actualStudyOrPrayerMinutes: input.actualStudyOrPrayerMinutes, interruption: input.interruption, status,
     rulingId: input.rulingId ?? null, completedAt: status === 'completed' ? input.completedAt! : null });
   const copies = status === 'completed' ? input.requested.map(request => Object.freeze({ id: request.copyId, spell: request.spell,
@@ -305,3 +311,16 @@ export function projectSpellLedgerForPlayer(ledger: CoreSpellLedger): PlayerSpel
 }
 
 export const isArcaneTradition = (tradition: CoreSpellTradition): tradition is ArcaneTradition => traditionRules[tradition].kind === 'arcane';
+
+/** Player-visible consumption needs no reconstruction of hidden provenance or divine authority. */
+export function castPublicPreparedSpell<T extends Pick<PlayerSpellLedgerProjection,'revision'|'sources'|'spellbookEntries'|'divineGrants'|'preparedCopies'|'castings'|'recoverySessions'>>(ledger:T,input:Parameters<typeof castPreparedSpell>[1]){
+  nonBlank(input.castingId,'casting id');nonBlank(input.occurredAt,'casting occurredAt');
+  if([ledger.sources,ledger.spellbookEntries,ledger.divineGrants,ledger.preparedCopies,ledger.castings,ledger.recoverySessions].some(records=>records.some(record=>record.id===input.castingId)))throw new Error('Duplicate spell-ledger record id.');
+  if(input.componentState==='needs-dm')return {status:'needs-dm' as const,ledger,reason:'Components and situation require adjudication before consumption.'};
+  if(!['satisfied','not-required'].includes(input.componentState))throw new Error('Unknown component state.');
+  const copy=ledger.preparedCopies.find(item=>item.id===input.preparedCopyId);
+  if(!copy||copy.status!=='ready')throw new Error('Exactly one ready prepared copy is required for casting.');
+  const casting:SpellCastingRecord={id:input.castingId,preparedCopyId:copy.id,spell:copy.spell,occurredAt:input.occurredAt,observedOutcome:input.observedOutcome??null};
+  const updated:T={...structuredClone(ledger),revision:ledger.revision+1,preparedCopies:ledger.preparedCopies.map(item=>item.id===copy.id?{...structuredClone(item),status:'expended' as const,expendedByCastingId:casting.id}:structuredClone(item)),castings:[...structuredClone(ledger.castings),casting]};
+  return {status:'cast' as const,ledger:updated};
+}

@@ -2,7 +2,7 @@ export const spellAcquisitionSources=Object.freeze({
   'phb:10:intelligence-table-ii':{book:'PHB',printedPages:[10] as const,pdfPages:[11] as const,section:'Intelligence Table II; Chance/Minimum/Maximum',status:'verified-page-image' as const},
   'dmg:39:initial-magic-user-spells':{book:'DMG',printedPages:[39] as const,pdfPages:[40] as const,section:'Acquisition of Magic-User Spells',status:'verified-page-image' as const},
   'dmg:39:initial-illusionist-spells':{book:'DMG',printedPages:[39] as const,pdfPages:[40] as const,section:"Acquisition of Illusionists' Spells",status:'verified-page-image' as const},
-  'phb:spell-table:illusionist-1':{book:'PHB',printedPages:[44] as const,pdfPages:[45] as const,section:'Illusionist first-level spell table, entries 1–12',status:'verified-text' as const},
+  'phb:spell-table:illusionist-1':{book:'PHB',printedPages:[42] as const,pdfPages:[43] as const,section:'Illusionist first-level spell table, entries 1–12',status:'verified-text-and-page-image' as const},
 });
 export interface IntelligenceSpellRule {readonly minInt:number;readonly maxInt:number|null;readonly chancePercent:number;readonly minimumPerLevel:number;readonly maximumPerLevel:number|null}
 export const intelligenceSpellRules:readonly IntelligenceSpellRule[]=Object.freeze([

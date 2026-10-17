@@ -308,6 +308,32 @@ export function relocateInventoryItem(input: {
   return next;
 }
 
+/** Records actual whole inventory-unit use/loss; it does not infer daily needs or bundle contents. */
+export function consumeCoreInventoryItem(input:{ledger:CoreInventoryLedger;itemId:string;quantity:number;expectedRevision:number}):CoreInventoryLedger{
+  validateCoreInventoryLedger(input.ledger);requireWhole(input.quantity,'consumed quantity',1);
+  if(input.expectedRevision!==input.ledger.revision)throw new Error('Ledger revision conflict.');
+  const item=input.ledger.items.find(entry=>entry.id===input.itemId);if(!item)throw new Error('Unknown item instance.');
+  if(input.quantity>item.quantity)throw new Error('Insufficient item quantity.');
+  const remaining=item.quantity-input.quantity;
+  const next={...structuredClone(input.ledger),revision:input.ledger.revision+1,items:input.ledger.items.flatMap(entry=>entry.id===item.id?remaining?[{...structuredClone(entry),quantity:remaining}]:[]:[structuredClone(entry)])};
+  validateCoreInventoryLedger(next);return next;
+}
+
+export function unpackCoreInventoryBundle(input:{ledger:CoreInventoryLedger;itemId:string;bundleCount:number;pieceInstanceId:string;eventId:string;expectedRevision:number}):CoreInventoryLedger{
+  validateCoreInventoryLedger(input.ledger);requireWhole(input.bundleCount,'bundle count',1);requireId(input.pieceInstanceId,'piece instance');requireId(input.eventId,'unpack event');
+  if(input.expectedRevision!==input.ledger.revision)throw new Error('Ledger revision conflict.');
+  if(input.ledger.items.some(item=>item.id===input.pieceInstanceId))throw new Error('Piece instance identity already exists.');
+  const item=input.ledger.items.find(entry=>entry.id===input.itemId),definition=item?.definitionId?coreEquipmentById[item.definitionId]:null;
+  if(!item||!definition||!['dozen','score'].includes(definition.purchaseUnit)||definition.piecesPerPurchaseUnit<=1)throw new Error('Only explicitly homogeneous counted bundles can be unpacked; mixed packages remain unresolved.');
+  if(input.bundleCount>item.quantity)throw new Error('Insufficient bundle quantity.');
+  const quantity=safeMultiply(input.bundleCount,definition.piecesPerPurchaseUnit,'unpacked piece count');
+  const weight:ItemWeightFact=item.weight.kind==='approximate'&&item.weight.unitWeightGp%definition.piecesPerPurchaseUnit===0?{kind:'approximate',unitWeightGp:item.weight.unitWeightGp/definition.piecesPerPurchaseUnit,sourceId:item.weight.sourceId}:{kind:'unknown'};
+  const piece:InventoryItemInstance={id:input.pieceInstanceId,definitionId:null,label:`${definition.printedName} · 单件`,quantity,locationId:item.locationId,weight,bulk:'unknown',bulkRulingId:null,acquiredByEventId:input.eventId};
+  const remaining=item.quantity-input.bundleCount;
+  const next={...structuredClone(input.ledger),revision:input.ledger.revision+1,items:[...input.ledger.items.flatMap(entry=>entry.id===item.id?remaining?[{...structuredClone(entry),quantity:remaining}]:[]:[structuredClone(entry)]),piece]};
+  validateCoreInventoryLedger(next);return next;
+}
+
 function descendantLocationIds(ledger: CoreInventoryLedger, rootLocationId: string): Set<string> {
   if (!ledger.locations.some((location) => location.id === rootLocationId)) throw new Error('Unknown carrier location.');
   const carried = new Set<string>([rootLocationId]);

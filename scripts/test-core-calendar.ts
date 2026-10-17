@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import { newCoreCalendar, scheduleCoreActivity, trainingSegmentMinutes, type CalendarActivity } from '../src/character/workflows/core-calendar';
+const initial=newCoreCalendar({minutesPerDay:1440,daysPerWeek:7});
+assert.equal(trainingSegmentMinutes(initial,1,2),5040,'Half-week remains 3.5 days rather than rounded whole days');
+assert.equal(trainingSegmentMinutes(initial,3,2),15120);
+assert.throws(()=>trainingSegmentMinutes(initial,1,11),/precision/);
+const training:CalendarActivity={id:'train',actorId:'pc',kind:'training',startMinute:0,endMinuteExclusive:10080,locationId:'school',sourceIds:['dmg:86:gaining-levels']};
+let calendar=scheduleCoreActivity(initial,training);assert.equal(initial.activities.length,0);
+const raid:CalendarActivity={id:'raid',actorId:'pc',kind:'adventuring',startMinute:1440,endMinuteExclusive:2880,locationId:'ruin',sourceIds:['session:raid']};
+assert.throws(()=>scheduleCoreActivity(calendar,raid),/overlapping/);
+assert.equal(calendar.activities.length,1);
+const companion=scheduleCoreActivity(calendar,{...raid,id:'companion-raid',actorId:'henchman'});assert.equal(companion.activities.length,2);
+const after=scheduleCoreActivity(calendar,{...raid,id:'after-training',startMinute:10080,endMinuteExclusive:11520});assert.equal(after.activities.length,2);
+calendar=scheduleCoreActivity(calendar,raid,[{leftId:'train',rightId:'raid',actorId:'dm',reason:'Explicit exception; training interruption consequences resolved separately',sourceIds:['dmg:86:gaining-levels']}]);
+assert.equal(calendar.overlapRulings.length,1);
+assert.throws(()=>scheduleCoreActivity(initial,training,[{leftId:'unknown',rightId:'train',actorId:'dm',reason:'unused',sourceIds:['test']}]),/does not match/);
+assert.throws(()=>scheduleCoreActivity(initial,{...training,kind:'invented' as any}),/Unknown/);
+console.log('PASS: explicit campaign calendar units, exact fractional weeks, per-actor occupancy, boundaries, overlap rulings and failure preservation. Activity scheduling alone does not award training or resolve interruption consequences.');

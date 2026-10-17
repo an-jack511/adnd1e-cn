@@ -1,47 +1,16 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import '../../../styles/character-prototype.css';
 import { methodLabels, source } from '../../../character/creation/model';
 ---
-<BaseLayout title="角色创建 · 属性向导">
-  <h1>角色创建 · 属性向导</h1>
-  <p>先确定本团允许的 DMG 属性生成方法，保留全部骰点，再分配六项属性。当前为第一阶段创建草稿。</p>
-  <p class="notice">本页尚未完成种族、职业、生命值、金钱、法术和升级程序；完成属性不代表角色已合法入场。<a href="/character/">返回完整人物记录表</a></p>
-  <p>完成并保存属性后，可进入<a href="/character/create/core/">核心种族与职业资格检查</a>。</p>
-  <section aria-label="草稿与备份">
-    <h2>草稿与备份</h2>
-    <label>草稿姓名 <input id="draft-name" maxlength="200" autocomplete="off" /></label>
-    <div class="draft-actions"><button id="new-draft" type="button">新建</button><button id="save-draft" type="button">保存到浏览器</button><button id="export-draft" type="button">导出草稿文件</button><label>导入草稿 <input id="import-draft" type="file" accept=".json,application/json" /></label></div>
-    <div class="draft-actions"><select id="draft-library" aria-label="浏览器中的创建草稿"><option value="">选择草稿</option></select><button id="load-draft" type="button">加载</button></div>
-    <p id="draft-revision" class="small"></p><p id="creation-status" role="status" aria-live="polite"></p>
-  </section>
-  <section aria-label="生成属性">
-    <h2>1. 确定生成方法</h2>
-    <label for="generation-method">DMG 生成方法</label> <select id="generation-method">{Object.entries(methodLabels).map(([id,label])=><option value={id}>{label}</option>)}</select>
-    <p><label><input id="method-approved" type="checkbox" /> 已与 DM 确定本次采用的方法和重掷许可</label></p>
-    <p class="small">这是本地记录声明，不是线上 DM 授权认证。OA 同名方法有不同选择规则，UA 方法 V 另有前置，本原型尚不执行它们。</p>
-    <button id="generate-abilities" type="button">生成完整骰池</button>
-    <p>依据：<a href={source.href}>DMG 印刷第 {source.printedPage} 页 · 属性生成</a></p>
-    <h2>2. 确认属性分配</h2>
-    <p id="current-method"></p><div id="assignment-choices" class="assignment-grid"></div><button id="confirm-assignments" type="button" disabled>检查并确认分配</button>
-    <div id="ability-results" class="ability-grid" aria-label="六项属性结果"></div>
-    <p class="small">显示原始生成值，尚未加入种族、年龄或其他变化。I / II 每个骰组只能用一次；III 取各项最高；IV 保持整组原顺序。</p>
-    <details><summary>查看完整原骰和采用结果</summary><div class="table-wrap"><table class="data-table"><thead><tr><th scope="col">骰组/属性</th><th scope="col">原骰</th><th scope="col">最高三骰之和</th><th scope="col">采用</th></tr></thead><tbody id="candidate-body"></tbody></table></div></details>
-    <p id="history-count" class="small"></p>
-  </section>
-  <noscript>本向导需要浏览器脚本；原书和人物表仍可静态阅读。</noscript>
-  <script>import { startCreation } from '../../../character/creation/controller'; startCreation();</script>
-</BaseLayout>
-<style>
-  .draft-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:.8rem 0}
-  button,select,input{font:inherit}button,select{min-height:44px}input[type=file]{max-width:100%}
-  .assignment-grid,.ability-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;margin:1rem 0}
-  .assignment-grid :global(label){display:flex;flex-direction:column;gap:.3rem;min-width:0}
-  .assignment-grid :global(select){max-width:100%;min-height:44px}
-  .ability-grid :global(div){padding:.8rem;border:1px solid #ddd}
-  #creation-status{padding:.5rem;background:#f4f1eb}#creation-status[data-error=true]{border-left:4px solid #8b2020}details{margin:1rem 0}
-  @media(max-width:600px){
-    .assignment-grid{grid-template-columns:1fr}.ability-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .draft-actions{align-items:stretch}.draft-actions button{flex:1 1 120px;white-space:nowrap}
-    .draft-actions>label{flex-basis:100%;min-width:0}select{max-width:100%}
-  }
-</style>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="robots" content="noindex" /><title>角色创建 · 属性草稿 · AD&D 中文参考</title></head>
+<body class="create-workspace" data-create-stage="abilities">
+<a class="skip" href="#create-workspace">跳至创建步骤</a>
+<div class="folio-shell"><aside class="folio-nav"><a class="wordmark" href="/">AD&D <span>FIRST EDITION · 中文参考</span></a><div class="nav-caption">人物与战役</div><nav aria-label="角色主导航"><a class="active" aria-current="page" href="/character/create/">创建角色</a><a href="/character/sheet/">我的角色</a><a href="/character/growth/">角色成长</a><a href="/character/journal/">战役记录</a></nav><div class="nav-foot"><p>保留骰点与裁定依据。创建进度尚不是正式入场角色。</p></div></aside><div class="folio-main">
+<header class="workbar"><span>创建角色 · 第一阶段 / 属性草稿</span><div><a href="/character/create/core/">继续核心创建 →</a><button id="export-draft" type="button">导出草稿文件</button></div></header>
+<main id="create-workspace" tabindex="-1" data-creation-navigation><div class="page-heading"><p class="eyebrow">创建角色 · 第一阶段</p><h1>从六项属性开始</h1><p>确定方法 → 确认分配 → 保存并继续核心创建。完成属性还不等于合法入场。</p></div><details class="create-resume"><summary>继续已有草稿、导入或新建</summary><div class="create-action-row"><select id="draft-library" aria-label="浏览器中的创建草稿"><option value="">选择草稿</option></select><button id="load-draft" type="button">加载草稿</button><button id="new-draft" type="button">新建空白草稿</button><label class="file-button">导入草稿<input id="import-draft" type="file" accept=".json,application/json" /></label></div><p>加载或导入会由现有控制器检查未保存改动；独立备份可使用顶部导出。</p></details><p id="creation-status" class="app-status create-live-status" role="status" aria-live="polite"></p><div class="creation-layout create-layout"><div class="step-list create-step-list" role="tablist" aria-label="创建步骤"><button type="button" role="tab" id="create-tab-method" data-create-tab="method" aria-controls="create-panel-method" aria-selected="true" tabindex="0"><span>01</span>方法与骰点</button><button type="button" role="tab" id="create-tab-assign" data-create-tab="assign" aria-controls="create-panel-assign" aria-selected="false" tabindex="-1"><span>02</span>分配属性</button><button type="button" role="tab" id="create-tab-continue" data-create-tab="continue" aria-controls="create-panel-continue" aria-selected="false" tabindex="-1"><span>03</span>保存与继续</button></div><div class="create-step-content"><section class="paper-section create-step-panel" id="create-panel-method" data-create-panel="method" role="tabpanel" aria-labelledby="create-tab-method" ><h2 tabindex="-1">确定本团的属性生成方法</h2><p>先与 DM 确定允许的方法及重掷许可，所有原骰都会保留。</p><label>草稿姓名<input id="draft-name" maxlength="200" autocomplete="off" /></label><label for="generation-method">DMG 生成方法</label><select id="generation-method">{Object.entries(methodLabels).map(([id,label]) => <option value={id}>{label}</option>)}</select><label class="check-row"><input id="method-approved" type="checkbox" />已与 DM 确定本次采用的方法和重掷许可</label><button id="generate-abilities" type="button" class="primary">生成完整骰池</button><p class="inline-note">生成后进入“分配属性”。方法 III 自动取各属性最高值，其他方法仍须检查分配。</p><details><summary>方法范围与规则依据</summary><p>这是本地记录声明，不是线上 DM 授权认证。OA 同名方法有不同选择规则，UA 方法 V 另有前置，本流程尚不执行它们。</p><p>依据：<a href={source.href}>DMG 印刷第 {source.printedPage} 页 · 属性生成</a></p></details></section>
+<section class="paper-section create-step-panel" id="create-panel-assign" data-create-panel="assign" role="tabpanel" aria-labelledby="create-tab-assign" ><h2 tabindex="-1">确认六项属性分配</h2><p id="current-method"></p><div id="assignment-choices" class="assignment-grid"></div><button id="confirm-assignments" type="button" disabled>检查并确认分配</button><div id="ability-results" class="ability-grid" aria-label="六项原始属性"></div><p>显示原始生成值，尚未加入种族、年龄或其他变化。I / II 每个骰组只能用一次；III 取各项最高；IV 保持整组原顺序。</p><details><summary>查看完整原骰和采用结果</summary><div class="table-wrap"><table class="data-table"><thead><tr><th scope="col">骰组/属性</th><th scope="col">原骰</th><th scope="col">最高三骰之和</th><th scope="col">采用</th></tr></thead><tbody id="candidate-body"></tbody></table></div><p id="history-count" class="small"></p></details></section>
+<section class="paper-section create-step-panel" id="create-panel-continue" data-create-panel="continue" role="tabpanel" aria-labelledby="create-tab-continue" ><h2 tabindex="-1">保存属性，再进入核心创建</h2><p>核对六项属性，点击保存。第二阶段从现有浏览器草稿库选择已确认属性的草稿，继续种族、职业及开局任务。</p><div class="create-score-summary" data-create-scores></div><div class="create-action-row"><button id="save-draft" type="button" class="primary">保存到浏览器</button><a class="create-next-link" href="/character/create/core/">下一阶段：核心资格与开局任务 →</a></div><p data-create-draft-state>保存后再前往第二阶段；这里不会自动创建正式角色。</p><details><summary>查看草稿保存状态</summary><p id="draft-revision" class="small"></p></details></section><div class="wizard-footer create-step-footer"><button type="button" data-create-prev>上一步</button><span data-create-position></span><button type="button" class="primary" data-create-next>下一步</button></div></div><aside class="context-panel create-summary" aria-label="当前人物摘要"><p class="eyebrow">人物草稿 · 当前可见记录</p><h2 data-create-name>未命名草稿</h2><p data-create-identity>属性生成阶段</p><div class="create-score-summary" data-create-scores></div><p class="muted">此处是原始属性，尚未应用种族调整。</p><p data-create-method>尚未生成属性</p><p data-create-draft-state>确认分配并保存后，再进入第二阶段。</p><details><summary>范围、隐私与备份</summary><p>沿用现有属性草稿与核心创建进度存储，不建立另一套角色库。切换阶段前保存进度，并保留文件备份。DM 本地声明不是身份认证。</p><p>属性完成、核心资格允许或任务已记录都不代表人物已经获准入场。吟游诗人、双职、UA 与 OA 仍使用独立规则路径；同时多职业尚有任务待专门处理。</p><a href="/character/import/">未知格式与原件隔离检查 →</a></details></aside></div></main>
+<noscript>创建需要启用 JavaScript。步骤导航只组织现有流程，不替代规则检查；请启用脚本后继续。</noscript>
+</div></div><script>import { startCreation } from '../../../character/creation/controller'; import { startCreationStepNavigation } from '../../../character/ui/creation-step-navigation'; startCreation(); startCreationStepNavigation();</script>
+</body></html>

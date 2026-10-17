@@ -90,6 +90,12 @@ export function assessActivityConflict(a: TimedActivity, b: TimedActivity): Acti
   validateActivity(b);
   if (a.actorId !== b.actorId) return { status: 'different-actors', sourceIds: ['dmg:37:time-in-campaign'] };
   if (!intervalsOverlap(a.interval, b.interval)) return { status: 'no-overlap', sourceIds: ['dmg:37:time-in-campaign'] };
+  return assessOverlappingActivityKinds(a,b);
+}
+
+/** Shared conflict policy after the caller proves actor identity and temporal overlap. */
+export function assessOverlappingActivityKinds(a:Pick<TimedActivity,'kind'>,b:Pick<TimedActivity,'kind'>):ActivityConflictResult{
+  if(!Object.hasOwn(coreActivityRules,a.kind)||!Object.hasOwn(coreActivityRules,b.kind))throw new Error('Unknown activity kind.');
 
   for (const conflict of knownActivityOverlapConflicts) {
     if (isPair(a.kind, b.kind, conflict.kinds[0], conflict.kinds[1])) {
