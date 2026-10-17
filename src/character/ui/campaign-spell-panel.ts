@@ -27,7 +27,7 @@ export function readGameMinute(data:FormData,prefix:string,minutesPerDay:number)
 export function preparationFields(sheet:CampaignSheet){
   const view=sheet.spells;if(!view?.enabled)throw new Error('请先确认人物生命、职业与法术账本。');
   const day=view.calendar?.minutesPerDay??1440;
-  return `<p>只登记团桌已经完成的普通准备；不是等待现实时间，也不会恢复HP。</p>
+  return `<p>只登记团桌已经完成的普通准备；不是等待现实时间，也不会恢复生命值。</p>
     <fieldset><legend>${view.isDivine?'本次请求并实际获授的法术':'本次从现存法术书学习的法术'}</legend><div class="preparation-choices">${view.choices.map((c,index)=>`<label><span>${esc(c.name)}<small>${c.level}环</small></span><input data-preparation-choice="${index}" name="copy${index}" aria-label="${esc(c.name)}准备份数" type="number" min="0" max="50" step="1" value="0"/></label>`).join('')}</div></fieldset>
     <p id="preparation-requirements" class="inline-note" aria-live="polite">选择需要的份数；未消耗的旧准备不会被覆盖。</p>
     ${!view.calendar?'<label class="check-row"><input name="calendarConfirmed" type="checkbox" required/>本战役已明确采用24小时一天、7天一周；本次建立该日历，不是系统默认规则</label>':''}
