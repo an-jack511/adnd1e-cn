@@ -11,6 +11,7 @@ import {journalActivitySchema,buildJournalActivity,activityLabels} from './journ
 
 const text=z.string().trim().min(1).max(500),positive=z.number().int().min(1);
 const coins=z.object({cp:z.number().int().min(0),sp:z.number().int().min(0),ep:z.number().int().min(0),gp:z.number().int().min(0),pp:z.number().int().min(0)}).strict();
+const overlapRuling=z.object({leftId:text,rightId:text,actorId:text,reason:text,sourceIds:z.array(text).min(1)}).strict();
 export const sheetActionSchema=z.discriminatedUnion('type',[
   ...growthActionSchema.options,
   journalActivitySchema,
@@ -24,6 +25,15 @@ export const sheetActionSchema=z.discriminatedUnion('type',[
   z.object({type:z.literal('character.spendWealth'),walletId:text,amountCp:positive,tender:coins,change:coins,sourceId:text,reason:text}).strict(),
   z.object({type:z.literal('character.relocateItem'),itemId:text,destinationLocationId:text,sourceId:text,reason:text}).strict(),
   z.object({type:z.literal('character.unpackItem'),itemId:text,bundleCount:positive,pieceInstanceId:text,sourceId:text,reason:text}).strict(),
+  z.object({type:z.literal('character.zeroHpRound'),cause:text}).strict(),
+  z.object({type:z.literal('character.friendlyAid')}).strict(),
+  z.object({type:z.literal('character.recoverZeroHp'),restoredHp:positive,comaTurns:z.number().int().min(1).max(6),restStartMinute:z.number().int().nonnegative(),locationId:text,healingSourceId:text,reason:text}).strict(),
+  z.object({type:z.literal('character.completeZeroHpRest'),completedThroughMinute:z.number().int().nonnegative(),reason:text,consequencePolicy:z.enum(['v1','v2']).optional()}).strict(),
+  z.object({type:z.literal('character.restartZeroHpRest'),startMinute:z.number().int().nonnegative(),locationId:text,reason:text,sourceId:text}).strict(),
+  z.object({type:z.literal('character.resolveHealConvalescence'),episodeId:text,effectEvidenceId:text,effectiveMinute:z.number().int().nonnegative(),reason:text}).strict(),
+  z.object({type:z.literal('character.assessRevival'),assessmentId:text,methodId:z.enum(['cleric-raise-dead','cleric-resurrection','druid-reincarnate','magic-user-reincarnation','rod-of-resurrection','wish-or-other-magic']),subjectRaceId:z.enum(['dwarf','elf','gnome','half-elf','halfling','half-orc','human','other-player-character']),deathIntervalValue:z.number().int().nonnegative(),deathIntervalUnit:z.enum(['days','years']),bodyAvailable:z.boolean(),casterLevel:positive.optional(),checkRoute:z.enum(['phb-resurrection-survival','dmg-p110-system-shock-wording']).nullable().optional(),percentileRoll:z.number().int().min(1).max(100).optional(),reason:text}).strict(),
+  z.object({type:z.literal('character.commitRevival'),assessmentId:text,changeId:text,appearanceTurns:z.number().int().min(1).max(6).optional(),reason:text}).strict(),
+  z.object({type:z.literal('character.naturalRecovery'),routeId:z.enum(['phb-105-natural','dmg-82-natural','campaign-adopted-ruling']).nullable(),restStartDay:positive,restEndDayExclusive:positive,continuity:z.enum(['new','continuous']),priorContinuousRestDays:z.number().int().nonnegative(),locationId:text,constitutionHealingAdjustment:z.number().int().optional(),dmAwardHp:z.number().int().nonnegative().optional(),rulingId:text.optional(),reason:text,rulings:z.array(overlapRuling).optional()}).strict(),
   z.object({type:z.literal('character.castSpell'),copyId:text,componentsConfirmed:z.literal(true),outcome:z.string().max(1000),atMinute:z.number().int().nonnegative().optional()}).strict(),
 ]);
 export type SheetAction=z.infer<typeof sheetActionSchema>;
@@ -46,10 +56,28 @@ export function previewSheetAction(input:CoreCampaignArchive,request:SheetAction
   else if(action.type==='character.spendWealth'){title='记录财富支出';intent={type:'expense',walletId:action.walletId,amountCp:action.amountCp,tender:action.tender,change:action.change,sourceId:action.sourceId,reason:action.reason};}
   else if(action.type==='character.relocateItem'){title='记录物品位置变化';intent={type:'relocate-item',itemId:action.itemId,destinationLocationId:action.destinationLocationId,sourceId:action.sourceId,reason:action.reason};}
   else if(action.type==='character.unpackItem'){title='拆分同质整包';intent={type:'unpack-item',itemId:action.itemId,bundleCount:action.bundleCount,pieceInstanceId:action.pieceInstanceId,sourceId:action.sourceId,reason:action.reason};}
+  else if(action.type==='character.zeroHpRound'){title='记录零HP失血回合';intent={type:'zero-hp-round',cause:action.cause};}
+  else if(action.type==='character.friendlyAid'){title='记录友方援助';intent={type:'friendly-aid'};}
+  else if(action.type==='character.recoverZeroHp'){title='记录零HP苏醒与休养';intent={type:'recover-zero-hp',restoredHp:action.restoredHp,comaTurns:action.comaTurns,restStartMinute:action.restStartMinute,locationId:action.locationId,healingSourceId:action.healingSourceId,reason:action.reason};}
+  else if(action.type==='character.completeZeroHpRest'){title='完成零HP最低休养';intent={type:'complete-zero-hp-rest',completedThroughMinute:action.completedThroughMinute,reason:action.reason,...action.consequencePolicy?{consequencePolicy:action.consequencePolicy}:{}};}
+  else if(action.type==='character.restartZeroHpRest'){title='重新开始零HP休养';intent={type:'restart-zero-hp-rest',startMinute:action.startMinute,locationId:action.locationId,reason:action.reason,sourceId:action.sourceId};}
+  else if(action.type==='character.resolveHealConvalescence'){title='记录 Heal 解除零HP休养';intent={type:'resolve-heal-convalescence',episodeId:action.episodeId,spellEffect:'heal',effectEvidenceId:action.effectEvidenceId,effectiveMinute:action.effectiveMinute,reason:action.reason};}
+  else if(action.type==='character.assessRevival'){title='评估复活资格';intent={type:'assess-revival',assessmentId:action.assessmentId,methodId:action.methodId,subjectRaceId:action.subjectRaceId,deathInterval:{value:action.deathIntervalValue,unit:action.deathIntervalUnit},bodyAvailable:action.bodyAvailable,...action.casterLevel===undefined?{}:{casterLevel:action.casterLevel},...action.checkRoute===undefined?{}:{checkRoute:action.checkRoute},...action.percentileRoll===undefined?{}:{percentileRoll:action.percentileRoll},reason:action.reason};}
+  else if(action.type==='character.commitRevival'){title='提交复活结果';intent={type:'commit-revival',assessmentId:action.assessmentId,changeId:action.changeId,...action.appearanceTurns===undefined?{}:{appearanceTurns:action.appearanceTurns},reason:action.reason};}
+  else if(action.type==='character.naturalRecovery'){title='结算自然恢复';intent={type:'natural-recovery',routeId:action.routeId,restStartDay:action.restStartDay,restEndDayExclusive:action.restEndDayExclusive,continuity:action.continuity,priorContinuousRestDays:action.priorContinuousRestDays,locationId:action.locationId,...action.constitutionHealingAdjustment===undefined?{}:{constitutionHealingAdjustment:action.constitutionHealingAdjustment},...action.dmAwardHp===undefined?{}:{dmAwardHp:action.dmAwardHp},...action.rulingId===undefined?{}:{rulingId:action.rulingId},reason:action.reason,...action.rulings===undefined?{}:{rulings:action.rulings}};}
   else {title='消耗法术准备副本';intent={type:'cast-prepared',copyId:action.copyId,components:'satisfied',observedOutcome:action.outcome,reason:'团桌已确认本次组件与情境；这里只记录实际消费，不自动结算法术效果。',...action.atMinute===undefined?{}:{atMinute:action.atMinute}};}
   const command:CampaignAction={...context,expectedRevision:archive.runtime.transaction.revision,intent};
   const next=commitCoreCampaignAction(archive,command),before=campaignSheet(archive),after=campaignSheet(next);
   const changes=['character.initializeLife','character.takeDamage','character.heal'].includes(action.type)?[`HP：${before.life?.currentHp??'尚未确认'} → ${after.life?.currentHp??'尚未确认'}`]:[];
+  if(action.type==='character.zeroHpRound')changes.push(`零HP后又经过一轮：${after.life?.mortality==='dead'?'已死亡':lifeLabels[after.life?.mortality??'none']??'状态待核'}；不自动跳过逐轮失血。`);
+  if(action.type==='character.friendlyAid')changes.push(`友方援助后：${lifeLabels[after.life?.mortality??'none']??'状态待核'}；只记录原书规定的援助，不代替治疗或休养。`);
+  if(action.type==='character.recoverZeroHp')changes.push(`零HP恢复：HP ${before.life?.currentHp??'待核'} → ${after.life?.currentHp??'待核'}；行动限制为${lifeLabels[after.life?.actionRestriction??'none']??'待核'}，休养时段已写入日历。`);
+  if(action.type==='character.completeZeroHpRest')changes.push(`零HP最低休养已由团务确认完成；行动限制：${lifeLabels[after.life?.actionRestriction??'none']??'待核'}。`);
+  if(action.type==='character.restartZeroHpRest')changes.push('零HP最低休养已重新开始；上一段未完成的休养仍保留在历史中。');
+  if(action.type==='character.resolveHealConvalescence')changes.push(`Heal 的实际效果已记录；休养限制：${lifeLabels[after.life?.actionRestriction??'none']??'待核'}。`);
+  if(action.type==='character.assessRevival')changes.push('已生成复活资格评估；评估本身不改变人物状态，需由团务确认后再提交结果。');
+  if(action.type==='character.commitRevival')changes.push(`复活结果已提交；生命：${lifeLabels[after.life?.mortality??'none']??'待核'}，HP：${after.life?.currentHp??'待 DM 结算'}；永久变化与卧床限制保留在档案。`);
+  if(action.type==='character.naturalRecovery')changes.push(`自然恢复：HP ${before.life?.currentHp??'待核'} → ${after.life?.currentHp??'待核'}；采用${action.routeId==='phb-105-natural'?'PHB p.105':action.routeId==='dmg-82-natural'?'DMG p.82':'本战役明确裁定'}，休息区间已写入日历。`);
   if(action.type==='character.useItem')changes.push(`物品：${before.inventory?.items.find(i=>i.id===action.itemId)?.quantity??'未知'} → ${after.inventory?.items.find(i=>i.id===action.itemId)?.quantity??0}`);
   if(action.type==='character.receiveWealth'||action.type==='character.spendWealth')changes.push(`账面财富：${(before.wealthCp/200).toLocaleString()} → ${(after.wealthCp/200).toLocaleString()} gp；钱币重量与具体钱包均保留在档案中。`);
   if(action.type==='character.relocateItem')changes.push(`物品位置：${before.inventory?.locations.find(l=>l.id===before.inventory?.items.find(i=>i.id===action.itemId)?.locationId)?.label??'待核'} → ${after.inventory?.locations.find(l=>l.id===after.inventory?.items.find(i=>i.id===action.itemId)?.locationId)?.label??'待核'}；不自动判断可及性或负重合法性。`);

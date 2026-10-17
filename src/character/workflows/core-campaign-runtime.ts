@@ -8,8 +8,8 @@ import { spendCoreWallet, receiveCoreWallet, validateCoreInventoryLedger, type C
 import type { InitialCoreClassId } from '../rules/core-progression';
 import { attachNameLevelTrainingPlan } from './core-advancement';
 import { restartInterruptedTraining } from './core-advancement';
-import { resolveHealConvalescenceException } from '../engine/core-life-state';
-import { endCoreCalendarActivity } from './core-calendar';
+import { assessCoreRevival, commitCoreRevival, resolveHealConvalescenceException, type RevivalCheckRoute } from '../engine/core-life-state';
+import { endCoreCalendarActivity, effectiveCoreActivityEnd } from './core-calendar';
 import { adoptCoreOverrunTrainingBasis } from './core-overrun-training';
 import { inspectCoreDatedTrainingCourse } from './core-dated-training';
 import {adjudicateCoreActivityConsequence,assertCoreActivityConsequencesResolved} from './core-activity-consequences';
@@ -24,6 +24,9 @@ import { castPublicPreparedSpell, type PlayerSpellLedgerProjection } from '../en
 import {applyActualHealing} from '../engine/core-actual-healing';
 import {coreDefense,defenseSelectionSchema,type DefenseSelection} from '../engine/core-defense';
 import {completeCampaignPreparation,assertPreparationHistoryCoherent,type CampaignSpellLedger,type PreparationFacts,type PreparationCourse} from './core-campaign-preparation';
+import {settleNaturalRecovery, type DayInterval, type TimedActivity} from '../engine/core-time-rest';
+import type {NaturalRecoveryRouteId} from '../rules/core-time-rest';
+import type {CoreRevivalMethodId, CoreSubjectRaceId} from '../rules/core-life-state';
 
 export type CampaignAction={id:string;actorId:string;at:string;expectedRevision:number;intent:
   {type:'experience';assessment:AdventureAssessment}|{type:'open-advancement'}|
@@ -57,6 +60,9 @@ export type CampaignAction={id:string;actorId:string;at:string;expectedRevision:
   {type:'complete-zero-hp-rest';completedThroughMinute:number;reason:string;consequencePolicy?:'v1'|'v2'}|
   {type:'restart-zero-hp-rest';startMinute:number;locationId:string;reason:string;sourceId:string}|
   {type:'resolve-heal-convalescence';episodeId:string;spellEffect:'heal';effectEvidenceId:string;effectiveMinute:number;reason:string}|
+  {type:'assess-revival';assessmentId:string;methodId:CoreRevivalMethodId;subjectRaceId:CoreSubjectRaceId;deathInterval:{value:number;unit:'days'|'years'};bodyAvailable:boolean;casterLevel?:number;checkRoute?:RevivalCheckRoute|null;percentileRoll?:number;reason:string}|
+  {type:'commit-revival';assessmentId:string;changeId:string;appearanceTurns?:number;reason:string}|
+  {type:'natural-recovery';routeId:NaturalRecoveryRouteId|null;restStartDay:number;restEndDayExclusive:number;continuity:'new'|'continuous';priorContinuousRestDays:number;locationId:string;constitutionHealingAdjustment?:number;dmAwardHp?:number;rulingId?:string;reason:string;rulings?:CoreCampaignCalendar['overlapRulings']}|
   {type:'cast-prepared';copyId:string;components:'satisfied'|'not-required'|'needs-dm';observedOutcome:string;reason:string;atMinute?:number}};
 export interface CoreCampaignArchive{
   format:'adnd1e-core-campaign-runtime';schemaVersion:1;genesis:CoreAdmissionArchive;
@@ -97,6 +103,8 @@ export function replayCoreCampaignActions(genesis:CoreAdmissionArchive,actions:C
   let spellPreparationCourses:PreparationCourse[]|null=null;
   let spellCastingTimes:{castingId:string;atMinute:number}[]|null=null;
   let lifeRecovery:{episodeId:string;restActivityId:string;startMinute:number;endMinuteExclusive:number;comaTurns:number;healingSourceId:string;completed:boolean;consequencePolicy?:'v1'|'v2';priorRestAttempts?:{restActivityId:string;startMinute:number;endMinuteExclusive:number;restartActionId:string}[];resolution?:{method:'heal';eventId:string;effectEvidenceId:string;effectiveMinute:number}}|null=null;
+  let pendingRevival:{assessmentId:string;input:Parameters<typeof assessCoreRevival>[1]}|null=null;
+  let naturalRecovery:{routeId:NaturalRecoveryRouteId;continuousRestDays:number;lastRestEndDay:number}|null=null;
   const ids=new Set<string>(),sources=new Set([...initial.genesis.registeredSourceIds,sourceId]);
   for(const action of actions){
     if(!action.id?.trim()||ids.has(action.id)||!action.actorId?.trim()||!action.at?.trim())throw new Error('Campaign action identity is missing or duplicated.');ids.add(action.id);
@@ -165,6 +173,38 @@ export function replayCoreCampaignActions(genesis:CoreAdmissionArchive,actions:C
       }
       life=validateCoreLifeState({...life,actionRestriction:'none'});lifeRecovery=Object.assign({},lifeRecovery,{completed:true},action.intent.consequencePolicy?{consequencePolicy:action.intent.consequencePolicy}:{});sources.add('dmg:82:zero-hit-points');
       completedRestActivityIds.push(lifeRecovery.restActivityId);
+    }else if(action.intent.type==='assess-revival'){
+      if(!life)throw new Error('Life state is not initialized.');
+      if(!action.intent.assessmentId.trim()||!action.intent.reason.trim())throw new Error('Revival assessment requires an identity and DM reason.');
+      const input={methodId:action.intent.methodId,subjectRaceId:action.intent.subjectRaceId,deathInterval:action.intent.deathInterval,bodyAvailable:action.intent.bodyAvailable,...action.intent.casterLevel===undefined?{}:{casterLevel:action.intent.casterLevel},...action.intent.checkRoute===undefined?{}:{checkRoute:action.intent.checkRoute},...action.intent.percentileRoll===undefined?{}:{percentileRoll:action.intent.percentileRoll}} as Parameters<typeof assessCoreRevival>[1];
+      assessCoreRevival(life,input);
+      pendingRevival={assessmentId:action.intent.assessmentId,input};
+      if(action.intent.checkRoute)sources.add('phb:12:constitution-revivification');
+    }else if(action.intent.type==='commit-revival'){
+      if(!life||!pendingRevival||pendingRevival.assessmentId!==action.intent.assessmentId)throw new Error('A matching, current revival assessment is required before commitment.');
+      if(!action.intent.changeId.trim()||!action.intent.reason.trim())throw new Error('Revival commitment requires a change identity and DM reason.');
+      const assessment=assessCoreRevival(life,pendingRevival.input);
+      const result=commitCoreRevival(life,assessment,{changeId:action.intent.changeId,...action.intent.appearanceTurns===undefined?{}:{appearanceTurns:action.intent.appearanceTurns}});
+      life=result.state;result.sourceIds.forEach(id=>sources.add(id));pendingRevival=null;
+    }else if(action.intent.type==='natural-recovery'){
+      if(!calendar||!life||life.mortality!=='alive'||life.actionRestriction!=='none'||life.hpSettlement!=='settled'||life.currentHp===null||life.currentHp<1)throw new Error('Natural recovery requires a living character with settled positive HP and a campaign calendar.');
+      if(!action.intent.reason.trim()||!action.intent.locationId.trim())throw new Error('Natural recovery requires a factual rest reason and location.');
+      if(!Number.isSafeInteger(action.intent.restStartDay)||action.intent.restStartDay<1||!Number.isSafeInteger(action.intent.restEndDayExclusive)||action.intent.restEndDayExclusive<=action.intent.restStartDay)throw new Error('Natural recovery requires a positive campaign-day interval.');
+      if(!Number.isSafeInteger(action.intent.priorContinuousRestDays)||action.intent.priorContinuousRestDays<0)throw new Error('Prior continuous rest days must be a non-negative fact.');
+      if(action.intent.continuity==='continuous'){
+        if(!naturalRecovery||naturalRecovery.routeId!==action.intent.routeId||naturalRecovery.lastRestEndDay!==action.intent.restStartDay||naturalRecovery.continuousRestDays!==action.intent.priorContinuousRestDays)throw new Error('The claimed continuous recovery interval does not follow the recorded route and prior interval.');
+      }else if(action.intent.priorContinuousRestDays!==0)throw new Error('A new recovery interval must start at zero continuous rest days.');
+      if(!action.intent.routeId)throw new Error('PHB 105 and DMG 82 recovery routes conflict; explicitly select one or record a campaign ruling.');
+      const restInterval:DayInterval={startDay:action.intent.restStartDay,endDayExclusive:action.intent.restEndDayExclusive};
+      const activeCalendar=calendar;
+      const overlappingActivities:TimedActivity[]=activeCalendar.activities.filter(item=>item.actorId===runtime.transaction.characterId).map(item=>({id:item.id,actorId:item.actorId,kind:item.kind,interval:{startDay:Math.floor(item.startMinute/activeCalendar.minutesPerDay)+1,endDayExclusive:Math.ceil(effectiveCoreActivityEnd(activeCalendar,item)/activeCalendar.minutesPerDay)+1}}));
+      const settled=settleNaturalRecovery({routeId:action.intent.routeId,currentHp:life.currentHp,maximumHp:life.maximumHp,restInterval,priorContinuousRestDays:action.intent.priorContinuousRestDays,constitutionHealingAdjustment:action.intent.constitutionHealingAdjustment,overlappingActivities,actorId:runtime.transaction.characterId,...action.intent.dmAwardHp===undefined?{}:{dmAwardHp:action.intent.dmAwardHp},...action.intent.rulingId===undefined?{}:{rulingId:action.intent.rulingId}});
+      if(settled.status!=='settled'&&settled.status!=='settled-by-ruling')throw new Error('Natural recovery was not settled: '+('reason' in settled?settled.reason:'source route requires explicit adoption.'));
+      const activity:CalendarActivity={id:`${action.id}:natural-recovery`,actorId:runtime.transaction.characterId,kind:'rest',startMinute:(action.intent.restStartDay-1)*activeCalendar.minutesPerDay,endMinuteExclusive:(action.intent.restEndDayExclusive-1)*activeCalendar.minutesPerDay,locationId:action.intent.locationId,sourceIds:[...settled.sourceIds,'dmg:37:time-in-campaign']};
+      calendar=scheduleCoreActivity(activeCalendar,activity,action.intent.rulings);
+      life=validateCoreLifeState({...life,currentHp:settled.newHp});
+      naturalRecovery={routeId:action.intent.routeId,continuousRestDays:settled.continuousRestDaysAfter,lastRestEndDay:action.intent.restEndDayExclusive};
+      settled.sourceIds.forEach(id=>sources.add(id));sources.add('dmg:37:time-in-campaign');
     }else if(action.intent.type==='initialize-life'){
       if(life)throw new Error('Life state already initialized.');
       if(initial.initialHp===null||!action.intent.reason?.trim())throw new Error('Initialization requires recorded initial HP and an explicit DM current-HP confirmation.');
@@ -306,7 +346,7 @@ export function replayCoreCampaignActions(genesis:CoreAdmissionArchive,actions:C
     else throw new Error('Unsupported campaign action; original history must be preserved.');
     sources.add('dmg:86:gaining-levels');
     if(calendar&&spellPreparationCourses)assertPreparationHistoryCoherent(calendar,spellPreparationCourses,spellCastingTimes??[]);
-runtime=commitCharacter(runtime,{id:action.id,type:'character.module.replace',characterId:runtime.transaction.characterId,branchId:runtime.transaction.branchId,expectedRevision:action.expectedRevision,actorId:action.actorId,at:action.at,payload:{id:'core-advancement',kind:'adnd1e-core-advancement',schemaVersion:state.schemaVersion,visibility:'player',sourceIds:[...sources],data:asJson({...state,inventory,...calendar?{calendar}:{},...datedLevelAwards?{datedLevelAwards}:{},...weaponProficiencies?{weaponProficiencies}:{},...life?{life}:{},...lifeRecovery?{lifeRecovery}:{},...spells?{spells}:{},...defense?{defense}:{},...spellPreparationCourses?{spellPreparationCourses}:{},...spellCastingTimes?{spellCastingTimes}:{}})}},characterRegistry(sources)).runtime;
+runtime=commitCharacter(runtime,{id:action.id,type:'character.module.replace',characterId:runtime.transaction.characterId,branchId:runtime.transaction.branchId,expectedRevision:action.expectedRevision,actorId:action.actorId,at:action.at,payload:{id:'core-advancement',kind:'adnd1e-core-advancement',schemaVersion:state.schemaVersion,visibility:'player',sourceIds:[...sources],data:asJson({...state,inventory,...calendar?{calendar}:{},...datedLevelAwards?{datedLevelAwards}:{},...weaponProficiencies?{weaponProficiencies}:{},...life?{life}:{},...lifeRecovery?{lifeRecovery}:{},...naturalRecovery?{naturalRecovery}:{},...spells?{spells}:{},...defense?{defense}:{},...spellPreparationCourses?{spellPreparationCourses}:{},...spellCastingTimes?{spellCastingTimes}:{}})}},characterRegistry(sources)).runtime;
   }
   return {format:'adnd1e-core-campaign-runtime',schemaVersion:1,genesis:initial.genesis,actions:structuredClone(actions),runtime};
 }
