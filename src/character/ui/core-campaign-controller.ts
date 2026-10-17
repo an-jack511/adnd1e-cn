@@ -97,7 +97,7 @@ export function startCoreCampaign(){
     const restHistory=completedCoreRestHistory(current),historyContainer=get('operations-rest-history');historyContainer.replaceChildren();
     for(const receipt of restHistory){const row=document.createElement('p');row.textContent=`事件 ${receipt.actionId} · 零 HP 事件 ${receipt.episodeId} · 休养 ${receipt.startMinute}–${receipt.endMinuteExclusive} 游戏分钟 · 完成确认至 ${receipt.completedThroughMinute} · 策略 ${receipt.consequencePolicy}。后来的零 HP 事件不会覆盖此证明。`;historyContainer.append(row);}
     if(!restHistory.length)historyContainer.textContent='尚无完整休养完成证明；Heal 解除禁令不计作休满一周。';
-    if(state){const labels:Record<CoreAdvancementState['status'],string>={adventuring:'可冒险', 'eligible-needs-dm':'升级资格待 DM','training-planned':'训练待安排','training-active':'训练进行中','ready-for-award':'训练完成，待授予等级','training-interrupted':'训练已中断'};get('operations-summary').textContent=`${current.runtime.transaction.facts.identity.name} · ${state.classId} ${state.level}级 · ${state.xp} XP · ${labels[state.status]}`;}
+    if(state){const labels:Record<CoreAdvancementState['status'],string>={adventuring:'可冒险', 'eligible-needs-dm':'升级资格待确认','training-planned':'训练待安排','training-active':'训练进行中','ready-for-award':'训练完成，待授予等级','training-interrupted':'训练已中断'};get('operations-summary').textContent=`${current.runtime.transaction.facts.identity.name} · ${state.classId} ${state.level}级 · ${state.xp} XP · ${labels[state.status]}`;}
     if(state){
       const choices=get<HTMLSelectElement>('operations-overrun-assessments'),selected=new Set([...choices.selectedOptions].map(option=>option.value));
       const eligibility=checkCoreAdvancement({classId:state.classId,currentLevel:state.level,xp:state.xp,levelCap:state.levelCap});
@@ -106,7 +106,7 @@ export function startCoreCampaign(){
       if(overrunPending){try{priorBasis=previousCoreCourseAssessments(state);}catch{basisProblem=true;}}
       choices.replaceChildren(...priorBasis.map(assessment=>new Option(`${assessment.id} · ${assessment.rating} · 原次 ${assessment.xp} XP（不重新入账）`,assessment.id,false,selected.has(assessment.id))));
       get<HTMLButtonElement>('operations-overrun-basis').disabled=!overrunPending||basisProblem;
-      get('operations-overrun-summary').textContent=basisProblem?'上一课程评价引用缺失或不唯一，不能自动复用。原进度仍保留，请先导出并由 DM 核对原始记录。':overrunPending?'现有 XP 仍达下一门槛，但上一课程评价已结算。请 DM 明确采用后续依据，再开启新课程。':'当前无需补记跨门槛评价依据；此入口不发放经验或等级。';
+      get('operations-overrun-summary').textContent=basisProblem?'上一课程评价引用缺失或不唯一，不能自动复用。原进度仍保留，请先导出并核对原始记录。':overrunPending?'现有 XP 仍达下一门槛，但上一课程评价已结算。请明确采用后续依据，再开启新课程。':'当前无需补记跨门槛评价依据；此入口不发放经验或等级。';
       if(overrunPending){get<HTMLDetailsElement>('operations-overrun').open=true;get<HTMLButtonElement>('operations-open').disabled=true;}
       const stage=resolveCoreTrainingStage(state.classId,state.level),routes=get<HTMLSelectElement>('operations-route'),family=get<HTMLSelectElement>('operations-cost-family');
       for(const option of routes.options)option.disabled=(option.value==='name-level')!==(stage.stage==='name-level');
@@ -173,7 +173,7 @@ export function startCoreCampaign(){
     get<HTMLButtonElement>('operations-consume').disabled=get<HTMLButtonElement>('operations-relocate').disabled=!inventory?.items.length;
     get<HTMLButtonElement>('operations-unpack').disabled=!inventory?.items.length;
     const carrier=inventory?.locations.find(location=>location.kind==='character');
-    if(inventory&&carrier){const burden=assessCoreEncumbranceGuideline({ledger:inventory,carrierLocationId:carrier.id});get('operations-burden').textContent=`已知携带重量下界 ${burden.knownWeightGp} gp 重量单位；${burden.unknownWeightItemIds.length} 件重量未知。体积与力量修正仍需 DM 确认，不能据此直接认定实际移动率。`;}
+    if(inventory&&carrier){const burden=assessCoreEncumbranceGuideline({ledger:inventory,carrierLocationId:carrier.id});get('operations-burden').textContent=`已知携带重量下界 ${burden.knownWeightGp} gp 重量单位；${burden.unknownWeightItemIds.length} 件重量未知。体积与力量修正仍需按本战役确认，不能据此直接认定实际移动率。`;}
     const training=state?.candidate?.training;
     get('operations-training-summary').textContent=training?`训练 ${training.weeksNumerator}/${training.weeksDenominator} 周；原书费用 ${training.totalCostGpNumerator}/${training.totalCostGpDenominator} gp；接受费用 ${state!.candidate!.acceptedCostCp} cp；已付 ${state!.candidate!.paymentsCp.reduce((a,b)=>a+b,0)} cp。`:state?`当前阶段：${state.status}。`:'尚无升级候选。';
   }

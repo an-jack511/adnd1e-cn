@@ -12,7 +12,7 @@ import {campaignSheet} from './campaign-sheet';
 import {trainingSegmentMinutes,type CoreCampaignCalendar} from '../workflows/core-calendar';
 import {inspectCoreDatedTrainingCourse} from '../workflows/core-dated-training';
 import {previousCoreCourseAssessments} from '../workflows/core-overrun-training';
-export const growthStatusLabels:Record<CoreAdvancementState['status'],string>={adventuring:'冒险中','eligible-needs-dm':'资格待DM裁定','training-planned':'课程筹备','training-active':'实际训练中','ready-for-award':'训练完成，待正式授级','training-interrupted':'严重中断，须重新开课'};
+export const growthStatusLabels:Record<CoreAdvancementState['status'],string>={adventuring:'冒险中','eligible-needs-dm':'资格待确认','training-planned':'课程筹备','training-active':'实际训练中','ready-for-award':'训练完成，待正式授级','training-interrupted':'严重中断，须重新开课'};
 
 export function campaignGrowthState(input:CoreCampaignArchive){
   const archive=parseCoreCampaignArchive(input),creation=parseCoreCreation(archive.genesis.runtime.transaction.facts.modules[0].data),candidate=creation.candidate!,classId=candidate.classIds[0] as InitialCoreClassId,scores=evaluateCoreEligibility(candidate);
@@ -23,7 +23,7 @@ export function growthTrainingFormula(state:CoreAdvancementState,route:'tutor'|'
   const stage=resolveCoreTrainingStage(state.classId,state.level);
   if(stage.stage==='below-name')return planBelowNameTraining({currentLevel:state.level,ratings:state.assessments.map(a=>a.rating),route});
   const selected=stage.printedCostFamily??family;
-  if(!selected)throw new Error('该职业名号后费用未由DMG列为四个明确族之一，须DM明确采用，不得自动套战士。');
+  if(!selected)throw new Error('该职业名号后的费用未由 DMG 列为四个明确族之一，须由本战役明确采用，不得自动套用战士费用。');
   if(stage.printedCostFamily&&family&&family!==stage.printedCostFamily)throw new Error('不能替换原书已明确的名号后收费族。');
   return planNameLevelTraining({currentLevel:state.level,ratings:state.assessments.map(a=>a.rating),costFamily:selected});
 }

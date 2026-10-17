@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="角色档案检查">
   <h1>角色档案检查</h1>
-  <p>打开角色文件后，系统会在浏览器内核对文件结构、事件和来源，并重新计算可公开显示的派生值。这里不执行 DM 审核，也不把检查结果伪装成入场许可。</p>
+  <p>打开角色文件后，系统会在浏览器内核对文件结构、事件和来源，并重新计算可公开显示的派生值。这里不替战役处理入场安排，也不把检查结果伪装成已完成的战役状态。</p>
   <label>角色档案 <input id="archive-file" type="file" accept="application/json,.json" /></label>
   <button id="archive-print" type="button">打印当前档案</button>
   <p id="archive-status" role="status" aria-live="polite">等待打开角色档案。</p>

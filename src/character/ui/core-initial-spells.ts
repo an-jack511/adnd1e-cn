@@ -17,7 +17,7 @@ export function renderInitialSpells(host:HTMLElement,read:()=>CoreCreation|null,
     button.addEventListener('click',()=>{try{const current=read();if(!current)throw new Error('请先选择角色。');write(recordCreationTask(current,'initial-spells',{status:'not-applicable',sourceIds:['project:core-first-level-noncasting-task',...ids.flatMap(id=>id==='paladin'?['phb:24:paladin-spell-capacity']:id==='ranger'?['phb:25:ranger-spell-capacity']:[])],note:'所选职业在一级没有初始施法任务；后续等级需重新检查职业法术成长。',facts:{classIds:ids,level:1,initialSpellGrant:false}}));status.textContent='已记录一级不适用；未授予或准备任何法术。';}catch(error){status.textContent=(error as Error).message;}});
     host.append(button,status);return;
   }
-  if(ids.length!==1){status.textContent='多职业初始法术需结合各职业流程审核，当前保留待完成。';host.append(status);return;}
+  if(ids.length!==1){status.textContent='多职业初始法术需结合各职业流程处理，当前保留待完成。';host.append(status);return;}
   const fields:Record<string,{roll:HTMLInputElement;choice:HTMLSelectElement}>={};
   if(ids[0]==='magic-user'){
     for(const [category,list] of Object.entries(magicUserInitialCategories)){

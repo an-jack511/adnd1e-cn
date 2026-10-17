@@ -65,7 +65,7 @@ export function renderCampaignJournal(view: CampaignJournalView): string {
         <p>条目编号仅表示追加顺序。补录的过去活动仍保留其录入位置，不改写已有历史。</p>
         <h3>长期活动尚未完整接入</h3>
         <p>研究、制造、经营据点及随从等活动仍需团桌处理。本页不提供模拟完成按钮，不根据经过天数自动获得法术、物品、经验或收入。</p>
-        <details><summary>公开记录与完整导出</summary><p>这里只展示公开投影提供的标题、时间和详情。完整运营档案可能包含审核信息，导出后仅分享给有权查看的人。</p></details>
+        <details><summary>公开记录与完整导出</summary><p>这里只展示公开投影提供的标题、时间和详情。完整运营档案可能包含内部记录，导出后请自行决定分享范围。</p></details>
       </aside>
     </div>
   </div>`;

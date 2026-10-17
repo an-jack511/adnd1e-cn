@@ -7,12 +7,12 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   <p><a href="/character/">返回角色</a> · <a href="/character/create/">属性创建向导</a></p>
   <label for="archive-file">选择本地角色文件（最多 2 MB）</label>
   <input id="archive-file" type="file" accept=".json,application/json" />
-  <p>文件只在此浏览器中读取，不上传到服务器。完整档案、公开摘要和创建草稿是不同格式；公开摘要不能恢复 DM 私档。</p>
+  <p>文件只在此浏览器中读取，不上传到服务器。完整档案、公开摘要和创建草稿是不同格式；公开摘要不能恢复内部记录。</p>
   <p id="archive-status" role="status" aria-live="polite">尚未选择文件。</p>
   <button id="archive-original" type="button" disabled>下载原字节副本</button>
   <button id="archive-preserve" type="button" disabled>保全原件到浏览器隔离区</button>
   <div><select id="archive-saved" aria-label="已保全原件"><option value="">选择已保全原件</option></select> <button id="archive-load" type="button">读取原件</button></div>
-  <p class="small">隔离区与正式角色事实分离；保全不是迁移成功或 DM 入场认可。浏览器清理数据仍会删除隔离区，请另存文件备份。</p>
+  <p class="small">隔离区与正式角色事实分离；保全不是迁移成功或战役入场确认。浏览器清理数据仍会删除隔离区，请另存文件备份。</p>
   <h2>检查结果</h2>
   <div class="table-wrap"><table class="data-table"><thead><tr><th scope="col">类别</th><th scope="col">位置</th><th scope="col">说明</th></tr></thead><tbody id="archive-diagnostics"></tbody></table></div>
   <details><summary>为什么有些旧值仍需确认？</summary><p>旧最终属性不等于原骰；旧法术格不一定是法术书或已经记忆的份数；未知钱币、装备数量与重量不能被补成零。未知版本和事件保留原件，并限制自动操作。</p></details>

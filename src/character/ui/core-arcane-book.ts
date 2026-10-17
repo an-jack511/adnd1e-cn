@@ -23,7 +23,7 @@ export function renderArcaneBookCreation(host:HTMLElement,read:()=>CoreCreation|
   for(const attempt of attempts)state=recordKnowabilityAttempt(state,attempt.spellId,attempt.percentile);
   let rollMethod:CoreArcaneCreationInput['rollMethod']=recorded?.chanceToKnow.rollMethod??'physical-or-external';
   const title=document.createElement('h3');title.textContent='完成初始法术书';
-  const explanation=document.createElement('p');explanation.textContent='以下是明确战役采用的取得流程，不是PHB与DMG冲突的唯一RAW解释：要求已记录的Chance to Know成功及实际来源、转录。候选集仅限已核初始表，不是完整PHB法术清单；最低可理解数量不会补发法术书。其他采用须另行裁定，不能虚构通过骰点。';
+  const explanation=document.createElement('p');explanation.textContent='以下是本战役明确采用的取得流程，不是 PHB 与 DMG 冲突的唯一 RAW 解释：要求已记录的 Chance to Know 成功及实际来源、转录。候选集仅限已核初始表，不是完整 PHB 法术清单；最低可理解数量不会补发法术书。其他采用须另行处理，不能虚构通过骰点。';
   const rule=intelligenceSpellRule(intelligence),info=document.createElement('p');info.textContent=`智力${intelligence}：成功率${rule.chancePercent}%，最低${rule.minimumPerLevel}种、最高${rule.maximumPerLevel??'不限'}种可理解法术。理解、持有书页和已经准备分别记录。`;
   const adopted=document.createElement('input');adopted.type='checkbox';adopted.checked=Boolean(recorded);
   const actor=document.createElement('input'),at=document.createElement('input'),reason=document.createElement('textarea');actor.value=recorded?.adoption.actorId??'';at.value=recorded?.adoption.at??'';reason.value=recorded?.adoption.reason??'';

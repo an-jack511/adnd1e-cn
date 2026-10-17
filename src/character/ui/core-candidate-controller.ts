@@ -96,7 +96,7 @@ export function startCoreCandidate(){
     const legality=weapons.map(item=>evaluateCoreEquipmentLegality({classId,item:{kind:'weapon',...item}}));
     if(legality.some(result=>result.verdict==='prohibited'))throw new Error('存在职业禁止的武器，请修改选择。');
     const needsDm=legality.some(result=>result.verdict==='needs-dm')||weapons.some(w=>w.classification==='manual-needs-dm');
-    evaluated=recordCreationTask(evaluated,'proficiencies',{status:slots.unfilledSlots?'pending':needsDm?'needs-dm':'complete',sourceIds:[...new Set([...slots.sourceIds,...legality.flatMap(result=>result.sourceIds)])],note:needsDm?'具体武器分类、体型或使用条件需要 DM 复核。':'已记录具体武器熟练及职业许可检查。',facts:{slots,weapons,legality}});
+    evaluated=recordCreationTask(evaluated,'proficiencies',{status:slots.unfilledSlots?'pending':needsDm?'needs-dm':'complete',sourceIds:[...new Set([...slots.sourceIds,...legality.flatMap(result=>result.sourceIds)])],note:needsDm?'具体武器分类、体型或使用条件待战役确认。':'已记录具体武器熟练及职业许可检查。',facts:{slots,weapons,legality}});
     get('core-proficiency-status').textContent=needsDm?'已记录，具体武器与使用条件待战役确认。':'已完成开局武器熟练。';
   }catch(error){get('core-proficiency-status').textContent=(error as Error).message;}});
   for(const element of document.querySelectorAll('#core-draft,#core-race,#core-subrace,#core-sex,#core-alignment,#core-mode,input[name=core-class]'))element.addEventListener('change',invalidate);
