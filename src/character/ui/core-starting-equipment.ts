@@ -1,6 +1,7 @@
 import { type PurchaseLine } from '../engine/core-inventory';
 import { coreEquipmentById, coreEquipmentCatalog } from '../rules/core-inventory';
 import { recordCreationTask, type CoreCreation } from '../workflows/core-create';
+import { equipmentLabel, equipmentUnitLabel } from './character-labels';
 
 export function renderStartingEquipment(host:HTMLElement,read:()=>CoreCreation|null,write:(value:CoreCreation)=>void){
   host.replaceChildren();
@@ -12,7 +13,7 @@ export function renderStartingEquipment(host:HTMLElement,read:()=>CoreCreation|n
   const tender=numeric('0'),change=numeric('0');
   const add=document.createElement('button');add.type='button';add.textContent='添加采购项';
   const pending:{definition:HTMLSelectElement;quantity:HTMLInputElement;price:HTMLInputElement}[]=[];
-  function addLine(){const row=document.createElement('fieldset'),definition=document.createElement('select');definition.append(new Option('选择 PHB 物品',''),...coreEquipmentCatalog.map(item=>new Option(`${item.printedName} · ${item.listPriceCp} cp / ${item.purchaseUnit}`,item.id)));const quantity=numeric('1'),price=numeric('0');definition.addEventListener('change',()=>{price.value=String(coreEquipmentById[definition.value]?.listPriceCp??0);});const remove=document.createElement('button');remove.type='button';remove.textContent='移除此项';const item={definition,quantity,price};pending.push(item);remove.addEventListener('click',()=>{pending.splice(pending.indexOf(item),1);row.remove();});row.append(field('物品 ',definition),field('购买单位数 ',quantity),field('实际每单位价格 cp ',price),remove);rows.append(row);}
+  function addLine(){const row=document.createElement('fieldset'),definition=document.createElement('select');definition.append(new Option('选择 PHB 物品',''),...coreEquipmentCatalog.map(item=>new Option(`${equipmentLabel(item.printedName,item.id)} · ${item.listPriceCp} cp / ${equipmentUnitLabel(item.purchaseUnit)}`,item.id)));const quantity=numeric('1'),price=numeric('0');definition.addEventListener('change',()=>{price.value=String(coreEquipmentById[definition.value]?.listPriceCp??0);});const remove=document.createElement('button');remove.type='button';remove.textContent='移除此项';const item={definition,quantity,price};pending.push(item);remove.addEventListener('click',()=>{pending.splice(pending.indexOf(item),1);row.remove();});row.append(field('物品 ',definition),field('购买单位数 ',quantity),field('实际每单位价格 cp ',price),remove);rows.append(row);}
   add.addEventListener('click',addLine);
   const record=document.createElement('button');record.type='button';record.textContent='检查并记录采购';
   host.append(rows,add,field('交付金币 gp ',tender),field('收到找零 cp ',change),record,status);

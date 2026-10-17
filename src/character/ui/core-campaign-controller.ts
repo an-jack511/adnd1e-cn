@@ -22,7 +22,7 @@ import { inspectCoreDatedTrainingCourse } from '../workflows/core-dated-training
 import {inspectCoreActivityConsequences,type ActivityConsequenceFinding} from '../workflows/core-activity-consequences';
 import {completedCoreRestHistory} from '../workflows/core-rest-history';
 import {inspectCoreTrainingLocationBoundaries,type TrainingLocationBoundary} from '../workflows/core-training-location';
-import { characterLabel } from './character-labels';
+import { characterLabel, equipmentLabel, equipmentUnitLabel } from './character-labels';
 
 export function startCoreCampaign(){
   const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
@@ -171,7 +171,7 @@ export function startCoreCampaign(){
     get<HTMLButtonElement>('operations-learn-weapon').disabled=false;
     const inventory=state?.inventory??initialCreation.tasks.find(task=>task.id==='equipment')?.facts?.ledger as CoreInventoryLedger|undefined;
     get<HTMLSelectElement>('operations-wallet').replaceChildren(...(inventory?.wallets??[]).map(wallet=>new Option(`${wallet.label} · ${JSON.stringify(wallet.coins)}`,wallet.id)));
-    get<HTMLSelectElement>('operations-item').replaceChildren(...(inventory?.items??[]).map(item=>new Option(`${item.label} × ${item.quantity}（单位 ${item.definitionId?coreEquipmentById[item.definitionId]?.purchaseUnit??'档案记录':'档案记录'}）`,item.id)));
+  get<HTMLSelectElement>('operations-item').replaceChildren(...(inventory?.items??[]).map(item=>new Option(`${equipmentLabel(item.label,item.definitionId??undefined)} × ${item.quantity}（单位 ${item.definitionId?equipmentUnitLabel(coreEquipmentById[item.definitionId]?.purchaseUnit??'档案记录'):'档案记录'}）`,item.id)));
     get<HTMLSelectElement>('operations-item-location').replaceChildren(...(inventory?.locations??[]).map(location=>new Option(location.label,location.id)));
     get<HTMLButtonElement>('operations-consume').disabled=get<HTMLButtonElement>('operations-relocate').disabled=!inventory?.items.length;
     get<HTMLButtonElement>('operations-unpack').disabled=!inventory?.items.length;
