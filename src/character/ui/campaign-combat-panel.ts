@@ -15,5 +15,5 @@ export function bindCampaignCombat(host:HTMLElement,sheet:CampaignSheet){
 }
 export function defenseFields(sheet:CampaignSheet){
   const options=(kind:'armor'|'shield',selected:string|null|undefined)=>`<option value="">${kind==='armor'?'没有穿护甲':'不使用盾牌'}</option>`+(sheet.inventory?.items??[]).filter(i=>i.definitionId?.startsWith(kind==='armor'?'armor-':'shield-')).map(i=>`<option value="${esc(i.id)}" ${i.id===selected?'selected':''}>${esc(i.label)}（${i.quantity}）</option>`).join('');
-  return `<label>实际已穿护甲<select name="armor">${options('armor',sheet.defenseSelection?.armorItemId)}</select></label><label>实际使用盾牌<select name="shield">${options('shield',sheet.defenseSelection?.shieldItemId)}</select></label><label class="check-row"><input name="confirmed" type="checkbox" required/>已在团桌确认上述普通装备／明确无甲无盾</label><p>只记录实际状态，不自动结算穿脱时间、手部占用或完成搬运。魔法、特殊装备与职业例外转DM裁定。未确认前不能猜成AC10。</p>`;
+  return `<label>实际已穿护甲<select name="armor">${options('armor',sheet.defenseSelection?.armorItemId)}</select></label><label>实际使用盾牌<select name="shield">${options('shield',sheet.defenseSelection?.shieldItemId)}</select></label><label class="check-row"><input name="confirmed" type="checkbox" required/>已在团桌确认上述普通装备／明确无甲无盾</label><p>只记录实际状态，不自动结算穿脱时间、手部占用或完成搬运。魔法、特殊装备与职业例外暂不自动处理。未确认前不能猜成 AC10。</p>`;
 }

@@ -26,7 +26,7 @@ function capabilityRow(capability: CapabilityAtLevel, locked = false) {
   const status = capability.status === 'verified' ? '已核验' : capability.status === 'needs-dm' ? '待战役确认' : '未接入';
   return `<li class="capability-row ${locked ? 'is-locked' : ''}">
     <div><strong>${esc(capability.label)}</strong><small>${locked ? `${capability.minimumLevel}级后开放 · ` : ''}${esc(status)}${valueText(capability)}</small></div>
-    <details><summary>规则说明与依据</summary><p>${esc(capability.rule)}</p><p class="source-line">${sourceLinks(capability.sourceIds)}</p>${capability.delegatedTo ? `<p class="muted">具体分表：${esc(capability.delegatedTo)}。本页不代替DM裁定。</p>` : ''}</details>
+    <details><summary>规则说明与依据</summary><p>${esc(capability.rule)}</p><p class="source-line">${sourceLinks(capability.sourceIds)}</p>${capability.delegatedTo ? `<p class="muted">具体分表：${esc(capability.delegatedTo)}。本页不替团桌决定世界状态。</p>` : ''}</details>
   </li>`;
 }
 

@@ -35,7 +35,7 @@ export function preparationFields(sheet:CampaignSheet){
     <div id="preparation-new-rest">${gameTimeFields('rest',day,'完整休息开始时间')}<label>实际完整休息时数<input name="restHours" type="number" min="0" step="any" placeholder="例如 4" required/></label></div>
     <label>实际连续学习／祈祷分钟数<input name="studyMinutes" type="number" min="1" step="1" placeholder="例如 15" required/></label>
     <label>实际休息与学习地点<input name="location" maxlength="300" required placeholder="例如 村庄旅店" value="${esc(view.latestCourse?.locationId??'')}"/></label>
-    <p>此普通流程记录休息结束后立即学习；继续上次休息时接续上一段学习。中断、换地点或其他时间安排须由DM核对，不能勾选后猜成兼容。</p>
+    <p>此普通流程记录休息结束后立即学习；继续上次休息时接续上一段学习。中断、换地点或其他时间安排须由团桌核对，不能勾选后猜成兼容。</p>
     <label class="check-row"><input name="restConfirmed" type="checkbox" required/>上述确为完整休息、精神恢复且营养条件满足，时间及地点均是实际情况</label>
     <label class="check-row"><input name="afterCastingConfirmed" type="checkbox" required/>本次完整休息在最后一次施法之后，其后没有未记录的施法或干扰</label>
     <label class="check-row"><input name="accessConfirmed" type="checkbox" required/>${view.isDivine?'本次所选法术与份数已经按战役确认实际授予；本地勾选不是身份认证':'学习时可实际接触对应法术书；已处理本次所需条件'}</label>`;

@@ -1,216 +1,52 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { classes } from '../../data/public/classes';
-import { races } from '../../data/public/races';
-import { items } from '../../data/public/items';
-import { spells } from '../../data/public/spells';
-const abilities = [
-  ['STR', '力量'], ['INT', '智力'], ['WIS', '感知'],
-  ['DEX', '敏捷'], ['CON', '体质'], ['CHA', '魅力']
-];
-const saves = ['麻痹／毒素', '石化／变形', '权杖／法杖／魔杖', '吐息武器', '法术'];
-const weapons = Array.from({ length: 4 }, (_, index) => index);
-const gear = Array.from({ length: 7 }, (_, index) => index);
-const armorItems = items.filter((item) => item.category === '护甲' && ['皮甲', '衬甲', '镶嵌皮甲', '环甲', '鳞甲', '链甲', '板条甲', '带甲', '板甲'].includes(item.nameZh));
-const shieldItems = items.filter((item) => item.category === '护甲' && /盾/.test(item.nameZh));
-const weaponItems = items.filter((item) => item.category === '武器');
-const carryItems = items.filter((item) => item.category !== '魔法物品');
-const ruleSources = [...new Set([...classes, ...races, ...items, ...spells].flatMap((entry) => entry.source.map((source) => source.book)))].sort();
-const sourceLabel = (entry) => [...new Set(entry.source.map((source) => source.book))].join('、');
 ---
-<BaseLayout title="角色与人物记录">
-  <h1>角色与人物记录</h1>
-  <p><a href="/character/operations/">战役经验结算</a>：记录 DM 评定、经验及升级候选，并导出可重放的运营档案。</p>
-  <p><a href="/character/archive/">查看准入事件档案</a>：验证已审核的一级角色，并查看创建事实、来源与裁定。</p>
-  <p><a href="/character/review/">DM 创建审核与准入</a>：导入创建进度、记录资格裁定、检查未完成任务并导出准入后的事件档案。</p>
-  <p class="notice"><strong>阶段说明：</strong>下方旧式人物表目前只适合作为手工记录页，尚未接入新版事件档案，也不能据此认定角色符合 1e RAW。请优先使用上方创建、规则配置、档案检查和职业能力模块；旧表会在完整档案驱动界面完成后退役。</p>
-  <p class="notice"><a href="/character/create/">使用 DMG 属性创建向导</a>：完整四种生成方法、骰点过程、草稿保存与文件备份。下方继续用于完整人物记录。</p>
-  <p><a href="/character/import/">角色文件隔离检查与原件保全</a>：识别草稿、旧档、完整候选档案和公开摘要，不覆盖已有角色。</p>
-  <p><a href="/character/campaign/">配置战役角色规则</a>：保存规则包版本、DM 允许的选项与显式房规；未核扩展不会被悄悄启用。</p>
-  <p><a href="/character/capabilities/">查看核心职业能力</a>：按等级显示已核能力、限制、据点与追随者待办，并保留 DM 裁定边界。</p>
-  <p class="lede">人物记录 · 属性、战斗、装备、经历与随从 · <a href="/character/abilities/">PHB 属性表</a></p>
-  <p class="notice"><strong>规则范围：</strong>本页同时收录核心与扩展资料。先勾选本战役启用的规则书；来源标签不是兼容性保证，战役专用种族与职业仍需 DM 核准。</p>
-  <form id="character-form" class="record-sheet">
-    <input type="hidden" name="character_id" />
-    <input type="hidden" name="campaign_sources" />
-    <section class="character-actions" aria-label="车卡操作"><h2>保存与导出</h2>
-      <button type="button" id="new-character">新建</button>
-      <button type="button" id="save-character">保存</button>
-      <select id="saved-characters" aria-label="浏览器保存的人物"><option value="">选择已保存的人物</option></select>
-      <button type="button" id="load-character">加载</button><button type="button" id="copy-character">复制</button><button type="button" id="delete-character">删除</button>
-      <button type="button" id="export-character">导出 JSON</button><label class="button" for="import-character">导入 JSON</label><input id="import-character" class="visually-hidden" type="file" accept="application/json" /><button type="button" id="print-character">打印 / 导出 PDF</button>
-      <p id="character-status" class="small muted" role="status"></p>
+<BaseLayout title="角色系统">
+  <main class="character-home">
+    <p class="eyebrow">AD&amp;D 1e · 角色系统</p>
+    <h1>人物与战役</h1>
+    <p class="lede">创建角色、管理资源、记录成长，并把长期战役中的事实保存在自己的角色档案里。</p>
+    <nav class="character-home-actions" aria-label="角色系统入口">
+      <a class="primary" href="/character/create/">创建角色</a>
+      <a href="/character/sheet/">我的角色</a>
+      <a href="/character/growth/">角色成长</a>
+      <a href="/character/journal/">战役记录</a>
+    </nav>
+    <section class="character-home-grid">
+      <article>
+        <h2>从规则开始</h2>
+        <p>属性生成保留 DMG 四种方法；资格、种族、职业、生命、金钱、语言、熟练、装备与初始法术按创建步骤逐项记录。</p>
+        <a href="/character/create/">开始创建 →</a>
+      </article>
+      <article>
+        <h2>保存自己的档案</h2>
+        <p>角色文件可以导入、导出和备份。派生数值由规则模块重新计算，原始骰点和规则来源随档案保留。</p>
+        <a href="/character/import/">检查或恢复文件 →</a>
+      </article>
+      <article>
+        <h2>让战役继续</h2>
+        <p>HP、法术、装备、经验、训练、随从和长期活动分开记录；复杂世界裁定留在团桌处理，不塞进普通角色操作。</p>
+        <a href="/character/journal/">打开战役记录 →</a>
+      </article>
     </section>
-    <fieldset class="screen-only"><legend>本战役启用的角色规则来源</legend>{ruleSources.map((source) => <label><input class="rule-source" type="checkbox" value={source} checked={['PHB', 'DMG', 'MM'].includes(source)} /> {source}</label>)}<p class="small">默认仅启用核心来源。扩展资料仍可检索；勾选后才进入本角色的选择器。配置会保存在浏览器和角色导出文件中。</p></fieldset>
-    <section class="sheet-page" aria-label="人物卡正面">
-      <h2>角色记录 · 正面</h2>
-      <div class="sheet-identity">
-        <label>姓名<input name="name" autocomplete="off" /></label>
-        <label>种族<select name="race"><option value="">请选择</option>{races.map((race) => <option value={race.id} data-rule-sources={sourceLabel(race)}>{race.nameZh}［{sourceLabel(race)}］</option>)}</select></label>
-        <label>职业<select name="class"><option value="">请选择</option>{classes.map((entry) => <option value={entry.id} data-rule-sources={sourceLabel(entry)}>{entry.nameZh}［{sourceLabel(entry)}］</option>)}</select></label>
-        <label>等级<input name="level" type="number" min="1" value="1" /></label>
-        <label>阵营<select name="alignment"><option value="">请选择</option>{[['LG','守序善良'],['NG','中立善良'],['CG','混乱善良'],['LN','守序中立'],['TN','绝对中立'],['CN','混乱中立'],['LE','守序邪恶'],['NE','中立邪恶'],['CE','混乱邪恶']].map(([code, name]) => <option value={code}>{name}</option>)}</select></label>
-        <label>经验值<input name="xp" inputmode="numeric" /></label>
-      </div>
-
-      <div class="sheet-top-columns">
-        <section><h3>属性 Abilities</h3><div class="table-wrap"><table class="data-table sheet-abilities"><thead><tr><th>属性</th><th>值</th><th>常用调整</th></tr></thead><tbody>{abilities.map(([key, label]) => <tr><th scope="row">{key} <span class="small">{label}</span></th><td><input name={key} aria-label={`${label}数值`} inputmode="text" /></td><td id={`derived-${key}`}>—</td></tr>)}</tbody></table></div><label id="exceptional-row" hidden>非凡力量 18/<select name="exceptional_strength"><option value="">—</option>{['01–50','51–75','76–90','91–99','00'].map((value) => <option value={value}>{value}</option>)}</select></label></section>
-        <section><h3>豁免检定 Saving Throws</h3><div class="table-wrap"><table class="data-table sheet-saves"><thead><tr><th>类别</th><th>目标值</th><th>调整／原因</th></tr></thead><tbody>{saves.map((save, index) => <tr><th scope="row">{save}</th><td><input name={`save_${index}`} aria-label={`${save}目标值`} inputmode="numeric" /></td><td><input name={`save_note_${index}`} aria-label={`${save}调整`} /></td></tr>)}</tbody></table></div><label class="sheet-line">抗性／免疫 <input name="resistances" /></label></section>
-      </div>
-
-      <p class="screen-only"><label><input type="checkbox" name="dm_override" /> DM 覆盖资格限制（冲突仍会列出）</label></p>
-      <div class="sheet-triple">
-        <label>视觉与侦测<textarea name="senses" rows="2"></textarea></label>
-        <label>语言<textarea name="languages" rows="2"></textarea></label>
-        <label>反应调整／荣誉<textarea name="reactionHonor" rows="2"></textarea></label>
-      </div>
-
-      <div class="sheet-triple">
-        <section><h3>移动 Movement</h3><div class="sheet-pairs"><label>基础<input name="move_base" readonly /></label><label>实际<input name="move_loaded" readonly /></label><label>奔跑<input name="move_run" readonly /></label><label>特殊<input name="move_special" /></label></div>
-          <div class="movement-controls screen-only"><label>携带钱币 <input name="coins_carried" type="number" min="0" step="1" value="0" /> 枚</label><br />
-            <label><input name="move_bulky" type="checkbox" /> 体积／笨重：上调一档（DM）</label><br />
-            <label><input name="move_terrain" type="checkbox" /> 地形使移动减半（DM）</label><br />
-            <label>其他调整 <input name="move_adjustment" type="number" step="0.5" value="0" /> 寸</label><br />
-            <label><input name="manual_movement" type="checkbox" /> 手动覆盖实际移动率</label></div><p id="movement-breakdown" class="small"></p></section>
-        <section><h3>护甲 Armor</h3><div class="sheet-pairs"><label>护甲<select name="armor_item"><option value="">无甲</option>{armorItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></label><label>盾牌<select name="shield_item"><option value="">无盾</option>{shieldItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></label><label>AC<input name="ac" readonly /></label><label>DM 调整<input name="ac_modifier" type="number" value="0" /></label><label>突袭时<input name="ac_surprised" /></label><label>无盾<input name="ac_shieldless" /></label><label>背后<input name="ac_rear" /></label></div><label class="small screen-only"><input type="checkbox" name="manual_ac" /> 手动覆盖 AC</label><p id="ac-breakdown" class="small"></p></section>
-        <section><h3>生命值 Hit Points</h3><div class="sheet-pairs"><label>最大 HP<input name="hp_max" inputmode="numeric" /></label><label>当前 HP<input name="hp_current" inputmode="numeric" /></label></div><label class="sheet-line">伤势记录<textarea name="wounds" rows="2"></textarea></label></section>
-      </div>
-
-      <h3>武器与攻击 Weapon Combat</h3>
-      <div class="table-wrap"><table class="data-table sheet-weapons"><thead><tr><th>武器</th><th>每轮攻击</th><th>命中调整</th><th>伤害调整</th><th>THAC0</th><th>伤害 S/M</th><th>伤害 L</th><th>速度因子</th><th>射程／备注</th></tr></thead><tbody>{weapons.map((index) => <tr><td><select name={`weapon_${index}_name`} aria-label={`第 ${index + 1} 件武器`}><option value="">—</option>{weaponItems.map((item) => <option value={item.id} data-rule-sources={sourceLabel(item)}>{item.nameZh}［{sourceLabel(item)}］</option>)}</select></td>{['attacks','hit','damage_adj','thac0','sm','large','speed','notes'].map((key) => <td><input name={`weapon_${index}_${key}`} aria-label={`第 ${index + 1} 件武器 ${key}`} /></td>)}</tr>)}</tbody></table></div>
-      <div class="sheet-pair-notes"><label>特殊攻击<textarea name="special_attacks" rows="2"></textarea></label><label>弹药／消耗品<textarea name="ammunition" rows="2"></textarea></label></div>
-
-      <h3>徒手战斗 Unarmed Combat</h3>
-      <div class="sheet-pairs sheet-unarmed"><label>方式<input name="unarmed_style" /></label><label>攻击形式<input name="unarmed_form" /></label><label>命中／伤害<input name="unarmed_adjustment" /></label><label>效果／备注<input name="unarmed_effect" /></label></div>
-      <div class="sheet-triple"><label>魔法物品<textarea name="magic_items" rows="4"></textarea></label><label>熟练项／技艺<textarea name="proficiencies" rows="4"></textarea></label><label>特殊能力<textarea name="special_abilities" rows="4"></textarea></label></div>
-      <h3>法术 Spells</h3>
-      <p class="small">此处暂作记录，不代表完成起始法术取得程序。魔法师与幻术师的随机起始法术、法术书和今日记忆必须分别处理。</p>
-      <div class="sheet-pairs">{[0, 1, 2, 3].map((index) => <label>第 {index + 1} 个法术<select name={`spell_${index}`} class="spell-choice"><option value="">—</option></select></label>)}</div>
-      <label class="sheet-line">法术书／祈祷记录<textarea name="spellbook_notes" rows="3"></textarea></label>
-    </section>
-
-    <section class="sheet-page" aria-label="人物卡背面">
-      <h2>角色记录 · 背面</h2>
-      <h3>人物描述 Description</h3>
-      <div class="sheet-identity">
-        <label>故乡<input name="homeland" /></label><label>家族／氏族<input name="family" /></label><label>宗教<input name="religion" /></label>
-        <label>性别<input name="sex" /></label><label>年龄<input name="age" /></label><label>社会身份<input name="social_status" /></label>
-        <label>身高／体重<input name="height_weight" /></label><label>发色／瞳色<input name="hair_eyes" /></label><label>外貌<input name="appearance" /></label>
-      </div>
-      <div class="sheet-pair-notes"><label>性格、习惯、恐惧与愿望<textarea name="personality" rows="4"></textarea></label><label>经历与背景<textarea name="history" rows="4"></textarea></label></div>
-
-      <h3>装备与物资 Gear &amp; Supplies</h3>
-      <datalist id="equipment-options">{carryItems.map((item) => <option value={item.nameZh} />)}</datalist>
-      <div class="table-wrap"><table class="data-table sheet-gear"><thead><tr><th>物品</th><th>携带位置</th><th>数量</th><th>备注</th></tr></thead><tbody>{gear.map((index) => <tr><td><input name={`gear_${index}_item`} list="equipment-options" aria-label={`第 ${index + 1} 件装备`} /></td>{['location','quantity','note'].map((key) => <td><input name={`gear_${index}_${key}`} aria-label={`第 ${index + 1} 件装备 ${key}`} /></td>)}</tr>)}</tbody></table></div><p id="encumbrance-result" class="small"></p>
-      <div class="sheet-triple"><label>水／饮料<input name="supplies_water" /></label><label>口粮<input name="supplies_rations" /></label><label>坐骑饲料<input name="supplies_feed" /></label></div>
-
-      <div class="sheet-triple"><label>经验记录<textarea name="experience_notes" rows="4"></textarea></label><label>钱币与宝石<textarea name="treasure_coins" rows="4"></textarea></label><label>贵重物品<textarea name="treasure_valuables" rows="4"></textarea></label></div>
-      <div class="sheet-pair-notes"><label>家人与重要人物<textarea name="family_notes" rows="4"></textarea></label><label>随从／动物伙伴<textarea name="henchmen" rows="4"></textarea></label></div>
-      <label class="sheet-line">值得记录的事件<textarea name="noteworthy_events" rows="3"></textarea></label>
-    </section>
-
-  </form>
-  <aside class="character-guide screen-only"><h2>规则检查</h2><p id="rule-status" role="status">选择种族与职业后显示结果。</p><ul id="rule-hints"></ul></aside>
-  <script>
-    import { classes } from '../../data/public/classes';
-    import { races } from '../../data/public/races';
-    import { items } from '../../data/public/items';
-    import { spells } from '../../data/public/spells';
-    import { abilityAdjustment } from '../../rules-engine/abilities';
-    import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement } from '../../rules-engine/character';
-    const form = document.querySelector('#character-form');
-    const status = document.querySelector('#character-status');
-    const fields = [...form.querySelectorAll('input[name], select[name], textarea[name]')];
-    const abilities = ['STR', 'INT', 'WIS', 'DEX', 'CON', 'CHA'];
-    const weapons = [0, 1, 2, 3];
-    const gear = [0, 1, 2, 3, 4, 5, 6];
-    const sourceChecks = [...document.querySelectorAll('.rule-source')];
-    const enabledSources = () => new Set(sourceChecks.filter((input) => input.checked).map((input) => input.value));
-    const entryEnabled = (entry) => entry?.source.some((source) => enabledSources().has(source.book));
-    const saveCampaignProfile = () => { const sources = [...enabledSources()]; form.elements.campaign_sources.value = JSON.stringify(sources); localStorage.setItem('adnd1e-campaign-profile', JSON.stringify({ sources })); };
-    const applyCampaignSources = (sources) => { const selected = new Set(Array.isArray(sources) ? sources : []); for (const input of sourceChecks) input.checked = selected.has(input.value); saveCampaignProfile(); };
-    let lastSpellClass = '';
-    const updateSpellOptions = (classId) => {
-      if (lastSpellClass === classId) return;
-      const spellClass = classes.find((entry) => entry.id === classId)?.nameEn;
-      for (const select of form.querySelectorAll('.spell-choice')) {
-        const previous = select.value;
-        const options = [new Option('—', '')];
-        for (const spell of spells.filter((entry) => spellClass && entry.classes.includes(spellClass) && entryEnabled(entry))) options.push(new Option(`${spell.level}环 ${spell.nameZh} / ${spell.nameEn}［${spell.source.map((source) => source.book).join('、')}］`, spell.id));
-        if (previous && !options.some((option) => option.value === previous)) { const old = spells.find((entry) => entry.id === previous); options.push(new Option(`${old?.nameZh ?? previous}（职业或规则来源当前不可用）`, previous)); }
-        select.replaceChildren(...options);
-        select.value = previous;
-      }
-      lastSpellClass = classId;
-    };
-    const data = () => Object.fromEntries(fields.map((field) => [field.name, field.type === 'checkbox' ? field.checked : field.value]));
-    const update = () => {
-      const character = data();
-      const exceptionalAllowed = character.STR === '18' && ['fighter', 'paladin', 'ranger', 'cavalier', 'barbarian'].includes(character.class);
-      document.querySelector('#exceptional-row').hidden = !exceptionalAllowed;
-      for (const ability of abilities) document.querySelector(`#derived-${ability}`).textContent = abilityAdjustment(ability, ability === 'STR' && exceptionalAllowed && character.exceptional_strength ? `18/${character.exceptional_strength === '00' ? '00' : character.exceptional_strength.split('–')[0]}` : character[ability]).display;
-      const race = races.find((entry) => entry.id === character.race);
-      const classEntry = classes.find((entry) => entry.id === character.class);
-      updateSpellOptions(character.class);
-      for (const option of form.querySelectorAll('option[data-rule-sources]')) { const allowed = option.dataset.ruleSources.split('、').some((source) => enabledSources().has(source)); option.disabled = option.selected ? false : !allowed; }
-      const candidate = { raceId: character.race, classId: character.class, alignment: character.alignment, abilities: character };
-      const classSelect = form.elements.class;
-      for (const option of classSelect.options) {
-        if (!option.value) continue;
-        const entry = classes.find((item) => item.id === option.value);
-        const reasons = checkEligibility({ ...candidate, classId: option.value }, classes, races);
-        const sourceDisabled = !entryEnabled(entry);
-        option.disabled = option.value !== character.class && (sourceDisabled || (!character.dm_override && reasons.length > 0));
-        option.title = reasons.map((issue) => issue.message).join('；');
-        const books = entry?.source.map((source) => source.book).join('、') ?? '来源待补';
-        option.textContent = `${entry?.nameZh ?? option.value}［${books}］${sourceDisabled ? '（规则书未启用）' : reasons.length ? '（不符合条件）' : ''}`;
-      }
-      for (const option of form.elements.race.options) { if (!option.value) continue; const entry = races.find((item) => item.id === option.value); option.disabled = option.value !== character.race && !entryEnabled(entry); }
-      const armor = items.find((item) => item.id === character.armor_item);
-      const shield = items.find((item) => item.id === character.shield_item);
-      const weapon = items.find((item) => item.id === character.weapon_0_name);
-      const ac = computeArmorClass(armor, shield, character.DEX, Number(character.ac_modifier) || 0);
-      form.elements.ac.readOnly = !character.manual_ac;
-      if (!character.manual_ac) form.elements.ac.value = String(ac.value);
-      document.querySelector('#ac-breakdown').textContent = `${ac.components.map((part, index) => `${part.label} ${index ? part.value >= 0 ? '+' + part.value : part.value : part.value}`).join('；')} → AC ${ac.value}。${ac.notes.join(' ')}`;
-      const equipped = [armor, shield, ...weapons.map((index) => items.find((item) => item.id === character[`weapon_${index}_name`]))].filter(Boolean);
-      const entries = [...equipped.map((item) => ({ item, quantity: 1 })), ...gear.map((index) => ({ item: items.find((item) => item.nameZh === character[`gear_${index}_item`] || item.id === character[`gear_${index}_item`]), quantity: Number(character[`gear_${index}_quantity`]) || 1 })).filter((entry) => entry.item)];
-      const encumbrance = computeEncumbrance(entries);
-      const unlistedGear = gear.map((index) => character[`gear_${index}_item`]).filter((name) => name && !items.some((item) => item.nameZh === name || item.id === name));
-      const coins = Math.max(0, Number(character.coins_carried) || 0);
-      const raceBase = character.class === 'barbarian' ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12);
-      const movement = computeMovement({ base: raceBase, weightPounds: encumbrance.value + coins / 10, strength: exceptionalAllowed && character.exceptional_strength ? `18/${character.exceptional_strength === '00' ? '00' : character.exceptional_strength.split('–')[0]}` : character.STR, bulky: character.move_bulky, difficultTerrain: character.move_terrain, otherAdjustment: Number(character.move_adjustment) || 0 });
-      form.elements.move_base.value = `${movement.base}"`;
-      form.elements.move_loaded.readOnly = !character.manual_movement;
-      if (!character.manual_movement) form.elements.move_loaded.value = `${movement.effective}"`;
-      form.elements.move_run.value = movement.run;
-      document.querySelector('#movement-breakdown').textContent = `已知装备 ${encumbrance.value.toFixed(1)} 磅＋钱币 ${coins / 10} 磅；${movement.notes.join(' ')}${character.manual_movement ? ' 实际移动率已由 DM 手动覆盖。' : ''}`;
-      document.querySelector('#encumbrance-result').textContent = `已知总负重 ${(encumbrance.value + coins / 10).toFixed(1)} 磅；移动 ${character.manual_movement ? form.elements.move_loaded.value : `${movement.effective}"`}。${[...encumbrance.unknown, ...unlistedGear].length ? `未能计重：${[...encumbrance.unknown, ...unlistedGear].join('、')}。` : ''}`;
-      const issues = [...checkEligibility(candidate, classes, races), ...weapons.flatMap((index) => checkEquipment(character.class, items.find((item) => item.id === character[`weapon_${index}_name`]), index === 0 ? armor : undefined, index === 0 ? shield : undefined))];
-      for (const index of weapons) { const spell = spells.find((entry) => entry.id === character[`spell_${index}`]); if (spell && !spell.classes.includes(classEntry?.nameEn ?? '')) issues.push({ code: 'spell', message: `${spell.nameZh}不在当前职业法术表中`, source: 'PHB 法术表' }); }
-      document.querySelector('#rule-status').textContent = issues.length ? `${character.dm_override ? 'DM 覆盖已启用；' : ''}存在 ${issues.length} 项已检查规则冲突` : '当前已检查范围内未发现冲突；这不代表人物已经完成';
-      const sourceIssues = [...(!entryEnabled(race) && race ? [`⚠ ${race.nameZh}的来源规则书未启用。`] : []), ...(!entryEnabled(classEntry) && classEntry ? [`⚠ ${classEntry.nameZh}的来源规则书未启用。`] : [])];
-      const hints = [...sourceIssues, ...issues.map((issue) => `⚠ ${issue.message}（${issue.source}）`), ...(race && classEntry ? [`${race.nameZh}／${classEntry.nameZh}等级上限：${race.eligibleClasses.find(({ id }) => id === classEntry.id)?.limit ?? '不允许'}。`] : []), ...ac.notes, ...encumbrance.notes, ...(unlistedGear.length ? ['有自由填写的装备未能自动计重。'] : [])];
-      document.querySelector('#rule-hints').replaceChildren(...hints.map((hint) => { const li = document.createElement('li'); li.textContent = hint; return li; }));
-    };
-    const applyData = (values) => { if (!values || typeof values !== 'object' || Array.isArray(values)) throw new Error('JSON 内容不是人物对象。'); if (typeof values.campaign_sources === 'string') { try { applyCampaignSources(JSON.parse(values.campaign_sources)); } catch {} } if ('class' in values) form.elements.class.value = String(values.class); lastSpellClass = ''; updateSpellOptions(form.elements.class.value); for (const field of fields) { let value = values[field.name]; if (field.type === 'checkbox' && typeof value === 'boolean') field.checked = value; else if (typeof value === 'string' || typeof value === 'number') { if (field.name.startsWith('weapon_') && field.name.endsWith('_name')) value = items.find((entry) => entry.nameZh === value)?.id ?? value; field.value = String(value); } } if (values.ac && !('manual_ac' in values) && !values.armor_item) form.elements.manual_ac.checked = true; update(); };
-    fields.forEach((field) => { field.addEventListener('input', update); field.addEventListener('change', update); });
-    sourceChecks.forEach((input) => input.addEventListener('change', () => { saveCampaignProfile(); lastSpellClass = ''; update(); }));
-    weapons.forEach((index) => form.elements[`weapon_${index}_name`].addEventListener('change', () => { const item = items.find((entry) => entry.id === form.elements[`weapon_${index}_name`].value); if (!item) return; form.elements[`weapon_${index}_sm`].value = item.damageSmallMedium ?? ''; form.elements[`weapon_${index}_large`].value = item.damageLarge ?? ''; form.elements[`weapon_${index}_speed`].value = item.speedFactor ?? ''; update(); }));
-    const savedSelect = document.querySelector('#saved-characters');
-    const readSaved = () => { try { const value = JSON.parse(localStorage.getItem('adnd1e-characters') ?? '[]'); return Array.isArray(value) ? value : []; } catch { return []; } };
-    const refreshSaved = (selected = '') => { savedSelect.replaceChildren(new Option('选择已保存的人物', ''), ...readSaved().map((entry) => new Option(entry.name || '未命名人物', entry.character_id))); savedSelect.value = selected; };
-    const saveCurrent = () => { if (!form.elements.character_id.value) form.elements.character_id.value = crypto.randomUUID(); const current = data(); const saved = readSaved().filter((entry) => entry.character_id !== current.character_id); saved.push(current); localStorage.setItem('adnd1e-characters', JSON.stringify(saved)); localStorage.setItem('adnd1e-character', JSON.stringify(current)); refreshSaved(current.character_id); status.textContent = '已保存到此浏览器。'; };
-    document.querySelector('#new-character').addEventListener('click', () => { const sources = [...enabledSources()]; form.reset(); applyCampaignSources(sources); form.elements.character_id.value = ''; lastSpellClass = ''; update(); savedSelect.value = ''; status.textContent = '已新建空白人物卡，并保留战役规则配置。'; });
-    document.querySelector('#save-character').addEventListener('click', saveCurrent);
-    document.querySelector('#load-character').addEventListener('click', () => { try { const saved = readSaved().find((entry) => entry.character_id === savedSelect.value) ?? JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null'); if (!saved) { status.textContent = '没有找到保存的人物。'; return; } applyData(saved); refreshSaved(saved.character_id); status.textContent = '已加载保存的人物。'; } catch { status.textContent = '保存内容无法读取。'; } });
-    document.querySelector('#copy-character').addEventListener('click', () => { const current = { ...data(), character_id: crypto.randomUUID(), name: `${data().name || '未命名人物'}（副本）` }; applyData(current); saveCurrent(); status.textContent = '已复制并保存人物。'; });
-    document.querySelector('#delete-character').addEventListener('click', () => { const id = form.elements.character_id.value || savedSelect.value; if (!id || !window.confirm('删除此浏览器保存的人物？已导出的 JSON 不受影响。')) return; localStorage.setItem('adnd1e-characters', JSON.stringify(readSaved().filter((entry) => entry.character_id !== id))); if (JSON.parse(localStorage.getItem('adnd1e-character') ?? 'null')?.character_id === id) localStorage.removeItem('adnd1e-character'); form.reset(); form.elements.character_id.value = ''; lastSpellClass = ''; update(); refreshSaved(); status.textContent = '已删除此浏览器中的人物。'; });
-    document.querySelector('#export-character').addEventListener('click', () => { const blob = new Blob([JSON.stringify(data(), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = `${data().name || 'adnd1e-character'}.json`; document.body.append(link); link.click(); link.remove(); status.textContent = `已请求下载 ${link.download}。`; setTimeout(() => URL.revokeObjectURL(link.href), 30000); });
-    document.querySelector('#import-character').addEventListener('change', async (event) => { const file = event.target.files?.[0]; if (!file) return; try { applyData(JSON.parse(await file.text())); status.textContent = '已导入 JSON。'; } catch { status.textContent = 'JSON 无法读取或格式不正确。'; } });
-    document.querySelector('#print-character').addEventListener('click', () => window.print());
-    try { const profile = JSON.parse(localStorage.getItem('adnd1e-campaign-profile') ?? 'null'); if (Array.isArray(profile?.sources)) applyCampaignSources(profile.sources); else saveCampaignProfile(); } catch { saveCampaignProfile(); }
-    refreshSaved();
-    update();
-  </script>
+    <p class="character-home-note">角色系统使用现有本地档案格式；不会把旧手工表猜成合法角色，也不会在浏览器里伪造“已审核”状态。</p>
+  </main>
 </BaseLayout>
+
+<style>
+  .character-home{max-width:960px;margin:0 auto;padding:3rem 1.25rem 5rem}
+  .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:#8b3530;font-size:.8rem}
+  h1{font-size:clamp(2.2rem,5vw,4rem);margin:.3rem 0 1rem}
+  .lede{max-width:42rem;font-size:1.1rem;color:#5f6975}
+  .character-home-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin:2rem 0 3rem}
+  .character-home-actions a{display:inline-flex;align-items:center;min-height:2.8rem;padding:.65rem 1rem;border:1px solid #cbd2da;color:#18212b;text-decoration:none}
+  .character-home-actions a:hover{background:#f3f5f7}
+  .character-home-actions .primary{background:#18212b;color:#fff;border-color:#18212b}
+  .character-home-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;border-top:1px solid #d9dee5;padding-top:1.5rem}
+  .character-home-grid article{border-left:3px solid #80652f;padding:0 1rem 1rem}
+  .character-home-grid h2{font-size:1.2rem}
+  .character-home-grid p{color:#5f6975;font-size:.95rem}
+  .character-home-grid a{color:#8b3530}
+  .character-home-note{margin-top:2.5rem;padding-top:1rem;border-top:1px solid #d9dee5;color:#5f6975;font-size:.85rem}
+  @media(max-width:700px){.character-home{padding-top:2rem}.character-home-grid{grid-template-columns:1fr}.character-home-actions a{flex:1 1 40%}}
+</style>

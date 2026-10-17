@@ -36,7 +36,7 @@ export function renderCampaignJournal(view: CampaignJournalView): string {
       <details>
         <summary>操作条件与裁定边界</summary>
         <p id="journal-activity-note">只登记旅行、冒险、休整、学习、研究、制造等已发生的实际时间占用，不核定收益、不授予成果、不计算费用；提交时仍须通过现有活动重叠检查。训练请使用成长页。${view.calendar ? '' : '请先在成长页确认战役日历，再登记活动时段。'}</p>
-        <p>经验与财富分别登记，确认后才写入档案；可用条件仍由现有规则检查。本地 DM 声明不是身份认证。</p>
+        <p>经验与财富分别登记，确认后才写入档案；可用条件仍由现有规则检查。本地记录不是身份认证。</p>
       </details>
       <div class="journal-save" data-save-state><span>保存状态</span><strong>待核</strong><small>读取现有角色库</small></div>
     </section>

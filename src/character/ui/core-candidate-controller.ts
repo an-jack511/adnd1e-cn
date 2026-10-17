@@ -13,7 +13,6 @@ import type { CoreWeaponFamily } from '../rules/core-equipment-legality';
 import { coreWeaponChoices } from '../rules/core-weapon-choices';
 import { renderInitialSpells } from './core-initial-spells';
 import { renderStartingEquipment } from './core-starting-equipment';
-import { renderCampaignAdmission } from './core-campaign-admission';
 import { readCoreCreationLibrary, saveCoreCreationLibrary } from '../workflows/core-creation-storage';
 import type { CoreAlignmentId as LanguageAlignmentId, CoreLanguageCareerId, CoreRaceId as LanguageRaceId } from '../rules/core-languages';
 const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
@@ -46,7 +45,6 @@ export function startCoreCandidate(){
     const update=(value:NonNullable<typeof evaluated>)=>{evaluated=value;renderTaskSummary();};
     renderInitialSpells(get('core-initial-spells'),()=>evaluated,update);
     renderStartingEquipment(get('core-starting-equipment'),()=>evaluated,update);
-    renderCampaignAdmission(get('core-campaign-admission'),()=>evaluated,update);
   }
   function message(value:string,error=false){status.textContent=value;status.dataset.error=String(error);}
   let drafts:ReturnType<typeof readLibrary>=[];
@@ -57,7 +55,7 @@ export function startCoreCandidate(){
   for(const c of pack.classes.filter(c=>c.id!=='bard')){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.value=c.id;input.name='core-class';label.append(input,document.createTextNode(' '+c.label));classes.append(label);}
   function renderSubraces(){const r=pack.races.find(x=>x.id===raceSelect.value)!;subrace.replaceChildren(new Option(r.subraceIds.length?'请选择原书亚种':'不适用',''),...r.subraceIds.map(id=>new Option(id,id)));subrace.disabled=!r.subraceIds.length;}
   raceSelect.addEventListener('change',renderSubraces);renderSubraces();
-  function invalidate(){evaluated=null;savedBase=null;get('core-initial-spells').replaceChildren();get('core-starting-equipment').replaceChildren();get('core-campaign-admission').replaceChildren();get<HTMLButtonElement>('core-export').disabled=true;resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;resourceStatus.textContent='先完成核心资格检查。';renderTaskSummary();}
+  function invalidate(){evaluated=null;savedBase=null;get('core-initial-spells').replaceChildren();get('core-starting-equipment').replaceChildren();get<HTMLButtonElement>('core-export').disabled=true;resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;resourceStatus.textContent='先完成核心资格检查。';renderTaskSummary();}
   const weaponFamilies:CoreWeaponFamily[]=['bo-stick','club','crossbow','crossbow-heavy','dagger','dart','flail','hammer','hand-axe','javelin','jo-stick','longbow','mace','pike','pole-arm','scimitar','sling','spear','staff','sword-bastard','sword-broad','sword-long','sword-short','sword-two-handed','other'];
   function renderProficiencies(){
     renderSpells();
@@ -70,7 +68,7 @@ export function startCoreCandidate(){
     for(let index=0;index<plan.totalSlots;index++){
       const row=document.createElement('div');row.dataset.proficiency='true';
       const label=document.createElement('label');label.textContent=`熟练 ${index+1} `;
-      const select=document.createElement('select');select.className='weapon-choice';select.append(new Option('请选择具体武器',''),...coreWeaponChoices.map(w=>new Option(w.label,w.id)),new Option('其他武器（待 DM 核对）','custom'));label.append(select);
+      const select=document.createElement('select');select.className='weapon-choice';select.append(new Option('请选择具体武器',''),...coreWeaponChoices.map(w=>new Option(w.label,w.id)),new Option('其他武器（待战役确认）','custom'));label.append(select);
       const custom=document.createElement('input');custom.className='weapon-id';custom.placeholder='其他具体武器名称或 ID';custom.hidden=true;custom.setAttribute('aria-label',`熟练 ${index+1} 其他具体武器`);
       const family=document.createElement('select');family.className='weapon-family';family.hidden=true;family.setAttribute('aria-label',`熟练 ${index+1} 武器分类`);family.append(...weaponFamilies.map(value=>new Option(value,value)));
       select.addEventListener('change',()=>{custom.hidden=family.hidden=select.value!=='custom';});
@@ -116,7 +114,7 @@ export function startCoreCandidate(){
   }
   const alignmentMap:Record<string,LanguageAlignmentId>={LG:'lawful-good',NG:'neutral-good',CG:'chaotic-good',LN:'lawful-neutral',TN:'true-neutral',CN:'chaotic-neutral',LE:'lawful-evil',NE:'neutral-evil',CE:'chaotic-evil'};
   function currentLanguagePlan(selections:readonly LanguageSelectionInput[]=[]){if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const result=evaluated.evaluation as ReturnType<typeof evaluateCoreEligibility>;return planCoreLanguages({raceId:evaluated.candidate.raceId as LanguageRaceId,alignmentId:alignmentMap[evaluated.candidate.alignmentId],intelligence:result.adjustedScores.INT,careers:evaluated.candidate.classIds.map(classId=>({classId:classId as CoreLanguageCareerId,level:1})),selections});}
-  function renderLanguagePlan(){const plan=currentLanguagePlan();languages.hidden=false;languageAutomatic.textContent=`自动语言：${plan.automaticLanguages.map(item=>item.languageId).join('、')||'无'}${plan.automaticCommunications.length?`；特殊交流：${plan.automaticCommunications.join('、')}`:''}。普通语言学习期：${plan.ordinaryStudyMonths}个月。`;languageSlots.replaceChildren();for(const entitlement of plan.entitlements)for(let index=0;index<entitlement.count;index++){const wrap=document.createElement('div');wrap.dataset.entitlement=entitlement.entitlementId;const label=document.createElement('label');label.textContent=`${entitlement.kind} ${index+1}/${entitlement.count}`;let field:HTMLInputElement|HTMLSelectElement;if(entitlement.allowedLanguageIds){field=document.createElement('select');field.append(new Option('请选择',''),...entitlement.allowedLanguageIds.map(id=>new Option(id,id)));}else{field=document.createElement('input');field.placeholder='由 DM 许可的稳定语言 ID';}field.className='core-language-choice';label.append(field);wrap.append(label);if(entitlement.requiresDmApproval){const approve=document.createElement('label');approve.textContent='DM 已确认战役可用及取得方式';const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.className='core-language-approved';approve.prepend(checkbox);wrap.append(approve);}languageSlots.append(wrap);}languageStatus.textContent=plan.entitlements.length?'请填满需要的语言位；不确定的选择可保留为需 DM。':'没有额外语言位，仍会记录自动语言。';}
+  function renderLanguagePlan(){const plan=currentLanguagePlan();languages.hidden=false;languageAutomatic.textContent=`自动语言：${plan.automaticLanguages.map(item=>item.languageId).join('、')||'无'}${plan.automaticCommunications.length?`；特殊交流：${plan.automaticCommunications.join('、')}`:''}。普通语言学习期：${plan.ordinaryStudyMonths}个月。`;languageSlots.replaceChildren();for(const entitlement of plan.entitlements)for(let index=0;index<entitlement.count;index++){const wrap=document.createElement('div');wrap.dataset.entitlement=entitlement.entitlementId;const label=document.createElement('label');label.textContent=`${entitlement.kind} ${index+1}/${entitlement.count}`;let field:HTMLInputElement|HTMLSelectElement;if(entitlement.allowedLanguageIds){field=document.createElement('select');field.append(new Option('请选择',''),...entitlement.allowedLanguageIds.map(id=>new Option(id,id)));}else{field=document.createElement('input');field.placeholder='输入语言 ID；不确定时可先记录计划';}field.className='core-language-choice';label.append(field);wrap.append(label);languageSlots.append(wrap);}languageStatus.textContent=plan.entitlements.length?'请填满需要的语言位；不确定的选择可先记录为待战役确认。':'没有额外语言位，仍会记录自动语言。';}
   get('core-evaluate').addEventListener('click',()=>{
     try{
       const draft=drafts.find(d=>d.id===draftSelect.value);if(!draft?.scores||!draft.activeBatch)throw new Error('请先选择已确认六项属性的草稿。');
@@ -129,9 +127,9 @@ export function startCoreCandidate(){
       results.replaceChildren();for(const id of coreAbilityIds){const item=document.createElement('div');item.textContent=`${id} ${draft.scores[id]} → ${result.adjustedScores[id]}`;results.append(item);}
       issues.replaceChildren();
       if(!result.issues.length){const li=document.createElement('li');li.textContent='核心资格检查没有发现阻断项；仍须完成HP、金钱、装备、语言、熟练和法术等创建任务。';issues.append(li);}
-      for(const item of result.issues){const li=document.createElement('li');const refs=item.sourceIds.map(id=>{const s=pack.sources.find(x=>x.id===id);return s?`${s.book} p.${s.printedPage}`:id;}).join('、');li.textContent=`${item.verdict==='forbidden'?'禁止':'需DM'}：${item.message}（${refs}）`;issues.append(li);}
+      for(const item of result.issues){const li=document.createElement('li');const refs=item.sourceIds.map(id=>{const s=pack.sources.find(x=>x.id===id);return s?`${s.book} p.${s.printedPage}`:id;}).join('、');li.textContent=`${item.verdict==='forbidden'?'禁止':'待确认'}：${item.message}（${refs}）`;issues.append(li);}
       const caps=Object.entries(result.classLevelCaps).map(([id,value])=>`${id}: ${value==='unlimited'?'不限':value==='needs-dm'?'待确认':value}`).join('；');
-      message(`${result.verdict==='allowed'?'核心资格允许':result.verdict==='forbidden'?'核心资格不合法':'核心资格需要DM裁定'}。等级上限：${caps}` ,result.verdict==='forbidden');
+      message(`${result.verdict==='allowed'?'核心资格允许':result.verdict==='forbidden'?'核心资格不合法':'核心资格存在待确认事项'}。等级上限：${caps}` ,result.verdict==='forbidden');
       get<HTMLButtonElement>('core-export').disabled=false;
       if(result.verdict!=='forbidden'){renderResourcePlan();renderLanguagePlan();renderProficiencies();}else{resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;}
     }catch(e){evaluated=null;results.replaceChildren();issues.replaceChildren();get<HTMLButtonElement>('core-export').disabled=true;message((e as Error).message,true);}
@@ -145,12 +143,12 @@ export function startCoreCandidate(){
   });
   get('core-money-record').addEventListener('click',()=>{
     try{if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const ids=evaluated.candidate.classIds as InitialCoreClassId[];
-      if(ids.length!==1){const plan=calculateCoreStartingMoney({classIds:ids,faces:[]});if(plan.status!=='needs-dm')throw new Error('Unexpected multi-class money plan.');evaluated=recordCreationTask(evaluated,'money',{status:'needs-dm',sourceIds:[...plan.sourceIds],note:plan.reason,facts:{reason:plan.reason}});resourceStatus.textContent='起始金钱已记录为需要DM处理；没有相加或择优。';return;}
+      if(ids.length!==1){const plan=calculateCoreStartingMoney({classIds:ids,faces:[]});if(plan.status!=='needs-dm')throw new Error('Unexpected multi-class money plan.');evaluated=recordCreationTask(evaluated,'money',{status:'needs-dm',sourceIds:[...plan.sourceIds],note:plan.reason,facts:{reason:plan.reason}});resourceStatus.textContent='多职业起始金钱已记录为待战役确认；没有相加或择优。';return;}
       const rule=startingMoneyRules[startingMoneyFamilyByClass[ids[0]]],roll=parseFaces('core-money-faces',rule.diceCount,rule.dieSides),plan=calculateCoreStartingMoney({classIds:ids,faces:roll.values});if(plan.status!=='calculated')throw new Error(plan.reason);
       evaluated=recordCreationTask(evaluated,'money',{status:'complete',sourceIds:[...plan.sourceIds],note:`起始金钱 ${plan.gp} gp`,facts:{...plan,rollMethod:roll.method}});resourceStatus.textContent=`已记录 ${plan.gp} gp；原始骰面 ${plan.faces.join(', ')}。`;
     }catch(e){resourceStatus.textContent=(e as Error).message;}
   });
-  get('core-language-record').addEventListener('click',()=>{try{if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const selections:LanguageSelectionInput[]=[];for(const wrap of languageSlots.querySelectorAll<HTMLElement>('[data-entitlement]')){const field=wrap.querySelector<HTMLInputElement|HTMLSelectElement>('.core-language-choice')!,languageId=field.value.trim();if(!languageId)continue;const entitlementId=wrap.dataset.entitlement!,approved=wrap.querySelector<HTMLInputElement>('.core-language-approved')?.checked??true;selections.push({entitlementId,languageId,dmApproved:approved,acquisition:entitlementId==='intelligence-extra'?'pre-existing-at-creation':'class-level-grant'});}const plan=currentLanguagePlan(selections);if(plan.selections.some(item=>item.status==='invalid'))throw new Error(plan.selections.find(item=>item.status==='invalid')!.reason??'语言选择无效。');const open=Object.values(plan.openSlots).reduce((sum,value)=>sum+value,0),needsDm=plan.selections.some(item=>item.status==='needs-dm'),taskStatus=needsDm?'needs-dm':open?'pending':'complete';evaluated=recordCreationTask(evaluated,'languages',{status:taskStatus,sourceIds:[...plan.sourceIds],note:needsDm?'语言选择等待 DM 批准。':open?`仍有 ${open} 个语言位未填写。`:'语言计划已完整记录。',facts:{...plan}});languageStatus.textContent=needsDm?'已保存；至少一项等待 DM 批准。':open?`已保存；仍有 ${open} 个语言位未填写。`:'语言计划已记录完成。';}catch(error){languageStatus.textContent=(error as Error).message;}});
+  get('core-language-record').addEventListener('click',()=>{try{if(!evaluated?.candidate)throw new Error('请先检查核心资格。');const selections:LanguageSelectionInput[]=[];for(const wrap of languageSlots.querySelectorAll<HTMLElement>('[data-entitlement]')){const field=wrap.querySelector<HTMLInputElement|HTMLSelectElement>('.core-language-choice')!,languageId=field.value.trim();if(!languageId)continue;const entitlementId=wrap.dataset.entitlement!;selections.push({entitlementId,languageId,dmApproved:false,acquisition:entitlementId==='intelligence-extra'?'pre-existing-at-creation':'class-level-grant'});}const plan=currentLanguagePlan(selections);if(plan.selections.some(item=>item.status==='invalid'))throw new Error(plan.selections.find(item=>item.status==='invalid')!.reason??'语言选择无效。');const open=Object.values(plan.openSlots).reduce((sum,value)=>sum+value,0),needsDm=plan.selections.some(item=>item.status==='needs-dm'),taskStatus=needsDm?'needs-dm':open?'pending':'complete';evaluated=recordCreationTask(evaluated,'languages',{status:taskStatus,sourceIds:[...plan.sourceIds],note:needsDm?'语言选择已记录，待战役确认。':open?`仍有 ${open} 个语言位未填写。`:'语言计划已完整记录。',facts:{...plan}});languageStatus.textContent=needsDm?'已保存；至少一项待战役确认。':open?`已保存；仍有 ${open} 个语言位未填写。`:'语言计划已记录完成。';}catch(error){languageStatus.textContent=(error as Error).message;}});
   get('core-export').addEventListener('click',()=>{
     if(!evaluated)return;const blob=new Blob([JSON.stringify(evaluated,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=(evaluated.name||'adnd1e-core-creation').replace(/[\\/:*?"<>|]/g,'_')+'.adnd1e-core-creation.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);message('已请求下载核心创建进度文件；它不是完整人物档案或入场许可。');
   });
@@ -166,7 +164,7 @@ export function startCoreCandidate(){
       for(const id of coreAbilityIds){const item=document.createElement('div');item.textContent=`${id} ${restored.generation.scores[id]} → ${result.adjustedScores[id]}`;results.append(item);}
       for(const issue of result.issues){const li=document.createElement('li');li.textContent=`${issue.message}（${issue.sourceIds.join('、')}）`;issues.append(li);}
       resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;
-      for(const id of ['core-initial-spells','core-starting-equipment','core-campaign-admission'])get(id).replaceChildren();
+      for(const id of ['core-initial-spells','core-starting-equipment'])get(id).replaceChildren();
       if(restored.status!=='admitted'&&restored.status!=='blocked'){renderResourcePlan();renderLanguagePlan();renderProficiencies();}
       if(restored.status!=='admitted'&&restored.status!=='blocked'){
         const hp=restored.tasks.find(task=>task.id==='hp')?.facts;
