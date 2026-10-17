@@ -15,6 +15,7 @@ tests.push('test-core-combat-defense.ts');
 tests.push('test-campaign-preparation.ts');
 tests.push('test-core-growth-checklist.ts');
 tests.push('test-core-campaign-storage.ts');
+tests.push('test-core-campaign-migrations.ts');
 tests.push('test-core-relationship-operations.ts','test-core-campaign-relationships.ts','test-core-training-restart.ts');
 tests.push('test-core-heal-convalescence.ts');
 tests.push('test-core-editor-io.ts');

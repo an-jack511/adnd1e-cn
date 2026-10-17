@@ -1,5 +1,5 @@
-import { newCoreCampaignArchive, parseCoreCampaignArchive, commitCoreCampaignAction, type CoreCampaignArchive } from '../workflows/core-campaign-runtime';
-import { parseCoreAdmissionArchive } from '../workflows/core-admission';
+import { commitCoreCampaignAction, type CoreCampaignArchive } from '../workflows/core-campaign-runtime';
+import { migrateCoreCampaignImport } from '../interchange/core-campaign-migrations';
 import type { PerformanceRating } from '../rules/core-training';
 import { planBelowNameTraining, planNameLevelTraining } from '../engine/core-training';
 import type { CoreAdvancementState } from '../workflows/core-advancement';
@@ -184,8 +184,8 @@ export function startCoreCampaign(){
       if(current)throw new Error('请先导出当前档案，再刷新页面打开其他文件。');
       if(file.size>8*1024*1024)throw new Error('文件超过 8 MiB，请使用档案检查页。');
       const value=JSON.parse(await file.text());
-      const parsed=value?.format==='adnd1e-core-admission-runtime'?newCoreCampaignArchive(parseCoreAdmissionArchive(value)):parseCoreCampaignArchive(value);
-      current=parsed;render();status.textContent='已验证档案，经验操作将保留独立事件。';
+      const migration=migrateCoreCampaignImport(value);
+      current=migration.archive;render();status.textContent=migration.migrated?`已按明确的档案迁移规则打开；${migration.warnings[0]}`:'已验证档案，经验操作将保留独立事件。';
       });
     }catch(error){status.textContent=(error as Error).message;}
   });
