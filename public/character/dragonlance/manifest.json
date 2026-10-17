@@ -1,0 +1,121 @@
+{
+  "format": "adnd1e-dragonlance-roster",
+  "schemaVersion": "1.0.0",
+  "title": "龙枪八人 · DL01首次出现版",
+  "source": {
+    "id": "dl01:character-cards",
+    "book": "DL1《龙枪：绝望之龙》",
+    "pdfPages": [
+      17,
+      18
+    ],
+    "currencySource": {
+      "id": "dl01:krynn-currency",
+      "pdfPage": 31
+    },
+    "note": "DL01 PC 卡片给出首次出现时的八人属性、等级、HP、AC、装备和背景；人物卡中的 pack 由玩家选择，本批采用通用冒险背包。"
+  },
+  "characters": [
+    {
+      "slug": "tanis-half-elf-fighter-5",
+      "name": "坦尼斯",
+      "raceLabel": "半精灵",
+      "classLabel": "战士",
+      "level": 5,
+      "hp": 35,
+      "ac": 4,
+      "startingMoney": "20 Emas",
+      "background": "五年前，坦尼斯随基蒂亚拉穿越北方；分别后，他一边寻找神职者，一边追寻自己的身世。他只知道母亲带着父亲留下的剑和戒指离开，也因此试图找回索兰尼亚骑士传统。",
+      "file": "tanis-half-elf-fighter-5.adnd1e-character.json"
+    },
+    {
+      "slug": "sturm-human-fighter-6",
+      "name": "斯特姆·布莱特布雷德",
+      "raceLabel": "人类",
+      "classLabel": "战士",
+      "level": 6,
+      "hp": 29,
+      "ac": 5,
+      "startingMoney": "20 Emas",
+      "background": "斯特姆护送基蒂亚拉越过北方海域，随后东西分行。他寻找一位圣人，也寻找自己的出身：母亲留下父亲的剑和戒指，而父亲据说曾是索兰尼亚骑士。",
+      "file": "sturm-human-fighter-6.adnd1e-character.json"
+    },
+    {
+      "slug": "caramon-human-fighter-6",
+      "name": "卡拉蒙",
+      "raceLabel": "人类",
+      "classLabel": "战士",
+      "level": 6,
+      "hp": 36,
+      "ac": 6,
+      "startingMoney": "20 Emas",
+      "background": "卡拉蒙与雷斯林是双胞胎。他一路陪着弟弟走过高等魔法塔的试炼；两兄弟性格截然不同，但卡拉蒙始终是那个保护弟弟的人。",
+      "file": "caramon-human-fighter-6.adnd1e-character.json"
+    },
+    {
+      "slug": "raistlin-human-magic-user-3",
+      "name": "雷斯林",
+      "raceLabel": "人类",
+      "classLabel": "魔法师",
+      "level": 3,
+      "hp": 8,
+      "ac": 5,
+      "startingMoney": "15 Emas",
+      "background": "雷斯林与卡拉蒙曾在高等魔法塔接受亡灵贤者的试炼。试炼严重损害了他的健康，也让他获得了强大的魔法；他如今以沙漏般的眼睛看待世界，准备在即将到来的时代使用力量。",
+      "file": "raistlin-human-magic-user-3.adnd1e-character.json"
+    },
+    {
+      "slug": "goldmoon-human-cleric-5",
+      "name": "金月",
+      "raceLabel": "人类",
+      "classLabel": "牧师",
+      "level": 5,
+      "hp": 19,
+      "ac": 6,
+      "startingMoney": "15 Emas",
+      "background": "金月是奎舒部落的公主，河风是她的守护者和未婚夫。父亲要求河风从被遗忘之地带回魔法作为婚约证明；父亲后来否认法杖的力量并下令将河风石刑，金月冲到他身边时，法杖发光，把他们带到了村外平原。",
+      "file": "goldmoon-human-cleric-5.adnd1e-character.json"
+    },
+    {
+      "slug": "riverwind-human-ranger-5",
+      "name": "河风",
+      "raceLabel": "人类",
+      "classLabel": "游侠",
+      "level": 5,
+      "hp": 34,
+      "ac": 5,
+      "startingMoney": "20 Emas",
+      "background": "河风是奎舒部落的战士，爱着金月。他带着她父亲要求的任务进入被遗忘之地；归来后却被指责法杖并不神奇，还被下令处死。濒死之际法杖将他和金月带走。",
+      "file": "riverwind-human-ranger-5.adnd1e-character.json"
+    },
+    {
+      "slug": "flint-dwarf-fighter-4",
+      "name": "弗林特·火炉锻",
+      "raceLabel": "矮人",
+      "classLabel": "战士",
+      "level": 4,
+      "hp": 42,
+      "ac": 6,
+      "startingMoney": "20 Emas",
+      "background": "弗林特寻找着通往山地矮人地下王国的大门。灾变时山地矮人曾被关在门外；他后来被苦力矮人抓住又逃脱，对山地矮人和苦力矮人都怀有强烈怨气。",
+      "file": "flint-dwarf-fighter-4.adnd1e-character.json"
+    },
+    {
+      "slug": "tasslehoff-kender-thief-4",
+      "name": "塔斯勒霍夫·伯特福特",
+      "raceLabel": "克林",
+      "classLabel": "盗贼",
+      "level": 4,
+      "hp": 15,
+      "ac": 5,
+      "startingMoney": "10 Emas",
+      "background": "塔斯在五年旅行中几乎忘记了去过的地方。他本想给旅程绘制地图，却总是更专注于继续上路；回到索拉斯时，发现故乡已被寻道者神权统治。",
+      "file": "tasslehoff-kender-thief-4.adnd1e-character.json"
+    }
+  ],
+  "limitations": [
+    "DL01没有为每个角色写个人钱包；10–20 Emas 是明确标记的索拉斯开局战役设置，不是冒充原卡原文。",
+    "DL01的 pack 写作“由玩家选择”，本批落实为通用冒险背包；之后可按实际战役替换。",
+    "等级和HP是首次出现预生成人物卡的事实，不能当作网站重放得到的升级历史。"
+  ]
+}

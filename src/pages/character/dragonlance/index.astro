@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const roster = [
+  ['tanis-half-elf-fighter-5', '坦尼斯', '半精灵 · 战士 5级', '35', '4', '20 Emas'],
+  ['sturm-human-fighter-6', '斯特姆·布莱特布雷德', '人类 · 战士 6级', '29', '5', '20 Emas'],
+  ['caramon-human-fighter-6', '卡拉蒙', '人类 · 战士 6级', '36', '6', '20 Emas'],
+  ['raistlin-human-magic-user-3', '雷斯林', '人类 · 魔法师 3级', '8', '5', '15 Emas'],
+  ['goldmoon-human-cleric-5', '金月', '人类 · 牧师 5级', '19', '6', '15 Emas'],
+  ['riverwind-human-ranger-5', '河风', '人类 · 游侠 5级', '34', '5', '20 Emas'],
+  ['flint-dwarf-fighter-4', '弗林特·火炉锻', '矮人 · 战士 4级', '42', '6', '20 Emas'],
+  ['tasslehoff-kender-thief-4', '塔斯勒霍夫·伯特福特', '克林 · 盗贼 4级', '15', '5', '10 Emas'],
+];
+---
+<BaseLayout title="龙枪八人 · 角色档案">
+  <main class="dragonlance-roster">
+    <p class="eyebrow">角色系统 · 来源档案</p>
+    <h1>龙枪八人</h1>
+    <p class="lede">按 DL01《龙枪：绝望之龙》第一次出现时的人物卡制作的八份可下载角色档案。点击即可下载，不需要逐个重新车卡。</p>
+    <section class="source-note">
+      <strong>来源说明</strong>
+      <p>属性、HP、AC、职业等级、装备和背景来自 DL01 PDF 第 17–18 页；Krynn 的 Emas 货币来自 DL01 第 31 页。个人钱包并未在人物卡中给出，因此页面采用明确标记的索拉斯开局设置，并把装备卡中的“由玩家选择的冒险背包”落实为可替换的通用背包。</p>
+    </section>
+    <div class="roster-grid">
+      {roster.map(([slug, name, role, hp, ac, money]) => <article class="roster-card">
+        <div>
+          <p class="roster-role">{role}</p>
+          <h2>{name}</h2>
+          <dl><div><dt>HP</dt><dd>{hp}</dd></div><div><dt>AC</dt><dd>{ac}</dd></div><div><dt>钱包</dt><dd>{money}</dd></div></dl>
+        </div>
+        <a class="download" href={`/character/dragonlance/${slug}.adnd1e-character.json`} download>下载角色档案</a>
+      </article>)}
+    </div>
+    <p class="back-link"><a href="/character/">← 返回角色系统</a></p>
+  </main>
+</BaseLayout>
+
+<style>
+  .dragonlance-roster{max-width:1080px;margin:0 auto;padding:3rem 1.25rem 5rem;color:#18212b}
+  .eyebrow{letter-spacing:.12em;text-transform:uppercase;color:#8b3530;font-size:.8rem}
+  h1{font-size:clamp(2.2rem,5vw,4rem);margin:.3rem 0 1rem}
+  .lede{max-width:48rem;font-size:1.08rem;color:#5f6975;line-height:1.8}
+  .source-note{margin:2rem 0;padding:1rem 1.2rem;border-left:3px solid #b18b55;background:#fff;border-top:1px solid #e0e4e8;border-bottom:1px solid #e0e4e8;line-height:1.7}
+  .source-note p{margin:.35rem 0 0;color:#5f6975}
+  .roster-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1.5rem}
+  .roster-card{display:flex;justify-content:space-between;gap:1rem;align-items:end;border:1px solid #d5dbe2;background:#fff;padding:1.2rem 1.25rem;min-height:9rem}
+  .roster-card h2{font-size:1.3rem;margin:.35rem 0 .8rem}
+  .roster-role{font-size:.85rem;color:#8b3530;margin:0}
+  dl{display:flex;gap:1rem;margin:0;color:#5f6975}.roster-card dt{font-size:.75rem}.roster-card dd{font-weight:700;margin:.15rem 0 0;color:#18212b}
+  .download{border:1px solid #263448;color:#263448;padding:.6rem .75rem;text-decoration:none;white-space:nowrap}.download:hover{background:#263448;color:#fff}
+  .back-link{margin-top:2rem}.back-link a{color:#8b3530}
+  @media(max-width:700px){.dragonlance-roster{padding-top:2rem}.roster-grid{grid-template-columns:1fr}.roster-card{align-items:flex-start;flex-direction:column}.download{width:100%;text-align:center;box-sizing:border-box}}
+</style>

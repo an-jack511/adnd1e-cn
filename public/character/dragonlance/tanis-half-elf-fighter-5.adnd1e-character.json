@@ -1,0 +1,717 @@
+{
+  "format": "adnd1e-character",
+  "schemaVersion": "1.1.0",
+  "document": {
+    "id": "dragonlance-tanis-half-elf-fighter-5:export",
+    "characterId": "dragonlance-tanis-half-elf-fighter-5",
+    "revision": 1,
+    "parentRevision": null,
+    "branchId": "main",
+    "exportedAt": "2026-10-17T00:00:00+08:00",
+    "view": "player",
+    "archiveGuarantee": "checkpoint-and-audit"
+  },
+  "rules": {
+    "engineContractVersion": "1.0.0",
+    "profileId": "dragonlance-dl01-first-appearance",
+    "profileRevision": 1,
+    "packs": [
+      {
+        "id": "adnd1e.phb-dmg-mm",
+        "version": "1e-source-compatible",
+        "digest": "source-backed-profile-not-replayed"
+      },
+      {
+        "id": "adnd1e.dragonlance-dl01",
+        "version": "9130-local",
+        "digest": "dl01-pdf-pages-17-18-31"
+      }
+    ],
+    "options": {
+      "abilityGeneration": "DL01:预生成人物卡",
+      "levelAndHp": "DL01:预生成人物卡",
+      "experience": "原表未提供",
+      "money": "Seeker Emas：战役设置 10–20 em",
+      "ordinaryEquipment": "pack：按人物卡“由玩家选择”落实为冒险背包"
+    },
+    "decisions": [
+      {
+        "id": "dragonlance-tanis-half-elf-fighter-5:source-import",
+        "ruleId": "dragonlance.pre-generated-character",
+        "choice": "imported-first-appearance-profile",
+        "reason": "从 DL01 首次出现人物卡导入来源事实；钱币采用明确标注的索拉斯开局战役设置，不冒充 DL01 个人钱包规则；金月的蓝晶法杖按出场携带物收入，费用为 0。",
+        "actorId": "local-source-import",
+        "sourceIds": [
+          "dl01:character-cards",
+          "dl01:krynn-currency"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "dl01:character-cards",
+        "book": "DL1《龙枪：绝望之龙》",
+        "printing": "本地 TSR 1e PDF；PC 卡片扫描页",
+        "printedPages": [
+          17,
+          18
+        ],
+        "pdfPages": [
+          17,
+          18
+        ],
+        "section": "Player Character Cards",
+        "status": "verified-text",
+        "locator": "local:Dragonlance:DL01:pdf:17-18",
+        "verificationScope": "首次出现版本的属性、阵营、HP、AC、职业等级、装备、法术书/每日法术能力、盗贼技能和背景。"
+      },
+      {
+        "id": "dl01:krynn-currency",
+        "book": "DL1《龙枪：绝望之龙》",
+        "printing": "本地 TSR 1e PDF；附录一",
+        "printedPages": [
+          31
+        ],
+        "pdfPages": [
+          31
+        ],
+        "section": "Rates of Exchange",
+        "status": "verified-text",
+        "locator": "local:Dragonlance:DL01:pdf:31",
+        "verificationScope": "Krynn 七种金属货币、Seeker Lands 的 Emas（钢币）及兑换关系。"
+      }
+    ],
+    "definitions": [
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:1",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "背包",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:2",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "睡袋",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:3",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "水袋",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:4",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "燧石与钢",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:5",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "7 日口粮",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:6",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "50 尺麻绳",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:7",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "6 支火把",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:8",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "旅行斗篷",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:9",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "+2 皮甲",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:10",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "+2 长剑",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:11",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "弓",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:12",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "20 支箭",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      },
+      {
+        "id": "DL01:tanis-half-elf-fighter-5:item:13",
+        "kind": "source-or-campaign-equipment",
+        "facts": {
+          "label": "匕首 ×2",
+          "suppliedBySource": false,
+          "acquisition": "source-listed-or-campaign-loadout",
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl01:character-cards"
+        ]
+      }
+    ],
+    "embeddedBundles": []
+  },
+  "checkpoint": {
+    "atSequence": 3,
+    "facts": {
+      "identity": {
+        "name": "坦尼斯",
+        "raceId": "half-elf",
+        "sex": "未提供",
+        "alignment": "中立善良",
+        "ageYears": null,
+        "languages": [
+          "通用语",
+          "奎利内斯提语",
+          "山地矮人语",
+          "平原人语"
+        ],
+        "description": "DL01 首次出现人物卡：五年前，坦尼斯随基蒂亚拉穿越北方；分别后，他一边寻找神职者，一边追寻自己的身世。他只知道母亲带着父亲留下的剑和戒指离开，也因此试图找回索兰尼亚骑士传统。"
+      },
+      "abilities": {
+        "base": {
+          "STR": 16,
+          "INT": 12,
+          "WIS": 13,
+          "DEX": 16,
+          "CON": 12,
+          "CHA": 15
+        },
+        "exceptionalStrength": null,
+        "generation": {
+          "methodId": "DL01:预生成人物卡",
+          "rollIds": [],
+          "assignment": {}
+        },
+        "changes": []
+      },
+      "careers": [
+        {
+          "id": "dragonlance-tanis-half-elf-fighter-5:career",
+          "classId": "fighter",
+          "variantId": "DL01:first-appearance",
+          "level": 5,
+          "xp": 0,
+          "status": "active",
+          "levelHistory": [
+            {
+              "level": 5,
+              "eventId": "dragonlance-tanis-half-elf-fighter-5:source-profile",
+              "hpDice": [],
+              "hpAward": 35,
+              "sourceIds": [
+                "dl01:character-cards"
+              ]
+            }
+          ],
+          "training": [],
+          "choices": {
+            "sourceImported": true,
+            "weaponAndClassChoices": "DL01人物卡来源事实；原卡没有完整熟练记录"
+          }
+        }
+      ],
+      "resources": {
+        "hp": {
+          "damage": 0,
+          "temporary": 0
+        },
+        "wallets": [
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:purse",
+            "locationId": "body",
+            "coins": {
+              "pp": 0,
+              "gp": 0,
+              "ep": 0,
+              "sp": 0,
+              "cp": 0
+            }
+          }
+        ],
+        "inventory": [
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:1",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:1",
+            "label": "背包",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "背包",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:2",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:2",
+            "label": "睡袋",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "睡袋",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:3",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:3",
+            "label": "水袋",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "水袋",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:4",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:4",
+            "label": "燧石与钢",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "燧石与钢",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:5",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:5",
+            "label": "7 日口粮",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "7 日口粮",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:6",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:6",
+            "label": "50 尺麻绳",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "50 尺麻绳",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:7",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:7",
+            "label": "6 支火把",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "6 支火把",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:8",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:8",
+            "label": "旅行斗篷",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "旅行斗篷",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:9",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:9",
+            "label": "+2 皮甲",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+2 皮甲",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:10",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:10",
+            "label": "+2 长剑",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+2 长剑",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:11",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:11",
+            "label": "弓",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "弓",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:12",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:12",
+            "label": "20 支箭",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "20 支箭",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          },
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:item:13",
+            "definitionId": "DL01:tanis-half-elf-fighter-5:item:13",
+            "label": "匕首 ×2",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "匕首 ×2",
+              "acquisition": "source-listed-or-campaign-loadout",
+              "costCp": null
+            }
+          }
+        ],
+        "conditions": [],
+        "abilitiesUsed": {},
+        "locations": [
+          {
+            "id": "body",
+            "kind": "person",
+            "parentId": null,
+            "containerInstanceId": null,
+            "entityId": "dragonlance-tanis-half-elf-fighter-5"
+          },
+          {
+            "id": "worn",
+            "kind": "body-slot",
+            "parentId": "body",
+            "containerInstanceId": null,
+            "entityId": null
+          }
+        ]
+      },
+      "magic": {
+        "understanding": [],
+        "books": [],
+        "memory": [],
+        "research": [],
+        "qualificationRounds": []
+      },
+      "campaign": {
+        "time": "未设定",
+        "status": "draft",
+        "relationships": [],
+        "properties": [
+          {
+            "id": "dragonlance-tanis-half-elf-fighter-5:purse",
+            "label": "索拉斯开局钱包",
+            "locationId": "body",
+            "ownership": "character",
+            "details": {
+              "currencySystem": "Seeker Emas",
+              "emas": 20,
+              "campaignSetup": true
+            }
+          }
+        ],
+        "activities": [],
+        "goals": [
+          "在龙枪战役中继续运营人物。"
+        ],
+        "admission": {
+          "status": "pending",
+          "decisionId": null,
+          "acceptedScopes": [
+            "source-profile"
+          ],
+          "outstanding": [
+            "DL01 人物卡没有为个人列出钱包；本档案采用“索拉斯开局钱包”战役设置：按 DL01 的 Seeker Emas 货币记录。",
+            "人物卡中的“pack（由玩家选择）”已经落实为一个通用冒险背包；如战役有不同携行物，可直接替换。",
+            "等级和 HP 是 DL01 首次出现人物卡的来源事实，不是本网站从一级逐级重放的结果。"
+          ]
+        },
+        "lifeState": "alive",
+        "actionRestrictions": []
+      },
+      "careerPath": {
+        "mode": "single",
+        "careerIds": [
+          "dragonlance-tanis-half-elf-fighter-5:career"
+        ],
+        "phases": []
+      },
+      "hpAwards": [],
+      "advancement": {
+        "adventureAssessments": [],
+        "xpBatches": [],
+        "pending": []
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "dragonlance-tanis-half-elf-fighter-5:source-profile",
+      "sequence": 1,
+      "parentId": null,
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-profile-import"
+        ]
+      },
+      "sourceIds": [
+        "dl01:character-cards"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-tanis-half-elf-fighter-5:source-equipment",
+      "sequence": 2,
+      "parentId": "dragonlance-tanis-half-elf-fighter-5:source-profile",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-listed-equipment",
+          "campaign-pack-selection",
+          "campaign-starting-purse"
+        ]
+      },
+      "sourceIds": [
+        "dl01:character-cards",
+        "dl01:krynn-currency"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-tanis-half-elf-fighter-5:open-items",
+      "sequence": 3,
+      "parentId": "dragonlance-tanis-half-elf-fighter-5:source-equipment",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "player",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "DL01 人物卡没有为个人列出钱包；本档案采用“索拉斯开局钱包”战役设置：按 DL01 的 Seeker Emas 货币记录。",
+          "人物卡中的“pack（由玩家选择）”已经落实为一个通用冒险背包；如战役有不同携行物，可直接替换。",
+          "等级和 HP 是 DL01 首次出现人物卡的来源事实，不是本网站从一级逐级重放的结果。"
+        ]
+      },
+      "sourceIds": [
+        "dl01:character-cards"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    }
+  ],
+  "rolls": [],
+  "overrides": [],
+  "cache": {
+    "engineVersion": "source-profile-cache",
+    "rulesDigest": "dl01-pdf-pages-17-18-31",
+    "throughSequence": 3,
+    "values": {
+      "hpMax": 35,
+      "hpCurrent": 35,
+      "armorClass": 4,
+      "sourceProfile": true,
+      "currency": {
+        "system": "Seeker Emas",
+        "emas": 20
+      }
+    },
+    "warnings": [
+      "这是 DL01 首次出现人物卡的来源档案；等级、HP 与 AC 未由一级创建过程重放。",
+      "DL01 人物卡没有为个人列出钱包；本档案采用“索拉斯开局钱包”战役设置：按 DL01 的 Seeker Emas 货币记录。",
+      "人物卡中的“pack（由玩家选择）”已经落实为一个通用冒险背包；如战役有不同携行物，可直接替换。",
+      "等级和 HP 是 DL01 首次出现人物卡的来源事实，不是本网站从一级逐级重放的结果。"
+    ]
+  },
+  "provenance": {
+    "creator": "dragonlance-first-appearance-roster",
+    "importedFrom": "DL01:Player Character Cards:PDF pages 17-18; Rates of Exchange:PDF page 31",
+    "migrations": [],
+    "unmappedLegacy": {}
+  },
+  "extensions": {
+    "dragonlance": {
+      "source": "dl01:character-cards",
+      "nameChinese": "坦尼斯",
+      "classChinese": "战士",
+      "raceChinese": "半精灵",
+      "firstAppearance": "DL01",
+      "background": "五年前，坦尼斯随基蒂亚拉穿越北方；分别后，他一边寻找神职者，一边追寻自己的身世。他只知道母亲带着父亲留下的剑和戒指离开，也因此试图找回索兰尼亚骑士传统。",
+      "currency": {
+        "system": "Seeker Emas",
+        "emas": 20,
+        "isCampaignSetup": true,
+        "conversionSource": "dl01:krynn-currency"
+      },
+      "dailySpellCapacity": null,
+      "spellbook": [],
+      "thiefSkills": null,
+      "sourceEquipmentOnly": false,
+      "originalLanguagesIncludeCommon": true
+    }
+  },
+  "proposals": []
+}

@@ -6,11 +6,22 @@ const labels: Record<string, string> = {
   pending: '待完成', complete: '已记录', 'not-applicable': '不适用', 'needs-dm': '待补充', selection: '待选择', incomplete: '未完成', 'ready-for-review': '已准备好', admitted: '已建立', blocked: '被阻断',
   hp: '生命值', money: '起始金钱', languages: '语言', proficiencies: '武器熟练', equipment: '装备', 'initial-spells': '初始法术', psionics: '灵能', 'admission-context': '战役信息',
   STR: '力量', INT: '智力', WIS: '智慧', DEX: '敏捷', CON: '体质', CHA: '魅力',
-  common: '通用语', dwarvish: '矮人语', elvish: '精灵语', gnomish: '侏儒语', orcish: '兽人语', goblin: '哥布林语', neutral: '中立通用语',
+  common: '通用语', dwarvish: '矮人语', elvish: '精灵语', gnomish: '侏儒语', orcish: '兽人语', goblin: '哥布林语',
+  kobold: '狗头人语', hobgoblin: '熊地精语', gnoll: '豺狼人语',
+  'alignment:lawful-good': '守序善良阵营语', 'alignment:lawful-neutral': '守序中立阵营语', 'alignment:lawful-evil': '守序邪恶阵营语',
+  'alignment:neutral-good': '中立善良阵营语', 'alignment:neutrality': '绝对中立阵营语', 'alignment:neutral-evil': '中立邪恶阵营语',
+  'alignment:chaotic-good': '混乱善良阵营语', 'alignment:chaotic-neutral': '混乱中立阵营语', 'alignment:chaotic-evil': '混乱邪恶阵营语',
+  druidic: '德鲁伊语', 'thieves-cant': '盗贼黑话',
+  centaur: '半人马语', dryad: '树精语', faun: '牧神语', 'green-dragon': '绿龙语', 'hill-giant': '丘陵巨人语',
+  lizardman: '蜥蜴人语', manticore: '蝎尾狮语', nixie: '尼克希语', pixie: '皮克精语', sprite: '精灵妖语', treantish: '树人语',
+  'communicate:burrowing-mammals': '与穴居哺乳动物交流',
+  'needs-rest': '需要休息', 'needs-study-or-prayer': '需要学习或祈祷', checking: '检查中', planned: '已计划', completed: '已完成',
+  'physical-or-external': '桌上实体骰或外部骰器', 'browser-crypto': '浏览器随机骰',
 };
 
 export function characterLabel(value: string): string { return labels[value] ?? value; }
 export function taskLabel(value: string): string { return labels[value] ?? value; }
+export function languageLabel(value: string): string { return labels[value] ?? '其他语言（手动记录）'; }
 
 /**
  * Printed equipment facts stay in their source form in the rules package.

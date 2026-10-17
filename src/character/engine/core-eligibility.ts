@@ -8,6 +8,7 @@ export interface CoreCandidate {
   raceId:CoreRaceId;subraceId:string|null;sex:'male'|'female';alignmentId:CoreAlignmentId;
   initialScores:Record<CoreAbilityId,number>;classIds:readonly CoreClassId[];
   mode:'single'|'multiclass';campaign:{allowedRaceIds:readonly CoreRaceId[];bardEnabled:boolean};
+  profile?:{background:string;portraitDataUrl:string|null};
 }
 export interface CoreEligibilityResult {
   verdict:Verdict;adjustedScores:Record<CoreAbilityId,number>;issues:readonly EligibilityIssue[];

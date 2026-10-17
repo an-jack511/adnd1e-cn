@@ -9,7 +9,7 @@ export function renderDivineInitialSpells(host:HTMLElement,read:()=>CoreCreation
   const classId=doc.candidate.classIds[0];if(classId!=='cleric'&&classId!=='druid')return;
   const scores=evaluateCoreEligibility(doc.candidate).adjustedScores,capacity=calculateCoreSpellCapacity({careerId:classId,classId,level:1,model:'single',intelligence:scores.INT,wisdom:scores.WIS});
   const limits=preparedCapacityByLevel(capacity,classId),choices=coreDivineFirstLevelChoices(classId),fields:HTMLSelectElement[]=[];
-  const info=document.createElement('p');info.textContent=`一环准备容量 ${limits[1]??0}；法术表 PHB p.${classId==='cleric'?40:41}。神术不进行 Chance to Know。每一位是独立副本，可重复准备同一法术。`;host.append(info);
+  const info=document.createElement('p');info.textContent=`一环准备容量 ${limits[1]??0}；法术表见 PHB 第${classId==='cleric'?40:41}页。神术不进行法术知悉概率检定。每一位是独立副本，可重复准备同一法术。`;host.append(info);
   function label(text:string,input:HTMLElement){const node=document.createElement('label');node.textContent=text;node.append(input);return node;}
   const mode=document.createElement('select');
   mode.append(new Option('记录本次实际授予并准备','granted'),new Option('记录本次未授予／暂不准备','none'));

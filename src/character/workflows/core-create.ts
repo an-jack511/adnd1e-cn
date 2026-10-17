@@ -4,7 +4,7 @@ import { coreAbilityIds, coreAlignmentIds, coreClassIds, coreRaceIds } from '../
 const abilityValue=z.number().int().min(3).max(18);
 const score=z.object({STR:abilityValue,INT:abilityValue,WIS:abilityValue,DEX:abilityValue,CON:abilityValue,CHA:abilityValue}).strict();
 const candidate=z.object({raceId:z.enum(coreRaceIds),subraceId:z.string().min(1).nullable(),sex:z.enum(['male','female']),alignmentId:z.enum(coreAlignmentIds),
-  initialScores:score,classIds:z.array(z.enum(coreClassIds)).min(1).max(3),mode:z.enum(['single','multiclass']),campaign:z.object({allowedRaceIds:z.array(z.enum(coreRaceIds)).min(1),bardEnabled:z.boolean()}).strict()}).strict();
+  initialScores:score,classIds:z.array(z.enum(coreClassIds)).min(1).max(3),mode:z.enum(['single','multiclass']),campaign:z.object({allowedRaceIds:z.array(z.enum(coreRaceIds)).min(1),bardEnabled:z.boolean()}).strict(),profile:z.object({background:z.string().max(12000),portraitDataUrl:z.string().max(2500000).nullable()}).strict().optional()}).strict();
 const taskIds=['hp','money','languages','proficiencies','equipment','initial-spells','psionics','admission-context'] as const;
 const task=z.object({id:z.enum(taskIds),status:z.enum(['pending','complete','not-applicable','needs-dm']),sourceIds:z.array(z.string().min(1)),note:z.string(),facts:z.record(z.string(),z.unknown()).nullable()}).strict();
 const decision=z.object({issueId:z.string().min(1),choice:z.enum(['accepted-exception','rejected']),actorId:z.string().min(1),reason:z.string().min(1),sourceIds:z.array(z.string().min(1))}).strict();

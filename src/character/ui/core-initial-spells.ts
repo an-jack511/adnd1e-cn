@@ -10,7 +10,7 @@ export function renderInitialSpells(host:HTMLElement,read:()=>CoreCreation|null,
   const heading=document.createElement('h2');heading.textContent='初始法术';host.append(heading);
   const ids=doc.candidate.classIds,arcane=ids.filter(id=>id==='magic-user'||id==='illusionist');
   const status=document.createElement('p');status.setAttribute('role','status');
-  const explanation=document.createElement('p');explanation.textContent='DMG p.39 的初始授予与 PHB p.10 的法术知悉概率（Chance to Know）分别记录。初始授予不会自动填满智力最低法术数，也不会等同于已记忆法术。';host.append(explanation);
+  const explanation=document.createElement('p');explanation.textContent='DMG 第39页的初始授予与 PHB 第10页的法术知悉概率分别记录。初始授予不会自动填满智力最低法术数，也不会等同于已准备法术。';host.append(explanation);
   if(!arcane.length){
     if(ids.some(id=>id==='cleric'||id==='druid')){if(ids.length===1)renderDivineInitialSpells(host,read,write);else{status.textContent='多职业神术准备仍需对应流程。';host.append(status);}return;}
     const button=document.createElement('button');button.type='button';button.textContent='记录一级无初始施法任务';
@@ -50,7 +50,7 @@ export function renderInitialSpells(host:HTMLElement,read:()=>CoreCreation|null,
     if(current.tasks.find(t=>t.id==='initial-spells')?.facts?.input)throw new Error('已有实际理解与取得骰史；不能用重新授予按钮静默覆盖。请在下方继续，需改授予时先保留原件并处理明确更正。');
     const plan=ids[0]==='magic-user'?planMagicUserInitialSpells({rolls:{offensive:Number(fields.offensive.roll.value),defensive:Number(fields.defensive.roll.value),miscellaneous:Number(fields.miscellaneous.roll.value)},choices:{offensive:fields.offensive.choice.value,defensive:fields.defensive.choice.value,miscellaneous:fields.miscellaneous.choice.value}}):planIllusionistInitialSpells({rolls:illusionRolls.value.split(/[,，\s]+/).filter(Boolean).map(Number)});
     const incomplete='status' in plan&&plan.status==='incomplete';
-    write(recordCreationTask(current,'initial-spells',{status:incomplete?'pending':'needs-dm',sourceIds:[...(plan.sourceIds??['dmg:39:initial-illusionist-spells'])],note:incomplete?'重复骰面已保存，仍需掷到三个不同法术。':'初始授予已计算；Chance to Know 与实际取得情况待补充。',facts:{...plan,rollMethod:'physical-or-external',campaignChoiceVariant:false}}));
+    write(recordCreationTask(current,'initial-spells',{status:incomplete?'pending':'needs-dm',sourceIds:[...(plan.sourceIds??['dmg:39:initial-illusionist-spells'])],note:incomplete?'重复骰面已保存，仍需掷到三个不同法术。':'初始授予已计算；法术知悉概率与实际取得情况待补充。',facts:{...plan,rollMethod:'physical-or-external',campaignChoiceVariant:false}}));
     if(!incomplete){const initialPlan:CoreArcaneCreationInput['initialPlan']=ids[0]==='magic-user'?{classId:'magic-user',input:{rolls:{offensive:Number(fields.offensive.roll.value),defensive:Number(fields.defensive.roll.value),miscellaneous:Number(fields.miscellaneous.roll.value)},choices:{offensive:fields.offensive.choice.value||undefined,defensive:fields.defensive.choice.value||undefined,miscellaneous:fields.miscellaneous.choice.value||undefined}}}:{classId:'illusionist',input:{rolls:illusionRolls.value.split(/[,，\s]+/).filter(Boolean).map(Number)}};renderArcaneBookCreation(bookHost,read,write,initialPlan);}
     status.textContent=`已记录：${plan.spells.join('、')}。${incomplete?'仍需继续掷骰。':'尚未自动准备法术；由战役自行确认。'}`;
   }catch(error){status.textContent=(error as Error).message;}});
