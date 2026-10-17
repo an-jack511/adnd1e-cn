@@ -60,6 +60,7 @@ import '../../../styles/character-prototype.css';
   if (reviewSaveNote) reviewSaveNote.textContent = '导出文件是自己的备份，也方便以后迁移到其他工具；它不会改变角色状态。';
   const reviewSaveNoteWrapped = document.querySelector<HTMLElement>('#create-panel-review .create-action-row + p');
   if (reviewSaveNoteWrapped) reviewSaveNoteWrapped.textContent = '导出文件是自己的备份，也方便以后迁移到其他工具；它不会改变角色状态。';
+  document.querySelector<HTMLElement>('#create-panel-review [data-create-save]')?.closest('.create-action-row')?.remove();
   const identityTaskNote = document.querySelector<HTMLElement>('#create-panel-identity .inline-note');
   if (identityTaskNote) identityTaskNote.textContent = '检查通过后，下面的开局任务会直接展开；没有完成的事项会显示为待补充。';
   const navNote = document.querySelector<HTMLElement>('.nav-foot p');
