@@ -33,6 +33,11 @@ if (admission.includes('确认此设置的 DM 身份') || admission.includes('�
   throw new Error('Player creation still exposes the future DM Studio review workflow.');
 }
 
+const sheetController = page('src/character/ui/campaign-sheet-controller.ts');
+if (!sheetController.includes('preservedRaw') || !sheetController.includes('受保护的原始档案') || !sheetController.includes('.preserved.json')) {
+  throw new Error('Campaign sheet must preserve and export unreadable local originals without parsing or overwriting them.');
+}
+
 const distReview = join(root, 'dist/character/review/index.html');
 if (existsSync(distReview)) {
   throw new Error('The generated static site still contains the removed DM review page.');
