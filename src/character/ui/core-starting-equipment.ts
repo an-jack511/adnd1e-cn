@@ -1,4 +1,5 @@
-import { type PurchaseLine } from '../engine/core-inventory';
+import { createCorePlayerStartingInventory, type PurchaseLine } from '../engine/core-inventory';
+import { coinValueCp } from '../rules/core-inventory';
 import { coreEquipmentById, coreEquipmentCatalog } from '../rules/core-inventory';
 import { recordCreationTask, type CoreCreation } from '../workflows/core-create';
 import { equipmentLabel, equipmentUnitLabel } from './character-labels';
@@ -24,9 +25,10 @@ export function renderStartingEquipment(host:HTMLElement,read:()=>CoreCreation|n
     const eventId=crypto.randomUUID();
     const lines:PurchaseLine[]=pending.map((item,index)=>({instanceId:`${eventId}:${index}`,definitionId:item.definition.value,quantity:Number(item.quantity.value),destinationLocationId:'character',agreedUnitPriceCp:Number(item.price.value),availability:{status:'unresolved',decisionId:null},bulk:'unknown',bulkRulingId:null}));
     if(!lines.length)throw new Error('请先添加至少一项物品。');
-    const actualCostCp=lines.reduce((sum,line)=>sum+line.agreedUnitPriceCp*line.quantity,0),tenderCp=Number(tender.value)*100,changeCp=Number(change.value);
+    const actualCostCp=lines.reduce((sum,line)=>sum+line.agreedUnitPriceCp*line.quantity,0),tenderCp=Number(tender.value)*coinValueCp.gp,changeCp=Number(change.value);
     if(tenderCp-changeCp!==actualCostCp)throw new Error('付款减找零必须等于采购计划总额。');
-    write(recordCreationTask(document,'equipment',{status:'needs-dm',sourceIds:['phb:35:money-equipment','phb:36:equipment-armor','phb:37:weapon-weight'],note:'采购计划已记录；尚未确定的库存与携带事实保留在档案中。',facts:{purchasePlan:{lines,tenderGp:Number(tender.value),changeCp,actualCostCp},startingMoneyRevision:document.revision}}));
-    status.textContent=`已记录 ${lines.length} 项采购计划，计划金额 ${actualCostCp} 铜币；尚未写入实际库存。`;
+    const ledger=createCorePlayerStartingInventory({eventId,startingMoneyGp:gp,tenderGp:Number(tender.value),changeCp,lines});
+    write(recordCreationTask(document,'equipment',{status:'complete',sourceIds:['phb:35:money-equipment','phb:36:equipment-armor','phb:37:weapon-weight'],note:'已将玩家记录的初始物品与剩余钱币写入人物卡；供应、负重和携带细节仍保留原始事实，不在本站伪造 DM 审核。',facts:{purchasePlan:{lines,tenderGp:Number(tender.value),changeCp,actualCostCp},ledger,startingMoneyRevision:document.revision}}));
+    status.textContent=`已记录 ${lines.length} 项初始物品，计划金额 ${actualCostCp} 铜币；人物卡会直接显示这些物品。`;
   }catch(error){status.textContent=(error as Error).message;}});
 }

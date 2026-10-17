@@ -8,6 +8,7 @@ import {
 import {
   assessCoreEncumbranceGuideline,
   commitCorePurchase,
+  createCorePlayerStartingInventory,
   moneyValueCp,
   recordCoreEncumbranceRuling,
   relocateInventoryItem,
@@ -86,6 +87,19 @@ assert.equal(purchase.next.items.find((item) => item.id === 'rope-1')?.weight.ki
 assert.deepEqual(purchase.next.items.find((item) => item.id === 'arrows-1')?.weight, {
   kind: 'approximate', unitWeightGp: 24, sourceId: 'phb:37:weapon-weight',
 });
+
+const playerStarting = createCorePlayerStartingInventory({
+  eventId: 'creation-equipment-1', startingMoneyGp: 120, tenderGp: 3, changeCp: 320,
+  lines: [{
+    instanceId: 'player-rope-1', definitionId: 'rope-fifty-foot', quantity: 1,
+    destinationLocationId: 'character', agreedUnitPriceCp: 280,
+    availability: { status: 'unresolved', decisionId: null }, bulk: 'unknown', bulkRulingId: null,
+  }],
+});
+assert.equal(playerStarting.items[0].label, "Rope, 50'");
+assert.deepEqual(playerStarting.wallets[0].coins, { cp: 320, sp: 0, ep: 0, gp: 117, pp: 0 });
+assert.equal(moneyValueCp(playerStarting.wallets[0].coins), 23720);
+validateCoreInventoryLedger(playerStarting);
 
 const assessment = assessCoreEncumbranceGuideline({ ledger: purchase.next, carrierLocationId: 'hero' });
 const unpacked=unpackCoreInventoryBundle({ledger:purchase.next,itemId:'arrows-1',bundleCount:1,pieceInstanceId:'single-arrows',eventId:'unpack-arrows',expectedRevision:purchase.next.revision});

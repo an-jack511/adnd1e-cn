@@ -165,6 +165,64 @@ export function validateCoreInventoryLedger(ledger: CoreInventoryLedger): void {
   }
 }
 
+/**
+ * Player-side creation handoff. It records what the player says the character
+ * starts with, without asserting that a market had the goods or that a DM
+ * approved the purchase. The original purchase plan remains the provenance.
+ */
+export function createCorePlayerStartingInventory(input: {
+  readonly eventId: string;
+  readonly startingMoneyGp: number;
+  readonly tenderGp: number;
+  readonly changeCp: number;
+  readonly lines: readonly PurchaseLine[];
+}): CoreInventoryLedger {
+  requireId(input.eventId, 'starting inventory event');
+  requireWhole(input.startingMoneyGp, 'starting money gp');
+  requireWhole(input.tenderGp, 'starting tender gp');
+  requireWhole(input.changeCp, 'starting change cp');
+  if (input.tenderGp > input.startingMoneyGp) throw new Error('Starting purchase exceeds the recorded starting money.');
+  if (!input.lines.length) throw new Error('Starting inventory needs at least one item.');
+
+  const items = input.lines.map((line) => {
+    requireId(line.instanceId, 'starting item instance');
+    const definition = coreEquipmentById[line.definitionId];
+    if (!definition) throw new Error(`Unknown starting equipment definition: ${line.definitionId}.`);
+    requireWhole(line.quantity, `starting quantity for ${line.instanceId}`, 1);
+    requireWhole(line.agreedUnitPriceCp, `starting price for ${line.instanceId}`);
+    const weight: ItemWeightFact = definition.approximateWeightGp === null
+      ? { kind: 'unknown' }
+      : { kind: 'approximate', unitWeightGp: definition.approximateWeightGp, sourceId: 'phb:37:weapon-weight' };
+    return {
+      id: line.instanceId,
+      definitionId: definition.id,
+      label: definition.printedName,
+      quantity: line.quantity,
+      locationId: 'character',
+      weight,
+      bulk: 'unknown' as const,
+      bulkRulingId: null,
+      acquiredByEventId: input.eventId,
+    };
+  });
+
+  const actualCostCp = items.reduce((sum, item, index) =>
+    safeAdd(sum, safeMultiply(input.lines[index].agreedUnitPriceCp, item.quantity, 'starting purchase cost'), 'starting purchase cost'), 0);
+  const tenderCp = safeMultiply(input.tenderGp, coinValueCp.gp, 'starting tender');
+  if (tenderCp - input.changeCp !== actualCostCp) throw new Error('Starting purchase conservation failed: tender minus change must equal the recorded item total.');
+  const remainingCp = safeAdd(safeAdd(safeMultiply(input.startingMoneyGp, coinValueCp.gp, 'starting money'), -tenderCp, 'starting balance'), input.changeCp, 'starting balance');
+  if (remainingCp < 0) throw new Error('Starting purchase leaves a negative wallet balance.');
+
+  const ledger: CoreInventoryLedger = {
+    revision: 0,
+    locations: [{ id: 'character', kind: 'character', label: '人物携带', parentLocationId: null }],
+    items,
+    wallets: [{ id: 'character-wallet', label: '人物钱包', locationId: 'character', coins: { cp: input.changeCp, sp: 0, ep: 0, gp: input.startingMoneyGp - input.tenderGp, pp: 0 } }],
+  };
+  validateCoreInventoryLedger(ledger);
+  return ledger;
+}
+
 function subtractCoins(wallet: CoinCounts, tender: CoinCounts, change: CoinCounts): CoinCounts {
   const next = emptyCoins() as Record<CoinDenomination, number>;
   for (const denomination of denominations) {
