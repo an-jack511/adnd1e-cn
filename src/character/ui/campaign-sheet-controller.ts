@@ -6,7 +6,7 @@ import {listBrowserCampaignSlots,loadBrowserCampaign,saveBrowserCampaign, recove
 import {CORE_CAMPAIGN_HISTORY_LIMIT} from '../workflows/core-campaign-storage';
 import type {CampaignSlot} from '../workflows/core-campaign-storage';
 import {renderCampaignCombat,bindCampaignCombat,defenseFields} from './campaign-combat-panel';
-import {renderCampaignSpells,preparationFields,bindPreparationFields,readPreparationFacts,gameTimeFields,readGameMinute} from './campaign-spell-panel';
+import {renderCampaignSpells,preparationFields,bindPreparationFields,readPreparationFacts,gameTimeFields,readGameMinute,arcaneAcquisitionFields,readArcaneAcquisition} from './campaign-spell-panel';
 import {campaignGrowth} from '../application/campaign-growth';
 import {renderCampaignGrowth,growthFields,readGrowthAction} from './campaign-growth-panel';
 import {campaignJournal} from '../application/campaign-journal';
@@ -98,6 +98,7 @@ export function startCampaignSheet(){
       if(['wealth-income','wealth-expense','item-relocate','item-unpack'].includes(b.dataset.operation??'')){openInventory(b.dataset.operation!,b.dataset.id??'');return;}
       if(b.dataset.operation==='burden'){say('负重只显示已知重量下界；体积、未知重量、力量修正和移动率仍须按本战役处理。');return;}
       if(['zero-round','aid','recover-zero','complete-zero-rest','restart-zero-rest','heal-convalescence','natural-recovery','assess-revival','commit-revival'].includes(b.dataset.operation??'')){openLife(b.dataset.operation!);return;}
+      if(b.dataset.operation==='acquire-spell'){if(!current||ioBusy)return;kind='acquire-spell';selectedId='';plan=null;get('sheet-action-title').textContent='记录新奥术来源与转录';get('sheet-preview').textContent='先预览，确认后才应用；不会自动准备或扣费。';get('sheet-apply').textContent='预览结果';get('sheet-fields').innerHTML=arcaneAcquisitionFields(campaignSheet(current));dialog.showModal();return;}
       if(b.dataset.operation!=='journal-activity'){open(b.dataset.operation!,b.dataset.id??'');return;}
       if(!current||ioBusy)return;const calendar=campaignGrowth(current).calendar;
       if(!calendar){say('先在成长工作区明确本战役日历。',true);return;}
@@ -157,7 +158,8 @@ export function startCampaignSheet(){
     else if(kind==='damage'){const entry=data.get('entry');request={type:'character.takeDamage',amount:Number(data.get('amount')),cause:String(data.get('reason')),...entry?{sameBlowEntryRule:entry as 'strict-zero'|'allow-minus-three'}:{}};}
     else if(kind==='defense'){if(data.get('confirmed')!=='on')throw new Error('请确认团桌记录的实际穿戴装备。');request={type:'character.equipDefense',selection:{armorItemId:String(data.get('armor')??'')||null,shieldItemId:String(data.get('shield')??'')||null,ordinaryEquipmentConfirmed:true,note:'团桌已确认普通装备的实际穿戴状态；不结算穿脱时间或手部占用。'}};}
     else if(kind==='heal')request={type:'character.heal',amount:Number(data.get('amount')),description:String(data.get('reason'))};
-    else if(kind==='prepare')request={type:'character.prepareSpells',facts:readPreparationFacts(e.currentTarget as HTMLFormElement,campaignSheet(current))};
+     else if(kind==='prepare')request={type:'character.prepareSpells',facts:readPreparationFacts(e.currentTarget as HTMLFormElement,campaignSheet(current))};
+     else if(kind==='acquire-spell')request=readArcaneAcquisition(e.currentTarget as HTMLFormElement);
     else if(kind==='item')request={type:'character.useItem',itemId:selectedId,quantity:Number(data.get('amount')),reason:String(data.get('reason'))};
      else if(kind==='wealth-income')request={type:'character.receiveWealth',walletId:String(data.get('walletId')),coins:readCoins('income'),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};
      else if(kind==='wealth-expense')request={type:'character.spendWealth',walletId:String(data.get('walletId')),amountCp:Number(data.get('amountCp')),tender:readCoins('tender'),change:readCoins('change'),sourceId:String(data.get('sourceId')),reason:String(data.get('reason'))};

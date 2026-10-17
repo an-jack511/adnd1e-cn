@@ -21,6 +21,9 @@ import { validateCoreWeaponSelections } from '../engine/core-weapon-proficiency'
 import { evaluateCoreEquipmentLegality } from '../engine/core-equipment-legality';
 import { createCoreLifeState, applyHitPointLoss, advanceZeroHpRound, administerFriendlyAid, reviveFromZeroHp, validateCoreLifeState, type CoreLifeState, type SameBlowEntryRule } from '../engine/core-life-state';
 import { castPublicPreparedSpell, type PlayerSpellLedgerProjection } from '../engine/core-spell-ledger';
+import { addArcaneSource, recordArcaneTranscription, projectSpellLedgerForPlayer, type CoreSpellLedger } from '../engine/core-spell-ledger';
+import { newKnowabilityState, recordKnowabilityAttempt, type KnowabilityState } from '../engine/core-spell-acquisition';
+import type { CoreSpellDefinitionRef } from '../rules/core-spell-ledger';
 import {applyActualHealing} from '../engine/core-actual-healing';
 import {coreDefense,defenseSelectionSchema,type DefenseSelection} from '../engine/core-defense';
 import {completeCampaignPreparation,assertPreparationHistoryCoherent,type CampaignSpellLedger,type PreparationFacts,type PreparationCourse} from './core-campaign-preparation';
@@ -64,13 +67,34 @@ export type CampaignAction={id:string;actorId:string;at:string;expectedRevision:
   {type:'assess-revival';assessmentId:string;methodId:CoreRevivalMethodId;subjectRaceId:CoreSubjectRaceId;deathInterval:{value:number;unit:'days'|'years'};bodyAvailable:boolean;casterLevel?:number;checkRoute?:RevivalCheckRoute|null;percentileRoll?:number;reason:string}|
   {type:'commit-revival';assessmentId:string;changeId:string;appearanceTurns?:number;reason:string}|
   {type:'natural-recovery';routeId:NaturalRecoveryRouteId|null;restStartDay:number;restEndDayExclusive:number;continuity:'new'|'continuous';priorContinuousRestDays:number;locationId:string;constitutionHealingAdjustment?:number;dmAwardHp?:number;rulingId?:string;reason:string;rulings?:CoreCampaignCalendar['overlapRulings']}|
-  {type:'cast-prepared';copyId:string;components:'satisfied'|'not-required'|'needs-dm';observedOutcome:string;reason:string;atMinute?:number}|{type:'import-public-relationships';projection:PublicRelationshipProjectionFile}};
+  {type:'cast-prepared';copyId:string;components:'satisfied'|'not-required'|'needs-dm';observedOutcome:string;reason:string;atMinute?:number}|
+  {type:'acquire-arcane-spell';spell:CoreSpellDefinitionRef;sourceEntityId:string;sourceKind:'master-grant'|'level-advance-grant'|'captured-spellbook'|'borrowed-spellbook'|'scroll'|'exchange'|'research'|'other';sourceLabel:string;sourceProvenance:string;sourceEvidenceId:string;targetSpellbookId:string;transcriptionId:string;knowability:{intelligence:number;spellIds:string[];attempts:{spellId:string;percentile:number}[]};outcome:'success'|'failure';actualCostGp?:number;actualDurationMinutes?:number;rulingId?:string}|
+  {type:'import-public-relationships';projection:PublicRelationshipProjectionFile}};
 export interface CoreCampaignArchive{
   format:'adnd1e-core-campaign-runtime';schemaVersion:1;genesis:CoreGenesisArchive;
   actions:CampaignAction[];runtime:CharacterRuntime;
 }
 const sourceId='project:core-campaign-advancement';
 const asJson=(value:unknown)=>JSON.parse(JSON.stringify(value)) as Json;
+const publicSourceKind=(kind:'master-grant'|'level-advance-grant'|'captured-spellbook'|'borrowed-spellbook'|'scroll'|'exchange'|'research'|'other')=>({
+  'master-grant':'teacher','level-advance-grant':'level-advance','captured-spellbook':'found-book','borrowed-spellbook':'borrowed-book',
+  scroll:'scroll',exchange:'exchange',research:'research',other:'undisclosed',
+} as const)[kind];
+function replayKnowability(input:{intelligence:number;spellIds:string[];attempts:{spellId:string;percentile:number}[]}):KnowabilityState{
+  let state=newKnowabilityState(input.intelligence,input.spellIds);
+  for(const attempt of input.attempts)state=recordKnowabilityAttempt(state,attempt.spellId,attempt.percentile);
+  return state;
+}
+/** Rehydrate only the fields needed by the core transcription engine from the
+ * public campaign projection. Private provenance is deliberately replaced by
+ * a neutral archive note; it is never guessed from the player projection. */
+function hydrateArcaneLedger(publicLedger:PlayerSpellLedgerProjection):CoreSpellLedger{
+  if(!['magic-user','illusionist'].includes(publicLedger.tradition))throw new Error('Arcane acquisition requires a magic-user or illusionist ledger.');
+  const kindByPublic:{[key:string]:'master-grant'|'level-advance-grant'|'captured-spellbook'|'borrowed-spellbook'|'scroll'|'exchange'|'research'|'other'}={teacher:'master-grant','level-advance':'level-advance-grant','found-book':'captured-spellbook','borrowed-book':'borrowed-spellbook',scroll:'scroll',exchange:'exchange',research:'research',undisclosed:'other'};
+  const arcaneSources=publicLedger.sources.map(source=>({id:source.id,spell:source.spell,kind:kindByPublic[source.kind]??'other',publicKind:source.kind,publicLabel:source.label,consumed:source.consumed,private:{ownerId:null,locationId:null,provenance:'由公开法术账本重建；原始来源私密事实未被猜测。',dmNotes:[]}}));
+  const transcriptionAttempts=publicLedger.spellbookEntries.map(entry=>({id:entry.transcriptionAttemptId,sourceEntityId:entry.sourceEntityId,spell:entry.spell,knowabilityStateFingerprint:'legacy-public-projection',outcome:'success' as const,targetSpellbookId:entry.spellbookId,cost:{status:'unknown' as const,actualGp:null,rulingId:null},duration:{status:'unknown' as const,actualMinutes:null,rulingId:null}}));
+  return {schema:'adnd1e.core-spell-ledger',schemaVersion:1,id:publicLedger.ledgerId,characterId:publicLedger.characterId,careerId:publicLedger.careerId,tradition:publicLedger.tradition,revision:publicLedger.revision,arcaneSources,spellbookEntries:publicLedger.spellbookEntries,transcriptionAttempts,divineGrants:[],preparedCopies:publicLedger.preparedCopies,castings:publicLedger.castings,recoverySessions:publicLedger.recoverySessions.map(session=>({...session,rulingId:null}))};
+}
 function base(archive:CoreGenesisArchive){
   const genesis=parseCoreGenesisArchive(archive),document=parseCoreCreation(genesis.runtime.transaction.facts.modules[0].data);
   const candidate=document.candidate!;
@@ -140,6 +164,16 @@ export function replayCoreCampaignActions(genesis:CoreGenesisArchive,actions:Cam
       const result:{status:'cast';ledger:CampaignSpellLedger}|{status:'needs-dm';ledger:CampaignSpellLedger;reason:string}=castPublicPreparedSpell(ledger,{castingId:`${action.id}:casting`,preparedCopyId:action.intent.copyId,occurredAt:action.at,componentState:action.intent.components,observedOutcome:action.intent.observedOutcome});
       if(result.status==='needs-dm')throw new Error(result.reason);spells=result.ledger;
       const casting=result.ledger.castings.at(-1)!;casting.spell.sourceIds.forEach(id=>sources.add(id));sources.add('project:prepared-spell-consumption');
+    }else if(action.intent.type==='acquire-arcane-spell'){
+      const publicLedger:PlayerSpellLedgerProjection|null=(spells??initial.publicSpells) as PlayerSpellLedgerProjection|null;
+      if(!publicLedger)throw new Error('No arcane spell ledger is recorded.');
+      if(!['magic-user','illusionist'].includes(publicLedger.tradition))throw new Error('Only an arcane career may record a new spell source.');
+      const knowability=replayKnowability(action.intent.knowability);
+      const ledger=hydrateArcaneLedger(publicLedger);
+      const withSource=addArcaneSource(ledger,{id:action.intent.sourceEntityId,spell:action.intent.spell,kind:action.intent.sourceKind,publicKind:publicSourceKind(action.intent.sourceKind),publicLabel:action.intent.sourceLabel,consumed:false,private:{ownerId:null,locationId:null,provenance:action.intent.sourceProvenance,dmNotes:[]}});
+      const updated=recordArcaneTranscription(withSource,{id:action.intent.transcriptionId,sourceEntityId:action.intent.sourceEntityId,targetSpellbookId:action.intent.targetSpellbookId,knowability,outcome:action.intent.outcome,...action.intent.actualCostGp===undefined?{}:{actualCostGp:action.intent.actualCostGp},...action.intent.actualDurationMinutes===undefined?{}:{actualDurationMinutes:action.intent.actualDurationMinutes},...action.intent.rulingId===undefined?{}:{rulingId:action.intent.rulingId}});
+      spells={...projectSpellLedgerForPlayer(updated),schema:'adnd1e.spell-ledger-player-portable' as const};
+      action.intent.spell.sourceIds.forEach(id=>sources.add(id));sources.add(action.intent.sourceEvidenceId);sources.add('phb:10:intelligence-table-ii');sources.add('dmg:39:spell-acquisition');
     }else if(action.intent.type==='prepare-spells'){
       if(!life||life.mortality!=='alive'||life.actionRestriction!=='none'||life.hpSettlement!=='settled')throw new Error('请先确认人物生命与行动状态；昏迷、复活卧床或零HP休养不能当成普通法术准备。');
       const ledger=spells??initial.publicSpells;if(!ledger)throw new Error('没有实际法术账本；不能从职业容量凭空生成。');

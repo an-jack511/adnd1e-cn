@@ -36,6 +36,7 @@ export const sheetActionSchema=z.discriminatedUnion('type',[
   z.object({type:z.literal('character.commitRevival'),assessmentId:text,changeId:text,appearanceTurns:z.number().int().min(1).max(6).optional(),reason:text}).strict(),
   z.object({type:z.literal('character.naturalRecovery'),routeId:z.enum(['phb-105-natural','dmg-82-natural','campaign-adopted-ruling']).nullable(),restStartDay:positive,restEndDayExclusive:positive,continuity:z.enum(['new','continuous']),priorContinuousRestDays:z.number().int().nonnegative(),locationId:text,constitutionHealingAdjustment:z.number().int().optional(),dmAwardHp:z.number().int().nonnegative().optional(),rulingId:text.optional(),reason:text,rulings:z.array(overlapRuling).optional()}).strict(),
   z.object({type:z.literal('character.castSpell'),copyId:text,componentsConfirmed:z.literal(true),outcome:z.string().max(1000),atMinute:z.number().int().nonnegative().optional()}).strict(),
+  z.object({type:z.literal('character.acquireArcaneSpell'),spell:z.object({definitionId:text,rulesetId:text,listId:z.enum(['magic-user','illusionist']),level:positive,displayName:text,sourceIds:z.array(text).min(1).max(20)}).strict(),sourceEntityId:text,sourceKind:z.enum(['master-grant','level-advance-grant','captured-spellbook','borrowed-spellbook','scroll','exchange','research','other']),sourceLabel:z.string().max(300),sourceProvenance:text,sourceEvidenceId:text,targetSpellbookId:text,transcriptionId:text,knowability:z.object({intelligence:z.number().int().min(9).max(25),spellIds:z.array(text).min(1).max(100),attempts:z.array(z.object({spellId:text,percentile:z.number().int().min(1).max(100)}).strict()).max(1000)}).strict(),outcome:z.enum(['success','failure']),actualCostGp:z.number().int().nonnegative().optional(),actualDurationMinutes:z.number().int().nonnegative().optional(),rulingId:text.optional()}).strict(),
   z.object({type:z.literal('character.importPublicRelationships'),projection:z.unknown()}).strict(),
 ]);
 export type SheetAction=z.infer<typeof sheetActionSchema>;
@@ -53,6 +54,7 @@ export function previewSheetAction(input:CoreCampaignArchive,request:SheetAction
   else if(action.type==='character.heal'){title='记录实际治疗';intent={type:'actual-healing',amount:action.amount,description:action.description};}
   else if(action.type==='character.equipDefense'){title='确认实际穿戴';intent={type:'record-defense',selection:action.selection};}
   else if(action.type==='character.prepareSpells'){title='完成法术学习／祈祷';intent={type:'prepare-spells',facts:action.facts};}
+  else if(action.type==='character.acquireArcaneSpell'){title='记录新奥术来源与转录';intent={type:'acquire-arcane-spell',spell:action.spell,sourceEntityId:action.sourceEntityId,sourceKind:action.sourceKind,sourceLabel:action.sourceLabel,sourceProvenance:action.sourceProvenance,sourceEvidenceId:action.sourceEvidenceId,targetSpellbookId:action.targetSpellbookId,transcriptionId:action.transcriptionId,knowability:action.knowability,outcome:action.outcome,...action.actualCostGp===undefined?{}:{actualCostGp:action.actualCostGp},...action.actualDurationMinutes===undefined?{}:{actualDurationMinutes:action.actualDurationMinutes},...action.rulingId===undefined?{}:{rulingId:action.rulingId}};}
   else if(action.type==='character.useItem'){title='使用物品';intent={type:'consume-item',itemId:action.itemId,quantity:action.quantity,reason:action.reason,sourceId:'project:sheet-player-item-use'};}
   else if(action.type==='character.receiveWealth'){title='记录财富入账';intent={type:'income',walletId:action.walletId,coins:action.coins,sourceId:action.sourceId,reason:action.reason};}
   else if(action.type==='character.spendWealth'){title='记录财富支出';intent={type:'expense',walletId:action.walletId,amountCp:action.amountCp,tender:action.tender,change:action.change,sourceId:action.sourceId,reason:action.reason};}
@@ -97,6 +99,11 @@ export function previewSheetAction(input:CoreCampaignArchive,request:SheetAction
     changes.push(action.facts.choices.map(choice=>`${before.spells?.choices.find(c=>c.kind===choice.kind&&c.id===choice.id)?.name??'待核法术'} × ${choice.quantity}份`).join('、'));
     changes.push(`可用准备：${before.prepared.filter(c=>c.status==='ready').length} → ${after.prepared.filter(c=>c.status==='ready').length}份；未消耗的旧准备保留。`);
     changes.push(`记录完整休息${action.facts.restEndMinute-action.facts.restStartMinute}分钟、学习／祈祷${action.facts.studyEndMinute-action.facts.studyStartMinute}分钟；不恢复HP或自动消耗食物。`);
+  }
+  if(action.type==='character.acquireArcaneSpell'){
+    const source=action.sourceLabel.trim()||'未命名来源';
+    changes.push(`${action.outcome==='success'?'已转录':'已记录失败'}：${action.spell.displayName}（${action.spell.level}环），来源：${source}。`);
+    changes.push(action.outcome==='success'?'法术已进入法术书；不会自动准备或消耗钱币。':'失败记录保留；不会把法术加入法术书。');
   }
   if(after.life?.actionRestriction!=='none'&&after.life)changes.push(`行动限制：${lifeLabels[after.life.actionRestriction]??'待核'}；未自动解除。`);
   if(isGrowthAction(action)){
