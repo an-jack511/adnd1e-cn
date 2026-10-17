@@ -56,7 +56,6 @@ export function startCreation() {
     }
   }
   get('generate-abilities').addEventListener('click',()=>{
-    if(!get<HTMLInputElement>('method-approved').checked){message('请先与 DM 确定允许的属性生成方法，并确认下方选项。',true);return;}
     if(draft.activeBatch&&!window.confirm('重新生成将保留当前骰组和分配为历史，并记录一次新生成。确认本次重掷？'))return;
     try{draft=withBatch(draft,generate(method.value as Method));pending=null;dirty=true;render();message('已生成完整骰池。I / II 请逐项分配，IV 请选择一整组；原骰均已记录。');}catch(e){message((e as Error).message,true);}
   });
@@ -69,7 +68,7 @@ export function startCreation() {
     }catch(e){message((e as Error).message,true);}
   });
   name.addEventListener('input',()=>{try{draft=parseDraft({...draft,name:name.value,revision:draft.revision+1,audit:[...draft.audit,{at:new Date().toISOString(),action:'named',batchId:draft.activeBatch?.id??null}]});dirty=true;get('draft-revision').textContent=`修订 ${draft.revision} · 本页有未保存修改；创建草稿，不是完整角色。`;}catch(e){name.value=draft.name;message('姓名未改变：'+(e as Error).message,true);}});
-  method.addEventListener('change',()=>{get<HTMLInputElement>('method-approved').checked=false;message('已改变待采用方法。已有骰组仍按其原方法保存；重新生成前请确认本次选择。');});
+  method.addEventListener('change',()=>{message('已改变待采用方法。已有骰组仍按其原方法保存；战役方法未预先指定时，由团桌自行处理。');});
   get('save-draft').addEventListener('click',async()=>{
     if(pending){message('分配选择尚未确认，请先检查分配；当前选择仍保留。',true);return;}
     const saving=draft;const savingSession=editingSession;
@@ -80,8 +79,8 @@ export function startCreation() {
       render();library();message(pending?'已保存此前确认版本；当前暂选仍待检查。':dirty?'较早修订已保存；本页还有新修改，请再次保存。':'已保存到此浏览器。独立备份请导出文件。');
     }catch(e){message((e as Error).message,true);}
   });
-  get('load-draft').addEventListener('click',()=>{if(!guard())return;try{const found=readLibrary(localStorage).find(d=>d.id===list.value);if(!found)throw new Error('请选择一个已保存草稿。');editingSession++;draft=found;pending=null;savedRevision=draft.revision;dirty=false;get<HTMLInputElement>('method-approved').checked=false;render();message('已加载浏览器草稿。');}catch(e){message((e as Error).message,true);}});
-  get('new-draft').addEventListener('click',()=>{if(!guard())return;editingSession++;draft=newDraft();pending=null;savedRevision=null;dirty=false;render();library();get<HTMLInputElement>('method-approved').checked=false;message('已新建空白属性创建草稿。');});
+  get('load-draft').addEventListener('click',()=>{if(!guard())return;try{const found=readLibrary(localStorage).find(d=>d.id===list.value);if(!found)throw new Error('请选择一个已保存草稿。');editingSession++;draft=found;pending=null;savedRevision=draft.revision;dirty=false;render();message('已加载浏览器草稿。');}catch(e){message((e as Error).message,true);}});
+  get('new-draft').addEventListener('click',()=>{if(!guard())return;editingSession++;draft=newDraft();pending=null;savedRevision=null;dirty=false;render();library();message('已新建空白属性创建草稿。');});
   get('export-draft').addEventListener('click',()=>{
     if(pending){message('分配选择尚未确认，请先检查分配再导出；当前选择仍保留。',true);return;}
     try{const blob=new Blob([exportText(draft)],{type:'application/json'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=(draft.name||'adnd1e-creation').replace(/[\\/:*?"<>|]/g,'_')+'.adnd1e-draft.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),30000);message('已请求下载创建草稿文件；请确认文件实际保存到本地。');}catch(e){message((e as Error).message,true);}
@@ -92,7 +91,7 @@ export function startCreation() {
       if(file.size>1024*1024)throw new Error('草稿文件超过 1 MB 限制。');
       const staged=importText(await file.text());
       if(!window.confirm(`导入“${staged.name||'未命名草稿'}”作为新副本？已验证骰组和属性；当前未保存修改将被切换。浏览器原件不会覆盖。`))return;
-      editingSession++;draft=staged;pending=null;savedRevision=null;dirty=true;render();library();get<HTMLInputElement>('method-approved').checked=false;message('已隔离导入为新副本，尚未保存到此浏览器。');
+      editingSession++;draft=staged;pending=null;savedRevision=null;dirty=true;render();library();message('已隔离导入为新副本，尚未保存到此浏览器。');
     }catch(e){message('导入未改变当前草稿：'+(e as Error).message,true);}finally{input.value='';}
   });
   window.addEventListener('beforeunload',event=>{if(dirty||pending){event.preventDefault();event.returnValue='';}});

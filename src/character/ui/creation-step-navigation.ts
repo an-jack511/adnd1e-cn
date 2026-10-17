@@ -19,7 +19,7 @@ export function startCreationStepNavigation(): void {
     equipment: '装备采购', 'initial-spells': '初始法术', psionics: '灵能检查', 'admission-context': '入场约定',
   };
   const statusLabels: Record<string, string> = {
-    pending: '待完成', complete: '已记录完成', 'not-applicable': '已记录不适用', 'needs-dm': '待 DM 裁定',
+    pending: '待完成', complete: '已记录完成', 'not-applicable': '已记录不适用', 'needs-dm': '待战役确认',
   };
   const stepTasks: Record<string, string[]> = {
     resources: ['hp', 'money'], languages: ['languages'], proficiencies: ['proficiencies'],

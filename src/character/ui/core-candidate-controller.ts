@@ -36,8 +36,6 @@ export function startCoreCandidate(){
     return snapshot;
   }
   get('core-save-local').addEventListener('click',async()=>{try{await saveCurrentCreation();message('已保存本地创建进度，建议同时导出文件备份。');}catch(error){message((error as Error).message,true);}});
-  let sendingForReview=false;
-  get('core-send-review')?.addEventListener('click',async()=>{if(sendingForReview)return;sendingForReview=true;try{const snapshot=await saveCurrentCreation();location.assign(`/character/review/?${new URLSearchParams({creation:snapshot.id})}`);}catch(error){message((error as Error).message,true);sendingForReview=false;}});
   get('core-load-local').addEventListener('click',()=>{try{
     const selected=readCoreCreationLibrary(localStorage).find(doc=>doc.id===get<HTMLSelectElement>('core-saved').value);if(!selected)throw new Error('请选择本地创建进度。');
     if(evaluated)throw new Error('当前有打开的创建进度，请先导出备份，再刷新页面加载。');
@@ -101,7 +99,7 @@ export function startCoreCandidate(){
     if(legality.some(result=>result.verdict==='prohibited'))throw new Error('存在职业禁止的武器，请修改选择。');
     const needsDm=legality.some(result=>result.verdict==='needs-dm')||weapons.some(w=>w.classification==='manual-needs-dm');
     evaluated=recordCreationTask(evaluated,'proficiencies',{status:slots.unfilledSlots?'pending':needsDm?'needs-dm':'complete',sourceIds:[...new Set([...slots.sourceIds,...legality.flatMap(result=>result.sourceIds)])],note:needsDm?'具体武器分类、体型或使用条件需要 DM 复核。':'已记录具体武器熟练及职业许可检查。',facts:{slots,weapons,legality}});
-    get('core-proficiency-status').textContent=needsDm?'已记录，等待 DM 复核具体武器与使用条件。':'已完成开局武器熟练。';
+    get('core-proficiency-status').textContent=needsDm?'已记录，具体武器与使用条件待战役确认。':'已完成开局武器熟练。';
   }catch(error){get('core-proficiency-status').textContent=(error as Error).message;}});
   for(const element of document.querySelectorAll('#core-draft,#core-race,#core-subrace,#core-sex,#core-alignment,#core-mode,input[name=core-class]'))element.addEventListener('change',invalidate);
   function randomFaces(count:number,sides:number){const values:number[]=[];while(values.length<count){const raw=new Uint32Array(1);crypto.getRandomValues(raw);const ceiling=Math.floor(0x100000000/sides)*sides;if(raw[0]<ceiling)values.push(raw[0]%sides+1);}return values;}
@@ -132,7 +130,7 @@ export function startCoreCandidate(){
       issues.replaceChildren();
       if(!result.issues.length){const li=document.createElement('li');li.textContent='核心资格检查没有发现阻断项；仍须完成HP、金钱、装备、语言、熟练和法术等创建任务。';issues.append(li);}
       for(const item of result.issues){const li=document.createElement('li');const refs=item.sourceIds.map(id=>{const s=pack.sources.find(x=>x.id===id);return s?`${s.book} p.${s.printedPage}`:id;}).join('、');li.textContent=`${item.verdict==='forbidden'?'禁止':'需DM'}：${item.message}（${refs}）`;issues.append(li);}
-      const caps=Object.entries(result.classLevelCaps).map(([id,value])=>`${id}: ${value==='unlimited'?'不限':value==='needs-dm'?'待DM':value}`).join('；');
+      const caps=Object.entries(result.classLevelCaps).map(([id,value])=>`${id}: ${value==='unlimited'?'不限':value==='needs-dm'?'待确认':value}`).join('；');
       message(`${result.verdict==='allowed'?'核心资格允许':result.verdict==='forbidden'?'核心资格不合法':'核心资格需要DM裁定'}。等级上限：${caps}` ,result.verdict==='forbidden');
       get<HTMLButtonElement>('core-export').disabled=false;
       if(result.verdict!=='forbidden'){renderResourcePlan();renderLanguagePlan();renderProficiencies();}else{resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;}

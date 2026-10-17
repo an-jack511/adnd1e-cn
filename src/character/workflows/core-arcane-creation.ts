@@ -22,7 +22,7 @@ export const coreArcaneCreationInputSchema = z.object({
   ]),
   rollMethod,
   chanceToKnow: z.object({ spellIds: z.array(text).min(1).max(100), attempts: z.array(z.object({ spellId: text, percentile: face(100) }).strict()).max(1000), rollMethod }).strict(),
-  adoption: z.object({ policy: z.literal('require-successful-checks'), actorId: text, at: text, reason: text, sourceIds: z.array(text).min(1).max(100) }).strict(),
+  adoption: z.object({ policy: z.literal('require-successful-checks'), actorId: text.optional(), at: text.optional(), reason: text.optional(), sourceIds: z.array(text).min(1).max(100) }).strict(),
   spellbookId: text,
   acquisitions: z.array(z.object({ spellId: text, sourceEntityId: text, transcriptionId: text, sourceLabel: text, sourceAccessConfirmed: z.literal(true), outcome: z.enum(['success', 'failure']), actualCostGp: z.number().int().nonnegative().optional(), actualDurationMinutes: z.number().int().nonnegative().optional(), rulingId: text.optional() }).strict()).max(5),
 }).strict();

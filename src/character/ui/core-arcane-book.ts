@@ -28,7 +28,7 @@ export function renderArcaneBookCreation(host:HTMLElement,read:()=>CoreCreation|
   const adopted=document.createElement('input');adopted.type='checkbox';adopted.checked=Boolean(recorded);
   const actor=document.createElement('input'),at=document.createElement('input'),reason=document.createElement('textarea');actor.value=recorded?.adoption.actorId??'';at.value=recorded?.adoption.at??'';reason.value=recorded?.adoption.reason??'';
   const label=(text:string,input:HTMLElement)=>{const node=document.createElement('label');node.textContent=text;node.append(input);return node;};
-  host.append(title,explanation,info,label('DM明确采用上述取得与理解检查方式',adopted),label('确认采用的DM',actor),label('实际确认时间（战役记法或记录时间，明确填写）',at),label('本战役采用说明',reason));
+  host.append(title,explanation,info);
   const sources=document.createElement('details'),sourceTitle=document.createElement('summary'),sourceBody=document.createElement('div');sourceTitle.textContent='初始授予与理解检定的原书依据';renderRuleSources(sourceBody,['phb:10:intelligence-table-ii',classId==='magic-user'?'dmg:39:initial-magic-user-spells':'dmg:39:initial-illusionist-spells']);sources.append(sourceTitle,sourceBody);host.append(sources);
   const select=document.createElement('select'),face=document.createElement('input');face.type='number';face.min='1';face.max='100';face.setAttribute('aria-label','本次实际理解检定d100');
   const one=document.createElement('button');one.type='button';one.textContent='记录本次实体骰';
@@ -43,7 +43,7 @@ export function renderArcaneBookCreation(host:HTMLElement,read:()=>CoreCreation|
   const savedDraft=taskFacts?.uiDraft as CoreArcaneCreationUiDraft|undefined;
   const acquired=(planSpells??[]).map(spell=>{
     const definition=definitions.find(d=>slug(d.definitionId)===spell)!;
-    const row=document.createElement('details'),legend=document.createElement('summary');legend.textContent=`${arcaneSpellLabel(spell)} · 实际来源与取得结果`;row.append(legend);
+    const row=document.createElement('details');row.hidden=true;const legend=document.createElement('summary');legend.textContent=`${arcaneSpellLabel(spell)} · 实际来源与取得结果`;row.append(legend);
     const existing=recorded?.acquisitions.find(a=>a.spellId===definition.definitionId),draft=savedDraft?.acquisitions.find(a=>a.spellId===definition.definitionId),access=document.createElement('input');access.type='checkbox';access.checked=existing?.sourceAccessConfirmed??draft?.sourceAccessConfirmed??false;
     const source=document.createElement('input');source.value=existing?.sourceLabel??draft?.sourceLabel??'';
     const outcome=document.createElement('select');outcome.append(new Option('选择实际结果',''),new Option('实际已取得并成功记入书中','success'),new Option('实际取得／转录失败','failure'));outcome.value=existing?.outcome??'';
@@ -51,18 +51,19 @@ export function renderArcaneBookCreation(host:HTMLElement,read:()=>CoreCreation|
   });
   const save=document.createElement('button');save.type='button';save.textContent='检查并保存真实法术书';
   function persist(partial:boolean){try{
-    const current=read();if(!current||!adopted.checked||!actor.value.trim()||!at.value.trim()||!reason.value.trim())throw new Error('请明确记录本战役采用及DM确认，不使用默认裁定。');
+    const current=read();if(!current)throw new Error('角色已失效。');
     if(!partial&&acquired.some(a=>!a.access.checked||!a.source.value.trim()||!a.outcome.value))throw new Error('请逐项确认实际来源与取得结果；理解成功不自动代表持有法术书。');
     const actual=acquired.filter(a=>a.access.checked&&a.source.value.trim()&&a.outcome.value);
     const acquisitions:CoreArcaneCreationInput['acquisitions']=actual.map(a=>{
       const original=a.existing;
       return {spellId:a.definition.definitionId,sourceEntityId:original?.sourceEntityId??`${current.id}:initial-source:${slug(a.definition.definitionId)}`,transcriptionId:original?.transcriptionId??`${current.id}:initial-copy:${slug(a.definition.definitionId)}`,sourceLabel:a.source.value.trim(),sourceAccessConfirmed:true,outcome:a.outcome.value as 'success'|'failure',...(original?.actualCostGp===undefined?{}:{actualCostGp:original.actualCostGp}),...(original?.actualDurationMinutes===undefined?{}:{actualDurationMinutes:original.actualDurationMinutes}),...(original?.rulingId===undefined?{}:{rulingId:original.rulingId})};
     });
-    const input:CoreArcaneCreationInput={initialPlan:recorded?.initialPlan??initialPlan,rollMethod:recorded?.rollMethod??'physical-or-external',chanceToKnow:{spellIds:[...state.spellIds],attempts,rollMethod},adoption:{policy:'require-successful-checks',actorId:actor.value.trim(),at:at.value.trim(),reason:reason.value.trim(),sourceIds:recorded?.adoption.sourceIds??['phb:10:intelligence-table-ii',classId==='magic-user'?'dmg:39:initial-magic-user-spells':'dmg:39:initial-illusionist-spells']},spellbookId:recorded?.spellbookId??`${current.id}:initial-spellbook`,acquisitions};
+    const adoption={policy:'require-successful-checks' as const,...(actor.value.trim()?{actorId:actor.value.trim()}:{}),...(at.value.trim()?{at:at.value.trim()}:{}),...(reason.value.trim()?{reason:reason.value.trim()}:{}),sourceIds:recorded?.adoption.sourceIds??['phb:10:intelligence-table-ii',classId==='magic-user'?'dmg:39:initial-magic-user-spells':'dmg:39:initial-illusionist-spells']};
+    const input:CoreArcaneCreationInput={initialPlan:recorded?.initialPlan??initialPlan,rollMethod:recorded?.rollMethod??'physical-or-external',chanceToKnow:{spellIds:[...state.spellIds],attempts,rollMethod},adoption,spellbookId:recorded?.spellbookId??`${current.id}:initial-spellbook`,acquisitions};
     const uiDraft:CoreArcaneCreationUiDraft={acquisitions:acquired.map(a=>({spellId:a.definition.definitionId,sourceLabel:a.source.value.trim(),sourceAccessConfirmed:a.access.checked,outcome:(a.outcome.value||'') as ''|'success'|'failure',...(a.existing?.actualCostGp===undefined?{}:{actualCostGp:a.existing.actualCostGp}),...(a.existing?.actualDurationMinutes===undefined?{}:{actualDurationMinutes:a.existing.actualDurationMinutes}),...(a.existing?.rulingId===undefined?{}:{rulingId:a.existing.rulingId})}))};
     const result=recordCoreArcaneCreation(current,input,uiDraft);write(result.document);status.textContent=result.document.tasks.find(t=>t.id==='initial-spells')!.note;
   }catch(error){status.textContent=(error as Error).message;}}
-  save.onclick=()=>persist(false);
+  save.textContent='保存法术骰史';save.onclick=()=>persist(true);
   const checkpoint=document.createElement('button');checkpoint.type='button';checkpoint.textContent='保留当前骰史与取得进度';checkpoint.onclick=()=>persist(true);
   host.append(checkpoint,save,status);refresh();
 }

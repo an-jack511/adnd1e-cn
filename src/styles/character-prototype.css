@@ -20,3 +20,25 @@
 body[data-character-page] .workbar{flex-wrap:wrap}body[data-character-page] .workbar>div{flex-wrap:wrap;justify-content:flex-end;min-width:0;max-width:100%}body[data-character-page] .workbar button,body[data-character-page] .workbar .file-button{max-width:100%;overflow-wrap:anywhere}
 @media(max-width:640px){.journal-toolbar{padding:14px 0;margin-bottom:18px}.journal-actions{gap:8px 12px}.journal-actions button{flex:1 1 130px;font-size:12px}.journal-actions a{flex:1 1 130px;font-size:12px}.journal-save{gap:4px 9px}.journal-timeline{margin-top:18px}.journal-timeline>li{grid-template-columns:42px minmax(0,1fr);gap:8px}.journal-timeline article{padding-left:12px;padding-bottom:20px}.journal-entry-heading{gap:5px 8px}.journal-entry-heading h3{font-size:16px}.journal-times>div{grid-template-columns:4.5em minmax(0,1fr);gap:5px}.journal-details ul{font-size:12px}body[data-character-page] .workbar>div{width:100%;justify-content:stretch}body[data-character-page] .workbar button,body[data-character-page] .workbar .file-button{flex:1 1 110px;justify-content:center}}
 @media print{.journal-toolbar{display:none}.journal-timeline article{break-inside:avoid}.journal-details::details-content{content-visibility:visible}}
+
+/* Character workspace: keep the full rule model, but make the default surface quiet. */
+:root{--paper:#fff;--white:#fff;--ink:#18212b;--line:#d9dee5;--muted:#5f6975;--gold:#80652f}
+html,body,.folio-shell,.folio-main,.folio-nav{background:#fff;color:var(--ink)}
+.folio-nav{border-right-color:var(--line)}
+.folio-nav nav a.active{background:#f3f5f7}
+button:hover,.file-button:hover{background:#f3f5f7}
+.paper-section,.activity-strip,dialog{background:#fff}
+.inline-note,.action-preview{background:#f5f7f9}
+#sheet-save,#sheet-recovery{display:none}
+#create-panel-admission,#create-tab-admission{display:none!important}
+#create-panel-method .check-row{display:none}
+#create-tab-review span{font-size:0}
+#create-tab-review span::after{content:'07';font-size:12px}
+#core-starting-equipment label:has(input[type=hidden]),#core-initial-spells label:has(input[placeholder*="DM"]),#core-initial-spells label:has(textarea),#core-initial-spells label:has(input[type=checkbox]){display:none!important}
+#core-language-slots label:has(.core-language-approved){display:none!important}
+.dm-handoff{border-top:1px solid var(--line);margin-top:22px;padding-top:14px;font-size:12px}
+.dm-entry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.button-link{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid #a9b0b8;color:var(--ink)}
+.button-link.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+.dm-principles{margin-top:18px}
+@media(max-width:800px){.folio-shell{display:block}.folio-nav{position:static;height:auto;padding:16px 18px;border-right:0;border-bottom:1px solid var(--line)}.wordmark{font-size:24px;display:flex;gap:15px;align-items:center}.wordmark span{font-size:8px;margin:0}.nav-caption,.nav-foot{display:none}.folio-nav nav{position:fixed;z-index:5;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:#fff;border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}.folio-nav nav a{text-align:center;font-size:12px;padding:12px 0;border:0;border-top:3px solid transparent;min-height:58px}.folio-nav nav a.active{border-top-color:var(--red)}.folio-main{padding:0 18px 80px}.workbar{padding:10px 0}.workbar>div{width:100%;justify-content:stretch}.workbar button,.file-button{flex:1 1 110px;justify-content:center}.creation-layout{display:block}.step-list{flex-direction:row;overflow:auto;margin:0 -18px 20px;padding:0 18px}.dm-entry-grid{grid-template-columns:1fr}}

@@ -17,36 +17,24 @@ import {renderCampaignRecovery, type CampaignRecoverySnapshot} from './campaign-
 import {coreEquipmentById} from '../rules/core-inventory';
 const esc=(v:unknown)=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const coinLabels:Record<string,string>={cp:'cp',sp:'sp',ep:'ep',gp:'gp',pp:'pp'};
+const equipmentLabelsZh:Record<string,string>={"Mace, footman's":'步兵锤',"Mace, horseman's":'骑兵锤',"Leather Armor":'皮甲',"Shield":'盾牌'};
 const coinSummary=(coins:Record<string,number>)=>Object.entries(coinLabels).filter(([id])=>coins[id]>0).map(([id,label])=>`${coins[id]}${label}`).join(' ')||'0';
 function renderCampaignInventory(sheet:ReturnType<typeof campaignSheet>):string{
   const inventory=sheet.inventory;
   if(!inventory)return '<h2 id="sheet-equipment">装备与财富</h2><p>没有已核库存，不能从手工文本推断装备或钱币。</p>';
   const wallets=inventory.wallets.map(wallet=>`<li><div><strong>${esc(wallet.label)}</strong><small>${coinSummary(wallet.coins as unknown as Record<string,number>)} · ${esc(inventory.locations.find(location=>location.id===wallet.locationId)?.label??'位置待核')}</small></div></li>`).join('')||'<li>尚无已核钱包。</li>';
-  const items=inventory.items.map(item=>{const location=inventory.locations.find(entry=>entry.id===item.locationId)?.label??'位置待核',definition=item.definitionId?coreEquipmentById[item.definitionId]:undefined,unpackable=definition?.purchaseUnit==='dozen'||definition?.purchaseUnit==='score';return `<li><div><strong>${esc(item.label)}</strong><small>数量 ${item.quantity} · ${esc(location)} · ${item.weight.kind==='unknown'?'重量待核':`单位约 ${item.weight.unitWeightGp} gp 重量`}</small></div><span class="mini-actions"><button data-operation="item" data-id="${esc(item.id)}" ${!item.quantity?'disabled':''}>使用／损失</button><button data-operation="item-relocate" data-id="${esc(item.id)}">移动</button>${unpackable?`<button data-operation="item-unpack" data-id="${esc(item.id)}">拆包</button>`:''}</span></li>`;}).join('')||'<li>没有已核库存。</li>';
+  const items=inventory.items.map(item=>{const location=inventory.locations.find(entry=>entry.id===item.locationId)?.label??'位置待核',definition=item.definitionId?coreEquipmentById[item.definitionId]:undefined,unpackable=definition?.purchaseUnit==='dozen'||definition?.purchaseUnit==='score',label=equipmentLabelsZh[item.label]??item.label;return `<li><div><strong>${esc(label)}</strong><small>数量 ${item.quantity} · ${esc(location)} · ${item.weight.kind==='unknown'?'重量待核':`单位约 ${item.weight.unitWeightGp} gp 重量`}</small></div><span class="mini-actions"><button data-operation="item" data-id="${esc(item.id)}" ${!item.quantity?'disabled':''}>使用／损失</button><button data-operation="item-relocate" data-id="${esc(item.id)}">移动</button>${unpackable?`<button data-operation="item-unpack" data-id="${esc(item.id)}">拆包</button>`:''}</span></li>`;}).join('')||'<li>没有已核库存。</li>';
   const carrier=inventory.locations.find(location=>location.kind==='character');
   const knownWeight=inventory.items.filter(item=>item.locationId===carrier?.id&&item.weight.kind!=='unknown').reduce((sum,item)=>sum+(item.weight.kind==='unknown'?0:item.weight.unitWeightGp*item.quantity),0);
   return `<div class="section-title"><h2 id="sheet-equipment">装备与财富</h2><span class="badge">账面 ${(sheet.wealthCp/200).toLocaleString()} gp</span></div><p>钱币按钱包和面额保存；收入、支出、物品消耗与位置变化都写入事件历史。</p><div class="quick-actions"><button data-operation="wealth-income">记录财富入账</button><button data-operation="wealth-expense">记录财富支出</button><button data-operation="burden">查看负重下界</button></div><h3>钱币</h3><ul class="rule-list">${wallets}</ul><h3>物品</h3><ul class="rule-list">${items}</ul><p class="inline-note">当前人物位置下已知物品重量下界约 ${knownWeight.toLocaleString()} gp 重量单位；未包含未知重量、体积、力量修正或 DM 对移动率的裁定。</p>`;
 }
-function renderCampaignLifeTools(sheet:ReturnType<typeof campaignSheet>):string{
-  const life=sheet.life;if(!life)return '';
-  const episode=life.zeroHpEpisode;
-  const buttons:string[]=[];
-  if(life.mortality==='unconscious-bleeding'||life.mortality==='unconscious-stabilized'){
-    buttons.push('<button data-operation="zero-round">经过一轮</button>','<button data-operation="aid">友方援助</button>');
-    if(episode&&sheet.calendar)buttons.push('<button data-operation="recover-zero">登记苏醒与最低休养</button>');
-  }
-  if(life.actionRestriction==='zero-hp-convalescence'&&sheet.calendar){
-    buttons.push('<button data-operation="complete-zero-rest">完成最低休养审核</button>','<button data-operation="restart-zero-rest">休养被打断</button>','<button data-operation="heal-convalescence">记录 Heal 解除</button>');
-  }
-  if(life.mortality==='alive'&&life.actionRestriction==='none'&&life.hpSettlement==='settled'&&life.currentHp!==null&&life.currentHp>0&&sheet.calendar)buttons.push('<button data-operation="natural-recovery">结算自然恢复</button>');
-  if(life.mortality==='dead')buttons.push('<button data-operation="assess-revival">评估复活资格</button>','<button data-operation="commit-revival">提交复活结果</button>');
-  if(!buttons.length)return '';
-  return `<details class="life-tools"><summary>生命处理与团务裁定</summary><p class="inline-note">这些按钮只记录已经在团桌发生、或已经由 DM 明确裁定的事实。零 HP 逐轮失血、最低休养、PHB/DMG 自然恢复和复活评估不会被程序静默合并。</p><div class="quick-actions">${buttons.join('')}</div></details>`;
-}
+function renderCampaignLifeTools(_sheet:ReturnType<typeof campaignSheet>):string{return '';}
 export function startCampaignSheet(){
   const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T,root=get<HTMLElement>('real-sheet'),dialog=get<HTMLDialogElement>('sheet-action');
   let current:CoreCampaignArchive|null=null,saved:CoreCampaignArchive|null=null,token:string|null=null,slots:CampaignSlot[]=[],recoveryHistory:CampaignRecoverySnapshot[]=[],generation=0,ioBusy=false,saving=false,auto=false,plan:SheetActionPlan|null=null,kind='',selectedId='';
   const say=(text:string,error=false)=>{get('sheet-status').textContent=text;get('sheet-status').dataset.error=String(error);};
+  const localizeSheet=()=>root.querySelectorAll<HTMLElement>('*').forEach(node=>{if(node.childElementCount===0&&node.textContent?.includes('PERSONA'))node.textContent=node.textContent.replace('PERSONA','人物');if(node.childElementCount===0&&node.textContent?.includes('高级生命操作请使用团务工具'))node.textContent='复杂生命状态由战役自行处理。';});
+  new MutationObserver(localizeSheet).observe(root,{childList:true,subtree:true});
   function openLife(operation:string){
     if(ioBusy||!current)return;
     kind=operation;selectedId='';plan=null;
@@ -153,7 +141,7 @@ function open(operation:string,id:string){if(ioBusy||!current)return;kind=operat
      if(operation==='wealth-expense')get('sheet-fields').innerHTML=`<label>钱包<select name="walletId" required>${walletOptions}</select></label><fieldset><legend>交付</legend><div class="coin-fields">${coinFields('tender')}</div></fieldset><fieldset><legend>找零</legend><div class="coin-fields">${coinFields('change')}</div></fieldset><label>本次支出总额（cp）<input name="amountCp" type="number" min="1" required/></label><label>来源标识<input name="sourceId" value="session:wealth" required/></label><label>说明<input name="reason" value="团桌已确认的实际钱币支出" required/></label><p>交付减找零必须等于支出总额；不把价格表当成实际成交价。</p>`;
      if(operation==='item-relocate'){const locations=inventory?.locations.map(location=>`<option value="${esc(location.id)}">${esc(location.label)}</option>`).join('')??'';get('sheet-fields').innerHTML=`<label>目标位置<select name="destinationLocationId" required>${locations}</select></label><label>来源标识<input name="sourceId" value="session:item-location" required/></label><label>说明<input name="reason" value="团桌已确认的实际位置变化" required/></label><p>只记录位置事实，不自动证明负重、可及性或移动率。</p>`;}
      if(operation==='item-unpack')get('sheet-fields').innerHTML='<label>拆出的整包数量<input name="bundleCount" type="number" min="1" value="1" required/></label><label>来源标识<input name="sourceId" value="session:bundle-unpack" required/></label><label>说明<input name="reason" value="团桌已确认的同质整包拆分" required/></label><p>仅支持原书数据明确标记为 dozen／score 的同质整包；混合包交由团务工具与 DM 裁定。</p>';
-     dialog.showModal();
+      get('sheet-fields').querySelectorAll<HTMLInputElement>('input[name="sourceId"]').forEach(input=>{input.type='hidden';input.closest('label')?.replaceWith(input);});dialog.showModal();
    }
    get('sheet-cancel').onclick=()=>dialog.close();get<HTMLFormElement>('sheet-action-form').oninput=()=>{plan=null;get('sheet-apply').textContent='重新预览';};
    get<HTMLFormElement>('sheet-action-form').onsubmit=e=>{e.preventDefault();if(!current||ioBusy)return;try{if(plan){current=commitSheetAction(current,plan);plan=null;dialog.close();render();say('动作已应用；'+(auto?'正在自动保存。':'尚未保存，请保存到本机或导出。'));if(auto)void save();return;}const data=new FormData(e.currentTarget as HTMLFormElement);const readCoins=(prefix:string)=>({cp:Number(data.get(`${prefix}-cp`)),sp:Number(data.get(`${prefix}-sp`)),ep:Number(data.get(`${prefix}-ep`)),gp:Number(data.get(`${prefix}-gp`)),pp:Number(data.get(`${prefix}-pp`))});let request:SheetAction;
