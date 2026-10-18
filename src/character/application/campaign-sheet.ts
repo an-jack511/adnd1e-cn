@@ -17,6 +17,7 @@ import type { PublicRelationshipProjectionFile } from '../engine/core-relationsh
 
 export interface CampaignSheet {
   name:string;race:string;career:string;level:number;xp:number;maximumHp:number|null;
+  profile:{background:string;portraitDataUrl:string|null};
   life:CoreLifeState|null;inventory:CoreInventoryLedger|null;wealthCp:number;
   prepared:{id:string;name:string;level:number;status:string}[];
   history:{label:string;at:string;gameTime:string|null}[];revision:number;
@@ -61,7 +62,8 @@ export function campaignSheet(input:CoreCampaignArchive):CampaignSheet{
   const thiefClass=classId==='thief'||classId==='assassin'||classId==='monk'?classId:null;
   const thiefFunctions=thiefClass?coreThiefFunctions({classId:thiefClass,level,raceId:candidate.raceId as Parameters<typeof coreThiefFunctions>[0]['raceId'],dexterity:adjusted.DEX}):null;
   const backstab=thiefClass?coreBackstabView(level):null;
-  return {name:origin.name,race:raceLabels[candidate.raceId]??'待核种族',career:careerLabels[classId]??'待核职业',level:state?.level??1,xp:state?.xp??0,
+  const profile=candidate.profile?{background:candidate.profile.background,portraitDataUrl:candidate.profile.portraitDataUrl}:{background:'',portraitDataUrl:null};
+  return {name:origin.name,race:raceLabels[candidate.raceId]??'待核种族',career:careerLabels[classId]??'待核职业',level:state?.level??1,xp:state?.xp??0,profile,
     maximumHp:state?.life?.maximumHp??(typeof initialHp==='number'?initialHp+earned:null),life:state?.life?structuredClone(state.life):null,
     inventory:inventory?structuredClone(inventory):null,wealthCp:inventory?.wallets.reduce((sum,w)=>sum+moneyValueCp(w.coins),0)??0,prepared,
     history:archive.actions.map(a=>({label:actionLabels[a.intent.type]??'战役活动',at:a.at,gameTime:state?.calendar?(a.intent.type==='cast-prepared'&&a.intent.atMinute!==undefined?formatCampaignMinute(a.intent.atMinute,state.calendar.minutesPerDay):a.intent.type==='prepare-spells'?`${formatCampaignMinute(a.intent.facts.restStartMinute,state.calendar.minutesPerDay)} → ${formatCampaignMinute(a.intent.facts.studyEndMinute,state.calendar.minutesPerDay)}`:null):null})),revision:archive.runtime.transaction.revision,
