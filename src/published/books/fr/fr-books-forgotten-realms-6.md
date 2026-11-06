@@ -14,7 +14,7 @@
 
 《镜鉴》中的每个戏法和法术都独占一页；书的两端各有一张额外的页面。开头那一页是一段用于辨认此书归属的铭文，其中有 萨比琳的符文（一个画成天鹅形状的“S”）。末尾那一页带有一个奇怪的黑色毡片，形状像小瓶。扉页实际上是一道独有法术 spell engine（下文详述），其作者不明，并通过 secret page 法术隐藏起来。secret page 的命令词未知。末页被认为是一件尚未使用的魔法有用物品（见《地下城主指南》中的 useful items 描述）；伊尔明斯特（Elminster） 认为那是一瓶额外治疗药水。
 
-书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和 unlock；法术则依次为：comprehend languages、enlarge、light、诺斯图（Nystul）’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、梅拉尔德（Merald）’s murderous mist（Merald 这位强大大法师教给 萨比琳的独有法术，下文详述）、polymorph other、毕格比（Bigby）’s interposing hand、disintegrate、geas 和 phase door。
+书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和 unlock；法术则依次为：comprehend languages、enlarge、light、涅斯图（Nystul）’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、梅拉尔德（Merald）’s murderous mist（Merald 这位强大大法师教给 萨比琳的独有法术，下文详述）、polymorph other、毕格比（Bigby）’s interposing hand、disintegrate、geas 和 phase door。
 
 ### Spell Engine（法术引擎，防护／变化）
 
@@ -132,7 +132,7 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 ### 内容
 
-根据 Bendulphin 的笔记，工作册的十二页包含下列法术与文字：独有戏法 horn、listen 和 scorch（均在下文描述），每页一个；以及 write、detect magic、Leomund’s trap 和 诺斯图’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于 detect magic 所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术 smoke ghost（Glanvyl 可能通过 write 法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写 haste 与 lightning bolt 法术的法术墨水配方。
+根据 Bendulphin 的笔记，工作册的十二页包含下列法术与文字：独有戏法 horn、listen 和 scorch（均在下文描述），每页一个；以及 write、detect magic、Leomund’s trap 和 涅斯图’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于 detect magic 所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术 smoke ghost（Glanvyl 可能通过 write 法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写 haste 与 lightning bolt 法术的法术墨水配方。
 
 ### Horn（号角，塑能）
 

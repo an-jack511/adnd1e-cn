@@ -125,7 +125,7 @@ for race in CAT['races']:
   if rid=='hengeyokai':addheads(ds,'oa','oa-classes-races',r'^表 11')
   addheads(ds,'oa','oa-classes-races',r'^职业与种族组合|^种族属性值限制')
  elif rid.startswith('dla-'):
-  patterns={'dla-kender':r'\bKender$','dla-gully-dwarf':r'沟谷矮人|Gully Dwar','dla-krynn-minotaur':r'^牛头怪|^牛头人|Minotaur','dla-silvanesti-elf':r'Silvanesti','dla-qualinesti-elf':r'Qualinesti'}
+  patterns={'dla-kender':r'\bKender$','dla-gully-dwarf':r'沟谷矮人|Gully Dwar','dla-krynn-minotaur':r'^牛头人|^牛头人|Minotaur','dla-silvanesti-elf':r'Silvanesti','dla-qualinesti-elf':r'Qualinesti'}
   addheads(ds,'dla','dla-races-krynn',patterns[rid])
  races[rid]={'details':unique(ds)}
 for name,data in [('item-details',items),('class-details',classes),('race-details',races)]:

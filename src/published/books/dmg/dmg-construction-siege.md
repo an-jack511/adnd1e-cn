@@ -304,9 +304,9 @@
 | 巨人投掷的巨石：石或风暴巨人 Giant-Hurled Boulder: Stone or Storm | 6 | — | 4 | 2 |
 | 铁魔像 Golem, Iron | 3* | 1* | 2* | 1* |
 | 石魔像 Golem, Stone | 3* | 1* | 1* | ½* |
-| 爆裂号角 Horn of Blasting | 18 | 6 | 8 | 4 |
+| 音爆号角 Horn of Blasting | 18 | 6 | 8 | 4 |
 | 闪电束 Lightning Bolt | ½** | — | — | — |
-| 移土术 Move Earth | — | 20 | — | — |
+| 地动术 Move Earth | — | 20 | — | — |
 | 撞锤 Ram | 1* | — | ¼* | — |
 | 攻城棚车（尖镐或螺旋钻） Sow (Pick or Screw) | ½* | ½*** | ½* | ¼* |
 | 树人 Treant | 8* | 2* | 2* | 1* |

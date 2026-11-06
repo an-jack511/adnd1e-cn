@@ -8,7 +8,7 @@
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| 阿拉科克拉鸟人 | Lawrence Schick | 8 |
+| 鸟羽人 | Lawrence Schick | 8 |
 | 阿查伊莱 | Roger Musson | 9 |
 | 黏附怪 | Guy Shearer | 9 |
 | 神罚化身 | Alessandro Martelli | 11 |
@@ -20,14 +20,14 @@
 | 喋喋怪 | Jeremy Goodwin and Ian McDowall | 13 |
 | 灾祸小虫——见 杰姆莱恩 | - | - |
 | 巨型蝙蝠 | Lewis Pulsipher | 14 |
-| 贝尔巴朗 | Albie Fiore | 14 |
-| Bird-man——见 阿拉科克拉鸟人 | - | - |
+| 分灵妖 | Albie Fiore | 14 |
+| Bird-man——见 鸟羽人 | - | - |
 | 黑加巴格——见 加巴格 | - | - |
 | 黑海胆——见 海胆 | - | - |
 | 炫目蛙怪 | Roger Musson | 15 |
 | 血鹰 | Ian Livingstone | 15 |
 | 巨型血虫 | Ian Livingstone | 15 |
-| 蓝史拉蟾——见 史拉蟾 | - | - |
+| 史拉蓝蟾——见 史拉蟾 | - | - |
 | 锅炉鸟——见 索克锅炉鸟 | - | - |
 | 碎骨兽 | Ian Livingstone | 15 |
 | 布卡精 | Gary Gygax | 16 |
@@ -49,9 +49,9 @@
 | 墓穴怪 | Roger Musson | 21 |
 | 达孔猿人 | Ian McDowall | 22 |
 | 黑暗潜伏者 | Rik Shepherd | 22 |
-| Dark 精灵——见 精灵: 卓尔精灵 | - | - |
+| Dark 精灵——见 精灵: 卓尔 | - | - |
 | 黑暗追猎者 | Simon Muth | 23 |
-| 死亡犬 | Underworld Oracle | 23 |
+| 亡命恶犬 | Underworld Oracle | 23 |
 | 死亡骑士 | Charles Stross | 23 |
 | Death 史拉蟾——见 史拉蟾 | - | - |
 | 死亡蠕虫——见 死灵蛇构装体 | - | - |
@@ -79,7 +79,7 @@
 | ↳ 天龙（celestial 龙，天龙） | - | 29 |
 | ↳ 鱼龙（鲤龙，鲤龙） | - | 30 |
 | 龙鱼 | Albie Fiore | 30 |
-| 卓尔精灵——见 精灵: 卓尔精灵 | - | - |
+| 卓尔——见 精灵: 卓尔 | - | - |
 | 沙丘追猎者 | Ian Livingstone | 30 |
 | 地龙——见 东方龙 | - | - |
 | 邪恶元素王子 | Lewis Pulsipher | 31 |
@@ -89,9 +89,9 @@
 | ↳ 奥尔海德拉——Princess of evil water creatures（水元素生物的邪恶公主） | - | 32 |
 | ↳ 扬西宾——Prince of evil aerial creatures（空中生物的邪恶王子） | - | 33 |
 | 精灵 | - | 33 |
-| ↳ 卓尔精灵 | Gary Gygax | 33 |
+| ↳ 卓尔 | Gary Gygax | 33 |
 | 包裹怪 | Underworld Oracle | 34 |
-| 蛛化精怪 | David Taylor | 35 |
+| 伊特怪 | David Taylor | 35 |
 | 杀目兽 | Ian Livingstone | 35 |
 | 恐惧烈焰之眼 | Hugh Kernohan | 35 |
 | 火蜥龙 | Dave Waring | 36 |
@@ -99,9 +99,9 @@
 | 火蜥人 | Albie Fiore | 36 |
 | 火蛇 | Michael McDonagh | 38 |
 | 火蟾蜍 | Roger Musson | 38 |
-| 连枷蜗牛 | Simon Tilbrook | 38 |
-| 弗林德豺狼人 | J. D. Morris | 39 |
-| 弗伦浮怪 | Ian McDowall and Douglas Naismith | 39 |
+| 链枷蜗牛 | Simon Tilbrook | 38 |
+| 弗林德鬣狗人 | J. D. Morris | 39 |
+| 呋噜 | Ian McDowall and Douglas Naismith | 39 |
 | 雾巨人——见 巨人 | - | - |
 | 弗拉伦 | Ian Livingstone | 39 |
 | 霜人 | Julian Lawrence | 40 |
@@ -118,18 +118,18 @@
 | 巨型胡蜂——见 巨型胡蜂 | - | - |
 | 巨型巨魔——见 巨魔 | - | - |
 | 双头巨型巨魔——见 巨魔 | - | - |
-| 巨型跨步鸟 | Albie Fiore | 42 |
+| 阔步鸟 | Albie Fiore | 42 |
 | 胡言兽 | Underworld Oracle | 43 |
 | 吉斯洋基人 | Charles Stross | 43 |
 | 吉斯泽莱人 | Charles Stross | 45 |
 | 金币虫 | David Taylor | 46 |
 | 戈贝尔 | Andrew Key | 46 |
 | 猩熊 | Cricky Hitchcock | 46 |
-| 绿史拉蟾——见 史拉蟾 | - | - |
+| 史拉绿蟾——见 史拉蟾 | - | - |
 | 绿海胆——见 海胆 | - | - |
 | Grey 史拉蟾——见 史拉蟾 | - | - |
-| 格瑞尔 | Ian Livingstone | 46 |
-| 石盲蛮族 | Albie Fiore | 48 |
+| 触须怪 | Ian Livingstone | 46 |
+| 幽邃盲族 | Albie Fiore | 48 |
 | 格里夫 | Peter Brown | 48 |
 | 守卫达厄蒙 | Ian McDowall | 49 |
 | 守卫魔宠 | Trevor Mendham | 49 |
@@ -140,7 +140,7 @@
 |---|---|---:|
 | 地狱猫 | David Taylor | 50 |
 | 霜狐 | Graeme Morris | 50 |
-| 钩爪恐兽 | Ian Livingstone | 51 |
+| 恐爪怪 | Ian Livingstone | 51 |
 | 巨型胡蜂 | Nick Louth | 51 |
 | 凶兆猎犬 | Mike Roberts | 51 |
 | 亵渎尸骸 | Underworld Oracle | 51 |
@@ -149,7 +149,7 @@
 | 冰巨魔——见 巨魔 | - | - |
 | 伊密克斯——见 邪恶元素王子 | - | - |
 | 变形兽 | Andrew Key | 52 |
-| 铁眼镜蛇 | Philip Masters | 52 |
+| 钢铁眼镜蛇 | Philip Masters | 52 |
 | 标枪蛇 | Philip Masters | 53 |
 | 杰姆莱恩 | Gary Gygax | 53 |
 | 灾祸小妖——见 杰姆莱恩 | - | - |
@@ -158,20 +158,20 @@
 | 鸦人 | Rik Shepherd | 56 |
 | 卡格拉 | Lawrence Schick | 56 |
 | 基尔莫利斯 | Gary Gygax | 57 |
-| 寇涛鱼人 | Gary Gygax | 57 |
-| 拉弥亚贵族 | Philip Masters | 59 |
+| 寇涛 | Gary Gygax | 57 |
+| 拉迷亚贵族 | Philip Masters | 59 |
 | 熔岩之子 | Jim Donohoe | 61 |
 | 熔岩魔蝠——见 魔蝠 | - | - |
 | 地龙——见 东方龙 | - | - |
-| 蜥蜴王 | Stephen Horne | 61 |
+| 蜥蜴之王 | Stephen Horne | 61 |
 | 罗丝——见 恶魔: 罗丝 | - | - |
 | 龙王——见 东方龙 | - | - |
 | 镁光精魂 | Nick Louth | 62 |
-| Man-fish——见 寇涛鱼人 | - | - |
+| Man-fish——见 寇涛 | - | - |
 | 曼塔里 | David Wormell | 62 |
 | Marsh-gibberer——见 喋喋怪 | - | - |
-| 米泽尔 | Dermot Jackson | 63 |
-| 恐惧之锁 | Peter Korabik | 63 |
+| 鬾魊 | Dermot Jackson | 63 |
+| 凌弱怪 | Peter Korabik | 63 |
 | 魔蝠 | Martin Stollery | 64 |
 | ↳ Fire | - | 64 |
 | ↳ Lava | - | 64 |
@@ -182,7 +182,7 @@
 | 山巨人——见 巨人 | - | - |
 | 死灵蛇构装体 | Simon Tilbrook | 67 |
 | 针叶人 | Trevor Graver | 67 |
-| 反地精 | Roger Musson | 67 |
+| 林布哥 | Roger Musson | 67 |
 | 九尾猫 | Dean Lockwood and P. S. Barton | 68 |
 | 诺克地精 | J. D. Morris | 68 |
 | 夜魔 | Gary Gygax | 69 |
@@ -202,13 +202,13 @@
 | 幻影追猎者 | Ian Livingstone | 72 |
 | 骚灵 | Lewis Pulsipher | 73 |
 | 原质变形怪 | Tom Moldvay | 73 |
-| 地底兽人 | Andrew Torchia | 74 |
+| 幽邃熊怪 | Andrew Torchia | 74 |
 | 食人鱼 | Albie Fiore | 74 |
 | 库兰人 | Neville White | 74 |
-| 红史拉蟾——见 史拉蟾 | - | - |
+| 史拉红蟾——见 史拉蟾 | - | - |
 | 红海胆——见 海胆 | - | - |
-| 寻猎魔 | Tom Moldvay | 75 |
-| 还魂尸 | Stephen Hellman | 75 |
+| 猎魔蛛 | Tom Moldvay | 75 |
+| 还魂鬼 | Stephen Hellman | 75 |
 | Rockworm——见 熔岩虫 | - | - |
 | 洛斯兽 | Ghee Bowman | 76 |
 | Salaman——见 火蜥人 | - | - |
@@ -216,21 +216,21 @@
 | 稻草人 | Roger Musson | 77 |
 | 尖啸小魔 | Philip Masters | 77 |
 | Sea 龙——见 东方龙 | - | - |
-| 暗影恶魔 | Neville White | 78 |
+| 幽影恶魔 | Neville White | 78 |
 | 尸衣食尸鬼 | David Wormell | 78 |
 | 裹尸幻影 | David Wormell | 78 |
 | 神龙——见 东方龙 | - | - |
 | 电击怪 | Roger Musson | 79 |
 | 银海胆——见 海胆 | - | - |
 | 骷髅战士 | Nigel Morgan | 79 |
-| 隐伏者 | Simon Muth | 80 |
+| 潜伏客 | Simon Muth | 80 |
 | Skunk beast——见 枯臭兽 | - | - |
 | 史拉蟾 | Charles Stross | 80 |
-| ↳ 蓝史拉蟾 | - | 80 |
+| ↳ 史拉蓝蟾 | - | 80 |
 | ↳ Death 史拉蟾 | - | 81 |
-| ↳ 绿史拉蟾 | - | 81 |
+| ↳ 史拉绿蟾 | - | 81 |
 | ↳ Grey 史拉蟾 | - | 81 |
-| ↳ 红史拉蟾 | - | 82 |
+| ↳ 史拉红蟾 | - | 82 |
 | ↳ 森达姆 (史拉蟾 Lord) | - | 82 |
 | ↳ 耶戈尔 (史拉蟾 Lord) | - | 82 |
 | 烟魔蝠——见 魔蝠 | - | - |
@@ -240,7 +240,7 @@
 | 灵体巨魔——见 巨魔 | - | - |
 | 森达姆——见 史拉蟾 | - | - |
 | 蒸汽魔蝠——见 魔蝠 | - | - |
-| Strider——见 巨型跨步鸟 | - | - |
+| Strider——见 阔步鸟 | - | - |
 | 震慑胶怪 | Neville White | 84 |
 | 冥河魔鬼——见 魔鬼: styx | - | - |
 | 苏苏鲁斯 | Albie Fiore | 84 |
@@ -283,7 +283,7 @@
 | 枯臭兽 | Jonathan Jones | 95 |
 | 枯萎草 | Simon Eaton | 95 |
 | 希尔虫人 | Brian Asbury | 96 |
-| 泽瓦特 | Cricky Hitchcock | 96 |
+| 法特怪 | Cricky Hitchcock | 96 |
 | 扬西宾——见 邪恶元素王子 | - | - |
 | 黄麝香蔓 | Albie Fiore | 97 |
 | 黄麝香僵尸——见 黄麝香僵尸 | - | - |
@@ -356,13 +356,13 @@ Lake Geneva, WI 53147
 TSR™ 和 RPGA™ 是 TSR Hobbies, Inc. 所拥有的商标。GenCon® 是 TSR Hobbies, Inc. 的注册服务标志。  
 © 1981 TSR Hobbies, Inc. 版权所有。
 
-## 封底宣传与贝尔巴朗示例 · Back Cover and Berbalang Example
+## 封底宣传与分灵妖示例 · Back Cover and Berbalang Example
 
 ### 宣传文字
 
 本书包含为 ADVANCED DUNGEONS & DRAGONS™ 游戏系统设计的怪物字母顺序列表。每种生物都会得到描述，并且大多数都配有插图，便于辨认。
 
-<strong>例如：贝尔巴朗（贝巴朗）</strong>
+<strong>例如：分灵妖（贝巴朗）</strong>
 
 ### 示例统计栏
 

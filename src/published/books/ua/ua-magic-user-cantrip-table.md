@@ -5,7 +5,7 @@
 | 编号 | 实用 Useful | 反向 Reversed | 手法 Legerdemain | 影响人物 Person-Affecting | 个人 Personal | 惊扰 Haunting |
 |:---:|:---|:---|:---|:---|:---|:---|
 | 1 | 凉意 Chill | 凝结 Curdle | 变换 Change | 打嗝 Belch | 蜜蜂 Bee | 吱嘎声 Creak |
-| 2 | 清洁 Clean | 弄脏 Dirty | 分心 Distract | 眨眼 Blink | 蓝光 Bluelight | 脚步声 Footfall |
+| 2 | 清洁 Clean | 弄脏 Dirty | 分心 Distract | 闪现术 Blink | 蓝光 Bluelight | 脚步声 Footfall |
 | 3 | 着色 Color | 积尘 Dusty | 隐藏 Hide | 咳嗽 Cough | 小虫 Bug | 呻吟 Groan |
 | 4 | 润湿 Dampen | 生毛 Hairy | 消音 Mute | 咯咯笑 Giggle | 指尖火 Firefinger | 低吟 Moan |
 | 5 | 弄干 Dry | 结扣 Knot | 藏掌 Palm | 点头 Nod | 蚋虫 Gnats | 哗啦声 Rattle |

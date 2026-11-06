@@ -37,7 +37,7 @@
 
 #### +1、对施法者与附魔生物 +2 Sword +1, +2 vs. Magic-Using and Enchanted Creatures
 
-此剑始终获得 <strong>+1</strong> 加值；用于对付魔法师、能施法的怪物，以及被召唤、创造、传送门召来或召唤术唤来的生物时，获得 <strong>+2</strong>。若某生物仅因物品赋予而能施法（例如借助法术储存戒指），则不受此 <strong>+2</strong> 加值影响。
+此剑始终获得 <strong>+1</strong> 加值；用于对付魔法师、能施法的怪物，以及被召唤、创造、异界之门召来或召唤术唤来的生物时，获得 <strong>+2</strong>。若某生物仅因物品赋予而能施法（例如借助储法戒指），则不受此 <strong>+2</strong> 加值影响。
 
 #### +1、对兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers
 
@@ -49,7 +49,7 @@
 
 #### +1、对爬行类 +4 Sword +1, +4 vs. Reptiles
 
-此剑对恐龙、龙类、九头蛇、蜥蜴、蛇、双足飞龙等爬行类生物获得 <strong>+4</strong> 加值。
+此剑对恐龙、龙类、多头蛇、蜥蜴、蛇、飞龙等爬行类生物获得 <strong>+4</strong> 加值。
 
 #### +1 火焰舌 Sword +1, Flame Tongue
 
@@ -86,7 +86,7 @@
 
 #### +4 防御者 Sword +4, Defender
 
-持有者可以选择将全部、部分或完全不将 <strong>+4</strong> 加值用于防御对手的手持武器（例如匕首、钉头锤、未投掷的长矛、剑等）。例如，持有者可以在战斗第一轮选择将此剑用作 <strong>+2</strong> 武器，并把其余 <strong>+2</strong> 加到护甲等级上。每轮都可以重新分配。
+持有者可以选择将全部、部分或完全不将 <strong>+4</strong> 加值用于防御对手的手持武器（例如匕首、硬头锤、未投掷的长矛、剑等）。例如，持有者可以在战斗第一轮选择将此剑用作 <strong>+2</strong> 武器，并把其余 <strong>+2</strong> 加到护甲等级上。每轮都可以重新分配。
 
 #### +5 圣剑 Sword +5, Holy Avenger
 

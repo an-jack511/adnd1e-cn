@@ -42,7 +42,7 @@
 
 若法术到期或衣物被*解除魔法*作用时袋里仍有东西，穿戴者须<strong>对法术豁免</strong>。失败者的物品从异次元空间落入星界，永久遗失；成功者的物品一齐出现在身周，立刻落地。除衣物外，材料成分是一枚小金针，以及扭转半圈后接起两端的一条细布。
 
-## 火焰球 Flaming Sphere（变化／塑能系 Alteration/Evocation）
+## 炽焰法球 Flaming Sphere（变化／塑能系 Alteration/Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -88,7 +88,7 @@
 
 除上述数据外，规则与<strong>牧师二环同名法术</strong>相同。若只观察目标 <strong>1 轮</strong>，只能辨别其阵营的<strong>伦理轴</strong>，即守序或混乱；要获知另一轴须按原法术继续观察。本术可逆向施展。
 
-## 梅尔夫的酸箭 Melf's Acid Arrow（塑能系 Evocation）
+## 马友夫强酸箭 Melf's Acid Arrow（塑能系 Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -201,4 +201,4 @@
 <strong>施法时间 Casting Time：</strong>2 段<br>
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
-一阵轻风从施法者吹向其面对的方向，一直行至影响范围末端。小火焰因此摇摆；较大的火焰、火势更旺，适用时其伤害骰承受 <strong>＋1</strong>。风能将移动中的蒸汽云（如*死亡云*）挡住 <strong>1 轮</strong>；削弱*云雾术*、*雾墙术*等气雾，持续时间减半；使停滞空气、蒸汽乃至毒气倒退 <strong>1″</strong>，其持续时间与效力也减半，除非另有来源持续补充。材料成分是一张手风琴式折起的细羊皮纸，在近底部用象牙或银制别针固定。
+一阵轻风从施法者吹向其面对的方向，一直行至影响范围末端。小火焰因此摇摆；较大的火焰、火势更旺，适用时其伤害骰承受 <strong>＋1</strong>。风能将移动中的蒸汽云（如*死云术*）挡住 <strong>1 轮</strong>；削弱*云雾术*、*雾墙术*等气雾，持续时间减半；使停滞空气、蒸汽乃至毒气倒退 <strong>1″</strong>，其持续时间与效力也减半，除非另有来源持续补充。材料成分是一张手风琴式折起的细羊皮纸，在近底部用象牙或银制别针固定。

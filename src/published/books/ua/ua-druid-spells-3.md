@@ -28,7 +28,7 @@
 
 基本效果与牧师二环同名法术相同，但采用上表参数。持续时间较短，因此最多只能检查五名生物。德鲁伊版本不能逆向施展。
 
-## 尖刺植物 Spike Growth（变化／附魔系 Alteration/Enchantment）
+## 荆棘丛生 Spike Growth（变化／附魔系 Alteration/Enchantment）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -39,7 +39,7 @@
 <strong>施法时间 Casting Time：</strong>5 段<br>
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
-基本效果与牧师四环[棘刺丛生](/books/ua/ua-cleric-spells-4/)相同，但采用上表参数，并有以下差异：受影响区域会散发魔法灵光；*侦测陷阱与坑洞*可以指出棘刺位置。德鲁伊须以槲寄生代替牧师圣徽，另仍需七根小树枝或尖刺。
+基本效果与牧师四环[荆棘丛生](/books/ua/ua-cleric-spells-4/)相同，但采用上表参数，并有以下差异：受影响区域会散发魔法灵光；*侦测陷阱与坑洞*可以指出棘刺位置。德鲁伊须以槲寄生代替牧师圣徽，另仍需七根小树枝或尖刺。
 
 ## 星光术 Starshine（塑能／幻术系 Evocation–Illusion）
 

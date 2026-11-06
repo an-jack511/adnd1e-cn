@@ -19,27 +19,27 @@
 
 施放书中法术时，视同使用卷轴，包括施法时间、法术失败等规则。
 
-#### 邪恶黑暗之书 Book of Vile Darkness
+#### 秽暗之书 Book of Vile Darkness
 
-此书是不可言喻的邪恶结晶，是相同阵营牧师的精神食粮。完整读完需 <strong>1 周</strong>；邪恶牧师完成阅读后感知提高 <strong>1 点</strong>，并获得足够经验值，恰好升至下一级的一半。既非善良也非邪恶的牧师阅读后要么失去 <strong>30,000–120,000 点</strong>经验值，要么转变为邪恶阵营且不会因作品获益，两种结果概率各为 <strong>50%</strong>。善良牧师研读此书时，必须通过对抗毒药的豁免检定，否则死亡；若幸存，还必须通过对抗魔法的豁免检定，否则永久疯狂。即使豁免成功，牧师仍会失去 <strong>250,000 点</strong>经验值；其感知每有 <strong>1 点</strong>，损失减少 <strong>10,000 点</strong>。其他善良阵营角色经手此书会受到 <strong>5–30 点</strong>伤害；若向内窥视，还有 <strong>80%</strong> 的概率当夜遭遇夜巫。非邪恶的中立阵营角色会受到 <strong>5–20 点</strong>伤害；阅读书页后必须通过对抗毒药的豁免检定，否则转变为邪恶阵营，并立即寻找邪恶牧师确认其新阵营。（另见“崇高功绩之书”。）
+此书是不可言喻的邪恶结晶，是相同阵营牧师的精神食粮。完整读完需 <strong>1 周</strong>；邪恶牧师完成阅读后感知提高 <strong>1 点</strong>，并获得足够经验值，恰好升至下一级的一半。既非善良也非邪恶的牧师阅读后要么失去 <strong>30,000–120,000 点</strong>经验值，要么转变为邪恶阵营且不会因作品获益，两种结果概率各为 <strong>50%</strong>。善良牧师研读此书时，必须通过对抗毒药的豁免检定，否则死亡；若幸存，还必须通过对抗魔法的豁免检定，否则永久疯狂。即使豁免成功，牧师仍会失去 <strong>250,000 点</strong>经验值；其感知每有 <strong>1 点</strong>，损失减少 <strong>10,000 点</strong>。其他善良阵营角色经手此书会受到 <strong>5–30 点</strong>伤害；若向内窥视，还有 <strong>80%</strong> 的概率当夜遭遇夜巫。非邪恶的中立阵营角色会受到 <strong>5–20 点</strong>伤害；阅读书页后必须通过对抗毒药的豁免检定，否则转变为邪恶阵营，并立即寻找邪恶牧师确认其新阵营。（另见“崇善之书”。）
 
 #### 舞蹈靴 Boots of Dancing
 
-这双魔法靴可伸缩至适合从半身人到巨人的任何体型。若使用侦测魔法，会发现它们散发暗淡灵光；外观上与其他魔法靴无法区分。在实际近战中，或穿戴者试图逃离战斗时，舞蹈靴才会显露作用：它会妨碍穿戴者移动，使其开始踮脚、摇摆、跺脚或拖步，动作与受到奥托不可抗拒之舞法术影响完全相同（护甲等级减 <strong>4</strong>，无法豁免，也无法攻击）。一旦显露真实性质，只有“移除诅咒术”才能脱下此靴。
+这双魔法靴可伸缩至适合从半身人到巨人的任何体型。若使用侦测魔法，会发现它们散发暗淡灵光；外观上与其他魔法靴无法区分。在实际近战中，或穿戴者试图逃离战斗时，舞蹈靴才会显露作用：它会妨碍穿戴者移动，使其开始踮脚、摇摆、跺脚或拖步，动作与受到奥图不可抗拒之舞法术影响完全相同（护甲等级减 <strong>4</strong>，无法豁免，也无法攻击）。一旦显露真实性质，只有“移除诅咒术”才能脱下此靴。
 
-#### 精灵靴 Boots of Elvenkind
+#### 精灵之靴 Boots of Elvenkind
 
 这双柔软的靴子让穿戴者几乎在任何环境中都能无声行走。因此，穿戴者踏过干叶堆或吱呀作响的木地板时也只会发出极轻微的声响——在最恶劣的条件下，保持安静的概率约为 <strong>95%</strong>；条件最佳时则为 <strong>100%</strong>。
 
-#### 浮空靴 Boots of Levitation
+#### 浮空之靴 Boots of Levitation
 
-与其他魔法靴一样，这双柔软的靴子会伸缩，以适配从巨人到半身人的脚。浮空靴可让穿戴者随意垂直上升或下降，速度为每轮 <strong>20'</strong>（每分钟）。使用次数不受限制。靴子可浮起的重量以 <strong>14 磅</strong>为增量随机决定：掷 <strong>d20</strong>并将结果加到基础重量 <strong>280 磅</strong>上。因此，某一双浮空靴能浮起 <strong>294–560 磅</strong>。食人魔可以穿上这双靴子，但若其体重过重，便无法浮空。（另见二环魔法师法术“浮空术”。）
+与其他魔法靴一样，这双柔软的靴子会伸缩，以适配从巨人到半身人的脚。浮空之靴可让穿戴者随意垂直上升或下降，速度为每轮 <strong>20'</strong>（每分钟）。使用次数不受限制。靴子可浮起的重量以 <strong>14 磅</strong>为增量随机决定：掷 <strong>d20</strong>并将结果加到基础重量 <strong>280 磅</strong>上。因此，某一双浮空之靴能浮起 <strong>294–560 磅</strong>。食人魔可以穿上这双靴子，但若其体重过重，便无法浮空。（另见二环魔法师法术“浮空术”。）
 
-#### 迅捷靴 Boots of Speed
+#### 速度之靴 Boots of Speed
 
-穿戴者可如同快马般奔跑，基础移动速度为 <strong>24"</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100 金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1"</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20"</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5"</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，迅捷靴可使护甲等级改善 <strong>2 点</strong>。
+穿戴者可如同快马般奔跑，基础移动速度为 <strong>24"</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100 金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1"</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20"</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5"</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，速度之靴可使护甲等级改善 <strong>2 点</strong>。
 
-#### 跨跃与弹跳靴 Boots of Striding and Springing
+#### 跑跳之靴 Boots of Striding and Springing
 
 无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12"</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30'</strong>、向后跳 <strong>9'</strong>、垂直跳 <strong>15'</strong>。若在战斗中使用此类移动，穿戴者在近战轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。
 

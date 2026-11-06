@@ -69,10 +69,10 @@
 | 独眼怪 Cyclopskin | 格里姆洛克 Grimlock | 食人魔亚人 Ogrillon |
 | 沙丘潜行者 Dune Stalker | 大地精 Hobgoblin | 兽人 Orc |
 | 埃廷巨人 Ettin | 狗头人 Kobold | 夸戈斯 Quaggoth |
-| 弗林德 Flind | 米泽尔 Meazel | 塔斯洛伊 Tasloi |
+| 弗林德 Flind | 鬾魊 Meazel | 塔斯洛伊 Tasloi |
 | 巨人 Giant | 诺克尔 Norker | 巨魔 Troll |
 | 吉布林 Gibberling | 食人魔 Ogre | 萨瓦特 Xvart |
-| 豺狼人 Gnoll |  |  |
+| 鬣狗人 Gnoll |  |  |
 
 ## 游侠的武器
 

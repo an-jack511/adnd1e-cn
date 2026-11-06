@@ -13,7 +13,7 @@
 | 67–77 | 在 <strong>1"</strong>范围内侦测魔法 |
 | 78–82 | 在 <strong>½"</strong>范围内侦测密门 |
 | 83–87 | 在 <strong>1"</strong>范围内侦测隐形物体 |
-| 88–92 | 在 <strong>12"</strong>范围内定位物品 |
+| 88–92 | 在 <strong>12"</strong>范围内物件定位术 |
 | 93–98 | 在本表再掷两次；忽略 <strong>93–00</strong> 的结果 |
 | 99–00 | 改掷“超凡能力表” |
 
@@ -23,13 +23,13 @@
 
 | 骰值 | 能力* |
 |---:|---|
-| 01–07 | 接触时施展“魅惑人类”，每日 <strong>3 次</strong> |
+| 01–07 | 接触时施展“魅惑类人”，每日 <strong>3 次</strong> |
 | 08–15 | 在 <strong>3"</strong>范围内施展“听觉术”，每日 <strong>3 次</strong>，每次持续 <strong>1 轮</strong> |
 | 16–22 | 在 <strong>3"</strong>范围内施展“千里眼”，每日 <strong>3 次</strong>，每次持续 <strong>1 轮</strong> |
 | 23–28 | 每日 <strong>2 次</strong>确定方向与深度 |
 | 29–34 | 在 <strong>3"</strong>范围内施展“心灵感应”，每日 <strong>3 次</strong>，每次持续 <strong>1 轮</strong> |
 | 35–41 | 飞行，速度 <strong>12"／回合</strong>，每日 <strong>1 小时</strong> |
-| 42–47 | 每日施展“治疗术” <strong>1 次</strong> |
+| 42–47 | 每日施展“医疗术” <strong>1 次</strong> |
 | 48–54 | 在 <strong>12"</strong>范围内制造幻象，每日 <strong>2 次</strong>，效果如同魔杖 |
 | 55–61 | 悬浮术，持续 <strong>1 回合</strong>；每日 <strong>3 次</strong>，按 <strong>6 级施法者</strong>能力运作 |
 | 62–67 | 每日增强力量 <strong>1 次</strong>（仅作用于持有者） |

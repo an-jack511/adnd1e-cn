@@ -23,9 +23,9 @@
 | 投枪器 Atlatl | 1 gp | 套索 Lasso | 5 sp |
 | 吹箭筒 Blowgun | 20 gp | 捕人叉 Man Catcher | 25 gp |
 | 吹箭针 Blowgun Needle | 1 sp | 皮棍 Sap | 1 gp |
-| 蒺藜 Caltrop | 2 sp | 带刺圆盾 Spiked Buckler | 10 gp |
+| 铁蒺藜 Caltrop | 2 sp | 带刺圆盾 Spiked Buckler | 10 gp |
 | 手弩 Crossbow, hand | 300 gp | 长柄投石索 Staff Sling | 2 gp |
 | 手弩矢 Quarrels for same | 100 gp | 带鞘弯刃大刀 Sword, falchion, and scabbard | 10 gp |
 | 绞索 Garrot | 1 ep | 镰形剑 Sword, khopesh | 10 gp |
-| 鱼叉 Harpoon | 5 gp | 鞭 Whip | 3 gp |
+| 鱼叉 Harpoon | 5 gp | 鞭子 Whip | 3 gp |
 | 钩刃长柄刀 Hook Fauchard | 6 gp |  |  |

@@ -9,8 +9,8 @@
 | 空中仆役 Aerial Servant | 49 | 商人 Merchant | 9 |
 | 蚁兽 Anhkhegs | 70 | 人鱼 Mermen | 88 |
 | 水生精灵 Aquatic Elf | 86 | 夺心魔 Mind Flayer | 80 |
-| 獾 Badger | 8 | 牛头怪 Minotaur | 26 |
-| 化け物 Bakemono | 18 | 僧侣 Monk | 28 |
+| 獾 Badger | 8 | 牛头人 Minotaur | 26 |
+| 化け物 Bakemono | 18 | 武僧 Monk | 28 |
 | 梭子鱼 Barracuda | 88 | 莫瓦尼克天使 Movanic Deva | 89 |
 | 眼魔 Beholder | 47 | 狂战士 Berserkers | 5 |
 | 布朗尼精 Brownies | 19 | 忍者 Ninja | 29 |
@@ -18,13 +18,13 @@
 | 苍龙 Chiang Lung | 50 | 飞马 Pegasi | 58 |
 | 奇美拉 Chimera | 40 | 鹿身鹰首兽 Peryton | 59 |
 | 羽蛇 Couatl | 44 | 伪龙 Pseudodragon | 31 |
-| 苦行僧 Dervish | 13 | 夸赛魔 Quasit | 81 |
+| 苦行僧 Dervish | 13 | 小恶魔 Quasit | 81 |
 | 移位兽 Displacer Beast | 74 | 矮人 Dwarves | 51 |
-| 火巨灵 Efreeti | 53 | 红色阿比沙伊 Red Abishai | 69 |
+| 火巨灵 Efreeti | 53 | 亚比莎红龙魔 Red Abishai | 69 |
 | 双头巨人 Ettins | 20 | 棘龙 Remorhaz | 60 |
-| 肉魔像 Flesh Golem | 15 | 锈蚀怪物 Rust Monsters | 82 |
+| 肉魔像 Flesh Golem | 15 | 锈蚀怪 Rust Monsters | 82 |
 | 伏狮 Foo Lion | 67 | 火蜥蜴 Salamander | 73 |
-| 霜巨人 Frost Giants | 55 | 暗影龙 Shadow Dragon | 83 |
+| 霜巨人 Frost Giants | 55 | 幽影龙 Shadow Dragon | 83 |
 | 山魈 Shan Sao | 32 | 真菌 Fungi | 76 |
 | 谢杜 Shedu | 17 | 石像鬼 Gargoyles | 56 |
 | 银龙 Silver Dragon | 62 | 狮身人面像 Sphinxes | 33 |
@@ -37,7 +37,7 @@
 | 铁魔像 Iron Golem | 23 | 幽魂 Wraiths | 84 |
 | 麒麟 Ki-Rin | 12 | 翼龙 Wyverns | 38 |
 | 矮妖精 Leprechaun | 24 | 土元素生物 Xorn | 65 |
-| 曼提柯尔 Manticore | 79 | 雅库扎 Yakuza | 66 |
+| 刺尾狮 Manticore | 79 | 雅库扎 Yakuza | 66 |
 | 美杜莎 Medusa | 42 | 雪人 Yeti | 64 |
 |  |  | 元首蛇人 Yuan-Ti | 45 |
 
@@ -99,7 +99,7 @@
 古尔姆加德 Gurmgaard           4        11"             10+14          82                         1    4d6                           9     Y   Y   —    CE
 霜巨人（3） Males               4        12"             10+1-4         58                         1    4d6                          10     Y   Y   —    CE
 石像鬼 Gargoyles              5        9"/15"          4+4            多个                         4    1-3/1-3/1-6/1-4              15     N   —   —    C
-胶质立方体 Gelatinous Cube     8        6"              4              28                         1    2d4                          15     Y   Y   —    N
+凝胶方块 Gelatinous Cube     8        6"              4              28                         1    2d4                          15     Y   Y   —    N
 豺狼人 Gnolls                 5/4      9"              2,3            9,18                       1    1d8 或 1d10                   16     N   N   —    CE
 啃骨 Gnawbone                 3        9"              4              22                         1    1d10+2                        —      N   N   —    CE
 地精 Gnomes                   5        6"              2              18                         1    按武器                       16     N   Y   —    NE
@@ -123,13 +123,13 @@
 魁 Kuei                      -4       18"             3              13                         1    1-6                           16     Y   Y   —    LE
 矮妖精 Leprechaun             8        15"             1              5                          —    无                            20     Y   Y   —    N
 梅德尔 Maeder                 5        9"              6              35                         2    2-8                          13     Y   Y   —    LE
-曼提柯尔 Manticore            4        12"/18"         6+3            54                         3    1d8/1d8/1d6                  13     Y   N   —    LE
+刺尾狮 Manticore            4        12"/18"         6+3            54                         3    1d8/1d8/1d6                  13     Y   N   —    LE
 美杜莎 Medusa                 5        9"              6              37                         1    1d4                          13     Y   N   —    LE
 商人（多尔文） Merchant        2        12"             9              32                         1    1d4                          19     N   Y   —    NG
 人鱼 Mermen                   7        1"/18"          1+1            6                          1    按武器                       18     N   N   —    N
 人鱼护卫 Guards               3        11"/12"         1+1            9                          1    按武器                       18     N   N   —    N
 夺心魔 Mind Flayers           5        12"             8+4            68                         4    特殊                         12     Y   Y   90%  LE
-牛头怪 Minotaur               6        12"             6+3            多个                         2    2-8 或 1-4/按武器             12     N   Y   —    CE
+牛头人 Minotaur               6        12"             6+3            多个                         2    2-8 或 1-4/按武器             12     N   Y   —    CE
 僧侣（蔡操书） Monk            -2       30"             16             57                         5    4d8+1                        10     Y   N   —    LN
 莫瓦尼克天使 Movanic Deva      -5       12"/30"/21"     7+28           84,61                      3    2-9+5/2-9+5/2-9+5            9     Y   Y   55%  NG
 木乃伊 Mummy                  3        6"              6+3            30                         1    1-12                         13     Y   Y   —    —
@@ -147,12 +147,12 @@
 鹿身鹰首兽 Perytons            7        12"/21"         4              17                         1    4d4                          13     Y   Y   —    CE
 植物怪 Phycomids              5        3"              4              18                         2    3-6/3-6                      15     Y   Y   —    NE
 伪龙 Pseudodragon             2        6"/24"          2              12                         1    1-3                          16     Y   Y   35%  NG
-夸赛魔 Quasit                  2        15"             3              22                         3    1d2/1d2/1d4                  16     Y   Y   25%  CE
-红色阿比沙伊 Red Abishai       1        18"/18"         4+2            多个                         2    2-5/2-5                      15     N   N   40%  LE
+小恶魔 Quasit                  2        15"             3              22                         3    1d2/1d2/1d4                  16     Y   Y   25%  CE
+亚比莎红龙魔 Red Abishai       1        18"/18"         4+2            多个                         2    2-5/2-5                      15     N   N   40%  LE
 棘龙 Remorhaz                 0/2/4    12"             14/10          70,52                       1    6d6/5d6                      —      Y   Y   —    N
-锈蚀怪物 Rust Monsters         2        18"             5              多个                         2    0                             15     Y   Y   —    N
+锈蚀怪 Rust Monsters         2        18"             5              多个                         2    0                             15     Y   Y   —    N
 火蜥蜴 Salamander              5/3      9"              7+7            68                          2    2d6 或按武器                  13     Y   Y   —    CE
-暗影龙 Shadow Dragon          -2       18"/24"         5,6            35,42                      3    1d4+1/1d4+1/3d4              13,15  Y   Y   20%  NE
+幽影龙 Shadow Dragon          -2       18"/24"         5,6            35,42                      3    1d4+1/1d4+1/3d4              13,15  Y   Y   20%  NE
 山魈 Shan Sao                  4        6"/15"          4              28                          1    1-3                          16     Y   Y   —    CN
 鲨鱼 Sharks（2）               6        24"             5              32,28                      1    2d4                          15     N   N   —    N
 谢杜 Shedu                    4        12"/24"         9+9            81                          2    1d6/1d6                      12     Y   Y   —    LG
@@ -160,7 +160,7 @@
 银龙（成年） Silver Dragon     -1       9"/24"          9              45                          3    1d6/1d6/5d6                  10     Y   N   —    LG
 银龙（远古） Ancient            -1       9"/24"          11             88                          3    1d6/1d6/5d6                  10     Y   N   —    LG
 银龙（老年） Old               -1       9"/24"          10             60                          3    1d6/1d6/5d6                  10     Y   N   —    LG
-巨型蜘蛛 Giant Spider          4        3"/12"          4+4            多个                         1    2-8                          15     Y   N   N    N
+巨蜘蛛 Giant Spider          4        3"/12"          4+4            多个                         1    2-8                          15     Y   N   N    N
 石魔像 Stone Golem             5        6"              14             60                          1    3-8                           8     Y   Y   N    N
 缠杀水草 Strangleweed          6        —               3              21                          1    特殊                         16     N   N   N    N
 魅魔 Succubus                  0        12"/18"         6              48                          2    1-3/1-3                      13     Y   N   —    LE
@@ -170,7 +170,7 @@
 乌木巨兽 Umber Hulk            2        6"              8+8            55,53,48,47                 3    3-12/3-12/2-10               12     Y   N   —    CE
 紫色真菌 Violet Fungi          7        1"              3              24,18,15,14                1-4  特殊                         16     Y   N   N    N
 战犬 War Dogs                 6        12"             2+2            18,13                      1    2d4                          16     N   N   N    N
-水怪 Water Weird              4        12"             3+3            19                          0    —                            23     Y   Y   CE   —
+水诡 Water Weird              4        12"             3+3            19                          0    —                            23     Y   Y   CE   —
 白色布丁 White Pudding         8        9"              9              40,36,12                   1    7d4                          12     Y   Y   N    N
 鬼火 Will-o-wisps             -8       18"             9              60,66,68                   1    2d8                          12     N   Y   C    —
 冬狼 Winter Wolves            5        18"             3+2            多个                         1    2d4                          15     Y   Y   N    N

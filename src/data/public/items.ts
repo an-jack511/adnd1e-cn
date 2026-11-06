@@ -1,4 +1,5 @@
 import regional from './regional-items.json';
+import {canonicalName} from '../../utils/terminology';
 import type {Item} from '../../schemas';
 import {baseItems} from './items-base';
 import details from './item-details.json';
@@ -11,6 +12,6 @@ export const items:Item[]=[...baseItems,...additions as Item[],...regional as It
  const next={...item,...extra,...(xpValue?{xpValue}:{})};
  const taxonomy=classifyItem(next);
  const sources=[...next.source,...(next.details??[]).map(detail=>detail.source)];
- return {...next,...taxonomy,nameZh:next.nameZh.replace(/[（(]$/,'').trim(),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};
+ return {...next,...taxonomy,nameZh:canonicalName('item',next.nameEn,next.nameZh.replace(/[（(]$/,'').trim()),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};
 });
 export {isMagicItem};

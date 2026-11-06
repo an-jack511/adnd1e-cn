@@ -36,7 +36,7 @@
 
 材料成分为幽魂精质或吸血鬼之尘。施法者先用 <strong>3 段</strong>准备，再抛出材料，触及目标时说出触发词，效果即刻发生。每次都有 <strong>5%（1／20）</strong>几率连施法者也失去 <strong>1 个能量等级</strong>。因此术降至 <strong>0 能量等级</strong>的人类或类人生物会成为<strong>朱朱僵尸 juju zombie</strong>。
 
-## 莫登凯南解离术 Mordenkainen's Disjunction（变化／附魔系 Alteration-Enchantment）
+## 魔邓肯解离术 Mordenkainen's Disjunction（变化／附魔系 Alteration-Enchantment）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>9<br>

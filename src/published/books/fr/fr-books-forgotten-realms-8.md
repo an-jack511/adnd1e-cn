@@ -150,7 +150,7 @@ true seeing 可以清楚显示 encrypt 灵光的轮廓，但不能让信息被�
 
 会被反射的魔法包括但不限于 enlarge、reduce、levitate、shatter、dig、passwall、stone shape、transmute rock to mud、move earth、stone to flesh、vanish、turn wood 和 animate rock。如果魔法不影响活物（例如 animate rock 或 move earth），则该次使用只会被抵抗；这类力量会从被封护区域的边缘反弹回来。由使用者直接控制的力量（例如灵能或类法术自然力量，但不是施法）不会对被封护区域或物品生效，但该力量仍计为已经使用。在所有可能把魔法“反射”回使用者的情况中，若该类型魔法通常允许豁免，所有可能受到影响的人都有资格豁免。
 
-light 类魔法、magic mouth、诺斯图（Nystul）’s magic aura 和 Leomund’s trap 不能在封护区域内施放，也不能施放在封护区域的任何表面上。在封护区域内任何表面写下的 glyph of warding、explosive runes 或 symbol，会在完成时立即放出，可能伤害书写者、同伴或附近其他生物。摧毁被封护区域的 disintegrate 会以抵消 secure 法术的方式生效。glassee 对被封护区域有正常效果。find traps 不会揭示 secure 法术的存在，但 detect magic 会显示其灵光。幻术与其他遮蔽法术可以成功施放在被封护区域上。
+light 类魔法、magic mouth、涅斯图（Nystul）’s magic aura 和 Leomund’s trap 不能在封护区域内施放，也不能施放在封护区域的任何表面上。在封护区域内任何表面写下的 glyph of warding、explosive runes 或 symbol，会在完成时立即放出，可能伤害书写者、同伴或附近其他生物。摧毁被封护区域的 disintegrate 会以抵消 secure 法术的方式生效。glassee 对被封护区域有正常效果。find traps 不会揭示 secure 法术的存在，但 detect magic 会显示其灵光。幻术与其他遮蔽法术可以成功施放在被封护区域上。
 
 ## The Scalamagdrion 开头
 

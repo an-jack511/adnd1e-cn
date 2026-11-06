@@ -12,7 +12,7 @@
 
 <strong>埃吉尔 Aegir</strong> 是海洋之神，能掀翻船只并把未献祭者拖入水下城堡；<strong>巴尔德 Balder</strong> 是光明与纯洁之神；<strong>布拉吉 Bragi</strong> 是诗歌与音乐之神，歌声能使暴力者停战，持“宁静之琴”。<strong>福尔塞提 Forseti</strong> 主管公正与裁决。
 
-<strong>弗雷 Frey</strong> 是丰饶与精灵国度之主，持神剑并骑金鬃野猪 Gullin-Bursti；<strong>弗蕾雅 Freya</strong> 是爱情、魔法与战死者的女神，持鹰羽斗篷与黑曜石项链。<strong>弗丽嘉 Frigga</strong> 能控制天气、观察风吹过的地方，并以项链魅惑视线中的目标。<strong>海姆达尔 Heimdall</strong> 看守 Bifrost，持号角与 Hofud 剑，能察觉隐形和魔法。
+<strong>弗雷 Frey</strong> 是丰饶与精灵国度之主，持神剑并骑金鬃野猪 Gullin-Bursti；<strong>弗蕾雅 Freya</strong> 是爱情、魔法与战死者的女神，持鹰羽斗篷与黑曜石项链。<strong>弗丽嘉 Frigga</strong> 能操控天气、观察风吹过的地方，并以项链魅惑视线中的目标。<strong>海姆达尔 Heimdall</strong> 看守 Bifrost，持号角与 Hofud 剑，能察觉隐形和魔法。
 
 <strong>赫尔 Hel</strong> 统治死者，半边脸白、半边脸黑，身周九十码的枯萎 aura 会夺走未通过魔法豁免者的 20 点生命值。<strong>伊登 Idun</strong> 守护恢复青春的金苹果。<strong>耶梦加得 Jormungandr</strong> 是环绕世界的巨蛇，毒素与头部攻击可杀死神祇。<strong>洛基 Loki</strong> 是诡计与火焰之神，血誓兄弟奥丁，常在诸神沉睡或混乱时行动。
 

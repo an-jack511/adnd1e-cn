@@ -10,11 +10,11 @@
 
 | 掷骰 | 攻击法术 Offensive | 防御法术 Defensive | 杂项法术 Miscellaneous |
 |:---:|:---|:---|:---|
-| 1 | 彩色喷射 Color Spray | 声音幻象 Audible Glamer | 改变自身外貌 Change Self |
+| 1 | 七彩喷射 Color Spray | 声音幻象 Audible Glamer | 改变自身外貌 Change Self |
 | 2 | 催眠术 Hypnotism | 黑暗术 Darkness | 舞光术 Dancing Lights |
 | 3 | 光亮术 Light | 凝视反射 Gaze Reflection | 侦测幻象 Detect Illusion |
 | 4 | 魅影之力 Phantasmal Force | 雾墙术 Wall of Fog | 侦测隐形 Detect Invisibility |
-| 5 | 彩色法球 Chromatic Orb | 幻影护甲 Phantom Armor | 自选 |
+| 5 | 繁彩球 Chromatic Orb | 幻影护甲 Phantom Armor | 自选 |
 | 6 | 惊吓术 Spook | 自选 | 自选，见下文 |
 
 杂项组掷出 <strong>6</strong> 时，地下城主可采用三种处理方法之一：允许人物额外取得<strong>第五项杂项法术</strong>；或允许玩家重新自选一项<strong>攻击法术</strong>，取代随机掷选；或认为与掷出 5 相同，仅自选一项杂项法术。本书之所以扩充幻术师初始法术，是因为《玩家手册》原列幻术师法术较少；普通魔法师可选法术已足够，故未作类似扩充。

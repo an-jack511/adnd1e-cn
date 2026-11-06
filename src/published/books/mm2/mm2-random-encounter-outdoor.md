@@ -4,18 +4,18 @@
 
 ## 寒冷荒野
 
-山地主要遭遇：山巨人、霜狐、伽雷布土灵、Ice 蟾蜍、Werebear、白龙、Wolverine、Mountain 矮人、Woolly Rhinoceros、猛犸象、Normal 渡鸦、食人魔、Mountain 狮、Hill 巨人、Frost 巨人、Fortress、塔尔猿人、Yeti、红龙。
+山地主要遭遇：山巨人、霜狐、石人、Ice 蟾蜍、Werebear、白龙、Wolverine、Mountain 矮人、Woolly Rhinoceros、猛犸、Normal 渡鸦、食人魔、Mountain 狮、Hill 巨人、Frost 巨人、Fortress、塔尔猿人、Yeti、红龙。
 
-丘陵/崎岖地形：Winter 狼、巨人 猫头鹰、獾、角色队伍、Northern 熊、冰巨魔、猛犸象、Hill 巨人、群居动物、猫头鹰、兽人、Hill 矮人、Cave 熊、有毒 蛇、野生 野猪、巨人 Wolverine、爱尔兰麋鹿、Remorhaz、格鲁加奇野精灵。
+丘陵/崎岖地形：Winter 狼、巨人 猫头鹰、獾、角色队伍、Northern 熊、冰巨魔、猛犸、Hill 巨人、群居动物、猫头鹰、兽人、Hill 矮人、Cave 熊、有毒 蛇、野生 野猪、巨人 Wolverine、爱尔兰麋鹿、Remorhaz、格鲁加奇野精灵。
 
-森林：Frost 巨人、弗拉伦、Treant、白布丁怪、Northern 熊、巨人 Porcupine、熊地精、狼、食人魔、兽人、野生 犬、狼人、蝎狮、白龙、巴卢奇兽、食人魔混血种、守墓灵、科瑞德、狐女。
+森林：Frost 巨人、弗拉伦、Treant、白布丁怪、Northern 熊、巨人 Porcupine、熊地精、狼、食人魔、兽人、野生 犬、狼人、蝎狮、白龙、巴卢奇兽、食人魔混血种、守墓灵、考芮精、狐女。
 
-沼泽/湿地：吸血鬼、Ice 蟾蜍、Dire 狼、Tiger 或 Night 幽魂、水晶软泥、伪不死生物 幽魂、Myrdra、野生 犬、兽人、地底兽人 或 Deadly 白布丁怪、食人魔、巨鼠、狼 或 Night 食尸鬼、群居动物、爱尔兰麋鹿、月犬、白龙、巨人 猫头鹰、黑柳。
+沼泽/湿地：吸血鬼、Ice 蟾蜍、Dire 狼、Tiger 或 Night 幽魂、水晶软泥、伪不死生物 幽魂、Myrdra、野生 犬、兽人、幽邃熊怪 或 Deadly 白布丁怪、食人魔、巨鼠、狼 或 Night 食尸鬼、群居动物、爱尔兰麋鹿、月犬、白龙、巨人 猫头鹰、黑柳。
 
-平原/灌木：戈尔贡、耶斯猎犬、冰巨魔、Dervishes、Hill 巨人、有毒 蛇、熊地精、Bandit、猛犸象、乳齿象、群居动物、食人魔、Bactrian Camel、Nomad、白龙、魔犬、狼、化人狼、巨人 Lynx、Remorhaz。
+平原/灌木：石化铁牛、夜嘶猎犬、冰巨魔、Dervishes、Hill 巨人、有毒 蛇、熊地精、Bandit、猛犸、乳齿象、群居动物、食人魔、Bactrian Camel、Nomad、白龙、魔犬、狼、化人狼、巨人 Lynx、Remorhaz。
 
 ## 温带与热带荒野
 
-温带荒野的表格按山地、丘陵、森林、沼泽、平原和沙漠排列，收录 戈耳喀迈拉、龙、洞穴渔夫、巨人 Bee、暗影獒犬、Titanothere、Bullette、沙丘追猎者、紫虫、掘尘兽、拉玛苏、索利克林螳螂人、鹿人、佐博兽、绞刑树、Fire Newt、枯萎草、鸦人、Mantis、伽雷布土灵、佩奇土灵、Shadow、夜嚎兽、元素惧灵、雷鸣牧兽 等。
+温带荒野的表格按山地、丘陵、森林、沼泽、平原和沙漠排列，收录 戈耳喀迈拉、龙、穴钓蟹、巨人 Bee、阴影獒犬、Titanothere、Bullette、沙丘追猎者、紫虫、掘尘兽、拉玛苏、螳螂人、鹿人、佐博兽、绞刑树、Fire Newt、枯萎草、鸦人、Mantis、石人、佩奇土灵、Shadow、夜嚎兽、元素惧灵、雷鸣牧兽 等。
 
-热带/亚热带荒野表增加 阿拉科克拉鸟人、黑龙、风行者、红龙、穴居人、赤铜龙、熊地精、Small Pterodactyl、巨人 Fire、蝎狮、火蜥龙、巨人 Storm、不会飞的鸟、蛙怪巨兽、巨蟹、担子菌怪、巨型蜻蜓、娜迦、豺狼人变形怪、地狱犬、旋涡怪、弗米蚁人、岩窟暴徒、斯芬克斯、达孔猿人、刺客虫、Retchplant、吸血鬼、织网鸟 与 渊地蛇人 等。本节每个 2–20 位置均按原书所属地形和频率读取，不可把同名生物合并为一个条目。
+热带/亚热带荒野表增加 鸟羽人、黑龙、风行者、红龙、穴居人、赤铜龙、熊地精、Small Pterodactyl、巨人 Fire、蝎狮、火蜥龙、巨人 Storm、不会飞的鸟、沼喉怪、巨蟹、担子菌怪、巨型蜻蜓、娜迦、化形胡狼、地狱猎犬、旋涡怪、弗米蚁人、岩窟暴徒、斯芬克斯、达孔猿人、刺客虫、Retchplant、吸血鬼、织网鸟 与 渊地蛇人 等。本节每个 2–20 位置均按原书所属地形和频率读取，不可把同名生物合并为一个条目。

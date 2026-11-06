@@ -64,7 +64,7 @@ export function startCoreCandidate(){
   raceSelect.addEventListener('change',renderSubraces);renderSubraces();
   function invalidate(){evaluated=null;savedBase=null;get('core-initial-spells').replaceChildren();get('core-starting-equipment').replaceChildren();get<HTMLButtonElement>('core-export').disabled=true;resources.hidden=true;languages.hidden=true;get('core-proficiencies').hidden=true;resourceStatus.textContent='先完成核心资格检查。';renderTaskSummary();}
   const weaponFamilies:CoreWeaponFamily[]=['bo-stick','club','crossbow','crossbow-heavy','dagger','dart','flail','hammer','hand-axe','javelin','jo-stick','longbow','mace','pike','pole-arm','scimitar','sling','spear','staff','sword-bastard','sword-broad','sword-long','sword-short','sword-two-handed','other'];
-  const weaponFamilyLabels:Record<CoreWeaponFamily,string>={'bo-stick':'长棍','club':'棍棒','crossbow':'弩','crossbow-heavy':'重弩','dagger':'匕首','dart':'飞镖','flail':'链枷','hammer':'战锤','hand-axe':'手斧','javelin':'标枪','jo-stick':'短棍','longbow':'长弓','mace':'钉头锤','pike':'长枪','pole-arm':'长柄武器','scimitar':'弯刀','sling':'投石索','spear':'矛','staff':'法杖','sword-bastard':'混种剑','sword-broad':'阔剑','sword-long':'长剑','sword-short':'短剑','sword-two-handed':'双手剑','other':'其他武器'};
+  const weaponFamilyLabels:Record<CoreWeaponFamily,string>={'bo-stick':'长棍','club':'棍棒','crossbow':'弩','crossbow-heavy':'重弩','dagger':'匕首','dart':'飞镖','flail':'链枷','hammer':'战锤','hand-axe':'手斧','javelin':'标枪','jo-stick':'短棍','longbow':'长弓','mace':'硬头锤','pike':'长枪','pole-arm':'长柄武器','scimitar':'弯刀','sling':'投石索','spear':'矛','staff':'法杖','sword-bastard':'混种剑','sword-broad':'阔剑','sword-long':'长剑','sword-short':'短剑','sword-two-handed':'双手剑','other':'其他武器'};
   function renderProficiencies(){
     renderSpells();
     if(!evaluated?.candidate)return;

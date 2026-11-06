@@ -1,6 +1,6 @@
-#### 奥库斯之杖 Wand of Orcus
+#### 奥喀斯之杖 Wand of Orcus
 
-这件可怖武器属于恶魔王子奥库斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥库斯及其权杖，参见《怪物图鉴》“恶魔：奥库斯”）。挥舞权杖的人无法发挥其完整的致死力量：被权杖击中的受害者可以进行对抗魔法的豁免检定，以避免死亡或湮灭。（当然，神祇、次级神祇、恶魔领主、高等魔鬼、圣者与半神都不受影响。）奥库斯之杖还赋予使用者以下能力／效果：
+这件可怖武器属于恶魔王子奥喀斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥喀斯及其权杖，参见《怪物图鉴》“恶魔：奥喀斯”）。挥舞权杖的人无法发挥其完整的致死力量：被权杖击中的受害者可以进行对抗魔法的豁免检定，以避免死亡或湮灭。（当然，神祇、次级神祇、恶魔领主、高等魔鬼、圣者与半神都不受影响。）奥喀斯之杖还赋予使用者以下能力／效果：
 
 | 能力类别 | 数量 |
 |---|---:|
@@ -41,7 +41,7 @@
 | W | 握住并发出命令时侦测阵营，每天 <strong>1 次</strong>。 |
 | X | 握住并发出命令时施展“浮空术”，每天 <strong>3 次</strong>。 |
 | Y | 获得“光亮术”，每周 <strong>1 次</strong>。 |
-| Z | 每天 <strong>3 次</strong>施展“心灵空白术”。 |
+| Z | 每天 <strong>3 次</strong>施展“心灵屏障术”。 |
 | AA | 每天 <strong>1 次</strong>施展“遮蔽术”。 |
 | BB | 每天 <strong>1 次</strong>施展“无痕通行术”。 |
 | CC | 持有者免疫疾病。 |
@@ -52,9 +52,9 @@
 | HH | 通过触碰解除恐惧。 |
 | II | 握住或佩戴时施展“庇护术”，每天 <strong>1 次</strong>。 |
 | JJ | 握住或佩戴时根据命令产生“护盾术”效果，每天 <strong>3 次</strong>。 |
-| KK | 每天 <strong>3 次</strong>与动物交谈。 |
-| LL | 每天 <strong>1 次</strong>与死者交谈。 |
-| MM | 每周 <strong>1 次</strong>与植物交谈。 |
+| KK | 每天 <strong>3 次</strong>动物交谈。 |
+| LL | 每天 <strong>1 次</strong>死者交谈。 |
+| MM | 每周 <strong>1 次</strong>植物交谈。 |
 | NN | 握住或佩戴并发出命令时获得“通晓语言”能力。 |
 | OO | 握住或佩戴时获得超视觉。 |
 | PP | 根据命令产生“腹语术”效果，每天 <strong>3 次</strong>。 |
@@ -76,7 +76,7 @@
 | C | 持有者的护甲等级获得 <strong>+2</strong>，或变为 <strong>AC 0</strong>，取较佳者。 |
 | D | 通过触碰造成“治疗重伤术”效果。 |
 | E | 每天 <strong>2 次</strong>魅惑怪物。 |
-| F | 每周 <strong>1 次</strong>魅惑人类。 |
+| F | 每周 <strong>1 次</strong>魅惑类人。 |
 | G | 施展 <strong>9–12 骰</strong>“寒冰锥”，每天 <strong>2 次</strong>。 |
 | H | 每天 <strong>1 次</strong>施展“困惑术”。 |
 | I | 通过触碰治愈目盲。 |
@@ -96,15 +96,15 @@
 | W | 每天 <strong>1 次</strong>施展“治愈术”。 |
 | X | 每天 <strong>1 次</strong>施展“定身动物术”。 |
 | Y | 每天 <strong>1 次</strong>施展“定身怪物术”。 |
-| Z | 每天 <strong>1 次</strong>施展“定身人类术”。 |
-| AA | 施展 <strong>9–12 骰</strong>“闪电术”，每天 <strong>2 次</strong>。 |
-| BB | 每天 <strong>1 次</strong>施展“次级无敌法球”。 |
+| Z | 每天 <strong>1 次</strong>施展“定身类人术”。 |
+| AA | 施展 <strong>9–12 骰</strong>“闪电束”，每天 <strong>2 次</strong>。 |
+| BB | 每天 <strong>1 次</strong>施展“次级法术无效结界”。 |
 | CC | 通过触碰使目标麻痹。 |
 | DD | 每天 <strong>2 次</strong>施展“穿墙术”。 |
 | EE | 每天 <strong>1 次</strong>施展“幻影杀手”。 |
 | FF | 每周 <strong>1 次</strong>施展“改变自身形态术”。 |
 | GG | 每轮再生 <strong>2 点生命值</strong>（被杀死后不能再生）。 |
-| HH | 每周 <strong>1 次</strong>通过触碰解除诅咒。 |
+| HH | 每周 <strong>1 次</strong>通过触碰移除诅咒。 |
 | II | 每天 <strong>1 次</strong>施展“迟缓术”。 |
 | JJ | 每天 <strong>2 次</strong>与怪物交谈。 |
 | KK | 每天 <strong>1 次</strong>施展“化石为肉术”。 |
@@ -112,11 +112,11 @@
 | MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000 gp</strong>重的物体。 |
 | NN | 每天 <strong>2 次</strong>施展“传送术”，不会出错。 |
 | OO | 每天 <strong>2 次</strong>施展“化石为泥术”。 |
-| PP | 每天 <strong>1 次</strong>获得“真实视域”。 |
+| PP | 每天 <strong>1 次</strong>获得“真知术”。 |
 | QQ | 每天 <strong>1 次</strong>施展“转木术”。 |
 | RR | 每天 <strong>2 次</strong>施展“造火墙术”。 |
 | SS | 每天 <strong>2 次</strong>施展“造冰墙术”。 |
-| TT | 每天 <strong>2 次</strong>施展“造荆棘墙术”。 |
+| TT | 每天 <strong>2 次</strong>施展“造棘墙术术”。 |
 | UU | 武器伤害增加 <strong>2 点</strong>。 |
 | VV | 每天 <strong>1 次</strong>施展“风行术”。 |
 | WW | 每天 <strong>2 次</strong>施展“法师之眼”。 |

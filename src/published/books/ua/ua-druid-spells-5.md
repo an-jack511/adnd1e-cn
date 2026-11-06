@@ -4,7 +4,7 @@
 
 原书在三环详述后直接进入本环；四环完整法术名单见[德鲁伊法术表](/books/ua/ua-druid-spell-table/)。
 
-## 月光术 Moonbeam（塑能／变化系 Evocation–Alteration）
+## 月华之光 Moonbeam（塑能／变化系 Evocation–Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>5<br>

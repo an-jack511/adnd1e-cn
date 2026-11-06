@@ -1,5 +1,5 @@
 
-## 格蛙 · Grung
+## 格龙蛙人 Grung
 ![沼泽中的 Grung 与冒险者，原书 PDF 第 28 页裁片](/assets/books/gha/gha_grung_illustration.png)
 
 | 项目 | 数据 |

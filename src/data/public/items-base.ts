@@ -1,4 +1,5 @@
 import type { Item } from '../../schemas';
+import legacyExampleIds from '../terminology/legacy-item-ids.json';
 import imported from './items-imported.json';
 import magicImported from './magic-items-imported.json';
 import uaImported from './ua-items-imported.json';
@@ -15,7 +16,7 @@ const examples: Item[] = [
   { id: 'long-sword', nameZh: '长剑', nameEn: 'Long Sword', category: '武器', price: '15 gp', weight: '4 lb.', damageSmallMedium: '1d8', damageLarge: '1d12', length: '4 ft.', spaceRequired: '—', speedFactor: '5', acAdjustment: '—', description: '常见的单手军用剑。', tags: ['武器', '近战'], source: [{ book: 'PHB', page: 38 }] },
   { id: 'short-sword', nameZh: '短剑', nameEn: 'Short Sword', category: '武器', price: '10 gp', weight: '3 lb.', damageSmallMedium: '1d6', damageLarge: '1d8', length: '2 ft.', spaceRequired: '—', speedFactor: '3', acAdjustment: '—', description: '适合近身与狭窄空间作战的剑。', tags: ['武器', '近战'], source: [{ book: 'PHB', page: 38 }] },
   { id: 'dagger', nameZh: '匕首', nameEn: 'Dagger', category: '武器', price: '2 gp', weight: '1 lb.', damageSmallMedium: '1d4', damageLarge: '1d3', length: '1 ft.', spaceRequired: '—', speedFactor: '2', acAdjustment: '—', description: '可近战，也可投掷的短兵器。', tags: ['武器', '投掷'], source: [{ book: 'PHB', page: 38 }] },
-  { id: 'mace', nameZh: '钉头锤', nameEn: 'Mace', category: '武器', price: '8 gp', weight: '10 lb.', damageSmallMedium: '1d6', damageLarge: '1d6+1', length: '—', spaceRequired: '—', speedFactor: '7', acAdjustment: '—', description: '钝击武器，常见于牧师。', tags: ['武器', '钝击'], source: [{ book: 'PHB', page: 38 }] },
+  { id: 'mace', nameZh: '硬头锤', nameEn: 'Mace', category: '武器', price: '8 gp', weight: '10 lb.', damageSmallMedium: '1d6', damageLarge: '1d6+1', length: '—', spaceRequired: '—', speedFactor: '7', acAdjustment: '—', description: '钝击武器，常见于牧师。', tags: ['武器', '钝击'], source: [{ book: 'PHB', page: 38 }] },
   { id: 'shield', nameZh: '盾牌', nameEn: 'Shield', category: '护甲', price: '10 gp', weight: '5 lb.', acAdjustment: '-1', description: '提供 AC 改善的手持防具。', tags: ['护甲', '防御'], source: [{ book: 'PHB', page: 36 }] },
   { id: 'leather-armor', nameZh: '皮甲', nameEn: 'Leather Armor', category: '护甲', price: '5 gp', weight: '15 lb.', acAdjustment: 'AC 8', description: '轻型皮制护甲，可供盗贼与其他轻装职业使用。', tags: ['护甲'], source: [{ book: 'PHB', page: 36 }] },
   { id: 'backpack', nameZh: '背包', nameEn: 'Backpack', category: '冒险用品', price: '2 gp', weight: '2 lb.', description: '用于携带冒险物资的容器。', tags: ['冒险', '容器'], source: [{ book: 'PHB', page: 35 }] },
@@ -24,9 +25,8 @@ const examples: Item[] = [
   { id: 'healing-potion', nameZh: '治疗药水', nameEn: 'Potion of Healing', category: '魔法物品', price: '—', weight: '—', description: '饮用后恢复一定生命值；具体可用版本与价格由主持人决定。', tags: ['魔法', '治疗'], source: [{ book: 'DMG', section: 'Magic Items' }] }
 ];
 
-const comparable = (name: string) => name.replace(/与鞘/g, '').replace(/，.*$/, '').trim();
 const importedItems: Item[] = (imported as Item[]).map((item) => {
-  const existing = examples.find((entry) => comparable(entry.nameZh) === comparable(item.nameZh));
+  const existing = examples.find((entry) => entry.id === (legacyExampleIds as Record<string,string>)[item.id]);
   return existing ? { ...item, id: existing.id, nameEn: existing.nameEn, weight: item.weight === '见负重表' ? existing.weight : item.weight, damageSmallMedium: item.damageSmallMedium ?? existing.damageSmallMedium, damageLarge: item.damageLarge ?? existing.damageLarge, length: item.length ?? existing.length, spaceRequired: item.spaceRequired ?? existing.spaceRequired, speedFactor: item.speedFactor ?? existing.speedFactor, acAdjustment: item.acAdjustment ?? existing.acAdjustment, tags: [...new Set([...item.tags, ...existing.tags])] } : item;
 });
 const usedIds = new Set(importedItems.map((item) => item.id));

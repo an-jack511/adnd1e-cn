@@ -28,7 +28,7 @@ HD 15；THAC0 10；SpA CL/MU 16/7；MV 见下文；AC 见下文；hp 70；#AT 1�
 
 ### 拉利沙兹的牧师 Ralishaz' Clerics
 
-AL 混乱中立；RA 多色长袍；AEx 无；WPN 投石索*、钉头锤；SPH 战斗、治疗、守护（次要）、预言（次要）、创造、防护；SPL 见下文；ADD <strong>变易</strong>、<strong>祈祷</strong>、<strong>复生术</strong>、<strong>困惑术</strong>。
+AL 混乱中立；RA 多色长袍；AEx 无；WPN 投石索*、硬头锤；SPH 战斗、治疗、守护（次要）、预言（次要）、创造、防护；SPL 见下文；ADD <strong>变易</strong>、<strong>祈祷</strong>、<strong>复生术</strong>、<strong>困惑术</strong>。
 
 拉利沙兹的牧师穿着由各种裁剪和材料制成的多色长袍。他们很少遭受厄运或灾祸，但一旦遭受，通常会非常、非常糟糕。他们尽可能避免冒险。“不要试探机遇”是他们的格言。当牧师达到 3、4、5 或 6 级时（为每名牧师掷 1d4），他们获得每天一次通过凝视受害者双眼使其睡眠的能力（对法术豁免成功则避免）。
 

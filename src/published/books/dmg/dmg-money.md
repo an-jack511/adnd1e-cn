@@ -134,7 +134,7 @@
 <TR><TD>琥珀</TD><TD>驱除疾病</TD></TR>
 <TR><TD>紫水晶</TD><TD>防止醉酒或被下药</TD></TR>
 <TR><TD>绿柱石</TD><TD>驱退敌人</TD></TR>
-<TR><TD>血石</TD><TD>控制天气</TD></TR>
+<TR><TD>血石</TD><TD>操控天气</TD></TR>
 <TR><TD>石榴石</TD><TD>赋予龙之视觉能力</TD></TR>
 <TR><TD>红玉髓</TD><TD>防护邪恶</TD></TR>
 <TR><TD>猫眼玛瑙</TD><TD>防护灵体</TD></TR>

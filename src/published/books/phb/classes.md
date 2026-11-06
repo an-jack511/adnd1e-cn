@@ -32,7 +32,7 @@
 <h3>角色职业表 II：允许使用的护甲与武器 Character Classes Table II.: Armor And Weapons Permitted</h3>
 <TABLE>
 <TR><TH>角色职业</TH><TH>护甲</TH><TH>盾牌</TH><TH>武器*</TH><TH>油</TH><TH>毒药</TH></TR>
-<TR><TD>牧师</TD><TD>任意</TD><TD>任意</TD><TD>棍棒、连枷、锤、钉头锤、长杖</TD><TD>是</TD><TD>绝不**</TD></TR>
+<TR><TD>牧师</TD><TD>任意</TD><TD>任意</TD><TD>棍棒、连枷、锤、硬头锤、长杖</TD><TD>是</TD><TD>绝不**</TD></TR>
 <TR><TD>德鲁伊</TD><TD>皮甲</TD><TD>木盾</TD><TD>棍棒、匕首、飞镖、锤、弯刀、投石索、矛、长杖</TD><TD>是</TD><TD>？</TD></TR>
 <TR><TD>战士</TD><TD>任意</TD><TD>任意</TD><TD>任意***</TD><TD>是</TD><TD>是</TD></TR>
 <TR><TD>圣武士</TD><TD>任意</TD><TD>任意</TD><TD>任意***</TD><TD>是</TD><TD>绝不</TD></TR>

@@ -10,7 +10,7 @@
 
 ### 克莱恩的种族 The Races of Krynn
 
-暮光时代 The Age of Twilight；坎德 Kender；侏儒 Gnomes；疯狂侏儒 Mad Gnomes；精灵 Elves；半精灵 Half-Elves；矮人 Dwarves；依尔达 Irda；克莱恩牛头人 Krynn Minotaurs；角色专长 Character Proficiencies。
+暮光时代 The Age of Twilight；坎德人 Kender；侏儒 Gnomes；疯狂侏儒 Mad Gnomes；精灵 Elves；半精灵 Half-Elves；矮人 Dwarves；依尔达 Irda；克莱恩牛头人 Krynn Minotaurs；角色专长 Character Proficiencies。
 
 ## 第 6 页
 

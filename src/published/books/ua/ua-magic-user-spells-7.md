@@ -2,7 +2,7 @@
 
 # 魔法师七环法术 Seventh Level Spells
 
-以下八项依原书第 61–63 页详述顺序排列；第 61 页的法术插图置于*力牢术*后，保留原裁片与清晰修复版。
+以下八项依原书第 61–63 页详述顺序排列；第 61 页的法术插图置于*力场监牢*后，保留原裁片与清晰修复版。
 
 ## 放逐术 Banishment（防护／塑能系 Abjuration-Evocation）
 
@@ -21,7 +21,7 @@
 
 若求助的力量直接、积极地敌视目标，或积极维护施法者利益，可使上述材料的效果再加强 <strong>−1 至 −6</strong>，程度由地下城主判定。
 
-## 力牢术 Forcecage（塑能系 Evocation）
+## 力场监牢 Forcecage（塑能系 Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -38,7 +38,7 @@
 
 实际施展两种版本均不需材料；但<strong>记忆</strong>时必须磨碎价值至少 <strong>1,000 金币</strong>的钻石，用钻石粉描出将来所要施展的牢笼或方盒轮廓。学习记忆完成后须把粉末抛向空中，粉末随即消失。
 
-## 莫登凯南的豪宅 Mordenkainen's Magnificent Mansion（变化／咒法系 Alteration/Conjuration）
+## 魔邓肯豪宅术 Mordenkainen's Magnificent Mansion（变化／咒法系 Alteration/Conjuration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -55,7 +55,7 @@
 
 材料成分是象牙刻的小门、打磨过的小块大理石及一把小银匙，施法时全部毁坏。原书还提到，有人将此术与普通门户、幻术结合，且有证据表明宅邸的布局与内部可按施法者愿望改变。
 
-## 匿藏术 Sequester（幻术／幻影、防护系 Illusion/Phantasm-Abjuration）
+## 隔离术 Sequester（幻术／幻影、防护系 Illusion/Phantasm-Abjuration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>

@@ -2,19 +2,19 @@
 
 <!-- source: OCR/ua-raw/pages/page-102.png–page-103.png; 原书印刷 pp. 101–102 -->
 
-## 休沃德的便利背包 Heward’s Handy Haversack
+## 霍华德便利袋 Heward’s Handy Haversack
 
 外观是精良但用旧的皮背包，配黄铜扣具。两个侧袋各看似只能装约一夸脱，实际每袋如次元袋，可装 <strong>2 立方英尺</strong>或 <strong>20 磅</strong>；中央主袋可装 <strong>8 立方英尺</strong>或 <strong>80 磅</strong>。佩戴者伸进其中任一袋寻找指定物件时，该物件总在最上面。背包及其中物品在<strong>所有原因的豁免</strong>上均 <strong>+2</strong>。
 
 ## 浓雾号角 Horn of Fog
 
-小号角可吹出如幻术师*雾云术*的浓雾；每吹 <strong>1 轮</strong>制造 <strong>10 英尺见方的立方雾团</strong>。最后一轮吹奏后，整团雾再持续 <strong>2–8 轮</strong>。若中断一轮后再吹，会开始一团新雾，先前雾团按原时限飘走。声音低沉，结尾忽然下降一个音区。
+小号角可吹出如幻术师*云雾术*的浓雾；每吹 <strong>1 轮</strong>制造 <strong>10 英尺见方的立方雾团</strong>。最后一轮吹奏后，整团雾再持续 <strong>2–8 轮</strong>。若中断一轮后再吹，会开始一团新雾，先前雾团按原时限飘走。声音低沉，结尾忽然下降一个音区。
 
 ## 善良／邪恶号角 Horn of Goodness/Evil
 
 依持有者的善恶阵营产生相应效果；若持有者在善恶轴上<strong>绝对中立</strong>，号角毫无能力。善良持有者吹奏时，使 <strong>10 英尺半径</strong>内所有友方如各自获得*防护邪恶*，持续 <strong>10 轮</strong>；邪恶持有者则产生该法术的逆向效果。<strong>每天只可吹一次</strong>。
 
-## 比拉罗的铁箍 Iron Bands of Bilarro
+## 比拉罗的铁索 Iron Bands of Bilarro
 
 初看是略生锈、直径 <strong>3 英寸</strong>的铁球，细看有多道箍。念命令字并掷向敌人，若以<strong>未修正的命中掷骰</strong>命中，铁箍展开紧缚目标；最多可困住一名<strong>霜巨人或火巨人体型</strong>的生物，直到再念命令字收回球形。受困者只有<strong>一次</strong>机会挣断并毁掉铁箍，几率等于其<strong>弯铁栏</strong>成功率；若失败，此后铁箍就牢不可脱。
 
@@ -51,4 +51,4 @@
 
 外观像黑而多煤灰的普通石块，散发难辨的微弱魔法灵光。砸开后可见晶洞，内壁水银状物质能将铁炼成银、铅炼成金；须由炼金术士或魔法师操作。一颗石头可把 <strong>50–500 磅铁</strong>变为银，或把 <strong>10–100 磅铅</strong>变为金；<strong>第一次操作必须用尽全部水银</strong>。
 
-晶洞还可能有两种额外物质：<strong>75%</strong> 几率出现绿色晶盐，可制作 <strong>1–4 瓶长寿药水</strong>；<strong>25%</strong> 几率出现纯白粉末，加入长寿药水并在死亡后<strong>一周内</strong>让人类或亚人类从体内服下，可使其复活，参见*死者复生术*。随机表的经验值与金币售价<strong>仅适用于未砸开的石头</strong>。
+晶洞还可能有两种额外物质：<strong>75%</strong> 几率出现绿色晶盐，可制作 <strong>1–4 瓶长寿药水</strong>；<strong>25%</strong> 几率出现纯白粉末，加入长寿药水并在死亡后<strong>一周内</strong>让人类或亚人类从体内服下，可使其复活，参见*活化死尸术*。随机表的经验值与金币售价<strong>仅适用于未砸开的石头</strong>。

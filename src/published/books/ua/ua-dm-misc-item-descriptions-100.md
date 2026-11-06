@@ -22,11 +22,11 @@
 
 外观是精良宽腰带，内侧可见 <strong>8 个小口袋</strong>，每个后面还有 <strong>7 个</strong>，实际共 <strong>64 个魔法口袋</strong>。每口袋如微型次元袋，最多装 <strong>1 立方英尺</strong>或 <strong>10 磅</strong>物件。腰带顺应佩戴者想法，将所需的满口袋或空口袋显现出来，尤其便于施法者整理法术材料。
 
-## 截接飞弹手套 Gloves of Missile Snaring
+## 辟矢夺箭手套 Gloves of Missile Snaring
 
 戴紧后几乎与双手融为一体，除非距离佩戴者 <strong>5 英尺</strong>内，否则难以发现。未握东西的戴套手可从空中抓住箭、弩矢、飞镖、投石弹、标枪、斧、锤、矛等小型手掷或武器发射的飞弹，免受其伤，并可视情况将其掷回攻击。若飞弹本会魔法地返回投掷者，抓住它只能避免伤害，掷回也不会形成一次攻击。
 
-## 盗窃手套 Gloves of Thievery
+## 窃贼手套 Gloves of Thievery
 
 贴手戴上后，除魔法视觉或侦测外无法看见。佩戴者开锁如<strong>第 7 级盗贼</strong>，扒窃如<strong>第 5 级盗贼</strong>。若本来就是盗贼，既可按上述等级使用，也可在本身等级已达到对应水平时，在两项成功率上各加 <strong>5%</strong>。
 

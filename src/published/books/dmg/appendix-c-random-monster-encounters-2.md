@@ -29,7 +29,7 @@
 | 17 | <strong>4 支弩矢：</strong>+2 |
 | 18 | <strong>1 把匕首：</strong>+1（或 +2）等 |
 | 19 | <strong>1 支标枪：</strong>+2 |
-| 20 | <strong>1 把钉头锤：</strong>+1 |
+| 20 | <strong>1 把硬头锤：</strong>+1 |
 
 ### 表 II（d8、d6）Table II
 
@@ -66,11 +66,11 @@
 | 8 | <strong>1 副护手：</strong>食人魔力量护手 |
 | 9 | <strong>1 支烟斗：</strong>下水道烟斗 |
 | 10 | <strong>1 件长袍：</strong>混融长袍 |
-| 11 | <strong>2 根绳索：</strong>攀爬绳、缠缚绳 |
+| 11 | <strong>2 根绳索：</strong>攀爬绳、纠缠绳 |
 | 12 | <strong>1 套：</strong>+3 板甲、+2 盾牌 |
 | 13 | <strong>1 面盾牌：</strong>+5 |
 | 14 | <strong>1 把剑：</strong>+4，防御者 |
-| 15 | <strong>1 把钉头锤：</strong>+3 |
+| 15 | <strong>1 把硬头锤：</strong>+3 |
 | 16 | <strong>1 支长矛：</strong>+3 |
 
 ### 表 IV（d12）Table IV
@@ -82,9 +82,9 @@
 | 3 | <strong>1 根权杖：</strong>惩击 |
 | 4 | <strong>1 根魔杖：</strong>火焰 |
 | 5 | <strong>1 个力场立方体</strong> |
-| 6 | <strong>1 对魅惑之眼</strong> |
+| 6 | <strong>1 对魅惑镜片</strong> |
 | 7 | <strong>1 把瓦尔哈拉号角</strong> |
-| 8 | <strong>1 件炫彩长袍</strong> |
+| 8 | <strong>1 件虹光法袍</strong> |
 | 9 | <strong>1 个护符：</strong>终极邪恶或纯粹善良（二者之一） |
 | 10 | <strong>1 套：</strong>+4 板甲、+3 盾牌 |
 | 11 | <strong>1 把剑：</strong>创伤 |

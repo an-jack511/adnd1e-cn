@@ -38,7 +38,7 @@ const baseClasses: ClassEntry[] = [
   {
     id: 'cleric', nameZh: '牧师', nameEn: 'Cleric', primeRequisite: 'WIS', minimumAbilities: { WIS: 9 },
     eligibleRaces: ['human', 'half-elf', 'half-orc'], hitDie: 'd8', alignment: '除绝对中立外任意',
-    armor: '任意护甲与盾牌', weapons: '棍棒、连枷、锤、钉头锤、长杖', spellcasting: '牧师法术；祈祷准备',
+    armor: '任意护甲与盾牌', weapons: '棍棒、连枷、锤、硬头锤、长杖', spellcasting: '牧师法术；祈祷准备',
     description: '防护、治疗与驱退不死生物；能穿甲，但不得使用带刃或尖头武器。',
     abilities: [
       { name: '驱退不死生物', description: '按牧师等级与目标类别使用驱退矩阵。', href: '/books/phb/turning-undead/' },

@@ -19,7 +19,7 @@ const weaponRows = tableAfter('Weight And Damage By Weapon Type');
 const generalRows = tableAfter('Hand Held Weapons');
 const weaponAlias: Record<string, string> = {
   '普通箭': '箭', '银箭': '箭', '匕首': '匕首', '步兵连枷': '步战连枷', '骑兵连枷': '骑战连枷',
-  '步兵钉头锤': '步战钉头锤', '骑兵钉头锤': '骑战钉头锤', '步兵军用镐': '步战军用镐',
+  '步兵硬头锤': '步战硬头锤', '骑兵硬头锤': '骑战硬头锤', '步兵军用镐': '步战军用镐',
   '骑兵军用镐': '骑战军用镐', '混种剑': '手半剑', '琉森锤': '卢塞恩锤', '板条甲': '片状甲',
   '刀钩戟': '长柄刀钩戟', '轻型弩矢': '轻弩矢', '重型弩矢': '重弩矢'
 };
@@ -39,7 +39,7 @@ for (const line of armorWeight.split(/\r?\n/).filter((line) => /^\|/.test(line))
   const parts = line.split('|').slice(1, -1).map((part) => part.trim());
   if (parts.length === 4 && /\d+ 磅/.test(parts[2])) armorWeights.set(parts[0].split(/\s+[A-Z]/)[0], parts[2]);
 }
-const armorAlias: Record<string, string> = { '衬甲': '软甲', '板条甲': '片状甲', '镶嵌皮甲': '镶钉皮甲', '小木盾': '木制小盾' };
+const armorAlias: Record<string, string> = { '衬甲': '软甲', '板条甲': '片状甲', '镶钉皮甲': '镶钉皮甲', '小木盾': '木制小盾' };
 const standardAlias: Record<string, string> = {
   '皮背包': '背包', '大型头盔': '巨盔', '小型头盔': '头盔', '高筒硬靴': '硬底靴', '低筒硬靴': '硬底靴',
   '重弩': '重型弩', '轻弩': '轻型弩',

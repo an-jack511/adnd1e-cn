@@ -11,9 +11,9 @@
 | 指挥者原表骰值 | 指挥者 | 数量 |
 | --- | --- | --- |
 | 01–30 | 尸妖 Wight | 1–4 |
-| 31–40 | 缚灵 Wraith | 1–3 |
+| 31–40 | 邪灵 Wraith | 1–3 |
 | 61–80 | 幽魂 Spectre | 1–2 |
-| 81–95 | 幽灵 Ghost | 1–2 |
+| 81–95 | 幽魂 Ghost | 1–2 |
 | 95–00 | 巫妖 Lich | 1 |
 
 原书此子表遗漏 41–60，且 95 出现两次；上表忠实保留原值。主持人使用前须决定这些位置如何分配。
@@ -33,7 +33,7 @@
 | 骰值 | 水面 Surface | 深水 Depths |
 | --- | --- | --- |
 | 2 | 龙龟 Dragon Turtle | 风暴巨人 Giant, Storm |
-| 3 | 鹰身女妖 Harpy | 巨河鱼 Verme |
+| 3 | 鸟妖 Harpy | 巨河鱼 Verme |
 | 4 | 绿鬼婆 Greenhag | 食人鱼 Quipper |
 | 5 | 水娜迦 Naga, Water | 沃迪亚诺伊 Vodyanoi |
 | 6 | 水栖食尸鬼 Lacedon | 海妖精 Sirine |
@@ -44,8 +44,8 @@
 | 11 | 商人 Man, Merchant | 水獭或龙鱼 Otter or Dragonfish |
 | 12 | 水面遭遇 Surface Encounter | 章鱼或沉船 Octopus or Sunken Ship |
 | 13 | 水晶软泥或岛屿 Crystal Ooze or Island | 巨型雀鳝或水妖精 Gar, Giant or Nixie |
-| 14 | 海盗 Buccaneer | 梅罗水栖食人魔 Merrow |
-| 15 | 梅罗水栖食人魔 Merrow | 巨型啮龟 Turtle, Giant Snapping |
+| 14 | 海盗 Buccaneer | 梅洛 Merrow |
+| 15 | 梅洛 Merrow | 巨型啮龟 Turtle, Giant Snapping |
 | 16 | 海生巨魔 Scrag | 普通七鳃鳗 Lamprey, Normal |
 | 17 | 水妖精 Nixie | 海马 Hippocampus |
 | 18 | 大型隼 Falcon, Large | 莫克斯 Morkoth |
@@ -85,7 +85,7 @@
 | 4 | 蜥蜴人 Lizardman | 巨河狸 Beaver, Giant |
 | 5 | 水晶软泥 Crystal Ooze | 巨型七鳃鳗 Lamprey, Giant |
 | 6 | 海盗 Buccaneer | 蜥蜴人 Lizard Man |
-| 7 | 梅罗水栖食人魔 Merrow | 巨型鳄龟 Turtle, Giant Snapper |
+| 7 | 梅洛 Merrow | 巨型鳄龟 Turtle, Giant Snapper |
 | 8 | 天鹅 Swan | 库珀沁 Kopoacinth |
 | 9 | 普通鳄鱼 Crocodile, Normal | 巨型水甲虫 Beetle, Giant Water |
 | 10 | 商人 Man, Merchant | 巨型水蜘蛛 Spider, Giant Water |
@@ -98,14 +98,14 @@
 | 17 | 巨獭 Otter, Giant | 巨型雀鳝 Gar, Giant |
 | 18 | 海生巨魔 Scrag | 章鱼 Octopus |
 | 19 | 红龙 Dragon, Red | 藻人 Algoid |
-| 20 | 布布里巨鸟 Boobrie | 蜥蜴人及蜥蜴王 Lizard Man with Lizard King |
+| 20 | 布布里巨鸟 Boobrie | 蜥蜴人及蜥蜴之王 Lizard Man with Lizard King |
 
 ### 温带咸水
 
 | 骰值 | 水面 Surface | 深水 Depths |
 | --- | --- | --- |
 | 2 | 麒麟 Ki-rin | 莫克斯 Morkoth |
-| 3 | 云龙 Dragon, Cloud | 克拉肯海怪 Kraken |
+| 3 | 云龙 Dragon, Cloud | 克拉肯 Kraken |
 | 4 | 幽灵船 Ghost Ship | 独角鲸 Narwhale |
 | 5 | 漩涡 Whirlpool | 巨型七鳃鳗 Lamprey, Giant |
 | 6 | 蟹人 Crabman | 巨鲨 Shark, Giant |
@@ -128,7 +128,7 @@
 
 | 骰值 | 水面 Surface | 深水 Depths |
 | --- | --- | --- |
-| 2 | 蛙怪巨兽 Froghemoth | 巨河鱼 Verme |
+| 2 | 沼喉怪 Froghemoth | 巨河鱼 Verme |
 | 3 | 羽蛇 Couatl | 草鳗 Eel, Weed |
 | 4 | 巨鲶 Catfish, Giant | 凯尔派 Kelpie |
 | 5 | 水晶软泥 Crystal Ooze | 沃迪亚诺伊 Vodyanoi |
@@ -156,8 +156,8 @@
 | 3 | 高等海狼 Seawolf, Greater | 银海胆 Urchin, Silver |
 | 4 | 鹏鸟 Roc | 巨鳄 Crocodile, Giant |
 | 5 | 漩涡 Whirlpool | 章鱼 Octopus |
-| 6 | 沙华鱼人 Sahuagin | 菇鳐 Fungi-ray |
-| 7 | 僧帽水母 Portuguese Man-o-war | 沙华鱼人 Sahuagin |
+| 6 | 鲨华鱼人 Sahuagin | 菇鳐 Fungi-ray |
+| 7 | 僧帽水母 Portuguese Man-o-war | 鲨华鱼人 Sahuagin |
 | 8 | 海鬼婆 Sea Hag | 黑海胆 Urchin, Black |
 | 9 | 巨鳄 Crocodile, Giant | 邓氏鱼 Dinosaur, Dinichtys |
 | 10 | 蛇颈龙 Dinosaur, Plesiosaur | 魟鱼 Ray, Sting |
@@ -169,7 +169,7 @@
 | 16 | 幽灵船 Ghost Ship | 巨型海生电鳗 Eel, Electric Marine |
 | 17 | 巨鲨 Shark, Giant | 特里同 Triton |
 | 18 | 雄首斯芬克斯 Sphinx, Andro- | 鲨狼人 Wereshark |
-| 19 | 恶魔魟 Ixitxachitl | 克拉肯海怪 Kraken |
+| 19 | 恶魔魟 Ixitxachitl | 克拉肯 Kraken |
 | 20 | 特里同 Triton | 恶魔魟 Ixitxachitl |
 
 ## 星界位面 与 以太位面 · Astral Plane  Ethereal Plane
@@ -180,20 +180,20 @@
 | 3 | 猫之主 Cat Lord | 特瑞西安 Terethian |
 | 4 | 福犬 Foo Dog | 高等石化蜥蜴 Basilisk, Greater |
 | 5 | 高等恶魔 Demon, Greater | 火蜥蜴 Salamander |
-| 6 | 阶序魔冢 Modron, Hierarch | 索尔石怪 Xorn |
+| 6 | 阶序魔冢 Modron, Hierarch | 石鼎兽 Xorn |
 | 7 | 火眼蜥 Pyrolisk＊ | 副元素生物 Para-elemental |
 | 8 | 石化蜥蜴 Basilisk＊ | 渡魂达厄蒙 Daemon, Charona- |
 | 9 | 低等恶魔 Demon, Lesser | 人类旅者 Human Traveler＊＊ |
 | 10 | 低等魔鬼 Devil, Minor | 元素生物 Elemental |
 | 11 | 人类旅者 Human Traveler＊＊ | 巨灵一族 Geniekind |
 | 12 | 低等达厄蒙 Daemon, Minor | 脑寄生虫 Cerebral Parasite |
-| 13 | 星界天使 Deva, Astral | 摩纳迪克天使 Deva, Monadic |
-| 14 | 美杜莎 Medusa＊ | 戈尔贡 Gorgon＊ |
-| 15 | 鸡蛇 Cockatrice＊ | 美杜莎 Medusa＊ |
-| 16 | 高等魔鬼 Devil, Major | 行星天使 Planetar |
+| 13 | 星界天神使徒 Deva, Astral | 摩纳迪克天神使徒 Deva, Monadic |
+| 14 | 美杜莎 Medusa＊ | 石化铁牛 Gorgon＊ |
+| 15 | 蛇鸡 Cockatrice＊ | 美杜莎 Medusa＊ |
+| 16 | 高等魔鬼 Devil, Major | 异界神侍 Planetar |
 | 17 | 高等达厄蒙 Daemon, Greater | 风行者 Wind walker |
-| 18 | 行星天使 Planetar | 谢格伊负能灵或萨格雅正能灵 Xeg-yi or Xag-ya |
-| 19 | 炽天使 Solar | 火眼蜥 Pyrolisk＊ |
+| 18 | 异界神侍 Planetar | 谢格伊负能灵或萨格雅正能灵 Xeg-yi or Xag-ya |
+| 19 | 炽天神侍 Solar | 火眼蜥 Pyrolisk＊ |
 | 20 | 恶魔王子 Demon Prince | 高等拉玛苏 Lammasu, Greater |
 
 ＊这些生物并不在星界或以太界旅行，但感知及魔法攻击方式可延伸到相应位面。只有与主物质位面互动时才适用；否则忽略该结果并重掷。
@@ -252,18 +252,18 @@
 | 5 | 格鲁加奇野精灵 Elf, Grugach | 大型无尾鞭蝎 Pedipalp, Large |
 | 6 | 库西犬 Cooshee | 蛛化精 Ettercap |
 | 7 | 小妖精 Leprechaun | 超大型蜘蛛 Spider, Huge |
-| 8 | 木精灵 Elf, Wood | 巨型蜘蛛 Spider, Giant |
+| 8 | 木精灵 Elf, Wood | 巨蜘蛛 Spider, Giant |
 | 9 | 黑熊 Bear, Black | 巨型蜈蚣 Centipede, Giant |
 | 10 | 牡鹿隼 Falcon, Stag | 大型蜘蛛 Spider, Large |
 | 11 | 牡鹿 Stag | 巨型锹甲 Beetle, Giant Stag |
 | 12 | 普通渡鸦 Raven, Normal | 巨型蟾蜍 Toad, Giant |
 | 13 | 野猪 Boar, Wild | 超大型蜈蚣 Centipede, Huge |
 | 14 | 猫头鹰 Owl | 巨型胡蜂 Hornet, Giant |
-| 15 | 豺狼人 Gnoll | 巨型茅膏菜 Sundew, Giant |
+| 15 | 鬣狗人 Gnoll | 巨型茅膏菜 Sundew, Giant |
 | 16 | 灰精灵 Elf, Grey | 超大型无尾鞭蝎 Pedipalp, Huge |
 | 17 | 树皮犬 Barkburr | 巨蝎 Scorpion, Giant |
 | 18 | 树精 Dryad | 相位蜘蛛 Spider, Phase |
-| 19 | 豺狼人及弗林德豺狼人 Gnolls with Flind | 黑柳 Black Willow |
+| 19 | 豺狼人及弗林德鬣狗人 Gnolls with Flind | 黑柳 Black Willow |
 | 20 | 狐女或恸哭女妖（夜间） Foxwoman or Groaning Spirit (night) | 死亡守望甲虫 Death Watch Beetle |
 
 其后原书给出按气候温度、文明程度、地形及出现频率分类的完整生物目录，见本书相应分类索引。

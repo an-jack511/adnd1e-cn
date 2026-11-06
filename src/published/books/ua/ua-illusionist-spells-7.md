@@ -4,7 +4,7 @@
 
 以下两项为原书印刷第 71 页的新增详述。幻术师专属小法术与一至七环新增法术的正文至此按原书顺序录入。
 
-## 阴影行走 Shadow Walk（幻术／附魔系 Illusion-Enchantment）
+## 行影术 Shadow Walk（幻术／附魔系 Illusion-Enchantment）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -19,7 +19,7 @@
 
 也可借此术去往其他与阴影位面相邻的位面，但须危险地穿越阴影位面，直至另一位面的边界。施法时被幻术师碰到的生物也会同行；他们可选择跟随施法者、独自在阴影国度漫游，或误闯回主物质位面。若与幻术师失散或被抛下，这后两种结果各有 <strong>50%</strong>几率。不愿被带进阴影位面的生物可豁免，成功即不受影响。
 
-## 诡异术 Weird（塑能／幻术与幻影系 Evocation-Illusion/Phantasm）
+## 怪影杀手 Weird（塑能／幻术与幻影系 Evocation-Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>

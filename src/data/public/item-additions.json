@@ -59,7 +59,7 @@
   },
   {
     "id": "dmg-item-scroll-of-protection-from-elementals",
-    "nameZh": "防护元素生物卷轴",
+    "nameZh": "元素生物守护卷轴",
     "nameEn": "Scroll of Protection from Elementals",
     "category": "魔法物品",
     "price": "未列售价",
@@ -193,7 +193,7 @@
     "details": [
       {
         "title": "防护附身 Protection from Possession",
-        "html": "<p>阅读时间为 <strong>1 回合</strong>。此卷轴会生成一个半径 <strong>10 尺</strong>、随阅读者移动的魔法防护圈。圈内所有生物都能抵御附身，包括“魔法容器术”等魔法攻击、针对附身或心灵控制的攻击，以及基于灵能或魔法的能量吸取；此类威胁包括恶魔、魔鬼、夜魔或其他具有类似附身能力的生物。此防护甚至对圈内的尸体有效。<strong>90%</strong> 的此类卷轴效果持续 <strong>10–60 轮</strong>；另有 <strong>10%</strong> 会持续 <strong>10–60 回合</strong>，但防护圈不会随阅读者移动。</p>",
+        "html": "<p>阅读时间为 <strong>1 回合</strong>。此卷轴会生成一个半径 <strong>10 尺</strong>、随阅读者移动的魔法防护圈。圈内所有生物都能抵御附身，包括“魔魂壶术”等魔法攻击、针对附身或心灵控制的攻击，以及基于灵能或魔法的能量吸取；此类威胁包括恶魔、魔鬼、夜魔或其他具有类似附身能力的生物。此防护甚至对圈内的尸体有效。<strong>90%</strong> 的此类卷轴效果持续 <strong>10–60 轮</strong>；另有 <strong>10%</strong> 会持续 <strong>10–60 回合</strong>，但防护圈不会随阅读者移动。</p>",
         "source": {
           "book": "DMG",
           "section": "防护附身 Protection from Possession"
@@ -204,7 +204,7 @@
   },
   {
     "id": "dmg-item-scroll-of-protection-from-undead",
-    "nameZh": "防护不死生物卷轴",
+    "nameZh": "不死生物守护卷轴",
     "nameEn": "Scroll of Protection from Undead",
     "category": "魔法物品",
     "price": "未列售价",
@@ -349,7 +349,7 @@
   },
   {
     "id": "dmg-item-amulet-of-proof-against-detection-and-location",
-    "nameZh": "防侦测与定位护符",
+    "nameZh": "反侦护符",
     "nameEn": "Amulet of Proof Against Detection and Location",
     "category": "魔法物品",
     "price": "参考售价 15,000 gp",
@@ -366,7 +366,7 @@
     ],
     "details": [
       {
-        "title": "防侦测与定位护符 Amulet of Proof Against Detection and Location",
+        "title": "反侦护符 Amulet of Proof Against Detection and Location",
         "html": "<p>此装置可使佩戴者免受一切占卜、心灵或魔法定位／侦测。不能通过通灵术、千里眼、ESP、心灵感应、水晶球或其他占卜装置侦测佩戴者。佩戴者身上没有可辨识的灵光；除非求助某位强大的存在，否则也无法对其作出预测。</p>",
         "source": {
           "book": "DMG",
@@ -378,7 +378,7 @@
   },
   {
     "id": "dmg-item-apparatus-of-kwalish",
-    "nameZh": "克瓦利什装置",
+    "nameZh": "夸力许装置",
     "nameEn": "Apparatus of Kwalish",
     "category": "魔法物品",
     "price": "参考售价 35,000 gp",
@@ -395,7 +395,7 @@
     ],
     "details": [
       {
-        "title": "克瓦利什装置 Apparatus of Kwalish",
+        "title": "夸力许装置 Apparatus of Kwalish",
         "html": "<p>初次发现此物时，它看起来一定像一个大型铁桶。一端有一个隐蔽扣件，可以打开舱门。装置内部有 <strong>10 个杠杆</strong>：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">杠杆</th><th>功能</th></tr></thead><tbody><tr><td align=\"right\">1</td><td>伸出／收回腿与尾部</td></tr><tr><td align=\"right\">2</td><td>打开／关闭前方舷窗</td></tr><tr><td align=\"right\">3</td><td>打开／关闭侧面舷窗</td></tr><tr><td align=\"right\">4</td><td>伸出／收回钳子与触须</td></tr><tr><td align=\"right\">5</td><td>闭合钳子</td></tr><tr><td align=\"right\">6</td><td>向前、向左或向右移动</td></tr><tr><td align=\"right\">7</td><td>向后、向左或向右移动</td></tr><tr><td align=\"right\">8</td><td>打开内部恒定光亮的“眼睛”／关闭“眼睛”</td></tr><tr><td align=\"right\">9</td><td>上升（浮空）／下沉</td></tr><tr><td align=\"right\">10</td><td>打开／关闭舱门</td></tr></tbody></table>\n<p>装置向前移动速度为 <strong>3”</strong>，向后为 <strong>6”</strong>。两只钳子可伸出 <strong>4’</strong>，命中生物时会闭合并造成 <strong>2–12 点</strong>伤害，命中概率为 <strong>25%</strong>；不计护甲减值，但仍应用敏捷调整。装置可在最深 <strong>900’</strong>的水下活动，能够容纳 <strong>2 名</strong>普通体型的人，并有足够空气供其以最大容量运作 <strong>2–5 小时</strong>。装置护甲等级为 <strong>0</strong>；受到 <strong>100 点</strong>伤害会造成泄漏，受到 <strong>200 点</strong>伤害会使一侧破裂。完全启动后，它看起来像一只巨型龙虾。</p>",
         "source": {
           "book": "DMG",
@@ -436,7 +436,7 @@
   },
   {
     "id": "dmg-item-bag-of-beans",
-    "nameZh": "豆袋",
+    "nameZh": "魔豆之袋",
     "nameEn": "Bag of Beans",
     "category": "魔法物品",
     "price": "参考售价 5,000 gp",
@@ -453,8 +453,8 @@
     ],
     "details": [
       {
-        "title": "豆袋 Bag of Beans",
-        "html": "<p>此袋由厚重布料制成，约 <strong>2’</strong>宽、<strong>4’</strong>长（与其他袋子或大麻袋相当）。打开检查后，会发现袋中有若干大型卵石状物体。若将它们倒出袋外，每颗都会爆炸并造成 <strong>5–20 点</strong>伤害；半径 <strong>10’</strong>内的所有生物都必须通过对抗魔法的豁免检定，否则承受全部伤害。要安全取出豆子，必须用手伸入袋中；心灵遥控术无效，也不能用任何不会引爆豆子的工具取出。每颗卵石状豆子都必须埋入土中并浇水。每颗豆子都会依次长出某种生物或物体。建议一袋有 <strong>3–12 颗</strong>豆子，其中仅 <strong>1–2 颗</strong>会带来益处，其余会变成怪物或无用之物。例如：</p>\n<ol>\n<li><strong>#1：</strong>长出 <strong>3 只</strong>尖叫蕈，并开始哀嚎。</li>\n<li><strong>#2：</strong>该区域遭到冰风暴袭击。</li>\n<li><strong>#3：</strong>长出一丛有毒覆盆子灌木，并射出活动的根须；每颗浆果都是一颗价值 <strong>100 或 500 金币</strong>的宝石（也可能只是毫无价值的玻璃）。</li>\n<li><strong>#4：</strong>地面出现一个洞；洞下可能有一条紫虫，也可能有一枚召唤巨灵戒指。</li>\n<li><strong>#5：</strong>烟雾与毒气覆盖半径 <strong>50’</strong>的区域，持续 <strong>5 轮</strong>；生物看不见东西，离开云团后仍会目盲 <strong>1–6 轮</strong>。</li>\n<li><strong>#6：</strong>一只双足飞龙瞬间长成并发动攻击；它的尾刺是“穿刺标枪”。</li>\n<li><strong>#7：</strong>毒气缓慢渗出，形成半径 <strong>20’</strong>的云团，持续 <strong>1 回合</strong>；期间云团中心的泥土会变成魔法尘埃，出现后又消失，同时令人打喷嚏、窒息……。</li>\n</ol>\n<p>此物品需要地下城主发挥思考、想象力与判断力。</p>",
+        "title": "魔豆之袋 Bag of Beans",
+        "html": "<p>此袋由厚重布料制成，约 <strong>2’</strong>宽、<strong>4’</strong>长（与其他袋子或大麻袋相当）。打开检查后，会发现袋中有若干大型卵石状物体。若将它们倒出袋外，每颗都会爆炸并造成 <strong>5–20 点</strong>伤害；半径 <strong>10’</strong>内的所有生物都必须通过对抗魔法的豁免检定，否则承受全部伤害。要安全取出豆子，必须用手伸入袋中；心灵遥控术无效，也不能用任何不会引爆豆子的工具取出。每颗卵石状豆子都必须埋入土中并浇水。每颗豆子都会依次长出某种生物或物体。建议一袋有 <strong>3–12 颗</strong>豆子，其中仅 <strong>1–2 颗</strong>会带来益处，其余会变成怪物或无用之物。例如：</p>\n<ol>\n<li><strong>#1：</strong>长出 <strong>3 只</strong>尖叫菌，并开始哀嚎。</li>\n<li><strong>#2：</strong>该区域遭到冰风暴袭击。</li>\n<li><strong>#3：</strong>长出一丛有毒覆盆子灌木，并射出活动的根须；每颗浆果都是一颗价值 <strong>100 或 500 金币</strong>的宝石（也可能只是毫无价值的玻璃）。</li>\n<li><strong>#4：</strong>地面出现一个洞；洞下可能有一条紫虫，也可能有一枚召唤气巨灵戒指。</li>\n<li><strong>#5：</strong>烟雾与毒气覆盖半径 <strong>50’</strong>的区域，持续 <strong>5 轮</strong>；生物看不见东西，离开云团后仍会目盲 <strong>1–6 轮</strong>。</li>\n<li><strong>#6：</strong>一只飞龙瞬间长成并发动攻击；它的尾刺是“穿刺标枪”。</li>\n<li><strong>#7：</strong>毒气缓慢渗出，形成半径 <strong>20’</strong>的云团，持续 <strong>1 回合</strong>；期间云团中心的泥土会变成魔法尘埃，出现后又消失，同时令人打喷嚏、窒息……。</li>\n</ol>\n<p>此物品需要地下城主发挥思考、想象力与判断力。</p>",
         "source": {
           "book": "DMG",
           "section": "豆袋 Bag of Beans"
@@ -483,7 +483,7 @@
     "details": [
       {
         "title": "吞噬袋 Bag of Devouring",
-        "html": "<p>此袋看起来像普通袋子——可能是空的，也可能装着一些物品。实际上，它被一个异次元生物用作进食孔道，是其摄食器官之一。任何动物或植物质物体，只要被塞入袋中，就会被“吞噬”。吞噬袋有 <strong>90%</strong> 的概率忽略最初放入袋中的物品；但只要它感知到其中有活的人类血肉，就有 <strong>60%</strong> 的概率闭合袋口，并试图将整个受害者拖入袋内。基础成功率为 <strong>75%</strong>；力量的伤害加值每 <strong>+1</strong>，此概率便降低 <strong>5%</strong>。因此，力量 <strong>18</strong>（伤害加值 <strong>+2</strong>）的角色仅有 <strong>65%</strong> 的概率被拖入袋中，而力量 <strong>5</strong>（伤害减值 <strong>−1</strong>）的角色则有 <strong>80%</strong> 的概率被拖入。此袋散发魔法灵光，可容纳最多 <strong>30 立方尺</strong>的物质。它会像普通收纳袋一样发挥作用……</p>\n\n<p>但它每轮都有 <strong>5%</strong> 的累积概率吞下袋中物品，并将其吐入某个非空间。被拖入袋中的生物会在 <strong>7 segments</strong>内被吞噬，永远消失。</p>",
+        "html": "<p>此袋看起来像普通袋子——可能是空的，也可能装着一些物品。实际上，它被一个异次元生物用作进食孔道，是其摄食器官之一。任何动物或植物质物体，只要被塞入袋中，就会被“吞噬”。吞噬袋有 <strong>90%</strong> 的概率忽略最初放入袋中的物品；但只要它感知到其中有活的人类血肉，就有 <strong>60%</strong> 的概率闭合袋口，并试图将整个受害者拖入袋内。基础成功率为 <strong>75%</strong>；力量的伤害加值每 <strong>+1</strong>，此概率便降低 <strong>5%</strong>。因此，力量 <strong>18</strong>（伤害加值 <strong>+2</strong>）的角色仅有 <strong>65%</strong> 的概率被拖入袋中，而力量 <strong>5</strong>（伤害减值 <strong>−1</strong>）的角色则有 <strong>80%</strong> 的概率被拖入。此袋散发魔法灵光，可容纳最多 <strong>30 立方尺</strong>的物质。它会像普通次元袋一样发挥作用……</p>\n\n<p>但它每轮都有 <strong>5%</strong> 的累积概率吞下袋中物品，并将其吐入某个非空间。被拖入袋中的生物会在 <strong>7 segments</strong>内被吞噬，永远消失。</p>",
         "source": {
           "book": "DMG",
           "section": "吞噬袋 Bag of Devouring"
@@ -494,7 +494,7 @@
   },
   {
     "id": "dmg-item-bag-of-holding",
-    "nameZh": "收纳袋",
+    "nameZh": "次元袋",
     "nameEn": "Bag of Holding",
     "category": "魔法物品",
     "price": "参考售价 25,000 gp",
@@ -511,8 +511,8 @@
     ],
     "details": [
       {
-        "title": "收纳袋 Bag of Holding",
-        "html": "<p>与其他魔法袋一样，此袋看起来像普通布袋，大小约为 <strong>2’ × 4’</strong>。它的入口通向非维度空间，内部空间大于外部尺寸。无论放入什么东西，收纳袋的自重始终固定。重量、可容纳物品的重量上限与内部容积取决于品质：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th align=\"right\">自重</th><th align=\"right\">重量上限</th><th align=\"right\">容积上限</th></tr></thead><tbody><tr><td align=\"right\">01–30</td><td align=\"right\">15 磅</td><td align=\"right\">250 磅</td><td align=\"right\">30 立方尺</td></tr><tr><td align=\"right\">31–70</td><td align=\"right\">15 磅</td><td align=\"right\">500 磅</td><td align=\"right\">70 立方尺</td></tr><tr><td align=\"right\">71–90</td><td align=\"right\">35 磅</td><td align=\"right\">1,000 磅</td><td align=\"right\">150 立方尺</td></tr><tr><td align=\"right\">91–00</td><td align=\"right\">60 磅</td><td align=\"right\">1,500 磅</td><td align=\"right\">250 立方尺</td></tr></tbody></table>\n<p>若超载，或放入尖锐物品刺穿袋子，收纳袋会破裂并被毁，内部物品将永远遗失在虚无空间的漩涡中。</p>",
+        "title": "次元袋 Bag of Holding",
+        "html": "<p>与其他魔法袋一样，此袋看起来像普通布袋，大小约为 <strong>2’ × 4’</strong>。它的入口通向非维度空间，内部空间大于外部尺寸。无论放入什么东西，次元袋的自重始终固定。重量、可容纳物品的重量上限与内部容积取决于品质：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th align=\"right\">自重</th><th align=\"right\">重量上限</th><th align=\"right\">容积上限</th></tr></thead><tbody><tr><td align=\"right\">01–30</td><td align=\"right\">15 磅</td><td align=\"right\">250 磅</td><td align=\"right\">30 立方尺</td></tr><tr><td align=\"right\">31–70</td><td align=\"right\">15 磅</td><td align=\"right\">500 磅</td><td align=\"right\">70 立方尺</td></tr><tr><td align=\"right\">71–90</td><td align=\"right\">35 磅</td><td align=\"right\">1,000 磅</td><td align=\"right\">150 立方尺</td></tr><tr><td align=\"right\">91–00</td><td align=\"right\">60 磅</td><td align=\"right\">1,500 磅</td><td align=\"right\">250 立方尺</td></tr></tbody></table>\n<p>若超载，或放入尖锐物品刺穿袋子，次元袋会破裂并被毁，内部物品将永远遗失在虚无空间的漩涡中。</p>",
         "source": {
           "book": "DMG",
           "section": "收纳袋 Bag of Holding"
@@ -528,7 +528,7 @@
     "category": "魔法物品",
     "price": "参考售价 500 gp",
     "weight": "未列",
-    "description": "此魔法袋看起来像四种品质之一的收纳袋，正常使用 2–5 次 （若数日内连续使用，次数可能更多）。",
+    "description": "此魔法袋看起来像四种品质之一的次元袋，正常使用 2–5 次 （若数日内连续使用，次数可能更多）。",
     "tags": [
       "魔法"
     ],
@@ -541,7 +541,7 @@
     "details": [
       {
         "title": "转化袋 Bag of Transmuting",
-        "html": "<p>此魔法袋看起来像四种品质之一的收纳袋，正常使用 <strong>2–5 次</strong>（若数日内连续使用，次数可能更多）。但在某个时刻，袋中的魔法力场会衰减，袋里的贵金属与宝石将变成毫无价值的普通金属和石头。倒空袋子时，这些转化后的金属与矿物会一并涌出。袋中其他物品（神器与遗物除外）也会变成普通的暗淡铅、玻璃或木头（视物品材质而定）；转化开始后没有豁免检定。</p>",
+        "html": "<p>此魔法袋看起来像四种品质之一的次元袋，正常使用 <strong>2–5 次</strong>（若数日内连续使用，次数可能更多）。但在某个时刻，袋中的魔法力场会衰减，袋里的贵金属与宝石将变成毫无价值的普通金属和石头。倒空袋子时，这些转化后的金属与矿物会一并涌出。袋中其他物品（神器与遗物除外）也会变成普通的暗淡铅、玻璃或木头（视物品材质而定）；转化开始后没有豁免检定。</p>",
         "source": {
           "book": "DMG",
           "section": "转化袋 Bag of Transmuting"
@@ -639,7 +639,7 @@
   },
   {
     "id": "dmg-item-book-of-exalted-deeds",
-    "nameZh": "崇高功绩之书",
+    "nameZh": "崇善之书",
     "nameEn": "Book of Exalted Deeds",
     "category": "魔法物品",
     "price": "参考售价 40,000 gp",
@@ -656,7 +656,7 @@
     ],
     "details": [
       {
-        "title": "崇高功绩之书 Book of Exalted Deeds",
+        "title": "崇善之书 Book of Exalted Deeds",
         "html": "<p>这本圣书是献给善良阵营牧师的神圣著作。阅读全书需 <strong>1 周</strong>；读完后，善良牧师的感知提高 <strong>1 点</strong>，并获得足够的经验值，使其恰好提升至下一个经验等级。既非善良也非邪恶的牧师阅读后不会失去经验值；邪恶牧师会失去 <strong>20,000–80,000 点</strong>经验值（总经验值可能因此变为负数），必须恢复到原等级，但不会跌至 <strong>1 级</strong>以下。中立牧师会失去 <strong>1 个完整经验等级</strong>，降至仍能维持当前等级的最低经验值；此外还必须通过魔法手段恢复，或在 <strong>2 次冒险</strong>中交出其获得经验值的 <strong>50%</strong>，同时失去相应经验值，否则将不再获得经验值。阅读或经手此书的战士不受影响。阅读此书的魔法师会失去 <strong>1 点</strong>智力，除非通过对抗魔法的豁免检定；即使成功，也会失去 <strong>2,000–20,000 点</strong>经验值。经手或阅读此书的盗贼会受到 <strong>5–30 点</strong>伤害，且必须通过对抗魔法的豁免检定，否则敏捷降低 <strong>1 点</strong>，并有 <strong>10%–60%</strong> 的概率放弃盗贼职业，转而成为善良牧师（若感知为 <strong>15</strong>或更高）。行刺者经手或阅读此书会受到 <strong>5–40 点</strong>伤害，且必须通过对抗魔法的豁免检定，否则自尽。僧侣不会受到伤害，但也无法理解此书。吟游诗人视同中立牧师处理，失去经验只影响吟游诗人职业。除上述说明外，此文字与其他魔法书籍、法术书、手册或典籍外观无异，必须经过研读。研读后此书消失，永不再现；同一玩家角色也不能从第二次研读中再次获益。</p>",
         "source": {
           "book": "DMG",
@@ -697,7 +697,7 @@
   },
   {
     "id": "dmg-item-book-of-vile-darkness",
-    "nameZh": "邪恶黑暗之书",
+    "nameZh": "秽暗之书",
     "nameEn": "Book of Vile Darkness",
     "category": "魔法物品",
     "price": "参考售价 40,000 gp",
@@ -714,8 +714,8 @@
     ],
     "details": [
       {
-        "title": "邪恶黑暗之书 Book of Vile Darkness",
-        "html": "<p>此书是不可言喻的邪恶结晶，是相同阵营牧师的精神食粮。完整读完需 <strong>1 周</strong>；邪恶牧师完成阅读后感知提高 <strong>1 点</strong>，并获得足够经验值，恰好升至下一级的一半。既非善良也非邪恶的牧师阅读后要么失去 <strong>30,000–120,000 点</strong>经验值，要么转变为邪恶阵营且不会因作品获益，两种结果概率各为 <strong>50%</strong>。善良牧师研读此书时，必须通过对抗毒药的豁免检定，否则死亡；若幸存，还必须通过对抗魔法的豁免检定，否则永久疯狂。即使豁免成功，牧师仍会失去 <strong>250,000 点</strong>经验值；其感知每有 <strong>1 点</strong>，损失减少 <strong>10,000 点</strong>。其他善良阵营角色经手此书会受到 <strong>5–30 点</strong>伤害；若向内窥视，还有 <strong>80%</strong> 的概率当夜遭遇夜巫。非邪恶的中立阵营角色会受到 <strong>5–20 点</strong>伤害；阅读书页后必须通过对抗毒药的豁免检定，否则转变为邪恶阵营，并立即寻找邪恶牧师确认其新阵营。（另见“崇高功绩之书”。）</p>",
+        "title": "秽暗之书 Book of Vile Darkness",
+        "html": "<p>此书是不可言喻的邪恶结晶，是相同阵营牧师的精神食粮。完整读完需 <strong>1 周</strong>；邪恶牧师完成阅读后感知提高 <strong>1 点</strong>，并获得足够经验值，恰好升至下一级的一半。既非善良也非邪恶的牧师阅读后要么失去 <strong>30,000–120,000 点</strong>经验值，要么转变为邪恶阵营且不会因作品获益，两种结果概率各为 <strong>50%</strong>。善良牧师研读此书时，必须通过对抗毒药的豁免检定，否则死亡；若幸存，还必须通过对抗魔法的豁免检定，否则永久疯狂。即使豁免成功，牧师仍会失去 <strong>250,000 点</strong>经验值；其感知每有 <strong>1 点</strong>，损失减少 <strong>10,000 点</strong>。其他善良阵营角色经手此书会受到 <strong>5–30 点</strong>伤害；若向内窥视，还有 <strong>80%</strong> 的概率当夜遭遇夜巫。非邪恶的中立阵营角色会受到 <strong>5–20 点</strong>伤害；阅读书页后必须通过对抗毒药的豁免检定，否则转变为邪恶阵营，并立即寻找邪恶牧师确认其新阵营。（另见“崇善之书”。）</p>",
         "source": {
           "book": "DMG",
           "section": "邪恶黑暗之书 Book of Vile Darkness"
@@ -744,7 +744,7 @@
     "details": [
       {
         "title": "舞蹈靴 Boots of Dancing",
-        "html": "<p>这双魔法靴可伸缩至适合从半身人到巨人的任何体型。若使用侦测魔法，会发现它们散发暗淡灵光；外观上与其他魔法靴无法区分。在实际近战中，或穿戴者试图逃离战斗时，舞蹈靴才会显露作用：它会妨碍穿戴者移动，使其开始踮脚、摇摆、跺脚或拖步，动作与受到奥托不可抗拒之舞法术影响完全相同（护甲等级减 <strong>4</strong>，无法豁免，也无法攻击）。一旦显露真实性质，只有“移除诅咒术”才能脱下此靴。</p>",
+        "html": "<p>这双魔法靴可伸缩至适合从半身人到巨人的任何体型。若使用侦测魔法，会发现它们散发暗淡灵光；外观上与其他魔法靴无法区分。在实际近战中，或穿戴者试图逃离战斗时，舞蹈靴才会显露作用：它会妨碍穿戴者移动，使其开始踮脚、摇摆、跺脚或拖步，动作与受到奥图不可抗拒之舞法术影响完全相同（护甲等级减 <strong>4</strong>，无法豁免，也无法攻击）。一旦显露真实性质，只有“移除诅咒术”才能脱下此靴。</p>",
         "source": {
           "book": "DMG",
           "section": "舞蹈靴 Boots of Dancing"
@@ -755,7 +755,7 @@
   },
   {
     "id": "dmg-item-boots-of-elvenkind",
-    "nameZh": "精灵靴",
+    "nameZh": "精灵之靴",
     "nameEn": "Boots of Elvenkind",
     "category": "魔法物品",
     "price": "参考售价 5,000 gp",
@@ -772,7 +772,7 @@
     ],
     "details": [
       {
-        "title": "精灵靴 Boots of Elvenkind",
+        "title": "精灵之靴 Boots of Elvenkind",
         "html": "<p>这双柔软的靴子让穿戴者几乎在任何环境中都能无声行走。因此，穿戴者踏过干叶堆或吱呀作响的木地板时也只会发出极轻微的声响——在最恶劣的条件下，保持安静的概率约为 <strong>95%</strong>；条件最佳时则为 <strong>100%</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -784,7 +784,7 @@
   },
   {
     "id": "dmg-item-boots-of-levitation",
-    "nameZh": "浮空靴",
+    "nameZh": "浮空之靴",
     "nameEn": "Boots of Levitation",
     "category": "魔法物品",
     "price": "参考售价 15,000 gp",
@@ -801,8 +801,8 @@
     ],
     "details": [
       {
-        "title": "浮空靴 Boots of Levitation",
-        "html": "<p>与其他魔法靴一样，这双柔软的靴子会伸缩，以适配从巨人到半身人的脚。浮空靴可让穿戴者随意垂直上升或下降，速度为每轮 <strong>20’</strong>（每分钟）。使用次数不受限制。靴子可浮起的重量以 <strong>14 磅</strong>为增量随机决定：掷 <strong>d20</strong>并将结果加到基础重量 <strong>280 磅</strong>上。因此，某一双浮空靴能浮起 <strong>294–560 磅</strong>。食人魔可以穿上这双靴子，但若其体重过重，便无法浮空。（另见二环魔法师法术“浮空术”。）</p>",
+        "title": "浮空之靴 Boots of Levitation",
+        "html": "<p>与其他魔法靴一样，这双柔软的靴子会伸缩，以适配从巨人到半身人的脚。浮空之靴可让穿戴者随意垂直上升或下降，速度为每轮 <strong>20’</strong>（每分钟）。使用次数不受限制。靴子可浮起的重量以 <strong>14 磅</strong>为增量随机决定：掷 <strong>d20</strong>并将结果加到基础重量 <strong>280 磅</strong>上。因此，某一双浮空之靴能浮起 <strong>294–560 磅</strong>。食人魔可以穿上这双靴子，但若其体重过重，便无法浮空。（另见二环魔法师法术“浮空术”。）</p>",
         "source": {
           "book": "DMG",
           "section": "浮空靴 Boots of Levitation"
@@ -813,7 +813,7 @@
   },
   {
     "id": "dmg-item-boots-of-speed",
-    "nameZh": "迅捷靴",
+    "nameZh": "速度之靴",
     "nameEn": "Boots of Speed",
     "category": "魔法物品",
     "price": "参考售价 20,000 gp",
@@ -830,8 +830,8 @@
     ],
     "details": [
       {
-        "title": "迅捷靴 Boots of Speed",
-        "html": "<p>穿戴者可如同快马般奔跑，基础移动速度为 <strong>24”</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100 金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1”</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20”</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5”</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，迅捷靴可使护甲等级改善 <strong>2 点</strong>。</p>",
+        "title": "速度之靴 Boots of Speed",
+        "html": "<p>穿戴者可如同快马般奔跑，基础移动速度为 <strong>24”</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100 金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1”</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20”</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5”</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，速度之靴可使护甲等级改善 <strong>2 点</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "迅捷靴 Boots of Speed"
@@ -842,7 +842,7 @@
   },
   {
     "id": "dmg-item-boots-of-striding-and-springing",
-    "nameZh": "跨跃与弹跳靴",
+    "nameZh": "跑跳之靴",
     "nameEn": "Boots of Striding and Springing",
     "category": "魔法物品",
     "price": "参考售价 20,000 gp",
@@ -859,7 +859,7 @@
     ],
     "details": [
       {
-        "title": "跨跃与弹跳靴 Boots of Striding and Springing",
+        "title": "跑跳之靴 Boots of Striding and Springing",
         "html": "<p>无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12”</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30’</strong>、向后跳 <strong>9’</strong>、垂直跳 <strong>15’</strong>。若在战斗中使用此类移动，穿戴者在近战轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -1079,7 +1079,7 @@
     "category": "魔法物品",
     "price": "参考售价 3,000 gp",
     "weight": "未列",
-    "description": "除可被侦测出的魔法灵光外，它与普通扫帚无法区分；所有测试也会显示它与飞行扫帚完全相同。",
+    "description": "除可被侦测出的魔法灵光外，它与普通扫帚无法区分；所有测试也会显示它与飞天扫帚完全相同。",
     "tags": [
       "魔法"
     ],
@@ -1092,7 +1092,7 @@
     "details": [
       {
         "title": "攻击扫帚 Broom of Animated Attack",
-        "html": "<p>除可被侦测出的魔法灵光外，它与普通扫帚无法区分；所有测试也会显示它与飞行扫帚完全相同。但攻击扫帚是件非常讨厌的物品。若有人说出命令语（如“飞”“悬浮”等），扫帚便会绕着说话者转一圈，再将其甩下，使其头朝下坠落至距地 <strong>6–9’</strong>处。随后扫帚会攻击摔倒者：用秸秆／枝条末端扇打脸部，使其目盲；再用“秃头”一端敲打。把手会同时造成伤害。扫帚每轮可攻击 <strong>2 次</strong>，如同一只 <strong>4 生命骰</strong>怪物。秸秆末端命中会使目标目盲 <strong>1 回合</strong>；另一端命中造成 <strong>1–3 点</strong>伤害。此扫帚护甲等级为 <strong>7</strong>，摧毁它需要 <strong>18 点</strong>伤害。</p>",
+        "html": "<p>除可被侦测出的魔法灵光外，它与普通扫帚无法区分；所有测试也会显示它与飞天扫帚完全相同。但攻击扫帚是件非常讨厌的物品。若有人说出命令语（如“飞”“悬浮”等），扫帚便会绕着说话者转一圈，再将其甩下，使其头朝下坠落至距地 <strong>6–9’</strong>处。随后扫帚会攻击摔倒者：用秸秆／枝条末端扇打脸部，使其目盲；再用“秃头”一端敲打。把手会同时造成伤害。扫帚每轮可攻击 <strong>2 次</strong>，如同一只 <strong>4 生命骰</strong>怪物。秸秆末端命中会使目标目盲 <strong>1 回合</strong>；另一端命中造成 <strong>1–3 点</strong>伤害。此扫帚护甲等级为 <strong>7</strong>，摧毁它需要 <strong>18 点</strong>伤害。</p>",
         "source": {
           "book": "DMG",
           "section": "攻击扫帚 Broom of Animated Attack"
@@ -1103,7 +1103,7 @@
   },
   {
     "id": "dmg-item-broom-of-flying",
-    "nameZh": "飞行扫帚",
+    "nameZh": "飞天扫帚",
     "nameEn": "Broom of Flying",
     "category": "魔法物品",
     "price": "参考售价 10,000 gp",
@@ -1120,7 +1120,7 @@
     ],
     "details": [
       {
-        "title": "飞行扫帚 Broom of Flying",
+        "title": "飞天扫帚 Broom of Flying",
         "html": "<p>此魔法扫帚能以最高 <strong>30”</strong>移动速度在空中飞行。以此速度飞行时最多可承载 <strong>182 磅</strong>；每超出 <strong>14 磅</strong>，移动速度降低 <strong>1”</strong>。扫帚可以约 <strong>30 度</strong>角爬升或俯冲。必须说出命令语才能启动，命令语由持有者自行决定。它可独自飞往指定目的地；若持有者说出命令语，扫帚会飞至其 <strong>30”</strong>范围内。</p>",
         "source": {
           "book": "DMG",
@@ -1266,7 +1266,7 @@
     "details": [
       {
         "title": "大理石象 Marble Elephant",
-        "html": "<p>这是最大的一类雕像，每尊约有一只人手大小。说出命令语后，大理石象会长成真正的大象，或恢复雕像形态。变成动物后，它会完全服从主人，可作为驮兽、坐骑或单独攻击敌人的战象。掷骰确定大理石象的类型：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>大象类型</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>亚洲象</td></tr><tr><td align=\"right\">51–90</td><td>非洲象（Loxodonta）</td></tr><tr><td align=\"right\">91–93</td><td>史前象（猛犸象）</td></tr><tr><td align=\"right\">94–00</td><td>史前象（乳齿象）</td></tr></tbody></table>\n<p>各种生物的具体数据见《怪物图鉴》。每次最多使用 <strong>24 小时</strong>，每月最多 <strong>4 次</strong>。</p>",
+        "html": "<p>这是最大的一类雕像，每尊约有一只人手大小。说出命令语后，大理石象会长成真正的大象，或恢复雕像形态。变成动物后，它会完全服从主人，可作为驮兽、坐骑或单独攻击敌人的战象。掷骰确定大理石象的类型：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>大象类型</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>亚洲象</td></tr><tr><td align=\"right\">51–90</td><td>非洲象（Loxodonta）</td></tr><tr><td align=\"right\">91–93</td><td>史前象（猛犸）</td></tr><tr><td align=\"right\">94–00</td><td>史前象（乳齿象）</td></tr></tbody></table>\n<p>各种生物的具体数据见《怪物图鉴》。每次最多使用 <strong>24 小时</strong>，每月最多 <strong>4 次</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "大理石象 Marble Elephant"
@@ -1382,7 +1382,7 @@
     "details": [
       {
         "title": "福克卢坎班多拉琴 Fochlucan Bandore",
-        "html": "<p>若由 <strong>1 级吟游诗人（见习者）</strong>或非吟游诗人演奏这件三弦小乐器，每演奏一轮有 <strong>50%</strong> 的概率施展“妖火术”；施法时另有 <strong>10%</strong> 的概率使演奏者而非预定目标被妖火照亮。福克卢坎学院或更高等级的吟游诗人施展此法术时，成功率为每个高于 <strong>1 级</strong>的吟游诗人等级 <strong>50%</strong>；每高于 <strong>1 级</strong>一级，反向效果的概率降低 <strong>1%</strong>。此外，正确演奏班多拉琴还能产生以下歌唱效果：</p>\n<ol>\n<li>吟游诗人的魅惑成功率提高 <strong>10%</strong>；</li>\n<li>每天施展一次“纠缠术”；</li>\n<li>每天施展一次“橡棍术”；</li>\n<li>每天与动物交谈一次。</li>\n</ol>\n<p>若 <strong>1 级</strong>吟游诗人尝试使用上述能力，能力有 <strong>30%</strong> 的概率生效；另有 <strong>70%</strong> 的概率令演奏者受到 <strong>2–8 点伤害</strong>。</p>",
+        "html": "<p>若由 <strong>1 级吟游诗人（见习者）</strong>或非吟游诗人演奏这件三弦小乐器，每演奏一轮有 <strong>50%</strong> 的概率施展“妖火术”；施法时另有 <strong>10%</strong> 的概率使演奏者而非预定目标被妖火照亮。福克卢坎学院或更高等级的吟游诗人施展此法术时，成功率为每个高于 <strong>1 级</strong>的吟游诗人等级 <strong>50%</strong>；每高于 <strong>1 级</strong>一级，反向效果的概率降低 <strong>1%</strong>。此外，正确演奏班多拉琴还能产生以下歌唱效果：</p>\n<ol>\n<li>吟游诗人的魅惑成功率提高 <strong>10%</strong>；</li>\n<li>每天施展一次“纠缠术”；</li>\n<li>每天施展一次“橡棍术”；</li>\n<li>每天动物交谈一次。</li>\n</ol>\n<p>若 <strong>1 级</strong>吟游诗人尝试使用上述能力，能力有 <strong>30%</strong> 的概率生效；另有 <strong>70%</strong> 的概率令演奏者受到 <strong>2–8 点伤害</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "福克卢坎班多拉琴 Fochlucan Bandore"
@@ -1469,7 +1469,7 @@
     "details": [
       {
         "title": "卡奈斯曼陀铃 Canaith Mandolin",
-        "html": "<p>任何非吟游诗人或低于 <strong>11 级</strong>的吟游诗人尝试演奏并使用其能力时，有 <strong>70%</strong> 的概率受到 <strong>5–20 点伤害</strong>。<strong>11 级或更高</strong>的吟游诗人使用此乐器时，魅惑成功率提高 <strong>25%</strong>，并且每天可以施展以下法术各一次：</p>\n<ol>\n<li>“治疗重伤术”；</li>\n<li>“解除魔法”；</li>\n<li>半径 <strong>10’</strong> 的“防护闪电术”。</li>\n</ol>",
+        "html": "<p>任何非吟游诗人或低于 <strong>11 级</strong>的吟游诗人尝试演奏并使用其能力时，有 <strong>70%</strong> 的概率受到 <strong>5–20 点伤害</strong>。<strong>11 级或更高</strong>的吟游诗人使用此乐器时，魅惑成功率提高 <strong>25%</strong>，并且每天可以施展以下法术各一次：</p>\n<ol>\n<li>“治疗重伤术”；</li>\n<li>“解除魔法”；</li>\n<li>半径 <strong>10’</strong> 的“防护闪电束”。</li>\n</ol>",
         "source": {
           "book": "DMG",
           "section": "卡奈斯曼陀铃 Canaith Mandolin"
@@ -1527,7 +1527,7 @@
     "details": [
       {
         "title": "安斯鲁斯竖琴 Anstruth Harp",
-        "html": "<p>任何非吟游诗人或低于 <strong>17 级</strong>的吟游诗人尝试弹奏此强大乐器时，有 <strong>90%</strong> 的概率受到 <strong>8–32 点伤害</strong>。<strong>17 级或更高</strong>的吟游诗人使用时，魅惑成功率提高 <strong>35%</strong>，并可每天演奏施展以下法术各一次：</p>\n<ol>\n<li>“治疗致命伤术”；</li>\n<li>“造荆棘墙术”；</li>\n<li>“召唤天气术”。</li>\n</ol>",
+        "html": "<p>任何非吟游诗人或低于 <strong>17 级</strong>的吟游诗人尝试弹奏此强大乐器时，有 <strong>90%</strong> 的概率受到 <strong>8–32 点伤害</strong>。<strong>17 级或更高</strong>的吟游诗人使用时，魅惑成功率提高 <strong>35%</strong>，并可每天演奏施展以下法术各一次：</p>\n<ol>\n<li>“治疗致命伤术”；</li>\n<li>“造棘墙术术”；</li>\n<li>“召唤天气术”。</li>\n</ol>",
         "source": {
           "book": "DMG",
           "section": "安斯鲁斯竖琴 Anstruth Harp"
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "dmg-item-robe-of-the-archmagi",
-    "nameZh": "大法师长袍",
+    "nameZh": "大法师法袍",
     "nameEn": "Robe of the Archmagi",
     "category": "魔法物品",
     "price": "未列售价",
@@ -1584,8 +1584,8 @@
     ],
     "details": [
       {
-        "title": "大法师长袍 Robe of the Archmagi",
-        "html": "<p>这件外表普通的长袍有白色（<strong>45%</strong>，善良阵营）、灰色（<strong>30%</strong>，既非善良也非邪恶的中立阵营）或黑色（<strong>25%</strong>，邪恶阵营）三种。穿戴者获得以下能力：</p>\n<ol>\n<li>长袍提供相当于 <strong>AC 5</strong>的防护；</li>\n<li>获得 <strong>5%</strong> 魔法抗性；</li>\n<li>所有豁免检定的数值加 <strong>1</strong>；</li>\n<li>穿戴者施展下列法术时，对应目标的魔法抗性降低 <strong>20%</strong>，且豁免检定受到 <strong>−4</strong> 惩罚：“魅惑怪物术”“魅惑人类术”“交友术”“定身怪物术”“定身人类术”“改变他人形态术”与“暗示术”。</li>\n</ol>\n<p>只有魔法师穿上长袍后，才能辨认其颜色。邪恶阵营的魔法师若穿上白袍，会受到 <strong>18–51 点伤害</strong>（<strong>11d4 + 7</strong>），并损失 <strong>18,000–51,000 点经验值</strong>；善良阵营的魔法师穿上黑袍时效果相反。善良或邪恶阵营的魔法师穿上灰袍，或中立魔法师穿上白袍或黑袍，都会受到 <strong>6–24 点伤害</strong>、损失 <strong>6,000–24,000 点经验值</strong>，并受到长袍魔力影响而逐渐转向其阵营；他们会不断被劝说改变阵营，必须采取行动才能保持原本的阵营纯粹性。</p>",
+        "title": "大法师法袍 Robe of the Archmagi",
+        "html": "<p>这件外表普通的长袍有白色（<strong>45%</strong>，善良阵营）、灰色（<strong>30%</strong>，既非善良也非邪恶的中立阵营）或黑色（<strong>25%</strong>，邪恶阵营）三种。穿戴者获得以下能力：</p>\n<ol>\n<li>长袍提供相当于 <strong>AC 5</strong>的防护；</li>\n<li>获得 <strong>5%</strong> 魔法抗性；</li>\n<li>所有豁免检定的数值加 <strong>1</strong>；</li>\n<li>穿戴者施展下列法术时，对应目标的魔法抗性降低 <strong>20%</strong>，且豁免检定受到 <strong>−4</strong> 惩罚：“魅惑怪物术”“魅惑类人术”“交友术”“定身怪物术”“定身类人术”“改变他人形态术”与“暗示术”。</li>\n</ol>\n<p>只有魔法师穿上长袍后，才能辨认其颜色。邪恶阵营的魔法师若穿上白袍，会受到 <strong>18–51 点伤害</strong>（<strong>11d4 + 7</strong>），并损失 <strong>18,000–51,000 点经验值</strong>；善良阵营的魔法师穿上黑袍时效果相反。善良或邪恶阵营的魔法师穿上灰袍，或中立魔法师穿上白袍或黑袍，都会受到 <strong>6–24 点伤害</strong>、损失 <strong>6,000–24,000 点经验值</strong>，并受到长袍魔力影响而逐渐转向其阵营；他们会不断被劝说改变阵营，必须采取行动才能保持原本的阵营纯粹性。</p>",
         "source": {
           "book": "DMG",
           "section": "大法师长袍 Robe of the Archmagi"
@@ -1625,7 +1625,7 @@
   },
   {
     "id": "dmg-item-robe-of-eyes",
-    "nameZh": "眼睛长袍",
+    "nameZh": "百眼法袍",
     "nameEn": "Robe of Eyes",
     "category": "魔法物品",
     "price": "未列售价",
@@ -1642,8 +1642,8 @@
     ],
     "details": [
       {
-        "title": "眼睛长袍 Robe of Eyes",
-        "html": "<p>这件长袍极有价值，尽管穿上之前看起来只是普通长袍。袍上装饰着数十只魔法之眼，使穿戴者能够同时看见四面八方。穿戴者获得 <strong>12”</strong>红外视觉、超视觉，以及看见位移或异相物体与生物真实位置的能力。长袍能在正常视力 <strong>24”</strong>范围内（使用红外视觉时为 <strong>12”</strong>）看见所有隐形事物。当然，实体障碍物仍会阻挡视线。隐形术、隐形尘、融合长袍甚至高等隐形术都无法躲过观察，但星界或以太位面的事物无法通过此袍看见；幻象与密门也无法看见。伪装起来或藏在阴影中的生物则很容易被发现，因此穿戴者不可能遭到伏击或突袭。此外，长袍还使穿戴者拥有相当于 <strong>12 级游侠</strong>的追踪能力。若直接对眼睛长袍施展“光亮术”，它会失明 <strong>1–3 轮</strong>；“恒定光亮术”则会令其失明 <strong>2–8 轮</strong>。</p>",
+        "title": "百眼法袍 Robe of Eyes",
+        "html": "<p>这件长袍极有价值，尽管穿上之前看起来只是普通长袍。袍上装饰着数十只魔法之眼，使穿戴者能够同时看见四面八方。穿戴者获得 <strong>12”</strong>红外视觉、超视觉，以及看见位移或异相物体与生物真实位置的能力。长袍能在正常视力 <strong>24”</strong>范围内（使用红外视觉时为 <strong>12”</strong>）看见所有隐形事物。当然，实体障碍物仍会阻挡视线。隐形术、隐形尘、融合长袍甚至高等隐形术都无法躲过观察，但星界或以太位面的事物无法通过此袍看见；幻象与密门也无法看见。伪装起来或藏在阴影中的生物则很容易被发现，因此穿戴者不可能遭到伏击或突袭。此外，长袍还使穿戴者拥有相当于 <strong>12 级游侠</strong>的追踪能力。若直接对百眼法袍施展“光亮术”，它会失明 <strong>1–3 轮</strong>；“恒定光亮术”则会令其失明 <strong>2–8 轮</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "眼睛长袍 Robe of Eyes"
@@ -1683,7 +1683,7 @@
   },
   {
     "id": "dmg-item-robe-of-scintillating-colors",
-    "nameZh": "炫彩长袍",
+    "nameZh": "虹光法袍",
     "nameEn": "Robe of Scintillating Colors",
     "category": "魔法物品",
     "price": "未列售价",
@@ -1700,7 +1700,7 @@
     ],
     "details": [
       {
-        "title": "炫彩长袍 Robe of Scintillating Colors",
+        "title": "虹光法袍 Robe of Scintillating Colors",
         "html": "<p>这件长袍看起来十分普通，但能检测到魔法灵光。穿戴者的智力必须达到 <strong>15</strong>，且感知至少为 <strong>13</strong>，才能令长袍生效。满足条件后，穿戴者可以使长袍变成不断流动的绚丽色彩：不同颜色如闪耀的彩虹般从肩部倾泻至下摆。长袍照亮半径 <strong>40’</strong>的区域，同时能催眠敌人，使其无法攻击穿戴者。</p>\n<p>穿戴者需要完整 <strong>1 轮</strong>才能启动色彩流动。此后每轮，任何未能通过对抗魔法豁免检定（或先通过魔法抗性检定、再通过豁免检定）的敌人都会被迷住 <strong>2–5 轮</strong>，呆立不动。即使催眠效果消退，敌人仍须再次通过豁免检定才能成功攻击穿戴者。此外，长袍持续闪烁的每一轮，都会使穿戴者更难被投射武器、手持武器或身体武器（手、拳、爪、牙、角等）命中，命中惩罚每轮增加 <strong>5%</strong>，最多达到 <strong>25%（−5）</strong>，即持续炫彩 <strong>5 轮</strong>。启动后的第一轮隐蔽结束后，穿戴者可以施法或从事任何不需离开起始位置超过 <strong>1”</strong>的活动。</p>\n<p>在非战斗情况下，未通过对抗魔法豁免检定的生物只会被催眠 <strong>2–5 轮</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -1712,7 +1712,7 @@
   },
   {
     "id": "dmg-item-robe-of-useful-items",
-    "nameZh": "实用长袍",
+    "nameZh": "杂货法袍",
     "nameEn": "Robe of Useful Items",
     "category": "魔法物品",
     "price": "未列售价",
@@ -1729,7 +1729,7 @@
     ],
     "details": [
       {
-        "title": "实用长袍 Robe of Useful Items",
+        "title": "杂货法袍 Robe of Useful Items",
         "html": "<p>这件衣物外观平平无奇，但魔法师穿上后会发现袍面缝着各种形状的布贴。只有穿戴者看得见、认得出并能取下布贴；取下任意一块需要 <strong>1 轮</strong>。布贴随即变成对应的真实物品。每件长袍必定有以下布贴各 <strong>2 块</strong>：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>固定布贴</th><th>生成物品</th></tr></thead><tbody><tr><td>匕首</td><td>匕首</td></tr><tr><td>灯笼</td><td>装满油且已点燃的灯笼</td></tr><tr><td>镜子</td><td>大型镜子</td></tr><tr><td>长竿</td><td><strong>10’</strong>长的长竿</td></tr><tr><td>绳索</td><td><strong>50’</strong>盘绕绳索</td></tr><tr><td>袋子</td><td>大型袋子</td></tr></tbody></table>\n<p>此外，长袍还会有 <strong>4–16 块</strong>下表所列布贴，具体数量与类型需掷骰决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>布贴生成物品</th></tr></thead><tbody><tr><td align=\"right\">01–08</td><td>装有 <strong>100 gp</strong>的袋子</td></tr><tr><td align=\"right\">09–15</td><td>银箱（<strong>½’ × ½’ × 1’</strong>，价值 <strong>500 gp</strong>）</td></tr><tr><td align=\"right\">16–22</td><td>铁门（最大 <strong>10’ × 10’</strong>，一侧有横闩；必须竖直放置，会自行安装铰链）</td></tr><tr><td align=\"right\">23–30</td><td><strong>10 颗</strong>宝石，每颗价值 <strong>100 gp</strong></td></tr><tr><td align=\"right\">31–44</td><td>木梯，长 <strong>24’</strong></td></tr><tr><td align=\"right\">45–51</td><td>带鞍袋的骡子</td></tr><tr><td align=\"right\">52–59</td><td>敞开的坑洞，体积 <strong>10 立方尺</strong></td></tr><tr><td align=\"right\">60–68</td><td>强效治疗药水</td></tr><tr><td align=\"right\">69–75</td><td>划艇，长 <strong>12’</strong></td></tr><tr><td align=\"right\">76–83</td><td>一道法术的卷轴</td></tr><tr><td align=\"right\">84–90</td><td>一对战犬</td></tr><tr><td align=\"right\">91–96</td><td>窗户（<strong>2’ × 4’</strong>，深度最多 <strong>2’</strong>）</td></tr><tr><td align=\"right\">97–00</td><td>再掷两次</td></tr></tbody></table>\n<p>同一物品可以重复出现。布贴一经取下便无法补回。</p>",
         "source": {
           "book": "DMG",
@@ -1775,7 +1775,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "这根绳子看起来与攀爬绳或缠缚绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 10’ 范围内另有 1–4 人 （每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。",
+    "description": "这根绳子看起来与攀爬绳或纠缠绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 10’ 范围内另有 1–4 人 （每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。",
     "tags": [
       "魔法"
     ],
@@ -1788,7 +1788,7 @@
     "details": [
       {
         "title": "绞缠绳 Rope of Constriction",
-        "html": "<p>这根绳子看起来与攀爬绳或缠缚绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 <strong>10’</strong>范围内另有 <strong>1–4 人</strong>（每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。绳子每轮造成 <strong>2–12 点伤害</strong>，直到有人对其施展“解除魔法”才会松开。被绳子缠住的生物不能施法，也无法以任何方式自行脱困。</p>\n<p>绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能将其砍断；这些伤害必须由同一个生物造成，且不能是被缠住的目标。</p>",
+        "html": "<p>这根绳子看起来与攀爬绳或纠缠绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 <strong>10’</strong>范围内另有 <strong>1–4 人</strong>（每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。绳子每轮造成 <strong>2–12 点伤害</strong>，直到有人对其施展“解除魔法”才会松开。被绳子缠住的生物不能施法，也无法以任何方式自行脱困。</p>\n<p>绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能将其砍断；这些伤害必须由同一个生物造成，且不能是被缠住的目标。</p>",
         "source": {
           "book": "DMG",
           "section": "绞缠绳 Rope of Constriction"
@@ -1799,12 +1799,12 @@
   },
   {
     "id": "dmg-item-rope-of-entanglement",
-    "nameZh": "缠缚绳",
+    "nameZh": "纠缠绳",
     "nameEn": "Rope of Entanglement",
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "缠缚绳外观与其他魔法绳完全相同。",
+    "description": "纠缠绳外观与其他魔法绳完全相同。",
     "tags": [
       "魔法"
     ],
@@ -1816,8 +1816,8 @@
     ],
     "details": [
       {
-        "title": "缠缚绳 Rope of Entanglement",
-        "html": "<p>缠缚绳外观与其他魔法绳完全相同。根据命令，它会向前抽出 <strong>20’</strong>，或向上抽出 <strong>10’</strong>，缠住并捆牢最多 <strong>8 个类人生物大小</strong>的生物。可缠住的体型数量按下列等价关系计算：</p>\n<p><strong>1 名风暴巨人或火巨人 = 2 名霜巨人、石巨人或山丘巨人 = 3 名食人魔 = 4 名熊地精 = 6 名豺狼人 = 8 名人类 = 10 名精灵 = 12 名矮人 = 16 名侏儒或狗头人。</strong></p>\n<p>绳子只需 <strong>1 segment</strong>便能射出，再用 <strong>1 segment</strong>缠住目标；发出命令也需 <strong>1 segment</strong>，整个过程共需 <strong>3 segments</strong>。不能徒手扯断缠缚绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。缠缚绳一旦被砍断便会彻底毁坏。</p>\n<p><strong>注意：</strong>任何魔法绳一旦被破坏或割断，都会立即失去特殊能力。</p>",
+        "title": "纠缠绳 Rope of Entanglement",
+        "html": "<p>纠缠绳外观与其他魔法绳完全相同。根据命令，它会向前抽出 <strong>20’</strong>，或向上抽出 <strong>10’</strong>，缠住并捆牢最多 <strong>8 个类人生物大小</strong>的生物。可缠住的体型数量按下列等价关系计算：</p>\n<p><strong>1 名风暴巨人或火巨人 = 2 名霜巨人、石巨人或山丘巨人 = 3 名食人魔 = 4 名熊地精 = 6 名豺狼人 = 8 名人类 = 10 名精灵 = 12 名矮人 = 16 名侏儒或狗头人。</strong></p>\n<p>绳子只需 <strong>1 segment</strong>便能射出，再用 <strong>1 segment</strong>缠住目标；发出命令也需 <strong>1 segment</strong>，整个过程共需 <strong>3 segments</strong>。不能徒手扯断纠缠绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。纠缠绳一旦被砍断便会彻底毁坏。</p>\n<p><strong>注意：</strong>任何魔法绳一旦被破坏或割断，都会立即失去特殊能力。</p>",
         "source": {
           "book": "DMG",
           "section": "缠缚绳 Rope of Entanglement"
@@ -2020,7 +2020,7 @@
     "details": [
       {
         "title": "防护圣甲虫 Scarab of Protection",
-        "html": "<p>这件装置看起来像各种魔法护符、宝石等。它会散发微弱灵光；任何角色握住它 <strong>1 轮</strong>后，表面便会显出铭文，告知持有者它是一件防护装置。持有者对抗魔法的所有豁免检定获得 <strong>+1</strong>；若某种魔法通常不允许豁免检定，则持有者获得 <strong>1/20</strong> 的基础豁免概率，再叠加其他魔法防护通常给予的豁免加值。例如，此装置可使角色对抗魔法飞弹时拥有基础 <strong>20</strong> 的魔法豁免；若目标还从魔法铠甲获得 <strong>+4</strong>、从防护戒指获得 <strong>+1</strong>，掷骰结果达到 <strong>15</strong>或更高便不会受到飞弹伤害。</p>\n<p>此外，圣甲虫最多能吸收 <strong>12 次</strong>吸取生命能级的攻击（吸取 <strong>2 级</strong>算作 <strong>2 次</strong>），或死亡之触、死亡射线、“死亡一指”。吸收 <strong>12 次</strong>攻击后，圣甲虫便会化成粉末，彻底毁坏。每 <strong>20 枚</strong>防护圣甲虫中，有 <strong>1 枚</strong>受到反向诅咒，使持有者的豁免骰受到 <strong>−2</strong> 惩罚。不过，在这些诅咒物品中，有 <strong>1/5</strong> 的概率实际上具有 <strong>+2</strong> 加值；若由 <strong>16 级或更高</strong>的牧师解除诅咒，便会显现此能力，且吸收上限从 <strong>12 次</strong>提高到 <strong>24 次</strong>。</p>",
+        "html": "<p>这件装置看起来像各种魔法护符、宝石等。它会散发微弱灵光；任何角色握住它 <strong>1 轮</strong>后，表面便会显出铭文，告知持有者它是一件防护装置。持有者对抗魔法的所有豁免检定获得 <strong>+1</strong>；若某种魔法通常不允许豁免检定，则持有者获得 <strong>1/20</strong> 的基础豁免概率，再叠加其他魔法防护通常给予的豁免加值。例如，此装置可使角色对抗魔法飞弹时拥有基础 <strong>20</strong> 的魔法豁免；若目标还从魔法铠甲获得 <strong>+4</strong>、从防护戒指获得 <strong>+1</strong>，掷骰结果达到 <strong>15</strong>或更高便不会受到飞弹伤害。</p>\n<p>此外，圣甲虫最多能吸收 <strong>12 次</strong>吸取生命能级的攻击（吸取 <strong>2 级</strong>算作 <strong>2 次</strong>），或死亡之触、死亡射线、“死亡一指”。吸收 <strong>12 次</strong>攻击后，圣甲虫便会化成粉末，彻底毁坏。每 <strong>20 枚</strong>防护圣甲虫中，有 <strong>1 枚</strong>受到反向诅咒，使持有者的豁免骰受到 <strong>−2</strong> 惩罚。不过，在这些诅咒物品中，有 <strong>1/5</strong> 的概率实际上具有 <strong>+2</strong> 加值；若由 <strong>16 级或更高</strong>的牧师移除诅咒，便会显现此能力，且吸收上限从 <strong>12 次</strong>提高到 <strong>24 次</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "防护圣甲虫 Scarab of Protection"
@@ -2078,7 +2078,7 @@
     "details": [
       {
         "title": "湮灭法球 Sphere of Annihilation",
-        "html": "<p>湮灭法球是一个直径 <strong>2’</strong>、绝对漆黑的球体，是虚无本身。它实际是多元宇宙连续结构上的一个孔洞；任何物质接触它，都会立即被吸入虚空，彻底毁灭，连“祈愿术”一类魔法也无法挽回！法球本身静止不动，停留在某处，如同普通的洞穴。但集中精神可以改变其位置：个体的脑波扭曲空间结构，使这个孔洞向某个方向滑行。初始控制距离为 <strong>40’</strong>；建立控制后，每级可延伸 <strong>1”</strong>。基础移动速度为每轮 <strong>10’</strong>，再按下表调整。控制能力取决于魔法师的智力与经验等级；等级越高，心智能力与自律越强。</p>\n<p>智力每高于 <strong>12</strong>一点，魔法师增加 <strong>1%</strong> 的控制成功率；智力 <strong>13–15</strong>的每一点额外再增加 <strong>1%</strong>，智力 <strong>16–18</strong>的每一点则额外增加 <strong>3%</strong>。因此，智力 <strong>18</strong>时最多获得 <strong>12%</strong> 加值。加值适用于下表的控制检定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">魔法师等级</th><th align=\"right\">每轮移动速度</th><th align=\"right\">每轮控制概率</th></tr></thead><tbody><tr><td align=\"right\">不高于 5 级</td><td align=\"right\">8’</td><td align=\"right\">15%</td></tr><tr><td align=\"right\">6–7 级</td><td align=\"right\">9’</td><td align=\"right\">20%</td></tr><tr><td align=\"right\">8–9 级</td><td align=\"right\">10’</td><td align=\"right\">30%</td></tr><tr><td align=\"right\">10–11 级</td><td align=\"right\">11’</td><td align=\"right\">40%</td></tr><tr><td align=\"right\">12–13 级</td><td align=\"right\">12’</td><td align=\"right\">50%</td></tr><tr><td align=\"right\">14–15 级</td><td align=\"right\">13’</td><td align=\"right\">60%</td></tr><tr><td align=\"right\">16–17 级</td><td align=\"right\">14’</td><td align=\"right\">70%</td></tr><tr><td align=\"right\">18–20 级</td><td align=\"right\">15’</td><td align=\"right\">75%</td></tr><tr><td align=\"right\">21 级及以上</td><td align=\"right\">16’</td><td align=\"right\">80%</td></tr></tbody></table>\n<p>任何控制法球的尝试都会令它移动。若未能建立控制，法球会向试图操控它的魔法师滑去；只要魔法师仍在 <strong>30’</strong>范围内，法球便会持续移动 <strong>1–4 轮</strong>或更久。</p>\n<p>若有 <strong>2 名或更多</strong>魔法师尝试控制同一个法球，先由成功概率最高者检定，然后依次由其他魔法师检定。多人同时集中精神控制法球时，每增加一名魔法师，所有人的控制概率便累计降低 <strong>5%</strong>，即使他们试图合作完成同一目标也一样。若无人成功，法球便会向最强的魔法师滑去。控制检定必须每轮重新进行。</p>\n<p>若对法球施展“传送门术”，有 <strong>50%</strong> 的概率摧毁法球，<strong>35%</strong> 的概率什么也不发生，另有 <strong>15%</strong> 的概率撕裂空间结构，使半径 <strong>18’</strong>内的一切被抛入另一个位面或宇宙。若“抵消权杖”触碰法球，两者会互相抵消并引发剧烈爆炸；半径 <strong>6”</strong>内的一切都会受到 <strong>30–120 点伤害</strong>（<strong>3d4 × 10</strong>）。灵能者若在法球触及自己时施展“概率旅行”心灵学科，成功通过对抗魔法的豁免检定便可消除法球，并获得另一项主要灵能能力；若失败，则被彻底湮灭（见下文“法球护符”）。</p>",
+        "html": "<p>湮灭法球是一个直径 <strong>2’</strong>、绝对漆黑的球体，是虚无本身。它实际是多元宇宙连续结构上的一个孔洞；任何物质接触它，都会立即被吸入虚空，彻底毁灭，连“祈愿术”一类魔法也无法挽回！法球本身静止不动，停留在某处，如同普通的洞穴。但集中精神可以改变其位置：个体的脑波扭曲空间结构，使这个孔洞向某个方向滑行。初始控制距离为 <strong>40’</strong>；建立控制后，每级可延伸 <strong>1”</strong>。基础移动速度为每轮 <strong>10’</strong>，再按下表调整。控制能力取决于魔法师的智力与经验等级；等级越高，心智能力与自律越强。</p>\n<p>智力每高于 <strong>12</strong>一点，魔法师增加 <strong>1%</strong> 的控制成功率；智力 <strong>13–15</strong>的每一点额外再增加 <strong>1%</strong>，智力 <strong>16–18</strong>的每一点则额外增加 <strong>3%</strong>。因此，智力 <strong>18</strong>时最多获得 <strong>12%</strong> 加值。加值适用于下表的控制检定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">魔法师等级</th><th align=\"right\">每轮移动速度</th><th align=\"right\">每轮控制概率</th></tr></thead><tbody><tr><td align=\"right\">不高于 5 级</td><td align=\"right\">8’</td><td align=\"right\">15%</td></tr><tr><td align=\"right\">6–7 级</td><td align=\"right\">9’</td><td align=\"right\">20%</td></tr><tr><td align=\"right\">8–9 级</td><td align=\"right\">10’</td><td align=\"right\">30%</td></tr><tr><td align=\"right\">10–11 级</td><td align=\"right\">11’</td><td align=\"right\">40%</td></tr><tr><td align=\"right\">12–13 级</td><td align=\"right\">12’</td><td align=\"right\">50%</td></tr><tr><td align=\"right\">14–15 级</td><td align=\"right\">13’</td><td align=\"right\">60%</td></tr><tr><td align=\"right\">16–17 级</td><td align=\"right\">14’</td><td align=\"right\">70%</td></tr><tr><td align=\"right\">18–20 级</td><td align=\"right\">15’</td><td align=\"right\">75%</td></tr><tr><td align=\"right\">21 级及以上</td><td align=\"right\">16’</td><td align=\"right\">80%</td></tr></tbody></table>\n<p>任何控制法球的尝试都会令它移动。若未能建立控制，法球会向试图操控它的魔法师滑去；只要魔法师仍在 <strong>30’</strong>范围内，法球便会持续移动 <strong>1–4 轮</strong>或更久。</p>\n<p>若有 <strong>2 名或更多</strong>魔法师尝试控制同一个法球，先由成功概率最高者检定，然后依次由其他魔法师检定。多人同时集中精神控制法球时，每增加一名魔法师，所有人的控制概率便累计降低 <strong>5%</strong>，即使他们试图合作完成同一目标也一样。若无人成功，法球便会向最强的魔法师滑去。控制检定必须每轮重新进行。</p>\n<p>若对法球施展“异界之门术”，有 <strong>50%</strong> 的概率摧毁法球，<strong>35%</strong> 的概率什么也不发生，另有 <strong>15%</strong> 的概率撕裂空间结构，使半径 <strong>18’</strong>内的一切被抛入另一个位面或宇宙。若“抵消权杖”触碰法球，两者会互相抵消并引发剧烈爆炸；半径 <strong>6”</strong>内的一切都会受到 <strong>30–120 点伤害</strong>（<strong>3d4 × 10</strong>）。灵能者若在法球触及自己时施展“概率旅行”心灵学科，成功通过对抗魔法的豁免检定便可消除法球，并获得另一项主要灵能能力；若失败，则被彻底湮灭（见下文“法球护符”）。</p>",
         "source": {
           "book": "DMG",
           "section": "湮灭法球 Sphere of Annihilation"
@@ -2089,7 +2089,7 @@
   },
   {
     "id": "dmg-item-stone-of-controlling-earth-elementals",
-    "nameZh": "土元素操控石",
+    "nameZh": "命令土元素石核",
     "nameEn": "Stone of Controlling Earth Elementals",
     "category": "魔法物品",
     "price": "未列售价",
@@ -2106,7 +2106,7 @@
     ],
     "details": [
       {
-        "title": "土元素操控石 Stone of Controlling Earth Elementals",
+        "title": "命令土元素石核 Stone of Controlling Earth Elementals",
         "html": "<p>这种石头通常是一块形状奇特、粗略打磨过的喷出岩。持有者只需说出一个命令语，若现场有合适的土质媒介，便能召来 <strong>12 生命骰</strong>的土元素；若以粗糙、未经加工的石头为媒介，则召来 <strong>8 生命骰</strong>的土元素。不能以经过加工的石材召唤土元素，但可以使用泥土、黏土甚至沙子；沙子召来的土元素同样只有 <strong>8 生命骰</strong>。召唤区域必须至少宽 <strong>4’</strong>，且体积不少于 <strong>4 立方码</strong>。土元素会在 <strong>1–4 轮</strong>内出现。关于元素生物及其控制方式，详见《怪物图鉴》“元素生物”。每天可用此石召唤 <strong>1 个</strong>土元素。</p>",
         "source": {
           "book": "DMG",
@@ -2176,7 +2176,7 @@
   },
   {
     "id": "dmg-item-talisman-of-ultimate-evil",
-    "nameZh": "极恶护符",
+    "nameZh": "至恶护符",
     "nameEn": "Talisman of Ultimate Evil",
     "category": "魔法物品",
     "price": "未列售价",
@@ -2193,7 +2193,7 @@
     ],
     "details": [
       {
-        "title": "极恶护符 Talisman of Ultimate Evil",
+        "title": "至恶护符 Talisman of Ultimate Evil",
         "html": "<p>此装置与纯善护符完全相同，但所有性质与效果都恰好相反。它有 <strong>6 charges</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -2210,7 +2210,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "这类护符看起来与土元素操控石完全相同，但能力截然不同，且取决于持有者的魅力。",
+    "description": "这类护符看起来与命令土元素石核完全相同，但能力截然不同，且取决于持有者的魅力。",
     "tags": [
       "魔法"
     ],
@@ -2223,7 +2223,7 @@
     "details": [
       {
         "title": "扎吉护符 Talisman of Zagy",
-        "html": "<p>这类护符看起来与土元素操控石完全相同，但能力截然不同，且取决于持有者的魅力。任何角色触碰扎吉护符时，都要像遇到另一生物一样进行反应检定：</p>\n<ul>\n<li>若结果为敌对，护符便会像负重石一样起作用；但丢弃或摧毁它只会造成 <strong>5–30 点伤害</strong>，随后护符消失。</li>\n<li>若结果为中立，护符会跟随角色 <strong>5–30 小时</strong>，或直到角色对其许下愿望，以先发生者为准；之后便会消失。</li>\n<li>若结果为友善，角色在魅力值对应的月数内都无法摆脱护符。护符每 <strong>6 点魅力</strong>可赐予 <strong>1 个祈愿</strong>；当持有者接近 <strong>20’</strong>内的机械或魔法陷阱时，它还会发热并搏动。（若角色没有握住护符，便无法利用其警示。）无论反应检定结果如何，时限到期后护符都会消失，但原地会留下基础价值 <strong>10,000 gp</strong>的钻石。</li>\n</ul>",
+        "html": "<p>这类护符看起来与命令土元素石核完全相同，但能力截然不同，且取决于持有者的魅力。任何角色触碰扎吉护符时，都要像遇到另一生物一样进行反应检定：</p>\n<ul>\n<li>若结果为敌对，护符便会像负重石一样起作用；但丢弃或摧毁它只会造成 <strong>5–30 点伤害</strong>，随后护符消失。</li>\n<li>若结果为中立，护符会跟随角色 <strong>5–30 小时</strong>，或直到角色对其许下愿望，以先发生者为准；之后便会消失。</li>\n<li>若结果为友善，角色在魅力值对应的月数内都无法摆脱护符。护符每 <strong>6 点魅力</strong>可赐予 <strong>1 个祈愿</strong>；当持有者接近 <strong>20’</strong>内的机械或魔法陷阱时，它还会发热并搏动。（若角色没有握住护符，便无法利用其警示。）无论反应检定结果如何，时限到期后护符都会消失，但原地会留下基础价值 <strong>10,000 gp</strong>的钻石。</li>\n</ul>",
         "source": {
           "book": "DMG",
           "section": "扎吉护符 Talisman of Zagy"
@@ -2234,12 +2234,12 @@
   },
   {
     "id": "dmg-item-tome-of-clear-thought",
-    "nameZh": "通晓思维之书",
+    "nameZh": "静思卷册",
     "nameEn": "Tome of Clear Thought",
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "这本典籍与普通书籍无法区分（参见《体魄健康手册》）。",
+    "description": "这本典籍与普通书籍无法区分（参见《强身手册》）。",
     "tags": [
       "魔法"
     ],
@@ -2251,8 +2251,8 @@
     ],
     "details": [
       {
-        "title": "通晓思维之书 Tome of Clear Thought",
-        "html": "<p>这本典籍与普通书籍无法区分（参见《体魄健康手册》）。任何角色读完《通晓思维之书》后，都能练习精神锻炼，使智力提高 <strong>1 点</strong>。阅读需要 <strong>6 天</strong>、累计 <strong>48 小时</strong>；读完后书会立即消失。读者必须在一周内开始集中注意力与精神训练；完成整整 <strong>1 个月</strong>的练习后，智力提高。若战役中使用灵能规则，且角色此前并非灵能者，还可额外进行一次判定。阅读获得的知识无法记录或讲述。同一角色再读此书也不会获益。</p>",
+        "title": "静思卷册 Tome of Clear Thought",
+        "html": "<p>这本典籍与普通书籍无法区分（参见《强身手册》）。任何角色读完《静思卷册》后，都能练习精神锻炼，使智力提高 <strong>1 点</strong>。阅读需要 <strong>6 天</strong>、累计 <strong>48 小时</strong>；读完后书会立即消失。读者必须在一周内开始集中注意力与精神训练；完成整整 <strong>1 个月</strong>的练习后，智力提高。若战役中使用灵能规则，且角色此前并非灵能者，还可额外进行一次判定。阅读获得的知识无法记录或讲述。同一角色再读此书也不会获益。</p>",
         "source": {
           "book": "DMG",
           "section": "通晓思维之书 Tome of Clear Thought"
@@ -2263,12 +2263,12 @@
   },
   {
     "id": "dmg-item-tome-of-leadership-and-influence",
-    "nameZh": "领导力与影响力之书",
+    "nameZh": "统御卷册",
     "nameEn": "Tome of Leadership and Influence",
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "这本皮革与黄铜装订的书与《通晓思维之书》类似；读完后依照书中内容练习，魅力会提高 1 点 。",
+    "description": "这本皮革与黄铜装订的书与《静思卷册》类似；读完后依照书中内容练习，魅力会提高 1 点 。",
     "tags": [
       "魔法"
     ],
@@ -2280,8 +2280,8 @@
     ],
     "details": [
       {
-        "title": "领导力与影响力之书 Tome of Leadership and Influence",
-        "html": "<p>这本皮革与黄铜装订的书与《通晓思维之书》类似；读完后依照书中内容练习，魅力会提高 <strong>1 点</strong>。</p>",
+        "title": "统御卷册 Tome of Leadership and Influence",
+        "html": "<p>这本皮革与黄铜装订的书与《静思卷册》类似；读完后依照书中内容练习，魅力会提高 <strong>1 点</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "领导力与影响力之书 Tome of Leadership and Influence"
@@ -2292,7 +2292,7 @@
   },
   {
     "id": "dmg-item-trident-of-fish-command",
-    "nameZh": "控鱼三叉戟",
+    "nameZh": "唤鱼三叉戟",
     "nameEn": "Trident of Fish Command",
     "category": "魔法物品",
     "price": "未列售价",
@@ -2309,7 +2309,7 @@
     ],
     "details": [
       {
-        "title": "控鱼三叉戟 Trident of Fish Command",
+        "title": "唤鱼三叉戟 Trident of Fish Command",
         "html": "<p>这把三叉武器长 <strong>6’</strong>，装在坚固长杆顶端，看起来像一柄带倒刺的军用叉。它能迫使半径 <strong>6”</strong>内的所有鱼类（包括鲨鱼与鳗鱼，但不包括软体动物、甲壳类、两栖类、爬行类、哺乳类及其他非鱼类海洋生物）进行对抗魔法的豁免检定；每次使用消耗 <strong>1 charge</strong>。未通过检定的鱼类会完全受到共情控制，不会攻击三叉戟持有者，也不会攻击其 <strong>10’</strong>范围内的生物。持有者可以命令它们向任意方向移动，并传递恐惧、饥饿、愤怒、冷漠、饱足等情绪信息。通过豁免检定的鱼类不受控制，但不会靠近三叉戟 <strong>10’</strong>范围内。</p>\n<p>成群的鱼须作为单一整体进行检定。此类三叉戟有 <strong>17–20 charges</strong>，此外还是一把 <strong>+1 魔法武器</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -2437,12 +2437,12 @@
   },
   {
     "id": "dmg-item-well-of-many-worlds",
-    "nameZh": "万界之井",
+    "nameZh": "诸界之井",
     "nameEn": "Well of Many Worlds",
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "这种奇异的异次元装置外观与便携洞完全相同。",
+    "description": "这种奇异的异次元装置外观与次元洞完全相同。",
     "tags": [
       "魔法"
     ],
@@ -2454,8 +2454,8 @@
     ],
     "details": [
       {
-        "title": "万界之井 Well of Many Worlds",
-        "html": "<p>这种奇异的异次元装置外观与便携洞完全相同。任何放入其中的物体都会立即被抛往另一个世界——可能是平行地球、另一颗行星或不同位面，具体由使用者选择或随机决定。移动此井时，目的地也会重新随机。它可以像便携洞一样拾起、折叠等。注意，万界之井所连接世界中的事物，也能像起始世界的事物一样穿过入口进入此处。</p>",
+        "title": "诸界之井 Well of Many Worlds",
+        "html": "<p>这种奇异的异次元装置外观与次元洞完全相同。任何放入其中的物体都会立即被抛往另一个世界——可能是平行地球、另一颗行星或不同位面，具体由使用者选择或随机决定。移动此井时，目的地也会重新随机。它可以像次元洞一样拾起、折叠等。注意，诸界之井所连接世界中的事物，也能像起始世界的事物一样穿过入口进入此处。</p>",
         "source": {
           "book": "DMG",
           "section": "万界之井 Well of Many Worlds"
@@ -2466,7 +2466,7 @@
   },
   {
     "id": "dmg-item-wings-of-flying",
-    "nameZh": "飞行之翼",
+    "nameZh": "飞翼斗篷",
     "nameEn": "Wings of Flying",
     "category": "魔法物品",
     "price": "未列售价",
@@ -2483,8 +2483,8 @@
     ],
     "details": [
       {
-        "title": "飞行之翼 Wings of Flying",
-        "html": "<p>这对魔法之翼看起来不过是一件朴素的黑色旧斗篷。穿戴者说出命令语后，斗篷便会化作一对翼展 <strong>20’</strong>的巨大蝙蝠翅膀，使穿戴者能够按以下方式飞行：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">飞行时间</th><th align=\"right\">速度</th></tr></thead><tbody><tr><td align=\"right\">2 轮</td><td align=\"right\">32”</td></tr><tr><td align=\"right\">4 轮</td><td align=\"right\">18”</td></tr><tr><td align=\"right\">8 轮</td><td align=\"right\">12”</td></tr></tbody></table>\n<p>上述飞行时间与速度可以按比例组合。达到最大飞行时限后，穿戴者必须休息 <strong>1 小时</strong>；可以坐下、躺下或睡觉。飞行时间较短时不需要完全休息，但必须保持相对安静，例如缓慢步行 <strong>1 小时</strong>。飞行不足 <strong>1 轮</strong>则无需休息。无论当天飞行多久，飞行之翼每天只能使用一次；其承重上限为 <strong>500 磅</strong>。</p>",
+        "title": "飞翼斗篷 Wings of Flying",
+        "html": "<p>这对魔法之翼看起来不过是一件朴素的黑色旧斗篷。穿戴者说出命令语后，斗篷便会化作一对翼展 <strong>20’</strong>的巨大蝙蝠翅膀，使穿戴者能够按以下方式飞行：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">飞行时间</th><th align=\"right\">速度</th></tr></thead><tbody><tr><td align=\"right\">2 轮</td><td align=\"right\">32”</td></tr><tr><td align=\"right\">4 轮</td><td align=\"right\">18”</td></tr><tr><td align=\"right\">8 轮</td><td align=\"right\">12”</td></tr></tbody></table>\n<p>上述飞行时间与速度可以按比例组合。达到最大飞行时限后，穿戴者必须休息 <strong>1 小时</strong>；可以坐下、躺下或睡觉。飞行时间较短时不需要完全休息，但必须保持相对安静，例如缓慢步行 <strong>1 小时</strong>。飞行不足 <strong>1 轮</strong>则无需休息。无论当天飞行多久，飞翼斗篷每天只能使用一次；其承重上限为 <strong>500 磅</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "飞行之翼 Wings of Flying"
@@ -2495,7 +2495,7 @@
   },
   {
     "id": "dmg-item-axe-of-the-dwarvish-lords",
-    "nameZh": "矮人领主之斧",
+    "nameZh": "矮人王圣斧",
     "nameEn": "Axe of the Dwarvish Lords",
     "category": "神器",
     "price": "参考售价 55,000 gp",
@@ -2513,8 +2513,8 @@
     ],
     "details": [
       {
-        "title": "矮人领主之斧 Axe of the Dwarvish Lords",
-        "html": "<p>传说中，有史以来最伟大的矮人、第一位矮人之王，在守护神的帮助下于火山熔炉中铸造了这把武器。它代代传给矮人君主，直到数世纪前的“受召灾变”期间失落。此后，仍不时有人声称在不同地点看见了矮人领主之斧，但据说它带有诅咒。</p>\n<p>斧刃相当于一把锐锋剑，另一端的斧锤则相当于一把 <strong>+3 战锤</strong>。说出命令语后，斧柄可伸缩，变成适合投掷的战斧或手斧；投出后，斧头会返回 <strong>30’</strong>内的投掷者。持有者获得矮人的红外视觉、侦测陷阱等能力；若持有者本身是矮人，这些能力加倍。持有者的寿命比常人长 <strong>50%</strong>，但会随着时间变得越来越像矮人，直到最终外貌与矮人完全相同。</p>\n<p>该斧另有以下能力／影响：</p>\n<ul>\n<li><strong>2 × I</strong></li>\n<li><strong>1 × II</strong></li>\n<li><strong>1 × III</strong></li>\n<li><strong>1 × IV</strong></li>\n<li><strong>1 × V</strong></li>\n<li><strong>1 × VI</strong></li>\n</ul>",
+        "title": "矮人王圣斧 Axe of the Dwarvish Lords",
+        "html": "<p>传说中，有史以来最伟大的矮人、第一位矮人之王，在守护神的帮助下于火山熔炉中铸造了这把武器。它代代传给矮人君主，直到数世纪前的“受召灾变”期间失落。此后，仍不时有人声称在不同地点看见了矮人王圣斧，但据说它带有诅咒。</p>\n<p>斧刃相当于一把锐锋剑，另一端的斧锤则相当于一把 <strong>+3 战锤</strong>。说出命令语后，斧柄可伸缩，变成适合投掷的战斧或手斧；投出后，斧头会返回 <strong>30’</strong>内的投掷者。持有者获得矮人的红外视觉、侦测陷阱等能力；若持有者本身是矮人，这些能力加倍。持有者的寿命比常人长 <strong>50%</strong>，但会随着时间变得越来越像矮人，直到最终外貌与矮人完全相同。</p>\n<p>该斧另有以下能力／影响：</p>\n<ul>\n<li><strong>2 × I</strong></li>\n<li><strong>1 × II</strong></li>\n<li><strong>1 × III</strong></li>\n<li><strong>1 × IV</strong></li>\n<li><strong>1 × V</strong></li>\n<li><strong>1 × VI</strong></li>\n</ul>",
         "source": {
           "book": "DMG",
           "section": "矮人领主之斧 Axe of the Dwarvish Lords"
@@ -2675,7 +2675,7 @@
   },
   {
     "id": "dmg-item-eye-of-vecna",
-    "nameZh": "维克那之眼",
+    "nameZh": "维克那法眼",
     "nameEn": "Eye of Vecna",
     "category": "神器",
     "price": "参考售价 35,000 gp",
@@ -2693,8 +2693,8 @@
     ],
     "details": [
       {
-        "title": "维克那之眼 Eye of Vecna",
-        "html": "<p>除非低声耳语，人们很少提到维克那的名字；陌生人在场时更绝不会说出口，因为传说这位曾经至高无上的巫妖，其幽灵仍在物质位面游荡。可以确定的是，维克那最终败亡时，有一只眼睛和一只手留存下来。维克那之眼据说会像野兽的眼睛一样发光；它看起来像一块玛瑙，直到被放进活体角色空着的眼窝中。按入后，它会立即且不可逆地与头部融合；若不杀死角色，便无法将其取出或损毁。角色阵营会立刻变为守序邪恶，并永远无法改变。维克那之眼赋予宿主红外视觉与超视觉，并具有以下额外能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">2</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>V</td><td align=\"right\">1</td></tr></tbody></table>\n<p>次要或主要能力可以无害使用；但使用其首要能力会令宿主遭受恶意影响。</p>",
+        "title": "维克那法眼 Eye of Vecna",
+        "html": "<p>除非低声耳语，人们很少提到维克那的名字；陌生人在场时更绝不会说出口，因为传说这位曾经至高无上的巫妖，其幽灵仍在物质位面游荡。可以确定的是，维克那最终败亡时，有一只眼睛和一只手留存下来。维克那法眼据说会像野兽的眼睛一样发光；它看起来像一块玛瑙，直到被放进活体角色空着的眼窝中。按入后，它会立即且不可逆地与头部融合；若不杀死角色，便无法将其取出或损毁。角色阵营会立刻变为守序邪恶，并永远无法改变。维克那法眼赋予宿主红外视觉与超视觉，并具有以下额外能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">2</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>V</td><td align=\"right\">1</td></tr></tbody></table>\n<p>次要或主要能力可以无害使用；但使用其首要能力会令宿主遭受恶意影响。</p>",
         "source": {
           "book": "DMG",
           "section": "维克那之眼 Eye of Vecna"
@@ -2710,7 +2710,7 @@
     "category": "神器",
     "price": "未列售价",
     "weight": "未列",
-    "description": "据说大巫妖维克那将惊人而可怖的力量注入自己的左手（以及前述的眼睛），使它们在身体其他部分化为尘埃后依然留存（参见“维克那之眼”）。",
+    "description": "据说大巫妖维克那将惊人而可怖的力量注入自己的左手（以及前述的眼睛），使它们在身体其他部分化为尘埃后依然留存（参见“维克那法眼”）。",
     "tags": [
       "魔法",
       "神器"
@@ -2724,7 +2724,7 @@
     "details": [
       {
         "title": "维克那之手 The Hand of Vecna",
-        "html": "<p>据说大巫妖维克那将惊人而可怖的力量注入自己的左手（以及前述的眼睛），使它们在身体其他部分化为尘埃后依然留存（参见“维克那之眼”）。传说维克那之手看起来像一只木乃伊化的肢体，焦黑而干瘪，可能来自烧焦的尸体。若将腕部按在前臂残端，它便会立刻融合，并成为能正常活动的肢体；其握力相当于 <strong>18/00 力量</strong>（没有“命中”或伤害加值）。如后文所述，这只手最终会使宿主转变为守序邪恶阵营。</p>\n<p>宿主可以无害地使用其任意次要能力；但一旦使用维克那之手的某项主要能力，便会唤醒一股极其邪恶的灵体。（地下城主此时应开始以暗示逐步影响角色……）</p>\n\n\n\n<p>当维克那之手的首要能力被使用时，宿主会立即变为守序邪恶——极端邪恶。只要尚未使用其能力，便有 <strong>100%</strong> 的概率将手从宿主身上截下；每使用一次主要能力，此概率便降低 <strong>1%</strong>；每使用一次首要能力，则降低 <strong>10%</strong>。累计扣除达到 <strong>100%</strong> 后，便再也无法移除维克那之手，角色也会知晓这一点。</p>\n<p>使用任何能力时，都必须以不同方式伸展、弯曲手指，或摆出某种手势。其能力与效果如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">10</td></tr><tr><td>II</td><td align=\"right\">5</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<p>请牢记：<strong>只有最强大的诸神亲自干预，才能改变维克那之手对宿主造成的影响。</strong>即便是至高神祇，也很可能不愿插手任何宿主的命运；因此建议将这些效果视为不可逆转。</p>\n<p><strong>注意：</strong>为每项能力设计一种手指／手部姿势组合并记录下来，例如握拳、拇指向下、小指指向前等。将姿势对照表放在手边，让宿主角色必须摆出对应姿势才能使用维克那之手的能力。</p>",
+        "html": "<p>据说大巫妖维克那将惊人而可怖的力量注入自己的左手（以及前述的眼睛），使它们在身体其他部分化为尘埃后依然留存（参见“维克那法眼”）。传说维克那之手看起来像一只木乃伊化的肢体，焦黑而干瘪，可能来自烧焦的尸体。若将腕部按在前臂残端，它便会立刻融合，并成为能正常活动的肢体；其握力相当于 <strong>18/00 力量</strong>（没有“命中”或伤害加值）。如后文所述，这只手最终会使宿主转变为守序邪恶阵营。</p>\n<p>宿主可以无害地使用其任意次要能力；但一旦使用维克那之手的某项主要能力，便会唤醒一股极其邪恶的灵体。（地下城主此时应开始以暗示逐步影响角色……）</p>\n\n\n\n<p>当维克那之手的首要能力被使用时，宿主会立即变为守序邪恶——极端邪恶。只要尚未使用其能力，便有 <strong>100%</strong> 的概率将手从宿主身上截下；每使用一次主要能力，此概率便降低 <strong>1%</strong>；每使用一次首要能力，则降低 <strong>10%</strong>。累计扣除达到 <strong>100%</strong> 后，便再也无法移除维克那之手，角色也会知晓这一点。</p>\n<p>使用任何能力时，都必须以不同方式伸展、弯曲手指，或摆出某种手势。其能力与效果如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">10</td></tr><tr><td>II</td><td align=\"right\">5</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<p>请牢记：<strong>只有最强大的诸神亲自干预，才能改变维克那之手对宿主造成的影响。</strong>即便是至高神祇，也很可能不愿插手任何宿主的命运；因此建议将这些效果视为不可逆转。</p>\n<p><strong>注意：</strong>为每项能力设计一种手指／手部姿势组合并记录下来，例如握拳、拇指向下、小指指向前等。将姿势对照表放在手边，让宿主角色必须摆出对应姿势才能使用维克那之手的能力。</p>",
         "source": {
           "book": "DMG",
           "section": "维克那之手 The Hand of Vecna"
@@ -2770,7 +2770,7 @@
     "category": "神器",
     "price": "参考售价 20,000 gp",
     "weight": "未列",
-    "description": "这件古老圣物的外形与常见魔法号角完全相同，例如爆鸣号角、泡泡号角等。",
+    "description": "这件古老圣物的外形与常见魔法号角完全相同，例如音爆号角、泡泡号角等。",
     "tags": [
       "魔法",
       "神器"
@@ -2784,7 +2784,7 @@
     "details": [
       {
         "title": "变化号角 Horn of Change",
-        "html": "<p>这件古老圣物的外形与常见魔法号角完全相同，例如爆鸣号角、泡泡号角等。吹响 <strong>1 次</strong>时，会产生表 I 中的一项能力或表 III 中的一项效果；吹响 <strong>2 次</strong>时，会产生表 II 中的一项能力或表 VI 中的一项效果；吹响 <strong>3 次</strong>时，会产生表 V 中的一项能力或表 IV 中的一项效果。地下城主必须决定触发能力或效果的概率；建议采用 <strong>75%／25%</strong>，再掷骰从相应表中随机确定结果。不适用的结果应忽略。</p>",
+        "html": "<p>这件古老圣物的外形与常见魔法号角完全相同，例如音爆号角、泡泡号角等。吹响 <strong>1 次</strong>时，会产生表 I 中的一项能力或表 III 中的一项效果；吹响 <strong>2 次</strong>时，会产生表 II 中的一项能力或表 VI 中的一项效果；吹响 <strong>3 次</strong>时，会产生表 V 中的一项能力或表 IV 中的一项效果。地下城主必须决定触发能力或效果的概率；建议采用 <strong>75%／25%</strong>，再掷骰从相应表中随机确定结果。不适用的结果应忽略。</p>",
         "source": {
           "book": "DMG",
           "section": "变化号角 Horn of Change"
@@ -2904,7 +2904,7 @@
     "details": [
       {
         "title": "约希迪之面具 Johydee’s Mask",
-        "html": "<p>据说女祭司约希迪曾欺骗邪恶势力制造了这件奇异圣物，之后又明智地用它推翻了邪恶势力对自己国家的控制。面具会完全遮住穿戴者的脸，使其变成任意人类或类人形态；同时阻止所有形式的心灵接触、侦测与攻击。</p>\n<p>传说约希迪之面具还会使穿戴者完全免疫所有凝视攻击（石化蜥蜴、牛头怪兽、美杜莎等），并具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">2</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
+        "html": "<p>据说女祭司约希迪曾欺骗邪恶势力制造了这件奇异圣物，之后又明智地用它推翻了邪恶势力对自己国家的控制。面具会完全遮住穿戴者的脸，使其变成任意人类或类人形态；同时阻止所有形式的心灵接触、侦测与攻击。</p>\n<p>传说约希迪之面具还会使穿戴者完全免疫所有凝视攻击（石化蜥蜴、牛头人兽、美杜莎等），并具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">2</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
           "section": "约希迪之面具 Johydee’s Mask"
@@ -2945,7 +2945,7 @@
   },
   {
     "id": "dmg-item-mace-of-cuthbert",
-    "nameZh": "库斯伯特之钉头锤",
+    "nameZh": "库斯伯特之硬头锤",
     "nameEn": "Mace of Cuthbert",
     "category": "神器",
     "price": "参考售价 35,000 gp",
@@ -2963,8 +2963,8 @@
     ],
     "details": [
       {
-        "title": "库斯伯特之钉头锤 Mace of Cuthbert",
-        "html": "<p>据说这把武器正是棍杖圣者库斯伯特亲自使用过的武器；他曾以此揭示异教者的谬误。之后数十年间，圣者的神圣遗物被封入钉头锤，使这把守序善良的武器获得“命中”与伤害均为 <strong>+5</strong> 的加值，以及震慑效果。只有力量达到 <strong>18</strong>的守序善良牧师能挥舞它并获得其他能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">3</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
+        "title": "库斯伯特之硬头锤 Mace of Cuthbert",
+        "html": "<p>据说这把武器正是棍杖圣者库斯伯特亲自使用过的武器；他曾以此揭示异教者的谬误。之后数十年间，圣者的神圣遗物被封入硬头锤，使这把守序善良的武器获得“命中”与伤害均为 <strong>+5</strong> 的加值，以及震慑效果。只有力量达到 <strong>18</strong>的守序善良牧师能挥舞它并获得其他能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">3</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
           "section": "库斯伯特之钉头锤 Mace of Cuthbert"
@@ -3005,7 +3005,7 @@
   },
   {
     "id": "dmg-item-mighty-servant-of-leuk-o",
-    "nameZh": "莱乌克-欧的强力仆役",
+    "nameZh": "琉克欧的非凡机仆",
     "nameEn": "Mighty Servant of Leuk-O",
     "category": "神器",
     "price": "参考售价 185,000 gp",
@@ -3035,7 +3035,7 @@
   },
   {
     "id": "dmg-item-orb-of-dragonkind",
-    "nameZh": "龙族宝珠",
+    "nameZh": "龙珠",
     "nameEn": "Orb of Dragonkind",
     "category": "神器",
     "price": "参考售价 10,000–80,000 gp",
@@ -3053,7 +3053,7 @@
     ],
     "details": [
       {
-        "title": "龙族宝珠 Orb of Dragonkind",
+        "title": "龙珠 Orb of Dragonkind",
         "html": "<p>据说，某些善良神祇曾密谋设法轻易控制危害人类的邪龙；但邪恶阵营的魔族仆从篡改了相关魔法，使其影响所有龙族，并令制成的宝珠也具有敌意。总共制造了 <strong>8 颗</strong>白色玉石雕刻的宝珠，每颗对应龙族生命周期中的一个阶段。最小的直径仅 <strong>3 英寸</strong>，最大的约 <strong>10 英寸</strong>。每颗宝珠都刻有各类龙相互缠绕的浮雕；材质坚硬无比，且不知为何禁锢着所有龙族的本质。八种宝珠如下：</p>\n<h5 id=\"幼龙之卵宝珠-orb-of-the-hatchling\">幼龙之卵宝珠 Orb of the Hatchling</h5>\n<p>持有者可以魅惑任何极幼龙。宝珠的智力为 <strong>9</strong>、自我意识值为 <strong>9</strong>；若两者之和达到或超过持有者智力与感知之和，宝珠便会控制持有者，并必定杀死他或她。此宝珠拥有以下能力：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">3</td></tr></tbody></table>\n<h5 id=\"龙裔之卵宝珠-orb-of-the-wyrmkin\">龙裔之卵宝珠 Orb of the Wyrmkin</h5>\n<p>持有者可以魅惑任何幼龙。宝珠的智力与自我意识值均为 <strong>10</strong>；若两者之和达到或超过持有者智力与感知之和，宝珠便会控制角色，并尽快导致其死亡。此宝珠拥有以下能力：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">2</td></tr><tr><td>II</td><td align=\"right\">1</td></tr></tbody></table>\n<h5 id=\"亚成年龙宝珠-orb-of-the-dragonette\">亚成年龙宝珠 Orb of the Dragonette</h5>\n<p>持有者可以魅惑任何亚成年龙。宝珠的智力与自我意识值均为 <strong>11</strong>；若两者之和达到或超过持有者智力与感知之和，宝珠便会控制他或她，并尽可能迅速地将其杀死。此宝珠拥有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">3</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>III</td><td align=\"right\">1</td></tr></tbody></table>\n<h5 id=\"青年龙宝珠-orb-of-the-dragon\">青年龙宝珠 Orb of the Dragon</h5>\n<p>持有者可以魅惑任何年轻成年龙。宝珠的智力与自我意识值均为 <strong>12</strong>；若两者之和达到或超过持有者智力与感知之和，宝珠便会控制角色，并尽可能迅速地导致其死亡。此宝珠拥有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>III</td><td align=\"right\">1</td></tr></tbody></table>\n<h5 id=\"大蛇龙宝珠-orb-of-the-great-serpent\">大蛇龙宝珠 Orb of the Great Serpent</h5>\n<p>持有者可以魅惑任何成年龙。除此以外，此宝珠与同类物品相同；其智力与自我意识值均为 <strong>13</strong>，并拥有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">3</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
@@ -3294,7 +3294,7 @@
     "details": [
       {
         "title": "永恒巨龙宝珠 Orb of the Eternal Grand Dragon",
-        "html": "<p>持有者可以魅惑任何古龙。此外，当持有者直接与提亚马特或巴哈姆特交战时，所有豁免检定、“命中”骰与伤害骰均获得 <strong>+8</strong>。此宝珠与较低阶段的同类宝珠相似，智力与自我意识值均为 <strong>18</strong>，并具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">3</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<h5 id=\"龙族宝珠说明-notes-regarding-orbs-of-dragonkind\">龙族宝珠说明 Notes Regarding Orbs of Dragonkind</h5>\n<p>所有龙族宝珠都具有强烈的邪恶特质。中立或善良阵营的角色若想抵抗宝珠对中立／善良龙施加的魅惑，必须进行对抗魔法的豁免检定。魅惑射程为 <strong>5”</strong>，需要完整 <strong>1 轮</strong>；目标必须完全清醒，并知晓角色的存在。由于宝珠最初是为控制邪龙而造，邪恶龙会自动被魅惑；中立龙的豁免骰受到 <strong>−4</strong> 惩罚，善良龙受到 <strong>−2</strong> 惩罚。</p>\n<p>被龙族宝珠魅惑的角色在抵抗宝珠时，感知视为只有正常值的 <strong>50%</strong>。若持有者受到“弱智术”影响，或已陷入疯狂，其智力分别视为 <strong>3</strong>或正常值的 <strong>50%</strong>。宝珠只能控制清醒且活跃的心智。通常会将受控角色献祭给龙（如果附近有龙）；否则，宝珠会用最稳妥、最快捷的方法杀死角色。</p>",
+        "html": "<p>持有者可以魅惑任何古龙。此外，当持有者直接与提亚马特或巴哈姆特交战时，所有豁免检定、“命中”骰与伤害骰均获得 <strong>+8</strong>。此宝珠与较低阶段的同类宝珠相似，智力与自我意识值均为 <strong>18</strong>，并具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">3</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<h5 id=\"龙珠说明-notes-regarding-orbs-of-dragonkind\">龙珠说明 Notes Regarding Orbs of Dragonkind</h5>\n<p>所有龙珠都具有强烈的邪恶特质。中立或善良阵营的角色若想抵抗宝珠对中立／善良龙施加的魅惑，必须进行对抗魔法的豁免检定。魅惑射程为 <strong>5”</strong>，需要完整 <strong>1 轮</strong>；目标必须完全清醒，并知晓角色的存在。由于宝珠最初是为控制邪龙而造，邪恶龙会自动被魅惑；中立龙的豁免骰受到 <strong>−4</strong> 惩罚，善良龙受到 <strong>−2</strong> 惩罚。</p>\n<p>被龙珠魅惑的角色在抵抗宝珠时，感知视为只有正常值的 <strong>50%</strong>。若持有者受到“弱智术”影响，或已陷入疯狂，其智力分别视为 <strong>3</strong>或正常值的 <strong>50%</strong>。宝珠只能控制清醒且活跃的心智。通常会将受控角色献祭给龙（如果附近有龙）；否则，宝珠会用最稳妥、最快捷的方法杀死角色。</p>",
         "source": {
           "book": "DMG",
           "section": "永恒巨龙宝珠 Orb of the Eternal Grand Dragon"
@@ -3324,7 +3324,7 @@
     "details": [
       {
         "title": "威能宝珠 Orb of Might",
-        "html": "<p>关于三颗威能宝珠的传说来源，参见前文“威能王冠”。每颗宝珠的伦理阵营如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d20</th><th>阵营</th></tr></thead><tbody><tr><td align=\"right\">01–06</td><td>邪恶</td></tr><tr><td align=\"right\">07–14</td><td>善良</td></tr><tr><td align=\"right\">15–20</td><td>中立</td></tr></tbody></table>\n<p>不同伦理阵营的角色触碰宝珠时，必须通过对抗魔法的豁免检定以免死亡；即使成功，也会受到 <strong>4–24 点伤害</strong>。若触碰宝珠的角色还持有王冠和／或权杖，成功通过豁免检定仍会触发表 IV 中的一项恶意效果。</p>\n<p>每颗宝珠均由铂金制成，镶嵌宝石，顶部饰有贵金属与宝石制成的装饰；若公开出售，价值可达 <strong>100,000 gp</strong>或更高。每颗威能宝珠都相当于一颗光辉宝石，并拥有以下额外能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th>邪恶</th><th>善良</th><th>中立</th></tr></thead><tbody><tr><td>I × 2</td><td>待指定 × 2</td><td>待指定 × 2</td><td>待指定 × 2</td></tr><tr><td>III × 1</td><td>待指定</td><td>待指定</td><td>—</td></tr></tbody></table>\n<p>与其他权力象征组合时可获得的额外能力，参见“威能王冠”。</p>",
+        "html": "<p>关于三颗威能宝珠的传说来源，参见前文“威能王冠”。每颗宝珠的伦理阵营如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d20</th><th>阵营</th></tr></thead><tbody><tr><td align=\"right\">01–06</td><td>邪恶</td></tr><tr><td align=\"right\">07–14</td><td>善良</td></tr><tr><td align=\"right\">15–20</td><td>中立</td></tr></tbody></table>\n<p>不同伦理阵营的角色触碰宝珠时，必须通过对抗魔法的豁免检定以免死亡；即使成功，也会受到 <strong>4–24 点伤害</strong>。若触碰宝珠的角色还持有王冠和／或权杖，成功通过豁免检定仍会触发表 IV 中的一项恶意效果。</p>\n<p>每颗宝珠均由铂金制成，镶嵌宝石，顶部饰有贵金属与宝石制成的装饰；若公开出售，价值可达 <strong>100,000 gp</strong>或更高。每颗威能宝珠都相当于一颗光彩夺目宝石，并拥有以下额外能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th>邪恶</th><th>善良</th><th>中立</th></tr></thead><tbody><tr><td>I × 2</td><td>待指定 × 2</td><td>待指定 × 2</td><td>待指定 × 2</td></tr><tr><td>III × 1</td><td>待指定</td><td>待指定</td><td>—</td></tr></tbody></table>\n<p>与其他权力象征组合时可获得的额外能力，参见“威能王冠”。</p>",
         "source": {
           "book": "DMG",
           "section": "威能宝珠 Orb of Might"
@@ -3335,7 +3335,7 @@
   },
   {
     "id": "dmg-item-queen-ehlissa-s-marvelous-nightingale",
-    "nameZh": "艾丽莎女王的奇妙夜莺",
+    "nameZh": "爱莉莎女王的奇妙夜莺",
     "nameEn": "Queen Ehlissa’s Marvelous Nightingale",
     "category": "神器",
     "price": "参考售价 112,500 gp",
@@ -3353,7 +3353,7 @@
     ],
     "details": [
       {
-        "title": "艾丽莎女王的奇妙夜莺 Queen Ehlissa’s Marvelous Nightingale",
+        "title": "爱莉莎女王的奇妙夜莺 Queen Ehlissa’s Marvelous Nightingale",
         "html": "<p>这件圣物的来历不明，不过据说法师蒙丹肯曾断言：约 <strong>17 个世纪</strong>前，扎吉与火山活动女神乔拉米共同创造了夜莺。艾丽莎女王凭借装置的附魔让所有人臣服；她统治期间的数百年里，夜莺始终没有逃出囚笼。</p>\n<p>这只镶嵌宝石的鸣鸟启动后仿佛活了过来。它被关在精致的金丝网笼中，类似真鸟的鸟笼；启动后，夜莺会展开闪闪发光的翅膀，跳到笼中最高的栖木上开始表演。传闻圣物的双眼能射出绚丽光束，不同颜色会产生不同效果；它的歌声也能施展奇妙魔法。若光束与歌声组合使用，据说甚至能编织出极强大的法术。</p>\n<p>已知此装置能放出一个防护球体，半径 <strong>30’</strong>，阻止侦测、魔法或灵能侵入。待在球体内的生物据说不会感到饥饿或口渴。奇妙夜莺还具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">1</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>V</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
@@ -3425,7 +3425,7 @@
   },
   {
     "id": "dmg-item-rod-of-seven-parts",
-    "nameZh": "七段之杖",
+    "nameZh": "七碎片之杖",
     "nameEn": "Rod of Seven Parts",
     "category": "神器",
     "price": "参考售价 25,000 gp",
@@ -3443,8 +3443,8 @@
     ],
     "details": [
       {
-        "title": "七段之杖 Rod of Seven Parts",
-        "html": "<p>传说中，阿夸的风之公爵创造了这件圣物。他们据说为了佩什之战而打造此杖；混沌与秩序曾在那里展开殊死斗争。战斗中，权杖被击碎，七段散落各处；但其附魔强大到无法真正摧毁。若能找回所有部分并依正确顺序重新拼合，持有者就能掌握一件力量无比的武器。</p>\n<p>七段权杖各不相同：第一段长度与直径最大，第七段最小。任何单独一段都没有能力或效果。每段看起来都是短棒或手杖，只有第七段像一根短金属魔杖。若角色先找到第一段，只要将它视为完整魔法物品的一部分并集中思考，它便能让持有者感知第二段所在的方向。若第二、第三段等先于第一段、第二段等被发现，则该部分会引导持有者……</p>\n\n\n\n<p>若某段权杖按错误顺序与其他部分拼接（例如第一段接第三段、第二段接第六段等），编号较大的部分会传送至 <strong>100–1,000 英里</strong>外的随机方向。完全拼合后，七段之杖总长将近 <strong>5’</strong>。</p>\n<p>当 <strong>3 段</strong>连接在一起时，只要持有者仍活着、且尚未拼完所有部分，就无法放开权杖。各段能力在拼接后会累积，但只有圣物完整拼合时，才会获得其完整能力。</p>\n<p>持有者无法自行拆开权杖；但每次使用首要能力时，都有 <strong>1/20（5%）</strong> 的概率令权杖整体散成各个部件，并向不同随机方向传送 <strong>100–1,200 英里</strong>。</p>\n<p><strong>拼接各段时的能力与效果：</strong></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>拼接部件</th><th>能力类别</th></tr></thead><tbody><tr><td>第 1–2 段</td><td>III × 1</td></tr><tr><td>第 2–3 段</td><td>I × 1</td></tr><tr><td>第 3–4 段</td><td>I × 1</td></tr><tr><td>第 4–5 段</td><td>IV × 1</td></tr><tr><td>第 5–6 段</td><td>II × 1</td></tr><tr><td>第 6–7 段</td><td>VI × 1</td></tr></tbody></table>\n<p><strong>权杖完整拼合后的能力与效果：</strong></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">1</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<p>若权杖没有按顺序拼合，能力与效果不会累积；只有最后接上的部件能力会生效，之前的部分全部失效。若依序连接第一段、第二段、第三段等，则各段能力与效果逐步累积；当整根权杖拼合完成后，还会获得其额外的完整能力与效果。</p>",
+        "title": "七碎片之杖 Rod of Seven Parts",
+        "html": "<p>传说中，阿夸的风之公爵创造了这件圣物。他们据说为了佩什之战而打造此杖；混沌与秩序曾在那里展开殊死斗争。战斗中，权杖被击碎，七段散落各处；但其附魔强大到无法真正摧毁。若能找回所有部分并依正确顺序重新拼合，持有者就能掌握一件力量无比的武器。</p>\n<p>七段权杖各不相同：第一段长度与直径最大，第七段最小。任何单独一段都没有能力或效果。每段看起来都是短棒或手杖，只有第七段像一根短金属魔杖。若角色先找到第一段，只要将它视为完整魔法物品的一部分并集中思考，它便能让持有者感知第二段所在的方向。若第二、第三段等先于第一段、第二段等被发现，则该部分会引导持有者……</p>\n\n\n\n<p>若某段权杖按错误顺序与其他部分拼接（例如第一段接第三段、第二段接第六段等），编号较大的部分会传送至 <strong>100–1,000 英里</strong>外的随机方向。完全拼合后，七碎片之杖总长将近 <strong>5’</strong>。</p>\n<p>当 <strong>3 段</strong>连接在一起时，只要持有者仍活着、且尚未拼完所有部分，就无法放开权杖。各段能力在拼接后会累积，但只有圣物完整拼合时，才会获得其完整能力。</p>\n<p>持有者无法自行拆开权杖；但每次使用首要能力时，都有 <strong>1/20（5%）</strong> 的概率令权杖整体散成各个部件，并向不同随机方向传送 <strong>100–1,200 英里</strong>。</p>\n<p><strong>拼接各段时的能力与效果：</strong></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>拼接部件</th><th>能力类别</th></tr></thead><tbody><tr><td>第 1–2 段</td><td>III × 1</td></tr><tr><td>第 2–3 段</td><td>I × 1</td></tr><tr><td>第 3–4 段</td><td>I × 1</td></tr><tr><td>第 4–5 段</td><td>IV × 1</td></tr><tr><td>第 5–6 段</td><td>II × 1</td></tr><tr><td>第 6–7 段</td><td>VI × 1</td></tr></tbody></table>\n<p><strong>权杖完整拼合后的能力与效果：</strong></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">1</td></tr><tr><td>II</td><td align=\"right\">1</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>\n<p>若权杖没有按顺序拼合，能力与效果不会累积；只有最后接上的部件能力会生效，之前的部分全部失效。若依序连接第一段、第二段、第三段等，则各段能力与效果逐步累积；当整根权杖拼合完成后，还会获得其额外的完整能力与效果。</p>",
         "source": {
           "book": "DMG",
           "section": "七段之杖 Rod of Seven Parts"
@@ -3485,7 +3485,7 @@
   },
   {
     "id": "dmg-item-sword-of-kas",
-    "nameZh": "卡斯之剑",
+    "nameZh": "凯斯之剑",
     "nameEn": "Sword of Kas",
     "category": "神器",
     "price": "参考售价 97,000 gp",
@@ -3503,8 +3503,8 @@
     ],
     "details": [
       {
-        "title": "卡斯之剑 Sword of Kas",
-        "html": "<p>关于巫妖维克那，另有以下记载：</p>\n<blockquote>\n<p>“维克那势力渐盛时，任命一位邪恶而残酷的副官，担任其贴身护卫与左右手。此人便是卡斯领主。维克那为他寻得一把威力惊人的武器：一柄长而扁平的剑，通体暗灰金属，材质坚不可摧，剑尖锐利、剑刃锋利，并拥有魔法力量。卡斯长期忠心服侍巫妖；但随着自身力量增长，他的傲慢也日益膨胀。其长剑不断在耳边怂恿他，说卡斯已经比维克那更强；只要有这柄剑相助并为他指引，卡斯便能取代维克那统治。传说维克那及其长剑最终毁于卡斯之手；但维克那也同时促成了这名叛徒副官的灭亡，世界因此更为光明。”</p>\n</blockquote>\n<p>虽然关于长剑具体能力与效果的记载语焉不详，但毫无疑问，正是它让卡斯成为那个时代最著名的剑士。它是一把 <strong>+6 防御者</strong>；对来自物质主位面以外位面的所有生物造成 <strong>双倍伤害</strong>，但在非物质主位面上则只造成普通伤害。短剑具有极端邪恶与混乱阵营，智力为 <strong>15</strong>、自我意识值为 <strong>19</strong>；任何人据为己有，它都会试图控制对方。卡斯之剑具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">5</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">1</td></tr><tr><td>IV</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
+        "title": "凯斯之剑 Sword of Kas",
+        "html": "<p>关于巫妖维克那，另有以下记载：</p>\n<blockquote>\n<p>“维克那势力渐盛时，任命一位邪恶而残酷的副官，担任其贴身护卫与左右手。此人便是卡斯领主。维克那为他寻得一把威力惊人的武器：一柄长而扁平的剑，通体暗灰金属，材质坚不可摧，剑尖锐利、剑刃锋利，并拥有魔法力量。卡斯长期忠心服侍巫妖；但随着自身力量增长，他的傲慢也日益膨胀。其长剑不断在耳边怂恿他，说卡斯已经比维克那更强；只要有这柄剑相助并为他指引，卡斯便能取代维克那统治。传说维克那及其长剑最终毁于卡斯之手；但维克那也同时促成了这名叛徒副官的灭亡，世界因此更为光明。”</p>\n</blockquote>\n<p>虽然关于长剑具体能力与效果的记载语焉不详，但毫无疑问，正是它让卡斯成为那个时代最著名的剑士。它是一把 <strong>+6 防御者</strong>；对来自物质主位面以外位面的所有生物造成 <strong>双倍伤害</strong>，但在非物质主位面上则只造成普通伤害。短剑具有极端邪恶与混乱阵营，智力为 <strong>15</strong>、自我意识值为 <strong>19</strong>；任何人据为己有，它都会试图控制对方。凯斯之剑具有以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">5</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">1</td></tr><tr><td>IV</td><td align=\"right\">2</td></tr><tr><td>V</td><td align=\"right\">2</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
           "section": "卡斯之剑 Sword of Kas"
@@ -3575,12 +3575,12 @@
   },
   {
     "id": "dmg-item-wand-of-orcus",
-    "nameZh": "奥库斯之杖",
+    "nameZh": "奥喀斯之杖",
     "nameEn": "Wand of Orcus",
     "category": "神器",
     "price": "参考售价 10,000 gp",
     "weight": "未列",
-    "description": "这件可怖武器属于恶魔王子奥库斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥库斯及其权杖，参见《怪物图鉴》“恶魔：奥库斯”）。",
+    "description": "这件可怖武器属于恶魔王子奥喀斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥喀斯及其权杖，参见《怪物图鉴》“恶魔：奥喀斯”）。",
     "tags": [
       "魔法",
       "神器"
@@ -3593,8 +3593,8 @@
     ],
     "details": [
       {
-        "title": "奥库斯之杖 Wand of Orcus",
-        "html": "<p>这件可怖武器属于恶魔王子奥库斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥库斯及其权杖，参见《怪物图鉴》“恶魔：奥库斯”）。挥舞权杖的人无法发挥其完整的致死力量：被权杖击中的受害者可以进行对抗魔法的豁免检定，以避免死亡或湮灭。（当然，神祇、次级神祇、恶魔领主、高等魔鬼、圣者与半神都不受影响。）奥库斯之杖还赋予使用者以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
+        "title": "奥喀斯之杖 Wand of Orcus",
+        "html": "<p>这件可怖武器属于恶魔王子奥喀斯；据说他有时会让权杖进入物质主位面，在那里向所有生灵散播混乱与邪恶（关于奥喀斯及其权杖，参见《怪物图鉴》“恶魔：奥喀斯”）。挥舞权杖的人无法发挥其完整的致死力量：被权杖击中的受害者可以进行对抗魔法的豁免检定，以避免死亡或湮灭。（当然，神祇、次级神祇、恶魔领主、高等魔鬼、圣者与半神都不受影响。）奥喀斯之杖还赋予使用者以下能力／效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>能力类别</th><th align=\"right\">数量</th></tr></thead><tbody><tr><td>I</td><td align=\"right\">4</td></tr><tr><td>II</td><td align=\"right\">2</td></tr><tr><td>III</td><td align=\"right\">2</td></tr><tr><td>IV</td><td align=\"right\">1</td></tr><tr><td>VI</td><td align=\"right\">1</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
           "section": "奥库斯之杖 Wand of Orcus"
@@ -3924,7 +3924,7 @@
   },
   {
     "id": "dla-item-nightbringer",
-    "nameZh": "夜临",
+    "nameZh": "黑夜使者",
     "nameEn": "Nightbringer",
     "category": "魔法物品",
     "price": "未列售价",
@@ -3941,8 +3941,8 @@
     ],
     "details": [
       {
-        "title": "夜临 Nightbringer",
-        "html": "<p>并非只有善良的巫师会制造武器。邪恶的巫师更清楚强大武器的必要性，而且比他们的善良同道更快地运用那种力量。</p>\n<p>因此，夜临在 Ergoth 之塔中被创造出来。正是在那里，黑袍巫师的力量锻造了许多邪恶武器；那时，他们的同类正遭到教会追捕。</p>\n<p>灾变之后，夜临落入 Verminaard 手中；他是从其他邪恶牧师那里得到这件武器的。</p>\n<p>夜临是一把 +3 步行者钉头锤，是邪恶的强力工具。当钉头锤击中受害者并说出命令词时，受害者必须成功进行对法术的豁免检定，否则会因失明而持续 2d6 轮。钉头锤还会造成普通伤害。</p>\n<p>如果一个善良阵营的角色试图捡起夜临，该角色必须以 -2 罚值进行一次对法术的豁免检定。失败意味着角色会永久失明，或者直到对其施放复明术为止。</p>",
+        "title": "黑夜使者 Nightbringer",
+        "html": "<p>并非只有善良的巫师会制造武器。邪恶的巫师更清楚强大武器的必要性，而且比他们的善良同道更快地运用那种力量。</p>\n<p>因此，夜临在 Ergoth 之塔中被创造出来。正是在那里，黑袍巫师的力量锻造了许多邪恶武器；那时，他们的同类正遭到教会追捕。</p>\n<p>灾变之后，夜临落入 Verminaard 手中；他是从其他邪恶牧师那里得到这件武器的。</p>\n<p>夜临是一把 +3 步行者硬头锤，是邪恶的强力工具。当硬头锤击中受害者并说出命令词时，受害者必须成功进行对法术的豁免检定，否则会因失明而持续 2d6 轮。硬头锤还会造成普通伤害。</p>\n<p>如果一个善良阵营的角色试图捡起夜临，该角色必须以 -2 罚值进行一次对法术的豁免检定。失败意味着角色会永久失明，或者直到对其施放复明术为止。</p>",
         "source": {
           "book": "DLA",
           "section": "夜临 Nightbringer"
@@ -4232,7 +4232,7 @@
     "details": [
       {
         "title": "奥尔迪海权杖（M）",
-        "html": "<p>这件防御武器是为往来赫普莫纳兰与大王国之间、航行在海盗出没水域的商人制造的。持有者可以消耗权杖的充能来施放以下效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>效果</th><th>消耗</th></tr></thead><tbody><tr><td>雾云术</td><td>1</td></tr><tr><td>幻影之力</td><td>2</td></tr><tr><td>编程幻术</td><td>3</td></tr></tbody></table>\n<p>权杖需要 5 段来启动，使用者可以正常移动（不能进行近战），并集中精神维持效果。权杖射程为 240 码，影响一边为 180 英尺的区域。与海洋或航行没有密切关系的幻术，针对其豁免检定获得 +1 加值。</p>\n<p>XP 价值：5,000 XP。GP 价值：25,000 GP。</p>",
+        "html": "<p>这件防御武器是为往来赫普莫纳兰与大王国之间、航行在海盗出没水域的商人制造的。持有者可以消耗权杖的充能来施放以下效果：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>效果</th><th>消耗</th></tr></thead><tbody><tr><td>云雾术</td><td>1</td></tr><tr><td>魅影之力</td><td>2</td></tr><tr><td>编程幻术</td><td>3</td></tr></tbody></table>\n<p>权杖需要 5 段来启动，使用者可以正常移动（不能进行近战），并集中精神维持效果。权杖射程为 240 码，影响一边为 180 英尺的区域。与海洋或航行没有密切关系的幻术，针对其豁免检定获得 +1 加值。</p>\n<p>XP 价值：5,000 XP。GP 价值：25,000 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "奥尔迪海权杖（M）"
@@ -4435,7 +4435,7 @@
     "details": [
       {
         "title": "苏尔人暗魔杖（M）",
-        "html": "<p>这根乌木魔杖由一位从洛特维克前往苏尔豪特山脉、追猎其种族远古敌人的精灵魔法使用者附魔。它是敌人探测魔杖的专门版本。</p>\n<p>魔杖有两个功能。第一，可以发现最近的卓尔或卓尔蜘蛛方向。使用者只需下令并转身，直到魔杖产生反应。第二，魔杖可以观察卓尔或卓尔蜘蛛。指向正确方向并下令时，魔杖会创造最近卓尔精灵或卓尔蜘蛛的幻象，以及它或他的即时周围环境。魔杖使用者会获得模糊的距离印象（例如一英里内、五英里内、很远）。幻象持续一轮，并且会相当详细地揭示卓尔或卓尔蜘蛛正在做什么，但不足以让使用者阅读例如目标正在阅读的卷轴。</p>\n<p>魔杖射程为每消耗一次充能 10 英里。</p>\n<p>XP 价值：1,500 XP。GP 价值：8,000 GP。</p>",
+        "html": "<p>这根乌木魔杖由一位从洛特维克前往苏尔豪特山脉、追猎其种族远古敌人的精灵魔法使用者附魔。它是敌人探测魔杖的专门版本。</p>\n<p>魔杖有两个功能。第一，可以发现最近的卓尔或卓尔蜘蛛方向。使用者只需下令并转身，直到魔杖产生反应。第二，魔杖可以观察卓尔或卓尔蜘蛛。指向正确方向并下令时，魔杖会创造最近卓尔或卓尔蜘蛛的幻象，以及它或他的即时周围环境。魔杖使用者会获得模糊的距离印象（例如一英里内、五英里内、很远）。幻象持续一轮，并且会相当详细地揭示卓尔或卓尔蜘蛛正在做什么，但不足以让使用者阅读例如目标正在阅读的卷轴。</p>\n<p>魔杖射程为每消耗一次充能 10 英里。</p>\n<p>XP 价值：1,500 XP。GP 价值：8,000 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "苏尔人暗魔杖（M）"
@@ -4464,7 +4464,7 @@
     "details": [
       {
         "title": "苏尔人火焰魔杖（M）",
-        "html": "<p>这根魔杖可能是导致苏尔帝国毁灭的装置，也可能是为了重现那一事件而创造的。没有学者怀疑它的创造者是一位力量强大、且具有暴力倾向的法师。魔杖很少被买卖，因为很少有魔法使用者敢于使用它。它经常落入一个没有防备的施法者手中，后者直到太迟才意识到它的全部力量与危险。</p>\n<p>魔杖可以从最多 80 码的距离，召唤致命的“火焰”降落在一个 60 英尺见方的立方区域内。“火焰”每轮对所有生物造成 5 点伤害，不论防护、抗性或对普通或魔法火焰的免疫如何。任何弱于治疗术的法术都不能治愈这种伤害。此外，火焰会摧毁石头结构以外的建筑，并每轮将露天液体蒸发到 1 英尺深。暴露在“火焰”下的物体必须通过对解离术的豁免检定，否则被摧毁。不过，注意物质会被烧成尘土和灰烬，而不是被汽化。魔杖本身永远不受火焰影响，但有 5% 的几率发生故障；此时效果会以魔杖使用者为中心。</p>\n<p>火焰需要 3 次充能才能运作，最短持续时间为 6 轮。之后，施法者可以集中精神一轮，并成功通过对法术的豁免检定来终止降雨。魔杖每继续运作一轮，就会再消耗 1 次充能。如果魔杖耗尽，火雨会消失，魔杖会爆炸，将魔法使用者和 10 英尺内的一切卷入爆炸，造成 3d10 点伤害。魔杖可以重新充能，但只能在位于火元素位面与负物质位面之间的灰烬准元素位面重新充能。</p>\n<p>XP 价值：4,000 XP。GP 价值：35,000 GP。</p>",
+        "html": "<p>这根魔杖可能是导致苏尔帝国毁灭的装置，也可能是为了重现那一事件而创造的。没有学者怀疑它的创造者是一位力量强大、且具有暴力倾向的法师。魔杖很少被买卖，因为很少有魔法使用者敢于使用它。它经常落入一个没有防备的施法者手中，后者直到太迟才意识到它的全部力量与危险。</p>\n<p>魔杖可以从最多 80 码的距离，召唤致命的“火焰”降落在一个 60 英尺见方的立方区域内。“火焰”每轮对所有生物造成 5 点伤害，不论防护、抗性或对普通或魔法火焰的免疫如何。任何弱于医疗术的法术都不能治愈这种伤害。此外，火焰会摧毁石头结构以外的建筑，并每轮将露天液体蒸发到 1 英尺深。暴露在“火焰”下的物体必须通过对解离术的豁免检定，否则被摧毁。不过，注意物质会被烧成尘土和灰烬，而不是被汽化。魔杖本身永远不受火焰影响，但有 5% 的几率发生故障；此时效果会以魔杖使用者为中心。</p>\n<p>火焰需要 3 次充能才能运作，最短持续时间为 6 轮。之后，施法者可以集中精神一轮，并成功通过对法术的豁免检定来终止降雨。魔杖每继续运作一轮，就会再消耗 1 次充能。如果魔杖耗尽，火雨会消失，魔杖会爆炸，将魔法使用者和 10 英尺内的一切卷入爆炸，造成 3d10 点伤害。魔杖可以重新充能，但只能在位于火元素位面与负物质位面之间的灰烬准元素位面重新充能。</p>\n<p>XP 价值：4,000 XP。GP 价值：35,000 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "苏尔人火焰魔杖（M）"
@@ -4754,7 +4754,7 @@
     "details": [
       {
         "title": "弗瑞东尼的棺材",
-        "html": "<p><strong>Casket of Furyondy</strong></p>\n<p>这是一口雕刻精美的木棺，由弗瑞东尼的牧师施加魔法，用来保存荣誉之死者。任何守序善良的牧师都可以通过一项仪式启动它：将一名死亡不超过 9 天的人类或类人生物的尸体放入棺材，然后进行祝福。尸体会被无限期保存。无论经过多久，都可以对尸体施展复活术；进行系统震击检定时，死者的体质视为比当前能力高 3 点，且没有最大值限制。复活之后，死者还会获得治疗术所带来的益处。</p>\n<p>经验值：2,500；金币价值：27,500。</p>\n<p>###盾之地的圣杯</p>\n<p><strong>Chalice of the Shield Lands</strong></p>\n<p></p>\n<p>这个金色圣杯是为了对抗角之社而附魔的。它允许一名守序善良的战士暂时成为一名与自身等级相同的圣武士，以完成一次单独的任务，并获得圣武士的全部能力。</p>\n<p>圣杯只能由守序善良的牧师通过一项包括任务术在内的仪式激活。战士必须发誓效忠于一个守序善良的事业，然后饮下圣水；在任务持续期间，他会以圣武士身份行动，阵营也会变为守序善良。如果他偏离誓言，裁判可以让他失去部分或全部能力。如果任务失败，圣杯就会碎裂。</p>\n<p>经验值：3,000；金币价值：25,000。</p>",
+        "html": "<p><strong>Casket of Furyondy</strong></p>\n<p>这是一口雕刻精美的木棺，由弗瑞东尼的牧师施加魔法，用来保存荣誉之死者。任何守序善良的牧师都可以通过一项仪式启动它：将一名死亡不超过 9 天的人类或类人生物的尸体放入棺材，然后进行祝福。尸体会被无限期保存。无论经过多久，都可以对尸体施展复生术；进行系统震击检定时，死者的体质视为比当前能力高 3 点，且没有最大值限制。复活之后，死者还会获得医疗术所带来的益处。</p>\n<p>经验值：2,500；金币价值：27,500。</p>\n<p>###盾之地的圣杯</p>\n<p><strong>Chalice of the Shield Lands</strong></p>\n<p></p>\n<p>这个金色圣杯是为了对抗角之社而附魔的。它允许一名守序善良的战士暂时成为一名与自身等级相同的圣武士，以完成一次单独的任务，并获得圣武士的全部能力。</p>\n<p>圣杯只能由守序善良的牧师通过一项包括任务术在内的仪式激活。战士必须发誓效忠于一个守序善良的事业，然后饮下圣水；在任务持续期间，他会以圣武士身份行动，阵营也会变为守序善良。如果他偏离誓言，裁判可以让他失去部分或全部能力。如果任务失败，圣杯就会碎裂。</p>\n<p>经验值：3,000；金币价值：25,000。</p>",
         "source": {
           "book": "GHA",
           "section": "弗瑞东尼的棺材"
@@ -4986,7 +4986,7 @@
     "details": [
       {
         "title": "维路纳的梦帽",
-        "html": "<p><strong>Dream Cap of Veluna</strong></p>\n<p>这顶皮帽会影响未来睡觉的穿戴者。每一整夜之后，穿戴者都会梦见下一个将要面对的生物或力量所带来的威胁。非玩家角色、怪物、法术或自然危害会以象征形式出现；例如，牛头怪可能表现为公牛或毛发浓密的人，火球术可能表现为火焰覆盖的土地或火元素位面。</p>\n<p>做梦者必须进行一次对麻痹的豁免检定，以便有勇气面对危险。成功时，他在面对实际危险时，所有豁免检定、能力检定和命中骰获得 +2 加值；失败时，这些检定和骰值都受到 −2 减值。穿戴者始终记得梦境，但裁判不必主动提起它，除非玩家询问。危险发生之后，玩家可以进行智力检定，以判断梦境与事件之间的联系。</p>\n<p>经验值：1,500；金币价值：7,500。</p>",
+        "html": "<p><strong>Dream Cap of Veluna</strong></p>\n<p>这顶皮帽会影响未来睡觉的穿戴者。每一整夜之后，穿戴者都会梦见下一个将要面对的生物或力量所带来的威胁。非玩家角色、怪物、法术或自然危害会以象征形式出现；例如，牛头人可能表现为公牛或毛发浓密的人，火球术可能表现为火焰覆盖的土地或火元素位面。</p>\n<p>做梦者必须进行一次对麻痹的豁免检定，以便有勇气面对危险。成功时，他在面对实际危险时，所有豁免检定、能力检定和命中骰获得 +2 加值；失败时，这些检定和骰值都受到 −2 减值。穿戴者始终记得梦境，但裁判不必主动提起它，除非玩家询问。危险发生之后，玩家可以进行智力检定，以判断梦境与事件之间的联系。</p>\n<p>经验值：1,500；金币价值：7,500。</p>",
         "source": {
           "book": "GHA",
           "section": "维路纳的梦帽"
@@ -5015,7 +5015,7 @@
     "details": [
       {
         "title": "特恩的眼罩",
-        "html": "<p><strong>Eyepatch of Tenh</strong></p>\n<p>这是一块黑色眼罩。通过未受伤的那只眼睛，穿戴者可以在正常视距内看见所有隐形、星界和以太状态的事物；幻术和变形也会显露真实形态。穿戴者在识破幻象杀手时受到 −5 减值。</p>\n<p>一次最多只能使用 1 个轮次，每天最多使用 3 次；否则可能造成永久性的眼部损伤、剧烈头痛和其他后果。</p>\n<p>经验值：2,000；金币价值：15,000。</p>",
+        "html": "<p><strong>Eyepatch of Tenh</strong></p>\n<p>这是一块黑色眼罩。通过未受伤的那只眼睛，穿戴者可以在正常视距内看见所有隐形、星界和以太状态的事物；幻术和变形也会显露真实形态。穿戴者在识破魅影杀手时受到 −5 减值。</p>\n<p>一次最多只能使用 1 个轮次，每天最多使用 3 次；否则可能造成永久性的眼部损伤、剧烈头痛和其他后果。</p>\n<p>经验值：2,000；金币价值：15,000。</p>",
         "source": {
           "book": "GHA",
           "section": "特恩的眼罩"
@@ -5408,7 +5408,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "Iron Crown of the Bandit Kingdoms 这件金属头饰在战士之地打造而成，可以彻底消除下列类法术能力作用于穿戴者的机会：恐惧术、魅惑人类术、魔法容器术、暗示术和定身人类术。",
+    "description": "Iron Crown of the Bandit Kingdoms 这件金属头饰在战士之地打造而成，可以彻底消除下列类法术能力作用于穿戴者的机会：恐惧术、魅惑类人术、魔魂壶术、暗示术和定身类人术。",
     "tags": [
       "魔法"
     ],
@@ -5421,7 +5421,7 @@
     "details": [
       {
         "title": "盗贼王国的铁冠",
-        "html": "<p><strong>Iron Crown of the Bandit Kingdoms</strong></p>\n<p>这件金属头饰在战士之地打造而成，可以彻底消除下列类法术能力作用于穿戴者的机会：恐惧术、魅惑人类术、魔法容器术、暗示术和定身人类术。战士戴上它时提升一个等级，而牧师或魔法使用者戴上它时降低一个等级。</p>\n<p>经验值：3,000；金币价值：35,000。</p>",
+        "html": "<p><strong>Iron Crown of the Bandit Kingdoms</strong></p>\n<p>这件金属头饰在战士之地打造而成，可以彻底消除下列类法术能力作用于穿戴者的机会：恐惧术、魅惑类人术、魔魂壶术、暗示术和定身类人术。战士戴上它时提升一个等级，而牧师或魔法使用者戴上它时降低一个等级。</p>\n<p>经验值：3,000；金币价值：35,000。</p>",
         "source": {
           "book": "GHA",
           "section": "盗贼王国的铁冠"
@@ -5479,7 +5479,7 @@
     "details": [
       {
         "title": "大王国的挂坠",
-        "html": "<p><strong>Locket of the Great Kingdom (M)</strong></p>\n<p>这件物品由一名极度害怕死亡的巫师制作。后来又有两三名施法者使用过它，但通常都要以另一个活着的生物为代价。承受压力时，这枚挂坠进行豁免检定时视为硬金属。</p>\n<p>说出命令词后，挂坠会吸入魔法使用者的心灵（灵魂），并将其安全保存。如果角色之后死亡，他的生命力会前往挂坠（参见魔法容器术）。如果持有者与挂坠处于不同位面，他的生命力有 7 天时间回到挂坠；否则心灵就会离开，前往与角色阵营相应的外层位面。</p>\n<p>生命力进入挂坠之后，可以感知半径 50 英尺内发生的事件，但无法与不具备心灵感应或适当法术能力的生物交流。如果挂坠在只容纳心灵而不容纳生命力时被摧毁，心灵会彻底且不可逆转地湮灭；但如果挂坠在容纳生命力时被摧毁，心灵会前往与角色阵营相应的外层位面，从而允许复活。</p>\n<p>挂坠给予生命力三种类法术能力，每种能力每天可以使用一次：死者复生（只能作用于单个骷髅或尸体）、魔法容器术（如魔法使用者的法术）以及弱智术，使用者等级按角色自己的等级计算。注意，被动画的身体（僵尸）或骷髅拥有该怪物的全部特征，但保留使用者的智力。此外，被动画超过 60 天的僵尸必须在此后的每一天进行一次对死亡的豁免检定；失败则变成骷髅。</p>\n<p>经验值：3,500；金币价值：25,000。</p>",
+        "html": "<p><strong>Locket of the Great Kingdom (M)</strong></p>\n<p>这件物品由一名极度害怕死亡的巫师制作。后来又有两三名施法者使用过它，但通常都要以另一个活着的生物为代价。承受压力时，这枚挂坠进行豁免检定时视为硬金属。</p>\n<p>说出命令词后，挂坠会吸入魔法使用者的心灵（灵魂），并将其安全保存。如果角色之后死亡，他的生命力会前往挂坠（参见魔魂壶术）。如果持有者与挂坠处于不同位面，他的生命力有 7 天时间回到挂坠；否则心灵就会离开，前往与角色阵营相应的外层位面。</p>\n<p>生命力进入挂坠之后，可以感知半径 50 英尺内发生的事件，但无法与不具备心灵感应或适当法术能力的生物交流。如果挂坠在只容纳心灵而不容纳生命力时被摧毁，心灵会彻底且不可逆转地湮灭；但如果挂坠在容纳生命力时被摧毁，心灵会前往与角色阵营相应的外层位面，从而允许复活。</p>\n<p>挂坠给予生命力三种类法术能力，每种能力每天可以使用一次：活化死尸（只能作用于单个骷髅或尸体）、魔魂壶术（如魔法使用者的法术）以及弱智术，使用者等级按角色自己的等级计算。注意，被动画的身体（僵尸）或骷髅拥有该怪物的全部特征，但保留使用者的智力。此外，被动画超过 60 天的僵尸必须在此后的每一天进行一次对死亡的豁免检定；失败则变成骷髅。</p>\n<p>经验值：3,500；金币价值：25,000。</p>",
         "source": {
           "book": "GHA",
           "section": "大王国的挂坠"
@@ -5624,7 +5624,7 @@
     "details": [
       {
         "title": "黑沼颜料",
-        "html": "<p><strong>Paints of Blackmoor</strong></p>\n<p>这套多色颜料是在黑沼城全盛时期附魔的。城市和城堡衰败成废墟之后，魔法使用者使用这些颜料来确保自己在险恶之地中生存下去。</p>\n<p>每套颜料中每种颜色都有五次使用量。每种颜色都装在一个小罐里，所有小罐放在一个容纳盒中（如最小号的容纳袋）。颜料涂遍使用者全身，持续 24 小时。在此期间，只有移除诅咒才能消除它的效果。</p>\n<ul>\n<li><strong>红色：</strong> 将使用者变成一名 7 级战士，护甲等级 2，使用一把 +1 双手剑，拥有 70 点生命值。</li>\n<li><strong>蓝色：</strong> 将使用者变成一名 7 级牧师，护甲等级 3，使用一把 +2 步兵钉头锤，拥有 60 点生命值。法术必须立即选择：3 个一级法术、3 个二级法术、2 个三级法术、1 个四级法术。</li>\n<li><strong>绿色：</strong> 将使用者变成一名 7 级游侠，护甲等级 4，使用一把 +3 长弓，拥有 55 点生命值。</li>\n<li><strong>黑色：</strong> 将使用者变成一名 7 级盗贼，护甲等级 5，使用一把 +2 匕首，拥有 32 点生命值。</li>\n<li><strong>白色：</strong> 将使用者变成一名 7 级圣武士，护甲等级 1，使用一把 +3 长剑，拥有 67 点生命值。</li>\n<li><strong>棕色：</strong> 将使用者变成一名 7 级德鲁伊，护甲等级 6，使用一把 +2 四分杖，拥有 44 点生命值。</li>\n</ul>\n<p>在 24 小时内使用颜料两次会导致使用者立即死亡。恢复正常形态后，使用者会恢复失去的 1d12 点生命值。在以所假定的职业行动时，所有能力值都视为至少达到该职业所要求的最低起始值。变身角色保留原角色的全部记忆，但拥有新职业的能力。若未严格遵守所假定职业的限制，魔法就会失效，角色恢复原形。变身角色熟练掌握魔法获得的新武器，也熟练掌握自己在变身前可能已知的任何武器。</p>\n<p>注：经验值和金币价值按每罐颜料计算。</p>\n<p>经验值：300*<strong>；金币价值：2,500</strong>*。</p>",
+        "html": "<p><strong>Paints of Blackmoor</strong></p>\n<p>这套多色颜料是在黑沼城全盛时期附魔的。城市和城堡衰败成废墟之后，魔法使用者使用这些颜料来确保自己在险恶之地中生存下去。</p>\n<p>每套颜料中每种颜色都有五次使用量。每种颜色都装在一个小罐里，所有小罐放在一个容纳盒中（如最小号的容纳袋）。颜料涂遍使用者全身，持续 24 小时。在此期间，只有移除诅咒才能消除它的效果。</p>\n<ul>\n<li><strong>红色：</strong> 将使用者变成一名 7 级战士，护甲等级 2，使用一把 +1 双手剑，拥有 70 点生命值。</li>\n<li><strong>蓝色：</strong> 将使用者变成一名 7 级牧师，护甲等级 3，使用一把 +2 步兵硬头锤，拥有 60 点生命值。法术必须立即选择：3 个一级法术、3 个二级法术、2 个三级法术、1 个四级法术。</li>\n<li><strong>绿色：</strong> 将使用者变成一名 7 级游侠，护甲等级 4，使用一把 +3 长弓，拥有 55 点生命值。</li>\n<li><strong>黑色：</strong> 将使用者变成一名 7 级盗贼，护甲等级 5，使用一把 +2 匕首，拥有 32 点生命值。</li>\n<li><strong>白色：</strong> 将使用者变成一名 7 级圣武士，护甲等级 1，使用一把 +3 长剑，拥有 67 点生命值。</li>\n<li><strong>棕色：</strong> 将使用者变成一名 7 级德鲁伊，护甲等级 6，使用一把 +2 四分杖，拥有 44 点生命值。</li>\n</ul>\n<p>在 24 小时内使用颜料两次会导致使用者立即死亡。恢复正常形态后，使用者会恢复失去的 1d12 点生命值。在以所假定的职业行动时，所有能力值都视为至少达到该职业所要求的最低起始值。变身角色保留原角色的全部记忆，但拥有新职业的能力。若未严格遵守所假定职业的限制，魔法就会失效，角色恢复原形。变身角色熟练掌握魔法获得的新武器，也熟练掌握自己在变身前可能已知的任何武器。</p>\n<p>注：经验值和金币价值按每罐颜料计算。</p>\n<p>经验值：300*<strong>；金币价值：2,500</strong>*。</p>",
         "source": {
           "book": "GHA",
           "section": "黑沼颜料"
@@ -5885,7 +5885,7 @@
     "details": [
       {
         "title": "法师的时间沙漏",
-        "html": "<p><strong>Timeglass of the Mage (M)</strong></p>\n<p>这件魔法物品看起来是一只高 1 英尺的沙漏。一名强行闯入法师谷的冒险者突然带着它出现。他回来时只带回了时间沙漏，以及许多危险遭遇留下的伤疤。从那以后，许多施法者一直寻找它，因为传闻它拥有下列力量：</p>\n<ol>\n<li><strong>消逝时间。</strong> 时间会绕过一个边长 30 英尺的立方区域；每消耗 1 次充能，持续 1 小时。区域内的人不会经过主观时间，他们看起来只是暂时消失，并在由消耗充能数决定的持续时间结束时重新出现。</li>\n<li><strong>不老施法。</strong> 如果在施展通常会使施法者衰老的法术（例如传送门术或祈愿术）时握着沙漏，法术不会使施法者衰老，而会从沙漏中消耗充能；每本来会衰老 1 年，就消耗 1 次充能。</li>\n<li><strong>恢复青春。</strong> 通过命令，可以让持有者或他选择的任何生物恢复青春。这个过程会从沙漏中消耗 1 次充能，并从使用者身上扣除 1 个等级；目标生物恢复 2 年青春。放弃的等级无法恢复（恢复它会抵消时间倒流），必须重新赚取。</li>\n<li><strong>次级力量。</strong> 每 24 小时一次，持有者可以将沙漏倒转，并命令它产生下列法术效果之一：时间停止、加速术、缓慢术或分水术。每次使用会使持有者衰老 1 年，但时间停止会使持有者衰老 2 年。</li>\n</ol>\n<p>沙漏有 25 次充能，无法重新充能。最后一次充能消耗后，沙漏会碎裂成无用的碎片。据说这件装置来自位面之外，无法在主物质位面制造。</p>\n<p>经验值：5,000；金币价值：50,000。</p>",
+        "html": "<p><strong>Timeglass of the Mage (M)</strong></p>\n<p>这件魔法物品看起来是一只高 1 英尺的沙漏。一名强行闯入法师谷的冒险者突然带着它出现。他回来时只带回了时间沙漏，以及许多危险遭遇留下的伤疤。从那以后，许多施法者一直寻找它，因为传闻它拥有下列力量：</p>\n<ol>\n<li><strong>消逝时间。</strong> 时间会绕过一个边长 30 英尺的立方区域；每消耗 1 次充能，持续 1 小时。区域内的人不会经过主观时间，他们看起来只是暂时消失，并在由消耗充能数决定的持续时间结束时重新出现。</li>\n<li><strong>不老施法。</strong> 如果在施展通常会使施法者衰老的法术（例如异界之门术或祈愿术）时握着沙漏，法术不会使施法者衰老，而会从沙漏中消耗充能；每本来会衰老 1 年，就消耗 1 次充能。</li>\n<li><strong>恢复青春。</strong> 通过命令，可以让持有者或他选择的任何生物恢复青春。这个过程会从沙漏中消耗 1 次充能，并从使用者身上扣除 1 个等级；目标生物恢复 2 年青春。放弃的等级无法恢复（恢复它会抵消时间倒流），必须重新赚取。</li>\n<li><strong>次级力量。</strong> 每 24 小时一次，持有者可以将沙漏倒转，并命令它产生下列法术效果之一：时间停止、加速术、缓慢术或分水术。每次使用会使持有者衰老 1 年，但时间停止会使持有者衰老 2 年。</li>\n</ol>\n<p>沙漏有 25 次充能，无法重新充能。最后一次充能消耗后，沙漏会碎裂成无用的碎片。据说这件装置来自位面之外，无法在主物质位面制造。</p>\n<p>经验值：5,000；金币价值：50,000。</p>",
         "source": {
           "book": "GHA",
           "section": "法师的时间沙漏"
@@ -5988,7 +5988,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "Wings of the Rakers 这件白色斗篷由一名巫师施加魔法；他在格里夫山脉和掠夺者山脉找到了欢迎自己的家园，尤其喜欢与阿拉科克拉鸟人相处。",
+    "description": "Wings of the Rakers 这件白色斗篷由一名巫师施加魔法；他在格里夫山脉和掠夺者山脉找到了欢迎自己的家园，尤其喜欢与鸟羽人相处。",
     "tags": [
       "魔法"
     ],
@@ -6001,7 +6001,7 @@
     "details": [
       {
         "title": "掠夺者山脉之翼",
-        "html": "<p><strong>Wings of the Rakers</strong></p>\n<p>这件白色斗篷由一名巫师施加魔法；他在格里夫山脉和掠夺者山脉找到了欢迎自己的家园，尤其喜欢与阿拉科克拉鸟人相处。因此，他制作了这件物品，以改善自己与他们相遇时的体验。在自然寿命将尽、返回帕莱神权国的家乡时，他把斗篷交给一位信任的朋友；从此以后，它一直在不同角色之间流传。</p>\n<p>斗篷的作用如同飞行之翼，但掠夺者山脉之翼呈现白色海鸥翅膀的外观。它还赋予穿戴者说出并理解阿拉科克拉语言的能力，以及模仿阿拉科克拉俯冲攻击机动的能力。善良阵营的穿戴者获得阿拉科克拉的 +20% 反应加值；邪恶阵营的穿戴者承受 −20% 反应减值。</p>\n<p>经验值：1,000；金币价值：9,500。</p>",
+        "html": "<p><strong>Wings of the Rakers</strong></p>\n<p>这件白色斗篷由一名巫师施加魔法；他在格里夫山脉和掠夺者山脉找到了欢迎自己的家园，尤其喜欢与鸟羽人相处。因此，他制作了这件物品，以改善自己与他们相遇时的体验。在自然寿命将尽、返回帕莱神权国的家乡时，他把斗篷交给一位信任的朋友；从此以后，它一直在不同角色之间流传。</p>\n<p>斗篷的作用如同飞翼斗篷，但掠夺者山脉之翼呈现白色海鸥翅膀的外观。它还赋予穿戴者说出并理解阿拉科克拉语言的能力，以及模仿阿拉科克拉俯冲攻击机动的能力。善良阵营的穿戴者获得阿拉科克拉的 +20% 反应加值；邪恶阵营的穿戴者承受 −20% 反应减值。</p>\n<p>经验值：1,000；金币价值：9,500。</p>",
         "source": {
           "book": "GHA",
           "section": "掠夺者山脉之翼"
@@ -6070,12 +6070,12 @@
   },
   {
     "id": "gha-item-goblin-shield-of-the-pomarj-2",
-    "nameZh": "波马吉的哥布林盾牌 +2",
+    "nameZh": "波马吉的地精盾牌 +2",
     "nameEn": "Goblin Shield of the Pomarj +2",
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "Goblin Shield of the Pomarj +2 这面金属盾牌带有波马吉哥布林的纹章：一张红色的美杜莎脸。",
+    "description": "Goblin Shield of the Pomarj +2 这面金属盾牌带有波马吉地精的纹章：一张红色的美杜莎脸。",
     "tags": [
       "魔法"
     ],
@@ -6087,8 +6087,8 @@
     ],
     "details": [
       {
-        "title": "波马吉的哥布林盾牌 +2",
-        "html": "<p><strong>Goblin Shield of the Pomarj +2</strong></p>\n<p>这面金属盾牌带有波马吉哥布林的纹章：一张红色的美杜莎脸。它的创造者不明，不过传闻那是一名软弱而奸诈的巫师，曾在类人生物入侵洛特米尔山脉期间寻求自保。如今，这面盾牌只在一名哥布林首领手中出现。</p>\n<p>它使持有者的护甲等级获得 +2 加值，并且每天一次可以施展石化术（石化解除术的反向效果）。</p>\n<p>经验值：1,250；金币价值：7,500。</p>",
+        "title": "波马吉的地精盾牌 +2",
+        "html": "<p><strong>Goblin Shield of the Pomarj +2</strong></p>\n<p>这面金属盾牌带有波马吉地精的纹章：一张红色的美杜莎脸。它的创造者不明，不过传闻那是一名软弱而奸诈的巫师，曾在类人生物入侵洛特米尔山脉期间寻求自保。如今，这面盾牌只在一名地精首领手中出现。</p>\n<p>它使持有者的护甲等级获得 +2 加值，并且每天一次可以施展石化术（石化解除术的反向效果）。</p>\n<p>经验值：1,250；金币价值：7,500。</p>",
         "source": {
           "book": "GHA",
           "section": "波马吉的哥布林盾牌 +2"
@@ -6320,7 +6320,7 @@
     "details": [
       {
         "title": "瑞尔·阿斯特拉的仇恨之剑 +1，针对种族敌人 +3",
-        "html": "<p><strong>Rel Astran Sword of Enmity +1, +3 vs. Racial Enemies</strong></p>\n<p>这把长剑是为一名来自瑞尔·阿斯特拉城的圣武士施加魔法的。武器在近战中正常拥有 +1 命中和伤害加值。不过，当它用于对付种族仇敌时，持有者的攻击和伤害骰会额外提高 +2。获得这种加值的例子包括：圣武士对抗混乱邪恶生物，游侠对抗巨人类生物，蛮族对抗魔法使用者，精灵对抗卓尔和卓尔精灵等。</p>\n<p>经验值：750；金币价值：3,750。</p>",
+        "html": "<p><strong>Rel Astran Sword of Enmity +1, +3 vs. Racial Enemies</strong></p>\n<p>这把长剑是为一名来自瑞尔·阿斯特拉城的圣武士施加魔法的。武器在近战中正常拥有 +1 命中和伤害加值。不过，当它用于对付种族仇敌时，持有者的攻击和伤害骰会额外提高 +2。获得这种加值的例子包括：圣武士对抗混乱邪恶生物，游侠对抗巨人类生物，蛮族对抗魔法使用者，精灵对抗卓尔和卓尔等。</p>\n<p>经验值：750；金币价值：3,750。</p>",
         "source": {
           "book": "GHA",
           "section": "瑞尔·阿斯特拉的仇恨之剑 +1，针对种族敌人 +3"
@@ -6568,7 +6568,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "Trident of the Oljatt Sea +2 据说这是一件沙华鱼人战士使用的武器。",
+    "description": "Trident of the Oljatt Sea +2 据说这是一件鲨华鱼人战士使用的武器。",
     "tags": [
       "魔法"
     ],
@@ -6581,7 +6581,7 @@
     "details": [
       {
         "title": "奥尔贾特海的三叉戟 +2",
-        "html": "<p><strong>Trident of the Oljatt Sea +2</strong></p>\n<p>据说这是一件沙华鱼人战士使用的武器。它提供 +2 命中和伤害加值。每轮一次，它可以在长 60 英尺、高 20 英尺、宽 20 英尺的区域喷出一道蒸汽。蒸汽造成 6–36 点伤害（6d6）；成功进行对法术的豁免检定时伤害减半。在水下发射时，蒸汽只能到达一半距离，并且只造成一半伤害（此时进行豁免检定时，成功可将伤害降至四分之一）。</p>\n<p>经验值：1,500；金币价值：12,000。</p>",
+        "html": "<p><strong>Trident of the Oljatt Sea +2</strong></p>\n<p>据说这是一件鲨华鱼人战士使用的武器。它提供 +2 命中和伤害加值。每轮一次，它可以在长 60 英尺、高 20 英尺、宽 20 英尺的区域喷出一道蒸汽。蒸汽造成 6–36 点伤害（6d6）；成功进行对法术的豁免检定时伤害减半。在水下发射时，蒸汽只能到达一半距离，并且只造成一半伤害（此时进行豁免检定时，成功可将伤害降至四分之一）。</p>\n<p>经验值：1,500；金币价值：12,000。</p>",
         "source": {
           "book": "GHA",
           "section": "奥尔贾特海的三叉戟 +2"
@@ -6684,7 +6684,7 @@
   },
   {
     "id": "oa-gear-blowgun",
-    "nameZh": "吹管",
+    "nameZh": "吹箭筒",
     "nameEn": "Blowgun",
     "category": "武器",
     "price": "2 yuan",

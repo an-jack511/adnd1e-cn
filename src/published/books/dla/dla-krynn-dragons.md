@@ -224,7 +224,7 @@ Palanthus 的著名历史学家 阿斯特纽斯（Astinus） 数百年来一直�
 
 <strong>侏儒诞生 Birth of the Gnomes：</strong>铸造世界的 李奥克斯（Reorx） 对一群人类崇拜者感到不满。他把他们变成了侏儒。
 
-<strong>约公元前 3500 年，Greystone 创造 Greystone Created：</strong>魔法在克莱恩上尚不存在。锻造之神 李奥克斯 创造了 加加斯（Gargath） 的 Greystone。它聚集了灰色月亮 露妮塔瑞（Lunitari） 的魔法精华。
+<strong>约公元前 3500 年，Greystone 创造 Greystone Created：</strong>魔法在克莱恩上尚不存在。锻造之神 李奥克斯 创造了 加加斯（Gargath） 的 Greystone。它聚集了灰色月亮 努林塔瑞（Lunitari） 的魔法精华。
 
 <strong>精灵胜利 Elves Triumph：</strong>龙族被逐出 西尔瓦内斯提。精灵氏族再次向 Silvanos 家族宣誓效忠。西尔瓦内斯提 王国由此确立。土地立即被授予 Synthal-Elish 的主要家族。一个中央政府监督着各个独立国家。
 

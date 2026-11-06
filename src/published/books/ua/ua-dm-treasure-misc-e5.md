@@ -6,9 +6,9 @@
 
 | d% | 结果 | 经验值 | 售价 |
 |:---:|:---|---:|---:|
-| 01 | 大法师长袍 Robe of the Archmagi（M） | 6,000 | 65,000 |
+| 01 | 大法师法袍 Robe of the Archmagi（M） | 6,000 | 65,000 |
 | 02–08 | 融入长袍 Robe of Blending | 3,500 | 35,000 |
-| 09 | 眼睛长袍 Robe of Eyes（M） | 4,500 | 50,000 |
+| 09 | 百眼法袍 Robe of Eyes（M） | 4,500 | 50,000 |
 | 10 | 无力长袍 Robe of Powerlessness（M） | — | 1,000 |
 | 11 | 闪烁色彩长袍 Robe of Scintillating Colors（C、M） | 2,750 | 25,000 |
 | 12–19 | 实用物品长袍 Robe of Useful Items（M） | 1,500 | 15,000 |
@@ -39,7 +39,7 @@
 | 79–83 | 警告三叉戟 Trident of Warning（C、F、T） | 1,000 | 10,000 |
 | 84–85 | 渴望三叉戟 Trident of Yearning | — | 1,000 |
 | 86–87 | 空洞魔法书 Vacuous Grimoire | — | 1,000 |
-| 88–90 | 万界之井 Well of Many Worlds | 6,000 | 12,000 |
-| 91–00 | 飞行之翼 Wings of Flying | 750 | 7,500 |
+| 88–90 | 诸界之井 Well of Many Worlds | 6,000 | 12,000 |
+| 91–00 | 飞翼斗篷 Wings of Flying | 750 | 7,500 |
 
 若未注明限制，各职业均可使用。（C）牧师职业；（F）战士与骑士职业；（M）魔法师职业；（T）盗贼职业。

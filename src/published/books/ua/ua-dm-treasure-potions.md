@@ -31,7 +31,7 @@
 | 58–60 | 浮空药水 Levitation | 250 | 400 |
 | 61–63 | 长寿药水 Longevity | 500 | 1,000 |
 | 64–66 | 以太化油 Oil of Etherealness | 600 | 1,500 |
-| 67–69 | 滑溜油 Oil of Slipperiness | 400 | 750 |
+| 67–69 | 滑溜之油 Oil of Slipperiness | 400 | 750 |
 | 70–72 | 爱情媚药 Philter of Love | 200 | 300 |
 | 73–75 | 说服媚药 Philter of Persuasiveness | 400 | 850 |
 | 76–78 | 植物控制药水 Plant Control | 250 | 300 |
@@ -59,7 +59,7 @@
 | 46–49 | 烈焰燃烧油 Oil of Fiery Burning | 500 | 4,000 |
 | 50–55 | 笨拙油 Oil of Fumbling ** | — | 1,000 |
 | 56–60 | 冲击油 Oil of Impact | 750 | 5,000 |
-| 61–65 | 锐化油 Oil of Sharpness | 每次涂抹 100 | 每次涂抹 1,000 |
+| 61–65 | 锐锋之油 Oil of Sharpness | 每次涂抹 100 | 每次涂抹 1,000 |
 | 66–70 | 永恒油 Oil of Timelessness | 500 | 2,000 |
 | 71–75 | 美貌媚药 Philter of Beauty | 250 | 1,500 |
 | 76–80 | 巧言媚药 Philter of Glibness | 500 | 2,500 |

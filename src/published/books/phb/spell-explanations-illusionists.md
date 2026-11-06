@@ -1,6 +1,6 @@
 ## 幻术师法术说明 Notes Regarding Illusionist Spells
 
-幻术师法术少于魔法师法术，且有部分重复。七环法术表包含所有一环魔法师法术，其中若干法术被视为一个七环法术。幻术师的幻象会随等级提升而逐渐强大，幻影也会获得某种实体；幻术师使用的其他类型法术同样威力强大（参见幻象杀手、幻影塑形术、棱彩喷射术）。
+幻术师法术少于魔法师法术，且有部分重复。七环法术表包含所有一环魔法师法术，其中若干法术被视为一个七环法术。幻术师的幻象会随等级提升而逐渐强大，幻影也会获得某种实体；幻术师使用的其他类型法术同样威力强大（参见魅影杀手、幻影塑形术、虹光喷射）。
 
 部分幻术师法术没有言语（V）成分，而且通常比其他职业的法术需要更少材料成分。显著的例外是观视术，它需要大量材料。
 
@@ -34,7 +34,7 @@
 
 此术可改变幻术师的外貌，包括衣物与装备，使其看起来矮或高1尺、胖或瘦，也可变成任何大致呈人形的双足生物，包括人类或类人生物。法术基础持续时间为2至12（2d6）轮，另加施法者每级2轮。
 
-### *彩色喷射 Color Spray*（变化系 Alteration）
+### *七彩喷射 Color Spray*（变化系 Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>
@@ -46,7 +46,7 @@
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
-施放此术时，幻术师会从手中喷出一道扇形的鲜艳冲突色彩。影响范围内可有1至6个生物受影响；施法者每级可影响总计1级或1生命骰的生物。等级或生命骰不高于施法者的生物会昏迷2至8轮；高出施法者1或2级／生命骰的生物会目盲1至4轮；高出施法者3级／生命骰或更多的生物会被震慑2至8段（参见魔法师七环律令：震慑）。所有等级高于施法者的生物，以及所有6级或6生命骰的生物，均可进行对抗彩色喷射的豁免检定。材料成分是少许红、黄、蓝三色粉末或沙粒。
+施放此术时，幻术师会从手中喷出一道扇形的鲜艳冲突色彩。影响范围内可有1至6个生物受影响；施法者每级可影响总计1级或1生命骰的生物。等级或生命骰不高于施法者的生物会昏迷2至8轮；高出施法者1或2级／生命骰的生物会目盲1至4轮；高出施法者3级／生命骰或更多的生物会被震慑2至8段（参见魔法师七环律令：震慑）。所有等级高于施法者的生物，以及所有6级或6生命骰的生物，均可进行对抗七彩喷射的豁免检定。材料成分是少许红、黄、蓝三色粉末或沙粒。
 
 ### *舞光术 Dancing Lights*（变化系 Alteration）
 
@@ -146,7 +146,7 @@
 
 此术与魔法师一环光亮术相同（另见牧师一环光亮术）。
 
-### *幻象力场 Phantasmal Force*（幻象系 Illusion/Phantasm）
+### *魅影之力 Phantasmal Force*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>
@@ -158,7 +158,7 @@
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
-除上述数据外，此术与魔法师三环幻象力场相同。
+除上述数据外，此术与魔法师三环魅影之力相同。
 
 ### *雾墙术 Wall of Fog*（变化系 Alteration）
 
@@ -272,7 +272,7 @@
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
-除以下差异外，此术与魔法师三环幻象力场相同：幻术师只需最低限度地专注，便可维持幻象；专注期间可按正常速度一半移动，但不能施放其他法术。幻象还会包含一些轻微声音，但不包括可理解的言语。即使幻术师停止专注，只要仍专注于幻象形态，此术还会持续2轮。
+除以下差异外，此术与魔法师三环魅影之力相同：幻术师只需最低限度地专注，便可维持幻象；专注期间可按正常速度一半移动，但不能施放其他法术。幻象还会包含一些轻微声音，但不包括可理解的言语。即使幻术师停止专注，只要仍专注于幻象形态，此术还会持续2轮。
 
 ### *隐形术 Invisibility*（幻象系 Illusion/Phantasm）
 
@@ -386,7 +386,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-此术可解除非幻术师施放的任何幻象力场，无论其是否附带声音幻象。若要解除另一名幻术师施放的幻象／幻影系法术，成功率与解除魔法术相同：基础成功率为50%；若解除者等级较低，每低一级成功率下调2%；若等级较高，每高一级成功率上调5%。
+此术可解除非幻术师施放的任何魅影之力，无论其是否附带声音幻象。若要解除另一名幻术师施放的幻象／幻影系法术，成功率与解除魔法术相同：基础成功率为50%；若解除者等级较低，每低一级成功率下调2%；若等级较高，每高一级成功率上调5%。
 
 ### *恐惧术 Fear*（幻象系 Illusion/Phantasm）
 
@@ -402,7 +402,7 @@
 
 除上述数据外，此术与魔法师四环恐惧术相同。
 
-### *幻景地形 Hallucinatory Terrain*（幻象系 Illusion/Phantasm）
+### *幻景 Hallucinatory Terrain*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -414,7 +414,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-除上述数据外，此术与魔法师四环幻景地形术相同。
+除上述数据外，此术与魔法师四环幻景术相同。
 
 ### *幻文术 Illusionary Script*（幻象系 Illusion/Phantasm）
 
@@ -733,7 +733,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-幻术师会创造一道门的幻象，并可假装穿门而过、消失；实际上，他只是迅速闪到一旁，随后可在法术持续期间完全隐形逃走。旁观者会受骗：若他们打开这扇“门”，便会看见一间空荡荡的10尺 × 10尺房间。只有真实视觉术、观视宝石或类似魔法手段才能发现幻术师。
+幻术师会创造一道门的幻象，并可假装穿门而过、消失；实际上，他只是迅速闪到一旁，随后可在法术持续期间完全隐形逃走。旁观者会受骗：若他们打开这扇“门”，便会看见一间空荡荡的10尺 × 10尺房间。只有真实视觉术、真视宝石或类似魔法手段才能发现幻术师。
 
 ### *阴影魔法 Shadow Magic*（幻象系 Illusion/Phantasm）
 
@@ -765,7 +765,7 @@
 
 ## 六环法术 Sixth-Level Spells
 
-### *召唤动物 Conjure Animals*（咒法／召唤系 Conjuration/Summoning）
+### *咒唤兽群 Conjure Animals*（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>6<br>
@@ -821,7 +821,7 @@
 
 此术创造一个持久的幽灵之力，不需要施法者专注维持。当然，它仍可被解除魔法术解除。
 
-### *程序幻象 Programmed Illusion*（幻象系 Illusion/Phantasm）
+### *预置幻影 Programmed Illusion*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>6<br>
@@ -863,7 +863,7 @@
 
 此术与牧师五环真实视觉术十分相似，但能使幻术师看见事物的真实或原有形态，却不能确定其阵营。
 
-### *迷幕术 Veil*（幻象系 Illusion/Phantasm）
+### *隐匿之纱 Veil*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>6<br>
@@ -875,7 +875,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-此术使幻术师能立刻改变周围环境及／或队伍的外观，也可以创造幻景地形，使最聪明的生物也受骗；除非它们拥有真实视觉术、真实视觉、观视宝石或类似魔法辅助。它可以让华丽房间看起来像肮脏窝棚，触摸也会符合视觉幻象。若创造的是幻景地形，触摸不会令其消失。
+此术使幻术师能立刻改变周围环境及／或队伍的外观，也可以创造幻景，使最聪明的生物也受骗；除非它们拥有真实视觉术、真实视觉、真视宝石或类似魔法辅助。它可以让华丽房间看起来像肮脏窝棚，触摸也会符合视觉幻象。若创造的是幻景，触摸不会令其消失。
 
 ## 七环法术 Seventh-Level Spells
 
@@ -891,7 +891,7 @@
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
-此术类似魔法师七环有限祈愿术。为使魔法完全生效，幻术师必须先施展幽灵之力，并以有限形式描述现实将如何改变，然后法术才会启动。
+此术类似魔法师七环有限许愿术术。为使魔法完全生效，幻术师必须先施展幽灵之力，并以有限形式描述现实将如何改变，然后法术才会启动。
 
 ### *星界法术 Astral Spell*（变化系 Alteration）
 
@@ -907,7 +907,7 @@
 
 此术与牧师七环星界法术相同。
 
-### *棱彩喷射术 Prismatic Spray*（防护系 Abjuration；咒法／召唤系 Conjuration/Summoning）
+### *虹光喷射 Prismatic Spray*（防护系 Abjuration；咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -934,7 +934,7 @@
 
 仅当对应颜色光线的效果允许豁免时，才进行豁免检定。
 
-### *棱彩之墙 Prismatic Wall*（防护系 Abjuration；咒法／召唤系 Conjuration/Summoning）
+### *虹光法墙 Prismatic Wall*（防护系 Abjuration；咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -978,13 +978,13 @@
 
 | 可选法术 | 可选法术 |
 |:---:|:---:|
-| 正常火焰术 Affect Normal Fires | 修补术 Mending |
+| 正常火焰术 Affect Normal Fires | 修复术 Mending |
 | 燃烧之手 Burning Hands | 传讯术 Message |
-| 魅惑人类术 Charm Person | 诺斯特鲁魔法灵光术 Nystul's Magic Aura |
+| 魅惑类人术 Charm Person | 诺斯特鲁魔法灵光术 Nystul's Magic Aura |
 | 通晓语言术 Comprehend Languages | 防护邪恶术 Protection from Evil |
 | 扩大术 Enlarge | 阅读魔法术 Read Magic |
 | 抹消术 Erase | 护盾术 Shield |
-| 羽落术 Feather Fall | 电爪术 Shocking Grasp |
+| 羽落术 Feather Fall | 电爪 Shocking Grasp |
 | 交友术 Friends | 睡眠术 Sleep |
 | 止门术 Hold Portal | 谭森浮碟术 Tenser's Floating Disc |
-| 魔法飞弹术 Magic Missile | 无形仆役术 Unseen Servant |
+| 魔法飞弹术 Magic Missile | 隐形仆役术 Unseen Servant |

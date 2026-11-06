@@ -21,7 +21,7 @@
 | 12 | 兽人 | Orc | MM1 | 7–12 |
 | 13 | 巨鼠 | Rat, Giant | MM1 | 5–20 |
 | 14 | 狗头人 | Kobold | MM1 | 6–17 |
-| 15 | 穿刺怪 | Piercer | MM1 | 1–4 |
+| 15 | 石锥怪 | Piercer | MM1 | 1–4 |
 | 16 | 骷髅 | Skeleton | MM1 | 1–4 |
 | 17 | 诺克地精 | Norker | FF | 2–8 |
 | 18 | 秃鹫人 | Vulchling | MM2 | 2–12 |
@@ -32,7 +32,7 @@
 
 | 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
 | --- | --- | --- | --- | --- |
-| 2 | 火矮灵 | Azer | MM2 | 1–6 |
+| 2 | 火矮人 | Azer | MM2 | 1–6 |
 | 3 | 灰矮人 | Duergar | MM2 | 2–12 |
 | 4 | 棺尸 | Coffer Corpse | FF | 1 |
 | 5 | 气孢 | Gas Spore | MM1 | 1 |
@@ -44,10 +44,10 @@
 | 11 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
 | 12 | 战蜥人 | Troglodyte | MM1 | 2–8 |
 | 13 | 超大型蜈蚣 | Centipede, Huge | MM2 | 3–18 |
-| 14 | 石盲蛮族 | Grimlock | FF | 2–12 |
+| 14 | 幽邃盲族 | Grimlock | FF | 2–12 |
 | 15 | 蚊蝠 | Stirge | MM1 | 5–15 |
 | 16 | 杂种人 | Mongrelman | MM2 | 2–12 |
-| 17 | 地底兽人 | Quaggoth | FF | 4–10 |
+| 17 | 幽邃熊怪 | Quaggoth | FF | 4–10 |
 | 18 | 超大型无尾鞭蝎 | Pedipalp, Huge | MM2 | 2–8 |
 | 19 | 杀手蛙 | Frog, Killer | MM1 | 2–7 |
 | 20 | 火蝠 | Firebat | MM2 | 1–4 |
@@ -60,7 +60,7 @@
 | 3 | 火魔蝠或烟魔蝠 | Mephit, Fire or Smoke | FF | 1–3 |
 | 4 | 幻影 | Phantom | MM2 | 1 |
 | 5 | 掘地虫（4–5 HD） | Ankheg, 4–5 HD | MM1 | 1–3 |
-| 6 | 赭色胶怪 | Ochre Jelly | MM1 | 1 |
+| 6 | 赭果冻 | Ochre Jelly | MM1 | 1 |
 | 7 | 鸦人 | Kenku | FF | 2–8 |
 | 8 | 食运兽 | Luck Eater | MM2 | 1 |
 | 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
@@ -69,20 +69,20 @@
 | 12 | 大型蜘蛛 | Spider, Large | MM1 | 1–4 |
 | 13 | 大型蝎子 | Scorpion, Large | MM2 | 1–4 |
 | 14 | 熊地精 | Bugbear | MM1 | 2–7 |
-| 15 | 胶质立方体 | Gelatinous Cube | MM1 | 1 |
+| 15 | 凝胶方块 | Gelatinous Cube | MM1 | 1 |
 | 16 | 乌斯提拉戈 | Ustilagor | MM2 | 1–3 |
 | 17 | 电击怪 | Shocker | FF | 1–3 |
 | 18 | 巨型鼬 | Weasel, Giant | MM1 | 1–4 |
 | 19 | 熔岩虫 | Thoqqua | FF | 1–2 |
-| 20 | 卓尔精灵 | Elf, Drow | FF | 2–8 |
+| 20 | 卓尔 | Elf, Drow | FF | 2–8 |
 
 ## 地下城等级 IV
 
 | 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
 | --- | --- | --- | --- | --- |
 | 2 | 熔岩之子 | Lava Children | FF | 1–6 |
-| 3 | 恐惧之锁 | Meenlock | FF | 2–5 |
-| 4 | 钩爪恐兽 | Hook Horror | FF | 2–5 |
+| 3 | 凌弱怪 | Meenlock | FF | 2–5 |
+| 4 | 恐爪怪 | Hook Horror | FF | 2–5 |
 | 5 | 佩奇土灵 | Pech | MM2 | 3–12 |
 | 6 | 枭熊 | Owlbear | MM1 | 1–2 |
 | 7 | 锈蚀怪 | Rust Monster | MM1 | 1–2 |
@@ -93,11 +93,11 @@
 | 12 | 毒蟾蜍 | Toad, Poisonous | MM1 | 1–4 |
 | 13 | 石像鬼 | Gargoyle | MM1 | 1–2 |
 | 14 | 巨型胡蜂 | Hornet, Giant | FF | 1–2 |
-| 15 | 九头蛇（5–6 头） | Hydra, 5–6 heads | MM1 | 1 |
+| 15 | 多头蛇（5–6 头） | Hydra, 5–6 heads | MM1 | 1 |
 | 16 | 妖鬼 | Ghast | MM1 | 1–4 |
 | 17 | 夜嚎兽 | Caterwaul | FF | 1 |
 | 18 | 巨型避日蛛 | Solifugid, Giant | MM2 | 1–4 |
-| 19 | 眼魔监视者 | Spectator | MM2 | 1 |
+| 19 | 观察者眼魔 | Spectator | MM2 | 1 |
 | 20 | 吉斯洋基人 | Githyanki | FF | 1–4 |
 
 ## 地下城等级 V
@@ -105,24 +105,24 @@
 | 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
 | --- | --- | --- | --- | --- |
 | 2 | 土惧灵 | Grue, Chaggrin | MM2 | 1 |
-| 3 | 蛰伏伪怪 | Cloaker | MM2 | 1 |
+| 3 | 斗篷怪 | Cloaker | MM2 | 1 |
 | 4 | 藻人 | Algoid | FF | 1–2 |
 | 5 | 藻菌怪 | Phycomid | MM2 | 1–4 |
-| 6 | 牛头怪 | Minotaur | MM1 | 1–3 |
+| 6 | 牛头人 | Minotaur | MM1 | 1–3 |
 | 7 | 巨型毒蛇 | Snake, Giant Poisonous | MM2 | 1–3 |
 | 8 | 地底蜥蜴 | Lizard, Subterranean | MM1 | 1–3 |
 | 9 | 穴熊 | Bear, Cave | MM1 | 1–2 |
 | 10 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
 | 11 | 鸡蛇 | Cockatrice | MM1 | 1–2 |
-| 12 | 巨型蜘蛛 | Spider, Giant | MM1 | 1–4 |
+| 12 | 巨蜘蛛 | Spider, Giant | MM1 | 1–4 |
 | 13 | 维比格巨人 | Giant, Verbeeg | MM2 | 2–5 |
-| 14 | 九头蛇（7 头） | Hydra, 7 Heads | MM1 | 1 |
+| 14 | 多头蛇（7 头） | Hydra, 7 Heads | MM1 | 1 |
 | 15 | 毒蛇 | Snake, Poisonous | MM2 | 2–5 |
 | 16 | 岩像鬼 | Margoyle | MM2 | 1–2 |
 | 17 | 岩石爬兽 | Rock Reptile | MM2 | 1–2 |
 | 18 | 变形怪 | Doppelganger | MM1 | 1–3 |
 | 19 | 巨型避日蛛 | Solifugid, Giant | MM2 | 1–3 |
-| 20 | 火九头蛇（5 头） | Hydra, Pyro-, 5 heads | MM1 | 1 |
+| 20 | 火多头蛇（5 头） | Hydra, Pyro-, 5 heads | MM1 | 1 |
 
 ## 地下城等级 VI
 
@@ -132,21 +132,21 @@
 | 3 | 罗刹 | Rakshasa | MM1 | 1 |
 | 4 | 绿泥 | Green Slime | MM1 | 1 |
 | 5 | 石化蜥蜴 | Basilisk | MM1 | 1 |
-| 6 | 格瑞尔 | Grell | FF | 1 |
+| 6 | 触须怪 | Grell | FF | 1 |
 | 7 | 食腐伪怪 | Otyugh | MM1 | 1 |
 | 8 | 飞龙 | Wyvern | MM1 | 1 |
 | 9 | 缚灵 | Wraith | MM1 | 1–2 |
 | 10 | 尸妖 | Wight | MM1 | 1–4 |
 | 11 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
 | 12 | 伪缚灵 | Pseudowraith | MM2 | 1–2 |
-| 13 | 腐尸爬行者 | Carrion Crawler | MM1 | 1–2 |
+| 13 | 食腐虫 | Carrion Crawler | MM1 | 1–2 |
 | 14 | 巨蝎 | Scorpion, Giant | MM1 | 1–2 |
 | 15 | 巨魔 | Troll | MM1 | 1–3 |
 | 16 | 阿比沙魔 | Devil, Abishai | MM2 | 1–2 |
 | 17 | 老年黑龙 | Dragon, Black, Old | MM1 | 1 |
 | 18 | 食人魔法师 | Ogre Mage | MM1 | 1–2 |
 | 19 | 渊地蛇人 | Yuan-ti | MM2 | 1–3 |
-| 20 | 红史拉蟾 | Slaad, Red | FF | 1 |
+| 20 | 史拉红蟾 | Slaad, Red | FF | 1 |
 
 ## 地下城等级 VII
 
@@ -154,8 +154,8 @@
 | --- | --- | --- | --- | --- |
 | 2 | 土巨灵 | Dao | MM2 | 1 |
 | 3 | 高等石化蜥蜴 | Basilisk, Greater | MM2 | 1 |
-| 4 | 土巨怪 | Umber Hulk | MM1 | 1 |
-| 5 | 拟态怪 | Mimic | MM1 | 1 |
+| 4 | 掘土巨怪 | Umber Hulk | MM1 | 1 |
+| 5 | 拟身怪 | Mimic | MM1 | 1 |
 | 6 | 奇美拉 | Chimera | MM1 | 1 |
 | 7 | 穹顶潜伏怪 | Lurker Above | MM1 | 1 |
 | 8 | 霜巨人或火巨人 | Giant, Frost or Fire | MM1 | 1–3 |
@@ -184,11 +184,11 @@
 | 7 | 致命褐布丁怪 | Pudding, Deadly Brown | MM2 | 1 |
 | 8 | 阿鲁魔 | Demon, Alu- | MM2 | 1–2 |
 | 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
-| 10 | 九头蛇（13–16 头） | Hydra, 13–16 heads | MM1 | 1 |
+| 10 | 多头蛇（13–16 头） | Hydra, 13–16 heads | MM1 | 1 |
 | 11 | 伪不死生物：吸血鬼型 | Pseudo-undead, Vampire | MM2 | 1–2 |
 | 12 | 锈蚀怪 | Rust Monster | MM1 | 1–2 |
 | 13 | 鬼火 | Will-o-wisp | MM1 | 1 |
-| 14 | 伏地伪怪 | Trapper | MM1 | 1 |
+| 14 | 诱陷者 | Trapper | MM1 | 1 |
 | 15 | V 型恶魔 | Demon, Type V | MM1 | 1 |
 | 16 | 紫虫 | Purple Worm | MM1 | 1 |
 | 17 | 幽灵 | Ghost | MM1 | 1 |
@@ -204,7 +204,7 @@
 | 3 | 摩纳迪克天使 | Deva, Monadic | MM2 | 1 |
 | 4 | 深狱炼魔 | Devil, Pit Fiend | MM1 | 1 |
 | 5 | 远古红龙 | Dragon, Red, AN | MM1 | 1 |
-| 6 | 火九头蛇（12 头） | Hydra, Pyro-, 12 heads | MM1 | 1 |
+| 6 | 火多头蛇（12 头） | Hydra, Pyro-, 12 heads | MM1 | 1 |
 | 7 | 灰史拉蟾 | Slaad, Grey | FF | 1 |
 | 8 | 次等泰坦 | Titan, Minor | MM1 | 1 |
 | 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
@@ -227,12 +227,12 @@
 | 2 | 恶魔王子 | Demon Prince | ALL | ＊ |
 | 3 | 邪恶元素王子 | Elemental Prince of Evil | FF | ＊ |
 | 4 | 四阶魔冢 | Modron, Quarton | MM2 | 1 |
-| 5 | 塔拉斯克巨兽 | Tarrasque | MM2 | 1 |
+| 5 | 泰拉斯奎 | Tarrasque | MM2 | 1 |
 | 6 | 红龙（远古、极老） | Dragon, Red, AN, VO | MM1 | 2 |
 | 7 | 蓝龙（远古、极老） | Dragon, Blue, AN, VO | MM1 | 2 |
-| 8 | 炽天使 | Solar | MM2 | 1 |
+| 8 | 炽天神侍 | Solar | MM2 | 1 |
 | 9 | 铁魔像 | Golem, Iron | MM1 | 1 |
-| 10 | 行星天使 | Planetar | MM2 | 1 |
+| 10 | 异界神侍 | Planetar | MM2 | 1 |
 | 11 | 死史拉蟾 | Slaad, Death | FF | 1 |
 | 12 | 眼魔 | Beholder | MM1 | 1 |
 | 13 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |

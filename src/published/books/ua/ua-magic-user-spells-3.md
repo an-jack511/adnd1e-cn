@@ -58,7 +58,7 @@
 
 造出寻常的<strong>原始、未经加工材料</strong>，如石、土、木；水、空气、粪、稻草等其他无生命物质也可造出。尝试造出草地之类简单植物时，基础失败率为 <strong>100%</strong>，每施法者等级降低 <strong>1 个百分点</strong>。绝不能造出动物生命，也不能造出加工、精炼、制造完成的物品，或高价值宝石、贵金属。本术只创造普通而基本的事物。
 
-## 梅尔夫的微型流星 Melf's Minute Meteors（塑能／变化系 Evocation/Alteration）
+## 马友夫微流星 Melf's Minute Meteors（塑能／变化系 Evocation/Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -78,7 +78,7 @@
 
 若施法者不能准确记住尚余几枚流星，也表示其已不由自主地放弃剩余部分。材料成分是用松焦油将硝石、硫黄调成的小珠，以及一支精制的微型中空金管。金管因精细工艺和魔法刻纹，制作费至少 <strong>1,000 金币</strong>，但只要不受损，便可反复施展此术。
 
-## 密页术 Secret Page（变化系 Alteration）
+## 秘密文页 Secret Page（变化系 Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -93,7 +93,7 @@
 
 原施法者只须说出命令词便能暂时显示真页、阅读后再恢复伪装；连续说出命令词两遍则永久移除此术。别人若察觉页面上的微弱魔法，可尝试*解除魔法*，但若解除失败，页面会被毁坏。若不使用*解除魔法*，除*改变现实*、*祈愿术*外，只有鬼火或恶作剧精的精华能揭示真页。材料成分是磨碎的鲱鱼鳞片。
 
-## 褐蛇符印 Sepia Snake Sigil（咒法／召唤系 Conjuration/Summoning）
+## 蛇纹法印 Sepia Snake Sigil（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>

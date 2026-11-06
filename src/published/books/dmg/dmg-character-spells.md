@@ -30,15 +30,15 @@
 
 | 掷骰 | 攻击法术 Offensive Spells | 防御法术 Defensive Spells | 杂项法术 Miscellaneous Spells |
 |:---:|:---:|:---:|:---:|
-| 1 | 燃烧之手 Burning Hands | 影响常规火焰 Affect Normal Fires | 理解语言 Comprehend Languages |
-| 2 | 魅惑人类 Charm Person | 舞光术 Dancing Lights | 侦测魔法 Detect Magic |
+| 1 | 燃烧之手 Burning Hands | 影响常规火焰 Affect Normal Fires | 通晓语言 Comprehend Languages |
+| 2 | 魅惑类人 Charm Person | 舞光术 Dancing Lights | 侦测魔法 Detect Magic |
 | 3 | 扩大术 Enlarge | 羽落术 Feather Fall | 抹消术 Erase |
-| 4 | 友谊术 Friends | 闩门术 Hold Portal | 寻找魔宠 Find Familiar |
+| 4 | 交友术 Friends | 闩门术 Hold Portal | 寻找魔宠 Find Familiar |
 | 5 | 光亮术 Light | 跳跃术 Jump | 鉴定术 Identify |
 | 6 | 魔法飞弹 Magic Missile | 防护邪恶 Protection from Evil | 修复术 Mending |
 | 7 | 推力术 Push | 护盾术 Shield | 传讯术 Message |
-| 8 | 电爪术 Shocking Grasp | 蜘蛛攀爬 Spider Climb | 无形仆役 Unseen Servant |
-| 9 | 睡眠术 Sleep | 口技术 Ventriloquism | 书写术 Write |
+| 8 | 电爪 Shocking Grasp | 蜘蛛攀爬 Spider Climb | 隐形仆役 Unseen Servant |
+| 9 | 睡眠术 Sleep | 腹语术 Ventriloquism | 书写术 Write |
 | 0 | 自选 | 自选 | 自选 |
 
 由玩家自行作出上述选择。注意：<strong>诺斯托的魔法灵光术</strong>与<strong>谭森浮碟术</strong>必须由角色自行找到，初始时绝不可能已知。如果战役难度特别高，DM 可以自动允许角色获得这些法术。DM 还可以额外让角色选择一个防御法术或杂项法术，使其初始拥有 <strong>5 个法术</strong>。
@@ -57,7 +57,7 @@
 
 优秀的玩家当然会彼此合作，因此玩家角色魔法师之间很可能会交换法术。无需采取特别措施阻止这种交换——但 DM 绝不应主动建议或鼓励这种合作。DM 应对此置之不理。玩家角色与 NPC 随从或受雇者交易则完全不同：NPC 受雇者或随从绝不会免费与玩家角色合作，即使对方是自己的主人也不例外。关于 DM 如何管理随从与受雇者，另有专门章节说明。一般而言，他们会要求交换物价值相当，并额外索取报酬；若愿意与其他玩家角色或 NPC 交易，索价则会翻倍，并附加相当可观的报酬。
 
-例如，10 级领主奥拉夫·蓝腮雇用的魔法师蒂格鲁·索尔基森会“暗示术”。他的同伴、亡灵法师哈尔夫丹想把此法术抄入自己的三环法术书。若奥拉夫同意，哈尔夫丹可以去找蒂格鲁商量。如果哈尔夫丹平日对魔法师至少还算客气，蒂格鲁可能只要求以一个三环法术交换，再加另一个法术，以及一件小型魔法物品，例如三瓶药水、一卷记载三个法术的卷轴，或一枚隐形戒指。若哈尔夫丹曾侮辱过他，代价就会更高；但若哈尔夫丹曾救过蒂格鲁的性命，蒂格鲁也许只要求交换一个法术，再加一瓶药水或一卷记载一个法术的卷轴。
+例如，10 级领主奥拉夫·蓝腮雇用的魔法师蒂格鲁·索尔基森会“暗示术”。他的同伴、亡灵法师哈尔夫丹想把此法术抄入自己的三环法术书。若奥拉夫同意，哈尔夫丹可以去找蒂格鲁商量。如果哈尔夫丹平日对魔法师至少还算客气，蒂格鲁可能只要求以一个三环法术交换，再加另一个法术，以及一件小型魔法物品，例如三瓶药水、一卷记载三个法术的卷轴，或一枚隐身戒指。若哈尔夫丹曾侮辱过他，代价就会更高；但若哈尔夫丹曾救过蒂格鲁的性命，蒂格鲁也许只要求交换一个法术，再加一瓶药水或一卷记载一个法术的卷轴。
 
 随从或受雇者的个性自然会影响交易条件。特别贪婪的 NPC 还会索要更多魔法物品和／或金币。优秀的 DM 会充分塑造每位随从与受雇者的性格，因此这类判断并不困难。
 

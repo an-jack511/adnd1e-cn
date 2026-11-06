@@ -535,7 +535,7 @@
 - <strong>烈风、飓风、龙卷风、雾、沙尘暴</strong>：环境影响、自然危害、天气附录。
 - <strong>温度</strong>：实际温度、有效温度、个人温度分别见“什么是荒野生存指南？、天气与穿着、环境影响、天气附录”。
 - <strong>水</strong>：找水、饮水需求、净化、沙漠水源、地下水、降水收集分别见食物与水、天气附录。
-- <strong>魔法</strong>：防护普通飞弹、控制天气、创水、蛛网、石肤等特殊户外用法见荒野中的魔法。
+- <strong>魔法</strong>：防护普通飞弹、操控天气、创水、蛛网、石肤等特殊户外用法见荒野中的魔法。
 - <strong>地图</strong>：世界地图比例见地下城主部分；天气系统的气候区域见附录。
 
 封底信息：<strong>Official Advanced Dungeons & Dragons Wilderness Survival Guide</strong>，作者 Kim Mohan。书号 `0-88038-291-0`，定价 `$15.00`；出版方 TSR, Inc.（Lake Geneva, Wisconsin）及 TSR UK Ltd.（Cambridge, United Kingdom）。

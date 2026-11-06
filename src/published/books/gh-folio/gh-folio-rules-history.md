@@ -81,7 +81,7 @@
 
 | 通用名 | 精灵名 | 游牧民名 | 季节 |
 | --- | --- | --- | --- |
-| 火寻 Fireseek | 钻冰 Diamondice | 虎 Tiger | 冬 |
+| 火寻 Fireseek | 钻冰 Diamondice | 老虎 Tiger | 冬 |
 | 春醒 Readying | 柳黄 Yellowillow | 熊 Bear | 春 |
 | 冷临 Coldeven | 雪花 Snowflowers | 狮 Lion | 春 |
 | <strong>春祭 Growfest</strong> |  |  |  |

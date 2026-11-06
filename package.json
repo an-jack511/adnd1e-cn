@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "tsx scripts/import/library-index.ts && tsx scripts/validate-data.ts",
+    "prebuild": "tsx scripts/import/library-index.ts && tsx scripts/validate-data.ts && tsx scripts/terminology/check.ts",
     "build": "astro build",
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
@@ -15,9 +15,13 @@
     "test:ref2": "tsx scripts/test-ref2-card.ts && tsx scripts/test-weapon-card.ts",
     "test:character": "tsx scripts/test-character-suite.ts",
     "check:character-release": "tsx scripts/check-character-release.ts",
-    "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/import/library-index.ts",
+    "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",
     "test:library": "tsx scripts/test-library.ts",
-    "import:regional": "tsx scripts/import/regional-baseline.ts && python scripts/import/normalize-spell-layout.py && node scripts/import/scan-regional-sources.mjs && python scripts/import/regional-library.py && tsx scripts/import/library-index.ts"
+    "import:regional": "tsx scripts/import/regional-baseline.ts && python scripts/import/normalize-spell-layout.py && node scripts/import/scan-regional-sources.mjs && python scripts/import/regional-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",
+    "terminology:fetch": "python scripts/terminology/fetch-references.py",
+    "terminology:audit": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --check --export-parent",
+    "terminology:apply": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply --export-parent && tsx scripts/import/library-index.ts",
+    "test:terminology": "tsx scripts/terminology/check.ts"
   },
   "dependencies": {
     "astro": "5.15.5",

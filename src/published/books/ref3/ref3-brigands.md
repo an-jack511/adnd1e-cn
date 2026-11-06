@@ -33,7 +33,7 @@
 
 <strong>匪徒首领（1）：</strong> AC -1（+2 板甲、+1 盾）；移动 12"；HD 9；hp 55；#AT 3/2；伤害 1d8+6（力量 18/76、+2 剑）；THAC0 8；AL CE。
 
-匪徒还俘虏了两名牧师，强迫他们为匪徒服务；高级牧师用死者施放死者复生术制造了 30 具僵尸。
+匪徒还俘虏了两名牧师，强迫他们为匪徒服务；高级牧师用死者施放活化死尸术制造了 30 具僵尸。
 
 <strong>牧师（0 级）：</strong> AC 8；移动 12"；HD 0；hp 4；法术：Bless、Cure Light Wounds×4、Slow Poison×5、Animate Dead×2。<strong>牧师（3 级）：</strong> WS 12；AC 2；移动 12"；HD 3；hp 15；无攻击；法术：Cure Light Wounds×2、Slow Poison。<strong>僵尸（30）：</strong> AC 8；移动 6"；HD 2；hp 12；#AT 1；伤害 1d8；THAC0 16；AL N。
 

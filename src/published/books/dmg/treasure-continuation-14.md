@@ -2,7 +2,7 @@
 
 这件衣物散发魔法灵光。角色一旦穿上，智力便降至 <strong>3</strong>，忘却所有法术与魔法知识，力量也降至 <strong>3</strong>。长袍可以轻易脱下，但要恢复身心，必须先对角色施展“移除诅咒术”，再施展“治愈术”。
 
-#### 炫彩长袍 Robe of Scintillating Colors
+#### 虹光法袍 Robe of Scintillating Colors
 
 这件长袍看起来十分普通，但能检测到魔法灵光。穿戴者的智力必须达到 <strong>15</strong>，且感知至少为 <strong>13</strong>，才能令长袍生效。满足条件后，穿戴者可以使长袍变成不断流动的绚丽色彩：不同颜色如闪耀的彩虹般从肩部倾泻至下摆。长袍照亮半径 <strong>40'</strong>的区域，同时能催眠敌人，使其无法攻击穿戴者。
 
@@ -10,7 +10,7 @@
 
 在非战斗情况下，未通过对抗魔法豁免检定的生物只会被催眠 <strong>2–5 轮</strong>。
 
-#### 实用长袍 Robe of Useful Items
+#### 杂货法袍 Robe of Useful Items
 
 这件衣物外观平平无奇，但魔法师穿上后会发现袍面缝着各种形状的布贴。只有穿戴者看得见、认得出并能取下布贴；取下任意一块需要 <strong>1 轮</strong>。布贴随即变成对应的真实物品。每件长袍必定有以下布贴各 <strong>2 块</strong>：
 
@@ -51,17 +51,17 @@
 
 #### 绞缠绳 Rope of Constriction
 
-这根绳子看起来与攀爬绳或缠缚绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 <strong>10'</strong>范围内另有 <strong>1–4 人</strong>（每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。绳子每轮造成 <strong>2–12 点伤害</strong>，直到有人对其施展“解除魔法”才会松开。被绳子缠住的生物不能施法，也无法以任何方式自行脱困。
+这根绳子看起来与攀爬绳或纠缠绳相同，但一旦被命令执行某种动作，便会缠住持绳角色的脖子，并缠住受害者 <strong>10'</strong>范围内另有 <strong>1–4 人</strong>（每人均可进行对抗魔法的豁免检定），将他们勒紧并挤压。绳子每轮造成 <strong>2–12 点伤害</strong>，直到有人对其施展“解除魔法”才会松开。被绳子缠住的生物不能施法，也无法以任何方式自行脱困。
 
 绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能将其砍断；这些伤害必须由同一个生物造成，且不能是被缠住的目标。
 
-#### 缠缚绳 Rope of Entanglement
+#### 纠缠绳 Rope of Entanglement
 
-缠缚绳外观与其他魔法绳完全相同。根据命令，它会向前抽出 <strong>20'</strong>，或向上抽出 <strong>10'</strong>，缠住并捆牢最多 <strong>8 个类人生物大小</strong>的生物。可缠住的体型数量按下列等价关系计算：
+纠缠绳外观与其他魔法绳完全相同。根据命令，它会向前抽出 <strong>20'</strong>，或向上抽出 <strong>10'</strong>，缠住并捆牢最多 <strong>8 个类人生物大小</strong>的生物。可缠住的体型数量按下列等价关系计算：
 
 <strong>1 名风暴巨人或火巨人 = 2 名霜巨人、石巨人或山丘巨人 = 3 名食人魔 = 4 名熊地精 = 6 名豺狼人 = 8 名人类 = 10 名精灵 = 12 名矮人 = 16 名侏儒或狗头人。</strong>
 
-绳子只需 <strong>1 segment</strong>便能射出，再用 <strong>1 segment</strong>缠住目标；发出命令也需 <strong>1 segment</strong>，整个过程共需 <strong>3 segments</strong>。不能徒手扯断缠缚绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。缠缚绳一旦被砍断便会彻底毁坏。
+绳子只需 <strong>1 segment</strong>便能射出，再用 <strong>1 segment</strong>缠住目标；发出命令也需 <strong>1 segment</strong>，整个过程共需 <strong>3 segments</strong>。不能徒手扯断纠缠绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。纠缠绳一旦被砍断便会彻底毁坏。
 
 <strong>注意：</strong>任何魔法绳一旦被破坏或割断，都会立即失去特殊能力。
 

@@ -26,7 +26,7 @@ export function checkEligibility(input: EligibilityInput, classes: ClassEntry[],
   return issues;
 }
 
-const armorBase: Record<string, number> = { '皮甲': 8, '衬甲': 8, '镶嵌皮甲': 7, '环甲': 7, '鳞甲': 6, '链甲': 5, '板条甲': 4, '带甲': 4, '板甲': 3 };
+const armorBase: Record<string, number> = { '皮甲': 8, '衬甲': 8, '镶钉皮甲': 7, '环甲': 7, '鳞甲': 6, '链甲': 5, '板条甲': 4, '带甲': 4, '板甲': 3 };
 const dexRows = abilityTables.DEX.rows;
 export function computeArmorClass(armor: Item | undefined, shield: Item | undefined, dexterity: string, manualModifier = 0): RuleResult<number> {
   const base = armor ? armorBase[armor.nameZh] : 10;
@@ -95,6 +95,6 @@ export function checkEquipment(classId: string, weapon: Item | undefined, armor:
   if (classId === 'druid' && shield && !/木/.test(shield.nameZh)) issues.push({ code: 'shield', message: '德鲁伊应使用木盾', source: 'PHB Druid' });
   const name = weapon?.nameZh.replace(/与鞘$/, '') ?? '';
   if (weapon && ['magic-user', 'illusionist'].includes(classId) && !['匕首', '飞镖', '长杖'].some((part) => name.includes(part))) issues.push({ code: 'weapon', message: `${classId === 'magic-user' ? '魔法师' : '幻术师'}不能使用${name}`, source: 'PHB 职业武器限制' });
-  if (weapon && classId === 'cleric' && !['棍棒', '连枷', '锤', '钉头锤', '长杖'].some((part) => name.includes(part))) issues.push({ code: 'weapon', message: `牧师不能使用${name}`, source: 'PHB Cleric' });
+  if (weapon && classId === 'cleric' && !['棍棒', '连枷', '锤', '硬头锤', '长杖'].some((part) => name.includes(part))) issues.push({ code: 'weapon', message: `牧师不能使用${name}`, source: 'PHB Cleric' });
   return issues;
 }

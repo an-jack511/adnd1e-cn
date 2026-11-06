@@ -71,19 +71,19 @@
 | E | 每天 <strong>1 次</strong>召唤“蠕虫末日”。 |
 | F | 每天 <strong>1 次</strong>施展相当于“死亡一指”的死亡射线，且目标不能进行豁免检定。 |
 | G | 每天 <strong>1 次</strong>施展“死亡术”，影响等级数量提高 <strong>110%–200%</strong>。 |
-| H | 每天 <strong>1 次</strong>施展必定成功的“传送门术”。 |
+| H | 每天 <strong>1 次</strong>施展必定成功的“异界之门术”。 |
 | I | 每周 <strong>1 次</strong>施展“囚禁术”。 |
 | J | 说出命令语后，持有者获得 <strong>50%–75%</strong> 魔法抗性；每天 <strong>1 次</strong>。 |
 | K | 说出命令语后，持有者的主要属性永久提高至 <strong>19</strong>。 |
 | L | 每天 <strong>1 次</strong>施展“流星爆”。 |
 | M | 每天 <strong>2 次</strong>施展“怪物召唤术 VIII”。 |
-| N | 每天 <strong>1 次</strong>施展“异界传送术”。 |
+| N | 每天 <strong>1 次</strong>施展“位面转移”。 |
 | O | 每天 <strong>1 次</strong>施展“改变任意物件形态术”。 |
 | P | 每天 <strong>1 次</strong>施展“强力言辞：目盲／杀死／震慑”。 |
 | Q | 预先感知持有者是否会死亡或受到重伤。 |
 | R | 每天 <strong>1 次</strong>施展“棱彩喷射”。 |
 | S | 每天 <strong>1 次</strong>施展“复原术”。 |
-| T | 每周 <strong>1 次</strong>施展“复活术”。 |
+| T | 每周 <strong>1 次</strong>施展“复生术”。 |
 | U | 每天 <strong>2 次</strong>施展“幻影军团术”。 |
 | V | 每天 <strong>2 次</strong>施展“变形术”。 |
 | W | 每周 <strong>1 次</strong>吸收 <strong>19–24 环</strong>法术。 |
@@ -92,7 +92,7 @@
 | Z | 施展“强效沉睡术”，影响生物数量加倍；此外，还可额外影响最多 <strong>2 个五／六级生物</strong>与 <strong>1 个七／八级生物</strong>。 |
 | AA | 每月 <strong>1 次</strong>通过触碰施展“时间静止术”，且目标不能进行豁免检定。 |
 | BB | 持有者每周 <strong>1 次</strong>可施展“传说知识术”“神谕术”或“接触高等位面术”（七至十环）。 |
-| CC | 每周 <strong>1 次</strong>施展持续时间为通常两倍的“时间停止术”。 |
+| CC | 每周 <strong>1 次</strong>施展持续时间为通常两倍的“时间停止”。 |
 | DD | 物品 <strong>20'</strong>范围内所有生物完全免疫火焰与高热。 |
 | EE | 完全免疫所有心灵与灵能攻击。 |
 | FF | 完全免疫所有寒冷效果。 |

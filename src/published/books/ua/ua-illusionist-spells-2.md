@@ -4,7 +4,7 @@
 
 以下四项依原书印刷第 67–68 页详述顺序排列。
 
-## 改变自身 Alter Self（变化／幻术系 Alteration/Illusion）
+## 变身术 Alter Self（变化／幻术系 Alteration/Illusion）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -47,7 +47,7 @@
 
 除上述等级、施法时间与持续时间等差别外，作用与[魔法师四环紫外视觉](/books/ua/ua-magic-user-spells-4/)相同。原书另指出，智力高的生物可能凭天生或魔法赋予的紫外视觉察觉隐形生物。此幻术师版本的材料成分为<strong>胡萝卜精质粉末</strong>。
 
-## 低语之风 Whispering Wind（变化／幻影系 Alteration/Phantasm）
+## 风讯术 Whispering Wind（变化／幻影系 Alteration/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -60,4 +60,4 @@
 
 可传递讯息或制造指定声响。地下传送距离以施法者等级乘 <strong>10 尺</strong>计算，地表以上则以等级乘<strong>英里</strong>计算；例如三级幻术师可在地下传 <strong>30 尺</strong>，户外传 <strong>3 英里</strong>。风在抵达指定目标前，轻柔得仿佛无人注意的微风；抵达后以低语声传讯，或发出别的声音，至多持续 <strong>2 段</strong>，随后消失。目标超出射程、施法后超过 <strong>2 小时</strong>，或法术被魔法解除时，它也会消失。
 
-风可携带最多 <strong>12 个词</strong>的讯息，或发出长达 <strong>12 秒</strong>的其他声音；也可以只发出轻微的簌簌气流声。施法者可设定其速度为每轮 <strong>1″–20″</strong>间任一数值；抵达后不论此前速度如何，都会盘旋整整 <strong>2 段</strong>。如*魔嘴术*，不能通过低语之风施展法术。
+风可携带最多 <strong>12 个词</strong>的讯息，或发出长达 <strong>12 秒</strong>的其他声音；也可以只发出轻微的簌簌气流声。施法者可设定其速度为每轮 <strong>1″–20″</strong>间任一数值；抵达后不论此前速度如何，都会盘旋整整 <strong>2 段</strong>。如*魔嘴术*，不能通过风讯术施展法术。

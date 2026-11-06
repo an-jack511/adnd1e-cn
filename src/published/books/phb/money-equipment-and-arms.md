@@ -43,7 +43,7 @@
 <TR><TD>护甲</TD><TD>小盾</TD><TD>10 g.p.</TD></TR>
 <TR><TD>护甲</TD><TD>小木盾</TD><TD>1 g.p.</TD></TR>
 <TR><TD>护甲</TD><TD>板条甲</TD><TD>80 g.p.</TD></TR>
-<TR><TD>护甲</TD><TD>镶嵌皮甲</TD><TD>15 g.p.</TD></TR>
+<TR><TD>护甲</TD><TD>镶钉皮甲</TD><TD>15 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>普通箭，单支</TD><TD>2 s.p.</TD></TR>
 <TR><TD>武器</TD><TD>普通箭，一打</TD><TD>1 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>银箭，单支</TD><TD>1 g.p.</TD></TR>
@@ -74,8 +74,8 @@
 <TR><TD>武器</TD><TD>锤</TD><TD>1 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>标枪</TD><TD>10 s.p.</TD></TR>
 <TR><TD>武器</TD><TD>骑枪</TD><TD>6 g.p.</TD></TR>
-<TR><TD>武器</TD><TD>步兵钉头锤</TD><TD>8 g.p.</TD></TR>
-<TR><TD>武器</TD><TD>骑兵钉头锤</TD><TD>4 g.p.</TD></TR>
+<TR><TD>武器</TD><TD>步兵硬头锤</TD><TD>8 g.p.</TD></TR>
+<TR><TD>武器</TD><TD>骑兵硬头锤</TD><TD>4 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>晨星</TD><TD>5 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>阔刃矛</TD><TD>10 g.p.</TD></TR>
 <TR><TD>武器</TD><TD>步兵军用镐</TD><TD>8 g.p.</TD></TR>
@@ -179,7 +179,7 @@
 <TR><TD>马具与挽具</TD><TD>链甲马铠</TD><TD>250 g.p.</TD></TR>
 <TR><TD>马具与挽具</TD><TD>皮甲马铠</TD><TD>100 g.p.</TD></TR>
 <TR><TD>马具与挽具</TD><TD>板甲马铠</TD><TD>500 g.p.</TD></TR>
-<TR><TD>马具与挽具</TD><TD>衔铁与缰绳</TD><TD>15 s.p.</TD></TR>
+<TR><TD>马具与挽具</TD><TD>辔具</TD><TD>15 s.p.</TD></TR>
 <TR><TD>马具与挽具</TD><TD>挽具</TD><TD>12 s.p.</TD></TR>
 <TR><TD>马具与挽具</TD><TD>马鞍</TD><TD>10 g.p.</TD></TR>
 <TR><TD>马具与挽具</TD><TD>大型鞍袋</TD><TD>4 g.p.</TD></TR>
@@ -188,7 +188,7 @@
 <TR><TD>运输工具</TD><TD>小型驳船（或木筏）</TD><TD>50 g.p.</TD></TR>
 <TR><TD>运输工具</TD><TD>小船</TD><TD>75 g.p.</TD></TR>
 <TR><TD>运输工具</TD><TD>长船</TD><TD>150 g.p.</TD></TR>
-<TR><TD>运输工具</TD><TD>双轮车</TD><TD>50 g.p.</TD></TR>
+<TR><TD>运输工具</TD><TD>二轮货车</TD><TD>50 g.p.</TD></TR>
 <TR><TD>运输工具</TD><TD>大型桨帆船</TD><TD>25,000 g.p.</TD></TR>
 <TR><TD>运输工具</TD><TD>小型桨帆船</TD><TD>10,000 g.p.</TD></TR>
 <TR><TD>运输工具</TD><TD>大型商船</TD><TD>15,000 g.p.</TD></TR>
@@ -212,8 +212,8 @@
 <TR><TD>无护甲</TD><TD>10</TD></TR>
 <TR><TD>仅盾牌</TD><TD>9</TD></TR>
 <TR><TD>皮甲或衬甲</TD><TD>8</TD></TR>
-<TR><TD>皮甲或衬甲＋盾／镶嵌皮甲／环甲</TD><TD>7</TD></TR>
-<TR><TD>镶嵌皮甲或环甲＋盾／鳞甲</TD><TD>6</TD></TR>
+<TR><TD>皮甲或衬甲＋盾／镶钉皮甲／环甲</TD><TD>7</TD></TR>
+<TR><TD>镶钉皮甲或环甲＋盾／鳞甲</TD><TD>6</TD></TR>
 <TR><TD>鳞甲＋盾／链甲</TD><TD>5</TD></TR>
 <TR><TD>链甲＋盾／板条甲／带甲</TD><TD>4</TD></TR>
 <TR><TD>板条甲或带甲＋盾／板甲</TD><TD>3</TD></TR>
@@ -240,7 +240,7 @@
 <TR><TD>武僧</TD><TD>1</TD><TD>&#8722;3</TD><TD>每2级1项</TD></TR>
 </TABLE>
 <h2>武器熟练表说明 Notes Regarding Weapon Proficiency Table</h2>
-<p>“初始熟练武器数”表示角色起初可选择熟练使用多少种武器。例如，牧师可选连枷与长杖、棍棒与钉头锤，或任意两种获准武器。“不熟练减值”表示角色以不熟练武器进行远程或近战攻击时，命中掷骰须扣除的点数（见“战斗”）。“增加武器熟练”表示角色在1级以上每达到所示等级数，便可再熟练一种武器。因此，牧师在1级可熟练两种武器，5级再选一种、共三种；9级共四种；13级共五种，依此类推。</p>
+<p>“初始熟练武器数”表示角色起初可选择熟练使用多少种武器。例如，牧师可选连枷与长杖、棍棒与硬头锤，或任意两种获准武器。“不熟练减值”表示角色以不熟练武器进行远程或近战攻击时，命中掷骰须扣除的点数（见“战斗”）。“增加武器熟练”表示角色在1级以上每达到所示等级数，便可再熟练一种武器。因此，牧师在1级可熟练两种武器，5级再选一种、共三种；9级共四种；13级共五种，依此类推。</p>
 <h3>各类武器的重量与伤害 Weight And Damage By Weapon Type</h3>
 <TABLE>
 <TR><TH>武器类型</TH><TH>约合金币重量</TH><TH>对小／中型伤害</TH><TH>对大型伤害</TH><TH>说明</TH></TR>
@@ -271,8 +271,8 @@
 <TR><TD>轻骑枪*</TD><TD>50</TD><TD>1-6</TD><TD>1-8</TD><TD></TD></TR>
 <TR><TD>中骑枪*</TD><TD>100</TD><TD>2-7</TD><TD>2-12</TD><TD></TD></TR>
 <TR><TD>重骑枪*</TD><TD>150</TD><TD>3-9</TD><TD>3-18</TD><TD></TD></TR>
-<TR><TD>步战钉头锤</TD><TD>100</TD><TD>2-7</TD><TD>1-6</TD><TD></TD></TR>
-<TR><TD>骑战钉头锤</TD><TD>50</TD><TD>1-6</TD><TD>1-4</TD><TD></TD></TR>
+<TR><TD>步战硬头锤</TD><TD>100</TD><TD>2-7</TD><TD>1-6</TD><TD></TD></TR>
+<TR><TD>骑战硬头锤</TD><TD>50</TD><TD>1-6</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>晨星</TD><TD>125</TD><TD>2-8</TD><TD>2-7</TD><TD>包括 Godentag 与 Holy Water Sprinkler</TD></TR>
 <TR><TD>阔刃矛（Partisan）</TD><TD>80</TD><TD>1-6</TD><TD>2-7</TD><TD>包括 Bohemian Ear-Spoon</TD></TR>
 <TR><TD>步战军用镐</TD><TD>60</TD><TD>2-7</TD><TD>2-8</TD><TD></TD></TR>
@@ -327,8 +327,8 @@
 <TR><TD>重骑枪</TD><TD>约14′</TD><TD>1′</TD><TD>8</TD><TD>+3</TD><TD>+3</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>轻骑枪</TD><TD>10′</TD><TD>1′</TD><TD>7</TD><TD>-2</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>中骑枪</TD><TD>12′</TD><TD>1′</TD><TD>6</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
-<TR><TD>步战钉头锤</TD><TD>约2&#189;′</TD><TD>4′</TD><TD>7</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>-1</TD></TR>
-<TR><TD>骑战钉头锤</TD><TD>约1&#189;′</TD><TD>2′</TD><TD>6</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
+<TR><TD>步战硬头锤</TD><TD>约2&#189;′</TD><TD>4′</TD><TD>7</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>-1</TD></TR>
+<TR><TD>骑战硬头锤</TD><TD>约1&#189;′</TD><TD>2′</TD><TD>6</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>晨星</TD><TD>约4′</TD><TD>5′</TD><TD>7</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD></TR>
 <TR><TD>阔刃矛</TD><TD>7′+</TD><TD>3′</TD><TD>9</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>步战军用镐</TD><TD>约4′</TD><TD>4′</TD><TD>7</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>-1</TD><TD>-1</TD><TD>-1</TD><TD>-2</TD></TR>

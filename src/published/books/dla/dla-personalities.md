@@ -208,7 +208,7 @@ Amothus 已过四十岁。他与 Palanthus 人民本身很相似——外表软�
 
 Par-Salian 是白袍中一位强大的巫师；在龙枪之战结束时，他是一名大约七十岁出头的老年人。这位大法师留着长长的白发，白胡须直而稀疏。他的长袍雪白，没有装饰任何种类的符文。他看起来很虚弱，但双眼是明亮、闪烁的蓝色。他的脸像一只凶猛的老鹰。
 
-Par-Salian 并不是行动派巫师，更喜欢把时间花在研究上。他主要凭借对魔法的广博知识取得了高位。正是他作出重要决定，让年轻法师 雷斯林 马哲理（Majere） 比大多数人更早接受试炼。一些巫师认为，正是因为这一决定，费斯坦但提勒斯 才能与年轻法师达成交易，从而把他引上邪恶之路。
+Par-Salian 并不是行动派巫师，更喜欢把时间花在研究上。他主要凭借对魔法的广博知识取得了高位。正是他作出重要决定，让年轻法师 雷斯林 马哲里（Majere） 比大多数人更早接受试炼。一些巫师认为，正是因为这一决定，费斯坦但提勒斯 才能与年轻法师达成交易，从而把他引上邪恶之路。
 
 然而，Par-Salian 知道，如果没有 雷斯林的技巧与力量，龙枪之战就不可能获胜。他知道 雷斯林 是自己选择了所走的道路。在人生的这个阶段，Par-Salian 非常希望卸下领导法术议会的重担，但只要 雷斯林的
 
@@ -284,7 +284,7 @@ Ladonna 是一名六十多岁、异常美丽的人类女性，是一位强大的
 
 Maquesta 是一名二十多岁、非常迷人的黑人女性。她有短短的卷发，以及运动员般纤细而强壮的身体。Maquesta 是失事船 Perechon 的主人，来自 Northern 艾尔戈斯（Ergoth） 的航海人类。她的父亲是一名水手，把 Perechon 和一大笔债务留给了 Maquesta。他曾信任一个背叛他的朋友。临死前，Maq 的父亲告诫她永远不要信任任何人，并且要为了赚钱做一切必要的事——财富是这个世界上唯一值得拥有的东西。
 
-由于父亲的背叛，Maq 变得痛苦，并完全遵循了他的教诲。她唯一会考虑信任的人是她的牛头怪大副 Koraf。Maq 与 Koraf 在 Mithas 岛相遇，当时 Maq 因侵犯牛头怪领地而被牛头怪囚禁。Koraf 也在牢中，被判处死刑。他救了 Maq 的性命并帮助她逃脱。Maq 仍然会因自己在牛头怪监狱中看到的事情做噩梦。
+由于父亲的背叛，Maq 变得痛苦，并完全遵循了他的教诲。她唯一会考虑信任的人是她的牛头人大副 Koraf。Maq 与 Koraf 在 Mithas 岛相遇，当时 Maq 因侵犯牛头人领地而被牛头人囚禁。Koraf 也在牢中，被判处死刑。他救了 Maq 的性命并帮助她逃脱。Maq 仍然会因自己在牛头人监狱中看到的事情做噩梦。
 
 Maq 喜欢男人，却总是爱过后又离开他们。她偏爱英俊但头脑简单的男人，每个港口都有一个这样的男人。但在她心底深处，Maq 真正爱着外表丑陋、像野兽一样的 Koraf，尽管她要花很大力气才肯承认这一点，甚至不愿向自己承认。
 
@@ -300,15 +300,15 @@ Maq 喜欢男人，却总是爱过后又离开他们。她偏爱英俊但头脑�
 
 ## Bas-Ohn Koraf
 
-### Maquesta 的牛头怪大副 Minotaur First Mate to Maquesta
+### Maquesta 的牛头人大副 Minotaur First Mate to Maquesta
 
-Koraf 的脸孔野蛮而丑陋，但这名高大的牛头怪拥有一具像二十多岁人类一样出色、肌肉发达的身体。Koraf 在故乡因一时愤怒杀死另一名牛头怪而被判处死刑。（只有在用来决定优越性的竞赛中，杀死另一名牛头怪才是合法行为。）Koraf 的死刑本来不会令人愉快，而他把逃跑视为唯一选择。
+Koraf 的脸孔野蛮而丑陋，但这名高大的牛头人拥有一具像二十多岁人类一样出色、肌肉发达的身体。Koraf 在故乡因一时愤怒杀死另一名牛头人而被判处死刑。（只有在用来决定优越性的竞赛中，杀死另一名牛头人才是合法行为。）Koraf 的死刑本来不会令人愉快，而他把逃跑视为唯一选择。
 
-Koraf 在监狱中遇到 Maquesta。她在目睹大多数船员被折磨致死后，被安排处决。他帮助她逃脱，她救了他的性命，两人很快成为朋友。尽管 Koraf 起初认为 Maq 是自己见过的最丑陋的女性之一（牛头怪对所有人类都有这种感觉），但他在人类中生活得够久，已经相信她很美，而他自己很丑。他是一个真正高贵的存在，虽然有些急躁而野蛮；Koraf 深深爱着 Maquesta，却认为由于自己太丑，这份爱没有希望。
+Koraf 在监狱中遇到 Maquesta。她在目睹大多数船员被折磨致死后，被安排处决。他帮助她逃脱，她救了他的性命，两人很快成为朋友。尽管 Koraf 起初认为 Maq 是自己见过的最丑陋的女性之一（牛头人对所有人类都有这种感觉），但他在人类中生活得够久，已经相信她很美，而他自己很丑。他是一个真正高贵的存在，虽然有些急躁而野蛮；Koraf 深深爱着 Maquesta，却认为由于自己太丑，这份爱没有希望。
 
 ### Bas-Ohn Koraf
 
-<strong>10 级牛头怪战士</strong>
+<strong>10 级牛头人战士</strong>
 
 | 力量 | 智力 | 智慧 | 敏捷 | 体质 | 魅力 |
 | --- | --- | --- | --- | --- | --- |
@@ -481,13 +481,13 @@ Tika 是一名二十出头的美丽年轻女性，是克莱恩各地传说与歌
 <strong>图表说明：</strong>本图以中央的 Greystone（灰石）为分界与联系轴，展示克莱恩种族、谱系与相关生物之间的关系。图中节点保留如下：
 
 * <strong>龙 Dragons：</strong>金属龙 Metallic、色彩龙 Chromatic；图表还列出龙人 Draconians。
-* <strong>食人魔 Ogres 一系：</strong>牛头怪 Minotaurs、巨人 Giants、地精 Goblins、Irda；另一侧对应牛头怪、巨人、地精、熊地精 Bugbears、食人魔、巨魔 Trolls、狗头人 Kobolds、熊地精以及类人族分支。
-* <strong>动物与魔法生物：</strong>动物 Animals、魔法生物 Magical Creatures、飞马 Pegasus、狮鹫 Griffons。
+* <strong>食人魔 Ogres 一系：</strong>牛头人 Minotaurs、巨人 Giants、地精 Goblins、Irda；另一侧对应牛头人、巨人、地精、熊地精 Bugbears、食人魔、巨魔 Trolls、狗头人 Kobolds、熊地精以及类人族分支。
+* <strong>动物与魔法生物：</strong>动物 Animals、魔法生物 Magical Creatures、天马 Pegasus、狮鹫 Griffons。
 * <strong>人类 Humans 一系：</strong>侏儒 Gnomes、海妖 Sirens、影民 Shadow People，以及与精灵和半精灵相连的人类分支。
 * <strong>精灵 Elves 一系：</strong>西尔瓦内斯提、Kagonesti、奎利内斯提（Qualinesti）；海洋精灵分支包括 Dimernesti 与 Dargonesti；图表还列出半精灵 Half-Elves。
-* <strong>矮人及相关分支：</strong>矮人 Dwarves、肯德 Kender、侏儒 Gnomes，以及 塞瓦（Theiwar）、海拉（Hylar）、戴瓦（Daewar）、戴加（Daergar）、奈达（Neidar）、克拉（Klar） 与 阿加（Aghar）。
+* <strong>矮人及相关分支：</strong>矮人 Dwarves、坎德人 Kender、侏儒 Gnomes，以及 塞瓦（Theiwar）、海拉（Hylar）、戴瓦（Daewar）、戴加（Daergar）、奈达（Neidar）、克拉（Klar） 与 阿加（Aghar）。
 * <strong>其他节点：</strong>Thanoi。
 
-图中的中央竖列标为 Greystone（灰石）。原图节点逐项保留为：Dragons（龙）分为 Metallic（金属龙）与 Chromatic（色彩龙），并连接 Draconians（龙人）；左侧 Ogres（食人魔）连接 Minotaurs（牛头怪）、Giants（巨人）、Goblins（地精）与 Irda，右侧连接 Minotaurs、Thanoi、Giants、Trolls（巨魔）、Goblins、Kobolds（狗头人）、Hobgoblins（熊地精）、Bugbears（熊地怪）和 Ogres；Animals（动物）连接 Magical Creatures（魔法生物）、Pegasus（飞马）与 Griffons（狮鹫）；Humans（人类）连接 Gnomes（侏儒）、Sirens（海妖）、Shadow People（影民）、Humans 与 Half-Elves（半精灵）；Elves（精灵）连接 西尔瓦内斯提、Kagonesti、奎利内斯提、Dimernesti 与 Dargonesti；Dwarves（矮人）分出 Kender（坎德）、Gnomes、塞瓦、海拉、戴瓦、戴加、奈达、克拉 与 阿加。Thanoi 作为独立节点保留。分支连线是原书图表所表示的谱系或类别关系；这里不将图表改写成新的规则解释。
+图中的中央竖列标为 Greystone（灰石）。原图节点逐项保留为：Dragons（龙）分为 Metallic（金属龙）与 Chromatic（色彩龙），并连接 Draconians（龙人）；左侧 Ogres（食人魔）连接 Minotaurs（牛头人）、Giants（巨人）、Goblins（地精）与 Irda，右侧连接 Minotaurs、Thanoi、Giants、Trolls（巨魔）、Goblins、Kobolds（狗头人）、Hobgoblins（熊地精）、Bugbears（熊地怪）和 Ogres；Animals（动物）连接 Magical Creatures（魔法生物）、Pegasus（飞马）与 Griffons（狮鹫）；Humans（人类）连接 Gnomes（侏儒）、Sirens（海妖）、Shadow People（影民）、Humans 与 Half-Elves（半精灵）；Elves（精灵）连接 西尔瓦内斯提、Kagonesti、奎利内斯提、Dimernesti 与 Dargonesti；Dwarves（矮人）分出 Kender（坎德）、Gnomes、塞瓦、海拉、戴瓦、戴加、奈达、克拉 与 阿加。Thanoi 作为独立节点保留。分支连线是原书图表所表示的谱系或类别关系；这里不将图表改写成新的规则解释。
 
 <strong>插图说明：</strong>本页包含角色阵营追踪图与《克莱恩的种族》关系图；阵营图的灰色区域代表 Transition（过渡）。

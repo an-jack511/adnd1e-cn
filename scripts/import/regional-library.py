@@ -155,7 +155,7 @@ for t in SOURCES:
  for title,body,level in sections(t):
   en=next((word for word in ['Lhurdas','Varrakas','Prespra','Belpren','Orvas','Huld','Jeteye','Ulcrun','Dwarfbane'] if word in title),None)
   if not en:continue
-  poisonnames={'Lhurdas':'黄死毒药','Varrakas':'瓦拉卡斯毒药','Prespra':'母亲之祸毒药','Belpren':'贝尔普伦毒药','Orvas':'奥瓦斯毒药',**NAMES};zh=poisonnames[en]
+  poisonnames={'Lhurdas':'黄死毒药','Varrakas':'瓦拉卡斯毒药','Prespra':'普雷斯普拉','Belpren':'贝尔普伦毒药','Orvas':'奥瓦斯毒药',**NAMES};zh=poisonnames[en]
   items.append({'id':'fr-poison-'+slug(en),'nameZh':zh,'nameEn':en,'category':'装备','subCategory':'毒物','price':'原书未列','weight':'原书未列','description':firstparagraph(body),'tags':['FR','毒物'],'source':[reference(t,title)],'details':[detail(t,zh,body)]})
 save('regional-items',items)
 print('Regional records:',len(spells),'spells,',len(monsters),'monsters,',len(items),'FR items.')

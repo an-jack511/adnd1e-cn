@@ -12,7 +12,7 @@
 - Asmodeus（阿斯摩蒂尔斯，见 Devil〔魔鬼〕）
 - Ass, Wild（野驴，见 Mule〔骡〕）
 - Aurochs（原牛，见 Cattle, Wild〔野牛〕）
-- Axebeak（斧喙鸟）……7
+- Axebeak（斧嘴鸟）……7
 
 ## B
 
@@ -71,7 +71,7 @@
 - Catoblepas（卡托布莱帕斯）……13
 - Cattle, Wild（野牛，另见 Bull〔公牛〕）……13
 - Caveman（穴居人，见 Men〔人类〕）
-- Centaur（半人马）……14
+- Centaur（人马）……14
 - Centipede, Giant（巨型蜈蚣）……14
 - Cerebral Parasite（脑寄生虫）……14
 - Chimera（奇美拉）……14
@@ -205,13 +205,13 @@
 - Eye, Floating（浮游眼）……40
 - Eye of the Deep（深渊之眼）……41
 - Eye Tyrant（眼魔之王，见 Beholder〔眼魔〕）
-- Faerie（精灵妖，见 Elf, Grey〔灰精灵〕）
+- Faerie（小仙灵，见 Elf, Grey〔灰精灵〕）
 - Faun（牧神，见 Satyr〔萨梯〕）
 - Fire Elemental（火元素，见 Elemental〔元素〕）
 - Fire Giant（火巨人，见 Giant〔巨人〕）
 - Fire Lizard（火蜥蜴，见 Lizard〔蜥蜴〕）
 - Flesh Golem（血肉魔像，见 Golem〔魔像〕）
-- Flightless Bird（无翼鸟，另见 Axebeak〔斧喙鸟〕）……41
+- Flightless Bird（无翼鸟，另见 Axebeak〔斧嘴鸟〕）……41
 - Frog, Giant（巨蛙）……41
   - Killer（杀手巨蛙）……41
   - Poisonous（毒巨蛙）……41
@@ -221,7 +221,7 @@
 - Gargoyle（石像鬼）……42
   - Kopoacinth（科波阿辛斯）……42
 - Gas Spore（气体孢子）……42
-- Gelatinous Cube（胶质立方体）……43
+- Gelatinous Cube（凝胶方块）……43
 - Geryon（盖利翁，见 Devil〔魔鬼〕）
 - Ghost（鬼魂）……43
 - Ghoul（食尸鬼）……43
@@ -251,15 +251,15 @@
 - Green Slime（绿色黏液）……49
 - Griffon（狮鹫）……50
 - Groaning Spirit, Banshee（哀嚎之灵，女妖）……50
-- Guardian Naga（守护纳迦，见 Naga〔纳迦〕）
+- Guardian Naga（守秘纳迦，见 Naga〔纳迦〕）
 - Gynosphinx（雌性斯芬克斯，见 Sphinx〔斯芬克斯〕）
 - Halfling（半身人）……50
   - Tallfellow（高个半身人）……50
   - Stout（矮壮半身人）……51
 - Hamadryad（树木女神，见 Dryad〔树精〕）
-- Harpy（鹰身女妖）……51
+- Harpy（鸟妖）……51
 - Hell Horse（地狱马，见 Nightmare〔梦魇〕）
-- Hell Hound（地狱犬）……51
+- Hell Hound（地狱猎犬）……51
 - Herd Animal（群居动物）……51
 - Hieracosphinx（鹰头斯芬克斯，见 Sphinx〔斯芬克斯〕）
 - Hill Giant（丘陵巨人，见 Giant〔巨人〕）
@@ -277,9 +277,9 @@
   - Medium Warhorse（中型战马）……53
   - Pony（小马）……53
   - Wild（野马）……53
-- Hydra（九头蛇）……53
-  - Lernaean Hydra（勒耳涅九头蛇）……54
-  - Pyrohydra（火九头蛇）……54
+- Hydra（多头蛇）……53
+  - Lernaean Hydra（勒耳涅多头蛇）……54
+  - Pyrohydra（火多头蛇）……54
 - Hyena（鬣狗）……54
   - Giant, Hyaenodon（巨型鬣狗）……54
 
@@ -293,7 +293,7 @@
 - Iron Golem（铁魔像，见 Golem〔魔像〕）
 - Ixitxachitl（恶魔魟）……55
 - Jackal（豺）……56
-- Jackalwere（豺狼人变形怪）……56
+- Jackalwere（化形胡狼）……56
 - Jaguar（美洲豹）……56
 - Japanese Ogre（日本鬼，见 Ogre Mage〔食人魔法师〕）
 - Juiblex（祖博莱克斯，见 Demon〔恶魔〕）
@@ -302,7 +302,7 @@
 - Kobold（狗头人）……57
 - Kopoacinth（科波阿辛斯，见 Gargoyle〔石像鬼〕）
 - Lacedon（水鬼，见 Ghoul〔食尸鬼〕）
-- Lamia（拉弥亚）……59
+- Lamia（拉迷亚）……59
 - Lammasu（人面狮身兽）……59
 - Lamprey（七鳃鳗）……59
   - Giant（巨型七鳃鳗）……59
@@ -319,8 +319,8 @@
   - Spotted（斑点狮）……61
 - Lizard（蜥蜴）……61
   - Fire（火蜥蜴）……61
-  - Giant（巨型蜥蜴）……61
-  - Minotaur（牛头怪蜥蜴）……62
+  - Giant（巨蜥）……61
+  - Minotaur（牛头人蜥蜴）……62
   - Subterranean（地下蜥蜴）……62
 - Lizard Man（蜥蜴人）……62
 - Locathah（洛卡萨人）……62
@@ -352,8 +352,8 @@
 - Merman（人鱼）……70
 - Mimic（拟形怪）……70
 - Mind Flayer（夺心魔）……70
-- Minotaur（牛头怪）……71
-- Minotaur Lizard（牛头怪蜥蜴，见 Lizard〔蜥蜴〕）
+- Minotaur（牛头人）……71
+- Minotaur Lizard（牛头人蜥蜴，见 Lizard〔蜥蜴〕）
 - Mold（霉菌）……71
   - Brown（棕色）……71
   - Yellow（黄色）……71
@@ -363,11 +363,11 @@
 - Mule（骡）……72
 - Mummy（木乃伊）……72
 - Naga（纳迦）……72
-  - Guardian（守护纳迦）……72
+  - Guardian（守秘纳迦）……72
   - Spirit（灵魂纳迦）……73
   - Water（水纳迦）……73
-- Neo-Otyugh（新奥提尤格，另见 Otyugh〔奥提尤格〕）……73
-- Night Hag（夜巫婆）……73
+- Neo-Otyugh（新食腐兽，另见 Otyugh〔食腐兽〕）……73
+- Night Hag（夜鬼婆）……73
 - Nightmare（梦魇）……74
 - Nixie（水妖精）……74
 - Nomad（游牧民，见 Men〔人类〕）
@@ -380,13 +380,13 @@
   - Half-Orc（半兽人）……76
 - Orcus（奥喀斯，见 Demon〔恶魔〕）
 - Otter, Giant（巨型水獭）……77
-- Otyugh（奥提尤格，另见 Neo-Otyugh〔新奥提尤格〕）……77
+- Otyugh（食腐兽，另见 Neo-Otyugh〔新食腐兽〕）……77
 - Owl, Giant（巨型猫头鹰）……77
 - Owlbear（熊地精兽）……77
 - Pegasus（飞马）……78
 - Peryton（翼鹿）……78
 - Phase Spider（相位蜘蛛，见 Spider〔蜘蛛〕）
-- Piercer（穿刺怪）……78
+- Piercer（石锥怪）……78
 - Pig, Wild（野猪，见 Boar〔野猪〕）
 - Pike, Giant（巨型梭鱼）……78
 - Pilgrim（朝圣者，见 Men〔人类〕）
@@ -414,7 +414,7 @@
   - Pungi（穿刺鳐）……81
   - Sting（刺鳐）……82
 - Red Dragon（红龙，见 Dragon〔龙〕）
-- Remorhaz（雷莫拉兹）……82
+- Remorhaz（百足魔兽）……82
 - Rhinoceros（犀牛）……82
   - Woolly（披毛犀）……82
 - Roc（鹏）……82
@@ -422,23 +422,23 @@
 - Rot Grub（腐尸蛆）……83
 - Rust Monster（锈蚀怪）……83
 - Sabre-Tooth Tiger（剑齿虎，见 Tiger〔虎〕）
-- Sahuagin（沙华鱼人）……84
+- Sahuagin（鲨华鱼人）……84
 - Salamander（火蜥蜴，另见 Elemental〔元素〕）……85
 - Satyr（萨梯）……85
 - Scorpion, Giant（巨型蝎）……85
-- Sea Hag（海巫婆）……86
+- Sea Hag（海鬼婆）……86
 - Sea Horse, Giant（巨型海马）……86
 - Sea Lion（海狮）……86
 - Shadow（阴影）……86
-- Shambling Mound（蹒跚怪）……87
+- Shambling Mound（蔓生怪）……87
 - Shark（鲨鱼）……87
   - Giant, Megalodon（巨型鲨鱼，巨齿鲨）……87
 - Shedu（舍杜）……87
-- Shrieker（尖叫蕈）……87
+- Shrieker（尖叫菌）……87
 - Silver Dragon（银龙，见 Dragon〔龙〕）
 - Skeleton（骷髅）……87
 - Skunk, Giant（巨型臭鼬）……88
-- Slithering Tracker（滑行追踪者）……88
+- Slithering Tracker（蠕行追迹者）……88
 - Slug, Giant（巨型蛞蝓）……88
 - Snake, Giant（巨蛇）……88
   - Amphisbaena（双头蛇）……89
@@ -453,13 +453,13 @@
   - Gynosphinx（女性斯芬克斯）……90
   - Hieracosphinx（鹰头斯芬克斯）……90
 - Spider（蜘蛛）……90
-  - Giant（巨型蜘蛛）……90
+  - Giant（巨蜘蛛）……90
   - Huge（巨大蜘蛛）……90
   - Large（大型蜘蛛）……90
   - Phase（相位蜘蛛）……90
   - Water, Giant（巨型水蜘蛛）……90
 - Spirit Naga（灵魂纳迦，见 Naga〔纳迦〕）
-- Sprite（精灵妖）……92
+- Sprite（小仙灵）……92
 - Squid, Giant（巨型乌贼）……92
 - Stag（雄鹿）……92
   - Giant（巨鹿）……92
@@ -481,18 +481,18 @@
 - Toad, Giant（巨型蟾蜍）……95
   - Ice（冰蟾蜍）……95
   - Poisonous（毒蟾蜍）……95
-- Trapper（诱捕者）……95
+- Trapper（诱陷者）……95
 - Treant（树人）……96
 - Triceratops（三角龙，见 Dinosaur〔恐龙〕）
 - Triton（海精灵）……96
-- Troglodyte（穴居怪）……97
+- Troglodyte（穴蜥人）……97
 - Troll（巨魔）……97
 - Turtle, Giant（巨龟；另见 Dinosaur〔恐龙〕、Archelon〔古海龟〕）……97
   - Sea, Giant（巨型海龟）……97
   - Snapping, Giant（巨型鳄龟）……97
 - Type（恶魔类型，见 Demon〔恶魔〕）
 - Tyrannosaurus Rex（霸王龙，见 Dinosaur〔恐龙〕）
-- Umber Hulk（乌木巨怪）……98
+- Umber Hulk（掘土巨怪）……98
 - Undead（不死生物；见 Ghost〔鬼魂〕、Ghost〔幽灵〕、Ghoul〔食尸鬼〕、Lich〔巫妖〕、Shadow〔阴影〕、Skeleton〔骷髅〕、Spectre〔幽魂〕、Wight〔怨魂〕、Wraith〔幽魂〕、Vampire〔吸血鬼〕和 Zombie〔僵尸〕）
 - Unicorn（独角兽）……98
 - Vampire（吸血鬼）……99
@@ -516,7 +516,7 @@
   - Giant（巨型狼獾）……101
 - Worg（座狼，见 Wolf, Dire〔恐狼〕）
 - Wraith（幽魂）……102
-- Wyvern（双足飞龙）……102
+- Wyvern（飞龙）……102
 - Xorn（Xorn）……102
 - Yeenoghu（耶诺古，见 Demon〔恶魔〕）
 - Yellow Mold（黄色霉菌，见 Mold〔霉菌〕）

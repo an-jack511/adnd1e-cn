@@ -18,7 +18,7 @@
 
 <strong>Freya</strong> 掌管爱情、美貌与丰饶，也能教授凡人有限的魔法。她乘着猫拉的车，拥有可令佩戴者飞行的羽衣；死在战场上的勇士中，有一半会进入她的领域 Folkvang。
 
-<strong>Frigga</strong> 是婚姻、家庭与预言之神，守护 Odin 的家族。她知晓所有将发生之事，却很少直接透露；她的神职人员负责婚礼、出生礼与誓约。<strong>Garm</strong> 是守卫 Hel 领域入口的地狱犬，无法被普通武器杀死。
+<strong>Frigga</strong> 是婚姻、家庭与预言之神，守护 Odin 的家族。她知晓所有将发生之事，却很少直接透露；她的神职人员负责婚礼、出生礼与誓约。<strong>Garm</strong> 是守卫 Hel 领域入口的地狱猎犬，无法被普通武器杀死。
 
 <strong>Hel</strong> 是死者之地的统治者，混乱中立，半边脸美丽、半边脸腐败。她收留疾病、老年与非战死者；进入其领域必须通过她的门卫与寒冷河流。<strong>Jormungandr</strong> 是环绕世界的巨蛇，毒液能杀死神祇；它与 Thor 的宿敌关系将在 Ragnarok 中达到顶点。
 

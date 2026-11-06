@@ -6,7 +6,7 @@
 
 这件装置看起来像各种魔法护符、宝石等。它会散发微弱灵光；任何角色握住它 <strong>1 轮</strong>后，表面便会显出铭文，告知持有者它是一件防护装置。持有者对抗魔法的所有豁免检定获得 <strong>+1</strong>；若某种魔法通常不允许豁免检定，则持有者获得 <strong>1/20</strong> 的基础豁免概率，再叠加其他魔法防护通常给予的豁免加值。例如，此装置可使角色对抗魔法飞弹时拥有基础 <strong>20</strong> 的魔法豁免；若目标还从魔法铠甲获得 <strong>+4</strong>、从防护戒指获得 <strong>+1</strong>，掷骰结果达到 <strong>15</strong>或更高便不会受到飞弹伤害。
 
-此外，圣甲虫最多能吸收 <strong>12 次</strong>吸取生命能级的攻击（吸取 <strong>2 级</strong>算作 <strong>2 次</strong>），或死亡之触、死亡射线、“死亡一指”。吸收 <strong>12 次</strong>攻击后，圣甲虫便会化成粉末，彻底毁坏。每 <strong>20 枚</strong>防护圣甲虫中，有 <strong>1 枚</strong>受到反向诅咒，使持有者的豁免骰受到 <strong>−2</strong> 惩罚。不过，在这些诅咒物品中，有 <strong>1/5</strong> 的概率实际上具有 <strong>+2</strong> 加值；若由 <strong>16 级或更高</strong>的牧师解除诅咒，便会显现此能力，且吸收上限从 <strong>12 次</strong>提高到 <strong>24 次</strong>。
+此外，圣甲虫最多能吸收 <strong>12 次</strong>吸取生命能级的攻击（吸取 <strong>2 级</strong>算作 <strong>2 次</strong>），或死亡之触、死亡射线、“死亡一指”。吸收 <strong>12 次</strong>攻击后，圣甲虫便会化成粉末，彻底毁坏。每 <strong>20 枚</strong>防护圣甲虫中，有 <strong>1 枚</strong>受到反向诅咒，使持有者的豁免骰受到 <strong>−2</strong> 惩罚。不过，在这些诅咒物品中，有 <strong>1/5</strong> 的概率实际上具有 <strong>+2</strong> 加值；若由 <strong>16 级或更高</strong>的牧师移除诅咒，便会显现此能力，且吸收上限从 <strong>12 次</strong>提高到 <strong>24 次</strong>。
 
 #### 巨型挖掘铲 Spade of Colossal Excavation
 
@@ -34,9 +34,9 @@
 
 若有 <strong>2 名或更多</strong>魔法师尝试控制同一个法球，先由成功概率最高者检定，然后依次由其他魔法师检定。多人同时集中精神控制法球时，每增加一名魔法师，所有人的控制概率便累计降低 <strong>5%</strong>，即使他们试图合作完成同一目标也一样。若无人成功，法球便会向最强的魔法师滑去。控制检定必须每轮重新进行。
 
-若对法球施展“传送门术”，有 <strong>50%</strong> 的概率摧毁法球，<strong>35%</strong> 的概率什么也不发生，另有 <strong>15%</strong> 的概率撕裂空间结构，使半径 <strong>18'</strong>内的一切被抛入另一个位面或宇宙。若“抵消权杖”触碰法球，两者会互相抵消并引发剧烈爆炸；半径 <strong>6"</strong>内的一切都会受到 <strong>30–120 点伤害</strong>（<strong>3d4 × 10</strong>）。灵能者若在法球触及自己时施展“概率旅行”心灵学科，成功通过对抗魔法的豁免检定便可消除法球，并获得另一项主要灵能能力；若失败，则被彻底湮灭（见下文“法球护符”）。
+若对法球施展“异界之门术”，有 <strong>50%</strong> 的概率摧毁法球，<strong>35%</strong> 的概率什么也不发生，另有 <strong>15%</strong> 的概率撕裂空间结构，使半径 <strong>18'</strong>内的一切被抛入另一个位面或宇宙。若“抵消权杖”触碰法球，两者会互相抵消并引发剧烈爆炸；半径 <strong>6"</strong>内的一切都会受到 <strong>30–120 点伤害</strong>（<strong>3d4 × 10</strong>）。灵能者若在法球触及自己时施展“概率旅行”心灵学科，成功通过对抗魔法的豁免检定便可消除法球，并获得另一项主要灵能能力；若失败，则被彻底湮灭（见下文“法球护符”）。
 
-#### 土元素操控石 Stone of Controlling Earth Elementals
+#### 命令土元素石核 Stone of Controlling Earth Elementals
 
 这种石头通常是一块形状奇特、粗略打磨过的喷出岩。持有者只需说出一个命令语，若现场有合适的土质媒介，便能召来 <strong>12 生命骰</strong>的土元素；若以粗糙、未经加工的石头为媒介，则召来 <strong>8 生命骰</strong>的土元素。不能以经过加工的石材召唤土元素，但可以使用泥土、黏土甚至沙子；沙子召来的土元素同样只有 <strong>8 生命骰</strong>。召唤区域必须至少宽 <strong>4'</strong>，且体积不少于 <strong>4 立方码</strong>。土元素会在 <strong>1–4 轮</strong>内出现。关于元素生物及其控制方式，详见《怪物图鉴》“元素生物”。每天可用此石召唤 <strong>1 个</strong>土元素。
 

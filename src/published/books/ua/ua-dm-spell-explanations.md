@@ -37,7 +37,7 @@
 
 | 豁免加值 | 适用魔法 |
 |:---:|:---|
-| +9 | 迷惑 Beguiling、魅惑 Charm、暗示 Suggestion、遗忘 Forget、催眠 Hypnotism、弱能射线 Ray of Enfeeblement、影响人的小法术 |
+| +9 | 迷惑 Beguiling、魅惑 Charm、暗示术 Suggestion、遗忘 Forget、催眠 Hypnotism、弱能射线 Ray of Enfeeblement、影响人的小法术 |
 | +7 | 命令 Command、支配 Domination、恐惧 Fear、定身 Hold、惊骇 Scare、惊吓 Spook、厌恶／同感 Antipathy/Sympathy、困惑 Confusion、集体暗示 Mass Suggestion、邪眼 Eyebite、恐惧披风 Cloak of Fear |
 | +5 | 誓言 Geas、使命 Quest、混乱 Chaos、弱智 Feeblemind、奥图的不可抗拒之舞 Otto’s Irresistible Dance、痛楚 Dolor、强求 Demand、折磨 Torment、雷欧蒙的烦扰术 Leomund’s Lamentable Belabourment |
 

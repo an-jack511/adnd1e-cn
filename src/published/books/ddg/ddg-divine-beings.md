@@ -9,7 +9,7 @@
 - <strong>灾祸 Geas</strong>：如同法术，但距离为 9 英寸且无豁免。
 - <strong>任务 Quest</strong>：如同法术，但距离为 9 英寸且无豁免。
 - <strong>传送 Teleport</strong>：神祇固有能力，可在地点或位面之间无误差移动。
-- <strong>真实视域 True Seeing</strong>：如同法术。
+- <strong>真知术 True Seeing</strong>：如同法术。
 
 这些能力可以瞬间、随意使用，但不是持续效果。神祇也可能改变角色属性、赐予或收回智慧，或按主持人判断显现额外力量。所有神祇和半神在六类豁免上都按 2 处理；本书英雄在六类豁免上都按 3 处理。
 

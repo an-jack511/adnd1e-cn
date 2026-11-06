@@ -1,7 +1,7 @@
 
-## 莫登凯南的法术 Mordenkainen
+## 魔邓肯 Mordenkainen
 
-### 莫登凯南的非魔法爬虫与两栖动物防御术 Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians（防护系）
+### 魔邓肯的非魔法爬虫与两栖动物防御术 Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians（防护系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -14,7 +14,7 @@
 
 <strong>解释／描述：</strong> 受到此法术保护的生物，在与非魔法爬虫或两栖动物战斗时会获得优势，包括蛇、恐龙、青蛙以及这类动物的巨型种。龙不受此法术影响，其他拥有非自然能力的生物也不受影响。所有此类动物在攻击受保护生物时，生命骰都受到 −2 处罚；该生物针对爬虫或两栖动物毒素的豁免检定获得 +4 加值。材料成分是一小片蛇皮和一条干青蛙腿，放在硬化皮革袋中。
 
-### 莫登凯南的昆虫与蛛形动物防护术 Mordenkainen's Protection from Insects and Arachnids（防护系）
+### 魔邓肯的昆虫与蛛形动物防护术 Mordenkainen's Protection from Insects and Arachnids（防护系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -27,7 +27,7 @@
 
 <strong>解释／描述：</strong> 此法术提供针对昆虫、蜘蛛和蝎子的保护，包括这类动物的巨型种和非自然种。所有这类动物攻击受保护生物时，生命骰受到 −2 处罚；受保护生物针对昆虫或蛛形动物毒液的所有豁免检定获得 +4 加值。此法术对所有种类的虫子合计不超过 20 生命骰时有效。如果超过 20 生命骰的昆虫发动攻击，法术会消散。材料成分是一只封在琥珀中的昆虫。
 
-### 莫登凯南的电弧术 Mordenkainen's Electric Arc（塑能系）
+### 魔邓肯的电弧术 Mordenkainen's Electric Arc（塑能系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>4<br>
@@ -40,7 +40,7 @@
 
 <strong>解释／描述：</strong> 此法术会使一道或多道小型闪电从施法者的指尖迸发，击中一个或多个对手。施法者每三个等级可以产生一道闪电电弧。每道电弧造成 1d6 点伤害，再加上施法者每个等级 1 点伤害。对法术的豁免检定成功会使伤害减半。当每道电弧分别指向一个对手时，此法术最为有效。每个战斗轮只能有一道电弧击中一个目标；击中同一目标的其他电弧不起作用。材料成分是一小撮毛和一根玻璃棒。
 
-### 莫登凯南的忠诚幻影盾女术 Mordenkainen's Faithful Phantom Shield-Maidens（召唤系）
+### 魔邓肯的忠诚幻影盾女术 Mordenkainen's Faithful Phantom Shield-Maidens（召唤系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>4<br>
@@ -53,7 +53,7 @@
 
 <strong>解释／描述：</strong> 此法术会召唤一对闪烁的紫色幻影生物，它们会停在法师两侧，保护法师免受所有攻击。盾女的 AC 为 4（幻影锁子甲和大型盾牌）；移动 12”；HD 3；hp 20；伤害 1d6（幻影长矛）；THAC0 16；AL N。盾女会保持足够接近施法者，以便用盾牌帮助法师遮挡。一个盾女的盾牌会为施法者提供 −1 护甲等级加值。如果两名盾女都用盾牌保护施法者的同一侧，护甲等级加值就是 −2。虽然盾女可以保护施法者免受来自不同方向的攻击，但即便法师命令它们离开，它们也不会移动到距离施法者 50 英尺以外。无论施法者去往何处，它们都会通过魔法跟随。材料成分是一对小型水晶盾牌，用绳子系在施法者的微型木制人像上。
 
-### 莫登凯南的防护黏液术 Mordenkainen's Protection from Slime（防护系）
+### 魔邓肯的防护黏液术 Mordenkainen's Protection from Slime（防护系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>4<br>
@@ -66,7 +66,7 @@
 
 <strong>解释／描述：</strong> 此法术能帮助生物抵御所有霉菌、黏液、布丁、泥怪以及其他无形的原始生物发动的攻击。针对受保护生物的所有攻击都受到 −2 处罚，而受保护生物的豁免检定获得 +2 加值。此外，生物的皮肉对这类怪物的任何腐蚀攻击都具有高度抗性；为了抵抗黏液怪物的腐蚀攻击，视为实心石头。此法术在崩溃之前可以抵消来自黏液的最多 10d4 点伤害。材料成分是夹在两块扁平石头之间压实的一小块食物霉菌，以及一撮钻石尘。
 
-### 莫登凯南的忠诚幻影防卫者术 Mordenkainen's Faithful Phantom Defenders（召唤系）
+### 魔邓肯的忠诚幻影防卫者术 Mordenkainen's Faithful Phantom Defenders（召唤系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>5<br>
@@ -81,7 +81,7 @@
 
 <strong>三名忠诚幻影士兵：</strong> AC 4（幻影锁子甲和盾牌）；移动 9”；HD 4；hp 24；#AT 1；伤害 1d8（幻影长剑）；THAC0 15；AL N；特殊：能够击中只有 +1 魔法武器才能击中的生物。
 
-<strong>两名忠诚幻影半人马：</strong> AC 5；移动 18”；HD 4；hp 28；#AT 1；伤害 1d6（幻影轻骑枪）；THAC0 15；AL N；特殊：能够击中只有 +2 武器才能击中的生物。
+<strong>两名忠诚幻影人马：</strong> AC 5；移动 18”；HD 4；hp 28；#AT 1；伤害 1d6（幻影轻骑枪）；THAC0 15；AL N；特殊：能够击中只有 +2 武器才能击中的生物。
 
 <strong>八只忠诚幻影巨蝙蝠：</strong> AC 8；移动 3”／18”；HD 2+2；hp 12；#AT 1；伤害 1d4；THAC0 16；AL N；特殊：能够击中只有 +3 武器才能击中的生物。
 
@@ -89,7 +89,7 @@
 
 材料成分是一尊描绘将被召唤的防卫者类型的小型铅水晶雕像，以及每个被召唤生物一颗价值 1,000 金币的翡翠。翡翠会在施法时消失。
 
-### 莫登凯南的私人圣所术 Mordenkainen's Private Sanctum（变化系－防护系）
+### 魔邓肯私人密室 Mordenkainen's Private Sanctum（变化系－防护系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>5<br>
@@ -102,7 +102,7 @@
 
 <strong>解释／描述：</strong> 此法术用于确保一个面积最多 1,600 平方英尺、尺寸为 40 英尺乘 40 英尺的房间保持私密。房间里的所有窗户从外面看都会变得昏暗而雾蒙蒙，使拥有正常视觉、红外视觉或其他特殊视觉的生物无法向房间内部窥视。房间内的人仍可以正常向外看。X 射线视觉无法穿透进入房间，就好像房间被铅盾完全封闭一样。无论声音多么响亮，都不能从房间中逃出，因此盗贼不能从外面窃听。诸如 ESP、听觉千里眼、视觉千里眼或水晶球之类的探知尝试无法穿透受保护的房间，魔法师之眼也无法进入。法师可以自由离开房间，而不会使保护失效。材料成分是一张薄铅片、一块不透明玻璃、一团棉花或布，以及粉末状黄玉髓。
 
-### 莫登凯南的忠诚幻影守卫术 Mordenkainen's Faithful Phantom Guardian（召唤系）
+### 魔邓肯的忠诚幻影守卫术 Mordenkainen's Faithful Phantom Guardian（召唤系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>6<br>
@@ -119,7 +119,7 @@
 
 守卫会显现为闪烁的紫色光线轮廓。幻影守卫不能说话，因此如果法师遭到攻击，它无法大声向法师发出警告。材料成分是一颗价值 1,000 金币的钻石，施法时会将其送给守卫，作为提供服务的报酬。
 
-### 莫登凯南的末前思虑术 Mordenkainen's Penultimate Cogitation（变化系）
+### 魔邓肯的末前思虑术 Mordenkainen's Penultimate Cogitation（变化系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>7<br>
@@ -132,9 +132,9 @@
 
 <strong>解释／描述：</strong> 此法术允许法师从施法者个人法术书中的一本召回一个法术，前提是相应的法术书位于法师一英里以内。正如《玩家手册》中所解释的，该法术必须是施法者已知的法术。不能从卷轴或另一位法师的法术书中召回法术。被召回的法术可以是 1 至 6 级中的任意法术。每次施放末前思虑术只能召回一个法术。被召回的法术可以在之后的任何一轮施放。被召回的法术总有 10% 的几率会从法师的法术书中被魔法抹除。
 
-## 诺斯图的法术 Nystul
+## 涅斯图 Nystul
 
-### 诺斯图的舞动幽光术 Nystul's Dancing Werelight（变化系）
+### 涅斯图的舞动幽光术 Nystul's Dancing Werelight（变化系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>
@@ -147,7 +147,7 @@
 
 <strong>解释／描述：</strong> 此法术会创造一小点完全受施法者控制的光。光点发出的亮度可以按施法者意愿增强或减弱，从光亮术的亮度到蜡烛的昏光不等。幽光可以按施法者的指示从一处飘到另一处，只要始终留在法术射程内。幽光可以被召到施法者头顶，作为方便的阅读灯。幽光术不能附着在物体或生物上，只能作为悬在空中的光点存在。材料成分是一只活萤火虫。
 
-### 诺斯图的闪光术 Nystul's Flash（塑能系）
+### 涅斯图的闪光术 Nystul's Flash（塑能系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>
@@ -160,7 +160,7 @@
 
 <strong>解释／描述：</strong> 此法术会在一个半径 10 英尺的球体内制造突然的明亮闪光。作用范围内未通过对法术豁免检定的所有生物会目盲 1d4 轮。通过豁免检定的生物仅会晕眩 1d4 轮，所有生命骰受到 −2 处罚。它们在近战中也会失去平衡，因此对晕眩生物发动的任何攻击都获得 +2 命中修正。位于球体外、面向闪光的生物不会受到任何不良影响。没有眼睛的生物不受此法术影响。
 
-### 诺斯图的黑微点术 Nystul's Blackmote（塑能系）
+### 涅斯图的黑微点术 Nystul's Blackmote（塑能系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -175,7 +175,7 @@
 
 如果施法者未通过最初的对死亡魔法豁免检定，法师就会失去对微点的控制。它会立刻在施法者手中爆炸，造成 1 点伤害，并使法师麻痹 1d4 轮。材料成分是一小片取自亡灵骨骼的骨头。
 
-### 诺斯图的灼热光束术 Nystul's Blazing Beam（塑能系）
+### 涅斯图的灼热光束术 Nystul's Blazing Beam（塑能系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -188,7 +188,7 @@
 
 <strong>解释／描述：</strong> 此法术从正能量位面抽取一部分能量到施法者手中，随后可以将其作为一道宽 1 英尺、射程最多为 30 英尺 + 每等级 10 英尺的光线发射出去。除了亡灵之外，被光束击中的生物都有权进行豁免检定。成功通过检定的生物只会被光束擦中，晕眩 1d4 轮，生命骰受到 −2 处罚，护甲等级受到 +2 处罚。未通过检定的生物会被光束正面完全击中，目盲 2d4 轮，生命骰受到 −4 处罚，AC 受到 +4 处罚。被光束击中的亡灵无权豁免，也不会晕眩或目盲，但会受到 4d6 点伤害。
 
-### 诺斯图的水晶匕首术 Nystul's Crystal Dagger（塑能系－咒法系）
+### 涅斯图的水晶匕首术 Nystul's Crystal Dagger（塑能系－咒法系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -201,7 +201,7 @@
 
 <strong>解释／描述：</strong> 此法术会将一把由准元素矿物位面物质组成的匕首召唤到施法者手中，其中强烈注入了来自正物质位面的能量。水晶匕首没有命中加值，在近战中击中对手时造成 1d4 + 2 点伤害。对亡灵和来自下层外位面的生物，匕首造成 1d4 + 3 点伤害。如果水晶匕首对亡灵或下层位面生物造成最大伤害，该怪物会在接下来的近战轮中麻痹，而匕首会消失。材料成分是一把用精制铅水晶制成、价值 250 金币的微型匕首。
 
-### 诺斯图的水晶短剑术 Nystul's Crystal Dirk（塑能系－咒法系）
+### 涅斯图的水晶短剑术 Nystul's Crystal Dirk（塑能系－咒法系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -214,7 +214,7 @@
 
 <strong>解释／描述：</strong> 此法术创造出一种类似于 2 级水晶匕首术所描述的武器。短剑带有微弱魔法，在攻击骰上提供 +1 加值。短剑命中时造成 1d4 + 2 点伤害。对亡灵和下层外位面的怪物，短剑成功命中时造成 1d4 + 3 点伤害。如果水晶短剑造成最大伤害，怪物会麻痹到命中后的下一轮结束。材料成分是一把用铅水晶制成、价值 350 金币的微型匕首。
 
-### 诺斯图的迅捷灭火术 Nystul's Expeditious Fire Extinguisher（塑能系）
+### 涅斯图的迅捷灭火术 Nystul's Expeditious Fire Extinguisher（塑能系）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>

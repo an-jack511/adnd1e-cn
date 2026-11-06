@@ -1,4 +1,5 @@
 import {itemSelectionKind} from '../../utils/item-selection';
+import {currentItemLabel,findNamedEntry} from '../../utils/terminology';
 import {installCardPrinting} from './printing';
 import abilityTables from '../../data/public/ability-tables.json';
 import { classes } from '../../data/public/classes-base';
@@ -42,7 +43,7 @@ function renderRows(key:CollectionName) {
     for (const control of row.querySelectorAll<Control>('[data-cell]')) {
       const keyName=control.dataset.cell!;
       let entry=record.values[keyName] ?? '';
-      if (key==='weapons' && keyName==='name') {const item=items.find(item=>item.id===entry || item.nameZh===entry);entry=item?.id??entry;if(item?.weaponCombat?.handHeld&&item.weaponCombat?.missile&&record.values.mode==='missile')entry+='::missile';}
+      if (key==='weapons' && keyName==='name') {const item=findNamedEntry(items,'item',entry);entry=item?.id??entry;if(item?.weaponCombat?.handHeld&&item.weaponCombat?.missile&&record.values.mode==='missile')entry+='::missile';}
       if (control instanceof HTMLSelectElement && entry && ![...control.options].some(option=>option.value===entry)) control.add(new Option(entry,entry));
       control.value=entry;
       if(key==='weapons'&&keyName==='notes')control.title=entry;
@@ -53,6 +54,10 @@ function renderRows(key:CollectionName) {
 }
 function applyCard(next:Card) {
   card=next; form.reset();
+  for(const row of card.rows.gear){
+    const item=items.find(item=>item.id===row.values.itemId);
+    if(item&&row.values.item)row.values.item=currentItemLabel(item,row.values.item);
+  }
   undo=undefined;undoButton.hidden=true;
   for (const control of form.querySelectorAll<Control>('[name]')) {
     const entry=card.fields[control.name];

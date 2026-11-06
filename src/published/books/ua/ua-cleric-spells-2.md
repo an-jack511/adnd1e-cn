@@ -32,7 +32,7 @@
 
 若牧师与目标之间隔着超过 1 英寸厚的木或石，射程便会缩短：每英寸厚度相当于 10 尺无遮挡距离。任何厚度的金属阻隔，或任何灵能、魔法等精神防护，都会使法术失败且耗去。法术沿牧师视线侦测范围内第一个活物；若起初没有目标，则侦测持续期间第一个穿过这条视线的活物。
 
-## 尘魔 Dust Devil（咒法／召唤系 Conjuration/Summoning）
+## 龙卷尘暴 Dust Devil（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -49,7 +49,7 @@
 
 任何原生于气元素位面的生物，包括另一只同类，都能在不超过 3″ 的距离上随意遣散尘魔。并非原生于施法者所在位面的生物不受尘魔影响。尘魔接触有天生魔法抗性的生物时会自动消散，但先有一次命中并造成伤害的机会。
 
-## 魅众术 Enthrall（附魔／魅惑系 Enchantment/Charm）
+## 注目术 Enthrall（附魔／魅惑系 Enchantment/Charm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>

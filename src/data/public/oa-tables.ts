@@ -18,7 +18,7 @@ export const oaTables: RandomTable[] = [
       { min: 21, max: 24, result: '防火护符 Charm of Protection from Fire' },
       { min: 25, max: 27, result: '灵体防护护符 Charm of Protection from Spirits' },
       { min: 28, max: 31, result: '防盗护符 Charm of Protection from Theft' },
-      { min: 32, max: 32, result: '钻石钉头锤 Diamond Mace' },
+      { min: 32, max: 32, result: '钻石硬头锤 Diamond Mace' },
       { min: 33, max: 33, result: '雷鼓 Drums of Thunder' },
       { min: 34, max: 35, result: '八卦钱 Eight Diagram Coins' },
       { min: 36, max: 36, result: '不断米臼 Everproducing Rice Mortar' },

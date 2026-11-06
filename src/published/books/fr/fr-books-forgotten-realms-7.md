@@ -36,7 +36,7 @@ bless、command、cure light wounds、detect magic、remove fear、augury、chan
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
 
-<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上 symbol、glyph of warding、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如 magic mouth、莫登凯南（Mordenkainen）’s faithful hound、Leomund’s trap、诺斯图（Nystul）’s magic aura、hallucinatory terrain、wall of force）。法术不会给出魔法性质的确切线索，但防护圈、symbol 和 glyph 可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
+<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上 symbol、glyph of warding、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如 magic mouth、魔邓肯（Mordenkainen）’s faithful hound、Leomund’s trap、涅斯图（Nystul）’s magic aura、hallucinatory terrain、wall of force）。法术不会给出魔法性质的确切线索，但防护圈、symbol 和 glyph 可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
 
 reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astral silver cord），不论其是否处于激活状态；但它不会显示星界、以太位面或隐形的生物与物品。与 true seeing 不同，它不会显示生物的灵光，也不会把变形或受魔法改变的事物显示成其真正形态（不过，例如幻术本身的魔法性质会被看见），也不会显示它们曾经的形态。
 
@@ -180,7 +180,7 @@ The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法
 
 ## “传送页”（The “gate page”）
 
-The Alcaister 的最后一页（带有前文所述符文的那一页）是一道传送门：当书打开时，任何站在符文上（或至少触碰符文）的生物，只要触碰符文的生物或另一个生物大声说出写在符文周围的词，就会被传送。无论触碰符文者是否愿意，位面转移都会发生；一次只能传送一个活着的生物，以及该生物穿戴或携带的全部物品。
+The Alcaister 的最后一页（带有前文所述符文的那一页）是一道异界之门：当书打开时，任何站在符文上（或至少触碰符文）的生物，只要触碰符文的生物或另一个生物大声说出写在符文周围的词，就会被传送。无论触碰符文者是否愿意，位面转移都会发生；一次只能传送一个活着的生物，以及该生物穿戴或携带的全部物品。
 
 用 d100 决定目的地：
 
@@ -194,7 +194,7 @@ The Alcaister 的最后一页（带有前文所述符文的那一页）是一道
 | 93–98 | Limbo 的五个位面中的任一个 |
 | 99–00 | 其他目的地（由 DM 决定） |
 
-被传送的生物必须在念出激活词时用裸手握住 The Alcaister，才能把书一同带走；否则书会留在 Prime Material Plane 上。（如果传送门被用于 Prime Material Plane 以外的位面，书总会与生物一同返回。）
+被传送的生物必须在念出激活词时用裸手握住 The Alcaister，才能把书一同带走；否则书会留在 Prime Material Plane 上。（如果异界之门被用于 Prime Material Plane 以外的位面，书总会与生物一同返回。）
 
 ## 奥贝雷尔的工作册（Aubayreer’s Workbook）开头
 

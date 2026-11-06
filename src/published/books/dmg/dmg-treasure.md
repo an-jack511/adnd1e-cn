@@ -152,9 +152,9 @@
 | 55–57 | 无敌 Invulnerability（仅战士） | 350 | 500 |
 | 58–60 | 浮空 Levitation | 250 | 400 |
 | 61–63 | 长生 Longevity | 500 | 1,000 |
-| 64–66 | 以太油剂 Oil of Etherealness | 600 | 1,500 |
-| 67–69 | 润滑油剂 Oil of Slipperiness | 400 | 750 |
-| 70–72 | 爱情滤剂 Philter of Love | 200 | 300 |
+| 64–66 | 以太化之油 Oil of Etherealness | 600 | 1,500 |
+| 67–69 | 滑溜之油 Oil of Slipperiness | 400 | 750 |
+| 70–72 | 迷情媚药 Philter of Love | 200 | 300 |
 | 73–75 | 劝服滤剂 Philter of Persuasiveness | 400 | 850 |
 | 76–78 | 植物控制 Plant Control | 250 | 300 |
 | 79–81 | 自身变形 Polymorph (Self) | 200 | 350 |
@@ -224,28 +224,28 @@
 |:---:|:---|:---:|:---:|
 | 01–06 | 反向戒指 Ring of Contrariness | — | 1,000 |
 | 07–12 | 妄想戒指 Ring of Delusion | — | 2,000 |
-| 13–14 | 召唤巨灵戒指 Ring of Djinni Summoning$ | 3,000 | 20,000 |
+| 13–14 | 召唤气巨灵戒指 Ring of Djinni Summoning$ | 3,000 | 20,000 |
 | 15 | 元素控制戒指 Ring of Elemental Command | 5,000 | 25,000 |
 | 16–21 | 羽落戒指 Ring of Feather Falling | 1,000 | 5,000 |
 | 22–27 | 火焰抗性戒指 Ring of Fire Resistance | 1,000 | 5,000 |
-| 28–30 | 行动自如戒指 Ring of Free Action | 1,000 | 5,000 |
+| 28–30 | 自由行动戒指 Ring of Free Action | 1,000 | 5,000 |
 | 31–33 | 影响人类戒指 Ring of Human Influence$ | 2,000 | 10,000 |
-| 34–40 | 隐形戒指 Ring of Invisibility | 1,500 | 7,500 |
+| 34–40 | 隐身戒指 Ring of Invisibility | 1,500 | 7,500 |
 | 41–43 | 哺乳动物控制戒指 Ring of Mammal Control$ | 1,000 | 5,000 |
 | 44 | 多重祈愿戒指 Ring of Multiple Wishes$ | 5,000 | 25,000 |
 | 45–60 | 防护戒指 Ring of Protection | 2,000–4,000 | 10,000–20,000 |
 | 61 | 再生戒指 Ring of Regeneration | 5,000 | 40,000 |
-| 62–63 | 星辰射击戒指 Ring of Shooting Stars | 3,000 | 15,000 |
-| 64–65 | 法术储存戒指 Ring of Spell Storing | 2,500 | 22,500 |
+| 62–63 | 流星戒指 Ring of Shooting Stars | 3,000 | 15,000 |
+| 64–65 | 储法戒指 Ring of Spell Storing | 2,500 | 22,500 |
 | 66–69 | 法术反转戒指 Ring of Spell Turning | 2,000 | 17,500 |
-| 70–75 | 游泳戒指 Ring of Swimming | 1,000 | 5,000 |
+| 70–75 | 善泳戒指 Ring of Swimming | 1,000 | 5,000 |
 | 76–77 | 心灵遥控戒指 Ring of Telekinesis$ | 2,000 | 10,000 |
 | 78–79 | 三愿戒指 Ring of Three Wishes$ | 3,000 | 15,000 |
-| 80–85 | 保暖戒指 Ring of Warmth | 1,000 | 5,000 |
+| 80–85 | 温暖戒指 Ring of Warmth | 1,000 | 5,000 |
 | 86–90 | 水上行走戒指 Ring of Water Walking | 1,000 | 5,000 |
 | 91–98 | 虚弱戒指 Ring of Weakness | — | 1,000 |
 | 99 | 法术师戒指 Ring of Wizardry#（仅魔法师） | 4,000 | 50,000 |
-| 00 | X光视觉戒指 Ring of X-Ray Vision | 4,000 | 35,000 |
+| 00 | X射线戒指 Ring of X-Ray Vision | 4,000 | 35,000 |
 
 （M）仅魔法师可使用。  
 $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有限 charges，用尽后便会耗尽。
@@ -257,33 +257,33 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 01–03 | 吸收权杖 Rod of Absorption（牧师、魔法师） | 7,500 | 40,000 |
 | 04 | 迷惑权杖 Rod of Beguiling（牧师、魔法师、盗贼） | 5,000 | 30,000 |
 | 05–14 | 取消权杖 Rod of Cancellation（任意职业） | 10,000 | 15,000 |
-| 15–16 | 君主威仪权杖 Rod of Lordly Might（战士） | 6,000 | 20,000 |
-| 17 | 复活权杖 Rod of Resurrection（牧师） | 10,000 | 35,000 |
-| 18 | 支配权杖 Rod of Rulership（任意职业） | 8,000 | 35,000 |
+| 15–16 | 王者权杖 Rod of Lordly Might（战士） | 6,000 | 20,000 |
+| 17 | 复生权杖 Rod of Resurrection（牧师） | 10,000 | 35,000 |
+| 18 | 统御权杖 Rod of Rulership（任意职业） | 8,000 | 35,000 |
 | 19 | 重击权杖 Rod of Smiting（牧师、战士） | 4,000 | 15,000 |
 | 20 | 命令法杖 Staff of Command（牧师、魔法师） | 5,000 | 25,000 |
 | 21–22 | 治疗法杖 Staff of Curing（牧师） | 6,000 | 25,000 |
-| 23 | 魔法师法杖 Staff of the Magi（魔法师） | 15,000 | 75,000 |
-| 24 | 力量法杖 Staff of Power（魔法师） | 12,000 | 60,000 |
+| 23 | 贤者法杖 Staff of the Magi（魔法师） | 15,000 | 75,000 |
+| 24 | 威力法杖 Staff of Power（魔法师） | 12,000 | 60,000 |
 | 25–27 | 蛇杖 Staff of the Serpent（牧师） | 7,000 | 35,000 |
-| 28–31 | 打击法杖 Staff of Striking（牧师、魔法师） | 6,000 | 15,000 |
-| 32–33 | 枯萎法杖 Staff of Withering（牧师） | 8,000 | 35,000 |
+| 28–31 | 强袭法杖 Staff of Striking（牧师、魔法师） | 6,000 | 15,000 |
+| 32–33 | 凋零法杖 Staff of Withering（牧师） | 8,000 | 35,000 |
 | 34 | 咒法魔杖 Wand of Conjuration（魔法师） | 7,000 | 35,000 |
-| 35–38 | 敌人侦测魔杖 Wand of Enemy Detection（任意职业） | 2,000 | 10,000 |
+| 35–38 | 搜敌魔杖 Wand of Enemy Detection（任意职业） | 2,000 | 10,000 |
 | 39–41 | 恐惧魔杖 Wand of Fear（牧师、魔法师） | 3,000 | 15,000 |
 | 42–44 | 火焰魔杖 Wand of Fire（魔法师） | 4,500 | 25,000 |
 | 45–47 | 寒霜魔杖 Wand of Frost（魔法师） | 6,000 | 50,000 |
 | 48–52 | 照明魔杖 Wand of Illumination（任意职业） | 2,000 | 10,000 |
 | 53–56 | 幻象魔杖 Wand of Illusion（魔法师） | 3,000 | 20,000 |
 | 57–59 | 闪电魔杖 Wand of Lightning（魔法师） | 4,000 | 30,000 |
-| 60–68 | 魔法侦测魔杖 Wand of Magic Detection（任意职业） | 2,500 | 25,000 |
+| 60–68 | 搜魔魔杖 Wand of Magic Detection（任意职业） | 2,500 | 25,000 |
 | 69–73 | 金属与矿物侦测魔杖 Wand of Metal and Mineral Detection（任意职业） | 1,500 | 7,500 |
 | 74–78 | 魔法飞弹魔杖 Wand of Magic Missiles（任意职业） | 4,000 | 35,000 |
 | 79–86 | 否定魔杖 Wand of Negation（任意职业） | 3,500 | 15,000 |
 | 87–89 | 麻痹魔杖 Wand of Paralyzation（魔法师） | 3,500 | 25,000 |
 | 90–92 | 变形魔杖 Wand of Polymorphing（魔法师） | 3,500 | 25,000 |
 | 93–94 | 暗门与陷阱探测魔杖 Wand of Secret Door and Trap Location（任意职业） | 5,000 | 40,000 |
-| 95–00 | 奇迹魔杖 Wand of Wonder（任意职业） | 6,000 | 10,000 |
+| 95–00 | 惊异魔杖 Wand of Wonder（任意职业） | 6,000 | 10,000 |
 
 * 假设物品 charges 充足。  
 （C）仅牧师可用；（F）仅战士可用；（M）仅魔法师可用；（T）仅盗贼可用；“任意职业”表示任何职业均可使用，除非另有职业限制。
@@ -298,11 +298,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 03–04 | 定位护符 Amulet of Inescapable Location | 1,000 |
 | 05 | 生命防护护符 Amulet of Life Protection | 20,000 |
 | 06–07 | 位面护符 Amulet of the Planes | 30,000 |
-| 08–11 | 防侦测与定位护符 Amulet of Proof Against Detection and Location | 15,000 |
-| 12–13 | 克瓦利什装置 Apparatus of Kwalish | 35,000 |
+| 08–11 | 反侦护符 Amulet of Proof Against Detection and Location | 15,000 |
+| 12–13 | 夸力许装置 Apparatus of Kwalish | 35,000 |
 | 14–16 | 定向箭 Arrow of Direction | 17,500 |
 | 17 | 神器或遗物 Artifact or Relic（见后文专表） | — |
-| 18–20 | 豆袋 Bag of Beans | 5,000 |
+| 18–20 | 魔豆之袋 Bag of Beans | 5,000 |
 | 21 | 吞噬袋 Bag of Devouring | 1,500 |
 | 22–26 | 次元袋 Bag of Holding | 25,000 |
 | 27 | 转化袋 Bag of Transmuting | 500 |
@@ -311,7 +311,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 32 | 折叠船 Boat, Folding | 25,000 |
 | 33 | 崇高功德之书（仅牧师） Book of Exalted Deeds | 40,000 |
 | 34 | 无限法术之书 Book of Infinite Spells | 50,000 |
-| 35 | 邪恶黑暗之书（仅牧师） Book of Vile Darkness | 40,000 |
+| 35 | 秽暗之书（仅牧师） Book of Vile Darkness | 40,000 |
 | 36 | 舞蹈长靴 Boots of Dancing | 5,000 |
 | 37–42 | 精灵长靴 Boots of Elvenkind | 5,000 |
 | 43–47 | 浮空长靴 Boots of Levitation | 15,000 |
@@ -325,7 +325,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 85 | 催眠烟雾火盆（仅魔法师） Brazier of Sleep Smoke | 1,000 |
 | 86–92 | 防护胸针 Brooch of Shielding | 10,000 |
 | 93 | 动画攻击扫帚 Broom of Animated Attack | 3,000 |
-| 94–98 | 飞行扫帚 Broom of Flying | 10,000 |
+| 94–98 | 飞天扫帚 Broom of Flying | 10,000 |
 | 99–00 | 巴克纳德永满钱袋 Bucknard's Everfull Purse | 15,000／25,000／40,000 |
 
 * 每高于 AC 10 一档计价；例如 AC 6 的防御护腕价值为 <strong>2,000 XP</strong>，售出价值为 <strong>12,000 金币</strong>。
@@ -334,13 +334,13 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 | d100 | 物品 | XP | 售价（金币） |
 |:---:|:---|:---:|:---:|
-| 01–06 | 祈祷蜡烛 Candle of Invocation（仅牧师） | 1,000 | 5,000 |
+| 01–06 | 祈神蜡烛 Candle of Invocation（仅牧师） | 1,000 | 5,000 |
 | 07–08 | 飞毯 Carpet of Flying | 7,500 | 25,000 |
-| 09–10 | 控气元素香炉 Censer of Controlling Air Elementals（仅魔法师） | 4,000 | 25,000 |
+| 09–10 | 命令气元素香炉 Censer of Controlling Air Elementals（仅魔法师） | 4,000 | 25,000 |
 | 11 | 敌意气元素召唤香炉 Censer of Summoning Hostile Air Elementals（仅魔法师） | — | 1,000 |
-| 12–13 | 开启风铃 Chime of Opening | 3,500 | 20,000 |
+| 12–13 | 开门钟琴 Chime of Opening | 3,500 | 20,000 |
 | 14 | 饥饿风铃 Chime of Hunger | — | — |
-| 15–18 | 位移斗篷 Cloak of Displacement | 3,000 | 17,500 |
+| 15–18 | 移位斗篷 Cloak of Displacement | 3,000 | 17,500 |
 | 19–27 | 精灵斗篷 Cloak of Elvenkind | 1,000 | 6,000 |
 | 28–30 | 蝠鲼斗篷 Cloak of the Manta Ray | 2,000 | 12,500 |
 | 31–32 | 毒性斗篷 Cloak of Poisonousness | — | 2,500 |
@@ -350,22 +350,22 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 | d100 | 物品 | XP | 售价（金币） |
 |:---:|:---|:---:|:---:|
-| 62–63 | 力量立方 Cube of Force | 3,000 | 20,000 |
+| 62–63 | 力场魔方 Cube of Force | 3,000 | 20,000 |
 | 64–65 | 寒霜抗性立方 Cube of Frost Resistance | 2,000 | 14,000 |
-| 66–67 | 位面立方 Cubic Gate | 5,000 | 17,500 |
-| 68–69 | 德恩即时堡垒 Daern's Instant Fortress | 7,000 | 27,500 |
-| 70–72 | 无尽之水瓶 Decanter of Endless Water | 1,000 | 3,000 |
-| 73–76 | 万象牌组 Deck of Many Things | — | 10,000 |
+| 66–67 | 异界之门魔方 Cubic Gate | 5,000 | 17,500 |
+| 68–69 | 迪恩的折叠要塞 Daern's Instant Fortress | 7,000 | 27,500 |
+| 70–72 | 无尽水瓶 Decanter of Endless Water | 1,000 | 3,000 |
+| 73–76 | 万象无常牌 Deck of Many Things | — | 10,000 |
 | 77 | 震聋鼓 Drums of Deafening | — | 500 |
 | 78–79 | 恐慌鼓 Drums of Panic | 6,500 | 35,000 |
 | 80–85 | 显形尘 Dust of Appearance | 1,000 | 4,000 |
-| 86–91 | 消隐尘 Dust of Disappearance | 2,000 | 8,000 |
-| 92 | 喷嚏／窒息尘 Dust of Sneezing and Choking | — | 1,000 |
-| 93 | 火巨灵瓶 Efreeti Bottle | 9,000 | 45,000 |
-| 94 | 永烟瓶 Eversmoking Bottle | 500 | 2,500 |
-| 95 | 迷人之眼 Eyes of Charming（仅魔法师） | 4,000 | 24,000 |
-| 96–97 | 鹰眼 Eyes of the Eagle | 3,500 | 18,000 |
-| 98–99 | 微察之眼 Eyes of Minute Seeing | 2,000 | 12,500 |
+| 86–91 | 无踪粉 Dust of Disappearance | 2,000 | 8,000 |
+| 92 | 喷嚏粉 Dust of Sneezing and Choking | — | 1,000 |
+| 93 | 火巨灵囚瓶 Efreeti Bottle | 9,000 | 45,000 |
+| 94 | 无尽烟壶 Eversmoking Bottle | 500 | 2,500 |
+| 95 | 魅惑镜片 Eyes of Charming（仅魔法师） | 4,000 | 24,000 |
+| 96–97 | 鹰眼镜片 Eyes of the Eagle | 3,500 | 18,000 |
+| 98–99 | 微视镜片 Eyes of Minute Seeing | 2,000 | 12,500 |
 | 00 | 石化之眼 Eyes of Petrification | — | —* |
 
 * 逆转效果的 XP 为 <strong>12,500</strong>，售价为 <strong>50,000 金币</strong>。
@@ -381,35 +381,35 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 16 | 诅咒酒瓶 Flask of Curses | — | 1,000 |
 | 17–18 | 敏捷手套 Gauntlets of Dexterity | — | 10,000 |
 | 19–20 | 笨拙手套 Gauntlets of Fumbling | — | 1,000 |
-| 21–22 | 食人魔力量手套 Gauntlets of Ogre Power（牧师、战士、盗贼） | 1,000 | 15,000 |
+| 21–22 | 食人魔力量护手 Gauntlets of Ogre Power（牧师、战士、盗贼） | 1,000 | 15,000 |
 | 23–25 | 游泳与攀爬手套 Gauntlets of Swimming and Climbing（牧师、战士、盗贼） | 1,000 | 10,000 |
-| 26 | 光辉宝石 Gem of Brightness | 2,000 | 17,500 |
-| 27 | 观视宝石 Gem of Seeing | 2,000 | 25,000 |
+| 26 | 光彩夺目宝石 Gem of Brightness | 2,000 | 17,500 |
+| 27 | 真视宝石 Gem of Seeing | 2,000 | 25,000 |
 | 28 | 性别转换腰带 Girdle of Femininity/Masculinity（牧师、战士、盗贼） | — | 1,000 |
 | 29 | 巨人力量腰带 Girdle of Giant Strength（牧师、战士、盗贼） | 200 | 2,500 |
-| 30 | 辉煌头盔 Helm of Brilliance | 2,500 | 60,000 |
+| 30 | 光辉头盔 Helm of Brilliance | 2,500 | 60,000 |
 | 31–35 | 通晓语言与阅读魔法头盔 Helm of Comprehending Languages and Reading Magic | 1,000 | 12,500 |
 | 36–37 | 阵营相反头盔 Helm of Opposite Alignment | — | 1,000 |
 | 38–39 | 心灵感应头盔 Helm of Telepathy | 3,000 | 35,000 |
 | 40 | 传送头盔 Helm of Teleportation | 2,500 | 30,000 |
 | 41–45 | 水下行动头盔 Helm of Underwater Action | 1,000 | 10,000 |
-| 46 | 爆裂号角 Horn of Blasting | 5,000 | 55,000 |
+| 46 | 音爆号角 Horn of Blasting | 5,000 | 55,000 |
 | 47–48 | 气泡号角 Horn of Bubbles | — | — |
 | 49 | 崩塌号角 Horn of Collapsing | 1,500 | 25,000 |
 | 50–53 | 海妖号角 Horn of the Tritons（牧师、战士） | 2,000 | 17,500 |
 | 54–60 | 瓦尔哈拉号角 Horn of Valhalla | 1,000* | 15,000** |
-| 61–63 | 迅捷马掌 Horseshoes of Speed | 2,000 | 10,000 |
-| 64–65 | 风精马掌 Horseshoes of a Zephyr | 1,500 | 7,500 |
+| 61–63 | 加速马蹄铁 Horseshoes of Speed | 2,000 | 10,000 |
+| 64–65 | 西风马蹄铁 Horseshoes of a Zephyr | 1,500 | 7,500 |
 | 66–70 | 冥想熏香 Incense of Meditation（牧师） | 500 | 7,500 |
 | 71 | 执念熏香 Incense of Obsession（牧师） | — | 500 |
 | 72 | 伊恩石 Ioun Stones | 300*** | 5,000*** |
 | 73–78 | 吟游诗人乐器 Instrument of the Bards | 1,000**** | 5,000**** |
-| 79–80 | 铁瓶 Iron Flask | — | — |
+| 79–80 | 收妖瓶 Iron Flask | — | — |
 | 81–85 | 闪电标枪 Javelin of Lightning（战士） | 250 | 3,000 |
 | 86–90 | 穿刺标枪 Javelin of Piercing（战士） | 250 | 3,000 |
 | 91 | 攻击宝石 Jewel of Attacks | — | 1,000 |
 | 92 | 无瑕宝石 Jewel of Flawlessness | — | 每个切面 1,000 |
-| 93–00 | 凯奥格托姆药膏 Keoghtom's Ointment | 500 | 10,000 |
+| 93–00 | 卡夫统灵药 Keoghtom's Ointment | 500 | 10,000 |
 
 * 每个雕像生命骰对应的价值。  
 ** 青铜号角价值为表列数值的两倍，铁号角为三倍。  
@@ -423,38 +423,38 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 01 | 强力咒法秘典 Libram of Gainful Conjuration（魔法师） | 8,000 | 40,000 |
 | 02 | 不可言诅咒秘典 Libram of Ineffable Damnation（魔法师） | 8,000 | 40,000 |
 | 03 | 银色魔法秘典 Libram of Silver Magic（魔法师） | 8,000 | 40,000 |
-| 04 | 建造竖琴 Lyre of Building | 5,000 | 30,000 |
-| 05 | 体魄健康手册 Manual of Bodily Health | 5,000 | 50,000 |
-| 06 | 有益锻炼手册 Manual of Gainful Exercise | 5,000 | 50,000 |
+| 04 | 建筑里拉琴 Lyre of Building | 5,000 | 30,000 |
+| 05 | 强身手册 Manual of Bodily Health | 5,000 | 50,000 |
+| 06 | 健体手册 Manual of Gainful Exercise | 5,000 | 50,000 |
 | 07 | 魔像手册 Manual of Golems（牧师、魔法师） | 3,000 | 30,000 |
 | 08 | 武艺精湛手册 Manual of Puissant Skill at Arms（战士） | 8,000 | 40,000 |
-| 09 | 动作敏捷手册 Manual of Quickness of Action | 5,000 | 50,000 |
+| 09 | 灵巧手册 Manual of Quickness of Action | 5,000 | 50,000 |
 | 10 | 偷窃巧手手册 Manual of Stealthy Pilfering（盗贼） | 8,000 | 40,000 |
 | 11 | 泰坦鹤嘴锄 Mattock of the Titans（战士） | 3,500 | 7,000 |
 | 12 | 泰坦战锤 Maul of the Titans | 4,000 | 12,000 |
 | 13–15 | 心灵感应护符 Medallion of ESP | 1,000／3,000 | 10,000／30,000 |
 | 16–17 | 思想投射护符 Medallion of Thought Projection | — | 1,000 |
-| 18 | 生命囚禁镜 Mirror of Life Trapping（魔法师） | 2,500 | 25,000 |
+| 18 | 摄心镜 Mirror of Life Trapping（魔法师） | 2,500 | 25,000 |
 | 19 | 心灵威能镜 Mirror of Mental Prowess | 5,000 | 50,000 |
 | 20 | 对立镜 Mirror of Opposition | — | 2,000 |
-| 21–23 | 适应护符 Necklace of Adaptation | 1,000 | 10,000 |
+| 21–23 | 适应项链 Necklace of Adaptation | 1,000 | 10,000 |
 | 24–27 | 飞弹项链 Necklace of Missiles | 每颗飞弹 50* | 每颗飞弹 200* |
-| 28–33 | 祈祷珠项链 Necklace of Prayer Beads（牧师） | 每颗珠子 500** | 每颗珠子 3,000** |
+| 28–33 | 念珠项链 Necklace of Prayer Beads（牧师） | 每颗珠子 500** | 每颗珠子 3,000** |
 | 34–35 | 绞杀项链 Necklace of Strangulation | — | 1,000 |
 | 36–38 | 捕缚网 Net of Entrapment（牧师、战士、盗贼） | 1,000 | 7,500 |
 | 39–42 | 缠网 Net of Snaring（牧师、战士、盗贼） | 1,000 | 6,000 |
-| 43–44 | 诺祖尔奇妙颜料 Nolzur's Marvelous Pigments | 每罐 500*** | 3,000*** |
-| 45–46 | 力量珍珠 Pearl of Power（魔法师） | 每法术环级 200** | 2,000**** |
+| 43–44 | 诺泽尔的惊奇颜料 Nolzur's Marvelous Pigments | 每罐 500*** | 3,000*** |
+| 45–46 | 法力再生珍珠 Pearl of Power（魔法师） | 每法术环级 200** | 2,000**** |
 | 47–48 | 感知珍珠 Pearl of Wisdom（牧师） | 500 | 5,000 |
 | 49–50 | 腐烂护符 Periapt of Foul Rotting | — | 1,000 |
-| 51–53 | 健康护符 Periapt of Health | 1,000 | 10,000 |
-| 54–60 | 防毒护符 Periapt of Proof Against Poison | 1,500 | 12,500 |
-| 61–64 | 创伤闭合护符 Periapt of Wound Closure | 1,000 | 10,000 |
+| 51–53 | 保健护符 Periapt of Health | 1,000 | 10,000 |
+| 54–60 | 辟毒护符 Periapt of Proof Against Poison | 1,500 | 12,500 |
+| 61–64 | 愈合护符 Periapt of Wound Closure | 1,000 | 10,000 |
 | 65–70 | 忠信圣匣 Phylactery of Faithfulness（牧师） | 1,000 | 7,500 |
 | 71–74 | 长寿圣匣 Phylactery of Long Years（牧师） | 3,000 | 25,000 |
 | 75–76 | 怪物吸引圣匣 Phylactery of Monstrous Attention（牧师） | — | 2,000 |
-| 77–84 | 下水道笛 Pipes of the Sewers | 1,750 | 8,500 |
-| 85 | 便携洞 Portable Hole | 5,000 | 50,000 |
+| 77–84 | 唤鼠乐笙 Pipes of the Sewers | 1,750 | 8,500 |
+| 85 | 次元洞 Portable Hole | 5,000 | 50,000 |
 | 86–00 | 坎尔的羽毛信物 Quaal's Feather Token | 500／1,000 | 2,000／7,000 |
 
 * 每颗飞弹的生命骰。  
@@ -472,7 +472,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 05–20 | 力量王冠 Crown of Might | 50,000 |
 | 21 | 黯焰水晶 Crystal of the Ebon Flame | 75,000 |
 | 22 | 阿尔·阿克巴之杯与护符 Cup and Talisman of Al'Akbar | 85,000 |
-| 23–24 | 维克那之眼 Eye of Vecna | 35,000 |
+| 23–24 | 维克那法眼 Eye of Vecna | 35,000 |
 | 25 | 维克那之手 Hand of Vecna | 60,000 |
 | 26 | 休沃德的神秘管风琴 Heward's Mystical Organ | 25,000 |
 | 27 | 变化号角 Horn of Change | 20,000 |
@@ -491,10 +491,10 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 67–68 | 盖克斯戒指 Ring of Gaxx | 17,500 |
 | 69–74 | 七段权杖 Rod of Seven Parts | 25,000 |
 | 75–91 | 力量权杖 Sceptre of Might | 150,000 |
-| 92 | 卡斯之剑 Sword of Kas | 97,000 |
+| 92 | 凯斯之剑 Sword of Kas | 97,000 |
 | 93–98 | 达尔弗-纳尔之牙 Teeth of Dahlver-Nar | 每颗 5,000 |
 | 99 | 众神王座 Throne of the Gods | — |
-| 00 | 奥库斯魔杖 Wand of Orcus | 10,000 |
+| 00 | 奥喀斯魔杖 Wand of Orcus | 10,000 |
 
 <strong>注：</strong>表 E.5 中的物品不会提供经验值。
 
@@ -584,25 +584,25 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 38 | 速射弩 Crossbow of Speed | 1,500 | 7,500 |
 | 39–46 | +1 匕首，对体型小于人类的生物 +2 Dagger +1, +2 vs. creatures smaller than man-sized | 100 | 750 |
 | 47–50 | +2 匕首，对体型大于人类的生物 +3 Dagger +2, +3 vs. creatures larger than man-sized | 250 | 2,000 |
-| 51 | 毒液匕首 Dagger of Venom | 350 | 3,000 |
+| 51 | 淬毒匕首 Dagger of Venom | 350 | 3,000 |
 | 52–56 | +1 连枷 Flail +1 | 450 | 4,000 |
-| 57–60 | +1 战锤 Hammer +1 | 300 | 2,500 |
-| 61–62 | +2 战锤 Hammer +2 | 650 | 6,000 |
-| 63 | +3 矮人投掷锤 Hammer +3, Dwarven Thrower | 1,500 | 15,000 |
-| 64 | 雷霆之锤 Hammer of Thunderbolts | 2,500 | 25,000 |
+| 57–60 | +1 战锤子 Hammer +1 | 300 | 2,500 |
+| 61–62 | +2 战锤子 Hammer +2 | 650 | 6,000 |
+| 63 | +3 矮人投掷锤子 Hammer +3, Dwarven Thrower | 1,500 | 15,000 |
+| 64 | 雷神之锤 Hammer of Thunderbolts | 2,500 | 25,000 |
 | 65–67 | +2 标枪 Javelin +2 | 750 | 5,000 |
-| 68–72 | +1 钉头锤 Mace +1 | 350 | 3,000 |
-| 73–75 | +2 钉头锤 Mace +2 | 700 | 4,500 |
-| 76 | 破邪钉头锤 Mace of Disruption | 1,750 | 17,500 |
-| 77 | +4 钉头锤 Mace +4 | 1,500 | 15,000 |
+| 68–72 | +1 硬头锤 Mace +1 | 350 | 3,000 |
+| 73–75 | +2 硬头锤 Mace +2 | 700 | 4,500 |
+| 76 | 瓦解之锤 Mace of Disruption | 1,750 | 17,500 |
+| 77 | +4 硬头锤 Mace +4 | 1,500 | 15,000 |
 | 78–80 | +1 军用镐 Military Pick +1 | 350 | 2,500 |
 | 81–83 | +1 晨星锤 Morning Star +1 | 400 | 3,000 |
 | 84–88 | +2 弯刀 Scimitar +2 | 750 | 6,000 |
 | 89 | 寻觅 +2 投石索 Sling of Seeking +2 | 700 | 7,000 |
-| 90–94 | +1 长矛 Spear +1 | 500 | 3,000 |
-| 95–96 | +2 长矛 Spear +2 | 1,000 | 6,500 |
-| 97 | +3 长矛 Spear +3 | 1,750 | 15,000 |
-| 98–99 | 诅咒反噬长矛 Spear, Cursed Backbiter | — | 1,000 |
+| 90–94 | +1 矛 Spear +1 | 500 | 3,000 |
+| 95–96 | +2 矛 Spear +2 | 1,000 | 6,500 |
+| 97 | +3 矛 Spear +3 | 1,750 | 15,000 |
+| 98–99 | 诅咒反噬矛 Spear, Cursed Backbiter | — | 1,000 |
 | 00 | +3 三叉戟（军用叉） Trident (Military Fork) +3 | 1,500 | 12,500 |
 
 ## 魔法物品的解释与描述 Explanations and Descriptions of Magic Items
@@ -757,7 +757,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 人类控制 Human Control
 
-饮用者可像施放“魅惑人类”一样控制最多 <strong>32 个等级／生命骰</strong>的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 <strong>1+2=1，2+6=2</strong>。由 <strong>1d20</strong>随机决定可控制的种类：
+饮用者可像施放“魅惑类人”一样控制最多 <strong>32 个等级／生命骰</strong>的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 <strong>1+2=1，2+6=2</strong>。由 <strong>1d20</strong>随机决定可控制的种类：
 
 | d20 | 生物种类 |
 |:---:|:---|
@@ -767,7 +767,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 7–8 | 半身人 |
 | 9–10 | 半兽人 |
 | 11–16 | 人类 |
-| 17–19 | 人形生物（豺狼人、兽人、哥布林等） |
+| 17–19 | 人形生物（豺狼人、兽人、地精等） |
 | 20 | 精灵、半精灵与人类 |
 
 效果持续 <strong>5–30 轮</strong>。
@@ -788,15 +788,15 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 每饮下一剂，角色的游戏年龄减少 <strong>1–12 年</strong>；但每次饮用都会使此前所有延寿药水所消除的年龄有 <strong>1%</strong> 的累计概率全部恢复。否则，药水会恢复青春与活力，也可用于对抗魔法或怪物造成的衰老。必须饮尽整剂才能生效。
 
-#### 星界油 Oil of Etherealness
+#### 以太化之油 Oil of Etherealness
 
 这其实是一种轻质油，须从外部涂抹在衣物及裸露皮肤上。涂抹后，角色获得以太状态，可以穿过固体物体——侧向、向上或向下移动——也可以前往其他位面；但不能触碰非以太物体。涂抹 <strong>3 轮</strong>后生效，并持续 <strong>4–8 回合</strong>（另加 <strong>1–4 回合</strong>），除非在正常持续时间结束前用弱酸溶液将其洗去。此油也可涂在物体与其他生物身上。单剂足以涂抹一名普通人，以及其通常携带的装备，例如 <strong>2–3 件武器、衣物、护甲、盾牌</strong>及其他常见装备。以太生物不可见。（参见“相位门”法术，以及后文“在已知存在位面间旅行”。）
 
-#### 滑溜油 Oil of Slipperiness
+#### 滑溜之油 Oil of Slipperiness
 
-此油与上文的“星界油”类似，须从外部涂抹。涂抹后，任何对手都无法抓住、攥住或抱住饮用者；蛇或触手也无法将其缠紧。（绳索仍可限制其行动，但怪物的触手无法缠住涂油者。）无论是魔法或普通的蛛网等障碍物，都无法妨碍涂油者；绳索、手铐、铁链等束缚物也会从其身上滑脱。魔法绳索及类似物同样无法奏效。若把油倒在地面或台阶上，站在该处的生物每轮有 <strong>95%</strong> 概率滑倒。药油通常需 <strong>8 小时</strong>才会自然失效，也可用酒精溶液（如葡萄酒）擦除。
+此油与上文的“以太化之油”类似，须从外部涂抹。涂抹后，任何对手都无法抓住、攥住或抱住饮用者；蛇或触手也无法将其缠紧。（绳索仍可限制其行动，但怪物的触手无法缠住涂油者。）无论是魔法或普通的蛛网等障碍物，都无法妨碍涂油者；绳索、手铐、铁链等束缚物也会从其身上滑脱。魔法绳索及类似物同样无法奏效。若把油倒在地面或台阶上，站在该处的生物每轮有 <strong>95%</strong> 概率滑倒。药油通常需 <strong>8 小时</strong>才会自然失效，也可用酒精溶液（如葡萄酒）擦除。
 
-#### 爱情灵药 Philter of Love
+#### 迷情媚药 Philter of Love
 
 饮用后，角色会爱上饮下药水后第一个看见的生物（参见“魅惑法术”）。如果对方与饮用者属于相近种族且性别相异，饮用者会真正迷恋并受其魅惑。魅惑效果持续 <strong>4–8 回合</strong>，迷恋效果则会持续，直到对饮用者施放“解除魔法”。
 
@@ -806,7 +806,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 植物控制 Plant Control
 
-饮用者能够影响植物生命的行为，包括普通植物、真菌、霉菌乃至蹒跚怪，且不超出其通常能力范围。饮用者可以令植物静止／沉默、移动、缠绕等，但都必须符合其能力限制。智力达到 <strong>5</strong> 或更高的植物怪物可进行对抗魔法的豁免检定。饮用者可以控制边长不超过 <strong>2"</strong> 的区域内的植物，持续 <strong>5–20 轮</strong>。若植物具有智力，便不能被直接控制去自我毁灭。（参见“魅惑植物”法术。）控制距离为 <strong>9"</strong>。
+饮用者能够影响植物生命的行为，包括普通植物、真菌、霉菌乃至蔓生怪，且不超出其通常能力范围。饮用者可以令植物静止／沉默、移动、缠绕等，但都必须符合其能力限制。智力达到 <strong>5</strong> 或更高的植物怪物可进行对抗魔法的豁免检定。饮用者可以控制边长不超过 <strong>2"</strong> 的区域内的植物，持续 <strong>5–20 轮</strong>。若植物具有智力，便不能被直接控制去自我毁灭。（参见“魅惑植物”法术。）控制距离为 <strong>9"</strong>。
 
 #### 毒药 Poison
 
@@ -844,7 +844,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 不死生物控制 Undead Control
 
-此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑人类”法术，最多影响 <strong>16 个生命骰</strong>的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 <strong>4+1</strong>按 <strong>4</strong> 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 <strong>−2</strong> 惩罚。效果持续 <strong>5–20 轮</strong>。掷 <strong>1d10</strong>确定此药水影响的不死生物种类：
+此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑类人”法术，最多影响 <strong>16 个生命骰</strong>的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 <strong>4+1</strong>按 <strong>4</strong> 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 <strong>−2</strong> 惩罚。效果持续 <strong>5–20 轮</strong>。掷 <strong>1d10</strong>确定此药水影响的不死生物种类：
 
 | d10 | 不死生物 |
 |:---:|:---|
@@ -961,7 +961,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ##### 防护附身 Protection from Possession
 
-阅读时间为 <strong>1 回合</strong>。此卷轴会生成一个半径 <strong>10 尺</strong>、随阅读者移动的魔法防护圈。圈内所有生物都能抵御附身，包括“魔法容器术”等魔法攻击、针对附身或心灵控制的攻击，以及基于灵能或魔法的能量吸取；此类威胁包括恶魔、魔鬼、夜魔或其他具有类似附身能力的生物。此防护甚至对圈内的尸体有效。<strong>90%</strong> 的此类卷轴效果持续 <strong>10–60 轮</strong>；另有 <strong>10%</strong> 会持续 <strong>10–60 回合</strong>，但防护圈不会随阅读者移动。
+阅读时间为 <strong>1 回合</strong>。此卷轴会生成一个半径 <strong>10 尺</strong>、随阅读者移动的魔法防护圈。圈内所有生物都能抵御附身，包括“魔魂壶术”等魔法攻击、针对附身或心灵控制的攻击，以及基于灵能或魔法的能量吸取；此类威胁包括恶魔、魔鬼、夜魔或其他具有类似附身能力的生物。此防护甚至对圈内的尸体有效。<strong>90%</strong> 的此类卷轴效果持续 <strong>10–60 轮</strong>；另有 <strong>10%</strong> 会持续 <strong>10–60 回合</strong>，但防护圈不会随阅读者移动。
 
 ##### 防护不死生物 Protection from Undead
 
@@ -985,7 +985,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ### 反向戒指 Ring of Contrariness
 
-这是一枚诅咒戒指，会使佩戴者无法赞同任何想法、陈述或行动。戴上后，只有对佩戴者施放“解除诅咒”才能取下。受诅咒影响，佩戴者会尝试施放自己会用的任何法术。此外，反向戒指还会随机拥有以下一项额外魔法能力：
+这是一枚诅咒戒指，会使佩戴者无法赞同任何想法、陈述或行动。戴上后，只有对佩戴者施放“移除诅咒”才能取下。受诅咒影响，佩戴者会尝试施放自己会用的任何法术。此外，反向戒指还会随机拥有以下一项额外魔法能力：
 
 | d100 | 额外能力 |
 |:---:|:---|
@@ -996,15 +996,15 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 71–80 | 法术反转 |
 | 81–00 | 力量 <strong>18/00</strong> |
 
-反向诅咒无法从戒指本身移除。佩戴者会使用自己的能力以及戒指能力，以确保戒指留在手上，但不会伤害自己。例如，其他角色建议他攻击某个目标，或认为自己防守严密、不应攻击时，佩戴者便会反其道而行之——甚至可能攻击或打向说话者的头，因为他显然就是这么认为的。若反向戒指会施展法术，则必须对佩戴者累计施放足以达到或超过 <strong>100%</strong> 效力的“解除诅咒”，才能解除该项法术效果。
+反向诅咒无法从戒指本身移除。佩戴者会使用自己的能力以及戒指能力，以确保戒指留在手上，但不会伤害自己。例如，其他角色建议他攻击某个目标，或认为自己防守严密、不应攻击时，佩戴者便会反其道而行之——甚至可能攻击或打向说话者的头，因为他显然就是这么认为的。若反向戒指会施展法术，则必须对佩戴者累计施放足以达到或超过 <strong>100%</strong> 效力的“移除诅咒”，才能解除该项法术效果。
 
 ### 妄想戒指 Ring of Delusion
 
 妄想戒指会让佩戴者相信它是另一种戒指——任何佩戴者真心希望得到的戒指都可以。佩戴者会完全确信自己戴的确实是具有其他魔法能力的戒指，并会在无意识中运用任何能力（包括其他魔法物品的能力），以产生符合其想象属性的结果。作为裁判，你必须谨慎裁定这种自我欺骗能有多成功、观察者会受到何种影响，以及他们能看出什么。此戒指可以随时取下。
 
-### 召唤巨灵戒指 Ring of Djinni Summoning
+### 召唤气巨灵戒指 Ring of Djinni Summoning
 
-这枚戒指是众多奇幻传说中的宝物之一，十分实用。它是一道特殊的“传送门”，可以从气元素位面召唤一名特定巨灵。擦拭戒指后，召唤便会开始；巨灵在下一轮现身。它会忠实服从并侍奉戒指佩戴者；若巨灵被杀，戒指便会失去魔力，变得毫无价值。巨灵的能力与特性见《怪物图鉴》。
+这枚戒指是众多奇幻传说中的宝物之一，十分实用。它是一道特殊的“异界之门”，可以从气元素位面召唤一名特定巨灵。擦拭戒指后，召唤便会开始；巨灵在下一轮现身。它会忠实服从并侍奉戒指佩戴者；若巨灵被杀，戒指便会失去魔力，变得毫无价值。巨灵的能力与特性见《怪物图鉴》。
 
 ### 元素控制戒指 Ring of Elemental Command
 
@@ -1034,7 +1034,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 - 控制风向（每周一次）
 - 隐形术
 
-在满足某种条件前（例如戒指受祝福、佩戴者杀死一个气元素生物，或 DM 认为足以激活全部潜能的其他条件），它看起来只是一枚隐形戒指。
+在满足某种条件前（例如戒指受祝福、佩戴者杀死一个气元素生物，或 DM 认为足以激活全部潜能的其他条件），它看起来只是一枚隐身戒指。
 
 #### 土元素戒指 Earth
 
@@ -1084,23 +1084,23 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ### 火焰抗性戒指 Ring of Fire Resistance
 
-佩戴者完全免疫普通火焰——例如火把、燃烧的油与篝火。非常巨大或炽热的火焰，例如熔岩、恶魔自焚、地狱犬吐息或火墙术，若佩戴者身处其中，每轮会造成 <strong>10 点</strong>伤害（每段 <strong>1 点</strong>）。但对特别炽热的火焰，例如红龙吐息、火蜥蜴吐息、火球术、火焰打击或火焰风暴，佩戴者的豁免骰获得 <strong>+4</strong>；此类火焰的每颗伤害骰减少 <strong>2 点</strong>，但伤害最低仍为 <strong>1 点</strong>。一般而言，普通火焰每次最多造成 <strong>24 点</strong>伤害；特别炽热的火焰则可造成 <strong>25 点</strong>或更多。
+佩戴者完全免疫普通火焰——例如火把、燃烧的油与篝火。非常巨大或炽热的火焰，例如熔岩、恶魔自焚、地狱猎犬吐息或火墙术，若佩戴者身处其中，每轮会造成 <strong>10 点</strong>伤害（每段 <strong>1 点</strong>）。但对特别炽热的火焰，例如红龙吐息、火蜥蜴吐息、火球术、火焰打击或火焰风暴，佩戴者的豁免骰获得 <strong>+4</strong>；此类火焰的每颗伤害骰减少 <strong>2 点</strong>，但伤害最低仍为 <strong>1 点</strong>。一般而言，普通火焰每次最多造成 <strong>24 点</strong>伤害；特别炽热的火焰则可造成 <strong>25 点</strong>或更多。
 
-### 行动自如戒指 Ring of Free Action
+### 自由行动戒指 Ring of Free Action
 
-佩戴者能够自由移动并正常攻击，不受蛛网、定身术或迟缓术等效果影响，即便身处水下也一样。对前两种法术而言，它们完全不起作用；对后者而言，佩戴者以正常地面速度移动，并可使用斧、弯刀等武器造成完整伤害，也可使用连枷、战锤、钉头锤等钝击武器——前提是武器用于挥击，而不是投掷。不过，此戒指不会赋予水下呼吸能力。
+佩戴者能够自由移动并正常攻击，不受蛛网、定身术或迟缓术等效果影响，即便身处水下也一样。对前两种法术而言，它们完全不起作用；对后者而言，佩戴者以正常地面速度移动，并可使用斧、弯刀等武器造成完整伤害，也可使用连枷、战锤、硬头锤等钝击武器——前提是武器用于挥击，而不是投掷。不过，此戒指不会赋予水下呼吸能力。
 
 ### 影响人类戒指 Ring of Human Influence
 
-佩戴者与人类／类人生物进行反应检定时，魅力视为 <strong>18</strong>。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑人类”法术一样，魅惑最多 <strong>21 个等级／生命骰</strong>的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 <strong>3 段</strong>施法时间。
+佩戴者与人类／类人生物进行反应检定时，魅力视为 <strong>18</strong>。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑类人”法术一样，魅惑最多 <strong>21 个等级／生命骰</strong>的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 <strong>3 段</strong>施法时间。
 
-### 隐形戒指 Ring of Invisibility
+### 隐身戒指 Ring of Invisibility
 
 佩戴者可以随意立即隐形，效果与魔法师“隐形术”相同（见该法术说明）；但有 <strong>10%</strong> 的戒指还具有无声效果，使佩戴者绝对静默。若佩戴者开口说话或以其他方式打破静默，便会失去静默效果。
 
 ### 哺乳动物控制戒指 Ring of Mammal Control
 
-佩戴者可以完全控制智力为 <strong>4</strong> 或更低的哺乳动物（动物或半智能哺乳动物），总计最多 <strong>30 个生命骰</strong>。控制能力甚至可让受控生物自杀，但需要佩戴者全神贯注。（注意：此戒指不影响鸟类与哺乳动物混合的生物、人类、半人类，以及拉玛苏、舍度、曼提柯尔等怪物。若不确定某种怪物是否属于哺乳动物，就视为不属于。）显然，老鼠、鼬、群居动物、海豚，甚至独角兽都属于哺乳动物，但其智力会使其中较聪明者无法被控制。控制需 <strong>3 段</strong>发动。
+佩戴者可以完全控制智力为 <strong>4</strong> 或更低的哺乳动物（动物或半智能哺乳动物），总计最多 <strong>30 个生命骰</strong>。控制能力甚至可让受控生物自杀，但需要佩戴者全神贯注。（注意：此戒指不影响鸟类与哺乳动物混合的生物、人类、半人类，以及拉玛苏、舍度、刺尾狮等怪物。若不确定某种怪物是否属于哺乳动物，就视为不属于。）显然，老鼠、鼬、群居动物、海豚，甚至独角兽都属于哺乳动物，但其智力会使其中较聪明者无法被控制。控制需 <strong>3 段</strong>发动。
 
 ### 多重祈愿戒指 Ring of Multiple Wishes
 
@@ -1131,7 +1131,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此戒指有 <strong>2</strong> 种。普通再生戒指每轮恢复 <strong>1 点</strong>生命值，也能逐渐长回失去的肢体或器官。它甚至能使佩戴者死而复生；但若死因是毒药，佩戴者必须再进行一次对抗毒药的豁免检定，否则毒药仍会留在体内。只有火焰、酸或类似手段彻底毁坏所有活体组织，才能阻止再生。当然，必须戴着戒指才会生效，取下后再生便停止。罕见的吸血再生戒指则会立即恢复佩戴者在近战中对敌人造成伤害值的一半生命值（不足 <strong>1 点</strong>的零数舍去），但除此之外不会使其再生，也不会使其复活。掷百分骰决定戒指种类：<strong>01–90</strong> 为普通再生戒指，<strong>91–00</strong> 为吸血再生戒指。佩戴者的生命值总数无论如何都不能超过最初生成的数值。
 
-### 星辰射击戒指 Ring of Shooting Stars
+### 流星戒指 Ring of Shooting Stars
 
 此戒指有 <strong>2</strong> 种运作模式，且都只能在相对黑暗的环境下生效。夜间身处露天环境时，可产生以下效果：
 
@@ -1164,9 +1164,9 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 除非另有说明，以上能力的射程、持续时间和影响区域均按对应法术的最低施法等级计算。施法时间为 <strong>5 段</strong>。
 
-### 法术储存戒指 Ring of Spell Storing
+### 储法戒指 Ring of Spell Storing
 
-法术储存戒指含有 <strong>2–5 个</strong>法术（掷 <strong>1d4+1</strong>）；佩戴者可像相应等级的施法者一样使用其中的法术。戒指中法术的职业类别按卷轴相同方式确定；每个法术的环级按下表随机决定：
+储法戒指含有 <strong>2–5 个</strong>法术（掷 <strong>1d4+1</strong>）；佩戴者可像相应等级的施法者一样使用其中的法术。戒指中法术的职业类别按卷轴相同方式确定；每个法术的环级按下表随机决定：
 
 - 牧师：掷 <strong>1d6</strong>；若结果为 <strong>6</strong>，改掷 <strong>1d4</strong>。
 - 德鲁伊：按牧师法术处理。
@@ -1204,9 +1204,9 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 81–97 | 两枚戒指都永久耗尽魔力 |
 | 98–00 | 双方被卷入通往正物质位面的裂隙 |
 
-### 游泳戒指 Ring of Swimming
+### 善泳戒指 Ring of Swimming
 
-游泳戒指使佩戴者能够以完整 <strong>21"</strong>基础速度游泳，当然，前提是只穿适合游泳的衣物。若水深至少为每下潜 <strong>10 尺</strong>对应 <strong>½"</strong>，佩戴者还能安全下潜至 <strong>50 尺</strong>；并可在水下停留最多 <strong>4 轮</strong>而不必呼吸。佩戴者可连续在水面游泳 <strong>4 小时</strong>，随后须休息 <strong>1 小时</strong>（可漂浮休息）。除台风般的天气外，此戒指还可使佩戴者在水面保持漂浮。
+善泳戒指使佩戴者能够以完整 <strong>21"</strong>基础速度游泳，当然，前提是只穿适合游泳的衣物。若水深至少为每下潜 <strong>10 尺</strong>对应 <strong>½"</strong>，佩戴者还能安全下潜至 <strong>50 尺</strong>；并可在水下停留最多 <strong>4 轮</strong>而不必呼吸。佩戴者可连续在水面游泳 <strong>4 小时</strong>，随后须休息 <strong>1 小时</strong>（可漂浮休息）。除台风般的天气外，此戒指还可使佩戴者在水面保持漂浮。
 
 ### 心灵遥控戒指 Ring of Telekinesis
 
@@ -1224,11 +1224,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ### 三愿戒指 Ring of Three Wishes
 
-此戒指固定含有 <strong>3 个祈愿术</strong>，而非随机数量；除此之外与多重祈愿戒指相同，但其中 <strong>25%</strong>（骰值 <strong>01–25</strong>）含有 <strong>3 个有限祈愿术</strong>（见“有限祈愿术”）。
+此戒指固定含有 <strong>3 个祈愿术</strong>，而非随机数量；除此之外与多重祈愿戒指相同，但其中 <strong>25%</strong>（骰值 <strong>01–25</strong>）含有 <strong>3 个有限许愿术术</strong>（见“有限许愿术术”）。
 
-### 保暖戒指 Ring of Warmth
+### 温暖戒指 Ring of Warmth
 
-即使在没有任何衣物的极寒环境中，保暖戒指也能为佩戴者维持体温。它还会按每轮 <strong>1 点</strong>的速度恢复冻伤造成的伤害。对抗寒冷的豁免检定获得 <strong>+2</strong>，且每颗伤害骰造成的伤害减少 <strong>1 点</strong>。
+即使在没有任何衣物的极寒环境中，温暖戒指也能为佩戴者维持体温。它还会按每轮 <strong>1 点</strong>的速度恢复冻伤造成的伤害。对抗寒冷的豁免检定获得 <strong>+2</strong>，且每颗伤害骰造成的伤害减少 <strong>1 点</strong>。
 
 ### 水上行走戒指 Ring of Water Walking
 
@@ -1236,7 +1236,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ### 虚弱戒指 Ring of Weakness
 
-这是一枚诅咒戒指，会令佩戴者每轮损失 <strong>1 点力量</strong>与 <strong>1 点体质</strong>，直至两项属性都降至 <strong>3</strong>。在角色确实需要发挥体能之前（例如战斗或搬运重物），这种损失通常不会被察觉；戒指还会让佩戴者随意隐形，并使力量与体质的流失速度加倍。达到完全虚弱后，佩戴者将无法履行其职业职责。只有先对戒指施放“解除诅咒”，再施放“解除魔法”，才能移除虚弱戒指。
+这是一枚诅咒戒指，会令佩戴者每轮损失 <strong>1 点力量</strong>与 <strong>1 点体质</strong>，直至两项属性都降至 <strong>3</strong>。在角色确实需要发挥体能之前（例如战斗或搬运重物），这种损失通常不会被察觉；戒指还会让佩戴者随意隐形，并使力量与体质的流失速度加倍。达到完全虚弱后，佩戴者将无法履行其职业职责。只有先对戒指施放“移除诅咒”，再施放“解除魔法”，才能移除虚弱戒指。
 
 另有 <strong>5%</strong> 概率，这枚戒指其实是狂暴力量戒指。它会逐渐把力量与体质提高到 <strong>18</strong>；若佩戴者是战士，还须掷百分骰确定力量加值。每轮两项属性各增加 <strong>1 点</strong>。但只要两项属性都达到 <strong>18</strong>，佩戴者无论身处何种情况，都会立即与遇到的任何对手进入近战。戒指造成的属性损失可通过休息恢复：每休息 <strong>1 天</strong>，两项属性各恢复 <strong>1 点</strong>。取下戒指后，狂暴力量效果消失，体质值则按已获得的数值保留。
 
@@ -1255,7 +1255,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 96–99 | 一至三环法术 |
 | 00 | 四环与五环法术 |
 
-### X光视觉戒指 Ring of X-Ray Vision
+### X射线戒指 Ring of X-Ray Vision
 
 此戒指赋予佩戴者透视普通视觉无法穿透物质的能力。视觉范围为 <strong>20 尺</strong>，视野会扩张，仿佛处于普通日光下。X 光视觉每轮可穿透 <strong>20 尺</strong>厚的布料、木材或类似动植物材料，<strong>10 尺</strong>厚的石头，或 <strong>10 英寸</strong>厚的铁、钢等金属；铅、黄金与白金无法穿透。
 
@@ -1299,7 +1299,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 吸收权杖永远无法重新充能。它最多吸收 <strong>50 个法术环级</strong>的能量；达到此上限后只能释放尚存能量。持有者能得知权杖的 charges；若曾使用过，便会知道它已吸收多少法术环级。
 
-例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“定身人类”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 个 charges</strong>永久消耗。
+例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“定身类人”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 个 charges</strong>永久消耗。
 
 #### 迷惑权杖 Rod of Beguiling
 
@@ -1327,7 +1327,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 若物品未掷出豁免骰，或豁免失败，该物品便会失去魔力。吸尽物品魔力后，权杖本身会变得脆弱、失去力量。失去的魔力无法恢复，即使施展“祈愿术”也不行。
 
-#### 君主威仪权杖 Rod of Lordly Might
+#### 王者权杖 Rod of Lordly Might
 
 此权杖兼具类法术能力、数种魔法武器形态与日常用途。它由金属制成，比其他权杖更粗，一端有凸缘球头，长度方向上设有数枚突起。重 <strong>10 磅</strong>；只有力量至少 <strong>16</strong> 才能正常使用，低于 <strong>16</strong> 的每一点力量都会使命中骰承受 <strong>−1</strong>。
 
@@ -1341,22 +1341,22 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此权杖还可变为以下魔法武器：
 
-1. 保持原状时是一把 <strong>+2 钉头锤</strong>。
+1. 保持原状时是一把 <strong>+2 硬头锤</strong>。
 2. 按下 <strong>按钮 1</strong>，球头会弹出一柄 <strong>+1 火焰之剑</strong>，手柄随之缩短，使总长约 <strong>3 尺</strong>。
 3. 按下 <strong>按钮 2</strong>，球头会弹出一柄 <strong>+4 战斧</strong>，整体长度变为 <strong>4 尺</strong>。
 4. 按下 <strong>按钮 3</strong>，球头会弹出一柄 <strong>+3 长矛</strong>，手柄可伸长至 <strong>6–15 尺</strong>，适合用作骑枪。
 
 以上武器形态不消耗 charges。
 
-君主威仪权杖还具有以下普通用途：
+王者权杖还具有以下普通用途：
 
 1. 按下 <strong>按钮 4</strong>，权杖会变成攀爬杆：杆尾弹出一枚可钉入花岗岩的尖钉，顶端则伸出 <strong>3 个</strong>尖钩；每段长度增加 <strong>5 尺</strong>，直到按下 <strong>按钮 5</strong>，或长度达到 <strong>50 尺</strong>。在杆的两侧，每隔 <strong>1 尺</strong>会依次弹出长度 <strong>3 英寸</strong>的横杆。尖钉与尖钩牢牢固定后，可承受最多 <strong>4,000 磅</strong>重量。再按 <strong>按钮 5</strong>即可收回权杖。
 2. 若把权杖底端插入地面，并与目标入口保持 <strong>30 尺</strong>以内直线距离，权杖可强行打开与其对齐的门；力量相当于风暴巨人。
 3. 按下 <strong>按钮 6</strong>，权杖会指示磁北方向，并告知持有者地表之下（或上方）的近似深度。
 
-这些功能也不消耗 charges。君主威仪权杖不能重新充能。charges 耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。
+这些功能也不消耗 charges。王者权杖不能重新充能。charges 耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。
 
-#### 复活权杖 Rod of Resurrection
+#### 复生权杖 Rod of Resurrection
 
 此权杖使牧师能够复活死者——包括精灵、矮人、侏儒或半身人——如同施法者等级足够高，且不需要休息便能施展相应法术，因为权杖会提供复活生命所需的能量。每日可使用一次。复活角色消耗的 charges 取决于其职业与种族：
 
@@ -1376,7 +1376,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 多职业角色按最不利的职业类别计算。此权杖无法重新充能。
 
-#### 支配权杖 Rod of Rulership
+#### 统御权杖 Rod of Rulership
 
 持有此魔法权杖的人可以在启动装置时，支配 <strong>12"</strong>范围内的生物（命令其服从并忠诚）。一次可支配 <strong>200–500 个</strong>生命骰（或等级）的生物；智力达到 <strong>15</strong>或更高、且生命骰／等级达到 <strong>12</strong>或更高的生物，可以进行对抗魔法的豁免检定。被支配者会像面对绝对君主一样服从持杖者，但若命令绝对违背其本性，魔法便会破除。启动需 <strong>5 段</strong>；每个 charge 的效果持续 <strong>1 回合</strong>。此权杖不能重新充能。
 
@@ -1403,7 +1403,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此装置可以治疗疾病、失明、伤口（恢复 <strong>6–21 点</strong>生命值，掷 <strong>3d6+3</strong>）或精神错乱。每种能力对每个人每日最多使用一次；任何一种能力每日最多只能使用两次，也就是说，此法杖在 <strong>24 小时</strong>内最多可启动 <strong>8 次</strong>。种族不影响其使用（包括矮人、精灵、侏儒、半精灵、半身人与半兽人）。此法杖可以重新充能。
 
-#### 魔法师法杖 Staff of the Magi
+#### 贤者法杖 Staff of the Magi
 
 这根强大的法杖蕴含许多法术力量与其他能力，宛如一座可行走的军火库。以下能力不消耗 charges：
 
@@ -1430,18 +1430,18 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 - 旋风术
 - 位面旅行
-- 召唤元素生物
+- 咒唤元素
 - 心灵遥控
 
 旋风效果与巨灵造成的旋风相同。位面旅行类似灵能能力“概率旅行”，但只可前往不同位面。每天可召唤 <strong>1 个</strong>任意种类的元素生物，拥有 <strong>8 个生命骰</strong>。心灵遥控按 <strong>8 级</strong>施法者计算，最大可移动 <strong>200 磅</strong>重量。
 
-魔法师法杖会使持有者对抗魔法的豁免检定获得 <strong>+2</strong>。持有者也可用它攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害；消耗 <strong>1 charge</strong>可使伤害加倍。消耗 <strong>2 charges</strong>不会令伤害变为三倍。
+贤者法杖会使持有者对抗魔法的豁免检定获得 <strong>+2</strong>。持有者也可用它攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害；消耗 <strong>1 charge</strong>可使伤害加倍。消耗 <strong>2 charges</strong>不会令伤害变为三倍。
 
-魔法师法杖可发动“报复性打击”（参见“力量法杖”）。你也可以掷随机骰，决定其中某些能力的替代形式。
+贤者法杖可发动“报复性打击”（参见“威力法杖”）。你也可以掷随机骰，决定其中某些能力的替代形式。
 
-#### 力量法杖 Staff of Power
+#### 威力法杖 Staff of Power
 
-力量法杖是威力极强的魔法物品，兼具攻击与防御能力。它拥有以下能力：
+威力法杖是威力极强的魔法物品，兼具攻击与防御能力。它拥有以下能力：
 
 | 能力 | 消耗 charges |
 |:---|:---:|
@@ -1449,17 +1449,17 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 黑暗（半径 <strong>5 尺</strong>） | 1 |
 | 浮空术 | 1 |
 | 魔法飞弹或闪电束 | 1 |
-| 虚弱射线 | 1 |
+| 衰弱射线 | 1 |
 | 寒冷锥或火球术 | 1 |
 | 盾牌术（半径 <strong>5 尺</strong>） | 2 |
-| 无敌法球 | 2 |
+| 法术无效结界 | 2 |
 | 麻痹术 | 2 |
 
 麻痹术会从法杖末端射出一道光线，形成长 <strong>4"</strong>、底部宽 <strong>2"</strong>的锥形区域。
 
 持杖者的护甲等级与豁免检定均获得 <strong>+2</strong>。他／她也可用法杖攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害。消耗 <strong>1 charge</strong>时，伤害加倍；但消耗 <strong>2 charges</strong>不会令伤害变为三倍。
 
-力量法杖可以发动“报复性打击”（参见“魔法师法杖”）。你也可以掷随机骰，决定其替代能力。
+威力法杖可以发动“报复性打击”（参见“贤者法杖”）。你也可以掷随机骰，决定其替代能力。
 
 #### 蛇杖 Staff of the Serpent
 
@@ -1471,13 +1471,13 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 两种蛇杖都不需要 charges；其中 <strong>60%</strong> 为蟒蛇杖。
 
-#### 打击法杖 Staff of Striking
+#### 强袭法杖 Staff of Striking
 
-这根橡木法杖相当于 <strong>+3 魔法武器</strong>。（若采用武器对护甲类型调整，打击法杖始终按最有利于它的武器类型处理。）命中时造成 <strong>4–9 点</strong>伤害（<strong>1d6+3</strong>）。每次命中消耗 <strong>1 charge</strong>；若消耗 <strong>2 charges</strong>，额外伤害加倍（<strong>1d6+6</strong>）；若消耗 <strong>3 charges</strong>，额外伤害增至三倍（<strong>1d6+9</strong>）。每次攻击最多消耗 <strong>3 charges</strong>。此法杖可以重新充能。
+这根橡木法杖相当于 <strong>+3 魔法武器</strong>。（若采用武器对护甲类型调整，强袭法杖始终按最有利于它的武器类型处理。）命中时造成 <strong>4–9 点</strong>伤害（<strong>1d6+3</strong>）。每次命中消耗 <strong>1 charge</strong>；若消耗 <strong>2 charges</strong>，额外伤害加倍（<strong>1d6+6</strong>）；若消耗 <strong>3 charges</strong>，额外伤害增至三倍（<strong>1d6+9</strong>）。每次攻击最多消耗 <strong>3 charges</strong>。此法杖可以重新充能。
 
-#### 枯萎法杖 Staff of Withering
+#### 凋零法杖 Staff of Withering
 
-枯萎法杖是 <strong>+1 魔法武器</strong>，命中时造成 <strong>2–5 点</strong>伤害。若命中时额外消耗 <strong>2 charges</strong>，目标会衰老 <strong>10 年</strong>，其能力与寿命也按增加的年龄相应调整。若额外消耗 <strong>3 charges</strong>，目标的 <strong>1 条肢体</strong>会枯萎并失去作用，除非通过对抗魔法的豁免检定；具体枯萎哪条肢体由随机骰决定。无年龄概念的生物（如不死生物、恶魔、魔鬼等）不会衰老或枯萎。法杖效果可以累积，因此消耗 <strong>3 charges</strong>会同时造成伤害、衰老与枯萎。矮人衰老影响甚微；衰老也可能有益于巨龙。
+凋零法杖是 <strong>+1 魔法武器</strong>，命中时造成 <strong>2–5 点</strong>伤害。若命中时额外消耗 <strong>2 charges</strong>，目标会衰老 <strong>10 年</strong>，其能力与寿命也按增加的年龄相应调整。若额外消耗 <strong>3 charges</strong>，目标的 <strong>1 条肢体</strong>会枯萎并失去作用，除非通过对抗魔法的豁免检定；具体枯萎哪条肢体由随机骰决定。无年龄概念的生物（如不死生物、恶魔、魔鬼等）不会衰老或枯萎。法杖效果可以累积，因此消耗 <strong>3 charges</strong>会同时造成伤害、衰老与枯萎。矮人衰老影响甚微；衰老也可能有益于巨龙。
 
 ### 魔杖 Wands
 
@@ -1489,7 +1489,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 握住此魔杖后，魔法师可以立即辨认出任何已施放或写下的魔法师召唤／招致法术，即使自己看不见法术效果。它具有以下能力，每次使用消耗 <strong>1 charge</strong>：
 
-- 无形仆役
+- 隐形仆役
 - 怪物召唤*。
 
 \* 每次最多可消耗 <strong>6 charges</strong>：每级怪物召唤术消耗 <strong>1 charge</strong>；或施放 <strong>1 次怪物召唤 II</strong>、<strong>1 次怪物召唤 III</strong>；也可混合使用，总消耗不超过 <strong>6 charges</strong>。魔法师必须达到足以施放相应召唤术的等级。怪物召唤需 <strong>5 segments</strong>。
@@ -1498,7 +1498,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 魔杖还可构造棱彩法球（或棱彩墙），但每次只能产生一种颜色，从红色到紫色依次施展；每种颜色消耗 <strong>1 charge</strong>。魔杖的每项能力均需 <strong>5 segments</strong>，每轮只能使用一项。此魔杖可以重新充能。
 
-#### 敌意侦测魔杖 Wand of Enemy Detection
+#### 搜敌魔杖 Wand of Enemy Detection
 
 此魔杖会发出脉冲，并指向任何意图伤害持有者的敌对生物。无论该生物隐形、以太态、星界态、处于异相、躲藏、伪装，还是就在明处，都能被侦测到。侦测范围为半径 <strong>6"</strong>。启动后持续 <strong>1 回合</strong>，消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
 
@@ -1512,7 +1512,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 1. <strong>燃烧之手：</strong>魔杖射出扇形火焰，末端宽 <strong>10'</strong>、长 <strong>12'</strong>。被火焰触及的每个生物受到 <strong>6 点</strong>伤害。火焰在 <strong>1 segment</strong> 内出现、喷射，并于不到 <strong>1 秒</strong>后熄灭。消耗 <strong>1 charge</strong>。
 2. <strong>烟火术：</strong>此能力与同名法术完全相同，需 <strong>2 segments</strong> 启动，消耗 <strong>1 charge</strong>。
-3. <strong>火球术：</strong>魔杖射出一颗豌豆大小的火焰球，飞向指定距离（最远 <strong>16"</strong>）后爆炸，效果与以同名法术施放的火球术完全相同。需要 <strong>2 segments</strong>，消耗 <strong>2 charges</strong>。火球造成 <strong>6 颗六面骰</strong>的伤害，但所有 <strong>1 点</strong>均按 <strong>2 点</strong>计，即造成 <strong>12–36 点</strong>伤害。目标可进行对抗魔杖的豁免检定。
+3. <strong>火球术：</strong>魔杖射出一颗豌豆大小的炽焰法球，飞向指定距离（最远 <strong>16"</strong>）后爆炸，效果与以同名法术施放的火球术完全相同。需要 <strong>2 segments</strong>，消耗 <strong>2 charges</strong>。火球造成 <strong>6 颗六面骰</strong>的伤害，但所有 <strong>1 点</strong>均按 <strong>2 点</strong>计，即造成 <strong>12–36 点</strong>伤害。目标可进行对抗魔杖的豁免检定。
 4. <strong>火墙术：</strong>魔杖可划出一幅紫红色火焰帷幕，效果与魔法师施放的火墙术完全相同：形成面积为 <strong>12 平方尺</strong>（如 <strong>1" × 12'、2" × 6'、3" × 4'</strong>等）的火焰片，持续 <strong>6 轮</strong>；触碰者受到 <strong>8–18 点</strong>伤害（<strong>2d6+6</strong>）；距离火焰 <strong>1'</strong>以内者受到 <strong>2–8 点</strong>伤害，距离 <strong>2'</strong>以内者受到 <strong>1–4 点</strong>伤害。火焰还可围绕持杖者形成环形屏障（圆环直径仅 <strong>2½"</strong>）。此能力需 <strong>3 segments</strong>，消耗 <strong>2 charges</strong>。
 
 火焰魔杖每轮最多使用一次，可以重新充能。
@@ -1540,7 +1540,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 幻象魔杖 Wand of Illusion
 
-幻象魔杖可创造听觉与视觉幻象（参见“听觉幻象术”和“幻象之力”）。魔杖射出一道不可见光线，最大射程为 <strong>14"</strong>。幻象需 <strong>3 segments</strong>开始形成。持杖者必须集中精神维持幻象，但可以正常移动（不可近战），并在移动中继续专注。听觉或视觉部分每项均消耗 <strong>1 charge</strong>产生，并每持续 <strong>1 轮</strong>再消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
+幻象魔杖可创造听觉与视觉幻象（参见“听觉幻象术”和“魅影之力”）。魔杖射出一道不可见光线，最大射程为 <strong>14"</strong>。幻象需 <strong>3 segments</strong>开始形成。持杖者必须集中精神维持幻象，但可以正常移动（不可近战），并在移动中继续专注。听觉或视觉部分每项均消耗 <strong>1 charge</strong>产生，并每持续 <strong>1 轮</strong>再消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
 
 #### 闪电魔杖 Wand of Lightning
 
@@ -1551,9 +1551,9 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此魔杖可以重新充能，每轮最多使用一项能力。
 
-#### 魔法侦测魔杖 Wand of Magic Detection
+#### 搜魔魔杖 Wand of Magic Detection
 
-此魔杖的运作方式与敌意侦测魔杖相似。若 <strong>3"</strong>范围内存在任何形式的魔法效应或魔法物品，魔杖会发出脉冲并指向最强的魔法源。注意，若某人曾施放法术，魔杖会指向此人。花费 <strong>1 回合</strong>专注于目标的光环，即可辨认魔法类别（防护、变化等）。每次使用消耗 <strong>1 charge</strong>。从连续使用的第 <strong>2 轮</strong>开始，魔杖每轮有 <strong>2%</strong> 的累积概率暂时失灵，并把非魔法物品误判为魔法物品，或反之。此魔杖可以重新充能。
+此魔杖的运作方式与搜敌魔杖相似。若 <strong>3"</strong>范围内存在任何形式的魔法效应或魔法物品，魔杖会发出脉冲并指向最强的魔法源。注意，若某人曾施放法术，魔杖会指向此人。花费 <strong>1 回合</strong>专注于目标的光环，即可辨认魔法类别（防护、变化等）。每次使用消耗 <strong>1 charge</strong>。从连续使用的第 <strong>2 轮</strong>开始，魔杖每轮有 <strong>2%</strong> 的累积概率暂时失灵，并把非魔法物品误判为魔法物品，或反之。此魔杖可以重新充能。
 
 #### 金属与矿物侦测魔杖 Wand of Metal and Mineral Detection
 
@@ -1581,16 +1581,16 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此魔杖对密门的有效探测半径为 <strong>1½"</strong>，对陷阱则为 <strong>3"</strong>。启动后，它会发出脉冲并指向范围内的密门或陷阱。注意，一次操作只能定位其中一种，不能同时定位二者。启动需 <strong>1 回合</strong>并消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
 
-#### 奇迹魔杖 Wand of Wonder
+#### 惊异魔杖 Wand of Wonder
 
-奇迹魔杖是一种古怪而不可预测的装置，每次使用都会随机产生任意数量的奇异效果。下表列出通常效果，但你可以在战役中按需调整部分或全部结果；不过建议遵循下表所示规律。魔杖的效果如下：
+惊异魔杖是一种古怪而不可预测的装置，每次使用都会随机产生任意数量的奇异效果。下表列出通常效果，但你可以在战役中按需调整部分或全部结果；不过建议遵循下表所示规律。魔杖的效果如下：
 
 | d100 | 效果 |
 |---|---|
 | 01–10 | 被指向的生物迟缓 <strong>1 回合</strong> |
 | 11–18 | 持杖者陷入迷惑 <strong>1 轮</strong>，相信魔杖能力如再次掷骰所示 |
 | 19–25 | 阵风；法术效果加倍 |
-| 26–30 | 在 <strong>3\"</strong>范围内引发恶臭云 |
+| 26–30 | 在 <strong>3\"</strong>范围内引发臭云术 |
 | 31–33 | 魔杖周围 <strong>6\"</strong>半径内降下倾盆大雨，持续 <strong>1 轮</strong> |
 | 34–36 | 召唤犀牛（<strong>01–25</strong>）、大象（<strong>26–50</strong>）或老鼠（<strong>51–00</strong>） |
 | 37–46 | 以魔杖形态发射闪电束（<strong>7\" × ½\"</strong>） |
@@ -1623,7 +1623,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 特殊说明 Special Note
 
-所有魔法书、法术书、手册、典籍等都看起来像普通书籍。仅凭外观检查或探测魔法灵光，无法分辨它们彼此之间的区别。吟游诗人角色有通常概率获知此类文字的性质，也能辨认书中是否记有魔法师法术。除此之外，只有“祈愿术”能有效识别魔法文字；例如施展“扭曲现实”“通晓语言”“沟通高等位面”“有限祈愿”“真实视觉”“真实观测”等，其他法术或能力均无效。
+所有魔法书、法术书、手册、典籍等都看起来像普通书籍。仅凭外观检查或探测魔法灵光，无法分辨它们彼此之间的区别。吟游诗人角色有通常概率获知此类文字的性质，也能辨认书中是否记有魔法师法术。除此之外，只有“祈愿术”能有效识别魔法文字；例如施展“扭曲现实”“通晓语言”“沟通高等位面”“有限许愿术”“真实视觉”“真实观测”等，其他法术或能力均无效。
 
 “祈愿术”会揭示书籍的大致内容，并说明该著作主要影响（未必有益于）哪些特质或职业。要确定其确切内容，必须再施展一次“祈愿术”。角色使用后，大多数这类魔法著作会永远消失；若对读者有害，通常会附着在角色身上，使其无法摆脱。若著作能使另一阵营的角色受益，持有者会被迫隐藏并守护这本书。作为地下城主，应发挥判断力与想象力决定这些物品的具体作用，并以本章规则作为参考框架。
 
@@ -1681,11 +1681,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 你也可以改用以下结果：<strong>22</strong> 以太位面；<strong>23</strong> 星界位面；<strong>24</strong> 主物质位面，但抵达的是另一个版本的主物质世界（例如另一颗地球）。
 
-#### 防侦测与定位护符 Amulet of Proof Against Detection and Location
+#### 反侦护符 Amulet of Proof Against Detection and Location
 
 此装置可使佩戴者免受一切占卜、心灵或魔法定位／侦测。不能通过通灵术、千里眼、ESP、心灵感应、水晶球或其他占卜装置侦测佩戴者。佩戴者身上没有可辨识的灵光；除非求助某位强大的存在，否则也无法对其作出预测。
 
-#### 克瓦利什装置 Apparatus of Kwalish
+#### 夸力许装置 Apparatus of Kwalish
 
 初次发现此物时，它看起来一定像一个大型铁桶。一端有一个隐蔽扣件，可以打开舱门。装置内部有 <strong>10 个杠杆</strong>：
 
@@ -1708,20 +1708,20 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 定向箭通常看起来像普通箭（也可能是魔法箭）。其魔法能力使它的作用类似“寻找物体”法术，但会为箭赋予指向所求方向的能力。每天可将此箭抛向空中 <strong>1 次</strong>；箭落下时会指向所需方向，并可在接下来的 <strong>7 轮</strong>内重复此过程。注意，箭只会指向所请求的方向或地点。每次询问只能指定一项：上行或下行的楼梯、向上或向下倾斜的通道、地下城出口或入口、洞穴或洞窟。询问必须说明距离（最近、最远、最高、最低）或方向（北、南、东、西等）。
 
-#### 豆袋 Bag of Beans
+#### 魔豆之袋 Bag of Beans
 
 此袋由厚重布料制成，约 <strong>2'</strong>宽、<strong>4'</strong>长（与其他袋子或大麻袋相当）。打开检查后，会发现袋中有若干大型卵石状物体。若将它们倒出袋外，每颗都会爆炸并造成 <strong>5–20 点</strong>伤害；半径 <strong>10'</strong>内的所有生物都必须通过对抗魔法的豁免检定，否则承受全部伤害。要安全取出豆子，必须用手伸入袋中；心灵遥控术无效，也不能用任何不会引爆豆子的工具取出。每颗卵石状豆子都必须埋入土中并浇水。每颗豆子都会依次长出某种生物或物体。建议一袋有 <strong>3–12 颗</strong>豆子，其中仅 <strong>1–2 颗</strong>会带来益处，其余会变成怪物或无用之物。例如：
 
-1. <strong>#1：</strong>长出 <strong>3 只</strong>尖叫蕈，并开始哀嚎。
+1. <strong>#1：</strong>长出 <strong>3 只</strong>尖叫菌，并开始哀嚎。
 2. <strong>#2：</strong>该区域遭到冰风暴袭击。
 3. <strong>#3：</strong>长出一丛有毒覆盆子灌木，并射出活动的根须；每颗浆果都是一颗价值 <strong>100 或 500 金币</strong>的宝石（也可能只是毫无价值的玻璃）。
-4. <strong>#4：</strong>地面出现一个洞；洞下可能有一条紫虫，也可能有一枚召唤巨灵戒指。
+4. <strong>#4：</strong>地面出现一个洞；洞下可能有一条紫虫，也可能有一枚召唤气巨灵戒指。
 5. <strong>#5：</strong>烟雾与毒气覆盖半径 <strong>50'</strong>的区域，持续 <strong>5 轮</strong>；生物看不见东西，离开云团后仍会目盲 <strong>1–6 轮</strong>。
-6. <strong>#6：</strong>一只双足飞龙瞬间长成并发动攻击；它的尾刺是“穿刺标枪”。
+6. <strong>#6：</strong>一只飞龙瞬间长成并发动攻击；它的尾刺是“穿刺标枪”。
 7. <strong>#7：</strong>毒气缓慢渗出，形成半径 <strong>20'</strong>的云团，持续 <strong>1 回合</strong>；期间云团中心的泥土会变成魔法尘埃，出现后又消失，同时令人打喷嚏、窒息……。
 
 此物品需要地下城主发挥思考、想象力与判断力。
 
 #### 吞噬袋 Bag of Devouring
 
-此袋看起来像普通袋子——可能是空的，也可能装着一些物品。实际上，它被一个异次元生物用作进食孔道，是其摄食器官之一。任何动物或植物质物体，只要被塞入袋中，就会被“吞噬”。吞噬袋有 <strong>90%</strong> 的概率忽略最初放入袋中的物品；但只要它感知到其中有活的人类血肉，就有 <strong>60%</strong> 的概率闭合袋口，并试图将整个受害者拖入袋内。基础成功率为 <strong>75%</strong>；力量的伤害加值每 <strong>+1</strong>，此概率便降低 <strong>5%</strong>。因此，力量 <strong>18</strong>（伤害加值 <strong>+2</strong>）的角色仅有 <strong>65%</strong> 的概率被拖入袋中，而力量 <strong>5</strong>（伤害减值 <strong>−1</strong>）的角色则有 <strong>80%</strong> 的概率被拖入。此袋散发魔法灵光，可容纳最多 <strong>30 立方尺</strong>的物质。它会像普通收纳袋一样发挥作用……
+此袋看起来像普通袋子——可能是空的，也可能装着一些物品。实际上，它被一个异次元生物用作进食孔道，是其摄食器官之一。任何动物或植物质物体，只要被塞入袋中，就会被“吞噬”。吞噬袋有 <strong>90%</strong> 的概率忽略最初放入袋中的物品；但只要它感知到其中有活的人类血肉，就有 <strong>60%</strong> 的概率闭合袋口，并试图将整个受害者拖入袋内。基础成功率为 <strong>75%</strong>；力量的伤害加值每 <strong>+1</strong>，此概率便降低 <strong>5%</strong>。因此，力量 <strong>18</strong>（伤害加值 <strong>+2</strong>）的角色仅有 <strong>65%</strong> 的概率被拖入袋中，而力量 <strong>5</strong>（伤害减值 <strong>−1</strong>）的角色则有 <strong>80%</strong> 的概率被拖入。此袋散发魔法灵光，可容纳最多 <strong>30 立方尺</strong>的物质。它会像普通次元袋一样发挥作用……

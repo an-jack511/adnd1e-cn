@@ -46,7 +46,7 @@ Timitrios 很高兴能继续学习，但很快发现自己的老师相当脱离�
 
 现在，27 岁的 蒂米特里奥斯·斯巴达科斯 有黑发、橄榄色皮肤和黑眼睛。他身高普通，通常穿普通街服，而不是法师长袍。他的魔宠是一只花猫，总在他身边。
 
-除了<strong>防侦测位置护符</strong>，Timitrios 还拥有一枚曾属于上一位老师的<strong>法术储存戒指</strong>。其中只储存防御性法术：<strong>羽落术</strong>、<strong>隐形术</strong>、<strong>防护普通飞弹</strong>和<strong>传送术</strong>。他还有以下物品：两瓶<strong>寻宝药水</strong>、一枚 +2 <strong>防护戒指</strong>、一根<strong>抵消魔杖</strong>、一双<strong>加速之靴</strong>、一只<strong>火巨灵瓶</strong>，以及两颗欧恩石，一颗淡薰衣草色，一颗薰衣草色与绿色相间（分别能吸收最高四环和八环法术）；这些物品都来自他两位强大的前任老师。
+除了<strong>防侦测位置护符</strong>，Timitrios 还拥有一枚曾属于上一位老师的<strong>储法戒指</strong>。其中只储存防御性法术：<strong>羽落术</strong>、<strong>隐形术</strong>、<strong>防护普通飞弹</strong>和<strong>传送术</strong>。他还有以下物品：两瓶<strong>寻宝药水</strong>、一枚 +2 <strong>防护戒指</strong>、一根<strong>抵消魔杖</strong>、一双<strong>加速之靴</strong>、一只<strong>火巨灵囚瓶</strong>，以及两颗欧恩石，一颗淡薰衣草色，一颗薰衣草色与绿色相间（分别能吸收最高四环和八环法术）；这些物品都来自他两位强大的前任老师。
 
 山谷法师没有忘记这个背叛自己的年轻学生。他的山谷精灵刺客正在寻找 Timitrios，并向法师报告他的确切位置。一旦知道这个犯错的学生究竟在哪里，山谷法师就打算去拜访他，以他的话说，两人要“一起叙叙旧”。
 

@@ -321,13 +321,13 @@
 |:---:|:---|:---:|:---|
 | 01 | 棕精灵语 Brownie | 45–49 | 半身人语 Halfling |
 | 02–03 | 熊地精语 Bugbear | 50–51 | 大地精语 Hobgoblin |
-| 04 | 半人马语 Centaur | 52–54 | 狗头人语 Kobold |
+| 04 | 人马语 Centaur | 52–54 | 狗头人语 Kobold |
 | 05 | 黑龙语 Dragon, Black | 55 | 拉玛苏语 Lammasu |
 | 06 | 蓝龙语 Dragon, Blue | 56–58 | 蜥蜴人语 Lizard Man |
-| 07 | 黄铜龙语 Dragon, Brass | 59 | 曼提柯尔语 Manticore |
+| 07 | 黄铜龙语 Dragon, Brass | 59 | 刺尾狮语 Manticore |
 | 08 | 青铜龙语 Dragon, Bronze | 60 | 美杜莎语 Medusian |
 | 09 | 赤铜龙语 Dragon, Copper | 61 | 牛头人语 Minotaur |
-| 10 | 金龙语 Dragon, Gold | 62 | 守护纳迦语 Naga, Guardian |
+| 10 | 金龙语 Dragon, Gold | 62 | 守秘纳迦语 Naga, Guardian |
 | 11 | 绿龙语 Dragon, Green | 63 | 灵体语 Spirit |
 | 12 | 红龙语 Dragon, Red | 64 | 水族语 Water |
 | 13 | 银龙语 Dragon, Silver | 65 | 水精灵语 Nixie |
@@ -387,9 +387,9 @@
 | 赎罪术 Atonement | 每名受术者每经验等级 500 |
 | 卜筮术 Augury | 300 |
 | 祝福术 Bless | 每名目标每施法者等级 5 |
-| 神谕术 Commune | 1,000，另加每个问题 500 |
+| 通神术 Commune | 1,000，另加每个问题 500 |
 | 持续光亮术 Continual Light | 500 |
-| 控制天气术 Control Weather | 10,000 |
+| 操控天气术 Control Weather | 10,000 |
 | 治疗失明 Cure Blindness | 1,000 |
 | 治疗疾病 Cure Disease | 1,000 |
 | 治疗轻伤 Cure Light Wounds | 100 |
@@ -405,14 +405,14 @@
 | 寻路术 Find the Path | 每施法者等级 500 |
 | 异界之门 Gate | 50,000 |
 | 守护刻文 Glyph of Warding | 每施法者等级 100 |
-| 治疗术 Heal | 每恢复 1 点生命值 200 |
-| 中和毒素 Neutralize Poison | 1,000 |
+| 医疗术 Heal | 每恢复 1 点生命值 200 |
+| 中和毒性 Neutralize Poison | 1,000 |
 | 分水术 Part Water | 每施法者等级 1,000 |
 | 位面移动 Plane Shift | 4,000 |
 | 祈祷术 Prayer | 每施法者等级 50 |
 | 防护邪恶 Protection from Evil | 每施法者等级 50 |
 | 净化食物与饮水 Purify Food & Drink | 100 |
-| 死者复生 Raise Dead | 1,000，另加每施法者等级 500 |
+| 活化死尸 Raise Dead | 1,000，另加每施法者等级 500 |
 | 再生术 Regenerate | 15,000 |
 | 移除诅咒 Remove Curse | 每施法者等级 500 |
 | 抵御寒冷 Resist Cold | 每施法者等级 50 |
@@ -420,9 +420,9 @@
 | 复原术 Restoration | 10,000，另加受术者每经验等级 10,000 |
 | 静音术 Silence | 每施法者等级 100 |
 | 延缓毒发 Slow Poison | 每施法者等级 200 |
-| 与死者交谈 Speak with Dead | 每施法者等级 100 |
-| 通晓语言 Tongues | 500 |
-| 真实视域 True Seeing | 每施法者等级 400 |
+| 死者交谈 Speak with Dead | 每施法者等级 100 |
+| 巧言术 Tongues | 500 |
+| 真知术 True Seeing | 每施法者等级 400 |
 
 对虔诚信徒或低等级角色，可以下调价格；对不常参加宗教仪式的人，则可以稍微提高价格。若施法者需要在没有风险的情况下长途旅行，费用可能增至原来的两倍；若旅途存在任何风险，牧师很可能会拒绝，或收取表列价格的 <strong>5 倍以上</strong>。
 
@@ -486,7 +486,7 @@
 
 队伍发现一座要塞并发动攻击。
 
-<strong>S1：</strong>守卫会立即鸣警。要塞内多个地点都会拉响警报。首领会奋力守住要塞或驱逐入侵者。施法者很可能已被安排到特定位置、分配好职责，例如施放火球术、闪电术、焰击术、云雾杀机、解除魔法等法术。守军的目标是<strong>杀死</strong>攻击者，不会愚蠢地轻手轻脚应付；通常他们既不接受投降，也不请求饶命。同样，要塞内的陷阱也会致命。战斗持续期间，指挥官会评估队伍的实力、弱点、防御与攻击方式，并采取相应反制。若攻击者进入要塞，可能的入口和逃生路线都会被封锁。当攻击者撤退时，守军很可能反击，至少也会不断骚扰。只要队伍仍在要塞的打击范围内，堡垒成员就会持续跟踪。
+<strong>S1：</strong>守卫会立即鸣警。要塞内多个地点都会拉响警报。首领会奋力守住要塞或驱逐入侵者。施法者很可能已被安排到特定位置、分配好职责，例如施放火球术、闪电束、焰击术、云雾杀机、解除魔法等法术。守军的目标是<strong>杀死</strong>攻击者，不会愚蠢地轻手轻脚应付；通常他们既不接受投降，也不请求饶命。同样，要塞内的陷阱也会致命。战斗持续期间，指挥官会评估队伍的实力、弱点、防御与攻击方式，并采取相应反制。若攻击者进入要塞，可能的入口和逃生路线都会被封锁。当攻击者撤退时，守军很可能反击，至少也会不断骚扰。只要队伍仍在要塞的打击范围内，堡垒成员就会持续跟踪。
 
 <strong>S2：</strong>要塞很可能已补足全部损失，并得到额外增援。攻击者接近时可能遭遇伏击。一支突击队已准备好袭击攻击者（最好趁其正面交战时，从侧翼或后方打击）。攻城器械、火油、飞弹等都已备齐且供应充足。防御工事会在时间和材料允许范围内尽可能修复。薄弱区域会依照实际情况封堵、隔离并设置陷阱。首领会在附近随时接管指挥。施法者可能伪装成守卫，或藏在岗哨附近，以便突袭攻击者。攻击者一旦撤退，守军就会穷追不舍。
 
@@ -503,7 +503,7 @@
 | 部队种族 | 无军官／弱势首领 | 无军官／强势首领 | 有军官／强势首领 |
 |:---:|:---:|:---:|:---:|
 | 熊地精 Bugbear | 30% | 50% | 80% |
-| 豺狼人 Gnoll | 30% | 40% | 80% |
+| 鬣狗人 Gnoll | 30% | 40% | 80% |
 | 地精 Goblin | 40% | 50% | 90% |
 | 大地精 Hobgoblin | 20% | 40% | 90% |
 | 狗头人 Kobold | 25% | 50% | 95% |
@@ -516,10 +516,10 @@
 
 ### 类人生物种族偏好表 Humanoid Racial Preferences Table
 
-| 种族 | 熊地精 Bugbear | 豺狼人 Gnoll | 地精 Goblin | 丘陵巨人 Hill Giant | 大地精 Hobgoblin | 狗头人 Kobold | 食人魔 Ogre | 兽人 Orc | 巨魔 Troll |
+| 种族 | 熊地精 Bugbear | 鬣狗人 Gnoll | 地精 Goblin | 丘陵巨人 Hill Giant | 大地精 Hobgoblin | 狗头人 Kobold | 食人魔 Ogre | 兽人 Orc | 巨魔 Troll |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 熊地精 Bugbear | P | T* | G | T | A* | A* | T | A* | N |
-| 豺狼人 Gnoll | T | P | A* | T | N | A* | G | T* | N |
+| 鬣狗人 Gnoll | T | P | A* | T | N | A* | G | T* | N |
 | 地精 Goblin | G | A | P | N | T | G | H | N | A |
 | 丘陵巨人 Hill Giant | G | G | A | P | A | A | G | N* | T |
 | 大地精 Hobgoblin | T | N | N* | N | H** | A* | A | T* | H |

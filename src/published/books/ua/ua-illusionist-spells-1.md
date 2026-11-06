@@ -4,7 +4,7 @@
 
 以下四项按原书印刷第 66–67 页详述顺序排列。
 
-## 彩色法球 Chromatic Orb（变化／塑能系 Alteration-Evocation）
+## 繁彩球 Chromatic Orb（变化／塑能系 Alteration-Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>

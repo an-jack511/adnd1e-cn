@@ -43,7 +43,7 @@
 每个高级《龙与地下城》模组都是可直接开玩的冒险设定，包含相应的怪物、财宝、诡计、陷阱、地图、背景资料与历史。各模组虽可独立使用，但若干系列专为连贯推进的冒险而设计。
 
 - <strong>巨人系列：</strong> G1《丘陵巨人首领的堡寨》*Steading of the Hill Giant Chief*；G2《霜巨人领主的冰川裂谷》*Glacial Rift of the Frost Giant Jarl*；G3《火巨人之王的大殿》*Hall of the Fire Giant King*。
-- <strong>地下深处系列：</strong> D1《深入地下深处》*Descent into the Depths of the Earth*；D2《寇涛鱼人神龛》*Shrine of the Kuo-Toa*；D3《卓尔之穴》*Vault of the Drow*。
+- <strong>地下深处系列：</strong> D1《深入地下深处》*Descent into the Depths of the Earth*；D2《寇涛神龛》*Shrine of the Kuo-Toa*；D3《卓尔之穴》*Vault of the Drow*。
 - <strong>S 系列：</strong> S1《恐怖之墓》*Tomb of Horrors*；S2《白羽山》*White Plume Mountain*；S3《屏障峰探险》*Expedition to the Barrier Peaks*。
 - T1《霍姆莱特村》*The Village of Hommlet*。
 - C1《塔莫阿坎隐秘神龛》*Hidden Shrine of Tamoachan*；C2《因弗内斯幽灵塔》*Ghost Tower of Inverness*。

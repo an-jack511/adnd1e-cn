@@ -2,7 +2,7 @@
 
 # 魔法师五环法术 Fifth Level Spells
 
-以下六项依原书第 58–59 页详述顺序排列。*传讯术 Sending*虽未在前面的法术表中用斜体标为新增详述，原书此处仍给出完整规则，故照录。
+以下六项依原书第 58–59 页详述顺序排列。*短讯术 Sending*虽未在前面的法术表中用斜体标为新增详述，原书此处仍给出完整规则，故照录。
 
 ## 回避术 Avoidance（防护／变化系 Abjuration/Alteration，可逆向）
 
@@ -49,7 +49,7 @@
 
 若目标智力高于施法者，施法者吟诵时可能遭精神反击：每高 <strong>1 点智力</strong>，目标便有 <strong>5%</strong> 概率反过来魅惑并支配魔法师；得手后会按自己的阵营处置施法者。若施法者在施术中被分心或打断，目标可<strong>自动</strong>实现这种魅惑与支配。
 
-## 制造术 Fabricate（附魔／变化系 Enchantment-Alteration）
+## 鬼斧神工 Fabricate（附魔／变化系 Enchantment-Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>5<br>
@@ -91,7 +91,7 @@
 
 维持期间施法者遭攻击或分心，目标仍不会察觉；施法者也可随时离去，目标会像他仍在场一样继续交谈 <strong>1 轮</strong>。这些情形下不再作法术持续所需的豁免，即使原本应检定困惑或狂怒。本术完全依靠言语。
 
-## 传讯术 Sending（塑能系 Evocation）
+## 短讯术 Sending（塑能系 Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>5<br>

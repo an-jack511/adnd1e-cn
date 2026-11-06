@@ -24,7 +24,7 @@
 
 ### 141：基石种于 Neraka Stone Planted in Neraka
 
-塔克西丝 将基石放置在 Neraka 的荒原上，远离任何人口中心。石头开始成长，逐渐形成神殿的扭曲与堕落形态。黑暗女王通过石头开启的传送门进入这个世界。在克莱恩的生物之间行走时，她唤醒自己的邪恶巨龙，并为她心中计划的工作做好准备。随后，她穿过传送门返回深渊位面，召集自己的力量。
+塔克西丝 将基石放置在 Neraka 的荒原上，远离任何人口中心。石头开始成长，逐渐形成神殿的扭曲与堕落形态。黑暗女王通过石头开启的异界之门进入这个世界。在克莱恩的生物之间行走时，她唤醒自己的邪恶巨龙，并为她心中计划的工作做好准备。随后，她穿过异界之门返回深渊位面，召集自己的力量。
 
 ### 157：Berem 找到石头 Berem Finds the Stone
 
@@ -34,7 +34,7 @@
 
 ### 210：Takhisis 回归 Takhisis Returns
 
-黑暗女王再次试图通过石头打开的传送门进入克莱恩。令她极度挫败的是，她发现传送门因为妹妹的灵魂存在而关闭。她怒不可遏，开始寻找解决方法。
+黑暗女王再次试图通过石头打开的异界之门进入克莱恩。令她极度挫败的是，她发现异界之门因为妹妹的灵魂存在而关闭。她怒不可遏，开始寻找解决方法。
 
 ### 287：龙蛋被偷 Dragon Eggs Stolen
 
@@ -46,7 +46,7 @@
 
 ### 300 至 320：邪恶的使者 Agents of Evil
 
-塔克西丝 将她的使者派往世界各地，寻找胸中嵌有绿色宝石的男人。她知道这个男人就是再次开启传送门的钥匙。贝伦 看似消失不见，使她越来越沮丧。最终，她决定把自己的计划付诸行动。
+塔克西丝 将她的使者派往世界各地，寻找胸中嵌有绿色宝石的男人。她知道这个男人就是再次开启异界之门的钥匙。贝伦 看似消失不见，使她越来越沮丧。最终，她决定把自己的计划付诸行动。
 
 ## 龙之时代 Age of Dragons
 
@@ -78,7 +78,7 @@ Sanction、Neraka 与 Estwilde 的野蛮好战人类获准发现邪恶巨龙。�
 
 <strong>地图：战后安萨隆 Post-War Ansalon。</strong>本页为安萨隆大陆与周边岛屿地图，标示战后地区、山脉、城市、要塞、海域和坐标网格。
 
-<strong>地图标注记录：</strong>City of Lost Names（失名之城）、Palanthas、High Clerist Tower（高等牧师塔）、Vingaard Keep、Dargaard Keep、Tros、Solanthus、Thelgaard Keep、Garnet、Caergoth、Northern 艾尔戈斯（北 艾尔戈斯）、Southern 艾尔戈斯（南 艾尔戈斯）、Sancrist、Mt. Nevermind、奇斯列夫（Chislev）、西尔瓦内斯提（Silvanesti）、奎利内斯提（Qualinesti）、Daligoth、艾尔戈斯、Abanasinia、Solace、扎克沙罗斯（Xak Tsaroth）、New Coast（新海岸）、索巴丁（Thorbardin）、Tarsis、Ice Mountain Bay（冰山湾）、卡罗利斯（Kharolis）、Plains of Dust（尘土平原）以及 Sea of Blood（血海）。
+<strong>地图标注记录：</strong>City of Lost Names（失名之城）、Palanthas、High Clerist Tower（高等牧师塔）、Vingaard Keep、Dargaard Keep、Tros、Solanthus、Thelgaard Keep、Garnet、Caergoth、Northern 艾尔戈斯（北 艾尔戈斯）、Southern 艾尔戈斯（南 艾尔戈斯）、Sancrist、Mt. Nevermind、奇思洛夫（Chislev）、西尔瓦内斯提（Silvanesti）、奎利内斯提（Qualinesti）、Daligoth、艾尔戈斯、Abanasinia、Solace、扎克沙罗斯（Xak Tsaroth）、New Coast（新海岸）、索巴丁（Thorbardin）、Tarsis、Ice Mountain Bay（冰山湾）、卡罗利斯（Kharolis）、Plains of Dust（尘土平原）以及 Sea of Blood（血海）。
 
 <strong>插图说明：</strong>地图顶部标注“战后安萨隆（post-War ansalon）”；地图包含纵横坐标刻度与阴影区域。
 
@@ -102,13 +102,13 @@ Sanction、Neraka 与 Estwilde 的野蛮好战人类获准发现邪恶巨龙。�
 
 塔克西丝 派出剩下的两支龙之军队增援进攻，将曾经美丽的森林夷为废墟，并缓慢向 Silvanost 推进。尽管精灵英勇作战，仍在战争中遭到屠杀；巨龙开始有计划地摧毁精灵的粮食储备。秋季，首都带着大量难民撤离。精灵舰队踏上前往 Southern 艾尔戈斯的危险航程，而许多战士仍然留在后方。
 
-在这一年的最后一天，龙之军队逼近 Silvanost，精灵意识到战争已经失败。为了绝望地扭转局势，Lorac 国王试图使用一颗屠龙宝珠毁灭邪恶军队。然而，背叛的宝珠反过来控制了 Lorac，使大地陷入活生生的噩梦，并让剩余的精灵战士在混乱中四散。
+在这一年的最后一天，龙之军队逼近 Silvanost，精灵意识到战争已经失败。为了绝望地扭转局势，Lorac 国王试图使用一颗龙珠毁灭邪恶军队。然而，背叛的宝珠反过来控制了 Lorac，使大地陷入活生生的噩梦，并让剩余的精灵战士在混乱中四散。
 
 ### 350：邪恶重整军备 Rearming Evil
 
 由于入侵 西尔瓦内斯提的代价惨重，龙之军队受到严重削弱，于是花费一年时间重建和重新训练。此时，塔克西丝的军队已经控制安萨隆东部。
 
-Mithas 与 Kothas 的牛头怪被招募到邪恶事业中，并迟到地试图拦截向西航行的精灵舰队。虽然一连串激烈的小规模冲突使双方都损失了一些船只，精灵舰队仍然成功航行，并在年末前抵达 Southern 艾尔戈斯。
+Mithas 与 Kothas 的牛头人被招募到邪恶事业中，并迟到地试图拦截向西航行的精灵舰队。虽然一连串激烈的小规模冲突使双方都损失了一些船只，精灵舰队仍然成功航行，并在年末前抵达 Southern 艾尔戈斯。
 
 ### 351：邪恶转向西方 Evil Turns West
 
@@ -132,7 +132,7 @@ Mithas 与 Kothas 的牛头怪被招募到邪恶事业中，并迟到地试图�
 
 在善良巨龙的帮助下，白石军队终于能够转入进攻。在暴烈而坚定地向东推进时，善良阵营的军队在这一年余下的时间里收复了整个北部 Solamnia 平原。冈萨（Gunthar） Uth Wistan 与 奎利内斯提的 劳拉娜（Laurana） 带领人类、精灵和矮人的军队对抗邪恶的龙之军队。善良巨龙背负着骑乘龙枪，白石军队在漫长的夏季中每一场交战都取得胜利。
 
-夺回 Kalaman 标志着龙之军队开始走向终结，但黑暗女王决心带着深渊军团穿过基石的传送门。她的爪牙不顾一切地寻找那个胸中嵌有绿色宝石的人。
+夺回 Kalaman 标志着龙之军队开始走向终结，但黑暗女王决心带着深渊军团穿过基石的异界之门。她的爪牙不顾一切地寻找那个胸中嵌有绿色宝石的人。
 
 然而，白石军队逼近 Neraka，黑暗女王的企图遭到挫败。邪恶势力开始彼此反噬，龙之军队的联盟崩溃。
 
@@ -165,9 +165,9 @@ Mithas 与 Kothas 的牛头怪被招募到邪恶事业中，并迟到地试图�
 | 红龙军 | CE | 黑军 |
 | 蓝龙军 | LE | 绿军 |
 | 白龙军 | CE | 无 |
-| 黑龙军 | CE | 红军、牛头怪 |
+| 黑龙军 | CE | 红军、牛头人 |
 | 绿龙军 | LE | 蓝军 |
-| 牛头怪 | LE | 黑军 |
+| 牛头人 | LE | 黑军 |
 | Solamnia 骑士 | LG | 精灵、矮人 |
 | 精灵 | CG | 骑士 |
 | 矮人 | LG | 骑士 |
@@ -264,7 +264,7 @@ Solamnia 的土地，以及安萨隆东部的 Lunian 半岛，是大陆上气候
 | Vingaard | H/LG | 马匹、牲畜 | 从邪恶手中收复，正在繁荣 |
 | Zhakar | D/L(E) | 宝石、护甲 | 神秘的邪恶矮人种族 |
 
-<strong>缩写：</strong>Al = 阵营；D = 矮人；E = 精灵；Hob = 熊地精；H = 人类；K = 肯德；M = 牛头怪；O = 食人魔。
+<strong>缩写：</strong>Al = 阵营；D = 矮人；E = 精灵；Hob = 熊地精；H = 人类；K = 肯德；M = 牛头人；O = 食人魔。
 
 ## 第 107 页
 

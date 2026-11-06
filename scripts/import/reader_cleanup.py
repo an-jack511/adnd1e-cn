@@ -62,7 +62,7 @@ REPLACEMENTS = {
 
 def clean_reader_text(text):
     # MM p.70: Mimic SIZE is L; the scan OCR reads it as I.
-    if '拟态怪' in text:
+    if '拟身怪' in text:
         text = re.sub(r'(体型</td><td[^>]*>)I(</td>)', r'\1L\2', text, flags=re.I)
 
     for old, new in REPLACEMENTS.items():

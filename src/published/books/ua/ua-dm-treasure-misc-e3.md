@@ -10,10 +10,10 @@
 | 16 | 诅咒瓶 Flask of Curses | — | 1,000 |
 | 17–18 | 敏捷手套 Gauntlets of Dexterity | 1,000 | 10,000 |
 | 19–20 | 笨拙手套 Gauntlets of Fumbling | — | 1,000 |
-| 21–22 | 食人魔力量手套 Gauntlets of Ogre Power（C、F、T） | 1,000 | 10,000 |
+| 21–22 | 食人魔力量护手 Gauntlets of Ogre Power（C、F、T） | 1,000 | 10,000 |
 | 23–25 | 游泳攀爬手套 Gauntlets of Swimming and Climbing（C、F、T） | 1,000 | 10,000 |
 | 26 | 明亮宝石 Gem of Brightness | 2,000 | 17,500 |
-| 27 | 洞察宝石 Gem of Seeing | 2,000 | 25,000 |
+| 27 | 真视宝石 Gem of Seeing | 2,000 | 25,000 |
 | 28 | 性别转换腰带 Girdle of Femininity/Masculinity（C、F、T） | — | 1,000 |
 | 29 | 巨人力量腰带 Girdle of Giant Strength（C、F、T） | 200 | 2,500 |
 | 30 | 光辉头盔 Helm of Brilliance | 2,500 | 60,000 |
@@ -33,12 +33,12 @@
 | 71 | 执迷熏香 Incense of Obsession（C） | — | 500 |
 | 72 | 艾恩石 Ioun Stones | 300³ | 5,000³ |
 | 73–78 | 吟游诗人乐器 Instrument of the Bards | 1,000⁴ | 5,000⁴ |
-| 79–80 | 铁瓶 Iron Flask | — | — |
+| 79–80 | 收妖瓶 Iron Flask | — | — |
 | 81–85 | 闪电标枪 Javelin of Lightning（F） | 250 | 3,000 |
 | 86–90 | 穿透标枪 Javelin of Piercing（F） | 250 | 3,000 |
 | 91 | 攻击宝石 Jewel of Attacks | — | 1,000 |
 | 92 | 无瑕宝石 Jewel of Flawlessness | — | 每刻面 1,000 |
-| 93–00 | 基奥托姆的软膏 Keoghtom’s Ointment | 500 | 10,000 |
+| 93–00 | 基奥图姆的软膏 Keoghtom’s Ointment | 500 | 10,000 |
 
 ¹ 塑像每个生命骰计值。² 原书脚注写明：青铜号角的数值加倍，铁号角则为三倍；脚注标记印在“英灵号角”后，译表照录。³ 每颗石头计值。⁴ 对吟游诗人，按乐器的每一级计值。
 

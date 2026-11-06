@@ -1,4 +1,5 @@
 ---
+import {nameAliases} from '../utils/terminology';
 import FilterChoices from './FilterChoices.astro';
 import ClassEntry from './ClassEntry.astro';
 import RaceEntry from './RaceEntry.astro';
@@ -14,7 +15,7 @@ const sources=[...new Set(entries.flatMap(entry=>entry.source.map(s=>s.book)))].
  <p id="identity-count" class="results-count" role="status"></p>
  <div class="table-wrap"><table class="data-table identity-table"><thead><tr><th class="identity-check" hidden>选取</th><th>中文名</th><th>英文名</th><th>{kind==='races'?'属性调整':'主属性'}</th><th>来源</th></tr></thead>
  <tbody>{entries.map((entry,index)=><>
-  <tr data-identity-id={entry.id} data-record={JSON.stringify({id:entry.id,name:entry.nameZh,selectable:!entry.referenceOnly,search:[entry.nameZh,entry.nameEn,...(entry.details??[]).map(d=>d.html.replace(/<[^>]*>/g,' '))].join(' ').toLowerCase(),source:entry.source.map(s=>s.book)})}>
+  <tr data-identity-id={entry.id} data-record={JSON.stringify({id:entry.id,name:entry.nameZh,selectable:!entry.referenceOnly,search:[entry.nameZh,entry.nameEn,...nameAliases(kind==='classes'?'class':'race',entry.nameEn),...(entry.details??[]).map(d=>d.html.replace(/<[^>]*>/g,' '))].join(' ').toLowerCase(),source:entry.source.map(s=>s.book)})}>
    <td class="identity-check" hidden><input type="checkbox" value={entry.id} aria-label={`选取${entry.nameZh}`} disabled={entry.referenceOnly} title={entry.referenceOnly?'地区参考条目，按对应战役规则使用':undefined} /></td>
    <td><button type="button" class="identity-expand" data-identity-expand aria-expanded="false" aria-controls={`identity-rule-${index}`}>{entry.nameZh}</button></td><td>{entry.nameEn}</td><td>{'modifiers' in entry?entry.modifiers:entry.primeRequisite}</td><td>{[...new Set(entry.source.map(s=>s.book))].join(' · ')}</td>
   </tr>

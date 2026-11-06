@@ -1,5 +1,5 @@
 
-## 谭森的法术 Tenser
+## 谭森 Tenser
 
 ### 谭森的燃焰之刃术 Tenser's Flaming Blade（变化系）
 

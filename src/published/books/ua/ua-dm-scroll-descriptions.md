@@ -28,7 +28,7 @@
 
 ## 防护气体 Protection from Gas
 
-朗读 <strong>3 分段</strong>。以阅读者为中心形成<strong>直径 1″</strong>的保护球；球内生物免疫任何气体，如毒气、气体喷吐、*臭云术*或*毒云术*产生的云团，以及类似的有害蒸气。持续 <strong>5–8 轮</strong>（d4+4）。
+朗读 <strong>3 分段</strong>。以阅读者为中心形成<strong>直径 1″</strong>的保护球；球内生物免疫任何气体，如毒气、气体喷吐、*臭云术*或*死云术*产生的云团，以及类似的有害蒸气。持续 <strong>5–8 轮</strong>（d4+4）。
 
 ## 防护幻术 Protection from Illusions
 

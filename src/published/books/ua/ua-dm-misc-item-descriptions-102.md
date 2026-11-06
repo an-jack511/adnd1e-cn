@@ -4,7 +4,7 @@
 
 ## 随取袋 Pouch of Accessibility
 
-外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,000 金币重量</strong>。每小袋最多装 <strong>100 金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、便携洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>10 金币重量</strong>，装满后重 <strong>40 金币重量</strong>。
+外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,000 金币重量</strong>。每小袋最多装 <strong>100 金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、次元洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>10 金币重量</strong>，装满后重 <strong>40 金币重量</strong>。
 
 ## 扎吉格的牢笼 Prison of Zagyg
 
@@ -18,7 +18,7 @@
 
 外观似可装二十支箭的普通箭袋，实际有三个魔法空间：最短的可容纳至多 <strong>60 件长弓箭大小</strong>的物品；中层可容纳 <strong>18 件标枪大小</strong>的物品；最长的可容纳 <strong>6 件弓、矛或法杖大小</strong>的物品。持有者每轮只须命令箭袋交出某件所需物品，如“箭 +1”“箭 +3”或“标枪”。
 
-## 星辰长袍 Robe of Stars
+## 星辰法袍 Robe of Stars
 
 外观像魔法师的普通长袍，散发强烈变化与塑能灵光。可让穿戴者连同身上物品<strong>实体进入星界</strong>，并在外层空间真空或星界舒适生存；其他情形所有豁免 <strong>+1</strong>。若魔法师熟练使用飞镖，可将胸前刺绣的<strong>至多六颗星</strong>作为投射武器，每颗命中与伤害 <strong>+5</strong>、基本伤害 <strong>2–8 点</strong>、最远射程 <strong>6″</strong>。只要尚未用尽六颗，星星每天再生<strong>一颗</strong>；若六颗全部用尽，长袍的<strong>全部魔力永久消失</strong>。
 

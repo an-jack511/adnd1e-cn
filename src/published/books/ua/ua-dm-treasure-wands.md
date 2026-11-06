@@ -33,6 +33,6 @@
 | 83–86 | 密门陷阱定位魔杖 Wand of Secret Door & Trap Location | 5,000 | 40,000 |
 | 87–90 | 改变大小魔杖 Wand of Size Alteration | 3,000 | 20,000 |
 | 91–92 | 蒸汽烟雾魔杖 Wand of Steam & Vapor（C、M） | 4,500 | 25,000 |
-| 93–00 | 奇迹魔杖 Wand of Wonder | 6,000 | 10,000 |
+| 93–00 | 惊异魔杖 Wand of Wonder | 6,000 | 10,000 |
 
 （C）牧师职业；（F）战士和骑士职业；（M）魔法师职业；（T）盗贼职业。

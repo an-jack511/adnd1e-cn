@@ -1,4 +1,4 @@
-## 骚灵 · Poltergeist
+## 骚灵 Poltergeist
 
 | 项目 | 数值 |
 | --- | --- |

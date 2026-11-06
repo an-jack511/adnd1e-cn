@@ -4,7 +4,7 @@
 
 ## 警戒权杖 Rod of Alertness
 
-外表与<strong>步兵钉头锤 +1</strong>无异。持有者避免被突袭的掷骰 <strong>+1</strong>，战斗先攻掷骰也 <strong>+1</strong>。紧握权杖并专心时，可侦测阵营、邪恶、善良、幻术、隐形、谎言或魔法；这些侦测<strong>不消耗充能</strong>。
+外表与<strong>步兵硬头锤 +1</strong>无异。持有者避免被突袭的掷骰 <strong>+1</strong>，战斗先攻掷骰也 <strong>+1</strong>。紧握权杖并专心时，可侦测阵营、邪恶、善良、幻术、隐形、谎言或魔法；这些侦测<strong>不消耗充能</strong>。
 
 把权杖插在地上并命它警戒，便能感知 <strong>12″ 半径</strong>内有意伤害持有者的生物。杖头八道棱沿八个方位各发出一道射程 <strong>6″</strong> 的*光亮术*；同时对 <strong>2″ 半径</strong>内持有者的友方生物施加*祈祷术*，随后用心灵讯息警告这些友方附近有危险。权杖还可模仿*活化物件*，使持有者预先指定、置于权杖周围约 <strong>6″ 半径</strong>圆周上的<strong>最多 16 件物件</strong>（如灌木或特制树枝）活动。除活化物件外的防护装置合计消耗<strong>一次充能</strong>；活化物件另耗<strong>一次</strong>，全部同时启用共耗<strong>两次</strong>。若尚余至少一次充能，<strong>16 级以上牧师</strong>可再充能。
 

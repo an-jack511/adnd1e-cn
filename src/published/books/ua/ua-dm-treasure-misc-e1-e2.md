@@ -16,7 +16,7 @@
 | 12–13 | 夸利什的装置 Apparatus of Kwalish | 8,000 | 35,000 |
 | 14–16 | 指路箭 Arrow of Direction | 2,500 | 17,500 |
 | 17 | 神器或遗物 Artifact or Relic；见《地下城主指南》第 124 页特别表 | — | — |
-| 18–20 | 魔豆袋 Bag of Beans | 1,000 | 5,000 |
+| 18–20 | 魔魔豆之袋 Bag of Beans | 1,000 | 5,000 |
 | 21 | 吞噬袋 Bag of Devouring | — | 1,500 |
 | 22–26 | 次元袋 Bag of Holding | 5,000 | 25,000 |
 | 27 | 转化袋 Bag of Transmuting | — | 500 |
@@ -28,7 +28,7 @@
 | 35 | 卑劣黑暗之书 Book of Vile Darkness（C） | 8,000 | 40,000 |
 | 36 | 舞靴 Boots of Dancing | — | 5,000 |
 | 37–42 | 精灵之靴 Boots of Elvenkind | 1,000 | 5,000 |
-| 43–47 | 浮空靴 Boots of Levitation | 2,000 | 15,000 |
+| 43–47 | 浮空之靴 Boots of Levitation | 2,000 | 15,000 |
 | 48–51 | 加速靴 Boots of Speed | 2,500 | 20,000 |
 | 52–55 | 大步弹跳靴 Boots of Striding and Springing | 2,500 | 20,000 |
 | 56–58 | 水元素号令碗 Bowl Commanding Water Elementals（M） | 4,000 | 25,000 |
@@ -39,7 +39,7 @@
 | 85 | 催眠烟火盆 Brazier of Sleep Smoke（M） | — | 1,000 |
 | 86–92 | 护盾胸针 Brooch of Shielding | 1,000 | 10,000 |
 | 93 | 活化攻击扫帚 Broom of Animated Attack | — | 3,000 |
-| 94–98 | 飞行扫帚 Broom of Flying | 2,000 | 10,000 |
+| 94–98 | 飞天扫帚 Broom of Flying | 2,000 | 10,000 |
 | 99–00 | 巴克纳德的常满钱袋 Bucknard’s Everfull Purse | 1,500／2,500／4,000 | 15,000／25,000／40,000 |
 
 ¹ 防御护腕的数值按护甲等级优于 10 的<strong>每一级</strong>计算，例如 AC 6 给予 2,000 经验值，售价 12,000 金币。
@@ -63,18 +63,18 @@
 | 61 | 催眠水晶球 Crystal Hypnosis Ball（M） | — | 3,000 |
 | 62–63 | 力场立方体 Cube of Force | 3,000 | 20,000 |
 | 64–65 | 抗冻立方体 Cube of Frost Resistance | 2,000 | 14,000 |
-| 66–67 | 位面立方门 Cubic Gate | 5,000 | 17,500 |
+| 66–67 | 异界之门魔方门 Cubic Gate | 5,000 | 17,500 |
 | 68–69 | 戴恩的瞬间堡垒 Daern’s Instant Fortress | 7,000 | 27,500 |
 | 70–72 | 无尽水瓶 Decanter of Endless Water | 1,000 | 3,000 |
-| 73–76 | 万象牌组 Deck of Many Things | — | 10,000 |
+| 73–76 | 万象无常牌 Deck of Many Things | — | 10,000 |
 | 77 | 致聋鼓 Drums of Deafening | — | 500 |
 | 78–79 | 恐慌鼓 Drums of Panic | 6,500 | 35,000 |
 | 80–85 | 显形粉 Dust of Appearance | 1,000 | 4,000 |
 | 86–91 | 消失粉 Dust of Disappearance | 2,000 | 8,000 |
 | 92 | 喷嚏窒息粉 Dust of Sneezing and Choking | — | 1,000 |
-| 93 | 火巨灵瓶 Efreeti Bottle | 9,000 | 45,000 |
+| 93 | 火巨灵囚瓶 Efreeti Bottle | 9,000 | 45,000 |
 | 94 | 恒烟瓶 Eversmoking Bottle | 500 | 2,500 |
-| 95 | 魅惑之眼 Eyes of Charming（M） | 4,000 | 24,000 |
+| 95 | 魅惑镜片 Eyes of Charming（M） | 4,000 | 24,000 |
 | 96–97 | 鹰眼镜片 Eyes of the Eagle | 3,500 | 18,000 |
 | 98–99 | 微视镜片 Eyes of Minute Seeing | 2,000 | 12,500 |
 | 00 | 石化之眼 Eyes of Petrification | —³ | —³ |
