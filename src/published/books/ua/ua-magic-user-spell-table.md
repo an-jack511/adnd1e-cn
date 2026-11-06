@@ -28,7 +28,7 @@
 | 18 | 跳跃术 Jump | 寻物术 Locate Object | 雷欧蒙微型小屋 Leomund's Tiny Hut | 群体变树术 Massmorph | 雷欧蒙秘匣 Leomund's Secret Chest |
 | 19 | 光亮术 Light | 魔法之口 Magic Mouth | 闪电束 Lightning Bolt | 小型无敌法球 Minor Globe of Invulnerability | 魔法容器 Magic Jar |
 | 20 | 魔法飞弹 Magic Missile | *梅尔夫的酸箭 Melf's Acid Arrow* | *材料术 Material* | 群体变树术 Massmorph | 召唤怪物 III Monster Summoning III |
-| 21 | *熔化术 Melt* | 镜影术 Mirror Image | *梅尔夫的微型流星 Melf's Minute Meteor* | *奥提路克的韧性球 Otiluke's Resilient Sphere* | 莫登凯南忠诚猎犬 Mordenkainen's Faithful Hound |
+| 21 | *熔化术 Melt* | 镜影术 Mirror Image | *梅尔夫的微型流星 Melf's Minute Meteor* | *欧提路克的韧性球 Otiluke's Resilient Sphere* | 莫登凯南忠诚猎犬 Mordenkainen's Faithful Hound |
 | 22 | 修补术 Mending | *保鲜术 Preserve* | 召唤怪物 I Monster Summoning I | 植物生长 Plant Growth | 穿墙术 Passwall |
 | 23 | 传讯术 Message | *小法术防护 Protection From Cantrips* | 幻影力量 Phantasmal Force | 他塑形术 Polymorph Other | 传讯术 Sending |
 | 24 | *坐骑术 Mount* | 烟火术 Pyrotechnics | 防护邪恶（半径10尺） Protection From Evil 10' Radius | 自塑形术 Polymorph Self | 塑石术 Stone Shape |
@@ -43,7 +43,7 @@
 | 33 | 睡眠术 Sleep | 蛛网术 Web |  |  |  |
 | 34 | 蜘蛛攀行 Spider Climb | *鞭术 Whip* |  |  |  |
 | 35 | *嘲讽术 Taunt* | 巫师锁 Wizard Lock |  |  |  |
-| 36 | 泰瑟浮空圆盘 Tenser's Floating Disc | *和风术 Zephyr* |  |  |  |
+| 36 | 谭森浮空圆盘 Tenser's Floating Disc | *和风术 Zephyr* |  |  |  |
 | 37 | 无形仆役 Unseen Servant |  |  |  |  |
 | 38 | 口技术 Ventriloquism |  |  |  |  |
 | 39 | *巫师印记 Wizard Mark* |  |  |  |  |
@@ -66,8 +66,8 @@
 | 9 | *陷捕术 Ensnarement* | 有限祈愿 Limited Wish | 迷宫术 Maze | *莫登凯南解离术 Mordenkainen's Disjunction* |
 | 10 | 延时术 III Extension III | 群体隐形 Mass Invisibility | 心灵屏障 Mind Blank | 律令：死亡 Power Word Kill |
 | 11 | *邪眼术 Eyebite* | 怪物召唤 V Monster Summoning V | 怪物召唤 VI Monster Summoning VI | 虹光法球 Prismatic Sphere |
-| 12 | 指使术 Geas | *莫登凯南的豪宅 Mordenkainen's Magnificent Mansion* | *奥提路克的念动力球 Otiluke's Telekinetic Sphere* | 形体变化 Shape Change |
-| 13 | 透材术 Glassee | 莫登凯南之剑 Mordenkainen's Sword | 欧提路克魔舞 Otto's Irresistible Dance | *救援术 Succor* |
+| 12 | 指使术 Geas | *莫登凯南的豪宅 Mordenkainen's Magnificent Mansion* | *欧提路克的念动力球 Otiluke's Telekinetic Sphere* | 形体变化 Shape Change |
+| 13 | 透材术 Glassee | 莫登凯南之剑 Mordenkainen's Sword | 奥托魔舞 Otto's Irresistible Dance | *救援术 Succor* |
 | 14 | 无敌法球 Globe of Invulnerability | 相位门 Phase Door | 恒久术 Permanency | 时间静滞术 Temporal Stasis |
 | 15 | 守卫与结界 Guards and Wards | 律令：震慑 Power Word Stun | 任意物体变形术 Polymorph Any Object | 时间停止 Time Stop |
 | 16 | 隐形潜猎者 Invisible Stalker | 重力反转 Reverse Gravity | 律令：目盲 Power Word Blind | 祈愿术 Wish |

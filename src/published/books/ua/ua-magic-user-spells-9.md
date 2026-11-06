@@ -6,12 +6,14 @@
 
 ## 晶化脆裂 Crystalbrittle（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 9 | 法术成分 | 言语、姿势 |
-| 距离 | 接触 | 施法时间 | 9 段 |
-| 持续时间 | 永久 | 豁免 | 特殊 |
-| 影响范围 | 每施法者等级 <strong>2 立方尺</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>9<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>每施法者等级 <strong>2 立方尺</strong><br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>9 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 将金属变成如水晶般脆弱的晶体，不论原本是柔软的黄金还是坚硬的精金。剑、金属盾、金属盔甲，乃至铁魔像，都可因此变成易被重击粉碎的玻璃状材料。除*祈愿术*外，变化无法逆转；*解除魔法*无效。
 
@@ -21,12 +23,14 @@
 
 ## 能量吸取 Energy Drain（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 9 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 3 段 |
-| 持续时间 | 永久 | 豁免 | 无 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>9<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 施法者打开自身位面与负物质位面之间的通道，成为两者之间的导体。碰到任何活物时——若在近战中须成功命中——目标立即失去 <strong>2 个能量等级</strong>，效果如遭幽魂击中。怪物永久损失 <strong>2 个生命骰</strong>，生命值和攻击能力均随之下降；人物则永久失去相应等级、生命骰、生命值与能力，若适用，只能日后再通过冒险取得。
 
@@ -34,12 +38,14 @@
 
 ## 莫登凯南解离术 Mordenkainen's Disjunction（变化／附魔系 Alteration-Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 9 | 法术成分 | 仅言语 |
-| 距离 | 0 | 施法时间 | 9 段 |
-| 持续时间 | 永久 | 豁免 | 特殊 |
-| 影响范围 | 半径 <strong>3″</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>9<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>半径 <strong>3″</strong><br>
+<strong>成分 Components：</strong>仅言语<br>
+<strong>施法时间 Casting Time：</strong>9 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 范围内一切魔法和魔法物品都会被解离，<strong>施法者身上及其正在接触的物品除外</strong>。正在施展的法术被拆散成各个成分，通常像*解除魔法*那样使效果落空。永久魔法与受魔化的物品也须豁免：若魔法实际施在某生物身上，按<strong>对法术豁免</strong>；其余情况按<strong>抵抗解除魔法</strong>，失败便变回普通物品。药水、卷轴、戒指、杖、其他魔法物、武器与盔甲均可能失去全部魔法性质。
 
@@ -47,12 +53,14 @@
 
 ## 救援术 Succor（变化／附魔系 Alteration-Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 9 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | <strong>1–4 天</strong> |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>9<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong><strong>1–4 天</strong><br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 基本如七环牧师的[救援术](/books/ua/ua-cleric-spells-7/)：魔法师魔化一件物品，持有者打碎物品并说出口令时，便<strong>无误传送</strong>至预设地点。若使用逆向效果，则把施法的大法师带到持有者身边；与牧师版本不同，被召来的大法师<strong>不能拒绝应召</strong>，因此这种用法极为罕见。
 

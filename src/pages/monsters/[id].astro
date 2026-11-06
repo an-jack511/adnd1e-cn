@@ -1,4 +1,5 @@
 ---
+import LibraryRules from '../../components/LibraryRules.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
@@ -8,7 +9,7 @@ export function getStaticPaths() { return monsters.map((monster) => ({ params: {
 const { monster } = Astro.props;
 ---
 <BaseLayout title={`${monster.nameZh} ${monster.nameEn}`} description={`${monster.nameZh}（${monster.nameEn}）AD&D 1E 怪物条目。`}>
-  <article>
+  <article class="library-entry">
     <header class="entry-header"><h1>{monster.nameZh}</h1><div class="english">{monster.nameEn}</div></header>
     <table class="statblock"><tbody>
       <tr><th scope="row">频率 Frequency</th><td>{monster.frequency}</td></tr>
@@ -29,9 +30,9 @@ const { monster } = Astro.props;
       <tr><th scope="row">灵能 Psionics</th><td>{monster.psionics}</td></tr>
       <tr><th scope="row">环境 Environment</th><td>{monster.environment}</td></tr>
     </tbody></table>
-    <p>{monster.description}</p>
+    {monster.details?.length ? <LibraryRules prefix={monster.id} details={monster.details} /> : <p>{monster.description}</p>}
     {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
-    <PublishedLinks kind="monster" id={monster.id} />
+    {!monster.details?.length && <PublishedLinks kind="monster" id={monster.id} />}
     <SourceList sources={monster.source} />
     <p><a href="/monsters">← 返回怪物合集</a></p>
   </article>

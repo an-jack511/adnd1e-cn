@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LibraryBrowser from '../../components/LibraryBrowser.astro';
+import CharacterLibrary from '../../components/CharacterLibrary.astro';
 import {races} from '../../data/public/races';
 ---
-<BaseLayout title="种族"><h1>种族</h1><p>检索种族能力、语言、职业与等级限制；各规则书的亚种和战役变体分别列出。</p><LibraryBrowser entries={races} kind="races" /></BaseLayout>
+<BaseLayout title="种族"><h1>种族</h1><p>检索种族能力、语言、职业与等级限制；各规则书的亚种和战役变体分别列出。</p><CharacterLibrary entries={races} kind="races" /></BaseLayout>

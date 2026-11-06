@@ -4,12 +4,14 @@
 
 ## 仪式术 Ceremony（祈唤系 Invocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 小时 |
-| 持续时间 | 永久 | 豁免 | 特殊 |
-| 影响范围 | 一名生物、一件物品或一片区域；见下文 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>一名生物、一件物品或一片区域；见下文<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 小时<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 仪式术在宗教组织中有多种用途，施法者等级决定可主持哪一种。仪式完成后不留下魔法灵光，但某些仪式可能留下可侦测的善良或邪恶灵光。各宗教的具体仪式可能不同，通常包括：
 
@@ -51,12 +53,14 @@
 
 ## 合祷术 Combine（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 特殊，最多 3 回合 | 豁免 | 无 |
-| 影响范围 | 牧师所组成的圆阵 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊，最多 3 回合<br>
+<strong>影响范围 Area of Effect：</strong>牧师所组成的圆阵<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 3 至 5 名牧师共同施展此术，使其中一人能以更高效力施法或驱散不死生物。队中等级最高的牧师（若并列则选其中一人）站在中央，其余人在周围手牵手成环；所有人同时施展*合祷术*。中央牧师每有一名环绕者，暂时提高 1 个有效等级，最多提高 4 级，效果最多持续 3 回合。提高后的等级用于计算驱散不死生物及随施法者等级变化的法术效果。
 
@@ -64,12 +68,14 @@
 
 ## 忍受寒暑 Endure Cold / Endure Heat（变化系 Alteration，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 每级 9 回合 | 豁免 | 无 |
-| 影响范围 | 一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 9 回合<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 受术者可抵御正常的极寒或酷热，视所施版本而定：即使不着衣物，也可安然处于低至 −30°F 或高至 130°F 的环境。超过相应界限时，每超出 1°F，每小时承受 1 点暴露伤害；若没有此类防护，则为每回合 1 点。
 
@@ -77,12 +83,14 @@
 
 ## 对不死生物隐形 Invisibility to Undead（幻术／魅影系 Illusion/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 4 段 |
-| 持续时间 | 6 轮 | 豁免 | 成功则无效 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>6 轮<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 此术类似*圣域术*，但只作用于生命骰不超过 4 的不死生物。施法者周围 30 尺内每一种不死生物分别作一次法术豁免。若失败，该种不死生物在持续时间内完全无视施法者；这也使施法者此后对它们的驱散尝试无效。若成功，该种不死生物会优先攻击施法者，而非其他可能目标。
 
@@ -90,12 +98,14 @@
 
 ## 魔石术 Magic Stone（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势 |
-| 距离 | 2″ | 施法时间 | 1 轮 |
-| 持续时间 | 6 轮或直至使用 | 豁免 | 无 |
-| 影响范围 | 一颗小石子 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>2″<br>
+<strong>持续时间 Duration：</strong>6 轮或直至使用<br>
+<strong>影响范围 Area of Effect：</strong>一颗小石子<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师拾起小石子，在施法时赋予魔法灵光；已有魔法的石子不受影响。魔石可以投向最远 4″ 的目标，但须有畅通路径及足够的头顶空间。它在命中检定中视为 +1 武器，命中造成 1 点伤害；短／中／长射程分别为 2″／3″／4″，采用通常射程调整。石子飞离投掷者超过 4″、未命中，或施法完成后 6 轮仍未投出，便失去魔力。
 
@@ -103,12 +113,14 @@
 
 ## 看破伪装 Penetrate Disguise（预言系 Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势 |
-| 距离 | 12″ | 施法时间 | 2 轮 |
-| 持续时间 | 1 轮 | 豁免 | 成功则无效，见下文 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>12″<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>2 轮<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效，见下文</div>
 
 牧师能看穿仅由化妆或改换衣着构成的非魔法伪装，但不会因此知道对方的真实外貌、职业或阶级，只知道此人冒充了另一身份。此术不辨真实地位，不能识破幻象或阵营方面的欺瞒，却能察觉某人是否受*交友术*影响。
 
@@ -116,12 +128,14 @@
 
 ## 预兆术 Portent（预言系 Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 回合 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 施法者或受触碰者 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>施法者或受触碰者<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师借此窥见自己或他人未来的“运气”，体现为未来某次命中检定或豁免检定的调整，但受术者不知道具体何时生效。地下城主在施法后秘密掷两次骰：1d12 决定第几次合格检定受到预兆影响；1d6 决定修正值，其结果依次为 1＝−3、2＝−2、3＝−1、4＝+1、5＝+2、6＝+3。地下城主根据 1d6 结果告知牧师玩家预兆是吉、平（可略偏吉或略偏凶）还是凶，通常也会将此信息告知受术者。
 
@@ -129,12 +143,14 @@
 
 ## 降水术 Precipitation（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 1″ | 施法时间 | 3 段 |
-| 持续时间 | 每级 1 段 | 豁免 | 无 |
-| 影响范围 | 直径 3″、最高 12″ 的圆柱 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>每级 1 段<br>
+<strong>影响范围 Area of Effect：</strong>直径 3″、最高 12″ 的圆柱<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 影响范围内的水汽凝成细雨；低等级施法者通常也会处于雨中。持续段数等于牧师等级，每段仅有约 1/100 英寸降水，因此一般效果如下：
 

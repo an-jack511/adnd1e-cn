@@ -6,12 +6,14 @@
 
 ## 彩色法球 Chromatic Orb（变化／塑能系 Alteration-Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 姿势、材料 |
-| 距离 | 0；可投至 <strong>3″</strong> | 施法时间 | 1 段 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>0；可投至 <strong>3″</strong><br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 幻术师在手中生成一枚不同颜色的小球，朝无遮挡、距自己不超过 <strong>3″</strong>的目标掷出。法球本身具有魔法，命中后连通常只能由 <strong>＋4、＋5</strong>等武器伤害的生物也受影响；魔法抗性仍然适用。目标距施法者 <strong>1″</strong>以内时命中 <strong>＋3</strong>，超过 <strong>1″</strong>至 <strong>2″</strong>时 <strong>＋2</strong>，超过 <strong>2″</strong>至 <strong>3″</strong>时 <strong>＋1</strong>。未命中的法球直接消散。幻术师可选择自己等级允许的任意颜色，也可选择较低等级的颜色。
 
@@ -41,12 +43,14 @@
 
 ## 幻影护甲 Phantom Armor（变化／幻术系 Alteration/Illusion）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 造出一套半真实的板甲，包覆受术者。它有实际防护力，但敌人若主动怀疑并<strong>对法术豁免成功</strong>，便不再受其欺骗；*解除幻象*、*解除魔法*或*消除法杖*也能消去护甲。在消失或被识破之前，它按板甲提供 <strong>AC 3</strong>，护甲类别也按 <strong>3</strong>计算。
 
@@ -54,23 +58,27 @@
 
 ## 阅读幻术魔法 Read Illusionist Magic（预言系 Divination，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 1 段 |
-| 持续时间 | 每级 2 轮 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 2 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 如魔法师一环*阅读魔法*，但仅适用于幻术师能够使用、由幻术师使用的法术，以及幻术师以幻术师式魔法文字写成的其他铭文。原书标为<strong>可逆</strong>，但本段没有另述逆向效果。
 
 ## 惊吓术 Spook（幻术／幻影系 Illusion/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势 |
-| 距离 | 0 | 施法时间 | 1 段 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | 幻术师 <strong>1″</strong>内一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>幻术师 <strong>1″</strong>内一个生物<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 利用目标本有的恐惧，使它把幻术师看成自己敌视、害怕的人或物。施法者无须知道那究竟是什么，只要威胁地朝目标前进即可。若目标对法术豁免失败，它会迅速转身，尽可能沿远离幻术师的方向逃跑，效果如*恐惧法杖*，但不会扔下携带物。施法者虽不真正追赶，目标脑中的幻象却会继续追它。
 

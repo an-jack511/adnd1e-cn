@@ -6,6 +6,9 @@ export const SourceReferenceSchema = z.object({
   section: z.string().optional()
 });
 
+export const LibraryDetailSchema = z.object({title:z.string(),html:z.string(),source:SourceReferenceSchema,href:z.string()});
+export type LibraryDetail = z.infer<typeof LibraryDetailSchema>;
+
 export const SpellSchema = z.object({
   id: z.string(),
   nameZh: z.string(),
@@ -21,6 +24,7 @@ export const SpellSchema = z.object({
   savingThrow: z.string(),
   reversible: z.boolean(),
   materialComponent: z.string().optional(),
+  details: z.array(LibraryDetailSchema).optional(),
   description: z.string(),
   tags: z.array(z.string()),
   source: z.array(SourceReferenceSchema)
@@ -48,15 +52,12 @@ export const MonsterSchema = z.object({
   size: z.string(),
   psionics: z.string(),
   environment: z.string(),
+  details: z.array(LibraryDetailSchema).optional(),
   description: z.string(),
   illustration: z.object({ src: z.string(), source: z.string(), page: z.number().int().positive() }).optional(),
   source: z.array(SourceReferenceSchema)
 });
 
-export const LibraryDetailSchema = z.object({
-  title:z.string(), html:z.string(), source:SourceReferenceSchema, href:z.string()
-});
-export type LibraryDetail = z.infer<typeof LibraryDetailSchema>;
 
 export const ItemSchema = z.object({
   id: z.string(),

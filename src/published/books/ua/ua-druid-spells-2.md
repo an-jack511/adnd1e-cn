@@ -4,12 +4,14 @@
 
 ## 火焰之刃 Flame Blade（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 3 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 长 3 尺的剑形火刃 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>长 3 尺的剑形火刃<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊手中迸出一束炽热红焰，如弯刀般挥舞。命中造成 5–8 点伤害；若目标是不死生物或格外怕火，伤害另加 2；若目标受防火效果保护，则伤害减 2。以火焰为生或以火焰攻击的生物完全不受伤害。火刃可点燃羊皮纸、稻草、干枝、布料等可燃物。
 
@@ -17,12 +19,14 @@
 
 ## 善莓术 Goodberry（变化／塑能系 Alteration–Evocation，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 1 天＋每级 1 天 | 豁免 | 无 |
-| 影响范围 | 2–8 颗新鲜浆果 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 天＋每级 1 天<br>
+<strong>影响范围 Area of Effect：</strong>2–8 颗新鲜浆果<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊对一把刚摘下的浆果施法，其中 2–8 颗变成魔法浆果。施法德鲁伊及其他至少 3 级的德鲁伊，能立刻认出哪些浆果受到影响；*侦测魔法*也能发现。每颗善莓可令一名约成人大小的饥饿生物得到一顿正常正餐的营养，或治疗 1 点伤口等身体伤害。同一生物在任意 24 小时内，最多由此术恢复 8 点伤害。
 
@@ -30,12 +34,14 @@
 
 ## 映照池 Reflecting Pool（塑能／预言系 Evocation–Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 2 小时 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 小时<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊使自然环境中的一池普通水成为探知装置。池面直径不得超过每级施法者 2 尺，效果类似*水晶球*，如同本书魔法师的*魔镜术*、牧师的*魔法圣水池*。只能探知与主物质位面共存或相邻的位面，即内层位面（包括准元素位面、阴影位面等）。探知自身所在位面之外目标时，仍须采用《地下城主指南》*水晶球*条目所列减值。
 
@@ -43,12 +49,14 @@
 
 ## 缓毒术 Slow Poison（死灵系 Necromantic）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 段 |
-| 持续时间 | 每级 1 小时 | 豁免 | 无 |
-| 影响范围 | 接触的一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 1 小时<br>
+<strong>影响范围 Area of Effect：</strong>接触的一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 基本效果与牧师二环*缓毒术*相同。若德鲁伊能确认毒素取自某种活植物，则每级有 5% 概率知道可中和它的草药解毒剂。若地下城主未告知毒素具体类型，成功使用*侦测毒素*辨别类型可确认它是否为可中和的有机毒。掷骰结果不高于发现解毒剂的概率，即可将毒中和。
 

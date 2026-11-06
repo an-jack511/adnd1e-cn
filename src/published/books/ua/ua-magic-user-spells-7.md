@@ -6,12 +6,14 @@
 
 ## 放逐术 Banishment（防护／塑能系 Abjuration-Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 2″ | 施法时间 | 7 段 |
-| 持续时间 | 永久 | 豁免 | 特殊 |
-| 影响范围 | 每施法者等级，共计 2 等级／生命骰的目标 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>2″<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>每施法者等级，共计 2 等级／生命骰的目标<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>7 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 把一个或多个异位面生物瞬间送回其所属位面。它们除非再经特殊召唤或自行离开所属位面，否则不能回来。施法者等级须足以容纳目标合计等级／生命骰，且目标均在射程内。施法时须说出目标的<strong>生物类别</strong>和<strong>真实专名</strong>，并求助于与其对立的力量；还须先突破目标的魔法抗性。
 
@@ -21,12 +23,14 @@
 
 ## 力牢术 Forcecage（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势；记忆时另需特殊材料 |
-| 距离 | 每 2 级 1″ | 施法时间 | 3–4 段 |
-| 持续时间 | 6 回合＋每级 1 回合 | 豁免 | 无 |
-| 影响范围 | 边长 2″ 的立方体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>每 2 级 1″<br>
+<strong>持续时间 Duration：</strong>6 回合＋每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>边长 2″ 的立方体<br>
+<strong>成分 Components：</strong>言语、姿势；记忆时另需特殊材料<br>
+<strong>施法时间 Casting Time：</strong>3–4 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 造出一座力场牢笼。它不是实心的*力场方盒*，而是交错的力场条，中间留有 <strong>1/2 英寸</strong>宽的空隙；能穿过空隙的生物可离开，法术和喷吐武器也能穿过。范围内生物均被困，除非可挤过空隙；有魔法抗性者可尝试<strong>一次</strong>穿过牢笼壁，失败便受困。一个生物成功逃脱并不放走同处牢笼内的其他生物。力牢只能被*解除魔法*消去，或等持续时间结束。
 
@@ -36,12 +40,14 @@
 
 ## 莫登凯南的豪宅 Mordenkainen's Magnificent Mansion（变化／咒法系 Alteration/Conjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 7 轮 |
-| 持续时间 | 每级 1 小时 | 豁免 | 无 |
-| 影响范围 | 每级 300 平方尺 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>每级 1 小时<br>
+<strong>影响范围 Area of Effect：</strong>每级 300 平方尺<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>7 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 召出一处异次元宅邸，只能从施术位面的<strong>一个特定入口</strong>进入。外人只看见约 <strong>4 尺宽、8 尺高</strong>的空气微光；施法者掌控通行，自己进入后入口会关闭并隐形，能从内侧随意重开。访客穿过后看见宏伟门厅及许多房间，配备家具、近乎透明而穿制服且听命的仆役、洁净温暖的空气，以及足够供应<strong>施法者等级数 × 12 人</strong>吃九道菜宴席的食物。
 
@@ -51,12 +57,14 @@
 
 ## 匿藏术 Sequester（幻术／幻影、防护系 Illusion/Phantasm-Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 1 周＋每级 1 天 | 豁免 | 特殊 |
-| 影响范围 | 每级边长 2 英尺的立方体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 周＋每级 1 天<br>
+<strong>影响范围 Area of Effect：</strong>每级边长 2 英尺的立方体<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 让目标不被侦测、定位类法术发现，也对各种视觉与观视手段隐形，可隐藏暗门、宝库等。但并不能防止触摸发现，也挡不住*百目长袍*、*窥视宝石*等器具。若施于不愿受术且能够抵抗、避开的生物，允许通常的<strong>对法术豁免</strong>。
 
@@ -64,23 +72,27 @@
 
 ## 无误传送 Teleport Without Error（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 仅言语 |
-| 距离 | 接触 | 施法时间 | 1 段 |
-| 持续时间 | 瞬间 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>瞬间<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>仅言语<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 类似*传送术*，可带着该法术允许的重量，到达施法者<strong>所属位面</strong>的任何已知地点，完全没有误差。也能前往其他位面，但目的地至多按传送表的“<strong>仔细研究过</strong>”档处理：施法者须实际去过该位面，并仔细勘察某处，才可把它指定为目的地；跨位面时仍用普通传送表，按熟悉程度判定偏差。原书另提示九环*救援术*有例外。施法者在传送出现的那一轮不能再做其他事。
 
 ## 折磨术 Torment（塑能／变化系 Evocation-Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 1 轮 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 对已被魔法圆阵、奇术三角阵或五芒星阵困住的异位面生物施加痛苦，以逼它答应一项服务；亦见本书的*痛楚术*、*陷捕术*。先须突破目标的魔法抗性。开头吟句在施法者和目标间建立联系，随后继续诵读事先备好的文字；前 <strong>2 轮</strong>使目标隐隐刺痛，第 <strong>3、4 轮</strong>变成穿刺般的剧痛，第 <strong>5、6 轮</strong>变成酸痛与痉挛。
 
@@ -96,12 +108,14 @@
 
 ## 真名术 Truename（附魔／变化系 Enchantment/Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势 |
-| 距离 | 3″ | 施法时间 | 特殊 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | 被叫出真名的目标 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>被叫出真名的目标<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>特殊<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 若魔法师知道活物的<strong>真实秘名</strong>，便能对它产生强大影响。寻常通用名称通常不是真名，目标自身也未必知道；须经费力调查、监视、*通晓传奇*及高难度贤者研究寻找。施法者先大声说出真名，再吟诵涵盖目标本性、历史的诗句，需 <strong>3 段</strong>；随后以诗句说明要实现的结果，最好押韵。每种结果需时不同：
 
@@ -131,12 +145,14 @@
 
 ## 反弹术 Volley（防护系 Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 特殊 | 施法时间 | 1 段 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 让准备受术的人把敌人的法术弹回原施法者；实际距离、持续时间、范围及豁免取决于被反弹的法术。若有人对已准备*反弹术*的魔法师施展*律令：死亡*，法术会先弹回施法者；原施法者若<strong>对法术豁免失败</strong>，便由自己承受。若成功，法术又飞向反弹者；反弹者再豁免，失败则受术，成功则继续弹回，直至一方失败或法术耗尽。<strong>整个法术</strong>都会弹回，如原本从反弹者前方十尺起始的*闪电束*也会整体返回，因而不伤他身后的同伴。
 

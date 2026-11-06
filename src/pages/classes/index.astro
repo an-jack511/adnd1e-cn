@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LibraryBrowser from '../../components/LibraryBrowser.astro';
+import CharacterLibrary from '../../components/CharacterLibrary.astro';
 import {classes} from '../../data/public/classes';
 ---
-<BaseLayout title="职业"><h1>职业</h1><p>按来源检索职业规则、能力与等级表。地区规则与可选变体在条目中分别列出。</p><LibraryBrowser entries={classes} kind="classes" /></BaseLayout>
+<BaseLayout title="职业"><h1>职业</h1><p>按来源检索职业规则、能力与等级表。地区规则与可选变体在条目中分别列出。</p><CharacterLibrary entries={classes} kind="classes" /></BaseLayout>

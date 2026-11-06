@@ -5,8 +5,10 @@ export function initLibraryBrowser(){
  const frame=root.querySelector<HTMLIFrameElement>('#library-detail-frame')!,full=root.querySelector<HTMLAnchorElement>('#library-full-entry')!,title=root.querySelector('#library-current-title')!;
  const rows=[...root.querySelectorAll<HTMLTableRowElement>('tr[data-library-id]')].map(row=>({row,record:JSON.parse(row.dataset.record!)}));
  const params=new URLSearchParams(location.search),picker=params.get('mode')==='select'&&window.parent!==window;
- const weaponsOnly=params.get('use')==='weapons';
- if(picker)for(const link of root.querySelectorAll<HTMLAnchorElement>('a[href="/equipment/"],a[href="/equipment/magic-items/"]')){const url=new URL(link.href);url.searchParams.set('mode','select');if(weaponsOnly)url.searchParams.set('use','weapons');link.href=url.href;}
+ const requestedKind=params.get('use');
+ const selectionKind=picker&&['gear','weapons','magic'].includes(requestedKind??'')?requestedKind:null;
+ if(selectionKind)for(const link of document.querySelectorAll<HTMLAnchorElement>('a[href="/equipment/"],a[href="/equipment/magic-items/"]'))link.hidden=true;
+ const eligibleIds=new Set(rows.filter(({record})=>!selectionKind||record.selectionKind===selectionKind).map(({row})=>row.dataset.libraryId!));
  let selected=new Set<string>();
  const inputs=[...root.querySelectorAll<HTMLInputElement>('.filter-grid input')];
  const groups=['category','type','source'];
@@ -23,7 +25,7 @@ export function initLibraryBrowser(){
  function applyFilters(){
   const values=Object.fromEntries(inputs.map(input=>[input.id.replace('library-',''),input.value.trim().toLowerCase()]));let shown=0;
   for(const {row,record} of rows){
-   row.hidden=weaponsOnly&&!record.weapon||!(values.name??'').split(/\s+/).filter(Boolean).every(word=>record.search.includes(word))||groups.some(group=>!matchesChoices(checkedValues(group),record.facets[group]??[]))||!!values.price&&priceInGold(record.price??'')>Number(values.price)||!!values.speed&&record.speed!==values.speed||!!values.damage&&!record.damage.includes(values.damage);if(!row.hidden)shown++;
+   row.hidden=!eligibleIds.has(row.dataset.libraryId!)||!(values.name??'').split(/\s+/).filter(Boolean).every(word=>record.search.includes(word))||groups.some(group=>!matchesChoices(checkedValues(group),record.facets[group]??[]))||!!values.price&&priceInGold(record.price??'')>Number(values.price)||!!values.speed&&record.speed!==values.speed||!!values.damage&&!record.damage.includes(values.damage);if(!row.hidden)shown++;
   }
   root!.querySelector('#library-count')!.textContent=`显示 ${shown} / ${rows.length} 项`;root!.querySelector<HTMLElement>('.library-no-results')!.hidden=shown>0;
   const url=new URL(location.href);inputs.forEach(input=>{const key=input.id.replace('library-','');input.value?url.searchParams.set(key,input.value):url.searchParams.delete(key);});groups.forEach(group=>{url.searchParams.delete(group);checkedValues(group).forEach(value=>url.searchParams.append(group,value));});history.replaceState({},'',url);
@@ -34,10 +36,10 @@ export function initLibraryBrowser(){
  if(picker){
   document.documentElement.classList.add('library-picker-mode');root.querySelectorAll<HTMLElement>('.library-check,.library-selection').forEach(el=>el.hidden=false);
   const count=()=>{root.querySelector('#library-selected-count')!.textContent=`已选 ${selected.size} 件`;root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>input.checked=selected.has(input.value));};
-  root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>input.addEventListener('change',()=>{input.checked?selected.add(input.value):selected.delete(input.value);count();}));
+  root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>{input.disabled=!eligibleIds.has(input.value);input.addEventListener('change',()=>{input.checked&&eligibleIds.has(input.value)?selected.add(input.value):selected.delete(input.value);count();});});
   root.querySelector('[data-library-apply]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-items-selected',ids:[...selected]},location.origin));
   root.querySelector('[data-library-cancel]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-item-picker-cancel'},location.origin));
-  window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-item-selection'||!Array.isArray(event.data.ids)||!event.data.ids.every((id:unknown)=>typeof id==='string'))return;selected=new Set(event.data.ids);count();});
+  window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-item-selection'||!Array.isArray(event.data.ids)||!event.data.ids.every((id:unknown)=>typeof id==='string'))return;selected=new Set(event.data.ids.filter((id:string)=>eligibleIds.has(id)));count();});
   parent.postMessage({type:'adnd1e-item-picker-ready'},location.origin);
  }
 }

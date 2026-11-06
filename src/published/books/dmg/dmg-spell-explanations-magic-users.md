@@ -16,7 +16,7 @@
 
 若未指定混合队伍中的某个单独目标，“睡眠术”会优先影响等级／生命骰最低的目标。
 
-### 坦瑟浮碟术 Tenser's Floating Disc
+### 谭森浮碟术 Tenser's Floating Disc
 
 施法者不能乘坐浮碟。浮碟总会跟随魔法师。
 
@@ -210,7 +210,7 @@
 
 此法术实际能影响的区域上限为 <strong>24 尺见方</strong>；施法需 <strong>4 小时</strong>，不包括召唤元素生物所需的时间。
 
-### 奥提路克冷冻球 Otiluke's Freezing Sphere
+### 欧提路克冷冻球 Otiluke's Freezing Sphere
 
 若将弹丸大小的法术效果用手投出，射程为 <strong>4 尺</strong>；否则按投石索弹丸处理。手掷时所有距离都视为近程；其他情况按投石索投射物处理。用“类手榴弹投射物表”确定未命中的落点。
 

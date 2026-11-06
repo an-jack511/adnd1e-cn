@@ -4,12 +4,14 @@
 
 ## 援助术 Aid（死灵／咒法系 Necromantic–Conjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 4 段 |
-| 持续时间 | 1 轮＋每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 轮＋每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 受术者获得*祝福术*的好处，并额外得到 1–8 点生命值。祝福与这些生命值都维持至*援助术*结束；额外生命值可以使当前生命值超过正常上限。受术者受伤时先扣除额外生命值，再扣除通常生命值；已经损失的额外生命值不能用治疗魔法恢复。
 
@@ -17,12 +19,14 @@
 
 ## 侦测生命 Detect Life（预言系 Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 10 尺 | 施法时间 | 1 轮 |
-| 持续时间 | 5 轮 | 豁免 | 无 |
-| 影响范围 | 一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>每级 10 尺<br>
+<strong>持续时间 Duration：</strong>5 轮<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师可判断目标生物是否存活。此术能察知处于*假死术*、昏迷、濒死般的出神或假死状态者，也能从正在星界旅行的生物肉身上察知生命；植物及植物生物同样适用。
 
@@ -30,12 +34,14 @@
 
 ## 尘魔 Dust Devil（咒法／召唤系 Conjuration/Summoning）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势 |
-| 距离 | 3″ | 施法时间 | 3 轮 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>3 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师召来一个较弱的气元素生物——尘魔：AC 4，生命骰 2，移动力 18″，每轮攻击一次，造成 1–4 点伤害。普通武器可以击中它；任何魔法武器对它造成双倍伤害。它是旋风状，底部直径 5 尺，高 15 尺，顶部宽 10 尺。尘魔听从牧师指挥移动，但若被命令移至距离施法者超过 3″，便会消散。
 
@@ -45,12 +51,14 @@
 
 ## 魅众术 Enthrall（附魔／魅惑系 Enchantment/Charm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势 |
-| 距离 | 3″ | 施法时间 | 1 轮 |
-| 持续时间 | 特殊，最多 6 回合 | 豁免 | 成功则无效 |
-| 影响范围 | 半径 90 尺 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>特殊，最多 6 回合<br>
+<strong>影响范围 Area of Effect：</strong>半径 90 尺<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 牧师可令完全听懂自己语言的听众着迷。同种族听众可作法术豁免；若听众属通常敌视牧师种族的另一种族，则豁免获得 +4。等级或生命骰超过 4，或感知高于 15 的生物，绝不受影响。
 
@@ -60,12 +68,14 @@
 
 ## 圣徽术 Holy Symbol（咒法／召唤系 Conjuration/Summoning）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 回合 |
-| 持续时间 | 永久 | 豁免 | 无 |
-| 影响范围 | 一件物品 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>一件物品<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 此术用于制备牧师的圣徽，或替换遗失、损坏的圣徽。拟制成圣徽的物件就是材料成分，施法时不会消耗；它必须以符合宗教与神祇的材料、形状及图样制成，不能随手拾取任何物品来充数。牧师同时可拥有两枚圣徽，因此也能用此术制备一枚备用。
 
@@ -73,12 +83,14 @@
 
 ## 信使术 Messenger（附魔／魅惑系 Enchantment/Charm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 2″ | 施法时间 | 1 轮 |
-| 持续时间 | 每级 1 小时 | 豁免 | 成功则无效 |
-| 影响范围 | 一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>每级 2″<br>
+<strong>持续时间 Duration：</strong>每级 1 小时<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 牧师召唤一只体型小型（S）、至少具动物智力的生物担任信使。巨型变种不受影响；智力值达到 4，或智力类别为“低”及以上者也不受影响。若生物已在射程内，牧师可用它喜欢的食物引诱它前来。它若通过法术豁免，法术失败；否则靠近牧师，等待指令。
 
@@ -86,12 +98,14 @@
 
 ## 退隐术 Withdraw（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 3 段 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 牧师本人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>牧师本人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师改变自身感受的时间流速：外界每经过 1 段，牧师便有 1 轮用于思考。基本持续时间为 2 段（牧师视角的 2 轮），此后每升 1 级再增加 1 段。因此，5 级牧师可在外界经过 6 段期间，思考相当于 6 轮的时间。地下城主须允许玩家为每段实际用 1 分钟思考问题；不得与不受此术影响的角色讨论。
 
@@ -99,12 +113,14 @@
 
 ## 飞龙守卫 Wyvern Watch（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 3″ | 施法时间 | 5 段 |
-| 持续时间 | 8 小时或直至击中 | 豁免 | 成功则无效 |
-| 影响范围 | 直径 1 尺的球体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>8 小时或直至击中<br>
+<strong>影响范围 Area of Effect：</strong>直径 1 尺的球体<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>5 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 此术产生一团隐约形似飞龙的无实体雾气，通常用来守护一处区域。任何靠近守护区域 1 尺内的生物都会受到法术力量攻击。飞龙形体出击时，目标须通过法术豁免，否则麻痹，每级施法者持续 1 轮；也可由施法者、*解除魔法*或*解除麻痹*提前解救。豁免成功意味着飞龙形体未击中，法术仍留在原处；一旦击中并造成麻痹，法术力量随即消散。若施法后 8 小时仍未击中入侵者，也会消散。
 

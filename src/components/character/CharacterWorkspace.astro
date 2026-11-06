@@ -8,12 +8,7 @@ interface Props {
 
 const { page } = Astro.props;
 const title = { sheet: '我的角色', growth: '角色成长', journal: '战役记录' }[page];
-const navigation = [
-  { page: 'create', href: '/character/create/', label: '创建角色', transition: true },
-  { page: 'sheet', href: '/character/sheet/', label: '我的角色', transition: false },
-  { page: 'growth', href: '/character/growth/', label: '角色成长', transition: false },
-  { page: 'journal', href: '/character/journal/', label: '战役记录', transition: false },
-];
+const navigation = [{page:'card',href:'/character/',label:'人物卡',transition:true}];
 ---
 <BaseLayout title={title} noIndex characterPage={page}>
  <div class="legacy-character-tools">

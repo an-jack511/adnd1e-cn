@@ -41,7 +41,7 @@
 | 9 | 睡眠术 Sleep | 口技术 Ventriloquism | 书写术 Write |
 | 0 | 自选 | 自选 | 自选 |
 
-由玩家自行作出上述选择。注意：<strong>诺斯托的魔法灵光术</strong>与<strong>坦瑟浮碟术</strong>必须由角色自行找到，初始时绝不可能已知。如果战役难度特别高，DM 可以自动允许角色获得这些法术。DM 还可以额外让角色选择一个防御法术或杂项法术，使其初始拥有 <strong>5 个法术</strong>。
+由玩家自行作出上述选择。注意：<strong>诺斯托的魔法灵光术</strong>与<strong>谭森浮碟术</strong>必须由角色自行找到，初始时绝不可能已知。如果战役难度特别高，DM 可以自动允许角色获得这些法术。DM 还可以额外让角色选择一个防御法术或杂项法术，使其初始拥有 <strong>5 个法术</strong>。
 
 ## 幻术师法术的获取 Acquisition of Illusionists' Spells
 

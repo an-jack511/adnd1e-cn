@@ -810,7 +810,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 （变化/死灵）
 
-<strong>等级：</strong>1；<strong>成分：</strong>V、S、M；<strong>范围：</strong>1”/等级；<strong>施法时间：</strong>1 段；<strong>持续时间：</strong>1 轮+1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>1；<br>
+<strong>距离 Range：</strong>1”/等级；<br>
+<strong>持续时间 Duration：</strong>1 轮+1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术使尸体、不死者或身体部位发出勾勒它们轮廓的苍白光芒。根据施法时说出的词语，光芒可以是白色、黄色、绿色、琥珀色或红色。施法者可以在法术持续期间随意通过意念改变光的强度，从极亮（不会致盲，但足以阅读，或进行撬锁、外科手术等精细工作）到极暗。施法者必须位于光芒 3”以内才能这样做。维持光芒不需要持续集中。
 
@@ -818,7 +826,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 #### Detect Undead
 
-<strong>等级：</strong>1；<strong>成分：</strong>V、S；<strong>范围：</strong>1”/等级；<strong>施法时间：</strong>1 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>球体，半径 1”/等级。
+<div class="spell-meta">
+<strong>等级 Level：</strong>1；<br>
+<strong>距离 Range：</strong>1”/等级；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>球体，半径 1”/等级<br>
+<strong>成分 Components：</strong>V、S；<br>
+<strong>施法时间 Casting Time：</strong>1 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>魔法使用者施展此法术后，可以感知法术范围内不死者的存在与位置，即使不死者隐形或藏匿（在棺材中、地板下、门后等）。法术生效后，如果不死者进入范围，轻微刺痒感会向施法者警告其方向。这个球体会随施法者移动。此魔法无法让没有与施法者建立心灵联系的生物探测不死者。
 
@@ -828,7 +844,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 #### Undead Mount
 
-<strong>等级：</strong>1；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>1 轮+1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>1；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>1 轮+1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>借助此法术，魔法使用者可以活化一匹死马或类似生物，或者用骨头创造出一匹。创造出的坐骑完全受施法者的心灵控制，可以由一个或多个生物骑乘，或携带负重，最大重量为 3,000 gp。让坐骑超载，或试图用不足的骨头创造坐骑，会立即破坏法术并浪费魔法。（注意，使用的骨头不必全部来自同一生物。）折断的骨头以及跛行或瘸腿的尸体同样可以成功使用。
 
@@ -840,7 +864,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 （变化）
 
-<strong>等级：</strong>2；<strong>成分：</strong>V、S、M；<strong>范围：</strong>0；<strong>施法时间：</strong>2 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>特殊；<strong>作用范围：</strong>一名生物。
+<div class="spell-meta">
+<strong>等级 Level：</strong>2；<br>
+<strong>距离 Range：</strong>0；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>2 段；<br>
+<strong>豁免检定 Saving Throw：</strong>特殊；</div>
+
 
 <strong>说明：</strong>借助此法术，施法者或施法时触碰的单一生物会对不死者隐形。无论受保护生物发出什么声音或进行什么活动，不死者都不会感知它的存在。受保护生物成功攻击不死者后，只会对该不死者立即显形；除非再次施展法术，否则无法重新隐藏。受保护生物与不死者意外接触（即使因此对任一方造成伤害）不会使受保护生物显形。受保护生物不能驱散不死者。
 
@@ -850,7 +882,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 #### Skull Watch
 
-<strong>等级：</strong>2；<strong>成分：</strong>V、S、M；<strong>范围：</strong>0；<strong>施法时间：</strong>2 段；<strong>持续时间：</strong>1 轮+1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>2；<br>
+<strong>距离 Range：</strong>0；<br>
+<strong>持续时间 Duration：</strong>1 轮+1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>2 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>使用来自任何有智力种族的骷髅完整头骨（包括颌骨）、一根线和一片施法者的耳垢，这种魔法会制造警报系统。施法时，把头骨悬在半空中，让它静止不动直到被激活；或者把它放在表面上，使眼窝朝向一个指定方向。如果任何活着的生物进入头骨的注视范围（从眼睛笔直向前延伸、宽 20 英尺、长 90 英尺，或直到实体障碍物介入，以距离较近者为准），头骨就会被激活。它会突然发出极其响亮的尖叫。随着头骨缓慢沉到地面，声音会变成可怕的哀号。
 
@@ -862,7 +902,15 @@ AD&D 规则书描述了许多在处理不死者时有用的卷轴、戒指、魔
 
 （塑能/死灵）
 
-<strong>等级：</strong>2；<strong>成分：</strong>V、S、M；<strong>范围：</strong>0；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>1 轮+1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>2；<br>
+<strong>距离 Range：</strong>0；<br>
+<strong>持续时间 Duration：</strong>1 轮+1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术创造一匹看不见的、基本上无形的飞行坐骑。坐骑由任意飞行生物的一根完整骨头形成（施法时消耗材料成分）。骨头可以来自生前大小任意的生物，例如普通鸟或蝙蝠。施法者始终能清楚看见坐骑：它通常呈 12 英尺长（如有尾巴还要更长）、灰色半透明的巨型有翼形态，翼展超过 26 英尺。坐骑与取骨的生物相似。其他人看不见它，但被携带的生物或物品完全可见。
 
@@ -874,7 +922,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （变化/死灵）
 
-<strong>等级：</strong>3；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>3 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>3；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>3 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术使施法者免疫不死木乃伊触碰造成的腐烂疾病。施法者也获得通过触碰施加腐烂疾病的能力。疾病会使受害者的肉体腐烂（无豁免检定，但所有不死者都受影响），每月永久损失 2 点魅力，并在 1d6 个月内致命。只有 cure disease 或更强大的魔法能治愈它；它会使所有 cure wounds 法术失效。感染者以正常速度的 10% 恢复伤口。法术不会改变施法者的外貌、力量、阵营或其打击造成的 hp 伤害。施法者必须成功进行命中检定才能施加 mummy touch；不能选择对某些生物开启力量、对其他生物关闭力量；一旦由施法者意志结束法术，便不能再次恢复。
 
@@ -884,7 +940,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （变化/死灵）
 
-<strong>等级：</strong>3；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>3 段；<strong>持续时间：</strong>特殊；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>每等级一名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>3；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>特殊；<br>
+<strong>影响范围 Area of Effect：</strong>每等级一名不死者<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>3 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>这种强力魔法可以让不死生物暂时免疫牧师与圣武士的驱散尝试以及摧毁或破坏效果（即使这些效果通常会自动生效）。disruption mace 及类似神圣物品仍会对受此法术保护的不死者正常生效，但 revenant undead 会忽略 protection from evil 魔法。
 
@@ -896,7 +960,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （防护/死灵）
 
-<strong>等级：</strong>3；<strong>成分：</strong>V、S；<strong>范围：</strong>1”/等级；<strong>施法时间：</strong>3 段；<strong>持续时间：</strong>1 轮+1 轮/等级；<strong>豁免检定：</strong>无效；<strong>作用范围：</strong>球体，半径 1”/等级。
+<div class="spell-meta">
+<strong>等级 Level：</strong>3；<br>
+<strong>距离 Range：</strong>1”/等级；<br>
+<strong>持续时间 Duration：</strong>1 轮+1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>球体，半径 1”/等级<br>
+<strong>成分 Components：</strong>V、S；<br>
+<strong>施法时间 Casting Time：</strong>3 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无效；</div>
+
 
 <strong>说明：</strong>此法术让施法者能够阻止不死者进入某个区域，通常是走廊、房间的横截面，或包含施法者与同伴的其他区域。试图进入受保护区域的不死者，会看见该区域发出所有人都能看见的、类似微弱 faerie fire 的蓝色光芒；它们必须根据自己的生命骰进行对吐息武器的豁免检定。
 
@@ -906,7 +978,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （死灵）
 
-<strong>等级：</strong>4；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>6 段；<strong>持续时间：</strong>1 小时/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>一名生物。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>1 小时/等级；<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>6 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>和三级牧师法术同名法术一样，death's door 通过触碰作用于“濒临死亡”的生物（-1 至 -9 hp）。与牧师法术的重要区别是，它对所有生物有效，包括不死者。法术会把被触碰的生物带到 0 hp，并在持续期间停止流血与恶化（因此，进一步的魔法手段可以让它恢复到能够行动的状态）。材料成分是透明宝石或水晶、一滴水或露水、一滴血、一滴牛奶或花蜜，以及任意形式的油膏。
 
@@ -914,7 +994,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （死灵）
 
-<strong>等级：</strong>4；<strong>成分：</strong>V、S、M；<strong>范围：</strong>1”；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>特殊；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>一名生物。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4；<br>
+<strong>距离 Range：</strong>1”；<br>
+<strong>持续时间 Duration：</strong>特殊；<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>像三级牧师法术一样，此魔法允许施法者向死去（不是不死）的生物提问，并得到可听见的回答。施法者与死者必须共享一种语言，而且法术必须施展在遗骸或其一部分上。材料成分是一团火焰（来源不限）、一滴施法者的血和任何生物的舌头（可以干燥或磨成粉）。能够回答的问题数量、允许询问的时间，以及生物死亡后还能成功询问的最长时间，都取决于施法者等级：
 
@@ -931,7 +1019,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （变化/死灵）
 
-<strong>等级：</strong>4；<strong>成分：</strong>V、S；<strong>范围：</strong>触碰；<strong>施法时间：</strong>3 段；<strong>持续时间：</strong>立即；<strong>豁免检定：</strong>无效；<strong>作用范围：</strong>一名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>立即；<br>
+<strong>影响范围 Area of Effect：</strong>一名不死者<br>
+<strong>成分 Components：</strong>V、S；<br>
+<strong>施法时间 Casting Time：</strong>3 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无效；</div>
+
 
 <strong>说明：</strong>借助此魔法，施法者可以立即把一名不死生物传送到同一位面上的任意地点。传送成功率与五级 teleport 法术相同，但施法者不能故意把不死者送往过高或过低的位置。触碰不是施法者创造的不死者时，需要成功进行命中检定。（注意，无形不死者，例如幽魂、气态吸血鬼等，仍然可以被触碰。）所有不死者都可以根据生命骰进行对吐息武器的豁免检定，以避免法术效果。成功豁免时，法术被浪费并失效。
 
@@ -939,7 +1035,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （变化/死灵）
 
-<strong>等级：</strong>5；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>5 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>5；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>5 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术让施法者能够像巫妖一样触碰生物，造成 1d10 点寒冷伤害，并使所有未通过对吐息武器豁免检定的生物麻痹。施法者不能把触碰力量打开或关闭，不能选择伤害触碰到的某些生物而不伤害其他生物；每轮只能影响一名生物。要施加 chilling touch，必须成功进行命中检定。不死者免疫这种魔法。
 
@@ -951,7 +1055,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （幻术/幻相/变化/死灵）
 
-<strong>等级：</strong>5；<strong>成分：</strong>V、S、M；<strong>范围：</strong>1'/等级；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>1 回合/等级；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>每等级一名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>5；<br>
+<strong>距离 Range：</strong>1'/等级；<br>
+<strong>持续时间 Duration：</strong>1 回合/等级；<br>
+<strong>影响范围 Area of Effect：</strong>每等级一名不死者<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术能够改变不死者的外貌，使它们看起来像活着的生物。它们会呈现健康活着时的样子，拥有肉、眼睛等，也不会散发尸臭。被伪装的不死者没有可辨认的阵营；为了接触魔法物品的目的，将它们视为中立。它们不会被探测为不死者（不过也不会被探测为活物），而且在法术持续期间不能被牧师或圣武士驱散或摧毁。
 
@@ -961,13 +1073,29 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （防护/死灵）
 
-<strong>等级：</strong>5；<strong>成分：</strong>V、S、M；<strong>范围：</strong>6”；<strong>施法时间：</strong>5 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>无效；<strong>作用范围：</strong>一至三名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>5；<br>
+<strong>距离 Range：</strong>6”；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>一至三名不死者<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>5 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无效；</div>
+
 
 <strong>说明：</strong>如同二级牧师法术，此魔法会使受影响的目标固定不动。目标必须是不死者，并按以下方式进行豁免：一名不死者以 -2 进行法术豁免；两名不死者各以 -1 进行豁免；三名不死者正常豁免。不死者的类型不影响豁免检定；施法者甚至不必知道有多少不死者在场。最多三名不死者会受到影响。通过豁免的目标完全不受影响。被 hold 的不死者不能被破坏或驱散，也不能改变形态或施法。任何击中被 hold 不死者的物理攻击都会解除 hold。材料成分是一根包在含铁金属丝中的骨头，以及两块磁铁或磁石。
 
 #### Imbue Undead With Spell Ability
 
-<strong>等级：</strong>6；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>特殊；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>一名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>6；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>特殊；<br>
+<strong>影响范围 Area of Effect：</strong>一名不死者<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>通过此法术，施法者使一名不死者获得施放某个特定法术的能力。不死者要施放的法术，必须是施法者知道并能使用的法术；施法者必须紧接着在灌注魔法之后施放该法术，把它转移给不死者。任何类型的法术都可以转移；当不死者释放它时，法术便生效，不再需要额外的言语、姿势或材料成分，就如同活着的施法者施放的一样。
 
@@ -977,7 +1105,15 @@ Spectral wings 完全无声，机动等级为“A”，可以穿过实体物体�
 
 （塑能/死灵）
 
-<strong>等级：</strong>6；<strong>成分：</strong>V、S、M；<strong>范围：</strong>6”；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>特殊；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>半径 2”球体。
+<div class="spell-meta">
+<strong>等级 Level：</strong>6；<br>
+<strong>距离 Range：</strong>6”；<br>
+<strong>持续时间 Duration：</strong>特殊；<br>
+<strong>影响范围 Area of Effect：</strong>半径 2”球体<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>此法术在一个特定且不可移动的地点创造隐形守卫。施法者需要一件备用武器、一块人骨、一滴血和任意生物的眼睛；眼睛可以是干燥或保存过的（全部材料都会在施法时消耗）。spectral guard 会在这里等待，普通的非魔法手段无法探测它，直到被解除或施法时说明的特定条件满足。条件通常是某扇门或箱子被打开、非施法者的生物进入某个区域，或有人触碰特定物品等。
 
@@ -991,7 +1127,15 @@ Spectral guard 每轮攻击两次，AC 0，按施法者的命中能力攻击，�
 
 （死灵）
 
-<strong>等级：</strong>6；<strong>成分：</strong>V、S；<strong>范围：</strong>触碰；<strong>施法时间：</strong>6 段；<strong>持续时间：</strong>立即；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>一名不死者。
+<div class="spell-meta">
+<strong>等级 Level：</strong>6；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>立即；<br>
+<strong>影响范围 Area of Effect：</strong>一名不死者<br>
+<strong>成分 Components：</strong>V、S；<br>
+<strong>施法时间 Casting Time：</strong>6 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>这种魔法使施法者能够治愈一名不死者，恢复的生命值等于施法者自身等级加 1d6。注意，气态和无形不死者可以被施法者进入它们所占据的空间来触碰。该法术的逆转法术 undead drain 需要成功进行命中检定（未命中则法术失效），并造成相同数值的 hp 伤害。对不死者造成的伤害会消散，不会转化为施法者的额外生命值。两个版本都只能影响不死者。
 
@@ -1001,7 +1145,15 @@ Spectral guard 每轮攻击两次，AC 0，按施法者的命中能力攻击，�
 
 （塑能/变化）
 
-<strong>等级：</strong>8；<strong>成分：</strong>V、S、M；<strong>范围：</strong>0；<strong>施法时间：</strong>4 段；<strong>持续时间：</strong>1 轮；<strong>豁免检定：</strong>特殊；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>8；<br>
+<strong>距离 Range：</strong>0；<br>
+<strong>持续时间 Duration：</strong>1 轮；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>4 段；<br>
+<strong>豁免检定 Saving Throw：</strong>特殊；</div>
+
 
 <strong>说明：</strong>魔法使用者施展 sunburst 时，一个辐射光球从他的身体无声地向所有方向爆发。辐射在一轮内向外冲出，最大有效半径为施法者等级的 1”/等级，然后消散。和 druidic sunray 一样，这种辐射会使其中所有生物致盲 1d3 轮（成功通过法术豁免即可避免）。使用紫外视觉的生物如果豁免失败，会被致盲 2d4 轮。受到阳光伤害的生物会被致盲 2d6 轮（如果豁免失败，则为 1d100 天）。辐射中的生物即使拥有红外视觉，也会暂时失去这种视觉 1d4+1 轮。包括吸血鬼在内的不死者受到 8d6 点伤害，成功通过法术豁免则伤害减半。sunburst 的紫外光会对真菌类生物和地下真菌造成 8d6 点伤害（不允许豁免检定）。材料成分是一块日光石（aventurine feldspar）和任意来源的裸露火焰。
 
@@ -1009,7 +1161,15 @@ Spectral guard 每轮攻击两次，AC 0，按施法者的命中能力攻击，�
 
 （死灵）
 
-<strong>等级：</strong>8；<strong>成分：</strong>V、S、M；<strong>范围：</strong>触碰；<strong>施法时间：</strong>1 轮；<strong>持续时间：</strong>永久；<strong>豁免检定：</strong>无；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>8；<br>
+<strong>距离 Range：</strong>触碰；<br>
+<strong>持续时间 Duration：</strong>永久；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无；</div>
+
 
 <strong>说明：</strong>这种强力魔法使施法者可以从尸体和骨骼遗骸中创造不死者。不死者需要 20 轮减去施法者等级的时间才能进入不死状态；一出现，它们就会尝试执行施法时指定的一项任务或行动（通常是攻击第一个进入施法地点、且不是施法者的生物）。被创造的不死者并不受施法者控制。
 
@@ -1023,7 +1183,15 @@ Spectral guard 每轮攻击两次，AC 0，按施法者的命中能力攻击，�
 
 （死灵）
 
-<strong>等级：</strong>9；<strong>成分：</strong>V、S、M；<strong>范围：</strong>1”/等级；<strong>施法时间：</strong>2 段；<strong>持续时间：</strong>1 轮/等级；<strong>豁免检定：</strong>特殊；<strong>作用范围：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>9；<br>
+<strong>距离 Range：</strong>1”/等级；<br>
+<strong>持续时间 Duration：</strong>1 轮/等级；<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>2 段；<br>
+<strong>豁免检定 Saving Throw：</strong>特殊；</div>
+
 
 <strong>说明：</strong>此法术使施法者能够完美而精确地控制不死生物，如同它们是受到 charm 的有智力生物。受控制的不死者可以执行爬行、分类、开锁、捆绑伤口等精细任务，但不能施法，或执行施法者职业所不允许的其他职业能力。
 

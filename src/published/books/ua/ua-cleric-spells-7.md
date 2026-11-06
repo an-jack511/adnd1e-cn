@@ -4,12 +4,14 @@
 
 ## 强制履约 Exaction（塑能／变化系 Evocation–Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 1 轮 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 牧师当面要求一名强大的异位面生物履行某项职务或使命，例如天使使者或有专名的强大恶魔，但不包括任何半神或神祇。目标在守序／混乱或善良／邪恶方面不得与牧师对立：善良牧师不能要求邪恶者，守序牧师不能要求混乱者。绝对中立生物实际上与善恶双方、守序与混乱双方都有深刻分歧。
 
@@ -21,12 +23,14 @@
 
 ## 救援术 Succor（变化／附魔系 Alteration–Enchantment，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 天 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 天<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师将强大魔力灌入一件特别预备的物品，如一串祈祷珠、小泥板或象牙短杖。物品散发魔法灵光，持有者可藉它瞬间传送到制作者的圣所。完成魔化后，牧师必须自愿把物品交给某人，并同时告知启动口令。受赠者欲使用时，须一边说出口令一边扯断或打破物品；如此一来，他本人及所穿戴、携带的一切都会立即传送至牧师圣所，效果如同自行施展*回归术*。其他生物不会同行。
 

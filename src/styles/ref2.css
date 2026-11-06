@@ -440,3 +440,34 @@
  .armor-fields select { min-height:0; }
  .armor-variants { gap:2mm; }
 }
+/* Screen keeps the original paper frame; the print copy never mutates the editable card. */
+#print-settings label,.ref2-print-settings label{display:inline-flex;align-items:center;gap:5px;margin:6px 18px 6px 0}
+.owned-magic-row{display:flex;align-items:center;gap:5px;justify-content:space-between;margin:3px 0}
+.owned-magic-row input{max-width:42px;text-align:center;border-bottom:1px solid var(--ref2-rule)!important}
+#ref2-print-output{display:none}
+@media print{
+ body:has(#ref2-print-output)>:not(#ref2-print-output){display:none!important}
+ #ref2-print-output{display:block!important;margin:0!important;padding:0!important;width:194mm;max-width:none;--ref2-ink:#24221f;--ref2-rule:#37332d}
+ #ref2-print-output .ref2-print-sheet{position:relative;width:194mm;height:280mm;break-after:page;page-break-after:always}
+ #ref2-print-output .ref2-print-sheet:last-child{break-after:auto;page-break-after:auto}
+ #ref2-print-output .ref2-paper[data-card-panel]{position:absolute;top:0;left:0;width:194mm;box-sizing:border-box;transform:scale(var(--print-scale,1));transform-origin:top left;break-after:auto;page-break-after:auto;background:#fff;color:#24221f}
+ #ref2-print-output .ref2-print-sheet[data-continued=true]{height:auto}
+ #ref2-print-output .ref2-print-sheet[data-continued=true]>.ref2-paper{position:static;transform:none}
+ #ref2-print-output .ref2-spells[data-has-spells=false]{display:block!important}
+ #ref2-print-output .print-empty-field>textarea{height:5mm!important;min-height:0!important}
+ #ref2-print-output .ref2-print-sheet :is(button,.item-library-actions,.weapon-table-hint){display:none!important}
+ #ref2-print-output[data-monochrome=true]{--ref2-orange:#fff;--ref2-yellow:#fff;--ref2-ink:#000;--ref2-rule:#000;color:#000}
+ #ref2-print-output[data-monochrome=true] .ref2-paper,#ref2-print-output[data-monochrome=true] :is(input,select,textarea,output,a,h2,h3,th,td){color:#000!important;background-color:transparent!important}
+ #ref2-print-output[data-monochrome=true] :is(.ref2-band,.senses-row,.movement-row,.repeater-proficiencies){background:#fff!important;color:#000!important}
+ #ref2-print-output[data-monochrome=true] .ref2-band{border-block:1px solid #000}
+ #ref2-print-output[data-monochrome=true] .ref2-original-logo{filter:grayscale(1)}
+}
+#ref2-print-output.print-measuring{display:block!important;position:absolute!important;top:0;left:0;visibility:hidden!important;pointer-events:none}
+#ref2-print-output.print-measuring .ref2-paper[data-card-panel]{position:static!important;transform:none!important}
+.identity-library-actions{display:flex;gap:6px;justify-content:flex-end;margin:-4px 0 7px}
+#identity-library{width:min(1180px,96vw);height:90vh;max-height:95vh;padding:0;border:1px solid var(--line);background:var(--paper)}
+#identity-library::backdrop{background:#11221988}
+#identity-library>header{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;background:var(--surface);border-bottom:1px solid var(--line)}
+#identity-library h2{margin:0;font:18px var(--display)}
+#identity-library iframe{display:block;width:100%;height:calc(100% - 52px);border:0}
+@media print{.identity-library-actions{display:none!important}}

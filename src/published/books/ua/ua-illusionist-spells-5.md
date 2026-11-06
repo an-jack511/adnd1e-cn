@@ -6,23 +6,27 @@
 
 ## 高级幻象 Advanced Illusion（幻术／幻影系 Illusion/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 5 | 法术成分 | 言语、姿势、材料 |
-| 距离 | <strong>6″＋每级 1″</strong> | 施法时间 | 5 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 特殊 |
-| 影响范围 | <strong>4 平方″＋每级 1 平方″</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong><strong>6″＋每级 1″</strong><br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong><strong>4 平方″＋每级 1 平方″</strong><br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>5 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 本质上是一项按施法者预定程序运行的*幽灵之力*，类似*程序幻象*。施法后只需再专注 <strong>5 段</strong>让程序开始，之后便会自行继续。幻象包含视觉、完整声音、气味与温度感受。旁观者若主动尝试识破，可对法术豁免；有人成功并把发现告诉其他能够理解的人，那些人便可用 <strong>＋4</strong>修正豁免。材料成分是一小撮羊毛和几粒沙。
 
 ## 梦境术 Dream（变化／幻术与幻影系 Alteration-Illusion/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 5 | 法术成分 | 特殊 |
-| 距离 | 特殊 | 施法时间 | 1 天 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>特殊<br>
+<strong>施法时间 Casting Time：</strong>1 天<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 这是效果范围远小于*有限祈愿术*的一种祈望。幻术师须找个舒适处休息、躺下，整理思绪并专注于希望得到的结果，然后入睡。若能不受打扰地睡至少 <strong>8 小时</strong>，梦境的魔法会在其后 <strong>1–12 小时</strong>内实现。典型结果包括：
 
@@ -38,23 +42,27 @@
 
 ## 魔镜术 Magic Mirror（附魔／预言系 Enchantment-Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 5 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 小时 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 小时<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 与[魔法师四环魔镜术](/books/ua/ua-magic-user-spells-4/)几乎完全相同，通常使用相同材料。不过幻术师也能改以施展*观视术 Vision*代替通常的材料成分：这样镜子仍可正常远观，但被代用的*观视术*本身不会正常起效。
 
 ## 时光飞逝 Tempus Fugit（幻术／幻影系 Illusion/Phantasm，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 5 | 法术成分 | 言语、姿势 |
-| 距离 | 0 | 施法时间 | 5 段 |
-| 持续时间 | 每级 5 回合 | 豁免 | 无 |
-| 影响范围 | 半径 <strong>1″</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 5 回合<br>
+<strong>影响范围 Area of Effect：</strong>半径 <strong>1″</strong><br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>5 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 这项强力幻术影响范围内众人的心智与身体；法术完成后走入区域者同样受影响。他们经历的时间加快：外界经过 <strong>1 回合（10 分钟）</strong>，对他们而言就像过了 <strong>1 小时</strong>。进食、睡眠等身体需求也按加快的时间计算；区域内施展的其他法术，持续时间同样加快。外界 <strong>1 小时</strong>相当于他们的 <strong>6 小时</strong>，外界 <strong>4 小时</strong>相当于他们的 <strong>1 天</strong>。这种加速可以用来休息、重新准备法术、恢复失去的生命值。
 

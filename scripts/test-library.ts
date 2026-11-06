@@ -43,11 +43,40 @@ const card=blankCard();card.fields.magic_items='旧版手填魔法物品';
 card.rows.gear[0].values={item:'自制绳梯',quantity:'0',note:'保留自定义附注'};
 card.rows.gear[1].values={itemId:'future-item',item:'未来物品',quantity:'2'};
 selectInventory(card,['long-sword','backpack'],'gear',items);
-const sword=card.rows.gear.find(row=>row.values.itemId==='long-sword')!;sword.values.quantity='3';sword.values.location='马鞍袋';sword.values.note='原有附注';
-selectInventory(card,['long-sword','dla-dragonlance'],'gear',items);
-assert.equal(card.rows.gear.filter(row=>row.values.itemId==='long-sword').length,1);assert.equal(sword.values.quantity,'3');assert.equal(sword.values.location,'马鞍袋');assert.equal(sword.values.note,'原有附注');
-assert.ok(!card.rows.gear.some(row=>row.values.itemId==='backpack'));assert.ok(!card.rows.gear.some(row=>row.values.itemId==='dla-dragonlance'));
+assert.ok(!card.rows.gear.some(row=>row.values.itemId==='long-sword'),'Weapons stay out of the gear picker');
+const sword=card.rows.gear.find(row=>row.values.itemId==='backpack')!;sword.values.quantity='3';sword.values.location='马鞍袋';sword.values.note='原有附注';
+selectInventory(card,['backpack','dla-dragonlance'],'gear',items);
+assert.equal(card.rows.gear.filter(row=>row.values.itemId==='backpack').length,1);assert.equal(sword.values.quantity,'3');assert.equal(sword.values.location,'马鞍袋');assert.equal(sword.values.note,'原有附注');
+assert.ok(!card.rows.gear.some(row=>row.values.itemId==='long-sword'));assert.ok(!card.rows.gear.some(row=>row.values.itemId==='dla-dragonlance'));
 selectInventory(card,['dla-dragonlance'],'magic',items);selectInventory(card,[],'gear',items);
 assert.ok(card.rows.gear.some(row=>row.values.itemId==='dla-dragonlance'));assert.ok(card.rows.gear.some(row=>row.values.item==='自制绳梯'&&row.values.quantity==='0'));assert.ok(card.rows.gear.some(row=>row.values.itemId==='future-item'));assert.equal(card.fields.magic_items,'旧版手填魔法物品');
 assert.deepEqual(normalizeCard(JSON.parse(JSON.stringify(card))),card);
 console.log(`PASS: ${items.length} item records, sourced class/race rules, table boundaries, magic taxonomy, OA prices, stable IDs and non-destructive inventory selection.`);
+
+for(const entry of [...classes,...races])for(const detail of entry.details??[]){
+ assert.ok(!/<p>\s*\|[^<]+\|/s.test(detail.html),`Unparsed table: ${entry.id}`);
+ assert.ok(!/<p\b[^>]*>(?:(?!<\/p>)[\s\S])*<h[1-6]\b/.test(detail.html),`Heading inside a sentence: ${entry.id}`);
+}
+const dwarf=races.find(entry=>entry.id==='dwarf')!;
+const dwarfCap=dwarf.details!.find(detail=>detail.title==='UA · 职业等级与属性上限表')!.html;
+assert.ok(dwarfCap.includes('矮人'));assert.ok(!dwarfCap.includes('表 II.D'));assert.ok(!dwarfCap.includes('表 II.E'));
+for(const entry of classes.filter(entry=>entry.id.startsWith('oa-')))assert.ok(!entry.details?.find(detail=>detail.title.startsWith('OA · 职业选择'))?.html.includes('竹灵族'));
+console.log('PASS: isolated race/class extracts, parsed tables and inline titles.');
+
+const {spells}=await import('../src/data/public/spells');
+const {monsters}=await import('../src/data/public/monsters');
+const regionalSpellCount=(book:string)=>spells.filter(entry=>entry.source.some(source=>source.book===book)).length;
+assert.equal(regionalSpellCount('GHA'),118);assert.equal(regionalSpellCount('FR'),43);
+for(const entries of [spells,monsters,items])assert.equal(new Set(entries.map(entry=>entry.id)).size,entries.length,'Unique library IDs');
+for(const entry of [...spells,...monsters].filter(entry=>entry.source.some(source=>['GHA','DLA','FR'].includes(source.book)))){
+ assert.ok(entry.details?.length,`Complete regional rules: ${entry.id}`);
+ for(const detail of entry.details??[])assert.ok(routes.has(detail.href),`Regional source: ${detail.href}`);
+}
+assert.ok(spells.find(entry=>entry.id==='gha-bigby-sensing-fingers')?.nameZh.startsWith('毕格比'));
+assert.equal(spells.find(entry=>entry.nameEn==='Reveal')?.school,'预言');
+assert.ok(monsters.some(entry=>entry.id==='dla-dreamshadows'));
+assert.equal(items.filter(entry=>entry.source.some(source=>source.book==='FR')&&entry.category==='魔法物品').length,19);
+assert.equal(items.filter(entry=>entry.id.startsWith('fr-poison-')).length,9);
+const {printScale}=await import('../src/character/ref2/printing');
+assert.equal(printScale(900),1);assert.ok(printScale(1200)<1);assert.equal(printScale(3000),1,'Long filled cards continue rather than shrinking illegibly');
+console.log('PASS: complete regional spell imports, stable IDs, source routes, magic book/poison isolation and readable print scaling.');

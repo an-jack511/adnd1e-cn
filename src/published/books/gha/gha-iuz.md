@@ -33,14 +33,14 @@ AL 混乱邪恶；RA 见下文；AEx 无；WPN 棍棒、连枷、钉头锤*、�
 
 #### 唾液 Spittle（变化）
 
-| 等级 | 1 |
-| --- | --- |
-| 射程 | 10 码 |
-| 施法时间 | 1 段 |
-| 持续时间 | 1 次攻击 |
-| 豁免检定 | 否定 |
-| 作用范围 | 1 个生物 |
-| 成分 | S |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>10 码<br>
+<strong>持续时间 Duration：</strong>1 次攻击<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>成分 Components：</strong>S<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
 
 此法术允许牧师生成恶心的唾液，能够使任何接触到它的生物麻痹。牧师必须进行命中检定，且所有目标都视为处于近距离。被击中的生物必须进行对法术豁免，否则失去被击中部位的作用：
 

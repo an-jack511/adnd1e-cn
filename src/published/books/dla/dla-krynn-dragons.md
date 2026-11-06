@@ -8,7 +8,7 @@
 
 龙是克莱恩真正的子嗣，体现着元素力量本身。克莱恩的龙是力量的化身，而且它们知道这一点。他们是——或者至少应该是——最可怕的对手，能够让所有看见他们的人产生敬畏与恐惧。
 
-在 Huma 的古代，龙被逐出赋予他们生命的世界。从那以后，被困在遥远位面上的邪恶之龙就一直密谋返回。善良之龙也同样遭到放逐，但它们决定把克莱恩的光明留给诸神的子嗣。
+在 修玛（Huma） 的古代，龙被逐出赋予他们生命的世界。从那以后，被困在遥远位面上的邪恶之龙就一直密谋返回。善良之龙也同样遭到放逐，但它们决定把克莱恩的光明留给诸神的子嗣。
 
 ### 邪恶之龙 The Evil Dragons
 
@@ -26,7 +26,7 @@
 
 由于黑龙极其独立，只有在服从命令符合自身目的时才会服从，因此龙大领主在战火之年很少把它们用于直接攻击城市。这些龙更受重视的用途是守护珍贵的神器与担任间谍。
 
-这就是为什么伙伴们会在 Xak Tsaroth 的遗迹中发现黑龙 Onyx 守护着 Mishakal 的圆盘。
+这就是为什么伙伴们会在 扎克沙罗斯（Xak Tsaroth） 的遗迹中发现黑龙 Onyx 守护着 米莎凯（Mishakal） 的圆盘。
 
 #### 蓝龙 Blue Dragons
 
@@ -42,15 +42,15 @@
 
 绿龙聪明而隐秘，更喜欢对敌人使用欺骗与魔法，而不是发动全面攻击。因此，它们很少参与重大的进攻行动，却经常被召来执行更阴险的任务。
 
-绿龙 Cyan Bloodbane 曾负责把噩梦吹入 Silvanesti 国王 Lorac 的耳中。这些噩梦导致古老精灵家园发生可怕的变异。众所周知，在战后的一段时间里，Cyan Bloodbane 也曾为大法师 Raistlin 效力。
+绿龙 Cyan Bloodbane 曾负责把噩梦吹入 西尔瓦内斯提（Silvanesti） 国王 Lorac 的耳中。这些噩梦导致古老精灵家园发生可怕的变异。众所周知，在战后的一段时间里，Cyan Bloodbane 也曾为大法师 雷斯林（Raistlin） 效力。
 
 #### 红龙 Red Dragons
 
 凭借火焰吐息与非凡的智力，红龙是龙大领主最偏爱的空中突击部队。它们是所有龙族中最凶猛、最致命的，仅次于女王本身；红龙体长超过 48 英尺。
 
-红龙通常不愿服从命令，最喜欢把城市点燃、摧毁并掠夺。它们很快学会了如何在飞行编队中协同工作，同时攻击敌人并相互防御。红龙首先忠于黑暗女王，其次才忠于龙大领主。红龙的主要职责，是寻找 Berem Everman——唯一能够永久阻止黑暗女王重新进入克莱恩的人。
+红龙通常不愿服从命令，最喜欢把城市点燃、摧毁并掠夺。它们很快学会了如何在飞行编队中协同工作，同时攻击敌人并相互防御。红龙首先忠于黑暗女王，其次才忠于龙大领主。红龙的主要职责，是寻找 贝伦（Berem） Everman——唯一能够永久阻止黑暗女王重新进入克莱恩的人。
 
-Lord Verminaard 的红龙 Ember 负责毁灭 Pax Tharkas、焚烧 Solace，以及在 Abanasinia 各地实施其他破坏行为。
+Lord 威敏那德（Verminaard） 的红龙 Ember 负责毁灭 帕克斯萨卡斯（Pax Tharkas）、焚烧 Solace，以及在 Abanasinia 各地实施其他破坏行为。
 
 #### 白龙 White Dragons
 
@@ -92,29 +92,29 @@ Sleet 是曾为邪恶巫师 Feal-Thas 效力、并帮助守卫冰墙城堡的白
 
 金龙用牙齿与爪子攻击，或者使用吐息武器。它们可以向受害者喷出火焰或氯气。金龙也极其精通魔法——即使是非常年轻的金龙也是如此。金龙的智力很高，很少使用法术书。
 
-Pyrite 是生活在克莱恩上最古老的金龙，是著名巫师 Fizban the Fabulous 的伙伴。
+Pyrite 是生活在克莱恩上最古老的金龙，是著名巫师 菲兹班（Fizban） the Fabulous 的伙伴。
 
 #### 银龙 Silver Dragons
 
 银龙无疑是最受人类喜爱的龙。这些龙与克莱恩的各个种族交往最为密切。银龙体长 48 英尺，可以变形为人类或精灵的形态。与金龙不同，银龙有时似乎更喜欢这种形态而不是自己的龙形。它们喜欢与人类、精灵相处，并在力所能及的范围内帮助他们。银龙用爪子与牙齿攻击，或者使用两种吐息武器中的一种——霜冻锥或麻痹气体锥。它们会说许多语言，但通常偏爱人类或精灵的语言。银龙是出色的魔法使用者。
 
-最著名的银龙是 Dargent；她曾以 Kagonesti 精灵少女 Silvart 的形态与伙伴们相遇。Dargent 是那条爱上 Huma 的银龙的姐妹，也注定会爱上一名凡人——Qualinesti 精灵领主 Gilthanas。然而，这段爱情是悲剧性的，因为 Gilthanas 始终无法接受 Dargent 的真实形态。
+最著名的银龙是 Dargent；她曾以 Kagonesti 精灵少女 Silvart 的形态与伙伴们相遇。Dargent 是那条爱上 修玛的银龙的姐妹，也注定会爱上一名凡人——奎利内斯提（Qualinesti） 精灵领主 吉尔赛那斯（Gilthanas）。然而，这段爱情是悲剧性的，因为 吉尔赛那斯 始终无法接受 Dargent 的真实形态。
 
 ## 作为龙的诸神 The Gods as Dragons
 
 ### Takhisis，黑暗女王 Takhisis, Queen of Darkness
 
-虽然 Takhisis 可以采取从最美丽、最迷人的女性到强大而令人憎恶的黑暗战士之间的任何形态，但她最喜欢的形态是五头的彩色龙。在这种形态下，她体长超过 60 英尺，并拥有五个头。每个头都有不同的颜色（白、绿、蓝、红、黑），也拥有不同的力量与性格。
+虽然 塔克西丝（Takhisis） 可以采取从最美丽、最迷人的女性到强大而令人憎恶的黑暗战士之间的任何形态，但她最喜欢的形态是五头的彩色龙。在这种形态下，她体长超过 60 英尺，并拥有五个头。每个头都有不同的颜色（白、绿、蓝、红、黑），也拥有不同的力量与性格。
 
 她可以同时用五个头攻击，因为每个头都有自己的吐息武器——依头部颜色分别为霜冻、毒气、闪电、火焰与酸液。无论其他头正在做什么，每个头都能施展自己的魔法。
 
-由于 Huma 的勇气与牺牲，Takhisis 被禁锢在深渊中，但她从未停止试图重新进入克莱恩。她在夜空中的星座总是正对着 Paladine 的星座，象征着两位神祇持续不断的对立。
+由于 修玛的勇气与牺牲，塔克西丝 被禁锢在深渊中，但她从未停止试图重新进入克莱恩。她在夜空中的星座总是正对着 帕拉丁（Paladine） 的星座，象征着两位神祇持续不断的对立。
 
 ### Paladine，白金龙 Paladine, the Platinum Dragon
 
-善良之神 Paladine 在世界各个种族之间拥有许多名字（他最著名的化身之一是 Fizban the Fabulous）。在龙形态下，Paladine 确实令人印象深刻。（不幸的是，Fizban 并非如此。）白金龙体长超过 72 英尺，可以用牙齿与爪子攻击，或使用一种吐息武器。这些吐息武器包括能够冻结任何受害者的寒冷爆发、会把受害者变成气态的蒸汽云，或能够瓦解坚硬岩石的音波振动。
+善良之神 帕拉丁 在世界各个种族之间拥有许多名字（他最著名的化身之一是 菲兹班 the Fabulous）。在龙形态下，帕拉丁 确实令人印象深刻。（不幸的是，菲兹班 并非如此。）白金龙体长超过 72 英尺，可以用牙齿与爪子攻击，或使用一种吐息武器。这些吐息武器包括能够冻结任何受害者的寒冷爆发、会把受害者变成气态的蒸汽云，或能够瓦解坚硬岩石的音波振动。
 
-Paladine 极其精通魔法，也能施展牧师法术。Paladine 最喜欢的形态，是那位糊涂的老巫师 Fizban（人们经常看到他与年迈的金龙伙伴 Pyrite 在一起）。
+帕拉丁 极其精通魔法，也能施展牧师法术。帕拉丁 最喜欢的形态，是那位糊涂的老巫师 菲兹班（人们经常看到他与年迈的金龙伙伴 Pyrite 在一起）。
 
 ## 龙的规则 Dragon Rules
 
@@ -166,21 +166,21 @@ Paladine 极其精通魔法，也能施展牧师法术。Paladine 最喜欢的�
 
 ## 久远往事 Tales of Long Ago
 
-Palanthus 的著名历史学家 Astinus 数百年来一直在编年记录、整理克莱恩的历史。他的卷轴集《Iconochronos》无疑是这一主题的权威著作——几乎所有其他历史都取自《Iconochronos》。
+Palanthus 的著名历史学家 阿斯特纽斯（Astinus） 数百年来一直在编年记录、整理克莱恩的历史。他的卷轴集《Iconochronos》无疑是这一主题的权威著作——几乎所有其他历史都取自《Iconochronos》。
 
-这些卷轴如今填满了一座巨大的图书馆，而守识者还在不断增加它们的数量。其中有一卷比其他卷轴都长，而且仍未完成；它沿着一条时间线，描绘克莱恩历史不断展开的一系列事件。这条时间线有很大一部分以精美而细致的图画记录下来。艺术作品的起源笼罩在神秘之中，不过，随附的文字无疑出自 Astinus 之手。
+这些卷轴如今填满了一座巨大的图书馆，而守识者还在不断增加它们的数量。其中有一卷比其他卷轴都长，而且仍未完成；它沿着一条时间线，描绘克莱恩历史不断展开的一系列事件。这条时间线有很大一部分以精美而细致的图画记录下来。艺术作品的起源笼罩在神秘之中，不过，随附的文字无疑出自 阿斯特纽斯 之手。
 
-读者很快就会注意到，Astinus 将他的世界历史分为五个时代：梦想时代、光明时代、力量时代、黑暗时代与龙之时代。
+读者很快就会注意到，阿斯特纽斯 将他的世界历史分为五个时代：梦想时代、光明时代、力量时代、黑暗时代与龙之时代。
 
 后两个时代与现代读者最为相关，因为它们包含灾变之后克莱恩的历史，即 AC（灾变后，Alt-Cataclius）时期。更早的时代通向古代的迷雾，并被记录为 PC（灾变前，Pre-Cataclius）年份。PC 时期的确切年代很难确定，而 AC 历史则有非常可靠的文献记录。
 
 ### 克莱恩的时代 The Ages of Krynn
 
-梦想时代是一段长度不确定的时期，主要由其后光明时代的民歌与歌谣记录下来。这些歌谣由 Silvanesti 吟游诗人 Quevalin Soth 汇编在《歌之生命卷轴》中。光明时代接近尾声时，这卷卷轴的一份副本被赠给 Astinus；我们正是通过这份作品了解梦想时代的。
+梦想时代是一段长度不确定的时期，主要由其后光明时代的民歌与歌谣记录下来。这些歌谣由 西尔瓦内斯提 吟游诗人 奎瓦林·索斯（Quevalin Soth） 汇编在《歌之生命卷轴》中。光明时代接近尾声时，这卷卷轴的一份副本被赠给 阿斯特纽斯；我们正是通过这份作品了解梦想时代的。
 
-光明时代是一个和平与学习的时期，Silvanesti 的精灵文化在这期间如同文明的灯塔，照耀整个世界。光明时代的历史由精灵的歌曲与艺术作品记录。因此，这个长寿种族的成员留下了美丽而富有幻想、但并不完全准确的时代记录。
+光明时代是一个和平与学习的时期，西尔瓦内斯提的精灵文化在这期间如同文明的灯塔，照耀整个世界。光明时代的历史由精灵的歌曲与艺术作品记录。因此，这个长寿种族的成员留下了美丽而富有幻想、但并不完全准确的时代记录。
 
-力量时代标志着人类在克莱恩上的崛起。人类遍布世界，把他们狂热的能量与咄咄逼人的自信带到克莱恩的每个角落。力量时代的开始与 Istar 的 Karthay Pah 统治有关。他是第一个下令保存编年史的人。抄写员把他的事迹刻在金银板上，并将这些板储存在他宝库中的戒指上。在此期间，年轻的 Astinus 从 Palanthus 的图书馆前往 Istar，用了三十年时间把这些板抄写到卷轴上，再运回图书馆。
+力量时代标志着人类在克莱恩上的崛起。人类遍布世界，把他们狂热的能量与咄咄逼人的自信带到克莱恩的每个角落。力量时代的开始与 伊斯塔（Istar） 的 卡赛（Karthay） Pah 统治有关。他是第一个下令保存编年史的人。抄写员把他的事迹刻在金银板上，并将这些板储存在他宝库中的戒指上。在此期间，年轻的 阿斯特纽斯 从 Palanthus 的图书馆前往 伊斯塔，用了三十年时间把这些板抄写到卷轴上，再运回图书馆。
 
 力量时代持续了数百年。最终，人类的精力与傲慢导致了灾变。在一个小时之内，克莱恩世界从力量时代进入了黑暗时代。Palanthus 是少数逃过灾变的城市之一，因此历史记录得以不间断地延续。黑暗时代的黑暗岁月被详尽记载，读来十分阴郁。
 
@@ -206,7 +206,7 @@ Palanthus 的著名历史学家 Astinus 数百年来一直在编年记录、整�
 
 > 梦想时代的事件没有以某个具体年份、甚至某个具体世纪标记。很可能，在这段时期，人们衡量时间的尺度远远超出了人类的理解。
 >
-> ——Astinus
+> ——阿斯特纽斯
 
 <strong>诸神苏醒 The Gods Awaken：</strong>从翻涌的混沌中，诸神显现。他们把混沌的领域纳入自身，建立了平衡。混沌被善、恶与中立的三位一体减缓并压制。
 
@@ -220,55 +220,55 @@ Palanthus 的著名历史学家 Astinus 数百年来一直在编年记录、整�
 
 ### 光明时代 The Age of Light
 
-<strong>约公元前 4000 年 PC，西尔瓦诺斯家族崛起 Rise of the House of Silvanos：</strong>第一个 Synthal-Elish（高等者议会）由 Silvanos 在 Sol-Fallan 山丘上建立。精灵的许多家族通过 Silvanos 彼此宣誓效忠。Balif 将军成为 Silvanos 的副手。如今精灵已经统一，开始关注侵入东部 Silvanesti 的龙族威胁。
+<strong>约公元前 4000 年 PC，西尔瓦诺斯家族崛起 Rise of the House of Silvanos：</strong>第一个 Synthal-Elish（高等者议会）由 Silvanos 在 Sol-Fallan 山丘上建立。精灵的许多家族通过 Silvanos 彼此宣誓效忠。Balif 将军成为 Silvanos 的副手。如今精灵已经统一，开始关注侵入东部 西尔瓦内斯提的龙族威胁。
 
-<strong>侏儒诞生 Birth of the Gnomes：</strong>铸造世界的 Reorx 对一群人类崇拜者感到不满。他把他们变成了侏儒。
+<strong>侏儒诞生 Birth of the Gnomes：</strong>铸造世界的 李奥克斯（Reorx） 对一群人类崇拜者感到不满。他把他们变成了侏儒。
 
-<strong>约公元前 3500 年，Greystone 创造 Greystone Created：</strong>魔法在克莱恩上尚不存在。锻造之神 Reorx 创造了 Gargath 的 Greystone。它聚集了灰色月亮 Lunitari 的魔法精华。
+<strong>约公元前 3500 年，Greystone 创造 Greystone Created：</strong>魔法在克莱恩上尚不存在。锻造之神 李奥克斯 创造了 加加斯（Gargath） 的 Greystone。它聚集了灰色月亮 露妮塔瑞（Lunitari） 的魔法精华。
 
-<strong>精灵胜利 Elves Triumph：</strong>龙族被逐出 Silvanesti。精灵氏族再次向 Silvanos 家族宣誓效忠。Silvanesti 王国由此确立。土地立即被授予 Synthal-Elish 的主要家族。一个中央政府监督着各个独立国家。
+<strong>精灵胜利 Elves Triumph：</strong>龙族被逐出 西尔瓦内斯提。精灵氏族再次向 Silvanos 家族宣誓效忠。西尔瓦内斯提 王国由此确立。土地立即被授予 Synthal-Elish 的主要家族。一个中央政府监督着各个独立国家。
 
 <strong>约公元前 3100 年，Greystone 释放 Greystone Released：</strong>侏儒把 Greystone 从天空中拉下，它横跨克莱恩漂浮而过，在身后留下破坏与混沌。魔法通过这块宝石进入世界。一些侏儒被宝石改变，创造出了坎德与矮人种族。
 
-<strong>约公元前 2800 年，Kal-Thax 封闭 Kal-Thax Closed：</strong>安萨隆由矮人居住的地区被封闭，禁止一切进入。黑暗恐怖的传闻从那片土地传出，但禁止信使入内。
+<strong>约公元前 2800 年，卡尔萨克斯（Kal-Thax） 封闭 卡尔萨克斯 Closed：</strong>安萨隆由矮人居住的地区被封闭，禁止一切进入。黑暗恐怖的传闻从那片土地传出，但禁止信使入内。
 
-<strong>2692 年，Silvanesti 的第二次龙战争开始 Second Dragon War of Silvanesti Begins：</strong>龙族再次从安萨隆中部向南发动攻击，这一次得到了强大魔法的帮助。精灵集结抵抗。西部省份的精灵拯救了首都免于毁灭，迫使龙族转入防御。
+<strong>2692 年，西尔瓦内斯提的第二次龙战争开始 Second Dragon War of 西尔瓦内斯提 Begins：</strong>龙族再次从安萨隆中部向南发动攻击，这一次得到了强大魔法的帮助。精灵集结抵抗。西部省份的精灵拯救了首都免于毁灭，迫使龙族转入防御。
 
-<strong>Thorbardin 建造开始 Construction of Thorbardin Begins：</strong>Kal-Thax 的矮人开始建造他们强大的堡垒，以抵御世界的侵袭。
+<strong>索巴丁（Thorbardin） 建造开始 Construction of 索巴丁 Begins：</strong>卡尔萨克斯的矮人开始建造他们强大的堡垒，以抵御世界的侵袭。
 
-<strong>2645 年，第二次龙战争结束 Second Dragon War Ends：</strong>西部精灵把龙族赶出 Silvanesti，成为土地上的英雄。人类加入这场战争，将龙族逐出克莱恩。强大的英雄 Huma of the Lance 发现了龙枪，并用它把龙族驱逐到一个负位面，在那里，龙族被命令沉睡直到永恒。
+<strong>2645 年，第二次龙战争结束 Second Dragon War Ends：</strong>西部精灵把龙族赶出 西尔瓦内斯提，成为土地上的英雄。人类加入这场战争，将龙族逐出克莱恩。强大的英雄 修玛（Huma） of the Lance 发现了龙枪，并用它把龙族驱逐到一个负位面，在那里，龙族被命令沉睡直到永恒。
 
-<strong>2600 年，Thorbardin 完工 Thorbardin Completed：</strong>矮人退入自己的堡垒，把外界挡在门外。
+<strong>2600 年，索巴丁 完工 索巴丁 Completed：</strong>矮人退入自己的堡垒，把外界挡在门外。
 
-<strong>Ergoth 的崛起 Rise of Ergoth：</strong>Ergoth 的人类把影响力扩展到国境之外。Ergoth 迅速向东部与南部扩张。
+<strong>艾尔戈斯（Ergoth） 的崛起 Rise of 艾尔戈斯：</strong>艾尔戈斯的人类把影响力扩展到国境之外。艾尔戈斯 迅速向东部与南部扩张。
 
-<strong>2515 年，Silvanos 死亡 Death of Silvanos：</strong>精灵族的尊贵领袖去世，葬于水晶墓。他的儿子 Sithel 接任 Silvanesti 的领导。Sithel 下令建造一座纪念父亲的高塔，称为 Quinari 宫。
+<strong>2515 年，Silvanos 死亡 Death of Silvanos：</strong>精灵族的尊贵领袖去世，葬于水晶墓。他的儿子 Sithel 接任 西尔瓦内斯提的领导。Sithel 下令建造一座纪念父亲的高塔，称为 Quinari 宫。
 
-<strong>2500—2200 年，Ergoth 占优势 Ergoth Dominant：</strong>不断扩张的 Ergoth 国到达 Thorbardin 的北部边界，南面与之相接。矮人与人类之间的小规模冲突最终导致一场不安的停战。人类还向东扩张，在 Silvanesti 森林边缘建立前哨。西部精灵开始与人类进行贸易；一些精灵与人类通婚。
+<strong>2500—2200 年，艾尔戈斯 占优势 艾尔戈斯 Dominant：</strong>不断扩张的 艾尔戈斯 国到达 索巴丁的北部边界，南面与之相接。矮人与人类之间的小规模冲突最终导致一场不安的停战。人类还向东扩张，在 西尔瓦内斯提 森林边缘建立前哨。西部精灵开始与人类进行贸易；一些精灵与人类通婚。
 
 <strong>2308 年，Sithas 与 Kith-Kanan 出生 Sithas and Kith-Kanan Born：</strong>Sithel 的双胞胎儿子出生。Sithas 比 Kith-Kanan 早出生几分钟。
 
-<strong>2192 年，Sithel 被杀 Sithel Slain：</strong>Sithel 带领一次狩猎远征前往 Silvanesti 西部地区。他的队伍意外遇到一群正在追捕猎物的人类猎人。精灵被茂密的灌木遮住，一名人类猎人误将他射杀。弑亲者战争开始。
+<strong>2192 年，Sithel 被杀 Sithel Slain：</strong>Sithel 带领一次狩猎远征前往 西尔瓦内斯提 西部地区。他的队伍意外遇到一群正在追捕猎物的人类猎人。精灵被茂密的灌木遮住，一名人类猎人误将他射杀。弑亲者战争开始。
 
-<strong>2192—2140 年，弑亲者战争 Kinslayer War：</strong>精灵试图把人类前哨赶出 Silvanesti，而人类拼死防守。更多人类到来，支援自己的一方。那些嫁入人类社会的精灵被迫与自己的亲族作战，战争极其残酷。Kith-Kanan 巧妙地领导西部精灵作战，而 Sithas 坐上王位。战争最终以停战告终。
+<strong>2192—2140 年，弑亲者战争 Kinslayer War：</strong>精灵试图把人类前哨赶出 西尔瓦内斯提，而人类拼死防守。更多人类到来，支援自己的一方。那些嫁入人类社会的精灵被迫与自己的亲族作战，战争极其残酷。Kith-Kanan 巧妙地领导西部精灵作战，而 Sithas 坐上王位。战争最终以停战告终。
 
-<strong>2140—2100 年，Silvanesti 分裂 Sundering of Silvanesti：</strong>西部精灵再次成为大地的英雄。然而，他们为弑亲者战争造成的流血感到羞耻。西部精灵的哲学已经偏离由精灵高等种姓制度决定的严格秩序。在军队仍然完整的情况下，西部精灵要求自由决定自己的命运。
+<strong>2140—2100 年，西尔瓦内斯提 分裂 Sundering of 西尔瓦内斯提：</strong>西部精灵再次成为大地的英雄。然而，他们为弑亲者战争造成的流血感到羞耻。西部精灵的哲学已经偏离由精灵高等种姓制度决定的严格秩序。在军队仍然完整的情况下，西部精灵要求自由决定自己的命运。
 
-<strong>Ergoth／Thorbardin 冲突 Ergoth/Thorbardin Clash：</strong>一连串关于边界与矿产归属的争端，导致矮人与人类之间再次发生小规模冲突。一场全面战争的威胁迫在眉睫。
+<strong>艾尔戈斯／索巴丁 冲突 艾尔戈斯/索巴丁 Clash：</strong>一连串关于边界与矿产归属的争端，导致矮人与人类之间再次发生小规模冲突。一场全面战争的威胁迫在眉睫。
 
-<strong>2073 年，《剑鞘卷轴》签署 Swordsheath Scroll Signed：</strong>Ergoth 皇帝、Silvanesti 精灵与 Thorbardin 矮人签署了一项和平协定。《剑鞘卷轴》解决了这个时代最紧迫的问题。
+<strong>2073 年，《剑鞘卷轴》签署 Swordsheath Scroll Signed：</strong>艾尔戈斯 皇帝、西尔瓦内斯提 精灵与 索巴丁 矮人签署了一项和平协定。《剑鞘卷轴》解决了这个时代最紧迫的问题。
 
 ## 第 87 页
 
 <strong>插图记录：</strong>页眉有“阿斯蒂努斯之卷：时间之河”主题的长矛装饰图样；无独立插图说明文字。
 
-<strong>Qualinesti 获得土地：</strong>Silvanesti 西部的精灵获赐 Thorbardin 以北一大片受魔法影响的林地，可以在那里按照自己的意愿生活。这片土地被称为 Qualinesti，同时也充当 Thorbardin 的矮人与 Ergoth 的人类之间的缓冲地带。Ergoth 同意停止开采 Kharolis 山脉，而矮人同意放宽对与人类贸易的限制。所有敌对行动停止。
+<strong>奎利内斯提 获得土地：</strong>西尔瓦内斯提 西部的精灵获赐 索巴丁 以北一大片受魔法影响的林地，可以在那里按照自己的意愿生活。这片土地被称为 奎利内斯提，同时也充当 索巴丁的矮人与 艾尔戈斯的人类之间的缓冲地带。艾尔戈斯 同意停止开采 卡罗利斯（Kharolis） 山脉，而矮人同意放宽对与人类贸易的限制。所有敌对行动停止。
 
-<strong>2050—2030 年，大迁徙 The Great March：</strong>Silvanesti 西部的精灵在领袖 Kith-Kanan 带领下迁往 Qualinesti，并开始殖民自己的家园。
+<strong>2050—2030 年，大迁徙 The Great March：</strong>西尔瓦内斯提 西部的精灵在领袖 Kith-Kanan 带领下迁往 奎利内斯提，并开始殖民自己的家园。
 
-<strong>2000—1400 年，和平 Peace：</strong>克莱恩繁荣发展。Kith-Kanan 加强 Qualinesti 精灵与 Thorbardin 矮人之间的和平纽带。两个种族共同建造 Pax Tharkas 堡垒，作为持久和平的纪念。Ergoth 由 Quevalin 一脉的皇帝相继统治，其中大多数人以公正而仁慈的方式执政。
+<strong>2000—1400 年，和平 Peace：</strong>克莱恩繁荣发展。Kith-Kanan 加强 奎利内斯提 精灵与 索巴丁 矮人之间的和平纽带。两个种族共同建造 帕克斯萨卡斯 堡垒，作为持久和平的纪念。艾尔戈斯 由 Quevalin 一脉的皇帝相继统治，其中大多数人以公正而仁慈的方式执政。
 
-<strong>1400—1250 年，东方叛乱 Rebellions in the East：</strong>Ergoth 的统治者逐渐开始虐待并剥削臣民。经过大量压迫与沉重税赋，帝国东部边缘的省份开始反抗。这些战争通常短暂，却极其暴力。皇帝被迫频繁使用军队，而每次叛乱都比上一次规模更大。
+<strong>1400—1250 年，东方叛乱 Rebellions in the East：</strong>艾尔戈斯的统治者逐渐开始虐待并剥削臣民。经过大量压迫与沉重税赋，帝国东部边缘的省份开始反抗。这些战争通常短暂，却极其暴力。皇帝被迫频繁使用军队，而每次叛乱都比上一次规模更大。
 
 <strong>1262 年，Vinas Solamnus 指挥帝国卫队 Vinas Solamnus Commands Imperial Guard：</strong>这位技艺高超的指挥官在镇压数次叛乱中发挥了重要作用，被任命为帝国最高军事职位的掌管者。
 
@@ -276,37 +276,37 @@ Palanthus 的著名历史学家 Astinus 数百年来一直在编年记录、整�
 
 <strong>1250 年，等待之年 Year of Waiting：</strong>Solamnus 研究东方人民的苦难，决心结束叛乱而不进行屠杀。他逐渐意识到，是帝国对臣民的卑劣而残酷的统治煽动了叛乱。Solamnus 与他的大部分军队在这一年年底加入了叛军。
 
-<strong>1249—1242 年，平原诸国联盟 Union of the Plains States：</strong>Ergoth 东部的国家集结到 Solamnus 一方，获得准独立。
+<strong>1249—1242 年，平原诸国联盟 Union of the Plains States：</strong>艾尔戈斯 东部的国家集结到 Solamnus 一方，获得准独立。
 
-<strong>1241 年，Ergoth 陷落 Fall of Ergoth：</strong>Solamnus 与他的军队向西进军。这位将军在战术上胜过 Ergoth 军队，并围攻首都。Solamnus 于 1240 年春接受皇帝投降。
+<strong>1241 年，艾尔戈斯 陷落 Fall of 艾尔戈斯：</strong>Solamnus 与他的军队向西进军。这位将军在战术上胜过 艾尔戈斯 军队，并围攻首都。Solamnus 于 1240 年春接受皇帝投降。
 
-投降条件要求皇帝授予每个臣属国家自决权。Ergoth 的各个国家仍然效忠王室，边远国家则获得独立或加入新建立的 Solamnia。Solamnus 向精灵与矮人保证，他会遵守《剑鞘卷轴》的条款。
+投降条件要求皇帝授予每个臣属国家自决权。艾尔戈斯的各个国家仍然效忠王室，边远国家则获得独立或加入新建立的 Solamnia。Solamnus 向精灵与矮人保证，他会遵守《剑鞘卷轴》的条款。
 
 <strong>1225 年，索拉姆尼亚骑士团成立 Knights of Solamnia Formed：</strong>Vinas Solamnus 建立了一个致力于善良与自由事业的骑士团。Solamnia 繁荣发展，Palanthus、Lemish 与 Caergoth 等国家自愿加入这个新国家。
 
-<strong>1100—800 年，Istar 建立 Foundation of Istar：</strong>安萨隆遥远东部的部落，过去一直是一群彼此争吵的野蛮人，如今逐渐统一。Istar 议会建立统一政府。Istar 开始与 Solamnia 贸易。
+<strong>1100—800 年，伊斯塔（Istar） 建立 Foundation of 伊斯塔：</strong>安萨隆遥远东部的部落，过去一直是一群彼此争吵的野蛮人，如今逐渐统一。伊斯塔 议会建立统一政府。伊斯塔 开始与 Solamnia 贸易。
 
-<strong>Solamnia 繁荣 Solamnia Prospers：</strong>Vinas Solamnus 建立的王朝由他的后代延续。Ergoth 依靠 Solamnia 提供保护与贸易。
+<strong>Solamnia 繁荣 Solamnia Prospers：</strong>Vinas Solamnus 建立的王朝由他的后代延续。艾尔戈斯 依靠 Solamnia 提供保护与贸易。
 
-<strong>773—760 年，Istar 与 Silvanesti 冲突 Istar and Silvanesti Clash：</strong>不断扩张的 Istar 国家与 Silvanesti 之间发生一连串边境冲突，再次威胁精灵的家园。在 Solamnia 的帮助下，精灵说服 Istar 在《剑鞘卷轴》上签署自己的名字。
+<strong>773—760 年，伊斯塔 与 西尔瓦内斯提 冲突 伊斯塔 and 西尔瓦内斯提 Clash：</strong>不断扩张的 伊斯塔 国家与 西尔瓦内斯提 之间发生一连串边境冲突，再次威胁精灵的家园。在 Solamnia 的帮助下，精灵说服 伊斯塔 在《剑鞘卷轴》上签署自己的名字。
 
-<strong>700—600 年，食人魔战争 Ogre Wars：</strong>掠夺成性的食人魔军队从安萨隆中部的 Khalkhist 山脉中出现，横扫 Solamnia 平原与 Istar 肥沃的田野。Solamnia 与 Istar 再次联合，最终把食人魔赶回山中。
+<strong>700—600 年，食人魔战争 Ogre Wars：</strong>掠夺成性的食人魔军队从安萨隆中部的 Khalkhist 山脉中出现，横扫 Solamnia 平原与 伊斯塔 肥沃的田野。Solamnia 与 伊斯塔 再次联合，最终把食人魔赶回山中。
 
-<strong>600—280 年，Solamnia／Istar 联盟巩固 Union of Solamnia/Istar Solidified：</strong>两个伟大的人类国家变得越来越独立。索拉姆尼亚骑士团成为两国的军事力量，而 Istar 的艺术与教育才能则传遍整个大陆。Istar 逐渐成为占优势的一方。
+<strong>600—280 年，Solamnia／伊斯塔 联盟巩固 Union of Solamnia/伊斯塔 Solidified：</strong>两个伟大的人类国家变得越来越独立。索拉姆尼亚骑士团成为两国的军事力量，而 伊斯塔的艺术与教育才能则传遍整个大陆。伊斯塔 逐渐成为占优势的一方。
 
-<strong>280 年，第一位至高祭司宣布 First Kingpriest Declared：</strong>Istar 首都被宣布为世界中心。第一位至高祭司的加冕，巩固了 Solamnia 的军事力量与 Istar 的精神指导之间的纽带。
+<strong>280 年，第一位至高祭司宣布 First Kingpriest Declared：</strong>伊斯塔 首都被宣布为世界中心。第一位至高祭司的加冕，巩固了 Solamnia 的军事力量与 伊斯塔的精神指导之间的纽带。
 
-<strong>260 年，至高祭司神殿开始建造 Construction of the Temple of the Kingpriest Commences：</strong>克莱恩最优秀的工匠被召集到 Istar，建造一座向世界与诸神宣告 Istar 国荣耀的神殿。
+<strong>260 年，至高祭司神殿开始建造 Construction of the Temple of the Kingpriest Commences：</strong>克莱恩最优秀的工匠被召集到 伊斯塔，建造一座向世界与诸神宣告 伊斯塔 国荣耀的神殿。
 
 <strong>212 年，神殿完工 Temple Completed：</strong>这座神殿被广泛誉为有史以来最优秀的建筑范例，并由至高祭司祝福；至高祭司随即迁入其中。
 
-<strong>250—100 年，精灵避开其他种族 Elves Shun Other Races：</strong>Silvanesti 精灵越来越厌恶人类生活的狂乱步伐，以及人类对自身成就的傲慢。他们退入森林，禁止与外界贸易，也不允许访客进入。
+<strong>250—100 年，精灵避开其他种族 Elves Shun Other Races：</strong>西尔瓦内斯提 精灵越来越厌恶人类生活的狂乱步伐，以及人类对自身成就的傲慢。他们退入森林，禁止与外界贸易，也不允许访客进入。
 
 <strong>118 年，《显明美德宣言》Proclamation of Manifest Virtue：</strong>至高祭司宣布，克莱恩上的邪恶冒犯诸神与人类的存在。宣言列出一套严格规定的邪恶行为；任何被判定犯下其中行为的人都必须处死。由至高祭司任命的善神牧师走遍克莱恩，寻找并举报邪恶行为或邪恶个人。
 
 <strong>94 年，灭绝邪恶种族获准 Extermination of Evil Races Sanctioned：</strong>至高祭司并不满足于《显明美德宣言》，又加入一项条款，声称某些种族——地精、食人魔等——天生邪恶，必须被消灭。宣言提供高额悬赏，赏金猎人立即开始清除这些生物。
 
-<strong>80—20 年，牧师力量崛起 Rise of Clerical Power：</strong>在至高祭司的完全批准下，Istar 的生活越来越受到神职人员的影响。婚姻、商业契约与军事远征都必须得到牧师批准。
+<strong>80—20 年，牧师力量崛起 Rise of Clerical Power：</strong>在至高祭司的完全批准下，伊斯塔的生活越来越受到神职人员的影响。婚姻、商业契约与军事远征都必须得到牧师批准。
 
 牧师的崛起伴随着魔法使用者影响力的相应衰落。法师被当作不悔改的邪恶根源加以追捕，被迫越来越深入地下。
 

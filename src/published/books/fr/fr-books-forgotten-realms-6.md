@@ -1,4 +1,4 @@
-## Sabirine 的《Specular》
+## 萨比琳的《Specular》 Sabirine
 
 ### 外观
 
@@ -6,19 +6,27 @@
 
 ### 历史与描述
 
-Sabirine 是很久以前的一名法师，曾参与北方的探索；如今北方商贩与旅人的炉边传说中，还能听到她的冒险故事。她在荒野各处的藏身处和常去地点编纂、隐藏法术书，而这本名为《Specular》的书得以留存。据说，在贤者老 Eiron 去世，以及红手公会的盗贼随后洗劫他的宅邸之前——那已经是四个冬季以前的事——它一直藏在他位于无冬城的藏书室里。
+萨比琳（Sabirine） 是很久以前的一名法师，曾参与北方的探索；如今北方商贩与旅人的炉边传说中，还能听到她的冒险故事。她在荒野各处的藏身处和常去地点编纂、隐藏法术书，而这本名为《镜鉴（Specular）》的书得以留存。据说，在贤者老 Eiron 去世，以及红手公会的盗贼随后洗劫他的宅邸之前——那已经是四个冬季以前的事——它一直藏在他位于无冬城的藏书室里。
 
-Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关注戏法，是一位热心倡导让长期从事魔法、等级高深的法师继续使用并改进戏法的人。例如，《Specular》中就有三个由 Sabirine 开发的独有戏法：catfeet、snatch 和 spark。
+萨比琳 学会了成为巫妖的秘密，却选择自然死亡。她尤其关注戏法，是一位热心倡导让长期从事魔法、等级高深的法师继续使用并改进戏法的人。例如，《镜鉴》中就有三个由 萨比琳 开发的独有戏法：catfeet、snatch 和 spark。
 
 ### 内容
 
-《Specular》中的每个戏法和法术都独占一页；书的两端各有一张额外的页面。开头那一页是一段用于辨认此书归属的铭文，其中有 Sabirine 的符文（一个画成天鹅形状的“S”）。末尾那一页带有一个奇怪的黑色毡片，形状像小瓶。扉页实际上是一道独有法术 spell engine（下文详述），其作者不明，并通过 secret page 法术隐藏起来。secret page 的命令词未知。末页被认为是一件尚未使用的魔法有用物品（见《地下城主指南》中的 useful items 描述）；Elminster 认为那是一瓶额外治疗药水。
+《镜鉴》中的每个戏法和法术都独占一页；书的两端各有一张额外的页面。开头那一页是一段用于辨认此书归属的铭文，其中有 萨比琳的符文（一个画成天鹅形状的“S”）。末尾那一页带有一个奇怪的黑色毡片，形状像小瓶。扉页实际上是一道独有法术 spell engine（下文详述），其作者不明，并通过 secret page 法术隐藏起来。secret page 的命令词未知。末页被认为是一件尚未使用的魔法有用物品（见《地下城主指南》中的 useful items 描述）；伊尔明斯特（Elminster） 认为那是一瓶额外治疗药水。
 
-书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和 unlock；法术则依次为：comprehend languages、enlarge、light、Nystul’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、Merald’s murderous mist（Merald 这位强大大法师教给 Sabirine 的独有法术，下文详述）、polymorph other、Bigby’s interposing hand、disintegrate、geas 和 phase door。
+书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和 unlock；法术则依次为：comprehend languages、enlarge、light、诺斯图（Nystul）’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、梅拉尔德（Merald）’s murderous mist（Merald 这位强大大法师教给 萨比琳的独有法术，下文详述）、polymorph other、毕格比（Bigby）’s interposing hand、disintegrate、geas 和 phase door。
 
 ### Spell Engine（法术引擎，防护／变化）
 
-<strong>等级：</strong>8。<strong>射程：</strong>0。<strong>持续时间：</strong>特殊。<strong>作用范围：</strong>以施法者为中心、每等级半径 1 英寸的球体。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 个轮。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>以施法者为中心、每等级半径 1 英寸的球体<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 个轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>这种罕见而强大的魔法，只有在其作用范围内施放了另一道法术后才会开始运作。那一刻，一只巨大的、闪耀的轮，或一道发出白色辉光的垂直圆盘，会瞬间出现：它位于当时地面或地板上方数英寸处；如果施法者在施放法术引擎时站在某处（即使法术施放发生在数百年前），它便会出现在那个位置。它开始转动，发出轻柔的呼啸声，并吸收其作用范围内施放的所有法术的能量，使那些法术白白消耗、无法生效，反而成为驱动旋转之轮的力量。
 
@@ -34,11 +42,15 @@ Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关�
 
 法术引擎尚未激活时没有物理存在，无法被触碰。disintegrate 对未激活的法术引擎没有效果，但可以摧毁已激活的法术引擎；爆炸效果与法术引擎接触魔法物品或神器时相同。法术引擎的作用范围会完美地穿过岩石与空隙，因此不能轻易用 passwall、dig 或 phase door 避开。没有携带魔法物品的生物可以无影响地穿过已激活法术引擎的作用范围；它不会从生物的心智中抽走法术。未激活的法术引擎不能被活着的生物、魔法物品或神器接触，因此也不能以这种方式激活；正在运作的法术、灵能效应或魔法物品功能同样不会激活它。
 
-## Sabirine 的独有戏法与法术
+## 萨比琳的独有戏法与法术 Sabirine
 
 ### Catfeet（猫足，变化）
 
-<strong>作用范围：</strong>一双脚（自身）。<strong>施法时间：</strong>1/6 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>一双脚（自身）<br>
+<strong>施法时间 Casting Time：</strong>1/6 个分段</div>
+
 
 <strong>说明／描述：</strong>这是一个个人戏法。施法者用一只手的手指做出抚摸动作，即可作用于自己（不能令其作用于他人），持续 1 轮；施法者每超过第 1 级的经验等级再增加 1 轮。无论行走或攀爬的表面为何，施法者双脚的动作与踩踏重量都会变得无声。
 
@@ -48,7 +60,11 @@ Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关�
 
 ### Snatch（拽取，塑能）
 
-<strong>作用范围：</strong>1 人。<strong>施法时间：</strong>1/6 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 人<br>
+<strong>施法时间 Casting Time：</strong>1/6 个分段</div>
+
 
 <strong>说明／描述：</strong>这个作用于人的戏法，会对目标生物身体的一部分或肢体施加短暂而剧烈的拉拽力量。这股力量并不强，但可以让正在奔跑的生物绊倒或转身，也可以使某人笨拙地失手，掉落钥匙、材料成分、宝石、硬币等小物件。目标进行一次对抗法术的豁免检定，以决定这些物品是否真的被看见掉落、跌倒或意外是否真的发生，还是 snatch 只让目标延迟 1–3 个分段。
 
@@ -56,13 +72,25 @@ Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关�
 
 ### Spark（火花，塑能）
 
-<strong>作用范围：</strong>特殊。<strong>施法时间：</strong>1/2 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+
 
 <strong>说明／描述：</strong>施法者同时打响手指并发出啪的一声口头声响，就能在施法者每等级 1 英寸的范围内、任何精确位置（施法者熟悉的位置，或仅凭方向与距离选择的不可见位置）产生一大团强烈的蓝色火花。火花接触到的任何导电材料都会传递其能量，但它不需要电能或任何其他能量存在，也不受潮湿或其他大气条件影响。施法者达到第 6 级或更高等级时，戏法会在同一位置快速连续地产生 2–5（1d4+1）团火花。
 
 ### Bladethirst（刃渴，变化）
 
-<strong>等级：</strong>2。<strong>射程：</strong>接触。<strong>持续时间：</strong>1 轮。<strong>作用范围：</strong>一件武器的刀刃（可为多刃）。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 轮。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>一件武器的刀刃（可为多刃）<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>施法者以一撮银、精金或秘银粉末，再加上至少一滴（人类）血液，使一件有刃武器的刀刃（或多件刀刃）在下一轮获得 +3 命中加值。这种临时魔法表现为武器周围的蓝白色辉光，在刀刃击中生物或法术结束时消退，以先发生者为准。
 
@@ -72,7 +100,15 @@ Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关�
 
 ### Merald’s Murderous Mist（Merald 的致命迷雾，塑能）
 
-<strong>等级：</strong>4。<strong>射程：</strong>0。<strong>持续时间：</strong>2 轮。<strong>作用范围：</strong>半径 2 英寸的球体。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>4 个分段。<strong>豁免：</strong>否定。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>2 轮<br>
+<strong>影响范围 Area of Effect：</strong>半径 2 英寸的球体<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>4 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
+
 
 <strong>说明／描述：</strong>施放此法术会产生一团翻涌的雾状蒸气；它从施法者向外扩散，在施法者所在地面高度的上方与下方填充一个半径 2 英寸的球形区域，只需 2 个分段便能穿过所有障碍物。施法轮结束时，魔法生效，迷雾由蓝灰色变为绿色，成为有毒的迷雾。
 
@@ -80,33 +116,41 @@ Sabirine 学会了成为巫妖的秘密，却选择自然死亡。她尤其关�
 
 致命迷雾的球体是被魔法束缚的精确区域，不受自然风或魔法风影响。dispel magic 或 part water 会使它在法术结束前消失；rope trick、portable hole 等魔法或物品可以为个体提供逃离迷雾的保护，但除此之外它不受自然或魔法力量影响。
 
-## Glanvyl 的工作册（Glanvyl’s Workbook）
+## 格兰维尔的工作册（Glanvyl’s Workbook）
 
 ### 外观
 
 这是一册小书，高一掌、宽七指、厚两指，由两块覆皮书板组成。书板通过中央厚皮书脊上的黄铜三角头钉固定在一起，书脊上缝着十二张羊皮纸。正面外封有一个个人符文，如下所示：
 
-封面下方有一段通用语铭文：“Glanvyl——他的工作册。”符文与铭文都被烧刻在皮革上，凹槽中填入熔化的铜；铜已硬化成彩虹般斑驳、以橙色金属为主的纹路。
+封面下方有一段通用语铭文：“格兰维尔（Glanvyl）——他的工作册。”符文与铭文都被烧刻在皮革上，凹槽中填入熔化的铜；铜已硬化成彩虹般斑驳、以橙色金属为主的纹路。
 
 ### 历史与描述
 
-Glanvyl 是一名不为人知的法师，大约三百年前在商旅交汇的城市 Scornubel 编成了这本工作册；他很可能曾受一名或多名更强大法师指导。它被藏在商人 Pentle 房屋地下室墙壁的一块松动石头后、一个装丝绸礼服的箱子里；在 Pentle 之前，该房屋属于幻术师兼冒险者 Alkunda Gar。Pentle 的房子被大火烧毁后，一名重建者发现了它，并偷偷带给贤者 Bendulphin；Bendulphin 为此支付了五百枚金币。
+格兰维尔 是一名不为人知的法师，大约三百年前在商旅交汇的城市 Scornubel 编成了这本工作册；他很可能曾受一名或多名更强大法师指导。它被藏在商人 Pentle 房屋地下室墙壁的一块松动石头后、一个装丝绸礼服的箱子里；在 Pentle 之前，该房屋属于幻术师兼冒险者 Alkunda Gar。Pentle 的房子被大火烧毁后，一名重建者发现了它，并偷偷带给贤者 Bendulphin；Bendulphin 为此支付了五百枚金币。
 
 Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城，卖给了一名叫 Braszetor 的召唤师。新主人不久后失踪，他的房间被大盗 Nighteye——或者某个胆敢使用 Nighteye 标记的人——洗劫。工作册如今下落不明；Nighteye 很可能已经把它交易或卖掉，但他几乎可以把它交给或卖给任何地方的任何人。
 
 ### 内容
 
-根据 Bendulphin 的笔记，工作册的十二页包含下列法术与文字：独有戏法 horn、listen 和 scorch（均在下文描述），每页一个；以及 write、detect magic、Leomund’s trap 和 Nystul’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于 detect magic 所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术 smoke ghost（Glanvyl 可能通过 write 法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写 haste 与 lightning bolt 法术的法术墨水配方。
+根据 Bendulphin 的笔记，工作册的十二页包含下列法术与文字：独有戏法 horn、listen 和 scorch（均在下文描述），每页一个；以及 write、detect magic、Leomund’s trap 和 诺斯图’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于 detect magic 所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术 smoke ghost（Glanvyl 可能通过 write 法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写 haste 与 lightning bolt 法术的法术墨水配方。
 
 ### Horn（号角，塑能）
 
-<strong>作用范围：</strong>特殊。<strong>施法时间：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>施法时间 Casting Time：</strong>特殊</div>
+
 
 <strong>说明／描述：</strong>horn 戏法会产生一个不存在的号角或小号被吹响的幽幽声音，听起来最多可达 2 英寸远（若声音很响，则可达 6 英寸）。音调、音量、听起来的距离（回声与闷响）以及单个号音的长度都由施法者控制。施法者轻轻或无声地哼出音高，然后把嘴张成 O 形，一只手的手指在嘴旁合拢。号角声只要嘴保持 O 形就会持续。施法者可以用手指张开来增加音量、捏拢来使声音静音，也可以晃动手指产生颤抖的音调。熟练使用此戏法的施法者可以完美模仿号角声。
 
 ### Listen（聆听，变化）
 
-<strong>作用范围：</strong>1 个生物。<strong>施法时间：</strong>1/10 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>施法时间 Casting Time：</strong>1/10 个分段</div>
+
 
 <strong>说明／描述：</strong>作用于人的 listen 戏法可以让施法者吸引 6 英寸内目标生物的注意。施法者先指向目标，再指向自己，同时说“Ahem”。从施法开始后 1 个分段内，目标便会注意到施法者随后说出的信息；例如，施法者可以在宽阔街道对面或拥挤房间中引起对方注意。
 
@@ -114,7 +158,11 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 ### Scorch（焦灼，变化）
 
-<strong>作用范围：</strong>1 件物品。<strong>施法时间：</strong>1/3 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 件物品<br>
+<strong>施法时间 Casting Time：</strong>1/3 个分段</div>
+
 
 <strong>说明／描述：</strong>这个逆转戏法虽然名为“焦灼”，却既不制造火焰，也不产生热量。它通过魔法激发任何非生物物体的分子（重量最多 100 gp），使物体无声、无气味、无烟地炭化。施法者必须触摸物体（如果另一个生物试图保护物体或不让施法者接近，则需要命中检定），而物体可以对魔法火焰进行豁免。豁免失败时，物体被消耗。
 
@@ -122,7 +170,15 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 ### Smoke Ghost（烟魂，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>每等级 1 英寸。<strong>持续时间：</strong>每等级 1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>4 个分段。<strong>豁免：</strong>1/2。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>每等级 1 英寸<br>
+<strong>持续时间 Duration：</strong>每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>4 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>1/2</div>
+
 
 <strong>说明／描述：</strong>德鲁伊以一撮尘土和槲寄生为材料，将法术施放进一团已有的火焰或烟雾（魔法或自然来源均可），便能控制烟雾，把它吸成幽灵般的兜帽形状，使其朝德鲁伊希望的方向飞行或滑行，每轮最多漂移 14 英寸。烟魂不是活着的生物，也不是有感知的力量；它不能穿衣、携带物品，也不能被迫说话。它只拥有一种攻击能力：用浓密、呛人的烟与灰包住敌人，使其窒息。
 
@@ -154,5 +210,5 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 《战争之红书》包含下列牧师法术，每页一个，按下述顺序出现。除少数独有法术外，均采用《玩家手册》的标准格式；这些独有法术将在后文详述。
 
-原书 PDF 第178–181页（印刷页78–81）；保留《Specular》书籍描述、Spell Engine、catfeet、snatch、spark、bladethirst、Merald’s Murderous Mist、Glanvyl’s Workbook、horn、listen、scorch、Smoke Ghost 与《战争之红书》开篇，并挂载对应原页图。
+出处：原书 PDF 第178–181页（印刷页78–81）。
 

@@ -29,14 +29,14 @@ AL 任意邪恶；RA 铁锈红色或黑色服装；AEx 5%；WPN 法杖*，以及
 
 #### 乌木触须 Ebony Tendrils（咒法／召唤）
 
-| 等级 | 5 |
-| --- | --- |
-| 射程 | 10 码 |
-| 施法时间 | 5 段 |
-| 持续时间 | 5 轮 |
-| 豁免检定 | 否定 |
-| 作用范围 | 特殊 |
-| 成分 | V、S、M |
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong>10 码<br>
+<strong>持续时间 Duration：</strong>5 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>5 段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
 
 此法术召唤出一团直径五英尺的黑暗，并从中向外伸出四条长十英尺的手臂，彼此相隔 90 度。这些手臂以与施法牧师施展法术相同的命中概率进行攻击，每次造成 1d10 +2 点腐蚀和绞缠伤害。被击中的生物有一次挣脱的机会，概率等同于打开一扇门的概率。（如果不知道打开门的概率，则假定体型小于人类的生物掷 1d6 出 1 时逃脱，人类体型生物掷出 1 或 2 时逃脱，大于人类体型的生物掷出 1、2 或 3 时逃脱。）
 

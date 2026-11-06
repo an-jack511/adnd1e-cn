@@ -6,23 +6,27 @@
 
 ## 解除魔法 Dispel Magic（防护系 Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势 |
-| 距离 | 9″ | 施法时间 | 4 段 |
-| 持续时间 | 永久 | 豁免 | 无 |
-| 影响范围 | 边长 <strong>3″</strong>的立方体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>9″<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>边长 <strong>3″</strong>的立方体<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 基本等同牧师三环*解除魔法*，但幻术师须以<strong>实际等级减 2</strong>计算施法等级：例如 <strong>9 级</strong>幻术师施展时按 <strong>7 级</strong>判定。
 
 ## 彩虹图纹 Rainbow Pattern（变化／幻影系 Alteration/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 姿势、材料 |
-| 距离 | 1″ | 施法时间 | 4 段 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | <strong>3″ × 3″</strong>的方形区域 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong><strong>3″ × 3″</strong>的方形区域<br>
+<strong>成分 Components：</strong>姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 造出一条交错变幻、发出柔和光芒的彩虹图案，基本效果同*催眠图纹*。施法后，幻术师只需朝所选方向示意，图纹便以每轮 <strong>3″</strong>缓慢移动；无需继续照料也可持续 <strong>1–3 轮</strong>。受到影响、合计至多 <strong>24 等级或生命骰</strong>的生物会跟着这片移动的彩光走。
 
@@ -30,23 +34,27 @@
 
 ## 实体浓雾 Solid Fog（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 3″ | 施法时间 | 4 段 |
-| 持续时间 | <strong>2–8 轮＋每级 1 轮</strong> | 豁免 | 无 |
-| 影响范围 | 每施法者等级 <strong>2 立方英尺</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong><strong>2–8 轮＋每级 1 轮</strong><br>
+<strong>影响范围 Area of Effect：</strong>每施法者等级 <strong>2 立方英尺</strong><br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 造出类似*雾墙术*的翻涌雾气，但只有极强的风能推动它。生物在雾中移动时，通常移动率的每 <strong>1″</strong>只能前进 <strong>1 英尺</strong>。*造风术*对它无效；*火球术*、*焰击术*或*火墙术*会在 <strong>1 轮</strong>内将其烧尽。材料成分是一撮干燥豌豆粉与动物蹄粉的混合物。
 
 ## 空置幻景 Vacancy（变化／幻影系 Alteration/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 1″ | 施法时间 | 4 段 |
-| 持续时间 | 每级 1 回合 | 豁免 | 无（触发时特殊） |
-| 影响范围 | 每施法者等级半径 <strong>1″</strong> | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>每施法者等级半径 <strong>1″</strong><br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>无（触发时特殊）</div>
 
 使一区域显得空置、荒废、无人使用。旁观者会看见地上的灰尘、蛛网、污垢等久无人居的痕迹；走过时似乎还会留下脚印、扯破蛛网。只要没有真正碰到被隐藏的物件，他们会以为里面确实空无一物。轻轻擦过不可见物不会惊动法术；只有<strong>用力碰撞</strong>才可能发觉不对。
 

@@ -6,12 +6,14 @@
 
 ## 连环闪电 Chain Lightning（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 4″＋每级 1/2″ | 施法时间 | 6 段 |
-| 持续时间 | 瞬间 | 豁免 | 伤害减半，或完全避开 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>4″＋每级 1/2″<br>
+<strong>持续时间 Duration：</strong>瞬间<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>6 段<br>
+<strong>豁免检定 Saving Throw：</strong>伤害减半，或完全避开</div>
 
 一束宽 <strong>1/4″</strong>的闪电从施法者指尖射向射程内的<strong>首要目标</strong>。这与笼罩一片区域的*闪电束*不同。首要目标<strong>对法术豁免</strong>成功受一半伤害，失败受<strong>每施法者等级 1d6</strong>伤害。
 
@@ -21,12 +23,14 @@
 
 ## 应急术 Contingency（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 1 回合，两术合计 |
-| 持续时间 | 每级 1 天 | 豁免 | 无 |
-| 影响范围 | 施法者本人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 1 天<br>
+<strong>影响范围 Area of Effect：</strong>施法者本人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合，两术合计<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 在自己身上预置另一法术，待施术时声明的情形出现即刻触发。应急术与伴随法术<strong>同时施展</strong>，数值栏的 1 回合是两者总施法时间。伴随法术必须作用于施法者本人，例如*羽落术*、*浮空术*、*飞行术*、*雕像术*或*假死术*；其环级不得高于施法者等级<strong>除以 3 向下取整</strong>，且最高为 <strong>六环</strong>。因此 12–14 级最多预置四环，15–17 级最多五环，18 级起最多六环。同时只能保持<strong>一个</strong>应急术；施展新术会取消旧术。
 
@@ -36,12 +40,14 @@
 
 ## 陷捕术 Ensnarement（咒法／召唤系 Conjuration/Summoning）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 1 回合 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 在异位面强大生物面前显现一扇像传送门的开口，诱它踏入预设陷阱，直到它答应以一次服务换取自由。施法者须说出目标<strong>生物种类</strong>；若有特定名称、专名或本人姓名，也须说出。目标先检定能否识破陷阱：以 <strong>3d6 掷得不高于自身智力</strong>为成功。若目标智力较施法者高，骰值减去差额；若施法者智力较高，骰值加上差额。成功者忽略开口，法术失败；失败者走入开口而被困。
 
@@ -55,12 +61,14 @@
 
 ## 邪眼术 Eyebite（附魔／魅惑、幻术／幻影系 Enchantment/Charm, Illusion/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势 |
-| 距离 | 20 尺 | 施法时间 | 1 段 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>20 尺<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 施法者与目标对视、说出一个词，便可选用下列<strong>四种效果之一</strong>；用过一次后，本术立即消散。
 
@@ -71,22 +79,26 @@
 
 ## 莫登凯南的记忆回想 Mordenkainen's Lucubration（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势 |
-| 距离 | 0 | 施法时间 | 1 段 |
-| 持续时间 | 瞬间 | 豁免 | 无 |
-| 影响范围 | 施法者本人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>瞬间<br>
+<strong>影响范围 Area of Effect：</strong>施法者本人<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 立即回想起过去 <strong>24 小时</strong>内曾经<strong>记忆并实际施展</strong>、随后遗忘的<strong>一至五环</strong>法术之一，仿佛该法术从未施展过。每次只能恢复一个；下一轮起可正常再施展。若该法术需要材料成分，施法者仍须备有材料，否则暂时不能施展回想起的法术。
 
 ## 化水为尘 Transmute Water to Dust（变化系 Alteration，可逆向）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 6 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 6″ | 施法时间 | 6 段 |
-| 持续时间 | 永久 | 豁免 | 无；特殊目标见下文 |
-| 影响范围 | 每级 1 立方″ | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>6″<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>每级 1 立方″<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>6 段<br>
+<strong>豁免检定 Saving Throw：</strong>无；特殊目标见下文</div>
 
 效果与[德鲁伊六环的同名法术](/books/ua/ua-druid-spells-6/)相同：将水变为尘，按浑水、湿泥调整体积；对原生水元素位面的生物有特殊豁免，逆向则大量造水。魔法师版本<strong>不需要槲寄生</strong>作为材料成分，且施法时间为 <strong>6 段</strong>，德鲁伊版为 <strong>8 段</strong>。

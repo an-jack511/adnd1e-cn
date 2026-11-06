@@ -39,13 +39,13 @@ AL 守序中立；RA 见下文；AEx +5%；WPN 标准；SPH 星界、魅惑（�
 
 #### 阳炎爆 Sunburst（塑能）
 
-| 等级 | 4 |
-| --- | --- |
-| 射程 | 30 码 |
-| 施法时间 | 7 段 |
-| 持续时间 | 1 段 |
-| 豁免检定 | 特殊 |
-| 作用范围 | 半径 40 英尺的球体 |
-| 成分 | V、M |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>30 码<br>
+<strong>持续时间 Duration：</strong>1 段<br>
+<strong>影响范围 Area of Effect：</strong>半径 40 英尺的球体<br>
+<strong>成分 Components：</strong>V、M<br>
+<strong>施法时间 Casting Time：</strong>7 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 此法术制造一道耀眼的金色闪光。作用范围内的不死生物受到 6d6 点伤害（无豁免）。爆发范围内或正面对爆发的所有其他生物，都必须进行对法术豁免，否则失明 2–12 段。没有眼睛的生物，以及对可见光不敏感的生物，不受影响。阳炎爆会抵消其作用范围内的黑暗法术，前提是制造黑暗的人等级不高于施法牧师。此法术的材料成分是法尔图斯的银色太阳圣徽和一颗透明晶体物质的珠子。

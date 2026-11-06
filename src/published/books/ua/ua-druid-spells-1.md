@@ -4,12 +4,14 @@
 
 ## 仪式术 Ceremony（祈唤系 Invocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 小时 |
-| 持续时间 | 永久 | 豁免 | 特殊 |
-| 影响范围 | 一名生物、一件物品或一片区域 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>一名生物、一件物品或一片区域<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 小时<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 德鲁伊的*仪式术*与牧师的同名法术相似，在德鲁伊阶层内有多种用途。施法后不留下魔法灵光，但*侦测阵营*或类似法术可能揭示其中的绝对中立力量。下列仪式可由达到所列等级或更低等级的德鲁伊施展：
 
@@ -39,12 +41,14 @@
 
 ## 侦测平衡 Detect Balance（预言系 Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 6″ | 施法时间 | 1 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 每轮一件物品或一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>6″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>每轮一件物品或一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊可探知所检查物品或生物上是否有非中立的力量与阵营。部分中立的阵营，例如中立善良牧师，会显露微弱灵光；完全没有中立成分的阵营，例如混乱善良战士，会显露强烈灵光。法术不指明确切阵营，只能判断是否不属真中立；圣武士与混乱邪恶盗贼的灵光会同样强烈。
 
@@ -52,12 +56,14 @@
 
 ## 侦测毒素 Detect Poison（预言系 Divination）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 1 轮 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 特殊；每次约 1 立方码 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊；每次约 1 立方码<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊可查明物品、生物或区域是否含毒或已被下毒。每次可检查约 1 立方码空间，因此不能一次判断整座池塘是否有毒，却可判断其中某一部分或该部分内的物品是否有毒。另有每级 5% 概率辨认该处毒素的类型：接触毒、摄入毒，或吸入毒（气体）。
 
@@ -65,11 +71,13 @@
 
 ## 降水术 Precipitation（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 1 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 1″ | 施法时间 | 3 段 |
-| 持续时间 | 每级 1 段 | 豁免 | 无；原书另标“特殊” |
-| 影响范围 | 直径 3″、最高 12″ 的圆柱 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>1<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>每级 1 段<br>
+<strong>影响范围 Area of Effect：</strong>直径 3″、最高 12″ 的圆柱<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无；原书另标“特殊”</div>
 
 效果与牧师一环[降水术](/books/ua/ua-cleric-spells-1/)完全相同，但德鲁伊还须额外使用槲寄生作为材料成分。

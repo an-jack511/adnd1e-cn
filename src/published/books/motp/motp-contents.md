@@ -85,7 +85,7 @@
 - 林博 Limbo …… 97
 - 潘德摩尼姆 Pandemonium …… 99
 - 深渊 The Abyss …… 101
-- 泰瑟鲁斯 Tarterus …… 103
+- 谭森鲁斯 Tarterus …… 103
 - 赫德斯 Hades …… 105
 - 几内亚 Gehennas …… 107
 - 九层地狱 The Nine Hells …… 109

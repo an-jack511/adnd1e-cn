@@ -4,12 +4,14 @@
 
 ## 变化长杖 Changestaff（塑能／附魔系 Evocation–Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 3 段 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 德鲁伊的长杖 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>德鲁伊的长杖<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 德鲁伊把一根死木长杖变成最大体型的树人。首先必须找到过去 24 小时内遭雷击的树木；按风暴强弱，任意一棵树符合条件的概率为 1%–5%。从树上取下完好枝条，制作可承载法术的长杖，木材只能是白蜡、橡或紫杉。日晒与特制烟熏养护须 28 天；塑形、雕刻、打磨、抛光另须 28 天。这两个阶段都不能冒险或从事其他剧烈活动。
 
@@ -21,12 +23,14 @@
 
 ## 阳光射线 Sunray（塑能／变化系 Evocation–Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 7 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 1″ | 施法时间 | 3 段 |
-| 持续时间 | 1 轮 | 豁免 | 特殊 |
-| 影响范围 | 直径 1″ 的球形区域，另有外围区域 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>直径 1″ 的球形区域，另有外围区域<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 德鲁伊造出一道灼亮光束，在重要性质上与真正阳光相同。主要影响范围内的所有生物须通过法术豁免，否则失明 1–3 轮；当时正在使用紫外视觉者可能失明 2–8 轮。对阳光有害或视阳光为不自然的生物，若豁免失败会永久失明，豁免成功也会失明 2–12 轮。主要区域内及其边界外 2″ 内的生物，在 2–5 轮内失去红外视觉。
 

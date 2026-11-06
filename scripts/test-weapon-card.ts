@@ -27,3 +27,7 @@ assert.ok(card.rows.weapons.some(r=>r.values.name==='手造武器'));assert.ok(c
 assert.ok(!card.rows.gear.some(r=>r.values.itemId===dagger.id),'Combat selection must not duplicate carried weight in inventory');
 assert.deepEqual(normalizeCard(JSON.parse(JSON.stringify(card))),card);
 console.log('PASS: printed AC 0–10 mapping, separate melee/missile data, preserved personal bonuses, picker overrides, custom rows, no duplicate inventory and lossless card round-trip.');
+
+const isolated=blankCard();selectWeapons(isolated,['dla-dragonlance','backpack',sword.id],items);
+assert.deepEqual(isolated.rows.weapons.filter(row=>row.values.name).map(row=>row.values.name),[sword.id]);
+console.log('PASS: magic items and gear cannot enter the ordinary weapon picker.');

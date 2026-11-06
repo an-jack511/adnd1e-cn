@@ -6,12 +6,14 @@
 
 ## 绑缚术 Bind（变化／附魔系 Alteration/Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 3″ | 施法时间 | 2 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 令非活体材料制成的线、纱、绳、索甚至缆绳服从命令。可控制直径约 <strong>1 英寸</strong>的普通绳索 <strong>50 尺＋每施法者等级 5 尺</strong>；直径增大则长度按比例减小，直径减半则长度增加 <strong>50%</strong>。可下的命令是<strong>盘卷、盘卷并打结、套环、套环并打结、系紧并打结</strong>，以及每项的逆向命令。
 
@@ -21,12 +23,14 @@
 
 ## 深袋术 Deeppockets（变化／附魔系 Alteration/Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 回合 |
-| 持续时间 | 24 回合＋每级 6 回合 | 豁免 | 无 |
-| 影响范围 | 一件衣物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>24 回合＋每级 6 回合<br>
+<strong>影响范围 Area of Effect：</strong>一件衣物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 先备一件裁制精良、材质优质的长袍或礼服，价值至少 <strong>300 金币</strong>，并缝上至少 <strong>12 个</strong>手掌大小的口袋。施法后可选下列一种分配方式，袋外看不出鼓胀：
 
@@ -40,12 +44,14 @@
 
 ## 火焰球 Flaming Sphere（变化／塑能系 Alteration/Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 2 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 成功则无效 |
-| 影响范围 | 直径 <strong>6 英寸</strong>的球体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>直径 <strong>6 英寸</strong>的球体<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 在施法者最多 <strong>1″</strong>远处生成由普通火构成的燃烧球。球体按施法者手指的方向滚动，甚至可上坡，也能越过不高于 <strong>4 尺</strong>的矮墙、家具等。接触会点燃易燃物，击中的生物受 <strong>2–8 点伤害</strong>；球心 <strong>5 尺半径</strong>内的所有生物均须<strong>对法术豁免</strong>，失败者受同样伤害，成功者完全无效。
 
@@ -53,12 +59,14 @@
 
 ## 刺痒术 Irritation（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 每级 1″ | 施法时间 | 2 段 |
-| 持续时间 | 特殊 | 豁免 | 成功则无效 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 作用于目标皮肤；水牛、大象、有鳞生物等皮肤极厚或不敏感者基本不受影响。一次标准准备可选下列一种效果：
 
@@ -69,23 +77,27 @@
 
 ## 侦测阵营 Know Alignment（预言系 Divination，可逆向）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势 |
-| 距离 | 1″ | 施法时间 | 1 轮 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 每 2 轮一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>每 2 轮一个生物<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 除上述数据外，规则与<strong>牧师二环同名法术</strong>相同。若只观察目标 <strong>1 轮</strong>，只能辨别其阵营的<strong>伦理轴</strong>，即守序或混乱；要获知另一轴须按原法术继续观察。本术可逆向施展。
 
 ## 梅尔夫的酸箭 Melf's Acid Arrow（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 3″ | 施法时间 | 4 段 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个目标 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>3″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个目标<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 造出一支魔法箭，像由<strong>等级等于施法者的战士</strong>用弓射出那样判定命中。为命中判定视同 <strong>＋1 武器</strong>；即使目标通常不受箭矢或仅＋1 魔法武器伤害，箭上的酸液仍可能伤它。箭体造成 <strong>2–5 点伤害</strong>，命中时另喷出约 <strong>8 盎司酸液</strong>，覆盖直径 <strong>1 英寸</strong>，造成 <strong>2–8 点伤害</strong>，并允许物品豁免；不使用飞溅伤害规则。
 
@@ -93,12 +105,14 @@
 
 ## 保鲜术 Preserve（防护系 Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 2 轮 |
-| 持续时间 | 永久 | 豁免 | 无 |
-| 影响范围 | 每级 1/2 立方尺 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>每级 1/2 立方尺<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 保持物品完整、新鲜，以待日后用于法术。对槲寄生、冬青浆果等必须定期采集的材料，无法保留其效力；也不能保存死者以便日后复活。除此以外通常有效，施法者等级决定可处理的材料：
 
@@ -112,23 +126,27 @@
 
 ## 小法术防护 Protection From Cantrips（防护系 Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势 |
-| 距离 | 接触 | 施法时间 | 2 段 |
-| 持续时间 | 每级 1 天 | 豁免 | 无，或成功则无效 |
-| 影响范围 | 一个生物或物品 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 1 天<br>
+<strong>影响范围 Area of Effect：</strong>一个生物或物品<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>无，或成功则无效</div>
 
 使施法者本人、接触到的一人或一件物品（如法术书、装法术材料的抽屉）免疫其他魔法师、学徒或使用小法术的生物所施小法术。针对受保护目标的小法术会随着可听见的“啪”声消散。此术常用于约束恶作剧的学徒，或要求学徒亲手清洁、抛光而不靠魔法。不愿受术的目标须被<strong>接触命中</strong>，然后可作<strong>对法术豁免</strong>以免受术。
 
 ## 塔莎的失控狂笑 Tasha's Uncontrollable Hideous Laughter（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 5″ | 施法时间 | 2 段 |
-| 持续时间 | 1 轮 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>5″<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 令目标觉得一切都滑稽可笑。施法当轮只感到微微刺痒；下一轮开始微笑、窃笑、大笑，终至倒地狂笑。笑声持续 <strong>1 轮</strong>；再下一轮须起身，施法后的第 <strong>3、4 轮</strong>力量承受 <strong>−2</strong>，或命中与伤害均承受 <strong>−2</strong>。对法术豁免成功则完全无效，豁免修正取决于智力：
 
@@ -144,23 +162,27 @@
 
 ## 发声术 Vocalize（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 5 轮 | 豁免 | 无 |
-| 影响范围 | 一个会施法的生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>5 轮<br>
+<strong>影响范围 Area of Effect：</strong>一个会施法的生物<br>
+<strong>成分 Components：</strong>姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 让受术者在接下来法术的<strong>整个施法过程</strong>都落在本术持续时间内时，能无声施展原本需要言语成分的法术。适合必须安静或身处*沉默术*中的情形。此术并不解除沉默，也不保证其他声音交流有效：例如可在魔法沉默范围内施展*传讯术*，但没有信息会传回施法者；后续法术本身产生的可听效果也会在沉默持续期间被遮蔽。材料成分是一只没有铃舌的铃铛，或一名囚犯的舌头。
 
 ## 鞭术 Whip（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 2 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 特殊 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 在施法者最多 <strong>1″</strong>处造出有实体的魔法鞭，施法者以空手握鞭的动作挥动它。鞭子能发出尖锐抽响，也能真正抽中目标。抽响足以拦住普通动物，除非它们<strong>对法术豁免</strong>；真正被鞭子<strong>命中</strong>的动物须再作承受 <strong>−1 至 −4</strong>修正的对法术豁免，否则畏缩离开，至少 <strong>1 小时</strong>内不回来。鞭子不造成实际伤害。<strong>智力高于 3</strong>的生物、体型超过熊的巨型动物及怪物不受这项驱赶效果影响。
 
@@ -170,11 +192,13 @@
 
 ## 和风术 Zephyr（塑能系 Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 2 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 2 段 |
-| 持续时间 | 1 段 | 豁免 | 无 |
-| 影响范围 | 宽 1″ 的路径，每级长 1/2″ | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>1 段<br>
+<strong>影响范围 Area of Effect：</strong>宽 1″ 的路径，每级长 1/2″<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>2 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 一阵轻风从施法者吹向其面对的方向，一直行至影响范围末端。小火焰因此摇摆；较大的火焰、火势更旺，适用时其伤害骰承受 <strong>＋1</strong>。风能将移动中的蒸汽云（如*死亡云*）挡住 <strong>1 轮</strong>；削弱*云雾术*、*雾墙术*等气雾，持续时间减半；使停滞空气、蒸汽乃至毒气倒退 <strong>1″</strong>，其持续时间与效力也减半，除非另有来源持续补充。材料成分是一张手风琴式折起的细羊皮纸，在近底部用象牙或银制别针固定。

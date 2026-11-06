@@ -2,7 +2,7 @@
 
 ### 内容
 
-Elminster 根据 Hethcanter 的详尽笔记描述了这部书的内容如下。
+伊尔明斯特（Elminster） 根据 Hethcanter 的详尽笔记描述了这部书的内容如下。
 
 The Scalamagdrion 的第一页和最后一页是空白的。其余页面上有 23 道法术，每页一道，且每页背面为空白；另有一页只包含一幅奇怪的插图。页面从书前向后的顺序是：空白、write、erase、tongues、message、unseen servant、wizard lock、identify、enchant an item、permanency、blink、disintegration、插图、feeblemind、fly、death spell、flame arrow、delayed blast fireball、invisibility、levitate、conjure elemental、minor globe of invulnerability、wall of force、remove curse、dispel magic、空白。所有法术均采用标准《玩家手册》格式。
 
@@ -10,7 +10,7 @@ The Scalamagdrion 的第一页和最后一页是空白的。其余页面上有 2
 
 画面底部以通用语清楚写着一个名字，文字由骨头的排列构成：“Nungulfim”。Hethcanter 记录说，如果把这个词对着打开的书页说出，或长时间盯着插图，画中的怪物就会移动。
 
-Elminster 从其他来源确信，这一页是一道通向某个未被辨认的位面或额外维度空间的门，那里是无尽洞窟；门户可以双向通过。一旦门户激活，怪物便会从书页中出现在 Prime Material Plane，攻击附近所有生物，试图杀死并把猎物带回洞窟吞食。它的真正本性仍是谜，但已知情况可概括如下。
+伊尔明斯特 从其他来源确信，这一页是一道通向某个未被辨认的位面或额外维度空间的门，那里是无尽洞窟；门户可以双向通过。一旦门户激活，怪物便会从书页中出现在 Prime Material Plane，攻击附近所有生物，试图杀死并把猎物带回洞窟吞食。它的真正本性仍是谜，但已知情况可概括如下。
 
 ### Scalamagdrion（“书之守护者”，“Nungulfim”）
 
@@ -26,21 +26,29 @@ Scalamagdrion 会在自身周围 15 英寸半径内散发 silence，并拥有天
 
 ### 外观
 
-这是一本大型方形书，据 Elminster 的描述估计，每边约两英尺。它由经过鞣制的白色麋鹿皮制成，麋鹿皮拉伸在一英寸厚的黑木板上；两面外封中央都有一个由四支箭围成圆形的符文。四张白色羊皮纸缝在内部的皮革“书脊”上。
+这是一本大型方形书，据 伊尔明斯特的描述估计，每边约两英尺。它由经过鞣制的白色麋鹿皮制成，麋鹿皮拉伸在一英寸厚的黑木板上；两面外封中央都有一个由四支箭围成圆形的符文。四张白色羊皮纸缝在内部的皮革“书脊”上。
 
 ### 历史与描述
 
 《契约之书》由当时北方最强大的四位法师创作；他们组成了 Covenant，这是一个（基本上是守序善良的）联盟，目的是在交战的部落王国之间强制维持和平，并在即将与兽人及其同族发生冲突前，建立北方土地共同的力量与繁荣。
 
-Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界的旅途中失踪；Agannazar 据说在红袍法师摧毁 Neverwinter 的 School of Wizardry 时死去；Illykur 则据说在 Thulnath 的 Green Tower 中牺牲自己，以摧毁巫妖王 Ruelve。
+Covenant 早已停止活动：格里姆沃德（Grimwald） 与 普雷斯珀（Presper） 在一次探索其他世界的旅途中失踪；阿甘纳萨（Agannazar） 据说在红袍法师摧毁 Neverwinter 的 School of Wizardry 时死去；伊利库尔（Illykur） 则据说在 Thulnath 的 Green Tower 中牺牲自己，以摧毁巫妖王 Ruelve。
 
-这本书原本用来纪念 Covenant 的建立，也是那些打算追随四位创始人脚步、成为契约新成员的学徒的力量来源与崇拜象征（但没有人做到）。四位创始人各向这部作品贡献了一道独有法术，每道法术单独占一页。法术本身没有名字；它们的俗名来自北方不同作者对书的描述，以及四位创始人的原始学徒（随后又由他们的学徒）对这些法术的使用。这些后来同样成为强大魔法使用者的学徒，Elminster 没有辨认出其身份。
+这本书原本用来纪念 Covenant 的建立，也是那些打算追随四位创始人脚步、成为契约新成员的学徒的力量来源与崇拜象征（但没有人做到）。四位创始人各向这部作品贡献了一道独有法术，每道法术单独占一页。法术本身没有名字；它们的俗名来自北方不同作者对书的描述，以及四位创始人的原始学徒（随后又由他们的学徒）对这些法术的使用。这些后来同样成为强大魔法使用者的学徒，伊尔明斯特 没有辨认出其身份。
 
-贤者只说他们没有像主人一样合作，而是分裂争执，其中一人可能带着《契约之书》。它目前的持有者和下落都不确定。Elminster 通过研究四位创始人及其部分学徒的工作册，知道书页上准确记录了哪些法术，并同意将其重新录于下文。
+贤者只说他们没有像主人一样合作，而是分裂争执，其中一人可能带着《契约之书》。它目前的持有者和下落都不确定。伊尔明斯特 通过研究四位创始人及其部分学徒的工作册，知道书页上准确记录了哪些法术，并同意将其重新录于下文。
 
 ### Grimwald’s Greymantle（Grimwald 的灰披风，死灵）
 
-<strong>等级：</strong>5。<strong>射程：</strong>接触。<strong>持续时间：</strong>施法者每等级 1 轮。<strong>作用范围：</strong>1 个生物。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>6 个分段。<strong>豁免：</strong>否定。
+<div class="spell-meta">
+<strong>等级 Level：</strong>5<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
+
 
 <strong>说明／描述：</strong>魔法使用者施放本法术时，材料成分周围会产生银灰色辉光。如果用材料成分（骨头或小动物骨架）触碰目标生物——需要成功命中检定，如同使用匕首或棍棒——辉光就会离开材料（材料无害消失），扩展开来包围目标，形成一圈光环或披风。这片闪烁的辉光在触碰后的下一轮生效，并持续施法者经验等级 1 轮。
 
@@ -54,7 +62,15 @@ Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界�
 
 ### Agannazar’s Scorcher（Agannazar 的灼流，塑能）
 
-<strong>等级：</strong>2。<strong>射程：</strong>7 英寸。<strong>持续时间：</strong>2 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S。<strong>施法时间：</strong>3 个分段。<strong>豁免：</strong>见下文。
+<div class="spell-meta">
+<strong>等级 Level：</strong>2<br>
+<strong>距离 Range：</strong>7 英寸<br>
+<strong>持续时间 Duration：</strong>2 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S<br>
+<strong>施法时间 Casting Time：</strong>3 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>见下文</div>
+
 
 <strong>说明／描述：</strong>魔法使用者以本法术从指尖召出一道喷向指定生物的火焰。如果目标在施法者 7 英寸内，它会受到 3–18（3d6）点伤害，无豁免（除非目标免疫热与火焰的效果）。火焰喷流呈直径 2 英尺的圆柱，最长可达 7 英寸，施法者在一端，目标在另一端。
 
@@ -62,9 +78,17 @@ Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界�
 
 ### Illykur’s Mantle（Illykur 的披风，防护）
 
-<strong>等级：</strong>4。<strong>射程：</strong>0。<strong>持续时间：</strong>施法者每等级 1 轮。<strong>作用范围：</strong>施法者周围的光环。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>4 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>施法者周围的光环<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>4 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
-<strong>说明／描述：</strong>Illykur’s Mantle 形成时，施法者周围会出现一层微弱发光的光环，沿着施法者身体的轮廓，并随其动作变化。可以从这层光环中施放法术，不会影响光环；但从外部进入、作用于披风的法术会受到下列影响：受保护的施法者对所有 Enchantment／Charm 法术的豁免获得 +3，对所有原本允许豁免的其他法术获得 +1；如果 electricity 相关法术（例如 shocking grasp、lightning bolt）仍对其生效，施法者只受到一半伤害。
+
+<strong>说明／描述：</strong>伊利库尔（Illykur）’s Mantle 形成时，施法者周围会出现一层微弱发光的光环，沿着施法者身体的轮廓，并随其动作变化。可以从这层光环中施放法术，不会影响光环；但从外部进入、作用于披风的法术会受到下列影响：受保护的施法者对所有 Enchantment／Charm 法术的豁免获得 +3，对所有原本允许豁免的其他法术获得 +1；如果 electricity 相关法术（例如 shocking grasp、lightning bolt）仍对其生效，施法者只受到一半伤害。
 
 当另一生物的灵能接触施法者心智时，披风会闪耀明亮但不刺眼的白光；它不防护任何灵能攻击或效应。材料成分是一颗天然（未经切割）的宝石晶体。
 
@@ -72,9 +96,17 @@ Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界�
 
 ### Presper’s Moonbow（Presper 的月弓，塑能）
 
-<strong>等级：</strong>4。<strong>射程：</strong>特殊。<strong>持续时间：</strong>特殊。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>9 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>9 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
-<strong>说明／描述：</strong>本魔法只能在有月亮的夜空下使用，并且云层状况必须允许月光抵达地面。Presper’s Moonbow 可以让 1–4 颗发光的小球（形似 ball lightning）聚集在施法者伸出的手上方。这些月光球在施法进行的那一轮逐渐变大、变亮并缓慢旋转；此时它们类似 dancing lights。
+
+<strong>说明／描述：</strong>本魔法只能在有月亮的夜空下使用，并且云层状况必须允许月光抵达地面。普雷斯珀（Presper）’s Moonbow 可以让 1–4 颗发光的小球（形似 ball lightning）聚集在施法者伸出的手上方。这些月光球在施法进行的那一轮逐渐变大、变亮并缓慢旋转；此时它们类似 dancing lights。
 
 下一轮，施法者可以选择把一个或多个月光球射向目标；目标必须在视线内。只需意志集中，不需要说话或姿势。指向目标的月光球会射出追逐目标，每轮飞行最多 26 英寸；它们会绕过转角、穿过障碍物（但不能穿过关闭的门或类似物），并且不受 invisibility、mirror image、illusion 等迷惑法术影响，抵达目标时以 +3 命中。
 
@@ -96,9 +128,9 @@ Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界�
 
 ### 历史与描述
 
-国度的贤者和吟游诗人知道，《独角兽之书》是已经消失的 Iltkazar 法王遗失的魔法大全；Iltkazar 是大约九百年前位于 Calimshan 东部的消失王国。Shoon 是当时最强大的领主，据说至今仍以巫妖形态存在。这本书包含许多其他地方完全没有的法术，包括在各存在位面之间建立永久传送门的方法，以及制造魔像军队的方法。
+国度的贤者和吟游诗人知道，《独角兽之书》是已经消失的 Iltkazar 法王遗失的魔法大全；Iltkazar 是大约九百年前位于 Calimshan 东部的消失王国。沙恩（Shoon） 是当时最强大的领主，据说至今仍以巫妖形态存在。这本书包含许多其他地方完全没有的法术，包括在各存在位面之间建立永久传送门的方法，以及制造魔像军队的方法。
 
-有人说，这本书被杀死 Shoon 的冒险者偷走；也有人说，精灵诸国复仇时，巫妖法师退入大地深处，带走了它。后来发现它曾进入 Ruathyn，被保存在当地最隐秘的图书馆中；去年，一名或多名未知人士闯入宝库，偷走了书，并由此引发 Ruathyn 与 Luskan 最近的战争。书目前仍然失踪。
+有人说，这本书被杀死 沙恩的冒险者偷走；也有人说，精灵诸国复仇时，巫妖法师退入大地深处，带走了它。后来发现它曾进入 Ruathyn，被保存在当地最隐秘的图书馆中；去年，一名或多名未知人士闯入宝库，偷走了书，并由此引发 Ruathyn 与 路斯坎（Luskan） 最近的战争。书目前仍然失踪。
 
 ### 内容与诅咒
 
@@ -112,19 +144,27 @@ Covenant 早已停止活动：Grimwald 与 Presper 在一次探索其他世界�
 
 封底内部包含一个额外维度空间，是 demi-lich 自己的巢穴。每次打开本书，都有 9% 的非累积概率让 demi-lich 的头骨浮现并攻击，规则如《Monster Manual II》中所述。如果有人故意集中注意封底的内侧或外侧，该概率为 100%。
 
-Shoon 会以一颗头骨出现，而不是幽灵或鬼魂；被偷来的法术充当能量因素，足以让他维持这种状态。他不会嚎叫，而会漂浮，在出现的第三轮吸取一个灵魂，并在此之前用法术攻击和防御。Shoon 关心的是吸取灵魂，而不是杀人；他会每隔三轮尝试吸取一个灵魂，直到成功。吸取灵魂后，Shoon 会回到书中；只有再次集中注意封底，或书在单轮中受到超过 13 点伤害，或书被摧毁时，他才会再次出现并攻击。摧毁书会释放 Shoon，但不会摧毁他。
+沙恩 会以一颗头骨出现，而不是幽灵或鬼魂；被偷来的法术充当能量因素，足以让他维持这种状态。他不会嚎叫，而会漂浮，在出现的第三轮吸取一个灵魂，并在此之前用法术攻击和防御。沙恩 关心的是吸取灵魂，而不是杀人；他会每隔三轮尝试吸取一个灵魂，直到成功。吸取灵魂后，沙恩 会回到书中；只有再次集中注意封底，或书在单轮中受到超过 13 点伤害，或书被摧毁时，他才会再次出现并攻击。摧毁书会释放 沙恩，但不会摧毁他。
 
-邪恶不死法师的附魔允许他使用下述 Stealspell：任何触碰书的人都可能在任一轮被夺取一个法术。若目标没有法术，或成功以 -1 罚值对抗法术豁免，尝试会对 Shoon 失败且浪费该轮。
+邪恶不死法师的附魔允许他使用下述 Stealspell：任何触碰书的人都可能在任一轮被夺取一个法术。若目标没有法术，或成功以 -1 罚值对抗法术豁免，尝试会对 沙恩 失败且浪费该轮。
 
 ### Stealspell（盗法，附魔／魅惑）
 
-<strong>等级：</strong>7。<strong>射程：</strong>施法者每等级 1 英寸。<strong>持续时间：</strong>特殊。<strong>作用范围：</strong>1 个生物。<strong>成分：</strong>V、S。<strong>施法时间：</strong>7 个分段。<strong>豁免：</strong>否定。
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>施法者每等级 1 英寸<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>成分 Components：</strong>V、S<br>
+<strong>施法时间 Casting Time：</strong>7 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
 
-<strong>说明／描述：</strong>这个强大的魔法法术很少有人知道，除了 Rashemen 女巫的圈子之外几乎无人知晓；它为何落入 Shoon 手中也不明。施法者指定射程内的单个生物；该生物必须以 -1 罚值对抗法术豁免，失败则从其心智中失去一个已记忆的法术或类法术能力。来自 Prime Material Plane 以外位面的生物不承受豁免罚值；如果目标没有可用法术，本法术不产生效果。被夺走的法术由随机决定，而非由 Shoon 选择。
 
-stealspell 即使目标失去意识或陷入疯狂也能生效；灵能防护、anti-magic shell、mind bar 以及类似的屏障法术都不能防护本法术。被夺走的法术可以由施法者立即“施放”，也可以保存在心中稍后使用；但失去意识、疯狂、anti-magic shell、mind bar 或类似魔法／灵能防护可能阻止这次施放。转移需要 1 个分段，且被偷走的法术随机决定，不由 Shoon 选择。
+<strong>说明／描述：</strong>这个强大的魔法法术很少有人知道，除了 Rashemen 女巫的圈子之外几乎无人知晓；它为何落入 沙恩（Shoon） 手中也不明。施法者指定射程内的单个生物；该生物必须以 -1 罚值对抗法术豁免，失败则从其心智中失去一个已记忆的法术或类法术能力。来自 Prime Material Plane 以外位面的生物不承受豁免罚值；如果目标没有可用法术，本法术不产生效果。被夺走的法术由随机决定，而非由 沙恩 选择。
 
-像强大的 incantatrix（对所有人而言，他生前可能就是这种人）一样，Shoon 可以用这类法术的能量恢复生命值（每个法术等级恢复 2–8 点），或仅凭意志使用它们，效果如同原施法者施放；他每次只能使用一道法术，且每轮只能使用一次。Shoon 当前保留的被盗法术如下（他能“持有”的法术数量，只等同于他成为巫妖后本可携带的数量，但这些法术可以属于任何职业与等级；Shoon 至少是 26 级魔法使用者）：hold person×2、dispel magic（牧师）×3、lightning bolt（8d6）、cone of cold、Bigby’s forceful hand 和 volley。
+stealspell 即使目标失去意识或陷入疯狂也能生效；灵能防护、anti-magic shell、mind bar 以及类似的屏障法术都不能防护本法术。被夺走的法术可以由施法者立即“施放”，也可以保存在心中稍后使用；但失去意识、疯狂、anti-magic shell、mind bar 或类似魔法／灵能防护可能阻止这次施放。转移需要 1 个分段，且被偷走的法术随机决定，不由 沙恩 选择。
 
-原书 PDF 第190–193页（印刷页90–93）；保留 Scalamagdrion 的 23 道法术目录、Nungulfim 插图门户、完整怪物数据与特殊防御、《契约之书》的三篇法师法术、月光球规则、《独角兽之书》的书页诅咒与封底 demi-lich 触发，以及 Stealspell 和 Shoon 的被盗法术清单，并挂载对应原页图。
+像强大的 incantatrix（对所有人而言，他生前可能就是这种人）一样，沙恩 可以用这类法术的能量恢复生命值（每个法术等级恢复 2–8 点），或仅凭意志使用它们，效果如同原施法者施放；他每次只能使用一道法术，且每轮只能使用一次。沙恩 当前保留的被盗法术如下（他能“持有”的法术数量，只等同于他成为巫妖后本可携带的数量，但这些法术可以属于任何职业与等级；沙恩 至少是 26 级魔法使用者）：hold person×2、dispel magic（牧师）×3、lightning bolt（8d6）、cone of cold、毕格比（Bigby）’s forceful hand 和 volley。
+
+出处：原书 PDF 第190–193页（印刷页90–93）。
 

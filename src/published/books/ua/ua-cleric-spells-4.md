@@ -4,12 +4,14 @@
 
 ## 驱逐术 Abjure（防护系 Abjuration；逆向为咒法／召唤系 Conjuration/Summoning）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 1 轮 |
-| 持续时间 | 永久 | 豁免 | 成功则无效；见下文 |
-| 影响范围 | 一名生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>一名生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效；见下文</div>
 
 牧师试图将一名来自其他位面的生物送回原本的位面。必须知道目标所属生物类别的确切名称；若它另有专名，也必须知道并念出。然后以牧师等级与目标等级或生命骰比较，按*解除魔法*判定成功率的方式处理：基本成功率 50%，再依双方等级／生命骰之差调整。掷百分骰，结果不高于调整后概率便立即将目标送回原位面，否则法术失败。有些异位面生物本来就不愿停留在施法者的位面，可能因此感激牧师的尝试。
 
@@ -19,12 +21,14 @@
 
 ## 恐惧披风 Cloak of Fear（幻术／魅影系 Illusion/Phantasm，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 0 | 施法时间 | 6 段 |
-| 持续时间 | 每级 1 回合 | 豁免 | 成功则无效 |
-| 影响范围 | 牧师本人；恐惧灵光半径 3 尺 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>牧师本人；恐惧灵光半径 3 尺<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>6 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 牧师发出半径 3″ 的恐惧灵光。任何进入者必须通过法术豁免，否则惊惧逃离 6 轮（参见魔法师三环*恐惧术*）。一旦有一名生物豁免失败，法术便消散。自身能散发恐惧的生物及任何不死生物不受影响，也不会使法术消散；豁免成功的入侵者同样不会使其消散。若未提前触发，灵光在每级 1 回合后消失。牧师的同伴也不免疫；牧师可随时主动撤去灵光。
 
@@ -34,12 +38,14 @@
 
 ## 巨虫术 Giant Insect（变化系 Alteration，可逆）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 2″ | 施法时间 | 特殊；见下文 |
-| 持续时间 | 每级 2 轮 | 豁免 | 无 |
-| 影响范围 | 一只或多只昆虫 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>2″<br>
+<strong>持续时间 Duration：</strong>每级 2 轮<br>
+<strong>影响范围 Area of Effect：</strong>一只或多只昆虫<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>特殊；见下文<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 此术把普通大小的昆虫变成类似《怪物图鉴》或《恶魔宝典》所载巨型种的形态。可影响数量及所造巨虫的生命骰总数如下；一次施法只能影响同一种昆虫，不能同时放大蚂蚁与苍蝇。
 
@@ -60,12 +66,14 @@
 
 ## 赋予施法能力 Imbue With Spell Ability（附魔／变化系 Enchantment–Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 回合 |
-| 持续时间 | 特殊 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师将某个法术的施展能力授予通常不会施法的角色。仅盗贼、战士、骑士、刺客、武僧、未达 8 级的游侠及未达 9 级的圣武士适用；其他职业、子职业、怪物，及生命骰不足 1 的个体都不适用。
 
@@ -75,12 +83,14 @@
 
 ## 法术免疫 Spell Immunity（防护系 Abjuration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 轮 |
-| 持续时间 | 每级 1 回合 | 豁免 | 无 |
-| 影响范围 | 一人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>一人<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 牧师使自己或触碰的另一名生物，在持续时间内免疫一种<strong>特定</strong>的一至四环法术；牧师本人须曾直接经历过该法术。例如牧师曾被*火球术*击中，才能用本术保护他人免受*火球术*影响。已受其他法术或临时魔法效果保护的目标，不能再接受此术。
 
@@ -88,12 +98,14 @@
 
 ## 棘刺丛生 Spike Growth（变化／附魔系 Alteration/Enchantment）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 4 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 6″ | 施法时间 | 7 段 |
-| 持续时间 | 1d6 回合＋每级 1 回合 | 豁免 | 无 |
-| 影响范围 | 每级一块 10 尺见方区域 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>6″<br>
+<strong>持续时间 Duration：</strong>1d6 回合＋每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>每级一块 10 尺见方区域<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>7 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 在有中等大小或密度的植物生长处，牧师可使地被植物、根和细根变得坚硬尖锐；表面看似未变，实际如撒满蒺藜。裸地或土坑中的根须也可产生同样效果。若没有*真知术*、类似魔法、*侦测陷阱*或其他特殊感知手段，直到有受害者踏入并受伤前，都无法察觉该区域的危险；即便受伤，仍无法在无魔法侦测的情况下判明危险范围。
 

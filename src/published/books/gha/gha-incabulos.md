@@ -39,14 +39,14 @@ AL 任意邪恶；RA 见下文；AEx +5%；WPN 棍棒、连枷、钉头锤、法
 
 #### 瘟疫 Plague（变化）
 
-| 等级 | 4 |
-| --- | --- |
-| 射程 | 10 码 |
-| 施法时间 | 7 段 |
-| 持续时间 | 6 回合 |
-| 豁免检定 | 特殊 |
-| 作用范围 | 特殊 |
-| 成分 | S、M |
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>10 码<br>
+<strong>持续时间 Duration：</strong>6 回合<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>S、M<br>
+<strong>施法时间 Casting Time：</strong>7 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 此法术允许牧师向单个目标施加一种剧烈而具有传染性的疾病。如果目标对法术豁免成功，则不会产生任何效果。如果豁免失败，目标立即遭受一次瘟疫攻击，发烧并因疾病而神志错乱，持续六回合。在此期间，受害者失去其原始生命值的 10%，失去 1 点力量和体质，豁免检定和“命中”骰受到 -2 处罚，并且敌人命中它时获得 +2 加值。
 

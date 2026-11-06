@@ -1,5 +1,5 @@
 (() => {
-  const article = document.querySelector('.book-article, .chapter-reading, .library-entry');
+  const article = document.querySelector('.character-library') ? null : document.querySelector('.book-article, .chapter-reading, .library-entry');
   // Keep English as a subtitle without changing heading anchors or wording.
   for (const heading of document.querySelectorAll('main h1,main h2,main h3,main h4,main h5,main h6')) {
     if (heading.closest('.ref2-workspace') || heading.querySelector('small,.heading-english,a,input,button')) continue;

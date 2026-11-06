@@ -289,7 +289,7 @@
 
 | 攻击方式 | 木材 | 土壤 | 软石 | 硬岩 |
 |:---|:---:|:---:|:---:|:---:|
-| 比格比擒拿之拳 Bigby's Clenched Fist | 1* | — | ½* | ¼* |
+| 毕格比擒拿之拳 Bigby's Clenched Fist | 1* | — | ½* | ¼* |
 | 重型投石机飞弹 Catapult Missile, Heavy | 6 | — | 4 | 2 |
 | 轻型投石机飞弹 Catapult Missile, Light | 4 | — | 2 | 1 |
 | 挖掘术 Dig | — | 10 | — | — |

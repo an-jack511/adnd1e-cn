@@ -15,8 +15,9 @@
     "test:ref2": "tsx scripts/test-ref2-card.ts && tsx scripts/test-weapon-card.ts",
     "test:character": "tsx scripts/test-character-suite.ts",
     "check:character-release": "tsx scripts/check-character-release.ts",
-    "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && tsx scripts/import/library-index.ts",
-    "test:library": "tsx scripts/test-library.ts"
+    "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/import/library-index.ts",
+    "test:library": "tsx scripts/test-library.ts",
+    "import:regional": "tsx scripts/import/regional-baseline.ts && python scripts/import/normalize-spell-layout.py && node scripts/import/scan-regional-sources.mjs && python scripts/import/regional-library.py && tsx scripts/import/library-index.ts"
   },
   "dependencies": {
     "astro": "5.15.5",

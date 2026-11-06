@@ -1,3 +1,4 @@
+import {itemSelectionKind} from '../../utils/item-selection';
 export const CARD_FORMAT = 'adnd1e-ref2-card';
 export type Fields = Record<string, string | boolean>;
 export type Row = { id: string; values: Record<string, string> };
@@ -58,7 +59,7 @@ export function selectPrepared(card: Card, ids: string[]) {
 
 /** Only replace rows managed by this picker; retain custom gear and unknown future IDs. */
 export function selectInventory(card:Card,ids:string[],kind:'gear'|'magic',catalog:readonly {id:string;nameZh:string;category:string}[]) {
- const eligible=new Map(catalog.filter(item=>(item.category==='魔法物品')===(kind==='magic')).map(item=>[item.id,item]));
+ const eligible=new Map(catalog.filter(item=>itemSelectionKind(item)===kind).map(item=>[item.id,item]));
  const selected=new Set(ids.filter(id=>eligible.has(id)));
  card.rows.gear=card.rows.gear.filter(row=>!eligible.has(row.values.itemId)||selected.has(row.values.itemId));
  const existing=new Set(card.rows.gear.map(row=>row.values.itemId));

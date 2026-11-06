@@ -1,3 +1,5 @@
+import {itemSelectionKind} from '../../utils/item-selection';
+import {installCardPrinting} from './printing';
 import abilityTables from '../../data/public/ability-tables.json';
 import { classes } from '../../data/public/classes-base';
 import { races } from '../../data/public/races-base';
@@ -6,7 +8,7 @@ import { spells } from '../../data/public/spells';
 import { abilityAdjustment } from '../../rules-engine/abilities';
 import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement, type Ability } from '../../rules-engine/character';
 import { blankCard, blankRow, collectionNames, normalizeCard, selectPrepared, selectInventory, type Card, type CollectionName, type Row } from './model';
-import {fillWeapon,selectWeapons,isWeapon} from './weapons';
+import {fillWeapon,selectWeapons} from './weapons';
 
 type Control = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
 const form = document.querySelector<HTMLFormElement>('#character-form')!;
@@ -25,7 +27,8 @@ function collect(): Card {
   for (const control of form.querySelectorAll<Control>('[name]')) card.fields[control.name] = control instanceof HTMLInputElement && control.type==='checkbox' ? control.checked : control.value;
   for (const key of collectionNames) {
     const previous=new Map(card.rows[key].map(row=>[row.id,row.values]));
-    card.rows[key] = [...repeater(key).querySelectorAll<HTMLElement>('[data-card-row]')].map(row=>({id:row.dataset.rowId!,values:{...previous.get(row.dataset.rowId!),...Object.fromEntries([...row.querySelectorAll<Control>('[data-cell]')].map(control=>[control.dataset.cell!,control.value]))}}));
+    const hiddenMagic=key==='gear'?card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)==='magic')):[];
+    card.rows[key] = [...hiddenMagic,...[...repeater(key).querySelectorAll<HTMLElement>('[data-card-row]')].map(row=>({id:row.dataset.rowId!,values:{...previous.get(row.dataset.rowId!),...Object.fromEntries([...row.querySelectorAll<Control>('[data-cell]')].map(control=>[control.dataset.cell!,control.value]))}}))];
     if(key==='weapons')for(const row of card.rows.weapons){if(row.values.name?.endsWith('::missile')){row.values.name=row.values.name.slice(0,-9);row.values.mode='missile';}}
   }
   return card;
@@ -33,7 +36,7 @@ function collect(): Card {
 function renderRows(key:CollectionName) {
   const section=repeater(key), table=section.querySelector<HTMLTableElement>('[data-row-table]')!, template=section.querySelector<HTMLTemplateElement>('[data-row-template]')!;
   table.querySelectorAll('[data-card-row]').forEach(row=>row.remove());
-  card.rows[key].forEach((record,index)=>{
+  card.rows[key].filter(record=>key!=='gear'||!items.some(item=>item.id===record.values.itemId&&itemSelectionKind(item)==='magic')).forEach((record,index)=>{
     const row=template.content.querySelector('tbody')!.cloneNode(true) as HTMLTableSectionElement;
     row.dataset.rowId=record.id;
     for (const control of row.querySelectorAll<Control>('[data-cell]')) {
@@ -218,21 +221,35 @@ window.addEventListener('message',event=>{
   }
 });
 
+let magicSignature='';
 function renderOwnedMagic(){
  const container=document.querySelector('#owned-magic-items');if(!container)return;
  const owned=card.rows.gear.flatMap(row=>{const item=items.find(item=>item.id===row.values.itemId);return item?.category==='魔法物品'?[{item,row}]:[];});
- container.replaceChildren(...owned.map(({item,row})=>{const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=`${item.nameZh} × ${row.values.quantity||'1'}`;return link;}));
+ const signature=JSON.stringify(owned.map(({row})=>[row.id,row.values]));if(signature===magicSignature)return;magicSignature=signature;
+ container.replaceChildren(...owned.map(({item,row})=>{const line=document.createElement('div');line.className='owned-magic-row';const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=item.nameZh;const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);return line;}));
 }
 const itemLibrary=document.querySelector<HTMLDialogElement>('#item-library')!,itemFrame=document.querySelector<HTMLIFrameElement>('#item-library-frame')!;
 let itemKind:'gear'|'magic'|'weapons'='gear';
-function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.filter(row=>items.some(item=>item.id===row.values.name&&isWeapon(item))).map(row=>row.values.name):card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&(item.category==='魔法物品')===(itemKind==='magic'))).map(row=>row.values.itemId);itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids},location.origin);}
-document.querySelectorAll<HTMLButtonElement>('[data-open-item-library]').forEach(button=>button.addEventListener('click',()=>{collect();itemKind=button.dataset.openItemLibrary==='weapons'?'weapons':button.dataset.openItemLibrary==='magic'?'magic':'gear';const path=itemKind==='magic'?'/equipment/magic-items/':'/equipment/';if(itemFrame.dataset.kind!==itemKind){itemFrame.src=path+'?mode=select'+(itemKind==='weapons'?'&use=weapons&category=武器':'');itemFrame.dataset.kind=itemKind;}itemLibrary.showModal();sendItems();}));
+function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.filter(row=>items.some(item=>item.id===row.values.name&&itemSelectionKind(item)==='weapons')).map(row=>row.values.name):card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)===itemKind)).map(row=>row.values.itemId);itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids},location.origin);}
+document.querySelectorAll<HTMLButtonElement>('[data-open-item-library]').forEach(button=>button.addEventListener('click',()=>{collect();itemKind=button.dataset.openItemLibrary==='weapons'?'weapons':button.dataset.openItemLibrary==='magic'?'magic':'gear';const label={weapons:'武器',magic:'魔法物品',gear:'普通装备'}[itemKind];itemLibrary.querySelector('h2')!.textContent=`勾选${label}`;itemFrame.title=`勾选${label}`;const path=itemKind==='magic'?'/equipment/magic-items/':'/equipment/';if(itemFrame.dataset.kind!==itemKind){itemFrame.src=path+'?mode=select&use='+itemKind;itemFrame.dataset.kind=itemKind;}itemLibrary.showModal();sendItems();}));
 document.querySelector('#close-item-library')!.addEventListener('click',()=>itemLibrary.close());
 window.addEventListener('message',event=>{
  if(event.origin!==location.origin||event.source!==itemFrame.contentWindow||!event.data||typeof event.data!=='object')return;
  if(event.data.type==='adnd1e-item-picker-ready')sendItems();
  if(event.data.type==='adnd1e-item-picker-cancel')itemLibrary.close();
  if(event.data.type==='adnd1e-items-selected'&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();if(itemKind==='weapons'){selectWeapons(card,event.data.ids,items);renderRows('weapons');}else{selectInventory(card,event.data.ids,itemKind,items);renderRows('gear');}update();modified();itemLibrary.close();}
+});
+
+const identityLibrary=document.querySelector<HTMLDialogElement>('#identity-library')!,identityFrame=document.querySelector<HTMLIFrameElement>('#identity-library-frame')!;
+let identityKind:'races'|'classes'='races';
+function sendIdentity(){identityFrame.contentWindow?.postMessage({type:'adnd1e-identity-selection',id:value(identityKind==='races'?'race':'class')},location.origin);}
+document.querySelectorAll<HTMLButtonElement>('[data-open-identity]').forEach(button=>button.addEventListener('click',()=>{identityKind=button.dataset.openIdentity==='classes'?'classes':'races';const label=identityKind==='races'?'种族':'职业';identityLibrary.querySelector('h2')!.textContent=`选择${label}`;identityFrame.title=`选择${label}`;if(identityFrame.dataset.kind!==identityKind){identityFrame.src=`/${identityKind}/?mode=select`;identityFrame.dataset.kind=identityKind;}identityLibrary.showModal();sendIdentity();}));
+document.querySelector('#close-identity-library')!.addEventListener('click',()=>identityLibrary.close());
+window.addEventListener('message',event=>{
+ if(event.origin!==location.origin||event.source!==identityFrame.contentWindow||!event.data)return;
+ if(event.data.type==='adnd1e-identity-ready')sendIdentity();
+ if(event.data.type==='adnd1e-identity-cancel')identityLibrary.close();
+ if(event.data.type==='adnd1e-identity-selected'&&event.data.kind===identityKind){const catalog=identityKind==='races'?races:classes;const entry=catalog.find(entry=>entry.id===event.data.id&&!entry.referenceOnly);if(!entry)return;collect();set(identityKind==='races'?'race':'class',entry.id);update();modified();identityLibrary.close();}
 });
 
 const savedSelect=document.querySelector<HTMLSelectElement>('#saved-characters')!;
@@ -260,6 +277,6 @@ document.querySelector('#new-character')!.addEventListener('click',()=>{applyCar
 document.querySelector('#load-character')!.addEventListener('click',()=>{try{const saved=readSaved().find(entry=>entry.fields.character_id===savedSelect.value);const current=saved??normalizeCard(JSON.parse(localStorage.getItem('adnd1e-character')??'null'));applyCard(current);refreshSaved(String(current.fields.character_id||''));notify('已加载人物卡。');}catch(error){notify(error instanceof Error?error.message:'人物卡无法读取，原记录已保留。');}});
 document.querySelector('#export-character')!.addEventListener('click',()=>{const data=collect(),blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`${String(card.fields.name||'adnd1e-ref2-card').replace(/[<>:"/\\|?*]/g,'_')}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);notify('已导出人物卡 JSON，包含所有追加记录与准备法术。');});
 document.querySelector<HTMLInputElement>('#import-character')!.addEventListener('change',async event=>{const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;try{const next=normalizeCard(JSON.parse(await file.text()));applyCard(next);dirty=true;notify('已导入人物卡。点击“保存”可存入浏览器。');}catch(error){notify(error instanceof Error?error.message:'文件无法读取；当前人物卡未改动。');}finally{input.value='';}});
-document.querySelector('#print-character')!.addEventListener('click',()=>window.print());
+installCardPrinting(form,()=>{collect();});
 applyCard(card);
 try{refreshSaved();}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}

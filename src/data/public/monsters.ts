@@ -1,3 +1,4 @@
+import regional from './regional-monsters.json';
 import type { Monster } from '../../schemas';
 import imported from './monsters-imported.json';
 import ffImported from './ff-monsters-imported.json';
@@ -27,7 +28,7 @@ const ffMonsters = ffImported as Monster[];
 const mm2Monsters = mm2Imported as Monster[];
 const importedIds = new Set(importedMonsters.map((monster) => monster.id));
 const oaIds = new Set(oaMonsters.map((monster) => monster.id));
-export const monsters: Monster[] = [
+const legacyMonsters: Monster[] = [
   ...importedMonsters.map((monster) => ({ ...monster, illustration: examples.find((entry) => entry.id === monster.id)?.illustration ?? monster.illustration })),
   ...ffMonsters.filter((monster) => !importedIds.has(monster.id)),
   ...mm2Monsters.filter((monster) => !importedIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id)),
@@ -39,3 +40,6 @@ export const monsters: Monster[] = [
   ...ghaMonsters,
   ...examples.filter((monster) => !importedIds.has(monster.id) && !oaIds.has(monster.id) && !ffMonsters.some((entry) => entry.id === monster.id))
 ];
+
+const regionalMonsters=regional as Monster[];const regionalIds=new Set(regionalMonsters.map(monster=>monster.id));
+export const monsters:Monster[]=[...legacyMonsters.filter(monster=>!regionalIds.has(monster.id)),...regionalMonsters];

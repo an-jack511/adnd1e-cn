@@ -4,7 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 <BaseLayout title="人物卡使用帮助">
   <h1>人物卡使用帮助</h1>
   <p><a href="/character/">← 返回人物卡</a></p>
-  <nav aria-label="帮助目录"><a href="#fill">填写人物卡</a> · <a href="#spells">准备法术</a> · <a href="#save">保存与备份</a> · <a href="#print">打印</a> · <a href="#tools">其他人物工具</a></nav>
+  <nav aria-label="帮助目录"><a href="#fill">填写人物卡</a> · <a href="#spells">准备法术</a> · <a href="#save">保存与备份</a> · <a href="#print">打印</a></nav>
   <section id="fill"><h2>填写人物卡</h2>
     <ol><li>在“正面”选择种族、职业与等级，填写姓名和阵营。属性可手填，也可展开“生成属性与资格设置”，投掷 3d6 或 4d6 去最低。</li>
       <li>填写六项属性。下方显示属性调整与资格检查；力量达到 18 时可为适用职业选择非凡力量。</li>
@@ -12,6 +12,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       <li>正面记录生命值、豁免、战斗、熟练项与能力；背面记录人物描述、装备、财宝、家人与随从。“整卡”可连续查看全部栏目。</li></ol>
     <p>武器、装备、技艺、家人、随从等栏目可点击“＋ 添加”追加记录；点击行末“×”移除，随后可用“撤销移除”恢复最近一条。随从各有独立背景栏。手机上的武器表可展开“显示对 AC 调整”。</p>
     <p>“从资料库选取武器”会将武器加入正面的武器战斗表，带入伤害、对各 AC 的命中调整，以及射速或速度、长度和空间资料。兼具两种用法的武器可在武器下拉框中选择“手持”或“投掷／射击”；射程与规格合并在现有“射程／特殊”栏，悬停可查看完整内容。THAC0 和个人命中、伤害加值分别填写。重新打开资料库不会覆盖保留武器的手动修改。</p>
+    <p>武器、普通装备和魔法物品使用独立的勾选窗口，切换筛选不会混入其他类别。魔法武器归魔法物品；已选魔法物品在正面单独列出，可调整数量。普通装备在背面列出。</p>
     <p>查表：<a href="/character/abilities/">属性表</a> · <a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/equipment/">装备</a> · <a href="/spells/">法术</a>。</p>
   </section>
   <section id="spells"><h2>准备法术</h2>
@@ -23,16 +24,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   <section id="save"><h2>保存与备份</h2>
     <p>“保存”将当前人物存入此浏览器。可从已保存人物列表中选择并“加载”；“另存副本”会建立单独的副本。“新建”打开空白人物卡，不会删除已保存的人物。离开页面前请保存修改。</p>
     <p>用“导出 JSON”备份或转移人物，再在另一台设备上“导入 JSON”。清理浏览器数据会移除本地保存，因此请保留导出的文件。</p>
-    <p>人物卡 JSON 在人物卡中导入；使用逐步创建工具生成的战役人物档案，请到<a href="/character/sheet/">战役人物档案</a>打开。已有档案可在<a href="/character/import/">文件检查与恢复</a>中读取。</p>
+    <p>人物卡仅导入 REF2 人物卡文件。旧式战役档案请保留原件，可在<a href="/character/import/">文件检查与恢复</a>中读取。</p>
   </section>
   <section id="print"><h2>打印与导出 PDF</h2>
-    <p>点击“打印／导出 PDF”，选择 A4 纵向、100% 缩放，关闭浏览器页眉页脚，开启背景图形以保留橙黄配色。人物卡正面、背面与已准备法术分别起页；追加记录较多时会续页。打印包含整卡，不受当前选中页面影响。</p>
+    <p>展开“打印设置”可选择黑白打印（去除底色），并缩略空白栏目。点击“打印／导出 PDF”，使用 A4 纵向、100% 缩放，关闭浏览器页眉页脚；彩色打印需开启背景图形。正面、背面尽量各占一页，准备法术另页；记录较多时保持可读字号并续页。打印包含整卡，不受当前页面影响，也不会删除空栏或修改原记录。</p>
   </section>
-  <section id="tools"><h2>其他人物工具</h2>
-    <ul><li><a href="/character/create/">逐步创建</a>：按步骤选择属性、种族、职业、装备与初始法术。</li>
-      <li><a href="/character/sheet/">战役人物档案</a>：打开已有战役档案，管理生命值、装备与法术。</li>
-      <li><a href="/character/growth/">角色成长</a>：记录经验、训练与等级变化。</li>
-      <li><a href="/character/journal/">战役记录</a>：记录事件、人物、地点与长期活动。</li>
-      <li><a href="/character/dragonlance/">龙枪八人</a>：查看与导出预设人物。</li></ul>
-  </section>
+  <p>预设人物：<a href="/character/dragonlance/">龙枪八人</a>。</p>
 </BaseLayout>

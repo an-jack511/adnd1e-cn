@@ -1,21 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import SourceList from '../../components/SourceList.astro';
-import LibraryRules from '../../components/LibraryRules.astro';
-import PublishedLinks from '../../components/PublishedLinks.astro';
-import { races } from '../../data/public/races';
-import { classes } from '../../data/public/classes';
-export function getStaticPaths() { return races.map((entry) => ({ params: { id: entry.id }, props: { entry } })); }
-const { entry } = Astro.props;
+import RaceEntry from '../../components/RaceEntry.astro';
+import {races} from '../../data/public/races';
+export function getStaticPaths(){return races.map(entry=>({params:{id:entry.id},props:{entry}}));}
+const {entry}=Astro.props;
 ---
-<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><article class="library-entry"><h1>{entry.nameZh} <small>{entry.nameEn}</small></h1>
-<p class="library-source-note">速查摘要以 {entry.source[0].book} 为基础。下列各书正文分别注明补充、地区变体与可选规则；职业资格和等级上限应按所用战役版本取用。</p><div class="table-wrap"><table class="data-table compact"><tbody>
-<tr><th>属性调整</th><td>{entry.modifiers}</td></tr><tr><th>移动</th><td>{entry.movement}</td></tr>
-<tr><th>语言</th><td>{entry.languages}</td></tr><tr><th>豁免</th><td>{entry.savingThrows}</td></tr>
-<tr><th>侦察</th><td>{entry.detection}</td></tr>
-</tbody></table></div>
-<h2>可选职业与等级上限</h2><div class="table-wrap"><table class="data-table compact"><thead><tr><th>职业</th><th>等级上限</th></tr></thead><tbody>{entry.eligibleClasses.map(({ id, limit }) => <tr><td><a href={`/classes/${id}/`}>{classes.find((item) => item.id === id)?.nameZh ?? id}</a></td><td>{limit}</td></tr>)}</tbody></table></div>
-<p>此表沿用条目基础来源；UA 等书的扩展与各地种族限制见下方对应正文，部分上限另受属性值影响。</p>
-<h2>多职业</h2><p>{entry.multiclass.join(' · ')}</p>
-<h2>种族能力</h2><ul>{entry.abilities.map((ability) => <li>{ability}</li>)}</ul>
-<LibraryRules details={entry.details} /><PublishedLinks kind="race" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/races">← 返回种族</a></p></article></BaseLayout>
+<BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><RaceEntry entry={entry} /></BaseLayout>

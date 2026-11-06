@@ -19,7 +19,7 @@ for(const topic of topics){
  }
  const rendered=(await processor.render(raw)).code.replace(/<h[1-6]\b[^>]*>第\s*\d+\s*页[^<]*<\/h[1-6]>/g,'');
  // Older translations use bold bilingual labels in place of headings.
- const structured=rendered.replace(/<(?:strong|b)>([^<]{2,100})<\/(?:strong|b)>/gi,(tag,label)=> /[\u3400-\u9fff].*?[A-Z][a-z]/.test(label) && !/[;；，:：]/.test(label) && !/XP|AC|DMG|PHB/.test(label) ? `<h4>${label.replace(/[。.:：]$/,'')}</h4>` : tag);
+ const structured=rendered.replace(/<p>\s*<(?:strong|b)>([^<]{2,100})<\/(?:strong|b)>\s*<\/p>/gi,(tag,label)=> /[\u3400-\u9fff].*?[A-Z][a-z]/.test(label) && !/[;；，:：]/.test(label) && !/XP|AC|DMG|PHB/.test(label) ? `<h4>${label.replace(/[。.:：]$/,'')}</h4>` : tag);
  const heads=[...structured.matchAll(/<h([1-6])\b([^>]*)>([\s\S]*?)<\/h\1>/g)].map(m=>({level:+m[1],start:m.index,end:m.index+m[0].length,title:text(m[3]),anchor:m[2].match(/id="([^"]+)"/)?.[1]??''}));
  const blocks=heads.map((h,i)=>({...h,origin:[...structured.slice(0,h.start).matchAll(/<!-- library-topic=([^ ]+) -->/g)].at(-1)?.[1]??topic.slug,html:structured.slice(h.end,heads.slice(i+1).find(n=>n.level<=h.level)?.start??structured.length)}));
  out.push({book:topic.book,slug:topic.slug,title:topic.title,sourceFile:topic.sourceFile,html:structured,blocks});

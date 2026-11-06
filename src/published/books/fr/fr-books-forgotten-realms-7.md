@@ -6,7 +6,15 @@ bless、command、cure light wounds、detect magic、remove fear、augury、chan
 
 ### Holy Flail（神圣连枷，咒法／变化）
 
-<strong>等级：</strong>3。<strong>射程：</strong>接触。<strong>持续时间：</strong>每等级 1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>6 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>3<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>施法牧师呼唤自己的神祇，将自己的圣徽，或另一名生物手中、由该牧师触摸的任意非刃武器，暂时变成一把魔法神圣连枷。在每个牧师经验等级 1 轮的时间里，圣徽或变形后的武器会变成一条附着在坚硬握柄上的蛇形柔性力场：这是一把不可见、噼啪作响的灵体连枷，战斗中使用时命中获得 +2，并就命中目的而言被视为魔法武器。
 
@@ -18,9 +26,17 @@ bless、command、cure light wounds、detect magic、remove fear、augury、chan
 
 ### Reveal（揭示，预言；可逆）
 
-<strong>等级：</strong>4。<strong>射程：</strong>接触。<strong>持续时间：</strong>4 轮。<strong>作用范围：</strong>视线 12 英寸。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>7 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>4 轮<br>
+<strong>影响范围 Area of Effect：</strong>视线 12 英寸<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>7 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
-<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上 symbol、glyph of warding、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如 magic mouth、Mordenkainen’s faithful hound、Leomund’s trap、Nystul’s magic aura、hallucinatory terrain、wall of force）。法术不会给出魔法性质的确切线索，但防护圈、symbol 和 glyph 可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
+
+<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上 symbol、glyph of warding、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如 magic mouth、莫登凯南（Mordenkainen）’s faithful hound、Leomund’s trap、诺斯图（Nystul）’s magic aura、hallucinatory terrain、wall of force）。法术不会给出魔法性质的确切线索，但防护圈、symbol 和 glyph 可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
 
 reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astral silver cord），不论其是否处于激活状态；但它不会显示星界、以太位面或隐形的生物与物品。与 true seeing 不同，它不会显示生物的灵光，也不会把变形或受魔法改变的事物显示成其真正形态（不过，例如幻术本身的魔法性质会被看见），也不会显示它们曾经的形态。
 
@@ -32,7 +48,15 @@ reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astr
 
 ### Bladebless（刃赐，死灵）
 
-<strong>等级：</strong>7。<strong>射程：</strong>特殊。<strong>持续时间：</strong>永久。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 轮。<strong>豁免：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
+
 
 <strong>说明／描述：</strong>牧师以此法术祝福造成伤口的武器，从而治愈一处特定伤口。本魔法只对非魔法的有刃武器生效；牧师必须触摸并握住它，同时吟诵祝福。施法完成后，在每个牧师经验等级 1 轮的时间范围内，由该刀刃造成的最后一处伤口（只要确实曾造成伤口，并且伤及任何活物）会立刻完全治愈，即使刀刃带毒、传播疾病，或造成肢体、头部断裂也一样。即使受影响的生物与施法牧师相隔数个位面，治疗也会发生；如果死亡是由于 system shock 检定失败或毒物豁免失败造成的，生命也会恢复。（如果死亡来自累计生命值损失，则不会复生；本魔法也不会治愈受害者身上的其他伤口。）
 
@@ -40,7 +64,15 @@ reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astr
 
 ### Sacred Link（神圣链接，塑能／变化）
 
-<strong>等级：</strong>7。<strong>射程：</strong>接触。<strong>持续时间：</strong>特殊。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>2 轮。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>2 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>要建立神圣链接，牧师必须把将要链接的两件物品握在手中，然后施放法术。两件物品必须由相同材料制成、尺寸大致相同；它们不能是活着的生物，最好还应几乎完全相同（例如配对的剑、卷轴、小雕像等）。神圣链接会在两件物品之间建立不可见的魔法纽带；两件物品都会散发极其微弱的魔法灵光。虽然这条链接不是可以循迹的实体通道或绳线，但发生在一件物品上的事情也会发生在另一件上，即使二者相隔无数个位面或任何距离。
 
@@ -70,17 +102,25 @@ The Alcaister 有杀死读者的传统：读者越读越多，便越发虚弱，
 
 ### 内容
 
-The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法 cut、gallop 和 sting（均在下文描述）；法术 affect normal fires、charm person、dancing lights、erase、hold portal、identify、magic missile、protection from evil、read magic、spider climb、audible glamer、ESP、fools gold、locate object、magic mouth、mirror image、rope trick、wizard lock、clairaudience、dispel magic、flame arrow、gust of wind、haste、hold person、infravision、slow、water breathing、charm monster、dimension door、ice storm、remove curse、wizard eye、Bigby’s interposing hand、cone of cold、feeblemind、anti-magic shell、death spell、geas、reconstruction（独有法术，见下文）、reverse gravity、simulacrum，以及 body sympathy（独有法术，见下文）。
+The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法 cut、gallop 和 sting（均在下文描述）；法术 affect normal fires、charm person、dancing lights、erase、hold portal、identify、magic missile、protection from evil、read magic、spider climb、audible glamer、ESP、fools gold、locate object、magic mouth、mirror image、rope trick、wizard lock、clairaudience、dispel magic、flame arrow、gust of wind、haste、hold person、infravision、slow、water breathing、charm monster、dimension door、ice storm、remove curse、wizard eye、毕格比（Bigby）’s interposing hand、cone of cold、feeblemind、anti-magic shell、death spell、geas、reconstruction（独有法术，见下文）、reverse gravity、simulacrum，以及 body sympathy（独有法术，见下文）。
 
 ### Cut（切断，变化）
 
-<strong>作用范围：</strong>1 件物品。<strong>施法时间：</strong>1/10 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 件物品<br>
+<strong>施法时间 Casting Time：</strong>1/10 个分段</div>
+
 
 <strong>说明／描述：</strong>这个有用的戏法可以瞬间切断细薄物体，例如绳、索、精细链条、金属丝、布、蜡烛、香肠等，以及每个施法等级不超过 1 英寸厚的类似物。施法者必须能看见要切的物体，且物体必须在 2 英寸以内。言语成分是轻柔的“嗖咔”声，姿势成分是用两根相邻手指做剪切动作。魔法物品（即使只是暂时被施法附魔的物品）不受此戏法影响。
 
 ### Gallop（疾驰，变化）
 
-<strong>作用范围：</strong>1 个四足生物。<strong>施法时间：</strong>1/2 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 个四足生物<br>
+<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+
 
 <strong>说明／描述：</strong>使用这个有用的戏法时，施法者可以让一只四足生物（若它有智力，则可对抗法术进行豁免；成功即否定戏法）以其最大移动速率移动 1 轮，施法者每等级再增加 1 轮。生物可以被骑乘，也可以不被骑乘；它会沿施法者指向的方向直线移动，不顾坐骑、骑手或施法者的意愿。如果路线通向陷阱、坑或悬崖，坐骑或其上的任何骑手可以进行一次 +3 的对抗法术豁免；成功时，生物会在最后一刻转向，随后按照地形要求自由绕行，直至戏法结束。
 
@@ -88,7 +128,11 @@ The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法
 
 ### Sting（刺痛，变化）
 
-<strong>作用范围：</strong>1 个生物。<strong>施法时间：</strong>1/2 个分段。
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+
 
 <strong>说明／描述：</strong>这个作用于人的戏法能以轻微方式伤害最远 4 英寸外的单个生物：施法者发出嗡嗡声，把伸出的手指指向自己解剖学上的某个部位，就会令目标相应部位出现短暂（2 个分段）但强烈的疼痛，除非目标对抗法术成功。
 
@@ -96,7 +140,15 @@ The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法
 
 ### Reconstruction（重构，变化／幻术）
 
-<strong>等级：</strong>6。<strong>射程：</strong>接触。<strong>持续时间：</strong>1 轮 + 每等级 1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 轮。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 轮 + 每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>本法术可以暂时修复或使破碎的物品恢复完整，即使物品已经严重碎裂或缺少部分。物品会恢复成破碎前的样子，甚至包括气味、重量、坚实度、敲击时的声音和质地；在普通检查下，它看起来完整无损。detect magic 会显示法术灵光，而 gem of seeing 或 true seeing 会把幻术显示为幻术，但物品仍可被触摸和使用——例如，绳子或木杆可以承重或固定物品，武器可以用来打击等——通常无需驱散幻术，使用效果就如同物品真的完整。
 
@@ -110,7 +162,15 @@ The Alcaister 的四十六页每页一项铭文，内容依次为：独有戏法
 
 ### Body Sympathy（身体共鸣，死灵）
 
-<strong>等级：</strong>8。<strong>射程：</strong>特殊。<strong>持续时间：</strong>每等级 1 turn。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S。<strong>施法时间：</strong>8 个分段。<strong>豁免：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>每等级 1 turn<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S<br>
+<strong>施法时间 Casting Time：</strong>8 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
+
 
 <strong>说明／描述：</strong>这是由魔法使用者对敌人施放的“描述”法术；敌人必须在魔法使用者的视线内，并被其集中注意，或虽不在视线内、但被施法者在脑中想象出来。施法者必须在施法时说出目标生物的真名（见《Unearthed Arcana》的 truename 法术）。它会把魔法使用者与选定的受害者连接起来；受害者必须以 -4 罚值对抗法术豁免，以避开法术效果。
 
@@ -136,9 +196,9 @@ The Alcaister 的最后一页（带有前文所述符文的那一页）是一道
 
 被传送的生物必须在念出激活词时用裸手握住 The Alcaister，才能把书一同带走；否则书会留在 Prime Material Plane 上。（如果传送门被用于 Prime Material Plane 以外的位面，书总会与生物一同返回。）
 
-## Aubayreer 的工作册（Aubayreer’s Workbook）开头
+## 奥贝雷尔的工作册（Aubayreer’s Workbook）开头
 
-原书下一页开始介绍 Aubayreer 的工作册：它由一长条绿色树皮折叠成手风琴状，夹在两块涂油木板之间，以麻绳固定；木板上刻有 Aubayreer 的符文。由于该书在页面末端开始，下一主题继续收录其历史、冰雹锥、phase trap 以及后续法术。
+原书下一页开始介绍 奥贝雷尔（Aubayreer） 的工作册：它由一长条绿色树皮折叠成手风琴状，夹在两块涂油木板之间，以麻绳固定；木板上刻有 奥贝雷尔的符文。由于该书在页面末端开始，下一主题继续收录其历史、冰雹锥、phase trap 以及后续法术。
 
-原书 PDF 第182–185页（印刷页82–85）；保留《战争之红书》的标准祷文表、Holy Flail、Reveal／Conceal、Bladebless、Sacred Link、The Alcaister 的书籍毒素、独有戏法、Reconstruction、Body Sympathy 与 gate page 的完整 d100 目的地表，并挂载对应原页图。
+出处：原书 PDF 第182–185页（印刷页82–85）。
 

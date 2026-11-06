@@ -259,13 +259,29 @@ Hsssthak 守护的两卷黄金卷轴包含以下两种法术：
 
 #### 唤醒智能
 
-<strong>等级：</strong>1；<strong>范围：</strong>接触；<strong>持续时间：</strong>永久；<strong>作用范围：</strong>1 个生物；<strong>法术成分：</strong>V、S、M；<strong>施法时间：</strong>4 段；<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>1；<br>
+<strong>距离 Range：</strong>接触；<br>
+<strong>持续时间 Duration：</strong>永久；<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物；<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>4 段；<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 使无感知生物获得感知（掷 3d6 决定智力），或者使已有感知的生物智力提高 2d6 点。需要通过系统震慑检定才能承受它的效果。除非通过变兽术把唤醒后的智能“锁定”进生物的遗传构造，否则这种智能不会传给后代。材料成分是一条干鱼和一块脑珊瑚。
 
 #### 改造野兽
 
-<strong>等级：</strong>8；<strong>范围：</strong>接触；<strong>持续时间：</strong>永久；<strong>作用范围：</strong>1 个生物；<strong>法术成分：</strong>V、S、M；<strong>施法时间：</strong>1 轮；<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>8；<br>
+<strong>距离 Range：</strong>接触；<br>
+<strong>持续时间 Duration：</strong>永久；<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物；<br>
+<strong>成分 Components：</strong>V、S、M；<br>
+<strong>施法时间 Casting Time：</strong>1 轮；<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 允许施法者修改所选生物的身体形态。这可以是把爪改成手，使四足动物获得直立的双足姿态，提高大脑容量，等等。法术造成的改变会影响生物的遗传构造，并且永久存在。如果生物与原本物种相同、但经过相同改变的生物交配，改变可以传给后代。只有有限愿望或完全愿望才能逆转法术效果。每次使用此法术都要求进行系统震慑生存检定。材料成分是 16 股拧成双螺旋的粗金丝。
 

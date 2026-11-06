@@ -3,3 +3,20 @@
 .library-picker-mode body,.library-embedded body{display:block!important}.library-embedded .entry-meta{min-width:0;width:100%;font-size:15px}.library-embedded .entry-meta dt{min-width:90px}.library-embedded .entry-meta dd{min-width:0}.library-rule button[data-copy-citation]{font-size:13px;margin-left:8px}
 
 .library-list th button{border:0;background:none;padding:0;font:inherit;text-align:left;color:inherit}.library-list th button:hover{text-decoration:underline}.library-list th[aria-sort="ascending"] button::after{content:" ↑"}.library-list th[aria-sort="descending"] button::after{content:" ↓"}
+
+/* Character rule tables use the same reading size as their surrounding text. */
+.identity-entry{font-size:var(--rules-font-size,17px);line-height:1.8;min-width:0}
+.identity-entry :is(.data-table,.data-table.compact,.rule-body table){font-size:inherit;line-height:1.65}
+.identity-entry :is(td,th){font-size:inherit}
+.identity-entry .rule-body table{display:table;width:100%;min-width:0;max-width:100%;table-layout:fixed}
+.identity-entry .table-wrap{max-width:100%;overflow-x:auto}
+.identity-entry .rule-body :is(td,th){padding:7px 10px}
+.identity-entry :is(td,th){white-space:normal;overflow-wrap:anywhere;min-width:0}
+@media(max-width:700px){.identity-entry{font-size:17px}}
+
+/* Reading tables wrap within the page, including long English labels and rules. */
+.library-entry .rule-body table,.book-body table,.book-body .scroll-table table{display:table;width:100%!important;table-layout:fixed;max-width:100%;min-width:0!important}
+.library-entry .rule-body :is(th,td),.book-body :is(th,td){min-width:0!important;white-space:normal;overflow-wrap:anywhere;word-break:normal}
+.library-entry .rule-body,.book-body .scroll-table{overflow-x:visible}
+
+.identity-entry .library-source-note{font-size:inherit}

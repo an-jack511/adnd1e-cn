@@ -1,24 +1,32 @@
-## Aubayreer 的工作册（Aubayreer’s Workbook）
+## 奥贝雷尔的工作册（Aubayreer’s Workbook）
 
 ### 外观
 
-这本书由一长条绿色的 hexel 树皮制成，反复折叠成手风琴状。它被夹在两块长方形涂油木板之间，以麻绳固定并保护。木板之一刻有如下符文；正是凭借这个符文，才能辨认出这本作品属于法师 Aubayreer。
+这本书由一长条绿色的 hexel 树皮制成，反复折叠成手风琴状。它被夹在两块长方形涂油木板之间，以麻绳固定并保护。木板之一刻有如下符文；正是凭借这个符文，才能辨认出这本作品属于法师 奥贝雷尔（Aubayreer）。
 
 ### 历史与描述
 
-Aubayreer 是谷地诸国定居早期的一名法师，后来向东航行到如今的 Aglarond，并在那里建立了延续至今的巫师统治王朝。Aubayreer 作为 Aglarond 的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为 Covenant 的法师学徒时编成的原始工作册（见下文）已经遗失。
+奥贝雷尔 是谷地诸国定居早期的一名法师，后来向东航行到如今的 Aglarond，并在那里建立了延续至今的巫师统治王朝。奥贝雷尔 作为 Aglarond 的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为 Covenant 的法师学徒时编成的原始工作册（见下文）已经遗失。
 
-在 Aubayreer 的孙子 Lurskas 统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在 Aglarond 东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之 Nuzar）的活动报告暗示，他们读过 Aubayreer 的工作册，或至少读过 Aubayreer 创作、使这本书成名的两道法术的抄本。
+在 奥贝雷尔的孙子 卢尔斯卡斯（Lurskas） 统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在 Aglarond 东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之 努扎尔（Nuzar））的活动报告暗示，他们读过 奥贝雷尔的工作册，或至少读过 奥贝雷尔 创作、使这本书成名的两道法术的抄本。
 
-Aglarond 王室一直不懈地寻找工作册，这证明它仍然存在。如今的统治者、被称为“变形魔后”的 Simbul，据说曾杀死法师 Thanatus，并在试图夺取工作册时洗劫 Mirrorstar 的魔法学校图书馆。Aubayreer 唯一的学徒、如今已经死去的法师 Nytholops，在 Chronicles 中记录了工作册的内容；正是从这本书（而不是其他来源）开始，Aubayreer 传授给他魔法之艺。
+Aglarond 王室一直不懈地寻找工作册，这证明它仍然存在。如今的统治者、被称为“变形魔后”的 欣布（Simbul），据说曾杀死法师 萨纳图斯（Thanatus），并在试图夺取工作册时洗劫 镜星（Mirrorstar） 的魔法学校图书馆。奥贝雷尔 唯一的学徒、如今已经死去的法师 尼索洛普斯（Nytholops），在 Chronicles 中记录了工作册的内容；正是从这本书（而不是其他来源）开始，奥贝雷尔 传授给他魔法之艺。
 
 ### 内容
 
-Aubayreer 的工作册有（或曾有）18 个折叠树皮表面。最前面的一面通常为空白；需要时，它可以作为 explosive runes、symbols 等各种防护魔法的施法表面。接下来的 14 个表面依次写有 read magic、burning hands、dancing lights、enlarge、identify、light、message、write、ESP、wizard lock、dispel magic、explosive runes、fireball 和 extension I。然后是三个特殊法术：hailcone（Aubayreer 版本的 ice storm），以及两道独有法术 Aubayreer’s phase trap 和 thunderlance。
+奥贝雷尔的工作册有（或曾有）18 个折叠树皮表面。最前面的一面通常为空白；需要时，它可以作为 explosive runes、symbols 等各种防护魔法的施法表面。接下来的 14 个表面依次写有 read magic、burning hands、dancing lights、enlarge、identify、light、message、write、ESP、wizard lock、dispel magic、explosive runes、fireball 和 extension I。然后是三个特殊法术：hailcone（Aubayreer 版本的 ice storm），以及两道独有法术 奥贝雷尔’s phase trap 和 thunderlance。
 
 ### Hailcone（冰雹锥，塑能）
 
-<strong>等级：</strong>4。<strong>射程：</strong>施法者每等级 1 英寸。<strong>持续时间：</strong>1 轮。<strong>作用范围：</strong>直径 3 英寸的锥体。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>6 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>施法者每等级 1 英寸<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>直径 3 英寸的锥体<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>施法者以一撮尘土（一两粒谷物或少量沙子即可）和几滴水为材料，使大颗冰雹（直径 2 英寸以上）从位于地面或指定目标上方 3 英寸的焦点处向下倾泻，形成底部直径 3 英寸的锥形区域。作用范围内的生物受到 3–30 点伤害；暴露的物品必须对 crushing blow 进行豁免，才能不受损坏。
 
@@ -26,7 +34,15 @@ Aubayreer 的工作册有（或曾有）18 个折叠树皮表面。最前面的�
 
 ### Phase Trap（相位陷阱，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>2 英寸。<strong>持续时间：</strong>施法者每等级 1 轮。<strong>作用范围：</strong>1 个生物。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>3 个分段。<strong>豁免：</strong>否定。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>2 英寸<br>
+<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>3 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>否定</div>
+
 
 <strong>说明／描述：</strong>施法者通过一个词、一种姿势，并把一颗价值至少 50 gp 的小型透明无色宝石抛入空中（宝石会在空中消耗），影响 2 英寸半径内任何拥有改变相位能力的目标生物——也就是能进入星界或以太位面的生物。如果范围内没有这样的生物，就什么也不会发生，法术与宝石都会失去。
 
@@ -44,7 +60,15 @@ Xorn、xaren，以及任何能穿过固体物质“改变相位”的生物，�
 
 ### Thunderlance（雷枪，塑能）
 
-<strong>等级：</strong>4。<strong>射程：</strong>接触。<strong>持续时间：</strong>见下文。<strong>作用范围：</strong>1 个生物。<strong>成分：</strong>V、S。<strong>施法时间：</strong>4 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>见下文<br>
+<strong>影响范围 Area of Effect：</strong>1 个生物<br>
+<strong>成分 Components：</strong>V、S<br>
+<strong>施法时间 Casting Time：</strong>4 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>施放本法术会从施法者伸出的手指前端产生一根细长、淡灰色、闪烁的力场，向外延伸 2 英寸。这柄“枪”没有重量，也没有实体；但任何生物只要触碰或穿过它的任何部分，雷枪便会伴随一声响雷消失，被击中的生物受到 4–24 点伤害。
 
@@ -56,7 +80,7 @@ Xorn、xaren，以及任何能穿过固体物质“改变相位”的生物，�
 
 雷枪可以穿过火、水（包括冰和雪）以及自然或魔法来源的电击（例如 wall of fire、wall of ice 等现象），而不会放电，因此施法者可以隔着这些现象攻击敌人。完成施法、但雷枪尚未放电的使用者，不会受到 magic missile 伤害，不论飞弹从哪个方向射来；飞弹的力量会无害地穿过雷枪使用者，被雷枪吸收，并在雷枪放电时使其伤害增加每枚飞弹 2–5 点。如果雷枪使用者有其他针对 magic missile 的魔法防护，就不会发生这种吸收。雷枪不会防护其他形式的魔法攻击，也不能把雷枪交给其他生物；任何盟友都不能代替施法者使用它，否则雷枪会放电。
 
-## Orjalun 的《Arbatel》
+## 奥贾伦的《Arbatel》 Orjalun
 
 ### 外观
 
@@ -64,21 +88,29 @@ Xorn、xaren，以及任何能穿过固体物质“改变相位”的生物，�
 
 ### 历史与描述
 
-Orjalun 是北方早期银月城的白发大法师，如今被认为已经死亡。他监督并深度参与了这部作品的建造，原本的设计目标是永久保存他能提供的最有用防御法术，为这座心爱的城市未来的安全与防护服务。然而它从未发挥这种作用：Orjalun 把官杖交给选定的继承人 Sepur 后离城，Sepur 显露出真实本性，带走了《Arbatel》和官杖，也离开了那座美丽的城市。
+奥贾伦（Orjalun） 是北方早期银月城的白发大法师，如今被认为已经死亡。他监督并深度参与了这部作品的建造，原本的设计目标是永久保存他能提供的最有用防御法术，为这座心爱的城市未来的安全与防护服务。然而它从未发挥这种作用：奥贾伦 把官杖交给选定的继承人 Sepur 后离城，Sepur 显露出真实本性，带走了《Arbatel》和官杖，也离开了那座美丽的城市。
 
 Sepur 的命运不明，但贤者 Alphontras 讲述过，他在 Trollmoors 一座孤独、烧焦的塔顶发现了一根折断的法杖。Alphontras 的同事“博学者” Eelombur 首次在 Longsaddle 村见到《Arbatel》，当时它由巫师 Arathur Harpell 持有。Arathur 后来在一场魔法决斗中被死灵法师 Marune 杀死，Marune 只短暂持有《Arbatel》，便在逃离深水城领主追捕时把它遗失在冬雪中。随后十年间，它很可能数次易手，因为北方各类记录中都留下许多暗示。
 
-贤者 Maerlus 曾在这一时期提到它；在他写给国王 Elfrin 的一封信中，他描述了 Elfrin 王国中已知的几件强力物品，并推测它们的所在。《Arbatel》据他说在隐居巫师 Lios 手中——除非 Marune 已经击败 Lios 并重新夺回它。Elminster 认为 Marune 确实杀死了 Lios，但 Marune 从那时到现在的活动表明，尽管他反复尝试，却没有取回《Arbatel》。它最近和当前的下落仍然不明。
+贤者 Maerlus 曾在这一时期提到它；在他写给国王 Elfrin 的一封信中，他描述了 Elfrin 王国中已知的几件强力物品，并推测它们的所在。《Arbatel》据他说在隐居巫师 Lios 手中——除非 Marune 已经击败 Lios 并重新夺回它。伊尔明斯特（Elminster） 认为 Marune 确实杀死了 Lios，但 Marune 从那时到现在的活动表明，尽管他反复尝试，却没有取回《Arbatel》。它最近和当前的下落仍然不明。
 
 ### 内容
 
-Orjalun 受教于 Myth Drannor 七名巫师中最神秘的 The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及 wizard lock 的改良版 secure。
+奥贾伦 受教于 Myth Drannor 七名巫师中最神秘的 The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及 wizard lock 的改良版 secure。
 
 《Arbatel》的第一块和最后一块金属板没有任何内容，以免暴露内部所藏；七块内板各有一项法术（制作方式只能使用金属板的一面）。它们依次是 mending、charm person、encrypt、dispel magic、identify、guards and wards 和 secure。所有常见法术均采用标准《玩家手册》格式，下文重录书中两道独有法术；这些内容据说来自 The Masked 的另一名学徒 Vauth 的书。
 
 ### Encrypt（加密，幻术／幻象）
 
-<strong>等级：</strong>4。<strong>射程：</strong>1 英寸 + 施法者每等级 1 英寸。<strong>持续时间：</strong>永久。<strong>作用范围：</strong>见下文。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>4 个分段（另加书写时间）。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>1 英寸 + 施法者每等级 1 英寸<br>
+<strong>持续时间 Duration：</strong>永久<br>
+<strong>影响范围 Area of Effect：</strong>见下文<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>4 个分段（另加书写时间）<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>通过本法术，写在羊皮纸、石头或类似表面上的普通信息，只要不超过 66 个字符或字母（约十五个英文词），就能变得无法阅读；除了施法者、信息中点名的任何生物（无论施法者是否希望它们能读），以及一个指定的接收者外，其他生物都无法读懂它，包括 comprehend languages、read magic 和 true seeing 等魔法也无法读懂。施法时，施法者必须大声说出指定接收者的名字，并在脑中想象该生物。
 
@@ -98,7 +130,15 @@ true seeing 可以清楚显示 encrypt 灵光的轮廓，但不能让信息被�
 
 ### Secure（封护，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>接触。<strong>持续时间：</strong>见下文。<strong>作用范围：</strong>施法者每等级 30 平方英尺。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>6 个分段。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>见下文<br>
+<strong>影响范围 Area of Effect：</strong>施法者每等级 30 平方英尺<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 个分段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 <strong>说明／描述：</strong>施法者以一小块铁（或铁屑）、一粒微小宝石（或等量的宝石碎片／宝石粉末），可以使一道门、一个箱子或一处通道得到 secure。被封护的物品或区域无法以任何方式打开或穿过，除非直接摧毁物品或区域，或用恰当措辞施放 dispel magic、limited wish、alter reality 等法术；如果通常允许对该类魔法进行豁免，则受影响者也有资格进行豁免。
 
@@ -110,7 +150,7 @@ true seeing 可以清楚显示 encrypt 灵光的轮廓，但不能让信息被�
 
 会被反射的魔法包括但不限于 enlarge、reduce、levitate、shatter、dig、passwall、stone shape、transmute rock to mud、move earth、stone to flesh、vanish、turn wood 和 animate rock。如果魔法不影响活物（例如 animate rock 或 move earth），则该次使用只会被抵抗；这类力量会从被封护区域的边缘反弹回来。由使用者直接控制的力量（例如灵能或类法术自然力量，但不是施法）不会对被封护区域或物品生效，但该力量仍计为已经使用。在所有可能把魔法“反射”回使用者的情况中，若该类型魔法通常允许豁免，所有可能受到影响的人都有资格豁免。
 
-light 类魔法、magic mouth、Nystul’s magic aura 和 Leomund’s trap 不能在封护区域内施放，也不能施放在封护区域的任何表面上。在封护区域内任何表面写下的 glyph of warding、explosive runes 或 symbol，会在完成时立即放出，可能伤害书写者、同伴或附近其他生物。摧毁被封护区域的 disintegrate 会以抵消 secure 法术的方式生效。glassee 对被封护区域有正常效果。find traps 不会揭示 secure 法术的存在，但 detect magic 会显示其灵光。幻术与其他遮蔽法术可以成功施放在被封护区域上。
+light 类魔法、magic mouth、诺斯图（Nystul）’s magic aura 和 Leomund’s trap 不能在封护区域内施放，也不能施放在封护区域的任何表面上。在封护区域内任何表面写下的 glyph of warding、explosive runes 或 symbol，会在完成时立即放出，可能伤害书写者、同伴或附近其他生物。摧毁被封护区域的 disintegrate 会以抵消 secure 法术的方式生效。glassee 对被封护区域有正常效果。find traps 不会揭示 secure 法术的存在，但 detect magic 会显示其灵光。幻术与其他遮蔽法术可以成功施放在被封护区域上。
 
 ## The Scalamagdrion 开头
 
@@ -120,9 +160,9 @@ light 类魔法、magic mouth、Nystul’s magic aura 和 Leomund’s trap 不�
 
 ### 历史与描述
 
-The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给 Myth Drannor 七名巫师之一 Hym Kraaven，以换取魔法训练。不久后 Hethcanter 的文字记录中断；如今人们主要记得他曾被近二十名 illithid 追赶，便从后来称为 Hethcanter’s Leap 的峭壁最高处跳下自尽。贤者 Orfidel 认为这些被他痛恨的生物是在寻找 The Scalamagdrion，贤者 Elminster 也赞同这一看法。
+The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给 Myth Drannor 七名巫师之一 Hym Kraaven，以换取魔法训练。不久后 Hethcanter 的文字记录中断；如今人们主要记得他曾被近二十名 illithid 追赶，便从后来称为 Hethcanter’s Leap 的峭壁最高处跳下自尽。贤者 Orfidel 认为这些被他痛恨的生物是在寻找 The Scalamagdrion，贤者 伊尔明斯特 也赞同这一看法。
 
-Hym Kraaven 从未在 Myth Drannor 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。Hillsfar 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 Laeral，二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。Laeral 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
+Hym Kraaven 从未在 Myth Drannor 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。Hillsfar 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 莱拉（Laeral），二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。莱拉 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
 
-原书 PDF 第186–189页（印刷页86–89）；保留 Aubayreer 工作册的外观与失窃史、Hailcone、Phase Trap、Thunderlance、Orjalun《Arbatel》、Encrypt、Secure，以及《The Scalamagdrion》的外观和历史开头，并挂载对应原页图。
+出处：原书 PDF 第186–189页（印刷页86–89）。
 

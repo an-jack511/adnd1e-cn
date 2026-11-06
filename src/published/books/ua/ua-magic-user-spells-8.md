@@ -6,12 +6,14 @@
 
 ## 束缚术 Binding（附魔／塑能系 Enchantment-Evocation）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 8 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 1″ | 施法时间 | 特殊 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>特殊<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 捕获一名来自下层位面的生物。目标必须<strong>先被某种拘束阵图困住</strong>。束缚能持续多久，取决于束缚形式、施法者的有效等级，以及实际诵念的时间。施法者须从卷轴或书页连续诵读咒文，并做出对应形式的手势；材料视形式而异，例如以特殊金属制作的小锁链（恶魔用铁、魔鬼用银、冥界属下用镍等）、罕见的催眠草药、每目标生命骰价值 <strong>1,000 金币</strong>的大钻石或刚玉，以及绘有目标的羊皮纸或雕刻小像。
 
@@ -32,38 +34,44 @@
 
 ## 强求术 Demand（塑能／附魔与魅惑系 Evocation-Enchantment/Charm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 8 | 法术成分 | 言语、姿势（原书数值栏） |
-| 距离 | 特殊 | 施法时间 | 1 回合 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>特殊<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>言语、姿势（原书数值栏）<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 基本作用与*传讯术*相同，但施法者可在讯息中加入相当于*暗示术*的要求。目标若对法术豁免失败，便会尽力照办。若该要求按目标收到讯息时的处境来看相对不可能或不合情理，它仍能理解讯息，但无需豁免，暗示也不起效。
 
 <strong>原书正文</strong>另列材料成分：两根各有一端开口、用细铜线相连的圆筒，以及目标身上的少量部分，如头发或指甲。数值栏与正文不一致，游戏时由地下城主裁定。
 
-## 奥提路克的念动球 Otiluke's Telekinetic Sphere（塑能／变化系 Evocation-Alteration）
+## 欧提路克的念动球 Otiluke's Telekinetic Sphere（塑能／变化系 Evocation-Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 8 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 2″ | 施法时间 | 4 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 成功则无效 |
-| 影响范围 | 每施法者等级直径增加 <strong>1 尺</strong>的球体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>2″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>每施法者等级直径增加 <strong>1 尺</strong>的球体<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>4 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
-作用与四环*奥提路克的韧性球*相同，另使球内物体的有效重量仅为实际的 <strong>1/16</strong>。施法者可用念动力托举球内实际重量<strong>不超过 5,000 磅</strong>的目标；包住目标后，操控距离最长为每施法者等级 <strong>1″</strong>。即使球内总重超过 5,000 磅，有效重量仍是十六分之一，因此可以不费特别力气地滚动球体。
+作用与四环*欧提路克的韧性球*相同，另使球内物体的有效重量仅为实际的 <strong>1/16</strong>。施法者可用念动力托举球内实际重量<strong>不超过 5,000 磅</strong>的目标；包住目标后，操控距离最长为每施法者等级 <strong>1″</strong>。即使球内总重超过 5,000 磅，有效重量仍是十六分之一，因此可以不费特别力气地滚动球体。
 
 由于重量降低，球内物体的快速运动或坠落相对无害；若球体在高空硬质地面上方消失，则可能酿成灾难。除*韧性球*的材料成分外，还需一对小条形磁铁。
 
 ## 沉陷术 Sink（附魔／变化系 Enchantment-Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 8 | 法术成分 | 言语、姿势 |
-| 距离 | 每级 1″ | 施法时间 | 8 段 |
-| 持续时间 | 特殊 | 豁免 | 特殊 |
-| 影响范围 | 一个生物，或每施法者等级 <strong>1 立方英尺</strong>的物体 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>8<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>一个生物，或每施法者等级 <strong>1 立方英尺</strong>的物体<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>8 段<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
 
 施法者须不受打断地诵念前 <strong>4 段</strong>。此时目标被固定在原地，并取得脚下表面的密度，除非生物对法术豁免成功，或有魔法性质的物体对解离豁免成功。普通非魔法物体无权豁免。这里的“魔法性质”包括魔法物品、受附魔或具有魔法来源的物品，以及受防护法术、永久魔法或类似法术作用的物品。
 

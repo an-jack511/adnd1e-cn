@@ -5,6 +5,7 @@ import Repeater from '../../components/Ref2Repeater.astro';
 import type {Column} from '../../components/Ref2Row.astro';
 import { classes } from '../../data/public/classes';
 import { races } from '../../data/public/races';
+import {itemSelectionKind} from '../../utils/item-selection';
 import { items } from '../../data/public/items';
 import '../../styles/ref2.css';
 const abilities=[['STR','力量'],['INT','智力'],['WIS','感知'],['DEX','敏捷'],['CON','体质'],['CHA','魅力']];
@@ -13,7 +14,7 @@ const raceOptions=races.filter(entry=>!entry.referenceOnly).map(race=>({value:ra
 const classOptions=classes.filter(entry=>!entry.referenceOnly).map(entry=>({value:entry.id,label:entry.nameZh}));
 const armorOptions=items.filter(item=>item.category==='护甲与盾牌'&&!/盾|头盔|胄|头巾/.test(item.nameZh)).map(item=>({value:item.id,label:`${item.nameZh} · ${item.source[0].book}`}));
 const shieldOptions=items.filter(item=>item.category==='护甲与盾牌'&&/盾/.test(item.nameZh)).map(item=>({value:item.id,label:`${item.nameZh} · ${item.source[0].book}`}));
-const weaponOptions=items.filter(item=>!item.catalogHidden&&(item.category==='武器'||item.subCategory==='武器')).flatMap(item=>{const label=`${item.nameZh} · ${item.nameEn} · ${item.source[0].book}`;return [{value:item.id,label:label+(item.weaponCombat?.handHeld&&item.weaponCombat?.missile?' · 手持':'')},...(item.weaponCombat?.handHeld&&item.weaponCombat?.missile?[{value:`${item.id}::missile`,label:label+' · 投掷／射击'}]:[])];});
+const weaponOptions=items.filter(item=>!item.catalogHidden&&itemSelectionKind(item)==='weapons').flatMap(item=>{const label=`${item.nameZh} · ${item.nameEn} · ${item.source[0].book}`;return [{value:item.id,label:label+(item.weaponCombat?.handHeld&&item.weaponCombat?.missile?' · 手持':'')},...(item.weaponCombat?.handHeld&&item.weaponCombat?.missile?[{value:`${item.id}::missile`,label:label+' · 投掷／射击'}]:[])];});
 const weapons:Column[]=[{key:'name',label:'武器',options:weaponOptions,class:'wide-cell'},{key:'attacks',label:'攻击次数'},{key:'hit',label:'命中／伤害调整',pair:{key:'damage_adj',label:'伤害调整'}},{key:'thac0',label:'THAC0'},...Array.from({length:11},(_,index)=>({key:`ac_${10-index}`,label:String(10-index),class:'ac-cell'})),{key:'sm',label:'伤害 S-M／L',pair:{key:'large',label:'对大型目标伤害'}},{key:'notes',label:'射程／特殊',class:'wide-cell'}];
 const unarmed:Column[]=[{key:'style',label:'流派'},{key:'form',label:'攻击形式'},{key:'ac',label:'AC 调整'},{key:'attacks',label:'攻击次数'},{key:'hit',label:'命中／伤害调整',pair:{key:'damage_adj',label:'伤害调整'}},{key:'thac0',label:'THAC0'},{key:'damage',label:'伤害／效果'},{key:'maneuvers',label:'特殊招式'}];
 const gear:Column[]=[{key:'item',label:'物品',list:'equipment-options',class:'wide-cell'},{key:'location',label:'携带位置'},{key:'quantity',label:'数量',type:'number'},{key:'size',label:'体积'}];
@@ -23,17 +24,19 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
 <BaseLayout title="人物卡" description="REF2 风格中文人物卡：属性、战斗、装备、随从与准备法术。">
 <div class="ref2-workspace">
   <header class="card-workspace-heading"><div><h1>人物卡</h1><p>REF2 · 人物记录与法术计划</p></div><p><a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></p></header>
-  <details class="screen-tools"><summary>其他人物工具</summary><p><a href="/character/create/">逐步创建</a> · <a href="/character/sheet/">战役人物档案</a> · <a href="/character/growth/">角色成长</a> · <a href="/character/journal/">战役记录</a> · <a href="/character/dragonlance/">龙枪八人</a></p></details>
+  <p class="screen-tools"><a href="/character/dragonlance/">龙枪八人</a></p>
   <div class="ref2-toolbar" aria-label="人物卡操作">
     <div><button type="button" id="new-character">新建</button><button type="button" id="save-character">保存</button><select id="saved-characters" aria-label="浏览器保存的人物"><option value="">选择已保存的人物</option></select><button type="button" id="load-character">加载</button><button type="button" id="copy-character">另存副本</button></div>
     <div><button type="button" id="export-character">导出 JSON</button><label class="file-button">导入 JSON<input id="import-character" type="file" accept=".json,application/json" /></label><button type="button" id="print-character">打印／导出 PDF</button></div>
   </div>
+  <details class="ref2-print-settings screen-tools"><summary>打印设置</summary><label><input type="checkbox" id="print-monochrome" /> 黑白打印（去除底色）</label><label><input type="checkbox" id="print-compact" checked /> 缩略空白栏目</label><p>按 A4 纵向将正面、背面分别适配一页；记录过多时保留可读字号并续页。准备法术另页。打印不改变保存的人物数据。</p></details>
   <p id="character-status" class="card-status" role="status" aria-live="polite">填写后点击“保存”，或导出 JSON 备份。</p>
   <nav class="ref2-tabs" aria-label="人物卡页面"><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
   <form id="character-form" class="ref2-card" autocomplete="off">
     <input name="character_id" type="hidden" />
     <section class="ref2-paper ref2-front" data-card-panel="front" aria-label="人物卡正面">
       <header class="ref2-paper-head"><div class="ref2-identifiers"><Field name="name" label="人物姓名" class="character-name" /><div class="identity-line"><Field name="alignment" label="阵营" options={[['LG','守序善良'],['NG','中立善良'],['CG','混乱善良'],['LN','守序中立'],['TN','绝对中立'],['CN','混乱中立'],['LE','守序邪恶'],['NE','中立邪恶'],['CE','混乱邪恶']].map(([value,label])=>({value,label}))} /><Field name="race" label="种族" options={raceOptions} /><Field name="class" label="职业" options={classOptions} /><Field name="level" label="等级" type="number" value="1" /></div></div><div class="ref2-wordmark"><img class="ref2-original-logo" src="/images/ref2/adnd-logo.svg" width="1188" height="240" alt="Advanced Dungeons &amp; Dragons" /><span>高级龙与地下城 · 第一版</span><h2>人物记录</h2></div></header>
+      <div class="identity-library-actions"><button type="button" data-open-identity="races">从资料库选择种族</button><button type="button" data-open-identity="classes">从资料库选择职业</button></div>
       <div class="ref2-top-grid">
         <section class="ref2-abilities"><h3>属性 <small>ABILITIES</small></h3>
           {abilities.map(([key,label])=><div class="ability-row"><input name={key} aria-label={`${label}数值`} inputmode="numeric" /><b>{key}<span>{label}</span></b><div data-derived={key} class="ability-derived">—</div></div>)}
@@ -61,7 +64,7 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
       <div class="description-grid"><div><label class="ref2-field"><span>姓名</span><output data-mirror="name"></output></label><Field name="homeland" label="故乡" /><div class="description-pairs"><Field name="sex" label="性别" /><Field name="age" label="年龄" /><Field name="height" label="身高" /><Field name="weight" label="体重" /><Field name="hair" label="发色" /><Field name="eyes" label="瞳色" /></div></div><div><Field name="family" label="家族" /><Field name="liege" label="领主／资助者" /><Field name="social_status" label="社会阶层" /><Field name="birth_rank" label="排行" /><Field name="appearance" label="外貌" /></div><div><Field name="clan" label="种族／氏族" /><Field name="religion" label="宗教" /><Field name="status" label="地位" /><Field name="siblings" label="兄弟姐妹数" type="number" /><Field name="height_weight" label="身高／体重附注" /><Field name="hair_eyes" label="发色／瞳色附注" /></div></div>
       <div class="description-notes"><Field name="personality" label="性格（习惯／恐惧／厌恶／愿望）" type="textarea" rows={3} /><Field name="history" label="经历（塑造人生的事件）" type="textarea" rows={3} /></div>
       <div class="ref2-gear-supplies"><Repeater name="gear" lanes={3} title="装备" english="GEAR" columns={gear} note="note" noteLabel="备注" tone="yellow" /><section class="ref2-supplies"><h3 class="ref2-band yellow">补给 <small>SUPPLIES</small></h3>{[["water","水／酒",20],["rations","口粮",40],["feed","饲料",30]].map(([key,label,count])=><div class="supply-stock"><Field name={`supplies_${key}`} label={String(label)} /><div class="supply-boxes" role="group" aria-label={`${label}消耗记录`}>{Array.from({length:Number(count)},(_,index)=><input type="checkbox" name={`supplies_${key}_${index}`} aria-label={`${label}第 ${index+1} 份已用`} />)}</div></div>)}<p id="encumbrance-result"></p></section></div>
-      <div class="item-library-actions"><button type="button" data-open-item-library="gear">＋ 从装备资料库选取</button><button type="button" data-open-item-library="magic">＋ 从魔法物品资料库选取</button></div><datalist id="equipment-options">{items.filter(item=>item.category!=='魔法物品').map(item=><option value={item.nameZh}>{item.nameEn}</option>)}</datalist>
+      <div class="item-library-actions"><button type="button" data-open-item-library="gear">＋ 从装备资料库选取</button><button type="button" data-open-item-library="magic">＋ 从魔法物品资料库选取</button></div><datalist id="equipment-options">{items.filter(item=>itemSelectionKind(item)==='gear').map(item=><option value={item.nameZh}>{item.nameEn}</option>)}</datalist>
       <div class="ref2-rewards"><section><h3>经验</h3><Field name="xp" label="经验值" /><Field name="experience_notes" label="经验记录" type="textarea" rows={6} /></section><section><h3>财宝</h3><Field name="treasure_coins" label="钱币" type="textarea" rows={2} /><Field name="treasure_gems" label="宝石" type="textarea" rows={2} /><Repeater name="valuables" title="贵重物品" columns={[{key:'name',label:'物品'},{key:'size',label:'体积'},{key:'worth',label:'价值'}]} compact /><Field name="treasure_valuables" label="财宝附注" /></section></div>
       <Repeater name="family" lanes={2} title="家人与重要人物" english="FAMILY" columns={family} tone="orange" /><Field name="family_notes" label="人物关系附注" type="textarea" rows={2} />
       <Repeater name="henchmen" title="随从／动物伙伴" english="HENCHMEN / ANIMAL COMPANIONS" columns={henchmen} note="background" noteLabel="背景" tone="yellow" /><Field name="henchmen" label="随从附注" type="textarea" rows={2} />
@@ -81,6 +84,7 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
   <aside class="ref2-rule-check"><h2>规则检查</h2><p id="rule-status" role="status"></p><ul id="rule-hints"></ul></aside>
   <p class="card-source">版式与栏目：REF2 · Player Character Sheets（1986），PDF 第 3–4 页；法术计划第 5–12 页。</p>
   <dialog id="item-library" aria-label="装备与魔法物品资料库"><header><h2>选取装备与魔法物品</h2><button type="button" id="close-item-library">返回人物卡</button></header><iframe id="item-library-frame" title="选择装备与魔法物品"></iframe></dialog>
+  <dialog id="identity-library" aria-label="种族与职业资料库"><header><h2>选择种族</h2><button type="button" id="close-identity-library">返回人物卡</button></header><iframe id="identity-library-frame" title="选择种族"></iframe></dialog>
   <dialog id="spell-library" aria-label="法术资料库"><header><h2>法术资料库</h2><button type="button" id="close-spell-library">返回人物卡</button></header><iframe title="选择准备法术" id="spell-library-frame"></iframe></dialog>
   <script>import '../../character/ref2/controller';</script>
 </div>

@@ -1,0 +1,23 @@
+---
+import SourceList from '../components/SourceList.astro';
+import LibraryRules from '../components/LibraryRules.astro';
+import PublishedLinks from '../components/PublishedLinks.astro';
+import { classes } from '../data/public/classes';
+import { races } from '../data/public/races';
+import tables from '../data/public/class-tables.json';
+import uaTables from '../data/public/ua-class-tables.json';
+const { entry } = Astro.props;
+const table = ({ ...tables, ...uaTables } as Record<string, { headers: string[]; rows: string[][] }>)[entry.id];
+const requirements = Object.entries(entry.minimumAbilities).map(([score, minimum]) => `${score} ${minimum}`).join('、');
+---
+<article class="library-entry identity-entry"><h1>{entry.nameZh} <small>{entry.nameEn}</small></h1><p>{entry.description}</p>
+<div data-identity-overview><p class="library-source-note">速查摘要以 {entry.source[0].book} 为基础。下列各书正文分别注明补充、地区变体与可选规则；职业资格和等级上限应按所用战役版本取用。</p><div class="table-wrap"><table class="data-table compact"><tbody>
+<tr><th>最低属性</th><td>{requirements}</td><th>主属性</th><td>{entry.primeRequisite}</td></tr>
+<tr><th>生命骰</th><td>{entry.hitDie}</td><th>阵营</th><td>{entry.alignment}</td></tr>
+<tr><th>护甲</th><td>{entry.armor}</td><th>武器</th><td>{entry.weapons}</td></tr>
+<tr><th>施法</th><td colspan="3">{entry.spellcasting}</td></tr>
+<tr><th>可选种族</th><td colspan="3">{entry.eligibleRaces.map((id, index) => <>{index > 0 && ' · '}<a href={`/races/${id}/`}>{races.find((race) => race.id === id)?.nameZh ?? id}</a></>)}</td></tr>
+</tbody></table></div>
+<h2>职业能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul>
+{table ? <><h2>经验等级表</h2><div class="table-wrap"><table class="data-table compact"><thead><tr>{table.headers.map((header) => <th>{header}</th>)}</tr></thead><tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}</tbody></table></div></> : <p class="muted">晋级与职业能力表见下方来源正文。</p>}
+</div><LibraryRules prefix={entry.id} details={entry.details} /><PublishedLinks kind="class" id={entry.id} /><SourceList sources={entry.source} /><p><a href="/classes">← 返回职业</a></p></article>

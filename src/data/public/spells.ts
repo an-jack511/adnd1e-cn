@@ -1,3 +1,4 @@
+import regional from './regional-spells.json';
 import type { Spell } from '../../schemas';
 import imported from './spells-imported.json';
 import uaImported from './ua-spells-imported.json';
@@ -21,4 +22,7 @@ const examples: Spell[] = [
 
 const importedSpells = imported as Spell[];
 const importedIds = new Set(importedSpells.map((spell) => spell.id));
-export const spells: Spell[] = [...importedSpells, ...(uaImported as Spell[]), ...oaSpells, ...ref5Spells, ...dlaSpells, ...ghaSpells, ...examples.filter((spell) => !importedIds.has(spell.id))];
+const legacySpells: Spell[] = [...importedSpells, ...(uaImported as Spell[]), ...oaSpells, ...ref5Spells, ...dlaSpells, ...ghaSpells, ...examples.filter((spell) => !importedIds.has(spell.id))];
+
+const regionalSpells=regional as Spell[];const regionalIds=new Set(regionalSpells.map(spell=>spell.id));
+export const spells:Spell[]=[...legacySpells.filter(spell=>!regionalIds.has(spell.id)),...regionalSpells];

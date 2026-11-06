@@ -1,5 +1,6 @@
 import type {Item} from '../../schemas';
 import {blankRow,type Card,type Row} from './model';
+import {itemSelectionKind} from '../../utils/item-selection';
 export type WeaponMode='handHeld'|'missile';
 export const isWeapon=(item:Item)=>item.category==='武器'||item.subCategory==='武器';
 export function weaponMode(item:Item,requested?:string):WeaponMode {
@@ -15,7 +16,7 @@ export function fillWeapon(row:Row,item:Item,requested?:string){
 }
 /** Change only picker-managed weapon rows, preserving existing overrides and custom rows. */
 export function selectWeapons(card:Card,ids:string[],catalog:readonly Item[]){
- const known=new Map(catalog.filter(isWeapon).map(item=>[item.id,item]));
+ const known=new Map(catalog.filter(item=>itemSelectionKind(item)==='weapons').map(item=>[item.id,item]));
  const selected=new Set(ids.filter(id=>known.has(id)));
  card.rows.weapons=card.rows.weapons.filter(row=>!known.has(row.values.weaponPickerId)||selected.has(row.values.weaponPickerId));
  const existing=new Set(card.rows.weapons.map(row=>row.values.name));

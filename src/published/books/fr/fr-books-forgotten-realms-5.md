@@ -1,8 +1,16 @@
-## Num 的祷告书（续）
+## 努姆的祷告书（续） Num
 
 ### Briartangle（荆棘缠绕，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>每等级 1 英寸（从施法者到选定法术焦点的距离）。<strong>持续时间：</strong>每等级 1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>6 个轮。<strong>豁免：</strong>减半。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>每等级 1 英寸（从施法者到选定法术焦点的距离）<br>
+<strong>持续时间 Duration：</strong>每等级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 个轮<br>
+<strong>豁免检定 Saving Throw：</strong>减半</div>
+
 
 荆棘缠绕会把活灌木或任何下层植被瞬间变成密集、纠缠、最棘手的荆棘，长到 6 英尺高，水平体积为半径 1 英寸的圆，再加上施法者每 2 级增加 1 英寸半径。荆棘可以被强行穿过，但会钩住并拦截其中的飞弹、投掷物和飞行生物。
 
@@ -14,7 +22,15 @@
 
 ### Thorn spray（荆棘喷射，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>1 英寸。<strong>持续时间：</strong>1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>3 个轮。<strong>豁免：</strong>无。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>1 英寸<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>3 个轮<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
+
 
 德鲁伊使自然生长或魔法创造的荆棘、尖刺或棘刺从手中，或 1 英寸内的灌木与休息处中，以力量向外射出。每根荆棘造成 1 点伤害，可在施法轮内飞至 12 英寸，攻击德鲁伊看得见的任意生物或非生物目标。每根荆棘以 +4 命中，如同德鲁伊亲自挥舞，忽略射程减值。
 
@@ -22,7 +38,15 @@
 
 ### Death chariot（死亡战车，塑能／召唤）
 
-<strong>等级：</strong>7。<strong>射程：</strong>1 英寸。<strong>持续时间：</strong>特殊。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 轮。<strong>豁免：</strong>特殊。
+<div class="spell-meta">
+<strong>等级 Level：</strong>7<br>
+<strong>距离 Range：</strong>1 英寸<br>
+<strong>持续时间 Duration：</strong>特殊<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 轮<br>
+<strong>豁免检定 Saving Throw：</strong>特殊</div>
+
 
 施法时雷鸣响起，烟云从施法者身边涌出；烟云中出现一辆由两匹火焰战马拉动的燃烧战车。它在地面速度 24 英寸，飞行速度 48 英寸，可搭载最多九个类人生物，施法者不必在其中。战车热得像火炬。火焰战马会伤害试图靠近者；触碰一匹战马造成 3–24 点火焰伤害，但登车或触碰战车本身不会造成伤害。
 
@@ -32,13 +56,13 @@
 
 战车可以在爆炸前由施法者意志引爆，因此可以提前跳车，安全行驶短距离越过城墙或沟壑，或把它作为燃烧陷阱送回追兵。对火焰战马施加魅惑、睡眠或定身无效。若没有提前爆炸，最大持续时间为施法者每等级 1 轮；达到上限后战车无害消散。
 
-## Briel 的暗影之书 Briel’s Book of Shadows
+## 布里埃尔的暗影之书 Briel’s Book of Shadows
 
 ### 外观与历史
 
 这本无名书是大型皮革装订册，包含 21 张起皱、卷边的羊皮纸，缝在册中。它明显是工作册，充满潦草笔记和思绪，而非正式法术汇编。
 
-传统上认为它是大法师 Briel 还是不死 Jupumvor 学徒时的作品。安姆贤者 Ubergast 指出，书中非正式笔迹与 Telgin Gate 档案中的一封信相似；信中一名自称作者的人表达了建立巫师学校的意图。至于谁真正写成这本书，仍只是贤者推测。
+传统上认为它是大法师 布里埃尔（Briel） 还是不死 Jupumvor 学徒时的作品。安姆贤者 Ubergast 指出，书中非正式笔迹与 Telgin Gate 档案中的一封信相似；信中一名自称作者的人表达了建立巫师学校的意图。至于谁真正写成这本书，仍只是贤者推测。
 
 ### 内容
 
@@ -46,7 +70,14 @@
 
 ### Scatterspray（散射喷，变化）
 
-<strong>等级：</strong>4。<strong>射程：</strong>以法术焦点为中心，每等级 1 英寸。<strong>持续时间：</strong>1 轮。<strong>作用范围：</strong>特殊。<strong>成分：</strong>V、S、M。<strong>施法时间：</strong>1 个轮。
+<div class="spell-meta">
+<strong>等级 Level：</strong>4<br>
+<strong>距离 Range：</strong>以法术焦点为中心，每等级 1 英寸<br>
+<strong>持续时间 Duration：</strong>1 轮<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>1 个轮</div>
+
 
 施法者令作用范围半径 1 英寸球体内、没有被束缚的鸡蛋或硬币大小及更小物体向各方向猛烈喷射，如同爆炸抛出。物体必须是施法者手边或身上的物品，不能由法术创造；硬币、弹珠、宝石、骰子、投石弹等最常用。宝贵物品会被抓取，因此不应浪费或误用获得的东西。
 
@@ -62,7 +93,7 @@
 
 德鲁伊对完整独角兽角或角片施放妖火，持续 44 轮；在修补术施法时触碰独角兽角，能增强修补效果，可修复魔法物品的形体（但不恢复附魔），甚至完全修复多处裂纹的陶罐或水晶瓶。手持独角兽角施放蓝光戏法时，光会集中在角上；施法者可以松开角，光仍会维持，直到停止集中。
 
-## Homonculous 的制造
+## 魔宠人偶的制造 Homonculous
 
 以下配方由 Neverwinter 大炼金师 Askrim “勇者”和巫师 Dauntus 的同心协力校订，用于制造 homonculous。
 
@@ -76,4 +107,4 @@
 
 冷却时蒸汽散去，魔法使用者必须触摸它；它随即获得生命。只要魔法使用者活着，homonculous 就会生存，除非受到物理攻击或意外；魔法使用者死亡时，它会溶解成沸腾蒸汽并消失。若它先死，魔法使用者必须妥善守护并隐藏尸体，因为对尸体做的一切也会发生在施法者身上；除非有防火魔法，否则不得焚烧。它能在黑暗中看见主人无法看见的东西，主人睡眠时可以守卫，并在生物接近时唤醒主人。
 
-原书 PDF 第 175–177 页（印刷页 75–77）；保留 Num 的荆棘缠绕、荆棘喷射、死亡战车、Briel 的暗影之书、散射喷、独角兽角规则与 homonculous 制造步骤，并挂载对应原页图。
+出处：原书 PDF 第 175–177 页（印刷页 75–77）。

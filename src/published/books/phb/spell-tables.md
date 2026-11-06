@@ -51,11 +51,11 @@
 | 13 | 鉴定术 Identify | 物品定位术 Locate Object | 红外视觉 Infravision | 冰风暴 Ice Storm | 李欧蒙的秘藏箱 Leomund's Secret Chest |
 | 14 | 跳跃术 Jump | 魔嘴术 Magic Mouth | 隐形术（10尺半径） Invisibility, 10' Radius | 群体变形 Massmorph | 魔魂壶 Magic Jar |
 | 15 | 光亮术 Light | 镜影术 Mirror Image | 李欧蒙小屋 Leomund's Tiny Hut | 次级法术无效结界 Minor Globe of Invulnerability | 怪物召唤 III Monster Summoning III |
-| 16 | 魔法飞弹 Magic Missile | 烟火术 Pyrotechnics | 闪电束 Lightning Bolt | 怪物召唤 II Monster Summoning II | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
+| 16 | 魔法飞弹 Magic Missile | 烟火术 Pyrotechnics | 闪电束 Lightning Bolt | 怪物召唤 II Monster Summoning II | 莫登凯南忠犬 Mordenkainen's Faithful Hound |
 | 17 | 修复术 Mending | 衰弱射线 Ray of Enfeeblement | 怪物召唤 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
 | 18 | 传讯术 Message | 魔绳术 Rope Trick | 魅影之力 Phantasmal Force | 他者变形术 Polymorph Other | 塑石术 Stone Shape |
 | 19 | 奈斯图的魔法灵光 Nystul's Magic Aura | 惊恐术 Scare | 防护邪恶（10尺半径） Protection from Evil, 10' Radius | 自身变形术 Polymorph Self | 心灵遥控 Telekinesis |
-| 20 | 防护邪恶 Protection from Evil | 粉碎术 Shatter | 防护普通投射物 Protection from Normal Missiles | 拉里的记忆强化术 Rary's Mnemonic Enhancer | 传送术 Teleport |
+| 20 | 防护邪恶 Protection from Evil | 粉碎术 Shatter | 防护普通投射物 Protection from Normal Missiles | 拉瑞的记忆强化术 Rary's Mnemonic Enhancer | 传送术 Teleport |
 | 21 | 推斥术 Push | 臭云术 Stinking Cloud | 缓慢术 Slow | 移除诅咒 Remove Curse | 化石为泥 Transmute Rock to Mud |
 | 22 | 阅读魔法 Read Magic | 力量术 Strength | 暗示术 Suggestion | 火墙术 Wall of Fire | 力墙术 Wall of Force |
 | 23 | 护盾术 Shield | 蛛网术 Web | 巧言术 Tongues | 冰墙术 Wall of Ice | 铁墙术 Wall of Iron |
@@ -80,7 +80,7 @@
 | 7 | 法术延展 III Extension III | 有限祈愿 Limited Wish | 迷宫术 Maze | 律令：死亡 Power Word, Kill |
 | 8 | 指使术 Geas | 群体隐形 Mass Invisibility | 心灵屏障 Mind Blank | 虹光法球 Prismatic Sphere |
 | 9 | 玻璃化术 Glassee | 怪物召唤 V Monster Summoning V | 怪物召唤 VI Monster Summoning VI | 形体变化 Shape Change |
-| 10 | 法术无效结界 Globe of Invulnerability | 魔邓肯之剑 Mordenkainen's Sword | 欧提路克魔舞 Otto's Irresistible Dance | 时间静止 Temporal Stasis |
+| 10 | 法术无效结界 Globe of Invulnerability | 莫登凯南之剑 Mordenkainen's Sword | 奥托魔舞 Otto's Irresistible Dance | 时间静止 Temporal Stasis |
 | 11 | 守卫与结界 Guards and Wards | 相位门 Phase Door | 恒久术 Permanency | 时间停止 Time Stop |
 | 12 | 隐形追猎者 Invisible Stalker | 律令：震慑 Power Word, Stun | 任意物体变形术 Polymorph Any Object | 祈愿术 Wish |
 | 13 | 传奇学识 Legend Lore | 重力反转 Reverse Gravity | 律令：目盲 Power Word, Blind |  |

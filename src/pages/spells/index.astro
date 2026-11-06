@@ -10,7 +10,7 @@ const schools = [...new Set(spells.flatMap(spell => spellSchools(spell.school)))
 const levels = [...new Set(spells.map(spell => spell.level))].sort((a,b)=>a-b);
 const sources = [...new Set(spells.flatMap(spell => spell.source.map(source => source.book)))].sort();
 const options = (values: string[]) => values.map(value => ({value,label:value}));
-const records = spells.map(spell => ({id:spell.id,search:`${spell.nameZh} ${spell.nameEn} ${spell.description} ${spell.tags.join(' ')}`.toLowerCase(), components:spell.components,reversible:spell.reversible,facets:{class:spell.classes,level:[String(spell.level)],school:spellSchools(spell.school),source:spell.source.map(source=>source.book)}}));
+const records = spells.map(spell => ({id:spell.id,search:`${spell.nameZh} ${spell.nameEn} ${spell.description} ${(spell.details??[]).map(detail=>detail.html.replace(/<[^>]+>/g,' ')).join(' ')} ${spell.tags.join(' ')}`.toLowerCase(), components:spell.components,reversible:spell.reversible,facets:{class:spell.classes,level:[String(spell.level)],school:spellSchools(spell.school),source:spell.source.map(source=>source.book)}}));
 const rows = spells.map(spell => [spell.nameZh,spell.nameEn,spell.classes.map(value=>classLabels[value] ?? value).join(' / '),String(spell.level),spell.school,spell.components.join('/'),spell.range,[...new Set(spell.source.map(source=>`${source.book}${source.page ? ` p.${source.page}` : ''}`))].join('、')]);
 const links = spells.map(spell => [`/spells/${spell.id}/`]);
 ---

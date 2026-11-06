@@ -6,12 +6,14 @@
 
 ## 蒙骗术 Delude（变化系 Alteration）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 3 | 法术成分 | 言语、姿势 |
-| 距离 | 0 | 施法时间 | 3 段 |
-| 持续时间 | 每级 1 回合 | 豁免 | 成功则无效 |
-| 影响范围 | 幻术师本人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>3<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 1 回合<br>
+<strong>影响范围 Area of Effect：</strong>幻术师本人<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
 
 幻术师可把自己的<strong>阵营灵光</strong>替换成半径 <strong>3″</strong>内另一生物的灵光；对方须有高于动物的智力，且自身阵营不变。*知晓阵营*一类手段只会看见幻术师借来的灵光；*侦测善良*与*侦测邪恶*也仅对借来的灵光作出反应。被复制灵光的生物会显现魔法，幻术师却只有在那名生物眼中显现魔法。
 
@@ -19,12 +21,14 @@
 
 ## 幻影坐骑 Phantom Steed（咒法／幻影系 Conjuration/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 3 | 法术成分 | 言语、姿势、材料 |
-| 距离 | 接触 | 施法时间 | 1 回合 |
-| 持续时间 | 每级 6 回合 | 豁免 | 无 |
-| 影响范围 | 特殊 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>3<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>每级 6 回合<br>
+<strong>影响范围 Area of Effect：</strong>特殊<br>
+<strong>成分 Components：</strong>言语、姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 回合<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 造出一匹半真实的马状坐骑。只有造出它的幻术师，或施法时专门指定的某一人可以骑。所有幻影坐骑都是<strong>黑色头身、灰色鬃尾、烟色而无实体的蹄子</strong>，行走无声，双眼乳白。它们不参与战斗；普通动物会避开它们，因此只有怪物般的动物会攻击。坐骑累计受到<strong>超过 12 点伤害</strong>时，法术消散。
 
@@ -41,23 +45,27 @@
 
 ## 幻影之风 Phantom Wind（变化／幻影系 Alteration/Phantasm）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 3 | 法术成分 | 言语、姿势 |
-| 距离 | 每级 1″ | 施法时间 | 3 段 |
-| 持续时间 | 每级 1 轮 | 豁免 | 无 |
-| 影响范围 | 宽 <strong>1″</strong>的一条路径 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>3<br>
+<strong>距离 Range：</strong>每级 1″<br>
+<strong>持续时间 Duration：</strong>每级 1 轮<br>
+<strong>影响范围 Area of Effect：</strong>宽 <strong>1″</strong>的一条路径<br>
+<strong>成分 Components：</strong>言语、姿势<br>
+<strong>施法时间 Casting Time：</strong>3 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 造出一阵<strong>看不见、摸不着</strong>的风，却能吹动轻物、使帘幕与宽松衣物翻飞、助长火势，并移动气态物质云团，如雾墙、雾云或死云。风沿施法者所指方向，每轮以 <strong>1″</strong>的速度向前推进，影响路径随施法持续而增长，且整个已形成路径上的作用持续存在。它因此可推动数艘帆船，但最先受风的船也会移动得最远。
 
 ## 怨魂形态 Wraithform（变化／幻术系 Alteration/Illusion）
 
-| 项目 | 数值 | 项目 | 数值 |
-|:---|:---|:---|:---|
-| 等级 | 3 | 法术成分 | 姿势、材料 |
-| 距离 | 0 | 施法时间 | 1 段 |
-| 持续时间 | 每级 2 轮 | 豁免 | 无 |
-| 影响范围 | 幻术师本人 | | |
+<div class="spell-meta">
+<strong>等级 Level：</strong>3<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>每级 2 轮<br>
+<strong>影响范围 Area of Effect：</strong>幻术师本人<br>
+<strong>成分 Components：</strong>姿势、材料<br>
+<strong>施法时间 Casting Time：</strong>1 段<br>
+<strong>豁免检定 Saving Throw：</strong>无</div>
 
 幻术师连同全身装备变得<strong>无实体</strong>。只有 <strong>＋1 或更高</strong>的魔法武器，或本就能伤害须由魔法武器命中的目标的生物，才能击中施法者。大多数不死生物会把他当成怨魂或幽魂而不理会；巫妖或“特殊”不死生物可用 <strong>−4</strong>修正对法术豁免，成功则识破。
 
