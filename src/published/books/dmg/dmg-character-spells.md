@@ -16,7 +16,7 @@
 
 在任何阶段更换侍奉的神祇，都会令牧师陷入困境。旧神会给牧师留下印记，新神及其仆从也会心存怀疑。此后，牧师必须绝对忠于新的信仰，否则神祇会以近乎神力的方式将其消灭。除非有特殊的救赎力量介入，否则牧师背弃信仰后，原神祇有 <strong>90% 的可能性</strong>不会再接纳其回归。第三次更换神祇的牧师无可救赎，会立即死亡。任何导致更换神祇的阵营变化都适用此规则，但非自愿的阵营变化除外（见“改变阵营”）。
 
-以上规则同样适用于圣武士的牧师法术能力，以及游侠的德鲁伊牧师法术能力。
+以上规则同样适用于圣武士的牧师法术能力，以及巡林客的德鲁伊牧师法术能力。
 
 ## 魔法师法术的获取 Acquisition of Magic-User Spells
 
@@ -31,7 +31,7 @@
 | 掷骰 | 攻击法术 Offensive Spells | 防御法术 Defensive Spells | 杂项法术 Miscellaneous Spells |
 |:---:|:---:|:---:|:---:|
 | 1 | 燃烧之手 Burning Hands | 影响常规火焰 Affect Normal Fires | 通晓语言 Comprehend Languages |
-| 2 | 魅惑类人 Charm Person | 舞光术 Dancing Lights | 侦测魔法 Detect Magic |
+| 2 | 魅惑人类 Charm Person | 舞光术 Dancing Lights | 侦测魔法 Detect Magic |
 | 3 | 扩大术 Enlarge | 羽落术 Feather Fall | 抹消术 Erase |
 | 4 | 交友术 Friends | 闩门术 Hold Portal | 寻找魔宠 Find Familiar |
 | 5 | 光亮术 Light | 跳跃术 Jump | 鉴定术 Identify |

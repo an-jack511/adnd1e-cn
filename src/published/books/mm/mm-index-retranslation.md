@@ -291,7 +291,7 @@
 - Invisible Stalker（隐形追踪者）……55
 - Irish Deer（爱尔兰巨鹿）……55
 - Iron Golem（铁魔像，见 Golem〔魔像〕）
-- Ixitxachitl（恶魔魟）……55
+- Ixitxachitl（伊希鳐鱼）……55
 - Jackal（豺）……56
 - Jackalwere（化形胡狼）……56
 - Jaguar（美洲豹）……56
@@ -316,14 +316,14 @@
 - Lich（巫妖）……61
 - Lion（狮子）……61
   - Mountain（山狮）……61
-  - Spotted（斑点狮）……61
+  - Spotted（斑巨狮）……61
 - Lizard（蜥蜴）……61
   - Fire（火蜥蜴）……61
   - Giant（巨蜥）……61
   - Minotaur（牛头人蜥蜴）……62
   - Subterranean（地下蜥蜴）……62
 - Lizard Man（蜥蜴人）……62
-- Locathah（洛卡萨人）……62
+- Locathah（洛卡鱼人人）……62
 - Loxodont（非洲象，见 Elephant〔大象〕）
 - Lurker Above（上方潜伏者）……62
 - Lycanthrope（兽化人）……63
@@ -366,7 +366,7 @@
   - Guardian（守秘纳迦）……72
   - Spirit（灵魂纳迦）……73
   - Water（水纳迦）……73
-- Neo-Otyugh（新食腐兽，另见 Otyugh〔食腐兽〕）……73
+- Neo-Otyugh（新奥图格，另见 Otyugh〔食腐兽〕）……73
 - Night Hag（夜鬼婆）……73
 - Nightmare（梦魇）……74
 - Nixie（水妖精）……74
@@ -380,7 +380,7 @@
   - Half-Orc（半兽人）……76
 - Orcus（奥喀斯，见 Demon〔恶魔〕）
 - Otter, Giant（巨型水獭）……77
-- Otyugh（食腐兽，另见 Neo-Otyugh〔新食腐兽〕）……77
+- Otyugh（食腐兽，另见 Neo-Otyugh〔新奥图格〕）……77
 - Owl, Giant（巨型猫头鹰）……77
 - Owlbear（熊地精兽）……77
 - Pegasus（飞马）……78
@@ -409,7 +409,7 @@
 - Ram, Giant（巨型公羊）……81
 - Rat, Giant, Sumatran（巨型苏门答腊鼠）……81
 - Rat Man（鼠人，见 Lycanthrope〔兽化人〕）
-- Ray（鳐，另见 Ixitxachitl〔恶魔魟〕）……81
+- Ray（鳐，另见 Ixitxachitl〔伊希鳐鱼〕）……81
   - Manta（蝠鲼）……81
   - Pungi（穿刺鳐）……81
   - Sting（刺鳐）……82
@@ -469,7 +469,7 @@
 - Storm Giant（风暴巨人，见 Giant〔巨人〕）
 - Strangle Weed（缠绕海草）……93
 - Succubus（魅魔，见 Demon〔恶魔〕）
-- Su-Monster（苏魔兽）……93
+- Su-Monster（苏怪）……93
 - Sylph（风精灵）……93
 - Thought Eater（思维吞噬者）……94
 - Tiamat（提亚马特，见 Dragon, Chromatic〔色彩龙〕）
@@ -477,7 +477,7 @@
 - Tiger（虎）……94
   - Sabre-Tooth Tiger, Smilodon（剑齿虎）……94
 - Titan（泰坦）……94
-- Titanothere（泰坦兽）……95
+- Titanothere（雷兽）……95
 - Toad, Giant（巨型蟾蜍）……95
   - Ice（冰蟾蜍）……95
   - Poisonous（毒蟾蜍）……95

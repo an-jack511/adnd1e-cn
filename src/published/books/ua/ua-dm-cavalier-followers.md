@@ -48,7 +48,7 @@
 
 ## 骑士侍从 Cavaliers and Retainers
 
-善良骑士达到 <strong>4 级</strong>（游侠骑士 Knight Errant）时，必须至少取得一名侍从，可以是 <strong>1 级扈从 Armiger</strong>、<strong>2 级执盾侍从 Scutifer</strong>，或两者兼有。到 <strong>6 级</strong>成为骑士时，须再添一名 <strong>3 级乡绅 Esquire</strong>；到 <strong>7 级</strong>成为大骑士时，须增加一名作传令官的骑手 Horseman，以及一名作护卫的枪骑兵 Lancer；到 <strong>8 级</strong>成为旗帜骑士时，须再添至少一名骑马武装士兵。侍从只要求照料、供养及适用的训练，不另索报酬，但会接受礼物。
+善良骑士达到 <strong>4 级</strong>（巡林客骑士 Knight Errant）时，必须至少取得一名侍从，可以是 <strong>1 级扈从 Armiger</strong>、<strong>2 级执盾侍从 Scutifer</strong>，或两者兼有。到 <strong>6 级</strong>成为骑士时，须再添一名 <strong>3 级乡绅 Esquire</strong>；到 <strong>7 级</strong>成为大骑士时，须增加一名作传令官的骑手 Horseman，以及一名作护卫的枪骑兵 Lancer；到 <strong>8 级</strong>成为旗帜骑士时，须再添至少一名骑马武装士兵。侍从只要求照料、供养及适用的训练，不另索报酬，但会接受礼物。
 
 到 <strong>9 级</strong>成为高级骑士 Chevalier 后，可自行决定是否带侍从旅行。低等级时，上级骑士可要求他独自旅行。骑士须为其随从与侍从的行为负责，也须确保其他骑士遵守骑士职业的标准。
 

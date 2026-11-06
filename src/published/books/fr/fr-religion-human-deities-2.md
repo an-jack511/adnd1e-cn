@@ -61,7 +61,7 @@
 
 | 项目 | 内容 |
 |---|---|
-| 领域 | 森林、树精之女神，游侠守护者 |
+| 领域 | 森林、树精之女神，巡林客守护者 |
 | 阵营 | NG |
 | 力量等级 | 较小力量（Lesser Power） |
 | 主位面 | 主物质位面（Prime Material） |
@@ -364,7 +364,7 @@
 
 ### 精灵 ELVES
 
-* 科瑞隆·拉瑞斯安（Corellon Larethian；所有精灵的统治者）
+* 科瑞隆·拉瑞斯安（柯瑞隆·拉瑞斯安（Corellon Larethian）；所有精灵的统治者）
 * 瑞利芬·拉拉希尔（Rillifane Rallathil；野精灵的主神）
 * 艾德莉·费恩雅（Aerdrie Faenya；空气与天气女神）
 * 埃瑞文·伊莱希尔（Erevan Ilesere；恶作剧与变化之神）

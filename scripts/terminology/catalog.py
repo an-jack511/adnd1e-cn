@@ -38,13 +38,14 @@ def paths():
 def inventory():
     entries={}
     previous={e['key']:e for e in load(OUT/'catalog.json',{'entries':[]})['entries']}
-    def add(en,zh,category,path,location='',id=None,active=False):
+    def add(en,zh,category,path,location='',id=None,active=False,untranslated=False):
         en,zh=str(en).strip(),str(zh).strip().strip('*')
-        if not en or not zh or not re.search('[A-Za-z]',en) or not re.search('[\u3400-\u9fff]',zh): return
+        if not en or not zh or not re.search('[A-Za-z]',en) or (not untranslated and not re.search('[\u3400-\u9fff]',zh)): return
         k=key(category,en)
         if k not in entries:
             prev=previous.get(k,{})
-            entries[k]={'key':k,'category':category,'en':en,'zh':prev.get('zh',zh),'englishVariants':set(prev.get('englishVariants',[])), 'legacyZh':set(prev.get('legacyZh',[])),'occurrences':[], 'activeIds':[], 'status':'pending','references':[],'notes':[]}
+            current=prev.get('zh',zh) if prev.get('status','').startswith(('verified','adapted')) else zh
+            entries[k]={'key':k,'category':category,'en':en,'zh':current,'englishVariants':set(prev.get('englishVariants',[])), 'legacyZh':set(prev.get('legacyZh',[])),'occurrences':[], 'activeIds':[], 'status':'pending','references':[],'notes':[]}
         e=entries[k];e['englishVariants'].add(en);e['legacyZh'].add(zh)
         occurrence={'path':path,'location':location,'zh':zh}
         if occurrence not in e['occurrences']:e['occurrences'].append(occurrence)
@@ -73,6 +74,8 @@ def inventory():
                 clean=html.unescape(re.sub('<[^>]+>','',re.sub(r'^#+\s*','',line))).replace('*','').strip()
                 m=re.match(r'(?P<zh>[^A-Za-z]+?)\s+(?P<en>[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+?)(?:[（（]|$)',clean)
                 if m:add(m['en'].rstrip(' ('),m['zh'].strip(' （('),'heading',rel,str(n))
+                elif re.fullmatch(r'[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+',clean):
+                    add(clean,clean,'heading',rel,str(n),untranslated=True)
         elif p.suffix=='.ts':
             s=p.read_text(encoding='utf-8-sig')
             for m in re.finditer(r"nameZh:\s*(['\"])(.*?)\1,\s*nameEn:\s*(['\"])((?:\\.|(?!\3).)*)\3",s):
@@ -89,6 +92,18 @@ def inventory():
     for en,zh in load(ROOT/'scripts/import/regional-names.json',{}).items():add(en,zh,'proper','scripts/import/regional-names.json')
     for d in load(OUT/'decisions.json',{'entries':[]})['entries']:
         if d['category']=='proper':add(d['en'],d['zh'],'proper','terminology/decisions.json')
+    selected=load(OUT/'settings-entities.json',{'entries':[]})['entries']
+    for entity in selected:
+        en=entity['en']; token=re.compile(r'(?<![A-Za-z])'+re.escape(en)+r'(?![A-Za-z])')
+        for folder in entity['folders']:
+            for p in sorted((ROOT/'src/published/books'/folder).glob('*.md')):
+                for n,line in enumerate(p.read_text(encoding='utf-8-sig').splitlines(),1):
+                    if not token.search(line):continue
+                    add(en,en,'proper',p.relative_to(ROOT).as_posix(),str(n),untranslated=True)
+                    for alias in entity.get('legacyZh',[]):add(en,alias,'proper',p.relative_to(ROOT).as_posix(),str(n))
+                    # Read existing bilingual Chinese labels, without guessing words in prose.
+                    label=re.search(r'^#{1,6}\s+([\u3400-\u9fff·]+)\s*[（(]?\s*'+re.escape(en)+r'(?![A-Za-z])',line)
+                    if label:add(en,label[1],'proper',p.relative_to(ROOT).as_posix(),str(n))
     # A heading is not automatically a named entity. Link exact bilingual spell/monster
     # headings to known names, preserving uncertain chapter headings separately.
     known=defaultdict(list)
@@ -102,21 +117,29 @@ def inventory():
     for r in load(OUT/'references/5etools-names.json',{'records':[]})['records']:
         category=REFKINDS.get(r['category'],r['category']);refindex[key(category,r['en'])].append(r)
     for r in load(OUT/'references/huiji-names.json',{'records':[]})['records']:refindex[key(r['category'],r['en'])].append(r)
+    selected_keys={key('proper',r['en']) for r in selected}
+    for r in load(OUT/'references/setting-names.json',{'records':[]})['records']:
+        if key('proper',r['en']) in selected_keys:refindex[key('proper',r['en'])].append(r)
     decisions=load(OUT/'decisions.json',{'entries':[]})['entries']
     manual={key(d['category'],d['en']):d for d in decisions}
     for e in entries.values():
-        refs=refindex[e['key']];e['references']=refs
+        refs=refindex[e['key']]
+        if e['category']=='monster':refs=[r for r in refs if not r.get('isNpc')]
+        e['references']=refs
         if refs:
-            rank={'5R':0,'3R':1,'5E':2}
+            rank={'3R':0,'5R':1,'5E':2}
             best=min(rank.get(r['edition'],9) for r in refs)
             options=sorted(set(r['zh'] for r in refs if rank.get(r['edition'],9)==best))
             if len(options)==1:
                 e['zh']=options[0];e['status']='verified-exact';e['notes'].append('英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。')
             else:e['status']='reference-conflict';e['notes'].append('同优先级来源译名有分歧，等待人工裁定：'+' / '.join(options))
         if e['key'] in manual:
-            d=manual[e['key']];e['zh']=d['zh'];e['status']=d['status'];e['references']+=d.get('references',[]);e['notes'].append(d['reason']);e['verificationScope']=d.get('verificationScope','whole-name')
+            d=manual[e['key']]
+            # A later-edition adaptation cannot override an exact 3R name.
+            if d.get('userOverride') or not (e['status']=='verified-exact' and any(r['edition']=='3R' for r in refs) and d['status'].startswith('adapted')):
+                e['zh']=d['zh'];e['status']=d['status'];e['references']+=d.get('references',[]);e['notes'].append(d['reason']);e['verificationScope']=d.get('verificationScope','whole-name')
         e['englishVariants']=sorted(e['englishVariants']);e['legacyZh']=sorted(e['legacyZh']-{e['zh']})
-    result={'schemaVersion':1,'accessed':DATE,'policy':'5R > 3R > 5E; names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
+    result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5R > 5E (user preference); names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
     write(OUT/'catalog.json',result)
     write(OUT/'reports/pending.json',[e for e in result['entries'] if e['status']=='pending'])
     write(OUT/'reports/conflicts.json',[e for e in result['entries'] if e['status']=='reference-conflict' or len(e['legacyZh'])>1])
@@ -147,19 +170,20 @@ def replacement_plan(catalog):
     for e in approved:
         for old in e['legacyZh']:targets[old].add(e['zh'])
     replacements={};blocked=[]
-    proper_aliases={old for e in approved if e['category']=='proper' for old in e['legacyZh']}
+    proper_aliases={old for e in approved if e['category'] in ['proper','class'] for old in e['legacyZh']}
     for old,values in targets.items():
         other_targets={e['zh'] for e in catalog['entries'] if e['key'] in owners[old] and e not in approved}
         # A former label can be another entity's CURRENT canonical label (e.g.
         # Raise Dead / Resurrection). Never rewrite those references globally.
         other_targets|={e['zh'] for e in catalog['entries'] if e['zh']==old}
-        if len(values)!=1 or other_targets or len(old)<(2 if old in proper_aliases else 3) or not re.fullmatch('[\u3400-\u9fff·]+',old):
+        if len(values)!=1 or (other_targets-values) or len(old)<(2 if old in proper_aliases else 3) or not re.fullmatch('[\u3400-\u9fff·]+',old):
             blocked.append({'old':old,'targets':sorted(values),'reason':'ambiguous, short/generic, or mixed-language name; contextual replacement only'});continue
         replacements[old]=next(iter(values))
     # Protect canonical and longer known names against substring damage and repeat suffixes.
     old_pattern=re.compile('|'.join(map(re.escape,sorted(replacements,key=len,reverse=True)))) if replacements else re.compile(r'(?!)')
     protected={e['zh'] for e in approved if e['zh'] not in replacements and old_pattern.search(e['zh'])}
     protected|={v for v in replacements.values()}
+    protected|={d['annotation'] for d in load(OUT/'decisions.json',{'entries':[]})['entries'] if d.get('annotation')}
     tokens=sorted(set(replacements)|protected,key=lambda s:(-len(s),s))
     pattern=re.compile('|'.join(map(re.escape,tokens))) if tokens else re.compile(r'(?!)')
     return replacements,pattern,blocked
@@ -191,6 +215,23 @@ def apply(catalog,do_apply=False):
             return m[0]
         s=bilingual_pattern.sub(replace,s)
         return substitute(s)
+    selected=load(OUT/'settings-entities.json',{'entries':[]})['entries']
+    def label_english(s,folder):
+        for choice in selected:
+            e=by_key.get(key('proper',choice['en']))
+            if folder not in choice['folders'] or not e or not re.fullmatch('[\u3400-\u9fff·]+',e['zh']):continue
+            pat=re.compile(r'(?<![A-Za-z])'+re.escape(choice['en'])+r'(?![A-Za-z]|\s+[A-Za-z])')
+            labels=[e['zh']]+[x for x in e['legacyZh'] if re.search('[\u3400-\u9fff]',x)]
+            def expand(m):
+                prefix=s[:m.start()]; line=prefix.rsplit('\n',1)[-1]
+                if not re.search('[\u3400-\u9fff]',line) and not re.match(r'^#{1,6}\s*$',line):return m[0]
+                if any(re.search(re.escape(label)+r'\s*[（(]?\s*$',prefix) for label in labels):return m[0]
+                if re.search(r'(?:^|[；;|])\s*[\u3400-\u9fff·]{2,}\s*[（(]?\s*$',line):return m[0]
+                # English sentences, possessives and longer compound names need review.
+                if re.search(r'[A-Za-z]\s+$',prefix) or s[m.end():m.end()+2] in ["'s",'’s']:return m[0]
+                return e['zh']+'（'+m[0]+'）'
+            s=pat.sub(expand,s)
+        return s
     # Never touch stable IDs, URLs, original English, or source attribution fields.
     immutable={'id','slug','href','url','src','sourceFile','nameEn','titleEn','book','section','original','english','en','source','sourceTitle','sourceLabel'}
     def transform(obj,category):
@@ -214,7 +255,9 @@ def apply(catalog,do_apply=False):
         else:
             # Split HTML tags and markdown destinations so visible text changes but links/anchors do not.
             parts=re.split(r'(<[^>]*>|\]\([^\n)]*\))',before)
-            for i in range(0,len(parts),2):parts[i]=contextual(parts[i])
+            for i in range(0,len(parts),2):
+                parts[i]=contextual(parts[i])
+                if p.suffix=='.md' and p.parent.parent.name=='books':parts[i]=label_english(parts[i],p.parent.name)
             after=''.join(parts)
             if p.suffix=='.ts':
                 def namefield(m):

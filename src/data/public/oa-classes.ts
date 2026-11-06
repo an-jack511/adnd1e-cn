@@ -9,7 +9,7 @@ export const oaClasses: ClassEntry[] = [
     id: 'oa-barbarian', nameZh: '野蛮人', nameEn: 'Barbarian', primeRequisite: '无', minimumAbilities: { STR: 15, DEX: 14, CON: 15 },
     eligibleRaces: ['human', 'korobokuru'], hitDie: 'd12', alignment: '任意非守序', armor: '任意', weapons: '任意', spellcasting: '无',
     description: '猎人、袭击者与游牧者；依靠本能、荒野能力和气力生存，并对魔法保持敌意。',
-    abilities: [ability('荒野能力', '攀爬、自然环境隐藏、突袭、背后防护、跳跃、侦测幻觉、侦测魔法与快速疗伤。'), ability('蛮族加值', '随等级逐步使用药水、魔法武器、魔法护甲和防护卷轴，并提高对法术的豁免。'), ability('召集大军', '达到高等级后可在自己的出身地域召集蛮族军队。')], source
+    abilities: [ability('荒野能力', '攀爬、自然环境隐藏、突袭、背后防护、跳跃、侦测幻觉、侦测魔法与快速疗伤。'), ability('野蛮人加值', '随等级逐步使用药水、魔法武器、魔法护甲和防护卷轴，并提高对法术的豁免。'), ability('召集大军', '达到高等级后可在自己的出身地域召集野蛮人军队。')], source
   },
   {
     id: 'oa-bushi', nameZh: '兵士', nameEn: 'Bushi', primeRequisite: 'STR', minimumAbilities: { STR: 9, DEX: 8, CON: 8 },
@@ -27,7 +27,7 @@ export const oaClasses: ClassEntry[] = [
     id: 'oa-monk', nameZh: '武僧', nameEn: 'Monk', primeRequisite: '无', minimumAbilities: { STR: 15, DEX: 15, CON: 11, CHA: 15 },
     eligibleRaces: ['human', 'spirit-folk'], hitDie: '2d4（1级），此后 d4', alignment: '任意守序', armor: '无', weapons: '武术武器及职业允许的武器', spellcasting: '无',
     description: '通过冥想、徒手战斗和精神纪律追求身心统一的东方修行者。',
-    abilities: [ability('徒手与武术', '徒手伤害、攻击次数和特殊动作随等级成长；所有僧侣都能偏转飞弹。'), ability('僧侣气力', '每日按等级使用气力抵消魔法攻击，逐级获得防毒、抗心灵和自疗能力。'), ability('盗贼式能力', '逐级获得潜行、藏影、聆听、攀墙及搜索能力。')], source
+    abilities: [ability('徒手与武术', '徒手伤害、攻击次数和特殊动作随等级成长；所有武僧都能偏转飞弹。'), ability('武僧气力', '每日按等级使用气力抵消魔法攻击，逐级获得防毒、抗心灵和自疗能力。'), ability('盗贼式能力', '逐级获得潜行、藏影、聆听、攀墙及搜索能力。')], source
   },
   {
     id: 'oa-ninja', nameZh: '忍者', nameEn: 'Ninja', primeRequisite: '无', minimumAbilities: { DEX: 14, INT: 15, CHA: 14 },

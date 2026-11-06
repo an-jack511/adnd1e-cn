@@ -179,7 +179,7 @@ items['healing-potion']['catalogHidden']=True
 # DMG follower sub-tables use the same heading level as their class labels.
 followers=get('dmg','dmg-character-classes')
 labels=['cleric','fighter','ranger','thief','assassin']
-patterns=[r'^牧师 Clerics$',r'^战士 Fighters$',r'^游侠 Rangers$',r'^盗贼 Thieves$',r'^刺客 Assassins$']
+patterns=[r'^牧师 Clerics$',r'^战士 Fighters$',r'^巡林客 Rangers$',r'^盗贼 Thieves$',r'^刺客 Assassins$']
 for index,cid in enumerate(labels):
  h=next(h for h in followers['blocks'] if re.search(patterns[index],h['title']))
  stop=next((x['start'] for x in followers['blocks'] if x['start']>h['start'] and (re.search(patterns[index+1],x['title']) if index<4 else 'Paladin' in x['title'])),len(followers['html']))
@@ -195,7 +195,7 @@ classes['cleric']['details']=unique(classes['cleric']['details'])
 # Independent regional careers and the Krynn gnome retain their complete source tables.
 class_additions=[]
 for cid,chinese,english,slug,hitdie,spellcasting in [
- ('dla-knight-solamnia','索拉姆尼亚骑士','Knight of Solamnia','dla-characters-krynn','1d10','宝剑骑士的祈祷与法术另见教团规则'),
+ ('dla-knight-solamnia','索兰尼亚骑士','Knight of Solamnia','dla-characters-krynn','1d10','宝剑骑士的祈祷与法术另见教团规则'),
  ('dla-tinker','发明家','Tinker','dla-tinkers-gnomes','见侏儒晋级表','以发明、设计与装置为专长')]:
  ds=[];addwhole(ds,'dla',slug,'DLA · '+chinese+'完整规则与表格')
  class_additions.append({'id':cid,'nameZh':chinese,'nameEn':english,'referenceOnly':True,'primeRequisite':'见职业正文','minimumAbilities':{},'eligibleRaces':['human'] if 'knight' in cid else ['dla-tinker-gnome'],'hitDie':hitdie,'alignment':'守序善良' if 'knight' in cid else '见职业正文','weapons':'见职业正文','armor':'见职业正文','spellcasting':spellcasting,'description':'包含王冠、宝剑、玫瑰三大教团的入团条件、晋级表、誓言、准则和施法规则。' if 'knight' in cid else '克莱恩侏儒的特殊职业；包含设计、造价、建造、操作、故障及装置范例。','abilities':[],'source':[{'book':'DLA','section':chinese}],'details':ds})

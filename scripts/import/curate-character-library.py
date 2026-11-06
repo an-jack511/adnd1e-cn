@@ -112,7 +112,7 @@ for cid,entry in classes.items():
   if title.startswith('克莱恩的一般限制'):
    d['html']=paragraphs(body,lambda text: not text.startswith('如果骑士或圣武士'))
   if title.startswith('OA · 职业选择'):
-   names={'oa-barbarian':'蛮族','oa-bushi':'兵士','oa-kensai':'剑士','oa-monk':'僧侣','oa-ninja':'忍者','oa-samurai':'武士','oa-shukenja':'修贤者','oa-sohei':'僧兵','oa-wu-jen':'巫师','oa-yakuza':'义侠'}
+   names={'oa-barbarian':'野蛮人','oa-bushi':'兵士','oa-kensai':'剑士','oa-monk':'武僧','oa-ninja':'忍者','oa-samurai':'武士','oa-shukenja':'修贤者','oa-sohei':'僧兵','oa-wu-jen':'巫师','oa-yakuza':'义侠'}
    body=tables(body,row=lambda text:text==names[cid] or text=={'oa-kensai':'剑圣','oa-wu-jen':'巫人'}.get(cid,''))
    assert body,(cid,title)
    d['html']=body+'<p>U 表示等级不受此表限制；数字为该种族在本职业中的等级上限。其余资格与能力见本条目的 OA 职业正文。</p>'
@@ -137,7 +137,7 @@ for name in ['class-additions','race-additions']:
    if entry['id']=='dla-knight-solamnia':
     start=re.search(r'<h[1-6][^>]*>你的阵营是什么',d['html'])
     if start:
-     intro=paragraphs(d['html'][:start.start()],lambda text:text.startswith('索拉姆尼亚骑士'))
+     intro=paragraphs(d['html'][:start.start()],lambda text:text.startswith('索兰尼亚骑士'))
      d['html']=intro+d['html'][start.start():]
  save(name,entries)
 save('race-details',races);save('class-details',classes)

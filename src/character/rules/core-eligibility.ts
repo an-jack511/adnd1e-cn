@@ -276,7 +276,7 @@ const classes:readonly CoreClassRule[] = [
   ]),
   classRule('fighter','战士',null,{STR:9,CON:7},coreAlignmentIds,22),
   classRule('paladin','圣武士','fighter',{STR:12,INT:9,WIS:13,CON:9,CHA:17},['LG'],22),
-  classRule('ranger','游侠','fighter',{STR:13,INT:13,WIS:14,CON:14},['LG','NG','CG'],24),
+  classRule('ranger','巡林客','fighter',{STR:13,INT:13,WIS:14,CON:14},['LG','NG','CG'],24),
   classRule('magic-user','魔法师',null,{INT:9,DEX:6},coreAlignmentIds,25),
   classRule('illusionist','幻术师','magic-user',{INT:15,DEX:16},coreAlignmentIds,26),
   {...classRule('thief','盗贼',null,{DEX:9},['NG','LN','TN','CN','LE','NE','CE'],26),

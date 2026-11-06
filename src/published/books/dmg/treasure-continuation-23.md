@@ -76,7 +76,7 @@
 | C | 持有者的护甲等级获得 <strong>+2</strong>，或变为 <strong>AC 0</strong>，取较佳者。 |
 | D | 通过触碰造成“治疗重伤术”效果。 |
 | E | 每天 <strong>2 次</strong>魅惑怪物。 |
-| F | 每周 <strong>1 次</strong>魅惑类人。 |
+| F | 每周 <strong>1 次</strong>魅惑人类。 |
 | G | 施展 <strong>9–12 骰</strong>“寒冰锥”，每天 <strong>2 次</strong>。 |
 | H | 每天 <strong>1 次</strong>施展“困惑术”。 |
 | I | 通过触碰治愈目盲。 |
@@ -95,8 +95,8 @@
 | V | 每天 <strong>1 次</strong>施展“加速术”。 |
 | W | 每天 <strong>1 次</strong>施展“治愈术”。 |
 | X | 每天 <strong>1 次</strong>施展“定身动物术”。 |
-| Y | 每天 <strong>1 次</strong>施展“定身怪物术”。 |
-| Z | 每天 <strong>1 次</strong>施展“定身类人术”。 |
+| Y | 每天 <strong>1 次</strong>施展“怪物定身术术”。 |
+| Z | 每天 <strong>1 次</strong>施展“人类定身术术”。 |
 | AA | 施展 <strong>9–12 骰</strong>“闪电束”，每天 <strong>2 次</strong>。 |
 | BB | 每天 <strong>1 次</strong>施展“次级法术无效结界”。 |
 | CC | 通过触碰使目标麻痹。 |

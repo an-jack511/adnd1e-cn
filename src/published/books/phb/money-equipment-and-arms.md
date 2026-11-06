@@ -232,7 +232,7 @@
 <TR><TD>德鲁伊</TD><TD>2</TD><TD>&#8722;4</TD><TD>每5级1项</TD></TR>
 <TR><TD>战士</TD><TD>4</TD><TD>&#8722;2</TD><TD>每3级1项</TD></TR>
 <TR><TD>圣武士</TD><TD>3</TD><TD>&#8722;2</TD><TD>每3级1项</TD></TR>
-<TR><TD>游侠</TD><TD>3</TD><TD>&#8722;2</TD><TD>每3级1项</TD></TR>
+<TR><TD>巡林客</TD><TD>3</TD><TD>&#8722;2</TD><TD>每3级1项</TD></TR>
 <TR><TD>魔法师</TD><TD>1</TD><TD>&#8722;5</TD><TD>每6级1项</TD></TR>
 <TR><TD>幻术师</TD><TD>1</TD><TD>&#8722;5</TD><TD>每6级1项</TD></TR>
 <TR><TD>盗贼</TD><TD>2</TD><TD>&#8722;3</TD><TD>每4级1项</TD></TR>

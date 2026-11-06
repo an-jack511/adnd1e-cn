@@ -127,7 +127,7 @@ async function importLegacy() {
 for (const book of ['phb', 'dmg'] as const) {
   for (const file of (await readdir(join(legacyRoot, book))).filter((name) => name.endsWith('.html') && name !== 'index.html').sort()) {
     const slug = basename(file, '.html');
-    const raw = new TextDecoder('gbk').decode(await readFile(join(legacyRoot, book, file))).replaceAll('巡林客', '游侠');
+    const raw = new TextDecoder('gbk').decode(await readFile(join(legacyRoot, book, file))).replaceAll('巡林客', '巡林客');
     const body = raw.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1];
     if (!body) continue;
     const titleHtml = body.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1];
@@ -204,7 +204,7 @@ for (const book of bookIds) {
     seen.add(file);
     const topic = byFile.get(file);
     const slug = topic?.slug ?? basename(file, '.md');
-    const raw = (await readFile(join(sourceRoot, sourceBookDir(book), 'topics', file), 'utf8')).replaceAll('巡林客', '游侠');
+    const raw = (await readFile(join(sourceRoot, sourceBookDir(book), 'topics', file), 'utf8')).replaceAll('巡林客', '巡林客');
     if (/<script\b|javascript:|\bon\w+\s*=/i.test(raw)) throw new Error(`Unsafe markup in ${book}/${file}`);
     const firstHeading = raw.match(/^#{1,6}\s+(.+)$/m)?.[1]?.trim() ?? slug;
     const title = topic?.title ?? firstHeading.replace(/\s+[A-Z][A-Za-z' -]*$/, '').trim();

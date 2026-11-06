@@ -9,7 +9,7 @@
 | 编号 | 一环 | 二环 | 三环 |
 |:---:|:---|:---|:---|
 | 1 | 化兽为友 Animal Friendship | 树肤术 Barkskin | 召雷术 Call Lightning |
-| 2 | *典礼术 Ceremony* | 魅惑类人或哺乳动物 Charm Person Or Mammal | *暴雨术 Cloudburst* |
+| 2 | *典礼术 Ceremony* | 魅惑人类或哺乳动物 Charm Person Or Mammal | *暴雨术 Cloudburst* |
 | 3 | *侦测平衡 Detect Balance* | 造水术 Create Water | 治愈疾病 Cure Disease |
 | 4 | 侦测魔法 Detect Magic | 治疗轻伤 Cure Light Wounds | 定身动物 Hold Animal |
 | 5 | *侦测毒素 Detect Poison* | 假死术 Feign Death | *侦测阵营 Know Alignment* |

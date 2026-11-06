@@ -9,7 +9,7 @@
 <TR><TD>德鲁伊（中立）</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
 <TR><TD>战士（任意）</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD></TR>
 <TR><TD>圣武士（守序善良）</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
-<TR><TD>游侠（善良）</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
+<TR><TD>巡林客（善良）</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
 <TR><TD>魔法师（任意）</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
 <TR><TD>幻术师（任意）</TD><TD>否</TD><TD>否</TD><TD>是</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>是</TD></TR>
 <TR><TD>盗贼（中立至邪恶）</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD><TD>是</TD></TR>
@@ -28,7 +28,7 @@
 <TR><TD>德鲁伊</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>U</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
 <TR><TD>战士</TD><TD>9&#185;</TD><TD>7&#178;</TD><TD>6&#179;</TD><TD>8&#8308;</TD><TD>6&#8309;</TD><TD>10</TD><TD>U</TD></TR>
 <TR><TD>圣武士</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
-<TR><TD>游侠</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>8&#8308;</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
+<TR><TD>巡林客</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>8&#8308;</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
 <TR><TD>魔法师</TD><TD>否</TD><TD>11&#8310;</TD><TD>否</TD><TD>8&#8311;</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
 <TR><TD>幻术师</TD><TD>否</TD><TD>否</TD><TD>7&#8312;</TD><TD>否</TD><TD>否</TD><TD>否</TD><TD>U</TD></TR>
 <TR><TD>盗贼</TD><TD>U</TD><TD>U</TD><TD>U</TD><TD>U</TD><TD>U</TD><TD>8&#8313;</TD><TD>U</TD></TR>

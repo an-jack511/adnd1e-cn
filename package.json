@@ -18,7 +18,7 @@
     "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",
     "test:library": "tsx scripts/test-library.ts",
     "import:regional": "tsx scripts/import/regional-baseline.ts && python scripts/import/normalize-spell-layout.py && node scripts/import/scan-regional-sources.mjs && python scripts/import/regional-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",
-    "terminology:fetch": "python scripts/terminology/fetch-references.py",
+    "terminology:fetch": "python scripts/terminology/fetch-references.py && python scripts/terminology/fetch-settings.py",
     "terminology:audit": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --check --export-parent",
     "terminology:apply": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply --export-parent && tsx scripts/import/library-index.ts",
     "test:terminology": "tsx scripts/terminology/check.ts"

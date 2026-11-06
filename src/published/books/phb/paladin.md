@@ -44,19 +44,19 @@
 <TR><TD>20*</TD><TD>3</TD><TD>3</TD><TD>3</TD><TD>3</TD></TR>
 </TABLE>
 <P><FONT color=#808080>*法术能力上限。</FONT></P>
-<h3>战士、圣武士与游侠每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
-<h4>战士、圣武士与游侠每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h4>
+<h3>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
+<h4>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h4>
 <TABLE>
 <TR><TH>等级</TH><TH>每轮近战攻击次数*</TH></TR>
 <TR><TD>Fighter 1–6／战士1–6</TD><TD>1/1 round</TD></TR>
 <TR><TD>Paladin 1–6／圣武士1–6</TD><TD>1/1 round</TD></TR>
-<TR><TD>Ranger 1–7／游侠1–7</TD><TD>1/1 round</TD></TR>
+<TR><TD>Ranger 1–7／巡林客1–7</TD><TD>1/1 round</TD></TR>
 <TR><TD>Fighter 7–12／战士7–12</TD><TD>3/2 rounds</TD></TR>
 <TR><TD>Paladin 7–12／圣武士7–12</TD><TD>3/2 rounds</TD></TR>
-<TR><TD>Ranger 8–14／游侠8–14</TD><TD>3/2 rounds</TD></TR>
+<TR><TD>Ranger 8–14／巡林客8–14</TD><TD>3/2 rounds</TD></TR>
 <TR><TD>Fighter 13 &amp; up／战士13级以上</TD><TD>2/1 round</TD></TR>
 <TR><TD>Paladin 13 &amp; up／圣武士13级以上</TD><TD>2/1 round</TD></TR>
-<TR><TD>Ranger 15 &amp; up／游侠15级以上</TD><TD>2/1 round</TD></TR>
+<TR><TD>Ranger 15 &amp; up／巡林客15级以上</TD><TD>2/1 round</TD></TR>
 </TABLE>
 <P><FONT color=#808080>*使用任何刺击或打击武器时。</FONT></P>
 <P><FONT color=#808080>注意：此表不适用于与生命骰不足 1 枚（d8）的怪物（见相关条目），以及 0 级、并非出类拔萃的人类或半人类近战；也就是一切生命骰不足一枚八面骰的生物。面对这类生物时，战士每有一个经验等级即可攻击一次（见“战斗”）。</FONT></P>

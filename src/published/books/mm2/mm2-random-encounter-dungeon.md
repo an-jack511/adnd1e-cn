@@ -23,7 +23,7 @@
 | 14 | 狗头人 | Kobold | MM1 | 6–17 |
 | 15 | 石锥怪 | Piercer | MM1 | 1–4 |
 | 16 | 骷髅 | Skeleton | MM1 | 1–4 |
-| 17 | 诺克地精 | Norker | FF | 2–8 |
+| 17 | 诺克 | Norker | FF | 2–8 |
 | 18 | 秃鹫人 | Vulchling | MM2 | 2–12 |
 | 19 | 侏儒 | Gnome | MM1 | 5–15 |
 | 20 | 讷匹利波魔 | Nupperibo | MM2 | 1–3 |
@@ -56,7 +56,7 @@
 
 | 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
 | --- | --- | --- | --- | --- |
-| 2 | 小妖精 | Leprechaun | MM1 | 1 |
+| 2 | 矮妖精 | Leprechaun | MM1 | 1 |
 | 3 | 火魔蝠或烟魔蝠 | Mephit, Fire or Smoke | FF | 1–3 |
 | 4 | 幻影 | Phantom | MM2 | 1 |
 | 5 | 掘地虫（4–5 HD） | Ankheg, 4–5 HD | MM1 | 1–3 |
@@ -83,7 +83,7 @@
 | 2 | 熔岩之子 | Lava Children | FF | 1–6 |
 | 3 | 凌弱怪 | Meenlock | FF | 2–5 |
 | 4 | 恐爪怪 | Hook Horror | FF | 2–5 |
-| 5 | 佩奇土灵 | Pech | MM2 | 3–12 |
+| 5 | 岩精 | Pech | MM2 | 3–12 |
 | 6 | 枭熊 | Owlbear | MM1 | 1–2 |
 | 7 | 锈蚀怪 | Rust Monster | MM1 | 1–2 |
 | 8 | 伪不死生物：妖鬼型 | Pseudo-undead, Ghast | MM2 | 1–4 |
@@ -179,7 +179,7 @@
 | 2 | 福狮 | Foo Lion | MM2 | 1 |
 | 3 | 萨格雅正能灵 | Xag-ya | MM2 | 1 |
 | 4 | 蝇魔 | Demon, Chasme | MM2 | 1–2 |
-| 5 | 黄金兽 | Aurumvorax | MM2 | 1–2 |
+| 5 | 吞金兽 | Aurumvorax | MM2 | 1–2 |
 | 6 | 吸血鬼 | Vampire | MM1 | 1 |
 | 7 | 致命褐布丁怪 | Pudding, Deadly Brown | MM2 | 1 |
 | 8 | 阿鲁魔 | Demon, Alu- | MM2 | 1–2 |
@@ -209,7 +209,7 @@
 | 8 | 次等泰坦 | Titan, Minor | MM1 | 1 |
 | 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
 | 10 | 摩凡尼天使 | Deva, Movanic | MM2 | 1 |
-| 11 | 塞萨尔多头怪 | Thessalhydra | MM2 | 1 |
+| 11 | 特萨尔蛇蜥 | Thessalhydra | MM2 | 1 |
 | 12 | 吸血鬼（生前为 7–10 级牧师） | Vampire, former cleric, level 7–10 | MM1 | 1 |
 | 13 | 石魔像 | Golem, Stone | MM1 | 1 |
 | 14 | 黑龙（远古、老年） | Dragon, Black, AN, O | MM1 | 2 |

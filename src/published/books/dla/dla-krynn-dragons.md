@@ -50,7 +50,7 @@
 
 红龙通常不愿服从命令，最喜欢把城市点燃、摧毁并掠夺。它们很快学会了如何在飞行编队中协同工作，同时攻击敌人并相互防御。红龙首先忠于黑暗女王，其次才忠于龙大领主。红龙的主要职责，是寻找 贝伦（Berem） Everman——唯一能够永久阻止黑暗女王重新进入克莱恩的人。
 
-Lord 威敏那德（Verminaard） 的红龙 Ember 负责毁灭 帕克斯萨卡斯（Pax Tharkas）、焚烧 Solace，以及在 Abanasinia 各地实施其他破坏行为。
+Lord 威敏那德（Verminaard） 的红龙 Ember 负责毁灭 帕克斯萨卡斯（Pax Tharkas）、焚烧 Solace，以及在 阿班尼西亚（Abanasinia） 各地实施其他破坏行为。
 
 #### 白龙 White Dragons
 
@@ -102,7 +102,7 @@ Pyrite 是生活在克莱恩上最古老的金龙，是著名巫师 菲兹班（
 
 ## 作为龙的诸神 The Gods as Dragons
 
-### Takhisis，黑暗女王 Takhisis, Queen of Darkness
+### 塔克西丝（Takhisis），黑暗女王 塔克西丝（Takhisis）, Queen of Darkness
 
 虽然 塔克西丝（Takhisis） 可以采取从最美丽、最迷人的女性到强大而令人憎恶的黑暗战士之间的任何形态，但她最喜欢的形态是五头的彩色龙。在这种形态下，她体长超过 60 英尺，并拥有五个头。每个头都有不同的颜色（白、绿、蓝、红、黑），也拥有不同的力量与性格。
 
@@ -110,7 +110,7 @@ Pyrite 是生活在克莱恩上最古老的金龙，是著名巫师 菲兹班（
 
 由于 修玛的勇气与牺牲，塔克西丝 被禁锢在深渊中，但她从未停止试图重新进入克莱恩。她在夜空中的星座总是正对着 帕拉丁（Paladine） 的星座，象征着两位神祇持续不断的对立。
 
-### Paladine，白金龙 Paladine, the Platinum Dragon
+### 帕拉丁（Paladine），白金龙 帕拉丁（Paladine）, the Platinum Dragon
 
 善良之神 帕拉丁 在世界各个种族之间拥有许多名字（他最著名的化身之一是 菲兹班 the Fabulous）。在龙形态下，帕拉丁 确实令人印象深刻。（不幸的是，菲兹班 并非如此。）白金龙体长超过 72 英尺，可以用牙齿与爪子攻击，或使用一种吐息武器。这些吐息武器包括能够冻结任何受害者的寒冷爆发、会把受害者变成气态的蒸汽云，或能够瓦解坚硬岩石的音波振动。
 
@@ -280,21 +280,21 @@ Palanthus 的著名历史学家 阿斯特纽斯（Astinus） 数百年来一直�
 
 <strong>1241 年，艾尔戈斯 陷落 Fall of 艾尔戈斯：</strong>Solamnus 与他的军队向西进军。这位将军在战术上胜过 艾尔戈斯 军队，并围攻首都。Solamnus 于 1240 年春接受皇帝投降。
 
-投降条件要求皇帝授予每个臣属国家自决权。艾尔戈斯的各个国家仍然效忠王室，边远国家则获得独立或加入新建立的 Solamnia。Solamnus 向精灵与矮人保证，他会遵守《剑鞘卷轴》的条款。
+投降条件要求皇帝授予每个臣属国家自决权。艾尔戈斯的各个国家仍然效忠王室，边远国家则获得独立或加入新建立的 索兰尼亚（Solamnia）。Solamnus 向精灵与矮人保证，他会遵守《剑鞘卷轴》的条款。
 
-<strong>1225 年，索拉姆尼亚骑士团成立 Knights of Solamnia Formed：</strong>Vinas Solamnus 建立了一个致力于善良与自由事业的骑士团。Solamnia 繁荣发展，Palanthus、Lemish 与 Caergoth 等国家自愿加入这个新国家。
+<strong>1225 年，索兰尼亚骑士团成立 Knights of Solamnia Formed：</strong>Vinas Solamnus 建立了一个致力于善良与自由事业的骑士团。索兰尼亚（Solamnia） 繁荣发展，Palanthus、Lemish 与 Caergoth 等国家自愿加入这个新国家。
 
-<strong>1100—800 年，伊斯塔（Istar） 建立 Foundation of 伊斯塔：</strong>安萨隆遥远东部的部落，过去一直是一群彼此争吵的野蛮人，如今逐渐统一。伊斯塔 议会建立统一政府。伊斯塔 开始与 Solamnia 贸易。
+<strong>1100—800 年，伊斯塔（Istar） 建立 Foundation of 伊斯塔：</strong>安萨隆遥远东部的部落，过去一直是一群彼此争吵的野蛮人，如今逐渐统一。伊斯塔 议会建立统一政府。伊斯塔 开始与 索兰尼亚（Solamnia） 贸易。
 
-<strong>Solamnia 繁荣 Solamnia Prospers：</strong>Vinas Solamnus 建立的王朝由他的后代延续。艾尔戈斯 依靠 Solamnia 提供保护与贸易。
+<strong>Solamnia 繁荣 Solamnia Prospers：</strong>Vinas Solamnus 建立的王朝由他的后代延续。艾尔戈斯 依靠 索兰尼亚（Solamnia） 提供保护与贸易。
 
-<strong>773—760 年，伊斯塔 与 西尔瓦内斯提 冲突 伊斯塔 and 西尔瓦内斯提 Clash：</strong>不断扩张的 伊斯塔 国家与 西尔瓦内斯提 之间发生一连串边境冲突，再次威胁精灵的家园。在 Solamnia 的帮助下，精灵说服 伊斯塔 在《剑鞘卷轴》上签署自己的名字。
+<strong>773—760 年，伊斯塔 与 西尔瓦内斯提 冲突 伊斯塔 and 西尔瓦内斯提 Clash：</strong>不断扩张的 伊斯塔 国家与 西尔瓦内斯提 之间发生一连串边境冲突，再次威胁精灵的家园。在 索兰尼亚（Solamnia） 的帮助下，精灵说服 伊斯塔 在《剑鞘卷轴》上签署自己的名字。
 
-<strong>700—600 年，食人魔战争 Ogre Wars：</strong>掠夺成性的食人魔军队从安萨隆中部的 Khalkhist 山脉中出现，横扫 Solamnia 平原与 伊斯塔 肥沃的田野。Solamnia 与 伊斯塔 再次联合，最终把食人魔赶回山中。
+<strong>700—600 年，食人魔战争 Ogre Wars：</strong>掠夺成性的食人魔军队从安萨隆中部的 Khalkhist 山脉中出现，横扫 索兰尼亚（Solamnia） 平原与 伊斯塔 肥沃的田野。索兰尼亚（Solamnia） 与 伊斯塔 再次联合，最终把食人魔赶回山中。
 
-<strong>600—280 年，Solamnia／伊斯塔 联盟巩固 Union of Solamnia/伊斯塔 Solidified：</strong>两个伟大的人类国家变得越来越独立。索拉姆尼亚骑士团成为两国的军事力量，而 伊斯塔的艺术与教育才能则传遍整个大陆。伊斯塔 逐渐成为占优势的一方。
+<strong>600—280 年，索兰尼亚（Solamnia）／伊斯塔 联盟巩固 Union of Solamnia/伊斯塔 Solidified：</strong>两个伟大的人类国家变得越来越独立。索兰尼亚骑士团成为两国的军事力量，而 伊斯塔的艺术与教育才能则传遍整个大陆。伊斯塔 逐渐成为占优势的一方。
 
-<strong>280 年，第一位至高祭司宣布 First Kingpriest Declared：</strong>伊斯塔 首都被宣布为世界中心。第一位至高祭司的加冕，巩固了 Solamnia 的军事力量与 伊斯塔的精神指导之间的纽带。
+<strong>280 年，第一位至高祭司宣布 First Kingpriest Declared：</strong>伊斯塔 首都被宣布为世界中心。第一位至高祭司的加冕，巩固了 索兰尼亚（Solamnia） 的军事力量与 伊斯塔的精神指导之间的纽带。
 
 <strong>260 年，至高祭司神殿开始建造 Construction of the Temple of the Kingpriest Commences：</strong>克莱恩最优秀的工匠被召集到 伊斯塔，建造一座向世界与诸神宣告 伊斯塔 国荣耀的神殿。
 

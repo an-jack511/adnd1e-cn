@@ -395,7 +395,7 @@
     "details": [
       {
         "title": "人类控制 Human Control",
-        "html": "<p>饮用者可像施放“魅惑类人”一样控制最多 <strong>32 个等级／生命骰</strong>的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 <strong>1+2=1，2+6=2</strong>。由 <strong>1d20</strong>随机决定可控制的种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d20</th><th align=\"left\">生物种类</th></tr></thead><tbody><tr><td align=\"center\">1–2</td><td align=\"left\">矮人</td></tr><tr><td align=\"center\">3–4</td><td align=\"left\">精灵／半精灵</td></tr><tr><td align=\"center\">5–6</td><td align=\"left\">侏儒</td></tr><tr><td align=\"center\">7–8</td><td align=\"left\">半身人</td></tr><tr><td align=\"center\">9–10</td><td align=\"left\">半兽人</td></tr><tr><td align=\"center\">11–16</td><td align=\"left\">人类</td></tr><tr><td align=\"center\">17–19</td><td align=\"left\">人形生物（豺狼人、兽人、地精等）</td></tr><tr><td align=\"center\">20</td><td align=\"left\">精灵、半精灵与人类</td></tr></tbody></table>\n<p>效果持续 <strong>5–30 轮</strong>。</p>",
+        "html": "<p>饮用者可像施放“魅惑人类”一样控制最多 <strong>32 个等级／生命骰</strong>的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 <strong>1+2=1，2+6=2</strong>。由 <strong>1d20</strong>随机决定可控制的种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d20</th><th align=\"left\">生物种类</th></tr></thead><tbody><tr><td align=\"center\">1–2</td><td align=\"left\">矮人</td></tr><tr><td align=\"center\">3–4</td><td align=\"left\">精灵／半精灵</td></tr><tr><td align=\"center\">5–6</td><td align=\"left\">侏儒</td></tr><tr><td align=\"center\">7–8</td><td align=\"left\">半身人</td></tr><tr><td align=\"center\">9–10</td><td align=\"left\">半兽人</td></tr><tr><td align=\"center\">11–16</td><td align=\"left\">人类</td></tr><tr><td align=\"center\">17–19</td><td align=\"left\">人形生物（豺狼人、兽人、地精等）</td></tr><tr><td align=\"center\">20</td><td align=\"left\">精灵、半精灵与人类</td></tr></tbody></table>\n<p>效果持续 <strong>5–30 轮</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "人类控制 Human Control"
@@ -403,7 +403,7 @@
         "href": "/books/dmg/dmg-treasure/"
       }
     ],
-    "description": "饮用者可像施放“魅惑类人”一样控制最多 32 个等级／生命骰 的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 1+2=1，2+6=2 。由 1d20 随机决定可控制的种类："
+    "description": "饮用者可像施放“魅惑人类”一样控制最多 32 个等级／生命骰 的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 1+2=1，2+6=2 。由 1d20 随机决定可控制的种类："
   },
   "magic-invisibility": {
     "details": [
@@ -619,7 +619,7 @@
     "details": [
       {
         "title": "不死生物控制 Undead Control",
-        "html": "<p>此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑类人”法术，最多影响 <strong>16 个生命骰</strong>的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 <strong>4+1</strong>按 <strong>4</strong> 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 <strong>−2</strong> 惩罚。效果持续 <strong>5–20 轮</strong>。掷 <strong>1d10</strong>确定此药水影响的不死生物种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d10</th><th align=\"left\">不死生物</th></tr></thead><tbody><tr><td align=\"center\">1</td><td align=\"left\">怨魂</td></tr><tr><td align=\"center\">2</td><td align=\"left\">鬼魂</td></tr><tr><td align=\"center\">3</td><td align=\"left\">食尸鬼</td></tr><tr><td align=\"center\">4</td><td align=\"left\">阴影</td></tr><tr><td align=\"center\">5</td><td align=\"left\">骷髅</td></tr><tr><td align=\"center\">6</td><td align=\"left\">幽灵</td></tr><tr><td align=\"center\">7</td><td align=\"left\">尸妖</td></tr><tr><td align=\"center\">8</td><td align=\"left\">缚灵</td></tr><tr><td align=\"center\">9</td><td align=\"left\">吸血鬼</td></tr><tr><td align=\"center\">10</td><td align=\"left\">僵尸</td></tr></tbody></table>",
+        "html": "<p>此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑人类”法术，最多影响 <strong>16 个生命骰</strong>的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 <strong>4+1</strong>按 <strong>4</strong> 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 <strong>−2</strong> 惩罚。效果持续 <strong>5–20 轮</strong>。掷 <strong>1d10</strong>确定此药水影响的不死生物种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d10</th><th align=\"left\">不死生物</th></tr></thead><tbody><tr><td align=\"center\">1</td><td align=\"left\">怨魂</td></tr><tr><td align=\"center\">2</td><td align=\"left\">鬼魂</td></tr><tr><td align=\"center\">3</td><td align=\"left\">食尸鬼</td></tr><tr><td align=\"center\">4</td><td align=\"left\">阴影</td></tr><tr><td align=\"center\">5</td><td align=\"left\">骷髅</td></tr><tr><td align=\"center\">6</td><td align=\"left\">幽灵</td></tr><tr><td align=\"center\">7</td><td align=\"left\">尸妖</td></tr><tr><td align=\"center\">8</td><td align=\"left\">缚灵</td></tr><tr><td align=\"center\">9</td><td align=\"left\">吸血鬼</td></tr><tr><td align=\"center\">10</td><td align=\"left\">僵尸</td></tr></tbody></table>",
         "source": {
           "book": "DMG",
           "section": "不死生物控制 Undead Control"
@@ -627,7 +627,7 @@
         "href": "/books/dmg/dmg-treasure/"
       }
     ],
-    "description": "此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑类人”法术，最多影响 16 个生命骰 的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 4+1 按 4 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 −2 惩罚。效果持续 5–20 轮 。掷 1d10 确定此药水影响的不死生物种类："
+    "description": "此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑人类”法术，最多影响 16 个生命骰 的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 4+1 按 4 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 −2 惩罚。效果持续 5–20 轮 。掷 1d10 确定此药水影响的不死生物种类："
   },
   "magic-water-breathing": {
     "details": [
@@ -647,7 +647,7 @@
     "details": [
       {
         "title": "反向戒指 Ring of Contrariness",
-        "html": "<p>这是一枚诅咒戒指，会使佩戴者无法赞同任何想法、陈述或行动。戴上后，只有对佩戴者施放“移除诅咒”才能取下。受诅咒影响，佩戴者会尝试施放自己会用的任何法术。此外，反向戒指还会随机拥有以下一项额外魔法能力：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">额外能力</th></tr></thead><tbody><tr><td align=\"center\">01–20</td><td align=\"left\">飞行</td></tr><tr><td align=\"center\">21–40</td><td align=\"left\">隐形</td></tr><tr><td align=\"center\">41–60</td><td align=\"left\">浮空</td></tr><tr><td align=\"center\">61–70</td><td align=\"left\">电爪术（每轮一次）</td></tr><tr><td align=\"center\">71–80</td><td align=\"left\">法术反转</td></tr><tr><td align=\"center\">81–00</td><td align=\"left\">力量 <strong>18/00</strong></td></tr></tbody></table>\n<p>反向诅咒无法从戒指本身移除。佩戴者会使用自己的能力以及戒指能力，以确保戒指留在手上，但不会伤害自己。例如，其他角色建议他攻击某个目标，或认为自己防守严密、不应攻击时，佩戴者便会反其道而行之——甚至可能攻击或打向说话者的头，因为他显然就是这么认为的。若反向戒指会施展法术，则必须对佩戴者累计施放足以达到或超过 <strong>100%</strong> 效力的“移除诅咒”，才能解除该项法术效果。</p>",
+        "html": "<p>这是一枚诅咒戒指，会使佩戴者无法赞同任何想法、陈述或行动。戴上后，只有对佩戴者施放“移除诅咒”才能取下。受诅咒影响，佩戴者会尝试施放自己会用的任何法术。此外，反向戒指还会随机拥有以下一项额外魔法能力：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">额外能力</th></tr></thead><tbody><tr><td align=\"center\">01–20</td><td align=\"left\">飞行</td></tr><tr><td align=\"center\">21–40</td><td align=\"left\">隐形</td></tr><tr><td align=\"center\">41–60</td><td align=\"left\">浮空</td></tr><tr><td align=\"center\">61–70</td><td align=\"left\">电爪（每轮一次）</td></tr><tr><td align=\"center\">71–80</td><td align=\"left\">法术反转</td></tr><tr><td align=\"center\">81–00</td><td align=\"left\">力量 <strong>18/00</strong></td></tr></tbody></table>\n<p>反向诅咒无法从戒指本身移除。佩戴者会使用自己的能力以及戒指能力，以确保戒指留在手上，但不会伤害自己。例如，其他角色建议他攻击某个目标，或认为自己防守严密、不应攻击时，佩戴者便会反其道而行之——甚至可能攻击或打向说话者的头，因为他显然就是这么认为的。若反向戒指会施展法术，则必须对佩戴者累计施放足以达到或超过 <strong>100%</strong> 效力的“移除诅咒”，才能解除该项法术效果。</p>",
         "source": {
           "book": "DMG",
           "section": "反向戒指 Ring of Contrariness"
@@ -745,7 +745,7 @@
     "details": [
       {
         "title": "影响人类戒指 Ring of Human Influence",
-        "html": "<p>佩戴者与人类／类人生物进行反应检定时，魅力视为 <strong>18</strong>。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑类人”法术一样，魅惑最多 <strong>21 个等级／生命骰</strong>的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 <strong>3 段</strong>施法时间。</p>",
+        "html": "<p>佩戴者与人类／类人生物进行反应检定时，魅力视为 <strong>18</strong>。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑人类”法术一样，魅惑最多 <strong>21 个等级／生命骰</strong>的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 <strong>3 段</strong>施法时间。</p>",
         "source": {
           "book": "DMG",
           "section": "影响人类戒指 Ring of Human Influence"
@@ -753,7 +753,7 @@
         "href": "/books/dmg/dmg-treasure/"
       }
     ],
-    "description": "佩戴者与人类／类人生物进行反应检定时，魅力视为 18 。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑类人”法术一样，魅惑最多 21 个等级／生命骰 的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 3 段 施法时间。"
+    "description": "佩戴者与人类／类人生物进行反应检定时，魅力视为 18 。此外，佩戴者可对交谈过的任意人类或类人生物提出一个暗示（允许豁免检定），也可像使用魔法师“魅惑人类”法术一样，魅惑最多 21 个等级／生命骰 的人类或类人生物（目标可进行豁免检定）。后两项能力每日各可使用一次。“暗示术”或魅惑需 3 段 施法时间。"
   },
   "magic-ring-of-invisibility": {
     "details": [
@@ -983,7 +983,7 @@
     "details": [
       {
         "title": "吸收权杖 Rod of Absorption",
-        "html": "<p>此权杖会像磁铁一样吸收任何种类的法术——无论是牧师、德鲁伊、魔法师还是幻术师法术——使其效果无效，但会将潜在能量储存在权杖中，供持有者选择是否转化为自己施展的法术。被吸收的法术必须是以权杖持有者为目标的法术。（参见“法术反转戒指”。）持有者可以立即得知法术环级，并决定是否让权杖吸收该法术。只要法术环级等于或低于持有者已记忆的法术，他／她便可在 <strong>1 段</strong>内消耗储存能量施展该法术，且不会失去原先记忆的法术。高于持有者记忆法术等级的剩余能量，也可用同样方式施展；持有者只须记忆该法术，每次施展耗时 <strong>1 段</strong>。</p>\n<p>吸收权杖永远无法重新充能。它最多吸收 <strong>50 个法术环级</strong>的能量；达到此上限后只能释放尚存能量。持有者能得知权杖的 charges；若曾使用过，便会知道它已吸收多少法术环级。</p>\n<p>例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“定身类人”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 个 charges</strong>永久消耗。</p>",
+        "html": "<p>此权杖会像磁铁一样吸收任何种类的法术——无论是牧师、德鲁伊、魔法师还是幻术师法术——使其效果无效，但会将潜在能量储存在权杖中，供持有者选择是否转化为自己施展的法术。被吸收的法术必须是以权杖持有者为目标的法术。（参见“法术反转戒指”。）持有者可以立即得知法术环级，并决定是否让权杖吸收该法术。只要法术环级等于或低于持有者已记忆的法术，他／她便可在 <strong>1 段</strong>内消耗储存能量施展该法术，且不会失去原先记忆的法术。高于持有者记忆法术等级的剩余能量，也可用同样方式施展；持有者只须记忆该法术，每次施展耗时 <strong>1 段</strong>。</p>\n<p>吸收权杖永远无法重新充能。它最多吸收 <strong>50 个法术环级</strong>的能量；达到此上限后只能释放尚存能量。持有者能得知权杖的 charges；若曾使用过，便会知道它已吸收多少法术环级。</p>\n<p>例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“人类定身术”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 个 charges</strong>永久消耗。</p>",
         "source": {
           "book": "DMG",
           "section": "吸收权杖 Rod of Absorption"
@@ -1039,7 +1039,7 @@
     "details": [
       {
         "title": "复生权杖 Rod of Resurrection",
-        "html": "<p>此权杖使牧师能够复活死者——包括精灵、矮人、侏儒或半身人——如同施法者等级足够高，且不需要休息便能施展相应法术，因为权杖会提供复活生命所需的能量。每日可使用一次。复活角色消耗的 charges 取决于其职业与种族：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"left\">职业</th><th align=\"center\">charges</th><th align=\"left\">种族</th><th align=\"center\">charges</th></tr></thead><tbody><tr><td align=\"left\">牧师</td><td align=\"center\">1</td><td align=\"left\">矮人</td><td align=\"center\">3</td></tr><tr><td align=\"left\">德鲁伊</td><td align=\"center\">2</td><td align=\"left\">精灵</td><td align=\"center\">4</td></tr><tr><td align=\"left\">战士</td><td align=\"center\">2</td><td align=\"left\">侏儒</td><td align=\"center\">3</td></tr><tr><td align=\"left\">圣武士</td><td align=\"center\">1</td><td align=\"left\">半精灵</td><td align=\"center\">2</td></tr><tr><td align=\"left\">游侠</td><td align=\"center\">2</td><td align=\"left\">半身人</td><td align=\"center\">2</td></tr><tr><td align=\"left\">魔法师</td><td align=\"center\">3</td><td align=\"left\">半兽人</td><td align=\"center\">4</td></tr><tr><td align=\"left\">幻术师</td><td align=\"center\">3</td><td align=\"left\">人类</td><td align=\"center\">1</td></tr><tr><td align=\"left\">盗贼</td><td align=\"center\">3</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">刺客</td><td align=\"center\">4</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">武僧</td><td align=\"center\">3</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">吟游诗人</td><td align=\"center\">2</td><td align=\"left\"></td><td align=\"center\"></td></tr></tbody></table>\n<p>多职业角色按最不利的职业类别计算。此权杖无法重新充能。</p>",
+        "html": "<p>此权杖使牧师能够复活死者——包括精灵、矮人、侏儒或半身人——如同施法者等级足够高，且不需要休息便能施展相应法术，因为权杖会提供复活生命所需的能量。每日可使用一次。复活角色消耗的 charges 取决于其职业与种族：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"left\">职业</th><th align=\"center\">charges</th><th align=\"left\">种族</th><th align=\"center\">charges</th></tr></thead><tbody><tr><td align=\"left\">牧师</td><td align=\"center\">1</td><td align=\"left\">矮人</td><td align=\"center\">3</td></tr><tr><td align=\"left\">德鲁伊</td><td align=\"center\">2</td><td align=\"left\">精灵</td><td align=\"center\">4</td></tr><tr><td align=\"left\">战士</td><td align=\"center\">2</td><td align=\"left\">侏儒</td><td align=\"center\">3</td></tr><tr><td align=\"left\">圣武士</td><td align=\"center\">1</td><td align=\"left\">半精灵</td><td align=\"center\">2</td></tr><tr><td align=\"left\">巡林客</td><td align=\"center\">2</td><td align=\"left\">半身人</td><td align=\"center\">2</td></tr><tr><td align=\"left\">魔法师</td><td align=\"center\">3</td><td align=\"left\">半兽人</td><td align=\"center\">4</td></tr><tr><td align=\"left\">幻术师</td><td align=\"center\">3</td><td align=\"left\">人类</td><td align=\"center\">1</td></tr><tr><td align=\"left\">盗贼</td><td align=\"center\">3</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">刺客</td><td align=\"center\">4</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">武僧</td><td align=\"center\">3</td><td align=\"left\"></td><td align=\"center\"></td></tr><tr><td align=\"left\">吟游诗人</td><td align=\"center\">2</td><td align=\"left\"></td><td align=\"center\"></td></tr></tbody></table>\n<p>多职业角色按最不利的职业类别计算。此权杖无法重新充能。</p>",
         "source": {
           "book": "DMG",
           "section": "复活权杖 Rod of Resurrection"
@@ -1557,7 +1557,7 @@
     "details": [
       {
         "title": "水晶球 Crystal Ball",
-        "html": "<p>水晶球是最常见的占卜装置，通常是直径约 <strong>½’</strong>的水晶球。魔法师可用它观察几乎任何距离之外的事物，或窥视其他存在位面。使用者必须知道要观察的对象。相关知识可来自私人熟识、拥有对方的私人物品、拥有肖像、或积累相关信息。决定能否成功定位的关键是知识，而非距离：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>对对象的了解程度</th><th align=\"right\">定位概率*</th></tr></thead><tbody><tr><td>私人熟识</td><td align=\"right\">100%</td></tr><tr><td>略微认识</td><td align=\"right\">85%</td></tr><tr><td>有其肖像</td><td align=\"right\">50%</td></tr><tr><td>持有其物品</td><td align=\"right\">50%</td></tr><tr><td>持有其衣物</td><td align=\"right\">25%</td></tr><tr><td>对其情况了解充分</td><td align=\"right\">25%</td></tr><tr><td>对其情况略有了解</td><td align=\"right\">20%</td></tr><tr><td>对象位于另一位面</td><td align=\"right\">25%</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>定位概率还决定魔法师能够观察目标多久、观察频率如何：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>定位概率*</th><th align=\"right\">每次观察时长</th><th align=\"right\">频率</th></tr></thead><tbody><tr><td>100% 或更高</td><td align=\"right\">1 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>90%–99%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>75%–89%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 2 次</td></tr><tr><td>50%–74%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>25%–49%</td><td align=\"right\">¼ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>24% 或更低</td><td align=\"right\">⅙ 小时</td><td align=\"right\">每天 1 次</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>若超过上述时长或频率继续观察，魔法师每轮都必须进行对抗魔法的豁免检定。失败会使其智力永久降低 <strong>1 点</strong>，并陷入疯狂，直到得到治疗。</p>\n<p>对水晶球使用某些法术，可能提高其能力：<strong>通晓语言、阅读魔法、红外视觉术、通晓语言术</strong>。另有两种法术可以透过水晶球施展，但魔法师每有 <strong>1 个经验等级</strong>，正确施展的概率才增加 <strong>5%</strong>：<strong>侦测魔法</strong>与<strong>侦测善恶</strong>。</p>\n<p>某些水晶球还有额外能力，掷随机骰决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>能力</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>普通水晶球</td></tr><tr><td align=\"right\">51–75</td><td>水晶球，附带千里耳</td></tr><tr><td align=\"right\">76–90</td><td>水晶球，附带 ESP</td></tr><tr><td align=\"right\">91–00</td><td>水晶球，附带心灵感应*</td></tr></tbody></table>\n<p>* 仅限通信。</p>\n<p>装置法术能力按 <strong>10 级</strong>计算。</p>\n<p>只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、游侠 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、僧侣 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。</p>\n<p>智力每高于 <strong>12</strong> 点，生物察觉占卜的累积概率便按算术递增方式增加：从 <strong>1%</strong>开始，智力 <strong>13–18</strong>时依次为 <strong>1%、3%、6%、10%、15%、21%</strong>。此外，每有 <strong>1 个经验等级</strong>，察觉占卜的概率再增加 <strong>1%</strong>。怪物按最适合的上述职业计算。</p>\n<p>每轮检查一次。若掷骰结果不高于相应概率，目标便察觉自己正被观察。若目标是施法者（牧师、德鲁伊、魔法师或幻术师），则使用原书第 <strong>60 页</strong>的“隐形侦测”表，而不是以上概率，并且每轮都要检查。施展“解除魔法”会使水晶球停止运作 <strong>1 天</strong>。针对水晶球窥视的各类防护法术则会使装置变得朦胧、无法正常工作。</p>\n\n<p>（注：你也可以允许牧师与德鲁伊使用占卜装置，例如水盆和镜子；其功能视同普通水晶球。）</p>",
+        "html": "<p>水晶球是最常见的占卜装置，通常是直径约 <strong>½’</strong>的水晶球。魔法师可用它观察几乎任何距离之外的事物，或窥视其他存在位面。使用者必须知道要观察的对象。相关知识可来自私人熟识、拥有对方的私人物品、拥有肖像、或积累相关信息。决定能否成功定位的关键是知识，而非距离：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>对对象的了解程度</th><th align=\"right\">定位概率*</th></tr></thead><tbody><tr><td>私人熟识</td><td align=\"right\">100%</td></tr><tr><td>略微认识</td><td align=\"right\">85%</td></tr><tr><td>有其肖像</td><td align=\"right\">50%</td></tr><tr><td>持有其物品</td><td align=\"right\">50%</td></tr><tr><td>持有其衣物</td><td align=\"right\">25%</td></tr><tr><td>对其情况了解充分</td><td align=\"right\">25%</td></tr><tr><td>对其情况略有了解</td><td align=\"right\">20%</td></tr><tr><td>对象位于另一位面</td><td align=\"right\">25%</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>定位概率还决定魔法师能够观察目标多久、观察频率如何：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>定位概率*</th><th align=\"right\">每次观察时长</th><th align=\"right\">频率</th></tr></thead><tbody><tr><td>100% 或更高</td><td align=\"right\">1 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>90%–99%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>75%–89%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 2 次</td></tr><tr><td>50%–74%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>25%–49%</td><td align=\"right\">¼ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>24% 或更低</td><td align=\"right\">⅙ 小时</td><td align=\"right\">每天 1 次</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>若超过上述时长或频率继续观察，魔法师每轮都必须进行对抗魔法的豁免检定。失败会使其智力永久降低 <strong>1 点</strong>，并陷入疯狂，直到得到治疗。</p>\n<p>对水晶球使用某些法术，可能提高其能力：<strong>通晓语言、阅读魔法、红外视觉术、通晓语言术</strong>。另有两种法术可以透过水晶球施展，但魔法师每有 <strong>1 个经验等级</strong>，正确施展的概率才增加 <strong>5%</strong>：<strong>侦测魔法</strong>与<strong>侦测善恶</strong>。</p>\n<p>某些水晶球还有额外能力，掷随机骰决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>能力</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>普通水晶球</td></tr><tr><td align=\"right\">51–75</td><td>水晶球，附带千里耳</td></tr><tr><td align=\"right\">76–90</td><td>水晶球，附带 ESP</td></tr><tr><td align=\"right\">91–00</td><td>水晶球，附带心灵感应*</td></tr></tbody></table>\n<p>* 仅限通信。</p>\n<p>装置法术能力按 <strong>10 级</strong>计算。</p>\n<p>只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、巡林客 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、武僧 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。</p>\n<p>智力每高于 <strong>12</strong> 点，生物察觉占卜的累积概率便按算术递增方式增加：从 <strong>1%</strong>开始，智力 <strong>13–18</strong>时依次为 <strong>1%、3%、6%、10%、15%、21%</strong>。此外，每有 <strong>1 个经验等级</strong>，察觉占卜的概率再增加 <strong>1%</strong>。怪物按最适合的上述职业计算。</p>\n<p>每轮检查一次。若掷骰结果不高于相应概率，目标便察觉自己正被观察。若目标是施法者（牧师、德鲁伊、魔法师或幻术师），则使用原书第 <strong>60 页</strong>的“隐形侦测”表，而不是以上概率，并且每轮都要检查。施展“解除魔法”会使水晶球停止运作 <strong>1 天</strong>。针对水晶球窥视的各类防护法术则会使装置变得朦胧、无法正常工作。</p>\n\n<p>（注：你也可以允许牧师与德鲁伊使用占卜装置，例如水盆和镜子；其功能视同普通水晶球。）</p>",
         "source": {
           "book": "DMG",
           "section": "水晶球 Crystal Ball"
@@ -2355,7 +2355,7 @@
     "details": [
       {
         "title": "精湛武艺手册 Manual of Puissant Skill at Arms",
-        "html": "<p>这本学术著作详述武器使用、攻击方式和防御技巧。任何战士（包括吟游诗人，但不包括圣武士或游侠）读完手册，并依照其中内容练习 <strong>1 个月</strong>，经验等级便会提升至下一级的中点。书在读完后消失，其中知识会在 <strong>3 个月</strong>内遗忘，因此读者应尽快付诸实践。战士无法讲述所读内容，也不能以任何方式记录下来。圣武士或游侠虽能理解手册，却无法从中受益。任何牧师（包括德鲁伊）、盗贼（包括刺客）或武僧接触或阅读手册，都无法理解其内容。魔法师（包括幻术师）只要扫过书中几行文字，便会震慑 <strong>1–6 轮</strong>，并损失 <strong>10,000–60,000 点经验值</strong>，因为此书与施法职业完全相悖。同一角色只能从本手册中获益一次。</p>",
+        "html": "<p>这本学术著作详述武器使用、攻击方式和防御技巧。任何战士（包括吟游诗人，但不包括圣武士或巡林客）读完手册，并依照其中内容练习 <strong>1 个月</strong>，经验等级便会提升至下一级的中点。书在读完后消失，其中知识会在 <strong>3 个月</strong>内遗忘，因此读者应尽快付诸实践。战士无法讲述所读内容，也不能以任何方式记录下来。圣武士或巡林客虽能理解手册，却无法从中受益。任何牧师（包括德鲁伊）、盗贼（包括刺客）或武僧接触或阅读手册，都无法理解其内容。魔法师（包括幻术师）只要扫过书中几行文字，便会震慑 <strong>1–6 轮</strong>，并损失 <strong>10,000–60,000 点经验值</strong>，因为此书与施法职业完全相悖。同一角色只能从本手册中获益一次。</p>",
         "source": {
           "book": "DMG",
           "section": "精湛武艺手册 Manual of Puissant Skill at Arms"
@@ -2363,7 +2363,7 @@
         "href": "/books/dmg/treasure-continuation-10/"
       }
     ],
-    "description": "这本学术著作详述武器使用、攻击方式和防御技巧。任何战士（包括吟游诗人，但不包括圣武士或游侠）读完手册，并依照其中内容练习 1 个月 ，经验等级便会提升至下一级的中点。书在读完后消失，其中知识会在 3 个月 内遗忘，因此读者应尽快付诸实践。战士无法讲述所读内容，也不能以任何方式记录下来。圣武士或游侠虽能理解手册，却无法从中受益。任何牧师（包括德鲁伊）、盗贼（包括刺客）或武僧接触或阅读手册，都无法理解其内容。魔法师（包括幻术师）只要扫过书中几行文字，便会震慑 1–6 轮 ，并损失 10,000–60,000 点经验值 ，因为此书与施法职业完全相悖。同一角色只能从本手册中获益一次。"
+    "description": "这本学术著作详述武器使用、攻击方式和防御技巧。任何战士（包括吟游诗人，但不包括圣武士或巡林客）读完手册，并依照其中内容练习 1 个月 ，经验等级便会提升至下一级的中点。书在读完后消失，其中知识会在 3 个月 内遗忘，因此读者应尽快付诸实践。战士无法讲述所读内容，也不能以任何方式记录下来。圣武士或巡林客虽能理解手册，却无法从中受益。任何牧师（包括德鲁伊）、盗贼（包括刺客）或武僧接触或阅读手册，都无法理解其内容。魔法师（包括幻术师）只要扫过书中几行文字，便会震慑 1–6 轮 ，并损失 10,000–60,000 点经验值 ，因为此书与施法职业完全相悖。同一角色只能从本手册中获益一次。"
   },
   "magic-manual-of-quickness-of-action": {
     "details": [
@@ -2383,7 +2383,7 @@
     "details": [
       {
         "title": "隐秘窃取手册 Manual of Stealthy Pilfering",
-        "html": "<p>这本盗窃技艺指南内容精深博学。任何盗贼读完后再花 <strong>1 个月</strong>练习其中技能，都会获得足够经验值，恰好升至下一个经验等级的中点。读完后文本会消失，但读者能将知识保留 <strong>3 个月</strong>；与其他同类魔法典籍一样，这些知识不能记录或讲述。同一角色再读其他同类手册也不会获益。刺客读完并思索内容 <strong>1 周</strong>，只能额外获得 <strong>5,000 点经验值</strong>。战士、魔法师与武僧无法理解此书。牧师、游侠或圣武士哪怕只读一字，都会受到 <strong>5–20 点伤害</strong>并震慑同样数量的轮次；若未通过对抗魔法的豁免检定，还会损失 <strong>5,000–20,000 点经验值</strong>。此外，这些角色必须在 <strong>1 天</strong>内赎罪，否则会损失 <strong>1 点感知</strong>。</p>",
+        "html": "<p>这本盗窃技艺指南内容精深博学。任何盗贼读完后再花 <strong>1 个月</strong>练习其中技能，都会获得足够经验值，恰好升至下一个经验等级的中点。读完后文本会消失，但读者能将知识保留 <strong>3 个月</strong>；与其他同类魔法典籍一样，这些知识不能记录或讲述。同一角色再读其他同类手册也不会获益。刺客读完并思索内容 <strong>1 周</strong>，只能额外获得 <strong>5,000 点经验值</strong>。战士、魔法师与武僧无法理解此书。牧师、巡林客或圣武士哪怕只读一字，都会受到 <strong>5–20 点伤害</strong>并震慑同样数量的轮次；若未通过对抗魔法的豁免检定，还会损失 <strong>5,000–20,000 点经验值</strong>。此外，这些角色必须在 <strong>1 天</strong>内赎罪，否则会损失 <strong>1 点感知</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "隐秘窃取手册 Manual of Stealthy Pilfering"
@@ -2391,7 +2391,7 @@
         "href": "/books/dmg/treasure-continuation-11/"
       }
     ],
-    "description": "这本盗窃技艺指南内容精深博学。任何盗贼读完后再花 1 个月 练习其中技能，都会获得足够经验值，恰好升至下一个经验等级的中点。读完后文本会消失，但读者能将知识保留 3 个月 ；与其他同类魔法典籍一样，这些知识不能记录或讲述。同一角色再读其他同类手册也不会获益。刺客读完并思索内容 1 周 ，只能额外获得 5,000 点经验值 。战士、魔法师与武僧无法理解此书。牧师、游侠或圣武士哪怕只读一字，都会受到 5–20 点伤害 并震慑同样数量的轮次；若未通过对抗魔法的豁免检定，还会损失 5,000–20,000 点经验值 。此外，这些角色必须在 1 天 内赎罪，否则会损失 1 点感知 。"
+    "description": "这本盗窃技艺指南内容精深博学。任何盗贼读完后再花 1 个月 练习其中技能，都会获得足够经验值，恰好升至下一个经验等级的中点。读完后文本会消失，但读者能将知识保留 3 个月 ；与其他同类魔法典籍一样，这些知识不能记录或讲述。同一角色再读其他同类手册也不会获益。刺客读完并思索内容 1 周 ，只能额外获得 5,000 点经验值 。战士、魔法师与武僧无法理解此书。牧师、巡林客或圣武士哪怕只读一字，都会受到 5–20 点伤害 并震慑同样数量的轮次；若未通过对抗魔法的豁免检定，还会损失 5,000–20,000 点经验值 。此外，这些角色必须在 1 天 内赎罪，否则会损失 1 点感知 。"
   },
   "magic-mattock-of-the-titans": {
     "details": [
@@ -2523,7 +2523,7 @@
     "details": [
       {
         "title": "念珠项链 Necklace of Prayer Beads",
-        "html": "<p>这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与游侠）才能察觉其魔力。念珠项链由 <strong>25–30 颗</strong>半宝石（<strong>60%</strong>）或奇异宝石（<strong>40%</strong>）组成。穿戴者向神祇祈求并获得所需法术的成功概率提高 <strong>25%</strong>。</p>\n<p>项链上另有 <strong>3–6 颗</strong>特殊珠子（贵重宝石，基础价值 <strong>1,000 gp</strong>），逐颗掷骰决定种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d20</th><th>珠子效果</th></tr></thead><tbody><tr><td align=\"right\">1–5</td><td><strong>赎罪珠：</strong>效果如同五环“赎罪术”</td></tr><tr><td align=\"right\">6–10</td><td><strong>祝福珠：</strong>效果如同一环“祝福术”</td></tr><tr><td align=\"right\">11–15</td><td><strong>疗愈珠：</strong>治愈目盲、疾病或重伤（效果如同相应法术）</td></tr><tr><td align=\"right\">16–17</td><td><strong>业报珠：</strong>牧师施法时视为高 <strong>4 级</strong>（影响射程、持续时间等）</td></tr><tr><td align=\"right\">18</td><td><strong>召唤珠：</strong>以 <strong>90%</strong> 的概率召来牧师的神祇，以实体形态降临（最好确有正当理由！）</td></tr><tr><td align=\"right\">19–20</td><td><strong>风行珠：</strong>效果如同七环“风行术”</td></tr></tbody></table>\n<p>每颗特殊珠子每天只能使用一次。若牧师召来了神祇，神祇至少会没收项链，作为其妄用召唤能力的惩罚。只有握住珠子并施展“神谕术”，才能知晓其功能。若将特殊珠子从项链上取下，其所有能力都会消失。</p>",
+        "html": "<p>这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与巡林客）才能察觉其魔力。念珠项链由 <strong>25–30 颗</strong>半宝石（<strong>60%</strong>）或奇异宝石（<strong>40%</strong>）组成。穿戴者向神祇祈求并获得所需法术的成功概率提高 <strong>25%</strong>。</p>\n<p>项链上另有 <strong>3–6 颗</strong>特殊珠子（贵重宝石，基础价值 <strong>1,000 gp</strong>），逐颗掷骰决定种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d20</th><th>珠子效果</th></tr></thead><tbody><tr><td align=\"right\">1–5</td><td><strong>赎罪珠：</strong>效果如同五环“赎罪术”</td></tr><tr><td align=\"right\">6–10</td><td><strong>祝福珠：</strong>效果如同一环“祝福术”</td></tr><tr><td align=\"right\">11–15</td><td><strong>疗愈珠：</strong>治愈目盲、疾病或重伤（效果如同相应法术）</td></tr><tr><td align=\"right\">16–17</td><td><strong>业报珠：</strong>牧师施法时视为高 <strong>4 级</strong>（影响射程、持续时间等）</td></tr><tr><td align=\"right\">18</td><td><strong>召唤珠：</strong>以 <strong>90%</strong> 的概率召来牧师的神祇，以实体形态降临（最好确有正当理由！）</td></tr><tr><td align=\"right\">19–20</td><td><strong>风行珠：</strong>效果如同七环“风行术”</td></tr></tbody></table>\n<p>每颗特殊珠子每天只能使用一次。若牧师召来了神祇，神祇至少会没收项链，作为其妄用召唤能力的惩罚。只有握住珠子并施展“神谕术”，才能知晓其功能。若将特殊珠子从项链上取下，其所有能力都会消失。</p>",
         "source": {
           "book": "DMG",
           "section": "祈祷珠项链 Necklace of Prayer Beads"
@@ -2531,7 +2531,7 @@
         "href": "/books/dmg/treasure-continuation-12/"
       }
     ],
-    "description": "这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与游侠）才能察觉其魔力。念珠项链由 25–30 颗 半宝石（ 60% ）或奇异宝石（ 40% ）组成。穿戴者向神祇祈求并获得所需法术的成功概率提高 25% 。"
+    "description": "这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与巡林客）才能察觉其魔力。念珠项链由 25–30 颗 半宝石（ 60% ）或奇异宝石（ 40% ）组成。穿戴者向神祇祈求并获得所需法术的成功概率提高 25% 。"
   },
   "magic-necklace-of-strangulation": {
     "details": [
@@ -3041,7 +3041,7 @@
     "details": [
       {
         "title": "+3 杀戮箭 Arrow of Slaying",
-        "html": "<p>这是一支 <strong>+3</strong>箭，具有一些特殊标记，例如特殊材质制成的箭杆、稀有生物的羽毛、奇异形状的箭头，或刻在箭尾的符文；这些特征会表明它专门克制某一类生物。若此箭射中其克制的生物，该生物立即死亡。下列只是可能的杀戮箭类型的一部分：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">1</th><th>蛛形生物</th><th align=\"right\">9</th><th>元素生物</th><th align=\"right\">17</th><th>武僧</th></tr></thead><tbody><tr><td align=\"right\">2</td><td>飞禽</td><td align=\"right\">10</td><td>战士</td><td align=\"right\">18</td><td>圣武士</td></tr><tr><td align=\"right\">3</td><td>吟游诗人</td><td align=\"right\">11</td><td>巨人</td><td align=\"right\">19</td><td>游侠</td></tr><tr><td align=\"right\">4</td><td>牧师</td><td align=\"right\">12</td><td>魔像</td><td align=\"right\">20</td><td>爬行类</td></tr><tr><td align=\"right\">5</td><td>恶魔</td><td align=\"right\">13</td><td>幻术师</td><td align=\"right\">21</td><td>海怪</td></tr><tr><td align=\"right\">6</td><td>魔鬼</td><td align=\"right\">14</td><td>麒麟</td><td align=\"right\">22</td><td>盗贼</td></tr><tr><td align=\"right\">7</td><td>龙</td><td align=\"right\">15</td><td>魔法师</td><td align=\"right\">23</td><td>泰坦</td></tr><tr><td align=\"right\">8</td><td>德鲁伊</td><td align=\"right\">16</td><td>哺乳动物</td><td align=\"right\">24</td><td>不死生物</td></tr></tbody></table>\n<p>地下城主可以自行设计类型，并依战役需要调整或限制上述分类。</p>",
+        "html": "<p>这是一支 <strong>+3</strong>箭，具有一些特殊标记，例如特殊材质制成的箭杆、稀有生物的羽毛、奇异形状的箭头，或刻在箭尾的符文；这些特征会表明它专门克制某一类生物。若此箭射中其克制的生物，该生物立即死亡。下列只是可能的杀戮箭类型的一部分：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">1</th><th>蛛形生物</th><th align=\"right\">9</th><th>元素生物</th><th align=\"right\">17</th><th>武僧</th></tr></thead><tbody><tr><td align=\"right\">2</td><td>飞禽</td><td align=\"right\">10</td><td>战士</td><td align=\"right\">18</td><td>圣武士</td></tr><tr><td align=\"right\">3</td><td>吟游诗人</td><td align=\"right\">11</td><td>巨人</td><td align=\"right\">19</td><td>巡林客</td></tr><tr><td align=\"right\">4</td><td>牧师</td><td align=\"right\">12</td><td>魔像</td><td align=\"right\">20</td><td>爬行类</td></tr><tr><td align=\"right\">5</td><td>恶魔</td><td align=\"right\">13</td><td>幻术师</td><td align=\"right\">21</td><td>海怪</td></tr><tr><td align=\"right\">6</td><td>魔鬼</td><td align=\"right\">14</td><td>麒麟</td><td align=\"right\">22</td><td>盗贼</td></tr><tr><td align=\"right\">7</td><td>龙</td><td align=\"right\">15</td><td>魔法师</td><td align=\"right\">23</td><td>泰坦</td></tr><tr><td align=\"right\">8</td><td>德鲁伊</td><td align=\"right\">16</td><td>哺乳动物</td><td align=\"right\">24</td><td>不死生物</td></tr></tbody></table>\n<p>地下城主可以自行设计类型，并依战役需要调整或限制上述分类。</p>",
         "source": {
           "book": "DMG",
           "section": "+3 杀戮箭 Arrow of Slaying"
@@ -4063,7 +4063,7 @@
     "details": [
       {
         "title": "侦测透镜 Lens of Detection",
-        "html": "<p>直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为<em>微视镜片</em>的 <strong>50%</strong>；透过镜片追踪时则可如游侠一般，只是基本移动速度为 <strong>6″</strong>。</p>",
+        "html": "<p>直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为<em>微视镜片</em>的 <strong>50%</strong>；透过镜片追踪时则可如巡林客一般，只是基本移动速度为 <strong>6″</strong>。</p>",
         "source": {
           "book": "UA",
           "section": "侦测透镜 Lens of Detection"
@@ -4071,7 +4071,7 @@
         "href": "/books/ua/ua-dm-misc-item-descriptions-101/"
       }
     ],
-    "description": "直径约 6 英寸 的圆形棱镜，须装在带把的框架中。观察微物的效力为 微视镜片 的 50% ；透过镜片追踪时则可如游侠一般，只是基本移动速度为 6″ 。"
+    "description": "直径约 6 英寸 的圆形棱镜，须装在带把的框架中。观察微物的效力为 微视镜片 的 50% ；透过镜片追踪时则可如巡林客一般，只是基本移动速度为 6″ 。"
   },
   "ua-magic-lens-of-ultravision": {
     "details": [
@@ -4665,7 +4665,7 @@
     "details": [
       {
         "title": "动物友谊戒指 Ring of Animal Friendship",
-        "html": "<p>佩戴者走到<strong>中立阵营、动物智力</strong>的动物 <strong>1″</strong> 内时，动物须作法术豁免。成功则迅速远离佩戴者；失败则变得温驯，跟随佩戴者。戒指按<strong>第 6 级</strong>施法者的力量运作，最多影响合计 <strong>12 生命骰</strong>的动物。佩戴者消耗戒指<strong>一次充能</strong>，还可命令这些友善动物守卫和保护自己。发现时通常有 <strong>27 次充能</strong>，不能再充能。德鲁伊可影响 <strong>24 生命骰</strong>，游侠可影响 <strong>18 生命骰</strong>。</p>",
+        "html": "<p>佩戴者走到<strong>中立阵营、动物智力</strong>的动物 <strong>1″</strong> 内时，动物须作法术豁免。成功则迅速远离佩戴者；失败则变得温驯，跟随佩戴者。戒指按<strong>第 6 级</strong>施法者的力量运作，最多影响合计 <strong>12 生命骰</strong>的动物。佩戴者消耗戒指<strong>一次充能</strong>，还可命令这些友善动物守卫和保护自己。发现时通常有 <strong>27 次充能</strong>，不能再充能。德鲁伊可影响 <strong>24 生命骰</strong>，巡林客可影响 <strong>18 生命骰</strong>。</p>",
         "source": {
           "book": "UA",
           "section": "动物友谊戒指 Ring of Animal Friendship"
@@ -4673,7 +4673,7 @@
         "href": "/books/ua/ua-dm-ring-descriptions/"
       }
     ],
-    "description": "佩戴者走到 中立阵营、动物智力 的动物 1″ 内时，动物须作法术豁免。成功则迅速远离佩戴者；失败则变得温驯，跟随佩戴者。戒指按 第 6 级 施法者的力量运作，最多影响合计 12 生命骰 的动物。佩戴者消耗戒指 一次充能 ，还可命令这些友善动物守卫和保护自己。发现时通常有 27 次充能 ，不能再充能。德鲁伊可影响 24 生命骰 ，游侠可影响 18 生命骰 。"
+    "description": "佩戴者走到 中立阵营、动物智力 的动物 1″ 内时，动物须作法术豁免。成功则迅速远离佩戴者；失败则变得温驯，跟随佩戴者。戒指按 第 6 级 施法者的力量运作，最多影响合计 12 生命骰 的动物。佩戴者消耗戒指 一次充能 ，还可命令这些友善动物守卫和保护自己。发现时通常有 27 次充能 ，不能再充能。德鲁伊可影响 24 生命骰 ，巡林客可影响 18 生命骰 。"
   },
   "ua-magic-anything": {
     "details": [
@@ -5497,7 +5497,7 @@
     "details": [
       {
         "title": "冰裂斧 Frostreaver",
-        "html": "<p>冰裂斧是一把由冰制成的重型战斧。这种冰只能从冰墙冰川上的一处秘密地点采集；在那里，持续数世纪的巨大压力制造出了密度非凡的冰。</p>\n<p>制造冰裂斧所需的知识只有冰民中受尊敬的牧师掌握；冰民是与 thanoi 争夺冰墙冰川控制权的蛮族部落。</p>\n<p>斧刃由 thanoi 的油以及其他成分制成，用来磨利并压平一片压缩冰。牧师必须花费整整一个月才能制造一把冰裂斧，即便如此，制成一把可用斧子的概率也只有 33%。</p>\n<p>斧刃的弱点在于它的性质：因为高于冰点的温度会让冰融化，斧子也会变得毫无价值。处在高于冰点的温度中一天，会使一把冰裂斧变成无用的武器。在温暖环境里，腐坏只需 1d6 小时。</p>\n<p>冰裂斧相当于一把重型战斧 +4。由于冰裂斧的重量和尺寸，只有力量值至少为 13 的角色才能挥舞它。</p>",
+        "html": "<p>冰裂斧是一把由冰制成的重型战斧。这种冰只能从冰墙冰川上的一处秘密地点采集；在那里，持续数世纪的巨大压力制造出了密度非凡的冰。</p>\n<p>制造冰裂斧所需的知识只有冰民中受尊敬的牧师掌握；冰民是与 thanoi 争夺冰墙冰川控制权的野蛮人部落。</p>\n<p>斧刃由 thanoi 的油以及其他成分制成，用来磨利并压平一片压缩冰。牧师必须花费整整一个月才能制造一把冰裂斧，即便如此，制成一把可用斧子的概率也只有 33%。</p>\n<p>斧刃的弱点在于它的性质：因为高于冰点的温度会让冰融化，斧子也会变得毫无价值。处在高于冰点的温度中一天，会使一把冰裂斧变成无用的武器。在温暖环境里，腐坏只需 1d6 小时。</p>\n<p>冰裂斧相当于一把重型战斧 +4。由于冰裂斧的重量和尺寸，只有力量值至少为 13 的角色才能挥舞它。</p>",
         "source": {
           "book": "DLA",
           "section": "冰裂斧 Frostreaver"
@@ -5637,7 +5637,7 @@
     "details": [
       {
         "title": "波马吉戒指",
-        "html": "<p>这枚黑戒指由一位来自荒野海岸的法师创造。他憎恨波马吉的所有居民，于是用它聚集地精、食人魔或兽人部队，然后率领这些部队与波马吉的人形生物作战。许多其他土地也将这枚戒指视为威胁。</p>\n<p>此戒指允许邪恶阵营的角色聚集一群地精、食人魔或兽人（方式与召唤蛮族部落非常相似）。戒指佩戴者选择希望聚集的种族，并可根据自身经验值总量聚集一定数量的生物：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>种族</th><th>部落规模</th></tr></thead><tbody><tr><td>地精</td><td>XP ÷ 750</td></tr><tr><td>食人魔</td><td>XP ÷ 4,000</td></tr><tr><td>兽人</td><td>XP ÷ 1,000</td></tr></tbody></table>\n<p>部落只能在荒野海岸召集，而且必须为了特定的短期目的召集。例如，可以召集部落去攻击敌对部落、袭击乌勒克郡，或消灭塞莱尼的精灵。部落至少需要一周才能集合；无论目的为何，部落最多会维持相当于戒指佩戴者等级一半的周数。偏离所述目的可能导致部落更早解散，由 DM 决定。解散的人形生物会沿最快、最安全的路线返回荒野海岸。</p>\n<p>注意，戒指不会魅惑、诱惑或以其他方式强迫服从；如果戒指佩戴者的人形生物解散，他下次回到它们那里时不会受到热烈欢迎。戒指每年最多使用三次。</p>\n<p>XP 价值：4,000 XP。GP 价值：20,000 GP。</p>",
+        "html": "<p>这枚黑戒指由一位来自荒野海岸的法师创造。他憎恨波马吉的所有居民，于是用它聚集地精、食人魔或兽人部队，然后率领这些部队与波马吉的人形生物作战。许多其他土地也将这枚戒指视为威胁。</p>\n<p>此戒指允许邪恶阵营的角色聚集一群地精、食人魔或兽人（方式与召唤野蛮人部落非常相似）。戒指佩戴者选择希望聚集的种族，并可根据自身经验值总量聚集一定数量的生物：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>种族</th><th>部落规模</th></tr></thead><tbody><tr><td>地精</td><td>XP ÷ 750</td></tr><tr><td>食人魔</td><td>XP ÷ 4,000</td></tr><tr><td>兽人</td><td>XP ÷ 1,000</td></tr></tbody></table>\n<p>部落只能在荒野海岸召集，而且必须为了特定的短期目的召集。例如，可以召集部落去攻击敌对部落、袭击乌勒克郡，或消灭塞莱尼的精灵。部落至少需要一周才能集合；无论目的为何，部落最多会维持相当于戒指佩戴者等级一半的周数。偏离所述目的可能导致部落更早解散，由 DM 决定。解散的人形生物会沿最快、最安全的路线返回荒野海岸。</p>\n<p>注意，戒指不会魅惑、诱惑或以其他方式强迫服从；如果戒指佩戴者的人形生物解散，他下次回到它们那里时不会受到热烈欢迎。戒指每年最多使用三次。</p>\n<p>XP 价值：4,000 XP。GP 价值：20,000 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "波马吉戒指"

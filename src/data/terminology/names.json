@@ -105,7 +105,7 @@
   {
     "category": "class",
     "en": "Knight of Solamnia",
-    "zh": "索拉姆尼亚骑士",
+    "zh": "索兰尼亚骑士",
     "aliases": [],
     "status": "pending",
     "ids": [
@@ -158,8 +158,10 @@
   {
     "category": "class",
     "en": "Ranger",
-    "zh": "游侠",
-    "aliases": [],
+    "zh": "巡林客",
+    "aliases": [
+      "游侠"
+    ],
     "status": "verified-exact",
     "ids": [
       "ranger"
@@ -1023,7 +1025,9 @@
     "category": "item",
     "en": "Belpren",
     "zh": "贝尔普伦毒药",
-    "aliases": [],
+    "aliases": [
+      "Belpren"
+    ],
     "status": "pending",
     "ids": [
       "fr-poison-belpren"
@@ -1119,7 +1123,7 @@
   {
     "category": "item",
     "en": "Black Arrow of Iuz +3",
-    "zh": "伊乌兹的黑箭 +3",
+    "zh": "埃乌兹的黑箭 +3",
     "aliases": [],
     "status": "pending",
     "ids": [
@@ -1938,7 +1942,9 @@
     "category": "item",
     "en": "Chambeeleon",
     "zh": "钱比利昂之书",
-    "aliases": [],
+    "aliases": [
+      "Chambeeleon"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-chambeeleon"
@@ -2700,10 +2706,8 @@
   {
     "category": "item",
     "en": "Diamond Mace",
-    "zh": "钻石钉头锤",
-    "aliases": [
-      "钻石硬头锤"
-    ],
+    "zh": "钻石硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "oa-diamond-mace"
@@ -3833,10 +3837,8 @@
   {
     "category": "item",
     "en": "Goblin Shield of the Pomarj +2",
-    "zh": "波马吉的哥布林盾牌 +2",
-    "aliases": [
-      "波马吉的地精盾牌 +2"
-    ],
+    "zh": "波马吉的地精盾牌 +2",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "gha-item-goblin-shield-of-the-pomarj-2"
@@ -5504,10 +5506,8 @@
   {
     "category": "item",
     "en": "Mace +1",
-    "zh": "+1 钉头锤",
-    "aliases": [
-      "+1 硬头锤"
-    ],
+    "zh": "+1 硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "magic-mace-1"
@@ -5516,10 +5516,8 @@
   {
     "category": "item",
     "en": "Mace +2",
-    "zh": "+2 钉头锤",
-    "aliases": [
-      "+2 硬头锤"
-    ],
+    "zh": "+2 硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "magic-mace-2"
@@ -5528,10 +5526,8 @@
   {
     "category": "item",
     "en": "Mace +4",
-    "zh": "+4 钉头锤",
-    "aliases": [
-      "+4 硬头锤"
-    ],
+    "zh": "+4 硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "magic-mace-4"
@@ -5540,10 +5536,8 @@
   {
     "category": "item",
     "en": "Mace of Cuthbert",
-    "zh": "库斯伯特之钉头锤",
-    "aliases": [
-      "库斯伯特之硬头锤"
-    ],
+    "zh": "库斯伯特之硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "dmg-item-mace-of-cuthbert"
@@ -5565,10 +5559,8 @@
   {
     "category": "item",
     "en": "Mace, Footman's",
-    "zh": "步兵钉头锤",
-    "aliases": [
-      "步兵硬头锤"
-    ],
+    "zh": "步兵硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "phb-item-045"
@@ -5577,10 +5569,8 @@
   {
     "category": "item",
     "en": "Mace, Horseman's",
-    "zh": "骑兵钉头锤",
-    "aliases": [
-      "骑兵硬头锤"
-    ],
+    "zh": "骑兵硬头锤",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "phb-item-046"
@@ -6564,7 +6554,9 @@
     "category": "item",
     "en": "Orvas",
     "zh": "奥瓦斯毒药",
-    "aliases": [],
+    "aliases": [
+      "Orvas"
+    ],
     "status": "pending",
     "ids": [
       "fr-poison-orvas"
@@ -9233,10 +9225,8 @@
   {
     "category": "item",
     "en": "Staff Sling Bullet",
-    "zh": "长柄投石索铅弹",
-    "aliases": [
-      "长柄投石索子弹"
-    ],
+    "zh": "长柄投石索子弹",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "ua-weapon-staff-sling-bullet"
@@ -10007,7 +9997,9 @@
     "category": "item",
     "en": "The Alcaister",
     "zh": "阿尔凯斯特之书",
-    "aliases": [],
+    "aliases": [
+      "The Alcaister"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-the-alcaister"
@@ -10431,7 +10423,9 @@
     "category": "item",
     "en": "Varrakas",
     "zh": "瓦拉卡斯毒药",
-    "aliases": [],
+    "aliases": [
+      "Varrakas"
+    ],
     "status": "pending",
     "ids": [
       "fr-poison-varrakas"
@@ -11064,11 +11058,12 @@
   {
     "category": "monster",
     "en": "Achaierai",
-    "zh": "阿查伊莱",
+    "zh": "阿卡伊拉伊",
     "aliases": [
+      "阿查伊莱",
       "阿查伊莱 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-achaierai"
     ]
@@ -11346,9 +11341,11 @@
   {
     "category": "monster",
     "en": "Asmodeus",
-    "zh": "阿斯摩蒂尔斯",
-    "aliases": [],
-    "status": "pending",
+    "zh": "阿斯蒙蒂斯",
+    "aliases": [
+      "阿斯摩蒂尔斯"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -11364,11 +11361,12 @@
   {
     "category": "monster",
     "en": "Assassin Bug",
-    "zh": "刺客虫",
+    "zh": "暗杀虫",
     "aliases": [
+      "刺客虫",
       "刺客虫 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-assassin-bug"
     ]
@@ -11420,19 +11418,22 @@
   {
     "category": "monster",
     "en": "Aurak Draconian",
-    "zh": "Aurak 龙兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "奥瑞克龙人",
+    "aliases": [
+      "Aurak 龙兽"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
     "category": "monster",
     "en": "Aurumvorax",
-    "zh": "黄金兽",
+    "zh": "吞金兽",
     "aliases": [
+      "黄金兽",
       "黄金兽 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-aurumvorax"
     ]
@@ -11467,7 +11468,7 @@
     "en": "Baalzebul",
     "zh": "巴尔泽布",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -11483,9 +11484,11 @@
   {
     "category": "monster",
     "en": "Baaz Draconian",
-    "zh": "Baaz 龙兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "巴兹龙人",
+    "aliases": [
+      "Baaz 龙兽"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -11870,7 +11873,7 @@
     "aliases": [
       "贝利亚 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-belial"
     ]
@@ -11945,11 +11948,12 @@
   {
     "category": "monster",
     "en": "Blindheim",
-    "zh": "炫目蛙怪",
+    "zh": "炫目者",
     "aliases": [
+      "炫目蛙怪",
       "炫目蛙怪 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-blindheim"
     ]
@@ -11987,19 +11991,16 @@
   {
     "category": "monster",
     "en": "Bloodsea Minotaur",
-    "zh": "血海牛头怪",
-    "aliases": [
-      "血海牛头人"
-    ],
+    "zh": "血海牛头人",
+    "aliases": [],
     "status": "pending",
     "ids": []
   },
   {
     "category": "monster",
     "en": "Bloodsea Minotaurs",
-    "zh": "血海牛头怪",
+    "zh": "血海牛头人",
     "aliases": [
-      "血海牛头人",
       "血海牛头人生物数据",
       "血海牛头怪生物数据"
     ],
@@ -12145,6 +12146,7 @@
     "en": "Boobrie",
     "zh": "布布里巨鸟",
     "aliases": [
+      "Boobrie",
       "布布里巨鸟 ·"
     ],
     "status": "pending",
@@ -12211,9 +12213,11 @@
   {
     "category": "monster",
     "en": "Bozak Draconian",
-    "zh": "Bozak 龙兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "波扎克龙人",
+    "aliases": [
+      "Bozak 龙兽"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -12926,7 +12930,7 @@
     "en": "Crow",
     "zh": "乌鸦",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -12942,11 +12946,12 @@
   {
     "category": "monster",
     "en": "Cryonax",
-    "zh": "克里奥纳克斯",
+    "zh": "克里欧纳克斯",
     "aliases": [
+      "克里奥纳克斯",
       "克里奥纳克斯 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-cryonax"
     ]
@@ -13205,7 +13210,7 @@
     "aliases": [
       "恶魔 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "demon"
     ]
@@ -13357,11 +13362,12 @@
   {
     "category": "monster",
     "en": "Dire Corby",
-    "zh": "凶暴鸦人",
+    "zh": "恶鸦人",
     "aliases": [
+      "凶暴鸦人",
       "凶暴鸦人 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-dire-corby"
     ]
@@ -13391,7 +13397,7 @@
     "en": "Dispater",
     "zh": "迪斯帕特",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -13474,7 +13480,7 @@
     "en": "Dragon",
     "zh": "龙",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "dragon"
     ]
@@ -13544,11 +13550,12 @@
   {
     "category": "monster",
     "en": "Dragonnel",
-    "zh": "小型翼龙",
+    "zh": "四足亚龙",
     "aliases": [
+      "小型翼龙",
       "小型翼龙 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-dragonnel"
     ]
@@ -13634,10 +13641,9 @@
   {
     "category": "monster",
     "en": "Drow (Dark Elf)",
-    "zh": "卓尔精灵（黑暗精灵）",
+    "zh": "卓尔（黑暗精灵）",
     "aliases": [
-      "Drow（黑暗精灵）",
-      "卓尔（黑暗精灵）"
+      "Drow（黑暗精灵）"
     ],
     "status": "pending",
     "ids": [
@@ -13719,7 +13725,7 @@
     "en": "Dwarf",
     "zh": "矮人",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "dwarf"
     ]
@@ -13775,11 +13781,12 @@
   {
     "category": "monster",
     "en": "Eblis",
-    "zh": "艾布利斯鹤",
+    "zh": "魔王鹤",
     "aliases": [
+      "艾布利斯鹤",
       "艾布利斯鹤 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-eblis"
     ]
@@ -13965,11 +13972,12 @@
   {
     "category": "monster",
     "en": "Eye of Fear and Flame",
-    "zh": "恐惧烈焰之眼",
+    "zh": "火惧之眼",
     "aliases": [
+      "恐惧烈焰之眼",
       "恐惧烈焰之眼 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-eye-of-fear-and-flame"
     ]
@@ -14195,7 +14203,7 @@
     "aliases": [
       "雾巨人 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-fog-giant"
     ]
@@ -14255,11 +14263,12 @@
   {
     "category": "monster",
     "en": "Forlarren",
-    "zh": "弗拉伦",
+    "zh": "魔羊人",
     "aliases": [
+      "弗拉伦",
       "弗拉伦 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-forlarren"
     ]
@@ -14488,7 +14497,7 @@
     "aliases": [
       "巨人 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "giant"
     ]
@@ -14558,11 +14567,12 @@
   {
     "category": "monster",
     "en": "Giant Dragonfly",
-    "zh": "巨型蜻蜓",
+    "zh": "巨蜻蜓",
     "aliases": [
+      "巨型蜻蜓",
       "巨型蜻蜓 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-giant-dragonfly"
     ]
@@ -14586,11 +14596,12 @@
   {
     "category": "monster",
     "en": "Giant Fly",
-    "zh": "巨型苍蝇",
+    "zh": "巨苍蝇",
     "aliases": [
+      "巨型苍蝇",
       "巨型苍蝇 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -14756,11 +14767,12 @@
   {
     "category": "monster",
     "en": "Gibberling",
-    "zh": "胡言兽",
+    "zh": "呱呱精",
     "aliases": [
+      "胡言兽",
       "胡言兽 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-gibberling"
     ]
@@ -14794,7 +14806,7 @@
     "aliases": [
       "格莱西雅 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-glasya"
     ]
@@ -15430,9 +15442,11 @@
   {
     "category": "monster",
     "en": "Hollyphant",
-    "zh": "圣象",
-    "aliases": [],
-    "status": "pending",
+    "zh": "圣飞象",
+    "aliases": [
+      "圣象"
+    ],
+    "status": "verified-exact",
     "ids": [
       "mm2-hollyphant"
     ]
@@ -15507,7 +15521,7 @@
     "aliases": [
       "凶兆猎犬 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-hound-of-ill-omen"
     ]
@@ -15680,7 +15694,7 @@
     "aliases": [
       "冰巨魔 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-ice-troll"
     ]
@@ -15800,9 +15814,11 @@
   {
     "category": "monster",
     "en": "Ixitxachitl",
-    "zh": "恶魔魟",
-    "aliases": [],
-    "status": "pending",
+    "zh": "伊希鳐鱼",
+    "aliases": [
+      "恶魔魟"
+    ],
+    "status": "verified-exact",
     "ids": [
       "ixitxachitl"
     ]
@@ -15834,11 +15850,12 @@
   {
     "category": "monster",
     "en": "Jaculi",
-    "zh": "标枪蛇",
+    "zh": "幻色蛇",
     "aliases": [
+      "标枪蛇",
       "标枪蛇 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-jaculi"
     ]
@@ -15870,11 +15887,12 @@
   {
     "category": "monster",
     "en": "Jermlaine",
-    "zh": "杰姆莱恩",
+    "zh": "杰莱鼠",
     "aliases": [
+      "杰姆莱恩",
       "杰姆莱恩 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-jermlaine"
     ]
@@ -15922,11 +15940,12 @@
   {
     "category": "monster",
     "en": "Kamadan",
-    "zh": "卡玛丹蛇豹",
+    "zh": "六岐蛇豹",
     "aliases": [
+      "卡玛丹蛇豹",
       "卡玛丹蛇豹 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-kamadan"
     ]
@@ -15956,9 +15975,11 @@
   {
     "category": "monster",
     "en": "Kapak Draconian",
-    "zh": "Kapak 龙兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "卡帕克龙人",
+    "aliases": [
+      "Kapak 龙兽"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -15986,11 +16007,12 @@
   {
     "category": "monster",
     "en": "Kelpie",
-    "zh": "水鬼",
+    "zh": "藻形水鬼",
     "aliases": [
+      "水鬼",
       "水鬼 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-kelpie"
     ]
@@ -16035,11 +16057,12 @@
   {
     "category": "monster",
     "en": "Khargra",
-    "zh": "卡格拉",
+    "zh": "土鱼",
     "aliases": [
+      "卡格拉",
       "卡格拉 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-khargra"
     ]
@@ -16059,9 +16082,11 @@
   {
     "category": "monster",
     "en": "Killmoulis",
-    "zh": "基尔莫利斯",
-    "aliases": [],
-    "status": "pending",
+    "zh": "旅居仙",
+    "aliases": [
+      "基尔莫利斯"
+    ],
+    "status": "verified-exact",
     "ids": [
       "ff-killmoulis"
     ]
@@ -16154,9 +16179,9 @@
   {
     "category": "monster",
     "en": "Lamia Noble",
-    "zh": "拉弥亚贵族",
+    "zh": "拉迷亚贵族",
     "aliases": [
-      "拉迷亚贵族"
+      "拉弥亚贵族"
     ],
     "status": "pending",
     "ids": [
@@ -16272,11 +16297,12 @@
   {
     "category": "monster",
     "en": "Leprechaun",
-    "zh": "小妖精",
+    "zh": "矮妖精",
     "aliases": [
+      "小妖精",
       "森林：矮妖精"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "leprechaun"
     ]
@@ -16362,9 +16388,11 @@
   {
     "category": "monster",
     "en": "Locathah",
-    "zh": "洛卡萨",
-    "aliases": [],
-    "status": "pending",
+    "zh": "洛卡鱼人",
+    "aliases": [
+      "洛卡萨"
+    ],
+    "status": "verified-exact",
     "ids": [
       "locathah"
     ]
@@ -16499,7 +16527,7 @@
     "aliases": [
       "玛门 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-mammon"
     ]
@@ -16569,11 +16597,12 @@
   {
     "category": "monster",
     "en": "Mantrap",
-    "zh": "食人花",
+    "zh": "捕人草",
     "aliases": [
+      "食人花",
       "食人花 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-mantrap"
     ]
@@ -16693,7 +16722,7 @@
     "aliases": [
       "墨菲斯托费利斯 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-mephistopheles"
     ]
@@ -16834,11 +16863,12 @@
   {
     "category": "monster",
     "en": "Mite",
-    "zh": "小蠹怪",
+    "zh": "螨精",
     "aliases": [
+      "小蠹怪",
       "小蠹怪 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-mite"
     ]
@@ -17100,11 +17130,11 @@
   {
     "category": "monster",
     "en": "Neo-Otyugh",
-    "zh": "新奥提尤格",
+    "zh": "新奥图格",
     "aliases": [
       "新食腐兽"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "neo-otyugh"
     ]
@@ -17112,11 +17142,12 @@
   {
     "category": "monster",
     "en": "Nereid",
-    "zh": "水宁芙",
+    "zh": "涅瑞伊德",
     "aliases": [
+      "水宁芙",
       "水宁芙 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-nereid"
     ]
@@ -17216,11 +17247,12 @@
   {
     "category": "monster",
     "en": "Norker",
-    "zh": "诺克地精",
+    "zh": "诺克",
     "aliases": [
+      "诺克地精",
       "诺克地精 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-norker"
     ]
@@ -17631,7 +17663,7 @@
     "aliases": [
       "帕祖祖 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-pazuzu"
     ]
@@ -17639,9 +17671,11 @@
   {
     "category": "monster",
     "en": "Pech",
-    "zh": "佩奇土灵",
-    "aliases": [],
-    "status": "pending",
+    "zh": "岩精",
+    "aliases": [
+      "佩奇土灵"
+    ],
+    "status": "verified-exact",
     "ids": [
       "mm2-pech"
     ]
@@ -17766,6 +17800,7 @@
     "en": "Phororhacos",
     "zh": "恐鹤",
     "aliases": [
+      "Phororhacos",
       "恐鹤 ·"
     ],
     "status": "pending",
@@ -18516,19 +18551,22 @@
   {
     "category": "monster",
     "en": "Scrag",
-    "zh": "海生巨魔",
-    "aliases": [],
-    "status": "pending",
+    "zh": "斯卡格",
+    "aliases": [
+      "海生巨魔"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
     "category": "monster",
     "en": "Screaming Devilkin",
-    "zh": "尖啸小魔",
+    "zh": "尖叫小鬼",
     "aliases": [
+      "尖啸小魔",
       "尖啸小魔 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-screaming-devilkin"
     ]
@@ -18573,7 +18611,7 @@
     "en": "Sea Lion",
     "zh": "海狮",
     "aliases": [],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "sea-lion"
     ]
@@ -18971,9 +19009,11 @@
   {
     "category": "monster",
     "en": "Sivak Draconian",
-    "zh": "Sivak 龙兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "西瓦克龙人",
+    "aliases": [
+      "Sivak 龙兽"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -18994,7 +19034,7 @@
     "aliases": [
       "骷髅战士 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-skeleton-warrior"
     ]
@@ -19283,9 +19323,11 @@
   {
     "category": "monster",
     "en": "Spotted Lion",
-    "zh": "斑点狮",
-    "aliases": [],
-    "status": "pending",
+    "zh": "斑巨狮",
+    "aliases": [
+      "斑点狮"
+    ],
+    "status": "verified-exact",
     "ids": [
       "ref3-spotted-lion"
     ]
@@ -19509,9 +19551,11 @@
   {
     "category": "monster",
     "en": "Su-monster",
-    "zh": "苏魔兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "苏怪",
+    "aliases": [
+      "苏魔兽"
+    ],
+    "status": "verified-exact",
     "ids": [
       "su-monster"
     ]
@@ -19575,11 +19619,12 @@
   {
     "category": "monster",
     "en": "Swanmay",
-    "zh": "天鹅女",
+    "zh": "天鹅之女",
     "aliases": [
+      "天鹅女",
       "天鹅女 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-swanmay"
     ]
@@ -19702,11 +19747,12 @@
   {
     "category": "monster",
     "en": "Tasloi",
-    "zh": "塔斯罗伊人",
+    "zh": "塔斯洛伊",
     "aliases": [
+      "塔斯罗伊人",
       "塔斯罗伊人 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-tasloi"
     ]
@@ -19802,11 +19848,12 @@
   {
     "category": "monster",
     "en": "Thessalhydra",
-    "zh": "塞萨尔多头怪",
+    "zh": "特萨尔蛇蜥",
     "aliases": [
+      "塞萨尔多头怪",
       "塞萨尔多头怪 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-thessalhydra"
     ]
@@ -19982,9 +20029,11 @@
   {
     "category": "monster",
     "en": "Titanothere",
-    "zh": "泰坦兽",
-    "aliases": [],
-    "status": "pending",
+    "zh": "雷兽",
+    "aliases": [
+      "泰坦兽"
+    ],
+    "status": "verified-exact",
     "ids": [
       "titanothere"
     ]
@@ -20058,11 +20107,12 @@
   {
     "category": "monster",
     "en": "Tri-flower Frond",
-    "zh": "三花叶怪",
+    "zh": "三花株",
     "aliases": [
+      "三花叶怪",
       "三花叶怪 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-tri-flower-frond"
     ]
@@ -20708,11 +20758,12 @@
   {
     "category": "monster",
     "en": "Wolf-in-Sheep's-Clothing",
-    "zh": "披羊皮的狼",
+    "zh": "披着羊皮的狼",
     "aliases": [
+      "披羊皮的狼",
       "披羊皮的狼 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-wolf-in-sheeps-clothing"
     ]
@@ -20818,11 +20869,12 @@
   {
     "category": "monster",
     "en": "Xill",
-    "zh": "希尔虫人",
+    "zh": "希尔",
     "aliases": [
+      "希尔虫人",
       "希尔虫人 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-xill"
     ]
@@ -20880,11 +20932,12 @@
   {
     "category": "monster",
     "en": "Yellow Musk Creeper",
-    "zh": "黄麝香蔓",
+    "zh": "黄迷香爬藤",
     "aliases": [
+      "黄麝香蔓",
       "黄麝香蔓 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "ff-yellow-musk-creeper"
     ]
@@ -20892,9 +20945,11 @@
   {
     "category": "monster",
     "en": "Yellow Musk Zombie",
-    "zh": "黄麝香僵尸",
-    "aliases": [],
-    "status": "pending",
+    "zh": "黄迷香丧尸",
+    "aliases": [
+      "黄麝香僵尸"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21026,11 +21081,12 @@
   {
     "category": "monster",
     "en": "Zorbo",
-    "zh": "佐博兽",
+    "zh": "佐博怪",
     "aliases": [
+      "佐博兽",
       "佐博兽 ·"
     ],
-    "status": "pending",
+    "status": "verified-exact",
     "ids": [
       "mm2-zorbo"
     ]
@@ -21046,6 +21102,16 @@
     "ids": [
       "mm2-zygom"
     ]
+  },
+  {
+    "category": "proper",
+    "en": "Abanasinia",
+    "zh": "阿班尼西亚",
+    "aliases": [
+      "Abanasinia"
+    ],
+    "status": "verified-exact",
+    "ids": []
   },
   {
     "category": "proper",
@@ -21073,6 +21139,17 @@
   },
   {
     "category": "proper",
+    "en": "Aglarond",
+    "zh": "阿戈拉隆",
+    "aliases": [
+      "Aglarond",
+      "阿格拉隆"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Alesh Marin",
     "zh": "阿莱什·马林",
     "aliases": [],
@@ -21093,6 +21170,17 @@
     "zh": "艾拉斯卓",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Anauroch",
+    "zh": "埃诺奥克",
+    "aliases": [
+      "Anauroch",
+      "阿诺洛克"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21141,6 +21229,16 @@
     "zh": "巴兹",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Barrier Peaks",
+    "zh": "屏障峰",
+    "aliases": [
+      "Barrier Peaks"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21197,10 +21295,41 @@
   },
   {
     "category": "proper",
+    "en": "Calimshan",
+    "zh": "卡林珊",
+    "aliases": [
+      "Calimshan",
+      "卡林杉"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Candlekeep",
+    "zh": "烛堡",
+    "aliases": [
+      "Candlekeep"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Caramon",
     "zh": "卡拉蒙",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Celene",
+    "zh": "塞勒涅",
+    "aliases": [
+      "Celene"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21215,10 +21344,51 @@
   },
   {
     "category": "proper",
+    "en": "Chessenta",
+    "zh": "阙森塔",
+    "aliases": [
+      "Chessenta",
+      "棋森塔"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Chislev",
     "zh": "奇思洛夫",
     "aliases": [
       "奇斯列夫"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Corellon Larethian",
+    "zh": "柯瑞隆·拉瑞斯安",
+    "aliases": [
+      "Corellon Larethian"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Cormyr",
+    "zh": "科米尔",
+    "aliases": [
+      "Cormyr"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Crystalmist Mountains",
+    "zh": "晶雾山脉",
+    "aliases": [
+      "Crystalmist Mountains"
     ],
     "status": "verified-exact",
     "ids": []
@@ -21255,6 +21425,26 @@
       "戴莫斯的法术书"
     ],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Dalelands",
+    "zh": "谷地",
+    "aliases": [
+      "Dalelands"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Damara",
+    "zh": "达马拉",
+    "aliases": [
+      "Damara"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21366,10 +21556,41 @@
   },
   {
     "category": "proper",
+    "en": "Elturel",
+    "zh": "埃尔托瑞尔",
+    "aliases": [
+      "Elturel",
+      "艾尔特瑞尔"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Ergoth",
     "zh": "艾尔戈斯",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Estwilde",
+    "zh": "埃思特维德",
+    "aliases": [
+      "Estwilde"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Evereska",
+    "zh": "艾弗瑞斯卡",
+    "aliases": [
+      "Evereska"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21406,9 +21627,20 @@
   },
   {
     "category": "proper",
+    "en": "Gauntlgrym",
+    "zh": "冈特格瑞姆",
+    "aliases": [
+      "Gauntlgrym"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Gilean",
     "zh": "吉立安",
     "aliases": [
+      "Gilean",
       "吉力安"
     ],
     "status": "verified-exact",
@@ -21440,6 +21672,16 @@
   },
   {
     "category": "proper",
+    "en": "Goodlund",
+    "zh": "古德兰",
+    "aliases": [
+      "Goodlund"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Grimwald",
     "zh": "格里姆沃德",
     "aliases": [],
@@ -21452,6 +21694,16 @@
     "zh": "元素孽怪",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Gruumsh",
+    "zh": "格乌什",
+    "aliases": [
+      "Gruumsh"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21480,10 +21732,41 @@
   },
   {
     "category": "proper",
+    "en": "Hellfurnaces",
+    "zh": "地狱熔炉山脉",
+    "aliases": [
+      "Hellfurnaces"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Hiddukel",
     "zh": "西都凯",
     "aliases": [
       "希杜凯尔"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "High Moor",
+    "zh": "至高荒原",
+    "aliases": [
+      "High Moor"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Hillsfar",
+    "zh": "希尔斯法尔",
+    "aliases": [
+      "Hillsfar",
+      "希尔法"
     ],
     "status": "verified-exact",
     "ids": []
@@ -21532,10 +21815,31 @@
   },
   {
     "category": "proper",
+    "en": "Icereach",
+    "zh": "冰触之地",
+    "aliases": [
+      "Icereach"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Illykur",
     "zh": "伊利库尔",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Impiltur",
+    "zh": "因布图",
+    "aliases": [
+      "Impiltur",
+      "安皮尔图尔"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21556,6 +21860,18 @@
   },
   {
     "category": "proper",
+    "en": "Iuz",
+    "zh": "埃乌兹",
+    "aliases": [
+      "Iuz",
+      "伊乌兹",
+      "伊乌兹的牧师"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Jaran Krimeeah",
     "zh": "贾兰·克里米亚",
     "aliases": [],
@@ -21568,6 +21884,16 @@
     "zh": "墨瞳毒液",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Jotens",
+    "zh": "约顿山脉",
+    "aliases": [
+      "Jotens"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21636,6 +21962,16 @@
   },
   {
     "category": "proper",
+    "en": "Khur",
+    "zh": "克尔",
+    "aliases": [
+      "Khur"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Kiri-Jolith",
     "zh": "奇力·裘理斯",
     "aliases": [
@@ -21658,6 +21994,17 @@
     "zh": "克拉",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Knights of Solamnia",
+    "zh": "索兰尼亚骑士团",
+    "aliases": [
+      "Knights of Solamnia",
+      "索拉姆尼亚骑士"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21705,6 +22052,7 @@
     "en": "Lunitari",
     "zh": "努林塔瑞",
     "aliases": [
+      "Lunitari",
       "露妮塔瑞"
     ],
     "status": "verified-exact",
@@ -21722,8 +22070,10 @@
     "category": "proper",
     "en": "Luskan",
     "zh": "路斯坎",
-    "aliases": [],
-    "status": "pending",
+    "aliases": [
+      "Luskan"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21754,10 +22104,32 @@
   },
   {
     "category": "proper",
+    "en": "Melvaunt",
+    "zh": "梅尔沃特",
+    "aliases": [
+      "Melvaunt",
+      "梅尔万特"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Merald",
     "zh": "梅拉尔德",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Mintarn",
+    "zh": "明檀",
+    "aliases": [
+      "Mintarn",
+      "明塔恩"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21778,6 +22150,16 @@
   },
   {
     "category": "proper",
+    "en": "Moonsea",
+    "zh": "月海",
+    "aliases": [
+      "Moonsea"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Mordenkainen",
     "zh": "魔邓肯",
     "aliases": [
@@ -21785,6 +22167,38 @@
       "莫登凯南的法术"
     ],
     "status": "adapted-element",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Mulhorand",
+    "zh": "穆尔霍兰德",
+    "aliases": [
+      "Mulhorand"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Mulmaster",
+    "zh": "穆尔玛斯特",
+    "aliases": [
+      "Mulmaster",
+      "穆尔马斯特"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Myth Drannor",
+    "zh": "迷斯卓诺",
+    "aliases": [
+      "Myth Drannor",
+      "迷斯·德拉诺"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21837,9 +22251,43 @@
   },
   {
     "category": "proper",
+    "en": "Nerull",
+    "zh": "奈落",
+    "aliases": [
+      "Nerull",
+      "奈落的化身",
+      "奈落的牧师"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Neverwinter",
+    "zh": "无冬城",
+    "aliases": [
+      "Neverwinter"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Nordmaar",
+    "zh": "诺德玛",
+    "aliases": [
+      "Nordmaar"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Nuitari",
     "zh": "努塔瑞",
-    "aliases": [],
+    "aliases": [
+      "Nuitari"
+    ],
     "status": "verified-exact",
     "ids": []
   },
@@ -21867,6 +22315,16 @@
     "zh": "努扎尔",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Nyr Dyv",
+    "zh": "奈尔·戴夫",
+    "aliases": [
+      "Nyr Dyv"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -21906,6 +22364,17 @@
   },
   {
     "category": "proper",
+    "en": "Orlumbor",
+    "zh": "欧伦伯",
+    "aliases": [
+      "Orlumbor",
+      "奥伦巴尔"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Otiluke",
     "zh": "欧提路克",
     "aliases": [
@@ -21929,7 +22398,9 @@
     "category": "proper",
     "en": "Paladine",
     "zh": "帕拉丁",
-    "aliases": [],
+    "aliases": [
+      "Paladine"
+    ],
     "status": "verified-exact",
     "ids": []
   },
@@ -21963,6 +22434,17 @@
     "zh": "普雷斯珀",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Procampur",
+    "zh": "普罗坎普",
+    "aliases": [
+      "Procampur",
+      "普罗坎普尔"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22009,6 +22491,17 @@
   },
   {
     "category": "proper",
+    "en": "Rashemen",
+    "zh": "莱瑟曼",
+    "aliases": [
+      "Rashemen",
+      "拉舍曼"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Reorx",
     "zh": "李奥克斯",
     "aliases": [],
@@ -22039,6 +22532,17 @@
     "zh": "沙苟纳",
     "aliases": [
       "萨苟纳斯"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Sembia",
+    "zh": "桑比亚",
+    "aliases": [
+      "Sembia",
+      "塞姆比亚"
     ],
     "status": "verified-exact",
     "ids": []
@@ -22121,10 +22625,32 @@
   },
   {
     "category": "proper",
+    "en": "Solamnia",
+    "zh": "索兰尼亚",
+    "aliases": [
+      "Solamnia",
+      "索拉姆尼亚"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Solinari",
     "zh": "索林那瑞",
     "aliases": [
+      "Solinari",
       "索林纳瑞"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Sossal",
+    "zh": "索萨尔",
+    "aliases": [
+      "Sossal"
     ],
     "status": "verified-exact",
     "ids": []
@@ -22155,6 +22681,37 @@
   },
   {
     "category": "proper",
+    "en": "Sunndi",
+    "zh": "桑迪",
+    "aliases": [
+      "Sunndi"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Suzail",
+    "zh": "苏萨尔",
+    "aliases": [
+      "Suzail",
+      "苏泽尔"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Sword Coast",
+    "zh": "剑湾",
+    "aliases": [
+      "Sword Coast"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Szass Tam",
     "zh": "萨扎斯坦",
     "aliases": [],
@@ -22173,7 +22730,9 @@
     "category": "proper",
     "en": "Takhisis",
     "zh": "塔克西丝",
-    "aliases": [],
+    "aliases": [
+      "Takhisis"
+    ],
     "status": "verified-exact",
     "ids": []
   },
@@ -22195,10 +22754,30 @@
   },
   {
     "category": "proper",
+    "en": "Tarsis",
+    "zh": "塔西斯",
+    "aliases": [
+      "Tarsis"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Tasslehoff",
     "zh": "泰斯",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Telflamm",
+    "zh": "泰夫岚姆",
+    "aliases": [
+      "Telflamm"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22213,10 +22792,31 @@
   },
   {
     "category": "proper",
+    "en": "Tethyr",
+    "zh": "泰瑟尔",
+    "aliases": [
+      "Tethyr"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Thanatus",
     "zh": "萨纳图斯",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Thar",
+    "zh": "萨尔",
+    "aliases": [
+      "Thar",
+      "泰尔"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22277,6 +22877,17 @@
   },
   {
     "category": "proper",
+    "en": "Turmish",
+    "zh": "突米斯",
+    "aliases": [
+      "Turmish",
+      "图尔米什"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Tusirin",
     "zh": "图西林",
     "aliases": [],
@@ -22301,6 +22912,17 @@
   },
   {
     "category": "proper",
+    "en": "Unther",
+    "zh": "恩瑟",
+    "aliases": [
+      "Unther",
+      "安瑟"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Vangerdahast",
     "zh": "范格达海斯特",
     "aliases": [],
@@ -22309,10 +22931,51 @@
   },
   {
     "category": "proper",
+    "en": "Vecna",
+    "zh": "维克那",
+    "aliases": [
+      "Vecna"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
     "en": "Verminaard",
     "zh": "威敏那德",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Vilhon Reach",
+    "zh": "维洪海域",
+    "aliases": [
+      "Vilhon Reach",
+      "维尔洪海湾"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Waterdeep",
+    "zh": "深水城",
+    "aliases": [
+      "Waterdeep"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Wegwiur",
+    "zh": "威格维武",
+    "aliases": [
+      "Wegwiur"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22331,6 +22994,26 @@
     "zh": "亚马斯符文",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Yondalla",
+    "zh": "悠达拉",
+    "aliases": [
+      "Yondalla"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Yuirwood",
+    "zh": "攸木林",
+    "aliases": [
+      "Yuirwood"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22357,6 +23040,17 @@
     "zh": "扎曼",
     "aliases": [],
     "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Zhentil Keep",
+    "zh": "散提尔堡",
+    "aliases": [
+      "Zhentil Keep",
+      "珍铎城"
+    ],
+    "status": "verified-exact",
     "ids": []
   },
   {
@@ -22461,7 +23155,9 @@
     "category": "race",
     "en": "Hengeyokai",
     "zh": "变形妖",
-    "aliases": [],
+    "aliases": [
+      "Hengeyokai"
+    ],
     "status": "pending",
     "ids": [
       "hengeyokai"
@@ -22494,7 +23190,9 @@
     "category": "race",
     "en": "Korobokuru",
     "zh": "科罗博库鲁",
-    "aliases": [],
+    "aliases": [
+      "Korobokuru"
+    ],
     "status": "pending",
     "ids": [
       "korobokuru"
@@ -22503,10 +23201,8 @@
   {
     "category": "race",
     "en": "Krynn Minotaur",
-    "zh": "克莱恩牛头怪",
-    "aliases": [
-      "克莱恩牛头人"
-    ],
+    "zh": "克莱恩牛头人",
+    "aliases": [],
     "status": "pending",
     "ids": [
       "dla-krynn-minotaur"
@@ -22641,8 +23337,10 @@
   {
     "category": "spell",
     "en": "Alarm",
-    "zh": "警报术",
-    "aliases": [],
+    "zh": "魔法警报",
+    "aliases": [
+      "警报术"
+    ],
     "status": "verified-exact",
     "ids": [
       "ua-magic-user-1-alarm"
@@ -23440,9 +24138,9 @@
   {
     "category": "spell",
     "en": "Charm Person",
-    "zh": "魅惑类人",
+    "zh": "魅惑人类",
     "aliases": [
-      "魅惑人类"
+      "魅惑类人"
     ],
     "status": "verified-exact",
     "ids": [
@@ -23486,6 +24184,7 @@
     "en": "Chill Touch",
     "zh": "颤栗之触",
     "aliases": [
+      "Chill Touch",
       "寒冷之触"
     ],
     "status": "verified-exact",
@@ -23812,7 +24511,9 @@
     "category": "spell",
     "en": "Control Undead",
     "zh": "控制不死者",
-    "aliases": [],
+    "aliases": [
+      "Control Undead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-control-undead"
@@ -23848,7 +24549,9 @@
     "category": "spell",
     "en": "Corpselight",
     "zh": "尸光术",
-    "aliases": [],
+    "aliases": [
+      "Corpselight"
+    ],
     "status": "pending",
     "ids": [
       "ref5-corpselight"
@@ -24085,6 +24788,7 @@
     "en": "Death’s Door",
     "zh": "死亡门槛",
     "aliases": [
+      "Death's Door",
       "死亡之门"
     ],
     "status": "pending",
@@ -24285,7 +24989,9 @@
     "category": "spell",
     "en": "Detect Undead",
     "zh": "侦测不死者",
-    "aliases": [],
+    "aliases": [
+      "Detect Undead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-detect-undead"
@@ -24347,7 +25053,9 @@
     "category": "spell",
     "en": "Disguise Undead",
     "zh": "伪装不死者",
-    "aliases": [],
+    "aliases": [
+      "Disguise Undead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-disguise-undead"
@@ -25069,9 +25777,10 @@
   {
     "category": "spell",
     "en": "Find the Path",
-    "zh": "寻路术",
+    "zh": "寻找捷径",
     "aliases": [
-      "寻路"
+      "寻路",
+      "寻路术"
     ],
     "status": "verified-exact",
     "ids": [
@@ -25726,9 +26435,9 @@
   {
     "category": "spell",
     "en": "Hold Monster",
-    "zh": "定身怪物",
+    "zh": "怪物定身术",
     "aliases": [
-      "怪物定身术"
+      "定身怪物"
     ],
     "status": "verified-exact",
     "ids": [
@@ -25738,10 +26447,10 @@
   {
     "category": "spell",
     "en": "Hold Person",
-    "zh": "定身类人",
+    "zh": "人类定身术",
     "aliases": [
-      "人类定身术",
-      "定身人类"
+      "定身人类",
+      "定身类人"
     ],
     "status": "verified-exact",
     "ids": [
@@ -25775,7 +26484,9 @@
     "category": "spell",
     "en": "Hold Undead",
     "zh": "定身不死者",
-    "aliases": [],
+    "aliases": [
+      "Hold Undead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-hold-undead"
@@ -25992,7 +26703,9 @@
     "category": "spell",
     "en": "Imbue Undead With Spell Ability",
     "zh": "赋予不死者施法能力",
-    "aliases": [],
+    "aliases": [
+      "Imbue Undead With Spell Ability"
+    ],
     "status": "pending",
     "ids": [
       "ref5-imbue-undead"
@@ -26103,6 +26816,7 @@
     "en": "Invisibility to Undead",
     "zh": "对不死生物隐形",
     "aliases": [
+      "Invisibility to Undead",
       "对不死者隐形"
     ],
     "status": "pending",
@@ -26371,11 +27085,11 @@
   {
     "category": "spell",
     "en": "Locate Object",
-    "zh": "物件定位术",
+    "zh": "物品定位术",
     "aliases": [
       "定位物品",
       "寻物术",
-      "物品定位术"
+      "物件定位术"
     ],
     "status": "verified-exact",
     "ids": [
@@ -26452,8 +27166,9 @@
   {
     "category": "spell",
     "en": "Magic Mouth",
-    "zh": "魔嘴术",
+    "zh": "魔嘴",
     "aliases": [
+      "魔嘴术",
       "魔法之口"
     ],
     "status": "verified-exact",
@@ -26723,9 +27438,8 @@
   {
     "category": "spell",
     "en": "Minor Globe of Invulnerability",
-    "zh": "小型无敌法球",
+    "zh": "小型法术无效结界",
     "aliases": [
-      "小型法术无效结界",
       "次级无敌法球",
       "次级法术无效结界"
     ],
@@ -27053,7 +27767,9 @@
     "category": "spell",
     "en": "Mummy Touch",
     "zh": "木乃伊之触",
-    "aliases": [],
+    "aliases": [
+      "Mummy Touch"
+    ],
     "status": "pending",
     "ids": [
       "ref5-mummy-touch"
@@ -28674,7 +29390,9 @@
     "category": "spell",
     "en": "Revenance",
     "zh": "复归不死",
-    "aliases": [],
+    "aliases": [
+      "Revenance"
+    ],
     "status": "pending",
     "ids": [
       "ref5-revenance"
@@ -29034,7 +29752,9 @@
     "category": "spell",
     "en": "Skull Watch",
     "zh": "骷髅警戒",
-    "aliases": [],
+    "aliases": [
+      "Skull Watch"
+    ],
     "status": "pending",
     "ids": [
       "ref5-skull-watch"
@@ -29220,6 +29940,7 @@
     "en": "Speak with the Dead",
     "zh": "死者交谈",
     "aliases": [
+      "Speak with the Dead",
       "与死者交谈"
     ],
     "status": "adapted-variant",
@@ -29243,7 +29964,9 @@
     "category": "spell",
     "en": "Spectral Guard",
     "zh": "幽灵守卫",
-    "aliases": [],
+    "aliases": [
+      "Spectral Guard"
+    ],
     "status": "pending",
     "ids": [
       "ref5-spectral-guard"
@@ -29253,7 +29976,9 @@
     "category": "spell",
     "en": "Spectral Wings",
     "zh": "幽灵之翼",
-    "aliases": [],
+    "aliases": [
+      "Spectral Wings"
+    ],
     "status": "pending",
     "ids": [
       "ref5-spectral-wings"
@@ -29604,6 +30329,7 @@
     "en": "Sunburst",
     "zh": "阳炎爆",
     "aliases": [
+      "Sunburst",
       "太阳爆发"
     ],
     "status": "verified-exact",
@@ -29720,7 +30446,9 @@
     "category": "spell",
     "en": "Teleport Dead",
     "zh": "传送死者",
-    "aliases": [],
+    "aliases": [
+      "Teleport Dead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-teleport-dead"
@@ -30200,7 +30928,9 @@
     "category": "spell",
     "en": "Undead Mount",
     "zh": "不死坐骑",
-    "aliases": [],
+    "aliases": [
+      "Undead Mount"
+    ],
     "status": "pending",
     "ids": [
       "ref5-undead-mount"
@@ -30210,7 +30940,9 @@
     "category": "spell",
     "en": "Undead Regeneration",
     "zh": "不死再生",
-    "aliases": [],
+    "aliases": [
+      "Undead Regeneration"
+    ],
     "status": "pending",
     "ids": [
       "ref5-undead-regeneration"
@@ -30220,7 +30952,9 @@
     "category": "spell",
     "en": "Unlife",
     "zh": "赋予不死",
-    "aliases": [],
+    "aliases": [
+      "Unlife"
+    ],
     "status": "pending",
     "ids": [
       "ref5-unlife"
@@ -30472,7 +31206,9 @@
     "category": "spell",
     "en": "Ward Against Undead",
     "zh": "防护不死者",
-    "aliases": [],
+    "aliases": [
+      "Ward Against Undead"
+    ],
     "status": "pending",
     "ids": [
       "ref5-ward-against-undead"

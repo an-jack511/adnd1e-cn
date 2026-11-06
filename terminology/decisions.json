@@ -2783,6 +2783,109 @@
         }
       ],
       "reason": "英文 Short Sword 与参考 Shortsword 仅标点、分词、词形或单复数略异；沿用名称主体，1e规则保持独立。"
+    },
+    {
+      "category": "monster",
+      "en": "Barkburr",
+      "zh": "树皮刺怪",
+      "status": "pending",
+      "reason": "参考译名“树皮嗡嗡”质量可疑，暂保留项目译名，等待3R或其他可靠双语证据。",
+      "references": [
+        {
+          "en": "Barkburr",
+          "zh": "树皮嗡嗡",
+          "category": "monster",
+          "edition": "5E",
+          "source": "QftIS",
+          "page": 195,
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%A0%91%E7%9A%AE%E5%97%A1%E5%97%A1_qftis",
+          "accessed": "2026-11-06",
+          "isNpc": false
+        }
+      ]
+    },
+    {
+      "category": "monster",
+      "en": "Wolfwere",
+      "zh": "化人狼",
+      "status": "pending",
+      "reason": "Wolfwere 与 Werewolf 为不同生物；参考译名“狼人”会抹去区别，暂不采用。",
+      "references": [
+        {
+          "en": "Wolfwere",
+          "zh": "狼人",
+          "category": "monster",
+          "edition": "5E",
+          "source": "MaBJoV",
+          "page": 155,
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%8B%BC%E4%BA%BA_mabjov",
+          "accessed": "2026-11-06",
+          "isNpc": false
+        }
+      ]
+    },
+    {
+      "category": "monster",
+      "en": "Shade",
+      "zh": "幽影人",
+      "status": "pending",
+      "reason": "Shade 存在跨版本生物身份变化，不能仅凭同名套用“幽影”；保留1e项目译名待核。",
+      "references": [
+        {
+          "en": "Shade",
+          "zh": "幽影",
+          "category": "monster",
+          "edition": "5E",
+          "source": "PSZ",
+          "page": 28,
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%B9%BD%E5%BD%B1_psz",
+          "accessed": "2026-11-06",
+          "isNpc": false
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Ranger",
+      "zh": "巡林客",
+      "status": "verified-exact",
+      "userOverride": true,
+      "annotation": "注：在一些规则中，也译为游侠。",
+      "reason": "按用户最终决定采用3R通译“巡林客”，条目注明“注：在一些规则中，也译为游侠。”，并保留游侠为旧译检索别名。",
+      "references": [
+        {
+          "en": "Ranger",
+          "zh": "巡林客",
+          "category": "class",
+          "edition": "3R",
+          "source": "玩家角色术语",
+          "url": "https://dnd3r.huijiwiki.com/wiki/术语/玩家角色",
+          "accessed": "2026-11-06",
+          "retrieval": "search-indexed bilingual heading"
+        }
+      ]
+    },
+    {
+      "category": "heading",
+      "en": "Rangers",
+      "zh": "巡林客",
+      "status": "adapted-variant",
+      "reason": "已读正文的职业标题复数，明确对应 Ranger；只调整职业名，不改原英文。",
+      "references": [
+        {
+          "en": "Ranger",
+          "zh": "巡林客",
+          "category": "class",
+          "edition": "3R",
+          "source": "玩家角色术语",
+          "url": "https://dnd3r.huijiwiki.com/wiki/术语/玩家角色",
+          "accessed": "2026-11-06",
+          "retrieval": "search-indexed bilingual heading"
+        }
+      ]
     }
   ]
 }

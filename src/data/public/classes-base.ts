@@ -82,10 +82,10 @@ const baseClasses: ClassEntry[] = [
     ], source: source('Paladin')
   },
   {
-    id: 'ranger', nameZh: '游侠', nameEn: 'Ranger', primeRequisite: 'STR、INT、WIS', minimumAbilities: { STR: 13, INT: 13, WIS: 14, CON: 14 },
+    id: 'ranger', nameZh: '巡林客', nameEn: 'Ranger', primeRequisite: 'STR、INT、WIS', minimumAbilities: { STR: 13, INT: 13, WIS: 14, CON: 14 },
     eligibleRaces: ['human', 'half-elf'], hitDie: '1 级 2d8，此后每级 d8', alignment: '任意善良',
     armor: '任意护甲与盾牌', weapons: '任意', spellcasting: '8 级起德鲁伊法术；9 级起魔法师法术',
-    description: '擅长野外追踪、侦察与对抗巨人类；须维持善良阵营。',
+    description: '擅长野外追踪、侦察与对抗巨人类；须维持善良阵营。注：在一些规则中，也译为游侠。',
     abilities: [
       { name: '对巨人类伤害', description: '近战命中巨人类类人生物时，每等级额外造成 1 点伤害。' },
       { name: '突袭', description: '通常以 d6 的 1—3 使对手遭到突袭；自己通常只在 1 时被突袭。' },

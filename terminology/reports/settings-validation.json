@@ -1,0 +1,41 @@
+{
+  "baseCommit": "bf4ede6495d9817290ebe81d683521997d16efef",
+  "priority": [
+    "3R",
+    "5R",
+    "5E"
+  ],
+  "changedContentFiles": 451,
+  "changedBookPages": 423,
+  "catalogEntries": 6133,
+  "status": {
+    "pending": 5190,
+    "verified-exact": 810,
+    "adapted-variant": 11,
+    "adapted-element": 122
+  },
+  "fiveToolsNames": 9136,
+  "fiveToolsSources": 145,
+  "settingNames": 4663,
+  "fetchErrors": [],
+  "violations": [],
+  "checks": [
+    "book English and numeric tokens unchanged outside the user-requested translation annotation",
+    "JSON structure, numbers, stable identifiers and source fields unchanged",
+    "TypeScript original English names and numerical tokens unchanged",
+    "3R Ranger chosen; suspect monster homonyms and untranslated Magius remain pending",
+    "named NPC references excluded from monster matches"
+  ],
+  "validation": {
+    "terminologyDriftFiles": 0,
+    "activeRecords": 2653,
+    "sourcedOrPartiallySourcedRecords": 874,
+    "builtPages": 5936,
+    "internalLinks": "passed",
+    "typecheck": "passed",
+    "terminologyLibraryReaderTests": "passed",
+    "characterRef2RulesTests": "passed",
+    "previewRanger": "HTTP 200; canonical title and exact annotation verified",
+    "oldNameSearchAlias": "游侠 retained"
+  }
+}

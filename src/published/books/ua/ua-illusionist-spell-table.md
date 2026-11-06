@@ -18,7 +18,7 @@
 | 8 | 二维幻象 Two-D Illusion | 侦测隐形 Detect Invisibility | 催眠图纹 Hypnotic Pattern | 隐形术（半径10尺） Invisibility 10' Radius |
 | 9 |  | 凝视反射术 Gaze Reflection | 强化魅影之力 Improved Phantasmal Force | 防侦测术 Non-detection |
 | 10 |  | 催眠术 Hypnotism | 隐形术 Invisibility | 麻痹术 Paralyzation |
-| 11 |  | 光亮术 Light | 魔嘴术 Magic Mouth | *魅影驹 Phantom Steed* |
+| 11 |  | 光亮术 Light | 魔嘴 Magic Mouth | *魅影驹 Phantom Steed* |
 | 12 |  | 魅影之力 Phantasmal Force | 镜影术 Mirror Image | *幻影之风 Phantom Wind* |
 | 13 |  | *幻影护甲 Phantom Armor* | 误导术 Misdirection | 魔绳术 Rope Trick |
 | 14 |  | *阅读幻术魔法 Read Illusionist Magic* | *紫外视觉 Ultravision* | 幽灵之力 Spectral Force |

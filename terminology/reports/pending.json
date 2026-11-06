@@ -220,7 +220,7 @@
     "key": "class:knight of solamnia",
     "category": "class",
     "en": "Knight of Solamnia",
-    "zh": "索拉姆尼亚骑士",
+    "zh": "索兰尼亚骑士",
     "englishVariants": [
       "Knight of Solamnia"
     ],
@@ -229,12 +229,12 @@
       {
         "path": "@library",
         "location": "",
-        "zh": "索拉姆尼亚骑士"
+        "zh": "索兰尼亚骑士"
       },
       {
         "path": "src/data/public/class-additions.json",
         "location": "/0",
-        "zh": "索拉姆尼亚骑士"
+        "zh": "索兰尼亚骑士"
       }
     ],
     "activeIds": [
@@ -965,7 +965,7 @@
     "key": "heading:achaierai and adherer",
     "category": "heading",
     "en": "Achaierai and Adherer",
-    "zh": "阿查伊莱与黏附怪",
+    "zh": "阿卡伊拉伊与黏附怪",
     "englishVariants": [
       "Achaierai and Adherer"
     ],
@@ -974,12 +974,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/685",
-        "zh": "阿查伊莱与黏附怪"
+        "zh": "阿卡伊拉伊与黏附怪"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/685",
-        "zh": "阿查伊莱与黏附怪"
+        "zh": "阿卡伊拉伊与黏附怪"
       }
     ],
     "activeIds": [],
@@ -991,7 +991,7 @@
     "key": "heading:achaierai and adherer illustration",
     "category": "heading",
     "en": "Achaierai and Adherer Illustration",
-    "zh": "阿查伊莱与黏附怪插图",
+    "zh": "阿卡伊拉伊与黏附怪插图",
     "englishVariants": [
       "Achaierai and Adherer Illustration"
     ],
@@ -1000,12 +1000,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/686",
-        "zh": "阿查伊莱与黏附怪插图"
+        "zh": "阿卡伊拉伊与黏附怪插图"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/686",
-        "zh": "阿查伊莱与黏附怪插图"
+        "zh": "阿卡伊拉伊与黏附怪插图"
       }
     ],
     "activeIds": [],
@@ -1918,31 +1918,10 @@
     "notes": []
   },
   {
-    "key": "heading:aglarond",
-    "category": "heading",
-    "en": "AGLAROND",
-    "zh": "阿格拉隆",
-    "englishVariants": [
-      "AGLAROND"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-aglarond-amn-anauroch-arabel-1.md",
-        "location": "3",
-        "zh": "阿格拉隆"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:aglarond, amn, anauroch, and arabel i",
     "category": "heading",
     "en": "Aglarond, Amn, Anauroch, and Arabel I",
-    "zh": "阿格拉隆、安姆、阿诺洛克与阿拉贝尔（一）",
+    "zh": "阿戈拉隆、安姆、埃诺奥克与阿拉贝尔（一）",
     "englishVariants": [
       "Aglarond, Amn, Anauroch, and Arabel I"
     ],
@@ -1951,12 +1930,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1097",
-        "zh": "阿格拉隆、安姆、阿诺洛克与阿拉贝尔（一）"
+        "zh": "阿戈拉隆、安姆、埃诺奥克与阿拉贝尔（一）"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1097",
-        "zh": "阿格拉隆、安姆、阿诺洛克与阿拉贝尔（一）"
+        "zh": "阿戈拉隆、安姆、埃诺奥克与阿拉贝尔（一）"
       }
     ],
     "activeIds": [],
@@ -2311,6 +2290,27 @@
     "notes": []
   },
   {
+    "key": "heading:alok leh",
+    "category": "heading",
+    "en": "Alok Leh",
+    "zh": "Alok Leh",
+    "englishVariants": [
+      "Alok Leh"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-1.md",
+        "location": "46",
+        "zh": "Alok Leh"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:alokkair",
     "category": "heading",
     "en": "Alokkair",
@@ -2569,6 +2569,32 @@
     "notes": []
   },
   {
+    "key": "heading:amothus palanthus",
+    "category": "heading",
+    "en": "Amothus Palanthus",
+    "zh": "Amothus Palanthus",
+    "englishVariants": [
+      "Amothus Palanthus"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "167",
+        "zh": "Amothus Palanthus"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "175",
+        "zh": "Amothus Palanthus"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:an introduction to the planes",
     "category": "heading",
     "en": "An Introduction to the Planes",
@@ -2644,27 +2670,6 @@
         "path": "src/published/books/mm/mm-dinosaur.md",
         "location": "5",
         "zh": "鸭嘴龙"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:anauroch",
-    "category": "heading",
-    "en": "ANAUROCH",
-    "zh": "阿诺洛克",
-    "englishVariants": [
-      "ANAUROCH"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-aglarond-amn-anauroch-arabel-1.md",
-        "location": "58",
-        "zh": "阿诺洛克"
       }
     ],
     "activeIds": [],
@@ -3072,7 +3077,7 @@
     "key": "heading:apparition and assassin bug",
     "category": "heading",
     "en": "Apparition and Assassin Bug",
-    "zh": "幻灵与刺客虫",
+    "zh": "幻灵与暗杀虫",
     "englishVariants": [
       "Apparition and Assassin Bug"
     ],
@@ -3081,12 +3086,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/688",
-        "zh": "幻灵与刺客虫"
+        "zh": "幻灵与暗杀虫"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/688",
-        "zh": "幻灵与刺客虫"
+        "zh": "幻灵与暗杀虫"
       }
     ],
     "activeIds": [],
@@ -4846,12 +4851,19 @@
     "englishVariants": [
       "Armor and Shields"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Armor and Shields"
+    ],
     "occurrences": [
       {
         "path": "src/published/books/dla/dla-magical-items.md",
         "location": "125",
         "zh": "护甲与盾牌"
+      },
+      {
+        "path": "src/published/books/gha/gha-armor-shields-swords-weapons-1.md",
+        "location": "1",
+        "zh": "Armor and Shields"
       }
     ],
     "activeIds": [],
@@ -6686,13 +6698,11 @@
     "key": "heading:back cover and berbalang example",
     "category": "heading",
     "en": "Back Cover and Berbalang Example",
-    "zh": "封底宣传与贝尔巴朗示例 ·",
+    "zh": "封底宣传与分灵妖示例 ·",
     "englishVariants": [
       "Back Cover and Berbalang Example"
     ],
-    "legacyZh": [
-      "封底宣传与分灵妖示例 ·"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/ff/ff-index-and-closing-pages.md",
@@ -7081,6 +7091,32 @@
         "path": "src/published/books/ref3/ref3-front-matter.md",
         "location": "13",
         "zh": "荒地与荒原"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:bas-ohn koraf",
+    "category": "heading",
+    "en": "Bas-Ohn Koraf",
+    "zh": "Bas-Ohn Koraf",
+    "englishVariants": [
+      "Bas-Ohn Koraf"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "301",
+        "zh": "Bas-Ohn Koraf"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "309",
+        "zh": "Bas-Ohn Koraf"
       }
     ],
     "activeIds": [],
@@ -8232,6 +8268,27 @@
     "notes": []
   },
   {
+    "key": "heading:books of the forgotten realms",
+    "category": "heading",
+    "en": "Books of the Forgotten Realms",
+    "zh": "Books of the Forgotten Realms",
+    "englishVariants": [
+      "Books of the Forgotten Realms"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-1.md",
+        "location": "1",
+        "zh": "Books of the Forgotten Realms"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:books of the forgotten realms i",
     "category": "heading",
     "en": "Books of the Forgotten Realms I",
@@ -8946,7 +9003,7 @@
     "key": "heading:calaunt, cavaliers and paladins, chessenta, citadel of the raven, clerics, cloak wood, and corm orp",
     "category": "heading",
     "en": "Calaunt, Cavaliers and Paladins, Chessenta, Citadel of the Raven, Clerics, Cloak Wood, and Corm Orp",
-    "zh": "卡兰特、骑士与圣武士、棋森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普",
+    "zh": "卡兰特、骑士与圣武士、阙森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普",
     "englishVariants": [
       "Calaunt, Cavaliers and Paladins, Chessenta, Citadel of the Raven, Clerics, Cloak Wood, and Corm Orp"
     ],
@@ -8955,33 +9012,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1101",
-        "zh": "卡兰特、骑士与圣武士、棋森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普"
+        "zh": "卡兰特、骑士与圣武士、阙森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1101",
-        "zh": "卡兰特、骑士与圣武士、棋森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:calimshan",
-    "category": "heading",
-    "en": "CALIMSHAN",
-    "zh": "卡林杉",
-    "englishVariants": [
-      "CALIMSHAN"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-battledale-battle-of-bones-beregost-boareskyr-candlekeep.md",
-        "location": "94",
-        "zh": "卡林杉"
+        "zh": "卡兰特、骑士与圣武士、阙森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普"
       }
     ],
     "activeIds": [],
@@ -9168,27 +9204,6 @@
     "notes": []
   },
   {
-    "key": "heading:candlekeep",
-    "category": "heading",
-    "en": "CANDLEKEEP",
-    "zh": "烛堡",
-    "englishVariants": [
-      "CANDLEKEEP"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-battledale-battle-of-bones-beregost-boareskyr-candlekeep.md",
-        "location": "108",
-        "zh": "烛堡"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:candlekeep (continued)",
     "category": "heading",
     "en": "CANDLEKEEP (CONTINUED)",
@@ -9254,6 +9269,27 @@
         "path": "src/data/published/books.json",
         "location": "/427",
         "zh": "小法术"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:caramon majere",
+    "category": "heading",
+    "en": "Caramon Majere",
+    "zh": "Caramon Majere",
+    "englishVariants": [
+      "Caramon Majere"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "381",
+        "zh": "Caramon Majere"
       }
     ],
     "activeIds": [],
@@ -10698,27 +10734,6 @@
         "path": "src/published/books/fr/fr-religion-human-deities-1.md",
         "location": "94",
         "zh": "查恩蒂亚"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:chessenta",
-    "category": "heading",
-    "en": "CHESSENTA",
-    "zh": "棋森塔",
-    "englishVariants": [
-      "CHESSENTA"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-calaunt-cavaliers-citadel.md",
-        "location": "63",
-        "zh": "棋森塔"
       }
     ],
     "activeIds": [],
@@ -13741,32 +13756,6 @@
     "notes": []
   },
   {
-    "key": "heading:cormyr",
-    "category": "heading",
-    "en": "CORMYR",
-    "zh": "科米尔",
-    "englishVariants": [
-      "CORMYR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-corm-orp-cormyr.md",
-        "location": "25",
-        "zh": "科米尔"
-      },
-      {
-        "path": "src/published/books/fr/fr-cormyr-lineage-daggerdale.md",
-        "location": "2",
-        "zh": "科米尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:cormyr lineage, customs, daggerdale, daggerford, and daerlun",
     "category": "heading",
     "en": "Cormyr Lineage, Customs, Daggerdale, Daggerford, and Daerlun",
@@ -14450,6 +14439,32 @@
     "notes": []
   },
   {
+    "key": "heading:crysania",
+    "category": "heading",
+    "en": "Crysania",
+    "zh": "Crysania",
+    "englishVariants": [
+      "Crysania"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "353",
+        "zh": "Crysania"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "365",
+        "zh": "Crysania"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:crystal balls & scrying",
     "category": "heading",
     "en": "Crystal Balls & Scrying",
@@ -14934,7 +14949,7 @@
     "key": "heading:dajemma",
     "category": "heading",
     "en": "Dajemma",
-    "zh": "拉舍曼的青年仪式",
+    "zh": "莱瑟曼的青年仪式",
     "englishVariants": [
       "Dajemma"
     ],
@@ -14943,7 +14958,7 @@
       {
         "path": "src/published/books/fr/fr-rashemen.md",
         "location": "30",
-        "zh": "拉舍曼的青年仪式"
+        "zh": "莱瑟曼的青年仪式"
       }
     ],
     "activeIds": [],
@@ -14970,6 +14985,32 @@
         "path": "src/data/published/books.json",
         "location": "/697",
         "zh": "Dakon、Dark Creeper、Dark Stalker、Death Dog 与 Death Knight"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:dalamar",
+    "category": "heading",
+    "en": "Dalamar",
+    "zh": "Dalamar",
+    "englishVariants": [
+      "Dalamar"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "323",
+        "zh": "Dalamar"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "343",
+        "zh": "Dalamar"
       }
     ],
     "activeIds": [],
@@ -15043,27 +15084,6 @@
         "path": "src/published/books/ff/ff-explanatory-notes.md",
         "location": "59",
         "zh": "每次攻击伤害"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:damara",
-    "category": "heading",
-    "en": "DAMARA",
-    "zh": "达马拉",
-    "englishVariants": [
-      "DAMARA"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-dalelands-damara-darkhold.md",
-        "location": "42",
-        "zh": "达马拉"
       }
     ],
     "activeIds": [],
@@ -17873,6 +17893,27 @@
     "notes": []
   },
   {
+    "key": "heading:dove falconhand",
+    "category": "heading",
+    "en": "Dove Falconhand",
+    "zh": "Dove Falconhand",
+    "englishVariants": [
+      "Dove Falconhand"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-1.md",
+        "location": "150",
+        "zh": "Dove Falconhand"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:draconians",
     "category": "heading",
     "en": "Draconians",
@@ -18348,13 +18389,11 @@
     "key": "heading:drow equipment",
     "category": "heading",
     "en": "Drow Equipment",
-    "zh": "卓尔精灵装备 ·",
+    "zh": "卓尔装备 ·",
     "englishVariants": [
       "Drow Equipment"
     ],
-    "legacyZh": [
-      "卓尔装备 ·"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/ff/ff-drow.md",
@@ -18528,7 +18567,7 @@
     "key": "heading:druids, durlag's tower, dwarves, easting, elturel, and elves",
     "category": "heading",
     "en": "Druids, Durlag's Tower, Dwarves, Easting, Elturel, and Elves",
-    "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、艾尔特瑞尔与精灵",
+    "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、埃尔托瑞尔与精灵",
     "englishVariants": [
       "Druids, Durlag's Tower, Dwarves, Easting, Elturel, and Elves"
     ],
@@ -18537,12 +18576,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1106",
-        "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、艾尔特瑞尔与精灵"
+        "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、埃尔托瑞尔与精灵"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1106",
-        "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、艾尔特瑞尔与精灵"
+        "zh": "德鲁伊、杜拉格之塔、矮人、东行镇、埃尔托瑞尔与精灵"
       }
     ],
     "activeIds": [],
@@ -18958,6 +18997,27 @@
         "path": "src/published/books/dla/dla-wizards-high-sorcery.md",
         "location": "183",
         "zh": "诅咒期间"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:durkin",
+    "category": "heading",
+    "en": "Durkin",
+    "zh": "Durkin",
+    "englishVariants": [
+      "Durkin"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-1.md",
+        "location": "160",
+        "zh": "Durkin"
       }
     ],
     "activeIds": [],
@@ -20898,27 +20958,6 @@
     "notes": []
   },
   {
-    "key": "heading:elturel",
-    "category": "heading",
-    "en": "ELTUREL",
-    "zh": "艾尔特瑞尔",
-    "englishVariants": [
-      "ELTUREL"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-druids-dwarves-elturel.md",
-        "location": "90",
-        "zh": "艾尔特瑞尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:elven subraces, retreat, evereska, espar, essembra, and eveningstar",
     "category": "heading",
     "en": "Elven Subraces, Retreat, Evereska, Espar, EssembrA, and Eveningstar",
@@ -22175,27 +22214,6 @@
     "notes": []
   },
   {
-    "key": "heading:evereska",
-    "category": "heading",
-    "en": "EVERESKA",
-    "zh": "艾弗瑞斯卡",
-    "englishVariants": [
-      "EVERESKA"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-elves-evereska-eveningstar.md",
-        "location": "44",
-        "zh": "艾弗瑞斯卡"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:evermeet",
     "category": "heading",
     "en": "EVERMEET",
@@ -22754,6 +22772,27 @@
         "path": "src/published/books/mm/mm-beholder.md",
         "location": "24",
         "zh": "眼睛的能力"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:ezuwara castle",
+    "category": "heading",
+    "en": "Ezuwara Castle",
+    "zh": "Ezuwara Castle",
+    "englishVariants": [
+      "Ezuwara Castle"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref5/ref5-spectres.md",
+        "location": "46",
+        "zh": "Ezuwara Castle"
       }
     ],
     "activeIds": [],
@@ -24488,6 +24527,27 @@
     "notes": []
   },
   {
+    "key": "heading:flame",
+    "category": "heading",
+    "en": "Flame",
+    "zh": "Flame",
+    "englishVariants": [
+      "Flame"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-2.md",
+        "location": "35",
+        "zh": "Flame"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:flandal steelskin",
     "category": "heading",
     "en": "Flandal Steelskin",
@@ -24616,6 +24676,27 @@
         "path": "src/data/published/books.json",
         "location": "/576",
         "zh": "建筑平面图、书目与家族图"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:florin falconhand",
+    "category": "heading",
+    "en": "Florin Falconhand",
+    "zh": "Florin Falconhand",
+    "englishVariants": [
+      "Florin Falconhand"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-2.md",
+        "location": "41",
+        "zh": "Florin Falconhand"
       }
     ],
     "activeIds": [],
@@ -25206,13 +25287,11 @@
     "key": "heading:forest: centaurs",
     "category": "heading",
     "en": "Forest: Centaurs",
-    "zh": "森林：半人马",
+    "zh": "森林：人马",
     "englishVariants": [
       "Forest: Centaurs"
     ],
-    "legacyZh": [
-      "森林：人马"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -25234,13 +25313,11 @@
     "key": "heading:forest: drow elf",
     "category": "heading",
     "en": "Forest: Drow Elf",
-    "zh": "森林：卓尔精灵",
+    "zh": "森林：卓尔",
     "englishVariants": [
       "Forest: Drow Elf"
     ],
-    "legacyZh": [
-      "森林：卓尔"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -25600,7 +25677,7 @@
     "key": "heading:forest: the mad oriental monk",
     "category": "heading",
     "en": "Forest: The Mad Oriental Monk",
-    "zh": "森林：疯狂的东方僧侣",
+    "zh": "森林：疯狂的东方武僧",
     "englishVariants": [
       "Forest: The Mad Oriental Monk"
     ],
@@ -25609,12 +25686,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/952",
-        "zh": "森林：疯狂的东方僧侣"
+        "zh": "森林：疯狂的东方武僧"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/952",
-        "zh": "森林：疯狂的东方僧侣"
+        "zh": "森林：疯狂的东方武僧"
       }
     ],
     "activeIds": [],
@@ -26024,12 +26101,19 @@
     "englishVariants": [
       "Fox Ridge"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Fox Ridge"
+    ],
     "occurrences": [
       {
         "path": "src/published/books/fr/fr-shaar-shadowdale.md",
         "location": "77",
         "zh": "狐岭"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-lich.md",
+        "location": "19",
+        "zh": "Fox Ridge"
       }
     ],
     "activeIds": [],
@@ -28820,13 +28904,11 @@
     "key": "heading:gorgosaurus",
     "category": "heading",
     "en": "Gorgosaurus",
-    "zh": "戈尔贡龙",
+    "zh": "石化铁牛龙",
     "englishVariants": [
       "Gorgosaurus"
     ],
-    "legacyZh": [
-      "石化铁牛龙"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/mm/mm-dinosaur.md",
@@ -28995,7 +29077,7 @@
     "key": "heading:grasslands: spotted lions",
     "category": "heading",
     "en": "Grasslands: Spotted Lions",
-    "zh": "草原：斑点狮",
+    "zh": "草原：斑巨狮",
     "englishVariants": [
       "Grasslands: Spotted Lions"
     ],
@@ -29004,12 +29086,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/911",
-        "zh": "草原：斑点狮"
+        "zh": "草原：斑巨狮"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/911",
-        "zh": "草原：斑点狮"
+        "zh": "草原：斑巨狮"
       }
     ],
     "activeIds": [],
@@ -29518,6 +29600,27 @@
         "path": "src/published/books/dla/dla-races-krynn.md",
         "location": "995",
         "zh": "沟谷矮人"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:guthbert golthammer",
+    "category": "heading",
+    "en": "Guthbert Golthammer",
+    "zh": "Guthbert Golthammer",
+    "englishVariants": [
+      "Guthbert Golthammer"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-2.md",
+        "location": "95",
+        "zh": "Guthbert Golthammer"
       }
     ],
     "activeIds": [],
@@ -30266,7 +30369,7 @@
     "key": "heading:haunted halls continued, high dale, high horn, high moor, hill of lost souls, hillsfar, and hill's edge",
     "category": "heading",
     "en": "Haunted Halls Continued, High Dale, High Horn, High Moor, Hill of Lost Souls, Hillsfar, and Hill's Edge",
-    "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔法与山缘镇",
+    "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔斯法尔与山缘镇",
     "englishVariants": [
       "Haunted Halls Continued, High Dale, High Horn, High Moor, Hill of Lost Souls, Hillsfar, and Hill's Edge"
     ],
@@ -30275,12 +30378,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1114",
-        "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔法与山缘镇"
+        "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔斯法尔与山缘镇"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1114",
-        "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔法与山缘镇"
+        "zh": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔斯法尔与山缘镇"
       }
     ],
     "activeIds": [],
@@ -30312,6 +30415,27 @@
         "path": "src/published/books/ua/ua-magic-user-cantrips-haunting.md",
         "location": "3",
         "zh": "惊扰声音小法术"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:hawkstone",
+    "category": "heading",
+    "en": "Hawkstone",
+    "zh": "Hawkstone",
+    "englishVariants": [
+      "Hawkstone"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-2.md",
+        "location": "105",
+        "zh": "Hawkstone"
       }
     ],
     "activeIds": [],
@@ -30475,13 +30599,11 @@
     "key": "heading:hell hounds to hydra",
     "category": "heading",
     "en": "Hell Hounds to Hydra",
-    "zh": "地狱犬至九头蛇",
+    "zh": "地狱猎犬至多头蛇",
     "englishVariants": [
       "Hell Hounds to Hydra"
     ],
-    "legacyZh": [
-      "地狱猎犬至多头蛇"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-6.md",
@@ -31066,27 +31188,6 @@
     "notes": []
   },
   {
-    "key": "heading:hillsfar",
-    "category": "heading",
-    "en": "HILLSFAR",
-    "zh": "希尔法",
-    "englishVariants": [
-      "HILLSFAR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-high-dale-hillsfar.md",
-        "location": "74",
-        "zh": "希尔法"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:hilp",
     "category": "heading",
     "en": "HILP",
@@ -31111,7 +31212,7 @@
     "key": "heading:hilp, hlintar, hluthvar, huddagh, immersea, and impiltur",
     "category": "heading",
     "en": "Hilp, Hlintar, Hluthvar, Huddagh, Immersea, and Impiltur",
-    "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与安皮尔图尔",
+    "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与因布图",
     "englishVariants": [
       "Hilp, Hlintar, Hluthvar, Huddagh, Immersea, and Impiltur"
     ],
@@ -31120,12 +31221,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1115",
-        "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与安皮尔图尔"
+        "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与因布图"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1115",
-        "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与安皮尔图尔"
+        "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与因布图"
       }
     ],
     "activeIds": [],
@@ -32037,7 +32138,7 @@
     "key": "heading:huma, knight of solamnia",
     "category": "heading",
     "en": "Huma, Knight of Solamnia",
-    "zh": "索拉姆尼亚骑士",
+    "zh": "索兰尼亚骑士",
     "englishVariants": [
       "Huma, Knight of Solamnia"
     ],
@@ -32046,7 +32147,7 @@
       {
         "path": "src/published/books/dla/dla-npcs-long-ago.md",
         "location": "9",
-        "zh": "索拉姆尼亚骑士"
+        "zh": "索兰尼亚骑士"
       }
     ],
     "activeIds": [],
@@ -32804,6 +32905,48 @@
     "notes": []
   },
   {
+    "key": "heading:iii.e.1",
+    "category": "heading",
+    "en": "III.E.1",
+    "zh": "III.E.1",
+    "englishVariants": [
+      "III.E.1"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ua/ua-dm-treasure-misc-e1-e2.md",
+        "location": "7",
+        "zh": "III.E.1"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:iii.e.2",
+    "category": "heading",
+    "en": "III.E.2",
+    "zh": "III.E.2",
+    "englishVariants": [
+      "III.E.2"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ua/ua-dm-treasure-misc-e1-e2.md",
+        "location": "47",
+        "zh": "III.E.2"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:iii.e.3",
     "category": "heading",
     "en": "III.E.3",
@@ -32859,6 +33002,48 @@
         "path": "src/published/books/ua/ua-dm-treasure-misc-e5.md",
         "location": "3",
         "zh": "财宝：杂项魔法物品表"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:iii.e.6",
+    "category": "heading",
+    "en": "III.E.6",
+    "zh": "III.E.6",
+    "englishVariants": [
+      "III.E.6"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ua/ua-dm-treasure-misc-e6-e7.md",
+        "location": "7",
+        "zh": "III.E.6"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:iii.e.7",
+    "category": "heading",
+    "en": "III.E.7",
+    "zh": "III.E.7",
+    "englishVariants": [
+      "III.E.7"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ua/ua-dm-treasure-misc-e6-e7.md",
+        "location": "42",
+        "zh": "III.E.7"
       }
     ],
     "activeIds": [],
@@ -33196,36 +33381,10 @@
     "notes": []
   },
   {
-    "key": "heading:impiltur",
-    "category": "heading",
-    "en": "IMPILTUR",
-    "zh": "安皮尔图尔",
-    "englishVariants": [
-      "IMPILTUR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-hilp-immersea-impiltur.md",
-        "location": "97",
-        "zh": "安皮尔图尔"
-      },
-      {
-        "path": "src/published/books/fr/fr-impiltur-iriaebor-kara-tur.md",
-        "location": "2",
-        "zh": "安皮尔图尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:impiltur continued, iriaebor, iron house, kara-tur, and knights of the north",
     "category": "heading",
     "en": "Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North",
-    "zh": "安皮尔图尔续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团",
+    "zh": "因布图续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团",
     "englishVariants": [
       "Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North"
     ],
@@ -33234,12 +33393,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1116",
-        "zh": "安皮尔图尔续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团"
+        "zh": "因布图续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1116",
-        "zh": "安皮尔图尔续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团"
+        "zh": "因布图续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团"
       }
     ],
     "activeIds": [],
@@ -34484,6 +34643,27 @@
     "notes": []
   },
   {
+    "key": "heading:irda",
+    "category": "heading",
+    "en": "Irda",
+    "zh": "Irda",
+    "englishVariants": [
+      "Irda"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-races-krynn.md",
+        "location": "1081",
+        "zh": "Irda"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:iriaebor",
     "category": "heading",
     "en": "IRIAEBOR",
@@ -34754,74 +34934,6 @@
         "path": "src/published/books/ddg/ddg-central-american.md",
         "location": "27",
         "zh": "伊察姆纳"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:iuz",
-    "category": "heading",
-    "en": "Iuz",
-    "zh": "伊乌兹",
-    "englishVariants": [
-      "Iuz"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1176",
-        "zh": "伊乌兹"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1176",
-        "zh": "伊乌兹"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:iuz (demi-god)",
-    "category": "heading",
-    "en": "Iuz (Demi-god)",
-    "zh": "伊乌兹（半神）",
-    "englishVariants": [
-      "Iuz (Demi-god)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/gha/gha-iuz.md",
-        "location": "2",
-        "zh": "伊乌兹（半神）"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:iuz' clerics",
-    "category": "heading",
-    "en": "Iuz' Clerics",
-    "zh": "伊乌兹的牧师",
-    "englishVariants": [
-      "Iuz' Clerics"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/gha/gha-iuz.md",
-        "location": "26",
-        "zh": "伊乌兹的牧师"
       }
     ],
     "activeIds": [],
@@ -35144,6 +35256,27 @@
     "notes": []
   },
   {
+    "key": "heading:jelde asturien",
+    "category": "heading",
+    "en": "Jelde Asturien",
+    "zh": "Jelde Asturien",
+    "englishVariants": [
+      "Jelde Asturien"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-2.md",
+        "location": "129",
+        "zh": "Jelde Asturien"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:jeteye",
     "category": "heading",
     "en": "Jeteye",
@@ -35374,6 +35507,32 @@
     "notes": []
   },
   {
+    "key": "heading:justarius",
+    "category": "heading",
+    "en": "Justarius",
+    "zh": "Justarius",
+    "englishVariants": [
+      "Justarius"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "231",
+        "zh": "Justarius"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "243",
+        "zh": "Justarius"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:kagonesti class limits",
     "category": "heading",
     "en": "Kagonesti Class Limits",
@@ -35429,6 +35588,27 @@
         "path": "src/published/books/dla/dla-races-krynn.md",
         "location": "619",
         "zh": "卡戈涅斯提精灵游戏数据"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:kala",
+    "category": "heading",
+    "en": "Kala",
+    "zh": "Kala",
+    "englishVariants": [
+      "Kala"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/oa/oa-monsters.md",
+        "location": "182",
+        "zh": "Kala"
       }
     ],
     "activeIds": [],
@@ -35813,6 +35993,32 @@
         "path": "src/published/books/dmg/dmg-gems-jewelry-values.md",
         "location": "31",
         "zh": "宝石属性标记"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:kharas",
+    "category": "heading",
+    "en": "Kharas",
+    "zh": "Kharas",
+    "englishVariants": [
+      "Kharas"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "119",
+        "zh": "Kharas"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "133",
+        "zh": "Kharas"
       }
     ],
     "activeIds": [],
@@ -36273,6 +36479,27 @@
     "notes": []
   },
   {
+    "key": "heading:korth",
+    "category": "heading",
+    "en": "Korth",
+    "zh": "Korth",
+    "englishVariants": [
+      "Korth"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-3.md",
+        "location": "5",
+        "zh": "Korth"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:kossuth",
     "category": "heading",
     "en": "KOSSUTH",
@@ -36286,6 +36513,27 @@
         "path": "src/published/books/fr/fr-religion-human-deities-2.md",
         "location": "311",
         "zh": "科苏特"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:kozakura",
+    "category": "heading",
+    "en": "Kozakura",
+    "zh": "Kozakura",
+    "englishVariants": [
+      "Kozakura"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/oa/oa-kara-tur.md",
+        "location": "27",
+        "zh": "Kozakura"
       }
     ],
     "activeIds": [],
@@ -36344,13 +36592,11 @@
     "key": "heading:krynn minotaur class limits",
     "category": "heading",
     "en": "Krynn Minotaur Class Limits",
-    "zh": "克莱恩牛头怪职业上限",
+    "zh": "克莱恩牛头人职业上限",
     "englishVariants": [
       "Krynn Minotaur Class Limits"
     ],
-    "legacyZh": [
-      "克莱恩牛头人职业上限"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dla/dla-races-krynn.md",
@@ -36367,13 +36613,11 @@
     "key": "heading:krynn minotaur game statistics",
     "category": "heading",
     "en": "Krynn Minotaur Game Statistics",
-    "zh": "克莱恩牛头怪游戏数据",
+    "zh": "克莱恩牛头人游戏数据",
     "englishVariants": [
       "Krynn Minotaur Game Statistics"
     ],
-    "legacyZh": [
-      "克莱恩牛头人游戏数据"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dla/dla-races-krynn.md",
@@ -36478,6 +36722,32 @@
         "path": "src/published/books/dmg/appendix-c-random-monster-encounters-16.md",
         "location": "164",
         "zh": "劳工或小贩"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:ladonna",
+    "category": "heading",
+    "en": "Ladonna",
+    "zh": "Ladonna",
+    "englishVariants": [
+      "Ladonna"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "253",
+        "zh": "Ladonna"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "265",
+        "zh": "Ladonna"
       }
     ],
     "activeIds": [],
@@ -36760,6 +37030,27 @@
         "path": "src/data/published/books.json",
         "location": "/1089",
         "zh": "国度中的语言"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:lanseril snowmantle",
+    "category": "heading",
+    "en": "Lanseril Snowmantle",
+    "zh": "Lanseril Snowmantle",
+    "englishVariants": [
+      "Lanseril Snowmantle"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-3.md",
+        "location": "13",
+        "zh": "Lanseril Snowmantle"
       }
     ],
     "activeIds": [],
@@ -37204,6 +37495,48 @@
     "notes": []
   },
   {
+    "key": "heading:lhara",
+    "category": "heading",
+    "en": "Lhara",
+    "zh": "Lhara",
+    "englishVariants": [
+      "Lhara"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-3.md",
+        "location": "29",
+        "zh": "Lhara"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:life",
+    "category": "heading",
+    "en": "Life",
+    "zh": "Life",
+    "englishVariants": [
+      "Life"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "733",
+        "zh": "Life"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:limbo",
     "category": "heading",
     "en": "Limbo",
@@ -37382,6 +37715,27 @@
     "notes": []
   },
   {
+    "key": "heading:llirryn the deceiver",
+    "category": "heading",
+    "en": "Llirryn the Deceiver",
+    "zh": "Llirryn the Deceiver",
+    "englishVariants": [
+      "Llirryn the Deceiver"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
+        "location": "32",
+        "zh": "Llirryn the Deceiver"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:local greetings and farewells",
     "category": "heading",
     "en": "Local Greetings and Farewells",
@@ -37495,16 +37849,28 @@
     "key": "heading:lord soth",
     "category": "heading",
     "en": "Lord Soth",
-    "zh": "黑玫瑰骑士",
+    "zh": "Lord Soth",
     "englishVariants": [
       "Lord Soth"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "黑玫瑰骑士"
+    ],
     "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "59",
+        "zh": "Lord Soth"
+      },
       {
         "path": "src/published/books/dla/dla-personalities.md",
         "location": "61",
         "zh": "黑玫瑰骑士"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "67",
+        "zh": "Lord Soth"
       }
     ],
     "activeIds": [],
@@ -37631,6 +37997,27 @@
         "path": "src/published/books/ua/ua-appendix-s-gnomes-orcs.md",
         "location": "325",
         "zh": "洞穴之母露丝克"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:luvon greencoak",
+    "category": "heading",
+    "en": "Luvon Greencoak",
+    "zh": "Luvon Greencoak",
+    "englishVariants": [
+      "Luvon Greencoak"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-3.md",
+        "location": "35",
+        "zh": "Luvon Greencoak"
       }
     ],
     "activeIds": [],
@@ -38125,7 +38512,7 @@
     "key": "heading:magic-user, thief, assassin and ranger",
     "category": "heading",
     "en": "Magic-User, Thief, Assassin and Ranger",
-    "zh": "魔法师、盗贼、刺客与游侠",
+    "zh": "魔法师、盗贼、刺客与巡林客",
     "englishVariants": [
       "Magic-User, Thief, Assassin and Ranger"
     ],
@@ -38134,7 +38521,7 @@
       {
         "path": "src/published/books/ua/ua-race-level-limitations.md",
         "location": "93",
-        "zh": "魔法师、盗贼、刺客与游侠"
+        "zh": "魔法师、盗贼、刺客与巡林客"
       }
     ],
     "activeIds": [],
@@ -38787,6 +39174,27 @@
     "notes": []
   },
   {
+    "key": "heading:magius",
+    "category": "heading",
+    "en": "Magius",
+    "zh": "Magius",
+    "englishVariants": [
+      "Magius"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-npcs-long-ago.md",
+        "location": "58",
+        "zh": "Magius"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:magnesium spirit and mantari",
     "category": "heading",
     "en": "Magnesium Spirit and Mantari",
@@ -39394,6 +39802,32 @@
     "notes": []
   },
   {
+    "key": "heading:maquesta kar-thon",
+    "category": "heading",
+    "en": "Maquesta Kar-Thon",
+    "zh": "Maquesta Kar-Thon",
+    "englishVariants": [
+      "Maquesta Kar-Thon"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "281",
+        "zh": "Maquesta Kar-Thon"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "291",
+        "zh": "Maquesta Kar-Thon"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:marid and shadow mastiff",
     "category": "heading",
     "en": "Marid and Shadow Mastiff",
@@ -39512,7 +39946,7 @@
     "key": "heading:maskyr's eye, melvaunt, and mercenary companies",
     "category": "heading",
     "en": "Maskyr's Eye, Melvaunt, and Mercenary Companies",
-    "zh": "面具之眼、梅尔万特与雇佣兵公司",
+    "zh": "面具之眼、梅尔沃特与雇佣兵公司",
     "englishVariants": [
       "Maskyr's Eye, Melvaunt, and Mercenary Companies"
     ],
@@ -39521,12 +39955,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1120",
-        "zh": "面具之眼、梅尔万特与雇佣兵公司"
+        "zh": "面具之眼、梅尔沃特与雇佣兵公司"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1120",
-        "zh": "面具之眼、梅尔万特与雇佣兵公司"
+        "zh": "面具之眼、梅尔沃特与雇佣兵公司"
       }
     ],
     "activeIds": [],
@@ -39875,27 +40309,6 @@
     "notes": []
   },
   {
-    "key": "heading:melvaunt",
-    "category": "heading",
-    "en": "MELVAUNT",
-    "zh": "梅尔万特",
-    "englishVariants": [
-      "MELVAUNT"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mercenary-companies.md",
-        "location": "12",
-        "zh": "梅尔万特"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:members of the dales council",
     "category": "heading",
     "en": "Members of the Dales Council",
@@ -40216,6 +40629,27 @@
         "path": "src/published/books/fr/fr-selected-npcs-5.md",
         "location": "39",
         "zh": "商人名单"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:merith strongbow",
+    "category": "heading",
+    "en": "Merith Strongbow",
+    "zh": "Merith Strongbow",
+    "englishVariants": [
+      "Merith Strongbow"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-3.md",
+        "location": "75",
+        "zh": "Merith Strongbow"
       }
     ],
     "activeIds": [],
@@ -40757,13 +41191,11 @@
     "key": "heading:minotaurs",
     "category": "heading",
     "en": "Minotaurs",
-    "zh": "森林：牛头怪",
+    "zh": "森林：牛头人",
     "englishVariants": [
       "Minotaurs"
     ],
-    "legacyZh": [
-      "森林：牛头人"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -40774,27 +41206,6 @@
         "path": "src/data/published/books.json",
         "location": "/951",
         "zh": "森林：牛头人"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:mintarn",
-    "category": "heading",
-    "en": "MINTARN",
-    "zh": "明塔恩",
-    "englishVariants": [
-      "MINTARN"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mercenary-merchant-companies.md",
-        "location": "65",
-        "zh": "明塔恩"
       }
     ],
     "activeIds": [],
@@ -40865,6 +41276,37 @@
         "path": "src/published/books/dmg/dmg-treasure.md",
         "location": "1612",
         "zh": "杂项魔法物品"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:miscellaneous magic items",
+    "category": "heading",
+    "en": "Miscellaneous Magic Items",
+    "zh": "Miscellaneous Magic Items",
+    "englishVariants": [
+      "Miscellaneous Magic Items"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/gha/gha-magical-items-miscellaneous-1.md",
+        "location": "1",
+        "zh": "Miscellaneous Magic Items"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-items-miscellaneous-2.md",
+        "location": "1",
+        "zh": "Miscellaneous Magic Items"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-items-miscellaneous-3.md",
+        "location": "1",
+        "zh": "Miscellaneous Magic Items"
       }
     ],
     "activeIds": [],
@@ -41378,7 +41820,7 @@
     "key": "heading:mistledale, moonsea, moonshae islands, mulhorand, mulmaster, and myth drannor",
     "category": "heading",
     "en": "Mistledale, Moonsea, Moonshae Islands, Mulhorand, Mulmaster, and Myth Drannor",
-    "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺",
+    "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔玛斯特与迷斯卓诺",
     "englishVariants": [
       "Mistledale, Moonsea, Moonshae Islands, Mulhorand, Mulmaster, and Myth Drannor"
     ],
@@ -41387,12 +41829,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1122",
-        "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺"
+        "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔玛斯特与迷斯卓诺"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1122",
-        "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺"
+        "zh": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔玛斯特与迷斯卓诺"
       }
     ],
     "activeIds": [],
@@ -42556,27 +42998,6 @@
     "notes": []
   },
   {
-    "key": "heading:moonsea",
-    "category": "heading",
-    "en": "MOONSEA",
-    "zh": "月海",
-    "englishVariants": [
-      "MOONSEA"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mistledale-moonshae-mulmaster.md",
-        "location": "18",
-        "zh": "月海"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:moonshae islands",
     "category": "heading",
     "en": "MOONSHAE ISLANDS",
@@ -42705,6 +43126,27 @@
         "path": "src/published/books/ddg/ddg-arthurian-continued.md",
         "location": "17",
         "zh": "摩根·勒菲"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:morgion",
+    "category": "heading",
+    "en": "Morgion",
+    "zh": "Morgion",
+    "englishVariants": [
+      "Morgion"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-holy-orders-stars.md",
+        "location": "757",
+        "zh": "Morgion"
       }
     ],
     "activeIds": [],
@@ -43107,13 +43549,11 @@
     "key": "heading:mountains: harpies",
     "category": "heading",
     "en": "Mountains: Harpies",
-    "zh": "山地：鹰身女妖",
+    "zh": "山地：鸟妖",
     "englishVariants": [
       "Mountains: Harpies"
     ],
-    "legacyZh": [
-      "山地：鸟妖"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -43825,48 +44265,6 @@
     "notes": []
   },
   {
-    "key": "heading:mulhorand",
-    "category": "heading",
-    "en": "MULHORAND",
-    "zh": "穆尔霍兰德",
-    "englishVariants": [
-      "MULHORAND"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mistledale-moonshae-mulmaster.md",
-        "location": "72",
-        "zh": "穆尔霍兰德"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:mulmaster",
-    "category": "heading",
-    "en": "MULMASTER",
-    "zh": "穆尔马斯特",
-    "englishVariants": [
-      "MULMASTER"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mistledale-moonshae-mulmaster.md",
-        "location": "82",
-        "zh": "穆尔马斯特"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:multiple characters for a single player",
     "category": "heading",
     "en": "Multiple Characters for a Single Player",
@@ -44120,36 +44518,10 @@
     "notes": []
   },
   {
-    "key": "heading:myth drannor",
-    "category": "heading",
-    "en": "MYTH DRANNOR",
-    "zh": "迷斯·德拉诺",
-    "englishVariants": [
-      "MYTH DRANNOR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-mistledale-moonshae-mulmaster.md",
-        "location": "96",
-        "zh": "迷斯·德拉诺"
-      },
-      {
-        "path": "src/published/books/fr/fr-myth-drannor-neverwinter-nimbral.md",
-        "location": "4",
-        "zh": "迷斯·德拉诺"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:myth drannor, neverwinter, ordulin, and nimbral",
     "category": "heading",
     "en": "Myth Drannor, Neverwinter, Ordulin, and Nimbral",
-    "zh": "迷斯·德拉诺、无冬城、奥德林与尼姆布拉",
+    "zh": "迷斯卓诺、无冬城、奥德林与尼姆布拉",
     "englishVariants": [
       "Myth Drannor, Neverwinter, Ordulin, and Nimbral"
     ],
@@ -44158,12 +44530,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1123",
-        "zh": "迷斯·德拉诺、无冬城、奥德林与尼姆布拉"
+        "zh": "迷斯卓诺、无冬城、奥德林与尼姆布拉"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1123",
-        "zh": "迷斯·德拉诺、无冬城、奥德林与尼姆布拉"
+        "zh": "迷斯卓诺、无冬城、奥德林与尼姆布拉"
       }
     ],
     "activeIds": [],
@@ -44647,53 +45019,6 @@
     "notes": []
   },
   {
-    "key": "heading:nerull",
-    "category": "heading",
-    "en": "Nerull",
-    "zh": "奈落",
-    "englishVariants": [
-      "Nerull"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1177",
-        "zh": "奈落"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1177",
-        "zh": "奈落"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:nerull (major deity)",
-    "category": "heading",
-    "en": "Nerull (Major Deity)",
-    "zh": "奈落（主要神）",
-    "englishVariants": [
-      "Nerull (Major Deity)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/gha/gha-nerull.md",
-        "location": "2",
-        "zh": "奈落（主要神）"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:nerull's avatar",
     "category": "heading",
     "en": "Nerull's Avatar",
@@ -44749,27 +45074,6 @@
         "path": "src/published/books/dla/dla-tinkers-gnomes.md",
         "location": "320",
         "zh": "抛网器"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:neverwinter",
-    "category": "heading",
-    "en": "NEVERWINTER",
-    "zh": "无冬城",
-    "englishVariants": [
-      "NEVERWINTER"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-myth-drannor-neverwinter-nimbral.md",
-        "location": "28",
-        "zh": "无冬城"
       }
     ],
     "activeIds": [],
@@ -45437,13 +45741,11 @@
     "key": "heading:notes regarding orbs of dragonkind",
     "category": "heading",
     "en": "Notes Regarding Orbs of Dragonkind",
-    "zh": "龙族宝珠说明",
+    "zh": "龙珠说明",
     "englishVariants": [
       "Notes Regarding Orbs of Dragonkind"
     ],
-    "legacyZh": [
-      "龙珠说明"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dmg/treasure-continuation-21.md",
@@ -45758,13 +46060,11 @@
     "key": "heading:ocean/salt-water sea: sahuagin",
     "category": "heading",
     "en": "Ocean/Salt-water Sea: Sahuagin",
-    "zh": "海洋咸水：沙华鱼人",
+    "zh": "海洋咸水：鲨华鱼人",
     "englishVariants": [
       "Ocean/Salt-water Sea: Sahuagin"
     ],
-    "legacyZh": [
-      "海洋咸水：鲨华鱼人"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -46275,27 +46575,6 @@
     "notes": []
   },
   {
-    "key": "heading:orlumbor",
-    "category": "heading",
-    "en": "ORLUMBOR",
-    "zh": "奥伦巴尔",
-    "englishVariants": [
-      "ORLUMBOR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-north-orlumbor-pirate-isles.md",
-        "location": "12",
-        "zh": "奥伦巴尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:ornamental stones",
     "category": "heading",
     "en": "Ornamental Stones",
@@ -46698,13 +46977,11 @@
     "key": "heading:outer plane: red abishai",
     "category": "heading",
     "en": "Outer Plane: Red Abishai",
-    "zh": "外层位面：红色阿比沙伊",
+    "zh": "外层位面：亚比莎红龙魔",
     "englishVariants": [
       "Outer Plane: Red Abishai"
     ],
-    "legacyZh": [
-      "外层位面：亚比莎红龙魔"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -47055,6 +47332,32 @@
         "path": "src/published/books/motp/motp-outer-plane-descriptions.md",
         "location": "77",
         "zh": "潘德莫尼姆"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:par-salian",
+    "category": "heading",
+    "en": "Par-Salian",
+    "zh": "Par-Salian",
+    "englishVariants": [
+      "Par-Salian"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "205",
+        "zh": "Par-Salian"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "221",
+        "zh": "Par-Salian"
       }
     ],
     "activeIds": [],
@@ -47901,7 +48204,7 @@
     "key": "heading:pirate isles continued, priapurl, pros, proskur, procampur, and rangers",
     "category": "heading",
     "en": "Pirate Isles Continued, Priapurl, Pros, Proskur, Procampur, and Rangers",
-    "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔与游侠",
+    "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普与巡林客",
     "englishVariants": [
       "Pirate Isles Continued, Priapurl, Pros, Proskur, Procampur, and Rangers"
     ],
@@ -47910,12 +48213,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1125",
-        "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔与游侠"
+        "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普与巡林客"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1125",
-        "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔与游侠"
+        "zh": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普与巡林客"
       }
     ],
     "activeIds": [],
@@ -49520,27 +49823,6 @@
     "notes": []
   },
   {
-    "key": "heading:procampur",
-    "category": "heading",
-    "en": "PROCAMPUR",
-    "zh": "普罗坎普尔",
-    "englishVariants": [
-      "PROCAMPUR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-pirate-isles-procampur-rangers.md",
-        "location": "31",
-        "zh": "普罗坎普尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:procedure",
     "category": "heading",
     "en": "Procedure",
@@ -50680,6 +50962,27 @@
     "notes": []
   },
   {
+    "key": "heading:pyrite",
+    "category": "heading",
+    "en": "Pyrite",
+    "zh": "Pyrite",
+    "englishVariants": [
+      "Pyrite"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "27",
+        "zh": "Pyrite"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:pyrolisk and lightning quasi-elemental",
     "category": "heading",
     "en": "Pyrolisk and Lightning Quasi-elemental",
@@ -51009,6 +51312,27 @@
     "notes": []
   },
   {
+    "key": "heading:raag",
+    "category": "heading",
+    "en": "Raag",
+    "zh": "Raag",
+    "englishVariants": [
+      "Raag"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-npcs-long-ago.md",
+        "location": "213",
+        "zh": "Raag"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:race",
     "category": "heading",
     "en": "Race",
@@ -51250,6 +51574,27 @@
     "notes": []
   },
   {
+    "key": "heading:raistlin majere",
+    "category": "heading",
+    "en": "Raistlin Majere",
+    "zh": "Raistlin Majere",
+    "englishVariants": [
+      "Raistlin Majere"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "35",
+        "zh": "Raistlin Majere"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:raistlin's cursed money",
     "category": "heading",
     "en": "Raistlin’s Cursed Money",
@@ -51316,13 +51661,11 @@
     "key": "heading:rakshasa to remorhaz",
     "category": "heading",
     "en": "Rakshasa to Remorhaz",
-    "zh": "罗刹至雷莫拉兹",
+    "zh": "罗刹至百足魔兽",
     "englishVariants": [
       "Rakshasa to Remorhaz"
     ],
-    "legacyZh": [
-      "罗刹至百足魔兽"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-8.md",
@@ -51467,6 +51810,27 @@
     "notes": []
   },
   {
+    "key": "heading:randal morn",
+    "category": "heading",
+    "en": "Randal Morn",
+    "zh": "Randal Morn",
+    "englishVariants": [
+      "Randal Morn"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-4.md",
+        "location": "33",
+        "zh": "Randal Morn"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:random dungeon generation for solo play",
     "category": "heading",
     "en": "Random Dungeon Generation for Solo Play",
@@ -51572,33 +51936,6 @@
     "notes": []
   },
   {
-    "key": "heading:rangers",
-    "category": "heading",
-    "en": "RANGERS",
-    "zh": "游侠",
-    "englishVariants": [
-      "RANGERS",
-      "Rangers"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-pirate-isles-procampur-rangers.md",
-        "location": "60",
-        "zh": "游侠"
-      },
-      {
-        "path": "src/published/books/motp/motp-ethereal-players-demi-planes.md",
-        "location": "21",
-        "zh": "游侠"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:rank and spell-like effects",
     "category": "heading",
     "en": "Rank and Spell-like Effects",
@@ -51633,38 +51970,6 @@
         "path": "src/published/books/mm2/mm2-myconid.md",
         "location": "48",
         "zh": "联系 ·"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:rashemen",
-    "category": "heading",
-    "en": "Rashemen",
-    "zh": "拉舍曼",
-    "englishVariants": [
-      "RASHEMEN",
-      "Rashemen"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1126",
-        "zh": "拉舍曼"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1126",
-        "zh": "拉舍曼"
-      },
-      {
-        "path": "src/published/books/fr/fr-rashemen.md",
-        "location": "2",
-        "zh": "拉舍曼"
       }
     ],
     "activeIds": [],
@@ -52039,6 +52344,27 @@
     "notes": []
   },
   {
+    "key": "heading:recent news and rumors in the realms",
+    "category": "heading",
+    "en": "Recent News and Rumors in the Realms",
+    "zh": "Recent News and Rumors in the Realms",
+    "englishVariants": [
+      "Recent News and Rumors in the Realms"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-recent-news-rumors-1.md",
+        "location": "1",
+        "zh": "Recent News and Rumors in the Realms"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:recent news and rumors iv",
     "category": "heading",
     "en": "Recent News and Rumors IV",
@@ -52345,6 +52671,32 @@
         "path": "src/data/published/books.json",
         "location": "/1061",
         "zh": "参考资料、地名索引、作者页与封底"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:reghar fireforge",
+    "category": "heading",
+    "en": "Reghar Fireforge",
+    "zh": "Reghar Fireforge",
+    "englishVariants": [
+      "Reghar Fireforge"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "143",
+        "zh": "Reghar Fireforge"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "157",
+        "zh": "Reghar Fireforge"
       }
     ],
     "activeIds": [],
@@ -54371,6 +54723,27 @@
     "notes": []
   },
   {
+    "key": "heading:scar",
+    "category": "heading",
+    "en": "Scar",
+    "zh": "Scar",
+    "englishVariants": [
+      "Scar"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-5.md",
+        "location": "90",
+        "zh": "Scar"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:scardale",
     "category": "heading",
     "en": "SCARDALE",
@@ -54479,7 +54852,7 @@
     "key": "heading:scornubel companies, map key, and sembia",
     "category": "heading",
     "en": "Scornubel Companies, Map Key, and Sembia",
-    "zh": "斯科努贝尔商队公司、地图索引与塞姆比亚",
+    "zh": "斯科努贝尔商队公司、地图索引与桑比亚",
     "englishVariants": [
       "Scornubel Companies, Map Key, and Sembia"
     ],
@@ -54488,12 +54861,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1128",
-        "zh": "斯科努贝尔商队公司、地图索引与塞姆比亚"
+        "zh": "斯科努贝尔商队公司、地图索引与桑比亚"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1128",
-        "zh": "斯科努贝尔商队公司、地图索引与塞姆比亚"
+        "zh": "斯科努贝尔商队公司、地图索引与桑比亚"
       }
     ],
     "activeIds": [],
@@ -55000,6 +55373,27 @@
     "notes": []
   },
   {
+    "key": "heading:selected npcs of the realms",
+    "category": "heading",
+    "en": "Selected NPCs of the Realms",
+    "zh": "Selected NPCs of the Realms",
+    "englishVariants": [
+      "Selected NPCs of the Realms"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-1.md",
+        "location": "1",
+        "zh": "Selected NPCs of the Realms"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:selected npcs of the realms i",
     "category": "heading",
     "en": "Selected NPCs of the Realms I",
@@ -55206,27 +55600,6 @@
         "path": "src/published/books/fr/fr-religion-human-deities-2.md",
         "location": "126",
         "zh": "塞伦涅"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:sembia",
-    "category": "heading",
-    "en": "SEMBIA",
-    "zh": "塞姆比亚",
-    "englishVariants": [
-      "SEMBIA"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-scornubel-sembia.md",
-        "location": "87",
-        "zh": "塞姆比亚"
       }
     ],
     "activeIds": [],
@@ -55882,13 +56255,11 @@
     "key": "heading:shambling mound to giant spider",
     "category": "heading",
     "en": "Shambling Mound to Giant Spider",
-    "zh": "震颤怪至巨型蜘蛛",
+    "zh": "震颤怪至巨蜘蛛",
     "englishVariants": [
       "Shambling Mound to Giant Spider"
     ],
-    "legacyZh": [
-      "震颤怪至巨蜘蛛"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-9.md",
@@ -56106,13 +56477,11 @@
     "key": "heading:shocking grasp",
     "category": "heading",
     "en": "Shocking Grasp",
-    "zh": "电爪术",
+    "zh": "电爪",
     "englishVariants": [
       "Shocking Grasp"
     ],
-    "legacyZh": [
-      "电爪"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
@@ -56440,6 +56809,27 @@
     "notes": []
   },
   {
+    "key": "heading:silvershield",
+    "category": "heading",
+    "en": "Silvershield",
+    "zh": "Silvershield",
+    "englishVariants": [
+      "Silvershield"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
+        "location": "46",
+        "zh": "Silvershield"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:sinking a ship",
     "category": "heading",
     "en": "Sinking a Ship",
@@ -56495,6 +56885,27 @@
         "path": "src/published/books/ddg/ddg-arthurian-continued.md",
         "location": "7",
         "zh": "湖中骑士兰斯洛特"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:sir tristram of lyonesse",
+    "category": "heading",
+    "en": "Sir Tristram of Lyonesse",
+    "zh": "Sir Tristram of Lyonesse",
+    "englishVariants": [
+      "Sir Tristram of Lyonesse"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ll/ll-arthurian-continued.md",
+        "location": "15",
+        "zh": "Sir Tristram of Lyonesse"
       }
     ],
     "activeIds": [],
@@ -57367,31 +57778,10 @@
     "notes": []
   },
   {
-    "key": "heading:sossal",
-    "category": "heading",
-    "en": "SOSSAL",
-    "zh": "索萨尔",
-    "englishVariants": [
-      "SOSSAL"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-sossal-suzail-tarkhaldale.md",
-        "location": "2",
-        "zh": "索萨尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:sossal, suzail, and tarkhaldale",
     "category": "heading",
     "en": "Sossal, Suzail, and Tarkhaldale",
-    "zh": "索萨尔、苏泽尔与塔克哈尔谷",
+    "zh": "索萨尔、苏萨尔与塔克哈尔谷",
     "englishVariants": [
       "Sossal, Suzail, and Tarkhaldale"
     ],
@@ -57400,12 +57790,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1130",
-        "zh": "索萨尔、苏泽尔与塔克哈尔谷"
+        "zh": "索萨尔、苏萨尔与塔克哈尔谷"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1130",
-        "zh": "索萨尔、苏泽尔与塔克哈尔谷"
+        "zh": "索萨尔、苏萨尔与塔克哈尔谷"
       }
     ],
     "activeIds": [],
@@ -58370,13 +58760,11 @@
     "key": "heading:spider variants to giant toad",
     "category": "heading",
     "en": "Spider Variants to Giant Toad",
-    "zh": "巨型蜘蛛的变种至巨型蟾蜍",
+    "zh": "巨蜘蛛的变种至巨型蟾蜍",
     "englishVariants": [
       "Spider Variants to Giant Toad"
     ],
-    "legacyZh": [
-      "巨蜘蛛的变种至巨型蟾蜍"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-10.md",
@@ -58686,13 +59074,11 @@
     "key": "heading:staff-mace",
     "category": "heading",
     "en": "Staff-Mace",
-    "zh": "钉头锤法杖",
+    "zh": "硬头锤法杖",
     "englishVariants": [
       "Staff-Mace"
     ],
-    "legacyZh": [
-      "硬头锤法杖"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/ua/ua-dm-staff-descriptions.md",
@@ -59306,6 +59692,27 @@
     "notes": []
   },
   {
+    "key": "heading:storm silverhand",
+    "category": "heading",
+    "en": "Storm Silverhand",
+    "zh": "Storm Silverhand",
+    "englishVariants": [
+      "Storm Silverhand"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-4.md",
+        "location": "109",
+        "zh": "Storm Silverhand"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:storoper and giant sundew",
     "category": "heading",
     "en": "Storoper and Giant Sundew",
@@ -59787,13 +60194,11 @@
     "key": "heading:subterranean: manticore",
     "category": "heading",
     "en": "Subterranean: Manticore",
-    "zh": "地下：曼提柯尔",
+    "zh": "地下：刺尾狮",
     "englishVariants": [
       "Subterranean: Manticore"
     ],
-    "legacyZh": [
-      "地下：刺尾狮"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -59841,13 +60246,11 @@
     "key": "heading:subterranean: quasit",
     "category": "heading",
     "en": "Subterranean: Quasit",
-    "zh": "地下：夸赛魔",
+    "zh": "地下：小恶魔",
     "englishVariants": [
       "Subterranean: Quasit"
     ],
-    "legacyZh": [
-      "地下：小恶魔"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -59869,13 +60272,11 @@
     "key": "heading:subterranean: rust monsters",
     "category": "heading",
     "en": "Subterranean: Rust Monsters",
-    "zh": "地下：锈蚀怪物",
+    "zh": "地下：锈蚀怪",
     "englishVariants": [
       "Subterranean: Rust Monsters"
     ],
-    "legacyZh": [
-      "地下：锈蚀怪"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -59897,13 +60298,11 @@
     "key": "heading:subterranean: shadow dragons",
     "category": "heading",
     "en": "Subterranean: Shadow Dragons",
-    "zh": "地下：暗影龙",
+    "zh": "地下：幽影龙",
     "englishVariants": [
       "Subterranean: Shadow Dragons"
     ],
-    "legacyZh": [
-      "地下：幽影龙"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -60118,6 +60517,27 @@
         "path": "src/published/books/dsg/dsg-deepearth-areas.md",
         "location": "310",
         "zh": "10．沉没沼泽"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:sunstrike",
+    "category": "heading",
+    "en": "Sunstrike",
+    "zh": "Sunstrike",
+    "englishVariants": [
+      "Sunstrike"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "739",
+        "zh": "Sunstrike"
       }
     ],
     "activeIds": [],
@@ -60420,31 +60840,10 @@
     "notes": []
   },
   {
-    "key": "heading:suzail",
-    "category": "heading",
-    "en": "SUZAIL",
-    "zh": "苏泽尔",
-    "englishVariants": [
-      "SUZAIL"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-sossal-suzail-tarkhaldale.md",
-        "location": "48",
-        "zh": "苏泽尔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:suzail key",
     "category": "heading",
     "en": "SUZAIL KEY",
-    "zh": "苏泽尔地图索引",
+    "zh": "苏萨尔地图索引",
     "englishVariants": [
       "SUZAIL KEY"
     ],
@@ -60453,7 +60852,7 @@
       {
         "path": "src/published/books/fr/fr-sossal-suzail-tarkhaldale.md",
         "location": "128",
-        "zh": "苏泽尔地图索引"
+        "zh": "苏萨尔地图索引"
       }
     ],
     "activeIds": [],
@@ -60486,13 +60885,11 @@
     "key": "heading:swamp/jungle: guardian naga",
     "category": "heading",
     "en": "Swamp/Jungle: Guardian Naga",
-    "zh": "沼泽与丛林：守护纳迦",
+    "zh": "沼泽与丛林：守秘纳迦",
     "englishVariants": [
       "Swamp/Jungle: Guardian Naga"
     ],
-    "legacyZh": [
-      "沼泽与丛林：守秘纳迦"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/published/book-search.json",
@@ -60716,27 +61113,6 @@
         "path": "src/published/books/dsg/dsg-contents.md",
         "location": "26",
         "zh": "游泳"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:sword coast",
-    "category": "heading",
-    "en": "SWORD COAST",
-    "zh": "剑湾",
-    "englishVariants": [
-      "SWORD COAST"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-sossal-suzail-tarkhaldale.md",
-        "location": "68",
-        "zh": "剑湾"
       }
     ],
     "activeIds": [],
@@ -61965,6 +62341,27 @@
     "notes": []
   },
   {
+    "key": "heading:tanomitsu",
+    "category": "heading",
+    "en": "Tanomitsu",
+    "zh": "Tanomitsu",
+    "englishVariants": [
+      "Tanomitsu"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref5/ref5-spectres.md",
+        "location": "238",
+        "zh": "Tanomitsu"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:tarkhaldale",
     "category": "heading",
     "en": "TARKHALDALE",
@@ -62083,12 +62480,19 @@
     "key": "heading:tasslehoff burrfoot",
     "category": "heading",
     "en": "Tasslehoff Burrfoot",
-    "zh": "泰斯",
+    "zh": "Tasslehoff Burrfoot",
     "englishVariants": [
       "Tasslehoff Burrfoot"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "泰斯"
+    ],
     "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "403",
+        "zh": "Tasslehoff Burrfoot"
+      },
       {
         "path": "src/published/books/dla/dla-personalities.md",
         "location": "413",
@@ -62463,6 +62867,27 @@
     "notes": []
   },
   {
+    "key": "heading:tengu",
+    "category": "heading",
+    "en": "Tengu",
+    "zh": "Tengu",
+    "englishVariants": [
+      "Tengu"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/oa/oa-monsters.md",
+        "location": "302",
+        "zh": "Tengu"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:teratosaurus",
     "category": "heading",
     "en": "Teratosaurus",
@@ -62654,27 +63079,6 @@
         "path": "src/published/books/dla/dla-creatures-krynn.md",
         "location": "441",
         "zh": "海象人生物数据"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:thar",
-    "category": "heading",
-    "en": "THAR",
-    "zh": "泰尔",
-    "englishVariants": [
-      "THAR"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
-        "location": "2",
-        "zh": "泰尔"
       }
     ],
     "activeIds": [],
@@ -62994,6 +63398,48 @@
         "path": "src/published/books/fr/fr-religion-human-deities-2.md",
         "location": "348",
         "zh": "兽之教团"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:the book of lairs",
+    "category": "heading",
+    "en": "The Book of Lairs",
+    "zh": "The Book of Lairs",
+    "englishVariants": [
+      "The Book of Lairs"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref3/ref3-front-matter.md",
+        "location": "3",
+        "zh": "The Book of Lairs"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:the book of lairs ii",
+    "category": "heading",
+    "en": "The Book of Lairs II",
+    "zh": "The Book of Lairs II",
+    "englishVariants": [
+      "The Book of Lairs II"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ref4/ref4-front-matter.md",
+        "location": "3",
+        "zh": "The Book of Lairs II"
       }
     ],
     "activeIds": [],
@@ -65229,7 +65675,7 @@
     "key": "heading:the north, orlumbor, and the pirate isles",
     "category": "heading",
     "en": "The North, Orlumbor, and the Pirate Isles",
-    "zh": "北方、奥伦巴尔与海盗岛",
+    "zh": "北方、欧伦伯与海盗岛",
     "englishVariants": [
       "The North, Orlumbor, and the Pirate Isles"
     ],
@@ -65238,12 +65684,12 @@
       {
         "path": "src/data/published/book-search.json",
         "location": "/1124",
-        "zh": "北方、奥伦巴尔与海盗岛"
+        "zh": "北方、欧伦伯与海盗岛"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/1124",
-        "zh": "北方、奥伦巴尔与海盗岛"
+        "zh": "北方、欧伦伯与海盗岛"
       }
     ],
     "activeIds": [],
@@ -66885,7 +67331,7 @@
     "key": "heading:the zhentil keep network",
     "category": "heading",
     "en": "THE ZHENTIL KEEP NETWORK",
-    "zh": "珍铎城网络图",
+    "zh": "散提尔堡网络图",
     "englishVariants": [
       "THE ZHENTIL KEEP NETWORK"
     ],
@@ -66894,7 +67340,7 @@
       {
         "path": "src/published/books/fr/fr-yellow-snake-zhentarim.md",
         "location": "110",
-        "zh": "珍铎城网络图"
+        "zh": "散提尔堡网络图"
       }
     ],
     "activeIds": [],
@@ -67417,6 +67863,32 @@
         "path": "src/published/books/dmg/dmg-combat.md",
         "location": "98",
         "zh": "平手"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:tika waylan majere",
+    "category": "heading",
+    "en": "Tika Waylan Majere",
+    "zh": "Tika Waylan Majere",
+    "englishVariants": [
+      "Tika Waylan Majere"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "423",
+        "zh": "Tika Waylan Majere"
+      },
+      {
+        "path": "src/published/books/dla/dla-personalities.md",
+        "location": "433",
+        "zh": "Tika Waylan Majere"
       }
     ],
     "activeIds": [],
@@ -67990,14 +68462,22 @@
     "en": "TORM",
     "zh": "托姆",
     "englishVariants": [
-      "TORM"
+      "TORM",
+      "Torm"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Torm"
+    ],
     "occurrences": [
       {
         "path": "src/published/books/fr/fr-religion-human-deities-2.md",
         "location": "226",
         "zh": "托姆"
+      },
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-4.md",
+        "location": "177",
+        "zh": "Torm"
       }
     ],
     "activeIds": [],
@@ -68106,7 +68586,7 @@
     "occurrences": [
       {
         "path": "src/published/books/ua/ua-ranger.md",
-        "location": "7",
+        "location": "9",
         "zh": "追踪"
       }
     ],
@@ -68932,27 +69412,6 @@
     "notes": []
   },
   {
-    "key": "heading:turmish",
-    "category": "heading",
-    "en": "TURMISH",
-    "zh": "图尔米什",
-    "englishVariants": [
-      "TURMISH"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
-        "location": "98",
-        "zh": "图尔米什"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:turning undead",
     "category": "heading",
     "en": "Turning Undead",
@@ -69328,13 +69787,11 @@
     "key": "heading:ulcrun",
     "category": "heading",
     "en": "Ulcrun",
-    "zh": "乌尔克伦毒液",
+    "zh": "乌尔克伦",
     "englishVariants": [
       "Ulcrun"
     ],
-    "legacyZh": [
-      "乌尔克伦"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/published/books/fr/fr-books-forgotten-realms-3.md",
@@ -70093,27 +70550,6 @@
         "path": "src/published/books/dsg/dsg-overview-underdark.md",
         "location": "71",
         "zh": "非天然地下地点"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:unther",
-    "category": "heading",
-    "en": "UNTHER",
-    "zh": "安瑟",
-    "englishVariants": [
-      "UNTHER"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
-        "location": "120",
-        "zh": "安瑟"
       }
     ],
     "activeIds": [],
@@ -71119,27 +71555,6 @@
     "notes": []
   },
   {
-    "key": "heading:vilhon reach",
-    "category": "heading",
-    "en": "VILHON REACH",
-    "zh": "维尔洪海湾",
-    "englishVariants": [
-      "VILHON REACH"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
-        "location": "168",
-        "zh": "维尔洪海湾"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:village, city, ruins",
     "category": "heading",
     "en": "Village, City, Ruins",
@@ -71386,6 +71801,27 @@
         "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
         "location": "174",
         "zh": "沃恩拉尔"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:wa",
+    "category": "heading",
+    "en": "Wa",
+    "zh": "Wa",
+    "englishVariants": [
+      "Wa"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/oa/oa-kara-tur.md",
+        "location": "23",
+        "zh": "Wa"
       }
     ],
     "activeIds": [],
@@ -72187,27 +72623,6 @@
     "notes": []
   },
   {
-    "key": "heading:waterdeep",
-    "category": "heading",
-    "en": "WATERDEEP",
-    "zh": "深水城",
-    "englishVariants": [
-      "WATERDEEP"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-thar-waterdeep-way-inn.md",
-        "location": "194",
-        "zh": "深水城"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:waukeen",
     "category": "heading",
     "en": "WAUKEEN",
@@ -72389,7 +72804,7 @@
     "key": "heading:weapon specialization table for fighters and rangers",
     "category": "heading",
     "en": "Weapon Specialization Table for Fighters and Rangers",
-    "zh": "战士与游侠武器专精表",
+    "zh": "战士与巡林客武器专精表",
     "englishVariants": [
       "Weapon Specialization Table for Fighters and Rangers"
     ],
@@ -72398,7 +72813,7 @@
       {
         "path": "src/published/books/ua/ua-fighter.md",
         "location": "23",
-        "zh": "战士与游侠武器专精表"
+        "zh": "战士与巡林客武器专精表"
       }
     ],
     "activeIds": [],
@@ -72702,14 +73117,13 @@
     "key": "heading:whip",
     "category": "heading",
     "en": "Whip",
-    "zh": "鞭",
+    "zh": "鞭子",
     "englishVariants": [
       "Whip"
     ],
     "legacyZh": [
       "长鞭",
       "长鞭子",
-      "鞭子",
       "鞭术"
     ],
     "occurrences": [
@@ -72748,6 +73162,27 @@
         "path": "src/published/books/oa/oa-wu-jen-spells.md",
         "location": "2453",
         "zh": "旋风"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:whisper",
+    "category": "heading",
+    "en": "Whisper",
+    "zh": "Whisper",
+    "englishVariants": [
+      "Whisper"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/fr/fr-selected-npcs-5.md",
+        "location": "9",
+        "zh": "Whisper"
       }
     ],
     "activeIds": [],
@@ -73590,6 +74025,27 @@
     "notes": []
   },
   {
+    "key": "heading:yamamoto date",
+    "category": "heading",
+    "en": "Yamamoto Date",
+    "zh": "Yamamoto Date",
+    "englishVariants": [
+      "Yamamoto Date"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ll/ll-japanese-continued.md",
+        "location": "3",
+        "zh": "Yamamoto Date"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:years",
     "category": "heading",
     "en": "Years",
@@ -73747,6 +74203,27 @@
     "notes": []
   },
   {
+    "key": "heading:yoshi-iye",
+    "category": "heading",
+    "en": "Yoshi-Iye",
+    "zh": "Yoshi-Iye",
+    "englishVariants": [
+      "Yoshi-Iye"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ll/ll-japanese-continued.md",
+        "location": "7",
+        "zh": "Yoshi-Iye"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:yulash",
     "category": "heading",
     "en": "YULASH",
@@ -73851,27 +74328,6 @@
         "path": "src/published/books/dmg/dmg-combat.md",
         "location": "1154",
         "zh": "零生命值"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:zhentil keep",
-    "category": "heading",
-    "en": "ZHENTIL KEEP",
-    "zh": "珍铎城",
-    "englishVariants": [
-      "ZHENTIL KEEP"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/fr/fr-yellow-snake-zhentarim.md",
-        "location": "80",
-        "zh": "珍铎城"
       }
     ],
     "activeIds": [],
@@ -76322,7 +76778,9 @@
     "englishVariants": [
       "Belpren"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Belpren"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -76338,6 +76796,11 @@
         "path": "src/data/public/regional-items.json",
         "location": "/22",
         "zh": "贝尔普伦毒药"
+      },
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-2.md",
+        "location": "83",
+        "zh": "Belpren"
       }
     ],
     "activeIds": [
@@ -76612,7 +77075,7 @@
     "key": "item:black arrow of iuz +3",
     "category": "item",
     "en": "Black Arrow of Iuz +3",
-    "zh": "伊乌兹的黑箭 +3",
+    "zh": "埃乌兹的黑箭 +3",
     "englishVariants": [
       "Black Arrow of Iuz +3"
     ],
@@ -76621,17 +77084,17 @@
       {
         "path": "@library",
         "location": "",
-        "zh": "伊乌兹的黑箭 +3"
+        "zh": "埃乌兹的黑箭 +3"
       },
       {
         "path": "src/data/public/item-additions.json",
         "location": "/221",
-        "zh": "伊乌兹的黑箭 +3"
+        "zh": "埃乌兹的黑箭 +3"
       },
       {
         "path": "src/data/public/item-index.json",
         "location": "/964",
-        "zh": "伊乌兹的黑箭 +3"
+        "zh": "埃乌兹的黑箭 +3"
       }
     ],
     "activeIds": [
@@ -78886,7 +79349,9 @@
     "englishVariants": [
       "Chambeeleon"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Chambeeleon"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -78902,6 +79367,11 @@
         "path": "src/data/public/regional-items.json",
         "location": "/2",
         "zh": "钱比利昂之书"
+      },
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-2.md",
+        "location": "5",
+        "zh": "Chambeeleon"
       }
     ],
     "activeIds": [
@@ -80738,13 +81208,11 @@
     "key": "item:diamond mace",
     "category": "item",
     "en": "Diamond Mace",
-    "zh": "钻石钉头锤",
+    "zh": "钻石硬头锤",
     "englishVariants": [
       "Diamond Mace"
     ],
-    "legacyZh": [
-      "钻石硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -83965,13 +84433,11 @@
     "key": "item:goblin shield of the pomarj +2",
     "category": "item",
     "en": "Goblin Shield of the Pomarj +2",
-    "zh": "波马吉的哥布林盾牌 +2",
+    "zh": "波马吉的地精盾牌 +2",
     "englishVariants": [
       "Goblin Shield of the Pomarj +2"
     ],
-    "legacyZh": [
-      "波马吉的地精盾牌 +2"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -88857,13 +89323,11 @@
     "key": "item:mace +1",
     "category": "item",
     "en": "Mace +1",
-    "zh": "+1 钉头锤",
+    "zh": "+1 硬头锤",
     "englishVariants": [
       "Mace +1"
     ],
-    "legacyZh": [
-      "+1 硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -88892,13 +89356,11 @@
     "key": "item:mace +2",
     "category": "item",
     "en": "Mace +2",
-    "zh": "+2 钉头锤",
+    "zh": "+2 硬头锤",
     "englishVariants": [
       "Mace +2"
     ],
-    "legacyZh": [
-      "+2 硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -88927,13 +89389,11 @@
     "key": "item:mace +4",
     "category": "item",
     "en": "Mace +4",
-    "zh": "+4 钉头锤",
+    "zh": "+4 硬头锤",
     "englishVariants": [
       "Mace +4"
     ],
-    "legacyZh": [
-      "+4 硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -88962,13 +89422,11 @@
     "key": "item:mace of cuthbert",
     "category": "item",
     "en": "Mace of Cuthbert",
-    "zh": "库斯伯特之钉头锤",
+    "zh": "库斯伯特之硬头锤",
     "englishVariants": [
       "Mace of Cuthbert"
     ],
-    "legacyZh": [
-      "库斯伯特之硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -89002,13 +89460,11 @@
     "key": "item:mace, footman's",
     "category": "item",
     "en": "Mace, Footman's",
-    "zh": "步兵钉头锤",
+    "zh": "步兵硬头锤",
     "englishVariants": [
       "Mace, Footman's"
     ],
-    "legacyZh": [
-      "步兵硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -89042,13 +89498,11 @@
     "key": "item:mace, horseman's",
     "category": "item",
     "en": "Mace, Horseman's",
-    "zh": "骑兵钉头锤",
+    "zh": "骑兵硬头锤",
     "englishVariants": [
       "Mace, Horseman's"
     ],
-    "legacyZh": [
-      "骑兵硬头锤"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -91959,7 +92413,9 @@
     "englishVariants": [
       "Orvas"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Orvas"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -91975,6 +92431,11 @@
         "path": "src/data/public/regional-items.json",
         "location": "/23",
         "zh": "奥瓦斯毒药"
+      },
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-2.md",
+        "location": "89",
+        "zh": "Orvas"
       }
     ],
     "activeIds": [
@@ -98907,13 +99368,11 @@
     "key": "item:staff sling bullet",
     "category": "item",
     "en": "Staff Sling Bullet",
-    "zh": "长柄投石索铅弹",
+    "zh": "长柄投石索子弹",
     "englishVariants": [
       "Staff Sling Bullet"
     ],
-    "legacyZh": [
-      "长柄投石索子弹"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -101321,7 +101780,9 @@
     "englishVariants": [
       "The Alcaister"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "The Alcaister"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -101337,6 +101798,11 @@
         "path": "src/data/public/regional-items.json",
         "location": "/13",
         "zh": "阿尔凯斯特之书"
+      },
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-7.md",
+        "location": "85",
+        "zh": "The Alcaister"
       }
     ],
     "activeIds": [
@@ -102568,7 +103034,9 @@
     "englishVariants": [
       "Varrakas"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Varrakas"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -102584,6 +103052,11 @@
         "path": "src/data/public/regional-items.json",
         "location": "/20",
         "zh": "瓦拉卡斯毒药"
+      },
+      {
+        "path": "src/published/books/fr/fr-books-forgotten-realms-2.md",
+        "location": "75",
+        "zh": "Varrakas"
       }
     ],
     "activeIds": [
@@ -108300,46 +108773,6 @@
     "notes": []
   },
   {
-    "key": "monster:achaierai",
-    "category": "monster",
-    "en": "Achaierai",
-    "zh": "阿查伊莱",
-    "englishVariants": [
-      "Achaierai"
-    ],
-    "legacyZh": [
-      "阿查伊莱 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "阿查伊莱"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/1",
-        "zh": "阿查伊莱"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "3",
-        "zh": "阿查伊莱"
-      },
-      {
-        "path": "src/published/books/ff/ff-achaierai-adherer.md",
-        "location": "1",
-        "zh": "阿查伊莱 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-achaierai"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:acid dragon",
     "category": "monster",
     "en": "Acid Dragon",
@@ -109205,32 +109638,6 @@
     "notes": []
   },
   {
-    "key": "monster:asmodeus",
-    "category": "monster",
-    "en": "Asmodeus",
-    "zh": "阿斯摩蒂尔斯",
-    "englishVariants": [
-      "Asmodeus"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "314",
-        "zh": "阿斯摩蒂尔斯"
-      },
-      {
-        "path": "src/published/books/mm/mm-devil.md",
-        "location": "35",
-        "zh": "阿斯摩蒂尔斯"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:aspis",
     "category": "monster",
     "en": "Aspis",
@@ -109254,46 +109661,6 @@
       }
     ],
     "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:assassin bug",
-    "category": "monster",
-    "en": "Assassin Bug",
-    "zh": "刺客虫",
-    "englishVariants": [
-      "Assassin Bug"
-    ],
-    "legacyZh": [
-      "刺客虫 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "刺客虫"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/7",
-        "zh": "刺客虫"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "9",
-        "zh": "刺客虫"
-      },
-      {
-        "path": "src/published/books/ff/ff-apparition-assassin-bug.md",
-        "location": "38",
-        "zh": "刺客虫 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-assassin-bug"
-    ],
     "status": "pending",
     "references": [],
     "notes": []
@@ -109450,93 +109817,6 @@
     "notes": []
   },
   {
-    "key": "monster:aurak draconian",
-    "category": "monster",
-    "en": "Aurak Draconian",
-    "zh": "Aurak 龙兽",
-    "englishVariants": [
-      "Aurak Draconian"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/dla-monsters.ts",
-        "location": "6",
-        "zh": "Aurak 龙兽"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:aurumvorax",
-    "category": "monster",
-    "en": "Aurumvorax",
-    "zh": "黄金兽",
-    "englishVariants": [
-      "Aurumvorax"
-    ],
-    "legacyZh": [
-      "黄金兽 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "黄金兽"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/141",
-        "zh": "黄金兽"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "223",
-        "zh": "黄金兽"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-monsters-a-continued.md",
-        "location": "77",
-        "zh": "黄金兽 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-aurumvorax"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:baalzebul",
-    "category": "monster",
-    "en": "Baalzebul",
-    "zh": "巴尔泽布",
-    "englishVariants": [
-      "Baalzebul"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "316",
-        "zh": "巴尔泽布"
-      },
-      {
-        "path": "src/published/books/mm/mm-devil.md",
-        "location": "64",
-        "zh": "巴尔泽布"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:baaz",
     "category": "monster",
     "en": "Baaz",
@@ -109560,27 +109840,6 @@
     "activeIds": [
       "dla-baaz"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:baaz draconian",
-    "category": "monster",
-    "en": "Baaz Draconian",
-    "zh": "Baaz 龙兽",
-    "englishVariants": [
-      "Baaz Draconian"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/dla-monsters.ts",
-        "location": "7",
-        "zh": "Baaz 龙兽"
-      }
-    ],
-    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -109914,8 +110173,37 @@
       "mm2-barkburr"
     ],
     "status": "pending",
-    "references": [],
-    "notes": []
+    "references": [
+      {
+        "en": "Barkburr",
+        "zh": "树皮嗡嗡",
+        "category": "monster",
+        "edition": "5E",
+        "source": "QftIS",
+        "page": 195,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%A0%91%E7%9A%AE%E5%97%A1%E5%97%A1_qftis",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      },
+      {
+        "en": "Barkburr",
+        "zh": "树皮嗡嗡",
+        "category": "monster",
+        "edition": "5E",
+        "source": "QftIS",
+        "page": 195,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%A0%91%E7%9A%AE%E5%97%A1%E5%97%A1_qftis",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "参考译名“树皮嗡嗡”质量可疑，暂保留项目译名，等待3R或其他可靠双语证据。"
+    ],
+    "verificationScope": "whole-name"
   },
   {
     "key": "monster:barracuda",
@@ -110377,46 +110665,6 @@
     "notes": []
   },
   {
-    "key": "monster:belial",
-    "category": "monster",
-    "en": "Belial",
-    "zh": "贝利亚",
-    "englishVariants": [
-      "Belial"
-    ],
-    "legacyZh": [
-      "贝利亚 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "贝利亚"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/44",
-        "zh": "贝利亚"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "305",
-        "zh": "贝利亚"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-devils.md",
-        "location": "263",
-        "zh": "贝利亚 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-belial"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:bisan",
     "category": "monster",
     "en": "Bisan",
@@ -110546,46 +110794,6 @@
     "notes": []
   },
   {
-    "key": "monster:blindheim",
-    "category": "monster",
-    "en": "Blindheim",
-    "zh": "炫目蛙怪",
-    "englishVariants": [
-      "Blindheim"
-    ],
-    "legacyZh": [
-      "炫目蛙怪 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "炫目蛙怪"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/10",
-        "zh": "炫目蛙怪"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "15",
-        "zh": "炫目蛙怪"
-      },
-      {
-        "path": "src/published/books/ff/ff-blindheim-blood-hawk-bloodworm.md",
-        "location": "1",
-        "zh": "炫目蛙怪 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-blindheim"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:bloodhawk, giant",
     "category": "monster",
     "en": "Bloodhawk, Giant",
@@ -110610,13 +110818,11 @@
     "key": "monster:bloodsea minotaur",
     "category": "monster",
     "en": "Bloodsea Minotaur",
-    "zh": "血海牛头怪",
+    "zh": "血海牛头人",
     "englishVariants": [
       "Bloodsea Minotaur"
     ],
-    "legacyZh": [
-      "血海牛头人"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "src/data/public/dla-monsters.ts",
@@ -110633,12 +110839,11 @@
     "key": "monster:bloodsea minotaurs",
     "category": "monster",
     "en": "Bloodsea Minotaurs",
-    "zh": "血海牛头怪",
+    "zh": "血海牛头人",
     "englishVariants": [
       "Bloodsea Minotaurs"
     ],
     "legacyZh": [
-      "血海牛头人",
       "血海牛头人生物数据",
       "血海牛头怪生物数据"
     ],
@@ -110955,6 +111160,7 @@
       "Boobrie"
     ],
     "legacyZh": [
+      "Boobrie",
       "布布里巨鸟 ·"
     ],
     "occurrences": [
@@ -110977,6 +111183,11 @@
         "path": "src/published/books/mm2/mm2-monsters-b-final.md",
         "location": "37",
         "zh": "布布里巨鸟 ·"
+      },
+      {
+        "path": "src/published/books/ref3/ref3-birds-open-spaces.md",
+        "location": "29",
+        "zh": "Boobrie"
       }
     ],
     "activeIds": [
@@ -111158,27 +111369,6 @@
     "activeIds": [
       "dla-bozak"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:bozak draconian",
-    "category": "monster",
-    "en": "Bozak Draconian",
-    "zh": "Bozak 龙兽",
-    "englishVariants": [
-      "Bozak Draconian"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/dla-monsters.ts",
-        "location": "8",
-        "zh": "Bozak 龙兽"
-      }
-    ],
-    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -113015,27 +113205,6 @@
     "notes": []
   },
   {
-    "key": "monster:crow",
-    "category": "monster",
-    "en": "Crow",
-    "zh": "乌鸦",
-    "englishVariants": [
-      "Crow"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "482",
-        "zh": "乌鸦"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:crow-headed tengu",
     "category": "monster",
     "en": "Crow-headed Tengu",
@@ -113058,46 +113227,6 @@
     ],
     "activeIds": [
       "oa-tengu-crow"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:cryonax",
-    "category": "monster",
-    "en": "Cryonax",
-    "zh": "克里奥纳克斯",
-    "englishVariants": [
-      "Cryonax"
-    ],
-    "legacyZh": [
-      "克里奥纳克斯 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "克里奥纳克斯"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/40",
-        "zh": "克里奥纳克斯"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "59",
-        "zh": "克里奥纳克斯"
-      },
-      {
-        "path": "src/published/books/ff/ff-elemental-princes-of-evil.md",
-        "location": "5",
-        "zh": "克里奥纳克斯 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-cryonax"
     ],
     "status": "pending",
     "references": [],
@@ -113685,56 +113814,6 @@
     "notes": []
   },
   {
-    "key": "monster:demon",
-    "category": "monster",
-    "en": "Demon",
-    "zh": "恶魔",
-    "englishVariants": [
-      "Demon"
-    ],
-    "legacyZh": [
-      "恶魔 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "恶魔"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/24",
-        "zh": "恶魔"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "38",
-        "zh": "恶魔"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/284",
-        "zh": "恶魔"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/284",
-        "zh": "恶魔"
-      },
-      {
-        "path": "src/published/books/ff/ff-demon-lolth.md",
-        "location": "1",
-        "zh": "恶魔 ·"
-      }
-    ],
-    "activeIds": [
-      "demon"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:demon fly",
     "category": "monster",
     "en": "Demon Fly",
@@ -114098,46 +114177,6 @@
     "notes": []
   },
   {
-    "key": "monster:dire corby",
-    "category": "monster",
-    "en": "Dire Corby",
-    "zh": "凶暴鸦人",
-    "englishVariants": [
-      "Dire Corby"
-    ],
-    "legacyZh": [
-      "凶暴鸦人 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "凶暴鸦人"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/34",
-        "zh": "凶暴鸦人"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "45",
-        "zh": "凶暴鸦人"
-      },
-      {
-        "path": "src/published/books/ff/ff-denzelian-devil-styx-devil-dog-dire-corby.md",
-        "location": "143",
-        "zh": "凶暴鸦人 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-dire-corby"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:direburrs",
     "category": "monster",
     "en": "Direburrs",
@@ -114194,32 +114233,6 @@
     "activeIds": [
       "ff-disenchanter"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:dispater",
-    "category": "monster",
-    "en": "Dispater",
-    "zh": "迪斯帕特",
-    "englishVariants": [
-      "Dispater"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "315",
-        "zh": "迪斯帕特"
-      },
-      {
-        "path": "src/published/books/mm/mm-devil.md",
-        "location": "139",
-        "zh": "迪斯帕特"
-      }
-    ],
-    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -114346,49 +114359,6 @@
     ],
     "activeIds": [
       "doppleganger"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:dragon",
-    "category": "monster",
-    "en": "Dragon",
-    "zh": "龙",
-    "englishVariants": [
-      "Dragon"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "龙"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/32",
-        "zh": "龙"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "342",
-        "zh": "龙"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/292",
-        "zh": "龙"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/292",
-        "zh": "龙"
-      }
-    ],
-    "activeIds": [
-      "dragon"
     ],
     "status": "pending",
     "references": [],
@@ -114582,46 +114552,6 @@
     "notes": []
   },
   {
-    "key": "monster:dragonnel",
-    "category": "monster",
-    "en": "Dragonnel",
-    "zh": "小型翼龙",
-    "englishVariants": [
-      "Dragonnel"
-    ],
-    "legacyZh": [
-      "小型翼龙 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型翼龙"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/45",
-        "zh": "小型翼龙"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "350",
-        "zh": "小型翼龙"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-dragonnel-drelb-drider.md",
-        "location": "3",
-        "zh": "小型翼龙 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-dragonnel"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:dreamshadows",
     "category": "monster",
     "en": "Dreamshadows",
@@ -114766,13 +114696,12 @@
     "key": "monster:drow (dark elf)",
     "category": "monster",
     "en": "Drow (Dark Elf)",
-    "zh": "卓尔精灵（黑暗精灵）",
+    "zh": "卓尔（黑暗精灵）",
     "englishVariants": [
       "Drow (Dark Elf)"
     ],
     "legacyZh": [
-      "Drow（黑暗精灵）",
-      "卓尔（黑暗精灵）"
+      "Drow（黑暗精灵）"
     ],
     "occurrences": [
       {
@@ -114912,34 +114841,6 @@
     "notes": []
   },
   {
-    "key": "monster:dwarf",
-    "category": "monster",
-    "en": "Dwarf",
-    "zh": "矮人",
-    "englishVariants": [
-      "Dwarf"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "矮人"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/35",
-        "zh": "矮人"
-      }
-    ],
-    "activeIds": [
-      "dwarf"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:eagle, giant",
     "category": "monster",
     "en": "Eagle, Giant",
@@ -115043,46 +114944,6 @@
       }
     ],
     "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:eblis",
-    "category": "monster",
-    "en": "Eblis",
-    "zh": "艾布利斯鹤",
-    "englishVariants": [
-      "Eblis"
-    ],
-    "legacyZh": [
-      "艾布利斯鹤 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "艾布利斯鹤"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/52",
-        "zh": "艾布利斯鹤"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "357",
-        "zh": "艾布利斯鹤"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-eagle-eblis-eel.md",
-        "location": "33",
-        "zh": "艾布利斯鹤 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-eblis"
-    ],
     "status": "pending",
     "references": [],
     "notes": []
@@ -115510,46 +115371,6 @@
     ],
     "activeIds": [
       "ff-eye-killer"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:eye of fear and flame",
-    "category": "monster",
-    "en": "Eye of Fear and Flame",
-    "zh": "恐惧烈焰之眼",
-    "englishVariants": [
-      "Eye of Fear and Flame"
-    ],
-    "legacyZh": [
-      "恐惧烈焰之眼 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "恐惧烈焰之眼"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/48",
-        "zh": "恐惧烈焰之眼"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "69",
-        "zh": "恐惧烈焰之眼"
-      },
-      {
-        "path": "src/published/books/ff/ff-enveloper-ettercap-eye-killer-eye-of-fear-and-flame.md",
-        "location": "100",
-        "zh": "恐惧烈焰之眼 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-eye-of-fear-and-flame"
     ],
     "status": "pending",
     "references": [],
@@ -116099,46 +115920,6 @@
     "notes": []
   },
   {
-    "key": "monster:fog giant",
-    "category": "monster",
-    "en": "Fog Giant",
-    "zh": "雾巨人",
-    "englishVariants": [
-      "Fog Giant"
-    ],
-    "legacyZh": [
-      "雾巨人 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "雾巨人"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/57",
-        "zh": "雾巨人"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "83",
-        "zh": "雾巨人"
-      },
-      {
-        "path": "src/published/books/ff/ff-fog-mountain-giant-strider.md",
-        "location": "3",
-        "zh": "雾巨人 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-fog-giant"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:fomorian giant",
     "category": "monster",
     "en": "Fomorian Giant",
@@ -116290,46 +116071,6 @@
     ],
     "activeIds": [
       "mm2-foresters-bane"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:forlarren",
-    "category": "monster",
-    "en": "Forlarren",
-    "zh": "弗拉伦",
-    "englishVariants": [
-      "Forlarren"
-    ],
-    "legacyZh": [
-      "弗拉伦 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "弗拉伦"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/56",
-        "zh": "弗拉伦"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "77",
-        "zh": "弗拉伦"
-      },
-      {
-        "path": "src/published/books/ff/ff-flind-flumph-forlarren.md",
-        "location": "69",
-        "zh": "弗拉伦 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-forlarren"
     ],
     "status": "pending",
     "references": [],
@@ -116649,62 +116390,6 @@
     "notes": []
   },
   {
-    "key": "monster:giant",
-    "category": "monster",
-    "en": "Giant",
-    "zh": "巨人",
-    "englishVariants": [
-      "GIANT",
-      "Giant"
-    ],
-    "legacyZh": [
-      "巨人 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "巨人"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/60",
-        "zh": "巨人"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "82",
-        "zh": "巨人"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/317",
-        "zh": "巨人"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/317",
-        "zh": "巨人"
-      },
-      {
-        "path": "src/published/books/ff/ff-gambado-garbug-giant.md",
-        "location": "65",
-        "zh": "巨人 ·"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-giants-galeb-fomorian-firbolg-verbeeg.md",
-        "location": "31",
-        "zh": "巨人 ·"
-      }
-    ],
-    "activeIds": [
-      "giant"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:giant bloodhawk",
     "category": "monster",
     "en": "Giant Bloodhawk",
@@ -116796,46 +116481,6 @@
     "notes": []
   },
   {
-    "key": "monster:giant dragonfly",
-    "category": "monster",
-    "en": "Giant Dragonfly",
-    "zh": "巨型蜻蜓",
-    "englishVariants": [
-      "Giant Dragonfly"
-    ],
-    "legacyZh": [
-      "巨型蜻蜓 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "巨型蜻蜓"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/219",
-        "zh": "巨型蜻蜓"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "348",
-        "zh": "巨型蜻蜓"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-shadow-dragon-dragonfly-dragon-horse.md",
-        "location": "46",
-        "zh": "巨型蜻蜓 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-giant-dragonfly"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:giant eel",
     "category": "monster",
     "en": "Giant Eel",
@@ -116870,34 +116515,6 @@
         "path": "../translation/monster-names.tsv",
         "location": "366",
         "zh": "巨型萤火虫"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:giant fly",
-    "category": "monster",
-    "en": "Giant Fly",
-    "zh": "巨型苍蝇",
-    "englishVariants": [
-      "Giant Fly"
-    ],
-    "legacyZh": [
-      "巨型苍蝇 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "367",
-        "zh": "巨型苍蝇"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-firefriend-giant-fly-foo.md",
-        "location": "31",
-        "zh": "巨型苍蝇 ·"
       }
     ],
     "activeIds": [],
@@ -117187,46 +116804,6 @@
     "notes": []
   },
   {
-    "key": "monster:gibberling",
-    "category": "monster",
-    "en": "Gibberling",
-    "zh": "胡言兽",
-    "englishVariants": [
-      "Gibberling"
-    ],
-    "legacyZh": [
-      "胡言兽 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "胡言兽"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/65",
-        "zh": "胡言兽"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "86",
-        "zh": "胡言兽"
-      },
-      {
-        "path": "src/published/books/ff/ff-gibberling-githyanki.md",
-        "location": "1",
-        "zh": "胡言兽 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-gibberling"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:githyanki",
     "category": "monster",
     "en": "Githyanki",
@@ -117294,46 +116871,6 @@
     ],
     "activeIds": [
       "ff-githzerai"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:glasya",
-    "category": "monster",
-    "en": "Glasya",
-    "zh": "格莱西雅",
-    "englishVariants": [
-      "Glasya"
-    ],
-    "legacyZh": [
-      "格莱西雅 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "格莱西雅"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/33",
-        "zh": "格莱西雅"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "306",
-        "zh": "格莱西雅"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-devils-continued.md",
-        "location": "3",
-        "zh": "格莱西雅 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-glasya"
     ],
     "status": "pending",
     "references": [],
@@ -118708,39 +118245,6 @@
     "notes": []
   },
   {
-    "key": "monster:hollyphant",
-    "category": "monster",
-    "en": "Hollyphant",
-    "zh": "圣象",
-    "englishVariants": [
-      "Hollyphant"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "圣象"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/103",
-        "zh": "圣象"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "397",
-        "zh": "圣象"
-      }
-    ],
-    "activeIds": [
-      "mm2-hollyphant"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:hordes of hades",
     "category": "monster",
     "en": "Hordes of Hades",
@@ -118846,46 +118350,6 @@
       }
     ],
     "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:hound of ill omen",
-    "category": "monster",
-    "en": "Hound of Ill Omen",
-    "zh": "凶兆猎犬",
-    "englishVariants": [
-      "Hound of Ill Omen"
-    ],
-    "legacyZh": [
-      "凶兆猎犬 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "凶兆猎犬"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/80",
-        "zh": "凶兆猎犬"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "102",
-        "zh": "凶兆猎犬"
-      },
-      {
-        "path": "src/published/books/ff/ff-hook-hornet-hound-huecuva.md",
-        "location": "65",
-        "zh": "凶兆猎犬 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-hound-of-ill-omen"
-    ],
     "status": "pending",
     "references": [],
     "notes": []
@@ -119301,46 +118765,6 @@
     "notes": []
   },
   {
-    "key": "monster:ice troll",
-    "category": "monster",
-    "en": "Ice Troll",
-    "zh": "冰巨魔",
-    "englishVariants": [
-      "Ice Troll"
-    ],
-    "legacyZh": [
-      "冰巨魔 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "冰巨魔"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/159",
-        "zh": "冰巨魔"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "192",
-        "zh": "冰巨魔"
-      },
-      {
-        "path": "src/published/books/ff/ff-trilloch-troll-tween.md",
-        "location": "110",
-        "zh": "冰巨魔 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-ice-troll"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:ikiryo",
     "category": "monster",
     "en": "Ikiryo",
@@ -119562,84 +118986,6 @@
     "notes": []
   },
   {
-    "key": "monster:ixitxachitl",
-    "category": "monster",
-    "en": "Ixitxachitl",
-    "zh": "恶魔魟",
-    "englishVariants": [
-      "Ixitxachitl"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "恶魔魟"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/86",
-        "zh": "恶魔魟"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/344",
-        "zh": "恶魔魟"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/344",
-        "zh": "恶魔魟"
-      }
-    ],
-    "activeIds": [
-      "ixitxachitl"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:jaculi",
-    "category": "monster",
-    "en": "Jaculi",
-    "zh": "标枪蛇",
-    "englishVariants": [
-      "Jaculi"
-    ],
-    "legacyZh": [
-      "标枪蛇 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "标枪蛇"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/85",
-        "zh": "标枪蛇"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "107",
-        "zh": "标枪蛇"
-      },
-      {
-        "path": "src/published/books/ff/ff-jaculi-jermlaine.md",
-        "location": "1",
-        "zh": "标枪蛇 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-jaculi"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:jann",
     "category": "monster",
     "en": "Jann",
@@ -119714,46 +119060,6 @@
     ],
     "activeIds": [
       "mm2-jelly-mustard"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:jermlaine",
-    "category": "monster",
-    "en": "Jermlaine",
-    "zh": "杰姆莱恩",
-    "englishVariants": [
-      "Jermlaine"
-    ],
-    "legacyZh": [
-      "杰姆莱恩 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "杰姆莱恩"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/86",
-        "zh": "杰姆莱恩"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "108",
-        "zh": "杰姆莱恩"
-      },
-      {
-        "path": "src/published/books/ff/ff-jaculi-jermlaine.md",
-        "location": "28",
-        "zh": "杰姆莱恩 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-jermlaine"
     ],
     "status": "pending",
     "references": [],
@@ -119877,46 +119183,6 @@
     "notes": []
   },
   {
-    "key": "monster:kamadan",
-    "category": "monster",
-    "en": "Kamadan",
-    "zh": "卡玛丹蛇豹",
-    "englishVariants": [
-      "Kamadan"
-    ],
-    "legacyZh": [
-      "卡玛丹蛇豹 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "卡玛丹蛇豹"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/87",
-        "zh": "卡玛丹蛇豹"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "110",
-        "zh": "卡玛丹蛇豹"
-      },
-      {
-        "path": "src/published/books/ff/ff-kamadan-kelpie.md",
-        "location": "1",
-        "zh": "卡玛丹蛇豹 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-kamadan"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:kampfult",
     "category": "monster",
     "en": "Kampfult",
@@ -119985,27 +119251,6 @@
     "notes": []
   },
   {
-    "key": "monster:kapak draconian",
-    "category": "monster",
-    "en": "Kapak Draconian",
-    "zh": "Kapak 龙兽",
-    "englishVariants": [
-      "Kapak Draconian"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/dla-monsters.ts",
-        "location": "9",
-        "zh": "Kapak 龙兽"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:kappa",
     "category": "monster",
     "en": "Kappa",
@@ -120068,46 +119313,6 @@
     ],
     "activeIds": [
       "mm2-kech"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:kelpie",
-    "category": "monster",
-    "en": "Kelpie",
-    "zh": "水鬼",
-    "englishVariants": [
-      "Kelpie"
-    ],
-    "legacyZh": [
-      "水鬼 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "水鬼"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/88",
-        "zh": "水鬼"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "111",
-        "zh": "水鬼"
-      },
-      {
-        "path": "src/published/books/ff/ff-kamadan-kelpie.md",
-        "location": "30",
-        "zh": "水鬼 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-kelpie"
     ],
     "status": "pending",
     "references": [],
@@ -120194,79 +119399,6 @@
     "notes": []
   },
   {
-    "key": "monster:khargra",
-    "category": "monster",
-    "en": "Khargra",
-    "zh": "卡格拉",
-    "englishVariants": [
-      "Khargra"
-    ],
-    "legacyZh": [
-      "卡格拉 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "卡格拉"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/90",
-        "zh": "卡格拉"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "113",
-        "zh": "卡格拉"
-      },
-      {
-        "path": "src/published/books/ff/ff-kenku-khargra.md",
-        "location": "44",
-        "zh": "卡格拉 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-khargra"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:killmoulis",
-    "category": "monster",
-    "en": "Killmoulis",
-    "zh": "基尔莫利斯",
-    "englishVariants": [
-      "Killmoulis"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "基尔莫利斯"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/91",
-        "zh": "基尔莫利斯"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "114",
-        "zh": "基尔莫利斯"
-      }
-    ],
-    "activeIds": [
-      "ff-killmoulis"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:kostchtchie",
     "category": "monster",
     "en": "Kostchtchie",
@@ -120345,12 +119477,12 @@
     "key": "monster:lamia noble",
     "category": "monster",
     "en": "Lamia Noble",
-    "zh": "拉弥亚贵族",
+    "zh": "拉迷亚贵族",
     "englishVariants": [
       "Lamia Noble"
     ],
     "legacyZh": [
-      "拉迷亚贵族"
+      "拉弥亚贵族"
     ],
     "occurrences": [
       {
@@ -120667,56 +119799,6 @@
     "notes": []
   },
   {
-    "key": "monster:leprechaun",
-    "category": "monster",
-    "en": "Leprechaun",
-    "zh": "小妖精",
-    "englishVariants": [
-      "Leprechaun"
-    ],
-    "legacyZh": [
-      "森林：矮妖精"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小妖精"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/93",
-        "zh": "小妖精"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/353",
-        "zh": "小妖精"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/950",
-        "zh": "森林：矮妖精"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/353",
-        "zh": "小妖精"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/950",
-        "zh": "森林：矮妖精"
-      }
-    ],
-    "activeIds": [
-      "leprechaun"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:lesser vampire",
     "category": "monster",
     "en": "Lesser Vampire",
@@ -120844,44 +119926,6 @@
     "activeIds": [
       "lizard-man",
       "ref3-lizard-man"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:locathah",
-    "category": "monster",
-    "en": "Locathah",
-    "zh": "洛卡萨",
-    "englishVariants": [
-      "Locathah"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "洛卡萨"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/97",
-        "zh": "洛卡萨"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/359",
-        "zh": "洛卡萨"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/359",
-        "zh": "洛卡萨"
-      }
-    ],
-    "activeIds": [
-      "locathah"
     ],
     "status": "pending",
     "references": [],
@@ -121299,46 +120343,6 @@
     "notes": []
   },
   {
-    "key": "monster:mammon",
-    "category": "monster",
-    "en": "Mammon",
-    "zh": "玛门",
-    "englishVariants": [
-      "Mammon"
-    ],
-    "legacyZh": [
-      "玛门 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "玛门"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/35",
-        "zh": "玛门"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "308",
-        "zh": "玛门"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-devils-continued.md",
-        "location": "59",
-        "zh": "玛门 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-mammon"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:mandragora",
     "category": "monster",
     "en": "Mandragora",
@@ -121453,46 +120457,6 @@
     ],
     "activeIds": [
       "mm2-mantis-giant"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:mantrap",
-    "category": "monster",
-    "en": "Mantrap",
-    "zh": "食人花",
-    "englishVariants": [
-      "Mantrap"
-    ],
-    "legacyZh": [
-      "食人花 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "食人花"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/115",
-        "zh": "食人花"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "439",
-        "zh": "食人花"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-mantrap-giant-mantis-margoyle.md",
-        "location": "3",
-        "zh": "食人花 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-mantrap"
     ],
     "status": "pending",
     "references": [],
@@ -121691,46 +120655,6 @@
     ],
     "activeIds": [
       "mastodon"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:mephistopheles",
-    "category": "monster",
-    "en": "Mephistopheles",
-    "zh": "墨菲斯托费利斯",
-    "englishVariants": [
-      "Mephistopheles"
-    ],
-    "legacyZh": [
-      "墨菲斯托费利斯 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "墨菲斯托费利斯"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/36",
-        "zh": "墨菲斯托费利斯"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "309",
-        "zh": "墨菲斯托费利斯"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-devils-continued.md",
-        "location": "87",
-        "zh": "墨菲斯托费利斯 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-mephistopheles"
     ],
     "status": "pending",
     "references": [],
@@ -122038,46 +120962,6 @@
     ],
     "activeIds": [
       "gha-mist-wolf"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:mite",
-    "category": "monster",
-    "en": "Mite",
-    "zh": "小蠹怪",
-    "englishVariants": [
-      "Mite"
-    ],
-    "legacyZh": [
-      "小蠹怪 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小蠹怪"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/101",
-        "zh": "小蠹怪"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "129",
-        "zh": "小蠹怪"
-      },
-      {
-        "path": "src/published/books/ff/ff-mezzodaemon-mite.md",
-        "location": "40",
-        "zh": "小蠹怪 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-mite"
     ],
     "status": "pending",
     "references": [],
@@ -122678,91 +121562,6 @@
     "notes": []
   },
   {
-    "key": "monster:neo-otyugh",
-    "category": "monster",
-    "en": "Neo-Otyugh",
-    "zh": "新奥提尤格",
-    "englishVariants": [
-      "Neo-Otyugh"
-    ],
-    "legacyZh": [
-      "新食腐兽"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "新食腐兽"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/111",
-        "zh": "新食腐兽"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1248",
-        "zh": "新食腐兽"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1248",
-        "zh": "新食腐兽"
-      },
-      {
-        "path": "src/published/books/mm/mm-neo-otyugh.md",
-        "location": "1",
-        "zh": "新食腐兽"
-      }
-    ],
-    "activeIds": [
-      "neo-otyugh"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:nereid",
-    "category": "monster",
-    "en": "Nereid",
-    "zh": "水宁芙",
-    "englishVariants": [
-      "Nereid"
-    ],
-    "legacyZh": [
-      "水宁芙 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "水宁芙"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/185",
-        "zh": "水宁芙"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "448",
-        "zh": "水宁芙"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-nereid-narwhale.md",
-        "location": "3",
-        "zh": "水宁芙 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-nereid"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:nimbus",
     "category": "monster",
     "en": "Nimbus",
@@ -122951,46 +121750,6 @@
     ],
     "activeIds": [
       "mm2-nonaton"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:norker",
-    "category": "monster",
-    "en": "Norker",
-    "zh": "诺克地精",
-    "englishVariants": [
-      "Norker"
-    ],
-    "legacyZh": [
-      "诺克地精 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "诺克地精"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/106",
-        "zh": "诺克地精"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "136",
-        "zh": "诺克地精"
-      },
-      {
-        "path": "src/published/books/ff/ff-nonafel-norker.md",
-        "location": "40",
-        "zh": "诺克地精 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-norker"
     ],
     "status": "pending",
     "references": [],
@@ -124010,79 +122769,6 @@
     "notes": []
   },
   {
-    "key": "monster:pazuzu",
-    "category": "monster",
-    "en": "Pazuzu",
-    "zh": "帕祖祖",
-    "englishVariants": [
-      "Pazuzu"
-    ],
-    "legacyZh": [
-      "帕祖祖 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "帕祖祖"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/22",
-        "zh": "帕祖祖"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "294",
-        "zh": "帕祖祖"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-demons-continued.md",
-        "location": "201",
-        "zh": "帕祖祖 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-pazuzu"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:pech",
-    "category": "monster",
-    "en": "Pech",
-    "zh": "佩奇土灵",
-    "englishVariants": [
-      "Pech"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "佩奇土灵"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/198",
-        "zh": "佩奇土灵"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "460",
-        "zh": "佩奇土灵"
-      }
-    ],
-    "activeIds": [
-      "mm2-pech"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:pedipalp",
     "category": "monster",
     "en": "Pedipalp",
@@ -124300,6 +122986,7 @@
       "Phororhacos"
     ],
     "legacyZh": [
+      "Phororhacos",
       "恐鹤 ·"
     ],
     "occurrences": [
@@ -124322,6 +123009,11 @@
         "path": "src/published/books/mm2/mm2-hades-dinosaurs-continued.md",
         "location": "5",
         "zh": "恐鹤 ·"
+      },
+      {
+        "path": "src/published/books/ref3/ref3-birds-open-spaces.md",
+        "location": "35",
+        "zh": "Phororhacos"
       }
     ],
     "activeIds": [
@@ -125668,67 +124360,6 @@
     "notes": []
   },
   {
-    "key": "monster:scrag",
-    "category": "monster",
-    "en": "Scrag",
-    "zh": "海生巨魔",
-    "englishVariants": [
-      "Scrag"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "531",
-        "zh": "海生巨魔"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:screaming devilkin",
-    "category": "monster",
-    "en": "Screaming Devilkin",
-    "zh": "尖啸小魔",
-    "englishVariants": [
-      "Screaming Devilkin"
-    ],
-    "legacyZh": [
-      "尖啸小魔 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "尖啸小魔"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/132",
-        "zh": "尖啸小魔"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "154",
-        "zh": "尖啸小魔"
-      },
-      {
-        "path": "src/published/books/ff/ff-sandman-scarecrow-screaming-devilkin.md",
-        "location": "65",
-        "zh": "尖啸小魔 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-screaming-devilkin"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:scum creeper",
     "category": "monster",
     "en": "Scum Creeper",
@@ -125812,49 +124443,6 @@
     "activeIds": [
       "giant-sea-horse",
       "sea-horse-giant"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:sea lion",
-    "category": "monster",
-    "en": "Sea Lion",
-    "zh": "海狮",
-    "englishVariants": [
-      "Sea Lion"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "海狮"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/151",
-        "zh": "海狮"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1288",
-        "zh": "海狮"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1288",
-        "zh": "海狮"
-      },
-      {
-        "path": "src/published/books/mm/mm-sea-lion.md",
-        "location": "1",
-        "zh": "海狮"
-      }
-    ],
-    "activeIds": [
-      "sea-lion"
     ],
     "status": "pending",
     "references": [],
@@ -126196,8 +124784,37 @@
     ],
     "activeIds": [],
     "status": "pending",
-    "references": [],
-    "notes": []
+    "references": [
+      {
+        "en": "Shade",
+        "zh": "幽影",
+        "category": "monster",
+        "edition": "5E",
+        "source": "PSZ",
+        "page": 28,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%B9%BD%E5%BD%B1_psz",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      },
+      {
+        "en": "Shade",
+        "zh": "幽影",
+        "category": "monster",
+        "edition": "5E",
+        "source": "PSZ",
+        "page": 28,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%B9%BD%E5%BD%B1_psz",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "Shade 存在跨版本生物身份变化，不能仅凭同名套用“幽影”；保留1e项目译名待核。"
+    ],
+    "verificationScope": "whole-name"
   },
   {
     "key": "monster:shade general rules",
@@ -126868,67 +125485,6 @@
     "notes": []
   },
   {
-    "key": "monster:sivak draconian",
-    "category": "monster",
-    "en": "Sivak Draconian",
-    "zh": "Sivak 龙兽",
-    "englishVariants": [
-      "Sivak Draconian"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/dla-monsters.ts",
-        "location": "10",
-        "zh": "Sivak 龙兽"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:skeleton warrior",
-    "category": "monster",
-    "en": "Skeleton Warrior",
-    "zh": "骷髅战士",
-    "englishVariants": [
-      "Skeleton Warrior"
-    ],
-    "legacyZh": [
-      "骷髅战士 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "骷髅战士"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/137",
-        "zh": "骷髅战士"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "159",
-        "zh": "骷髅战士"
-      },
-      {
-        "path": "src/published/books/ff/ff-shocker-skeleton-warrior.md",
-        "location": "34",
-        "zh": "骷髅战士 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-skeleton-warrior"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:skeleton, animal",
     "category": "monster",
     "en": "Skeleton, Animal",
@@ -127587,34 +126143,6 @@
     "notes": []
   },
   {
-    "key": "monster:spotted lion",
-    "category": "monster",
-    "en": "Spotted Lion",
-    "zh": "斑点狮",
-    "englishVariants": [
-      "Spotted Lion"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "斑点狮"
-      },
-      {
-        "path": "src/data/public/ref3-monsters.ts",
-        "location": "13",
-        "zh": "斑点狮"
-      }
-    ],
-    "activeIds": [
-      "ref3-spotted-lion"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:spriggan",
     "category": "monster",
     "en": "Spriggan",
@@ -128161,49 +126689,6 @@
     "notes": []
   },
   {
-    "key": "monster:su-monster",
-    "category": "monster",
-    "en": "Su-monster",
-    "zh": "苏魔兽",
-    "englishVariants": [
-      "Su-monster"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "苏魔兽"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/170",
-        "zh": "苏魔兽"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1307",
-        "zh": "苏魔兽"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1307",
-        "zh": "苏魔兽"
-      },
-      {
-        "path": "src/published/books/mm/mm-su-monster.md",
-        "location": "1",
-        "zh": "苏魔兽"
-      }
-    ],
-    "activeIds": [
-      "su-monster"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:sundew",
     "category": "monster",
     "en": "Sundew",
@@ -128379,46 +126864,6 @@
     ],
     "activeIds": [
       "mm2-swan"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:swanmay",
-    "category": "monster",
-    "en": "Swanmay",
-    "zh": "天鹅女",
-    "englishVariants": [
-      "Swanmay"
-    ],
-    "legacyZh": [
-      "天鹅女 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "天鹅女"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/235",
-        "zh": "天鹅女"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "515",
-        "zh": "天鹅女"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-swan-swanmay-swordfish.md",
-        "location": "31",
-        "zh": "天鹅女 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-swanmay"
     ],
     "status": "pending",
     "references": [],
@@ -128787,46 +127232,6 @@
     "notes": []
   },
   {
-    "key": "monster:tasloi",
-    "category": "monster",
-    "en": "Tasloi",
-    "zh": "塔斯罗伊人",
-    "englishVariants": [
-      "Tasloi"
-    ],
-    "legacyZh": [
-      "塔斯罗伊人 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "塔斯罗伊人"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/238",
-        "zh": "塔斯罗伊人"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "519",
-        "zh": "塔斯罗伊人"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-tasloi-termites.md",
-        "location": "3",
-        "zh": "塔斯罗伊人 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-tasloi"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:tenebrous worm",
     "category": "monster",
     "en": "Tenebrous Worm",
@@ -129104,46 +127509,6 @@
       }
     ],
     "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:thessalhydra",
-    "category": "monster",
-    "en": "Thessalhydra",
-    "zh": "塞萨尔多头怪",
-    "englishVariants": [
-      "Thessalhydra"
-    ],
-    "legacyZh": [
-      "塞萨尔多头怪 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "塞萨尔多头怪"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/239",
-        "zh": "塞萨尔多头怪"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "522",
-        "zh": "塞萨尔多头怪"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-thessalhydra-thri-kreen.md",
-        "location": "3",
-        "zh": "塞萨尔多头怪 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-thessalhydra"
-    ],
     "status": "pending",
     "references": [],
     "notes": []
@@ -129624,44 +127989,6 @@
     "notes": []
   },
   {
-    "key": "monster:titanothere",
-    "category": "monster",
-    "en": "Titanothere",
-    "zh": "泰坦兽",
-    "englishVariants": [
-      "Titanothere"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "泰坦兽"
-      },
-      {
-        "path": "src/data/public/monsters-imported.json",
-        "location": "/176",
-        "zh": "泰坦兽"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/1313",
-        "zh": "泰坦兽"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/1313",
-        "zh": "泰坦兽"
-      }
-    ],
-    "activeIds": [
-      "titanothere"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:toad",
     "category": "monster",
     "en": "Toad",
@@ -129761,46 +128088,6 @@
     ],
     "activeIds": [
       "mm2-transposer"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:tri-flower frond",
-    "category": "monster",
-    "en": "Tri-flower Frond",
-    "zh": "三花叶怪",
-    "englishVariants": [
-      "Tri-flower Frond"
-    ],
-    "legacyZh": [
-      "三花叶怪 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "三花叶怪"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/245",
-        "zh": "三花叶怪"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "528",
-        "zh": "三花叶怪"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-triflower-troll-twilight.md",
-        "location": "3",
-        "zh": "三花叶怪 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-tri-flower-frond"
     ],
     "status": "pending",
     "references": [],
@@ -131339,46 +129626,6 @@
     "notes": []
   },
   {
-    "key": "monster:wolf-in-sheep's-clothing",
-    "category": "monster",
-    "en": "Wolf-in-Sheep's-Clothing",
-    "zh": "披羊皮的狼",
-    "englishVariants": [
-      "Wolf-in-Sheep's-Clothing"
-    ],
-    "legacyZh": [
-      "披羊皮的狼 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "披羊皮的狼"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/261",
-        "zh": "披羊皮的狼"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "548",
-        "zh": "披羊皮的狼"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-willow-wolfwere-xag-yeg.md",
-        "location": "26",
-        "zh": "披羊皮的狼 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-wolf-in-sheeps-clothing"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:wolfwere",
     "category": "monster",
     "en": "Wolfwere",
@@ -131415,8 +129662,37 @@
       "mm2-wolfwere"
     ],
     "status": "pending",
-    "references": [],
-    "notes": []
+    "references": [
+      {
+        "en": "Wolfwere",
+        "zh": "狼人",
+        "category": "monster",
+        "edition": "5E",
+        "source": "MaBJoV",
+        "page": 155,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%8B%BC%E4%BA%BA_mabjov",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      },
+      {
+        "en": "Wolfwere",
+        "zh": "狼人",
+        "category": "monster",
+        "edition": "5E",
+        "source": "MaBJoV",
+        "page": 155,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%8B%BC%E4%BA%BA_mabjov",
+        "accessed": "2026-11-06",
+        "isNpc": false
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "Wolfwere 与 Werewolf 为不同生物；参考译名“狼人”会抹去区别，暂不采用。"
+    ],
+    "verificationScope": "whole-name"
   },
   {
     "key": "monster:wolverine",
@@ -131574,46 +129850,6 @@
     "notes": []
   },
   {
-    "key": "monster:xill",
-    "category": "monster",
-    "en": "Xill",
-    "zh": "希尔虫人",
-    "englishVariants": [
-      "Xill"
-    ],
-    "legacyZh": [
-      "希尔虫人 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "希尔虫人"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/170",
-        "zh": "希尔虫人"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "210",
-        "zh": "希尔虫人"
-      },
-      {
-        "path": "src/published/books/ff/ff-xill-xvart.md",
-        "location": "1",
-        "zh": "希尔虫人 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-xill"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:yagnodaemon",
     "category": "monster",
     "en": "Yagnodaemon",
@@ -131689,67 +129925,6 @@
     "activeIds": [
       "ff-yan-c-bin"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:yellow musk creeper",
-    "category": "monster",
-    "en": "Yellow Musk Creeper",
-    "zh": "黄麝香蔓",
-    "englishVariants": [
-      "Yellow Musk Creeper"
-    ],
-    "legacyZh": [
-      "黄麝香蔓 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "黄麝香蔓"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/172",
-        "zh": "黄麝香蔓"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "212",
-        "zh": "黄麝香蔓"
-      },
-      {
-        "path": "src/published/books/ff/ff-yellow-musk-creeper-zombie.md",
-        "location": "1",
-        "zh": "黄麝香蔓 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-yellow-musk-creeper"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:yellow musk zombie",
-    "category": "monster",
-    "en": "Yellow Musk Zombie",
-    "zh": "黄麝香僵尸",
-    "englishVariants": [
-      "Yellow Musk Zombie"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "213",
-        "zh": "黄麝香僵尸"
-      }
-    ],
-    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -131958,46 +130133,6 @@
     ],
     "activeIds": [
       "ff-yellow-musk"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:zorbo",
-    "category": "monster",
-    "en": "Zorbo",
-    "zh": "佐博兽",
-    "englishVariants": [
-      "Zorbo"
-    ],
-    "legacyZh": [
-      "佐博兽 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "佐博兽"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/272",
-        "zh": "佐博兽"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "561",
-        "zh": "佐博兽"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-zombies-zorbo-zygom.md",
-        "location": "47",
-        "zh": "佐博兽 ·"
-      }
-    ],
-    "activeIds": [
-      "mm2-zorbo"
     ],
     "status": "pending",
     "references": [],
@@ -133635,27 +131770,6 @@
     "notes": []
   },
   {
-    "key": "proper:luskan",
-    "category": "proper",
-    "en": "Luskan",
-    "zh": "路斯坎",
-    "englishVariants": [
-      "Luskan"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "scripts/import/regional-names.json",
-        "location": "",
-        "zh": "路斯坎"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "proper:manshoon",
     "category": "proper",
     "en": "Manshoon",
@@ -135068,7 +133182,9 @@
     "englishVariants": [
       "Hengeyokai"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Hengeyokai"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -135079,6 +133195,11 @@
         "path": "src/data/public/oa-races.ts",
         "location": "8",
         "zh": "变形妖"
+      },
+      {
+        "path": "src/published/books/oa/oa-classes-races.md",
+        "location": "91",
+        "zh": "Hengeyokai"
       }
     ],
     "activeIds": [
@@ -135096,7 +133217,9 @@
     "englishVariants": [
       "Korobokuru"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Korobokuru"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -135107,6 +133230,11 @@
         "path": "src/data/public/oa-races.ts",
         "location": "7",
         "zh": "科罗博库鲁"
+      },
+      {
+        "path": "src/published/books/oa/oa-classes-races.md",
+        "location": "73",
+        "zh": "Korobokuru"
       }
     ],
     "activeIds": [
@@ -135120,13 +133248,11 @@
     "key": "race:krynn minotaur",
     "category": "race",
     "en": "Krynn Minotaur",
-    "zh": "克莱恩牛头怪",
+    "zh": "克莱恩牛头人",
     "englishVariants": [
       "Krynn Minotaur"
     ],
-    "legacyZh": [
-      "克莱恩牛头人"
-    ],
+    "legacyZh": [],
     "occurrences": [
       {
         "path": "@library",
@@ -136909,22 +135035,22 @@
       {
         "path": "@library",
         "location": "",
-        "zh": "魅惑类人或哺乳动物"
+        "zh": "魅惑人类或哺乳动物"
       },
       {
         "path": "src/data/public/spells-imported.json",
         "location": "/88",
-        "zh": "魅惑类人或哺乳动物"
+        "zh": "魅惑人类或哺乳动物"
       },
       {
         "path": "src/published/books/dmg/dmg-spell-explanations-druids.md",
         "location": "30",
-        "zh": "魅惑类人或哺乳动物"
+        "zh": "魅惑人类或哺乳动物"
       },
       {
         "path": "src/published/books/phb/spell-explanations-druids.md",
         "location": "198",
-        "zh": "魅惑类人或哺乳动物"
+        "zh": "魅惑人类或哺乳动物"
       }
     ],
     "activeIds": [
@@ -137495,7 +135621,9 @@
     "englishVariants": [
       "Control Undead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Control Undead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -137506,6 +135634,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "24",
         "zh": "控制不死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1182",
+        "zh": "Control Undead"
       }
     ],
     "activeIds": [
@@ -137523,7 +135656,9 @@
     "englishVariants": [
       "Corpselight"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Corpselight"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -137534,6 +135669,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "4",
         "zh": "尸光术"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "809",
+        "zh": "Corpselight"
       }
     ],
     "activeIds": [
@@ -138118,6 +136258,7 @@
       "Death’s Door"
     ],
     "legacyZh": [
+      "Death's Door",
       "死亡之门"
     ],
     "occurrences": [
@@ -138145,6 +136286,11 @@
         "path": "src/published/books/oa/oa-shukenja-spells.md",
         "location": "627",
         "zh": "死亡之门"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "977",
+        "zh": "Death's Door"
       },
       {
         "path": "src/published/books/ua/ua-cleric-spells-3.md",
@@ -138793,7 +136939,9 @@
     "englishVariants": [
       "Detect Undead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Detect Undead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -138804,6 +136952,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "5",
         "zh": "侦测不死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "827",
+        "zh": "Detect Undead"
       }
     ],
     "activeIds": [
@@ -138958,7 +137111,9 @@
     "englishVariants": [
       "Disguise Undead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Disguise Undead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -138969,6 +137124,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "17",
         "zh": "伪装不死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1054",
+        "zh": "Disguise Undead"
       }
     ],
     "activeIds": [
@@ -141202,7 +139362,9 @@
     "englishVariants": [
       "Hold Undead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Hold Undead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -141213,6 +139375,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "18",
         "zh": "定身不死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1072",
+        "zh": "Hold Undead"
       }
     ],
     "activeIds": [
@@ -141790,7 +139957,9 @@
     "englishVariants": [
       "Imbue Undead With Spell Ability"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Imbue Undead With Spell Ability"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -141801,6 +139970,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "19",
         "zh": "赋予不死者施法能力"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1088",
+        "zh": "Imbue Undead With Spell Ability"
       }
     ],
     "activeIds": [
@@ -142018,6 +140192,7 @@
       "Invisibility to Undead"
     ],
     "legacyZh": [
+      "Invisibility to Undead",
       "对不死者隐形"
     ],
     "occurrences": [
@@ -142040,6 +140215,11 @@
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/3",
         "zh": "对不死生物隐形"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "863",
+        "zh": "Invisibility to Undead"
       },
       {
         "path": "src/published/books/ua/ua-cleric-spells-1.md",
@@ -143218,12 +141398,11 @@
     "key": "spell:minor globe of invulnerability",
     "category": "spell",
     "en": "Minor Globe of Invulnerability",
-    "zh": "小型无敌法球",
+    "zh": "小型法术无效结界",
     "englishVariants": [
       "Minor Globe of Invulnerability"
     ],
     "legacyZh": [
-      "小型法术无效结界",
       "次级无敌法球",
       "次级法术无效结界"
     ],
@@ -143396,7 +141575,9 @@
     "englishVariants": [
       "Mummy Touch"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Mummy Touch"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -143407,6 +141588,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "10",
         "zh": "木乃伊之触"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "921",
+        "zh": "Mummy Touch"
       }
     ],
     "activeIds": [
@@ -145556,7 +143742,9 @@
     "englishVariants": [
       "Revenance"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Revenance"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -145567,6 +143755,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "11",
         "zh": "复归不死"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "939",
+        "zh": "Revenance"
       }
     ],
     "activeIds": [
@@ -146099,7 +144292,9 @@
     "englishVariants": [
       "Skull Watch"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Skull Watch"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -146110,6 +144305,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "8",
         "zh": "骷髅警戒"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "883",
+        "zh": "Skull Watch"
       }
     ],
     "activeIds": [
@@ -146517,7 +144717,9 @@
     "englishVariants": [
       "Spectral Guard"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Spectral Guard"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -146528,6 +144730,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "20",
         "zh": "幽灵守卫"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1104",
+        "zh": "Spectral Guard"
       }
     ],
     "activeIds": [
@@ -146545,7 +144752,9 @@
     "englishVariants": [
       "Spectral Wings"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Spectral Wings"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -146556,6 +144765,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "9",
         "zh": "幽灵之翼"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "901",
+        "zh": "Spectral Wings"
       }
     ],
     "activeIds": [
@@ -147714,7 +145928,9 @@
     "englishVariants": [
       "Teleport Dead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Teleport Dead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -147725,6 +145941,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "15",
         "zh": "传送死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1018",
+        "zh": "Teleport Dead"
       }
     ],
     "activeIds": [
@@ -148664,7 +146885,9 @@
     "englishVariants": [
       "Undead Mount"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Undead Mount"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -148675,6 +146898,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "6",
         "zh": "不死坐骑"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "845",
+        "zh": "Undead Mount"
       }
     ],
     "activeIds": [
@@ -148692,7 +146920,9 @@
     "englishVariants": [
       "Undead Regeneration"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Undead Regeneration"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -148703,6 +146933,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "21",
         "zh": "不死再生"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1126",
+        "zh": "Undead Regeneration"
       }
     ],
     "activeIds": [
@@ -148720,7 +146955,9 @@
     "englishVariants": [
       "Unlife"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Unlife"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -148731,6 +146968,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "23",
         "zh": "赋予不死"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "1160",
+        "zh": "Unlife"
       }
     ],
     "activeIds": [
@@ -149241,7 +147483,9 @@
     "englishVariants": [
       "Ward Against Undead"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "Ward Against Undead"
+    ],
     "occurrences": [
       {
         "path": "@library",
@@ -149252,6 +147496,11 @@
         "path": "src/data/public/ref5-spells.ts",
         "location": "12",
         "zh": "防护不死者"
+      },
+      {
+        "path": "src/published/books/ref5/ref5-night-gallery.md",
+        "location": "959",
+        "zh": "Ward Against Undead"
       }
     ],
     "activeIds": [

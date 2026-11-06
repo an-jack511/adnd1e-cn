@@ -1,338 +1,946 @@
 {
-  "files": 66,
+  "files": 187,
   "changes": [
     {
+      "path": "src/character/application/campaign-sheet.ts",
+      "beforeSha256": "a706027febd7b753318645ee63a9d90cb4c1946b94d821ce8af1617be898543c",
+      "afterSha256": "87dbd882132368f43e266951afd5dc7f7cb1afe6366901e9a9a6d5a2db14e096"
+    },
+    {
+      "path": "src/character/interchange/player-card-import.ts",
+      "beforeSha256": "543f6a01c35eb32ff935f06e5e498178ebcdef3e0c4f150e4981814fb7e7e2cf",
+      "afterSha256": "8dca726d9e8843701414dac4ade1c30337b14d817f83589646521eb6a8a4f317"
+    },
+    {
+      "path": "src/character/rules/core-class-capabilities.ts",
+      "beforeSha256": "8ea5ae641793744f08847cba491e6130e3b05009276386470d33e0d0a3a25f41",
+      "afterSha256": "a202312c7a6d65d8d4281482c4a3464465c57afaa7161bb90a3df31b92231855"
+    },
+    {
+      "path": "src/character/rules/core-eligibility.ts",
+      "beforeSha256": "b3108ef91ac2d9e5dc774b2f8d123d8b44b7bbc3d7a3fb81d7ed43f5a7a1ff05",
+      "afterSha256": "9d8072574df9d727cde1f95e07ed3fad5ebbb9bae2b2e2ded761b7a6bb16499a"
+    },
+    {
+      "path": "src/character/ui/character-labels.ts",
+      "beforeSha256": "c68786ec7d64e1b0266ce5a3be10254cc0a8d17e123ba152ca064f8ecc25c2bd",
+      "afterSha256": "053ec68d17177894ce58ce519db0ef160b24ba18382746173c2914e3ef5f7bf7"
+    },
+    {
+      "path": "src/character/ui/class-capability-controller.ts",
+      "beforeSha256": "a302ac45c3e26896122f258e869337ed8f2ff7d0d493ef688a11deba0549af21",
+      "afterSha256": "961afa373ae02b56186745e8b677dac420b887dbc54a6f7b73b90b9b42132bf8"
+    },
+    {
       "path": "src/data/public/book-outlines.json",
-      "beforeSha256": "d0132adeb8712bb76ddc2cf3882b6b04f63091ef92a3f026f70b093e48673099",
-      "afterSha256": "9d91b2a00105ae271ad3e433709ecb283aeb126718e8c4ec838985842daf542f"
+      "beforeSha256": "9cab9aa7c5f334d9d165db65ec499545b15f78741510b48c3c1537a66c6d2540",
+      "afterSha256": "60e5e9f760e65d1cbbff6bf67e325eca3389981becfe28833b31a15d105bfc63"
     },
     {
       "path": "src/data/public/book-reading.json",
-      "beforeSha256": "8bdcb11e5ba3e298b002d1d579c0615303bde1a0261e712a42835f48024f1ec2",
-      "afterSha256": "e4b1b950d96186de4847f45eb7c7f9437385d87c0712f9bcdb5e11b28ca87184"
+      "beforeSha256": "a5172c68756c15a995edff30d376d18870450ed5ef1342b2225f34b6021903f5",
+      "afterSha256": "33b9b61d26e70e62005f87d5da662ed1a2cca39a12e05bcdb135420aee915b03"
     },
     {
-      "path": "src/data/public/dla-monsters.ts",
-      "beforeSha256": "43b75305aefdbd1aa847ec2e8fa95cfe0a7a614f4236b03b3ec448d96fa71dbc",
-      "afterSha256": "367ac47be4f14fa1fd29f22469c9fc03b936948037c8807036b56e3b4d96c983"
+      "path": "src/data/public/class-details.json",
+      "beforeSha256": "0b464cff352ebdef67298d02355e599c7292710dc38462e335263df36ecd7185",
+      "afterSha256": "ceb355b7c102507ab471fb32768da7c37ece37b0884aa73a3ab59cda7eed2d93"
+    },
+    {
+      "path": "src/data/public/class-tables.json",
+      "beforeSha256": "1dffea4759ee2994cf04bb0f2587f13e05f05ab50f901c2a0b5c1295086fd11f",
+      "afterSha256": "e96dc24ad81d24be1e6297947d540b125c112ad84bba6160d266cc10e009b2b1"
     },
     {
       "path": "src/data/public/dla-races.ts",
-      "beforeSha256": "fc2fde786a52ff35e3b0efadf149b1452fe9801eabbaedb9107edbc4f72ce62a",
-      "afterSha256": "b5180798e4a0d3a5b69b92af62ce3a0430616b41703d6be0685a7a5c0f19ff22"
+      "beforeSha256": "b5180798e4a0d3a5b69b92af62ce3a0430616b41703d6be0685a7a5c0f19ff22",
+      "afterSha256": "57f2d6e30406dd64d89f13df3e707fd244b63bed6a499c79570e6cf7600c2b99"
     },
     {
       "path": "src/data/public/ff-monsters-imported.json",
-      "beforeSha256": "c4cd12e077b59be3516ecb56f9166b77d69e1ee7a2c42d41b3d9ada8f8f2956f",
-      "afterSha256": "91a20675b2c9fec9d915590c07b3c7b6156e5d1807499ffd33e68dd88553e834"
+      "beforeSha256": "942357360eaba90d75a861db2b5b05fc1d18f7680051511252d17c09d9979658",
+      "afterSha256": "8f0c176cb9aa156d4dc3073e26f2dae2217ae10cde93373979f7d5d7a781558e"
     },
     {
       "path": "src/data/public/item-additions.json",
-      "beforeSha256": "446b1fc9b5abb4cda1ef8ac4da11fbca87f3b2145c574cd72f92c989201cee90",
-      "afterSha256": "4bbef208df0d4ba0592c056908583a6d6d0f140cfa92a34a5e87c72e36acfb4d"
+      "beforeSha256": "c9135be74e97d805ebef19041d33bf83a23c7fd63627ab2e63c24fd151b07a91",
+      "afterSha256": "702d1d17bb5a9e9c0665f60801d8125cf1c43736321dfdaba5e90811c35bd8d0"
     },
     {
       "path": "src/data/public/item-details.json",
-      "beforeSha256": "c275795d9facb8073201faa934dd640e639533ca4286421bab0e79c71338f02d",
-      "afterSha256": "3f62fe37587068942235e5a6d28f71b5bd434ba301077309c255cae7ab4aa964"
+      "beforeSha256": "d79a2412cddc41895aa4906bcc91b3b0f1f2e9e6c6401b945ec9b3b7cdf0d64d",
+      "afterSha256": "f1e5d9552a9424b81760a34c87c3170169f7e48221c9fa97007620b7e429508c"
     },
     {
       "path": "src/data/public/item-index.json",
-      "beforeSha256": "f4770c5075b8f472fd7c4e74710d4bf488df897d5fdc4ab1ca6aed3d762a61ca",
-      "afterSha256": "d2b9c301d9cdcda7da940acaa608a8fe9310f35f506046dff68700e29bc2543a"
-    },
-    {
-      "path": "src/data/public/items-imported.json",
-      "beforeSha256": "a614c6aad3932c7e5b18b3e3d01eac6e879c805aec1c267cb2a339ff3820fb94",
-      "afterSha256": "dd3b656bf925430e94f0f8ff9972183d7ee4076f867daac553c072594d48a983"
-    },
-    {
-      "path": "src/data/public/magic-items-imported.json",
-      "beforeSha256": "27100ebbd171fae72f029b0b28925294d06226446c99c8b07550f67efce067b8",
-      "afterSha256": "25a4429b6a6e2267dbcad1160b210faee2c58ae5afcd5373e0a8aa1d8304a59c"
+      "beforeSha256": "e968d0ebe73d1787a05e0cf9702046d9e23b727033a23eeab9d5b963aabf6e2e",
+      "afterSha256": "341975124de50ed15d63a9087430af2800d67f0edb4208e763da2076df9d9713"
     },
     {
       "path": "src/data/public/mm2-monsters-imported.json",
-      "beforeSha256": "8906b951bca7db74adf28c65eb426b5fa77e6c5dcd16c611f786cc70f41cfedc",
-      "afterSha256": "e7d2c93524ce39dc83d41feaa3fe944820f1a7f6a440f82f00813fdafe0f3fd1"
-    },
-    {
-      "path": "src/data/public/monsters-imported.json",
-      "beforeSha256": "3310e73830f17c482684d806412efd762eabfdb5d298e1ef1f828bd59af192ab",
-      "afterSha256": "fab628f6563c19388e13e38fde253d0d3575ca887dc4447528a140377f53ad2f"
-    },
-    {
-      "path": "src/data/public/oa-items.ts",
-      "beforeSha256": "1d9be8439ca81815e1ea76a4ea2006ed105f2abd46bde1663bf633278ff0dc62",
-      "afterSha256": "0eb497c410fee96c8d758b2219d31fd6ba05568b66cdfe5eb6333ebdd2f76c05"
-    },
-    {
-      "path": "src/data/public/oa-tables.ts",
-      "beforeSha256": "4b7ef6099d7fd0df4c7905802a903c79b5ba218e9db2d6957f675bf58215b020",
-      "afterSha256": "1a80c1d4cb196265e2a40f78b8c196e743d820da005ed9abf0045ba08444fd2c"
+      "beforeSha256": "0f5f78f5110bd5cd6e5b5bce41722dc13db0c31e8b390e7b85b6d1897a9fa9cc",
+      "afterSha256": "4266c5a5486fda3baf077fec555bd57523c304d4609397f4799a59c5f5480d16"
     },
     {
       "path": "src/data/public/race-details.json",
-      "beforeSha256": "fd612bf91d3a97bbc4d54f055e285d9f2331ff7feab72e8f06c328bb5ff10b95",
-      "afterSha256": "e8df2293bfb258f19554cd0ad8f5482920d06e24e4cf7befe035324193dfe852"
+      "beforeSha256": "3ba4c4419edce8c541b88287692c27751540682d9a0c675d9f294ee818f7282c",
+      "afterSha256": "92db78168294bf4d714f720fda53b50bf4c09915113205ab83b92f0794b50e09"
     },
     {
-      "path": "src/data/public/regional-monsters.json",
-      "beforeSha256": "305c005ee02565a65b0495acf97fe59a7ea00056d659d1ef88fb1ec72d9c4db3",
-      "afterSha256": "3c2ff8cf748e8813091583e1e4f2c6288a5b6bc0326f8716f564078ae8347a0a"
+      "path": "src/data/public/races-base.ts",
+      "beforeSha256": "1f4304eec4efd65bf1bcd8fd0faa4e307acbd44bf5460815bcbea09c51b64001",
+      "afterSha256": "7aa48d34835fcd47118cebd50e101fe066f0b31fd513cd615b413277e9d1d216"
     },
     {
       "path": "src/data/public/spells-imported.json",
-      "beforeSha256": "f7f27003299bf75480ca2a60b3f6dd07cea3387b59f88012c2acead4df6bc7cc",
-      "afterSha256": "388a7db850f746010fec649fd420e9fdb8211eed7a2ef909e482b0618538af27"
+      "beforeSha256": "2afcb46503a190d91780cf72434cb8caae768a9a6950e9cfc27fe417c7259d68",
+      "afterSha256": "c77e4b70d76b78256ec30681312c816d643796c95e6eef9ab8468ac442115308"
     },
     {
       "path": "src/data/public/tables-imported.json",
-      "beforeSha256": "9de178e14de2f446f635cd220ed7da00fa52dfce0a6d66ae3211a798b12eb1a1",
-      "afterSha256": "a56858f420f9a45f7a105863591158f6fa235bdf3fe01ddeea8ccce2c6bae622"
+      "beforeSha256": "305a36da436ad6f846ee4a126e841f04720388f74f91b8b3fd49e8febdcd7f55",
+      "afterSha256": "c02120a1c887bfbf595503c5aec30f3e9eb2c5ecee7357b0216cb7a07cef308e"
+    },
+    {
+      "path": "src/data/public/ua-class-tables.json",
+      "beforeSha256": "8971db1256c6045bd376d9d502ed6242b1b5f87529739ea66600f70304a17267",
+      "afterSha256": "0ebfe3bb01c1c677aa88821dd42c07deeaccf45eaaaa4dd47de7c1cc6abb9217"
     },
     {
       "path": "src/data/public/ua-items-imported.json",
-      "beforeSha256": "d0e8b70817bbd2ad4ae5feca5b55226d48e13a0b3bd0806cd1802a02793d6238",
-      "afterSha256": "ea99efa64b6656a1f530bb65834f0bcd0eb1e07def2f07e81b7744a8a8ef9b94"
+      "beforeSha256": "ea99efa64b6656a1f530bb65834f0bcd0eb1e07def2f07e81b7744a8a8ef9b94",
+      "afterSha256": "005c19662c85b05fe88d3571edb4be9dd1b8ef46fcaa9c66dc01f37548ecbb89"
+    },
+    {
+      "path": "src/data/public/ua-spells-imported.json",
+      "beforeSha256": "4ebedca123553def05763b26a70bcdfd76f23ebd71e3684d6a0454cd2e1d2a9c",
+      "afterSha256": "6282f47f5738d776d3b5d168f2953335329a8f4bf3d655d9737ca73144535d4c"
     },
     {
       "path": "src/data/published/book-search.json",
-      "beforeSha256": "f9b5e38683a4d1d1ed087fc92f0aa393578e8a95abb10126a7cdc125c5494b09",
-      "afterSha256": "b12d593d84b827ac6e2c2f6015520da85548700b5f8fcca76df81d2e1d3aa456"
+      "beforeSha256": "f8f356fbdaee7667db1f7c3d133b91a25a8e1a3fd795ede9c77ec7d5a68c6488",
+      "afterSha256": "de7b40fa3044d9de06eaac8ccc0aae1e826dd81c2cf4ba1a7c22e69260ca9ef8"
     },
     {
       "path": "src/data/published/books.json",
-      "beforeSha256": "24ab600ff3a23dfe49e6f1f8e682951e153bffd5f3187af0ef67a7abfc7cfa62",
-      "afterSha256": "74c22fa48c01bf4db0c36fb8177bfb502871a78aa0c61b57c42ae5e955b4d800"
+      "beforeSha256": "f1b9ee6e7feb48320b6cbca1f86f7d923035c822cb55a0827efe028cc2e36fe8",
+      "afterSha256": "6ca5302a962b226ba4418ed8e589fed02de76e8bde721d4dbe1f328d3f5ca2c0"
+    },
+    {
+      "path": "src/pages/character/dragonlance/index.astro",
+      "beforeSha256": "4288b4d8e7c482aa17cfa627964cb41effe2ac9e2dd9de88e5f3064b3b2ef4d8",
+      "afterSha256": "6e953db3a3bba47c567ad36b9a8ddb70f77420ab6f7eefc80b245538f7bcd011"
+    },
+    {
+      "path": "src/pages/reference/index.astro",
+      "beforeSha256": "f00f48d86320bf31b38e6c63f930f0c4a4338cda6aa03e368b444e9cb8ae8de0",
+      "afterSha256": "79c339c1a3c3b815aac7a0516fb68ec5c9f0eb4528b78f234b58dae14e4f3735"
+    },
+    {
+      "path": "src/pages/search/index.astro",
+      "beforeSha256": "f4fe10b734705b99608acae406c868408c44046c70d1a9948c5ef0d5f7a28587",
+      "afterSha256": "ef0a3667c2aa283c5b43f44c081ca479ddf4bac2fd617b9c772eb95c31e7abc8"
+    },
+    {
+      "path": "src/pages/search-index.json.ts",
+      "beforeSha256": "f06b5b39b88463c33286b81385e4db97d3c1cdbc8a3c7bbcd5a13d38f743b754",
+      "afterSha256": "290e85f491a5f3af5ed5380152ca2184328b01aae35ea21ec3e6e4b341005971"
+    },
+    {
+      "path": "src/pages/spells/index.astro",
+      "beforeSha256": "ddd461e08e80d2636f140d87bdee05cda1778c1dcefd336dccb04c9b311b1407",
+      "afterSha256": "6e14fb9b94d94705f4a67556feb0fc099f101b126ba5249fac73bf32bc502627"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-american-indian.md",
+      "beforeSha256": "465513ff7933fe1850832973f67670ae8b41e3c1667c86d1e3eedbb96028e3a1",
+      "afterSha256": "de002ed90863fcfe611ce316d728bdda7d85b4c87f4190fce85be0e4b67e804f"
     },
     {
       "path": "src/published/books/ddg/ddg-babylonian.md",
-      "beforeSha256": "760454a5d8ec2ce737833e61f4e1e5ed0b436297cf771671e663bb46ccfe4300",
-      "afterSha256": "673bc8a840e5f2270a221c4a9baec38b343597a905d9489fefc9df1006c15262"
+      "beforeSha256": "673bc8a840e5f2270a221c4a9baec38b343597a905d9489fefc9df1006c15262",
+      "afterSha256": "7fa42dc470ecbbc94303d92d8e950230a50368ba6aa68421d9f763bc7549915a"
     },
     {
-      "path": "src/published/books/dla/dla-appendices.md",
-      "beforeSha256": "a9953a2575d10f5466a9ca6f1c0ab015a469a3eccf3b86c7192a63417c91e3b7",
-      "afterSha256": "0cc8efa7395875d8073c7fe8713a39a2040628cc07691cd0eff50729a83e523e"
+      "path": "src/published/books/ddg/ddg-celtic.md",
+      "beforeSha256": "ab53d4a59f1e8631f33a793f1a0a5a9aa52d66ebd1c411b8be18a7c8540d76bd",
+      "afterSha256": "2de08faf47ae4a884cf14d4aab4ecbcdbf3ce675011248cfd10687095c9bdcb4"
     },
     {
-      "path": "src/published/books/dla/dla-creatures-krynn.md",
-      "beforeSha256": "22a795a7d6690e978ad5dd9d467edbe1bc8a55244ff7c209b3c394c6bab7e03b",
-      "afterSha256": "3d627648e50569d671ed9743e35ad823e79fe6f9fac115fd640ff0571d2658d1"
+      "path": "src/published/books/ddg/ddg-chinese-continued.md",
+      "beforeSha256": "b147deec1609f41b2e0f69fd7cf6d8466bea60867d2c0a563f4c624af2c54bad",
+      "afterSha256": "1f393f2e319b9749a90f0a8ac29e1cf03c3095710df28a81519e80229fff3324"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-chinese.md",
+      "beforeSha256": "91c29e4a0894834fd3bc44afc9eda65a905088b00546056b7887c3dc1b749a1f",
+      "afterSha256": "470854b7258315fd42581ac7d1eb0668b518dc311f223ddb979d146cf3952814"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-editorial-notes.md",
+      "beforeSha256": "3f226aa38189aac5ee8c10613a9c74a7c91703cd895e82668da306f85f7ba3e2",
+      "afterSha256": "19fece7344e0500ed468251e415844c3cb9b3bb49fdbe0f45562632fe1b365b6"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-egyptian.md",
+      "beforeSha256": "91e3365f47ae53ed597c5b58e312d227dfaaf2dbdf89b2bd398fb35e98d608e5",
+      "afterSha256": "5c88e28d81a43a968f0c5ec232cbb4a3ca44f33168cb3d1ca23da9d372fc1449"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-finnish-continued.md",
+      "beforeSha256": "c2011cc4a817622b7e86e4ec19b62b0f7609150e6b1a9e16ef8799604f4ccc96",
+      "afterSha256": "ea3c04f71e282061f32125e9dd9a78a67a2b220eb6641c7e2f2d469b6a127222"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-finnish.md",
+      "beforeSha256": "35ee779e626e8ed9f9651579dbc5613cda086e37cb84e3fc013f7cff915170a4",
+      "afterSha256": "df6570797fb79bf2ad2c33a547460e82f7d575aba829e1332bcd8fc790ee8114"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-japanese.md",
+      "beforeSha256": "724cb99fe5eea0a5122221f74417e1cfef01c4d6766653b75708e869cb725af9",
+      "afterSha256": "eed88539821e9679a190235c31a23d64379815e75af7ed79eba514f5a2eb7d83"
+    },
+    {
+      "path": "src/published/books/ddg/ddg-nehwon.md",
+      "beforeSha256": "148c8162c683027836a9e2482ab0c07965007698ba5d9ee29ed399b415b6f106",
+      "afterSha256": "75c4bdbdfdd67fd84d8946dfdafe04daa099840b86aad16fcbc0503b98dc24f4"
+    },
+    {
+      "path": "src/published/books/dla/dla-holy-orders-stars.md",
+      "beforeSha256": "832fd3a56176c7a251eb4ae8d1bc7698e6ef173df7489bd7512677cc381ed402",
+      "afterSha256": "465bd2ba99e176ef17b01b859381c935729f24637d85da857424dfb3d7502b7a"
     },
     {
       "path": "src/published/books/dla/dla-races-krynn.md",
-      "beforeSha256": "d124136be8d5eef7933e70ae9ff7d78e9f836b7c3b1f2e97020090d416a3fc3e",
-      "afterSha256": "593bfe69701bf173d0909080423a1f8cb73ed86ad9128fc1b68132f33968f59a"
+      "beforeSha256": "93c927daa23dd4146a855b0e2c6bb3d856b6d24ec66bf715b21c9c401e37c546",
+      "afterSha256": "479e723521b3d77ed1421b6ad502d9f5a699d3e3f98195607891f1d65bae04c4"
     },
     {
-      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-4.md",
-      "beforeSha256": "f6dc73f316058caec5c82af8f00332fc4450044874dfa49c18a10f9fa23f7142",
-      "afterSha256": "2aa00f753f79d4d8fee477084e42c629aa8173f5440c31ae70eb19a37a1521bc"
+      "path": "src/published/books/dla/dla-realms-above.md",
+      "beforeSha256": "ded206a33037614b5c63718d3b827f9a8fd173cd0f12732bc062e1e14528ccc5",
+      "afterSha256": "61752b930ce70dfd81c3043b668cc2ca3991bee5702ca53a3e01964c7c5d4ab2"
     },
     {
-      "path": "src/published/books/dmg/dmg-spell-explanations-druids.md",
-      "beforeSha256": "c056ba5f5e5da74e97d076c5332fb1c50f05e7b0a57fcd3cf47a326fe350d38d",
-      "afterSha256": "2477c4c5cfeb2675a503b5829ce45d91fbe9e2258c2ee1e9aa587cb5208ee6ae"
+      "path": "src/published/books/dmdk/dmdk-adventure-cookbook.md",
+      "beforeSha256": "5e07241c46b85c8fa942e68c44fc8816d4656355caa4473f4b6939586d5514a9",
+      "afterSha256": "35950888ed53ffc9a08877b58df93806dd6bbaf0cb25030b55ab2ad72863e355"
+    },
+    {
+      "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
+      "beforeSha256": "159c9ce2feb7653896bc907ed3be96cf4ffaa5847b8fb22d390b11cb4fabbcfe",
+      "afterSha256": "9074fc7cb21dd68e3d0202fc2861c1e92b30ff49419f796d283201d3a7e966c6"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-16.md",
+      "beforeSha256": "bd4c0be2a885ee7af0910f3a5ffe2fd86a437b2d813b4ecd23f8ddb9a061c874",
+      "afterSha256": "f75a6b58fba6b58cefc25ce6006aad1c3a7d2dd41c03a2af21c80881f641c629"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-17.md",
+      "beforeSha256": "15fddf28d61ac015df477bc149811b6d35e130f8da88ab9f279bc026a3b0a923",
+      "afterSha256": "cf8d37465054d3d769c2604663eba5888cdeb23eb159d7bd1b121fdaa7f4b509"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-7.md",
+      "beforeSha256": "480497eac8749e64f187e110496cbfb24d4149bb35541e131987dfe1a98c6696",
+      "afterSha256": "42506934c37bfeddd31085d29da4b8d0f0823a983a4c37af6644024fb3181f60"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-8.md",
+      "beforeSha256": "daf7ba1d1e926fb0b9a30160ab837a1fb4019b8703b50cdd4009255f10f05270",
+      "afterSha256": "25c7c69d350178315e8820c8bbbe0c437267c0241e4af5af4bcf8ec9a191f485"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-c-random-monster-encounters-9.md",
+      "beforeSha256": "b7ef8b949ba21c4b65a5926d52fda27d669d48c495856716020ea0d18e6624aa",
+      "afterSha256": "cbbed92a21bda29f9c424dba9d7bbeb83c8a99fad7e0e0489d190b1dbe6fc2a9"
+    },
+    {
+      "path": "src/published/books/dmg/appendix-p-creating-party-2.md",
+      "beforeSha256": "5fa44e8ed28bf1d86c3120a3dbe322ff0ae7089ebc5e2cf5bda51100a3926d12",
+      "afterSha256": "1f998358be345918875ceb6b41649b16c3c64275bb6985b2556f8a0402099004"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-appendix-p-creating-party.md",
+      "beforeSha256": "9ec80f0a651a58e257a494bbc0ac1af426c35cbf682e0b5cefdceab09597ba54",
+      "afterSha256": "476419e2936196c1cef83279ccdce4d22d40e8a76ee49f8755c9ec6029ec74ed"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-character-age-aging-disease-death.md",
+      "beforeSha256": "d296ef6d394e21ea2e5d2080e256f8154a54b2177be946f2b9dfded34059e9b8",
+      "afterSha256": "39515afcfe13d0ec76cd442ff17a48083fe5a5fadf46f18a31e1c72086b05f67"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-character-age.md",
+      "beforeSha256": "5e17ae43e540d567e2eb64f27d886dbece2c4367a4c30a97508f94a33cfb4256",
+      "afterSha256": "97f7551843703feaf3640963c51d9a864d8125ff1cf45885245e35cf16b432f9"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-character-classes.md",
+      "beforeSha256": "3f53d30a66bb922888a2fb990fefa62d142b75082c347b4daefee63d31f955ab",
+      "afterSha256": "c2c9698e7192e0d27742449effb1c1abb531a5bb865c2727cf125ef274822cb3"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-character-spells.md",
+      "beforeSha256": "3f8cb47568860b95f1492f4d5b3c0e061a1ed53a7404bac2947527264c011d6b",
+      "afterSha256": "c7141a100b870b9cb8d71284590013d2e6025adffcec8abb4a7f397596a79df5"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-combat.md",
+      "beforeSha256": "53be7d9fd8ea3edd80c7f0acacca0716f03661e3c91c6cd00955701625cc62b5",
+      "afterSha256": "42c0d9deaba1e98ce7bb9fc694a1c8b28baca039e899bb0f370b287d96eb55b0"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-experience.md",
+      "beforeSha256": "0c2074e897d65742bbc3118b98bb56727c2f9e105c078af973ae15d02679be4a",
+      "afterSha256": "1cf99d9ed7690e0580cfd4a94f35ebacda318abcd2252ef8b22db87f55802b82"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-followers-upper-level-player-characters.md",
+      "beforeSha256": "8955a438494a4fc50cfe7dba0ecef7438579c1b50b2457a95527437c365435f3",
+      "afterSha256": "b58e7a2c568dce08640f390e0bd1cba6bd433139214c0423bce0ca7ab871aa82"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-henchmen.md",
+      "beforeSha256": "9c178b97ecf8521975c6ba6e68fc9d106f38e4c2550f48681cd765419c9447cb",
+      "afterSha256": "b1d30b7e412e08db4b45c463d0e907b1ef74d461b251301c7cd083c00bf81e16"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-hirelings.md",
+      "beforeSha256": "62f44b0801111e2dc030f01597267dc6d9c67eedbb60f40d8e6079b01b6d8255",
+      "afterSha256": "a1a3a0eddf1009283d42369652bb8a444e730bf8d38200fe76bfefd52f736cba"
     },
     {
       "path": "src/published/books/dmg/dmg-treasure.md",
-      "beforeSha256": "abe837aea5158a68d20acd92e745ea97fe4de33dfbca56e461077aef497951e2",
-      "afterSha256": "f45b9ffed56fbd480ad2c816827680dd42ae6394d3ea6451140c6bf96e87bf4c"
+      "beforeSha256": "a43019b39fc9a74d4c4d5fdd8e5f2e9188f92d2e217db8c24096e0a18c18a5d1",
+      "afterSha256": "800ecee864a4f53efc129532de9172977752add662aa840f62d6a32c97f98729"
     },
     {
-      "path": "src/published/books/dmg/treasure-continuation-20.md",
-      "beforeSha256": "4b886e307e2a005a8edacf60dfdabad7e499c4be68ecfe5a0af62195b38b5ef7",
-      "afterSha256": "1bb96ca76c54bd71e43d9fd34890c8cdfcdadf234ffb16a6e3489804050d63a5"
+      "path": "src/published/books/dmg/treasure-continuation-10.md",
+      "beforeSha256": "da6c0018afc88c0b08d06bcd61632daaa2b1e218fd685607d92d9b09f0aeef9e",
+      "afterSha256": "084c0411cd8fdf7bb6f122675cf1f434509c2cc0ad9c9558ed1cd3c5a79152b0"
     },
     {
-      "path": "src/published/books/dsg/dsg-deepearth-areas.md",
-      "beforeSha256": "317590236f721ed7e8e646249acfb58875806369763fe681af96a4d9c3a72953",
-      "afterSha256": "d95506d26a8f71e6bfbd472ba769b3b1c32f7e65ea5f6f0a70e499e8f12dfd0b"
+      "path": "src/published/books/dmg/treasure-continuation-11.md",
+      "beforeSha256": "d6fca54228698b9964f9304b3303313f2dcac0e414189091510a18db19bd629c",
+      "afterSha256": "6798585dd0fc1ab6410904bbe99466a70481d8adbf7d3e9d8519acb7bd742dc5"
     },
     {
-      "path": "src/published/books/ff/ff-contents.md",
-      "beforeSha256": "260da4034e4bee2ac1e273da40e58f5a37d93e7437a9f556e1b88de2c7ae4ce9",
-      "afterSha256": "9e0d85e9df1c169a75d49c23a829339e2a2ddad233351791084054b1382bccf6"
+      "path": "src/published/books/dmg/treasure-continuation-12.md",
+      "beforeSha256": "e62948af606ff63b1ef2c50df94c1b3a54188f4dc67ebb58746fe1d27a2f1826",
+      "afterSha256": "9c10320f44755a0711d179cfddd64382a57cdf95646d87aceceee4bd9c526091"
     },
     {
-      "path": "src/published/books/ff/ff-index-and-closing-pages.md",
-      "beforeSha256": "255c3840337cb9029a891a74a49ae7d08e90f1f79c3d296745edc4a61712c3f9",
-      "afterSha256": "cf5a6c9473982c049c133cb1a0130ec4146bb82326cebe36e07c2173e36c6952"
+      "path": "src/published/books/dmg/treasure-continuation-13.md",
+      "beforeSha256": "082e7c20a497fb092c7cf26b12b9ab0b6d7dbc205f971813c2a59384a98265a5",
+      "afterSha256": "e03fb83aad6c88ac276bb18c93c8647d167574f62bc88ce5ab33d1d909906a2d"
     },
     {
-      "path": "src/published/books/ff/ff-lamia-noble.md",
-      "beforeSha256": "1a5f082f8127c69080e1b1976bf4c06cbf37e027e0f1183e2616d4ada6b77662",
-      "afterSha256": "43c69b433074caf8765d084ca4f31192c6c10efe3fbc9063aeb1536494592061"
+      "path": "src/published/books/dmg/treasure-continuation-18.md",
+      "beforeSha256": "d934854458a155046a0bacf69b994925bee3703e230177a2c3af87fb62f3aa85",
+      "afterSha256": "77b95b2f75f81ee2a1277cec5419d06dac371390cb42b8ce9c15b3fb8f010230"
     },
     {
-      "path": "src/published/books/ff/ff-monster-level-ix-x-arctic.md",
-      "beforeSha256": "0d49c823678a4813ffc41afdbedd557bd94cd3b541bc7e25023e87eb2e88efb4",
-      "afterSha256": "10585eba5223488272da8f8ac4879504d114881d591f8f43d25e87c34d13426a"
+      "path": "src/published/books/dmg/treasure-continuation-29.md",
+      "beforeSha256": "9655971dfc52b3c5248aeed5790549b4f8189b4791dd656a6619213f6b81beeb",
+      "afterSha256": "4bfa727ba1c11e5e3e2d8974a4de8a63095e9158a0f4b04465d52c3771bf8322"
     },
     {
-      "path": "src/published/books/ff/ff-monster-level-tables-iv-viii.md",
-      "beforeSha256": "233de4498e64dd7ab04f1fb9272af5ec60a9d130db1439ec9aba6087ff1ddf4a",
-      "afterSha256": "8600c76a7d349bf915c645f8a3c6555932e4ff2af33b521b9c6d924301b78cee"
+      "path": "src/published/books/dmg/treasure-continuation-4.md",
+      "beforeSha256": "9d97c3df4c617dbed089c025b67fea4b81f88f11fd738b0e84b143bde49d0d1f",
+      "afterSha256": "fd22f49b5f8b9592cb1019c64a04d98c700f2fed823ada5c35ce007418d5d5f5"
+    },
+    {
+      "path": "src/published/books/dsg/dsg-playing-advice.md",
+      "beforeSha256": "f8c01a57297fe2e1c1a63b5d00bdcbd0fe7a7b37de468cbb33bc21c7c3538d43",
+      "afterSha256": "9373cbf0cf63cdc8a9b7fca093472a23ab25a1fe4446e490e9af9c752496d622"
+    },
+    {
+      "path": "src/published/books/dsg/dsg-proficiencies.md",
+      "beforeSha256": "8cd18cb5c17925ac36e14503fbf7cec53968669ddc4567c303c4518352ba4cbb",
+      "afterSha256": "e1f35c73be84a1f3c0bf34e77c9d12caac089b9d4e73b7f3150399e6141123d7"
+    },
+    {
+      "path": "src/published/books/dsg/dsg-underground-combat.md",
+      "beforeSha256": "564e3a7c5f0008168d9f402df035b9bf7bb8270fb74f7f7b070d8591ca5ea4a8",
+      "afterSha256": "9b2cad613a922082e89643c1ec3a17900442239d7b80344c64db85385518e7ff"
+    },
+    {
+      "path": "src/published/books/ff/ff-bunyip-carbuncle-caryatid-caterwaul.md",
+      "beforeSha256": "f8d5b427b4c9dd8c2a0824520c20819f370898dfe64b09a8d5eeefaed984da5f",
+      "afterSha256": "652401924825cb61961157928d7daedc22499bb519fcca969557c5c482ed1df3"
+    },
+    {
+      "path": "src/published/books/ff/ff-gibberling-githyanki.md",
+      "beforeSha256": "bcb0f5820ddf53e661ec1bf6a1af95a49c9bf89b5c4de68d20580823d901bf9d",
+      "afterSha256": "4c1fe03817dac7a952991e2ceb9098ca7d902c513539e009615f68718cf470aa"
+    },
+    {
+      "path": "src/published/books/ff/ff-inhabited-tropical-astral-ethereal.md",
+      "beforeSha256": "a5160f9cbfc51ee491c50433cee17cd5dccf753b545acdea2f5d9c2f700e881c",
+      "afterSha256": "71d9ff708b517ae70d307f6f98ccdf2afe4c0f243dd1755b63bac061f01d68ee"
+    },
+    {
+      "path": "src/published/books/ff/ff-skulk-slaad.md",
+      "beforeSha256": "2815cd6561b3ed08d3249fbdce08982227e9990654e58d9b7f4bddf8db3e5b85",
+      "afterSha256": "66ddcd8994b16e2cf3a90198ff77a965bb0ec3725c2fb1b82cdbd48ca39a52ba"
+    },
+    {
+      "path": "src/published/books/ff/ff-terithran-thoquua.md",
+      "beforeSha256": "33185910960467bcfc18a995077f0f46aeebfa556fbbb1142c69d703b7dd38e8",
+      "afterSha256": "97795a596c80dff7334e5a23bf6700250292f19429cc232f0cbb194242d528a9"
+    },
+    {
+      "path": "src/published/books/fr/fr-adventuring-companies-2.md",
+      "beforeSha256": "eedc0e2077e09d152b29c7b3a1a1af086395f4c0c4376aac3fe27021bb27e2a2",
+      "afterSha256": "2e1a4bf754dc90cc812a84df1dbb028cac19fb467b32b3060970cefddc9aefe3"
+    },
+    {
+      "path": "src/published/books/fr/fr-arabel-archendale-asbravn-baldurs-gate.md",
+      "beforeSha256": "f7f3e362b195d843e4a71d7bcccde9aaddee854de677589b4e21ea11b776911e",
+      "afterSha256": "f6cc45b69ed5e43b6657ee9d83fa43f1602b9c0956e9cf50e4cf7f81c29029e6"
+    },
+    {
+      "path": "src/published/books/fr/fr-corm-orp-cormyr.md",
+      "beforeSha256": "24aa83c53cf4c4ed3f2c64a56e350449508ab7342f26c72af57ce97d7649f345",
+      "afterSha256": "4cd4ea530cb9d29312dfc5ddc02a7c9613615c195042c106ccab4b75a6b63d27"
+    },
+    {
+      "path": "src/published/books/fr/fr-dm-introductions.md",
+      "beforeSha256": "3347eaa5066a669c5c8e59e3c5de04da35f1530b7c5263458cdcdfae408f06c3",
+      "afterSha256": "0a737d19b08c7adf27bcd89fcc1ab31aecc998f6ac20dea9e43cda4be25c0bb6"
+    },
+    {
+      "path": "src/published/books/fr/fr-druids-dwarves-elturel.md",
+      "beforeSha256": "a8ac75a9a28adbde260cf71b59f303d1dea9136364e3994373bb12fa5cce3e55",
+      "afterSha256": "54d22110a9b182a3dc4e59ce2a9190539579ef8b581df60c5197bc56ccaa5c9f"
+    },
+    {
+      "path": "src/published/books/fr/fr-fields-fighters-forgotten-forest.md",
+      "beforeSha256": "9e72faaacf6ad7e3b993da6dea9f9bc2f1b49297914e8bf3146b7d0b9803cbd3",
+      "afterSha256": "baf839edde857c447e3023548f75a76f8c5166b61d8ece0a984abc802cb1333d"
+    },
+    {
+      "path": "src/published/books/fr/fr-harpers-harrowdale-haunted-halls.md",
+      "beforeSha256": "141dd5f5452d082d147cdf7b3e248c45eae13de185c123e6406200753ec0b050",
+      "afterSha256": "bd177a6d6f248041116cc38ba1bb971d64e2aac848cdd5ae8454440cd0201d85"
+    },
+    {
+      "path": "src/published/books/fr/fr-high-dale-hillsfar.md",
+      "beforeSha256": "94cbeab80cec48bbe2eced74943c17436a832d72ba0e1b07b140da8710f5c63c",
+      "afterSha256": "1e4e7169f113a9f59d25bf4ae37fd2777bf8ed980a9390c3b79f09122a43ee61"
+    },
+    {
+      "path": "src/published/books/fr/fr-mistledale-moonshae-mulmaster.md",
+      "beforeSha256": "d2b1b737073243b188e99f8ff4b3a8aade3380c109eff8c39dd7a65bf6db6206",
+      "afterSha256": "e7c4b9e67d0be727b5ee2aa544089917c50b7ad8bc1536f8ad1ded17134dd650"
+    },
+    {
+      "path": "src/published/books/fr/fr-other-gods-and-faiths.md",
+      "beforeSha256": "9fcae54a59a7bea7fbe6c2c6dcc1f5d42d11b5a48a5e10638966564afdcf6827",
+      "afterSha256": "8b7bcee3901ffa324d5839c89e70c66ca7d986000e92ac5982795e562dc8be57"
+    },
+    {
+      "path": "src/published/books/fr/fr-pirate-isles-procampur-rangers.md",
+      "beforeSha256": "164aea3d172518e29fab466898426847829efff7bf056965195e56f2912cbc00",
+      "afterSha256": "3191af5775f6b39a388c48e4a6fbf4b2e87126374a1bdee268020fee40ae632a"
+    },
+    {
+      "path": "src/published/books/fr/fr-religion-human-deities-2.md",
+      "beforeSha256": "1f4eb76d608b4f05adac610355e5737ee9984f9294fd702865a964354633a2ff",
+      "afterSha256": "1e708daa093451ca196aa8740da6d5d54fcbc941e31189f05bc6a3a981419347"
+    },
+    {
+      "path": "src/published/books/fr/fr-selected-npcs-1.md",
+      "beforeSha256": "b43bd6fd24612082ef60b4623d030f13d43cb19bae8a83aca4d93c375902d217",
+      "afterSha256": "87ba90d3332e7b8a7dce4c9c6554bd83741aadf31f484dc24c4b992bcfa8a360"
     },
     {
       "path": "src/published/books/fr/fr-selected-npcs-2.md",
-      "beforeSha256": "b75f40d939bfcc02499bf6fa8035cf6a6fa448195f5cfa7f1739fe961d0e5532",
-      "afterSha256": "496fec987e360a2d7251d20a864241823f50220f001d8de61e7a287f356e8f01"
+      "beforeSha256": "f0b6bb3cc27d06a24aa900c6178cb5ee2ea368eafbb97a15a9b75b9ba04a6d98",
+      "afterSha256": "7d4dad877123e5d8869deac79f8e86cb6cdd22f61434df896d62d862f08c72a9"
+    },
+    {
+      "path": "src/published/books/fr/fr-selected-npcs-3.md",
+      "beforeSha256": "5c6dcf029ba374c2aa41dd54ae2909a56d472b800cbd6d4d8766ec53654b5b1f",
+      "afterSha256": "c63e6e858bb2ccd1b7bc72ffe08d6f22dadc9dc79416497d347b9905aaa2e9e4"
+    },
+    {
+      "path": "src/published/books/fr/fr-selected-npcs-4.md",
+      "beforeSha256": "4f68f54d681eae8ff1b2b2ff77f64260bbfddee9876e24d4dbe014a100060289",
+      "afterSha256": "936bbaaf0316a8f6d58391d4ad6c44d94719ccf0d53ab330e98087fc13d997ca"
+    },
+    {
+      "path": "src/published/books/fr/fr-selected-npcs-5.md",
+      "beforeSha256": "5c08a84660a490d1453db86c7a68b5bfc5a461f92a9bed1dcec9e9332667f1ea",
+      "afterSha256": "c45d98ec9fd5cee67a489faa2e7c946bcdbfda68c797c3cf0245d22ea8d9c96d"
+    },
+    {
+      "path": "src/published/books/fr/fr-shaar-shadowdale.md",
+      "beforeSha256": "31bb622a1a42a5687f3e3299ffcfdb63baff59573c045fc878310e221c55a5b9",
+      "afterSha256": "4b54a0600c51a572e0292d1f9a5b7b5fb076776d7da113f38e798e982c5d5728"
+    },
+    {
+      "path": "src/published/books/gh-folio/gh-folio-political-divisions-a.md",
+      "beforeSha256": "d6ac78857e5a0ef975c6c6e1e8c86b8206d927500e766cb1d04aa3712397a9df",
+      "afterSha256": "f25399dd961973ccb12492deb85d68fee8e3b4f465b3e2805d94fbd52f86eeb9"
+    },
+    {
+      "path": "src/published/books/gh-folio/gh-folio-political-divisions-b.md",
+      "beforeSha256": "a167c7abc132896a9a233d1f481707b49e7d8d5bc28b95d81e5a52b880d80f9a",
+      "afterSha256": "51c5db185118a9718df6383d500c9c5143af2180e733b37207c261a51385a94e"
+    },
+    {
+      "path": "src/published/books/gh-folio/gh-folio-political-divisions-c.md",
+      "beforeSha256": "e74838cd1d71bbad8c2deeef3fd85e43ad1f196206d33edc31f09e523f478c43",
+      "afterSha256": "c3698a1f0c3059dfbdf8d11459295be583f1396ef204da7a8c1d113dc73e8402"
+    },
+    {
+      "path": "src/published/books/gh-folio/gh-folio-timberlands.md",
+      "beforeSha256": "0e7d1a207af2f9816546303ed04cdd61fd8c55eadbfed4ab553883061446e0f2",
+      "afterSha256": "305971241feeb979b6b6aee20ed2d01686ccaf5defe27caf2226bcf8738d96ad"
     },
     {
       "path": "src/published/books/gha/gha-armor-shields-swords-weapons-1.md",
-      "beforeSha256": "7a473247667099423fd67f95db4b4bd0260e69bb1d2d9ec7fc7b679fbb413c17",
-      "afterSha256": "5e4f1ff85f333c634f9e734047ab769ba008a494e88ddc2003af1d017ccd91d8"
+      "beforeSha256": "0f4b90ce95d6b4a031815544b7e1ea3179122061259cd324020aeb791541f7d2",
+      "afterSha256": "8c87d50b3a6672361d5bd2d935dad80d8713a8374e6c47edcc9de838e0635a81"
     },
     {
-      "path": "src/published/books/gha/gha-guiliana-mortidus.md",
-      "beforeSha256": "6a1a01dc7534c61024060ed3afa07f3e9a79abb6c3f92e6792c384899c08f9d4",
-      "afterSha256": "2559c09153f7e28076344d82a5a5d923a698a4529d7c3d810f7f2ae257cfded3"
+      "path": "src/published/books/gha/gha-ehlonna.md",
+      "beforeSha256": "2001cb4f249c2e7cd9c0f2d8134e12d42abb2ba45566c263f2918660c556caac",
+      "afterSha256": "344d6f34df1c211924583f05f983a618c86708491a46e13ea1f5ac28060b5233"
+    },
+    {
+      "path": "src/published/books/gha/gha-karll-of-urnst.md",
+      "beforeSha256": "8341f11547cbe72f2d92380ebd29fe408b320a32e317dc1527e19bb92bef0ab0",
+      "afterSha256": "ade7fadd5e8b2a5073b746399f569d5db9703047280978af4032e4bd56a5541f"
     },
     {
       "path": "src/published/books/gha/gha-magical-items-miscellaneous-2.md",
-      "beforeSha256": "16b3f4dfb602328c5fc244fd332245081f886d76c4cb76cdb0acb60eb43d96a4",
-      "afterSha256": "de74411206ebc6dcc7ada97eaf18c2c2309250ee0a73d9cd58dbf0c33dd9daac"
+      "beforeSha256": "4ce1a619c427fbc4c80540adb94a4904142262ca955218b235200bcabe0d8375",
+      "afterSha256": "453a8247437414962d294e303429346931a7ae98b79af40574cc368d8ce18f25"
+    },
+    {
+      "path": "src/published/books/gha/gha-magical-items-miscellaneous-3.md",
+      "beforeSha256": "55b0c54ae4e07e3dbfd3f299659bd0dfec5d417672c393f1cad26d11ff84557d",
+      "afterSha256": "7f68186a3268f83d82d3fd3d5f087d17f13407fd19f0d6d0ed2bdc0ed4a52d7d"
+    },
+    {
+      "path": "src/published/books/gha/gha-magical-items-rings.md",
+      "beforeSha256": "b72827a0e0e4799b6644efb08616b8688c08dc3680fd128359e27051b4aefc1a",
+      "afterSha256": "a916a98b89933bce3c0a54b9039df35ec94e44a65e6c43e8bfb1752a9e7f1c48"
+    },
+    {
+      "path": "src/published/books/ilh/ilh-essays-races.md",
+      "beforeSha256": "735e7e94d120ff3b5fe94d3a2cc31cbbf9aa7deb4b27564f285bd8d52f779d84",
+      "afterSha256": "318aef3958ac4d51c76b34a3812dd6315e684b185371417e4f138dd9a78dae28"
+    },
+    {
+      "path": "src/published/books/ll/ll-american-indian.md",
+      "beforeSha256": "6b0acbc5e99890e35d4d39b9a32b29e00e1dda7d4be5bdcc98468c20472db8db",
+      "afterSha256": "085b8c12118e56fe4d2cb8effc47bfbba0103784d41ffe5afc693aa0d8dc1d79"
     },
     {
       "path": "src/published/books/ll/ll-babylonian.md",
-      "beforeSha256": "a20f6b790312ee91271f75089f03d87b2adda3a412b692c5fbb2027f5ebe1ade",
-      "afterSha256": "c001eaa3e82952a04101c67f7f19b7918f9e5aa99389bd4c99d6501d7d2b917b"
+      "beforeSha256": "36b659256743a93c15b38a6881f953b06e779cb64d52232d288ebe8f3c34e37d",
+      "afterSha256": "7bcdada8c9b134d1cf961ec9e0c98d3d9c7dfffe6fbbc7ed76094419a65c3d3d"
     },
     {
-      "path": "src/published/books/mm/mm-index-retranslation.md",
-      "beforeSha256": "514062d1d0dfc9434dd1b05934a4e2bb82be4b9011d7d6516627574f559ba5fa",
-      "afterSha256": "c7aa2ecb75629ed3fc2558f8cd4e67bc6a18f3e611fe3c0475858fb8fe44e280"
+      "path": "src/published/books/ll/ll-celtic.md",
+      "beforeSha256": "b76dbd9054c10408876b299a420897e857fbd5d257e879ab9cec4fadad12d2aa",
+      "afterSha256": "4bfb277f4814c31fc266363a6c8194f7d36255892aa0c1667a3650fa8000c6a5"
     },
     {
-      "path": "src/published/books/mm/mm-neo-otyugh.md",
-      "beforeSha256": "8d4b2b066877abf2d016b704d672fe790d01a87ad1dcf08cf49efa7121a4e3d3",
-      "afterSha256": "0a2930318da97ca2e734cba1d9a99c7a57d8165a01197d5c4acc2237c97f028b"
+      "path": "src/published/books/ll/ll-editorial-notes.md",
+      "beforeSha256": "89aaaebcb66e2c56b1380475e85a1eb3d16074004fac8a045c05c00cbd06c762",
+      "afterSha256": "867a4670c9b5203fb6f5dfb66ffaeaa9599ed59f960b9dd5a2ad0b96fab2be05"
     },
     {
-      "path": "src/published/books/mm/mm-otyugh.md",
-      "beforeSha256": "d9fb0c2b0438bf422af568ea9c90eb3f7f76c5df59e1668d7cdfb80732c3b9cb",
-      "afterSha256": "47ef911e2fd630bf8a35bfe7fa232326ee34d0b9b09a918225ec1b08f97daf67"
+      "path": "src/published/books/ll/ll-japanese-continued.md",
+      "beforeSha256": "4747fbf8668294dc2b3dfc5bef458d6d60d1533b8afa46b6e0e198a1d1f0000a",
+      "afterSha256": "5238a4b5a986f059d6340fe158c2b33a71e46a20b3d93bb628d03cc9befebabb"
+    },
+    {
+      "path": "src/published/books/ll/ll-nehwon.md",
+      "beforeSha256": "4d214300feb0fe2e02b46280d62941be2c264ec36bd06654967a6c74e6d61210",
+      "afterSha256": "4077aa6382dc7153b03c741732ba88ee7d7c8e389bcbb99c5ef1adf53b1bec62"
+    },
+    {
+      "path": "src/published/books/mm/mm-men.md",
+      "beforeSha256": "88602b65f34914c500ea72e083542b4c9fb2fdd4f077dbad63abdf733222f35e",
+      "afterSha256": "e4c54c3a9354544d31284bd8c0f571cbbc254c85b00c230dd7db965d85c8ea55"
     },
     {
       "path": "src/published/books/mm2/mm2-daemons-d.md",
-      "beforeSha256": "6d9a9bf2efdf7a465813b7f5085365441f910e695175ee5ae470e4b61370dcbc",
-      "afterSha256": "f4fd8f1f207a6eeacf996e3255793f92b351bdccc67c34a41aaea9e1939af190"
+      "beforeSha256": "f4fd8f1f207a6eeacf996e3255793f92b351bdccc67c34a41aaea9e1939af190",
+      "afterSha256": "451b732d444897ee9845e6dc3145683d847afe8a1a12a5713aee3bdd79ea6372"
     },
     {
-      "path": "src/published/books/mm2/mm2-devils-continued.md",
-      "beforeSha256": "87ae978bea00a77733eda67dc3204c2e7379693d1893a85bd8cbf3c459b4ab8c",
-      "afterSha256": "c6a7dcfb988b553316c668a7089d3b9fd0f5cf716350d1f824b75fde13163163"
+      "path": "src/published/books/mm2/mm2-foxwoman-seawolves.md",
+      "beforeSha256": "b9b43a6d27b7ead7753e2f7aeedc6960ab23e27ca5a4ac62a63bc6164498e718",
+      "afterSha256": "74210f7b2b3eb43347559b0c16920c57602953f4b9dab871f2501edc2771c4d3"
     },
     {
-      "path": "src/published/books/mm2/mm2-faerie-mist-dragons.md",
-      "beforeSha256": "86e3eec1cc279bba98b65baa2361e18cc7821806cc48ce3620aa8e32bac4e539",
-      "afterSha256": "138cf3a4bf2560471100e6ab6f3f7ae48f8a2ce1762f229667bba852d52811a2"
+      "path": "src/published/books/mm2/mm2-how-to-use-this-book.md",
+      "beforeSha256": "d19169f82aa7ed2f2efeedc613961cd6b7302cf22fda172524563ba540ca7ceb",
+      "afterSha256": "dda403eb451c3f1fa5a30b7e7b8fbdf23ba5e780d444a7334c2e547fb15a5d88"
     },
     {
-      "path": "src/published/books/mm2/mm2-foresters-bane-formian.md",
-      "beforeSha256": "729dcf4b0431314456a5fcf1ee67ab8db6bad66906edb1d799214c9a2e3fba06",
-      "afterSha256": "82d4c2e3af599216732094837fd055075e2ca11b822161f748083f8bb1142024"
+      "path": "src/published/books/mm2/mm2-mihstu-miner-minimal.md",
+      "beforeSha256": "297c8dcc8e66c9d5a737c67ba897aa993ea7dd003501e8385f862f9be1018f3c",
+      "afterSha256": "7c9ed0f63c6ac2a7ee2155048c029fb02323d9ca3b89e31f69d082342a8297ac"
     },
     {
-      "path": "src/published/books/mm2/mm2-monsters-a-continued.md",
-      "beforeSha256": "ae59902d6fa6f32de95f706781a308b21af424bb20083ae9e96aa4211c05bcf1",
-      "afterSha256": "b2f0f0cd22e9c2b51cda6c9f3cbc27fa02a8ada333e4c57c60bc9e110484bd33"
+      "path": "src/published/books/mm2/mm2-monsters-b-continued.md",
+      "beforeSha256": "39ef360d0d2b2aee9ee2f13bc5dd7017ea82d547378f3615042c3a82c2997783",
+      "afterSha256": "43c4940203911d5129c8943088a20580b46deeb64dc0988cbb0e5b5d24d3b76b"
     },
     {
-      "path": "src/published/books/oa/oa-treasure-magic.md",
-      "beforeSha256": "7e34926ad50df974c99b5b6f96e6ac71b51da4e50305b28d6d14276edbd7b504",
-      "afterSha256": "9860da0e8a7d9a476a4c3bd237cca2304f76cab4d58522a814ef9fb18f970c50"
+      "path": "src/published/books/mm2/mm2-monsters-b-final.md",
+      "beforeSha256": "2364f25a780e7fefcc0299dd8153f471df2c94d945e942d0c8f8c5b5a2c057a0",
+      "afterSha256": "36381d5b77a87217d99c13f10eb847bb49775760ca0d9895c9a2fe641f22c3e6"
+    },
+    {
+      "path": "src/published/books/mm2/mm2-swan-swanmay-swordfish.md",
+      "beforeSha256": "9934ba39d98199ebc8be7e6a7ac4701aea9dd517f78f7a3ad6d0d452c21b5a7d",
+      "afterSha256": "b49160ae14af9bcc6a3900d9b2b6cb873d355c1296a0e9ed289cfcb5e3faf42e"
+    },
+    {
+      "path": "src/published/books/motp/motp-appendix-prime-material.md",
+      "beforeSha256": "8a5832bccea5b6f979959c2494c3727f3019ee66b72a979a64495cf2fd1a9e9d",
+      "afterSha256": "19596aa3e68d1a78a0d2f6a42e3b059c529aa1bab6ae7446ba10cbaec87df76f"
+    },
+    {
+      "path": "src/published/books/motp/motp-astral-plane.md",
+      "beforeSha256": "71812f1b1a9ec4ce7fbfb0ee6f38babcaf75aeab79ec875d933666cbd9e5d9b2",
+      "afterSha256": "187a525f9c99a9bfe5fc4fa9d2ad5f782caa4f92811de182567748c1ff357aae"
+    },
+    {
+      "path": "src/published/books/motp/motp-ethereal-encounters.md",
+      "beforeSha256": "2f6cad616771142d0ad3dbf3a6874b29e2fd9e9b6d72e0f695a9052959cf1689",
+      "afterSha256": "f9bd169388f5fbe7e14360a49e83847d6cee8c6ff11d020127cd1a03f5197226"
+    },
+    {
+      "path": "src/published/books/motp/motp-ethereal-players-demi-planes.md",
+      "beforeSha256": "657b59f0f4506b6b88fe7875c0cdc8304d15c1a849eeca079d90df41f239c063",
+      "afterSha256": "78701a288f039daa3a5b9c7e8c581a048292e0c3ef36869d649fd19b75054b9f"
+    },
+    {
+      "path": "src/published/books/motp/motp-inner-planes.md",
+      "beforeSha256": "dde9a1e5ae9673356ad439e98ad7f44cda6a5f542c7af0bdf1d43b8630979f92",
+      "afterSha256": "2023bf24137d5d8bc7e7fcb09c6fc2e91e3d64908dc008521a892ba5781ecf55"
+    },
+    {
+      "path": "src/published/books/motp/motp-outer-planes.md",
+      "beforeSha256": "ed5d2ae00ef2df69ab37b67a112708ee995efde5f3b5b0aa53f392550adb24f5",
+      "afterSha256": "645b5bc80692ea5e70a07c208ca26c03f5fe08e3017d59da10bdfb8838553945"
+    },
+    {
+      "path": "src/published/books/phb/abilities-strength.md",
+      "beforeSha256": "9ec7774304dc4786b4f5ff5a86b463607171349976e1da25fb37c6b8cceae1aa",
+      "afterSha256": "dbda8decc5a30128f3d088c7509a4f4a9f5bd0572eabed377f0e741de607a374"
+    },
+    {
+      "path": "src/published/books/phb/character-fundamentals.md",
+      "beforeSha256": "2e8bbe084747bd06c2e913f1e39fd9ec75e162fe028ab2412630b5f9f7086141",
+      "afterSha256": "f73074e7d67508aceedad205fb4eec6a07d20b534abf5780993093e84191749b"
+    },
+    {
+      "path": "src/published/books/phb/classes.md",
+      "beforeSha256": "38aa42826789651f7d75a5b7e0187a3f69a0ea6713ee5fedeaea55a4fe2c024f",
+      "afterSha256": "a88e37047a862d1c1f6244f3c0152cb65f2bb792309be0a40c0930b384e2e702"
+    },
+    {
+      "path": "src/published/books/phb/constitution.md",
+      "beforeSha256": "6c10abd9b7aed18c05d2ef23fcecbc15ab15cbb88971cad79001477474f1e993",
+      "afterSha256": "8a42eb50bec67a8ef1e17da1073d7f856a3f28a8deaa22405e5a445732de9353"
+    },
+    {
+      "path": "src/published/books/phb/dual-class.md",
+      "beforeSha256": "a921b50d41c657e94f9bc649912841a2ad1435f25c194ae48680610e2d1eddcf",
+      "afterSha256": "7ad9995d4b1a4f68d817e40c3bb266d3f8f134b209e27d237bc4fec42cef6343"
+    },
+    {
+      "path": "src/published/books/phb/fighter.md",
+      "beforeSha256": "0e27cdb431f09952617f5f0f08eacb6841165e9f6ae442b3ba0dedff30d667c1",
+      "afterSha256": "ff51272afca500819b70d7ec58ce96db05d07dec2f0cc92d7f86cfb766bd0eaa"
+    },
+    {
+      "path": "src/published/books/phb/half-elves.md",
+      "beforeSha256": "339ea7060334a7c45fa7792ee6171a5aaa22affa1bdfb4f531b956d01bcfc847",
+      "afterSha256": "83c94d9301dc376b5ba0d9f6ed23b0495a45a2c773b956f7c29a169e6f697b8a"
+    },
+    {
+      "path": "src/published/books/phb/intelligence.md",
+      "beforeSha256": "4fc94849d1c2fd64301286df68b83d38c6efc04d975d4e7a3bec1cfcbbee3a49",
+      "afterSha256": "94d77481615578b09a68bd929ac5825b48ebf2dd4b17ca36584fb9068e2b63ac"
     },
     {
       "path": "src/published/books/phb/money-equipment-and-arms.md",
-      "beforeSha256": "585f95096a057321afa397c54345cf1f123e4e68a458b9819950605bddcf7492",
-      "afterSha256": "57aefeaf4bf8b062c0b51f0826c306e4c3541a583ef632133688982d648e100a"
+      "beforeSha256": "57aefeaf4bf8b062c0b51f0826c306e4c3541a583ef632133688982d648e100a",
+      "afterSha256": "6bc19f6c9a0ec404449ee58f24026a40fd3e57f4ec9ae7788cb97b031558bb40"
     },
     {
-      "path": "src/published/books/phb/spell-explanations-druids.md",
-      "beforeSha256": "70e3f9bc2c8d94aeaa77b79f3f4190dadd1f28d2479488251f69a1814b4c04ee",
-      "afterSha256": "2d27f1c791daa32a87b919f56887478e7ccae5cdcd3183460bdc45d824f9067d"
+      "path": "src/published/books/phb/monk.md",
+      "beforeSha256": "2c244c84802e1626448b3d6b7d710c71c74b002e17267eecad42dfd2c4c78070",
+      "afterSha256": "9811f0f39fb701c0ce8b694648b425f55e3199dce0e90e1d2ec1a2d1df04a322"
+    },
+    {
+      "path": "src/published/books/phb/multi-class.md",
+      "beforeSha256": "4e066d2134e7340e1cba2b98ea1a72d1994b89477651bf3ee978912ef2595ebc",
+      "afterSha256": "818972b20d556cc2ccc2b61898921b169654255427f94471b959edd53d33e5a3"
+    },
+    {
+      "path": "src/published/books/phb/original-contents.md",
+      "beforeSha256": "fb65b28809bc6ad9ac5d9430fd8c85af999cd55f65ef1af4af0454a0d5a26a3d",
+      "afterSha256": "a1758c7647c5f732dc62fb437655a88fcb6c1f43109c34db52ea1a4fbec6eff5"
+    },
+    {
+      "path": "src/published/books/phb/paladin.md",
+      "beforeSha256": "2d2739f3cb76d067beb56484779867ddab40a41f8be506fee27bd89e710421c7",
+      "afterSha256": "88e7eaade852fcc8bb13361b7359d5b590c2ca34db3812a24896eb51f7397f59"
+    },
+    {
+      "path": "src/published/books/phb/races.md",
+      "beforeSha256": "73a54c74bee918228573804e185b6929ea6d6a92861fcd8ddaf008d46baae74a",
+      "afterSha256": "4a79b862a70c6f12c1f4d3e6b9e9dcef6c3d345e4fb1746f091da06dbbc4b2e4"
+    },
+    {
+      "path": "src/published/books/phb/ranger.md",
+      "beforeSha256": "7f60d6c6dc2a0fa30cd8ee4d635ad67a4deb1ca570713c10cc5e219633d0fbe6",
+      "afterSha256": "135211e402cf3f1d54aa126d42135aa48a0c27703d9eac7929cf27f0d1f808d5"
+    },
+    {
+      "path": "src/published/books/phb/spell-explanations-illusionists.md",
+      "beforeSha256": "2dd858cb9be51369087c0161cb178f7d8bb76b71690a0f8bcae5e532a6f94bc7",
+      "afterSha256": "300eac6450ded328df82fd29c13ad5a36e65ba192bb2efe0f53d697555095248"
     },
     {
       "path": "src/published/books/phb/spell-explanations-magic-users.md",
-      "beforeSha256": "6f23d5cfe98608384668a2aca2d217bb35da2cf5118bb7563d7c97682f62b890",
-      "afterSha256": "93c1804fd3c59d1f16405c2517f5ae34c51ce00684159b2e6311da3e2774e0da"
+      "beforeSha256": "c9ff3775287f1ffa44706ff746c01a3d1fc3b753d7efcfc4d4e473833cdaef2d",
+      "afterSha256": "54f762ddcf917b77897977c7478702214243544ae5d4e9ccb8dfc6b99842bedf"
     },
     {
-      "path": "src/published/books/phb/spell-tables.md",
-      "beforeSha256": "87bd456ca6b281efd0f1f405cfc5c77ada4bd94ed17502c74c834dac708d727b",
-      "afterSha256": "982be38cf0ebfbcb135f1b20ad6a48a9dcc0e839919cd15c543b28b20bc57af1"
+      "path": "src/published/books/phb/table-index.md",
+      "beforeSha256": "5c87e051792f74ba4a0da6845d150a0879bb463cee35df7310ec6b5383fc37df",
+      "afterSha256": "f39b52ca9acfc68e61b5ad1ac565b2f830d03877e0e3cca7a69ab887d253eacf"
     },
     {
-      "path": "src/published/books/ref3/ref3-animal-trainer.md",
-      "beforeSha256": "ec59bea2320888e62d48754cc7feb86fa29941707d48b7bd91a545f19d929631",
-      "afterSha256": "6c17f81c9c48a8d4424299459f181bc8acec7649afb748c62a019d365560419c"
+      "path": "src/published/books/phb/the-game.md",
+      "beforeSha256": "d1a300aa6da1d223a3708b874b78c4a7a50e7add9b5461747bc9750e17f15884",
+      "afterSha256": "2bb143b0a77978fdb68c78227361694b6e7df8a0fc959f9ac8c354691a9b0df0"
     },
     {
-      "path": "src/published/books/ref3/ref3-ghost.md",
-      "beforeSha256": "5fe687d3fd92b314f4c45a0f05ead1ca24d29defc16185ebdf85e8a438c23c15",
-      "afterSha256": "bf893bb39bd95c7314eaf07d5e762986e578c9c5d410de5031be850b383720ba"
+      "path": "src/published/books/phb/wisdom.md",
+      "beforeSha256": "2d99f5647651ae0ec31db0f7b22ddd73360daf24f891c97669553295818db766",
+      "afterSha256": "03cdb54404c4d4a239b778556cdb09faa759d13f2a2cb048b8c3116701f86d40"
     },
     {
-      "path": "src/published/books/ref3/ref3-zombies.md",
-      "beforeSha256": "0ef8ee2b664f8a9eed1377fc690ca3f8c778f989f0ef09ae35f9d56ff0503c62",
-      "afterSha256": "65293d6c1c6bd3316346a4dfde19dce142fd29fd70ed5eecf7a253771e88ca7f"
+      "path": "src/published/books/ref3/ref3-bear.md",
+      "beforeSha256": "ba6c143748057f7f3262d699b285be87d20bf4c8bd3966746f2bcaa132ef0fa1",
+      "afterSha256": "db7e4d59b4253b7f950f9d3f2985b3f03bf519555e37d9dcb114fe89a302e9b6"
     },
     {
-      "path": "src/published/books/ref5/ref5-skeletons.md",
-      "beforeSha256": "2d1a162b53244fc537611e545eb9b125abd0f7756b3dd20e6bb0e1e87b9f31d5",
-      "afterSha256": "8c02a5ee174332118a638ebeb4ffab7723c34518f403dee9155b2a19c190dbff"
+      "path": "src/published/books/ref3/ref3-carnivorous-apes.md",
+      "beforeSha256": "944646fc10cfe72b0385089e3b2c2e7e8d3dd0af75c4ee494c45f25984d9121a",
+      "afterSha256": "0e04175cf0cf4fe4da40c896a21e4c3828fe5ec3cc914804e0867ceb632fc052"
     },
     {
-      "path": "src/published/books/ua/ua-appendix-r-nonlethal-combat.md",
-      "beforeSha256": "48337115556392c478648cffb31140f148d89220df41f379fe908012cb1415f2",
-      "afterSha256": "0cc34a653c2d94b39c11efa8bb3576ba9a93625fcbefd1d72c7b2315de4db4b2"
+      "path": "src/published/books/ref3/ref3-orcs.md",
+      "beforeSha256": "f5a99f19ed580b1fd397619e5ac41cba025c3e235125ddf955c4c6cb11f93bf5",
+      "afterSha256": "0790e774c6a7d6b2fcc33364ed312bbda3b5d08cb95f4988133702a2af5f2f38"
+    },
+    {
+      "path": "src/published/books/ref3/ref3-vampiress.md",
+      "beforeSha256": "4824450663117bada9c2a9ac574928b99a65b620a14835205a48446b739dd7a0",
+      "afterSha256": "81a305e8a9dc705ccba8119bf0f1cd7def3bbb5ec19dcc6b49883e095e679713"
+    },
+    {
+      "path": "src/published/books/ref4/ref4-bugbears.md",
+      "beforeSha256": "7f6821b70e205e2bd9a6e97a9dd05bd2f588cd52ab9cb3e47f36c36c93fe0150",
+      "afterSha256": "ec44688342ea13db0594c56881f2d816d1d1c47c204da052d380dc4cda2d2317"
+    },
+    {
+      "path": "src/published/books/ref4/ref4-gnomes.md",
+      "beforeSha256": "4f65d1bc6f836c2e4cb7f70f1e2c0abb617ab07a50eed4e7c17fcb758d6d61a2",
+      "afterSha256": "60e5b61a5a2e4333d72b78ab72e1a4525414b9590258f791fb99c39ba3841901"
+    },
+    {
+      "path": "src/published/books/ref4/ref4-movanic-deva.md",
+      "beforeSha256": "c1fe9db5cd8ab3704a223732c0aa9329e4ecbfaa2fc1d287cd49b8164f0b7126",
+      "afterSha256": "dc0efc6fd33a8101b38f43955e45988f19accfab9c71203226197ed5b336fa09"
+    },
+    {
+      "path": "src/published/books/ref4/ref4-sphinxes.md",
+      "beforeSha256": "12fe55bea18307ddccbe08c1055e0ff37223c82510c682208a772677913398ee",
+      "afterSha256": "e1ad3d827c763f9ff1d9676ffaa1cbe0b83837c2f8555946c1bd2d6c0fcd9432"
+    },
+    {
+      "path": "src/published/books/ref4/ref4-wyverns.md",
+      "beforeSha256": "f19edcdf2bbc5fc5c9b55a777d4e2f0f240b51c162f1f6195bda26540d66acf7",
+      "afterSha256": "ab5da214675c0b33483a68f99f76ab468f6411541024c1ee797d80e7bf575889"
+    },
+    {
+      "path": "src/published/books/ref5/ref5-ghouls-ghasts.md",
+      "beforeSha256": "840bece662393b85f67fdffe8faa3e53cffe38816b593605ccfc23dcf6ce9a7b",
+      "afterSha256": "5ed14e0f2f55727fb85bba53e680953642042a6902a0218faa6389b66a328c54"
+    },
+    {
+      "path": "src/published/books/ref5/ref5-mummies.md",
+      "beforeSha256": "7d9cb15d9f6ad2976e7d6d70d1673c602b7c54d9d97a63da24eceaae0b1c2823",
+      "afterSha256": "f59c804d2e671b43514ee134504cdb4b3da22b85703bc43ec346ad2479242e73"
+    },
+    {
+      "path": "src/published/books/ref5/ref5-vampires.md",
+      "beforeSha256": "9e972345aa533d5ceb417c2927d629d2aa836403ebf4bd9d12187a8c11af830b",
+      "afterSha256": "1fb4142a74a414c0effb21266bf32b1ad8a042d580eac96e67e0bcf41ce1f6a5"
+    },
+    {
+      "path": "src/published/books/ref5/ref5-wights.md",
+      "beforeSha256": "127b311c94f3f6c19daca45ab7b852a0271310d21bbc71773e1ed23414897521",
+      "afterSha256": "abdb245054fc4fe4b3a8564950dd61ab0b1777b2d562c5f0ab139b1b4e62231a"
     },
     {
       "path": "src/published/books/ua/ua-appendix-s-dwarves-elves.md",
-      "beforeSha256": "87837edbaa79aa1b1ea86aaeff3053a1ff0fd6f602a0845a0163527596970c22",
-      "afterSha256": "b2ce3cd70b2f03b1af18a27f191ba91cac4623a37152f70f02f167a75884bb20"
+      "beforeSha256": "b2ce3cd70b2f03b1af18a27f191ba91cac4623a37152f70f02f167a75884bb20",
+      "afterSha256": "bcf1579110e69f379e62064da6edfe15c28056ea842c5d1c2289ed36d42c10cb"
     },
     {
-      "path": "src/published/books/ua/ua-dm-rod-descriptions.md",
-      "beforeSha256": "c638d62d31343555fd2b290c7294dd6edd133f5112d763162d3ec508aa2fb2f6",
-      "afterSha256": "a12cc8dbe2297a6d0e0fc07ceb4300358fc91f4daf8504e5b2cf59f2050f32fd"
+      "path": "src/published/books/ua/ua-appendix-s-gnomes-orcs.md",
+      "beforeSha256": "27278b41585c15defde289b2db25dbdefa2350c004fecf3ff689d43f5c4ceaa7",
+      "afterSha256": "70205d6762c66e02c6f864532a668f17f1ba753b7b9f0b83178071f9daf8cfa5"
     },
     {
-      "path": "src/published/books/ua/ua-dm-staff-descriptions.md",
-      "beforeSha256": "42156a8a9a4afdeb3ded337b260f669c96c2e9693e293b5388e27080a155df74",
-      "afterSha256": "53f60066ed493633f06879d76a12feb3fa617093e390d2482bee4910ef734b4f"
+      "path": "src/published/books/ua/ua-appendix-s-halflings-reference.md",
+      "beforeSha256": "3b308a81bd7b648853ae0da5a98ffc7475f25d501b8ef541eea31f2c74325338",
+      "afterSha256": "464b0526cf12cfc0a43710e6f0713b398eb0067e97d86b9640438e8038d61078"
     },
     {
-      "path": "src/published/books/ua/ua-druid-spell-table.md",
-      "beforeSha256": "24a91661c820df4aba0d0832b9800a5bfd294fbdfc46d4d2c78c3ce081f7204c",
-      "afterSha256": "6038c8a4fb479b2d30a8f9eb56d8c70c385cf68f0791cda502df8f76cba825be"
+      "path": "src/published/books/ua/ua-attacks-per-melee-round.md",
+      "beforeSha256": "730e1a8e5a39b8b82e298b2d8f7eccd3a1d5d7c2aad05dbb24e99d2dc01989eb",
+      "afterSha256": "a8979dff8739fd20d4b312597fbfbeba52211bc207f87cb5a95b8509b2b73026"
     },
     {
-      "path": "src/published/books/ua/ua-magic-user-spell-table.md",
-      "beforeSha256": "d9e624dc0a0c83c34cfff720315228f069d231c5b7bdd0283d0433a155fed420",
-      "afterSha256": "2f7770f9314c0981ddc6821f3882fdba8e1a1468b906e1b5e90c6b3ade9b1cd6"
+      "path": "src/published/books/ua/ua-barbarian.md",
+      "beforeSha256": "fea6ebcf18ddfd7ae28be6caaf642409ea8b910bcc1161aa00b47b1f1223f34e",
+      "afterSha256": "dbbcd61524ae2e63cebae65518de3cfc2eaec1a0c4ec3e986b685ff54f4ef61c"
+    },
+    {
+      "path": "src/published/books/ua/ua-cavalier.md",
+      "beforeSha256": "5a08dfe6427f0d6fbf7656c225210aedc59a8399b74bdda1d4756df92935f967",
+      "afterSha256": "2fb5a7d89eb1466ba005e1e5cba353000cdd411327d78a6a2268e0e2663926d4"
+    },
+    {
+      "path": "src/published/books/ua/ua-class-hit-dice.md",
+      "beforeSha256": "18103ea6bbd406b13dcd1da2dfa375d50ec1213e1e075a8517dd48235c32ae27",
+      "afterSha256": "1740b94b099c0478576216bd7531c25a7b759cd7db11220ad622a33ae3b1b0b1"
+    },
+    {
+      "path": "src/published/books/ua/ua-cleric-spells-4.md",
+      "beforeSha256": "15f3dcceca134cc825c23cc37e2d01d54b5aa16733efc8d9bf7a236fabc94e4e",
+      "afterSha256": "b7480e5c2cbefdb290d456eee2da3a217c3ab934bc681168390943296b6479cd"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-armor.md",
+      "beforeSha256": "26ad2278313e10b9aa1dd9335d7333fb0c0e1e6e426614c2a444ee899c2c67b5",
+      "afterSha256": "048df37a4c6da96501f8adadb82580665eedf78d86363c4748809ba96543e3dd"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-cavalier-followers.md",
+      "beforeSha256": "4e5002eecbe7a71483b698ac533719d6120afa3cda7e865610e080e9042454a3",
+      "afterSha256": "bc98dcf5ad544e6bcde022ef0eeff1e38d5d6bc4134603c9e331c8a3e16c235e"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-character-generation.md",
+      "beforeSha256": "92119283c246390a9fbde6baac2f3d73d05500728b2a5e23eb44c9c0cd0b09c4",
+      "afterSha256": "9736bbc3e648691174fef4b83f0c2132f9e778aa2bd20fee775825e808335fde"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-misc-item-descriptions-101.md",
+      "beforeSha256": "2b5fad5f2f9838e440943dbf78f316899b2e8abc3666f17583f190935781b781",
+      "afterSha256": "ce5dd86bed9978bc5ac5eee021135dc7f2ad0c45ae193a11c406d182523f54d0"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-ring-descriptions.md",
+      "beforeSha256": "fbd0510539b9273219b34c44e9ecfc5a721ff08dc4358c8a6cd5f4d675986e0b",
+      "afterSha256": "80349d676380ef68796eea8a886ec668678842c9edb6741901f858b48d20cb16"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-social-class.md",
+      "beforeSha256": "995f243768709d3f96c6bf5c4f6161bec7179d5ee711b63280998aa8a3f2a910",
+      "afterSha256": "ac11497c9a97034f171dcd61c82070f67eff4a02b0682e59a6a27e572765eebb"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-warhorses-barding.md",
+      "beforeSha256": "f65f1044aca1d3e1c8d01b2fdee780f00910ebda9eb009f205e560cce79436f9",
+      "afterSha256": "9b2ddb21d02ee4a169a6896c33ad1840c3c81326f56e1ccfbc2359993845909e"
+    },
+    {
+      "path": "src/published/books/ua/ua-fighter.md",
+      "beforeSha256": "b4f6aebdd56d08307a9ff2dfa0b89009027c9c69628b1ce8ec66d2d9409be557",
+      "afterSha256": "0ffd2aa91201ad54c40d76930a1b4a7a3450dd19e332ed814a323dd3269298a8"
+    },
+    {
+      "path": "src/published/books/ua/ua-players-contents.md",
+      "beforeSha256": "e4bec0208aa0debcf56f0cb66957b05c564ca4d6a6f0f0c2a6bd0133fa0d989d",
+      "afterSha256": "f861e2ffaa4ecb255fe03acecc7be77d268d95ae8f55f5e34f55083fa672cbfd"
+    },
+    {
+      "path": "src/published/books/ua/ua-race-elves.md",
+      "beforeSha256": "4c9cadc23576a4ff9d358f3569b09b41d738b5379a8b4a6b6eee8c9ae52b7a45",
+      "afterSha256": "92d6bc4c358784f665af01a166444a49abcf9334adbf53626f85a6448981e487"
+    },
+    {
+      "path": "src/published/books/ua/ua-race-level-limitations.md",
+      "beforeSha256": "f49b6b86fba0a14fa86d6f5d56fc8f9dfb880ee5a7e5f8e204147e9b085a0799",
+      "afterSha256": "0a9e5316f6faa1c80c843d4640ef792366109114e0a7967d5cc8afdff1564718"
+    },
+    {
+      "path": "src/published/books/ua/ua-ranger.md",
+      "beforeSha256": "ed82c25572e4436d174d7cb101041bf7bbb7d30b9a6e70ba3baee267b0dd087c",
+      "afterSha256": "1a76a22b94d823b87b15394b1c67fea5ca7276e67f43731a52d02c820bc31e08"
     },
     {
       "path": "src/published/books/ua/ua-weapons.md",
-      "beforeSha256": "e3d7623ac114d85ba6569d078404e7ef563721b24de24308625a2b573644e371",
-      "afterSha256": "9fa228168a2b49d1ca81e4453b1b719e768327621d51f6767af15e544c331840"
+      "beforeSha256": "268ac59f42de2e9f1912fc71122a0bc1c6223b2e730f7177c9afe7d925487d43",
+      "afterSha256": "822f28e3288616ea1252ae5e2f0f37cf063825a72cc7640eccf78f5484d71e31"
     },
     {
-      "path": "scripts/import/items.ts",
-      "beforeSha256": "965e0427fa2c5b669d0e1f5cbe991c9acdd7606747c8350e8d3d47d43bcbd314",
-      "afterSha256": "38bfc1662120f7f07627e217491b6ca383de2e94fd406ccd1cbbfd5691337ba1"
+      "path": "src/published/books/wsg/wsg-combat.md",
+      "beforeSha256": "47dea4c2b247d2bee82382790ac308a451d63cfe099ff0bb97367469194a547d",
+      "afterSha256": "65fe059f5592cc25ff05b1abd31c7e43b07f4210f88146fe7b430e0d6b9dc42c"
     },
     {
-      "path": "scripts/import/phb-equipment-names.json",
-      "beforeSha256": "61def73c3980d9bed00305a1d8cf9c9aa3313a761a256f8c9591bd513ff36793",
-      "afterSha256": "3f9ae6961bd4251ae68f019aaba299c22511f7c7f4e17a4aa3b8bc6d35e803fe"
+      "path": "src/published/books/wsg/wsg-proficiencies.md",
+      "beforeSha256": "16b3075da678ca906c1ba03a2c82be86620b53f9f3f5064565f3ada36c8a9ef4",
+      "afterSha256": "12b6995e92f16bd8ec0c71189fd76409b36cad29862c24b5bf6443990b026292"
+    },
+    {
+      "path": "src/published/books/wsg/wsg-what-is-it.md",
+      "beforeSha256": "b093ceee48e696ee5fd090d69e6497e08f757746abbf3069b4938535d6298ca1",
+      "afterSha256": "ca8e3a0ba93f1ae4be472e09181e731b59faa931b688a1191fc5420f121d219b"
+    },
+    {
+      "path": "scripts/import/complete-library.py",
+      "beforeSha256": "3cc93a1c57e18fc6dbdf44d005f36f693cb796eb18410351f75e00dc0c6ea80a",
+      "afterSha256": "c89486b22665b34aad67fe4eda3789fbb3338d67e44165658dab37d15047cfa9"
+    },
+    {
+      "path": "scripts/import/published-books.ts",
+      "beforeSha256": "868971f28324d114dbad09f38c4fd81df91769811eacc053057a49931e25934f",
+      "afterSha256": "223ead41e3ff387add6ca2b545ca0fefdb673d7372692757e089e5422baad530"
+    },
+    {
+      "path": "scripts/import/reader_cleanup.py",
+      "beforeSha256": "c38eebcb2177cd44d1d6a677c09e377b4fdd21f763a31e9cfcfb350b8663b841",
+      "afterSha256": "f5431a21c79844bb291088538cbf26ba26e09d34c69e19609ef85310c42e46f0"
     }
   ],
   "globalReplacements": {
+    "蛮族": "野蛮人",
+    "僧侣": "武僧",
+    "游侠": "巡林客",
     "防侦测与定位护符": "反侦护符",
     "克瓦利什装置": "夸力许装置",
     "矮人领主之斧": "矮人王圣斧",
@@ -469,6 +1077,9 @@
     "阿拉科克拉鸟人": "鸟羽人",
     "阿博莱斯": "底栖魔鱼",
     "鲍勒斯": "底栖魔鱼",
+    "阿查伊莱": "阿卡伊拉伊",
+    "刺客虫": "暗杀虫",
+    "黄金兽": "吞金兽",
     "斧喙鸟": "斧嘴鸟",
     "火矮灵": "火矮人",
     "巴巴乌魔": "巴布魔",
@@ -478,6 +1089,7 @@
     "贝希摩斯": "青足龙蛇",
     "贝尔巴朗": "分灵妖",
     "黑色布丁怪": "黑布丁",
+    "炫目蛙怪": "炫目者",
     "蓝史拉蟾": "史拉蓝蟾",
     "波格小妖": "捣蛋鬼",
     "布雷特": "鲨蜥",
@@ -487,24 +1099,33 @@
     "半人马": "人马",
     "蛰伏伪怪": "斗篷怪",
     "库奥托": "羽蛇",
+    "克里奥纳克斯": "克里欧纳克斯",
     "死亡犬": "亡命恶犬",
+    "凶暴鸦人": "恶鸦人",
     "位移兽": "移位兽",
+    "小型翼龙": "四足亚龙",
     "卓尔精灵": "卓尔",
     "双功能魔冢": "二元冢",
+    "艾布利斯鹤": "魔王鹤",
     "蛛化精怪": "伊特怪",
+    "恐惧烈焰之眼": "火惧之眼",
     "连枷蜗牛": "链枷蜗牛",
     "弗林德豺狼人": "弗林德鬣狗人",
     "弗伦浮怪": "呋噜",
+    "弗拉伦": "魔羊人",
     "弗拉兹乌鲁": "弗拉兹厄鲁",
     "蛙怪巨兽": "沼喉怪",
     "伽雷布土灵": "石人",
     "胶质立方体": "凝胶方块",
     "格里昂": "格殷永",
     "食尸鬼怪": "妖鬼",
+    "巨型蜻蜓": "巨蜻蜓",
+    "巨型苍蝇": "巨苍蝇",
     "巨型蜥蜴": "巨蜥",
     "巨型蜘蛛": "巨蜘蛛",
     "巨型跨步鸟": "阔步鸟",
     "胡言乱语兽": "呓语之口",
+    "胡言兽": "呱呱精",
     "哥布林": "地精",
     "戈尔贡": "石化铁牛",
     "灰色软泥怪": "灰泥怪",
@@ -519,32 +1140,46 @@
     "九头蛇": "多头蛇",
     "多头蛇蜥": "多头蛇",
     "铁眼镜蛇": "钢铁眼镜蛇",
+    "恶魔魟": "伊希鳐鱼",
     "豺狼人变形怪": "化形胡狼",
+    "标枪蛇": "幻色蛇",
+    "杰姆莱恩": "杰莱鼠",
+    "卡玛丹蛇豹": "六岐蛇豹",
+    "卡格拉": "土鱼",
+    "基尔莫利斯": "旅居仙",
     "科瑞德": "考芮精",
     "克拉肯海怪": "克拉肯",
     "寇涛鱼人": "寇涛",
     "库奎托阿": "寇涛",
     "拉弥亚": "拉迷亚",
+    "小妖精": "矮妖精",
     "勒克洛塔": "血糜兽",
     "蜥蜴王": "蜥蜴之王",
+    "洛卡萨": "洛卡鱼人",
     "猛犸象": "猛犸",
     "曼提柯尔": "刺尾狮",
+    "食人花": "捕人草",
     "米泽尔": "鬾魊",
     "恐惧之锁": "凌弱怪",
     "梅罗水栖食人魔": "梅洛",
     "拟态怪": "拟身怪",
     "牛头怪": "牛头人",
+    "小蠹怪": "螨精",
     "单功能魔冢": "单元冢",
     "深渊幽灵": "莫克鱼怪",
     "纳巴苏魔": "掠魂魔",
+    "新食腐兽": "新奥图格",
+    "水宁芙": "涅瑞伊德",
     "夜女巫": "夜鬼婆",
     "夜巫婆": "夜鬼婆",
     "梦魇马": "梦魇",
     "反地精": "林布哥",
+    "诺克地精": "诺克",
     "赭色胶怪": "赭果冻",
     "黄褐色胶冻": "赭果冻",
     "奥库斯": "奥喀斯",
     "奥提尤格": "食腐兽",
+    "佩奇土灵": "岩精",
     "五功能魔冢": "五元冢",
     "穿刺怪": "石锥怪",
     "行星天使": "异界神侍",
@@ -561,6 +1196,7 @@
     "锈蚀怪物": "锈蚀怪",
     "鲁特金魔": "畸魔",
     "沙华鱼人": "鲨华鱼人",
+    "尖啸小魔": "尖叫小鬼",
     "海巫婆": "海鬼婆",
     "暗影恶魔": "幽影恶魔",
     "暗影龙": "幽影龙",
@@ -571,49 +1207,85 @@
     "滑行追踪者": "蠕行追迹者",
     "炽天使": "炽天神侍",
     "眼魔监视者": "观察者眼魔",
+    "斑点狮": "斑巨狮",
     "精灵妖": "小仙灵",
     "恶臭牛": "恶臭野牛",
+    "苏魔兽": "苏怪",
+    "天鹅女": "天鹅之女",
     "塔拉斯克巨兽": "泰拉斯奎",
+    "塔斯罗伊人": "塔斯洛伊",
+    "塞萨尔多头怪": "特萨尔蛇蜥",
     "索利克林螳螂人": "螳螂人",
+    "泰坦兽": "雷兽",
     "伏地伪怪": "诱陷者",
     "诱捕者": "诱陷者",
+    "三花叶怪": "三花株",
     "三功能魔冢": "三元冢",
     "穴居怪": "穴蜥人",
     "乌木巨怪": "掘土巨怪",
     "土巨怪": "掘土巨怪",
     "瓦古伊尔飞头怪": "飞首",
     "植化矮人": "孢子人",
+    "披羊皮的狼": "披着羊皮的狼",
     "双足飞龙": "飞龙",
+    "希尔虫人": "希尔",
     "岩石兽": "石鼎兽",
     "索尔石怪": "石鼎兽",
     "泽瓦特": "法特怪",
+    "黄麝香蔓": "黄迷香爬藤",
     "耶斯猎犬": "夜嘶猎犬",
     "幼年红龙": "青年红龙",
+    "佐博兽": "佐博怪",
+    "阿格拉隆": "阿戈拉隆",
+    "阿诺洛克": "埃诺奥克",
     "毕格比的法术": "毕格比",
+    "卡林杉": "卡林珊",
     "凯魔胥": "凯魔须",
+    "棋森塔": "阙森塔",
     "奇斯列夫": "奇思洛夫",
     "德拉维吉": "卓姆吉",
     "德拉维吉的法术": "卓姆吉",
+    "艾尔特瑞尔": "埃尔托瑞尔",
     "吉力安": "吉立安",
     "希杜凯尔": "西都凯",
+    "希尔法": "希尔斯法尔",
+    "安皮尔图尔": "因布图",
+    "伊乌兹": "埃乌兹",
+    "伊乌兹的牧师": "埃乌兹",
     "奇力·乔里斯": "奇力·裘理斯",
+    "索拉姆尼亚骑士": "索兰尼亚骑士团",
     "露妮塔瑞": "努林塔瑞",
     "马哲理": "马哲里",
+    "梅尔万特": "梅尔沃特",
+    "明塔恩": "明檀",
     "莫登凯南": "魔邓肯",
     "莫登凯南的法术": "魔邓肯",
+    "穆尔马斯特": "穆尔玛斯特",
+    "迷斯·德拉诺": "迷斯卓诺",
     "诺斯图": "涅斯图",
     "诺斯图的法术": "涅斯图",
+    "奥伦巴尔": "欧伦伯",
     "欧提路克的法术": "欧提路克",
     "奥托": "奥图",
     "奥托的法术": "奥图",
+    "普罗坎普尔": "普罗坎普",
     "拉瑞的法术": "拉瑞",
+    "拉舍曼": "莱瑟曼",
     "萨苟纳斯": "沙苟纳",
+    "塞姆比亚": "桑比亚",
     "西娜瑞": "西那瑞",
     "西瑞安": "西历安",
+    "索拉姆尼亚": "索兰尼亚",
     "索林纳瑞": "索林那瑞",
+    "苏泽尔": "苏萨尔",
     "谭森的法术": "谭森",
+    "图尔米什": "突米斯",
+    "安瑟": "恩瑟",
+    "维尔洪海湾": "维洪海域",
     "泽波音": "赛波音",
+    "珍铎城": "散提尔堡",
     "吉维林": "亦为林",
+    "警报术": "魔法警报",
     "操纵死尸": "活化死尸",
     "死者复生": "活化死尸",
     "活化物体": "活化物件",
@@ -622,7 +1294,7 @@
     "刀刃屏障": "剑刃护壁",
     "仪式术": "典礼术",
     "连环闪电": "连锁闪电",
-    "魅惑人类": "魅惑类人",
+    "魅惑类人": "魅惑人类",
     "寒冷之触": "颤栗之触",
     "彩色法球": "繁彩球",
     "死亡云": "死云术",
@@ -666,6 +1338,7 @@
     "制造术": "鬼斧神工",
     "心智衰弱术": "弱智术",
     "寻觅魔宠": "寻获魔宠",
+    "寻路术": "寻找捷径",
     "死亡指触": "死亡一指",
     "火风暴": "火焰风暴",
     "火风暴术": "火焰风暴",
@@ -687,9 +1360,9 @@
     "治疗术": "医疗术",
     "金属加热": "灼热金属",
     "英雄盛宴": "英雄宴",
-    "怪物定身术": "定身怪物",
-    "人类定身术": "定身类人",
-    "定身人类": "定身类人",
+    "定身怪物": "怪物定身术",
+    "定身人类": "人类定身术",
+    "定身类人": "人类定身术",
     "冰暴术": "冰风暴",
     "燃烧云": "焚云术",
     "昆虫瘟疫": "疫病虫群",
@@ -699,11 +1372,12 @@
     "闪电术": "闪电束",
     "有限愿望": "有限许愿术",
     "有限祈愿": "有限许愿术",
-    "定位物品": "物件定位术",
-    "寻物术": "物件定位术",
-    "物品定位术": "物件定位术",
+    "定位物品": "物品定位术",
+    "寻物术": "物品定位术",
+    "物件定位术": "物品定位术",
     "魔法容器": "魔魂壶",
-    "魔法之口": "魔嘴术",
+    "魔嘴术": "魔嘴",
+    "魔法之口": "魔嘴",
     "群体暗示": "群体暗示术",
     "融入石中": "融身入石",
     "梅尔夫的酸箭": "马友夫强酸箭",
@@ -792,6 +1466,7 @@
     "阴影行走": "行影术",
     "粉碎术": "粉碎音波",
     "橡木棍": "橡棍术",
+    "电爪术": "电爪",
     "喊叫术": "咆哮术",
     "套索术": "圈套术",
     "与动物交谈": "动物交谈",
@@ -818,20 +1493,6 @@
     "回归术": "回返真言"
   },
   "contextOnly": [
-    {
-      "old": "蛮族",
-      "targets": [
-        "野蛮人"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
-      "old": "僧侣",
-      "targets": [
-        "武僧"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
     {
       "old": "豆袋",
       "targets": [
@@ -1043,9 +1704,51 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "阿查伊莱 ·",
+      "targets": [
+        "阿卡伊拉伊"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "阿斯摩蒂尔斯",
+      "targets": [
+        "阿斯蒙蒂斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "刺客虫 ·",
+      "targets": [
+        "暗杀虫"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Aurak 龙兽",
+      "targets": [
+        "奥瑞克龙人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "黄金兽 ·",
+      "targets": [
+        "吞金兽"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "火矮灵 ·",
       "targets": [
         "火矮人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Baaz 龙兽",
+      "targets": [
+        "巴兹龙人"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1106,9 +1809,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "贝利亚 ·",
+      "targets": [
+        "贝利亚"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "贝尔巴朗 ·",
       "targets": [
         "分灵妖"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "炫目蛙怪 ·",
+      "targets": [
+        "炫目者"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1137,6 +1854,13 @@
       "old": "波格小妖 ·",
       "targets": [
         "捣蛋鬼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Bozak 龙兽",
+      "targets": [
+        "波扎克龙人"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1197,6 +1921,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "克里奥纳克斯 ·",
+      "targets": [
+        "克里欧纳克斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "土巨灵 ·",
       "targets": [
         "土巨灵"
@@ -1228,6 +1959,13 @@
       "old": "半巫妖 ·",
       "targets": [
         "半巫妖"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "恶魔 ·",
+      "targets": [
+        "恶魔"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1267,9 +2005,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "凶暴鸦人 ·",
+      "targets": [
+        "恶鸦人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "风巨灵",
       "targets": [
         "气巨灵"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "小型翼龙 ·",
+      "targets": [
+        "四足亚龙"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1309,6 +2061,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "艾布利斯鹤 ·",
+      "targets": [
+        "魔王鹤"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "欲魔",
       "targets": [
         "罪魔"
@@ -1326,6 +2085,13 @@
       "old": "蛛化精怪 ·",
       "targets": [
         "伊特怪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "恐惧烈焰之眼 ·",
+      "targets": [
+        "火惧之眼"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1354,6 +2120,20 @@
       "old": "弗伦浮怪 ·",
       "targets": [
         "呋噜"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "雾巨人 ·",
+      "targets": [
+        "雾巨人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "弗拉伦 ·",
+      "targets": [
+        "魔羊人"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1394,6 +2174,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "巨人 ·",
+      "targets": [
+        "巨人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "巨型蝙蝠",
       "targets": [
         "巨蝙蝠"
@@ -1408,6 +2195,20 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "巨型蜻蜓 ·",
+      "targets": [
+        "巨蜻蜓"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "巨型苍蝇 ·",
+      "targets": [
+        "巨苍蝇"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "巨型跨步鸟 ·",
       "targets": [
         "阔步鸟"
@@ -1418,6 +2219,20 @@
       "old": "胡言乱语兽 ·",
       "targets": [
         "呓语之口"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "胡言兽 ·",
+      "targets": [
+        "呱呱精"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "格莱西雅 ·",
+      "targets": [
+        "格莱西雅"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1479,6 +2294,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "圣象",
+      "targets": [
+        "圣飞象"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "钩爪恐兽 ·",
       "targets": [
         "恐爪怪"
@@ -1486,9 +2308,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "凶兆猎犬 ·",
+      "targets": [
+        "凶兆猎犬"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "胡提金 ·",
       "targets": [
         "胡提金"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "冰巨魔 ·",
+      "targets": [
+        "冰巨魔"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1514,6 +2350,48 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "标枪蛇 ·",
+      "targets": [
+        "幻色蛇"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "杰姆莱恩 ·",
+      "targets": [
+        "杰莱鼠"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "卡玛丹蛇豹 ·",
+      "targets": [
+        "六岐蛇豹"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Kapak 龙兽",
+      "targets": [
+        "卡帕克龙人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "水鬼",
+      "targets": [
+        "藻形水鬼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "水鬼 ·",
+      "targets": [
+        "藻形水鬼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "鸦人",
       "targets": [
         "天狗"
@@ -1524,6 +2402,13 @@
       "old": "鸦人 ·",
       "targets": [
         "天狗"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "卡格拉 ·",
+      "targets": [
+        "土鱼"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1556,6 +2441,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "森林：矮妖精",
+      "targets": [
+        "矮妖精"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "蜥蜴王 ·",
       "targets": [
         "蜥蜴之王"
@@ -1563,9 +2455,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "玛门 ·",
+      "targets": [
+        "玛门"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "蝎狮",
       "targets": [
         "刺尾狮"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "食人花 ·",
+      "targets": [
+        "捕人草"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1591,6 +2497,20 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "墨菲斯托费利斯 ·",
+      "targets": [
+        "墨菲斯托费利斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "小蠹怪 ·",
+      "targets": [
+        "螨精"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "摩洛克 ·",
       "targets": [
         "摩洛克"
@@ -1612,9 +2532,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "水宁芙 ·",
+      "targets": [
+        "涅瑞伊德"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "反地精 ·",
       "targets": [
         "林布哥"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "诺克地精 ·",
+      "targets": [
+        "诺克"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1643,6 +2577,13 @@
       "old": "猫头鹰 ·",
       "targets": [
         "猫头鹰"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "帕祖祖 ·",
+      "targets": [
+        "帕祖祖"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1794,6 +2735,20 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "海生巨魔",
+      "targets": [
+        "斯卡格"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "尖啸小魔 ·",
+      "targets": [
+        "尖叫小鬼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "影",
       "targets": [
         "幽影"
@@ -1839,6 +2794,20 @@
       "old": "暗影獒犬 ·",
       "targets": [
         "阴影獒犬"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sivak 龙兽",
+      "targets": [
+        "西瓦克龙人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "骷髅战士 ·",
+      "targets": [
+        "骷髅战士"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1913,9 +2882,30 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "天鹅女 ·",
+      "targets": [
+        "天鹅之女"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "塔拉斯克巨兽 ·",
       "targets": [
         "泰拉斯奎"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "塔斯罗伊人 ·",
+      "targets": [
+        "塔斯洛伊"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "塞萨尔多头怪 ·",
+      "targets": [
+        "特萨尔蛇蜥"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1944,6 +2934,13 @@
       "old": "提提维鲁斯 ·",
       "targets": [
         "提提维鲁斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "三花叶怪 ·",
+      "targets": [
+        "三花株"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2011,6 +3008,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "披羊皮的狼 ·",
+      "targets": [
+        "披着羊皮的狼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "幽影",
       "targets": [
         "邪灵"
@@ -2032,9 +3036,30 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "希尔虫人 ·",
+      "targets": [
+        "希尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "泽瓦特 ·",
       "targets": [
         "法特怪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "黄麝香蔓 ·",
+      "targets": [
+        "黄迷香爬藤"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "黄麝香僵尸",
+      "targets": [
+        "黄迷香丧尸"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2056,6 +3081,503 @@
       "old": "僵尸",
       "targets": [
         "丧尸"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "佐博兽 ·",
+      "targets": [
+        "佐博怪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Abanasinia",
+      "targets": [
+        "阿班尼西亚"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Aglarond",
+      "targets": [
+        "阿戈拉隆"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Anauroch",
+      "targets": [
+        "埃诺奥克"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Barrier Peaks",
+      "targets": [
+        "屏障峰"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Calimshan",
+      "targets": [
+        "卡林珊"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Candlekeep",
+      "targets": [
+        "烛堡"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Celene",
+      "targets": [
+        "塞勒涅"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Chessenta",
+      "targets": [
+        "阙森塔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Corellon Larethian",
+      "targets": [
+        "柯瑞隆·拉瑞斯安"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Cormyr",
+      "targets": [
+        "科米尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Crystalmist Mountains",
+      "targets": [
+        "晶雾山脉"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Dalelands",
+      "targets": [
+        "谷地"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Damara",
+      "targets": [
+        "达马拉"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Elturel",
+      "targets": [
+        "埃尔托瑞尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Estwilde",
+      "targets": [
+        "埃思特维德"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Evereska",
+      "targets": [
+        "艾弗瑞斯卡"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Gauntlgrym",
+      "targets": [
+        "冈特格瑞姆"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Gilean",
+      "targets": [
+        "吉立安"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Goodlund",
+      "targets": [
+        "古德兰"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Gruumsh",
+      "targets": [
+        "格乌什"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Hellfurnaces",
+      "targets": [
+        "地狱熔炉山脉"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "High Moor",
+      "targets": [
+        "至高荒原"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Hillsfar",
+      "targets": [
+        "希尔斯法尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Icereach",
+      "targets": [
+        "冰触之地"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Impiltur",
+      "targets": [
+        "因布图"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Iuz",
+      "targets": [
+        "埃乌兹"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Jotens",
+      "targets": [
+        "约顿山脉"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Khur",
+      "targets": [
+        "克尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Knights of Solamnia",
+      "targets": [
+        "索兰尼亚骑士团"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Lunitari",
+      "targets": [
+        "努林塔瑞"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Luskan",
+      "targets": [
+        "路斯坎"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Melvaunt",
+      "targets": [
+        "梅尔沃特"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Mintarn",
+      "targets": [
+        "明檀"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Moonsea",
+      "targets": [
+        "月海"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Mulhorand",
+      "targets": [
+        "穆尔霍兰德"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Mulmaster",
+      "targets": [
+        "穆尔玛斯特"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Myth Drannor",
+      "targets": [
+        "迷斯卓诺"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Nerull",
+      "targets": [
+        "奈落"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "奈落的化身",
+      "targets": [
+        "奈落"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "奈落的牧师",
+      "targets": [
+        "奈落"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Neverwinter",
+      "targets": [
+        "无冬城"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Nordmaar",
+      "targets": [
+        "诺德玛"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Nuitari",
+      "targets": [
+        "努塔瑞"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Nyr Dyv",
+      "targets": [
+        "奈尔·戴夫"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Orlumbor",
+      "targets": [
+        "欧伦伯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Paladine",
+      "targets": [
+        "帕拉丁"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Procampur",
+      "targets": [
+        "普罗坎普"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Rashemen",
+      "targets": [
+        "莱瑟曼"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sembia",
+      "targets": [
+        "桑比亚"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Solamnia",
+      "targets": [
+        "索兰尼亚"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Solinari",
+      "targets": [
+        "索林那瑞"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sossal",
+      "targets": [
+        "索萨尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sunndi",
+      "targets": [
+        "桑迪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Suzail",
+      "targets": [
+        "苏萨尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sword Coast",
+      "targets": [
+        "剑湾"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Takhisis",
+      "targets": [
+        "塔克西丝"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Tarsis",
+      "targets": [
+        "塔西斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Telflamm",
+      "targets": [
+        "泰夫岚姆"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Tethyr",
+      "targets": [
+        "泰瑟尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Thar",
+      "targets": [
+        "萨尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "泰尔",
+      "targets": [
+        "萨尔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Turmish",
+      "targets": [
+        "突米斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Unther",
+      "targets": [
+        "恩瑟"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Vecna",
+      "targets": [
+        "维克那"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Vilhon Reach",
+      "targets": [
+        "维洪海域"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Waterdeep",
+      "targets": [
+        "深水城"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Wegwiur",
+      "targets": [
+        "威格维武"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Yondalla",
+      "targets": [
+        "悠达拉"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Yuirwood",
+      "targets": [
+        "攸木林"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Zhentil Keep",
+      "targets": [
+        "散提尔堡"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2144,6 +3666,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "Chill Touch",
+      "targets": [
+        "颤栗之触"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "隔墙观望",
       "targets": [
         "鹰眼术"
@@ -2210,7 +3739,7 @@
     {
       "old": "寻路",
       "targets": [
-        "寻路术"
+        "寻找捷径"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2397,13 +3926,6 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "电爪术",
-      "targets": [
-        "电爪"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
       "old": "呐喊",
       "targets": [
         "咆哮术"
@@ -2414,6 +3936,13 @@
       "old": "套索",
       "targets": [
         "圈套术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Speak with the Dead",
+      "targets": [
+        "死者交谈"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2442,6 +3971,13 @@
       "old": "暗示",
       "targets": [
         "暗示术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "Sunburst",
+      "targets": [
+        "阳炎爆"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },

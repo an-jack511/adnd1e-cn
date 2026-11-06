@@ -3,7 +3,7 @@ import type { InitialCoreClassId } from '../rules/core-progression';
 import { resolveDisplayRuleSource } from '../rules/source-directory';
 
 const classLabels: Readonly<Record<InitialCoreClassId,string>> = Object.freeze({
-  cleric:'牧师',druid:'德鲁伊',fighter:'战士',paladin:'圣武士',ranger:'游侠','magic-user':'魔法师',
+  cleric:'牧师',druid:'德鲁伊',fighter:'战士',paladin:'圣武士',ranger:'巡林客','magic-user':'魔法师',
   illusionist:'幻术师',thief:'盗贼',assassin:'刺客',monk:'武僧',
 });
 const statusLabel = { verified:'已核', 'needs-dm':'待战役确认', unsupported:'尚未支持' } as const;

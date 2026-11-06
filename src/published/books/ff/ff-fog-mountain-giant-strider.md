@@ -1,6 +1,6 @@
 ## 巨人（续） · Giant (Continued)
 
-### 雾巨人 · Fog Giant
+### 雾巨人 Fog Giant
 
 | 项目 | 数值 |
 | --- | --- |

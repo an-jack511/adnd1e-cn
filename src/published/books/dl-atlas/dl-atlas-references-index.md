@@ -22,7 +22,7 @@
 
 #### 期刊与其他来源
 
-- 特雷西·希克曼：“我的荣誉就是我的生命：关于索拉姆尼亚骑士的一切”，《龙》杂志第 94 期。
+- 特雷西·希克曼：“我的荣誉就是我的生命：关于索兰尼亚骑士的一切”，《龙》杂志第 94 期。
 - 罗杰·E·摩尔：“关于沟壑矮人的一切”，《龙》杂志第 102 期；“关于坎德人的一切”，第 101 期；“关于克莱恩侏儒的一切”，第 103 期。
 - 玛格丽特·韦斯：“双生子的试炼”，《龙》杂志第 83 期。
 - 南希·V·贝里伯里、特雷西·希克曼、哈罗德·约翰逊、艾伦·菲利普斯等访谈与私人信件，1984–1987。
@@ -38,7 +38,7 @@
 
 #### A–F
 
-- <strong>阿巴纳辛尼亚／阿巴纳辛尼亚（Abanasinia, Abanasynia）：</strong>导言、南方地图。
+- <strong>阿巴纳辛尼亚／阿巴纳辛尼亚（阿班尼西亚（Abanasinia）, Abanasynia）：</strong>导言、南方地图。
 - <strong>深渊（Abyss）：</strong>深渊主题图与高等魔法之塔。
 - <strong>安萨隆（Ansalon）：</strong>世界地图与导言。
 - <strong>巴利福尔城／巴利福尔地区（Balifor）：</strong>东方地图与漂浮残骸港。
@@ -46,7 +46,7 @@
 - <strong>血海、黑海岸、黑化森林、血杯、血望台：</strong>东方与主题地图。
 - <strong>卡拉曼（Kalaman）：</strong>北方、路径与战役地图。
 - <strong>卡拉斯之墓、卡拉斯之锤、链条室：</strong>索恩巴丁与帕克斯·塔卡斯。
-- <strong>凯尔苟斯（Caergoth）：</strong>索拉姆尼亚与路径年表。
+- <strong>凯尔苟斯（Caergoth）：</strong>索兰尼亚与路径年表。
 - <strong>乌斯·维斯坦城堡（Castle Uth Wistan）：</strong>北方导言。
 - <strong>火焰洞窟（Cavern of Fire）：</strong>圣诫城影民隧道。
 - <strong>奎利莫里（Qualimori／Qualin-mori）：</strong>东方、奎利奈斯提土地。
@@ -62,7 +62,7 @@
 - <strong>龙岛（Dragon Isles）：</strong>东部地图。
 - <strong>文加德山脉、文加德河与文加德堡（Vingaard）：</strong>北方与路径。
 - <strong>厄尔哥斯群岛、北厄尔哥斯、南厄尔哥斯：</strong>导言、东方与西方。
-- <strong>埃斯特维尔德（Estwilde）：</strong>北方。
+- <strong>埃斯特维尔德（埃思特维德（Estwilde））：</strong>北方。
 - <strong>避难谷、避难城（Haven）：</strong>南方与人口地图。
 - <strong>祈祷之眼峰（Prayer’s Eye Peak）：</strong>南方。
 - <strong>冰民营地、冰山湾、冰墙、冰墙城堡：</strong>西方与路径。
@@ -75,11 +75,11 @@
 - <strong>高等魔法之塔——帕兰萨斯、伊斯塔、威瑞斯：</strong>主要建筑与地图。
 - <strong>雾港谷（Foghaven Vale）：</strong>西方。
 - <strong>卡赫利斯山脉（Khalkist Mountains）：</strong>北方、圣诫城、奈拉卡。
-- <strong>古德伦（Goodlund）、海洛／坎德之家（Hylo／Kenderhome）、坎德莫尔（Kendermore）：</strong>东方与人口地图。
+- <strong>古德伦（古德兰（Goodlund））、海洛／坎德之家（Hylo／Kenderhome）、坎德莫尔（Kendermore）：</strong>东方与人口地图。
 - <strong>索拉丁／扎卡（Thoradin／Zhakar）：</strong>北方与种族分布。
 - <strong>伊斯塔（Istar）：</strong>东方、沉没神殿、主题地图。
 - <strong>塔克西丝之门、黑暗神殿、圣诫城三神殿：</strong>奈拉卡与圣诫城。
-- <strong>奎-舒（Que-shu）、奎-泰（Que-teh）、库尔（Khur）：</strong>南方与路径。
+- <strong>奎-舒（Que-shu）、奎-泰（Que-teh）、库尔（克尔（Khur））：</strong>南方与路径。
 - <strong>奈拉卡（Neraka）、奈拉卡平原：</strong>北方与圣诫城以东。
 - <strong>索拉斯（Solace）、索拉斯溪：</strong>南方与路径。
 - <strong>帕兰萨斯（Palanthas）：</strong>北方、高等魔法之塔、图书馆、宫殿与神殿。
@@ -92,7 +92,7 @@
 - <strong>西尔瓦诺斯提、西尔瓦诺斯特（Silvanesti／Silvanost）：</strong>东方。
 - <strong>银路、松-索蓬河、松-萨拉里安河、亡者之河：</strong>西方与路径。
 - <strong>斯拉-莫里（Sla-Mori，秘密道路）：</strong>帕克斯·塔卡斯。
-- <strong>索拉姆尼亚、索拉姆尼亚平原、索兰图斯、勒米什、泰尔加德：</strong>北方与战役。
+- <strong>索兰尼亚、索兰尼亚平原、索兰图斯、勒米什、泰尔加德：</strong>北方与战役。
 - <strong>高等圣职者之塔、骑士之刺、西门隘口：</strong>北方。
 - <strong>圣克里斯、永不满足山、白石林间空地：</strong>西方与北方。
 - <strong>漂浮残骸港、港湾、猪与口哨旅店、盐风旅店、栈桥旅店：</strong>东方。

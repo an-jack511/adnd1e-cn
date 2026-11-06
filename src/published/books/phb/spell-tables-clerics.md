@@ -23,7 +23,7 @@
 | 2 | 圣歌术 Chant |
 | 3 | 侦测魅惑 Detect Charm |
 | 4 | 寻找陷阱 Find Traps |
-| 5 | 定身类人 Hold Person |
+| 5 | 人类定身术 Hold Person |
 | 6 | 识破阵营 Know Alignment |
 | 7 | 抗火术 Resist Fire |
 | 8 | 沉默术（15尺半径） Silence, 15' Radius |

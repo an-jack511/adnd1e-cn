@@ -20,7 +20,7 @@
 
 ## 侦测透镜 Lens of Detection
 
-直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为*微视镜片*的 <strong>50%</strong>；透过镜片追踪时则可如游侠一般，只是基本移动速度为 <strong>6″</strong>。
+直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为*微视镜片*的 <strong>50%</strong>；透过镜片追踪时则可如巡林客一般，只是基本移动速度为 <strong>6″</strong>。
 
 ## 紫外视觉透镜 Lens of Ultravision
 

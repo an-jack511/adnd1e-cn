@@ -22,9 +22,9 @@
 
 罗刹遭遇按恶魔或魔鬼遭遇处理，也就是说，该区域必须适合此类遭遇。遭遇数量为 <strong>1–3 只</strong>。
 
-#### 游侠 Ranger
+#### 巡林客 Ranger
 
-遭遇对象为一名 <strong>7–10 级</strong>游侠（<strong>1d4+6</strong>）。除战士等级外，游侠与其他战士难以区分。
+遭遇对象为一名 <strong>7–10 级</strong>巡林客（<strong>1d4+6</strong>）。除战士等级外，巡林客与其他战士难以区分。
 
 #### 地痞 Ruffian
 

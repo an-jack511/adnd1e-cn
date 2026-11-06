@@ -21,7 +21,7 @@
 <TR><TD>德鲁伊</TD><TD>18 + 1d4</TD><TD>幻术师</TD><TD>30 + 1d6</TD></TR>
 <TR><TD>战士</TD><TD>15 + 1d4</TD><TD>盗贼</TD><TD>18 + 1d4</TD></TR>
 <TR><TD>圣武士</TD><TD>17 + 1d4</TD><TD>刺客</TD><TD>20 + 1d4</TD></TR>
-<TR><TD>游侠</TD><TD>20 + 1d4</TD><TD>武僧</TD><TD>21 + 1d4</TD></TR>
+<TR><TD>巡林客</TD><TD>20 + 1d4</TD><TD>武僧</TD><TD>21 + 1d4</TD></TR>
 </TABLE>
 <P>吟游诗人的年龄从其最初加入的职业所对应的年龄开始计算。</P>
 <A NAME="dmg-aging"></A>

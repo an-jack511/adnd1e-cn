@@ -2,9 +2,9 @@
 
 # 魔法师一环法术 First Level Spells
 
-以下十项依原书第 51–53 页顺序排列；页中的“警报术”从小法术之后起始。斜体新增项与[魔法师法术表](/books/ua/ua-magic-user-spell-table/)对应。
+以下十项依原书第 51–53 页顺序排列；页中的“魔法警报”从小法术之后起始。斜体新增项与[魔法师法术表](/books/ua/ua-magic-user-spell-table/)对应。
 
-## 警报术 Alarm（塑能系 Evocation）
+## 魔法警报 Alarm（塑能系 Evocation）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>

@@ -8,7 +8,7 @@ const numberOrNull = (value: unknown) => typeof value === 'number' && Number.isF
 
 const careerLabels: Record<string, string> = {
   fighter: '战士', 'magic-user': '魔法师', cleric: '牧师', druid: '德鲁伊',
-  paladin: '圣武士', ranger: '游侠', illusionist: '幻术师', thief: '盗贼',
+  paladin: '圣武士', ranger: '巡林客', illusionist: '幻术师', thief: '盗贼',
   assassin: '刺客', monk: '武僧', bard: '吟游诗人',
 };
 const raceLabels: Record<string, string> = {

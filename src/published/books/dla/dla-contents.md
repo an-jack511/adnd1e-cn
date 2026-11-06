@@ -2,7 +2,7 @@
 
 ### 克莱恩的天上诸界 Holy Orders of the Stars
 
-天上诸界 The Realms Above；宇宙 The Universe；宇宙的秩序 Orders of the Universe；凡人的位置 The Place of Mortals；后果律 The Law of Consequence；克莱恩上的角色 Characters in Krynn；来自彼方的旅行者 Travelers from the Beyond；可接受的角色职业 Acceptable Character Classes；克莱恩的一般限制 General Limitations in Krynn；你的阵营是什么？ What's Your Alignment?；索拉姆尼亚骑士 Knights of Solamnia；侏儒发明家 Tinkers (Gnomes)；魔法使用者与高等法术 Wizards of High Sorcery。
+天上诸界 The Realms Above；宇宙 The Universe；宇宙的秩序 Orders of the Universe；凡人的位置 The Place of Mortals；后果律 The Law of Consequence；克莱恩上的角色 Characters in Krynn；来自彼方的旅行者 Travelers from the Beyond；可接受的角色职业 Acceptable Character Classes；克莱恩的一般限制 General Limitations in Krynn；你的阵营是什么？ What's Your Alignment?；索兰尼亚骑士团（Knights of Solamnia）；侏儒发明家 Tinkers (Gnomes)；魔法使用者与高等法术 Wizards of High Sorcery。
 
 ### 星辰神圣教团 Holy Orders of the Stars
 

@@ -36,7 +36,7 @@ import directory from '../../data/public/book-directory.json';
       shown = list.children.length; more.hidden = shown >= hits.length;
     }
     function search() {
-      const words = query.value.trim().toLowerCase().replace(/巡林客/g,'游侠').split(/\s+/).filter(Boolean);
+      const words = query.value.trim().toLowerCase().replace(/巡林客/g,'巡林客').split(/\s+/).filter(Boolean);
       hits = entries.filter(e => (kind.value === '全部' || e.kind === kind.value) && matchesChoices(checkedValues('book'),[e.book])
         && words.every(w => [e.title,e.book,e.source,e.text].join(' ').toLowerCase().includes(w)));
       const score = (e:RecordEntry) => words.filter(w => e.title.toLowerCase().includes(w)).length;

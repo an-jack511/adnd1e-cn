@@ -8,7 +8,7 @@
 
 ## Sir Palomides 与 King Pellinore
 
-<strong>Sir Palomides the Saracen</strong> 是 Sir Tristram 的苦战宿敌，因弯刀的迅速与战场勇气闻名，也擅长使用骑士通常不用的复合弓。AC 2，93 点生命值，16 级战士兼 3 级僧侣／吟游诗人，中立；力量 17，敏捷 18，魅力 18。
+<strong>Sir Palomides the Saracen</strong> 是 Sir Tristram 的苦战宿敌，因弯刀的迅速与战场勇气闻名，也擅长使用骑士通常不用的复合弓。AC 2，93 点生命值，16 级战士兼 3 级武僧／吟游诗人，中立；力量 17，敏捷 18，魅力 18。
 
 <strong>King Pellinore</strong> 是“追寻野兽”的骑士，守序中立，AC −2，65 点生命值，12 级战士。他在亚瑟王朝已过中年，仍是强健的战士；他的家族世代追猎神秘而独一无二的 <strong>Questing Beast</strong>，却注定永远无法真正捕获它。
 

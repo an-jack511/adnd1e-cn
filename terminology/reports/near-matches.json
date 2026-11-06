@@ -1336,7 +1336,7 @@
   {
     "key": "item:staff sling bullet",
     "en": "Staff Sling Bullet",
-    "currentZh": "长柄投石索铅弹",
+    "currentZh": "长柄投石索子弹",
     "candidates": [
       {
         "en": "Sling Bullet",
@@ -1568,6 +1568,34 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:al-mi'raj",
+    "en": "Al-Mi’raj",
+    "currentZh": "独角兔",
+    "candidates": [
+      {
+        "en": "Almiraj",
+        "zh": "独角兔",
+        "similarity": 0.875,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-toa.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:amon",
+    "en": "Amon",
+    "currentZh": "阿蒙",
+    "candidates": [
+      {
+        "en": "Mammon",
+        "zh": "玛门",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:anhkheg",
     "en": "Anhkheg",
     "currentZh": "安克赫格",
@@ -1576,7 +1604,7 @@
         "en": "Ankheg",
         "zh": "掘地虫",
         "similarity": 0.923,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1590,21 +1618,27 @@
         "en": "Ankylosaurus",
         "zh": "甲龙",
         "similarity": 0.818,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "monster:assassin bug",
-    "en": "Assassin Bug",
-    "currentZh": "刺客虫",
+    "key": "monster:aurak",
+    "en": "Aurak",
+    "currentZh": "奥拉克",
     "candidates": [
       {
-        "en": "Assassin",
-        "zh": "刺客",
+        "en": "Zarak",
+        "zh": "扎拉克",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wbtw.json"
+      },
+      {
+        "en": "Tarak",
+        "zh": "塔拉克",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-dosi.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1618,7 +1652,21 @@
         "en": "Barlgura",
         "zh": "恶猿魔",
         "similarity": 0.941,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:barkburr",
+    "en": "Barkburr",
+    "currentZh": "树皮刺怪",
+    "candidates": [
+      {
+        "en": "Barkburr",
+        "zh": "树皮嗡嗡",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1632,7 +1680,7 @@
         "en": "Basilisk",
         "zh": "石化蜥蜴",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1666,6 +1714,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:crystal ooze",
+    "en": "Crystal Ooze",
+    "currentZh": "水晶软泥",
+    "candidates": [
+      {
+        "en": "Crystal Golem",
+        "zh": "水晶魔像",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:cyclopskin",
     "en": "Cyclopskin",
     "currentZh": "独眼巨人近亲",
@@ -1688,7 +1750,21 @@
         "en": "Death Slaad",
         "zh": "史拉亡蟾",
         "similarity": 0.957,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:devil dog",
+    "en": "Devil Dog",
+    "currentZh": "魔犬",
+    "candidates": [
+      {
+        "en": "Devil Dog",
+        "zh": "地狱犬",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-oow.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1716,7 +1792,7 @@
         "en": "Doppelganger",
         "zh": "变形怪",
         "similarity": 0.917,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1727,10 +1803,56 @@
     "currentZh": "龙马",
     "candidates": [
       {
+        "en": "Dragon Chosen",
+        "zh": "龙选勇士",
+        "similarity": 0.88,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
+      },
+      {
+        "en": "Dragon Tortoise",
+        "zh": "龙龟",
+        "similarity": 0.815,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-cm.json"
+      },
+      {
         "en": "Draft Horse",
         "zh": "驮用马",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:dragonne",
+    "en": "Dragonne",
+    "currentZh": "龙狮兽",
+    "candidates": [
+      {
+        "en": "Dragonnel",
+        "zh": "四足亚龙",
+        "similarity": 0.941,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
+      },
+      {
+        "en": "Dragon",
+        "zh": "龙",
+        "similarity": 0.857,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-k.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:dune stalker",
+    "en": "Dune Stalker",
+    "currentZh": "沙丘追猎者",
+    "candidates": [
+      {
+        "en": "Gem Stalker",
+        "zh": "宝石追猎者",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1744,13 +1866,13 @@
         "en": "Air Elemental",
         "zh": "气元素",
         "similarity": 0.818,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       },
       {
         "en": "Fire Elemental",
         "zh": "火元素",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1782,15 +1904,15 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "monster:fog giant",
-    "en": "Fog Giant",
-    "currentZh": "雾巨人",
+    "key": "monster:firedrake",
+    "en": "Firedrake",
+    "currentZh": "火蜥龙",
     "candidates": [
       {
-        "en": "Frost Giant",
-        "zh": "霜巨人",
+        "en": "Fire Kraken",
+        "zh": "火 Kraken",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1804,7 +1926,7 @@
         "en": "Frost Giant",
         "zh": "霜巨人",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1818,19 +1940,19 @@
         "en": "Giant Ape",
         "zh": "巨猿",
         "similarity": 0.842,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      },
+      {
+        "en": "Giant Canary",
+        "zh": "巨金丝雀",
+        "similarity": 0.818,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
       },
       {
         "en": "Giant Wasp",
         "zh": "巨黄蜂",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
-      },
-      {
-        "en": "Giant Crab",
-        "zh": "巨蟹",
-        "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1844,7 +1966,21 @@
         "en": "Giant Owl",
         "zh": "巨猫头鹰",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:giant two-headed troll",
+    "en": "Giant Two-Headed Troll",
+    "currentZh": "双头巨型巨魔",
+    "candidates": [
+      {
+        "en": "Two-Headed Troll",
+        "zh": "双头巨魔",
+        "similarity": 0.842,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-oota.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1872,7 +2008,21 @@
         "en": "Githzerai Monk",
         "zh": "吉斯泽莱武僧",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:gloomwing",
+    "en": "Gloomwing",
+    "currentZh": "幽暗蛾",
+    "candidates": [
+      {
+        "en": "Gloamwing",
+        "zh": "黄昏之翼",
+        "similarity": 0.889,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ggr.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1886,7 +2036,7 @@
         "en": "Green Hag",
         "zh": "绿鬼婆",
         "similarity": 0.941,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1900,19 +2050,19 @@
         "en": "Gray Slaad",
         "zh": "史拉灰蟾",
         "similarity": 0.857,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       },
       {
         "en": "Green Slaad",
         "zh": "史拉绿蟾",
         "similarity": 0.818,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       },
       {
         "en": "Red Slaad",
         "zh": "史拉红蟾",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1923,24 +2073,86 @@
     "currentZh": "海马兽",
     "candidates": [
       {
+        "en": "Hippocamp",
+        "zh": "鱼驹",
+        "similarity": 0.9,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mot.json"
+      },
+      {
         "en": "Hippopotamus",
         "zh": "河马",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-a.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "monster:ice troll",
-    "en": "Ice Troll",
-    "currentZh": "冰巨魔",
+    "key": "monster:hordling",
+    "en": "Hordling",
+    "currentZh": "哈得斯魔裔",
     "candidates": [
       {
-        "en": "Dire Troll",
-        "zh": "恐怖巨魔",
-        "similarity": 0.842,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json"
+        "en": "Podling",
+        "zh": "荚苗",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-vrgr.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:imix",
+    "en": "Imix",
+    "currentZh": "伊密克斯",
+    "candidates": [
+      {
+        "en": "Imix",
+        "zh": "伊米西",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-pota.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:kostchtchie",
+    "en": "Kostchtchie",
+    "currentZh": "科斯彻奇",
+    "candidates": [
+      {
+        "en": "Kostchtchie",
+        "zh": "科斯彻奇",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-bgdia.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:lava children",
+    "en": "Lava Children",
+    "currentZh": "熔岩之子",
+    "candidates": [
+      {
+        "en": "Lava Child",
+        "zh": "熔岩之子",
+        "similarity": 0.87,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:lynx, giant",
+    "en": "Lynx, Giant",
+    "currentZh": "巨型猞猁",
+    "candidates": [
+      {
+        "en": "Lorwyn Giant",
+        "zh": "洛温巨人",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-lfl.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1954,7 +2166,7 @@
         "en": "Magmin",
         "zh": "火童",
         "similarity": 0.833,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1968,7 +2180,55 @@
         "en": "Gargoyle",
         "zh": "石像鬼",
         "similarity": 0.875,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:mist dragon",
+    "en": "Mist Dragon",
+    "currentZh": "雾龙",
+    "candidates": [
+      {
+        "en": "Styx Dragon",
+        "zh": "冥河龙",
+        "similarity": 0.818,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json"
+      },
+      {
+        "en": "Ghost Dragon",
+        "zh": "幽灵龙",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:mountain giant",
+    "en": "Mountain Giant",
+    "currentZh": "山巨人",
+    "candidates": [
+      {
+        "en": "Mountain Goat",
+        "zh": "高山山羊",
+        "similarity": 0.889,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-idrotf.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:nat",
+    "en": "Nat",
+    "currentZh": "纳特（低等灵）",
+    "candidates": [
+      {
+        "en": "Nat",
+        "zh": "自然",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdh.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1982,7 +2242,7 @@
         "en": "Pixie",
         "zh": "皮克精",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2002,15 +2262,49 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:ogrémoch",
+    "en": "Ogrémoch",
+    "currentZh": "奥格雷莫克",
+    "candidates": [
+      {
+        "en": "Ogrémoch",
+        "zh": "欧雷莫克",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-pota.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:olhydra",
     "en": "Olhydra",
     "currentZh": "奥尔海德拉",
     "candidates": [
       {
+        "en": "Olhydra",
+        "zh": "奥莉德拉",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-pota.json"
+      },
+      {
         "en": "Hydra",
         "zh": "多头蛇",
         "similarity": 0.833,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:otter",
+    "en": "Otter",
+    "currentZh": "水獭",
+    "candidates": [
+      {
+        "en": "Rotter",
+        "zh": "腐朽者",
+        "similarity": 0.909,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-rtg.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2024,7 +2318,7 @@
         "en": "Pseudodragon",
         "zh": "伪龙",
         "similarity": 0.96,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2044,6 +2338,40 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:sea zombie",
+    "en": "Sea Zombie",
+    "currentZh": "海尸",
+    "candidates": [
+      {
+        "en": "Ash Zombie",
+        "zh": "灰烬丧尸",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-lmop.json"
+      },
+      {
+        "en": "Strahd Zombie",
+        "zh": "施特拉德丧尸",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-cos.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:sirine",
+    "en": "Sirine",
+    "currentZh": "海妖精",
+    "candidates": [
+      {
+        "en": "Sirene",
+        "zh": "塞莲",
+        "similarity": 0.833,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:snake, giant",
     "en": "Snake, Giant",
     "currentZh": "巨蛇",
@@ -2052,7 +2380,7 @@
         "en": "Stone Giant",
         "zh": "石巨人",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2080,7 +2408,7 @@
         "en": "Specter",
         "zh": "恶灵",
         "similarity": 0.857,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2091,10 +2419,16 @@
     "currentZh": "石卫士",
     "candidates": [
       {
+        "en": "Tomb Guardian",
+        "zh": "陵墓守卫",
+        "similarity": 0.815,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-toa.json"
+      },
+      {
         "en": "Stone Giant",
         "zh": "石巨人",
         "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2108,19 +2442,19 @@
         "en": "Fire Elemental",
         "zh": "火元素",
         "similarity": 0.857,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       },
       {
         "en": "Water Elemental",
         "zh": "水元素",
         "similarity": 0.828,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       },
       {
         "en": "Air Elemental",
         "zh": "气元素",
         "similarity": 0.815,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2135,6 +2469,48 @@
         "zh": "龟人",
         "similarity": 0.833,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:vision",
+    "en": "Vision",
+    "currentZh": "幻象集合体",
+    "candidates": [
+      {
+        "en": "Sion",
+        "zh": "赛恩",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:wolfwere",
+    "en": "Wolfwere",
+    "currentZh": "化人狼",
+    "candidates": [
+      {
+        "en": "Wolfwere",
+        "zh": "狼人",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:yan-c-bin",
+    "en": "Yan-C-Bin",
+    "currentZh": "扬西宾",
+    "candidates": [
+      {
+        "en": "Yan-C-Bin",
+        "zh": "延西冰",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-pota.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2376,7 +2752,7 @@
   {
     "key": "spell:minor globe of invulnerability",
     "en": "Minor Globe of Invulnerability",
-    "currentZh": "小型无敌法球",
+    "currentZh": "小型法术无效结界",
     "candidates": [
       {
         "en": "Globe of Invulnerability",

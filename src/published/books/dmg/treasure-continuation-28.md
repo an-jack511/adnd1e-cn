@@ -13,7 +13,7 @@
 | 67–77 | 在 <strong>1"</strong>范围内侦测魔法 |
 | 78–82 | 在 <strong>½"</strong>范围内侦测密门 |
 | 83–87 | 在 <strong>1"</strong>范围内侦测隐形物体 |
-| 88–92 | 在 <strong>12"</strong>范围内物件定位术 |
+| 88–92 | 在 <strong>12"</strong>范围内物品定位术 |
 | 93–98 | 在本表再掷两次；忽略 <strong>93–00</strong> 的结果 |
 | 99–00 | 改掷“超凡能力表” |
 
@@ -23,7 +23,7 @@
 
 | 骰值 | 能力* |
 |---:|---|
-| 01–07 | 接触时施展“魅惑类人”，每日 <strong>3 次</strong> |
+| 01–07 | 接触时施展“魅惑人类”，每日 <strong>3 次</strong> |
 | 08–15 | 在 <strong>3"</strong>范围内施展“听觉术”，每日 <strong>3 次</strong>，每次持续 <strong>1 轮</strong> |
 | 16–22 | 在 <strong>3"</strong>范围内施展“千里眼”，每日 <strong>3 次</strong>，每次持续 <strong>1 轮</strong> |
 | 23–28 | 每日 <strong>2 次</strong>确定方向与深度 |

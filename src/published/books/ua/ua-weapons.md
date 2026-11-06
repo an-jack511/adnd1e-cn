@@ -14,7 +14,7 @@
 | 德鲁伊 Druid | 2 | −4 | 每 5 级 1 项 |
 | 战士 Fighter | 4 | −2 | 每 3 级 1 项 |
 | 野蛮人 Barbarian | 6 | −1 | 每 2 级 1 项 |
-| 游侠 Ranger | 3* | −2 | 每 3 级 1 项 |
+| 巡林客 Ranger | 3* | −2 | 每 3 级 1 项 |
 | 魔法师 Magic-User | 1 | −5 | 每 6 级 1 项 |
 | 幻术师 Illusionist | 1 | −5 | 每 6 级 1 项 |
 | 盗贼 Thief | 2 | −3 | 每 4 级 1 项 |
@@ -23,7 +23,7 @@
 | 武僧 Monk | 1 | −3 | 每 2 级 1 项 |
 | 吟游诗人 Bard | 5 | −2 | 每 4 级 1 项 |
 
-*原书注：*0 级骑手有 <strong>1</strong> 种熟练武器；0 级枪骑侍从有 <strong>2</strong> 种；1 级持械侍从有 <strong>3</strong> 种。骑士和游侠可选择的熟练武器另受其职业描述限制。
+*原书注：*0 级骑手有 <strong>1</strong> 种熟练武器；0 级枪骑侍从有 <strong>2</strong> 种；1 级持械侍从有 <strong>3</strong> 种。骑士和巡林客可选择的熟练武器另受其职业描述限制。
 
 ## 按武器种类列出的重量与伤害 Weight and Damage by Weapon Type
 

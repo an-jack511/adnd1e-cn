@@ -46,7 +46,7 @@
 | 13 | 水晶软泥或岛屿 Crystal Ooze or Island | 巨型雀鳝或水妖精 Gar, Giant or Nixie |
 | 14 | 海盗 Buccaneer | 梅洛 Merrow |
 | 15 | 梅洛 Merrow | 巨型啮龟 Turtle, Giant Snapping |
-| 16 | 海生巨魔 Scrag | 普通七鳃鳗 Lamprey, Normal |
+| 16 | 斯卡格 Scrag | 普通七鳃鳗 Lamprey, Normal |
 | 17 | 水妖精 Nixie | 海马 Hippocampus |
 | 18 | 大型隼 Falcon, Large | 莫克斯 Morkoth |
 | 19 | 海龙 Dragon, Sea | 巨獭 Otter, Giant |
@@ -70,7 +70,7 @@
 | 13 | 冰 Ice | 鲸 Whale |
 | 14 | 海豚 Dolphin | 海狮 Sea Lion |
 | 15 | 岛屿 Island | 库珀沁 Kopoacinth |
-| 16 | 海生巨魔 Scrag | 巨乌贼 Squid, Giant |
+| 16 | 斯卡格 Scrag | 巨乌贼 Squid, Giant |
 | 17 | 鬼火 Will-o-wisp | 章鱼 Octopus |
 | 18 | 高等海狼 Seawolf, Greater | 绿泥 Slime, Green |
 | 19 | 海豹人 Selkie | 泰坦 Titan |
@@ -80,7 +80,7 @@
 
 | 骰值 | 水面 Surface | 深水 Depths |
 | --- | --- | --- |
-| 2 | 巨型蜻蜓 Dragonfly, Giant | 泥人 Mud-man |
+| 2 | 巨蜻蜓 Dragonfly, Giant | 泥人 Mud-man |
 | 3 | 鲤龙 Dragon, Carp | 污泥居者 Muckdweller |
 | 4 | 蜥蜴人 Lizardman | 巨河狸 Beaver, Giant |
 | 5 | 水晶软泥 Crystal Ooze | 巨型七鳃鳗 Lamprey, Giant |
@@ -96,7 +96,7 @@
 | 15 | 巨蛙 Frog, Giant | 七鳃鳗 Lamprey |
 | 16 | 海妖精 Sirine | 鲤龙 Dragon, Carp |
 | 17 | 巨獭 Otter, Giant | 巨型雀鳝 Gar, Giant |
-| 18 | 海生巨魔 Scrag | 章鱼 Octopus |
+| 18 | 斯卡格 Scrag | 章鱼 Octopus |
 | 19 | 红龙 Dragon, Red | 藻人 Algoid |
 | 20 | 布布里巨鸟 Boobrie | 蜥蜴人及蜥蜴之王 Lizard Man with Lizard King |
 
@@ -169,8 +169,8 @@
 | 16 | 幽灵船 Ghost Ship | 巨型海生电鳗 Eel, Electric Marine |
 | 17 | 巨鲨 Shark, Giant | 特里同 Triton |
 | 18 | 雄首斯芬克斯 Sphinx, Andro- | 鲨狼人 Wereshark |
-| 19 | 恶魔魟 Ixitxachitl | 克拉肯 Kraken |
-| 20 | 特里同 Triton | 恶魔魟 Ixitxachitl |
+| 19 | 伊希鳐鱼 Ixitxachitl | 克拉肯 Kraken |
+| 20 | 特里同 Triton | 伊希鳐鱼 Ixitxachitl |
 
 ## 星界位面 与 以太位面 · Astral Plane  Ethereal Plane
 
@@ -206,7 +206,7 @@
 | 德鲁伊 Druid | 7–14 |
 | 战士 Fighter | 8–15 |
 | 圣武士 Paladin | 7–16 |
-| 游侠 Ranger | 7–16 |
+| 巡林客 Ranger | 7–16 |
 | 魔法师 Magic User | 11–20 |
 | 幻术师 Illusionist | 10–17 |
 | 盗贼 Thief | 9–16 |
@@ -251,7 +251,7 @@
 | 4 | 棕精灵 Brownie | 担子菌怪 Basidirond |
 | 5 | 格鲁加奇野精灵 Elf, Grugach | 大型无尾鞭蝎 Pedipalp, Large |
 | 6 | 库西犬 Cooshee | 蛛化精 Ettercap |
-| 7 | 小妖精 Leprechaun | 超大型蜘蛛 Spider, Huge |
+| 7 | 矮妖精 Leprechaun | 超大型蜘蛛 Spider, Huge |
 | 8 | 木精灵 Elf, Wood | 巨蜘蛛 Spider, Giant |
 | 9 | 黑熊 Bear, Black | 巨型蜈蚣 Centipede, Giant |
 | 10 | 牡鹿隼 Falcon, Stag | 大型蜘蛛 Spider, Large |

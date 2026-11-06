@@ -20,7 +20,7 @@
 
 下面列出统治深渊的主要恶魔，这份名单并不完整。地位较低、没有完全统治整个层面的恶魔，会以（L）标示为领主而不是王子；（F）表示女性。这里只详细给出其中少数恶魔的统计资料，读者需要自行研究。当然，深渊也有一些层面污秽到连最低等的恶魔贵族都不愿统治。
 
-Abraxas；Ahazu（L）；Ahrimanes；Aldinach（F）（L）；Alrunes（F）（L）；Anarazel；Ansitif；Ardat（F）（L）；Areex；Aseroth；Asima（L）；Astaroth；Azael（L）；Azazel；Barbu（F）（L）；Bayemon（L）；Bechard（L）；Baltazo（L）；巴弗灭；Cabiri（L）；Charun（L）；Dagon；狄摩高根；艾布利斯鹤；Ereshkigal；弗拉兹厄鲁；格拉兹特；Gresil（L）；Juiblex；科斯彻奇（L）；Laraie（L）；罗丝（F）；Mastiphal；Munkir（L）；Nekir（L）；Nergel（L）；Nocticula（F）；Obox-ob；奥喀斯；帕祖祖（L）；Socothbenoth；Soneillon（F）（L）；Verin（L）；Yeenoghu；Zuggtmoy（F）。
+Abraxas；Ahazu（L）；Ahrimanes；Aldinach（F）（L）；Alrunes（F）（L）；Anarazel；Ansitif；Ardat（F）（L）；Areex；Aseroth；Asima（L）；Astaroth；Azael（L）；Azazel；Barbu（F）（L）；Bayemon（L）；Bechard（L）；Baltazo（L）；巴弗灭；Cabiri（L）；Charun（L）；Dagon；狄摩高根；魔王鹤；Ereshkigal；弗拉兹厄鲁；格拉兹特；Gresil（L）；Juiblex；科斯彻奇（L）；Laraie（L）；罗丝（F）；Mastiphal；Munkir（L）；Nekir（L）；Nergel（L）；Nocticula（F）；Obox-ob；奥喀斯；帕祖祖（L）；Socothbenoth；Soneillon（F）（L）；Verin（L）；Yeenoghu；Zuggtmoy（F）。
 
 ## 深渊层面的典型居民
 
@@ -29,7 +29,7 @@ Abraxas；Ahazu（L）；Ahrimanes；Aldinach（F）（L）；Alrunes（F）（L
 | 生物 | 出现频率 | 生物 | 出现频率 |
 |---|---|---|---|
 | 阿鲁魔 | 罕见 | Hezrou（II 型） | 常见 |
-| 阿查伊莱 | 常见 | Manes | 常见 |
+| 阿卡伊拉伊 | 常见 | Manes | 常见 |
 | 巴布魔 | 不常见 | 魔蝠 | 常见 |
 | 巴尔古拉魔 | 不常见 | 掠魂魔 | 罕见 |
 | 坎比翁 | 极罕见 | Nightmare | 极罕见 |
@@ -73,7 +73,7 @@ Abraxas；Ahazu（L）；Ahrimanes；Aldinach（F）（L）；Alrunes（F）（L
 
 此外，敏捷高的 阿鲁魔 会像普通人类一样获得调整值。百分之二十五的 阿鲁魔 具有天才智力。虽然多数此类生物只能使用下面列出的有限数量的类法术魔法，但天才智力的 阿鲁魔 实际上是魔法使用者。魔法使用等级从 1 级到 12 级等概率分布。魔法使用能力是在内在能力之外的额外能力。
 
-阿鲁魔 的内在能力可以使用其中一种，每轮一次：魅惑类人、心灵感应、变形（只能变为身高和体重约等于自身的人形）以及建议术。在 12 级能力时，每种能力每天最多可以使用 3 次。任意门每天可以使用 1 次。所有 阿鲁魔 都拥有 240 英尺的超距红外视觉。
+阿鲁魔 的内在能力可以使用其中一种，每轮一次：魅惑人类、心灵感应、变形（只能变为身高和体重约等于自身的人形）以及建议术。在 12 级能力时，每种能力每天最多可以使用 3 次。任意门每天可以使用 1 次。所有 阿鲁魔 都拥有 240 英尺的超距红外视觉。
 
 除了能够使用任何种类的武器、不受普通职业限制外，阿鲁魔 还能随意从一个人身上吸取生命能量，并用其中一半恢复自己失去的生命值。此类攻击必须通过牢固接触进行，以近战命中检定成功表示。会吸取 1–8 点生命能量，获得的能量为 1–4 点，小数向上取整。
 

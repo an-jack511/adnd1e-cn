@@ -6,11 +6,11 @@
 | 2 | 命令术 Command | 圣歌术 Chant | 恒定光亮 Continual Light | 侦测谎言 Detect Lie | 通神术 Commune | 活化物件 Animate Object | 操控天气 Control Weather |
 | 3 | 造水术 Create Water | 侦测魅惑 Detect Charm | 创造食粮 Create Food & Water | 预言术 Divination | 治疗致命伤 Cure Critical Wounds | 剑刃障壁 Blade Barrier | 地震术 Earthquake |
 | 4 | 治疗轻伤 Cure Light Wounds | 寻找陷阱 Find Traps | 治疗失明 Cure Blindness | 驱魔术 Exorcise | 解除邪恶 Dispel Evil | 咒唤兽群 Conjure Animals | 异界之门 Gate |
-| 5 | 侦测邪恶 Detect Evil | 定身类人 Hold Person | 治疗疾病 Cure Disease | 降水术 Lower Water | 焰击术 Flame Strike | 寻路术 Find the Path | 圣言（渎神之语） Holy (Unholy) Word |
+| 5 | 侦测邪恶 Detect Evil | 人类定身术 Hold Person | 治疗疾病 Cure Disease | 降水术 Lower Water | 焰击术 Flame Strike | 寻找捷径 Find the Path | 圣言（渎神之语） Holy (Unholy) Word |
 | 6 | 侦测魔法 Detect Magic | 识破阵营 Know Alignment | 解除魔法 Dispel Magic | 中和毒性 Neutralize Poison | 疫病虫群 Insect Plague | 医疗术 Heal | 再生术 Regenerate |
 | 7 | 光亮术 Light | 抵抗火焰 Resist Fire | 假死术 Feign Death | 防护邪恶（10尺半径） Protection from Evil, 10' Radius | 位面转移 Plane Shift | 分水术 Part Water | 复原术 Restoration |
 | 8 | 防护邪恶 Protection from Evil | 沉默术（15尺半径） Silence, 15' Radius | 守卫刻文 Glyph of Warding | 植物交谈术 Speak with Plants | 使命术 Quest | 怪物交谈术 Speak with Monsters | 复生术 Resurrection |
-| 9 | 净化食粮 Purify Food & Drink | 延缓毒性 Slow Poison | 物件定位术 Locate Object | 蛇杖术 Sticks to Snakes | 死者复活 Raise Dead | 岩石告知术 Stone Tell | 徽记术 Symbol |
+| 9 | 净化食粮 Purify Food & Drink | 延缓毒性 Slow Poison | 物品定位术 Locate Object | 蛇杖术 Sticks to Snakes | 死者复活 Raise Dead | 岩石告知术 Stone Tell | 徽记术 Symbol |
 | 10 | 移除恐惧 Remove Fear | 蛇类魅惑 Snake Charm | 祈祷术 Prayer | 巧言术 Tongues | 真知术 True Seeing | 回返真言 Word of Recall | 御风而行 Wind Walk |
 | 11 | 抵抗寒冷 Resist Cold | 动物交谈术 Speak with Animals | 移除诅咒 Remove Curse |  |  |  |  |
 | 12 | 庇护术 Sanctuary | 灵体战锤 Spiritual Hammer | 死者交谈 Speak with Dead |  |  |  |  |
@@ -20,7 +20,7 @@
 | 编号 Number | 一环 1st Level | 二环 2nd Level | 三环 3rd Level | 四环 4th Level | 五环 5th Level | 六环 6th Level | 七环 7th Level |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 动物友好 Animal Friendship | 树肤术 Barkskin | 召雷术 Call Lightning | 召唤动物 I Animal Summoning I | 动物异变 Animal Growth | 召唤动物 III Animal Summoning III | 活化岩石 Animate Rock |
-| 2 | 侦测魔法 Detect Magic | 魅惑类人或哺乳动物 Charm Person or Mammal | 治疗疾病 Cure Disease | 召唤林地生物 Call Woodland Beings | 召唤动物 II Animal Summoning II | 反动物护罩 Anti-Animal Shell | 萨斯塔尔战车 Chariot of Sustarre |
+| 2 | 侦测魔法 Detect Magic | 魅惑人类或哺乳动物 Charm Person or Mammal | 治疗疾病 Cure Disease | 召唤林地生物 Call Woodland Beings | 召唤动物 II Animal Summoning II | 反动物护罩 Anti-Animal Shell | 萨斯塔尔战车 Chariot of Sustarre |
 | 3 | 侦测陷阱与坑洞 Detect Snares & Pits | 造水术 Create Water | 动物定身术 Hold Animal | 控制温度（10尺半径） Control Temperature, 10' Radius | 反植物护罩 Anti-Plant Shell | 召唤火元素 Conjure Fire Elemental | 困惑术 Confusion |
 | 4 | 纠缠术 Entangle | 治疗轻伤 Cure Light Wounds | 中和毒性 Neutralize Poison | 治疗重伤 Cure Serious Wounds | 自然通感 Commune with Nature | 治疗致命伤 Cure Critical Wounds | 召唤土元素 Conjure Earth Elemental |
 | 5 | 妖火术 Faerie Fire | 假死术 Feign Death | 植物滋长 Plant Growth | 解除魔法 Dispel Magic | 操控风力 Control Winds | 弱智术 Feeblemind | 操控天气 Control Weather |
@@ -38,7 +38,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | 影响普通火焰 Affect Normal Fires | 魔法声响 Audible Glamer | 闪现术 Blink | 魅惑怪物 Charm Monster | 空气化水 Airy Water |
 | 2 | 燃烧之手 Burning Hands | 恒定光亮 Continual Light | 锐耳术 Clairaudience | 困惑术 Confusion | 动物异变 Animal Growth |
-| 3 | 魅惑类人 Charm Person | 黑暗术（15尺半径） Darkness, 15' Radius | 鹰眼术 Clairvoyance | 掘地术 Dig | 活化死尸 Animate Dead |
+| 3 | 魅惑人类 Charm Person | 黑暗术（15尺半径） Darkness, 15' Radius | 鹰眼术 Clairvoyance | 掘地术 Dig | 活化死尸 Animate Dead |
 | 4 | 通晓语言 Comprehend Languages | 侦测邪恶 Detect Evil | 解除魔法 Dispel Magic | 任意门 Dimension Door | 毕格比护身掌 Bigby's Interposing Hand |
 | 5 | 舞光术 Dancing Lights | 侦测隐形 Detect Invisibility | 爆裂符文 Explosive Runes | 附魔武器 Enchanted Weapon | 死云术 Cloudkill |
 | 6 | 侦测魔法 Detect Magic | 超感知觉 ESP | 假死术 Feign Death | 法术延展 I Extension I | 咒唤元素 Conjure Elemental |
@@ -47,9 +47,9 @@
 | 9 | 羽落术 Feather Fall | 隐形术 Invisibility | 飞行术 Fly | 火焰护盾 Fire Shield | 扭曲距离 Distance Distortion |
 | 10 | 寻找魔宠 Find Familiar | 敲击术 Knock | 造风术 Gust of Wind | 火焰陷阱 Fire Trap | 法术延展 II Extension II |
 | 11 | 交友术 Friends | 李欧蒙的陷阱 Leomund's Trap | 加速术 Haste | 失手术 Fumble | 弱智术 Feeblemind |
-| 12 | 封门术 Hold Portal | 浮空术 Levitate | 定身类人 Hold Person | 幻景 Hallucinatory Terrain | 定身怪物 Hold Monster |
-| 13 | 鉴定术 Identify | 物件定位术 Locate Object | 红外视觉 Infravision | 冰风暴 Ice Storm | 李欧蒙的秘藏箱 Leomund's Secret Chest |
-| 14 | 跳跃术 Jump | 魔嘴术 Magic Mouth | 隐形术（10尺半径） Invisibility, 10' Radius | 群体变形 Massmorph | 魔魂壶 Magic Jar |
+| 12 | 封门术 Hold Portal | 浮空术 Levitate | 人类定身术 Hold Person | 幻景 Hallucinatory Terrain | 怪物定身术 Hold Monster |
+| 13 | 鉴定术 Identify | 物品定位术 Locate Object | 红外视觉 Infravision | 冰风暴 Ice Storm | 李欧蒙的秘藏箱 Leomund's Secret Chest |
+| 14 | 跳跃术 Jump | 魔嘴 Magic Mouth | 隐形术（10尺半径） Invisibility, 10' Radius | 群体变形 Massmorph | 魔魂壶 Magic Jar |
 | 15 | 光亮术 Light | 镜影术 Mirror Image | 李欧蒙小屋 Leomund's Tiny Hut | 次级法术无效结界 Minor Globe of Invulnerability | 怪物召唤 III Monster Summoning III |
 | 16 | 魔法飞弹 Magic Missile | 烟火术 Pyrotechnics | 闪电束 Lightning Bolt | 怪物召唤 II Monster Summoning II | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
 | 17 | 修复术 Mending | 衰弱射线 Ray of Enfeeblement | 怪物召唤 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
@@ -108,7 +108,7 @@
 | 6 | 侦测幻象 Detect Illusion | 催眠图纹 Hypnotic Pattern | 幻文术 Illusionary Script | 次级创造术 Minor Creation | 阴影门 Shadow Door | 幽影术 Shades | 一环魔法师法术 First Level Magic-User Spells |
 | 7 | 侦测隐形 Detect Invisibility | 强化魅影之力 Improved Phantasmal Force | 隐形术（10尺半径） Invisibility, 10' Radius | 魅影杀手 Phantasmal Killer | 阴影魔法 Shadow Magic | 真实视觉 True Sight |  |
 | 8 | 凝视反射 Gaze Reflection | 隐形术 Invisibility | 回避侦测 Non-detection | 阴影怪物 Shadow Monsters | 召唤阴影 Summon Shadow | 隐匿之纱 Veil |  |
-| 9 | 催眠术 Hypnotism | 魔嘴术 Magic Mouth | 麻痹术 Paralyzation |  |  |  |  |
+| 9 | 催眠术 Hypnotism | 魔嘴 Magic Mouth | 麻痹术 Paralyzation |  |  |  |  |
 | 10 | 光亮术 Light | 镜影术 Mirror Image | 魔绳术 Rope Trick |  |  |  |  |
 | 11 | 魅影之力 Phantasmal Force | 误导术 Misdirection | 幽灵之力 Spectral Force |  |  |  |  |
 | 12 | 雾墙术 Wall of Fog | 腹语术 Ventriloquism | 暗示术 Suggestion |  |  |  |  |

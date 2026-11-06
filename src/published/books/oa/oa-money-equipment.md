@@ -40,10 +40,10 @@
 |职业|初始资金|
 |---|---|
 |修贤者|1–5 tael（或 ch'ao）+ 2–20 yuan + 1–100 fen|
-|僧侣|4–40 yuan + 2–200 fen|
+|武僧|4–40 yuan + 2–200 fen|
 |僧兵|1–10 tael（或 ch'ao）+ 4–40 yuan|
 |剑圣|1–4 ch'ien + 1–10 tael（或 ch'ao）|
-|东方蛮族|1–6 tael（或 ch'ao）+ 1–100 yuan|
+|东方野蛮人|1–6 tael（或 ch'ao）+ 1–100 yuan|
 |兵士|1–4 tael（或 ch'ao）+ 4–40 yuan + 2–200 fen|
 |巫人|1–3 ch'ien + 2–20 tael（或 ch'ao）|
 |忍者*|1–2 ch'ien|

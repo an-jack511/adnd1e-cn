@@ -288,7 +288,7 @@
 
 除上述数据外，此术与魔法师二环隐形术相同。
 
-### *魔嘴术 Magic Mouth*（变化系 Alteration）
+### *魔嘴 Magic Mouth*（变化系 Alteration）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
@@ -300,7 +300,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-此术与魔法师二环魔嘴术相同。
+此术与魔法师二环魔嘴相同。
 
 ### *镜影术 Mirror Image*（幻象系 Illusion/Phantasm）
 
@@ -663,7 +663,7 @@
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
-此术类似德鲁伊七环困惑术，但影响范围内所有生物都会在法术持续期间陷入困惑。只有非圣武士、非游侠的战士以及幻术师能够抵抗此术效果，因此只有这些职业可以进行豁免检定。不会施法且智力不高于4（半智能）的怪物也可进行豁免检定。材料成分是一枚小铜盘和一根小铁棒。
+此术类似德鲁伊七环困惑术，但影响范围内所有生物都会在法术持续期间陷入困惑。只有非圣武士、非巡林客的战士以及幻术师能够抵抗此术效果，因此只有这些职业可以进行豁免检定。不会施法且智力不高于4（半智能）的怪物也可进行豁免检定。材料成分是一枚小铜盘和一根小铁棒。
 
 ### *半阴影怪物 Demi-Shadow Monsters*（幻象系 Illusion/Phantasm）
 
@@ -833,7 +833,7 @@
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
-此术会预先设置一个幽灵之力，使其在施法者下令或指定条件发生时启动（参见魔嘴术）。幻象最多持续施法者每级1轮。
+此术会预先设置一个幽灵之力，使其在施法者下令或指定条件发生时启动（参见魔嘴）。幻象最多持续施法者每级1轮。
 
 ### *幽影术 Shades*（幻象系 Illusion/Phantasm）
 
@@ -980,7 +980,7 @@
 |:---:|:---:|
 | 正常火焰术 Affect Normal Fires | 修复术 Mending |
 | 燃烧之手 Burning Hands | 传讯术 Message |
-| 魅惑类人术 Charm Person | 诺斯特鲁魔法灵光术 Nystul's Magic Aura |
+| 魅惑人类术 Charm Person | 诺斯特鲁魔法灵光术 Nystul's Magic Aura |
 | 通晓语言术 Comprehend Languages | 防护邪恶术 Protection from Evil |
 | 扩大术 Enlarge | 阅读魔法术 Read Magic |
 | 抹消术 Erase | 护盾术 Shield |

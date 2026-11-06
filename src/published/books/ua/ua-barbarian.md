@@ -64,7 +64,7 @@
 
 <strong>野外技艺。</strong> 如同 <strong>3 级德鲁伊</strong>侦测植物与动物、辨别方向，并以相当于 3 级德鲁伊施展相应法术的方式预测天气。
 
-<strong>追踪。</strong> 追踪能力等同于同等级游侠，但野蛮人只能在<strong>户外</strong>追踪。
+<strong>追踪。</strong> 追踪能力等同于同等级巡林客，但野蛮人只能在<strong>户外</strong>追踪。
 
 ## 第三类能力与故土
 

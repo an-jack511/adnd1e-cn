@@ -20,7 +20,7 @@
 
 | | |
 |:---|:---|
-| 警报术 Alarm | 魔法嘴 Magic Mouth |
+| 魔法警报 Alarm | 魔法嘴 Magic Mouth |
 | 深口袋 Deeppockets | 保存术 Preserve |
 | 解除魔法 Dispel Magic | 虹光法球 Prismatic Sphere |
 | 变巨术 Enlarge | 臭云术 Stinking Cloud |

@@ -1,5 +1,5 @@
 
-## 奈落（主要神） Nerull (Major Deity)
+## 奈落（主要神） 奈落（Nerull） (Major Deity)
 
 AL 中立邪恶；WAL 任意邪恶；SoC 死亡、黑暗、地下世界；SY 头骨与镰刀；CR 铁锈红；PN 塔耳塔洛斯。
 

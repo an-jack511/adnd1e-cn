@@ -9,22 +9,22 @@
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
 | 鸟羽人 | Lawrence Schick | 8 |
-| 阿查伊莱 | Roger Musson | 9 |
+| 阿卡伊拉伊 | Roger Musson | 9 |
 | 黏附怪 | Guy Shearer | 9 |
 | 神罚化身 | Alessandro Martelli | 11 |
 | 藻人 | Mike Ferguson | 11 |
 | 独角兔 | Roger Musson | 11 |
 | 幻灵 | Underworld Oracle | 12 |
-| 刺客虫 | Ian Livingstone | 12 |
+| 暗杀虫 | Ian Livingstone | 12 |
 | 星界搜寻者 | Tom Moldvay | 13 |
 | 喋喋怪 | Jeremy Goodwin and Ian McDowall | 13 |
-| 灾祸小虫——见 杰姆莱恩 | - | - |
+| 灾祸小虫——见 杰莱鼠 | - | - |
 | 巨型蝙蝠 | Lewis Pulsipher | 14 |
 | 分灵妖 | Albie Fiore | 14 |
 | Bird-man——见 鸟羽人 | - | - |
 | 黑加巴格——见 加巴格 | - | - |
 | 黑海胆——见 海胆 | - | - |
-| 炫目蛙怪 | Roger Musson | 15 |
+| 炫目者 | Roger Musson | 15 |
 | 血鹰 | Ian Livingstone | 15 |
 | 巨型血虫 | Ian Livingstone | 15 |
 | 史拉蓝蟾——见 史拉蟾 | - | - |
@@ -45,7 +45,7 @@
 | 棺尸 | Simon Eaton | 19 |
 | Coiled 龙——见 东方龙 | - | - |
 | 蟹人 | Ian Livingstone | 21 |
-| 克里奥纳克斯——见 邪恶元素王子 | - | - |
+| 克里欧纳克斯——见 邪恶元素王子 | - | - |
 | 墓穴怪 | Roger Musson | 21 |
 | 达孔猿人 | Ian McDowall | 22 |
 | 黑暗潜伏者 | Rik Shepherd | 22 |
@@ -68,7 +68,7 @@
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
 | 魔犬 | Louis Boschelli | 26 |
-| 凶暴鸦人 | Jeff Wyndham | 26 |
+| 恶鸦人 | Jeff Wyndham | 26 |
 | 消魔兽 | Roger Musson | 27 |
 | 厄运蝠 | Julian Lawrence | 27 |
 | 东方龙 | David Sweet | 27 |
@@ -83,7 +83,7 @@
 | 沙丘追猎者 | Ian Livingstone | 30 |
 | 地龙——见 东方龙 | - | - |
 | 邪恶元素王子 | Lewis Pulsipher | 31 |
-| ↳ 克里奥纳克斯——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
+| ↳ 克里欧纳克斯——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
 | ↳ 伊密克斯——Prince of evil fire creatures（火焰生物的邪恶王子） | - | 31 |
 | ↳ Ogremoch——Prince of evil earth creatures（土元素生物的邪恶王子） | - | 32 |
 | ↳ 奥尔海德拉——Princess of evil water creatures（水元素生物的邪恶公主） | - | 32 |
@@ -93,7 +93,7 @@
 | 包裹怪 | Underworld Oracle | 34 |
 | 伊特怪 | David Taylor | 35 |
 | 杀目兽 | Ian Livingstone | 35 |
-| 恐惧烈焰之眼 | Hugh Kernohan | 35 |
+| 火惧之眼 | Hugh Kernohan | 35 |
 | 火蜥龙 | Dave Waring | 36 |
 | 火魔蝠——见 魔蝠 | - | - |
 | 火蜥人 | Albie Fiore | 36 |
@@ -103,7 +103,7 @@
 | 弗林德鬣狗人 | J. D. Morris | 39 |
 | 呋噜 | Ian McDowall and Douglas Naismith | 39 |
 | 雾巨人——见 巨人 | - | - |
-| 弗拉伦 | Ian Livingstone | 39 |
+| 魔羊人 | Ian Livingstone | 39 |
 | 霜人 | Julian Lawrence | 40 |
 | 加尔崔特 | Trevor Graver | 40 |
 | 骷髅弹兽 | Simon Shaw | 41 |
@@ -119,7 +119,7 @@
 | 巨型巨魔——见 巨魔 | - | - |
 | 双头巨型巨魔——见 巨魔 | - | - |
 | 阔步鸟 | Albie Fiore | 42 |
-| 胡言兽 | Underworld Oracle | 43 |
+| 呱呱精 | Underworld Oracle | 43 |
 | 吉斯洋基人 | Charles Stross | 43 |
 | 吉斯泽莱人 | Charles Stross | 45 |
 | 金币虫 | David Taylor | 46 |
@@ -150,14 +150,14 @@
 | 伊密克斯——见 邪恶元素王子 | - | - |
 | 变形兽 | Andrew Key | 52 |
 | 钢铁眼镜蛇 | Philip Masters | 52 |
-| 标枪蛇 | Philip Masters | 53 |
-| 杰姆莱恩 | Gary Gygax | 53 |
-| 灾祸小妖——见 杰姆莱恩 | - | - |
-| 卡玛丹蛇豹 | Nick Louth | 55 |
+| 幻色蛇 | Philip Masters | 53 |
+| 杰莱鼠 | Gary Gygax | 53 |
+| 灾祸小妖——见 杰莱鼠 | - | - |
+| 六岐蛇豹 | Nick Louth | 55 |
 | 水鬼 | Lawrence Schick | 55 |
 | 鸦人 | Rik Shepherd | 56 |
-| 卡格拉 | Lawrence Schick | 56 |
-| 基尔莫利斯 | Gary Gygax | 57 |
+| 土鱼 | Lawrence Schick | 56 |
+| 旅居仙 | Gary Gygax | 57 |
 | 寇涛 | Gary Gygax | 57 |
 | 拉迷亚贵族 | Philip Masters | 59 |
 | 熔岩之子 | Jim Donohoe | 61 |
@@ -178,13 +178,13 @@
 | ↳ Smoke | - | 64 |
 | ↳ Steam | - | 65 |
 | 夹层魔 | Gary Gygax | 66 |
-| 小蠹怪 | Ian Livingstone | 66 |
+| 螨精 | Ian Livingstone | 66 |
 | 山巨人——见 巨人 | - | - |
 | 死灵蛇构装体 | Simon Tilbrook | 67 |
 | 针叶人 | Trevor Graver | 67 |
 | 林布哥 | Roger Musson | 67 |
 | 九尾猫 | Dean Lockwood and P. S. Barton | 68 |
-| 诺克地精 | J. D. Morris | 68 |
+| 诺克 | J. D. Morris | 68 |
 | 夜魔 | Gary Gygax | 69 |
 | Ogremoch——见 邪恶元素王子 | - | - |
 | 食人魔混血种 | R. K. R. Chilman | 70 |
@@ -214,7 +214,7 @@
 | Salaman——见 火蜥人 | - | - |
 | 沙人 | Roger Musson | 77 |
 | 稻草人 | Roger Musson | 77 |
-| 尖啸小魔 | Philip Masters | 77 |
+| 尖叫小鬼 | Philip Masters | 77 |
 | Sea 龙——见 东方龙 | - | - |
 | 幽影恶魔 | Neville White | 78 |
 | 尸衣食尸鬼 | David Wormell | 78 |
@@ -282,10 +282,10 @@
 | 鞭草 | Bob Scurfield | 94 |
 | 枯臭兽 | Jonathan Jones | 95 |
 | 枯萎草 | Simon Eaton | 95 |
-| 希尔虫人 | Brian Asbury | 96 |
+| 希尔 | Brian Asbury | 96 |
 | 法特怪 | Cricky Hitchcock | 96 |
 | 扬西宾——见 邪恶元素王子 | - | - |
-| 黄麝香蔓 | Albie Fiore | 97 |
+| 黄迷香爬藤 | Albie Fiore | 97 |
 | 黄麝香僵尸——见 黄麝香僵尸 | - | - |
 | 黄海胆——见 海胆 | - | - |
 | 耶戈尔——见 史拉蟾 | - | - |

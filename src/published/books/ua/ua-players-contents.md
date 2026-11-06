@@ -19,7 +19,7 @@
   - 德鲁伊 Druid——16
   - 战士 Fighter——18
     - 野蛮人 Barbarian——18
-    - 游侠 Ranger——21
+    - 巡林客 Ranger——21
   - 盗贼 Thief——22
     - 杂技盗贼 Thief-Acrobat——23
 - 金钱（骑士） Money (for cavaliers)——25
@@ -59,7 +59,7 @@
 - 杂技盗贼表 I／II／III／IV Thief-Acrobat Tables I–IV——23、25、25、25
 - 盗贼表 II Thieves Table II——22
 - 武器熟练表 Weapon Proficiency Table——26
-- 战士与游侠武器专精表 Weapon Specialization Table for Fighters and Rangers——18
+- 战士与巡林客武器专精表 Weapon Specialization Table for Fighters and Rangers——18
 - 武器重量及分类伤害 Weapons, Weight and Damage by Type——26
 - 手持武器通用资料与命中调整 Weapons, Hand-held, General Data and “To Hit” Adjustments——27
 - 投掷与射击武器通用资料与命中调整 Weapons, Hurled and Missile, General Data and “To Hit” Adjustments——28

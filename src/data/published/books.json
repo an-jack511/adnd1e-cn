@@ -1868,7 +1868,7 @@
     "title": "药水表",
     "titleEn": "",
     "group": "附录续页",
-    "excerpt": "药水表 Potions Table 职业 每级拥有药水概率 最多药水数 可选药水类型 --- ---: ---: --- 牧师 6% 1 攀爬、缩小、强效治疗、火焰抗性、飞行、气化、放大、治疗、隐形、自我变形 德鲁伊 11% 2 同上 战士 8% 1 同上 圣武士 6% 1 同上 游侠 7% 1 同上 魔法师 10% 3 同上 幻术师 1",
+    "excerpt": "药水表 Potions Table 职业 每级拥有药水概率 最多药水数 可选药水类型 --- ---: ---: --- 牧师 6% 1 攀爬、缩小、强效治疗、火焰抗性、飞行、气化、放大、治疗、隐形、自我变形 德鲁伊 11% 2 同上 战士 8% 1 同上 圣武士 6% 1 同上 巡林客 7% 1 同上 魔法师 10% 3 同上 幻术师 1",
     "sourceFile": "manuscript/dmg/topics/appendix-p-creating-party-2.md"
   },
   {
@@ -1913,7 +1913,7 @@
     "title": "念珠项链",
     "titleEn": "",
     "group": "补充篇页",
-    "excerpt": "念珠项链 Necklace of Prayer Beads 这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与游侠）才能察觉其魔力。念珠项链由 25–30 颗 半宝石（ 60% ）或奇异宝石（ 40% ）组成。穿戴者向神祇祈求并获得所需",
+    "excerpt": "念珠项链 Necklace of Prayer Beads 这类魔法项链看起来像普通且不值钱的首饰，直到戴上后才会显露真实性质；而且只有牧师（不包括德鲁伊，也不包括其他能施展牧师或德鲁伊法术的角色，例如圣武士与巡林客）才能察觉其魔力。念珠项链由 25–30 颗 半宝石（ 60% ）或奇异宝石（ 40% ）组成。穿戴者向神祇祈求并获得所需",
     "sourceFile": "manuscript/dmg/topics/treasure-continuation-12.md"
   },
   {
@@ -3098,10 +3098,10 @@
   {
     "book": "mm",
     "slug": "mm-ixitxachitl",
-    "title": "恶魔魟",
+    "title": "伊希鳐鱼",
     "titleEn": "Ixitxachitl",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 10–100 护甲等级 6 移动力 12 寸 生命骰 1+1 在巢穴概率 60% 财宝类型 见下文 攻击次数 1 次 攻击伤害 3–12 特殊攻击 邪恶牧师法术 特殊防御 无 魔法抗性 标准 智力 一般至高 阵营 混乱邪恶 体型 M 灵能能力 无 恶魔魟是生活在热带浅海的智慧鳐鱼种族",
+    "excerpt": "项目 数据 --- --- 出现频率 极罕见 出现数量 10–100 护甲等级 6 移动力 12 寸 生命骰 1+1 在巢穴概率 60% 财宝类型 见下文 攻击次数 1 次 攻击伤害 3–12 特殊攻击 邪恶牧师法术 特殊防御 无 魔法抗性 标准 智力 一般至高 阵营 混乱邪恶 体型 M 灵能能力 无 伊希鳐鱼是生活在热带浅海的智慧鳐鱼种族",
     "sourceFile": "manuscript/mm/topics/ixitxachitl.md"
   },
   {
@@ -3179,10 +3179,10 @@
   {
     "book": "mm",
     "slug": "mm-leprechaun",
-    "title": "小妖精",
+    "title": "矮妖精",
     "titleEn": "Leprechaun",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1，或 1–20 护甲等级 8 移动力 15 寸 生命骰 2–5 在巢穴概率 10% 财宝类型 F 攻击次数 不进行常规攻击 攻击伤害 无常规攻击 特殊攻击 见下文 特殊防御 见下文 魔法抗性 80% 智力 卓越 阵营 中立 体型 S（高 2 尺） 灵能能力 无 小妖精通常只住在风景",
+    "excerpt": "项目 数据 --- --- 出现频率 不常见 出现数量 1，或 1–20 护甲等级 8 移动力 15 寸 生命骰 2–5 在巢穴概率 10% 财宝类型 F 攻击次数 不进行常规攻击 攻击伤害 无常规攻击 特殊攻击 见下文 特殊防御 见下文 魔法抗性 80% 智力 卓越 阵营 中立 体型 S（高 2 尺） 灵能能力 无 矮妖精通常只住在风景",
     "sourceFile": "manuscript/mm/topics/leprechaun.md"
   },
   {
@@ -3233,10 +3233,10 @@
   {
     "book": "mm",
     "slug": "mm-locathah",
-    "title": "洛卡萨",
+    "title": "洛卡鱼人",
     "titleEn": "Locathah",
     "group": "怪物条目",
-    "excerpt": "项目 数据 --- --- 出现频率 罕见 出现数量 20–200 护甲等级 6 移动力 12 寸 生命骰 2 在巢穴概率 10% 财宝类型 A 攻击次数 1 次 攻击伤害 依武器 特殊攻击 无 特殊防御 无 魔法抗性 标准 智力 很高 阵营 中立 体型 M 灵能能力 无 洛卡萨是水生游牧类人生物，游荡于温暖丰饶的浅海水域，以狩猎和采集为",
+    "excerpt": "项目 数据 --- --- 出现频率 罕见 出现数量 20–200 护甲等级 6 移动力 12 寸 生命骰 2 在巢穴概率 10% 财宝类型 A 攻击次数 1 次 攻击伤害 依武器 特殊攻击 无 特殊防御 无 魔法抗性 标准 智力 很高 阵营 中立 体型 M 灵能能力 无 洛卡鱼人是水生游牧类人生物，游荡于温暖丰饶的浅海水域，以狩猎和采集为",
     "sourceFile": "manuscript/mm/topics/locathah.md"
   },
   {
@@ -3551,7 +3551,7 @@
     "title": "战士",
     "titleEn": "Fighter",
     "group": "玩家部分",
-    "excerpt": "战士 Fighter 战士职业在两方面得到扩充。其一，战士可以使用本书所述的任何新武器；其二，战士获得威力更强的 武器专精 能力。 武器专精 Weapon Specialization 只有 战士 及其子职业 游侠 可以使用武器专精。角色选择专精某一种武器，同时放弃对其他武器的广泛训练；是否专精，必须在创建角色时决定。武器专精占用 2 个",
+    "excerpt": "战士 Fighter 战士职业在两方面得到扩充。其一，战士可以使用本书所述的任何新武器；其二，战士获得威力更强的 武器专精 能力。 武器专精 Weapon Specialization 只有 战士 及其子职业 巡林客 可以使用武器专精。角色选择专精某一种武器，同时放弃对其他武器的广泛训练；是否专精，必须在创建角色时决定。武器专精占用 2 个",
     "sourceFile": "manuscript/ua/topics/fighter.md"
   },
   {
@@ -3566,10 +3566,10 @@
   {
     "book": "ua",
     "slug": "ua-ranger",
-    "title": "游侠",
+    "title": "巡林客",
     "titleEn": "Ranger",
     "group": "玩家部分",
-    "excerpt": "游侠 Ranger 战士子职业 游侠 可以使用前述战士的 武器专精 规则。此外，下列追踪、“巨人类”对手及武器使用资料，应取代或补充《玩家手册》中对应的职业描述。 追踪 Tracking 追踪主要用于户外；在特定地下或“室内”环境中，游侠也能追踪生物。 户外追踪。 基础成功率为 游侠每级 10%，另加 10% ，如 1 级为 20%、6 ",
+    "excerpt": "巡林客 Ranger 战士子职业 巡林客 可以使用前述战士的 武器专精 规则。此外，下列追踪、“巨人类”对手及武器使用资料，应取代或补充《玩家手册》中对应的职业描述。 追踪 Tracking 追踪主要用于户外；在特定地下或“室内”环境中，巡林客也能追踪生物。 户外追踪。 基础成功率为 巡林客每级 10%，另加 10% ，如 1 级为 20%、6 ",
     "sourceFile": "manuscript/ua/topics/ranger.md"
   },
   {
@@ -3578,7 +3578,7 @@
     "title": "每近战轮攻击次数表",
     "titleEn": "Attacks Per Melee Round Table",
     "group": "玩家部分",
-    "excerpt": "每近战轮攻击次数表 Attacks Per Melee Round Table 本表适用于 战士、骑士及其子职业 使用刺击或劈砍武器时的一般每轮攻击次数。使用 专精武器 的战士与游侠应改用前文的武器专精表。 职业 等级 每近战轮攻击次数 :--- :---: :---: 战士 1–6 1/1 野蛮人 1–5 1/1 游侠 1–7 1/1 ",
+    "excerpt": "每近战轮攻击次数表 Attacks Per Melee Round Table 本表适用于 战士、骑士及其子职业 使用刺击或劈砍武器时的一般每轮攻击次数。使用 专精武器 的战士与巡林客应改用前文的武器专精表。 职业 等级 每近战轮攻击次数 :--- :---: :---: 战士 1–6 1/1 野蛮人 1–5 1/1 巡林客 1–7 1/1 ",
     "sourceFile": "manuscript/ua/topics/attacks-per-melee-round.md"
   },
   {
@@ -3911,7 +3911,7 @@
     "title": "一环法术",
     "titleEn": "First Level Spells",
     "group": "玩家部分",
-    "excerpt": "魔法师一环法术 First Level Spells 以下十项依原书第 51–53 页顺序排列；页中的“警报术”从小法术之后起始。斜体新增项与魔法师法术表对应。 警报术 Alarm（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 ",
+    "excerpt": "魔法师一环法术 First Level Spells 以下十项依原书第 51–53 页顺序排列；页中的“魔法警报”从小法术之后起始。斜体新增项与魔法师法术表对应。 魔法警报 Alarm（塑能系 Evocation） 项目 数值 项目 数值 :--- :--- :--- :--- 等级 1 法术成分 言语、姿势、材料 距离 1″ 施法时间 1 ",
     "sourceFile": "manuscript/ua/topics/magic-user-spells-1.md"
   },
   {
@@ -5081,7 +5081,7 @@
     "title": "角色职业与种族",
     "titleEn": "Character Classes and Races",
     "group": "角色创建",
-    "excerpt": "原书第 11–13 页。 东方 AD&D 冒险中的每个角色都必须属于一个职业。职业类似于角色的专业，为角色提供活动位置。玩家可以从十个职业中选择：蛮族、兵士、剑士、僧侣、忍者、武士、修贤者、僧兵、巫人和义侠。 - 蛮族 是猎人、袭击者和游牧者。他们依靠本能与天赋生活，超越文明的边界。 - 兵士 是来自社会各阶层的职业士兵。 - 剑士 是最",
+    "excerpt": "原书第 11–13 页。 东方 AD&D 冒险中的每个角色都必须属于一个职业。职业类似于角色的专业，为角色提供活动位置。玩家可以从十个职业中选择：野蛮人、兵士、剑士、武僧、忍者、武士、修贤者、僧兵、巫人和义侠。 - 野蛮人 是猎人、袭击者和游牧者。他们依靠本能与天赋生活，超越文明的边界。 - 兵士 是来自社会各阶层的职业士兵。 - 剑士 是最",
     "sourceFile": "manuscript/oa/topics/classes-races.md"
   },
   {
@@ -5675,7 +5675,7 @@
     "title": "尼赫旺神话",
     "titleEn": "Nehwon Mythos",
     "group": "神话体系",
-    "excerpt": "尼赫旺是弗里茨·莱伯创造的世界，魔法与冒险交织其中。故事的核心是兰克马尔城，以及来自寒冷北方的巨大蛮族法弗赫德 Fafhrd 和来自城市底层的灰耗子 Gray Mouser。诸神大多居于星界的“众神之地（Godsland）”，从那里注视并回应各自教派。 兰克马尔的组织与通用观念 兰克马尔盗贼公会 是由城市默许的盗贼垄断组织，公会厅实际上是",
+    "excerpt": "尼赫旺是弗里茨·莱伯创造的世界，魔法与冒险交织其中。故事的核心是兰克马尔城，以及来自寒冷北方的巨大野蛮人法弗赫德 Fafhrd 和来自城市底层的灰耗子 Gray Mouser。诸神大多居于星界的“众神之地（Godsland）”，从那里注视并回应各自教派。 兰克马尔的组织与通用观念 兰克马尔盗贼公会 是由城市默许的盗贼垄断组织，公会厅实际上是",
     "sourceFile": "manuscript/ddg/topics/nehwon.md"
   },
   {
@@ -5927,7 +5927,7 @@
     "title": "尼赫旺神话",
     "titleEn": "Nehwon Mythos",
     "group": "神话体系",
-    "excerpt": "尼赫旺是 Fritz Leiber 创造的幻想世界，魔法、冒险、城市阴谋和神祇混杂在一起。Fafhrd 与 Gray Mouser 是其中最著名的双英雄：前者是来自寒冷北方的红发蛮族，后者是来自城市底层的灵巧剑客；二人共同生活在 Lankhmar，这座城市被视为世界文明最古老的中心。 Lankhmar 的组织 Lankhmar 盗贼公会 ",
+    "excerpt": "尼赫旺是 Fritz Leiber 创造的幻想世界，魔法、冒险、城市阴谋和神祇混杂在一起。Fafhrd 与 Gray Mouser 是其中最著名的双英雄：前者是来自寒冷北方的红发野蛮人，后者是来自城市底层的灵巧剑客；二人共同生活在 Lankhmar，这座城市被视为世界文明最古老的中心。 Lankhmar 的组织 Lankhmar 盗贼公会 ",
     "sourceFile": "manuscript/ll/topics/nehwon.md"
   },
   {
@@ -6143,7 +6143,7 @@
     "title": "怪物目录",
     "titleEn": "Contents",
     "group": "前置部分",
-    "excerpt": "A 鸟羽人；阿查伊莱；黏附怪；神罚化身；藻人；独角兔；幻灵；刺客虫；星界搜寻者。 B 喋喋怪；巨型蝙蝠；分灵妖；炫目蛙怪；血鹰；巨型 Bloodhawk；碎骨兽；布卡精；蛙人；本耶普水兽。 C 红宝兽；女像柱；夜嚎兽；群虫聚怪；棍喙鸟；棺尸；蟹人；墓穴怪。 D 达孔猿人；黑暗潜伏者；黑暗追猎者；亡命恶犬；死亡骑士；恶魔；丹泽利安；",
+    "excerpt": "A 鸟羽人；阿卡伊拉伊；黏附怪；神罚化身；藻人；独角兔；幻灵；暗杀虫；星界搜寻者。 B 喋喋怪；巨型蝙蝠；分灵妖；炫目者；血鹰；巨型 Bloodhawk；碎骨兽；布卡精；蛙人；本耶普水兽。 C 红宝兽；女像柱；夜嚎兽；群虫聚怪；棍喙鸟；棺尸；蟹人；墓穴怪。 D 达孔猿人；黑暗潜伏者；黑暗追猎者；亡命恶犬；死亡骑士；恶魔；丹泽利安；",
     "sourceFile": "manuscript/ff/topics/contents.md"
   },
   {
@@ -6167,19 +6167,19 @@
   {
     "book": "ff",
     "slug": "ff-achaierai-adherer",
-    "title": "阿查伊莱与黏附怪",
+    "title": "阿卡伊拉伊与黏附怪",
     "titleEn": "Achaierai and Adherer",
     "group": "怪物条目",
-    "excerpt": "阿查伊莱 · Achaierai 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–8 护甲等级 Armour Class 身体 8；腿 -1 移动 Move 18\" 生命骰 Hit Dice 身体 40 点生命值；每条腿 15 点生命值 巢穴概率 % in Lair 5% 宝藏类型 Treasure",
+    "excerpt": "阿卡伊拉伊 Achaierai 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–8 护甲等级 Armour Class 身体 8；腿 -1 移动 Move 18\" 生命骰 Hit Dice 身体 40 点生命值；每条腿 15 点生命值 巢穴概率 % in Lair 5% 宝藏类型 Treasure",
     "sourceFile": "manuscript/ff/topics/achaierai-adherer.md"
   },
   {
     "book": "ff",
     "slug": "ff-achaierai-adherer-illustration",
-    "title": "阿查伊莱与黏附怪插图",
+    "title": "阿卡伊拉伊与黏附怪插图",
     "titleEn": "Achaierai and Adherer Illustration",
     "group": "插图",
-    "excerpt": "PDF 第 11 页为整页黑白插图，无正文句子或统计表。原书插图：阿查伊莱与黏附怪。",
+    "excerpt": "PDF 第 11 页为整页黑白插图，无正文句子或统计表。原书插图：阿卡伊拉伊与黏附怪。",
     "sourceFile": "manuscript/ff/topics/achaierai-adherer-illustration.md"
   },
   {
@@ -6194,7 +6194,7 @@
   {
     "book": "ff",
     "slug": "ff-apparition-assassin-bug",
-    "title": "幻灵与刺客虫",
+    "title": "幻灵与暗杀虫",
     "titleEn": "Apparition and Assassin Bug",
     "group": "怪物条目",
     "excerpt": "幻灵 · Apparition 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–4 护甲等级 Armour Class 0 移动 Move 24\" 生命骰 Hit Dice 8 巢穴概率 % in Lair 20% 宝藏类型 Treasure Type E 攻击次数 No. of Attacks 1",
@@ -6233,7 +6233,7 @@
     "title": "Blindheim、血鹰与巨型血虫",
     "titleEn": "Blindheim, Blood Hawk, and Giant Bloodworm",
     "group": "怪物条目",
-    "excerpt": "炫目蛙怪 · Blindheim 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–4 护甲等级 Armour Class 见下文 移动 Move 9\" 生命骰 Hit Dice 4+2 巢穴概率 % in Lair 5% 宝藏类型 Treasure Type B 攻击次数 No. of Attack",
+    "excerpt": "炫目者 Blindheim 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–4 护甲等级 Armour Class 见下文 移动 Move 9\" 生命骰 Hit Dice 4+2 巢穴概率 % in Lair 5% 宝藏类型 Treasure Type B 攻击次数 No. of Attack",
     "sourceFile": "manuscript/ff/topics/blindheim-blood-hawk-bloodworm.md"
   },
   {
@@ -6287,7 +6287,7 @@
     "title": "Demon 与 Lolth",
     "titleEn": "Demon and Lolth",
     "group": "怪物条目",
-    "excerpt": "恶魔 · Demon 以下内容是《高级龙与地下城怪物图鉴》中所有恶魔共有的特征与能力；本书以编辑后的形式重印于此。 恶魔能够从自己的位面移动到塔耳塔洛斯、哈迪斯或潘多莫尼姆，也能在星界位面漫游。不过，没有帮助（咒法、异界之门、说出名字或类似手段），它们无法进入物质界。 恶魔既混乱又邪恶；更聪明、更强大的恶魔统治着那些更弱小、智力更低的同类。",
+    "excerpt": "恶魔 Demon 以下内容是《高级龙与地下城怪物图鉴》中所有恶魔共有的特征与能力；本书以编辑后的形式重印于此。 恶魔能够从自己的位面移动到塔耳塔洛斯、哈迪斯或潘多莫尼姆，也能在星界位面漫游。不过，没有帮助（咒法、异界之门、说出名字或类似手段），它们无法进入物质界。 恶魔既混乱又邪恶；更聪明、更强大的恶魔统治着那些更弱小、智力更低的同类。",
     "sourceFile": "manuscript/ff/topics/demon-lolth.md"
   },
   {
@@ -6404,7 +6404,7 @@
     "title": "Fog Giant、Mountain Giant 与 Giant Strider",
     "titleEn": "Fog Giant, Mountain Giant, and Giant Strider",
     "group": "怪物条目",
-    "excerpt": "巨人（续） · Giant (Continued) 雾巨人 · Fog Giant 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–4（很少 1–6） 护甲等级 Armour Class 7 移动 Move 15\" 生命骰 Hit Dice 7+1 巢穴概率 % in Lair 50% 宝藏类型 T",
+    "excerpt": "巨人（续） · Giant (Continued) 雾巨人 Fog Giant 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–4（很少 1–6） 护甲等级 Armour Class 7 移动 Move 15\" 生命骰 Hit Dice 7+1 巢穴概率 % in Lair 50% 宝藏类型 T",
     "sourceFile": "manuscript/ff/topics/fog-mountain-giant-strider.md"
   },
   {
@@ -6413,7 +6413,7 @@
     "title": "Gibberling 与 Githyanki",
     "titleEn": "Gibberling and Githyanki",
     "group": "种族条目",
-    "excerpt": "胡言兽 · Gibberling 项目 数值 --- --- 出现频率 不常见 出现数量 No. Appearing 40–400 护甲等级 Armour Class 10 移动 Move 9\" 生命骰 Hit Dice 1 巢穴概率 % in Lair 40% 宝藏类型 Treasure Type D 攻击次数 No. of Attac",
+    "excerpt": "呱呱精 Gibberling 项目 数值 --- --- 出现频率 不常见 出现数量 No. Appearing 40–400 护甲等级 Armour Class 10 移动 Move 9\" 生命骰 Hit Dice 1 巢穴概率 % in Lair 40% 宝藏类型 Treasure Type D 攻击次数 No. of Attac",
     "sourceFile": "manuscript/ff/topics/gibberling-githyanki.md"
   },
   {
@@ -6503,7 +6503,7 @@
     "title": "Jaculi 与 Jermlaine（Jinxkins）",
     "titleEn": "Jaculi and Jermlaine (Jinxkins)",
     "group": "怪物条目",
-    "excerpt": "标枪蛇 · Jaculi 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 11–20 护甲等级 Armour Class 6 移动 Move 9\" 生命骰 Hit Dice 1 巢穴概率 % in Lair 无 宝藏类型 Treasure Type 无 攻击次数 No. of Attacks 1 每次伤害",
+    "excerpt": "幻色蛇 Jaculi 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 11–20 护甲等级 Armour Class 6 移动 Move 9\" 生命骰 Hit Dice 1 巢穴概率 % in Lair 无 宝藏类型 Treasure Type 无 攻击次数 No. of Attacks 1 每次伤害",
     "sourceFile": "manuscript/ff/topics/jaculi-jermlaine.md"
   },
   {
@@ -6512,7 +6512,7 @@
     "title": "Kamadan 与 Kelpie",
     "titleEn": "Kamadan and Kelpie",
     "group": "怪物条目",
-    "excerpt": "卡玛丹蛇豹 · Kamadan 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 1 护甲等级 Armour Class 4 移动 Move 18\" 生命骰 Hit Dice 4+2 巢穴概率 % in Lair 20% 宝藏类型 Treasure Type C 攻击次数 No. of Attacks 3 ",
+    "excerpt": "六岐蛇豹 Kamadan 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 1 护甲等级 Armour Class 4 移动 Move 18\" 生命骰 Hit Dice 4+2 巢穴概率 % in Lair 20% 宝藏类型 Treasure Type C 攻击次数 No. of Attacks 3 ",
     "sourceFile": "manuscript/ff/topics/kamadan-kelpie.md"
   },
   {
@@ -6800,7 +6800,7 @@
     "title": "Xill 与 Xvart",
     "titleEn": "Xill and Xvart",
     "group": "怪物条目",
-    "excerpt": "希尔虫人 · Xill 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–6 护甲等级 Armour Class 0 移动 Move 15\" 生命骰 Hit Dice 5 巢穴概率 % in Lair 15% 宝藏类型 Treasure Type C 攻击次数 No. of Attacks 4 每次伤",
+    "excerpt": "希尔 Xill 项目 数值 --- --- 出现频率 极罕见 出现数量 No. Appearing 1–6 护甲等级 Armour Class 0 移动 Move 15\" 生命骰 Hit Dice 5 巢穴概率 % in Lair 15% 宝藏类型 Treasure Type C 攻击次数 No. of Attacks 4 每次伤",
     "sourceFile": "manuscript/ff/topics/xill-xvart.md"
   },
   {
@@ -6809,7 +6809,7 @@
     "title": "Yellow Musk Creeper 与 Yellow Musk Zombie",
     "titleEn": "Yellow Musk Creeper and Yellow Musk Zombie",
     "group": "怪物条目",
-    "excerpt": "黄麝香蔓 · Yellow Musk Creeper 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 1 护甲等级 Armour Class 7 移动 Move 不移动 生命骰 Hit Dice 3 巢穴概率 % in Lair 100% 宝藏类型 Treasure Type 任意 攻击次数 No. of",
+    "excerpt": "黄迷香爬藤 Yellow Musk Creeper 项目 数值 --- --- 出现频率 稀有 出现数量 No. Appearing 1 护甲等级 Armour Class 7 移动 Move 不移动 生命骰 Hit Dice 3 巢穴概率 % in Lair 100% 宝藏类型 Treasure Type 任意 攻击次数 No. of",
     "sourceFile": "manuscript/ff/topics/yellow-musk-creeper-zombie.md"
   },
   {
@@ -7079,7 +7079,7 @@
     "title": "魔鬼条目（续）",
     "titleEn": "Devils Continued",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 48–50 页（原书页码 47–49）。本主题依原书页序收录 格莱西雅、胡提金、玛门、墨菲斯托费利斯、摩洛克、劣魔、提提维鲁斯 与 刺魔。 格莱西雅 · Glasya 项目 数值 --- --- 出现频率 独一无二（极其罕见） 出现数量 1 护甲等级 -2 移动 15\"/30\"（MC：B） 生命骰 69 点生命值 ",
+    "excerpt": "原书来源页：PDF 第 48–50 页（原书页码 47–49）。本主题依原书页序收录 格莱西雅、胡提金、玛门、墨菲斯托费利斯、摩洛克、劣魔、提提维鲁斯 与 刺魔。 格莱西雅 Glasya 项目 数值 --- --- 出现频率 独一无二（极其罕见） 出现数量 1 护甲等级 -2 移动 15\"/30\"（MC：B） 生命骰 69 点生命值 ",
     "sourceFile": "manuscript/mm2/topics/devils-continued.md"
   },
   {
@@ -7124,7 +7124,7 @@
     "title": "Shadow Dragon、Giant Dragonfly 与 Dragon Horse",
     "titleEn": "Shadow Dragon, Giant Dragonfly, and Dragon Horse",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 59–60 页（原书页码 58–59）。本主题按原书顺序收录 影龙、巨型蜻蜓、龙马，保留跨页的 影龙 规则。 幽影龙 Shadow Dragon 项目 数值 --- --- 出现频率 极罕见 出现数量 1（75%）；2（25%） 护甲等级 -2 移动 18\"/24\"（MC：E） 生命骰 4–6（每骰 +1） 巢穴",
+    "excerpt": "原书来源页：PDF 第 59–60 页（原书页码 58–59）。本主题按原书顺序收录 影龙、巨蜻蜓、龙马，保留跨页的 影龙 规则。 幽影龙 Shadow Dragon 项目 数值 --- --- 出现频率 极罕见 出现数量 1（75%）；2（25%） 护甲等级 -2 移动 18\"/24\"（MC：E） 生命骰 4–6（每骰 +1） 巢穴",
     "sourceFile": "manuscript/mm2/topics/shadow-dragon-dragonfly-dragon-horse.md"
   },
   {
@@ -7133,7 +7133,7 @@
     "title": "Dragonnel、Drelb 与 Drider",
     "titleEn": "Dragonnel, Drelb, and Drider",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 61 页（原书页码 60）。本主题收录 小型翼龙、怨影守卫（怨影守卫）和 蛛化卓尔。 小型翼龙 · Dragonnel 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 3 移动 12\"/18\"（未骑乘时 MC：C；骑乘时 D） 生命骰 8+4 巢穴内百分比 10% 财宝类型 无 攻击次数 ",
+    "excerpt": "原书来源页：PDF 第 61 页（原书页码 60）。本主题收录 四足亚龙、怨影守卫（怨影守卫）和 蛛化卓尔。 四足亚龙 Dragonnel 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 3 移动 12\"/18\"（未骑乘时 MC：C；骑乘时 D） 生命骰 8+4 巢穴内百分比 10% 财宝类型 无 攻击次数 ",
     "sourceFile": "manuscript/mm2/topics/dragonnel-drelb-drider.md"
   },
   {
@@ -7151,7 +7151,7 @@
     "title": "Eagle、Eblis 与 Electric Eel",
     "titleEn": "Eagle, Eblis, and Electric Eel",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 63 页（原书页码 62）。本主题收录 鹰、艾布利斯鹤 和 电鳗（Marine）。 鹰 Eagle 项目 数值 --- --- 出现频率 罕见 出现数量 1 或 2（5–12） 护甲等级 6 移动 1\"/30\"（MC：C） 生命骰 1+3 巢穴内百分比 20% 财宝类型 见下文 攻击次数 3 每次攻击伤害 1–",
+    "excerpt": "原书来源页：PDF 第 63 页（原书页码 62）。本主题收录 鹰、魔王鹤 和 电鳗（Marine）。 鹰 Eagle 项目 数值 --- --- 出现频率 罕见 出现数量 1 或 2（5–12） 护甲等级 6 移动 1\"/30\"（MC：C） 生命骰 1+3 巢穴内百分比 20% 财宝类型 见下文 攻击次数 3 每次攻击伤害 1–",
     "sourceFile": "manuscript/mm2/topics/eagle-eblis-eel.md"
   },
   {
@@ -7178,7 +7178,7 @@
     "title": "Firefriend、Giant Fly 与 Foo Creatures",
     "titleEn": "Firefriend, Giant Fly, and Foo Creatures",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 66–67 页（原书页码 65–66）。本主题收录 火友虫、巨型苍蝇 的 丽蝇／虻 统计、福兽 的 犬／狮 统计及跨页正文。 火友虫 · Firefriend 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 4 移动 3\"/15\"（MC：B） 生命骰 1+4 巢穴内百分比 0% 财宝类型 ",
+    "excerpt": "原书来源页：PDF 第 66–67 页（原书页码 65–66）。本主题收录 火友虫、巨苍蝇 的 丽蝇／虻 统计、福兽 的 犬／狮 统计及跨页正文。 火友虫 · Firefriend 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 4 移动 3\"/15\"（MC：B） 生命骰 1+4 巢穴内百分比 0% 财宝类型 ",
     "sourceFile": "manuscript/mm2/topics/firefriend-giant-fly-foo.md"
   },
   {
@@ -7412,7 +7412,7 @@
     "title": "Mantrap、Giant Mantis 与 Margoyle",
     "titleEn": "Mantrap, Giant Mantis, and Margoyle",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 92 页（原书页码 91）。本主题收录三种生物。 食人花 · Mantrap 项目 数值 --- --- 出现频率 极罕见 出现数量 1–2 护甲等级 6 移动 无 生命骰 4–9 巢穴内百分比 100% 财宝类型 J–N（×5）、Q 攻击次数 2–5 每次攻击伤害 见下文 特殊攻击 见下文 特殊防御 无 魔法抗性",
+    "excerpt": "原书来源页：PDF 第 92 页（原书页码 91）。本主题收录三种生物。 捕人草 Mantrap 项目 数值 --- --- 出现频率 极罕见 出现数量 1–2 护甲等级 6 移动 无 生命骰 4–9 巢穴内百分比 100% 财宝类型 J–N（×5）、Q 攻击次数 2–5 每次攻击伤害 见下文 特殊攻击 见下文 特殊防御 无 魔法抗性",
     "sourceFile": "manuscript/mm2/topics/mantrap-giant-mantis-margoyle.md"
   },
   {
@@ -7448,7 +7448,7 @@
     "title": "Nereid 与 Narwhale",
     "titleEn": "Nereid and Narwhale",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 96 页（原书页码 95）。 水宁芙 · Nereid 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 10 移动 12\" 生命骰 4 巢穴内百分比 100% 财宝类型 X 攻击次数 无 每次攻击伤害 无 特殊攻击 吐唾液；控制巢穴内的水 特殊防御 接吻；魅惑男性 魔法抗性 50% 智力 ",
+    "excerpt": "原书来源页：PDF 第 96 页（原书页码 95）。 涅瑞伊德 Nereid 项目 数值 --- --- 出现频率 极罕见 出现数量 1–4 护甲等级 10 移动 12\" 生命骰 4 巢穴内百分比 100% 财宝类型 X 攻击次数 无 每次攻击伤害 无 特殊攻击 吐唾液；控制巢穴内的水 特殊防御 接吻；魅惑男性 魔法抗性 50% 智力 ",
     "sourceFile": "manuscript/mm2/topics/nereid-narwhale.md"
   },
   {
@@ -7682,7 +7682,7 @@
     "title": "Tasloi 与 Giant Harvester Termite",
     "titleEn": "Tasloi and Giant Harvester Termite",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 119–120 页（原书页码 118–119）。 塔斯罗伊人 · Tasloi 项目 数值 --- --- 出现频率 稀有 出现数量 10–100 护甲等级 6（持盾为 5） 移动 9\"（树上 15\"） 生命骰 1 巢穴内百分比 30% 财宝类型 Q（×5） 攻击次数 2 或 1 每次攻击伤害 1–3／1–3，或依",
+    "excerpt": "原书来源页：PDF 第 119–120 页（原书页码 118–119）。 塔斯洛伊 Tasloi 项目 数值 --- --- 出现频率 稀有 出现数量 10–100 护甲等级 6（持盾为 5） 移动 9\"（树上 15\"） 生命骰 1 巢穴内百分比 30% 财宝类型 Q（×5） 攻击次数 2 或 1 每次攻击伤害 1–3／1–3，或依",
     "sourceFile": "manuscript/mm2/topics/tasloi-termites.md"
   },
   {
@@ -7691,7 +7691,7 @@
     "title": "Thessalhydra 与 Thri-kreen",
     "titleEn": "Thessalhydra and Thri-kreen",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 120 页（原书页码 119）。 塞萨尔多头怪 · Thessalhydra 项目 数值 --- --- 出现频率 稀有 出现数量 1 护甲等级 0 移动 12\" 生命骰 身体 12 巢穴内百分比 50% 财宝类型 见下文 攻击次数 最多 10 每次攻击伤害 1–6（×8）／1–12／1–20 特殊攻击 酸性唾液、",
+    "excerpt": "原书来源页：PDF 第 120 页（原书页码 119）。 特萨尔蛇蜥 Thessalhydra 项目 数值 --- --- 出现频率 稀有 出现数量 1 护甲等级 0 移动 12\" 生命骰 身体 12 巢穴内百分比 50% 财宝类型 见下文 攻击次数 最多 10 每次攻击伤害 1–6（×8）／1–12／1–20 特殊攻击 酸性唾液、",
     "sourceFile": "manuscript/mm2/topics/thessalhydra-thri-kreen.md"
   },
   {
@@ -7709,7 +7709,7 @@
     "title": "Tri-flower Frond、Marine Troll 与 Twilight Bloom",
     "titleEn": "Tri-flower Frond, Marine Troll, and Twilight Bloom",
     "group": "怪物条目",
-    "excerpt": "原书来源页：PDF 第 122–123 页（原书页码 121–122）。 三花叶怪 · Tri-flower Frond 项目 数值 --- --- 出现频率 极稀有 出现数量 1–10 护甲等级 9 移动 无 生命骰 2+8 巢穴内 无 财宝 无 攻击 见下文 伤害 见下文 特殊攻击/防御 无 魔法抗性 标准 智力 无 阵营 中立 体型",
+    "excerpt": "原书来源页：PDF 第 122–123 页（原书页码 121–122）。 三花株 Tri-flower Frond 项目 数值 --- --- 出现频率 极稀有 出现数量 1–10 护甲等级 9 移动 无 生命骰 2+8 巢穴内 无 财宝 无 攻击 见下文 伤害 见下文 特殊攻击/防御 无 魔法抗性 标准 智力 无 阵营 中立 体型",
     "sourceFile": "manuscript/mm2/topics/triflower-troll-twilight.md"
   },
   {
@@ -8006,7 +8006,7 @@
     "title": "森林：兽人",
     "titleEn": "Forest: Orcs",
     "group": "森林",
-    "excerpt": "原书来源页：PDF 第 34 页。地形：森林。队伍总等级：24（平均 4 级）。总魔法经验值：无；总金币经验值：10,355；怪物经验值：击杀 1,500，击败 1,125，撤退 375。 引入 一名游侠在旅店与朋友交谈，提到附近森林里突然出现了大批兽人。他希望召集一群战士结束这场威胁。 队伍穿过森林时，一匹带鞍的马惊慌逃来。马身上插着几",
+    "excerpt": "原书来源页：PDF 第 34 页。地形：森林。队伍总等级：24（平均 4 级）。总魔法经验值：无；总金币经验值：10,355；怪物经验值：击杀 1,500，击败 1,125，撤退 375。 引入 一名巡林客在旅店与朋友交谈，提到附近森林里突然出现了大批兽人。他希望召集一群战士结束这场威胁。 队伍穿过森林时，一匹带鞍的马惊慌逃来。马身上插着几",
     "sourceFile": "manuscript/ref3/topics/orcs.md"
   },
   {
@@ -8201,10 +8201,10 @@
   {
     "book": "ref3",
     "slug": "ref3-spotted-lions",
-    "title": "草原：斑点狮",
+    "title": "草原：斑巨狮",
     "titleEn": "Grasslands: Spotted Lions",
     "group": "草原与平原",
-    "excerpt": "原书来源页：PDF 第 69 页。地形：草原。队伍总等级：30（平均 5 级）。怪物经验值：击杀 4,422，击败 3,317，撤退 1,106；总魔法经验值和总金币经验值：无。 引入 商人已经习惯绕行某片草原，因为那里猎食着巨大的斑点狮。 旅行者谈论草原深处一块不寻常的骷髅形岩石，说魔法使用者可以在那里学习许多技艺。 一名盾牌上有狮徽的",
+    "excerpt": "原书来源页：PDF 第 69 页。地形：草原。队伍总等级：30（平均 5 级）。怪物经验值：击杀 4,422，击败 3,317，撤退 1,106；总魔法经验值和总金币经验值：无。 引入 商人已经习惯绕行某片草原，因为那里猎食着巨大的斑巨狮。 旅行者谈论草原深处一块不寻常的骷髅形岩石，说魔法使用者可以在那里学习许多技艺。 一名盾牌上有狮徽的",
     "sourceFile": "manuscript/ref3/topics/spotted-lions.md"
   },
   {
@@ -8570,7 +8570,7 @@
   {
     "book": "ref4",
     "slug": "ref4-mad-oriental-monk",
-    "title": "森林：疯狂的东方僧侣",
+    "title": "森林：疯狂的东方武僧",
     "titleEn": "Forest: The Mad Oriental Monk",
     "group": "森林",
     "excerpt": "原书来源页：PDF 第 29–30 页。 作者： Warren Spector 地形： 森林 队伍总等级： 48（平均 8 级） 魔法经验值总数： 原书未列出 金币经验值总数： 原书未列出 怪物经验值： 击杀 8867；击败 6650；撤退 2195 引入 加兰是个小村庄，唯一使它与卡拉图尔其他小村有所区别的，是镇外山顶上一座美轮美奂的寺",
@@ -9176,7 +9176,7 @@
     "title": "克莱恩上的角色与骑士团",
     "titleEn": "Characters in Krynn and the Knights of Solamnia",
     "group": "角色与组织",
-    "excerpt": "第 13 页 克莱恩允许的职业（续） 索拉姆尼亚骑士 Knights of Solamnia： 王冠骑士团、宝剑骑士团和玫瑰骑士团共同组成这个骑士团。候选人必须先在王冠骑士团中取得一定声望，才能被宝剑骑士团接纳；而玫瑰骑士团的候选人，必须先成为宝剑骑士。历史上，人们有时赞美、有时责难这些骑士及其荣誉教团。他们始终坚持荣誉准则，并在漫长历史",
+    "excerpt": "第 13 页 克莱恩允许的职业（续） 索兰尼亚骑士团 Knights of Solamnia： 王冠骑士团、宝剑骑士团和玫瑰骑士团共同组成这个骑士团。候选人必须先在王冠骑士团中取得一定声望，才能被宝剑骑士团接纳；而玫瑰骑士团的候选人，必须先成为宝剑骑士。历史上，人们有时赞美、有时责难这些骑士及其荣誉教团。他们始终坚持荣誉准则，并在漫长历史",
     "sourceFile": "manuscript/dla/topics/characters-krynn.md"
   },
   {
@@ -9329,7 +9329,7 @@
     "title": "索拉斯、最后归乡旅店与水晶镜湖",
     "titleEn": "Solace, Inn of the Last Home, and Crystalmir Lake",
     "group": "南方",
-    "excerpt": "原书第 29 页 索拉斯 索拉斯坐落在水晶镜湖东岸，距离湖岸约一英里。它并不是普通的人类村庄，而是居住着一些极不普通的人：后来成为龙枪英雄核心的“伙伴们”。索拉斯长久以来就是一处十字路口。由于习惯了各种访客，它不仅成了蒂卡、卡拉蒙、拉斯特林和基蒂亚拉（他们原本就来自索拉斯）的家，也成了半精灵、丘陵矮人、坎德和索拉姆尼亚骑士的家：塔尼斯、弗",
+    "excerpt": "原书第 29 页 索拉斯 索拉斯坐落在水晶镜湖东岸，距离湖岸约一英里。它并不是普通的人类村庄，而是居住着一些极不普通的人：后来成为龙枪英雄核心的“伙伴们”。索拉斯长久以来就是一处十字路口。由于习惯了各种访客，它不仅成了蒂卡、卡拉蒙、拉斯特林和基蒂亚拉（他们原本就来自索拉斯）的家，也成了半精灵、丘陵矮人、坎德和索兰尼亚骑士的家：塔尼斯、弗",
     "sourceFile": "manuscript/dl-atlas/topics/solace-and-last-home.md"
   },
   {
@@ -9428,7 +9428,7 @@
     "title": "西方章节导言",
     "titleEn": "The West",
     "group": "西方",
-    "excerpt": "原书第 96–97 页 原页图记录： 第 96 页为西方章节标题页，第 97 页为西方区域过渡地图。原页图保留。 原书第 98 页 当塔尼斯一行穿行于东方时，弗林特率领的队伍前往冰墙城堡，取回一枚龙珠和一柄折断的龙枪。他们带着这些物品，从冰山湾向西北航行，前往索拉姆尼亚骑士的避难所圣克里斯特。途中他们受到一条白龙的袭击，船撞上南厄尔哥斯外",
+    "excerpt": "原书第 96–97 页 原页图记录： 第 96 页为西方章节标题页，第 97 页为西方区域过渡地图。原页图保留。 原书第 98 页 当塔尼斯一行穿行于东方时，弗林特率领的队伍前往冰墙城堡，取回一枚龙珠和一柄折断的龙枪。他们带着这些物品，从冰山湾向西北航行，前往索兰尼亚骑士的避难所圣克里斯特。途中他们受到一条白龙的袭击，船撞上南厄尔哥斯外",
     "sourceFile": "manuscript/dl-atlas/topics/west-introduction.md"
   },
   {
@@ -9446,7 +9446,7 @@
     "title": "永不满足山与白石林间空地",
     "titleEn": "Mount Nevermind and the Glade of Whitestone",
     "group": "西方",
-    "excerpt": "原书第 108 页 原页图记录： 本页为龙山与雾港谷区域地图续页，保留纪念碑、废弃堡垒、通往骑士之地的洞穴和龙山各层入口标记。 原书第 109 页 永不满足山 伙伴们在圣克里斯的目标是索拉姆尼亚城堡乌斯·维斯坦。但当冈瑟领主把龙珠送给圣克里斯的侏儒，让他们调查并保管它时，菲斯班带着塔索霍夫前去取回龙珠；在白石议会之前，好奇的坎德人也因此看",
+    "excerpt": "原书第 108 页 原页图记录： 本页为龙山与雾港谷区域地图续页，保留纪念碑、废弃堡垒、通往骑士之地的洞穴和龙山各层入口标记。 原书第 109 页 永不满足山 伙伴们在圣克里斯的目标是索兰尼亚城堡乌斯·维斯坦。但当冈瑟领主把龙珠送给圣克里斯的侏儒，让他们调查并保管它时，菲斯班带着塔索霍夫前去取回龙珠；在白石议会之前，好奇的坎德人也因此看",
     "sourceFile": "manuscript/dl-atlas/topics/mount-nevermind-whitestone.md"
   },
   {
@@ -9455,7 +9455,7 @@
     "title": "北方与帕兰萨斯",
     "titleEn": "The North and Palanthas",
     "group": "北方",
-    "excerpt": "原书第 114 页 北方 龙枪之战期间，政治上最重要的地区是北方。龙枪英雄们从大城市帕兰萨斯出发；高等圣职者之塔守护着这座城市。他们前往幽灵般的达加德堡和附近的卡拉曼，并进入邪恶的圣诫城与奈拉卡。甚至在两个世纪以前的矮人之门战争时期，卡拉蒙和拉斯特林也曾在从帕兰萨斯前往凯尔苟斯的旅途中集结军队。 北方是索拉姆尼亚骑士团破败城堡的所在地，也",
+    "excerpt": "原书第 114 页 北方 龙枪之战期间，政治上最重要的地区是北方。龙枪英雄们从大城市帕兰萨斯出发；高等圣职者之塔守护着这座城市。他们前往幽灵般的达加德堡和附近的卡拉曼，并进入邪恶的圣诫城与奈拉卡。甚至在两个世纪以前的矮人之门战争时期，卡拉蒙和拉斯特林也曾在从帕兰萨斯前往凯尔苟斯的旅途中集结军队。 北方是索兰尼亚骑士团破败城堡的所在地，也",
     "sourceFile": "manuscript/dl-atlas/topics/north-palanthas.md"
   },
   {
@@ -9482,7 +9482,7 @@
     "title": "高等圣职者之塔",
     "titleEn": "The Tower of the High Clerist",
     "group": "北方",
-    "excerpt": "原书第 126 页 高等圣职者之塔 高等圣职者之塔由维纳斯·索拉姆努斯在辉煌时代建造，用来守卫西门隘口；这是文加德山脉哈巴库克山脉中，索拉姆尼亚平原与帕兰萨斯之间唯一的山口。北侧有一条峡谷穿过山脉，通往高塔；南侧则展开着“哈巴库克之翼”，也就是紧邻堡垒下方的一片近乎平坦的台地。这两只翅翼在维尔库斯丘陵处结束，丘陵位于山脉与下方平原之间。 ",
+    "excerpt": "原书第 126 页 高等圣职者之塔 高等圣职者之塔由维纳斯·索拉姆努斯在辉煌时代建造，用来守卫西门隘口；这是文加德山脉哈巴库克山脉中，索兰尼亚平原与帕兰萨斯之间唯一的山口。北侧有一条峡谷穿过山脉，通往高塔；南侧则展开着“哈巴库克之翼”，也就是紧邻堡垒下方的一片近乎平坦的台地。这两只翅翼在维尔库斯丘陵处结束，丘陵位于山脉与下方平原之间。 ",
     "sourceFile": "manuscript/dl-atlas/topics/high-clerist-tower.md"
   },
   {
@@ -9491,7 +9491,7 @@
     "title": "卡拉曼与达加德堡",
     "titleEn": "Kalaman and Dargaard Keep",
     "group": "北方",
-    "excerpt": "原书第 129 页 卡拉曼 高等圣职者之塔战役后，索拉姆尼亚骑士团夺回的第一座城市，也是第一处看见飞行城堡的地方，就是卡拉曼。这座城市位于一条从索拉姆尼亚平原流出的河流入海口；河水足够深，可以容纳港口。海精灵把塔尼斯、河风、金月、卡拉蒙、蒂卡和贝伦留在一座渔村附近的海滩上；渔村距卡拉曼只有几英里。 善龙抵达后，金色将军劳拉娜率领索拉姆尼亚",
+    "excerpt": "原书第 129 页 卡拉曼 高等圣职者之塔战役后，索兰尼亚骑士团夺回的第一座城市，也是第一处看见飞行城堡的地方，就是卡拉曼。这座城市位于一条从索兰尼亚平原流出的河流入海口；河水足够深，可以容纳港口。海精灵把塔尼斯、河风、金月、卡拉蒙、蒂卡和贝伦留在一座渔村附近的海滩上；渔村距卡拉曼只有几英里。 善龙抵达后，金色将军劳拉娜率领索兰尼亚",
     "sourceFile": "manuscript/dl-atlas/topics/kalaman-dargaard.md"
   },
   {
@@ -9590,7 +9590,7 @@
     "title": "龙之颂歌",
     "titleEn": "Canticle of the Dragon",
     "group": "克莱恩世界",
-    "excerpt": "PDF 第 13 页 出自巨龙的黑暗， 出自我们为光明发出的呼喊， 出自黑月空洞的面孔高悬天际， 一道蓄势的光在索拉姆尼亚闪耀， 一位真理与力量的骑士， 召来诸神本身， 锻造强大的龙枪，刺穿龙族的灵魂， 将它们翅膀的阴影从克莱恩明亮的海岸驱离。 伟大的善神帕拉丁站在休玛身旁， 使他强健右臂中的龙枪更加有力； 休玛仿佛燃烧在千轮月亮之中， ",
+    "excerpt": "PDF 第 13 页 出自巨龙的黑暗， 出自我们为光明发出的呼喊， 出自黑月空洞的面孔高悬天际， 一道蓄势的光在索兰尼亚闪耀， 一位真理与力量的骑士， 召来诸神本身， 锻造强大的龙枪，刺穿龙族的灵魂， 将它们翅膀的阴影从克莱恩明亮的海岸驱离。 伟大的善神帕拉丁站在休玛身旁， 使他强健右臂中的龙枪更加有力； 休玛仿佛燃烧在千轮月亮之中， ",
     "sourceFile": "manuscript/ilh/topics/canticle-dragon.md"
   },
   {
@@ -9806,7 +9806,7 @@
     "title": "国度中的语言",
     "titleEn": "Languages of the Realms",
     "group": "导言",
-    "excerpt": "!《国度中的语言》原页一 !《国度中的语言》原页二 坠星海以北、以东的大多数人至少在某种程度上识字。旅行者和教师表示，被遗忘的国度各处并非都是如此。附近地区以西门、南塞姆比亚以及或许希尔斯法为主要识字区域；在剑湾，深水城也属于此类。再往其他地方，“相信你的舌头”，正如行路人所说。 需要注意的是，每一种阵营都有自己的特殊语言，通常只有同阵营",
+    "excerpt": "!《国度中的语言》原页一 !《国度中的语言》原页二 坠星海以北、以东的大多数人至少在某种程度上识字。旅行者和教师表示，被遗忘的国度各处并非都是如此。附近地区以西门、南桑比亚以及或许希尔斯法为主要识字区域；在剑湾，深水城也属于此类。再往其他地方，“相信你的舌头”，正如行路人所说。 需要注意的是，每一种阵营都有自己的特殊语言，通常只有同阵营",
     "sourceFile": "manuscript/fr/topics/languages-of-realms.md"
   },
   {
@@ -9860,7 +9860,7 @@
     "title": "冒险公司（二）",
     "titleEn": "Adventuring Companies II",
     "group": "百科条目",
-    "excerpt": "!冒险公司原页一 !冒险公司原页二 猎团 The Hunt 猎团活跃于科米尔、塞姆比亚、谷地和月海地区。尽管早期在阿肯代尔与当地部队发生残酷战斗并损失了几名成员，队伍仍从八人迅速增长到十四人。猎团最近一直活跃在秘斯·德拉诺地区；由于他们很少公开接受委托，其目标与性质仍然大体不明，迄今几乎完全依靠自主冒险所得的成果维持活动。 猎团成员如下：",
+    "excerpt": "!冒险公司原页一 !冒险公司原页二 猎团 The Hunt 猎团活跃于科米尔、桑比亚、谷地和月海地区。尽管早期在阿肯代尔与当地部队发生残酷战斗并损失了几名成员，队伍仍从八人迅速增长到十四人。猎团最近一直活跃在秘斯·德拉诺地区；由于他们很少公开接受委托，其目标与性质仍然大体不明，迄今几乎完全依靠自主冒险所得的成果维持活动。 猎团成员如下：",
     "sourceFile": "manuscript/fr/topics/adventuring-companies-2.md"
   },
   {
@@ -9875,10 +9875,10 @@
   {
     "book": "fr",
     "slug": "fr-aglarond-amn-anauroch-arabel-1",
-    "title": "阿格拉隆、安姆、阿诺洛克与阿拉贝尔（一）",
+    "title": "阿戈拉隆、安姆、埃诺奥克与阿拉贝尔（一）",
     "titleEn": "Aglarond, Amn, Anauroch, and Arabel I",
     "group": "百科条目",
-    "excerpt": "!阿格拉隆与安姆原页 !内海诸地地图原页 阿格拉隆 AGLAROND（AHG-lah-rond） 概览 AT A GLANCE 阿格拉隆是内海以东、海盗群岛以西的一块小型海岸国家。它北面和西面以内海为界，南面以尤伊尔森林为界，东面与萨伊接壤。由于统治者“辛布尔”的显赫，以及它与萨伊红袍法师反复交战，阿格拉隆是北方居民最熟悉的东部国家之一。",
+    "excerpt": "!阿戈拉隆与安姆原页 !内海诸地地图原页 阿戈拉隆 AGLAROND（AHG-lah-rond） 概览 AT A GLANCE 阿戈拉隆是内海以东、海盗群岛以西的一块小型海岸国家。它北面和西面以内海为界，南面以尤伊尔森林为界，东面与萨伊接壤。由于统治者“辛布尔”的显赫，以及它与萨伊红袍法师反复交战，阿戈拉隆是北方居民最熟悉的东部国家之一。",
     "sourceFile": "manuscript/fr/topics/aglarond-amn-anauroch-arabel-1.md"
   },
   {
@@ -9905,13 +9905,13 @@
     "title": "战斗谷地、战斗之骨、贝雷戈斯特、博阿雷斯克尔桥与烛堡",
     "titleEn": "Battledale, Battle of the Bones, Beregost, Boareskyr Bridge, and Candlekeep",
     "group": "百科条目",
-    "excerpt": "!战斗谷地、战斗之骨与贝雷戈斯特原页 !博阿雷斯克尔桥、卡林杉与烛堡原页 战斗谷地游戏信息 Battledale: Game Information 战斗谷地虽然名字充满敌意，却没有常备军；“战争大臣”这一头衔是世袭的。伊尔梅特是一名 12 级战士，留着深色胡须，性情阴沉，却总是对该地区各派势力的力量感到惊讶。 战斗之骨 THE BATT",
+    "excerpt": "!战斗谷地、战斗之骨与贝雷戈斯特原页 !博阿雷斯克尔桥、卡林珊与烛堡原页 战斗谷地游戏信息 Battledale: Game Information 战斗谷地虽然名字充满敌意，却没有常备军；“战争大臣”这一头衔是世袭的。伊尔梅特是一名 12 级战士，留着深色胡须，性情阴沉，却总是对该地区各派势力的力量感到惊讶。 战斗之骨 THE BATT",
     "sourceFile": "manuscript/fr/topics/battledale-battle-of-bones-beregost-boareskyr-candlekeep.md"
   },
   {
     "book": "fr",
     "slug": "fr-calaunt-cavaliers-citadel",
-    "title": "卡兰特、骑士与圣武士、棋森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普",
+    "title": "卡兰特、骑士与圣武士、阙森塔、渡鸦堡垒、牧师、斗篷森林与科姆奥普",
     "titleEn": "Calaunt, Cavaliers and Paladins, Chessenta, Citadel of the Raven, Clerics, Cloak Wood, and Corm Orp",
     "group": "百科条目",
     "excerpt": "!卡兰特、骑士与渡鸦堡垒原页 !渡鸦堡垒、牧师与科姆奥普原页 烛堡（续） CANDLEKEEP (CONTINUED) 在查阅资料时，旅行者可以像贤者本人那样进行研究，并在某个特殊类别中拥有知识；就真实性而言，这种研究不再收取额外费用。 魔法书籍和其他危险物品存放在内室。只有守护者（该组织的首领）与读者（他那批技艺精湛的工作人员）可以进入",
@@ -9956,10 +9956,10 @@
   {
     "book": "fr",
     "slug": "fr-druids-dwarves-elturel",
-    "title": "德鲁伊、杜拉格之塔、矮人、东行镇、艾尔特瑞尔与精灵",
+    "title": "德鲁伊、杜拉格之塔、矮人、东行镇、埃尔托瑞尔与精灵",
     "titleEn": "Druids, Durlag's Tower, Dwarves, Easting, Elturel, and Elves",
     "group": "百科条目",
-    "excerpt": "!德鲁伊、杜拉格之塔与矮人条目原页 !矮人、东行镇与艾尔特瑞尔原页 !精灵条目开头原页 德鲁伊 DRUIDS 概览 AT A GLANCE 德鲁伊是牧师中的一个分支，倾向于在标准的神殿建筑之外进行崇拜。他们在国度各地游荡，或组织成松散联系的“圈”。这些德鲁伊圈承担着与牧师信仰中的等级体系相同的职能，但规模小得多，对于哪些活动归于哪一层级的",
+    "excerpt": "!德鲁伊、杜拉格之塔与矮人条目原页 !矮人、东行镇与埃尔托瑞尔原页 !精灵条目开头原页 德鲁伊 DRUIDS 概览 AT A GLANCE 德鲁伊是牧师中的一个分支，倾向于在标准的神殿建筑之外进行崇拜。他们在国度各地游荡，或组织成松散联系的“圈”。这些德鲁伊圈承担着与牧师信仰中的等级体系相同的职能，但规模小得多，对于哪些活动归于哪一层级的",
     "sourceFile": "manuscript/fr/topics/druids-dwarves-elturel.md"
   },
   {
@@ -9986,7 +9986,7 @@
     "title": "亡者原野、战士与遗忘森林",
     "titleEn": "Fields of the Dead, Fighters, and the Forgotten Forest",
     "group": "百科条目",
-    "excerpt": "!亡者原野、战士职业与遗忘森林原页 亡者原野 FIELDS OF THE DEAD 概览 AT A GLANCE 蜿蜒之水与琼萨尔河之间是一片开阔起伏的土地，以农耕为主；琼萨尔河沿岸则种植农作物。 伊尔明斯特的笔记 ELMINSTER'S NOTES 尽管表面看起来和平，约 500 个冬季以前，这片土地曾是争夺卡林杉以北地区控制权的各方势",
+    "excerpt": "!亡者原野、战士职业与遗忘森林原页 亡者原野 FIELDS OF THE DEAD 概览 AT A GLANCE 蜿蜒之水与琼萨尔河之间是一片开阔起伏的土地，以农耕为主；琼萨尔河沿岸则种植农作物。 伊尔明斯特的笔记 ELMINSTER'S NOTES 尽管表面看起来和平，约 500 个冬季以前，这片土地曾是争夺卡林珊以北地区控制权的各方势",
     "sourceFile": "manuscript/fr/topics/fields-fighters-forgotten-forest.md"
   },
   {
@@ -9995,7 +9995,7 @@
     "title": "白龙冰川、格利斯特、妖精类与侏儒",
     "titleEn": "Glacier of the White Worm, Glister, Goblin Races, and Gnomes",
     "group": "百科条目",
-    "excerpt": "!白龙冰川、格利斯特与妖精类原页 白龙冰川 GLACIER OF THE WHITE WORM（续） 白龙冰川从地脊山脉最高峰之间流出，东侧经一处高崖流入穆尔马斯特以东的月海，另一侧则流入冰融湖。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片冰川是大量极地生物的家园，因此有人认为它过去曾是北方更大冰原的一部分。它的位置比海拔",
+    "excerpt": "!白龙冰川、格利斯特与妖精类原页 白龙冰川 GLACIER OF THE WHITE WORM（续） 白龙冰川从地脊山脉最高峰之间流出，东侧经一处高崖流入穆尔玛斯特以东的月海，另一侧则流入冰融湖。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片冰川是大量极地生物的家园，因此有人认为它过去曾是北方更大冰原的一部分。它的位置比海拔",
     "sourceFile": "manuscript/fr/topics/glacier-glister-goblins-gnomes.md"
   },
   {
@@ -10022,22 +10022,22 @@
     "title": "竖琴手、哈罗谷与闹鬼大厅",
     "titleEn": "Harpers, Harrowdale, and the Haunted Halls",
     "group": "百科条目",
-    "excerpt": "!竖琴手、哈罗谷与闹鬼大厅原页 竖琴手 THE HARPERS 概览 AT A GLANCE 竖琴手是一个在北方活动的神秘组织，由高等级冒险者组成，尤其包括吟游诗人与游侠。这个组织的确切目标未知，人数与完整成员身份也未知，不过有几名成员颇为知名。 伊尔明斯特的笔记 ELMINSTER'S NOTES 以下内容来自暗影谷圈德鲁伊布里亚多恩，",
+    "excerpt": "!竖琴手、哈罗谷与闹鬼大厅原页 竖琴手 THE HARPERS 概览 AT A GLANCE 竖琴手是一个在北方活动的神秘组织，由高等级冒险者组成，尤其包括吟游诗人与巡林客。这个组织的确切目标未知，人数与完整成员身份也未知，不过有几名成员颇为知名。 伊尔明斯特的笔记 ELMINSTER'S NOTES 以下内容来自暗影谷圈德鲁伊布里亚多恩，",
     "sourceFile": "manuscript/fr/topics/harpers-harrowdale-haunted-halls.md"
   },
   {
     "book": "fr",
     "slug": "fr-high-dale-hillsfar",
-    "title": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔法与山缘镇",
+    "title": "闹鬼大厅续文、高谷、高角、高荒原、失魂山、希尔斯法尔与山缘镇",
     "titleEn": "Haunted Halls Continued, High Dale, High Horn, High Moor, Hill of Lost Souls, Hillsfar, and Hill's Edge",
     "group": "百科条目",
-    "excerpt": "!闹鬼大厅、高谷、高角与高荒原原页 !失魂山、希尔法与山缘镇原页 闹鬼大厅 THE HAUNTED HALLS（续） 闹鬼大厅建在峡谷本身的峭壁中，主要大门扭曲、锈蚀，偏向一侧。 伊尔明斯特的笔记 ELMINSTER'S NOTES 闹鬼大厅长期以来一直是强盗巢穴，最近一次清剿发生在阿祖恩三世统治时期；此后一直无人占据。冒险公司后来数次袭",
+    "excerpt": "!闹鬼大厅、高谷、高角与高荒原原页 !失魂山、希尔斯法尔与山缘镇原页 闹鬼大厅 THE HAUNTED HALLS（续） 闹鬼大厅建在峡谷本身的峭壁中，主要大门扭曲、锈蚀，偏向一侧。 伊尔明斯特的笔记 ELMINSTER'S NOTES 闹鬼大厅长期以来一直是强盗巢穴，最近一次清剿发生在阿祖恩三世统治时期；此后一直无人占据。冒险公司后来数次袭",
     "sourceFile": "manuscript/fr/topics/high-dale-hillsfar.md"
   },
   {
     "book": "fr",
     "slug": "fr-hilp-immersea-impiltur",
-    "title": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与安皮尔图尔",
+    "title": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与因布图",
     "titleEn": "Hilp, Hlintar, Hluthvar, Huddagh, Immersea, and Impiltur",
     "group": "百科条目",
     "excerpt": "!希尔普、赫林塔尔、赫卢萨尔与因默海原页 !因默海地图与索引原页 希尔普 HILP 概览 AT A GLANCE 希尔普是科米尔南部的一座小镇，没有设防，四周是起伏的农田与牧场。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这座位于因默海与苏萨尔之间的困倦村庄，以很久以前杀死或赶走侵扰当地的所有巨魔的战士命名。这里是当地农民市场",
@@ -10046,10 +10046,10 @@
   {
     "book": "fr",
     "slug": "fr-impiltur-iriaebor-kara-tur",
-    "title": "安皮尔图尔续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团",
+    "title": "因布图续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团",
     "titleEn": "Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North",
     "group": "百科条目",
-    "excerpt": "!安皮尔图尔、伊里阿波尔与铁屋原页 安皮尔图尔 IMPILTUR（续） 安皮尔图尔的另一个近邻值得怀疑：在北方与东方的大谷地，以及纳瑟尔曾经繁盛的森林北部，住着一名强大而神秘的法师——奈提亚奇。他统治着阴沉的人类与奇异野兽；只要没有受邀者进入森林，他们就会和平共处；未经邀请的来客会直接消失。 萨姆布里尔是 17 级魔法使用者，混乱善良阵营",
+    "excerpt": "!因布图、伊里阿波尔与铁屋原页 因布图 IMPILTUR（续） 因布图的另一个近邻值得怀疑：在北方与东方的大谷地，以及纳瑟尔曾经繁盛的森林北部，住着一名强大而神秘的法师——奈提亚奇。他统治着阴沉的人类与奇异野兽；只要没有受邀者进入森林，他们就会和平共处；未经邀请的来客会直接消失。 萨姆布里尔是 17 级魔法使用者，混乱善良阵营",
     "sourceFile": "manuscript/fr/topics/impiltur-iriaebor-kara-tur.md"
   },
   {
@@ -10058,7 +10058,7 @@
     "title": "北方骑士团续文、盾之骑士团与兰坦",
     "titleEn": "Knights of the North Continued, Knights of the Shield, and Lantan",
     "group": "百科条目",
-    "excerpt": "!北方骑士团、盾之骑士团与兰坦原页 !兰坦王政与船只规则原页 北方骑士团 KNIGHTS OF THE NORTH（续） 伊尔明斯特的笔记 ELMINSTER'S NOTES 渡鸦堡垒最初是一座由各方共同拥有的堡垒，保护月海诸城免受兽人攻击。它最近被珍铎城接管。起初，堡垒由各月海城市共同出资、由来自整个国度的冒险者驻守并增援；在八十多个冬",
+    "excerpt": "!北方骑士团、盾之骑士团与兰坦原页 !兰坦王政与船只规则原页 北方骑士团 KNIGHTS OF THE NORTH（续） 伊尔明斯特的笔记 ELMINSTER'S NOTES 渡鸦堡垒最初是一座由各方共同拥有的堡垒，保护月海诸城免受兽人攻击。它最近被散提尔堡接管。起初，堡垒由各月海城市共同出资、由来自整个国度的冒险者驻守并增援；在八十多个冬",
     "sourceFile": "manuscript/fr/topics/knights-shield-lantan.md"
   },
   {
@@ -10082,10 +10082,10 @@
   {
     "book": "fr",
     "slug": "fr-mercenary-companies",
-    "title": "面具之眼、梅尔万特与雇佣兵公司",
+    "title": "面具之眼、梅尔沃特与雇佣兵公司",
     "titleEn": "Maskyr's Eye, Melvaunt, and Mercenary Companies",
     "group": "百科条目",
-    "excerpt": "!面具之眼、梅尔万特与雇佣兵公司原页 !雇佣兵公司、蓝野猪骑士团与雇佣兵规则原页 面具之眼 MASKYR'S EYE 概览 AT A GLANCE 面具之眼是一座拥有 20 座主要建筑的村庄，位于巨脊山脉脚下、白龙冰川的阴影之中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个小社群主要以农耕与养马为生，目前没有高等级人物居住",
+    "excerpt": "!面具之眼、梅尔沃特与雇佣兵公司原页 !雇佣兵公司、蓝野猪骑士团与雇佣兵规则原页 面具之眼 MASKYR'S EYE 概览 AT A GLANCE 面具之眼是一座拥有 20 座主要建筑的村庄，位于巨脊山脉脚下、白龙冰川的阴影之中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个小社群主要以农耕与养马为生，目前没有高等级人物居住",
     "sourceFile": "manuscript/fr/topics/mercenary-companies.md"
   },
   {
@@ -10100,46 +10100,46 @@
   {
     "book": "fr",
     "slug": "fr-mistledale-moonshae-mulmaster",
-    "title": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺",
+    "title": "迷雾谷、月海、月沙群岛、穆尔霍兰德、穆尔玛斯特与迷斯卓诺",
     "titleEn": "Mistledale, Moonsea, Moonshae Islands, Mulhorand, Mulmaster, and Myth Drannor",
     "group": "百科条目",
-    "excerpt": "!迷雾谷、月海与月沙群岛原页 !月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺原页 迷雾谷 MISTLEDALE 概览 AT A GLANCE 迷雾谷是一片宽阔的农田空地，位于提尔弗峡口通往矗立之石的道路上。最大的社群是艾什本福特；除此之外，整个地区散布着小农场与栅寨。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个安静的农业",
+    "excerpt": "!迷雾谷、月海与月沙群岛原页 !月沙群岛、穆尔霍兰德、穆尔玛斯特与迷斯卓诺原页 迷雾谷 MISTLEDALE 概览 AT A GLANCE 迷雾谷是一片宽阔的农田空地，位于提尔弗峡口通往矗立之石的道路上。最大的社群是艾什本福特；除此之外，整个地区散布着小农场与栅寨。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这个安静的农业",
     "sourceFile": "manuscript/fr/topics/mistledale-moonshae-mulmaster.md"
   },
   {
     "book": "fr",
     "slug": "fr-myth-drannor-neverwinter-nimbral",
-    "title": "迷斯·德拉诺、无冬城、奥德林与尼姆布拉",
+    "title": "迷斯卓诺、无冬城、奥德林与尼姆布拉",
     "titleEn": "Myth Drannor, Neverwinter, Ordulin, and Nimbral",
     "group": "百科条目",
-    "excerpt": "!迷斯·德拉诺约在象牙年地图与历史原页 !迷斯·德拉诺约在虫年地图与无冬城原页 迷斯·德拉诺 MYTH DRANNOR（续） 精灵史诗与人类传说都把迷斯·德拉诺描述为一座超越今日最辉煌城市的地方，甚至胜过宏伟的深水城。如今它已经失落，成为传说中的废墟。 伊尔明斯特的笔记 ELMINSTER'S NOTES 迷斯·德拉诺曾是吟游诗人、故事讲",
+    "excerpt": "!迷斯卓诺约在象牙年地图与历史原页 !迷斯卓诺约在虫年地图与无冬城原页 迷斯卓诺 MYTH DRANNOR（续） 精灵史诗与人类传说都把迷斯卓诺描述为一座超越今日最辉煌城市的地方，甚至胜过宏伟的深水城。如今它已经失落，成为传说中的废墟。 伊尔明斯特的笔记 ELMINSTER'S NOTES 迷斯卓诺曾是吟游诗人、故事讲",
     "sourceFile": "manuscript/fr/topics/myth-drannor-neverwinter-nimbral.md"
   },
   {
     "book": "fr",
     "slug": "fr-north-orlumbor-pirate-isles",
-    "title": "北方、奥伦巴尔与海盗岛",
+    "title": "北方、欧伦伯与海盗岛",
     "titleEn": "The North, Orlumbor, and the Pirate Isles",
     "group": "百科条目",
-    "excerpt": "!北方、奥伦巴尔与海盗岛原页 !海盗岛历史与船队规则原页 北方 THE NORTH 概览 AT A GLANCE 落日之海以东、龙湾以北的地区，延伸至剑之海，并包括月沙群岛但不包括精灵岛永聚岛，被称为“北方”。这是已知文明与非文明世界中最为人熟悉的地区。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和剑湾一样，北方的定义取决于说",
+    "excerpt": "!北方、欧伦伯与海盗岛原页 !海盗岛历史与船队规则原页 北方 THE NORTH 概览 AT A GLANCE 落日之海以东、龙湾以北的地区，延伸至剑之海，并包括月沙群岛但不包括精灵岛永聚岛，被称为“北方”。这是已知文明与非文明世界中最为人熟悉的地区。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和剑湾一样，北方的定义取决于说",
     "sourceFile": "manuscript/fr/topics/north-orlumbor-pirate-isles.md"
   },
   {
     "book": "fr",
     "slug": "fr-pirate-isles-procampur-rangers",
-    "title": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔与游侠",
+    "title": "海盗岛续文、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普与巡林客",
     "titleEn": "Pirate Isles Continued, Priapurl, Pros, Proskur, Procampur, and Rangers",
     "group": "百科条目",
-    "excerpt": "!海盗岛港口防御与普罗坎普尔原页 !普罗坎普尔与游侠原页 海盗岛 THE PIRATE ISLES（续） 龙岛北港的堡垒建在狭窄港口入口西侧的峭壁中；南港堡垒则正好坐落在港口入口处。两座堡垒都配备一组神秘的萨伊巨炮。 锁港铁链。 铁链升起时，会阻止所有船只穿越港口。链环有人的身体那么粗，由铸铁制成并包铅。每座堡垒都有一条铁链。 阻船礁。 ",
+    "excerpt": "!海盗岛港口防御与普罗坎普原页 !普罗坎普与巡林客原页 海盗岛 THE PIRATE ISLES（续） 龙岛北港的堡垒建在狭窄港口入口西侧的峭壁中；南港堡垒则正好坐落在港口入口处。两座堡垒都配备一组神秘的萨伊巨炮。 锁港铁链。 铁链升起时，会阻止所有船只穿越港口。链环有人的身体那么粗，由铸铁制成并包铅。每座堡垒都有一条铁链。 阻船礁。 ",
     "sourceFile": "manuscript/fr/topics/pirate-isles-procampur-rangers.md"
   },
   {
     "book": "fr",
     "slug": "fr-rashemen",
-    "title": "拉舍曼",
+    "title": "莱瑟曼",
     "titleEn": "Rashemen",
     "group": "百科条目",
-    "excerpt": "!拉舍曼地理、胡龙与女巫原页 !拉舍曼火酒与规则原页 拉舍曼 RASHEMEN（Rah-SHEH-men） 概览 AT A GLANCE 拉舍曼位于神秘土地萨伊以北，是已知国度最东端的地区。它东面是无数里长的岩石草原荒地，再往外是近来无人抵达、也无法抵达的传说人类王国。 拉舍曼居民是一支身材短小而肌肉发达的人类，主要和牧群一起生活，擅长雕",
+    "excerpt": "!莱瑟曼地理、胡龙与女巫原页 !莱瑟曼火酒与规则原页 莱瑟曼 RASHEMEN（Rah-SHEH-men） 概览 AT A GLANCE 莱瑟曼位于神秘土地萨伊以北，是已知国度最东端的地区。它东面是无数里长的岩石草原荒地，再往外是近来无人抵达、也无法抵达的传说人类王国。 莱瑟曼居民是一支身材短小而肌肉发达的人类，主要和牧群一起生活，擅长雕",
     "sourceFile": "manuscript/fr/topics/rashemen.md"
   },
   {
@@ -10148,16 +10148,16 @@
     "title": "拉乌林、雷丹瑟尔、塞尔伦、疤谷与斯科努贝尔",
     "titleEn": "Raurin, Reddansyr, Saerloon, Scardale, and Scornubel",
     "group": "百科条目",
-    "excerpt": "!拉乌林、雷丹瑟尔与疤谷原页 !疤谷与斯科努贝尔原页 拉乌林 RAURIN（ROAR-in） 概览 AT A GLANCE 拉乌林是一个近乎神话的沙漠，位于穆尔霍兰德领地之外的最东南方，是一片巨大沙海，足以吞没北方的整座国家。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和北方的阿诺洛克不同，拉乌林是一片被稀有绿洲与死去王国点缀",
+    "excerpt": "!拉乌林、雷丹瑟尔与疤谷原页 !疤谷与斯科努贝尔原页 拉乌林 RAURIN（ROAR-in） 概览 AT A GLANCE 拉乌林是一个近乎神话的沙漠，位于穆尔霍兰德领地之外的最东南方，是一片巨大沙海，足以吞没北方的整座国家。 伊尔明斯特的笔记 ELMINSTER'S NOTES 和北方的埃诺奥克不同，拉乌林是一片被稀有绿洲与死去王国点缀",
     "sourceFile": "manuscript/fr/topics/raurin-scardale-scornubel.md"
   },
   {
     "book": "fr",
     "slug": "fr-scornubel-sembia",
-    "title": "斯科努贝尔商队公司、地图索引与塞姆比亚",
+    "title": "斯科努贝尔商队公司、地图索引与桑比亚",
     "titleEn": "Scornubel Companies, Map Key, and Sembia",
     "group": "百科条目",
-    "excerpt": "!斯科努贝尔商队公司与塞姆比亚原页 !斯科努贝尔地图与地图索引原页 !塞姆比亚历史原页 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES（续） 便足贸易大师 Surefeet Trademasters 便足贸易大师由一个议会领导，成员是商人芬格·瑟伦布尔、阿拉玛·杜尔弗和普里斯特·瑟尔米普。公司总部位于斯科努贝尔",
+    "excerpt": "!斯科努贝尔商队公司与桑比亚原页 !斯科努贝尔地图与地图索引原页 !桑比亚历史原页 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES（续） 便足贸易大师 Surefeet Trademasters 便足贸易大师由一个议会领导，成员是商人芬格·瑟伦布尔、阿拉玛·杜尔弗和普里斯特·瑟尔米普。公司总部位于斯科努贝尔",
     "sourceFile": "manuscript/fr/topics/scornubel-sembia.md"
   },
   {
@@ -10172,10 +10172,10 @@
   {
     "book": "fr",
     "slug": "fr-sossal-suzail-tarkhaldale",
-    "title": "索萨尔、苏泽尔与塔克哈尔谷",
+    "title": "索萨尔、苏萨尔与塔克哈尔谷",
     "titleEn": "Sossal, Suzail, and Tarkhaldale",
     "group": "百科条目",
-    "excerpt": "!索萨尔、苏巴尔与南方原页 !立石、苏尔德、苏泽尔与剑湾原页 !苏泽尔地图原页 !苏泽尔地图索引原页 !塔克哈尔谷、塔塞尔谷、泰申谷与谭森尔原页 索萨尔 SOSSAL（SAW-sall） 概览 AT A GLANCE 在遥远北方、大冰川另一侧的是传奇王国索萨尔。这个偏远国家是索萨尔希姆人的家园；他们是一支非常高大、金发的民族，穿着白色衣物",
+    "excerpt": "!索萨尔、苏巴尔与南方原页 !立石、苏尔德、苏萨尔与剑湾原页 !苏萨尔地图原页 !苏萨尔地图索引原页 !塔克哈尔谷、塔塞尔谷、泰申谷与谭森尔原页 索萨尔 SOSSAL（SAW-sall） 概览 AT A GLANCE 在遥远北方、大冰川另一侧的是传奇王国索萨尔。这个偏远国家是索萨尔希姆人的家园；他们是一支非常高大、金发的民族，穿着白色衣物",
     "sourceFile": "manuscript/fr/topics/sossal-suzail-tarkhaldale.md"
   },
   {
@@ -10184,7 +10184,7 @@
     "title": "泰尔至途道旅店",
     "titleEn": "Thar to The Way Inn",
     "group": "百科条目",
-    "excerpt": "!泰尔、泰伊与盗贼子类原页 !泰尔鲁克、瓦萨与失语谷原页 !维尔洪海湾、沃恩拉尔与深水城原页 !深水城领主、途道镇与途道旅店原页 泰尔 THAR（灰色大地 THE GREAT GREY LANDS） 概览 AT A GLANCE 泰尔的灰色大地从月海向北延伸，成为不断升高的阶地，最终抵达大冰川佩尔鲁里亚。 伊尔明斯特的笔记 ELMINST",
+    "excerpt": "!泰尔、泰伊与盗贼子类原页 !泰尔鲁克、瓦萨与失语谷原页 !维洪海域、沃恩拉尔与深水城原页 !深水城领主、途道镇与途道旅店原页 萨尔 THAR（灰色大地 THE GREAT GREY LANDS） 概览 AT A GLANCE 泰尔的灰色大地从月海向北延伸，成为不断升高的阶地，最终抵达大冰川佩尔鲁里亚。 伊尔明斯特的笔记 ELMINST",
     "sourceFile": "manuscript/fr/topics/thar-waterdeep-way-inn.md"
   },
   {
@@ -10202,7 +10202,7 @@
     "title": "黄蛇隘口至泽恩塔林",
     "titleEn": "Yellow Snake Pass to the Zhentarim",
     "group": "百科条目",
-    "excerpt": "!尖齿森林与黄蛇隘口原页 !珍铎城与泽恩塔林网络图原页 尖齿森林 THE WOOD OF SHARP TEETH 概览 AT A GLANCE 这片森林是一座灌木丛迷宫，荨麻和荆棘纠缠其中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片广阔森林之所以得名，是因为它完全野生，并且充满对人类危险的森林生物。萨堤尔据说在这里成群居",
+    "excerpt": "!尖齿森林与黄蛇隘口原页 !散提尔堡与泽恩塔林网络图原页 尖齿森林 THE WOOD OF SHARP TEETH 概览 AT A GLANCE 这片森林是一座灌木丛迷宫，荨麻和荆棘纠缠其中。 伊尔明斯特的笔记 ELMINSTER'S NOTES 这片广阔森林之所以得名，是因为它完全野生，并且充满对人类危险的森林生物。萨堤尔据说在这里成群居",
     "sourceFile": "manuscript/fr/topics/yellow-snake-zhentarim.md"
   },
   {
@@ -10301,7 +10301,7 @@
     "title": "国度中的重要 NPC（二）",
     "titleEn": "Selected NPCs of the Realms II",
     "group": "附录",
-    "excerpt": "伊尔明斯特（续） 伊尔明斯特 已经去世的老师是五百多年前死于深水城的那位贤者；在那个魔法领域最后的岁月里，他曾身处迷斯·德拉诺附近。贤者目前住在暗影谷这个小小的农耕社区，在一所俯瞰鱼塘的两层房屋中，与他的助手和抄写员拉埃欧同住。 伊尔明斯特 或许是国度中知识最渊博、消息最灵通的人；这也可能只是他自己的看法，不过他在",
+    "excerpt": "伊尔明斯特（续） 伊尔明斯特 已经去世的老师是五百多年前死于深水城的那位贤者；在那个魔法领域最后的岁月里，他曾身处迷斯卓诺附近。贤者目前住在暗影谷这个小小的农耕社区，在一所俯瞰鱼塘的两层房屋中，与他的助手和抄写员拉埃欧同住。 伊尔明斯特 或许是国度中知识最渊博、消息最灵通的人；这也可能只是他自己的看法，不过他在",
     "sourceFile": "manuscript/fr/topics/selected-npcs-2.md"
   },
   {
@@ -10310,7 +10310,7 @@
     "title": "国度中的重要 NPC（三）",
     "titleEn": "Selected NPCs of the Realms III",
     "group": "附录",
-    "excerpt": "凯尔本 “黑杖”·阿伦松（续） 凯尔本 的更完整资料见《FR1：深水城与北方》。他身高约六英尺，肌肉发达，留着胡子，发际线后移，黑发夹杂白发，举止高贵。他极其睿智却不自负，对北方人类自脱离蛮荒以来所实践的魔法历史、传说与传统都十分精通。 Korth 据点： 塞姆比亚。 等级／职业： 5 级战士。 阵营／信仰： 混乱中立，坦",
+    "excerpt": "凯尔本 “黑杖”·阿伦松（续） 凯尔本 的更完整资料见《FR1：深水城与北方》。他身高约六英尺，肌肉发达，留着胡子，发际线后移，黑发夹杂白发，举止高贵。他极其睿智却不自负，对北方人类自脱离蛮荒以来所实践的魔法历史、传说与传统都十分精通。 Korth 据点： 桑比亚。 等级／职业： 5 级战士。 阵营／信仰： 混乱中立，坦",
     "sourceFile": "manuscript/fr/topics/selected-npcs-3.md"
   },
   {
@@ -10328,7 +10328,7 @@
     "title": "国度中的重要 NPC（五）",
     "titleEn": "Selected NPCs of the Realms V",
     "group": "附录",
-    "excerpt": "范格达海斯特（续） 范格达海斯特 是科米尔的皇家魔法师、紫龙的宫廷巫师，也是苏泽尔法师委员会的首领。他是一个中年、略胖、留白胡子的男人，性情和善却严肃，一生忠于 Azoun；他是 Azoun 童年时代的导师之一，教导历史、科米尔家系以及魔法事务。 范格达海斯特 在国王年轻时帮助过他，并在整个统治期间支持",
+    "excerpt": "范格达海斯特（续） 范格达海斯特 是科米尔的皇家魔法师、紫龙的宫廷巫师，也是苏萨尔法师委员会的首领。他是一个中年、略胖、留白胡子的男人，性情和善却严肃，一生忠于 Azoun；他是 Azoun 童年时代的导师之一，教导历史、科米尔家系以及魔法事务。 范格达海斯特 在国王年轻时帮助过他，并在整个统治期间支持",
     "sourceFile": "manuscript/fr/topics/selected-npcs-5.md"
   },
   {
@@ -10355,7 +10355,7 @@
     "title": "国度近期新闻与传闻（三）",
     "titleEn": "Recent News and Rumors III",
     "group": "附录",
-    "excerpt": "Nightal（十二月，续） - 三艘船全部无影无踪。它们是本季最早离港的船只之一；在航季开始的前两个十日里失踪如此多船只，极其令人不安。 - 消失的船只包括：独立帆船“鼠爪号”，由塞尔伦的 Strauph Omerehellin 船长指挥，装载来自南方城市、准备运往月海城市的椰枣、坚果和橄榄油；它十四天前离开塞尔伦，六天前本应抵达希尔法",
+    "excerpt": "Nightal（十二月，续） - 三艘船全部无影无踪。它们是本季最早离港的船只之一；在航季开始的前两个十日里失踪如此多船只，极其令人不安。 - 消失的船只包括：独立帆船“鼠爪号”，由塞尔伦的 Strauph Omerehellin 船长指挥，装载来自南方城市、准备运往月海城市的椰枣、坚果和橄榄油；它十四天前离开塞尔伦，六天前本应抵达希尔斯法尔",
     "sourceFile": "manuscript/fr/topics/recent-news-rumors-3.md"
   },
   {
@@ -10364,7 +10364,7 @@
     "title": "国度近期新闻与传闻（四）",
     "titleEn": "Recent News and Rumors IV",
     "group": "附录",
-    "excerpt": "Uktar（十一月） - 珍铎城的军队从希尔法手中夺取了一个储藏矿石、宝石和龙鳞的地点；希尔法方面把失败归因于突袭，但后来出现了高等巫术介入的报告，包括大地本身长出手臂并攻击熟睡的军队。希尔法部队溃退，珍铎城很可能会控制该城直到春季。乌鸦堡垒的工作队据说正在被运往尤拉什，帮助修筑防御阵地。 - “蓝钻石”号是一艘在遥远东方某处制造的魔法飞",
+    "excerpt": "Uktar（十一月） - 散提尔堡的军队从希尔斯法尔手中夺取了一个储藏矿石、宝石和龙鳞的地点；希尔斯法尔方面把失败归因于突袭，但后来出现了高等巫术介入的报告，包括大地本身长出手臂并攻击熟睡的军队。希尔斯法尔部队溃退，散提尔堡很可能会控制该城直到春季。乌鸦堡垒的工作队据说正在被运往尤拉什，帮助修筑防御阵地。 - “蓝钻石”号是一艘在遥远东方某处制造的魔法飞",
     "sourceFile": "manuscript/fr/topics/recent-news-rumors-4.md"
   },
   {
@@ -10508,7 +10508,7 @@
     "title": "目录",
     "titleEn": "Table of Contents",
     "group": "前置部分",
-    "excerpt": "!《灰鹰冒险》目录，PDF 第 4 页 目录 导言 导言……3 灰鹰的神祇与牧师 术语……4 博克布……5 塞莱斯蒂安……6 圣·库斯伯特……9 艾欧恩娜……10 法兰恩……11 因卡布洛斯……12 伊斯图斯……13 伊乌兹……14 奈落……15 福尔图斯……16 拉莉莎……17 乌拉……18 灰鹰怪物 兽人……20 仙人掌吸血鬼……21",
+    "excerpt": "!《灰鹰冒险》目录，PDF 第 4 页 目录 导言 导言……3 灰鹰的神祇与牧师 术语……4 博克布……5 塞莱斯蒂安……6 圣·库斯伯特……9 艾欧恩娜……10 法兰恩……11 因卡布洛斯……12 伊斯图斯……13 埃乌兹……14 奈落……15 福尔图斯……16 拉莉莎……17 乌拉……18 灰鹰怪物 兽人……20 仙人掌吸血鬼……21",
     "sourceFile": "manuscript/greyhawk-adventures/topics/contents.md"
   },
   {
@@ -10586,10 +10586,10 @@
   {
     "book": "gha",
     "slug": "gha-iuz",
-    "title": "伊乌兹",
+    "title": "埃乌兹",
     "titleEn": "Iuz",
     "group": "灰鹰的神祇与牧师",
-    "excerpt": "!伊乌兹条目，PDF 第 15 页 !伊乌兹与奈落条目，PDF 第 16 页 伊乌兹（半神） Iuz (Demi-god) AL 混乱邪恶；WAL 任意邪恶；SoC 压迫、欺骗、痛苦；SY 咧嘴笑的人类头骨；CR 锈黑色；PN 主物质位面。 老伊乌兹是邪恶的守护者。他统治着弗兰尼斯的一部分地区，那片土地以他的名字命名；他在首都莫拉格主持朝",
+    "excerpt": "!埃乌兹条目，PDF 第 15 页 !埃乌兹与奈落条目，PDF 第 16 页 埃乌兹（半神） Iuz (Demi-god) AL 混乱邪恶；WAL 任意邪恶；SoC 压迫、欺骗、痛苦；SY 咧嘴笑的人类头骨；CR 锈黑色；PN 主物质位面。 老埃乌兹是邪恶的守护者。他统治着弗兰尼斯的一部分地区，那片土地以他的名字命名；他在首都莫拉格主持朝",
     "sourceFile": "manuscript/greyhawk-adventures/topics/iuz.md"
   },
   {
@@ -11093,7 +11093,7 @@
     "title": "政治分区：弗鲁兹提至梅德吉亚",
     "titleEn": "Political Divisions: Fruztii through Medegia",
     "group": "政治分区",
-    "excerpt": "原书 PDF 第 11–13 页。保留各国条目的标题、头衔、职业等级、人口字段、资源字段、军力与历史叙述，以及正文中的交叉引用。 PDF 第 11 页 霜雪蛮族（弗鲁兹提王国） 最善战的陛下，弗鲁兹提国王（战士，15 级） 首都： 克拉肯海姆（人口 3,300） 人口： 60,000+ 半人类： 少数 类人生物： 一些 资源： 食物、毛皮",
+    "excerpt": "原书 PDF 第 11–13 页。保留各国条目的标题、头衔、职业等级、人口字段、资源字段、军力与历史叙述，以及正文中的交叉引用。 PDF 第 11 页 霜雪野蛮人（弗鲁兹提王国） 最善战的陛下，弗鲁兹提国王（战士，15 级） 首都： 克拉肯海姆（人口 3,300） 人口： 60,000+ 半人类： 少数 类人生物： 一些 资源： 食物、毛皮",
     "sourceFile": "manuscript/gh-folio/topics/political-b.md"
   },
   {
@@ -11234,10 +11234,10 @@
   {
     "book": "mm",
     "slug": "mm-neo-otyugh",
-    "title": "新食腐兽",
+    "title": "新奥图格",
     "titleEn": "Neo-Otyugh",
     "group": "怪物条目",
-    "excerpt": "新食腐兽 Neo-Otyugh 项目 数据 --- --- 出现频率 罕见 出现数量 1 护甲等级 0 移动力 6 寸 生命骰 9–12 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 2–12／2–12／1–3 特殊攻击 疾病 特殊防御 永不受突袭 魔法抗性 标准 智力 普通至非常高 阵营 中立 体型 L 灵能能力 无；",
+    "excerpt": "新奥图格 Neo-Otyugh 项目 数据 --- --- 出现频率 罕见 出现数量 1 护甲等级 0 移动力 6 寸 生命骰 9–12 在巢穴概率 无 财宝类型 见下文 攻击次数 3 次 攻击伤害 2–12／2–12／1–3 特殊攻击 疾病 特殊防御 永不受突袭 魔法抗性 标准 智力 普通至非常高 阵营 中立 体型 L 灵能能力 无；",
     "sourceFile": "manuscript/mm/topics/neo-otyugh-retranslation.md"
   },
   {
@@ -11765,10 +11765,10 @@
   {
     "book": "mm",
     "slug": "mm-su-monster",
-    "title": "苏魔兽",
+    "title": "苏怪",
     "titleEn": "Su-monster",
     "group": "怪物条目",
-    "excerpt": "苏魔兽 Su-monster 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 9 寸 生命骰 5+5 在巢穴概率 30% 财宝类型 C、Y 攻击次数 5 次 攻击伤害 1–4（×4）／2–8 特殊攻击 见下文 特殊防御 无 魔法抗性 标准 智力 普通 阵营 混乱 体型 M 灵能能力 120；攻击／防",
+    "excerpt": "苏怪 Su-monster 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 9 寸 生命骰 5+5 在巢穴概率 30% 财宝类型 C、Y 攻击次数 5 次 攻击伤害 1–4（×4）／2–8 特殊攻击 见下文 特殊防御 无 魔法抗性 标准 智力 普通 阵营 混乱 体型 M 灵能能力 120；攻击／防",
     "sourceFile": "manuscript/mm/topics/su-monster-retranslation.md"
   },
   {
@@ -11819,7 +11819,7 @@
   {
     "book": "mm",
     "slug": "mm-titanothere",
-    "title": "泰坦兽",
+    "title": "雷兽",
     "titleEn": "Titanothere",
     "group": "怪物条目",
     "excerpt": "原书印刷页：95。 项目 数据 --- --- 出现频率 不常见 出现数量 1–12 护甲等级 6 移动力 12 寸 生命骰 12 在巢穴概率 无 财宝类型 无 攻击次数 1 攻击伤害 2–16 特殊攻击 冲锋与践踏 特殊防御 无 魔法抗性 标准 智力 动物 阵营 中立 体型 L（高 8 尺） 灵能能力 无 攻击／防御模式 无 这些巨大而",
@@ -12137,7 +12137,7 @@
     "title": "双职业角色 The Character With Two Classes",
     "titleEn": "",
     "group": "角色职业",
-    "excerpt": "多职业角色只能是非人或亚人；双职业角色则必须是人类。要取得第二职业，角色必须在某个时点改换职业，此后原职业不能再提升。 改换职业时，角色原职业的主属性必须达到15或更高，新职业的主属性则必须为17或18。因此，几乎任何职业组合都有可能，例如牧师兼战士、牧师兼圣武士、牧师兼游侠等；但阵营会排除其中一些组合。 角色停止旧职业、改从新职业时，保",
+    "excerpt": "多职业角色只能是非人或亚人；双职业角色则必须是人类。要取得第二职业，角色必须在某个时点改换职业，此后原职业不能再提升。 改换职业时，角色原职业的主属性必须达到15或更高，新职业的主属性则必须为17或18。因此，几乎任何职业组合都有可能，例如牧师兼战士、牧师兼圣武士、牧师兼巡林客等；但阵营会排除其中一些组合。 角色停止旧职业、改从新职业时，保",
     "sourceFile": "build/chm/content/phb/dual-class.html"
   },
   {
@@ -12164,7 +12164,7 @@
     "title": "战士 The Fighter",
     "titleEn": "",
     "group": "角色职业",
-    "excerpt": "战士的主属性是力量。角色的力量至少须为 9，体质至少须为 7，才能成为战士；较高的敏捷也很可贵。战士的力量高于 15 时，可将地下城主授予的经验值增加 10%。高力量还会提高命中对手的机会，并增加造成的伤害。 战士每级用一枚十面骰（d10）决定生命值。在这方面，除战士的子职业圣武士与游侠（见相关条目）外，没有其他职业能与之相比。若只论肉",
+    "excerpt": "战士的主属性是力量。角色的力量至少须为 9，体质至少须为 7，才能成为战士；较高的敏捷也很可贵。战士的力量高于 15 时，可将地下城主授予的经验值增加 10%。高力量还会提高命中对手的机会，并增加造成的伤害。 战士每级用一枚十面骰（d10）决定生命值。在这方面，除战士的子职业圣武士与巡林客（见相关条目）外，没有其他职业能与之相比。若只论肉",
     "sourceFile": "build/chm/content/phb/fighter.html"
   },
   {
@@ -12245,7 +12245,7 @@
     "title": "半精灵 Half-Elves",
     "titleEn": "",
     "group": "角色种族",
-    "excerpt": "半精灵并不构成一个独立种族；他们既生活在精灵之中，也生活在人类之中。典型半精灵的详细资料，见《高级龙与地下城：怪物图鉴》的“精灵”条目。 半精灵角色可以成为牧师（最高 5 级）、德鲁伊、战士（最高 8 级）、游侠（最高 8 级）、魔法师（最高 8 级）、盗贼，或刺客（最高 11 级）。半精灵也可选择多职业：牧师／战士、牧师／游侠、牧师／魔",
+    "excerpt": "半精灵并不构成一个独立种族；他们既生活在精灵之中，也生活在人类之中。典型半精灵的详细资料，见《高级龙与地下城：怪物图鉴》的“精灵”条目。 半精灵角色可以成为牧师（最高 5 级）、德鲁伊、战士（最高 8 级）、巡林客（最高 8 级）、魔法师（最高 8 级）、盗贼，或刺客（最高 11 级）。半精灵也可选择多职业：牧师／战士、牧师／巡林客、牧师／魔",
     "sourceFile": "build/chm/content/phb/half-elves.html"
   },
   {
@@ -12344,7 +12344,7 @@
     "title": "原书目录 Contents",
     "titleEn": "",
     "group": "原书其他章节",
-    "excerpt": "游戏 7 创建玩家角色 8 角色属性 9 力量 9 智力 10 感知 11 敏捷 11 体质 12 魅力 13 角色种族 13 矮人 15 精灵 16 侏儒 16 半精灵 16 半身人 17 半兽人 17 人类 17 种族偏好 18 角色职业 18 牧师 20 德鲁伊 20 战士 22 圣武士 22 游侠 24 魔法师 25 幻术师 26",
+    "excerpt": "游戏 7 创建玩家角色 8 角色属性 9 力量 9 智力 10 感知 11 敏捷 11 体质 12 魅力 13 角色种族 13 矮人 15 精灵 16 侏儒 16 半精灵 16 半身人 17 半兽人 17 人类 17 种族偏好 18 角色职业 18 牧师 20 德鲁伊 20 战士 22 圣武士 22 巡林客 24 魔法师 25 幻术师 26",
     "sourceFile": "build/chm/content/phb/original-contents.html"
   },
   {
@@ -12386,10 +12386,10 @@
   {
     "book": "phb",
     "slug": "ranger",
-    "title": "游侠 The Ranger",
+    "title": "巡林客 The Ranger",
     "titleEn": "",
     "group": "角色职业",
-    "excerpt": "游侠 The Ranger 游侠是战士的子职业，精通野外技艺、追踪、侦察、潜入与谍报。所有游侠都必须属于善良阵营（见相关条目），但在守序、混乱或中立方面不受限制。游侠的力量与智力至少须为 13，感知至少须为 14，体质至少须为 14。若力量、智力和感知三项都高于 15，地下城主授予的经验值增加 10%。 游侠与其他战士类角色不同",
+    "excerpt": "巡林客 The Ranger 巡林客是战士的子职业，精通野外技艺、追踪、侦察、潜入与谍报。所有巡林客都必须属于善良阵营（见相关条目），但在守序、混乱或中立方面不受限制。巡林客的力量与智力至少须为 13，感知至少须为 14，体质至少须为 14。若力量、智力和感知三项都高于 15，地下城主授予的经验值增加 10%。 巡林客与其他战士类角色不同",
     "sourceFile": "build/chm/content/phb/ranger.html"
   },
   {

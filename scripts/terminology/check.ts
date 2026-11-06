@@ -22,6 +22,12 @@ for(const [category,entries] of [['spell',spells],['item',items],['monster',mons
   }
 }
 const bag=items.find(e=>e.nameEn==='Bag of Holding')!;
+const ranger=classes.find(e=>e.id==='ranger')!;
+assert.equal(ranger.nameZh,'巡林客','Final user choice follows the 3R naming priority');
+assert.ok(!ranger.description.includes('（3 版通译为巡林客）'));
+assert.ok(ranger.description.includes('注：在一些规则中，也译为游侠。'));
+assert.ok(ranger.details?.[0].html.includes('注：在一些规则中，也译为游侠。'));
+assert.ok(nameAliases('class','Ranger').includes('游侠'));
 assert.ok(nameAliases('item',bag.nameEn).includes('收纳袋'));
 assert.equal(findNamedEntry(items,'item','收纳袋')?.id,bag.id);
 assert.equal(currentItemLabel(bag,'收纳袋'),bag.nameZh);

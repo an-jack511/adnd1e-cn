@@ -6,9 +6,9 @@
 
 ### 历史与描述
 
-奥贝雷尔 是谷地诸国定居早期的一名法师，后来向东航行到如今的 Aglarond，并在那里建立了延续至今的巫师统治王朝。奥贝雷尔 作为 Aglarond 的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为 Covenant 的法师学徒时编成的原始工作册（见下文）已经遗失。
+奥贝雷尔 是谷地诸国定居早期的一名法师，后来向东航行到如今的 阿戈拉隆（Aglarond），并在那里建立了延续至今的巫师统治王朝。奥贝雷尔 作为 阿戈拉隆（Aglarond） 的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为 Covenant 的法师学徒时编成的原始工作册（见下文）已经遗失。
 
-在 奥贝雷尔的孙子 卢尔斯卡斯（Lurskas） 统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在 Aglarond 东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之 努扎尔（Nuzar））的活动报告暗示，他们读过 奥贝雷尔的工作册，或至少读过 奥贝雷尔 创作、使这本书成名的两道法术的抄本。
+在 奥贝雷尔的孙子 卢尔斯卡斯（Lurskas） 统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在 阿戈拉隆（Aglarond） 东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之 努扎尔（Nuzar））的活动报告暗示，他们读过 奥贝雷尔的工作册，或至少读过 奥贝雷尔 创作、使这本书成名的两道法术的抄本。
 
 Aglarond 王室一直不懈地寻找工作册，这证明它仍然存在。如今的统治者、被称为“变形魔后”的 欣布（Simbul），据说曾杀死法师 萨纳图斯（Thanatus），并在试图夺取工作册时洗劫 镜星（Mirrorstar） 的魔法学校图书馆。奥贝雷尔 唯一的学徒、如今已经死去的法师 尼索洛普斯（Nytholops），在 Chronicles 中记录了工作册的内容；正是从这本书（而不是其他来源）开始，奥贝雷尔 传授给他魔法之艺。
 
@@ -96,7 +96,7 @@ Sepur 的命运不明，但贤者 Alphontras 讲述过，他在 Trollmoors 一�
 
 ### 内容
 
-奥贾伦 受教于 Myth Drannor 七名巫师中最神秘的 The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及 wizard lock 的改良版 secure。
+奥贾伦 受教于 迷斯卓诺（Myth Drannor） 七名巫师中最神秘的 The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及 wizard lock 的改良版 secure。
 
 《Arbatel》的第一块和最后一块金属板没有任何内容，以免暴露内部所藏；七块内板各有一项法术（制作方式只能使用金属板的一面）。它们依次是 mending、charm person、encrypt、dispel magic、identify、guards and wards 和 secure。所有常见法术均采用标准《玩家手册》格式，下文重录书中两道独有法术；这些内容据说来自 The Masked 的另一名学徒 Vauth 的书。
 
@@ -160,9 +160,9 @@ light 类魔法、magic mouth、涅斯图（Nystul）’s magic aura 和 Leomund
 
 ### 历史与描述
 
-The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给 Myth Drannor 七名巫师之一 Hym Kraaven，以换取魔法训练。不久后 Hethcanter 的文字记录中断；如今人们主要记得他曾被近二十名 illithid 追赶，便从后来称为 Hethcanter’s Leap 的峭壁最高处跳下自尽。贤者 Orfidel 认为这些被他痛恨的生物是在寻找 The Scalamagdrion，贤者 伊尔明斯特 也赞同这一看法。
+The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给 迷斯卓诺（Myth Drannor） 七名巫师之一 Hym Kraaven，以换取魔法训练。不久后 Hethcanter 的文字记录中断；如今人们主要记得他曾被近二十名 illithid 追赶，便从后来称为 Hethcanter’s Leap 的峭壁最高处跳下自尽。贤者 Orfidel 认为这些被他痛恨的生物是在寻找 The Scalamagdrion，贤者 伊尔明斯特 也赞同这一看法。
 
-Hym Kraaven 从未在 Myth Drannor 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。Hillsfar 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 莱拉（Laeral），二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。莱拉 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
+Hym Kraaven 从未在 迷斯卓诺（Myth Drannor） 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。希尔斯法尔（Hillsfar） 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 莱拉（Laeral），二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。莱拉 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
 
 出处：原书 PDF 第186–189页（印刷页86–89）。
 

@@ -31,7 +31,7 @@ HD 18；THAC0 14；SpA CL/MU 9/9；MV 无限；AC -5；hp 85；#AT 1；Dmg 1d6 +
 
 ### 法兰恩的牧师 Fharlanghn's Clerics
 
-AL 中立；RA 见下文；AEx 无；WPN 标准；SPH 星界、元素、治疗、天气、召唤（次要）、战斗（次要）；SPL 无；ADD <strong>脚痛</strong>（footsore）、<strong>耐受寒热</strong>、<strong>定位动物</strong>、<strong>抗寒</strong>、<strong>定位植物</strong>、<strong>抗火</strong>、<strong>创造食物与水</strong>、<strong>物件定位术</strong>、<strong>植物之门</strong>、<strong>通晓语言</strong>、<strong>任务术</strong>、<strong>木遁术</strong>、<strong>植物传送</strong>、<strong>寻找道路</strong>。
+AL 中立；RA 见下文；AEx 无；WPN 标准；SPH 星界、元素、治疗、天气、召唤（次要）、战斗（次要）；SPL 无；ADD <strong>脚痛</strong>（footsore）、<strong>耐受寒热</strong>、<strong>定位动物</strong>、<strong>抗寒</strong>、<strong>定位植物</strong>、<strong>抗火</strong>、<strong>创造食物与水</strong>、<strong>物品定位术</strong>、<strong>植物之门</strong>、<strong>通晓语言</strong>、<strong>任务术</strong>、<strong>木遁术</strong>、<strong>植物传送</strong>、<strong>寻找道路</strong>。
 
 法兰恩的教士在弗兰尼斯中部和西南部最为活跃。他们分为城市派和乡野派两种。城市派牧师穿着棕色长袍，在城镇和城市中维护小型教堂。乡野派牧师穿绿色长袍。虽然他们会维护小型路边圣龛，但乡野派牧师都是漫游者，很少长时间留在一个地方，而是从一座圣龛走到下一座圣龛，一路上传教。所有法兰恩牧师在户外游荡时都有敏锐的方向感。1 级时，所有法兰恩牧师在户外旅行时都有 35% 的概率避免迷路（见《地下城主指南》），并且该概率每提升一个等级增加 1%。
 

@@ -9,10 +9,10 @@
 | 编号 | 一环 | 二环 | 三环 | 四环 | 五环 |
 |:---:|:---|:---|:---|:---|:---|
 | 1 | 影响普通火焰 Affect Normal Fires | 可闻幻象 Audible Glamer | 闪现术 Blink | 魅惑怪物 Charm Monster | 气水术 Airy Water |
-| 2 | *警报术 Alarm* | *绑缚术 Bind* | 隔墙闻声 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
+| 2 | *魔法警报 Alarm* | *绑缚术 Bind* | 隔墙闻声 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
 | 3 | *护甲术 Armor* | 恒久光亮术 Continual Light | 鹰眼术 Clairvoyance | 挖掘术 Dig | 活化死尸 Animate Dead |
 | 4 | 燃烧之手 Burning Hands | 半径15尺黑暗术 Darkness 15' Radius | *暴雨术 Cloudburst* | 任意门 Dimension Door | *回避术 Avoidance* |
-| 5 | 魅惑类人 Charm Person | *深袋术 Deeppockets* | *侦测幻象 Detect Illusion* | *解除幻象 Dispel Illusion* | 毕格比阻截之手 Bigby's Interposing Hand |
+| 5 | 魅惑人类 Charm Person | *深袋术 Deeppockets* | *侦测幻象 Detect Illusion* | *解除幻象 Dispel Illusion* | 毕格比阻截之手 Bigby's Interposing Hand |
 | 6 | 通晓语言 Comprehend Languages | 侦测邪恶 Detect Evil | 解除魔法 Dispel Magic | 魔化武器 Enchanted Weapon | 死云术 Cloudkill |
 | 7 | 舞光术 Dancing Lights | 侦测隐形 Detect Invisibility | 爆炸符文 Explosive Runes | *艾伐黑触手 Evard's Black Tentacles* | 咒唤元素 Conjure Elemental |
 | 8 | 侦测魔法 Detect Magic | 心灵感应 ESP | 假死术 Feign Death | 延时术 I Extension I | 寒冰锥 Cone of Cold |
@@ -21,12 +21,12 @@
 | 11 | 羽落术 Feather Fall | 遗忘术 Forget | 飞行术 Fly | 火焰护盾 Fire Shield | 距离扭曲术 Distance Distortion |
 | 12 | 寻获魔宠 Find Familiar | 隐形术 Invisibility | 造风术 Gust of Wind | 火焰陷阱 Fire Trap | *痛楚术 Dolor* |
 | 13 | *火水术 Firewater* | *刺痒术 Irritation* | 加速术 Haste | 失手术 Fumble | 延时术 II Extension II |
-| 14 | 交友术 Friends | 敲击术 Knock | 定身类人 Hold Person | 幻景 Hallucinatory Terrain | *鬼斧神工 Fabricate* |
+| 14 | 交友术 Friends | 敲击术 Knock | 人类定身术 Hold Person | 幻景 Hallucinatory Terrain | *鬼斧神工 Fabricate* |
 | 15 | *油腻术 Grease* | *侦测阵营 Know Alignment* | 红外视觉 Infravision | 冰风暴 Ice Storm | 弱智术 Feeblemind |
-| 16 | 封门术 Hold Portal | 雷欧蒙陷阱 Leomund's Trap | 半径10尺隐形术 Invisibility 10' Radius | *雷欧蒙的安全庇护所 Leomund's Secure Shelter* | 定身怪物 Hold Monster |
+| 16 | 封门术 Hold Portal | 雷欧蒙陷阱 Leomund's Trap | 半径10尺隐形术 Invisibility 10' Radius | *雷欧蒙的安全庇护所 Leomund's Secure Shelter* | 怪物定身术 Hold Monster |
 | 17 | 鉴定术 Identify | 浮空术 Levitate | *物品术 Item* | *魔镜术 Magic Mirror* | *雷欧蒙的烦扰术 Leomund's Lamentable Belabourment* |
-| 18 | 跳跃术 Jump | 物件定位术 Locate Object | 李欧蒙小屋 Leomund's Tiny Hut | 群体变树术 Massmorph | 李欧蒙秘藏箱 Leomund's Secret Chest |
-| 19 | 光亮术 Light | 魔嘴术 Magic Mouth | 闪电束 Lightning Bolt | 小型法术无效结界 Minor Globe of Invulnerability | 魔魂壶 Magic Jar |
+| 18 | 跳跃术 Jump | 物品定位术 Locate Object | 李欧蒙小屋 Leomund's Tiny Hut | 群体变树术 Massmorph | 李欧蒙秘藏箱 Leomund's Secret Chest |
+| 19 | 光亮术 Light | 魔嘴 Magic Mouth | 闪电束 Lightning Bolt | 小型法术无效结界 Minor Globe of Invulnerability | 魔魂壶 Magic Jar |
 | 20 | 魔法飞弹 Magic Missile | *马友夫强酸箭 Melf's Acid Arrow* | *材料术 Material* | 群体变树术 Massmorph | 召唤怪物 III Monster Summoning III |
 | 21 | *熔化术 Melt* | 镜影术 Mirror Image | *马友夫微流星 Melf's Minute Meteor* | *欧提路克弹力法球 Otiluke's Resilient Sphere* | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
 | 22 | 修复术 Mending | *保鲜术 Preserve* | 召唤怪物 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |

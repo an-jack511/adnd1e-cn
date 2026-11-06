@@ -21,12 +21,16 @@ def main():
     index = fetch('data/spells/index.json')[2]
     paths = ['data/spells/' + p for p in index.values()]
     paths += ['data/items.json', 'data/items-base.json', 'data/races.json', 'data/deities.json', 'data/books.json']
-    paths += ['data/bestiary/bestiary-' + x + '.json' for x in ['xmm','mm','mpmm','mtf','vgm']]
+    # Include adventure bestiaries: setting-specific creatures and named NPCs
+    # are absent from the core five monster books.
+    paths += ['data/bestiary/' + p for p in fetch('data/bestiary/index.json')[2].values()]
     paths += ['data/class/class-' + x + '.json' for x in ['barbarian','bard','cleric','druid','fighter','monk','paladin','ranger','rogue','wizard']]
     records, sources, errors = [], [], []
     def safe(path):
-        try: return fetch(path)
-        except Exception as e: return path, None, str(e)
+        for attempt in range(3):
+            try: return fetch(path)
+            except Exception as e: error=str(e)
+        return path, None, error
     with ThreadPoolExecutor(max_workers=6) as pool:
         for path, data, obj in pool.map(safe, paths):
             if data is None:
@@ -37,9 +41,10 @@ def main():
                     en, zh = entry.get('ENG_name'), entry.get('name')
                     if not en or not zh or en == zh: continue
                     source = entry.get('source', entry.get('id',''))
-                    edition = '5R' if source in ['XPHB','XDMG','XMM','FRHoF','FRBiF','EFA'] else '5E'
+                    edition = '5R' if source in ['XPHB','XDMG','XMM','FRHoF','FRAiF','EFA'] else '5E'
                     page = {'spell':'spells','item':'items','baseitem':'items','monster':'bestiary','race':'races','subrace':'races','class':'classes','deity':'deities','book':'books'}[kind]
                     records.append({'en':en,'zh':zh,'category':kind,'edition':edition,'source':source,'page':entry.get('page'),'url':BASE+path,'entryUrl':BASE+page+'.html#'+quote(zh.lower(),safe='')+'_'+quote(source.lower(),safe=''),'accessed':DATE})
+                    if kind == 'monster': records[-1]['isNpc']=bool(entry.get('isNpc',False))
                     count += 1
             sources.append({'url':BASE+path,'accessed':DATE,'sha256':hashlib.sha256(data).hexdigest(),'nameRecords':count})
     output = {'accessed':DATE,'policy':'Name pairs only; no later-edition rule text. Exact English names remain separate from aliases.','sources':sources,'errors':errors,'records':records}
