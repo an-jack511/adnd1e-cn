@@ -1,5 +1,4 @@
-![阿格拉隆与安姆原页](/assets/books/fr/fr_aglarond_amn_page_22_original.png)
-![内海诸地地图原页](/assets/books/fr/fr_inner_sea_map_page_23_original.png)
+![内海诸地地图，原书 PDF 第 23 页地图裁片](/assets/books/fr/fr_inner_sea_map_page_23_map.png)
 
 ## 阿格拉隆 AGLAROND（AHG-lah-rond）
 
@@ -59,8 +58,6 @@
 ## 阿诺洛克 ANAUROCH（Ann-OAR-ock）
 
 *大沙漠（The Great Desert）*
-
-![内海诸地地图：原书标题为“内海诸地地图，象牙之年（谷地纪年 112 年）”](/assets/books/fr/fr_inner_sea_map_page_23_original.png)
 
 ### 概览 AT A GLANCE
 

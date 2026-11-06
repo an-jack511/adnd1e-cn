@@ -4,41 +4,35 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第198页：Vaasa／Moonsea 地图
 
-![Vaasa／Moonsea 原地图（PDF 第198页）](/assets/books/fr/fr_map_plate_page_198_original.png)
 
 ![第198页地图标注中文对照板](/assets/books/fr/fr_map_plate_page_198_labels_zh.png)
 
-本页先完成可核对的主要地图标签对照；中文对照板不覆盖原图，因此道路、河流、山脉、城镇、遗迹、颜色和比例仍以原地图为准。其余地图页按同一原则逐页制作。
+地图标签见中文对照板；道路、河流、山脉、城镇、遗迹、颜色和比例以原地图为准。
 
 ### PDF 第199页：Vaasa／Damara 周边地图
 
-![Vaasa／Damara 周边原地图（PDF 第199页）](/assets/books/fr/fr_map_plate_page_199_original.png)
 
 ![第199页地图标注中文对照板](/assets/books/fr/fr_map_plate_page_199_labels_zh.png)
 
 ### PDF 第200页：北方／Rawlinswood 地图局部
 
-![北方／Rawlinswood 原地图（PDF 第200页）](/assets/books/fr/fr_map_plate_page_200_original.png)
 
 ![第200页地图标注中文对照板](/assets/books/fr/fr_map_plate_page_200_labels_zh.png)
 
 ### PDF 第201页：北方地图局部
 
-![北方原地图（PDF 第201页）](/assets/books/fr/fr_map_plate_page_201_original.png)
 
 ![第201页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_201_labels_zh.png)
 
 ### PDF 第202页：龙湾南部与东部内陆地图局部
 
-![第202页地图原图](/assets/books/fr/fr_map_plate_page_202_original.png)
 
 ![第202页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_202_labels_zh.png)
 
-第202页的对照板覆盖荆棘森林、库尔特、伊拉丰、哈罗谷、龙湾、卡兰特、赫林塔尔、坦特拉斯、渡鸦门、国王领地、维斯珀河、高赫斯珀、塞沃恩、普罗坎普尔、楚尔拉戈尔和孤岩。右上及右侧边缘的裁切标签仍以原图为准，不根据不稳定的 OCR 猜测补写。
+第202页的对照板覆盖荆棘森林、库尔特、伊拉丰、哈罗谷、龙湾、卡兰特、赫林塔尔、坦特拉斯、渡鸦门、国王领地、维斯珀河、高赫斯珀、塞沃恩、普罗坎普尔、楚尔拉戈尔和孤岩。右上及右侧边缘的裁切标签仍以原图为准。
 
 ### PDF 第203页：安皮尔图尔地图局部
 
-![第203页地图原图](/assets/books/fr/fr_map_plate_page_203_original.png)
 
 ![第203页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_203_labels_zh.png)
 
@@ -46,7 +40,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第204页：大谷地与莱瑟尔森林地图局部
 
-![第204页地图原图](/assets/books/fr/fr_map_plate_page_204_original.png)
 
 ![第204页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_204_labels_zh.png)
 
@@ -54,7 +47,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第205页：血石之地地图与图例
 
-![第205页地图原图](/assets/books/fr/fr_map_plate_page_205_original.png)
 
 ![第205页地图标注与图例中文对照板](/assets/books/fr/fr_map_plate_page_205_labels_zh.png)
 
@@ -62,7 +54,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第207页：暗影谷、匕首谷与泰什谷地地图局部
 
-![第207页地图原图](/assets/books/fr/fr_map_plate_page_207_original.png)
 
 ![第207页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_207_labels_zh.png)
 
@@ -70,7 +61,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第208页：月海、谷地诸国与龙脊山脉地图局部
 
-![第208页地图原图](/assets/books/fr/fr_map_plate_page_208_original.png)
 
 ![第208页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_208_labels_zh.png)
 
@@ -78,7 +68,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第209页：瓦萨、月海与查尔大灰地地图局部
 
-![第209页地图原图](/assets/books/fr/fr_map_plate_page_209_original.png)
 
 ![第209页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_209_labels_zh.png)
 
@@ -86,7 +75,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第210页：科米尔与龙海北岸地图局部
 
-![第210页地图原图](/assets/books/fr/fr_map_plate_page_210_original.png)
 
 ![第210页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_210_labels_zh.png)
 
@@ -94,7 +82,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第211页：石地、塞姆比亚与东部谷地地图局部
 
-![第211页地图原图](/assets/books/fr/fr_map_plate_page_211_original.png)
 
 ![第211页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_211_labels_zh.png)
 
@@ -102,7 +89,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第212页：塞姆比亚与内海东岸地图局部
 
-![第212页地图原图](/assets/books/fr/fr_map_plate_page_212_original.png)
 
 ![第212页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_212_labels_zh.png)
 
@@ -110,7 +96,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第213页：龙湾与内海南岸地图局部
 
-![第213页地图原图](/assets/books/fr/fr_map_plate_page_213_original.png)
 
 ![第213页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_213_labels_zh.png)
 
@@ -118,7 +103,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第214页：北方海域与剑湾北部地图局部
 
-![第214页地图原图](/assets/books/fr/fr_map_plate_page_214_original.png)
 
 ![第214页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_214_labels_zh.png)
 
@@ -126,7 +110,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第215页：月沙群岛与永聚岛海域地图局部
 
-![第215页地图原图](/assets/books/fr/fr_map_plate_page_215_original.png)
 
 ![第215页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_215_labels_zh.png)
 
@@ -134,7 +117,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第217页：南方海域局部与完整地图图例
 
-![第217页地图原图](/assets/books/fr/fr_map_plate_page_217_original.png)
 
 ![第217页地图标注与图例中文对照板](/assets/books/fr/fr_map_plate_page_217_labels_zh.png)
 
@@ -142,7 +124,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第218页：高森林与北方内陆地图局部
 
-![第218页地图原图](/assets/books/fr/fr_map_plate_page_218_original.png)
 
 ![第218页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_218_labels_zh.png)
 
@@ -150,7 +131,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第219页：剑湾与北方内陆过渡区域地图局部
 
-![第219页地图原图](/assets/books/fr/fr_map_plate_page_219_original.png)
 
 ![第219页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_219_labels_zh.png)
 
@@ -158,7 +138,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第220页：安姆、泰瑟尔与卡林杉北部地图局部
 
-![第220页地图原图](/assets/books/fr/fr_map_plate_page_220_original.png)
 
 ![第220页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_220_labels_zh.png)
 
@@ -166,7 +145,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第221页：闪耀之海与卡林杉沿岸地图局部
 
-![第221页地图原图](/assets/books/fr/fr_map_plate_page_221_original.png)
 
 ![第221页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_221_labels_zh.png)
 
@@ -174,7 +152,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第222页：阿诺洛克与冰冻森林地图局部
 
-![第222页地图原图](/assets/books/fr/fr_map_plate_page_222_original.png)
 
 ![第222页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_222_labels_zh.png)
 
@@ -182,7 +159,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第223页：月海、科米尔与塞姆比亚地图局部
 
-![第223页地图原图](/assets/books/fr/fr_map_plate_page_223_original.png)
 
 ![第223页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_223_labels_zh.png)
 
@@ -190,7 +166,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第224页：图尔米什、维尔洪湾与乔恩达斯地图局部
 
-![第224页地图原图](/assets/books/fr/fr_map_plate_page_224_original.png)
 
 ![第224页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_224_labels_zh.png)
 
@@ -198,7 +173,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第225页：夏尔与蒸汽湖周边地图局部
 
-![第225页地图原图](/assets/books/fr/fr_map_plate_page_225_original.png)
 
 ![第225页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_225_labels_zh.png)
 
@@ -206,7 +180,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第226页：索萨尔与大冰川地图局部
 
-![第226页地图原图](/assets/books/fr/fr_map_plate_page_226_original.png)
 
 ![第226页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_226_labels_zh.png)
 
@@ -214,7 +187,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第227页：达马拉、纳费尔与东部海岸地图局部
 
-![第227页地图原图](/assets/books/fr/fr_map_plate_page_227_original.png)
 
 ![第227页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_227_labels_zh.png)
 
@@ -222,7 +194,6 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第228页：棋森塔、穆尔霍兰德与安瑟地图局部
 
-![第228页地图原图](/assets/books/fr/fr_map_plate_page_228_original.png)
 
 ![第228页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_228_labels_zh.png)
 
@@ -230,20 +201,20 @@ PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、M
 
 ### PDF 第229页：东夏尔与大裂谷南侧地图局部
 
-![第229页地图原图](/assets/books/fr/fr_map_plate_page_229_original.png)
 
 ![第229页地图标注中文对照板（仅收录清晰可辨标签）](/assets/books/fr/fr_map_plate_page_229_labels_zh.png)
 
 第229页的对照板覆盖阿祖尔布斯“盐之湖”、东夏尔、大裂谷、大地之心、科尔塔尔、“前往杜尔帕尔”以及“前往卢伊伦（半身人之地）”。原图按旋转后的方向阅读，边缘裁切标签仍以原地图为准。
 
-这些页面中的地名、山脉、河流、道路、遗迹、城镇和区域标题均以原图为准，不能仅凭 OCR 文本替代。本站资源会先挂载清晰的原页图；在本书正式生成 CHM 和发布前，逐页制作中文标注层，保留原英文专名、位置、线型、颜色、比例与地图图例，不覆盖原始资源。
+
 
 ## 封底
 
 PDF 第230页为《Forgotten Realms Campaign Set》封底。封底宣传文字说明：盒装内容包括一册 96 页玩家书，按字母顺序收录已知区域、城市、人物与事物，并配有许多著名城市与土地的地图；一册 96 页 DM 书，包含运行国度战役所需资料，从把现有角色带入被遗忘国度，到两场完整的导入式小冒险，再到已知魔法文献及其中魔法的清单；另有四张全彩地图展示整片国度和较著名区域的细节，并收录专属于被遗忘国度的冒险规则。封底最后写着：“这里有你需要的一切——除了你的想象力。”
 
-![第230页封底原图](/assets/books/fr/fr_back_cover_page_230_original.png)
 
 ![第230页封底中文覆盖层](/assets/books/fr/fr_back_cover_page_230_zh.png)
 
-原书 PDF 第198–230页（印刷地图与封底页）；保留全部地图页、图例、比例与封底宣传和版权信息，待逐页图像清晰化汉化后同步网站。
+![第230页封底原图](/assets/books/fr/fr_back_cover_page_230_original.png)
+
+原书 PDF 第198–229页整页扫描不嵌入阅读版；地图中文标注层仍在，待裁出地图主体并复核后再展示。第230页封底作为独立封底资源保留。

@@ -1,5 +1,4 @@
-![谷地诸国地图与议会名单原页](/assets/books/fr/fr_dalelands_map_council_page_36_original.png)
-![达马拉、黑堡与深谷地原页](/assets/books/fr/fr_damara_darkhold_page_37_original.png)
+![谷地诸国地图，原书 PDF 第 36 页地图裁片](/assets/books/fr/fr_dalelands_map_page_36_map.png)
 
 ## 谷地诸国 THE DALELANDS（续）
 

@@ -1,5 +1,3 @@
-![科米尔近代王室谱系与军政规则原页](/assets/books/fr/fr_cormyr_lineage_customs_page_34_original.png)
-![匕首谷地、匕首滩与谷地诸国原页](/assets/books/fr/fr_daggerdale_daggerford_dalelands_page_35_original.png)
 
 ## 科米尔 CORMYR（续）
 
@@ -79,3 +77,4 @@
 谷地诸国这一地区被定义为：位于塞姆比亚与科米尔以北、泰什河与文拉尔镇以南的无森林区域。这片地区散布着许多不同社群，它们主要是乡村性质，通常拥有共同的利益与理想。此外，谷地诸国也是许多强大人物或团体的家园；这些人或团体认为当地人的独立性符合自己的信念。
 
 原书 PDF 第 36–37 页（印刷页 34–35）；谱系图、和平绳与科米尔雇佣兵特许规则均按原页保留。
+

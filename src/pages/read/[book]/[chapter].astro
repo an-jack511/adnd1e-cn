@@ -1,0 +1,31 @@
+---
+import { readFileSync } from 'node:fs';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import reading from '../../../data/public/book-reading.json';
+import directory from '../../../data/public/book-directory.json';
+export function getStaticPaths() {
+ return Object.entries(reading).flatMap(([book,groups])=>groups.flatMap(group=>group.chapters.map(chapter=>({params:{book,chapter:chapter.href.split('/').pop()!.replace('chapter-','').replace('.html','')},props:{book,chapter}}))));
+}
+const {book,chapter}=Astro.props;
+const info=directory.find(entry=>entry.id===book)!;
+const raw=readFileSync(new URL(`../../../../public${chapter.href}`,import.meta.url),'utf8');
+let content=raw.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)![1];
+content=content.replace(/\b(href|src)="([^"]+)"/gi,(_match,key,value)=>value.startsWith('#')||value.startsWith('/')||/^[a-z]+:/i.test(value) ? `${key}="${value}"` : `${key}="${new URL(value,`https://local.invalid/archive/${book}/`).pathname}${new URL(value,`https://local.invalid/archive/${book}/`).hash}"`);
+const groups=reading[book as keyof typeof reading];
+const siblings=groups.flatMap(group=>group.chapters);
+const position=siblings.findIndex(entry=>entry.href===chapter.href);
+const href=(entry:typeof chapter)=>`/read/${book}/${entry.href.split('/').pop()!.replace('chapter-','').replace('.html','')}/`;
+const bookHref= `/read/${book}/`;
+---
+<BaseLayout title={`${chapter.title} · ${info.short}`}>
+ <article class="book-article chapter-reading" data-book={book}>
+  <p class="book-source-line"><a href={bookHref}>{info.titleZh}</a></p>
+  <div class="book-body" set:html={content} />
+  <nav class="book-page-nav" aria-label="相邻章节">
+   {siblings[position-1]&&<a href={href(siblings[position-1])}>← {siblings[position-1].title.split(' · ')[0]}</a>}
+   <a href={bookHref}>返回目录</a>
+   {siblings[position+1]&&<a href={href(siblings[position+1])}>{siblings[position+1].title.split(' · ')[0]} →</a>}
+  </nav>
+ </article>
+ <script is:inline src="/reference-copy.js" defer></script>
+</BaseLayout>

@@ -90,7 +90,7 @@
 
 #### +5 圣剑 Sword +5, Holy Avenger
 
-这是一把圣剑。除圣武士以外的任何角色使用时，它只发挥 <strong>+2</strong> 剑的作用。但圣武士使用时，它会在半径 <strong>5'</strong>内产生 <strong>50%</strong> 魔法抗力；还能以等同于圣武士经验等级的法师等级，在半径 <strong>5'</strong>内施展“解除魔法”；对混乱邪恶阵营的对手另造成 <strong>+10 点伤害</strong>（另参见《玩家手册》“职业：圣武士”）。
+这是一把圣剑。除圣武士以外的任何角色使用时，它只发挥 <strong>+2</strong> 剑的作用。但圣武士使用时，它会在半径 <strong>5'</strong>内产生 <strong>50%</strong> 魔法抗性；还能以等同于圣武士经验等级的法师等级，在半径 <strong>5'</strong>内施展“解除魔法”；对混乱邪恶阵营的对手另造成 <strong>+10 点伤害</strong>（另参见《玩家手册》“职业：圣武士”）。
 
 #### 舞剑 Sword of Dancing
 

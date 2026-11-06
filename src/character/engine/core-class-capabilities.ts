@@ -33,7 +33,7 @@ function valueFor(capability: CoreClassCapability, level: number): CapabilityVal
     case 'ranger-giant-damage': return {kind:'number', value:level, label:'近战伤害加值'};
     case 'druid-extra-languages': return {kind:'number', value:level - 2, label:'由该能力获得的语言数'};
     case 'monk-weapon-damage-bonus': return {kind:'number', value:level / 2, label:'允许武器伤害加值'};
-    case 'monk-surprise-percent': return {kind:'percent', value:level === 1 ? 100 / 3 : Math.max(0, 36 - 2 * level), label:'受惊概率'};
+    case 'monk-surprise-percent': return {kind:'percent', value:level === 1 ? 100 / 3 : Math.max(0, 36 - 2 * level), label:'被突袭概率'};
     case 'monk-esp-percent': return {kind:'percent', value:Math.max(0, 30 - 2 * (level - 4)), label:'ESP成功读取武僧的概率'};
     case 'monk-catalepsy-turns': return {kind:'number', value:2 * level, label:'最长turn数'};
     case 'monk-self-heal': return {kind:'dice', dice:`1d4+${level - 6}`, label:'每日一次治疗HP'};

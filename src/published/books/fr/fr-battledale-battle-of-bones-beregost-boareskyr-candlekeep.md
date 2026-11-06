@@ -1,5 +1,3 @@
-![战斗谷地、战斗之骨与贝雷戈斯特原页](/assets/books/fr/fr_battledale_beregost_page_28_original.png)
-![博阿雷斯克尔桥、卡林杉与烛堡原页](/assets/books/fr/fr_boareskyr_candlekeep_page_29_original.png)
 
 ## 战斗谷地游戏信息 Battledale: Game Information
 
@@ -131,3 +129,4 @@
   3. 这种访阅允许持续九天九夜。第十天早晨，申请人必须选择离开（以后可以回来），或加入该组织成为侍僧。
 
 原书 PDF 第 30–31 页（印刷页 28–29）；亡灵遭遇、城镇军力、商队规则、坐骑收费与烛堡服务规则均保留。
+

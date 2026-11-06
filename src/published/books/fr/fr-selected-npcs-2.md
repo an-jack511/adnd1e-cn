@@ -158,4 +158,4 @@ Khelben 是剑湾最强大、最有影响力的大法师，也是深水城的统
 
 Khelben 总是在设法影响某个事件或趋势，而且会提前数年观察。他是林地守护者和画家，训练过许多著名法师。
 
-原书 PDF 第 121–124 页（印刷页 21–24）；保留 Elminster、沉睡之剑、Eregul、Eressea、Flame、Florin、Fzoul、Garth、Gharri、Gunthor、Guthbert、Hawkstone、Illistyl、Islif、Jelde、Jhessail 与 Khelben 的完整条目，并挂载对应原页图。下一批继续 Lhaeo 及其后的 NPC。
+原书 PDF 第 121–124 页（印刷页 21–24）；保留 Elminster、沉睡之剑、Eregul、Eressea、Flame、Florin、Fzoul、Garth、Gharri、Gunthor、Guthbert、Hawkstone、Illistyl、Islif、Jelde、Jhessail 与 Khelben 的完整条目，并挂载对应原页图。

@@ -9,8 +9,8 @@ assert.deepEqual(paladin.map((issue) => issue.code), ['ability-WIS', 'ability-CH
 assert.equal(checkEligibility({ raceId: 'elf', classId: 'magic-user', alignment: 'CG', abilities: { INT: '15', DEX: '16' } }, classes, races).length, 0);
 assert.ok(checkEligibility({ raceId: 'dwarf', classId: 'magic-user', alignment: 'CG', abilities: { INT: '15' } }, classes, races).some((issue) => issue.code === 'race-class'));
 
-const chain = items.find((item) => item.nameZh === '链甲' && item.category === '护甲');
-const shield = items.find((item) => item.nameZh === '大盾' && item.category === '护甲');
+const chain = items.find((item) => item.nameZh === '链甲' && item.category === '护甲与盾牌');
+const shield = items.find((item) => item.nameZh === '大盾' && item.category === '护甲与盾牌');
 const sword = items.find((item) => item.id === 'long-sword');
 assert.ok(chain && shield && sword);
 assert.equal(computeArmorClass(chain, shield, '17').value, 1);

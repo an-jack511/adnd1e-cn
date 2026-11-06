@@ -1,0 +1,12 @@
+---
+import type {LibraryDetail} from '../schemas';
+interface Props {details?:LibraryDetail[]}
+const {details=[]}=Astro.props;
+const content=(detail:LibraryDetail,index:number)=>detail.html.replace(/\bid="([^"]+)"/g,(_,id)=>`id="rule-${index}-${id}"`).replace(/href="#([^"]+)"/g,(_,id)=>`href="#rule-${index}-${id}"`);
+---
+{details.length>0 && <div class="library-rules">{details.map((detail,index)=><section class="library-rule" id={`source-rule-${index}`}><header><h2>{detail.title}</h2><p class="rule-citation"><span>{detail.source.book}{detail.source.page ? ` · 第 ${detail.source.page} 页` : ''}</span> · <a href={detail.href} target="_top">阅读规则书出处 ↗</a><button type="button" data-copy-citation={`${detail.source.book}${detail.source.page?` p.${detail.source.page}`:''} · ${detail.source.section??detail.title}`} data-citation-href={detail.href}>复制引用</button></p></header><div class="rule-body" set:html={content(detail,index)} /></section>)}</div>}
+<script>
+ document.querySelectorAll<HTMLButtonElement>('[data-copy-citation]').forEach(button=>button.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(`${button.dataset.copyCitation}\n${new URL(button.dataset.citationHref!,location.origin).href}`);button.textContent='已复制';}catch{button.textContent='复制失败，请复制出处链接';}
+ }));
+</script>

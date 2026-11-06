@@ -1,0 +1,392 @@
+{
+  "format": "adnd1e-character",
+  "schemaVersion": "1.1.0",
+  "document": {
+    "id": "dragonlance-goldmoon-human-cleric-11:export",
+    "characterId": "dragonlance-goldmoon-human-cleric-11",
+    "revision": 1,
+    "parentRevision": null,
+    "branchId": "main",
+    "exportedAt": "2026-10-17T00:00:00+08:00",
+    "view": "player",
+    "archiveGuarantee": "checkpoint-and-audit"
+  },
+  "rules": {
+    "engineContractVersion": "1.0.0",
+    "profileId": "dragonlance-dl14-source-roster",
+    "profileRevision": 1,
+    "packs": [
+      {
+        "id": "adnd1e.phb-dmg-mm",
+        "version": "1e-source-compatible",
+        "digest": "source-backed-profile-not-replayed"
+      },
+      {
+        "id": "adnd1e.dragonlance-dl14",
+        "version": "9180-local",
+        "digest": "dl14-pdf-page-100"
+      }
+    ],
+    "options": {
+      "abilityGeneration": "DL14:预生成人物表",
+      "levelAndHp": "DL14:预生成人物表",
+      "experience": "原表未提供",
+      "money": "原表未提供",
+      "ordinaryEquipment": "由战役决定"
+    },
+    "decisions": [
+      {
+        "id": "dragonlance-goldmoon-human-cleric-11:source-import",
+        "ruleId": "dragonlance.pre-generated-character",
+        "choice": "imported-source-profile",
+        "reason": "从 DL14 人物表导入来源事实；不伪造一级骰史、DM 审核或未列出的物品与法术。",
+        "actorId": "local-source-import",
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "dl14:player-characters",
+        "book": "DL14《龙枪：胜利之龙》",
+        "printing": "本地 TSR 1e PDF；人物表扫描页",
+        "printedPages": [],
+        "pdfPages": [
+          100
+        ],
+        "section": "Player Characters",
+        "status": "verified-text",
+        "locator": "local:Dragonlance:DL14:pdf:100",
+        "verificationScope": "人物表中的属性、阵营、HP、AC、职业等级、魔法装备及语言；原表说明所有角色另会通用语。"
+      }
+    ],
+    "definitions": [
+      {
+        "id": "DL14:goldmoon-human-cleric-11:item:1",
+        "kind": "source-listed-equipment",
+        "facts": {
+          "label": "+3 防护斗篷",
+          "suppliedBySource": true,
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      },
+      {
+        "id": "DL14:goldmoon-human-cleric-11:item:2",
+        "kind": "source-listed-equipment",
+        "facts": {
+          "label": "治疗法杖",
+          "suppliedBySource": true,
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      },
+      {
+        "id": "DL14:goldmoon-human-cleric-11:item:3",
+        "kind": "source-listed-equipment",
+        "facts": {
+          "label": "+2 盾牌",
+          "suppliedBySource": true,
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      }
+    ],
+    "embeddedBundles": []
+  },
+  "checkpoint": {
+    "atSequence": 3,
+    "facts": {
+      "identity": {
+        "name": "黄金月",
+        "raceId": "human",
+        "sex": "未提供",
+        "alignment": "守序善良",
+        "ageYears": null,
+        "languages": [
+          "通用语",
+          "奎利内斯提语",
+          "山地矮人语",
+          "平原人语"
+        ],
+        "description": "龙枪人物表来源档案：人类牧师 11级。"
+      },
+      "abilities": {
+        "base": {
+          "STR": 12,
+          "INT": 12,
+          "WIS": 16,
+          "DEX": 14,
+          "CON": 12,
+          "CHA": 17
+        },
+        "exceptionalStrength": null,
+        "generation": {
+          "methodId": "DL14:预生成人物表",
+          "rollIds": [],
+          "assignment": {}
+        },
+        "changes": []
+      },
+      "careers": [
+        {
+          "id": "dragonlance-goldmoon-human-cleric-11:career",
+          "classId": "cleric",
+          "variantId": "DL14:source-profile",
+          "level": 11,
+          "xp": 0,
+          "status": "active",
+          "levelHistory": [
+            {
+              "level": 11,
+              "eventId": "dragonlance-goldmoon-human-cleric-11:source-profile",
+              "hpDice": [],
+              "hpAward": 46,
+              "sourceIds": [
+                "dl14:player-characters"
+              ]
+            }
+          ],
+          "training": [],
+          "choices": {
+            "sourceImported": true,
+            "weaponAndClassChoices": "DL14人物表未完整列出熟练记录"
+          }
+        }
+      ],
+      "resources": {
+        "hp": {
+          "damage": 0,
+          "temporary": 0
+        },
+        "wallets": [
+          {
+            "id": "dragonlance-goldmoon-human-cleric-11:purse",
+            "locationId": "body",
+            "coins": {
+              "pp": 0,
+              "gp": 0,
+              "ep": 0,
+              "sp": 0,
+              "cp": 0
+            }
+          }
+        ],
+        "inventory": [
+          {
+            "id": "dragonlance-goldmoon-human-cleric-11:item:1",
+            "definitionId": "DL14:goldmoon-human-cleric-11:item:1",
+            "label": "+3 防护斗篷",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+3 防护斗篷"
+            }
+          },
+          {
+            "id": "dragonlance-goldmoon-human-cleric-11:item:2",
+            "definitionId": "DL14:goldmoon-human-cleric-11:item:2",
+            "label": "治疗法杖",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "治疗法杖"
+            }
+          },
+          {
+            "id": "dragonlance-goldmoon-human-cleric-11:item:3",
+            "definitionId": "DL14:goldmoon-human-cleric-11:item:3",
+            "label": "+2 盾牌",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+2 盾牌"
+            }
+          }
+        ],
+        "conditions": [],
+        "abilitiesUsed": {},
+        "locations": [
+          {
+            "id": "body",
+            "kind": "person",
+            "parentId": null,
+            "containerInstanceId": null,
+            "entityId": "dragonlance-goldmoon-human-cleric-11"
+          },
+          {
+            "id": "worn",
+            "kind": "body-slot",
+            "parentId": "body",
+            "containerInstanceId": null,
+            "entityId": null
+          }
+        ]
+      },
+      "magic": {
+        "understanding": [],
+        "books": [],
+        "memory": [],
+        "research": [],
+        "qualificationRounds": []
+      },
+      "campaign": {
+        "time": "未设定",
+        "status": "draft",
+        "relationships": [],
+        "properties": [],
+        "activities": [],
+        "goals": [
+          "在龙枪战役中继续运营人物。"
+        ],
+        "admission": {
+          "status": "pending",
+          "decisionId": null,
+          "acceptedScopes": [
+            "source-profile"
+          ],
+          "outstanding": [
+            "原表未提供金钱；请在战役中记录实际财富。",
+            "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+            "原表未提供完整法术书、法术知悉结果和已记忆法术。",
+            "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+          ]
+        },
+        "lifeState": "alive",
+        "actionRestrictions": []
+      },
+      "careerPath": {
+        "mode": "single",
+        "careerIds": [
+          "dragonlance-goldmoon-human-cleric-11:career"
+        ],
+        "phases": []
+      },
+      "hpAwards": [],
+      "advancement": {
+        "adventureAssessments": [],
+        "xpBatches": [],
+        "pending": []
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "dragonlance-goldmoon-human-cleric-11:source-profile",
+      "sequence": 1,
+      "parentId": null,
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-profile-import"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-goldmoon-human-cleric-11:source-equipment",
+      "sequence": 2,
+      "parentId": "dragonlance-goldmoon-human-cleric-11:source-profile",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-listed-equipment"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-goldmoon-human-cleric-11:open-items",
+      "sequence": 3,
+      "parentId": "dragonlance-goldmoon-human-cleric-11:source-equipment",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "player",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "原表未提供金钱；请在战役中记录实际财富。",
+          "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+          "原表未提供完整法术书、法术知悉结果和已记忆法术。",
+          "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    }
+  ],
+  "rolls": [],
+  "overrides": [],
+  "cache": {
+    "engineVersion": "source-profile-cache",
+    "rulesDigest": "dl14-pdf-page-100",
+    "throughSequence": 3,
+    "values": {
+      "hpMax": 46,
+      "hpCurrent": 46,
+      "armorClass": -3,
+      "sourceProfile": true
+    },
+    "warnings": [
+      "这是 DL14 预生成人物表的来源档案；等级、HP、AC 与装备未由一级创建过程重放。",
+      "原表未提供金钱；请在战役中记录实际财富。",
+      "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+      "原表未提供完整法术书、法术知悉结果和已记忆法术。",
+      "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+    ]
+  },
+  "provenance": {
+    "creator": "dragonlance-source-roster",
+    "importedFrom": "DL14:Player Characters:PDF page 100",
+    "migrations": [],
+    "unmappedLegacy": {}
+  },
+  "extensions": {
+    "dragonlance": {
+      "source": "dl14:player-characters",
+      "nameChinese": "黄金月",
+      "classChinese": "牧师",
+      "raceChinese": "人类",
+      "spellCoverage": "未从 DL14 人物表取得；待补原始法术书/战役记录",
+      "sourceEquipmentOnly": true,
+      "originalLanguagesIncludeCommon": true
+    }
+  },
+  "proposals": []
+}

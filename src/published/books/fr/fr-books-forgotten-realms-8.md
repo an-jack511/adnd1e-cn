@@ -125,3 +125,4 @@ The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提�
 Hym Kraaven 从未在 Myth Drannor 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。Hillsfar 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 Laeral，二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。Laeral 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
 
 原书 PDF 第186–189页（印刷页86–89）；保留 Aubayreer 工作册的外观与失窃史、Hailcone、Phase Trap、Thunderlance、Orjalun《Arbatel》、Encrypt、Secure，以及《The Scalamagdrion》的外观和历史开头，并挂载对应原页图。
+

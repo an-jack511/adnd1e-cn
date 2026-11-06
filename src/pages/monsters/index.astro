@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EntryTable from '../../components/EntryTable.astro';
+import FilterChoices from '../../components/FilterChoices.astro';
 import { monsters } from '../../data/public/monsters';
+import { monsterSize, monsterSizeLabel, monsterSizeOptions } from '../../utils/monster-size';
 const sources = [...new Set(monsters.flatMap((monster) => monster.source.map((source) => source.book)))].sort();
-const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.source.map((source) => source.book).join('、'), monster.hitDice, monster.armorClassText ?? (monster.armorClass === null ? '未知' : String(monster.armorClass)), monster.alignment, monster.size, monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
+const records = monsters.map(monster=>({search:`${monster.nameZh} ${monster.nameEn} ${monster.description}`.toLowerCase(),hd:monster.hitDice.toLowerCase(),ac:monster.armorClass,alignment:monster.alignment.toLowerCase(),environment:monster.environment.toLowerCase(),facets:{source:monster.source.map(source=>source.book),size:[monsterSize(monster.size)]}}));
+const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.source.map((source) => source.book).join('、'), monster.hitDice, monster.armorClassText ?? (monster.armorClass === null ? '未知' : String(monster.armorClass)), monster.alignment, monsterSizeLabel(monster.size), monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
 const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]);
 ---
 <BaseLayout title="怪物合集" description="AD&D 1E 中文怪物索引与筛选。">
@@ -14,31 +17,12 @@ const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, u
     <label>HD <input id="monster-hd" type="search" placeholder="例如 5+2" /></label>
     <label>AC ≤ <input id="monster-ac" type="number" /></label>
     <label>阵营 <input id="monster-alignment" type="search" /></label>
-    <label>体型 <select id="monster-size"><option value="">全部体型</option>{[...new Set(monsters.map((monster) => monster.size))].map((value) => <option value={value}>{value}</option>)}</select></label>
     <label>环境 <input id="monster-environment" type="search" /></label>
-    <label>来源 <select id="monster-source"><option value="">全部来源</option>{sources.map((source) => <option value={source}>{source}</option>)}</select></label>
-  </div></div>
+  </div><FilterChoices name="size" label="体型" options={[...monsterSizeOptions]} /><FilterChoices name="source" label="来源" options={sources.map(value=>({value,label:value}))} /></div>
   <p id="monster-count" class="results-count">显示 {monsters.length} 条怪物</p>
-  <div id="monster-results"><EntryTable headers={['中文名', '英文名', '来源', 'HD', 'AC', '阵营', '体型', '环境', '移动', '魔抗', '灵能']} rows={rows} links={links} /></div>
-  <script define:vars={{ monsters }}>
-    const inputs = ['name', 'hd', 'ac', 'alignment', 'size', 'environment', 'source'].map((key) => document.querySelector(`#monster-${key}`));
-    const [name, hd, ac, alignment, size, environment, source] = inputs;
-    const count = document.querySelector('#monster-count');
-    const results = document.querySelector('#monster-results');
-    const fields = { name, hd, ac, alignment, size, environment, source };
-    const params = new URLSearchParams(location.search);
-    for (const [key, input] of Object.entries(fields)) input.value = params.get(key) ?? '';
-    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
-    const render = () => {
-      const query = name.value.trim().toLowerCase();
-      const filtered = monsters.filter((monster) => (!query || `${monster.nameZh} ${monster.nameEn} ${monster.description}`.toLowerCase().includes(query)) && (!hd.value || monster.hitDice.toLowerCase().includes(hd.value.trim().toLowerCase())) && (!ac.value || (monster.armorClass !== null && monster.armorClass <= Number(ac.value))) && (!alignment.value || monster.alignment.includes(alignment.value.trim())) && (!size.value || monster.size === size.value) && (!environment.value || monster.environment.includes(environment.value.trim())) && (!source.value || monster.source.some((entry) => entry.book === source.value)));
-      count.textContent = `显示 ${filtered.length} 条怪物`;
-      results.innerHTML = `<div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">中文名</th><th scope="col">英文名</th><th scope="col">来源</th><th scope="col">HD</th><th scope="col">AC</th><th scope="col">阵营</th><th scope="col">体型</th><th scope="col">环境</th><th scope="col">移动</th><th scope="col">魔抗</th><th scope="col">灵能</th></tr></thead><tbody>${filtered.map((monster) => `<tr><td><a href="/monsters/${encodeURIComponent(monster.id)}">${escapeHtml(monster.nameZh)}</a></td><td>${escapeHtml(monster.nameEn)}</td><td>${escapeHtml(monster.source.map((entry) => entry.book).join('、'))}</td><td>${escapeHtml(monster.hitDice)}</td><td>${escapeHtml(monster.armorClassText ?? (monster.armorClass === null ? '未知' : monster.armorClass))}</td><td>${escapeHtml(monster.alignment)}</td><td>${escapeHtml(monster.size)}</td><td>${escapeHtml(monster.environment)}</td><td>${escapeHtml(monster.movement)}</td><td>${escapeHtml(monster.magicResistance)}</td><td>${escapeHtml(monster.psionics)}</td></tr>`).join('')}</tbody></table></div>`;
-      const url = new URL(location.href);
-      for (const [key, input] of Object.entries(fields)) input.value ? url.searchParams.set(key, input.value) : url.searchParams.delete(key);
-      history.replaceState({}, '', url);
-    };
-    inputs.forEach((input) => input.addEventListener('input', render));
-    render();
+  <div id="monster-results"><EntryTable headers={['中文名', '英文名', '来源', 'HD', 'AC', '阵营', '体型', '环境', '移动', '魔抗', '灵能']} rows={rows} links={links} records={records} /></div>
+  <script>
+    import {tableFilter} from '../../utils/table-filter';
+    tableFilter<{search:string;hd:string;ac:number|null;alignment:string;environment:string}>('monster',['name','hd','ac','alignment','environment'],['size','source'],(record,values)=>record.search.includes(values.name) && record.hd.includes(values.hd) && (!values.ac || (record.ac!==null && record.ac<=Number(values.ac))) && record.alignment.includes(values.alignment) && record.environment.includes(values.environment));
   </script>
 </BaseLayout>

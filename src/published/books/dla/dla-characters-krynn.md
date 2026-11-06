@@ -218,7 +218,7 @@ Soth 回头了，灾变随即发生。精灵女子和她的孩子在 Soth 王座
 
 #### 王冠骑士等级表 Crown Knight Level Table
 
-| 等级 | 经验值 | 命中骰（d10） | 称号 |
+| 等级 | 经验值 | 生命骰（d10） | 称号 |
 |---:|---:|---:|---|
 | 1 | 2,500 | 2 | 王冠侍从 Squire of Crown |
 | 2 | 5,000 | 3 | 王冠卫士 Defender of Crown |
@@ -305,7 +305,7 @@ Soth 回头了，灾变随即发生。精灵女子和她的孩子在 Soth 王座
 
 #### 宝剑骑士晋级表 Sword Knight Advancement Table
 
-| 等级 | 经验值 | 命中骰（d10） | 称号 |
+| 等级 | 经验值 | 生命骰（d10） | 称号 |
 |---:|---:|---:|---|
 | 3 | 12,000 | 4 | 宝剑新手 Novice of Swords |
 | 4 | 24,000 | 5 | 宝剑骑士 Knight of Swords |
@@ -385,7 +385,7 @@ Soth 回头了，灾变随即发生。精灵女子和她的孩子在 Soth 王座
 
 #### 玫瑰骑士晋级表 Rose Knight Advancement Table
 
-| 等级 | 经验值 | 命中骰（d10） | 称号 |
+| 等级 | 经验值 | 生命骰（d10） | 称号 |
 |---:|---:|---:|---|
 | 4 | 27,000 | 5 | 玫瑰新手 Novice of Roses |
 | 5 | 60,000 | 6 | 眼泪骑士 Knight of Tears |

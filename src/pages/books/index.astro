@@ -1,6 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import directory from '../../data/public/book-directory.json';
 import { books } from '../../data/public/books';
 import published from '../../data/published/books.json';
+const catalog = [...directory,...books.filter(book=>!directory.some(entry=>entry.id===book.id)&&published.some(topic=>topic.book===book.id)).map(book=>({...book,group:'其他资料 Other Resources',archive:''}))];
+const groups = [...new Set(catalog.map(book=>book.group))];
 ---
-<BaseLayout title="规则书"><h1>规则书</h1><div class="book-list">{books.filter((book) => published.some((topic) => topic.book === book.id)).map((book) => <article class="book-row"><div class="book-code">{book.short}</div><div><h3><a href={`/books/${book.id}`}>{book.titleZh}</a></h3><p>{published.filter((topic) => topic.book === book.id).length} 篇 · {book.description}</p></div></article>)}</div></BaseLayout>
+<BaseLayout title="规则书">
+  <div class="section-heading"><h1>规则书</h1><a href="/reference/">检索原书章节与表格</a></div>
+  {groups.map(group=><section><h2>{group}</h2><div class="table-wrap"><table class="data-table">
+    <thead><tr><th>书名</th><th>英文名</th><th>简称</th><th>阅读</th></tr></thead>
+    <tbody>{catalog.filter(book=>book.group===group).map(book=>{
+      const hasChapters=published.some(topic=>topic.book===book.id);
+      const href=book.archive ? `/read/${book.id}/` : `/books/${book.id}/`;
+      return <tr><td><a href={href}>{book.titleZh}</a></td><td>{book.title}</td><td>{book.short}</td><td><a href={href}>阅读</a></td></tr>;
+    })}</tbody>
+  </table></div></section>)}
+</BaseLayout>

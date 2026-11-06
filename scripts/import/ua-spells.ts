@@ -18,7 +18,7 @@ for (const file of readdirSync(root).filter((name) => /^(cleric|druid|magic-user
   const chunks = body.split(/^##\s+/m).slice(1);
   for (const chunk of chunks) {
     const [heading, ...rest] = chunk.split(/\r?\n/);
-    const match = heading.match(/^(.+?)\s+([A-Za-z][A-Za-z'’ ,\-/]+?)(?:（|\(|$)/);
+    const match = heading.match(/^(.+?)\s+([A-Za-zÀ-ž][A-Za-zÀ-ž'’ ,&\-/]+?)(?:（|\(|$)/);
     if (!match) continue;
     const nameZh = clean(match[1]);
     const nameEn = clean(match[2]);

@@ -1,6 +1,6 @@
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 极罕见 |
+| 出现频率 | 极罕见 |
 | 出现数量 No. Appearing | 4–24 |
 | 护甲等级 Armour Class | 10 |
 | 移动 Move | 12" |

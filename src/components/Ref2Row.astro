@@ -1,0 +1,12 @@
+---
+export interface Column { key: string; label: string; type?: string; options?: {value:string;label:string}[]; list?: string; class?: string; pair?: { key: string; label: string } }
+interface Props { columns: Column[]; note?: string; noteLabel?: string }
+const {columns,note,noteLabel='背景'}=Astro.props;
+---
+<tbody data-card-row>
+  <tr>{columns.map(column=><td data-label={column.label} class={column.class}>
+    {column.pair ? <div class="paired-cell"><input data-cell={column.key} aria-label={column.label.split("／")[0]} /><span>/</span><input data-cell={column.pair.key} aria-label={column.pair.label} /></div> : column.options ? <select data-cell={column.key} aria-label={column.label}><option value="">—</option>{column.options.map(option=><option value={option.value}>{option.label}</option>)}</select>
+      : <input data-cell={column.key} type={column.type ?? 'text'} min={column.type==='number' ? '0' : undefined} list={column.list} aria-label={column.label} />}
+  </td>)}<td class="row-actions"><button type="button" data-remove-row aria-label="移除此条记录" title="移除此条记录">×</button></td></tr>
+  {note&&<tr class="row-note"><td colspan={columns.length+1}><label>{noteLabel}<input data-cell={note} aria-label={noteLabel} /></label></td></tr>}
+</tbody>

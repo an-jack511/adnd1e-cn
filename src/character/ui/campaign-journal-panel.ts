@@ -34,9 +34,9 @@ export function renderCampaignJournal(view: CampaignJournalView): string {
       </div>
       <p>只登记实际占用；活动收益另行结算。</p>
       <details>
-        <summary>操作条件与裁定边界</summary>
-        <p id="journal-activity-note">只登记旅行、冒险、休整、学习、研究、制造等已发生的实际时间占用，不核定收益、不授予成果、不计算费用；提交时仍须通过现有活动重叠检查。训练请使用成长页。${view.calendar ? '' : '请先在成长页确认战役日历，再登记活动时段。'}</p>
-        <p>经验与财富分别登记，确认后才写入档案；可用条件仍由现有规则检查。本地记录不是身份认证。</p>
+        <summary>登记说明</summary>
+        <p id="journal-activity-note">登记旅行、冒险、休整、学习、研究或制造的起止时间；时段不能重叠。训练请使用成长页。${view.calendar ? '' : '请先在成长页确认战役日历，再登记活动时段。'}</p>
+        <p>经验与财富分别登记，确认后才写入档案。</p>
       </details>
       <div class="journal-save" data-save-state><span>保存状态</span><strong>待核</strong><small>读取现有角色库</small></div>
     </section>
@@ -57,15 +57,15 @@ export function renderCampaignJournal(view: CampaignJournalView): string {
               ${entry.details.length ? `<details class="journal-details"><summary>查看公开详情</summary><ul>${entry.details.map(detail => `<li>${esc(detail)}</li>`).join('')}</ul></details>` : ''}
             </article>
           </li>`;
-        }).join('')}</ol>` : '<div class="empty-state"><h3>尚无公开活动记录</h3><p>完成实际操作后，相应公开记录会出现在这里；不会补造冒险或训练进度。</p></div>'}
+        }).join('')}</ol>` : '<div class="empty-state"><h3>尚无公开活动记录</h3><p>登记活动、结算经验或记录收入后，可在此查看。</p></div>'}
       </section>
       <aside class="context-panel journal-context">
         <h2>时间与范围</h2>
         <p>${calendar}</p>
         <p>条目编号仅表示追加顺序。补录的过去活动仍保留其录入位置，不改写已有历史。</p>
-        <h3>长期活动尚未完整接入</h3>
-        <p>研究、制造、经营据点及随从等活动仍需团桌处理。本页不提供模拟完成按钮，不根据经过天数自动获得法术、物品、经验或收入。</p>
-        <details><summary>公开记录与完整导出</summary><p>这里只展示公开投影提供的标题、时间和详情。完整运营档案可能包含内部记录，导出后请自行决定分享范围。</p></details>
+        <h3>活动结算</h3>
+        <p>研究、制造、据点经营与随从活动的成果及费用由团桌结算；结算后另行登记。</p>
+        <details><summary>导出与分享</summary><p>完整角色文件可能包含内部记录，分享前请检查内容。</p></details>
       </aside>
     </div>
   </div>`;

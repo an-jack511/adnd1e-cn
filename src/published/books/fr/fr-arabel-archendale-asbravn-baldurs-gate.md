@@ -1,5 +1,3 @@
-![阿拉贝尔续文与阿肯代尔原页](/assets/books/fr/fr_arabel_archendale_page_26_original.png)
-![阿斯布拉文、博德之门与野蛮人原页](/assets/books/fr/fr_baldurs_gate_barbarians_page_27_original.png)
 
 ## 阿拉贝尔续文 Arabel Continued
 
@@ -114,3 +112,4 @@
 战斗谷地没有正式的统治者或驻所，不过埃森布拉是谷地的贸易、集会与货物中心；盾会日的领袖、战争大臣伊尔梅特会作为战斗谷地的代表，被派往谷地议会。
 
 原书 PDF 第 28–29 页（印刷页 26–27）；战斗谷地的游戏信息与后续条目在下一主题继续。
+

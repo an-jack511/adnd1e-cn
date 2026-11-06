@@ -1,5 +1,3 @@
-![拉舍曼地理、胡龙与女巫原页](/assets/books/fr/fr_rashemen_witches_page_72_original.png)
-![拉舍曼火酒与规则原页](/assets/books/fr/fr_rashemen_firewine_page_73_original.png)
 
 ## 拉舍曼 RASHEMEN（Rah-SHEH-men）
 
@@ -65,3 +63,4 @@
 拉舍曼女巫极受尊敬；当地人愿意冒生命危险保护一名女巫。在国度其他地方没有见过女巫；如果她们确实游荡各地，也一定会伪装身份。
 
 原书 PDF 第 73–74 页（印刷页 71–72）；保留拉舍曼经济、胡龙、之牙军队、女巫组织、达杰玛成年仪式、火酒表格与昏睡规则。
+

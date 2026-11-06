@@ -50,7 +50,7 @@ function importRecord(raw: string, id: string) {
     attacks: stats.get('攻击次数') ?? '未记载', damage: stats.get('攻击伤害') ?? '未记载',
     specialAttacks: stats.get('特殊攻击') ?? '未记载', specialDefenses: stats.get('特殊防御') ?? '未记载',
     magicResistance: stats.get('魔法抗力') ?? '未记载', intelligence: stats.get('智力') ?? '未记载',
-    alignment: stats.get('阵营') ?? '未记载', size: stats.get('体型') ?? '未记载',
+    alignment: stats.get('阵营') ?? '未记载', size: id === 'mimic' && stats.get('体型') === 'I' ? 'L' : stats.get('体型') ?? '未记载',
     psionics: stats.get('灵能能力') ?? '未记载', environment: '原条目未单列',
     description, ...(illustration ? { illustration } : {}), source: [{ book: 'MM', section: english }]
   });

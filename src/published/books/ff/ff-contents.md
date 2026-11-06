@@ -1,55 +1,55 @@
 ## A
 
-Aarakocra；Achaierai；Adherer；Aleax；Algoid；Al-Mi’raj；Apparition；Assassin Bug；Astral Searcher。
+阿拉科克拉鸟人；阿查伊莱；黏附怪；神罚化身；藻人；独角兔；幻灵；刺客虫；星界搜寻者。
 
 ## B
 
-Babbler；巨型蝙蝠；Berbalang；Blindheim；Blood Hawk；巨型 Bloodhawk；Bonesnapper；Booka；Bullywug；Bunyip。
+喋喋怪；巨型蝙蝠；贝尔巴朗；炫目蛙怪；血鹰；巨型 Bloodhawk；碎骨兽；布卡精；蛙人；本耶普水兽。
 
 ## C
 
-Carbuncle；Caryatid Column；Caterwaul；Cifal；Clubnek；Coffer Corpse；蟹人；Crypt Thing。
+红宝兽；女像柱；夜嚎兽；群虫聚怪；棍喙鸟；棺尸；蟹人；墓穴怪。
 
 ## D
 
-Dakon；Dark Creeper；Dark Stalker；Death Dog；Death Knight；恶魔；Denzelj an；魔鬼；Devil Dog；Dire Corby；Disenchanter；Doombat；东方龙；Dragonfish；Dune Stalker。
+达孔猿人；黑暗潜伏者；黑暗追猎者；死亡犬；死亡骑士；恶魔；丹泽利安；魔鬼；魔犬；凶暴鸦人；消魔兽；厄运蝠；东方龙；龙鱼；沙丘追猎者。
 
 ## E
 
-邪恶元素王子；精灵；Enveloper；Ettercap；Eye Killer；Eye of Fear and Flame。
+邪恶元素王子；精灵；包裹怪；蛛化精怪；杀目兽；恐惧烈焰之眼。
 
 ## F
 
-Firedrake；Firenewt；Fire Snake；Firetoad；Flail Snail；Flind；Flumph；Forlarren；Frost Man。
+火蜥龙；火蜥人；火蛇；火蟾蜍；连枷蜗牛；弗林德豺狼人；弗伦浮怪；弗拉伦；霜人。
 
 ## G
 
-Galltrit；Gambado；Garbug；巨人；Giant Strider；Gibberling；Githyanki；Githzerai；Goldbug；Gorbel；Gorilla Bear；Grell；Grimlock；Gryph；Guardian Daemon；Guardian Familiar。
+加尔崔特；骷髅弹兽；加巴格；巨人；巨型跨步鸟；胡言兽；吉斯洋基人；吉斯泽莱人；金币虫；戈贝尔；猩熊；格瑞尔；石盲蛮族；格里夫；守卫达厄蒙；守卫魔宠。
 
 ## H
 
-Hellcat；Hoar Fox；Hook Horror；巨型 Hornet；Hound of Ill Omen；Huecuva。
+地狱猫；霜狐；钩爪恐兽；巨型 Hornet；凶兆猎犬；亵渎尸骸。
 
 ## I–K
 
-冰蜥蜴；Imorph；Iron Cobra；Jaculi；Jermlaine；Kamadan；Kelpie；Kenku；Khargra；Killmoulis；Kuo-Toa。
+冰蜥蜴；变形兽；铁眼镜蛇；标枪蛇；杰姆莱恩；卡玛丹蛇豹；水鬼；鸦人；卡格拉；基尔莫利斯；寇涛鱼人。
 
 ## L–N
 
-Lamia Noble；Lava Children；Lizard King；Magnesium Spirit；Mantari；Meazel；Meenlock；Mephit；Mezzodaemon；Mite；Necrophidius；Needleman；Nilbog；Nonafel；Norker；Nycadaemon。
+拉弥亚贵族；熔岩之子；蜥蜴王；镁光精魂；曼塔里；米泽尔；恐惧之锁；魔蝠；夹层魔；小蠹怪；死灵蛇构装体；针叶人；反地精；九尾猫；诺克地精；夜魔。
 
 ## O–Q
 
-Ogrillon；Osquip；Penanggalan；Pernicon；Phantom Stalker；Poltergeist；Protein Polymorph；Quaggoth；Quipper；Qullan。
+食人魔混血种；奥斯奎普；飞头鬼；佩尼孔虫；幻影追猎者；骚灵；原质变形怪；地底兽人；食人鱼；库兰人。
 
 ## R–S
 
-Retriever；Revenant；Rothe；Sandman；Scarecrow；Screaming Devilkin；Shadow Demon；Sheet Ghoul；Sheet Phantom；Shocker；Skeleton Warrior；Skulk；Slaad；Snyad；Son of Kyuss；Stunjelly；Sussurus；Svirfneblin；Symbiotic Jelly。
+寻猎魔；还魂尸；洛斯兽；沙人；稻草人；尖啸小魔；暗影恶魔；尸衣食尸鬼；裹尸幻影；电击怪；骷髅战士；隐伏者；史拉蟾；斯尼亚德；凯厄斯之子；震慑胶怪；苏苏鲁斯；斯涅布力深地侏儒；共生胶怪。
 
 ## T–U
 
-Tabaxi；Tentamort；Terithran；Thoqqua；Thork；Throat Leech；Tiger Fly；Tirapheg；Trilloch；Troll；Tween；Umpleby；Urchin。
+塔巴克西猫人；触手死兽；泰瑞斯兰；熔岩虫；索克锅炉鸟；咽喉水蛭；虎蝇；三头三足怪；催亡精；巨魔；影伴；电毛兽；海胆。
 
 ## V–Z
 
-Vision；Vodyanoy；Volt；Vortex；Whipweed；Witherstench；Witherweed；Xill；Xvart；Yellow Musk Creeper；Yellow Musk Zombie。
+幻象集合体；沃迪亚诺水怪；伏特电怪；旋涡怪；鞭草；枯臭兽；枯萎草；希尔虫人；泽瓦特；黄麝香蔓；黄麝香僵尸。

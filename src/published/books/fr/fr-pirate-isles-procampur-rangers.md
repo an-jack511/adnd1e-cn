@@ -1,5 +1,3 @@
-![海盗岛港口防御与普罗坎普尔原页](/assets/books/fr/fr_pirate_isles_procampur_page_70_original.png)
-![普罗坎普尔与游侠原页](/assets/books/fr/fr_procampur_rangers_page_71_original.png)
 
 ## 海盗岛 THE PIRATE ISLES（续）
 
@@ -78,3 +76,4 @@
 被遗忘国度的游侠按《玩家手册》处理，并使用《Unearthed Arcana》中关于追踪能力的扩展。玩家角色游侠不必来自“北方”，但在北方社群及其精密通信层中，一名卡林杉游侠会引起大量议论。
 
 原书 PDF 第 72 页（印刷页 70）；保留海盗岛港口防御、萨伊巨炮与撞船艇数据、口令、普里亚普尔、普罗斯、普罗斯库尔、普罗坎普尔城区及游侠社会规则。
+

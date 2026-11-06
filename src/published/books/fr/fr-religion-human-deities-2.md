@@ -1,5 +1,3 @@
-![人类神祇与元素领主信仰标志原页一](/assets/books/fr/fr_religion_page_15_original.png)
-![人类神祇与元素领主信仰标志原页二](/assets/books/fr/fr_religion_page_16_original.png)
 
 ### 莉莉拉 LLIRA（LEER-ah）
 
@@ -374,3 +372,4 @@
 * 哈娜莉·塞兰尼尔（Hannali Celanil；浪漫爱情与美丽女神）
 
 原书 PDF 第 17–18 页（印刷页 15–16）；本主题在“精灵”名单处暂止，后续继续登记非人类神祇名单。
+

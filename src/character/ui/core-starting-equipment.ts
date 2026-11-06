@@ -147,7 +147,7 @@ export function renderStartingEquipment(host: HTMLElement, read: () => CoreCreat
       const eventId = crypto.randomUUID(); const lines: PurchaseLine[] = [...selected.values()].map((line, index) => ({ instanceId: `${eventId}:${index}`, definitionId: line.definitionId, quantity: line.quantity, destinationLocationId: 'character', agreedUnitPriceCp: line.agreedUnitPriceCp, availability: { status: 'unresolved', decisionId: null }, bulk: 'unknown', bulkRulingId: null }));
       const actual = actualCostCp(); const tenderGp = Math.floor(Number(tender.value)); const changeCp = tenderGp * coinValueCp.gp - actual;
       const ledger = createCorePlayerStartingInventory({ eventId, startingMoneyGp: gp, tenderGp, changeCp, lines });
-      write(recordCreationTask(current, 'equipment', { status: 'complete', sourceIds: ['phb:35:money-equipment', 'phb:36:equipment-armor', 'phb:37:weapon-weight'], note: '已将玩家记录的初始物品与剩余钱币写入人物卡；供应、负重和携带细节仍保留原始事实，不在本站伪造 DM 审核。', facts: { purchasePlan: { lines, tenderGp, changeCp, actualCostCp: actual }, ledger, startingMoneyRevision: current.revision } }));
+      write(recordCreationTask(current, 'equipment', { status: 'complete', sourceIds: ['phb:35:money-equipment', 'phb:36:equipment-armor', 'phb:37:weapon-weight'], note: '已记录初始物品与剩余钱币；供应、负重及携带方式按战役情况核对。', facts: { purchasePlan: { lines, tenderGp, changeCp, actualCostCp: actual }, ledger, startingMoneyRevision: current.revision } }));
       status.textContent = `已记录 ${lines.length} 类初始装备，共 ${priceText(actual)}；人物卡会直接显示这些物品。`;
     } catch (error) { status.textContent = (error as Error).message; }
   });

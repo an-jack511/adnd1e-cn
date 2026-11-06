@@ -1,8 +1,3 @@
-![《信仰标志》原页一](/assets/books/fr/fr_currency_religion_page_10_original.png)
-![《信仰标志》原页二](/assets/books/fr/fr_religion_page_11_original.png)
-![《信仰标志》原页三](/assets/books/fr/fr_religion_page_12_original.png)
-![《信仰标志》原页四](/assets/books/fr/fr_religion_page_13_original.png)
-![《信仰标志》原页五](/assets/books/fr/fr_religion_page_14_original.png)
 
 ## 国度中的宗教 Religion in the Realms
 
@@ -207,3 +202,4 @@
 <strong>说明：</strong>莉拉是自然与魔法欺骗和幻术的半神。她的真实形象无人知晓；她的牧师在角状祭坛前礼拜，祭坛向上弯曲的双臂之间只有空气。莉拉可以成为任何东西，出现在任何地方，只要那不是它看起来的样子。除幻术师之外，很少有人崇拜莉拉，因为很少有其他类型的角色能从误解和欺骗中获利；不过，许多人会向她致敬，以便在重要决策和裁判之前阻止或安抚她。她被视为中立而非邪恶，因为她代表的是自然的反复无常，而不是蓄意欺骗（后者属于马斯克的领域）。
 
 原书 PDF 第 12–16 页（印刷页 10–14）；人类神祇条目及信仰标志图按原页顺序录入。下一主题从莉莉拉开始。
+

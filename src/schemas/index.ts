@@ -53,11 +53,21 @@ export const MonsterSchema = z.object({
   source: z.array(SourceReferenceSchema)
 });
 
+export const LibraryDetailSchema = z.object({
+  title:z.string(), html:z.string(), source:SourceReferenceSchema, href:z.string()
+});
+export type LibraryDetail = z.infer<typeof LibraryDetailSchema>;
+
 export const ItemSchema = z.object({
   id: z.string(),
   nameZh: z.string(),
   nameEn: z.string(),
   category: z.string(),
+  subCategory: z.string().optional(),
+  catalogHidden:z.boolean().optional(),
+  xpValue:z.string().optional(),
+  details: z.array(LibraryDetailSchema).optional(),
+  aliases:z.array(z.string()).optional(),
   price: z.string(),
   weight: z.string(),
   damageSmallMedium: z.string().optional(),
@@ -90,6 +100,8 @@ export type Monster = z.infer<typeof MonsterSchema>;
 export type Item = z.infer<typeof ItemSchema>;
 
 export type ClassEntry = {
+  details?: LibraryDetail[];
+  referenceOnly?: boolean;
   id: string; nameZh: string; nameEn: string; primeRequisite: string; hitDie: string;
   alignment: string; weapons: string; armor: string; description: string;
   minimumAbilities: Partial<Record<'STR' | 'INT' | 'WIS' | 'DEX' | 'CON' | 'CHA', number>>;
@@ -98,6 +110,8 @@ export type ClassEntry = {
 };
 
 export type RaceEntry = {
+  details?: LibraryDetail[];
+  referenceOnly?: boolean;
   id: string; nameZh: string; nameEn: string; modifiers: string; restrictions: string;
   levelLimits: string; languages: string; movement: string; abilities: string[];
   eligibleClasses: { id: string; limit: string }[]; multiclass: string[];

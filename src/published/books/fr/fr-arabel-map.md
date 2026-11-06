@@ -1,5 +1,3 @@
-![阿拉贝尔总图原页](/assets/books/fr/fr_arabel_map_original.png)
-![阿拉贝尔地图索引原页](/assets/books/fr/fr_arabel_map_key_original.png)
 
 ## 阿拉贝尔总图 Master Map of Arabel
 
@@ -160,3 +158,4 @@
 | 151 | 被杀死的蛇怪（旅店）（The Murdered Manticore, inn） |
 
 原书 PDF 第 26–27 页（印刷页 24–25）；总图、编号、地图键与 151 项说明均保留。
+

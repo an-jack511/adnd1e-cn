@@ -25,14 +25,14 @@ const continuationIndex = parentSlug ? continuations.findIndex((entry) => entry.
 const back = parentSlug ? (continuationIndex <= 0 ? parent : continuations[continuationIndex - 1]) : previous;
 const forward = parentSlug ? continuations[continuationIndex + 1] : (continuations[0] ?? next);
 ---
-<BaseLayout title={`${topic.title} · ${book.short}`} description={`${book.short} 中文工作译稿：${topic.title}。`}>
-  <article class="book-article">
+<BaseLayout title={`${topic.title} · ${book.short}`} description={`${book.short}  · ${topic.title}。`}>
+  <article class="book-article" data-book={topic.book}>
     <h1>{topic.title}{topic.titleEn && <small> {topic.titleEn}</small>}</h1>
     <p class="small muted">{book.short} · {parent ? `续页：${parent.title}` : topic.group}</p>
     <div class="book-body"><Content /></div>
     {!parentSlug && continuations.length > 0 && <section class="book-continuations"><h2>本章后续页</h2><ol>{continuations.map((entry, index) => <li><a href={`/books/${book.id}/${entry.slug}/`}>第 {index + 2} 页：{entry.title === entry.slug ? '续页' : entry.title}</a></li>)}</ol></section>}
     <hr class="rule" />
-    <p class="source-list"><span class="label">来源：</span><a href={`/books/${book.id}/`}>{book.short}</a> · <span title={topic.sourceFile}>译稿章节：{topic.title}</span></p>
+    <p class="source-list"><span class="label">来源：</span><a href={`/books/${book.id}/`}>{book.short}</a> · <span title={topic.sourceFile}>章节：{topic.title}</span></p>
     <nav class="book-page-nav" aria-label="相邻章节">
       {back && <a href={`/books/${book.id}/${back.slug}/`}>← {back.title === back.slug ? '上一页' : back.title}</a>}
       <a href={`/books/${book.id}/`}>返回目录</a>

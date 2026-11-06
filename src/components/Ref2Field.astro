@@ -1,0 +1,9 @@
+---
+interface Props { name:string; label:string; type?:string; value?:string; rows?:number; readonly?:boolean; options?:{value:string;label:string}[]; class?:string }
+const {name,label,type='text',value='',rows=2,readonly=false,options,class:className}=Astro.props;
+---
+<label class:list={['ref2-field',className]}><span>{label}</span>
+  {type==='textarea' ? <textarea name={name} rows={rows}>{value}</textarea>
+    : options ? <select name={name}><option value="">—</option>{options.map(option=><option value={option.value}>{option.label}</option>)}</select>
+    : <input name={name} type={type} value={value} readonly={readonly} autocomplete="off" />}
+</label>

@@ -1,5 +1,7 @@
 ---
 import published from '../data/published/books.json';
+import ffChapters from '../data/public/ff-monster-chapters.json';
+import mm2Chapters from '../data/public/mm2-monster-chapters.json';
 interface Props { kind: 'rule' | 'monster' | 'spell' | 'class' | 'race'; id: string; classes?: string[] }
 const { kind, id, classes = [] } = Astro.props;
 const ruleMap: Record<string, string[]> = {
@@ -30,7 +32,7 @@ const spellChapters: Record<string, string> = {
 const oaRaceIds = new Set(['korobokuru', 'hengeyokai', 'spirit-folk']);
 const raceSlugs: Record<string, string> = { dwarf: 'dwarves', elf: 'elves', gnome: 'gnomes', 'half-elf': 'half-elves', halfling: 'halflings', 'half-orc': 'half-orcs', human: 'humans' };
 const candidates = kind === 'rule' ? ruleMap[id] ?? []
-  : kind === 'monster' ? [`mm/mm-${id}`]
+  : kind === 'monster' ? [(ffChapters as Record<string,string>)[id] ?? (mm2Chapters as Record<string,string>)[id] ?? `mm/mm-${id}`]
   : kind === 'spell' ? classes.map((className) => spellChapters[className]).filter(Boolean)
   : kind === 'class' ? (id.startsWith('oa-') ? ['oa/oa-oriental-classes'] : id === 'bard' ? ['phb/appendix-bards', 'phb/bard-class'] : [`phb/${id}`])
   : [...(oaRaceIds.has(id) ? ['oa/oa-classes-races'] : []), 'phb/races', ...(raceSlugs[id] ? [`phb/${raceSlugs[id]}`] : [])];

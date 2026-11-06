@@ -1,8 +1,3 @@
-![索萨尔、苏巴尔与南方原页](/assets/books/fr/fr_sossal_soubar_south_page_80_original.png)
-![立石、苏尔德、苏泽尔与剑湾原页](/assets/books/fr/fr_standing_stone_suzail_swordcoast_page_81_original.png)
-![苏泽尔地图原页](/assets/books/fr/fr_suzail_map_page_82_original.png)
-![苏泽尔地图索引原页](/assets/books/fr/fr_suzail_key_page_83_original.png)
-![塔克哈尔谷、塔塞尔谷、泰申谷与泰瑟尔原页](/assets/books/fr/fr_tarkhaldale_tasseldale_teshendale_page_84_original.png)
 
 ## 索萨尔 SOSSAL（SAW-sall）
 
@@ -212,3 +207,4 @@
 |76|warehouse of Ossper (fine cloth)|奥斯珀仓库（精细布料）|
 |77|Vangerdahast’s Tower (Royal Magician)|范格达哈斯之塔（皇家魔法师）|
 |78|Blackshield apartments (Court residence)|黑盾公寓（法庭住所）|
+

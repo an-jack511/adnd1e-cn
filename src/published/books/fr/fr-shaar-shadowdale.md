@@ -1,7 +1,3 @@
-![夏尔与暗影谷地图条目原页](/assets/books/fr/fr_shaar_shadowdale_page_77_original.png)
-![暗影谷地点说明原页](/assets/books/fr/fr_shadowdale_sites_page_78_original.png)
-![暗影谷及周边地图原页](/assets/books/fr/fr_shadowdale_map_page_79_original.png)
-![暗影谷地点续文原页](/assets/books/fr/fr_shadowdale_court_knoll_page_80_original.png)
 
 ## 夏尔 THE SHAAR
 

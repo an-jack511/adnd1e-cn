@@ -1,6 +1,3 @@
-![德鲁伊、杜拉格之塔与矮人条目原页](/assets/books/fr/fr_dragonspear_druids_page_39_original.png)
-![矮人、东行镇与艾尔特瑞尔原页](/assets/books/fr/fr_druids_dwarves_easting_elturel_page_40_original.png)
-![精灵条目开头原页](/assets/books/fr/fr_dwarves_elturel_elves_page_41_original.png)
 
 ## 德鲁伊 DRUIDS
 
@@ -113,3 +110,4 @@
 精灵是被遗忘国度的主要种族之一；他们在龙的时代之后、人类到来之前统治过大片地区。如今，这些长寿生物中的大多数已经从人类的攻势下退入更加宁静的森林，而他们在国度中的数量只是千年前的一小部分。
 
 原书 PDF 第 41–43 页（印刷页 39–41）；德鲁伊圈、德鲁伊等级与辖区、杜拉格之塔、矮人种族背景与南方王国传闻、东行镇、艾尔特瑞尔的地狱骑手及精灵条目开头均保留。
+

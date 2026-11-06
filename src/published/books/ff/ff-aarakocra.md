@@ -1,10 +1,10 @@
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 极罕见 |
+| 出现频率 | 极罕见 |
 | 出现数量 No. Appearing | 1–10 |
 | 护甲等级 Armour Class | 7 |
 | 移动 Move | 6"／36" |
-| 生命骰 Hit Dice | 3 |
+| 生命骰 Hit Dice | 1+2 |
 | 巢穴概率 % in Lair | 5% |
 | 宝藏类型 Treasure Type | D |
 | 攻击次数 No. of Attacks | 2 |

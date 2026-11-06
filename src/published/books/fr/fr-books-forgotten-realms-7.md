@@ -141,3 +141,4 @@ The Alcaister 的最后一页（带有前文所述符文的那一页）是一道
 原书下一页开始介绍 Aubayreer 的工作册：它由一长条绿色树皮折叠成手风琴状，夹在两块涂油木板之间，以麻绳固定；木板上刻有 Aubayreer 的符文。由于该书在页面末端开始，下一主题继续收录其历史、冰雹锥、phase trap 以及后续法术。
 
 原书 PDF 第182–185页（印刷页82–85）；保留《战争之红书》的标准祷文表、Holy Flail、Reveal／Conceal、Bladebless、Sacred Link、The Alcaister 的书籍毒素、独有戏法、Reconstruction、Body Sympathy 与 gate page 的完整 d100 目的地表，并挂载对应原页图。
+

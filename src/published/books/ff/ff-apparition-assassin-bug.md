@@ -1,8 +1,8 @@
-## 幻灵 Apparition
+## 幻灵 · Apparition
 
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 极罕见 |
+| 出现频率 | 极罕见 |
 | 出现数量 No. Appearing | 1–4 |
 | 护甲等级 Armour Class | 0 |
 | 移动 Move | 24" |
@@ -35,11 +35,11 @@
 
 要完成它的“攻击”，幻灵不需要按通常方式取得命中，因此无需进行“命中”掷骰。
 
-## 刺客虫 Assassin Bug
+## 刺客虫 · Assassin Bug
 
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 罕见 |
+| 出现频率 | 罕见 |
 | 出现数量 No. Appearing | 2 |
 | 护甲等级 Armour Class | 5 |
 | 移动 Move | 6"／18" |
@@ -70,7 +70,7 @@
 
 - <strong>治疗重伤 Cure serious wounds</strong>：施法者超过 6 级后，每高于 6 级一层，可以杀死一只幼虫。
 - <strong>治疗致命伤 Cure critical wounds</strong>：杀死所有幼虫。
-- <strong>疗愈 Heal</strong>：杀死所有幼虫，并恢复受害者除 5–8 点之外的全部生命值。
+- <strong>疗愈 医疗术</strong>：杀死所有幼虫，并恢复受害者除 5–8 点之外的全部生命值。
 
 在此期间，有限祈愿术或类似法术也能发挥作用。
 

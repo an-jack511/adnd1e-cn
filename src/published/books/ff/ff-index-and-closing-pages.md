@@ -1,6 +1,6 @@
 来源：PDF 第 121–128 页（原书页码 120–127）。索引中的贡献者姓名、交叉引用和原书条目页码均按扫描页保留；`see` 译为“见”。
 
-## Index of Major Listings：主要条目索引
+## 主要条目索引 · Index of Major Listings
 
 ### A-D（原书页 120）
 
@@ -8,291 +8,291 @@
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| Aarakocra | Lawrence Schick | 8 |
-| Achaierai | Roger Musson | 9 |
-| Adherer | Guy Shearer | 9 |
-| Aleax | Alessandro Martelli | 11 |
-| Algoid | Mike Ferguson | 11 |
-| Al-mi’raj | Roger Musson | 11 |
-| Apparition | Underworld Oracle | 12 |
-| Assassin bug | Ian Livingstone | 12 |
-| Astral searcher | Tom Moldvay | 13 |
-| Babbler | Jeremy Goodwin and Ian McDowall | 13 |
-| Bane-midge——见 Jermlaine | - | - |
-| Bat, giant | Lewis Pulsipher | 14 |
-| Berbalang | Albie Fiore | 14 |
-| Bird-man——见 Aarakocra | - | - |
-| Black garbug——见 Garbug | - | - |
-| Black urchin——见 Urchin | - | - |
-| Blindheim | Roger Musson | 15 |
-| Blood hawk | Ian Livingstone | 15 |
-| Bloodworm, giant | Ian Livingstone | 15 |
-| Blue slaad——见 Slaad | - | - |
-| Boiler bird——见 Thork | - | - |
-| Bonesnapper | Ian Livingstone | 15 |
-| Booka | Gary Gygax | 16 |
-| Bullywug | Luke Gygax and Gary Gygax | 16 |
-| Bunyip | Dermot Jackson | 17 |
-| Carbuncle | Albie Fiore | 17 |
-| Carp dragon——见 Dragon, oriental | - | - |
-| Caryatid column | Jean Wells | 18 |
-| Caterwaul | Albie Fiore | 18 |
-| Catman——见 Tabaxi | - | - |
-| Cat o’ nine tails——见 Nonafel | - | - |
-| Celestial dragon——见 Dragon, oriental | - | - |
-| Cifal | Oliver Charles MacDonald | 19 |
-| Clubnek | M. English | 19 |
-| Coffer corpse | Simon Eaton | 19 |
-| Coiled dragon——见 Dragon, oriental | - | - |
-| Crabman | Ian Livingstone | 21 |
-| Cryonax——见 Elemental Princes of Evil | - | - |
-| Crypt thing | Roger Musson | 21 |
-| Dakon | Ian McDowall | 22 |
-| Dark creeper | Rik Shepherd | 22 |
-| Dark elf——见 Elf: drow | - | - |
-| Dark stalker | Simon Muth | 23 |
-| Death dog | Underworld Oracle | 23 |
-| Death knight | Charles Stross | 23 |
-| Death slaad——见 Slaad | - | - |
-| Death worm——见 Necrophidius | - | - |
-| Deep gnome——见 Svirfneblin | - | - |
-| Demon | - | 24 |
-| ↳ Lolth | Gary Gygax | 24 |
-| Demon queen of spiders——见 Demon: Lolth | - | - |
-| Denzelian | Lewis Pulsipher | 25 |
-| Devil | - | 25 |
+| 阿拉科克拉鸟人 | Lawrence Schick | 8 |
+| 阿查伊莱 | Roger Musson | 9 |
+| 黏附怪 | Guy Shearer | 9 |
+| 神罚化身 | Alessandro Martelli | 11 |
+| 藻人 | Mike Ferguson | 11 |
+| 独角兔 | Roger Musson | 11 |
+| 幻灵 | Underworld Oracle | 12 |
+| 刺客虫 | Ian Livingstone | 12 |
+| 星界搜寻者 | Tom Moldvay | 13 |
+| 喋喋怪 | Jeremy Goodwin and Ian McDowall | 13 |
+| 灾祸小虫——见 杰姆莱恩 | - | - |
+| 巨型蝙蝠 | Lewis Pulsipher | 14 |
+| 贝尔巴朗 | Albie Fiore | 14 |
+| Bird-man——见 阿拉科克拉鸟人 | - | - |
+| 黑加巴格——见 加巴格 | - | - |
+| 黑海胆——见 海胆 | - | - |
+| 炫目蛙怪 | Roger Musson | 15 |
+| 血鹰 | Ian Livingstone | 15 |
+| 巨型血虫 | Ian Livingstone | 15 |
+| 蓝史拉蟾——见 史拉蟾 | - | - |
+| 锅炉鸟——见 索克锅炉鸟 | - | - |
+| 碎骨兽 | Ian Livingstone | 15 |
+| 布卡精 | Gary Gygax | 16 |
+| 蛙人 | Luke Gygax and Gary Gygax | 16 |
+| 本耶普水兽 | Dermot Jackson | 17 |
+| 红宝兽 | Albie Fiore | 17 |
+| 鲤龙——见 东方龙 | - | - |
+| 女像柱 | Jean Wells | 18 |
+| 夜嚎兽 | Albie Fiore | 18 |
+| Catman——见 塔巴克西猫人 | - | - |
+| 九尾猫——见 九尾猫 | - | - |
+| Celestial 龙——见 东方龙 | - | - |
+| 群虫聚怪 | Oliver Charles MacDonald | 19 |
+| 棍喙鸟 | M. English | 19 |
+| 棺尸 | Simon Eaton | 19 |
+| Coiled 龙——见 东方龙 | - | - |
+| 蟹人 | Ian Livingstone | 21 |
+| 克里奥纳克斯——见 邪恶元素王子 | - | - |
+| 墓穴怪 | Roger Musson | 21 |
+| 达孔猿人 | Ian McDowall | 22 |
+| 黑暗潜伏者 | Rik Shepherd | 22 |
+| Dark 精灵——见 精灵: 卓尔精灵 | - | - |
+| 黑暗追猎者 | Simon Muth | 23 |
+| 死亡犬 | Underworld Oracle | 23 |
+| 死亡骑士 | Charles Stross | 23 |
+| Death 史拉蟾——见 史拉蟾 | - | - |
+| 死亡蠕虫——见 死灵蛇构装体 | - | - |
+| Deep 侏儒——见 斯涅布力深地侏儒 | - | - |
+| 恶魔 | - | 24 |
+| ↳ 罗丝 | Gary Gygax | 24 |
+| 恶魔 蚁后 of spiders——见 恶魔: 罗丝 | - | - |
+| 丹泽利安 | Lewis Pulsipher | 25 |
+| 魔鬼 | - | 25 |
 | ↳ Styx | Ian Livingstone | 25 |
 
 ### D-G（原书页 121）
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| Devil dog | Louis Boschelli | 26 |
-| Dire corby | Jeff Wyndham | 26 |
-| Disenchanter | Roger Musson | 27 |
-| Doombat | Julian Lawrence | 27 |
-| Dragon, oriental | David Sweet | 27 |
-| ↳ Li Lung（earth dragon，土龙） | - | 28 |
-| ↳ Lung Wang（sea dragon，海龙） | - | 28 |
-| ↳ Pan Lung（coiled dragon，盘龙） | - | 29 |
-| ↳ Shen Lung（spirit dragon，灵龙） | - | 29 |
-| ↳ T’ien Lung（celestial dragon，天龙） | - | 29 |
-| ↳ Yu Lung（carp dragon，鲤龙） | - | 30 |
-| Dragonfish | Albie Fiore | 30 |
-| Drow——见 Elf: drow | - | - |
-| Dune stalker | Ian Livingstone | 30 |
-| Earth dragon——见 Dragon, oriental | - | - |
-| Elemental Princes of Evil | Lewis Pulsipher | 31 |
-| ↳ Cryonax——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
-| ↳ Imix——Prince of evil fire creatures（火焰生物的邪恶王子） | - | 31 |
+| 魔犬 | Louis Boschelli | 26 |
+| 凶暴鸦人 | Jeff Wyndham | 26 |
+| 消魔兽 | Roger Musson | 27 |
+| 厄运蝠 | Julian Lawrence | 27 |
+| 东方龙 | David Sweet | 27 |
+| ↳ 地龙（地龙，土龙） | - | 28 |
+| ↳ 龙王（sea 龙，海龙） | - | 28 |
+| ↳ 盘龙（coiled 龙，盘龙） | - | 29 |
+| ↳ 神龙（spirit 龙，灵龙） | - | 29 |
+| ↳ 天龙（celestial 龙，天龙） | - | 29 |
+| ↳ 鱼龙（鲤龙，鲤龙） | - | 30 |
+| 龙鱼 | Albie Fiore | 30 |
+| 卓尔精灵——见 精灵: 卓尔精灵 | - | - |
+| 沙丘追猎者 | Ian Livingstone | 30 |
+| 地龙——见 东方龙 | - | - |
+| 邪恶元素王子 | Lewis Pulsipher | 31 |
+| ↳ 克里奥纳克斯——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
+| ↳ 伊密克斯——Prince of evil fire creatures（火焰生物的邪恶王子） | - | 31 |
 | ↳ Ogremoch——Prince of evil earth creatures（土元素生物的邪恶王子） | - | 32 |
-| ↳ Olhydra——Princess of evil water creatures（水元素生物的邪恶公主） | - | 32 |
-| ↳ Yan-C-Bin——Prince of evil aerial creatures（空中生物的邪恶王子） | - | 33 |
-| Elf | - | 33 |
-| ↳ Drow | Gary Gygax | 33 |
-| Enveloper | Underworld Oracle | 34 |
-| Ettercap | David Taylor | 35 |
-| Eye killer | Ian Livingstone | 35 |
-| Eye of fear and flame | Hugh Kernohan | 35 |
-| Firedrake | Dave Waring | 36 |
-| Fire mephit——见 Mephit | - | - |
-| Firenewt | Albie Fiore | 36 |
-| Fire snake | Michael McDonagh | 38 |
-| Firetoad | Roger Musson | 38 |
-| Flail snail | Simon Tilbrook | 38 |
-| Flind | J. D. Morris | 39 |
-| Flumph | Ian McDowall and Douglas Naismith | 39 |
-| Fog giant——见 Giant | - | - |
-| Forlarren | Ian Livingstone | 39 |
-| Frost man | Julian Lawrence | 40 |
-| Galltrit | Trevor Graver | 40 |
-| Gambado | Simon Shaw | 41 |
-| Garbug | Jonathan Jones | 41 |
+| ↳ 奥尔海德拉——Princess of evil water creatures（水元素生物的邪恶公主） | - | 32 |
+| ↳ 扬西宾——Prince of evil aerial creatures（空中生物的邪恶王子） | - | 33 |
+| 精灵 | - | 33 |
+| ↳ 卓尔精灵 | Gary Gygax | 33 |
+| 包裹怪 | Underworld Oracle | 34 |
+| 蛛化精怪 | David Taylor | 35 |
+| 杀目兽 | Ian Livingstone | 35 |
+| 恐惧烈焰之眼 | Hugh Kernohan | 35 |
+| 火蜥龙 | Dave Waring | 36 |
+| 火魔蝠——见 魔蝠 | - | - |
+| 火蜥人 | Albie Fiore | 36 |
+| 火蛇 | Michael McDonagh | 38 |
+| 火蟾蜍 | Roger Musson | 38 |
+| 连枷蜗牛 | Simon Tilbrook | 38 |
+| 弗林德豺狼人 | J. D. Morris | 39 |
+| 弗伦浮怪 | Ian McDowall and Douglas Naismith | 39 |
+| 雾巨人——见 巨人 | - | - |
+| 弗拉伦 | Ian Livingstone | 39 |
+| 霜人 | Julian Lawrence | 40 |
+| 加尔崔特 | Trevor Graver | 40 |
+| 骷髅弹兽 | Simon Shaw | 41 |
+| 加巴格 | Jonathan Jones | 41 |
 | ↳ Black | - | 41 |
 | ↳ Violet | - | 41 |
-| Giant | - | 41 |
+| 巨人 | - | 41 |
 | ↳ Fog | Jean Wells | 42 |
 | ↳ Mountain | Louis Boschelli | 42 |
-| Giant bat——见 Bat, giant | - | - |
-| Giant bloodworm——见 Bloodworm, giant | - | - |
-| Giant hornet——见 Hornet, giant | - | - |
-| Giant troll——见 Troll | - | - |
-| Giant two-headed troll——见 Troll | - | - |
-| Giant strider | Albie Fiore | 42 |
-| Gibberling | Underworld Oracle | 43 |
-| Githyanki | Charles Stross | 43 |
-| Githzerai | Charles Stross | 45 |
-| Goldbug | David Taylor | 46 |
-| Gorbel | Andrew Key | 46 |
-| Gorilla bear | Cricky Hitchcock | 46 |
-| Green slaad——见 Slaad | - | - |
-| Green urchin——见 Urchin | - | - |
-| Grey slaad——见 Slaad | - | - |
-| Grell | Ian Livingstone | 46 |
-| Grimlock | Albie Fiore | 48 |
-| Gryph | Peter Brown | 48 |
-| Guardian daemon | Ian McDowall | 49 |
-| Guardian familiar | Trevor Mendham | 49 |
+| 巨型蝙蝠——见 巨型蝙蝠 | - | - |
+| 巨型血虫——见 巨型血虫 | - | - |
+| 巨型胡蜂——见 巨型胡蜂 | - | - |
+| 巨型巨魔——见 巨魔 | - | - |
+| 双头巨型巨魔——见 巨魔 | - | - |
+| 巨型跨步鸟 | Albie Fiore | 42 |
+| 胡言兽 | Underworld Oracle | 43 |
+| 吉斯洋基人 | Charles Stross | 43 |
+| 吉斯泽莱人 | Charles Stross | 45 |
+| 金币虫 | David Taylor | 46 |
+| 戈贝尔 | Andrew Key | 46 |
+| 猩熊 | Cricky Hitchcock | 46 |
+| 绿史拉蟾——见 史拉蟾 | - | - |
+| 绿海胆——见 海胆 | - | - |
+| Grey 史拉蟾——见 史拉蟾 | - | - |
+| 格瑞尔 | Ian Livingstone | 46 |
+| 石盲蛮族 | Albie Fiore | 48 |
+| 格里夫 | Peter Brown | 48 |
+| 守卫达厄蒙 | Ian McDowall | 49 |
+| 守卫魔宠 | Trevor Mendham | 49 |
 
 ### H-O（原书页 122）
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| Hellcat | David Taylor | 50 |
-| Hoar fox | Graeme Morris | 50 |
-| Hook horror | Ian Livingstone | 51 |
-| Hornet, giant | Nick Louth | 51 |
-| Hound of ill omen | Mike Roberts | 51 |
-| Huecuva | Underworld Oracle | 51 |
-| Ice demon——见 Frost man | - | - |
-| Ice lizard | Mike Ferguson | 52 |
-| Ice troll——见 Troll | - | - |
-| Imix——见 Elemental Princes of Evil | - | - |
-| Imorph | Andrew Key | 52 |
-| Iron cobra | Philip Masters | 52 |
-| Jaculi | Philip Masters | 53 |
-| Jermlaine | Gary Gygax | 53 |
-| Jinxkins——见 Jermlaine | - | - |
-| Kamadan | Nick Louth | 55 |
-| Kelpie | Lawrence Schick | 55 |
-| Kenku | Rik Shepherd | 56 |
-| Khargra | Lawrence Schick | 56 |
-| Killmoulis | Gary Gygax | 57 |
-| Kuo-toa | Gary Gygax | 57 |
-| Lamia noble | Philip Masters | 59 |
-| Lava children | Jim Donohoe | 61 |
-| Lava mephit——见 Mephit | - | - |
-| Li Lung——见 Dragon, oriental | - | - |
-| Lizard king | Stephen Horne | 61 |
-| Lolth——见 Demon: Lolth | - | - |
-| Lung Wang——见 Dragon, oriental | - | - |
-| Magnesium spirit | Nick Louth | 62 |
-| Man-fish——见 Kuo-toa | - | - |
-| Mantari | David Wormell | 62 |
-| Marsh-gibberer——见 Babbler | - | - |
-| Meazel | Dermot Jackson | 63 |
-| Meenlock | Peter Korabik | 63 |
-| Mephit | Martin Stollery | 64 |
+| 地狱猫 | David Taylor | 50 |
+| 霜狐 | Graeme Morris | 50 |
+| 钩爪恐兽 | Ian Livingstone | 51 |
+| 巨型胡蜂 | Nick Louth | 51 |
+| 凶兆猎犬 | Mike Roberts | 51 |
+| 亵渎尸骸 | Underworld Oracle | 51 |
+| Ice 恶魔——见 霜人 | - | - |
+| 冰蜥蜴 | Mike Ferguson | 52 |
+| 冰巨魔——见 巨魔 | - | - |
+| 伊密克斯——见 邪恶元素王子 | - | - |
+| 变形兽 | Andrew Key | 52 |
+| 铁眼镜蛇 | Philip Masters | 52 |
+| 标枪蛇 | Philip Masters | 53 |
+| 杰姆莱恩 | Gary Gygax | 53 |
+| 灾祸小妖——见 杰姆莱恩 | - | - |
+| 卡玛丹蛇豹 | Nick Louth | 55 |
+| 水鬼 | Lawrence Schick | 55 |
+| 鸦人 | Rik Shepherd | 56 |
+| 卡格拉 | Lawrence Schick | 56 |
+| 基尔莫利斯 | Gary Gygax | 57 |
+| 寇涛鱼人 | Gary Gygax | 57 |
+| 拉弥亚贵族 | Philip Masters | 59 |
+| 熔岩之子 | Jim Donohoe | 61 |
+| 熔岩魔蝠——见 魔蝠 | - | - |
+| 地龙——见 东方龙 | - | - |
+| 蜥蜴王 | Stephen Horne | 61 |
+| 罗丝——见 恶魔: 罗丝 | - | - |
+| 龙王——见 东方龙 | - | - |
+| 镁光精魂 | Nick Louth | 62 |
+| Man-fish——见 寇涛鱼人 | - | - |
+| 曼塔里 | David Wormell | 62 |
+| Marsh-gibberer——见 喋喋怪 | - | - |
+| 米泽尔 | Dermot Jackson | 63 |
+| 恐惧之锁 | Peter Korabik | 63 |
+| 魔蝠 | Martin Stollery | 64 |
 | ↳ Fire | - | 64 |
 | ↳ Lava | - | 64 |
 | ↳ Smoke | - | 64 |
 | ↳ Steam | - | 65 |
-| Mezzodaemon | Gary Gygax | 66 |
-| Mite | Ian Livingstone | 66 |
-| Mountain giant——见 Giant | - | - |
-| Necrophidius | Simon Tilbrook | 67 |
-| Needleman | Trevor Graver | 67 |
-| Nilbog | Roger Musson | 67 |
-| Nonafel | Dean Lockwood and P. S. Barton | 68 |
-| Norker | J. D. Morris | 68 |
-| Nycadaemon | Gary Gygax | 69 |
-| Ogremoch——见 Elemental Princes of Evil | - | - |
-| Ogrillon | R. K. R. Chilman | 70 |
-| Olhydra——见 Elemental Princes of Evil | - | - |
-| Osquip | Brendon Bulger | 70 |
+| 夹层魔 | Gary Gygax | 66 |
+| 小蠹怪 | Ian Livingstone | 66 |
+| 山巨人——见 巨人 | - | - |
+| 死灵蛇构装体 | Simon Tilbrook | 67 |
+| 针叶人 | Trevor Graver | 67 |
+| 反地精 | Roger Musson | 67 |
+| 九尾猫 | Dean Lockwood and P. S. Barton | 68 |
+| 诺克地精 | J. D. Morris | 68 |
+| 夜魔 | Gary Gygax | 69 |
+| Ogremoch——见 邪恶元素王子 | - | - |
+| 食人魔混血种 | R. K. R. Chilman | 70 |
+| 奥尔海德拉——见 邪恶元素王子 | - | - |
+| 奥斯奎普 | Brendon Bulger | 70 |
 
 ### P-T（原书页 123）
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| Pan Lung——见 Dragon, oriental | - | - |
+| 盘龙——见 东方龙 | - | - |
 | Pénanggalan | Stephen Hellman | 71 |
-| Pernicon | Mary Patterson | 72 |
-| Pestie——见 Snyad | - | - |
-| Phantom stalker | Ian Livingstone | 72 |
-| Poltergeist | Lewis Pulsipher | 73 |
-| Protein polymorph | Tom Moldvay | 73 |
-| Quaggoth | Andrew Torchia | 74 |
-| Quipper | Albie Fiore | 74 |
-| Qullan | Neville White | 74 |
-| Red slaad——见 Slaad | - | - |
-| Red urchin——见 Urchin | - | - |
-| Retriever | Tom Moldvay | 75 |
-| Revenant | Stephen Hellman | 75 |
-| Rockworm——见 Thoqqua | - | - |
-| Rothé | Ghee Bowman | 76 |
-| Salaman——见 Firenewt | - | - |
-| Sandman | Roger Musson | 77 |
-| Scarecrow | Roger Musson | 77 |
-| Screaming devilkin | Philip Masters | 77 |
-| Sea dragon——见 Dragon, oriental | - | - |
-| Shadow demon | Neville White | 78 |
-| Sheet ghoul | David Wormell | 78 |
-| Sheet phantom | David Wormell | 78 |
-| Shen Lung——见 Dragon, oriental | - | - |
-| Shocker | Roger Musson | 79 |
-| Silver urchin——见 Urchin | - | - |
-| Skeleton warrior | Nigel Morgan | 79 |
-| Skulk | Simon Muth | 80 |
-| Skunk beast——见 Witherstench | - | - |
-| Slaad | Charles Stross | 80 |
-| ↳ Blue slaad | - | 80 |
-| ↳ Death slaad | - | 81 |
-| ↳ Green slaad | - | 81 |
-| ↳ Grey slaad | - | 81 |
-| ↳ Red slaad | - | 82 |
-| ↳ Ssendam (Slaad Lord) | - | 82 |
-| ↳ Ygorl (Slaad Lord) | - | 82 |
-| Smoke mephit——见 Mephit | - | - |
-| Snyad | Mark Barnes | 83 |
-| Son of Kyuss | Michael MacDonald | 83 |
-| Spirit dragon——见 Dragon, oriental | - | - |
-| Spirit troll——见 Troll | - | - |
-| Ssendam——见 Slaad | - | - |
-| Steam mephit——见 Mephit | - | - |
-| Strider——见 Giant strider | - | - |
-| Stunjelly | Neville White | 84 |
-| Styx devil——见 Devil: styx | - | - |
-| Sussurus | Albie Fiore | 84 |
-| Svirfneblin | Gary Gygax | 84 |
-| Symbiotic jelly | Roger Musson | 85 |
-| Tabaxi | Lawrence Schick | 86 |
-| Tentamort | Mike Roberts | 86 |
-| Terithran | Ronald Hall | 87 |
-| Thoqqua | Nicholas Riggs | 87 |
-| Thork | Mark Barnes | 88 |
-| Throat leech | Ian Livingstone | 88 |
-| T’ien Lung——见 Dragon, oriental | - | - |
-| Tiger fly | Mike Ferguson | 88 |
-| Tirapheg | Colin Reynolds | 89 |
-| Trilloch | Mike Ferguson | 89 |
-| Troll | - | 90 |
-| ↳ Giant | Ian Livingstone | 90 |
-| ↳ Giant two-headed | Oliver Charles MacDonald | 90 |
+| 佩尼孔虫 | Mary Patterson | 72 |
+| 恼人小妖——见 斯尼亚德 | - | - |
+| 幻影追猎者 | Ian Livingstone | 72 |
+| 骚灵 | Lewis Pulsipher | 73 |
+| 原质变形怪 | Tom Moldvay | 73 |
+| 地底兽人 | Andrew Torchia | 74 |
+| 食人鱼 | Albie Fiore | 74 |
+| 库兰人 | Neville White | 74 |
+| 红史拉蟾——见 史拉蟾 | - | - |
+| 红海胆——见 海胆 | - | - |
+| 寻猎魔 | Tom Moldvay | 75 |
+| 还魂尸 | Stephen Hellman | 75 |
+| Rockworm——见 熔岩虫 | - | - |
+| 洛斯兽 | Ghee Bowman | 76 |
+| Salaman——见 火蜥人 | - | - |
+| 沙人 | Roger Musson | 77 |
+| 稻草人 | Roger Musson | 77 |
+| 尖啸小魔 | Philip Masters | 77 |
+| Sea 龙——见 东方龙 | - | - |
+| 暗影恶魔 | Neville White | 78 |
+| 尸衣食尸鬼 | David Wormell | 78 |
+| 裹尸幻影 | David Wormell | 78 |
+| 神龙——见 东方龙 | - | - |
+| 电击怪 | Roger Musson | 79 |
+| 银海胆——见 海胆 | - | - |
+| 骷髅战士 | Nigel Morgan | 79 |
+| 隐伏者 | Simon Muth | 80 |
+| Skunk beast——见 枯臭兽 | - | - |
+| 史拉蟾 | Charles Stross | 80 |
+| ↳ 蓝史拉蟾 | - | 80 |
+| ↳ Death 史拉蟾 | - | 81 |
+| ↳ 绿史拉蟾 | - | 81 |
+| ↳ Grey 史拉蟾 | - | 81 |
+| ↳ 红史拉蟾 | - | 82 |
+| ↳ 森达姆 (史拉蟾 Lord) | - | 82 |
+| ↳ 耶戈尔 (史拉蟾 Lord) | - | 82 |
+| 烟魔蝠——见 魔蝠 | - | - |
+| 斯尼亚德 | Mark Barnes | 83 |
+| 凯厄斯之子 | Michael MacDonald | 83 |
+| Spirit 龙——见 东方龙 | - | - |
+| 灵体巨魔——见 巨魔 | - | - |
+| 森达姆——见 史拉蟾 | - | - |
+| 蒸汽魔蝠——见 魔蝠 | - | - |
+| Strider——见 巨型跨步鸟 | - | - |
+| 震慑胶怪 | Neville White | 84 |
+| 冥河魔鬼——见 魔鬼: styx | - | - |
+| 苏苏鲁斯 | Albie Fiore | 84 |
+| 斯涅布力深地侏儒 | Gary Gygax | 84 |
+| 共生胶怪 | Roger Musson | 85 |
+| 塔巴克西猫人 | Lawrence Schick | 86 |
+| 触手死兽 | Mike Roberts | 86 |
+| 泰瑞斯兰 | Ronald Hall | 87 |
+| 熔岩虫 | Nicholas Riggs | 87 |
+| 索克锅炉鸟 | Mark Barnes | 88 |
+| 咽喉水蛭 | Ian Livingstone | 88 |
+| 天龙——见 东方龙 | - | - |
+| 虎蝇 | Mike Ferguson | 88 |
+| 三头三足怪 | Colin Reynolds | 89 |
+| 催亡精 | Mike Ferguson | 89 |
+| 巨魔 | - | 90 |
+| ↳ 巨人 | Ian Livingstone | 90 |
+| ↳ 巨人 双头 | Oliver Charles MacDonald | 90 |
 
-### T-Z 与 Epilogue（原书页 124）
+### T-Z 与 后记（原书页 124） · T-Z  Epilogue
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
 | ↳ Ice | Russell Cole | 90 |
 | ↳ Spirit | Chris Atkin | 91 |
-| Tween | Ian Waugh | 91 |
-| Umpleby | Steve Wood | 92 |
-| Urchin | Nick Louth | 92 |
+| 影伴 | Ian Waugh | 91 |
+| 电毛兽 | Steve Wood | 92 |
+| 海胆 | Nick Louth | 92 |
 | ↳ Black | - | 92 |
 | ↳ Green | - | 93 |
 | ↳ Red | - | 93 |
 | ↳ Silver | - | 93 |
 | ↳ Yellow | - | 93 |
-| Violet garbug——见 Garbug | - | - |
-| Vision | Mike Ferguson | 93 |
-| Vodyanoi | Albie Fiore | 93 |
-| Volt | Jonathan Jones | 94 |
-| Vortex | Simon Muth | 94 |
-| Whipweed | Bob Scurfield | 94 |
-| Witherstench | Jonathan Jones | 95 |
-| Witherweed | Simon Eaton | 95 |
-| Xill | Brian Asbury | 96 |
-| Xvart | Cricky Hitchcock | 96 |
-| Yan-C-Bin——见 Elemental Princes of Evil | - | - |
-| Yellow musk creeper | Albie Fiore | 97 |
-| Yellow musk zombie——见 Zombie, yellow musk | - | - |
-| Yellow urchin——见 Urchin | - | - |
-| Ygorl——见 Slaad | - | - |
-| Yu Lung——见 Dragon, oriental | - | - |
-| Zombie, yellow musk | Albie Fiore | 97 |
+| 紫加巴格——见 加巴格 | - | - |
+| 幻象集合体 | Mike Ferguson | 93 |
+| 沃迪亚诺水怪 | Albie Fiore | 93 |
+| 伏特电怪 | Jonathan Jones | 94 |
+| 旋涡怪 | Simon Muth | 94 |
+| 鞭草 | Bob Scurfield | 94 |
+| 枯臭兽 | Jonathan Jones | 95 |
+| 枯萎草 | Simon Eaton | 95 |
+| 希尔虫人 | Brian Asbury | 96 |
+| 泽瓦特 | Cricky Hitchcock | 96 |
+| 扬西宾——见 邪恶元素王子 | - | - |
+| 黄麝香蔓 | Albie Fiore | 97 |
+| 黄麝香僵尸——见 黄麝香僵尸 | - | - |
+| 黄海胆——见 海胆 | - | - |
+| 耶戈尔——见 史拉蟾 | - | - |
+| 鱼龙——见 东方龙 | - | - |
+| 黄麝香僵尸 | Albie Fiore | 97 |
 
-## Epilogue（后记）
+## 后记 · Epilogue
 
 我带着几分懊恼回望本卷的孕育期：它远比任何人预想的都要漫长。出版日期很可能会比我写下前言晚将近两年，而在那段时间里发生了许多事情。比如，我现在负责 TSR Hobbies（UK）Limited，而且已经快一年了——然而在写前言的时候，即使是我最狂野的梦想，也不可能预见事情会变成这样。但是，延迟和意外往往形影不离；由于我与本公司的新关系，我现在能够以更大的自豪感迎接这本书的出版。
 
@@ -356,13 +356,13 @@ Lake Geneva, WI 53147
 TSR™ 和 RPGA™ 是 TSR Hobbies, Inc. 所拥有的商标。GenCon® 是 TSR Hobbies, Inc. 的注册服务标志。  
 © 1981 TSR Hobbies, Inc. 版权所有。
 
-## 封底文字与 Berbalang 示例（原书页 127）
+## 封底宣传与贝尔巴朗示例 · Back Cover and Berbalang Example
 
 ### 宣传文字
 
 本书包含为 ADVANCED DUNGEONS & DRAGONS™ 游戏系统设计的怪物字母顺序列表。每种生物都会得到描述，并且大多数都配有插图，便于辨认。
 
-<strong>例如：Berbalang（贝巴朗）</strong>
+<strong>例如：贝尔巴朗（贝巴朗）</strong>
 
 ### 示例统计栏
 

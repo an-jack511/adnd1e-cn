@@ -1,4 +1,4 @@
-本批补完日本英雄条目，并以 Yamamoto Date 与 Yoshi-Iye 的战役数据收束本神话体系。
+
 
 ## Yamamoto Date
 

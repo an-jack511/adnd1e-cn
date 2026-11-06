@@ -22,7 +22,7 @@
 <strong>翻腾 Tumbling。</strong> 包括翻滚、侧滚、跳跃与倒立等体操动作，可用于攻击、闪避与跳跃／坠落。
 
 - <strong>攻击 Attack：</strong> 表中百分比加到<strong>徒手拳击 Pummeling</strong>的成功机会；其他职业不能从这种翻腾动作受益。
-- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗力类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 分段</strong>。
+- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗性类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 分段</strong>。
 - <strong>坠落 Falling：</strong> 表中百分比是从所列高度坠落而<strong>完全免伤</strong>的几率；若仍受伤，则承受正常伤害乘以未能免伤的百分比，结果向下取整。例如 6 级杂技盗贼从 <strong>10 英尺</strong>坠落，有 <strong>25%</strong> 几率无伤；若受伤，仅承受正常 <strong>1d6 的 75%</strong>。9 级从 10 英尺坠落不可能受伤，而从 <strong>20 英尺</strong>坠落有 <strong>25%</strong> 几率无伤。只对坠落距离超过所列“安全高度”的部分，另行加入<strong>正常</strong>坠落伤害：例如 23 级从 <strong>60 英尺</strong>跌落，若免伤检定失败，只受 <strong>6d6 的 80%</strong>；若从 <strong>70 英尺</strong>跌落，再加 <strong>7d6</strong> 正常伤害；从 <strong>80 英尺</strong>跌落，还须再加 <strong>8d6</strong>，总计为 <strong>6d6 的 80% 加 15d6</strong>。
 
 ## 杂技盗贼表 I Thief-Acrobat Table I

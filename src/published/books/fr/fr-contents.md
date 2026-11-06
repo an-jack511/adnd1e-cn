@@ -1,4 +1,3 @@
-![国度百科全书目录原图](/assets/books/fr/fr_contents_original.png)
 
 ## 目录 Table of Contents
 
@@ -48,3 +47,4 @@
 | 产品编号 | 1031 |
 
 原书 PDF 第 4 页；目录页码沿用原书印刷页码。
+

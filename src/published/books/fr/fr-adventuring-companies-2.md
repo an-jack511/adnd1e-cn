@@ -1,5 +1,3 @@
-![冒险公司原页一](/assets/books/fr/fr_adventuring_companies_page_20_original.png)
-![冒险公司原页二](/assets/books/fr/fr_adventuring_companies_page_21_original.png)
 
 ## 猎团 The Hunt
 
@@ -124,3 +122,4 @@
 冒险公司存在的关键原因之一，就是首先获得魔法宝藏与金钱宝藏。不同团体分配这些宝藏的方法不同，包括随机选择、按等级选择、均分以及分配制。
 
 原书 PDF 第 22–23 页（印刷页 20–21）；冒险公司条目与“领导／宝藏”规则在下一页继续。
+

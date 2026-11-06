@@ -1,5 +1,3 @@
-![卡兰特、骑士与渡鸦堡垒原页](/assets/books/fr/fr_calaunt_cavaliers_citadel_page_30_original.png)
-![渡鸦堡垒、牧师与科姆奥普原页](/assets/books/fr/fr_clerics_corm_orp_page_31_original.png)
 
 ## 烛堡（续） CANDLEKEEP (CONTINUED)
 
@@ -136,3 +134,4 @@
 科姆奥普村位于赫卢萨尔与山缘之间的道路上，只是地图上的一个小点，大约有 15 座永久建筑。村子东面的低矮山丘上布满半身人的地洞，其中有一座相当大的建筑，饰以蝴蝶标志。
 
 原书 PDF 第 32–33 页（印刷页 30–31）；保留烛堡内室研究规则、骑士美德与骑士道准则、渡鸦堡垒兵力、牧师等级体系与武器限制，以及斗篷森林的位面通道说明。
+

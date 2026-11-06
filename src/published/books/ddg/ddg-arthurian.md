@@ -28,4 +28,4 @@
 
 ## 后续英雄 Subsequent Heroes
 
-首批末页开始出现 Sir Bernlad de Hautdesert（绿甲骑士）、Sir Galahad（加拉哈德）、Sir Gareth of Orkney（加雷斯）、Sir Garlon（隐形骑士）和 Sir Gawaine（高文）。他们的完整统计块与故事将在后续批次继续录入；高文的魔法礼物尤其特殊：上午 9–12 点力量逐时上升，正午后恢复正常。
+其他人物包括 Sir Bernlad de Hautdesert（绿甲骑士）、Sir Galahad（加拉哈德）、Sir Gareth of Orkney（加雷斯）、Sir Garlon（隐形骑士）和 Sir Gawaine（高文）。高文的魔法礼物尤其特殊：上午 9–12 点力量逐时上升，正午后恢复正常。

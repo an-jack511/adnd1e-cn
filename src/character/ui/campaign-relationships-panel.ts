@@ -17,7 +17,7 @@ export function renderCampaignRelationships(sheet: CampaignSheet): string {
   const projection = sheet.relationships;
   if (!projection) return `<section class="paper-section relationship-panel" id="sheet-relationships">
     <div class="section-title"><h2>随从与雇佣</h2><span class="badge">暂无公开记录</span></div>
-    <p>这里显示已导入的公开关系。将来从 DM Studio 导出公开投影后，可在人物卡中查看合同、薪酬和公开历史；本站不记录私密忠诚或士气信息。</p>
+    <p>从“更多工具与规则说明”导入随从或雇佣文件，查看合同、薪酬与关系记录。</p>
   </section>`;
   const paymentByRelationship = new Map<string, typeof projection.payments[number][]>();
   for (const payment of projection.payments) paymentByRelationship.set(payment.relationshipId, [...paymentByRelationship.get(payment.relationshipId) ?? [], payment]);
@@ -35,7 +35,6 @@ export function renderCampaignRelationships(sheet: CampaignSheet): string {
   }).join('');
   return `<section class="paper-section relationship-panel" id="sheet-relationships">
     <div class="section-title"><h2>随从与雇佣</h2><span class="badge">公开投影 · ${projection.revision}版</span></div>
-    <p>只显示公开合同事实、公开支付和公开历史。忠诚、士气、真实阵营、个人秘密及主持人备注不会进入此人物卡。</p>
     <div class="relationship-list">${records || '<p>公开投影没有关系条目。</p>'}</div>
   </section>`;
 }

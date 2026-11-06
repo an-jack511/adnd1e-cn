@@ -190,4 +190,4 @@ Torm 把金钱和个人风格置于一切之上。他身材苗条，眼睛绿色
 
 本页在这里开始 Vangerdahast 条目，完整叙述见下一页。
 
-原书 PDF 第 129–132 页（印刷页 29–32）；保留 Osper 续文、Perendra、Piergeiron、Rairun、Randal Morn、Rathan、Rhauntides、Sememmon、Shaerl、Sharantyr、Shaunil、辛布尔、Storm、Sundeth、Sylune、Temmi、Thagdal、Thentias、Thurbrand、Thurlock、Torm 与 Vangerdahast 开头的完整条目，并挂载对应原页图。下一批继续 Vangerdahast 及后续人物。
+原书 PDF 第 129–132 页（印刷页 29–32）；保留 Osper 续文、Perendra、Piergeiron、Rairun、Randal Morn、Rathan、Rhauntides、Sememmon、Shaerl、Sharantyr、Shaunil、辛布尔、Storm、Sundeth、Sylune、Temmi、Thagdal、Thentias、Thurbrand、Thurlock、Torm 与 Vangerdahast 开头的完整条目，并挂载对应原页图。

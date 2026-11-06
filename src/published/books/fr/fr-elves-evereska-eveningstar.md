@@ -1,5 +1,3 @@
-![精灵亚种与精灵退隐原页](/assets/books/fr/fr_elves_subraces_retreat_page_42_original.png)
-![艾弗瑞斯卡、埃斯帕与星落之夜原页](/assets/books/fr/fr_evereska_espar_eveningstar_page_43_original.png)
 
 ## 精灵 THE ELVEN（续）
 
@@ -96,3 +94,4 @@
 星落之夜的领主是泰萨里尔·温特，一名 10 级战士；她履行王室职责时迅速而高效。
 
 原书 PDF 第 44–45 页（印刷页 42–43）；精灵亚种、Tel'Quessir／N'Tel'Quess、退隐、精灵国家、艾弗瑞斯卡防御、埃斯帕和星落之夜条目均保留。
+

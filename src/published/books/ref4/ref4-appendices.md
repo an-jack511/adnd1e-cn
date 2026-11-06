@@ -43,7 +43,7 @@
 
 ## 综合怪物统计表
 
-下表保留原书《Combined Monsters Statistics Table》的字段顺序。`Y`、`N` 与 `—` 是原书的规则标记；`SA` 为特殊攻击，`SD` 为特殊防御，`MR` 为魔法抗力，`AL` 为阵营。
+下表保留原书《Combined Monsters Statistics Table》的字段顺序。`Y`、`N` 与 `—` 是原书的规则标记；`SA` 为特殊攻击，`SD` 为特殊防御，`MR` 为魔法抗性，`AL` 为阵营。
 
 ```text
 名称                         AC       MV             HD             hp                         #AT  伤害                         THAC0  SA  SD  MR   AL

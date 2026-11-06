@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { Item } from '../../src/schemas';
+import equipmentNames from './phb-equipment-names.json';
 
 const source = resolve('../build/chm/content/phb/money-equipment-and-arms.html');
 const html = new TextDecoder('gbk').decode(readFileSync(source));
@@ -58,6 +59,9 @@ const formatGpWeight = (value: string) => {
   return Number.isFinite(amount) ? `${value} 金币重量（约 ${Number((amount / 10).toFixed(1))} 磅）` : `${value} 金币重量`;
 };
 const items: Item[] = rows.slice(1).filter((row) => row.length >= 3 && row[1] && row[2]).map((row, index) => {
+  const id = `phb-item-${String(index + 1).padStart(3, '0')}`;
+  const names = (equipmentNames as Record<string, { nameZh: string; nameEn: string; page: number }>)[id];
+  if (!names || names.nameZh !== row[1]) throw new Error(`Equipment name mapping needs review: ${id} ${row[1]}`);
   const category = row[0] || '其他';
   const key = weaponKey(row[1]);
   const weapon = category === '武器' && key !== '长柄刀' ? weaponByName.get(key) : undefined;
@@ -69,14 +73,14 @@ const items: Item[] = rows.slice(1).filter((row) => row.length >= 3 && row[1] &&
   const weight = armor ? `${armor}（护甲负重调整值）` : weaponGp ? formatGpWeight(weaponGp) : standard ? formatGpWeight(standard) : '未列';
   const weightBook = armor || standard ? 'DMG' : undefined;
   return {
-    id: `phb-item-${String(index + 1).padStart(3, '0')}`,
-    nameZh: row[1], nameEn: '', category, price: row[2], weight,
+    id,
+    nameZh: row[1], nameEn: names.nameEn, category, price: row[2], weight,
     ...(weapon?.[2] ? { damageSmallMedium: weapon[2] } : {}),
     ...(weapon?.[3] ? { damageLarge: weapon[3] } : {}),
     ...(general?.[1] ? { length: general[1], spaceRequired: general[2], speedFactor: general[3] } : {}),
     description: `${category}；价格 ${row[2]}${weight !== '未列' ? `；负重 ${weight}` : ''}。`,
     tags: [category],
-    source: [{ book: 'PHB', section: category === '武器' ? 'Equipment; Weight and Damage by Weapon Type' : 'Basic Equipment and Supplies Costs' }, ...(weightBook ? [{ book: weightBook, section: armor ? 'Types of Armor & Encumbrance' : 'Appendix O: Encumbrance of Standard Items' }] : [])]
+    source: [{ book: 'PHB', page: names.page, section: category === '武器' ? 'Equipment; Weight and Damage by Weapon Type' : 'Basic Equipment and Supplies Costs' }, ...(weightBook ? [{ book: weightBook, section: armor ? 'Types of Armor & Encumbrance' : 'Appendix O: Encumbrance of Standard Items' }] : [])]
   };
 });
 writeFileSync(resolve('src/data/public/items-imported.json'), `${JSON.stringify(items, null, 2)}\n`);

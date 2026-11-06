@@ -1,6 +1,6 @@
 亚瑟王英雄篇把圆桌骑士及其敌手转化为高等级英雄。骑士应遵守忠诚、勇敢、公平决斗、保护弱者和履行诺言等骑士精神；骑士团与人物的声望、装备和阵营都由地下城主按战役需要调整。原书以星号标出“品质骑士”，并另列会使用卑劣手段取胜的邪恶骑士。
 
-名单包括 Arthur、Gawain、Galahad、Lancelot、Kay、Percival、Tristan、Bors、Bedivere、Ector、Mordred、Morgan le Fay、Guinevere、Merlin 以及大量圆桌骑士与敌对人物。本批先录入目录名单、骑士精神说明和 King Arthur 的完整数据，后续批次继续其余英雄。
+名单包括 Arthur、Gawain、Galahad、Lancelot、Kay、Percival、Tristan、Bors、Bedivere、Ector、Mordred、Morgan le Fay、Guinevere、Merlin 以及大量圆桌骑士与敌对人物。
 
 ## 亚瑟王 King Arthur
 

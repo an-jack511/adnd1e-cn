@@ -49,4 +49,4 @@
 
 ## 图腾与专名 Symbols and Names
 
-本批还出现了 Hiawatha（海华沙）、Qagwaaz（卡格瓦兹）、Snake-Man（蛇人）和 Tobadzistsini（托巴齐斯齐尼）等英雄或神祇。原书逐一给出护甲等级、生命值、攻击次数、职业等级、灵能等级和属性；后续批次将继续按相同统计块格式录入。
+其他英雄与神祇包括 Hiawatha（海华沙）、Qagwaaz（卡格瓦兹）、Snake-Man（蛇人）和 Tobadzistsini（托巴齐斯齐尼）等英雄或神祇。

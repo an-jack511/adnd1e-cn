@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import reading from '../../../data/public/book-reading.json';
+import directory from '../../../data/public/book-directory.json';
+export function getStaticPaths(){return Object.keys(reading).map(book=>({params:{book},props:{book}}));}
+const {book}=Astro.props;
+const info=directory.find(entry=>entry.id===book)!;
+const groups=reading[book as keyof typeof reading];
+const href=(path:string)=>`/read/${book}/${path.split('/').pop()!.replace('chapter-','').replace('.html','')}/`;
+---
+<BaseLayout title={info.titleZh}>
+ <article class="book-directory"><h1>{info.titleZh}<small lang="en">{info.title}</small></h1>
+ {groups.map(group=><section class="book-toc-group">{group.title!=='章节'&&<h2>{group.title}</h2>}<ul class="book-toc">{group.chapters.map(chapter=><li><a href={href(chapter.href)}>{chapter.title.split(' · ')[0]}{chapter.title.includes(' · ')&&<small lang="en">{chapter.title.split(' · ').slice(1).join(' · ')}</small>}</a></li>)}</ul></section>)}
+ </article>
+</BaseLayout>

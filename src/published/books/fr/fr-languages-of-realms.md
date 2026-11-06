@@ -1,5 +1,3 @@
-![《国度中的语言》原页一](/assets/books/fr/fr_languages_page_8_original.png)
-![《国度中的语言》原页二](/assets/books/fr/fr_languages_currency_page_9_original.png)
 
 坠星海以北、以东的大多数人至少在某种程度上识字。旅行者和教师表示，被遗忘的国度各处并非都是如此。附近地区以西门、南塞姆比亚以及或许希尔斯法为主要识字区域；在剑湾，深水城也属于此类。再往其他地方，“相信你的舌头”，正如行路人所说。
 
@@ -45,7 +43,6 @@
 
 符文石通常从外缘向中心阅读；文字会形成一个螺旋，围住中央图案。
 
-![托拉斯、埃斯普鲁尔与德特赫克字母和数字表；符号不可由普通文字准确重排，保留原图](/assets/books/fr/fr_languages_page_8_original.png)
 
 原书 PDF 第 10–11 页（印刷页 8–9）；字母表、数字与符号按原页图保留。
 
@@ -66,3 +63,4 @@
 * *Forges warm, friend.* ——侏儒语告别语。
 * *Good morning, and good day after that! Don't let anything curl your hair!*（有时还会加上：“当心那些大个子，也要当心地精！”）半身人彼此交谈时会这样说；对其他人，他们通常会说：“愿诸神向你微笑！”（对其他人来说，较长的形式很少值得耐心说完。）
 * *Braeunk vhos trolkh!*（如果我不在时你死了，动静小一点。）——地精语，未说出口的补充是：“因为我可不想错过乐趣。”
+

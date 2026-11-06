@@ -1,42 +1,247 @@
-> 原书来源页：PDF 第 134–135 页（原书页码 133–134）。表格使用 1d8+1d12，结果范围 2–20；名称保留原书英文，括号中的 MM1、MM2、FF 表示来源书。
+> 原书来源：PDF 第 134–135 页（印刷第 133–134 页）。逐行核对骰值、数量及来源书。
 
-本书以下表格与《Dungeon Master's Guide》附录 C 配合使用，收录本书、第一册《Monster Manual》和《Fiend Folio》的生物。DM 可按区域修改或另造表。每个等级表的“遭遇生物”和“数量”均随 2–20 的骰值读取；“Character Party”表示按 DMG 的角色队伍子表。
+与 DMG 附录 C 配合使用；掷 1d8+1d12，按 2–20 读取。MM1、MM2、FF 是来源书缩写，ALL 表示各书。角色队伍按 DMG 的角色队伍子表处理。这是典型遭遇示例，并未列出三书所有生物；DM 可按地区调整或另造表。
+
+龙龄缩写：AN＝远古（Ancient），O＝老年（Old），VO＝极老（Very Old）。数量栏的＊见表后说明。原页等级 VII 的主标题正确，续表误印为 VI cont.，此处按上下文编号为 VII。
 
 ## 地下城等级 I
 
-|骰值|遭遇|数量|骰值|遭遇|数量|
-|---:|---|---:|---:|---|---:|
-|2|Al-mi'raj (FF)|1–4|12|Orc (MM1)|7–12|
-|3|Webbird (MM2)|2–12|13|Giant Rat (MM1)|5–20|
-|4|Bullywug (FF)|3–18|14|Kobold (MM1)|6–17|
-|5|Large Pedipalp (MM2)|2–12|15|Piercer (MM1)|1–4|
-|6|Bowler (MM2)|1–3|16|Skeleton (MM1)|1–4|
-|7|Giant Bat (FF)|1–4|17|Norker (FF)|2–8|
-|8|Goblin (MM1)|6–15|18|Vulchling (MM2)|2–12|
-|9|Bandit Men (MM1)|5–15|19|Gnome (MM1)|5–15|
-|10|Bat (MM2)|2–20|20|Nupperibo (MM2)|1–3|
-|11|Character Party|见 DMG| | | |
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 独角兔 | Al-mi'raj | FF | 1–4 |
+| 3 | 织网鸟 | Webbird | MM2 | 2–12 |
+| 4 | 蛙人 | Bullywug | FF | 3–18 |
+| 5 | 大型无尾鞭蝎 | Pedipalp, Large | MM2 | 2–12 |
+| 6 | 滚石兽 | Bowler | MM2 | 1–3 |
+| 7 | 巨型蝙蝠 | Bat, Giant | FF | 1–4 |
+| 8 | 地精 | Goblin | MM1 | 6–15 |
+| 9 | 强盗 | Men, Bandit | MM1 | 5–15 |
+| 10 | 蝙蝠 | Bat | MM2 | 2–20 |
+| 11 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 12 | 兽人 | Orc | MM1 | 7–12 |
+| 13 | 巨鼠 | Rat, Giant | MM1 | 5–20 |
+| 14 | 狗头人 | Kobold | MM1 | 6–17 |
+| 15 | 穿刺怪 | Piercer | MM1 | 1–4 |
+| 16 | 骷髅 | Skeleton | MM1 | 1–4 |
+| 17 | 诺克地精 | Norker | FF | 2–8 |
+| 18 | 秃鹫人 | Vulchling | MM2 | 2–12 |
+| 19 | 侏儒 | Gnome | MM1 | 5–15 |
+| 20 | 讷匹利波魔 | Nupperibo | MM2 | 1–3 |
 
-## 地下城等级 II–IV（按原表顺序）
+## 地下城等级 II
 
-等级 II：Azer 1–8；Duergar 2–12；Coffer Corpse 1；Gas Spore 1；Lizard Man 1–12；Gnoll 4–10；Land Lamprey 2–8；Giant Centipede 2–8；Giant Toad 1–4；Character Party；Troglodyte 2–8；Huge Centipede 3–18；Grimlock 2–12；Stirge 5–15；Mongrelman 2–12；Quaggoth 4–10；Huge Pedipalp 2–8；Killer Frog 2–7；Firebat 1–4。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 火矮灵 | Azer | MM2 | 1–6 |
+| 3 | 灰矮人 | Duergar | MM2 | 2–12 |
+| 4 | 棺尸 | Coffer Corpse | FF | 1 |
+| 5 | 气孢 | Gas Spore | MM1 | 1 |
+| 6 | 蜥蜴人 | Lizard Man | MM1 | 1–12 |
+| 7 | 豺狼人 | Gnoll | MM1 | 4–10 |
+| 8 | 陆生七鳃鳗 | Land Lamprey | MM2 | 2–8 |
+| 9 | 巨型蜈蚣 | Centipede, Giant | MM1 | 2–8 |
+| 10 | 巨型蟾蜍 | Toad, Giant | MM1 | 1–4 |
+| 11 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 12 | 战蜥人 | Troglodyte | MM1 | 2–8 |
+| 13 | 超大型蜈蚣 | Centipede, Huge | MM2 | 3–18 |
+| 14 | 石盲蛮族 | Grimlock | FF | 2–12 |
+| 15 | 蚊蝠 | Stirge | MM1 | 5–15 |
+| 16 | 杂种人 | Mongrelman | MM2 | 2–12 |
+| 17 | 地底兽人 | Quaggoth | FF | 4–10 |
+| 18 | 超大型无尾鞭蝎 | Pedipalp, Huge | MM2 | 2–8 |
+| 19 | 杀手蛙 | Frog, Killer | MM1 | 2–7 |
+| 20 | 火蝠 | Firebat | MM2 | 1–4 |
 
-等级 III：Leprechaun 1；Fire/Smoke Mephit 1–3；Phantom 1；Ankheg（4–5 HD）1–3；Ochre Jelly 1；Kenku 2–8；Luck Eater 1；Character Party；Ogre 1–4；Giant Boring Beetle 1–3；Large Spider 1–4；Large Scorpion 1–4；Bugbear 2–7；Gelatinous Cube 1；Ustilagor 1–3；Shocker 1–3；Giant Weasel 1–4；Thoqqua 1–2；Drow Elf 2–8。
+## 地下城等级 III
 
-等级 IV：Lava Children 1–6；Meenlock 2–5；Hook Horror 2–5；Hill Giant 1–4；Will-o-wisp 1–3；Pech 3–12；Owlbear 1–2；Rust Monster 1–2；Pseudo-undead Ghast 1–4；Character Party；Yellow Mold 1；Huge Scorpion 1–6；Poisonous Toad 1–4；Gargoyle 1–2；Giant Hornet 1–2；Hydra（5–6 头）1；Ghast 1–4；Caterwaul 1；Giant Solifugid 1–4；Spectator 1；Githyanki 1–4。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 小妖精 | Leprechaun | MM1 | 1 |
+| 3 | 火魔蝠或烟魔蝠 | Mephit, Fire or Smoke | FF | 1–3 |
+| 4 | 幻影 | Phantom | MM2 | 1 |
+| 5 | 掘地虫（4–5 HD） | Ankheg, 4–5 HD | MM1 | 1–3 |
+| 6 | 赭色胶怪 | Ochre Jelly | MM1 | 1 |
+| 7 | 鸦人 | Kenku | FF | 2–8 |
+| 8 | 食运兽 | Luck Eater | MM2 | 1 |
+| 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 10 | 食人魔 | Ogre | MM1 | 1–4 |
+| 11 | 巨型钻木甲虫 | Beetle, Giant Boring | MM1 | 1–3 |
+| 12 | 大型蜘蛛 | Spider, Large | MM1 | 1–4 |
+| 13 | 大型蝎子 | Scorpion, Large | MM2 | 1–4 |
+| 14 | 熊地精 | Bugbear | MM1 | 2–7 |
+| 15 | 胶质立方体 | Gelatinous Cube | MM1 | 1 |
+| 16 | 乌斯提拉戈 | Ustilagor | MM2 | 1–3 |
+| 17 | 电击怪 | Shocker | FF | 1–3 |
+| 18 | 巨型鼬 | Weasel, Giant | MM1 | 1–4 |
+| 19 | 熔岩虫 | Thoqqua | FF | 1–2 |
+| 20 | 卓尔精灵 | Elf, Drow | FF | 2–8 |
 
-## 地下城等级 V–X
+## 地下城等级 IV
 
-等级 V：Chaggrin 1；Cloaker 1；Algoid 1–2；Phycomid 1–4；Minotaur 1–3；Giant Poisonous Snake 1–3；Subterranean Lizard 1–3；Cave Bear 1–2；Character Party；Cockatrice 1–2；Giant Spider 1–4；Verbeeg 2–5；Hydra（7 头）1；Poisonous Snake 2–5；Margoyle 1–2；Rock Reptile 1–2；Doppelganger 1–3；Giant Solifugid 1–3；Pyrohydra（5 头）1。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 熔岩之子 | Lava Children | FF | 1–6 |
+| 3 | 恐惧之锁 | Meenlock | FF | 2–5 |
+| 4 | 钩爪恐兽 | Hook Horror | FF | 2–5 |
+| 5 | 佩奇土灵 | Pech | MM2 | 3–12 |
+| 6 | 枭熊 | Owlbear | MM1 | 1–2 |
+| 7 | 锈蚀怪 | Rust Monster | MM1 | 1–2 |
+| 8 | 伪不死生物：妖鬼型 | Pseudo-undead, Ghast | MM2 | 1–4 |
+| 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 10 | 黄霉 | Yellow Mold | MM1 | 1 |
+| 11 | 超大型蝎子 | Scorpion, Huge | MM2 | 1–6 |
+| 12 | 毒蟾蜍 | Toad, Poisonous | MM1 | 1–4 |
+| 13 | 石像鬼 | Gargoyle | MM1 | 1–2 |
+| 14 | 巨型胡蜂 | Hornet, Giant | FF | 1–2 |
+| 15 | 九头蛇（5–6 头） | Hydra, 5–6 heads | MM1 | 1 |
+| 16 | 妖鬼 | Ghast | MM1 | 1–4 |
+| 17 | 夜嚎兽 | Caterwaul | FF | 1 |
+| 18 | 巨型避日蛛 | Solifugid, Giant | MM2 | 1–4 |
+| 19 | 眼魔监视者 | Spectator | MM2 | 1 |
+| 20 | 吉斯洋基人 | Githyanki | FF | 1–4 |
 
-等级 VI：Greater Drider 1–3；Rakshasa 1；Green Slime；Basilisk 1；Grell 1；Otyugh 1；Wyvern 1；Wraith 1–2；Wight 1–4；Character Party；Pseudo-undead Wraith 1–2；Carrion Crawler 1–2；Giant Scorpion 1–2；Troll 1–3；Abishai 1–2；Old Black Dragon 1；Ogre Mage 1–2；Yuan-ti 1–3；Red Slaad 1。
+## 地下城等级 V
 
-等级 VII：Dao 1；Greater Basilisk 1；Umber Hulk 1；Mimic 1；Chimera 1；Lurker Above 1；Frost/Fire Giant 1–3；Character Party；Black Pudding 1；Will-o-wisp 1–3；Hill Giant 1–4；White Will-o-wisp 1–3；Cave Slug 1；Pseudo-undead Spectre 1–2；Giant Sundew 1；Mummy 1–2；Spectre 1；Invisible Stalker 1；Diakk 1–4；Mezzodaemon 1。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 土惧灵 | Grue, Chaggrin | MM2 | 1 |
+| 3 | 蛰伏伪怪 | Cloaker | MM2 | 1 |
+| 4 | 藻人 | Algoid | FF | 1–2 |
+| 5 | 藻菌怪 | Phycomid | MM2 | 1–4 |
+| 6 | 牛头怪 | Minotaur | MM1 | 1–3 |
+| 7 | 巨型毒蛇 | Snake, Giant Poisonous | MM2 | 1–3 |
+| 8 | 地底蜥蜴 | Lizard, Subterranean | MM1 | 1–3 |
+| 9 | 穴熊 | Bear, Cave | MM1 | 1–2 |
+| 10 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 11 | 鸡蛇 | Cockatrice | MM1 | 1–2 |
+| 12 | 巨型蜘蛛 | Spider, Giant | MM1 | 1–4 |
+| 13 | 维比格巨人 | Giant, Verbeeg | MM2 | 2–5 |
+| 14 | 九头蛇（7 头） | Hydra, 7 Heads | MM1 | 1 |
+| 15 | 毒蛇 | Snake, Poisonous | MM2 | 2–5 |
+| 16 | 岩像鬼 | Margoyle | MM2 | 1–2 |
+| 17 | 岩石爬兽 | Rock Reptile | MM2 | 1–2 |
+| 18 | 变形怪 | Doppelganger | MM1 | 1–3 |
+| 19 | 巨型避日蛛 | Solifugid, Giant | MM2 | 1–3 |
+| 20 | 火九头蛇（5 头） | Hydra, Pyro-, 5 heads | MM1 | 1 |
 
-等级 VIII：Foo Lion 1；Xag-ya 1；Chasme 1–2；Aurumvorax 1–2；Vampire 1；Deadly Brown Pudding 1；Alu-demon 1–2；Character Party；Pyrohydra（13–16 头）1；Pseudo-undead Vampire 1–2；Rust Monster 1–2；Will-o-wisp 1；Trapper 1；Type V Demon 1；Purple Worm 1；Ghost 1；Ancient Black Dragon 1；Xeg-yi 1；Charonadaemon 1。
+## 地下城等级 VI
 
-等级 IX：Type VI Demon 1；Monads 1；Red Dragon（AN）1；Pyrohydra（12 头）1；Dead Orc 1；Character Party；Movanic Deva 1；Thessalhydra 1；Former Cleric Vampire 1；Stone Golem 1；Black Dragon（AN/O）2；Kelubar 1–2；Nycadaemon 1；Major Titan 1；Baku 1；Ultrodaemon 1；Demilich 1。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 蛛化卓尔 | Drider | MM2 | 1–3 |
+| 3 | 罗刹 | Rakshasa | MM1 | 1 |
+| 4 | 绿泥 | Green Slime | MM1 | 1 |
+| 5 | 石化蜥蜴 | Basilisk | MM1 | 1 |
+| 6 | 格瑞尔 | Grell | FF | 1 |
+| 7 | 食腐伪怪 | Otyugh | MM1 | 1 |
+| 8 | 飞龙 | Wyvern | MM1 | 1 |
+| 9 | 缚灵 | Wraith | MM1 | 1–2 |
+| 10 | 尸妖 | Wight | MM1 | 1–4 |
+| 11 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 12 | 伪缚灵 | Pseudowraith | MM2 | 1–2 |
+| 13 | 腐尸爬行者 | Carrion Crawler | MM1 | 1–2 |
+| 14 | 巨蝎 | Scorpion, Giant | MM1 | 1–2 |
+| 15 | 巨魔 | Troll | MM1 | 1–3 |
+| 16 | 阿比沙魔 | Devil, Abishai | MM2 | 1–2 |
+| 17 | 老年黑龙 | Dragon, Black, Old | MM1 | 1 |
+| 18 | 食人魔法师 | Ogre Mage | MM1 | 1–2 |
+| 19 | 渊地蛇人 | Yuan-ti | MM2 | 1–3 |
+| 20 | 红史拉蟾 | Slaad, Red | FF | 1 |
 
-等级 X：Demon Prince；Elemental Prince of Evil；Quarton 1；Tarrasque 1；Red Dragon（AN/VO）2；Blue Dragon（AN/VO）2；Solar 1；Iron Golem 1；Planetar 1；Death Slaad 1；Beholder 1；Character Party；Lich 1；Former Magic-user Vampire 1；Cloud Dragon（Ancient）1；Quinton 1；Elder Titan 1；Charon 1；Devil Duke 或 Arch-devil。
+## 地下城等级 VII
 
-强大、独特的生物总有侍从与附庸：例如 Orcus 身边有不死生物，Tiamat 身边有 Abishai 和巨龙，Anthraxus 身边有低阶 Daemon。
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 土巨灵 | Dao | MM2 | 1 |
+| 3 | 高等石化蜥蜴 | Basilisk, Greater | MM2 | 1 |
+| 4 | 土巨怪 | Umber Hulk | MM1 | 1 |
+| 5 | 拟态怪 | Mimic | MM1 | 1 |
+| 6 | 奇美拉 | Chimera | MM1 | 1 |
+| 7 | 穹顶潜伏怪 | Lurker Above | MM1 | 1 |
+| 8 | 霜巨人或火巨人 | Giant, Frost or Fire | MM1 | 1–3 |
+| 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 10 | 黑布丁怪 | Pudding, Black | MM1 | 1 |
+| 11 | 山丘巨人 | Giant, Hill | MM1 | 1–4 |
+| 12 | 鬼火 | Will-o-wisp | MM1 | 1–3 |
+| 13 | 巨型蛞蝓 | Slug, Giant | MM1 | 1 |
+| 14 | 伪不死生物：幽魂型 | Pseudo-undead, Spectre | MM2 | 1–2 |
+| 15 | 巨型茅膏菜 | Sundew, Giant | MM2 | 1 |
+| 16 | 木乃伊 | Mummy | MM1 | 1–2 |
+| 17 | 幽魂 | Spectre | MM1 | 1 |
+| 18 | 隐形追猎者 | Invisible Stalker | MM1 | 1 |
+| 19 | 迪亚克 | Diakk | MM2 | 1–4 |
+| 20 | 夹层魔 | Daemon, Mezzo- | FF | 1 |
+
+## 地下城等级 VIII
+
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 福狮 | Foo Lion | MM2 | 1 |
+| 3 | 萨格雅正能灵 | Xag-ya | MM2 | 1 |
+| 4 | 蝇魔 | Demon, Chasme | MM2 | 1–2 |
+| 5 | 黄金兽 | Aurumvorax | MM2 | 1–2 |
+| 6 | 吸血鬼 | Vampire | MM1 | 1 |
+| 7 | 致命褐布丁怪 | Pudding, Deadly Brown | MM2 | 1 |
+| 8 | 阿鲁魔 | Demon, Alu- | MM2 | 1–2 |
+| 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 10 | 九头蛇（13–16 头） | Hydra, 13–16 heads | MM1 | 1 |
+| 11 | 伪不死生物：吸血鬼型 | Pseudo-undead, Vampire | MM2 | 1–2 |
+| 12 | 锈蚀怪 | Rust Monster | MM1 | 1–2 |
+| 13 | 鬼火 | Will-o-wisp | MM1 | 1 |
+| 14 | 伏地伪怪 | Trapper | MM1 | 1 |
+| 15 | V 型恶魔 | Demon, Type V | MM1 | 1 |
+| 16 | 紫虫 | Purple Worm | MM1 | 1 |
+| 17 | 幽灵 | Ghost | MM1 | 1 |
+| 18 | 远古黑龙 | Dragon, Black, Ancient | MM1 | 1 |
+| 19 | 谢格伊负能灵 | Xeg-yi | MM2 | 1 |
+| 20 | 渡魂达厄蒙 | Daemon, Charon- | MM2 | 1 |
+
+## 地下城等级 IX
+
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | VI 型恶魔 | Demon, Type VI | MM1 | 1 |
+| 3 | 摩纳迪克天使 | Deva, Monadic | MM2 | 1 |
+| 4 | 深狱炼魔 | Devil, Pit Fiend | MM1 | 1 |
+| 5 | 远古红龙 | Dragon, Red, AN | MM1 | 1 |
+| 6 | 火九头蛇（12 头） | Hydra, Pyro-, 12 heads | MM1 | 1 |
+| 7 | 灰史拉蟾 | Slaad, Grey | FF | 1 |
+| 8 | 次等泰坦 | Titan, Minor | MM1 | 1 |
+| 9 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 10 | 摩凡尼天使 | Deva, Movanic | MM2 | 1 |
+| 11 | 塞萨尔多头怪 | Thessalhydra | MM2 | 1 |
+| 12 | 吸血鬼（生前为 7–10 级牧师） | Vampire, former cleric, level 7–10 | MM1 | 1 |
+| 13 | 石魔像 | Golem, Stone | MM1 | 1 |
+| 14 | 黑龙（远古、老年） | Dragon, Black, AN, O | MM1 | 2 |
+| 15 | 黏液德魔丹 | Demodand, Kelubar | MM2 | 1–2 |
+| 16 | 夜魔 | Daemon, Nyca- | FF | 1 |
+| 17 | 高等泰坦 | Titan, Major | MM1 | 1 |
+| 18 | 巴库 | Baku | MM2 | 1 |
+| 19 | 终极达厄蒙 | Daemon, Ultro- | MM2 | 1 |
+| 20 | 半巫妖 | Demilich | MM2 | 1 |
+
+## 地下城等级 X
+
+| 骰值 | 遭遇生物 | 原文名称 | 来源 | 数量 |
+| --- | --- | --- | --- | --- |
+| 2 | 恶魔王子 | Demon Prince | ALL | ＊ |
+| 3 | 邪恶元素王子 | Elemental Prince of Evil | FF | ＊ |
+| 4 | 四阶魔冢 | Modron, Quarton | MM2 | 1 |
+| 5 | 塔拉斯克巨兽 | Tarrasque | MM2 | 1 |
+| 6 | 红龙（远古、极老） | Dragon, Red, AN, VO | MM1 | 2 |
+| 7 | 蓝龙（远古、极老） | Dragon, Blue, AN, VO | MM1 | 2 |
+| 8 | 炽天使 | Solar | MM2 | 1 |
+| 9 | 铁魔像 | Golem, Iron | MM1 | 1 |
+| 10 | 行星天使 | Planetar | MM2 | 1 |
+| 11 | 死史拉蟾 | Slaad, Death | FF | 1 |
+| 12 | 眼魔 | Beholder | MM1 | 1 |
+| 13 | 角色队伍 | Character Party | DMG | 见角色队伍子表 |
+| 14 | 巫妖 | Lich | MM1 | 1 |
+| 15 | 吸血鬼（生前为 9–12 级魔法师） | Vampire, former magic-user, level 9–12 | MM1 | 1 |
+| 16 | 远古云龙 | Dragon, Cloud, Ancient | MM2 | 1 |
+| 17 | 五阶魔冢 | Modron, Quinton | MM2 | 1 |
+| 18 | 长老泰坦 | Titan, Elder | MM1 | 1 |
+| 19 | 卡戎 | Daemon, Charon | MM2 | ＊ |
+| 20 | 魔鬼公爵或大魔鬼 | Devil, Duke or Arch- | ALL | ＊ |
+
+＊强大而独特的生物（例如恶魔王子、达厄蒙主宰和地狱公爵）总有侍从与附庸相伴。例如奥喀斯身边有不死生物，提亚马特身边有阿比沙魔及几条巨龙，安斯拉克瑟斯身边有力量较弱的达厄蒙。

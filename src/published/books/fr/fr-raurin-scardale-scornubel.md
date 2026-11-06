@@ -1,5 +1,3 @@
-![拉乌林、雷丹瑟尔与疤谷原页](/assets/books/fr/fr_raurin_reddansyr_scardale_page_74_original.png)
-![疤谷与斯科努贝尔原页](/assets/books/fr/fr_scardale_scornubel_page_75_original.png)
 
 ## 拉乌林 RAURIN（ROAR-in）
 
@@ -60,3 +58,4 @@
 斯科努贝尔是重要的港口、渡口、仓储中心和商队公司总部。北方主要商队公司都在这里拥有马厩、办公室或仓储设施；完整信息见“商人公司”。
 
 原书 PDF 第 75 页（印刷页 73）；保留拉乌林传说、雷丹瑟尔与塞尔伦定位、疤谷战争与驻军状态，以及斯科努贝尔的商贸功能和统治结构。
+

@@ -27,4 +27,3 @@
 <TR><TD>A</TD><TD>对该种族抱有反感。</TD></TR>
 <TR><TD>H</TD><TD>强烈憎恨该种族。</TD></TR>
 </TABLE>
-<P></P>

@@ -1,8 +1,6 @@
 
 ## Tenser 的法术
 
-![猎鹰攻击场景，原书 PDF 第 72 页裁片](/assets/books/gha/gha_tenser_illustration.png)
-
 ### Tenser 的燃焰之刃术（变化系）
 
 | 项目 | 数据 |

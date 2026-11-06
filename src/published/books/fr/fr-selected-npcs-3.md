@@ -164,4 +164,4 @@ Orgauth 是月海战争中一名老练而残酷的老兵，也是一个富有商
 
 Osper 据说至少拥有三座守卫魔像和大量财宝；他的宅邸中有一根强力法杖。他在塞尔伦以使用法术而闻名：有一伙人曾大胆夜袭他租用的仓库，正好赶上这名法师在那里检查货物。
 
-原书 PDF 第 125–128 页（印刷页 25–28）；保留 Khelben 续文以及 Korth、Lanseril、Lhara、Luvon、Manshoon、Manxam、Masyr、Maxer、Merith、Mhzentul、Naglatha、Miraun、Mourngrym、Neiron、Nethmurta、Nurlar、Orgauth 与 Osper 条目，并挂载对应原页图。下一批继续后续 NPC。
+原书 PDF 第 125–128 页（印刷页 25–28）；保留 Khelben 续文以及 Korth、Lanseril、Lhara、Luvon、Manshoon、Manxam、Masyr、Maxer、Merith、Mhzentul、Naglatha、Miraun、Mourngrym、Neiron、Nethmurta、Nurlar、Orgauth 与 Osper 条目，并挂载对应原页图。

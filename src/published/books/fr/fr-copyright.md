@@ -1,4 +1,3 @@
-![被遗忘的国度版权页原图](/assets/books/fr/fr_copyright_original.png)
 
 TSR, Inc.  
 邮政信箱 756  
@@ -18,3 +17,4 @@ ADVANCED DUNGEONS & DRAGONS、AD&D、FORGOTTEN REALMS、PRODUCTS OF YOUR IMAGINA
 ©1987 TSR, Inc. 版权所有。
 
 原书版权页，PDF 第 5 页。
+

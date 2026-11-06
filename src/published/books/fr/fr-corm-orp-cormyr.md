@@ -1,5 +1,4 @@
-![科姆奥普、牧师与科米尔原页](/assets/books/fr/fr_corm_orp_cormyr_page_32_original.png)
-![科米尔地图原页](/assets/books/fr/fr_cormyr_map_page_33_original.png)
+![科米尔地图，原书 PDF 第 33 页地图裁片](/assets/books/fr/fr_cormyr_map_page_33_map.png)
 
 ## 科姆奥普 CORM ORP（续）
 

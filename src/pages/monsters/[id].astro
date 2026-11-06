@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { monsters } from '../../data/public/monsters';
+import { monsterSizeLabel } from '../../utils/monster-size';
 export function getStaticPaths() { return monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
 const { monster } = Astro.props;
 ---
@@ -24,7 +25,7 @@ const { monster } = Astro.props;
       <tr><th scope="row">魔法抗性</th><td>{monster.magicResistance}</td></tr>
       <tr><th scope="row">智力 Intelligence</th><td>{monster.intelligence}</td></tr>
       <tr><th scope="row">阵营 Alignment</th><td>{monster.alignment}</td></tr>
-      <tr><th scope="row">体型 Size</th><td>{monster.size}</td></tr>
+      <tr><th scope="row">体型 Size</th><td>{monsterSizeLabel(monster.size)}{!/[\u3400-\u9fff]/.test(monster.size) && /^[SML]$/.test(monster.size) ? null : ` · ${monster.size}`}</td></tr>
       <tr><th scope="row">灵能 Psionics</th><td>{monster.psionics}</td></tr>
       <tr><th scope="row">环境 Environment</th><td>{monster.environment}</td></tr>
     </tbody></table>

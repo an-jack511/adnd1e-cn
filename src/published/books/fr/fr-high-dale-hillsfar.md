@@ -1,5 +1,3 @@
-![闹鬼大厅、高谷、高角与高荒原原页](/assets/books/fr/fr_haunted_highdale_highhorn_page_50_original.png)
-![失魂山、希尔法与山缘镇原页](/assets/books/fr/fr_hill_lostsouls_hillsfar_hillsedge_page_51_original.png)
 
 ## 闹鬼大厅 THE HAUNTED HALLS（续）
 
@@ -118,3 +116,4 @@
 这是一座无需提问的城镇，劫掠者和商人一样常见。它位于黄蛇山口西入口附近，拥有大量贸易；来自珍塔林及其黑堡部队的代理人也在此活动。
 
 原书 PDF 第 52–53 页（印刷页 50–51）；保留高谷民兵／雇佣兵弓骑、高角驻军与战斗巫师、高荒原生态、失魂山宝藏传闻、希尔法政府更替与长老名单，以及山缘镇条目开头。
+

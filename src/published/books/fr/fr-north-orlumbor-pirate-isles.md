@@ -1,5 +1,3 @@
-![北方、奥伦巴尔与海盗岛原页](/assets/books/fr/fr_north_orlumbor_pirate_isles_page_68_original.png)
-![海盗岛历史与船队规则原页](/assets/books/fr/fr_pirate_isles_history_page_69_original.png)
 
 ## 北方 THE NORTH
 
@@ -58,3 +56,4 @@
 因此，科米尔、塞姆比亚、安皮尔图尔以及维尔洪湾的国家联合在海上对抗海盗，组成大型船队。
 
 原书 PDF 第 70–71 页（印刷页 68–69）；保留北方边界、奥伦巴尔造船时间与船体规则、海盗岛地理、龙岛港口防御、因穆尔克及海盗联盟历史，并挂载对应原页图。
+

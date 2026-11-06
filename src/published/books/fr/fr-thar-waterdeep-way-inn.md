@@ -1,7 +1,3 @@
-![泰尔、泰伊与盗贼子类原页](/assets/books/fr/fr_thar_thay_thieves_page_85_original.png)
-![泰尔鲁克、瓦萨与失语谷原页](/assets/books/fr/fr_tilver_vaasa_lostvoices_page_86_original.png)
-![维尔洪海湾、沃恩拉尔与深水城原页](/assets/books/fr/fr_vilhon_voonlar_waterdeep_page_87_original.png)
-![深水城领主、途道镇与途道旅店原页](/assets/books/fr/fr_waterdeep_waymoot_wayinn_page_88_original.png)
 
 ## 泰尔 THAR（灰色大地 THE GREAT GREY LANDS）
 
@@ -254,3 +250,4 @@
 红胡子道拉文是退出冒险行业的冒险者，5 级战士。他不再穿铠甲，但一直佩戴防御护腕（AC 2）。酒吧后方挂着一把传闻具有魔法力量的双手宽刃剑。
 
 原书 PDF 第 87–90 页（印刷页 85–88）；保留泰尔、泰伊、盗贼规则、泰尔弗峡口巡逻编制、巨魔爪渡口护卫、瓦萨历史、失语谷精灵契约、沃恩拉尔神殿人员、深水城领主面具规则、途道镇领主与途道旅店火油罐规则及对应原页图。
+

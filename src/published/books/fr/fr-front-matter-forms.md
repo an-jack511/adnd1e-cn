@@ -1,8 +1,5 @@
-![冒险公司角色记录表原页](/assets/books/fr/fr_character_sheet_page_99_original.png)
+
 ![《被遗忘的国度》DM 资料书封面原页](/assets/books/fr/fr_dm_sourcebook_cover_page_100_original.png)
-![伊尔明斯特题词原页](/assets/books/fr/fr_elminster_quote_page_101_original.png)
-![目录与制作人员原页](/assets/books/fr/fr_toc_credits_page_102_original.png)
-![书册背面原页](/assets/books/fr/fr_back_cover_page_103_original.png)
 
 ## 冒险公司记录表 ADVENTURING COMPANY
 
@@ -71,3 +68,4 @@
 - <strong>ISBN</strong>：0-88038-472-7
 
 原书 PDF 第 99–103 页（其中第 99 页为冒险公司记录表，第 100 页为封面，第 101 页为题词，第 102 页为目录与制作人员，第 103 页为背面）；保留表格字段、配色、封面、题词、目录、制作人员与背面原页图。第 104 页起进入同一 PDF 内的《国度 DM 资料书》正文，后续继续逐页翻译。
+

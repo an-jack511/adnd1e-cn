@@ -1,0 +1,20 @@
+html,body{ font-family:Arial,Helvetica,sans-serif; }
+div.stat-block{ margin-left:32px; width:537px; background-color:#F8F8F6; padding:15px; border:3px double #808080; font-size:100%; margin-bottom:20px; }
+div.stat-block h5,div.stat-block h6{ color:#800000; font-weight:bold; border-bottom:1px #800000 solid; }
+div.stat-block h5{ font-size:140%; margin-top:0; margin-bottom:5px; }
+div.stat-block h6{ font-size:115%; margin-top:17px; margin-bottom:-12px; }
+div.stat-block .sub-line{ color:#808080; font-style:italic; MARGIN-TOP:-3px; }
+div.stat-block table{ width:500px; color:#800000; border-collapse:collapse; }
+table.stat-abilities{ text-align:center; margin-bottom:15px; white-space:nowrap; }
+table.stat-abilities th{ width:40px; font-size:75%; color:#808080; }
+table.stat-abilities td{ padding:2px 0 0 0; font-size:100%; }
+td.c1{ BACKGROUND-COLOR:#e9e3d6; } td.c2{ BACKGROUND-COLOR:#d8d0c9; }
+td.c3{ BACKGROUND-COLOR:#d2d6ce; } td.c4{ BACKGROUND-COLOR:#cbc6c6; }
+h1,h2,h3{ color:#800000; }
+U{ color:#008000; font-weight:bold; text-decoration:none; }
+U EM,U I{ color:#704CD9; font-style:italic; font-weight:bold; }
+EM U,I U{ color:#0000ff; font-style:normal; font-weight:bold; }
+B U,U B,STRONG U,U STRONG{ color:#ee3300; font-style:normal; font-weight:bold; }
+div.little-paper{ padding:15px; border:3px double #9E6859; background-color:#FAF0EB; font-family:"fangsong","·ÂËÎ",Arial,Helvetica,sans-serif; font-weight:bold; font-size:100%; margin-bottom:20px; }
+div.little-paper P{ margin-top:7px; margin-bottom:7px; }
+div.HT{ padding:5px; border-top:3px solid #D1BC90; background-color:#F0E9DA; MARGIN-TOP:-7px; width:561px; font-size:100%; }

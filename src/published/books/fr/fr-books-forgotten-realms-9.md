@@ -127,3 +127,4 @@ stealspell 即使目标失去意识或陷入疯狂也能生效；灵能防护、
 像强大的 incantatrix（对所有人而言，他生前可能就是这种人）一样，Shoon 可以用这类法术的能量恢复生命值（每个法术等级恢复 2–8 点），或仅凭意志使用它们，效果如同原施法者施放；他每次只能使用一道法术，且每轮只能使用一次。Shoon 当前保留的被盗法术如下（他能“持有”的法术数量，只等同于他成为巫妖后本可携带的数量，但这些法术可以属于任何职业与等级；Shoon 至少是 26 级魔法使用者）：hold person×2、dispel magic（牧师）×3、lightning bolt（8d6）、cone of cold、Bigby’s forceful hand 和 volley。
 
 原书 PDF 第190–193页（印刷页90–93）；保留 Scalamagdrion 的 23 道法术目录、Nungulfim 插图门户、完整怪物数据与特殊防御、《契约之书》的三篇法师法术、月光球规则、《独角兽之书》的书页诅咒与封底 demi-lich 触发，以及 Stealspell 和 Shoon 的被盗法术清单，并挂载对应原页图。
+

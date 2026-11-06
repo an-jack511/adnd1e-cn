@@ -27,5 +27,3 @@
 | 128 | 附录一：已知存在位面 | Appendix 1: The Known Planes of Existence |
 | 134 | 附录二：神殿陈设；附录三：牧师速查表 | Appendix 2: Temple Trappings; Appendix 3: Clerical Quick Reference Chart |
 | 143 | 附录四：进一步参考；专名索引 | Appendix 4: Further References; Index to Proper Names |
-
-本批译文覆盖 PDF 第 2–20 页，对应原书正文从书名页至亚瑟王英雄篇开头。

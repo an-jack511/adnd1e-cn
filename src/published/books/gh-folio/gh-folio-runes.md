@@ -8,8 +8,6 @@
 
 ## PDF 第 30 页
 
-![原书符文图版：PDF 第 30 页](/assets/books/gh-folio/page-030.png)
-
 | 原书标签 | 中文释义 |
 | --- | --- |
 | DAY | 日、白昼 |
@@ -33,8 +31,6 @@
 | EVIL POWER, DESTRUCTIVE POWER | 邪恶力量、毁灭力量 |
 
 ## PDF 第 31 页
-
-![原书符文图版：PDF 第 31 页](/assets/books/gh-folio/page-031.png)
 
 | 原书标签 | 中文释义 |
 | --- | --- |
@@ -63,8 +59,6 @@
 
 ## PDF 第 32 页
 
-![原书符文图版：PDF 第 32 页](/assets/books/gh-folio/page-032.png)
-
 | 原书标签 | 中文释义 |
 | --- | --- |
 | LIGHT | 光明 |
@@ -91,8 +85,6 @@
 | SULPHUR, INFERNAL | 硫、地狱的 |
 
 ## PDF 第 33 页
-
-![原书符文图版：PDF 第 33 页](/assets/books/gh-folio/page-033.png)
 
 | 原书标签 | 中文释义 |
 | --- | --- |
@@ -135,4 +127,4 @@ Lake Geneva, WI 53147
 
 ![原书彩色封底图版：PDF 第 34 页](/assets/books/gh-folio/page-034.png)
 
-本页为彩色地图与盾徽图版。扫描页中没有可可靠转录的连续正文；地图上的地名、边界、盾徽和装饰图样均作为原图保留，待后续图像清理与中文叠字批次处理。本条不对不可辨认的图中文字作臆造补译。
+彩色地图与盾徽图版，地名、边界与盾徽见原图。

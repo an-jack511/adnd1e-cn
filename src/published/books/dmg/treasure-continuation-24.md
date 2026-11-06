@@ -73,7 +73,7 @@
 | G | 每天 <strong>1 次</strong>施展“死亡术”，影响等级数量提高 <strong>110%–200%</strong>。 |
 | H | 每天 <strong>1 次</strong>施展必定成功的“传送门术”。 |
 | I | 每周 <strong>1 次</strong>施展“囚禁术”。 |
-| J | 说出命令语后，持有者获得 <strong>50%–75%</strong> 魔法抗力；每天 <strong>1 次</strong>。 |
+| J | 说出命令语后，持有者获得 <strong>50%–75%</strong> 魔法抗性；每天 <strong>1 次</strong>。 |
 | K | 说出命令语后，持有者的主要属性永久提高至 <strong>19</strong>。 |
 | L | 每天 <strong>1 次</strong>施展“流星爆”。 |
 | M | 每天 <strong>2 次</strong>施展“怪物召唤术 VIII”。 |

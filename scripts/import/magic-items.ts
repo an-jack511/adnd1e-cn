@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { Item } from '../../src/schemas';
+import { bilingualName } from './bilingual-name';
 
 const lines = readFileSync(resolve('../manuscript/dmg/topics/treasure.md'), 'utf8').split(/\r?\n/);
 const clean = (value: string) => value.replace(/\*+|\$|#/g, '').replace(/<[^>]+>/g, '').trim();
@@ -9,7 +10,7 @@ const items: Item[] = [];
 const ids = new Set<string>();
 let heading = '';
 for (let index = 0; index < lines.length; index++) {
-  if (/^#{2,4} /.test(lines[index])) heading = clean(lines[index].replace(/^#+ /, ''));
+  if (/^#{2,6} /.test(lines[index])) heading = clean(lines[index].replace(/^#+ /, ''));
   if (!/^\|/.test(lines[index])) continue;
   const rows: string[][] = [];
   while (index < lines.length && /^\|/.test(lines[index])) rows.push(lines[index++].split('|').slice(1, -1).map(clean));
@@ -18,12 +19,13 @@ for (let index = 0; index < lines.length; index++) {
   for (const row of rows.slice(2)) {
     if (!/^\d{1,2}(?:[–—-]\d{1,2})?$/.test(row[0] ?? '')) continue;
     const original = row[1].replace(/（[^）]*）/g, '').trim();
-    const english = original.match(/([A-Z][A-Za-z0-9'’+(),. /-]+)$/)?.[1]?.trim();
+    const parsedName = bilingualName(original);
+    const english = parsedName?.nameEn;
     if (!english) continue;
-    const chinese = original.slice(0, original.length - english.length).trim();
+    const chinese = parsedName!.nameZh;
     if (!chinese) continue;
     const section = heading.split(/(?=[A-Z][a-z]{2,})/)[0].trim() || heading;
-    const baseId = `magic-${slug(english)}`;
+    const baseId = english === 'Sword −2, Cursed' ? 'magic-cursed' : `magic-${slug(english)}`;
     let id = baseId, suffix = 2;
     while (ids.has(id)) id = `${baseId}-${suffix++}`;
     ids.add(id);

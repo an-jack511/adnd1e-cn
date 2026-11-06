@@ -1,6 +1,6 @@
 > 原书来源页：PDF 第 157–161 页（原书页码 156–160）。
 
-本索引包括截至 1982 年 12 月已出版、收录于本书、第一册《Monster Manual》和《Fiend Folio》的全部官方生物。左栏给出书籍和页码：M=Monster Manual，F=Fiend Folio；没有字母表示本书 MM2。条目右侧括号是该生物在正文中的正式名称，例如 “Bane-midge (Jermlaine)” 应跳转至 Jermlaine，而不是建立第二个怪物。
+本索引包括截至 1982 年 12 月已出版、收录于本书、第一册《Monster Manual》和《Fiend Folio》的全部官方生物。左栏给出书籍和页码：M=Monster Manual，F=Fiend Folio；没有字母表示本书 MM2。条目右侧括号是该生物在正文中的正式名称，例如 “灾祸小虫 (杰姆莱恩)” 应跳转至 杰姆莱恩，而不是建立第二个怪物。
 
 ## 索引使用规则
 
@@ -10,42 +10,42 @@
 
 |索引名称|正式名称|来源页|
 |---|---|---:|
-|Acid Dragon|Black Dragon|M31|
-|Air Nymph|Sylph|M83|
-|Aerial Creatures, Prince of Evil|Yan-c-bin|F33|
-|Bane-midge|Jermlaine|F53|
-|Basilisk, Greater|Greater Basilisk|15|
-|Black Willow|Black Willow|126|
-|Boring Beetle|Giant Boring Beetle|M8|
-|Carp Dragon|Yu Lung|F30|
-|Cloud Rat|Vapor Rat|105|
-|Coffer Corpse|Coffer Corpse|F19|
-|Demon Fly|Chasme|38|
-|Dune Stalker|Dune Stalker|F30|
-|Earth Dragon|Li Lung|F28|
-|Eater of Luck|Luck Eater|80|
-|Fresh Water Troll|Marine Troll|121|
-|Greater Lammasu|Greater Lammasu|79|
-|Ice Dragon|White Dragon|M34|
-|Juju Zombie|Juju Zombie|131|
-|Land Urchin|Land Urchin|122|
-|Marl Mugger|Vilstrak|124|
-|Marine Troll|Troll, Marine|121|
-|Monster Zombie|Monster Zombie|131|
-|Pseudo-undead|Pseudo-undead|102|
-|Purple Death|Twilight Bloom|122|
-|Retch Plant|Retch Plant|106|
-|Shadow Dragon|Shadow Dragon|58|
-|Thunder Beast|Thunder Beast|120|
-|Tunnel Thug|Vilstrak|124|
-|Vagabond|Vagabond|123|
-|Water Troll|Troll, Marine|121|
-|Wolf-in-Sheep's-Clothing|Wolf-in-Sheep's-Clothing|127|
-|Xag-ya|Xag-ya|128|
-|Xeg-yi|Xeg-yi|128|
-|Yochlol|Yochlol|130|
-|Yuan-ti|Yuan-ti|130|
-|Zorbo|Zorbo|131|
-|Zygom|Zygom|132|
+|酸龙|黑龙|M31|
+|气宁芙|西尔芙|M83|
+|Aerial Creatures, Prince of Evil|扬西宾|F33|
+|灾祸小虫|杰姆莱恩|F53|
+|高等蛇蜥|高等蛇蜥|15|
+|黑柳|黑柳|126|
+|钻木甲虫|巨型钻木甲虫|M8|
+|鲤龙|鱼龙|F30|
+|云鼠|蒸汽鼠|105|
+|棺尸|棺尸|F19|
+|魔蝇|蝇魔|38|
+|沙丘追猎者|沙丘追猎者|F30|
+|地龙|地龙|F28|
+|食运者|食运兽|80|
+|淡水巨魔|海生巨魔|121|
+|高等拉玛苏|高等拉玛苏|79|
+|冰龙|白龙|M34|
+|朱朱僵尸|朱朱僵尸|131|
+|陆地海胆|陆地海胆|122|
+|泥灰劫匪|岩窟暴徒|124|
+|海生巨魔|海生巨魔|121|
+|怪物僵尸|怪物僵尸|131|
+|伪不死生物|伪不死生物|102|
+|紫色死亡花|暮光花|122|
+|催吐植物|催吐植物|106|
+|影龙|影龙|58|
+|雷鸣兽|雷鸣兽|120|
+|隧道暴徒|岩窟暴徒|124|
+|流浪者|流浪者|123|
+|水巨魔|海生巨魔|121|
+|披羊皮的狼|披羊皮的狼|127|
+|萨格雅正能灵|萨格雅正能灵|128|
+|谢格伊负能灵|谢格伊负能灵|128|
+|蜡融妖|蜡融妖|130|
+|渊地蛇人|渊地蛇人|130|
+|佐博兽|佐博兽|131|
+|接合菌|接合菌|132|
 
-索引中还包括大量来自旧书的译名和别名，如 Giant Dragonfly、Firefriend、Gloomwing、Hordling、Mandragora、Minimal、Modron、Para-elemental、Pedipalp、Pech、Planetar、Sundew、Thessalhydra、Thri-kreen、Ustilagor、Vegepygmy、Verme、Webbird、Wemic、Wolfwere 等；所有条目均应通过名称索引指向对应正文主题。
+索引中还包括大量来自旧书的译名和别名，如 巨型蜻蜓、火友虫、幽暗蛾、哈得斯魔裔、曼德拉草魔、微型动物、魔冢、副元素生物、无尾鞭蝎、佩奇土灵、行星天使、茅膏菜、塞萨尔多头怪、索利克林螳螂人、乌斯提拉戈、植化矮人、巨河鱼、织网鸟、狮身人、化人狼 等；所有条目均应通过名称索引指向对应正文主题。

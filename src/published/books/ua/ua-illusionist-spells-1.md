@@ -13,7 +13,7 @@
 | 持续时间 | 特殊 | 豁免 | 特殊 |
 | 影响范围 | 一个生物 | | |
 
-幻术师在手中生成一枚不同颜色的小球，朝无遮挡、距自己不超过 <strong>3″</strong>的目标掷出。法球本身具有魔法，命中后连通常只能由 <strong>＋4、＋5</strong>等武器伤害的生物也受影响；魔法抗力仍然适用。目标距施法者 <strong>1″</strong>以内时命中 <strong>＋3</strong>，超过 <strong>1″</strong>至 <strong>2″</strong>时 <strong>＋2</strong>，超过 <strong>2″</strong>至 <strong>3″</strong>时 <strong>＋1</strong>。未命中的法球直接消散。幻术师可选择自己等级允许的任意颜色，也可选择较低等级的颜色。
+幻术师在手中生成一枚不同颜色的小球，朝无遮挡、距自己不超过 <strong>3″</strong>的目标掷出。法球本身具有魔法，命中后连通常只能由 <strong>＋4、＋5</strong>等武器伤害的生物也受影响；魔法抗性仍然适用。目标距施法者 <strong>1″</strong>以内时命中 <strong>＋3</strong>，超过 <strong>1″</strong>至 <strong>2″</strong>时 <strong>＋2</strong>，超过 <strong>2″</strong>至 <strong>3″</strong>时 <strong>＋1</strong>。未命中的法球直接消散。幻术师可选择自己等级允许的任意颜色，也可选择较低等级的颜色。
 
 | 所需最低等级 | 法球颜色 | 命中伤害 | 附加作用 |
 |:---:|:---|:---:|:---|

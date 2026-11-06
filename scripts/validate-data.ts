@@ -19,14 +19,14 @@ SpellSchema.array().parse(spells); MonsterSchema.array().parse(monsters); ItemSc
 unique(spells.map((entry) => entry.id), 'spells'); unique(monsters.map((entry) => entry.id), 'monsters'); unique(items.map((entry) => entry.id), 'items');
 unique(tables.map((entry) => entry.id), 'random tables');
 unique(classes.map((entry) => entry.id), 'classes'); unique(races.map((entry) => entry.id), 'races');
-for (const entry of classes) {
+for (const entry of classes.filter(entry=>!entry.referenceOnly)) {
   if (!entry.source.some((source) => source.book === 'OA') && !({ ...classTables, ...uaClassTables } as Record<string, { rows: string[][] }>)[entry.id]?.rows.length) fail(`Missing class XP table: ${entry.id}`);
   for (const raceId of entry.eligibleRaces) {
     const race = races.find((item) => item.id === raceId);
     if (!race || !race.eligibleClasses.some((item) => item.id === entry.id)) fail(`Class/race mismatch: ${entry.id}/${raceId}`);
   }
 }
-for (const entry of races) for (const allowed of entry.eligibleClasses) {
+for (const entry of races.filter(entry=>!entry.referenceOnly)) for (const allowed of entry.eligibleClasses) {
   const chosenClass = classes.find((item) => item.id === allowed.id);
   if (!chosenClass || !chosenClass.eligibleRaces.includes(entry.id)) fail(`Race/class mismatch: ${entry.id}/${allowed.id}`);
 }

@@ -1,5 +1,3 @@
-![《国度中的时间》原页一](/assets/books/fr/fr_time_page_6_original.png)
-![《国度中的时间》原页二](/assets/books/fr/fr_time_names_page_7_original.png)
 
 ## 日历与纪年表 The Calendar and Roll of Years
 
@@ -96,3 +94,4 @@
 | 旗帜之年（YEAR OF THE BANNER） | 1368 |
 
 原书 PDF 第 8–9 页（印刷页 6–7）；本主题在“国度中的名字”标题处转入下一节。
+

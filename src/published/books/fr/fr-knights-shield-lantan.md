@@ -1,5 +1,3 @@
-![北方骑士团、盾之骑士团与兰坦原页](/assets/books/fr/fr_knights_shield_lantan_page_55_original.png)
-![兰坦王政与船只规则原页](/assets/books/fr/fr_lantan_rules_page_56_original.png)
 
 ## 北方骑士团 KNIGHTS OF THE NORTH（续）
 
@@ -68,3 +66,4 @@
 两种职位都不是按照资历授予，也不是服务或功绩的奖励；艾罗奇似乎以务实方式分配职责，让具有某种才能或偏好的人承担相关工作。
 
 原书 PDF 第 57 页（印刷页 55）；北方骑士团名单、盾之骑士团成员／传闻、兰坦地理与政府开头均保留。
+

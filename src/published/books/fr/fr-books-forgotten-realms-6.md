@@ -155,3 +155,4 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 《战争之红书》包含下列牧师法术，每页一个，按下述顺序出现。除少数独有法术外，均采用《玩家手册》的标准格式；这些独有法术将在后文详述。
 
 原书 PDF 第178–181页（印刷页78–81）；保留《Specular》书籍描述、Spell Engine、catfeet、snatch、spark、bladethirst、Merald’s Murderous Mist、Glanvyl’s Workbook、horn、listen、scorch、Smoke Ghost 与《战争之红书》开篇，并挂载对应原页图。
+

@@ -1,6 +1,3 @@
-![斯科努贝尔商队公司与塞姆比亚原页](/assets/books/fr/fr_scornubel_companies_sembia_page_74_original.png)
-![斯科努贝尔地图与地图索引原页](/assets/books/fr/fr_scornubel_map_key_page_75_original.png)
-![塞姆比亚历史原页](/assets/books/fr/fr_sembia_history_page_76_original.png)
 
 ## 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES（续）
 
@@ -114,3 +111,4 @@
 塞姆比亚、其武装力量、城市与人物留给地下城主自行用于战役开发，具体见《国度地下城主指南》。其城市包括：谷伦、胡达格、库尔塔、穆尔赫森、奥德林、塞尔布、塞尔伦、塞尔冈特、苏尔德、图尔贝格、乌尔姆拉斯皮尔、扬恩，以及周围土地。
 
 原书 PDF 第 76–78 页（印刷页 74–76）；斯科努贝尔商队公司、50 项地图索引、塞姆比亚与精灵道路协定及商人议会历史均保留。
+

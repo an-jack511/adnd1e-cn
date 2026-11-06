@@ -1,0 +1,97 @@
+html,body { font-family: Arial, Helvetica, sans-serif; }
+body.phb-content{ line-height:1.45; }
+P.home-link{ margin:0 0 0.9em; padding:5px 9px; border-bottom:1px solid #d8c8b8; font-size:92%; }
+P.home-link A{ color:#704000; font-weight:bold; text-decoration:underline; }
+body.phb-content P{ margin-top:0.55em; margin-bottom:0.55em; }
+body.phb-attribute{ line-height:1.5; }
+body.phb-attribute H1{ font-size:185%; line-height:1.2; margin:0 0 0.65em; }
+body.phb-attribute H2{ font-size:135%; line-height:1.25; margin:1.15em 0 0.55em; }
+body.phb-attribute H3{ font-size:112%; line-height:1.25; margin:1em 0 0.4em; }
+body.phb-attribute P{ margin:0.55em 0 0.75em; font-size:100%; line-height:1.5; }
+body.phb-attribute TABLE.MsoNormalTable{ margin:0.6em auto 1.1em; }
+body.phb-attribute TABLE.MsoNormalTable TH{ background:#e8e8e8; font-weight:bold; }
+body.phb-attribute TABLE.MsoNormalTable TD,body.phb-attribute TABLE.MsoNormalTable TH{ padding:4pt 7pt; }
+body.phb-content .spell-meta{ margin:0.35em 0 0.85em 1.5em; line-height:1.4; }
+body.phb-content UL,body.phb-content OL{ margin-top:0.45em; margin-bottom:0.8em; line-height:1.45; }
+body.phb-content LI{ margin-top:0.18em; margin-bottom:0.18em; }
+body.phb-content EM,body.phb-content I,EM.kaiti{ font-family:"¿¬Ìå","STKaiti","KaiTi",serif; font-style:normal; font-weight:bold; }
+body.phb-content EM.kaiti .latin-serif{ font-family:"Book Antiqua","Palatino Linotype","Palatino","Times New Roman",serif; font-style:italic; font-weight:bold; }
+body.phb-content STRONG,body.phb-content B{ font-weight:bold; }
+P.illustration{ margin:12px 0; }
+P.illustration IMG{ height:auto; max-height:18em; max-width:100%; width:auto; }
+P.inline-illustration{ margin:0.65em auto 1em; text-align:center; overflow-x:auto; }
+P.inline-illustration IMG{ height:auto; max-height:30em; max-width:42em; width:auto; }
+P.inline-illustration IMG[src="../art/31aa40db919fa98b55fc2266.jpg"]{ max-height:22em; }
+P.inline-illustration IMG[src="../art/fbbed6bac88f3691c8b080c1.jpg"]{ max-height:15em; }
+P.inline-illustration IMG[src="pic/ua_weapons_frieze_p28_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="pic/ua_rainbow_frieze_p40_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="pic/ua_druid_frieze_p43_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="pic/ua_sunray_frieze_p45_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="pic/ua_cantrips_frieze_p49_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="pic/ua_mount_frieze_p52_restored.png"]{ max-height:10em; max-width:100%; }
+P.inline-illustration IMG[src="../art/361984b48032b32d26cc2efe.jpg"],P.inline-illustration IMG[src="../art/533c8bbbde19438958af4959.jpg"]{ display:block; max-height:none; max-width:none; }
+TABLE.monster-layout{ width:auto; max-width:100%; margin:0.6em auto 1em; border-collapse:collapse; border:0; }
+TABLE.monster-layout TD{ padding:0 10px; border:0; vertical-align:top; }
+TABLE.monster-layout TD.monster-art{ width:26em; text-align:center; vertical-align:middle; }
+TABLE.monster-layout TD.monster-art IMG{ display:inline; height:auto; max-height:100%; max-width:26em; width:auto; vertical-align:middle; }
+TABLE.monster-layout TD.monster-art IMG.monster-art-wide{ height:auto !important; max-height:12em !important; max-width:20em !important; width:auto !important; }
+TABLE.monster-layout TD.monster-stats TABLE{ margin:0; }
+P.centered{ text-align:center; }
+P.note{ line-height:1.35; }
+DL.definitions{ margin-left:0; }
+DL.definitions DT{ font-weight:bold; margin-top:0.55em; }
+DL.definitions DD{ margin-left:2em; margin-bottom:0.45em; }
+TABLE.MsoNormalTable{ margin-left:auto; margin-right:auto; }
+TABLE.MsoNormalTable TH,TABLE.MsoNormalTable TD{ text-align:center; vertical-align:middle; }
+body.phb-content TABLE TH,body.phb-content TABLE TD{ text-align:center; vertical-align:middle; }
+h4.table-section{ color:#800000; margin:0.8em 0 0.35em; font-size:115%; }
+h1,h2,h3{ color:#800000; }
+UL,OL,BLOCKQUOTE{ margin-left:32px; margin-top:-16px; margin-bottom:-16px; }
+U{ color:#008000; font-weight:bold; text-decoration:none; }
+U EM,U I{ color:#704CD9; font-style:italic; font-weight:bold; }
+EM U,I U{ color:#0000ff; font-style:normal; font-weight:bold; }
+B U,U B,STRONG U,U STRONG{ color:#ee3300; font-style:normal; font-weight:bold; }
+h4{ color:#704cd9; margin:1em 0 0.45em; font-size:120%; line-height:1.25; }
+div h5{ color:#800000; font-weight:bold; font-size:140%; margin-top:0; margin-bottom:5px; }
+h6{ color:#800000; margin-bottom:-20px; font-size:115%; }
+div.center{ BORDER:#656565 2px solid; WIDTH:100%; PADDING-BOTTOM:10px; PADDING-TOP:10px; PADDING-LEFT:50px; MARGIN-LEFT:8%; PADDING-RIGHT:50px; MARGIN-RIGHT:8%; BACKGROUND-COLOR:#ebd6c1; }
+div.stat-block{ margin-left:32px; width:537px; background-color:#F8F8F6; padding:15px; border:3px double #808080; font-size:100%; margin-bottom:20px; }
+div.example{ font-family:"fangsong","·ÂËÎ",Arial,Helvetica,sans-serif; width:auto; line-height:1.5; background:#fff2cc; padding:10px 14px; margin:0.8em 1em; }
+div.ex-right{ BORDER:#656565 2px solid; WIDTH:250px; FLOAT:right; PADDING:10px; BACKGROUND-COLOR:#ebd6c1; MARGIN-RIGHT:-10px; }
+div.paper{ BORDER:#000000 1px solid; font-family:"fangsong","·ÂËÎ",Arial,Helvetica,sans-serif; PADDING-BOTTOM:10px; PADDING-TOP:10px; PADDING-LEFT:50px; MARGIN-LEFT:50px; PADDING-RIGHT:50px; MARGIN-RIGHT:50px; BACKGROUND-COLOR:#f3f6f9; }
+img.xge{ HEIGHT:40px; WIDTH:40px; MARGIN-RIGHT:20px; }
+table.basic{ width:auto; border-collapse:collapse; border-spacing:0; border:0; }
+table.basic td,table.basic th{ padding:2px; }
+table.basic th{ text-align:left; }
+table.resource-index{ width:auto; margin:0 0 1.2em 0; border-collapse:collapse; border-color:#c0c0c0; }
+table.resource-index th,table.resource-index td{ padding:4px 9px; border:1px solid #c0c0c0; text-align:center; vertical-align:middle; }
+table.resource-index tr:nth-child(even){ background:#eeeeee; }
+table.center{ width:auto; border-collapse:collapse; border-spacing:0; border:0; text-align:center; }
+table.center td,table.center th{ padding:2px; }
+table.part{ width:auto; border-collapse:collapse; border-spacing:0; border:0; }
+table.part td{ padding:2px; }
+table.part th{ padding:2px; font-weight:normal; text-align:center; }
+P.sum{ font-size:115%; MARGIN-TOP:-8px; margin-bottom:-8px; color:#808080; font-weight:bold; font-family:"fangsong","·ÂËÎ"; }
+
+/* Reading hierarchy: every level gets smaller, and nested lists stay in flow. */
+body.phb-content { margin:18px 22px; color:#222; line-height:1.6; }
+body.phb-content H1 { color:#800000; font-size:1.75em; line-height:1.3; margin:0.7em 0 0.65em; }
+body.phb-content H2 { color:#800000; font-size:1.35em; line-height:1.35; margin:1.5em 0 0.6em; }
+body.phb-content H3 { color:#704000; font-size:1.15em; line-height:1.4; margin:1.25em 0 0.5em; }
+body.phb-content H4 { color:#493523; font-size:1.05em; line-height:1.4; margin:1.1em 0 0.45em; }
+body.phb-content H5,body.phb-content H6 { color:#493523; font-size:1em; line-height:1.4; margin:1em 0 0.4em; }
+body.phb-content UL,body.phb-content OL { margin:0.5em 0 0.8em; padding-left:1.8em; }
+body.phb-content BLOCKQUOTE { margin:0.7em 1.5em; }
+body.phb-content .book-outline { margin:0.4em 0; }
+body.phb-content .book-outline LI { margin:0.32em 0; }
+body.phb-content .breadcrumbs { font-size:0.88em; color:#666; border-bottom:1px solid #ddd; padding-bottom:0.65em; }
+body.phb-content .section-contents { margin:1.2em 0; padding:0.7em 1em; background:#f7f4ef; border-left:3px solid #c9b79d; }
+body.phb-content .reading-order { margin-top:1.8em; padding-top:0.7em; border-top:1px solid #ddd; font-size:0.92em; }
+body.phb-content .table-caption { margin:1em 0 0.45em; color:#493523; font-size:1em; }
+body.phb-content .table-scroll { max-width:100%; overflow-x:auto; margin:0.7em 0 1.2em; }
+body.phb-content TABLE.rules-table { line-height:1.4; margin-top:0.6em; margin-bottom:1em; }
+body.phb-content TABLE.rules-table TH { background:#e9e3d9; }
+body.phb-content TABLE.rules-table TH,body.phb-content TABLE.rules-table TD { border-bottom:1px solid #ddd; }
+body.phb-content TABLE.stats-table TH:first-child,body.phb-content TABLE.stats-table TD:first-child { text-align:left !important; }
+body.phb-content TABLE.monster-layout TD.monster-art { width:auto; }
+body.phb-content TABLE.monster-layout TD.monster-art IMG { max-height:24em !important; max-width:18em; }

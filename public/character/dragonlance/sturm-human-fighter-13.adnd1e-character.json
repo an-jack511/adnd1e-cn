@@ -1,0 +1,364 @@
+{
+  "format": "adnd1e-character",
+  "schemaVersion": "1.1.0",
+  "document": {
+    "id": "dragonlance-sturm-human-fighter-13:export",
+    "characterId": "dragonlance-sturm-human-fighter-13",
+    "revision": 1,
+    "parentRevision": null,
+    "branchId": "main",
+    "exportedAt": "2026-10-17T00:00:00+08:00",
+    "view": "player",
+    "archiveGuarantee": "checkpoint-and-audit"
+  },
+  "rules": {
+    "engineContractVersion": "1.0.0",
+    "profileId": "dragonlance-dl14-source-roster",
+    "profileRevision": 1,
+    "packs": [
+      {
+        "id": "adnd1e.phb-dmg-mm",
+        "version": "1e-source-compatible",
+        "digest": "source-backed-profile-not-replayed"
+      },
+      {
+        "id": "adnd1e.dragonlance-dl14",
+        "version": "9180-local",
+        "digest": "dl14-pdf-page-100"
+      }
+    ],
+    "options": {
+      "abilityGeneration": "DL14:预生成人物表",
+      "levelAndHp": "DL14:预生成人物表",
+      "experience": "原表未提供",
+      "money": "原表未提供",
+      "ordinaryEquipment": "由战役决定"
+    },
+    "decisions": [
+      {
+        "id": "dragonlance-sturm-human-fighter-13:source-import",
+        "ruleId": "dragonlance.pre-generated-character",
+        "choice": "imported-source-profile",
+        "reason": "从 DL14 人物表导入来源事实；不伪造一级骰史、DM 审核或未列出的物品与法术。",
+        "actorId": "local-source-import",
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "dl14:player-characters",
+        "book": "DL14《龙枪：胜利之龙》",
+        "printing": "本地 TSR 1e PDF；人物表扫描页",
+        "printedPages": [],
+        "pdfPages": [
+          100
+        ],
+        "section": "Player Characters",
+        "status": "verified-text",
+        "locator": "local:Dragonlance:DL14:pdf:100",
+        "verificationScope": "人物表中的属性、阵营、HP、AC、职业等级、魔法装备及语言；原表说明所有角色另会通用语。"
+      }
+    ],
+    "definitions": [
+      {
+        "id": "DL14:sturm-human-fighter-13:item:1",
+        "kind": "source-listed-equipment",
+        "facts": {
+          "label": "+4 板甲",
+          "suppliedBySource": true,
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      },
+      {
+        "id": "DL14:sturm-human-fighter-13:item:2",
+        "kind": "source-listed-equipment",
+        "facts": {
+          "label": "+3 双手剑",
+          "suppliedBySource": true,
+          "price": null,
+          "weight": null
+        },
+        "sourceIds": [
+          "dl14:player-characters"
+        ]
+      }
+    ],
+    "embeddedBundles": []
+  },
+  "checkpoint": {
+    "atSequence": 3,
+    "facts": {
+      "identity": {
+        "name": "斯特姆·布莱特布雷德",
+        "raceId": "human",
+        "sex": "未提供",
+        "alignment": "守序善良",
+        "ageYears": null,
+        "languages": [
+          "通用语",
+          "奎利内斯提语",
+          "索拉姆尼亚语"
+        ],
+        "description": "龙枪人物表来源档案：人类战士 13级。"
+      },
+      "abilities": {
+        "base": {
+          "STR": 17,
+          "INT": 14,
+          "WIS": 11,
+          "DEX": 12,
+          "CON": 16,
+          "CHA": 12
+        },
+        "exceptionalStrength": null,
+        "generation": {
+          "methodId": "DL14:预生成人物表",
+          "rollIds": [],
+          "assignment": {}
+        },
+        "changes": []
+      },
+      "careers": [
+        {
+          "id": "dragonlance-sturm-human-fighter-13:career",
+          "classId": "fighter",
+          "variantId": "DL14:source-profile",
+          "level": 13,
+          "xp": 0,
+          "status": "active",
+          "levelHistory": [
+            {
+              "level": 13,
+              "eventId": "dragonlance-sturm-human-fighter-13:source-profile",
+              "hpDice": [],
+              "hpAward": 83,
+              "sourceIds": [
+                "dl14:player-characters"
+              ]
+            }
+          ],
+          "training": [],
+          "choices": {
+            "sourceImported": true,
+            "weaponAndClassChoices": "DL14人物表未完整列出熟练记录"
+          }
+        }
+      ],
+      "resources": {
+        "hp": {
+          "damage": 0,
+          "temporary": 0
+        },
+        "wallets": [
+          {
+            "id": "dragonlance-sturm-human-fighter-13:purse",
+            "locationId": "body",
+            "coins": {
+              "pp": 0,
+              "gp": 0,
+              "ep": 0,
+              "sp": 0,
+              "cp": 0
+            }
+          }
+        ],
+        "inventory": [
+          {
+            "id": "dragonlance-sturm-human-fighter-13:item:1",
+            "definitionId": "DL14:sturm-human-fighter-13:item:1",
+            "label": "+4 板甲",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+4 板甲"
+            }
+          },
+          {
+            "id": "dragonlance-sturm-human-fighter-13:item:2",
+            "definitionId": "DL14:sturm-human-fighter-13:item:2",
+            "label": "+3 双手剑",
+            "quantity": 1,
+            "locationId": "worn",
+            "equipped": true,
+            "customFacts": {
+              "sourceText": "+3 双手剑"
+            }
+          }
+        ],
+        "conditions": [],
+        "abilitiesUsed": {},
+        "locations": [
+          {
+            "id": "body",
+            "kind": "person",
+            "parentId": null,
+            "containerInstanceId": null,
+            "entityId": "dragonlance-sturm-human-fighter-13"
+          },
+          {
+            "id": "worn",
+            "kind": "body-slot",
+            "parentId": "body",
+            "containerInstanceId": null,
+            "entityId": null
+          }
+        ]
+      },
+      "magic": {
+        "understanding": [],
+        "books": [],
+        "memory": [],
+        "research": [],
+        "qualificationRounds": []
+      },
+      "campaign": {
+        "time": "未设定",
+        "status": "draft",
+        "relationships": [],
+        "properties": [],
+        "activities": [],
+        "goals": [
+          "在龙枪战役中继续运营人物。"
+        ],
+        "admission": {
+          "status": "pending",
+          "decisionId": null,
+          "acceptedScopes": [
+            "source-profile"
+          ],
+          "outstanding": [
+            "原表未提供金钱；请在战役中记录实际财富。",
+            "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+            "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+          ]
+        },
+        "lifeState": "alive",
+        "actionRestrictions": []
+      },
+      "careerPath": {
+        "mode": "single",
+        "careerIds": [
+          "dragonlance-sturm-human-fighter-13:career"
+        ],
+        "phases": []
+      },
+      "hpAwards": [],
+      "advancement": {
+        "adventureAssessments": [],
+        "xpBatches": [],
+        "pending": []
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "dragonlance-sturm-human-fighter-13:source-profile",
+      "sequence": 1,
+      "parentId": null,
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-profile-import"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-sturm-human-fighter-13:source-equipment",
+      "sequence": 2,
+      "parentId": "dragonlance-sturm-human-fighter-13:source-profile",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "system",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "source-listed-equipment"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    },
+    {
+      "id": "dragonlance-sturm-human-fighter-13:open-items",
+      "sequence": 3,
+      "parentId": "dragonlance-sturm-human-fighter-13:source-equipment",
+      "type": "creation.review-requested",
+      "actorId": "local-source-import",
+      "authority": "player",
+      "recordedAt": "2026-10-17T00:00:00+08:00",
+      "campaignTime": "未设定",
+      "status": "committed",
+      "payload": {
+        "pending": [
+          "原表未提供金钱；请在战役中记录实际财富。",
+          "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+          "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+        ]
+      },
+      "sourceIds": [
+        "dl14:player-characters"
+      ],
+      "rollIds": [],
+      "supersedesId": null
+    }
+  ],
+  "rolls": [],
+  "overrides": [],
+  "cache": {
+    "engineVersion": "source-profile-cache",
+    "rulesDigest": "dl14-pdf-page-100",
+    "throughSequence": 3,
+    "values": {
+      "hpMax": 83,
+      "hpCurrent": 83,
+      "armorClass": -1,
+      "sourceProfile": true
+    },
+    "warnings": [
+      "这是 DL14 预生成人物表的来源档案；等级、HP、AC 与装备未由一级创建过程重放。",
+      "原表未提供金钱；请在战役中记录实际财富。",
+      "原表说明普通装备由玩家按 DM 判断补齐；本档案只保存原表列出的魔法装备。",
+      "等级和 HP 是 DL14 的预生成来源事实，不是本网站从一级逐级重放的结果。"
+    ]
+  },
+  "provenance": {
+    "creator": "dragonlance-source-roster",
+    "importedFrom": "DL14:Player Characters:PDF page 100",
+    "migrations": [],
+    "unmappedLegacy": {}
+  },
+  "extensions": {
+    "dragonlance": {
+      "source": "dl14:player-characters",
+      "nameChinese": "斯特姆·布莱特布雷德",
+      "classChinese": "战士",
+      "raceChinese": "人类",
+      "spellCoverage": "不适用",
+      "sourceEquipmentOnly": true,
+      "originalLanguagesIncludeCommon": true
+    }
+  },
+  "proposals": []
+}

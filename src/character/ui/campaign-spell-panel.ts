@@ -45,10 +45,10 @@ export function readGameMinute(data:FormData,prefix:string,minutesPerDay:number)
 export function preparationFields(sheet:CampaignSheet){
   const view=sheet.spells;if(!view?.enabled)throw new Error('请先确认人物生命、职业与法术账本。');
   const day=view.calendar?.minutesPerDay??1440;
-  return `<p>只登记团桌已经完成的普通准备；不是等待现实时间，也不会恢复生命值。</p>
+  return `<p>记录团桌已完成的法术准备。</p>
     <fieldset><legend>${view.isDivine?'本次请求并实际获授的法术':'本次从现存法术书学习的法术'}</legend><div class="preparation-choices">${view.choices.map((c,index)=>`<label><span>${esc(c.name)}<small>${c.level}环</small></span><input data-preparation-choice="${index}" name="copy${index}" aria-label="${esc(c.name)}准备份数" type="number" min="0" max="50" step="1" value="0"/></label>`).join('')}</div></fieldset>
     <p id="preparation-requirements" class="inline-note" aria-live="polite">选择需要的份数；未消耗的旧准备不会被覆盖。</p>
-    ${!view.calendar?'<label class="check-row"><input name="calendarConfirmed" type="checkbox" required/>本战役已明确采用24小时一天、7天一周；本次建立该日历，不是系统默认规则</label>':''}
+    ${!view.calendar?'<label class="check-row"><input name="calendarConfirmed" type="checkbox" required/>本战役已明确采用24小时一天、7天一周</label>':''}
     ${view.latestCourse?`<label class="check-row"><input name="reuseRest" type="checkbox"/>继续上次完整休息后的学习（其后没有施法）：${formatCampaignMinute(view.latestCourse.restStartMinute,day)}至${formatCampaignMinute(view.latestCourse.restEndMinute,day)}，接续学习于${formatCampaignMinute(view.latestCourse.studyEndMinute,day)}</label>`:''}
     <div id="preparation-new-rest">${gameTimeFields('rest',day,'完整休息开始时间')}<label>实际完整休息时数<input name="restHours" type="number" min="0" step="any" placeholder="例如 4" required/></label></div>
     <label>实际连续学习／祈祷分钟数<input name="studyMinutes" type="number" min="1" step="1" placeholder="例如 15" required/></label>
@@ -56,7 +56,7 @@ export function preparationFields(sheet:CampaignSheet){
     <p>此普通流程记录休息结束后立即学习；继续上次休息时接续上一段学习。中断、换地点或其他时间安排须由团桌核对，不能勾选后猜成兼容。</p>
     <label class="check-row"><input name="restConfirmed" type="checkbox" required/>上述确为完整休息、精神恢复且营养条件满足，时间及地点均是实际情况</label>
     <label class="check-row"><input name="afterCastingConfirmed" type="checkbox" required/>本次完整休息在最后一次施法之后，其后没有未记录的施法或干扰</label>
-    <label class="check-row"><input name="accessConfirmed" type="checkbox" required/>${view.isDivine?'本次所选法术与份数已经按战役确认实际授予；本地勾选不是身份认证':'学习时可实际接触对应法术书；已处理本次所需条件'}</label>`;
+    <label class="check-row"><input name="accessConfirmed" type="checkbox" required/>${view.isDivine?'本次所选法术与份数已经按战役确认实际授予':'学习时可实际接触对应法术书；已处理本次所需条件'}</label>`;
 }
 export function bindPreparationFields(form:HTMLFormElement,sheet:CampaignSheet){
   const view=sheet.spells!;

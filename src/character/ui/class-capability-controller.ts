@@ -1,5 +1,6 @@
 import { reviewCoreClassCapabilities } from '../engine/core-class-capabilities';
 import type { InitialCoreClassId } from '../rules/core-progression';
+import { resolveDisplayRuleSource } from '../rules/source-directory';
 
 const classLabels: Readonly<Record<InitialCoreClassId,string>> = Object.freeze({
   cleric:'牧师',druid:'德鲁伊',fighter:'战士',paladin:'圣武士',ranger:'游侠','magic-user':'魔法师',
@@ -10,7 +11,7 @@ const get=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
 
 export function startClassCapabilityBrowser(){
   const classSelect=get<HTMLSelectElement>('cap-class'),levelInput=get<HTMLInputElement>('cap-level');
-  classSelect.replaceChildren(...Object.entries(classLabels).map(([id,label])=>new Option(`${label} / ${id}`,id)));
+  classSelect.replaceChildren(...Object.entries(classLabels).map(([id,label])=>new Option(label,id)));
   const render=()=>{
     const classId=classSelect.value as InitialCoreClassId,level=Number(levelInput.value);
     try{
@@ -21,7 +22,14 @@ export function startClassCapabilityBrowser(){
         const rule=document.createElement('p'); rule.textContent=item.rule;
         const meta=document.createElement('p'); meta.className='small';
         const value=item.value ? `；当前数值：${item.value.dice??item.value.value}（${item.value.label}）` : '';
-        meta.textContent=`${item.minimumLevel}级起；处理：${item.resolution}${value}；依据：${item.sourceIds.join('、')}`;
+        meta.textContent=`${item.minimumLevel}级起${value}；依据：`;
+        item.sourceIds.forEach((id,index)=>{
+          if(index)meta.append(' · ');
+          const source=resolveDisplayRuleSource(id);
+          if(!source){meta.append('原书来源待补充');return;}
+          const link=document.createElement('a');link.href=source.directoryUrl;
+          link.textContent=`${source.book} p.${source.printedPages.join('、')}`;meta.append(link);
+        });
         article.append(heading,rule,meta); return article;
       }));
       locked.replaceChildren(...review.locked.map(item=>{const li=document.createElement('li');li.textContent=`${item.minimumLevel}级：${item.label}`;return li;}));

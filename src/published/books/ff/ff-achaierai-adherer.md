@@ -1,8 +1,8 @@
-## 阿查伊莱 Achaierai
+## 阿查伊莱 · Achaierai
 
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 极罕见 |
+| 出现频率 | 极罕见 |
 | 出现数量 No. Appearing | 1–8 |
 | 护甲等级 Armour Class | 身体 8；腿 -1 |
 | 移动 Move | 18" |
@@ -31,11 +31,11 @@
 
 <strong>描述：</strong>腿部呈金属蓝灰色，身体和头部为带有深红斑块的暗猩红色。眼睛是钢蓝色，翅膀是蓝绿色。已观察到多种羽冠颜色，最常见的是明亮的火焰红。
 
-## 黏附怪 Adherer
+## 黏附怪 · Adherer
 
 | 项目 | 数值 |
 | --- | --- |
-| 出现频率 Frequency | 罕见 |
+| 出现频率 | 罕见 |
 | 出现数量 No. Appearing | 1–4 |
 | 护甲等级 Armour Class | 3 |
 | 移动 Move | 9" |

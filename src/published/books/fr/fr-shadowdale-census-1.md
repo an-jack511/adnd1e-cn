@@ -1,5 +1,3 @@
-![暗影谷人口普查原页一](/assets/books/fr/fr_shadowdale_census_page_94_original.png)
-![暗影谷人口普查原页二](/assets/books/fr/fr_shadowdale_census_page_95_original.png)
 
 ## 附录：暗影谷 APPENDIX: SHADOWDALE
 
@@ -160,3 +158,4 @@
 - 记录与其他资料都称银手是一名美丽聪慧的女子，喜欢佩戴银饰，并有银色头发。记录还指出，当时银手养着两只凶猛的狼。
 
 原书 PDF 第 96–97 页（印刷页 94–95）；保留人口普查说明、宣誓／武器／战斗标记、每一户居民的职业、关系、伤亡、外貌、性情、本地传闻和对应原页图。
+

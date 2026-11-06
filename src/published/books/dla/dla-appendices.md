@@ -1002,7 +1002,7 @@
 
 ## 封底宣传与出版信息（印刷第 130 页）
 
-<strong>封底插图记录：</strong>本页为蓝底 DRAGONLANCE ADVENTURES 封底，含官方 AD&D 标识、龙枪标志、引文、宣传文案、作者、出版商地址、版权、ISBN、产品编号、条码与价格；后续资源阶段制作中文覆盖版。
+<strong>封底插图记录：</strong>本页为蓝底 DRAGONLANCE ADVENTURES 封底，含官方 AD&D 标识、龙枪标志、引文、宣传文案、作者、出版商地址、版权、ISBN、产品编号、条码与价格。
 
 <strong>官方《高级龙与地下城》DRAGONLANCE ADVENTURES</strong>
 

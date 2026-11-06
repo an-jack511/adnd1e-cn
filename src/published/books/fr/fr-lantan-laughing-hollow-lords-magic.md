@@ -1,6 +1,3 @@
-![兰坦人物、船只与规则原页](/assets/books/fr/fr_lantan_continued_page_57_original.png)
-![欢笑空洞、孤寂荒原与领主联盟原页](/assets/books/fr/fr_laughing_hollow_lords_alliance_page_58_original.png)
-![领主联盟与魔法使用者原页](/assets/books/fr/fr_lords_alliance_magic_users_page_59_original.png)
 
 ### 兰坦人的外貌与活动 LANTANNA
 
@@ -83,3 +80,4 @@
 被遗忘国度中的魔法使用者与幻术师，按《玩家手册》和《Unearthed Arcana》的规则处理。无论角色来自大学教育，还是出自孤独法师的教导，他们的起源相似。如果角色来自大城市背景，可以自行选择；否则，有 90% 的概率新魔法使用者由孤独法师指导，剩余 10% 的概率来自某个特定地点（例如月沙群岛），并在魔法学院接受训练。
 
 原书 PDF 第 58–59 页（印刷页 56–57）；兰坦完整王政、人物、船只、喷火器与爆炸网规则，欢笑空洞、孤寂荒原、领主联盟和魔法使用者训练体系均保留。
+

@@ -1,7 +1,5 @@
 ## Miscellaneous Magic Items
 
-![荒野战士与远征队的插图，原书 PDF 第 85 页裁片](/assets/books/gha/gha_magical_items_illustration.png)
-
 
 ### 塞伦涅之星
 

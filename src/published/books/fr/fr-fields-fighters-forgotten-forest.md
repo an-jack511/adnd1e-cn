@@ -1,4 +1,3 @@
-![亡者原野、战士职业与遗忘森林原页](/assets/books/fr/fr_fields_fighters_forgotten_forest_page_45_original.png)
 
 ## 亡者原野 FIELDS OF THE DEAD
 
@@ -62,3 +61,4 @@
 白龙冰川是一条独立的冰河，从大冰川分出，在白龙冰川山脉之间蜿蜒……
 
 原书 PDF 第 47 页（印刷页 45）；保留亡者原野历史、战士职业岗位与职业风险、装备价格限制、遗忘森林树人／大德鲁伊数据，以及白龙冰川跨页条目开头。
+

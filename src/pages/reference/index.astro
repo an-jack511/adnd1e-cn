@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FilterChoices from '../../components/FilterChoices.astro';
+import directory from '../../data/public/book-directory.json';
+---
+<BaseLayout title="规则书检索">
+  <h1>规则书检索</h1>
+  <p><a href="/books/">按原书目录阅读 →</a></p>
+  <form id="lookup" class="lookup">
+    <label>关键词<input type="search" name="q" placeholder="表名、列名、表内文字…" /></label>
+    <label>类型<select name="kind"><option>表格</option><option>章节</option><option>全部</option></select></label>
+    <FilterChoices name="book" label="来源" options={directory.map(book=>({value:book.id,label:`${book.short} · ${book.titleZh}`}))} />
+    <button>查找</button>
+  </form>
+  <p id="count" role="status">正在载入索引…</p><ol id="hits" class="lookup-hits"></ol>
+  <button id="more" hidden>显示更多</button>
+  <script>
+    import {bindFilterChoices,checkedValues,matchesChoices} from '../../utils/filter-choices';
+    type RecordEntry = {book:string,title:string,href:string,kind:string,source:string,text?:string};
+    const form = document.querySelector<HTMLFormElement>('#lookup')!;
+    const query = form.elements.namedItem('q') as HTMLInputElement;
+    const kind = form.elements.namedItem('kind') as HTMLSelectElement;
+    const list = document.querySelector('#hits')!;
+    const count = document.querySelector('#count')!;
+    const more = document.querySelector<HTMLButtonElement>('#more')!;
+    let entries:RecordEntry[] = [], hits:RecordEntry[] = [], shown = 0;
+    function append() {
+      for (const hit of hits.slice(shown, shown + 50)) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = hit.href; a.textContent = hit.title;
+        const meta = document.createElement('small');
+        meta.textContent = hit.source;
+        li.append(a, meta); list.append(li);
+      }
+      shown = list.children.length; more.hidden = shown >= hits.length;
+    }
+    function search() {
+      const words = query.value.trim().toLowerCase().replace(/巡林客/g,'游侠').split(/\s+/).filter(Boolean);
+      hits = entries.filter(e => (kind.value === '全部' || e.kind === kind.value) && matchesChoices(checkedValues('book'),[e.book])
+        && words.every(w => [e.title,e.book,e.source,e.text].join(' ').toLowerCase().includes(w)));
+      const score = (e:RecordEntry) => words.filter(w => e.title.toLowerCase().includes(w)).length;
+      if (words.length) hits.sort((a,b) => score(b)-score(a));
+      count.textContent = hits.length ? '共 ' + hits.length + ' 项' : '没有匹配项，可更换关键词或放宽来源范围。';
+      list.replaceChildren(); shown = 0; append();
+    }
+    async function init() {
+      const response = await fetch('/archive/lookup.json');
+      if (!response.ok) throw new Error('lookup');
+      const data = await response.json();
+      entries = data.entries;
+      const params = new URLSearchParams(location.search);
+      query.value = params.get('q') || '';
+      kind.value = params.get('kind') || '表格';
+      search();
+      function submit() {
+        history.replaceState(null,'','?' + new URLSearchParams([['q',query.value],['kind',kind.value],...checkedValues('book').map(value=>['book',value])]));
+        search();
+      }
+      form.onsubmit = e => { e.preventDefault(); submit(); };
+      kind.onchange = submit;
+      bindFilterChoices(submit); search();
+      more.onclick = append;
+    }
+    init().catch(() => { count.textContent = '索引载入失败，请刷新或使用原书目录。'; });
+  </script>
+</BaseLayout>

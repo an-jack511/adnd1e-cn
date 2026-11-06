@@ -1,5 +1,3 @@
-![已知国度与美国比例图原页](/assets/books/fr/fr_realms_us_comparison_map_page_10_original.png)
-![地图与移动规则原页](/assets/books/fr/fr_maps_movement_page_11_original.png)
 
 ## 为 AD&D 游戏建立冒险 SETTING UP FOR AD&D GAME ADVENTURES
 

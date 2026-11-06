@@ -5,14 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "tsx scripts/validate-data.ts",
+    "prebuild": "tsx scripts/import/library-index.ts && tsx scripts/validate-data.ts",
     "build": "astro build",
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
     "check:links": "tsx scripts/check-built-links.ts",
     "test:rules": "tsx scripts/test-rules-engine.ts",
+    "test:reader": "tsx scripts/test-reader-data.ts",
+    "test:ref2": "tsx scripts/test-ref2-card.ts && tsx scripts/test-weapon-card.ts",
     "test:character": "tsx scripts/test-character-suite.ts",
-    "check:character-release": "tsx scripts/check-character-release.ts"
+    "check:character-release": "tsx scripts/check-character-release.ts",
+    "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && tsx scripts/import/library-index.ts",
+    "test:library": "tsx scripts/test-library.ts"
   },
   "dependencies": {
     "astro": "5.15.5",

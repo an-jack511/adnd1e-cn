@@ -1,0 +1,19 @@
+---
+import type {Item} from '../schemas';
+interface Props {item:Item}
+const {item}=Astro.props;
+const modes=[['handHeld','手持'],['missile','投掷／射击']] as const;
+---
+{item.weaponCombat && <section class="weapon-combat" aria-label="武器战斗数据">
+ <h2>武器战斗数据</h2>
+ {modes.map(([mode,label])=>{
+  const combat=item.weaponCombat?.[mode];if(!combat)return null;
+  const specs=mode==='handHeld' && item.weaponCombat?.handHeld
+   ? [['长度',item.weaponCombat.handHeld.length],['所需空间',item.weaponCombat.handHeld.spaceRequired],['速度因子',item.weaponCombat.handHeld.speedFactor]]
+   : item.weaponCombat?.missile ? [['射速',item.weaponCombat.missile.fireRate],['短程',item.weaponCombat.missile.range.short],['中程',item.weaponCombat.missile.range.medium],['远程',item.weaponCombat.missile.range.long]]:[];
+  return <section class="weapon-combat-mode"><h3>{label}</h3>
+   <dl class="weapon-specs">{specs.map(([name,value])=><div><dt>{name}</dt><dd>{value}</dd></div>)}</dl>
+   <div class="weapon-ac-scroll" tabindex="0" role="region" aria-label={`${label}对 AC 命中调整`}><table class="weapon-ac-table"><caption>对目标 AC 的命中调整</caption><thead><tr><th scope="col">目标 AC</th>{combat.armorClassAdjustments.map((_,index)=><th scope="col">{index}</th>)}</tr></thead><tbody><tr><th scope="row">命中调整</th>{combat.armorClassAdjustments.map(value=><td>{value}</td>)}</tr></tbody></table></div>
+  </section>;
+ })}
+</section>}

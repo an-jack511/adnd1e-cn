@@ -7,12 +7,14 @@ import { items } from '../data/public/items';
 import published from '../data/published/books.json';
 ---
 <BaseLayout>
-  <form class="home-search" action="/search" method="get">
-    <label for="home-search">站内检索：</label>
-    <input id="home-search" name="q" type="search" size="34" />
+  <h1>AD&amp;D 第一版规则索引</h1>
+  <form class="home-search" action="/reference/" method="get">
+    <label for="home-search">原书查表</label>
+    <input id="home-search" name="q" type="search" size="34" placeholder="表名、列名或表内文字" />
     <button type="submit">搜索</button>
   </form>
 
+  <p><a href="/books/">规则书目录</a> · <a href="/reference/?kind=章节">按章节检索</a> · <a href="/search/">全站搜索</a></p>
   <h2>游戏中</h2>
   <table class="home-directory"><tbody>
     <tr><th scope="row"><a href="/play/character-creation/">创建角色</a></th><td>属性 → 种族与职业 → 装备 → 人物卡</td></tr>

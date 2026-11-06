@@ -87,7 +87,7 @@
 
 装置法术能力按 <strong>10 级</strong>计算。
 
-只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、巡林客 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、僧侣 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。
+只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、游侠 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、僧侣 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。
 
 智力每高于 <strong>12</strong> 点，生物察觉占卜的累积概率便按算术递增方式增加：从 <strong>1%</strong>开始，智力 <strong>13–18</strong>时依次为 <strong>1%、3%、6%、10%、15%、21%</strong>。此外，每有 <strong>1 个经验等级</strong>，察觉占卜的概率再增加 <strong>1%</strong>。怪物按最适合的上述职业计算。
 

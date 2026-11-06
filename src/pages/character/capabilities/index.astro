@@ -3,8 +3,8 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="核心职业能力 · 角色系统">
   <h1>核心职业能力</h1>
-  <p>按职业和等级查看已经核验的能力、限制、据点与追随者触发。系统只自动给出确定数值；暗骰、世界状态、资格席位和职业戒律后果仍由团桌处理。</p>
-  <p class="notice">这里不是把职业缩成一串加值。标为“待补充”的项目仍是角色生命周期中的真实待办；标为“尚未支持”的表不会用近似值替代。</p>
+  <p>选择职业和等级，查看 PHB 核心十职业的能力、限制、据点与追随者条件。</p>
+  
   <section class="filters" aria-label="职业与等级">
     <label>职业 <select id="cap-class"></select></label>
     <label>等级 <input id="cap-level" type="number" min="1" step="1" value="1" /></label>
@@ -12,7 +12,6 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   <p id="cap-summary" role="status" aria-live="polite"></p>
   <section><h2>当前生效</h2><div id="cap-active" class="capability-grid"></div></section>
   <details><summary>以后等级解锁</summary><ul id="cap-locked"></ul></details>
-  <p>规则范围：PHB 核心十职业。吟游诗人、UA、OA 使用独立规则包；完整盗贼百分表、武僧表 II 和追随者构成表尚未在这里伪造。</p>
   <script>import {startClassCapabilityBrowser} from '../../../character/ui/class-capability-controller';startClassCapabilityBrowser();</script>
 </BaseLayout>
 <style>

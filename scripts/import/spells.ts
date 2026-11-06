@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { Spell } from '../../src/schemas';
+import { bilingualName } from './bilingual-name';
 
 const sourceRoot = resolve('../manuscript/phb/topics');
 const classFiles = [
@@ -21,8 +22,9 @@ for (const [characterClass, file] of classFiles) {
     const meta = chunk.match(/<div\s+class="spell-meta"\s*>([\s\S]*?)<\/div>/i);
     if (!meta) continue;
     const name = clean(heading.match(/^\*([^*]+)\*/)?.[1] ?? heading.split('（')[0]);
-    const english = name.match(/([A-Z][A-Za-z0-9,'’() /-]+)$/)?.[1]?.trim() ?? '';
-    const chinese = name.slice(0, name.length - english.length).trim();
+    const parsedName = bilingualName(name);
+    const english = parsedName?.nameEn ?? '';
+    const chinese = parsedName?.nameZh ?? '';
     if (!english || !chinese) { skipped.push(`${file}: ${heading}`); continue; }
     const lines = meta[1].split(/<br\s*\/?\s*>/i).map(clean);
     const field = (label: string) => lines.find((line) => line.includes(label))?.split('：').slice(1).join('：').trim() ?? '';
@@ -32,7 +34,8 @@ for (const [characterClass, file] of classFiles) {
     const components = (field('成分 Components').match(/[VSM]/g) ?? []) as Spell['components'];
     const rest = chunk.slice(chunk.indexOf(meta[0]) + meta[0].length).split(/(?=^##\s)/m)[0];
     const description = clean(rest).slice(0, 5000);
-    const baseId = slugify(english);
+    const legacyIds: Record<string, string> = { 'Purify Food & Drink': 'drink', 'Create Food & Water': 'water', 'Detect Snares & Pits': 'pits' };
+    const baseId = legacyIds[english] ?? slugify(english);
     const key = byId.has(baseId) && byId.get(baseId)?.level !== level ? `${baseId}-level-${level}` : baseId;
     const source = { book: 'PHB', section: `Spell Explanations: ${characterClass}` };
     const existing = byId.get(key);

@@ -1,5 +1,3 @@
-![尖齿森林与黄蛇隘口原页](/assets/books/fr/fr_yellow_snake_zhentarim_page_92_original.png)
-![珍铎城与泽恩塔林网络图原页](/assets/books/fr/fr_zhentil_keep_network_page_93_original.png)
 
 ## 尖齿森林 THE WOOD OF SHARP TEETH
 
@@ -120,3 +118,4 @@
 - 底层节点：*艾苏尔德、*克雷、*图尔、*德姆贝思、*瑟斯塔尔、*奥德、*奥贝、*贝格尔、*佐阿德、*皮尔、*阿什、迪尔。
 
 原书 PDF 第 94–95 页（印刷页 92–93）；保留尖齿森林、黄蛇隘口、尤昂、伊拉丰、尤拉什、泽恩塔林、珍铎城、黑暗神殿人员清单、城市暴徒规则，以及珍铎城网络关系图原页。
+

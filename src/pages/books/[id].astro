@@ -3,9 +3,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import { books } from '../../data/public/books';
 import published from '../../data/published/books.json';
+import reading from '../../data/public/book-reading.json';
 import { continuationParent } from '../../utils/book-continuations';
 export function getStaticPaths() { return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
 const { book } = Astro.props;
+const readingGroups = reading[book.id as keyof typeof reading];
+if(readingGroups?.length) return Astro.redirect(`/read/${book.id}/`,301);
 const topics = published.filter((topic) => topic.book === book.id);
 const visibleTopics = topics.filter((topic) => !continuationParent(topic.slug) && topic.group !== '原书章节概览' && topic.group !== '书末附页：TSR 出版目录与广告');
 const phbGroups: Record<string, string> = {
@@ -19,10 +22,10 @@ const displayTitle = (topic: (typeof topics)[number]) => topic.slug === 'climate
 const orderedTopics = (group: string) => visibleTopics.filter((topic) => groupFor(topic) === group).sort((a, b) => book.id === 'mm' ? a.titleEn.localeCompare(b.titleEn, 'en') : 0);
 ---
 <BaseLayout title={`${book.short} · ${book.titleZh}`}><article><header class="entry-header"><h1>{book.titleZh}</h1><div class="english">{book.short} · {book.title}</div></header><p>{book.description}</p>
-  {book.id === 'mm' && <figure class="book-cover"><img src="/assets/books/mm-cover.png" alt="怪物图鉴中文封面" /><figcaption>《怪物图鉴》清晰汉化封面</figcaption></figure>}
+  {book.id === 'mm' && <figure class="book-cover"><img src="/assets/books/mm-cover.png" alt="怪物图鉴中文封面" /><figcaption>《怪物图鉴》</figcaption></figure>}
   {book.id === 'ua' && <p><strong>按条目速查：</strong> <a href="/spells/?source=UA">UA 法术与小法术</a> · <a href="/classes/cavalier/">骑士</a> · <a href="/classes/barbarian/">野蛮人</a> · <a href="/classes/thief-acrobat/">杂技盗贼</a> · <a href="/equipment/?source=UA">武器</a> · <a href="/equipment/magic-items/?source=UA">魔法物品</a> · <a href="/tables/#treasure">魔法物品随机表</a> · <a href="/combat/ua-weapon-specialization/">武器专精</a></p>}
-  {topics.length > 0 ? <>
-    <p class="small muted">{topics.length} 篇正文</p>
+  {readingGroups?.length ? <><h2>章节目录</h2>{readingGroups.map(group=><section class="book-toc-group">{group.title !== '章节' && <h3>{group.title.split(' · ')[0]}{group.title.includes(' · ')&&<small lang="en">{group.title.split(' · ').slice(1).join(' · ')}</small>}</h3>}<ul class="book-toc">{group.chapters.map(chapter=><li><a href={`/read/${book.id}/${chapter.href.split("/").pop()!.replace("chapter-","").replace(".html","")}/`}>{chapter.title.split(" · ")[0]}{chapter.title.includes(" · ")&&<small lang="en">{chapter.title.split(" · ").slice(1).join(" · ")}</small>}</a></li>)}</ul></section>)}</> : topics.length > 0 ? <>
+    
     {book.id === 'mm' && <p class="letter-jump">字头：{groups.filter((group) => group.endsWith(' 字头')).map((group) => <><a href={`#letter-${group.charAt(0)}`}>{group.charAt(0)}</a> </>)}</p>}
     <h2>章节目录</h2>
     {groups.map((group) => <section class="book-toc-group" id={book.id === 'mm' && group.endsWith(' 字头') ? `letter-${group.charAt(0)}` : undefined}><h3>{group}</h3><ul class:list={['book-toc', { 'book-toc-monsters': book.id === 'mm' && group.endsWith(' 字头') }]}>{orderedTopics(group).map((topic) => <li><a href={`/books/${book.id}/${topic.slug}/`}>{displayTitle(topic)}</a>{topic.titleEn && <span class="muted small"> {topic.titleEn}</span>}</li>)}</ul></section>)}

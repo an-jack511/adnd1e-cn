@@ -1,5 +1,3 @@
-![迷雾谷、月海与月沙群岛原页](/assets/books/fr/fr_mistledale_moonsea_moonshae_page_64_original.png)
-![月沙群岛、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺原页](/assets/books/fr/fr_moonshae_mulhorand_mythdrannor_page_65_original.png)
 
 ## 迷雾谷 MISTLEDALE
 
@@ -102,3 +100,4 @@
 迷斯·德拉诺的废墟是国度最著名的遗迹之一。它曾是一座伟大城市，如今则是被树木与绿意覆盖的广阔废墟，坐落在精灵森林的中心。
 
 原书 PDF 第 66–67 页（印刷页 64–65）；保留迷雾谷骑手编制、月海沉没堡、月沙群岛的北方人与福克、米尔洛赫谷、大地之母德鲁伊、卢维尔、穆尔赫森、穆尔霍兰德、穆尔马斯特与迷斯·德拉诺条目开头。
+

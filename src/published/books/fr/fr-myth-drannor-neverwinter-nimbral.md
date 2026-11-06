@@ -1,5 +1,5 @@
-![迷斯·德拉诺约在象牙年地图与历史原页](/assets/books/fr/fr_myth_drannor_year_tusk_page_66_original.png)
-![迷斯·德拉诺约在虫年地图与无冬城原页](/assets/books/fr/fr_myth_drannor_year_worm_page_67_original.png)
+![象牙年时的迷斯·德拉诺地图，原书 PDF 第 66 页地图裁片](/assets/books/fr/fr_myth_drannor_year_tusk_page_66_map.png)
+![虫年时的迷斯·德拉诺地图，原书 PDF 第 67 页地图裁片](/assets/books/fr/fr_myth_drannor_year_worm_page_67_map.png)
 
 ## 迷斯·德拉诺 MYTH DRANNOR（续）
 

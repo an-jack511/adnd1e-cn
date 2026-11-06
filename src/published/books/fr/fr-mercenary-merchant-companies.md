@@ -1,5 +1,3 @@
-![雇佣兵通用规则与商人公司原页](/assets/books/fr/fr_mercenary_rules_merchant_companies_page_62_original.png)
-![商人标志与商队公司原页](/assets/books/fr/fr_merchant_signs_companies_page_63_original.png)
 
 ## 雇佣兵规则 MERCENARY COMPANIES（续）
 
@@ -83,3 +81,4 @@
 尽管称作“暴政”，塔恩希尔的统治以开放、警觉和慷慨著称，日常事务大多允许明塔恩自行处理。他会维持秩序（必要时会残酷行事），阻止任何人用武力在岛上达到目的，并防止海盗、其他国家或流氓控制明塔恩。
 
 原书 PDF 第 64–65 页（印刷页 62–63）；雇佣兵风险／运输／期限／荣誉／赠礼／背叛规则、普里亚科斯与科斯特定义、六库市场、真盾、龙眼、七日阳、千头、商人联盟、明塔恩均保留。
+

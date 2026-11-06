@@ -1,5 +1,3 @@
-![西门条目原页](/assets/books/fr/fr_westgate_page_89_original.png)
-![西门地图索引原页](/assets/books/fr/fr_westgate_key_page_91_original.png)
 
 ## 西门 WESTGATE
 
@@ -117,3 +115,4 @@
 |74|City Watch (meeting rooms, barracks)|城卫队（会议室、营房）|
 
 原书 PDF 第 91–92 页（印刷页 89–90）；保留西门城市条目、家族贸易徽记、夜面具组织规则、地图原页与 74 项地图索引。
+

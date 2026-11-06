@@ -21,14 +21,14 @@ export const playPages: PlayPage[] = [
     ] },
   { slug: 'encounter', title: '遭遇', intro: '遭遇是探索转向交涉、追逐或战斗的分岔点，不等于自动开战。',
     sequence: ['确定双方是否察觉彼此与突袭情况', '确定遭遇距离及可见范围', '判断意图，必要时掷反应', '选择交涉、避让、逃跑或进入战斗'], sections: [
-      { id: 'surprise', title: '突袭', points: ['通常双方各掷 1d6；掷出 1 或 2 的一方遭到突袭。特殊怪物和环境可改变概率。', '两边都遭突袭时按差值抵消；每点差值通常造成 1 段（6 秒）无法行动。DMG 把同一环节称为“受惊”。'], links: [link('战斗中的突袭', '/play/combat/#surprise')], sources: [phb('surprise', '突袭'), dmg('dmg-combat', '受惊')] },
+      { id: 'surprise', title: '突袭', points: ['通常双方各掷 1d6；掷出 1 或 2 的一方遭到突袭。特殊怪物和环境可改变概率。', '两边都遭突袭时按差值抵消；每点差值通常造成 1 段（6 秒）无法行动。PHB 与 DMG 均将同一环节称为“突袭”。'], links: [link('战斗中的突袭', '/play/combat/#surprise')], sources: [phb('surprise', '突袭'), dmg('dmg-combat', '突袭')] },
       { id: 'distance', title: '距离与视觉', points: ['DMG 通常以 1d6+4 寸确定未知遭遇距离，再按视线、噪声、空间和突袭修正。', '光源、红外或紫外视觉只能在有效范围内帮助发现对方。'], links: [link('光照与视觉', '/adventure/light/')], sources: [dmg('dmg-combat', '遭遇距离'), phb('light', '光照')] },
       { id: 'reaction', title: '交涉或升级', points: ['尚未确定敌意时，按怪物态度、语言、魅力及 DMG 反应程序裁定；玩家可谈判、贿赂或退避。', '发生逃跑时进入追逐；双方选择攻击时进入战斗流程，并逐轮处理士气与撤退。'], links: [link('战斗流程', '/play/combat/'), link('追逐', '/adventure/pursuit/'), link('随机遭遇表', '/tables/')], sources: [phb('negotiation', '谈判'), dmg('dmg-combat', '遭遇与战斗')] }
     ] },
   { slug: 'combat', title: '战斗', intro: '从突袭、距离和先攻开始，按每轮声明、行动与结算；下列条目是 PHB 与 DMG 的桌边合并速查。',
     sequence: ['确定突袭与距离', '声明行动，双方各掷 1d6 判先攻', '依先后处理移动、攻击、施法、魔法物品与驱散', '核对攻击矩阵／豁免，结算伤害', '检查士气、撤退和下一轮'], sections: [
       { id: 'sequence', title: '每轮流程', points: ['DMG 先处理突袭和距离；无突袭或突袭结束后，双方每轮各掷 1d6，通常高者先行动。', '先攻方可避战、交涉、等待、投射／施法／驱散、接近／冲锋、架武器迎击、近战或擒抱；再结算另一方行动。'], links: [link('遭遇流程', '/play/encounter/')], sources: [dmg('dmg-combat', '遭遇、战斗与先攻'), phb('combat-procedures', '战斗流程')] },
-      { id: 'surprise', title: '突袭', points: ['通常 1d6 掷出 1—2 即被突袭；每点未抵消的突袭差造成 1 段不能行动。', '突袭段内可逃跑、接近或攻击；法术仍需完整施法时间。噪声、光亮和事先察觉可取消突袭机会。'], links: [link('遭遇距离', '/play/encounter/#distance')], sources: [phb('surprise', '突袭'), dmg('dmg-combat', '受惊')] },
+      { id: 'surprise', title: '突袭', points: ['通常 1d6 掷出 1—2 即被突袭；每点未抵消的突袭差造成 1 段不能行动。', '突袭段内可逃跑、接近或攻击；法术仍需完整施法时间。噪声、光亮和事先察觉可取消突袭机会。'], links: [link('遭遇距离', '/play/encounter/#distance')], sources: [phb('surprise', '突袭'), dmg('dmg-combat', '突袭')] },
       { id: 'initiative', title: '先攻', points: ['双方通常各掷 1d6，较高一方先行动；每轮重新判定。一般不把敏捷直接加进先攻骰。', '平手时可能同时行动；多重攻击、冲锋、施法及武器速度有专项处理，不能简单套“赢家全部先打”。'], links: [link('多重攻击', '/combat/multiple-attacks/')], sources: [phb('initiative', '先攻'), dmg('dmg-combat', '先攻与平手')] },
       { id: 'movement', title: '移动与接近', points: ['先确定本轮双方距离；移动、冲锋、撤退与追逐不能只看角色卡上的基础移动率。', '地下城的 1 寸通常为 10 尺；户外地图换算不同。负重会降低可用移动。'], links: [link('负重', '/play/travel/#before'), link('追逐', '/adventure/pursuit/')], sources: [phb('movement-time-distance', '移动'), dmg('dmg-combat', '战斗距离')] },
       { id: 'attacks', title: '近战、投射与特殊攻击', points: ['普通武器攻击用攻击矩阵对照目标 AC；命中后按武器对 S/M 或 L 的伤害骰结算。', '投射武器需检查射程、发射速率、遮蔽和弹药；擒抱、拳击、压倒另有程序，不按普通武器伤害直接代替。'], links: [link('武器伤害与速度', '/equipment/'), link('PHB 攻击矩阵', '/books/phb/attack-saving-throw-matrices/')], sources: [phb('melee-combat', '近战'), phb('missile-discharge', '投射武器'), dmg('dmg-combat', '特殊战斗')] },

@@ -1,5 +1,3 @@
-![导言第 4 页原页](/assets/books/fr/fr_dm_introductions_page_4_original.png)
-![导言第 5 页原页](/assets/books/fr/fr_dm_introductions_page_5_original.png)
 
 ## 埃德·格林伍德 ED GREENWOOD
 
@@ -58,3 +56,4 @@
 这些就是我的童年梦想成真。
 
 原书 PDF 第 104–105 页（印刷页 4–5）；保留埃德·格林伍德、杰夫·格拉布与凯伦·S·马丁的全部导言、国度来源、多人创作经历、版本适配说明、感谢名单和出版背景，并挂载对应原页图。
+
