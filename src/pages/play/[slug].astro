@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CombatGuide from '../../components/CombatGuide.astro';
 import { playPages } from '../../data/public/play';
 export function getStaticPaths() { return playPages.map((page) => ({ params: { slug: page.slug }, props: { page } })); }
 const { page } = Astro.props;
 ---
-<BaseLayout title={page.title}><article class="play-guide"><h1>{page.title}</h1><p>{page.intro}</p>
+<BaseLayout title={page.title}>{page.slug === 'combat' ? <CombatGuide /> : <article class="play-guide"><h1>{page.title}</h1><p>{page.intro}</p>
 <h2>先按这个顺序</h2><ol class="sequence">{page.sequence.map((step) => <li>{step}</li>)}</ol>
 <nav aria-label="本页专题"><strong>本页专题：</strong>{page.sections.map((section, index) => <><a href={`#${section.id}`}>{section.title}</a>{index < page.sections.length - 1 && ' · '}</>)}</nav>
 {page.sections.map((section) => <section id={section.id} class="guide-section"><h2>{section.title}</h2><ul>{section.points.map((point) => <li>{point}</li>)}</ul>
 <p class="small guide-links">查阅：{section.links.map((item, index) => <>{index > 0 && ' · '}<a href={item.href}>{item.label}</a></>)}</p>
 <p class="source-list">来源：{section.sources.map((item, index) => <>{index > 0 && ' · '}<a href={item.href}>{item.label}</a></>)}</p></section>)}
-</article></BaseLayout>
+</article>}</BaseLayout>

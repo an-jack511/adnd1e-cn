@@ -1,11 +1,12 @@
 import {itemSelectionKind} from '../../utils/item-selection';
+import {cardName} from './labels';
 import {currentItemLabel,findNamedEntry} from '../../utils/terminology';
 import {installCardPrinting} from './printing';
 import abilityTables from '../../data/public/ability-tables.json';
 import { classes } from '../../data/public/classes-base';
 import { races } from '../../data/public/races-base';
 import { itemIndex as items } from '../../data/public/item-index';
-import { spells } from '../../data/public/spells';
+import { spells } from '../../data/public/spell-index';
 import { abilityAdjustment } from '../../rules-engine/abilities';
 import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement, type Ability } from '../../rules-engine/character';
 import { blankCard, blankRow, collectionNames, normalizeCard, selectPrepared, selectInventory, type Card, type CollectionName, type Row } from './model';
@@ -56,7 +57,7 @@ function applyCard(next:Card) {
   card=next; form.reset();
   for(const row of card.rows.gear){
     const item=items.find(item=>item.id===row.values.itemId);
-    if(item&&row.values.item)row.values.item=currentItemLabel(item,row.values.item);
+    if(item&&row.values.item){const refreshed=currentItemLabel(item,row.values.item);row.values.item=refreshed===item.nameZh||refreshed===item.nameEn?cardName(item.nameZh):refreshed;}
   }
   undo=undefined;undoButton.hidden=true;
   for (const control of form.querySelectorAll<Control>('[name]')) {
@@ -142,7 +143,7 @@ for (const key of collectionNames) {
     if(key==='gear'&&control.dataset.cell==='item'){
       const id=control.closest<HTMLElement>('[data-card-row]')!.dataset.rowId;
       const row=card.rows.gear.find(row=>row.id===id),item=items.find(item=>item.id===row?.values.itemId);
-      if(row&&item&&control.value!==item.nameZh)delete row.values.itemId;
+      if(row&&item&&control.value!==cardName(item.nameZh))delete row.values.itemId;
     }
     if (key!=='weapons' || control.dataset.cell!=='name') return;
     const selection=control.value,missile=selection.endsWith('::missile'),id=missile?selection.slice(0,-9):selection;
@@ -170,7 +171,7 @@ function renderPrepared() {
     const spell=spells.find(spell=>spell.id===entry.spellId);
     const article=document.createElement('article');article.className='prepared-spell';
     const heading=document.createElement('h3'),link=document.createElement('a');link.href=`/spells/${encodeURIComponent(entry.spellId)}/`;link.textContent=spell ? `${spell.level}环 · ${spell.nameZh}` : entry.spellId;heading.append(link);
-    const english=document.createElement('small');english.textContent=spell?.nameEn??'原记录中的法术';heading.append(english);
+
     const rules=document.createElement('p');rules.className='spell-quick-rules';rules.textContent=spell ? `${spell.components.join('/')} · 施法 ${spell.castingTime} · 距离 ${spell.range} · 持续 ${spell.duration} · 范围 ${spell.areaOfEffect} · 豁免 ${spell.savingThrow}` : '此法术暂未收录于资料库；原记录仍保留。';
     const controls=document.createElement('div');controls.className='prepared-controls';
     for(const [key,label] of [['count','准备'],['expended','已用']] as const){
@@ -231,7 +232,7 @@ function renderOwnedMagic(){
  const container=document.querySelector('#owned-magic-items');if(!container)return;
  const owned=card.rows.gear.flatMap(row=>{const item=items.find(item=>item.id===row.values.itemId);return item?.category==='魔法物品'?[{item,row}]:[];});
  const signature=JSON.stringify(owned.map(({row})=>[row.id,row.values]));if(signature===magicSignature)return;magicSignature=signature;
- container.replaceChildren(...owned.map(({item,row})=>{const line=document.createElement('div');line.className='owned-magic-row';const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=item.nameZh;const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);return line;}));
+ container.replaceChildren(...owned.map(({item,row})=>{const line=document.createElement('div');line.className='owned-magic-row';const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=cardName(item.nameZh);const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);return line;}));
 }
 const itemLibrary=document.querySelector<HTMLDialogElement>('#item-library')!,itemFrame=document.querySelector<HTMLIFrameElement>('#item-library-frame')!;
 let itemKind:'gear'|'magic'|'weapons'='gear';

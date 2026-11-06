@@ -1,0 +1,90 @@
+---
+import { actionTypes, tiedTiming, unequalTiming, timingTerms, termLabels, combatChecklist } from '../data/public/combat-guide';
+import SessionChecklist from './SessionChecklist.astro';
+import '../styles/table-reference.css';
+const sections=[['sequence','战斗流程'],['surprise','突袭与距离'],['initiative','先攻'],['action-matrix','行动先后对照'],['multiple-attacks','多轮攻击'],['movement','移动与冲锋'],['spell-combat','施法与中断'],['weapon-speed','武器速度'],['attacks','命中与伤害'],['morale','轮末与撤退'],['checklist','逐轮检查'],['sources','来源']];
+const source=(pages:string)=>`A.D.D.I.C.T. 2.2，第 ${pages} 页`;
+const attackPositions=[['—','—','—','—','—','1'],['—','—','—','—','1','—'],['—','—','—','1','—','2'],['—','—','1','—','2','—'],['—','1','—','2','—','3'],['1','—','2','—','3','—'],['—','2','—','3','—','4'],['—','—','3','—','4','—'],['—','—','—','4','—','5'],['—','—','—','—','5','—'],['—','—','—','—','—','6']];
+---
+<article class="combat-guide">
+<h1>战斗</h1>
+<p class="lede">先走流程，再处理例外。把一次遭遇中的突袭、行动声明、先攻、攻击和轮末结算串起来，遇到时序冲突时直接查表。</p>
+<p class="notice">本文依 David M. Prata 的 <cite>A.D.D.I.C.T.</cite> 2.2 改编为中文网页指南。它是作者对多处规则的汇编与解释；本页的行动对照沿用该文口径。核心依据是 PHB／DMG，UA、杂志补充与特殊个案另行标明；本团采用哪些规则应事先约定。</p>
+<p><a href="/play/">游戏中：攻击矩阵、豁免与桌边速查 →</a> · <a href="/combat/">战斗专题索引</a></p>
+<nav class="reference-nav" aria-label="战斗页目录">{sections.map(([id,title])=><a href={`#${id}`}>{title}</a>)}</nav>
+<section id="sequence" class="reference-section"><h2>一次遭遇到一轮战斗</h2>
+<table><thead><tr><th scope="col">阶段</th><th scope="col">处理内容</th><th scope="col">何时重复</th></tr></thead><tbody>
+<tr><th scope="row">1 · 突袭与距离</th><td>检查是否察觉对方，确定净突袭段与个人反应，处理突袭期间的行动；结合空间和视线定距离。</td><td>遭遇开始；重新遭遇时再检查</td></tr>
+<tr><th scope="row">2 · 双方声明</th><td>DM 先决定敌方意图，再听玩家声明；施法须指定法术。记录移动、目标、准备动作。</td><td>每轮</td></tr>
+<tr><th scope="row">3 · 先攻前例外</th><td>采用 UA 时处理符合条件的弓／弩专精预备射击；有灵能时按其逐段规则结算。</td><td>适用时</td></tr>
+<tr><th scope="row">4 · 阵营先攻</th><td>通常每方掷 1d6，高者取得先攻；投射敏捷与特殊物品另查。</td><td>每轮</td></tr>
+<tr><th scope="row">5 · 排行动次序</th><td>先看多轮攻击、冲锋、施法和速度因子等例外，再结算普通先攻。</td><td>每轮</td></tr>
+<tr><th scope="row">6 · 判定结果</th><td>核对矩阵、AC、命中调整、伤害、豁免、中断与持续效果。</td><td>每项行动</td></tr>
+<tr><th scope="row">7 · 轮末更新</th><td>检查伤势、持续时间、士气、撤退和双方距离；仍在战斗则重新声明。</td><td>每轮末</td></tr>
+</tbody></table>
+<p class="source-list">{source('1–8')}；<a href="/books/dmg/dmg-combat/">DMG 第 61–67、71、76–78 页</a>。士气等轮末提醒为本站补充。</p></section>
+
+<section id="surprise" class="reference-section"><h2>突袭与距离</h2>
+<ul><li>通常双方各掷 1d6，1–2 表示该方被突袭；掷出的点数表示不能行动的段数。双方都被突袭时，较短段数抵消较长段数。</li><li>例如甲被突袭 2 段、乙被突袭 1 段，抵消后甲还失去 1 段。个人敏捷反应只调整已发生的突袭，负调整不会凭空造成突袭；正调整须检查轻装条件。</li><li>按本文口径，每个可行动的突袭段可进行完整一轮的近战攻击；投射可用通常射速，已就绪的投射另有三倍射速条款。施法和移动仍逐段计时，不能把长法术压成一段。</li><li>因个人反应提前恢复者，在队伍仍被突袭期间只按本文列出的移动、施法及其他短动作行动；不要直接套用未被突袭一方的整轮武器攻击。</li></ul>
+<div class="table-wrap" tabindex="0" role="region" aria-label="遭遇距离速查"><table><thead><tr><th>情形</th><th>基础距离</th><th>继续检查</th></tr></thead><tbody>
+<tr><th scope="row">室内通常遭遇</th><td>1d6＋4 寸</td><td>空间、视线、噪声、光照可能缩短或改变距离。</td></tr><tr><th scope="row">室内有突袭</th><td>1–3 寸</td><td>不得超过实际空间所容许的距离。</td></tr><tr><th scope="row">户外通常遭遇</th><td>6d4 寸</td><td>本文先按地形调整骰值，有突袭时再扣较大的突袭段数。</td></tr>
+</tbody></table></div>
+<p>游侠较不易被突袭的益处可及队伍；游侠更易突袭敌人的益处并非带着普通队伍就自动共享。不同骰型的百分比换算是本文引用的《Dragon》补充，应先确认本团采用。</p>
+<p class="source-list">{source('1–4')}；DMG 第 49、61–62、71 页，PHB 第 24、101–103 页；百分比补充：Leigh L. Krehmeyer，〈Surprise!〉，《Dragon》1988 年 5 月，第 74 页。</p></section>
+
+<section id="initiative" class="reference-section"><h2>阵营先攻与适用范围</h2>
+<p>每方一个先攻骰，通常高者先，平手通常同时。先攻骰不是全队统一的“开始行动段数”；它在施法对抗等专项程序中才作为特定比较值使用。</p>
+<table><thead><tr><th>情况</th><th>查法</th></tr></thead><tbody><tr><th scope="row">普通行动</th><td>按阵营先攻处理。</td></tr><tr><th scope="row">投射攻击</th><td>敏捷攻击调整修正该射手所用的阵营骰；正调整检查轻装条件，负调整仍适用。</td></tr><tr><th scope="row">冲锋接战</th><td>比较长度／触及，不用普通先攻决定接触时谁先打。</td></tr><tr><th scope="row">对施法者出手</th><td>继续比较施法时间；赢先攻不保证法术先完成。</td></tr><tr><th scope="row">特殊物品、怪物</th><td>按具体条目，例如固定先出手或特殊先攻骰；不推广到普通角色。</td></tr></tbody></table>
+<p class="source-list">{source('5–9')}；<a href="/books/dmg/dmg-combat/">DMG 第 62–67 页</a>，PHB 第 102 页。</p></section>
+
+<section id="action-matrix" class="reference-section"><h2>谁先行动：对照查询</h2>
+<p>先选两种行动和先攻关系。下方保留完整表，关闭脚本也可查阅。“多轮攻击”指一轮内重复使用攻击套路；爪／爪／咬本身是一套，不自动算三轮攻击。</p>
+<form id="timing-picker" class="lookup timing-picker"><label>我方行动<select name="actor">{actionTypes.map((label,index)=><option value={index}>{label}</option>)}</select></label><label>对方行动<select name="opponent">{actionTypes.map((label,index)=><option value={index} selected={index===6}>{label}</option>)}</select></label><label>我方先攻<select name="relation"><option value="tied">与对方平手</option><option value="higher">高于对方</option><option value="lower">低于对方</option></select></label><button type="submit">查对照</button></form>
+<p id="timing-result" class="timing-result" role="status" aria-live="polite">天然近战 vs 施法（先攻平手）：{timingTerms.dieSpell}</p>
+<p class="small">投射者先算适用的敏捷修正再选择关系。此处查询比较程序；实际射程、是否就绪、能否接战及具体数值仍须核对。</p>
+{[{title:'先攻平手',matrix:tiedTiming,note:'行与列分别为两方行动。'},{title:'先攻不等',matrix:unequalTiming,note:'行＝先攻较高的一方；列＝先攻较低的一方。含投射时按个人适用修正比较。'}].map(({title,matrix,note})=><details><summary>{title} · 完整行动对照表</summary><p>{note}</p><div class="table-wrap" tabindex="0" role="region" aria-label={`${title}行动矩阵`}><table class="matrix"><caption>{title}（A.D.D.I.C.T. 第 17–18 页改编）</caption><thead><tr><th scope="col">行方 ↓／列方 →</th>{actionTypes.map(label=><th scope="col">{label}</th>)}</tr></thead><tbody>{matrix.map((row,i)=><tr><th scope="row">{actionTypes[i]}</th>{row.map(code=><td><a href={`#term-${code}`}>{termLabels[code]}</a></td>)}</tr>)}</tbody></table></div></details>)}
+<details><summary>对照表用语与判定说明</summary><dl>{Object.entries(timingTerms).map(([key,value])=><><dt id={`term-${key}`}><strong>{termLabels[key]}</strong></dt><dd>{value}</dd></>)}</dl></details>
+<p class="source-list">{source('17–18')}。原文说明表格格式的早期工作来自 Dragonsfoot 成员 Link 与 WSmith。SF＝武器速度因子；数值比较均依本文口径。</p></section>
+
+<section id="multiple-attacks" class="reference-section"><h2>多轮攻击：交错排次序</h2>
+<p>两轮攻击对一轮攻击：多轮者先、单轮者中间、多轮者最后。两方都有两轮时，用先攻决定谁占第 1、3 位，另一方占第 2、4 位。3/2 的攻击率按本文从奇数轮两次、偶数轮一次交替。</p>
+<details open><summary>每轮 1–6 次攻击套路的相对位置</summary><p>同一行的行动再按先攻或适用的武器速度排定；空格仅表示没有对应攻击。这些行是相对位置，<strong>不是战斗段数</strong>。</p><div class="table-wrap" tabindex="0" role="region" aria-label="多轮攻击相对位置表"><table class="numeric"><thead><tr>{[1,2,3,4,5,6].map(n=><th scope="col">{n} 次／轮</th>)}</tr></thead><tbody>{attackPositions.map(row=><tr>{row.map(value=><td>{value}</td>)}</tr>)}</tbody></table></div></details>
+<p>怪物的一套爪／爪／咬攻击和重复两套爪／爪／咬要分开。对短于整轮的施法，本文将时序对照锁定在首次攻击，不能把所有额外攻击都提前来尝试打断。</p>
+<p class="source-list">{source('6、8、19')}；DMG 第 62–63 页。第 19 页示意图据 Link、WSmith 的早期格式整理。</p></section>
+
+<section id="movement" class="reference-section"><h2>移动、接近与冲锋</h2>
+<table><thead><tr><th>情形</th><th>处理</th></tr></thead><tbody><tr><th scope="row">接近</th><td>按本文，轮初相隔超过 1 寸时，普通接近要花一轮；不要自动给予“完整移动后完整近战”。</td></tr><tr><th scope="row">室内冲锋</th><td>移动率加倍；仍须足以接触目标，且负重状况允许。</td></tr><tr><th scope="row">户外冲锋</th><td>两足生物移动＋1/3；四足生物＋1/2。</td></tr><tr><th scope="row">冲锋防御</th><td>失去敏捷 AC 加值；没有该加值者 AC 变差 1 级，但 AC 10 不再受罚。</td></tr><tr><th scope="row">冲锋命中</th><td>接战时较长武器／触及先打；冲锋者若仍能攻击，命中＋2。</td></tr><tr><th scope="row">冲锋对施法</th><td>比较抵达所需的移动段数与施法时间，不只看先攻输赢。</td></tr></tbody></table>
+<p>时间单位：1 回合＝10 分钟；1 战斗轮＝1 分钟＝10 段；1 段＝6 秒。室内通常 1 寸＝10 尺；户外距离通常 1 寸＝10 码，范围与具体法术另查。突袭移动按本文每段走相当于移动率数值的英尺。</p>
+<p class="source-list">{source('2、6–7')}；<a href="/books/dmg/dmg-combat/">DMG 第 66 页</a>，<a href="/books/phb/movement-time-distance/">PHB 第 39、102–103 页</a>。</p></section>
+
+<section id="spell-combat" class="reference-section"><h2>战斗施法与中断</h2>
+<p>先声明法术，检查 V／S／M、目标、范围和施法时间。以下是本文对段级时序的整理；以轮或回合为施法时间的法术不能直接代入短法术比较。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="施法时序"><table><thead><tr><th>对抗</th><th>攻击者赢先攻</th><th>先攻平手</th><th>施法者赢先攻</th></tr></thead><tbody>
+<tr><th scope="row">有 SF 的近战武器</th><td>武器先攻击</td><td>比较 SF 与施法时间</td><td>比较 |SF − 攻击者输骰| 与施法时间</td></tr>
+<tr><th scope="row">投射／无 SF 天然攻击</th><td>攻击先发生</td><td>比较施法者骰值与施法时间</td><td>比较施法者骰值与施法时间</td></tr>
+<tr><th scope="row">冲锋</th><td colspan="3">比较抵达所需段数与施法时间。</td></tr><tr><th scope="row">另一法术</th><td colspan="3">短法术先；施法时间相等时才比较先攻，仍平手则同时。</td></tr>
+</tbody></table></div>
+<p>上述数值比较均为较小者先，相等同时。例：施法者掷 6、持 SF 4 武器的敌人掷 4；|4−4|＝0，武器可先于 1 段法术出手，仍须命中才可能打断。</p>
+<ul><li>按本文，施法时不能一面保持法术一面用敏捷 AC 加值闪避；这样闪避会中断施法。</li><li>施法完成前受到成功攻击或未成功豁免的攻击会中断法术。只是在时间上先出手，不等于自动打断；同时发生也不算提前中断。</li><li>有明确启动时间的魔法装置可参照相同的时序，但被击中不自动取消启动；使用者死亡或失去行动能力另论。</li><li>驱散不死受先攻影响；依本文不是普通受击就被打断，失去行动能力则例外。UA 戏法一轮两次等扩展须另外确认采用。</li></ul>
+<p class="source-list">{source('7–8、17–18')}；DMG 第 65–67 页；UA 戏法补充见第 45 页。<a href="/play/magic/">施法与魔法</a> · <a href="/spells/">法术检索</a></p></section>
+
+<section id="weapon-speed" class="reference-section"><h2>武器速度因子 SF</h2><p>SF 不是普遍加到先攻骰上的数值。两方都持有 SF 的近战武器、先攻平手、且攻击轮次位置适合比较时，较低 SF 先。接近、冲锋及其初次接战要先查长度／触及条件；已在近战距离而不需接近时另按适用条款处理。</p>
+<p>当 SF 确实决定先后时：差值至少为较低 SF 的两倍，或差值至少 5，快武器可在慢武器之前攻击两次；差值至少 10 时，再有一次与慢武器同时的攻击。不要把它当作每轮都触发的固定额外攻击。</p>
+<p class="source-list">{source('9–10')}；<a href="/books/dmg/dmg-combat/">DMG 第 66 页</a>；<a href="/equipment/">武器 SF、长度与伤害</a>。</p></section>
+
+<section id="attacks" class="reference-section"><h2>命中、AC、豁免与伤害</h2>
+<div id="armor-class"><p>先按职业与等级或怪物 HD 选择攻击矩阵，再对照目标最终 AC。武器对护甲调整使用规则所指的护甲类型，不能把敏捷、魔法等修正后的最终 AC 直接当成穿戴护甲的类型。</p></div>
+<p>命中调整检查力量／投射敏捷、熟练、射程、掩护、魔法、背后攻击等适用项。投射还要核对射速、弹药及射入近战的规则。盾牌与敏捷是否有效取决于方向和当前状态。</p>
+<div id="damage"><p>命中后按目标为 S/M 或 L 选伤害骰，再处理加值、毒素等附加效果与相应豁免。伤害、昏迷、流血、死亡和恢复分开记录；0 HP 以下的处理应按本团所采用的 DMG 条款核对。</p></div>
+<p><a href="/play/#attack-matrices">角色攻击矩阵</a> · <a href="/play/#saving-throws">五类豁免表</a> · <a href="/books/dmg/dmg-combat/">怪物矩阵与完整战斗规则</a> · <a href="/combat/healing/">治疗</a></p>
+<p class="source-list">本站补充桌边结算入口：<a href="/books/dmg/dmg-combat/">DMG 第 74–79、82 页</a>；<a href="/books/phb/money-equipment-and-arms/">PHB 武器与护甲表</a>。</p></section>
+
+<section id="morale" class="reference-section"><h2>轮末、士气与撤退</h2><p>记录持续法术的剩余时间、弹药和已用能力，依采用的伤势规则处理倒地者。重大损失、首领倒下等可能要求士气检查；不要默认敌人必定战至最后一人。撤离、逃跑与追逐按相应规则结算，结束战斗后再转入探索或休整。</p><p class="source-list">本站补充：<a href="/books/phb/morale/">PHB 士气</a> · <a href="/books/dmg/dmg-combat/">DMG 战斗</a> · <a href="/adventure/pursuit/">追逐</a></p></section>
+<section id="checklist" class="reference-section"><h2>逐轮检查单</h2><SessionChecklist title="这一轮是否漏项" items={combatChecklist} /></section>
+<section id="sources" class="reference-section"><h2>来源与改编说明</h2><p>David M. Prata（DMPrata），<cite>Advanced Dungeons &amp; Dragons Initiative and Combat Table（A.D.D.I.C.T.）</cite>，版本 2.2，2006 年 3 月 19 日。依据所提供的 <code>addict.pdf</code> 整理：第 1–10 页为程序与解释，第 11–16 页为完整战例，第 17–18 页为行动对照，第 19 页为多轮攻击示意，第 20 页列参考文献。</p><p>本页重新编排流程、中文改写规则要点，并将两张行动对照表和攻击次序图转成网页表格及查询器；未逐字复刻全文战例、插画或原 PDF。原文举例所用 UA、MM II、模组与杂志个案不自动成为本团默认规则。原作者署名与规则书页码随内容保留；本站增加的命中、伤害、士气及轮末检查另有注明。</p><p>主要规则出处：Gary Gygax，<cite>Players Handbook</cite>（1978）及 <cite>Dungeon Masters Guide</cite>（1979）；扩展参见 <cite>Unearthed Arcana</cite>（1985）。A.D.D.I.C.T. 的汇编解释与原书须区分；遇到歧义时回到对应原书并由本团统一裁定。</p></section>
+</article>
+<script>
+  import {actionTypes,tiedTiming,unequalTiming,timingTerms} from '../data/public/combat-guide';
+  const form=document.querySelector<HTMLFormElement>('#timing-picker');
+  if(form){const update=()=>{const data=new FormData(form);const a=Number(data.get('actor')),b=Number(data.get('opponent'));const relation=data.get('relation');const code=relation==='tied'?tiedTiming[a][b]:relation==='higher'?unequalTiming[a][b]:unequalTiming[b][a];const label=relation==='tied'?'先攻平手':relation==='higher'?'我方先攻较高':'对方先攻较高';document.querySelector('#timing-result')!.textContent=`${actionTypes[a]} vs ${actionTypes[b]}（${label}）：${timingTerms[code]}`;};form.addEventListener('change',update);form.addEventListener('submit',event=>{event.preventDefault();update();});}
+</script>

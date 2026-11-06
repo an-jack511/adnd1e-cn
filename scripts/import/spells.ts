@@ -59,3 +59,4 @@ const spells = [...byId.values()];
 writeFileSync(resolve('src/data/public/spells-imported.json'), `${JSON.stringify(spells, null, 2)}\n`);
 console.log(`Imported ${spells.length} PHB spells. Skipped ${skipped.length} headings.`);
 if (skipped.length) console.log(skipped.slice(0, 12).join('\n'));
+await import('./spell-rules');

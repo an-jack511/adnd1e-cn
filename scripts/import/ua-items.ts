@@ -65,3 +65,4 @@ for (const file of readdirSync(root).filter((name) => /^dm-treasure-.*\.md$/.tes
 }
 writeFileSync(resolve('src/data/public/ua-items-imported.json'), `${JSON.stringify(result, null, 2)}\n`);
 console.log(`Imported ${result.length} UA items (${result.filter((item) => item.category === '武器').length} weapons, ${result.filter((item) => item.category === '魔法物品').length} described magic items).`);
+await import('./ua-prices');

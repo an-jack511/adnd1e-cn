@@ -13,8 +13,8 @@ html[data-theme=dark]{color-scheme:dark;--paper:#192620;--ink:#e6ece3;--wine:#b5
  html .masthead{border-color:var(--wine)!important}
  html .site-title:link,html .site-title:visited{color:var(--ink)}
  html .primary-nav{background:var(--nav);border-top:4px solid var(--wine)}
- html .primary-nav a:link,html .primary-nav a:visited{color:#f1f7fb;border-color:#4d6558}
- html .primary-nav a:hover{background:#3b5547;color:#fff}
+ html .primary-nav a:link,html .primary-nav a:visited{color:#f5f5f5;border-color:color-mix(in srgb,var(--nav) 65%,#fff)}
+ html .primary-nav a:hover{background:color-mix(in srgb,var(--nav) 72%,#fff);color:#fff}
  html :is(.site-subtitle,.breadcrumbs,.site-footer,.source-list,.rule-citation,.results-count,.muted,.english,.library-english,.book-source-line,.lookup-hits small){color:var(--muted)}
  html .entry-header .english,html .source-list :is(b,strong,span,.label){color:var(--muted)}
  html :is(.lede,.play-directory td,.updates time,.updates-table td:first-child,.tag,.book-code,.book-row p,.catalog-row p,.book-location,.book-article h1 small,.book-cover figcaption,.result-type,.result-meta){color:var(--muted)}
@@ -51,7 +51,7 @@ html[data-theme=dark]{color-scheme:dark;--paper:#192620;--ink:#e6ece3;--wine:#b5
  html .ref2-paper :is(h1,h2,h3,h4,th,input,select,textarea){color:inherit}
  html .ref2-paper :is(input,select,textarea){background:transparent}
  html[data-theme=dark] .ref2-workspace{--ref2-ink:var(--ink);--ref2-rule:#7d96a4;color:var(--ink)}
- html[data-theme=dark] .ref2-paper{background:#192620;color:var(--ink);border-color:var(--line)}
+ html[data-theme=dark] .ref2-paper{background:var(--paper);color:var(--ink);border-color:var(--line)}
  html[data-theme=dark] .ref2-workspace :is(button,.file-button){background:var(--surface);color:var(--ink);border-color:var(--line)}
  html[data-theme=dark] .ref2-workspace :is(.card-workspace-heading p,.card-status,.screen-tools,.ref2-page-foot,.row-note label){color:var(--muted)}
  html[data-theme=dark] .ref2-paper :is(.ref2-band.orange,.ref2-band.yellow,.movement-row,.senses-row,.repeater-proficiencies){color:#24221f}
@@ -67,5 +67,15 @@ html[data-theme=dark]{color-scheme:dark;--paper:#192620;--ink:#e6ece3;--wine:#b5
  html[data-palette=scarlet][data-theme=dark]{--wine:#ff827b;--nav:#09151f;--accent-blue:#96d4ef;--selected:#244e64;--paper:#15232d;--surface:#1e3341;--surface-strong:#294858}
  html[data-palette=ochre][data-theme=light]{--wine:#7d5b23;--nav:#443b29;--accent-blue:#476743;--selected:#eee4ce;--surface:#f5f2eb;--surface-strong:#e9dfc9}
  html[data-palette=ochre][data-theme=dark]{--wine:#d4ba7a;--nav:#211c14;--accent-blue:#bacb9a;--selected:#57492f;--paper:#2a261d;--surface:#393224;--surface-strong:#4b402c}
+ html[data-palette=mono][data-theme=light]{--paper:#fff;--ink:#171717;--wine:#252525;--line:#aaa;--surface:#f3f3f3;--surface-strong:#e5e5e5;--muted:#595959;--nav:#181818;--accent-blue:#000;--selected:#dedede}
+ html[data-palette=mono][data-theme=dark]{--paper:#171717;--ink:#f1f1f1;--wine:#e5e5e5;--line:#737373;--surface:#242424;--surface-strong:#383838;--muted:#bfbfbf;--nav:#090909;--accent-blue:#fff;--selected:#454545}
+ html[data-palette=purple-orange][data-theme=light]{--paper:#fffaf5;--ink:#30253f;--wine:#633392;--line:#b7a0c5;--surface:#f4edf8;--surface-strong:#e6d9ef;--muted:#6c5875;--nav:#352043;--accent-blue:#9b430b;--selected:#f7e1ce}
+ html[data-palette=purple-orange][data-theme=dark]{--paper:#231b2c;--ink:#f3eaf8;--wine:#d6b0f3;--line:#82708f;--surface:#30243c;--surface-strong:#44314f;--muted:#c8b7d2;--nav:#150f1d;--accent-blue:#ffb779;--selected:#563b32}
+ html[data-palette=purple-orange] .primary-nav{border-top-color:var(--accent-blue)}
+ html[data-palette=purple-orange] :is(.home-page h2,.reference-section h2,.book-body h2){border-color:var(--accent-blue)}
+ html[data-palette=purple-orange] .reference-section th{background:color-mix(in srgb,var(--accent-blue) 10%,var(--paper))}
+ html[data-palette=purple-orange] a:hover{text-decoration:underline;text-underline-offset:3px}
  html .masthead{flex-wrap:wrap}html .masthead .theme-control{flex:0 0 auto}
 }
+
+.book-body .source-page-number,.rule-body .source-page-number{font-size:.8em;color:var(--muted);margin-block:1.25rem .5rem;}

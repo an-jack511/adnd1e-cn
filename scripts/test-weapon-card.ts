@@ -8,11 +8,11 @@ const row=blankRow();row.values={thac0:'17',hit:'+2',damage_adj:'+3',custom:'保
 fillWeapon(row,sword);
 assert.equal(row.values.speed,'3');assert.equal(row.values.length,'c. 2′');assert.equal(row.values.space,'1′');
 assert.equal(row.values.sm,sword.damageSmallMedium);assert.equal(row.values.large,sword.damageLarge);
-assert.equal(row.values.ac_0,'−5');assert.equal(row.values.ac_10,'+2');assert.ok(row.values.notes.includes('速度 3'));
+assert.equal(row.values.ac_0,'−5');assert.equal(row.values.ac_10,'+2');assert.ok(row.values.notes.includes('速3'));
 fillWeapon(row,dagger,'missile');
-assert.equal(row.values.attacks,'2');assert.equal(row.values.ac_0,'−7');assert.equal(row.values.mode,'missile');assert.ok(row.values.notes.includes('短 1／中 2／远 3'));
+assert.equal(row.values.attacks,'2');assert.equal(row.values.ac_0,'−7');assert.equal(row.values.mode,'missile');assert.ok(row.values.notes.includes('短1／中2／远3'));
 fillWeapon(row,dagger,'handHeld');
-assert.equal(row.values.ac_0,'−4');assert.equal(row.values.speed,'2');assert.equal(row.values.attacks,'');assert.ok(!row.values.notes.includes('短 1'));
+assert.equal(row.values.ac_0,'−4');assert.equal(row.values.speed,'2');assert.equal(row.values.attacks,'');assert.ok(!row.values.notes.includes('短1'));
 for(const [key,value] of Object.entries({thac0:'17',hit:'+2',damage_adj:'+3',custom:'保留扩展'}))assert.equal(row.values[key],value);
 fillWeapon(row,bow);assert.equal(row.values.mode,'missile');assert.equal(row.values.attacks,'1/2');assert.equal(row.values.ac_10,'+4');
 const card=blankCard();card.rows.weapons[0].values={name:'手造武器',notes:'原附注'};

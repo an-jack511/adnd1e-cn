@@ -1,0 +1,15 @@
+---
+interface Props { items: string[]; title?: string }
+const {items,title='快速检查'}=Astro.props;
+---
+<session-checklist>
+  <div class="section-heading"><h3>{title}</h3><button type="button" data-reset hidden>清空勾选</button></div>
+  <ul class="session-checklist">{items.map(item=><li><label><input type="checkbox" /> <span>{item}</span></label></li>)}</ul>
+  <p class="small">勾选只用于当前页面检查。</p>
+</session-checklist>
+<script>
+  class SessionChecklist extends HTMLElement {
+    connectedCallback(){const reset=this.querySelector<HTMLButtonElement>('[data-reset]')!;reset.hidden=false;reset.onclick=()=>this.querySelectorAll<HTMLInputElement>('input').forEach(input=>input.checked=false);}
+  }
+  if(!customElements.get('session-checklist'))customElements.define('session-checklist',SessionChecklist);
+</script>

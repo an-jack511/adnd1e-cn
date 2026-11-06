@@ -25,7 +25,7 @@ const crumbTitle = segments.length > 1 ? title.replace(/^.*? · /, '').replace(/
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <script is:inline>try{const palette=localStorage.getItem('adnd1e-palette');document.documentElement.dataset.palette=['forest','ochre','scarlet'].includes(palette)?palette:'forest';}catch{document.documentElement.dataset.palette='forest';}</script>
+    <script is:inline>try{const palette=localStorage.getItem('adnd1e-palette');document.documentElement.dataset.palette=['forest','ochre','scarlet','mono','purple-orange'].includes(palette)?palette:'forest';}catch{document.documentElement.dataset.palette='forest';}</script>
     <script is:inline>try{const p=localStorage.getItem('adnd1e-theme')||'system';document.documentElement.dataset.themePreference=p;document.documentElement.dataset.theme=p==='dark'||p!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}</script>
     <script is:inline>if(new URLSearchParams(location.search).get('view')==='embedded')document.documentElement.classList.add('library-embedded');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />

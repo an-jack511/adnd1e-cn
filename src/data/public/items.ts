@@ -5,11 +5,17 @@ import {baseItems} from './items-base';
 import details from './item-details.json';
 import additions from './item-additions.json';
 import {classifyItem,isMagicItem} from '../../utils/item-classification';
+import {formatItemPrice} from '../../utils/item-price';
+import uaPrices from './ua-equipment-prices.json';
 const enrichment=details as Record<string,Partial<Item>>;
 export const items:Item[]=[...baseItems,...additions as Item[],...regional as Item[]].map(item=>{
  const extra=enrichment[item.id]??{};
  const xpValue=item.description.match(/XP[：:]\s*([^；。]+)/)?.[1];
- const next={...item,...extra,...(xpValue?{xpValue}:{})};
+ const listed=uaPrices as Record<string,{price:string;source:Item['source'][number];note?:string}>;
+ const uaPrice=/见 UA 装备价目/.test(item.price)?listed[item.nameEn.toLowerCase().replace(/[^a-z0-9]/g,'')]:undefined;
+ const rawPrice=uaPrice?.price??extra.price??item.price;
+ const priceNote=uaPrice?.note??(/约|最多|不超过/.test(rawPrice)?`原书价目：${rawPrice}。`:undefined);
+ const next={...item,...extra,price:formatItemPrice(rawPrice),...(priceNote?{description:`${extra.description??item.description} ${priceNote}`} : {}),...(uaPrice?{source:[...item.source,uaPrice.source]}:{}),...(xpValue?{xpValue}:{})};
  const taxonomy=classifyItem(next);
  const sources=[...next.source,...(next.details??[]).map(detail=>detail.source)];
  return {...next,...taxonomy,nameZh:canonicalName('item',next.nameEn,next.nameZh.replace(/[（(]$/,'').trim()),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};

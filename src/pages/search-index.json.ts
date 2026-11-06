@@ -7,11 +7,16 @@ import { classes } from '../data/public/classes';
 import { races } from '../data/public/races';
 import { rules } from '../data/public/rules';
 import { playPages } from '../data/public/play';
+import {quickLinks,quickChecks,timingTerms,termLabels} from '../data/public/combat-guide';
 import published from '../data/published/books.json';
 import bookSearch from '../data/published/book-search.json';
 
 export const GET: APIRoute = () => {
   const index = [
+    {type:'游戏中',href:'/play/',nameZh:'桌边速查与快速检查单',nameEn:'',description:quickChecks.join(' '),tags:['游戏中','检查单'],source:['PHB','DMG'],aliases:[]},
+    ...[{name:'角色攻击矩阵',id:'attack-matrices'},{name:'角色五类豁免表',id:'saving-throws'},{name:'时间、AC 与重要概念',id:'concepts'}].map(entry=>({type:'游戏中',href:`/play/#${entry.id}`,nameZh:entry.name,nameEn:'',description:'桌边常用表格与原书出处。',tags:['速查','表格'],source:['PHB','DMG'],aliases:[]})),
+    ...quickLinks.map(group=>({type:'游戏中',href:'/play/#common',nameZh:group.title,nameEn:'',description:group.links.map(([name])=>name).join(' '),tags:['桌边速查'],source:['PHB','DMG'],aliases:[]})),
+    ...Object.entries(timingTerms).map(([id,description])=>({type:'战斗',href:`/play/combat/#term-${id}`,nameZh:termLabels[id],nameEn:'',description,tags:['行动先后','先攻','A.D.D.I.C.T.'],source:['A.D.D.I.C.T. 2.2'],aliases:[]})),
     ...playPages.flatMap((page) => [
       { type: '游戏中', href: `/play/${page.slug}/`, nameZh: page.title, nameEn: '', description: page.intro, tags: page.sequence, source: [...new Set(page.sections.flatMap((section) => section.sources.map((source) => source.label.split('：')[0])))], aliases: [] },
       ...page.sections.map((section) => ({ type: '游戏中', href: `/play/${page.slug}/#${section.id}`, nameZh: section.title, nameEn: '', description: section.points.join(' '), tags: [page.title], source: section.sources.map((source) => source.label.split('：')[0]), aliases: [] }))

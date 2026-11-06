@@ -1,0 +1,26 @@
+.reference-nav { display:flex; flex-wrap:wrap; gap:8px 18px; padding:10px 0; border-block:1px solid var(--line); margin:12px 0; }
+.reference-section { scroll-margin-top:16px; margin-top:24px; }
+.reference-section h2 { color:var(--wine); }
+.reference-section .table-wrap { border:1px solid var(--line); margin:10px 0; }
+.reference-section table { width:100%; border-collapse:collapse; font-size:14px; }
+.reference-section :is(th,td) { border:1px solid var(--line); padding:7px 9px; text-align:left; vertical-align:top; }
+.reference-section th { background:color-mix(in srgb,var(--wine) 9%,var(--paper)); }
+.reference-section caption { text-align:left; padding:8px; font-weight:bold; }
+.reference-section details { margin:10px 0; border:1px solid var(--line); padding:9px 12px; }
+.reference-section summary { cursor:pointer; font-weight:bold; }
+.reference-section details .table-wrap { border:0; }
+.reference-section .matrix { min-width:850px; font-size:12px; }
+.reference-section .matrix :is(th,td) { min-width:85px; }
+.reference-section .matrix th:first-child { position:sticky; left:0; background:var(--paper); }
+.reference-section .numeric { min-width:630px; font-variant-numeric:tabular-nums; }
+.reference-section .numeric td { text-align:center; }
+.reference-section .lookup label { min-width:150px; }
+.timing-result { padding:12px; border-left:3px solid var(--wine); background:color-mix(in srgb,var(--wine) 5%,var(--paper)); }
+.session-checklist { padding:0; list-style:none; }
+.session-checklist li { padding:6px 0; border-bottom:1px dotted var(--line); }
+.session-checklist label { display:flex; align-items:baseline; gap:7px; cursor:pointer; }
+.session-checklist input:checked + span { text-decoration:line-through; opacity:.65; }
+.reference-tools { display:flex; gap:14px; flex-wrap:wrap; margin:10px 0; }
+.core-books th { min-width:130px; }
+@media(max-width:600px){.reference-section :is(th,td){padding:6px;font-size:13px}.reference-section .lookup{display:grid}.reference-section .lookup select{width:100%}.home-directory a{white-space:normal}}
+@media print{.reference-nav,.reference-tools,[data-reset],.timing-picker,.site-header,.site-footer{display:none!important}.reference-section .table-wrap{overflow:visible}.reference-section table{font-size:9px}.reference-section .matrix{min-width:0;font-size:8px}.reference-section .matrix :is(th,td){min-width:0;padding:3px}.reference-section .numeric{min-width:0}.reference-section details{break-inside:avoid}.reference-section summary{margin-bottom:6px}body:not(.reader){display:block!important}.page-shell{width:100%!important;max-width:100%!important}}

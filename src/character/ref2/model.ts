@@ -1,4 +1,5 @@
 import {itemSelectionKind} from '../../utils/item-selection';
+import {cardName} from './labels';
 export const CARD_FORMAT = 'adnd1e-ref2-card';
 export type Fields = Record<string, string | boolean>;
 export type Row = { id: string; values: Record<string, string> };
@@ -66,7 +67,7 @@ export function selectInventory(card:Card,ids:string[],kind:'gear'|'magic',catal
  for(const id of selected)if(!existing.has(id)){
   const item=eligible.get(id)!;
   const empty=card.rows.gear.find(row=>Object.values(row.values).every(value=>!value.trim()));
-  const row=empty??blankRow();row.values={...row.values,itemId:id,item:item.nameZh,quantity:'1'};
+  const row=empty??blankRow();row.values={...row.values,itemId:id,item:cardName(item.nameZh),quantity:'1'};
   if(!empty)card.rows.gear.push(row);
  }
 }

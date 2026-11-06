@@ -6,6 +6,7 @@
 import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { basename, dirname, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
+import { normalizeMarkdownTables } from './markdown-tables';
 
 const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'dl-atlas', 'ilh', 'fr', 'gha', 'gh-folio'] as const;
 type BookId = typeof bookIds[number];
@@ -60,10 +61,13 @@ const legacyRoot = resolve('../build/chm/content');
 // CommonMark does not close **strong** before some Chinese punctuation when
 // another CJK character follows immediately. Preserve the author's intended
 // emphasis explicitly instead of showing literal asterisks on the site.
-const fixEmphasis = (value: string) => value.replace(/\*\*([^*|\n]+)\*\*/g, (match, content: string, offset: number) => {
+const fixEmphasis = (input: string) => {
+ const value=normalizeMarkdownTables(input);
+ return value.replace(/\*\*([^*|\n]+)\*\*/g, (match, content: string, offset: number) => {
   if (value[offset - 1] === '\\' || /^\s|\s$/.test(content) || /[<>]/.test(content)) return match;
   return `<strong>${content}</strong>`;
-});
+ });
+};
 
 const manifests = new Map<BookId, { title: string; title_en: string; topics: Topic[] }>();
 const slugByFile = new Map<string, string>();

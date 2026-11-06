@@ -102,6 +102,17 @@ for cid,entry in classes.items():
  ds=[]
  for d in entry['details']:
   body=d['html'];title=d['title']
+  if d['source']['book'] in ['WSG','DSG'] and '熟练项' in title:
+   # OA's barbarian is a different career; the western class row is not its rule.
+   if cid.startswith('oa-'):continue
+   labels={'ranger':['巡林客','游侠'],'thief-acrobat':['盗贼中的杂技师','盗贼（杂技士）'],'barbarian':['野蛮人']}
+   names=labels.get(cid,[])
+   projected=tables(body,row=lambda text:text in names)
+   if not projected:continue
+   d['title']=d['source']['book']+' · 本职业熟练项（可选）'
+   d['html']='<p>仅在战役采用本书非武器熟练项规则时使用。下表只列本职业；完整技能目录、检定与学习规则见出处。</p>'+projected
+   d['html']+='<p>斜线左／右分别为武器／非武器栏位。新增频率从第 1 级起计；武器栏位可改用于非武器熟练项，反向转换不允许。</p>'
+   ds.append(d);continue
   if title.startswith('可接受职业的特殊限制'):
    if cid in ['cleric','druid']:
     body=paragraphs(body,lambda text:text.startswith(('牧师与德鲁伊：','只有找到')))

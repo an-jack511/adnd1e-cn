@@ -1,38 +1,28 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { books } from '../data/public/books';
-import { spells } from '../data/public/spells';
-import { monsters } from '../data/public/monsters';
-import { items } from '../data/public/items';
-import published from '../data/published/books.json';
+import '../styles/table-reference.css';
 ---
-<BaseLayout>
-  <h1>AD&amp;D 第一版规则索引</h1>
-  <form class="home-search" action="/reference/" method="get">
-    <label for="home-search">原书查表</label>
-    <input id="home-search" name="q" type="search" size="34" placeholder="表名、列名或表内文字" />
-    <button type="submit">搜索</button>
-  </form>
-
-  <p><a href="/books/">规则书目录</a> · <a href="/reference/?kind=章节">按章节检索</a> · <a href="/search/">全站搜索</a></p>
-  <h2>游戏中</h2>
-  <table class="home-directory"><tbody>
-    <tr><th scope="row"><a href="/play/character-creation/">创建角色</a></th><td>属性 → 种族与职业 → 装备 → 人物卡</td></tr>
-    <tr><th scope="row"><a href="/play/travel/">旅行与探索</a></th><td>负重、时间、移动、光照与搜索</td></tr>
-    <tr><th scope="row"><a href="/play/encounter/">遭遇</a></th><td>突袭、距离、反应；交涉、逃跑或战斗</td></tr>
-    <tr><th scope="row"><a href="/play/combat/">战斗</a></th><td><a href="/play/combat/#sequence">战斗流程</a> · <a href="/play/combat/#initiative">先攻</a> · <a href="/play/combat/#spell-combat">施法</a> · <a href="/play/combat/#damage">伤害</a></td></tr>
-    <tr><th scope="row"><a href="/play/magic/">施法与魔法</a></th><td>准备、成分、施法时间与中断</td></tr>
-    <tr><th scope="row"><a href="/play/downtime/">城镇与休整</a></th><td>购买、雇员、治疗与补给</td></tr>
-    <tr><th scope="row"><a href="/play/advancement/">成长与升级</a></th><td>经验值、等级表与职业变化</td></tr>
-  </tbody></table>
-
-  <h2>查资料</h2>
-  <p><a href="/spells/">法术</a>（{spells.length}） · <a href="/monsters/">怪物</a>（{monsters.length}） · <a href="/equipment/">装备</a> · <a href="/equipment/magic-items/">魔法物品</a> · <a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/rules/">全部规则</a></p>
-
-  <h2>工具</h2>
-  <p><a href="/character/">快速车卡</a> · <a href="/dm/">主持游戏</a> · <a href="/tables/">随机表</a></p>
-
-  <h2>规则书</h2>
-  <p class="book-shortcuts">{books.filter((book) => published.some((topic) => topic.book === book.id)).map((book, index) => <span>{index > 0 && ' | '}<a href={`/books/${book.id}/`}>{book.short}</a>（{published.filter((topic) => topic.book === book.id).length} 篇）</span>)}</p>
-
+<BaseLayout description="AD&D 第一版中文 wiki：核心三本书、人物卡、战斗指南与桌边速查。">
+<h1>AD&amp;D 第一版中文 wiki</h1>
+<p class="lede">为阅读、备团和跑团现场整理的中文规则参考站。可以按原书阅读，也可以从法术、怪物、装备和桌边表格直接找到当前需要的内容。</p>
+<form class="home-search" action="/reference/" method="get"><label for="home-search">原书查表</label><input id="home-search" name="q" type="search" placeholder="表名、列名或表内文字" /><button type="submit">搜索</button></form>
+<p><a href="/search/">全站搜索</a> · <a href="/reference/">表格检索</a> · <a href="/books/">全部规则书</a></p>
+<section class="reference-section" aria-labelledby="at-table"><h2 id="at-table">开始游戏</h2><table class="home-directory"><tbody>
+<tr><th scope="row"><a href="/play/">游戏中</a></th><td>桌边速查：<a href="/play/#checklist">快速检查单</a> · <a href="/play/#concepts">重要概念</a> · <a href="/play/#attack-matrices">攻击矩阵</a> · <a href="/play/#saving-throws">豁免表</a></td></tr>
+<tr><th scope="row"><a href="/play/combat/">战斗</a></th><td>A.D.D.I.C.T. 网页改编：<a href="/play/combat/#sequence">流程</a> · <a href="/play/combat/#action-matrix">行动先后对照</a> · <a href="/play/combat/#spell-combat">施法时序</a> · <a href="/play/combat/#checklist">逐轮检查</a></td></tr>
+<tr><th scope="row"><a href="/character/">人物卡</a></th><td>创建与记录人物、装备和准备法术；支持浏览器保存、JSON 备份与打印。<a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></td></tr>
+<tr><th scope="row"><a href="/play/character-creation/">创建角色</a></th><td>属性 → 种族与职业 → 装备 → 能力与法术。</td></tr>
+</tbody></table></section>
+<section class="reference-section" aria-labelledby="core-books"><h2 id="core-books">核心三本书</h2><p>从玩家人物、主持裁定和遭遇生物三个方向进入第一版的核心内容。</p><table class="home-directory core-books"><tbody>
+<tr><th scope="row"><a href="/books/phb/">PHB · 玩家手册</a></th><td>人物属性、种族、职业、装备、法术与玩家行动。<br /><a href="/books/phb/group-04/">人物属性</a> · <a href="/races/">种族</a> · <a href="/classes/">职业</a> · <a href="/equipment/">装备</a> · <a href="/spells/">法术</a></td></tr>
+<tr><th scope="row"><a href="/books/dmg/">DMG · 地下城主指南</a></th><td>遭遇与战斗裁定、攻击和豁免矩阵、经验、财宝及地下城工具。<br /><a href="/books/dmg/dmg-combat/">战斗原文</a> · <a href="/play/#attack-matrices">攻击矩阵</a> · <a href="/tables/">随机表</a> · <a href="/equipment/magic-items/">魔法物品</a></td></tr>
+<tr><th scope="row"><a href="/books/mm/">MM · 怪物图鉴</a></th><td>怪物数值、特殊攻击与防御、习性和遭遇资料。<br /><a href="/books/mm/">按原书阅读</a> · <a href="/monsters/">怪物条目检索</a></td></tr>
+</tbody></table><p><a href="/books/">查看扩展规则、世界设定及其他资料 →</a> 各条目按其来源书区分，扩展规则是否采用由本团决定。</p></section>
+<section class="reference-section"><h2>按当前需要查资料</h2><table class="home-directory"><tbody>
+<tr><th scope="row">人物与装备</th><td><a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/equipment/">普通装备与武器</a> · <a href="/equipment/magic-items/">魔法物品</a></td></tr>
+<tr><th scope="row">法术与怪物</th><td><a href="/spells/">法术</a> · <a href="/monsters/">怪物</a> · <a href="/psionics/">灵能</a></td></tr>
+<tr><th scope="row">冒险与休整</th><td><a href="/play/travel/">旅行与探索</a> · <a href="/play/encounter/">遭遇</a> · <a href="/play/magic/">施法</a> · <a href="/play/downtime/">城镇与休整</a> · <a href="/play/advancement/">升级</a></td></tr>
+</tbody></table></section>
+<section id="content-notice" class="reference-section"><h2>内容与 AI 翻译声明</h2><p>本站整理 AD&amp;D 第一版的中文工作译稿、结构化条目、表格和规则导读。原书正文、本站归纳与外部文章改编按出处区分；导读和速查表服务于查阅，具体规则仍应结合原书上下文。</p><p>译文及部分整理工作使用 AI 辅助，内容仍在持续校订。专有名词、数值、表格对应、条件与例外可能存在错漏；本站不保证译文完全准确。发现疑义时请对照所标注的原书与页码，跑团时由本团统一裁定。</p><p>人物卡提供计算与记录辅助，特殊能力、扩展规则和手动裁定仍需核对。人物数据保存在当前浏览器，建议定期导出备份。</p></section>
+<section id="copyright" class="reference-section"><h2>版权与来源声明</h2><p>AD&amp;D、Dungeons &amp; Dragons 及相关名称、规则书原文、设定与图像的商标及著作权归各自权利人所有。本站为中文学习、资料整理与游戏参考项目，非官方出版物，与原作权利人无隶属或背书关系。</p><p>本站标注来源不表示对原作享有权利，也不构成转载授权；阅读本站不授予对原书、译文或图片的再发布许可。请尊重各内容的权利与使用条件，并在条件允许时使用正版资料。具体作品及外部改编的作者和出处见相应页面。</p><p>战斗页依据 David M. Prata 的 A.D.D.I.C.T. 2.2 改编，<a href="/play/combat/#sources">完整署名、版本与改编范围见此</a>。如需反馈内容错误或权利问题，可通过<a href="https://github.com/an-jack511/adnd1e-cn/issues">项目问题反馈</a>联系维护者。</p></section>
 </BaseLayout>

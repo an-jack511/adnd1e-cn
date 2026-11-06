@@ -17,7 +17,7 @@ export const playPages: PlayPage[] = [
       { id: 'before', title: '出发前', points: ['记下每人携带物和负重档：约 35、70、105 磅分别是 PHB 的常用分界，力量和体积仍须调整。', '把火把、提灯、油、口粮、水、坐骑与携带财宝的余量列在行军记录中。'], links: [link('装备', '/equipment/'), link('负重', '/adventure/encumbrance/')], sources: [phb('encumbrance', '负重'), phb('money-equipment-and-arms', '装备')] },
       { id: 'time', title: '时间与移动', points: ['一回合为 10 分钟；战斗的一轮为 1 分钟，一轮分为 10 段。不要把探索回合与战斗轮混作同一单位。', '地下城与户外的英寸距离换算不同；按地形、负重、坐骑及具体行动重新核对速度。'], links: [link('PHB 移动规则', '/books/phb/movement-time-distance/')], sources: [phb('movement-time-distance', '移动、时间与距离')] },
       { id: 'actions', title: '探索动作', points: ['声明是谨慎搜索、聆听、开门还是继续前进；这些行动可能消耗时间并产生噪声。', '可见距离受光源、遮蔽物和红外／紫外视觉限制；秘密门与陷阱要按对应能力裁定。'], links: [link('光照', '/adventure/light/'), link('陷阱', '/adventure/traps/')], sources: [phb('light', '光照'), phb('traps', '陷阱')] },
-      { id: 'risk', title: '遭遇与休息', points: ['在应检查遭遇的时点掷对应环境表；掷出怪物后仍须确定距离、突袭和反应。', '休息时记录守夜、照明与补给；生命值自然恢复和法术准备依各自规则处理。'], links: [link('遭遇流程', '/play/encounter/'), link('DM 随机遭遇', '/dm/'), link('治疗', '/combat/healing/')], sources: [dmg('dmg-appendix-c-random-monster-encounters', '随机遭遇'), phb('healing', '治疗')] }
+      { id: 'risk', title: '遭遇与休息', points: ['在应检查遭遇的时点掷对应环境表；掷出怪物后仍须确定距离、突袭和反应。', '休息时记录守夜、照明与补给；生命值自然恢复和法术准备依各自规则处理。'], links: [link('遭遇流程', '/play/encounter/'), link('随机遭遇表', '/tables/#encounter'), link('治疗', '/combat/healing/')], sources: [dmg('dmg-appendix-c-random-monster-encounters', '随机遭遇'), phb('healing', '治疗')] }
     ] },
   { slug: 'encounter', title: '遭遇', intro: '遭遇是探索转向交涉、追逐或战斗的分岔点，不等于自动开战。',
     sequence: ['确定双方是否察觉彼此与突袭情况', '确定遭遇距离及可见范围', '判断意图，必要时掷反应', '选择交涉、避让、逃跑或进入战斗'], sections: [
@@ -25,7 +25,7 @@ export const playPages: PlayPage[] = [
       { id: 'distance', title: '距离与视觉', points: ['DMG 通常以 1d6+4 寸确定未知遭遇距离，再按视线、噪声、空间和突袭修正。', '光源、红外或紫外视觉只能在有效范围内帮助发现对方。'], links: [link('光照与视觉', '/adventure/light/')], sources: [dmg('dmg-combat', '遭遇距离'), phb('light', '光照')] },
       { id: 'reaction', title: '交涉或升级', points: ['尚未确定敌意时，按怪物态度、语言、魅力及 DMG 反应程序裁定；玩家可谈判、贿赂或退避。', '发生逃跑时进入追逐；双方选择攻击时进入战斗流程，并逐轮处理士气与撤退。'], links: [link('战斗流程', '/play/combat/'), link('追逐', '/adventure/pursuit/'), link('随机遭遇表', '/tables/')], sources: [phb('negotiation', '谈判'), dmg('dmg-combat', '遭遇与战斗')] }
     ] },
-  { slug: 'combat', title: '战斗', intro: '从突袭、距离和先攻开始，按每轮声明、行动与结算；下列条目是 PHB 与 DMG 的桌边合并速查。',
+  { slug: 'combat', title: '战斗', intro: '依 David M. Prata 的 A.D.D.I.C.T. 2.2 改编，按流程、行动对照、施法时序与逐轮检查查阅；核心规则和扩展分别注明。',
     sequence: ['确定突袭与距离', '声明行动，双方各掷 1d6 判先攻', '依先后处理移动、攻击、施法、魔法物品与驱散', '核对攻击矩阵／豁免，结算伤害', '检查士气、撤退和下一轮'], sections: [
       { id: 'sequence', title: '每轮流程', points: ['DMG 先处理突袭和距离；无突袭或突袭结束后，双方每轮各掷 1d6，通常高者先行动。', '先攻方可避战、交涉、等待、投射／施法／驱散、接近／冲锋、架武器迎击、近战或擒抱；再结算另一方行动。'], links: [link('遭遇流程', '/play/encounter/')], sources: [dmg('dmg-combat', '遭遇、战斗与先攻'), phb('combat-procedures', '战斗流程')] },
       { id: 'surprise', title: '突袭', points: ['通常 1d6 掷出 1—2 即被突袭；每点未抵消的突袭差造成 1 段不能行动。', '突袭段内可逃跑、接近或攻击；法术仍需完整施法时间。噪声、光亮和事先察觉可取消突袭机会。'], links: [link('遭遇距离', '/play/encounter/#distance')], sources: [phb('surprise', '突袭'), dmg('dmg-combat', '突袭')] },

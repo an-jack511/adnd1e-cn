@@ -10,7 +10,8 @@ export function weaponMode(item:Item,requested?:string):WeaponMode {
 export function fillWeapon(row:Row,item:Item,requested?:string){
  const mode=weaponMode(item,requested),combat=item.weaponCombat?.[mode],hand=mode==='handHeld'?item.weaponCombat?.handHeld:undefined,missile=mode==='missile'?item.weaponCombat?.missile:undefined;
  const length=hand?.length??item.length??'',space=hand?.spaceRequired??item.spaceRequired??'',speed=hand?.speedFactor??(mode==='handHeld'?item.speedFactor:'')??'';
- const notes=missile?`短 ${missile.range.short}／中 ${missile.range.medium}／远 ${missile.range.long}`:[speed&&`速度 ${speed}`,length&&`长 ${length}`,space&&`空间 ${space}`].filter(Boolean).join('；');
+ const compact=(text:string)=>text.replace(/c\.\s*/gi,'约').replace(/\s*ft\.?/gi,'尺').replace(/\s*in\.?/gi,'寸').replace(/\s+/g,'');
+ const notes=missile?`短${missile.range.short}／中${missile.range.medium}／远${missile.range.long}`:[speed&&`速${speed}`,length&&`长${compact(length)}`,space&&`宽${compact(space)}`].filter(Boolean).join('；');
  Object.assign(row.values,{name:item.id,mode,sm:item.damageSmallMedium??'',large:item.damageLarge??'',length,space,speed,attacks:missile?.fireRate??'',notes,weaponDataSource:item.id});
  for(let ac=0;ac<=10;ac++)row.values[`ac_${ac}`]=combat?.armorClassAdjustments[ac]??'';
 }

@@ -42,3 +42,4 @@ const ids = result.map((entry) => entry.id);
 if (new Set(ids).size !== ids.length) throw new Error('Duplicate UA spell id');
 writeFileSync(resolve('src/data/public/ua-spells-imported.json'), `${JSON.stringify(result, null, 2)}\n`);
 console.log(`Imported ${result.length} UA spell entries.`);
+await import('./spell-rules');
