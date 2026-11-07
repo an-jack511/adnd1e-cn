@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import LibraryBrowser from '../../../components/LibraryBrowser.astro';
+import {items} from '../../../data/public/items';
+---
+<BaseLayout title="人物物品资料库"><h1>人物物品资料库</h1><p>普通与魔法物品统一选取；带回后可在人物卡中继续键入修改。</p><LibraryBrowser entries={items} kind="equipment" /></BaseLayout>

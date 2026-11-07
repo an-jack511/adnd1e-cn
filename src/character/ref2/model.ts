@@ -13,7 +13,7 @@ const object = (value: unknown): value is Record<string, unknown> => !!value && 
 const integer = (value: unknown, fallback: number) => Math.max(0, Math.min(9999, Number.isFinite(Number(value)) ? Math.floor(Number(value)) : fallback));
 export const blankRow = (): Row => ({ id: crypto.randomUUID(), values: {} });
 export function blankCard(): Card {
-  return { format: CARD_FORMAT, version: 1, fields: { level: '1', manual_spell_slots:false }, rows: Object.fromEntries(collectionNames.map(key => [key, Array.from({length: initialRows[key]}, blankRow)])) as Card['rows'], preparedSpells: [] };
+  return { format: CARD_FORMAT, version: 1, fields: { level: '1', manual_spell_slots:false,manual_saves:false }, rows: Object.fromEntries(collectionNames.map(key => [key, Array.from({length: initialRows[key]}, blankRow)])) as Card['rows'], preparedSpells: [] };
 }
 export function normalizeCard(value: unknown): Card {
   if (!object(value)) throw new Error('文件内容不是人物卡。');
@@ -27,6 +27,7 @@ export function normalizeCard(value: unknown): Card {
   if (current) Object.assign(card, value);
   card.fields = Object.fromEntries(Object.entries(fields).filter(([,entry]) => typeof entry === 'string' || typeof entry === 'number' || typeof entry === 'boolean').map(([key,entry]) => [key,typeof entry === 'boolean' ? entry : String(entry)]));
   if (!('manual_spell_slots' in card.fields) && Object.entries(card.fields).some(([key,entry])=>/^spell_slots_\d$/.test(key) && String(entry).trim()!=='')) card.fields.manual_spell_slots=true;
+  if (!('manual_saves' in card.fields) && Object.entries(card.fields).some(([key,entry])=>/^save_\d$/.test(key) && String(entry).trim()!=='')) card.fields.manual_saves=true;
   card.rows = {} as Card['rows'];
   for (const key of collectionNames) {
     if (current) {

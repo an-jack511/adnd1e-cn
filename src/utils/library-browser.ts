@@ -7,9 +7,9 @@ export function initLibraryBrowser(){
  const rows=[...root.querySelectorAll<HTMLTableRowElement>('tr[data-library-id]')].map(row=>({row,record:JSON.parse(row.dataset.record!)}));
  const params=new URLSearchParams(location.search),picker=params.get('mode')==='select'&&window.parent!==window;
  const requestedKind=params.get('use');
- const selectionKind=picker&&['gear','weapons','magic'].includes(requestedKind??'')?requestedKind:null;
+ const selectionKind=picker&&['gear','weapons','magic','ammunition','armor','shield'].includes(requestedKind??'')?requestedKind:null;
  if(selectionKind)for(const link of document.querySelectorAll<HTMLAnchorElement>('a[href="/equipment/"],a[href="/equipment/magic-items/"]'))link.hidden=true;
- const eligibleIds=new Set(rows.filter(({record})=>!selectionKind||record.selectionKind===selectionKind).map(({row})=>row.dataset.libraryId!));
+ const eligibleIds=new Set(rows.filter(({record})=>!selectionKind||(record.selectionUses??[record.selectionKind]).includes(selectionKind)).map(({row})=>row.dataset.libraryId!));
  let selected=new Set<string>();
  const inputs=[...root.querySelectorAll<HTMLInputElement>('.filter-grid input')];
  const groups=['category','type','source'];
@@ -40,7 +40,7 @@ export function initLibraryBrowser(){
  if(picker){
   document.documentElement.classList.add('library-picker-mode');root.querySelectorAll<HTMLElement>('.library-check,.library-selection').forEach(el=>el.hidden=false);
   const count=()=>{root.querySelector('#library-selected-count')!.textContent=`已选 ${selected.size} 件`;root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>input.checked=selected.has(input.value));};
-  root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>{input.disabled=!eligibleIds.has(input.value);input.addEventListener('change',()=>{input.checked&&eligibleIds.has(input.value)?selected.add(input.value):selected.delete(input.value);count();});});
+  root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>{input.disabled=!eligibleIds.has(input.value);input.addEventListener('change',()=>{if(input.checked&&['armor','shield'].includes(selectionKind??''))selected.clear();input.checked&&eligibleIds.has(input.value)?selected.add(input.value):selected.delete(input.value);count();});});
   root.querySelector('[data-library-apply]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-items-selected',ids:[...selected]},location.origin));
   root.querySelector('[data-library-cancel]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-item-picker-cancel'},location.origin));
   window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-item-selection'||!Array.isArray(event.data.ids)||!event.data.ids.every((id:unknown)=>typeof id==='string'))return;selected=new Set(event.data.ids.filter((id:string)=>eligibleIds.has(id)));count();});

@@ -17,7 +17,7 @@ export function checkEligibility(input: EligibilityInput, classes: ClassEntry[],
   const race = races.find((entry) => entry.id === input.raceId);
   if (!chosenClass) return [];
   const issues: RuleIssue[] = [];
-  if (race && !chosenClass.eligibleRaces.includes(race.id)) issues.push({ code: 'race-class', message: `${race.nameZh}不能以玩家角色身份选择${chosenClass.nameZh}`, source: 'PHB 种族表 I' });
+  if (race && !chosenClass.eligibleRaces.includes(race.id) && !race.eligibleClasses.some(entry=>entry.id===chosenClass.id) && !race.referenceOnly && !chosenClass.referenceOnly) issues.push({ code: 'race-class', message: `${race.nameZh}不能以玩家角色身份选择${chosenClass.nameZh}`, source: '种族与职业资格表' });
   for (const [ability, minimum] of Object.entries(chosenClass.minimumAbilities)) {
     const actual = abilityNumber(input.abilities[ability as Ability]);
     if (Number.isFinite(actual) && actual < minimum) issues.push({ code: `ability-${ability}`, message: `${chosenClass.nameZh}要求 ${ability} ≥ ${minimum}；当前为 ${actual}`, source: `PHB ${chosenClass.nameEn}` });
@@ -26,16 +26,20 @@ export function checkEligibility(input: EligibilityInput, classes: ClassEntry[],
   return issues;
 }
 
-const armorBase: Record<string, number> = { '皮甲': 8, '衬甲': 8, '镶钉皮甲': 7, '环甲': 7, '鳞甲': 6, '链甲': 5, '板条甲': 4, '带甲': 4, '板甲': 3 };
+const armorBase: Record<string, number> = { '皮甲': 8, '衬甲': 8, '布甲':8, '镶钉皮甲': 7, '环甲': 7, '鳞甲': 6, '链甲': 5, '板条甲': 4, '带甲': 4, '板甲': 3 };
 const dexRows = abilityTables.DEX.rows;
 export function computeArmorClass(armor: Item | undefined, shield: Item | undefined, dexterity: string, manualModifier = 0): RuleResult<number> {
-  const base = armor ? armorBase[armor.nameZh] : 10;
+  const plainName=armor?.nameZh.replace(/^[+]\d+\s*/, '');
+  const enchantment=(item:Item|undefined)=>item?.category==='魔法物品'&&/^\+\d+\s/.test(item.nameZh)?Number(item.nameZh.match(/^\+(\d+)/)![1]):0;
+  const printedAC=armor?.acAdjustment?.match(/AC\s*(-?\d+)/i);
+  const base = armor ? printedAC?Number(printedAC[1]):armorBase[plainName!] : 10;
   const safeBase = base ?? 10;
   const dex = Number(dexterity);
-  const dexRow = dexRows.find((row) => Number(row[0]) === dex);
+  const dexRow = dexRows.find((row) => {const bounds=row[0].split(/[–-]/).map(Number);return dex>=bounds[0]&&dex<=(bounds[1]??bounds[0]);});
   const dexModifier = dexRow ? Number(dexRow[2]) : 0;
   const components = [{ label: armor ? armor.nameZh : '无甲', value: safeBase, source: 'PHB 护甲等级表' }];
-  if (shield) components.push({ label: shield.nameZh, value: -1, source: 'PHB 盾牌：正面且有效时' });
+  if(enchantment(armor))components.push({label:'魔法护甲',value:-enchantment(armor),source:'DMG 魔法护甲'});
+  if (shield) components.push({ label: shield.nameZh, value: -1-enchantment(shield), source: 'PHB／DMG 盾牌：正面且有效时' });
   if (dexRow && dexModifier) components.push({ label: `DEX ${dex}`, value: dexModifier, source: 'PHB 敏捷表 I' });
   if (manualModifier) components.push({ label: 'DM 手动调整', value: manualModifier, source: 'DM 裁定' });
   return { value: components.reduce((sum, part, index) => index ? sum + part.value : part.value, 0), components,
@@ -43,9 +47,9 @@ export function computeArmorClass(armor: Item | undefined, shield: Item | undefi
 }
 
 export function weightPounds(item: Item): number | undefined {
-  const lb = item.weight.match(/^([\d.]+) 磅/);
+  const lb = item.weight.match(/^([\d.]+)\s*(?:磅|lbs?\.?)/i);
   if (lb) return Number(lb[1]);
-  const gp = item.weight.match(/^([\d.]+) 金币重量/);
+  const gp = item.weight.match(/^([\d.]+)\s*(?:金币重量|gp\s*重量)/i);
   return gp ? Number(gp[1]) / 10 : undefined;
 }
 export function computeEncumbrance(entries: { item: Item; quantity: number }[]): RuleResult<number> & { unknown: string[]; movement: string } {
@@ -73,7 +77,7 @@ export function computeMovement(input: MovementInput): MovementResult {
   let tier = weight <= limits[0] ? 0 : weight <= limits[1] ? 1 : weight <= limits[2] ? 2 : 3;
   if (input.bulky) tier = Math.min(3, tier + 1);
   const base = Math.max(0, input.base || 0);
-  const loaded = Math.min(base, [12, 9, 6, 3][tier]);
+  const loaded = tier===0 ? base : Math.min(base, [12, 9, 6, 3][tier]);
   const adjusted = loaded * (input.difficultTerrain ? 0.5 : 1) + (input.otherAdjustment || 0);
   const effective = Math.max(0, Math.round(adjusted * 10) / 10);
   const run = ['可快速奔跑', '只能笨拙地奔跑', '可短距离小跑', '无法小跑'][tier];

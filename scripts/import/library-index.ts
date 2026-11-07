@@ -5,3 +5,7 @@ writeFileSync('src/data/public/item-index.json',JSON.stringify(items.map(({detai
 console.log(`Wrote ${items.length} lightweight equipment records.`);
 writeFileSync('src/data/public/spell-index.json',JSON.stringify(spells.map(({details,description,...spell})=>spell))+'\n');
 console.log(`Wrote ${spells.length} lightweight spell records.`);
+
+import {classes} from '../../src/data/public/classes';
+import {races} from '../../src/data/public/races';
+writeFileSync('src/data/public/character-options.json',JSON.stringify({classes:classes.map(({details,...entry})=>entry),races:races.map(({details,...entry})=>entry)})+'\n');

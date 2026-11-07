@@ -471,3 +471,42 @@
 #identity-library h2{margin:0;font:18px var(--display)}
 #identity-library iframe{display:block;width:100%;height:calc(100% - 52px);border:0}
 @media print{.identity-library-actions{display:none!important}}
+
+#reference-library{width:min(1180px,96vw);height:90vh;max-height:95vh;padding:0;border:1px solid var(--line);background:var(--paper)}
+#reference-library::backdrop{background:#11221988}
+#reference-library>header{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;background:var(--surface)}
+#reference-library iframe{display:block;width:100%;height:calc(100% - 60px);border:0}
+#reference-library h2{margin:0;font-size:18px}
+.repeater-weapons .ref2-table{min-width:950px}
+#save-breakdown{font-size:10px;line-height:1.4}
+
+.strength-score{border:2px solid var(--ref2-rule);border-bottom:0;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.strength-score>input{width:100%;padding:0;text-align:center;font:22px "Book Antiqua",var(--type);border:0;min-height:0}
+.strength-score .exceptional{margin:0;justify-content:center;line-height:1}
+.strength-score .exceptional[hidden]{display:none}
+.strength-score .exceptional input{width:100%;min-height:0;padding:0;text-align:center;border:0;font:11px "Book Antiqua",var(--type);line-height:1.1}
+@media print{
+ .strength-score>input{font-size:14pt!important}
+ .strength-score .exceptional{margin:0}
+ .strength-score .exceptional input{font-size:7pt!important}
+ #ref2-print-output .ref2-table{min-width:0!important;width:100%;table-layout:fixed}
+ #ref2-print-output :is(td,th,.ref2-field,.ability-derived,output){overflow-wrap:anywhere;white-space:normal;min-width:0;max-height:none;overflow:visible}
+ #ref2-print-output .print-value{white-space:pre-wrap!important;overflow-wrap:anywhere!important;word-break:normal;overflow:visible!important;text-overflow:clip;height:auto!important;max-height:none!important;min-width:0!important;box-sizing:border-box;line-height:1.25!important}
+ #ref2-print-output td>.print-value{display:block!important;width:100%!important}
+ #ref2-print-output .strength-score .print-value{width:100%!important;text-align:center}
+ #ref2-print-output .ref2-table tr{break-inside:avoid}
+}
+
+@media print{
+ #ref2-print-output .print-blank-spells{margin:3mm 0;border-collapse:collapse}
+ #ref2-print-output .print-blank-spells td{height:9mm;border:1px solid var(--ref2-rule)}
+ #ref2-print-output .print-blank-spells th:first-child{width:10%}
+ #ref2-print-output .print-blank-spells th:last-child{width:24%}
+ #ref2-print-output .print-blank-spells td:last-child{text-align:center;font-size:9pt}
+}
+
+.print-preview-close{position:fixed;top:12px;right:20px;z-index:9999;padding:10px 18px;background:var(--paper,#fff);border:2px solid #333}
+@media print{.print-preview-close{display:none!important}}
+
+@media screen{#ref2-print-output>.print-preview-close{display:block!important}}
+@media print{#ref2-print-output .checkline{display:none!important}}

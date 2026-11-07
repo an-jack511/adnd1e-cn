@@ -6,11 +6,12 @@ const {name,title,english,columns,note,noteLabel,tone='plain',compact=false,lane
 ---
 <section class:list={['ref2-repeater',`repeater-${name}`,{compact}]} data-repeater={name}>
   <h3 class:list={['ref2-band',tone]}>{title}{english&&<small>{english}</small>}</h3>
+  <div class="row-tools">{name==='weapons'&&<><button type="button" data-open-item-library="weapons">＋ 从资料库选取武器</button><button class="toggle-ac" type="button" data-toggle-ac aria-expanded="false">显示对 AC 调整</button></>}{['gear','ammunition'].includes(name)&&<button type="button" data-open-item-library={name}>＋ 从资料库选取</button>}{['unarmed','proficiencies','valuables'].includes(name)&&<button type="button" data-open-reference={name}>＋ 从资料库选取</button>}<button type="button" data-add-row>＋ 添加{title.split('／')[0]}</button></div>
   <div class="ref2-table-wrap"><table class="ref2-table" data-row-table data-lanes={lanes}>
     <thead>{Array.from({length:lanes},()=> <tr>{columns.map(column=><th scope="col" class={column.class}>{column.label}</th>)}<th class="row-actions"><span class="visually-hidden">操作</span></th></tr>)}</thead>
     {Array.from({length:initialRows[name]},()=> <Ref2Row columns={columns} note={note} noteLabel={noteLabel} />)}
   </table></div>
   <template data-row-template><table><Ref2Row columns={columns} note={note} noteLabel={noteLabel} /></table></template>
-  {name==='weapons'&&<p class="weapon-table-hint">AC 10–0 各栏记录武器的命中调整；THAC0、个人命中与伤害加值分别填写。</p>}
-  <div class="row-tools">{name==='weapons'&&<><button type="button" data-open-item-library="weapons">＋ 从资料库选取武器</button><button class="toggle-ac" type="button" data-toggle-ac aria-expanded="false">显示对 AC 调整</button></>}<button type="button" data-add-row>＋ 添加{title.split('／')[0]}</button></div>
+  {name==='weapons'&&<p class="weapon-table-hint">AC 10–0 各栏记录武器的命中调整；THAC0、属性与魔法加值自动填写，可直接改写；AC 各栏仍为武器对护甲调整。</p>}
+
 </section>

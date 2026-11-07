@@ -3,15 +3,23 @@ import {cardName} from './labels';
 import {currentItemLabel,findNamedEntry} from '../../utils/terminology';
 import {installCardPrinting} from './printing';
 import abilityTables from '../../data/public/ability-tables.json';
-import { classes } from '../../data/public/classes-base';
-import { races } from '../../data/public/races-base';
+import options from '../../data/public/character-options.json';
+import type {ClassEntry,RaceEntry} from '../../schemas';
+const classes=options.classes as ClassEntry[],races=options.races as RaceEntry[];
 import { itemIndex as items } from '../../data/public/item-index';
 import { spells } from '../../data/public/spell-index';
 import { abilityAdjustment } from '../../rules-engine/abilities';
 import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement, type Ability } from '../../rules-engine/character';
 import { blankCard, blankRow, collectionNames, normalizeCard, selectPrepared, selectInventory, type Card, type CollectionName, type Row } from './model';
-import {fillWeapon,selectWeapons} from './weapons';
+import {fillWeapon,selectWeapons,weaponWithBase,enhancement} from './weapons';
 import {updateCardSpellSlots} from './spell-capacity';
+
+import {acceptsItem,type ItemRole} from './item-roles';
+import {automateSaves,combatProfile,generated,strengthScore,abilityBonus} from './automation';
+import {resolveItem,syncEquipped,carriedItems,selectAmmunition} from './inventory';
+import {monkCombat} from './monk';
+import {proficiencyBudget} from './proficiencies';
+import {selectReferences} from './references';
 
 type Control = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
 const form = document.querySelector<HTMLFormElement>('#character-form')!;
@@ -30,22 +38,23 @@ function collect(): Card {
   for (const control of form.querySelectorAll<Control>('[name]')) card.fields[control.name] = control instanceof HTMLInputElement && control.type==='checkbox' ? control.checked : control.value;
   for (const key of collectionNames) {
     const previous=new Map(card.rows[key].map(row=>[row.id,row.values]));
-    const hiddenMagic=key==='gear'?card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)==='magic')):[];
+    const hiddenMagic=key==='gear'?card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)==='magic')&&!row.values.equippedSlot):[];
     card.rows[key] = [...hiddenMagic,...[...repeater(key).querySelectorAll<HTMLElement>('[data-card-row]')].map(row=>({id:row.dataset.rowId!,values:{...previous.get(row.dataset.rowId!),...Object.fromEntries([...row.querySelectorAll<Control>('[data-cell]')].map(control=>[control.dataset.cell!,control.value]))}}))];
-    if(key==='weapons')for(const row of card.rows.weapons){if(row.values.name?.endsWith('::missile')){row.values.name=row.values.name.slice(0,-9);row.values.mode='missile';}}
+    if(key==='ammunition')for(const row of card.rows.ammunition){const item=items.find(i=>i.id===row.values.itemId);if(item&&row.values.name!==cardName(item.nameZh)){delete row.values.itemId;delete row.values.ammoPickerId;}}
+    if(key==='weapons')for(const row of card.rows.weapons){const old=previous.get(row.id)?.name,item=items.find(i=>i.id===old);if(item&&row.values.name===cardName(item.nameZh))row.values.name=item.id;if(row.values.name?.endsWith('::missile')){row.values.name=row.values.name.slice(0,-9);row.values.mode='missile';}}
   }
   return card;
 }
 function renderRows(key:CollectionName) {
   const section=repeater(key), table=section.querySelector<HTMLTableElement>('[data-row-table]')!, template=section.querySelector<HTMLTemplateElement>('[data-row-template]')!;
   table.querySelectorAll('[data-card-row]').forEach(row=>row.remove());
-  card.rows[key].filter(record=>key!=='gear'||!items.some(item=>item.id===record.values.itemId&&itemSelectionKind(item)==='magic')).forEach((record,index)=>{
+  card.rows[key].filter(record=>key!=='gear'||!items.some(item=>item.id===record.values.itemId&&itemSelectionKind(item)==='magic')||!!record.values.equippedSlot).forEach((record,index)=>{
     const row=template.content.querySelector('tbody')!.cloneNode(true) as HTMLTableSectionElement;
     row.dataset.rowId=record.id;
     for (const control of row.querySelectorAll<Control>('[data-cell]')) {
       const keyName=control.dataset.cell!;
       let entry=record.values[keyName] ?? '';
-      if (key==='weapons' && keyName==='name') {const item=findNamedEntry(items,'item',entry);entry=item?.id??entry;if(item?.weaponCombat?.handHeld&&item.weaponCombat?.missile&&record.values.mode==='missile')entry+='::missile';}
+      if (key==='weapons' && keyName==='name') {const item=findNamedEntry(items,'item',entry);entry=item?.id??entry;entry=item?cardName(item.nameZh):entry;}
       if (control instanceof HTMLSelectElement && entry && ![...control.options].some(option=>option.value===entry)) control.add(new Option(entry,entry));
       control.value=entry;
       if(key==='weapons'&&keyName==='notes')control.title=entry;
@@ -53,6 +62,10 @@ function renderRows(key:CollectionName) {
     }
     table.append(row);
   });
+}
+function splitStrength(){
+  const match=strengthScore(value('STR')).match(/^18\/(\d{2})$/);
+  if(match){set('STR','18');set('exceptional_strength',match[1]);}
 }
 function applyCard(next:Card) {
   card=next; form.reset();
@@ -66,10 +79,10 @@ function applyCard(next:Card) {
     if (control instanceof HTMLInputElement && control.type==='checkbox') control.checked=entry===true;
     else if (typeof entry==='string') {
       if (control instanceof HTMLSelectElement && entry && ![...control.options].some(option=>option.value===entry)) control.add(new Option(`${entry}（原记录）`,entry));
-      control.value=entry;
+      if(['armor_item','shield_item'].includes(control.name)){const item=resolveItem(items,entry);if(item){card.fields[control.name+'_id']=item.id;control.value=cardName(item.nameZh);}else control.value=entry;}else control.value=entry;
     }
   }
-  collectionNames.forEach(renderRows); update(); renderPrepared(); dirty=false;
+  splitStrength(); collectionNames.forEach(renderRows); update(); renderPrepared(); dirty=false;
 }
 function update() {
   collect();
@@ -82,9 +95,9 @@ function update() {
   document.querySelector('#spell-capacity-note')!.textContent=checked('manual_spell_slots')?'已手动填写；取消勾选可恢复按职业等级自动计算。':spellCapacity.note;
   form.querySelectorAll<HTMLInputElement>(".row-note input").forEach(input=>input.toggleAttribute("data-filled",!!input.value.trim()));
   const abilities=['STR','INT','WIS','DEX','CON','CHA'] as Ability[];
-  const exceptional=value('STR')==='18' && ['fighter','paladin','ranger','cavalier','barbarian'].includes(value('class'));
+  const exceptional=/^18(?:$|[/(（／])/.test(value('STR'));
   document.querySelector<HTMLElement>('#exceptional-row')!.hidden=!exceptional;
-  const strength=exceptional && value('exceptional_strength') ? `18/${value('exceptional_strength')==='00' ? '00' : value('exceptional_strength').split('–')[0]}` : value('STR');
+  const strength=strengthScore(value('STR'),value('exceptional_strength'));
   for (const ability of abilities) {
     const result=abilityAdjustment(ability,ability==='STR' ? strength : value(ability));
     const target=form.querySelector<HTMLElement>(`[data-derived="${ability}"]`)!;
@@ -97,28 +110,41 @@ function update() {
     if (!entries.length) target.textContent=result.display;
   }
   form.querySelectorAll<HTMLElement>('[data-mirror]').forEach(output=>output.textContent=value(output.dataset.mirror!));
-  const armor=items.find(item=>item.id===value('armor_item')), shield=items.find(item=>item.id===value('shield_item'));
-  const ac=computeArmorClass(armor,shield,value('DEX'),Number(value('ac_modifier'))||0);
+  const armor=selectedArmor('armor_item'),shield=selectedArmor('shield_item');
+  for(const [slot,item] of [['armor_item',armor],['shield_item',shield]] as const)card.fields[slot]=item?.id??value(slot);
+  if(syncEquipped(card,items))renderRows('gear');
+  document.querySelector('#save-breakdown')!.textContent=automateSaves(card.fields);
+  for(let i=0;i<5;i++){set(`save_${i}`,String(card.fields[`save_${i}`]??''));(field(`save_${i}`) as HTMLInputElement).readOnly=false;}
+  document.querySelector('#proficiency-budget')!.textContent=proficiencyBudget(card);
+  for(const key of ['weapon_slots','nonweapon_slots','shared_slots'])set(key,String(card.fields[key]??''));
+  updateCombat(strength);
+  const monk=value('class')==='monk'?monkCombat(Number(value('level'))):null;
+  const dexterity=['monk','oa-kensai'].includes(value('class'))?'':value('DEX');
+  const ac=computeArmorClass(armor,shield,dexterity,Number(value('ac_modifier'))||0);
+  if(monk&&!armor&&!shield){ac.value=monk.ac+(Number(value('ac_modifier'))||0);ac.notes.push('PHB p.31 武僧表 II；不叠加敏捷防御。');}
+  if(value('class')==='barbarian'&&Number(value('DEX'))>14){const dexPart=ac.components.find(p=>p.label.startsWith('DEX'));const old=dexPart?.value??0,next=-(Number(value('DEX'))-14)*(armor&&/链|带|板|鳞/.test(armor.nameZh)?1:2);ac.value+=next-old;ac.notes.push('UA 野蛮人敏捷防御：笨重护甲每点−1，其余每点−2。');}
+  if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(value('DEX'))>0){ac.value=23-Number(value('DEX'))-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整。');}
   (field('ac') as HTMLInputElement).readOnly=!checked('manual_ac');
   if (!checked('manual_ac')) set('ac',ac.value);
+  for(const [key,entry] of [['ac_shieldless',computeArmorClass(armor,undefined,dexterity,Number(value('ac_modifier'))||0).value],['ac_surprised',computeArmorClass(armor,shield,'',Number(value('ac_modifier'))||0).value],['ac_rear',computeArmorClass(armor,undefined,'',Number(value('ac_modifier'))||0).value]] as const){if(!['monk','oa-kensai','barbarian'].includes(value('class'))){generated(card.fields,key,String(entry));set(key,String(card.fields[key]??''));}}
   document.querySelector('#ac-breakdown')!.textContent=ac.components.map(part=>`${part.label} ${part.value}`).join('；')+'。'+ac.notes.join(' ');
   const weaponItems=card.rows.weapons.map(row=>items.find(item=>item.id===row.values.name)).filter(Boolean) as typeof items;
-  const equipped=[armor,shield,...weaponItems].filter(Boolean) as typeof items;
-  const carried=card.rows.gear.map(row=>({item:items.find(item=>item.id===row.values.itemId || item.id===row.values.item || item.nameZh===row.values.item),quantity:row.values.quantity==='' || !row.values.quantity ? 1 : Number(row.values.quantity)}));
-  const encumbrance=computeEncumbrance([...equipped.map(item=>({item,quantity:1})),...carried.filter(entry=>entry.item) as {item:typeof items[number];quantity:number}[]]);
+  const encumbrance=computeEncumbrance(carriedItems(card,items).map(entry=>({...entry,item:weaponWithBase(entry.item,items)})));
   const race=races.find(race=>race.id===value('race'));
+  if(race){for(const [key,text] of [['languages',race.languages],['senses',race.abilities.filter(a=>/视觉|视力/.test(a)).join('；')],['detections',race.detection],['resistances',race.savingThrows],['special_abilities',race.abilities.join('；')]] as const){generated(card.fields,key,text);set(key,String(card.fields[key]??''));}}
   const coins=Math.max(0,Number(value('coins_carried'))||0);
-  const movement=computeMovement({base:value('class')==='barbarian' ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12),weightPounds:encumbrance.value+coins/10,strength,bulky:checked('move_bulky'),difficultTerrain:checked('move_terrain'),otherAdjustment:Number(value('move_adjustment'))||0});
+  const movement=computeMovement({base:monk?.move??(['barbarian','oa-barbarian'].includes(value('class')) ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12)),weightPounds:encumbrance.value+coins/10,strength,bulky:checked('move_bulky'),difficultTerrain:checked('move_terrain'),otherAdjustment:Number(value('move_adjustment'))||0});
   set('move_base',`${movement.base}″`);
   (field('move_loaded') as HTMLInputElement).readOnly=!checked('manual_movement');
   if (!checked('manual_movement')) set('move_loaded',`${movement.effective}″`);
   for (const [key,factor] of Object.entries({hvy:.75,load:.5,max:.25,run_rate:10,normal_rate:5,crawl:.5,hidden:2/3})) set(`move_${key}`,`${Math.round(movement.base*factor*10)/10}″`);
-  document.querySelector('#movement-breakdown')!.textContent=`已知装备 ${encumbrance.value.toFixed(1)} 磅；钱币 ${coins/10} 磅。${movement.notes.join(' ')}`;
+  document.querySelector('#movement-breakdown')!.textContent=`已知装备 ${encumbrance.value.toFixed(1)} 磅；钱币 ${coins/10} 磅。${race&&!/\d/.test(race.movement)?'种族未提供固定地面移动率，当前按12寸暂算，请手动核对。 ':''}${movement.notes.join(' ')}`;
   document.querySelector('#encumbrance-result')!.textContent=`已知负重 ${(encumbrance.value+coins/10).toFixed(1)} 磅${encumbrance.unknown.length ? '；另有未列重量的物品' : ''}。`;
   renderOwnedMagic();
   const classEntry=classes.find(entry=>entry.id===value('class'));
   const issues=[...checkEligibility({raceId:value('race'),classId:value('class'),alignment:value('alignment'),abilities:card.fields as Record<Ability,string>},classes,races),...weaponItems.flatMap((weapon,index)=>checkEquipment(value('class'),weapon,index===0 ? armor : undefined,index===0 ? shield : undefined))];
   const messages=issues.map(issue=>`${issue.message}（${issue.source}）`);
+  if(classEntry?.referenceOnly)messages.push('扩展／NPC 职业请确认战役采用；已核对的矩阵会自动计算，其余保留手填。');
   for (const prepared of card.preparedSpells) {
     const spell=spells.find(spell=>spell.id===prepared.spellId);
     if (spell && classEntry && !spell.classes.includes(classEntry.nameEn) && !['paladin','ranger','bard'].includes(classEntry.id)) messages.push(`${spell.nameZh}不在所选职业法术表中。`);
@@ -160,16 +186,18 @@ for (const key of collectionNames) {
       const row=card.rows.gear.find(row=>row.id===id),item=items.find(item=>item.id===row?.values.itemId);
       if(row&&item&&control.value!==cardName(item.nameZh))delete row.values.itemId;
     }
+    if(key==='weapons'&&['base_weapon','mode'].includes(control.dataset.cell??'')){collect();const row=card.rows.weapons.find(r=>r.id===control.closest<HTMLElement>('[data-card-row]')!.dataset.rowId)!;const item=resolveItem(items,row.values.name);if(item)fillWeapon(row,item,row.values.mode,items);renderRows('weapons');update();modified();return;}
     if (key!=='weapons' || control.dataset.cell!=='name') return;
-    const selection=control.value,missile=selection.endsWith('::missile'),id=missile?selection.slice(0,-9):selection;
+    const selection=control.value,missile=selection.endsWith('::missile'),id=resolveItem(items,missile?selection.slice(0,-9):selection)?.id??selection;
     collect();const row=card.rows.weapons.find(row=>row.id===control.closest<HTMLElement>('[data-card-row]')!.dataset.rowId)!;
     if(row.values.weaponPickerId!==id)delete row.values.weaponPickerId;
     const item=items.find(item=>item.id===id);if (!item){delete row.values.weaponDataSource;return;}
-    fillWeapon(row,item,missile?'missile':undefined);renderRows('weapons');update();modified();
+    fillWeapon(row,item,missile?'missile':undefined,items);renderRows('weapons');update();modified();
   });
 }
 form.addEventListener('input',()=>{update();modified();});
-form.addEventListener('change',()=>{update();modified();});
+form.addEventListener('focusout',event=>{if((event.target as HTMLInputElement).name==='STR'){splitStrength();update();}});
+form.addEventListener('change',event=>{const control=event.target as HTMLInputElement;if(control.name==='STR')splitStrength();if(control.name==='manual_saves'&&!control.checked){for(let i=0;i<5;i++)set(`save_${i}`,String(card.fields[`auto_save_${i}`]??''));}update();modified();});
 form.addEventListener('submit',event=>event.preventDefault());
 
 function showPanel(panel:string) {
@@ -220,12 +248,12 @@ document.querySelector('#restore-spells')!.addEventListener('click',()=>{card.pr
 const library=document.querySelector<HTMLDialogElement>('#spell-library')!,frame=document.querySelector<HTMLIFrameElement>('#spell-library-frame')!;
 const sendSelection=()=>frame.contentWindow?.postMessage({type:'adnd1e-card-selection',ids:card.preparedSpells.map(entry=>entry.spellId)},location.origin);
 document.querySelector('#open-spell-library')!.addEventListener('click',()=>{
-  if (!frame.getAttribute('src')) {
+  {
     const className=classes.find(entry=>entry.id===value('class'))?.nameEn;
     const url=new URL('/spells/',location.origin);url.searchParams.set('mode','prepare');
     const spellClasses:Record<string,string[]>={Ranger:['Druid','Magic-User'],Paladin:['Cleric'],Bard:['Druid']};
     (className ? spellClasses[className] ?? [className] : []).forEach(name=>{if(spells.some(spell=>spell.classes.includes(name)))url.searchParams.append('class',name);});
-    frame.src=url.href;
+    if(frame.src!==url.href)frame.src=url.href;
   }
   library.showModal();sendSelection();
 });
@@ -250,15 +278,16 @@ function renderOwnedMagic(){
  container.replaceChildren(...owned.map(({item,row})=>{const line=document.createElement('div');line.className='owned-magic-row';const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=cardName(item.nameZh);const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);return line;}));
 }
 const itemLibrary=document.querySelector<HTMLDialogElement>('#item-library')!,itemFrame=document.querySelector<HTMLIFrameElement>('#item-library-frame')!;
-let itemKind:'gear'|'magic'|'weapons'='gear';
-function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.filter(row=>items.some(item=>item.id===row.values.name&&itemSelectionKind(item)==='weapons')).map(row=>row.values.name):card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)===itemKind)).map(row=>row.values.itemId);itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids},location.origin);}
-document.querySelectorAll<HTMLButtonElement>('[data-open-item-library]').forEach(button=>button.addEventListener('click',()=>{collect();itemKind=button.dataset.openItemLibrary==='weapons'?'weapons':button.dataset.openItemLibrary==='magic'?'magic':'gear';const label={weapons:'武器',magic:'魔法物品',gear:'普通装备'}[itemKind];itemLibrary.querySelector('h2')!.textContent=`勾选${label}`;itemFrame.title=`勾选${label}`;const path=itemKind==='magic'?'/equipment/magic-items/':'/equipment/';if(itemFrame.dataset.kind!==itemKind){itemFrame.src=path+'?mode=select&use='+itemKind;itemFrame.dataset.kind=itemKind;}itemLibrary.showModal();sendItems();}));
+let itemKind:ItemRole='gear';
+function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.map(r=>r.values.name):itemKind==='ammunition'?card.rows.ammunition.map(r=>r.values.itemId):itemKind==='armor'||itemKind==='shield'?[resolveItem(items,value(itemKind+'_item'))?.id]:card.rows.gear.filter(r=>items.some(i=>i.id===r.values.itemId&&acceptsItem(i,itemKind))).map(r=>r.values.itemId);itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids:ids.filter(Boolean)},location.origin);}
+document.querySelectorAll<HTMLButtonElement>('[data-open-item-library]').forEach(button=>button.addEventListener('click',()=>{collect();itemKind=button.dataset.openItemLibrary as ItemRole;const label={weapons:'武器（含魔法武器）',magic:'魔法物品',gear:'装备',ammunition:'弹药',armor:'护甲',shield:'盾牌'}[itemKind];itemLibrary.querySelector('h2')!.textContent=`选取${label}`;itemFrame.title=`选取${label}`;if(itemFrame.dataset.kind!==itemKind){itemFrame.src='/character/library/items/?mode=select&use='+itemKind;itemFrame.dataset.kind=itemKind;}itemLibrary.showModal();sendItems();}));
+
 document.querySelector('#close-item-library')!.addEventListener('click',()=>itemLibrary.close());
 window.addEventListener('message',event=>{
  if(event.origin!==location.origin||event.source!==itemFrame.contentWindow||!event.data||typeof event.data!=='object')return;
  if(event.data.type==='adnd1e-item-picker-ready')sendItems();
  if(event.data.type==='adnd1e-item-picker-cancel')itemLibrary.close();
- if(event.data.type==='adnd1e-items-selected'&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();if(itemKind==='weapons'){selectWeapons(card,event.data.ids,items);renderRows('weapons');}else{selectInventory(card,event.data.ids,itemKind,items);renderRows('gear');}update();modified();itemLibrary.close();}
+ if(event.data.type==='adnd1e-items-selected'&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();if(itemKind==='weapons'){selectWeapons(card,event.data.ids,items);renderRows('weapons');}else if(itemKind==='ammunition'){selectAmmunition(card,event.data.ids,items);renderRows('ammunition');}else if(itemKind==='armor'||itemKind==='shield'){const item=items.find(i=>event.data.ids.includes(i.id)&&acceptsItem(i,itemKind));card.fields[itemKind+'_item_id']=item?.id??'';set(itemKind+'_item',item?cardName(item.nameZh):'');}else{selectInventory(card,event.data.ids,itemKind,items);renderRows('gear');}update();modified();itemLibrary.close();}
 });
 
 const identityLibrary=document.querySelector<HTMLDialogElement>('#identity-library')!,identityFrame=document.querySelector<HTMLIFrameElement>('#identity-library-frame')!;
@@ -270,7 +299,7 @@ window.addEventListener('message',event=>{
  if(event.origin!==location.origin||event.source!==identityFrame.contentWindow||!event.data)return;
  if(event.data.type==='adnd1e-identity-ready')sendIdentity();
  if(event.data.type==='adnd1e-identity-cancel')identityLibrary.close();
- if(event.data.type==='adnd1e-identity-selected'&&event.data.kind===identityKind){const catalog=identityKind==='races'?races:classes;const entry=catalog.find(entry=>entry.id===event.data.id&&!entry.referenceOnly);if(!entry)return;collect();set(identityKind==='races'?'race':'class',entry.id);update();modified();identityLibrary.close();}
+ if(event.data.type==='adnd1e-identity-selected'&&event.data.kind===identityKind){const catalog=identityKind==='races'?races:classes;const entry=catalog.find(entry=>entry.id===event.data.id);if(!entry)return;collect();set(identityKind==='races'?'race':'class',entry.id);update();modified();identityLibrary.close();}
 });
 
 const savedSelect=document.querySelector<HTMLSelectElement>('#saved-characters')!;
@@ -301,3 +330,41 @@ document.querySelector<HTMLInputElement>('#import-character')!.addEventListener(
 installCardPrinting(form,()=>{collect();});
 applyCard(card);
 try{refreshSaved();}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
+
+function updateCombat(strength:string){
+ const profile=combatProfile(card.fields),base=profile?.attacks.find(a=>a.ac===0)?.target;
+ document.querySelector('#combat-breakdown')!.textContent=profile?'DMG p.74 原书攻击矩阵；THAC0 为基础目标值，命中／伤害加值另列。未计入专精、非熟练惩罚、特殊敌人或投掷特例，可改写调整。':'当前职业的攻击矩阵尚未核对，请按职业资料手填。';
+ if(checked('manual_combat'))return;
+ const monk=value('class')==='monk'?monkCombat(Number(value('level'))):null;
+ if(monk){let row=card.rows.unarmed.find(r=>r.values.monkAuto==='yes');if(!row){row=card.rows.unarmed.find(r=>Object.values(r.values).every(v=>!v.trim()))??blankRow();row.values.monkAuto='yes';row.values.style='武僧徒手（PHB）';if(!card.rows.unarmed.includes(row))card.rows.unarmed.push(row);renderRows('unarmed');}for(const [key,entry] of Object.entries({attacks:monk.attacks,damage:monk.damage,thac0:String(base??''),hit:'0',damage_adj:'0'})){generated(row.values,key,entry);const input=repeater('unarmed').querySelector<HTMLInputElement>(`[data-row-id="${row.id}"] [data-cell="${key}"]`);if(input)input.value=row.values[key];}}
+ if(!monk)for(const row of card.rows.unarmed.filter(r=>r.values.monkAuto==='yes')){
+  for(const key of ['attacks','damage','thac0','hit','damage_adj']){generated(row.values,key,'');const input=repeater('unarmed').querySelector<HTMLInputElement>(`[data-row-id="${row.id}"] [data-cell="${key}"]`);if(input)input.value=row.values[key];}
+ }
+ for(const row of card.rows.unarmed){
+  if(!row.values.style?.trim()||row.values.monkAuto==='yes')continue;
+  const simple=row.values.combatRule==='ua-simple';
+  if(simple){generated(row.values,'thac0',base===undefined?'':String(base));generated(row.values,'hit',String(value('class')==='monk'?0:abilityBonus('STR',strength,'命中')));}
+  // Other procedures have their own percentages, styles or attack sequence; never infer from weapon rate.
+  const node=repeater('unarmed').querySelector<HTMLElement>(`[data-row-id="${row.id}"]`);
+  for(const key of ['thac0','hit']){const control=node?.querySelector<HTMLInputElement>(`[data-cell="${key}"]`);if(control)control.value=row.values[key]??'';}
+ }
+ for(const row of card.rows.weapons){
+  const selected=resolveItem(items,row.values.name??'');if(!selected)continue;
+  const weapon=weaponWithBase(selected,items,row.values.base_weapon),ranged=row.values.mode==='missile'||!weapon.weaponCombat?.handHeld&&!!weapon.weaponCombat?.missile;
+  const magic=enhancement(selected),hit=(value('class')==='monk'||(value('class')==='oa-kensai'&&ranged)?0:abilityBonus(ranged?'DEX':'STR',ranged?value('DEX'):strength,ranged?'投射':'命中'))+magic,damage=(value('class')==='monk'?Math.floor(Number(value('level'))/2):ranged?0:abilityBonus('STR',strength,'伤害'))+magic;
+  generated(row.values,'thac0',base===undefined?'':String(base));generated(row.values,'hit',String(hit));generated(row.values,'damage_adj',String(damage));
+  if(!profile)generated(row.values,'attacks','');
+  else if(!ranged&&profile.attackFamily!=='fighter')generated(row.values,'attacks','1/1');
+  if(!ranged&&profile?.attackFamily==='fighter')generated(row.values,'attacks',value('class')==='dragon-045-class-archer'?(Number(value('level'))>=16?'2/1':Number(value('level'))>=9?'3/2':'1/1'):Number(value('level'))>=13?'2/1':Number(value('level'))>=7?'3/2':'1/1');
+  if(ranged&&value('class')==='dragon-045-class-archer'&&/弓/.test(weapon.nameZh))generated(row.values,'attacks',Number(value('level'))>=7?'3/1':'2/1');
+  const node=repeater('weapons').querySelector<HTMLElement>(`[data-row-id="${row.id}"]`);for(const key of ['thac0','hit','damage_adj','attacks']){const control=node?.querySelector<HTMLInputElement>(`[data-cell="${key}"]`);if(control)control.value=row.values[key]??'';}
+ }
+}
+const referenceDialog=document.querySelector<HTMLDialogElement>('#reference-library')!,referenceFrame=document.querySelector<HTMLIFrameElement>('#reference-library-frame')!;
+let referenceKind:CollectionName='proficiencies';
+const sendReferences=()=>referenceFrame.contentWindow?.postMessage({type:'adnd1e-reference-selection',ids:card.rows[referenceKind].map(r=>r.values.referenceId).filter(Boolean)},location.origin);
+document.querySelectorAll<HTMLButtonElement>('[data-open-reference]').forEach(button=>button.addEventListener('click',()=>{collect();referenceKind=button.dataset.openReference as CollectionName;referenceFrame.src='/character/library/references/?kind='+referenceKind;referenceDialog.showModal();}));
+document.querySelector('#close-reference-library')!.addEventListener('click',()=>referenceDialog.close());
+window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==referenceFrame.contentWindow)return;if(event.data?.type==='adnd1e-reference-ready')sendReferences();if(event.data?.type==='adnd1e-references-selected'&&event.data.kind===referenceKind&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();selectReferences(card,referenceKind,event.data.ids);renderRows(referenceKind);update();modified();referenceDialog.close();}});
+
+function selectedArmor(slot:string){const item=items.find(i=>i.id===card.fields[slot+'_id']);return item&&[item.id,cardName(item.nameZh)].includes(value(slot))?item:resolveItem(items,value(slot));}

@@ -4,14 +4,15 @@ export const printScale = (height:number, available=280*96/25.4) => {
   return scale>=.72?scale:1;
 };
 export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
-  let output:HTMLElement|undefined;
+  let output:HTMLElement|undefined,previewStyle:HTMLStyleElement|undefined,preview=false;
+  function clear(){output?.remove();output=undefined;previewStyle?.remove();previewStyle=undefined;preview=false;}
   function prepare(){
-    collect();output?.remove();
+    collect();output?.remove();previewStyle?.remove();
     output=document.createElement('div');output.id='ref2-print-output';output.className='ref2-workspace';
     output.dataset.monochrome=String(document.querySelector<HTMLInputElement>('#print-monochrome')!.checked);
     const compact=document.querySelector<HTMLInputElement>('#print-compact')!.checked;
     for(const source of form.querySelectorAll<HTMLElement>('[data-card-panel]')){
-      if(source.dataset.cardPanel==='spells'&&!source.querySelector('.prepared-spell')&&!source.querySelector<HTMLTextAreaElement>('[name=spellbook_notes]')?.value.trim())continue;
+      if(compact&&source.dataset.cardPanel==='spells'&&!source.querySelector('.prepared-spell')&&!source.querySelector<HTMLTextAreaElement>('[name=spellbook_notes]')?.value.trim())continue;
       const panel=source.cloneNode(true) as HTMLElement;panel.hidden=false;
       const originals=[...source.querySelectorAll<HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>('input,select,textarea')];
       panel.querySelectorAll<HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>('input,select,textarea').forEach((control,index)=>{
@@ -27,6 +28,15 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
         const lanes=Number(section.querySelector<HTMLElement>('[data-lanes]')?.dataset.lanes||1);
         let blanks=Math.max(0,lanes-filled.length);
         for(const row of rows)if(!filled.includes(row)&&blanks--<=0)row.remove();
+      }
+      if(source.dataset.cardPanel==='spells'&&!compact){
+        panel.querySelector('#prepared-empty')?.remove();
+        const grid=document.createElement('table');grid.className='ref2-table print-blank-spells';
+        const header=grid.createTHead().insertRow();
+        for(const label of ['环级','法术名称／效果速记','准备／施放']){const cell=document.createElement('th');cell.textContent=label;header.append(cell);}
+        const body=grid.createTBody();
+        for(let i=0;i<18;i++){const row=body.insertRow();row.insertCell().textContent='';row.insertCell().textContent='';row.insertCell().textContent='□ □ □ □ □ □';}
+        panel.querySelector('#prepared-spells')?.after(grid);
       }
       panel.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
       const sheet=document.createElement('div');sheet.className='ref2-print-sheet';sheet.dataset.side=source.dataset.cardPanel;sheet.append(panel);output.append(sheet);
@@ -44,14 +54,30 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
     try{
       for(const sheet of output.querySelectorAll<HTMLElement>('.ref2-print-sheet')){
         const panel=sheet.firstElementChild as HTMLElement;
-        panel.querySelectorAll<HTMLTextAreaElement>('textarea').forEach(area=>{if(area.value.trim())area.style.setProperty('height',Math.max(area.clientHeight,area.scrollHeight)+'px','important');});
+        // Plain print text can wrap; single-line form controls otherwise hide their overflow.
+        const controls=[...panel.querySelectorAll<HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>('input,select,textarea')];
+        const properties=['font-family','font-size','font-weight','font-style','color','text-align','padding','border','border-radius','flex','align-self','vertical-align','letter-spacing','width','min-height'];
+        const styles=controls.map(control=>{const style=getComputedStyle(control);return Object.fromEntries(properties.map(key=>[key,style.getPropertyValue(key)]));});
+        controls.forEach((control,index)=>{
+          if(control instanceof HTMLInputElement&&['checkbox','radio','hidden'].includes(control.type))return;
+          const text=document.createElement('span'),style=styles[index];
+          text.className=control.className+' print-value';
+          text.textContent=control instanceof HTMLSelectElement?control.selectedOptions[0]?.textContent??'':control.value;
+          for(const property of properties)text.style.setProperty(property,style[property]);
+          text.style.display='inline-block';
+          if(control instanceof HTMLTextAreaElement&&!control.value.trim()&&!compact)text.style.minHeight=getComputedStyle(control).height;
+          if(!text.textContent)text.textContent='\u00a0';
+          control.replaceWith(text);
+        });
         const height=panel.getBoundingClientRect().height,scale=printScale(height);
         sheet.style.setProperty('--print-scale',String(scale));sheet.dataset.continued=String(scale===1&&height>280*96/25.4);
         sheet.dataset.contentHeight=String(Math.round(height));
       }
-    }finally{measurement.remove();output.classList.remove('print-measuring');}
+    }finally{if(preview)previewStyle=measurement;else measurement.remove();output.classList.remove('print-measuring');}
+    if(preview){const close=document.createElement('button');close.type='button';close.className='screen-tools print-preview-close';close.textContent='关闭打印预览';close.addEventListener('click',clear);output.append(close);}
   }
   window.addEventListener('beforeprint',prepare);
-  window.addEventListener('afterprint',()=>{output?.remove();output=undefined;});
+  window.addEventListener('afterprint',clear);
+  document.querySelector('#preview-character')!.addEventListener('click',async()=>{await document.fonts.ready;preview=true;prepare();});
   document.querySelector('#print-character')!.addEventListener('click',async()=>{await document.fonts.ready;window.print();});
 }

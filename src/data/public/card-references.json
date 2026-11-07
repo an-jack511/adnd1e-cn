@@ -1,0 +1,2445 @@
+[
+  {
+    "id": "wsg-proficiencies-79b03520dfd7",
+    "kind": "proficiencies",
+    "name": "警觉",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "警觉",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-9149752cfbfa",
+    "kind": "proficiencies",
+    "name": "动物驯养",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "动物驯养",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-603d49a5adbb",
+    "kind": "proficiencies",
+    "name": "动物学",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "动物学",
+      "ability": "智力",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 0。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-c87df3125776",
+    "kind": "proficiencies",
+    "name": "盲斗",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "盲斗",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-752bf9a971c0",
+    "kind": "proficiencies",
+    "name": "船术",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "船术",
+      "ability": "感知",
+      "modifier": "-1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 -1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-03a396932063",
+    "kind": "proficiencies",
+    "name": "御车",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "御车",
+      "ability": "敏捷",
+      "modifier": "-2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 敏捷；修正 -2。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-be16b745acb4",
+    "kind": "proficiencies",
+    "name": "方向感",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "方向感",
+      "ability": "感知",
+      "modifier": "-1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 -1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-e1b1cb94d76d",
+    "kind": "proficiencies",
+    "name": "耐力",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "耐力",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-9da6cc98ef44",
+    "kind": "proficiencies",
+    "name": "生火",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "生火",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-2ccb64f1f2ef",
+    "kind": "proficiencies",
+    "name": "捕鱼",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "捕鱼",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-3210fd702749",
+    "kind": "proficiencies",
+    "name": "觅食",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "觅食",
+      "ability": "智力",
+      "modifier": "+2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 +2。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-7d81885ccd55",
+    "kind": "proficiencies",
+    "name": "治疗",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "治疗",
+      "ability": "感知",
+      "modifier": "-2",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 感知；修正 -2。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-ea1f07cf3683",
+    "kind": "proficiencies",
+    "name": "狩猎",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "狩猎",
+      "ability": "感知",
+      "modifier": "-1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 -1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-ff61e718aab2",
+    "kind": "proficiencies",
+    "name": "登山",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "登山",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-ef13e7e60959",
+    "kind": "proficiencies",
+    "name": "植物学",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "植物学",
+      "ability": "智力",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 0。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-64bd87750dc4",
+    "kind": "proficiencies",
+    "name": "空中骑乘",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "空中骑乘",
+      "ability": "感知",
+      "modifier": "+2",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 感知；修正 +2。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-7f869030b02b",
+    "kind": "proficiencies",
+    "name": "陆地骑乘",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "陆地骑乘",
+      "ability": "感知",
+      "modifier": "-3",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 -3。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-e487842bce91",
+    "kind": "proficiencies",
+    "name": "绳索使用",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "绳索使用",
+      "ability": "敏捷",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 敏捷；修正 0。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-90d5845e4c1b",
+    "kind": "proficiencies",
+    "name": "奔跑",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "奔跑",
+      "ability": "体质",
+      "modifier": "0",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 体质；修正 0。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-89a0c12f5aac",
+    "kind": "proficiencies",
+    "name": "寒地生存",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "寒地生存",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-616a8a21fa4c",
+    "kind": "proficiencies",
+    "name": "沙漠生存",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "沙漠生存",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-8ed7985a0937",
+    "kind": "proficiencies",
+    "name": "热地生存",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "热地生存",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-b66f447bfcb9",
+    "kind": "proficiencies",
+    "name": "游泳",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "游泳",
+      "ability": "力量",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 力量；修正 0。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-8967d3c6d231",
+    "kind": "proficiencies",
+    "name": "追踪",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "追踪",
+      "ability": "不适用",
+      "modifier": "不适用",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 不适用；修正 不适用。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "wsg-proficiencies-eefc149302c4",
+    "kind": "proficiencies",
+    "name": "天气感知",
+    "source": "WSG",
+    "href": "/books/wsg/wsg-proficiencies/",
+    "values": {
+      "name": "天气感知",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 WSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-62463e44844e",
+    "kind": "proficiencies",
+    "name": "动物训练",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "动物训练",
+      "ability": "感知",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1*；属性 感知；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-e7658aff22f2",
+    "kind": "proficiencies",
+    "name": "制甲",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "制甲",
+      "ability": "智力",
+      "modifier": "−2",
+      "slots": "2"
+    },
+    "description": "栏位 2*；属性 智力；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-d070222e8206",
+    "kind": "proficiencies",
+    "name": "铁匠",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "铁匠",
+      "ability": "力量",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 力量；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-0726170e6d12",
+    "kind": "proficiencies",
+    "name": "造船",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "造船",
+      "ability": "智力",
+      "modifier": "−2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-f922948464cb",
+    "kind": "proficiencies",
+    "name": "制弓/制箭",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "制弓/制箭",
+      "ability": "敏捷",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1*；属性 敏捷；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-084d94fbff41",
+    "kind": "proficiencies",
+    "name": "木匠",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "木匠",
+      "ability": "力量",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 力量；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-47bef602e227",
+    "kind": "proficiencies",
+    "name": "宝石切割",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "宝石切割",
+      "ability": "敏捷",
+      "modifier": "−2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 敏捷；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-20cdaab35369",
+    "kind": "proficiencies",
+    "name": "皮革匠",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "皮革匠",
+      "ability": "智力",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-222471fceac7",
+    "kind": "proficiencies",
+    "name": "矿工",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "矿工",
+      "ability": "感知",
+      "modifier": "−3",
+      "slots": "2"
+    },
+    "description": "栏位 2*；属性 感知；修正 −3。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-a2468467dd1c",
+    "kind": "proficiencies",
+    "name": "陶工",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "陶工",
+      "ability": "敏捷",
+      "modifier": "−2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 敏捷；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-fe4aed86da35",
+    "kind": "proficiencies",
+    "name": "冶炼工",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "冶炼工",
+      "ability": "智力",
+      "modifier": "−2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-1ec3fe044958",
+    "kind": "proficiencies",
+    "name": "石匠",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "石匠",
+      "ability": "力量",
+      "modifier": "−2",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 力量；修正 −2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-cef96d35869a",
+    "kind": "proficiencies",
+    "name": "武器匠",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "武器匠",
+      "ability": "智力",
+      "modifier": "−3",
+      "slots": "3"
+    },
+    "description": "栏位 3*；属性 智力；修正 −3。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-ffa393b92f14",
+    "kind": "proficiencies",
+    "name": "织工",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "织工",
+      "ability": "智力",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-c8f79fcec71a",
+    "kind": "proficiencies",
+    "name": "动物叫声",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "动物叫声",
+      "ability": "感知",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-c87df3125776",
+    "kind": "proficiencies",
+    "name": "盲斗",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "盲斗",
+      "ability": "—",
+      "modifier": "—",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 —；修正 —。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-6130bbad9be8",
+    "kind": "proficiencies",
+    "name": "驾船",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "驾船",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-be16b745acb4",
+    "kind": "proficiencies",
+    "name": "方向感",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "方向感",
+      "ability": "感知",
+      "modifier": "+1",
+      "slots": "1"
+    },
+    "description": "栏位 1*；属性 感知；修正 +1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-e1b1cb94d76d",
+    "kind": "proficiencies",
+    "name": "耐力",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "耐力",
+      "ability": "—",
+      "modifier": "—",
+      "slots": "2"
+    },
+    "description": "栏位 2；属性 —；修正 —。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-9da6cc98ef44",
+    "kind": "proficiencies",
+    "name": "生火",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "生火",
+      "ability": "感知",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-812483019772",
+    "kind": "proficiencies",
+    "name": "钓鱼",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "钓鱼",
+      "ability": "感知",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1*；属性 感知；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-2e1a0b0c036e",
+    "kind": "proficiencies",
+    "name": "真菌辨识",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "真菌辨识",
+      "ability": "智力",
+      "modifier": "+6",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 智力；修正 +6。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-7d81885ccd55",
+    "kind": "proficiencies",
+    "name": "治疗",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "治疗",
+      "ability": "感知",
+      "modifier": "+2",
+      "slots": "2"
+    },
+    "description": "栏位 2*；属性 感知；修正 +2。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-ff61e718aab2",
+    "kind": "proficiencies",
+    "name": "登山",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "登山",
+      "ability": "—",
+      "modifier": "—",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 —；修正 —。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-d37a8b685d43",
+    "kind": "proficiencies",
+    "name": "骑术",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "骑术",
+      "ability": "感知",
+      "modifier": "+3",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 +3。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-265c25a9b586",
+    "kind": "proficiencies",
+    "name": "绳技",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "绳技",
+      "ability": "敏捷",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 敏捷；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-179b7c642057",
+    "kind": "proficiencies",
+    "name": "缓慢呼吸",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "缓慢呼吸",
+      "ability": "—",
+      "modifier": "—",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 —；修正 —。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-9dfd6cdc1b35",
+    "kind": "proficiencies",
+    "name": "声音分析",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "声音分析",
+      "ability": "感知",
+      "modifier": "−1",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 感知；修正 −1。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "dsg-proficiencies-b66f447bfcb9",
+    "kind": "proficiencies",
+    "name": "游泳",
+    "source": "DSG",
+    "href": "/books/dsg/dsg-proficiencies/",
+    "values": {
+      "name": "游泳",
+      "ability": "力量",
+      "modifier": "0",
+      "slots": "1"
+    },
+    "description": "栏位 1；属性 力量；修正 0。按 DSG 的检定方向与失败规则。"
+  },
+  {
+    "id": "oa-proficiencies-4493d8124049",
+    "kind": "proficiencies",
+    "name": "护甲匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "护甲匠",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-d070222e8206",
+    "kind": "proficiencies",
+    "name": "铁匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "铁匠",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-f39e8d233e07",
+    "kind": "proficiencies",
+    "name": "弓匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "弓匠",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-afcca616fe56",
+    "kind": "proficiencies",
+    "name": "酿酒师",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "酿酒师",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-084d94fbff41",
+    "kind": "proficiencies",
+    "name": "木匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "木匠",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-d797e1d863c9",
+    "kind": "proficiencies",
+    "name": "土木工程师",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "土木工程师",
+      "ability": "d20≥",
+      "modifier": "18",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 18。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-d43d1dc100ce",
+    "kind": "proficiencies",
+    "name": "草药师",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "草药师",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-9e35f50a8fa0",
+    "kind": "proficiencies",
+    "name": "珠宝匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "珠宝匠",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-fbc554526fa7",
+    "kind": "proficiencies",
+    "name": "按摩师",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "按摩师",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-5a2a871f6867",
+    "kind": "proficiencies",
+    "name": "领航员",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "领航员",
+      "ability": "d20≥",
+      "modifier": "12",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 12。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-b38e3eb75bf1",
+    "kind": "proficiencies",
+    "name": "造纸匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "造纸匠",
+      "ability": "d20≥",
+      "modifier": "18",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 18。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-fbbc5738fbc2",
+    "kind": "proficiencies",
+    "name": "陶匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "陶匠",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-b9ccd7d44db7",
+    "kind": "proficiencies",
+    "name": "裁缝/帆匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "裁缝/帆匠",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-c5e8edb2b661",
+    "kind": "proficiencies",
+    "name": "造船匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "造船匠",
+      "ability": "d20≥",
+      "modifier": "19",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 19。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-1ec3fe044958",
+    "kind": "proficiencies",
+    "name": "石匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "石匠",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-afb0257c4221",
+    "kind": "proficiencies",
+    "name": "制革匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "制革匠",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-cef96d35869a",
+    "kind": "proficiencies",
+    "name": "武器匠",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "武器匠",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "3"
+    },
+    "description": "栏位 3；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-ffa393b92f14",
+    "kind": "proficiencies",
+    "name": "织工",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "织工",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-9b7f991665fd",
+    "kind": "proficiencies",
+    "name": "吟诵",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "吟诵",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-9da6cc98ef44",
+    "kind": "proficiencies",
+    "name": "生火",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "生火",
+      "ability": "d20≥",
+      "modifier": "8",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 8。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-90d5845e4c1b",
+    "kind": "proficiencies",
+    "name": "奔跑",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "奔跑",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-932fcb57bfb7",
+    "kind": "proficiencies",
+    "name": "信号",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "信号",
+      "ability": "d20≥",
+      "modifier": "12",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 12。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-c0a9c1c8ae76",
+    "kind": "proficiencies",
+    "name": "设陷阱",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "设陷阱",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-5375820370b8",
+    "kind": "proficiencies",
+    "name": "声音模仿",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "声音模仿",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-874e95e24bfb",
+    "kind": "proficiencies",
+    "name": "生存",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "生存",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-8967d3c6d231",
+    "kind": "proficiencies",
+    "name": "追踪",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "追踪",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "3"
+    },
+    "description": "栏位 3；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-6f9019a1eb23",
+    "kind": "proficiencies",
+    "name": "农业",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "农业",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-a44540b5d0a2",
+    "kind": "proficiencies",
+    "name": "动物处理",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "动物处理",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-d601839da068",
+    "kind": "proficiencies",
+    "name": "烹饪",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "烹饪",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-e29686f97779",
+    "kind": "proficiencies",
+    "name": "舞蹈",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "舞蹈",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-2ccb64f1f2ef",
+    "kind": "proficiencies",
+    "name": "捕鱼",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "捕鱼",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-2305ee3ca36f",
+    "kind": "proficiencies",
+    "name": "游戏",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "游戏",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "5"
+    },
+    "description": "栏位 5；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-d37a8b685d43",
+    "kind": "proficiencies",
+    "name": "骑术",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "骑术",
+      "ability": "d20≥",
+      "modifier": "18",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 18。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-ea1f07cf3683",
+    "kind": "proficiencies",
+    "name": "狩猎",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "狩猎",
+      "ability": "d20≥",
+      "modifier": "11",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 11。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-09ba3f4ca03b",
+    "kind": "proficiencies",
+    "name": "珠算",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "珠算",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-387ca7f32ec0",
+    "kind": "proficiencies",
+    "name": "杂技",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "杂技",
+      "ability": "d20≥",
+      "modifier": "13",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 13。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-afb3c40c3929",
+    "kind": "proficiencies",
+    "name": "音乐",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "音乐",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-9400a0af37f8",
+    "kind": "proficiencies",
+    "name": "读写",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "读写",
+      "ability": "d20≥",
+      "modifier": "10",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 10。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-c5038bb8b415",
+    "kind": "proficiencies",
+    "name": "航海",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "航海",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-6a9701440c86",
+    "kind": "proficiencies",
+    "name": "歌唱",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "歌唱",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-417594f3f538",
+    "kind": "proficiencies",
+    "name": "小船",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "小船",
+      "ability": "d20≥",
+      "modifier": "13",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 13。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-b66f447bfcb9",
+    "kind": "proficiencies",
+    "name": "游泳",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "游泳",
+      "ability": "d20≥",
+      "modifier": "10",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 10。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-08d025050fe1",
+    "kind": "proficiencies",
+    "name": "书法",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "书法",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "2"
+    },
+    "description": "栏位 2；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-60e42c1a2a9b",
+    "kind": "proficiencies",
+    "name": "茶道",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "茶道",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-7ff5dc234fc2",
+    "kind": "proficiencies",
+    "name": "礼仪",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "礼仪",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-be78b2058534",
+    "kind": "proficiencies",
+    "name": "历史",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "历史",
+      "ability": "d20≥",
+      "modifier": "12",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 12。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-a08bc1dd72e5",
+    "kind": "proficiencies",
+    "name": "法律",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "法律",
+      "ability": "d20≥",
+      "modifier": "14",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 14。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-5b37b1b2e50f",
+    "kind": "proficiencies",
+    "name": "绘画",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "绘画",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-ecaab35b7664",
+    "kind": "proficiencies",
+    "name": "诗歌",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "诗歌",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-3858fe1361f0",
+    "kind": "proficiencies",
+    "name": "乐器",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "乐器",
+      "ability": "d20≥",
+      "modifier": "17",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 17。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-4adecb37b0b3",
+    "kind": "proficiencies",
+    "name": "谱系",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "谱系",
+      "ability": "d20≥",
+      "modifier": "13",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 13。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-5c33c1da802d",
+    "kind": "proficiencies",
+    "name": "宗教",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "宗教",
+      "ability": "d20≥",
+      "modifier": "15",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 15。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-7aa0c105d799",
+    "kind": "proficiencies",
+    "name": "宫廷语言",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "宫廷语言",
+      "ability": "d20≥",
+      "modifier": "10",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 10。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "oa-proficiencies-6e89c8251e18",
+    "kind": "proficiencies",
+    "name": "说服",
+    "source": "OA",
+    "href": "/books/oa/oa-proficiencies/",
+    "values": {
+      "name": "说服",
+      "ability": "d20≥",
+      "modifier": "16",
+      "slots": "1"
+    },
+    "description": "栏位 1；基础成功值 16。按 OA 熟练项检定，不能套用 WSG 检定方向。"
+  },
+  {
+    "id": "dmg-valuables-2920c71436f0",
+    "kind": "valuables",
+    "name": "蓝铜矿",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "蓝铜矿",
+      "worth": "10 gp"
+    },
+    "description": "深蓝色斑驳纹理。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-6a7ee105b650",
+    "kind": "valuables",
+    "name": "条纹玛瑙",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "条纹玛瑙",
+      "worth": "10 gp"
+    },
+    "description": "棕、蓝、白与红褐色条纹。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-58353cc33061",
+    "kind": "valuables",
+    "name": "蓝水晶",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "蓝水晶",
+      "worth": "10 gp"
+    },
+    "description": "淡蓝色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-5fd2aa3b7e9b",
+    "kind": "valuables",
+    "name": "眼玛瑙",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "眼玛瑙",
+      "worth": "10 gp"
+    },
+    "description": "灰、白、棕、蓝和／或绿色同心圆。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-efa2fc33579c",
+    "kind": "valuables",
+    "name": "赤铁矿",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "赤铁矿",
+      "worth": "10 gp"
+    },
+    "description": "灰黑色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-412a15dda8d6",
+    "kind": "valuables",
+    "name": "青金石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "青金石",
+      "worth": "10 gp"
+    },
+    "description": "深浅蓝色，带黄色斑点。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-156253c3cc30",
+    "kind": "valuables",
+    "name": "孔雀石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "孔雀石",
+      "worth": "10 gp"
+    },
+    "description": "深浅绿色条纹。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-a2b8480bea91",
+    "kind": "valuables",
+    "name": "苔纹玛瑙",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "苔纹玛瑙",
+      "worth": "10 gp"
+    },
+    "description": "粉色或黄白色，带灰色或绿色“苔纹”。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-288efd22cca1",
+    "kind": "valuables",
+    "name": "黑曜石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "黑曜石",
+      "worth": "10 gp"
+    },
+    "description": "黑色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-3dc5521a9e5b",
+    "kind": "valuables",
+    "name": "菱锰矿",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "菱锰矿",
+      "worth": "10 gp"
+    },
+    "description": "浅粉色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-d5799c1948f2",
+    "kind": "valuables",
+    "name": "虎眼石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "虎眼石",
+      "worth": "10 gp"
+    },
+    "description": "浓棕色，中心带金色底光。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-351f0478086e",
+    "kind": "valuables",
+    "name": "绿松石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "绿松石",
+      "worth": "10 gp"
+    },
+    "description": "浅蓝绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-fda9a17086e9",
+    "kind": "valuables",
+    "name": "血石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "血石",
+      "worth": "50 gp"
+    },
+    "description": "深灰色，带红色斑点。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-e625b4daabed",
+    "kind": "valuables",
+    "name": "红玉髓（亦称红玛瑙）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "红玉髓（亦称红玛瑙）",
+      "worth": "50 gp"
+    },
+    "description": "橙色至红棕色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-c51f6b55643d",
+    "kind": "valuables",
+    "name": "玉髓",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "玉髓",
+      "worth": "50 gp"
+    },
+    "description": "白色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-bd61a4b8e68b",
+    "kind": "valuables",
+    "name": "绿玉髓",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "绿玉髓",
+      "worth": "50 gp"
+    },
+    "description": "苹果绿至祖母绿。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-bcbc1089bd53",
+    "kind": "valuables",
+    "name": "黄水晶",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "黄水晶",
+      "worth": "50 gp"
+    },
+    "description": "浅黄棕色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-9c0f1a61909c",
+    "kind": "valuables",
+    "name": "碧玉",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "碧玉",
+      "worth": "50 gp"
+    },
+    "description": "蓝色、黑色至棕色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-a4ff3cbd85c6",
+    "kind": "valuables",
+    "name": "月长石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "月长石",
+      "worth": "50 gp"
+    },
+    "description": "白色，泛淡蓝光。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-4668cc68257a",
+    "kind": "valuables",
+    "name": "缟玛瑙",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "缟玛瑙",
+      "worth": "50 gp"
+    },
+    "description": "黑白相间条纹，或纯黑、纯白。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-5cf18ac7a2fd",
+    "kind": "valuables",
+    "name": "水晶",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "水晶",
+      "worth": "50 gp"
+    },
+    "description": "透明。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-5bce7f88135e",
+    "kind": "valuables",
+    "name": "缠丝玛瑙",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "缠丝玛瑙",
+      "worth": "50 gp"
+    },
+    "description": "红色玛瑙与白色缟玛瑙相间条纹。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-684f812db4e2",
+    "kind": "valuables",
+    "name": "烟晶",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "烟晶",
+      "worth": "50 gp"
+    },
+    "description": "浅灰、黄或蓝色（凯恩戈姆石）。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-7a6c7027bfaf",
+    "kind": "valuables",
+    "name": "星芒玫瑰石英",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "星芒玫瑰石英",
+      "worth": "50 gp"
+    },
+    "description": "半透明玫瑰色，中心有白色“星芒”。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-9a703031343a",
+    "kind": "valuables",
+    "name": "锆石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "锆石",
+      "worth": "50 gp"
+    },
+    "description": "透明的浅蓝绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-84c5d7ae2753",
+    "kind": "valuables",
+    "name": "琥珀",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "琥珀",
+      "worth": "50 gp"
+    },
+    "description": "水金色至浓金色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-2b646d02a6c7",
+    "kind": "valuables",
+    "name": "紫翠玉",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "紫翠玉",
+      "worth": "50 gp"
+    },
+    "description": "深绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-ae62939105eb",
+    "kind": "valuables",
+    "name": "紫水晶",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "紫水晶",
+      "worth": "50 gp"
+    },
+    "description": "深紫色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-14da0c41ed63",
+    "kind": "valuables",
+    "name": "海蓝宝石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "海蓝宝石",
+      "worth": "50 gp"
+    },
+    "description": "浅蓝绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-f8ec96ce06bc",
+    "kind": "valuables",
+    "name": "金绿玉",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "金绿玉",
+      "worth": "50 gp"
+    },
+    "description": "黄绿色至绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-8453f8926752",
+    "kind": "valuables",
+    "name": "珊瑚",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "珊瑚",
+      "worth": "50 gp"
+    },
+    "description": "绯红色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-9517fa96d496",
+    "kind": "valuables",
+    "name": "石榴石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "石榴石",
+      "worth": "50 gp"
+    },
+    "description": "红色、棕绿色或紫色（以紫色最珍贵）。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-43ab8e631a28",
+    "kind": "valuables",
+    "name": "翡翠",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "翡翠",
+      "worth": "50 gp"
+    },
+    "description": "浅绿、深绿、绿白相间或白色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-9bbd9fae7b6e",
+    "kind": "valuables",
+    "name": "煤玉",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "煤玉",
+      "worth": "50 gp"
+    },
+    "description": "深黑色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-869423c7db0d",
+    "kind": "valuables",
+    "name": "珍珠",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "珍珠",
+      "worth": "50 gp"
+    },
+    "description": "有光泽的白、黄、粉等色，直至纯黑色（以纯黑最珍贵）。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-d9107119254f",
+    "kind": "valuables",
+    "name": "橄榄石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "橄榄石",
+      "worth": "50 gp"
+    },
+    "description": "浓橄榄绿（又称贵橄榄石）。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-c0266ac86b83",
+    "kind": "valuables",
+    "name": "尖晶石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "尖晶石",
+      "worth": "50 gp"
+    },
+    "description": "红、红棕、深绿或极深蓝色（以极深蓝最珍贵）。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-ff6fa687b060",
+    "kind": "valuables",
+    "name": "黄玉",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "黄玉",
+      "worth": "50 gp"
+    },
+    "description": "金黄色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-cbf54b18c34a",
+    "kind": "valuables",
+    "name": "电气石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "电气石",
+      "worth": "50 gp"
+    },
+    "description": "浅绿、浅蓝、浅棕或浅红色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-b70d3aa3e924",
+    "kind": "valuables",
+    "name": "黑欧泊",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "黑欧泊",
+      "worth": "1,000 gp"
+    },
+    "description": "深绿色，带黑色斑驳与金色斑点。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-bc71aca1dbc1",
+    "kind": "valuables",
+    "name": "黑色蓝宝石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "黑色蓝宝石",
+      "worth": "1,000 gp"
+    },
+    "description": "有光泽的黑色，泛明亮光彩。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-a768735ad5bd",
+    "kind": "valuables",
+    "name": "钻石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "钻石",
+      "worth": "1,000 gp"
+    },
+    "description": "蓝白色透明；次等者为透明白色或带浅色调。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-bef5fc7f24b1",
+    "kind": "valuables",
+    "name": "祖母绿",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "祖母绿",
+      "worth": "1,000 gp"
+    },
+    "description": "鲜亮的深绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-34578976c27d",
+    "kind": "valuables",
+    "name": "火欧泊",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "火欧泊",
+      "worth": "1,000 gp"
+    },
+    "description": "火焰般的红色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-2e938806e509",
+    "kind": "valuables",
+    "name": "鸽血红宝石（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "鸽血红宝石（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "火橙色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-35d743466f0d",
+    "kind": "valuables",
+    "name": "欧泊",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "欧泊",
+      "worth": "1,000 gp"
+    },
+    "description": "浅蓝色，带绿色与金色斑驳。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-5558e61d6396",
+    "kind": "valuables",
+    "name": "东方紫水晶（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "东方紫水晶（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "浓紫色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-2146333067ef",
+    "kind": "valuables",
+    "name": "东方祖母绿（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "东方祖母绿（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "清澈鲜亮的绿色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-4cd27250efc8",
+    "kind": "valuables",
+    "name": "东方黄玉（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "东方黄玉（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "火焰般的黄色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-589a330c0f36",
+    "kind": "valuables",
+    "name": "红宝石（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "红宝石（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "透明红色至深绯红色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-6292a23dd754",
+    "kind": "valuables",
+    "name": "蓝宝石（刚玉）",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "蓝宝石（刚玉）",
+      "worth": "1,000 gp"
+    },
+    "description": "透明至中等深度的蓝色。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-8753aaf5586c",
+    "kind": "valuables",
+    "name": "星红宝石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "星红宝石",
+      "worth": "1,000 gp"
+    },
+    "description": "半透明红宝石，中心有白色“星芒”。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-856ddf4b2428",
+    "kind": "valuables",
+    "name": "星蓝宝石",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "星蓝宝石",
+      "worth": "1,000 gp"
+    },
+    "description": "半透明蓝宝石，中心有白色“星芒”。表列基础价值，实际品质、重量与鉴定会改变价格。"
+  },
+  {
+    "id": "dmg-valuables-ad5a2ca8b272",
+    "kind": "valuables",
+    "name": "象牙或锻制银珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "象牙或锻制银珠宝",
+      "worth": "100–1,000 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-c5840941a75b",
+    "kind": "valuables",
+    "name": "锻制银与金珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "锻制银与金珠宝",
+      "worth": "200–1,200 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-8311601d3201",
+    "kind": "valuables",
+    "name": "锻制金珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "锻制金珠宝",
+      "worth": "300–1,800 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-0d9d8708dfea",
+    "kind": "valuables",
+    "name": "玉、珊瑚或锻制铂金珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "玉、珊瑚或锻制铂金珠宝",
+      "worth": "500–3,000 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-c5fceed96513",
+    "kind": "valuables",
+    "name": "镶宝石的银珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "镶宝石的银珠宝",
+      "worth": "1,000–6,000 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-f953587db9ed",
+    "kind": "valuables",
+    "name": "镶宝石的金珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "镶宝石的金珠宝",
+      "worth": "2,000–8,000 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-valuables-9c3554c70cf3",
+    "kind": "valuables",
+    "name": "镶宝石的铂金珠宝",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-gems-jewelry-values/",
+    "values": {
+      "name": "镶宝石的铂金珠宝",
+      "worth": "2,000–12,000 gp"
+    },
+    "description": "基础价值范围；款式、品质与镶嵌由主持人确认。"
+  },
+  {
+    "id": "dmg-unarmed-307a9db7772f",
+    "kind": "unarmed",
+    "name": "拳击",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-combat/",
+    "values": {
+      "style": "拳击",
+      "form": "击打",
+      "maneuvers": "按 DMG 徒手击打程序与情境修正结算。"
+    },
+    "description": "按 DMG 徒手击打程序与情境修正结算。"
+  },
+  {
+    "id": "dmg-unarmed-f070298ed710",
+    "kind": "unarmed",
+    "name": "擒抱",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-combat/",
+    "values": {
+      "style": "擒抱",
+      "form": "擒抱",
+      "maneuvers": "按 DMG 擒抱程序结算，不能当作普通武器伤害。"
+    },
+    "description": "按 DMG 擒抱程序结算，不能当作普通武器伤害。"
+  },
+  {
+    "id": "dmg-unarmed-e5de56553c2d",
+    "kind": "unarmed",
+    "name": "压倒",
+    "source": "DMG",
+    "href": "/books/dmg/dmg-combat/",
+    "values": {
+      "style": "压倒",
+      "form": "压倒",
+      "maneuvers": "按 DMG 压倒程序与人数、体型差结算。"
+    },
+    "description": "按 DMG 压倒程序与人数、体型差结算。"
+  },
+  {
+    "id": "ua-unarmed-efee22e702d2",
+    "kind": "unarmed",
+    "name": "徒手战斗",
+    "source": "UA",
+    "href": "/books/ua/ua-appendix-q-weaponless-combat/",
+    "values": {
+      "style": "徒手战斗",
+      "form": "替代程序",
+      "maneuvers": "UA 附录 Q 替代徒手规则；由主持人选择采用的程序。"
+    },
+    "description": "UA 附录 Q 替代徒手规则；由主持人选择采用的程序。"
+  },
+  {
+    "id": "ua-unarmed-b4a59d6d8cf2",
+    "kind": "unarmed",
+    "name": "非致命战斗",
+    "source": "UA",
+    "href": "/books/ua/ua-appendix-r-nonlethal-combat/",
+    "values": {
+      "style": "非致命战斗",
+      "form": "非致命",
+      "maneuvers": "UA 附录 R，保留非致命伤害与武器限制。"
+    },
+    "description": "UA 附录 R，保留非致命伤害与武器限制。"
+  },
+  {
+    "id": "ua-unarmed-e5c9cd49dc2e",
+    "kind": "unarmed",
+    "name": "拳击（UA 简易）",
+    "source": "UA",
+    "href": "/books/ua/ua-appendix-q-weaponless-combat/",
+    "values": {
+      "style": "拳击（UA 简易）",
+      "form": "系统 I",
+      "combatRule": "ua-simple",
+      "maneuvers": "标准命中矩阵；力量命中调整；先攻−2。伤害与目标限制见原条目。"
+    },
+    "description": "UA 附录 Q 系统 I；与系统 II、DMG 程序分开。"
+  },
+  {
+    "id": "ua-unarmed-dfef33f8c999",
+    "kind": "unarmed",
+    "name": "擒抱（UA 简易）",
+    "source": "UA",
+    "href": "/books/ua/ua-appendix-q-weaponless-combat/",
+    "values": {
+      "style": "擒抱（UA 简易）",
+      "form": "系统 I",
+      "combatRule": "ua-simple",
+      "maneuvers": "标准命中矩阵；力量命中调整；先攻−2。伤害与目标限制见原条目。"
+    },
+    "description": "UA 附录 Q 系统 I；与系统 II、DMG 程序分开。"
+  },
+  {
+    "id": "ua-unarmed-c12592c90ad8",
+    "kind": "unarmed",
+    "name": "压制（UA 简易）",
+    "source": "UA",
+    "href": "/books/ua/ua-appendix-q-weaponless-combat/",
+    "values": {
+      "style": "压制（UA 简易）",
+      "form": "系统 I",
+      "combatRule": "ua-simple",
+      "maneuvers": "标准命中矩阵；力量命中调整；先攻−2。伤害与目标限制见原条目。"
+    },
+    "description": "UA 附录 Q 系统 I；与系统 II、DMG 程序分开。"
+  },
+  {
+    "id": "oa-unarmed-875a89b2fb60",
+    "kind": "unarmed",
+    "name": "踢法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "踢法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：踢；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-2131edb7f843",
+    "kind": "unarmed",
+    "name": "锁法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "锁法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：锁；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-501b16748666",
+    "kind": "unarmed",
+    "name": "移动法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "移动法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：移动；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-ebcda391e971",
+    "kind": "unarmed",
+    "name": "推法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "推法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：推；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-8e063e8c973d",
+    "kind": "unarmed",
+    "name": "打法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "打法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：打；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-ca2b11849f78",
+    "kind": "unarmed",
+    "name": "投法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "投法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：投；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-a200c01b51b1",
+    "kind": "unarmed",
+    "name": "要害法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "要害法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：要害；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  },
+  {
+    "id": "oa-unarmed-85a47002481b",
+    "kind": "unarmed",
+    "name": "武器法流派（自建）",
+    "source": "OA",
+    "href": "/books/oa/oa-combat/",
+    "values": {
+      "style": "武器法流派",
+      "form": "待选刚／柔／刚柔",
+      "maneuvers": "主要方法：武器；特殊动作需学习"
+    },
+    "description": "OA 表 68–70：流派由形式、主要方法和已学特殊动作组成；完成组合后按原表填写 AC、攻击次数与伤害。"
+  }
+]

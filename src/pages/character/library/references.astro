@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import {references} from '../../../character/ref2/references';
+---
+<BaseLayout title="人物技艺与财宝资料库"><h1>人物技艺与财宝资料库</h1>
+<p>熟练项保留不同来源的检定方式；徒手流派按采用的战斗程序填写。宝石价格为基础价值。</p>
+<label>查找 <input id="reference-search" type="search" /></label>
+<button id="reference-apply" type="button" hidden>带回人物卡</button>
+<table class="data-table"><thead><tr><th>选择</th><th>条目</th><th>规则摘要</th><th>来源</th></tr></thead><tbody>
+{references.map(record=><tr data-reference-id={record.id} data-kind={record.kind}><td><input type="checkbox" value={record.id} aria-label={`选择${record.name}`} /></td><td>{record.name}</td><td>{record.description}</td><td><a href={record.href} target="_blank">{record.source} 原文 ↗</a></td></tr>)}
+</tbody></table>
+<script>
+const rows=[...document.querySelectorAll<HTMLTableRowElement>('[data-reference-id]')],params=new URLSearchParams(location.search),kind=params.get('kind'),picker=window.parent!==window;
+const search=document.querySelector<HTMLInputElement>('#reference-search')!,apply=document.querySelector<HTMLButtonElement>('#reference-apply')!;
+function filter(){for(const row of rows)row.hidden=!!kind&&row.dataset.kind!==kind||!row.textContent!.toLowerCase().includes(search.value.toLowerCase());}
+search.addEventListener('input',filter);filter();apply.hidden=!picker;
+apply.addEventListener('click',()=>parent.postMessage({type:'adnd1e-references-selected',kind,ids:rows.filter(row=>row.dataset.kind===kind&&row.querySelector<HTMLInputElement>('input')!.checked).map(row=>row.dataset.referenceId)},location.origin));
+window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-reference-selection'||!Array.isArray(event.data.ids))return;for(const row of rows)row.querySelector<HTMLInputElement>('input')!.checked=event.data.ids.includes(row.dataset.referenceId);});
+if(picker)parent.postMessage({type:'adnd1e-reference-ready'},location.origin);
+</script>
+</BaseLayout>
