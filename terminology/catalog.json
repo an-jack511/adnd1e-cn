@@ -184318,6 +184318,11 @@
           "zh": "通联术"
         },
         {
+          "path": "src/data/public/spell-index.json",
+          "location": "/861",
+          "zh": "通联术"
+        },
+        {
           "path": "src/published/books/dragon-68/cloistered-spells.md",
           "location": "201",
           "zh": "通联术"
@@ -186312,6 +186317,39 @@
       "notes": []
     },
     {
+      "key": "spell:death prayer",
+      "category": "spell",
+      "en": "Death Prayer",
+      "zh": "临终祷告",
+      "englishVariants": [
+        "Death Prayer"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "@library",
+          "location": "",
+          "zh": "临终祷告"
+        },
+        {
+          "path": "src/data/public/dragon-spells.json",
+          "location": "/102",
+          "zh": "临终祷告"
+        },
+        {
+          "path": "src/published/books/dragon-58/new-spells.md",
+          "location": "87",
+          "zh": "临终祷告"
+        }
+      ],
+      "activeIds": [
+        "dragon-058-spell-death-prayer"
+      ],
+      "status": "pending",
+      "references": [],
+      "notes": []
+    },
+    {
       "key": "spell:death spell",
       "category": "spell",
       "en": "Death Spell",
@@ -186828,6 +186866,11 @@
         {
           "path": "src/data/public/dragon-spells.json",
           "location": "/99",
+          "zh": "侦测诅咒"
+        },
+        {
+          "path": "src/data/public/spell-index.json",
+          "location": "/859",
           "zh": "侦测诅咒"
         },
         {
@@ -194448,6 +194491,11 @@
         {
           "path": "src/data/public/dragon-spells.json",
           "location": "/96",
+          "zh": "掌火术"
+        },
+        {
+          "path": "src/data/public/spell-index.json",
+          "location": "/856",
           "zh": "掌火术"
         },
         {
@@ -210261,6 +210309,11 @@
           "zh": "抄写术"
         },
         {
+          "path": "src/data/public/spell-index.json",
+          "location": "/857",
+          "zh": "抄写术"
+        },
+        {
           "path": "src/published/books/dragon-68/cloistered-spells.md",
           "location": "121",
           "zh": "抄写术"
@@ -210291,6 +210344,11 @@
         {
           "path": "src/data/public/dragon-spells.json",
           "location": "/100",
+          "zh": "卷轴术"
+        },
+        {
+          "path": "src/data/public/spell-index.json",
+          "location": "/860",
           "zh": "卷轴术"
         },
         {
@@ -216182,6 +216240,11 @@
         {
           "path": "src/data/public/dragon-spells.json",
           "location": "/98",
+          "zh": "译读术"
+        },
+        {
+          "path": "src/data/public/spell-index.json",
+          "location": "/858",
           "zh": "译读术"
         },
         {

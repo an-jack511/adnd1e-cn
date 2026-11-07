@@ -4749,5 +4749,52 @@
       "杂志版",
       "Dragon #68"
     ]
+  },
+  {
+    "level": 2,
+    "school": "祈唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 回合",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "一具尸体",
+    "savingThrow": "抵消",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "圣水；邪恶牧师改用邪水。",
+    "id": "dragon-058-spell-death-prayer",
+    "nameZh": "临终祷告",
+    "nameEn": "Death Prayer",
+    "description": "牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭活化死尸。",
+    "details": [
+      {
+        "title": "Dragon #58 · 临终祷告",
+        "html": "<p>牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭活化死尸。</p><p>按死者生前等级进行豁免；即使获得法术或魔法物品加值，所需点数也不能低于 d20 掷出 12。失败则照常转化为相应不死生物；成功则遗体化为尘埃，永久失去任何用途。适用于尸妖、缚灵、幽魂、吸血鬼、食尸鬼、妖鬼，以及其他能够使受害者变成同类的不死生物。</p><p>死者交谈的施法者必须高于施放本法术的牧师等级，才能联系受保护者；一旦成功，本法术的保护即消失，不能重新施加。保护期间，死者复活或复生术的成功率降低 25%。</p><p>解除魔法无法移除保护，祈愿术或有限许愿术可以。探知这项法术是否生效，也至少需要有限许愿术或祈愿术。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 73,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-58/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 73,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #58"
+    ]
   }
 ]
