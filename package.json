@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "tsx scripts/import/library-index.ts && tsx scripts/validate-data.ts && tsx scripts/terminology/check.ts",
+    "prebuild": "tsx scripts/import/monster-reading.ts && tsx scripts/import/library-index.ts && tsx scripts/validate-data.ts && tsx scripts/terminology/check.ts",
     "build": "astro build",
     "preview": "astro preview",
     "validate:data": "tsx scripts/validate-data.ts",
@@ -17,6 +17,7 @@
     "check:character-release": "tsx scripts/check-character-release.ts",
     "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",
     "test:library": "tsx scripts/test-library.ts",
+    "test:reading-layout": "tsx scripts/test-reading-layout.ts",
     "test:library-presentation": "tsx scripts/test-library-presentation.ts",
     "import:spell-rules": "tsx scripts/import/spell-rules.ts",
     "import:ua-prices": "tsx scripts/import/ua-prices.ts && tsx scripts/import/library-index.ts",

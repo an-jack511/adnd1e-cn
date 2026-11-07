@@ -1,0 +1,14 @@
+---
+interface Props {reading:{html:string;headings:{id:string;title:string}[];collection:boolean;href:string}}
+const {reading}=Astro.props;
+---
+{reading.collection && <p class="notice">本条目包含多个类型或个体。各自的数据与能力列于下方，共通规则见总则。</p>}
+{reading.headings.length>1 && <nav class="monster-sections" aria-label="本条目目录"><strong>本条目目录</strong><ul>{reading.headings.map(heading=><li><a href={`#${heading.id}`}>{heading.title}</a></li>)}</ul></nav>}
+<div class="monster-reading book-body" set:html={reading.html} />
+<p class="source-list"><a href={reading.href}>阅读规则书完整出处 ↗</a></p>
+<style>
+ .monster-sections{padding:1rem;border:1px solid var(--border);margin-block:1rem;}
+ .monster-sections ul{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;padding-left:1.25rem;}
+ .monster-reading :global(h2),.monster-reading :global(h3){margin-top:2rem;scroll-margin-top:5rem;}
+ .monster-reading :global(table){max-width:100%;margin-block:1rem;}
+</style>

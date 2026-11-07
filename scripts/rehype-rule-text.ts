@@ -1,4 +1,4 @@
-import {isPageHeading,translateRuleText} from '../src/utils/rule-text';
+import {isPageHeading,translateRuleText,translateRuleHeading} from '../src/utils/rule-text';
 import {createRequire} from 'node:module';
 import {pathToFileURL} from 'node:url';
 const projectRequire=createRequire(new URL('../package.json',import.meta.url));
@@ -17,6 +17,7 @@ export default function ruleText(){
     const original=text(node),id=slugger.slug(original);
     node.properties={...node.properties,id:node.properties?.id??id};
     if(isPageHeading(original)){node.tagName='p';node.properties.className=['source-page-number'];node.children?.unshift({type:'text',value:'出处：'});}
+    else if(translateRuleHeading(original)!==original)node.children=[{type:'text',value:translateRuleHeading(original)}];
    }
    if(node.type==='text'&&node.value)node.value=translateRuleText(node.value);
    node.children?.forEach(visit);

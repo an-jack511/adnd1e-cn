@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import directory from '../../data/public/book-directory.json';
 import { books } from '../../data/public/books';
-import published from '../../data/published/books.json';
+import published from '../../data/published/topics';
 const catalog = [...directory,...books.filter(book=>!directory.some(entry=>entry.id===book.id)&&published.some(topic=>topic.book===book.id)).map(book=>({...book,group:'其他资料 Other Resources',archive:''}))];
 const groups = [...new Set(catalog.map(book=>book.group))];
 ---

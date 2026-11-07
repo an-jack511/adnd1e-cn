@@ -8,7 +8,7 @@ import { races } from '../data/public/races';
 import { rules } from '../data/public/rules';
 import { playPages } from '../data/public/play';
 import {quickLinks,quickChecks,timingTerms,termLabels} from '../data/public/combat-guide';
-import published from '../data/published/books.json';
+import published from '../data/published/topics';
 import bookSearch from '../data/published/book-search.json';
 
 export const GET: APIRoute = () => {

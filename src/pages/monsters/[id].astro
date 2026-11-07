@@ -5,13 +5,16 @@ import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { monsters } from '../../data/public/monsters';
 import { monsterSizeLabel } from '../../utils/monster-size';
+import MonsterReading from '../../components/MonsterReading.astro';
+import readings from '../../data/public/monster-reading.json';
 export function getStaticPaths() { return monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
 const { monster } = Astro.props;
+const reading=(readings as Record<string,{html:string;headings:{id:string;title:string}[];collection:boolean;href:string}>)[monster.id];
 ---
 <BaseLayout title={`${monster.nameZh} ${monster.nameEn}`} description={`${monster.nameZh}（${monster.nameEn}）AD&D 1E 怪物条目。`}>
   <article class="library-entry">
     <header class="entry-header"><h1>{monster.nameZh}</h1><div class="english">{monster.nameEn}</div></header>
-    <table class="statblock"><tbody>
+    {!reading && <table class="statblock"><tbody>
       <tr><th scope="row">频率 Frequency</th><td>{monster.frequency}</td></tr>
       <tr><th scope="row">出现数量 No. Appearing</th><td>{monster.numberAppearing}</td></tr>
       <tr><th scope="row">护甲等级 AC</th><td>{monster.armorClassText ?? monster.armorClass ?? '未知'}</td></tr>
@@ -29,10 +32,10 @@ const { monster } = Astro.props;
       <tr><th scope="row">体型 Size</th><td>{monsterSizeLabel(monster.size)}{!/[\u3400-\u9fff]/.test(monster.size) && /^[SML]$/.test(monster.size) ? null : ` · ${monster.size}`}</td></tr>
       <tr><th scope="row">灵能 Psionics</th><td>{monster.psionics}</td></tr>
       <tr><th scope="row">环境 Environment</th><td>{monster.environment}</td></tr>
-    </tbody></table>
-    {monster.details?.length ? <LibraryRules prefix={monster.id} details={monster.details} /> : <p>{monster.description}</p>}
+    </tbody></table>}
+    {reading ? <MonsterReading reading={reading} /> : monster.details?.length ? <LibraryRules prefix={monster.id} details={monster.details} /> : <p>{monster.description}</p>}
     {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
-    {!monster.details?.length && <PublishedLinks kind="monster" id={monster.id} />}
+    {!reading && !monster.details?.length && <PublishedLinks kind="monster" id={monster.id} />}
     <SourceList sources={monster.source} />
     <p><a href="/monsters">← 返回怪物合集</a></p>
   </article>

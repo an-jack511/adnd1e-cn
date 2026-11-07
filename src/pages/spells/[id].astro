@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { spells } from '../../data/public/spells';
-import { englishSpellSchool } from '../../utils/spell-schools';
+import { bilingualSpellSchool } from '../../utils/spell-schools';
 export function getStaticPaths() { return spells.map((spell) => ({ params: { id: spell.id }, props: { spell } })); }
 const { spell } = Astro.props;
 ---
@@ -12,7 +12,7 @@ const { spell } = Astro.props;
   <article class="library-entry">
     <header class="entry-header"><h1>{spell.nameZh}</h1><div class="english">{spell.nameEn} · {spell.classes.join(' / ')}</div></header>
     <div class="entry-meta">
-      <div><dt>环级</dt><dd>{spell.level}</dd></div><div><dt>学派</dt><dd>{englishSpellSchool(spell.school)}</dd></div><div><dt>成分</dt><dd>{spell.components.join(' / ')}</dd></div><div><dt>施法时间</dt><dd>{spell.castingTime}</dd></div>
+      <div><dt>环级</dt><dd>{spell.level}</dd></div><div><dt>学派</dt><dd>{bilingualSpellSchool(spell.school)}</dd></div><div><dt>成分</dt><dd>{spell.components.join(' / ')}</dd></div><div><dt>施法时间</dt><dd>{spell.castingTime}</dd></div>
       <div><dt>距离</dt><dd>{spell.range}</dd></div><div><dt>持续时间</dt><dd>{spell.duration}</dd></div><div><dt>范围</dt><dd>{spell.areaOfEffect}</dd></div><div><dt>豁免</dt><dd>{spell.savingThrow}</dd></div>
     </div>
     {spell.reversible && <p class="notice"><strong>可逆法术：</strong>请同时查阅正向与逆向效果。</p>}

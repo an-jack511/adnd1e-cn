@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import { books } from '../../data/public/books';
-import published from '../../data/published/books.json';
+import published from '../../data/published/topics';
 import reading from '../../data/public/book-reading.json';
 import { continuationParent } from '../../utils/book-continuations';
 export function getStaticPaths() { return books.map((book) => ({ params: { id: book.id }, props: { book } })); }
