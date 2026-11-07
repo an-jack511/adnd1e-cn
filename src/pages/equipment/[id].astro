@@ -3,9 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import LibraryRules from '../../components/LibraryRules.astro';
 import WeaponCombat from '../../components/WeaponCombat.astro';
+import {uaEquipmentLinks} from '../../utils/merge-ua-equipment';
 import { items } from '../../data/public/items';
-export function getStaticPaths() { return items.map((item) => ({ params: { id: item.id }, props: { item } })); }
-const { item } = Astro.props;
+export function getStaticPaths() { return [...items.map((item) => ({ params: { id: item.id }, props: { item,redirectTo:undefined } })),...Object.entries(uaEquipmentLinks).map(([id,targetId])=>({params:{id},props:{item:items.find(item=>item.id===targetId)!,redirectTo:`/equipment/${targetId}/`}}))]; }
+const { item,redirectTo } = Astro.props;
+if(redirectTo)return Astro.redirect(redirectTo,301);
 ---
 <BaseLayout title={`${item.nameZh} ${item.nameEn}`}><article class="library-entry">
   <header class="entry-header"><h1>{item.nameZh}</h1><div class="english">{item.nameEn} · {item.category}</div></header>

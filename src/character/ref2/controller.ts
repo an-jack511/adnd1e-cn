@@ -11,6 +11,7 @@ import { abilityAdjustment } from '../../rules-engine/abilities';
 import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement, type Ability } from '../../rules-engine/character';
 import { blankCard, blankRow, collectionNames, normalizeCard, selectPrepared, selectInventory, type Card, type CollectionName, type Row } from './model';
 import {fillWeapon,selectWeapons} from './weapons';
+import {updateCardSpellSlots} from './spell-capacity';
 
 type Control = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
 const form = document.querySelector<HTMLFormElement>('#character-form')!;
@@ -72,6 +73,13 @@ function applyCard(next:Card) {
 }
 function update() {
   collect();
+  const spellCapacity=updateCardSpellSlots(card.fields);
+  for(let level=0;level<=9;level++) {
+    const name=`spell_slots_${level}`;
+    set(name,String(card.fields[name]??''));
+    (field(name) as HTMLInputElement).readOnly=!checked('manual_spell_slots');
+  }
+  document.querySelector('#spell-capacity-note')!.textContent=checked('manual_spell_slots')?'已手动填写；取消勾选可恢复按职业等级自动计算。':spellCapacity.note;
   form.querySelectorAll<HTMLInputElement>(".row-note input").forEach(input=>input.toggleAttribute("data-filled",!!input.value.trim()));
   const abilities=['STR','INT','WIS','DEX','CON','CHA'] as Ability[];
   const exceptional=value('STR')==='18' && ['fighter','paladin','ranger','cavalier','barbarian'].includes(value('class'));
@@ -119,6 +127,13 @@ function update() {
     const limit=value(`spell_slots_${level}`), used=card.preparedSpells.reduce((sum,entry)=>sum+(spells.find(spell=>spell.id===entry.spellId)?.level===level ? entry.count : 0),0);
     if (limit!=='' && used>Number(limit)) messages.push(`${level}环准备 ${used} 次，超过填写的 ${limit} 个法术位。`);
   }
+  if (!checked('manual_spell_slots') && spellCapacity.tracks.length>1) for (const track of spellCapacity.tracks) track.daily.forEach((limit,index)=>{
+    const used=card.preparedSpells.reduce((sum,entry)=>{
+      const spell=spells.find(spell=>spell.id===entry.spellId);
+      return sum+(spell?.level===index+1 && spell.classes.includes(track.listId==='druid'?'Druid':'Magic-User')?entry.count:0);
+    },0);
+    if (used>limit) messages.push(`${track.label} ${index+1}环准备 ${used} 次，超过该法术表的 ${limit} 个法术位。`);
+  });
   document.querySelector('#rule-status')!.textContent=messages.length ? `${checked('dm_override') ? '已手动覆盖资格限制；' : ''}请核对 ${messages.length} 项` : '当前已填写项目未发现规则冲突。';
   document.querySelector('#rule-hints')!.replaceChildren(...messages.map(message=>{const li=document.createElement('li');li.textContent=message;return li;}));
 }

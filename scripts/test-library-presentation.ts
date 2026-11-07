@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {spells} from '../src/data/public/spells';
 import {items} from '../src/data/public/items';
+import {canonicalItemId} from '../src/utils/merge-ua-equipment';
 import {classes} from '../src/data/public/classes';
 import {englishSpellSchool} from '../src/utils/spell-schools';
 import {formatItemPrice} from '../src/utils/item-price';
@@ -26,7 +27,7 @@ for(const spell of spells){
 assert.equal(englishSpellSchool('防护系 Abjuration；咒法／召唤系 Conjuration/Summoning'),'Abjuration, Conjuration/Summoning');
 assert.equal(englishSpellSchool('幻术／魅影系'),'Illusion/Phantasm');
 for(const item of items)assert.match(item.price,/^(?:\/|\d[\d,.／/–—−\- ]* (?:gp|sp|cp|ep|pp|ch'ien|tael|yuan|fen)(?:\/[^\n]+)?)$/,`Price: ${item.id} ${item.price}`);
-const price=(id:string)=>items.find(item=>item.id===id)!.price;
+const price=(id:string)=>items.find(item=>item.id===canonicalItemId(id))!.price;
 assert.equal(price('ua-weapon-crossbow-hand'),'300 gp');
 assert.equal(price('ua-weapon-sword-short'),'8 gp');
 assert.equal(price('ua-weapon-whip'),'3 gp');

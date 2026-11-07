@@ -1,3 +1,4 @@
+import {mergeUaEquipment} from '../../utils/merge-ua-equipment';
 import regional from './regional-items.json';
 import {canonicalName} from '../../utils/terminology';
 import type {Item} from '../../schemas';
@@ -8,7 +9,7 @@ import {classifyItem,isMagicItem} from '../../utils/item-classification';
 import {formatItemPrice} from '../../utils/item-price';
 import uaPrices from './ua-equipment-prices.json';
 const enrichment=details as Record<string,Partial<Item>>;
-export const items:Item[]=[...baseItems,...additions as Item[],...regional as Item[]].map(item=>{
+const preparedItems:Item[]=[...baseItems,...additions as Item[],...regional as Item[]].map(item=>{
  const extra=enrichment[item.id]??{};
  const xpValue=item.description.match(/XP[：:]\s*([^；。]+)/)?.[1];
  const listed=uaPrices as Record<string,{price:string;source:Item['source'][number];note?:string}>;
@@ -20,4 +21,5 @@ export const items:Item[]=[...baseItems,...additions as Item[],...regional as It
  const sources=[...next.source,...(next.details??[]).map(detail=>detail.source)];
  return {...next,...taxonomy,nameZh:canonicalName('item',next.nameEn,next.nameZh.replace(/[（(]$/,'').trim()),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};
 });
+export const items:Item[]=mergeUaEquipment(preparedItems);
 export {isMagicItem};

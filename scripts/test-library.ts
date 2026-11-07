@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {items} from '../src/data/public/items';
 import {baseItems} from '../src/data/public/items-base';
+import {canonicalItemId} from '../src/utils/merge-ua-equipment';
 import {classes} from '../src/data/public/classes';
 import {races} from '../src/data/public/races';
 import {blankCard,normalizeCard,selectInventory} from '../src/character/ref2/model';
@@ -9,7 +10,7 @@ import {priceInGold} from '../src/utils/item-price';
 import {isMagicItem} from '../src/utils/item-classification';
 import topics from '../src/data/published/books.json';
 const byId=(id:string)=>{const item=items.find(item=>item.id===id);assert.ok(item,id);return item;};
-for(const old of baseItems)assert.ok(items.some(item=>item.id===old.id),`Keep saved-card IDs and URLs: ${old.id}`);
+for(const old of baseItems)assert.ok(items.some(item=>item.id===canonicalItemId(old.id)),`Keep saved-card IDs and URLs: ${old.id}`);
 for(const item of items){
  assert.ok(item.nameZh&&item.nameEn&&item.description,item.id);
  if(isMagicItem(item)){assert.equal(item.category,'魔法物品',item.id);assert.ok(item.details?.length,`Rules missing: ${item.id}`);assert.ok(!/DMG 表列 XP/.test(item.description),`Table-only description: ${item.id}`);}

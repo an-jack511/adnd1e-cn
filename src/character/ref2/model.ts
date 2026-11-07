@@ -1,5 +1,6 @@
 import {itemSelectionKind} from '../../utils/item-selection';
 import {cardName} from './labels';
+import {canonicalItemId} from '../../utils/merge-ua-equipment';
 export const CARD_FORMAT = 'adnd1e-ref2-card';
 export type Fields = Record<string, string | boolean>;
 export type Row = { id: string; values: Record<string, string> };
@@ -12,7 +13,7 @@ const object = (value: unknown): value is Record<string, unknown> => !!value && 
 const integer = (value: unknown, fallback: number) => Math.max(0, Math.min(9999, Number.isFinite(Number(value)) ? Math.floor(Number(value)) : fallback));
 export const blankRow = (): Row => ({ id: crypto.randomUUID(), values: {} });
 export function blankCard(): Card {
-  return { format: CARD_FORMAT, version: 1, fields: { level: '1' }, rows: Object.fromEntries(collectionNames.map(key => [key, Array.from({length: initialRows[key]}, blankRow)])) as Card['rows'], preparedSpells: [] };
+  return { format: CARD_FORMAT, version: 1, fields: { level: '1', manual_spell_slots:false }, rows: Object.fromEntries(collectionNames.map(key => [key, Array.from({length: initialRows[key]}, blankRow)])) as Card['rows'], preparedSpells: [] };
 }
 export function normalizeCard(value: unknown): Card {
   if (!object(value)) throw new Error('文件内容不是人物卡。');
@@ -25,6 +26,7 @@ export function normalizeCard(value: unknown): Card {
   // Retain unknown top-level fields so a round trip does not discard extensions.
   if (current) Object.assign(card, value);
   card.fields = Object.fromEntries(Object.entries(fields).filter(([,entry]) => typeof entry === 'string' || typeof entry === 'number' || typeof entry === 'boolean').map(([key,entry]) => [key,typeof entry === 'boolean' ? entry : String(entry)]));
+  if (!('manual_spell_slots' in card.fields) && Object.entries(card.fields).some(([key,entry])=>/^spell_slots_\d$/.test(key) && String(entry).trim()!=='')) card.fields.manual_spell_slots=true;
   card.rows = {} as Card['rows'];
   for (const key of collectionNames) {
     if (current) {
@@ -51,6 +53,11 @@ export function normalizeCard(value: unknown): Card {
     for (const [key,entry] of Object.entries(card.fields)) if (/^spell_\d+$/.test(key) && typeof entry === 'string' && entry) prepared.set(entry,(prepared.get(entry) ?? 0)+1);
     card.preparedSpells = [...prepared].map(([spellId,count])=>({spellId,count,expended:0}));
     if (card.fields.ac && !('manual_ac' in card.fields) && !card.fields.armor_item) card.fields.manual_ac=true;
+  }
+  for(const name of ['armor_item','shield_item']) if(typeof card.fields[name]==='string')card.fields[name]=canonicalItemId(card.fields[name] as string);
+  for(const row of [...card.rows.weapons,...card.rows.gear])for(const key of ['name','item','itemId','weaponPickerId','weaponDataSource'])if(row.values[key]) {
+    const missile=row.values[key].endsWith('::missile'), id=missile?row.values[key].slice(0,-9):row.values[key];
+    row.values[key]=canonicalItemId(id)+(missile?'::missile':'');
   }
   return card;
 }

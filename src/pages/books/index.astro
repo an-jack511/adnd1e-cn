@@ -3,7 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import directory from '../../data/public/book-directory.json';
 import { books } from '../../data/public/books';
 import published from '../../data/published/topics';
-const catalog = [...directory,...books.filter(book=>!directory.some(entry=>entry.id===book.id)&&published.some(topic=>topic.book===book.id)).map(book=>({...book,group:'其他资料 Other Resources',archive:''}))];
+import {groupBookCatalog} from '../../utils/book-catalog';
+const {books:catalog,dragon} = groupBookCatalog([...directory,...books.filter(book=>!directory.some(entry=>entry.id===book.id)&&published.some(topic=>topic.book===book.id)).map(book=>({...book,group:'其他资料 Other Resources',archive:''}))]);
 const groups = [...new Set(catalog.map(book=>book.group))];
 ---
 <BaseLayout title="规则书">
@@ -16,4 +17,6 @@ const groups = [...new Set(catalog.map(book=>book.group))];
       return <tr><td><a href={href}>{book.titleZh}</a></td><td>{book.title}</td><td>{book.short}</td><td><a href={href}>阅读</a></td></tr>;
     })}</tbody>
   </table></div></section>)}
+  {dragon.length>0 && <section><h2>杂志资料</h2><details class="dragon-catalog"><summary>龙杂志 Dragon · 已收录 {dragon.length} 期</summary><p>按期号排列；每期保留原有文章、规则与出处。</p><ul>{dragon.map(book=><li><a href={`/books/${book.id}/`}>{book.titleZh} <small>{book.short}</small></a></li>)}</ul></details></section>}
 </BaseLayout>
+<style>.dragon-catalog {border:1px solid var(--border,#aab3a3);padding:1rem}.dragon-catalog summary {cursor:pointer;font-weight:700}.dragon-catalog ul {display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.65rem;list-style:none;padding:0}.dragon-catalog small {opacity:.75}</style>
