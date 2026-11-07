@@ -4,11 +4,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import PublishedLinks from '../../components/PublishedLinks.astro';
 import { monsters } from '../../data/public/monsters';
+import dragonVersions from '../../data/public/dragon-monster-versions.json';
 import { monsterSizeLabel } from '../../utils/monster-size';
 import MonsterReading from '../../components/MonsterReading.astro';
 import readings from '../../data/public/monster-reading.json';
-export function getStaticPaths() { return monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })); }
-const { monster } = Astro.props;
+export function getStaticPaths() { return [...monsters.map((monster) => ({ params: { id: monster.id }, props: { monster } })),...Object.entries(dragonVersions).map(([id,link])=>({params:{id},props:{monster:monsters.find(monster=>monster.id===link.targetId)!,redirectTo:link.targetId}}))]; }
+const { monster,redirectTo } = Astro.props;
+if(redirectTo)return Astro.redirect(`/monsters/${redirectTo}/`,301);
 const reading=(readings as Record<string,{html:string;headings:{id:string;title:string}[];collection:boolean;href:string}>)[monster.id];
 ---
 <BaseLayout title={`${monster.nameZh} ${monster.nameEn}`} description={`${monster.nameZh}（${monster.nameEn}）AD&D 1E 怪物条目。`}>
@@ -34,6 +36,7 @@ const reading=(readings as Record<string,{html:string;headings:{id:string;title:
       <tr><th scope="row">环境 Environment</th><td>{monster.environment}</td></tr>
     </tbody></table>}
     {reading ? <MonsterReading reading={reading} /> : monster.details?.length ? <LibraryRules prefix={monster.id} details={monster.details} /> : <p>{monster.description}</p>}
+    {reading&&<LibraryRules preserveTitles prefix={monster.id} details={monster.details?.filter(detail=>/^Dragon #\d+$/.test(detail.source.book))} />}
     {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
     {!reading && !monster.details?.length && <PublishedLinks kind="monster" id={monster.id} />}
     <SourceList sources={monster.source} details={monster.details} />

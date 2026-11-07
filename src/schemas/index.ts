@@ -31,6 +31,7 @@ export const SpellSchema = z.object({
 });
 
 export const MonsterSchema = z.object({
+  aliases: z.array(z.string()).optional(),
   id: z.string(),
   nameZh: z.string(),
   nameEn: z.string(),

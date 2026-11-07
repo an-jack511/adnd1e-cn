@@ -1,6 +1,4 @@
 ﻿category	English	Chinese	status	verificationScope	oldChinese	EnglishVariants	editions	sourceURLs	accessed
-candidate	Goat	山羊	pending	pending		Goat			
-candidate	Mule	骡	pending	pending		Mule			
 class	Alchemist	炼金师	pending	pending		Alchemist			
 class	Alchemist (NPC)	炼金师（摩尔NPC方案）	pending	pending		Alchemist (NPC)			
 class	Alchemist (variant)	炼金师（拉科夫卡等级方案）	pending	pending		Alchemist (variant)			
@@ -578,6 +576,7 @@ heading	Create Spring	创造泉水	pending	pending		Create Spring
 heading	Creating the Player Character	创建玩家角色	pending	pending		Creating the Player Character			
 heading	Creation of Holy/Unholy Water	制作圣水／邪水	pending	pending		Creation of Holy/Unholy Water			
 heading	Creature Alignments and Layers	外层位面与阵营	pending	pending		Creature Alignments and Layers			
+heading	Creature Catalog II	怪物志	pending	pending		Creature Catalog II			
 heading	Creature Encounters	生物遭遇	pending	pending		Creature Encounters			
 heading	Creature Notes	第 22 页：生物说明	pending	pending	生物说明	Creature Notes			
 heading	Creature Statistics	生物数据	pending	pending		Creature Statistics			
@@ -748,7 +747,7 @@ heading	Dragon Eggs Stolen	287：龙蛋被偷	pending	pending		Dragon Eggs Stole
 heading	Dragon General Rules	龙总则 ·	pending	pending		Dragon General Rules			
 heading	Dragon Rules	龙的规则	pending	pending		Dragon Rules			
 heading	Dragon Subtable	龙类子表	pending	pending	龙类子表 ·	Dragon Subtable			
-heading	Dragon's Bestiary	巴盖斯特魔犬	pending	pending	库贾努克圣鸟	Dragon's Bestiary			
+heading	Dragon's Bestiary	巴盖斯特魔犬	pending	pending	库贾努克圣鸟; 怪物志	Dragon's Bestiary			
 heading	Dragoneye Dealing Coster	龙眼贸易科斯特	pending	pending		Dragoneye Dealing Coster			
 heading	DRAGONLANCE Saga Proficiencies	龙枪传奇专长	pending	pending		DRAGONLANCE Saga Proficiencies			
 heading	Dragonnel, Drelb, and Drider	Dragonnel、Drelb 与 Drider	pending	pending		Dragonnel, Drelb, and Drider			
@@ -957,7 +956,7 @@ heading	Fatigue and Exhaustion	疲劳与力竭	pending	pending	疲劳与精疲�
 heading	Fauchard-guisarme	长柄镰钩	pending	pending		Fauchard-guisarme			
 heading	FEATHERDALE	羽谷	pending	pending		FEATHERDALE			
 heading	Featured Creature	核心生物	pending	pending		Featured Creature			
-heading	Featured Creatures	核心生物	pending	pending		Featured Creatures			
+heading	Featured Creatures	核心生物	pending	pending	怪物志	Featured Creatures			
 heading	Featured Villain	核心反派	pending	pending		Featured Villain			
 heading	Features	设施	pending	pending	元素空气的特征; 副元素位面的特征; 特征; 能量位面的特征	Features			
 heading	Features of Elemental Earth	元素土位面的特征	pending	pending		Features of Elemental Earth			
@@ -1233,6 +1232,7 @@ heading	Hazards of the Underearth	地下世界的危险	pending	pending		Hazards
 heading	Head of the Conclave	法术议会首脑	pending	pending		Head of the Conclave			
 heading	Head of the Order of Black Robes	黑袍教团首脑	pending	pending		Head of the Order of Black Robes			
 heading	Head of the Order of Red Robes	红袍教团首脑	pending	pending		Head of the Order of Red Robes			
+heading	Hearts of Darkness	怪物志	pending	pending		Hearts of Darkness			
 heading	Hebephrenia	18. 青春型痴呆	pending	pending		Hebephrenia			
 heading	Height and Weight Determination	身高与体重判定	pending	pending		Height and Weight Determination			
 heading	Height and Weight Tables	身高与体重表	pending	pending		Height and Weight Tables			
@@ -3065,6 +3065,7 @@ heading	Weretiger	虎人	pending	pending		Weretiger
 heading	WESTGATE	西门	pending	pending		WESTGATE			
 heading	Westgate and Map Key	西门与地图索引	pending	pending		Westgate and Map Key			
 heading	WESTGATE KEY	西门地图索引	pending	pending		WESTGATE KEY			
+heading	What's That In the Water?	怪物志	pending	pending		What's That In the Water?			
 heading	Whip	鞭子	pending	pending	长鞭; 长鞭子; 鞭术	Whip			
 heading	Whirlwind	旋风	pending	pending		Whirlwind			
 heading	Whisper	Whisper	pending	pending		Whisper			
@@ -4492,10 +4493,11 @@ monster	Badger	獾	verified-exact	whole-name		Badger	5E; 5R	https://5e.kiwee.top
 monster	Bael	巴艾尔	verified-exact	whole-name	贝尔; 贝尔 ·	Bael	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-07
 monster	Bajang	巴江（低等灵）	pending	pending	巴江（低等灵） ·	Bajang			
 monster	Bakemono	化物	pending	pending	化物 ·	Bakemono			
-monster	Baku	巴库	pending	pending	巴库 ·	Baku			
+monster	Baku	巴库	pending	pending	巴库 ·; 貘	Baku			
 monster	Baluchitherium	巴卢奇兽	pending	pending		Baluchitherium			
 monster	Banderlog	班德罗格猿	pending	pending	班德罗格猿 ·	Banderlog			
 monster	Bane-midge	灾祸小虫	pending	pending		Bane-midge			
+monster	Baobhan Sith	巴欧班希吸血妖	pending	pending		Baobhan Sith			
 monster	Baphomet	巴弗灭	verified-exact	whole-name	巴风特; 巴风特 ·	Baphomet	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-07
 monster	Bar-Lgura	巴尔古拉魔	pending	pending	巴尔古拉魔 ·	Bar-Lgura			
 monster	Barbed Devil	猬魔	verified-exact	whole-name	倒刺魔; 棘魔	Barbed Devil	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-wtthc.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4515,16 +4517,22 @@ monster	Beaver, Giant	巨型海狸	pending	pending		Beaver, Giant
 monster	Bee, Giant	巨蜂	pending	pending	巨蜂 ·	Bee, Giant			
 monster	Beetle, Death Watch	报死甲虫	pending	pending	报死甲虫 ·	Beetle, Death Watch			
 monster	Beetle, Slicer	切割甲虫	pending	pending	切割甲虫 ·	Beetle, Slicer			
+monster	Beguiler	幻惑兽	pending	pending		Beguiler			
 monster	Behemoth	巨兽	pending	pending	巨兽 ·	Behemoth			
 monster	Behir	青足龙蛇	verified-exact	whole-name	贝希摩斯	Behir	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Beholder	眼魔	verified-exact	whole-name		Beholder	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Belabra	缠缚兽	pending	pending		Belabra			
 monster	Belial	贝利亚	verified-exact	whole-name	贝利亚 ·	Belial	5E	https://5e.kiwee.top/data/bestiary/bestiary-coa.json	2026-11-07
 monster	Berbalang	分灵妖	verified-exact	whole-name	贝尔巴朗; 贝尔巴朗 ·	Berbalang	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-07
+monster	Betta, Giant	巨型斗鱼	pending	pending		Betta, Giant			
+monster	Bhaergala	巴尔迦拉兽	pending	pending		Bhaergala			
 monster	Bisan	比桑（低等灵）	pending	pending	比桑（低等灵） ·	Bisan			
 monster	Black Dragon	黑龙	pending	pending		Black Dragon			
 monster	Black Pudding	黑布丁	verified-exact	whole-name	黑色布丁怪	Black Pudding	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Black Urchin	黑海胆	pending	pending	黑海胆 ·	Black Urchin			
 monster	Black Willow	黑柳	pending	pending	黑柳 ·	Black Willow			
+monster	Blatant Beast	诽谤巨兽	pending	pending		Blatant Beast			
+monster	Bleeder	吸血触须球	pending	pending		Bleeder			
 monster	Blindheim	炫目者	verified-exact	whole-name	炫目蛙怪; 炫目蛙怪 ·	Blindheim	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
 monster	Blink Dog	闪现犬	verified-exact	whole-name		Blink Dog	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Blood Hawk	血鹰	verified-exact	whole-name	血鹰 ·	Blood Hawk	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4904,11 +4912,13 @@ monster	Kentrosaurus	钉状龙	pending	pending	钉状龙 ·	Kentrosaurus
 monster	Khargra	土鱼	verified-exact	whole-name	卡格拉; 卡格拉 ·	Khargra	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
 monster	Ki-rin	麒麟	verified-exact	whole-name	麒麟—狗头人	Ki-rin	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
 monster	Killmoulis	旅居仙	verified-exact	whole-name	基尔莫利斯	Killmoulis	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
+monster	Koalinth	海地精	verified-exact	whole-name	科林斯海生大地精	Koalinth	5E	https://5e.kiwee.top/data/bestiary/bestiary-gos.json	2026-11-07
 monster	Kobold	狗头人	verified-exact	whole-name		Kobold	5E	https://5e.kiwee.top/data/bestiary/bestiary-mm.json	2026-11-07
 monster	Koodjanuk	库贾努克圣鸟	pending	pending		Koodjanuk			
 monster	Korred	考芮精	verified-exact	whole-name	科瑞德; 科瑞德 ·	Korred	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
 monster	Kostchtchie	科斯彻奇	pending	pending	科斯彻奇 ·	Kostchtchie			
 monster	Kraken	克拉肯	verified-exact	whole-name	克拉肯海怪; 克拉肯海怪 ·	Kraken	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Krolli	克罗利翼蜥人	pending	pending		Krolli			
 monster	Kuei	亡魂鬼（低等灵）	pending	pending	亡魂鬼（低等灵） ·	Kuei			
 monster	Kuo-Toa	寇涛	verified-exact	whole-name	寇涛鱼人; 库奎托阿	Kuo-Toa	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Lamia	拉迷亚	verified-exact	whole-name	拉弥亚	Lamia	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4982,6 +4992,7 @@ monster	Monodrone	单元冢	verified-exact	whole-name	单功能魔冢; 单功能
 monster	Monster Zombie	怪物僵尸	pending	pending	怪物僵尸 ·	Monster Zombie			
 monster	Moon Dog	月犬	pending	pending	月犬 ·	Moon Dog			
 monster	Morkoth	莫克鱼怪	verified-exact	whole-name	深渊幽灵	Morkoth	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
+monster	Mottled (Purple) Worm	海生斑纹蠕虫	pending	pending		Mottled (Purple) Worm			
 monster	Mountain Giant	山巨人	pending	pending	山巨人 ·	Mountain Giant			
 monster	Movanic Deva	摩凡尼天使	pending	pending	摩凡尼天使 ·	Movanic Deva			
 monster	Muckdweller	污泥居者	pending	pending	污泥居者 ·	Muckdweller			
@@ -5004,6 +5015,7 @@ monster	Nilbog	林布哥	verified-exact	whole-name	反地精; 反地精 ·	Nilbo
 monster	Nimbus	尼布斯	pending	pending		Nimbus			
 monster	Ningyo	人鱼	pending	pending		Ningyo			
 monster	Nixie	尼克希	pending	pending		Nixie			
+monster	Nogra	诺格拉暗兽	pending	pending		Nogra			
 monster	Nonafel	九尾猫	pending	pending	九尾猫 ·	Nonafel			
 monster	Nonaton	九阶魔冢	pending	pending	九阶魔冢 ·	Nonaton			
 monster	Norker	诺克	verified-exact	whole-name	诺克地精; 诺克地精 ·	Norker	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
@@ -5127,6 +5139,7 @@ monster	Scrag	斯卡格	verified-exact	whole-name	海生巨魔	Scrag	5E	https://
 monster	Screaming Devilkin	尖叫小鬼	verified-exact	whole-name	尖啸小魔; 尖啸小魔 ·	Screaming Devilkin	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
 monster	Scum Creeper	污垢爬兽	pending	pending	污垢爬兽 ·	Scum Creeper			
 monster	Sea Hag	海鬼婆	verified-exact	whole-name	海巫婆	Sea Hag	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Sea Hag (Fresh Water)	淡水海鬼婆	pending	pending		Sea Hag (Fresh Water)			
 monster	Sea Horse, Giant	巨型海马	pending	pending		Sea Horse, Giant			
 monster	Sea Lion	海狮	verified-exact	whole-name		Sea Lion	5E	https://5e.kiwee.top/data/bestiary/bestiary-tftyp.json	2026-11-07
 monster	Sea Sprite	海精灵	pending	pending		Sea Sprite			
@@ -5294,6 +5307,7 @@ monster	Vilstrak	岩窟暴徒	pending	pending	岩窟暴徒 ·	Vilstrak
 monster	Vision	幻象集合体	pending	pending		Vision			
 monster	Vixen	雌狐	pending	pending	雌狐 ·	Vixen			
 monster	Vodyanoi	沃迪亚诺水怪	pending	pending	沃迪亚诺水怪 ·	Vodyanoi			
+monster	Vodyanoi (Marine)	海生沃迪亚诺伊	pending	pending		Vodyanoi (Marine)			
 monster	Vodyanoy	沃迪亚诺水怪	pending	pending		Vodyanoy			
 monster	Volt	伏特电怪	pending	pending	伏特电怪 ·	Volt			
 monster	Vortex	旋涡怪	pending	pending	旋涡怪 ·	Vortex			

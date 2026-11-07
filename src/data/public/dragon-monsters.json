@@ -125,5 +125,597 @@
         "section": "creatures-and-races"
       }
     ]
+  },
+  {
+    "frequency": "极罕见",
+    "numberAppearing": "1–4",
+    "armorClass": 9,
+    "movement": "15″",
+    "hitDice": "2",
+    "inLair": "40%",
+    "treasureType": "L、N、Q",
+    "attacks": "6",
+    "damage": "四爪各1d2、咬1d4、尾1；或依尾持武器",
+    "specialAttacks": "幻术",
+    "specialDefenses": "恒常真视；4″内阻断灵能",
+    "magicResistance": "标准",
+    "intelligence": "平均至高",
+    "alignment": "中立",
+    "size": "S，长2英尺",
+    "psionics": "无攻防模式；灵能干扰见正文",
+    "environment": "林木及木构建筑附近",
+    "id": "dragon-058-monster-beguiler",
+    "nameZh": "幻惑兽",
+    "nameEn": "Beguiler",
+    "description": "可用利爪和卷握尾攀爬树木及木构建筑。每轮四爪、一咬及一次尾击；尾巴可持握或投掷短剑及更小的武器，武器攻击命中−2。",
+    "details": [
+      {
+        "title": "Dragon #58 · 幻惑兽",
+        "html": "<p>可用利爪和卷握尾攀爬树木及木构建筑。每轮四爪、一咬及一次尾击；尾巴可持握或投掷短剑及更小的武器，武器攻击命中−2。</p><p>始终具有真视，看见隐形物体或生物，幻术对其无效。皮毛可配合环境变色，静止保持1d4回合，按十二级盗贼的阴影躲藏概率处理。</p><p>可按二十级幻术师使用高等幻影与阴影怪物，每只个体每日合计4d4次；不必专注维持，可自行终止幻术。</p><p>不能受到灵能攻击，周围4″内持续阻断一切灵能活动。为杂食兽，脑可作魔法物品与药水原料，鞣制皮毛价值高。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 9,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-58/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 9,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": null,
+    "movement": "9″，浮空移动",
+    "hitDice": "总生命值77–84；躯干11–18、眼6、十条触须各6",
+    "inLair": "40%",
+    "treasureType": "原刊未给宝藏类别",
+    "attacks": "10条触须；另可撞击",
+    "damage": "触须初击各1d8；附着后各每轮2；撞击1d8",
+    "specialAttacks": "吸血；伤后反射吸血",
+    "specialDefenses": "消耗血能修复躯干与触须",
+    "magicResistance": "标准",
+    "intelligence": "平均至高",
+    "alignment": "中立邪恶",
+    "size": "L，直径6英尺",
+    "psionics": "无",
+    "environment": "洞穴、废墟",
+    "armorClassText": "躯干4／触须6／眼8",
+    "id": "dragon-059-monster-bleeder",
+    "nameZh": "吸血触须球",
+    "nameEn": "Bleeder",
+    "description": "十条触须可分别攻击或集中对付一名人形目标，伸展可达20英尺。初次命中造成1d8并钩住，自下一轮起各吸取2生命值。所吸每1生命值在一轮后转为1点能量；日常活动每两回合消耗1点。",
+    "details": [
+      {
+        "title": "Dragon #59 · 吸血触须球",
+        "html": "<p>十条触须可分别攻击或集中对付一名人形目标，伸展可达20英尺。初次命中造成1d8并钩住，自下一轮起各吸取2生命值。所吸每1生命值在一轮后转为1点能量；日常活动每两回合消耗1点。</p><p>每轮可消耗1点能量，同时使十条触须及躯干各恢复1生命值，眼不能以此修复；修复不妨碍攻击。钩在受害者身上的触须若受一击而未被摧毁，立刻额外吸取等于该次损伤的生命值，完全恢复该触须；同轮多次非致命打击均触发。</p><p>躯干降至零生命值后，已附着的触须继续吸血，其余触须停止活动。合计力量22可扯出触须，但每条倒钩被扯出时再造成1d6。受害者降至零时主动缩回；躯干剩5生命值或更少时，每轮有30%概率撤回触须。</p><p>可用躯干撞击或压砸，造成1d8，常借此把人撞落危险立足点。眼具有12″红外视觉；眼被毁后仍以嗅觉及振动发现1″内敌人。</p><p>可落地关闭活动并长期蛰伏；电能、跌落、撞击、受伤或热量可将其唤醒。浮空器官可用作相关药水及墨水材料。</p><p>同类常争斗至死；胜者在败者躯干上分泌液体，一日内孵出1d4幼体，各项能力为成体一半，一个月成熟。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 21,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-59/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 21,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": null,
+    "movement": "爬行4″／跃起滑翔7″，机动E",
+    "hitDice": "4+4",
+    "inLair": "10%",
+    "treasureType": "无",
+    "attacks": "1咬或1撞",
+    "damage": "咬3d4／撞2d4；挣扎触须3–6",
+    "specialAttacks": "缠缚；倒钩触须",
+    "specialDefenses": "血液喷溅",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "中立",
+    "size": "M，触须长5英尺",
+    "psionics": "无",
+    "environment": "野地；可训练为护卫",
+    "armorClassText": "头及感觉器官−2／触须6",
+    "id": "dragon-094-monster-belabra",
+    "nameZh": "缠缚兽",
+    "nameEn": "Belabra",
+    "description": "经验值250+5/HP。十二条触须按九生命骰怪物进行一次缠缚命中；受缠者失去AC敏捷加值，缠缚兽随后咬击命中+4。单纯握住不伤害，但受害者每轮尝试一次弯铁／举闸挣脱时，倒钩造成3–6伤害。",
+    "details": [
+      {
+        "title": "Dragon #94 · 缠缚兽",
+        "html": "<p>经验值250+5/HP。十二条触须按九生命骰怪物进行一次缠缚命中；受缠者失去AC敏捷加值，缠缚兽随后咬击命中+4。单纯握住不伤害，但受害者每轮尝试一次弯铁／举闸挣脱时，倒钩造成3–6伤害。</p><p>可爬行，或跳起拍击触须后滑翔；静风中滑翔7″，从高处或顺气流可更远，空中也能缠住目标一同坠落。自身跌落每10英尺只受1生命值伤害。头部撞击造成2d4。</p><p>仅在缠住受害者时能攻击脆弱触须。触须受伤喷出的血液影响1″内人类、半身人及精灵：对毒豁免−3，失败则目盲、喷嚏，命中−4，AC恶化2级，持续3d8轮。</p><p>良好训练需4d4周、安静场所、充足活饵，并每天连续四小时接触未来主人；条件差或受打扰会延长时间。可听令追猎、擒而不杀或协助战斗，危险中忠诚95%，其他时候100%。从幼体养两年者能掌握更多命令，并习惯在吞食猎物前停下。</p><p>可用灵巧触须开门、探入袋笼及割断网。空腹重6–8磅；独居，每只均可怀胎，孕期6–10个月。捕获幼体最高可卖4,500金币。</p>",
+        "source": {
+          "book": "Dragon #94",
+          "page": 45,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-94/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #94",
+        "page": 45,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "不常见",
+    "numberAppearing": "1雄与1d8雌",
+    "armorClass": 8,
+    "movement": "游泳18″",
+    "hitDice": "雄3+3／雌3+6",
+    "inLair": "55%",
+    "treasureType": "巢中Q",
+    "attacks": "1咬",
+    "damage": "1d8",
+    "specialAttacks": "雄鱼对鲜艳物命中+2",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "动物",
+    "alignment": "中立",
+    "size": "M，长5–6英尺",
+    "psionics": "无",
+    "environment": "全年温暖的热带淡水，水深不超过100英尺",
+    "id": "dragon-094-monster-betta-giant",
+    "nameZh": "巨型斗鱼",
+    "nameEn": "Betta, Giant",
+    "description": "经验值85+4/HP。雄鱼一见同类雄鱼便攻击；自己的镜像及其他雄鱼的幻象同样使其优先攻击，不对这类幻象豁免。对水中鲜艳目标命中+2，包括明亮衣物及能映出其颜色的银亮护甲；雌鱼没有该加值。",
+    "details": [
+      {
+        "title": "Dragon #94 · 巨型斗鱼",
+        "html": "<p>经验值85+4/HP。雄鱼一见同类雄鱼便攻击；自己的镜像及其他雄鱼的幻象同样使其优先攻击，不对这类幻象豁免。对水中鲜艳目标命中+2，包括明亮衣物及能映出其颜色的银亮护甲；雌鱼没有该加值。</p><p>必须浮上水面吞气。雄鱼用空气在岩下、枝丛等处建至少一立方英尺气巢，以泥补漏并搜集闪亮物，故巢中可能有宝石。受精后驱逐雌鱼，守卵两日直到孵化，随后可能吞食仍未离开的幼鱼。</p><p>幼鱼出生1生命值，每三个月增加一颗生命骰；三个月咬伤1d4，六个月1d6，九个月成年为1d8。雌鱼仅在饥饿或受攻击时主动袭击其他生物。</p>",
+        "source": {
+          "book": "Dragon #94",
+          "page": 45,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-94/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #94",
+        "page": 45,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "1",
+    "armorClass": 6,
+    "movement": "16″",
+    "hitDice": "4+4",
+    "inLair": "20%",
+    "treasureType": "无",
+    "attacks": "两爪一咬",
+    "damage": "1d6／1d6／1d8",
+    "specialAttacks": "扑击命中的双爪伤害最大",
+    "specialDefenses": "毒豁免+3；每日四次主动法术反转",
+    "magicResistance": "标准",
+    "intelligence": "平均",
+    "alignment": "中立",
+    "size": "L，最长9英尺",
+    "psionics": "无",
+    "environment": "热带至温带密林，尤以丛林为多",
+    "id": "dragon-094-monster-bhaergala",
+    "nameZh": "巴尔迦拉兽",
+    "nameEn": "Bhaergala",
+    "description": "经验值130+5/HP。能模仿人类和精灵的说话、歌声来引诱猎物，多数会通用语。顺风向潜近猎物以掩盖自身近似烘焙食物的气味，通常持续咬杀并把撕下的肉留待稍后食用。",
+    "details": [
+      {
+        "title": "Dragon #94 · 巴尔迦拉兽",
+        "html": "<p>经验值130+5/HP。能模仿人类和精灵的说话、歌声来引诱猎物，多数会通用语。顺风向潜近猎物以掩盖自身近似烘焙食物的气味，通常持续咬杀并把撕下的肉留待稍后食用。</p><p>未受威胁、近期未遭攻击或受伤且不饥饿时，可用歌唱令其睡1d10轮。基础成功率25%，独处歌者+5%，魅力超过16每点+5%，受过训练或从事歌唱者再+15%，累计；不符合前述平静条件时概率为零，醒后发现歌者离开通常追赶。</p><p>可垂直跳跃或坠落7″而无伤；更远的坠落每超出1″造成1d6。高处扑击若双爪命中，两爪各取最大伤害。仅在认为继续战斗无益或危险时退却。</p><p>每日恢复2生命值，对毒豁免+3，系统休克99%。每日最多四次自主决定反转针对自己的法术，按法术反转戒指处理；未反转者仍用标准魔抗。</p><p>幼体2+2生命骰、伤害减半，但速度与其他能力同成体。通常独居，配偶仅相伴至幼体首次猎杀；常睡枝间或灌丛，洞穴废墟中的隐蔽巢穴存放乐器等收藏。</p>",
+        "source": {
+          "book": "Dragon #94",
+          "page": 46,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-94/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #94",
+        "page": 46,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见，群体极罕见",
+    "numberAppearing": "通常1；群体2–5",
+    "armorClass": -2,
+    "movement": "21″",
+    "hitDice": "12+12",
+    "inLair": "无",
+    "treasureType": "无固定宝藏；可能携魔法武器或器具",
+    "attacks": "一次冲角与两次前足踩踏",
+    "damage": "3d6／2d6／2d6",
+    "specialAttacks": "咆哮伤害及恐惧；灵能",
+    "specialDefenses": "随意隐形；以太及星界旅行",
+    "magicResistance": "20%",
+    "intelligence": "卓越至天才",
+    "alignment": "中立善良",
+    "size": "L，肩高9英尺",
+    "psionics": "180+2d12；攻B、E／防F、G、I",
+    "environment": "中立善良上层外位面；主物质位面亚热带森林及人类聚落",
+    "id": "dragon-065-monster-baku",
+    "nameZh": "貘",
+    "nameEn": "Baku",
+    "description": "经验值4,900+18/HP。前足踩踏只适用于人类体型，或四足等形态且高度不足6英尺的敌人。短鼻可操作简单器具、武器或魔杖，因此可能持魔法装备作战。",
+    "details": [
+      {
+        "title": "Dragon #65 · 貘",
+        "html": "<p>经验值4,900+18/HP。前足踩踏只适用于人类体型，或四足等形态且高度不足6英尺的敌人。短鼻可操作简单器具、武器或魔杖，因此可能持魔法装备作战。</p><p>随意隐形，直到某项行动打破隐形；可转为以太并旅行，也可星界旅行。灵能包括十二级掌握的动物心灵感应、细胞调整（按战士）、侦测善恶、缩小，六级身体控制，以及身体平衡、形体改变。</p><p>每四个近战轮可咆哮一次，4″半径内所有邪恶生物受1d8伤害，并对麻痹豁免，失败按十二级法师的恐惧法术惊逃。</p><p>平时胆怯温和，但憎恶邪恶，会隐形混居在人类社会暗中相助。主物质位面有时在亚热带森林结群。</p>",
+        "source": {
+          "book": "Dragon #65",
+          "page": 25,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-65/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #65",
+        "page": 25,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "独一",
+    "numberAppearing": "1",
+    "armorClass": 5,
+    "movement": "12″",
+    "hitDice": "11；固定50生命值",
+    "inLair": "无",
+    "treasureType": "无",
+    "attacks": "1咬",
+    "damage": "2d6",
+    "specialAttacks": "诽谤；伤口每日溃烂",
+    "specialDefenses": "仅铁制武器及器具可影响；每轮再生5",
+    "magicResistance": "免疫一切魔法",
+    "intelligence": "极狡猾，判断力很差",
+    "alignment": "混乱邪恶",
+    "size": "L",
+    "psionics": "无；免疫灵能攻击",
+    "environment": "游荡；破坏圣所",
+    "id": "dragon-058-monster-blatant-beast",
+    "nameZh": "诽谤巨兽",
+    "nameEn": "Blatant Beast",
+    "description": "能让所有会语言的生物同时听懂诽谤。听觉范围内不足四级或四生命骰的听者须对毒豁免，失败便狂热相信谎言并据以行动；对未受诽谤波及或显得不相信者，通常改用撕咬。",
+    "details": [
+      {
+        "title": "Dragon #58 · 诽谤巨兽",
+        "html": "<p>能让所有会语言的生物同时听懂诽谤。听觉范围内不足四级或四生命骰的听者须对毒豁免，失败便狂热相信谎言并据以行动；对未受诽谤波及或显得不相信者，通常改用撕咬。</p><p>每处咬伤无法自然愈合，每日各再损失1d3生命值。魔法治疗可以回复损失，但不阻止以后继续溃烂。根治须完全卧床，停止战斗、施法及其他剧烈活动，自愿隔离、禁绝享乐并只取最低必要饮食。</p><p>上述严格休养须持续至原伤及其溃烂造成、且尚未以魔法治回的生命值全部恢复；随后其他伤势才可按 DMG 普通休养恢复。</p><p>只受铁制武器或器具影响，且每轮再生5生命值。未被困住时，会逃避前来追猎的诚实、谦恭圣武士，尤其出身显贵者。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 16,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-58/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 16,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "巢外2–3；巢中4d6",
+    "armorClass": 5,
+    "movement": "6″",
+    "hitDice": "2",
+    "inLair": "70%",
+    "treasureType": "D",
+    "attacks": "1",
+    "damage": "1d4",
+    "specialAttacks": "接触毒致盲；伏击",
+    "specialDefenses": "吸收可见光、红外及紫外",
+    "magicResistance": "标准；光照例外见正文",
+    "intelligence": "低",
+    "alignment": "中立",
+    "size": "S，肩高1英尺",
+    "psionics": "无",
+    "environment": "巢穴及附近猎场",
+    "id": "dragon-049-monster-nogra",
+    "nameZh": "诺格拉暗兽",
+    "nameEn": "Nogra",
+    "description": "分泌物持续吸收附近可见光、红外与紫外，活体外观如黑暗术，红外视觉和紫外视觉均不能看清本体。眼睛无用，依赖嗅觉、听觉，利爪能沿墙及天花板爬行。",
+    "details": [
+      {
+        "title": "Dragon #49 · 诺格拉暗兽",
+        "html": "<p>分泌物持续吸收附近可见光、红外与紫外，活体外观如黑暗术，红外视觉和紫外视觉均不能看清本体。眼睛无用，依赖嗅觉、听觉，利爪能沿墙及天花板爬行。</p><p>接触分泌物即须对毒豁免，爪击命中也触发。失败者在2d4轮后失明，但在失明发生前的每轮仍可再豁免，任一次成功即中和该次中毒；每次命中须分开处理。失明只可由治疗失明、有限许愿术、祈愿术或改变现实恢复，没有已知解毒剂。</p><p>巢外遭遇有70%正在狩猎，此时隐伏并尽早袭击；若事前未发现便自动突袭。非狩猎状态不具攻击性。巢穴被惊扰则群起攻击；80%巢中有首领，生命骰2+2、每轮攻击两次。</p><p>日光或恒定光亮使巢外个体70%退避，未退者命中−4；光亮术改为50%退避、命中−2。巢中个体绝不为光退却。直接对其施放光亮术，若怪物豁免失败则吸收法术并受1d4伤害；恒定光亮为2d4，未吸收者法术消散。照亮附近区域则按前述退避规则。</p><p>死亡后停止分泌，周围黑暗在1d3轮内散去，接触毒也变得无害。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 54,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-49/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 54,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "1–20；巢中3d20",
+    "armorClass": null,
+    "movement": "地面10″／飞行18″",
+    "hitDice": "2–6，每骰另加2生命值",
+    "inLair": "10%",
+    "treasureType": "巢中A；个体Q",
+    "attacks": "地面3；空中徒手4、持武器3",
+    "damage": "咬1d6+1；后爪1d8+1；手1d8或武器+4",
+    "specialAttacks": "高敏捷；多次攻击",
+    "specialDefenses": "仅突袭骰为1时被突袭",
+    "magicResistance": "25%",
+    "intelligence": "平均至很高",
+    "alignment": "60%中立、20%守序、20%混乱；各另有20%善良、10%邪恶",
+    "size": "M，身高7–8英尺、翼展17–20英尺",
+    "psionics": "无攻防模式",
+    "environment": "远离人类势力的孤立聚落",
+    "armorClassText": "3；持盾2",
+    "id": "dragon-036-monster-krolli",
+    "nameZh": "克罗利翼蜥人",
+    "nameEn": "Krolli",
+    "description": "地面每轮双手加一咬共三击；空中徒手可组合手、爪、咬共四击，使用武器时为三击，70%不用武器。可在空中与地面敌人近战，武器伤害另加4。力量18/89、敏捷原列18/00；感觉敏锐，仅突袭骰为1时受突袭。",
+    "details": [
+      {
+        "title": "Dragon #36 · 克罗利翼蜥人",
+        "html": "<p>地面每轮双手加一咬共三击；空中徒手可组合手、爪、咬共四击，使用武器时为三击，70%不用武器。可在空中与地面敌人近战，武器伤害另加4。力量18/89、敏捷原列18/00；感觉敏锐，仅突袭骰为1时受突袭。</p><p>不能穿护甲，50%携盾，持盾AC2。飞行不能久持，但足以追上快马与骑手。95%为战士；其余5%中有70%为牧师，几乎没有盗贼或刺客。</p><p>巢中3d20个体，25%为雌性及幼体，生命骰分别为2–3及1/2；另有1d8名7+2生命骰酋长。聚落自给，寿命约125年。可能以佣兵、护卫或军官身份与人类交易，部分中立或邪恶部族蓄奴；蛋没有公开市场价值。</p>",
+        "source": {
+          "book": "Dragon #36",
+          "page": 63,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-36/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #36",
+        "page": 63,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "极罕见",
+    "numberAppearing": "1d8",
+    "armorClass": 5,
+    "movement": "12″",
+    "hitDice": "5",
+    "inLair": "10%",
+    "treasureType": "A",
+    "attacks": "1",
+    "damage": "爪1d6；抓握吸血每轮3d6",
+    "specialAttacks": "法术；吸血",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "高",
+    "alignment": "混乱邪恶",
+    "size": "M",
+    "psionics": "无",
+    "environment": "夜间游荡",
+    "id": "dragon-126-monster-baobhan-sith",
+    "nameZh": "巴欧班希吸血妖",
+    "nameEn": "Baobhan Sith",
+    "description": "属于低等恶魔，牧师驱散按“特殊”类别处理。可用魅惑人类、锐耳术、建议术、魅影之力及传送术诱使目标接近，原条未限定每日次数或施法等级。",
+    "details": [
+      {
+        "title": "Dragon #126 · 巴欧班希吸血妖",
+        "html": "<p>属于低等恶魔，牧师驱散按“特殊”类别处理。可用魅惑人类、锐耳术、建议术、魅影之力及传送术诱使目标接近，原条未限定每日次数或施法等级。</p><p>抓握目标并通过吸血接触命中后，该轮自动吸血3d6，魅惑或建议随即破除；目标可正常还击，但须按开门概率检定力量才可挣脱。未挣脱则以后每轮继续受3d6，生命值低于零即死。</p><p>铁制武器命中+3、伤害自动加倍；可感知60英尺内的铁并尽量回避。镀银武器仅正常生效，每瓶圣水造成1d6伤害。</p>",
+        "source": {
+          "book": "Dragon #126",
+          "page": 22,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-126/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #126",
+        "page": 22,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "不常见",
+    "numberAppearing": "20–200",
+    "armorClass": 5,
+    "movement": "陆地6″／游泳18″",
+    "hitDice": "1+1",
+    "inLair": "25%",
+    "treasureType": "个体K、M；巢中D、Q×5",
+    "attacks": "1",
+    "damage": "1d8或依武器",
+    "specialAttacks": "族旗激励",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "平均",
+    "alignment": "守序邪恶",
+    "size": "M，身高6.5英尺",
+    "psionics": "无",
+    "environment": "水下洞穴、海蚀洞及淡水、深水区域",
+    "id": "dragon-068-monster-koalinth",
+    "nameZh": "海地精",
+    "nameEn": "Koalinth",
+    "description": "经验值普通者20+2/HP，副酋长35+3/HP，酋长60+4/HP，萨满及巫医按实际等级。每20名有一名士官及两名助手，各9生命值；达到100名再有副酋长，AC3、16生命值、伤害+2，按3生命骰攻击。",
+    "details": [
+      {
+        "title": "Dragon #68 · 海地精",
+        "html": "<p>经验值普通者20+2/HP，副酋长35+3/HP，酋长60+4/HP，萨满及巫医按实际等级。每20名有一名士官及两名助手，各9生命值；达到100名再有副酋长，AC3、16生命值、伤害+2，按3生命骰攻击。</p><p>巢中另有酋长及5–20护卫；酋长AC2、22生命值，徒手伤害1d10+1，持武器命中+1、伤害+3，按4生命骰攻击。巢中雌性为雄性150%，幼体300%。</p><p>每40名累计20%概率有施法者，至200名为100%；其中60%为五至七级萨满，携1d4名一或二级助手；40%为牧师／法师均二至四级的巫医，携1d3名双职业均一级的助手。</p><p>巢穴60%有守卫兽，淡水为2d4巨螯虾，海水为2d3海狮。首领各50%持三尖矛，或三叉戟与网；普通者40%矛、40%三叉戟、15%三尖矛、5%三叉戟与网。</p><p>部族旗帜在巢内由酋长掌握，巢外20%在副酋长处；能看到旗帜的6″内同族命中+1、士气反应骰+1。会大地精语及守序邪恶阵营语，以能捕获的生物为食。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 39,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-68/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 39,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "极罕见",
+    "numberAppearing": "1–2",
+    "armorClass": null,
+    "movement": "陆地6″／游泳12″；爆发24″",
+    "hitDice": "12+6",
+    "inLair": "50%",
+    "treasureType": "U",
+    "attacks": "两爪及下颚共3",
+    "damage": "4d6／4d6／2d8",
+    "specialAttacks": "d6为1–3时突袭；下颚抓握",
+    "specialDefenses": "变色伪装",
+    "magicResistance": "标准",
+    "intelligence": "低",
+    "alignment": "混乱邪恶",
+    "size": "L，高14–20英尺、宽8–12英尺",
+    "psionics": "无",
+    "environment": "海洋，伏击中大型猎物及船只",
+    "armorClassText": "原刊统计栏未列",
+    "id": "dragon-068-monster-vodyanoi-marine",
+    "nameZh": "海生沃迪亚诺伊",
+    "nameEn": "Vodyanoi (Marine)",
+    "description": "经验值4,500+16/HP。可由深海绿变至纯黑，与植被、岩石等混合，突袭率3/6；红外及紫外视觉不能帮助发现这种冷血生物。游泳可短时加速至至少24″，每回合最多一次、持续一轮；未被突袭且能迎击者按水下冲锋处理。",
+    "details": [
+      {
+        "title": "Dragon #68 · 海生沃迪亚诺伊",
+        "html": "<p>经验值4,500+16/HP。可由深海绿变至纯黑，与植被、岩石等混合，突袭率3/6；红外及紫外视觉不能帮助发现这种冷血生物。游泳可短时加速至至少24″，每回合最多一次、持续一轮；未被突袭且能迎击者按水下冲锋处理。</p><p>下颚命中身高不超过8英尺的目标即以18/75力量抓住；受害者还击命中−2，怪物对其命中至少+2。独自挣脱至少需有效力量18/76，成功率1%；每增加一点超凡力量加1%，至18/00为25%，力量19为50%，20或更高自动成功。帮别人挣脱者在尝试的每轮放弃攻击。</p><p>会撕开体型超过自身两倍船只的船壳，或掀翻不足自身两倍的小船；战败时借变色及附近掩蔽物逃跑，逃脱概率由光照与地形决定。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 40,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-68/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 40,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "极罕见",
+    "numberAppearing": "1d4",
+    "armorClass": 7,
+    "movement": "15″",
+    "hitDice": "3",
+    "inLair": "10%",
+    "treasureType": "C、Y",
+    "attacks": "1",
+    "damage": "依匕首",
+    "specialAttacks": "死亡凝视",
+    "specialDefenses": "沿用海鬼婆；须有足够光照",
+    "magicResistance": "30%",
+    "intelligence": "平均",
+    "alignment": "混乱邪恶",
+    "size": "M",
+    "psionics": "无",
+    "environment": "北极以外的任何淡水水域",
+    "id": "dragon-068-monster-sea-hag-freshwater",
+    "nameZh": "淡水海鬼婆",
+    "nameEn": "Sea Hag (Fresh Water)",
+    "description": "经验值600+3/HP。除出现频率、30%魔法抗性和栖地外，沿用 MM 海鬼婆。必须有足够光线让目标看见它，特殊攻击和特殊防御才能生效。",
+    "details": [
+      {
+        "title": "Dragon #68 · 淡水海鬼婆",
+        "html": "<p>经验值600+3/HP。除出现频率、30%魔法抗性和栖地外，沿用 MM 海鬼婆。必须有足够光线让目标看见它，特殊攻击和特殊防御才能生效。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 40,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-68/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 40,
+        "section": "bestiary"
+      }
+    ]
+  },
+  {
+    "frequency": "罕见",
+    "numberAppearing": "1–2",
+    "armorClass": 6,
+    "movement": "9 寸",
+    "hitDice": "15",
+    "inLair": "30%",
+    "treasureType": "B、Q（×5）、X",
+    "attacks": "1 次及 1 次",
+    "damage": "2–24／2–8",
+    "specialAttacks": "见下文",
+    "specialDefenses": "无",
+    "magicResistance": "标准",
+    "intelligence": "无",
+    "alignment": "中立",
+    "size": "L（长 50 尺）",
+    "psionics": "无；攻击／防御模式：无",
+    "environment": "海底淤泥及砾石",
+    "id": "dragon-068-monster-mottled-worm",
+    "nameZh": "海生斑纹蠕虫",
+    "nameEn": "Mottled (Purple) Worm",
+    "description": "各项能力与 MM 紫虫相同，但在海底淤泥和砾石中钻行，由猎物正下方钻出攻击；这种攻击使其在d6掷出1–3时突袭。",
+    "details": [
+      {
+        "title": "Dragon #68 · 海生斑纹蠕虫",
+        "html": "<p>各项能力与 MM 紫虫相同，但在海底淤泥和砾石中钻行，由猎物正下方钻出攻击；这种攻击使其在d6掷出1–3时突袭。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 40,
+          "section": "bestiary"
+        },
+        "href": "/books/dragon-68/bestiary/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 40,
+        "section": "bestiary"
+      }
+    ]
   }
 ]
