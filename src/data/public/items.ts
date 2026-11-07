@@ -5,11 +5,14 @@ import type {Item} from '../../schemas';
 import {baseItems} from './items-base';
 import details from './item-details.json';
 import additions from './item-additions.json';
+import dragon from './dragon-items.json';
+import dragonVersions from './dragon-item-versions.json';
+import {mergeDragonItems} from '../../utils/merge-dragon-items';
 import {classifyItem,isMagicItem} from '../../utils/item-classification';
 import {formatItemPrice} from '../../utils/item-price';
 import uaPrices from './ua-equipment-prices.json';
 const enrichment=details as Record<string,Partial<Item>>;
-const preparedItems:Item[]=[...baseItems,...additions as Item[],...regional as Item[]].map(item=>{
+const prepareItem=(item:Item):Item=>{
  const extra=enrichment[item.id]??{};
  const xpValue=item.description.match(/XP[：:]\s*([^；。]+)/)?.[1];
  const listed=uaPrices as Record<string,{price:string;source:Item['source'][number];note?:string}>;
@@ -20,6 +23,7 @@ const preparedItems:Item[]=[...baseItems,...additions as Item[],...regional as I
  const taxonomy=classifyItem(next);
  const sources=[...next.source,...(next.details??[]).map(detail=>detail.source)];
  return {...next,...taxonomy,nameZh:canonicalName('item',next.nameEn,next.nameZh.replace(/[（(]$/,'').trim()),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};
-});
-export const items:Item[]=mergeUaEquipment(preparedItems);
+};
+export const bookItems:Item[]=mergeUaEquipment([...baseItems,...additions as Item[],...regional as Item[]].map(prepareItem));
+export const items:Item[]=mergeDragonItems(bookItems,(dragon as Item[]).map(prepareItem),dragonVersions);
 export {isMagicItem};

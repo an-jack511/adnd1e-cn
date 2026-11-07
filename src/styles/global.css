@@ -141,7 +141,7 @@ li { margin: 1px 0; }
 .book-body th, .book-body td { border: 1px solid #aaa; padding: 2px 5px; vertical-align: top; }
 .book-body th { background: #ddd; }
 .book-body blockquote { margin: 7px 12px; border-left: 3px solid #aaa; padding-left: 8px; }
-.book-body .spell-meta { border-left: 2px solid #aaa; padding-left: 8px; margin: 5px 0 8px; font-size: 13px; }
+.spell-meta { border-left: 2px solid #aaa; padding-left: 8px; margin: 5px 0 8px; font-size: 13px; }
 .book-page-nav { display: flex; flex-wrap: wrap; gap: 5px 16px; font-size: 13px; margin: 7px 0; }
 .two-column { columns: 2; column-gap: 28px; }
 

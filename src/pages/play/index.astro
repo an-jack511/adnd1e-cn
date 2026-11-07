@@ -6,7 +6,7 @@ import {quickLinks,quickChecks} from '../../data/public/combat-guide';
 import {attackMatrices,attackBands,opponentArmorClasses,savingBands,savingMatrices,saveLabels,type MatrixFamily} from '../../character/rules/core-combat-matrices';
 import '../../styles/table-reference.css';
 const families:{id:MatrixFamily,label:string,classes:string}[]=[
-  {id:'fighter',label:'战士系',classes:'战士、圣武士、游侠'},
+  {id:'fighter',label:'战士系',classes:'战士、圣武士、巡林客'},
   {id:'cleric',label:'牧师系',classes:'牧师、德鲁伊'},
   {id:'arcane',label:'奥术系',classes:'魔法师、幻术师'},
   {id:'thief',label:'盗贼系',classes:'盗贼、刺客'},
@@ -30,7 +30,7 @@ const bandLabel=([low,high]:readonly[number,number|null])=>high===null?`${low}+`
 </tbody></table><p class="source-list">PHB 第 37–39、61、102–103 页；DMG 第 61–67、74、79 页。行动时序按<a href="/play/combat/#sources">战斗页注明的 A.D.D.I.C.T. 口径</a>展开。</p></section>
 <section id="attack-matrices" class="reference-section"><h2>角色攻击矩阵</h2><p>展开对应职业系，以目标 AC 行与人物等级列交叉查 d20 目标值，再计入适用修正。保留原表连续的 20，不能把整表简单换成 THAC0 减 AC。表中数值不自动判定命中。</p>
 {families.map(f=><details id={`attack-${f.id}`}><summary>{f.label} · {f.classes}</summary><div class="table-wrap" tabindex="0" role="region" aria-label={`${f.label}攻击矩阵`}><table class="numeric"><caption>{f.label}攻击矩阵 · 列为等级，格值为目标数</caption><thead><tr><th scope="col">目标 AC</th>{attackBands[f.id].map(band=><th scope="col">{bandLabel(band)} 级</th>)}</tr></thead><tbody>{opponentArmorClasses.map((ac,i)=><tr><th scope="row">{ac}</th>{attackMatrices[f.id][i].map(value=><td>{value}</td>)}</tr>)}</tbody></table></div><p class="small">来源：DMG 印刷第 74 页，矩阵 I.A–I.D.1；基础值不含属性、武器对护甲、熟练、射程、魔法与情境调整。</p></details>)}
-<p>圣武士、游侠等按相应职业说明使用战士表；武僧及扩展职业须查各自规则。吟游诗人攻击依实际战士履历，多职业／双职须核对对应规则，不能只按当前显示的一个等级套表。战士逐级进步的 DM 可选条款未在此启用。</p>
+<p>圣武士、巡林客等按相应职业说明使用战士表；武僧及扩展职业须查各自规则。吟游诗人攻击依实际战士履历，多职业／双职须核对对应规则，不能只按当前显示的一个等级套表。战士逐级进步的 DM 可选条款未在此启用。</p>
 <p><a href="/read/dmg/64ff4d2e57bc8c49/#read-49734749281bd166">DMG 原文：角色／怪物攻击矩阵与脚注</a> · <a href="/reference/?q=攻击&kind=表格">检索其他攻击表</a></p></section>
 <section id="saving-throws" class="reference-section"><h2>角色五类豁免</h2><p>按职业与等级取基础目标，d20 加适用调整后须达到目标。自然 1 总是失败。具体法术或攻击指定的豁免类别优先核对原表脚注。</p>
 {families.map(f=><details id={`save-${f.id}`}><summary>{f.label} · 豁免目标</summary><div class="table-wrap" tabindex="0" role="region" aria-label={`${f.label}豁免表`}><table class="numeric"><caption>{f.label} · 基础豁免目标</caption><thead><tr><th scope="col">等级</th>{saveLabels.map(label=><th scope="col">{label}</th>)}</tr></thead><tbody>{savingMatrices[f.id].map((row,i)=><tr><th scope="row">{bandLabel(savingBands[f.id][i])}</th>{row.map(value=><td>{value}</td>)}</tr>)}</tbody></table></div></details>)}

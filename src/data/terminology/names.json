@@ -1,6 +1,42 @@
 [
   {
     "category": "class",
+    "en": "Alchemist",
+    "zh": "炼金师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-class-alchemist-npc"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Alchemist (NPC)",
+    "zh": "炼金师（摩尔NPC方案）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "class",
+    "en": "Alchemist (variant)",
+    "zh": "炼金师（拉科夫卡等级方案）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "class",
+    "en": "Archer",
+    "zh": "弓箭手与巡林弓箭手",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-class-archer"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Assassin",
     "zh": "刺客",
     "aliases": [],
@@ -11,16 +47,35 @@
   },
   {
     "category": "class",
+    "en": "Astrologer",
+    "zh": "占星师（受雇NPC）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-class-astrologer"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Barbarian",
     "zh": "野蛮人",
     "aliases": [
-      "蛮族"
+      "蛮族",
+      "野蛮人（Gygax早期测试稿）"
     ],
     "status": "verified-exact",
     "ids": [
       "barbarian",
       "oa-barbarian"
     ]
+  },
+  {
+    "category": "class",
+    "en": "Barbarian (revised)",
+    "zh": "野蛮人（Howery修订）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "class",
@@ -46,11 +101,21 @@
     "category": "class",
     "en": "Cavalier",
     "zh": "骑士",
-    "aliases": [],
+    "aliases": [
+      "骑士（Gygax早期测试稿）"
+    ],
     "status": "pending",
     "ids": [
       "cavalier"
     ]
+  },
+  {
+    "category": "class",
+    "en": "Cavalier (revised)",
+    "zh": "骑士（Howery修订）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "class",
@@ -64,6 +129,16 @@
   },
   {
     "category": "class",
+    "en": "Cloistered Cleric",
+    "zh": "修院牧师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-068-class-cloistered-cleric"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Druid",
     "zh": "德鲁伊",
     "aliases": [],
@@ -71,6 +146,14 @@
     "ids": [
       "druid"
     ]
+  },
+  {
+    "category": "class",
+    "en": "Elven Cavalier",
+    "zh": "精灵骑士（Booth方案）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "class",
@@ -275,6 +358,16 @@
     "status": "pending",
     "ids": [
       "wsg-adequate-shelter-small"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Adjatha (sword)",
+    "zh": "阿贾莎“饮者”",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-074-magic-item-adjatha-sword"
     ]
   },
   {
@@ -539,12 +632,132 @@
   },
   {
     "category": "item",
+    "en": "Arrow +3, Lycanthrope Slayer",
+    "zh": "+3 兽化人杀手箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-3-lycanthrope-slayer"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow +5, Stirge's Bite",
+    "zh": "+5 蚊蝠之吻箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-5-stirge-s-bite"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Aggravation",
+    "zh": "激怒箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-aggravation"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Antimagic",
+    "zh": "反魔法箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-antimagic"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Blinding",
+    "zh": "致盲箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-blinding"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Bow-Breaking",
+    "zh": "断弓箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-bow-breaking"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Burning",
+    "zh": "焚身箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-burning"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Charming",
+    "zh": "魅惑箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-arrow-of-charming"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Clairaudience",
+    "zh": "遥听箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-clairaudience"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Clairvoyance",
+    "zh": "遥视箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-clairvoyance"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Arrow of Direction",
     "zh": "定向箭",
     "aliases": [],
     "status": "pending",
     "ids": [
       "dmg-item-arrow-of-direction"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Disintegration",
+    "zh": "解离箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-disintegration"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow of Distance",
+    "zh": "远距箭",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-135-magic-item-arrow-of-distance"
     ]
   },
   {
@@ -702,8 +915,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-019",
-      "ua-weapon-axe-hand-or-throwing"
+      "phb-item-019"
     ]
   },
   {
@@ -802,6 +1014,16 @@
   },
   {
     "category": "item",
+    "en": "Bag of Wind",
+    "zh": "风袋",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-027-magic-item-bag-of-wind"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Banded Mail",
     "zh": "带甲",
     "aliases": [],
@@ -830,8 +1052,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-020",
-      "ua-weapon-bardiche"
+      "phb-item-020"
     ]
   },
   {
@@ -872,6 +1093,16 @@
     "status": "pending",
     "ids": [
       "phb-item-156"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Basilard",
+    "zh": "巴西拉短剑",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-169-equipment-basilard"
     ]
   },
   {
@@ -977,8 +1208,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-021",
-      "ua-weapon-bec-de-corbin"
+      "phb-item-021"
     ]
   },
   {
@@ -1052,8 +1282,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-022",
-      "ua-weapon-bill-guisarme"
+      "phb-item-022"
     ]
   },
   {
@@ -1506,33 +1735,12 @@
   },
   {
     "category": "item",
-    "en": "Bow, Composite, Long",
-    "zh": "长复合弓",
-    "aliases": [],
-    "status": "pending",
-    "ids": [
-      "ua-weapon-bow-composite-long"
-    ]
-  },
-  {
-    "category": "item",
-    "en": "Bow, Composite, Short",
-    "zh": "短复合弓",
-    "aliases": [],
-    "status": "pending",
-    "ids": [
-      "ua-weapon-bow-composite-short"
-    ]
-  },
-  {
-    "category": "item",
     "en": "Bow, Long",
     "zh": "长弓",
     "aliases": [],
     "status": "pending",
     "ids": [
-      "phb-item-025",
-      "ua-weapon-bow-long"
+      "phb-item-025"
     ]
   },
   {
@@ -1542,8 +1750,7 @@
     "aliases": [],
     "status": "pending",
     "ids": [
-      "phb-item-026",
-      "ua-weapon-bow-short"
+      "phb-item-026"
     ]
   },
   {
@@ -1574,6 +1781,16 @@
     "status": "pending",
     "ids": [
       "dmg-item-bowl-of-watery-death"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Box of Many Holdings",
+    "zh": "多藏橡木箱",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-magic-item-box-of-many-holdings"
     ]
   },
   {
@@ -1628,6 +1845,16 @@
   },
   {
     "category": "item",
+    "en": "Bracers of Attraction",
+    "zh": "相吸护腕",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-bracers-of-attraction"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Bracers of Brachiation",
     "zh": "攀枝护腕",
     "aliases": [],
@@ -1654,6 +1881,26 @@
     "status": "pending",
     "ids": [
       "dmg-item-bracers-of-defenselessness"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bracers of Deflection",
+    "zh": "偏斜护腕",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-099-magic-item-bracers-of-deflection"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bracers of the Merman",
+    "zh": "人鱼护腕",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-bracers-of-the-merman"
     ]
   },
   {
@@ -2364,8 +2611,7 @@
     "aliases": [],
     "status": "pending",
     "ids": [
-      "phb-item-027",
-      "ua-weapon-crossbow-heavy"
+      "phb-item-027"
     ]
   },
   {
@@ -2375,8 +2621,7 @@
     "aliases": [],
     "status": "pending",
     "ids": [
-      "phb-item-028",
-      "ua-weapon-crossbow-light"
+      "phb-item-028"
     ]
   },
   {
@@ -2528,8 +2773,7 @@
     ],
     "status": "verified-exact",
     "ids": [
-      "dagger",
-      "ua-weapon-dagger"
+      "dagger"
     ]
   },
   {
@@ -2540,6 +2784,26 @@
     "status": "pending",
     "ids": [
       "magic-dagger-1-2-vs-creatures-smaller-than-man-sized"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dagger +1/+2 vs. Dolphins",
+    "zh": "+1／对海豚 +2 匕首（原刊标题）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-048-magic-item-dagger-1-2-vs-dolphins"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dagger +1/+3 vs. Koalinth",
+    "zh": "+1／对海栖大地精 +3 匕首",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-048-magic-item-dagger-1-3-vs-koalinth"
     ]
   },
   {
@@ -2562,6 +2826,26 @@
   },
   {
     "category": "item",
+    "en": "Dagger of Alignment Detection",
+    "zh": "辨阵营匕首",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-dagger-of-alignment-detection"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dagger of Monster Calling",
+    "zh": "唤怪匕首",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-077-magic-item-dagger-of-monster-calling"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Dagger of Throwing",
     "zh": "投掷匕首",
     "aliases": [],
@@ -2581,6 +2865,16 @@
     "status": "verified-exact",
     "ids": [
       "magic-dagger-of-venom"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dagger, Kidney",
+    "zh": "肾形护手匕首",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-140-equipment-kidney-dagger"
     ]
   },
   {
@@ -2632,8 +2926,7 @@
     "aliases": [],
     "status": "verified-exact",
     "ids": [
-      "phb-item-030",
-      "ua-weapon-dart"
+      "phb-item-030"
     ]
   },
   {
@@ -3236,8 +3529,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-031",
-      "ua-weapon-fauchard"
+      "phb-item-031"
     ]
   },
   {
@@ -3752,8 +4044,7 @@
     ],
     "status": "verified-exact",
     "ids": [
-      "phb-item-036",
-      "ua-weapon-glaive"
+      "phb-item-036"
     ]
   },
   {
@@ -3766,8 +4057,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-037",
-      "ua-weapon-glaive-guisarme"
+      "phb-item-037"
     ]
   },
   {
@@ -3978,8 +4268,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-038",
-      "ua-weapon-guisarme"
+      "phb-item-038"
     ]
   },
   {
@@ -3992,8 +4281,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-039",
-      "ua-weapon-guisarme-voulge"
+      "phb-item-039"
     ]
   },
   {
@@ -4027,8 +4315,7 @@
     ],
     "status": "verified-exact",
     "ids": [
-      "phb-item-042",
-      "ua-weapon-hammer"
+      "phb-item-042"
     ]
   },
   {
@@ -4094,8 +4381,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-041",
-      "ua-weapon-hammer-lucern"
+      "phb-item-041"
     ]
   },
   {
@@ -4925,8 +5211,7 @@
     "aliases": [],
     "status": "verified-exact",
     "ids": [
-      "phb-item-043",
-      "ua-weapon-javelin"
+      "phb-item-043"
     ]
   },
   {
@@ -5732,6 +6017,16 @@
   },
   {
     "category": "item",
+    "en": "Match of Many Lights",
+    "zh": "多次点火火柴",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-030-magic-item-match-of-many-lights"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Mattock of the Titans",
     "zh": "泰坦鹤嘴锄",
     "aliases": [
@@ -5782,6 +6077,16 @@
     "status": "pending",
     "ids": [
       "gha-item-medallion-of-malog"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Medallion of Protection From Thieves",
+    "zh": "防贼徽章",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-077-magic-item-medallion-of-protection-from-thieves"
     ]
   },
   {
@@ -6183,6 +6488,26 @@
     "ids": [
       "oa-spirit-net",
       "oa-net-of-spirit-snaring"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Net, throwing, Hooked",
+    "zh": "带钩投网",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-061-equipment-hooked-net"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Net, throwing, Weighted",
+    "zh": "配重投网",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-061-equipment-weighted-net"
     ]
   },
   {
@@ -6644,8 +6969,17 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-048",
-      "ua-weapon-partisan"
+      "phb-item-048"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Pearl of Flying",
+    "zh": "飞行珍珠",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-040-magic-item-pearl-of-flying"
     ]
   },
   {
@@ -6943,8 +7277,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-051",
-      "ua-weapon-pike-awl"
+      "phb-item-051"
     ]
   },
   {
@@ -7253,6 +7586,94 @@
   },
   {
     "category": "item",
+    "en": "Quaal's Feather Tokens: Arbor",
+    "zh": "夸尔羽符：化树",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Bind",
+    "zh": "夸尔羽符：束缚",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Bridge",
+    "zh": "夸尔羽符：桥梁",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Chest",
+    "zh": "夸尔羽符：宝箱",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Crown",
+    "zh": "夸尔羽符：王冠",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Eye",
+    "zh": "夸尔羽符：慧眼",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Finger",
+    "zh": "夸尔羽符：指路",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Flame",
+    "zh": "夸尔羽符：火焰",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Jug",
+    "zh": "夸尔羽符：水壶",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Key",
+    "zh": "夸尔羽符：钥匙",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Quaal's Feather Tokens: Spoon",
+    "zh": "夸尔羽符：餐匙",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
     "en": "Quarrel (or Bolt), hand",
     "zh": "手弩矢",
     "aliases": [],
@@ -7413,8 +7834,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-054",
-      "ua-weapon-ranseur"
+      "phb-item-054"
     ]
   },
   {
@@ -7507,6 +7927,74 @@
   },
   {
     "category": "item",
+    "en": "Ring of Animal Magnetism",
+    "zh": "动物亲和戒指",
+    "aliases": [
+      "动物亲和戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-animal-magnetism"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Annulment",
+    "zh": "废魔戒指",
+    "aliases": [
+      "废魔戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-annulment"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Awareness",
+    "zh": "警觉戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-awareness"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Bladeturning",
+    "zh": "偏刃戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-bladeturning"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Clairaudience",
+    "zh": "遥听戒指",
+    "aliases": [
+      "遥听戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-clairaudience"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Command",
+    "zh": "命令戒指",
+    "aliases": [
+      "命令戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-command"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Contrariness",
     "zh": "反向戒指",
     "aliases": [],
@@ -7517,12 +8005,36 @@
   },
   {
     "category": "item",
+    "en": "Ring of Crius",
+    "zh": "克里俄斯戒指",
+    "aliases": [
+      "克里俄斯戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-crius"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Delusion",
     "zh": "妄想戒指",
     "aliases": [],
     "status": "pending",
     "ids": [
       "magic-ring-of-delusion"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Distraction",
+    "zh": "分心戒指",
+    "aliases": [
+      "分心戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-distraction"
     ]
   },
   {
@@ -7549,6 +8061,28 @@
   },
   {
     "category": "item",
+    "en": "Ring of Energy",
+    "zh": "能量戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-099-magic-item-ring-of-energy"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Fashion",
+    "zh": "时装戒指",
+    "aliases": [
+      "时装戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-fashion"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Feather Falling",
     "zh": "羽落戒指",
     "aliases": [],
@@ -7569,6 +8103,18 @@
   },
   {
     "category": "item",
+    "en": "Ring of Fire Starting",
+    "zh": "引火戒指",
+    "aliases": [
+      "引火戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-fire-starting"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Free Action",
     "zh": "自由行动戒指",
     "aliases": [
@@ -7577,6 +8123,16 @@
     "status": "verified-exact",
     "ids": [
       "magic-ring-of-free-action"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Gaseous Form",
+    "zh": "气化戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-077-magic-item-ring-of-gaseous-form"
     ]
   },
   {
@@ -7591,12 +8147,44 @@
   },
   {
     "category": "item",
+    "en": "Ring of Health",
+    "zh": "健康戒指",
+    "aliases": [
+      "健康戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-health"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Human Influence",
     "zh": "影响人类戒指",
     "aliases": [],
     "status": "pending",
     "ids": [
       "magic-ring-of-human-influence"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Hypochondria",
+    "zh": "疑病戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-077-magic-item-ring-of-hypochondria"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Icebolts",
+    "zh": "冰矢戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-icebolts"
     ]
   },
   {
@@ -7613,6 +8201,114 @@
   },
   {
     "category": "item",
+    "en": "Ring of Invisibility Negation",
+    "zh": "破隐戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-invisibility-negation"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Jasmine Odor",
+    "zh": "茉莉香戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-030-magic-item-ring-of-jasmine-odor"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Jolting",
+    "zh": "震慑戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-jolting"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Languages",
+    "zh": "语言戒指",
+    "aliases": [
+      "语言戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-languages"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Light",
+    "zh": "光明戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-light"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Limited Telepathy",
+    "zh": "有限心灵感应戒指",
+    "aliases": [
+      "有限心灵感应戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-limited-telepathy"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Liquid Identification",
+    "zh": "辨液戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-liquid-identification"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Lolth",
+    "zh": "罗丝戒指",
+    "aliases": [
+      "罗丝戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-lolth"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Lore",
+    "zh": "秘闻戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-lore"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Magic Resistance",
+    "zh": "魔法抗力戒指",
+    "aliases": [
+      "魔法抗力戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-magic-resistance"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Mammal Control",
     "zh": "哺乳动物控制戒指",
     "aliases": [],
@@ -7623,12 +8319,64 @@
   },
   {
     "category": "item",
+    "en": "Ring of Marking",
+    "zh": "绿痕戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-030-magic-item-ring-of-marking"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Multiple Wishes",
     "zh": "多重祈愿戒指",
     "aliases": [],
     "status": "pending",
     "ids": [
       "magic-ring-of-multiple-wishes"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Neutralization",
+    "zh": "法术抵消戒指",
+    "aliases": [
+      "法术抵消戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-neutralization"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Oak",
+    "zh": "橡树戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-magic-item-ring-of-oak"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Para-Elemental Command",
+    "zh": "副元素号令戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Ring of Phantom Form",
+    "zh": "幻影形态戒指",
+    "aliases": [
+      "幻影形态戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-phantom-form"
     ]
   },
   {
@@ -7653,12 +8401,64 @@
   },
   {
     "category": "item",
+    "en": "Ring of Quasi-Elemental Command",
+    "zh": "准元素号令戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Ring of Quick Action",
+    "zh": "迅捷行动戒指",
+    "aliases": [
+      "迅捷行动戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-quick-action"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Range Extension",
+    "zh": "射程延展戒指",
+    "aliases": [
+      "射程延展戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-range-extension"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Rapid Regeneration",
+    "zh": "快速再生戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
     "en": "Ring of Regeneration",
     "zh": "再生戒指",
     "aliases": [],
     "status": "verified-exact",
     "ids": [
       "magic-ring-of-regeneration"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Shape Changing",
+    "zh": "变形戒指",
+    "aliases": [
+      "变形戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-shape-changing"
     ]
   },
   {
@@ -7671,6 +8471,26 @@
     "status": "verified-exact",
     "ids": [
       "magic-ring-of-shooting-stars"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Silence",
+    "zh": "静默戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-028-magic-item-ring-of-silence"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Spell Holding",
+    "zh": "持咒戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-ring-of-spell-holding"
     ]
   },
   {
@@ -7719,12 +8539,112 @@
   },
   {
     "category": "item",
+    "en": "Ring of Teleportation",
+    "zh": "传送戒指",
+    "aliases": [
+      "传送戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-teleportation"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of the Bards",
+    "zh": "吟游诗人戒指",
+    "aliases": [
+      "吟游诗人戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-the-bards"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of the Drow",
+    "zh": "卓尔戒指",
+    "aliases": [
+      "卓尔戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-the-drow"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of the Eagle",
+    "zh": "巨鹰戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-ring-of-the-eagle"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of the Grasshopper",
+    "zh": "蚱蜢戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-ring-of-the-grasshopper"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of the Necromancer",
+    "zh": "死灵师戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-029-magic-item-ring-of-the-necromancer"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ring of Three Wishes",
     "zh": "三愿戒指",
     "aliases": [],
     "status": "verified-exact",
     "ids": [
       "magic-ring-of-three-wishes"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Tongues",
+    "zh": "通晓语言戒指",
+    "aliases": [
+      "通晓语言戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-tongues"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Truth",
+    "zh": "真言戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-091-magic-item-ring-of-truth"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ring of Vapors",
+    "zh": "气雾戒指",
+    "aliases": [
+      "气雾戒指 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-117-magic-item-ring-of-vapors"
     ]
   },
   {
@@ -7779,6 +8699,16 @@
     "status": "verified-exact",
     "ids": [
       "magic-ring-of-x-ray-vision"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Rings of Lycanthropy",
+    "zh": "兽化戒指",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-082-magic-item-rings-of-lycanthropy"
     ]
   },
   {
@@ -8061,6 +8991,16 @@
   },
   {
     "category": "item",
+    "en": "Ruby Slippers",
+    "zh": "红宝石鞋",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-045-magic-item-ruby-slippers"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Rug of Smothering",
     "zh": "窒息毯",
     "aliases": [],
@@ -8077,6 +9017,16 @@
     "status": "pending",
     "ids": [
       "dmg-item-rug-of-welcome"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Rust Dust",
+    "zh": "锈蚀粉",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-086-magic-item-rust-dust"
     ]
   },
   {
@@ -8918,8 +9868,7 @@
     ],
     "status": "verified-exact",
     "ids": [
-      "phb-item-058",
-      "ua-weapon-spear"
+      "phb-item-058"
     ]
   },
   {
@@ -8966,6 +9915,16 @@
   },
   {
     "category": "item",
+    "en": "Spear, Hook-tailed",
+    "zh": "钩尾矛",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-169-equipment-hook-tailed-spear"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Speed",
     "zh": "加速药水",
     "aliases": [
@@ -8988,8 +9947,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-059",
-      "ua-weapon-spetum"
+      "phb-item-059"
     ]
   },
   {
@@ -9000,6 +9958,26 @@
     "status": "verified-exact",
     "ids": [
       "dmg-item-sphere-of-annihilation"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sphere of Darkness",
+    "zh": "黑暗小球",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-030-magic-item-sphere-of-darkness"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sphere of False Calling",
+    "zh": "误警球",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-145-magic-item-sphere-of-false-calling"
     ]
   },
   {
@@ -9728,9 +10706,7 @@
     "zh": "混种剑",
     "aliases": [],
     "status": "pending",
-    "ids": [
-      "ua-weapon-sword-bastard"
-    ]
+    "ids": []
   },
   {
     "category": "item",
@@ -9748,9 +10724,7 @@
     "zh": "阔剑",
     "aliases": [],
     "status": "pending",
-    "ids": [
-      "ua-weapon-sword-broad"
-    ]
+    "ids": []
   },
   {
     "category": "item",
@@ -9800,9 +10774,7 @@
     "zh": "长剑",
     "aliases": [],
     "status": "pending",
-    "ids": [
-      "ua-weapon-sword-long"
-    ]
+    "ids": []
   },
   {
     "category": "item",
@@ -9818,9 +10790,7 @@
     "zh": "短剑",
     "aliases": [],
     "status": "pending",
-    "ids": [
-      "ua-weapon-sword-short"
-    ]
+    "ids": []
   },
   {
     "category": "item",
@@ -10471,8 +11441,7 @@
     ],
     "status": "pending",
     "ids": [
-      "phb-item-066",
-      "ua-weapon-voulge"
+      "phb-item-066"
     ]
   },
   {
@@ -10497,6 +11466,26 @@
   },
   {
     "category": "item",
+    "en": "Wand of Armory",
+    "zh": "护甲魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-armory"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Banishment",
+    "zh": "放逐魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-banishment"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wand of Conjuration",
     "zh": "咒法魔杖",
     "aliases": [
@@ -10505,6 +11494,26 @@
     "status": "pending",
     "ids": [
       "magic-wand-of-conjuration"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Darkness",
+    "zh": "黑暗魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-darkness"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Displacement",
+    "zh": "移物魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-displacement"
     ]
   },
   {
@@ -10548,6 +11557,16 @@
     "status": "pending",
     "ids": [
       "magic-wand-of-frost"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Hammerblows",
+    "zh": "锤击魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-hammerblows"
     ]
   },
   {
@@ -10616,6 +11635,16 @@
   },
   {
     "category": "item",
+    "en": "Wand of Magical Mirrors",
+    "zh": "魔镜魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-magical-mirrors"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wand of Metal and Mineral Detection",
     "zh": "金属与矿物侦测魔杖",
     "aliases": [],
@@ -10632,6 +11661,26 @@
     "status": "pending",
     "ids": [
       "magic-wand-of-negation"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Obliteration",
+    "zh": "抹除魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-obliteration"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Ochalor's Eye",
+    "zh": "奥卡洛之眼魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-040-magic-item-wand-of-ochalor-s-eye"
     ]
   },
   {
@@ -10668,6 +11717,16 @@
   },
   {
     "category": "item",
+    "en": "Wand of Rust",
+    "zh": "锈蚀魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-126-magic-item-wand-of-rust"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wand of Secret Door and Trap Location",
     "zh": "暗门与陷阱探测魔杖",
     "aliases": [
@@ -10676,6 +11735,26 @@
     "status": "pending",
     "ids": [
       "magic-wand-of-secret-door-and-trap-location"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Teeth",
+    "zh": "利齿魔杖",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "dragon-102-magic-item-wand-of-teeth"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Whips",
+    "zh": "长鞭魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-magic-item-wand-of-whips"
     ]
   },
   {
@@ -10689,6 +11768,14 @@
     "ids": [
       "magic-wand-of-wonder"
     ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Wonder: Variant",
+    "zh": "奇迹魔杖：三种扩展表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "item",
@@ -11010,12 +12097,32 @@
   },
   {
     "category": "item",
+    "en": "Zadron's Pouch of Wonders",
+    "zh": "扎德隆奇物袋",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-062-magic-item-zadrons-pouch"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Zagyg’s Flowing Flagon",
     "zh": "扎吉格的流动酒壶",
     "aliases": [],
     "status": "pending",
     "ids": [
       "ua-magic-zagyg-s-flowing-flagon"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Zunzalor's Harp",
+    "zh": "赞扎洛竖琴",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-115-magic-item-zunzalors-harp"
     ]
   },
   {
@@ -11655,11 +12762,13 @@
     "zh": "犬魔",
     "aliases": [
       "巴格斯特",
-      "巴格斯特 ·"
+      "巴格斯特 ·",
+      "巴盖斯特魔犬"
     ],
     "status": "verified-exact",
     "ids": [
-      "mm2-barghest"
+      "mm2-barghest",
+      "dragon-026-monster-barghest"
     ]
   },
   {
@@ -16103,6 +17212,16 @@
   },
   {
     "category": "monster",
+    "en": "Koodjanuk",
+    "zh": "库贾努克圣鸟",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-044-monster-koodjanuk"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Korred",
     "zh": "考芮精",
     "aliases": [
@@ -17255,6 +18374,16 @@
     "status": "verified-exact",
     "ids": [
       "ff-norker"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Northhounds",
+    "zh": "北境猎犬",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-028-monster-northhounds"
     ]
   },
   {
@@ -23073,6 +24202,26 @@
   },
   {
     "category": "race",
+    "en": "Aarakocra (as characters)",
+    "zh": "阿拉卡克拉：角色种族方案",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-124-race-aarakocra"
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Deryni",
+    "zh": "德里尼",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-078-race-deryni"
+    ]
+  },
+  {
+    "category": "race",
     "en": "Dwarf",
     "zh": "矮人",
     "aliases": [],
@@ -23133,6 +24282,24 @@
   },
   {
     "category": "race",
+    "en": "Half-Ogre",
+    "zh": "半食人魔",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-029-race-half-ogre-smiting-him-hip-and-thigh-the"
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Half-Ogre: Smiting Him Hip and Thigh, The",
+    "zh": "半食人魔：盖加克斯的早期方案",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "race",
     "en": "Half-Orc",
     "zh": "半兽人",
     "aliases": [],
@@ -23161,6 +24328,16 @@
     "status": "pending",
     "ids": [
       "hengeyokai"
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Hooves and Green Hair",
+    "zh": "半萨特与半树精",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-109-race-hooves-and-green-hair"
     ]
   },
   {
@@ -23239,6 +24416,14 @@
     ]
   },
   {
+    "category": "race",
+    "en": "Whole Half-Ogre, The",
+    "zh": "半食人魔：完整补充方案",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
     "category": "spell",
     "en": "Abjure",
     "zh": "驱逐术",
@@ -23248,6 +24433,16 @@
     "status": "pending",
     "ids": [
       "ua-cleric-4-abjure"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Accelerated Metabolism",
+    "zh": "加速代谢",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-148-spell-accelerated-metabolism"
     ]
   },
   {
@@ -23264,7 +24459,9 @@
     "category": "spell",
     "en": "Advanced Illusion",
     "zh": "高级幻象",
-    "aliases": [],
+    "aliases": [
+      "高等幻象"
+    ],
     "status": "pending",
     "ids": [
       "ua-illusionist-5-advanced-illusion"
@@ -23292,12 +24489,25 @@
   },
   {
     "category": "spell",
-    "en": "Agannazar’s Scorcher",
-    "zh": "阿甘纳萨的灼流",
+    "en": "Affect Shape*",
+    "zh": "改变身形（趣味／戏仿）",
     "aliases": [],
     "status": "pending",
     "ids": [
-      "fr-agannazars-scorcher"
+      "dragon-144-spell-affect-shape"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Agannazar’s Scorcher",
+    "zh": "阿甘纳萨的灼流",
+    "aliases": [
+      "阿迦纳萨灼热射流"
+    ],
+    "status": "pending",
+    "ids": [
+      "fr-agannazars-scorcher",
+      "dragon-092-spell-agannazars-scorcher"
     ]
   },
   {
@@ -23322,6 +24532,16 @@
     "status": "pending",
     "ids": [
       "ua-cleric-5-air-walk"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Airbolt",
+    "zh": "气束术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-139-spell-airbolt"
     ]
   },
   {
@@ -24041,7 +25261,8 @@
     "en": "Ceremony",
     "zh": "典礼术",
     "aliases": [
-      "仪式术"
+      "仪式术",
+      "仪式（牧师早期方案）"
     ],
     "status": "verified-exact",
     "ids": [
@@ -24051,10 +25272,91 @@
   },
   {
     "category": "spell",
+    "en": "Ceremony: Anointing",
+    "zh": "仪式：膏立",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Autumn",
+    "zh": "仪式：秋祭",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Bless Newborn",
+    "zh": "仪式：祝福新生儿",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Consecrate Temple",
+    "zh": "仪式：祝圣神殿",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Desecrate Ground",
+    "zh": "仪式：亵渎场所",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Oath",
+    "zh": "仪式：誓言（零环祷术）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Spring",
+    "zh": "仪式：春祭",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Summer",
+    "zh": "仪式：夏祭",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Winter",
+    "zh": "仪式：冬祭",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Ceremony: Witness",
+    "zh": "仪式：见证誓约",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
     "en": "Chain Lightning",
     "zh": "连锁闪电",
     "aliases": [
-      "连环闪电"
+      "连环闪电",
+      "连锁闪电（早期版）"
     ],
     "status": "verified-exact",
     "ids": [
@@ -24065,7 +25367,9 @@
     "category": "spell",
     "en": "Change",
     "zh": "变换",
-    "aliases": [],
+    "aliases": [
+      "变换术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-change"
@@ -24127,6 +25431,16 @@
   },
   {
     "category": "spell",
+    "en": "Charm Man I-II",
+    "zh": "魅惑男性 I／II（巫婆版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-114-spell-charm-man-i-ii"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Charm Monster",
     "zh": "魅惑怪物",
     "aliases": [],
@@ -24171,9 +25485,21 @@
   },
   {
     "category": "spell",
+    "en": "Chattel Spirit",
+    "zh": "役使宿敌之灵",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-109-spell-chattel-spirit"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Chill",
     "zh": "凉意",
-    "aliases": [],
+    "aliases": [
+      "微寒术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-chill"
@@ -24197,6 +25523,7 @@
     "en": "Chromatic Orb",
     "zh": "繁彩球",
     "aliases": [
+      "七彩法球",
       "彩色法球"
     ],
     "status": "verified-exact",
@@ -25033,7 +26360,9 @@
     "category": "spell",
     "en": "Dirty",
     "zh": "弄脏",
-    "aliases": [],
+    "aliases": [
+      "污渍术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-dirty"
@@ -25051,6 +26380,26 @@
   },
   {
     "category": "spell",
+    "en": "Discern",
+    "zh": "辨识法师资质",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-139-spell-discern"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Disguise Scent",
+    "zh": "遮掩气味",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-spell-disguise-scent"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Disguise Undead",
     "zh": "伪装不死者",
     "aliases": [
@@ -25059,6 +26408,16 @@
     "status": "pending",
     "ids": [
       "ref5-disguise-undead"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Disinfect",
+    "zh": "伤口消毒",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-spell-disinfect"
     ]
   },
   {
@@ -25078,7 +26437,18 @@
     "aliases": [],
     "status": "pending",
     "ids": [
-      "fr-dismind"
+      "fr-dismind",
+      "dragon-069-spell-dismind"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Dismiss Undead",
+    "zh": "遣退不死生物",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-068-spell-dismiss-undead"
     ]
   },
   {
@@ -25118,6 +26488,7 @@
     "en": "Dispel Illusion",
     "zh": "解除幻象",
     "aliases": [
+      "解除幻术（法师杂志版）",
       "驱散幻象"
     ],
     "status": "pending",
@@ -25140,12 +26511,33 @@
   },
   {
     "category": "spell",
-    "en": "Dispel Silence",
-    "zh": "解除沉默",
+    "en": "Dispel Magic (illusionist)",
+    "zh": "解除魔法（幻术师杂志版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
+    "en": "Dispel Possession",
+    "zh": "解除附身",
     "aliases": [],
     "status": "pending",
     "ids": [
-      "fr-dispel-silence"
+      "dragon-090-spell-dispel-possession"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Dispel Silence",
+    "zh": "解除沉默",
+    "aliases": [
+      "解除寂静"
+    ],
+    "status": "pending",
+    "ids": [
+      "fr-dispel-silence",
+      "dragon-097-spell-dispel-silence"
     ]
   },
   {
@@ -25409,12 +26801,34 @@
   },
   {
     "category": "spell",
-    "en": "Dry",
-    "zh": "弄干",
+    "en": "Druidsight",
+    "zh": "德鲁伊视界",
     "aliases": [],
     "status": "pending",
     "ids": [
+      "dragon-142-spell-druidsight"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Dry",
+    "zh": "弄干",
+    "aliases": [
+      "干燥术"
+    ],
+    "status": "pending",
+    "ids": [
       "ua-magic-user-0-dry"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Drywood",
+    "zh": "干柴术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-spell-drywood"
     ]
   },
   {
@@ -25442,6 +26856,7 @@
     "en": "Dust Devil",
     "zh": "龙卷尘暴",
     "aliases": [
+      "尘卷风（早期牧师版）",
       "尘魔"
     ],
     "status": "verified-exact",
@@ -25533,9 +26948,19 @@
   },
   {
     "category": "spell",
+    "en": "Endure Cold/Heat",
+    "zh": "忍受寒冷／炎热",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "spell",
     "en": "Energy Drain",
     "zh": "能量吸取",
-    "aliases": [],
+    "aliases": [
+      "能量吸取（法师杂志版）"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-9-energy-drain"
@@ -26066,9 +27491,21 @@
   },
   {
     "category": "spell",
+    "en": "Freeze/Heat Metal",
+    "zh": "冷冻／加热金属（炼金术士版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-freeze-heat-metal"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Freshen",
     "zh": "保鲜",
-    "aliases": [],
+    "aliases": [
+      "保鲜术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-freshen"
@@ -26421,6 +27858,16 @@
     "ids": [
       "ua-magic-user-0-hide"
     ]
+  },
+  {
+    "category": "spell",
+    "en": "Hideous Laughter",
+    "zh": "狂笑术",
+    "aliases": [
+      "塔莎失控狂笑术"
+    ],
+    "status": "verified-exact",
+    "ids": []
   },
   {
     "category": "spell",
@@ -27270,7 +28717,9 @@
     "category": "spell",
     "en": "Material",
     "zh": "材料术",
-    "aliases": [],
+    "aliases": [
+      "造材术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-3-material"
@@ -27289,10 +28738,21 @@
   },
   {
     "category": "spell",
+    "en": "Meditation",
+    "zh": "冥思祷术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-108-spell-meditation"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Meld Into Stone",
     "zh": "融身入石",
     "aliases": [
-      "融入石中"
+      "融入石中",
+      "融入石中（早期版）"
     ],
     "status": "verified-exact",
     "ids": [
@@ -27304,7 +28764,8 @@
     "en": "Melf's Acid Arrow",
     "zh": "马友夫强酸箭",
     "aliases": [
-      "梅尔夫的酸箭"
+      "梅尔夫的酸箭",
+      "马友夫强酸箭（早期版）"
     ],
     "status": "verified-exact",
     "ids": [
@@ -27316,11 +28777,22 @@
     "en": "Melf's Minute Meteors",
     "zh": "马友夫微流星",
     "aliases": [
-      "梅尔夫的微型流星"
+      "梅尔夫的微型流星",
+      "马友夫微型流星"
     ],
     "status": "verified-exact",
     "ids": [
       "ua-magic-user-3-melf-s-minute-meteors"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Mellix's Fire Mouth",
+    "zh": "梅利克斯火焰魔嘴",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-123-spell-mellix-s-fire-mouth"
     ]
   },
   {
@@ -27822,7 +29294,9 @@
     "category": "spell",
     "en": "Nod",
     "zh": "点头",
-    "aliases": [],
+    "aliases": [
+      "点头术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-nod"
@@ -27832,7 +29306,9 @@
     "category": "spell",
     "en": "Noise",
     "zh": "杂音",
-    "aliases": [],
+    "aliases": [
+      "杂音术"
+    ],
     "status": "pending",
     "ids": [
       "ua-illusionist-0-noise"
@@ -27852,10 +29328,23 @@
     "category": "spell",
     "en": "Nulathoe’s Ninemen",
     "zh": "努拉索的九人术",
+    "aliases": [
+      "努拉索护尸术"
+    ],
+    "status": "pending",
+    "ids": [
+      "fr-nulathoes-ninemen",
+      "dragon-062-spell-nulathoe-s-ninemen"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Numbness",
+    "zh": "肢体麻木",
     "aliases": [],
     "status": "pending",
     "ids": [
-      "fr-nulathoes-ninemen"
+      "dragon-127-spell-numbness"
     ]
   },
   {
@@ -28050,6 +29539,66 @@
     "status": "pending",
     "ids": [
       "obscurement"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Odeen's Impenetrable Lock",
+    "zh": "奥丁不破锁",
+    "aliases": [
+      "奥丁不破锁 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-124-spell-odeen-s-impenetrable-lock"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Odeen's Magic Cloud",
+    "zh": "奥丁魔法云",
+    "aliases": [
+      "奥丁魔法云 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-124-spell-odeen-s-magic-cloud"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Odeen's Magic Tailor",
+    "zh": "奥丁魔法裁衣",
+    "aliases": [
+      "奥丁魔法裁衣 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-124-spell-odeen-s-magic-tailor"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Odeen's Secret Word",
+    "zh": "奥丁密语",
+    "aliases": [
+      "奥丁密语 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-124-spell-odeen-s-secret-word"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Odeen's Sounding Stick",
+    "zh": "奥丁探隙棒",
+    "aliases": [
+      "奥丁探隙棒 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-124-spell-odeen-s-sounding-stick"
     ]
   },
   {
@@ -29209,10 +30758,22 @@
     "category": "spell",
     "en": "Read Illusionist Magic",
     "zh": "阅读幻术魔法",
-    "aliases": [],
+    "aliases": [
+      "阅读幻术魔法（魔咒师版）"
+    ],
     "status": "pending",
     "ids": [
       "ua-illusionist-1-read-illusionist-magic"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Read Languages",
+    "zh": "阅读语言（神谕者版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-053-spell-read-languages"
     ]
   },
   {
@@ -29227,19 +30788,54 @@
   },
   {
     "category": "spell",
-    "en": "Reconstruction",
-    "zh": "重构",
+    "en": "Read Paramandic Magic",
+    "zh": "阅读帕拉曼德魔文",
     "aliases": [],
     "status": "pending",
     "ids": [
-      "fr-reconstruction"
+      "dragon-106-spell-read-paramandic-magic"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Recall Spell",
+    "zh": "重施法术（博学者版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-140-spell-recall-spell"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Recharge",
+    "zh": "充能术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-136-spell-recharge"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Reconstruction",
+    "zh": "重构",
+    "aliases": [
+      "暂时重构"
+    ],
+    "status": "pending",
+    "ids": [
+      "fr-reconstruction",
+      "dragon-100-spell-reconstruction"
     ]
   },
   {
     "category": "spell",
     "en": "Reflecting Pool",
     "zh": "映照池",
-    "aliases": [],
+    "aliases": [
+      "映照水池"
+    ],
     "status": "pending",
     "ids": [
       "ua-druid-2-reflecting-pool"
@@ -29253,6 +30849,36 @@
     "status": "verified-exact",
     "ids": [
       "regenerate"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Regenerate Critical Wounds",
+    "zh": "致命伤缓愈",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-134-spell-regenerate-critical-wounds"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Regenerate Light Wounds",
+    "zh": "轻伤缓愈",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-134-spell-regenerate-light-wounds"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Regenerate Serious Wounds",
+    "zh": "重伤缓愈",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-134-spell-regenerate-serious-wounds"
     ]
   },
   {
@@ -29438,17 +31064,22 @@
     "category": "spell",
     "en": "Sacred Link",
     "zh": "神圣链接",
-    "aliases": [],
+    "aliases": [
+      "神圣连结"
+    ],
     "status": "pending",
     "ids": [
-      "fr-sacred-link"
+      "fr-sacred-link",
+      "dragon-100-spell-sacred-link"
     ]
   },
   {
     "category": "spell",
     "en": "Salt",
     "zh": "加盐",
-    "aliases": [],
+    "aliases": [
+      "撒盐术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-salt"
@@ -30376,7 +32007,9 @@
     "category": "spell",
     "en": "Tangle",
     "zh": "纠缠",
-    "aliases": [],
+    "aliases": [
+      "缠乱术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-tangle"
@@ -30386,7 +32019,9 @@
     "category": "spell",
     "en": "Tap",
     "zh": "敲击",
-    "aliases": [],
+    "aliases": [
+      "叩击术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-tap"
@@ -30396,7 +32031,9 @@
     "category": "spell",
     "en": "Tarnish",
     "zh": "失光",
-    "aliases": [],
+    "aliases": [
+      "锈蚀术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-tarnish"
@@ -30410,6 +32047,16 @@
     "status": "pending",
     "ids": [
       "ua-magic-user-2-tasha-s-uncontrollable-hideous-laughter"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Tasirin's Haunted Sleep",
+    "zh": "塔西林梦扰术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-069-spell-tasirin-s-haunted-sleep"
     ]
   },
   {
@@ -30458,10 +32105,24 @@
     "category": "spell",
     "en": "Teleport Without Error",
     "zh": "无误传送",
-    "aliases": [],
+    "aliases": [
+      "无误传送术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-7-teleport-without-error"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Temperature",
+    "zh": "保温祷术",
+    "aliases": [
+      "温度"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-120-spell-temperature"
     ]
   },
   {
@@ -30917,11 +32578,23 @@
     "category": "spell",
     "en": "Ultravision",
     "zh": "紫外视觉",
-    "aliases": [],
+    "aliases": [
+      "紫外视觉（法师杂志版）"
+    ],
     "status": "pending",
     "ids": [
       "ua-illusionist-2-ultravision",
       "ua-magic-user-4-ultravision"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Unbinding",
+    "zh": "解缚术（魔咒师版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-090-spell-unbinding"
     ]
   },
   {
@@ -30964,7 +32637,9 @@
     "category": "spell",
     "en": "Unlock",
     "zh": "开锁",
-    "aliases": [],
+    "aliases": [
+      "简锁术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-unlock"
@@ -30986,7 +32661,9 @@
     "category": "spell",
     "en": "Untie",
     "zh": "解结",
-    "aliases": [],
+    "aliases": [
+      "解结术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-untie"
@@ -31012,6 +32689,16 @@
     "status": "pending",
     "ids": [
       "ua-illusionist-4-vacancy"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Vampire Dagger",
+    "zh": "吸血匕首",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-148-spell-vampire-dagger"
     ]
   },
   {
@@ -31088,12 +32775,32 @@
   },
   {
     "category": "spell",
+    "en": "Viper's Bite",
+    "zh": "毒蛇之噬",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-132-spell-viper-s-bite"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Vision",
     "zh": "观视术",
     "aliases": [],
     "status": "pending",
     "ids": [
       "vision"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Vision Crystal",
+    "zh": "映像水晶（巫婆版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-114-spell-vision-crystal"
     ]
   },
   {
@@ -31112,10 +32819,22 @@
     "category": "spell",
     "en": "Volley",
     "zh": "反弹术",
-    "aliases": [],
+    "aliases": [
+      "法术回击"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-7-volley"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Voodoo",
+    "zh": "偶像巫术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-109-spell-voodoo"
     ]
   },
   {
@@ -31180,6 +32899,16 @@
   },
   {
     "category": "spell",
+    "en": "Wall of Missiles*",
+    "zh": "飞矢之墙（趣味／戏仿）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-144-spell-wall-of-missiles"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Wall of Stone",
     "zh": "石墙术",
     "aliases": [
@@ -31204,6 +32933,18 @@
   },
   {
     "category": "spell",
+    "en": "Wall of Water",
+    "zh": "水墙术",
+    "aliases": [
+      "水墙（巫婆版）"
+    ],
+    "status": "verified-exact",
+    "ids": [
+      "dragon-043-spell-wall-of-water"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Ward Against Undead",
     "zh": "防护不死者",
     "aliases": [
@@ -31216,9 +32957,41 @@
   },
   {
     "category": "spell",
+    "en": "Ward, Major",
+    "zh": "高等守护力罩",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-068-spell-ward-major"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Ward, Minor",
+    "zh": "次等守护力罩",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-068-spell-ward-minor"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Warding",
+    "zh": "防护祷术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-108-spell-warding"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Warm",
     "zh": "加温",
-    "aliases": [],
+    "aliases": [
+      "微暖术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-warm"
@@ -31446,9 +33219,31 @@
   },
   {
     "category": "spell",
+    "en": "Worldwalk",
+    "zh": "跨界行走",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-110-spell-worldwalk"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Worship",
+    "zh": "崇拜术（巫婆版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-043-spell-worship"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Wraithform",
     "zh": "怨魂形态",
-    "aliases": [],
+    "aliases": [
+      "幽魂形态"
+    ],
     "status": "pending",
     "ids": [
       "ua-illusionist-3-wraithform"
@@ -31458,7 +33253,9 @@
     "category": "spell",
     "en": "Wrap",
     "zh": "包裹",
-    "aliases": [],
+    "aliases": [
+      "包装术"
+    ],
     "status": "pending",
     "ids": [
       "ua-magic-user-0-wrap"

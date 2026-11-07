@@ -1,5 +1,92 @@
 [
   {
+    "key": "class:barbarian",
+    "category": "class",
+    "en": "Barbarian",
+    "zh": "野蛮人",
+    "englishVariants": [
+      "Barbarian"
+    ],
+    "legacyZh": [
+      "蛮族",
+      "野蛮人（Gygax早期测试稿）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/public/classes-base.ts",
+        "location": "20",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/public/dragon-classes.json",
+        "location": "/7",
+        "zh": "野蛮人（Gygax早期测试稿）"
+      },
+      {
+        "path": "src/data/public/oa-classes.ts",
+        "location": "9",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/published/book-search.json",
+        "location": "/395",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/395",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/published/books/oa/oa-oriental-classes.md",
+        "location": "39",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/published/books/ua/ua-barbarian.md",
+        "location": "3",
+        "zh": "野蛮人"
+      }
+    ],
+    "activeIds": [
+      "barbarian",
+      "oa-barbarian"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Barbarian",
+        "zh": "野蛮人",
+        "category": "class",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 46,
+        "url": "https://5e.kiwee.top/data/class/class-barbarian.json",
+        "entryUrl": "https://5e.kiwee.top/classes.html#%E9%87%8E%E8%9B%AE%E4%BA%BA_phb",
+        "accessed": "2026-11-06"
+      },
+      {
+        "en": "Barbarian",
+        "zh": "野蛮人",
+        "category": "class",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 50,
+        "url": "https://5e.kiwee.top/data/class/class-barbarian.json",
+        "entryUrl": "https://5e.kiwee.top/classes.html#%E9%87%8E%E8%9B%AE%E4%BA%BA_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
     "key": "heading:animal friendship",
     "category": "heading",
     "en": "Animal Friendship",
@@ -21,6 +108,70 @@
         "path": "src/published/books/phb/spell-explanations-druids.md",
         "location": "14",
         "zh": "化兽为友"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:arcane lore",
+    "category": "heading",
+    "en": "Arcane Lore",
+    "zh": "梅利克斯火焰魔嘴",
+    "englishVariants": [
+      "Arcane Lore"
+    ],
+    "legacyZh": [
+      "《奥丁法术集》资料",
+      "充能术",
+      "奥术治疗：代谢与吸血",
+      "德鲁伊视界",
+      "毒蛇之噬",
+      "肢体麻木",
+      "轻伤缓愈"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1469",
+        "zh": "梅利克斯火焰魔嘴"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1471",
+        "zh": "《奥丁法术集》资料"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1473",
+        "zh": "肢体麻木"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1474",
+        "zh": "毒蛇之噬"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1476",
+        "zh": "轻伤缓愈"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1478",
+        "zh": "充能术"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1482",
+        "zh": "德鲁伊视界"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1486",
+        "zh": "奥术治疗：代谢与吸血"
       }
     ],
     "activeIds": [],
@@ -68,6 +219,94 @@
     "notes": []
   },
   {
+    "key": "heading:bazaar of the bizarre",
+    "category": "heading",
+    "en": "Bazaar of the Bizarre",
+    "zh": "奇珍集市：23 枚戒指",
+    "englishVariants": [
+      "Bazaar of the Bizarre"
+    ],
+    "legacyZh": [
+      "+1／对海栖大地精 +3 匕首",
+      "多藏橡木箱",
+      "夸尔羽符：化树",
+      "快速再生戒指",
+      "死灵师戒指",
+      "激怒箭",
+      "误警球",
+      "锈蚀魔杖",
+      "静默戒指",
+      "风袋",
+      "飞行珍珠"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1385",
+        "zh": "奇珍集市：23 枚戒指"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1393",
+        "zh": "风袋"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1394",
+        "zh": "静默戒指"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1397",
+        "zh": "死灵师戒指"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1402",
+        "zh": "飞行珍珠"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1407",
+        "zh": "多藏橡木箱"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1409",
+        "zh": "+1／对海栖大地精 +3 匕首"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1413",
+        "zh": "夸尔羽符：化树"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1466",
+        "zh": "快速再生戒指"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1472",
+        "zh": "锈蚀魔杖"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1477",
+        "zh": "激怒箭"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1484",
+        "zh": "误警球"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:clairaudience",
     "category": "heading",
     "en": "Clairaudience",
@@ -92,7 +331,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "831",
+        "location": "811",
         "zh": "隔墙闻声"
       }
     ],
@@ -126,7 +365,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "845",
+        "location": "825",
         "zh": "鹰眼术"
       }
     ],
@@ -1506,7 +1745,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "449",
+        "location": "429",
         "zh": "腹语术"
       }
     ],
@@ -1609,19 +1848,9 @@
         "zh": "长柄战斧"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阔刃长柄斧"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/19",
         "zh": "长柄战斧"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/445",
-        "zh": "阔刃长柄斧"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -1645,8 +1874,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-020",
-      "ua-weapon-bardiche"
+      "phb-item-020"
     ],
     "status": "pending",
     "references": [],
@@ -1672,19 +1900,9 @@
         "zh": "鸦喙锤"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "鸦嘴锤"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/20",
         "zh": "鸦喙锤"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/446",
-        "zh": "鸦嘴锤"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -1708,8 +1926,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-021",
-      "ua-weapon-bec-de-corbin"
+      "phb-item-021"
     ],
     "status": "pending",
     "references": [],
@@ -2394,19 +2611,9 @@
         "zh": "长柄刀"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "长柄弯刀"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/30",
         "zh": "长柄刀"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/453",
-        "zh": "长柄弯刀"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -2430,8 +2637,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-031",
-      "ua-weapon-fauchard"
+      "phb-item-031"
     ],
     "status": "pending",
     "references": [],
@@ -2523,19 +2729,9 @@
         "zh": "刀钩戟"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "长刃钩枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/36",
         "zh": "刀钩戟"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/456",
-        "zh": "长刃钩枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -2559,8 +2755,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-037",
-      "ua-weapon-glaive-guisarme"
+      "phb-item-037"
     ],
     "status": "pending",
     "references": [],
@@ -2585,19 +2780,9 @@
         "zh": "钩镰枪"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "钩枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/37",
         "zh": "钩镰枪"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/457",
-        "zh": "钩枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -2621,8 +2806,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-038",
-      "ua-weapon-guisarme"
+      "phb-item-038"
     ],
     "status": "pending",
     "references": [],
@@ -2648,19 +2832,9 @@
         "zh": "钩镰斧"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "钩刃枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/38",
         "zh": "钩镰斧"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/458",
-        "zh": "钩刃枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -2684,8 +2858,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-039",
-      "ua-weapon-guisarme-voulge"
+      "phb-item-039"
     ],
     "status": "pending",
     "references": [],
@@ -3585,12 +3758,12 @@
       },
       {
         "path": "src/data/public/item-index.json",
-        "location": "/721",
+        "location": "/691",
         "zh": "龙珠"
       },
       {
         "path": "src/data/public/item-index.json",
-        "location": "/847",
+        "location": "/817",
         "zh": "龙珠"
       },
       {
@@ -3656,19 +3829,9 @@
         "zh": "阔刃矛"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "宽刃长枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/47",
         "zh": "阔刃矛"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/469",
-        "zh": "宽刃长枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -3692,8 +3855,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-048",
-      "ua-weapon-partisan"
+      "phb-item-048"
     ],
     "status": "pending",
     "references": [],
@@ -3982,19 +4144,9 @@
         "zh": "长柄叉"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "侧刃叉枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/53",
         "zh": "长柄叉"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/474",
-        "zh": "侧刃叉枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -4018,8 +4170,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-054",
-      "ua-weapon-ranseur"
+      "phb-item-054"
     ],
     "status": "pending",
     "references": [],
@@ -4096,19 +4247,9 @@
         "zh": "戟矛"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "双叉长枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/58",
         "zh": "戟矛"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/479",
-        "zh": "双叉长枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -4132,8 +4273,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-059",
-      "ua-weapon-spetum"
+      "phb-item-059"
     ],
     "status": "pending",
     "references": [],
@@ -4158,19 +4298,9 @@
         "zh": "长柄砍斧"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "宽刃长柄枪"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/65",
         "zh": "长柄砍斧"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/490",
-        "zh": "宽刃长柄枪"
       },
       {
         "path": "src/data/public/items-imported.json",
@@ -4194,8 +4324,7 @@
       }
     ],
     "activeIds": [
-      "phb-item-066",
-      "ua-weapon-voulge"
+      "phb-item-066"
     ],
     "status": "pending",
     "references": [],
@@ -4954,13 +5083,24 @@
     ],
     "legacyZh": [
       "巴格斯特",
-      "巴格斯特 ·"
+      "巴格斯特 ·",
+      "巴盖斯特魔犬"
     ],
     "occurrences": [
       {
         "path": "@library",
         "location": "",
         "zh": "犬魔"
+      },
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "巴盖斯特魔犬"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/0",
+        "zh": "巴盖斯特魔犬"
       },
       {
         "path": "src/data/public/mm2-monsters-imported.json",
@@ -4973,13 +5113,19 @@
         "zh": "巴格斯特"
       },
       {
+        "path": "src/published/books/dragon-26/barghest.md",
+        "location": "7",
+        "zh": "巴盖斯特魔犬"
+      },
+      {
         "path": "src/published/books/mm2/mm2-monsters-b.md",
         "location": "63",
         "zh": "犬魔"
       }
     ],
     "activeIds": [
-      "mm2-barghest"
+      "mm2-barghest",
+      "dragon-026-monster-barghest"
     ],
     "status": "verified-exact",
     "references": [
@@ -14787,6 +14933,16 @@
         "zh": "活化死尸"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/24",
+        "zh": "活化死尸"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/245",
+        "zh": "活化死尸"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/24",
         "zh": "活化死尸"
@@ -14818,7 +14974,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1521",
+        "location": "1501",
         "zh": "活化死尸"
       }
     ],
@@ -14874,6 +15030,11 @@
         "zh": "嫌恶术/关怀术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/305",
+        "zh": "嫌恶术/关怀术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/305",
         "zh": "嫌恶术/关怀术"
@@ -14885,7 +15046,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2575",
+        "location": "2520",
         "zh": "嫌恶术/关怀术"
       }
     ],
@@ -14942,6 +15103,16 @@
       {
         "path": "src/data/public/oa-spells.ts",
         "location": "8",
+        "zh": "卜筮术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/12",
+        "zh": "卜筮术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/612",
         "zh": "卜筮术"
       },
       {
@@ -15017,6 +15188,11 @@
         "zh": "剑刃护壁"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/58",
+        "zh": "剑刃护壁"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/58",
         "zh": "剑刃护壁"
@@ -15065,6 +15241,163 @@
     ]
   },
   {
+    "key": "spell:ceremony",
+    "category": "spell",
+    "en": "Ceremony",
+    "zh": "典礼术",
+    "englishVariants": [
+      "Ceremony"
+    ],
+    "legacyZh": [
+      "仪式术",
+      "仪式（牧师早期方案）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/47",
+        "zh": "仪式（牧师早期方案）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/387",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/427",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/0",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/40",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/published/books/dragon-58/new-spells.md",
+        "location": "63",
+        "zh": "仪式（牧师早期方案）"
+      },
+      {
+        "path": "src/published/books/ua/ua-cleric-spells-1.md",
+        "location": "5",
+        "zh": "典礼术"
+      },
+      {
+        "path": "src/published/books/ua/ua-druid-spells-1.md",
+        "location": "5",
+        "zh": "典礼术"
+      }
+    ],
+    "activeIds": [
+      "ua-cleric-1-ceremony",
+      "ua-druid-1-ceremony"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Ceremony",
+        "zh": "典礼术",
+        "category": "spell",
+        "edition": "5E",
+        "source": "XGE",
+        "page": 151,
+        "url": "https://5e.kiwee.top/data/spells/spells-xge.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%85%B8%E7%A4%BC%E6%9C%AF_xge",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
+    "key": "spell:chain lightning",
+    "category": "spell",
+    "en": "Chain Lightning",
+    "zh": "连锁闪电",
+    "englishVariants": [
+      "Chain Lightning"
+    ],
+    "legacyZh": [
+      "连环闪电",
+      "连锁闪电（早期版）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "连锁闪电"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/35",
+        "zh": "连锁闪电（早期版）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/589",
+        "zh": "连锁闪电"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/202",
+        "zh": "连锁闪电"
+      },
+      {
+        "path": "src/published/books/dragon-68/new-spells.md",
+        "location": "27",
+        "zh": "连锁闪电（早期版）"
+      },
+      {
+        "path": "src/published/books/ua/ua-magic-user-spells-6.md",
+        "location": "7",
+        "zh": "连锁闪电"
+      }
+    ],
+    "activeIds": [
+      "ua-magic-user-6-chain-lightning"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Chain Lightning",
+        "zh": "连锁闪电",
+        "category": "spell",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 221,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E8%BF%9E%E9%94%81%E9%97%AA%E7%94%B5_phb",
+        "accessed": "2026-11-06"
+      },
+      {
+        "en": "Chain Lightning",
+        "zh": "连锁闪电",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 249,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E8%BF%9E%E9%94%81%E9%97%AA%E7%94%B5_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
     "key": "spell:chill touch",
     "category": "spell",
     "en": "Chill Touch",
@@ -15085,6 +15418,11 @@
       {
         "path": "src/data/public/ref5-spells.ts",
         "location": "16",
+        "zh": "颤栗之触"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/634",
         "zh": "颤栗之触"
       },
       {
@@ -15126,6 +15464,82 @@
     ]
   },
   {
+    "key": "spell:chromatic orb",
+    "category": "spell",
+    "en": "Chromatic Orb",
+    "zh": "繁彩球",
+    "englishVariants": [
+      "Chromatic Orb"
+    ],
+    "legacyZh": [
+      "七彩法球",
+      "彩色法球"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "繁彩球"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/26",
+        "zh": "七彩法球"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/453",
+        "zh": "繁彩球"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/66",
+        "zh": "繁彩球"
+      },
+      {
+        "path": "src/published/books/dragon-66/new-spells.md",
+        "location": "83",
+        "zh": "七彩法球"
+      },
+      {
+        "path": "src/published/books/ua/ua-illusionist-spells-1.md",
+        "location": "7",
+        "zh": "繁彩球"
+      }
+    ],
+    "activeIds": [
+      "ua-illusionist-1-chromatic-orb"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Chromatic Orb",
+        "zh": "繁彩球",
+        "category": "spell",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 221,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E7%B9%81%E5%BD%A9%E7%90%83_phb",
+        "accessed": "2026-11-06"
+      },
+      {
+        "en": "Chromatic Orb",
+        "zh": "繁彩球",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 249,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E7%B9%81%E5%BD%A9%E7%90%83_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
     "key": "spell:cloudkill",
     "category": "spell",
     "en": "Cloudkill",
@@ -15144,6 +15558,11 @@
         "zh": "死云术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/247",
+        "zh": "死云术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/247",
         "zh": "死云术"
@@ -15155,7 +15574,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1549",
+        "location": "1529",
         "zh": "死云术"
       }
     ],
@@ -15210,6 +15629,11 @@
         "zh": "咒唤元素"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/249",
+        "zh": "咒唤元素"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/249",
         "zh": "咒唤元素"
@@ -15226,7 +15650,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1577",
+        "location": "1557",
         "zh": "咒唤元素"
       }
     ],
@@ -15286,6 +15710,16 @@
         "zh": "恒久光亮术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/25",
+        "zh": "恒定光亮"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/176",
+        "zh": "恒久光亮术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/25",
         "zh": "恒定光亮"
@@ -15312,7 +15746,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "493",
+        "location": "473",
         "zh": "恒久光亮术"
       }
     ],
@@ -15340,6 +15774,16 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "操控天气"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/67",
+        "zh": "操控天气"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/268",
         "zh": "操控天气"
       },
       {
@@ -15379,7 +15823,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1927",
+        "location": "1881",
         "zh": "操控天气"
       }
     ],
@@ -15446,6 +15890,16 @@
         "zh": "死亡之门"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/404",
+        "zh": "死亡门槛"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/631",
+        "zh": "死亡之门"
+      },
+      {
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/17",
         "zh": "死亡门槛"
@@ -15475,6 +15929,78 @@
     "notes": []
   },
   {
+    "key": "spell:dispel illusion",
+    "category": "spell",
+    "en": "Dispel Illusion",
+    "zh": "解除幻象",
+    "englishVariants": [
+      "Dispel Illusion"
+    ],
+    "legacyZh": [
+      "解除幻术（法师杂志版）",
+      "驱散幻象"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/32",
+        "zh": "解除幻术（法师杂志版）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/353",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/575",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/data/public/spells-imported.json",
+        "location": "/353",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/188",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/published/books/dragon-67/new-spells.md",
+        "location": "97",
+        "zh": "解除幻术（法师杂志版）"
+      },
+      {
+        "path": "src/published/books/oa/oa-wu-jen-spells.md",
+        "location": "1239",
+        "zh": "驱散幻象"
+      },
+      {
+        "path": "src/published/books/phb/spell-explanations-illusionists.md",
+        "location": "377",
+        "zh": "解除幻象"
+      },
+      {
+        "path": "src/published/books/ua/ua-magic-user-spells-4.md",
+        "location": "7",
+        "zh": "解除幻象"
+      }
+    ],
+    "activeIds": [
+      "dispel-illusion",
+      "ua-magic-user-4-dispel-illusion"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "spell:divination",
     "category": "spell",
     "en": "Divination",
@@ -15490,6 +16016,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "预言术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/38",
         "zh": "预言术"
       },
       {
@@ -15569,6 +16100,11 @@
         "zh": "卓姆吉的冒险者幸运术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/665",
+        "zh": "卓姆吉的冒险者幸运术"
+      },
+      {
         "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
         "location": "32",
         "zh": "卓姆吉的冒险者幸运术"
@@ -15615,6 +16151,11 @@
         "zh": "卓姆吉瞬间召唤"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/293",
+        "zh": "卓姆吉瞬间召唤"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/293",
         "zh": "卓姆吉瞬间召唤"
@@ -15626,7 +16167,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2393",
+        "location": "2338",
         "zh": "卓姆吉瞬间召唤"
       }
     ],
@@ -15663,6 +16204,71 @@
     ]
   },
   {
+    "key": "spell:dust devil",
+    "category": "spell",
+    "en": "Dust Devil",
+    "zh": "龙卷尘暴",
+    "englishVariants": [
+      "Dust Devil"
+    ],
+    "legacyZh": [
+      "尘卷风（早期牧师版）",
+      "尘魔"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "龙卷尘暴"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/45",
+        "zh": "尘卷风（早期牧师版）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/397",
+        "zh": "龙卷尘暴"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/10",
+        "zh": "龙卷尘暴"
+      },
+      {
+        "path": "src/published/books/dragon-58/new-spells.md",
+        "location": "25",
+        "zh": "尘卷风（早期牧师版）"
+      },
+      {
+        "path": "src/published/books/ua/ua-cleric-spells-2.md",
+        "location": "35",
+        "zh": "龙卷尘暴"
+      }
+    ],
+    "activeIds": [
+      "ua-cleric-2-dust-devil"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Dust Devil",
+        "zh": "龙卷尘暴",
+        "category": "spell",
+        "edition": "5E",
+        "source": "XGE",
+        "page": 154,
+        "url": "https://5e.kiwee.top/data/spells/spells-xge.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%BE%99%E5%8D%B7%E5%B0%98%E6%9A%B4_xge",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
     "key": "spell:enthrall",
     "category": "spell",
     "en": "Enthrall",
@@ -15678,6 +16284,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "注目术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/398",
         "zh": "注目术"
       },
       {
@@ -15756,6 +16367,11 @@
         "zh": "鬼斧神工"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/586",
+        "zh": "鬼斧神工"
+      },
+      {
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/199",
         "zh": "鬼斧神工"
@@ -15820,6 +16436,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "寻找捷径"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/60",
         "zh": "寻找捷径"
       },
       {
@@ -15903,6 +16524,11 @@
         "zh": "火焰风暴"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/145",
+        "zh": "火焰风暴"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/145",
         "zh": "火焰风暴"
@@ -15966,6 +16592,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "云雾术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/347",
         "zh": "云雾术"
       },
       {
@@ -16040,6 +16671,16 @@
         "zh": "异界之门"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/69",
+        "zh": "异界之门"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/323",
+        "zh": "异界之门"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/69",
         "zh": "异界之门"
@@ -16076,7 +16717,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2899",
+        "location": "2844",
         "zh": "异界之门"
       }
     ],
@@ -16132,6 +16773,11 @@
         "zh": "指使术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/273",
+        "zh": "指使术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/273",
         "zh": "指使术"
@@ -16148,7 +16794,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2031",
+        "location": "1976",
         "zh": "指使术"
       }
     ],
@@ -16203,6 +16849,11 @@
         "zh": "透材术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/274",
+        "zh": "透材术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/274",
         "zh": "透材术"
@@ -16219,7 +16870,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2045",
+        "location": "1990",
         "zh": "透材术"
       }
     ],
@@ -16249,6 +16900,11 @@
         "zh": "造风术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/206",
+        "zh": "造风术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/206",
         "zh": "造风术"
@@ -16260,7 +16916,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "943",
+        "location": "923",
         "zh": "造风术"
       }
     ],
@@ -16315,6 +16971,16 @@
         "zh": "幻景"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/229",
+        "zh": "幻景"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/355",
+        "zh": "幻景"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/229",
         "zh": "幻景"
@@ -16331,7 +16997,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1281",
+        "location": "1261",
         "zh": "幻景"
       }
     ],
@@ -16393,6 +17059,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "医疗术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/61",
         "zh": "医疗术"
       },
       {
@@ -16467,6 +17138,16 @@
         "zh": "人类定身术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/16",
+        "zh": "人类定身术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/208",
+        "zh": "人类定身术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/16",
         "zh": "人类定身术"
@@ -16493,7 +17174,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "971",
+        "location": "951",
         "zh": "人类定身术"
       }
     ],
@@ -16558,6 +17239,11 @@
         "zh": "召唤怪物"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/213",
+        "zh": "召唤怪物"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/213",
         "zh": "召唤怪物"
@@ -16574,7 +17260,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1041",
+        "location": "1021",
         "zh": "召唤怪物"
       }
     ],
@@ -16604,6 +17290,11 @@
         "zh": "召唤怪物"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/233",
+        "zh": "召唤怪物"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/233",
         "zh": "召唤怪物"
@@ -16620,7 +17311,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1337",
+        "location": "1317",
         "zh": "召唤怪物"
       }
     ],
@@ -16650,6 +17341,11 @@
         "zh": "召唤怪物"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/255",
+        "zh": "召唤怪物"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/255",
         "zh": "召唤怪物"
@@ -16666,7 +17362,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1687",
+        "location": "1656",
         "zh": "召唤怪物"
       }
     ],
@@ -16703,6 +17399,16 @@
       {
         "path": "src/data/public/ref5-spells.ts",
         "location": "7",
+        "zh": "对不死者隐形"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/390",
+        "zh": "对不死生物隐形"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/625",
         "zh": "对不死者隐形"
       },
       {
@@ -16748,6 +17454,11 @@
         "zh": "半径10尺隐形术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/210",
+        "zh": "半径10尺隐形术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/210",
         "zh": "半径10尺隐形术"
@@ -16764,7 +17475,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "999",
+        "location": "979",
         "zh": "半径10尺隐形术"
       }
     ],
@@ -16794,6 +17505,11 @@
         "zh": "李欧蒙秘藏箱"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/256",
+        "zh": "李欧蒙秘藏箱"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/256",
         "zh": "李欧蒙秘藏箱"
@@ -16805,7 +17521,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1701",
+        "location": "1670",
         "zh": "李欧蒙秘藏箱"
       }
     ],
@@ -16860,6 +17576,11 @@
         "zh": "有限许愿术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/295",
+        "zh": "有限许愿术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/295",
         "zh": "有限许愿术"
@@ -16871,7 +17592,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2427",
+        "location": "2372",
         "zh": "有限许愿术"
       }
     ],
@@ -16914,6 +17635,16 @@
         "zh": "物品定位术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/32",
+        "zh": "物品定位术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/187",
+        "zh": "物品定位术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/32",
         "zh": "物品定位术"
@@ -16945,7 +17676,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "647",
+        "location": "627",
         "zh": "物品定位术"
       }
     ],
@@ -17010,6 +17741,11 @@
         "zh": "魔嘴"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/188",
+        "zh": "魔嘴"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/188",
         "zh": "魔嘴"
@@ -17021,7 +17757,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "661",
+        "location": "641",
         "zh": "魔嘴"
       }
     ],
@@ -17067,6 +17803,223 @@
     ]
   },
   {
+    "key": "spell:meld into stone",
+    "category": "spell",
+    "en": "Meld Into Stone",
+    "zh": "融身入石",
+    "englishVariants": [
+      "Meld Into Stone"
+    ],
+    "legacyZh": [
+      "融入石中",
+      "融入石中（早期版）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "融身入石"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/46",
+        "zh": "融入石中（早期版）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/407",
+        "zh": "融身入石"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/20",
+        "zh": "融身入石"
+      },
+      {
+        "path": "src/published/books/dragon-58/new-spells.md",
+        "location": "43",
+        "zh": "融入石中（早期版）"
+      },
+      {
+        "path": "src/published/books/ua/ua-cleric-spells-3.md",
+        "location": "63",
+        "zh": "融身入石"
+      }
+    ],
+    "activeIds": [
+      "ua-cleric-3-meld-into-stone"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Meld into Stone",
+        "zh": "融身入石",
+        "category": "spell",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 259,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E8%9E%8D%E8%BA%AB%E5%85%A5%E7%9F%B3_phb",
+        "accessed": "2026-11-06"
+      },
+      {
+        "en": "Meld into Stone",
+        "zh": "融身入石",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 296,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E8%9E%8D%E8%BA%AB%E5%85%A5%E7%9F%B3_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
+    "key": "spell:melf's acid arrow",
+    "category": "spell",
+    "en": "Melf's Acid Arrow",
+    "zh": "马友夫强酸箭",
+    "englishVariants": [
+      "Melf's Acid Arrow"
+    ],
+    "legacyZh": [
+      "梅尔夫的酸箭",
+      "马友夫强酸箭（早期版）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "马友夫强酸箭"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/29",
+        "zh": "马友夫强酸箭（早期版）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/560",
+        "zh": "马友夫强酸箭"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/173",
+        "zh": "马友夫强酸箭"
+      },
+      {
+        "path": "src/published/books/dragon-67/new-spells.md",
+        "location": "41",
+        "zh": "马友夫强酸箭（早期版）"
+      },
+      {
+        "path": "src/published/books/ua/ua-magic-user-spells-2.md",
+        "location": "91",
+        "zh": "马友夫强酸箭"
+      }
+    ],
+    "activeIds": [
+      "ua-magic-user-2-melf-s-acid-arrow"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Melf's Acid Arrow",
+        "zh": "马友夫强酸箭",
+        "category": "spell",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 259,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%A9%AC%E5%8F%8B%E5%A4%AB%E5%BC%BA%E9%85%B8%E7%AE%AD_phb",
+        "accessed": "2026-11-06"
+      },
+      {
+        "en": "Melf's Acid Arrow",
+        "zh": "马友夫强酸箭",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 297,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%A9%AC%E5%8F%8B%E5%A4%AB%E5%BC%BA%E9%85%B8%E7%AE%AD_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
+    "key": "spell:melf's minute meteors",
+    "category": "spell",
+    "en": "Melf's Minute Meteors",
+    "zh": "马友夫微流星",
+    "englishVariants": [
+      "Melf's Minute Meteors"
+    ],
+    "legacyZh": [
+      "梅尔夫的微型流星",
+      "马友夫微型流星"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "马友夫微流星"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/31",
+        "zh": "马友夫微型流星"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/571",
+        "zh": "马友夫微流星"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/184",
+        "zh": "马友夫微流星"
+      },
+      {
+        "path": "src/published/books/dragon-67/new-spells.md",
+        "location": "77",
+        "zh": "马友夫微型流星"
+      },
+      {
+        "path": "src/published/books/ua/ua-magic-user-spells-3.md",
+        "location": "61",
+        "zh": "马友夫微流星"
+      }
+    ],
+    "activeIds": [
+      "ua-magic-user-3-melf-s-minute-meteors"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "en": "Melf's Minute Meteors",
+        "zh": "马友夫微流星",
+        "category": "spell",
+        "edition": "5E",
+        "source": "XGE",
+        "page": 161,
+        "url": "https://5e.kiwee.top/data/spells/spells-xge.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%A9%AC%E5%8F%8B%E5%A4%AB%E5%BE%AE%E6%B5%81%E6%98%9F_xge",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+    ]
+  },
+  {
     "key": "spell:minor globe of invulnerability",
     "category": "spell",
     "en": "Minor Globe of Invulnerability",
@@ -17085,6 +18038,11 @@
         "zh": "小型法术无效结界"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/232",
+        "zh": "小型法术无效结界"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/232",
         "zh": "小型法术无效结界"
@@ -17096,7 +18054,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1323",
+        "location": "1303",
         "zh": "小型法术无效结界"
       }
     ],
@@ -17126,6 +18084,11 @@
         "zh": "地动术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/281",
+        "zh": "地动术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/281",
         "zh": "地动术"
@@ -17142,7 +18105,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2160",
+        "location": "2105",
         "zh": "地动术"
       }
     ],
@@ -17207,6 +18170,11 @@
         "zh": "涅斯图的灼热光束术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/693",
+        "zh": "涅斯图的灼热光束术"
+      },
+      {
         "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
         "location": "178",
         "zh": "涅斯图的灼热光束术"
@@ -17250,6 +18218,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "迷雾术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/95",
         "zh": "迷雾术"
       },
       {
@@ -17299,6 +18272,11 @@
         "zh": "恒久术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/315",
+        "zh": "恒久术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/315",
         "zh": "恒久术"
@@ -17315,7 +18293,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2748",
+        "location": "2693",
         "zh": "恒久术"
       },
       {
@@ -17352,6 +18330,16 @@
         "zh": "魅影之力"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/214",
+        "zh": "魅影之力"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/341",
+        "zh": "魅影之力"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/214",
         "zh": "魅影之力"
@@ -17378,7 +18366,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1055",
+        "location": "1035",
         "zh": "魅影之力"
       }
     ],
@@ -17431,6 +18419,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "位面转移"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/52",
         "zh": "位面转移"
       },
       {
@@ -17505,6 +18498,11 @@
         "zh": "律令死亡"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/327",
+        "zh": "律令死亡"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/327",
         "zh": "律令死亡"
@@ -17516,7 +18514,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2957",
+        "location": "2902",
         "zh": "律令死亡"
       }
     ],
@@ -17561,6 +18559,11 @@
         "zh": "律令震慑"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/300",
+        "zh": "律令震慑"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/300",
         "zh": "律令震慑"
@@ -17572,7 +18575,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2499",
+        "location": "2444",
         "zh": "律令震慑"
       }
     ],
@@ -17614,6 +18617,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "燃火术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/96",
         "zh": "燃火术"
       },
       {
@@ -17690,6 +18698,16 @@
         "zh": "防护邪恶（半径10尺）"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/42",
+        "zh": "防护邪恶（10尺半径）"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/215",
+        "zh": "防护邪恶（半径10尺）"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/42",
         "zh": "防护邪恶（10尺半径）"
@@ -17716,7 +18734,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1069",
+        "location": "1049",
         "zh": "防护邪恶（半径10尺）"
       }
     ],
@@ -17744,6 +18762,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "使命术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/53",
         "zh": "使命术"
       },
       {
@@ -17790,6 +18813,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "死者复活"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/54",
         "zh": "死者复活"
       },
       {
@@ -17859,6 +18887,11 @@
         "zh": "转生术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/146",
+        "zh": "转生术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/146",
         "zh": "转生术"
@@ -17922,6 +18955,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "复生术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/73",
         "zh": "复生术"
       },
       {
@@ -17991,6 +19029,16 @@
         "zh": "魔绳术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/192",
+        "zh": "魔绳术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/359",
+        "zh": "魔绳术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/192",
         "zh": "魔绳术"
@@ -18012,7 +19060,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "717",
+        "location": "697",
         "zh": "魔绳术"
       }
     ],
@@ -18069,6 +19117,11 @@
         "zh": "瑟腾法术免疫"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/318",
+        "zh": "瑟腾法术免疫"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/318",
         "zh": "瑟腾法术免疫"
@@ -18080,7 +19133,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2796",
+        "location": "2741",
         "zh": "瑟腾法术免疫"
       },
       {
@@ -18112,6 +19165,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "咆哮术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/580",
         "zh": "咆哮术"
       },
       {
@@ -18165,6 +19223,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "圈套术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/105",
         "zh": "圈套术"
       },
       {
@@ -18228,6 +19291,11 @@
         "zh": "死者交谈"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/632",
+        "zh": "死者交谈"
+      },
+      {
         "path": "src/published/books/ref5/ref5-night-gallery.md",
         "location": "993",
         "zh": "Speak with the Dead"
@@ -18274,6 +19342,11 @@
         "zh": "蛛行术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/170",
+        "zh": "蛛行术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/170",
         "zh": "蛛行术"
@@ -18285,7 +19358,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "407",
+        "location": "387",
         "zh": "蛛行术"
       }
     ],
@@ -18337,6 +19410,16 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "荆棘丛生"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/416",
+        "zh": "荆棘丛生"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/437",
         "zh": "荆棘丛生"
       },
       {
@@ -18412,6 +19495,11 @@
         "zh": "灵体折磨术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/286",
+        "zh": "灵体折磨术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/286",
         "zh": "灵体折磨术"
@@ -18428,7 +19516,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2271",
+        "location": "2216",
         "zh": "灵体折磨术"
       }
     ],
@@ -18458,6 +19546,11 @@
         "zh": "臭云术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/195",
+        "zh": "臭云术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/195",
         "zh": "臭云术"
@@ -18474,7 +19567,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "759",
+        "location": "739",
         "zh": "臭云术"
       }
     ],
@@ -18529,6 +19622,11 @@
         "zh": "化石为肉"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/287",
+        "zh": "化石为肉"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/287",
         "zh": "化石为肉"
@@ -18545,7 +19643,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2289",
+        "location": "2234",
         "zh": "化石为肉"
       }
     ],
@@ -18582,6 +19680,16 @@
       {
         "path": "src/data/public/regional-spells.json",
         "location": "/114",
+        "zh": "阳炎爆"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/640",
+        "zh": "阳炎爆"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/757",
         "zh": "阳炎爆"
       },
       {
@@ -18647,6 +19755,16 @@
         "zh": "徽记术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/74",
+        "zh": "徽记术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/319",
+        "zh": "徽记术"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/74",
         "zh": "徽记术"
@@ -18668,7 +19786,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2818",
+        "location": "2763",
         "zh": "徽记术"
       }
     ],
@@ -18721,6 +19839,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "真知术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/55",
         "zh": "真知术"
       },
       {
@@ -18790,6 +19913,11 @@
         "zh": "隐匿之纱"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/381",
+        "zh": "隐匿之纱"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/381",
         "zh": "隐匿之纱"
@@ -18843,6 +19971,11 @@
         "zh": "力场墙"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/263",
+        "zh": "力场墙"
+      },
+      {
         "path": "src/data/public/spells-imported.json",
         "location": "/263",
         "zh": "力场墙"
@@ -18859,7 +19992,7 @@
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1855",
+        "location": "1809",
         "zh": "力场墙"
       }
     ],
@@ -18914,6 +20047,11 @@
         "zh": "风讯术"
       },
       {
+        "path": "src/data/public/spell-index.json",
+        "location": "/460",
+        "zh": "风讯术"
+      },
+      {
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/73",
         "zh": "风讯术"
@@ -18965,6 +20103,11 @@
       {
         "path": "@library",
         "location": "",
+        "zh": "回返真言"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/65",
         "zh": "回返真言"
       },
       {

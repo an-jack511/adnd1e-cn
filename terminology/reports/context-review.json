@@ -10153,7 +10153,7 @@
     "alias": "复活",
     "path": "src/published/books/dmg/dmg-treasure.md",
     "line": 1132,
-    "excerpt": "此戒指有 <strong>2</strong> 种。普通再生戒指每轮恢复 <strong>1 点</strong>生命值，也能逐渐长回失去的肢体或器官。它甚至能使佩戴者死而复生；但若死因是毒药，佩戴者必须再进行一次对抗毒药的豁免检定，否则毒药仍会留在体内。只有火焰、酸或类似手段彻底毁坏所有活体组织，才能阻止再生。当然，必须戴着戒指才会生效，取下后再生便停止。罕见的吸血再生戒指则会立即恢复佩戴者在近战中对敌人造成伤害值的一半生命值（不足 ",
+    "excerpt": "此戒指有 <strong>2</strong> 种。普通再生戒指每回合恢复 <strong>1 点</strong>生命值，也能逐渐长回失去的肢体或器官。它甚至能使佩戴者死而复生；但若死因是毒药，佩戴者必须再进行一次对抗毒药的豁免检定，否则毒药仍会留在体内。只有火焰、酸或类似手段彻底毁坏所有活体组织，才能阻止再生。当然，必须戴着戒指才会生效，取下后再生便停止。罕见的吸血再生戒指则会立即恢复佩戴者在近战中对敌人造成伤害值的一半生命值（不足",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
@@ -11302,6 +11302,1049 @@
     "path": "src/published/books/dmg/treasure-continuation.md",
     "line": 67,
     "excerpt": "此容器看起来像壶或烧瓶，是具有炼金性质的魔法烧瓶。它会随机产生 <strong>2–5</strong>种药水，每种药水含 <strong>2–5 剂</strong>。不同药水会分层置于容器内；每次倒取需 <strong>1 回合</strong>，并倒出 <strong>1 剂</strong>某种药水。掷 <strong>d4+1</strong>确定烧瓶内有多少种药水，然后逐一检验每种药水并记录其类型与出现顺序；其中可能包括幻觉",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "敲击",
+    "path": "src/published/books/dragon-100/new-spells.md",
+    "line": 47,
+    "excerpt": "破损魔法武器恢复后能按魔法武器命中，但不恢复原加值及特殊能力。持续加热和敲击，例如重新锻造，或施加恒定术、附魔武器，都会使重构立即结束。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-102/nine-wands.md",
+    "line": 13,
+    "excerpt": "法师、幻术师、牧师和德鲁伊可用。每次耗 1 充能，不可再充能。在杖所指方向、距使用者 1″ 处形成反光力场镜，随机维持 3–8 轮，随杖移动，无须专注；再次制造会使旧镜消失，移交魔杖也会转交控制。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "僵尸",
+    "path": "src/published/books/dragon-102/nine-wands.md",
+    "line": 61,
+    "excerpt": "4 充能并接触：使一具完整 S 或 M 尸体／骨架成为僵尸、骷髅或动物僵尸，效劳至被毁或 6 回合后崩解，可再付费活化；不能控制原有不死生物。不完整骨架会失败并耗费。10% 的杖另能耗 4 充能召影怪，成功率 1/3，深洞或古迹为 2/3，失败也耗费，3 轮到达且不攻击持杖者。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "符文",
+    "path": "src/published/books/dragon-102/nine-wands.md",
+    "line": 81,
+    "excerpt": "法师、幻术师与 incantatrix 可用，不可再充能，每次耗 1 充能。每轮可抹除一段文字、一条法术或一个符文，成功时须整轮才褪尽。能无害去掉守卫刻文及符号，也能破坏卷轴或法术书页；深刻入石的文字不能抹除。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "力墙",
+    "path": "src/published/books/dragon-102/nine-wands.md",
+    "line": 95,
+    "excerpt": "湮灭球、虹光球、护盾术、力墙和力场立方体吸收利齿；力笼、护甲术及护甲魔杖力场能偏折它，实心岩石也可偏折。其他物质可被击伤，魔法物件的加值从命中掷骰扣除。风墙、造风及类似气流不影响飞行。续文在第 89 页。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-106/new-spells.md",
+    "line": 7,
+    "excerpt": "## *阅读帕拉曼德魔文 Read Paramandic Magic*（预言，可逆 Reversible）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-108/new-spells.md",
+    "line": 23,
+    "excerpt": "牧师见证一项小任务誓言，相关双方触碰圣徽，牧师以仪式手势和祝辞确认。立誓者违约后，忠诚基础值减 5%，持续至作出满意补偿，可能永不恢复。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 25,
+    "excerpt": "持续时间结束即消失，不论任务完成与否。同一个宿敌最多要求三次服务，任务中被杀后不能再召唤。施法焚烧价值 100 gp 的罕见草药，唱诵、舞蹈并挥动圣徽；此术与护符术共同用于制作 sacred bundle。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 45,
+    "excerpt": "害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 45,
+    "excerpt": "害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预兆",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 45,
+    "excerpt": "害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 47,
+    "excerpt": "七级／九针可治疗或造成疾病、瘫痪、失明，赐予或移除诅咒，魅惑人类；九级／十二针可治疗或造成重伤；十一级／十三针可任务术、治疗或造成致命伤；十三级／二十针可昏迷。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-109/new-spells.md",
+    "line": 47,
+    "excerpt": "七级／九针可治疗或造成疾病、瘫痪、失明，赐予或移除诅咒，魅惑人类；九级／十二针可治疗或造成重伤；十一级／十三针可任务术、治疗或造成致命伤；十三级／二十针可昏迷。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-114/class-revisions.md",
+    "line": 13,
+    "excerpt": "都从零级开始：上层阶级−500经验，其余有赞助者−1,500；不因出身直接一级。零级学短弓，一级获长剑标志认可。优先顺序为短弓、长剑、匕首或刀、短剑、矛或叉戟、标枪。允许轻甲，拒用弩、锤、尖盾、绞索、晨星锤、木棒、镐、鞭及多数长柄武器主要是社会惯例，不是神力禁令。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "飞马",
+    "path": "src/published/books/dragon-114/class-revisions.md",
+    "line": 17,
+    "excerpt": "骑乘射弓射速减半、移动减25%、机动减25%或飞行机动降一档；标枪不受这些限制。骑乘技能三级马、四级女性独角兽、五级速度增益如UA、七级特育巨鹰、八级飞马、十级狮鹫／骏鹰、十二级龙；这是驾驭资格，不会凭空获得坐骑。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "符文",
+    "path": "src/published/books/dragon-115/magic-items.md",
+    "line": 13,
+    "excerpt": "持续弹奏时，以竖琴为中心产生 3″ 半径珠白色永久光明，区域内驱散幻象（按魔法师四环法术）、解除除灵能外的各种隐形，并使魔法或幻术符文、记号、铭文以蓝色轮廓显现。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "阴影",
+    "path": "src/published/books/dragon-115/magic-items.md",
+    "line": 15,
+    "excerpt": "可显露秘法印记、幻影文字、不可读魔法、受保护的文字、守卫刻文与魔法徽记等，便于定位及研究；演奏或观察本身不触发它们，但触碰等通常触发条件仍然有效。阴影、tween 及其他难以看见的生物显出蓝色轮廓；二维化魔法师显为一条蓝色竖线。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "暗示",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 39,
+    "excerpt": "命令术每持续 1 轮消耗 1 次；智力至少 13 或生命骰／等级高于 5 的目标可作对法术豁免。魅惑人类起始消耗 2 次，此后每天续持消耗 1 次，目标可豁免，失败的施放可重新支付 2 次重试。暗示术首小时消耗 2 次，每续持 1 小时消耗 1 次，目标可作对法术豁免。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "通晓语言",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 59,
+    "excerpt": "## 通晓语言戒指 · Ring of Tongues",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 73,
+    "excerpt": "防止佩戴者持有的卓尔造物在离开地下环境后劣化，只保护佩戴者及其财物。侦测魔法显示强灵光；侦测邪恶与阵营识别分别显示邪恶和混乱邪恶，无论真实阵营如何。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 75,
+    "excerpt": "以灵能改变灵光时须作对法术豁免，失败会变为混乱邪恶；成功或本就混乱邪恶者可暂时改变灵光。卓尔会杀死持有此戒的非卓尔生物。原刊估价：卓尔 5,000 gp，其他人 1,000 gp。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "飞马",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 99,
+    "excerpt": "佩戴时能动物交谈，并按魅力 18 判定交涉；这不是魅惑。可请动物协助或战斗，按随机遭遇人类作反应检定。动物不先攻击佩戴者。本条把能施法的生物视作不适用的怪物；飞马、枭熊、座狼适用，独角兽、熊地精、冬狼不适用。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 149,
+    "excerpt": "使佩戴者操控的魔法物品、法术及天生魔法能力失效；来自他人的治疗与攻击魔法仍照常作用。须移除诅咒才能摘下；解除魔法每施法者等级有 1% 概率压制戒指 1 轮，可趁机取下。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 157,
+    "excerpt": "每天 5 次，在近战轮开始以心念指定一个对手，制造仅其能感知的声光，使其该轮所有攻击 −4；对法术豁免成功则为 −2。包括 60 英尺内用远射武器攻击的对手。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "援助",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 167,
+    "excerpt": "以 16 级效果施展能力：随意飞行，移动率 12″；每天各一次臭云术、雾障术；每周各三次风行术、风墙术；每周两次空中仆役 Aerial Servant；每周一次死云术；每月一次召唤气元素位面援助。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "臭云",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 167,
+    "excerpt": "以 16 级效果施展能力：随意飞行，移动率 12″；每天各一次臭云术、雾障术；每周各三次风行术、风墙术；每周两次空中仆役 Aerial Servant；每周一次死云术；每月一次召唤气元素位面援助。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "风行术",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 167,
+    "excerpt": "以 16 级效果施展能力：随意飞行，移动率 12″；每天各一次臭云术、雾障术；每周各三次风行术、风墙术；每周两次空中仆役 Aerial Servant；每周一次死云术；每月一次召唤气元素位面援助。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "援助",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 169,
+    "excerpt": "援助按佩戴者阵营选取：善良为巨灵 djinni，中立为 8 HD 气元素，邪恶为 mihstu；停留 4–16 轮，友好协助，除非先遭攻击。佩戴者对火的豁免 −2，火伤害每骰另加 1 点。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "蛛行",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 177,
+    "excerpt": "戴上时暗针刺中，须以 −4 作对毒豁免，失败立即死亡；纯血卓尔自动成功。能力包括免疫蜘蛛毒、随意蛛行术、每回合一次双倍范围蛛网术、每天一次将六颗石头变为大型毒蜘蛛，持续 12 轮。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 189,
+    "excerpt": "若 DMG 表掷出 86–00，另掷 d100：01–60 人类语言，61–70 守序阵营语言，71–80 中立阵营语言，81–90 混乱阵营语言，91–95 盗贼黑话，96–00 德鲁伊语言。三种阵营组再掷 d6，1–2 善良、3–4 中立、5–6 邪恶。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 197,
+    "excerpt": "最初仅如羽落戒指；浸过希腊神系至少 5 级牧师的血后才启用真正能力。随意降低身体密度，按灵能身体平衡处理，但此时一切攻击造成双倍伤害；或制造重力场，来袭投射物若对解离的物品豁免失败便落空。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-117/bazaar-rings.md",
+    "line": 217,
+    "excerpt": "连续佩戴至少一周后，按戒指规定的体质处理健康、自然恢复、饮酒、系统休克及复活成功率等；不会增加升级所得生命值，也不能套在尸体上来取得复活利益。体质 19 型还提供对毒豁免 +1。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幼虫",
+    "path": "src/published/books/dragon-117/ecology.md",
+    "line": 17,
+    "excerpt": "雌虫杀死交配雄虫，产2–12枚卵于其体内，75%成功孵化，一月内破卵，幼虫取食尸体。首年AC4、腹面6，咬1d4且消化酶每回合再1d4；喷酸2d8，射程如成年。母虫育幼及冬眠可扩掘死路，平常游走取食土壤有机质并补充肉食。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 15,
+    "excerpt": "制作时以再生戒指配合罕见的巨魔血蒸馏物与加速药水附魔；原文未另列制造成本或工期。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "加速",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 15,
+    "excerpt": "制作时以再生戒指配合罕见的巨魔血蒸馏物与加速药水附魔；原文未另列制造成本或工期。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 25,
+    "excerpt": "四型共通：同时只能启用一种主要或次要能力。法术效果按十二级施法者，若对应法术最低施法等级更高则取其最低等级；额外能力发动需五时段。完全潜能须满足主持人指定条件，如祝福戒指或杀死相应副元素生物，才会显露；此前表现为下面列出的基础戒指。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 43,
+    "excerpt": "八型均只能同时运用一种能力；按十二级或对应法术最低施法等级中的较高者运作，发动需五时段。侦测为魔法，但须满足主持人规定的条件，如受祝福或杀死相应准元素生物，才显露完整身份。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "石墙",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 47,
+    "excerpt": "光辉型：虹光图纹每小时一次、阳炎射线每周两次；对麻痹或黑暗豁免 −2。矿物型：化金属为木、石墙各每日一次；对石化豁免 −2。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "尘魔",
+    "path": "src/published/books/dragon-120/magic-items.md",
+    "line": 51,
+    "excerpt": "灰烬型：行踪无迹、侦测隐形各每小时一次；对水或寒冷豁免 −2。尘埃型：尘魔、化水为尘各每日一次；对解离豁免 −2。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-122/new-spells.md",
+    "line": 21,
+    "excerpt": "德鲁伊作为宗教与法律见证者，让立誓者亲口承诺任务、期限及违约后果；后果须相关者事先同意并写入誓言，可能永久致残。德鲁伊可建议修改，也可拒绝见证；完成后便不能再改条件。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "敲击",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 41,
+    "excerpt": "锁具不能以非魔法方式打开或以普通力量破坏；敲击术无效，异次元存在也不绕过此保护。可由原施法者或至少高出其施法时 1 级的法师解除魔法。盗贼仍能发现机关，近看能见锁件形状改变。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "符文",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 77,
+    "excerpt": "封闭文字的可读性，直到有人说出施法者选定的密语，凡俗与魔法阅读都不能绕过。解锁后仍须阅读魔法来读魔法文字，陌生语言仍须通晓语言；此时书写术才可复制。直接解除本法术会毁掉所附文字。不能作用于守卫刻文、符号、爆裂符文，或已受不可读魔法、不可通晓语言影响的文字。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "通晓语言",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 77,
+    "excerpt": "封闭文字的可读性，直到有人说出施法者选定的密语，凡俗与魔法阅读都不能绕过。解锁后仍须阅读魔法来读魔法文字，陌生语言仍须通晓语言；此时书写术才可复制。直接解除本法术会毁掉所附文字。不能作用于守卫刻文、符号、爆裂符文，或已受不可读魔法、不可通晓语言影响的文字。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 87,
+    "excerpt": "<strong>影响范围 Area of Effect：</strong>一根木棒<br>",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 93,
+    "excerpt": "材料：作为受术目标的一根木棒或木杆。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "敲击",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 95,
+    "excerpt": "用受术木棒敲击木材、土或石，持棒者通过振动察觉空腔、裂隙、薄弱处，以及暗门、隐藏门和某些陷阱。已学会此术的法师基础成功率 60%，其他人 40%。最小可检裂隙直径为棒长一半，探测距离为棒长四倍、最多 20 英尺。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-124/odeen-spells.md",
+    "line": 95,
+    "excerpt": "用受术木棒敲击木材、土或石，持棒者通过振动察觉空腔、裂隙、薄弱处，以及暗门、隐藏门和某些陷阱。已学会此术的法师基础成功率 60%，其他人 40%。最小可检裂隙直径为棒长一半，探测距离为棒长四倍、最多 20 英尺。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 23,
+    "excerpt": "以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 25,
+    "excerpt": "反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 27,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 27,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 29,
+    "excerpt": "原刊建议 NPC 代施费用为 200 gp，可因任务服务教团而调整。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 47,
+    "excerpt": "以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 49,
+    "excerpt": "反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 51,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 51,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 53,
+    "excerpt": "原刊建议 NPC 代施费用为 650 gp，可因任务服务教团而调整。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 71,
+    "excerpt": "以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 73,
+    "excerpt": "反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 75,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 75,
+    "excerpt": "只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-134/new-spells.md",
+    "line": 77,
+    "excerpt": "原刊建议 NPC 代施费用为 1,300 gp，可因任务服务教团而调整。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-135/magic-items.md",
+    "line": 85,
+    "excerpt": "击中活物只造成普通 1d6，但伤口只能以魔法法术、药水或能力治疗，不能自然愈合。通常发射前须念箭身刻字；一次只发现一支。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-139/new-spells.md",
+    "line": 25,
+    "excerpt": "## *辨识法师资质 Discern*（预言）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-142/new-spells.md",
+    "line": 43,
+    "excerpt": "一环仪式的扩展用途，神龛须至少八级牧师施放，神殿须至少九级。为新建完工的宗教建筑请求神祇祝福，并与正／负物质位面建立永久联系。先用适当圣物质勾勒范围，再献祭。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-142/new-spells.md",
+    "line": 45,
+    "excerpt": "神龛每平方英尺献祭 0.5／1 gp，使相反阵营牧师的所有豁免及驱散／控制不死生物检定分别 −1／−2。神殿每平方英尺 1.5／2 gp，另须珍贵魔法物品，分别给予 −3／−4，并阻止敌方牧师用祝福、圣歌、祈祷、异界之门等直接请求神助。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-148/arcane-healing.md",
+    "line": 1,
+    "excerpt": "# 奥术治疗：代谢与吸血",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "加速",
+    "path": "src/published/books/dragon-148/arcane-healing.md",
+    "line": 7,
+    "excerpt": "## *加速代谢 Accelerated Metabolism*（变化）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-148/arcane-healing.md",
+    "line": 43,
+    "excerpt": "须用特制非魔法匕首正常攻击：命中造成通常匕首伤害（S/M 为 1d4，L 为 1d3，加力量修正），另加施法者每两级 1 点伤害；只有额外伤害能转为施法者的治疗，不能超过其正常生命上限，也不能超过目标扣除匕首伤害后剩余的生命。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-148/arcane-healing.md",
+    "line": 45,
+    "excerpt": "目标对死亡魔法豁免成功则不转移治疗；原刊例示仍计命中的伤害与等级额外伤害。豁免自然 20 时，等级额外伤害改由施法者承受。只能被魔法武器伤害的生物（不死生物例外）及无血生物不适用。尝试吸取不死者时，每次攻击施法者须对死亡魔法豁免，失败即死，不死者只受匕首及力量伤害。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-148/class-revisions.md",
+    "line": 29,
+    "excerpt": "去掉零级阶段、一级额外3生命值、持续训练提高属性、抗恐惧灵光、90%精神攻击抵抗、幻术豁免+2、负生命值继续行动与见敌必冲锋。0至−9昏迷、−10死亡，正常治疗；任意初始阵营，改阵营照常受罚，但不因此丢职业。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-23/topic-19.md",
+    "line": 11,
+    "excerpt": "James M. Ward 的可选重伤方案：角色生命降至 1 或 2 时掷 d100，01–50 治好后不留永久伤残，51–70 需魔法帮助才能正确恢复，71–00 会残废，除非用祈愿、至少五环的牧师治疗或相应装置补救。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-23/topic-19.md",
+    "line": 15,
+    "excerpt": "原文没有把每一种损害统一量化为减几分；该程度仍由主持人裁定。编辑同时指出其“生命值等于肉体耐损”的前提与 D&D／AD&D 的抽象生命值概念有冲突，所以它作为杂志可选变体保留，不改写核心濒死与治疗规则。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-24/topic-34.md",
+    "line": 11,
+    "excerpt": "Lawrence Schick 把秩序／混乱理解为可被神祇与信众实际体验的宇宙力量，提出以宗教教义替代简单九宫格的战役变体。各教团对善恶有自己的解释，信徒数量与信仰质量维持神的力量；改用这套体系也会削弱通用阵营语言存在的理由。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-24/topic-34.md",
+    "line": 13,
+    "excerpt": "秩序六支：绝对秩序、和谐与善、正义与复仇、知识、进化、战争；中立六支：保持平衡、野心、自然、美学、四元素、战斗荣耀；混乱六支：绝对随机、野心、生命与生育、邪恶与死亡、退化、战争。同叫“战争”或“野心”的教团仍可能持相反目的。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-24/topic-34.md",
+    "line": 15,
+    "excerpt": "文中另给相应主神、信条及能力实例。主神通常拥有传送、祈愿、治疗／复活等通用神力；战斗除 d20 自然 1 外总能命中，生命耗尽通常只是被逐出物质界，只要仍有足够信众便不算真正消亡。这些均属于本文章的替代神系设定，不能自动套给 DDG 或 L&L 的所有神。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-24/topic-34.md",
+    "line": 15,
+    "excerpt": "文中另给相应主神、信条及能力实例。主神通常拥有传送、祈愿、治疗／复活等通用神力；战斗除 d20 自然 1 外总能命中，生命耗尽通常只是被逐出物质界，只要仍有足够信众便不算真正消亡。这些均属于本文章的替代神系设定，不能自动套给 DDG 或 L&L 的所有神。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-25/topic-12.md",
+    "line": 15,
+    "excerpt": "样例社会把不同职业的教育机会、资金与先前技能同阶层联系起来；战士较可能保有入伍前技能。皇族或长子离家冒险需要额外解释，也可成为任务与政治关系的来源。文章列举多种政府形式，强调主持人保留世界制度的决定权。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "巴盖斯特魔犬",
+    "path": "src/published/books/dragon-26/barghest.md",
+    "line": 1,
+    "excerpt": "# 巴盖斯特魔犬",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "巴盖斯特魔犬",
+    "path": "src/published/books/dragon-26/barghest.md",
+    "line": 7,
+    "excerpt": "## 巴盖斯特魔犬 Barghest",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "误导",
+    "path": "src/published/books/dragon-26/barghest.md",
+    "line": 13,
+    "excerpt": "每轮可随意使用一种：犬／地精形态变化、易容、浮空、误导、投射影像；每天各一次魅惑人或怪物、任意门、情绪。犬形移动 30″，无迹行走，静止时 75% 难被察觉，突袭率 3/6；其他狗畏惧且敌视它。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "援助",
+    "path": "src/published/books/dragon-26/topic-23.md",
+    "line": 11,
+    "excerpt": "Carl Parlagreco 用守诺、攻击无武装对手、毒药、援助、合作、权威与组织信任七个维度辅助扮演。作者明确允许主持人自行解释与放宽，这是行为参考方案，不是所有战役都必须采用的阵营禁令。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "援助",
+    "path": "src/published/books/dragon-26/topic-23.md",
+    "line": 13,
+    "excerpt": "本文把善恶主要联系到伤害他人与援助，把守序／混乱主要联系到组织、合作与服从：守序通常守诺、偏好合作并信任组织；混乱偏好独处且反感上级。中立是否帮助、用毒或攻击无武装者多依利益与情境，善良的禁毒主要针对有智力生物。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-26/topic-23.md",
+    "line": 13,
+    "excerpt": "本文把善恶主要联系到伤害他人与援助，把守序／混乱主要联系到组织、合作与服从：守序通常守诺、偏好合作并信任组织；混乱偏好独处且反感上级。中立是否帮助、用毒或攻击无武装者多依利益与情境，善良的禁毒主要针对有智力生物。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-26/topic-23.md",
+    "line": 15,
+    "excerpt": "可把这七个问题作为主持人与玩家讨论角色动机的提示，不把其“混乱不愿合作”等概括误写成核心规则，也不据一项行为立即裁定阵营改变。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "暗示",
+    "path": "src/published/books/dragon-28/bazaar-31.md",
+    "line": 13,
+    "excerpt": "两种模式每天分别最多连续使用一小时。其一使动作如精灵之靴般安静，但说话仍可被 10 英尺内听者听见；并非完全禁声领域。其二隔绝所有到达自己耳边的声音，包括必须被听到才生效的魔法，因此能抵抗恐慌鼓、暗示和吟游诗人魅惑。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-28/topic-10.md",
+    "line": 1,
+    "excerpt": "# 邪恶阵营中的秩序与混乱",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-28/topic-10.md",
+    "line": 7,
+    "excerpt": "## 邪恶阵营中的秩序与混乱 Evil: Law Vs. Chaos",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-28/topic-10.md",
+    "line": 11,
+    "excerpt": "Gary Gygax 用魔鬼、恶魔与 daemon 的不同运作方式解释三种邪恶。守序邪恶依靠层级、代理人和契约把势力伸入主物质界；混乱邪恶更依靠领主亲自介入、个人野心及短暂且不可信的同盟。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-28/topic-10.md",
+    "line": 15,
+    "excerpt": "角色层面，守序邪恶者仍可欺诈并钻契约字面漏洞，却有对其秩序结构的义务；混乱邪恶者即使暂时服从也想取而代之。文章强调不能一面索取守序势力的支持、一面把完全独立的行事方式当成无代价的选择。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "漂浮",
+    "path": "src/published/books/dragon-30/bazaar-37.md",
+    "line": 13,
+    "excerpt": "直径一英寸、内部不能有光的无敌小球，遵从主人的命令漂浮，却不会远离主人超过 20 英尺。没命令时悬在主人头顶。主人死后由下一名触碰它的有感知生物接任。它不会抹消接触物，也不是湮灭球。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "水墙（巫婆版）",
+    "path": "src/published/books/dragon-43/new-spells.md",
+    "line": 1,
+    "excerpt": "# 水墙（巫婆版）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-44/creatures-and-races.md",
+    "line": 13,
+    "excerpt": "可自动逐轮侦测一人阵营；每天三次触碰治疗十六点 HP，也可用已准备的治疗法术。常助善、忽略中立并攻击邪恶；遇善良者有 5% 概率赠礼。寒地随机遭遇时有 15% 概率与泰坦、麒麟、拉玛苏等上层位面生物同行。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "豺狼人",
+    "path": "src/published/books/dragon-44/fantasy-genetics.md",
+    "line": 31,
+    "excerpt": "依次为兽人—狗头人／地精／大地精／豺狼人／熊地精／食人魔：HP 或 HD 为 1d6／1d6+1／2d4／1+2 HD／2 HD／2+2 HD；移动 6″／9″／9″／9″／9″／9″；每轮一击，伤害 1d6／1d6+1／1d8／1d8／2d4／1d8+1；平均力量 10／11／13／15／16／17。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 15,
+    "excerpt": "每周只能排一张星盘，每张只作一次预言。重复询问同一预言仍给同一答案，即使最初错误。时限依一周内／一月内／一年内／超过一年，基本准确率：个人5/15/25/35%；群体≤100人15/25/35/45%；城市等≤1,000人25/35/45/55%；国家等>1,000人35/45/55/65%。INT与WIS各超过15的每一点再+2%；主持人可按问题复杂度上下调整至多20个百分点。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 17,
+    "excerpt": "预言越概括、越远期往往越准，但更象征和含糊，不能保证具体细节或支配其他PC行动。休息与私人研究被打断可降低忠诚。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 33,
+    "excerpt": "人类、精灵、半精灵可从事。生命生成专家可协助制造魔宠人；主持人可极少数允许血肉魔像或克隆，花费至少100,000 gp。仅血肉魔像制造手册可用，其他魔像手册使其受6d6伤害。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "豺狼人",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 39,
+    "excerpt": "原刊明确为NPC职业。基础STR、DEX≥15，INT/WIS/CHA≥6，CON≥9；巡林分支另要求INT、WIS、CON≥14，只许人类或半精灵。普通弓箭手可人类、精灵、半精灵、半兽人，另兽人限三级、大地精四级、豺狼人五级；矮人、侏儒、半身人、地精、狗头人不能选。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-48/magic-items.md",
+    "line": 21,
+    "excerpt": "本条原刊存在标题与正文冲突：标题写作 Dagger =1/=2 vs. Dolphins，正文却称其为鲨华鱼人牧师制造的三叉戟，并称其对水元素位面原生生物尤其有效，例举特里同、水怪及水元素。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "水怪",
+    "path": "src/published/books/dragon-48/magic-items.md",
+    "line": 21,
+    "excerpt": "本条原刊存在标题与正文冲突：标题写作 Dagger =1/=2 vs. Dolphins，正文却称其为鲨华鱼人牧师制造的三叉戟，并称其对水元素位面原生生物尤其有效，例举特里同、水怪及水元素。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "通晓语言",
+    "path": "src/published/books/dragon-49/npc-classes.md",
+    "line": 19,
+    "excerpt": "配方与法术用炼金文；魔法师初读需阅读魔法和通晓语言，读懂某法术后不必每次再用。炼金师从魔法师书抄录要阅读魔法与书写术，必须先翻译再写。牧师与幻术师不能据此读炼金文，炼金师也不能读他们的卷轴法术书。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-54/magic-items.md",
+    "line": 59,
+    "excerpt": "一次性羽符。覆于一眼后消失，赋予两回合真知视觉，但不显示生物的灵光与本性。低于八 HD 者也能无伤观察虹光法球；看见魔法徽记不会因凝视触发，但触摸等其他触发仍有效，并免疫掘土巨怪一类混乱凝视。也可改为治好一眼失明。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "穿墙",
+    "path": "src/published/books/dragon-54/magic-items.md",
+    "line": 91,
+    "excerpt": "一次性羽符。接触墙壁形成宽四、高六、深十英尺的穿墙通道；碰栅门产生底部接地、直径四英尺的圆洞，如酸蚀穿。接触门可开锁、除门闩、铁钉与锁链，并破除秘法锁和封门术。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-54/magic-items.md",
+    "line": 101,
+    "excerpt": "一次性羽符。产生能供 4d4 人饱餐的食物，自动补充，盖好携行仍保温不坏。托盘也可食：咬一口便中和全部毒素、溶解腐蛆并治疗木乃伊腐烂病，不治疗其他疾病。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "穿墙",
+    "path": "src/published/books/dragon-58/new-spells.md",
+    "line": 59,
+    "excerpt": "握同类石样并融进足够容下全身装备的石块，不够大立即弹出；神器与圣物留在外面。只能由原入口离开，不能穿墙。石内知时间、有嗅味觉，无视觉听觉，不知道暗掷时限。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "中和毒素",
+    "path": "src/published/books/dragon-59/new-spells.md",
+    "line": 57,
+    "excerpt": "使牛奶、啤酒、肉、蔬菜、花草等恢复新鲜，可消除轻微腐坏及花朵萎垂；最多约一小桶液体、一只羊或一蒲式耳蔬菜。只维持一小时，不等于中和毒素。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "愿望",
+    "path": "src/published/books/dragon-60/culture.md",
+    "line": 25,
+    "excerpt": "时间感比精灵急切、比人类从容，部分人因游走两种生活方式而热爱冒险。可兼具自然亲近与改变环境的愿望；信仰通常受成长社会影响，不必有单一半精灵专属神系。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "敲击",
+    "path": "src/published/books/dragon-60/new-spells.md",
+    "line": 57,
+    "excerpt": "召出钥匙状无形力，开启或关闭最基本的簧扣、插销等锁。复杂钥匙挡片不阻碍，但弹子、杠杆或密码机构不受影响；不能替代敲击术开启任何锁。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-61/new-spells.md",
+    "line": 21,
+    "excerpt": "制造模糊混杂的幻音，可像远处多人说话、翅膀与风、脚步搬物等，但不能清楚传达话语。声音区域距施法者至多 1″，区内每名生物各自豁免。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "复活",
+    "path": "src/published/books/dragon-62/new-spells.md",
+    "line": 23,
+    "excerpt": "使各种死者免于自然腐败，强化并保持尸体或断肢关节柔韧可用，便于安葬或等待复活。不会治疗伤口或止血，也没有使尸体活化的效果。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-62/new-spells.md",
+    "line": 23,
+    "excerpt": "使各种死者免于自然腐败，强化并保持尸体或断肢关节柔韧可用，便于安葬或等待复活。不会治疗伤口或止血，也没有使尸体活化的效果。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "野蛮人（Gygax早期测试稿）",
+    "path": "src/published/books/dragon-63/class-revisions.md",
+    "line": 1,
+    "excerpt": "# 野蛮人（Gygax早期测试稿）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "野蛮人（Gygax早期测试稿）",
+    "path": "src/published/books/dragon-63/class-revisions.md",
+    "line": 7,
+    "excerpt": "## 野蛮人（Gygax早期测试稿） Barbarian",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "豺狼人",
+    "path": "src/published/books/dragon-63/culture.md",
+    "line": 11,
+    "excerpt": "Roger Moore 系列的收束篇，比较狗头人、地精、大地精和豺狼人的群体组织与祭司动机；兽人另见前一期。本条摘述25–27页社会资料，不录后续各神祇数值。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "豺狼人",
+    "path": "src/published/books/dragon-63/culture.md",
+    "line": 15,
+    "excerpt": "大地精的政治派系、地位竞争、战士纪律及对公开情绪的压抑，可用来区分其与兽人的部落宗教冲突。祭司既主持仪式，也维护司法与权威。豺狼人更重个人主动与临时结盟，耶诺古信仰还使食尸鬼等受控不死生物能在其社群承担角色。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "转生",
+    "path": "src/published/books/dragon-63/culture.md",
+    "line": 17,
+    "excerpt": "这些差异适合决定谈判对象、联盟裂隙、俘虏待遇和渗透线索。原文明确说，转生成这些族群的玩家不因此必须信其神，也不应自动成为其萨满；身体族群与宗教资格须分开。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽影",
+    "path": "src/published/books/dragon-66/new-spells.md",
+    "line": 23,
+    "excerpt": "按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五时段，便按程序继续。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽魂",
+    "path": "src/published/books/dragon-66/new-spells.md",
+    "line": 63,
+    "excerpt": "## *幽魂形态 Wraithform*（变化）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽灵",
+    "path": "src/published/books/dragon-66/new-spells.md",
+    "line": 79,
+    "excerpt": "自身与穿戴、手持物虚化，可穿小孔狭缝，仅 +1 以上魔法武器或本来能伤这类目标的生物可击中。不死生物把施法者当幽魂或幽灵而忽视。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽魂",
+    "path": "src/published/books/dragon-66/new-spells.md",
+    "line": 79,
+    "excerpt": "自身与穿戴、手持物虚化，可穿小孔狭缝，仅 +1 以上魔法武器或本来能伤这类目标的生物可击中。不死生物把施法者当幽魂或幽灵而忽视。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "臭云",
+    "path": "src/published/books/dragon-66/new-spells.md",
+    "line": 103,
+    "excerpt": "五级祖母绿 1d12，产生五英尺半径臭云，按臭云术与毒素豁免处理；六级绿松石 2d8 电伤，铁质装备持有者对法术豁免失败则被磁化 3d4 轮，金属相互吸附。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-68/cloistered-cleric.md",
+    "line": 21,
+    "excerpt": "可用牧师或法师允许的文字物品但不含升级物品；两类允许的药水及所有戒指。杖类仅消魔权杖、复生权杖、治疗法杖及侦敌、恐惧、照明、消解魔杖。原刊守序／中立／混乱比例为 50/35/15，善／中／恶印作 40/35/15，仅合计九成，故保留疑点。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-68/cloistered-cleric.md",
+    "line": 21,
+    "excerpt": "可用牧师或法师允许的文字物品但不含升级物品；两类允许的药水及所有戒指。杖类仅消魔权杖、复生权杖、治疗法杖及侦敌、恐惧、照明、消解魔杖。原刊守序／中立／混乱比例为 50/35/15，善／中／恶印作 40/35/15，仅合计九成，故保留疑点。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽灵",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 61,
+    "excerpt": "材料：幽灵精华或吸血鬼尘",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "僵尸",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 63,
+    "excerpt": "触碰需近战命中时照常判定。目标永久失去两个能量等级或生命骰及相应 HP、攻击与能力；人物须重新冒险升级。每次施法有 5% 概率施法者也失去一级。人类或类人生物降至零级会变为朱朱僵尸。材料为幽灵精华或吸血鬼尘。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "幽灵",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 63,
+    "excerpt": "触碰需近战命中时照常判定。目标永久失去两个能量等级或生命骰及相应 HP、攻击与能力；人物须重新冒险升级。每次施法有 5% 概率施法者也失去一级。人类或类人生物降至零级会变为朱朱僵尸。材料为幽灵精华或吸血鬼尘。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 101,
+    "excerpt": "## *仪式：祝福新生儿 Ceremony: Bless Newborn*（防护）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "僵尸",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 155,
+    "excerpt": "对墓地只会去除已有祝圣，第二次亵渎不叠加。未祝圣墓地内施活化死尸多起一具骷髅或僵尸；只对出自该墓地的不死生物，驱散牧师视为低两级。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 173,
+    "excerpt": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "穿墙",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 173,
+    "excerpt": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 193,
+    "excerpt": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "穿墙",
+    "path": "src/published/books/dragon-68/new-spells.md",
+    "line": 193,
+    "excerpt": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "任务",
+    "path": "src/published/books/dragon-69/new-spells.md",
+    "line": 25,
+    "excerpt": "改变现实、有限许愿术、祈愿或反向“复心术”可恢复。反向也能治愈疯狂、弱智、脑损伤，解除任务、誓约、魅惑等心智控制，清醒酒醉、疲劳、药物影响者，但不能恢复失去的灵能。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "暗示",
+    "path": "src/published/books/dragon-69/new-spells.md",
+    "line": 47,
+    "excerpt": "深睡期间对其中一个暗示术的豁免 −3，可由任一施法者施放，仍须用目标懂得的语言。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-71/new-spells.md",
+    "line": 7,
+    "excerpt": "## *映照水池 Reflecting Pool*（塑能／预言）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "阴影",
+    "path": "src/published/books/dragon-71/new-spells.md",
+    "line": 23,
+    "excerpt": "使自然环境中的普通水池成为类似水晶球的窥视器，使用水晶球的窥视规定。只能窥探与主物质位面共存或相邻的内层位面，包括准元素位面、阴影位面等；跨位面的水晶球减值仍适用。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "飞马",
+    "path": "src/published/books/dragon-72/class-revisions.md",
+    "line": 19,
+    "excerpt": "善良骑士可活至负的一级生命值，但一到负值即不能攻击，须休息包扎；不是负生命值仍能战斗。每完整休养一周额外恢复1d4。第三级可一时段着重甲跃上马；第五级坐骑速度+2″至多六回合，第七／九／十一级分别可驾飞马／骏鹰／狮鹫；女性精灵四级可驾独角兽。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "暗示",
+    "path": "src/published/books/dragon-74/magic-items.md",
+    "line": 17,
+    "excerpt": "同一物品最多供两次分别接触吸能；一次不中断的接触可持续一回合，再继续则持有者每多一轮面临 10% 弱智风险。不会治疗既有伤势。不能吸收正在施放的法术，也不提供普遍魔法抗性；免疫灵能支配、魅惑及类似直接心控，但不免疫睡眠、暗示或 ESP。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-74/magic-items.md",
+    "line": 17,
+    "excerpt": "同一物品最多供两次分别接触吸能；一次不中断的接触可持续一回合，再继续则持有者每多一轮面临 10% 弱智风险。不会治疗既有伤势。不能吸收正在施放的法术，也不提供普遍魔法抗性；免疫灵能支配、魅惑及类似直接心控，但不免疫睡眠、暗示或 ESP。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-78/character-races.md",
+    "line": 17,
+    "excerpt": "本篇德里尼牧师不取得治愈法术，治疗由少数治疗师承担。只有德里尼可为治疗师，有职业德里尼约5%具此潜能；世俗者为灵能师，宗教者兼牧师。须优先学细胞调整、精神外科，能学高级能力时优先保存与复原；可按同等级炼金师制治疗药物，十一等级取得医学学者知识，对毒豁免+2，不能邪恶。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "治疗",
+    "path": "src/published/books/dragon-78/character-races.md",
+    "line": 19,
+    "excerpt": "治疗师可用味觉或耗1力量点分析药水是否有害、无害者是否关乎治疗。德里尼的秘术决斗结界直到一方全死才解除；这是特定决斗仪式，不能覆盖普通结界可耗点打破的规则。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "符文",
+    "path": "src/published/books/dragon-82/magic-items.md",
+    "line": 73,
+    "excerpt": "每天一次显露 1″ 内隐藏符文、徽记与强大魔法灵光，使其发光；每周一次静默专注，40% 概率读取地点残存的心灵印痕，失败也消耗本周机会。各能力次数独立，可接连使用但不能同时维持。每次使用均有 5% 概率戒指永久消失且能力不生效；持续时间依相应法术。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "祝福",
+    "path": "src/published/books/dragon-82/magic-items.md",
+    "line": 89,
+    "excerpt": "须先戴着经历满月，或先由牧师祝福戒指，才可识别命令语。每天一次变成戒面所示兽化人，持续一回合，取得其能力与独立 HP，保留自身阵营；兽化 HP 耗尽时变回并恢复变形前原有 HP。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "吹管",
+    "path": "src/published/books/dragon-86/magic-items.md",
+    "line": 13,
+    "excerpt": "通常发现 1–10 份，用丝袋或骨吹管盛装。丝袋撒布十英尺半径；吹管喷成二十英尺长、入口宽一英尺而末端宽十五英尺的锥形。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-90/new-spells.md",
+    "line": 7,
+    "excerpt": "## *阅读幻术魔法（魔咒师版） Read Illusionist Magic*（预言，可逆 Reversible）",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-91/magic-items.md",
+    "line": 67,
+    "excerpt": "指向可见且三十英尺内生物或有阵营物件并念命令，宝石发光：祖母绿善、钻石中立、红宝石恶、黄玉混乱、蓝宝石守序；守序善良便两石同亮。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-92/ecology.md",
+    "line": 15,
+    "excerpt": "幻术豁免各头各掷且−1，任一看穿即可识破并愤怒寻施术者。主头重伤或毁灭时混乱1d6轮，单头对另一臂先只能乱挥，须一两个月恢复双臂控制；之后左臂仍2d8、右臂3d6伤害，不因控制头改变。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "绳技",
+    "path": "src/published/books/dragon-97/ecology.md",
+    "line": 15,
+    "excerpt": "对同一团气体豁免成功后，再进出该云不重掷；新吐息另判。多只石化铁牛的云团重叠时作者规定只掷一次豁免。雕像形态、德鲁伊树形及绳技／次元洞所在异次元可免。石化者不感知时间；化石为肉可还原，解除魔法不能。石化状态免疫火、电、死亡魔法、视幻术等，挖掘、粉碎及解离却会摧毁。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "穿墙",
+    "path": "src/published/books/dragon-97/new-spells.md",
+    "line": 23,
+    "excerpt": "消除球内已有魔法寂静，并在施法之后每级一轮内持续消除法术或魔法物品产生的寂静。作用可穿墙、门及绕过障碍；没有言语成分，适合在寂静中施放。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
@@ -32902,14 +33945,14 @@
   {
     "alias": "阴影",
     "path": "src/published/books/oa/oa-oriental-classes.md",
-    "line": 608,
+    "line": 607,
     "excerpt": "一级起拥有忍者同等级的静默移动、阴影隐藏、开锁、扒窃，并拥有同等级武僧的听声；独有能力“调查”可从本地区人们处获取秘密信息，但非魔法，依靠仆人、店主等人脉收集。传奇性质的信息（魔法物品力量、灵怪藏金等）不能调查；每次调查须按表 35 检定，并耗时耗钱：常见信息 1 天、2d6 分；不常见信息 1–3 天、2d4 元；机密信息 2d6 天、2d10 两；秘密信息 3d6 天、2d10 钱或更多。常见信息总是准确，不常见有 10% 错误、机",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "援助",
     "path": "src/published/books/oa/oa-oriental-classes.md",
-    "line": 614,
+    "line": 613,
     "excerpt": "义侠每两级拥有一名联系人。联系人不会参加冒险，但可以购买赃物、提供安全藏身处、传递讯息和提供专门情报；他们不会做会危及自身的事，只要得到公平对待，就会对义侠及自己的参与保持沉默。玩家提出联系人姓名与身份，由 DM 判断是否合理；联系人等级最多比义侠高 4 级，而且必须说明双方过去相识的理由。义侠组织的领地是其收入与权力来源，成员以纹身标示等级，等级提升时纹身覆盖范围扩大；脸、手和脚永远不纹。荣誉低于组织荣誉的义侠会被逐出，成为“非人”，",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
@@ -36269,728 +37312,728 @@
   {
     "alias": "乌鸦",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 151,
+    "line": 148,
     "excerpt": "| 5–6 | 乌鸦 | 卓越的视觉 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "混乱",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 171,
+    "line": 160,
     "excerpt": "| 混乱邪恶或混乱中立 | 夸塞魔 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "混乱",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 173,
+    "line": 161,
     "excerpt": "| 混乱善良、中立或中立善良 | 伪龙 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "敲击",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 207,
+    "line": 193,
     "excerpt": "法术以魔法封住木、金属或石制的门、闸门或活板门，使其如同牢固地闩住并锁好。施法距离为每级2\"，持续每级1轮。任何异次元生物（恶魔、魔鬼、元素等）都能击碎被封住的门。施法者高出4级或更多的魔法师可随意打开封住的门；敲击术或解除魔法也会使封门术失效。被封的门仍可用蛮力撞开或砸坏。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 209,
+    "line": 195,
     "excerpt": "### *鉴定术 Identify*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "传讯术",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 279,
+    "line": 265,
     "excerpt": "### *传讯术 Message*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "误导",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 305,
+    "line": 291,
     "excerpt": "魔法师可令一个物体带有魔法灵光，使其被侦测魔法时显现灵光。若侦测者正持有该物体并尝试侦测其灵光，可进行对抗魔法的豁免；成功则识破灵光是用来误导他人的假象。否则，该灵光会被视为真实魔法，但无论进行多少检测，都无法查明其具体魔法性质。材料成分是一小片丝绸，施法时须用它拂过目标物体。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 335,
+    "line": 321,
     "excerpt": "### *阅读魔法 Read Magic*（预言系 Divination，可逆 Reversible）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "长矛",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 361,
+    "line": 347,
     "excerpt": "魔法师前方会出现一道隐形屏障，能完全抵消魔法飞弹攻击。对手掷、投或手持发射的投射物（斧、飞镖、标枪、长矛等），护甲等级相当于2；对小型机械发射的投射物（箭、弩矢、子弹、刺尾狮尖刺、投石索弹丸等），护甲等级相当于3；对其他形式的攻击，护甲等级相当于4。护盾还会使魔法师针对主要来自正面的攻击进行豁免时获得+1。只有来自魔法师正面的攻击会触发护盾保护。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "蛛行",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 407,
+    "line": 387,
     "excerpt": "### *蛛行术 Spider Climb*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 433,
+    "line": 413,
     "excerpt": "魔法师制造一个圆形凹面、无重力的浮空圆盘，以创造此术的谭森巫师命名；这位巫师以寻宝闻名，也以捡回每一枚铜币的贪心著称。圆盘直径3尺，每级可承载1,000金币重量；始终水平地浮在地面上方约3尺。若无特别命令，圆盘与魔法师保持6尺间隔；魔法师也可命令它在法术范围内移动，速度为6\"。若魔法师离开施法距离，或法术持续时间结束，圆盘便会消失，其承载物随即落到下方地面。材料成分是一滴水银。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 491,
+    "line": 471,
     "excerpt": "施法后，魔法师可在法术距离内任意位置制造声音，并令声音仿佛正在远离、接近或停留在原处。音量取决于施法者等级：以最低可施展此法术的3级魔法师为基准，声音最大相当于4个人；每升一级，音量再增加相当于4个人的响度。因此，4级魔法师最多能制造相当于8个人的声音，可表现为说话、歌唱、呼喊、行走、行军或奔跑。声音内容几乎不受限制，但音量不得超过施法者等级所允许的程度。例如，一群老鼠奔跑吱叫的音量约等于8个人奔跑呼喊；狮吼约等于16个人，龙吼则至少相",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 519,
+    "line": 499,
     "excerpt": "此法术制造完全无法穿透的黑暗，普通光源和魔法光亮均无法照明其中；只有光亮术或恒久光亮术能与之抗衡。若施展光亮术，黑暗术会被抵消；反之亦然。材料成分是一撮蝙蝠毛，以及一滴沥青或一块煤。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 521,
+    "line": 501,
     "excerpt": "### *侦测邪恶 Detect Evil*（预言系 Divination，可逆转）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 535,
+    "line": 515,
     "excerpt": "### *侦测隐形 Detect Invisibility*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 549,
+    "line": 529,
     "excerpt": "### *心灵感应 ESP*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 575,
+    "line": 555,
     "excerpt": "此术可在持续时间内将铜币暂时变为金币，或将黄铜器物变成纯金。法术可影响大量铜或黄铜；计算时按每立方尺相当于4,000金币处理。看到假金的生物可进行豁免检定；若掷骰结果不高于其智力值，即能识破，但每有施法者一个等级，检定掷骰便须加1，因此高等级魔法师制造的假金更难识破。若以冷锻铁猛击假金，有一定概率令其恢复原状，概率取决于所用材料：撒上研磨后的50金币黄水晶，概率为30%；100金币琥珀为25%；500金币黄玉为10%；1,000金币东方",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 589,
+    "line": 569,
     "excerpt": "此术使影响范围内的生物忘记上一轮（即过去1分钟）发生的事。施法者每有3个经验等级，遗忘时间再增加1分钟。遗忘术不会解除魅惑、暗示、任务术等法术，但受术者可能会忘记是谁对自己施法。施法者可指定1至4个生物：若仅影响1个目标，其对抗魔法的豁免检定承受−2；影响2个时承受−1；影响3或4个时不调整。专门为此施展的牧师医疗术或复原术，以及祈愿术，可恢复失去的记忆；其他方法无效。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 589,
+    "line": 569,
     "excerpt": "此术使影响范围内的生物忘记上一轮（即过去1分钟）发生的事。施法者每有3个经验等级，遗忘时间再增加1分钟。遗忘术不会解除魅惑、暗示、任务术等法术，但受术者可能会忘记是谁对自己施法。施法者可指定1至4个生物：若仅影响1个目标，其对抗魔法的豁免检定承受−2；影响2个时承受−1；影响3或4个时不调整。专门为此施展的牧师医疗术或复原术，以及祈愿术，可恢复失去的记忆；其他方法无效。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "敲击",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 605,
+    "line": 585,
     "excerpt": "### *敲击术 Knock*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "敲击",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 617,
+    "line": 597,
     "excerpt": "敲击术可打开卡住、被把持或受巫师锁影响的门，也能打开上闩或以其他方式锁住的门、暗门、上锁或机关箱盒，以及镣铐和锁链。对巫师锁施法只会令其失效1回合，并不解除法术；其他情况下，锁具或焊接处会永久打开，但之后仍可重新关闭上锁。此术不能抬起横闩或类似障碍物（例如吊闸）。法术每次可完成两项开锁操作；若一扇门同时上锁、上闩且被把持，则需要施展两次敲击术。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 631,
+    "line": 611,
     "excerpt": "此术制造一个虚假的陷阱，用来欺骗试图偷取施法者财物的矮人或盗贼。魔法师可将幻象附着在锁、铰链、搭扣、螺旋盖或棘轮等小型装置上。能够侦测陷阱的角色检查时，有80%概率会把它当成真的；检查者每高于1级，概率降低4%。若有人试图拆除，拆除者只有20%概率会相信自己成功；其每高于1级，概率增加4%。这纯属幻象，忽略它不会发生任何事；主要用途是吓退盗贼或浪费其宝贵时间。材料成分是一块接触目标物件的黄铁矿。每个50尺见方区域内只能放置一个雷欧蒙陷阱",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 647,
+    "line": 627,
     "excerpt": "### *物品定位术 Locate Object*（预言系 Divination，可逆转）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "僵尸",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 743,
+    "line": 723,
     "excerpt": "此术以少于6个经验等级或生命骰的生物为目标；目标若未能通过对抗魔法的豁免检定，便会因恐惧而颤抖。受惊者不会丢下手持物品，除非负重过度。若被逼入绝境，受术者仍会战斗，但命中、伤害及所有豁免检定均承受−1。此术对精灵、半精灵、不死生物（骷髅、僵尸、食尸鬼、影怪、鬼魂、尸妖、怨灵）、幼虫、勒穆尔、玛涅斯，以及任何种类的牧师均无效。材料成分是骷髅、僵尸、食尸鬼、鬼魂或木乃伊的骨片。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "尸妖",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 743,
+    "line": 723,
     "excerpt": "此术以少于6个经验等级或生命骰的生物为目标；目标若未能通过对抗魔法的豁免检定，便会因恐惧而颤抖。受惊者不会丢下手持物品，除非负重过度。若被逼入绝境，受术者仍会战斗，但命中、伤害及所有豁免检定均承受−1。此术对精灵、半精灵、不死生物（骷髅、僵尸、食尸鬼、影怪、鬼魂、尸妖、怨灵）、幼虫、勒穆尔、玛涅斯，以及任何种类的牧师均无效。材料成分是骷髅、僵尸、食尸鬼、鬼魂或木乃伊的骨片。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "幼虫",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 743,
+    "line": 723,
     "excerpt": "此术以少于6个经验等级或生命骰的生物为目标；目标若未能通过对抗魔法的豁免检定，便会因恐惧而颤抖。受惊者不会丢下手持物品，除非负重过度。若被逼入绝境，受术者仍会战斗，但命中、伤害及所有豁免检定均承受−1。此术对精灵、半精灵、不死生物（骷髅、僵尸、食尸鬼、影怪、鬼魂、尸妖、怨灵）、幼虫、勒穆尔、玛涅斯，以及任何种类的牧师均无效。材料成分是骷髅、僵尸、食尸鬼、鬼魂或木乃伊的骨片。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 757,
+    "line": 737,
     "excerpt": "此术能粉碎非魔法制造的水晶、玻璃、陶土或瓷器物品，例如小瓶、瓶子、长颈瓶、罐子、窗户和镜子等，使其碎成数十片。每级施法者可影响重量不超过100金币等值的物件；符合材质与重量条件的其他物件须通过对抗“钝击”的豁免检定，否则被粉碎。材料成分是一片云母。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "臭云",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 759,
+    "line": 739,
     "excerpt": "### *臭云术 Stinking Cloud*（塑能系 Evocation）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 771,
+    "line": 751,
     "excerpt": "魔法师制造一团翻涌的恶心蒸气，最远可出现在3\"之外。云团内的生物须通过对抗毒素的豁免检定，否则因恶心而无法行动2至5轮（掷1d4＋1）。豁免成功者仅在云团中，以及离开后的下一轮内，因视觉和嗅觉器官受到刺激而无法行动。材料成分是一枚臭鸡蛋或几片臭甘蓝叶。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 799,
+    "line": 779,
     "excerpt": "蛛网术制造多层强韧黏丝，类似蜘蛛网但大得多、坚韧得多。蛛网须锚定在两个或更多相对的支点之间，例如地板与天花板或两面相对的墙；最多覆盖8立方英寸，厚度至少1英寸，例如可形成高4\"、宽2\"、厚1\"的网团。被困在网中或碰到蛛丝的生物会被黏住。力量低于13的生物必须留在原处，直到有人救出或法术结束；力量13至17者每回合可挣脱1尺蛛丝，力量18或以上者每轮可挣脱1尺。每被困满一回合，生物便累计增加5%的窒息死亡概率。此网易燃，魔法火焰剑可轻易割",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "敲击",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 813,
+    "line": 793,
     "excerpt": "对门、箱子或门扉施展此术后，它们会被魔法锁住。只能通过破坏物件、施展解除魔法或敲击术，或由等级至少高于施法者4级的魔法师开启。敲击术和高等级魔法师只能暂时令巫师锁失效，并不会解除它。异次元生物不会像影响守门术那样影响巫师锁。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 831,
+    "line": 811,
     "excerpt": "### *隔墙闻声 Clairaudience*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 845,
+    "line": 825,
     "excerpt": "### *鹰眼术 Clairvoyance*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "鹰眼",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 845,
+    "line": 825,
     "excerpt": "### *鹰眼术 Clairvoyance*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "符文",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 887,
+    "line": 867,
     "excerpt": "### *爆炸符文 Explosive Runes*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "符文",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 899,
+    "line": 879,
     "excerpt": "魔法师可在书籍、地图、卷轴或其他承载文字信息的材料上描绘神秘符文，以阻止未经授权者阅读。读者每有一个魔法师经验等级，发现符文的概率便为5%；盗贼无论等级如何，发现概率都只有5%。符文被读时会爆炸，对读者造成12至30点伤害（6d4＋6）；爆炸半径内的其他生物可进行豁免检定，成功则伤害减半。施法者及其指定的其他魔法师可阅读材料而不触发符文；施法者也可随时将其完全移除。除此之外，只能以解除魔法移除；若未触发，符文会随之消失。爆炸会摧毁承载符",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "加速",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 957,
+    "line": 937,
     "excerpt": "### *加速术 Haste*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "加速",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 969,
+    "line": 949,
     "excerpt": "受术生物的移动速度和攻击次数均加倍。例如，移动速度为6\"、每轮攻击一次的生物，移动速度变为12\"，每轮攻击两次；施法速度不会加快。受术生物数量最多等于魔法师的经验等级；区域内距离施法者最近者优先，且所有目标都必须位于指定区域内。此术会抵消缓慢术，并因新陈代谢加速而使受术者衰老。材料成分是一片甘草根刨屑。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "豺狼人",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 983,
+    "line": 963,
     "excerpt": "此术与牧师二环人类定身术相似，可使距离内由魔法师指定的生物无法行动。若影响3或4人，豁免检定正常；影响2人时，目标豁免承受−1；只影响1人时，目标豁免承受−3。若因部分抵消等原因，定身效果只被部分削弱，则法术改为发挥缓慢术的效果，除非目标豁免成功。目标包括布朗尼、树精、矮人、精灵、豺狼人、侏儒、地精、半精灵、半身人、半兽人、熊地精、人类、狗头人、蜥蜴人、水妖、兽人、矮妖精、小仙灵和穴居蜥人等原书所列类人生物。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "阴影",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 997,
+    "line": 977,
     "excerpt": "受术者可看见红外光谱，从而在6\"范围内辨别热辐射差异。强烈的红外源（火焰、提灯、火把等）会像强光影响普通视觉那样使红外视觉眩目或产生“阴影”，因此受术者无法在这些热源附近有效使用红外视觉。隐形生物通常不会被红外视觉发现，因为隐形术会同时影响红外、紫外和普通光谱。材料成分是一撮干胡萝卜，或一块玛瑙。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "石墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1039,
+    "line": 1019,
     "excerpt": "施法者释放一道强力电能，对影响范围内生物造成每个经验等级1d6点伤害；通过豁免检定者只受一半伤害。法术距离是闪电开始出现的位置；若闪电在6\"处开始，其射程便从该处继续向前延伸。闪电会点燃可燃物、劈开木门、击碎厚达1尺的石材，并熔化铅、金、铜、银、青铜等熔点较低的金属。承受闪电全力冲击的物件也须进行受损检定，规则同火球术。施法者决定闪电的形状和长度：可选择宽1/2\"、长4\"的分叉闪电，或宽1/2\"、长8\"的单束闪电。若12级魔法师将闪电施",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1067,
+    "line": 1047,
     "excerpt": "魔法师制造视觉幻象，所有相信幻象并看见它的生物都会受到影响，甚至可能被幻影投射物击伤，或跌入幻象中的尖刺坑洞。此术不包含声音幻象。幻象持续至被对手击中（除非施法者令其作出相应反应），或魔法师停止专注为止；例如施法者主动令幻象作出反应、移动，或遭到成功攻击，都可能中断专注。不相信幻象的生物可进行豁免检定；成功便会看穿幻象，并在能将真相有效告知同伴时，使同伴的豁免检定获得+4。未观察到幻象的生物不受影响，直到亲眼看见为止。幻象可表现为影响范",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "加速",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1109,
+    "line": 1089,
     "excerpt": "受术生物的移动和攻击速度降至正常或当前速度的一半，因此可抵消加速术；若目标已被减速，效果还会累积。此术同样影响被魔法加速或减速的生物。受影响生物的数量最多等于施法者等级，且须位于魔法师指定的区域内；区域以施法者指定方向和距离为中心。材料成分是一滴糖浆。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1111,
+    "line": 1091,
     "excerpt": "### *暗示术 Suggestion*（惑控系 Enchantment/Charm）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1123,
+    "line": 1103,
     "excerpt": "魔法师以几个词、一句短语或一两句话，暗示目标采取施法者希望的行动。目标必须听得懂魔法师所说的语言。暗示必须听起来合理；要求目标自刺、扑向长矛、自焚或做其他明显有害的事，会自动使法术失效。但若说一池酸液其实是清水，跳进去会令人神清气爽，便可能奏效；又如暗示红龙停止攻击施法者一方，因为合作后可去别处掠夺丰厚财宝，也属合理暗示。暗示行动可持续相当长时间。目标豁免成功则不受影响。特别合理的暗示可由地下城主裁定，使目标豁免承受−1、−2等惩罚。不",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "长矛",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1123,
+    "line": 1103,
     "excerpt": "魔法师以几个词、一句短语或一两句话，暗示目标采取施法者希望的行动。目标必须听得懂魔法师所说的语言。暗示必须听起来合理；要求目标自刺、扑向长矛、自焚或做其他明显有害的事，会自动使法术失效。但若说一池酸液其实是清水，跳进去会令人神清气爽，便可能奏效；又如暗示红龙停止攻击施法者一方，因为合作后可去别处掠夺丰厚财宝，也属合理暗示。暗示行动可持续相当长时间。目标豁免成功则不受影响。特别合理的暗示可由地下城主裁定，使目标豁免承受−1、−2等惩罚。不",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "通晓语言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1137,
+    "line": 1117,
     "excerpt": "除上述数据外，此术与牧师四环通晓语言术相同。材料成分是一尊小型黏土金字塔模型，施法时会碎裂。此术可以逆转。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1265,
+    "line": 1245,
     "excerpt": "施法者使火盆、火炬或篝火等普通火源成为魔法媒介，令一道轻薄的多色火焰帷幕环绕火源，在距火焰5尺处起舞。任何注视火焰或帷幕的生物若豁免失败，便会被魅惑，呆立凝视火焰；受术期间还会受到不超过12个词的暗示术影响，相关豁免承受−3。对受术者发动任何物理攻击，或以实体遮挡其视线，都会打破魅惑；法术到期也会解除。帷幕本身不是魔法火焰，穿过它受到的伤害与穿过原火源相同。材料成分是一小片极薄的多色丝绸，施法者须将其投入火源。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "敲击",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1321,
+    "line": 1301,
     "excerpt": "此术可设置在任何能够闭合的物件上，例如书、盒子、瓶子、箱柜、棺材、门或抽屉。受术物件通常不能再同时施加守门术或巫师锁：火焰陷阱与守门术同时施展时两者均失效；先施展者生效，后施展者失效。若在巫师锁之后施展火焰陷阱，火焰陷阱失效；若两者同时施展则均失效；若先设火焰陷阱再施展巫师锁，则有50%概率两术均失效。敲击术无法影响火焰陷阱；入侵者触碰或进入触发条件时，陷阱便会爆炸。施法者可正常使用受陷阱保护的物件。陷阱触发时发生半径5尺的爆炸，范围内",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "火墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1435,
+    "line": 1415,
     "excerpt": "### *火墙术 Wall of Fire*（塑能系 Evocation）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "火墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1447,
+    "line": 1427,
     "excerpt": "此术与德鲁伊五环火墙术相同，但火焰呈紫色或红蓝色；基础伤害为2d6，每级再增加1点；环形火墙的半径为1/2\"，并按施法者每级增加1/4\"。材料成分是磷。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1461,
+    "line": 1441,
     "excerpt": "此术制造一面坚韧而柔韧的冰墙，用于阻挡追兵等。冰墙厚度为每级1英寸，覆盖面积为每级1平方英寸；例如，10级魔法师可造出长10\"、高1\"，或长5\"、高2\"的冰墙。生物每击穿1英寸厚的冰墙便受到2点伤害；使用火焰的生物受到3点，使用寒冷的生物仅受1点。若造出水平冰面落向敌人，效果如冰风暴的冰雹。火球、龙焰等魔法火焰可在1轮内融化冰墙，并产生持续1回合的大团蒸汽；普通火焰或较弱的魔法火焰不会加速融化。材料成分是一小块石英或类似的水晶岩石。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "加速",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1461,
+    "line": 1441,
     "excerpt": "此术制造一面坚韧而柔韧的冰墙，用于阻挡追兵等。冰墙厚度为每级1英寸，覆盖面积为每级1平方英寸；例如，10级魔法师可造出长10\"、高1\"，或长5\"、高2\"的冰墙。生物每击穿1英寸厚的冰墙便受到2点伤害；使用火焰的生物受到3点，使用寒冷的生物仅受1点。若造出水平冰面落向敌人，效果如冰风暴的冰雹。火球、龙焰等魔法火焰可在1轮内融化冰墙，并产生持续1回合的大团蒸汽；普通火焰或较弱的魔法火焰不会加速融化。材料成分是一小块石英或类似的水晶岩石。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1475,
+    "line": 1455,
     "excerpt": "施法者制造一个看不见的感官器官，将视觉信息传回自己。巫师之眼每轮移动3\"，像人类一样观察前方；也可每轮移动1\"，仔细检查前方地面、天花板和墙壁。明亮处可看清60尺远的事物，也能以红外视觉观察10尺范围。法术持续期间，巫师之眼可向任意方向移动。材料成分是一撮蝙蝠毛。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1591,
+    "line": 1571,
     "excerpt": "### *异界探知 Contact Other Plane*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "真实视觉",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1643,
+    "line": 1612,
     "excerpt": "只有在魔法师已召唤土元素时才能施展此术；只要施法者说明用途是合作，土元素便不会敌对。魔法师将土元素安置于影响区域后，元素便会扭曲该区域的距离，使穿越者实际走过的距离减半，或使穿越者感受到的距离加倍。例如，10尺宽、100尺长的走廊，可被扭曲为看似仅5尺宽、50尺长，也可看似20尺宽、200尺长。法术结束时，土元素返回其位面。行经该区域的生物无法察觉真实情况，但区域会散发微弱魔法灵光；真实视觉术可看出其中有土元素。材料成分是一小团软黏土。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "真实视觉",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1715,
+    "line": 1684,
     "excerpt": "秘匣位于以太界期间，每周被某种生物或存在发现的累计概率增加1%。若被发现，结果如下：10%概率被忽略，10%概率有物品被放入，30%概率箱内物品被交换，30%概率有物品被偷走，20%概率箱子被清空。秘匣返回物质位面时会打开一道以太窗口，持续5小时并逐渐缩小；开启时有5%概率吸引以太怪物穿过，之后每过1小时，概率累计降低1%，直至窗口消失。即使使用宝石视界术、真实视觉术等，物质位面上的生物也无法定位秘匣。若持续时间结束前没有取回秘匣，其永",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "穿墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1769,
+    "line": 1729,
     "excerpt": "### *穿墙术 Passwall*（变化系 Alteration）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "石墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1781,
+    "line": 1741,
     "excerpt": "此术在木墙、灰泥墙或石墙中打开一条通道，使施法者及同伴可以直接穿过。通道宽5尺、高8尺、深10尺；对极厚的墙壁连续施展多个穿墙术，可形成贯通通道。材料成分是一撮芝麻。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "穿墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1781,
+    "line": 1741,
     "excerpt": "此术在木墙、灰泥墙或石墙中打开一条通道，使施法者及同伴可以直接穿过。通道宽5尺、高8尺、深10尺；对极厚的墙壁连续施展多个穿墙术，可形成贯通通道。材料成分是一撮芝麻。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1867,
+    "line": 1821,
     "excerpt": "此术在施法者指定且位于法术距离内的位置制造一道隐形屏障。屏障固定不动，不受任何其他法术影响，解除魔法术也无效；只有解离术能立即摧毁它。打击、投射物、寒冷、炎热、电击及类似效果也无法影响屏障；法术和吐息武器均不能穿过屏障。施法者可将墙塑成半球或球体，表面积上限为每等级20平方尺。材料成分是一撮钻石粉。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "石墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1883,
+    "line": 1837,
     "excerpt": "### *石墙术 Wall of Stone*（塑能系 Evocation）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "石墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 1895,
+    "line": 1849,
     "excerpt": "此术造出一道花岗岩墙；若面积足够，墙体会与相邻岩面融为一体，通常用于封住通道、门口或缺口。石墙厚1/4英寸，表面积为每个施法者等级20平方尺。例如，第12级魔法师可造出厚3英寸、表面积240平方尺的石墙，例如宽12尺、高20尺，足以封住10 × 16尺的通道。石墙不必垂直，也不必由坚固地基支撑，但必须与现有石体连接；因此可用于搭桥或建成坡道。除非被解除魔法、以常规方式破坏或被解离术摧毁，否则石墙永久存在。材料成分是一小块花岗岩。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2007,
+    "line": 1952,
     "excerpt": "计划制造魔法物品的魔法师必须先施展此术，使物品能够承载随后附加或置入其中的魔法。待附魔的物品须符合以下条件：一、状况良好且未受损；二、就其性质而言，制作材料和工艺必须尽可能上乘；三、其价格或价值须体现前一项要求，多数情况下原材料成本须超过100金币。绳索、皮革制品、布料及通常不会刺绣、镶嵌宝石、雕花、刻纹或雕刻的陶器，不适用第三项要求；但若能在不削弱或损害物品正常用途的前提下，为其增添这类工艺或材料，则仍须如此处理。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "臭云",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2096,
+    "line": 2041,
     "excerpt": "   - <strong>C.</strong> 在两处布置臭云术术；",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2098,
+    "line": 2043,
     "excerpt": "   - <strong>E.</strong> 在一处布置暗示术。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2114,
+    "line": 2059,
     "excerpt": "此术从气元素位面召来一只隐形潜猎者。它有8个生命骰，会服从魔法师并执行所命任务；但它只是被迫效劳，并非出于忠诚或意愿，因此会厌恶漫长或复杂的任务，并试图歪曲指令。有关此怪物的详情见《怪物图鉴》。即使相隔数百乃至数千英里，潜猎者仍会继续执行指令。材料成分为燃烧的熏香和一块雕成新月形的兽角。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2116,
+    "line": 2061,
     "excerpt": "### *通晓传奇 Legend Lore*（预言系 Divination）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2128,
+    "line": 2073,
     "excerpt": "此术用于查明有关已知人物、地点或事物的信息。若目标就在施法者手边，或施法者身处相关地点，法术更容易成功，施法时间也只需1至4回合；若施法者掌握详细资料，施法需1至10天；若仅听闻传言，则需2至12周。施法期间，魔法师不能从事日常活动以外的其他事情，例如可以吃饭和睡觉。施法完成后，预言会揭示是否存在相关的传奇资料，通常还会以地名、韵文或谜语指出资料所在。有时也会提供关于目标的资料（尤其目标就在身边时），但内容总以隐晦形式呈现，如韵文、谜语",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2188,
+    "line": 2133,
     "excerpt": "1. 制造一团绝对零度的物质，使其接触水或主要由水构成的液体后扩散，将其冻结至6英寸深。每个魔法师等级可冻结100平方英尺的区域；形成的冰持续每等级1轮。此用法的材料成分是一片约1平方英寸的薄水晶片。<br>",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2190,
+    "line": 2135,
     "excerpt": "3. 制造一颗弹丸大小、触感冰凉但无害的小球。投出或用投石索发射后，小球会在撞击时碎裂，对10尺半径内所有生物造成4至24点寒冷伤害；成功通过对抗魔法的豁免检定则伤害减半。若在施法者等级×1轮的时限内没有将小球投出或发射，它会自动碎裂并造成上述寒冷伤害；此效果可用于阻挡追兵，但也可能伤及施法者及其同伴。此用法的材料成分是一颗价值至少1,000金币的钻石。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "转生",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2222,
+    "line": 2167,
     "excerpt": "### *转生术 Reincarnation*（死灵系 Necromantic）",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "复活",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2234,
+    "line": 2179,
     "excerpt": "此术类似七环德鲁伊法术转生术，但不需要进行系统震撼或复活存活率检定。触碰尸体后，若死者死亡时间未超过魔法师等级所对应的天数，新生化身会在1至6回合内出现在附近。化身种类由下表决定：",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "转生",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2234,
+    "line": 2179,
     "excerpt": "此术类似七环德鲁伊法术转生术，但不需要进行系统震撼或复活存活率检定。触碰尸体后，若死者死亡时间未超过魔法师等级所对应的天数，新生化身会在1至6回合内出现在附近。化身种类由下表决定：",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "转生",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2255,
+    "line": 2200,
     "excerpt": "注：极善或极恶之人不会转生为总体阵营与其相反的生物。材料成分是一面小鼓和一滴血。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2351,
+    "line": 2296,
     "excerpt": "<strong>方式一：强迫其服务。</strong>施法者可用灵体折磨术威胁并折磨恶魔，迫使它执行指定任务；恶魔完成全部服务后方可获得自由，并须为此立誓。这种做法极其危险：契约中的细微错误都可能被恶魔利用，使结果反转，甚至令它杀死并吞噬召唤者。被迫服从后，恶魔会永远仇恨魔法师，因此施法者必须足够强大，能够应对后患。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "混乱",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2353,
+    "line": 2298,
     "excerpt": "<strong>方式二：以贡品进行交易。</strong>召唤者可献上新鲜的人血，并承诺提供一名或多名人类祭品，以换取恶魔自愿服务。施法者仍须做好充分防护；恶魔可能认为条件不足，或更愿意享用召唤者的血肉而拒绝交易。由于施法者知道恶魔真名，恶魔必须遵守誓约，但只须遵守条文的字面含义，而非协议本意。通常只有极邪恶的魔法师会尝试这种交易；若召唤者同样混乱，恶魔或许会对其稍有好感。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2357,
+    "line": 2302,
     "excerpt": "除非恶魔自愿长期服务，否则必须限制服务期限。若任务或服务需要异常漫长的时间，或根本无法完成，恶魔有50%概率摆脱束缚，并在施法者未持续受到保护时向其复仇；脱身的恶魔可在被召至的位面停留至多666天。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "符文",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2363,
+    "line": 2308,
     "excerpt": "材料成分包括五根燃烧的黑色蜡烛；一只装有炽热煤块的火盆，煤上须焚烧硫磺、蝙蝠毛、猪油、烟灰、硝酸汞晶体、曼德拉草根和酒精；一张在五芒星中用符文写有恶魔名字的羊皮纸；以及一盘哺乳动物的血（最好是人血），置于拘束恶魔的区域内。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2377,
+    "line": 2322,
     "excerpt": "此术使施法者能够控制植物生命，与它们交流；受术植物会尽力服从指令。法术影响3\" × 1\"区域内的植物。此术不会赋予植物新的能力，但施法者可以命令植物运用自身已有的能力完成任务；若区域内的植物拥有特殊或罕见能力，也会按命令使用。只有有智慧的植物可以进行豁免检定，且检定结果承受−4减值。材料成分是一撮腐殖土、一滴水和一根小枝或一片叶子。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "愿望",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2439,
+    "line": 2384,
     "excerpt": "有限许愿术术威力极强，但难以施展。它会按施法者所说的字面意思实现愿望，不过效果只会部分实现，或仅持续有限时间。因此，过去、现在或未来的现实都可能在有限范围内改变；除非措辞格外谨慎，否则改变可能只影响魔法师本人。此术不会彻底改变重大现实，也不能仅凭祈愿获得财富或经验值。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "愿望",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2441,
+    "line": 2386,
     "excerpt": "例如，此术可以恢复魔法师损失的部分生命值（或在有限时间内恢复全部生命值）、降低对手的命中概率或伤害、延长某种魔法效果，或使某个生物对施法者产生好感等（参见祈愿术）。它也可能提供有关宝藏或魔法物品的少量线索。贪婪的愿望通常会给许愿者带来灾祸。施法时间就是措辞所需的实际秒数，每段按6秒计算。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "穿墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2497,
+    "line": 2442,
     "excerpt": "施法时，魔法师与一段墙体建立联系，使其如穿墙术般形成通道。相位门对除施法者外的所有生物都不可见，也只有施法者能使用该空间或通道。施法者进入时，相位门消失；离开时重新出现。每两级施法者等级可使用一次。只有等级高于施法者的魔法师施展解除魔法，或数名较低等级魔法师协同施法且等级总和超过施法者等级的两倍，才能解除此术。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "律令：震慑",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2511,
+    "line": 2456,
     "excerpt": "说出律令：震慑后，施法者指定的生物会陷入震慑，踉跄失措，无法清晰思考或行动，持续2至8轮（2d4）。施法者必须面向目标，且目标须在法术距离内。具体持续时间按目标当前生命值判定：1至30点时震慑4至16轮（4d4）；31至60点时震慑2至8轮（2d4）；61至90点时震慑1至4轮（1d4）；超过90点则不受影响。若生物因任何原因而虚弱，当前生命值低于其通常最大值，则以当前生命值判定适用档位。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "转生",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2534,
+    "line": 2479,
     "excerpt": "<strong>成分 Components：</strong>V、S、M；另需转生术与有限许愿术术<br>",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "僵尸",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2541,
+    "line": 2486,
     "excerpt": "此术只创造出类似僵尸的躯体；须再施展转生术，才能赋予它生命力；再以有限许愿术术赋予其相当于原体40%至65%（35%＋1d6×5%）的知识和性格。拟像若有等级，其等级为原体的20%至50%。复制体由冰或雪塑成；施法时须对粗略塑形施法，并将原体的一部分置入冰雪之中。此外还需红宝石粉。拟像无法变得更强，也不能提升等级或能力。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "转生",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2541,
+    "line": 2486,
     "excerpt": "此术只创造出类似僵尸的躯体；须再施展转生术，才能赋予它生命力；再以有限许愿术术赋予其相当于原体40%至65%（35%＋1d6×5%）的知识和性格。拟像若有等级，其等级为原体的20%至50%。复制体由冰或雪塑成；施法时须对粗略塑形施法，并将原体的一部分置入冰雪之中。此外还需红宝石粉。拟像无法变得更强，也不能提升等级或能力。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "石墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2571,
+    "line": 2516,
     "excerpt": "施法后，魔法师可以使一件物品消失。若物品重量不超过每施法者等级500金币重量，便可将它传送到指定地点（参见传送术）；例如，14级魔法师可以使重量达7,000金币的物品消失并在指定地点重新出现。更重的物品也能消失，但会被送入以太位面，并以石头替代；例如，一扇门消失后，会出现一道厚度为1尺或与门等厚（取较厚者）的石墙。受影响物质的最大体积为每施法者等级3立方尺，因此此术同时受重量和体积限制。成功施展解除魔法可以使以太位面中的消失物品返回。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "混乱",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2595,
+    "line": 2540,
     "excerpt": "必须明确说出要影响的生物种类（例如红龙、丘陵巨人、鼠化人 wererat、拉玛苏 lammasu、卡托布莱帕斯 catoblepas 或吸血鬼），或角色的具体阵营（例如混乱邪恶、混乱善良、守序中立或中立）。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "传讯",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2716,
+    "line": 2661,
     "excerpt": "此强力法术使受术者完全免受所有用于侦测、影响或读取情绪与思想的装置及法术侵扰，包括预兆术、魅惑类法术、命令术、困惑术、预言系法术、共感（所有形式）、心灵感应术、恐惧术、弱智术、群体暗示术、魅影杀手、附体、支配术、缚魂术、暗示术和心灵传讯。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2716,
+    "line": 2661,
     "excerpt": "此强力法术使受术者完全免受所有用于侦测、影响或读取情绪与思想的装置及法术侵扰，包括预兆术、魅惑类法术、命令术、困惑术、预言系法术、共感（所有形式）、心灵感应术、恐惧术、弱智术、群体暗示术、魅影杀手、附体、支配术、缚魂术、暗示术和心灵传讯。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预兆",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2716,
+    "line": 2661,
     "excerpt": "此强力法术使受术者完全免受所有用于侦测、影响或读取情绪与思想的装置及法术侵扰，包括预兆术、魅惑类法术、命令术、困惑术、预言系法术、共感（所有形式）、心灵感应术、恐惧术、弱智术、群体暗示术、魅影杀手、附体、支配术、缚魂术、暗示术和心灵传讯。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2716,
+    "line": 2661,
     "excerpt": "此强力法术使受术者完全免受所有用于侦测、影响或读取情绪与思想的装置及法术侵扰，包括预兆术、魅惑类法术、命令术、困惑术、预言系法术、共感（所有形式）、心灵感应术、恐惧术、弱智术、群体暗示术、魅影杀手、附体、支配术、缚魂术、暗示术和心灵传讯。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "通晓语言",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2760,
+    "line": 2705,
     "excerpt": "此术可改变某些其他法术的持续时间，使其永久有效。可由施法者对自身施加恒久术的法术包括：通晓语言术、侦测邪恶术、侦测隐形术、侦测魔法术、红外视觉术、防护邪恶术、防护普通飞弹术、阅读魔法术、巧言术以及隐形仆役术。魔法师先施放所需法术，再接着施放恒久术。每施放一次恒久术，魔法师的体质永久降低1点；上述个人用途的法术不能施加于其他生物。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "力墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2762,
+    "line": 2707,
     "excerpt": "此外，恒久术还能令下列法术效果永久持续：变巨术、恐惧术、阵风术、隐形术、魔嘴、棱彩球术、臭云术术、火墙术、力墙术和蛛网术。若目标不是活物，恒久术可与上述法术同时施放。此类恒久效果仍可被正常解除；一旦恒久术被解除，整个法术效果也随之消失。个人用途的恒久效果则只能由施法者等级高于最初施法者施放时等级的魔法师解除。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "火墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2762,
+    "line": 2707,
     "excerpt": "此外，恒久术还能令下列法术效果永久持续：变巨术、恐惧术、阵风术、隐形术、魔嘴、棱彩球术、臭云术术、火墙术、力墙术和蛛网术。若目标不是活物，恒久术可与上述法术同时施放。此类恒久效果仍可被正常解除；一旦恒久术被解除，整个法术效果也随之消失。个人用途的恒久效果则只能由施法者等级高于最初施法者施放时等级的魔法师解除。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "臭云",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2762,
+    "line": 2707,
     "excerpt": "此外，恒久术还能令下列法术效果永久持续：变巨术、恐惧术、阵风术、隐形术、魔嘴、棱彩球术、臭云术术、火墙术、力墙术和蛛网术。若目标不是活物，恒久术可与上述法术同时施放。此类恒久效果仍可被正常解除；一旦恒久术被解除，整个法术效果也随之消失。个人用途的恒久效果则只能由施法者等级高于最初施法者施放时等级的魔法师解除。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "暗示",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2812,
+    "line": 2757,
     "excerpt": "| 迷惑、魅惑、暗示 | +9 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "任务",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2814,
+    "line": 2759,
     "excerpt": "| 契约、任务 | +5 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "符文",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2830,
+    "line": 2775,
     "excerpt": "徽记术会创造魔法符文，对经过、触碰、阅读符文，或穿过刻有符文的门洞的生物产生影响。施法时，魔法师将符文刻在所选表面，并从下列效果中选择一种：",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "符文",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2834,
+    "line": 2779,
     "excerpt": "- <strong>恐惧 Fear：</strong>此符文相当于极强的恐惧术。所有生物须以承受−4减值的豁免检定抵抗，否则如受到恐惧术影响般惊慌逃跑。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "律令：死亡",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2969,
+    "line": 2914,
     "excerpt": "说出律令：死亡时，法术距离与影响范围内的一个或多个生物会死亡。此律令可杀死生命值不超过60点的一个生物；或者杀死两个或更多生命值均不超过10点的生物，但总计最多影响120点生命值。施法者必须在指定法术距离与范围中心时，同时说明目标是单个生物还是多个生物。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "穿墙",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 2990,
+    "line": 2935,
     "excerpt": "| 绿 | 第4层 | 阻挡所有吐息武器；须通过对抗毒素的豁免，否则死亡 | 穿墙术 |",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "复活",
     "path": "src/published/books/phb/spell-explanations-magic-users.md",
-    "line": 3053,
+    "line": 2998,
     "excerpt": "祈愿术比有限许愿术术更强大。若用它调整一队人的现有生命值、复活死去的角色，或使施法者及其同伴脱离险境、从一处转移到另一处，魔法师不会因此受到任何不利影响。然而，其他形式的祈愿会使施法者虚弱（力量−3），并需卧床休养2至8天，因为祈愿会对时间、空间及施法者身体造成压力。无论祈求什么，祈愿术的措辞通常都会被严格照字面实现。（裁判须酌情决定具体结果，以维持游戏平衡。例如，若祈愿另一名角色死亡显然有失公平，地下城主可能会把施法者送往未来，直到目",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },

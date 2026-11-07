@@ -1,0 +1,4473 @@
+[
+  {
+    "id": "dragon-124-spell-odeen-s-magic-cloud",
+    "nameEn": "Odeen's Magic Cloud",
+    "nameZh": "奥丁魔法云",
+    "description": "在射程内产生云团，略加留意即可使其留在原处，转移注意便随风飘动。风暴云可下雨或放电；电击每轮对云中或云下生物造成 1d6 伤害，对法术豁免成功免伤。遮蔽云遮住正常视觉及红外视觉，可抵挡凝视，也会遮住敌人视线，但不阻止眼魔眼射线法术。彩虹云遇可见光形成彩虹，持续时间加倍。",
+    "details": [
+      {
+        "title": "Dragon #124 · 奥丁魔法云",
+        "html": "<p>在射程内产生云团，略加留意即可使其留在原处，转移注意便随风飘动。风暴云可下雨或放电；电击每轮对云中或云下生物造成 1d6 伤害，对法术豁免成功免伤。遮蔽云遮住正常视觉及红外视觉，可抵挡凝视，也会遮住敌人视线，但不阻止眼魔眼射线法术。彩虹云遇可见光形成彩虹，持续时间加倍。</p>",
+        "source": {
+          "book": "Dragon #124",
+          "page": 50,
+          "section": "odeen-spells"
+        },
+        "href": "/books/dragon-124/odeen-spells/"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #124"
+    ],
+    "source": [
+      {
+        "book": "Dragon #124",
+        "page": 50,
+        "section": "odeen-spells"
+      }
+    ],
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 segments",
+    "range": "2″ + 1″/级",
+    "duration": "1 轮/级（彩虹云加倍）",
+    "areaOfEffect": "5 英尺见方的云团",
+    "savingThrow": "特殊",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "各云型至少需一团棉花；其他材料由主持人按云型决定。"
+  },
+  {
+    "id": "dragon-124-spell-odeen-s-impenetrable-lock",
+    "nameEn": "Odeen's Impenetrable Lock",
+    "nameZh": "奥丁不破锁",
+    "description": "锁具不能以非魔法方式打开或以普通力量破坏；敲击术无效，异次元存在也不绕过此保护。可由原施法者或至少高出其施法时 1 级的法师解除魔法。盗贼仍能发现机关，近看能见锁件形状改变。",
+    "details": [
+      {
+        "title": "Dragon #124 · 奥丁不破锁",
+        "html": "<p>锁具不能以非魔法方式打开或以普通力量破坏；敲击术无效，异次元存在也不绕过此保护。可由原施法者或至少高出其施法时 1 级的法师解除魔法。盗贼仍能发现机关，近看能见锁件形状改变。</p><p>力量至少 18/91 的战士仍可能毁坏门框或铰链，以打开魔法封门通常概率的一半处理。魔法钥匙插入后会被困住，须先解除此术，或用有限许愿术、祈愿、时间停止或神力等手段取出。只有原施法者能用材料金钥匙开锁；将同一钥匙用于新的施法后，它不再能开启旧锁。门闩或楔子仅被加强。续文在第 52 页。</p>",
+        "source": {
+          "book": "Dragon #124",
+          "page": 50,
+          "section": "odeen-spells"
+        },
+        "href": "/books/dragon-124/odeen-spells/"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #124"
+    ],
+    "source": [
+      {
+        "book": "Dragon #124",
+        "page": 50,
+        "section": "odeen-spells"
+      }
+    ],
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 segments",
+    "range": "接触",
+    "duration": "永久",
+    "areaOfEffect": "一个锁具／锁定机构",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "拟形怪黏液 3 dram、变形怪血 2 dram，涂在一把小金钥匙上；金钥匙不消耗。"
+  },
+  {
+    "id": "dragon-124-spell-odeen-s-magic-tailor",
+    "nameEn": "Odeen's Magic Tailor",
+    "nameZh": "奥丁魔法裁衣",
+    "description": "改变衣物形状与尺寸，使其适合正在穿着的使用者；尺寸最多增减 10%，一次只作用一套。魔法衣服可作对酸的物品豁免抵抗修改，无论成败均保留原有魔力。金属护甲不受影响，魔法护甲因本已自行合身也不受影响。",
+    "details": [
+      {
+        "title": "Dragon #124 · 奥丁魔法裁衣",
+        "html": "<p>改变衣物形状与尺寸，使其适合正在穿着的使用者；尺寸最多增减 10%，一次只作用一套。魔法衣服可作对酸的物品豁免抵抗修改，无论成败均保留原有魔力。金属护甲不受影响，魔法护甲因本已自行合身也不受影响。</p>",
+        "source": {
+          "book": "Dragon #124",
+          "page": 52,
+          "section": "odeen-spells"
+        },
+        "href": "/books/dragon-124/odeen-spells/"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #124"
+    ],
+    "source": [
+      {
+        "book": "Dragon #124",
+        "page": 52,
+        "section": "odeen-spells"
+      }
+    ],
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 segment",
+    "range": "½″/级",
+    "duration": "永久",
+    "areaOfEffect": "一套正被穿着的衣服或皮／布护甲",
+    "savingThrow": "特殊",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "小骨针、丝线及少量羊毛。"
+  },
+  {
+    "id": "dragon-124-spell-odeen-s-secret-word",
+    "nameEn": "Odeen's Secret Word",
+    "nameZh": "奥丁密语",
+    "description": "封闭文字的可读性，直到有人说出施法者选定的密语，凡俗与魔法阅读都不能绕过。解锁后仍须阅读魔法来读魔法文字，陌生语言仍须通晓语言；此时书写术才可复制。直接解除本法术会毁掉所附文字。不能作用于守卫刻文、符号、爆裂符文，或已受不可读魔法、不可通晓语言影响的文字。",
+    "details": [
+      {
+        "title": "Dragon #124 · 奥丁密语",
+        "html": "<p>封闭文字的可读性，直到有人说出施法者选定的密语，凡俗与魔法阅读都不能绕过。解锁后仍须阅读魔法来读魔法文字，陌生语言仍须通晓语言；此时书写术才可复制。直接解除本法术会毁掉所附文字。不能作用于守卫刻文、符号、爆裂符文，或已受不可读魔法、不可通晓语言影响的文字。</p>",
+        "source": {
+          "book": "Dragon #124",
+          "page": 52,
+          "section": "odeen-spells"
+        },
+        "href": "/books/dragon-124/odeen-spells/"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #124"
+    ],
+    "source": [
+      {
+        "book": "Dragon #124",
+        "page": 52,
+        "section": "odeen-spells"
+      }
+    ],
+    "level": 3,
+    "school": "变化／幻术",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "4 segments",
+    "range": "接触",
+    "duration": "永久",
+    "areaOfEffect": "一段法术铭文或同类文字",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false
+  },
+  {
+    "id": "dragon-124-spell-odeen-s-sounding-stick",
+    "nameEn": "Odeen's Sounding Stick",
+    "nameZh": "奥丁探隙棒",
+    "description": "用受术木棒敲击木材、土或石，持棒者通过振动察觉空腔、裂隙、薄弱处，以及暗门、隐藏门和某些陷阱。已学会此术的法师基础成功率 60%，其他人 40%。最小可检裂隙直径为棒长一半，探测距离为棒长四倍、最多 20 英尺。",
+    "details": [
+      {
+        "title": "Dragon #124 · 奥丁探隙棒",
+        "html": "<p>用受术木棒敲击木材、土或石，持棒者通过振动察觉空腔、裂隙、薄弱处，以及暗门、隐藏门和某些陷阱。已学会此术的法师基础成功率 60%，其他人 40%。最小可检裂隙直径为棒长一半，探测距离为棒长四倍、最多 20 英尺。</p><p>木材修正：橡木／紫杉 +10%，金缕梅 +5%，桦木／桤木 0，棉白杨／山茱萸 −5%，松／冷杉 −10%。持棒者修正：精灵 +10%，半精灵 +7%，侏儒或矮人 +5%，半兽人 −5%；戴手套 −5%，戴铁手套 −15%。主持人可加其他修正；棒上另施光亮或恒定光亮不妨碍此术。</p>",
+        "source": {
+          "book": "Dragon #124",
+          "page": 52,
+          "section": "odeen-spells"
+        },
+        "href": "/books/dragon-124/odeen-spells/"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #124"
+    ],
+    "source": [
+      {
+        "book": "Dragon #124",
+        "page": 52,
+        "section": "odeen-spells"
+      }
+    ],
+    "level": 2,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 segment",
+    "range": "特殊：棒长四倍，最多 20 英尺",
+    "duration": "2 回合/级",
+    "areaOfEffect": "一根木棒",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "作为受术目标的一根木棒或木杆。"
+  },
+  {
+    "classes": [
+      "Magic-User"
+    ],
+    "level": 6,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "6 segments",
+    "range": "接触",
+    "duration": "1 回合/级 + 1d6 回合",
+    "areaOfEffect": "一个生物",
+    "savingThrow": "特殊：不愿意的目标可豁免",
+    "reversible": false,
+    "materialComponent": "一根两端点燃的蜡烛。",
+    "id": "dragon-148-spell-accelerated-metabolism",
+    "nameZh": "加速代谢",
+    "nameEn": "Accelerated Metabolism",
+    "description": "让目标生命过程按每回合相当于一天的速度进行，并不会加快移动或战斗。每回合须休息 3 轮，其余 7 轮吃喝一天的补给；不足则饥渴，休息不足则疲劳并不能恢复生命。前七回合每回合恢复 1 HP，扣除低体质减值；此后按每七回合的恢复另计体质加值，28 回合可完全恢复。",
+    "details": [
+      {
+        "title": "Dragon #148 · 加速代谢",
+        "html": "<p>让目标生命过程按每回合相当于一天的速度进行，并不会加快移动或战斗。每回合须休息 3 轮，其余 7 轮吃喝一天的补给；不足则饥渴，休息不足则疲劳并不能恢复生命。前七回合每回合恢复 1 HP，扣除低体质减值；此后按每七回合的恢复另计体质加值，28 回合可完全恢复。</p><p>每过一回合却会衰老一周。目标不愿意时可以豁免；头栏虽写“无”，此处保留正文的特殊规定。蜡烛须两端同时点燃并全程燃烧，熄灭则提前终止，正常完成时烧尽。</p>",
+        "source": {
+          "book": "Dragon #148",
+          "page": 37,
+          "section": "arcane-healing"
+        },
+        "href": "/books/dragon-148/arcane-healing/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #148",
+        "page": 37,
+        "section": "arcane-healing"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #148"
+    ]
+  },
+  {
+    "classes": [
+      "Magic-User"
+    ],
+    "level": 6,
+    "school": "死灵",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "6 segments",
+    "range": "0",
+    "duration": "1 轮/级",
+    "areaOfEffect": "施法者及特制匕首",
+    "savingThrow": "对死亡魔法豁免；特殊",
+    "reversible": false,
+    "materialComponent": "至少 2,000 gp 的特制血槽匕首（不消耗），以及一只吸血鬼爪（消耗）。",
+    "id": "dragon-148-spell-vampire-dagger",
+    "nameZh": "吸血匕首",
+    "nameEn": "Vampire Dagger",
+    "description": "须用特制非魔法匕首正常攻击：命中造成通常匕首伤害（S/M 为 1d4，L 为 1d3，加力量修正），另加施法者每两级 1 点伤害；只有额外伤害能转为施法者的治疗，不能超过其正常生命上限，也不能超过目标扣除匕首伤害后剩余的生命。",
+    "details": [
+      {
+        "title": "Dragon #148 · 吸血匕首",
+        "html": "<p>须用特制非魔法匕首正常攻击：命中造成通常匕首伤害（S/M 为 1d4，L 为 1d3，加力量修正），另加施法者每两级 1 点伤害；只有额外伤害能转为施法者的治疗，不能超过其正常生命上限，也不能超过目标扣除匕首伤害后剩余的生命。</p><p>目标对死亡魔法豁免成功则不转移治疗；原刊例示仍计命中的伤害与等级额外伤害。豁免自然 20 时，等级额外伤害改由施法者承受。只能被魔法武器伤害的生物（不死生物例外）及无血生物不适用。尝试吸取不死者时，每次攻击施法者须对死亡魔法豁免，失败即死，不死者只受匕首及力量伤害。</p><p>匕首须由掺吸血鬼碎骨的银钢合金打造，内有贯通尖端至柄的血槽，至少价值 2,000 gp；血液须沿槽接触施法者手部裸肤，匕首不消耗。吸血鬼爪在施法时消失。本术不保护施法者免受目标血液的特殊危害。</p>",
+        "source": {
+          "book": "Dragon #148",
+          "page": 37,
+          "section": "arcane-healing"
+        },
+        "href": "/books/dragon-148/arcane-healing/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #148",
+        "page": 37,
+        "section": "arcane-healing"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #148"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "防护",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "即时除湿；未另列复湿时间",
+    "areaOfEffect": "1 立方码",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-dry",
+    "nameZh": "干燥术",
+    "nameEn": "Dry",
+    "description": "除去材料中的潮湿与多余水分，可用于布料、草药及清洁；原刊没有赋予抽干生物或造成脱水伤害的能力。",
+    "details": [
+      {
+        "title": "Dragon #59 · 干燥术",
+        "html": "<p>除去材料中的潮湿与多余水分，可用于布料、草药及清洁；原刊没有赋予抽干生物或造成脱水伤害的能力。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "未另载",
+    "areaOfEffect": "1 立方英尺",
+    "savingThrow": "生物可豁免，依戏法通则",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-chill",
+    "nameZh": "微寒术",
+    "nameEn": "Chill",
+    "description": "使固体或液体降温约 40°F（温差约 22.2°C），但不低于冰点。对活物效力减半，且不能低于该生物正常体温以下 10°F（温差约 5.6°C）。",
+    "details": [
+      {
+        "title": "Dragon #59 · 微寒术",
+        "html": "<p>使固体或液体降温约 40°F（温差约 22.2°C），但不低于冰点。对活物效力减半，且不能低于该生物正常体温以下 10°F（温差约 5.6°C）。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "附魔",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "1 小时",
+    "areaOfEffect": "1 件适量物品",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-freshen",
+    "nameZh": "保鲜术",
+    "nameEn": "Freshen",
+    "description": "使牛奶、啤酒、肉、蔬菜、花草等恢复新鲜，可消除轻微腐坏及花朵萎垂；最多约一小桶液体、一只羊或一蒲式耳蔬菜。只维持一小时，不等于中和毒素。",
+    "details": [
+      {
+        "title": "Dragon #59 · 保鲜术",
+        "html": "<p>使牛奶、啤酒、肉、蔬菜、花草等恢复新鲜，可消除轻微腐坏及花朵萎垂；最多约一小桶液体、一只羊或一蒲式耳蔬菜。只维持一小时，不等于中和毒素。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅙ 施法时段",
+    "range": "1″",
+    "duration": "盐实际产生；未另载期限",
+    "areaOfEffect": "1 件物品，约 4 平方码或 30 加仑以内",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-salt",
+    "nameZh": "撒盐术",
+    "nameEn": "Salt",
+    "description": "在指定物品上产生细盐，可给炖菜调味、杀杂草或腌鱼。数量由施法者决定，可故意过量；目标较大则分批使用。",
+    "details": [
+      {
+        "title": "Dragon #59 · 撒盐术",
+        "html": "<p>在指定物品上产生细盐，可给炖菜调味、杀杂草或腌鱼。数量由施法者决定，可故意过量；目标较大则分批使用。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 8,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 8,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "未另载",
+    "areaOfEffect": "1 立方英尺",
+    "savingThrow": "生物可豁免，依戏法通则",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-warm",
+    "nameZh": "微暖术",
+    "nameEn": "Warm",
+    "description": "与微寒相反，使固体或液体升温约 40°F（温差约 22.2°C）。活物不会被加热到超过正常体温；不作为烧伤法术。",
+    "details": [
+      {
+        "title": "Dragon #59 · 微暖术",
+        "html": "<p>与微寒相反，使固体或液体升温约 40°F（温差约 22.2°C）。活物不会被加热到超过正常体温；不作为烧伤法术。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 8,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 8,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "未另载",
+    "areaOfEffect": "1 立方码",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-wrap",
+    "nameZh": "包装术",
+    "nameEn": "Wrap",
+    "description": "为指定物品生成合适厚度、结实的包装，例如粉末用蜡纸、宝石用毡袋、谷物用布。可普通拆开，也可由施法者命令打开，适合收纳法术材料。",
+    "details": [
+      {
+        "title": "Dragon #59 · 包装术",
+        "html": "<p>为指定物品生成合适厚度、结实的包装，例如粉末用蜡纸、宝石用毡袋、谷物用布。可普通拆开，也可由施法者命令打开，适合收纳法术材料。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 8,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 8,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅙ 施法时段",
+    "range": "1″",
+    "duration": "未另载",
+    "areaOfEffect": "4 平方码",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-dirty",
+    "nameZh": "污渍术",
+    "nameEn": "Dirty",
+    "description": "清洁戏法的反向效果，使墙、地板、餐具、衣物等沾污。原刊只列污渍效果，没有疾病、腐蚀或减值。",
+    "details": [
+      {
+        "title": "Dragon #59 · 污渍术",
+        "html": "<p>清洁戏法的反向效果，使墙、地板、餐具、衣物等沾污。原刊只列污渍效果，没有疾病、腐蚀或减值。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 9,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 9,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅙ 施法时段",
+    "range": "1″",
+    "duration": "至拆解或破坏",
+    "areaOfEffect": "1 件纤细材料",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-tangle",
+    "nameZh": "缠乱术",
+    "nameEn": "Tangle",
+    "description": "让线、头发、细草等扭缠，不能作用于粗绳。正常拆解需 3d4 轮，粗暴拉断或扯掉材料可更快；可混缠头发与线等不同材料。",
+    "details": [
+      {
+        "title": "Dragon #59 · 缠乱术",
+        "html": "<p>让线、头发、细草等扭缠，不能作用于粗绳。正常拆解需 3d4 轮，粗暴拉断或扯掉材料可更快；可混缠头发与线等不同材料。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 10,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 10,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "未另载",
+    "areaOfEffect": "1 件、至多约 1 立方码",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-tarnish",
+    "nameZh": "锈蚀术",
+    "nameEn": "Tarnish",
+    "description": "使本来可能生锈、腐蚀或生铜绿的物件表面形成相应覆盖层，是光洁戏法的反向效果；原刊未规定摧毁装备或降低防护等级。",
+    "details": [
+      {
+        "title": "Dragon #59 · 锈蚀术",
+        "html": "<p>使本来可能生锈、腐蚀或生铜绿的物件表面形成相应覆盖层，是光洁戏法的反向效果；原刊未规定摧毁装备或降低防护等级。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 10,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 10,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅓ 施法时段",
+    "range": "1″",
+    "duration": "即时解开",
+    "areaOfEffect": "1 个结或系扣",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-059-spell-untie",
+    "nameZh": "解结术",
+    "nameEn": "Untie",
+    "description": "解除线、细绳、绳索等上的系结，并能消除缠乱术。一次不能同时消除加强结与普通系扣；若两者叠加，先去掉加强部分，留下普通结。",
+    "details": [
+      {
+        "title": "Dragon #59 · 解结术",
+        "html": "<p>解除线、细绳、绳索等上的系结，并能消除缠乱术。一次不能同时消除加强结与普通系扣；若两者叠加，先去掉加强部分，留下普通结。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #59",
+          "page": 10,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-59/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #59",
+        "page": 10,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #59"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅒ 施法时段",
+    "range": "1″",
+    "duration": "通常 1 回合；剧变 1 轮；微变可达一天以上",
+    "areaOfEffect": "1 件小物或普通小动物",
+    "savingThrow": "普通、非魔法、动物智力的小生物无豁免",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-060-spell-change",
+    "nameZh": "变换术",
+    "nameEn": "Change",
+    "description": "使动物或植物来源的小目标在同一界内变形，每次施法只变一次，体积增减不超过 50%。例如纸变布、布变花，或鸟变蝙蝠；死物变活物仅一轮，轻微改色可维持一天以上。",
+    "details": [
+      {
+        "title": "Dragon #60 · 变换术",
+        "html": "<p>使动物或植物来源的小目标在同一界内变形，每次施法只变一次，体积增减不超过 50%。例如纸变布、布变花，或鸟变蝙蝠；死物变活物仅一轮，轻微改色可维持一天以上。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #60",
+          "page": 16,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-60/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #60",
+        "page": 16,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #60"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅒ 施法时段",
+    "range": "1″",
+    "duration": "瞬间",
+    "areaOfEffect": "1 人",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-060-spell-nod",
+    "nameZh": "点头术",
+    "nameEn": "Nod",
+    "description": "引起头部肌肉不自主收缩而点一下头，看似赞同或招呼；不造成真正的同意、服从或魅惑。",
+    "details": [
+      {
+        "title": "Dragon #60 · 点头术",
+        "html": "<p>引起头部肌肉不自主收缩而点一下头，看似赞同或招呼；不造成真正的同意、服从或魅惑。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #60",
+          "page": 17,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-60/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #60",
+        "page": 17,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #60"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "咒法",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "½ 施法时段",
+    "range": "1″",
+    "duration": "即时开或关锁",
+    "areaOfEffect": "1 把简单锁",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-060-spell-unlock",
+    "nameZh": "简锁术",
+    "nameEn": "Unlock",
+    "description": "召出钥匙状无形力，开启或关闭最基本的簧扣、插销等锁。复杂钥匙挡片不阻碍，但弹子、杠杆或密码机构不受影响；不能替代敲击术开启任何锁。",
+    "details": [
+      {
+        "title": "Dragon #60 · 简锁术",
+        "html": "<p>召出钥匙状无形力，开启或关闭最基本的簧扣、插销等锁。复杂钥匙挡片不阻碍，但弹子、杠杆或密码机构不受影响；不能替代敲击术开启任何锁。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #60",
+          "page": 19,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-60/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #60",
+        "page": 19,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #60"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅙ 施法时段",
+    "range": "1″",
+    "duration": "即时",
+    "areaOfEffect": "1 平方英尺",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-060-spell-tap",
+    "nameZh": "叩击术",
+    "nameEn": "Tap",
+    "description": "以无形力叩击门、盖、地板、桌、墙或玻璃等一至三次，次数由伸出手指数决定。是真声音，1″ 内听觉正常者必能听见，不是可豁免的幻音。",
+    "details": [
+      {
+        "title": "Dragon #60 · 叩击术",
+        "html": "<p>以无形力叩击门、盖、地板、桌、墙或玻璃等一至三次，次数由伸出手指数决定。是真声音，1″ 内听觉正常者必能听见，不是可豁免的幻音。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #60",
+          "page": 21,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-60/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #60",
+        "page": 21,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #60"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "幻术",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅙ 施法时段",
+    "range": "1″",
+    "duration": "原刊未另载",
+    "areaOfEffect": "1″ 声音区域",
+    "savingThrow": "成功对该听者无效",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-061-spell-noise",
+    "nameZh": "杂音术",
+    "nameEn": "Noise",
+    "description": "制造模糊混杂的幻音，可像远处多人说话、翅膀与风、脚步搬物等，但不能清楚传达话语。声音区域距施法者至多 1″，区内每名生物各自豁免。",
+    "details": [
+      {
+        "title": "Dragon #61 · 杂音术",
+        "html": "<p>制造模糊混杂的幻音，可像远处多人说话、翅膀与风、脚步搬物等，但不能清楚传达话语。声音区域距施法者至多 1″，区内每名生物各自豁免。</p><p>杂志早期戏法规则：四个戏法可替换一个一环法术记忆；每轮至多两个，第二个距第一个须再等 1d4 时段，不能同轮施展普通法术与戏法。成分为轻声言语与简单手势。幻术师的共通戏法依据第 61 期适用。</p>",
+        "source": {
+          "book": "Dragon #61",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-61/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #61",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #61"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "幻术／心灵幻象",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "5 施法时段",
+    "range": "6″ + 1″/级",
+    "duration": "1 轮/级",
+    "areaOfEffect": "4 平方″ + 1 平方″/级",
+    "savingThrow": "特殊",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "少许羊毛与数粒沙",
+    "id": "dragon-066-spell-advanced-illusion",
+    "nameZh": "高等幻象",
+    "nameEn": "Advanced Illusion",
+    "description": "按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五时段，便按程序继续。",
+    "details": [
+      {
+        "title": "Dragon #66 · 高等幻象",
+        "html": "<p>按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五时段，便按程序继续。</p><p>主动怀疑者可作对法术豁免；有人成功识破并告知能理解的旁观者后，这些人豁免加 4。材料为少许羊毛与几粒沙。</p>",
+        "source": {
+          "book": "Dragon #66",
+          "page": 25,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-66/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #66",
+        "page": 25,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #66"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "防护",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "9″",
+    "duration": "永久",
+    "areaOfEffect": "3″ 立方体",
+    "savingThrow": "无",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-066-spell-dispel-magic-illusionist",
+    "nameZh": "解除魔法（幻术师杂志版）",
+    "nameEn": "Dispel Magic (illusionist)",
+    "description": "除所列参数外同牧师三环解除魔法。幻术师以实际等级减二计算解除效力，例如九级按七级处理；不能把该早期版本直接当作法师三环版本。",
+    "details": [
+      {
+        "title": "Dragon #66 · 解除魔法（幻术师杂志版）",
+        "html": "<p>除所列参数外同牧师三环解除魔法。幻术师以实际等级减二计算解除效力，例如九级按七级处理；不能把该早期版本直接当作法师三环版本。</p>",
+        "source": {
+          "book": "Dragon #66",
+          "page": 24,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-66/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #66",
+        "page": 24,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #66"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化／心灵幻象",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "1″/级",
+    "duration": "1 回合/级",
+    "areaOfEffect": "半径 1″/级",
+    "savingThrow": "无；发现异常后特殊",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "价值至少 100 gp 的优质黑丝方巾",
+    "id": "dragon-066-spell-vacancy",
+    "nameZh": "空置幻景",
+    "nameEn": "Vacancy",
+    "description": "让区域看似长期空置、积尘结网，藏住非生物物件；活物仍可见，但不会因此打破幻景。经过时会显出相应脚印及破网。",
+    "details": [
+      {
+        "title": "Dragon #66 · 空置幻景",
+        "html": "<p>让区域看似长期空置、积尘结网，藏住非生物物件；活物仍可见，但不会因此打破幻景。经过时会显出相应脚印及破网。</p><p>轻擦隐藏物不够；必须强力接触并发现多个看不见的物件，观察者才获对法术豁免。失败者只认为那些物品本身隐形；解除幻术或解除魔法能消除。需价值至少 100 gp 的优质黑丝方巾。</p>",
+        "source": {
+          "book": "Dragon #66",
+          "page": 25,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-66/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #66",
+        "page": 25,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #66"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "变化",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "0",
+    "duration": "2 轮/级",
+    "areaOfEffect": "施法者",
+    "savingThrow": "无",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "一小片纱与一缕烟",
+    "id": "dragon-066-spell-wraithform",
+    "nameZh": "幽魂形态",
+    "nameEn": "Wraithform",
+    "description": "自身与穿戴、手持物虚化，可穿小孔狭缝，仅 +1 以上魔法武器或本来能伤这类目标的生物可击中。不死生物把施法者当幽魂或幽灵而忽视。",
+    "details": [
+      {
+        "title": "Dragon #66 · 幽魂形态",
+        "html": "<p>自身与穿戴、手持物虚化，可穿小孔狭缝，仅 +1 以上魔法武器或本来能伤这类目标的生物可击中。不死生物把施法者当幽魂或幽灵而忽视。</p><p>不能攻击，只有对以太位面生物双方照常攻击；解除幻术可强制还原，施法者也可自愿结束。材料为一小片纱与一缕烟，不需言语成分。</p>",
+        "source": {
+          "book": "Dragon #66",
+          "page": 24,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-66/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #66",
+        "page": 24,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #66"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化／塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "0；投掷至多 3″",
+    "duration": "依颜色",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "依颜色",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "价值至少 50 gp 的相应颜色宝石或透明宝石",
+    "id": "dragon-066-spell-chromatic-orb",
+    "nameZh": "繁彩球",
+    "nameEn": "Chromatic Orb",
+    "description": "在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗力抵抗。可选自身等级已解锁的任何低阶颜色。",
+    "details": [
+      {
+        "title": "Dragon #66 · 繁彩球",
+        "html": "<p>在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗力抵抗。可选自身等级已解锁的任何低阶颜色。</p><p>一级珍珠色 1d4，发光 1 轮/级，豁免失败期间失明；二级红宝石 1d6，融化至多一立方码冰，失败力量与敏捷各减一、持续一轮；三级火焰色 1d8，点燃一英尺内可燃物，失败再受两点火伤，抗火者例外；四级琥珀色 1d10，失败失明 1d4+4 轮。</p><p>五级祖母绿 1d12，产生五英尺半径臭云，按臭云术与毒素豁免处理；六级绿松石 2d8 电伤，铁质装备持有者对法术豁免失败则被磁化 3d4 轮，金属相互吸附。</p><p>七级蓝宝石，对瘫痪豁免失败则瘫痪 5d4 轮；八级紫水晶，对石化豁免失败石化，成功仍缓慢 2d4 轮；九级灰色，对死亡魔法豁免失败即死，成功仍瘫痪 1d4+1 轮。需颜色相应或透明的宝石，价值至少 50 gp。</p>",
+        "source": {
+          "book": "Dragon #66",
+          "page": 22,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-66/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #66",
+        "page": 22,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #66"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "附魔",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "3″",
+    "duration": "即时",
+    "areaOfEffect": "每级 2 等级或 HD",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-067-spell-taunt",
+    "nameZh": "嘲讽术",
+    "nameEn": "Taunt",
+    "description": "只影响一种、智力至少二的生物，从最近者开始计算容量。魔法让嘲弄具有明确意义；对法术豁免失败者愤怒冲向施法者，能近战就用身体或手持武器攻击，不改为远程射击。",
+    "details": [
+      {
+        "title": "Dragon #67 · 嘲讽术",
+        "html": "<p>只影响一种、智力至少二的生物，从最近者开始计算容量。魔法让嘲弄具有明确意义；对法术豁免失败者愤怒冲向施法者，能近战就用身体或手持武器攻击，不改为远程射击。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "5″",
+    "duration": "狂笑 1 轮，另有恢复影响",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "依智力",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "小羽毛、微型木拍与小馅饼",
+    "id": "dragon-067-spell-hideous-laughter",
+    "nameZh": "狂笑术",
+    "nameEn": "Hideous Laughter",
+    "description": "施法当轮仅有轻微异感，下一轮狂笑倒地，再下一轮起身恢复；施法后第三、第四轮力量 −2。智力 ≤3 免疫，4–8 无豁免，9–12 对法术豁免 −4，13–15 为 −2，16 以上正常。材料为小羽毛、微型木拍与小馅饼。",
+    "details": [
+      {
+        "title": "Dragon #67 · 狂笑术",
+        "html": "<p>施法当轮仅有轻微异感，下一轮狂笑倒地，再下一轮起身恢复；施法后第三、第四轮力量 −2。智力 ≤3 免疫，4–8 无豁免，9–12 对法术豁免 −4，13–15 为 −2，16 以上正常。材料为小羽毛、微型木拍与小馅饼。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 9,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 9,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "3″",
+    "duration": "特殊，见原刊分级说明",
+    "areaOfEffect": "1 目标；酸液直径 1 英尺",
+    "savingThrow": "特殊；装备作物品豁免",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "飞镖、粉碎大黄叶与蝰蛇胃",
+    "id": "dragon-067-spell-melf-s-acid-arrow",
+    "nameZh": "马友夫强酸箭",
+    "nameEn": "Melf's Acid Arrow",
+    "description": "以同级战士及 +1 武器标准判定命中，箭本身造成 1d4+1，另释放八盎司酸造成 2d4，并检定物品豁免；酸可伤不受普通箭或 +1 武器影响的目标。可中和酸以停止后续伤害。",
+    "details": [
+      {
+        "title": "Dragon #67 · 马友夫强酸箭（早期版）",
+        "html": "<p>以同级战士及 +1 武器标准判定命中，箭本身造成 1d4+1，另释放八盎司酸造成 2d4，并检定物品豁免；酸可伤不受普通箭或 +1 武器影响的目标。可中和酸以停止后续伤害。</p><p>原刊概述称超过三级后每三级多一轮，却紧接着举四至六级可持续两轮的例子，两者分界不一致。本条保留这处疑点，由主持人确定分界，不静默套用后期版本。材料为飞镖、粉碎大黄叶与蝰蛇胃。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 9,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 9,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "塑能／咒法",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "1″",
+    "duration": "永久",
+    "areaOfEffect": "每级 1 立方英尺",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-067-spell-material",
+    "nameZh": "造材术",
+    "nameEn": "Material",
+    "description": "生成普通、未加工的石、土、木、水、空气、粪肥、稻草等基础材料，不能生成精炼、加工或制成品，也不能生成动物。生成草等简单植物的基础失败率为 100%，每施法者等级降低一个百分点。",
+    "details": [
+      {
+        "title": "Dragon #67 · 造材术",
+        "html": "<p>生成普通、未加工的石、土、木、水、空气、粪肥、稻草等基础材料，不能生成精炼、加工或制成品，也不能生成动物。生成草等简单植物的基础失败率为 100%，每施法者等级降低一个百分点。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 54,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 54,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "塑能／变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "5 施法时段",
+    "range": "1″/级",
+    "duration": "流星用尽、主动放弃或解除魔法",
+    "areaOfEffect": "每枚 1 目标；冲击直径 1 英尺",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "硝石、硫磺、松焦油制珠；至少 1,000 gp 的可重复使用金管",
+    "id": "dragon-067-spell-melf-s-minute-meteors",
+    "nameZh": "马友夫微流星",
+    "nameEn": "Melf's Minute Meteors",
+    "description": "生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两时段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。",
+    "details": [
+      {
+        "title": "Dragon #67 · 马友夫微流星",
+        "html": "<p>生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两时段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。</p><p>原刊列施法五时段，连续模式却写施法当轮第二时段开始发射，时序存在不一致；实跑须裁定起射时点。材料为硝石、硫磺、松焦油制珠及至少 1,000 gp 的精工刻纹中空金管；管可重复使用，除非损坏。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 54,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 54,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "防护",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "½″/级",
+    "duration": "永久",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-067-spell-dispel-illusion",
+    "nameZh": "解除幻术（法师杂志版）",
+    "nameEn": "Dispel Illusion",
+    "description": "效果同幻术师三环同名法术；解除幻术师施放的幻术／心灵幻象类法术时，法师按实际等级减二计算效力。",
+    "details": [
+      {
+        "title": "Dragon #67 · 解除幻术（法师杂志版）",
+        "html": "<p>效果同幻术师三环同名法术；解除幻术师施放的幻术／心灵幻象类法术时，法师按实际等级减二计算效力。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 55,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 55,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "触碰",
+    "duration": "6 回合 + 6 回合/级",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "价值至少 500 gp 的碎紫水晶",
+    "id": "dragon-067-spell-ultravision",
+    "nameZh": "紫外视觉（法师杂志版）",
+    "nameEn": "Ultravision",
+    "description": "夜间如白昼般清楚看至百码，百至三百码模糊；厚云且极暗时距离减半。六英尺以上土层或三英尺石层会遮断紫外光，通常地下仅能朦胧看三英尺，附近紫外光源可改善。普通亮光及发光魔法物会妨碍观察远处暗区。材料为至少 500 gp 的碎紫水晶。",
+    "details": [
+      {
+        "title": "Dragon #67 · 紫外视觉（法师杂志版）",
+        "html": "<p>夜间如白昼般清楚看至百码，百至三百码模糊；厚云且极暗时距离减半。六英尺以上土层或三英尺石层会遮断紫外光，通常地下仅能朦胧看三英尺，附近紫外光源可改善。普通亮光及发光魔法物会妨碍观察远处暗区。材料为至少 500 gp 的碎紫水晶。</p>",
+        "source": {
+          "book": "Dragon #67",
+          "page": 58,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-67/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #67",
+        "page": 58,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #67"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "防护；反向咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "1″",
+    "duration": "永久",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": true,
+    "materialComponent": "依目标类型取厌恶或喜爱的材料",
+    "id": "dragon-068-spell-dismissal",
+    "nameZh": "遣返术",
+    "nameEn": "Dismissal",
+    "description": "须知道目标生物种类名称，有专名时也须知道并在施法时念出。先检定魔法抗力，再以目标 HD／等级与施法者等级之差修正对法术豁免：目标较低则减差值，较高则加差值；自愿遣返时豁免不修正。成功送走仍有 20% 概率送往错误位面。",
+    "details": [
+      {
+        "title": "Dragon #68 · 遣返术",
+        "html": "<p>须知道目标生物种类名称，有专名时也须知道并在施法时念出。先检定魔法抗力，再以目标 HD／等级与施法者等级之差修正对法术豁免：目标较低则减差值，较高则加差值；自愿遣返时豁免不修正。成功送走仍有 20% 概率送往错误位面。</p><p>反向为招来已知且具名的异位面生物，判定相同，但已知其专名时不检定魔法抗力；召来不保证友善或服从。遣返材料须令目标反感，招来则须令其喜爱。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 24,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 24,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "6 施法时段",
+    "range": "4″ + ½″/级",
+    "duration": "即时",
+    "areaOfEffect": "特殊",
+    "savingThrow": "首击减半；后续另判避击与减半",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "毛皮；琥珀、玻璃或水晶杆；每级一枚银针",
+    "id": "dragon-068-spell-chain-lightning",
+    "nameZh": "连锁闪电",
+    "nameEn": "Chain Lightning",
+    "description": "首击每施法者等级 1d6，可对法术豁免减半；随后跳向最近的其他物件或生物，等距优先金属、其次含液体最多者、再随机。可来回击中同一目标，施法者也可能被击中。",
+    "details": [
+      {
+        "title": "Dragon #68 · 连锁闪电（早期版）",
+        "html": "<p>首击每施法者等级 1d6，可对法术豁免减半；随后跳向最近的其他物件或生物，等距优先金属、其次含液体最多者、再随机。可来回击中同一目标，施法者也可能被击中。</p><p>最多成功击中与等级数相等的次数，每次比上一击少 1d6。后续目标先对法术豁免，成功则闪电绕过而不伤且不计成功命中；击中后还可另豁免减半。每段跳跃不得超过射程，否则消散；树或足够大的导电金属结构会接地终止。材料为毛皮、琥珀／玻璃／水晶杆及与等级数相等的银针。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 26,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 26,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 9,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "幽灵精华或吸血鬼尘",
+    "id": "dragon-068-spell-energy-drain",
+    "nameZh": "能量吸取（法师杂志版）",
+    "nameEn": "Energy Drain",
+    "description": "触碰需近战命中时照常判定。目标永久失去两个能量等级或生命骰及相应 HP、攻击与能力；人物须重新冒险升级。每次施法有 5% 概率施法者也失去一级。人类或类人生物降至零级会变为朱朱僵尸。材料为幽灵精华或吸血鬼尘。",
+    "details": [
+      {
+        "title": "Dragon #68 · 能量吸取（法师杂志版）",
+        "html": "<p>触碰需近战命中时照常判定。目标永久失去两个能量等级或生命骰及相应 HP、攻击与能力；人物须重新冒险升级。每次施法有 5% 概率施法者也失去一级。人类或类人生物降至零级会变为朱朱僵尸。材料为幽灵精华或吸血鬼尘。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 59,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 59,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "变化",
+    "components": [
+      "V"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "触碰",
+    "duration": "即时",
+    "areaOfEffect": "自身及普通传送术允许的载重",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-068-spell-teleport-without-error",
+    "nameZh": "无误传送术",
+    "nameEn": "Teleport Without Error",
+    "description": "在自身原生位面传送至已知地点没有误差，载重依普通传送术。可跨位面，但彼端熟悉度最多算“仔细研究”，且须曾亲自到过并认真观察；依普通传送表检定，并非所有跨位面传送都自动无误。",
+    "details": [
+      {
+        "title": "Dragon #68 · 无误传送术",
+        "html": "<p>在自身原生位面传送至已知地点没有误差，载重依普通传送术。可跨位面，但彼端熟悉度最多算“仔细研究”，且须曾亲自到过并认真观察；依普通传送表检定，并非所有跨位面传送都自动无误。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 56,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 56,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "依被回击法术",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "特殊",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "柔木与特制肠弦",
+    "id": "dragon-068-spell-volley",
+    "nameZh": "法术回击",
+    "nameEn": "Volley",
+    "description": "预先施放后，可把针对自己的法术打回原施法者；对方对法术豁免失败便受其效果，成功则再打回来，双方交替检定直到有人失败或能量耗尽。每次往返交换耗两秒，可维持等于原法术环数的完整交换，每一次单向回击算半次；原始施放不算交换。",
+    "details": [
+      {
+        "title": "Dragon #68 · 法术回击",
+        "html": "<p>预先施放后，可把针对自己的法术打回原施法者；对方对法术豁免失败便受其效果，成功则再打回来，双方交替检定直到有人失败或能量耗尽。每次往返交换耗两秒，可维持等于原法术环数的完整交换，每一次单向回击算半次；原始施放不算交换。</p><p>射程、作用范围与效果依来袭法术及情境而定。材料为弯柳木或其他柔木，交叉缠上特制肠弦。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 57,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 57,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 回合",
+    "range": "触碰",
+    "duration": "6 个月",
+    "areaOfEffect": "1 名出生未满两周的婴儿",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "未具体列出",
+    "id": "dragon-068-spell-ceremony-bless-newborn",
+    "nameZh": "仪式：祝福新生儿",
+    "nameEn": "Ceremony: Bless Newborn",
+    "description": "仅对出生十四天以内婴儿生效：对附身豁免加 2，并得到半效力抗火与抗寒，持续六个月。超过两周无效；通常收费 1d4+1 gp。此为修院牧师法术表中的二环版本，普通牧师使用须遵守本文借阅仪式书的规则。",
+    "details": [
+      {
+        "title": "Dragon #68 · 仪式：祝福新生儿",
+        "html": "<p>仅对出生十四天以内婴儿生效：对附身豁免加 2，并得到半效力抗火与抗寒，持续六个月。超过两周无效；通常收费 1d4+1 gp。此为修院牧师法术表中的二环版本，普通牧师使用须遵守本文借阅仪式书的规则。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 31,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 31,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "6″",
+    "duration": "3d4 轮",
+    "areaOfEffect": "长 6″、底径 2″ 锥形",
+    "savingThrow": "特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "未具体列出",
+    "id": "dragon-068-spell-dismiss-undead",
+    "nameZh": "遣退不死生物",
+    "nameEn": "Dismiss Undead",
+    "description": "使原本不能驱散的修院牧师暂以自身等级减四，按冒险牧师表驱散不死生物。邪恶修院牧师可命令服役；中立者只能驱散，不能命令。材料未具体列出。",
+    "details": [
+      {
+        "title": "Dragon #68 · 遣退不死生物",
+        "html": "<p>使原本不能驱散的修院牧师暂以自身等级减四，按冒险牧师表驱散不死生物。邪恶修院牧师可命令服役；中立者只能驱散，不能命令。材料未具体列出。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 小时",
+    "range": "3″",
+    "duration": "永久",
+    "areaOfEffect": "1 栋建筑、墓地或类似区域",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "按目标及仪式取圣水、邪水、粪污等",
+    "id": "dragon-068-spell-ceremony-desecrate-ground",
+    "nameZh": "仪式：亵渎场所",
+    "nameEn": "Ceremony: Desecrate Ground",
+    "description": "可对敌对阵营的宗教建筑施放，施法时将祭坛覆以圣水、邪水、粪污等。被亵渎建筑每年独立有 1% 概率倒塌，不累积；后续可重新祝圣。",
+    "details": [
+      {
+        "title": "Dragon #68 · 仪式：亵渎场所",
+        "html": "<p>可对敌对阵营的宗教建筑施放，施法时将祭坛覆以圣水、邪水、粪污等。被亵渎建筑每年独立有 1% 概率倒塌，不累积；后续可重新祝圣。</p><p>对墓地只会去除已有祝圣，第二次亵渎不叠加。未祝圣墓地内施活化死尸多起一具骷髅或僵尸；只对出自该墓地的不死生物，驱散牧师视为低两级。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 轮",
+    "range": "触碰",
+    "duration": "至解除、破坏或失去清醒",
+    "areaOfEffect": "半径至多 15 英尺半球",
+    "savingThrow": "特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "七颗各至少 100 gp 的珍珠",
+    "id": "dragon-068-spell-ward-minor",
+    "nameZh": "次等守护力罩",
+    "nameEn": "Ward, Minor",
+    "description": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "details": [
+      {
+        "title": "Dragon #68 · 次等守护力罩",
+        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>解离、有限许愿术、祈愿、相位门、影门或位面转移可破坏；火球、闪电、寒冰锥、焰击、欧提路克冰冻法球第二或第三用法、流星群单次造成至少二十点伤害也能破坏。破罩本身不伤内部者。七颗各至少 100 gp 的小珍珠均匀摆圈，施法消耗。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 轮",
+    "range": "触碰",
+    "duration": "至解除、破坏或失去清醒",
+    "areaOfEffect": "半径至多 10 英尺半球",
+    "savingThrow": "特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "七颗各至少 250 gp 的宝石",
+    "id": "dragon-068-spell-ward-major",
+    "nameZh": "高等守护力罩",
+    "nameEn": "Ward, Major",
+    "description": "力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。",
+    "details": [
+      {
+        "title": "Dragon #68 · 高等守护力罩",
+        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>次等罩的升级版：只有解离、有限许愿术、祈愿，或所列伤害法术单次至少五十点，才能破坏；相位门、影门和位面转移不能像对次等罩那样解除。七颗各至少 250 gp 的宝石施法消耗。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 33,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-68/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 33,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "9 回合/级",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-058-spell-endure-cold-heat",
+    "nameZh": "忍受寒冷／炎热",
+    "nameEn": "Endure Cold/Heat",
+    "description": "选择忍寒或耐热，裸身可分别在 −20°F（约 −28.9°C）或 120°F（约 48.9°C）内无害活动。超界每华氏度每小时受一点暴露伤害。",
+    "details": [
+      {
+        "title": "Dragon #58 · 忍受寒冷／炎热",
+        "html": "<p>选择忍寒或耐热，裸身可分别在 −20°F（约 −28.9°C）或 120°F（约 48.9°C）内无害活动。超界每华氏度每小时受一点暴露伤害。</p><p>任何魔法冷热击中均立即终止，不论选哪一版本；抗寒或抗火法术施于同一目标也会立刻取消。无材料成分。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-58/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #58"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3 轮",
+    "range": "3″",
+    "duration": "1 轮/级",
+    "areaOfEffect": "底径 5、顶径 10、高 15 英尺旋风",
+    "savingThrow": "无；旋风内施法特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-058-spell-dust-devil",
+    "nameZh": "龙卷尘暴",
+    "nameEn": "Dust Devil",
+    "description": "召来最弱气元素：2 HD、AC 4、移动 18″，无有效伤害攻击；普通武器可伤，魔法武器伤害翻倍，气元素位面生物可随意解散。须始终留在施法者 3″ 内。",
+    "details": [
+      {
+        "title": "Dragon #58 · 尘卷风（早期牧师版）",
+        "html": "<p>召来最弱气元素：2 HD、AC 4、移动 18″，无有效伤害攻击；普通武器可伤，魔法武器伤害翻倍，气元素位面生物可随意解散。须始终留在施法者 3″ 内。</p><p>可阻挡并推移气态形体与云团到射程边界，不能驱散或伤害云；熄灭小型非魔法裸火。扬尘时形成直径三十英尺遮蔽云，里面失明、近战命中 −3。旋风内施法须对法术豁免，失败法术浪费且从记忆消失，成功仍受可见度限制。异位面生物不受影响；接触具魔法抗力生物会取消旋风。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 75,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-58/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 75,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #58"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "7 施法时段",
+    "range": "触碰",
+    "duration": "8+1d8 轮，主持人暗掷",
+    "areaOfEffect": "施法者及至多 100 磅非生物装备",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "与目标石材同类的样本",
+    "id": "dragon-058-spell-meld-into-stone",
+    "nameZh": "融身入石",
+    "nameEn": "Meld Into Stone",
+    "description": "握同类石样并融进足够容下全身装备的石块，不够大立即弹出；神器与圣物留在外面。只能由原入口离开，不能穿墙。石内知时间、有嗅味觉，无视觉听觉，不知道暗掷时限。",
+    "details": [
+      {
+        "title": "Dragon #58 · 融身入石（早期版）",
+        "html": "<p>握同类石样并融进足够容下全身装备的石块，不够大立即弹出；神器与圣物留在外面。只能由原入口离开，不能穿墙。石内知时间、有嗅味觉，无视觉听觉，不知道暗掷时限。</p><p>主动及时出来无伤；到期弹出受 8d4，物品须作石化豁免，失败变石。化石为肉会弹出并造成 8d4，物品免豁免；挖掘术造成 8d8，再作死亡豁免，失败即死；化石为泥立即永久死亡；塑石术造成 4d4，但可以继续留在石内。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 76,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-58/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 76,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #58"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 小时",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "1 生物、物品或区域",
+    "savingThrow": "无或成功无效，视仪式",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "随仪式及宗教组织而异",
+    "id": "dragon-058-spell-ceremony",
+    "nameZh": "典礼术",
+    "nameEn": "Ceremony",
+    "description": "这套仪式的具体环数随用途上升：一环为成年、葬礼、婚姻；二环为奉献、入教、祝圣物件；三环为授职、特别誓愿；四环为祝圣土地；五环为绝罚。所需牧师等级分别至少一／三／五／七／九。列表基础一环不表示所有用途只耗一环位。",
+    "details": [
+      {
+        "title": "Dragon #58 · 仪式（牧师早期方案）",
+        "html": "<p>这套仪式的具体环数随用途上升：一环为成年、葬礼、婚姻；二环为奉献、入教、祝圣物件；三环为授职、特别誓愿；四环为祝圣土地；五环为绝罚。所需牧师等级分别至少一／三／五／七／九。列表基础一环不表示所有用途只耗一环位。</p><p>葬礼不直接保护尸体，但一周内掘墓有 50% 概率招致神祇代理报复。祝圣物件适用祭坛器物及圣／邪水油容器；圣徽与法衣另有法术。授职通常是成为教区神职、建立信众前提；特别誓愿用于圣武士、骑士及庄严誓言。</p><p>未事先祝圣土地便建宗教建筑，倒塌概率每年累计增加 1%，建成后不能补做来替代先行祝圣。祝圣墓地自身能如三级牧师驱散不死生物。绝罚留下永久印记；赎罪可消除后果但印记只变淡，因魔法误犯者完全赎罪时例外。</p><p>常见收费：成年 5–15 sp，葬礼 5–50 gp，婚姻 1–20 gp，奉献 0–10 sp，入教 0–100 gp，祝圣物件通常免费，授职通常免费但可到 200 gp，特别誓愿 0–100 gp，祝圣土地通常 100–600 gp，绝罚不收费；材料依教团而异。</p>",
+        "source": {
+          "book": "Dragon #58",
+          "page": 5,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-58/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #58",
+        "page": 5,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #58"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "4 施法时段",
+    "range": "3″",
+    "duration": "6 回合",
+    "areaOfEffect": "至多宽 4″、高 4″、厚 1″",
+    "savingThrow": "原刊未另列；穿越受 HD 限制",
+    "classes": [
+      "Witch"
+    ],
+    "reversible": false,
+    "materialComponent": "由主持人决定",
+    "id": "dragon-043-spell-wall-of-water",
+    "nameZh": "水墙术",
+    "nameEn": "Wall of Water",
+    "description": "生成一边落地的旋流水墙，挡普通火焰而不挡火球等魔法火焰，阻挡包括魔法飞弹与魔法回旋镖在内的飞射物。火焰生物穿越受 5d6 伤害。",
+    "details": [
+      {
+        "title": "Dragon #43 · 水墙（巫婆版）",
+        "html": "<p>生成一边落地的旋流水墙，挡普通火焰而不挡火球等魔法火焰，阻挡包括魔法飞弹与魔法回旋镖在内的飞射物。火焰生物穿越受 5d6 伤害。</p><p>不足 5 HD 的活物或不死生物不能穿越；至少 5 HD 者穿越受 3d6 伤害，耗两轮，力量至少 18/51 则按正常移动率通过。施法者可无伤通过，并取至多五瓶失去魔性的普通水。</p><p>不能用来创造水元素。法术终止后水不会消失，成为普通水沿地面流散。</p><p>适用于第 43 期的 NPC 巫婆版本；独有巫婆法术不能影响巨灵、火巨灵与牧师。至少需要言语和姿势成分，材料由主持人决定；不是普通法师法术表的新增项。</p>",
+        "source": {
+          "book": "Dragon #43",
+          "page": 65,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-43/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #43",
+        "page": 65,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #43"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "6 施法时段",
+    "range": "12″",
+    "duration": "3 回合/级，或至解除",
+    "areaOfEffect": "1 个半智能以上生物",
+    "savingThrow": "有魔抗者正常；无魔抗者 −2",
+    "classes": [
+      "Witch"
+    ],
+    "reversible": false,
+    "materialComponent": "由主持人决定",
+    "id": "dragon-043-spell-worship",
+    "nameZh": "崇拜术（巫婆版）",
+    "nameEn": "Worship",
+    "description": "不受目标 HD 限制。具有魔法抗力者先将魔抗降低九成，仍可正常作豁免；没有魔抗者的豁免减二。目标陷入无法唤醒的恍惚，至法术结束或被解除。",
+    "details": [
+      {
+        "title": "Dragon #43 · 崇拜术（巫婆版）",
+        "html": "<p>不受目标 HD 限制。具有魔法抗力者先将魔抗降低九成，仍可正常作豁免；没有魔抗者的豁免减二。目标陷入无法唤醒的恍惚，至法术结束或被解除。</p><p>目标服从简单命令；若本来能施法，会乐意代施一个自身掌握、由巫婆指定的法术。</p><p>适用于第 43 期的 NPC 巫婆版本；独有巫婆法术不能影响巨灵、火巨灵与牧师。至少需要言语和姿势成分，材料由主持人决定；不是普通法师法术表的新增项。</p>",
+        "source": {
+          "book": "Dragon #43",
+          "page": 67,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-43/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #43",
+        "page": 67,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #43"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "原刊未列",
+    "duration": "5 轮/级",
+    "areaOfEffect": "阅读非魔法文字",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Oracle"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-053-spell-read-languages",
+    "nameZh": "阅读语言（神谕者版）",
+    "nameEn": "Read Languages",
+    "description": "使神谕者在持续时间内读懂任何非魔法语言文字，类似盗贼阅读语言能力；不能因此书写或说出该语言，也不能读魔法语言。原刊没有完整参数栏；这是神谕者的一环版本，不冒充 PHB 法师同名法术。成分原刊未列。",
+    "details": [
+      {
+        "title": "Dragon #53 · 阅读语言（神谕者版）",
+        "html": "<p>使神谕者在持续时间内读懂任何非魔法语言文字，类似盗贼阅读语言能力；不能因此书写或说出该语言，也不能读魔法语言。原刊没有完整参数栏；这是神谕者的一环版本，不冒充 PHB 法师同名法术。成分原刊未列。</p>",
+        "source": {
+          "book": "Dragon #53",
+          "page": 71,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-53/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #53",
+        "page": 71,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #53"
+    ]
+  },
+  {
+    "level": 9,
+    "school": "附魔／魅惑",
+    "components": [
+      "V"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "触碰",
+    "duration": "特殊",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "成功无效；反向也须检定",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-069-spell-dismind",
+    "nameZh": "离心术",
+    "nameEn": "Dismind",
+    "description": "念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。",
+    "details": [
+      {
+        "title": "Dragon #69 · 离心术",
+        "html": "<p>念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。</p><p>离体心智无法被探测或心灵、灵能、魔法攻击接触，留在主物质位面随机游荡；不能决定观察对象、祈祷、研习或施法，也不能自行归体。主持人可给 1d6 个不解释的见闻或思想片段。</p><p>改变现实、有限许愿术、祈愿或反向“复心术”可恢复。反向也能治愈疯狂、弱智、脑损伤，解除任务、誓约、魅惑等心智控制，清醒酒醉、疲劳、药物影响者，但不能恢复失去的灵能。</p><p>两个方向都须允许豁免；复心术即使目标愿意也可能因成功豁免而无效，只表示本次没有恢复，不妨碍以后重试。</p>",
+        "source": {
+          "book": "Dragon #69",
+          "page": 73,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-69/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #69",
+        "page": 73,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #69"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "附魔／魅惑",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "1 回合/级",
+    "areaOfEffect": "1 名自然睡眠中的生物",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-069-spell-tasirin-s-haunted-sleep",
+    "nameZh": "塔西林梦扰术",
+    "nameEn": "Tasirin's Haunted Sleep",
+    "description": "只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限许愿术／祈愿或受伤等强烈痛楚能提前唤醒。",
+    "details": [
+      {
+        "title": "Dragon #69 · 塔西林梦扰术",
+        "html": "<p>只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限许愿术／祈愿或受伤等强烈痛楚能提前唤醒。</p><p>施法时专注一个特定场景，可把它作为梦或潜意识影像植入目标，醒来不久进入意识；清晰与准确程度依专注决定。并不读取目标思想，也不直接告知施法者成功与否。</p><p>深睡期间对其中一个暗示术的豁免 −3，可由任一施法者施放，仍须用目标懂得的语言。</p>",
+        "source": {
+          "book": "Dragon #69",
+          "page": 72,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-69/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #69",
+        "page": 72,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #69"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能／预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 小时",
+    "range": "1″",
+    "duration": "1 轮/级",
+    "areaOfEffect": "直径至多 2 英尺/级的天然水池",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "槲寄生；三份精炼坚果油",
+    "id": "dragon-071-spell-reflecting-pool",
+    "nameZh": "映照水池",
+    "nameEn": "Reflecting Pool",
+    "description": "使自然环境中的普通水池成为类似水晶球的窥视器，使用水晶球的窥视规定。只能窥探与主物质位面共存或相邻的内层位面，包括准元素位面、阴影位面等；跨位面的水晶球减值仍适用。",
+    "details": [
+      {
+        "title": "Dragon #71 · 映照水池",
+        "html": "<p>使自然环境中的普通水池成为类似水晶球的窥视器，使用水晶球的窥视规定。只能窥探与主物质位面共存或相邻的内层位面，包括准元素位面、阴影位面等；跨位面的水晶球减值仍适用。</p><p>材料为槲寄生及山核桃、核桃等坚果精炼油三份，滴入水面；每份可少至一盎司。</p>",
+        "source": {
+          "book": "Dragon #71",
+          "page": 7,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-71/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #71",
+        "page": 7,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #71"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "0",
+    "duration": "2 轮/级",
+    "areaOfEffect": "幻术师法术及幻术魔文",
+    "savingThrow": "无",
+    "classes": [
+      "Incantatrix",
+      "Illusionist"
+    ],
+    "reversible": true,
+    "materialComponent": "同阅读魔法及其反向",
+    "id": "dragon-090-spell-read-illusionist-magic",
+    "nameZh": "阅读幻术魔法（魔咒师版）",
+    "nameEn": "Read Illusionist Magic",
+    "description": "重刊第 66 期的阅读幻术魔法：同法师阅读魔法，但限幻术师使用的法术及幻术魔文，材料也沿用阅读魔法。可逆为难读魔文，材料沿用反向法术。此篇将其列入 Incantatrix 的法术表。",
+    "details": [
+      {
+        "title": "Dragon #90 · 阅读幻术魔法（魔咒师版）",
+        "html": "<p>重刊第 66 期的阅读幻术魔法：同法师阅读魔法，但限幻术师使用的法术及幻术魔文，材料也沿用阅读魔法。可逆为难读魔文，材料沿用反向法术。此篇将其列入 Incantatrix 的法术表。</p>",
+        "source": {
+          "book": "Dragon #90",
+          "page": 11,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-90/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #90",
+        "page": 11,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #90"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "2 轮/级",
+    "areaOfEffect": "1 生物",
+    "savingThrow": "无",
+    "classes": [
+      "Incantatrix"
+    ],
+    "reversible": false,
+    "materialComponent": "至少一滴人类、精灵或半精灵眼泪",
+    "id": "dragon-090-spell-dispel-possession",
+    "nameZh": "解除附身",
+    "nameEn": "Dispel Possession",
+    "description": "暂时解除魅惑、灵能攻击或支配、ESP 等心智控制与窥听。魅惑本身永久解除；其他攻击或控制可能在持续时间结束后恢复。",
+    "details": [
+      {
+        "title": "Dragon #90 · 解除附身",
+        "html": "<p>暂时解除魅惑、灵能攻击或支配、ESP 等心智控制与窥听。魅惑本身永久解除；其他攻击或控制可能在持续时间结束后恢复。</p><p>若目标受魔魂壶控制，把占据者生命力赶回壶；壶超出魔魂壶规定距离时，只在本法术期间压制占据者，让真正身体主人暂时恢复控制。材料为人类、精灵或半精灵的眼泪，至少一滴。</p>",
+        "source": {
+          "book": "Dragon #90",
+          "page": 12,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-90/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #90",
+        "page": 12,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #90"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "0",
+    "duration": "7 轮",
+    "areaOfEffect": "以施法者为中心、半径 2″ 球体",
+    "savingThrow": "无",
+    "classes": [
+      "Incantatrix"
+    ],
+    "reversible": false,
+    "materialComponent": "磁石与少许硝石",
+    "id": "dragon-090-spell-unbinding",
+    "nameZh": "解缚术（魔咒师版）",
+    "nameEn": "Unbinding",
+    "description": "产生随身移动的解缚球，结束各种定身、守卫结界、时间静滞、禁锢、时间停止、法师锁、力场墙与力场立方；禁锢者如被自由术释放。破坏五芒星、召唤法阵等囚禁结构，释放者知道是谁救出自己，但不会受其控制。",
+    "details": [
+      {
+        "title": "Dragon #90 · 解缚术（魔咒师版）",
+        "html": "<p>产生随身移动的解缚球，结束各种定身、守卫结界、时间静滞、禁锢、时间停止、法师锁、力场墙与力场立方；禁锢者如被自由术释放。破坏五芒星、召唤法阵等囚禁结构，释放者知道是谁救出自己，但不会受其控制。</p><p>强制魔嘴发声并消失；结束雕像术，摧毁魔魂壶并消灭其中生命力。打破拘束、遮藏及隐形魔法；普通锁、绳结、楔、栓、链、封条、瓶塞、衣扣等也全数解开。施法者穿戴携带物不受影响，盟友物品仍会受影响，陷阱与警报不会因此失效。</p><p>不消除反魔法壳、李欧蒙小屋、次等／普通法术无效结界、虹光法球、护盾等防护，不解除石化；不触发尚未发动的徽记与守卫刻文，不释放受役使的元素与隐形潜伏怪。</p>",
+        "source": {
+          "book": "Dragon #90",
+          "page": 14,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-90/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #90",
+        "page": 14,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #90"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "7″",
+    "duration": "2 轮",
+    "areaOfEffect": "直径 2 英尺、长至多 7″ 火柱",
+    "savingThrow": "指定目标无；扫过者减半",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-092-spell-agannazars-scorcher",
+    "nameZh": "阿迦纳萨灼热射流",
+    "nameEn": "Agannazar's Scorcher",
+    "description": "从指尖向指定生物喷射火柱，目标在 7″ 内时受 3d6 火伤，无豁免，免疫火热者例外。火柱连接施法者与目标，随双方移动而转向；目标后来超过 7″ 仍追随其方向，火柱本身长至多 7″。",
+    "details": [
+      {
+        "title": "Dragon #92 · 阿迦纳萨灼热射流",
+        "html": "<p>从指尖向指定生物喷射火柱，目标在 7″ 内时受 3d6 火伤，无豁免，免疫火热者例外。火柱连接施法者与目标，随双方移动而转向；目标后来超过 7″ 仍追随其方向，火柱本身长至多 7″。</p><p>火柱沿途或横扫接触其他生物造成 2d8，允许对法术豁免减半。点燃纸张、干衣等易燃物，也可能损害坚固物品；原刊没有明确指定目标每轮重复受伤，故不自行叠加。</p>",
+        "source": {
+          "book": "Dragon #92",
+          "page": 39,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-92/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #92",
+        "page": 39,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #92"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "防护／变化",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "0",
+    "duration": "施法当轮及随后 1 轮/级",
+    "areaOfEffect": "随施法者移动、半径 1″/级球体",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "至少价值 50 gp 的钻石粉",
+    "id": "dragon-097-spell-dispel-silence",
+    "nameZh": "解除寂静",
+    "nameEn": "Dispel Silence",
+    "description": "消除球内已有魔法寂静，并在施法之后每级一轮内持续消除法术或魔法物品产生的寂静。作用可穿墙、门及绕过障碍；没有言语成分，适合在寂静中施放。",
+    "details": [
+      {
+        "title": "Dragon #97 · 解除寂静",
+        "html": "<p>消除球内已有魔法寂静，并在施法之后每级一轮内持续消除法术或魔法物品产生的寂静。作用可穿墙、门及绕过障碍；没有言语成分，适合在寂静中施放。</p><p>解除魔法能摧毁此效果。已经消除的普通寂静不会自动回来，须重新施放；永久魔法物品的寂静能力则可恢复。材料为至少 50 gp 的钻石粉，施法时撒入空中。</p>",
+        "source": {
+          "book": "Dragon #97",
+          "page": 31,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-97/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #97",
+        "page": 31,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #97"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "变化",
+    "components": [
+      "V"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "1″/级",
+    "duration": "即时",
+    "areaOfEffect": "1 目标",
+    "savingThrow": "参数栏无；正文允许对法术豁免减半",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-139-spell-airbolt",
+    "nameZh": "气束术",
+    "nameEn": "Airbolt",
+    "description": "集中周围空气形成直径约三英寸的定向冲击束，仅需言语成分并吹气，一次只能指定一个生物或物件。空气中伤害每级 1d6，水中每级 2d6；原刊允许水下使用但不能在真空施放，也可作为强化造风或推力。",
+    "details": [
+      {
+        "title": "Dragon #139 · 气束术",
+        "html": "<p>集中周围空气形成直径约三英寸的定向冲击束，仅需言语成分并吹气，一次只能指定一个生物或物件。空气中伤害每级 1d6，水中每级 2d6；原刊允许水下使用但不能在真空施放，也可作为强化造风或推力。</p><p>原刊参数栏写无豁免，正文两处却允许对法术豁免减半，保留矛盾。海中眼魔 Searechter 的专有能力另按水中射程 6″、伤害 6d6；空气中射程 2″、伤害 3d6，不能据此改写普通法师参数。</p>",
+        "source": {
+          "book": "Dragon #139",
+          "page": 89,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-139/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #139",
+        "page": 89,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #139"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 回合",
+    "range": "触碰",
+    "duration": "永久，可被解除魔法",
+    "areaOfEffect": "给予 1 名法师能力；侦知距离 10 英尺",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "真视宝石或类似特殊视觉魔法物品，消耗",
+    "id": "dragon-139-spell-discern",
+    "nameZh": "辨识法师资质",
+    "nameEn": "Discern",
+    "description": "受术者必须至少五级法师，可对自身施放。此后持续获得招募学徒的辨识能力，不需专注；与十英尺内人物正常交流两轮后，可看到只有自己能辨识的微弱灵光，强光下不可见。",
+    "details": [
+      {
+        "title": "Dragon #139 · 辨识法师资质",
+        "html": "<p>受术者必须至少五级法师，可对自身施放。此后持续获得招募学徒的辨识能力，不需专注；与十英尺内人物正常交流两轮后，可看到只有自己能辨识的微弱灵光，强光下不可见。</p><p>普通版本在人类、精灵、半精灵的智力至少 14、其他属性均至少 6 时显示资质；可能存在侦查幻术师潜力的变体，加入侏儒，要求智力至少 15、敏捷至少 16。灵光强弱不表示潜力高低；只是资质预测，不保证对方从业或成材。</p><p>真视、红外视觉等不能代为看见灵光。材料为真视宝石或类似特殊视觉魔法物品，例如精视眼镜，施法消耗。</p>",
+        "source": {
+          "book": "Dragon #139",
+          "page": 31,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-139/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #139",
+        "page": 31,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #139"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 轮",
+    "range": "15 英尺；指挥距离另见说明",
+    "duration": "12 回合 + 1 回合/级",
+    "areaOfEffect": "1 动物",
+    "savingThrow": "友好动物无；普通动物正常",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "目标动物喜欢的食物",
+    "id": "dragon-142-spell-druidsight",
+    "nameZh": "德鲁伊视界",
+    "nameEn": "Druidsight",
+    "description": "透过一只动物的眼睛，以该动物的感官方式观察。宠物或受召动物等友好目标无须豁免，普通动物正常豁免；魔宠、变形与变身生物不能作为目标。",
+    "details": [
+      {
+        "title": "Dragon #142 · 德鲁伊视界",
+        "html": "<p>透过一只动物的眼睛，以该动物的感官方式观察。宠物或受召动物等友好目标无须豁免，普通动物正常豁免；魔宠、变形与变身生物不能作为目标。</p><p>可在 100 码 + 10 码/级 内心灵指挥动物侦察、监视或站岗。材料为一点目标喜欢的食物。</p>",
+        "source": {
+          "book": "Dragon #142",
+          "page": 63,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-142/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #142",
+        "page": 63,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #142"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "祈唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 小时",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "至多 10″×10″ 神龛或 20″×20″ 神殿",
+    "savingThrow": "特殊；见区域效力",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "勾勒区域的圣物质、相应价值祭品；神殿另需珍贵魔法物品",
+    "id": "dragon-142-spell-ceremony-consecrate-temple",
+    "nameZh": "仪式：祝圣神殿",
+    "nameEn": "Ceremony: Consecrate Temple",
+    "description": "一环仪式的扩展用途，神龛须至少八级牧师施放，神殿须至少九级。为新建完工的宗教建筑请求神祇祝福，并与正／负物质位面建立永久联系。先用适当圣物质勾勒范围，再献祭。",
+    "details": [
+      {
+        "title": "Dragon #142 · 仪式：祝圣神殿",
+        "html": "<p>一环仪式的扩展用途，神龛须至少八级牧师施放，神殿须至少九级。为新建完工的宗教建筑请求神祇祝福，并与正／负物质位面建立永久联系。先用适当圣物质勾勒范围，再献祭。</p><p>神龛每平方英尺献祭 0.5／1 gp，使相反阵营牧师的所有豁免及驱散／控制不死生物检定分别 −1／−2。神殿每平方英尺 1.5／2 gp，另须珍贵魔法物品，分别给予 −3／−4，并阻止敌方牧师用祝福、圣歌、祈祷、异界之门等直接请求神助。</p><p>邪恶牧师可以总 XP 价值等于所需金币价值的活祭替代。此术是对 UA 仪式的新用途，不等于普通祝圣土地。</p>",
+        "source": {
+          "book": "Dragon #142",
+          "page": 61,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-142/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #142",
+        "page": 61,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #142"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "触碰",
+    "duration": "至履行、违背或完成补偿",
+    "areaOfEffect": "1 名同信仰誓言承担者",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "牧师圣徽",
+    "id": "dragon-108-spell-ceremony-oath",
+    "nameZh": "仪式：誓言（零环祷术）",
+    "nameEn": "Ceremony: Oath",
+    "description": "牧师见证一项小任务誓言，相关双方触碰圣徽，牧师以仪式手势和祝辞确认。立誓者违约后，忠诚基础值减 5%，持续至作出满意补偿，可能永不恢复。",
+    "details": [
+      {
+        "title": "Dragon #108 · 仪式：誓言（零环祷术）",
+        "html": "<p>牧师见证一项小任务誓言，相关双方触碰圣徽，牧师以仪式手势和祝辞确认。立誓者违约后，忠诚基础值减 5%，持续至作出满意补偿，可能永不恢复。</p><p>牧师或同信仰第三人可为非信徒作荣誉担保；担保人与非信徒共同触碰圣徽，代为承担后果。牧师亲自担保极罕见。此为零环新方案，与 UA 的一环仪式分别列明参数。</p><p>本篇为作者提出的零环祷术：牧师或德鲁伊可用两个祷术替换一个一环法术准备位；入门者学会 7–10 个。其他职业能否使用由主持人另准，不自动加入其法术表。</p>",
+        "source": {
+          "book": "Dragon #108",
+          "page": 28,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-108/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #108",
+        "page": 28,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #108"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "触碰；仅自身",
+    "duration": "1 回合",
+    "areaOfEffect": "施法者",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-108-spell-meditation",
+    "nameZh": "冥思祷术",
+    "nameEn": "Meditation",
+    "description": "小型且不可逆的移除恐惧：只使施法者本人对各种魔法恐惧攻击的豁免加二，维持一回合，不能给同伴使用。",
+    "details": [
+      {
+        "title": "Dragon #108 · 冥思祷术",
+        "html": "<p>小型且不可逆的移除恐惧：只使施法者本人对各种魔法恐惧攻击的豁免加二，维持一回合，不能给同伴使用。</p><p>本篇为作者提出的零环祷术：牧师或德鲁伊可用两个祷术替换一个一环法术准备位；入门者学会 7–10 个。其他职业能否使用由主持人另准，不自动加入其法术表。</p>",
+        "source": {
+          "book": "Dragon #108",
+          "page": 29,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-108/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #108",
+        "page": 29,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #108"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "防护",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "触碰",
+    "duration": "2 轮",
+    "areaOfEffect": "受触生物",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "洒向受术者的圣水",
+    "id": "dragon-108-spell-warding",
+    "nameZh": "防护祷术",
+    "nameEn": "Warding",
+    "description": "在受术者周围一英尺处形成护层，阻止受附魔、咒唤或召唤生物以身体接触受术者。不会减低不涉及身体接触的攻击，也不提供任何豁免加值。",
+    "details": [
+      {
+        "title": "Dragon #108 · 防护祷术",
+        "html": "<p>在受术者周围一英尺处形成护层，阻止受附魔、咒唤或召唤生物以身体接触受术者。不会减低不涉及身体接触的攻击，也不提供任何豁免加值。</p><p>施法时向受术者洒圣水，是防护邪恶的微小版本。</p><p>本篇为作者提出的零环祷术：牧师或德鲁伊可用两个祷术替换一个一环法术准备位；入门者学会 7–10 个。其他职业能否使用由主持人另准，不自动加入其法术表。</p>",
+        "source": {
+          "book": "Dragon #108",
+          "page": 29,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-108/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #108",
+        "page": 29,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #108"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "听觉范围",
+    "duration": "至履行誓约；可能多年或永久",
+    "areaOfEffect": "1–4 人",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-122-spell-ceremony-witness",
+    "nameZh": "仪式：见证誓约",
+    "nameEn": "Ceremony: Witness",
+    "description": "德鲁伊作为宗教与法律见证者，让立誓者亲口承诺任务、期限及违约后果；后果须相关者事先同意并写入誓言，可能永久致残。德鲁伊可建议修改，也可拒绝见证；完成后便不能再改条件。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：见证誓约",
+        "html": "<p>德鲁伊作为宗教与法律见证者，让立誓者亲口承诺任务、期限及违约后果；后果须相关者事先同意并写入誓言，可能永久致残。德鲁伊可建议修改，也可拒绝见证；完成后便不能再改条件。</p><p>违约后由被呼求的力量执行后果；一般誓言履行即终止，永久宗教誓约除外。死亡解除多数誓约，最严酷者可能例外。无需材料。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 33,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 33,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "黄昏至黎明",
+    "range": "所辖领域",
+    "duration": "1 年",
+    "areaOfEffect": "德鲁伊照管的土地与信徒",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "仪式火焰、谷物嫩芽及祭品",
+    "id": "dragon-122-spell-ceremony-spring",
+    "nameZh": "仪式：春祭",
+    "nameEn": "Ceremony: Spring",
+    "description": "这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：春祭",
+        "html": "<p>这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。</p><p>Beltane 春祭以火、牲畜与谷物嫩芽庆祝生命与播种，使所辖人、动物、作物在随后一年常规疾病检定的患病概率减 10%。原刊一处称三级德鲁伊即可施放三环，和通常施法进程不一致，保留此疑点。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 33,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 33,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "黄昏至黎明",
+    "range": "所辖领域",
+    "duration": "1 年",
+    "areaOfEffect": "德鲁伊照管的土地与信徒",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "花环、亲自采集的槲寄生及祭品",
+    "id": "dragon-122-spell-ceremony-summer",
+    "nameZh": "仪式：夏祭",
+    "nameEn": "Ceremony: Summer",
+    "description": "这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：夏祭",
+        "html": "<p>这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。</p><p>Lugnasad 仪式从仲夏前夜守夜开始，以花环献祭，并于仲夏后的首个满月夜开启集市。每名德鲁伊亲自采集来年槲寄生；自己不能主持时，须参加高阶德鲁伊的仪式。</p><p>忽略仪式，即使采集程序本身正确，所获也只算次等槲寄生；借来的槲寄生、冬青或橡叶等同样按原有材料替代规则削弱法术距离、持续时间与范围，不另虚造减值。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 34,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 34,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "黄昏至黎明",
+    "range": "所辖领域",
+    "duration": "1 年",
+    "areaOfEffect": "德鲁伊照管的土地与信徒",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "初熟收获与节庆祭品",
+    "id": "dragon-122-spell-ceremony-autumn",
+    "nameZh": "仪式：秋祭",
+    "nameEn": "Ceremony: Autumn",
+    "description": "这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：秋祭",
+        "html": "<p>这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。</p><p>Samain 收获节献出初熟果实，整夜篝火、宴饮与舞蹈。忽略仪式会使所辖者来年遭受匮乏、贫困、财宝贬值或额外开销等厄运。</p><p>主持人持续处理到次年 Samain；原刊建议每月额外损失或支出至少按德鲁伊每级 100 gp 计算，不能简单改成一次性罚款。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 34,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 34,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "黄昏至黎明",
+    "range": "所辖领域",
+    "duration": "1 年",
+    "areaOfEffect": "德鲁伊照管的土地与信徒",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "牛奶及仪式祭品",
+    "id": "dragon-122-spell-ceremony-winter",
+    "nameZh": "仪式：冬祭",
+    "nameEn": "Ceremony: Winter",
+    "description": "这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：冬祭",
+        "html": "<p>这组季节仪式作用于德鲁伊照管的土地与信徒，规模随其职责而定；独行者只照管自身，信奉德鲁伊宗教的冒险队也可在内。自己不能主持的高环仪式，须参加上级德鲁伊的仪式才能让所辖者受益。各季皆自黄昏守夜至黎明，含唱诵、献祭与共同仪式，效力一年。</p><p>Imbalc 冬祭献奶，祈求来年力量；正文同时提到最长的 Yule 夜。忽略仪式，随后一年取得的经验值减 5%，新生动物每个生命骰的生命值掷骰减一。</p><p>原刊把 Imbalc 与 Yule 并写，按文章设定保留，不据现实历法改写仪式日期。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 35,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 35,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "18 回合",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "1 人",
+    "savingThrow": "特殊：五项评定相加作为目标数",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "就职仪式、献祭与赠予；原刊未定统一金币额",
+    "id": "dragon-122-spell-ceremony-anointing",
+    "nameZh": "仪式：膏立",
+    "nameEn": "Ceremony: Anointing",
+    "description": "为国王、高阶德鲁伊等举行就职仪式，先有献祭、向圣林奉献、赈济与竞技等。完成即获得法律上的职位，即使神圣认可检定失败，仍然属于合法任职者。",
+    "details": [
+      {
+        "title": "Dragon #122 · 仪式：膏立",
+        "html": "<p>为国王、高阶德鲁伊等举行就职仪式，先有献祭、向圣林奉献、赈济与竞技等。完成即获得法律上的职位，即使神圣认可检定失败，仍然属于合法任职者。</p><p>主持人对品行／信仰、责任／忠诚、领导、公礼仪与竞赛表现、家世及仪态五项各评 1–4 分，一分最好。总分 5–20 作为目标数；掷 d20 达到或超过总分即获神圣认可。</p><p>获认可者感知与魅力各加一，上限 18。检定失败不撤销法律职位，但可能引起是否真正适任的争议。DragonDex 指为第 37 页；正文实际在其后无页脚的第 38 页（PDF 40），第 37 页是广告。</p>",
+        "source": {
+          "book": "Dragon #122",
+          "page": 38,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-122/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #122",
+        "page": 38,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #122"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "死灵",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "7 施法时段",
+    "range": "触碰",
+    "duration": "等待期 24 小时/级；恢复永久",
+    "areaOfEffect": "受触生物",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-134-spell-regenerate-light-wounds",
+    "nameZh": "轻伤缓愈",
+    "nameEn": "Regenerate Light Wounds",
+    "description": "受伤者每轮恢复一点生命值，总量 1d4+1。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。",
+    "details": [
+      {
+        "title": "Dragon #134 · 轻伤缓愈",
+        "html": "<p>受伤者每轮恢复一点生命值，总量 1d4+1。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。</p><p>以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。</p><p>反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。</p><p>只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。</p><p>原刊建议 NPC 代施费用为 200 gp，可因任务服务教团而调整。</p>",
+        "source": {
+          "book": "Dragon #134",
+          "page": 58,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-134/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #134",
+        "page": 58,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #134"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "死灵",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "9 施法时段",
+    "range": "触碰",
+    "duration": "等待期 48 小时/级；恢复永久",
+    "areaOfEffect": "受触生物",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-134-spell-regenerate-serious-wounds",
+    "nameZh": "重伤缓愈",
+    "nameEn": "Regenerate Serious Wounds",
+    "description": "受伤者每轮恢复一点生命值，总量 2d4+3。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。",
+    "details": [
+      {
+        "title": "Dragon #134 · 重伤缓愈",
+        "html": "<p>受伤者每轮恢复一点生命值，总量 2d4+3。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。</p><p>以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。</p><p>反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。</p><p>只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。</p><p>原刊建议 NPC 代施费用为 650 gp，可因任务服务教团而调整。</p>",
+        "source": {
+          "book": "Dragon #134",
+          "page": 58,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-134/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #134",
+        "page": 58,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #134"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "死灵",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "等待期 72 小时/级；恢复永久",
+    "areaOfEffect": "受触生物",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-134-spell-regenerate-critical-wounds",
+    "nameZh": "致命伤缓愈",
+    "nameEn": "Regenerate Critical Wounds",
+    "description": "受伤者每轮恢复一点生命值，总量 3d4+6。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。",
+    "details": [
+      {
+        "title": "Dragon #134 · 致命伤缓愈",
+        "html": "<p>受伤者每轮恢复一点生命值，总量 3d4+6。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。</p><p>以后接受其他魔法治疗，包括另一道缓愈术、治疗药水等，都会取消原有效果，已经恢复的生命值保留。</p><p>反向为逐步恶化伤势：在随后通过休息、治疗或其他方式取得生命值后启动，每轮失去一点，直到完成相同总额度或死亡；反向等待期与正向相同。</p><p>只影响普通治疗轻伤能影响的生物，不增加生命值上限。可在生命值 −1 至 −9 时继续恢复；死亡、降至 −10 或遭即死效果时立刻终止，不提供复活。</p><p>原刊建议 NPC 代施费用为 1,300 gp，可因任务服务教团而调整。</p>",
+        "source": {
+          "book": "Dragon #134",
+          "page": 60,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-134/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #134",
+        "page": 60,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #134"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "防护",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "⅕ 施法时段",
+    "range": "原刊未列；须把火焰置于木材上",
+    "duration": "木材干燥后；未载回潮时限",
+    "areaOfEffect": "1 立方英尺木材",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "小火把或火焰；原刊未另列锯切手势所用材料",
+    "id": "dragon-119-spell-drywood",
+    "nameZh": "干柴术",
+    "nameEn": "Drywood",
+    "description": "使过湿或过青的木材能够像干燥数月的柴一样燃烧。施法以材料作锯切手势，并把小火把或火焰置于受术木材上。原刊未另说明言语成分。",
+    "details": [
+      {
+        "title": "Dragon #119 · 干柴术",
+        "html": "<p>使过湿或过青的木材能够像干燥数月的柴一样燃烧。施法以材料作锯切手势，并把小火把或火焰置于受术木材上。原刊未另说明言语成分。</p><p>第 119 期另提一套德鲁伊零环戏法：四个替换一个一环准备位，与第 108 期两个祷术替一环的方案不同。原刊只列局部参数，未载项不套用法师戏法补齐。</p>",
+        "source": {
+          "book": "Dragon #119",
+          "page": 28,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-119/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #119",
+        "page": 28,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #119"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "S"
+    ],
+    "castingTime": "⅒ 施法时段",
+    "range": "原刊未列；对准伤口",
+    "duration": "未载固定时限；伤口照常愈合",
+    "areaOfEffect": "1 人的轻微伤口",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-119-spell-disinfect",
+    "nameZh": "伤口消毒",
+    "nameEn": "Disinfect",
+    "description": "对轻微伤口施放，防止感染，不恢复生命值。之后即使没有包扎或保持清洁，伤口仍按通常速度愈合。手势为吮吸一只手的食指，同时用另一手指向伤口；未另列言语或材料。",
+    "details": [
+      {
+        "title": "Dragon #119 · 伤口消毒",
+        "html": "<p>对轻微伤口施放，防止感染，不恢复生命值。之后即使没有包扎或保持清洁，伤口仍按通常速度愈合。手势为吮吸一只手的食指，同时用另一手指向伤口；未另列言语或材料。</p><p>第 119 期另提一套德鲁伊零环戏法：四个替换一个一环准备位，与第 108 期两个祷术替一环的方案不同。原刊只列局部参数，未载项不套用法师戏法补齐。</p>",
+        "source": {
+          "book": "Dragon #119",
+          "page": 28,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-119/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #119",
+        "page": 28,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #119"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "⅒ 施法时段",
+    "range": "自身",
+    "duration": "1 轮",
+    "areaOfEffect": "施法者",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-119-spell-disguise-scent",
+    "nameZh": "遮掩气味",
+    "nameEn": "Disguise Scent",
+    "description": "暂时中和自身气味，依赖嗅觉辨识陌生者的动物不会因气味察觉施法者；这期间接触的生物与物品也不会沾上其气味。做把想象中的液体倒入手心并涂身的动作，同时哼短曲；不使外形或声音消失。",
+    "details": [
+      {
+        "title": "Dragon #119 · 遮掩气味",
+        "html": "<p>暂时中和自身气味，依赖嗅觉辨识陌生者的动物不会因气味察觉施法者；这期间接触的生物与物品也不会沾上其气味。做把想象中的液体倒入手心并涂身的动作，同时哼短曲；不使外形或声音消失。</p><p>第 119 期另提一套德鲁伊零环戏法：四个替换一个一环准备位，与第 108 期两个祷术替一环的方案不同。原刊只列局部参数，未载项不套用法师戏法补齐。</p>",
+        "source": {
+          "book": "Dragon #119",
+          "page": 29,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-119/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #119",
+        "page": 29,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #119"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "塑能／变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2 轮",
+    "range": "触碰",
+    "duration": "至一件毁坏或解除魔法",
+    "areaOfEffect": "两件同材质、大小相近的非生物物件",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "两件待联系物、圣徽、细金属丝／人发／蛛丝",
+    "id": "dragon-100-spell-sacred-link",
+    "nameZh": "神圣连结",
+    "nameEn": "Sacred Link",
+    "description": "牧师持两件同材质、大小相近，最好几乎相同的物品建立不可见联系。距离及跨位面不妨碍，一件受到的处理会同步到另一件；不能逐次选择是否复制。两件都发微弱魔法灵光，但没有可追踪的实在路径。",
+    "details": [
+      {
+        "title": "Dragon #100 · 神圣连结",
+        "html": "<p>牧师持两件同材质、大小相近，最好几乎相同的物品建立不可见联系。距离及跨位面不妨碍，一件受到的处理会同步到另一件；不能逐次选择是否复制。两件都发微弱魔法灵光，但没有可追踪的实在路径。</p><p>焚烧、破坏、镀金、镶宝、雕刻等均同步。即使另一张地图在水下不能燃烧，仍会化灰；位于可燃环境时可能引燃周围。任一件毁坏或遭解除魔法便结束。</p><p>可联系魔法物品，激活或充能一件同样影响另一件，但每次使用连结累计增加 3% 概率使一件粉碎或爆炸、释放全部功能或充能并结束连结。材料为两物、圣徽及一缕细金属丝、头发或蛛丝。</p>",
+        "source": {
+          "book": "Dragon #100",
+          "page": 18,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-100/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #100",
+        "page": 18,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #100"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "变化／心灵幻象",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "1 轮 + 1 轮/级",
+    "areaOfEffect": "现存碎片至多 1 立方英尺/级；重构完整物可更大",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "待恢复物或碎片、少许细沙、至少指甲大小的树脂／树胶",
+    "id": "dragon-100-spell-reconstruction",
+    "nameZh": "暂时重构",
+    "nameEn": "Reconstruction",
+    "description": "把破损甚至缺少部分的物件暂时恢复至破坏前外观、重量、气味、手感和功能，不需知道原貌。可正常触摸、承重或攻击，不会因被识破而失效；侦测魔法能看见灵光，真视宝石或真视能看出真相，不能单靠不相信来消除。",
+    "details": [
+      {
+        "title": "Dragon #100 · 暂时重构",
+        "html": "<p>把破损甚至缺少部分的物件暂时恢复至破坏前外观、重量、气味、手感和功能，不需知道原貌。可正常触摸、承重或攻击，不会因被识破而失效；侦测魔法能看见灵光，真视宝石或真视能看出真相，不能单靠不相信来消除。</p><p>破损魔法武器恢复后能按魔法武器命中，但不恢复原加值及特殊能力。持续加热和敲击，例如重新锻造，或施加恒定术、附魔武器，都会使重构立即结束。</p><p>不能影响活物，也不能把完整成品变回原材料，例如石像变回山岩。材料为待恢复物或碎片、细沙和至少指甲大小的黏树脂／树胶。</p>",
+        "source": {
+          "book": "Dragon #100",
+          "page": 19,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-100/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #100",
+        "page": 19,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #100"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "1 小时/有效等级",
+    "areaOfEffect": "每有效等级 10 磅金属",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-049-spell-freeze-heat-metal",
+    "nameZh": "冷冻／加热金属（炼金术士版）",
+    "nameEn": "Freeze/Heat Metal",
+    "description": "炼金术士的三环配药法术，类似德鲁伊加热金属及其反向，但以触碰发动，每有效等级处理十磅金属，持续每有效等级一小时，最高冷热程度在全程中点出现。",
+    "details": [
+      {
+        "title": "Dragon #49 · 冷冻／加热金属（炼金术士版）",
+        "html": "<p>炼金术士的三环配药法术，类似德鲁伊加热金属及其反向，但以触碰发动，每有效等级处理十磅金属，持续每有效等级一小时，最高冷热程度在全程中点出现。</p><p>没有豁免。因升降温极慢，不适合直接战斗，对方通常有充足时间脱甲；可在有时间准备时布置陷阱。原刊未另列成分、施法时间，不套用德鲁伊版完整参数。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 60,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-49/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 60,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "5 施法时段",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "1 具尸体",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "同种族／物种新鲜血液；至少 7 gp 的月长石粉",
+    "id": "dragon-062-spell-nulathoe-s-ninemen",
+    "nameZh": "努拉索护尸术",
+    "nameEn": "Nulathoe's Ninemen",
+    "description": "使各种死者免于自然腐败，强化并保持尸体或断肢关节柔韧可用，便于安葬或等待复活。不会治疗伤口或止血，也没有使尸体活化的效果。",
+    "details": [
+      {
+        "title": "Dragon #62 · 努拉索护尸术",
+        "html": "<p>使各种死者免于自然腐败，强化并保持尸体或断肢关节柔韧可用，便于安葬或等待复活。不会治疗伤口或止血，也没有使尸体活化的效果。</p><p>把同种族／物种生物的新鲜血液洒在胸腔、头颈及肢端关节等要害，再将至少价值 7 gp 的月长石碾粉撒全身，最后触碰尸体生效。</p>",
+        "source": {
+          "book": "Dragon #62",
+          "page": 17,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-62/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #62",
+        "page": 17,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #62"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "变化／塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "触碰",
+    "duration": "至触发一次；可配合恒定术",
+    "areaOfEffect": "1 物件；喷火锥长 15、尖端径 1、底径 10 英尺",
+    "savingThrow": "减半",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "油一滴、少许硫磺、红龙牙齿或鳞片",
+    "id": "dragon-123-spell-mellix-s-fire-mouth",
+    "nameZh": "梅利克斯火焰魔嘴",
+    "nameEn": "Mellix's Fire Mouth",
+    "description": "为物件赋予火焰魔嘴，预先指定一类生物从正前方经过时触发；未指定则首个经过的生物触发。火焰总垂直于施法表面喷出，目标须位于其正前方。",
+    "details": [
+      {
+        "title": "Dragon #123 · 梅利克斯火焰魔嘴",
+        "html": "<p>为物件赋予火焰魔嘴，预先指定一类生物从正前方经过时触发；未指定则首个经过的生物触发。火焰总垂直于施法表面喷出，目标须位于其正前方。</p><p>火锥造成 3d6 + 施法者等级火伤，允许豁免减半。通常只发动一次，也可配合八环恒定术。材料为一滴油、少许硫磺及红龙的一颗牙或一片鳞。</p>",
+        "source": {
+          "book": "Dragon #123",
+          "page": 37,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-123/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #123",
+        "page": 37,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #123"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "幻术／心灵幻象",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "触碰",
+    "duration": "1 回合/级",
+    "areaOfEffect": "1 条手臂、腿、尾、触手或翅膀",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-127-spell-numbness",
+    "nameZh": "肢体麻木",
+    "nameEn": "Numbness",
+    "description": "须命中所选肢体；正攻击己方的触手／爪臂无减值，垂下的翼或持武器手臂 −1，腿 −2，举起的翼或活动尾巴 −3，依实际姿势裁定。睡眠、受缚或无助目标可自动触及。不能作用头或躯干，象鼻算触手。",
+    "details": [
+      {
+        "title": "Dragon #127 · 肢体麻木",
+        "html": "<p>须命中所选肢体；正攻击己方的触手／爪臂无减值，垂下的翼或持武器手臂 −1，腿 −2，举起的翼或活动尾巴 −3，依实际姿势裁定。睡眠、受缚或无助目标可自动触及。不能作用头或躯干，象鼻算触手。</p><p>该肢体敏捷减四，并承担相应攻击、防御、盗贼技能等后果；用它攻击命中 −1，飞射攻击可再按情境修正。腿麻木移动减三分之一，走路每轮有 20% 概率绊倒；翼麻木飞速减三分之一、机动性降一级，起飞需两轮。</p><p>麻木肢体每轮 60% 概率掉落所握物；挣脱其抓握加 30% 或加六，抓握伤害每骰减一，但应造成伤害时不减至零。AC 通常恶化一点，盾臂等可更严重。</p><p>受术者感觉不到该肢体伤口，每条麻木肢体使其低估伤害 25%；主持人秘密记录真实生命值。多条肢体的后果累积。</p>",
+        "source": {
+          "book": "Dragon #127",
+          "page": 63,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-127/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #127",
+        "page": 63,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #127"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "0",
+    "duration": "每 3 级 1 轮",
+    "areaOfEffect": "自身",
+    "savingThrow": "自身无；被咬者须作毒素豁免",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "一对毒蛇牙",
+    "id": "dragon-132-spell-viper-s-bite",
+    "nameZh": "毒蛇之噬",
+    "nameEn": "Viper's Bite",
+    "description": "以魔法毒牙进行一次额外噬咬，按普通命中掷骰，伤害 1d4；因是魔法攻击，可以伤到免疫普通武器的目标。噬咬不妨碍德鲁伊进行其他正常攻击。",
+    "details": [
+      {
+        "title": "Dragon #132 · 毒蛇之噬",
+        "html": "<p>以魔法毒牙进行一次额外噬咬，按普通命中掷骰，伤害 1d4；因是魔法攻击，可以伤到免疫普通武器的目标。噬咬不妨碍德鲁伊进行其他正常攻击。</p><p>被咬者须作毒素豁免，失败死亡。材料为一对毒蛇牙。</p>",
+        "source": {
+          "book": "Dragon #132",
+          "page": 58,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-132/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #132",
+        "page": 58,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #132"
+    ]
+  },
+  {
+    "level": 0,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "0",
+    "duration": "1 回合",
+    "areaOfEffect": "1 人",
+    "savingThrow": "无",
+    "classes": [
+      "Druid"
+    ],
+    "reversible": false,
+    "materialComponent": "槲寄生（本篇通则）",
+    "id": "dragon-120-spell-temperature",
+    "nameZh": "保温祷术",
+    "nameEn": "Temperature",
+    "description": "使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。",
+    "details": [
+      {
+        "title": "Dragon #120 · 保温祷术",
+        "html": "<p>使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。</p><p>此篇采用第 108 期零环祷术思路，两个祷术替换一个一环准备位；材料通则为槲寄生，未给此术另列材料。</p>",
+        "source": {
+          "book": "Dragon #120",
+          "page": 40,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-120/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #120",
+        "page": 40,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #120"
+    ]
+  },
+  {
+    "level": 9,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "3″",
+    "duration": "至多 1 回合/级，可自愿结束",
+    "areaOfEffect": "直径 2″ 双向异界之门",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "只有以物质定向未知位面时需要该位面实物；不消耗",
+    "id": "dragon-110-spell-worldwalk",
+    "nameZh": "跨界行走",
+    "nameEn": "Worldwalk",
+    "description": "建立通向其他位面的竖立圆盘门，可放墙上或空中；未指定位置时在面前 1″。可选择自己知道且能想象的位面，或触持来自未知位面的实物来定向，也可随机选。实物不消耗，携过门不会关闭门。",
+    "details": [
+      {
+        "title": "Dragon #110 · 跨界行走",
+        "html": "<p>建立通向其他位面的竖立圆盘门，可放墙上或空中；未指定位置时在面前 1″。可选择自己知道且能想象的位面，或触持来自未知位面的实物来定向，也可随机选。实物不消耗，携过门不会关闭门。</p><p>选定目的地仍有误差：一级 100%，以后每级减少 5%。走错时有 60% 概率到平行主物质位面。只听说过或凭条件想象的位面，若存在，抵达概率为 10% 加每级 1%，否则随机；开门后不能改目的地。</p><p>不须持续专注，施法者离开、死亡、昏迷或弱智均不影响。两侧生物自由通行，每只通过需一时段，排好队每轮至多十只。过大的生物若能变小，会被强制变到能通过的形态；不能缩小者留在原处。</p><p>生物没有携带的飞射物及物品不能正常通过，而被随机抛入混沌海。关闭或解除时，正在穿门的生物落入混沌海最上层；普通穿越并无豁免。</p>",
+        "source": {
+          "book": "Dragon #110",
+          "page": 33,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-110/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #110",
+        "page": 33,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #110"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "预言",
+    "components": [
+      "V",
+      "M"
+    ],
+    "castingTime": "2 施法时段",
+    "range": "0",
+    "duration": "3 轮 + 1 轮/级",
+    "areaOfEffect": "帕拉曼德魔文",
+    "savingThrow": "无",
+    "classes": [
+      "Paramander"
+    ],
+    "reversible": true,
+    "materialComponent": "少许骨粉与丝线",
+    "id": "dragon-106-spell-read-paramandic-magic",
+    "nameZh": "阅读帕拉曼德魔文",
+    "nameEn": "Read Paramandic Magic",
+    "description": "阅读帕拉曼德施法者使用的复杂喉音魔文；除本篇参数及材料外，按法师一环阅读魔法。可逆，材料为少许骨粉与丝线；这不是给普通法师新增的语言权限。",
+    "details": [
+      {
+        "title": "Dragon #106 · 阅读帕拉曼德魔文",
+        "html": "<p>阅读帕拉曼德施法者使用的复杂喉音魔文；除本篇参数及材料外，按法师一环阅读魔法。可逆，材料为少许骨粉与丝线；这不是给普通法师新增的语言权限。</p>",
+        "source": {
+          "book": "Dragon #106",
+          "page": 51,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-106/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #106",
+        "page": 51,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #106"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "变化",
+    "components": [
+      "V"
+    ],
+    "castingTime": "所重施法术的时间 + 1 施法时段",
+    "range": "0",
+    "duration": "依所重施法术",
+    "areaOfEffect": "依所重施法术",
+    "savingThrow": "无",
+    "classes": [
+      "Savant"
+    ],
+    "reversible": false,
+    "materialComponent": "重施目标法术仍须原有材料",
+    "id": "dragon-140-spell-recall-spell",
+    "nameZh": "重施法术（博学者版）",
+    "nameEn": "Recall Spell",
+    "description": "让博学者重施任意一个先前已施放的博学者法术。施法时间为该法术原时间再加一时段；若原法术需要材料，仍须备齐。不能把“任意先前法术”扩展为别的职业法术。",
+    "details": [
+      {
+        "title": "Dragon #140 · 重施法术（博学者版）",
+        "html": "<p>让博学者重施任意一个先前已施放的博学者法术。施法时间为该法术原时间再加一时段；若原法术需要材料，仍须备齐。不能把“任意先前法术”扩展为别的职业法术。</p>",
+        "source": {
+          "book": "Dragon #140",
+          "page": 22,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-140/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #140",
+        "page": 22,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #140"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "召唤／附魔",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 回合",
+    "range": "0",
+    "duration": "2 回合/级",
+    "areaOfEffect": "1 个曾击败的宿敌之灵",
+    "savingThrow": "无",
+    "classes": [
+      "Barbarian Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "价值 100 gp 的罕见草药及圣徽",
+    "id": "dragon-109-spell-chattel-spirit",
+    "nameZh": "役使宿敌之灵",
+    "nameEn": "Chattel Spirit",
+    "description": "只能召唤施法者曾经击败的 nemesis spirit；召来时拥有当年交战时的能力与生命值。它须服从命令，即使可能导致自己毁灭，或尽其知识回答问题；可以抱怨、曲解语义，但不能拒绝履行。",
+    "details": [
+      {
+        "title": "Dragon #109 · 役使宿敌之灵",
+        "html": "<p>只能召唤施法者曾经击败的 nemesis spirit；召来时拥有当年交战时的能力与生命值。它须服从命令，即使可能导致自己毁灭，或尽其知识回答问题；可以抱怨、曲解语义，但不能拒绝履行。</p><p>持续时间结束即消失，不论任务完成与否。同一个宿敌最多要求三次服务，任务中被杀后不能再召唤。施法焚烧价值 100 gp 的罕见草药，唱诵、舞蹈并挥动圣徽；此术与护符术共同用于制作 sacred bundle。</p>",
+        "source": {
+          "book": "Dragon #109",
+          "page": 16,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-109/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #109",
+        "page": 16,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #109"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 天",
+    "range": "无限",
+    "duration": "依附加效果",
+    "areaOfEffect": "1 人",
+    "savingThrow": "可先抵抗偶像巫术，再按附加法术另作豁免",
+    "classes": [
+      "Barbarian Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "目标写实像 ≥500 gp；装饰铜针／银针；每级 10 gp 的油",
+    "id": "dragon-109-spell-voodoo",
+    "nameZh": "偶像巫术",
+    "nameEn": "Voodoo",
+    "description": "虽列一环，至少三级野蛮人牧师才能施放。为目标制作至少 500 gp 的写实塑像，制作者须相当熟悉目标；以装饰针进行漫长仪式，再把每施法者等级价值 10 gp 的油涂于塑像和牧师。",
+    "details": [
+      {
+        "title": "Dragon #109 · 偶像巫术",
+        "html": "<p>虽列一环，至少三级野蛮人牧师才能施放。为目标制作至少 500 gp 的写实塑像，制作者须相当熟悉目标；以装饰针进行漫长仪式，再把每施法者等级价值 10 gp 的油涂于塑像和牧师。</p><p>害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。</p><p>七级／九针可治疗或造成疾病、瘫痪、失明，赐予或移除诅咒，魅惑人类；九级／十二针可治疗或造成重伤；十一级／十三针可任务术、治疗或造成致命伤；十三级／二十针可昏迷。</p><p>昏迷目标须作死亡魔法豁免，失败每日失去一点生命值且不会自行醒来。成功解除魔法、驱魔、移除诅咒、解除邪恶、有限许愿术或祈愿才能救治，否则最终死亡。其他效果同对应法术，愿意者可不抵抗最初巫术，附加效果若本有豁免仍可另作。</p>",
+        "source": {
+          "book": "Dragon #109",
+          "page": 16,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-109/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #109",
+        "page": 16,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #109"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "I 为 1 时段；II 为 2 时段",
+    "range": "16 英尺半径",
+    "duration": "I：1d4+1 回合；II：1d6+4 回合",
+    "areaOfEffect": "I：5–8 名不高于三级；II：7–12 名不高于四级",
+    "savingThrow": "各自成功无效；领袖可先行抵消",
+    "classes": [
+      "Witch"
+    ],
+    "reversible": false,
+    "materialComponent": "由主持人决定",
+    "id": "dragon-114-spell-charm-man-i-ii",
+    "nameZh": "魅惑男性 I／II（巫婆版）",
+    "nameEn": "Charm Man I-II",
+    "description": "第 114 期 NPC 巫婆法术；第一版为一环，第二版为二环，巫婆魅力须至少 11。“男性”包括人类、半人类与类人生物男性。效果按魅惑人类。",
+    "details": [
+      {
+        "title": "Dragon #114 · 魅惑男性 I／II（巫婆版）",
+        "html": "<p>第 114 期 NPC 巫婆法术；第一版为一环，第二版为二环，巫婆魅力须至少 11。“男性”包括人类、半人类与类人生物男性。效果按魅惑人类。</p><p>若群体有领袖，以其魅力加 d8，比巫婆魅力高至少六点便能先抵消。未抵消时每个目标各自对法术豁免；超过人数上限优先较低等级者。同一遭遇已被此巫婆其他行为伤害者不受影响。</p><p>至少需言语与姿势成分，材料由主持人决定。两环数版本分述于同一条目，不把第二版的限制覆盖到第一版。</p>",
+        "source": {
+          "book": "Dragon #114",
+          "page": 16,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-114/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #114",
+        "page": 16,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #114"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "6 施法时段",
+    "range": "原刊未列；对透明或反光物件",
+    "duration": "每完整 7 级 1 回合",
+    "areaOfEffect": "1 透明或反光物件，可窥视一次",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Witch"
+    ],
+    "reversible": false,
+    "materialComponent": "由主持人决定",
+    "id": "dragon-114-spell-vision-crystal",
+    "nameZh": "映像水晶（巫婆版）",
+    "nameEn": "Vision Crystal",
+    "description": "把透明或反光物件变成可使用一次的水晶球；每满七个施法者等级维持一回合，零头不计，其他有关细则参照法师四环魔镜术。",
+    "details": [
+      {
+        "title": "Dragon #114 · 映像水晶（巫婆版）",
+        "html": "<p>把透明或反光物件变成可使用一次的水晶球；每满七个施法者等级维持一回合，零头不计，其他有关细则参照法师四环魔镜术。</p><p>这类临时水晶球不算申请加入巫婆高阶秘社所需的魔法物品资格。至少需言语与姿势，材料由主持人决定。</p>",
+        "source": {
+          "book": "Dragon #114",
+          "page": 19,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-114/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #114",
+        "page": 19,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #114"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "饥饿（戏仿学派）",
+    "components": [
+      "S"
+    ],
+    "castingTime": "无",
+    "range": "0",
+    "duration": "1 周/级，结束后另有反弹",
+    "areaOfEffect": "自身",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-144-spell-affect-shape",
+    "nameZh": "改变身形（趣味／戏仿）",
+    "nameEn": "Affect Shape*",
+    "description": "戏仿法术：持续时间内每天减轻两磅，结束后不停进食，直到长回所减重量的两倍；这些反弹重量只有祈愿术才能消除。学派原文写 Starvation，是笑话的一部分。",
+    "details": [
+      {
+        "title": "Dragon #144 · 改变身形（趣味／戏仿）",
+        "html": "<p>戏仿法术：持续时间内每天减轻两磅，结束后不停进食，直到长回所减重量的两倍；这些反弹重量只有祈愿术才能消除。学派原文写 Starvation，是笑话的一部分。</p>",
+        "source": {
+          "book": "Dragon #144",
+          "page": 37,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-144/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #144",
+        "page": 37,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #144",
+      "趣味／戏仿"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "穿孔（戏仿学派）",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3 施法时段",
+    "range": "1″/级",
+    "duration": "特殊",
+    "areaOfEffect": "每级 1 平方英尺，每平方英尺 64 枚飞矢",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-144-spell-wall-of-missiles",
+    "nameZh": "飞矢之墙（趣味／戏仿）",
+    "nameEn": "Wall of Missiles*",
+    "description": "戏仿法术：生成类似重弩矢的高速飞矢墙，每枚伤害 1d6+1。致命缺陷是飞矢朝着施法者，且施法者与飞矢之间有障碍物就无法起效。原刊没有提供可安全转向敌人的用法。",
+    "details": [
+      {
+        "title": "Dragon #144 · 飞矢之墙（趣味／戏仿）",
+        "html": "<p>戏仿法术：生成类似重弩矢的高速飞矢墙，每枚伤害 1d6+1。致命缺陷是飞矢朝着施法者，且施法者与飞矢之间有障碍物就无法起效。原刊没有提供可安全转向敌人的用法。</p>",
+        "source": {
+          "book": "Dragon #144",
+          "page": 79,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-144/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #144",
+        "page": 79,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #144",
+      "趣味／戏仿"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "6 回合",
+    "range": "触碰",
+    "duration": "1 回合 + 1 轮/级",
+    "areaOfEffect": "1 根可充能魔杖、法杖或权杖",
+    "savingThrow": "无",
+    "classes": [
+      "Magic-User",
+      "Illusionist"
+    ],
+    "reversible": false,
+    "materialComponent": "一立方英寸原材质、蓝宝石、后续充能法术材料",
+    "id": "dragon-136-spell-recharge",
+    "nameZh": "充能术",
+    "nameEn": "Recharge",
+    "description": "魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。",
+    "details": [
+      {
+        "title": "Dragon #136 · 充能术",
+        "html": "<p>魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。</p><p>期间与物品功能相符的法术转成通用充能，通常恢复等于使用该功能消耗的次数，不能据此说已储存某种法术。幻术师不能充不能使用的物品；原文另要求牧师／德鲁伊也能使用的杖改用其他办法，与表中项目的实际适用范围须结合物品限制判断。</p><p>不匹配的法术、超过初始最大次数的充能，或他人向物品施法，都照常影响物品并取消充能术。强力法杖超充会如报复打击般爆炸。</p><p>每次施法时掷 d6 估计剩余容量：1–2 认为比实际少 1d4，3–4 知道准确值，5–6 认为比实际多 1d4；后者可能导致超充。</p><p>另可用有限许愿术、改变现实或祈愿加注数量不定、至多每两个施法者等级一次的充能；牧师则通过献祭、事功和祈祷请求神祇，代价由主持人依神性决定。原刊提醒完全耗尽的杖类会消解，不能等到归零才补。</p><p>充能对应表：括号内为每次恢复次数，未注明通常为一次。某些低环魔法师法术可由幻术师自身法术或七环“一环魔法师法术”施放，仍须符合使用资格。</p><table><thead><tr><th>物品</th><th>对应法术／次数</th></tr></thead><tbody><tr><td>Rod of beguiling</td><td>Charm monster；Charm person</td></tr><tr><td>Staff of command</td><td>Charm monster；Charm person；Friends（½）；Suggestion</td></tr><tr><td>Staff of power</td><td>Cone of cold；Continual darkness；Continual light；Fireball；Globe of invulnerability（2）；Hold monster（2）；Hold person；Levitate；Lightning bolt；Magic missile；Ray of enfeeblement；Shield（½）</td></tr><tr><td>Staff of striking</td><td>魔法师 Enchanted weapon：每两施法者等级一次；幻术师须 Alter reality</td></tr><tr><td>Wand of conjuration</td><td>Continual darkness（½）；Monster summoning（按法术环数恢复）；Prismatic sphere（7）；Unseen servant</td></tr><tr><td>Wand of enemy detection</td><td>Detect evil；Detect good；Detect invisibility；ESP；Know alignment</td></tr><tr><td>Wand of fear</td><td>Fear</td></tr><tr><td>Wand of fire</td><td>Burning hands；Fireball（2）；Pyrotechnics；Wall of fire（2）</td></tr><tr><td>Wand of frost</td><td>Cone of cold（2）；Ice storm；Wall of ice</td></tr><tr><td>Wand of illumination</td><td>Continual light（2）；Dancing lights；Light</td></tr><tr><td>Wand of illusion</td><td>Audible glamer；Phantasmal force</td></tr><tr><td>Wand of lightning</td><td>Shocking grasp；Lightning bolt（2）</td></tr><tr><td>Wand of magic detection</td><td>Detect magic</td></tr><tr><td>Wand of metal and mineral detection</td><td>Locate object</td></tr><tr><td>Wand of magic missiles</td><td>Magic missile</td></tr><tr><td>Wand of paralyzation</td><td>Hold monster（2）；Hold person</td></tr><tr><td>Wand of polymorphing</td><td>Polymorph other；Polymorph any object（2）</td></tr><tr><td>Wand of secret door and trap location</td><td>Locate object；幻术师只能用 Alter reality</td></tr></tbody></table>",
+        "source": {
+          "book": "Dragon #136",
+          "page": 46,
+          "section": "new-spells"
+        },
+        "href": "/books/dragon-136/new-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #136",
+        "page": 46,
+        "section": "new-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #136"
+    ]
+  }
+]

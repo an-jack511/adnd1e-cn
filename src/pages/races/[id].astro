@@ -2,7 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import RaceEntry from '../../components/RaceEntry.astro';
 import {races} from '../../data/public/races';
-export function getStaticPaths(){return races.map(entry=>({params:{id:entry.id},props:{entry}}));}
-const {entry}=Astro.props;
+import versions from '../../data/public/dragon-race-versions.json';
+export function getStaticPaths(){return [...races.map(entry=>({params:{id:entry.id},props:{entry,redirectTo:undefined}})),...Object.entries(versions).map(([id,version])=>({params:{id},props:{entry:races.find(entry=>entry.id===version.targetId)!,redirectTo:`/races/${version.targetId}/`}}))];}
+const {entry,redirectTo}=Astro.props;
+if(redirectTo)return Astro.redirect(redirectTo,301);
 ---
 <BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><RaceEntry entry={entry} /></BaseLayout>

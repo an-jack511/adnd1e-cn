@@ -1,8 +1,10 @@
+import dragonBooks from './dragon-books.json';
 import type { SourceReference } from '../../schemas';
 
 export type Book = { id: string; short: string; title: string; titleZh: string; description: string; source: SourceReference[]; chapters: { title: string; href: string }[] };
 
 export const books: Book[] = [
+  ...dragonBooks as Book[],
   { id: 'phb', short: 'PHB', title: "Players Handbook", titleZh: '玩家手册', description: '人物创建、职业、种族、装备、法术、冒险与战斗。', source: [{ book: 'PHB' }], chapters: [{ title: '人物属性', href: '/rules/ability-scores' }, { title: '施法', href: '/rules/spell-casting' }] },
   { id: 'dmg', short: 'DMG', title: "Dungeon Masters Guide", titleZh: '地下城主指南', description: '主持、遭遇、战斗、宝藏、附录与战役管理。', source: [{ book: 'DMG' }], chapters: [{ title: '随机遭遇', href: '/tables' }, { title: '战役管理', href: '/books/dmg/dmg-campaign/' }] },
   { id: 'mm', short: 'MM', title: 'Monster Manual', titleZh: '怪物图鉴', description: 'A–Z 字头的中文怪物条目、说明与书内目录。', source: [{ book: 'MM' }], chapters: [{ title: '怪物合集', href: '/monsters' }] },

@@ -3,9 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import LibraryRules from '../../components/LibraryRules.astro';
 import WeaponCombat from '../../components/WeaponCombat.astro';
-import {uaEquipmentLinks} from '../../utils/merge-ua-equipment';
+import {uaEquipmentLinks,canonicalItemId} from '../../utils/merge-ua-equipment';
 import { items } from '../../data/public/items';
-export function getStaticPaths() { return [...items.map((item) => ({ params: { id: item.id }, props: { item,redirectTo:undefined } })),...Object.entries(uaEquipmentLinks).map(([id,targetId])=>({params:{id},props:{item:items.find(item=>item.id===targetId)!,redirectTo:`/equipment/${targetId}/`}}))]; }
+import dragonVersions from '../../data/public/dragon-item-versions.json';
+export function getStaticPaths() { return [...items.map((item) => ({ params: { id: item.id }, props: { item,redirectTo:undefined } })),...Object.entries(uaEquipmentLinks).map(([id,targetId])=>({params:{id},props:{item:items.find(item=>item.id===targetId)!,redirectTo:`/equipment/${targetId}/`}})),...Object.entries(dragonVersions).map(([id,version])=>({params:{id},props:{item:items.find(item=>item.id===canonicalItemId(version.targetId))!,redirectTo:`/equipment/${canonicalItemId(version.targetId)}/`}}))]; }
 const { item,redirectTo } = Astro.props;
 if(redirectTo)return Astro.redirect(redirectTo,301);
 ---
@@ -14,5 +15,5 @@ if(redirectTo)return Astro.redirect(redirectTo,301);
   <div class="entry-meta"><div><dt>类别</dt><dd>{item.subCategory ?? item.category}</dd></div><div><dt>价格</dt><dd>{item.price}</dd></div><div><dt>负重</dt><dd>{item.weight}</dd></div>{[['经验价值',item.xpValue],['伤害 S/M',item.damageSmallMedium],['伤害 L',item.damageLarge],['长度',item.length],['所需空间',item.spaceRequired],['速度因子',item.speedFactor],['AC 调整',item.acAdjustment]].filter(([,value])=>value).map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</div>
   {!item.details?.some(detail=>detail.html.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').includes(item.description)) && <p>{item.description}</p>}
   <WeaponCombat item={item} />
-  <LibraryRules details={item.details} /><SourceList sources={item.source} /><p><a href={item.category === '魔法物品' ? '/equipment/magic-items/' : '/equipment/'}>← 返回{item.category === '魔法物品' ? '魔法物品' : '装备与物品'}</a></p>
+  <LibraryRules details={item.details} /><SourceList sources={item.source} details={item.details} /><p><a href={item.category === '魔法物品' ? '/equipment/magic-items/' : '/equipment/'}>← 返回{item.category === '魔法物品' ? '魔法物品' : '装备与物品'}</a></p>
 </article></BaseLayout>

@@ -1,12 +1,13 @@
 ---
+import {sourceGroup} from '../../utils/source-group';
 import {nameAliases} from '../../utils/terminology';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EntryTable from '../../components/EntryTable.astro';
 import FilterChoices from '../../components/FilterChoices.astro';
 import { monsters } from '../../data/public/monsters';
 import { monsterSize, monsterSizeLabel, monsterSizeOptions } from '../../utils/monster-size';
-const sources = [...new Set(monsters.flatMap((monster) => monster.source.map((source) => source.book)))].sort();
-const records = monsters.map(monster=>({search:`${monster.nameZh} ${monster.nameEn} ${nameAliases('monster',monster.nameEn).join(' ')} ${monster.description} ${(monster.details??[]).map(detail=>detail.html.replace(/<[^>]+>/g,' ')).join(' ')}`.toLowerCase(),hd:monster.hitDice.toLowerCase(),ac:monster.armorClass,alignment:monster.alignment.toLowerCase(),environment:monster.environment.toLowerCase(),facets:{source:monster.source.map(source=>source.book),size:[monsterSize(monster.size)]}}));
+const sources = [...new Set(monsters.flatMap((monster) => monster.source.map((source) => sourceGroup(source.book))))].sort();
+const records = monsters.map(monster=>({search:`${monster.nameZh} ${monster.nameEn} ${nameAliases('monster',monster.nameEn).join(' ')} ${monster.description} ${(monster.details??[]).map(detail=>detail.html.replace(/<[^>]+>/g,' ')).join(' ')}`.toLowerCase(),hd:monster.hitDice.toLowerCase(),ac:monster.armorClass,alignment:monster.alignment.toLowerCase(),environment:monster.environment.toLowerCase(),facets:{source:monster.source.map(source=>sourceGroup(source.book)),size:[monsterSize(monster.size)]}}));
 const rows = monsters.map((monster) => [monster.nameZh, monster.nameEn, monster.source.map((source) => source.book).join('、'), monster.hitDice, monster.armorClassText ?? (monster.armorClass === null ? '未知' : String(monster.armorClass)), monster.alignment, monsterSizeLabel(monster.size), monster.environment, monster.movement, monster.magicResistance, monster.psionics]);
 const links = monsters.map((monster) => [`/monsters/${monster.id}`, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]);
 ---

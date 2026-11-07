@@ -1,5 +1,6 @@
 import {bindFilterChoices,checkedValues,matchesChoices} from './filter-choices';
 import {priceInGold} from './item-price';
+import dragonItemVersions from '../data/public/dragon-item-versions.json';
 export function initLibraryBrowser(){
  const root=document.querySelector<HTMLElement>('.library-catalog');if(!root)return;
  const frame=root.querySelector<HTMLIFrameElement>('#library-detail-frame')!,full=root.querySelector<HTMLAnchorElement>('#library-full-entry')!,title=root.querySelector('#library-current-title')!;
@@ -32,7 +33,10 @@ export function initLibraryBrowser(){
  }
  bindFilterChoices(applyFilters);inputs.forEach(input=>input.addEventListener('input',applyFilters));applyFilters();
  for(const {row} of rows)row.querySelector('[data-library-entry]')!.addEventListener('click',event=>{const click=event as MouseEvent;if(click.ctrlKey||click.metaKey||click.shiftKey||click.altKey)return;event.preventDefault();preview(row);const url=new URL(location.href);url.searchParams.set('entry',row.dataset.libraryId!);history.replaceState({},'',url);});
- const initial=rows.find(({row})=>row.dataset.libraryId===params.get('entry'))??rows.find(({row})=>!row.hidden);if(initial)preview(initial.row);
+ const requestedId=params.get('entry')??'';
+ const canonicalId=(dragonItemVersions as Record<string,{targetId:string}>)[requestedId]?.targetId??requestedId;
+ const initial=rows.find(({row})=>row.dataset.libraryId===canonicalId)??rows.find(({row})=>!row.hidden);if(initial)preview(initial.row);
+ if(canonicalId!==requestedId){const url=new URL(location.href);url.searchParams.set('entry',canonicalId);history.replaceState({},'',url);}
  if(picker){
   document.documentElement.classList.add('library-picker-mode');root.querySelectorAll<HTMLElement>('.library-check,.library-selection').forEach(el=>el.hidden=false);
   const count=()=>{root.querySelector('#library-selected-count')!.textContent=`已选 ${selected.size} 件`;root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>input.checked=selected.has(input.value));};

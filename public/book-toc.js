@@ -2,7 +2,8 @@
   const article = document.querySelector('.character-library') ? null : document.querySelector('.book-article, .chapter-reading, .library-entry');
   // Keep English as a subtitle without changing heading anchors or wording.
   for (const heading of document.querySelectorAll('main h1,main h2,main h3,main h4,main h5,main h6')) {
-    if (heading.closest('.ref2-workspace') || heading.querySelector('small,.heading-english,a,input,button')) continue;
+    // PHB spell names use emphasis followed by a school/reversal label. Preserve that layout.
+    if (heading.closest('.ref2-workspace') || heading.querySelector('em,small,.heading-english,a,input,button')) continue;
     const text=heading.textContent.trim();
     const match=text.match(/^(.+?[\u3400-\u9fff].*?)\s+(?:·\s*)?([A-Z][^\u3400-\u9fff]+)$/);
     if (!match) continue;

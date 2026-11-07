@@ -1,0 +1,47 @@
+# 奥术治疗：代谢与吸血
+
+Arcane Lore · Dragon #148
+
+[原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine148.pdf)
+
+## *加速代谢 Accelerated Metabolism*（变化）
+
+Bruce Kvam · 第 37 页
+
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>接触<br>
+<strong>持续时间 Duration：</strong>1 回合/级 + 1d6 回合<br>
+<strong>影响范围 Area of Effect：</strong>一个生物<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 segments<br>
+<strong>豁免检定 Saving Throw：</strong>特殊：不愿意的目标可豁免
+</div>
+
+材料：一根两端点燃的蜡烛。
+
+让目标生命过程按每回合相当于一天的速度进行，并不会加快移动或战斗。每回合须休息 3 轮，其余 7 轮吃喝一天的补给；不足则饥渴，休息不足则疲劳并不能恢复生命。前七回合每回合恢复 1 HP，扣除低体质减值；此后按每七回合的恢复另计体质加值，28 回合可完全恢复。
+
+每过一回合却会衰老一周。目标不愿意时可以豁免；头栏虽写“无”，此处保留正文的特殊规定。蜡烛须两端同时点燃并全程燃烧，熄灭则提前终止，正常完成时烧尽。
+
+## *吸血匕首 Vampire Dagger*（死灵）
+
+Bruce Kvam · 第 37、38 页
+
+<div class="spell-meta">
+<strong>等级 Level：</strong>6<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>1 轮/级<br>
+<strong>影响范围 Area of Effect：</strong>施法者及特制匕首<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>6 segments<br>
+<strong>豁免检定 Saving Throw：</strong>对死亡魔法豁免；特殊
+</div>
+
+材料：至少 2,000 gp 的特制血槽匕首（不消耗），以及一只吸血鬼爪（消耗）。
+
+须用特制非魔法匕首正常攻击：命中造成通常匕首伤害（S/M 为 1d4，L 为 1d3，加力量修正），另加施法者每两级 1 点伤害；只有额外伤害能转为施法者的治疗，不能超过其正常生命上限，也不能超过目标扣除匕首伤害后剩余的生命。
+
+目标对死亡魔法豁免成功则不转移治疗；原刊例示仍计命中的伤害与等级额外伤害。豁免自然 20 时，等级额外伤害改由施法者承受。只能被魔法武器伤害的生物（不死生物例外）及无血生物不适用。尝试吸取不死者时，每次攻击施法者须对死亡魔法豁免，失败即死，不死者只受匕首及力量伤害。
+
+匕首须由掺吸血鬼碎骨的银钢合金打造，内有贯通尖端至柄的血槽，至少价值 2,000 gp；血液须沿槽接触施法者手部裸肤，匕首不消耗。吸血鬼爪在施法时消失。本术不保护施法者免受目标血液的特殊危害。

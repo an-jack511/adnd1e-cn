@@ -101,6 +101,7 @@ export type Monster = z.infer<typeof MonsterSchema>;
 export type Item = z.infer<typeof ItemSchema>;
 
 export type ClassEntry = {
+  aliases?: string[];
   details?: LibraryDetail[];
   referenceOnly?: boolean;
   id: string; nameZh: string; nameEn: string; primeRequisite: string; hitDie: string;
@@ -111,6 +112,7 @@ export type ClassEntry = {
 };
 
 export type RaceEntry = {
+  aliases?: string[];
   details?: LibraryDetail[];
   referenceOnly?: boolean;
   id: string; nameZh: string; nameEn: string; modifiers: string; restrictions: string;

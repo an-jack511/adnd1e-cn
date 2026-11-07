@@ -1,0 +1,25 @@
+# 保温祷术
+
+Higher Aspirations · Dragon #120
+
+[原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine120.pdf)
+
+## *保温祷术 Temperature*（变化）
+
+Mark L. Palmer · 第 38、40 页
+
+<div class="spell-meta">
+<strong>等级 Level：</strong>0<br>
+<strong>距离 Range：</strong>0<br>
+<strong>持续时间 Duration：</strong>1 回合<br>
+<strong>影响范围 Area of Effect：</strong>1 人<br>
+<strong>成分 Components：</strong>V、S、M<br>
+<strong>施法时间 Casting Time：</strong>3 施法时段<br>
+<strong>豁免检定 Saving Throw：</strong>无
+</div>
+
+材料：槲寄生（本篇通则）
+
+使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。
+
+此篇采用第 108 期零环祷术思路，两个祷术替换一个一环准备位；材料通则为槲寄生，未给此术另列材料。

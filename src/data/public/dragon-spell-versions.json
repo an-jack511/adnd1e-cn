@@ -1,0 +1,153 @@
+{
+  "dragon-059-spell-dry": {
+    "targetId": "ua-magic-user-0-dry"
+  },
+  "dragon-059-spell-chill": {
+    "targetId": "ua-magic-user-0-chill"
+  },
+  "dragon-059-spell-freshen": {
+    "targetId": "ua-magic-user-0-freshen"
+  },
+  "dragon-059-spell-salt": {
+    "targetId": "ua-magic-user-0-salt"
+  },
+  "dragon-059-spell-warm": {
+    "targetId": "ua-magic-user-0-warm"
+  },
+  "dragon-059-spell-wrap": {
+    "targetId": "ua-magic-user-0-wrap"
+  },
+  "dragon-059-spell-dirty": {
+    "targetId": "ua-magic-user-0-dirty"
+  },
+  "dragon-059-spell-tangle": {
+    "targetId": "ua-magic-user-0-tangle"
+  },
+  "dragon-059-spell-tarnish": {
+    "targetId": "ua-magic-user-0-tarnish"
+  },
+  "dragon-059-spell-untie": {
+    "targetId": "ua-magic-user-0-untie"
+  },
+  "dragon-060-spell-change": {
+    "targetId": "ua-magic-user-0-change"
+  },
+  "dragon-060-spell-nod": {
+    "targetId": "ua-magic-user-0-nod"
+  },
+  "dragon-060-spell-unlock": {
+    "targetId": "ua-magic-user-0-unlock"
+  },
+  "dragon-060-spell-tap": {
+    "targetId": "ua-magic-user-0-tap"
+  },
+  "dragon-061-spell-noise": {
+    "targetId": "ua-illusionist-0-noise"
+  },
+  "dragon-066-spell-advanced-illusion": {
+    "targetId": "ua-illusionist-5-advanced-illusion"
+  },
+  "dragon-066-spell-dispel-magic-illusionist": {
+    "targetId": "ua-illusionist-4-dispel-magic"
+  },
+  "dragon-066-spell-vacancy": {
+    "targetId": "ua-illusionist-4-vacancy"
+  },
+  "dragon-066-spell-wraithform": {
+    "targetId": "ua-illusionist-3-wraithform"
+  },
+  "dragon-066-spell-chromatic-orb": {
+    "targetId": "ua-illusionist-1-chromatic-orb",
+    "note": "Dragon #66 八级可用石化球、九级可用致死球；UA 分别要求十级、十二级。杂志七级蓝宝石球未另列普通伤害，UA 列 2d4；杂志火焰点燃半径一英尺，UA 为 1″。"
+  },
+  "dragon-067-spell-taunt": {
+    "targetId": "ua-magic-user-1-taunt"
+  },
+  "dragon-067-spell-hideous-laughter": {
+    "targetId": "ua-magic-user-2-tasha-s-uncontrollable-hideous-laughter"
+  },
+  "dragon-067-spell-melf-s-acid-arrow": {
+    "targetId": "ua-magic-user-2-melf-s-acid-arrow",
+    "note": "Dragon #67 的后续酸伤分级语句与四至六级例子不一致，疑点保留在杂志说明中；按该版本使用时须先裁定，不能混用书籍参数。"
+  },
+  "dragon-067-spell-material": {
+    "targetId": "ua-magic-user-3-material"
+  },
+  "dragon-067-spell-melf-s-minute-meteors": {
+    "targetId": "ua-magic-user-3-melf-s-minute-meteors",
+    "note": "Dragon #67 列施法五时段，却称施法当轮第二时段起射，时序疑点单独保留；法术基本参数继续采用 UA。"
+  },
+  "dragon-067-spell-dispel-illusion": {
+    "targetId": "ua-magic-user-4-dispel-illusion"
+  },
+  "dragon-067-spell-ultravision": {
+    "targetId": "ua-magic-user-4-ultravision"
+  },
+  "dragon-068-spell-dismissal": {
+    "targetId": "ua-magic-user-5-dismissal",
+    "note": "UA 补充只适用于主物质位面的施法者，并排除原生主物质位面者与有其血统的生物；本期杂志未列这些限制。"
+  },
+  "dragon-068-spell-chain-lightning": {
+    "targetId": "ua-magic-user-6-chain-lightning"
+  },
+  "dragon-068-spell-energy-drain": {
+    "targetId": "ua-magic-user-9-energy-drain"
+  },
+  "dragon-068-spell-teleport-without-error": {
+    "targetId": "ua-magic-user-7-teleport-without-error"
+  },
+  "dragon-068-spell-volley": {
+    "targetId": "ua-magic-user-7-volley"
+  },
+  "dragon-068-spell-ceremony-bless-newborn": {
+    "targetId": "ua-cleric-1-ceremony"
+  },
+  "dragon-068-spell-ceremony-desecrate-ground": {
+    "targetId": "ua-cleric-1-ceremony"
+  },
+  "dragon-058-spell-endure-cold-heat": {
+    "targetId": "ua-cleric-1-endure-cold-endure-heat"
+  },
+  "dragon-058-spell-dust-devil": {
+    "targetId": "ua-cleric-2-dust-devil",
+    "note": "Dragon #58 为牧师三环且没有有效伤害攻击；UA 为二环，每轮一击 1d4。杂志尘云内失明至离开，UA 离开后再持续一轮。"
+  },
+  "dragon-058-spell-meld-into-stone": {
+    "targetId": "ua-cleric-3-meld-into-stone",
+    "note": "Dragon #58 为四环，到期弹出及化石为肉伤害为 8d4；UA 为三环，改成 4d8。杂志化石为泥直接永久致死，UA 允许法术豁免；杂志另列挖掘术造成 8d8 并检定死亡豁免。"
+  },
+  "dragon-058-spell-ceremony": {
+    "targetId": "ua-cleric-1-ceremony",
+    "note": "Dragon #58 的用途随一至五环分别准备；UA 全列作一环法术，以施法者等级限制用途。杂志葬礼只给予掘墓后 50% 神祇报复机会，UA 直接给予遗体一周防护邪恶与掘墓者恐惧豁免；UA 还具体补充成年礼与誓约等效力。"
+  },
+  "dragon-071-spell-reflecting-pool": {
+    "targetId": "ua-druid-2-reflecting-pool"
+  },
+  "dragon-090-spell-read-illusionist-magic": {
+    "targetId": "ua-illusionist-1-read-illusionist-magic"
+  },
+  "dragon-142-spell-ceremony-consecrate-temple": {
+    "targetId": "ua-cleric-1-ceremony"
+  },
+  "dragon-108-spell-ceremony-oath": {
+    "targetId": "ua-cleric-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-witness": {
+    "targetId": "ua-druid-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-spring": {
+    "targetId": "ua-druid-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-summer": {
+    "targetId": "ua-druid-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-autumn": {
+    "targetId": "ua-druid-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-winter": {
+    "targetId": "ua-druid-1-ceremony"
+  },
+  "dragon-122-spell-ceremony-anointing": {
+    "targetId": "ua-druid-1-ceremony"
+  }
+}

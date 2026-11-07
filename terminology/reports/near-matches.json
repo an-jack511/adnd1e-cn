@@ -14,6 +14,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:arrow of clairvoyance",
+    "en": "Arrow of Clairvoyance",
+    "currentZh": "遥视箭",
+    "candidates": [
+      {
+        "en": "Potion of Clairvoyance",
+        "zh": "鹰眼术药水",
+        "similarity": 0.791,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:arrow of direction",
     "en": "Arrow of Direction",
     "currentZh": "定向箭",
@@ -220,6 +234,20 @@
         "en": "Bracers of Defense",
         "zh": "防御护腕",
         "similarity": 0.818,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:bracers of deflection",
+    "en": "Bracers of Deflection",
+    "currentZh": "偏斜护腕",
+    "candidates": [
+      {
+        "en": "Bracers of Defense",
+        "zh": "防御护腕",
+        "similarity": 0.821,
         "url": "https://5e.kiwee.top/data/items.json"
       }
     ],
@@ -802,6 +830,34 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:ring of bladeturning",
+    "en": "Ring of Bladeturning",
+    "currentZh": "偏刃戒指",
+    "candidates": [
+      {
+        "en": "Ring of Spell Turning",
+        "zh": "法术反转戒指",
+        "similarity": 0.78,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of command",
+    "en": "Ring of Command",
+    "currentZh": "命令戒指",
+    "candidates": [
+      {
+        "en": "Ring of Candor",
+        "zh": "坦诚戒指",
+        "similarity": 0.828,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:ring of delusion",
     "en": "Ring of Delusion",
     "currentZh": "妄想戒指",
@@ -810,6 +866,20 @@
         "en": "Ring of Evasion",
         "zh": "反射闪避戒指",
         "similarity": 0.839,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of distraction",
+    "en": "Ring of Distraction",
+    "currentZh": "分心戒指",
+    "candidates": [
+      {
+        "en": "Ring of Free Action",
+        "zh": "自由行动戒指",
+        "similarity": 0.789,
         "url": "https://5e.kiwee.top/data/items.json"
       }
     ],
@@ -842,6 +912,76 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:ring of energy",
+    "en": "Ring of Energy",
+    "currentZh": "能量戒指",
+    "candidates": [
+      {
+        "en": "Ring of Winter",
+        "zh": "凛冬戒指",
+        "similarity": 0.786,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of fashion",
+    "en": "Ring of Fashion",
+    "currentZh": "时装戒指",
+    "candidates": [
+      {
+        "en": "Ring of Evasion",
+        "zh": "反射闪避戒指",
+        "similarity": 0.867,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of fire starting",
+    "en": "Ring of Fire Starting",
+    "currentZh": "引火戒指",
+    "candidates": [
+      {
+        "en": "Ring of Free Action",
+        "zh": "自由行动戒指",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of gaseous form",
+    "en": "Ring of Gaseous Form",
+    "currentZh": "气化戒指",
+    "candidates": [
+      {
+        "en": "Potion of Gaseous Form",
+        "zh": "气化形体药水",
+        "similarity": 0.857,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of health",
+    "en": "Ring of Health",
+    "currentZh": "健康戒指",
+    "candidates": [
+      {
+        "en": "Ring of Warmth",
+        "zh": "温暖戒指",
+        "similarity": 0.786,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:ring of human influence",
     "en": "Ring of Human Influence",
     "currentZh": "影响人类戒指",
@@ -856,6 +996,80 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:ring of invisibility negation",
+    "en": "Ring of Invisibility Negation",
+    "currentZh": "破隐戒指",
+    "candidates": [
+      {
+        "en": "Ring of Invisibility",
+        "zh": "隐身戒指",
+        "similarity": 0.816,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of jolting",
+    "en": "Ring of Jolting",
+    "currentZh": "震慑戒指",
+    "candidates": [
+      {
+        "en": "Ring of Collecting",
+        "zh": "收集戒指",
+        "similarity": 0.848,
+        "url": "https://5e.kiwee.top/data/items.json"
+      },
+      {
+        "en": "Ring of Jumping",
+        "zh": "跳跃戒指",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of magic resistance",
+    "en": "Ring of Magic Resistance",
+    "currentZh": "魔法抗力戒指",
+    "candidates": [
+      {
+        "en": "Ring of Acid Resistance",
+        "zh": "强酸抗性戒指",
+        "similarity": 0.894,
+        "url": "https://5e.kiwee.top/data/items.json"
+      },
+      {
+        "en": "Ring of Fire Resistance",
+        "zh": "火焰抗性戒指",
+        "similarity": 0.851,
+        "url": "https://5e.kiwee.top/data/items.json"
+      },
+      {
+        "en": "Ring of Cold Resistance",
+        "zh": "寒冷抗性戒指",
+        "similarity": 0.851,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of marking",
+    "en": "Ring of Marking",
+    "currentZh": "绿痕戒指",
+    "candidates": [
+      {
+        "en": "Ring of Jumping",
+        "zh": "跳跃戒指",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:ring of multiple wishes",
     "en": "Ring of Multiple Wishes",
     "currentZh": "多重祈愿戒指",
@@ -864,6 +1078,130 @@
         "en": "Ring of Three Wishes",
         "zh": "三愿戒指",
         "similarity": 0.791,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of spell holding",
+    "en": "Ring of Spell Holding",
+    "currentZh": "持咒戒指",
+    "candidates": [
+      {
+        "en": "Ring of Spell Storing",
+        "zh": "储法戒指",
+        "similarity": 0.857,
+        "url": "https://5e.kiwee.top/data/items.json"
+      },
+      {
+        "en": "Ring of Spell Turning",
+        "zh": "法术反转戒指",
+        "similarity": 0.81,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of teleportation",
+    "en": "Ring of Teleportation",
+    "currentZh": "传送戒指",
+    "candidates": [
+      {
+        "en": "Conch of Teleportation",
+        "zh": "传送海螺",
+        "similarity": 0.837,
+        "url": "https://5e.kiwee.top/data/items.json"
+      },
+      {
+        "en": "Helm of Teleportation",
+        "zh": "传送头盔",
+        "similarity": 0.81,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of the bards",
+    "en": "Ring of the Bards",
+    "currentZh": "吟游诗人戒指",
+    "candidates": [
+      {
+        "en": "Ring of the Ram",
+        "zh": "公羊戒指",
+        "similarity": 0.812,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of the drow",
+    "en": "Ring of the Drow",
+    "currentZh": "卓尔戒指",
+    "candidates": [
+      {
+        "en": "Ring of the Ram",
+        "zh": "公羊戒指",
+        "similarity": 0.839,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of the eagle",
+    "en": "Ring of the Eagle",
+    "currentZh": "巨鹰戒指",
+    "candidates": [
+      {
+        "en": "Ring of the Ram",
+        "zh": "公羊戒指",
+        "similarity": 0.812,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of the grasshopper",
+    "en": "Ring of the Grasshopper",
+    "currentZh": "蚱蜢戒指",
+    "candidates": [
+      {
+        "en": "Ring of the Orator",
+        "zh": "演说家之戒",
+        "similarity": 0.78,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of truth",
+    "en": "Ring of Truth",
+    "currentZh": "真言戒指",
+    "candidates": [
+      {
+        "en": "Ring of Warmth",
+        "zh": "温暖戒指",
+        "similarity": 0.815,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:ring of vapors",
+    "en": "Ring of Vapors",
+    "currentZh": "气雾戒指",
+    "candidates": [
+      {
+        "en": "Ring of Candor",
+        "zh": "坦诚戒指",
+        "similarity": 0.786,
         "url": "https://5e.kiwee.top/data/items.json"
       }
     ],
@@ -1446,6 +1784,34 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:wand of darkness",
+    "en": "Wand of Darkness",
+    "currentZh": "黑暗魔杖",
+    "candidates": [
+      {
+        "en": "Wand of Freshness",
+        "zh": "新鲜魔杖",
+        "similarity": 0.788,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:wand of displacement",
+    "en": "Wand of Displacement",
+    "currentZh": "移物魔杖",
+    "candidates": [
+      {
+        "en": "Cloak of Displacement",
+        "zh": "移位斗篷",
+        "similarity": 0.829,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:wand of fire",
     "en": "Wand of Fire",
     "currentZh": "火焰魔杖",
@@ -1548,6 +1914,20 @@
         "en": "Wand of Polymorph",
         "zh": "变形魔杖",
         "similarity": 0.919,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:wand of rust",
+    "en": "Wand of Rust",
+    "currentZh": "锈蚀魔杖",
+    "candidates": [
+      {
+        "en": "Wand of Orcus",
+        "zh": "奥喀斯之杖",
+        "similarity": 0.88,
         "url": "https://5e.kiwee.top/data/items.json"
       }
     ],
@@ -2516,6 +2896,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "race:half-ogre",
+    "en": "Half-Ogre",
+    "currentZh": "半食人魔",
+    "candidates": [
+      {
+        "en": "Half-Orc",
+        "zh": "半兽人",
+        "similarity": 0.824,
+        "url": "https://5e.kiwee.top/data/races.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "spell:agannazar's scorcher",
     "en": "Agannazar’s Scorcher",
     "currentZh": "阿甘纳萨的灼流",
@@ -2640,6 +3034,20 @@
         "en": "Greater Invisibility",
         "zh": "高等隐形术",
         "similarity": 0.821,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "spell:disguise scent",
+    "en": "Disguise Scent",
+    "currentZh": "遮掩气味",
+    "candidates": [
+      {
+        "en": "Disguise Self",
+        "zh": "易容术",
+        "similarity": 0.815,
         "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
       }
     ],
@@ -2923,6 +3331,20 @@
         "zh": "净化饮食",
         "similarity": 0.9,
         "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "spell:regenerate critical wounds",
+    "en": "Regenerate Critical Wounds",
+    "currentZh": "致命伤缓愈",
+    "candidates": [
+      {
+        "en": "Cure Critical Wounds",
+        "zh": "治疗致命伤",
+        "similarity": 0.783,
+        "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"

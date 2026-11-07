@@ -2,7 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ClassEntry from '../../components/ClassEntry.astro';
 import {classes} from '../../data/public/classes';
-export function getStaticPaths(){return classes.map(entry=>({params:{id:entry.id},props:{entry}}));}
-const {entry}=Astro.props;
+import versions from '../../data/public/dragon-class-versions.json';
+export function getStaticPaths(){return [...classes.map(entry=>({params:{id:entry.id},props:{entry,redirectTo:undefined}})),...Object.entries(versions).map(([id,version])=>({params:{id},props:{entry:classes.find(entry=>entry.id===version.targetId)!,redirectTo:`/classes/${version.targetId}/`}}))];}
+const {entry,redirectTo}=Astro.props;
+if(redirectTo)return Astro.redirect(redirectTo,301);
 ---
 <BaseLayout title={`${entry.nameZh} ${entry.nameEn}`}><ClassEntry entry={entry} /></BaseLayout>

@@ -1,3 +1,4 @@
+import dragon from './dragon-monsters.json';
 import regional from './regional-monsters.json';
 import type { Monster } from '../../schemas';
 import imported from './monsters-imported.json';
@@ -42,4 +43,4 @@ const legacyMonsters: Monster[] = [
 ];
 
 const regionalMonsters=regional as Monster[];const regionalIds=new Set(regionalMonsters.map(monster=>monster.id));
-export const monsters:Monster[]=[...legacyMonsters.filter(monster=>!regionalIds.has(monster.id)),...regionalMonsters];
+export const monsters:Monster[]=[...legacyMonsters.filter(monster=>!regionalIds.has(monster.id)),...regionalMonsters,...dragon as Monster[]];

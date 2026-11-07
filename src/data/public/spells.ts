@@ -1,4 +1,7 @@
 import regional from './regional-spells.json';
+import dragon from './dragon-spells.json';
+import dragonVersions from './dragon-spell-versions.json';
+import {mergeDragonSpells} from '../../utils/merge-dragon-spells';
 import type { Spell } from '../../schemas';
 import imported from './spells-imported.json';
 import uaImported from './ua-spells-imported.json';
@@ -25,4 +28,4 @@ const importedIds = new Set(importedSpells.map((spell) => spell.id));
 const legacySpells: Spell[] = [...importedSpells, ...(uaImported as Spell[]), ...oaSpells, ...ref5Spells, ...dlaSpells, ...ghaSpells, ...examples.filter((spell) => !importedIds.has(spell.id))];
 
 const regionalSpells=regional as Spell[];const regionalIds=new Set(regionalSpells.map(spell=>spell.id));
-export const spells:Spell[]=[...legacySpells.filter(spell=>!regionalIds.has(spell.id)),...regionalSpells];
+export const spells:Spell[]=mergeDragonSpells([...legacySpells.filter(spell=>!regionalIds.has(spell.id)),...regionalSpells],dragon as Spell[],dragonVersions);

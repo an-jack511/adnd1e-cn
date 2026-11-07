@@ -36,7 +36,7 @@ const reading=(readings as Record<string,{html:string;headings:{id:string;title:
     {reading ? <MonsterReading reading={reading} /> : monster.details?.length ? <LibraryRules prefix={monster.id} details={monster.details} /> : <p>{monster.description}</p>}
     {monster.illustration && <p><a href={`/illustrations/monsters/${monster.id}`}>插图：查看怪物插图</a></p>}
     {!reading && !monster.details?.length && <PublishedLinks kind="monster" id={monster.id} />}
-    <SourceList sources={monster.source} />
+    <SourceList sources={monster.source} details={monster.details} />
     <p><a href="/monsters">← 返回怪物合集</a></p>
   </article>
 </BaseLayout>
