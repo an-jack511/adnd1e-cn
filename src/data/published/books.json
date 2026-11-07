@@ -12875,8 +12875,17 @@
     "title": "修院牧师",
     "titleEn": "Cloistered Cleric, The",
     "group": "Dragon",
-    "excerpt": "Len Lakofka 的非冒险 NPC 职业，原文明确不是官方规则增补。通常为人类，偶有半精灵或半兽人；STR、DEX、CON、CHA 为 3–18，INT 6–18，WIS 9–18。使用法师战斗表，牧师豁免统一 −2，原本不能驱散不死生物，须借专用法术。",
+    "excerpt": "修院牧师是非冒险NPC职业，通常为人类，偶有半精灵或半兽人。属性依下表生成；等级受INT与WIS共同限制，没有经验值区间表。三级最低INT原表为6。",
     "sourceFile": "manuscript/dragon/68/topics/cloistered-cleric.md"
+  },
+  {
+    "book": "dragon-68",
+    "slug": "cloistered-spells",
+    "title": "修院牧师法术",
+    "titleEn": "Cloistered Cleric, The",
+    "group": "Dragon",
+    "excerpt": "仅对出生十四天以内婴儿生效：对附身豁免加 2，并得到半效力抗火与抗寒，持续六个月。超过两周无效；通常收费 1d4+1 gp。此为修院牧师法术表中的二环版本，普通牧师使用须遵守本文借阅仪式书的规则。",
+    "sourceFile": "manuscript/dragon/68/topics/cloistered-spells.md"
   },
   {
     "book": "dragon-68",

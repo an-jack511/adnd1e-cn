@@ -1851,16 +1851,16 @@
         "source": {
           "book": "Dragon #68",
           "page": 31,
-          "section": "new-spells"
+          "section": "cloistered-spells"
         },
-        "href": "/books/dragon-68/new-spells/"
+        "href": "/books/dragon-68/cloistered-spells/"
       }
     ],
     "source": [
       {
         "book": "Dragon #68",
         "page": 31,
-        "section": "new-spells"
+        "section": "cloistered-spells"
       }
     ],
     "tags": [
@@ -1898,16 +1898,16 @@
         "source": {
           "book": "Dragon #68",
           "page": 32,
-          "section": "new-spells"
+          "section": "cloistered-spells"
         },
-        "href": "/books/dragon-68/new-spells/"
+        "href": "/books/dragon-68/cloistered-spells/"
       }
     ],
     "source": [
       {
         "book": "Dragon #68",
         "page": 32,
-        "section": "new-spells"
+        "section": "cloistered-spells"
       }
     ],
     "tags": [
@@ -1945,16 +1945,16 @@
         "source": {
           "book": "Dragon #68",
           "page": 32,
-          "section": "new-spells"
+          "section": "cloistered-spells"
         },
-        "href": "/books/dragon-68/new-spells/"
+        "href": "/books/dragon-68/cloistered-spells/"
       }
     ],
     "source": [
       {
         "book": "Dragon #68",
         "page": 32,
-        "section": "new-spells"
+        "section": "cloistered-spells"
       }
     ],
     "tags": [
@@ -1992,16 +1992,16 @@
         "source": {
           "book": "Dragon #68",
           "page": 32,
-          "section": "new-spells"
+          "section": "cloistered-spells"
         },
-        "href": "/books/dragon-68/new-spells/"
+        "href": "/books/dragon-68/cloistered-spells/"
       }
     ],
     "source": [
       {
         "book": "Dragon #68",
         "page": 32,
-        "section": "new-spells"
+        "section": "cloistered-spells"
       }
     ],
     "tags": [
@@ -2039,16 +2039,16 @@
         "source": {
           "book": "Dragon #68",
           "page": 33,
-          "section": "new-spells"
+          "section": "cloistered-spells"
         },
-        "href": "/books/dragon-68/new-spells/"
+        "href": "/books/dragon-68/cloistered-spells/"
       }
     ],
     "source": [
       {
         "book": "Dragon #68",
         "page": 33,
-        "section": "new-spells"
+        "section": "cloistered-spells"
       }
     ],
     "tags": [
@@ -4468,6 +4468,286 @@
       "Dragon 杂志",
       "杂志版",
       "Dragon #136"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1 施法时段",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "施法者手掌",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-068-spell-hand-fire",
+    "nameZh": "掌火术",
+    "nameEn": "Hand Fire",
+    "description": "手掌产生亮度相当于火把的冷焰，不伤人，也不能点燃油或其他可燃物。风不能吹熄，魔法黑暗会立即解除。",
+    "details": [
+      {
+        "title": "Dragon #68 · 掌火术",
+        "html": "<p>手掌产生亮度相当于火把的冷焰，不伤人，也不能点燃油或其他可燃物。风不能吹熄，魔法黑暗会立即解除。</p><p>冷焰持续至施法者施放其他法术，或用该手进行其他操作。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 31,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 31,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "触碰",
+    "duration": "永久（连续书写至多8小时）",
+    "areaOfEffect": "所抄写或撰写的文本、地图",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "墨水、羽毛笔、羊皮纸书页或卷轴，必要时还有被抄写的原件",
+    "id": "dragon-068-spell-scribe",
+    "nameZh": "抄写术",
+    "nameEn": "Scribe",
+    "description": "提高书写品质，速度为通常两倍，抄写文本或地图的失误机会减少25%；也可用于书写魔法卷轴。",
+    "details": [
+      {
+        "title": "Dragon #68 · 抄写术",
+        "html": "<p>提高书写品质，速度为通常两倍，抄写文本或地图的失误机会减少25%；也可用于书写魔法卷轴。</p><p>持续至本次连续抄写或撰写结束，最长八小时；任何中断都会终止效果。牧师至少七级才能抄写或制作魔法卷轴。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 31,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 31,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "自身",
+    "duration": "每级3回合",
+    "areaOfEffect": "一份文本或卷轴",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "原刊未具体列出",
+    "id": "dragon-068-spell-translate",
+    "nameZh": "译读术",
+    "nameEn": "Translate",
+    "description": "读懂以外国语、阵营语或盗贼黑话书写的普通文本、地图及卷轴。不能阅读魔法，也不能破译密码。",
+    "details": [
+      {
+        "title": "Dragon #68 · 译读术",
+        "html": "<p>读懂以外国语、阵营语或盗贼黑话书写的普通文本、地图及卷轴。不能阅读魔法，也不能破译密码。</p><p>可与抄写术配合写出译文；含法术、药水配方或魔法粉末配方的卷轴不能借此翻译。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "预言",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "6 轮",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "一件物品；正文也允许对人施放",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": true,
+    "materialComponent": "",
+    "id": "dragon-068-spell-detect-curse",
+    "nameZh": "侦测诅咒",
+    "nameEn": "Detect Curse",
+    "description": "触碰物品后，若其豁免失败，即可判断是否带有诅咒；触碰也可能触发该诅咒。诅咒卷轴须打开，但无须阅读；神器完全不受影响。",
+    "details": [
+      {
+        "title": "Dragon #68 · 侦测诅咒",
+        "html": "<p>触碰物品后，若其豁免失败，即可判断是否带有诅咒；触碰也可能触发该诅咒。诅咒卷轴须打开，但无须阅读；神器完全不受影响。</p><p>物品的基本豁免目标数为13，强大诅咒物可低至5，由主持人逐件决定。用于人时，受术者按通常对法术豁免；本法术不能侦测魅惑。</p><p>施放后四小时内不能施放任何其他法术，已经准备的法术不会因此遗忘。职业法术表标为可逆，但本文没有给出反向效果。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 小时",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "一份卷轴",
+    "savingThrow": "特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "原刊未具体列出",
+    "id": "dragon-068-spell-scroll",
+    "nameZh": "卷轴术",
+    "nameEn": "Scroll",
+    "description": "制作已知法术的魔法卷轴时，使DMG第118页所述失误机会减少40%；不能与抄写术合用。",
+    "details": [
+      {
+        "title": "Dragon #68 · 卷轴术",
+        "html": "<p>制作已知法术的魔法卷轴时，使DMG第118页所述失误机会减少40%；不能与抄写术合用。</p><p>也可改为将书写速度加倍，此时不减少失误机会。制作魔法卷轴仍须满足至少七级的要求。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 32,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 32,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3 轮",
+    "range": "不限",
+    "duration": "1回合加每级1轮",
+    "areaOfEffect": "施法者与另一人",
+    "savingThrow": "无；睡眠中的接收者另作唤醒豁免",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "一面镜子",
+    "id": "dragon-068-spell-communicate",
+    "nameZh": "通联术",
+    "nameEn": "Communicate",
+    "description": "联系主物质位面上自己认识的一个人，不限双方距离。受联系者不能位于力场、防护球、次等或高等守护力罩等屏障中，也不能受到心灵屏障或铁意之塔等灵能防御保护。",
+    "details": [
+      {
+        "title": "Dragon #68 · 通联术",
+        "html": "<p>联系主物质位面上自己认识的一个人，不限双方距离。受联系者不能位于力场、防护球、次等或高等守护力罩等屏障中，也不能受到心灵屏障或铁意之塔等灵能防御保护。</p><p>对方若在睡眠，每隔一轮可作一次对法术豁免，成功便醒来。对方必须愿意并停止其他活动，才能接受联系；拒绝时联系终止，施法者只知道遭拒，未必知道原因，也不能看见或听见对方感官所得。</p><p>接通后可交谈，并在双方同意时互见彼此眼前的景象；对方附近的说话声也可传来。若要让身旁其他人知晓内容，仍须转述。接收者不能自行发动这种联系，可事先约定联系时间。</p><p>施法者可通过连线对对方施放一种治疗法术；治疗一施放，联系立即结束。施法者随后不能再施法，持续一天加该治疗法术每环一天。</p>",
+        "source": {
+          "book": "Dragon #68",
+          "page": 33,
+          "section": "cloistered-spells"
+        },
+        "href": "/books/dragon-68/cloistered-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #68",
+        "page": 33,
+        "section": "cloistered-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #68"
     ]
   }
 ]

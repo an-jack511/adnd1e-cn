@@ -11,6 +11,7 @@ export function getStaticPaths() { return [...spells.map((spell) => ({ params: {
 const { spell, redirectTo } = Astro.props;
 if(redirectTo)return Astro.redirect(redirectTo,301);
 const magazine=spell.id.startsWith('dragon-');
+const displayTags=spell.tags.filter(tag=>!['Dragon 杂志','杂志版','中文规则摘要'].includes(tag)&&!/^Dragon(?:\s+Magazine)?\s*#\s*\d+$/i.test(tag));
 ---
 <BaseLayout title={`${spell.nameZh} ${spell.nameEn}`} description={`${spell.nameZh}（${spell.nameEn}）AD&D 1E 法术条目。`}>
   <article class="library-entry">
@@ -22,7 +23,7 @@ const magazine=spell.id.startsWith('dragon-');
     {!magazine && spell.reversible && <p class="notice"><strong>可逆法术：</strong>请同时查阅正向与逆向效果。</p>}
     {spell.details?.length ? <LibraryRules prefix={spell.id} details={spell.details} /> : <p>{spell.description}</p>}
     {!magazine && spell.materialComponent && <p><strong>材料成分：</strong>{spell.materialComponent}</p>}
-    <p>{spell.tags.map((tag) => <span class="tag">{tag}</span>)}</p>
+    {displayTags.length>0&&<p>{displayTags.map((tag) => <span class="tag">{tag}</span>)}</p>}
     {!spell.details?.length && <PublishedLinks kind="spell" id={spell.id} classes={spell.classes} />}
     <SourceList sources={spell.source} details={spell.details} />
     <p><a href="/spells">← 返回法术表</a></p>

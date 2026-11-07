@@ -2362,7 +2362,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1463",
+        "location": "/1464",
         "zh": "赞扎洛竖琴"
       }
     ],
@@ -2556,7 +2556,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1459",
+        "location": "/1460",
         "zh": "跨界行走"
       }
     ],
@@ -3059,7 +3059,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1440",
+        "location": "/1441",
         "zh": "灵能结界"
       }
     ],
@@ -4993,42 +4993,42 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1469",
+        "location": "/1470",
         "zh": "梅利克斯火焰魔嘴"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1471",
+        "location": "/1472",
         "zh": "《奥丁法术集》资料"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1473",
+        "location": "/1474",
         "zh": "肢体麻木"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1474",
+        "location": "/1475",
         "zh": "毒蛇之噬"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1476",
+        "location": "/1477",
         "zh": "轻伤缓愈"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1478",
+        "location": "/1479",
         "zh": "充能术"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1482",
+        "location": "/1483",
         "zh": "德鲁伊视界"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1486",
+        "location": "/1487",
         "zh": "奥术治疗：代谢与吸血"
       }
     ],
@@ -5720,7 +5720,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1481",
+        "location": "/1482",
         "zh": "肾形护手匕首"
       }
     ],
@@ -7397,7 +7397,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1458",
+        "location": "/1459",
         "zh": "役使宿敌之灵"
       }
     ],
@@ -7832,22 +7832,22 @@
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1466",
+        "location": "/1467",
         "zh": "快速再生戒指"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1472",
+        "location": "/1473",
         "zh": "锈蚀魔杖"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1477",
+        "location": "/1478",
         "zh": "激怒箭"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1484",
+        "location": "/1485",
         "zh": "误警球"
       }
     ],
@@ -7868,7 +7868,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1431",
+        "location": "/1432",
         "zh": "遣返术"
       }
     ],
@@ -9938,7 +9938,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1455",
+        "location": "/1456",
         "zh": "仪式：誓言（零环祷术）"
       }
     ],
@@ -9959,7 +9959,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1465",
+        "location": "/1466",
         "zh": "干柴术"
       }
     ],
@@ -11603,7 +11603,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1434",
+        "location": "/1435",
         "zh": "骑士（Gygax早期测试稿）"
       }
     ],
@@ -12881,12 +12881,19 @@
     "englishVariants": [
       "Cloistered Cleric, The"
     ],
-    "legacyZh": [],
+    "legacyZh": [
+      "修院牧师法术"
+    ],
     "occurrences": [
       {
         "path": "src/data/published/books.json",
         "location": "/1430",
         "zh": "修院牧师"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1431",
+        "zh": "修院牧师法术"
       }
     ],
     "activeIds": [],
@@ -17042,7 +17049,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1439",
+        "location": "/1440",
         "zh": "德里尼"
       }
     ],
@@ -17330,27 +17337,6 @@
         "path": "src/published/books/dsg/dsg-campaign-management.md",
         "location": "71",
         "zh": "设计冒险与世界"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:detect curse",
-    "category": "heading",
-    "en": "Detect Curse",
-    "zh": "侦测诅咒",
-    "englishVariants": [
-      "Detect Curse"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/oa/oa-shukenja-spells.md",
-        "location": "641",
-        "zh": "侦测诅咒"
       }
     ],
     "activeIds": [],
@@ -19572,7 +19558,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1446",
+        "location": "/1447",
         "zh": "双头巨人的生态与双脑防护"
       },
       {
@@ -20458,7 +20444,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1464",
+        "location": "/1465",
         "zh": "掘地虫的生态与蜕壳期"
       },
       {
@@ -20484,7 +20470,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1457",
+        "location": "/1458",
         "zh": "移位兽的生态与显形判定"
       },
       {
@@ -20510,7 +20496,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1443",
+        "location": "/1444",
         "zh": "树精的生态与树魂羁绊"
       },
       {
@@ -20536,7 +20522,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1448",
+        "location": "/1449",
         "zh": "深海之眼的生态与闪光攻击"
       },
       {
@@ -20562,7 +20548,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1449",
+        "location": "/1450",
         "zh": "戈尔贡的生态与石化吐息"
       },
       {
@@ -20588,7 +20574,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1475",
+        "location": "/1476",
         "zh": "红龙的生态与追踪能力"
       },
       {
@@ -20635,7 +20621,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1479",
+        "location": "/1480",
         "zh": "气束术"
       }
     ],
@@ -22122,7 +22108,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1460",
+        "location": "/1461",
         "zh": "精灵骑士（Booth方案）"
       }
     ],
@@ -22384,7 +22370,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1444",
+        "location": "/1445",
         "zh": "阅读幻术魔法（魔咒师版）"
       }
     ],
@@ -25785,7 +25771,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1442",
+        "location": "/1443",
         "zh": "锈蚀粉"
       }
     ],
@@ -32308,7 +32294,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1467",
+        "location": "/1468",
         "zh": "保温祷术"
       }
     ],
@@ -44672,7 +44658,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1432",
+        "location": "/1433",
         "zh": "离心术"
       }
     ],
@@ -46150,7 +46136,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1438",
+        "location": "/1439",
         "zh": "气化戒指"
       }
     ],
@@ -46260,7 +46246,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1468",
+        "location": "/1469",
         "zh": "仪式：见证誓约"
       }
     ],
@@ -46704,7 +46690,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1433",
+        "location": "/1434",
         "zh": "映照水池"
       }
     ],
@@ -46830,7 +46816,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1488",
+        "location": "/1489",
         "zh": "旧规则的新武器"
       }
     ],
@@ -46893,7 +46879,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1453",
+        "location": "/1454",
         "zh": "九种奇妙魔杖"
       }
     ],
@@ -49048,7 +49034,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1447",
+        "location": "/1448",
         "zh": "阿迦纳萨灼热射流"
       }
     ],
@@ -49069,7 +49055,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1450",
+        "location": "/1451",
         "zh": "解除寂静"
       }
     ],
@@ -49090,7 +49076,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1452",
+        "location": "/1453",
         "zh": "神圣连结"
       }
     ],
@@ -50693,7 +50679,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1454",
+        "location": "/1455",
         "zh": "阅读帕拉曼德魔文"
       }
     ],
@@ -55787,7 +55773,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1441",
+        "location": "/1442",
         "zh": "警觉戒指"
       }
     ],
@@ -56637,7 +56623,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1480",
+        "location": "/1481",
         "zh": "重施法术（博学者版）"
       }
     ],
@@ -57906,7 +57892,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1437",
+        "location": "/1438",
         "zh": "阿贾莎“饮者”"
       }
     ],
@@ -60610,7 +60596,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1435",
+        "location": "/1436",
         "zh": "消失半式（趣味／戏仿）"
       }
     ],
@@ -61648,7 +61634,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1483",
+        "location": "/1484",
         "zh": "改变身形（趣味／戏仿）"
       }
     ],
@@ -70683,7 +70669,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1487",
+        "location": "/1488",
         "zh": "野蛮人（Howery修订）"
       }
     ],
@@ -71098,7 +71084,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1445",
+        "location": "/1446",
         "zh": "巨鹰戒指"
       }
     ],
@@ -71119,7 +71105,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1451",
+        "location": "/1452",
         "zh": "能量戒指"
       }
     ],
@@ -75891,7 +75877,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1470",
+        "location": "/1471",
         "zh": "阿拉卡克拉：角色种族方案"
       }
     ],
@@ -75935,12 +75921,12 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1461",
+        "location": "/1462",
         "zh": "血肉解离（巫婆高阶秘社）"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1462",
+        "location": "/1463",
         "zh": "魅惑男性 I／II（巫婆版）"
       }
     ],
@@ -76167,7 +76153,7 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1485",
+        "location": "/1486",
         "zh": "奇迹魔杖：三种扩展表"
       }
     ],
@@ -139320,7 +139306,7 @@
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1456",
+        "location": "/1457",
         "zh": "半萨特与半树精"
       },
       {
@@ -139505,7 +139491,7 @@
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1436",
+        "location": "/1437",
         "zh": "半食人魔：完整补充方案"
       },
       {
@@ -141389,8 +141375,8 @@
         "zh": "仪式：祝福新生儿"
       },
       {
-        "path": "src/published/books/dragon-68/new-spells.md",
-        "location": "101",
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "7",
         "zh": "仪式：祝福新生儿"
       }
     ],
@@ -141441,8 +141427,8 @@
         "zh": "仪式：亵渎场所"
       },
       {
-        "path": "src/published/books/dragon-68/new-spells.md",
-        "location": "137",
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "43",
         "zh": "仪式：亵渎场所"
       }
     ],
@@ -142372,6 +142358,39 @@
     ],
     "activeIds": [
       "gha-command-earth"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "spell:communicate",
+    "category": "spell",
+    "en": "Communicate",
+    "zh": "通联术",
+    "englishVariants": [
+      "Communicate"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "通联术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/101",
+        "zh": "通联术"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "201",
+        "zh": "通联术"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-communicate"
     ],
     "status": "pending",
     "references": [],
@@ -143728,6 +143747,44 @@
     "notes": []
   },
   {
+    "key": "spell:detect curse",
+    "category": "spell",
+    "en": "Detect Curse",
+    "zh": "侦测诅咒",
+    "englishVariants": [
+      "Detect Curse"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "侦测诅咒"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/99",
+        "zh": "侦测诅咒"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "161",
+        "zh": "侦测诅咒"
+      },
+      {
+        "path": "src/published/books/oa/oa-shukenja-spells.md",
+        "location": "641",
+        "zh": "侦测诅咒"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-detect-curse"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "spell:detect disease",
     "category": "spell",
     "en": "Detect Disease",
@@ -144557,8 +144614,8 @@
         "zh": "遣退不死生物"
       },
       {
-        "path": "src/published/books/dragon-68/new-spells.md",
-        "location": "119",
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "25",
         "zh": "遣退不死生物"
       }
     ],
@@ -147164,6 +147221,39 @@
     ],
     "activeIds": [
       "hallucinatory-forest"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "spell:hand fire",
+    "category": "spell",
+    "en": "Hand Fire",
+    "zh": "掌火术",
+    "englishVariants": [
+      "Hand Fire"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "掌火术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/96",
+        "zh": "掌火术"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "103",
+        "zh": "掌火术"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-hand-fire"
     ],
     "status": "pending",
     "references": [],
@@ -153357,6 +153447,72 @@
     "notes": []
   },
   {
+    "key": "spell:scribe",
+    "category": "spell",
+    "en": "Scribe",
+    "zh": "抄写术",
+    "englishVariants": [
+      "Scribe"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "抄写术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/97",
+        "zh": "抄写术"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "121",
+        "zh": "抄写术"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-scribe"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "spell:scroll",
+    "category": "spell",
+    "en": "Scroll",
+    "zh": "卷轴术",
+    "englishVariants": [
+      "Scroll"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卷轴术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/100",
+        "zh": "卷轴术"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "181",
+        "zh": "卷轴术"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-scroll"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "spell:secure",
     "category": "spell",
     "en": "Secure",
@@ -156202,6 +156358,39 @@
     "notes": []
   },
   {
+    "key": "spell:translate",
+    "category": "spell",
+    "en": "Translate",
+    "zh": "译读术",
+    "englishVariants": [
+      "Translate"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "译读术"
+      },
+      {
+        "path": "src/data/public/dragon-spells.json",
+        "location": "/98",
+        "zh": "译读术"
+      },
+      {
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "141",
+        "zh": "译读术"
+      }
+    ],
+    "activeIds": [
+      "dragon-068-spell-translate"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "spell:transmute metal to wood",
     "category": "spell",
     "en": "Transmute Metal to Wood",
@@ -157882,8 +158071,8 @@
         "zh": "高等守护力罩"
       },
       {
-        "path": "src/published/books/dragon-68/new-spells.md",
-        "location": "177",
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "83",
         "zh": "高等守护力罩"
       }
     ],
@@ -157920,8 +158109,8 @@
         "zh": "次等守护力罩"
       },
       {
-        "path": "src/published/books/dragon-68/new-spells.md",
-        "location": "157",
+        "path": "src/published/books/dragon-68/cloistered-spells.md",
+        "location": "63",
         "zh": "次等守护力罩"
       }
     ],

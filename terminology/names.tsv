@@ -503,7 +503,7 @@ heading	Climax	高潮	pending	pending		Climax
 heading	Cloak of Arachnidia	蛛形斗篷	pending	pending		Cloak of Arachnidia			
 heading	CLOAK WOOD	斗篷森林	pending	pending		CLOAK WOOD			
 heading	Cloakers	斗篷怪	pending	pending		Cloakers			
-heading	Cloistered Cleric, The	修院牧师	pending	pending		Cloistered Cleric, The			
+heading	Cloistered Cleric, The	修院牧师	pending	pending	修院牧师法术	Cloistered Cleric, The			
 heading	Close to Striking Range	接近打击距离	pending	pending		Close to Striking Range			
 heading	Clothing and Footwear	衣物与鞋履	pending	pending		Clothing and Footwear			
 heading	Cloud Giant	云巨人	pending	pending		Cloud Giant			
@@ -676,7 +676,6 @@ heading	Desert: Shedu	沙漠：谢杜	pending	pending		Desert: Shedu
 heading	Desert: Skeletons	沙漠：骷髅	pending	pending		Desert: Skeletons			
 heading	Desert: Stone Golem	沙漠：石魔像	pending	pending		Desert: Stone Golem			
 heading	Designing the Adventure and the World	设计冒险与世界	pending	pending		Designing the Adventure and the World			
-heading	Detect Curse	侦测诅咒	pending	pending		Detect Curse			
 heading	Detect Harmony	侦测和谐	pending	pending		Detect Harmony			
 heading	Detect Shapechanger	侦测变形者	pending	pending		Detect Shapechanger			
 heading	Detection of Evil and/or Good	侦测邪恶与／或善良	pending	pending		Detection of Evil and/or Good			
@@ -5712,6 +5711,7 @@ spell	Command	命令术	verified-exact	whole-name		Command	5E; 5R	https://5e.kiw
 spell	Command Earth	命令大地	pending	pending		Command Earth			
 spell	Commune	通神术	verified-exact	whole-name	神谕术	Commune	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-07
 spell	Commune with Nature	问道自然	verified-exact	whole-name	与自然合一	Commune with Nature	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-07
+spell	Communicate	通联术	pending	pending		Communicate			
 spell	Comprehend Languages	通晓语言	verified-exact	whole-name	理解语言	Comprehend Languages	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
 spell	Cone of Cold	寒冰锥	verified-exact	whole-name		Cone of Cold	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-07
 spell	Confusion	困惑术	verified-exact	whole-name	混乱	Confusion	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
@@ -5759,6 +5759,7 @@ spell	Demi-Shadow Magic	半阴影魔法	pending	pending	半真实暗影魔法	De
 spell	Demi-Shadow Monsters	半阴影怪物	pending	pending		Demi-Shadow Monsters			
 spell	Detect Balance	侦测平衡	pending	pending		Detect Balance			
 spell	Detect Charm	侦测魅惑术	pending	pending	侦测魅惑	Detect Charm			
+spell	Detect Curse	侦测诅咒	pending	pending		Detect Curse			
 spell	Detect Disease	侦测疾病	pending	pending		Detect Disease			
 spell	Detect Evil	侦测邪恶	pending	pending		Detect Evil			
 spell	Detect Illusion	侦测幻象	pending	pending		Detect Illusion			
@@ -5902,6 +5903,7 @@ spell	Hailcone	冰雹锥	pending	pending		Hailcone
 spell	Hairy	生毛	pending	pending		Hairy			
 spell	Hallucinatory Forest	幻象森林	pending	pending		Hallucinatory Forest			
 spell	Hallucinatory Terrain	幻景	verified-exact	whole-name	幻景地形; 幻象地形	Hallucinatory Terrain	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
+spell	Hand Fire	掌火术	pending	pending		Hand Fire			
 spell	Haste	加速术	verified-exact	whole-name	加速	Haste	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
 spell	Haze	薄雾	pending	pending		Haze			
 spell	Heal	医疗术	verified-exact	whole-name	治疗; 治疗术	Heal	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-07
@@ -6199,6 +6201,8 @@ spell	Scare	恐吓术	verified-exact	whole-name	惊吓术	Scare	3R	https://dnd3r
 spell	Scatterspray	散射喷	pending	pending		Scatterspray			
 spell	Scorch	焦灼	pending	pending		Scorch			
 spell	Scratch	抓痒	pending	pending		Scratch			
+spell	Scribe	抄写术	pending	pending		Scribe			
+spell	Scroll	卷轴术	pending	pending		Scroll			
 spell	Secret Page	秘密文页	verified-exact	whole-name	密页术	Secret Page	3R	https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
 spell	Secure	封护	pending	pending		Secure			
 spell	Sending	短讯术	verified-exact	whole-name	传讯术	Sending	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-07
@@ -6314,6 +6318,7 @@ spell	Timeheal	时间治愈	pending	pending		Timeheal
 spell	Timereaver	时间逆流	pending	pending		Timereaver			
 spell	Tongues	巧言术	verified-exact	whole-name	通晓语言	Tongues	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-07
 spell	Torment	折磨术	pending	pending		Torment			
+spell	Translate	译读术	pending	pending		Translate			
 spell	Transmute Metal to Wood	化金属为木	pending	pending		Transmute Metal to Wood			
 spell	Transmute Rock to Mud	化石为泥	pending	pending	岩石化泥	Transmute Rock to Mud			
 spell	Transmute Water To Dust	化水为尘	pending	pending		Transmute Water To Dust; Transmute Water to Dust			

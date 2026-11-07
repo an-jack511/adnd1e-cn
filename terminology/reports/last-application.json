@@ -1,15 +1,15 @@
 {
-  "files": 33,
+  "files": 39,
   "changes": [
     {
       "path": "src/data/public/dragon-books.json",
-      "beforeSha256": "0717726bfd035a9a6c073e3a61c4f96e2583876e8ef82f556af5c0a914fb4fb7",
-      "afterSha256": "e140852afc29aaeaedd94dc380b23236f7c0b80a35cceb3ad4f453e09b2a8123"
+      "beforeSha256": "e20d7f2f9240fd0c8fbc709478447a49bb02ece31f1b52c0df3abb00540c96fd",
+      "afterSha256": "77350f921dd86420541ae454d5cf69d506498695907f5ce31057a97518c46a6b"
     },
     {
       "path": "src/data/public/dragon-classes.json",
-      "beforeSha256": "f68a2405278538b1bde1d0ba14c13d485c7ff93406f51a3692e7023eaa5e92a7",
-      "afterSha256": "4541a5eb4a36fba16631bfb7eea71b8ca2a1ef2f5f43353305cdf71808487678"
+      "beforeSha256": "049729fc5b7b4355a6a36c9e5005098b5776078571dd25f1c1783b59cc83f543",
+      "afterSha256": "1a851784c67c0dc067885e74e483c0ce5065502853f6fe2bf7b27e8db1b157c4"
     },
     {
       "path": "src/data/public/dragon-items.json",
@@ -28,13 +28,28 @@
     },
     {
       "path": "src/data/public/dragon-spells.json",
-      "beforeSha256": "7bcb942145c2ddd6cf099ef51c177e9f5984b8806ad15d2ecb45f7f213b8eeb4",
-      "afterSha256": "6b260ff79162fcf61824039c37652e4d593b9e51d3278a1618d3c700ac179db4"
+      "beforeSha256": "ac90ba07026e9038608e2fe80b4f3659e4febb1b725cef6bb2ab703b77b791c8",
+      "afterSha256": "6f86e46d1f6e5d6367ddc3db20643e7da2755382ec64ac0a3af0150e92111d46"
+    },
+    {
+      "path": "src/data/public/item-index.json",
+      "beforeSha256": "56c952b2c95d450b15f222db1badaa1290b72c4172d851d9a3a9a8a5ff60cc27",
+      "afterSha256": "c4025f98157c3ccc71f19d2b139b06223a61fcc9d02141d0cc1cb91bbd330d9c"
+    },
+    {
+      "path": "src/data/public/monster-reading.json",
+      "beforeSha256": "c752486b2c07bb19ce49ff19e07cec2d841d28f864542cf4d67c1443184dc2ea",
+      "afterSha256": "03caedbe1b5238695ed2005f6f38c6b599bbae25fbff09a3a4787c096747777c"
+    },
+    {
+      "path": "src/data/public/ua-equipment-prices.json",
+      "beforeSha256": "a830f89a333f561c63168be1ca8396b3e7e953cc73c278cbd479605413a28c6d",
+      "afterSha256": "d1abc14a8a8186f41af6853fac17f7fb79cfd785919f2797847489b59e23296c"
     },
     {
       "path": "src/data/published/books.json",
-      "beforeSha256": "62b532cf49b742f951b27a38e6bd37f8ae678d837e3777c9c4f068814a9a9473",
-      "afterSha256": "9bc5931d7aef7a6c836c9063f2601a98b9bda64cd5d757461569c60a1d6699a5"
+      "beforeSha256": "007377ac57bccc8e4d2103107fa987a35a031d55d66e2082740bb6abe9789d4c",
+      "afterSha256": "5037644e18b3c6394841ab6c5933aaaa8311ba4393e920feb7beae9d307eed01"
     },
     {
       "path": "src/published/books/dragon-102/nine-wands.md",
@@ -128,13 +143,18 @@
     },
     {
       "path": "src/published/books/dragon-68/cloistered-cleric.md",
-      "beforeSha256": "227125d873f3da27e508bf2778d6521acfe9009a06cfd10656f2b112f9b33701",
-      "afterSha256": "18aab84567dcf5a01879898ae6cfc20fe25ed95e1719792a86864e8d92c5ee6a"
+      "beforeSha256": "d6da70b92cea5141b1f34f644559dbdcfd2d33aa89d71cd7ea6fe223e15acf36",
+      "afterSha256": "2f234da5b043cbb1298bd03c98e1884ededb1cb7295634adc830d9b4f58c8ea8"
+    },
+    {
+      "path": "src/published/books/dragon-68/cloistered-spells.md",
+      "beforeSha256": "024eda641af603cf8edd1927005bab4801b58014e3022942a8638094dcfe3297",
+      "afterSha256": "9d0907243ed9957f8f185001b3dc78bac07c249d864d89243423fba069d920a4"
     },
     {
       "path": "src/published/books/dragon-68/new-spells.md",
-      "beforeSha256": "637cb006867a16af44311d326ef1e569271c6be7a8c2ee51b78058b00d74a163",
-      "afterSha256": "3d187411e253d13447dc4e21a765afa701278a955d23181ea58fc5d419b5a48a"
+      "beforeSha256": "9f2d2ce0e5e9489fd84c0d0b4d6e8522021784fa9c6ff2d4af473be789ee9a55",
+      "afterSha256": "7143a0f61c65e4b19c3bfde85d6f12788d8e770888c671766e4d6fd96d826d03"
     },
     {
       "path": "src/published/books/dragon-69/new-spells.md",
@@ -165,6 +185,16 @@
       "path": "src/published/books/dragon-97/ecology.md",
       "beforeSha256": "f47a7853207b46b3ac608a1c1d35e20b4770dcdbacee8b85d086c75a50a84054",
       "afterSha256": "da13afae66a4ba020ba673c2bbdafcf77a149c036d855bcd5387f2171c5b8266"
+    },
+    {
+      "path": "scripts/import/curate-character-library.py",
+      "beforeSha256": "a44dfb1ec80765acc4d373c767f0726ea0008c84554b71d97c836f37f0de8020",
+      "afterSha256": "1dd0c6589085b837d374af2d1d87324bf624545f74a3fcbf00d7b5bfc3c5227d"
+    },
+    {
+      "path": "scripts/import/ua-prices.ts",
+      "beforeSha256": "1984482219ff8e7797aee8635b89beb422d0e3a5f32f032f413aac874c250550",
+      "afterSha256": "040d6155c3e7c3a7c0f094c62dd6e5c9e13f3dc3f9b136c481a0faf38d6e7fb4"
     }
   ],
   "globalReplacements": {
