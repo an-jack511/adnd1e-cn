@@ -11795,10 +11795,31 @@
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
+    "alias": "长矛",
+    "path": "src/published/books/dragon-148/class-revisions.md",
+    "line": 19,
+    "excerpt": "一级有六个武器熟练位，须学习矛、刀、手斧，余下三个依背景选择。各背景下表所列武器也是一级必选；列有“或”的项目按其选项择一。徒步部落使用5–6英尺长矛，骑乘部落使用7–13英尺长矛作骑枪。三级、五级等每两级再得一位，可学习任意武器；不能武器专精或双重专精。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "套索",
+    "path": "src/published/books/dragon-148/class-revisions.md",
+    "line": 27,
+    "excerpt": "<h3>一级背景武器与部众装备</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">背景</th><th scope=\"col\">一级背景武器</th><th scope=\"col\">普通部众的装备比例</th></tr></thead><tbody><tr><th scope=\"row\">洞穴居民</th><t",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-148/class-revisions.md",
+    "line": 27,
+    "excerpt": "<h3>一级背景武器与部众装备</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">背景</th><th scope=\"col\">一级背景武器</th><th scope=\"col\">普通部众的装备比例</th></tr></thead><tbody><tr><th scope=\"row\">洞穴居民</th><t",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
     "alias": "治疗",
     "path": "src/published/books/dragon-148/class-revisions.md",
-    "line": 29,
-    "excerpt": "去掉零级阶段、一级额外3生命值、持续训练提高属性、抗恐惧灵光、90%精神攻击抵抗、幻术豁免+2、负生命值继续行动与见敌必冲锋。0至−9昏迷、−10死亡，正常治疗；任意初始阵营，改阵营照常受罚，但不因此丢职业。",
+    "line": 37,
+    "excerpt": "任意阵营均可入职，改变阵营适用通常惩罚，行为或阵营不会使骑士失去职业。取消零级骑从／枪从阶段、一级额外3点生命值、训练提高STR／DEX／CON、抗恐惧灵光、90%精神攻击抵抗、幻术豁免+2、负生命值行动，以及见敌必须冲锋。生命值0至−9时昏迷，−10时死亡，按正常速度治疗。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
@@ -11965,29 +11986,64 @@
   {
     "alias": "预言",
     "path": "src/published/books/dragon-45/npc-classes.md",
-    "line": 15,
-    "excerpt": "每周只能排一张星盘，每张只作一次预言。重复询问同一预言仍给同一答案，即使最初错误。时限依一周内／一月内／一年内／超过一年，基本准确率：个人5/15/25/35%；群体≤100人15/25/35/45%；城市等≤1,000人25/35/45/55%；国家等>1,000人35/45/55/65%。INT与WIS各超过15的每一点再+2%；主持人可按问题复杂度上下调整至多20个百分点。",
+    "line": 19,
+    "excerpt": "每周只能排一张星盘，每张只得一次预言。其余时间用于私人天文学与占星研究，不再替雇主进行实际工作；打断这些时间可能降低忠诚及对相关人物的反应。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "预言",
     "path": "src/published/books/dragon-45/npc-classes.md",
-    "line": 17,
-    "excerpt": "预言越概括、越远期往往越准，但更象征和含糊，不能保证具体细节或支配其他PC行动。休息与私人研究被打断可降低忠诚。",
+    "line": 23,
+    "excerpt": "预言通常只提供形势、危险程度或对手性质的线索；规模越大、时距越远，准确率越高，但措辞也越概括、象征化。涉及其他玩家角色行动的预测须由主持人谨慎处理，可能经常不准。反复追问同一项预测，仍得到原答案，即使它原本错误。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "预言",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 30,
+    "excerpt": "<h3>预言基本准确率</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">对象范围</th><th scope=\"col\">一周内</th><th scope=\"col\">一月内</th><th scope=\"col\">一年内</th><th scope=\"col\">超过一年</th></tr></thead>",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "木棒",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 36,
+    "excerpt": "本版为受雇专家NPC，使用固定10d4生命值，加适用的体质加值；年龄在中年至耄耋之间，种族限人类、精灵、半精灵。属性与阵营分布见表。不能穿甲，使用匕首、木棒和油，近战命中按十级魔法师。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "制造",
     "path": "src/published/books/dragon-45/npc-classes.md",
-    "line": 33,
-    "excerpt": "人类、精灵、半精灵可从事。生命生成专家可协助制造魔宠人；主持人可极少数允许血肉魔像或克隆，花费至少100,000 gp。仅血肉魔像制造手册可用，其他魔像手册使其受6d6伤害。",
+    "line": 50,
+    "excerpt": "制造魔宠人需咨询生命生成专业炼金师；原料可包括伪龙毒、石像鬼血及魔法师自身的血，费用与时间依怪物手册。主持人可极少数允许该专业制造血肉魔像或进行克隆，每项支出至少100,000 gp。只可使用介绍血肉魔像的魔像制造手册；阅读其他类型的手册受到6d6伤害。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 53,
+    "excerpt": "<h3>阵营分布</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">d100</th><th scope=\"col\">阵营</th></tr></thead><tbody><tr><th scope=\"row\">01–05</th><td>守序善良</td></tr><tr><th scope=\"row\">06",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "制造",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 54,
+    "excerpt": "<h3>研究专业</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">领域</th><th scope=\"col\">专业知识或制作</th><th scope=\"col\">终极目标</th></tr></thead><tbody><tr><th scope=\"row\">元素精华</th><td>土、气、火、水及元",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "鸡蛇",
+    "path": "src/published/books/dragon-45/npc-classes.md",
+    "line": 54,
+    "excerpt": "<h3>研究专业</h3><div class=\"table-wrap\"><table class=\"data-table compact\"><thead><tr><th scope=\"col\">领域</th><th scope=\"col\">专业知识或制作</th><th scope=\"col\">终极目标</th></tr></thead><tbody><tr><th scope=\"row\">元素精华</th><td>土、气、火、水及元",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
     "alias": "豺狼人",
     "path": "src/published/books/dragon-45/npc-classes.md",
-    "line": 39,
-    "excerpt": "原刊明确为NPC职业。基础STR、DEX≥15，INT/WIS/CHA≥6，CON≥9；巡林分支另要求INT、WIS、CON≥14，只许人类或半精灵。普通弓箭手可人类、精灵、半精灵、半兽人，另兽人限三级、大地精四级、豺狼人五级；矮人、侏儒、半身人、地精、狗头人不能选。",
+    "line": 62,
+    "excerpt": "普通弓箭手可为人类、精灵、半精灵、半兽人，以及主持人允许的部分类人生物：兽人上限三级，大地精四级，豺狼人五级。狗头人、地精、矮人、侏儒、半身人不能选择。巡林分支限人类与半精灵；其余获准而未另列限级的半人类、非人类上限八级。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {
@@ -12261,6 +12317,13 @@
     "path": "src/published/books/dragon-72/class-revisions.md",
     "line": 19,
     "excerpt": "善良骑士可活至负的一级生命值，但一到负值即不能攻击，须休息包扎；不是负生命值仍能战斗。每完整休养一周额外恢复1d4。第三级可一时段着重甲跃上马；第五级坐骑速度+2″至多六回合，第七／九／十一级分别可驾飞马／骏鹰／狮鹫；女性精灵四级可驾独角兽。",
+    "status": "context-review; a surviving generic word is not necessarily an incorrect name"
+  },
+  {
+    "alias": "混乱",
+    "path": "src/published/books/dragon-73/creatures-and-races.md",
+    "line": 27,
+    "excerpt": "种族关系为双向：偏爱半食人魔，容忍半兽人，对人类中立，对其他种族敌视。混乱邪恶倾向会使招募侍从和雇工更困难，并可能依DMG影响忠诚。若采用善良半食人魔，作者建议以人类文化抚养、缺少食人魔文化及其语言传承作为背景；是否采用由主持人决定。",
     "status": "context-review; a surviving generic word is not necessarily an incorrect name"
   },
   {

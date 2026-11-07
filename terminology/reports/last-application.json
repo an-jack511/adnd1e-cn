@@ -1,5 +1,5 @@
 {
-  "files": 40,
+  "files": 33,
   "changes": [
     {
       "path": "src/data/public/dragon-books.json",
@@ -8,8 +8,8 @@
     },
     {
       "path": "src/data/public/dragon-classes.json",
-      "beforeSha256": "cc0c1538e010e4b881fcefaa19aa9f10217e2aef07b90af540747cb1a5c96cd2",
-      "afterSha256": "5b568879295a4b85bd1dc308de135e502ee9c4a24259303aa87829cbe84b2bf0"
+      "beforeSha256": "f68a2405278538b1bde1d0ba14c13d485c7ff93406f51a3692e7023eaa5e92a7",
+      "afterSha256": "4541a5eb4a36fba16631bfb7eea71b8ca2a1ef2f5f43353305cdf71808487678"
     },
     {
       "path": "src/data/public/dragon-items.json",
@@ -22,11 +22,6 @@
       "afterSha256": "bc875958461d51a8387422029ebffac42138cc2baef7a2f352d9d28e66b1ce0f"
     },
     {
-      "path": "src/data/public/dragon-races.json",
-      "beforeSha256": "ea9766904418244ae4ebfacf2a451b2d034b44891a7bf5fd80263969f7e56a1b",
-      "afterSha256": "066eca1e28fe7b60267b2a359534ca2a2dd9b8a6f2c56ead63c79febab498a2c"
-    },
-    {
       "path": "src/data/public/dragon-rules.json",
       "beforeSha256": "95ffa1a8dbff0e9e523058808716f893ac6e83b74b88c1ac14a2c817ad3195fe",
       "afterSha256": "dea4dd5c666eb9876a0fb12c41e859a3e3043b2f9edc12c39e087dbcb73a9bbf"
@@ -37,24 +32,9 @@
       "afterSha256": "6b260ff79162fcf61824039c37652e4d593b9e51d3278a1618d3c700ac179db4"
     },
     {
-      "path": "src/data/public/item-index.json",
-      "beforeSha256": "307cbfadc81e7e2297353d0653f115840a1c192d290b8a64947dd620db10e4a2",
-      "afterSha256": "3f636dc82afef8160794e84b36d8e314624d7f09bcfc9806aa29fec796506d72"
-    },
-    {
-      "path": "src/data/public/monster-reading.json",
-      "beforeSha256": "c752486b2c07bb19ce49ff19e07cec2d841d28f864542cf4d67c1443184dc2ea",
-      "afterSha256": "03caedbe1b5238695ed2005f6f38c6b599bbae25fbff09a3a4787c096747777c"
-    },
-    {
-      "path": "src/data/public/ua-equipment-prices.json",
-      "beforeSha256": "a830f89a333f561c63168be1ca8396b3e7e953cc73c278cbd479605413a28c6d",
-      "afterSha256": "d1abc14a8a8186f41af6853fac17f7fb79cfd785919f2797847489b59e23296c"
-    },
-    {
       "path": "src/data/published/books.json",
-      "beforeSha256": "c504e910f7805f4f8eb36cced810d6c522d2c470b0d38947e6be17d960081f0a",
-      "afterSha256": "425b393a97fc642ad6db4f6eb5635e7632108a2ddddd151b824f1f3c98e3cbad"
+      "beforeSha256": "62b532cf49b742f951b27a38e6bd37f8ae678d837e3777c9c4f068814a9a9473",
+      "afterSha256": "9bc5931d7aef7a6c836c9063f2601a98b9bda64cd5d757461569c60a1d6699a5"
     },
     {
       "path": "src/published/books/dragon-102/nine-wands.md",
@@ -162,11 +142,6 @@
       "afterSha256": "bb0b05409b0bf3ca607ecd41221444ed5dd048c013a630d4837fd7f21cd7cfa9"
     },
     {
-      "path": "src/published/books/dragon-73/creatures-and-races.md",
-      "beforeSha256": "78f0ba9d26be05a42f284cfe430b31c8618dc5420d64a339f85a54a6152aaadf",
-      "afterSha256": "4a9e57fc42efdb6c0aaf092eba32efe21b9f5b5629aad57d625c0fd6ede41f01"
-    },
-    {
       "path": "src/published/books/dragon-77/magic-items.md",
       "beforeSha256": "9461251ca8e2e9ddaca0038b7b7e6c45c0d2a47075e369d562d10a4be38f7efd",
       "afterSha256": "4520dc1cc644359a05ab8dc1aa34eab23d5d321b50811d4d7afb51f4ee11c357"
@@ -190,16 +165,6 @@
       "path": "src/published/books/dragon-97/ecology.md",
       "beforeSha256": "f47a7853207b46b3ac608a1c1d35e20b4770dcdbacee8b85d086c75a50a84054",
       "afterSha256": "da13afae66a4ba020ba673c2bbdafcf77a149c036d855bcd5387f2171c5b8266"
-    },
-    {
-      "path": "scripts/import/curate-character-library.py",
-      "beforeSha256": "a44dfb1ec80765acc4d373c767f0726ea0008c84554b71d97c836f37f0de8020",
-      "afterSha256": "1dd0c6589085b837d374af2d1d87324bf624545f74a3fcbf00d7b5bfc3c5227d"
-    },
-    {
-      "path": "scripts/import/ua-prices.ts",
-      "beforeSha256": "1984482219ff8e7797aee8635b89beb422d0e3a5f32f032f413aac874c250550",
-      "afterSha256": "040d6155c3e7c3a7c0f094c62dd6e5c9e13f3dc3f9b136c481a0faf38d6e7fb4"
     }
   ],
   "globalReplacements": {
