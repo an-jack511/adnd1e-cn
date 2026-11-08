@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="中英术语对照表" description="AD&D 第一版中文规则索引的中英术语与专名对照表。">
+  <h1>中英术语对照表</h1>
+  <p>中文正文以中文译名为主；英文列用于查找原名、核对术语和处理必要的中英对照。规则缩写、骰式、来源代码等格式性英文不在此强行改写。</p>
+  <form id="terms-form" class="lookup">
+    <label>查找术语<input id="terms-query" type="search" placeholder="中文或 English" /></label>
+    <label>类别<select id="terms-category"><option value="">全部</option></select></label>
+    <button>查找</button>
+  </form>
+  <p id="terms-count" role="status">正在载入术语表…</p>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="中英术语对照表">
+    <table>
+      <thead><tr><th>中文译名</th><th>English</th><th>类别</th><th>核对状态</th></tr></thead>
+      <tbody id="terms-body"></tbody>
+    </table>
+  </div>
+  <script>
+    type Entry = { en:string; zh:string; category:string; status:string };
+    const labels:Record<string,string> = { class:'职业', item:'物品', monster:'怪物', proper:'专名', race:'种族', rule:'规则', spell:'法术' };
+    const form = document.querySelector<HTMLFormElement>('#terms-form')!;
+    const query = document.querySelector<HTMLInputElement>('#terms-query')!;
+    const category = document.querySelector<HTMLSelectElement>('#terms-category')!;
+    const count = document.querySelector('#terms-count')!;
+    const body = document.querySelector('#terms-body')!;
+    let entries:Entry[] = [];
+    function render() {
+      const q = query.value.trim().toLowerCase();
+      const hits = entries.filter(e => (!category.value || e.category === category.value) && (!q || `${e.zh} ${e.en}`.toLowerCase().includes(q)));
+      body.replaceChildren(...hits.slice(0, 500).map(e => {
+        const row = document.createElement('tr');
+        for (const value of [e.zh, e.en, labels[e.category] || e.category, e.status]) {
+          const cell = document.createElement('td'); cell.textContent = value; row.append(cell);
+        }
+        return row;
+      }));
+      count.textContent = hits.length > 500 ? `共 ${hits.length} 项，当前显示前 500 项。` : `共 ${hits.length} 项。`;
+    }
+    async function init() {
+      const response = await fetch('/translation-table.json');
+      if (!response.ok) throw new Error('translation table');
+      const data = await response.json() as { entries:Entry[] };
+      entries = data.entries;
+      [...new Set(entries.map(e => e.category))].sort().forEach(value => category.add(new Option(labels[value] || value, value)));
+      render();
+    }
+    form.onsubmit = event => { event.preventDefault(); render(); };
+    query.oninput = render; category.onchange = render;
+    init().catch(() => { count.textContent = '术语表载入失败，请刷新页面重试。'; });
+  </script>
+</BaseLayout>

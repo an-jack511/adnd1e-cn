@@ -1,17 +1,17 @@
 ## 第 115 页
 
-## 安萨隆统一怪物图表 Unified Ansalon Monster Chart
+## 安萨隆统一怪物图表（Unified Ansalon Monster Chart）
 
 <strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为完整的安萨隆统一怪物表，原书表格底纹、列标题和出处脚注均已转录。
 
 | 名称 | AC | MV | HD | hp | #AT | 伤害 | SA | SD | 阵营 | THAC0 | 出处 |
 | --- | ---: | --- | ---: | ---: | ---: | --- | --- | --- | --- | ---: | --- |
-| 蝙蝠 Bat | 8 | 1”/24” | 1/4 | 2 | 1 | 1 | 是 | 否 | N | 20 | M2-15 |
-| 腐尸爬虫 Carrion Crawler | 3/7 | 12” | 3+1 | 18 | 8 | 麻痹 | 是 | 否 | N | 16 | M-13 |
-| 人马 Centaur | 5(4) | 18” | 4 | 21 | 2 | 1d6/1d6 | 否 | 否 | CG | 15 | dl1-31 |
-| 巨型蜈蚣 Centipede, Giant | 9 | 15” | 1/4 | 1 | 1 | 毒（-4） | 是 | 否 | N | 20 | dl2-30 |
-| 巨型螯虾 Crayfish, Giant | 4 | 6”/12” | 4+4 | 24 | 2 | 1d12/1d12 | 否 | 否 | N | 15 | M-15 |
-| 巨型鳄鱼 Crocodile, Giant | 4 | 6”/12” | 7 | 35 | 2 | 3d6/2d10 或 2d20 | 否 | 否 | N | 15 | M-15 |
+| 蝙蝠（Bat） | 8 | 1”/24” | 1/4 | 2 | 1 | 1 | 是 | 否 | N | 20 | M2-15 |
+| 腐尸爬虫（Carrion Crawler） | 3/7 | 12” | 3+1 | 18 | 8 | 麻痹 | 是 | 否 | N | 16 | M-13 |
+| 人马（Centaur） | 5(4) | 18” | 4 | 21 | 2 | 1d6/1d6 | 否 | 否 | CG | 15 | dl1-31 |
+| 巨型蜈蚣（Centipede, Giant） | 9 | 15” | 1/4 | 1 | 1 | 毒（-4） | 是 | 否 | N | 20 | dl2-30 |
+| 巨型螯虾（Crayfish, Giant） | 4 | 6”/12” | 4+4 | 24 | 2 | 1d12/1d12 | 否 | 否 | N | 15 | M-15 |
+| 巨型鳄鱼（Crocodile, Giant） | 4 | 6”/12” | 7 | 35 | 2 | 3d6/2d10 或 2d20 | 否 | 否 | N | 15 | M-15 |
 | <strong>龙人 Draconian：奥拉克 Aurak</strong> | 0 | 15” | 8 | 42 | 2 | (1d8+2)×2 | 是 | 是 | LE | 12 | DL-73 |
 | <strong>龙人：巴兹 Baaz</strong> | 4 | 6”/15”/18” | 2 | 12 | 1 | 1d8 | 否 | 是 | LE(C) | 16 | DL-74 |
 | <strong>龙人：博扎克 Bozak</strong> | 2 | 6”/15”/18” | 4 | 22 | 1 | 1d8 | 是 | 是 | LE | 15 | DL-74 |
@@ -25,18 +25,18 @@
 | <strong>龙（平均成年）：白龙 White</strong> | 3 | 12”/30” | 6 | 30 | 3 | 1d4/1d4/2d8 | 是 | 否 | CE | 13 | M-34 |
 | <strong>龙（远古巨龙）：黑龙 Khisanth</strong> | 3 | 12”/24” | 8 | 64 | 3 | 1d4/1d4/3d6 | 是 | 是 | CE | 8 | dl1-26 |
 | <strong>龙（远古巨龙）：红龙 Red</strong> | -1 | 9”/24” | 11 | 88 | 3 | 1d8/1d8/3d10 | 是 | 否 | CE | 7 | M-33 |
-| 树精 Dryad | 9 | 12” | 2 | 9 | 1 | 1d4 | 是 | 是 | N | 16 | dl1-9 |
-| 野狗 Dog, Wild | 7 | 15” | 1+1 | 8 | 1 | 1d4 | 否 | 否 | N | 18 | dl2-30 |
-| 麋鹿 Elk | 8 | 18” | 3 | 15 | 1 | 1d4 | 否 | 否 | N | 16 | dl2-30 |
-| <strong>Qualinesti 精灵 Elf, Qualinesti：边境巡逻 Border Patrol</strong> | 5 | 12” | 2+2 | 17 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl1-8 |
-| <strong>Qualinesti 精灵：战士 Fighter</strong> | 4 | 12” | 3 | 20 | 1 | 1d8+2 或 1d6+1 | 否 | 否 | LG | 17 | dl2-12 |
-| <strong>Qualinesti 精灵：魔法使用者 Magic-User</strong> | 8 | 12” | 5 | 13 | 1 | 1d4 | 是 | 否 | LG | 20 | dl2-12 |
-| <strong>Qualinesti 精灵：战士 Warriors</strong> | 5 | 12” | 1+1 | 7 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl2-12 |
-| 巨蛙 Frog, Giant | 7 | 3”/9” | 3 | 16 | 1 | 2d4 | 是 | 否 | N | 16 | M-41 |
-| 蛙怪 Froghemoth | 2/4/6 | 2”/18” | 1 | 69 | 5 | 15d10 | 是 | 是 | N | 7 | M2-67 |
-| 紫色真菌 Fungus, Violet | 7 | 1” | 3 | 17 | 1–4 | 腐烂 | 是 | 否 | N | 16 | M-42 |
-| 凝胶立方 Gelatinous Cube | 8 | 6” | 4 | 21 | 1 | 2d4 | 是 | 否 | N | 15 | M-43 |
-| 食尸鬼 Ghast | 4 | 15” | 4 | 22 | 3 | 1d4/1d4/1d8 | 是 | 是 | CE | 15 | M-43 |
+| 树精（Dryad） | 9 | 12” | 2 | 9 | 1 | 1d4 | 是 | 是 | N | 16 | dl1-9 |
+| 野狗（Dog, Wild） | 7 | 15” | 1+1 | 8 | 1 | 1d4 | 否 | 否 | N | 18 | dl2-30 |
+| 麋鹿（Elk） | 8 | 18” | 3 | 15 | 1 | 1d4 | 否 | 否 | N | 16 | dl2-30 |
+| <strong>奎利内斯提精灵（Qualinesti Elf）：边境巡逻（Border Patrol）</strong> | 5 | 12” | 2+2 | 17 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl1-8 |
+| <strong>奎利内斯提精灵：战士（Fighter）</strong> | 4 | 12” | 3 | 20 | 1 | 1d8+2 或 1d6+1 | 否 | 否 | LG | 17 | dl2-12 |
+| <strong>奎利内斯提精灵：魔法使用者（Magic-User）</strong> | 8 | 12” | 5 | 13 | 1 | 1d4 | 是 | 否 | LG | 20 | dl2-12 |
+| <strong>奎利内斯提精灵：战士（Warriors）</strong> | 5 | 12” | 1+1 | 7 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl2-12 |
+| 巨蛙（Frog, Giant） | 7 | 3”/9” | 3 | 16 | 1 | 2d4 | 是 | 否 | N | 16 | M-41 |
+| 沼喉怪（Froghemoth） | 2/4/6 | 2”/18” | 1 | 69 | 5 | 15d10 | 是 | 是 | N | 7 | M2-67 |
+| 紫色真菌（Fungus, Violet） | 7 | 1” | 3 | 17 | 1–4 | 腐烂 | 是 | 否 | N | 16 | M-42 |
+| 凝胶立方（Gelatinous Cube） | 8 | 6” | 4 | 21 | 1 | 2d4 | 是 | 否 | N | 15 | M-43 |
+| 食尸鬼（Ghast） | 4 | 15” | 4 | 22 | 3 | 1d4/1d4/1d8 | 是 | 是 | CE | 15 | M-43 |
 | 鬼魂 Ghoul | 6 | 9” | 2 | 11 | 3 | 1d3/1d3/1d6 | 是 | 是 | CE | 16 | M-43 |
 | 山丘巨人 Giant, Hill | 4 | 12” | 8+2 | 45 | 1 | 2d8 | 是 | 否 | CE | 12 | M-45 |
 | 地精 Goblin | 6 | 6” | 1-1 | 3 | 1 | 1d6 | 否 | 否 | LE | 20 | dl2-30 |
@@ -47,60 +47,60 @@
 
 ## 第 116 页
 
-## 安萨隆统一怪物图表 Unified Ansalon Monster Chart
+## 安萨隆统一怪物图表（Unified Ansalon Monster Chart）
 
-<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为统一怪物表续页，原书表格底纹、列标题和出处脚注均已转录。
+<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接统一怪物表，原书表格底纹、列标题和出处脚注均已转录。
 
 | 名称 | AC | MV | HD | hp | #AT | 伤害 | SA | SD | 阵营 | THAC0 | 出处 |
 | --- | ---: | --- | ---: | ---: | ---: | --- | --- | --- | --- | ---: | --- |
 | Gorzaug（V 型恶魔） | -7/-5 | 12” | 7+7 | 41 | 7 | 1d8 | 是 | 是 | CE | 12 | M-19 |
-| 绿泥 Green Slime | 9 | 0” | 2 | 10 | 0 | 腐烂 | 是 | 是 | N | 16 | M-49 |
-| 哀嚎之魂 Groaning Spirit | 0 | 15” | 7 | 36 | 1 | 1d8 | 是 | 是 | CE | 13 | M-50 |
-| 沟谷矮人 Gully Dwarf | 8 | 12” | 4 | 14 | 1 | 1d6 | 否 | 是 | N | 15 | DL-67 |
-| 熊地精 Hobgoblin | 5 | 9” | 1+1 | 5 | 1 | 1d8 | 否 | 否 | LE | 18 | dl1-4 |
-| 巨型水蛭 Leech, Giant | 9 | 3” | 4 | 18 | 1 | 1d4 | 是 | 否 | N | 15 | M-60 |
-| 坎德人 Kender | 5 | 9” | 3 | 12 | 1 | 1d4 | 是 | 否 | CG | 20 | DL-51 |
-| <strong>人类 Man：自由战士 Freedom Fighter</strong> | 7 | 12” | 3 | 18 | 1 | 1d8 | 否 | 否 | NG | 18 | dl1-14 |
-| <strong>人类：角斗士 Gladiator</strong> | 4 | 9” | 2 | 11 | 3 | 1d3/1d3/1d6 | 是 | 是 | CE | 16 | dl1-14 |
-| <strong>人类：城市卫兵 Guard, City</strong> | 8 | 12” | 2 | 8 | 1 | 1d6 | 否 | 否 | 任意 | 20 | dl1-10 |
-| <strong>人类：神圣卫兵 Guard, Holy</strong> | 4 | 12” | 4 | 25 | 1 | 1d8 | 否 | 否 | CG | 18 | dl1-7 |
-| <strong>人类：劳工 Laborer</strong> | 9 | 12” | 1 | 4 | 1 | 1d6 | 否 | 否 | N | 20 | dl1-14 |
-| <strong>人类：雇佣兵 Mercenary</strong> | 6 | 9” | 2 | 10 | 1 | 1d8 | 否 | 否 | NE | 20 | dl1-14 |
-| <strong>人类：商人 Merchant</strong> | 10 | 12” | 1 | 5 | 1 | 1d4 | 否 | 否 | N | 20 | dl1-14 |
-| <strong>人类：军官 Officer</strong> | 3 | 9” | 7 | 37 | 1 | 1d8+2 | 否 | 否 | LE | 12 | dl1-14 |
-| <strong>人类：难民 Refugees</strong> | 8–10 | 12” | 0–3 | 任意 | 1 | 1d4 | 否 | 否 | 任意 | 任意 | dl1-7 |
-| <strong>人类：奴隶 Slave</strong> | 10 | 12” | 1 | 3 | 1 | 1d4 | 否 | 否 | N | 20 | dl1-14 |
-| <strong>人类：城镇居民 Townsperson</strong> | 10 | 12” | 1 | 5 | 1 | 1d4 | 否 | 否 | 任意 | 20 | dl1-5 |
-| <strong>人类：荡妇 Trollop</strong> | 9 | 12” | 1 | 4 | 1 | 1d6 | 否 | 否 | N | 20 | dl1-14 |
-| 牛头人 Minotaur | 6 | 12” | 6+3 | 33 | 1 | 1d10 | 否 | 是 | CE | 13 | DL-69 |
-| 巨蝠 Mobat | 7 | 3”/15” | 4 | 19 | 1 | 2d4 | 是 | 是 | NE | 15 | M2-15 |
-| 棕色霉菌 Mold, Brown | 9 | 0” | 无 | 无 | 0 | 0 | 是 | 是 | N | 无 | M-71 |
-| 黄色霉菌 Mold, Yellow | 9 | 0” | 无 | 无 | 1 | 1d8 | 是 | 是 | N | 特殊 | M-71 |
-| 食人魔 Ogre | 5 | 9” | 4+1 | 26 | 1 | 1d10 | 否 | 否 | CE | 15 | M-75 |
-| 巨型足鞭 Pedipalp, Huge | 4 | 9” | 2+2 | 14 | 3 | 1d6/1d6/1d8 | 是 | 否 | N | 16 | M2-100 |
-| 天马 Pegasus | 6 | 24”/48” | 4 | 18 | 3 | 1d8/1d8/1–3 | 否 | 否 | CG | 16 | dl1-9 |
-| 巨鼠 Rat, Giant | 7 | 12”/16” | 1/2 | 3 | 1 | 1d3 | 是 | 否 | N | 20 | M-81 |
-| 骷髅 Skeleton | 7 | 12” | 1 | 5 | 1 | 1d6 | 否 | 是 | N | 19 | M-87 |
-| 巨型蛞蝓 Slug, Giant | 8 | 6” | 12 | 58 | 1 | 1d12 | 是 | 否 | N | 9 | dl2-20 |
-| <strong>蛇 Snake：巨型蟒蛇 Giant Constrictor</strong> | 5 | 9” | 6+1 | 31 | 2 | 1d4/2d4 | 是 | 否 | N | 13 | M-88 |
+| 绿泥（Green Slime） | 9 | 0” | 2 | 10 | 0 | 腐烂 | 是 | 是 | N | 16 | M-49 |
+| 哀嚎之魂（Groaning Spirit） | 0 | 15” | 7 | 36 | 1 | 1d8 | 是 | 是 | CE | 13 | M-50 |
+| 沟谷矮人（Gully Dwarf） | 8 | 12” | 4 | 14 | 1 | 1d6 | 否 | 是 | N | 15 | DL-67 |
+| 熊地精（Hobgoblin） | 5 | 9” | 1+1 | 5 | 1 | 1d8 | 否 | 否 | LE | 18 | dl1-4 |
+| 巨型水蛭（Leech, Giant） | 9 | 3” | 4 | 18 | 1 | 1d4 | 是 | 否 | N | 15 | M-60 |
+| 坎德人（Kender） | 5 | 9” | 3 | 12 | 1 | 1d4 | 是 | 否 | CG | 20 | DL-51 |
+| <strong>人类：自由战士（Man: Freedom Fighter）</strong> | 7 | 12” | 3 | 18 | 1 | 1d8 | 否 | 否 | NG | 18 | dl1-14 |
+| <strong>人类：角斗士（Gladiator）</strong> | 4 | 9” | 2 | 11 | 3 | 1d3/1d3/1d6 | 是 | 是 | CE | 16 | dl1-14 |
+| <strong>人类：城市卫兵（Guard, City）</strong> | 8 | 12” | 2 | 8 | 1 | 1d6 | 否 | 否 | 任意 | 20 | dl1-10 |
+| <strong>人类：神圣卫兵（Guard, Holy）</strong> | 4 | 12” | 4 | 25 | 1 | 1d8 | 否 | 否 | CG | 18 | dl1-7 |
+| <strong>人类：劳工（Laborer）</strong> | 9 | 12” | 1 | 4 | 1 | 1d6 | 否 | 否 | N | 20 | dl1-14 |
+| <strong>人类：雇佣兵（Mercenary）</strong> | 6 | 9” | 2 | 10 | 1 | 1d8 | 否 | 否 | NE | 20 | dl1-14 |
+| <strong>人类：商人（Merchant）</strong> | 10 | 12” | 1 | 5 | 1 | 1d4 | 否 | 否 | N | 20 | dl1-14 |
+| <strong>人类：军官（Officer）</strong> | 3 | 9” | 7 | 37 | 1 | 1d8+2 | 否 | 否 | LE | 12 | dl1-14 |
+| <strong>人类：难民（Refugees）</strong> | 8–10 | 12” | 0–3 | 任意 | 1 | 1d4 | 否 | 否 | 任意 | 任意 | dl1-7 |
+| <strong>人类：奴隶（Slave）</strong> | 10 | 12” | 1 | 3 | 1 | 1d4 | 否 | 否 | N | 20 | dl1-14 |
+| <strong>人类：城镇居民（Townsperson）</strong> | 10 | 12” | 1 | 5 | 1 | 1d4 | 否 | 否 | 任意 | 20 | dl1-5 |
+| <strong>人类：荡妇（Trollop）</strong> | 9 | 12” | 1 | 4 | 1 | 1d6 | 否 | 否 | N | 20 | dl1-14 |
+| 牛头人（Minotaur） | 6 | 12” | 6+3 | 33 | 1 | 1d10 | 否 | 是 | CE | 13 | DL-69 |
+| 巨蝠（Mobat） | 7 | 3”/15” | 4 | 19 | 1 | 2d4 | 是 | 是 | NE | 15 | M2-15 |
+| 棕色霉菌（Mold, Brown） | 9 | 0” | 无 | 无 | 0 | 0 | 是 | 是 | N | 无 | M-71 |
+| 黄色霉菌（Mold, Yellow） | 9 | 0” | 无 | 无 | 1 | 1d8 | 是 | 是 | N | 特殊 | M-71 |
+| 食人魔（Ogre） | 5 | 9” | 4+1 | 26 | 1 | 1d10 | 否 | 否 | CE | 15 | M-75 |
+| 巨型足鞭（Pedipalp, Huge） | 4 | 9” | 2+2 | 14 | 3 | 1d6/1d6/1d8 | 是 | 否 | N | 16 | M2-100 |
+| 天马（Pegasus） | 6 | 24”/48” | 4 | 18 | 3 | 1d8/1d8/1–3 | 否 | 否 | CG | 16 | dl1-9 |
+| 巨鼠（Rat, Giant） | 7 | 12”/16” | 1/2 | 3 | 1 | 1d3 | 是 | 否 | N | 20 | M-81 |
+| 骷髅（Skeleton） | 7 | 12” | 1 | 5 | 1 | 1d6 | 否 | 是 | N | 19 | M-87 |
+| 巨型蛞蝓（Slug, Giant） | 8 | 6” | 12 | 58 | 1 | 1d12 | 是 | 否 | N | 9 | dl2-20 |
+| <strong>蛇：巨型蟒蛇（Snake: Giant Constrictor）</strong> | 5 | 9” | 6+1 | 31 | 2 | 1d4/2d4 | 是 | 否 | N | 13 | M-88 |
 | <strong>蛇：毒蛇 Poisonous</strong> | 6 | 15” | 2+1 | 10 | 1 | 1+毒（3d4） | 是 | 否 | N | 16 | M2-111 |
-| <strong>幽灵爪牙 Spectral Minion：狂欢者 Reveler</strong> | 2 | 30” | 5 | 22 | 1 | 1d4 + 狂欢 | 是 | 是 | CE | 15 | DL-70 |
+| <strong>幽灵爪牙：狂欢者（Spectral Minion: Reveler）</strong> | 2 | 30” | 5 | 22 | 1 | 1d4 + 狂欢 | 是 | 是 | CE | 15 | DL-70 |
 | <strong>幽灵爪牙：守卫 Guardian</strong> | 2 | 30” | 10 | 46 | 1 | 1d10 | 否 | 是 | LG | 10 | DL-70 |
 | <strong>幽灵爪牙：战士 Warrior</strong> | 2 | 30” | 9 | 40 | 1 | 1d10 | 否 | 是 | 任意 | 12 | DL-70 |
 | <strong>幽灵爪牙：狂战士 Berserker</strong> | 2 | 30” | 10 | 48 | 2 | 1d10/1d10 | 否 | 是 | CE | 10 | DL-70 |
 | <strong>幽灵爪牙：哲学家 Philosopher</strong> | 2 | 30” | 17 | 4 | 无 | 无 | 否 | 是 | 任意 | 无 | DL-70 |
 | <strong>幽灵爪牙：搜寻者 Searcher</strong> | 2 | 30” | 6 | 30 | 无 | 无 | 否 | 是 | LE | 无 | DL-70 |
-| 巨蜘蛛 Spider, Huge | 6 | 18” | 2+2 | 11 | 1 | 1d6 + 毒 | 是 | 否 | N | 16 | M-90 |
-| 白鹿 Stag, White | 5 | 24” | 10 | 77 | 3 | 1d12/1d6/1d6 | 否 | 是 | LG | 10 | dl1-6 |
-| 巨魔 Troll | 4 | 12” | 6+6 | 37 | 3 | 5–8/5–8/2d6 | 是 | 是 | CE | 13 | M-97 |
+| 巨蜘蛛（Spider, Huge） | 6 | 18” | 2+2 | 11 | 1 | 1d6 + 毒 | 是 | 否 | N | 16 | M-90 |
+| 白鹿（Stag, White） | 5 | 24” | 10 | 77 | 3 | 1d12/1d6/1d6 | 否 | 是 | LG | 10 | dl1-6 |
+| 巨魔（Troll） | 4 | 12” | 6+6 | 37 | 3 | 5–8/5–8/2d6 | 是 | 是 | CE | 13 | M-97 |
 | 独角兽（森林之主）Unicorn (Forestmaster) | 2 | 24” | 10 | 60 | 3 | 1d8/1d8/1d20 | 否 | 否 | CG | 10 | dl1-9 |
-| 吸血鬼 Vampire | 1 | 12”/18” | 8+3 | 42 | 1 | 1d6+4 | 是 | 是 | CE | 12 | M-99 |
-| 鬼战士 Wight | 5 | 12” | 4+3 | 27 | 1 | 1d4 | 是 | 是 | LE | 15 | M-100 |
-| 枯萎草 Witherweed | 8 | 0” | 3 | 16 | 1d12+12 | 特殊 | 是 | 是 | N | 16 | FF-95 |
-| 怨灵 Wraith | 4 | 12”/24” | 5+3 | 26 | 1 | 1d6 | 是 | 是 | LE | 15 | M-102 |
-| 飞龙 Wyvern | 3 | 6”/24” | 7+7 | 43 | 2 | 2d8/1d6 + 毒 | 是 | 否 | NE | 12 | dl2-30 |
-| 黄色麝香爬藤 Yellow Musk Creeper | 7 | 0” | 3 | 15 | 2d6 | 特殊 | 是 | 是 | N | 16 | FF-97 |
-| 丧尸 Zombie | 8 | 6” | 2 | 11 | 1 | 1d8 | 否 | 否 | N | 16 | M-103 |
+| 吸血鬼（Vampire） | 1 | 12”/18” | 8+3 | 42 | 1 | 1d6+4 | 是 | 是 | CE | 12 | M-99 |
+| 鬼战士（Wight） | 5 | 12” | 4+3 | 27 | 1 | 1d4 | 是 | 是 | LE | 15 | M-100 |
+| 枯萎草（Witherweed） | 8 | 0” | 3 | 16 | 1d12+12 | 特殊 | 是 | 是 | N | 16 | FF-95 |
+| 怨灵（Wraith） | 4 | 12”/24” | 5+3 | 26 | 1 | 1d6 | 是 | 是 | LE | 15 | M-102 |
+| 飞龙（Wyvern） | 3 | 6”/24” | 7+7 | 43 | 2 | 2d8/1d6 + 毒 | 是 | 否 | NE | 12 | dl2-30 |
+| 黄迷香爬藤（Yellow Musk Creeper） | 7 | 0” | 3 | 15 | 2d6 | 特殊 | 是 | 是 | N | 16 | FF-97 |
+| 丧尸（Zombie） | 8 | 6” | 2 | 11 | 1 | 1d8 | 否 | 否 | N | 16 | M-103 |
 
 <strong>出处缩写：</strong>M-X = 《怪物图鉴》第 X 页；M2-X = 《怪物图鉴 II》第 X 页；FF-X = 《恶魔宝典》第 X 页；DL-X = 《龙枪冒险》第 X 页；dlY-X = 《龙枪》模组第 Y 册第 X 页。
 
@@ -138,22 +138,22 @@
 
 | 角色种族 | STR 力量 | INT 智力 | WIS 感知 | DEX 敏捷 | CON 体质 | CHA 魅力 | 可接受职业 | 出处 |
 |---|---:|---:|---:|---:|---:|---:|---|---|
-| 人类 Human | -/- | -/- | -/- | -/- | -/- | -/- | Any* | 《Player's Handbook》 |
-| 坎德人 Kender | 6/16 | 6/- | 3/16 | 8/- | 10/- | 6/- | F, B, R, T, A, H | 《DL Adventures》 |
-| 侏儒（疯狂）Gnomes (Mad) | 6/- | 7/- | -/- | -/- | 8/- | -/- | CL, F, I, TA | 《Player's Handbook》 |
-| 工匠侏儒 Tinker Gnomes | 6/- | 8/- | -/12 | 8/- | 8/- | -/- | TG | 《DL Adventures》 |
+| 人类（Human） | -/- | -/- | -/- | -/- | -/- | -/- | Any* | 《Player's Handbook》 |
+| 坎德人（Kender） | 6/16 | 6/- | 3/16 | 8/- | 10/- | 6/- | F, B, R, T, A, H | 《DL Adventures》 |
+| 疯侏儒（Gnomes, Mad） | 6/- | 7/- | -/- | -/- | 8/- | -/- | CL, F, I, TA | 《Player's Handbook》 |
+| 工匠侏儒（Tinker Gnomes） | 6/- | 8/- | -/12 | 8/- | 8/- | -/- | TG | 《DL Adventures》 |
 | 精灵（黑暗）Elves (Dark) | -/- | -/- | -/- | 7/- | 6/- | 8/- | CL, D, F, R, MU, W, T, A | 《Player's Handbook》 |
-| 奎林奈斯提 Qualinesti | 7/- | 8/- | 6/- | 7/- | 7/- | 8/- | C, F, W, T, A, H, R | 《DL Adventures》 |
-| 西瓦纳斯提 Silvanesti | -/- | 10/- | 6/- | 7/- | 6/- | 12/- | P, M, W, WH, F | 《DL Adventures》 |
-| 卡贡奈斯提 Kagonesti | 8/- | -/12 | 8/- | 8/- | 8/- | 8/- | F, B, R, T, A, H | 《DL Adventures》 |
-| 迪梅尔奈斯提 Dimernesti | -/- | 8/- | 8/- | 10/- | -/- | 8/- | C, P, F, W, H | 《DL Adventures》 |
-| 半精灵 Half Elves | -/- | 4/- | -/- | 6/- | 6/- | -/- | C, P, KC, KS, F, R, W, T, A, H | 《DL Adventures》 |
-| 矮人（无父者）Dwarves (Fatherless) | 8/- | -/- | -/- | -/17 | 12/- | -/16 | F, B, R, T, A, H | 《Player's Handbook》 |
-| 山丘矮人 Hill Dwarves | 9/- | -/- | -/- | -/17 | 14/- | -/16 | F, B, R, T, A, H | 《DL Adventures》 |
-| 山地矮人 Mountain Dwarves | 8/- | -/- | -/- | -/17 | 12/- | -/16 | C, P, F, T, A, H | 《DL Adventures》 |
-| 沟壑矮人 Gully Dwarves | 6/- | -/9 | -/9 | 6/- | -/12 | -/9 | F, B, T, A, H | 《DL Adventures》 |
-| 艾尔达 Irda | 12/- | 5/15 | 10/- | 8/- | 15/- | 15/- | C, P, F, R, W, T, A, H | 《DL Adventures》 |
-| 牛头人 Minotaurs | 12/- | 5/- | -/12 | 8/- | 12/- | -/12 | F, B, R, W, H | 《DL Adventures》 |
+| 奎利内斯提（Qualinesti） | 7/- | 8/- | 6/- | 7/- | 7/- | 8/- | C, F, W, T, A, H, R | 《DL Adventures》 |
+| 西尔瓦内斯提（Silvanesti） | -/- | 10/- | 6/- | 7/- | 6/- | 12/- | P, M, W, WH, F | 《DL Adventures》 |
+| 卡贡奈斯提（Kagonesti） | 8/- | -/12 | 8/- | 8/- | 8/- | 8/- | F, B, R, T, A, H | 《DL Adventures》 |
+| 迪梅尔奈斯提（Dimernesti） | -/- | 8/- | 8/- | 10/- | -/- | 8/- | C, P, F, W, H | 《DL Adventures》 |
+| 半精灵（Half-Elves） | -/- | 4/- | -/- | 6/- | 6/- | -/- | C, P, KC, KS, F, R, W, T, A, H | 《DL Adventures》 |
+| 矮人（无父者，Dwarves/Fatherless） | 8/- | -/- | -/- | -/17 | 12/- | -/16 | F, B, R, T, A, H | 《Player's Handbook》 |
+| 丘陵矮人（Hill Dwarves） | 9/- | -/- | -/- | -/17 | 14/- | -/16 | F, B, R, T, A, H | 《DL Adventures》 |
+| 山地矮人（Mountain Dwarves） | 8/- | -/- | -/- | -/17 | 12/- | -/16 | C, P, F, T, A, H | 《DL Adventures》 |
+| 沟谷矮人（Gully Dwarves） | 6/- | -/9 | -/9 | 6/- | -/12 | -/9 | F, B, T, A, H | 《DL Adventures》 |
+| 伊尔达（Irda） | 12/- | 5/15 | 10/- | 8/- | 15/- | 15/- | C, P, F, R, W, T, A, H | 《DL Adventures》 |
+| 牛头人（Minotaurs） | 12/- | 5/- | -/12 | 8/- | 12/- | -/12 | F, B, R, W, H | 《DL Adventures》 |
 
 `*` 除工匠侏儒以外；只有侏儒能够成为工匠侏儒。
 
@@ -366,7 +366,7 @@
 
 ## 第 121 页
 
-<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为善良诸神影响领域表的续页。
+<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接善良诸神影响领域表。
 
 ### 治疗、死灵、植物、防护、星辰、召唤与天气
 
@@ -582,7 +582,7 @@
 
 ## 第 123 页
 
-<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为中立诸神影响领域表的续页。
+<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接中立诸神影响领域表。
 
 ### 治疗、死灵、植物、防护、星辰、召唤与天气
 
@@ -684,7 +684,7 @@
 
 ## 诸神的影响领域：邪恶诸神（印刷第 124–125 页）
 
-邪恶诸神列顺序为：Tak = 塔克西丝（Takhisis），Sarg = 沙苟纳（Sargonnas），Morg = Morgion，Chem = 凯魔须（Chemosh），Zeb = 赛波音（Zeboim），Hidd = 西都凯（Hiddukel）。下表“可用性”栏始终按此顺序记录六列。
+邪恶诸神列顺序为：Tak = 塔克西丝（Takhisis），Sarg = 沙苟纳（Sargonnas），Morg = 魔吉安（Morgion），Chem = 凯魔须（Chemosh），Zeb = 赛波音（Zeboim），Hidd = 西都凯（Hiddukel）。下表“可用性”栏始终按此顺序记录六列。
 
 | 领域 | 法术 | 书 | 环 | 可用性（Tak／Sarg／Morg／Chem／Zeb／Hidd） |
 |---|---|---|---:|---|
@@ -796,7 +796,7 @@
 
 ## 第 125 页
 
-<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为邪恶诸神影响领域表的续页。
+<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接邪恶诸神影响领域表。
 
 ### 治疗、死灵、植物、防护、星辰、召唤与天气
 
@@ -900,19 +900,19 @@
 
 以下法术列表中，第一项是略写的法术名称，第二项是法术环级与魔法类型：`C` = 牧师，`D` = 德鲁伊，`I` = 幻术师，`M` = 魔法使用者。组合学派法术的括号内列出涉及的另一种法术类型：`A` = 变化，`Ab` = 防护，`C` = 咒法，`Ch` = 魅惑，`D` = 卜测，`E` = 力场，`En` = 惑控，`I` = 秘法，`Il` = 幻术，`N` = 死灵，`P` = 幻象，`S` = 召唤。
 
-### 咒法／召唤 Conjuration/Summoning
+### 咒法／召唤（Conjuration/Summoning）
 
-蜜蜂 Bee（PC，仅 S）；蓝光 Bluelight（PC，仅 C）；虫 Bug（PC，仅 S）；蚋 Gnats（PC，仅 S）；老鼠 Mouse（PC，仅 S）；蜘蛛 Spider（PC，仅 S）；小修 Tweak（PC，仅 C）；解锁 Unlock（PC，仅 C）；护甲 Armor（1M，仅 C）；召唤 Beckon（5M，逆转／回避）；卡科恶魔 Cacodemon（7M）；咒唤元素 Conjure Elem（5M）；死亡法术 Death Spell（6M）；德罗米吉的即时召唤 卓姆吉（Drawmij）'s Instant Summons（7M）；附魔物品 Enchant an Item（6M）；诱捕 Ensnarement（6M）；埃瓦德的黑触手 Evard's Black Tentacles（4M）；寻找魔宠 Find Familiar（1M）；火焰箭 Flame Arrow（3M）；门 Gate（9M）；隐形追踪者 Invisible Stalker（6M）；李奥蒙德的箱子 Leomund's Chest（5M，Ab）；有限许愿术 Limited Wish（7M）；魔法 Jar（5M）；物质 Material（3M，C & E）；迷宫 Maze（8M）；怪物召唤 I Monster Summoning I（3M）；怪物召唤 II（4M）；怪物召唤 III（5M）；怪物召唤 IV（6M）；怪物召唤 V（7M）；怪物召唤 VI（8M）；怪物召唤 VII（9M）；魔邓肯的猎犬 魔邓肯（Mordenkainen）'s Hound（5M）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M）；坐骑 Mount（1M）；致盲言语 Power Word, Blind（8M）；死亡言语 Power Word, Kill（9M）；沉默言语 Power Word, Sun（7M）；棱彩法球 Prismatic Sphere（9M，Ab）；推 Push（1M）；闪光蛇徽记 Sepia Snake Sigil（3M）；徽记 Symbol（8M）；灵魂陷阱 Trap the Soul（8M）；隐形仆役 Unseen Servant（1M）；祈愿 Wish（9M）；改变现实 Alter Reality（7I，Il/P）；咒唤兽群 Conjure Animals（6I）；迷宫 Maze（5I）；棱彩喷射 Prismatic Spray（7I，Ab）；棱彩墙 Prismatic Wall（7I，Ab）；召唤阴影 Summon Shadow（5I）。
+蜜蜂 Bee（PC，仅 S）；蓝光 Bluelight（PC，仅 C）；虫 Bug（PC，仅 S）；蚋 Gnats（PC，仅 S）；老鼠 Mouse（PC，仅 S）；蜘蛛 Spider（PC，仅 S）；小修 Tweak（PC，仅 C）；解锁 Unlock（PC，仅 C）；护甲 Armor（1M，仅 C）；召唤 Beckon（5M，逆转／回避）；卡科恶魔 Cacodemon（7M）；咒唤元素 Conjure Elem（5M）；死亡法术 Death Spell（6M）；德罗米吉的即时召唤 卓姆吉（Drawmij）'s Instant Summons（7M）；附魔物品 Enchant an Item（6M）；诱捕 Ensnarement（6M）；埃瓦德的黑触手 Evard's Black Tentacles（4M）；寻找魔宠 Find Familiar（1M）；火焰箭 Flame Arrow（3M）；门 Gate（9M）；隐形追踪者 Invisible Stalker（6M）；李奥蒙德的箱子 Leomund's Chest（5M，Ab）；有限许愿术 Limited Wish（7M）；魔法罐 Jar（5M）；物质 Material（3M，C & E）；迷宫 Maze（8M）；怪物召唤 I Monster Summoning I（3M）；怪物召唤 II（4M）；怪物召唤 III（5M）；怪物召唤 IV（6M）；怪物召唤 V（7M）；怪物召唤 VI（8M）；怪物召唤 VII（9M）；魔邓肯的猎犬 魔邓肯（Mordenkainen）'s Hound（5M）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M）；坐骑 Mount（1M）；致盲言语 Power Word, Blind（8M）；死亡言语 Power Word, Kill（9M）；沉默言语 Power Word, Sun（7M）；棱彩法球 Prismatic Sphere（9M，Ab）；推 Push（1M）；闪光蛇徽记 Sepia Snake Sigil（3M）；徽记 Symbol（8M）；灵魂陷阱 Trap the Soul（8M）；隐形仆役 Unseen Servant（1M）；祈愿 Wish（9M）；改变现实 Alter Reality（7I，Il/P）；咒唤兽群 Conjure Animals（6I）；迷宫 Maze（5I）；棱彩喷射 Prismatic Spray（7I，Ab）；棱彩墙 Prismatic Wall（7I，Ab）；召唤阴影 Summon Shadow（5I）。
 
-### 秘法／力场 Invocation/Evocation
+### 秘法／力场（Invocation/Evocation）
 
 打嗝 Belch（PA）；闪现 Blink（PA）；寒冷 Chill（UC）；色彩 Color（UC）；咳嗽 Cough（PA）；减弱 Dampen（UC）；污秽 Dirty（RC）；尘土 Dusty（RC）；点头 Nod（PA）；盐 Salt（UC）；抓痕 Scratch（PA）；酸 Sour（RC）；喷嚏 Sneeze（PA）；香料 Spice（UC）；变甜 Sweeten（UC）；抽动 Twitch（PA）；温暖 Warm（UC）；哈欠 Yawn（PA）；怪异术 Weird（7I，Il/P）；发出标准火焰 Affect Normal Fires（1M）；水中呼吸 Airy Water（5M）；动物成长 Animal Growth（5M）；回避术 Avoidance（5M，Ab）；束缚 Bind（2M，En）；闪现 Blink（3M）；燃烧之手 Burning Hands（1M）；云爆术 Cloudburst（3M）；通晓语言 Comprehend Languages（1M）；持续光 Continual Light（2M）；操控天气 Control Weather（6M）；晶化术 Crystalbrittle（9M）；舞光术 Dancing Lights（1M）；半径 15 英尺黑暗 Darkness 15' r.（2M，En）；深袋术 Deeppockets（2M，En）；任意门 Dimension Door（4M）；解离术 Disintegrate（6M）；距离扭曲 Distance Distortion（5M）；二重维度 Duo-Dimension（7M）；附魔武器 Enchanted Weapon（4M）；放大 Enlarge（1M）；抹除 Erase（1M）；爆炸符文 Explosive Runes（3M）；延展术 I Extension I（4M）；延展术 II（5M）；延展术 III（6M）；鬼斧神工 Fabricate（5M，En）；羽落术 Feather Fall（1M）；火焰护盾 Fire Shield（4M，E）；火焰水 Firewater（1M）；炽焰法球 Flaming Sphere（2M，E）；飞行 Fly（3M）；黄金幻觉 Fool's Gold（2M）；玻璃化 Glassee（6M）；玻璃钢 Glassteel（8M）；铜墙铁壁 Guards & Wards（6M，E & En/Ch）；造风术 Gust of Wind（3M）；加速术 Haste（3M）；闭门术 Hold Portal（1M）；焚云术 Incendiary Cloud（8M，E）；红外视觉 Infravision（3M）；刺激 Irritation（2M）；物品 Item（3M）；跳跃 Jump（1M）；敲击术 Knock（2M）；李奥蒙德的箱子 Leomund's Chest（5M，C/S）；李奥蒙德的小屋 Leomund's Hut（3M）；李奥蒙德的避难所 Leomund's Shelter（4M，En）；悬浮术 Levitate（2M）；光 Light（1M）；降低水位 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克（Otiluke）'s Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；永久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；变形他人 Polymorph Other（4M）；自我变形 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞（Rary）'s Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；石转肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森（Tenser）'s Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
-### 惑控／魅惑 Enchantment/Charm
+### 惑控／魅惑（Enchantment/Charm）
 
 吱嘎 Creak（HC）；凝结 Curdle（RC）；分心 Distract（LC）；调味 Flavor（UC）；变鲜 Freshen（UC）；烟雾喷吐 Smokepuff（PC）；轻敲 Tap（HC）；口哨 Whistle（HC）；枯萎 Wilt（RC）；眨眼 Wink（PAC）；反感／同感 Antipathy/Sympathy（8M）；束缚 Bind（2M，En & A）；禁锢 Binding（8M，En & E）；魅惑怪物 Charm Monster（4M）；魅惑人类 Charm Person（1M）；魅惑植物 Charm Plants（7M）；困惑术 Confusion（4M）；深袋术 Deeppockets（2M，En & A）；要求 Demand（8M，En/Ch & E）；痛苦 Dolor（4M）；邪眼 Eyebite（5M，En/Charm & Il/P）；鬼斧神工 Fabricate（5M，En & A）；弱智术 Feeblemind（5M）；火焰魅惑 Fire Charm（4M）；遗忘 Forget（2M）；友谊 Friends（1M）；笨拙 Fumble（4M）；支配 Geas（5M）；铜墙铁壁 Guards & Wards（5M，En/Ch & A, E）；怪物定身术 Hold Monster（5M）；人类定身术 Hold Person（3M）；李奥蒙德的魔法床 Leomund's Belab（5M，E）；李奥蒙德的避难所 Leomund's Shelter（4M，En & A）；魔镜 Magic Mirror（4M，En & Conjuration）；群体魅惑 Mass Charm（8M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En & A）；欧提路克的恼人舞 欧提路克's Irritating Dance（8M）；削弱射线 Ray of Enfeeblement（2M）；符文 Run（1M，仅 En）；恐吓 Scare（2M）；沉没 Sink（8M，En & A）；睡眠 Sleep（1M）；召唤援助 Succor（9M，En & A）；暗示术 Suggestion（3M）；嘲弄 Taunt（1M，仅 En）；真名术 Truename（7M，En & A）；混沌 Chaos（5I）；困惑术 Confusion（4I）；情绪 Emotion（4I）；催眠术 Hypnotism（1I）；魔镜 Magic Mirror（5I，En & D）；群体暗示术 Mass Suggestion（6I）；行影术 Shadow Walk（7I，En & Il）；暗示术 Suggestion（3I）。
 
-### 变化 Alteration
+### 变化（Alteration）
 
 改变 Change（1C）；火指 Fire Finger（PC）；聚集 Gather（UC）；毛发 Hairy（RC）；结 Knot（RC）；噤声 Mute（LC）；抛光 Polish（UC）；礼物 Present（LC）；拆散 Ravel（RC）；发光 Shine（UC）；泼洒 Spill（RC）；萌发 Sprout（UC）；缝合 Stitch（UC）；纠缠 Tangle（RC）；失去光泽 Tarnish（RC）；系紧 Tie（UC）；解开 Untie（RC）；包裹 Wrap（UC）。
 
@@ -920,7 +920,7 @@
 
 彩色光 Colored Lights（MIC）；昏暗 Dim（MIC）；薄雾 Haze（MIC）；彩虹 Rainbow（MIC）；彩色宝珠 Chromatic Orb（1I，E）；色彩喷射 Color Spray（1I）；持续黑暗 Continual Darkness（3I）；持续光 Continual Light（3I）；舞光术 Dancing Lights（1I）；黑暗 Darkness（1I）；死亡迷雾 Death Fog（6I，E）；欺骗 Delude（3I）；梦 Dream（5I，Il/P）；云雾 Fog Cloud（2I）；反射凝视 Gaze Reflection（1I）；光 Light（1I）；魔嘴 Magic Mouth（2I）；大型鬼斧神工 Major Creation（5I）；次级鬼斧神工 Minor Creation（4I）；幻影护甲 Phantom Armor（1I，Il）；幻影之风 Phantom Wind（3I，P）；投影术 Project Image（5I，Il/P）；彩虹图案 Rainbow Pattern（4I，P）；魔绳术 Rope Trick（3I）；固态雾 Solid Fog（4I）；超视觉 Ultravision（2I）；空缺 Vacancy（4I，P）；雾墙 Wall of Fog（1I）；幽灵形态 Wraithform（3I，Il）；风讯术 Whispering Wind（2I，P）。
 
-### 死灵与卜测 Necromantic / Divination
+### 死灵与卜测（Necromantic / Divination）
 
 活化死尸 Animate Dead（5M）；克隆 Clone（8M）；假死 Feign Death（3M）；转生术 Reincarnate（6M）。
 
@@ -928,19 +928,19 @@
 
 ## 第 127 页
 
-<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为法术摘要续页。
+<strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接法术摘要。
 
 ## 法术摘要（印刷第 127 页）
 
-### 变化 Alteration
+### 变化（Alteration）
 
 降低水位 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克's Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；永久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；变形他人 Polymorph Other（4M）；自我变形 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞's Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；石转肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
-### 幻术／幻象 Illusion/Phantasms
+### 幻术／幻象（Illusion/Phantasms）
 
-脚步声 Footfall（HC，仅 Il）；呻吟 Groan（HC，仅 Il）；隐藏 Hide（LC，仅 Il）；呻吟 Moan（HC，仅 Il）；掌中戏法 Palm（LC，仅 Il）； rattling Rattle（HC，仅 Il）；砰响 Thump（HC，仅 Il）；声音幻象 Audible Glamer（2M）；邪眼 Eyebite（6M，En/Ch）；恐惧 Fear（4M）；幻觉地形 Hallucinatory Terrain（4M）；隐形 Invisibility（2M）；半径 10 英尺隐形 Invisibility 10' r.（3M）；李奥蒙德的陷阱 Leomund's Trap（2M）；群体隐形 Mass Invisibility（7M）；群体变形 Massmorph（4M）；镜像 Mirror Image（2M）；奈斯图的魔法灵光 涅斯图（Nystul）'s Magic Aura（1M）；魅影之力 Phantasmal Force（3M）；投影术 Project Image（6M，A）；隐匿 Sequester（7M，Ab）；拟像 Simulacrum（7M）；腹语术 Ventriloquism（1M）；面具 Mask（MIC，仅 Il）；海市蜃楼 Mirage（MIC，仅 Il）；噪声 Noise（MIC，仅 Il）；二维幻象 Two-Dimensional Illusion（MIC，仅 Il）；高级幻术 Advanced Illusion（5I）；改变现实 Alter Reality（7I，C/S）；变身术 Alter Self（2I，仅 Il & A）；声音幻象 Audible Glamer（1I）；失明 Blindness（2I）；朦胧术 Blur（2I）；改变外貌 Change Self（1I）；失聪 Deafness（2I）；半影怪 Demi-Shadow Monster（5I）；半影魔法 Demi-Shadow Magic（6I）；驱散疲劳 Dispel Exhaustion（4I）；迷魂 Fascinate（2I）；恐惧 Fear（3I）；幻觉地形 Hallucinatory Terrain（3I）；催眠图案 Hypnotic Pattern（2I）；幻术文书 Illusion Script（3I）；强化隐形 Improved Invisibility（4I）；强化魅影之力 Improved Phantasmal Force（2I）；半径 10 英尺隐形 Invisibility 10' r.（3I）；梦 Dream（5I，A）；隐形 Invisible（2I）；群体变形 Massmorph（4I）；海市蜃楼 Mirage Arcane（6I）；镜像 Mirror Image（2I）；误导术 Misdirection（2I）；误导幻象 Mislead（6I）；麻痹 Paralyzation（3I）；永久幻术 Permanent Illusion（6I）；幻景 Phantasmagoria（6I）；魅影之力 Phantasmal Force（1I）；幻影杀手 Phantasmal Killer（4I）；幻影护甲 Phantom Armor（1I，仅 Il & A）；魅影驹 Phantom Steed（3I，P & C）；幻影之风 Phantom Wind（3I，P & A）；程序幻术 Programmed Illusion（6I）；投影术 Project Image（5I，A）；彩虹图案 Rainbow Pattern（4I，P & A）；阴影 Shades（6I）；阴影之门 Shadow Door（5I）；阴影魔法 Shadow Magic（5I）；阴影怪物 Shadow Monsters（4I）；行影术 Shadow Walk（7I，Il & En）；幽灵之力 Spectral Force（3I）；惊吓 Spook（1I）；时光飞逝 Tempus Fugit（5I）；空缺 Vacancy（4I，P & A）；幻 veil Veil（6I）；腹语术 Ventriloquism（2I）；怪异术 Weird（7I，E）；风讯术 Whispering Wind（2I，P & A）；幽灵形态 Wraithform（3I，Il & A）。
+脚步声 Footfall（HC，仅 Il）；呻吟 Groan（HC，仅 Il）；隐藏 Hide（LC，仅 Il）；呻吟 Moan（HC，仅 Il）；掌中戏法 Palm（LC，仅 Il）；杂响 Rattle（HC，仅 Il）；砰响 Thump（HC，仅 Il）；声音幻象 Audible Glamer（2M）；邪眼 Eyebite（6M，En/Ch）；恐惧 Fear（4M）；幻觉地形 Hallucinatory Terrain（4M）；隐形 Invisibility（2M）；半径 10 英尺隐形 Invisibility 10' r.（3M）；李奥蒙德的陷阱 Leomund's Trap（2M）；群体隐形 Mass Invisibility（7M）；群体变形 Massmorph（4M）；镜像 Mirror Image（2M）；奈斯图的魔法灵光 涅斯图（Nystul）'s Magic Aura（1M）；魅影之力 Phantasmal Force（3M）；投影术 Project Image（6M，A）；隐匿 Sequester（7M，Ab）；拟像 Simulacrum（7M）；腹语术 Ventriloquism（1M）；面具 Mask（MIC，仅 Il）；海市蜃楼 Mirage（MIC，仅 Il）；噪声 Noise（MIC，仅 Il）；二维幻象 Two-Dimensional Illusion（MIC，仅 Il）；高级幻术 Advanced Illusion（5I）；改变现实 Alter Reality（7I，C/S）；变身术 Alter Self（2I，仅 Il & A）；声音幻象 Audible Glamer（1I）；失明 Blindness（2I）；朦胧术 Blur（2I）；改变外貌 Change Self（1I）；失聪 Deafness（2I）；半影怪 Demi-Shadow Monster（5I）；半影魔法 Demi-Shadow Magic（6I）；驱散疲劳 Dispel Exhaustion（4I）；迷魂 Fascinate（2I）；恐惧 Fear（3I）；幻觉地形 Hallucinatory Terrain（3I）；催眠图案 Hypnotic Pattern（2I）；幻术文书 Illusion Script（3I）；强化隐形 Improved Invisibility（4I）；强化魅影之力 Improved Phantasmal Force（2I）；半径 10 英尺隐形 Invisibility 10' r.（3I）；梦 Dream（5I，A）；隐形 Invisible（2I）；群体变形 Massmorph（4I）；海市蜃楼 Mirage Arcane（6I）；镜像 Mirror Image（2I）；误导术 Misdirection（2I）；误导幻象 Mislead（6I）；麻痹 Paralyzation（3I）；永久幻术 Permanent Illusion（6I）；幻景 Phantasmagoria（6I）；魅影之力 Phantasmal Force（1I）；幻影杀手 Phantasmal Killer（4I）；幻影护甲 Phantom Armor（1I，仅 Il & A）；魅影驹 Phantom Steed（3I，P & C）；幻影之风 Phantom Wind（3I，P & A）；程序幻术 Programmed Illusion（6I）；投影术 Project Image（5I，A）；彩虹图案 Rainbow Pattern（4I，P & A）；阴影 Shades（6I）；阴影之门 Shadow Door（5I）；阴影魔法 Shadow Magic（5I）；阴影怪物 Shadow Monsters（4I）；行影术 Shadow Walk（7I，Il & En）；幽灵之力 Spectral Force（3I）；惊吓 Spook（1I）；时光飞逝 Tempus Fugit（5I）；空缺 Vacancy（4I，P & A）；面纱 Veil（6I）；腹语术 Ventriloquism（2I）；怪异术 Weird（7I，E）；风讯术 Whispering Wind（2I，P & A）；幽灵形态 Wraithform（3I，Il & A）。
 
-### 防护 Abjurations
+### 防护（Abjurations）
 
 清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；驱散魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；次级法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；棱彩法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；驱散魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
 
