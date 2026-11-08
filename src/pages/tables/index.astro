@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { tables } from '../../data/public/tables';
+import { books } from '../../data/public/books';
+const tableSource=(table:typeof tables[number])=>books.find(book=>book.id===table.sourceHref.split('/')[2])?.short??'规则书';
 const dungeon = tables.filter((table) => table.category === '地下城');
 const encounter = tables.filter((table) => table.category === '随机遭遇');
 const treasure = tables.filter((table) => table.category === '战利品');
@@ -8,7 +10,7 @@ const period = dungeon.find((table) => table.title.startsWith('表 I：'));
 ---
 <BaseLayout title="随机表">
   <h1>随机表</h1>
-  <p><a href="/reference/">检索不全书中的全部规则表 →</a></p>
+  <p><a href="/reference/">检索全书中的全部规则表 →</a></p>
   <p>地下城 {dungeon.length} 表 · 遭遇 {encounter.length} 表 · 财宝与魔法物品 {treasure.length} 表</p>
 
   <h2 id="dungeon">随机地下城</h2>
@@ -18,7 +20,7 @@ const period = dungeon.find((table) => table.title.startsWith('表 I：'));
 
   <h2 id="encounter">随机遭遇</h2>
   <p><label for="encounter-table">选择环境／等级表：</label>
-    <select id="encounter-table">{encounter.map((table) => <option value={table.id}>{table.title}（{table.dice}）</option>)}</select>
+    <select id="encounter-table">{encounter.map((table) => <option value={table.id}>{tableSource(table)} · {table.title}（{table.dice}）</option>)}</select>
     <button type="button" id="roll-encounter">掷骰</button></p>
   <div id="encounter-result" aria-live="polite">尚未掷骰。</div>
   <p><a href="/books/dmg/dmg-appendix-c-random-monster-encounters/">阅读附录 C 随机遭遇说明</a></p>
@@ -26,13 +28,13 @@ const period = dungeon.find((table) => table.title.startsWith('表 I：'));
   <h2 id="treasure">战利品与魔法物品</h2>
   <p>先确定宝藏类型，再掷对应的货币、魔法或混合宝藏表。</p>
   <p><label for="treasure-table">选择财宝表：</label>
-    <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{table.sourceHref.includes('/ua/') ? 'UA' : 'DMG'} · {table.title}（{table.dice}）</option>)}</select>
+    <select id="treasure-table">{treasure.map((table) => <option value={table.id} selected={table.id === 'dmg-treasure-table-7'}>{tableSource(table)} · {table.title}（{table.dice}）</option>)}</select>
     <button type="button" id="roll-treasure">掷骰</button></p>
   <div id="treasure-result" aria-live="polite">尚未掷骰。</div>
   <p><a href="/books/dmg/dmg-treasure/">阅读 DMG 财宝判定</a></p>
 
   <h2>查全部随机表</h2>
-  {(['地下城', '随机遭遇', '战利品'] as const).map((category) => <details><summary>{category}（{tables.filter((table) => table.category === category).length}）</summary><ul class="compact-list">{tables.filter((table) => table.category === category).map((table) => <li>{table.sourceHref.includes('/ua/') ? 'UA' : 'DMG'} · <a href={table.sourceHref}>{table.title}</a>　{table.dice}</li>)}</ul></details>)}
+  {(['地下城', '随机遭遇', '战利品'] as const).map((category) => <details><summary>{category}（{tables.filter((table) => table.category === category).length}）</summary><ul class="compact-list">{tables.filter((table) => table.category === category).map((table) => <li>{tableSource(table)} · <a href={table.sourceHref}>{table.title}</a>　{table.dice}</li>)}</ul></details>)}
   <script define:vars={{ tables, periodId: period?.id }}>
     const byId = new Map(tables.map((table) => [table.id, table]));
     const roll = (table) => {

@@ -13285,12 +13285,48 @@
   },
   {
     "book": "dragon-119",
+    "slug": "beastmaster",
+    "title": "驭兽师",
+    "titleEn": "King of the Jungle",
+    "group": "Dragon",
+    "excerpt": "驭兽师是独立的 NPC 职业，依靠动物心灵感应、野外生活和少量魔法与野兽相处。可为人类、半身人或半精灵，阵营限守序中立、混乱中立、绝对中立或中立善良；最低力量 14、智力 12、感知 12、体质 15、敏捷 14，男女皆可。所有驭兽师都有灵能及罕见的动物心灵感应能力。",
+    "sourceFile": "manuscript/dragon/119/topics/beastmaster.md"
+  },
+  {
+    "book": "dragon-119",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "The Dragon's Bestiary: A Walk through the Woods",
+    "group": "Dragon",
+    "excerpt": "阿努楚是群居的犬科人形生物，住在长满植被的土丘房屋里，通常友善，也偏爱本族伙伴。它们能和大多数犬科动物交谈，社区有 5–20 只普通狼协助守卫。阿努楚不穿甲，但能使用普通武器与工具。经验值 II／44 + 每生命值 2 点，特殊成员另计。",
+    "sourceFile": "manuscript/dragon/119/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-119",
     "slug": "new-spells",
     "title": "干柴术",
     "titleEn": "Cantrips For Druids -- Naturally",
     "group": "Dragon",
     "excerpt": "使过湿或过青的木材能够像干燥数月的柴一样燃烧。施法以材料作锯切手势，并把小火把或火焰置于受术木材上。原刊未另说明言语成分。",
     "sourceFile": "manuscript/dragon/119/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-119",
+    "slug": "wild-halflings",
+    "title": "野生半身人",
+    "titleEn": "The Dragon's Bestiary: A Walk through the Woods",
+    "group": "Dragon",
+    "excerpt": "野生半身人又称森林之子、荆丛半身人（Bramblings），是高个、强壮、毛足之外的另一支半身人。他们靠森林采集和狩猎维生，不从事文明亲族的农业或金属加工，却擅长编织。通常躲避大个子外来者，受伤旅人只有一两人时也可能得到帮助。",
+    "sourceFile": "manuscript/dragon/119/topics/wild-halflings.md"
+  },
+  {
+    "book": "dragon-119",
+    "slug": "woodland-items",
+    "title": "林地药剂与魔法制作",
+    "titleEn": "The Dragon's Bestiary: A Walk through the Woods",
+    "group": "Dragon",
+    "excerpt": "野生半身人的草药药剂；贤婆与助手达到 1 级德鲁伊时学会制作。效果相当于一级幻术师施放的解除疲惫（dispel exhaustion）。",
+    "sourceFile": "manuscript/dragon/119/topics/woodland-items.md"
   },
   {
     "book": "dragon-120",
@@ -13417,6 +13453,33 @@
     "group": "Dragon",
     "excerpt": "魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。",
     "sourceFile": "manuscript/dragon/136/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-137",
+    "slug": "age-of-mammals",
+    "title": "史前哺乳动物与冰期遭遇",
+    "titleEn": "Into the Age of Mammals",
+    "group": "Dragon",
+    "excerpt": "这些动物可用于保留史前生态的奇境，也可供穿越时代的冒险使用。主持人可以混合不同地质时代的动物，使遭遇更丰富。未另注明的本篇新怪物均为自由游荡、无巢穴和宝藏，标准魔抗、动物智力、中立阵营、大型、无灵能，也没有额外特殊攻击或防御。冲锋后的践踏通常追加在角击或头撞之后，两只脚分别检定；经验值依 DMG 第 85 页计算。",
+    "sourceFile": "manuscript/dragon/137/topics/age-of-mammals.md"
+  },
+  {
+    "book": "dragon-137",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Into the Age of Mammals",
+    "group": "Dragon",
+    "excerpt": "高驼是长腿、长颈的骆驼近亲，外形更像长颈鹿，头部离地约十英尺。它们出没于中新世的开阔森林，群体规模通常为 2–8 只。战斗时选择啃咬或践踏，分别采用统计栏所列伤害；践踏的两只脚各自检定命中。",
+    "sourceFile": "manuscript/dragon/137/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-137",
+    "slug": "hunting",
+    "title": "狩猎：寻找猎物、突袭与各地遭遇",
+    "titleEn": "What's for Lunch?",
+    "group": "Dragon",
+    "excerpt": "本系统以 WSG 的寻找猎物检定为起点，再用具体动物统计与通常战斗规则处理捕猎。先按 WSG 第 55 页表 31 及适当修正判断能否找到猎物，成功后依气候与地形掷本篇猎物表。更新世表仅适用于北极至温带；热带在这段时期变化较小，仍用通常热带表。",
+    "sourceFile": "manuscript/dragon/137/topics/hunting.md"
   },
   {
     "book": "dragon-139",

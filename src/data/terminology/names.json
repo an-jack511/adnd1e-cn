@@ -89,6 +89,16 @@
   },
   {
     "category": "class",
+    "en": "Beastmaster",
+    "zh": "驭兽师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-class-beastmaster"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Bushi",
     "zh": "兵士",
     "aliases": [],
@@ -1901,6 +1911,74 @@
     "status": "pending",
     "ids": [
       "dragon-091-magic-item-bracers-of-the-merman"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Antidote",
+    "zh": "解毒剂",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-antidote"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Cloak of Protection",
+    "zh": "荆丛防护斗篷",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "item",
+    "en": "Brambling Nectar",
+    "zh": "自然甘露",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-nectar"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Purgative",
+    "zh": "催吐排毒剂",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-purgative"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Restorative",
+    "zh": "复神剂",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-restorative"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Sedative",
+    "zh": "安眠剂",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-sedative"
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Brambling Tonic",
+    "zh": "提神剂",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-magic-item-brambling-tonic"
     ]
   },
   {
@@ -6004,6 +6082,14 @@
     "ids": [
       "magic-manual-of-stealthy-pilfering"
     ]
+  },
+  {
+    "category": "item",
+    "en": "Manual of Wood Golems",
+    "zh": "木魔像手册",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "item",
@@ -11923,6 +12009,16 @@
   },
   {
     "category": "item",
+    "en": "Whispering Pine Wood",
+    "zh": "低语松木",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-equipment-whispering-pine-wood"
+    ]
+  },
+  {
+    "category": "item",
     "en": "Whistle",
     "zh": "哨子",
     "aliases": [],
@@ -12275,6 +12371,16 @@
   },
   {
     "category": "monster",
+    "en": "Alticamelus",
+    "zh": "高驼",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-alticamelus"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Alu-demon",
     "zh": "阿鲁魔",
     "aliases": [
@@ -12283,6 +12389,16 @@
     "status": "pending",
     "ids": [
       "mm2-alu-demon"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Ambelodon",
+    "zh": "铲齿象",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-ambelodon"
     ]
   },
   {
@@ -12384,11 +12500,51 @@
   },
   {
     "category": "monster",
+    "en": "Antelope, Large",
+    "zh": "大型羚羊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-antelope-large"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Antelope, Medium",
+    "zh": "中型羚羊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-antelope-medium"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Antelope, Small",
+    "zh": "小型羚羊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-antelope-small"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Anthraxus",
     "zh": "安斯拉克瑟斯",
     "aliases": [],
     "status": "pending",
     "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Anuchu",
+    "zh": "阿努楚",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-anuchu"
+    ]
   },
   {
     "category": "monster",
@@ -12512,6 +12668,16 @@
   },
   {
     "category": "monster",
+    "en": "Astrapotherium",
+    "zh": "阿斯特拉波兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-astrapotherium"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Atomie",
     "zh": "原子精灵",
     "aliases": [
@@ -12540,6 +12706,14 @@
       "Aurak 龙兽"
     ],
     "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Auroch",
+    "zh": "原牛",
+    "aliases": [],
+    "status": "pending",
     "ids": []
   },
   {
@@ -13090,6 +13264,16 @@
     "status": "pending",
     "ids": [
       "oa-bisan"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Bison",
+    "zh": "美洲／欧洲野牛",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-bison"
     ]
   },
   {
@@ -13645,6 +13829,16 @@
     "status": "pending",
     "ids": [
       "mm2-camptosaurus"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Capybara, Giant",
+    "zh": "巨型水豚",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-capybara-giant"
     ]
   },
   {
@@ -14438,6 +14632,16 @@
     "status": "verified-exact",
     "ids": [
       "mm2-deinonychus"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Deinotherium",
+    "zh": "恐象",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-deinotherium"
     ]
   },
   {
@@ -15872,6 +16076,16 @@
   },
   {
     "category": "monster",
+    "en": "Giant Bison",
+    "zh": "巨型野牛",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-giant-bison"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Giant Bloodhawk",
     "zh": "巨型血鹰",
     "aliases": [],
@@ -16147,6 +16361,26 @@
   },
   {
     "category": "monster",
+    "en": "Gigantopithecus",
+    "zh": "巨猿",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-gigantopithecus"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Giraffe",
+    "zh": "长颈鹿",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-giraffe"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Githyanki",
     "zh": "吉斯洋基人",
     "aliases": [
@@ -16199,6 +16433,16 @@
     "status": "pending",
     "ids": [
       "mm2-gloomwing"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Glyptodon",
+    "zh": "雕齿兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-glyptodon"
     ]
   },
   {
@@ -16685,6 +16929,14 @@
   },
   {
     "category": "monster",
+    "en": "Halflings, Wild",
+    "zh": "野生半身人",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "monster",
     "en": "Hangman Tree",
     "zh": "绞刑树",
     "aliases": [
@@ -16718,6 +16970,14 @@
     "ids": [
       "harpy"
     ]
+  },
+  {
+    "category": "monster",
+    "en": "Hart",
+    "zh": "小型雄鹿",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "monster",
@@ -17775,6 +18035,16 @@
   },
   {
     "category": "monster",
+    "en": "Leshy",
+    "zh": "列什",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-leshy"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Lesser Vampire",
     "zh": "低等吸血鬼",
     "aliases": [],
@@ -17911,6 +18181,16 @@
   },
   {
     "category": "monster",
+    "en": "Luposphinx",
+    "zh": "狼首斯芬克斯",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-luposphinx"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Lurker Above",
     "zh": "穹顶潜伏怪",
     "aliases": [],
@@ -17938,6 +18218,16 @@
     "status": "pending",
     "ids": [
       "giant-lynx"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Macrauchenia",
+    "zh": "长颈驼兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-macrauchenia"
     ]
   },
   {
@@ -18444,6 +18734,16 @@
   },
   {
     "category": "monster",
+    "en": "Moropus",
+    "zh": "爪蹄兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-moropus"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Mottled (Purple) Worm",
     "zh": "海生斑纹蠕虫",
     "aliases": [],
@@ -18519,6 +18819,26 @@
     "ids": [
       "mummy",
       "ref5-mummy"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Musical Spirit",
+    "zh": "乐灵",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-musical-spirit"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Musk-ox",
+    "zh": "麝牛",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-musk-ox"
     ]
   },
   {
@@ -18936,6 +19256,16 @@
     "status": "pending",
     "ids": [
       "mm2-oinodaemon"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Okapi",
+    "zh": "霍加狓",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-okapi"
     ]
   },
   {
@@ -20087,6 +20417,16 @@
   },
   {
     "category": "monster",
+    "en": "Sashalus",
+    "zh": "萨沙鲁斯",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-sashalus"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Satyr",
     "zh": "半羊人",
     "aliases": [
@@ -20243,6 +20583,46 @@
     "aliases": [],
     "status": "pending",
     "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Seal, Elephant",
+    "zh": "象海豹",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-seal-elephant"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Seal, Large",
+    "zh": "大型海豹",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-seal-large"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Seal, Medium",
+    "zh": "中型海豹",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-seal-medium"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Seal, Small",
+    "zh": "小型海豹",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-seal-small"
+    ]
   },
   {
     "category": "monster",
@@ -20546,6 +20926,16 @@
   },
   {
     "category": "monster",
+    "en": "Short-faced Bear",
+    "zh": "短面熊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-short-faced-bear"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Shrieker",
     "zh": "尖叫菌",
     "aliases": [
@@ -20615,6 +21005,16 @@
     ],
     "status": "verified-exact",
     "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Sivatherium",
+    "zh": "西瓦鹿",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-sivatherium"
+    ]
   },
   {
     "category": "monster",
@@ -20737,6 +21137,16 @@
     "status": "verified-exact",
     "ids": [
       "slithering-tracker"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Sloth, Ground",
+    "zh": "地懒",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-sloth-ground"
     ]
   },
   {
@@ -21335,6 +21745,16 @@
   },
   {
     "category": "monster",
+    "en": "Tapir",
+    "zh": "貘",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-tapir"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Tarrasque",
     "zh": "泰拉斯奎",
     "aliases": [
@@ -21852,6 +22272,16 @@
   },
   {
     "category": "monster",
+    "en": "Uintatherium",
+    "zh": "尤因它兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-137-monster-uintatherium"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Ultrodaemon",
     "zh": "终极达厄蒙",
     "aliases": [
@@ -22181,6 +22611,16 @@
   },
   {
     "category": "monster",
+    "en": "Walrus",
+    "zh": "海象",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "dragon-137-monster-walrus"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Wandega",
     "zh": "万德加灵咒马",
     "aliases": [],
@@ -22269,6 +22709,16 @@
   },
   {
     "category": "monster",
+    "en": "Wendigo",
+    "zh": "温迪戈",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-wendigo"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Wereshark",
     "zh": "鲨化人",
     "aliases": [
@@ -22307,6 +22757,16 @@
     "status": "pending",
     "ids": [
       "ff-whipweed"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Whispering Pines",
+    "zh": "低语松",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-whispering-pines"
     ]
   },
   {
@@ -22436,6 +22896,26 @@
     "status": "pending",
     "ids": [
       "wolverine"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Wood Giant",
+    "zh": "林巨人",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-wood-giant"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Wood Golem",
+    "zh": "木魔像",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-119-monster-wood-golem"
     ]
   },
   {
@@ -24846,6 +25326,14 @@
     "ids": [
       "halfling"
     ]
+  },
+  {
+    "category": "race",
+    "en": "Halflings, Wild",
+    "zh": "野生半身人",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
   },
   {
     "category": "race",

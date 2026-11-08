@@ -35,4 +35,4 @@ assert.ok(classes.some(entry=>entry.id==='dragon-068-class-cloistered-cleric'&&e
 assert.ok(classes.some(entry=>entry.id==='dragon-045-class-archer'&&entry.referenceOnly));
 assert.ok(races.find(entry=>entry.nameEn==='Half-Ogre')?.referenceOnly);
 for(const entry of [...dragonClasses,...dragonRaces])for(const detail of entry.details??[])assert.ok(!detail.html.includes('中文规则摘要')&&!detail.html.includes('<p>原作：'),entry.id);
-console.log('PASS: six class versions and one race version merged; book mechanics, NPC restrictions, source text and aliases preserved.');
+console.log(`PASS: ${Object.keys(classLinks).length} class versions and ${Object.keys(raceLinks).length} race versions merged; book mechanics, NPC restrictions, source text and aliases preserved.`);

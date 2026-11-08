@@ -8,6 +8,7 @@ class	Astrologer	占星师（受雇NPC）	pending	pending		Astrologer
 class	Barbarian	野蛮人	verified-exact	whole-name	蛮族; 野蛮人（Gygax早期测试稿）	Barbarian	5E; 5R	https://5e.kiwee.top/data/class/class-barbarian.json	2026-11-07
 class	Barbarian (revised)	野蛮人（Howery修订）	pending	pending		Barbarian (revised)			
 class	Bard	吟游诗人	verified-exact	whole-name		Bard	5E; 5R	https://5e.kiwee.top/data/class/class-bard.json	2026-11-07
+class	Beastmaster	驭兽师	pending	pending		Beastmaster			
 class	Bushi	兵士	pending	pending		Bushi			
 class	Cavalier	骑士	pending	pending	骑士（Gygax早期测试稿）	Cavalier			
 class	Cavalier (revised)	骑士（Howery修订）	pending	pending		Cavalier (revised)			
@@ -1208,6 +1209,7 @@ heading	Halfling Inc.	半身人公司	pending	pending		Halfling Inc.
 heading	Halfling Point of View, The	半身人的观点	pending	pending		Halfling Point of View, The			
 heading	Halflings	半身人	pending	pending		HALFLINGS; Halflings			
 heading	Halflings and Hammer Hall	半身人与锤厅	pending	pending		Halflings and Hammer Hall			
+heading	Halflings, Wild	野生半身人	pending	pending		Halflings, Wild			
 heading	Hall of Gnomes Inventions	侏儒发明大厅	pending	pending		Hall of Gnomes Inventions			
 heading	Hall of Heroes Introduction and The Free City of Greyhawk	英雄大厅导言与灰鹰自由城	pending	pending		Hall of Heroes Introduction and The Free City of Greyhawk			
 heading	Hallowed Grounds	26．圣地	pending	pending		Hallowed Grounds			
@@ -1324,6 +1326,7 @@ heading	I Barbarians (Fighters) Table I	野蛮人（战士）表	pending	pending
 heading	I Cavaliers Table I	骑士表	pending	pending		I Cavaliers Table I			
 heading	I Druids (Clerics) Table I	德鲁伊（牧师）表	pending	pending		I Druids (Clerics) Table I			
 heading	I Thief-Acrobat Table I	杂技盗贼表	pending	pending		I Thief-Acrobat Table I			
+heading	Ice Age Fauna, Variants and Encounters	史前哺乳动物与冰期遭遇	pending	pending		Ice Age Fauna, Variants and Encounters			
 heading	Ice Blight	寒冰枯萎	pending	pending		Ice Blight			
 heading	Ice Devil	冰魔	pending	pending		Ice Devil			
 heading	Ice Knife	冰刀	pending	pending		Ice Knife			
@@ -1398,6 +1401,7 @@ heading	Internal Fire	体内之火	pending	pending		Internal Fire
 heading	Interplanar Whirlpool	30．界间漩涡	pending	pending		Interplanar Whirlpool			
 heading	Interrealm Borders in a Layer	层内边界	pending	pending		Interrealm Borders in a Layer			
 heading	Intervention by Deities	神祇的干预	pending	pending		Intervention by Deities			
+heading	Into the Age of Mammals	史前哺乳动物与冰期遭遇	pending	pending	怪物志	Into the Age of Mammals			
 heading	INTO THE FORGOTTEN REALMS	进入被遗忘的国度	pending	pending		INTO THE FORGOTTEN REALMS			
 heading	Intoxication Table	醉酒效果表	pending	pending		Intoxication Table			
 heading	Introduction	导言	pending	pending	位面中的法术规则; 引言	Introduction			
@@ -1474,6 +1478,7 @@ heading	Kharas Dwarven Hero	矮人英雄	pending	pending		Kharas Dwarven Hero
 heading	Ki-rin–Kobold	麒麟—狗头人	pending	pending		Ki-rin–Kobold			
 heading	Kim Mohan	金·莫汉	pending	pending		Kim Mohan			
 heading	King Arthur	亚瑟王	pending	pending		King Arthur			
+heading	King of the Jungle	驭兽师	pending	pending		King of the Jungle			
 heading	Kishijoten	吉祥天	pending	pending		Kishijoten			
 heading	Kleptomania	2. 偷窃癖	pending	pending		Kleptomania			
 heading	Knight of Quality	品质骑士	pending	pending		Knight of Quality			
@@ -2681,6 +2686,7 @@ heading	The Demi-Plane of Time	时间半位面	pending	pending		The Demi-Plane o
 heading	The Denizens of the Underdark	幽暗地域的居民	pending	pending		The Denizens of the Underdark			
 heading	The Destroyer	毁灭者	pending	pending		The Destroyer			
 heading	The DM's Responsibility	地下城主的责任	pending	pending		The DM's Responsibility			
+heading	The Dragon's Bestiary: A Walk through the Woods	怪物志	pending	pending	林地药剂与魔法制作; 野生半身人	The Dragon's Bestiary: A Walk through the Woods			
 heading	The Dread Lair of Alokkair	巫妖 Alokkair 的恐怖巢穴	pending	pending		The Dread Lair of Alokkair			
 heading	THE DUNGEON MASTER AS MASTER STORYTELLER	地下城主作为首席故事讲述者	pending	pending		THE DUNGEON MASTER AS MASTER STORYTELLER; The Dungeon Master as Master Storyteller			
 heading	The Dungeons & Dragons Game Family	《龙与地下城》游戏系列	pending	pending		The Dungeons & Dragons Game Family			
@@ -3069,6 +3075,7 @@ heading	Weretiger	虎人	pending	pending		Weretiger
 heading	WESTGATE	西门	pending	pending		WESTGATE			
 heading	Westgate and Map Key	西门与地图索引	pending	pending		Westgate and Map Key			
 heading	WESTGATE KEY	西门地图索引	pending	pending		WESTGATE KEY			
+heading	What's for Lunch?	狩猎：寻找猎物、突袭与各地遭遇	pending	pending		What's for Lunch?			
 heading	What's That In the Water?	怪物志	pending	pending		What's That In the Water?			
 heading	Whip	鞭子	pending	pending	长鞭; 长鞭子; 鞭术	Whip			
 heading	Whirlwind	旋风	pending	pending		Whirlwind			
@@ -3281,6 +3288,13 @@ item	Bracers of Defense	防御护腕	verified-exact	whole-name		Bracers of Defen
 item	Bracers of Defenselessness	无防御护腕	pending	pending		Bracers of Defenselessness			
 item	Bracers of Deflection	偏斜护腕	pending	pending		Bracers of Deflection			
 item	Bracers of the Merman	人鱼护腕	pending	pending		Bracers of the Merman			
+item	Brambling Antidote	解毒剂	pending	pending		Brambling Antidote			
+item	Brambling Cloak of Protection	荆丛防护斗篷	pending	pending		Brambling Cloak of Protection			
+item	Brambling Nectar	自然甘露	pending	pending		Brambling Nectar			
+item	Brambling Purgative	催吐排毒剂	pending	pending		Brambling Purgative			
+item	Brambling Restorative	复神剂	pending	pending		Brambling Restorative			
+item	Brambling Sedative	安眠剂	pending	pending		Brambling Sedative			
+item	Brambling Tonic	提神剂	pending	pending		Brambling Tonic			
 item	Brazier Commanding Fire Elementals	火元素操控火盆	pending	pending		Brazier Commanding Fire Elementals			
 item	Brazier of Sleep Smoke	昏睡烟雾火盆	pending	pending		Brazier of Sleep Smoke			
 item	Briel's Book of Shadows	布里埃尔的暗影之书	pending	pending		Briel's Book of Shadows; Briel’s Book of Shadows			
@@ -3668,6 +3682,7 @@ item	Manual of Golems	魔像手册	pending	pending		Manual of Golems
 item	Manual of Puissant Skill at Arms	武艺精湛手册	pending	pending	精湛武艺手册	Manual of Puissant Skill at Arms			
 item	Manual of Quickness of Action	灵巧手册	verified-exact	whole-name	动作敏捷手册	Manual of Quickness of Action	5E; 5R	https://5e.kiwee.top/data/items.json	2026-11-07
 item	Manual of Stealthy Pilfering	偷窃巧手手册	pending	pending	隐秘窃取手册	Manual of Stealthy Pilfering			
+item	Manual of Wood Golems	木魔像手册	pending	pending		Manual of Wood Golems			
 item	Marble Elephant	大理石象	pending	pending		Marble Elephant			
 item	Match of Many Lights	多次点火火柴	pending	pending		Match of Many Lights			
 item	Mattock of the Titans	泰坦鹤嘴锄	pending	pending	泰坦鹤嘴镐	Mattock of the Titans			
@@ -4233,6 +4248,7 @@ item	Well of Many Worlds	诸界之井	verified-exact	whole-name	万界之井	Wel
 item	Wheels of Fire	火轮	pending	pending		Wheels of Fire			
 item	Whip	鞭子	verified-exact	whole-name	鞭	Whip	5E; 5R	https://5e.kiwee.top/data/items-base.json	2026-11-07
 item	Whip of Zeif +3	泽夫的鞭子 +3	pending	pending		Whip of Zeif +3			
+item	Whispering Pine Wood	低语松木	pending	pending		Whispering Pine Wood			
 item	Whistle	哨子	pending	pending		Whistle			
 item	Whistle of Axewood	斧木的哨子	pending	pending		Whistle of Axewood			
 item	White Armor of the Griff Mountains +3	格里夫山脉的白甲 +3	pending	pending		White Armor of the Griff Mountains +3			
@@ -4460,7 +4476,9 @@ monster	Air Nymph	气宁芙	pending	pending		Air Nymph
 monster	Al-Mi’raj	独角兔	pending	pending	独角兔 ·	Al-Mi'raj; Al-Mi’raj			
 monster	Aleax	神罚化身	pending	pending	神罚化身 ·	Aleax			
 monster	Algoid	藻人	pending	pending	藻人 ·	Algoid			
+monster	Alticamelus	高驼	pending	pending		Alticamelus			
 monster	Alu-demon	阿鲁魔	pending	pending	阿鲁魔 ·	Alu-demon			
+monster	Ambelodon	铲齿象	pending	pending		Ambelodon			
 monster	Amoeba	变形虫	pending	pending		Amoeba			
 monster	Amon	阿蒙	pending	pending	阿蒙 ·	Amon			
 monster	Anhkheg	安克赫格	pending	pending	蚁兽	Anhkheg			
@@ -4470,7 +4488,11 @@ monster	Ankisaurus	近蜥龙	pending	pending	近蜥龙 ·	Ankisaurus
 monster	Annis	安妮斯鬼婆	pending	pending	安妮斯鬼婆 ·	Annis			
 monster	Ant Lion	蚁狮	pending	pending	蚁狮 ·	Ant Lion			
 monster	Ant, Giant	巨蚁	pending	pending		Ant, Giant			
+monster	Antelope, Large	大型羚羊	pending	pending		Antelope, Large			
+monster	Antelope, Medium	中型羚羊	pending	pending		Antelope, Medium			
+monster	Antelope, Small	小型羚羊	pending	pending		Antelope, Small			
 monster	Anthraxus	安斯拉克瑟斯	pending	pending		Anthraxus			
+monster	Anuchu	阿努楚	pending	pending		Anuchu			
 monster	Ape (Gorilla)	猿（大猩猩）	pending	pending		Ape (Gorilla)			
 monster	Ape, Carnivorous	食肉猿	pending	pending		Ape, Carnivorous			
 monster	Apparition	幻灵	pending	pending	幻影; 幻灵 ·	Apparition			
@@ -4482,9 +4504,11 @@ monster	Aspis	阿斯匹斯虫人	pending	pending	阿斯匹斯虫人 ·	Aspis
 monster	Assassin Bug	暗杀虫	verified-exact	whole-name	刺客虫; 刺客虫 ·	Assassin Bug	5E	https://5e.kiwee.top/data/bestiary/bestiary-mff.json	2026-11-07
 monster	Astral Deva	星界天使	pending	pending	星界天使 ·	Astral Deva			
 monster	Astral Searcher	星界搜寻者	pending	pending		Astral Searcher			
+monster	Astrapotherium	阿斯特拉波兽	pending	pending		Astrapotherium			
 monster	Atomie	原子精灵	pending	pending	原子精灵 ·	Atomie			
 monster	Aurak	奥拉克	pending	pending		Aurak			
 monster	Aurak Draconian	奥瑞克龙人	verified-exact	whole-name	Aurak 龙兽	Aurak Draconian	5E	https://5e.kiwee.top/data/bestiary/bestiary-dsotdq.json	2026-11-07
+monster	Auroch	原牛	pending	pending		Auroch			
 monster	Aurumvorax	吞金兽	verified-exact	whole-name	黄金兽; 黄金兽 ·	Aurumvorax	5E	https://5e.kiwee.top/data/bestiary/bestiary-jttrc.json	2026-11-07
 monster	Av	阿夫沙行马	pending	pending		Av			
 monster	Axe Beak	斧嘴鸟	verified-exact	whole-name	斧喙鸟	Axe Beak	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4534,6 +4558,7 @@ monster	Berbalang	分灵妖	verified-exact	whole-name	贝尔巴朗; 贝尔巴朗
 monster	Betta, Giant	巨型斗鱼	pending	pending		Betta, Giant			
 monster	Bhaergala	巴尔迦拉兽	pending	pending		Bhaergala			
 monster	Bisan	比桑（低等灵）	pending	pending	比桑（低等灵） ·	Bisan			
+monster	Bison	美洲／欧洲野牛	pending	pending		Bison			
 monster	Black Dragon	黑龙	pending	pending		Black Dragon			
 monster	Black Pudding	黑布丁	verified-exact	whole-name	黑色布丁怪	Black Pudding	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Black Troll	黑巨魔	pending	pending		Black Troll			
@@ -4586,6 +4611,7 @@ monster	Cambion	坎比翁	verified-exact	whole-name	坎比翁半恶魔; 坎比�
 monster	Camel, Wild	野骆驼	pending	pending		Camel, Wild			
 monster	Camprat	小鼠兽	pending	pending		Camprat			
 monster	Camptosaurus	弯龙	pending	pending	弯龙 ·	Camptosaurus			
+monster	Capybara, Giant	巨型水豚	pending	pending		Capybara, Giant			
 monster	Carbuncle	红宝兽	pending	pending	红宝兽 ·	Carbuncle			
 monster	Carnivorous Flying Squirrel	食肉鼯鼠	pending	pending		Carnivorous Flying Squirrel			
 monster	Carp Dragon	鲤龙	pending	pending		Carp Dragon			
@@ -4658,6 +4684,7 @@ monster	Death Worm	死亡蠕虫	pending	pending		Death Worm
 monster	Death, Crimson	绯红死雾	pending	pending	绯红死雾 ·	Death, Crimson			
 monster	Decaton	十阶魔冢	pending	pending	十阶魔冢 ·	Decaton			
 monster	Deinonychus	恐爪龙	verified-exact	whole-name	恐爪龙 ·	Deinonychus	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
+monster	Deinotherium	恐象	pending	pending		Deinotherium			
 monster	Demilich	半巫妖	verified-exact	whole-name	半巫妖 ·	Demilich	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Demodand	德魔丹	pending	pending	德魔丹 ·	Demodand			
 monster	Demogorgon	狄摩高根	verified-exact	whole-name		Demogorgon	5E	https://5e.kiwee.top/data/bestiary/bestiary-hftt.json; https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-07
@@ -4789,6 +4816,7 @@ monster	Ghost	幽魂	verified-exact	whole-name	幽灵	Ghost	5E; 5R	https://5e.ki
 monster	Ghoul	食尸鬼	verified-exact	whole-name		Ghoul	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Giant	巨人	verified-exact	whole-name	巨人 ·	GIANT; Giant	5E	https://5e.kiwee.top/data/bestiary/bestiary-ps-k.json	2026-11-07
 monster	Giant Bat	巨蝙蝠	verified-exact	whole-name	巨型蝙蝠	Giant Bat	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Giant Bison	巨型野牛	pending	pending		Giant Bison			
 monster	Giant Bloodhawk	巨型血鹰	pending	pending		Giant Bloodhawk			
 monster	Giant Bloodworm	巨型血虫	pending	pending		Giant Bloodworm			
 monster	Giant Boring Beetle	巨型钻木甲虫	pending	pending		Giant Boring Beetle			
@@ -4817,11 +4845,14 @@ monster	Giant Troll	巨型巨魔	pending	pending	巨型巨魔 ·	Giant Troll
 monster	Giant Two-Headed Troll	双头巨型巨魔	pending	pending	双头巨型巨魔 ·	Giant Two-Headed Troll			
 monster	Gibbering Mouther	呓语之口	verified-exact	whole-name	胡言乱语兽; 胡言乱语兽 ·	Gibbering Mouther	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Gibberling	呱呱精	verified-exact	whole-name	胡言兽; 胡言兽 ·	Gibberling	5E	https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json; https://5e.kiwee.top/data/bestiary/bestiary-qftis.json	2026-11-07
+monster	Gigantopithecus	巨猿	pending	pending		Gigantopithecus			
+monster	Giraffe	长颈鹿	pending	pending		Giraffe			
 monster	Githyanki	吉斯洋基人	pending	pending	吉斯洋基人 ·	Githyanki			
 monster	Githzerai	吉斯泽莱人	pending	pending		Githzerai			
 monster	Glasya	格莱西雅	verified-exact	whole-name	格莱西雅 ·	Glasya	5E	https://5e.kiwee.top/data/bestiary/bestiary-coa.json	2026-11-07
 monster	Globigerina	球房有孔虫	pending	pending		Globigerina			
 monster	Gloomwing	幽暗蛾	pending	pending	幽暗蛾 ·	Gloomwing			
+monster	Glyptodon	雕齿兽	pending	pending		Glyptodon			
 monster	Gnoll	鬣狗人	verified-exact	whole-name	豺狼人	Gnoll	5E	https://5e.kiwee.top/data/bestiary/bestiary-mm.json	2026-11-07
 monster	Gnome	侏儒	pending	pending		Gnome			
 monster	Goat	山羊	verified-exact	whole-name		Goat	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4866,9 +4897,11 @@ monster	Guardian Naga	守秘纳迦	verified-exact	whole-name	守护纳迦	Guardi
 monster	Hai Nu	海努	pending	pending		Hai Nu			
 monster	Half-Wight	半尸巫	pending	pending		Half-Wight			
 monster	Halfling	半身人	pending	pending		Halfling			
+monster	Halflings, Wild	野生半身人	pending	pending		Halflings, Wild			
 monster	Hangman Tree	绞刑树	pending	pending	绞刑树 ·	Hangman Tree			
 monster	Harginn	火惧灵	pending	pending	火惧灵 ·	Harginn			
 monster	Harpy	鸟妖	verified-exact	whole-name	鹰身女妖	Harpy	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-ps-x.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Hart	小型雄鹿	pending	pending		Hart			
 monster	Haunt	缠魂	pending	pending	缠魂 ·	Haunt			
 monster	Haunting Custodian	怨影守卫	pending	pending		Haunting Custodian			
 monster	Hell Hound	地狱猎犬	verified-exact	whole-name	地狱犬	Hell Hound	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-wtthc.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -4964,6 +4997,7 @@ monster	Leech, Giant	巨型水蛭	pending	pending		Leech, Giant
 monster	Lemure	劣魔	verified-exact	whole-name		Lemure	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Leopard	豹	pending	pending		Leopard			
 monster	Leprechaun	矮妖精	verified-exact	whole-name	小妖精; 森林：矮妖精	Leprechaun	5E	https://5e.kiwee.top/data/bestiary/bestiary-qftis.json	2026-11-07
+monster	Leshy	列什	pending	pending		Leshy			
 monster	Lesser Vampire	低等吸血鬼	pending	pending		Lesser Vampire			
 monster	Leucrotta	血糜兽	verified-exact	whole-name	勒克洛塔	Leucrotta	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
 monster	Li Lung	地龙	pending	pending	地龙 ·	Li Lung			
@@ -4976,9 +5010,11 @@ monster	Locathah	洛卡鱼人	verified-exact	whole-name	洛卡萨	Locathah	5E	ht
 monster	Lolth	罗丝	pending	pending	罗丝 ·	Lolth			
 monster	Luck Eater	食运兽	pending	pending	食运兽 ·	Luck Eater			
 monster	Lung Wang	龙王	pending	pending	龙王 ·	Lung Wang			
+monster	Luposphinx	狼首斯芬克斯	pending	pending		Luposphinx			
 monster	Lurker Above	穹顶潜伏怪	pending	pending		Lurker Above			
 monster	Lycanthrope	兽化生物	pending	pending	兽化人; 兽化生物 ·	Lycanthrope			
 monster	Lynx, Giant	巨型猞猁	pending	pending		Lynx, Giant			
+monster	Macrauchenia	长颈驼兽	pending	pending		Macrauchenia			
 monster	Magma	岩浆副元素	pending	pending	岩浆副元素 ·	Magma			
 monster	Magman	岩浆人	pending	pending	岩浆人 ·	Magman			
 monster	Magnesium Spirit	镁光精魂	pending	pending	镁光精魂 ·	Magnesium Spirit			
@@ -5023,6 +5059,7 @@ monster	Monodrone	单元冢	verified-exact	whole-name	单功能魔冢; 单功能
 monster	Monster Zombie	怪物僵尸	pending	pending	怪物僵尸 ·	Monster Zombie			
 monster	Moon Dog	月犬	pending	pending	月犬 ·	Moon Dog			
 monster	Morkoth	莫克鱼怪	verified-exact	whole-name	深渊幽灵	Morkoth	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
+monster	Moropus	爪蹄兽	pending	pending		Moropus			
 monster	Mottled (Purple) Worm	海生斑纹蠕虫	pending	pending		Mottled (Purple) Worm			
 monster	Mountain Giant	山巨人	pending	pending	山巨人 ·	Mountain Giant			
 monster	Movanic Deva	摩凡尼天使	pending	pending	摩凡尼天使 ·	Movanic Deva			
@@ -5030,6 +5067,8 @@ monster	Muckdweller	污泥居者	pending	pending	污泥居者 ·	Muckdweller
 monster	Mud-man	泥人	pending	pending	泥人 ·	Mud-man			
 monster	Mule	骡子	verified-exact	whole-name	骡	Mule	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Mummy	木乃伊	verified-exact	whole-name		Mummy	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
+monster	Musical Spirit	乐灵	pending	pending		Musical Spirit			
+monster	Musk-ox	麝牛	pending	pending		Musk-ox			
 monster	Mustard Jelly	芥末胶怪	pending	pending		Mustard Jelly			
 monster	Myconid	蕈人	pending	pending		Myconid			
 monster	Nabassu	掠魂魔	verified-exact	whole-name	纳巴苏魔; 纳巴苏魔 ·	Nabassu	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-07
@@ -5067,6 +5106,7 @@ monster	Ogre, Aquatic	水栖食人魔	pending	pending	水栖食人魔 ·	Ogre, A
 monster	Ogrillon	食人魔混血种	pending	pending	食人魔混血种 ·	Ogrillon			
 monster	Ogrémoch	奥格雷莫克	pending	pending		Ogrémoch			
 monster	Oinodaemon	欧诺达厄蒙	pending	pending	欧诺达厄蒙 ·	Oinodaemon			
+monster	Okapi	霍加狓	pending	pending		Okapi			
 monster	Olhydra	奥尔海德拉	pending	pending	奥尔海德拉 ·	Olhydra			
 monster	Oliphant	巨象	pending	pending	巨象 ·	Oliphant			
 monster	Olive Slime	橄榄黏液	pending	pending		Olive Slime			
@@ -5170,6 +5210,7 @@ monster	Salamander	火蜥蜴	verified-exact	whole-name		Salamander	5E; 5R	https:
 monster	Saltor	萨尔托触须猿	pending	pending		Saltor			
 monster	Sandling	沙灵	pending	pending	沙灵 ·	Sandling			
 monster	Sandman	沙人	pending	pending	沙人 ·	Sandman			
+monster	Sashalus	萨沙鲁斯	pending	pending		Sashalus			
 monster	Satyr	半羊人	verified-exact	whole-name	萨梯	Satyr	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Scalamagdrion	书之守护者	pending	pending		Scalamagdrion			
 monster	Scarecrow	稻草人	verified-exact	whole-name	稻草人 ·	Scarecrow	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-wtthc.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -5185,6 +5226,10 @@ monster	Sea Lion	海狮	verified-exact	whole-name		Sea Lion	5E	https://5e.kiwee.
 monster	Sea Sprite	海精灵	pending	pending		Sea Sprite			
 monster	Sea Zombie	海尸	pending	pending		Sea Zombie			
 monster	Sea Zombie (Drowned Ones)	海尸（溺亡者）	pending	pending		Sea Zombie (Drowned Ones)			
+monster	Seal, Elephant	象海豹	pending	pending		Seal, Elephant			
+monster	Seal, Large	大型海豹	pending	pending		Seal, Large			
+monster	Seal, Medium	中型海豹	pending	pending		Seal, Medium			
+monster	Seal, Small	小型海豹	pending	pending		Seal, Small			
 monster	Seawolf	海狼	pending	pending		Seawolf			
 monster	Seawolf (Greater)	高等海狼	pending	pending	高等海狼 ·	Seawolf (Greater)			
 monster	Seawolf (Lesser)	低等海狼	pending	pending	低等海狼 ·	Seawolf (Lesser)			
@@ -5211,6 +5256,7 @@ monster	Shen Lung	神龙	pending	pending	神龙 ·	Shen Lung
 monster	Shikko-gaki	尸疫鬼	pending	pending		Shikko-gaki			
 monster	Shirokinukatsukami	食梦兽	pending	pending		Shirokinukatsukami			
 monster	Shocker	电击怪	pending	pending	电击怪 ·	Shocker			
+monster	Short-faced Bear	短面熊	pending	pending		Short-faced Bear			
 monster	Shrieker	尖叫菌	verified-exact	whole-name	尖叫蕈	Shrieker	5E	https://5e.kiwee.top/data/bestiary/bestiary-mm.json	2026-11-07
 monster	Silver Dragon	银龙	pending	pending		Silver Dragon			
 monster	Silver Fox	银狐	pending	pending	银狐 ·	Silver Fox			
@@ -5218,6 +5264,7 @@ monster	Silver Urchin	银海胆	pending	pending	银海胆 ·	Silver Urchin
 monster	Sirine	海妖精	pending	pending	海妖精 ·	Sirine			
 monster	Sivak	西瓦克	pending	pending		Sivak			
 monster	Sivak Draconian	西瓦克龙人	verified-exact	whole-name	Sivak 龙兽	Sivak Draconian	5E	https://5e.kiwee.top/data/bestiary/bestiary-dsotdq.json	2026-11-07
+monster	Sivatherium	西瓦鹿	pending	pending		Sivatherium			
 monster	Skeleton	骷髅	verified-exact	whole-name		Skeleton	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Skeleton Warrior	骷髅战士	verified-exact	whole-name	骷髅战士 ·	Skeleton Warrior	5E	https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json	2026-11-07
 monster	Skeleton, Animal	动物骷髅	pending	pending	动物骷髅 ·	Skeleton, Animal			
@@ -5229,6 +5276,7 @@ monster	Slaadi Symbols	史拉蟾符号	pending	pending	史拉蟾符号 ·	Slaadi
 monster	Slime Creature	黏液生物	pending	pending	黏液生物 ·	Slime Creature			
 monster	Slime, Olive	橄榄黏液	pending	pending	橄榄黏液 ·	Slime, Olive			
 monster	Slithering Tracker	蠕行追迹者	verified-exact	whole-name	滑行追踪者	Slithering Tracker	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-vgm.json	2026-11-07
+monster	Sloth, Ground	地懒	pending	pending		Sloth, Ground			
 monster	Slug, Giant	巨型蛞蝓	pending	pending		Slug, Giant			
 monster	Smoke	烟副元素	pending	pending	烟副元素 ·	Smoke			
 monster	Smoke Mephit	烟魔蝠	verified-exact	whole-name	烟魔蝠 ·	Smoke Mephit	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -5281,6 +5329,7 @@ monster	Tabaxi	塔巴克西猫人	pending	pending	塔巴克西猫人 ·	Tabaxi
 monster	Tadhemoth	巨蛙幼体	pending	pending	巨蛙幼体 ·	Tadhemoth			
 monster	Taer	塔尔猿人	pending	pending	塔尔猿人 ·	Taer			
 monster	Tanystropheus	长颈龙	pending	pending	长颈龙 ·	Tanystropheus			
+monster	Tapir	貘	pending	pending		Tapir			
 monster	Tarrasque	泰拉斯奎	verified-exact	whole-name	塔拉斯克巨兽; 塔拉斯克巨兽 ·	Tarrasque	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Tasloi	塔斯洛伊	verified-exact	whole-name	塔斯罗伊人; 塔斯罗伊人 ·	Tasloi	5E	https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json	2026-11-07
 monster	Tenebrous Worm	幽影蠕虫	pending	pending	幽影蠕虫 ·	Tenebrous Worm			
@@ -5327,6 +5376,7 @@ monster	Tunnel Worm	隧道蠕虫	pending	pending	隧道蠕虫 ·	Tunnel Worm
 monster	Turtle	巨龟	pending	pending		Turtle			
 monster	Tween	影伴	pending	pending	影伴 ·	Tween			
 monster	Twilight Bloom	暮光花	pending	pending	暮光花 ·	Twilight Bloom			
+monster	Uintatherium	尤因它兽	pending	pending		Uintatherium			
 monster	Ultrodaemon	终极达厄蒙	pending	pending	终极达厄蒙 ·	Ultrodaemon			
 monster	Umber Hulk	掘土巨怪	verified-exact	whole-name	乌木巨怪; 土巨怪	Umber Hulk	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Umpleby	电毛兽	pending	pending	电毛兽 ·	Umpleby			
@@ -5357,6 +5407,7 @@ monster	Vortex	旋涡怪	pending	pending	旋涡怪 ·	Vortex
 monster	Vulchling	秃鹫人	pending	pending	秃鹫人 ·	Vulchling			
 monster	Vulture	秃鹫	verified-exact	whole-name	秃鹫 ·	Vulture	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Wako	倭寇	pending	pending		Wako			
+monster	Walrus	海象	verified-exact	whole-name		Walrus	5E	https://5e.kiwee.top/data/bestiary/bestiary-idrotf.json	2026-11-08
 monster	Wandega	万德加灵咒马	pending	pending		Wandega			
 monster	Wasp, Giant	巨型黄蜂	pending	pending		Wasp, Giant			
 monster	Water Troll	水巨魔	pending	pending		Water Troll			
@@ -5365,10 +5416,12 @@ monster	Weasel	鼬	verified-exact	whole-name	鼬 ·	Weasel	5E; 5R	https://5e.kiw
 monster	Weasel, Giant	巨型鼬	pending	pending		Weasel, Giant			
 monster	Webbird	织网鸟	pending	pending	织网鸟 ·	Webbird			
 monster	Wemic	狮身人	pending	pending	狮身人 ·	Wemic			
+monster	Wendigo	温迪戈	pending	pending		Wendigo			
 monster	Wereshark	鲨化人	pending	pending	鲨化人 ·	Wereshark			
 monster	Werewolf	狼人	verified-exact	whole-name		Werewolf	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Whale	鲸鱼	pending	pending		Whale			
 monster	Whipweed	鞭草	pending	pending	鞭草 ·	Whipweed			
+monster	Whispering Pines	低语松	pending	pending		Whispering Pines			
 monster	White Dragon	白龙	pending	pending		White Dragon			
 monster	White Pudding	白布丁怪	pending	pending	白布丁怪 ·	White Pudding			
 monster	Wight	尸妖	verified-exact	whole-name	尸巫; 怨魂	Wight	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -5381,6 +5434,8 @@ monster	Wolf	狼	verified-exact	whole-name		Wolf	5E; 5R	https://5e.kiwee.top/dat
 monster	Wolf-in-Sheep's-Clothing	披着羊皮的狼	verified-exact	whole-name	披羊皮的狼; 披羊皮的狼 ·	Wolf-in-Sheep's-Clothing	5E	https://5e.kiwee.top/data/bestiary/bestiary-qftis.json	2026-11-07
 monster	Wolfwere	化人狼	pending	whole-name	化人狼 ·	Wolfwere	5E	https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json	2026-11-07
 monster	Wolverine	狼獾	pending	pending		Wolverine			
+monster	Wood Giant	林巨人	pending	pending		Wood Giant			
+monster	Wood Golem	木魔像	pending	pending		Wood Golem			
 monster	Worg	座狼	verified-exact	whole-name		Worg	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Wraith	邪灵	verified-exact	whole-name	幽影; 幽灵; 幽魂; 缚灵	Wraith	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
 monster	Wyvern	飞龙	verified-exact	whole-name	双足飞龙	Wyvern	5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-07
@@ -5640,6 +5695,7 @@ race	Half-Ogre	半食人魔	pending	pending		Half-Ogre
 race	Half-Ogre: Smiting Him Hip and Thigh, The	半食人魔：盖加克斯的早期方案	pending	pending		Half-Ogre: Smiting Him Hip and Thigh, The			
 race	Half-Orc	半兽人	verified-exact	whole-name		Half-Orc	5E	https://5e.kiwee.top/data/races.json	2026-11-07
 race	Halfling	半身人	verified-exact	whole-name		Halfling	5E; 5R	https://5e.kiwee.top/data/races.json	2026-11-07
+race	Halflings, Wild	野生半身人	pending	pending		Halflings, Wild			
 race	Hengeyokai	变形妖	pending	pending	Hengeyokai	Hengeyokai			
 race	Hooves and Green Hair	半萨特与半树精	pending	pending		Hooves and Green Hair			
 race	Human	人类	verified-exact	whole-name		Human	5E; 5R	https://5e.kiwee.top/data/races.json	2026-11-07
