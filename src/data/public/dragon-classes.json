@@ -44,7 +44,8 @@
         "page": 30,
         "section": "cloistered-cleric"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "referenceOnly": true,
@@ -89,7 +90,8 @@
         "page": 10,
         "section": "npc-classes"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "referenceOnly": true,
@@ -133,7 +135,8 @@
         "page": 11,
         "section": "npc-classes"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "referenceOnly": true,
@@ -184,7 +187,8 @@
         "page": 56,
         "section": "npc-classes"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "referenceOnly": true,
@@ -236,7 +240,8 @@
         "page": 35,
         "section": "npc-classes"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "referenceOnly": true,
@@ -525,7 +530,8 @@
         "page": 30,
         "section": "beastmaster"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "primeRequisite": "无；不因高属性获得经验值加成",
@@ -626,7 +632,8 @@
         "description": "墙面攀爬、野外隐蔽、发现与解除野外陷阱、掩盖踪迹、优先取得突袭、野外追踪、野外逃脱追捕"
       }
     ],
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "智力和感知均14以上",
@@ -676,7 +683,8 @@
         "name": "职业能力",
         "description": "天生预言、占卜收费、等级争夺、专属图书馆和高等级隐居据点"
       }
-    ]
+    ],
+    "characterEligible": false
   },
   {
     "primeRequisite": "无；STR至少12、INT至少12、DEX至少13、CON至少10",
@@ -767,7 +775,8 @@
       }
     ],
     "minimumAbilities": {},
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "如魔法使用者，且高环咒法师法术要求智力：7环18、6环17，依次递减",
@@ -810,7 +819,8 @@
         "description": "3级看见以太生物，4级攻击错相或以太生物，6级免疫负能量吸取，8级感知附近施法效果，20级吸取有充能魔法物品恢复生命"
       }
     ],
-    "minimumAbilities": {}
+    "minimumAbilities": {},
+    "characterEligible": false
   },
   {
     "primeRequisite": "智力和感知均13以上",
@@ -897,7 +907,8 @@
       }
     ],
     "minimumAbilities": {},
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "体质至少12、力量至少10；力量和体质至少15且感知低于8时经验值+10%",
@@ -985,7 +996,8 @@
       }
     ],
     "minimumAbilities": {},
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "依原文职业表",
@@ -1029,7 +1041,8 @@
       }
     ],
     "minimumAbilities": {},
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "智力与敏捷合计32以上时经验值+10%",
@@ -1073,7 +1086,8 @@
         "description": "伪制药水、调制非致命毒药、烟火术、估价、伪装、阅读低环魔法卷轴、十级蛊惑和随从"
       }
     ],
-    "minimumAbilities": {}
+    "minimumAbilities": {},
+    "characterEligible": false
   },
   {
     "primeRequisite": "无；力量和体质各至少15，感知、魅力和外貌均不得超过9",
@@ -1205,7 +1219,8 @@
         "description": "专精艺术、扒窃、伪装、感知隐匿灵体、棋艺与游戏、冥想、语言和 Geisya Cant"
       }
     ],
-    "minimumAbilities": {}
+    "minimumAbilities": {},
+    "characterEligible": false
   },
   {
     "primeRequisite": "无；敏捷和魅力至少14，智力至少15",
@@ -1293,7 +1308,8 @@
       }
     ],
     "minimumAbilities": {},
-    "spellcasting": "无；职业正文另有说明。"
+    "spellcasting": "无；职业正文另有说明。",
+    "characterEligible": false
   },
   {
     "primeRequisite": "依德鲁伊与游侠原职业要求",
@@ -1380,6 +1396,7 @@
         "description": "鉴别材料与药剂、寻找和召唤动物植物、炼金制品、毒药与解毒剂、炼金魔法物品加成、炼金店铺与配方研究"
       }
     ],
-    "minimumAbilities": {}
+    "minimumAbilities": {},
+    "characterEligible": false
   }
 ]

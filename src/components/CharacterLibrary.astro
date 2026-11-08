@@ -16,7 +16,7 @@ const sources=[...new Set(entries.flatMap(entry=>entry.source.map(s=>sourceGroup
  <p id="identity-count" class="results-count" role="status"></p>
  <div class="table-wrap"><table class="data-table identity-table"><thead><tr><th class="identity-check" hidden>选取</th><th>中文名</th><th>英文名</th><th>{kind==='races'?'属性调整':'主属性'}</th><th>来源</th></tr></thead>
  <tbody>{entries.map((entry,index)=><>
-  <tr data-identity-id={entry.id} data-record={JSON.stringify({id:entry.id,name:entry.nameZh,selectable:true,search:[entry.nameZh,entry.nameEn,...(entry.aliases??[]),...nameAliases(kind==='classes'?'class':'race',entry.nameEn),...(entry.details??[]).map(d=>d.html.replace(/<[^>]*>/g,' '))].join(' ').toLowerCase(),source:entry.source.map(s=>sourceGroup(s.book))})}>
+  <tr data-identity-id={entry.id} data-record={JSON.stringify({id:entry.id,name:entry.nameZh,selectable:entry.characterEligible!==false,search:[entry.nameZh,entry.nameEn,...(entry.aliases??[]),...nameAliases(kind==='classes'?'class':'race',entry.nameEn),...(entry.details??[]).map(d=>d.html.replace(/<[^>]*>/g,' '))].join(' ').toLowerCase(),source:entry.source.map(s=>sourceGroup(s.book))})}>
    <td class="identity-check" hidden><input type="checkbox" value={entry.id} aria-label={`选取${entry.nameZh}`}  title={entry.referenceOnly?'地区参考条目，按对应战役规则使用':undefined} /></td>
    <td><button type="button" class="identity-expand" data-identity-expand aria-expanded="false" aria-controls={`identity-rule-${index}`}>{entry.nameZh}</button></td><td>{entry.nameEn}</td><td>{'modifiers' in entry?entry.modifiers:entry.primeRequisite}</td><td>{[...new Set(entry.source.map(s=>s.book))].join(' · ')}</td>
   </tr>
@@ -29,7 +29,7 @@ const sources=[...new Set(entries.flatMap(entry=>entry.source.map(s=>sourceGroup
  const rows=[...root.querySelectorAll<HTMLElement>('[data-identity-id]')].map(row=>({row,record:JSON.parse(row.dataset.record!),detail:row.nextElementSibling as HTMLElement}));
  const input=root.querySelector<HTMLInputElement>('#identity-name')!,params=new URLSearchParams(location.search);
  input.value=params.get('name')||'';
- function filter(){let count=0;for(const {row,record,detail} of rows){row.hidden=!input.value.trim().toLowerCase().split(/\s+/).every(term=>record.search.includes(term))||!matchesChoices(checkedValues('source'),record.source);detail.hidden=row.hidden||row.querySelector('[aria-expanded]')?.getAttribute('aria-expanded')!=='true';if(!row.hidden)count++;}root.querySelector('#identity-count')!.textContent=`显示 ${count} / ${rows.length} 项`;}
+ function filter(){let count=0;for(const {row,record,detail} of rows){const unavailable=params.get('mode')==='select'&&record.selectable===false;row.hidden=unavailable||!input.value.trim().toLowerCase().split(/\s+/).every(term=>record.search.includes(term))||!matchesChoices(checkedValues('source'),record.source);detail.hidden=row.hidden||row.querySelector('[aria-expanded]')?.getAttribute('aria-expanded')!=='true';if(!row.hidden)count++;}root.querySelector('#identity-count')!.textContent=`显示 ${count} / ${rows.length} 项`;}
  bindFilterChoices(filter);input.addEventListener('input',filter);filter();
  const outline=root.querySelector<HTMLElement>('.identity-outline')!,outlineNav=outline.querySelector('nav')!,outlineSearch=outline.querySelector<HTMLInputElement>('input')!;
  let activeDetail:HTMLElement|undefined;
@@ -62,9 +62,9 @@ const sources=[...new Set(entries.flatMap(entry=>entry.source.map(s=>sourceGroup
   document.documentElement.classList.add('library-picker-mode');root.querySelectorAll<HTMLElement>('.identity-check,.identity-selection').forEach(el=>el.hidden=false);
   root.querySelectorAll<HTMLAnchorElement>('.library-entry a').forEach(link=>{if(!link.getAttribute('href')?.startsWith('#')){link.target='_blank';link.rel='noopener';}});
   root.querySelectorAll('.identity-expanded>td').forEach(cell=>cell.setAttribute('colspan','5'));
-  let selected='';const boxes=[...root.querySelectorAll<HTMLInputElement>('.identity-check input')];
+  let selected='';const selectableRows=rows.filter(({record})=>record.selectable);const boxes=selectableRows.map(({row})=>row.querySelector<HTMLInputElement>('.identity-check input')!).filter(Boolean);
   const apply=root.querySelector<HTMLButtonElement>('[data-identity-apply]')!;
-  function sync(){boxes.forEach(box=>box.checked=box.value===selected);root.querySelector('#identity-selected')!.textContent=rows.find(r=>r.record.id===selected)?.record.name||'尚未选择';apply.disabled=!selected;}
+  function sync(){boxes.forEach(box=>box.checked=box.value===selected);root.querySelector('#identity-selected')!.textContent=selectableRows.find(r=>r.record.id===selected)?.record.name||'尚未选择';apply.disabled=!selected;}
   boxes.forEach(box=>box.addEventListener('change',()=>{selected=box.checked?box.value:'';sync();}));
   apply.addEventListener('click',()=>parent.postMessage({type:'adnd1e-identity-selected',kind:root.dataset.identityKind,id:selected},location.origin));
   root.querySelector('[data-identity-cancel]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-identity-cancel'},location.origin));

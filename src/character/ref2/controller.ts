@@ -145,6 +145,7 @@ function update() {
   const issues=[...checkEligibility({raceId:value('race'),classId:value('class'),alignment:value('alignment'),abilities:card.fields as Record<Ability,string>},classes,races),...weaponItems.flatMap((weapon,index)=>checkEquipment(value('class'),weapon,index===0 ? armor : undefined,index===0 ? shield : undefined))];
   const messages=issues.map(issue=>`${issue.message}（${issue.source}）`);
   if(classEntry?.referenceOnly)messages.push('扩展／NPC 职业请确认战役采用；已核对的矩阵会自动计算，其余保留手填。');
+  if(classEntry?.characterEligible===false)messages.push('当前职业是 NPC 职业，人物卡不会在职业选择器中提供；已导入的旧人物仍可保留并手动记录。');
   for (const prepared of card.preparedSpells) {
     const spell=spells.find(spell=>spell.id===prepared.spellId);
     if (spell && classEntry && !spell.classes.includes(classEntry.nameEn) && !['paladin','ranger','bard'].includes(classEntry.id)) messages.push(`${spell.nameZh}不在所选职业法术表中。`);

@@ -106,6 +106,8 @@ export type ClassEntry = {
   aliases?: string[];
   details?: LibraryDetail[];
   referenceOnly?: boolean;
+  /** Whether this identity may be selected by the player-character sheet. */
+  characterEligible?: boolean;
   id: string; nameZh: string; nameEn: string; primeRequisite: string; hitDie: string;
   alignment: string; weapons: string; armor: string; description: string;
   minimumAbilities: Partial<Record<'STR' | 'INT' | 'WIS' | 'DEX' | 'CON' | 'CHA', number>>;
@@ -117,6 +119,8 @@ export type RaceEntry = {
   aliases?: string[];
   details?: LibraryDetail[];
   referenceOnly?: boolean;
+  /** Whether this identity may be selected by the player-character sheet. */
+  characterEligible?: boolean;
   id: string; nameZh: string; nameEn: string; modifiers: string; restrictions: string;
   levelLimits: string; languages: string; movement: string; abilities: string[];
   eligibleClasses: { id: string; limit: string }[]; multiclass: string[];

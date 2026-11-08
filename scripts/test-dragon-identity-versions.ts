@@ -33,6 +33,17 @@ assert.ok(classes.find(entry=>entry.id==='barbarian')&&!classes.find(entry=>entr
 assert.ok(!classes.find(entry=>entry.id==='oa-barbarian')?.source.some(source=>/^Dragon #/.test(source.book)));
 assert.ok(classes.some(entry=>entry.id==='dragon-068-class-cloistered-cleric'&&entry.referenceOnly),'Distinct NPC career stays separate');
 assert.ok(classes.some(entry=>entry.id==='dragon-045-class-archer'&&entry.referenceOnly));
+for(const id of [
+ 'dragon-068-class-cloistered-cleric','dragon-045-class-astrologer','dragon-045-class-alchemist-npc',
+ 'dragon-045-class-archer','dragon-119-class-beastmaster',
+ 'dragon-063-class-bandit','dragon-053-class-oracle','dragon-136-class-merchant',
+ 'dragon-090-class-incantatrix-npc-class','dragon-039-class-anti-paladin','dragon-060-class-jester',
+ 'dragon-073-class-duelist','dragon-120-class-charlatan-npc-class','dragon-121-rule-geisya-the',
+ 'dragon-048-rule-character-that-really-counts-a','dragon-130-class-alchemist-npc-class'
+ ]) assert.equal(classes.find(entry=>entry.id===id)?.characterEligible,false,`NPC career excluded from character card: ${id}`);
+assert.equal(classes.find(entry=>entry.id==='dragon-045-class-alchemist-npc')?.characterEligible,false,'Merged NPC Alchemist variants remain excluded from the character card');
+assert.notEqual(classes.find(entry=>entry.id==='dragon-107-class-mariner')?.characterEligible,false,'Player-usable Mariner remains selectable');
+assert.notEqual(classes.find(entry=>entry.id==='dragon-100-class-druid-ranger-class')?.characterEligible,false,'Player-usable Druid/Ranger remains selectable');
 assert.ok(races.find(entry=>entry.nameEn==='Half-Ogre')?.referenceOnly);
 for(const entry of [...dragonClasses,...dragonRaces])for(const detail of entry.details??[])assert.ok(!detail.html.includes('中文规则摘要')&&!detail.html.includes('<p>原作：'),entry.id);
 console.log(`PASS: ${Object.keys(classLinks).length} class versions and ${Object.keys(raceLinks).length} race versions merged; book mechanics, NPC restrictions, source text and aliases preserved.`);
