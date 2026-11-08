@@ -54,12 +54,15 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
     try{
       for(const sheet of output.querySelectorAll<HTMLElement>('.ref2-print-sheet')){
         const panel=sheet.firstElementChild as HTMLElement;
-        // Plain print text can wrap; single-line form controls otherwise hide their overflow.
+        // Wrap prose only. Native score boxes retain their input selectors, dimensions and borders.
         const controls=[...panel.querySelectorAll<HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>('input,select,textarea')];
         const properties=['font-family','font-size','font-weight','font-style','color','text-align','padding','border','border-radius','flex','align-self','vertical-align','letter-spacing','width','min-height'];
         const styles=controls.map(control=>{const style=getComputedStyle(control);return Object.fromEntries(properties.map(key=>[key,style.getPropertyValue(key)]));});
         controls.forEach((control,index)=>{
-          if(control instanceof HTMLInputElement&&['checkbox','radio','hidden'].includes(control.type))return;
+          if(control instanceof HTMLInputElement&&['checkbox','radio','hidden','number'].includes(control.type))return;
+          // Replacing these inputs with spans loses the original geometric CSS (Honor, circles,
+          // attribute boxes, shield and movement). Empty controls also preserve writable space.
+          if(!control.value.trim()||control.matches('.honor-ovals input,.save-circle,.ability-row>input,.strength-score input,.armor-shield input,.movement-summary input,.spell-slots input'))return;
           const text=document.createElement('span'),style=styles[index];
           text.className=control.className+' print-value';
           text.textContent=control instanceof HTMLSelectElement?control.selectedOptions[0]?.textContent??'':control.value;
