@@ -12636,6 +12636,33 @@
     "sourceFile": "manuscript/dragon/40/topics/magic-items.md"
   },
   {
+    "book": "dragon-42",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Demons, Devils and Spirits",
+    "group": "Dragon",
+    "excerpt": "萨拉夫是火元素位面的高大人形种族，外地通常只见太阳兄弟会的战士，单独活动，高约七英尺，红肤红发、粉色虹膜。兄弟会成员力量 18/00、敏捷 18，适用相应修正；统计栏命中 +4、伤害 1d8+7 保留原值，不在其上再重复计算。",
+    "sourceFile": "manuscript/dragon/42/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-42",
+    "slug": "possession",
+    "title": "附体者：侵入、结合与驱魔",
+    "titleEn": "Possessors, The",
+    "group": "Dragon",
+    "excerpt": "本篇把附体者描述为地狱创造的无实体生物，由塞尔姆与六名阿修罗构成相互牵制的统治体系。下述流程专用于本篇魁、毗舍遮和阿修罗；它们与 OA 中因未了任务而滞留的同名 Kuei 身份不同。",
+    "sourceFile": "manuscript/dragon/42/topics/possession.md"
+  },
+  {
+    "book": "dragon-42",
+    "slug": "spirits",
+    "title": "恶魔、魔鬼与原初精灵",
+    "titleEn": "Demons, Devils and Spirits",
+    "group": "Dragon",
+    "excerpt": "这组资料使用三种不同规则身份：阿斯佩林是魔鬼，哈卡穆利是恶魔，各沿用 MM 对应类别的通则；萨拉夫和阿波利昂属于作者提出的原初精灵（spirits）。这里的精灵指原初、元素或根本力量形成的异界生物，不是妖精，也不是统一套用不死生物规则的亡魂。该类通常来自主物质位面之外，极少出现，阵营一般不采用守序邪恶或混乱邪恶；每种的",
+    "sourceFile": "manuscript/dragon/42/topics/spirits.md"
+  },
+  {
     "book": "dragon-43",
     "slug": "high-secret-order",
     "title": "巫婆高阶秘社法术",
@@ -12884,7 +12911,7 @@
     "title": "野蛮人（Gygax早期测试稿）",
     "titleEn": "Big, Bad Barbarian, The",
     "group": "Dragon",
-    "excerpt": "Gygax邀请读者试用的早期职业稿，不能当作UA全文或官方勘误。一级属性生成很特殊：STR取9d6最高三骰，DEX取7d6最高三骰，CON取8d6最高三骰；INT与CHA各3d6，WIS4d4。仅人类，无主属性经验奖惩、无通常灵能。",
+    "excerpt": "野蛮人是战士的子职业，仅限人类，等级无上限，阵营必须非守序。没有主属性，因此经验值没有主属性加成或罚值；不具有通常意义上的灵能，也不施法。部分天生能力虽类似法术，仍不算施法能力。",
     "sourceFile": "manuscript/dragon/63/topics/class-revisions.md"
   },
   {
@@ -13543,6 +13570,42 @@
     "group": "Dragon",
     "excerpt": "诅咒物品，外观完全仿照预警球：两英尺直径的绿大理石球，带黑或红纹，悬于金银框架内；整套装置高超过四英尺、直径三英尺，约重三百磅。",
     "sourceFile": "manuscript/dragon/145/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-146",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragons are Wizards' Best Friends",
+    "group": "Dragon",
+    "excerpt": "水晶幼龙是妖精龙的游居近亲，常住偏僻沙漠洞穴，单独游荡者也可在各地宝石矿附近出现。说话概率 90%、施法概率 50%、睡眠概率 30%；说话者会本族语、阵营语及另 1–4 种语言。最强远古个体经验值最高 VI／775 + 每 HP 6。",
+    "sourceFile": "manuscript/dragon/146/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-146",
+    "slug": "demon-drake-spells",
+    "title": "恶魔幼龙的独门法术",
+    "titleEn": "Dragons are Wizards' Best Friends",
+    "group": "Dragon",
+    "excerpt": "恶魔幼龙长者传授的独门一环法术，可施在小型活物或非生物物件上，使其呈现与原物形状、大小大致相当的假象，例如毒蛇似珠宝匕首，蜂巢似密封盒，石化鸡似熟睡小狗。",
+    "sourceFile": "manuscript/dragon/146/topics/demon-drake-spells.md"
+  },
+  {
+    "book": "dragon-146",
+    "slug": "dragon-variants",
+    "title": "新龙与龙兽",
+    "titleEn": "All dragons, great and small",
+    "group": "Dragon",
+    "excerpt": "除另有说明外，采用 MM 第 29–31 页的真龙通则：体型类别、生命阶段、红外视觉、吐息伤害、察觉隐藏或隐形生物、恐惧灵气，以及随年龄增长的财宝和豁免加值。睡眠、制服等规则同样适用；龙兽和迷你龙另有明确例外。",
+    "sourceFile": "manuscript/dragon/146/topics/dragon-variants.md"
+  },
+  {
+    "book": "dragon-146",
+    "slug": "greater-familiars",
+    "title": "高级龙类魔宠",
+    "titleEn": "Dragons are Wizards' Best Friends",
+    "group": "Dragon",
+    "excerpt": "这组小龙主要供至少十二级的魔法使用者或幻术师作为高级魔宠，也能独立作为遭遇、盟友和巢穴居民。幻术师通常不能选取一环寻找魔宠，须另找祈愿戒指等途径；神祇也可赐牧师、德鲁伊一名具有魔宠作用的伙伴。能施法的龙本身也可能用自己的寻找魔宠方式结交它们。",
+    "sourceFile": "manuscript/dragon/146/topics/greater-familiars.md"
   },
   {
     "book": "dragon-147",

@@ -4796,5 +4796,146 @@
       "杂志版",
       "Dragon #58"
     ]
+  },
+  {
+    "level": 1,
+    "school": "幻术／变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "0",
+    "duration": "特殊；见正文",
+    "areaOfEffect": "½ 立方英尺",
+    "savingThrow": "成功无效；正文规定对麻痹豁免",
+    "classes": [
+      "Demon Drake"
+    ],
+    "reversible": false,
+    "materialComponent": "一小块羊毛、鸟绒或类似物品",
+    "id": "dragon-146-spell-pretty-oops",
+    "nameZh": "漂亮——糟了！",
+    "nameEn": "Pretty—Oops!",
+    "description": "恶魔幼龙长者传授的独门一环法术，可施在小型活物或非生物物件上，使其呈现与原物形状、大小大致相当的假象，例如毒蛇似珠宝匕首，蜂巢似密封盒，石化鸡似熟睡小狗。",
+    "details": [
+      {
+        "title": "Dragon #146 · 漂亮——糟了！",
+        "html": "<p>恶魔幼龙长者传授的独门一环法术，可施在小型活物或非生物物件上，使其呈现与原物形状、大小大致相当的假象，例如毒蛇似珠宝匕首，蜂巢似密封盒，石化鸡似熟睡小狗。</p><p>活物可对麻痹豁免，失败麻痹 5–8 小时；第四小时以后每小时再作豁免，成功立即恢复，最晚八小时自动恢复。物体或生物一旦被触摸或受伤，就立即恢复原貌；侦测幻象能识破伪装。</p>",
+        "source": {
+          "book": "Dragon #146",
+          "page": 18,
+          "section": "demon-drake-spells"
+        },
+        "href": "/books/dragon-146/demon-drake-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #146",
+        "page": 18,
+        "section": "demon-drake-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #146"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "幻术／塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "30 英尺",
+    "duration": "24 小时",
+    "areaOfEffect": "直径 10 英尺球形",
+    "savingThrow": "成功无效",
+    "classes": [
+      "Demon Drake"
+    ],
+    "reversible": false,
+    "materialComponent": "蜥蜴皮或蛇皮",
+    "id": "dragon-146-spell-slither-hiss",
+    "nameZh": "窸窣——嘶嘶！",
+    "nameEn": "Slither—Hiss!",
+    "description": "用来守护洞穴，触发条件可像魔嘴一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。",
+    "details": [
+      {
+        "title": "Dragon #146 · 窸窣——嘶嘶！",
+        "html": "<p>用来守护洞穴，触发条件可像魔嘴一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。</p><p>每名闯入者分别对法术豁免；失败者不安，并在暗影和石缝里瞥见巨大威胁。若仍待在作用范围内，1–4 轮后遭受惊惧术（spook）效果。</p>",
+        "source": {
+          "book": "Dragon #146",
+          "page": 18,
+          "section": "demon-drake-spells"
+        },
+        "href": "/books/dragon-146/demon-drake-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #146",
+        "page": 18,
+        "section": "demon-drake-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #146"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "幻术／塑能／变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1 轮",
+    "range": "0",
+    "duration": "24 小时",
+    "areaOfEffect": "10 英尺球形；正文另列 5 英尺与 10 英尺距离",
+    "savingThrow": "对魔杖豁免成功伤害减半",
+    "classes": [
+      "Demon Drake"
+    ],
+    "reversible": false,
+    "materialComponent": "至少价值 1 金币的宝石",
+    "id": "dragon-146-spell-pretty-boom",
+    "nameZh": "漂亮——轰！",
+    "nameEn": "Pretty—Boom!",
+    "description": "将宝石伪装成原价 10–100 倍的珍宝，恰在二十四小时后爆炸。爆炸是冲击力而非火焰，碎片可撕烂背包、袋和小包，仍会伤到携带者。正文写五英尺内造成 3–12 点伤害，并同时规定十英尺内可对魔杖豁免、成功减半；不把这两处距离改成统一数值。",
+    "details": [
+      {
+        "title": "Dragon #146 · 漂亮——轰！",
+        "html": "<p>将宝石伪装成原价 10–100 倍的珍宝，恰在二十四小时后爆炸。爆炸是冲击力而非火焰，碎片可撕烂背包、袋和小包，仍会伤到携带者。正文写五英尺内造成 3–12 点伤害，并同时规定十英尺内可对魔杖豁免、成功减半；不把这两处距离改成统一数值。</p><p>在次元袋或次元洞中爆炸会毁掉该物品，但携带者不受伤。施法者可在宝石十英尺内说出口令取消，其他人即使知道口令也不能取消；解除魔法照常有效。</p><p>施法时也可选另外两种结局：宝石化成同名法术的臭云，或只造成 1 点伤害的大响爆裂，同时产生直径二十英尺、持续一回合的硫磺烟云。</p>",
+        "source": {
+          "book": "Dragon #146",
+          "page": 19,
+          "section": "demon-drake-spells"
+        },
+        "href": "/books/dragon-146/demon-drake-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #146",
+        "page": 19,
+        "section": "demon-drake-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #146"
+    ]
   }
 ]

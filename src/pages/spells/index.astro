@@ -6,7 +6,7 @@ import EntryTable from '../../components/EntryTable.astro';
 import FilterChoices from '../../components/FilterChoices.astro';
 import { spells } from '../../data/public/spells';
 import { spellSchools, bilingualSpellSchool } from '../../utils/spell-schools';
-const classLabels: Record<string,string> = {'Cleric':'牧师','Druid':'德鲁伊','Magic-User':'魔法师','Illusionist':'幻术师','Shukenja':'修贤者','Sohei':'僧兵','Wu Jen':'巫人','Ranger':'巡林客','Paladin':'圣武士'};
+const classLabels: Record<string,string> = {'Cleric':'牧师','Druid':'德鲁伊','Magic-User':'魔法师','Illusionist':'幻术师','Shukenja':'修贤者','Sohei':'僧兵','Wu Jen':'巫人','Ranger':'巡林客','Paladin':'圣武士','Demon Drake':'恶魔幼龙'};
 const classes = [...new Set(spells.flatMap(spell => spell.classes))].sort();
 const schools = [...new Set(spells.flatMap(spell => spellSchools(spell.school)))];
 const levels = [...new Set(spells.map(spell => spell.level))].sort((a,b)=>a-b);
