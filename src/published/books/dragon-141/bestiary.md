@@ -8,13 +8,13 @@ Dragon's Bestiary, The · Dragon #141
 
 Michael J. Szarmach · 第 16、17 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>深渊中不常见，其他地方极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–8</td></tr><tr><th scope="row">护甲等级</th><td>2</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>7+10</td></tr><tr><th scope="row">巢穴比例</th><td>40%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次爪击、一次啃咬</td></tr><tr><th scope="row">伤害</th><td>1d8+6／1d8+6／2d6</td></tr><tr><th scope="row">特殊攻击</th><td>投石、连锁闪电、类法术能力、开启异界之门</td></tr><tr><th scope="row">特殊防御</th><td>须用 +1 或更好的武器命中；再生；免疫电击；寒冷及毒气伤害减半</td></tr><tr><th scope="row">魔法抗性</th><td>60%</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，身高超过 13 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>深渊，偶见于其他位面</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>深渊中不常见，其他地方极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–8</td></tr><tr><th scope="row">护甲等级</th><td>2</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>7+10</td></tr><tr><th scope="row">巢穴比例</th><td>40%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次爪击、一次啃咬</td></tr><tr><th scope="row">伤害</th><td>1d8+6／1d8+6／2d6</td></tr><tr><th scope="row">特殊攻击</th><td>投石、连锁闪电、类法术能力、开启传送门</td></tr><tr><th scope="row">特殊防御</th><td>须用 +1 或更好的武器命中；再生；免疫电击；寒冷及毒气伤害减半</td></tr><tr><th scope="row">魔法抗性</th><td>60%</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，身高超过 13 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>深渊，偶见于其他位面</td></tr></tbody></table></div>
 
 黑巨魔也称恶魔巨魔，生活在深渊的一些层面。它们被认为是普通巨魔受到恶魔力量改变后的后裔，体形更高大，黑色皮肤光滑，长着红角和闪亮的绿眼睛，轮廓反而比普通巨魔更像人。巡林客、矮人和侏儒对普通巨魔或巨人型怪物拥有的攻击、防御加值，同样适用于黑巨魔。
 
 它的力量为 18/00，除了用双爪和牙齿近战，还能把石块投到 180 英尺外，每块造成 1d10 点伤害。每天最多三次，它能放出造成 6d6 点伤害的连锁闪电，可能接连伤及整支队伍。闪电束宽 ¼″、最长 7″；黑巨魔免疫电击，因此也会在贴身战斗中使用这项能力。
 
-它可以随意使用半径 10 英尺的黑暗、烟火术、心灵遥控、解除魔法和无误传送；心灵遥控的载重上限为 5,000 金币重量。它还可以尝试开启异界之门，成功率为 50%。成功后，40% 的结果是召来 1d2 只普通巨魔，20% 是 2–5 只怯魔，另 40% 是 1d2 只黑巨魔。
+它可以随意使用半径 10 英尺的黑暗、烟火术、心灵遥控、解除魔法和无误传送；心灵遥控的载重上限为 5,000 金币重量。它还可以尝试开启传送门，成功率为 50%。成功后，40% 的结果是召来 1d2 只普通巨魔，20% 是 2–5 只怯魔，另 40% 是 1d2 只黑巨魔。
 
 只有 +1 或更好的魔法武器能伤到黑巨魔。寒冷和毒气攻击只能对它造成一半伤害；它每轮再生 3 点生命值，也能把所有被切断的肢体重新接回身上。
 

@@ -48,7 +48,7 @@ Tom Moldvay · 第 24 页
 
 另造变体时须考虑创造者等级，不宜因骷髅外观像低级敌人，就把高等级火球或闪电束放进低级冒险。
 
-<h3>八种宝石眼</h3><div class="table-wrap"><table><thead><tr><th>种类</th><th>能力</th><th>次数</th></tr></thead><tbody><tr><td>红宝石眼</td><td>燃烧之眼：同燃烧之手，但火从眼中喷出，按九级魔法使用者造成9点伤害</td><td>每日3次</td></tr><tr><td>蓝宝石眼</td><td>六十英尺内的创造者命中及所有豁免+2；毁掉宝石眼即终止</td><td>持续</td></tr><tr><td>钻石眼</td><td>加速术：自身移动与攻击加倍</td><td>每日3次</td></tr><tr><td>紫水晶眼</td><td>魅影之力</td><td>每日2次</td></tr><tr><td>蛋白石眼</td><td>镜影术</td><td>每日3次</td></tr><tr><td>珍珠眼</td><td>睡眠术</td><td>每日3次</td></tr><tr><td>黑曜石眼</td><td>十五英尺半径黑暗术</td><td>每日3次</td></tr><tr><td>祖母绿眼</td><td>接触施放衰弱射线</td><td>每日3次</td></tr></tbody></table></div>
+<h3>八种宝石眼</h3><div class="table-wrap"><table><thead><tr><th>种类</th><th>能力</th><th>次数</th></tr></thead><tbody><tr><td>红宝石眼</td><td>燃烧之眼：同燃烧之手，但火从眼中喷出，按九级魔法使用者造成9点伤害</td><td>每日3次</td></tr><tr><td>蓝宝石眼</td><td>六十英尺内的创造者命中及所有豁免+2；毁掉宝石眼即终止</td><td>持续</td></tr><tr><td>钻石眼</td><td>加速术：自身移动与攻击加倍</td><td>每日3次</td></tr><tr><td>紫水晶眼</td><td>幻影之力</td><td>每日2次</td></tr><tr><td>蛋白石眼</td><td>镜影术</td><td>每日3次</td></tr><tr><td>珍珠眼</td><td>睡眠术</td><td>每日3次</td></tr><tr><td>黑曜石眼</td><td>十五英尺半径黑暗术</td><td>每日3次</td></tr><tr><td>祖母绿眼</td><td>接触施放衰弱射线</td><td>每日3次</td></tr></tbody></table></div>
 
 ## 电击骷髅 Shock Bones
 
@@ -126,9 +126,9 @@ Tom Moldvay · 第 29 页
 
 Tom Moldvay · 第 29、30 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>2–16</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>3</td></tr><tr><th scope="row">巢穴比例</th><td>10%</td></tr><tr><th scope="row">宝藏</th><td>C</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–8</td></tr><tr><th scope="row">特殊攻击</th><td>命令术；人类定身术；厄运</td></tr><tr><th scope="row">特殊防御</th><td>免疫睡眠与魅惑</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>2–16</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>3</td></tr><tr><th scope="row">巢穴比例</th><td>10%</td></tr><tr><th scope="row">宝藏</th><td>C</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–8</td></tr><tr><th scope="row">特殊攻击</th><td>命令术；定身人类；厄运</td></tr><tr><th scope="row">特殊防御</th><td>免疫睡眠与魅惑</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
-由秘密食人结社成员的尸体活化，生前习俗使其与邪灵结合，回归后有部分恶魔般法力，并非无心奴仆。能使用牧师命令术与人类定身术，原文未列每天次数。
+由秘密食人结社成员的尸体活化，生前习俗使其与邪灵结合，回归后有部分恶魔般法力，并非无心奴仆。能使用牧师命令术与定身人类，原文未列每天次数。
 
 所有与巴卡交战者，在这场战斗期间命中、伤害和全部豁免各 −1。免疫睡眠和魅惑，牧师按食尸鬼驱散。通常须由主人妥善供养新鲜尸体，背景中的违约反噬没有另给伤害数值。
 

@@ -12,7 +12,7 @@ Ed Greenwood · 第 33、34 页
 <strong>等级 Level：</strong>9<br>
 <strong>距离 Range：</strong>3″<br>
 <strong>持续时间 Duration：</strong>至多 1 回合/级，可自愿结束<br>
-<strong>影响范围 Area of Effect：</strong>直径 2″ 双向异界之门<br>
+<strong>影响范围 Area of Effect：</strong>直径 2″ 双向传送门<br>
 <strong>成分 Components：</strong>V、S、M<br>
 <strong>施法时间 Casting Time：</strong>3 施法时段<br>
 <strong>豁免检定 Saving Throw：</strong>无

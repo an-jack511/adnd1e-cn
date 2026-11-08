@@ -1,4 +1,4 @@
-# 水墙（巫婆版）
+# 水墙术
 
 Brewing Up a New NPC: The Witch · Dragon #43
 

@@ -1235,12 +1235,12 @@
     "reversible": false,
     "materialComponent": "价值至少 50 gp 的相应颜色宝石或透明宝石",
     "id": "dragon-066-spell-chromatic-orb",
-    "nameZh": "繁彩球",
+    "nameZh": "七彩法球",
     "nameEn": "Chromatic Orb",
     "description": "在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗力抵抗。可选自身等级已解锁的任何低阶颜色。",
     "details": [
       {
-        "title": "Dragon #66 · 繁彩球",
+        "title": "Dragon #66 · 七彩法球",
         "html": "<p>在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗力抵抗。可选自身等级已解锁的任何低阶颜色。</p><p>一级珍珠色 1d4，发光 1 轮/级，豁免失败期间失明；二级红宝石 1d6，融化至多一立方码冰，失败力量与敏捷各减一、持续一轮；三级火焰色 1d8，点燃一英尺内可燃物，失败再受两点火伤，抗火者例外；四级琥珀色 1d10，失败失明 1d4+4 轮。</p><p>五级祖母绿 1d12，产生五英尺半径臭云，按臭云术与毒素豁免处理；六级绿松石 2d8 电伤，铁质装备持有者对法术豁免失败则被磁化 3d4 轮，金属相互吸附。</p><p>七级蓝宝石，对瘫痪豁免失败则瘫痪 5d4 轮；八级紫水晶，对石化豁免失败石化，成功仍缓慢 2d4 轮；九级灰色，对死亡魔法豁免失败即死，成功仍瘫痪 1d4+1 轮。需颜色相应或透明的宝石，价值至少 50 gp。</p>",
         "source": {
           "book": "Dragon #66",
@@ -1328,12 +1328,12 @@
     "reversible": false,
     "materialComponent": "小羽毛、微型木拍与小馅饼",
     "id": "dragon-067-spell-hideous-laughter",
-    "nameZh": "狂笑术",
+    "nameZh": "塔莎失控狂笑术",
     "nameEn": "Hideous Laughter",
     "description": "施法当轮仅有轻微异感，下一轮狂笑倒地，再下一轮起身恢复；施法后第三、第四轮力量 −2。智力 ≤3 免疫，4–8 无豁免，9–12 对法术豁免 −4，13–15 为 −2，16 以上正常。材料为小羽毛、微型木拍与小馅饼。",
     "details": [
       {
-        "title": "Dragon #67 · 狂笑术",
+        "title": "Dragon #67 · 塔莎失控狂笑术",
         "html": "<p>施法当轮仅有轻微异感，下一轮狂笑倒地，再下一轮起身恢复；施法后第三、第四轮力量 −2。智力 ≤3 免疫，4–8 无豁免，9–12 对法术豁免 −4，13–15 为 −2，16 以上正常。材料为小羽毛、微型木拍与小馅饼。</p>",
         "source": {
           "book": "Dragon #67",
@@ -1375,7 +1375,7 @@
     "reversible": false,
     "materialComponent": "飞镖、粉碎大黄叶与蝰蛇胃",
     "id": "dragon-067-spell-melf-s-acid-arrow",
-    "nameZh": "马友夫强酸箭",
+    "nameZh": "马友夫强酸箭（早期版）",
     "nameEn": "Melf's Acid Arrow",
     "description": "以同级战士及 +1 武器标准判定命中，箭本身造成 1d4+1，另释放八盎司酸造成 2d4，并检定物品豁免；酸可伤不受普通箭或 +1 武器影响的目标。可中和酸以停止后续伤害。",
     "details": [
@@ -1468,12 +1468,12 @@
     "reversible": false,
     "materialComponent": "硝石、硫磺、松焦油制珠；至少 1,000 gp 的可重复使用金管",
     "id": "dragon-067-spell-melf-s-minute-meteors",
-    "nameZh": "马友夫微流星",
+    "nameZh": "马友夫微型流星",
     "nameEn": "Melf's Minute Meteors",
     "description": "生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两时段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。",
     "details": [
       {
-        "title": "Dragon #67 · 马友夫微流星",
+        "title": "Dragon #67 · 马友夫微型流星",
         "html": "<p>生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两时段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。</p><p>原刊列施法五时段，连续模式却写施法当轮第二时段开始发射，时序存在不一致；实跑须裁定起射时点。材料为硝石、硫磺、松焦油制珠及至少 1,000 gp 的精工刻纹中空金管；管可重复使用，除非损坏。</p>",
         "source": {
           "book": "Dragon #67",
@@ -1655,7 +1655,7 @@
     "reversible": false,
     "materialComponent": "毛皮；琥珀、玻璃或水晶杆；每级一枚银针",
     "id": "dragon-068-spell-chain-lightning",
-    "nameZh": "连锁闪电",
+    "nameZh": "连锁闪电（早期版）",
     "nameEn": "Chain Lightning",
     "description": "首击每施法者等级 1d6，可对法术豁免减半；随后跳向最近的其他物件或生物，等距优先金属、其次含液体最多者、再随机。可来回击中同一目标，施法者也可能被击中。",
     "details": [
@@ -1988,7 +1988,7 @@
     "details": [
       {
         "title": "Dragon #68 · 次等守护力罩",
-        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>解离、有限许愿术、祈愿、相位门、影门或位面转移可破坏；火球、闪电、寒冰锥、焰击、欧提路克冰冻法球第二或第三用法、流星群单次造成至少二十点伤害也能破坏。破罩本身不伤内部者。七颗各至少 100 gp 的小珍珠均匀摆圈，施法消耗。</p>",
+        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>解离、有限祈愿、祈愿、相位门、影门或位面转移可破坏；火球、闪电、寒冰锥、焰击、欧提路克冰冻法球第二或第三用法、流星群单次造成至少二十点伤害也能破坏。破罩本身不伤内部者。七颗各至少 100 gp 的小珍珠均匀摆圈，施法消耗。</p>",
         "source": {
           "book": "Dragon #68",
           "page": 32,
@@ -2035,7 +2035,7 @@
     "details": [
       {
         "title": "Dragon #68 · 高等守护力罩",
-        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>次等罩的升级版：只有解离、有限许愿术、祈愿，或所列伤害法术单次至少五十点，才能破坏；相位门、影门和位面转移不能像对次等罩那样解除。七颗各至少 250 gp 的宝石施法消耗。</p>",
+        "html": "<p>力障不能以物理攻击打破，解除魔法无效。不能通过星界、任意门、穿墙、传送或回返真言等进出；内部不能向外施法，但可在内部施治疗等法术。施法者可用整轮撤除，昏迷或入睡后下一轮崩解。没有底面，可挖隧道进入。</p><p>次等罩的升级版：只有解离、有限祈愿、祈愿，或所列伤害法术单次至少五十点，才能破坏；相位门、影门和位面转移不能像对次等罩那样解除。七颗各至少 250 gp 的宝石施法消耗。</p>",
         "source": {
           "book": "Dragon #68",
           "page": 33,
@@ -2121,7 +2121,7 @@
     "reversible": false,
     "materialComponent": "",
     "id": "dragon-058-spell-dust-devil",
-    "nameZh": "龙卷尘暴",
+    "nameZh": "尘卷风（早期牧师版）",
     "nameEn": "Dust Devil",
     "description": "召来最弱气元素：2 HD、AC 4、移动 18″，无有效伤害攻击；普通武器可伤，魔法武器伤害翻倍，气元素位面生物可随意解散。须始终留在施法者 3″ 内。",
     "details": [
@@ -2168,12 +2168,12 @@
     "reversible": false,
     "materialComponent": "与目标石材同类的样本",
     "id": "dragon-058-spell-meld-into-stone",
-    "nameZh": "融身入石",
+    "nameZh": "融入石中（早期版）",
     "nameEn": "Meld Into Stone",
     "description": "握同类石样并融进足够容下全身装备的石块，不够大立即弹出；神器与圣物留在外面。只能由原入口离开，不能穿墙。石内知时间、有嗅味觉，无视觉听觉，不知道暗掷时限。",
     "details": [
       {
-        "title": "Dragon #58 · 融身入石（早期版）",
+        "title": "Dragon #58 · 融入石中（早期版）",
         "html": "<p>握同类石样并融进足够容下全身装备的石块，不够大立即弹出；神器与圣物留在外面。只能由原入口离开，不能穿墙。石内知时间、有嗅味觉，无视觉听觉，不知道暗掷时限。</p><p>主动及时出来无伤；到期弹出受 8d4，物品须作石化豁免，失败变石。化石为肉会弹出并造成 8d4，物品免豁免；挖掘术造成 8d8，再作死亡豁免，失败即死；化石为泥立即永久死亡；塑石术造成 4d4，但可以继续留在石内。</p>",
         "source": {
           "book": "Dragon #58",
@@ -2215,7 +2215,7 @@
     "reversible": false,
     "materialComponent": "随仪式及宗教组织而异",
     "id": "dragon-058-spell-ceremony",
-    "nameZh": "典礼术",
+    "nameZh": "仪式（牧师早期方案）",
     "nameEn": "Ceremony",
     "description": "这套仪式的具体环数随用途上升：一环为成年、葬礼、婚姻；二环为奉献、入教、祝圣物件；三环为授职、特别誓愿；四环为祝圣土地；五环为绝罚。所需牧师等级分别至少一／三／五／七／九。列表基础一环不表示所有用途只耗一环位。",
     "details": [
@@ -2266,7 +2266,7 @@
     "description": "生成一边落地的旋流水墙，挡普通火焰而不挡火球等魔法火焰，阻挡包括魔法飞弹与魔法回旋镖在内的飞射物。火焰生物穿越受 5d6 伤害。",
     "details": [
       {
-        "title": "Dragon #43 · 水墙（巫婆版）",
+        "title": "Dragon #43 · 水墙术",
         "html": "<p>生成一边落地的旋流水墙，挡普通火焰而不挡火球等魔法火焰，阻挡包括魔法飞弹与魔法回旋镖在内的飞射物。火焰生物穿越受 5d6 伤害。</p><p>不足 5 HD 的活物或不死生物不能穿越；至少 5 HD 者穿越受 3d6 伤害，耗两轮，力量至少 18/51 则按正常移动率通过。施法者可无伤通过，并取至多五瓶失去魔性的普通水。</p><p>不能用来创造水元素。法术终止后水不会消失，成为普通水沿地面流散。</p><p>适用于第 43 期的 NPC 巫婆版本；独有巫婆法术不能影响巨灵、火巨灵与牧师。至少需要言语和姿势成分，材料由主持人决定；不是普通法师法术表的新增项。</p>",
         "source": {
           "book": "Dragon #43",
@@ -2401,7 +2401,7 @@
     "details": [
       {
         "title": "Dragon #69 · 离心术",
-        "html": "<p>念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。</p><p>离体心智无法被探测或心灵、灵能、魔法攻击接触，留在主物质位面随机游荡；不能决定观察对象、祈祷、研习或施法，也不能自行归体。主持人可给 1d6 个不解释的见闻或思想片段。</p><p>改变现实、有限许愿术、祈愿或反向“复心术”可恢复。反向也能治愈疯狂、弱智、脑损伤，解除任务、誓约、魅惑等心智控制，清醒酒醉、疲劳、药物影响者，但不能恢复失去的灵能。</p><p>两个方向都须允许豁免；复心术即使目标愿意也可能因成功豁免而无效，只表示本次没有恢复，不妨碍以后重试。</p>",
+        "html": "<p>念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。</p><p>离体心智无法被探测或心灵、灵能、魔法攻击接触，留在主物质位面随机游荡；不能决定观察对象、祈祷、研习或施法，也不能自行归体。主持人可给 1d6 个不解释的见闻或思想片段。</p><p>改变现实、有限祈愿、祈愿或反向“复心术”可恢复。反向也能治愈疯狂、弱智、脑损伤，解除任务、誓约、魅惑等心智控制，清醒酒醉、疲劳、药物影响者，但不能恢复失去的灵能。</p><p>两个方向都须允许豁免；复心术即使目标愿意也可能因成功豁免而无效，只表示本次没有恢复，不妨碍以后重试。</p>",
         "source": {
           "book": "Dragon #69",
           "page": 73,
@@ -2443,11 +2443,11 @@
     "id": "dragon-069-spell-tasirin-s-haunted-sleep",
     "nameZh": "塔西林梦扰术",
     "nameEn": "Tasirin's Haunted Sleep",
-    "description": "只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限许愿术／祈愿或受伤等强烈痛楚能提前唤醒。",
+    "description": "只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限祈愿／祈愿或受伤等强烈痛楚能提前唤醒。",
     "details": [
       {
         "title": "Dragon #69 · 塔西林梦扰术",
-        "html": "<p>只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限许愿术／祈愿或受伤等强烈痛楚能提前唤醒。</p><p>施法时专注一个特定场景，可把它作为梦或潜意识影像植入目标，醒来不久进入意识；清晰与准确程度依专注决定。并不读取目标思想，也不直接告知施法者成功与否。</p><p>深睡期间对其中一个暗示术的豁免 −3，可由任一施法者施放，仍须用目标懂得的语言。</p>",
+        "html": "<p>只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限祈愿／祈愿或受伤等强烈痛楚能提前唤醒。</p><p>施法时专注一个特定场景，可把它作为梦或潜意识影像植入目标，醒来不久进入意识；清晰与准确程度依专注决定。并不读取目标思想，也不直接告知施法者成功与否。</p><p>深睡期间对其中一个暗示术的豁免 −3，可由任一施法者施放，仍须用目标懂得的语言。</p>",
         "source": {
           "book": "Dragon #69",
           "page": 72,
@@ -3979,11 +3979,11 @@
     "id": "dragon-120-spell-temperature",
     "nameZh": "保温祷术",
     "nameEn": "Temperature",
-    "description": "使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。",
+    "description": "使受术者免受不良温度影响，效力按保暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。",
     "details": [
       {
         "title": "Dragon #120 · 保温祷术",
-        "html": "<p>使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。</p><p>此篇采用第 108 期零环祷术思路，两个祷术替换一个一环准备位；材料通则为槲寄生，未给此术另列材料。</p>",
+        "html": "<p>使受术者免受不良温度影响，效力按保暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。</p><p>此篇采用第 108 期零环祷术思路，两个祷术替换一个一环准备位；材料通则为槲寄生，未给此术另列材料。</p>",
         "source": {
           "book": "Dragon #120",
           "page": 40,
@@ -4016,7 +4016,7 @@
     "castingTime": "3 施法时段",
     "range": "3″",
     "duration": "至多 1 回合/级，可自愿结束",
-    "areaOfEffect": "直径 2″ 双向异界之门",
+    "areaOfEffect": "直径 2″ 双向传送门",
     "savingThrow": "无",
     "classes": [
       "Magic-User"
@@ -4215,7 +4215,7 @@
     "details": [
       {
         "title": "Dragon #109 · 偶像巫术",
-        "html": "<p>虽列一环，至少三级野蛮人牧师才能施放。为目标制作至少 500 gp 的写实塑像，制作者须相当熟悉目标；以装饰针进行漫长仪式，再把每施法者等级价值 10 gp 的油涂于塑像和牧师。</p><p>害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。</p><p>七级／九针可治疗或造成疾病、瘫痪、失明，赐予或移除诅咒，魅惑人类；九级／十二针可治疗或造成重伤；十一级／十三针可任务术、治疗或造成致命伤；十三级／二十针可昏迷。</p><p>昏迷目标须作死亡魔法豁免，失败每日失去一点生命值且不会自行醒来。成功解除魔法、驱魔、移除诅咒、解除邪恶、有限许愿术或祈愿才能救治，否则最终死亡。其他效果同对应法术，愿意者可不抵抗最初巫术，附加效果若本有豁免仍可另作。</p>",
+        "html": "<p>虽列一环，至少三级野蛮人牧师才能施放。为目标制作至少 500 gp 的写实塑像，制作者须相当熟悉目标；以装饰针进行漫长仪式，再把每施法者等级价值 10 gp 的油涂于塑像和牧师。</p><p>害人的铜针每根 3 gp，帮助人的银针每根 1 pp。三级／三针可祝福、诅咒或惊惧；四级／六针可治疗或造成轻伤、预兆（施法者知道预兆结果）。</p><p>七级／九针可治疗或造成疾病、瘫痪、失明，赐予或移除诅咒，魅惑人类；九级／十二针可治疗或造成重伤；十一级／十三针可任务术、治疗或造成致命伤；十三级／二十针可昏迷。</p><p>昏迷目标须作死亡魔法豁免，失败每日失去一点生命值且不会自行醒来。成功解除魔法、驱魔、移除诅咒、解除邪恶、有限祈愿或祈愿才能救治，否则最终死亡。其他效果同对应法术，愿意者可不抵抗最初巫术，附加效果若本有豁免仍可另作。</p>",
         "source": {
           "book": "Dragon #109",
           "page": 16,
@@ -4448,7 +4448,7 @@
     "details": [
       {
         "title": "Dragon #136 · 充能术",
-        "html": "<p>魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。</p><p>期间与物品功能相符的法术转成通用充能，通常恢复等于使用该功能消耗的次数，不能据此说已储存某种法术。幻术师不能充不能使用的物品；原文另要求牧师／德鲁伊也能使用的杖改用其他办法，与表中项目的实际适用范围须结合物品限制判断。</p><p>不匹配的法术、超过初始最大次数的充能，或他人向物品施法，都照常影响物品并取消充能术。强力法杖超充会如报复打击般爆炸。</p><p>每次施法时掷 d6 估计剩余容量：1–2 认为比实际少 1d4，3–4 知道准确值，5–6 认为比实际多 1d4；后者可能导致超充。</p><p>另可用有限许愿术、改变现实或祈愿加注数量不定、至多每两个施法者等级一次的充能；牧师则通过献祭、事功和祈祷请求神祇，代价由主持人依神性决定。原刊提醒完全耗尽的杖类会消解，不能等到归零才补。</p><p>充能对应表：括号内为每次恢复次数，未注明通常为一次。某些低环魔法师法术可由幻术师自身法术或七环“一环魔法师法术”施放，仍须符合使用资格。</p><table><thead><tr><th>物品</th><th>对应法术／次数</th></tr></thead><tbody><tr><td>Rod of beguiling</td><td>Charm monster；Charm person</td></tr><tr><td>Staff of command</td><td>Charm monster；Charm person；Friends（½）；Suggestion</td></tr><tr><td>Staff of power</td><td>Cone of cold；Continual darkness；Continual light；Fireball；Globe of invulnerability（2）；Hold monster（2）；Hold person；Levitate；Lightning bolt；Magic missile；Ray of enfeeblement；Shield（½）</td></tr><tr><td>Staff of striking</td><td>魔法师 Enchanted weapon：每两施法者等级一次；幻术师须 Alter reality</td></tr><tr><td>Wand of conjuration</td><td>Continual darkness（½）；Monster summoning（按法术环数恢复）；Prismatic sphere（7）；Unseen servant</td></tr><tr><td>Wand of enemy detection</td><td>Detect evil；Detect good；Detect invisibility；ESP；Know alignment</td></tr><tr><td>Wand of fear</td><td>Fear</td></tr><tr><td>Wand of fire</td><td>Burning hands；Fireball（2）；Pyrotechnics；Wall of fire（2）</td></tr><tr><td>Wand of frost</td><td>Cone of cold（2）；Ice storm；Wall of ice</td></tr><tr><td>Wand of illumination</td><td>Continual light（2）；Dancing lights；Light</td></tr><tr><td>Wand of illusion</td><td>Audible glamer；Phantasmal force</td></tr><tr><td>Wand of lightning</td><td>Shocking grasp；Lightning bolt（2）</td></tr><tr><td>Wand of magic detection</td><td>Detect magic</td></tr><tr><td>Wand of metal and mineral detection</td><td>Locate object</td></tr><tr><td>Wand of magic missiles</td><td>Magic missile</td></tr><tr><td>Wand of paralyzation</td><td>Hold monster（2）；Hold person</td></tr><tr><td>Wand of polymorphing</td><td>Polymorph other；Polymorph any object（2）</td></tr><tr><td>Wand of secret door and trap location</td><td>Locate object；幻术师只能用 Alter reality</td></tr></tbody></table>",
+        "html": "<p>魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。</p><p>期间与物品功能相符的法术转成通用充能，通常恢复等于使用该功能消耗的次数，不能据此说已储存某种法术。幻术师不能充不能使用的物品；原文另要求牧师／德鲁伊也能使用的杖改用其他办法，与表中项目的实际适用范围须结合物品限制判断。</p><p>不匹配的法术、超过初始最大次数的充能，或他人向物品施法，都照常影响物品并取消充能术。强力法杖超充会如报复打击般爆炸。</p><p>每次施法时掷 d6 估计剩余容量：1–2 认为比实际少 1d4，3–4 知道准确值，5–6 认为比实际多 1d4；后者可能导致超充。</p><p>另可用有限祈愿、改变现实或祈愿加注数量不定、至多每两个施法者等级一次的充能；牧师则通过献祭、事功和祈祷请求神祇，代价由主持人依神性决定。原刊提醒完全耗尽的杖类会消解，不能等到归零才补。</p><p>充能对应表：括号内为每次恢复次数，未注明通常为一次。某些低环魔法师法术可由幻术师自身法术或七环“一环魔法师法术”施放，仍须符合使用资格。</p><table><thead><tr><th>物品</th><th>对应法术／次数</th></tr></thead><tbody><tr><td>Rod of beguiling</td><td>Charm monster；Charm person</td></tr><tr><td>Staff of command</td><td>Charm monster；Charm person；Friends（½）；Suggestion</td></tr><tr><td>Staff of power</td><td>Cone of cold；Continual darkness；Continual light；Fireball；Globe of invulnerability（2）；Hold monster（2）；Hold person；Levitate；Lightning bolt；Magic missile；Ray of enfeeblement；Shield（½）</td></tr><tr><td>Staff of striking</td><td>魔法师 Enchanted weapon：每两施法者等级一次；幻术师须 Alter reality</td></tr><tr><td>Wand of conjuration</td><td>Continual darkness（½）；Monster summoning（按法术环数恢复）；Prismatic sphere（7）；Unseen servant</td></tr><tr><td>Wand of enemy detection</td><td>Detect evil；Detect good；Detect invisibility；ESP；Know alignment</td></tr><tr><td>Wand of fear</td><td>Fear</td></tr><tr><td>Wand of fire</td><td>Burning hands；Fireball（2）；Pyrotechnics；Wall of fire（2）</td></tr><tr><td>Wand of frost</td><td>Cone of cold（2）；Ice storm；Wall of ice</td></tr><tr><td>Wand of illumination</td><td>Continual light（2）；Dancing lights；Light</td></tr><tr><td>Wand of illusion</td><td>Audible glamer；Phantasmal force</td></tr><tr><td>Wand of lightning</td><td>Shocking grasp；Lightning bolt（2）</td></tr><tr><td>Wand of magic detection</td><td>Detect magic</td></tr><tr><td>Wand of metal and mineral detection</td><td>Locate object</td></tr><tr><td>Wand of magic missiles</td><td>Magic missile</td></tr><tr><td>Wand of paralyzation</td><td>Hold monster（2）；Hold person</td></tr><tr><td>Wand of polymorphing</td><td>Polymorph other；Polymorph any object（2）</td></tr><tr><td>Wand of secret door and trap location</td><td>Locate object；幻术师只能用 Alter reality</td></tr></tbody></table>",
         "source": {
           "book": "Dragon #136",
           "page": 46,
@@ -4771,11 +4771,11 @@
     "id": "dragon-058-spell-death-prayer",
     "nameZh": "临终祷告",
     "nameEn": "Death Prayer",
-    "description": "牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭活化死尸。",
+    "description": "牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭操纵死尸。",
     "details": [
       {
         "title": "Dragon #58 · 临终祷告",
-        "html": "<p>牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭活化死尸。</p><p>按死者生前等级进行豁免；即使获得法术或魔法物品加值，所需点数也不能低于 d20 掷出 12。失败则照常转化为相应不死生物；成功则遗体化为尘埃，永久失去任何用途。适用于尸妖、缚灵、幽魂、吸血鬼、食尸鬼、妖鬼，以及其他能够使受害者变成同类的不死生物。</p><p>死者交谈的施法者必须高于施放本法术的牧师等级，才能联系受保护者；一旦成功，本法术的保护即消失，不能重新施加。保护期间，死者复活或复生术的成功率降低 25%。</p><p>解除魔法无法移除保护，祈愿术或有限许愿术可以。探知这项法术是否生效，也至少需要有限许愿术或祈愿术。</p>",
+        "html": "<p>牧师吟诵并向尸体洒圣水或邪水，防止被不死生物杀死的受害者转化，也使遗体免遭操纵死尸。</p><p>按死者生前等级进行豁免；即使获得法术或魔法物品加值，所需点数也不能低于 d20 掷出 12。失败则照常转化为相应不死生物；成功则遗体化为尘埃，永久失去任何用途。适用于尸妖、缚灵、幽魂、吸血鬼、食尸鬼、妖鬼，以及其他能够使受害者变成同类的不死生物。</p><p>死者交谈的施法者必须高于施放本法术的牧师等级，才能联系受保护者；一旦成功，本法术的保护即消失，不能重新施加。保护期间，死者复活或复生术的成功率降低 25%。</p><p>解除魔法无法移除保护，祈愿术或有限许愿术可以。探知这项法术是否生效，也至少需要有限许愿术或祈愿术。</p>",
         "source": {
           "book": "Dragon #58",
           "page": 73,
@@ -4865,11 +4865,11 @@
     "id": "dragon-146-spell-slither-hiss",
     "nameZh": "窸窣——嘶嘶！",
     "nameEn": "Slither—Hiss!",
-    "description": "用来守护洞穴，触发条件可像魔嘴一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。",
+    "description": "用来守护洞穴，触发条件可像魔嘴术一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。",
     "details": [
       {
         "title": "Dragon #146 · 窸窣——嘶嘶！",
-        "html": "<p>用来守护洞穴，触发条件可像魔嘴一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。</p><p>每名闯入者分别对法术豁免；失败者不安，并在暗影和石缝里瞥见巨大威胁。若仍待在作用范围内，1–4 轮后遭受惊惧术（spook）效果。</p>",
+        "html": "<p>用来守护洞穴，触发条件可像魔嘴术一样辨识并针对特定种类的入侵者。触发后，闯入者听见更深处或前进方向传来大型蛇类的窸窣声，不论自身行动是否安静都听得见。</p><p>每名闯入者分别对法术豁免；失败者不安，并在暗影和石缝里瞥见巨大威胁。若仍待在作用范围内，1–4 轮后遭受惊惧术（spook）效果。</p>",
         "source": {
           "book": "Dragon #146",
           "page": 18,
@@ -4916,7 +4916,7 @@
     "details": [
       {
         "title": "Dragon #146 · 漂亮——轰！",
-        "html": "<p>将宝石伪装成原价 10–100 倍的珍宝，恰在二十四小时后爆炸。爆炸是冲击力而非火焰，碎片可撕烂背包、袋和小包，仍会伤到携带者。正文写五英尺内造成 3–12 点伤害，并同时规定十英尺内可对魔杖豁免、成功减半；不把这两处距离改成统一数值。</p><p>在次元袋或次元洞中爆炸会毁掉该物品，但携带者不受伤。施法者可在宝石十英尺内说出口令取消，其他人即使知道口令也不能取消；解除魔法照常有效。</p><p>施法时也可选另外两种结局：宝石化成同名法术的臭云，或只造成 1 点伤害的大响爆裂，同时产生直径二十英尺、持续一回合的硫磺烟云。</p>",
+        "html": "<p>将宝石伪装成原价 10–100 倍的珍宝，恰在二十四小时后爆炸。爆炸是冲击力而非火焰，碎片可撕烂背包、袋和小包，仍会伤到携带者。正文写五英尺内造成 3–12 点伤害，并同时规定十英尺内可对魔杖豁免、成功减半；不把这两处距离改成统一数值。</p><p>在次元袋或便携洞中爆炸会毁掉该物品，但携带者不受伤。施法者可在宝石十英尺内说出口令取消，其他人即使知道口令也不能取消；解除魔法照常有效。</p><p>施法时也可选另外两种结局：宝石化成同名法术的臭云，或只造成 1 点伤害的大响爆裂，同时产生直径二十英尺、持续一回合的硫磺烟云。</p>",
         "source": {
           "book": "Dragon #146",
           "page": 19,
@@ -5332,6 +5332,1305 @@
       "Dragon 杂志",
       "杂志版",
       "Dragon #49"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1轮",
+    "range": "0",
+    "duration": "1回合+每等级半回合",
+    "areaOfEffect": "直径6英尺球体",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "施法者圣徽",
+    "id": "dragon-129-spell-detect-harmful-gas",
+    "nameZh": "探测有害气体",
+    "nameEn": "Detect Harmful Gas",
+    "description": "用于采矿和地下探索。探测施法者周围直径6英尺球体内的有害气体，包括天然的甲烷、二氧化硫、火灾产生的一氧化碳，以及炼金术或魔法制造的其他有害气体。法术必定揭示有害气体存在，但施法者只有每等级5%的机会辨认具体气体；稀有气体可能只能判断危险性或大致效果。",
+    "details": [
+      {
+        "title": "Dragon #129 · 探测有害气体",
+        "html": "<p>用于采矿和地下探索。探测施法者周围直径6英尺球体内的有害气体，包括天然的甲烷、二氧化硫、火灾产生的一氧化碳，以及炼金术或魔法制造的其他有害气体。法术必定揭示有害气体存在，但施法者只有每等级5%的机会辨认具体气体；稀有气体可能只能判断危险性或大致效果。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1轮",
+    "range": "12英尺",
+    "duration": "1回合",
+    "areaOfEffect": "长12英尺、宽1英尺的通道",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "施法者圣徽",
+    "id": "dragon-129-spell-detect-metal-and-minerals",
+    "nameZh": "探测金属与矿物",
+    "nameEn": "Detect Metal and Minerals",
+    "description": "施法者专注于一种指定金属或矿物；若其位于长12英尺、宽1英尺的通道内，法术会显示准确位置和大致数量。持续时间内每轮可改探测另一种物质，并能判断它是纯净或精炼状态，还是原矿。施法者可以一边以步行速度移动一边维持专注，但不能进行剧烈活动。",
+    "details": [
+      {
+        "title": "Dragon #129 · 探测金属与矿物",
+        "html": "<p>施法者专注于一种指定金属或矿物；若其位于长12英尺、宽1英尺的通道内，法术会显示准确位置和大致数量。持续时间内每轮可改探测另一种物质，并能判断它是纯净或精炼状态，还是原矿。施法者可以一边以步行速度移动一边维持专注，但不能进行剧烈活动。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "变化／塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1回合",
+    "range": "1英尺",
+    "duration": "永久",
+    "areaOfEffect": "6至20块石头",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "一组六至二十块石头",
+    "id": "dragon-129-spell-enchant-runestones",
+    "nameZh": "附魔符石",
+    "nameEn": "Enchant Runestones",
+    "description": "用一组六至二十块石头刻上本地宗教或家乡传统的矮人符文，再以祝福术和本法术处理，使其成为占卜用符石。符石可在预兆术、卜筮术或神谕术中反复使用；将符石掷在地上并读取结果，能提高相应占卜的准确度，施法后符石不会消失。",
+    "details": [
+      {
+        "title": "Dragon #129 · 附魔符石",
+        "html": "<p>用一组六至二十块石头刻上本地宗教或家乡传统的矮人符文，再以祝福术和本法术处理，使其成为占卜用符石。符石可在预兆术、卜筮术或神谕术中反复使用；将符石掷在地上并读取结果，能提高相应占卜的准确度，施法后符石不会消失。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2轮",
+    "range": "2英尺",
+    "duration": "每等级3回合",
+    "areaOfEffect": "一座锻炉或熔炉",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "引火用的一小捆木柴或一块煤，以及一撮硫磺",
+    "id": "dragon-129-spell-forge-fire",
+    "nameZh": "锻炉之火",
+    "nameEn": "Forge Fire",
+    "description": "在经过矮人牧师以祈祷术预备的铁匠炉或熔炉中制造强劲而高效的火焰；只需少量引火物，之后在持续时间内无需补充燃料。法术不会产生有害气体。施法者等级决定可熔化的金属：3级铅、锌、锡；5级铜、银、金、黄铜、青铜、电金；7级铁、普通钢合金、陨铁钢合金；9级秘银钢合金和铂；16级精金钢合金。",
+    "details": [
+      {
+        "title": "Dragon #129 · 锻炉之火",
+        "html": "<p>在经过矮人牧师以祈祷术预备的铁匠炉或熔炉中制造强劲而高效的火焰；只需少量引火物，之后在持续时间内无需补充燃料。法术不会产生有害气体。施法者等级决定可熔化的金属：3级铅、锌、锡；5级铜、银、金、黄铜、青铜、电金；7级铁、普通钢合金、陨铁钢合金；9级秘银钢合金和铂；16级精金钢合金。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "2轮",
+    "range": "0",
+    "duration": "每等级3回合",
+    "areaOfEffect": "以施法者为中心、半径每等级1英尺的球体",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "施法者圣徽，以及监测区域的一小块土或石",
+    "id": "dragon-129-spell-earth-sense",
+    "nameZh": "大地感知",
+    "nameEn": "Earth Sense",
+    "description": "施法者将感官连入周围土地或石质结构，在持续时间内察觉区域内异常或危险，并先获得模糊的不安感。每次事件只能尝试一次辨认，辨认具体事件的机会为每等级5%；失败时仍能确定大致发生区域。施法后必须安静留在原地，离开施法点超过10英尺或进行战斗等剧烈活动都会中断法术。挖掘、掘洞生物、影响大地的魔法、非静默移动、附近战斗，以及可能导致塌方、天然气爆炸、火山或间歇泉活动的地质灾害都可能触发警兆。",
+    "details": [
+      {
+        "title": "Dragon #129 · 大地感知",
+        "html": "<p>施法者将感官连入周围土地或石质结构，在持续时间内察觉区域内异常或危险，并先获得模糊的不安感。每次事件只能尝试一次辨认，辨认具体事件的机会为每等级5%；失败时仍能确定大致发生区域。施法后必须安静留在原地，离开施法点超过10英尺或进行战斗等剧烈活动都会中断法术。挖掘、掘洞生物、影响大地的魔法、非静默移动、附近战斗，以及可能导致塌方、天然气爆炸、火山或间歇泉活动的地质灾害都可能触发警兆。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "咒法／召唤、变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "5轮",
+    "range": "1英尺",
+    "duration": "特殊",
+    "areaOfEffect": "每等级2立方英尺的水",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "价值至少500金币的微型银避雷针，以及洒入水槽的一小瓶圣水",
+    "id": "dragon-129-spell-lightning-water",
+    "nameZh": "雷水",
+    "nameEn": "Lightning Water",
+    "description": "使水获得雷电的魔法潜势，用于锻造武器、盔甲、首饰和其他金属制品。必须使用由精木镶银、价值至少5000金币的水槽；将施法后的水槽放在户外，等待一场夜间雷暴（天然或召唤）为水捕获雷电之灵。若没有雷暴，法术白费。雷水本身不带电，取回后可保持12小时或直到在锻炉中用尽。处理一件小金属物需2立方英尺，武器需6立方英尺，整套盔甲需12立方英尺。用雷水制作的首饰价值等级提高一档；所有用其制作的金属物、武器和盔甲进行避免损坏的豁免时获得+1。此后若由矮人牧师为物品附魔，每天有2%的累积概率成功完成附魔。",
+    "details": [
+      {
+        "title": "Dragon #129 · 雷水",
+        "html": "<p>使水获得雷电的魔法潜势，用于锻造武器、盔甲、首饰和其他金属制品。必须使用由精木镶银、价值至少5000金币的水槽；将施法后的水槽放在户外，等待一场夜间雷暴（天然或召唤）为水捕获雷电之灵。若没有雷暴，法术白费。雷水本身不带电，取回后可保持12小时或直到在锻炉中用尽。处理一件小金属物需2立方英尺，武器需6立方英尺，整套盔甲需12立方英尺。用雷水制作的首饰价值等级提高一档；所有用其制作的金属物、武器和盔甲进行避免损坏的豁免时获得+1。此后若由矮人牧师为物品附魔，每天有2%的累积概率成功完成附魔。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "7段",
+    "range": "3英尺",
+    "duration": "每等级1轮",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "一小段土柱或黏土柱",
+    "id": "dragon-129-spell-pillar-of-borogar",
+    "nameZh": "博罗加之柱",
+    "nameEn": "Pillar of Borogar",
+    "description": "从土、石、沙或黏土表面竖起一根可升降的土柱，不能从其他材质中生成。施法者在柱上或柱旁、距离不超过30英尺时都能控制它；柱高最高为每等级10英尺，以每轮60英尺的速度升降。通常直径10英尺，也可用高度减半为代价改成直径20英尺，改变直径需1轮。柱只能垂直升降，可穿破厚度不超过1英尺的木地板或屋顶石板。若基部被化泥、被水元素生物攻击、遭热带暴雨强度的降水，或以其他方式变成泥泞，柱子会被摧毁。",
+    "details": [
+      {
+        "title": "Dragon #129 · 博罗加之柱",
+        "html": "<p>从土、石、沙或黏土表面竖起一根可升降的土柱，不能从其他材质中生成。施法者在柱上或柱旁、距离不超过30英尺时都能控制它；柱高最高为每等级10英尺，以每轮60英尺的速度升降。通常直径10英尺，也可用高度减半为代价改成直径20英尺，改变直径需1轮。柱只能垂直升降，可穿破厚度不超过1英尺的木地板或屋顶石板。若基部被化泥、被水元素生物攻击、遭热带暴雨强度的降水，或以其他方式变成泥泞，柱子会被摧毁。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "变化",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1轮",
+    "range": "触碰",
+    "duration": "每等级1轮",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "混有铁屑、塑成原结构外形的一块黏土",
+    "id": "dragon-129-spell-restore-earth",
+    "nameZh": "复原大地",
+    "nameEn": "Restore Earth",
+    "description": "比石塑术更强，能逐渐修复土、石或金属结构。法术持续每等级1轮，结构每轮恢复1点结构损伤，修复完成后永久有效。若结构已经完全毁坏，例如城墙化为碎石或铁门被砸碎，则无法修复。材料是一块混有铁屑、并塑成待修结构原貌的黏土。",
+    "details": [
+      {
+        "title": "Dragon #129 · 复原大地",
+        "html": "<p>比石塑术更强，能逐渐修复土、石或金属结构。法术持续每等级1轮，结构每轮恢复1点结构损伤，修复完成后永久有效。若结构已经完全毁坏，例如城墙化为碎石或铁门被砸碎，则无法修复。材料是一块混有铁屑、并塑成待修结构原貌的黏土。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1回合",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "半径每等级半英里、深度每等级四分之一英里的区域",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "施法者圣徽，以及少量土、石或黏土",
+    "id": "dragon-129-spell-commune-with-earth",
+    "nameZh": "与大地交谈",
+    "nameEn": "Commune with Earth",
+    "description": "让矮人牧师与环境融为一体，像德鲁伊的与自然交谈术一样，每个施法者等级可了解周围区域的一项事实。只在岩石山地、丘陵、地下洞穴或矿井等典型矮人环境中有效。材料为圣徽及少量土、石或黏土。",
+    "details": [
+      {
+        "title": "Dragon #129 · 与大地交谈",
+        "html": "<p>让矮人牧师与环境融为一体，像德鲁伊的与自然交谈术一样，每个施法者等级可了解周围区域的一项事实。只在岩石山地、丘陵、地下洞穴或矿井等典型矮人环境中有效。材料为圣徽及少量土、石或黏土。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "预言",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "3回合",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "半径每等级10英里、深度每等级半英里的区域",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "圣徽，以及与目标矿脉同类的少量矿石；价值通常为普通金属1000金币、贵金属或宝石5000金币、秘银或精金等稀有金属10000金币",
+    "id": "dragon-129-spell-mother-lode",
+    "nameZh": "母矿脉",
+    "nameEn": "Mother Lode",
+    "description": "指定一种金属或矿物后，寻找区域内的大型矿床。若目标矿床在范围内，法术必定找到它；若由主持人随机决定是否存在，可使用普通金属60%、贵金属或宝石30%、极稀有物质5%、完全不存在5%的概率。找到的矿床应足以供应一个矮人社区数月甚至数年；主持人也可使用《地城生存指南》的矿场持续时间规则。",
+    "details": [
+      {
+        "title": "Dragon #129 · 母矿脉",
+        "html": "<p>指定一种金属或矿物后，寻找区域内的大型矿床。若目标矿床在范围内，法术必定找到它；若由主持人随机决定是否存在，可使用普通金属60%、贵金属或宝石30%、极稀有物质5%、完全不存在5%的概率。找到的矿床应足以供应一个矮人社区数月甚至数年；主持人也可使用《地城生存指南》的矿场持续时间规则。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "6回合",
+    "range": "2英尺",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "价值25000至250000金币的精良材料",
+    "id": "dragon-129-spell-create-machine",
+    "nameZh": "创造机械",
+    "nameEn": "Create Machine",
+    "description": "用于创造和附魔采矿机、水泵、电梯、水车、运货车等矮人工业机械。装置须用价值25000至250000金币的材料制成，再由一群以联合术连接的矮人牧师依次施放共鸣术、祈祷术、物品活化术和本法术，随后经过祈祷、禁食与冥想完成附魔。机械没有智能，制造时最多预设10条简单指令；能力和威力由主持人控制，玩家不能借此制造接近神器的装置。正常机械数百年不会失灵，只需常规维护；通常为AC 4至AC 1，可承受30至50点伤害。不能制造明显用于军事的攻城机械或装甲攻击车。",
+    "details": [
+      {
+        "title": "Dragon #129 · 创造机械",
+        "html": "<p>用于创造和附魔采矿机、水泵、电梯、水车、运货车等矮人工业机械。装置须用价值25000至250000金币的材料制成，再由一群以联合术连接的矮人牧师依次施放共鸣术、祈祷术、物品活化术和本法术，随后经过祈祷、禁食与冥想完成附魔。机械没有智能，制造时最多预设10条简单指令；能力和威力由主持人控制，玩家不能借此制造接近神器的装置。正常机械数百年不会失灵，只需常规维护；通常为AC 4至AC 1，可承受30至50点伤害。不能制造明显用于军事的攻城机械或装甲攻击车。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 6,
+    "school": "变化、咒法／召唤",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "9段",
+    "range": "6英尺",
+    "duration": "每等级1轮",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "少量泥土，以及价值至少1000金币、精工制作的微型石拳",
+    "id": "dragon-129-spell-hand-of-borogar",
+    "nameZh": "博罗加之手",
+    "nameEn": "Hand of Borogar",
+    "description": "从地面、墙或天花板等土质表面召出一只巨大的土石之手，基部固定在施法点，触及范围为各方向10英尺，力量20。它能拔起小树、举起巨石或支撑即将坍塌的结构；抓住生物时每轮造成2d6挤压伤害。它每轮攻击一次，命中率同施法者，始终最后攻击，拳击造成2d8伤害；若触及范围内有足够巨石，还能像石巨人一样投掷，射程30英尺，命中造成3d10伤害。土石之手AC 4，可承受30点伤害；锐器只造成一半伤害。将基部化为泥泞也能摧毁它。",
+    "details": [
+      {
+        "title": "Dragon #129 · 博罗加之手",
+        "html": "<p>从地面、墙或天花板等土质表面召出一只巨大的土石之手，基部固定在施法点，触及范围为各方向10英尺，力量20。它能拔起小树、举起巨石或支撑即将坍塌的结构；抓住生物时每轮造成2d6挤压伤害。它每轮攻击一次，命中率同施法者，始终最后攻击，拳击造成2d8伤害；若触及范围内有足够巨石，还能像石巨人一样投掷，射程30英尺，命中造成3d10伤害。土石之手AC 4，可承受30点伤害；锐器只造成一半伤害。将基部化为泥泞也能摧毁它。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "变化、塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "12回合",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "与矿床同类的矿物种子，普通金属价值5000金币，极稀有物质价值25000金币以上",
+    "id": "dragon-129-spell-renew-deposit",
+    "nameZh": "更新矿脉",
+    "nameEn": "Renew Deposit",
+    "description": "让已枯竭的矿脉逐渐重新生长。矮人牧师以联合术连接一圈牧师，由高阶牧师对矿物种子施放祈祷术和本法术，并在施法中途把种子埋入矿脉；完成后所有参与者必须休息72小时。矿脉恢复到原有总量，普通金属需5至30年、贵金属20至80年、秘银等极稀有金属70至100年、半宝石5至20年、华丽宝石10至60年、宝石20至80年。恢复完成前急于开采会中断法术，并以贪婪玷污矿脉；除非得到矮人神祇特别宽恕，否则以后也无法再次恢复。",
+    "details": [
+      {
+        "title": "Dragon #129 · 更新矿脉",
+        "html": "<p>让已枯竭的矿脉逐渐重新生长。矮人牧师以联合术连接一圈牧师，由高阶牧师对矿物种子施放祈祷术和本法术，并在施法中途把种子埋入矿脉；完成后所有参与者必须休息72小时。矿脉恢复到原有总量，普通金属需5至30年、贵金属20至80年、秘银等极稀有金属70至100年、半宝石5至20年、华丽宝石10至60年、宝石20至80年。恢复完成前急于开采会中断法术，并以贪婪玷污矿脉；除非得到矮人神祇特别宽恕，否则以后也无法再次恢复。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 7,
+    "school": "变化、塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "12回合",
+    "range": "6英尺",
+    "duration": "特殊",
+    "areaOfEffect": "最多2500平方英尺的城防表面",
+    "savingThrow": "特殊",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "带钻石笔尖、价值至少5000金币的金制书写笔，以及所有参与联合术牧师的圣徽",
+    "id": "dragon-129-spell-rune-of-impregnable-defense",
+    "nameZh": "不可攻破防御符文",
+    "nameEn": "Rune of Impregnable Defense",
+    "description": "由以联合术连接的一圈矮人牧师在城墙、城门、闸门、吊桥等防御结构上刻下大型符文，保护面积最多2500平方英尺。符文持续一个月，可由至少7级矮人牧师在失效前对其施放结界术续期。保护结构免受攻城槌、投石机、巨人投石、弩炮等物理攻击，所有这类攻击不造成结构损伤，也无法通过挖掘使其倒塌。对闪电束、解离术、爆鸣号角和地震术等结构性魔法，结构可按至少19级牧师的法术豁免；成功时伤害减半，针对穿墙术的成功豁免则使其无效。若在符文上施放祈祷术，结构会在法术持续期间每轮修复2点结构损伤。结构完全毁坏时符文也会消失；高等级施法者的解除魔法也可能驱散它。",
+    "details": [
+      {
+        "title": "Dragon #129 · 不可攻破防御符文",
+        "html": "<p>由以联合术连接的一圈矮人牧师在城墙、城门、闸门、吊桥等防御结构上刻下大型符文，保护面积最多2500平方英尺。符文持续一个月，可由至少7级矮人牧师在失效前对其施放结界术续期。保护结构免受攻城槌、投石机、巨人投石、弩炮等物理攻击，所有这类攻击不造成结构损伤，也无法通过挖掘使其倒塌。对闪电束、解离术、爆鸣号角和地震术等结构性魔法，结构可按至少19级牧师的法术豁免；成功时伤害减半，针对穿墙术的成功豁免则使其无效。若在符文上施放祈祷术，结构会在法术持续期间每轮修复2点结构损伤。结构完全毁坏时符文也会消失；高等级施法者的解除魔法也可能驱散它。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 10,
+          "section": "magic-of-dwarven-priests"
+        },
+        "href": "/books/dragon-129/magic-of-dwarven-priests/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 10,
+        "section": "magic-of-dwarven-priests"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "2段",
+    "range": "触碰",
+    "duration": "高于4级的每等级5轮",
+    "areaOfEffect": "1名半身人",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-129-spell-humansize",
+    "nameZh": "人类体型化",
+    "nameEn": "Humansize",
+    "description": "使半身人长到人类大小，装备同比例变大，力量+2；超过18时进入18／01。无法以魔法识破真实种族。施法者可随时恢复自身体型，施放于他人则持续至法术结束。",
+    "details": [
+      {
+        "title": "Dragon #129 · 人类体型化",
+        "html": "<p>使半身人长到人类大小，装备同比例变大，力量+2；超过18时进入18／01。无法以魔法识破真实种族。施法者可随时恢复自身体型，施放于他人则持续至法术结束。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 27,
+          "section": "halfling-guardians"
+        },
+        "href": "/books/dragon-129/halfling-guardians/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 27,
+        "section": "halfling-guardians"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1段",
+    "range": "0",
+    "duration": "即时",
+    "areaOfEffect": "半径半英里",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-129-spell-warning-shout",
+    "nameZh": "警告呼喊",
+    "nameEn": "Warning Shout",
+    "description": "把一个预先在祈祷时确定的单词放大到户外约半英里范围，例如“入侵者！”或“救命！”。施法时不能更换词语。",
+    "details": [
+      {
+        "title": "Dragon #129 · 警告呼喊",
+        "html": "<p>把一个预先在祈祷时确定的单词放大到户外约半英里范围，例如“入侵者！”或“救命！”。施法时不能更换词语。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 27,
+          "section": "halfling-guardians"
+        },
+        "href": "/books/dragon-129/halfling-guardians/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 27,
+        "section": "halfling-guardians"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "M"
+    ],
+    "castingTime": "2段",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "施法者的剑",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "短剑和一撮硫磺",
+    "id": "dragon-129-spell-sparkling-sword",
+    "nameZh": "闪光之剑",
+    "nameEn": "Sparkling Sword",
+    "description": "短剑发出阿沃林圣色的银光。可让下一次攻击持续1轮，命中+2、伤害+3，并能击中只能被+2武器击中的生物；若落空，法术白费。也可选择较弱的持续效果：持续5轮加上高于6级的每等级1轮，期间所有攻击命中和伤害+1，并能击中只能被+1武器击中的生物；结束时武器须按硬金属对抗破坏豁免，剑或剑柄含价值至少10金币的银时豁免+2。",
+    "details": [
+      {
+        "title": "Dragon #129 · 闪光之剑",
+        "html": "<p>短剑发出阿沃林圣色的银光。可让下一次攻击持续1轮，命中+2、伤害+3，并能击中只能被+2武器击中的生物；若落空，法术白费。也可选择较弱的持续效果：持续5轮加上高于6级的每等级1轮，期间所有攻击命中和伤害+1，并能击中只能被+1武器击中的生物；结束时武器须按硬金属对抗破坏豁免，剑或剑柄含价值至少10金币的银时豁免+2。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 27,
+          "section": "halfling-guardians"
+        },
+        "href": "/books/dragon-129/halfling-guardians/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 27,
+        "section": "halfling-guardians"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "塑能",
+    "components": [
+      "V",
+      "M"
+    ],
+    "castingTime": "2段",
+    "range": "0",
+    "duration": "特殊",
+    "areaOfEffect": "施法者的剑",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "短剑和一撮硫磺",
+    "id": "dragon-129-spell-blazing-sword",
+    "nameZh": "炽焰之剑",
+    "nameEn": "Blazing Sword",
+    "description": "闪光之剑的强化版本。强力效果持续1轮，使下一次攻击命中+3、伤害+5；较弱效果持续4轮加上高于7级的每等级1轮，使期间攻击命中+1、伤害+2。剑的后续破坏豁免与闪光之剑相同。",
+    "details": [
+      {
+        "title": "Dragon #129 · 炽焰之剑",
+        "html": "<p>闪光之剑的强化版本。强力效果持续1轮，使下一次攻击命中+3、伤害+5；较弱效果持续4轮加上高于7级的每等级1轮，使期间攻击命中+1、伤害+2。剑的后续破坏豁免与闪光之剑相同。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 27,
+          "section": "halfling-guardians"
+        },
+        "href": "/books/dragon-129/halfling-guardians/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 27,
+        "section": "halfling-guardians"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "3段",
+    "range": "触碰",
+    "duration": "9轮+高于7级的每等级3轮",
+    "areaOfEffect": "1名半身人",
+    "savingThrow": "无",
+    "classes": [
+      "Cleric"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-129-spell-giantsize",
+    "nameZh": "巨人化",
+    "nameEn": "Giantsize",
+    "description": "使半身人及其装备变成丘陵巨人大小，短剑变成巨人单手使用的巨剑，力量变为19。没有额外护甲等级变化，因为半身人没有巨人般的皮肤。",
+    "details": [
+      {
+        "title": "Dragon #129 · 巨人化",
+        "html": "<p>使半身人及其装备变成丘陵巨人大小，短剑变成巨人单手使用的巨剑，力量变为19。没有额外护甲等级变化，因为半身人没有巨人般的皮肤。</p>",
+        "source": {
+          "book": "Dragon #129",
+          "page": 27,
+          "section": "halfling-guardians"
+        },
+        "href": "/books/dragon-129/halfling-guardians/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #129",
+        "page": 27,
+        "section": "halfling-guardians"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #129"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "特殊",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "特殊",
+    "range": "1″",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "视所选戏法而定",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "id": "dragon-121-spell-cantrip-geisya",
+    "nameZh": "戏法",
+    "nameEn": "Cantrip (Geisya)",
+    "description": "艺伎可借此法术使用一个魔法使用者的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。",
+    "details": [
+      {
+        "title": "Dragon #121 · 戏法",
+        "html": "<p>艺伎可借此法术使用一个魔法使用者的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 38,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 38,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "变化",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "3段",
+    "range": "特殊",
+    "duration": "每等级1回合",
+    "areaOfEffect": "一根蜡烛、灯或火炬",
+    "savingThrow": "无",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "materialComponent": "少量施法媒介",
+    "id": "dragon-121-spell-candletrick",
+    "nameZh": "烛火戏法",
+    "nameEn": "Candletrick",
+    "description": "法术施加在用于照明的小型火源上。持续期间，火焰不能以普通方式熄灭；即使浸入水中、遭强风吹灭或隔绝空气，也会立即重新点燃。不能作用于大于小型营火的火焰。",
+    "details": [
+      {
+        "title": "Dragon #121 · 烛火戏法",
+        "html": "<p>法术施加在用于照明的小型火源上。持续期间，火焰不能以普通方式熄灭；即使浸入水中、遭强风吹灭或隔绝空气，也会立即重新点燃。不能作用于大于小型营火的火焰。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 39,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 39,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "变化",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "2段",
+    "range": "4″",
+    "duration": "每等级1轮",
+    "areaOfEffect": "2″烟云",
+    "savingThrow": "魔杖豁免；失败者失明2–5轮",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "materialComponent": "一撮白色粉末",
+    "id": "dragon-121-spell-flashpuff",
+    "nameZh": "闪烟",
+    "nameEn": "Flashpuff",
+    "description": "艺伎把一撮白粉投入燃烧的火中，产生强光和烟云。烟云可呈任意颜色，并在法术持续期间形成施法者集中注意力想象的简单二维图像；有绘画专精时还能形成在持续时间结束时消散的即时画作。艺伎不受闪光影响，旁观者若魔杖豁免失败则失明2至5轮。",
+    "details": [
+      {
+        "title": "Dragon #121 · 闪烟",
+        "html": "<p>艺伎把一撮白粉投入燃烧的火中，产生强光和烟云。烟云可呈任意颜色，并在法术持续期间形成施法者集中注意力想象的简单二维图像；有绘画专精时还能形成在持续时间结束时消散的即时画作。艺伎不受闪光影响，旁观者若魔杖豁免失败则失明2至5轮。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 39,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 39,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1段",
+    "range": "接触",
+    "duration": "瞬间",
+    "areaOfEffect": "被接触生物",
+    "savingThrow": " neg.",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "materialComponent": "装饰扇",
+    "id": "dragon-121-spell-thump",
+    "nameZh": "扇击",
+    "nameEn": "Thump",
+    "description": "艺伎用装饰扇斥责并敲击正在攻击的生物。若目标豁免失败，其攻击性会反过来作用于自身，并昏迷1至6轮。只有正在攻击、恶意、饥饿或愤怒的生物会受影响。",
+    "details": [
+      {
+        "title": "Dragon #121 · 扇击",
+        "html": "<p>艺伎用装饰扇斥责并敲击正在攻击的生物。若目标豁免失败，其攻击性会反过来作用于自身，并昏迷1至6轮。只有正在攻击、恶意、饥饿或愤怒的生物会受影响。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 39,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 39,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "变化",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "1轮",
+    "range": "0",
+    "duration": "每等级2轮",
+    "areaOfEffect": "仅艺伎",
+    "savingThrow": "无",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "id": "dragon-121-spell-iron-kimono",
+    "nameZh": "铁和服",
+    "nameEn": "Iron Kimono",
+    "description": "艺伎暂时强化和服、腰带与足袋，使衣物看起来不变，却实际提供相当于AC 5的防护。持续时间结束后，AC恢复原值；敏捷加值仍然适用，铁和服不会妨碍移动。",
+    "details": [
+      {
+        "title": "Dragon #121 · 铁和服",
+        "html": "<p>艺伎暂时强化和服、腰带与足袋，使衣物看起来不变，却实际提供相当于AC 5的防护。持续时间结束后，AC恢复原值；敏捷加值仍然适用，铁和服不会妨碍移动。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 40,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 40,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "塑能",
+    "components": [
+      "S",
+      "M"
+    ],
+    "castingTime": "2轮",
+    "range": "1″",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "materialComponent": "若干围巾",
+    "id": "dragon-121-spell-scarf",
+    "nameZh": "消失围巾",
+    "nameEn": "Scarf",
+    "description": "施法者先让手边围巾逐条消失，每级可隐藏3条；随后再次施法，耗时两轮，让围巾重新出现。围巾最多可留在魔法“存放区”一天，届时自动回到艺伎身边；消失期间无法被探测，可用来传递秘密信息。",
+    "details": [
+      {
+        "title": "Dragon #121 · 消失围巾",
+        "html": "<p>施法者先让手边围巾逐条消失，每级可隐藏3条；随后再次施法，耗时两轮，让围巾重新出现。围巾最多可留在魔法“存放区”一天，届时自动回到艺伎身边；消失期间无法被探测，可用来传递秘密信息。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 40,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 40,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "castingTime": "1段",
+    "range": "接触",
+    "duration": "每等级1回合",
+    "areaOfEffect": "被接触生物",
+    "savingThrow": " neg.",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "materialComponent": "装饰扇",
+    "id": "dragon-121-spell-great-thump",
+    "nameZh": "大扇击",
+    "nameEn": "Great Thump",
+    "description": "艺伎用装饰扇敲击并训斥攻击者。除非豁免成功，攻击者会突然失去攻击任何事物的兴趣；如果它受到攻击，法术立即结束。只有会受到扇击影响的生物会受大扇击影响。",
+    "details": [
+      {
+        "title": "Dragon #121 · 大扇击",
+        "html": "<p>艺伎用装饰扇敲击并训斥攻击者。除非豁免成功，攻击者会突然失去攻击任何事物的兴趣；如果它受到攻击，法术立即结束。只有会受到扇击影响的生物会受大扇击影响。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 40,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 40,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "附魔／塑能",
+    "components": [
+      "V"
+    ],
+    "castingTime": "5段",
+    "range": "1″",
+    "duration": "特殊",
+    "areaOfEffect": "半径1″内所有生物",
+    "savingThrow": " neg.",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "id": "dragon-121-spell-jest",
+    "nameZh": "逗笑",
+    "nameEn": "Jest",
+    "description": "法术首先如幻术师的着迷术，使范围内听见声音且豁免失败的生物停止行动并听完五段施法。法术完成后，目标还要再次豁免；失败者会被笑得无法行动1至10轮，受到攻击时可立即摆脱效果。若整个失能期间没人攻击目标，目标会认为艺伎当天魅力和外貌都为20。",
+    "details": [
+      {
+        "title": "Dragon #121 · 逗笑",
+        "html": "<p>法术首先如幻术师的着迷术，使范围内听见声音且豁免失败的生物停止行动并听完五段施法。法术完成后，目标还要再次豁免；失败者会被笑得无法行动1至10轮，受到攻击时可立即摆脱效果。若整个失能期间没人攻击目标，目标会认为艺伎当天魅力和外貌都为20。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 40,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 40,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "塑能",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "5段",
+    "range": "4″",
+    "duration": "特殊",
+    "areaOfEffect": "特殊",
+    "savingThrow": "无",
+    "classes": [
+      "Geisya"
+    ],
+    "reversible": false,
+    "id": "dragon-121-spell-juggle",
+    "nameZh": "杂耍",
+    "nameEn": "Juggle",
+    "description": "要求具备杂耍熟练项。施法者创造无害的火球并安全抛接；随着等级提高，也能改造出冰球、水球、彩色光球或发光白色匕首，每3级获得一种替代形态。物体接触施法者双手以外的东西或施法者停止集中时消失。每个投射物每轮可投掷两枚，每枚命中造成1d4点伤害并加艺伎等级；水球不造成伤害。",
+    "details": [
+      {
+        "title": "Dragon #121 · 杂耍",
+        "html": "<p>要求具备杂耍熟练项。施法者创造无害的火球并安全抛接；随着等级提高，也能改造出冰球、水球、彩色光球或发光白色匕首，每3级获得一种替代形态。物体接触施法者双手以外的东西或施法者停止集中时消失。每个投射物每轮可投掷两枚，每枚命中造成1d4点伤害并加艺伎等级；水球不造成伤害。</p>",
+        "source": {
+          "book": "Dragon #121",
+          "page": 41,
+          "section": "the-geisya"
+        },
+        "href": "/books/dragon-121/the-geisya/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #121",
+        "page": 41,
+        "section": "the-geisya"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #121"
     ]
   }
 ]

@@ -112,6 +112,4 @@ Kent Colbath · 第 34 页
 
 只要一颗孢子逃过毁灭，就能建立新群落。例如每六小时分裂一次，两天后就有 256 个细胞；实际速度取决于食物，群落很大后总会变慢。
 
-<div class="table-wrap"><table><thead><tr><th>参数</th><th>单细胞</th><th>聚合体</th><th>子实体</th><th>孢子</th></tr></thead><tbody><tr><td>频率</td><td>稀有</td><td>极罕见</td><td>极罕见</td><td>稀有</td></tr><tr><td>数量</td><td>30–600</td><td>1</td><td>1</td><td>1–100</td></tr><tr><td>AC</td><td>10</td><td>9</td><td>4</td><td>6</td></tr><tr><td>移动</td><td>6″</td><td>9″</td><td>无</td><td>无</td></tr><tr><td>生命值</td><td>1–2</td><td>30–600</td><td>20–400</td><td>1</td></tr><tr><td>攻击</td><td>1</td><td>吞没</td><td>无</td><td>无</td></tr><tr><td>伤害</td><td>1</td><td>每名目标每轮 2–7</td><td>无</td><td>无</td></tr><tr><td>体型</td><td>S</td><td>L</td><td>L</td><td>S</td></tr></tbody></table></div>
-
-<p><a href="/books/dragon-111/protiston/">普罗蒂斯顿与巨型单细胞生物的共通规则</a></p>
+<div class="table-wrap"><table><thead><tr><th>参数</th><th>单细胞</th><th>聚合体</th><th>子实体</th><th>孢子</th></tr></thead><tbody><tr><td>频率</td><td>稀有</td><td>极罕见</td><td>极罕见</td><td>稀有</td></tr><tr><td>数量</td><td>30–600</td><td>1</td><td>1</td><td>1–100</td></tr><tr><td>AC</td><td>10</td><td>9</td><td>4</td><td>6</td></tr><tr><td>移动</td><td>6″</td><td>9″</td><td>无</td><td>无</td></tr><tr><td>生命值</td><td>1–2</td><td>30–600</td><td>20–400</td><td>1</td></tr><tr><td>攻击</td><td>1</td><td>吞没</td><td>无</td><td>无</td></tr><tr><td>伤害</td><td>1</td><td>每名目标每轮 2–7</td><td>无</td><td>无</td></tr><tr><td>体型</td><td>S</td><td>L</td><td>L</td><td>S</td></tr></tbody></table></div><p><a href="/books/dragon-111/protiston/">普罗蒂斯顿与巨型单细胞生物的共通规则</a></p>

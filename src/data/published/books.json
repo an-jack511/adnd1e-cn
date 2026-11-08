@@ -12578,7 +12578,7 @@
     "title": "死灵师戒指",
     "titleEn": "Bazaar of the Bizarre",
     "group": "Dragon",
-    "excerpt": "佩戴整整一周后，通常职业每周一次形成相当于不死生物守护卷轴的保护球，效果与持续相同。摘下后必须重新连续佩戴一周，才能使用能力。原刊没有列充能、售价或 XP。",
+    "excerpt": "佩戴整整一周后，通常职业每周一次形成相当于防护不死生物卷轴的保护球，效果与持续相同。摘下后必须重新连续佩戴一周，才能使用能力。原刊没有列充能、售价或 XP。",
     "sourceFile": "manuscript/dragon/29/topics/bazaar-43.md"
   },
   {
@@ -12618,6 +12618,42 @@
     "sourceFile": "manuscript/dragon/30/topics/bazaar-37.md"
   },
   {
+    "book": "dragon-30",
+    "slug": "curst",
+    "title": "诅咒者",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "诅咒者是被无法杀死的诅咒束缚的人形生物，98%为纯人类。转化时会失去原有魔法和灵能能力，但力量加值、盗贼技能等其他能力保持不变；阵营变为混沌中立，皮肤苍白、双眼闪烁，获得90英尺超强红外视觉并偏爱黑暗。它保留原先会说的语言，却通常不愿说话。",
+    "sourceFile": "manuscript/dragon/30/topics/curst.md"
+  },
+  {
+    "book": "dragon-33",
+    "slug": "cau-for-npc-s-gives-encounters-more-believability-a",
+    "title": "给 NPC 加上谨慎值，让遭遇更可信",
+    "titleEn": "CAU for NPC's Gives Encounters More Believability, A",
+    "group": "Dragon",
+    "excerpt": "文章给每个 NPC 增加一次掷出的“谨慎值”（CAU，3d6）。当 NPC 被挑衅、游说、搭讪或需要主动介入时，主持人掷 d20，只有超过 CAU，NPC 才会采取行动并进入通常的反应检定；谨慎值高的 NPC 更容易冷处理，谨慎值低的 NPC 更容易卷入事件。",
+    "sourceFile": "manuscript/dragon/33/topics/cau-for-npc-s-gives-encounters-more-believability-a.md"
+  },
+  {
+    "book": "dragon-34",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "维尔科纳是生活在洞穴和地下城中的怪异类人生物，厌恶白昼和强光；在持续光明或类似照明下攻击命中−1。拥有60英尺红外视觉。它们用双手掌上的吸盘击打目标，每次命中吸取1–6点生命值并立即补回自身；同轮两手都击中同一目标后，双手会黏住目标，之后每轮自动吸取2–12点生命值，直到目标死亡、维尔科纳吃饱、被杀或被强行移开。",
+    "sourceFile": "manuscript/dragon/34/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-35",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Angels",
+    "group": "Dragon",
+    "excerpt": "德行天使是最常与人接触的天使阶序，主要职责是在大地上施行奇迹，也是恩典和勇气的主要赐予者。它们可能奖赏特别值得的人，使其魅力提高；外貌通常是面容发光、体态完美的人形。",
+    "sourceFile": "manuscript/dragon/35/topics/bestiary.md"
+  },
+  {
     "book": "dragon-36",
     "slug": "bestiary",
     "title": "怪物志",
@@ -12627,6 +12663,78 @@
     "sourceFile": "manuscript/dragon/36/topics/bestiary.md"
   },
   {
+    "book": "dragon-37",
+    "slug": "greyhawk-the-shape-of-the-world",
+    "title": "Greyhawk：世界的形状",
+    "titleEn": "Greyhawk: The Shape Of the World",
+    "group": "Dragon",
+    "excerpt": "文章介绍 Greyhawk 世界的持续建设、城堡、地下城、模块与战争设想，并给出 Bigby、Mordenkainen、Robilar、Tenser 等著名人物的军队规模和兵种构成。它展示了这些角色如何从高等级冒险者扩展为拥有堡垒、盟友和军队的地区势力。",
+    "sourceFile": "manuscript/dragon/37/topics/greyhawk-the-shape-of-the-world.md"
+  },
+  {
+    "book": "dragon-37",
+    "slug": "vulturehounds",
+    "title": "秃鹫猎犬",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "秃鹫猎犬是秃鹫与野犬的怪异混合体，拥有灰色长毛、长着尖锐弯曲爪的犬腿、小型翅膀和取代口鼻的尖喙。它们以猎杀为生，会从巢穴成群出击，把食物拖回巢中；巢穴里的少量财宝来自过去的受害者。",
+    "sourceFile": "manuscript/dragon/37/topics/vulturehounds.md"
+  },
+  {
+    "book": "dragon-38",
+    "slug": "good-isn-t-stupid-paladins-rangers",
+    "title": "善良并不等于愚蠢：圣武士与游侠",
+    "titleEn": "Good Isn't Stupid, Paladins & Rangers...",
+    "group": "Dragon",
+    "excerpt": "文章澄清善良阵营并不要求角色放弃判断力。守序善良重视可持续的秩序与普遍福祉，中立善良关注实际造成的善果，混沌善良更看重个体自由；三者都不等于盲目自我牺牲。",
+    "sourceFile": "manuscript/dragon/38/topics/good-isn-t-stupid-paladins-rangers.md"
+  },
+  {
+    "book": "dragon-38",
+    "slug": "rearranging-and-redefining-the-mighty-dragon",
+    "title": "重新编排并重新定义巨龙",
+    "titleEn": "Rearranging and Redefining the Mighty Dragon",
+    "group": "Dragon",
+    "excerpt": "文章提出一组非官方龙类修订：提高龙说话和施法的机会，重算睡眠、制服、魔抗、吐息、咬击和尾击，并为不同龙色指定可用的法术类别。制服龙时，累计非致命伤害不能低于其生命骰与年龄的乘积；魔法攻击造成真实伤害，若改为致命攻击，已造成的制服伤害只按三分之一计入。",
+    "sourceFile": "manuscript/dragon/38/topics/rearranging-and-redefining-the-mighty-dragon.md"
+  },
+  {
+    "book": "dragon-39",
+    "slug": "anti-paladin",
+    "title": "反圣武士",
+    "titleEn": "Try This For Evil: The Anti-Paladin NPC",
+    "group": "Dragon",
+    "excerpt": "反圣武士是专为NPC设计的混沌邪恶战士，代表残忍、欺骗、背叛和对一切善良事物的仇恨。识别他们通常不难：他们会以夸张的邪恶装备、残酷的行为和对弱者的蔑视建立名声，但真正危险之处在于他们更喜欢利用阴谋、毒药、赎金和随从，而不是公平决斗。",
+    "sourceFile": "manuscript/dragon/39/topics/anti-paladin.md"
+  },
+  {
+    "book": "dragon-39",
+    "slug": "bazaar-of-the-bizarre",
+    "title": "奇异集市",
+    "titleEn": "Bazaar of the Bizarre",
+    "group": "Dragon",
+    "excerpt": "文章提供一组奇异魔法物品与交易场景素材，包括只有特定地点、特定顾客或特定代价才有意义的物品。集市中的卖家可能夸大功效、隐瞒诅咒或把物品与情报、服务和承诺捆绑出售。",
+    "sourceFile": "manuscript/dragon/39/topics/bazaar-of-the-bizarre.md"
+  },
+  {
+    "book": "dragon-39",
+    "slug": "good-hits-bad-misses",
+    "title": "好命中与坏失误",
+    "titleEn": "Good Hits & Bad Misses",
+    "group": "Dragon",
+    "excerpt": "文章为近战和远程攻击增加临界命中与严重失误的处理方法。命中骰出现极佳结果时，可造成额外伤害、破坏护具、击倒或制造战术优势；失误则可能让武器脱手、撞到同伴、失去平衡或损坏装备。",
+    "sourceFile": "manuscript/dragon/39/topics/good-hits-bad-misses.md"
+  },
+  {
+    "book": "dragon-40",
+    "slug": "flitte",
+    "title": "闪灭兽",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "闪灭兽由憎恨其他魔法使用者的疯狂法师创造，唯一目的就是减少世界上的魔法；必要时甚至会牺牲自己。它拥有闪现犬和小魔鬼的一部分能力，能闪现、探测魔法，每天隐形两次。面对单独目标时，它可用凝视施加建议术，诱使目标交出所有魔法物品；若目标正与它对视，豁免−2。具有智能的魔法物品可单独豁免，物品成功豁免时也会使持有者免受影响。",
+    "sourceFile": "manuscript/dragon/40/topics/flitte.md"
+  },
+  {
     "book": "dragon-40",
     "slug": "magic-items",
     "title": "飞行珍珠",
@@ -12634,6 +12742,24 @@
     "group": "Dragon",
     "excerpt": "每天一次，移动 12″，持续 1d6 小时。必须一直含在口中；吐出或吞下便立即停止。结束前十分钟给予使用者心灵警告。",
     "sourceFile": "manuscript/dragon/40/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-40",
+    "slug": "tool-dueling-room-the",
+    "title": "决斗室",
+    "titleEn": "Dueling Room, The",
+    "group": "Dragon",
+    "excerpt": "文章提供一个可作为酒馆、贵族宅邸、军营或秘密会所的决斗室场景。房间的大小、入口、观众位置、武器架、裁判席和安全措施会决定决斗是荣誉仪式、赌博活动还是暗杀陷阱。",
+    "sourceFile": "manuscript/dragon/40/topics/tool-dueling-room-the.md"
+  },
+  {
+    "book": "dragon-41",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "塞尔基是海豹人种族，非动物形态类似黑发灰眼的半精灵，拥有半精灵的通常能力；陆上战士穿多层鲨鱼皮甲并使用鲨鱼皮盾，AC4。海豹形态体型很大，一次冲撞造成2–8伤害；它们常带2–12只普通海豹同行，并能召来半英里内的1–10只海豚。",
+    "sourceFile": "manuscript/dragon/41/topics/bestiary.md"
   },
   {
     "book": "dragon-42",
@@ -12664,6 +12790,15 @@
   },
   {
     "book": "dragon-43",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "亚马逊人通常生活在热带或亚热带地区的城镇和城市，城镇小而戒备森严，常有城墙。女性负责战斗、狩猎和其他通常由男性承担的事务；男性多为被动的家庭成员，社会地位低于其他文化中的男性。双方都把这种安排视为正常，外来者试图宣扬男性优越时会遭到嘲笑、愤怒、排斥、驱逐甚至逮捕。",
+    "sourceFile": "manuscript/dragon/43/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-43",
     "slug": "high-secret-order",
     "title": "巫婆高阶秘社法术",
     "titleEn": "Brewing Up a New NPC: The Witch",
@@ -12674,11 +12809,20 @@
   {
     "book": "dragon-43",
     "slug": "new-spells",
-    "title": "水墙（巫婆版）",
+    "title": "水墙术",
     "titleEn": "Brewing Up a New NPC: The Witch",
     "group": "Dragon",
     "excerpt": "生成一边落地的旋流水墙，挡普通火焰而不挡火球等魔法火焰，阻挡包括魔法飞弹与魔法回旋镖在内的飞射物。火焰生物穿越受 5d6 伤害。",
     "sourceFile": "manuscript/dragon/43/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-44",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "冰寒巨蛇是生活在极寒荒原的巨大白色毒蛇，通常在冰洞和冰川裂隙筑巢，10%概率与冰虫共巢。四HD或以下且被其9″凝视命中的生物若豁免失败会麻痹。它们不受任何寒冷或寒冷法术伤害，受到火焰攻击时每个法术生命骰额外承受1点伤害，且对火焰豁免−2。",
+    "sourceFile": "manuscript/dragon/44/topics/bestiary.md"
   },
   {
     "book": "dragon-44",
@@ -12700,6 +12844,15 @@
   },
   {
     "book": "dragon-45",
+    "slug": "how-to-have-a-good-time-being-evil",
+    "title": "如何愉快地扮演邪恶角色",
+    "titleEn": "How To Have a Good Time Being Evil",
+    "group": "Dragon",
+    "excerpt": "文章讨论如何让邪恶角色参与团队而不把游戏变成互相背刺。邪恶角色可以有忠诚、荣誉、亲情、职业原则和长期目标；关键在于他们把这些东西服务于谁，以及在利益冲突时愿意牺牲谁。",
+    "sourceFile": "manuscript/dragon/45/topics/how-to-have-a-good-time-being-evil.md"
+  },
+  {
+    "book": "dragon-45",
     "slug": "magic-items",
     "title": "多藏橡木箱",
     "titleEn": "Bazaar of the Bizarre",
@@ -12715,6 +12868,33 @@
     "group": "Dragon",
     "excerpt": "占星师使用固定NPC数据，借助可观测的月相、日月食、行星、彗星等天象预测事件。通常只在大城市活动，并组成松散的行会式组织。",
     "sourceFile": "manuscript/dragon/45/topics/npc-classes.md"
+  },
+  {
+    "book": "dragon-47",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Creatures From Elsewhere",
+    "group": "Dragon",
+    "excerpt": "弗拉德是已灭绝类人生物为回答问题而制造的古老生物，绝大多数时间沉睡并收集信息。沉睡中的弗拉德会把所有攻击反弹给攻击者；只有说出它的专名才能唤醒它，而专名必须通过极艰苦的古代研究获得。醒来后它会以100%准确率回答一个问题，然后再沉睡一千年。",
+    "sourceFile": "manuscript/dragon/47/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-48",
+    "slug": "accountant",
+    "title": "会计师",
+    "titleEn": "Character That Really Counts, A",
+    "group": "Dragon",
+    "excerpt": "会计师是为需要计算一切事物的战役准备的 NPC 职业。他们总是人类，智力至少13，必须守序，通常为守序中立，只有极少数是真正的守序善良。",
+    "sourceFile": "manuscript/dragon/48/topics/accountant.md"
+  },
+  {
+    "book": "dragon-48",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "水马通常是一匹异常漂亮、介于小马和挽马之间的马，生活在淡水湖泊和河流附近，寻找毫无戒心的猎物。骑上它的人会发现皮肤黏得无法脱身，每轮可作一次基于力量的豁免，按掰弯铁条或抬升闸门处理；水马会把人带入最近的水域，若不获救，受害者将在3–6轮后溺死。水马可以自由呼吸空气或水。",
+    "sourceFile": "manuscript/dragon/48/topics/bestiary.md"
   },
   {
     "book": "dragon-48",
@@ -12762,6 +12942,87 @@
     "sourceFile": "manuscript/dragon/49/topics/npc-classes.md"
   },
   {
+    "book": "dragon-50",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Kzinti",
+    "group": "Dragon",
+    "excerpt": "克津提是高约八英尺、重约五百磅的直立猫科类人生物，长有橙色毛皮、无毛粉色尾巴和可伸缩利爪。成年雄性强壮、迅速且耐力惊人，受威胁时容易立刻狂暴攻击；雌性只有半智，原始族群的雌性只能说少量词语，现代族群的雌性甚至不会说话。",
+    "sourceFile": "manuscript/dragon/50/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-50",
+    "slug": "giant-vampire-frog",
+    "title": "巨型吸血蛙",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "巨型吸血蛙是体重可达30磅的恶毒爬虫，胆绿色身体覆盖黏液，前后腿之间有半透明滑翔膜，能像鼯鼠一样从树上滑翔。前肢带小爪，口中有两根最长3英寸、像针一样锋利的中空门牙。",
+    "sourceFile": "manuscript/dragon/50/topics/giant-vampire-frog.md"
+  },
+  {
+    "book": "dragon-50",
+    "slug": "tool-hatching-is-only-the-beginning",
+    "title": "孵化只是开始……",
+    "titleEn": "Hatching Is Only the Beginning...",
+    "group": "Dragon",
+    "excerpt": "文章讨论龙蛋、幼龙成长和龙族家庭关系。孵化后的幼龙需要食物、保护、教育与领地，父母或巢穴成员会根据色彩、阵营、财富和年龄决定抚养方式。",
+    "sourceFile": "manuscript/dragon/50/topics/tool-hatching-is-only-the-beginning.md"
+  },
+  {
+    "book": "dragon-50",
+    "slug": "tool-self-defense-for-dragons",
+    "title": "龙的自卫",
+    "titleEn": "Self Defense For Dragons",
+    "group": "Dragon",
+    "excerpt": "文章为龙巢设计防御思路：预警、假入口、陷阱、仆从、逃生通道、备用巢穴和分散财宝。龙会把最重要的资源放在最难接近的位置，并利用地形让入侵者无法同时发挥人数优势。",
+    "sourceFile": "manuscript/dragon/50/topics/tool-self-defense-for-dragons.md"
+  },
+  {
+    "book": "dragon-50",
+    "slug": "tool-ups-and-downs-of-riding-high-the",
+    "title": "高空骑乘的起起落落",
+    "titleEn": "Ups and Downs of Riding High, The",
+    "group": "Dragon",
+    "excerpt": "文章系统整理飞行坐骑的选择、载重、速度、训练、饲养和空战。不同坐骑的性格、阵营、饮食和承重差异很大；能飞不代表愿意让人骑，也不代表能在战斗中稳定载人。",
+    "sourceFile": "manuscript/dragon/50/topics/tool-ups-and-downs-of-riding-high-the.md"
+  },
+  {
+    "book": "dragon-51",
+    "slug": "it-s-not-easy-being-good",
+    "title": "做好人并不容易",
+    "titleEn": "It's Not Easy Being Good",
+    "group": "Dragon",
+    "excerpt": "文章从实际游戏中的圣武士行为出发，列出善良、守序、谦逊、节制和承担责任的具体要求。圣武士可以反抗违反善与法的制度，但不能把“我认为这样更好”当成随意违背誓言、占有财富或欺骗同伴的理由。",
+    "sourceFile": "manuscript/dragon/51/topics/it-s-not-easy-being-good.md"
+  },
+  {
+    "book": "dragon-52",
+    "slug": "pelins",
+    "title": "气囊兽",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "气囊兽是生活在空中的大型生物，会从沙子和水中提取氢气与氦气，把气体储存在像飞艇气囊一样的身体里。腹面内部长有骨骼保持体形，表面分布着小翅膀，最高移动率24″，但更喜欢随风漂流。它们无法生活在远离大型水体或昼夜温差很大的地方。",
+    "sourceFile": "manuscript/dragon/52/topics/pelins.md"
+  },
+  {
+    "book": "dragon-53",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "纳拉极端而虔诚地守序善良，会帮助所有守序善良生物完成有利于该阵营的目标，也会善待其他善良生物。它们常在没有更重要任务时担任守序善良贵族的卫士或仆从。",
+    "sourceFile": "manuscript/dragon/53/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-53",
+    "slug": "bogatyrs-of-old-kiev-the",
+    "title": "古基辅的勇士们",
+    "titleEn": "Bogatyrs of Old Kiev, The",
+    "group": "Dragon",
+    "excerpt": "文章把古基辅传说中的 Bogatyr 勇士转化为 AD&D 可用的英雄、战士和民间传说素材。他们通常与边境防卫、领主效忠、巨人或异族敌人、长途旅行和声誉挑战联系在一起。",
+    "sourceFile": "manuscript/dragon/53/topics/bogatyrs-of-old-kiev-the.md"
+  },
+  {
     "book": "dragon-53",
     "slug": "new-spells",
     "title": "阅读语言（神谕者版）",
@@ -12771,13 +13032,49 @@
     "sourceFile": "manuscript/dragon/53/topics/new-spells.md"
   },
   {
+    "book": "dragon-53",
+    "slug": "oracle",
+    "title": "预言师",
+    "titleEn": "Oracle: When He Talks, Everybody Listens, The",
+    "group": "Dragon",
+    "excerpt": "预言师是专门研究过去、现在与未来的非玩家角色职业，能够施展法术并使用天生能力进行占卜和预测。其主属性为智力和感知，二者都必须至少14；体质和魅力最低6。感知15、16、17、18分别累计获得一枚一环、一枚一环、一枚二环和一枚三环额外法术；智力16、17、18分别使部分天生预言能力成功率获得+5%、+10%、+15%，这",
+    "sourceFile": "manuscript/dragon/53/topics/oracle.md"
+  },
+  {
+    "book": "dragon-54",
+    "slug": "down-to-earth-divinity",
+    "title": "脚踏实地的神性",
+    "titleEn": "Down-To-Earth Divinity",
+    "group": "Dragon",
+    "excerpt": "文章介绍地表居民如何理解神祇、神殿与日常生活中的神圣力量。神祇并不只存在于高空的宏大传说中，也通过道路、农田、婚礼、葬礼、贸易、疾病和地方禁忌进入普通人的生活。",
+    "sourceFile": "manuscript/dragon/54/topics/down-to-earth-divinity.md"
+  },
+  {
     "book": "dragon-54",
     "slug": "magic-items",
     "title": "夸尔羽符：化树",
     "titleEn": "Bazaar of the Bizarre",
     "group": "Dragon",
-    "excerpt": "一次性羽符。踏碎后变为与当地树种、大小相称的有根树木，持续 7d12 天。除祈愿或有限许愿术外，检查均认为是真树；武器击中会流血。",
+    "excerpt": "一次性羽符。踏碎后变为与当地树种、大小相称的有根树木，持续 7d12 天。除祈愿或有限祈愿外，检查均认为是真树；武器击中会流血。",
     "sourceFile": "manuscript/dragon/54/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-56",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "蘑菇兽有小而瘦的熊形身体，毛色可从脏绿褐到黑色变化。四肢着地移动时几乎无声，三分之二概率突袭。它们偏好活捉较大、较聪明的猎物，小型动物则直接捕食；常把俘虏扣作赎金、当作诱饵，或无聊和饥饿时吃掉。赎金要求古怪，可能是大量蜂蜜、宝石，也可能是袋子或罐子。",
+    "sourceFile": "manuscript/dragon/56/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-57",
+    "slug": "play-a-villain-an-evil-idea",
+    "title": "扮演反派？一个邪恶的点子",
+    "titleEn": "Play a Villain? An Evil Idea",
+    "group": "Dragon",
+    "excerpt": "文章讨论让玩家扮演反派或敌对阵营角色的玩法。要点包括先确定队伍的共同目标、限制无意义的内斗、为每名角色安排可持续的利益关系，并让“邪恶”表现为价值观与选择，而不是单纯地破坏队友的游戏体验。",
+    "sourceFile": "manuscript/dragon/57/topics/play-a-villain-an-evil-idea.md"
   },
   {
     "book": "dragon-58",
@@ -12796,6 +13093,15 @@
     "group": "Dragon",
     "excerpt": "Roger Moore 的矮人文化与扮演指南，原文结尾明确说是指引而非规则。本条摘述社会、工艺与信仰，不另建一种矮人，也不覆盖种族参数。",
     "sourceFile": "manuscript/dragon/58/topics/culture.md"
+  },
+  {
+    "book": "dragon-58",
+    "slug": "nemeian-lion",
+    "title": "涅墨亚狮",
+    "titleEn": "Blood of Medusa, The",
+    "group": "Dragon",
+    "excerpt": "涅墨亚狮使用《怪物图鉴》中斑点狮的通常数据，出现频率改为独一无二，生命值固定为50点。它对武器完全免疫，物理攻击只能通过窒息或溺水杀死；适当的侦测法术仍能发现它。",
+    "sourceFile": "manuscript/dragon/58/topics/nemeian-lion.md"
   },
   {
     "book": "dragon-58",
@@ -12835,6 +13141,15 @@
   },
   {
     "book": "dragon-60",
+    "slug": "alignment-a-new-view-of-the-nine-philosophies",
+    "title": "阵营：九种哲学的新视角",
+    "titleEn": "Alignment: A New View of the Nine Philosophies",
+    "group": "Dragon",
+    "excerpt": "文章把九种阵营看作关于秩序、自由、利他与自利的哲学立场，而不只是角色标签。守序善良倾向通过稳定制度扩大善的范围；中立善良更看重结果本身；混沌善良则从个体自由与身边人的福祉出发。邪恶阵营同样可以守序、保持中立或追求混沌，但都把他人的损失置于自己的目的之下。",
+    "sourceFile": "manuscript/dragon/60/topics/alignment-a-new-view-of-the-nine-philosophies.md"
+  },
+  {
+    "book": "dragon-60",
     "slug": "culture",
     "title": "精灵的观点",
     "titleEn": "Elven Point of View, The",
@@ -12844,12 +13159,30 @@
   },
   {
     "book": "dragon-60",
+    "slug": "jester",
+    "title": "小丑",
+    "titleEn": "Jester, The",
+    "group": "Dragon",
+    "excerpt": "小丑是以荒诞感为核心的冒险NPC。他们四处讲故事、恶作剧、辱骂怪物和冒险者，靠荒谬行为扰乱战场。人类、半精灵和侏儒可无限提升等级；半身人最高12级，精灵10级，矮人6级，半兽人4级。",
+    "sourceFile": "manuscript/dragon/60/topics/jester.md"
+  },
+  {
+    "book": "dragon-60",
     "slug": "new-spells",
     "title": "变换术",
     "titleEn": "More Cantrips",
     "group": "Dragon",
     "excerpt": "使动物或植物来源的小目标在同一界内变形，每次施法只变一次，体积增减不超过 50%。例如纸变布、布变花，或鸟变蝙蝠；死物变活物仅一轮，轻微改色可维持一天以上。",
     "sourceFile": "manuscript/dragon/60/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-61",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dragon's Bestiary",
+    "group": "Dragon",
+    "excerpt": "火尾灵是由活焰组成、喜欢嬉戏的妖精生物，通常在空中盘旋和急转。普通火尾灵不会施法；大火尾灵（tshala）才拥有表中斜线后的高阶数据和法术。它们原生于火元素位面，也会被带到其他位面。大火尾灵每天一次可以带着一群1–6只普通火尾灵使用位面转移。",
+    "sourceFile": "manuscript/dragon/61/topics/bestiary.md"
   },
   {
     "book": "dragon-61",
@@ -12879,12 +13212,21 @@
     "sourceFile": "manuscript/dragon/61/topics/weapons.md"
   },
   {
+    "book": "dragon-61",
+    "slug": "without-any-weapons",
+    "title": "不使用武器",
+    "titleEn": "Without Any Weapons...",
+    "group": "Dragon",
+    "excerpt": "文章整理徒手、擒抱、绊摔、锁技和临时武器的处理方式。徒手战斗应先确定攻击者的体型、力量、训练和目标的护甲，再决定是造成伤害、控制位置还是迫使对方失去行动。",
+    "sourceFile": "manuscript/dragon/61/topics/without-any-weapons.md"
+  },
+  {
     "book": "dragon-62",
     "slug": "bestiary",
     "title": "怪物志",
     "titleEn": "Faerie Dragon",
     "group": "Dragon",
-    "excerpt": "妖精龙是伪龙的一支混乱善良变种，通常住在茂密而安静的森林里，有时与矮妖精或皮克精结伴。它身形纤细，有能抓握的长尾巴、蝴蝶般的翅膀和夸张的笑容。年龄越大，鳞色越接近光谱的紫端，具体见年龄表；阳光下，雌性带金色光泽，雄性带银色光泽。",
+    "excerpt": "妖精龙是伪龙的一支混乱善良变种，通常住在茂密而安静的森林里，有时与小妖精或皮克精结伴。它身形纤细，有能抓握的长尾巴、蝴蝶般的翅膀和夸张的笑容。年龄越大，鳞色越接近光谱的紫端，具体见年龄表；阳光下，雌性带金色光泽，雄性带银色光泽。",
     "sourceFile": "manuscript/dragon/62/topics/bestiary.md"
   },
   {
@@ -12916,6 +13258,15 @@
   },
   {
     "book": "dragon-63",
+    "slug": "bandit",
+    "title": "强盗",
+    "titleEn": "Bandits!",
+    "group": "Dragon",
+    "excerpt": "强盗是结合战士和盗贼特点的非玩家角色职业。他们靠武力而非潜行实施盗窃，主要在野外活动，常见工作包括拦路抢劫、袭击村庄、绑架勒索和掠夺孤立居所。可选人类、半精灵和半兽人；半精灵的最高等级取决于力量，力量18可到10级，17到9级，16或更低到8级；半兽人最高8级。",
+    "sourceFile": "manuscript/dragon/63/topics/bandit.md"
+  },
+  {
+    "book": "dragon-63",
     "slug": "class-revisions",
     "title": "野蛮人（Gygax早期测试稿）",
     "titleEn": "Big, Bad Barbarian, The",
@@ -12933,6 +13284,33 @@
     "sourceFile": "manuscript/dragon/63/topics/culture.md"
   },
   {
+    "book": "dragon-63",
+    "slug": "featured-creatures",
+    "title": "精选生物：天使族",
+    "titleEn": "Featured Creatures",
+    "group": "Dragon",
+    "excerpt": "本期“精选生物”介绍善良外层位面的天使族 Deva。Deva 是善良神祇的仆从和使者，能在善良外层位面间行动，也能以灵体或以太状态旅行；在物质位面被摧毁的只是肉身，灵魂会返回所属位面并在多年后重新成形。",
+    "sourceFile": "manuscript/dragon/63/topics/featured-creatures.md"
+  },
+  {
+    "book": "dragon-63",
+    "slug": "make-charisma-count-for-more",
+    "title": "让魅力更有用",
+    "titleEn": "Make Charisma Count For More",
+    "group": "Dragon",
+    "excerpt": "文章建议把魅力从一次性的反应修正扩展为长期社会资源。魅力会影响追随者数量、初次信任、谈判耐心、公开声望、招募和 NPC 是否愿意给角色第二次机会，但不能替代实际承诺和可靠行动。",
+    "sourceFile": "manuscript/dragon/63/topics/make-charisma-count-for-more.md"
+  },
+  {
+    "book": "dragon-64",
+    "slug": "featured-creatures",
+    "title": "精选生物：星界使者",
+    "titleEn": "Featured Creatures",
+    "group": "Dragon",
+    "excerpt": "本期继续介绍善良阵营的高级外层生物 Planetar 与 Solar。Planetar 是强大神祇的右手，拥有巨量生命值、极高魔法抗性、行星级别的牧师与德鲁伊法术能力，以及带有 Defender 与 Wounding 特性的专用巨剑。",
+    "sourceFile": "manuscript/dragon/64/topics/featured-creatures.md"
+  },
+  {
     "book": "dragon-65",
     "slug": "bestiary",
     "title": "怪物志",
@@ -12942,6 +13320,42 @@
     "sourceFile": "manuscript/dragon/65/topics/bestiary.md"
   },
   {
+    "book": "dragon-65",
+    "slug": "events-of-the-eastern-and-southern-flanaess",
+    "title": "东部与南部弗兰纳斯大事记",
+    "titleEn": "Events Of the Eastern and Southern Flanaess",
+    "group": "Dragon",
+    "excerpt": "本条整理 Greyhawk 东部与南部弗兰纳斯的近期事件，包括王国、教会、边境和战争消息。它适合作为旅行途中听到的新闻、领主发布的公告或冒险队决定下一步方向的背景。",
+    "sourceFile": "manuscript/dragon/65/topics/events-of-the-eastern-and-southern-flanaess.md"
+  },
+  {
+    "book": "dragon-65",
+    "slug": "law-of-the-land",
+    "title": "土地之法",
+    "titleEn": "Law Of the Land",
+    "group": "Dragon",
+    "excerpt": "文章整理土地、领主、边界、通行权、税收和地方习惯法在 Forgotten Realms 乡土社会中的作用。冒险者进入一片土地时，首先遇到的往往不是国王，而是村长、庄园主、巡逻队和神殿。",
+    "sourceFile": "manuscript/dragon/65/topics/law-of-the-land.md"
+  },
+  {
+    "book": "dragon-66",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "New Monsters For Low Levels",
+    "group": "Dragon",
+    "excerpt": "鹰和隼是极危险的猛禽，能高速俯冲攻击；俯冲时在1–4（d6）时获得突袭。受过训练的鸟会攻击眼睛；若喙击命中没有护眼的目标，目标有25%概率失去该眼的使用能力。通常不会主动攻击中型生物，除非经过训练；半身人、侏儒和狗头人尤其害怕成对的鹰隼。",
+    "sourceFile": "manuscript/dragon/66/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-66",
+    "slug": "featured-creatures",
+    "title": "精选生物：善良外层生物补遗",
+    "titleEn": "Featured Creatures",
+    "group": "Dragon",
+    "excerpt": "本期专题补充善良外层生物的遭遇、能力和主持方法，重点在于它们与神祇、位面和阵营使命的关系。它们拥有强大的治疗、侦测、传送与驱邪能力，却不会为了冒险者的方便长期留在物质位面。",
+    "sourceFile": "manuscript/dragon/66/topics/featured-creatures.md"
+  },
+  {
     "book": "dragon-66",
     "slug": "new-spells",
     "title": "高等幻象",
@@ -12949,6 +13363,15 @@
     "group": "Dragon",
     "excerpt": "按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五时段，便按程序继续。",
     "sourceFile": "manuscript/dragon/66/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-67",
+    "slug": "loyal-readers",
+    "title": "忠实读者",
+    "titleEn": "Loyal Readers",
+    "group": "Dragon",
+    "excerpt": "文章以读者来信为引，讨论 Comeliness（美貌）属性在游戏中的适用范围。美貌应主要影响第一印象、社交注意力和某些 NPC 的态度，不应取代魅力、谈判能力或玩家实际说服对话。",
+    "sourceFile": "manuscript/dragon/67/topics/loyal-readers.md"
   },
   {
     "book": "dragon-67",
@@ -12996,6 +13419,15 @@
     "sourceFile": "manuscript/dragon/68/topics/new-spells.md"
   },
   {
+    "book": "dragon-68",
+    "slug": "you-ve-always-got-a-chance",
+    "title": "你总有机会",
+    "titleEn": "You've Always Got a Chance",
+    "group": "Dragon",
+    "excerpt": "文章提供一套替代性的行动判定思路：当角色尝试规则没有明确覆盖的行动时，先确定行动的难度与角色真正相关的能力，再用一次统一的百分比或 d20 判定，而不是因为规则书没有写就直接判定“不可能”。",
+    "sourceFile": "manuscript/dragon/68/topics/you-ve-always-got-a-chance.md"
+  },
+  {
     "book": "dragon-69",
     "slug": "new-spells",
     "title": "离心术",
@@ -13003,6 +13435,24 @@
     "group": "Dragon",
     "excerpt": "念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。",
     "sourceFile": "manuscript/dragon/69/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-69",
+    "slug": "runestones",
+    "title": "符文石",
+    "titleEn": "Runestones",
+    "group": "Dragon",
+    "excerpt": "文章介绍 Dethek 矮人文字及其在历史、铭文和幻想世界中的用途。符文不仅是书写系统，也可以作为氏族、工匠、墓葬、道路、边界和誓言的视觉标志。",
+    "sourceFile": "manuscript/dragon/69/topics/runestones.md"
+  },
+  {
+    "book": "dragon-70",
+    "slug": "falling-damage",
+    "title": "坠落伤害",
+    "titleEn": "Falling Damage",
+    "group": "Dragon",
+    "excerpt": "《玩家手册》里流传的“每坠落10英尺造成1d6点伤害”遗漏了原本的累进含义。更完整的规则是：第一个10英尺造成1d6，第二个10英尺造成2d6，第三个10英尺造成3d6，依此累加；例如20英尺共3d6，30英尺共6d6，接近60英尺时达到20d6的通常上限。",
+    "sourceFile": "manuscript/dragon/70/topics/falling-damage.md"
   },
   {
     "book": "dragon-71",
@@ -13032,6 +13482,15 @@
     "sourceFile": "manuscript/dragon/72/topics/half-spells.md"
   },
   {
+    "book": "dragon-72",
+    "slug": "jock",
+    "title": "运动健将",
+    "titleEn": "Duh Jock",
+    "group": "Dragon",
+    "excerpt": "运动健将是带有有限魔法能力的战士子职业，原文把他们写成体质强、脑子简单、拥有许多借口的喜剧职业。体质至少12、力量至少10；敏捷不得超过16，智力和感知不得超过10，魅力不得超过8。力量和体质均15以上且感知低于8时，可获得10%经验加成。",
+    "sourceFile": "manuscript/dragon/72/topics/jock.md"
+  },
+  {
     "book": "dragon-73",
     "slug": "creatures-and-races",
     "title": "半食人魔：完整补充方案",
@@ -13041,6 +13500,24 @@
     "sourceFile": "manuscript/dragon/73/topics/creatures-and-races.md"
   },
   {
+    "book": "dragon-73",
+    "slug": "duelist",
+    "title": "决斗家",
+    "titleEn": "Duelist, The",
+    "group": "Dragon",
+    "excerpt": "决斗家是以单挑、剑术和个人名誉为核心的战士NPC职业。决斗家使用战士攻击和豁免表，并按战士规则使用灵能和魔法物品；与其一同近战的同伴在面对中小型类人生物时士气+10%，前提是他们知道决斗家的身份。",
+    "sourceFile": "manuscript/dragon/73/topics/duelist.md"
+  },
+  {
+    "book": "dragon-73",
+    "slug": "when-it-gets-hit-it-gets-hurt",
+    "title": "挨打就会受伤",
+    "titleEn": "When It Gets Hit, It Gets Hurt",
+    "group": "Dragon",
+    "excerpt": "文章讨论命中后果不应只停留在扣生命值。重击、钝击、断骨、失血、疼痛、行动受限和装备损坏都可以作为战斗状态，尤其适合处理大型武器、怪物撕咬和关键部位受创。",
+    "sourceFile": "manuscript/dragon/73/topics/when-it-gets-hit-it-gets-hurt.md"
+  },
+  {
     "book": "dragon-74",
     "slug": "magic-items",
     "title": "阿贾莎“饮者”",
@@ -13048,6 +13525,15 @@
     "group": "Dragon",
     "excerpt": "+2 长剑；黑色蓝宝石饰物本身值 6,000 gp，这不是整剑售价。剑原有 9 点生命值，可吸收接触到的魔法物品之力；卷轴不受影响，药水须倒在剑上或将剑浸入其中。接触时目标发出淡绿白光。",
     "sourceFile": "manuscript/dragon/74/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-75",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "New Denizens of Devildom",
+    "group": "Dragon",
+    "excerpt": "阿比沙魔是遍布九狱的鳞甲小魔鬼，多数为提亚马特效力。遇到巢穴时，10%概率还有1–4只其他种类的魔鬼。它们不重视财宝，但15%概率奉命押送Q型财宝。黑色使用戟，白色使用连枷，红色使用长匕首，绿色使用钩镰戟，蓝色使用三叉戟；表中的武器伤害已含其力量加值。",
+    "sourceFile": "manuscript/dragon/75/topics/bestiary.md"
   },
   {
     "book": "dragon-77",
@@ -13077,6 +13563,15 @@
     "sourceFile": "manuscript/dragon/78/topics/psionics.md"
   },
   {
+    "book": "dragon-81",
+    "slug": "tool-chariots-for-characters",
+    "title": "给角色使用的战车",
+    "titleEn": "Chariots for Characters",
+    "group": "Dragon",
+    "excerpt": "文章把战车作为角色可以购买、驾驶和改装的冒险装备。驾驶员、战士、投射手和护卫应各有职责；战车的速度、转向、载重、轮轴、马匹和地形都会影响战斗。",
+    "sourceFile": "manuscript/dragon/81/topics/tool-chariots-for-characters.md"
+  },
+  {
     "book": "dragon-82",
     "slug": "magic-items",
     "title": "警觉戒指",
@@ -13084,6 +13579,42 @@
     "group": "Dragon",
     "excerpt": "只有 d20 掷 1 才被突袭。连续佩戴每小时累积 1% 概率患偏执症，按 DMG 处理；症状持续轮数等于已戴小时数，发作后摘下不能解除，但魔法可治。发作前哪怕短暂摘下也会清零，下一小时重新从 1% 算起。",
     "sourceFile": "manuscript/dragon/82/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-84",
+    "slug": "tool-cast-of-strange-familiars-a",
+    "title": "一群奇异魔宠",
+    "titleEn": "Cast of Strange Familiars, A",
+    "group": "Dragon",
+    "excerpt": "文章扩展魔宠的选择和来源，提醒主持人魔宠不只是侦察工具或额外生命值。不同动物应有自己的性格、需求、感官优势和恐惧，也可能把主人带入当地传说或势力关系。",
+    "sourceFile": "manuscript/dragon/84/topics/tool-cast-of-strange-familiars-a.md"
+  },
+  {
+    "book": "dragon-85",
+    "slug": "here-s-to-your-health",
+    "title": "为健康干杯",
+    "titleEn": "Here's To Your Health",
+    "group": "Dragon",
+    "excerpt": "文章从疾病、毒药、饮食和冒险者的日常健康出发，提醒主持人健康状态会影响长途旅行与战斗恢复。污染的食物和水、寄生虫、恶劣天气、疲劳和缺乏休息都可以成为低强度但持续的威胁。",
+    "sourceFile": "manuscript/dragon/85/topics/here-s-to-your-health.md"
+  },
+  {
+    "book": "dragon-86",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Familiars With a Special Use",
+    "group": "Dragon",
+    "excerpt": "巴尔提尔原生于奥林匹斯和格拉德斯海姆。在主物质位面上，它可以变成一个人类或半人类儿童，也可以变成猫、水獭或微型狮子。狮子形态的护甲等级为5，移动率12″，攻击为爪、爪、咬及后爪，伤害分别为1、1、1–2及1、1。",
+    "sourceFile": "manuscript/dragon/86/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-86",
+    "slug": "dragons-and-their-deities",
+    "title": "龙与它们的神祇",
+    "titleEn": "Dragons and Their Deities",
+    "group": "Dragon",
+    "excerpt": "文章讨论龙与龙神之间的宗教关系。龙可以把神祇视为祖先、保护者、竞争者或力量来源，不同色彩与金属龙的神学传统也会影响它们对巢穴、后代、领地和其他龙族的态度。",
+    "sourceFile": "manuscript/dragon/86/topics/dragons-and-their-deities.md"
   },
   {
     "book": "dragon-86",
@@ -13095,6 +13626,15 @@
     "sourceFile": "manuscript/dragon/86/topics/magic-items.md"
   },
   {
+    "book": "dragon-86",
+    "slug": "tool-familiars-with-a-special-use",
+    "title": "有特殊用途的魔宠",
+    "titleEn": "Familiars With a Special Use",
+    "group": "Dragon",
+    "excerpt": "文章列出让魔宠真正参与冒险的方法：传递气味、携带细小物品、触发机关、监视熟悉区域、寻找特定材料、协助施法准备，或用自身习性发现主人忽略的线索。",
+    "sourceFile": "manuscript/dragon/86/topics/tool-familiars-with-a-special-use.md"
+  },
+  {
     "book": "dragon-87",
     "slug": "ecology",
     "title": "树精的生态与树魂羁绊",
@@ -13104,6 +13644,123 @@
     "sourceFile": "manuscript/dragon/87/topics/ecology.md"
   },
   {
+    "book": "dragon-88",
+    "slug": "kinetic-energy-is-the-key",
+    "title": "关键在于动能",
+    "titleEn": "Kinetic Energy Is the Key",
+    "group": "Dragon",
+    "excerpt": "文章把动能与冲撞、坠落、投掷和高速移动联系起来，建议主持人根据物体质量与速度判断撞击是否应造成额外伤害。轻小物体的高速撞击可能很危险，但不能简单把每次移动都换算成无限伤害。",
+    "sourceFile": "manuscript/dragon/88/topics/kinetic-energy-is-the-key.md"
+  },
+  {
+    "book": "dragon-88",
+    "slug": "physics-and-falling-damage",
+    "title": "物理与坠落伤害",
+    "titleEn": "Physics and Falling Damage",
+    "group": "Dragon",
+    "excerpt": "文章重新讨论坠落伤害，建议把高度、落点、身体姿势、护具、软硬地面和是否能抓住边缘分开处理。角色不是每次从高处落下都以同样方式着地；绳索、跳跃、羽落和缓冲物都应改变结果。",
+    "sourceFile": "manuscript/dragon/88/topics/physics-and-falling-damage.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "amitok",
+    "title": "阿米托克",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "阿米托克又称雪地哥布林，源自类地精血统，早已适应极地和亚极地气候。它们体格宽阔，身体覆盖浅灰或白色毛发，脸和手苍白发蓝；成年雄性力量16，雌性力量14，战斗时只用爪，不使用武器。",
+    "sourceFile": "manuscript/dragon/89/topics/amitok.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "bichir",
+    "title": "比奇尔",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "比奇尔生活在湖岸和河岸的沼泽与灌木中，虽被称为“沼泽蜥蜴”，实际上是与鲨鱼和鱼类有关的奇异生物。它兼有鳃和类似肺的鳔，每回合至少要浮到水面吸气一次；巨型比奇尔能用强大的胸鳍在陆地上行走，但必须保持皮肤湿润，不能远离水域。",
+    "sourceFile": "manuscript/dragon/89/topics/bichir.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "fachan",
+    "title": "法坎",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "法坎是外形近似食人魔的怪物，却只有一条手臂、一条腿和一只眼睛；眼睛位于脸中央，腿连接在骨盆中央关节，手臂连接在胸口中央。每400名食人魔中约有一名出生为法坎，5%的食人魔部落和1%的兽人巢穴中可能出现法坎。",
+    "sourceFile": "manuscript/dragon/89/topics/fachan.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "flailtail",
+    "title": "鞭尾兽",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "鞭尾兽生活在淡水沼泽和湖岸，漂浮时像大片绿褐色睡莲或浮萍，近看则像尾巴藏在水下的鳐鱼。它腹部有许多长达1英尺的蠕虫状触须，能感知14″内水中振动；中心有可伸缩的管状吸口，边缘长着骨质齿脊，每轮造成1至4点伤害并抓住猎物。",
+    "sourceFile": "manuscript/dragon/89/topics/flailtail.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "ghuuna",
+    "title": "古纳",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "古纳是受耶诺古制造的类狼人诅咒影响的豺狼人，能在大型豺狼人形态和鬣狗兽形态之间变形，压力与月相会影响其状态。普通形态像大型豺狼人，通常不穿护甲并使用剑；鬣狗兽形态的咬攻击造成4至16点伤害。",
+    "sourceFile": "manuscript/dragon/89/topics/ghuuna.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "ihagnim",
+    "title": "伊哈格尼姆",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "伊哈格尼姆是少数原生星界的生物之一，外形像半透明的大型塑料变形虫。它在星界背景中难以被发现，通常视距降为正常值的10%；它能以意念形成粗大触手捕捉猎物，并按智力（此处等同生命骰）以每轮10码的速度在星界移动。",
+    "sourceFile": "manuscript/dragon/89/topics/ihagnim.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "peltast",
+    "title": "皮革寄生兽",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "皮革寄生兽是能与人类或类人生物共生的小型无定形生物，精灵、矮人等半人种族不适合成为宿主，只会被它当作寻找合适宿主的载体。它体积约等于三只拳头，皮肤像磨旧但结实的斑驳棕色皮革，能在2轮内变成贴身皮革物件，例如靴子、腰带、腕带、手套或帽子。",
+    "sourceFile": "manuscript/dragon/89/topics/peltast.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "sind",
+    "title": "辛德",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "辛德又称沼泽摇摆人，是生活在沼泽和平聚落中的类人生物。他们说通用语和自身阵营的语言，10%机会还会说蜥蜴人语。辛德用泥封住的圆锥形草屋居住，以鱼钩、鱼线、网和蹼指捕捉小鳗鱼、小龙虾、青蛙和小鱼。",
+    "sourceFile": "manuscript/dragon/89/topics/sind.md"
+  },
+  {
+    "book": "dragon-89",
+    "slug": "vurgen",
+    "title": "吞噬兽",
+    "titleEn": "Creature Catalog",
+    "group": "Dragon",
+    "excerpt": "吞噬兽是独居的深海猎手，会吞下巨颚能够容纳的一切可食目标。它们把大片海域视为自己的领地，争夺领地时会发生可怕的巨兽大战；没有真正巢穴，却常躲进深海洞穴产仔或养伤。",
+    "sourceFile": "manuscript/dragon/89/topics/vurgen.md"
+  },
+  {
+    "book": "dragon-90",
+    "slug": "hold-that-person",
+    "title": "控制住那个人！",
+    "titleEn": "Hold That Person!",
+    "group": "Dragon",
+    "excerpt": "文章讨论对单个目标使用 Hold Person 及类似控制效果时的判定、目标选择和战术后果。被控制者并不等于已经失去所有危险：同伴可以保护他，法术可能被打断，目标也可能在效果结束后继续行动。",
+    "sourceFile": "manuscript/dragon/90/topics/hold-that-person.md"
+  },
+  {
+    "book": "dragon-90",
+    "slug": "incantatrix",
+    "title": "咒法师",
+    "titleEn": "Enchanting Incantatrix, The",
+    "group": "Dragon",
+    "excerpt": "咒法师是极少见的NPC施法职业，力量接近魔法使用者，却专门反制、抵消和窃取其他施法者的魔法，也擅长对付同时存在于多个位面的生物。她们几乎不擅长肉搏，攻击性法术选择严格受限；法术种类虽然跨越多个施法职业，但多数效果弱于原职业法术。",
+    "sourceFile": "manuscript/dragon/90/topics/incantatrix.md"
+  },
+  {
     "book": "dragon-90",
     "slug": "new-spells",
     "title": "阅读幻术魔法（魔咒师版）",
@@ -13111,6 +13768,15 @@
     "group": "Dragon",
     "excerpt": "重刊第 66 期的阅读幻术魔法：同法师阅读魔法，但限幻术师使用的法术及幻术魔文，材料也沿用阅读魔法。可逆为难读魔文，材料沿用反向法术。此篇将其列入 Incantatrix 的法术表。",
     "sourceFile": "manuscript/dragon/90/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-91",
+    "slug": "goristro",
+    "title": "巨牛魔",
+    "titleEn": "Goristro Revealed, The",
+    "group": "Dragon",
+    "excerpt": "巨牛魔是生活在深渊诸层的巨型恶魔，常被深渊领主和恶魔王子用作守卫、执行者和破坏机器。它们适应力强，却愚蠢野蛮，只会盲目执行命令；90%的巨牛魔都在某位深渊统治者麾下服务。",
+    "sourceFile": "manuscript/dragon/91/topics/goristro.md"
   },
   {
     "book": "dragon-91",
@@ -13132,6 +13798,15 @@
   },
   {
     "book": "dragon-92",
+    "slug": "more-the-merrier-the",
+    "title": "人多更热闹",
+    "titleEn": "More, the Merrier, The",
+    "group": "Dragon",
+    "excerpt": "文章讨论队伍规模、追随者和雇佣兵过多时的管理方法。人数增加会带来更强的侦察、负重和战斗能力，也会带来补给、分赃、噪音、意见冲突和行动速度问题。",
+    "sourceFile": "manuscript/dragon/92/topics/more-the-merrier-the.md"
+  },
+  {
+    "book": "dragon-92",
     "slug": "new-spells",
     "title": "阿迦纳萨灼热射流",
     "titleEn": "Pages From the Mages III",
@@ -13145,7 +13820,7 @@
     "title": "深海之眼的生态与闪光攻击",
     "titleEn": "Ecology of the Eye of the Deep, The",
     "group": "Dragon",
-    "excerpt": "深海之眼为独居捕食者，偏好沉船与洋底洞穴，不能安全到浅水，因减压胀裂。可为食物临时同鲨华鱼人合作。眼柄损失需6–11日再生，其他部分数月，恢复取决于食物。",
+    "excerpt": "深海之眼为独居捕食者，偏好沉船与洋底洞穴，不能安全到浅水，因减压胀裂。可为食物临时同沙华鱼人合作。眼柄损失需6–11日再生，其他部分数月，恢复取决于食物。",
     "sourceFile": "manuscript/dragon/93/topics/ecology.md"
   },
   {
@@ -13158,12 +13833,57 @@
     "sourceFile": "manuscript/dragon/94/topics/bestiary.md"
   },
   {
+    "book": "dragon-96",
+    "slug": "killer-dungeon-master",
+    "title": "杀手地下城主",
+    "titleEn": "Meanest of Monsters, The",
+    "group": "Dragon",
+    "excerpt": "“杀手地下城主”是一张用于制造极端主持人风格的趣味随机表。玩家可按表格为地下城主选择一项恶劣习惯，例如故意误读规则、在关键时刻改变判定、把合理行动解释成失败，或用不公平的陷阱惩罚玩家。",
+    "sourceFile": "manuscript/dragon/96/topics/killer-dungeon-master.md"
+  },
+  {
+    "book": "dragon-96",
+    "slug": "meanest-of-monsters-the",
+    "title": "最恶毒的怪物",
+    "titleEn": "Meanest of Monsters, The",
+    "group": "Dragon",
+    "excerpt": "本条是《Meanest of Monsters》专题的主持人素材，使用一组随机结果为“最恶毒的怪物”添加行为、战术和恶意程度。结果可以包括折磨俘虏、破坏退路、伪装求饶、利用环境和针对角色弱点。",
+    "sourceFile": "manuscript/dragon/96/topics/meanest-of-monsters-the.md"
+  },
+  {
+    "book": "dragon-96",
+    "slug": "new-jobs-for-demi-humans",
+    "title": "半人种族的新职业",
+    "titleEn": "New Jobs For Demi-Humans",
+    "group": "Dragon",
+    "excerpt": "文章为半人种族角色提供新的职业方向，并讨论不同种族在社会、宗教、工艺和冒险中的专长。新职业应与种族文化有关，却不应把角色锁死在单一刻板印象中。",
+    "sourceFile": "manuscript/dragon/96/topics/new-jobs-for-demi-humans.md"
+  },
+  {
+    "book": "dragon-96",
+    "slug": "rules-to-lose-by",
+    "title": "输掉游戏的规则",
+    "titleEn": "Rules To Lose By",
+    "group": "Dragon",
+    "excerpt": "文章用幽默方式列出一组会让玩家或 NPC 注定失败的坏规则，例如把所有选择交给骰子、忽略信息差、让敌人无视自身限制或把主持人的临时决定伪装成规则。",
+    "sourceFile": "manuscript/dragon/96/topics/rules-to-lose-by.md"
+  },
+  {
+    "book": "dragon-97",
+    "slug": "deities-and-their-faithful",
+    "title": "神祇与信徒",
+    "titleEn": "Deities and Their Faithful",
+    "group": "Dragon",
+    "excerpt": "文章讨论神祇、教会和普通信徒之间的关系。神祇的利益不一定等于每个祭司的解释，信徒也可能因地区、阶层和传统不同而形成不同仪式；主持人应让教义通过组织和人物表现出来。",
+    "sourceFile": "manuscript/dragon/97/topics/deities-and-their-faithful.md"
+  },
+  {
     "book": "dragon-97",
     "slug": "ecology",
-    "title": "石化铁牛的生态与石化吐息",
+    "title": "戈尔贡的生态与石化吐息",
     "titleEn": "Ecology of the Gorgon, The",
     "group": "Dragon",
-    "excerpt": "为石化铁牛补充生态、吐息及近战判定的杂志方案。它不靠吃金属或石化受害者生活，而由普通食物取得金属形成装甲；鳞板有蜡质覆盖，不能直接当盾，平均一片仅值10 cp。",
+    "excerpt": "为戈尔贡补充生态、吐息及近战判定的杂志方案。它不靠吃金属或石化受害者生活，而由普通食物取得金属形成装甲；鳞板有蜡质覆盖，不能直接当盾，平均一片仅值10 cp。",
     "sourceFile": "manuscript/dragon/97/topics/ecology.md"
   },
   {
@@ -13176,6 +13896,24 @@
     "sourceFile": "manuscript/dragon/97/topics/new-spells.md"
   },
   {
+    "book": "dragon-97",
+    "slug": "tool-only-good-captive-the",
+    "title": "唯一好的俘虏……",
+    "titleEn": "Only Good Captive..., The",
+    "group": "Dragon",
+    "excerpt": "文章讨论俘虏在战役中的价值与管理。俘虏可能提供情报、交换条件、政治筹码或新的任务线，但也会消耗食物、看守和移动速度，并可能在审讯、逃跑或救援中制造危险。",
+    "sourceFile": "manuscript/dragon/97/topics/tool-only-good-captive-the.md"
+  },
+  {
+    "book": "dragon-98",
+    "slug": "dragon-damage-revised",
+    "title": "龙类伤害修订",
+    "titleEn": "Dragon Damage Revised",
+    "group": "Dragon",
+    "excerpt": "文章重新整理龙类攻击与伤害的处理，强调龙的咬、爪、翼、尾和吐息应依据体型、年龄、位置和攻击方式区分。龙在空中、地面和巢穴中的战术不同，不能只按怪物栏中的一行攻击次数处理。",
+    "sourceFile": "manuscript/dragon/98/topics/dragon-damage-revised.md"
+  },
+  {
     "book": "dragon-99",
     "slug": "magic-items",
     "title": "能量戒指",
@@ -13183,6 +13921,33 @@
     "group": "Dragon",
     "excerpt": "每天至多四次，射出最远六十英尺的细能量束，视线无遮挡自动对准，但目标可对法术豁免完全避开；避开后可能击中同直线范围内他人。0–20／21–30／31–40／41–60 英尺伤害分别为 4d6／3d6／2d6／1d6。",
     "sourceFile": "manuscript/dragon/99/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-99",
+    "slug": "neutral-point-of-view-the",
+    "title": "中立立场",
+    "titleEn": "Neutral Point of View, The",
+    "group": "Dragon",
+    "excerpt": "文章讨论中立阵营并不是“什么都不在乎”。真正的中立角色可以在秩序与混沌、善与恶之间保持距离，也可以为了维持生态、政治或个人目标主动介入；关键是他们不把某一方的胜利当作宇宙必须达到的终点。",
+    "sourceFile": "manuscript/dragon/99/topics/neutral-point-of-view-the.md"
+  },
+  {
+    "book": "dragon-99",
+    "slug": "tables-and-tables-of-troops",
+    "title": "军队表与军队之表",
+    "titleEn": "Tables and Tables of Troops",
+    "group": "Dragon",
+    "excerpt": "文章提供用随机表生成军队规模、兵种、训练水平、军官、士气、装备和支援单位的方法。表格可以先确定部队的大致构成，再根据领主财富、地形、战争时间和补给状况修正。",
+    "sourceFile": "manuscript/dragon/99/topics/tables-and-tables-of-troops.md"
+  },
+  {
+    "book": "dragon-100",
+    "slug": "druid-ranger",
+    "title": "德鲁伊／游侠",
+    "titleEn": "All About the Druid/Ranger",
+    "group": "Dragon",
+    "excerpt": "本文解释《Dragon #96》提到却无法按既有规则满足的德鲁伊／游侠组合。两者都以荒野为核心，因此组合在战役逻辑上成立；真正的矛盾在于德鲁伊强调自然平衡，游侠则强调保护个体生命和减轻痛苦。",
+    "sourceFile": "manuscript/dragon/100/topics/druid-ranger.md"
   },
   {
     "book": "dragon-100",
@@ -13203,6 +13968,24 @@
     "sourceFile": "manuscript/dragon/101/topics/bestiary.md"
   },
   {
+    "book": "dragon-101",
+    "slug": "for-king-and-country",
+    "title": "为了国王与国家",
+    "titleEn": "For King and Country",
+    "group": "Dragon",
+    "excerpt": "文章讨论把角色的效忠对象从抽象的阵营扩展为王国、城市、领主、军队或共同体。效忠并不意味着无条件服从；角色需要知道誓言的范围、合法的命令来源，以及在君主违反基本正义时如何处理。",
+    "sourceFile": "manuscript/dragon/101/topics/for-king-and-country.md"
+  },
+  {
+    "book": "dragon-102",
+    "slug": "bushdog",
+    "title": "灌木犬",
+    "titleEn": "Collection of Canines, A",
+    "group": "Dragon",
+    "excerpt": "灌木犬是体格结实、覆盖粗短毛发的小型棕色犬科动物，头骨短而宽、颚部有力、腿短、耳朵小、尾巴短，外形有些像厚实的腊肠犬或水獭与小犬的混合体。低矮身体和蹼足适合茂密灌木与多水环境，通常住在远离聚落的热带森林或水边。",
+    "sourceFile": "manuscript/dragon/102/topics/bushdog.md"
+  },
+  {
     "book": "dragon-102",
     "slug": "nine-wands",
     "title": "九种奇妙魔杖",
@@ -13210,6 +13993,33 @@
     "group": "Dragon",
     "excerpt": "法师、幻术师、牧师和德鲁伊可用。每次耗 1 充能，不可再充能。在杖所指方向、距使用者 1″ 处形成反光力场镜，随机维持 3–8 轮，随杖移动，无须专注；再次制造会使旧镜消失，移交魔杖也会转交控制。",
     "sourceFile": "manuscript/dragon/102/topics/nine-wands.md"
+  },
+  {
+    "book": "dragon-102",
+    "slug": "valley-of-the-earth-mother",
+    "title": "大地母亲之谷",
+    "titleEn": "Valley of the Earth Mother",
+    "group": "Dragon",
+    "excerpt": "文章介绍一个以自然、狩猎和大地崇拜为核心的谷地社会与 Huntsman 角色。谷地的居民依赖季节、猎场、河流和祖灵，外来者必须理解当地的禁忌、交换方式和保护领地的义务。",
+    "sourceFile": "manuscript/dragon/102/topics/valley-of-the-earth-mother.md"
+  },
+  {
+    "book": "dragon-105",
+    "slug": "demihuman-adjustments",
+    "title": "半人种族能力调整",
+    "titleEn": "Tone Down the Demi-Humans",
+    "group": "Dragon",
+    "excerpt": "文章逐项讨论《Unearthed Arcana》新增半人种族的失衡点：野精灵的动物友谊应受每日次数、目标豁免、训练时间和可控制生命骰限制；灰矮人、深地侏儒与卓尔在日光、幻术免疫、麻痹、毒素和类法术能力方面也应从绝对免疫改成可判定的抗性。",
+    "sourceFile": "manuscript/dragon/105/topics/demihuman-adjustments.md"
+  },
+  {
+    "book": "dragon-105",
+    "slug": "tool-well-equipped-victim-the",
+    "title": "装备齐全的受害者",
+    "titleEn": "Well-Equipped Victim, The",
+    "group": "Dragon",
+    "excerpt": "文章从“受害者”这个冒险钩子出发，列出一个值得救援、追踪或审讯的 NPC 应拥有的装备、文件、护卫、伤势和秘密。受害者不是只会等待救援的静态对象，他们可能隐瞒身份、携带关键物品，或本身就是冲突的一部分。",
+    "sourceFile": "manuscript/dragon/105/topics/tool-well-equipped-victim-the.md"
   },
   {
     "book": "dragon-106",
@@ -13221,6 +14031,15 @@
     "sourceFile": "manuscript/dragon/106/topics/new-spells.md"
   },
   {
+    "book": "dragon-107",
+    "slug": "mariner",
+    "title": "航海家",
+    "titleEn": "For Sail: One New NPC",
+    "group": "Dragon",
+    "excerpt": "航海家是专门掌握海上生活、船战技巧和水手武器的战士子职业。可为任意阵营；中立的海盗和邪恶的海盗船长只是不同社会背景的航海家。航海家没有天生施法能力，起始年龄、资金、财物限制和魔法物品使用规则照战士。",
+    "sourceFile": "manuscript/dragon/107/topics/mariner.md"
+  },
+  {
     "book": "dragon-108",
     "slug": "new-spells",
     "title": "仪式：誓言（零环祷术）",
@@ -13228,6 +14047,24 @@
     "group": "Dragon",
     "excerpt": "牧师见证一项小任务誓言，相关双方触碰圣徽，牧师以仪式手势和祝辞确认。立誓者违约后，忠诚基础值减 5%，持续至作出满意补偿，可能永不恢复。",
     "sourceFile": "manuscript/dragon/108/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-108",
+    "slug": "pernicon-revised",
+    "title": "佩尼科虫（修订版）",
+    "titleEn": "Pernicon: A New Version, The",
+    "group": "Dragon",
+    "excerpt": "佩尼科虫是生活在沙漠边缘的小型彩色昆虫，通常成群出现；头部触角会在120英尺内的大量水源附近振动并发出低鸣，因此沙漠游牧民很珍视它们。它们平时无害，受惊后会跳到暴露的皮肤上，用尾部钳子造成1点伤害，并从下一轮开始每轮吸取1点体液，最多吸取5点后自行脱落。",
+    "sourceFile": "manuscript/dragon/108/topics/pernicon-revised.md"
+  },
+  {
+    "book": "dragon-108",
+    "slug": "volheller",
+    "title": "沃赫勒",
+    "titleEn": "Plants of Biurndon, The",
+    "group": "Dragon",
+    "excerpt": "沃赫勒是虱类的小型有翼昆虫，在森林腐殖土和沼泽死水中繁殖。单只只是骚扰，但繁殖季会聚成倒漏斗形的大群，翅膀的嗡鸣可在200码外听见。它们只能攻击 AC 9 或 10 的裸露部位，叮咬造成1点伤害，每次叮咬有2%的机会传播疾病。",
+    "sourceFile": "manuscript/dragon/108/topics/volheller.md"
   },
   {
     "book": "dragon-109",
@@ -13258,6 +14095,15 @@
   },
   {
     "book": "dragon-110",
+    "slug": "dragon-damage-revisited",
+    "title": "龙类伤害再访",
+    "titleEn": "Dragon Damage Revisited",
+    "group": "Dragon",
+    "excerpt": "本文对早先的龙类伤害规则作进一步修订，讨论不同体型、不同年龄和不同攻击方式下的伤害分配。龙的身体部位、尾击范围、爪击角度和飞行姿态都会影响角色能否攻击到它。",
+    "sourceFile": "manuscript/dragon/110/topics/dragon-damage-revisited.md"
+  },
+  {
+    "book": "dragon-110",
     "slug": "new-spells",
     "title": "跨界行走",
     "titleEn": "All About Elminster",
@@ -13282,6 +14128,24 @@
     "group": "Dragon",
     "excerpt": "巨型单细胞生物可以由强力放大术作用于浑浊池水产生，也可让角色缩到不足一英寸来遭遇正常细胞；下列怪物统计默认采用放大的生物。它们多数没有智慧、阵营中立，适合补充浅水、湖泊和海洋遭遇。",
     "sourceFile": "manuscript/dragon/111/topics/protiston.md"
+  },
+  {
+    "book": "dragon-111",
+    "slug": "tool-welcome-to-malachi",
+    "title": "欢迎来到 Malachi",
+    "titleEn": "Welcome To Malachi",
+    "group": "Dragon",
+    "excerpt": "文章介绍 Malachi 作为可供冒险队进入的地点与社会环境，重点在于当地的居民、势力、法律、资源和潜在冲突。它适合用作新的城镇、边境据点或一段战役的落脚点。",
+    "sourceFile": "manuscript/dragon/111/topics/tool-welcome-to-malachi.md"
+  },
+  {
+    "book": "dragon-113",
+    "slug": "more-clout-for-clerics",
+    "title": "让牧师更有影响力",
+    "titleEn": "More Clout For Clerics",
+    "group": "Dragon",
+    "excerpt": "文章建议把牧师的影响力建立在教会、神殿、信徒、土地、仪式和社会服务上，而不只看角色等级。一个低等级牧师也可能掌握村镇的婚礼、葬礼、赈济和法律见证；高等级牧师则能调动资源、人员和政治关系。",
+    "sourceFile": "manuscript/dragon/113/topics/more-clout-for-clerics.md"
   },
   {
     "book": "dragon-114",
@@ -13309,6 +14173,15 @@
     "group": "Dragon",
     "excerpt": "第 114 期 NPC 巫婆法术；第一版为一环，第二版为二环，巫婆魅力须至少 11。“男性”包括人类、半人类与类人生物男性。效果按魅惑人类。",
     "sourceFile": "manuscript/dragon/114/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-114",
+    "slug": "witch",
+    "title": "女巫",
+    "titleEn": "Witch, The",
+    "group": "Dragon",
+    "excerpt": "女巫是独立于魔法使用者之外的特殊施法职业。她们使用草药进行治疗和魔法，结合牧师与魔法使用者的法术，专长包括自然、季节、共感魔法、魅惑与控制人类和类人生物；邪恶女巫还常使用诅咒和破坏性法术。",
+    "sourceFile": "manuscript/dragon/114/topics/witch.md"
   },
   {
     "book": "dragon-115",
@@ -13345,6 +14218,15 @@
     "group": "Dragon",
     "excerpt": "生态及主持人选用判定，补充掘地虫的蜕壳、感官、巢穴和可回收材料。躯体通常上侧AC2、腹面AC4；每年秋季蜕壳，脱旧壳一两日，新壳一至两周硬化。首周上侧AC5、腹面AC7，两周内地表移动减半为6″、不能掘地，颚伤害由3d6降为1d10，不能喷酸。",
     "sourceFile": "manuscript/dragon/117/topics/ecology.md"
+  },
+  {
+    "book": "dragon-118",
+    "slug": "fighting-circle-the",
+    "title": "决斗圈",
+    "titleEn": "Fighting Circle, The",
+    "group": "Dragon",
+    "excerpt": "文章介绍一种用于解决单挑、冠军战和荣誉决斗的战斗圈制度。场地、武器限制、裁判、观众、投降信号和死亡规则应在开战前确定，避免决斗开始后临时改变条件。",
+    "sourceFile": "manuscript/dragon/118/topics/fighting-circle-the.md"
   },
   {
     "book": "dragon-119",
@@ -13393,6 +14275,24 @@
   },
   {
     "book": "dragon-120",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Dining Out In the Hells",
+    "group": "Dragon",
+    "excerpt": "非侍魔负责地狱大型快餐连锁店的工作，只会在店内或从附近地区收集物资时出现。它们能咬人，也会投掷沸油，对所有热量效果免疫，并免疫毒素。",
+    "sourceFile": "manuscript/dragon/120/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-120",
+    "slug": "charlatan",
+    "title": "骗子",
+    "titleEn": "First Impressions Are Deceiving",
+    "group": "Dragon",
+    "excerpt": "骗子是盗贼的子职业，靠销售假药、假药水和虚构的魔法治疗欺骗容易上当的人。只有人类、精灵、半精灵和侏儒可成为骗子；智力与敏捷合计32以上时获得10%经验加成，种族最高等级依两项属性总和决定。",
+    "sourceFile": "manuscript/dragon/120/topics/charlatan.md"
+  },
+  {
+    "book": "dragon-120",
     "slug": "magic-items",
     "title": "快速再生戒指",
     "titleEn": "Bazaar of the Bizarre",
@@ -13406,8 +14306,53 @@
     "title": "保温祷术",
     "titleEn": "Higher Aspirations",
     "group": "Dragon",
-    "excerpt": "使受术者免受不良温度影响，效力按温暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。",
+    "excerpt": "使受术者免受不良温度影响，效力按保暖戒指处理。原刊射程为零、作用对象写一人，不据此扩张为远距给予同伴的法术。",
     "sourceFile": "manuscript/dragon/120/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-120",
+    "slug": "pun-is-mightier-than-the-sword-the",
+    "title": "双关语胜过利剑",
+    "titleEn": "Pun Is Mightier Than the Sword, The",
+    "group": "Dragon",
+    "excerpt": "文章提供以机智、双关、挖苦和即兴回话处理社交冲突的轻规则。角色可以用语言打破僵局、激怒敌人、争取观众或掩盖真实意图，但成功仍应取决于场合、听众和角色本人的表达能力。",
+    "sourceFile": "manuscript/dragon/120/topics/pun-is-mightier-than-the-sword-the.md"
+  },
+  {
+    "book": "dragon-121",
+    "slug": "geisya",
+    "title": "艺伎",
+    "titleEn": "Geisya, The",
+    "group": "Dragon",
+    "excerpt": "艺伎是源自东方文化的表演与艺术职业，在东方冒险战役中相当于以歌唱、舞蹈、乐器、即兴诗歌和机智交谈为核心的艺人。本文把她定义为艺人和娱乐者，而不是娼妓；后者属于另一种职业。艺伎是 NPC 职业，是否允许玩家角色选择由主持人决定。",
+    "sourceFile": "manuscript/dragon/121/topics/geisya.md"
+  },
+  {
+    "book": "dragon-121",
+    "slug": "genin",
+    "title": "下忍",
+    "titleEn": "Genin, The",
+    "group": "Dragon",
+    "excerpt": "东方冒险中的忍者通常以双职业处理，既有隐秘身份又有武士、僧兵、巫人或暴徒职业。本文补充单职业忍者：下忍。下忍是忍者家族中真正执行任务的基层成员，通常从小在山中的基地受训；角色可以把日常身份设为不冒险的商人或小官，也可以完全没有第二重身份。",
+    "sourceFile": "manuscript/dragon/121/topics/genin.md"
+  },
+  {
+    "book": "dragon-121",
+    "slug": "the-geisya",
+    "title": "戏法",
+    "titleEn": "The Geisya",
+    "group": "Dragon",
+    "excerpt": "艺伎可借此法术使用一个魔法使用者的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。",
+    "sourceFile": "manuscript/dragon/121/topics/the-geisya.md"
+  },
+  {
+    "book": "dragon-122",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Gaming the Dark Continent",
+    "group": "Dragon",
+    "excerpt": "一种水生食肉兽，外貌略像蜥蜴人，但不会收集财宝，也没有文明程度或智慧使用工具。它以海洋和海岸动物为食，偶尔也吃人，但并非特别偏好人类。",
+    "sourceFile": "manuscript/dragon/122/topics/bestiary.md"
   },
   {
     "book": "dragon-122",
@@ -13438,6 +14383,15 @@
   },
   {
     "book": "dragon-124",
+    "slug": "front-end-alignments",
+    "title": "前端阵营",
+    "titleEn": "Front-End Alignments",
+    "group": "Dragon",
+    "excerpt": "文章用讽刺方式提醒玩家，阵营不应被当成角色卡上的装饰，也不应被用来替玩家预先决定所有行动。阵营判定应建立在角色公开、持续的选择上，并且要区分真实的道德冲突与玩家在桌边争论规则。",
+    "sourceFile": "manuscript/dragon/124/topics/front-end-alignments.md"
+  },
+  {
+    "book": "dragon-124",
     "slug": "odeen-spellbook",
     "title": "《奥丁法术集》资料",
     "titleEn": "Arcane Lore",
@@ -13446,12 +14400,39 @@
     "sourceFile": "manuscript/dragon/124/topics/odeen-spellbook.md"
   },
   {
+    "book": "dragon-124",
+    "slug": "tool-flying-the-friendly-skies",
+    "title": "飞越友善天空？",
+    "titleEn": "Flying the Friendly(?) Skies",
+    "group": "Dragon",
+    "excerpt": "文章讨论空中冒险的路线、天气、飞行生物和着陆点。角色需要提前规划补给、休息、导航、紧急降落和与地面势力的联系，不能把空中旅行当成没有遭遇的快速传送。",
+    "sourceFile": "manuscript/dragon/124/topics/tool-flying-the-friendly-skies.md"
+  },
+  {
+    "book": "dragon-124",
+    "slug": "tool-on-a-wing-and-a-prayer",
+    "title": "凭翅膀与祈祷",
+    "titleEn": "On a Wing and a Prayer",
+    "group": "Dragon",
+    "excerpt": "文章讨论空中冒险中的祈祷、信仰和飞行坐骑，强调空战不应只是把地面移动速度换成更大的数字。高度、风向、失速、乘骑者的控制、坐骑的疲劳以及施法时的稳定性都会改变结果。",
+    "sourceFile": "manuscript/dragon/124/topics/tool-on-a-wing-and-a-prayer.md"
+  },
+  {
+    "book": "dragon-124",
+    "slug": "tool-sailors-on-the-sea-of-air",
+    "title": "空之海的水手",
+    "titleEn": "Sailors On the Sea of Air",
+    "group": "Dragon",
+    "excerpt": "文章把空中航行当作真正的航海来处理：飞行船需要舵手、观察员、帆索或动力装置、维修人员和明确的值班轮换。风暴、云墙、空中生物、补给和导航错误都会成为旅行中的事件。",
+    "sourceFile": "manuscript/dragon/124/topics/tool-sailors-on-the-sea-of-air.md"
+  },
+  {
     "book": "dragon-126",
     "slug": "bestiary",
     "title": "怪物志",
     "titleEn": "Hearts of Darkness",
     "group": "Dragon",
-    "excerpt": "巴欧班希吸血妖外表像年轻美丽的女子，夜间出没，诱骗活人供自己吸血。它属于低等恶魔，牧师尝试驱散时按“特殊”类别处理。它会使用魅惑人类、锐耳术、建议术、魅影之力和传送术，设法让目标自愿靠近并接受触碰。",
+    "excerpt": "巴欧班希吸血妖外表像年轻美丽的女子，夜间出没，诱骗活人供自己吸血。它属于低等恶魔，牧师尝试驱散时按“特殊”类别处理。它会使用魅惑人类、锐耳术、建议术、幻影之力和传送术，设法让目标自愿靠近并接受触碰。",
     "sourceFile": "manuscript/dragon/126/topics/bestiary.md"
   },
   {
@@ -13473,6 +14454,78 @@
     "sourceFile": "manuscript/dragon/127/topics/new-spells.md"
   },
   {
+    "book": "dragon-127",
+    "slug": "no-quarter",
+    "title": "不给余地",
+    "titleEn": "No Quarter!",
+    "group": "Dragon",
+    "excerpt": "文章讨论战斗中的投降、俘虏和“不留活口”命令。是否接受投降取决于敌人的信誉、战争传统、阵营、俘虏价值和队伍当前的资源；一次宽恕可能建立声望，也可能放走未来的敌人。",
+    "sourceFile": "manuscript/dragon/127/topics/no-quarter.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "children-of-the-spider-goddess",
+    "title": "蜘蛛女神之子",
+    "titleEn": "Children Of the Spider Goddess",
+    "group": "Dragon",
+    "excerpt": "卓尔把自己看作在最危险的环境中生存并建立文明的精灵。其核心性格是骄傲：即使是最卑微的乞丐，也会以流亡王子的姿态面对外族；卓尔对自己、家族和种族的成就都感到骄傲，并以细致、优美、长久的工艺追求证明自身优越。",
+    "sourceFile": "manuscript/dragon/129/topics/children-of-the-spider-goddess.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "demihuman-adjustments",
+    "title": "半人类属性生成",
+    "titleEn": "Give Demi-Humans an Even Break!",
+    "group": "Dragon",
+    "excerpt": "作者认为，半人类的低等级生存优势和较长寿命，被职业数量少、等级上限低以及《Unearthed Arcana》只允许人类采用较高属性生成法抵消，结果长期战役仍会由人类角色主导。本文提出一套新的半人类属性生成法。",
+    "sourceFile": "manuscript/dragon/129/topics/demihuman-adjustments.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "halfling-guardians",
+    "title": "半身人守卫者",
+    "titleEn": "Don't Sell Them Short!",
+    "group": "Dragon",
+    "excerpt": "半身人守卫者是罕见的战士子职业，兼有特殊能力和牧师法术。战时他们指挥半身人战士，和平时期负责巡逻、治安和处理危险事务；一个普通半身人社区大约每25名半身人有一名守卫者，单个社区最多十名。守护神是守卫者阿沃林，守卫者必须尊重其牧师，并会协助地方治安官和半身人教会。",
+    "sourceFile": "manuscript/dragon/129/topics/halfling-guardians.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "iceling",
+    "title": "冰灵",
+    "titleEn": "Dragon's Bestiary, The",
+    "group": "Dragon",
+    "excerpt": "冰灵是冰位面的低阶居民，偶尔会从位面节点穿入主物质位面，通常出现在冰川或其他冰雪区域。它们是身高约等于人类的三径生物，拥有三条手臂、三条腿和六边形身体；头部也有六面，每一面各有一只明亮的眼睛，顶部呈钝尖金字塔形。它们完全由浑浊的冰构成。",
+    "sourceFile": "manuscript/dragon/129/topics/iceling.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "magic-of-dwarven-priests",
+    "title": "矮人牧师的魔法",
+    "titleEn": "Arcane Lore: Magic of the Dwarven Priests",
+    "group": "Dragon",
+    "excerpt": "矮人牧师在矮人社会中拥有独特地位，因为矮人通常只有牧师这一施法职业。高阶牧师负责保存历史和艺术、制作魔法物品与武器、祝圣土地、建立新居所、寻找矿产资源以及保卫家园；他们也可能是贤者、工匠、医师或战士祭司。",
+    "sourceFile": "manuscript/dragon/129/topics/magic-of-dwarven-priests.md"
+  },
+  {
+    "book": "dragon-129",
+    "slug": "tool-who-s-in-charge-here",
+    "title": "这里谁说了算？",
+    "titleEn": "Who's In Charge Here?",
+    "group": "Dragon",
+    "excerpt": "文章讨论冒险队、雇佣兵、船员、家族和临时联盟中的领导权。真正的领导不只是最高等级或最高魅力，还包括谁掌握目标、资源、情报、薪酬和最终责任。",
+    "sourceFile": "manuscript/dragon/129/topics/tool-who-s-in-charge-here.md"
+  },
+  {
+    "book": "dragon-130",
+    "slug": "alchemist",
+    "title": "炼金术士",
+    "titleEn": "Better Living Through Alchemy",
+    "group": "Dragon",
+    "excerpt": "炼金术士是魔法使用者的子职业，专门制造魔法和普通药剂、粉末、液体、毒药、解毒剂和墨水。大城市通常能找到炼金术士，小城镇和村庄有15%的机会出现，作为冒险者遇到炼金术士的机会只有5%。其最终目标通常是找到或制造贤者之石，用来把普通金属变成黄金、延长寿命并探索生命奥秘。",
+    "sourceFile": "manuscript/dragon/130/topics/alchemist.md"
+  },
+  {
     "book": "dragon-132",
     "slug": "new-spells",
     "title": "毒蛇之噬",
@@ -13482,6 +14535,33 @@
     "sourceFile": "manuscript/dragon/132/topics/new-spells.md"
   },
   {
+    "book": "dragon-133",
+    "slug": "berserker",
+    "title": "狂战士",
+    "titleEn": "Wild Warriors, The",
+    "group": "Dragon",
+    "excerpt": "狂战士是以维京狂战传统为基础的战士子职业，专注直接战斗，牺牲防御计划和生存技能换取狂暴攻击。他们常住在野蛮人社区或类人生物部落，偶尔成群在乡间寻找战斗。力量和体质各至少15，感知、魅力和外貌不得超过9；不能多职业。",
+    "sourceFile": "manuscript/dragon/133/topics/berserker.md"
+  },
+  {
+    "book": "dragon-133",
+    "slug": "nereis",
+    "title": "沙蚕",
+    "titleEn": "Dragon's Bestiary, The",
+    "group": "Dragon",
+    "excerpt": "沙蚕在碎屑、松散沙土或泥中建造黏液管，从管内伸出捕食。受到威胁时会迅速缩入管道深处，变得无法被击中；否则会尝试游走，只有被逼入绝境才战斗。1至2生命骰的沙蚕用一对颚造成1d4伤害，3至4生命骰者造成1d6伤害。",
+    "sourceFile": "manuscript/dragon/133/topics/nereis.md"
+  },
+  {
+    "book": "dragon-133",
+    "slug": "pectinaria",
+    "title": "冰淇淋筒虫",
+    "titleEn": "Dragon's Bestiary, The",
+    "group": "Dragon",
+    "excerpt": "冰淇淋筒虫会把小石子粘成可携带的圆锥形管，最长5英尺、管口宽约2至2.5英尺。它头朝下生活在沙中，只有圆锥顶部约1英尺露出地面，用金色扇形刚毛筛过沙子并摄取有机碎屑。",
+    "sourceFile": "manuscript/dragon/133/topics/pectinaria.md"
+  },
+  {
     "book": "dragon-134",
     "slug": "ecology",
     "title": "红龙的生态与追踪能力",
@@ -13489,6 +14569,24 @@
     "group": "Dragon",
     "excerpt": "红龙专题的选用细则，叙事主角Pyre的个人爱好不视为所有红龙共同能力。特别强调龙的经验、警觉、巢穴机关与对财宝的利用，不将其仅视为固定生命值的目标。",
     "sourceFile": "manuscript/dragon/134/topics/ecology.md"
+  },
+  {
+    "book": "dragon-134",
+    "slug": "give-dragons-a-fighting-chance",
+    "title": "给龙一个战斗机会",
+    "titleEn": "Give Dragons a Fighting Chance",
+    "group": "Dragon",
+    "excerpt": "文章建议让龙在遭遇中保持主动：它们会侦察、选择地形、利用飞行、准备退路、保护巢穴并针对队伍中最危险的施法者。龙不必等角色走进房间后才开始战斗。",
+    "sourceFile": "manuscript/dragon/134/topics/give-dragons-a-fighting-chance.md"
+  },
+  {
+    "book": "dragon-134",
+    "slug": "ichthyodrake",
+    "title": "鱼龙",
+    "titleEn": "Dragon's Bestiary, The",
+    "group": "Dragon",
+    "excerpt": "鱼龙是海中最大、最凶猛的捕食者之一，深绿色身体像巨鱼，头部却是龙头。它似乎是古龙的远亲，拥有龙类的年龄阶段、感官和侦测能力、恐惧气场及豁免加值，但没有红外视觉；它不会说话、使用魔法，也从不真正睡眠。它无法被驯服、贿赂或奉承。",
+    "sourceFile": "manuscript/dragon/134/topics/ichthyodrake.md"
   },
   {
     "book": "dragon-134",
@@ -13509,6 +14607,24 @@
     "sourceFile": "manuscript/dragon/135/topics/magic-items.md"
   },
   {
+    "book": "dragon-135",
+    "slug": "mix-match-module-the",
+    "title": "混搭模块",
+    "titleEn": "Mix & Match Module, The",
+    "group": "Dragon",
+    "excerpt": "文章建议把不同冒险模块中的地点、NPC、怪物和剧情钩子拆开重组，而不是照顺序连跑。模块应先按等级、环境、主题和主要冲突分类，再用共同的道路、组织或幕后敌人把它们串起来。",
+    "sourceFile": "manuscript/dragon/135/topics/mix-match-module-the.md"
+  },
+  {
+    "book": "dragon-136",
+    "slug": "merchant",
+    "title": "商人",
+    "titleEn": "Taking Care of Business",
+    "group": "Dragon",
+    "excerpt": "商人是城市和文明社会最常见的NPC之一，从小杂货店店员、盗贼公会销赃人、宝石商到开辟贸易路线的商人王子都属于这一职业。商人控制财富和商品流通，适合用作NPC；前冒险者改行时，旧职业能力直到商人等级超过旧职业等级前都不能使用，否则会失去近期积累的经验。商人不能多职业。",
+    "sourceFile": "manuscript/dragon/136/topics/merchant.md"
+  },
+  {
     "book": "dragon-136",
     "slug": "new-spells",
     "title": "充能术",
@@ -13516,6 +14632,15 @@
     "group": "Dragon",
     "excerpt": "魔法师四环、幻术师六环。施法者始终手持物品并亲自施放后续充能法术；须知道命令词，且物品本身能再充能。材料为一立方英寸的物品基本材质及聚焦用蓝宝石，另备后续法术的材料。",
     "sourceFile": "manuscript/dragon/136/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-136",
+    "slug": "tool-long-arm-of-the-law-the",
+    "title": "法律的长臂",
+    "titleEn": "Long Arm of the Law, The",
+    "group": "Dragon",
+    "excerpt": "文章为城镇和王国设计执法体系，包括巡逻、告密者、地方官、证据、逮捕、审讯、监狱和跨地区追捕。法律不是一条抽象惩罚，而是由有资源、有偏见、会犯错的人执行。",
+    "sourceFile": "manuscript/dragon/136/topics/tool-long-arm-of-the-law-the.md"
   },
   {
     "book": "dragon-137",
@@ -13545,6 +14670,15 @@
     "sourceFile": "manuscript/dragon/137/topics/hunting.md"
   },
   {
+    "book": "dragon-137",
+    "slug": "tool-fairest-of-the-fairs-the",
+    "title": "最公平的集市",
+    "titleEn": "Fairest of the Fairs, The",
+    "group": "Dragon",
+    "excerpt": "文章提供一个可直接放入城镇或旅行路线的集市框架：摊主、艺人、竞赛者、骗子、守卫和临时设施共同形成一个会移动、会变化的社会场景。集市的价值不只在买卖，也在于让角色获得消息、结识盟友和卷入纠纷。",
+    "sourceFile": "manuscript/dragon/137/topics/tool-fairest-of-the-fairs-the.md"
+  },
+  {
     "book": "dragon-138",
     "slug": "bestiary",
     "title": "怪物志",
@@ -13564,6 +14698,15 @@
   },
   {
     "book": "dragon-139",
+    "slug": "new-improved-druid-the",
+    "title": "全新的改良德鲁伊",
+    "titleEn": "New, Improved Druid, The",
+    "group": "Dragon",
+    "excerpt": "文章提出德鲁伊的进阶与高阶组织规则：德鲁伊据点、长老与大德鲁伊之间应有明确的辖区、继承和年度报告关系。高等级德鲁伊可以获得更强的动物形态选择，并在更大体型范围内使用变形能力。",
+    "sourceFile": "manuscript/dragon/139/topics/new-improved-druid-the.md"
+  },
+  {
+    "book": "dragon-139",
     "slug": "new-spells",
     "title": "气束术",
     "titleEn": "Ecology of the Spectator, The",
@@ -13573,12 +14716,30 @@
   },
   {
     "book": "dragon-140",
+    "slug": "fantasy-clerics-and-clerical-fallacies",
+    "title": "幻想世界的牧师与牧师迷思",
+    "titleEn": "Fantasy Clerics and Clerical Fallacies",
+    "group": "Dragon",
+    "excerpt": "文章指出，村民并不会因为世界上存在治疗法术就自动享有现代医疗。低等级牧师数量有限，治病、解毒、复活和高阶治疗所需等级很高，而且真正能施法的牧师常常离开村庄冒险以提升等级。",
+    "sourceFile": "manuscript/dragon/140/topics/fantasy-clerics-and-clerical-fallacies.md"
+  },
+  {
+    "book": "dragon-140",
     "slug": "new-spells",
     "title": "重施法术（博学者版）",
     "titleEn": "Savant, The",
     "group": "Dragon",
     "excerpt": "让博学者重施任意一个先前已施放的博学者法术。施法时间为该法术原时间再加一时段；若原法术需要材料，仍须备齐。不能把“任意先前法术”扩展为别的职业法术。",
     "sourceFile": "manuscript/dragon/140/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-140",
+    "slug": "roll-on",
+    "title": "继续掷骰！",
+    "titleEn": "Roll On!",
+    "group": "Dragon",
+    "excerpt": "“Roll On!”介绍第五种扩展随机表的用法：当已有随机表无法覆盖某个场景时，先把问题拆成互相独立的维度，再为每一维建立一个短表，而不是把所有可能结果塞进一张巨大表格。",
+    "sourceFile": "manuscript/dragon/140/topics/roll-on.md"
   },
   {
     "book": "dragon-140",
@@ -13599,6 +14760,24 @@
     "sourceFile": "manuscript/dragon/141/topics/bestiary.md"
   },
   {
+    "book": "dragon-141",
+    "slug": "boulder-throwers-and-humanoid-hordes",
+    "title": "投石者与类人生物大军",
+    "titleEn": "Boulder-Throwers and Humanoid Hordes",
+    "group": "Dragon",
+    "excerpt": "文章为类人生物部落使用投石、简易抛射器和大型石块提供战术规则。投石者需要准备时间、足够的石料、视野和高地；大军的威胁来自数量、协同与持续投射，而不是每个小兵都拥有精确的单体攻击。",
+    "sourceFile": "manuscript/dragon/141/topics/boulder-throwers-and-humanoid-hordes.md"
+  },
+  {
+    "book": "dragon-141",
+    "slug": "orcs-throw-spells-too",
+    "title": "兽人也会施法！",
+    "titleEn": "Orcs Throw Spells, Too!",
+    "group": "Dragon",
+    "excerpt": "文章提醒主持人，兽人部落并不只有拿斧头冲锋的战士。部落可以拥有萨满、术士、受神祇庇护的战斗祭司和懂得有限法术的首领，并把法术与鼓舞、恐吓、图腾和战利品结合起来。",
+    "sourceFile": "manuscript/dragon/141/topics/orcs-throw-spells-too.md"
+  },
+  {
     "book": "dragon-142",
     "slug": "new-spells",
     "title": "德鲁伊视界",
@@ -13606,6 +14785,15 @@
     "group": "Dragon",
     "excerpt": "透过一只动物的眼睛，以该动物的感官方式观察。宠物或受召动物等友好目标无须豁免，普通动物正常豁免；魔宠、变形与变身生物不能作为目标。",
     "sourceFile": "manuscript/dragon/142/topics/new-spells.md"
+  },
+  {
+    "book": "dragon-143",
+    "slug": "tool-to-be-continued",
+    "title": "未完待续……",
+    "titleEn": "To Be Continued...",
+    "group": "Dragon",
+    "excerpt": "文章讨论如何把大型战役设计成有阶段、有回响的连续故事。每个阶段应解决一个局部问题，同时留下人物、地点、敌人或承诺，让下一段冒险自然发生。",
+    "sourceFile": "manuscript/dragon/143/topics/tool-to-be-continued.md"
   },
   {
     "book": "dragon-144",
@@ -13664,11 +14852,20 @@
   {
     "book": "dragon-147",
     "slug": "magic-items",
-    "title": "惊异魔杖：三种扩展表",
+    "title": "奇迹魔杖：三种扩展表",
     "titleEn": "WOW Your Players",
     "group": "Dragon",
-    "excerpt": "在通常惊异魔杖 I 表之外，增添 II、III、IV 三表。每次发动耗一充能，不可再充能；主持人以 d4 选魔杖类型，再掷 d100 定效果。也可让同一支魔杖每次先掷 d4 再选当次效果表，主持人应秘密掷骰与记录充能。",
+    "excerpt": "在通常奇迹魔杖 I 表之外，增添 II、III、IV 三表。每次发动耗一充能，不可再充能；主持人以 d4 选魔杖类型，再掷 d100 定效果。也可让同一支魔杖每次先掷 d4 再选当次效果表，主持人应秘密掷骰与记录充能。",
     "sourceFile": "manuscript/dragon/147/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-147",
+    "slug": "tool-getting-familiar",
+    "title": "与魔宠熟悉起来",
+    "titleEn": "Getting Familiar",
+    "group": "Dragon",
+    "excerpt": "文章从魔宠与主人的关系入手，建议为魔宠建立名字、习惯、喜恶和与主人相遇的经历。魔宠会根据信任程度理解命令，也会对陌生环境、敌意生物和长期忽视作出反应。",
+    "sourceFile": "manuscript/dragon/147/topics/tool-getting-familiar.md"
   },
   {
     "book": "dragon-148",
@@ -13714,6 +14911,51 @@
     "group": "Dragon",
     "excerpt": "灵吸怪母星以及被它们充分殖民的地下区域，常有三类伴生生物：无定形生物、真菌，以及包括灵吸怪自身在内的灵吸怪近亲群。无定形生物在这些世界中分布广泛，但不同种类的活动区域往往不重叠；大多数有智慧的无定形生物与灵吸怪互相回避。灵吸怪不以它们为食，可能因为它们并不可口。",
     "sourceFile": "manuscript/dragon/150/topics/illithidae.md"
+  },
+  {
+    "book": "dragon-151",
+    "slug": "wang-liang",
+    "title": "罔两",
+    "titleEn": "Dragon's Bestiary, The",
+    "group": "Dragon",
+    "excerpt": "罔两与食人魔法师关系密切，寿命约两千年，拥有高度智慧和独特魔法。他们对人类抱有不可调和的敌意，很少放过杀害、伤害、羞辱或恐吓人类的机会；他们彼此之间却不以残酷相待，且会偿还债务、遵守承诺。若非人类种族与人类同行，他们也会被当成人类对待；单独遇到非人类时，罔两通常不主动敌对。",
+    "sourceFile": "manuscript/dragon/151/topics/wang-liang.md"
+  },
+  {
+    "book": "dragon-152",
+    "slug": "servants-of-the-jewelled-dagger",
+    "title": "宝石匕首的仆从",
+    "titleEn": "Servants of the Jewelled Dagger",
+    "group": "Dragon",
+    "excerpt": "文章描写灰矮人的生活与习惯，强调他们与地表矮人的共同祖源，以及在幽暗地域长期隔绝、缺乏食物和持续劳作造成的体格与心理差异。灰矮人社会以氏族为单位，氏族忠诚、资源控制和奴役制度构成其社会基础。",
+    "sourceFile": "manuscript/dragon/152/topics/servants-of-the-jewelled-dagger.md"
+  },
+  {
+    "book": "dragon-153",
+    "slug": "following-in-their-footsteps",
+    "title": "追随他们的脚步",
+    "titleEn": "Following In Their Footsteps",
+    "group": "Dragon",
+    "excerpt": "文章以希腊诸神及其牧师为例，说明同一神系中的教派如何通过神话、禁忌、性别要求、武器偏好和训练内容产生差异。宙斯、波塞冬、雅典娜、阿瑞斯、阿尔忒弥斯等神祇的牧师不应只是同一套牧师法术表换个名字。",
+    "sourceFile": "manuscript/dragon/153/topics/following-in-their-footsteps.md"
+  },
+  {
+    "book": "dragon-153",
+    "slug": "your-place-in-the-grand-scheme",
+    "title": "你在宏大秩序中的位置",
+    "titleEn": "Your Place In the Grand Scheme",
+    "group": "Dragon",
+    "excerpt": "文章建议主持人与玩家先确定善、恶、秩序、混沌和诸神在世界中的地位，再决定牧师的神学、阵营和职责。要回答的问题包括诸神是否创造世界、是否主动干涉凡间、阵营是宇宙力量还是行为分类，以及凡人与神祇如何建立契约。",
+    "sourceFile": "manuscript/dragon/153/topics/your-place-in-the-grand-scheme.md"
+  },
+  {
+    "book": "dragon-159",
+    "slug": "battle-dancer",
+    "title": "战斗舞者",
+    "titleEn": "Rhythm Warriors",
+    "group": "Dragon",
+    "excerpt": "战斗舞者是把卡波耶拉的舞蹈、音乐和徒手战斗结合起来的职业。其力量来自持续练习、节奏和社群关系，角色在战斗中以旋转、翻腾、倒立、闪避和低位攻击移动，而不是依靠护甲或传统武器。",
+    "sourceFile": "manuscript/dragon/159/topics/battle-dancer.md"
   },
   {
     "book": "dragon-169",

@@ -1,6 +1,16 @@
 [
   {
     "category": "class",
+    "en": "Accountant",
+    "zh": "会计师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-048-rule-character-that-really-counts-a"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Alchemist",
     "zh": "炼金师",
     "aliases": [],
@@ -24,6 +34,26 @@
     "aliases": [],
     "status": "pending",
     "ids": []
+  },
+  {
+    "category": "class",
+    "en": "Alchemist NPC class",
+    "zh": "炼金术士",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-130-class-alchemist-npc-class"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Anti-Paladin",
+    "zh": "反圣武士",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-039-class-anti-paladin"
+    ]
   },
   {
     "category": "class",
@@ -53,6 +83,16 @@
     "status": "pending",
     "ids": [
       "dragon-045-class-astrologer"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Bandit",
+    "zh": "强盗",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-063-class-bandit"
     ]
   },
   {
@@ -89,12 +129,32 @@
   },
   {
     "category": "class",
+    "en": "Battle Dancer",
+    "zh": "战斗舞者",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-159-class-battle-dancer"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Beastmaster",
     "zh": "驭兽师",
     "aliases": [],
     "status": "pending",
     "ids": [
       "dragon-119-class-beastmaster"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Berserker",
+    "zh": "狂战士",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-133-class-berserker"
     ]
   },
   {
@@ -129,6 +189,16 @@
   },
   {
     "category": "class",
+    "en": "Charlatan NPC class",
+    "zh": "骗子",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-120-class-charlatan-npc-class"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Cleric",
     "zh": "牧师",
     "aliases": [],
@@ -159,6 +229,26 @@
   },
   {
     "category": "class",
+    "en": "Druid/Ranger class",
+    "zh": "德鲁伊／巡林客",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-100-class-druid-ranger-class"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Duelist",
+    "zh": "决斗家",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-073-class-duelist"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Elven Cavalier",
     "zh": "精灵骑士（Booth方案）",
     "aliases": [],
@@ -177,12 +267,72 @@
   },
   {
     "category": "class",
+    "en": "Geisya, The",
+    "zh": "艺伎",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-rule-geisya-the"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Genin: Ninja subclass",
+    "zh": "下忍",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-class-genin-ninja-subclass"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Halfling Guardian",
+    "zh": "半身人守卫者",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-rule-don-t-sell-them-short"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Illusionist",
     "zh": "幻术师",
     "aliases": [],
     "status": "pending",
     "ids": [
       "illusionist"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Incantatrix",
+    "zh": "咒法师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-090-class-incantatrix-npc-class"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Jester",
+    "zh": "小丑",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-060-class-jester"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Jock",
+    "zh": "运动健将",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-072-class-jock"
     ]
   },
   {
@@ -217,6 +367,26 @@
   },
   {
     "category": "class",
+    "en": "Mariner",
+    "zh": "航海家",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-107-class-mariner"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Merchant",
+    "zh": "商人",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-136-class-merchant"
+    ]
+  },
+  {
+    "category": "class",
     "en": "Monk",
     "zh": "武僧",
     "aliases": [
@@ -236,6 +406,16 @@
     "status": "pending",
     "ids": [
       "oa-ninja"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Oracle",
+    "zh": "预言师",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-053-class-oracle"
     ]
   },
   {
@@ -318,6 +498,16 @@
     "status": "pending",
     "ids": [
       "dla-tinker"
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Witch",
+    "zh": "女巫",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-114-class-witch"
     ]
   },
   {
@@ -12239,12 +12429,15 @@
   {
     "category": "monster",
     "en": "Abishai",
-    "zh": "阿比沙魔",
+    "zh": "阿比沙魔（五色）",
     "aliases": [
+      "阿比沙魔",
       "阿比沙魔 ·"
     ],
     "status": "pending",
-    "ids": []
+    "ids": [
+      "dragon-075-monster-abishai"
+    ]
   },
   {
     "category": "monster",
@@ -12405,12 +12598,32 @@
   },
   {
     "category": "monster",
+    "en": "Amazon",
+    "zh": "亚马逊人",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-043-monster-amazon"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Ambelodon",
     "zh": "铲齿象",
     "aliases": [],
     "status": "pending",
     "ids": [
       "dragon-137-monster-ambelodon"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Amitok",
+    "zh": "阿米托克",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-amitok"
     ]
   },
   {
@@ -12979,6 +13192,16 @@
   },
   {
     "category": "monster",
+    "en": "Baltir",
+    "zh": "巴尔提尔",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-086-monster-baltir"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Baluchitherium",
     "zh": "巴卢奇兽",
     "aliases": [],
@@ -13334,6 +13557,16 @@
     "status": "pending",
     "ids": [
       "dragon-094-monster-bhaergala"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Bichir",
+    "zh": "比奇尔",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-bichir"
     ]
   },
   {
@@ -13906,6 +14139,16 @@
     "status": "pending",
     "ids": [
       "dragon-101-monster-burbur"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Bushdog",
+    "zh": "灌木犬",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-102-monster-bushdog"
     ]
   },
   {
@@ -14591,6 +14834,16 @@
   },
   {
     "category": "monster",
+    "en": "Cryoserpent",
+    "zh": "冰寒巨蛇",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-044-monster-cryoserpent"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Crypt Thing",
     "zh": "墓穴怪",
     "aliases": [
@@ -14643,6 +14896,16 @@
     "status": "pending",
     "ids": [
       "gha-crystalmist"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Curst",
+    "zh": "诅咒者",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-030-monster-curst"
     ]
   },
   {
@@ -14895,6 +15158,16 @@
     "aliases": [],
     "status": "pending",
     "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Demonic Knights of Doom",
+    "zh": "毁灭骑士",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-059-monster-knights-of-doom"
+    ]
   },
   {
     "category": "monster",
@@ -15770,6 +16043,16 @@
   },
   {
     "category": "monster",
+    "en": "Fachan",
+    "zh": "法坎",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-fachan"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Faerie Dragon",
     "zh": "妖精龙",
     "aliases": [
@@ -15809,6 +16092,23 @@
     "status": "pending",
     "ids": [
       "mm2-farastu"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Featured Creatures",
+    "zh": "精选生物：天使族",
+    "aliases": [
+      "怪物志",
+      "核心生物",
+      "精选生物：善良外层生物补遗",
+      "精选生物：星界使者"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-063-rule-featured-creatures",
+      "dragon-064-rule-featured-creatures",
+      "dragon-066-rule-featured-creatures"
     ]
   },
   {
@@ -15931,6 +16231,16 @@
   },
   {
     "category": "monster",
+    "en": "Firetail",
+    "zh": "火尾灵",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-061-monster-firetail"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Firetoad",
     "zh": "火蟾蜍",
     "aliases": [
@@ -15956,12 +16266,32 @@
   },
   {
     "category": "monster",
+    "en": "Flailtail",
+    "zh": "鞭尾兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-flailtail"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Flamewing",
     "zh": "焰翼兽",
     "aliases": [],
     "status": "pending",
     "ids": [
       "dragon-094-monster-flamewing"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Flard",
+    "zh": "弗拉德",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-047-monster-flard"
     ]
   },
   {
@@ -15985,6 +16315,16 @@
     "status": "verified-exact",
     "ids": [
       "ff-flind"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Flitte",
+    "zh": "闪灭兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-040-monster-flitte"
     ]
   },
   {
@@ -16366,6 +16706,16 @@
   },
   {
     "category": "monster",
+    "en": "Ghuuna",
+    "zh": "古纳",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-ghuuna"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Giant",
     "zh": "巨人",
     "aliases": [
@@ -16647,6 +16997,16 @@
   },
   {
     "category": "monster",
+    "en": "Giant Vampire Frog",
+    "zh": "巨型吸血蛙",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-050-monster-giant-vampire-frog"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Gibbering Mouther",
     "zh": "呓语之口",
     "aliases": [
@@ -16901,6 +17261,18 @@
   },
   {
     "category": "monster",
+    "en": "Goristro",
+    "zh": "巨牛魔",
+    "aliases": [
+      "戈里斯特罗"
+    ],
+    "status": "verified-exact",
+    "ids": [
+      "dragon-091-rule-goristro-revealed-the"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Gray Dragon",
     "zh": "灰龙",
     "aliases": [],
@@ -16941,6 +17313,16 @@
     "status": "pending",
     "ids": [
       "dragon-138-monster-great-callicantzaros"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Great Vrykolakas",
+    "zh": "大弗里科拉卡斯",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-126-monster-vrykolakas-great"
     ]
   },
   {
@@ -17373,6 +17755,16 @@
   },
   {
     "category": "monster",
+    "en": "Hawk / Falcon",
+    "zh": "鹰／隼",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-066-monster-falcon"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Hawkdragon",
     "zh": "鹰龙",
     "aliases": [],
@@ -17739,6 +18131,16 @@
   },
   {
     "category": "monster",
+    "en": "Ice Golem",
+    "zh": "冰魔像",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-044-monster-ice-golem"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Ice Lizard",
     "zh": "冰蜥蜴",
     "aliases": [
@@ -17759,6 +18161,36 @@
     "status": "verified-exact",
     "ids": [
       "ff-ice-troll"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Iceling",
+    "zh": "冰灵",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-monster-iceling"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Ichthyodrake",
+    "zh": "鱼龙",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-134-monster-ichthyodrake"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Ihagnim",
+    "zh": "伊哈格尼姆",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-ihagnim"
     ]
   },
   {
@@ -18294,6 +18726,18 @@
     "status": "verified-exact",
     "ids": [
       "ff-kuo-toa"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Kzinti",
+    "zh": "克津提",
+    "aliases": [
+      "怪物志"
+    ],
+    "status": "pending",
+    "ids": [
+      "dragon-050-monster-kzinti"
     ]
   },
   {
@@ -19351,6 +19795,26 @@
   },
   {
     "category": "monster",
+    "en": "Nalg",
+    "zh": "纳尔格",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-086-monster-nalg"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Narra",
+    "zh": "纳拉",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-053-monster-narra"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Narwhale",
     "zh": "独角鲸",
     "aliases": [
@@ -19409,6 +19873,16 @@
   },
   {
     "category": "monster",
+    "en": "Nemeian Lion",
+    "zh": "涅墨亚狮",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-058-monster-nemeian-lion"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Neo-Otyugh",
     "zh": "新奥图格",
     "aliases": [
@@ -19430,6 +19904,26 @@
     "status": "verified-exact",
     "ids": [
       "mm2-nereid"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Nereis",
+    "zh": "沙蚕",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-133-monster-nereis"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Ngojama",
+    "zh": "恩戈贾玛",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-122-monster-ngojama"
     ]
   },
   {
@@ -19546,6 +20040,16 @@
   },
   {
     "category": "monster",
+    "en": "Nonservus",
+    "zh": "非侍魔",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-120-monster-nonservus"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Norker",
     "zh": "诺克",
     "aliases": [
@@ -19581,6 +20085,16 @@
   },
   {
     "category": "monster",
+    "en": "Nunda",
+    "zh": "恩达猫",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-122-monster-nunda"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Nupperibo",
     "zh": "臃肿魔",
     "aliases": [
@@ -19610,6 +20124,16 @@
     "status": "pending",
     "ids": [
       "nymph"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Nzefu-Loi",
+    "zh": "恩泽富-洛伊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-122-monster-nzefu-loi"
     ]
   },
   {
@@ -20042,6 +20566,16 @@
   },
   {
     "category": "monster",
+    "en": "Pectinaria",
+    "zh": "冰淇淋筒虫",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-133-monster-pectinaria"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Pedipalp",
     "zh": "无尾鞭蝎",
     "aliases": [
@@ -20060,6 +20594,26 @@
     "status": "verified-exact",
     "ids": [
       "pegasus"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Pelins",
+    "zh": "气囊兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-052-monster-pelins"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Peltast",
+    "zh": "皮革寄生兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-peltast"
     ]
   },
   {
@@ -20107,6 +20661,16 @@
     "status": "pending",
     "ids": [
       "ff-pernicon"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Pernicon (revised)",
+    "zh": "佩尼科虫（修订版）",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-108-monster-pernicon-revised"
     ]
   },
   {
@@ -21592,6 +22156,26 @@
   },
   {
     "category": "monster",
+    "en": "Shroom",
+    "zh": "蘑菇兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-056-monster-shroom"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Silkie",
+    "zh": "塞尔基",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-041-monster-silkie"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Silver Dragon",
     "zh": "银龙",
     "aliases": [],
@@ -21617,6 +22201,26 @@
     ],
     "status": "pending",
     "ids": []
+  },
+  {
+    "category": "monster",
+    "en": "Silwane-Manzi",
+    "zh": "西尔瓦内-曼齐",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-122-monster-silwane-manzi"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Sind",
+    "zh": "辛德",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-sind"
+    ]
   },
   {
     "category": "monster",
@@ -23169,6 +23773,16 @@
   },
   {
     "category": "monster",
+    "en": "Vilkonnar",
+    "zh": "维尔科纳",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-034-monster-vilkonnar"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Vilstrak",
     "zh": "岩窟暴徒",
     "aliases": [
@@ -23187,6 +23801,16 @@
     "status": "pending",
     "ids": [
       "dragon-094-monster-viltch"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Virtues",
+    "zh": "德行天使",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-035-monster-virtues"
     ]
   },
   {
@@ -23239,6 +23863,16 @@
   },
   {
     "category": "monster",
+    "en": "Volheller",
+    "zh": "沃赫勒",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-108-monster-volheller"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Volt",
     "zh": "伏特电怪",
     "aliases": [
@@ -23273,6 +23907,16 @@
   },
   {
     "category": "monster",
+    "en": "Vrykolakas",
+    "zh": "弗里科拉卡斯",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-126-monster-vrykolakas"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Vulchling",
     "zh": "秃鹫人",
     "aliases": [
@@ -23291,7 +23935,29 @@
       "秃鹫 ·"
     ],
     "status": "verified-exact",
-    "ids": []
+    "ids": [
+      "dragon-066-monster-vulture"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Vulturehounds",
+    "zh": "秃鹫猎犬",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-037-monster-vulturehounds"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Vurgen",
+    "zh": "吞噬兽",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-089-monster-vurgen"
+    ]
   },
   {
     "category": "monster",
@@ -23335,6 +24001,16 @@
   },
   {
     "category": "monster",
+    "en": "Wang-Liang",
+    "zh": "罔两",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-151-monster-wang-liang"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Wasp, Giant",
     "zh": "巨型黄蜂",
     "aliases": [],
@@ -23362,6 +24038,16 @@
     "status": "verified-exact",
     "ids": [
       "water-weird"
+    ]
+  },
+  {
+    "category": "monster",
+    "en": "Water-Horse",
+    "zh": "水马",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-048-monster-water-horse"
     ]
   },
   {
@@ -26856,6 +27542,16 @@
   },
   {
     "category": "spell",
+    "en": "Blazing Sword",
+    "zh": "炽焰之剑",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-blazing-sword"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Bless",
     "zh": "祝福术",
     "aliases": [
@@ -26998,6 +27694,26 @@
     "status": "pending",
     "ids": [
       "oa-calm"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Candletrick",
+    "zh": "烛火戏法",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-candletrick"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Cantrip (Geisya)",
+    "zh": "戏法",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-cantrip-geisya"
     ]
   },
   {
@@ -27440,6 +28156,16 @@
   },
   {
     "category": "spell",
+    "en": "Commune with Earth",
+    "zh": "与大地交谈",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-commune-with-earth"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Commune with Nature",
     "zh": "问道自然",
     "aliases": [
@@ -27676,6 +28402,16 @@
     "status": "pending",
     "ids": [
       "water"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Create Machine",
+    "zh": "创造机械",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-create-machine"
     ]
   },
   {
@@ -28025,6 +28761,16 @@
   },
   {
     "category": "spell",
+    "en": "Detect Harmful Gas",
+    "zh": "探测有害气体",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-detect-harmful-gas"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Detect Illusion",
     "zh": "侦测幻象",
     "aliases": [],
@@ -28074,6 +28820,16 @@
     "ids": [
       "detect-magic",
       "detect-magic-level-2"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Detect Metal and Minerals",
+    "zh": "探测金属与矿物",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-detect-metal-and-minerals"
     ]
   },
   {
@@ -28660,6 +29416,16 @@
   },
   {
     "category": "spell",
+    "en": "Earth Sense",
+    "zh": "大地感知",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-earth-sense"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Earthquake",
     "zh": "地震术",
     "aliases": [],
@@ -28698,6 +29464,16 @@
     "status": "pending",
     "ids": [
       "enchant-an-item"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Enchant Runestones",
+    "zh": "附魔符石",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-enchant-runestones"
     ]
   },
   {
@@ -29190,6 +29966,16 @@
   },
   {
     "category": "spell",
+    "en": "Flashpuff",
+    "zh": "闪烟",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-flashpuff"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Flavor",
     "zh": "调味",
     "aliases": [],
@@ -29271,6 +30057,16 @@
     "status": "verified-exact",
     "ids": [
       "ua-magic-user-7-forcecage"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Forge Fire",
+    "zh": "锻炉之火",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-forge-fire"
     ]
   },
   {
@@ -29398,6 +30194,16 @@
   },
   {
     "category": "spell",
+    "en": "Giantsize",
+    "zh": "巨人化",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-giantsize"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Giggle",
     "zh": "咯咯笑",
     "aliases": [],
@@ -29497,6 +30303,16 @@
   },
   {
     "category": "spell",
+    "en": "Great Thump",
+    "zh": "大扇击",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-great-thump"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Grimwald’s Greymantle",
     "zh": "格里姆沃德的灰披风",
     "aliases": [],
@@ -29592,6 +30408,16 @@
     "status": "pending",
     "ids": [
       "dragon-068-spell-hand-fire"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Hand of Borogar",
+    "zh": "博罗加之手",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-hand-of-borogar"
     ]
   },
   {
@@ -29783,6 +30609,16 @@
     "status": "pending",
     "ids": [
       "fr-horn"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Humansize",
+    "zh": "人类体型化",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-humansize"
     ]
   },
   {
@@ -30141,6 +30977,16 @@
   },
   {
     "category": "spell",
+    "en": "Iron Kimono",
+    "zh": "铁和服",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-iron-kimono"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Irritation",
     "zh": "刺痒术",
     "aliases": [],
@@ -30169,6 +31015,26 @@
     "status": "pending",
     "ids": [
       "iv-monster-summoning-iv"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Jest",
+    "zh": "逗笑",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-jest"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Juggle",
+    "zh": "杂耍",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-juggle"
     ]
   },
   {
@@ -30326,6 +31192,16 @@
     "status": "verified-exact",
     "ids": [
       "lightning-bolt"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Lightning Water",
+    "zh": "雷水",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-lightning-water"
     ]
   },
   {
@@ -31044,6 +31920,16 @@
     "status": "verified-exact",
     "ids": [
       "mordenkainens-sword"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Mother Lode",
+    "zh": "母矿脉",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-mother-lode"
     ]
   },
   {
@@ -31980,6 +32866,16 @@
   },
   {
     "category": "spell",
+    "en": "Pillar of Borogar",
+    "zh": "博罗加之柱",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-pillar-of-borogar"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Plague",
     "zh": "瘟疫",
     "aliases": [],
@@ -32806,6 +33702,16 @@
   },
   {
     "category": "spell",
+    "en": "Renew Deposit",
+    "zh": "更新矿脉",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-renew-deposit"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Repel Insects",
     "zh": "驱虫术",
     "aliases": [],
@@ -32854,6 +33760,16 @@
     "status": "verified-exact",
     "ids": [
       "restoration"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Restore Earth",
+    "zh": "复原大地",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-restore-earth"
     ]
   },
   {
@@ -32929,6 +33845,16 @@
   },
   {
     "category": "spell",
+    "en": "Rune of Impregnable Defense",
+    "zh": "不可攻破防御符文",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-rune-of-impregnable-defense"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Sacred Link",
     "zh": "神圣链接",
     "aliases": [
@@ -32974,6 +33900,16 @@
     "status": "verified-exact",
     "ids": [
       "scare"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Scarf",
+    "zh": "消失围巾",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-121-spell-scarf"
     ]
   },
   {
@@ -33414,6 +34350,16 @@
     "status": "pending",
     "ids": [
       "fr-spark"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Sparkling Sword",
+    "zh": "闪光之剑",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-sparkling-sword"
     ]
   },
   {
@@ -34226,10 +35172,13 @@
     "category": "spell",
     "en": "Thump",
     "zh": "咚响",
-    "aliases": [],
+    "aliases": [
+      "扇击"
+    ],
     "status": "pending",
     "ids": [
-      "ua-magic-user-0-thump"
+      "ua-magic-user-0-thump",
+      "dragon-121-spell-thump"
     ]
   },
   {
@@ -34922,6 +35871,16 @@
     "status": "pending",
     "ids": [
       "ua-magic-user-0-warm"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Warning Shout",
+    "zh": "警告呼喊",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-129-spell-warning-shout"
     ]
   },
   {
