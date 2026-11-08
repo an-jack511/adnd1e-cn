@@ -6,8 +6,6 @@ Tracking Down the Barbarian · Dragon #148
 
 ## 野蛮人（Howery修订） Barbarian (revised)
 
-David Howery · 第 19、22、23 页
-
 本修订采用DSG与WSG的非武器熟练，调整UA野蛮人；东方冒险的野蛮人仍用原规则。
 
 资格与成长：仅人类，不得双职业；STR、CON至少15，DEX至少14，WIS不超过16，阵营须非守序。无主属性，无主属性经验加成。移动15″，语言限制、经验、生命骰及召集部众沿用UA。UA第20页各等级行动与能力也保留，以下另有修改者除外。
@@ -25,10 +23,7 @@ DEX超过14，每点使AC改善2；穿较厚重或厚重护甲时，每点只改
 <h3>新增野外熟练</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">熟练</th><th scope="col">所需槽位</th><th scope="col">检定属性</th><th scope="col">掷骰修正</th></tr></thead><tbody><tr><th scope="row">爬崖与爬树</th><td>1</td><td>DEX</td><td>0</td></tr><tr><th scope="row">远距信号</th><td>1</td><td>INT</td><td>0</td></tr><tr><th scope="row">设套</th><td>1</td><td>INT</td><td>0</td></tr></tbody></table></div>
 <h3>文化熟练与故乡地形</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">背景</th><th scope="col">直接获得的非武器熟练</th><th scope="col">故乡地形</th></tr></thead><tbody><tr><th scope="row">洞穴居民</th><td>动物知识、生火、采集、狩猎、植物知识、追踪</td><td>林木覆盖的山地或丘陵</td></tr><tr><th scope="row">沙漠部落</th><td>警觉、动物知识、耐力、生火、采集、狩猎、远距信号、奔跑、设套、沙漠生存、追踪</td><td>多山沙漠</td></tr><tr><th scope="row">森林部落</th><td>动物知识、划舟（独木舟）、捕鱼、采集、狩猎、植物知识、奔跑、设套、追踪</td><td>温带森林</td></tr><tr><th scope="row">沙漠游牧民</th><td>驯兽（马或骆驼）、方向感、陆地骑乘（马或骆驼）、远距信号、沙漠生存</td><td>亚热带沙漠</td></tr><tr><th scope="row">草原游牧民</th><td>动物管理、驯兽（马）、动物知识、生火、采集、狩猎、远距信号、植物知识、陆地骑乘（马）、追踪</td><td>温带草原</td></tr><tr><th scope="row">干草原游牧民</th><td>动物管理、动物管理（矮种马）、耐力、陆地骑乘（矮种马）、沙漠生存</td><td>荒漠草原</td></tr><tr><th scope="row">森林氏族</th><td>动物知识、爬崖与爬树、耐力、采集、狩猎、奔跑、设套、追踪</td><td>温带森林</td></tr><tr><th scope="row">高地氏族</th><td>动物管理、驾战车、爬崖与爬树、奔跑</td><td>林木覆盖的丘陵</td></tr><tr><th scope="row">海上劫掠者</th><td>划舟、方向感、耐力、捕鱼、奔跑、游泳</td><td>多山森林</td></tr><tr><th scope="row">丛林部落</th><td>动物知识、划舟（独木舟）、爬崖与爬树、狩猎、远距信号、奔跑、设套、炎热环境生存、追踪</td><td>热带雨林</td></tr><tr><th scope="row">稀树草原居民</th><td>动物管理、方向感、耐力、远距信号、奔跑、炎热环境生存</td><td>热带草原</td></tr></tbody></table></div>
 <h3>一级背景武器与部众装备</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">背景</th><th scope="col">一级背景武器</th><th scope="col">普通部众的装备比例</th></tr></thead><tbody><tr><th scope="row">洞穴居民</th><td>石制战斧、木棒、投石索</td><td>50%：矛、木棒<br>20%：投石索、木棒<br>20%：战斧<br>10%：手斧、木棒</td></tr><tr><th scope="row">沙漠部落</th><td>短复合弓、木棒</td><td>50%：短复合弓、矛、刀<br>50%：短复合弓、手斧、木棒</td></tr><tr><th scope="row">森林部落</th><td>短弓</td><td>75%：短弓、手斧<br>25%：矛、手斧</td></tr><tr><th scope="row">沙漠游牧民</th><td>弯刀、标枪或短弓</td><td>75%：弯刀、矛，并带标枪或短弓；骑战马或骆驼<br>25%：同上，另有盾</td></tr><tr><th scope="row">草原游牧民</th><td>短弓、木棒</td><td>100%：短弓、矛、刀、盾；骑战马</td></tr><tr><th scope="row">干草原游牧民</th><td>弯刀、短复合弓、套索</td><td>90%：短复合弓、矛、弯刀、套索；骑矮种马<br>10%：同上，另穿相当于AC 5的护甲</td></tr><tr><th scope="row">森林氏族</th><td>长剑</td><td>75%：矛、盾<br>25%：长剑、盾</td></tr><tr><th scope="row">高地氏族</th><td>双手剑或长剑</td><td>50%：矛、刀、环甲<br>15%：战斧、刀、环甲<br>10%：矛、盾、环甲；骑普通马<br>25%：矛、链甲；乘双人战车</td></tr><tr><th scope="row">海上劫掠者</th><td>长剑、战斧、短弓</td><td>90%：战斧、短弓、链甲、盾<br>10%：长剑、短弓、链甲、盾</td></tr><tr><th scope="row">丛林部落</th><td>木棒、短弓或吹箭筒</td><td>100%：矛、木棒、短弓或吹箭筒、盾</td></tr><tr><th scope="row">稀树草原居民</th><td>木棒、标枪</td><td>90%：标枪、盾<br>10%：木棒、盾</td></tr></tbody></table></div>
-
 ## 骑士（Howery修订） Cavalier (revised)
-
-David Howery · 第 31、32 页
 
 本版把骑士列为战士子职，采用战士命中与豁免表；不得多职业。经验、生命骰、等级称号、鉴马、骑乘或徒步时的骑枪伤害加值、免疫恐惧、武器／盾格挡，以及UA第75页侍从限制保留。
 
