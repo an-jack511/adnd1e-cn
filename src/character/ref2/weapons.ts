@@ -1,6 +1,7 @@
 import type {Item} from '../../schemas';
 import {blankRow,type Card,type Row} from './model';
 import {acceptsItem} from './item-roles';
+import {withOrdinaryWeight} from '../../utils/item-weight';
 export type WeaponMode='handHeld'|'missile';
 export const isWeapon=(item:Item)=>acceptsItem(item,'weapons');
 export function weaponMode(item:Item,requested?:string):WeaponMode {
@@ -31,7 +32,8 @@ export function selectWeapons(card:Card,ids:string[],catalog:readonly Item[]){
 
 export function enhancement(item:Item){const match=item.nameEn.match(/\+(\d)(?:\s|,|$)/);return item.category==='魔法物品'&&match&&!/curs|versus|vs\.|against|slay/i.test(item.nameEn)?Number(match[1]):0;}
 export function weaponWithBase(item:Item,catalog:readonly Item[],explicit=''):Item{
+ item=withOrdinaryWeight(item,catalog,explicit);
  if(item.weaponCombat)return item;
  const base=catalog.find(i=>i.id===explicit||explicit&&i.nameZh===explicit)??catalog.filter(i=>i.category!=='魔法物品'&&i.weaponCombat&&item.nameZh.includes(i.nameZh.replace(/与鞘$/,''))).sort((a,b)=>b.nameZh.length-a.nameZh.length)[0];
- return base?{...base,...item,weight:item.weight==='未列'?base.weight:item.weight,damageSmallMedium:item.damageSmallMedium??base.damageSmallMedium,damageLarge:item.damageLarge??base.damageLarge,weaponCombat:base.weaponCombat}:item;
+ return base?{...base,...item,damageSmallMedium:item.damageSmallMedium??base.damageSmallMedium,damageLarge:item.damageLarge??base.damageLarge,weaponCombat:base.weaponCombat}:item;
 }

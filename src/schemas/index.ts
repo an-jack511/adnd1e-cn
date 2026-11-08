@@ -72,6 +72,7 @@ export const ItemSchema = z.object({
   aliases:z.array(z.string()).optional(),
   price: z.string(),
   weight: z.string(),
+  weightBaseItemId: z.string().optional(),
   damageSmallMedium: z.string().optional(),
   damageLarge: z.string().optional(),
   length: z.string().optional(),

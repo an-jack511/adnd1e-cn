@@ -14,6 +14,7 @@ if(redirectTo)return Astro.redirect(redirectTo,301);
   <header class="entry-header"><h1>{item.nameZh}</h1><div class="english">{item.nameEn} · {item.category}</div></header>
   <div class="entry-meta"><div><dt>类别</dt><dd>{item.subCategory ?? item.category}</dd></div><div><dt>价格</dt><dd>{item.price}</dd></div><div><dt>负重</dt><dd>{item.weight}</dd></div>{[['经验价值',item.xpValue],['伤害 S/M',item.damageSmallMedium],['伤害 L',item.damageLarge],['长度',item.length],['所需空间',item.spaceRequired],['速度因子',item.speedFactor],['AC 调整',item.acAdjustment]].filter(([,value])=>value).map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</div>
   {!item.details?.some(detail=>detail.html.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').includes(item.description)) && <p>{item.description}</p>}
+  {item.weightBaseItemId && <p>本站负重约定：采用对应普通物品的负重（<a href={`/equipment/${item.weightBaseItemId}/`}>{items.find(base=>base.id===item.weightBaseItemId)?.nameZh}</a>）。{ /\b(arrow|bolt|quarrel|bullet|stone)\b/i.test(item.nameEn) && '弹药按单件计，数量另计。'}</p>}
   <WeaponCombat item={item} />
   <LibraryRules details={item.details} /><SourceList sources={item.source} details={item.details} /><p><a href={item.category === '魔法物品' ? '/equipment/magic-items/' : '/equipment/'}>← 返回{item.category === '魔法物品' ? '魔法物品' : '装备与物品'}</a></p>
 </article></BaseLayout>

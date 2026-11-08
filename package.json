@@ -12,7 +12,7 @@
     "check:links": "tsx scripts/check-built-links.ts",
     "test:rules": "tsx scripts/test-rules-engine.ts",
     "test:reader": "tsx scripts/test-reader-data.ts",
-    "test:ref2": "tsx scripts/test-ref2-card.ts && tsx scripts/test-weapon-card.ts && tsx scripts/test-card-spell-capacity.ts && tsx scripts/test-card-automation.ts && tsx scripts/test-ua-equipment-merge.ts && tsx scripts/test-card-printing.ts",
+    "test:ref2": "tsx scripts/test-ref2-card.ts && tsx scripts/test-weapon-card.ts && tsx scripts/test-card-spell-capacity.ts && tsx scripts/test-card-automation.ts && tsx scripts/test-ua-equipment-merge.ts && tsx scripts/test-card-printing.ts && tsx scripts/test-item-weights.ts",
     "test:character": "tsx scripts/test-character-suite.ts",
     "check:character-release": "tsx scripts/check-character-release.ts",
     "import:library": "tsx scripts/import/library-catalog.ts && node scripts/import/scan-library-sources.mjs && python scripts/import/ordinary-library.py && python scripts/import/curate-character-library.py && tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply && tsx scripts/import/library-index.ts",

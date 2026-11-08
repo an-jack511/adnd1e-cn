@@ -49,7 +49,7 @@ export function computeArmorClass(armor: Item | undefined, shield: Item | undefi
 export function weightPounds(item: Item): number | undefined {
   const lb = item.weight.match(/^([\d.]+)\s*(?:磅|lbs?\.?)/i);
   if (lb) return Number(lb[1]);
-  const gp = item.weight.match(/^([\d.]+)\s*(?:金币重量|gp\s*重量)/i);
+  const gp = item.weight.match(/^([\d.]+)\s*(?:金币重量|gp\b(?:\s*重量)?)/i);
   return gp ? Number(gp[1]) / 10 : undefined;
 }
 export function computeEncumbrance(entries: { item: Item; quantity: number }[]): RuleResult<number> & { unknown: string[]; movement: string } {

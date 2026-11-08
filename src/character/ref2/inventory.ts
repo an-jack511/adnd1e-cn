@@ -2,6 +2,7 @@ import type {Item} from '../../schemas';
 import {blankRow,type Card} from './model';
 import {cardName} from './labels';
 import {acceptsItem} from './item-roles';
+import {withOrdinaryWeight} from '../../utils/item-weight';
 export function resolveItem(catalog:readonly Item[],name:string){return catalog.find(i=>i.id===name)??catalog.find(i=>cardName(i.nameZh)===name||i.nameEn===name);}
 export function syncEquipped(card:Card,catalog:readonly Item[]){
  let changed=false;
@@ -26,5 +27,6 @@ export function carriedItems(card:Card,catalog:readonly Item[]){
  for(const row of card.rows.gear){const item=resolveItem(catalog,row.values.itemId||row.values.item||'');if(item){owned.add(item.id);result.push({item,quantity:row.values.quantity?Math.max(0,Number(row.values.quantity)||0):1});}}
  for(const row of card.rows.weapons){const item=resolveItem(catalog,row.values.name||'');if(item&&!owned.has(item.id)){owned.add(item.id);result.push({item,quantity:1});}}
  for(const row of card.rows.ammunition){const item=resolveItem(catalog,row.values.itemId||row.values.name||'');if(item&&!owned.has(item.id)){owned.add(item.id);result.push({item,quantity:Math.max(0,(Number(row.values.count)||0)-(Number(row.values.used)||0))});}}
- return result;
+ // A user-selected weapon model also applies when the same item is in gear.
+ return result.map(entry=>({...entry,item:withOrdinaryWeight(entry.item,catalog,card.rows.weapons.find(row=>resolveItem(catalog,row.values.name||'')?.id===entry.item.id)?.values.base_weapon)}));
 }

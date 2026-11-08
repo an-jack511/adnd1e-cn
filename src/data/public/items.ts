@@ -11,6 +11,7 @@ import {mergeDragonItems} from '../../utils/merge-dragon-items';
 import {classifyItem,isMagicItem} from '../../utils/item-classification';
 import {formatItemPrice} from '../../utils/item-price';
 import uaPrices from './ua-equipment-prices.json';
+import {inheritMagicWeights} from '../../utils/item-weight';
 const enrichment=details as Record<string,Partial<Item>>;
 const prepareItem=(item:Item):Item=>{
  const extra=enrichment[item.id]??{};
@@ -25,5 +26,5 @@ const prepareItem=(item:Item):Item=>{
  return {...next,...taxonomy,nameZh:canonicalName('item',next.nameEn,next.nameZh.replace(/[（(]$/,'').trim()),source:sources.filter((source,i)=>sources.findIndex(other=>other.book===source.book&&other.section===source.section&&other.page===source.page)===i)};
 };
 export const bookItems:Item[]=mergeUaEquipment([...baseItems,...additions as Item[],...regional as Item[]].map(prepareItem));
-export const items:Item[]=mergeDragonItems(bookItems,(dragon as Item[]).map(prepareItem),dragonVersions);
+export const items:Item[]=inheritMagicWeights(mergeDragonItems(bookItems,(dragon as Item[]).map(prepareItem),dragonVersions));
 export {isMagicItem};
