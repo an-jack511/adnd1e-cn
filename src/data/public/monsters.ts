@@ -1,5 +1,7 @@
 import dragon from './dragon-monsters.json';
 import dragonVersions from './dragon-monster-versions.json';
+import dragonSupplements from './dragon-monster-supplements.json';
+import additions from './book-monster-additions.json';
 import {mergeDragonMonsters} from '../../utils/merge-dragon-monsters';
 import regional from './regional-monsters.json';
 import type { Monster } from '../../schemas';
@@ -45,5 +47,5 @@ const legacyMonsters: Monster[] = [
 ];
 
 const regionalMonsters=regional as Monster[];const regionalIds=new Set(regionalMonsters.map(monster=>monster.id));
-export const bookMonsters:Monster[]=[...legacyMonsters.filter(monster=>!regionalIds.has(monster.id)),...regionalMonsters];
-export const monsters:Monster[]=mergeDragonMonsters(bookMonsters,dragon as Monster[],dragonVersions);
+export const bookMonsters:Monster[]=[...legacyMonsters.filter(monster=>!regionalIds.has(monster.id)),...regionalMonsters,...additions as Monster[]];
+export const monsters:Monster[]=mergeDragonMonsters(bookMonsters,dragon as Monster[],dragonVersions,dragonSupplements);

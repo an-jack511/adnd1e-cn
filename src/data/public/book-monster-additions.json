@@ -1,0 +1,42 @@
+[
+  {
+    "id": "brown-mold",
+    "nameZh": "褐色霉菌",
+    "nameEn": "Brown Mold",
+    "frequency": "极罕见",
+    "numberAppearing": "1 片",
+    "armorClass": 9,
+    "movement": "0″",
+    "hitDice": "不适用",
+    "inLair": "无",
+    "treasureType": "无",
+    "attacks": "0",
+    "damage": "0；吸热伤害见下文",
+    "specialAttacks": "吸收体热",
+    "specialDefenses": "只受魔法寒冷影响；吸热生长",
+    "magicResistance": "除魔法寒冷外均不受影响",
+    "intelligence": "非智能",
+    "alignment": "中立",
+    "size": "S–L",
+    "psionics": "无",
+    "environment": "地下",
+    "description": "吸收附近热量、遇热快速生长的褐色霉菌。",
+    "source": [
+      {
+        "book": "MM",
+        "section": "Mold"
+      }
+    ],
+    "details": [
+      {
+        "title": "MM · 褐色霉菌",
+        "html": "<p>褐色霉菌生长在地下任何地方，颜色从浅棕到金棕不等。它无法忍受高浓度紫外线，却会吸收其他大多数形式的辐射能。它生长的地方温度低于平均水平；当生物经过霉菌 5 尺以内时，霉菌会吸收其体热，即使目标是基本上冷血的生物也不例外。生物每在 5 尺内停留一轮，霉菌就会吸取相当于每高于 55 华氏度的 10 度体温造成 1–8 点寒冷伤害的热量。</p><p>这种霉菌会从热量中瞬间生长：若火把、燃油或火球靠近霉菌，它会利用吸收的热量将面积扩大至原来的 2、4 或 8 倍；生长会快到下一轮便在新区域继续吸取热量。光明术或妖火无法供养褐色霉菌；它只会受到魔法寒冷影响，不受其他魔法或非魔法攻击影响。冰风暴或冰墙会使其休眠 5–30 轮；寒冷魔杖或白龙吐息会杀死它。使用寒冷的生物（白龙、冰蛙、冬狼）不会受到其生长伤害。</p>",
+        "source": {
+          "book": "MM",
+          "section": "Mold"
+        },
+        "href": "/books/mm/mm-mold/"
+      }
+    ]
+  }
+]
