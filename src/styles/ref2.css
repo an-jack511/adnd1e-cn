@@ -447,12 +447,13 @@
 #ref2-print-output{display:none}
 @media print{
  body:has(#ref2-print-output)>:not(#ref2-print-output){display:none!important}
+ body:has(#ref2-print-output){margin:0!important;padding:0!important;min-width:0!important}
  #ref2-print-output{display:block!important;margin:0!important;padding:0!important;width:194mm;max-width:none;--ref2-ink:#24221f;--ref2-rule:#37332d}
  #ref2-print-output .ref2-print-sheet{position:relative;width:194mm;height:280mm;break-after:page;page-break-after:always}
  #ref2-print-output .ref2-print-sheet:last-child{break-after:auto;page-break-after:auto}
- #ref2-print-output .ref2-paper[data-card-panel]{position:absolute;top:0;left:0;width:194mm;box-sizing:border-box;transform:scale(var(--print-scale,1));transform-origin:top left;break-after:auto;page-break-after:auto;background:#fff;color:#24221f}
+ #ref2-print-output .ref2-paper[data-card-panel]{position:absolute;top:0;left:0;width:calc(194mm / var(--print-scale,1));box-sizing:border-box;zoom:var(--print-scale,1);break-after:auto;page-break-after:auto;background:#fff;color:#24221f}
  #ref2-print-output .ref2-print-sheet[data-continued=true]{height:auto}
- #ref2-print-output .ref2-print-sheet[data-continued=true]>.ref2-paper{position:static;transform:none}
+ #ref2-print-output .ref2-print-sheet[data-continued=true]>.ref2-paper{position:static;zoom:1}
  #ref2-print-output .ref2-spells[data-has-spells=false]{display:block!important}
  #ref2-print-output .print-empty-field>textarea{height:5mm!important;min-height:0!important}
  #ref2-print-output .ref2-print-sheet :is(button,.item-library-actions,.weapon-table-hint){display:none!important}
@@ -463,7 +464,7 @@
  #ref2-print-output[data-monochrome=true] .ref2-original-logo{filter:grayscale(1)}
 }
 #ref2-print-output.print-measuring{display:block!important;position:absolute!important;top:0;left:0;visibility:hidden!important;pointer-events:none}
-#ref2-print-output.print-measuring .ref2-paper[data-card-panel]{position:static!important;transform:none!important}
+#ref2-print-output.print-measuring .ref2-paper[data-card-panel]{position:static!important;zoom:1!important}
 .identity-library-actions{display:flex;gap:6px;justify-content:flex-end;margin:-4px 0 7px}
 #identity-library{width:min(1180px,96vw);height:90vh;max-height:95vh;padding:0;border:1px solid var(--line);background:var(--paper)}
 #identity-library::backdrop{background:#11221988}
@@ -509,4 +510,8 @@
 @media print{.print-preview-close{display:none!important}}
 
 @media screen{#ref2-print-output>.print-preview-close{display:block!important}}
+@media screen{
+ #ref2-print-output.print-preview{margin:12px auto!important;padding:8mm!important;width:210mm!important;box-sizing:border-box;background:#eee}
+ #ref2-print-output.print-preview .ref2-print-sheet{background:#fff;outline:1px solid #aaa;margin-bottom:8mm}
+}
 @media print{#ref2-print-output .checkline{display:none!important}}

@@ -3,12 +3,25 @@ export const printScale = (height:number, available=280*96/25.4) => {
   const scale=Math.min(1,available/Math.max(1,height));
   return scale>=.72?scale:1;
 };
+/** Reflow at the full printed width for each candidate scale, rather than narrowing the page. */
+export function fitPrintScale(measureHeight:(scale:number)=>number,available=278*96/25.4){
+  if(measureHeight(1)<=available)return 1;
+  let low=.72,high=1;
+  if(measureHeight(low)*low>available){measureHeight(1);return 1;}
+  for(let i=0;i<12;i++){
+    const scale=(low+high)/2;
+    if(measureHeight(scale)*scale<=available)low=scale;else high=scale;
+  }
+  measureHeight(low);
+  return low;
+}
 export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
   let output:HTMLElement|undefined,previewStyle:HTMLStyleElement|undefined,preview=false;
   function clear(){output?.remove();output=undefined;previewStyle?.remove();previewStyle=undefined;preview=false;}
   function prepare(){
     collect();output?.remove();previewStyle?.remove();
     output=document.createElement('div');output.id='ref2-print-output';output.className='ref2-workspace';
+    if(preview)output.classList.add('print-preview');
     output.dataset.monochrome=String(document.querySelector<HTMLInputElement>('#print-monochrome')!.checked);
     const compact=document.querySelector<HTMLInputElement>('#print-compact')!.checked;
     for(const source of form.querySelectorAll<HTMLElement>('[data-card-panel]')){
@@ -72,7 +85,11 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
           if(!text.textContent)text.textContent='\u00a0';
           control.replaceWith(text);
         });
-        const height=panel.getBoundingClientRect().height,scale=printScale(height);
+        const scale=fitPrintScale(value=>{
+          sheet.style.setProperty('--print-scale',String(value));
+          return panel.getBoundingClientRect().height;
+        });
+        const height=panel.getBoundingClientRect().height;
         sheet.style.setProperty('--print-scale',String(scale));sheet.dataset.continued=String(scale===1&&height>280*96/25.4);
         sheet.dataset.contentHeight=String(Math.round(height));
       }
