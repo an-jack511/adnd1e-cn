@@ -32,6 +32,8 @@ for(const supplement of supplements){
  assert.ok(original.details?.length||(readings as Record<string,unknown>)[primary.id]||primary.description===original.description&&primary.description.length>0,`Original text remains available: ${supplement.id}`);
 }
 const before=JSON.stringify([bookMonsters,raw,supplements]);
+assert.equal(supplements.find(entry=>entry.id==='dragon-115-spitting-snake')?.source.page,45,'Supplement cites its own rule page rather than the article opening');
+assert.equal(supplements.find(entry=>entry.id==='dragon-138-galley-beggar')?.source.page,24,'MM2 Phantom variant retains its actual magazine page');
 mergeDragonMonsters(bookMonsters,raw,links,supplements);
 assert.equal(JSON.stringify([bookMonsters,raw,supplements]),before,'Inputs remain unchanged');
 const otherBook=bookMonsters.find(monster=>monster.source.some(source=>!['MM','MM2'].includes(source.book)))!;

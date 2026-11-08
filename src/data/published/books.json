@@ -13294,12 +13294,30 @@
   },
   {
     "book": "dragon-115",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "Sharper Than a Serpent's Tooth",
+    "group": "Dragon",
+    "excerpt": "黄褐色的大型蟒蛇，可以吞食豹或人类。雌蛇每年约两个月守卵，遭遇中 10% 是这样的雌蛇；任何进入可接近巢穴范围者都会被攻击。窝内有 10–100 枚卵，初孵幼蛇长约二英尺。",
+    "sourceFile": "manuscript/dragon/115/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-115",
     "slug": "magic-items",
     "title": "赞扎洛竖琴",
     "titleEn": "Airs of Ages Past",
     "group": "Dragon",
     "excerpt": "持续弹奏时，以竖琴为中心产生 3″ 半径珠白色永久光明，区域内驱散幻象（按魔法师四环法术）、解除除灵能外的各种隐形，并使魔法或幻术符文、记号、铭文以蓝色轮廓显现。",
     "sourceFile": "manuscript/dragon/115/topics/magic-items.md"
+  },
+  {
+    "book": "dragon-115",
+    "slug": "snake-rules",
+    "title": "蛇类规则",
+    "titleEn": "Sharper Than a Serpent's Tooth",
+    "group": "Dragon",
+    "excerpt": "本篇为大型蛇提供六种绞杀蛇、五种陆生毒蛇，以及海蛇与喷毒蛇的补充。蛇类绞杀先咬住作锚点，再盘身勒紧；使用下列按累计伤害触发的创伤规则。",
+    "sourceFile": "manuscript/dragon/115/topics/snake-rules.md"
   },
   {
     "book": "dragon-117",
@@ -13507,6 +13525,24 @@
     "group": "Dragon",
     "excerpt": "本系统以 WSG 的寻找猎物检定为起点，再用具体动物统计与通常战斗规则处理捕猎。先按 WSG 第 55 页表 31 及适当修正判断能否找到猎物，成功后依气候与地形掷本篇猎物表。更新世表仅适用于北极至温带；热带在这段时期变化较小，仍用通常热带表。",
     "sourceFile": "manuscript/dragon/137/topics/hunting.md"
+  },
+  {
+    "book": "dragon-138",
+    "slug": "bestiary",
+    "title": "怪物志",
+    "titleEn": "The Ungrateful Dead",
+    "group": "Dragon",
+    "excerpt": "遭诅咒的邪恶罪犯尸骨，死后仍继续杀人劫掠。外形是血淋淋的骨架，挂着残肉；巢穴藏在洞中或深坑内，只为杀人与抢劫而外出。",
+    "sourceFile": "manuscript/dragon/138/topics/bestiary.md"
+  },
+  {
+    "book": "dragon-138",
+    "slug": "undead-variants",
+    "title": "不死生物变体",
+    "titleEn": "The Ungrateful Dead",
+    "group": "Dragon",
+    "excerpt": "骷髅与僵尸通常以数量压迫低等级队伍，食尸鬼开始用麻痹等特殊能力改变战斗。本篇变体分别改变命中、重组、魔法、弱点、控制或驱散类别，不应只提高普通怪物的生命骰。",
+    "sourceFile": "manuscript/dragon/138/topics/undead-variants.md"
   },
   {
     "book": "dragon-139",
