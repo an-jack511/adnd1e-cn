@@ -12,6 +12,6 @@
 
 <strong>King Pellinore</strong> 是“追寻野兽”的骑士，守序中立，AC −2，65 点生命值，12 级战士。他在亚瑟王朝已过中年，仍是强健的战士；他的家族世代追猎神秘而独一无二的 <strong>Questing Beast</strong>，却注定永远无法真正捕获它。
 
-## Sir Tristram of Lyonesse
+## 莱昂内斯的崔斯坦爵士 Sir Tristram of Lyonesse
 
 Sir Tristram 以武艺与战场上的残酷著称，许多人认为他的剑术仅次于 Lancelot。AC −3，120 点生命值，17 级战士，中立；力量 18／99，敏捷 19。他与美丽的 Lady Isole 有一段注定悲剧的爱情，而 Isole 已嫁给邪恶、多疑的 King Mark；Mark 不断寻找机会羞辱或毁灭 Tristram。

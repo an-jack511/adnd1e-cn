@@ -1,4 +1,4 @@
-## Recent News and Rumors in the Realms
+## 国度近闻与传言 Recent News and Rumors in the Realms
 
 本节收录过去两年传入北方国度居民耳中的一些消息，即虫年与王子年。这些新闻片段并不完整，有时也略不准确；它们按原本传开的方式记录，用来表现国度的气息，让人感到它是一个活着、不断变化的世界，而不是一份事件年表或严格的历史记录。
 

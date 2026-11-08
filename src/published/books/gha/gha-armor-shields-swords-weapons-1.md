@@ -1,4 +1,4 @@
-## Armor and Shields
+## 护甲与盾牌 Armor and Shields
 
 
 ### 波马吉的地精盾牌 +2

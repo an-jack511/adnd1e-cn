@@ -1,4 +1,4 @@
-## Books of the Forgotten Realms
+## 被遗忘国度的书籍 Books of the Forgotten Realms
 
 以下是国度中一些重要魔法书的描述。它们按外观、历史和内容说明；若某本书包含新的或独有的法术，也用《玩家手册》的标准格式列出。
 

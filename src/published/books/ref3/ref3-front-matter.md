@@ -1,6 +1,6 @@
 > 原书来源页：PDF 第 1–3 页。
 
-## The Book of Lairs
+## 巢穴之书 The Book of Lairs
 
 <strong>高级龙与地下城官方游戏配件：巢穴之书</strong>，James M. Ward 与 Mike Breault 著。
 

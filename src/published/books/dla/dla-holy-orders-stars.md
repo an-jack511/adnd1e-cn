@@ -10,7 +10,7 @@
 
 因此，诸神的历史，或者说人类所知的那部分诸神历史，很大程度取决于承认某位神祇的文化。克莱恩拥有如此多不同文化，从人类捏造与夸张中分辨真相是一项困难任务。简而言之，虽然并非所有人以同样方式崇拜诸神，但诸神仍接受信徒对造物主基本原则的信仰与奉献。
 
-不过，为了本书的讨论，我们将按照骑士团所知、以及 帕拉丁 向 艾力斯坦（Elistan） 揭示的方式说明诸神。由 Palanthus 的 阿斯特纽斯（Astinus） 编纂的带注释历史著作，似乎确认了这些基本事实。
+不过，为了本书的讨论，我们将按照骑士团所知、以及 帕拉丁 向 艾力斯坦（Elistan） 揭示的方式说明诸神。由帕兰萨斯的 阿斯特纽斯（Astinus） 编纂的带注释历史著作，似乎确认了这些基本事实。
 
 克莱恩宇宙由 21 位神祇主宰。他们分成善良、邪恶与中立三方，每方七位，组成三个独立的神祇家族。
 
@@ -421,15 +421,15 @@
 
 - <strong>特殊加值：</strong>如果处于良好状态，所有攻击获得 +1。
 - <strong>领域：</strong>星界、战斗、守护、治疗（反转）。
-- <strong>特殊法术：</strong>I：Detect Magic；III：Create Food & Water。
+- <strong>特殊法术：</strong>I：侦测魔法 Detect Magic；III：创造食粮与饮水 Create Food & Water。
 - <strong>额外法术：</strong>
-  - I：Detect Snares & Pits，Penetrate Disguise，Predict Weather。
-  - II：Find Traps，Heat／Chill Metal。
-  - III：Death’s Door，Magical Vestment。
-  - IV：Cloak of Fear／Bravery。
-  - V：Quest，Slay Living。
-  - VI：Heroes’ Feast。
-  - VII：Finger of Death，Wither，Energy Drain，Destruction。
+  - I：侦测陷阱与坑洞 Detect Snares & Pits，识破伪装 Penetrate Disguise，预测天气 Predict Weather。
+  - II：寻找陷阱 Find Traps，加热／冷却金属 Heat／Chill Metal。
+  - III：死亡之门 Death’s Door，魔法护甲 Magical Vestment。
+  - IV：恐惧／勇气斗篷 Cloak of Fear／Bravery。
+  - V：任务术 Quest，杀生术 Slay Living。
+  - VI：英雄盛宴 Heroes’ Feast。
+  - VII：死亡指 Finger of Death，枯萎 Wither，能量吸取 Energy Drain，毁灭 Destruction。
 
 ### 米莎凯 Mishakal
 

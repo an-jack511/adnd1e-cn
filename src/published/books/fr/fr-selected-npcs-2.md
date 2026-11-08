@@ -150,7 +150,7 @@ Jhessail 出生于埃斯帕，父母克雷格和兰娜·银树是“精灵友”
 
 Jhessail 是意志坚强、热情的女性，已经开始训练 Mistyl 作为自己的继任者，并培养 Florin 最近获得的魔法力量。她也在谨慎地让自己的婴儿女儿熟悉魔法。
 
-## Khelben “Blackstaff” Arunsun（KEL-ben AIR-un-sun）
+## 凯尔本·奥罗桑「黑杖」 Khelben “Blackstaff” Arunsun（KEL-ben AIR-un-sun）
 
 <strong>据点：</strong>深水城，但经常远行，包括前往异界。<strong>身份：</strong>很可能是深水城领主。<strong>26+ 级魔法使用者。</strong>阵营／信仰：<strong>守序中立，强烈倾向善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 

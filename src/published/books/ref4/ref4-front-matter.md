@@ -1,6 +1,6 @@
 > 原书来源页：PDF 第 1–3 页。
 
-## The Book of Lairs II
+## 巢穴之书续集 The Book of Lairs II
 
 <strong>高级龙与地下城官方游戏配件：巢穴之书 II</strong>。
 

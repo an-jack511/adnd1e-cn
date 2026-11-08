@@ -114,7 +114,7 @@ Storm Silverhand 长期住在暗影谷，把家作为基地，进行漫长而遥
 
 Storm 是巡林客 Dove、银月城的阿露丝翠和已故女巫 Sylune 的姐妹。她拥有一把 +1 幸运剑（还剩一次愿望），但如今已基本退休。她的长期伙伴 Maxan 最近被恶魔毁灭，Storm 也不再进行过去与他共同享受的大胆、狂野冒险。
 
-## Sundeth Gossyl（SUN-deth GAW-sill）
+## 桑德斯·戈希尔 Sundeth Gossyl（SUN-deth GAW-sill）
 
 <strong>生卒：</strong>1339–1356。<strong>据点：</strong>桑比亚。<strong>7 级牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>精灵女性。</strong>
 
@@ -122,7 +122,7 @@ Sundeth 是女神虔诚的仆人。她住在桑比亚，长大后北行，在月
 
 Sundeth 最终死在乌鸦堡垒的城垛上，她在那里与一条袭击城市的失控飞龙战斗，救了许多人的性命。城垛重建时，她被安葬在“桑德斯之塔”中。月海地区的旅人有时会把那些帮助道路旅行者的人称作“桑德斯的……”（原书此处承接下一段）。
 
-## Sylune（Sill-OO-nay）
+## 希伦 Sylune（Sill-OO-nay）
 
 <strong>身份：</strong>暗影谷女巫与夫人。<strong>生卒：</strong>1202–1356，虫年死亡。<strong>22 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -132,7 +132,7 @@ Sylune 是暗影谷的女巫和夫人，曾是暗影谷领主奥姆里的妻子�
 
 Sylune 被龙之教团控制的一条巨大太古红龙杀死；她在自己消亡时杀死了巨龙，以魔法杖进行报复性打击。
 
-## Temmi Dharimm（TEHM-ee DARR-imm）
+## 泰米·达里姆 Temmi Dharimm（TEHM-ee DARR-imm）
 
 <strong>据点：</strong>精灵森林。<strong>5 级战士。</strong>阵营／信仰：<strong>中立邪恶，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -140,7 +140,7 @@ Temmi 是楚尔拉戈尔的本地人，在月海地区当了多年强盗；期�
 
 Temmi 悄悄搬进希尔斯法尔附近的精灵森林，作为奴隶贩子活动，把抓到的人卖给散提尔堡代理人，由后者用有遮盖的马车向北运走。他的行动极其谨慎：被抓到的人类和半人类会被铐住、堵嘴、蒙眼，然后用套在喉部的项圈锁在奴隶车上，或者锁在一根长木上，由一群奴隶抬走。
 
-## Thagdal（THAHG-dal）
+## 萨格达尔 Thagdal（THAHG-dal）
 
 <strong>据点：</strong>迷斯卓诺游荡。<strong>9 级魔法使用者。</strong>阵营／信仰：<strong>中立邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -148,7 +148,7 @@ Thagdal 是一个傲慢、肥胖的法师，曾是泽恩塔林的 Sememmon 的�
 
 据说 Thagdal 目前正在探索迷斯卓诺，带着许多武装人员，专门杀死在森林中遇到的所有非泽恩塔林成员。
 
-## Thentias（THEW-tie-ass）
+## 森蒂亚斯 Thentias（THEW-tie-ass）
 
 <strong>绰号：</strong>科米尔、桑比亚和谷地诸国的“奇才”。<strong>据点：</strong>科米尔。<strong>5 级高级牧师。</strong>阵营／信仰：<strong>中立善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -166,7 +166,7 @@ Thurbrand 出生并成长于阿拉贝尔，从能举刀开始就是一名武装�
 
 Thurbrand 顽固而勇敢，曾多次进入石地，逐渐积攒财富，成为老练而有经验的战士。他如今仍保持训练，偶尔受雇保护商队；但他正等待泽恩塔林的力量被打破，好在荒地建立自己的据点。据说他知道石地每一座山谷和每一座墓穴，其中包括大约半打废弃的地下城市和……（原书此处承接下一页）。
 
-## Thurlock（THUR-lock）
+## 瑟洛克 Thurlock（THUR-lock）
 
 <strong>绰号：</strong>Thurlock 先知。<strong>据点：</strong>希尔斯法尔。<strong>10 级魔法使用者。</strong>阵营／信仰：<strong>中立，欧格玛。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -174,7 +174,7 @@ Thurlock 住在希尔斯法尔贵族区一座大宅邸中，据说地下有广�
 
 她的助手是 8 级半精灵欧格玛牧师 Thondar Glimmershield。传说 Thurlock 宅邸下的地窖中藏有大量强大魔法物品和写满古老传说与当代流言的卷轴，但其中布置着各种邪恶魔法兽、坑洞陷阱和假门。
 
-## Torm
+## 托姆 Torm
 
 <strong>据点：</strong>谷地诸国游荡。<strong>6 级盗贼。</strong>阵营／信仰：<strong>混乱中立，马斯克与泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 

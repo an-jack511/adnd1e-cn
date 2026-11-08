@@ -1,4 +1,4 @@
-## Miscellaneous Magic Items
+## 其他魔法物品 Miscellaneous Magic Items
 
 
 ### 塞伦涅之星

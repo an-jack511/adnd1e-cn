@@ -1,4 +1,4 @@
-## Miscellaneous Magic Items
+## 其他魔法物品 Miscellaneous Magic Items
 
 
 ### 洛特米尔山脉的铁砧

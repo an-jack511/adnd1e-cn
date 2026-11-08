@@ -82,7 +82,7 @@ reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astr
 
 材料成分是两件物品、牧师的圣徽，以及一缕细金属线、人发或蜘蛛丝。
 
-## The Alcaister
+## 阿尔凯斯特之书 The Alcaister
 
 ### 外观
 

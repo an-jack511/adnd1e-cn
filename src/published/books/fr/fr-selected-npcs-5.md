@@ -6,7 +6,7 @@
 
 范格达海斯特 据说拥有许多魔杖，也为国王配备了魔法戒指；毫无疑问，他自己佩戴的其中一些戒指也属于魔法物品。
 
-## Whisper
+## 低语 Whisper
 
 <strong>生卒：</strong>1331–1355。<strong>2 级魔法使用者。</strong>阵营／信仰：<strong>混乱邪恶，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -16,7 +16,7 @@
 
 Whisper 持有 Mhzentul 遗失七戒中的两枚（Doust 的同伴后来把戒指交给了当地神殿）。他残酷、冷静而工于算计，使用的私人符文是一只黑色、像爪子一样紧握的人手。
 
-## Yorel（YORE-el）
+## 约雷尔 Yorel（YORE-el）
 
 <strong>据点：</strong>在散提尔堡控制的谷地诸国服役。<strong>3 级战士。</strong>阵营／信仰：<strong>中立邪恶，坦帕斯与班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -28,7 +28,7 @@ Yorel 有足够的智慧（感知 16）知道这很可能永远不会实现，�
 
 Yorel 是以少量兵力作战的专家，尤其擅长读取敌方行动并正确预判未来行动。他对内海北部地形的熟悉程度，在世人中几乎无人能及；他也可能比任何人都更了解活跃于当地的德鲁伊和巡林客。目前他正为散提尔堡在月海南部／谷地北部地区指挥特殊袭击。
 
-## Zandess Danthiir（ZAHN-dess DAN-theer）
+## 赞德斯·丹希尔 Zandess Danthiir（ZAHN-dess DAN-theer）
 
 <strong>据点：</strong>龙湾地区游荡。<strong>2 级圣武士。</strong>阵营／信仰：<strong>守序善良，提尔。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -75,7 +75,7 @@ Zandess 最近才抵达龙湾地区，是一个极其虔诚、有原则的女性
 
 其中一辆是议事马车，里面有一张桌子（也可以当作手术台），地板上有一个可以生火的洞（火放在沙桶中）。在不承担其他任务时，它是公司牧师的神殿。公司的标志是燃烧之拳，飘扬在旗帜上，也绘在帐篷与马车上。战斗中，公司战士穿戴饰有该标志的白色护板。
 
-### Eltan（EL-tan）
+### 艾尔坦 Eltan（EL-tan）
 
 <strong>据点：</strong>博德之门／燃烧之拳。<strong>20 级战士，179 点生命值。</strong>阵营／信仰：<strong>守序中立，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -87,7 +87,7 @@ Eltan 的装备包括吸收戒指（还剩 750 点法术位）、毒素吸收戒
 
 像其他高等级人物一样，他通常会装备大量物品；但他拥有这些装备，是因为其雇佣兵公司在装备方面提供了极端范例，也因为 Eltan 是一个谨慎而富有的人，试图为任何情况做好准备，例如强大的冒险者试图轻易杀死他。他经常成为刺杀目标，因为他的对手认为燃烧之拳没有他就会崩溃。
 
-### Scar
+### 刀疤 Scar
 
 <strong>据点：</strong>博德之门／燃烧之拳。<strong>14 级战士。</strong>阵营／信仰：<strong>守序中立，海姆。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -97,7 +97,7 @@ Scar 左腕有一只心灵感应手镯，可与 Eltan 和 Moruene 通信；手�
 
 Scar 的真名是 Hurbold Duethkatha；这个名字对他在深水城的幸存旧识、Eltan 和 Moruene 之外的人都是秘密。
 
-### Moruene（More-yoo-EEN）
+### 莫鲁恩 Moruene（More-yoo-EEN）
 
 <strong>据点：</strong>博德之门／燃烧之拳。<strong>19 级魔法使用者。</strong>阵营／信仰：<strong>守序中立，阿祖斯。</strong>种族／性别：<strong>人类女性。</strong>
 
