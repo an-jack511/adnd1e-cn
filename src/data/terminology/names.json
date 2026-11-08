@@ -11858,8 +11858,10 @@
   {
     "category": "item",
     "en": "Wand of Wonder: Variant",
-    "zh": "奇迹魔杖：三种扩展表",
-    "aliases": [],
+    "zh": "惊异魔杖：三种扩展表",
+    "aliases": [
+      "奇迹魔杖：三种扩展表"
+    ],
     "status": "pending",
     "ids": []
   },
@@ -28983,6 +28985,16 @@
   },
   {
     "category": "spell",
+    "en": "Find Plants",
+    "zh": "寻找植物",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-find-plants"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Find the Path",
     "zh": "寻找捷径",
     "aliases": [
@@ -29848,6 +29860,46 @@
     "status": "verified-exact",
     "ids": [
       "identify"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Identify Minerals",
+    "zh": "辨认矿物",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-identify-minerals"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Identify Plants",
+    "zh": "辨认植物",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-identify-plants"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Identify Poison",
+    "zh": "辨认毒药",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-identify-poison"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Identify Potion",
+    "zh": "鉴定药水",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-identify-potion"
     ]
   },
   {
@@ -32114,10 +32166,13 @@
     "category": "spell",
     "en": "Preserve",
     "zh": "保鲜术",
-    "aliases": [],
+    "aliases": [
+      "保存术"
+    ],
     "status": "pending",
     "ids": [
-      "ua-magic-user-2-preserve"
+      "ua-magic-user-2-preserve",
+      "dragon-049-spell-preserve"
     ]
   },
   {
@@ -33688,6 +33743,16 @@
   },
   {
     "category": "spell",
+    "en": "Stir",
+    "zh": "搅拌术",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-stir"
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Stitch",
     "zh": "缝合",
     "aliases": [],
@@ -34272,6 +34337,16 @@
     "status": "pending",
     "ids": [
       "transmute-rock-to-mud"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Transmute Rock to Ore",
+    "zh": "岩石化矿",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-transmute-rock-to-ore"
     ]
   },
   {
@@ -35030,6 +35105,16 @@
     "status": "pending",
     "ids": [
       "wizard-eye"
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Wizard Glue",
+    "zh": "巫师胶",
+    "aliases": [],
+    "status": "pending",
+    "ids": [
+      "dragon-049-spell-wizard-glue"
     ]
   },
   {

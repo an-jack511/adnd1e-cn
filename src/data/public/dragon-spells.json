@@ -4937,5 +4937,401 @@
       "杂志版",
       "Dragon #146"
     ]
+  },
+  {
+    "level": 1,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "原刊未列",
+    "duration": "每有效等级1回合",
+    "areaOfEffect": "每有效等级10×10英尺，深60英尺",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-identify-minerals",
+    "nameZh": "辨认矿物",
+    "nameEn": "Identify Minerals",
+    "description": "施法前说出要找的矿物，可辨认简单或复杂矿物。施法时间1轮。人工结构、植物及植物制品会阻断探测；矿石一旦冶炼便不再能被发现。",
+    "details": [
+      {
+        "title": "Dragon #49 · 辨认矿物",
+        "html": "<p>施法前说出要找的矿物，可辨认简单或复杂矿物。施法时间1轮。人工结构、植物及植物制品会阻断探测；矿石一旦冶炼便不再能被发现。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "每有效等级1小时",
+    "areaOfEffect": "一份液体或混合物",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-stir",
+    "nameZh": "搅拌术",
+    "nameEn": "Stir",
+    "description": "让木棒或短杆自行搅拌，可设定速度和节奏。施法时间1轮；施法者模仿所需动作后可离开，仍可命令搅拌停止和重新开始。",
+    "details": [
+      {
+        "title": "Dragon #49 · 搅拌术",
+        "html": "<p>让木棒或短杆自行搅拌，可设定速度和节奏。施法时间1轮；施法者模仿所需动作后可离开，仍可命令搅拌停止和重新开始。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 1,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "原刊未列；至解除",
+    "areaOfEffect": "两件平整物体；每有效等级20平方英尺",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "蜂蜜，须涂在两面",
+    "id": "dragon-049-spell-wizard-glue",
+    "nameZh": "巫师胶",
+    "nameEn": "Wizard Glue",
+    "description": "把画与墙、镜子与门、地毯与地面等牢牢粘合，每有效等级支撑20磅。解除魔法会解胶；力量10、12、14、16、17、18、18／51分别可挣脱20、40、60、80、100、120、140磅，不能制造更强的胶。",
+    "details": [
+      {
+        "title": "Dragon #49 · 巫师胶",
+        "html": "<p>把画与墙、镜子与门、地毯与地面等牢牢粘合，每有效等级支撑20磅。解除魔法会解胶；力量10、12、14、16、17、18、18／51分别可挣脱20、40、60、80、100、120、140磅，不能制造更强的胶。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "依测试持续时间",
+    "areaOfEffect": "一份药水",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "待鉴定药水的10%",
+    "id": "dragon-049-spell-identify-potion",
+    "nameZh": "鉴定药水",
+    "nameEn": "Identify Potion",
+    "description": "以药水10%作为材料，不必喝下，只需裸肤接触。每有效等级使十分之一测试准确率+15%，未知药水仍须用分析法；未知分析每有效等级+7%，混合测试+3%，施法时间等于测试时间。",
+    "details": [
+      {
+        "title": "Dragon #49 · 鉴定药水",
+        "html": "<p>以药水10%作为材料，不必喝下，只需裸肤接触。每有效等级使十分之一测试准确率+15%，未知药水仍须用分析法；未知分析每有效等级+7%，混合测试+3%，施法时间等于测试时间。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "原刊未列",
+    "components": [
+      "V",
+      "S"
+    ],
+    "castingTime": "原刊未列",
+    "range": "120英尺",
+    "duration": "每有效等级1回合",
+    "areaOfEffect": "直径60英尺圆形区域",
+    "savingThrow": "原刊未列",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "任意树叶",
+    "id": "dragon-049-spell-identify-plants",
+    "nameZh": "辨认植物",
+    "nameEn": "Identify Plants",
+    "description": "获得三级德鲁伊辨认植物的能力；施法时间1轮。",
+    "details": [
+      {
+        "title": "Dragon #49 · 辨认植物",
+        "html": "<p>获得三级德鲁伊辨认植物的能力；施法时间1轮。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 2,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "直到混合或饮用",
+    "areaOfEffect": "一瓶药水或一批材料",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-preserve",
+    "nameZh": "保存术",
+    "nameEn": "Preserve",
+    "description": "保护完成的药水免受普通空气和时间造成的变质，持续到液体被混合或饮用；一次只能保存一瓶，也能保存蛇眼、独角兽角、巨魔血等材料。施法时间1轮。",
+    "details": [
+      {
+        "title": "Dragon #49 · 保存术",
+        "html": "<p>保护完成的药水免受普通空气和时间造成的变质，持续到液体被混合或饮用；一次只能保存一瓶，也能保存蛇眼、独角兽角、巨魔血等材料。施法时间1轮。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 59,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 59,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 3,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "100英尺",
+    "duration": "即时",
+    "areaOfEffect": "20立方英尺材料",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-identify-poison",
+    "nameZh": "辨认毒药",
+    "nameEn": "Identify Poison",
+    "description": "准确判断样本是否为毒药或是否被下毒，但不判断毒性强弱；施法时间8个时段。",
+    "details": [
+      {
+        "title": "Dragon #49 · 辨认毒药",
+        "html": "<p>准确判断样本是否为毒药或是否被下毒，但不判断毒性强弱；施法时间8个时段。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 60,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 60,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 4,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "每有效等级1英里",
+    "duration": "每有效等级1小时",
+    "areaOfEffect": "范围内一株有样本的活植物",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-find-plants",
+    "nameZh": "寻找植物",
+    "nameEn": "Find Plants",
+    "description": "手持植物任一部分，在范围内找出活植物，并在持续时间内无误指出方向。",
+    "details": [
+      {
+        "title": "Dragon #49 · 寻找植物",
+        "html": "<p>手持植物任一部分，在范围内找出活植物，并在持续时间内无误指出方向。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 60,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 60,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
+  },
+  {
+    "level": 5,
+    "school": "原刊未列",
+    "components": [],
+    "castingTime": "原刊未列",
+    "range": "触碰",
+    "duration": "永久",
+    "areaOfEffect": "一吨含矿岩石",
+    "savingThrow": "无",
+    "classes": [
+      "Alchemist"
+    ],
+    "reversible": false,
+    "materialComponent": "",
+    "id": "dragon-049-spell-transmute-rock-to-ore",
+    "nameZh": "岩石化矿",
+    "nameEn": "Transmute Rock to Ore",
+    "description": "把含矿岩石变成指定形态的纯矿。施法需一小时，被打断便完全失败；每次最多一吨，已加工石材不受影响。",
+    "details": [
+      {
+        "title": "Dragon #49 · 岩石化矿",
+        "html": "<p>把含矿岩石变成指定形态的纯矿。施法需一小时，被打断便完全失败；每次最多一吨，已加工石材不受影响。</p>",
+        "source": {
+          "book": "Dragon #49",
+          "page": 60,
+          "section": "alchemist-spells"
+        },
+        "href": "/books/dragon-49/alchemist-spells/"
+      }
+    ],
+    "source": [
+      {
+        "book": "Dragon #49",
+        "page": 60,
+        "section": "alchemist-spells"
+      }
+    ],
+    "tags": [
+      "Dragon 杂志",
+      "杂志版",
+      "Dragon #49"
+    ]
   }
 ]
