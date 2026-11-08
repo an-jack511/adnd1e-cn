@@ -1,5 +1,5 @@
 
-## 闹鬼大厅 THE HAUNTED HALLS（续）
+## 闹鬼大厅 THE HAUNTED HALLS
 
 闹鬼大厅建在峡谷本身的峭壁中，主要大门扭曲、锈蚀，偏向一侧。
 

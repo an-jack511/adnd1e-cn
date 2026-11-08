@@ -15,7 +15,7 @@ const requirements = Object.entries(entry.minimumAbilities).map(([score, minimum
 <tr><th>生命骰</th><td>{entry.hitDie}</td><th>阵营</th><td>{entry.alignment}</td></tr>
 <tr><th>护甲</th><td>{entry.armor}</td><th>武器</th><td>{entry.weapons}</td></tr>
 <tr><th>施法</th><td colspan="3">{entry.spellcasting}</td></tr>
-<tr><th>可选种族</th><td colspan="3">{entry.eligibleRaces.map((id, index) => <>{index > 0 && ' · '}<a href={`/races/${id}/`}>{races.find((race) => race.id === id)?.nameZh ?? id}</a></>)}</td></tr>
+<tr><th>可选种族</th><td colspan="3">{entry.eligibleRaces.map((id, index) => { const race = races.find((candidate) => candidate.id === id); return <>{index > 0 && ' · '}{race ? <a href={`/races/${id}/`}>{race.nameZh}</a> : <span>{id}</span>}</>; })}</td></tr>
 </tbody></table></div>
 <h2>职业能力</h2><ul>{entry.abilities.map((ability) => <li><strong>{ability.href ? <a href={ability.href}>{ability.name}</a> : ability.name}</strong>：{ability.description}</li>)}</ul>
 {table ? <><h2>经验等级表</h2><div class="table-wrap"><table class="data-table compact"><thead><tr>{table.headers.map((header) => <th>{header}</th>)}</tr></thead><tbody>{table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}</tbody></table></div></> : <p class="muted">晋级与职业能力表见下方来源正文。</p>}

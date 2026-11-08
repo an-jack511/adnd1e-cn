@@ -1,5 +1,5 @@
 
-## 雇佣兵规则 MERCENARY COMPANIES（续）
+## 雇佣兵规则 MERCENARY COMPANIES
 
 雇佣兵合同通常还会协商以下事项：
 

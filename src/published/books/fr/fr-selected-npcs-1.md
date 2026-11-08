@@ -1,4 +1,4 @@
-## Selected NPCs of the Realms
+## 国度重要人物选录 Selected NPCs of the Realms
 
 国度是一个活着、不断成长的世界，是提供 NPC 的极佳背景。这里有数以千计的人物，他们拥有姓名、事迹、性情与历史；玩家角色只是其中一小部分，却是重要的一部分。更重要的是，这些人物就是国度本身。若把这样的人口主体写入书中，即使像这里一样压缩呈现，也会成为一部巨大而令人难以阅读的书。
 
@@ -29,13 +29,13 @@
 
 ## 著名人类
 
-### Ailoth（EVE-loth）
+### 艾洛斯 Ailoth（EVE-loth）
 
 <strong>据点：</strong>希尔斯法尔与桑比亚。<strong>6 级魔法使用者，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 Ailoth 是一个矮小、白发的法师，为泰伊红袍法师在桑比亚和希尔斯法尔搜集情报，同时充当放贷人和“救济品／损坏品”买家。他与红袍法师的关系在希尔斯法尔和桑比亚都广为人知。
 
-### Aldolphus（aL-DOL-fuss）
+### 阿尔多弗斯 Aldolphus（aL-DOL-fuss）
 
 <strong>头衔：</strong>贤者。<strong>据点：</strong>科米尔的阿拉贝尔。<strong>0 级战士。</strong>阵营／信仰：<strong>守序中立，欧格玛。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -43,19 +43,19 @@ Aldolphus 是一位异常开朗的贤者，没有国度各地同行常有的那�
 
 Aldolphus 收费很高，但他是阿佐恩在阿拉贝尔时的常客；两人是亲密朋友，科米尔统治者喜欢与这位贤者共餐。只要国王还在城里，不论事情多么紧急、费用多么高，Aldolphus 都会放下手头的一切前来受聘。
 
-### Alok Leh
+### 阿洛克·雷 Alok Leh
 
 <strong>等级／职业：</strong>5 级战士。<strong>信仰：</strong>索洛诺尔·瑟兰迪拉。<strong>种族／性别：</strong>人类女性。**
 
 Alok Leh 是派驻在埃尔文·绿斗篷麾下的 20 名精灵长弓手的指挥官。她在战斗中使用双手剑。Alok 宁愿离开这个世界，也不愿放弃长弓手指挥官的位置。
 
-### Alzegund（AbL-zeh-gund）
+### 阿尔泽贡德 Alzegund（AbL-zeh-gund）
 
 <strong>据点：</strong>在科米尔、桑比亚和龙湾一带游荡。<strong>10 级魔法使用者，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 这位年老、秃顶、身上带着战争伤疤的死灵法师，公开穿着胸前和背后都有红色火焰徽章的长袍，沿商路旅行时由一群红袍法师护卫。他据说拥有一个魔法戏法袋和一根闪电魔杖。
 
-### Arthagus（Are-THAY-gus）
+### 阿萨格斯 Arthagus（Are-THAY-gus）
 
 <strong>绰号：</strong>“奇迹之 Arthagus”。<strong>据点：</strong>桑比亚的尤昂。<strong>7 级幻术师。</strong>阵营／信仰：<strong>混乱中立，莱拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -63,13 +63,13 @@ Alok Leh 是派驻在埃尔文·绿斗篷麾下的 20 名精灵长弓手的指�
 
 Arthagus 拥有许多小型魔法物品，尤其是防护性质的物品；其中最不寻常的或许是他那件与特泽尔南岸有关的物品。
 
-### Asbras Hlumin（AZZ-brazz Huh-LOO-min）
+### 阿斯布拉斯·赫鲁明 Asbras Hlumin（AZZ-brazz Huh-LOO-min）
 
 <strong>据点：</strong>在月海／龙湾游荡。<strong>6 级魔法使用者。</strong>所属：<strong>龙之教团。</strong>阵营／信仰：<strong>中立邪恶，并伪装成中立善良。</strong>种族／性别：<strong>人类男性。</strong>
 
 这个法师用魔法隐藏自己的阵营，并声称自己是中立善良。他愿意为在该地区活动的冒险队训练、施法，甚至短期加入他们，借机了解他们的一切，然后在某个危险地点背叛他们，希望他们被杀死；随后 Asbras 会夺走冒险者的全部财宝，留下其中一部分给自己，把其余部分交给教团。
 
-### Aubaerus（AWE-bare-us）
+### 奥贝鲁斯 Aubaerus（AWE-bare-us）
 
 <strong>绰号：</strong>鸦之主。<strong>据点：</strong>雷霆峰地区。<strong>16 级大德鲁伊。</strong>阵营／信仰：<strong>中立，西凡纳斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -77,13 +77,13 @@ Arthagus 拥有许多小型魔法物品，尤其是防护性质的物品；其�
 
 Aubaerus 大部分时间化作一只巨大的黑鸦，在龙湾一带飞行，因此知道该区域大多数群体和生物的动向；他似乎很喜欢乌鸦。他不是竖琴手成员（尽管两者的利益经常一致），也不属于其他组织或利益集团。Aubaerus 必定非常富有，因为他从不需要花钱或支付任何东西，多年来以德鲁伊训练费的形式收取了大量金币和魔法物品。
 
-### Azala（Ah-ZALE-ah）
+### 阿扎拉 Azala（Ah-ZALE-ah）
 
 <strong>绰号：</strong>火眼 Azala。<strong>据点：</strong>龙湖以南海岸的特泽尔。<strong>11 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 Azala 与特泽尔政府关系密切，经常用魔法帮助守卫。她的青年时期是一段漫长而多彩的冒险生涯，其中包括参与杀死谭森尔巨虫。如今她住在特泽尔的一座塔中，大部分时间用于研究，以及制作小巧、有用而美丽的魔法物品。
 
-### Azargatha Nimune（Abhz-zar-GAH-tha Nih-MOON-nee）
+### 阿扎加莎·尼穆妮 Azargatha Nimune（Abhz-zar-GAH-tha Nih-MOON-nee）
 
 <strong>据点：</strong>深谷地。<strong>10 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -91,7 +91,7 @@ Azargatha 要么是竖琴手成员，要么是其盟友；她常和被认为属�
 
 她目前住在深谷地的高月，拥有一根强力魔杖（很可能是巫师法杖）。Azargatha 在高月经营一家玩具店，出售自己和精灵王庭精灵制作的精雕木制玩具。
 
-### Azoun IV（Ah-ZOON）
+### 亚桑四世 Azoun IV（Ah-ZOON）
 
 <strong>绰号：</strong>“紫龙”，科米尔国王。<strong>据点：</strong>苏萨尔。<strong>20 级骑士。</strong>阵营／信仰：<strong>守序善良，提尔与坦帕斯。</strong>种族／性别：<strong>人类男性，生于 1282 年；1311 年起统治至今。</strong>
 
@@ -99,7 +99,7 @@ Azoun 是一个中等身高、留胡子的健壮男人，棕发中夹着银丝�
 
 Azoun 的父亲是里加尔德二世，母亲是塔纳鲁斯塔·真银，姐妹是苏莱斯塔；他们如今都已去世。Azoun 的统治大体和平。贡德加尔和疤谷的拉尚曾构成威胁，石地仍有持续的小规模冲突，但没有爆发大规模战争。科米尔最近吞并了提尔弗顿；不过 Azoun 似乎不打算继续扩张，而是希望让王国在传统边界内保持强大。他是一位公正的国王，既获得人民的爱，也得到人民的忠诚。
 
-### Borustine（BORE-uh-stine）
+### 博鲁斯汀 Borustine（BORE-uh-stine）
 
 <strong>据点：</strong>月海的希尔斯法尔。<strong>7 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -109,7 +109,7 @@ Borustine 是一个寡言、宽容而受人尊敬的希尔斯法尔法师。他�
 
 Borustine 支持马尔希尔推翻腐败议会并夺取权力；他的行动为马尔希尔的统治提供了许多合法性和持久力量。他继续担任马尔希尔的顾问，必要时也偶尔提供魔法援助。Borustine 住在希尔斯法尔南端、城墙内、最靠东的城角附近一座塔中，可以望见树林。
 
-### Brandon（BRAHN-don）
+### 布兰登 Brandon（BRAHN-don）
 
 <strong>绰号：</strong>“战斗大师”。<strong>据点：</strong>游荡，基地在普里亚普尔。<strong>6 级战士。</strong>阵营／信仰：<strong>混乱中立，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -119,7 +119,7 @@ Brandon 的事迹包括在塞尔布附近山地杀死巫妖塔鲁伊加格、攻
 
 Brandon 有自己的荣誉准则；他在热情外表下十分精明。他不会持续做任何会破坏当地整体和平的事，因为一旦爆发大规模战争，他的工作会危险得多，竞争会更激烈，而人们通常也更无力支付他的服务费。他曾与盖尔拉娜在“心盲之翼”雇佣兵公司中并肩作战（见“雇佣兵公司”），但虽然极为尊敬“血剑夫人”，却与她的非人类部队相处不佳。
 
-### Deior Rasthavin（DAY-ore RAST-hah-vin）
+### 戴奥·拉斯萨文 Deior Rasthavin（DAY-ore RAST-hah-vin）
 
 <strong>据点：</strong>塞尔伦。<strong>头衔：</strong>贤者。<strong>4 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，欧格玛。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -127,7 +127,7 @@ Brandon 有自己的荣誉准则；他在热情外表下十分精明。他不会
 
 Deior 收费很高，也非常忙。他的两名护卫是 5 级战士希鲁尔和里奥克；除非 Deior 自己愿意，否则他们不会让别人打扰他。Deior 已经刮净胡子，年老而弯腰（他从未强壮过），但智力和感知都是 18，并通常佩戴 AC 2 的防御护腕。
 
-### Delbossan（Del-BOSS-an）
+### 德尔博桑 Delbossan（Del-BOSS-an）
 
 <strong>职位：</strong>埃斯帕领主赫佐姆的马厩主管。<strong>等级／职业：</strong>3 级战士／2 级盗贼。<strong>阵营／信仰：</strong>混乱中立，坦帕斯与马斯克。<strong>种族／性别：</strong>人类男性。**
 
@@ -135,7 +135,7 @@ Delbossan 是一个中年、沉默寡言、能力可靠的人，擅长训练和�
 
 后来他曾在埃斯帕老马厩主管休兰手下担任助理，喜欢这份工作；休兰因长期咳嗽去世后，他接替了对方。此后他一直忠实任职，包括接受科米尔军事训练并承担军事职责，如今已是一名忠诚而干练的武装人员。
 
-### Doust Sulwood（DOWST SULL-wood）
+### 道斯特·萨尔伍德 Doust Sulwood（DOWST SULL-wood）
 
 <strong>据点：</strong>阿拉贝尔。<strong>8 级泰莫拉牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -147,7 +147,7 @@ Doust 发现统治责任很难与泰莫拉的哲学调和，最终辞去领主�
 
 Doust 知道，从领主职责中获得的自由，也让他有时间和相对安全的环境抚养儿子、与妻子享受一些闲暇；他如今仍在阿拉贝尔从事这些事情。
 
-### Dove Falconhand
+### 多芙·鹰手 Dove Falconhand
 
 <strong>据点：</strong>谷地诸国与埃斯帕。<strong>11 级巡林客。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -157,7 +157,7 @@ Dove 是一个著名姐妹家族中最年轻的成员之一；其他姐妹包括
 
 队伍离开暗影谷、成为迷斯卓诺骑士团后，Dove 怀孕，退居埃斯帕（还短暂去过永聚岛；她是获准访问那个被树木遮蔽国度的少数人类之一）生下孩子，并一直留在那里。Dove 高挑而优美，说话沉着坚定，善良，并在战斗中无所畏惧。
 
-### Durkin
+### 德金 Durkin
 
 <strong>职业：</strong>盗贼。<strong>种族：</strong>矮人男性。**
 
@@ -165,7 +165,7 @@ Durkin 是一名古老的矮人，肩膀宽得畸形，是一位令人敬畏、�
 
 除非来者是精灵或矮人（Durkin 尊重这些种族及其物品，但不包括卓尔和灰矮人），否则接近这个老战士非常危险。只要他认为你有任何邪恶之处，就会像狗一样吠叫和咆哮，发出杀意的低吼并发动攻击。Durkin 有一头狂乱蓬松的白发，也留着相似的胡子，穿着破旧、弯曲的铁甲。除了雨雪接触外，他已经有大约五十年没有洗过澡。
 
-### Elminster（EL-MIN-ster）
+### 伊尔明斯特 Elminster（EL-MIN-ster）
 
 <strong>据点：</strong>暗影谷。<strong>头衔：</strong>国度著名贤者。<strong>等级／职业：</strong>26 级魔法使用者。<strong>种族／性别：</strong>人类男性。**
 

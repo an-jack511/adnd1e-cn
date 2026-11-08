@@ -1,5 +1,5 @@
 
-## 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES（续）
+## 斯科努贝尔商队公司 SCORNUBEL CARAVAN COMPANIES
 
 ### 便足贸易大师 Surefeet Trademasters
 
@@ -84,7 +84,7 @@
 | 49 | 普雷兹米尔草药师（草药、药物、护符、香水与香粉） |
 | 50 | “远锚”（旅店） |
 
-## 桑比亚 SEMBIA（续）
+## 桑比亚 SEMBIA
 
 ### 伊尔明斯特的笔记 ELMINSTER'S NOTES
 

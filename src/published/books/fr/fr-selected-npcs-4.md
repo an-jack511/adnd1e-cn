@@ -1,8 +1,8 @@
-## Osper Linthalam（续）
+## 奥斯珀·林萨兰 Osper Linthalam
 
 Osper 秃顶，胡子和浓密眉毛已经变白；他戴着许多戒指，其中一些可能是魔法物品。
 
-## Perendra（Per-EN-drah）
+## 佩伦德拉 Perendra（Per-EN-drah）
 
 <strong>据点：</strong>沃恩拉尔。<strong>6 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与泰莫拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -14,13 +14,13 @@ Perendra 长大后掌握了魔法艺术，并在阿露丝翠的宫廷中表现�
 
 Perendra 据说拥有飞弹项链、隐身戒指和某种魔杖，并正在研究制造一种新的魔杖。内海地区只有少数几个人知道她完整的背景。
 
-## Piergeiron（Peer-GEER-on）
+## 皮尔盖伦 Piergeiron（Peer-GEER-on）
 
 <strong>绰号：</strong>“圣骑士之子”。<strong>头衔：</strong>深水城领主。<strong>据点：</strong>深水城。<strong>14 级圣武士。</strong>阵营／信仰：<strong>守序善良，提尔。</strong>种族／性别：<strong>人类男性。</strong>
 
 Piergeiron 是深水城唯一一个身份为所有人所知的领主。他以才干和不偏不倚的正义治理这个大港口城市，因此赢得了大多数居民与访客的尊敬。关于“圣骑士之子”的更多资料见《FR1：深水城与北方》；他的父亲是著名的阿萨尔“闪耀骑士”、“提尔之臂”。
 
-## Rairun（RARE-unn）
+## 莱伦 Rairun（RARE-unn）
 
 <strong>绰号：</strong>黑眉 莱伦（Rairun）。<strong>据点：</strong>内海地区游荡。<strong>7 级德鲁伊。</strong>阵营／信仰：<strong>中立，西凡纳斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -30,7 +30,7 @@ Piergeiron 是深水城唯一一个身份为所有人所知的领主。他以才
 
 这项理念已在一些谷地和桑比亚北部传播开来，那里大部分木材储备已经耗尽。莱伦的力量和体质都高于平均值（均为 17），魅力为 16。他的漫游和工作使他熟悉许多林地语言：通用语、德鲁伊语、阵营语言、树精语、树人语、矮妖精语、人马语和兽人语。他与当地少数萨提尔有些宿怨。
 
-## Randal Morn
+## 兰道·莫恩 Randal Morn
 
 <strong>据点：</strong>匕首谷。<strong>等级／职业：</strong>6 级吟游诗人／7 级战士／6 级盗贼。<strong>阵营／信仰：</strong>中立善良，泰莫拉、欧格玛与塞露涅。<strong>种族／性别：</strong>人类男性。**
 
@@ -40,7 +40,7 @@ Randal Morn 是一个陷入困境之地的统治者：北方有兽人和更糟�
 
 他身材中等，留着长棕发，相貌英俊，是一名出色的歌者和音乐家。
 
-## Rathan Thentraver（RATH-an THEN-traver）
+## 拉森·森特拉弗 Rathan Thentraver（RATH-an THEN-traver）
 
 <strong>据点：</strong>谷地诸国游荡。<strong>5 级牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -50,7 +50,7 @@ Rathan 出生在阿拉贝尔，父母 Rathur 和 Ulla Thentraver 是鞋匠商人
 
 他使用一枚在与泽恩塔林邪恶法师的激烈战斗中获得的冲击戒指，也使用更常见的牧师武器。Rathan 精通缓慢呼吸、耐力和真菌辨认；自从成为冒险者以来，他在女士的侍奉中迅速晋升。
 
-## Rhauntides（RAWN-tides）
+## 朗泰德斯 Rhauntides（RAWN-tides）
 
 <strong>据点：</strong>深谷地。<strong>头衔：</strong>贤者。<strong>12 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -60,7 +60,7 @@ Rhauntides 身材高瘦，相貌英俊，蓝眼睛锐利，留着尖尖的小白
 
 如今冒险者会把找到的法术书带给他，因为他们知道他愿意为任何魔法书付出高价。他的财富及其防护方式无人知晓，但肯定相当可观，而且众所周知他拥有许多强大的魔法物品。觊觎者还应知道，他至少已经摧毁了十六名（很可能更多）强大法师和冒险队；这些人曾来到他的塔，企图替他取走那些“麻烦的财物”。
 
-## Sememmon（SEH-mem-on）
+## 塞蒙 Sememmon（SEH-mem-on）
 
 <strong>据点：</strong>黑堡。<strong>12 级魔法使用者。</strong>阵营／信仰：<strong>守序邪恶，密斯特拉与班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -68,7 +68,7 @@ Rhauntides 身材高瘦，相貌英俊，蓝眼睛锐利，留着尖尖的小白
 
 Sememmon 拥有许多魔法物品、许多安全住所和许多策略。他总在计划和策划，是一个可怕的敌人。在他的指挥下，黑堡布满陷阱和魔法防御。他极少离开黑堡，除非伪装起来去学习某些他自己不敢或不愿交给手下的事情（例如窥探曼松的行动）。他的私人徽记是一枚黑色等边三角形，底边被一个椭圆环绕。
 
-## Shaerl Amcathra（SHAY-erl AM-CATH-rah）
+## 谢尔·安卡萨 Shaerl Amcathra（SHAY-erl AM-CATH-rah）
 
 <strong>头衔：</strong>暗影谷夫人。<strong>6 级盗贼。</strong>阵营／信仰：<strong>守序中立，马斯克。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -78,7 +78,7 @@ Shaerl 出生并成长于苏萨尔，是科米尔贵族家的年轻女子。她�
 
 Thomdor 对 Shaerl 十分满意，她在科米尔受到欢迎。她的父母不太了解她的成就，但很高兴她属于某个统治阶级，也很高兴她曾在 Azoun 的侍奉中扮演过重要角色，因为这增强了家族的声望。
 
-## Sharantyr（SHAR-an-teer）
+## 莎兰蒂尔 Sharantyr（SHAR-an-teer）
 
 <strong>据点：</strong>谷地诸国游荡。<strong>2 级巡林客。</strong>阵营／信仰：<strong>混乱善良，梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -90,7 +90,7 @@ Thauntyr 是一个仁慈而高贵的人，把她当成亲生女儿在荒野中�
 
 Sharantyr 是熟练的骑手和游泳者，耐力高于平均水平，偏爱长剑或双手剑战斗。
 
-## Shaunil Tharm（SHAW-nil Tharm）
+## 肖妮尔·萨姆 Shaunil Tharm（SHAW-nil Tharm）
 
 <strong>据点：</strong>深谷地。<strong>7 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -106,7 +106,7 @@ Sharantyr 是熟练的骑手和游泳者，耐力高于平均水平，偏爱长�
 
 她是神秘而孤独的大法师，只有她的姐妹们知道她真正的姓名：暗影谷的 Sylune（已去世）、银月城的阿露丝翠、吟游诗人暴风银手，以及巡林客 Dove。辛布尔广泛旅行，穿梭许多位面，不断变形，执行只有她自己能理解的神秘目标。她拥有某种魔法，使她免疫恐惧、慈善术、衰老魔法和类似的法术，例如 Serten 的法术免疫。
 
-## Storm Silverhand
+## 风暴·银手 Storm Silverhand
 
 <strong>据点：</strong>暗影谷。<strong>7 级吟游诗人／7 级战士／5 级盗贼。</strong>阵营／信仰：<strong>中立善良，米利尔。</strong>种族／性别：<strong>人类女性。</strong>
 

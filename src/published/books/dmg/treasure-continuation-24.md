@@ -1,4 +1,4 @@
-### III. 次要恶性效果 Minor Malevolent Effects（续）
+### III. 次要恶性效果 Minor Malevolent Effects
 
 | 编号 | 效果 |
 |---|---|

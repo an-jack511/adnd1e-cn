@@ -120,7 +120,7 @@
 
 衣物：硬高筒靴 5 yuan，软高筒靴 3 yuan，帽 8 fen，布斗篷 1 tael，毛皮斗篷 4 tael，手套 5 yuan，毛皮帽 2 yuan，草帽 1 yuan，缠腰布 1 fen，外袍 4 yuan，草雨衣 1 yuan，棉袍 2 yuan，毛皮镶边袍 3 tael，丝袍 3 tael，凉鞋 4 fen，腰带 1 yuan，tabi 5 yuan，棉裤 3 yuan，羊毛裤 1 tael，头巾 2 yuan，毛皮背心 2 tael，丝背心 1 tael。
 
-### 表 47（续）：杂项、食物、服务与交通
+### 表 47：杂项、食物、服务与交通
 
 |物品或服务|价格|物品或服务|价格|
 |---|---:|---|---:|

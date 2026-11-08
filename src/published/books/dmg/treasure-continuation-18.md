@@ -1,4 +1,4 @@
-#### 无限位面法典 Codex of the Infinite Planes（续）
+#### 无限位面法典 Codex of the Infinite Planes
 
 任何触碰法典的 <strong>11 级以下</strong>角色都会立即死亡；<strong>11 级或更高</strong>的角色若通过对抗魔法的豁免检定，则可以支配法典的能力与效果：
 

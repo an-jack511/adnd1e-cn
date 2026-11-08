@@ -1962,6 +1962,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:alcor",
+    "en": "Alcor",
+    "currentZh": "阿尔科雪蜥",
+    "candidates": [
+      {
+        "en": "Balor",
+        "zh": "巴洛炎魔",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:amon",
     "en": "Amon",
     "currentZh": "阿蒙",
@@ -2019,6 +2033,54 @@
         "zh": "塔拉克",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-dosi.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:av",
+    "en": "Av",
+    "currentZh": "阿夫沙行马",
+    "candidates": [
+      {
+        "en": "Avi",
+        "zh": "阿维",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdh.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:avari",
+    "en": "Avari",
+    "currentZh": "阿瓦里蝠人",
+    "candidates": [
+      {
+        "en": "Avarice",
+        "zh": "阿瓦芮丝",
+        "similarity": 0.833,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-idrotf.json"
+      },
+      {
+        "en": "Viari",
+        "zh": "维阿里",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ai.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:bahtel",
+    "en": "Bahtel",
+    "currentZh": "巴特尔狂战马",
+    "candidates": [
+      {
+        "en": "Bael",
+        "zh": "巴艾尔",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2224,6 +2286,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:draken",
+    "en": "Draken",
+    "currentZh": "三首雷龙兽",
+    "candidates": [
+      {
+        "en": "Kraken",
+        "zh": "克拉肯",
+        "similarity": 0.833,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:dune stalker",
     "en": "Dune Stalker",
     "currentZh": "沙丘追猎者",
@@ -2258,6 +2334,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:embrac",
+    "en": "Embrac",
+    "currentZh": "恩布拉克缠抱兽",
+    "candidates": [
+      {
+        "en": "Embric",
+        "zh": "恩布里克",
+        "similarity": 0.833,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdh.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:faerie dragon",
     "en": "Faerie Dragon",
     "currentZh": "妖精龙",
@@ -2284,6 +2374,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:faerie drake",
+    "en": "Faerie Drake",
+    "currentZh": "仙灵幼龙",
+    "candidates": [
+      {
+        "en": "Large Drake",
+        "zh": "大型龙兽",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ps-a.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:firedrake",
     "en": "Firedrake",
     "currentZh": "火蜥龙",
@@ -2298,6 +2402,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:flailtail",
+    "en": "Flailtail",
+    "currentZh": "鞭尾兽",
+    "candidates": [
+      {
+        "en": "Flail Snail",
+        "zh": "链枷蜗牛",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:frost man",
     "en": "Frost Man",
     "currentZh": "霜人",
@@ -2305,6 +2423,20 @@
       {
         "en": "Frost Giant",
         "zh": "霜巨人",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:ghula",
+    "en": "Ghula",
+    "currentZh": "古拉食尸妖",
+    "candidates": [
+      {
+        "en": "Ghoul",
+        "zh": "食尸鬼",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
       }
@@ -2333,6 +2465,20 @@
         "zh": "巨黄蜂",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:giant lightning bug",
+    "en": "Giant Lightning Bug",
+    "currentZh": "巨型闪电萤",
+    "candidates": [
+      {
+        "en": "Giant Lightning Eel",
+        "zh": "巨电鳗",
+        "similarity": 0.842,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-tftyp.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2408,6 +2554,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:great wyrm",
+    "en": "Great Wyrm",
+    "currentZh": "巨古龙",
+    "candidates": [
+      {
+        "en": "Red Greatwyrm",
+        "zh": "太古红龙",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-ftd.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:greenhag",
     "en": "Greenhag",
     "currentZh": "绿鬼婆",
@@ -2443,6 +2603,20 @@
         "zh": "史拉红蟾",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:hawkdragon",
+    "en": "Hawkdragon",
+    "currentZh": "鹰龙",
+    "candidates": [
+      {
+        "en": "Shadow Dragon",
+        "zh": "幽影龙",
+        "similarity": 0.783,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2496,6 +2670,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:king cobra",
+    "en": "King Cobra",
+    "currentZh": "眼镜王蛇",
+    "candidates": [
+      {
+        "en": "Iron Cobra",
+        "zh": "钢铁眼镜蛇",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mtf.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:kostchtchie",
     "en": "Kostchtchie",
     "currentZh": "科斯彻奇",
@@ -2519,6 +2707,20 @@
         "zh": "熔岩之子",
         "similarity": 0.87,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:lesser colossus",
+    "en": "Lesser Colossus",
+    "currentZh": "次级尸骸巨像",
+    "candidates": [
+      {
+        "en": "Flesh Colossus",
+        "zh": "肉身巨像",
+        "similarity": 0.828,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-bgg.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2600,6 +2802,40 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:musical spirit",
+    "en": "Musical Spirit",
+    "currentZh": "乐灵",
+    "candidates": [
+      {
+        "en": "Bestial Spirit",
+        "zh": "野兽灵魄",
+        "similarity": 0.786,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-tce.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:narra",
+    "en": "Narra",
+    "currentZh": "纳拉",
+    "candidates": [
+      {
+        "en": "Narrak",
+        "zh": "纳拉克",
+        "similarity": 0.909,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-oota.json"
+      },
+      {
+        "en": "Garra",
+        "zh": "加拉",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-erlw.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:nat",
     "en": "Nat",
     "currentZh": "纳特（低等灵）",
@@ -2609,6 +2845,20 @@
         "zh": "自然",
         "similarity": 1.0,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-wdh.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:nereis",
+    "en": "Nereis",
+    "currentZh": "沙蚕",
+    "candidates": [
+      {
+        "en": "Nereid",
+        "zh": "涅瑞伊德",
+        "similarity": 0.833,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-tftyp.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2676,6 +2926,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:orgautha",
+    "en": "Orgautha",
+    "currentZh": "双口陆蛭",
+    "candidates": [
+      {
+        "en": "Morgantha",
+        "zh": "摩甘萨",
+        "similarity": 0.824,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-cos.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:otter",
     "en": "Otter",
     "currentZh": "水獭",
@@ -2718,6 +2982,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:sea giant",
+    "en": "Sea Giant",
+    "currentZh": "海巨人",
+    "candidates": [
+      {
+        "en": "Stone Giant",
+        "zh": "石巨人",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:sea zombie",
     "en": "Sea Zombie",
     "currentZh": "海尸",
@@ -2733,6 +3011,26 @@
         "zh": "施特拉德丧尸",
         "similarity": 0.783,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-cos.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:shadow drake",
+    "en": "Shadow Drake",
+    "currentZh": "暗影幼龙",
+    "candidates": [
+      {
+        "en": "Shadow Dragon",
+        "zh": "幽影龙",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-xmm.json"
+      },
+      {
+        "en": "Shadow Dancer",
+        "zh": "影舞者",
+        "similarity": 0.72,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mtf.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -2868,6 +3166,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:water-horse",
+    "en": "Water-Horse",
+    "currentZh": "水马",
+    "candidates": [
+      {
+        "en": "Warhorse",
+        "zh": "战马",
+        "similarity": 0.842,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:wolfwere",
     "en": "Wolfwere",
     "currentZh": "化人狼",
@@ -2966,6 +3278,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "spell:commune with earth",
+    "en": "Commune with Earth",
+    "currentZh": "与大地交谈",
+    "candidates": [
+      {
+        "en": "Commune with Nature",
+        "zh": "问道自然",
+        "similarity": 0.757,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "spell:conjure earth elemental",
     "en": "Conjure Earth Elemental",
     "currentZh": "召唤土元素",
@@ -3054,6 +3380,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "spell:earth sense",
+    "en": "Earth Sense",
+    "currentZh": "大地感知",
+    "candidates": [
+      {
+        "en": "Beast Sense",
+        "zh": "野兽感官",
+        "similarity": 0.818,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "spell:flame arrow",
     "en": "Flame Arrow",
     "currentZh": "火焰箭",
@@ -3118,6 +3458,20 @@
         "en": "Leomund's Secret Chest",
         "zh": "李欧蒙秘藏箱",
         "similarity": 0.826,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "spell:lightning water",
+    "en": "Lightning Water",
+    "currentZh": "雷水",
+    "candidates": [
+      {
+        "en": "Lightning Arrow",
+        "zh": "闪电箭矢",
+        "similarity": 0.733,
         "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
       }
     ],
@@ -3350,6 +3704,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "spell:scarf",
+    "en": "Scarf",
+    "currentZh": "消失围巾",
+    "candidates": [
+      {
+        "en": "Scare",
+        "zh": "恐吓术",
+        "similarity": 0.8,
+        "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "spell:summon shadow",
     "en": "Summon Shadow",
     "currentZh": "召唤阴影",
@@ -3401,6 +3769,20 @@
     "key": "spell:transmute rock to mud",
     "en": "Transmute Rock to Mud",
     "currentZh": "化石为泥",
+    "candidates": [
+      {
+        "en": "Transmute Rock",
+        "zh": "转化岩石",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/spells/spells-xge.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "spell:transmute rock to ore",
+    "en": "Transmute Rock to Ore",
+    "currentZh": "岩石化矿",
     "candidates": [
       {
         "en": "Transmute Rock",

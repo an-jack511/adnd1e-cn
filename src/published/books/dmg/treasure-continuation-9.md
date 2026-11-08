@@ -1,4 +1,4 @@
-#### 光辉头盔 Helm of Brilliance（续）
+#### 光辉头盔 Helm of Brilliance
 
 | 宝石 | 类法术能力 |
 |---|---|

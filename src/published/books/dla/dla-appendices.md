@@ -47,7 +47,7 @@
 
 ## 第 116 页
 
-## 安萨隆统一怪物图表（续） Unified Ansalon Monster Chart
+## 安萨隆统一怪物图表 Unified Ansalon Monster Chart
 
 <strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为统一怪物表续页，原书表格底纹、列标题和出处脚注均已转录。
 
@@ -930,9 +930,9 @@
 
 <strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为法术摘要续页。
 
-## 法术摘要续（印刷第 127 页）
+## 法术摘要（印刷第 127 页）
 
-### 变化续 Alteration
+### 变化 Alteration
 
 降低水位 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克's Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；永久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；变形他人 Polymorph Other（4M）；自我变形 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞's Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；石转肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 

@@ -1,6 +1,6 @@
 > 原书来源页：PDF 第 55 页（原书页码 54）。本主题接续 恐龙，收录 恐鹤、巨型翼龙、轻足龙、似鸵龙、长颈龙 与 腱龙。
 
-## 恐龙（续） · Dinosaur (Continued)
+## 恐龙 · Dinosaur
 
 ### 恐鹤 · Phororhacos
 

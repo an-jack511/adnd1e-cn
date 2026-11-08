@@ -25,11 +25,21 @@
       {
         "path": "src/data/public/dragon-classes.json",
         "location": "/7",
-        "zh": "野蛮人（Gygax早期测试稿）"
+        "zh": "野蛮人"
       },
       {
         "path": "src/data/public/oa-classes.ts",
         "location": "9",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/public/character-options.json",
+        "location": "/classes/1",
+        "zh": "野蛮人"
+      },
+      {
+        "path": "src/data/public/character-options.json",
+        "location": "/classes/14",
         "zh": "野蛮人"
       },
       {
@@ -135,42 +145,42 @@
     "occurrences": [
       {
         "path": "src/data/published/books.json",
-        "location": "/1470",
+        "location": "/1596",
         "zh": "梅利克斯火焰魔嘴"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1472",
+        "location": "/1599",
         "zh": "《奥丁法术集》资料"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1474",
+        "location": "/1605",
         "zh": "肢体麻木"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1475",
+        "location": "/1614",
         "zh": "毒蛇之噬"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1477",
+        "location": "/1621",
         "zh": "轻伤缓愈"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1479",
+        "location": "/1625",
         "zh": "充能术"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1483",
+        "location": "/1642",
         "zh": "德鲁伊视界"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1487",
+        "location": "/1652",
         "zh": "奥术治疗：代谢与吸血"
       }
     ],
@@ -230,6 +240,7 @@
       "+1／对海栖大地精 +3 匕首",
       "多藏橡木箱",
       "夸尔羽符：化树",
+      "奇异集市",
       "快速再生戒指",
       "死灵师戒指",
       "激怒箭",
@@ -262,43 +273,53 @@
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1402",
+        "location": "/1412",
+        "zh": "奇异集市"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1415",
         "zh": "飞行珍珠"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1407",
+        "location": "/1428",
         "zh": "多藏橡木箱"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1409",
+        "location": "/1433",
         "zh": "+1／对海栖大地精 +3 匕首"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1413",
+        "location": "/1450",
         "zh": "夸尔羽符：化树"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1467",
+        "location": "/1588",
         "zh": "快速再生戒指"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1473",
+        "location": "/1604",
         "zh": "锈蚀魔杖"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1478",
+        "location": "/1622",
         "zh": "激怒箭"
       },
       {
         "path": "src/data/published/books.json",
-        "location": "/1485",
+        "location": "/1645",
         "zh": "误警球"
+      },
+      {
+        "path": "src/published/books/dragon-39/bazaar-of-the-bizarre.md",
+        "location": "7",
+        "zh": "奇异集市"
       }
     ],
     "activeIds": [],
@@ -476,6 +497,302 @@
         "path": "src/data/published/books.json",
         "location": "/1063",
         "zh": "目录"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:creature catalog",
+    "category": "heading",
+    "en": "Creature Catalog",
+    "zh": "阿米托克",
+    "englishVariants": [
+      "Creature Catalog"
+    ],
+    "legacyZh": [
+      "伊哈格尼姆",
+      "古纳",
+      "吞噬兽",
+      "比奇尔",
+      "法坎",
+      "皮革寄生兽",
+      "辛德",
+      "鞭尾兽"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1518",
+        "zh": "阿米托克"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1519",
+        "zh": "比奇尔"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1520",
+        "zh": "法坎"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1521",
+        "zh": "鞭尾兽"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1522",
+        "zh": "古纳"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1523",
+        "zh": "伊哈格尼姆"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1524",
+        "zh": "皮革寄生兽"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1525",
+        "zh": "辛德"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1526",
+        "zh": "吞噬兽"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:dragon's bestiary",
+    "category": "heading",
+    "en": "Dragon's Bestiary",
+    "zh": "巴盖斯特魔犬",
+    "englishVariants": [
+      "Dragon's Bestiary"
+    ],
+    "legacyZh": [
+      "巨型吸血蛙",
+      "库贾努克圣鸟",
+      "怪物志",
+      "气囊兽",
+      "秃鹫猎犬",
+      "诅咒者",
+      "闪灭兽"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1391",
+        "zh": "巴盖斯特魔犬"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1402",
+        "zh": "诅咒者"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1404",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1406",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1408",
+        "zh": "秃鹫猎犬"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1414",
+        "zh": "闪灭兽"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1417",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1421",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1424",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1425",
+        "zh": "库贾努克圣鸟"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1432",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1435",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1439",
+        "zh": "巨型吸血蛙"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1444",
+        "zh": "气囊兽"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1445",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1451",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1453",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1457",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1464",
+        "zh": "怪物志"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:dragon's bestiary, the",
+    "category": "heading",
+    "en": "Dragon's Bestiary, The",
+    "zh": "冰灵",
+    "englishVariants": [
+      "Dragon's Bestiary, The"
+    ],
+    "legacyZh": [
+      "冰淇淋筒虫",
+      "怪物志",
+      "沙蚕",
+      "灵吸怪的近亲与伴生生物",
+      "罔两",
+      "鱼龙"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1610",
+        "zh": "冰灵"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1616",
+        "zh": "沙蚕"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1617",
+        "zh": "冰淇淋筒虫"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1620",
+        "zh": "鱼龙"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1639",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1654",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1655",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1656",
+        "zh": "灵吸怪的近亲与伴生生物"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1657",
+        "zh": "罔两"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:dragons are wizards' best friends",
+    "category": "heading",
+    "en": "Dragons are Wizards' Best Friends",
+    "zh": "怪物志",
+    "englishVariants": [
+      "Dragons are Wizards' Best Friends"
+    ],
+    "legacyZh": [
+      "恶魔幼龙的独门法术",
+      "高级龙类魔宠"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1646",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1647",
+        "zh": "恶魔幼龙的独门法术"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1649",
+        "zh": "高级龙类魔宠"
+      },
+      {
+        "path": "src/published/books/dragon-146/greater-familiars.md",
+        "location": "7",
+        "zh": "高级龙类魔宠"
       }
     ],
     "activeIds": [],
@@ -1185,6 +1502,40 @@
     "notes": []
   },
   {
+    "key": "heading:sharper than a serpent's tooth",
+    "category": "heading",
+    "en": "Sharper Than a Serpent's Tooth",
+    "zh": "怪物志",
+    "englishVariants": [
+      "Sharper Than a Serpent's Tooth"
+    ],
+    "legacyZh": [
+      "蛇类感知、绞杀与毒素",
+      "蛇类规则"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1576",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1578",
+        "zh": "蛇类规则"
+      },
+      {
+        "path": "src/published/books/dragon-115/snake-rules.md",
+        "location": "7",
+        "zh": "蛇类感知、绞杀与毒素"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:sixth level spells",
     "category": "heading",
     "en": "Sixth Level Spells",
@@ -1496,6 +1847,74 @@
         "path": "src/published/books/ua/ua-dm-misc-item-descriptions-103-104.md",
         "location": "114",
         "zh": "剑的特殊说明"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:the dragon's bestiary: a walk through the woods",
+    "category": "heading",
+    "en": "The Dragon's Bestiary: A Walk through the Woods",
+    "zh": "怪物志",
+    "englishVariants": [
+      "The Dragon's Bestiary: A Walk through the Woods"
+    ],
+    "legacyZh": [
+      "林地药剂与魔法制作",
+      "野生半身人"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1582",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1584",
+        "zh": "野生半身人"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1585",
+        "zh": "林地药剂与魔法制作"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:the ungrateful dead",
+    "category": "heading",
+    "en": "The Ungrateful Dead",
+    "zh": "怪物志",
+    "englishVariants": [
+      "The Ungrateful Dead"
+    ],
+    "legacyZh": [
+      "不死生物变体",
+      "骷髅、僵尸与食尸鬼的变体"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1631",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1632",
+        "zh": "不死生物变体"
+      },
+      {
+        "path": "src/published/books/dragon-138/undead-variants.md",
+        "location": "7",
+        "zh": "骷髅、僵尸与食尸鬼的变体"
       }
     ],
     "activeIds": [],
@@ -1822,6 +2241,40 @@
         "path": "src/published/books/ua/ua-magic-user-spells-2.md",
         "location": "176",
         "zh": "鞭术"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:witch, the",
+    "category": "heading",
+    "en": "Witch, The",
+    "zh": "血肉解离（巫婆高阶秘社）",
+    "englishVariants": [
+      "Witch, The"
+    ],
+    "legacyZh": [
+      "女巫",
+      "魅惑男性 I／II（巫婆版）"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1573",
+        "zh": "血肉解离（巫婆高阶秘社）"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1574",
+        "zh": "魅惑男性 I／II（巫婆版）"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1575",
+        "zh": "女巫"
       }
     ],
     "activeIds": [],
@@ -4458,6 +4911,52 @@
     ]
   },
   {
+    "key": "monster:abishai",
+    "category": "monster",
+    "en": "Abishai",
+    "zh": "阿比沙魔（五色）",
+    "englishVariants": [
+      "Abishai"
+    ],
+    "legacyZh": [
+      "阿比沙魔",
+      "阿比沙魔 ·"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "阿比沙魔（五色）"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/180",
+        "zh": "阿比沙魔（五色）"
+      },
+      {
+        "path": "../translation/monster-names.tsv",
+        "location": "301",
+        "zh": "阿比沙魔"
+      },
+      {
+        "path": "src/published/books/dragon-75/bestiary.md",
+        "location": "7",
+        "zh": "阿比沙魔（五色）"
+      },
+      {
+        "path": "src/published/books/mm2/mm2-devils.md",
+        "location": "147",
+        "zh": "阿比沙魔 ·"
+      }
+    ],
+    "activeIds": [
+      "dragon-075-monster-abishai"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "monster:aboleth",
     "category": "monster",
     "en": "Aboleth",
@@ -4938,6 +5437,57 @@
     ]
   },
   {
+    "key": "monster:baku",
+    "category": "monster",
+    "en": "Baku",
+    "zh": "巴库",
+    "englishVariants": [
+      "Baku"
+    ],
+    "legacyZh": [
+      "巴库 ·",
+      "貘"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "巴库"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/8",
+        "zh": "貘"
+      },
+      {
+        "path": "src/data/public/mm2-monsters-imported.json",
+        "location": "/166",
+        "zh": "巴库"
+      },
+      {
+        "path": "../translation/monster-names.tsv",
+        "location": "225",
+        "zh": "巴库"
+      },
+      {
+        "path": "src/published/books/dragon-65/bestiary.md",
+        "location": "7",
+        "zh": "貘"
+      },
+      {
+        "path": "src/published/books/mm2/mm2-monsters-b.md",
+        "location": "3",
+        "zh": "巴库 ·"
+      }
+    ],
+    "activeIds": [
+      "mm2-baku"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "monster:baphomet",
     "category": "monster",
     "en": "Baphomet",
@@ -5093,14 +5643,9 @@
         "zh": "犬魔"
       },
       {
-        "path": "@library",
-        "location": "",
-        "zh": "巴盖斯特魔犬"
-      },
-      {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/0",
-        "zh": "巴盖斯特魔犬"
+        "zh": "犬魔"
       },
       {
         "path": "src/data/public/mm2-monsters-imported.json",
@@ -5124,8 +5669,7 @@
       }
     ],
     "activeIds": [
-      "mm2-barghest",
-      "dragon-026-monster-barghest"
+      "mm2-barghest"
     ],
     "status": "verified-exact",
     "references": [
@@ -6501,6 +7045,162 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "monster:faerie dragon",
+    "category": "monster",
+    "en": "Faerie Dragon",
+    "zh": "妖精龙",
+    "englishVariants": [
+      "Faerie Dragon"
+    ],
+    "legacyZh": [
+      "妖精龙 ·",
+      "怪物志"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "妖精龙"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/28",
+        "zh": "妖精龙"
+      },
+      {
+        "path": "src/data/public/mm2-monsters-imported.json",
+        "location": "/58",
+        "zh": "妖精龙"
+      },
+      {
+        "path": "../translation/monster-names.tsv",
+        "location": "344",
+        "zh": "妖精龙"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1469",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/published/books/dragon-62/bestiary.md",
+        "location": "7",
+        "zh": "妖精龙"
+      },
+      {
+        "path": "src/published/books/mm2/mm2-faerie-mist-dragons.md",
+        "location": "3",
+        "zh": "妖精龙 ·"
+      }
+    ],
+    "activeIds": [
+      "mm2-faerie-dragon"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "monster:featured creatures",
+    "category": "monster",
+    "en": "Featured Creatures",
+    "zh": "精选生物：天使族",
+    "englishVariants": [
+      "Featured Creatures"
+    ],
+    "legacyZh": [
+      "怪物志",
+      "核心生物",
+      "精选生物：善良外层生物补遗",
+      "精选生物：星界使者"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "精选生物：天使族"
+      },
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "精选生物：星界使者"
+      },
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "精选生物：善良外层生物补遗"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/219",
+        "zh": "精选生物：天使族"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/220",
+        "zh": "精选生物：星界使者"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/221",
+        "zh": "精选生物：善良外层生物补遗"
+      },
+      {
+        "path": "src/data/published/book-search.json",
+        "location": "/671",
+        "zh": "核心生物"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/671",
+        "zh": "核心生物"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1476",
+        "zh": "精选生物：天使族"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1478",
+        "zh": "精选生物：星界使者"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1479",
+        "zh": "怪物志"
+      },
+      {
+        "path": "src/data/published/books.json",
+        "location": "/1483",
+        "zh": "精选生物：善良外层生物补遗"
+      },
+      {
+        "path": "src/published/books/dragon-63/featured-creatures.md",
+        "location": "7",
+        "zh": "精选生物：天使族"
+      },
+      {
+        "path": "src/published/books/dragon-64/featured-creatures.md",
+        "location": "7",
+        "zh": "精选生物：星界使者"
+      },
+      {
+        "path": "src/published/books/dragon-66/featured-creatures.md",
+        "location": "7",
+        "zh": "精选生物：善良外层生物补遗"
+      }
+    ],
+    "activeIds": [
+      "dragon-063-rule-featured-creatures",
+      "dragon-064-rule-featured-creatures",
+      "dragon-066-rule-featured-creatures"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
   },
   {
     "key": "monster:flail snail",
@@ -8403,6 +9103,58 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "monster:kuei",
+    "category": "monster",
+    "en": "Kuei",
+    "zh": "亡魂鬼（低等灵）",
+    "englishVariants": [
+      "Kuei"
+    ],
+    "legacyZh": [
+      "亡魂鬼（低等灵） ·",
+      "魁（附体者）"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "亡魂鬼（低等灵）"
+      },
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魁（附体者）"
+      },
+      {
+        "path": "src/data/public/dragon-monsters.json",
+        "location": "/101",
+        "zh": "魁（附体者）"
+      },
+      {
+        "path": "src/data/public/oa-monsters.ts",
+        "location": "24",
+        "zh": "亡魂鬼（低等灵）"
+      },
+      {
+        "path": "src/published/books/dragon-42/bestiary.md",
+        "location": "59",
+        "zh": "魁（附体者）"
+      },
+      {
+        "path": "src/published/books/oa/oa-monsters.md",
+        "location": "208",
+        "zh": "亡魂鬼（低等灵） ·"
+      }
+    ],
+    "activeIds": [
+      "oa-kuei",
+      "dragon-042-monster-kuei"
+    ],
+    "status": "pending",
+    "references": [],
+    "notes": []
   },
   {
     "key": "monster:kuo-toa",
@@ -14888,6 +15640,11 @@
         "zh": "坎德人"
       },
       {
+        "path": "src/data/public/character-options.json",
+        "location": "/races/10",
+        "zh": "坎德人"
+      },
+      {
         "path": "src/published/books/dla/dla-races-krynn.md",
         "location": "117",
         "zh": "坎德人"
@@ -15261,7 +16018,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/47",
-        "zh": "仪式（牧师早期方案）"
+        "zh": "典礼术"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -15286,7 +16043,7 @@
       {
         "path": "src/published/books/dragon-58/new-spells.md",
         "location": "63",
-        "zh": "仪式（牧师早期方案）"
+        "zh": "典礼术"
       },
       {
         "path": "src/published/books/ua/ua-cleric-spells-1.md",
@@ -15342,7 +16099,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/35",
-        "zh": "连锁闪电（早期版）"
+        "zh": "连锁闪电"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -15357,7 +16114,7 @@
       {
         "path": "src/published/books/dragon-68/new-spells.md",
         "location": "27",
-        "zh": "连锁闪电（早期版）"
+        "zh": "连锁闪电"
       },
       {
         "path": "src/published/books/ua/ua-magic-user-spells-6.md",
@@ -15484,7 +16241,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/26",
-        "zh": "七彩法球"
+        "zh": "繁彩球"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -15499,7 +16256,7 @@
       {
         "path": "src/published/books/dragon-66/new-spells.md",
         "location": "83",
-        "zh": "七彩法球"
+        "zh": "繁彩球"
       },
       {
         "path": "src/published/books/ua/ua-illusionist-spells-1.md",
@@ -16224,7 +16981,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/45",
-        "zh": "尘卷风（早期牧师版）"
+        "zh": "龙卷尘暴"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -16239,7 +16996,7 @@
       {
         "path": "src/published/books/dragon-58/new-spells.md",
         "location": "25",
-        "zh": "尘卷风（早期牧师版）"
+        "zh": "龙卷尘暴"
       },
       {
         "path": "src/published/books/ua/ua-cleric-spells-2.md",
@@ -17823,7 +18580,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/46",
-        "zh": "融入石中（早期版）"
+        "zh": "融身入石"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17838,7 +18595,7 @@
       {
         "path": "src/published/books/dragon-58/new-spells.md",
         "location": "43",
-        "zh": "融入石中（早期版）"
+        "zh": "融身入石"
       },
       {
         "path": "src/published/books/ua/ua-cleric-spells-3.md",
@@ -17899,7 +18656,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/29",
-        "zh": "马友夫强酸箭（早期版）"
+        "zh": "马友夫强酸箭"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17914,7 +18671,7 @@
       {
         "path": "src/published/books/dragon-67/new-spells.md",
         "location": "41",
-        "zh": "马友夫强酸箭（早期版）"
+        "zh": "马友夫强酸箭"
       },
       {
         "path": "src/published/books/ua/ua-magic-user-spells-2.md",
@@ -17975,7 +18732,7 @@
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/31",
-        "zh": "马友夫微型流星"
+        "zh": "马友夫微流星"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17990,7 +18747,7 @@
       {
         "path": "src/published/books/dragon-67/new-spells.md",
         "location": "77",
-        "zh": "马友夫微型流星"
+        "zh": "马友夫微流星"
       },
       {
         "path": "src/published/books/ua/ua-magic-user-spells-3.md",

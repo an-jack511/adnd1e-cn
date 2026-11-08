@@ -1,5 +1,5 @@
 
-## 深谷地 DEEPINGDALE（续）
+## 深谷地 DEEPINGDALE
 
 ### 概览 AT A GLANCE
 

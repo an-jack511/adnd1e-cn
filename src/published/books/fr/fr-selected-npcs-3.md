@@ -1,8 +1,8 @@
-## Khelben “黑杖”·阿伦松（续）
+## Khelben “黑杖”·阿伦松
 
 凯尔本（Khelben） 的更完整资料见《FR1：深水城与北方》。他身高约六英尺，肌肉发达，留着胡子，发际线后移，黑发夹杂白发，举止高贵。他极其睿智却不自负，对北方人类自脱离蛮荒以来所实践的魔法历史、传说与传统都十分精通。
 
-## Korth
+## 科斯 Korth
 
 <strong>据点：</strong>桑比亚。<strong>等级／职业：</strong>5 级战士。<strong>阵营／信仰：</strong>混乱中立，坦帕斯。<strong>种族／性别：</strong>人类男性。**
 
@@ -10,7 +10,7 @@ Korth 是一个爱打架、喜欢战斗的男人，留着胡子，喝酒喧闹�
 
 Korth 在冒险中数次身受重伤，但热爱自己选择的生活，无论发生什么都继续下去。如果没有受雇（通常每天收费 5 金币），Korth 一般会在奥德林的“帽子歪斜”酒馆喝酒、掰腕子或找人打架。
 
-## Lanseril Snowmantle
+## 兰瑟里尔·雪披风 Lanseril Snowmantle
 
 <strong>据点：</strong>在谷地诸国游荡。<strong>8 级德鲁伊。</strong>阵营／信仰：<strong>中立，西凡纳斯。</strong>种族／性别：<strong>半精灵男性。</strong>
 
@@ -26,19 +26,19 @@ Lanseril 失去父母后，海姆费斯特照料了这个半疯癫、悲痛欲�
 
 Lanseril 得到了、而且总是能得到一些不寻常的魔法宝藏。他曾从巨人手中获得“火冠”，一枚头环，其宝石能够发射两道火焰射线（每道只能瞄准一个中型目标，造成 18 点伤害；若通过豁免则减半；每 200 轮可以使用两次）；宝物来自“燃烧之塔”，那座堡垒后来由他与同伴在树人的帮助下摧毁。他施放的一次虫群术对暗影谷之战十分关键，帮助击败了散提尔堡的增援部队。
 
-## Lhara
+## 拉拉 Lhara
 
 <strong>据点：</strong>匕首谷西部、雷霆峰南坡附近游荡。<strong>职业：</strong>巡林客。<strong>阵营：</strong>混乱善良。<strong>种族／性别：</strong>人类女性。**
 
 Lhara 是竖琴手的盟友，活动范围包括匕首谷西部和雷霆峰南坡。她很少与任何权威打交道，但会帮助处于困境中的善良阵营人物。她携带许多银箭，也拥有一些魔法物品；这些物品的确切位置和性质尚不清楚。
 
-## Luvon Greencoak
+## 卢冯·绿斗篷 Luvon Greencoak
 
 <strong>据点：</strong>精灵王庭。<strong>11 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，阿梵多莉·法恩雅。</strong>种族／性别：<strong>精灵男性。</strong>
 
 Luvon 是精灵王庭的前任使节与外交官。科梅斯塔的精灵退隐到永聚岛后，他仍留在后方，帮助任何想前往那个精灵国度的掉队者。他佩戴 AC 6 的防御护腕，并受到阿洛克·银矛及一队精灵长弓手的保护。
 
-## Manshoon（续）
+## 曼松 Manshoon
 
 曼松（Manshoon） 领导泽恩塔林；它的力量与成功大多归功于他的努力。泽恩塔林共同控制着散提尔堡、乌鸦堡垒（并借此支配泰尔和月海北岸城市）、黑堡（并借此维持内海与深水城之间最短的陆路商道），这使他变得极其富有。
 
@@ -48,7 +48,7 @@ Luvon 是精灵王庭的前任使节与外交官。科梅斯塔的精灵退隐�
 
 他谨慎地从不让脾气压过理智，似乎是一个不可战胜的敌人。一个人形的面孔替他执行命令，但他“从来不在那里”。
 
-## Manxam（MANK-zam）
+## 曼克萨姆 Manxam（MANK-zam）
 
 <strong>据点：</strong>泰什波废墟。<strong>种族：</strong>眼魔。<strong>阵营／信仰：</strong>守序邪恶，班恩。**
 
@@ -56,7 +56,7 @@ Luvon 是精灵王庭的前任使节与外交官。科梅斯塔的精灵退隐�
 
 Manxam 通常在泰什波废墟之中或附近。人们认为，他越来越警惕泽恩塔林大胆的扩张政策，担心这些政策最终会使散提尔堡的所有敌人结成同盟，继而导致散提尔堡战败和毁灭。像大多数在泽恩塔林崛起前曾与人类合作的眼魔一样，Manxam 憎恨并鄙视这些“暴发法师”，更喜欢那些曾给予眼魔应有尊敬的班恩牧师。他自己的力量与财富未知。
 
-## Masyr（MAW-zeer）
+## 马希尔 Masyr（MAW-zeer）
 
 <strong>据点：</strong>散提尔堡。<strong>6 级幻术师。</strong>阵营／信仰：<strong>混乱中立，莱拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -64,7 +64,7 @@ Masyr 住在散提尔堡，是北望街“绿腰带”酒馆和“绿戒贸易�
 
 Masyr 购买旧马车、过度使用的坐骑，以及“次等”商品、损坏品或剩余货物和存货，然后在关键时间和地点以远高于成本的价格转卖。他总是缺钱，也总愿意训练力量较弱的幻术师；他的妻子特兹拉很有经验，能够在没有他的情况下管理公司。
 
-## Maxer（MAYK-ser）
+## 马克瑟 Maxer（MAYK-ser）
 
 <strong>据点：</strong>科米尔的苏萨尔。<strong>等级：</strong>11 级魔法使用者。<strong>阵营／信仰：</strong>中立善良，密斯特拉。<strong>种族／性别：</strong>人类男性。**
 
@@ -72,7 +72,7 @@ Masyr 购买旧马车、过度使用的坐骑，以及“次等”商品、损�
 
 如今 Maxer 既不具攻击性，也不热衷冒险。他大部分时间用于训练能力较弱的法师和做研究；过去十年中，他制作了许多小型魔法物品。他的住所是一处隐藏的地下室；最好通过苏萨尔王室联系他。
 
-## Merith Strongbow
+## 梅里斯·强弓 Merith Strongbow
 
 <strong>据点：</strong>精灵王庭。<strong>等级／职业：</strong>6 级幻术师。<strong>阵营／信仰：</strong>中立中立，莱拉。<strong>种族／性别：</strong>半精灵男性。**
 
@@ -86,7 +86,7 @@ Merith 拥有灵能（76/76；能力 A、B／F、G，包括探测善恶和读取
 
 Merith 是游泳、动物交易、制弓制箭（也包括射箭）方面的专家，方向感极好。他偏爱的武器是长剑，发怒时脾气暴烈。
 
-## Mhzentul（Mah-ZEN-tul）
+## 姆森图尔 Mhzentul（Mah-ZEN-tul）
 
 <strong>生卒：</strong>1250–1340。<strong>据点：</strong>游荡。<strong>20 级魔法使用者。</strong>阵营／信仰：<strong>中立，科苏斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -94,7 +94,7 @@ Mhzentul 是一位强大而受尊敬的法师，在升河之战中死去。他�
 
 泽恩塔林法师 Whisper 据说找到了这些戒指，也可能拥有那本书；但自 Whisper 死后，它们的下落无人知晓。
 
-## Naglatha（Nahg-LATH-ah）
+## 纳格拉莎 Naglatha（Nahg-LATH-ah）
 
 <strong>据点：</strong>塞尔伦。<strong>5 级泰伊红袍法师。</strong>阵营／信仰：<strong>中立邪恶，阿祖斯。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -102,13 +102,13 @@ Mhzentul 是一位强大而受尊敬的法师，在升河之战中死去。他�
 
 她最近抵达塞尔伦，伪装成经营南方古玩和珍奇物品的商人，实际上在为红袍法师招募商人和武装人员。红袍法师很可能正计划发动破坏性袭击，使一个势力对另一个势力开战，尤其是在某一方可能援助或增援泰伊的敌对国家时。
 
-## Miraun（Mih-RAWN）
+## 米劳恩 Miraun（Mih-RAWN）
 
 <strong>据点：</strong>在桑比亚和谷地诸国游荡。<strong>9 级魔法使用者。</strong>阵营／信仰：<strong>守序中立，班恩与罗丝。</strong>种族／性别：<strong>人类男性。</strong>
 
 Miraun 是一个年轻、面带讥笑、容貌英俊的男人，喜欢穿昂贵的定制服装。他来自散提尔堡富有的丹卡斯特家族，但属于私生子，无权使用家族名号。他举止狡猾而圆滑，希望在泽恩塔林内部靠功绩得到出生时失去的地位。Miraun 众所周知携带一根取消魔法权杖。
 
-## Mourngrym Amcathra（MORN-grim Am-CATH-rah）
+## 穆恩格林·安卡萨 Mourngrym Amcathra（MORN-grim Am-CATH-rah）
 
 <strong>头衔：</strong>暗影谷领主。<strong>据点：</strong>暗影谷。<strong>6 级骑士。</strong>阵营／信仰：<strong>中立善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -126,7 +126,7 @@ Neiron 与许多力量弱小或影响有限的德鲁伊、护林人保持联系�
 
 据说 Neiron 正打算在该地区某处定居，并已经找到一处据点。他据说失去了许多魔法物品，包括飞弹项链、一把魔法刀刃和一枚能够释放多种法术的戒指。
 
-## Nethmurta（NeTh-MER-tah）
+## 奈斯穆尔塔 Nethmurta（NeTh-MER-tah）
 
 <strong>据点：</strong>迷雾谷的阿沙本福德。<strong>身份：</strong>商人，0 级战士。<strong>阵营／信仰：</strong>中立善良，泰莫拉。<strong>种族／性别：</strong>精灵女性。**
 
@@ -144,7 +144,7 @@ Nethmurta 在谷地诸国的信誉很少有人能及。酒馆闲谈认为她拥�
 
 Nurlar 据说非常害怕盗贼，把财宝藏起来，并支付昂贵的魔法守卫。他还据说正在考虑与一位神秘的精灵少女结婚；那名少女被他囚禁在疤谷宅邸的一座塔中。
 
-## Orgauth（ORE-goth）
+## 奥高斯 Orgauth（ORE-goth）
 
 <strong>据点：</strong>散提尔堡。<strong>散提尔堡领主之一。</strong>7 级战士。<strong>阵营／信仰：</strong>中立邪恶，坦帕斯与班恩。<strong>种族／性别：</strong>人类男性。**
 
@@ -156,7 +156,7 @@ Orgauth 是月海战争中一名老练而残酷的老兵，也是一个富有商
 
 他的纹章是一只在红色背景上扑击、翅膀呈铁锈色的乌鸦。可以通过他在散提尔堡东北部城堡中的办公室联系他。
 
-## Osper Linthalam（AWE-spur Lin-THAY-lam）
+## 奥斯珀·林萨兰 Osper Linthalam（AWE-spur Lin-THAY-lam）
 
 <strong>据点：</strong>桑比亚的奥德林。<strong>10 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 

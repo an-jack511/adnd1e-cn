@@ -2,7 +2,7 @@
 
 <!-- source: OCR/ua-raw/pages/page-104.png–page-105.png; 原书印刷 pp. 103–104 -->
 
-## 主权胶 Sovereign Glue（续）
+## 主权胶 Sovereign Glue
 
 通常一瓶装有 <strong>1–10 盎司</strong>主权胶。
 

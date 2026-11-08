@@ -1,4 +1,4 @@
-## 史拉蟾（续） · Slaad (Continued)
+## 史拉蟾 · Slaad
 
 ### 史拉红蟾 Red Slaad
 

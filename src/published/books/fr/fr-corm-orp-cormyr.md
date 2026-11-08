@@ -1,6 +1,6 @@
 ![科米尔地图，原书 PDF 第 33 页地图裁片](/assets/books/fr/fr_cormyr_map_page_33_map.png)
 
-## 科姆奥普 CORM ORP（续）
+## 科姆奥普 CORM ORP
 
 ### 伊尔明斯特的笔记 ELMINSTER'S NOTES
 

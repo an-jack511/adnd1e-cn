@@ -1,4 +1,4 @@
-#### 舞剑 Sword of Dancing（续）
+#### 舞剑 Sword of Dancing
 
 舞剑能够自行战斗，但仍可能受火球术、闪电束或金属化木等魔法攻击影响。它起舞时的战斗能力与持有者相同：若持有者是 <strong>4 级战士</strong>，舞剑独自战斗时也按 <strong>4 级战士</strong>处理；若持有者是 <strong>7 级盗贼</strong>，它起舞时也按 <strong>7 级盗贼</strong>处理。持有者因此可以在 <strong>4 个近战轮次</strong>内自由行动，只要始终与剑相距不超过 <strong>3"</strong>即可；若距离更远，剑便会“失去生命”，掉到地上，重新握住后仍是一把 <strong>+1</strong> 武器。
 

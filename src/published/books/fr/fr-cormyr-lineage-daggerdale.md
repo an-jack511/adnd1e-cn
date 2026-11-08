@@ -1,5 +1,5 @@
 
-## 科米尔 CORMYR（续）
+## 科米尔 CORMYR
 
 ### 科米尔近代王室谱系 Recent Royal Lineage of Cormyr
 
@@ -16,7 +16,7 @@
 
 谱系图中还标出阿凡德拉·冠银（Avandria Crownsilver）、达马斯“战王”（Dhamass “The Warrior King”）、贾拉斯·猎银（Jhalass Huntsilver）、普罗斯塔尔（Prostar）、阿伦杜·怀瓦尔（Alentue Wyrvar）、埃莉拉（Elira）、佩拉拉（Pelara）、迈尔顿·阿姆梅斯（Myrton Ammaeth）、兰纳斯（Lhannas）、苏莱斯塔·希拉特（Sulesta Hilatart）、萨兰伯“叛逆王子”（Salamber “The Rebel Prince”）、加斯帕（Gaspar）、苏拉斯佩娅·德祖尔德（Sulaspea Delzuld）、塔纳鲁斯塔·真银（Tanalusta Truesilver）、埃尔杜斯（Eldus）、塔纳丝·罗文曼特尔（Tanaeth Rowanmantle）、苏莱斯塔（Sulesta）、福德（Ford）、塔纳丝（Tanalasta）、阿拉尔·纳卡西斯（Alus? Nacacis）、菲尔法尔·森卡尔（Filfaer Sencar）、贝雷（Bhereu）、梅埃特·黑银（Maethe Blacksilver）和托姆多尔（Thomdor）等家族成员；完整亲缘线、年份与死亡标记保留在上方原页谱系图中。
 
-## 科米尔的军政规则 CORMYR: GAME INFORMATION (CONTINUED)
+## 科米尔的军政规则 CORMYR: GAME INFORMATION
 
 科米尔的军事史以游击式伏击和持续的小规模交锋为主，而不是“摆开阵势”的会战；因此，王廷对王国内出现武装人员极为敏感。“无法无天的自由剑士”不得在科米尔境内活动。雇佣兵（也就是所有不为国王服役的武装人员）不得集结；只要携带武器，五人以上不得在公共市场、客栈或酒馆之外的任何地方聚集（而在酒馆中，人们通常会把所有武器交给吧台后面的保管人）。
 

@@ -1,202 +1,6 @@
 {
-  "files": 39,
-  "changes": [
-    {
-      "path": "src/data/public/dragon-books.json",
-      "beforeSha256": "e20d7f2f9240fd0c8fbc709478447a49bb02ece31f1b52c0df3abb00540c96fd",
-      "afterSha256": "77350f921dd86420541ae454d5cf69d506498695907f5ce31057a97518c46a6b"
-    },
-    {
-      "path": "src/data/public/dragon-classes.json",
-      "beforeSha256": "ba49d1029e0182199e40b4fdae7082bce87df8a4b8a4b48c1df560cd9ae3f847",
-      "afterSha256": "5c8b10e0b0dc19e234fbd606720c9db1c75c4fdbe8d16ffe1066fd73e3b296af"
-    },
-    {
-      "path": "src/data/public/dragon-items.json",
-      "beforeSha256": "c800fc296b8f456b0e7616e8804e07a11810bb46236f4db0db98c0397e7c1a12",
-      "afterSha256": "8a83d2c08fbb1c47923ebe310558c377b966ca36373addf9e2e3b659fc4c523a"
-    },
-    {
-      "path": "src/data/public/dragon-monsters.json",
-      "beforeSha256": "1c49410dea742d374cec7caaa7b23547626bb62f6756b6a96396820a95fb863f",
-      "afterSha256": "bc875958461d51a8387422029ebffac42138cc2baef7a2f352d9d28e66b1ce0f"
-    },
-    {
-      "path": "src/data/public/dragon-rules.json",
-      "beforeSha256": "95ffa1a8dbff0e9e523058808716f893ac6e83b74b88c1ac14a2c817ad3195fe",
-      "afterSha256": "dea4dd5c666eb9876a0fb12c41e859a3e3043b2f9edc12c39e087dbcb73a9bbf"
-    },
-    {
-      "path": "src/data/public/dragon-spells.json",
-      "beforeSha256": "9ff4d8f1d92f647dc4391e6b509db8a51e6d38e282e5e94b0c47a712de388795",
-      "afterSha256": "f1e1e5afdef890f686303ca9cbf34ce5cbef68810b446b2bdfcc39c4a3e042bf"
-    },
-    {
-      "path": "src/data/public/item-index.json",
-      "beforeSha256": "56c952b2c95d450b15f222db1badaa1290b72c4172d851d9a3a9a8a5ff60cc27",
-      "afterSha256": "c4025f98157c3ccc71f19d2b139b06223a61fcc9d02141d0cc1cb91bbd330d9c"
-    },
-    {
-      "path": "src/data/public/monster-reading.json",
-      "beforeSha256": "c752486b2c07bb19ce49ff19e07cec2d841d28f864542cf4d67c1443184dc2ea",
-      "afterSha256": "03caedbe1b5238695ed2005f6f38c6b599bbae25fbff09a3a4787c096747777c"
-    },
-    {
-      "path": "src/data/public/ua-equipment-prices.json",
-      "beforeSha256": "a830f89a333f561c63168be1ca8396b3e7e953cc73c278cbd479605413a28c6d",
-      "afterSha256": "d1abc14a8a8186f41af6853fac17f7fb79cfd785919f2797847489b59e23296c"
-    },
-    {
-      "path": "src/data/published/books.json",
-      "beforeSha256": "56dae5b0164df4452b3753fb17feca37d07015ea22cb7ad860ad797a36a0cb47",
-      "afterSha256": "3700a1201600adeb96c62a4380d49b64de08c8dbb7d757c49ddf98c94590fc7a"
-    },
-    {
-      "path": "src/published/books/dragon-102/nine-wands.md",
-      "beforeSha256": "0931ed95ec9e5342ce5dfa424de6d3fa3490d9b39c065a7da1480d40f33a61d7",
-      "afterSha256": "9908da22eefebb58dbc9158f90059d1ebf19393ae26acd4c344e061b89af4f38"
-    },
-    {
-      "path": "src/published/books/dragon-109/new-spells.md",
-      "beforeSha256": "dfbf8d4c8080a78edcdac2d985374b4d16aadc51c57df9739f33a3f965e87d71",
-      "afterSha256": "59f8c79a468808bc298322a2d6dd67eee0ff4066bc5b33cc84f802e2b54f3fcd"
-    },
-    {
-      "path": "src/published/books/dragon-110/new-spells.md",
-      "beforeSha256": "abb865fed331338af207d6402baf15c78983e31bf689656dfdae2b3a81736bfb",
-      "afterSha256": "7bf34278cffd0da87533bccbd690b931fd63b8c04a9dd35992ca5abc9d7df116"
-    },
-    {
-      "path": "src/published/books/dragon-117/ecology.md",
-      "beforeSha256": "c6be1dd782caa241b3a811fe8fa081cbc5061e6a85305e308f21353a1f42a7e7",
-      "afterSha256": "891a8a187c1fa686f3fbf7c808ee8d4ffe92f1ccf3e0f570b13502a69fcba400"
-    },
-    {
-      "path": "src/published/books/dragon-120/magic-items.md",
-      "beforeSha256": "c2d51bfbfdae38d03428e86a875d396f3ae0e18e9ad81cab2eb014c2ad157d1e",
-      "afterSha256": "0ea1ddd3c059a615168111355fcf315c9eb21303ff33252122cba2b1ff45382d"
-    },
-    {
-      "path": "src/published/books/dragon-120/new-spells.md",
-      "beforeSha256": "a2afb8f0455afbbf0423d74a7b16767e721d7c2543841bb94ec25e29c0bd4d68",
-      "afterSha256": "054c272d597d7ebb251dbdafd3d7192e505e5ed6d0a6e1bf82baebbd7c5b5c66"
-    },
-    {
-      "path": "src/published/books/dragon-136/new-spells.md",
-      "beforeSha256": "bc3ca80aae3147a69d5fc29c08c42c486dba9870cb40739015902c6cc3fe6c9d",
-      "afterSha256": "032ec28e3cb82462f7a5f3e96b341c9f1076112fde8ecb841ef717373f8f47c6"
-    },
-    {
-      "path": "src/published/books/dragon-147/magic-items.md",
-      "beforeSha256": "29cd7b00e662ee6789b1526f8c16c41f7c77fe5b5ee34710ca03405b59d0d605",
-      "afterSha256": "2f64fa207b9c2f1209792edad6ee2448261d381ad5dc16cc1a64d233a509f702"
-    },
-    {
-      "path": "src/published/books/dragon-26/barghest.md",
-      "beforeSha256": "e5fa22e7e07c6c76532fd3fb9f5b6f645e8f4e3bbb8decdf1ead772f25dad697",
-      "afterSha256": "29d6d48b83775938fe6976187b2555859cc814e206982f5301d87c9885810860"
-    },
-    {
-      "path": "src/published/books/dragon-29/bazaar-43.md",
-      "beforeSha256": "b47f27f2278465fd2ef895bd5c8671af34d9a0b3fec3c491e2e5f2a40a5b6211",
-      "afterSha256": "3a33e081aa82564a4c3573231ef37672ac8dbde14c99622d3e0f212f54ac6953"
-    },
-    {
-      "path": "src/published/books/dragon-43/new-spells.md",
-      "beforeSha256": "0e21c59746ba9e448dd137b51c2b125a099f2632b8a264821f83769fb3dfa538",
-      "afterSha256": "5f725a65c974cc76c9454f26e84318cc725b4d53f605a9ee814fd5e7c391d08e"
-    },
-    {
-      "path": "src/published/books/dragon-44/fantasy-genetics.md",
-      "beforeSha256": "0bf60a467331cddbeef78caa3b5c887347530ad1ccc9878e184f59298f4cef77",
-      "afterSha256": "34c74cf9370ec632f0717340977f2d316be7ec505d7b53d7a3ad71a1b45e11e0"
-    },
-    {
-      "path": "src/published/books/dragon-45/magic-items.md",
-      "beforeSha256": "29c67edbef8c23aff68d4972494d6279f2c2cd426ca7dc877a2559addb299292",
-      "afterSha256": "f46f29b3c835e68e44bd64c4072f5b4a92c47bb6ec2f4c99b8ca7f38d3edee6d"
-    },
-    {
-      "path": "src/published/books/dragon-48/magic-items.md",
-      "beforeSha256": "589698fc303ab14935e2d5f44876b495bb47f748e5741112a30515d7b7a745b3",
-      "afterSha256": "4df38a606b0b5cfe8711b644cba8c713de6fe5e904c9b44317b3f7012499f827"
-    },
-    {
-      "path": "src/published/books/dragon-54/magic-items.md",
-      "beforeSha256": "ff9776f9a330acabf9e78c053b050f644f4b5ea5641e7e568c952327e052d7e7",
-      "afterSha256": "a9853d8b2c05311a73080b4c13e731a004a32dde927ddb3a4960c4d4659a0f18"
-    },
-    {
-      "path": "src/published/books/dragon-58/new-spells.md",
-      "beforeSha256": "41ebde7b3e5bd86ea5cc05116e50273be0d44d391dbc42ca89860344efc41118",
-      "afterSha256": "ee1e8218d2733c5c971a226939bf56d4a28d104edc1961acc97480afb4e9503f"
-    },
-    {
-      "path": "src/published/books/dragon-66/new-spells.md",
-      "beforeSha256": "9f0b3872badb4e2e250634cba2814ab758a43f9b1574f3507b1dc1676d2497cc",
-      "afterSha256": "e8186a213805a538910376ea44d85a1f662dcb98f2c75426287dbd13d22c8332"
-    },
-    {
-      "path": "src/published/books/dragon-67/new-spells.md",
-      "beforeSha256": "123b22261167b6d04271e649539d8e6a7ff5c190b599734dc054c43dbeefc2c2",
-      "afterSha256": "05a27610941a2abf7c384af3a6a2653db438a945f7593e455be92ce2d650123c"
-    },
-    {
-      "path": "src/published/books/dragon-68/cloistered-cleric.md",
-      "beforeSha256": "17b8a6c2ee29909568b6725bd22c7d0ab6cc9e99e56e57137db3f44c6eef98f0",
-      "afterSha256": "cd4d0a2eef019fd01f9b6048fb20152fbbda1ad8eb1f223b2d79161ec29bac1f"
-    },
-    {
-      "path": "src/published/books/dragon-68/cloistered-spells.md",
-      "beforeSha256": "024eda641af603cf8edd1927005bab4801b58014e3022942a8638094dcfe3297",
-      "afterSha256": "9d0907243ed9957f8f185001b3dc78bac07c249d864d89243423fba069d920a4"
-    },
-    {
-      "path": "src/published/books/dragon-68/new-spells.md",
-      "beforeSha256": "9f2d2ce0e5e9489fd84c0d0b4d6e8522021784fa9c6ff2d4af473be789ee9a55",
-      "afterSha256": "7143a0f61c65e4b19c3bfde85d6f12788d8e770888c671766e4d6fd96d826d03"
-    },
-    {
-      "path": "src/published/books/dragon-69/new-spells.md",
-      "beforeSha256": "6c8f94866a941a1c6cebe685ec3dd2d9843d523dbf2ebe334978cfe653b739a3",
-      "afterSha256": "bb0b05409b0bf3ca607ecd41221444ed5dd048c013a630d4837fd7f21cd7cfa9"
-    },
-    {
-      "path": "src/published/books/dragon-77/magic-items.md",
-      "beforeSha256": "9461251ca8e2e9ddaca0038b7b7e6c45c0d2a47075e369d562d10a4be38f7efd",
-      "afterSha256": "4520dc1cc644359a05ab8dc1aa34eab23d5d321b50811d4d7afb51f4ee11c357"
-    },
-    {
-      "path": "src/published/books/dragon-87/ecology.md",
-      "beforeSha256": "705c1b4e322ff2a085b36a32dfa41b9348514ad701097c0b1ec450e7c55c2f8e",
-      "afterSha256": "bb560a36fa552862f94c2efec309250df8471e1b7aa9d7da6efb2fbd6dd2da81"
-    },
-    {
-      "path": "src/published/books/dragon-91/magic-items.md",
-      "beforeSha256": "6cdfafa675001ed206cae28d028fb951a34099767f943cfefa16e01df1d6a0f4",
-      "afterSha256": "3535162792052a070ac9f92f36b6bd7b3ab5e50fa4f877672dfac0db70cff000"
-    },
-    {
-      "path": "src/published/books/dragon-93/ecology.md",
-      "beforeSha256": "61dd49258a324429485810688a5ffc606cb4523d736dc0de76908e3afa83d75b",
-      "afterSha256": "273fb888e31ed824838d4a9b82ba6b8aa89bd2b6bac0042929817e802c1fd125"
-    },
-    {
-      "path": "src/published/books/dragon-97/ecology.md",
-      "beforeSha256": "f47a7853207b46b3ac608a1c1d35e20b4770dcdbacee8b85d086c75a50a84054",
-      "afterSha256": "da13afae66a4ba020ba673c2bbdafcf77a149c036d855bcd5387f2171c5b8266"
-    },
-    {
-      "path": "scripts/import/curate-character-library.py",
-      "beforeSha256": "a44dfb1ec80765acc4d373c767f0726ea0008c84554b71d97c836f37f0de8020",
-      "afterSha256": "1dd0c6589085b837d374af2d1d87324bf624545f74a3fcbf00d7b5bfc3c5227d"
-    },
-    {
-      "path": "scripts/import/ua-prices.ts",
-      "beforeSha256": "1984482219ff8e7797aee8635b89beb422d0e3a5f32f032f413aac874c250550",
-      "afterSha256": "040d6155c3e7c3a7c0f094c62dd6e5c9e13f3dc3f9b136c481a0faf38d6e7fb4"
-    }
-  ],
+  "files": 0,
+  "changes": [],
   "globalReplacements": {
     "蛮族": "野蛮人",
     "僧侣": "武僧",
@@ -393,6 +197,7 @@
     "格瑞尔": "触须怪",
     "石盲蛮族": "幽邃盲族",
     "守护纳迦": "守秘纳迦",
+    "古林树灵": "哈马德拉斯",
     "鹰身女妖": "鸟妖",
     "地狱犬": "地狱猎犬",
     "人造侏儒": "人工生命体",
@@ -407,6 +212,7 @@
     "卡玛丹蛇豹": "六岐蛇豹",
     "卡格拉": "土鱼",
     "基尔莫利斯": "旅居仙",
+    "科林斯海生大地精": "海地精",
     "科瑞德": "考芮精",
     "克拉肯海怪": "克拉肯",
     "寇涛鱼人": "寇涛",
@@ -1518,6 +1324,13 @@
       "targets": [
         "化形胡狼",
         "鬣狗人"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "戈里斯特罗",
+      "targets": [
+        "巨牛魔"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },

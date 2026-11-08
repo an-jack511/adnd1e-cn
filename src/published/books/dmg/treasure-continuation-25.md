@@ -1,4 +1,4 @@
-### V. 首要能力 Prime Powers（续）
+### V. 首要能力 Prime Powers
 
 | 编号 | 能力与效果 |
 |---|---|

@@ -1,4 +1,4 @@
-## 巨人（续） · Giant (Continued)
+## 巨人 · Giant
 
 ### 雾巨人 Fog Giant
 

@@ -1,4 +1,4 @@
-#### 无力长袍 Robe of Powerlessness（续）
+#### 无力长袍 Robe of Powerlessness
 
 这件衣物散发魔法灵光。角色一旦穿上，智力便降至 <strong>3</strong>，忘却所有法术与魔法知识，力量也降至 <strong>3</strong>。长袍可以轻易脱下，但要恢复身心，必须先对角色施展“移除诅咒术”，再施展“治愈术”。
 

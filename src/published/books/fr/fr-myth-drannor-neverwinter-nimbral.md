@@ -1,7 +1,7 @@
 ![象牙年时的迷斯卓诺地图，原书 PDF 第 66 页地图裁片](/assets/books/fr/fr_myth_drannor_year_tusk_page_66_map.png)
 ![虫年时的迷斯卓诺地图，原书 PDF 第 67 页地图裁片](/assets/books/fr/fr_myth_drannor_year_worm_page_67_map.png)
 
-## 迷斯卓诺 MYTH DRANNOR（续）
+## 迷斯卓诺 MYTH DRANNOR
 
 精灵史诗与人类传说都把迷斯卓诺描述为一座超越今日最辉煌城市的地方，甚至胜过宏伟的深水城。如今它已经失落，成为传说中的废墟。
 

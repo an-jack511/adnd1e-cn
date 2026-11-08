@@ -24,7 +24,7 @@
 
 菲兹班 总是让他人自由选择，不会干预他们的决定。菲兹班的目的是恢复世界上善良与邪恶之间的平衡，而不是让其中一方战胜另一方。地下城主扮演这一角色时应牢记这一点。
 
-## Pyrite
+## 派瑞特 Pyrite
 
 菲兹班 经常让一条名为 Pyrite 的远古金龙作为自己的伙伴。Pyrite 既聋又半盲，脾气暴躁而衰老，绝大多数时间都在阳光下睡觉。这条巨龙的辉煌时代属于 修玛（Huma） 的时代（他记得那段时期，远比记得近代清楚）。因此，受到召唤时他会战斗，但只有在能够让他相信自己要去救援 修玛 时才会这样做。
 
@@ -32,7 +32,7 @@ Pyrite 拥有一条远古金龙的全部施法能力，在状态良好的一天�
 
 Pyrite 是一条远古巨型金龙。使用《怪物图鉴》中此类生物的数据。
 
-## Raistlin Majere
+## 雷斯林·马哲里 Raistlin Majere
 
 ### 雷斯林 Raistlin
 
@@ -56,7 +56,7 @@ Pyrite 是一条远古巨型金龙。使用《怪物图鉴》中此类生物的�
 
 运行以《龙枪传奇》为基础的战役时，地下城主需要把 雷斯林 作为非玩家角色，因为他的等级已经超过 18 级。雷斯林 是一个复杂的角色，以上信息应能帮助你有效地扮演他。
 
-## Lord Soth
+## 索斯爵士 Lord Soth
 
 ### 黑玫瑰骑士 Lord Soth
 
@@ -64,7 +64,7 @@ Pyrite 是一条远古巨型金龙。使用《怪物图鉴》中此类生物的�
 
 Lord Soth 的悲惨历史在《索兰尼亚（Solamnia） 骑士团》的历史中有部分讲述。
 
-### Lord Soth
+### 索斯爵士 Lord Soth
 
 <strong>Solamnia 死亡骑士</strong>
 
@@ -116,7 +116,7 @@ Lord Soth 的悲惨历史在《索兰尼亚（Solamnia） 骑士团》的历史�
 
 <strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>48　<strong>AC：</strong>-1
 
-## Kharas
+## 卡拉斯 Kharas
 
 ### 矮人英雄 Kharas Dwarven Hero
 
@@ -130,7 +130,7 @@ Kharas 在最后一场战斗中逃走了，因为他看见自己的亲族仅仅�
 
 所有 Thane 都为争夺王位而战，纷纷寻找 Kharas 并争取他的支持。Kharas 对自己人民的贪婪与政治背叛感到恶心，便带着国王的尸体和他的魔法锤，把他们送到一处秘密墓地，在那里死去。临走前，他预言矮人永远不会团结，除非有一个勇敢的人找到锤子，并把它归还给 索巴丁的矮人。
 
-### Kharas
+### 卡拉斯 Kharas
 
 <strong>14 级山地矮人战士</strong>
 
@@ -140,7 +140,7 @@ Kharas 在最后一场战斗中逃走了，因为他看见自己的亲族仅仅�
 
 <strong>THAC0：</strong>7　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>78　<strong>AC：</strong>2
 
-## Reghar Fireforge
+## 瑞加·火铸 Reghar Fireforge
 
 Reghar 是那位在矮门战争期间带领自己人民的年迈丘陵矮人（Flint 的祖父）。Reghar 身体健壮、顽固而极其骄傲。他有灰色头发和灰色胡须，按照丘陵矮人的习俗将胡须编成辫子，塞进腰带里。
 
@@ -154,7 +154,7 @@ Reghar 有一个活到成年的儿子（Flint 的父亲）。他的另一个儿�
 
 <strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Reghar Fireforge、Amothus Palanthus、艾力斯坦（Elistan）、Par-Salian 与 Justarius 的人物数据框，无独立肖像插图说明文字。
 
-### Reghar Fireforge
+### 瑞加·火铸 Reghar Fireforge
 
 <strong>9 级丘陵矮人战士</strong>
 
@@ -164,7 +164,7 @@ Reghar 有一个活到成年的儿子（Flint 的父亲）。他的另一个儿�
 
 <strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>52　<strong>AC：</strong>4
 
-## Amothus Palanthus
+## 阿莫瑟斯·帕兰瑟斯 Amothus Palanthus
 
 ### Palanthus 领主 Lord of Palanthus
 
@@ -172,7 +172,7 @@ Reghar 有一个活到成年的儿子（Flint 的父亲）。他的另一个儿�
 
 Amothus 已过四十岁。他与 Palanthus 人民本身很相似——外表软弱、肤浅而浮华，但内心深处有钢铁般的坚韧。
 
-### Amothus Palanthus
+### 阿莫瑟斯·帕兰瑟斯 Amothus Palanthus
 
 <strong>7 级人类战士</strong>
 
@@ -202,7 +202,7 @@ Amothus 已过四十岁。他与 Palanthus 人民本身很相似——外表软�
 
 艾力斯坦 在龙枪战争之前与战争期间的角色，在相关模组中已有描述。战争结束后遇到 艾力斯坦的人，会发现这名牧师正在死于一种消耗性疾病。
 
-## Par-Salian
+## 帕萨理安 Par-Salian
 
 ### 法术议会首脑 Head of the Conclave
 
@@ -218,7 +218,7 @@ Par-Salian 并不是行动派巫师，更喜欢把时间花在研究上。他主
 
 威胁仍然存在，Par-Salian 就无法这样做。在任何情况下，Par-Salian 都不会离开 Wayreth 高塔。
 
-### Par-Salian
+### 帕萨理安 Par-Salian
 
 <strong>18 级人类白袍巫师</strong>
 
@@ -228,7 +228,7 @@ Par-Salian 并不是行动派巫师，更喜欢把时间花在研究上。他主
 
 <strong>THAC0：</strong>13　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>47　<strong>AC：</strong>0
 
-## Justarius
+## 贾斯塔里斯 Justarius
 
 ### 红袍教团首脑 Head of the Order of Red Robes
 
@@ -240,7 +240,7 @@ Justarius 喜欢冒险，冒险队伍或许能说服他陪同他们执行任务�
 
 虽然 Justarius 是个诚实的人，但他在所有事情上都保持中立，并不过分富有同情心。他秘密行事，不容易信任任何人。他有许多弥补自身残疾的魔法手段，其中一些会极其惊人、出人意料。他的红袍由普通材料制成，上面饰有守护与防护符文。
 
-### Justarius
+### 贾斯塔里斯 Justarius
 
 <strong>17 级人类红袍巫师</strong>
 
@@ -250,7 +250,7 @@ Justarius 喜欢冒险，冒险队伍或许能说服他陪同他们执行任务�
 
 <strong>THAC0：</strong>12　<strong>阵营：</strong>守序中立　<strong>生命值：</strong>48　<strong>AC：</strong>-2
 
-## Ladonna
+## 拉多娜 Ladonna
 
 ### 黑袍教团首脑 Head of the Order of Black Robes
 
@@ -262,7 +262,7 @@ Ladonna 是一名六十多岁、异常美丽的人类女性，是一位强大的
 
 年轻时，Ladonna 与 Par-Salian 曾是恋人，两人之间仍保留着某种感情与理解。
 
-### Ladonna
+### 拉多娜 Ladonna
 
 <strong>17 级人类黑袍女巫</strong>
 
@@ -278,7 +278,7 @@ Ladonna 是一名六十多岁、异常美丽的人类女性，是一位强大的
 
 <strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 Maquesta、Bas-Ohn Koraf、Dalamar、Crysania 与 卡拉蒙（Caramon） 的人物数据框，无独立肖像插图说明文字。
 
-## Maquesta Kar-Thon
+## 玛奎丝塔·卡尔松 Maquesta Kar-Thon
 
 ### 海盗 Pirate
 
@@ -288,7 +288,7 @@ Maquesta 是一名二十多岁、非常迷人的黑人女性。她有短短的�
 
 Maq 喜欢男人，却总是爱过后又离开他们。她偏爱英俊但头脑简单的男人，每个港口都有一个这样的男人。但在她心底深处，Maq 真正爱着外表丑陋、像野兽一样的 Koraf，尽管她要花很大力气才肯承认这一点，甚至不愿向自己承认。
 
-### Maquesta Kar-Thon
+### 玛奎丝塔·卡尔松 Maquesta Kar-Thon
 
 <strong>8 级半精灵战士／盗贼</strong>
 
@@ -298,7 +298,7 @@ Maq 喜欢男人，却总是爱过后又离开他们。她偏爱英俊但头脑�
 
 <strong>THAC0：</strong>14　<strong>阵营：</strong>中立　<strong>生命值：</strong>58　<strong>AC：</strong>4
 
-## Bas-Ohn Koraf
+## 巴斯昂·科拉夫 Bas-Ohn Koraf
 
 ### Maquesta 的牛头人大副 Minotaur First Mate to Maquesta
 
@@ -306,7 +306,7 @@ Koraf 的脸孔野蛮而丑陋，但这名高大的牛头人拥有一具像二�
 
 Koraf 在监狱中遇到 Maquesta。她在目睹大多数船员被折磨致死后，被安排处决。他帮助她逃脱，她救了他的性命，两人很快成为朋友。尽管 Koraf 起初认为 Maq 是自己见过的最丑陋的女性之一（牛头人对所有人类都有这种感觉），但他在人类中生活得够久，已经相信她很美，而他自己很丑。他是一个真正高贵的存在，虽然有些急躁而野蛮；Koraf 深深爱着 Maquesta，却认为由于自己太丑，这份爱没有希望。
 
-### Bas-Ohn Koraf
+### 巴斯昂·科拉夫 Bas-Ohn Koraf
 
 <strong>10 级牛头人战士</strong>
 
@@ -320,7 +320,7 @@ Koraf 在监狱中遇到 Maquesta。她在目睹大多数船员被折磨致死�
 
 《传奇》系列讲述的是一群正在接受考验的人。有些人在爱情中接受考验，有些人在信仰中接受考验。每个人都必须学习人生中的一课，而学习过程有时非常困难且危险。设计基于《传奇》系列的战役时，地下城主应记住这一点。我们再次敦促地下城主和玩家阅读这些小说，从中获取地点与人物的创意和描述。
 
-## Dalamar
+## 达拉马 Dalamar
 
 ### 黑暗精灵巫师 Dark Elf Wizard
 
@@ -340,7 +340,7 @@ Dalamar 的第一爱好与忠诚属于魔法和法术议会。不过，他钦佩
 
 像之前许多男人一样，Dalamar 对 奇蒂拉 十分着迷。Dalamar 正在接受对自己魔法技艺的奉献以及为此牺牲世俗野心、甚至生命的能力的考验。
 
-### Dalamar
+### 达拉马 Dalamar
 
 <strong>13 级黑暗精灵黑袍巫师</strong>
 
@@ -350,7 +350,7 @@ Dalamar 的第一爱好与忠诚属于魔法和法术议会。不过，他钦佩
 
 <strong>THAC0：</strong>16　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>41　<strong>AC：</strong>0
 
-## Crysania
+## 克丽珊娜 Crysania
 
 ### 帕拉丁的牧师 Cleric of Paladine Paladine
 
@@ -362,7 +362,7 @@ Crysania 虔诚，但也有野心。她知道自己拥有在 艾力斯坦 离世
 
 正如魔法使用者必须在奥术技艺上通过试炼，牧师也会受到自己神祇的考验。不过，这些是生命的考验，可能在任何时候到来，甚至在牧师看起来已经稳固建立地位之后。（例如，至高祭司就曾接受考验并失败，从而引发灾变。）Crysania 穿越时间、与 雷斯林 一同进入深渊的旅程，就是对她信仰的考验。
 
-### Crysania
+### 克丽珊娜 Crysania
 
 <strong>14 级人类 帕拉丁 牧师</strong>
 
@@ -378,7 +378,7 @@ Crysania 虔诚，但也有野心。她知道自己拥有在 艾力斯坦 离世
 
 <strong>插图记录：</strong>页眉有人物章节长矛装饰图样；本页含 卡拉蒙、泰斯（Tasslehoff）、Tika 与 坦尼斯（Tanis） 的人物数据框，无独立肖像插图说明文字。
 
-## Caramon Majere
+## 卡拉蒙·马哲里 Caramon Majere
 
 ### 卡拉蒙 Caramon
 
@@ -400,7 +400,7 @@ Crysania 虔诚，但也有野心。她知道自己拥有在 艾力斯坦 离世
 
 这段时间过后，他会恢复到攻击检定 -5、护甲等级 -5 的状态。此后他每保持清醒一周，攻击检定与护甲等级的罚值就各减少 1 点，而意志力增加 1 点。他的意志力最终会达到 10；但如果他再次饮酒，意志力会立刻降低 3 点。
 
-## Tasslehoff Burrfoot
+## 泰斯索何夫·柏伏特 Tasslehoff Burrfoot
 
 ### 泰斯 Tasslehoff
 
@@ -420,7 +420,7 @@ Crysania 虔诚，但也有野心。她知道自己拥有在 艾力斯坦 离世
 
 <strong>THAC0：</strong>16　<strong>阵营：</strong>中立　<strong>生命值：</strong>44　<strong>AC：</strong>1
 
-## Tika Waylan Majere
+## 蒂卡·维兰·马哲里 Tika Waylan Majere
 
 Tika 是一名二十出头的美丽年轻女性，是克莱恩各地传说与歌谣中的英雄。Tika 本来可以选择任何男人。她从小就爱着 卡拉蒙，而在两人共同经历冒险与危险的过程中，这份爱变得更加深厚。
 

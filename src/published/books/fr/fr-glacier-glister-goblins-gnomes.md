@@ -1,5 +1,5 @@
 
-## 白龙冰川 GLACIER OF THE WHITE WORM（续）
+## 白龙冰川 GLACIER OF THE WHITE WORM
 
 白龙冰川从地脊山脉最高峰之间流出，东侧经一处高崖流入穆尔玛斯特以东的月海，另一侧则流入冰融湖。
 

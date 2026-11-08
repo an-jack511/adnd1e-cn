@@ -1,4 +1,4 @@
-## Elminster（续）
+## 伊尔明斯特 Elminster
 
 伊尔明斯特（Elminster） 已经去世的老师是五百多年前死于深水城的那位贤者；在那个魔法领域最后的岁月里，他曾身处迷斯卓诺附近。贤者目前住在暗影谷这个小小的农耕社区，在一所俯瞰鱼塘的两层房屋中，与他的助手和抄写员拉埃欧同住。
 
@@ -6,7 +6,7 @@
 
 他的许多前学生和盟友包括国度中最强大的善良人物：深水城诸领主、阿戈拉隆统治者辛布尔、被称作竖琴手的组织，以及许多强大的巫师和女术士。
 
-## Emperel（Emp-er-EL）
+## 恩佩雷尔 Emperel（Emp-er-EL）
 
 <strong>绰号：</strong>沉睡之剑。<strong>据点：</strong>在迷雾谷与科米尔之间游荡。<strong>等级／职业：</strong>战士。<strong>阵营／信仰：</strong>混乱善良，梅莉凯。<strong>种族／性别：</strong>人类男性。**
 
@@ -20,25 +20,25 @@ Emperel 发誓守护沉睡之王的墓穴。他担心该地区的邪恶类人生
 
 科米尔王室把这些勇士称作“沉睡之剑”这一代号，以便混淆那些想杀死他们或夺取其武器装备的人；毕竟停滞中有三十多名 4–12 级战士，许多人拥有治疗药水、魔法武器与盔甲，并且所有人都有飞行翼。沉睡之王被藏在一个入口布满陷阱的洞穴中。
 
-## Eregul（ERE-eh-gull）
+## 埃瑞古尔 Eregul（ERE-eh-gull）
 
 <strong>据点：</strong>在科米尔／桑比亚间游荡。<strong>11 级魔法使用者。</strong>阵营／信仰：<strong>守序邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
 Eregul 是一个高大、黑胡子、说话带着讥讽拖腔的法师，有强烈的个人野心。他作为“自由法师”为泽恩塔林效力，既服务于他们的利益，也服务于自己。他在科米尔、桑比亚和谷地诸国的文明地区游荡，寻找可以取得的情报、有用的魔法或人手。
 
-## Eressea Ambergyles（Ere-ess-SEE-ah AHM-ber-giles）
+## 埃瑞西娅·安伯盖尔斯 Eressea Ambergyles（Ere-ess-SEE-ah AHM-ber-giles）
 
 <strong>据点：</strong>暗影谷。<strong>4 级泰莫拉牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 泰莫拉的祭司派她从维洪海域的阿拉巴尔出发，去龙湾地区建立新的神殿和圣龛。如今 Eressea 在暗影谷，那里正在建造一座这样的神殿，等待泰莫拉的一位高级牧师埃尔鲁伊丹到来，由他接管当地信仰的运作。
 
-## Flame
+## 烈焰 Flame
 
 <strong>职业：</strong>盗贼。<strong>等级：</strong>3 级。<strong>阵营／信仰：</strong>中立邪恶，马斯克。<strong>种族／性别：</strong>人类男性。**
 
 Flame 是一名在塞尔伦经营的盗贼。他原先是塞尔伦的纵火犯，直到城中一批首席法师和牧师联合起来，通过一连串火焰打击及类似事故，使他认识到自己的行为错误。那段“热度”过去后，他短暂自我放逐；如今他在城中做较安静的生意，同时提防法师与牧师。
 
-## Florin Falconhand
+## 弗洛林·鹰手 Florin Falconhand
 
 <strong>据点：</strong>在谷地诸国游荡。<strong>9 级巡林客。</strong>阵营／信仰：<strong>混乱善良，梅莉凯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -52,7 +52,7 @@ Florin 精通长剑和双手剑。成年后，他与几个伙伴出外谋生，�
 
 在与 Dove 结婚之前，Florin 曾与一位偶尔行窃的女子阿露拉·杜尔沙文（“佩妮”）同行；在她出现前后，他游历各地，也抽出时间认识了许多女性。梅莉凯曾数次直接向 Florin 显现，并命令他与 Dove 结婚、生育孩子，因为这“是必要的”。
 
-## Fzoul Chembryl（FZ-ool CHEMM-bril）
+## 弗佐尔·钱伯瑞 Fzoul Chembryl（FZ-ool CHEMM-bril）
 
 <strong>据点：</strong>散提尔堡。<strong>头衔：</strong>黑暗神殿高级牧师。<strong>13 级牧师。</strong>阵营／信仰：<strong>守序邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -64,7 +64,7 @@ Fzoul 狡猾、能言善辩，身材魁梧，有红头发，长相英俊。他�
 
 他的神殿里藏着三块冥想香，以及一根蛇杖（蝰蛇），供他在紧急情况下个人使用；他还在泰尔荒地某处藏有一个秘密藏身处，遇到极端危险时可以用回归真言返回那里，曼松并不知道这件物品。
 
-## Garth（GARTH）
+## 加斯 Garth（GARTH）
 
 <strong>绰号：</strong>塞尔伦的吉姆布尔蛇。<strong>据点：</strong>塞尔伦、马尔瑟姆伯与苏萨尔。<strong>4 级盗贼。</strong>阵营／信仰：<strong>中立邪恶，马斯克。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -72,7 +72,7 @@ Garth 是一个金发、瘦弱的盗贼，手脚灵活、头脑敏捷。他在�
 
 Garth 还与该地区反复发生的诈骗有关，尤其是仓库火灾和轻微烧损货物再出售的案件。他行踪难以捉摸，拥有许多“藏身洞”。在塞尔伦的黑鹿、马尔瑟姆伯的咆哮狮鹫、以及苏萨尔任何码头酒馆里都有他的联系人；寻找他服务的人可以到那里打听。
 
-## Gharri of Gond（Gharri UAR-…）
+## 贡德的加里 Gharri of Gond（Gharri UAR-…）
 
 <strong>绰号：</strong>冈德的奇匠 Gharri。<strong>生卒：</strong>1302–1356。<strong>据点：</strong>提尔弗顿。<strong>等级：</strong>15 级工程师／工匠。<strong>阵营／信仰：</strong>中立善良，冈德。<strong>种族／性别：</strong>人类男性。**
 
@@ -84,7 +84,7 @@ Gharri 被任命为摄政领主，但这是一个空头头衔，因为科米尔�
 
 从那里开始，Gharri 安静地经营冈德本地教团，其中包括一支非常优秀的间谍队伍，向他报告所有消息。后来他前往匕首谷援助当地领主兰德尔·莫恩，在蛇桥附近与十二名泽恩塔林法师进行一场规模惊人的魔法战斗时被毁灭。传言中他藏有的魔法与机械奇物、以及以金条和硬币形式保存的巨大个人财富，至今尚未找回；国度大多数人也不知道他已经死去。
 
-## Gunthor（GUN-thor）
+## 冈索尔 Gunthor（GUN-thor）
 
 <strong>据点：</strong>暗影谷。<strong>12 级战士。</strong>阵营／信仰：<strong>守序善良，摩拉丁。</strong>种族／性别：<strong>矮人男性。</strong>
 
@@ -92,7 +92,7 @@ Gharri 被任命为摄政领主，但这是一个空头头衔，因为科米尔�
 
 马尔希尔在希尔斯法尔掌权时，把这名矮人关进监狱；Gunthor 正匆忙收拾工具和货物，准备离开这座城以躲避马尔希尔的统治。暗影谷的 Florin·猎鹰手替他向马尔希尔买回自由。Gunthor 如今住在暗影谷的阿沙巴塔，为领主穆恩格林效力。
 
-## Guthbert Golthammer
+## 古斯伯特·金锤 Guthbert Golthammer
 
 <strong>据点：</strong>散提尔堡及其军队。<strong>4 级战士。</strong>阵营／信仰：<strong>混乱中立，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -102,7 +102,7 @@ Gharri 被任命为摄政领主，但这是一个空头头衔，因为科米尔�
 
 Guthbert 还得到一名经验丰富的雇佣兵首领协助：来自西门的 4 级战士纳奇姆。据说 Guthbert 友善却无所畏惧，并一心想有朝一日成为散提尔堡的统治者，完全没有意识到自己的缺点。
 
-## Hawkstone
+## 鹰石 Hawkstone
 
 <strong>据点：</strong>龙湾地区游荡。<strong>6 级巡林客。</strong>阵营／信仰：<strong>中立善良，梅莉凯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -110,7 +110,7 @@ Guthbert 还得到一名经验丰富的雇佣兵首领协助：来自西门的 4
 
 Hawkstone 说，梅莉凯曾在深林中向他显现，告诉他不要回到铁砧旁，也不要在洛莱死后抛弃自己的生命；他应当转而侍奉女神的事业。
 
-## Illistyl Elventree（IL-iss-til EL-ven-tree）
+## 伊莉丝蒂尔·精灵树 Illistyl Elventree（IL-iss-til EL-ven-tree）
 
 <strong>据点：</strong>在谷地诸国游荡。<strong>4 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -118,7 +118,7 @@ Illistyl 出生在暗影谷；领主 Doust 和他的同伴发现她拥有灵能�
 
 如今 Illistyl 是迷斯卓诺骑士团成员；自杰赛尔成为母亲之后，她在魔法战斗中更常承担领袖职责。她年轻、身材轻盈，性情调皮（几年前还是个假小子）。她的灵能为 12/12；能力为动物心灵感应、身体平衡和共情。
 
-## Islif Lurelake（ISS-lif LUR-lake）
+## 伊丝莉芙·洛尔湖 Islif Lurelake（ISS-lif LUR-lake）
 
 <strong>据点：</strong>阿拉贝尔。<strong>阵营／信仰：</strong>中立善良，坦帕斯。<strong>种族／性别：</strong>人类女性。**
 
@@ -126,7 +126,7 @@ Doust Sulwood 的妻子，曾是暗影谷民兵队长。Islif 已经退休（至
 
 Islif 身材高大、肩膀宽阔、身体强壮，出生在科米尔埃斯帕，父母是商人巴克曼和泰莎·湖女。
 
-## Jelde Asturien
+## 杰尔德·阿斯图里恩 Jelde Asturien
 
 <strong>据点：</strong>暮星。<strong>8 级牧师。</strong>阵营／信仰：<strong>中立邪恶，拉塔娜。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -136,7 +136,7 @@ Jelde 早年大多在当地溪流中捕鱼；他驼背而耐心的姿态让他�
 
 他仍保留冒险时期的一枚储法戒指，有时会穿上盔甲，保护拉塔娜的事业，或在石地中战斗。
 
-## Jhessail Silvertree（JESS-sail SIL-ver-tree）
+## 杰赛尔·银树 Jhessail Silvertree（JESS-sail SIL-ver-tree）
 
 <strong>绰号：</strong>火发 Jhessail。<strong>据点：</strong>谷地诸国游荡。<strong>8 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 

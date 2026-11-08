@@ -1,5 +1,5 @@
 
-## 北方骑士团 KNIGHTS OF THE NORTH（续）
+## 北方骑士团 KNIGHTS OF THE NORTH
 
 ### 伊尔明斯特的笔记 ELMINSTER'S NOTES
 

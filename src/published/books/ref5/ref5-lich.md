@@ -67,7 +67,7 @@ Shadowdale 北方农场以东的深林中有一条 Fox Ridge，是一片破碎�
 
 ## 第 70 页
 
-### 巢穴地图续页
+### 巢穴地图
 
 地图继续显示 <strong>Lair of Alokkair</strong>，并标有 Fox Ridge、房间 1–7、秘密通道、陷坑符号，以及与第 69 页图例相同的 Door、Double Doors、Secret Door、One-way Secret Door、Coffin、Rubble、Pit (concealed)、Edge of Cavern Roof、Spyhole、Ramp 和北向标记。
 

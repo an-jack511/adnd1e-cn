@@ -1,4 +1,4 @@
-## 东方龙（续） · Oriental Dragons (Continued)
+## 东方龙 · Oriental Dragons
 
 ### 盘龙 · Pan Lung
 
