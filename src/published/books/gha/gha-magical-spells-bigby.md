@@ -35,7 +35,7 @@
 
 ### 毕格比的灵巧手指术 Bigby's Dextrous Digits（塑能系）
 
-![Bigby 的灵巧手指术操控器具，原书 PDF 第 51 页裁片](/assets/books/gha/gha_bigby_dextrous_digits_illustration.png)
+![毕格比的灵巧手指术操控器具，原书 PDF 第 51 页裁片](/assets/books/gha/gha_bigby_dextrous_digits_illustration.png)
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>2<br>
