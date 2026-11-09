@@ -150,6 +150,14 @@ def clean_reader_text(text):
     # reader-facing archive so the following page remains part of the same
     # article, while preserving genuine words such as “续写” or “续命”。
     text = re.sub(r'[（(]续[）)]', '', text)
+    def clean_heading_continuation(match):
+        prefix, body, suffix = match.groups()
+        body = re.sub(r'\s*\((?:continued(?:\s+(?:ii|iii))?)\)', '', body, flags=re.I)
+        body = re.sub(r'\s+continued(?:\s+(?:ii|iii))?$', '', body, flags=re.I)
+        body = re.sub(r'（(?:续|续完|再续)）|\((?:续|续完|再续)\)|续文|续完|再续', '', body)
+        return prefix + body.strip() + suffix
+    text = re.sub(r'(<h[1-3][^>]*>)([^<]+)(</h[1-3]>)', clean_heading_continuation, text, flags=re.I)
+    text = re.sub(r'(<H[1-3][^>]*>)([^<]+)(</H[1-3]>)', clean_heading_continuation, text, flags=re.I)
     def translate_dla_heading(match):
         prefix, body, suffix = match.groups()
         stripped = re.sub(r'<[^>]+>', '', body).strip()
