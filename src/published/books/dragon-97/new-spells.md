@@ -4,7 +4,7 @@ Pages From the Mages IV · Dragon #97
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine097.pdf)
 
-## *解除寂静 Dispel Silence*（防护／变化）
+## *解除沉默 Dispel Silence*（防护／变化）
 
 Ed Greenwood · 第 31 页
 

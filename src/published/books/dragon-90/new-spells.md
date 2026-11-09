@@ -4,7 +4,7 @@ Enchanting Incantatrix, The · Dragon #90
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine090.pdf)
 
-## *阅读幻术魔法（魔咒师版） Read Illusionist Magic*（预言，可逆 Reversible）
+## *阅读幻术魔法 Read Illusionist Magic*（预言，可逆 Reversible）
 
 Ed Greenwood · 第 11 页
 

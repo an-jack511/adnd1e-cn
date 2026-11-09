@@ -3,7 +3,7 @@
 
 ### 洛特米尔山脉的铁砧
 
-<strong>Anvil of the Lortmil Mountains</strong>
+<strong>洛特米尔山脉的铁砧 Anvil of the Lortmil Mountains</strong>
 
 这件铁匠工具是在莫拉丁的圣所中被施加魔法的。它允许矮人武器匠打造出极其坚固且锋利的刀刃。每件武器所需的时间是通常的两倍；如果熟练检定失败，成品就是一件普通武器；如果检定成功，成品就是一件精良武器。精良武器的价值是同类普通武器价格的 100 倍。据说这件铁砧曾被用来锻造传奇的矮人魔法武器。
 
@@ -11,7 +11,7 @@
 
 ### 苏尔豪特山脉的熊斗篷
 
-<strong>Bear Cloak of the Sulhaut Mountains (C, F)</strong>
+<strong>苏尔豪特山脉的熊斗篷 Bear Cloak of the Sulhaut Mountains (C, F)</strong>
 
 部落萨满用洞穴熊的皮毛施加魔法。这件毛皮斗篷带有熊头兜帽、熊皮和熊爪。它允许穿戴者每天施展两次动物交谈，并每天施展一次定身动物。穿戴者的力量变为 18（50），并获得 50% 的恐惧免疫力。每周一次，穿戴者可以变成一头洞穴熊，持续 1d4+2 小时。它的所在位置不明。
 
@@ -19,7 +19,7 @@
 
 ### 阿迪大王国的黑冠
 
-<strong>Black Crown of Aerdy</strong>
+<strong>阿迪大王国的黑冠 Black Crown of Aerdy</strong>
 
 这件邪恶的头饰由古代大王国纳莱克斯家族最初的霸王们佩戴。它的附魔究竟是某种尚未确认的力量，还是一个残酷灵魂的容器，仍然没有定论；但它的力量能够重建已经覆灭的帝国。戴上它之后，穿戴者无法自愿将它取下。
 
@@ -31,7 +31,7 @@
 
 ### 施奈的黑帆
 
-<strong>Black Sails of Schnai</strong>
+<strong>施奈的黑帆 Black Sails of Schnai</strong>
 
 这些附魔帆由雪地野蛮人制作，并由他们的萨满祝福。它们是方帆，只用于伟大英雄或领主的葬船。死者的尸体会与船一起焚烧，帆则几乎全部被烧毁，只留下小小一块。部落首领可以在战斗中焚烧剩余的帆片，召唤其中的灵魂。
 
@@ -41,7 +41,7 @@
 
 ### 弗瑞东尼的棺材
 
-<strong>Casket of Furyondy</strong>
+<strong>弗瑞东尼的棺材 Casket of Furyondy</strong>
 
 这是一口雕刻精美的木棺，由弗瑞东尼的牧师施加魔法，用来保存荣誉之死者。任何守序善良的牧师都可以通过一项仪式启动它：将一名死亡不超过 9 天的人类或类人生物的尸体放入棺材，然后进行祝福。尸体会被无限期保存。无论经过多久，都可以对尸体施展复生术；进行系统震击检定时，死者的体质视为比当前能力高 3 点，且没有最大值限制。复活之后，死者还会获得医疗术所带来的益处。
 
@@ -49,7 +49,7 @@
 
 ###盾之地的圣杯
 
-<strong>Chalice of the Shield Lands</strong>
+<strong>Chalice of the 盾牌 Shield Lands</strong>
 
 ![盾之地圣杯相关插图，原书 PDF 第 77 页裁片](/assets/books/gha/gha_chalice_shieldlands_illustration.png)
 
@@ -62,7 +62,7 @@
 
 ### 阿梅迪奥的猎豹斗篷
 
-<strong>Cheetah Cloak of Amedio</strong>
+<strong>阿梅迪奥的猎豹斗篷 Cheetah Cloak of Amedio</strong>
 
 这件斗篷由黄色、带有黑色斑点的猎豹皮制成。它使敏捷提高 3 点（不能超过种族上限）。每 3 个轮次一次，穿戴者可以以移动力 45 英尺的速度冲刺 3 轮。在没有月亮的夜晚，穿戴者可以在每 24 小时内变成猎豹，持续最多 6 小时。
 
@@ -70,7 +70,7 @@
 
 ### 炽热山脉的斗篷
 
-<strong>Cloak of the Hellfurnaces</strong>
+<strong>炽热山脉的斗篷 Cloak of the Hellfurnaces</strong>
 
 这是一件红色衣物，可以使自然热量造成的伤害减半。它可以防护火花和火山爆发时喷出的灼热火山灰，但不能防护岩石碎块，即所谓的“炸弹”或“石块”。斗篷上的兜帽条可以包住嘴和鼻子，防止尘土和火山灰进入，并使穿戴者对吸入型毒素的豁免检定获得 +3 加值。穿戴者对魔法火焰和火龙吐息的所有豁免检定获得 +2 加值；即使豁免失败，伤害也会每骰减少 1 点，但每骰最低仍为 1 点。
 
@@ -78,7 +78,7 @@
 
 ### 阿尔莫尔的硬币
 
-<strong>Coin of Almor</strong>
+<strong>阿尔莫尔的硬币 Coin of Almor</strong>
 
 这是一枚受到诅咒的硬币，原本是为了帮助贫困者而制作的。一个打算把它留下或与他人分享的角色必须进行对法术的豁免检定；失败时，他会产生强烈的慈善冲动。无论角色原本是什么阵营，他都会把自己的财富交给贫穷和有需要的人。他永远不能保留超过 50 金币；多出的财富会一直留在他手中，直到某个合适的非玩家角色，例如乞丐或农民，接受他的赠送。这样的慷慨不包括魔法物品。只有移除诅咒才能解除它的效果。
 
@@ -86,7 +86,7 @@
 
 ### 图斯米特的项圈
 
-<strong>Collar of Tusmit</strong>
+<strong>图斯米特的项圈 Collar of Tusmit</strong>
 
 这是一件精金颈部护具。一名巫师曾因为害怕被斩首而制作了它。它不提供护甲等级加值，但能免疫斩首，尤其能免疫锋锐剑造成的斩首效果。即使攻击造成了足以杀死角色的全部生命值伤害，头颅仍会留在身体上。
 
@@ -104,7 +104,7 @@
 
 ### 灰鹰的圣徽
 
-<strong>Holy Symbol of Greyhawk</strong>
+<strong>灰鹰的圣徽 Holy Symbol of Greyhawk</strong>
 
 这个圣徽挂在金链上。每天一次，它可以同时施展祝福术和防护邪恶。
 
@@ -112,7 +112,7 @@
 
 ### 黑沼的王冠
 
-<strong>Crown of Blackmoor</strong>
+<strong>黑沼的王冠 Crown of Blackmoor</strong>
 
 这是一顶黑铁王冠，镶有一颗巨大的火蛋白石。一名强大的巫妖制作了它，用来传播邪恶与毁灭；只有邪恶或愚蠢的人才会去寻求它的力量。
 
@@ -140,7 +140,7 @@
 
 ### 苍海之盘
 
-<strong>Disk of the Azure Sea</strong>
+<strong>苍海之盘 Disk of the Azure Sea</strong>
 
 这件物品深受海上商人的欢迎，后来被卖给了一名富有的基奥兰商人。它是一块手掌宽的木盘，中央有一个小金环。把它放在船首，并向法兰汉祈祷后，它可以保护船只 24 小时。
 
@@ -151,7 +151,7 @@
 
 ### 维路纳的梦帽
 
-<strong>Dream Cap of Veluna</strong>
+<strong>维路纳的梦帽 Dream Cap of Veluna</strong>
 
 这顶皮帽会影响未来睡觉的穿戴者。每一整夜之后，穿戴者都会梦见下一个将要面对的生物或力量所带来的威胁。非玩家角色、怪物、法术或自然危害会以象征形式出现；例如，牛头人可能表现为公牛或毛发浓密的人，火球术可能表现为火焰覆盖的土地或火元素位面。
 
@@ -161,7 +161,7 @@
 
 ### 特恩的眼罩
 
-<strong>Eyepatch of Tenh</strong>
+<strong>特恩的眼罩 Eyepatch of Tenh</strong>
 
 这是一块黑色眼罩。通过未受伤的那只眼睛，穿戴者可以在正常视距内看见所有隐形、星界和以太状态的事物；幻术和变形也会显露真实形态。穿戴者在识破魅影杀手时受到 −5 减值。
 
@@ -171,7 +171,7 @@
 
 ### 特恩的火焰镜
 
-<strong>Flaming Mirror of Tenh (M)</strong>
+<strong>特恩的火焰镜 Flaming Mirror of Tenh (M)</strong>
 
 这面银色椭圆镜高 6 英尺、宽 3 英尺，装在橡木支架上。一名位面巫师通过它获得了通往火元素位面的通道。说出命令后，镜子会打开通往火元素位面的闸门，使用者可以观察、进入或离开那个位面。
 
@@ -181,7 +181,7 @@
 
 ### 森迪的宝石切割工具
 
-<strong>Gemcutter’s Tools of Sunndi</strong>
+<strong>森迪的宝石切割工具 Gemcutter’s Tools of Sunndi</strong>
 
 这些虎钳、锤子、刀片和凿子由住在森迪郡宝石矿山中的山地矮人施加魔法。它们用于宝石切割熟练项时，可以让使用者在《地下城主指南》的宝石基础价值表上获得修正。裁判掷 1d8：
 
@@ -197,7 +197,7 @@
 
 ### 大王国的高脚杯
 
-<strong>Goblet of the Great Kingdom</strong>
+<strong>大王国的高脚杯 Goblet of the Great Kingdom</strong>
 
 这是大王国的暴君们使用的物品。它看起来是一只经过抛光的普通橡木杯，但任何放在其中至少 1 轮的毒液或毒药液体都会被自动中和。
 
@@ -205,7 +205,7 @@
 
 ### 乌恩斯特的金腰带
 
-<strong>Golden Girdle of Urnst</strong>
+<strong>乌恩斯特的金腰带 Golden Girdle of Urnst</strong>
 
 这是一条红色丝绸腰带，其中混有金色薄片，用来保护魔法使用者免受战士攻击。它可以使穿戴者对所有剑类获得 −3 的护甲等级，即护甲等级提高 3 点；其他武器不受影响。
 
@@ -213,7 +213,7 @@
 
 ### 灰鹰的金头环
 
-<strong>Golden Circlet of Greyhawk (M, T)</strong>
+<strong>灰鹰的金头环 Golden Circlet of Greyhawk (M, T)</strong>
 
 这是一枚供领主市长使用的金色头环，据说被保存在某处金库中。它可以像瓦尔哈拉号角一样召唤盗贼：
 

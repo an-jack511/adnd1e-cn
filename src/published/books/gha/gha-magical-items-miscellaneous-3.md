@@ -3,7 +3,7 @@
 
 ### 塞伦涅之星
 
-<strong>Star of Celene</strong>
+<strong>塞伦涅之星 Star of Celene</strong>
 
 这枚金色奖章挂在银项链上，是送给一名曾为塞伦涅高等精灵立下重大功劳的半身人盗贼的礼物。它原本是给这名半身人及其家人和朋友使用的，但现在没有人知道它在谁手中。
 
@@ -13,7 +13,7 @@
 
 ### 盖尔纳特海的风暴骑士
 
-<strong>Storm Rider of the Gearnat Sea</strong>
+<strong>盖尔纳特海的风暴骑士 Storm Rider of the Gearnat Sea</strong>
 
 这艘大型商船经过附魔，可以承受盖尔纳特海在春季和秋季的猛烈风暴与巨浪。许多商人集合财富，支付给施法者以便为它施加魔法。后来因为所有权问题爆发了一场血腥争斗，船只也神秘地消失了。如今，风暴骑士属于任何强大到可以夺取它、又足够狡猾而能保住它的人。
 
@@ -23,7 +23,7 @@
 
 ### 艾克比尔的挂毯
 
-<strong>Tapestry of Ekbir</strong>
+<strong>艾克比尔的挂毯 Tapestry of Ekbir</strong>
 
 这幅 10 英尺 × 15 英尺的织锦挂毯描绘了一条流经荒凉岩地的黑暗河流。它原本被设计成一扇从艾克比尔通往下层位面的门，用来处置最邪恶的罪犯。然而，据说挂毯实际打开的是一个此前未被发现的位面，而不是下层位面，尽管其中的景色已经足够荒凉。
 
@@ -35,7 +35,7 @@
 
 ### 查基克的虎斗篷
 
-<strong>Tiger Cloak of Chakyik (C, F, T)</strong>
+<strong>查基克的虎斗篷 Tiger Cloak of Chakyik (C, F, T)</strong>
 
 这件斗篷由一头成年老虎的完整皮毛制成，包括虎头兜帽、虎皮以及从两侧垂下的虎爪。它曾是虎王和各个小可汗最喜爱的魔法物品，直到后来失踪。
 
@@ -45,7 +45,7 @@
 
 ### 法师的时间沙漏
 
-<strong>Timeglass of the Mage (M)</strong>
+<strong>法师的时间沙漏 Timeglass of the Mage (M)</strong>
 
 这件魔法物品看起来是一只高 1 英尺的沙漏。一名强行闯入法师谷的冒险者突然带着它出现。他回来时只带回了时间沙漏，以及许多危险遭遇留下的伤疤。从那以后，许多施法者一直寻找它，因为传闻它拥有下列力量：
 
@@ -60,7 +60,7 @@
 
 ### 图斯米特的头巾
 
-<strong>Turbans of Tusmit (C, M)</strong>
+<strong>图斯米特的头巾 Turbans of Tusmit (C, M)</strong>
 
 这些色彩鲜艳的衣物在图斯米特被用于各种目的。有些头巾曾让持有者获得巨额财富和名声，另一些则给持有者带来可怕的痛苦。
 
@@ -89,7 +89,7 @@
 
 ### 图斯米特的战斗新月
 
-<strong>Tusmit’s Battle Crescent</strong>
+<strong>图斯米特的战斗新月 Tusmit’s Battle Crescent</strong>
 
 这枚奖章镶在一条镶宝石的金项链上，是西北部统治者珍爱的财产。一名军阀会乐意为它支付全价，不过，一个背信弃义的领主可能会派出自己的盗贼和刺客来夺回付款。
 
@@ -101,7 +101,7 @@
 
 ### 斧木的哨子
 
-<strong>Whistle of Axewood</strong>
+<strong>斧木的哨子 Whistle of Axewood</strong>
 
 这件银制乐器由精灵巫师制作，供年轻的人类和精灵少女使用。任何成功使用哨子的人都会获得斧木类人生物的尊重；而任何关于滥用哨子的传闻，都会招来许多愤怒的精灵、侏儒和半身人的怒火。
 
@@ -127,7 +127,7 @@
 
 ### 掠夺者山脉之翼
 
-<strong>Wings of the Rakers</strong>
+<strong>掠夺者山脉之翼 Wings of the Rakers</strong>
 
 这件白色斗篷由一名巫师施加魔法；他在格里夫山脉和掠夺者山脉找到了欢迎自己的家园，尤其喜欢与鸟羽人相处。因此，他制作了这件物品，以改善自己与他们相遇时的体验。在自然寿命将尽、返回帕莱神权国的家乡时，他把斗篷交给一位信任的朋友；从此以后，它一直在不同角色之间流传。
 
@@ -137,7 +137,7 @@
 
 ### 韦格维尔的狼斗篷
 
-<strong>Wolf Cloak of Wegwiur (C, F, T)</strong>
+<strong>韦格维尔的狼斗篷 Wolf Cloak of Wegwiur (C, F, T)</strong>
 
 这件魔法斗篷由冬狼的皮制成，包括狼头兜帽、狼皮、狼爪和狼尾。它由狼族游牧民的牧师施加魔法，从那以后便成为寻求狼之迅捷、敏捷力量者的工具。
 
@@ -147,7 +147,7 @@
 
 ### 迪弗斯的木工工具
 
-<strong>Woodworker’s Tools of Dyvers</strong>
+<strong>迪弗斯的木工工具 Woodworker’s Tools of Dyvers</strong>
 
 这套魔法锤子、钉子、斧头、凿子、锉刀和其他工具，是为迪弗斯城的一名木匠制作的。尽管他为此支付了大量金币，这套工具最终还是为他带来了巨额财富。
 

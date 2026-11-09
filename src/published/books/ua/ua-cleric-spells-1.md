@@ -81,7 +81,7 @@
 
 效果持续至时限届满，或受术者受到任何魔法寒冷（包括白龙吐息）或魔法热力影响。无论施展的是抗寒还是抗热版本，两类魔法都会使其解除。解除的当轮不受该魔法寒热造成的伤害，自下一轮起恢复易受伤害。对受术者施展*抵抗火焰*或*抵抗寒冷*，此术立即解除。
 
-## 对不死生物隐形 Invisibility to Undead（幻术／魅影系 Illusion/Phantasm）
+## 对不死生物隐形 对不死生物隐形（幻术／魅影系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>1<br>

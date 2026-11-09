@@ -10,7 +10,7 @@
 |:---:|:---|:---|:---|:---|:---|
 | 1 | 影响普通火焰 Affect Normal Fires | 可闻幻象 Audible Glamer | 闪现术 Blink | 魅惑怪物 Charm Monster | 气水术 Airy Water |
 | 2 | *魔法警报 Alarm* | *绑缚术 Bind* | 隔墙闻声 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
-| 3 | *护甲术 Armor* | 恒久光亮术 Continual Light | 鹰眼术 Clairvoyance | 挖掘术 Dig | 活化死尸 Animate Dead |
+| 3 | *护甲术 Armor* | 恒定光亮 Continual Light | 鹰眼术 Clairvoyance | 挖掘术 Dig | 活化死尸 Animate Dead |
 | 4 | 燃烧之手 Burning Hands | 半径15尺黑暗术 Darkness 15' Radius | *暴雨术 Cloudburst* | 任意门 Dimension Door | *回避术 Avoidance* |
 | 5 | 魅惑人类 Charm Person | *深袋术 Deeppockets* | *侦测幻象 Detect Illusion* | *解除幻象 Dispel Illusion* | 毕格比阻截之手 Bigby's Interposing Hand |
 | 6 | 通晓语言 Comprehend Languages | 侦测邪恶 Detect Evil | 解除魔法 Dispel Magic | 魔化武器 Enchanted Weapon | 死云术 Cloudkill |
@@ -30,7 +30,7 @@
 | 20 | 魔法飞弹 Magic Missile | *马友夫强酸箭 Melf's Acid Arrow* | *材料术 Material* | 群体变树术 Massmorph | 召唤怪物 III Monster Summoning III |
 | 21 | *熔化术 Melt* | 镜影术 Mirror Image | *马友夫微流星 Melf's Minute Meteor* | *欧提路克弹力法球 Otiluke's Resilient Sphere* | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
 | 22 | 修复术 Mending | *保鲜术 Preserve* | 召唤怪物 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
-| 23 | 传讯术 Message | *小法术防护 Protection From Cantrips* | 魅影之力 Phantasmal Force | 他塑形术 Polymorph Other | 短讯术 Sending |
+| 23 | 短讯术 Message | *小法术防护 Protection From Cantrips* | 魅影之力 Phantasmal Force | 他塑形术 Polymorph Other | 短讯术 Sending |
 | 24 | *坐骑术 Mount* | 烟火术 Pyrotechnics | 防护邪恶（半径10尺） Protection From Evil 10' Radius | 自塑形术 Polymorph Self | 塑石术 Stone Shape |
 | 25 | 涅斯图魔法灵光 Nystul's Magic Aura | 衰弱射线 Ray of Enfeeblement | 防护普通飞弹 Protection From Normal Missiles | 拉瑞的记忆强化术 Rary's Mnemonic Enhancer | 心灵遥控 Telekinesis |
 | 26 | *降水术 Precipitation* | 魔绳术 Rope Trick | *秘密文页 Secret Page* | 移除诅咒 Remove Curse | 传送术 Teleport |

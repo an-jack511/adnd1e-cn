@@ -20,7 +20,7 @@
 | 编号（Number） | 一环（1st Level） | 二环（2nd Level） | 三环（3rd Level） | 四环（4th Level） | 五环（5th Level） | 六环（6th Level） | 七环（7th Level） |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 化兽为友（Animal Friendship） | 树肤术（Barkskin） | 召雷术（Call Lightning） | 召唤动物 I（Animal Summoning I） | 动物成长（Animal Growth） | 召唤动物 III（Animal Summoning III） | 活化岩石术（Animate Rock） |
-| 2 | 侦测魔法（Detect Magic） | 魅惑人类或哺乳动物（Charm Person or Mammal） | 治愈疾病（Cure Disease） | 召唤林地生物（Call Woodland Beings） | 召唤动物 II（Animal Summoning II） | 反动物护罩（Anti-Animal Shell） | 萨斯塔尔战车（Chariot of Sustarre） |
+| 2 | 侦测魔法（Detect Magic） | 魅惑人类或哺乳动物（Charm Person or Mammal） | 治愈疾病（Cure Disease） | 召唤林地生物（Call Woodland Beings） | 召唤动物 II（Animal Summoning II） | 反动物力场（Anti-Animal Shell） | 萨斯塔尔战车（Chariot of Sustarre） |
 | 3 | 侦测陷阱与坑洞（Detect Snares & Pits） | 造水术（Create Water） | 定身动物（Hold Animal） | 控制温度（10尺半径）（Control Temperature, 10' Radius） | 反植物护罩（Anti-Plant Shell） | 召唤火元素（Conjure Fire Elemental） | 困惑术（Confusion） |
 | 4 | 纠缠术（Entangle） | 治疗轻伤（Cure Light Wounds） | 中和毒性（Neutralize Poison） | 治疗重伤（Cure Serious Wounds） | 问道自然（Commune with Nature） | 治疗致命伤（Cure Critical Wounds） | 召唤土元素（Conjure Earth Elemental） |
 | 5 | 妖火（Faerie Fire） | 假死术（Feign Death） | 植物滋长（Plant Growth） | 解除魔法（Dispel Magic） | 操控风力（Control Winds） | 弱智术（Feeblemind） | 操控天气（Control Weather） |
@@ -50,7 +50,7 @@
 | 12 | 封门术 Hold Portal | 浮空术 Levitate | 人类定身术 Hold Person | 幻景 Hallucinatory Terrain | 怪物定身术 Hold Monster |
 | 13 | 鉴定术 Identify | 物品定位术 Locate Object | 红外视觉 Infravision | 冰风暴 Ice Storm | 李欧蒙的秘藏箱 Leomund's Secret Chest |
 | 14 | 跳跃术 Jump | 魔嘴 Magic Mouth | 隐形术（10尺半径） Invisibility, 10' Radius | 群体变树术 Massmorph | 魔魂壶 Magic Jar |
-| 15 | 光亮术 Light | 镜影术 Mirror Image | 李欧蒙小屋 Leomund's Tiny Hut | 次级法术无效结界 Minor Globe of Invulnerability | 召唤怪物 III Monster Summoning III |
+| 15 | 光亮术 Light | 镜影术 Mirror Image | 李欧蒙小屋 Leomund's Tiny Hut | 小型法术无效结界 Minor Globe of Invulnerability | 召唤怪物 III Monster Summoning III |
 | 16 | 魔法飞弹 Magic Missile | 烟火术 Pyrotechnics | 闪电束 Lightning Bolt | 召唤怪物 II Monster Summoning II | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
 | 17 | 修复术 Mending | 衰弱射线 Ray of Enfeeblement | 召唤怪物 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
 | 18 | 传讯术 Message | 魔绳术 Rope Trick | 魅影之力 Phantasmal Force | 他者变形术 Polymorph Other | 塑石术 Stone Shape |
@@ -104,7 +104,7 @@
 | 2 | 易容术 Change Self | 朦胧术 Blur | 恒定光亮 Continual Light | 解除疲劳 Dispel Exhaustion | 半阴影怪物 Demi-Shadow Monsters | 半阴影魔法 Demi-Shadow Magic | 星界法术 Astral Spell |
 | 3 | 七彩喷射 Color Spray | 耳聋术 Deafness | 解除幻象 Dispel Illusion | 情绪术 Emotion | 高等创造术 Major Creation | 群体暗示术 Mass Suggestion | 虹光喷射 Prismatic Spray |
 | 4 | 舞光术 Dancing Lights | 侦测魔法 Detect Magic | 恐惧术 Fear | 高等隐形术 Improved Invisibility | 迷宫术 Maze | 恒久幻象 Permanent Illusion | 虹光法墙 Prismatic Wall |
-| 5 | 黑暗术 Darkness | 云雾术 Fog Cloud | 幻景 Hallucinatory Terrain | 群体变形 Massmorph | 投影术 Projected Image | 预置幻影 Programmed Illusion | 异象术 Vision |
+| 5 | 黑暗术 Darkness | 云雾术 Fog Cloud | 幻景 Hallucinatory Terrain | 群体变树术 Massmorph | 投影术 Projected Image | 预置幻影 Programmed Illusion | 异象术 Vision |
 | 6 | 侦测幻象 Detect Illusion | 催眠图纹 Hypnotic Pattern | 幻文术 Illusionary Script | 次级创造术 Minor Creation | 阴影门 Shadow Door | 幽影术 Shades | 一环魔法师法术 First Level Magic-User Spells |
 | 7 | 侦测隐形 Detect Invisibility | 强化魅影之力 Improved Phantasmal Force | 隐形术（10尺半径） Invisibility, 10' Radius | 魅影杀手 Phantasmal Killer | 阴影魔法 Shadow Magic | 真实视觉 True Sight |  |
 | 8 | 凝视反射术 Gaze Reflection | 隐形术 Invisibility | 防侦测术 Non-detection | 阴影怪物 Shadow Monsters | 召唤阴影 Summon Shadow | 隐匿之纱 Veil |  |

@@ -256,14 +256,14 @@
 | 全部 | 赎罪术 Atonement | PH | 5 | A | A | A | A | A | A |
 | 全部 | 仪式 Ceremony* | UA | 1 | A | A | A | A | A | A |
 | 全部 | 合并 Combine | UA | 1 | A | A | A | A | A | A |
-| 全部 | 神圣徽记 Holy Symbol | UA | 2 | A | A | A | A | A | A |
+| 全部 | 圣徽术 Holy Symbol | UA | 2 | A | A | A | A | A | A |
 | 全部 | 净化食物与水 Purify Food and Water | PH | 1R | True | True | True | True | True | True |
 | 动物 | 化兽为友 Animal Friendship* | PH | 1 | — | — | — | Add | A | — |
 | 动物 | 动物成长 Animal Growth* | PH | 5R | — | — | — | — | A | — |
 | 动物 | 召唤动物 I Animal Summoning I* | PH | 4 | — | — | — | — | A | — |
 | 动物 | 召唤动物 II Animal Summoning II* | PH | 5 | — | — | — | — | A | — |
 | 动物 | 召唤动物 III Animal Summoning III* | PH | 6 | — | — | — | — | A | — |
-| 动物 | 反动物护罩 Anti-Animal Shell* | PH | 6 | — | — | — | — | A | — |
+| 动物 | 反动物力场 Anti-Animal Shell* | PH | 6 | — | — | — | — | A | — |
 | 动物 | 召唤林地生物 Call Woodland Beings* | PH | 4 | — | — | — | — | A | — |
 | 动物 | 魅惑人类或哺乳动物 Charm Person or Mammal* | PH | 2 | — | Spc | — | A | A | — |
 | 动物 | 爬行灾厄 Creeping Doom* | PH | 7 | — | Add | — | — | A | — |
@@ -273,7 +273,7 @@
 | 动物 | 信使 Messenger | UA | 2 | — | — | — | — | A | — |
 | 动物 | 驱逐昆虫 Repel Insects* | PH | 4 | — | Add | — | — | A | — |
 | 动物 | 转生术 Reincarnate* | PH | 7 | — | — | — | — | A | — |
-| 动物 | 魅惑蛇 Snake Charm | PH | 2 | — | — | — | — | A | — |
+| 动物 | 蛇魅术 Snake Charm | PH | 2 | — | — | — | — | A | — |
 | 动物 | 动物交谈 Speak with Animals* | PH | 1 | — | — | — | — | A | — |
 | 动物 | 召唤昆虫 Summon Insects | PH | 3 | — | Spc | — | — | A | — |
 | 星界 | 星界法术 Astral Spell | PH | 7 | A | A | A | A | — | — |
@@ -323,7 +323,7 @@
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | — | A | — | A | — | — |
 | 卜测 | 寻觅植物 Locate Plants* | PH | 2 | — | A | — | A | — | Spc |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | — | A | — | A | — | — |
-| 卜测 | 穿透伪装 Penetrate Disguise | UA | 1 | — | A | Add | A | — | — |
+| 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | — | A | Add | A | — | — |
 | 卜测 | 预兆 Portent | UA | 1 | — | A | — | A | — | — |
 | 卜测 | 反射池 Reflecting Pool* | UA | 2 | Spc | A | — | A | — | — |
 | 卜测 | 与怪物交谈 Speak with Monsters | PH | 6 | — | A | — | A | Add | — |
@@ -352,7 +352,7 @@
 | 元素 | 石塑术 Stone Shape* | PH | 3 | — | — | — | Add | A | — |
 | 元素 | 石头告知术 Stone Tell | PH | 6 | — | — | — | — | A | — |
 | 元素 | 金属化木 Transmute Metal to Wood* | PH | 7 | — | — | — | — | A | — |
-| 元素 | 岩石化泥 Transmute Rock to Mud* | PH | 5 | — | — | — | — | A | — |
+| 元素 | 化石为泥 Transmute Rock to Mud* | PH | 5 | — | — | — | — | A | — |
 | 元素 | 水化尘 Transmute Water to Dust* | UA | 6R | — | — | — | — | A | — |
 | 元素 | 火墙术 Wall of Fire* | PH | 5 | — | — | — | — | A | — |
 | 元素 | 水下呼吸 Water Breathing* | PH | 3 | — | — | — | Add | A | — |
@@ -454,7 +454,7 @@
 | 天气 | 操控天气 Control Weather* | PH | 7 | — | — | — | — | — | A |
 | 天气 | 控制风 Control Winds | PH | 5 | — | — | — | — | — | A |
 | 天气 | 妖火术 Faerie Fire* | PH | 1 | — | — | — | — | — | A |
-| 天气 | 遮蔽术 Obscurement | PH | 2 | — | — | — | — | — | A |
+| 天气 | 迷雾术 Obscurement | PH | 2 | — | — | — | — | — | A |
 | 天气 | 降水 Precipitation | UA | 1 | — | — | — | — | — | A |
 | 天气 | 预测天气 Predict Weather | PH | 1 | — | — | Add | — | — | A |
 | 天气 | 彩虹 Rainbow | UA | 5 | — | — | — | — | — | A |
@@ -477,14 +477,14 @@
 | 全部 | 赎罪术 Atonement | PH | 5 | A | A | A | A | A | A |
 | 全部 | 仪式 Ceremony* | UA | 1 | A | A | A | A | A | A |
 | 全部 | 合并 Combine | UA | 1 | A | A | A | A | A | A |
-| 全部 | 神圣徽记 Holy Symbol | UA | 2 | A | A | A | A | A | A |
+| 全部 | 圣徽术 Holy Symbol | UA | 2 | A | A | A | A | A | A |
 | 全部 | 净化食物与水 Purify Food and Water | PH | 1R | True | True | True | True | True | True |
 | 动物 | 化兽为友 Animal Friendship* | PH | 1 | — | — | — | A | — | — |
 | 动物 | 动物成长 Animal Growth* | PH | 5R | — | — | — | A | — | — |
 | 动物 | 召唤动物 I Animal Summoning I* | PH | 4 | — | — | — | A | — | — |
 | 动物 | 召唤动物 II Animal Summoning II* | PH | 5 | — | — | — | A | — | — |
 | 动物 | 召唤动物 III Animal Summoning III* | PH | 6 | — | — | — | A | — | — |
-| 动物 | 反动物护罩 Anti-Animal Shell* | PH | 6 | — | — | — | A | — | — |
+| 动物 | 反动物力场 Anti-Animal Shell* | PH | 6 | — | — | — | A | — | — |
 | 动物 | 召唤林地生物 Call Woodland Beings* | PH | 4 | — | — | — | A | — | — |
 | 动物 | 魅惑人类或哺乳动物 Charm Person or Mammal* | PH | 2 | — | — | — | A | — | — |
 | 动物 | 爬行灾厄 Creeping Doom* | PH | 7 | — | — | — | A | — | — |
@@ -494,7 +494,7 @@
 | 动物 | 信使 Messenger | UA | 2 | Add | — | — | A | — | — |
 | 动物 | 驱逐昆虫 Repel Insects* | PH | 4 | — | — | — | A | — | — |
 | 动物 | 转生术 Reincarnate* | PH | 7 | — | — | — | A | — | — |
-| 动物 | 魅惑蛇 Snake Charm | PH | 2 | — | — | — | A | — | — |
+| 动物 | 蛇魅术 Snake Charm | PH | 2 | — | — | — | A | — | — |
 | 动物 | 动物交谈 Speak with Animals* | PH | 1 | Add | — | — | A | — | — |
 | 动物 | 召唤昆虫 Summon Insects | PH | 3 | — | — | — | A | — | — |
 | 星界 | 星界法术 Astral Spell | PH | 7 | A | — | — | — | A | — |
@@ -539,7 +539,7 @@
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | A | — | — | — | A | Spc |
 | 卜测 | 寻觅植物 Locate Plants* | PH | 2 | A | — | — | — | A | — |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | A | — | — | — | A | — |
-| 卜测 | 穿透伪装 Penetrate Disguise | UA | 1 | A | — | — | — | A | — |
+| 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | A | — | — | — | A | — |
 | 卜测 | 预兆 Portent | UA | 1 | A | — | — | — | A | — |
 | 卜测 | 反射池 Reflecting Pool* | UA | 2 | A | — | — | — | A | — |
 | 卜测 | 与怪物交谈 Speak with Monsters | PH | 6 | A | — | — | — | A | — |
@@ -568,7 +568,7 @@
 | 元素 | 石塑术 Stone Shape* | PH | 3 | — | — | A | — | — | — |
 | 元素 | 石头告知术 Stone Tell | PH | 6 | — | — | A | — | — | — |
 | 元素 | 金属化木 Transmute Metal to Wood* | PH | 7 | — | — | A | — | — | — |
-| 元素 | 岩石化泥 Transmute Rock to Mud* | PH | 5 | — | — | A | — | — | — |
+| 元素 | 化石为泥 Transmute Rock to Mud* | PH | 5 | — | — | A | — | — | — |
 | 元素 | 水化尘 Transmute Water to Dust* | UA | 6R | — | — | A | — | — | — |
 | 元素 | 火墙术 Wall of Fire* | PH | 5 | — | — | A | — | — | — |
 | 元素 | 水下呼吸 Water Breathing* | PH | 3 | — | — | A | — | — | — |
@@ -670,7 +670,7 @@
 | 天气 | 操控天气 Control Weather* | PH | 7 | — | — | — | A | — | — |
 | 天气 | 控制风 Control Winds | PH | 5 | — | — | — | A | — | — |
 | 天气 | 妖火术 Faerie Fire* | PH | 1 | — | — | — | A | — | — |
-| 天气 | 遮蔽术 Obscurement | PH | 2 | — | — | — | A | — | — |
+| 天气 | 迷雾术 Obscurement | PH | 2 | — | — | — | A | — | — |
 | 天气 | 降水 Precipitation | UA | 1 | — | — | — | A | — | — |
 | 天气 | 预测天气 Predict Weather | PH | 1 | — | — | — | A | — | — |
 | 天气 | 彩虹 Rainbow | UA | 5 | — | — | — | A | — | — |
@@ -691,14 +691,14 @@
 | 全部 | 赎罪术 Atonement | PH | 5 | A／A／A／A／A／A |
 | 全部 | 仪式 Ceremony* | UA | 1 | A／A／A／A／A／A |
 | 全部 | 合并 Combine | UA | 1 | A／A／A／A／A／A |
-| 全部 | 神圣徽记 Holy Symbol | UA | 2 | A／A／A／A／A／A |
+| 全部 | 圣徽术 Holy Symbol | UA | 2 | A／A／A／A／A／A |
 | 全部 | 净化食物与水 Purify Food and Water | PH | 1R | A／A／A／A／A／A |
 | 动物 | 化兽为友 Animal Friendship* | PH | 1 | —／—／—／—／A／— |
 | 动物 | 动物成长 Animal Growth | PH | 5R | —／—／—／—／A／— |
 | 动物 | 召唤动物 I Animal Summoning I* | PH | 4 | —／—／—／—／A／— |
 | 动物 | 召唤动物 II Animal Summoning II* | PH | 5 | —／—／—／—／A／— |
 | 动物 | 召唤动物 III Animal Summoning III* | PH | 6 | —／—／—／—／A／— |
-| 动物 | 反动物护罩 Anti-Animal Shell | PH | 6 | —／—／—／—／A／— |
+| 动物 | 反动物力场 Anti-Animal Shell | PH | 6 | —／—／—／—／A／— |
 | 动物 | 召唤林地生物 Call Woodland Beings* | PH | 4 | —／—／—／—／A／— |
 | 动物 | 魅惑人类或哺乳动物 Charm Person or Mammal* | PH | 2 | —／—／—／—／A／— |
 | 动物 | 爬行灾厄 Creeping Doom | PH | 7 | —／—／—／—／A／— |
@@ -708,7 +708,7 @@
 | 动物 | 信使 Messenger | UA | 2 | —／—／—／—／A／— |
 | 动物 | 驱逐昆虫 Repel Insects | PH | 4 | —／—／—／—／A／— |
 | 动物 | 转生术 Reincarnate | PH | 7 | —／—／—／—／A／— |
-| 动物 | 魅惑蛇 Snake Charm | PH | 2 | —／—／—／—／A／— |
+| 动物 | 蛇魅术 Snake Charm | PH | 2 | —／—／—／—／A／— |
 | 动物 | 动物交谈 Speak with Animals* | PH | 1 | —／—／—／—／A／— |
 | 动物 | 召唤昆虫 Summon Insects | PH | 3 | —／—／—／—／A／— |
 | 星界 | 星界法术 Astral Spell | PH | 7 | A／A／A／A／—／— |
@@ -753,7 +753,7 @@
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | —／—／—／—／—／A |
 | 卜测 | 寻觅植物 Locate Plants* | PH | 2 | —／—／—／—／—／A |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | —／—／—／—／—／A |
-| 卜测 | 穿透伪装 Penetrate Disguise | UA | 1 | —／—／—／—／—／A |
+| 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | —／—／—／—／—／A |
 | 卜测 | 预兆 Portent | UA | 1 | —／—／—／—／—／A |
 | 卜测 | 反射池 Reflecting Pool* | UA | 2 | —／—／—／—／—／A |
 | 卜测 | 与怪物交谈 Speak with Monsters | PH | 6 | —／—／—／—／—／A |
@@ -782,7 +782,7 @@
 | 元素 | 石塑术 Stone Shape* | PH | 3 | —／—／—／—／A／— |
 | 元素 | 石头告知术 Stone Tell | PH | 6 | —／—／—／—／A／— |
 | 元素 | 金属化木 Transmute Metal to Wood* | PH | 7 | —／—／—／—／A／— |
-| 元素 | 岩石化泥 Transmute Rock to Mud* | PH | 5 | —／—／—／—／A／— |
+| 元素 | 化石为泥 Transmute Rock to Mud* | PH | 5 | —／—／—／—／A／— |
 | 元素 | 水化尘 Transmute Water to Dust* | UA | 6R | —／—／—／—／A／— |
 | 元素 | 火墙术 Wall of Fire* | PH | 5 | —／—／—／—／A／— |
 | 元素 | 水下呼吸 Water Breathing* | PH | 3 | —／—／—／—／A／— |
@@ -884,7 +884,7 @@
 | 天气 | 操控天气 Control Weather* | PH | 7 | —／—／—／—／A／— |
 | 天气 | 控制风 Control Winds | PH | 5 | —／—／—／—／A／— |
 | 天气 | 妖火术 Faerie Fire* | PH | 1 | —／—／—／—／A／— |
-| 天气 | 遮蔽术 Obscurement | PH | 2 | —／—／—／—／A／— |
+| 天气 | 迷雾术 Obscurement | PH | 2 | —／—／—／—／A／— |
 | 天气 | 降水 Precipitation | UA | 1 | —／—／—／—／A／— |
 | 天气 | 预测天气 Predict Weather | PH | 1 | —／—／—／—／A／— |
 | 天气 | 彩虹 Rainbow | UA | 5 | —／—／—／—／A／— |
@@ -902,11 +902,11 @@
 
 ### 咒法／召唤（Conjuration/Summoning）
 
-蜜蜂 Bee（PC，仅 S）；蓝光 Bluelight（PC，仅 C）；虫 Bug（PC，仅 S）；蚋 Gnats（PC，仅 S）；老鼠 Mouse（PC，仅 S）；蜘蛛 Spider（PC，仅 S）；小修 Tweak（PC，仅 C）；解锁 Unlock（PC，仅 C）；护甲 Armor（1M，仅 C）；召唤 Beckon（5M，逆转／回避）；卡科恶魔 Cacodemon（7M）；咒唤元素 Conjure Elem（5M）；死亡术 Death Spell（6M）；德罗米吉的即时召唤 卓姆吉（Drawmij）'s Instant Summons（7M）；附魔物品 Enchant an Item（6M）；诱捕 Ensnarement（6M）；埃瓦德的黑触手 Evard's Black Tentacles（4M）；寻找魔宠 Find Familiar（1M）；火焰箭 Flame Arrow（3M）；门 Gate（9M）；隐形追踪者 Invisible Stalker（6M）；李奥蒙德的箱子 Leomund's Chest（5M，Ab）；有限许愿术 Limited Wish（7M）；魔法罐 Jar（5M）；物质 Material（3M，C & E）；迷宫 Maze（8M）；召唤怪物 I Monster Summoning I（3M）；召唤怪物 II（4M）；召唤怪物 III（5M）；召唤怪物 IV（6M）；怪物召唤 V（7M）；怪物召唤 VI（8M）；怪物召唤 VII（9M）；魔邓肯的猎犬 魔邓肯（Mordenkainen）'s Hound（5M）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M）；坐骑 Mount（1M）；致盲言语 Power Word, Blind（8M）；死亡言语 Power Word, Kill（9M）；沉默言语 Power Word, Sun（7M）；棱彩法球 Prismatic Sphere（9M，Ab）；推 Push（1M）；闪光蛇徽记 Sepia Snake Sigil（3M）；徽记 Symbol（8M）；灵魂陷阱 Trap the Soul（8M）；隐形仆役 Unseen Servant（1M）；祈愿 Wish（9M）；改变现实 Alter Reality（7I，Il/P）；咒唤兽群 Conjure Animals（6I）；迷宫 Maze（5I）；棱彩喷射 Prismatic Spray（7I，Ab）；棱彩墙 Prismatic Wall（7I，Ab）；召唤阴影 Summon Shadow（5I）。
+蜜蜂 Bee（PC，仅 S）；蓝光 Bluelight（PC，仅 C）；虫 Bug（PC，仅 S）；蚋 Gnats（PC，仅 S）；老鼠 Mouse（PC，仅 S）；蜘蛛 Spider（PC，仅 S）；小修 Tweak（PC，仅 C）；解锁 Unlock（PC，仅 C）；护甲 Armor（1M，仅 C）；召唤 Beckon（5M，逆转／回避）；卡科恶魔 Cacodemon（7M）；咒唤元素 Conjure Elem（5M）；死亡术 Death Spell（6M）；德罗米吉的即时召唤 卓姆吉（Drawmij）'s Instant Summons（7M）；附魔物品 Enchant an Item（6M）；诱捕 Ensnarement（6M）；埃瓦德的黑触手 Evard's Black Tentacles（4M）；寻找魔宠 Find Familiar（1M）；火焰箭 Flame Arrow（3M）；门 Gate（9M）；隐形追踪者 Invisible Stalker（6M）；李奥蒙德的箱子 Leomund's Chest（5M，Ab）；有限许愿术 Limited Wish（7M）；魔法罐 Jar（5M）；物质 Material（3M，C & E）；迷宫 Maze（8M）；召唤怪物 I Monster Summoning I（3M）；召唤怪物 II（4M）；召唤怪物 III（5M）；召唤怪物 IV（6M）；召唤怪物 V（7M）；召唤怪物 VI（8M）；召唤怪物 VII（9M）；魔邓肯的猎犬 魔邓肯（Mordenkainen）'s Hound（5M）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M）；坐骑 Mount（1M）；致盲言语 Power Word, Blind（8M）；死亡言语 Power Word, Kill（9M）；沉默言语 Power Word, Sun（7M）；虹光法球 Prismatic Sphere（9M，Ab）；推 Push（1M）；闪光蛇徽记 Sepia Snake Sigil（3M）；徽记 Symbol（8M）；灵魂陷阱 Trap the Soul（8M）；隐形仆役 Unseen Servant（1M）；祈愿 Wish（9M）；改变现实 Alter Reality（7I，Il/P）；咒唤兽群 Conjure Animals（6I）；迷宫 Maze（5I）；棱彩喷射 Prismatic Spray（7I，Ab）；棱彩墙 Prismatic Wall（7I，Ab）；召唤阴影 Summon Shadow（5I）。
 
 ### 秘法／力场（Invocation/Evocation）
 
-打嗝 Belch（PA）；闪现 Blink（PA）；寒冷 Chill（UC）；色彩 Color（UC）；咳嗽 Cough（PA）；减弱 Dampen（UC）；污秽 Dirty（RC）；尘土 Dusty（RC）；点头 Nod（PA）；盐 Salt（UC）；抓痕 Scratch（PA）；酸 Sour（RC）；喷嚏 Sneeze（PA）；香料 Spice（UC）；变甜 Sweeten（UC）；抽动 Twitch（PA）；温暖 Warm（UC）；哈欠 Yawn（PA）；怪异术 Weird（7I，Il/P）；发出标准火焰 Affect Normal Fires（1M）；水中呼吸 Airy Water（5M）；动物成长 Animal Growth（5M）；回避术 Avoidance（5M，Ab）；束缚 Bind（2M，En）；闪现 Blink（3M）；燃烧之手 Burning Hands（1M）；云爆术 Cloudburst（3M）；通晓语言 Comprehend Languages（1M）；恒定光亮 Continual Light（2M）；操控天气 Control Weather（6M）；晶化术 Crystalbrittle（9M）；舞光术 Dancing Lights（1M）；半径 15 英尺黑暗 Darkness 15' r.（2M，En）；深袋术 Deeppockets（2M，En）；任意门 Dimension Door（4M）；解离术 Disintegrate（6M）；距离扭曲 Distance Distortion（5M）；二重维度 Duo-Dimension（7M）；附魔武器 Enchanted Weapon（4M）；放大 Enlarge（1M）；抹除 Erase（1M）；爆炸符文 Explosive Runes（3M）；延展术 I Extension I（4M）；延展术 II（5M）；延展术 III（6M）；鬼斧神工 Fabricate（5M，En）；羽落术 Feather Fall（1M）；火焰护盾 Fire Shield（4M，E）；火焰水 Firewater（1M）；炽焰法球 Flaming Sphere（2M，E）；飞行 Fly（3M）；黄金幻觉 Fool's Gold（2M）；玻璃化 Glassee（6M）；玻璃钢 Glassteel（8M）；铜墙铁壁 Guards & Wards（6M，E & En/Ch）；造风术 Gust of Wind（3M）；加速术 Haste（3M）；闭门术 Hold Portal（1M）；焚云术 Incendiary Cloud（8M，E）；红外视觉 Infravision（3M）；刺激 Irritation（2M）；物品 Item（3M）；跳跃 Jump（1M）；敲击术 Knock（2M）；李奥蒙德的箱子 Leomund's Chest（5M，C/S）；李奥蒙德的小屋 Leomund's Hut（3M）；李奥蒙德的避难所 Leomund's Shelter（4M，En）；悬浮术 Levitate（2M）；光 Light（1M）；降低水位 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克（Otiluke）'s Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；变形他人 Polymorph Other（4M）；自我变形 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞（Rary）'s Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；石转肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森（Tenser）'s Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
+打嗝 Belch（PA）；闪现 Blink（PA）；寒冷 Chill（UC）；色彩 Color（UC）；咳嗽 Cough（PA）；减弱 Dampen（UC）；污秽 Dirty（RC）；尘土 Dusty（RC）；点头 Nod（PA）；盐 Salt（UC）；抓痕 Scratch（PA）；酸 Sour（RC）；喷嚏 Sneeze（PA）；香料 Spice（UC）；变甜 Sweeten（UC）；抽动 Twitch（PA）；温暖 Warm（UC）；哈欠 Yawn（PA）；怪异术 Weird（7I，Il/P）；发出标准火焰 Affect Normal Fires（1M）；水中呼吸 Airy Water（5M）；动物成长 Animal Growth（5M）；回避术 Avoidance（5M，Ab）；束缚 Bind（2M，En）；闪现 Blink（3M）；燃烧之手 Burning Hands（1M）；云爆术 Cloudburst（3M）；巧言术 Comprehend Languages（1M）；恒定光亮 Continual Light（2M）；操控天气 Control Weather（6M）；晶化术 Crystalbrittle（9M）；舞光术 Dancing Lights（1M）；半径 15 英尺黑暗 Darkness 15' r.（2M，En）；深袋术 Deeppockets（2M，En）；任意门 Dimension Door（4M）；解离术 Disintegrate（6M）；距离扭曲 Distance Distortion（5M）；二重维度 Duo-Dimension（7M）；附魔武器 Enchanted Weapon（4M）；放大 Enlarge（1M）；抹除 Erase（1M）；爆炸符文 Explosive Runes（3M）；延展术 I Extension I（4M）；延展术 II（5M）；延展术 III（6M）；鬼斧神工 Fabricate（5M，En）；羽落术 Feather Fall（1M）；火焰护盾 Fire Shield（4M，E）；火焰水 Firewater（1M）；炽焰法球 Flaming Sphere（2M，E）；飞行 Fly（3M）；黄金幻觉 Fool's Gold（2M）；玻璃化 Glassee（6M）；玻璃钢 Glassteel（8M）；铜墙铁壁 Guards & Wards（6M，E & En/Ch）；造风术 Gust of Wind（3M）；加速术 Haste（3M）；闭门术 Hold Portal（1M）；焚云术 Incendiary Cloud（8M，E）；红外视觉 Infravision（3M）；刺激 Irritation（2M）；物品 Item（3M）；跳跃 Jump（1M）；敲击术 Knock（2M）；李奥蒙德的箱子 Leomund's Chest（5M，C/S）；李奥蒙德的小屋 Leomund's Hut（3M）；李奥蒙德的避难所 Leomund's Shelter（4M，En）；悬浮术 Levitate（2M）；光 Light（1M）；降水术 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克（Otiluke）'s Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；他塑形术 Polymorph Other（4M）；自塑形术 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞（Rary）'s Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；化石为肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森（Tenser）'s Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
 ### 惑控／魅惑（Enchantment/Charm）
 
@@ -934,15 +934,15 @@
 
 ### 变化（Alteration）
 
-降低水位 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克's Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；变形他人 Polymorph Other（4M）；自我变形 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞's Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；石转肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
+降水术 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯's Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克's Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克's Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；他塑形术 Polymorph Other（4M）；自塑形术 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞's Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；化石为肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
 ### 幻术／幻象（Illusion/Phantasms）
 
-脚步声 Footfall（HC，仅 Il）；呻吟 Groan（HC，仅 Il）；隐藏 Hide（LC，仅 Il）；呻吟 Moan（HC，仅 Il）；掌中戏法 Palm（LC，仅 Il）；杂响 Rattle（HC，仅 Il）；砰响 Thump（HC，仅 Il）；声音幻象 Audible Glamer（2M）；邪眼 Eyebite（6M，En/Ch）；恐惧 Fear（4M）；幻觉地形 Hallucinatory Terrain（4M）；隐形 Invisibility（2M）；半径 10 英尺隐形 Invisibility 10' r.（3M）；李奥蒙德的陷阱 Leomund's Trap（2M）；群体隐形 Mass Invisibility（7M）；群体变形 Massmorph（4M）；镜像 Mirror Image（2M）；奈斯图的魔法灵光 涅斯图（Nystul）'s Magic Aura（1M）；魅影之力 Phantasmal Force（3M）；投影术 Project Image（6M，A）；隐匿 Sequester（7M，Ab）；拟像 Simulacrum（7M）；腹语术 Ventriloquism（1M）；面具 Mask（MIC，仅 Il）；海市蜃楼 Mirage（MIC，仅 Il）；噪声 Noise（MIC，仅 Il）；二维幻象 Two-Dimensional Illusion（MIC，仅 Il）；高级幻术 Advanced Illusion（5I）；改变现实 Alter Reality（7I，C/S）；变身术 Alter Self（2I，仅 Il & A）；声音幻象 Audible Glamer（1I）；失明 Blindness（2I）；朦胧术 Blur（2I）；改变外貌 Change Self（1I）；失聪 Deafness（2I）；半影怪 Demi-Shadow Monster（5I）；半影魔法 Demi-Shadow Magic（6I）；驱散疲劳 Dispel Exhaustion（4I）；迷魂 Fascinate（2I）；恐惧 Fear（3I）；幻觉地形 Hallucinatory Terrain（3I）；催眠图案 Hypnotic Pattern（2I）；幻术文书 Illusion Script（3I）；强化隐形 Improved Invisibility（4I）；强化魅影之力 Improved Phantasmal Force（2I）；半径 10 英尺隐形 Invisibility 10' r.（3I）；梦 Dream（5I，A）；隐形 Invisible（2I）；群体变形 Massmorph（4I）；海市蜃楼 Mirage Arcane（6I）；镜像 Mirror Image（2I）；误导术 Misdirection（2I）；误导幻象 Mislead（6I）；麻痹 Paralyzation（3I）；永久幻术 Permanent Illusion（6I）；幻景 Phantasmagoria（6I）；魅影之力 Phantasmal Force（1I）；幻影杀手 Phantasmal Killer（4I）；幻影护甲 Phantom Armor（1I，仅 Il & A）；魅影驹 Phantom Steed（3I，P & C）；幻影之风 Phantom Wind（3I，P & A）；程序幻术 Programmed Illusion（6I）；投影术 Project Image（5I，A）；彩虹图案 Rainbow Pattern（4I，P & A）；阴影 Shades（6I）；阴影之门 Shadow Door（5I）；阴影魔法 Shadow Magic（5I）；阴影怪物 Shadow Monsters（4I）；行影术 Shadow Walk（7I，Il & En）；幽灵之力 Spectral Force（3I）；惊吓 Spook（1I）；时光飞逝 Tempus Fugit（5I）；空缺 Vacancy（4I，P & A）；面纱 Veil（6I）；腹语术 Ventriloquism（2I）；怪异术 Weird（7I，E）；风讯术 Whispering Wind（2I，P & A）；幽灵形态 Wraithform（3I，Il & A）。
+脚步声 Footfall（HC，仅 Il）；呻吟 Groan（HC，仅 Il）；隐藏 Hide（LC，仅 Il）；呻吟 Moan（HC，仅 Il）；掌中戏法 Palm（LC，仅 Il）；杂响 Rattle（HC，仅 Il）；砰响 Thump（HC，仅 Il）；声音幻象 Audible Glamer（2M）；邪眼 Eyebite（6M，En/Ch）；恐惧 Fear（4M）；幻觉地形 Hallucinatory Terrain（4M）；隐形 Invisibility（2M）；半径 10 英尺隐形 Invisibility 10' r.（3M）；李奥蒙德的陷阱 Leomund's Trap（2M）；群体隐形 Mass Invisibility（7M）；群体变树术 Massmorph（4M）；镜像 Mirror Image（2M）；奈斯图的魔法灵光 涅斯图（Nystul）'s Magic Aura（1M）；魅影之力 Phantasmal Force（3M）；投影术 Project Image（6M，A）；隐匿 Sequester（7M，Ab）；拟像 Simulacrum（7M）；腹语术 Ventriloquism（1M）；面具 Mask（MIC，仅 Il）；海市蜃楼 Mirage（MIC，仅 Il）；噪声 Noise（MIC，仅 Il）；二维幻象 Two-Dimensional Illusion（MIC，仅 Il）；高级幻术 Advanced Illusion（5I）；改变现实 Alter Reality（7I，C/S）；变身术 Alter Self（2I，仅 Il & A）；声音幻象 Audible Glamer（1I）；失明 Blindness（2I）；朦胧术 Blur（2I）；改变外貌 Change Self（1I）；失聪 Deafness（2I）；半影怪 Demi-Shadow Monster（5I）；半影魔法 Demi-Shadow Magic（6I）；驱散疲劳 Dispel Exhaustion（4I）；迷魂 Fascinate（2I）；恐惧 Fear（3I）；幻觉地形 Hallucinatory Terrain（3I）；催眠图案 Hypnotic Pattern（2I）；幻术文书 Illusion Script（3I）；强化隐形 Improved Invisibility（4I）；强化魅影之力 Improved Phantasmal Force（2I）；半径 10 英尺隐形 Invisibility 10' r.（3I）；梦 Dream（5I，A）；隐形 Invisible（2I）；群体变树术 Massmorph（4I）；海市蜃楼 Mirage Arcane（6I）；镜像 Mirror Image（2I）；假象术 Misdirection（2I）；误导幻象 Mislead（6I）；麻痹 Paralyzation（3I）；永久幻术 Permanent Illusion（6I）；幻景 Phantasmagoria（6I）；魅影之力 Phantasmal Force（1I）；幻影杀手 Phantasmal Killer（4I）；幻影护甲 Phantom Armor（1I，仅 Il & A）；魅影驹 Phantom Steed（3I，P & C）；幻影之风 Phantom Wind（3I，P & A）；程序幻术 Programmed Illusion（6I）；投影术 Project Image（5I，A）；彩虹图案 Rainbow Pattern（4I，P & A）；阴影 Shades（6I）；阴影之门 Shadow Door（5I）；阴影魔法 Shadow Magic（5I）；阴影怪物 Shadow Monsters（4I）；行影术 Shadow Walk（7I，Il & En）；幽灵之力 Spectral Force（3I）；惊吓 Spook（1I）；时光飞逝 Tempus Fugit（5I）；空缺 Vacancy（4I，P & A）；面纱 Veil（6I）；腹语术 Ventriloquism（2I）；怪异术 Weird（7I，E）；风讯术 Whispering Wind（2I，P & A）；幽灵形态 Wraithform（3I，Il & A）。
 
 ### 防护（Abjurations）
 
-清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；驱散魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；次级法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；棱彩法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；驱散魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
+清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；驱散魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；小型法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；虹光法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；驱散魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
 
 ## 第 128 页
 

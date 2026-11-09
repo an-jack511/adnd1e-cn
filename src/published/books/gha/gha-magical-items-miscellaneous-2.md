@@ -3,7 +3,7 @@
 
 ### 尼尔·迪夫的疾行驳船
 
-<strong>Hasty Barge of Nyr Dyv</strong>
+<strong>尼尔·迪夫的疾行驳船 Hasty Barge of Nyr Dyv</strong>
 
 这艘魔法船由一名被尼尔·迪夫人民收养的巫师创造。魔法使用者把它作为礼物送给了一名伦尼贵族；而湖上人民出于感激，又把这名巫师册封为贵族。
 
@@ -15,7 +15,7 @@
 
 ### 科鲁斯克山脉的头带
 
-<strong>Headband of the Corusk Mountains</strong>
+<strong>科鲁斯克山脉的头带 Headband of the Corusk Mountains</strong>
 
 这条头带由一条远古白龙的头骨雕刻而成。一名强大的巫师为它施加魔法，企图把山地矮人赶出他们的家园和富饶矿井。尽管这名魔法使用者最后死在矮人军队投掷的斧雨中，这件物品却始终没有被找回，因此它仍然遗失在科鲁斯克山脉中，也可能已经落入某个人手里。
 
@@ -25,7 +25,7 @@
 
 ### 维路纳的治疗帽
 
-<strong>Healing Cap of Veluna (C)</strong>
+<strong>维路纳的治疗帽 Healing Cap of Veluna (C)</strong>
 
 这顶小布帽经过附魔，是为了帮助维路纳的牧师治疗垂死者和伤者。牧师戴上它之后，任何一种治疗伤口法术所恢复的生命值都会加倍。
 
@@ -33,7 +33,7 @@
 
 ### 约滕斯的头带
 
-<strong>Headband of the Jotens (C, M)</strong>
+<strong>约滕斯的头带 Headband of the Jotens (C, M)</strong>
 
 这条麋鹿皮带经过附魔，用来确保旅行者在约滕斯的安全。把它戴在角色头上时，物品允许穿戴者理解丘陵巨人的心理。如果穿戴者能够与丘陵巨人交流，他可以获得自己选择的任何反应修正，最低可达 −60%，最高可达 +25%。每天一次，角色可以在一群丘陵巨人中激发下列情绪之一：
 
@@ -49,7 +49,7 @@
 
 ### 光明沙漠的圣星
 
-<strong>Holy Star of the Bright Desert</strong>
+<strong>光明沙漠的圣星 Holy Star of the Bright Desert</strong>
 
 这是一枚铜星，上面刻有海若尼斯“不可战胜者”的银斧和能量闪电。它由苦行武士制作，用来帮助他们对异教徒进行神圣战争。善良的穿戴者获得 30% 的恐惧免疫力，并在光明沙漠与苦行武士进行交涉时获得 +20% 反应加值。邪恶阵营的穿戴者对涉及恐惧的所有豁免检定（无论恐惧来自魔法还是其他来源）受到 −4 减值，并承受 +20% 的士气减值。
 
@@ -59,7 +59,7 @@
 
 ### 阿尔莫尔的神圣奖章
 
-<strong>Holy Medallion of Almor (C)</strong>
+<strong>阿尔莫尔的神圣奖章 Holy Medallion of Almor (C)</strong>
 
 这枚金色奖章是在阿尔莫尔仍受大王国统治时制作的。阿尔莫尔的牧师预见到法兰尼斯将有大邪恶降临，因此为它施加魔法，以帮助维持和平。
 
@@ -69,7 +69,7 @@
 
 ### 苍海号角
 
-<strong>Horn of the Azure Sea</strong>
+<strong>苍海号角 Horn of the Azure Sea</strong>
 
 这只魔法号角由一名邪恶的大祭司制作，他想要获得一支不死生物军队，并与之结交、控制它们。提起这件物品的名字，就会让所有水手和远洋商人极度不安；他们拒绝与一个被怀疑拥有这只号角的角色一起航行。
 
@@ -91,7 +91,7 @@
 
 ### 屏障峰的号角
 
-<strong>Horn of the Barrier Peaks</strong>
+<strong>屏障峰的号角 Horn of the Barrier Peaks</strong>
 
 这件铁制乐器由矮人铁匠施加魔法，用来巩固类人生物与巨鹰之间的友谊。出于对伟大鸟类的尊重，它并不经常使用，但在绝望时刻偶尔派上用场。
 
@@ -103,7 +103,7 @@
 
 ### 广阔沼泽的号角
 
-<strong>Horn of the Vast Swamp (C, M)</strong>
+<strong>广阔沼泽的号角 Horn of the Vast Swamp (C, M)</strong>
 
 这只海螺由一名叛逃的魔法使用者施加魔法；他因犯罪行为被森迪伯爵放逐。巫师企图获得对新家园居民的控制权，尽管他为此付出了沉重代价（见下文说明）。
 
@@ -121,7 +121,7 @@
 
 ### 盗贼王国的铁冠
 
-<strong>Iron Crown of the Bandit Kingdoms</strong>
+<strong>盗贼王国的铁冠 Iron Crown of the Bandit Kingdoms</strong>
 
 这件金属头饰在战士之地打造而成，可以彻底消除下列类法术能力作用于穿戴者的机会：恐惧术、魅惑人类术、魔魂壶术、暗示术和人类定身术。战士戴上它时提升一个等级，而牧师或魔法使用者戴上它时降低一个等级。
 
@@ -129,7 +129,7 @@
 
 ### 冰海的铁钉
 
-<strong>Iron Pin of the Icy Sea</strong>
+<strong>冰海的铁钉 Iron Pin of the Icy Sea</strong>
 
 这枚铁钉装在圆形透明水晶容器中。它最初由在雾气弥漫的夏季航行于冰海的野蛮猎人／劫掠者使用。一个命令可以让铁钉始终指向正东；第二个命令可以使它指向指定的目的地。此外，如果有外来的魔法或超自然力量正在影响航行，水晶就会发光。
 
@@ -139,7 +139,7 @@
 
 ### 灰鹰的提灯
 
-<strong>Lantern of Greyhawk</strong>
+<strong>灰鹰的提灯 Lantern of Greyhawk</strong>
 
 这盏带罩提灯是掠夺者在疯狂大法师扎吉格·伊拉格恩废弃的城堡中找到的。它究竟为什么被使用仍是个谜，不过许多人猜测，它曾被用来防护那位大法师打交道的超自然生物。
 
@@ -149,7 +149,7 @@
 
 ### 大王国的挂坠
 
-<strong>Locket of the Great Kingdom (M)</strong>
+<strong>大王国的挂坠 Locket of the Great Kingdom (M)</strong>
 
 这件物品由一名极度害怕死亡的巫师制作。后来又有两三名施法者使用过它，但通常都要以另一个活着的生物为代价。承受压力时，这枚挂坠进行豁免检定时视为硬金属。
 
@@ -163,7 +163,7 @@
 
 ### 马洛格的奖章
 
-<strong>Medallion of Malog (M)</strong>
+<strong>马洛格的奖章 Medallion of Malog (M)</strong>
 
 这枚奖章挂在金项链上，由角之社首都的邪恶神殿制作。它允许一名智力至少为 12、感知至少为 10 的魔法使用者每周施展一次五级怪物召唤术。
 
@@ -172,7 +172,7 @@
 
 ### 梅德吉亚的失船手镯
 
-<strong>Medegian Bracelet of Lost Ships</strong>
+<strong>梅德吉亚的失船手镯 Medegian Bracelet of Lost Ships</strong>
 
 这枚银盘中嵌有一颗锆石。它由一名贪婪的巫师施加魔法；巫师曾用它获得巨额财富，后来被海盗抓住并绞死。
 
@@ -197,7 +197,7 @@
 
 ### 阿尔莫尔的项链
 
-<strong>Necklace of Almor</strong>
+<strong>阿尔莫尔的项链 Necklace of Almor</strong>
 
 这件物品看起来像一块生锈、毫无价值的首饰。它由一名刻薄的巫师施加魔法；巫师一生都戴着它。讽刺的是，他平静地死去，并没有激活它的复仇力量。此后其他穿戴者使用过它。
 
@@ -221,7 +221,7 @@
 
 ### 灰鹰的预言球
 
-<strong>Oracles of Greyhawk (M)</strong>
+<strong>灰鹰的预言球 Oracles of Greyhawk (M)</strong>
 
 这些物品看起来像带有轻微色调的水晶球。它们许多年前由当时的领主市长制作。不过，没有人确定政府目前仍拥有多少枚，也不知道有多少枚已经遗失或被盗。
 
@@ -255,7 +255,7 @@
 
 ### 黑沼颜料
 
-<strong>Paints of Blackmoor</strong>
+<strong>黑沼颜料 Paints of Blackmoor</strong>
 
 这套多色颜料是在黑沼城全盛时期附魔的。城市和城堡衰败成废墟之后，魔法使用者使用这些颜料来确保自己在险恶之地中生存下去。
 
@@ -277,7 +277,7 @@
 
 ### 灰鹰的棱镜
 
-<strong>Prism of Greyhawk (M)</strong>
+<strong>灰鹰的棱镜 Prism of Greyhawk (M)</strong>
 
 这件水晶制的巫师工具经过附魔，可以增强棱镜制造炫目色彩的能力。棱镜每天可以施展两种法术各一次：七彩喷射（如同 6 级施法者施展）和催眠图案。注意，棱镜必须在直射阳光下使用。它不能在月光、普通火把光，或阴天的日光下使用。
 
@@ -285,7 +285,7 @@
 
 ### 维斯维森林的紫宝石
 
-<strong>Purple Gem of the Vesve Forest (F)</strong>
+<strong>维斯维森林的紫宝石 Purple Gem of the Vesve Forest (F)</strong>
 
 这颗魔法宝石镶在银手镯中，偶尔会被创造它的精灵巫师使用。然而，弗瑞东尼国王拒绝承认宝石的存在，因为他希望精灵战士加入自己的步兵，而不是在他的指挥之外组建部队。
 
@@ -295,7 +295,7 @@
 
 ### 维路纳的长袍
 
-<strong>Robe of Veluna</strong>
+<strong>维路纳的长袍 Robe of Veluna</strong>
 
 这件紫色衣物由一名享受财富奢侈的巫师施加魔法，能赋予穿戴者贵族般的外表：梳理整齐的头发、洁净的皮肤，以及由丝绸和优质羊毛制成的华丽多彩衣物。角色的魅力提高 2 点（不能超过种族上限），文明社会的成员也会倾向于尊重他或她，即社会阶层低于中上阶层的非玩家角色会给予 +15% 的反应加值。不过，礼仪和社交风度仍取决于角色的智力、魅力和训练。
 
@@ -305,7 +305,7 @@
 
 ### 干燥草原的围巾
 
-<strong>Scarf of the Dry Steppes (M)</strong>
+<strong>干燥草原的围巾 Scarf of the Dry Steppes (M)</strong>
 
 这件棕色衣物由一名邪恶巫师施加魔法，并被他用来对付干燥草原的苦行武士。苦行武士最终抓住并囚禁了魔法使用者，却始终没有找到这件物品；因此它消失在荒地中，可能落入经常出入当地的游牧民或部落居民手里。
 
@@ -315,7 +315,7 @@
 
 ### 遗忘之城的权杖
 
-<strong>Sceptre of the Forgotten City</strong>
+<strong>遗忘之城的权杖 Sceptre of the Forgotten City</strong>
 
 这是一件失落文明的遗物，一根像魔杖的权杖，是一根 2 英尺长的银杆，顶端有一颗大型红宝石。它曾被苏尔帝国最初的一些领主使用；当那个王国被烧成尘海时，魔杖也随之失落。最近，一支来自耶奥曼瑞的探险队重新发现了它，并声称它来自遗忘之城。无论这个说法是否属实，权杖确实包含了建造失落帝国的部分伟大，也包含摧毁它的大部分疯狂。
 
@@ -327,7 +327,7 @@
 
 ### 维路纳的银冠
 
-<strong>Silver Crown of Veluna</strong>
+<strong>维路纳的银冠 Silver Crown of Veluna</strong>
 
 这件物品镶嵌着小型绿宝石，最近出现在维路纳的统治牧师之间。教长本人经常佩戴它，但在重要的神圣任务中，也可能把它借给维路纳信任的代理人。
 

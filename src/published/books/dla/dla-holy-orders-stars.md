@@ -425,10 +425,10 @@
 - <strong>额外法术：</strong>
   - I：侦测陷阱与坑洞 Detect Snares & Pits，识破伪装 Penetrate Disguise，预测天气 Predict Weather。
   - II：寻找陷阱 Find Traps，加热／冷却金属 Heat／Chill Metal。
-  - III：死亡之门 Death’s Door，魔法护甲 Magical Vestment。
+  - III：死亡门槛 Death’s Door，魔法护甲 Magical Vestment。
   - IV：恐惧／勇气斗篷 Cloak of Fear／Bravery。
   - V：使命术 Quest，杀生术 Slay Living。
-  - VI：英雄盛宴 Heroes’ Feast。
+  - VI：英雄宴 Heroes’ Feast。
   - VII：死亡指 Finger of Death，枯萎 Wither，能量吸取 Energy Drain，毁灭 Destruction。
 
 ### 米莎凯（Mishakal）
@@ -775,7 +775,7 @@
 
 ## 第 47 页
 
-魔吉安（Morgion）的力量使这些攻击以极快的速度发生。通常，他的攻击会在发动攻击的那一轮造成 5d20 点伤害，并在随后每一天造成 1d20 点伤害，直到疾病杀死受害者或受害者接受治疗术（Heal）治疗。即使使用治疗术，也不会恢复之前失去的生命值——它只会停止生命值继续损失。后续的法术与时间流逝会使失去的生命值恢复。
+魔吉安（Morgion）的力量使这些攻击以极快的速度发生。通常，他的攻击会在发动攻击的那一轮造成 5d20 点伤害，并在随后每一天造成 1d20 点伤害，直到疾病杀死受害者或受害者接受医疗术（Heal）治疗。即使使用医疗术，也不会恢复之前失去的生命值——它只会停止生命值继续损失。后续的法术与时间流逝会使失去的生命值恢复。
 
 <strong>追随者能力：</strong>
 

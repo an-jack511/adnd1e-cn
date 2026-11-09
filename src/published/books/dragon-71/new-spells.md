@@ -4,7 +4,7 @@ New Druid Spells...Naturally! · Dragon #71
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine071.pdf)
 
-## *映照水池 Reflecting Pool*（塑能／预言）
+## *映照池 Reflecting Pool*（塑能／预言）
 
 Gary Gygax · 第 7 页
 

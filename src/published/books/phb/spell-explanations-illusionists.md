@@ -430,7 +430,7 @@
 
 此术使幻术师可以在羊皮纸、纸张、皮革等材料上写下指示或其他信息。幻文看起来像某种外语或魔法文字。只有幻术师指定的人（或某类人，或其他指定对象）才能读懂；其他幻术师能够认出这是幻文。任何其他人试图阅读，都会像受到困惑术影响般陷入混乱5至20回合，再减去其每个经验等级1回合。材料成分是由炼金术士特别调制的含铅墨水。
 
-### *隐形术（半径10尺） Invisibility, 10' Radius*（幻象系 Illusion/Phantasm）
+### *半径10尺隐形术 Invisibility, 10' Radius*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>3<br>
@@ -579,7 +579,7 @@
 
 此术类似隐形术，但受术者即使进行攻击也仍然不可见，包括发射飞弹、近战或施法。不过，受术者有时会留下微光等迹象，使细心的对手能够攻击。此类攻击的命中骰承受−4减值，相关豁免检定骰获得+4加值。
 
-### *群体变形 Massmorph*（幻象系 Illusion/Phantasm）
+### *群体变树术 Massmorph*（幻象系 Illusion/Phantasm）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>4<br>

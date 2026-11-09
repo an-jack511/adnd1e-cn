@@ -123,7 +123,7 @@
 
 ## 六环法术 Sixth Level Spells
 
-### 反动物护罩 Anti-Animal Shell
+### 反动物力场 Anti-Animal Shell
 
 此护罩不能移动。人类即使能够使用魔法，也不属于魔法生物；矮人、精灵等同样如此。
 
@@ -145,7 +145,7 @@
 
 ## 七环法术 Seventh Level Spells
 
-### 萨斯塔瑞战车 Chariot of Sustarre
+### 苏斯塔雷战车 Chariot of Sustarre
 
 此战车及其牵引生物来自火元素位面，因此可能被强制送回该位面，例如受到“解除魔法”或“神圣之言／邪恶之言”等影响。
 

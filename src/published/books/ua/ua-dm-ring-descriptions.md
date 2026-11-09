@@ -2,7 +2,7 @@
 
 以下按原书印刷第 92–93 页译录。
 
-## 动物友谊戒指 Ring of Animal Friendship
+## 化兽为友戒指 Ring of Animal Friendship
 
 佩戴者走到<strong>中立阵营、动物智力</strong>的动物 <strong>1″</strong> 内时，动物须作法术豁免。成功则迅速远离佩戴者；失败则变得温驯，跟随佩戴者。戒指按<strong>第 6 级</strong>施法者的力量运作，最多影响合计 <strong>12 生命骰</strong>的动物。佩戴者消耗戒指<strong>一次充能</strong>，还可命令这些友善动物守卫和保护自己。发现时通常有 <strong>27 次充能</strong>，不能再充能。德鲁伊可影响 <strong>24 生命骰</strong>，巡林客可影响 <strong>18 生命骰</strong>。
 

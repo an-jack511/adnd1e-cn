@@ -24,11 +24,11 @@
 
 ## 三环法术 Third Level Spells
 
-### 幻象文字 Illusionary Script
+### 幻文术 Illusionary Script
 
 含铅墨水售价 <strong>100–400 金币</strong>，另加炼金术士 <strong>100 金币</strong>的利润。
 
-### 半径 10 尺隐形术 Invisibility, 10' Radius
+### 半径10尺隐形术 Invisibility, 10' Radius
 
 参见“隐形”一节。
 
@@ -62,7 +62,7 @@
 
 动物列表见附录 L“召唤动物”。
 
-### 半真实暗影魔法 Demi-Shadow Magic
+### 半阴影魔法 Demi-Shadow Magic
 
 此法术同样允许施法者汲取力量来源，规则参见“阴影魔法”。
 

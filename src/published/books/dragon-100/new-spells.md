@@ -4,7 +4,7 @@ Pages From the Mages V · Dragon #100
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine100.pdf)
 
-## *神圣连结 Sacred Link*（塑能／变化）
+## *神圣链接 Sacred Link*（塑能／变化）
 
 Ed Greenwood · 第 18 页
 
@@ -26,7 +26,7 @@ Ed Greenwood · 第 18 页
 
 可联系魔法物品，激活或充能一件同样影响另一件，但每次使用连结累计增加 3% 概率使一件粉碎或爆炸、释放全部功能或充能并结束连结。材料为两物、圣徽及一缕细金属丝、头发或蛛丝。
 
-## *暂时重构 Reconstruction*（变化／心灵幻象）
+## *重构 Reconstruction*（变化／心灵幻象）
 
 Ed Greenwood · 第 19、20 页
 

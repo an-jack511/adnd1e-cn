@@ -4,7 +4,7 @@ New Spells For Illusionists · Dragon #66
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine066.pdf)
 
-## *高等幻象 Advanced Illusion*（幻术／心灵幻象）
+## *高级幻象 Advanced Illusion*（幻术／心灵幻象）
 
 Gary Gygax · 第 25 页
 
@@ -60,7 +60,7 @@ Gary Gygax · 第 25 页
 
 轻擦隐藏物不够；必须强力接触并发现多个看不见的物件，观察者才获对法术豁免。失败者只认为那些物品本身隐形；解除幻术或解除魔法能消除。需价值至少 100 gp 的优质黑丝方巾。
 
-## *幽魂形态 Wraithform*（变化）
+## *怨魂形态 Wraithform*（变化）
 
 Gary Gygax · 第 24 页
 
@@ -80,7 +80,7 @@ Gary Gygax · 第 24 页
 
 不能攻击，只有对以太位面生物双方照常攻击；解除幻术可强制还原，施法者也可自愿结束。材料为一小片纱与一缕烟，不需言语成分。
 
-## *七彩法球 Chromatic Orb*（变化／塑能）
+## *繁彩球 Chromatic Orb*（变化／塑能）
 
 Gary Gygax · 第 22 页
 

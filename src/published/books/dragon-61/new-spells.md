@@ -4,7 +4,7 @@ Cantrips For the Aspiring Illusionist · Dragon #61
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine061.pdf)
 
-## *杂音术 Noise*（幻术）
+## *杂音 Noise*（幻术）
 
 Gary Gygax · 第 7 页
 

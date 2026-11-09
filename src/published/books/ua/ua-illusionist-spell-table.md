@@ -34,7 +34,7 @@
 | 3 | *解除魔法 Dispel Magic* | 半阴影怪物 Demi-Shadow Monsters | 半阴影魔法 Demi-Shadow Magic | 虹光喷射 Prismatic Spray |
 | 4 | 情绪术 Emotion | *托梦术 Dream* | 群体暗示术 Mass Suggestion | 虹光法墙 Prismatic Wall |
 | 5 | 高等隐形术 Improved Invisibility | *魔镜术 Magic Mirror* | *海市蜃楼 Mirage Arcane* | *行影术 Shadow Walk* |
-| 6 | 群体变形 Massmorph | 高等创造术 Major Creation | *假象术 Mislead* | 观视术 Vision |
+| 6 | 群体变树术 Massmorph | 高等创造术 Major Creation | *假象术 Mislead* | 观视术 Vision |
 | 7 | 次级创造术 Minor Creation | 迷宫术 Maze | 恒久幻象 Permanent Illusion | *怪影杀手 Weird* |
 | 8 | 魅影杀手 Phantasmal Killer | 投影术 Projected Image | *幻象群 Phantasmagoria* | 一环魔法师法术 First Level Magic-User Spells |
 | 9 | *虹彩图纹 Rainbow Pattern* | 阴影门 Shadow Door | 预置幻影 Programmed Illusion |  |

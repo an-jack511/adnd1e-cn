@@ -90,7 +90,7 @@ Len Lakofka · 第 59 页
 
 获得三级德鲁伊辨认植物的能力；施法时间1轮。
 
-## *保存术 Preserve*（原刊未列）
+## *保鲜术 Preserve*（原刊未列）
 
 Len Lakofka · 第 59 页
 

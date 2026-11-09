@@ -6,6 +6,27 @@ import {formatRuleHtml} from './rule-text';
 const article=(raw:string)=>raw.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)![1];
 const read=(href:string)=>readFileSync(resolve('public',href.replace(/^\//,'')),'utf8');
 const escape=(text:string)=>text.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+
+/** Prefer a curated/repaired illustration when a page embeds its source crop beside it. */
+function normalizeIllustrationPairs(content:string) {
+ return content.replace(/<p\b([^>]*)>([\s\S]*?)<\/p>/gi,(_all,attrs:string,body:string)=>{
+  const tags=[...body.matchAll(/<img\b[^>]*>/gi)].map(match=>match[0]);
+  if(tags.length<2||!tags.some(tag=>/清晰修复版|进一步清晰修复版|修复版/i.test(tag))) return _all;
+  const seen=new Set<string>();
+  const cleaned=body.replace(/<img\b[^>]*>/gi,(tag:string)=>{
+   const src=tag.match(/\bsrc=["']([^"']+)["']/i)?.[1]??tag;
+   const repaired=/清晰修复版|进一步清晰修复版|修复版/i.test(tag);
+   const original=/原图|原书插图/i.test(tag);
+   if((original&&!repaired)||seen.has(src)) return '';
+   seen.add(src);
+   return tag;
+  });
+  return `<p${attrs}>${cleaned}</p>`;
+ });
+}
+function normalizeReadingTerminology(book:string,content:string) {
+ return content.replaceAll('游侠','巡林客');
+}
 export const headingLabel=(html:string)=>html.replace(/<[^>]+>/g,'').split(/\s+·\s+|\s+(?=[A-Z])/)[0].replace(/[\s：:·（）()]/g,'');
 
 /** Parent text used to be omitted when the original outline had child pages. */
@@ -43,7 +64,7 @@ export function phbHeadings(html:string,chapterTitle:string,merged:boolean):stri
 }
 
 export function readingContent(book:string,chapter:ReadingChapter):string {
- if(book!=='phb')return formatRuleHtml(article(read(chapter.href)));
+ if(book!=='phb')return formatRuleHtml(normalizeReadingTerminology(book,normalizeIllustrationPairs(article(read(chapter.href)))));
  const parts=chapter.parts.map(part=>{
   let content=article(read(part.href));
   if(chapter.parts.length===1&&!part.parentSource&&!chapter.introduction)content=content.replace(/<h1\b([^>]*)>[\s\S]*?<\/h1>/i,'<span$1 class="heading-anchor"></span>');
@@ -55,7 +76,7 @@ export function readingContent(book:string,chapter:ReadingChapter):string {
   return content;
  });
  if(chapter.introduction)parts.unshift(parentContent(`/archive/phb/read-${chapter.introduction}.html`));
- return formatRuleHtml(phbHeadings(parts.join('\n'),chapter.title,parts.length>1));
+ return formatRuleHtml(normalizeReadingTerminology(book,normalizeIllustrationPairs(phbHeadings(parts.join('\n'),chapter.title,parts.length>1))));
 }
 
 export function readerTitle(title:string){
