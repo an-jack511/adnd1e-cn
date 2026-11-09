@@ -25,7 +25,7 @@ HD 18；THAC0 12；SpA CL/MU 13/13；MV 15”；AC -4；hp 83；#AT 1；Dmg 1d6 
 
 ### 因卡布洛斯的牧师 Incabulos' Clerics
 
-AL 任意邪恶；RA 见下文；AEx +5%；WPN 棍棒、连枷、硬头锤、法杖*、套索、投石索；SPH 星界、战斗、预言（次要）、治疗、死灵、召唤、太阳（逆转）；SPL 见下文；ADD <strong>瘟疫</strong>、<strong>解除魔法</strong>、<strong>施加诅咒</strong>、<strong>荆棘生长</strong>、<strong>巨型昆虫</strong>、<strong>尖石</strong>、<strong>任务术</strong>、<strong>水转尘</strong>、<strong>荆棘之墙</strong>、<strong>召唤天气</strong>、<strong>厄运蔓延</strong>、<strong>疫病虫群</strong>、<strong>地震术</strong>。
+AL 任意邪恶；RA 见下文；AEx +5%；WPN 棍棒、连枷、硬头锤、法杖*、套索、投石索；SPH 星界、战斗、预言（次要）、治疗、死灵、召唤、太阳（逆转）；SPL 见下文；ADD <strong>瘟疫</strong>、<strong>解除魔法</strong>、<strong>施加诅咒</strong>、<strong>荆棘生长</strong>、<strong>巨型昆虫</strong>、<strong>尖石</strong>、<strong>使命术</strong>、<strong>水转尘</strong>、<strong>荆棘之墙</strong>、<strong>召唤天气</strong>、<strong>厄运蔓延</strong>、<strong>疫病虫群</strong>、<strong>地震术</strong>。
 
 因卡布洛斯的牧师最为隐秘，因为他们害怕那些憎恨因卡布洛斯所代表之物的人发怒。牧师在礼拜时穿黑衣，而且都精通伪装。
 

@@ -51,7 +51,7 @@
 | d20 | 结果 |
 |:---:|:---|
 | 1–2 | <strong>20,000–80,000</strong>枚铜币（2d4）；<strong>20,000–50,000</strong>枚银币（d4+1） |
-| 3–5 | <strong>5,000–30,000</strong>枚银铜币（5d6） |
+| 3–5 | <strong>5,000–30,000</strong>枚银币（5d6） |
 | 6–10 | <strong>3,000–18,000</strong>枚金币（3d6） |
 | 11–12 | <strong>500–2,000</strong>枚铂金币（5d4） |
 | 13–15 | <strong>10–100</strong>颗宝石（d10×10） |
@@ -130,7 +130,7 @@
 
 | d100 | 药水 | XP | 出售价值（金币） |
 |:---:|:---|:---:|:---:|
-| 01–03 | 动物控制 Animal Control* | 250 | 400 |
+| 01–03 | 动物控制药水 Animal Control* | 250 | 400 |
 | 04–06 | 千里传音 Clairaudience | 250 | 400 |
 | 07–09 | 千里眼 Clairvoyance | 300 | 500 |
 | 10–12 | 攀爬 Climbing | 300 | 500 |
@@ -139,16 +139,16 @@
 | 19–20 | 龙类控制 Dragon Control* | 500–1,000 | 5,000–9,000 |
 | 21–23 | 心灵感应 ESP | 500 | 850 |
 | 24–26 | 强效治疗 Extra-Healing | 400 | 800 |
-| 27–29 | 火焰抗性 Fire Resistance | 250 | 400 |
+| 27–29 | 火焰抗性药水 Fire Resistance | 250 | 400 |
 | 30–32 | 飞行 Flying | 500 | 750 |
 | 33–34 | 气化 Gaseous Form | 300 | 400 |
-| 35–36 | 巨人控制 Giant Control* | 400–900 | 1,000–6,000 |
-| 37–39 | 巨人力量 Giant Strength*（仅战士） | 500–750 | 900–1,400 |
-| 40–41 | 生长 Growth | 250 | 300 |
+| 35–36 | 巨人控制药水 Giant Control* | 400–900 | 1,000–6,000 |
+| 37–39 | 巨人力量药水 Giant Strength*（仅战士） | 500–750 | 900–1,400 |
+| 40–41 | 生长药水 Growth | 250 | 300 |
 | 42–47 | 治疗 Healing | 200 | 400 |
-| 48–49 | 英勇 Heroism（仅战士） | 300 | 500 |
-| 50–51 | 人类控制 Human Control* | 500 | 900 |
-| 52–54 | 隐形 Invisibility | 250 | 500 |
+| 48–49 | 英勇药水 Heroism（仅战士） | 300 | 500 |
+| 50–51 | 人类控制药水 Human Control* | 500 | 900 |
+| 52–54 | 隐形药水 Invisibility | 250 | 500 |
 | 55–57 | 无敌 Invulnerability（仅战士） | 350 | 500 |
 | 58–60 | 浮空 Levitation | 250 | 400 |
 | 61–63 | 长生 Longevity | 500 | 1,000 |
@@ -156,14 +156,14 @@
 | 67–69 | 滑溜之油 Oil of Slipperiness | 400 | 750 |
 | 70–72 | 迷情媚药 Philter of Love | 200 | 300 |
 | 73–75 | 劝服滤剂 Philter of Persuasiveness | 400 | 850 |
-| 76–78 | 植物控制 Plant Control | 250 | 300 |
-| 79–81 | 自身变形 Polymorph (Self) | 200 | 350 |
+| 76–78 | 植物控制药水 Plant Control | 250 | 300 |
+| 79–81 | 自身变形药水 Polymorph (Self) | 200 | 350 |
 | 82–84 | 毒药 Poison** | — | — |
 | 85–87 | 加速 Speed | 200 | 450 |
 | 88–90 | 超级英勇 Super-Heroism（仅战士） | 450 | 750 |
 | 91–93 | 甜水 Sweet Water | 200 | 250 |
 | 94–96 | 寻宝 Treasure Finding | 600 | 2,000 |
-| 97 | 不死生物控制 Undead Control* | 700 | 2,500 |
+| 97 | 不死生物控制药水 Undead Control* | 700 | 2,500 |
 | 98–00 | 水下呼吸 Water Breathing | 400 | 900 |
 
 * 对被控制生物的具体类型，掷骰确定；参见物品说明。  
@@ -295,8 +295,8 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | d100 | 物品 | 售价（金币） |
 |:---:|:---|:---:|
 | 01–02 | 炼金壶 Alchemy Jug | 12,000 |
-| 03–04 | 定位护符 Amulet of Inescapable Location | 1,000 |
-| 05 | 生命防护护符 Amulet of Life Protection | 20,000 |
+| 03–04 | 无法隐匿位置护符 Amulet of Inescapable Location | 1,000 |
+| 05 | 生命守护护符 Amulet of Life Protection | 20,000 |
 | 06–07 | 位面护符 Amulet of the Planes | 30,000 |
 | 08–11 | 反侦护符 Amulet of Proof Against Detection and Location | 15,000 |
 | 12–13 | 夸力许装置 Apparatus of Kwalish | 35,000 |
@@ -309,21 +309,21 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 28–29 | 戏法袋 Bag of Tricks | 15,000 |
 | 30–31 | 丰盈药水烧瓶 Beaker of Plentiful Potions | 12,500 |
 | 32 | 折叠船 Boat, Folding | 25,000 |
-| 33 | 崇高功德之书（仅牧师） Book of Exalted Deeds | 40,000 |
-| 34 | 无限法术之书 Book of Infinite Spells | 50,000 |
+| 33 | 崇善之书（仅牧师） Book of Exalted Deeds | 40,000 |
+| 34 | 无尽法术之书 Book of Infinite Spells | 50,000 |
 | 35 | 秽暗之书（仅牧师） Book of Vile Darkness | 40,000 |
-| 36 | 舞蹈长靴 Boots of Dancing | 5,000 |
-| 37–42 | 精灵长靴 Boots of Elvenkind | 5,000 |
-| 43–47 | 浮空长靴 Boots of Levitation | 15,000 |
-| 48–51 | 迅捷长靴 Boots of Speed | 20,000 |
-| 52–55 | 大步弹跃长靴 Boots of Striding and Springing | 20,000 |
-| 56–58 | 控水元素之碗（仅魔法师） Bowl Commanding Water Elementals | 25,000 |
-| 59 | 水葬之碗（仅魔法师） Bowl of Watery Death | 1,000 |
+| 36 | 舞蹈靴 Boots of Dancing | 5,000 |
+| 37–42 | 精灵之靴 Boots of Elvenkind | 5,000 |
+| 43–47 | 浮空之靴 Boots of Levitation | 15,000 |
+| 48–51 | 速度之靴 Boots of Speed | 20,000 |
+| 52–55 | 跑跳之靴 Boots of Striding and Springing | 20,000 |
+| 56–58 | 水元素操控碗（仅魔法师） Bowl Commanding Water Elementals | 25,000 |
+| 59 | 水之死亡碗（仅魔法师） Bowl of Watery Death | 1,000 |
 | 60–79 | 防御护腕 Bracers of Defense | 3,000* |
-| 80–81 | 无防护护腕 Bracers of Defenselessness | 2,000 |
-| 82–84 | 控火元素香炉（仅魔法师） Brazier Commanding Fire Elementals | 25,000 |
-| 85 | 催眠烟雾火盆（仅魔法师） Brazier of Sleep Smoke | 1,000 |
-| 86–92 | 防护胸针 Brooch of Shielding | 10,000 |
+| 80–81 | 无防御护腕 Bracers of Defenselessness | 2,000 |
+| 82–84 | 火元素操控火盆（仅魔法师） Brazier Commanding Fire Elementals | 25,000 |
+| 85 | 昏睡烟雾火盆（仅魔法师） Brazier of Sleep Smoke | 1,000 |
+| 86–92 | 护盾胸针 Brooch of Shielding | 10,000 |
 | 93 | 动画攻击扫帚 Broom of Animated Attack | 3,000 |
 | 94–98 | 飞天扫帚 Broom of Flying | 10,000 |
 | 99–00 | 巴克纳德永满钱袋 Bucknard's Everfull Purse | 15,000／25,000／40,000 |
@@ -466,35 +466,35 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 | d100 | 物品 | 售价（金币） |
 |:---:|:---|:---:|
-| 01 | 矮人诸王之斧 Axe of the Dwarvish Lords | 55,000 |
+| 01 | 矮人王圣斧 Axe of the Dwarvish Lords | 55,000 |
 | 02 | 巴巴·雅嘎的小屋 Baba Yaga's Hut | 90,000 |
 | 03–04 | 无限位面法典 Codex of the Infinite Planes | 62,500 |
-| 05–20 | 力量王冠 Crown of Might | 50,000 |
-| 21 | 黯焰水晶 Crystal of the Ebon Flame | 75,000 |
+| 05–20 | 威能王冠 Crown of Might | 50,000 |
+| 21 | 黑焰水晶 Crystal of the Ebon Flame | 75,000 |
 | 22 | 阿尔·阿克巴之杯与护符 Cup and Talisman of Al'Akbar | 85,000 |
 | 23–24 | 维克那法眼 Eye of Vecna | 35,000 |
 | 25 | 维克那之手 Hand of Vecna | 60,000 |
 | 26 | 休沃德的神秘管风琴 Heward's Mystical Organ | 25,000 |
 | 27 | 变化号角 Horn of Change | 20,000 |
-| 28–29 | 阿恩德的无敌外套 Invulnerable Coat of Arnd | 47,500 |
-| 30–31 | 无情者图恩尼的铁瓶 Iron Flask of Tuerny the Merciless | 50,000 |
-| 32 | 无价美人石 Jacinth of Inestimable Beauty | 100,000 |
+| 28–29 | 阿恩德无敌外衣 Invulnerable Coat of Arnd | 47,500 |
+| 30–31 | 无情图恩尼之铁瓶 Iron Flask of Tuerny the Merciless | 50,000 |
+| 32 | 无价之美金刚石 Jacinth of Inestimable Beauty | 100,000 |
 | 33 | 乔海迪之面具 Johydee's Mask | 40,000 |
 | 34–35 | 库洛斯之羽笔 Kuroth's Quill | 27,500 |
-| 36–37 | 圣库斯伯特之锤 Mace of Cuthbert | 35,000 |
-| 38 | 疯狂卢姆之机械 Machine of Lum the Mad | 72,500 |
-| 39–40 | 强大的勒乌克-O侍从 Mighty Servant of Leuk-O | 185,000 |
-| 41–47 | 巨龙控制宝珠 Orb of Dragonkind | 10,000–80,000 |
-| 48–63 | 力量宝珠 Orb of Might | 100,000 |
+| 36–37 | 库斯伯特之硬头锤 Mace of Cuthbert | 35,000 |
+| 38 | 疯狂卢姆的机器 Machine of Lum the Mad | 72,500 |
+| 39–40 | 琉克欧的非凡机仆 Mighty Servant of Leuk-O | 185,000 |
+| 41–47 | 龙珠 Orb of Dragonkind | 10,000–80,000 |
+| 48–63 | 威能宝珠 Orb of Might | 100,000 |
 | 64 | 伊莉莎女王的神奇夜莺 Queen Ehlissa's Marvelous Nightingale | 112,500 |
-| 65–66 | Ye'Cind 竖笛 Recorder of Ye'Cind | 80,000 |
-| 67–68 | 盖克斯戒指 Ring of Gaxx | 17,500 |
-| 69–74 | 七段权杖 Rod of Seven Parts | 25,000 |
-| 75–91 | 力量权杖 Sceptre of Might | 150,000 |
+| 65–66 | 叶辛德的竖笛 Recorder of Ye'Cind | 80,000 |
+| 67–68 | 加克斯之戒 Ring of Gaxx | 17,500 |
+| 69–74 | 七碎片之杖 Rod of Seven Parts | 25,000 |
+| 75–91 | 威能权杖 Sceptre of Might | 150,000 |
 | 92 | 凯斯之剑 Sword of Kas | 97,000 |
 | 93–98 | 达尔弗-纳尔之牙 Teeth of Dahlver-Nar | 每颗 5,000 |
-| 99 | 众神王座 Throne of the Gods | — |
-| 00 | 奥喀斯魔杖 Wand of Orcus | 10,000 |
+| 99 | 众神宝座 Throne of the Gods | — |
+| 00 | 奥喀斯之杖 Wand of Orcus | 10,000 |
 
 <strong>注：</strong>表 E.5 中的物品不会提供经验值。
 
@@ -516,10 +516,10 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 45–50 | +1 环甲 Ring Mail +1 | 400 | 2,500 |
 | 51–55 | +1 鳞甲 Scale Mail +1 | 500 | 3,000 |
 | 56–59 | +2 鳞甲 Scale Mail +2 | 1,100 | 6,750 |
-| 60–63 | +1 片甲 Splint Mail +1 | 700 | 4,000 |
-| 64–66 | +2 片甲 Splint Mail +2 | 1,500 | 8,500 |
-| 67–68 | +3 片甲 Splint Mail +3 | 2,250 | 14,500 |
-| 69 | +4 片甲 Splint Mail +4 | 3,000 | 19,000 |
+| 60–63 | +1 板条甲 Splint Mail +1 | 700 | 4,000 |
+| 64–66 | +2 板条甲 Splint Mail +2 | 1,500 | 8,500 |
+| 67–68 | +3 板条甲 Splint Mail +3 | 2,250 | 14,500 |
+| 69 | +4 板条甲 Splint Mail +4 | 3,000 | 19,000 |
 | 70–75 | +1 钉皮甲 Studded Leather +1 | 400 | 2,500 |
 | 76–84 | +1 盾牌 Shield +1 | 250 | 2,500 |
 | 85–89 | +2 盾牌 Shield +2 | 500 | 5,000 |
@@ -586,9 +586,9 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 47–50 | +2 匕首，对体型大于人类的生物 +3 Dagger +2, +3 vs. creatures larger than man-sized | 250 | 2,000 |
 | 51 | 淬毒匕首 Dagger of Venom | 350 | 3,000 |
 | 52–56 | +1 连枷 Flail +1 | 450 | 4,000 |
-| 57–60 | +1 战锤子 Hammer +1 | 300 | 2,500 |
-| 61–62 | +2 战锤子 Hammer +2 | 650 | 6,000 |
-| 63 | +3 矮人投掷锤子 Hammer +3, Dwarven Thrower | 1,500 | 15,000 |
+| 57–60 | +1 战锤 Hammer +1 | 300 | 2,500 |
+| 61–62 | +2 战锤 Hammer +2 | 650 | 6,000 |
+| 63 | +3 矮人投掷锤 Hammer +3, Dwarven Thrower | 1,500 | 15,000 |
 | 64 | 雷神之锤 Hammer of Thunderbolts | 2,500 | 25,000 |
 | 65–67 | +2 标枪 Javelin +2 | 750 | 5,000 |
 | 68–72 | +1 硬头锤 Mace +1 | 350 | 3,000 |
@@ -599,10 +599,10 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 81–83 | +1 晨星锤 Morning Star +1 | 400 | 3,000 |
 | 84–88 | +2 弯刀 Scimitar +2 | 750 | 6,000 |
 | 89 | 寻觅 +2 投石索 Sling of Seeking +2 | 700 | 7,000 |
-| 90–94 | +1 矛 Spear +1 | 500 | 3,000 |
-| 95–96 | +2 矛 Spear +2 | 1,000 | 6,500 |
-| 97 | +3 矛 Spear +3 | 1,750 | 15,000 |
-| 98–99 | 诅咒反噬矛 Spear, Cursed Backbiter | — | 1,000 |
+| 90–94 | +1 长矛 Spear +1 | 500 | 3,000 |
+| 95–96 | +2 长矛 Spear +2 | 1,000 | 6,500 |
+| 97 | +3 长矛 Spear +3 | 1,750 | 15,000 |
+| 98–99 | 诅咒反噬长矛 Spear, Cursed Backbiter | — | 1,000 |
 | 00 | +3 三叉戟（军用叉） Trident (Military Fork) +3 | 1,500 | 12,500 |
 
 ## 魔法物品的解释与描述 Explanations and Descriptions of Magic Items
@@ -615,7 +615,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 魔法师／炼金术士团队可以以相对低廉的成本调配药水，但必须先取得一份该类药水，才能研究其配方；此外，原料总是稀有且难以取得。这类药水研究，以及玩家角色研究新药水的相关要求，见“魔法研究”规则部分。
 
-#### 动物控制 Animal Control
+#### 动物控制药水 Animal Control
 
 饮用者可以与某一类动物共情，并控制其情绪。动物类别可为猫、狗、马等。可控制的数量取决于动物体型：巨鼠为 <strong>5–20 只</strong>，人类大小的动物为 <strong>3–12 只</strong>，约半吨或更重的动物为 <strong>1–4 只</strong>。由 <strong>1d20</strong>决定可控制的动物类别：
 
@@ -649,7 +649,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 环甲 | 2% |
 | 鳞甲 | 4% |
 | 链甲 | 7% |
-| 板条甲或片甲 | 8% |
+| 板条甲或板甲 | 8% |
 | 板甲 | 10% |
 | 任意魔法护甲 | 1% |
 
@@ -661,7 +661,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮用后，角色及其携带、穿着的所有物品都会缩小至正常尺寸的 <strong>5%</strong>。若饮下半剂量，则缩小至正常尺寸的 <strong>50%</strong>。效果持续 <strong>6 回合</strong>，另加 <strong>2–5 回合</strong>（掷 <strong>1d4+1</strong>）。
 
-#### 巨龙控制 Dragon Control
+#### 龙类控制药水 Dragon Control
 
 饮用者可以对距离不超过 <strong>6"</strong>的任意巨龙施展类似魅惑怪物的效果。巨龙可进行对抗魔法的豁免检定，但掷骰结果承受 <strong>−2</strong> 惩罚。由 <strong>1d20</strong>决定可控制的巨龙种类：
 
@@ -692,7 +692,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 完整饮用后恢复 <strong>6–27 点</strong>伤害（掷 <strong>3d8+3</strong>）；若分成三份饮用，每份恢复 <strong>1–8 点</strong>伤害。
 
-#### 火焰抗性 Fire Resistance
+#### 火焰抗性药水 Fire Resistance
 
 饮用者获得对所有普通火焰（如篝火、燃烧的油，乃至巨大的木柴篝火）的魔法免疫，并能抵抗熔岩、火墙、火球、火龙吐息等产生的火焰或强热。此类火焰造成的每颗伤害骰均减少 <strong>2 点</strong>；若允许豁免检定，饮用者另获 <strong>+4</strong> 加值。若只饮用半剂量，则对普通火焰仍完全免疫，但对上述强烈火焰只获得一半效果（每颗伤害骰 <strong>−1</strong>，豁免检定 <strong>+2</strong>）。完整剂量效果持续 <strong>1 回合</strong>；半剂量持续 <strong>5 轮</strong>。
 
@@ -700,11 +700,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮用者获得如同使用同名三环魔法师法术的飞行能力（见该法术说明）。
 
-#### 气态形态 Gaseous Form
+#### 气化药水 Gaseous Form
 
 饮用后，饮用者及其携带、穿着的物品都会化为气态，能够以每轮 <strong>3"</strong> 的基础速度随风飘动。阵风法术或普通强风会以空中移动速度将气体吹离原方向。气态形态透明且没有实体，会不断飘移变形；除魔法火焰或闪电外，无法受到伤害（遭受此类伤害时按正常方式计算）。旋风会对气态形态中的生物造成双倍伤害。处于气态时，饮用者可以进入任何不密封的空间；也就是说，只要有一道允许空气通过的细缝或小孔，便能穿过。必须饮尽整剂药水才能获得此效果，且效果持续药水原本的全部时长。
 
-#### 巨人控制 Giant Control
+#### 巨人控制药水 Giant Control
 
 必须饮尽整剂药水才能生效。效果如同“魅惑怪物”法术，可影响 <strong>1 或 2 名</strong>巨人。若只影响 <strong>1 名</strong>巨人，该巨人对抗魔法的豁免骰获得 <strong>−4</strong> 惩罚；若影响 <strong>2 名</strong>，二者的豁免骰均获得 <strong>+2</strong> 加值。具体受影响的巨人由 <strong>1d20</strong>决定：
 
@@ -719,7 +719,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 控制效果仅持续 <strong>5–30 轮</strong>（掷 <strong>5d6</strong>）。
 
-#### 巨人力量 Giant Strength
+#### 巨人力量药水 Giant Strength
 
 饮用后，角色获得巨人的力量；以任何手持或投掷武器命中时，均获得伤害加值。角色还可以按下表所示投掷巨石。饮用后随机确定对应的巨人力量种类：
 
@@ -742,7 +742,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 必须一次饮尽整剂（用时 <strong>1 轮</strong>），才能恢复 <strong>4–10 点</strong>伤害（掷 <strong>2d4+2</strong>；参见“额外疗伤”）。
 
-#### 英雄主义 Heroism
+#### 英勇药水 Heroism
 
 药水会暂时提高饮用者的生命能量等级；若其经验等级低于 <strong>10 级</strong>，按下表确定提升幅度：
 
@@ -755,7 +755,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮下药水后，角色如同处于药水赋予的经验等级进行战斗。所承受伤害首先从魔法临时增加的生命骰及加值中扣除。此药水仅战士可用。
 
-#### 人类控制 Human Control
+#### 人类控制药水 Human Control
 
 饮用者可像施放“魅惑人类”一样控制最多 <strong>32 个等级／生命骰</strong>的人类、人形生物或半人类。目标可进行对抗魔法的豁免检定。若生命骰总数包含余数，将其向下取整至完整骰数，例如 <strong>1+2=1，2+6=2</strong>。由 <strong>1d20</strong>随机决定可控制的种类：
 
@@ -800,11 +800,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮用后，角色会爱上饮下药水后第一个看见的生物（参见“魅惑法术”）。如果对方与饮用者属于相近种族且性别相异，饮用者会真正迷恋并受其魅惑。魅惑效果持续 <strong>4–8 回合</strong>，迷恋效果则会持续，直到对饮用者施放“解除魔法”。
 
-#### 雄辩灵药 Philter of Persuasiveness
+#### 劝服滤剂 Philter of Persuasiveness
 
 饮用后，角色变得更加有魅力，所有反应骰检定获得 <strong>+25%</strong> 加值。此外，角色每轮可以像使用魔法师“暗示术”一样，对 <strong>3"</strong> 范围内任意数量的生物提出一个暗示（见该法术说明）。
 
-#### 植物控制 Plant Control
+#### 植物控制药水 Plant Control
 
 饮用者能够影响植物生命的行为，包括普通植物、真菌、霉菌乃至蔓生怪，且不超出其通常能力范围。饮用者可以令植物静止／沉默、移动、缠绕等，但都必须符合其能力限制。智力达到 <strong>5</strong> 或更高的植物怪物可进行对抗魔法的豁免检定。饮用者可以控制边长不超过 <strong>2"</strong> 的区域内的植物，持续 <strong>5–20 轮</strong>。若植物具有智力，便不能被直接控制去自我毁灭。（参见“魅惑植物”法术。）控制距离为 <strong>9"</strong>。
 
@@ -812,7 +812,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 毒药药水瓶中装的只是高度有毒的液体。此类毒药通常无味，颜色各异。吞服、从破损皮肤注入，甚至仅仅皮肤接触，都可能导致死亡。毒性分为微弱（豁免检定 <strong>+4 至 +1</strong>）、普通，或致命（豁免检定 <strong>−1 至 −4</strong>，甚至更低）。使用“解除毒性”法术，只能把毒性降低 <strong>40%</strong>；例如，投掷毒药瓶时，豁免检定调整值可由 <strong>−4</strong>提高至 <strong>+4</strong>。你也可以允许角色在战斗中投掷毒药瓶（见“战斗”）。
 
-#### 自我变形 Polymorph (Self)
+#### 自身变形药水 Polymorph (Self)
 
 此药水在大多数方面都能复制同名四环魔法师法术的效果（见该法术说明）。
 
@@ -820,7 +820,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮用后，角色的移动与战斗能力提高 <strong>100%</strong>。例如，移动速度为 <strong>9"</strong> 的角色会提升至 <strong>18"</strong>；通常每轮只能攻击一次的角色，现在每轮可以攻击两次。此药水不会缩短施法时间（参见“加速术”）。饮用迅捷药水会使角色老化 <strong>1 年</strong>，该衰老不可逆；其他效果持续 <strong>5–20 轮</strong>。
 
-#### 超级英雄主义 Super-Heroism
+#### 超级英勇药水 Super-Heroism
 
 若饮用者的经验等级低于 <strong>13 级</strong>，此药水会暂时提升其生命能量等级：
 
@@ -832,7 +832,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 7–9 | 3 | 2+3 |
 | 10–12 | 2 | 1+4 |
 
-除此之外，此药水与“英雄主义”药水相同，但效果持续 <strong>5–30 个近战轮</strong>。
+除此之外，此药水与“英勇药水”相同，但效果持续 <strong>5–30 个近战轮</strong>。
 
 #### 甜水 Sweet Water
 
@@ -842,7 +842,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 饮用者获得位置感，可以指出最近一大堆财宝的方向。财宝必须在 <strong>24"</strong>以内，且总重量至少相当于 <strong>10,000 枚铜币</strong>或 <strong>100 颗宝石</strong>，也可以是两者的组合。此效果只能定位有价值的金属（铜、银、琥珀、黄金、白金等）与宝石（当然也包括珠宝）；不值钱的金属，或没有贵金属／宝石的魔法物品，无法被发现。饮用者可以“感知”财宝所在方向，但无法得知距离。除特殊魔法屏障或铅衬墙外，其他介入物质都无法阻挡此能力。效果持续 <strong>5–20 轮</strong>。（机灵的玩家会尝试欺诈裁判。）
 
-#### 不死生物控制 Undead Control
+#### 不死生物控制药水 Undead Control
 
 此药水使饮用者能够魅惑特定不死生物，包括怨魂、鬼魂、食尸鬼、阴影、骷髅、幽灵、尸妖、缚灵、吸血鬼与僵尸。魅惑能力类似魔法师“魅惑人类”法术，最多影响 <strong>16 个生命骰</strong>的不死生物；若额外生命值不足一整颗生命骰，则向下取整，例如 <strong>4+1</strong>按 <strong>4</strong> 个生命骰计算。只有具备智力的不死生物才可进行对抗魔法的豁免检定；由于药水的力量，豁免骰承受 <strong>−2</strong> 惩罚。效果持续 <strong>5–20 轮</strong>。掷 <strong>1d10</strong>确定此药水影响的不死生物种类：
 
@@ -1044,7 +1044,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 - 穿墙术（每日两次）
 - 石墙术（每日一次）
 - 石化返生术（每周一次）
-- 移土术（每周一次）
+- 地动术（每周一次）
 - 羽落术
 
 在你设定的条件满足前，此戒指看起来只是一枚羽落戒指。
@@ -1224,7 +1224,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 ### 三愿戒指 Ring of Three Wishes
 
-此戒指固定含有 <strong>3 个祈愿术</strong>，而非随机数量；除此之外与多重祈愿戒指相同，但其中 <strong>25%</strong>（骰值 <strong>01–25</strong>）含有 <strong>3 个有限许愿术术</strong>（见“有限许愿术术”）。
+此戒指固定含有 <strong>3 个祈愿术</strong>，而非随机数量；除此之外与多重祈愿戒指相同，但其中 <strong>25%</strong>（骰值 <strong>01–25</strong>）含有 <strong>3 个有限许愿术</strong>（见“有限许愿术”）。
 
 ### 温暖戒指 Ring of Warmth
 
@@ -1445,7 +1445,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 | 能力 | 消耗 charges |
 |:---|:---:|
-| 持续光亮 | 1 |
+| 恒定光亮 | 1 |
 | 黑暗（半径 <strong>5 尺</strong>） | 1 |
 | 浮空术 | 1 |
 | 魔法飞弹或闪电束 | 1 |
@@ -1485,18 +1485,18 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 你也可以设定：<strong>1%</strong> 的魔杖带有陷阱，触发后会反噬持有者。
 
-#### 召唤术魔杖 Wand of Conjuration
+#### 咒法魔杖 Wand of Conjuration
 
 握住此魔杖后，魔法师可以立即辨认出任何已施放或写下的魔法师召唤／招致法术，即使自己看不见法术效果。它具有以下能力，每次使用消耗 <strong>1 charge</strong>：
 
 - 隐形仆役
 - 怪物召唤*。
 
-\* 每次最多可消耗 <strong>6 charges</strong>：每级怪物召唤术消耗 <strong>1 charge</strong>；或施放 <strong>1 次怪物召唤 II</strong>、<strong>1 次怪物召唤 III</strong>；也可混合使用，总消耗不超过 <strong>6 charges</strong>。魔法师必须达到足以施放相应召唤术的等级。怪物召唤需 <strong>5 segments</strong>。
+\* 每次最多可消耗 <strong>6 charges</strong>：每级召唤怪物消耗 <strong>1 charge</strong>；或施放 <strong>1 次召唤怪物 II</strong>、<strong>1 次召唤怪物 III</strong>；也可混合使用，总消耗不超过 <strong>6 charges</strong>。魔法师必须达到足以施放相应召唤术的等级。召唤怪物需 <strong>5 segments</strong>。
 
 此魔杖还可召出一片黑暗帷幕——完全吞噬所有光线的黑色屏障，最大面积为 <strong>600 平方尺</strong>（<strong>6" × 10"、40' × 15'、30' × 20'</strong>等），但必须从天花板延伸至地面，并从一面墙延伸至另一面墙。召出帷幕消耗 <strong>2 charges</strong>。只有物理手段或魔法才能穿透这片全黑帷幕。
 
-魔杖还可构造棱彩法球（或棱彩墙），但每次只能产生一种颜色，从红色到紫色依次施展；每种颜色消耗 <strong>1 charge</strong>。魔杖的每项能力均需 <strong>5 segments</strong>，每轮只能使用一项。此魔杖可以重新充能。
+魔杖还可构造虹光法球（或虹光墙），但每次只能产生一种颜色，从红色到紫色依次施展；每种颜色消耗 <strong>1 charge</strong>。魔杖的每项能力均需 <strong>5 segments</strong>，每轮只能使用一项。此魔杖可以重新充能。
 
 #### 搜敌魔杖 Wand of Enemy Detection
 
@@ -1577,7 +1577,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 持有者也可选择将魔杖直接触碰某个生物。当持杖者如此做时（不愿接受者必须被命中，且仍有权进行豁免检定），目标会被翡翠色闪光环绕，继而变成持杖者指定的任何生物形态。这与“自我变形术”的魔法效果相同。两种能力都需 <strong>3 segments</strong>，每次消耗 <strong>1 charge</strong>。每轮只能使用一项能力。此魔杖可以重新充能。
 
-#### 密门与陷阱定位魔杖 Wand of Secret Door and Trap Location
+#### 暗门与陷阱探测魔杖 Wand of Secret Door and Trap Location
 
 此魔杖对密门的有效探测半径为 <strong>1½"</strong>，对陷阱则为 <strong>3"</strong>。启动后，它会发出脉冲并指向范围内的密门或陷阱。注意，一次操作只能定位其中一种，不能同时定位二者。启动需 <strong>1 回合</strong>并消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
 

@@ -9,7 +9,7 @@
 - Ant, Giant（巨蚁）……7
 - Ape（猿；另见 Baboon〔狒狒〕）……7
   - Carnivorous（食肉猿）……7
-- Asmodeus（阿斯摩蒂尔斯，见 Devil〔魔鬼〕）
+- Asmodeus（阿斯蒙蒂斯，见 Devil〔魔鬼〕）
 - Ass, Wild（野驴，见 Mule〔骡〕）
 - Aurochs（原牛，见 Cattle, Wild〔野牛〕）
 - Axebeak（斧嘴鸟）……7
@@ -106,7 +106,7 @@
 - Demon Horse（恶魔马，见 Nightmare〔梦魇〕）
 - Dervish（托钵僧，见 Men〔人类〕）
 - Devil（魔鬼；另见 Rakshasa〔罗刹〕）……20
-  - Asmodeus（阿斯摩蒂尔斯）……20
+  - Asmodeus（阿斯蒙蒂斯）……20
   - Baalzebul（巴尔泽布）……21
   - Barbed（棘魔）……21
   - Bone（骨魔）……21

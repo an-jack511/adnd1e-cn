@@ -249,7 +249,7 @@
 <TR><TD>手斧或投斧</TD><TD>50</TD><TD>1-6</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>长柄战斧（Bardiche）</TD><TD>125</TD><TD>2-8</TD><TD>3-12</TD><TD></TD></TR>
 <TR><TD>鸦喙锤（Bec de corbin）</TD><TD>100</TD><TD>1-8</TD><TD>1-6</TD><TD></TD></TR>
-<TR><TD>钩镰（Bill-Guisarme）</TD><TD>150</TD><TD>2-8</TD><TD>1-10</TD><TD>包括 Scorpion</TD></TR>
+<TR><TD>钩镰（Bill-Guisarme）</TD><TD>150</TD><TD>2-8</TD><TD>1-10</TD><TD>包括蝎弩（Scorpion）</TD></TR>
 <TR><TD>棒（Bo Stick）</TD><TD>15</TD><TD>1-6</TD><TD>1-3</TD><TD></TD></TR>
 <TR><TD>棍棒</TD><TD>30</TD><TD>1-6</TD><TD>1-3</TD><TD></TD></TR>
 <TR><TD>匕首</TD><TD>10</TD><TD>1-4</TD><TD>1-3</TD><TD></TD></TR>
@@ -259,12 +259,12 @@
 <TR><TD>步战连枷</TD><TD>150</TD><TD>2-7</TD><TD>2-8</TD><TD></TD></TR>
 <TR><TD>骑战连枷</TD><TD>35</TD><TD>2-5</TD><TD>2-5</TD><TD></TD></TR>
 <TR><TD>军用叉</TD><TD>75</TD><TD>1-8</TD><TD>2-8</TD><TD></TD></TR>
-<TR><TD>长柄刀（Glaive）</TD><TD>75</TD><TD>1-6</TD><TD>1-10</TD><TD>包括 Couteaux de Breche</TD></TR>
+<TR><TD>长柄刀（Glaive）</TD><TD>75</TD><TD>1-6</TD><TD>1-10</TD><TD>包括破门刀（Couteaux de Breche）</TD></TR>
 <TR><TD>长柄刀钩戟（Glaive-Guisarme）</TD><TD>100</TD><TD>2-8</TD><TD>2-12</TD><TD></TD></TR>
-<TR><TD>钩镰枪（Guisarme）</TD><TD>80</TD><TD>2-8</TD><TD>1-8</TD><TD>包括 Bill／Bill Hook</TD></TR>
-<TR><TD>钩镰斧（Guisarme-Voulge）</TD><TD>150</TD><TD>2-8</TD><TD>2-8</TD><TD>包括 Lochaber Axe</TD></TR>
+<TR><TD>钩镰枪（Guisarme）</TD><TD>80</TD><TD>2-8</TD><TD>1-8</TD><TD>包括钩镰（Bill／Bill Hook）</TD></TR>
+<TR><TD>钩镰斧（Guisarme-Voulge）</TD><TD>150</TD><TD>2-8</TD><TD>2-8</TD><TD>包括洛哈伯斧（Lochaber Axe）</TD></TR>
 <TR><TD>戟</TD><TD>175</TD><TD>1-10</TD><TD>2-12</TD><TD></TD></TR>
-<TR><TD>卢塞恩锤</TD><TD>150</TD><TD>2-8</TD><TD>1-6</TD><TD></TD></TR>
+<TR><TD>琉森锤</TD><TD>150</TD><TD>2-8</TD><TD>1-6</TD><TD></TD></TR>
 <TR><TD>锤</TD><TD>50</TD><TD>2-5</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>标枪</TD><TD>20</TD><TD>1-6</TD><TD>1-6</TD><TD></TD></TR>
 <TR><TD>短棍（Jo Stick）</TD><TD>40</TD><TD>1-6</TD><TD>1-4</TD><TD></TD></TR>
@@ -273,19 +273,19 @@
 <TR><TD>重骑枪*</TD><TD>150</TD><TD>3-9</TD><TD>3-18</TD><TD></TD></TR>
 <TR><TD>步战硬头锤</TD><TD>100</TD><TD>2-7</TD><TD>1-6</TD><TD></TD></TR>
 <TR><TD>骑战硬头锤</TD><TD>50</TD><TD>1-6</TD><TD>1-4</TD><TD></TD></TR>
-<TR><TD>晨星</TD><TD>125</TD><TD>2-8</TD><TD>2-7</TD><TD>包括 Godentag 与 Holy Water Sprinkler</TD></TR>
-<TR><TD>阔刃矛（Partisan）</TD><TD>80</TD><TD>1-6</TD><TD>2-7</TD><TD>包括 Bohemian Ear-Spoon</TD></TR>
+<TR><TD>晨星</TD><TD>125</TD><TD>2-8</TD><TD>2-7</TD><TD>包括戈登塔格（Godentag）与圣水洒器（Holy Water Sprinkler）</TD></TR>
+<TR><TD>阔刃矛（Partisan）</TD><TD>80</TD><TD>1-6</TD><TD>2-7</TD><TD>包括波希米亚耳勺（Bohemian Ear-Spoon）</TD></TR>
 <TR><TD>步战军用镐</TD><TD>60</TD><TD>2-7</TD><TD>2-8</TD><TD></TD></TR>
 <TR><TD>骑战军用镐</TD><TD>40</TD><TD>2-5</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>长锥枪（Awl Pike）</TD><TD>80</TD><TD>1-6</TD><TD>1-12</TD><TD></TD></TR>
 <TR><TD>轻弩矢</TD><TD>1</TD><TD>1-4</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>重弩矢</TD><TD>2</TD><TD>2-5</TD><TD>2-7</TD><TD></TD></TR>
-<TR><TD>长柄叉（Ranseur）</TD><TD>50</TD><TD>2-8</TD><TD>2-8</TD><TD>包括 Chauves Souris、Ransom、Rhonca、Roncie、Runka</TD></TR>
-<TR><TD>弯刀</TD><TD>40</TD><TD>1-8</TD><TD>1-8</TD><TD>包括 Cutlass、Sabre、Sickle-sword、Tulwar 等</TD></TR>
+<TR><TD>长柄叉（Ranseur）</TD><TD>50</TD><TD>2-8</TD><TD>2-8</TD><TD>包括蝙蝠式长柄叉（Chauves Souris）、兰瑟姆（Ransom）、罗恩卡（Rhonca）、罗恩西（Roncie）、伦卡（Runka）</TD></TR>
+<TR><TD>弯刀</TD><TD>40</TD><TD>1-8</TD><TD>1-8</TD><TD>包括弯刀（Cutlass）、马刀（Sabre）、镰剑（Sickle-sword）、图尔瓦尔弯刀（Tulwar）等</TD></TR>
 <TR><TD>投石索弹丸</TD><TD>2</TD><TD>2-5</TD><TD>2-7</TD><TD></TD></TR>
 <TR><TD>投石索石块</TD><TD>1</TD><TD>1-4</TD><TD>1-4</TD><TD></TD></TR>
 <TR><TD>长矛**</TD><TD>40-60</TD><TD>1-6</TD><TD>1-8</TD><TD></TD></TR>
-<TR><TD>戟矛（Spetum）</TD><TD>50</TD><TD>2-7</TD><TD>2-12</TD><TD>包括 Corseque、Korseke</TD></TR>
+<TR><TD>戟矛（Spetum）</TD><TD>50</TD><TD>2-7</TD><TD>2-12</TD><TD>包括叉枪（Corseque、Korseke）</TD></TR>
 <TR><TD>长杖</TD><TD>50</TD><TD>1-6</TD><TD>1-6</TD><TD></TD></TR>
 <TR><TD>手半剑</TD><TD>100</TD><TD>2-8</TD><TD>2-16</TD><TD></TD></TR>
 <TR><TD>阔剑</TD><TD>75</TD><TD>2-8</TD><TD>2-7</TD><TD></TD></TR>
@@ -321,7 +321,7 @@
 <TR><TD>钩镰枪</TD><TD>6′+</TD><TD>2′</TD><TD>8</TD><TD>-2</TD><TD>-2</TD><TD>-1</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>-1</TD><TD>-1</TD></TR>
 <TR><TD>钩镰斧</TD><TD>7′+</TD><TD>2′</TD><TD>10</TD><TD>-1</TD><TD>-1</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>戟</TD><TD>5′+</TD><TD>5′</TD><TD>9</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD></TR>
-<TR><TD>卢塞恩锤</TD><TD>5′+</TD><TD>5′</TD><TD>9</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD></TR>
+<TR><TD>琉森锤</TD><TD>5′+</TD><TD>5′</TD><TD>9</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>锤</TD><TD>约1&#189;′</TD><TD>2′</TD><TD>4</TD><TD>0</TD><TD>+1</TD><TD>0</TD><TD>+1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 <TR><TD>短棍</TD><TD>约3′</TD><TD>2′</TD><TD>2</TD><TD>-8</TD><TD>-6</TD><TD>-4</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>+1</TD><TD>0</TD><TD>+2</TD></TR>
 <TR><TD>重骑枪</TD><TD>约14′</TD><TD>1′</TD><TD>8</TD><TD>+3</TD><TD>+3</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+1</TD><TD>+1</TD><TD>0</TD><TD>0</TD></TR>

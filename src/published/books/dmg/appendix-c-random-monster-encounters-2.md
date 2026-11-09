@@ -11,12 +11,12 @@
 | 骰值 | 物品 |
 |---:|---|
 | 1 | <strong>2 瓶药水：</strong>攀爬、飞行 |
-| 2 | <strong>2 瓶药水：</strong>强效治疗、自我变形 |
-| 3 | <strong>2 瓶药水：</strong>火焰抗性、加速 |
-| 4 | <strong>2 瓶药水：</strong>治疗、巨人力量 |
+| 2 | <strong>2 瓶药水：</strong>强效治疗药水、自身变形药水 |
+| 3 | <strong>2 瓶药水：</strong>火焰抗性药水、加速药水 |
+| 4 | <strong>2 瓶药水：</strong>治疗药水、巨人力量药水 |
 | 5 | <strong>2 瓶药水：</strong>英雄气概、无敌 |
-| 6 | <strong>2 瓶药水：</strong>人类控制、悬浮 |
-| 7 | <strong>2 瓶药水：</strong>超凡英雄气概、动物控制 |
+| 6 | <strong>2 瓶药水：</strong>人类控制药水、浮空药水 |
+| 7 | <strong>2 瓶药水：</strong>超级英勇药水、动物控制药水 |
 | 8 | <strong>1 张卷轴：</strong>1 个法术，等级 1–6 |
 | 9 | <strong>1 张卷轴：</strong>2 个法术，等级 1–4 |
 | 10 | <strong>1 张卷轴：</strong>防护魔法 |
@@ -50,7 +50,7 @@
 | 13 | <strong>1 套：</strong>+1 锁子甲、+2 盾牌 |
 | 14 | <strong>1 件护甲：</strong>+4 板条甲 |
 | 15 | <strong>1 把剑：</strong>+3（无特殊能力） |
-| 16 | <strong>2 件武器：</strong>速射弩、+2 锤子 |
+| 16 | <strong>2 件武器：</strong>速射弩、+2 战锤 |
 
 ### 表 III（d8、d6）Table III
 

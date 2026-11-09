@@ -38,6 +38,6 @@
 | 7 | 定身植物 Hold Plant | *月华之光 Moonbeam* | *活橡树术 Liveoak* | 匍行灾厄 Creeping Doom |
 | 8 | 植物之门 Plant Door | 穿树术 Pass Plant | *化水为尘 Transmute Water To Dust* | 死亡一指 Finger Of Death |
 | 9 | 造火术 Produce Fire | *尖刺石地 Spike Stones* | 木遁术 Transport Via Plants | 火焰风暴 Fire Storm |
-| 10 | 防护闪电 Protection From Lightning | 变木为蛇 Sticks To Snakes | 驱木术 Turn Wood | 转生术 Reincarnate |
+| 10 | 防护闪电 Protection From Lightning | 蛇杖术 Sticks To Snakes | 驱木术 Turn Wood | 转生术 Reincarnate |
 | 11 | 驱虫术 Repel Insects | 化石为泥 Transmute Rock To Mud | 棘墙术 Wall Of Thorns | *阳光射线 Sunray* |
 | 12 | 植物交谈 Speak With Plants | 火墙术 Wall Of Fire | 召唤天气 Weather Summoning | 化金属为木 Transmute Metal To Wood |

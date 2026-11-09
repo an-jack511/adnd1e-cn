@@ -20,12 +20,12 @@ HD 36；THAC0 10；SpA CL 16；MV 18”；AC -4（披斗篷时 -8）；hp 165；
 埃乌兹还拥有以下所有半神共有的力量：
 
 * <strong>随意使用：</strong>死亡指、隐形、魅影之力、半径 10 英尺的善良防护、移除恐惧、召唤追随者（每天召唤 1–2 个相同种类且阵营相同的生物，总生命骰数最多 20）。
-* <strong>每天两次：</strong>驱散善良、驱散幻象、解除魔法、真视术。
+* <strong>每天两次：</strong>驱散善良、驱散幻象、解除魔法、真实视觉。
 * <strong>每天一次：</strong>反魔法外壳、命令（持续 2 轮）、门、治疗、亵渎之语、有限许愿术、象征。
 
 ### 埃乌兹的牧师 埃乌兹（Iuz）' Clerics
 
-AL 混乱邪恶；RA 见下文；AEx 无；WPN 棍棒、连枷、硬头锤*、法杖、投石索、加罗特绳；SPH 战斗、守护、预言（次要）、治疗、死灵（次要）、召唤、太阳（逆转）；SPL <strong>改变自身</strong>；ADD <strong>唾液</strong>、<strong>造成恐惧</strong>、<strong>灼热金属</strong>、<strong>解除魔法</strong>、<strong>真视术</strong>、<strong>心智蒙昧</strong>、<strong>禁制</strong>、<strong>困惑术</strong>。
+AL 混乱邪恶；RA 见下文；AEx 无；WPN 棍棒、连枷、硬头锤*、法杖、投石索、加罗特绳；SPH 战斗、守护、预言（次要）、治疗、死灵（次要）、召唤、太阳（逆转）；SPL <strong>改变自身</strong>；ADD <strong>唾液</strong>、<strong>造成恐惧</strong>、<strong>灼热金属</strong>、<strong>解除魔法</strong>、<strong>真实视觉</strong>、<strong>心智蒙昧</strong>、<strong>禁制</strong>、<strong>困惑术</strong>。
 
 埃乌兹的牧师与他们的神祇一样冷酷而恶毒。他们穿黑色服装（这是其主人最喜欢的颜色），或穿染有血迹的白色服装。从 3 级开始，他们每天可以施展一次<strong>改变自身</strong>，法术以牧师等级施展。所有埃乌兹牧师都以搜集战败敌人的战利品为己任。牧师的地位部分取决于其收藏中的战利品数量，尤其是头骨的数量。
 

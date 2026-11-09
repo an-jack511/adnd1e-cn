@@ -324,7 +324,7 @@ Mitsuro 的半强度幽魂可能在任何地方被遇到。如果他把某个玩
 
 ### Alokkair，巫王
 
-<strong>Alokkair（巫妖，生前为二十级魔法使用者）：</strong>AC 0；MV 12”；HD 20；hp 76；攻击次数 1；伤害：特殊；特殊攻击：“寒冷触碰”，造成 1d10 hp 伤害并麻痹（持续 2d4×10 轮；通过麻痹豁免检定即可避免）；特殊防御：免疫 charm、sleep、enfeeblement、polymorph、寒冷、电击、疯狂、死亡法术/符文以及攻击形式；AL CE；XP 8,780；ST 16；IN 18；WI 17；DX 17；CO 15；CH 12。
+<strong>Alokkair（巫妖，生前为二十级魔法使用者）：</strong>AC 0；MV 12”；HD 20；hp 76；攻击次数 1；伤害：特殊；特殊攻击：“寒冷触碰”，造成 1d10 hp 伤害并麻痹（持续 2d4×10 轮；通过麻痹豁免检定即可避免）；特殊防御：免疫 charm、sleep、enfeeblement、polymorph、寒冷、电击、疯狂、死亡术/符文以及攻击形式；AL CE；XP 8,780；ST 16；IN 18；WI 17；DX 17；CO 15；CH 12。
 
 <strong>法术：</strong>由 DM 选择；魔法使用者法术数量为 5、5、5、5、5、4、3、3、2。
 

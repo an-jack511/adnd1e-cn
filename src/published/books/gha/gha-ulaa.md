@@ -25,7 +25,7 @@ HD 22；THAC0 8；SpA CL/MU 13/13；MV 9”（18”）；AC -5；hp 100；#AT 2�
 
 ### 乌拉的牧师 Ulaa's Clerics
 
-AL 守序善良、中立；RA 见下文；AEx +5%；WPN 棍棒、连枷、锤*、硬头锤、法杖、军用镐*、投石索；SPH 战斗、元素、防护、治疗、守护、预言（次要）；SPL 见下文；ADD <strong>命令大地</strong>、<strong>光亮</strong>、<strong>持续光亮</strong>、<strong>任务术</strong>、<strong>活化物品</strong>、<strong>英雄宴</strong>；PN 土元素位面。
+AL 守序善良、中立；RA 见下文；AEx +5%；WPN 棍棒、连枷、锤*、硬头锤、法杖、军用镐*、投石索；SPH 战斗、元素、防护、治疗、守护、预言（次要）；SPL 见下文；ADD <strong>命令大地</strong>、<strong>光亮</strong>、<strong>恒定光亮</strong>、<strong>使命术</strong>、<strong>活化物品</strong>、<strong>英雄宴</strong>；PN 土元素位面。
 
 乌拉的牧师穿棕色、绿色，或根据等级穿这两种颜色组合的长袍。他们是社区的仆人和保护者。1 级时，他们必须选择一个敌人，通常是某种对当地构成威胁的怪物。以近战攻击这种敌人时，牧师获得 +1 伤害加值。牧师每提升三个等级，该加值额外增加 +1，最高 +4。敌人必须是一种特定的生物，例如丘陵巨人、兽人或巨魔等。
 

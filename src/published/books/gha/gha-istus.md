@@ -35,7 +35,7 @@ HD 16；THAC0 10；SpA CL/MU 16/16；MV 12”；AC -2；hp 75；#AT 1；Dmg 通�
 
 ### 伊斯图丝的牧师 Istus' Clerics
 
-AL 中立；RA 见下文；AEx 5%；WPN 棍棒、连枷*、锤、硬头锤、法杖、套索；SPH 星界、魅惑（次要）、预言、治疗、死灵、防护（次要）；SPL 无；ADD <strong>纠缠</strong>、<strong>祝福术</strong>、<strong>预报天气</strong>、<strong>吟唱</strong>、<strong>祈祷</strong>、<strong>任务术</strong>、<strong>石言术</strong>、<strong>复生术</strong>。
+AL 中立；RA 见下文；AEx 5%；WPN 棍棒、连枷*、锤、硬头锤、法杖、套索；SPH 星界、魅惑（次要）、预言、治疗、死灵、防护（次要）；SPL 无；ADD <strong>纠缠</strong>、<strong>祝福术</strong>、<strong>预报天气</strong>、<strong>吟唱</strong>、<strong>祈祷</strong>、<strong>使命术</strong>、<strong>石言术</strong>、<strong>复生术</strong>。
 
 伊斯图丝的牧师大多数是女性（80%）。通常只有冷漠或愤世嫉俗的人会侍奉她（命运往往过于残酷或不可靠，难以激发强烈的虔诚），不过也有一些人因为命运对自己格外慷慨而崇拜伊斯图丝。伊斯图丝的牧师穿灰色或黑色长袍。高级牧师的正式服装带有蛛网图案。所有牧师都必须公开佩戴金色纺锤，并让头发至少留长六英寸。由于伊斯图丝的牧师往往已经接受（或对其有信心）自己的命运，他们会通过抛硬币或掷骰子，随机作出那些并不重要的决定。即使遇到重大决定，牧师也常常会考虑两个或更多个看似同等价值的行动方案，然后随机选择其中一个。
 

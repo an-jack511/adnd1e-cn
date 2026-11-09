@@ -20,7 +20,6 @@
 <p>德鲁伊晋升为大德鲁伊、大德鲁伊晋升为最高的大德鲁伊，也须重复同样的过程。只要角色还活着，就可以多次尝试晋升。</p>
 <p>德鲁伊不会长住城堡，甚至不会长住城市或城镇。他们都偏爱居住在圣林，在其中搭建不大的草皮屋、木屋或石屋。等级超过 11 级后，德鲁伊通常会住进坐落于林地或类似自然环境中的建筑群。</p>
 <h3>德鲁伊（牧师）表 I Druids (Clerics) Table I</h3>
-<h4>德鲁伊（牧师）表 I Druids (Clerics) Table I</h4>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用八面骰</TH><TH>等级称号</TH></TR>
 <TR><TD>0–2,000</TD><TD>1</TD><TD>1</TD><TD>Aspirant／求道者</TD></TR>
@@ -39,7 +38,6 @@
 <TR><TD>1,500,001</TD><TD>14</TD><TD>14</TD><TD>The Great Druid／最高德鲁伊</TD></TR>
 </TABLE>
 <h3>各等级德鲁伊（牧师）可用法术 Spells Usable By Class And Level—Druids (Clerics)</h3>
-<h4>各等级德鲁伊（牧师）可用法术 Spells Usable By Class And Level—Druids (Clerics)</h4>
 <TABLE>
 <TR><TH>德鲁伊等级</TH><TH>法术环级 1</TH><TH>2</TH><TH>3</TH><TH>4</TH><TH>5</TH><TH>6</TH><TH>7</TH></TR>
 <TR><TD>1</TD><TD>2</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>

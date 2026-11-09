@@ -1,6 +1,6 @@
-#### 幽界化板甲 Plate Mail of Etherealness
+#### 无相位板甲 Plate Mail of Etherealness
 
-“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。幽界化板甲共有 <strong>20 charges</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 charges</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 charges</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>个 charge 耗尽后则只剩 <strong>+1</strong>。
+“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。无相位板甲共有 <strong>20 charges</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 charges</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 charges</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>个 charge 耗尽后则只剩 <strong>+1</strong>。
 
 #### 易损板甲 Plate Mail of Vulnerability
 
@@ -29,43 +29,43 @@
 
 所有魔法剑标示的加值，既用于“命中”检定，也用于伤害（例如 <strong>+1、+2、+3</strong>分别增加相应点数伤害）。下文先介绍剑的特殊能力；之后再讨论剑的特殊属性，包括智力、能力、力量、目的、阵营、语言与自我意识值；最后说明特殊剑的影响。注意，只有少数剑具有特殊属性。
 
-所有 <strong>+5 圣剑</strong>均属守序善良阵营；所有锐锋剑均属混乱阵营；所有斩首剑均属守序阵营。
+所有 <strong>+5 圣剑</strong>均属守序善良阵营；所有锋锐剑均属混乱阵营；所有斩首剑均属守序阵营。
 
-多数魔法剑（以及所有匕首）从剑鞘中拔出时都会发光（参见《玩家手册》“冒险：光照”）。例外为火焰舌、霜之烙印、圣剑、吸命剑与锐锋剑，下文将分别介绍。
+多数魔法剑（以及所有匕首）从剑鞘中拔出时都会发光（参见《玩家手册》“冒险：光照”）。例外为火焰舌、霜之烙印、圣剑、窃命剑与锋锐剑，下文将分别介绍。
 
 每当一把剑具有未知特性（例如幸运剑的祈愿次数，或具有特殊性质的剑），都应为其制作一张 <strong>3 × 5 英寸</strong>的索引卡，并在持有者参与游戏时随时备查。
 
-#### +1、对施法者与附魔生物 +2 Sword +1, +2 vs. Magic-Using and Enchanted Creatures
+#### +1 剑，对抗魔法使用者与附魔生物 +2 Sword +1, +2 vs. Magic-Using and Enchanted Creatures
 
 此剑始终获得 <strong>+1</strong> 加值；用于对付魔法师、能施法的怪物，以及被召唤、创造、异界之门召来或召唤术唤来的生物时，获得 <strong>+2</strong>。若某生物仅因物品赋予而能施法（例如借助储法戒指），则不受此 <strong>+2</strong> 加值影响。
 
-#### +1、对兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers
+#### +1 剑，对抗兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers
 
 此剑对狼人及其他兽化生物、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 <strong>+3</strong> 加值。
 
-#### +1、对再生生物 +3 Sword +1, +3 vs. Regenerating Creatures
+#### +1 剑，对抗再生生物 +3 Sword +1, +3 vs. Regenerating Creatures
 
 此剑对具有再生能力的生物获得 <strong>+3</strong> 加值；即使目标是借助魔法装置（例如再生戒指）获得再生能力，也适用此加值。
 
-#### +1、对爬行类 +4 Sword +1, +4 vs. Reptiles
+#### +1 剑，对抗爬行类生物 +4 Sword +1, +4 vs. Reptiles
 
 此剑对恐龙、龙类、多头蛇、蜥蜴、蛇、飞龙等爬行类生物获得 <strong>+4</strong> 加值。
 
-#### +1 火焰舌 Sword +1, Flame Tongue
+#### 火焰之舌 +1 剑：对抗再生生物 +2；对抗畏火、易燃或禽类生物 +3；对抗不死生物 +4 Sword +1, Flame Tongue
 
 此剑对再生生物、寒冷攻击者、易燃生物或飞行生物获得 <strong>+2</strong>；对不死生物获得 <strong>+4</strong>。只有当持有者说出命令语或短句时，剑才会放出照如火把的火焰。火焰容易点燃油料、烧毁蛛网，或点燃纸张、羊皮纸、干木材等。
 
 所谓“寒冷攻击者”，是指攻击方式涉及寒冷的生物，例如冰蟾蜍、白龙、冬狼与雪人等。
 
-#### +1 幸运剑 Sword +1, Luck Blade
+#### 幸运之刃 +1 剑 Sword +1, Luck Blade
 
 持有者的所有豁免检定获得 <strong>+1</strong>。此外，剑还拥有 <strong>2–5 个祈愿</strong>（掷 <strong>d4 + 1</strong>决定次数）；地下城主必须秘密记录祈愿总数及使用情况。
 
-#### +2 巨人杀手 Sword +2, Giant Slayer
+#### 巨人杀手 +2 剑 Sword +2, Giant Slayer
 
 此剑对任何巨人、双头巨人、食人魔法师或泰坦都有 <strong>+3</strong> 加值。对真正的巨人（山丘、石、霜、火、云、风暴巨人）造成双倍伤害，即 <strong>2–24 + 3</strong>，总计 <strong>5–27 点伤害</strong>。
 
-#### +2 屠龙剑 Sword +2, Dragon Slayer
+#### 屠龙者 +2 剑 Sword +2, Dragon Slayer
 
 此剑对任何真龙获得 <strong>+4</strong> 加值；对其中一种龙造成三倍伤害，即 <strong>3–36 + 4</strong>，总计 <strong>7–40 点伤害</strong>。具有智力与阵营的特殊剑，不会以杀死同阵营的龙为目的。掷骰随机决定其克制的龙种，但不包括唯一的巴哈姆特与提亚马特：
 
@@ -76,19 +76,19 @@
 | 青铜龙（守序善良） | 银龙（守序善良） |
 | 赤铜龙（混乱善良） | 白龙（混乱邪恶） |
 
-#### +2 九命夺魂剑 Sword +2, Nine Lives Stealer
+#### 九命窃命剑 +2 Sword +2, Nine Lives Stealer
 
 此剑始终是一把 <strong>+2</strong> 武器，但还能夺取对手的生命力；总共只能使用 <strong>9 次</strong>。只有挥剑者的“命中”骰掷出自然 <strong>20</strong>时，夺魂能力才会启动。此时对手可以进行对抗魔法的豁免检定；若成功，剑的能力不会启动、不消耗次数，目标仍受到正常伤害。
 
-#### +3 霜之烙印 Sword +3, Frost Brand
+#### 霜燃之刃 +3：对抗火系／栖居火焰生物 +6 Sword +3, Frost Brand
 
 此剑对使用或栖居于火焰中的生物获得 <strong>+6</strong> 加值。除非空气温度低于 <strong>0°F</strong>，否则剑不会发光；但它能保护持有者，如同其佩戴了抗火戒指。将剑刺入火焰时，还有 <strong>50%</strong> 的概率熄灭半径 <strong>10'</strong>内的火焰，包括火墙术；但不包括火球术、流星爆或火焰打击。
 
-#### +4 防御者 Sword +4, Defender
+#### 防御者 +4 剑 Sword +4, Defender
 
 持有者可以选择将全部、部分或完全不将 <strong>+4</strong> 加值用于防御对手的手持武器（例如匕首、硬头锤、未投掷的长矛、剑等）。例如，持有者可以在战斗第一轮选择将此剑用作 <strong>+2</strong> 武器，并把其余 <strong>+2</strong> 加到护甲等级上。每轮都可以重新分配。
 
-#### +5 圣剑 Sword +5, Holy Avenger
+#### 神圣复仇者 +5 剑 Sword +5, Holy Avenger
 
 这是一把圣剑。除圣武士以外的任何角色使用时，它只发挥 <strong>+2</strong> 剑的作用。但圣武士使用时，它会在半径 <strong>5'</strong>内产生 <strong>50%</strong> 魔法抗性；还能以等同于圣武士经验等级的法师等级，在半径 <strong>5'</strong>内施展“解除魔法”；对混乱邪恶阵营的对手另造成 <strong>+10 点伤害</strong>（另参见《玩家手册》“职业：圣武士”）。
 

@@ -96,7 +96,7 @@
 
 | 药水 | 建议特殊成分 |
 |:---|:---|
-| 动物控制 Animal Control | 预定控制对象相应种类的器官或腺体 |
+| 动物控制药水 Animal Control | 预定控制对象相应种类的器官或腺体 |
 | 千里传音 Clairaudience | 人类或类人猿的丘脑腺，或听觉敏锐动物的耳朵 |
 | 千里眼 Clairvoyance | 人类或类人猿的丘脑腺，或视力敏锐动物的眼睛 |
 | 攀爬 Climbing | 巨型昆虫的腿 |
@@ -105,15 +105,15 @@
 | 龙类控制 Dragon Control | 对应龙种的大脑 |
 | 心灵感应 ESP | 夺心魔大脑 |
 | 强效治疗 Extra-Healing | 巨魔血液或圣人毛发** |
-| 火焰抗性 Fire Resistance | 火元素燃素或火蜥蜴鳞片 |
+| 火焰抗性药水 Fire Resistance | 火元素燃素或火蜥蜴鳞片 |
 | 飞行 Flying | 狮鹫羽毛与飞龙血液 |
 | 气化 Gaseous Form | 吸血鬼尘埃或食人魔法师牙齿 |
-| 巨人控制 Giant Control | 对应巨人种类的大脑 |
-| 巨人力量 Giant Strength | 对应巨人种类的汗液 |
-| 生长 Growth | 食人魔法师的腺体 |
+| 巨人控制药水 Giant Control | 对应巨人种类的大脑 |
+| 巨人力量药水 Giant Strength | 对应巨人种类的汗液 |
+| 生长药水 Growth | 食人魔法师的腺体 |
 | 治疗 Healing | 食人魔法师血液或圣人衣物的线** |
-| 英勇 Heroism | 狮子或类似大型猫科动物的心脏 |
-| 人类控制 Human Control | 吸血鬼眼睛或水妖血液 |
+| 英勇药水 Heroism | 狮子或类似大型猫科动物的心脏 |
+| 人类控制药水 Human Control | 吸血鬼眼睛或水妖血液 |
 | 隐形 Invisibility | 隐形潜伏者的脓液 |
 | 无敌 Invulnerability | 石像鬼之角或兽化生物皮肤 |
 | 浮空 Levitation | 眼魔眼柄上的眼球，或鬼火精粹 |
@@ -122,14 +122,14 @@
 | 润滑油 Oil of Slipperiness | 紫虫腺体或巨型梭鲈鱼肝脏 |
 | 迷情媚药 Philter of Love | 树精毛发 |
 | 劝服滤剂 Philter of Persuasiveness | 魅魔舌头或魔鬼之舌 |
-| 植物控制 Plant Control | 尖啸菇孢子与乌姆伯·赫克之眼 |
-| 自身变形 Polymorph (Self) | 拟形怪皮肤或魅魔毛发 |
+| 植物控制药水 Plant Control | 尖啸菇孢子与乌姆伯·赫克之眼 |
+| 自身变形药水 Polymorph (Self) | 拟形怪皮肤或魅魔毛发 |
 | 毒药 Poison | 特殊成分 |
 | 加速 Speed | 天马之心与巨鼬鼠血液 |
 | 超级英勇 Super-Heroism | 巨型狼獾血液与牛头人之心 |
 | 甜水 Sweet Water | 水元素之眼或海妖血液 |
 | 寻宝 Treasure Finding | 金龙鳞片与六种不同的磨碎宝石 |
-| 不死生物控制 Undead Control | 刚被消灭的幽影尘埃、吸血鬼大脑、幽灵外质或巫妖舌头 |
+| 不死生物控制药水 Undead Control | 刚被消灭的幽影尘埃、吸血鬼大脑、幽灵外质或巫妖舌头 |
 | 水下呼吸 Water Breathing | 水那迦血液或水妖器官 |
 
 * 也可以为所有药水制作设定 <strong>5%–20%</strong>的失败率。失败时会制成妄想药水，效果与原本尝试制作的药水类型相同（例如动物控制、飞行等）。  

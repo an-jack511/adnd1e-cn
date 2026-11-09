@@ -8,7 +8,6 @@
 <p>第 12 级或更高的魔法师可以建造要塞，并肃清周围半径 10 至 20 英里内的所有怪物，像贵族一样统治这片地区。完成后，领地会按每名居民每月 5 枚银币产生收入。</p>
 <p>第 18 级以后，每升一级另需 375,000 点经验值。第 11 级以后，魔法师每级增加 1 点生命值。</p>
 <h3>魔法师表 I Magic-Users Table I</h3>
-<h4>魔法师表 I Magic-Users Table I</h4>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用四面骰</TH><TH>等级称号</TH></TR>
 <TR><TD>0–2,500</TD><TD>1</TD><TD>1</TD><TD>Prestidigitator／戏法师</TD></TR>
@@ -31,7 +30,6 @@
 <TR><TD>3,000,001–3,375,000</TD><TD>18</TD><TD>11+7</TD><TD>Wizard (18th level, or Arch-Mage)／大法师（第18级，或称至高法师）</TD></TR>
 </TABLE>
 <h3>各等级魔法师可用法术 Spells Usable By Class And Level—Magic-Users</h3>
-<h4>各等级魔法师可用法术 Spells Usable By Class And Level—Magic-Users</h4>
 <TABLE>
 <TR><TH>魔法师等级</TH><TH>法术环级 1</TH><TH>2</TH><TH>3</TH><TH>4</TH><TH>5</TH><TH>6</TH><TH>7</TH><TH>8</TH><TH>9</TH></TR>
 <TR><TD>1</TD><TD>1</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>

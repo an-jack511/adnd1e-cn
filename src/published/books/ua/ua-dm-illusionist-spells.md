@@ -10,7 +10,7 @@
 
 | 掷骰 | 攻击法术 Offensive | 防御法术 Defensive | 杂项法术 Miscellaneous |
 |:---:|:---|:---|:---|
-| 1 | 七彩喷射 Color Spray | 声音幻象 Audible Glamer | 改变自身外貌 Change Self |
+| 1 | 七彩喷射 Color Spray | 可闻幻象 Audible Glamer | 改变自身外貌 Change Self |
 | 2 | 催眠术 Hypnotism | 黑暗术 Darkness | 舞光术 Dancing Lights |
 | 3 | 光亮术 Light | 凝视反射 Gaze Reflection | 侦测幻象 Detect Illusion |
 | 4 | 魅影之力 Phantasmal Force | 雾墙术 Wall of Fog | 侦测隐形 Detect Invisibility |

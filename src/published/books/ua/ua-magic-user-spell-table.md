@@ -73,7 +73,7 @@
 | 16 | 隐形潜猎者 Invisible Stalker | 反转重力 Reverse Gravity | 律令：目盲 Power Word Blind | 祈愿术 Wish |
 | 17 | 通晓传奇 Legend Lore | *隔离术 Sequester* | 瑟腾法术免疫 Serten's Spell Immunity |  |
 | 18 | 降水术 Lower Water | 拟像术 Simulacrum | *沉没术 Sink* |  |
-| 19 | 怪物召唤 IV Monster Summoning IV | 雕像术 Statue | 徽记术 Symbol |  |
+| 19 | 召唤怪物 IV Monster Summoning IV | 雕像术 Statue | 徽记术 Symbol |  |
 | 20 | *魔邓肯冥思术 Mordenkainen's Lucubration* | *无误传送 Teleport Without Error* | 缚魂术 Trap The Soul |  |
 | 21 | 地动术 Move Earth | *折磨术 Torment* |  |  |
 | 22 | 欧提路克冰封法球 Otiluke's Freezing Sphere | *真名术 Truename* |  |  |

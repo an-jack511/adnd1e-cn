@@ -427,7 +427,7 @@
   - II：寻找陷阱 Find Traps，加热／冷却金属 Heat／Chill Metal。
   - III：死亡之门 Death’s Door，魔法护甲 Magical Vestment。
   - IV：恐惧／勇气斗篷 Cloak of Fear／Bravery。
-  - V：任务术 Quest，杀生术 Slay Living。
+  - V：使命术 Quest，杀生术 Slay Living。
   - VI：英雄盛宴 Heroes’ Feast。
   - VII：死亡指 Finger of Death，枯萎 Wither，能量吸取 Energy Drain，毁灭 Destruction。
 

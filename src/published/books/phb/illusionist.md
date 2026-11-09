@@ -5,7 +5,6 @@
 <UL><LI>并非只限战士使用的一切药水；</LI><LI>幻术师卷轴，以及含有幻术师可用法术的魔法师卷轴；</LI><LI>所有戒指；</LI><LI>消除权杖、强袭法杖，以及侦测敌人、恐惧、幻象、侦测魔法、侦测金属与矿物、侦测秘门与陷阱、惊异魔杖；</LI><LI>所有职业都可使用的杂项魔法物品、无附加能力的水晶球、除大法师之袍外的所有法袍，以及魔法师能够阅读的书籍和类似文字作品；</LI><LI>不属于幻术师禁用物品的神器（护甲、剑、斧等禁用品除外）；</LI><LI>魔法匕首。</LI></UL>
 <p>幻术师能够制造产生或维持幻象的魔法物品。达到第 10 级（幻术师）后即可进行制造，其方法与普通魔法师制造魔法物品大致相同。</p>
 <h3>幻术师（魔法师）表 I Illusionists (Magic-Users) Table I</h3>
-<h4>幻术师（魔法师）表 I Illusionists (Magic-Users) Table I</h4>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用四面骰</TH><TH>等级称号</TH></TR>
 <TR><TD>0–2,250</TD><TD>1</TD><TD>1</TD><TD>Prestidigitator／戏法师</TD></TR>
@@ -24,7 +23,6 @@
 <P><FONT color=#808080>第 12 级以后，每升一级另需 220,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 10 级以后，幻术师每级增加 1 点生命值。</FONT></P>
 <h3>各等级幻术师（魔法师）可用法术 Spells Usable By Class And Level—Illusionists (Magic-Users)</h3>
-<h4>各等级幻术师（魔法师）可用法术 Spells Usable By Class And Level—Illusionists (Magic-Users)</h4>
 <TABLE>
 <TR><TH>幻术师等级</TH><TH>法术环级 1</TH><TH>2</TH><TH>3</TH><TH>4</TH><TH>5</TH><TH>6</TH><TH>7</TH></TR>
 <TR><TD>1</TD><TD>1</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>

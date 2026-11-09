@@ -52,7 +52,7 @@
 
 与*蜜蜂*、*小虫*、*老鼠*、*蚋虫*类似，从别处召来一只小型普通蜘蛛，放到距施法者最多 <strong>1″</strong>的指定位置。通常是直径不超过一两英寸的园蛛，基本无害；但有 <strong>5%</strong> 概率召来黑寡妇、褐隐士蜘蛛等剧毒种类。蜘蛛受到惊扰，若落在生物身上便立即咬它。普通蜘蛛只使目标分心 <strong>1 段</strong>。
 
-若是剧毒蜘蛛，目标还须作一次带 <strong>＋4</strong> 修正的<strong>对毒素豁免</strong>：成功受 <strong>1 点伤害</strong>；失败受 <strong>2 点伤害</strong>，且恶心、无法正常行动 <strong>1–4 天</strong>，除非以*中和毒素*清除毒液。*延缓毒发*可把病症推迟 <strong>1 天</strong>。施法者说出 *arachnid*，伸开手指并轻轻扭动。
+若是剧毒蜘蛛，目标还须作一次带 <strong>＋4</strong> 修正的<strong>对毒素豁免</strong>：成功受 <strong>1 点伤害</strong>；失败受 <strong>2 点伤害</strong>，且恶心、无法正常行动 <strong>1–4 天</strong>，除非以*中和毒性*清除毒液。*延缓毒发*可把病症推迟 <strong>1 天</strong>。施法者说出 *arachnid*，伸开手指并轻轻扭动。
 
 ## 轻拽 Tweak（咒法系 Conjuration）
 

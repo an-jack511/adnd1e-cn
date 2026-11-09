@@ -31,7 +31,7 @@
 
 力场魔方可由任何坚硬矿石、象牙或骨头制成。
 
-#### 抗寒方块 Cube of Frost Resistance
+#### 寒霜抗性立方 Cube of Frost Resistance
 
 此装置与力场魔方相似。启动后，它会包围每边 <strong>1"</strong>的区域；区域内温度恒定为 <strong>65°F</strong>。力场会吸收一切寒冷攻击，包括寒冷锥、冰风暴，甚至白龙吐息。然而，若一轮内受到超过 <strong>50 点</strong>寒冷伤害（<strong>10 轮</strong>），方块会崩溃，且 <strong>1 小时</strong>内无法再次使用。若一轮内受到超过 <strong>100 点</strong>伤害，方块便会被摧毁。注意：低于 <strong>0°F</strong>的寒冷每低 <strong>10 度</strong>，有效伤害便增加 <strong>2 点</strong>；例如 <strong>−1°F 至 −10°F</strong>时伤害为 <strong>2 点</strong>，<strong>−11°F 至 −20°F</strong>时为 <strong>4 点</strong>，依此类推。因此，环境温度为 <strong>−40°F</strong>时，此装置只能承受 <strong>42 点</strong>伤害。
 

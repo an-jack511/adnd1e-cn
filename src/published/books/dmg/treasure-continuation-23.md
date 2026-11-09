@@ -20,14 +20,14 @@
 | B | 通过触碰复活动尸（<strong>1 具</strong>），每周 <strong>1 次</strong>。 |
 | C | 根据命令产生听觉幻象，每天 <strong>3 次</strong>。 |
 | D | 通过触碰施展“祝福术”。 |
-| E | 贴近耳朵时获得“通晓语言术”。 |
+| E | 贴近耳朵时获得“通晓语言”。 |
 | F | 触碰眼睛时获得“千里眼术”。 |
 | G | 施展“色彩喷射术”，每天 <strong>3 次</strong>。 |
 | H | 握住时可“通晓语言”。 |
 | I | 每天 <strong>1 次</strong>创造食物与水。 |
 | J | 每周 <strong>1 次</strong>施展“治疗轻伤术”。 |
 | K | 施展“黑暗术”，半径 <strong>5'、10'或15'</strong>；每天 <strong>3 次</strong>。 |
-| L | 每天 <strong>3 次</strong>侦测魅惑。 |
+| L | 每天 <strong>3 次</strong>侦测魅惑术。 |
 | M | 握住或发出命令时侦测善／恶。 |
 | N | 握住并发出命令时侦测隐形。 |
 | O | 每天 <strong>3 次</strong>侦测魔法。 |
@@ -42,7 +42,7 @@
 | X | 握住并发出命令时施展“浮空术”，每天 <strong>3 次</strong>。 |
 | Y | 获得“光亮术”，每周 <strong>1 次</strong>。 |
 | Z | 每天 <strong>3 次</strong>施展“心灵屏障术”。 |
-| AA | 每天 <strong>1 次</strong>施展“遮蔽术”。 |
+| AA | 每天 <strong>1 次</strong>施展“迷雾术”。 |
 | BB | 每天 <strong>1 次</strong>施展“无痕通行术”。 |
 | CC | 持有者免疫疾病。 |
 | DD | 持有者免疫恐惧。 |
@@ -95,8 +95,8 @@
 | V | 每天 <strong>1 次</strong>施展“加速术”。 |
 | W | 每天 <strong>1 次</strong>施展“治愈术”。 |
 | X | 每天 <strong>1 次</strong>施展“定身动物术”。 |
-| Y | 每天 <strong>1 次</strong>施展“怪物定身术术”。 |
-| Z | 每天 <strong>1 次</strong>施展“人类定身术术”。 |
+| Y | 每天 <strong>1 次</strong>施展“怪物定身术”。 |
+| Z | 每天 <strong>1 次</strong>施展“人类定身术”。 |
 | AA | 施展 <strong>9–12 骰</strong>“闪电束”，每天 <strong>2 次</strong>。 |
 | BB | 每天 <strong>1 次</strong>施展“次级法术无效结界”。 |
 | CC | 通过触碰使目标麻痹。 |
@@ -107,16 +107,16 @@
 | HH | 每周 <strong>1 次</strong>通过触碰移除诅咒。 |
 | II | 每天 <strong>1 次</strong>施展“迟缓术”。 |
 | JJ | 每天 <strong>2 次</strong>与怪物交谈。 |
-| KK | 每天 <strong>1 次</strong>施展“化石为肉术”。 |
+| KK | 每天 <strong>1 次</strong>施展“化石为肉”。 |
 | LL | 每天 <strong>2 次</strong>施展“暗示术”。 |
 | MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000 gp</strong>重的物体。 |
 | NN | 每天 <strong>2 次</strong>施展“传送术”，不会出错。 |
-| OO | 每天 <strong>2 次</strong>施展“化石为泥术”。 |
+| OO | 每天 <strong>2 次</strong>施展“化石为泥”。 |
 | PP | 每天 <strong>1 次</strong>获得“真知术”。 |
 | QQ | 每天 <strong>1 次</strong>施展“转木术”。 |
 | RR | 每天 <strong>2 次</strong>施展“造火墙术”。 |
 | SS | 每天 <strong>2 次</strong>施展“造冰墙术”。 |
-| TT | 每天 <strong>2 次</strong>施展“造棘墙术术”。 |
+| TT | 每天 <strong>2 次</strong>施展“造棘墙术”。 |
 | UU | 武器伤害增加 <strong>2 点</strong>。 |
 | VV | 每天 <strong>1 次</strong>施展“风行术”。 |
 | WW | 每天 <strong>2 次</strong>施展“法师之眼”。 |

@@ -21,7 +21,7 @@ HD 20；THAC0 12；SpA CL/MU 14/14；MV 15”/45”；AC -4；hp 90；#AT 1；Dm
 
 ### 奈落的牧师 Nerull's Clerics
 
-AL 任意邪恶；RA 铁锈红色或黑色服装；AEx 5%；WPN 法杖*，以及特殊武器；SPH 星界、战斗、预言（次要）、治疗、守护、死灵、太阳（逆转）；SPL 无；ADD <strong>乌木触须</strong>、<strong>命令</strong>、<strong>无踪步</strong>、<strong>圣域</strong>、<strong>定身术</strong>、<strong>隐蔽</strong>、<strong>撤退</strong>、<strong>解除魔法</strong>、<strong>石融术</strong>、<strong>任务术</strong>、<strong>分水术</strong>、<strong>空中仆役</strong>、<strong>回返真言</strong>、<strong>援助</strong>。
+AL 任意邪恶；RA 铁锈红色或黑色服装；AEx 5%；WPN 法杖*，以及特殊武器；SPH 星界、战斗、预言（次要）、治疗、守护、死灵、太阳（逆转）；SPL 无；ADD <strong>乌木触须</strong>、<strong>命令</strong>、<strong>无踪步</strong>、<strong>圣域</strong>、<strong>定身术</strong>、<strong>隐蔽</strong>、<strong>撤退</strong>、<strong>解除魔法</strong>、<strong>石融术</strong>、<strong>使命术</strong>、<strong>分水术</strong>、<strong>空中仆役</strong>、<strong>回返真言</strong>、<strong>援助</strong>。
 
 奈落的牧师穿铁锈红色或黑色服装。他们都公开携带头骨与镰刀，或把它们巧妙地藏在身上的某处。奈落的所有牧师都受过保持警觉的训练，只有在掷出 1 时才会被突袭。1 级时，牧师受训使用小型镰刀（等同于匕首）。5 级时，他们学会使用镰刀状长柄武器（按钩镰戟处理）。这些武器熟练项是在牧师正常武器之外额外获得的。奈落的牧师从不分享秘密，也不向任何人吐露心事。
 

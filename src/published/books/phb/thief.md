@@ -26,7 +26,6 @@
 <p><EM>攀爬墙壁 <SPAN>Climb Walls</SPAN>。</EM>有需要且盗贼愿意时便可尝试。攀至全程中点前，默认盗贼一直成功；到达中点时掷骰，判断能否继续。结果若超过调整后的基础成功率，盗贼便会滑落坠下；裁判会告知坠落造成多少伤害。成功表示盗贼安全完成上攀或下爬。请注意，在某些情况下，须再掷第三枚 d10 才能判定成败。</p>
 <p><EM>阅读语言 <SPAN>Read Languages</SPAN>。</EM>每次只能尝试一次。若失败——即掷骰高于该盗贼经验等级所列的百分比——便表示无法理解这种语言，再怎么读也无济于事。不过，盗贼每升一个新等级，都可再次尝试。</p>
 <h3>盗贼表 I Thieves Table I</h3>
-<h4>盗贼表 I Thieves Table I</h4>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用六面骰</TH><TH>等级称号</TH></TR>
 <TR><TD>0–1,250</TD><TD>1</TD><TD>1</TD><TD>Rogue (Apprentice)／无赖（学徒）</TD></TR>
@@ -45,7 +44,6 @@
 <P><FONT color=#808080>第 12 级以后，每升一级另需 220,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 10 级以后，盗贼每级增加 2 点生命值。</FONT></P>
 <h3>盗贼能力表（含种族调整） Thief Function Table (Plus Racial Adjustments)</h3>
-<h4>盗贼能力表（含种族调整） Thief Function Table (Plus Racial Adjustments)</h4>
 <TABLE>
 <TR><TH>盗贼等级</TH><TH>扒窃</TH><TH>开锁</TH><TH>发现／拆除陷阱</TH><TH>无声移动</TH><TH>藏于阴影</TH><TH>聆听声响</TH><TH>攀爬墙壁</TH><TH>阅读语言</TH></TR>
 <TR><TD>1</TD><TD>30%</TD><TD>25%</TD><TD>20%</TD><TD>15%</TD><TD>10%</TD><TD>10%</TD><TD>85%</TD><TD>—</TD></TR>

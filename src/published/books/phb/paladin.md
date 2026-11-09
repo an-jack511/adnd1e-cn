@@ -9,7 +9,6 @@
 <OL start=2><LI>圣武士绝不积蓄财富，只保留足以维持俭朴生活、支付亲信、披甲武士与仆从薪酬，以及建造或维护一座小型城堡的财物。（必要时，DM 会说明具体限度。）多余财物必须送出；下述什一奉献亦然。</LI><LI>一切收入——无论是宝藏、薪资还是其他所得——都必须立即取十分之一，捐给圣武士自行选择的守序善良慈善宗教机构；受赠者不得是牧师玩家角色。</LI><LI>圣武士的亲信只能是守序善良阵营。他们只与善良阵营的角色或生物交往。若冒险队中有非邪恶的中立角色，圣武士只能为完成一次远征而暂时加入，而且该远征的目的必须能推进守序善良的事业。</LI><LI>条件允许时，圣武士会投效守序善良的牧师或具有贵族身份的战士，或与之结盟；这些角色可以是玩家角色，也可以不是。</LI></OL>
 <p>圣武士不会像普通战士那样吸引一队披甲武士前来效力。</p>
 <h3>圣武士（战士）表 I Paladins (Fighters) Table I</h3>
-<h4>圣武士（战士）表 I Paladins (Fighters) Table I</h4>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用十面骰</TH><TH>等级称号</TH></TR>
 <TR><TD>0–2,750</TD><TD>1</TD><TD>1</TD><TD>Gallant／勇士</TD></TR>
@@ -27,7 +26,6 @@
 <P><FONT color=#808080>第 11 级以后，每升一级另需 350,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 9 级以后，圣武士每级增加 3 点生命值。</FONT></P>
 <h3>各等级圣武士（战士）可用法术 Spells Usable By Class And Level—Paladins (Fighters)</h3>
-<h4>各等级圣武士（战士）可用法术 Spells Usable By Class And Level—Paladins (Fighters)</h4>
 <TABLE>
 <TR><TH>圣武士等级</TH><TH>牧师法术环级 1</TH><TH>2</TH><TH>3</TH><TH>4</TH></TR>
 <TR><TD>9</TD><TD>1</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>
@@ -45,18 +43,17 @@
 </TABLE>
 <P><FONT color=#808080>*法术能力上限。</FONT></P>
 <h3>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
-<h4>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h4>
 <TABLE>
 <TR><TH>等级</TH><TH>每轮近战攻击次数*</TH></TR>
-<TR><TD>Fighter 1–6／战士1–6</TD><TD>1/1 round</TD></TR>
-<TR><TD>Paladin 1–6／圣武士1–6</TD><TD>1/1 round</TD></TR>
-<TR><TD>Ranger 1–7／巡林客1–7</TD><TD>1/1 round</TD></TR>
-<TR><TD>Fighter 7–12／战士7–12</TD><TD>3/2 rounds</TD></TR>
-<TR><TD>Paladin 7–12／圣武士7–12</TD><TD>3/2 rounds</TD></TR>
-<TR><TD>Ranger 8–14／巡林客8–14</TD><TD>3/2 rounds</TD></TR>
-<TR><TD>Fighter 13 &amp; up／战士13级以上</TD><TD>2/1 round</TD></TR>
-<TR><TD>Paladin 13 &amp; up／圣武士13级以上</TD><TD>2/1 round</TD></TR>
-<TR><TD>Ranger 15 &amp; up／巡林客15级以上</TD><TD>2/1 round</TD></TR>
+<TR><TD>Fighter 1–6／战士1–6</TD><TD>每轮1次</TD></TR>
+<TR><TD>Paladin 1–6／圣武士1–6</TD><TD>每轮1次</TD></TR>
+<TR><TD>Ranger 1–7／巡林客1–7</TD><TD>每轮1次</TD></TR>
+<TR><TD>Fighter 7–12／战士7–12</TD><TD>每两轮3次</TD></TR>
+<TR><TD>Paladin 7–12／圣武士7–12</TD><TD>每两轮3次</TD></TR>
+<TR><TD>Ranger 8–14／巡林客8–14</TD><TD>每两轮3次</TD></TR>
+<TR><TD>Fighter 13 &amp; up／战士13级以上</TD><TD>每轮2次</TD></TR>
+<TR><TD>Paladin 13 &amp; up／圣武士13级以上</TD><TD>每轮2次</TD></TR>
+<TR><TD>Ranger 15 &amp; up／巡林客15级以上</TD><TD>每轮2次</TD></TR>
 </TABLE>
 <P><FONT color=#808080>*使用任何刺击或打击武器时。</FONT></P>
 <P><FONT color=#808080>注意：此表不适用于与生命骰不足 1 枚（d8）的怪物（见相关条目），以及 0 级、并非出类拔萃的人类或半人类近战；也就是一切生命骰不足一枚八面骰的生物。面对这类生物时，战士每有一个经验等级即可攻击一次（见“战斗”）。</FONT></P>

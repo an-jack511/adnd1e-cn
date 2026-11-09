@@ -120,7 +120,7 @@ Tom Moldvay · 第 29 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>2–20</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>5</td></tr><tr><th scope="row">巢穴比例</th><td>25%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–12</td></tr><tr><th scope="row">特殊攻击</th><td>隐形；自我变形</td></tr><tr><th scope="row">特殊防御</th><td>免疫睡眠、魅惑、定身</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>甚高</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
-采用阿拉伯—波斯传统的女性食尸妖形象，常表现为美女，或半女人半怪物的恐怖形态，是风巨灵的邪恶亲族。免疫睡眠、魅惑和定身，可使用隐形和自我变形，原文未另列次数。牧师按妖鬼驱散。
+采用阿拉伯—波斯传统的女性食尸妖形象，常表现为美女，或半女人半怪物的恐怖形态，是气巨灵的邪恶亲族。免疫睡眠、魅惑和定身，可使用隐形和自我变形，原文未另列次数。牧师按妖鬼驱散。
 
 ## 巴卡食尸鬼 Baka
 

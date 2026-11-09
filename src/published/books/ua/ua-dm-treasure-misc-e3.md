@@ -30,7 +30,7 @@
 | 61–63 | 加速马蹄铁 Horseshoes of Speed | 2,000 | 10,000 |
 | 64–65 | 和风马蹄铁 Horseshoes of a Zephyr | 1,500 | 7,500 |
 | 66–70 | 冥想熏香 Incense of Meditation（C） | 500 | 7,500 |
-| 71 | 执迷熏香 Incense of Obsession（C） | — | 500 |
+| 71 | 执念熏香 Incense of Obsession（C） | — | 500 |
 | 72 | 艾恩石 Ioun Stones | 300³ | 5,000³ |
 | 73–78 | 吟游诗人乐器 Instrument of the Bards | 1,000⁴ | 5,000⁴ |
 | 79–80 | 收妖瓶 Iron Flask | — | — |

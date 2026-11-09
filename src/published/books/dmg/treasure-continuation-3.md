@@ -55,7 +55,7 @@
 
 这只带孔的金色容器与供奉场所中的香炉并无二致。若其中装有香料并说出命令语，下一轮便会召唤一个 <strong>12 生命骰</strong>的空气元素。若在此容器中燃烧宽 <strong>½'</strong>、高 <strong>1'</strong>的冥想香，空气元素的每颗生命骰额外获得 <strong>+3 点</strong>，并会自愿服从召唤者的命令。注意，若熄灭香炉，元素仍会留在原地并转而攻击召唤者。（参见《怪物图鉴》中“元素生物”。）
 
-#### 敌对空气元素召唤香炉 Censer of Summoning Hostile Air Elementals
+#### 敌意气元素召唤香炉 Censer of Summoning Hostile Air Elementals
 
 此香炉与其他香炉（无论魔法与否）无法区分。它受到诅咒：只要在其中燃烧任何香料，<strong>1–4 个</strong>狂怒的空气元素便会出现；每轮出现 <strong>1 个</strong>，并攻击所有视线所及的生物。香炉会持续燃烧，直到召唤者或元素被杀死。
 

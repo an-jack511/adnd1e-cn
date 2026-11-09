@@ -388,7 +388,7 @@
 | 卜筮术 Augury | 300 |
 | 祝福术 Bless | 每名目标每施法者等级 5 |
 | 通神术 Commune | 1,000，另加每个问题 500 |
-| 持续光亮术 Continual Light | 500 |
+| 恒定光亮 Continual Light | 500 |
 | 操控天气术 Control Weather | 10,000 |
 | 治疗失明 Cure Blindness | 1,000 |
 | 治疗疾病 Cure Disease | 1,000 |

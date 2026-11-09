@@ -8,13 +8,13 @@ Dragon's Bestiary · Dragon #58
 
 Ed Greenwood · 第 9 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–4</td></tr><tr><th scope="row">护甲等级</th><td>9</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>40%</td></tr><tr><th scope="row">宝藏</th><td>L、N、Q</td></tr><tr><th scope="row">攻击次数</th><td>6</td></tr><tr><th scope="row">伤害</th><td>四爪各1d2、咬1d4、尾1；或依尾持武器</td></tr><tr><th scope="row">特殊攻击</th><td>幻术</td></tr><tr><th scope="row">特殊防御</th><td>恒常真视；4″内阻断灵能</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>平均至高</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，长2英尺</td></tr><tr><th scope="row">灵能</th><td>无攻防模式；灵能干扰见正文</td></tr><tr><th scope="row">环境</th><td>林木及木构建筑附近</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–4</td></tr><tr><th scope="row">护甲等级</th><td>9</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>40%</td></tr><tr><th scope="row">宝藏</th><td>L、N、Q</td></tr><tr><th scope="row">攻击次数</th><td>6</td></tr><tr><th scope="row">伤害</th><td>四爪各1d2、咬1d4、尾1；或依尾持武器</td></tr><tr><th scope="row">特殊攻击</th><td>幻术</td></tr><tr><th scope="row">特殊防御</th><td>恒常真实视觉；4″内阻断灵能</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>平均至高</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，长2英尺</td></tr><tr><th scope="row">灵能</th><td>无攻防模式；灵能干扰见正文</td></tr><tr><th scope="row">环境</th><td>林木及木构建筑附近</td></tr></tbody></table></div>
 
 幻惑兽是一种体形近似小狗的杂食动物，外貌像圆胖的鼠类，长着大耳朵、黑亮的眼睛和尖嘴。它的利爪可以收起，裸露而灵活的尾巴也能抓握，因此很擅长攀爬树木和木制建筑。
 
 它每轮可以用四只爪子、牙齿和尾巴分别攻击，共六次。每次爪击造成 1d2 点伤害，啃咬造成 1d4 点，尾击造成 1 点。尾巴也能持用或投掷短剑及更小的武器，伤害按武器计算，但命中检定受到 −2 减值。
 
-它始终具有真视能力，可以看见隐形生物和物体，幻术也无法欺骗它。它还能改变皮毛颜色来配合周围环境，持续 1d4 回合；这段时间里，它可以保持一动不动，按十二级盗贼的成功率进行阴影躲藏。
+它始终具有真实视觉能力，可以看见隐形生物和物体，幻术也无法欺骗它。它还能改变皮毛颜色来配合周围环境，持续 1d4 回合；这段时间里，它可以保持一动不动，按十二级盗贼的成功率进行阴影躲藏。
 
 它能以二十级幻术师的能力施展高等幻影和阴影怪物。不同个体每天合计可以使用 4–16 次这两种法术，不需要专注维持，也可以随时自行终止幻象。
 

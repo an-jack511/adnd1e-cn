@@ -8,7 +8,7 @@
 
 | 编号 | 次级幻术小法术 | 一环 | 二环 | 三环 |
 |:---:|:---|:---|:---|:---|
-| 1 | 彩色光点 Colored Lights | 声音幻象术 Audible Glamer | *变身术 Alter Self* | 恒定黑暗 Continual Darkness |
+| 1 | 彩色光点 Colored Lights | 可闻幻象 Audible Glamer | *变身术 Alter Self* | 恒定黑暗 Continual Darkness |
 | 2 | 变暗 Dim | 改变自身 Change Self | 目盲术 Blindness | 恒定光亮 Continual Light |
 | 3 | 薄雾 Haze | *繁彩球 Chromatic Orb* | 朦胧术 Blur | *蒙骗术 Delude* |
 | 4 | 面具 Mask | 七彩喷射 Color Spray | 耳聋术 Deafness | 解除幻象 Dispel Illusion |
