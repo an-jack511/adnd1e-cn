@@ -59,6 +59,60 @@ REPLACEMENTS = {
     "年度与月度事件 OCR 补译": "年度与月度事件",
 }
 
+# DLA headings occasionally retained only the English proper name even when
+# the same book already established a checked Chinese form in its正文.
+DLA_HEADING_TRANSLATIONS = {
+    "Amothus Palanthus": "阿莫瑟斯·帕兰瑟斯 Amothus Palanthus",
+    "Aurak": "奥拉克 Aurak",
+    "Baaz": "巴兹 Baaz",
+    "Bas-Ohn Koraf": "巴斯昂·科拉夫 Bas-Ohn Koraf",
+    "Bozak": "波扎克 Bozak",
+    "Branchala": "布兰查拉 Branchala",
+    "Caramon": "卡拉蒙 Caramon",
+    "Caramon Majere": "卡拉蒙·马哲里 Caramon Majere",
+    "Chemosh": "凯魔须 Chemosh",
+    "Chislev": "奇思洛夫 Chislev",
+    "Crysania": "克丽珊娜 Crysania",
+    "Dalamar": "达拉马 Dalamar",
+    "Duncan": "邓肯 Duncan",
+    "Elistan": "艾力斯坦 Elistan",
+    "Fizban": "菲兹班 Fizban",
+    "Habbakuk": "哈巴库克 Habbakuk",
+    "Hiddukel": "西都凯 Hiddukel",
+    "Irda": "伊尔达 Irda",
+    "Justarius": "贾斯塔里斯 Justarius",
+    "Kapak": "卡帕克 Kapak",
+    "Kharas": "卡拉斯 Kharas",
+    "Kiri-Jolith": "奇力·裘理斯 Kiri-Jolith",
+    "Kitiara": "奇蒂拉 Kitiara",
+    "Ladonna": "拉多娜 Ladonna",
+    "Lord Soth": "索斯爵士 Lord Soth",
+    "Majere": "马哲里 Majere",
+    "Maquesta Kar-Thon": "玛奎丝塔·卡尔松 Maquesta Kar-Thon",
+    "Mishakal": "米莎凯 Mishakal",
+    "Morgion": "魔吉安 Morgion",
+    "Nuitari": "努塔瑞 Nuitari",
+    "Paladine": "帕拉丁 Paladine",
+    "Par-Salian": "帕萨理安 Par-Salian",
+    "Pyrite": "派瑞特 Pyrite",
+    "Raistlin": "雷斯林 Raistlin",
+    "Raistlin Majere": "雷斯林·马哲里 Raistlin Majere",
+    "Reghar Fireforge": "瑞加·火铸 Reghar Fireforge",
+    "Reorx（Dougan · Redhammer）": "李奥克斯 Reorx · 道根·红锤 Dougan Redhammer",
+    "Sargonnas": "沙苟纳 Sargonnas",
+    "Shinare": "西那瑞 Shinare",
+    "Sirrion": "西历安 Sirrion",
+    "Sivak": "西瓦克 Sivak",
+    "Solinari": "索林那瑞 Solinari",
+    "Takhisis": "塔克西丝 Takhisis",
+    "Tanis": "坦尼斯 Tanis",
+    "Tasslehoff": "泰斯 Tasslehoff",
+    "Tasslehoff Burrfoot": "泰斯索何夫·柏伏特 Tasslehoff Burrfoot",
+    "Tika Waylan Majere": "蒂卡·维兰·马哲里 Tika Waylan Majere",
+    "Zeboim": "赛波音 Zeboim",
+    "Zivilyn": "亦为林 Zivilyn",
+}
+
 
 def clean_reader_text(text):
     # MM p.70: Mimic SIZE is L; the scan OCR reads it as I.
@@ -92,6 +146,16 @@ def clean_reader_text(text):
     text = text.replace("首批末页开始出现", "其他人物包括")
     text = text.replace("他们的完整统计块与故事将在后续批次继续录入；", "")
     text = re.sub(r"<p\b[^>]*>\s*</p>", "", text, flags=re.I)
+    # Pagination markers are not wiki sections.  Remove them from the
+    # reader-facing archive so the following page remains part of the same
+    # article, while preserving genuine words such as “续写” or “续命”。
+    text = re.sub(r'[（(]续[）)]', '', text)
+    def translate_dla_heading(match):
+        prefix, body, suffix = match.groups()
+        stripped = re.sub(r'<[^>]+>', '', body).strip()
+        return prefix + DLA_HEADING_TRANSLATIONS.get(stripped, body) + suffix
+    text = re.sub(r'(<h[1-3][^>]*>)([^<]+)(</h[1-3]>)', translate_dla_heading, text, flags=re.I)
+    text = re.sub(r'(<H[1-3][^>]*>)([^<]+)(</H[1-3]>)', translate_dla_heading, text, flags=re.I)
     text = normalize_chinese_spacing(text)
     return text
 
