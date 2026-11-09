@@ -1,0 +1,17 @@
+---
+import {readingHref,isOverview,type ReadingChapter} from '../utils/book-reading';
+interface Props {book:string;chapters:ReadingChapter[];parentHref?:string}
+const {book,chapters,parentHref}=Astro.props;
+const children=chapters.filter(chapter=>chapter.parentHref===parentHref);
+---
+<ul class:list={['book-toc',{'book-toc-nested':parentHref}]}>
+ {children.map(chapter=><li>
+  <a href={readingHref(book,chapter.href)}>{chapter.title.split(' · ')[0]}{chapter.title.includes(' · ')&&<small lang="en">{chapter.title.split(' · ').slice(1).join(' · ')}</small>}</a>
+  {chapter.showParts&&<ul class="book-subsections">{chapter.parts.filter(part=>!isOverview(part.title)).map(part=><li><a href={`${readingHref(book,chapter.href)}#read-${part.href.split('chapter-')[1].replace('.html','')}`}>{part.title.split(' · ')[0]}</a></li>)}</ul>}
+  {chapters.some(child=>child.parentHref===chapter.href)&&<Astro.self book={book} chapters={chapters} parentHref={chapter.href}/>}
+ </li>)}
+</ul>
+<style>
+ .book-toc-nested,.book-subsections{columns:1;margin:.3em 0 .6em;padding-left:1.4em;font-size:.94em}
+ .book-toc-nested>li{margin:.35em 0}.book-subsections{line-height:1.6}
+</style>

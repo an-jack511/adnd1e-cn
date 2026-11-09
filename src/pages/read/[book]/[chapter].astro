@@ -1,17 +1,15 @@
 ---
-import { readFileSync } from 'node:fs';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import reading from '../../../data/public/book-reading.json';
+import {reading,readingRoutes} from '../../../utils/book-reading';
 import directory from '../../../data/public/book-directory.json';
-import {formatRuleHtml} from '../../../utils/rule-text';
+import {readingContent,readerTitle} from '../../../utils/book-reading-content';
 export function getStaticPaths() {
- return Object.entries(reading).flatMap(([book,groups])=>groups.flatMap(group=>group.chapters.map(chapter=>({params:{book,chapter:chapter.href.split('/').pop()!.replace('chapter-','').replace('.html','')},props:{book,chapter}}))));
+ return readingRoutes();
 }
-const {book,chapter}=Astro.props;
+const {book,chapter,start}=Astro.props;
 const info=directory.find(entry=>entry.id===book)!;
-const raw=readFileSync(new URL(`../../../../public${chapter.href}`,import.meta.url),'utf8');
-let content=raw.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)![1];
-content=formatRuleHtml(content);
+let content=readingContent(book,chapter);
+if(book==='phb')content=readerTitle(chapter.title)+content;
 content=content.replace(/\b(href|src)="([^"]+)"/gi,(_match,key,value)=>value.startsWith('#')||value.startsWith('/')||/^[a-z]+:/i.test(value) ? `${key}="${value}"` : `${key}="${new URL(value,`https://local.invalid/archive/${book}/`).pathname}${new URL(value,`https://local.invalid/archive/${book}/`).hash}"`);
 const groups=reading[book as keyof typeof reading];
 const siblings=groups.flatMap(group=>group.chapters);
@@ -20,7 +18,7 @@ const href=(entry:typeof chapter)=>`/read/${book}/${entry.href.split('/').pop()!
 const bookHref= `/read/${book}/`;
 ---
 <BaseLayout title={`${chapter.title} · ${info.short}`}>
- <article class="book-article chapter-reading" data-book={book}>
+ <article class="book-article chapter-reading" data-book={book} data-reading-start={start}>
   <p class="book-source-line"><a href={bookHref}>{info.titleZh}</a></p>
   <div class="book-body" set:html={content} />
   <nav class="book-page-nav" aria-label="相邻章节">
@@ -30,4 +28,13 @@ const bookHref= `/read/${book}/`;
   </nav>
  </article>
  <script is:inline src="/reference-copy.js" defer></script>
+ <script is:inline>
+  // Citation fragments take precedence over the default position of a merged page.
+  const start=document.querySelector('[data-reading-start]')?.getAttribute('data-reading-start');
+  if(start&&!location.hash){const target=document.getElementById(start);if(target)requestAnimationFrame(()=>target.scrollIntoView());}
+ </script>
 </BaseLayout>
+<style>
+ :global(.chapter-reading[data-book="phb"] .table-note-heading){font-size:.95em;margin:1em 0 .35em;color:var(--muted)}
+ :global(.chapter-reading[data-book="phb"] .heading-anchor){display:block;scroll-margin-top:1em}
+</style>
