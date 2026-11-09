@@ -2,7 +2,7 @@
 
 除下文详述的独有祷文外，《战争之红书》依次收录以下牧师法术；这些独有祷文专属于 Tempus 的牧师，其他神祇是否会以相同方式听见并回应它们，不得而知：
 
-bless、command、cure light wounds、detect magic、remove fear、augury、chant、hold person、know alignment、resist fire、slow poison、spiritual hammer、animate dead、continual light、cure blindness、cure disease、dispel magic、feign death、holy flail（特殊祷文，见下文）、locate object、prayer、remove curse、speak with dead、cure serious wounds、detect lie、divination、exorcise、neutralize poison、protection from evil 10' radius、reveal（特殊祷文，见下文）、tongues、atonement、commune、dispel evil、flame strike、quest、raise dead、true seeing、blade barrier、heal、speak with monsters、stone tell、word of recall、bladebless（特殊祷文，见下文）、gate、regenerate、restoration、resurrection、sacred link（特殊祷文，见下文）、symbol 和 wind walk。
+bless、command、治疗轻伤、侦测魔法、remove fear、augury、chant、hold person、know alignment、resist fire、slow poison、spiritual hammer、animate dead、continual light、cure blindness、cure disease、解除魔法、feign death、holy flail（特殊祷文，见下文）、locate object、prayer、remove curse、speak with dead、cure serious wounds、detect lie、divination、驱邪术、neutralize poison、protection from evil 10' radius、reveal（特殊祷文，见下文）、tongues、atonement、commune、dispel evil、flame strike、quest、raise dead、真知术、blade barrier、heal、speak with monsters、stone tell、word of recall、bladebless（特殊祷文，见下文）、异界之门、regenerate、restoration、resurrection、sacred link（特殊祷文，见下文）、徽记术和wind walk。
 
 ### Holy Flail（神圣连枷，咒法／变化）
 
@@ -18,7 +18,7 @@ bless、command、cure light wounds、detect magic、remove fear、augury、chan
 
 <strong>说明／描述：</strong>施法牧师呼唤自己的神祇，将自己的圣徽，或另一名生物手中、由该牧师触摸的任意非刃武器，暂时变成一把魔法神圣连枷。在每个牧师经验等级 1 轮的时间里，圣徽或变形后的武器会变成一条附着在坚硬握柄上的蛇形柔性力场：这是一把不可见、噼啪作响的灵体连枷，战斗中使用时命中获得 +2，并就命中目的而言被视为魔法武器。
 
-神圣连枷每次打击造成 2–7 点伤害；若由牧师使用，则对所有不死生物，以及对阵营与该牧师完全不同的生物，每次打击额外造成等同于牧师经验等级的 1 点伤害。如果把 holy flail 施放在一件有刃武器上，什么也不会发生，法术也会白白失去。如果它施放在一名生物握持的武器上，而该生物的阵营与施法牧师完全不同（例如善对恶；本法术不考虑守序、混乱与中立），连枷不会形成。
+神圣连枷每次打击造成 2–7 点伤害；若由牧师使用，则对所有不死生物，以及对阵营与该牧师完全不同的生物，每次打击额外造成等同于牧师经验等级的 1 点伤害。如果把神圣连枷施放在一件有刃武器上，什么也不会发生，法术也会白白失去。如果它施放在一名生物握持的武器上，而该生物的阵营与施法牧师完全不同（例如善对恶；本法术不考虑守序、混乱与中立），连枷不会形成。
 
 如果神圣连枷从一个生物转交给另一个生物，它总会消失，除非接收者是施法者，或是同一神祇的另一名牧师。牧师不需要持续专注来维持它；可以把连枷放下以便施法，也可以把它当作武器投掷，而不会使其消失。由圣徽创造的神圣连枷只能由与该圣徽属于同一神祇的牧师使用，否则会消失。
 
@@ -36,15 +36,15 @@ bless、command、cure light wounds、detect magic、remove fear、augury、chan
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
 
-<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上 symbol、glyph of warding、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如 magic mouth、魔邓肯（Mordenkainen）’s faithful hound、Leomund’s trap、涅斯图（Nystul）’s magic aura、hallucinatory terrain、wall of force）。法术不会给出魔法性质的确切线索，但防护圈、symbol 和 glyph 可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
+<strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上徽记术、守卫刻文、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如魔嘴、魔邓肯（Mordenkainen）的忠犬、李奥蒙德的陷阱、涅斯图（Nystul）的魔法灵光、幻景地形、力场墙）。法术不会给出魔法性质的确切线索，但防护圈、徽记术和刻文可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
 
-reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astral silver cord），不论其是否处于激活状态；但它不会显示星界、以太位面或隐形的生物与物品。与 true seeing 不同，它不会显示生物的灵光，也不会把变形或受魔法改变的事物显示成其真正形态（不过，例如幻术本身的魔法性质会被看见），也不会显示它们曾经的形态。
+reveal 会显示异界之门（或其他位面之间的连接，包括是否存在 astral silver cord），不论其是否处于激活状态；但它不会显示星界、以太位面或隐形的生物与物品。与真知术不同，它不会显示生物的灵光，也不会把变形或受魔法改变的事物显示成其真正形态（不过，例如幻术本身的魔法性质会被看见），也不会显示它们曾经的形态。
 
 本法术需要一种软膏，成分为牧师（或法术目标）的四滴血、两滴水、两滴巨型鱿鱼墨、少量研碎的 eyebright 草药，以及两种研碎的宝石：一颗大型蓝宝石和一颗至少中等大小的红玉髓。牧师用手指在石头、瓷器或陶器（不能是木头或金属）制成的碗或凹处中调和这些东西；手持圣徽悬在糊状物上方，同时说出法术词句，然后把它涂到眼睛上。
 
-本法术的逆转形式 conceal 会把上述所有东西从任何被涂上软膏的生物眼中遮蔽。其软膏成分改为一撮 monkshood（乌头）粉末、六滴洋葱汁、一撮尘土和七滴水，按相同方式混合并施放；持续时间为施法牧师每等级 1 轮。在这段时间里，即使受影响生物使用 true seeing、detect magic 或等效魔法，这些法术看似正常运作，但上面列出的现象对该生物而言仍不可见。
+本法术的逆转形式 conceal 会把上述所有东西从任何被涂上软膏的生物眼中遮蔽。其软膏成分改为一撮 monkshood（乌头）粉末、六滴洋葱汁、一撮尘土和七滴水，按相同方式混合并施放；持续时间为施法牧师每等级 1 轮。在这段时间里，即使受影响生物使用真知术、侦测魔法或等效魔法，这些法术看似正常运作，但上面列出的现象对该生物而言仍不可见。
 
-清醒、能移动且不愿接受软膏的生物，必须由牧师触碰眼睛两次（需要两次成功的命中检定）才能施加任一版本的软膏；清洗，或任何低于 dispel magic、exorcise 或 limited wish 的手段，都无法阻止软膏发挥作用。
+清醒、能移动且不愿接受软膏的生物，必须由牧师触碰眼睛两次（需要两次成功的命中检定）才能施加任一版本的软膏；清洗，或任何低于解除魔法、驱邪术或有限许愿术的手段，都无法阻止软膏发挥作用。
 
 ### Bladebless（刃赐，死灵）
 
@@ -76,7 +76,7 @@ reveal 会显示 gate（或其他位面之间的连接，包括是否存在 astr
 
 <strong>说明／描述：</strong>要建立神圣链接，牧师必须把将要链接的两件物品握在手中，然后施放法术。两件物品必须由相同材料制成、尺寸大致相同；它们不能是活着的生物，最好还应几乎完全相同（例如配对的剑、卷轴、小雕像等）。神圣链接会在两件物品之间建立不可见的魔法纽带；两件物品都会散发极其微弱的魔法灵光。虽然这条链接不是可以循迹的实体通道或绳线，但发生在一件物品上的事情也会发生在另一件上，即使二者相隔无数个位面或任何距离。
 
-链接会持续到其中一件物品被摧毁，或对其中一件施放 dispel magic 使链接失效。例如，一张地图或卷轴被卖给敌人，而它的配对物仍由牧师、牧师的神殿，甚至另一个生物保管；售出数日后，保管者烧掉自己的副本，敌人的副本也会同时被烧毁，不论它位于何处或处于什么状态。（如果地图被埋在地下或浸在水下，不会出现火焰，但地图或卷轴仍会与另一份同时化为灰烬；反过来，如果敌方副本在背包或与其他纸张放在书桌上，它的焚毁很可能点燃邻近的可燃材料。）
+链接会持续到其中一件物品被摧毁，或对其中一件施放解除魔法使链接失效。例如，一张地图或卷轴被卖给敌人，而它的配对物仍由牧师、牧师的神殿，甚至另一个生物保管；售出数日后，保管者烧掉自己的副本，敌人的副本也会同时被烧毁，不论它位于何处或处于什么状态。（如果地图被埋在地下或浸在水下，不会出现火焰，但地图或卷轴仍会与另一份同时化为灰烬；反过来，如果敌方副本在背包或与其他纸张放在书桌上，它的焚毁很可能点燃邻近的可燃材料。）
 
 借助此法术，可以通过影响一件物品的配对物来损坏或摧毁武器；反过来，也可以给物品镀金、镶嵌宝石或精心雕刻，从而改善另一件物品。此法术可以链接魔法物品，因此给其中一件充能或激活其中一件，会以完全相同的方式影响另一件；但每次使用链接都有 3% 的累积概率发生失控（该概率并非牧师或其他人的意志所能控制），使其中一件物品碎裂或爆炸，耗尽它全部的功能或充能，并结束链接。
 
