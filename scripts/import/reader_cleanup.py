@@ -67,6 +67,16 @@ def clean_reader_text(text):
 
     for old, new in REPLACEMENTS.items():
         text = text.replace(old, new)
+    # Alt text is reader-facing metadata too; do not expose image-production
+    # methods such as imagegen or scan-cleanup labels in the published archive.
+    def clean_image_alt(match):
+        prefix, alt, suffix = match.groups()
+        alt = re.sub(r'\bimagegen\b', '', alt, flags=re.I)
+        alt = re.sub(r'生成式清晰化版本|清晰化版本|保形清晰化|进一步清晰化|扫描清晰化|清晰化', '', alt)
+        alt = re.sub(r'\s{2,}', ' ', alt)
+        alt = re.sub(r'\s*，\s*$', '', alt).strip()
+        return prefix + alt + suffix
+    text = re.sub(r'(<img\b[^>]*\balt=["\'])([^"\']*)(["\'])', clean_image_alt, text, flags=re.I)
     text = re.sub(r"(?:^|\n)## 本卷完成范围\s*\n[^\n]*(?:\n|$)", "\n", text)
     text = re.sub(r"<p\b[^>]*>[^<]*(?:译稿状态：|整页扫描仅供 OCR 核对)[^<]*</p>", "", text, flags=re.I)
     text = re.sub(r"<p\b[^>]*>[^<]*OCR 仅作底稿[^<]*</p>", "", text, flags=re.I)

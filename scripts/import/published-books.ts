@@ -7,6 +7,7 @@ import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { basename, dirname, join, posix, resolve } from 'node:path';
 import { splitMenManuscript } from './mm-sections';
 import { normalizeMarkdownTables } from './markdown-tables';
+import headingTranslations from '../../src/data/public/rule-heading-translations.json';
 
 const bookIds = ['phb', 'dmg', 'mm', 'ua', 'dsg', 'wsg', 'oa', 'motp', 'ddg', 'll', 'dmdk', 'ff', 'mm2', 'ref3', 'ref4', 'ref5', 'dla', 'dl-atlas', 'ilh', 'fr', 'gha', 'gh-folio'] as const;
 type BookId = typeof bookIds[number];
@@ -73,6 +74,16 @@ const manifests = new Map<BookId, { title: string; title_en: string; topics: Top
 const slugByFile = new Map<string, string>();
 const aliases = new Map<string, string>();
 const normalizeEnglish = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '');
+const titleTranslations: Record<string, string> = {
+  'appendix-j-herbs-spices-medicinal-vegetables-2': '附录 J：药草、香料与药用植物',
+  'glossary-2': '术语表',
+};
+const localizedTitle = (title: string, slug?: string) => {
+  if (/[\u3400-\u9fff]/.test(title)) return title;
+  if (slug && titleTranslations[slug]) return titleTranslations[slug];
+  return (headingTranslations as Record<string, string>)[title] ?? title;
+};
+const normalizePublishedTerms = (markdown: string) => markdown.replaceAll('THAC0', 'THAC0').replaceAll('巡林客', '巡林客');
 const retranslationKey = (file: string) => {
   let stem = basename(file, '.md').replace(/-retranslation$/, '');
   if (stem === 'giant-turtle') return 'turtle';
@@ -231,7 +242,7 @@ for (const book of bookIds) {
     markdown = markdown.replace(/\]\(([^)]+)\)/g, (_match, target: string) => `](${rewriteTarget(target, book)})`);
     markdown = markdown.replace(/href=(['"])([^'"]+)\1/g, (_match, quote: string, target: string) => `href=${quote}${rewriteTarget(target, book)}${quote}`);
     if (book === 'ua' && slug === 'ua-spell-tables') markdown += '\n\n- [牧师法术表](/books/ua/ua-cleric-spell-table/)\n- [德鲁伊法术表](/books/ua/ua-druid-spell-table/)\n- [魔法师法术表](/books/ua/ua-magic-user-spell-table/)\n- [幻术师法术表](/books/ua/ua-illusionist-spell-table/)';
-    markdown = fixEmphasis(markdown.trim()) + '\n';
+    markdown = fixEmphasis(normalizePublishedTerms(markdown.trim())) + '\n';
     await writeFile(join(outputRoot, book, `${slug}.md`), markdown, 'utf8');
     const text = markdown
       .replace(/<[^>]*>/g, ' ')
@@ -239,8 +250,9 @@ for (const book of bookIds) {
       .replace(/[#*_|>`~]/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
-    published.push({ book, slug, title, titleEn, group, excerpt: text.slice(0, 170), sourceFile: `manuscript/${sourceBookDir(book)}/topics/${file}` });
-    search.push({ book, slug, title, titleEn, text });
+      const displayTitle = localizedTitle(title, slug);
+      published.push({ book, slug, title: displayTitle, titleEn, group, excerpt: text.slice(0, 170), sourceFile: `manuscript/${sourceBookDir(book)}/topics/${file}` });
+    search.push({ book, slug, title: localizedTitle(title, slug), titleEn, text });
   }
   if (book === 'phb') {
     for (const file of (await readdir(join(sourceRoot, sourceBookDir(book), 'overviews'))).filter((name) => name.endsWith('.md'))) {
@@ -253,7 +265,7 @@ for (const book of bookIds) {
       markdown = markdown.replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').replace(/<img\b[^>]*>/gi, '');
       markdown = markdown.replace(/\]\(([^)]+)\)/g, (_match, target: string) => `](${rewriteTarget(target, book)})`);
       markdown = markdown.replace(/href=(['"])([^'"]+)\1/g, (_match, quote: string, target: string) => `href=${quote}${rewriteTarget(target, book)}${quote}`);
-      await writeFile(join(outputRoot, book, `${slug}.md`), fixEmphasis(markdown.trim()) + '\n', 'utf8');
+      await writeFile(join(outputRoot, book, `${slug}.md`), fixEmphasis(normalizePublishedTerms(markdown.trim())) + '\n', 'utf8');
       const text = markdown.replace(/<[^>]*>/g, ' ').replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
       published.push({ book, slug, title: firstHeading, titleEn: '', group: '原书章节概览', excerpt: text.slice(0, 170), sourceFile: `manuscript/${sourceBookDir(book)}/overviews/${file}` });
       search.push({ book, slug, title: firstHeading, titleEn: '', text });
@@ -276,14 +288,14 @@ const mmSplit = splitMenManuscript(mmSource);
 const menTopic = published.find((entry) => entry.book === 'mm' && entry.slug === 'mm-men');
 const menSearch = search.find((entry) => entry.book === 'mm' && entry.slug === 'mm-men');
 if (!menTopic || !menSearch) throw new Error('MM Men chapter missing from manifest');
-const menMarkdown = fixEmphasis(mmSplit.men.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
+const menMarkdown = fixEmphasis(normalizePublishedTerms(mmSplit.men.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim())) + '\n';
 await writeFile(join(outputRoot, 'mm', 'mm-men.md'), menMarkdown, 'utf8');
 menSearch.text = menMarkdown.replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
 menTopic.excerpt = menSearch.text.slice(0, 170);
 for (const section of mmSplit.monsters) {
   const replacement = mmRetranslations.get(normalizeEnglish(section.titleEn));
   const sourceMarkdown = replacement?.markdown ?? section.markdown;
-  const markdown = fixEmphasis(sourceMarkdown.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim()) + '\n';
+  const markdown = fixEmphasis(normalizePublishedTerms(sourceMarkdown.replace(/^# .+\n/, '').replace(/!\[[^\]]*\]\([^)]*\)\s*/g, '').trim())) + '\n';
   await writeFile(join(outputRoot, 'mm', `${section.slug}.md`), markdown, 'utf8');
   const text = markdown.replace(/<[^>]*>/g, ' ').replace(/[#*_|>`~]/g, ' ').replace(/\s+/g, ' ').trim();
   published.push({ book: 'mm', slug: section.slug, title: section.title, titleEn: section.titleEn, group: '怪物条目', excerpt: text.slice(0, 170), sourceFile: replacement ? `manuscript/mm/topics/${replacement.file}` : 'manuscript/mm/topics/men.md' });

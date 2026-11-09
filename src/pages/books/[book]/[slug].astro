@@ -40,3 +40,10 @@ const forward = parentSlug ? continuations[continuationIndex + 1] : (continuatio
     </nav>
   </article>
 </BaseLayout>
+
+<style is:global>
+  /* A source crop and its curated repair must never occupy the same reader paragraph. */
+  .book-body p:has(img[alt*="清晰修复版"], img[alt*="进一步清晰化"], img[alt*="修复版"]) img[alt*="原图"] {
+    display: none;
+  }
+</style>

@@ -94,7 +94,7 @@ const characters: Character[] = [
     background: '金月是奎舒部落的公主，河风是她的守护者和未婚夫。父亲要求河风从被遗忘之地带回魔法作为婚约证明；父亲后来否认法杖的力量并下令将河风石刑，金月冲到他身边时，法杖发光，把他们带到了村外平原。',
   },
   {
-    slug: 'riverwind-human-ranger-5', name: '河风', raceId: 'human', raceLabel: '人类', classId: 'ranger', classLabel: '游侠', level: 5, hp: 34, ac: 5, alignment: '守序善良',
+    slug: 'riverwind-human-ranger-5', name: '河风', raceId: 'human', raceLabel: '人类', classId: 'ranger', classLabel: '巡林客', level: 5, hp: 34, ac: 5, alignment: '守序善良',
     abilities: { STR: 18, INT: 13, WIS: 14, DEX: 16, CON: 13, CHA: 13 }, exceptionalStrength: 35,
     languages: ['通用语', '平原人语', '山地矮人语', '奎利内斯提语'],
     equipment: [...commonPack, '皮甲', '小盾', '+2 长剑', '短弓和箭袋', '+1 猎刀'], equipmentNotes: [], spellcaster: false, startingMoneyEmas: 20,

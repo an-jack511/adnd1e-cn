@@ -65,7 +65,7 @@ function normalizeChineseSpacing(content:string) {
   .replace(/([（【《『“‘])\s+(?=[\u3400-\u9fff])/g,'$1');
 }
 function normalizeReadingTerminology(book:string,content:string) {
- return content.replaceAll('游侠','巡林客');
+ return content.replaceAll('游侠','巡林客').replaceAll('THACO','THAC0');
 }
 export const headingLabel=(html:string)=>html.replace(/<[^>]+>/g,'').split(/\s+·\s+|\s+(?=[A-Z])/)[0].replace(/[\s：:·（）()]/g,'');
 

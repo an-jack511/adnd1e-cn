@@ -52,4 +52,4 @@
 
 布兰科戴着两枚戒指：左手的银戒指是<strong>哺乳动物控制戒指</strong>；他最珍贵的物品、金色的<strong>人类影响戒指</strong>戴在右手。他随时准备使用其中任何一枚。他还携带一瓶加速药水和一把普通匕首。
 
-<strong>半身人：</strong> AC 7；MV 9”；HD 4；hp 18；#AT 1；Dmg 1–6；THACO 17；SA 人类影响戒指与哺乳动物控制戒指；AL NE。
+<strong>半身人：</strong> AC 7；MV 9”；HD 4；hp 18；#AT 1；Dmg 1–6；THAC0 17；SA 人类影响戒指与哺乳动物控制戒指；AL NE。

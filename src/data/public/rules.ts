@@ -60,7 +60,7 @@ const uaRules: RuleEntry[] = [
 ];
 
 const normalizeRuleTerms=<T>(value:T):T=>{
-  if(typeof value==='string')return value.replaceAll('游侠','巡林客') as T;
+  if(typeof value==='string')return value.replaceAll('巡林客','巡林客').replaceAll('THAC0','THAC0') as T;
   if(Array.isArray(value))return value.map(item=>normalizeRuleTerms(item)) as T;
   if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,normalizeRuleTerms(item)])) as T;
   return value;

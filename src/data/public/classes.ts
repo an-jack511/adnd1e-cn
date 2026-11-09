@@ -6,7 +6,7 @@ import {classes as base} from './classes-base';
 import versions from './dragon-class-versions.json';
 import {mergeDragonIdentities} from '../../utils/merge-dragon-identities';
 const normalizeClassTerms=<T>(value:T):T=>{
- if(typeof value==='string')return value.replaceAll('游侠','巡林客').replaceAll('注：在一些规则中，也译为巡林客。','') as T;
+ if(typeof value==='string')return value.replaceAll('巡林客','巡林客').replaceAll('注：在一些规则中，也译为巡林客。','') as T;
  if(Array.isArray(value))return value.map(item=>normalizeClassTerms(item)) as T;
  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,normalizeClassTerms(item)])) as T;
  return value;

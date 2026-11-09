@@ -48,7 +48,7 @@ const legacyMonsters: Monster[] = [
 
 const regionalMonsters=regional as Monster[];const regionalIds=new Set(regionalMonsters.map(monster=>monster.id));
 const normalizeMonsterTerms=<T>(value:T):T=>{
- if(typeof value==='string')return value.replaceAll('游侠','巡林客') as T;
+ if(typeof value==='string')return value.replaceAll('巡林客','巡林客').replaceAll('THAC0','THAC0') as T;
  if(Array.isArray(value))return value.map(item=>normalizeMonsterTerms(item)) as T;
  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,normalizeMonsterTerms(item)])) as T;
  return value;

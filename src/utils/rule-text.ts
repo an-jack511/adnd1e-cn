@@ -21,7 +21,7 @@ export function translateRuleHeading(value:string):string {
 }
 /** Keep legacy fragment IDs intact, but page boundaries are citations, not sections. */
 export function formatRuleHtml(html:string):string {
- html=html.replace(/<h([1-6])\b([^>]*)>([\s\S]*?)<\/h\1>/gi,(all,level,attrs,body)=>isPageHeading(body.replace(/<[^>]+>/g,''))?`<p${attrs} class="source-page-number">出处：${body}</p>`:`<h${level}${attrs}>${translateRuleHeading(body)}</h${level}>`);
+ html=html.replace(/<h([1-6])\b([^>]*)>([\s\S]*?)<\/h\1>/gi,(all,level,attrs,body)=>isPageHeading(body.replace(/<[^>]+>/g,''))?`<p${attrs} class="source-page-number">出处：${body.replace(/[（(]续[）)]/g,'')}</p>`:`<h${level}${attrs}>${translateRuleHeading(body)}</h${level}>`);
  // Transform text nodes only. Attributes, anchors, scripts and English catalogue fields stay intact.
- return html.replace(/(<script\b[^>]*>[\s\S]*?<\/script>|<style\b[^>]*>[\s\S]*?<\/style>|<[^>]+>)|([^<]+)/gi,(all,tag,text)=>tag??translateRuleText(text));
+ return html.replace(/(<script\b[^>]*>[\s\S]*?<\/script>|<style\b[^>]*>[\s\S]*?<\/style>|<[^>]+>)|([^<]+)/gi,(all,tag,text)=>tag??translateRuleText(text).replaceAll('THACO','THAC0'));
 }

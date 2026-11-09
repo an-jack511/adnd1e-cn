@@ -29,7 +29,7 @@
 
 队伍在陡峭斜坡上再攀登 200 码时，巨人会从上方投掷巨石；斜坡使移动速度减半。
 
-<strong>霜狼（4）：</strong> AC 5；MV 18”；HD 5；hp 32；#AT 1；Dmg 2d4；THACO 15；SA 冰霜嚎叫，对 1 英寸内所有生物造成 6d4 点寒冷伤害；SD 免疫寒冷伤害；AL N。霜狼皮价值最高可达 5000 gp。
+<strong>霜狼（4）：</strong> AC 5；MV 18”；HD 5；hp 32；#AT 1；Dmg 2d4；THAC0 15；SA 冰霜嚎叫，对 1 英寸内所有生物造成 6d4 点寒冷伤害；SD 免疫寒冷伤害；AL N。霜狼皮价值最高可达 5000 gp。
 
 ### 长屋
 
@@ -53,9 +53,9 @@
 
 如果角色睡着，食物和火焰烟雾中的草药会让他们陷入极深睡眠。巨人用沉重的加权生皮毯缠住并制服队伍。剥走装备后，俘虏会与四名被捕村民一起被关进洞穴中的悬挂笼。
 
-<strong>古尔姆加德：</strong> AC 4；MV 12”；HD 10+1–4；hp 82；#AT 1；Dmg 4d6；THACO 9；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。  
-<strong>霜巨人男性（3）：</strong> AC 4；MV 12”；HD 10+1–4；hp 58；#AT 1；Dmg 4d6；THACO 10；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。  
-<strong>弗里吉特：</strong> AC 4；MV 12”；HD 9+1–3；hp 48；#AT 1；Dmg 3d6；THACO 12；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。
+<strong>古尔姆加德：</strong> AC 4；MV 12”；HD 10+1–4；hp 82；#AT 1；Dmg 4d6；THAC0 9；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。  
+<strong>霜巨人男性（3）：</strong> AC 4；MV 12”；HD 10+1–4；hp 58；#AT 1；Dmg 4d6；THAC0 10；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。  
+<strong>弗里吉特：</strong> AC 4；MV 12”；HD 9+1–3；hp 48；#AT 1；Dmg 3d6；THAC0 12；SA 投掷岩石造成 2d10 点伤害；SD 不受寒冷伤害；AL CE。
 
 ### 投掷目标
 
