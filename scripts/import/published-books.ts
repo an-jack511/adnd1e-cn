@@ -77,6 +77,7 @@ const normalizeEnglish = (value: string) => value.toLowerCase().replace(/[^a-z0-
 const titleTranslations: Record<string, string> = {
   'appendix-j-herbs-spices-medicinal-vegetables-2': '附录 J：药草、香料与药用植物',
   'glossary-2': '术语表',
+  Ingundi: '英古尼',
 };
 const localizedTitle = (title: string, slug?: string) => {
   if (/[\u3400-\u9fff]/.test(title)) return title;

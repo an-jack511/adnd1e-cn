@@ -92,7 +92,34 @@ def clean_reader_text(text):
     text = text.replace("首批末页开始出现", "其他人物包括")
     text = text.replace("他们的完整统计块与故事将在后续批次继续录入；", "")
     text = re.sub(r"<p\b[^>]*>\s*</p>", "", text, flags=re.I)
+    text = normalize_chinese_spacing(text)
     return text
+
+
+def normalize_chinese_spacing(text):
+    """Remove layout-only whitespace between adjacent Chinese characters.
+
+    Keep spaces inside English names, abbreviations, code, numbers and
+    Chinese-English parallel labels; only remove whitespace that separates
+    Chinese text or Chinese punctuation on both sides.
+    """
+    def normalize_text_node(match):
+        tag, node = match.groups()
+        if tag is not None:
+            return tag
+        node = re.sub(r'(?<=[\u3400-\u9fff])\s+(?=[\u3400-\u9fff])', '', node)
+        node = re.sub(r'(?<=[\u3400-\u9fff，。！？；：、（）《》“”‘’])\s+(?=[，。！？；：、（）《》“”‘’])', '', node)
+        return node
+
+    text = re.sub(r'(<[^>]+>)|([^<]+)', normalize_text_node, text, flags=re.S)
+
+    def normalize_attribute(match):
+        prefix, value, suffix = match.groups()
+        value = re.sub(r'(?<=[\u3400-\u9fff])\s+(?=[\u3400-\u9fff])', '', value)
+        value = re.sub(r'(?<=[\u3400-\u9fff，。！？；：、（）《》“”‘’])\s+(?=[，。！？；：、（）《》“”‘’])', '', value)
+        return prefix + value + suffix
+
+    return re.sub(r'((?:data-cite|alt|title)=(["\']))([^"\']*)(\2)', lambda m: normalize_attribute((m.group(1), m.group(3), m.group(4))), text, flags=re.I)
 
 
 def is_editorial_title(title):
