@@ -2,14 +2,14 @@
 
 PDF 第198–229页为《被遗忘国度》地图与图板页，包括 Vaasa、月海（Moonsea）、谷地（Dalelands）、科米尔（Cormyr）、桑比亚（Sembia）、剑湾及其周边区域的全彩地图、区域放大图、道路与河流标注、城镇与遗迹位置、比例信息和图例。第206页与第216页为原书的空白／彩色地图页，保留原始页面，不将空白误识为缺页。
 
-### PDF 第198页：Vaasa／月海（Moonsea） 地图
+### PDF 第198页：Vaasa／月海（Moonsea）地图
 
 
 ![第198页地图标注中文对照板](/assets/books/fr/fr_map_plate_page_198_labels_zh.png)
 
 地图标签见中文对照板；道路、河流、山脉、城镇、遗迹、颜色和比例以原地图为准。
 
-### PDF 第199页：Vaasa／达马拉（Damara） 周边地图
+### PDF 第199页：Vaasa／达马拉（Damara）周边地图
 
 
 ![第199页地图标注中文对照板](/assets/books/fr/fr_map_plate_page_199_labels_zh.png)

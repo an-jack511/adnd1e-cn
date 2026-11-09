@@ -2,19 +2,19 @@
 
 ### 外观
 
-这本书由一长条绿色的 hexel 树皮制成，反复折叠成手风琴状。它被夹在两块长方形涂油木板之间，以麻绳固定并保护。木板之一刻有如下符文；正是凭借这个符文，才能辨认出这本作品属于法师 奥贝雷尔（Aubayreer）。
+这本书由一长条绿色的hexel树皮制成，反复折叠成手风琴状。它被夹在两块长方形涂油木板之间，以麻绳固定并保护。木板之一刻有如下符文；正是凭借这个符文，才能辨认出这本作品属于法师奥贝雷尔（Aubayreer）。
 
 ### 历史与描述
 
-奥贝雷尔 是谷地诸国定居早期的一名法师，后来向东航行到如今的 阿戈拉隆（Aglarond），并在那里建立了延续至今的巫师统治王朝。奥贝雷尔 作为 阿戈拉隆（Aglarond） 的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为 Covenant 的法师学徒时编成的原始工作册（见下文）已经遗失。
+奥贝雷尔是谷地诸国定居早期的一名法师，后来向东航行到如今的阿戈拉隆（Aglarond），并在那里建立了延续至今的巫师统治王朝。奥贝雷尔作为阿戈拉隆（Aglarond）的大法师、后来作为法王所创作的许多作品，都安全保存在王宫图书馆中；但他在作为Covenant的法师学徒时编成的原始工作册（见下文）已经遗失。
 
-在 奥贝雷尔的孙子 卢尔斯卡斯（Lurskas） 统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在 阿戈拉隆（Aglarond） 东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之 努扎尔（Nuzar））的活动报告暗示，他们读过 奥贝雷尔的工作册，或至少读过 奥贝雷尔 创作、使这本书成名的两道法术的抄本。
+在奥贝雷尔的孙子卢尔斯卡斯（Lurskas）统治初期，盗贼闯入王室图书馆。守卫和图书馆的防护魔法杀死了其中数人，也确实使更强大的典籍安然无恙；但工作册还是被偷走了。它消失在阿戈拉隆（Aglarond）东南方的争议之地，此后再也没有确切踪迹，尽管几名法师（特别是七诅咒之努扎尔（Nuzar））的活动报告暗示，他们读过奥贝雷尔的工作册，或至少读过奥贝雷尔创作、使这本书成名的两道法术的抄本。
 
-Aglarond 王室一直不懈地寻找工作册，这证明它仍然存在。如今的统治者、被称为“变形魔后”的 欣布（Simbul），据说曾杀死法师 萨纳图斯（Thanatus），并在试图夺取工作册时洗劫 镜星（Mirrorstar） 的魔法学校图书馆。奥贝雷尔 唯一的学徒、如今已经死去的法师 尼索洛普斯（Nytholops），在 Chronicles 中记录了工作册的内容；正是从这本书（而不是其他来源）开始，奥贝雷尔 传授给他魔法之艺。
+Aglarond王室一直不懈地寻找工作册，这证明它仍然存在。如今的统治者、被称为“变形魔后”的欣布（Simbul），据说曾杀死法师萨纳图斯（Thanatus），并在试图夺取工作册时洗劫镜星（Mirrorstar）的魔法学校图书馆。奥贝雷尔唯一的学徒、如今已经死去的法师尼索洛普斯（Nytholops），在Chronicles中记录了工作册的内容；正是从这本书（而不是其他来源）开始，奥贝雷尔传授给他魔法之艺。
 
 ### 内容
 
-奥贝雷尔的工作册有（或曾有）18 个折叠树皮表面。最前面的一面通常为空白；需要时，它可以作为 explosive runes、symbols 等各种防护魔法的施法表面。接下来的 14 个表面依次写有 read magic、burning hands、dancing lights、enlarge、identify、light、message、write、ESP、wizard lock、dispel magic、explosive runes、fireball 和 extension I。然后是三个特殊法术：hailcone（Aubayreer 版本的 ice storm），以及两道独有法术 奥贝雷尔’s phase trap 和 thunderlance。
+奥贝雷尔的工作册有（或曾有）18 个折叠树皮表面。最前面的一面通常为空白；需要时，它可以作为explosive runes、symbols等各种防护魔法的施法表面。接下来的 14 个表面依次写有read magic、burning hands、dancing lights、enlarge、identify、light、message、write、ESP、wizard lock、dispel magic、explosive runes、fireball和extension I。然后是三个特殊法术：hailcone（Aubayreer版本的ice storm），以及两道独有法术奥贝雷尔’s phase trap和thunderlance。
 
 ### Hailcone（冰雹锥，塑能）
 
@@ -88,15 +88,15 @@ Xorn、xaren，以及任何能穿过固体物质“改变相位”的生物，�
 
 ### 历史与描述
 
-奥贾伦（Orjalun） 是北方早期银月城的白发大法师，如今被认为已经死亡。他监督并深度参与了这部作品的建造，原本的设计目标是永久保存他能提供的最有用防御法术，为这座心爱的城市未来的安全与防护服务。然而它从未发挥这种作用：奥贾伦 把官杖交给选定的继承人 Sepur 后离城，Sepur 显露出真实本性，带走了《Arbatel》和官杖，也离开了那座美丽的城市。
+奥贾伦（Orjalun）是北方早期银月城的白发大法师，如今被认为已经死亡。他监督并深度参与了这部作品的建造，原本的设计目标是永久保存他能提供的最有用防御法术，为这座心爱的城市未来的安全与防护服务。然而它从未发挥这种作用：奥贾伦把官杖交给选定的继承人Sepur后离城，Sepur显露出真实本性，带走了《Arbatel》和官杖，也离开了那座美丽的城市。
 
 Sepur 的命运不明，但贤者 Alphontras 讲述过，他在 Trollmoors 一座孤独、烧焦的塔顶发现了一根折断的法杖。Alphontras 的同事“博学者” Eelombur 首次在 Longsaddle 村见到《Arbatel》，当时它由巫师 Arathur Harpell 持有。Arathur 后来在一场魔法决斗中被死灵法师 Marune 杀死，Marune 只短暂持有《Arbatel》，便在逃离深水城领主追捕时把它遗失在冬雪中。随后十年间，它很可能数次易手，因为北方各类记录中都留下许多暗示。
 
-贤者 Maerlus 曾在这一时期提到它；在他写给国王 Elfrin 的一封信中，他描述了 Elfrin 王国中已知的几件强力物品，并推测它们的所在。《Arbatel》据他说在隐居巫师 Lios 手中——除非 Marune 已经击败 Lios 并重新夺回它。伊尔明斯特（Elminster） 认为 Marune 确实杀死了 Lios，但 Marune 从那时到现在的活动表明，尽管他反复尝试，却没有取回《Arbatel》。它最近和当前的下落仍然不明。
+贤者Maerlus曾在这一时期提到它；在他写给国王Elfrin的一封信中，他描述了Elfrin王国中已知的几件强力物品，并推测它们的所在。《Arbatel》据他说在隐居巫师Lios手中——除非Marune已经击败Lios并重新夺回它。伊尔明斯特（Elminster）认为Marune确实杀死了Lios，但Marune从那时到现在的活动表明，尽管他反复尝试，却没有取回《Arbatel》。它最近和当前的下落仍然不明。
 
 ### 内容
 
-奥贾伦 受教于 迷斯卓诺（Myth Drannor） 七名巫师中最神秘的 The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及 wizard lock 的改良版 secure。
+奥贾伦受教于迷斯卓诺（Myth Drannor）七名巫师中最神秘的The Masked；书中的两道法术被认为是这位导师的个人创作：encrypt，以及wizard lock的改良版secure。
 
 《Arbatel》的第一块和最后一块金属板没有任何内容，以免暴露内部所藏；七块内板各有一项法术（制作方式只能使用金属板的一面）。它们依次是 mending、charm person、encrypt、dispel magic、identify、guards and wards 和 secure。所有常见法术均采用标准《玩家手册》格式，下文重录书中两道独有法术；这些内容据说来自 The Masked 的另一名学徒 Vauth 的书。
 
@@ -160,9 +160,9 @@ light 类魔法、magic mouth、涅斯图（Nystul）’s magic aura 和 Leomund
 
 ### 历史与描述
 
-The Scalamagdrion 的真实来历不明。法师 Hethcanter 的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给 迷斯卓诺（Myth Drannor） 七名巫师之一 Hym Kraaven，以换取魔法训练。不久后 Hethcanter 的文字记录中断；如今人们主要记得他曾被近二十名 illithid 追赶，便从后来称为 Hethcanter’s Leap 的峭壁最高处跳下自尽。贤者 Orfidel 认为这些被他痛恨的生物是在寻找 The Scalamagdrion，贤者 伊尔明斯特 也赞同这一看法。
+The Scalamagdrion的真实来历不明。法师Hethcanter的著作最早提到它；他年轻时拥有此书，但没有记录自己如何得到，只记录了他把书交给迷斯卓诺（Myth Drannor）七名巫师之一Hym Kraaven，以换取魔法训练。不久后Hethcanter的文字记录中断；如今人们主要记得他曾被近二十名illithid追赶，便从后来称为Hethcanter’s Leap的峭壁最高处跳下自尽。贤者Orfidel认为这些被他痛恨的生物是在寻找The Scalamagdrion，贤者伊尔明斯特也赞同这一看法。
 
-Hym Kraaven 从未在 迷斯卓诺（Myth Drannor） 的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者 Orfidel 与 Maerlus 都在 Watcher’s Tor 见过一名此前不为人知的魔法使用者 Valathond，使用此书中的法术，在正式决斗中摧毁法师 Gaerlammon。Valathond 后来被 Company of the Raven 杀死，但他们没有在其堡垒宝藏中找到 The Scalamagdrion；他们也检查了整整一个季节与 Valathond 冲突、交战的记录，却没有发现他已经不再持有它的迹象。希尔斯法尔（Hillsfar） 的贤者 Auvidarus，以及被称为 The Nine 的冒险者首领、女巫 莱拉（Laeral），二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。莱拉 收集的传闻中还再次提到一群 illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
+Hym Kraaven从未在迷斯卓诺（Myth Drannor）的学校教学中展示或使用这部作品。可能是因为其中某一页的内容，他没有记录自己后来如何得到这本书，书又如何转给下一位已知持有者，也没有人知道；但北方贤者Orfidel与Maerlus都在Watcher’s Tor见过一名此前不为人知的魔法使用者Valathond，使用此书中的法术，在正式决斗中摧毁法师Gaerlammon。Valathond后来被Company of the Raven杀死，但他们没有在其堡垒宝藏中找到The Scalamagdrion；他们也检查了整整一个季节与Valathond冲突、交战的记录，却没有发现他已经不再持有它的迹象。希尔斯法尔（Hillsfar）的贤者Auvidarus，以及被称为The Nine的冒险者首领、女巫莱拉（Laeral），二人相隔几乎整个世界，却都记载过把此书归给某位或某几位法师的传闻。莱拉收集的传闻中还再次提到一群illithid，但这些传闻的真实性未经验证；这部作品目前在哪里，只能推测。
 
 出处：原书 PDF 第186–189页（印刷页86–89）。
 

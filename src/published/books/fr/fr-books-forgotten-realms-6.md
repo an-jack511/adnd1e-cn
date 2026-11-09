@@ -6,15 +6,15 @@
 
 ### 历史与描述
 
-萨比琳（Sabirine） 是很久以前的一名法师，曾参与北方的探索；如今北方商贩与旅人的炉边传说中，还能听到她的冒险故事。她在荒野各处的藏身处和常去地点编纂、隐藏法术书，而这本名为《镜鉴（Specular）》的书得以留存。据说，在贤者老 Eiron 去世，以及红手公会的盗贼随后洗劫他的宅邸之前——那已经是四个冬季以前的事——它一直藏在他位于无冬城的藏书室里。
+萨比琳（Sabirine）是很久以前的一名法师，曾参与北方的探索；如今北方商贩与旅人的炉边传说中，还能听到她的冒险故事。她在荒野各处的藏身处和常去地点编纂、隐藏法术书，而这本名为《镜鉴（Specular）》的书得以留存。据说，在贤者老Eiron去世，以及红手公会的盗贼随后洗劫他的宅邸之前——那已经是四个冬季以前的事——它一直藏在他位于无冬城的藏书室里。
 
-萨比琳 学会了成为巫妖的秘密，却选择自然死亡。她尤其关注戏法，是一位热心倡导让长期从事魔法、等级高深的法师继续使用并改进戏法的人。例如，《镜鉴》中就有三个由 萨比琳 开发的独有戏法：catfeet、snatch 和 spark。
+萨比琳学会了成为巫妖的秘密，却选择自然死亡。她尤其关注戏法，是一位热心倡导让长期从事魔法、等级高深的法师继续使用并改进戏法的人。例如，《镜鉴》中就有三个由萨比琳开发的独有戏法：catfeet、snatch和spark。
 
 ### 内容
 
-《镜鉴》中的每个戏法和法术都独占一页；书的两端各有一张额外的页面。开头那一页是一段用于辨认此书归属的铭文，其中有 萨比琳的符文（一个画成天鹅形状的“S”）。末尾那一页带有一个奇怪的黑色毡片，形状像小瓶。扉页实际上是一道独有法术 spell engine（下文详述），其作者不明，并通过 secret page 法术隐藏起来。secret page 的命令词未知。末页被认为是一件尚未使用的魔法有用物品（见《地下城主指南》中的 useful items 描述）；伊尔明斯特（Elminster） 认为那是一瓶额外治疗药水。
+《镜鉴》中的每个戏法和法术都独占一页；书的两端各有一张额外的页面。开头那一页是一段用于辨认此书归属的铭文，其中有萨比琳的符文（一个画成天鹅形状的“S”）。末尾那一页带有一个奇怪的黑色毡片，形状像小瓶。扉页实际上是一道独有法术spell engine（下文详述），其作者不明，并通过secret page法术隐藏起来。secret page的命令词未知。末页被认为是一件尚未使用的魔法有用物品（见《地下城主指南》中的useful items描述）；伊尔明斯特（Elminster）认为那是一瓶额外治疗药水。
 
-书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和 unlock；法术则依次为：comprehend languages、enlarge、light、涅斯图（Nystul）’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、梅拉尔德（Merald）’s murderous mist（Merald 这位强大大法师教给 萨比琳的独有法术，下文详述）、polymorph other、毕格比（Bigby）’s interposing hand、disintegrate、geas 和 phase door。
+书页之间记有六个戏法：catfeet（下文详述）、clean、freshen、snatch（下文详述）、spark（下文详述）和unlock；法术则依次为：comprehend languages、enlarge、light、涅斯图（Nystul）’s magic aura、sleep、bladethirst（独有法术，下文详述）、detect evil、ESP、clairaudience、gust of wind、tongues、charm monster、dig、fire charm、梅拉尔德（Merald）’s murderous mist（这位强大大法师梅拉尔德教给萨比琳的独有法术，下文详述）、polymorph other、毕格比（Bigby）’s interposing hand、disintegrate、geas和phase door。
 
 ### Spell Engine（法术引擎，防护／变化）
 
@@ -132,7 +132,7 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 ### 内容
 
-根据 Bendulphin 的笔记，工作册的十二页包含下列法术与文字：独有戏法 horn、listen 和 scorch（均在下文描述），每页一个；以及 write、detect magic、Leomund’s trap 和 涅斯图’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于 detect magic 所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术 smoke ghost（Glanvyl 可能通过 write 法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写 haste 与 lightning bolt 法术的法术墨水配方。
+根据Bendulphin的笔记，工作册的十二页包含下列法术与文字：独有戏法horn、listen和scorch（均在下文描述），每页一个；以及write、detect magic、Leomund’s trap和涅斯图’s magic aura，每页一个，顺序如上。这些内容之后还有一页关于detect magic所见各种魔法的强度与色调的笔记（混乱且主观，实际用途很少），然后是一道独有德鲁伊法术smoke ghost（Glanvyl可能通过write法术抄录，后来发现这其实是一段无法翻译的德鲁伊祷文，或者是他从未辨认出的德鲁伊祷文）。该法术的细节如下。工作册最后两页分别包含书写haste与lightning bolt法术的法术墨水配方。
 
 ### Horn（号角，塑能）
 
@@ -198,13 +198,13 @@ Bendulphin 随后自然死亡，他的儿子 Tresk 把工作册带到深水城�
 
 ### 历史与描述
 
-在国度更加无法无天、更加动荡的土地上，对战争之神 Tempus 的崇拜已经牢固建立，多年来形成了人数众多、组织严密的牧师团。《战争之红书》是大约六本同类书卷之一，是供 Tempus 牧师使用、收录祷文的神殿典籍。然而，与同类书不同，《红书》已经失踪：三年前的一个夜晚，坦帕斯的大塔被当地盗贼公会的代表洗劫时，它落入了 泰夫岚姆（Telflamm） 的盗贼手中。
+在国度更加无法无天、更加动荡的土地上，对战争之神Tempus的崇拜已经牢固建立，多年来形成了人数众多、组织严密的牧师团。《战争之红书》是大约六本同类书卷之一，是供Tempus牧师使用、收录祷文的神殿典籍。然而，与同类书不同，《红书》已经失踪：三年前的一个夜晚，坦帕斯的大塔被当地盗贼公会的代表洗劫时，它落入了泰夫岚姆（Telflamm）的盗贼手中。
 
-事情似乎是这样发生的：泰夫岚姆（Telflamm） 的 Tempus 大祭司与狂暴冠军 Taeron 拒绝向 泰夫岚姆（Telflamm） 影主公会的会长 Volludan 交付某些保护费，于是影主们从神殿夺走了数件最珍贵的宝藏，其中包括两把强大的魔法刃、一顶 brilliance 头盔，以及《红书》。
+事情似乎是这样发生的：泰夫岚姆（Telflamm）的Tempus大祭司与狂暴冠军Taeron拒绝向泰夫岚姆（Telflamm）影主公会的会长Volludan交付某些保护费，于是影主们从神殿夺走了数件最珍贵的宝藏，其中包括两把强大的魔法刃、一顶brilliance头盔，以及《红书》。
 
 影主们很快便因赃物争吵起来，Tempus 的复仇牧师与信徒也加入其中（也就是说，城中大多数佣兵都加入了）。Volludan 和他的数名副手因此丧命。神殿的所有宝藏都被找回，唯独《红书》仍未寻回；Tempus 的所有牧师仍在积极寻找它。任何 Tempus 信徒都可以在战争之神的任一神殿领取 25,000 枚金币的赏金；如果找到者是 Tempus 的虔诚信徒，还会晋升一个牧师等级。若要找回完整的《战争之红书》，Tempus 的所有教士与高级牧师都会认出它，并会做任何必要之事——包括设伏，或与他们能够召集的全部武装人员开战。
 
-它目前的下落不明，但据认为盗贼已经把它带离 泰夫岚姆（Telflamm），而且自被盗以来可能已经数次易手。
+它目前的下落不明，但据认为盗贼已经把它带离泰夫岚姆（Telflamm），而且自被盗以来可能已经数次易手。
 
 ### 内容
 
