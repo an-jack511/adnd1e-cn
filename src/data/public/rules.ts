@@ -59,5 +59,12 @@ const uaRules: RuleEntry[] = [
   { id: 'ua-darkness-combat', title: '黑暗中作战（UA）', category: 'combat', summary: 'UA 对无光、视力受限及对手可见性提供补充战斗判定。', body: ['先确定实际光照、视线及特殊视觉，再核对该情形的命中与防护调整。', '黑暗不自动令所有视觉能力完全失效；按对应生物和光源具体裁定。'], related: [{ label: '光照', href: '/adventure/light/' }], source: [{ book: 'UA', section: 'ua-dm-darkness-combat' }] }
 ];
 
-export const rules: RuleEntry[] = [
-  ...dragon as RuleEntry[],...baseline.filter((entry) => !['campaign-management', 'optional-rules'].includes(entry.id)).map((entry) => ({ ...entry, ...revisions[entry.id] })), ...uaRules];
+const normalizeRuleTerms=<T>(value:T):T=>{
+  if(typeof value==='string')return value.replaceAll('游侠','巡林客') as T;
+  if(Array.isArray(value))return value.map(item=>normalizeRuleTerms(item)) as T;
+  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,normalizeRuleTerms(item)])) as T;
+  return value;
+};
+
+export const rules: RuleEntry[] = normalizeRuleTerms([
+  ...dragon as RuleEntry[],...baseline.filter((entry) => !['campaign-management', 'optional-rules'].includes(entry.id)).map((entry) => ({ ...entry, ...revisions[entry.id] })), ...uaRules]);

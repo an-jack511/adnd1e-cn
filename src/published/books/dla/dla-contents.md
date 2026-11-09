@@ -28,7 +28,7 @@
 
 ### 龙枪之战（The War of the Lance）
 
-阿斯特纽斯之卷（第二部分）（Astinus's Scroll (Part II)）；战后安萨隆地图（Map of Post-War Ansalon）；战争之后的安萨隆（Ansalon: After the War）；控制区域（Areas of Control）；派系（Factions）；总体状况（General Conditions）；气候（Climate）；地图之外（Beyond the Map）；安萨隆之地（The Lands of Ansalon）；战后气候图（Map of Ansalon's Climate—Post-Cataclysm）。
+阿斯提努斯之卷（第二部分）（Astinus's Scroll (Part II)）；战后安萨隆地图（Map of Post-War Ansalon）；战争之后的安萨隆（Ansalon: After the War）；控制区域（Areas of Control）；派系（Factions）；总体状况（General Conditions）；气候（Climate）；地图之外（Beyond the Map）；安萨隆之地（The Lands of Ansalon）；战后气候图（Map of Ansalon's Climate—Post-Cataclysm）。
 
 ### 龙之时代的人物（Personalities of the Age of Dragons）
 

@@ -24,6 +24,46 @@ function normalizeIllustrationPairs(content:string) {
   return `<p${attrs}>${cleaned}</p>`;
  });
 }
+
+/** Keep image descriptions useful to readers without exposing production-process notes. */
+function normalizeIllustrationMetadata(content:string) {
+ return content
+  .replace(/(<img\b[^>]*\balt=")([^"]*)("[^>]*>)/gi,(_all,prefix:string,alt:string,suffix:string)=>{
+   const cleaned=alt
+    .replace(/\s*imagegen\s*/gi,' ')
+    .replace(/生成式清晰化版本|清晰化版本|保形清晰化|进一步清晰化|扫描清晰化|清晰化/gi,'')
+    .replace(/\s{2,}/g,' ')
+    .replace(/\s*，\s*$/,'')
+    .replace(/\s*的\s*$/,'')
+    .trim();
+   return `${prefix}${cleaned}${suffix}`;
+  })
+  .replace(/待逐页图像清晰化汉化后同步网站。/g,'相关页面保留原书图像与版权信息。')
+  .replace(/待索引内容单独裁切、清晰化并汉化后再加入阅读版。/g,'索引内容按原书版式保留在对应页面中。');
+}
+/** Remove duplicated transliterations accidentally inserted between a translated spell name and its English original. */
+function normalizeNamedSpellDisplay(content:string) {
+ return content
+  .replaceAll('德罗米吉的即时召唤 卓姆吉（Drawmij）\'s Instant Summons','卓姆吉的即时召唤 Drawmij\'s Instant Summons')
+  .replaceAll('魔邓肯的猎犬 魔邓肯（Mordenkainen）\'s Hound','魔邓肯的猎犬 Mordenkainen\'s Hound')
+  .replaceAll('魔邓肯豪宅术 魔邓肯\'s Magnificent Mansion','魔邓肯豪宅术 Mordenkainen\'s Magnificent Mansion')
+  .replaceAll('魔邓肯的解离术 魔邓肯\'s Disjunction','魔邓肯的解离术 Mordenkainen\'s Disjunction')
+  .replaceAll('欧提路克的冻寒球 欧提路克（Otiluke）\'s Freezing Sphere','欧提路克的冻寒球 Otiluke\'s Freezing Sphere')
+  .replaceAll('欧提路克的抗性球 欧提路克\'s Resilient Sphere','欧提路克的抗性球 Otiluke\'s Resilient Sphere')
+  .replaceAll('欧提路克的传送球 欧提路克\'s Telekinetic Sphere','欧提路克的传送球 Otiluke\'s Telekinetic Sphere')
+  .replaceAll('拉瑞的记忆增强 拉瑞（Rary）\'s Mnemonic Enhancer','拉瑞的记忆增强 Rary\'s Mnemonic Enhancer')
+  .replaceAll('拉瑞的记忆增强 拉瑞\'s Mnemonic Enhancer','拉瑞的记忆增强 Rary\'s Mnemonic Enhancer')
+  .replaceAll('谭森的变身 谭森（Tenser）\'s Transformation','谭森的变身 Tenser\'s Transformation')
+  .replaceAll('谭森的变身 谭森\'s Transformation','谭森的变身 Tenser\'s Transformation')
+  .replaceAll('奈斯图的魔法灵光 涅斯图（Nystul）\'s Magic Aura','涅斯图的魔法灵光 Nystul\'s Magic Aura');
+}
+/** Remove spaces left between adjacent Chinese text after bilingual source cleanup. */
+function normalizeChineseSpacing(content:string) {
+ return content
+  .replace(/([\u3400-\u9fff])\s+(?=[\u3400-\u9fff])/g,'$1')
+  .replace(/([\u3400-\u9fff])\s+(?=[，。；：！？、）】》』”’])/g,'$1')
+  .replace(/([（【《『“‘])\s+(?=[\u3400-\u9fff])/g,'$1');
+}
 function normalizeReadingTerminology(book:string,content:string) {
  return content.replaceAll('游侠','巡林客');
 }
@@ -64,7 +104,7 @@ export function phbHeadings(html:string,chapterTitle:string,merged:boolean):stri
 }
 
 export function readingContent(book:string,chapter:ReadingChapter):string {
- if(book!=='phb')return formatRuleHtml(normalizeReadingTerminology(book,normalizeIllustrationPairs(article(read(chapter.href)))));
+ if(book!=='phb')return formatRuleHtml(normalizeChineseSpacing(normalizeReadingTerminology(book,normalizeNamedSpellDisplay(normalizeIllustrationMetadata(normalizeIllustrationPairs(article(read(chapter.href))))))));
  const parts=chapter.parts.map(part=>{
   let content=article(read(part.href));
   if(chapter.parts.length===1&&!part.parentSource&&!chapter.introduction)content=content.replace(/<h1\b([^>]*)>[\s\S]*?<\/h1>/i,'<span$1 class="heading-anchor"></span>');
@@ -76,7 +116,7 @@ export function readingContent(book:string,chapter:ReadingChapter):string {
   return content;
  });
  if(chapter.introduction)parts.unshift(parentContent(`/archive/phb/read-${chapter.introduction}.html`));
- return formatRuleHtml(normalizeReadingTerminology(book,normalizeIllustrationPairs(phbHeadings(parts.join('\n'),chapter.title,parts.length>1))));
+ return formatRuleHtml(normalizeChineseSpacing(normalizeReadingTerminology(book,normalizeNamedSpellDisplay(normalizeIllustrationMetadata(normalizeIllustrationPairs(phbHeadings(parts.join('\n'),chapter.title,parts.length>1)))))));
 }
 
 export function readerTitle(title:string){

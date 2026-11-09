@@ -9,8 +9,8 @@ import {spellRuleHeader} from '../src/utils/spell-layout';
 const parameters=['nameZh','nameEn','level','classes','school','components','castingTime','range','duration','areaOfEffect','savingThrow','reversible','materialComponent','description'] as const;
 for(const [id,link] of Object.entries(links)){
  assert.ok(!spells.some(spell=>spell.id===id),`${id} must not be a second catalog entry`);
- const primary=spells.find(spell=>spell.id===link.targetId)!;
- const original=ua.find(spell=>spell.id===link.targetId)!;
+ const primary=spells.find(spell=>spell.id===link.targetId)! as Spell;
+ const original=ua.find(spell=>spell.id===link.targetId)! as Spell;
  const version=raw.find(spell=>spell.id===id)!;
  assert.ok(primary&&original&&version,id);
  for(const key of parameters)assert.deepEqual(primary[key],original[key],`Keep book rules: ${id} ${key}`);
