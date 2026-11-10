@@ -49,7 +49,7 @@
 
 ###盾之地的圣杯
 
-<strong>Chalice of the 盾牌 Shield Lands</strong>
+<strong>盾之地的圣杯 Chalice of the Shield Lands</strong>
 
 ![盾之地圣杯相关插图，原书 PDF 第 77 页裁片](/assets/books/gha/gha_chalice_shieldlands_illustration.png)
 

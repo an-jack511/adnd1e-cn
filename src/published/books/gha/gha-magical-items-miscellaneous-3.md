@@ -81,7 +81,7 @@
 
 ### 水晶雾山脉的蓝甲 +3
 
-<strong>Blue Armor of the Crystalmist Mountains +3 (F)</strong>
+<strong>水晶雾山脉的蓝甲 +3 Blue Armor of the Crystalmist Mountains +3 (F)</strong>
 
 这套 +3 锁子甲由一头成年蓝龙的皮制成，专为当地的山地矮人打造。它可以宽松地套在人类体型的角色身上，但角色会失去敏捷对护甲等级的所有加值，并且攻击时承受 −2 命中减值。除护甲等级加值之外，穿戴者对电击攻击进行豁免检定时，成功可承受一半伤害，或者在相关规则下完全免受伤害。
 

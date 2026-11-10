@@ -318,7 +318,7 @@
 | Fighter（战士） | 8th-15th |
 | Paladin（圣武士） | 7th-16th |
 | Ranger（巡林客） | 7th-16th |
-| 魔法师 Magic-User | 11th-20th |
+| 魔法师 | 11th-20th |
 | Illusionist（幻术师） | 10th-17th |
 | Thief（盗贼） | 9th-16th |
 | Assassin（刺客） | 10th-15th |

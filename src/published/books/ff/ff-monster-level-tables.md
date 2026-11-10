@@ -78,7 +78,7 @@
 | 21–60 | Fighter | 5 |
 | 61–62 | Paladin | 2 |
 | 63–65 | Ranger | 2 |
-| 66–86 | 魔法师 Magic-User | 3 |
+| 66–86 | 魔法师 | 3 |
 | 87–88 | Illusionist | 1 |
 | 89–98 | Thief | 4 |
 | 99 | Assassin | 2 |
