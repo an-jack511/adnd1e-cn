@@ -17,7 +17,7 @@
 | 人类（Human） | PH |
 | 坎德人 | DL Adv. |
 | 侏儒（Gnomes） |  |
-|　疯侏儒 Mad | PH |
+|　疯侏儒 | PH |
 |　工匠侏儒（Tinker Gnomes） | DL Adv. |
 | 精灵（Elves） |  |
 |　黑暗精灵（Dark） | PH |
@@ -228,12 +228,12 @@
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 6 | 16* |
-| 智力 Intelligence | 6 | 18 |
-| 智慧 Wisdom | 3 | 16 |
-| 敏捷 Dexterity | 8 | 19 |
-| 体质 Constitution | 10 | 18 |
-| 魅力 Charisma | 6 | 18 |
+| 力量 | 6 | 16* |
+| 智力 | 6 | 18 |
+| 智慧 | 3 | 16 |
+| 敏捷 | 8 | 19 |
+| 体质 | 10 | 18 |
+| 魅力 | 6 | 18 |
 
 <strong>坎德的职业：</strong>坎德可以属于下列列表中的任何职业。
 
@@ -241,14 +241,14 @@
 
 | 职业 | 最高等级 |
 |---|---:|
-| 战士 Fighter | 5* |
-| 野蛮人 Barbarian | 10** |
-| 巡林客 Ranger | 5* |
-| 盗贼 Thief | 不限 |
-| 盗贼／杂技师 Thief／Acrobat | 不限 |
-| 牧师（异教徒）Cleric (Heathen) | 6 |
-| 德鲁伊（异教徒）Druid (Heathen) | 5* |
-| 星辰神圣教团 Holy Order of the Stars | 12 |
+| 战士 | 5* |
+| 野蛮人 | 10** |
+| 巡林客 | 5* |
+| 盗贼 | 不限 |
+| 盗贼／杂技师 | 不限 |
+| 牧师（异教徒） | 6 |
+| 德鲁伊（异教徒） | 5* |
+| 星辰神圣教团 | 12 |
 
 \* 以某种方式获得 17 点力量的坎德可以达到第 6 级；力量达到 18 的坎德可以成为第 7 级战士。
 
@@ -506,33 +506,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 3 | 18 |
-| 智力 Intelligence | 10 | 18 |
-| 智慧 Wisdom | 6 | 18 |
-| 敏捷 Dexterity | 7 | 19 |
-| 体质 Constitution | 6 | 18 |
-| 魅力 Charisma | 12 | 18 |
+| 力量 | 3 | 18 |
+| 智力 | 10 | 18 |
+| 智慧 | 6 | 18 |
+| 敏捷 | 7 | 19 |
+| 体质 | 6 | 18 |
+| 魅力 | 12 | 18 |
 
 #### 西尔瓦内斯提职业上限（Silvanesti Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | N/E |
-| 圣武士 Paladin | 12 |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 10 |
-| 野蛮人 Barbarian | N/E* |
-| 巡林客 Ranger | 不限 |
-| 魔法师（非法师）Magic-User (Renegade) | N/E* |
-| 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | 不限 |
-| 盗贼 Thief | N/E* |
-| 盗贼／杂技师 Thief／Acrobat | N/E* |
-| 牧师（异教徒）Cleric (Heathen) | N/E* |
-| 德鲁伊（异教徒）Druid (Heathen) | N/E* |
-| 星辰神圣教团 Holy Orders of the Stars | 不限 |
+| 骑士 | N/E |
+| 圣武士 | 12 |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 10 |
+| 野蛮人 | N/E* |
+| 巡林客 | 不限 |
+| 魔法师（非法师） | N/E* |
+| 幻术师（非法师） | N/E* |
+| 高等法术巫师 | 不限 |
+| 盗贼 | N/E* |
+| 盗贼／杂技师 | N/E* |
+| 牧师（异教徒） | N/E* |
+| 德鲁伊（异教徒） | N/E* |
+| 星辰神圣教团 | 不限 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -546,33 +546,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 7 | 18 |
-| 智力 Intelligence | 8 | 18 |
-| 智慧 Wisdom | 6 | 18 |
-| 敏捷 Dexterity | 7 | 19 |
-| 体质 Constitution | 7 | 18 |
-| 魅力 Charisma | 8 | 18 |
+| 力量 | 7 | 18 |
+| 智力 | 8 | 18 |
+| 智慧 | 6 | 18 |
+| 敏捷 | 7 | 19 |
+| 体质 | 7 | 18 |
+| 魅力 | 8 | 18 |
 
 #### 奎利内斯提职业上限（Qualinesti Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | 10 |
-| 圣武士 Paladin | N/E* |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 14 |
-| 野蛮人 Barbarian | N/E* |
-| 巡林客 Ranger | 不限 |
-| 魔法师（非法师）Magic-User (Renegade) | 11 |
-| 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | 不限 |
-| 盗贼 Thief | 不限 |
-| 盗贼／杂技师 Thief／Acrobat | 不限 |
-| 牧师（异教徒）Cleric (Heathen) | N/E |
-| 德鲁伊（异教徒）Druid (Heathen) | N/E |
-| 星辰神圣教团 Holy Orders of the Stars | 不限 |
+| 骑士 | 10 |
+| 圣武士 | N/E* |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 14 |
+| 野蛮人 | N/E* |
+| 巡林客 | 不限 |
+| 魔法师（非法师） | 11 |
+| 幻术师（非法师） | N/E* |
+| 高等法术巫师 | 不限 |
+| 盗贼 | 不限 |
+| 盗贼／杂技师 | 不限 |
+| 牧师（异教徒） | N/E |
+| 德鲁伊（异教徒） | N/E |
+| 星辰神圣教团 | 不限 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -622,33 +622,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 8 | 18 |
-| 智力 Intelligence | 3 | 12 |
-| 智慧 Wisdom | 8 | 18 |
-| 敏捷 Dexterity | 8 | 19 |
-| 体质 Constitution | 8 | 18 |
-| 魅力 Charisma | 8 | 18 |
+| 力量 | 8 | 18 |
+| 智力 | 3 | 12 |
+| 智慧 | 8 | 18 |
+| 敏捷 | 8 | 19 |
+| 体质 | 8 | 18 |
+| 魅力 | 8 | 18 |
 
 #### 卡戈涅斯提职业上限（Kagonesti Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | N/E* |
-| 圣武士 Paladin | N/E* |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 不限 |
-| 野蛮人 Barbarian | 不限 |
-| 巡林客 Ranger | 不限 |
-| 魔法师（非法师）Magic-User (Renegade) | N/E* |
-| 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | N/E* |
-| 盗贼 Thief | 不限 |
-| 盗贼／杂技师 Thief／Acrobat | 不限 |
-| 牧师（异教徒）Cleric (Heathen) | N/E* |
-| 德鲁伊（异教徒）Druid (Heathen) | N/E* |
-| 星辰神圣教团 Holy Orders of the Stars | 7 |
+| 骑士 | N/E* |
+| 圣武士 | N/E* |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 不限 |
+| 野蛮人 | 不限 |
+| 巡林客 | 不限 |
+| 魔法师（非法师） | N/E* |
+| 幻术师（非法师） | N/E* |
+| 高等法术巫师 | N/E* |
+| 盗贼 | 不限 |
+| 盗贼／杂技师 | 不限 |
+| 牧师（异教徒） | N/E* |
+| 德鲁伊（异教徒） | N/E* |
+| 星辰神圣教团 | 7 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -694,33 +694,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 3 | 18 |
-| 智力 Intelligence | 8 | 18 |
-| 智慧 Wisdom | 8 | 18 |
-| 敏捷 Dexterity | 10 | 19 |
-| 体质 Constitution | 3 | 18 |
-| 魅力 Charisma | 8 | 18 |
+| 力量 | 3 | 18 |
+| 智力 | 8 | 18 |
+| 智慧 | 8 | 18 |
+| 敏捷 | 10 | 19 |
+| 体质 | 3 | 18 |
+| 魅力 | 8 | 18 |
 
 #### 迪梅涅斯提职业上限（Dimernesti Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | 10／不限* |
-| 圣武士 Paladin | 10／不限* |
-| 王冠骑士 Knight of the Crown | N/E** |
-| 宝剑骑士 Knight of the Sword | N/E** |
-| 玫瑰骑士 Knight of the Rose | N/E** |
-| 战士 Fighter | 16／不限* |
-| 野蛮人 Barbarian | N/E** |
-| 巡林客 Ranger | N/E** |
-| 魔法师（非法师）Magic-User (Renegade) | N/E** |
-| 幻术师（非法师）Illusionist (Renegade) | N/E** |
-| 高等法术巫师 Wizard of High Sorcery | 10／不限* |
-| 盗贼 Thief | N/E** |
-| 盗贼／杂技师 Thief／Acrobat | N/E** |
-| 牧师（异教徒）Cleric (Heathen) | N/E** |
-| 德鲁伊（异教徒）Druid (Heathen) | N/E** |
-| 星辰神圣教团 Holy Orders of the Stars | 不限 |
+| 骑士 | 10／不限* |
+| 圣武士 | 10／不限* |
+| 王冠骑士 | N/E** |
+| 宝剑骑士 | N/E** |
+| 玫瑰骑士 | N/E** |
+| 战士 | 16／不限* |
+| 野蛮人 | N/E** |
+| 巡林客 | N/E** |
+| 魔法师（非法师） | N/E** |
+| 幻术师（非法师） | N/E** |
+| 高等法术巫师 | 10／不限* |
+| 盗贼 | N/E** |
+| 盗贼／杂技师 | N/E** |
+| 牧师（异教徒） | N/E** |
+| 德鲁伊（异教徒） | N/E** |
+| 星辰神圣教团 | 不限 |
 
 \* 斜线前的等级，是角色在陆地环境中允许达到的最高等级。迪梅涅斯提在海洋周边环境中不受等级限制。如果一个等级高于表中等级的迪梅涅斯提离开水域环境，必须临时把他的生命骰、生命值以及所有其他相关修正降低到表中列出的最高等级。角色返回水中后，这种降低会消失。
 
@@ -772,22 +772,22 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | N/E* |
-| 圣武士 Paladin | N/E* |
-| 王冠骑士 Knight of the Crown | 10 |
-| 宝剑骑士 Knight of the Sword | 10 |
-| 玫瑰骑士 Knight of the Rose | 10 |
-| 战士 Fighter | 9 |
-| 野蛮人 Barbarian | N/E* |
-| 巡林客 Ranger | 11 |
-| 魔法师（非法师）Magic-User (Renegade) | 7 |
-| 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | 10 |
-| 盗贼 Thief | 不限 |
-| 盗贼／杂技师 Thief／Acrobat | 不限 |
-| 牧师（异教徒）Cleric (Heathen) | 5 |
-| 德鲁伊（异教徒）Druid (Heathen) | 不限 |
-| 星辰神圣教团 Holy Orders of the Stars | 不限 |
+| 骑士 | N/E* |
+| 圣武士 | N/E* |
+| 王冠骑士 | 10 |
+| 宝剑骑士 | 10 |
+| 玫瑰骑士 | 10 |
+| 战士 | 9 |
+| 野蛮人 | N/E* |
+| 巡林客 | 11 |
+| 魔法师（非法师） | 7 |
+| 幻术师（非法师） | N/E* |
+| 高等法术巫师 | 10 |
+| 盗贼 | 不限 |
+| 盗贼／杂技师 | 不限 |
+| 牧师（异教徒） | 5 |
+| 德鲁伊（异教徒） | 不限 |
+| 星辰神圣教团 | 不限 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -797,12 +797,12 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 3 | 18 |
-| 智力 Intelligence | 3 | 18 |
-| 智慧 Wisdom | 3 | 18 |
-| 敏捷 Dexterity | 6 | 18 |
-| 体质 Constitution | 3 | 18 |
-| 魅力 Charisma | 3 | 18 |
+| 力量 | 3 | 18 |
+| 智力 | 3 | 18 |
+| 智慧 | 3 | 18 |
+| 敏捷 | 6 | 18 |
+| 体质 | 3 | 18 |
+| 魅力 | 3 | 18 |
 
 ## 第 64 页
 
@@ -1274,52 +1274,52 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 ### 龙枪传奇熟练项 DRAGONLANCE Saga Proficiencies
 
-| 熟练项 Proficiency | 所需栏位 Slots Req. | 适用属性 Approp. Ability | 出处 Found in Book |
+| 熟练项 | 所需栏位 | 适用属性 | 出处 |
 |---|---:|---|---|
-| 警觉 Alertness | 1 | 智慧 Wis | WSG |
-| 动物处理 Animal Handling | 1 | 智慧 Wis | WSG |
-| 动物学识 Animal Lore | 1 | 智力 Int | WSG |
-| 动物叫声 Animal Noise | 1 | 智慧 Wis | DSG |
-| 驯兽师 Animal Trainer | 1* | 智慧 Wis | DSG |
-| 盔甲师 Armorer | 2* | 智力 Int | DSG |
-| 占星术 Astrology | 2 | 智力 Int | DLA |
-| 铁匠 Blacksmith | 1 | 力量 Str | DSG |
-| 盲斗 Blind-fighting | 1 | — | DSG |
-| 划船 Boating | 1 | 智慧 Wis | DSG |
-| 造船 Boatwright | 1 | 智力 Int | DSG |
-| 制弓／制箭 Bowyer/Fletcher | 1* | 敏捷 Dex | DSG |
-| 木匠 Carpenter | 1 | 力量 Str | DSG |
-| 驾车 Charioteering | 1 | 敏捷 Dex | WSG |
-| 方向感 Direction Sense | 1 | 智慧 Wis | DSG |
-| 耐力 Endurance | 2 | — | DSG |
-| 生火 Fire-building | 1 | 智慧 Wis | DSG |
-| 捕鱼 Fishing | 1* | 智慧 Wis | DSG |
-| 觅食 Foraging | 1 | 智力 Int | WSG |
-| 真菌鉴别 Fungus Identif. | 1 | 智力 Int | DSG |
-| 宝石切割 Gem Cutter | 2 | 敏捷 Dex | DSG |
-| 治疗 Healing | 2* | 智慧 Wis | DSG |
-| 狩猎 Hunting | 1 | 智慧 Wis | WSG |
-| 皮革工 Leatherworker | 1 | 智力 Int | DSG |
-| 矿工 Miner | 2* | 智慧 Wis | DSG |
-| 山地行进 Mountaineering | 1 | — | DSG |
-| 植物学识 Plant Lore | 1 | 智力 Int | WSG |
-| 陶工 Potter | 1 | 敏捷 Dex | DSG |
-| 空中骑乘 Riding, Airborne | 2 | 智慧 Wis | WSG |
-| 龙骑乘熟练项 Riding, Dragons | 2 | 敏捷 Dex | DLA |
-| 陆地骑乘 Riding, Land-based | 1 | 智慧 Wis | DSG |
-| 绳技 Rope Use | 1 | 敏捷 Dex | DSG |
-| 奔跑 Running | 2 | 体质 Con | WSG |
-| 缓慢呼吸 Slow Respiration | 1 | — | DSG |
-| 冶炼 Smelter | 1 | 智力 Int | DSG |
-| 声音分析 Sound Analysis | 1 | 智慧 Wis | DSG |
-| 石匠 Stonemason | 1 | 力量 Str | DSG |
-| 寒冷环境生存 Survival, Cold | 1 | — | WSG |
-| 沙漠生存 Survival, Desert | 2 | — | WSG |
-| 炎热环境生存 Survival, Heat | 1 | — | WSG |
-| 游泳 Swimming | 1 | 力量 Str | DSG |
-| 追踪 Tracking | 1 | — | WSG |
-| 武器匠 Weaponsmith | 3* | 智力 Int | DSG |
-| 天气感知 Weather Sense | 1 | 智慧 Wis | WSG |
+| 警觉 | 1 | 智慧 Wis | WSG |
+| 动物处理 | 1 | 智慧 Wis | WSG |
+| 动物学识 | 1 | 智力 Int | WSG |
+| 动物叫声 | 1 | 智慧 Wis | DSG |
+| 驯兽师 | 1* | 智慧 Wis | DSG |
+| 盔甲师 | 2* | 智力 Int | DSG |
+| 占星术 | 2 | 智力 Int | DLA |
+| 铁匠 | 1 | 力量 Str | DSG |
+| 盲斗 | 1 | — | DSG |
+| 划船 | 1 | 智慧 Wis | DSG |
+| 造船 | 1 | 智力 Int | DSG |
+| 制弓／制箭 | 1* | 敏捷 Dex | DSG |
+| 木匠 | 1 | 力量 Str | DSG |
+| 驾车 | 1 | 敏捷 Dex | WSG |
+| 方向感 | 1 | 智慧 Wis | DSG |
+| 耐力 | 2 | — | DSG |
+| 生火 | 1 | 智慧 Wis | DSG |
+| 捕鱼 | 1* | 智慧 Wis | DSG |
+| 觅食 | 1 | 智力 Int | WSG |
+| 真菌鉴别 | 1 | 智力 Int | DSG |
+| 宝石切割 | 2 | 敏捷 Dex | DSG |
+| 治疗 | 2* | 智慧 Wis | DSG |
+| 狩猎 | 1 | 智慧 Wis | WSG |
+| 皮革工 | 1 | 智力 Int | DSG |
+| 矿工 | 2* | 智慧 Wis | DSG |
+| 山地行进 | 1 | — | DSG |
+| 植物学识 | 1 | 智力 Int | WSG |
+| 陶工 | 1 | 敏捷 Dex | DSG |
+| 空中骑乘 | 2 | 智慧 Wis | WSG |
+| 龙骑乘熟练项 | 2 | 敏捷 Dex | DLA |
+| 陆地骑乘 | 1 | 智慧 Wis | DSG |
+| 绳技 | 1 | 敏捷 Dex | DSG |
+| 奔跑 | 2 | 体质 Con | WSG |
+| 缓慢呼吸 | 1 | — | DSG |
+| 冶炼 | 1 | 智力 Int | DSG |
+| 声音分析 | 1 | 智慧 Wis | DSG |
+| 石匠 | 1 | 力量 Str | DSG |
+| 寒冷环境生存 | 1 | — | WSG |
+| 沙漠生存 | 2 | — | WSG |
+| 炎热环境生存 | 1 | — | WSG |
+| 游泳 | 1 | 力量 Str | DSG |
+| 追踪 | 1 | — | WSG |
+| 武器匠 | 3* | 智力 Int | DSG |
+| 天气感知 | 1 | 智慧 Wis | WSG |
 
 \* 这些熟练项每次使用时都需要进行一次熟练项检定。
 

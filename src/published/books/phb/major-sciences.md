@@ -1,25 +1,25 @@
 主要学科以d20决定。标注职业限制的学科不可由该职业角色选取；表中注明重掷或改选的结果，依地下城主裁定处理。
 
-| 编号 | 主要学科 Major Discipline | 职业限制 |
+| 编号 | 主要学科 | 职业限制 |
 |:---:|:---:|:---:|
-| 1 | 星界投射 Astral Projection | — |
-| 2 | 灵光改变 Aura Alteration | — |
-| 3 | 身体控制 Body Control | — |
-| 4 | 任意门 Dimension Door | — |
-| 5 | 次元行走 Dimension Walk | — |
-| 6 | 能量控制 Energy Control | — |
-| 7 | 太虚化 Etherealness | — |
-| 8 | 群体支配 Mass Domination | 盗贼不可选 |
-| 9 | 心灵屏障 Mind Bar | — |
-| 10 | 分子操控 Molecular Manipulation | — |
-| 11 | 分子重组 Molecular Rearrangement | — |
-| 12 | 概率旅行 Probability Travel | — |
-| 13 | 心灵遥控 Telekinesis | — |
-| 14 | 心灵感应投射 Telempathic Projection | 战士不可选 |
-| 15 | 心灵传讯 Telepathy | — |
-| 16 | 心灵投射 Telepathic Projection | — |
-| 17 | 传送 Teleportation | — |
-| 18 | 形体改变 Shape Alteration | — |
+| 1 | 星界投射 | — |
+| 2 | 灵光改变 | — |
+| 3 | 身体控制 | — |
+| 4 | 任意门 | — |
+| 5 | 次元行走 | — |
+| 6 | 能量控制 | — |
+| 7 | 太虚化 | — |
+| 8 | 群体支配 | 盗贼不可选 |
+| 9 | 心灵屏障 | — |
+| 10 | 分子操控 | — |
+| 11 | 分子重组 | — |
+| 12 | 概率旅行 | — |
+| 13 | 心灵遥控 | — |
+| 14 | 心灵感应投射 | 战士不可选 |
+| 15 | 心灵传讯 | — |
+| 16 | 心灵投射 | — |
+| 17 | 传送 | — |
+| 18 | 形体改变 | — |
 | 19 | 重掷，或选择一项* | — |
 | 20 | 重掷，或改选两项次级学科* | — |
 

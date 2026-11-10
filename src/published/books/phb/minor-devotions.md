@@ -1,29 +1,29 @@
 次级学科以两枚骰子决定：掷d12和d6，组合结果对应下表。标注职业限制的学科不可由该职业角色选取；掷中不适用的结果时，依原书规则重掷或由地下城主裁定。
 
-| 编号 | 次级学科 Minor Discipline | 职业限制 |
+| 编号 | 次级学科 | 职业限制 |
 |:---:|:---:|:---:|
-| 1 | 动物心灵感应 Animal Telepathy | — |
-| 2 | 身体平衡 Body Equilibrium | — |
-| 3 | 身体武器化 Body Weaponry | 魔法师不可选 |
-| 4 | 细胞调整 Cell Adjustment | — |
-| 5 | 千里耳 Clairaudience | — |
-| 6 | 千里眼 Clairvoyance | — |
-| 7 | 侦测善良或邪恶 Detection of Good or Evil | — |
-| 8 | 侦测魔法 Detection of Magic | — |
-| 9 | 支配 Domination | 盗贼不可选 |
-| 10 | 共情 Empathy | 战士不可选 |
-| 11 | 心灵感应 ESP | — |
-| 12 | 扩大 Expansion | 牧师不可选 |
-| 13 | 催眠 Hypnosis | — |
-| 14 | 隐形 Invisibility | — |
-| 15 | 悬浮 Levitation | — |
-| 16 | 心控躯体 Mind Over Body | — |
-| 17 | 分子激发 Molecular Agitation | — |
-| 18 | 物品读取 Object Reading | 盗贼不可选 |
-| 19 | 预知 Precognition | — |
-| 20 | 缩小 Reduction | 牧师不可选 |
-| 21 | 感知心灵印象 Sensitivity to Psychic Impressions | — |
-| 22 | 暂停生命活动 Suspend Animation | — |
+| 1 | 动物心灵感应 | — |
+| 2 | 身体平衡 | — |
+| 3 | 身体武器化 | 魔法师不可选 |
+| 4 | 细胞调整 | — |
+| 5 | 千里耳 | — |
+| 6 | 千里眼 | — |
+| 7 | 侦测善良或邪恶 | — |
+| 8 | 侦测魔法 | — |
+| 9 | 支配 | 盗贼不可选 |
+| 10 | 共情 | 战士不可选 |
+| 11 | 心灵感应 | — |
+| 12 | 扩大 | 牧师不可选 |
+| 13 | 催眠 | — |
+| 14 | 隐形 | — |
+| 15 | 悬浮 | — |
+| 16 | 心控躯体 | — |
+| 17 | 分子激发 | — |
+| 18 | 物品读取 | 盗贼不可选 |
+| 19 | 预知 | — |
+| 20 | 缩小 | 牧师不可选 |
+| 21 | 感知心灵印象 | — |
+| 22 | 暂停生命活动 | — |
 | 23—24 | 重掷，或依地下城主裁定选择一项 | — |
 
 ## 次级学科详述 Minor Devotion Descriptions

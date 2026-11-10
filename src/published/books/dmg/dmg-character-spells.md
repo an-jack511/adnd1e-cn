@@ -28,17 +28,17 @@
 
 <strong>初始魔法师法术选择表 Starting Magic-User Spells</strong>
 
-| 掷骰 | 攻击法术 Offensive Spells | 防御法术 Defensive Spells | 杂项法术 Miscellaneous Spells |
+| 掷骰 | 攻击法术 | 防御法术 | 杂项法术 |
 |:---:|:---:|:---:|:---:|
-| 1 | 燃烧之手 Burning Hands | 影响常规火焰 Affect Normal Fires | 通晓语言 Comprehend Languages |
-| 2 | 魅惑人类 Charm Person | 舞光术 Dancing Lights | 侦测魔法 Detect Magic |
-| 3 | 扩大术 Enlarge | 羽落术 Feather Fall | 抹消术 Erase |
-| 4 | 交友术 Friends | 闩门术 Hold Portal | 寻找魔宠 Find Familiar |
-| 5 | 光亮术 Light | 跳跃术 Jump | 鉴定术 Identify |
-| 6 | 魔法飞弹 Magic Missile | 防护邪恶 Protection from Evil | 修复术 Mending |
-| 7 | 推力术 Push | 护盾术 Shield | 传讯术 Message |
-| 8 | 电爪 Shocking Grasp | 蜘蛛攀爬 Spider Climb | 隐形仆役 Unseen Servant |
-| 9 | 睡眠术 Sleep | 腹语术 Ventriloquism | 书写术 Write |
+| 1 | 燃烧之手 | 影响常规火焰 | 通晓语言 |
+| 2 | 魅惑人类 | 舞光术 | 侦测魔法 |
+| 3 | 扩大术 | 羽落术 | 抹消术 |
+| 4 | 交友术 | 闩门术 | 寻找魔宠 |
+| 5 | 光亮术 | 跳跃术 | 鉴定术 |
+| 6 | 魔法飞弹 | 防护邪恶 | 修复术 |
+| 7 | 推力术 | 护盾术 | 传讯术 |
+| 8 | 电爪 | 蜘蛛攀爬 | 隐形仆役 |
+| 9 | 睡眠术 | 腹语术 | 书写术 |
 | 0 | 自选 | 自选 | 自选 |
 
 由玩家自行作出上述选择。注意：<strong>诺斯托的魔法灵光术</strong>与<strong>谭森浮碟术</strong>必须由角色自行找到，初始时绝不可能已知。如果战役难度特别高，DM 可以自动允许角色获得这些法术。DM 还可以额外让角色选择一个防御法术或杂项法术，使其初始拥有 <strong>5 个法术</strong>。
