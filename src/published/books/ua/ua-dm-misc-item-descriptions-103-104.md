@@ -1,6 +1,6 @@
 以下译录原书印刷第 103–104 页；第 103 页开头承接上一页的<strong>主权胶</strong>说明。
 
-<!-- source: OCR/ua-raw/pages/page-104.png–page-105.png; 原书印刷 铂金币. 103–104 -->
+<!-- source: OCR/ua-raw/pages/page-104.png–page-105.png; 原书印刷 p. 103–104 -->
 
 ## 主权胶 Sovereign Glue
 
@@ -83,7 +83,7 @@
 | 15–19 | 6 次 |
 | 20 | 7 次 |
 
-经验值为每日使用次数 ×100（200–700），售价为每日使用次数 ×1,000（2,000–7,000 金币）。
+经验值为每日使用次数 ×100（200–700），售价为每日使用次数 ×1,000（2,000–7,00金币）。
 
 ## 护甲与盾牌的特殊说明 Armor and Shield
 
@@ -109,7 +109,7 @@
 
 ### 板甲 Plate Armor
 
-无论野战板甲还是全身板甲，只要穿戴者属于制造该甲的种族，魔力就会使护甲完美贴合其体型。魔法板甲还能吸收额外伤害：野战板甲每个“加值”可吸收 <strong>10 点</strong>，全身板甲每个“加值”可吸收 <strong>16 点</strong>。达到上限后必须修理，费用和时间与普通同类护甲相同：野战板甲每点 <strong>1 天、100 金币</strong>，全身板甲每点 <strong>2 天、200 金币</strong>；且只能由熟悉魔法防护装备制作与修理的护甲匠完成。
+无论野战板甲还是全身板甲，只要穿戴者属于制造该甲的种族，魔力就会使护甲完美贴合其体型。魔法板甲还能吸收额外伤害：野战板甲每个“加值”可吸收 <strong>10 点</strong>，全身板甲每个“加值”可吸收 <strong>16 点</strong>。达到上限后必须修理，费用和时间与普通同类护甲相同：野战板甲每点 <strong>1 天、10金币</strong>，全身板甲每点 <strong>2 天、20金币</strong>；且只能由熟悉魔法防护装备制作与修理的护甲匠完成。
 
 ## 剑的特殊说明 Swords
 
@@ -141,4 +141,5 @@
 
 阵营不符的生物在战斗中使用它时没有任何加值。阵营相符者使用时，它变为 <strong>+3</strong> 剑，每轮总是最后出手；但凡在同一轮较早攻击过持有者的敌人，无论是否命中，都会被它<strong>必然命中并造成伤害</strong>，次数不超过持有者每轮可进行的攻击次数。由于它只有 +3，免疫 +3 以下武器的生物不会受伤。
 
-每把剑的剑柄上镶有一颗价值 <strong>10,000 金币</strong>的宝石，九颗宝石类型各不相同，并有独特名称：<strong>回答者</strong>、<strong>回嘴者</strong>、<strong>结论者</strong>、<strong>最后妙语</strong>、<strong>反驳者</strong>、<strong>答复者</strong>、<strong>反击者</strong>、<strong>鞭笞者</strong>、<strong>喝止者</strong>。
+每把剑的剑柄上镶有一颗价值 <strong>10,00金币</strong>的宝石，九颗宝石类型各不相同，并有独特名称：<strong>回答者</strong>、<strong>回嘴者</strong>、<strong>结论者</strong>、<strong>最后妙语</strong>、<strong>反驳者</strong>、<strong>答复者</strong>、<strong>反击者</strong>、<strong>鞭笞者</strong>、<strong>喝止者</strong>。
+

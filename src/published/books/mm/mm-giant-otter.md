@@ -23,6 +23,6 @@
 
 若在巢穴中发现巨型水獭，那里总会有 <strong>5 只</strong>——<strong>2 只成年水獭与 3 只幼崽</strong>（成长至 <strong>40%–70%</strong>）。在这种情况下，成年水獭总会攻击；幼崽也会自卫。
 
-巨型水獭的毛皮售价为 <strong>1,000–4,000 金币</strong>。
+巨型水獭的毛皮售价为 <strong>1,000–4,00金币</strong>。
 
 <!-- source_pages: OCR/mm-raw/text/page-078.txt; printed page 77 -->

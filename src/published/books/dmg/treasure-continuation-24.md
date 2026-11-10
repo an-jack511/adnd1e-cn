@@ -33,7 +33,7 @@
 | R | 阵营永久逆转。 |
 | S | 必须献祭某种动物，才能令物品生效 <strong>1 天</strong>。 |
 | T | 必须献祭一名人类或玩家角色，才能令物品生效 <strong>1 天</strong>。 |
-| U | 必须献祭价值 <strong>10,000–60,000 金币</strong>的宝石和／或珠宝，才能令物品生效 <strong>1 天</strong>。 |
+| U | 必须献祭价值 <strong>10,000–60,000金币</strong>的宝石和／或珠宝，才能令物品生效 <strong>1 天</strong>。 |
 | V | 使用者陷入狂暴，随机攻击 <strong>20'</strong>范围内的生物（每轮检查），持续 <strong>5–20 轮</strong>。 |
 | W | 使用者疯狂 <strong>1–4 天</strong>。 |
 | X | 每次使用首要能力，使用者身高增加 <strong>½'</strong>。 |

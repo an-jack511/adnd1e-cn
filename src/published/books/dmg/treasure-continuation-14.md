@@ -27,10 +27,10 @@
 
 | d100 | 布贴生成物品 |
 |---:|---|
-| 01–08 | 装有 <strong>100 金币</strong>的袋子 |
-| 09–15 | 银箱（<strong>½' × ½' × 1'</strong>，价值 <strong>500 金币</strong>） |
+| 01–08 | 装有 <strong>100金币</strong>的袋子 |
+| 09–15 | 银箱（<strong>½' × ½' × 1'</strong>，价值 <strong>500金币</strong>） |
 | 16–22 | 铁门（最大 <strong>10' × 10'</strong>，一侧有横闩；必须竖直放置，会自行安装铰链） |
-| 23–30 | <strong>10 颗</strong>宝石，每颗价值 <strong>100 金币</strong> |
+| 23–30 | <strong>10 颗</strong>宝石，每颗价值 <strong>100金币</strong> |
 | 31–44 | 木梯，长 <strong>24'</strong> |
 | 45–51 | 带鞍袋的骡子 |
 | 52–59 | 敞开的坑洞，体积 <strong>10 立方尺</strong> |

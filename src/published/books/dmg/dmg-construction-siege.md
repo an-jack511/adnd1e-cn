@@ -128,7 +128,7 @@
 
 <strong>城垛 Battlement：</strong>设在墙顶、供弓手掩护的胸墙（或矮墙）、射孔与垛口。若墙顶平台不够宽，还必须另建走道（见上）。一段 <strong>14 尺</strong>长的城垛通常有两个宽 <strong>4 尺</strong>的垛口，以及两个宽 <strong>3 尺</strong>的射孔。
 
-<strong>石制建筑 Building, Stone：</strong>采用一层 <strong>1 尺</strong>厚的整形石或毛石砌筑，外墙总长 <strong>120 尺</strong>、高 <strong>20 尺</strong>，包括两层木楼板（第二层及阁楼）、两段楼梯、尖顶屋顶和一扇木门。地下室开挖、地面铺设、窗户、内部隔墙与额外门均另计。每增加一层 <strong>1 尺</strong>厚的石墙，费用为初始成本的 <strong>10%</strong>。因此，若墙厚增至 <strong>10 尺</strong>（建筑外部尺寸也相应增加），费用为 <strong>500 金币 + 90%</strong>，合计 <strong>950 金币</strong>。石制建筑成本也可用于估算地下城内部石墙的费用。
+<strong>石制建筑 Building, Stone：</strong>采用一层 <strong>1 尺</strong>厚的整形石或毛石砌筑，外墙总长 <strong>120 尺</strong>、高 <strong>20 尺</strong>，包括两层木楼板（第二层及阁楼）、两段楼梯、尖顶屋顶和一扇木门。地下室开挖、地面铺设、窗户、内部隔墙与额外门均另计。每增加一层 <strong>1 尺</strong>厚的石墙，费用为初始成本的 <strong>10%</strong>。因此，若墙厚增至 <strong>10 尺</strong>（建筑外部尺寸也相应增加），费用为 <strong>500金币 + 90%</strong>，合计 <strong>950金币</strong>。石制建筑成本也可用于估算地下城内部石墙的费用。
 
 <strong>木制建筑 Building, Wood：</strong>规格与上述石制建筑相同，但墙体以木板框架建造，总厚度为 <strong>¾ 尺</strong>。
 
@@ -138,17 +138,17 @@
 
 <strong>壕沟 Ditch：</strong>挖出的防御沟壑，沟壁倾斜、夯实并铺草皮。若紧贴壕沟一侧建有土堤，土堤费用仅为表列价格的 <strong>20%</strong>。壕沟价格也可用于估算地下室、地窖、地下城等的开挖费用。
 
-<strong>铁门 Door, Iron：</strong>铁门通常嵌入石墙，并用三根长铰链／支架固定。门由约 <strong>1 英寸</strong>厚的铁板构成，铁板栓在约为其一半厚度的门框上。按基本门价计算，每增加或减少 <strong>½ 英寸</strong>厚的铁料，每平方尺增减 <strong>2 金币</strong>。门的一侧装有铁闩。
+<strong>铁门 Door, Iron：</strong>铁门通常嵌入石墙，并用三根长铰链／支架固定。门由约 <strong>1 英寸</strong>厚的铁板构成，铁板栓在约为其一半厚度的门框上。按基本门价计算，每增加或减少 <strong>½ 英寸</strong>厚的铁料，每平方尺增减 <strong>2金币</strong>。门的一侧装有铁闩。
 
-<strong>暗门 Door, Secret：</strong>石制门扇以平衡重物或枢轴方式转动，并有隐藏机关触发。门更小时不减价；门更大时，每增加一平方尺加收 <strong>5 金币</strong>。
+<strong>暗门 Door, Secret：</strong>石制门扇以平衡重物或枢轴方式转动，并有隐藏机关触发。门更小时不减价；门更大时，每增加一平方尺加收 <strong>5金币</strong>。
 
-<strong>活板门 Door, Trap：</strong>厚约 <strong>2 英寸</strong>的坚固木门，嵌在地板中；门上装有铁环，可将其拉起。活板门每增加一平方尺，费用增加 <strong>1 银币</strong>。
+<strong>活板门 Door, Trap：</strong>厚约 <strong>2 英寸</strong>的坚固木门，嵌在地板中；门上装有铁环，可将其拉起。活板门每增加一平方尺，费用增加 <strong>1银币</strong>。
 
-<strong>木门 Door, Wooden：</strong>采用硬木（枫木、白蜡木等）制成的坚固门，厚约 <strong>3 英寸</strong>。门每增加或减少一平方尺木料，费用增减 <strong>2 银币</strong>。门的一侧以一根 <strong>2×4 英寸</strong>木闩锁住。
+<strong>木门 Door, Wooden：</strong>采用硬木（枫木、白蜡木等）制成的坚固门，厚约 <strong>3 英寸</strong>。门每增加或减少一平方尺木料，费用增减 <strong>2银币</strong>。门的一侧以一根 <strong>2×4 英寸</strong>木闩锁住。
 
-<strong>加固木门 Door, Wooden, Reinforced：</strong>厚 <strong>4 英寸</strong>的坚固橡木门，以铁带箍紧，并用 <strong>3×6 英寸</strong>橡木门闩锁住。每平方尺的规格调整费用为 <strong>5 银币</strong>。
+<strong>加固木门 Door, Wooden, Reinforced：</strong>厚 <strong>4 英寸</strong>的坚固橡木门，以铁带箍紧，并用 <strong>3×6 英寸</strong>橡木门闩锁住。每平方尺的规格调整费用为 <strong>5银币</strong>。
 
-<strong>吊桥 Drawbridge：</strong>由厚 <strong>6 英寸</strong>的硬木板铺成，以铁件加固，并连在穿过要塞墙体的粗铁链上。铁链通过绞盘和绞杆升起吊桥，再由棘爪与棘轮锁住。每平方尺的规格调整费用为 <strong>2 金币</strong>。
+<strong>吊桥 Drawbridge：</strong>由厚 <strong>6 英寸</strong>的硬木板铺成，以铁件加固，并连在穿过要塞墙体的粗铁链上。铁链通过绞盘和绞杆升起吊桥，再由棘爪与棘轮锁住。每平方尺的规格调整费用为 <strong>2金币</strong>。
 
 <strong>射孔挡板 Embrasure Shutters：</strong>用于遮蔽射孔的木板，分为两块独立挡板，紧贴两侧垛口安放，并可从底部向外翻开，以便弓箭射击。
 
@@ -172,7 +172,7 @@
 
 <strong>坑洞 Pit：</strong>在地面挖出的洞，上覆木制或金属盖板。敌人威胁到施工地点时，盖板会被移开。坑洞通常以整形石砌筑侧壁和底部。
 
-<strong>闸门 Portcullis：</strong>由加固木条或铁条组成的栅门，以配重和绞盘升降。每平方尺规格调整，费用增减 <strong>2 金币</strong>。
+<strong>闸门 Portcullis：</strong>由加固木条或铁条组成的栅门，以配重和绞盘升降。每平方尺规格调整，费用增减 <strong>2金币</strong>。
 
 <strong>土制壕堤 Rampart, Earth：</strong>层层夯实并覆以草皮的土墙，顶部通常设有木制栅栏（另见“壕沟”）。
 

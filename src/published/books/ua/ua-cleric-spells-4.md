@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 38–39 / printed 铂金币. 37–38 -->
+<!-- source: PDF p. 38–39 / printed p. 37–38 -->
 
 # 四环法术 Fourth Level Spells
 

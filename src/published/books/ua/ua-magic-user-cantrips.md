@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 46–47 / printed 铂金币. 45–46 -->
+<!-- source: PDF p. 46–47 / printed p. 45–46 -->
 
 # 魔法师小法术 Magic-User Spells: Cantrips
 

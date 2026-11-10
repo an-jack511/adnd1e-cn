@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 36–37 / printed 铂金币. 35–36 -->
+<!-- source: PDF p. 36–37 / printed p. 35–36 -->
 
 # 三环法术 Third Level Spells
 
@@ -45,77 +45,4 @@
 <strong>施法时间 Casting Time：</strong>5 段<br>
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
-牧师使自己或一名大小、质量约等于成人的生物，能承受最高 2,000°F 的非魔法火焰，并在对抗魔法火焰的豁免上获得 +2。施法者每比施展此术所需的最低 5 级高出 1 级，就能再影响一名成人大小的生物；也可将相应份额用在更大、更重的生物身上。例如 11 级牧师可同时保护自己及坐骑，令两者走过熔岩。计算份额时，马相当于 6 名人类，半身人大小的生物相当于 1/2 人，皮克精大小的生物相当于 1/4 人。材料成分为价值至少 500 金币的红宝石粉末，以及牧师的圣徽或邪徽。
-
-## 魔化法衣 Magical Vestment（咒法／变化系 Conjuration/Alteration）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 6 轮<br>
-<strong>影响范围 Area of Effect：</strong>牧师本人<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-此术魔化施法者的法衣，使其提供如同护甲的防护。只有牧师身处奉其神祇之名圣化的土地上才生效（见一环*典礼术*）。若施法期间穿着任何护甲或使用其他防护装置，法衣提供普通锁子甲的防护；若无其他防护，则牧师每 4 级再使法衣获得 +1 魔法加值，上限为锁子甲 +4（基础 AC 1）。效果持续至时限届满、牧师失去意识或离开圣化地区，以最早发生者为准。材料成分为待魔化的法衣及圣徽或邪徽。
-
-## 融身入石 Meld Into Stone（变化系 Alteration）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>8＋1d8 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-牧师站在一块足以在长、宽、高三个方向容纳其身体的大石旁，手持同种石材的一小块样本施法；完成后，其身体及最多 100 磅所穿戴、携带的无生命装备融身入石。神器与圣物不受影响。石块尺寸不足，或装备超过 100 磅，都会使法术失败且耗去。
-
-持续 9–16 轮（1d8＋8）；可变的 1d8 由地下城主秘密掷出。时限结束前，牧师可随时从进入时的同一石面走出；此术不能像*穿墙术*或*相位门*那样穿过石块。若时限到仍在石内，牧师被逐出并受 4d8（4–32）点伤害；每件随身装备必须通过石化豁免，否则化为石头。石内牧师能感知时间经过，但看不见也听不见石外情况。
-
-下列法术作用于牧师所在石块时会伤害他：*化石为肉*把他逐出并造成 4d8（4–32）点伤害，装备不须豁免；*塑石术*造成 4d4（4–16）点伤害，但不逐出；*化石为泥*把他逐出，除非法术豁免成功，否则立即死亡。
-
-## 负能量位面防护 Negative Plane Protection（防护系 Abjuration）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>一名主物质位面生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无；遭攻击时见下文</div>
-
-牧师自己或另一名合格生物获得部分防护，以抵御存在于负能量位面的不死生物，如幽影、尸妖、怨魂、幽魂或吸血鬼。法术开启通向正能量位面的通道，以其能量抵消不死生物攻击。受术者被这类不死生物触碰或攻击时，可作死亡魔法豁免。成功则正常承受生命值伤害，但不被吸取经验等级；不死生物反受正能量造成的 2d6（2–12）点伤害。若豁免失败，受术者除通常经验损失外，还要承受<strong>双倍</strong>通常肉体伤害。
-
-此防护只抵御一次这样的攻击，无论豁免结果如何，攻击后都消散。它也可抵御魔法师的*能量吸取*法术，但此时魔法师不受伤害。正负位面接触会闪出强光并发出雷鸣般的声音，两者都不会造成伤害。若此前未被触发，效果持续至每级 1 回合结束。此术不能在负能量位面施展。
-
-## 解除麻痹 Remove Paralysis（防护系 Abjuration，可逆）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>2″×2″ 范围内 1–4 名生物<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无；目标再作豁免见下文</div>
-
-牧师施法后指向目标，可使射程与影响范围内最多 4 名生物摆脱麻痹或类似效果（如*人类定身术*）。牧师与目标之间不得有物理或魔法屏障，否则法术失败且耗去。每名目标重新作一次对抗麻痹的豁免：仅影响一人时获得 +3，影响两人时 +2，影响三或四人时 +1。
-
-逆向法术*造成麻痹*只影响一名目标。牧师须用圣徽或邪徽接触目标并成功作命中检定；若目标法术豁免失败，就麻痹 1d6 轮再加每级施法者 1 轮。善良牧师应慎用逆向版本；某些善良教团可能完全禁止。
-
-## 水上行走 Water Walk（变化系 Alteration）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>1 回合＋每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-牧师使自己或一名大小、质量约等于成人的生物，能像踏在坚实草地上一样走在水面上（参见*水上行走戒指*）。施法者每比施展此术所需的最低 5 级高出 1 级，便可再影响一名成人大小的生物；也可用相应份额影响更大、更重的生物。例如 11 级牧师可在保护自己的同时，额外保护一匹马，从而骑马踏浪。计算时一匹马相当于 6 人。材料成分为一块软木及牧师的圣徽或邪徽。
+牧师使自己或一名大小、质量约等于成人的生物，能承受最高 2,000°F 的非魔法火焰，并在对抗魔法火焰的豁免上获得 +2。施法者每比施展此术所需的最低 5 级高出 1 级，就能再影响一名成人大小的生物；也可将相应份额用在更大、更重的生物身上。例如 11 级牧师可同时保护自己及坐骑，令两者走过熔岩。计算份额时，马相当于 6 名人类，半身人大小的生物相当于 1/2 人，皮克精大小的生物相当于 1/4 人。材料成分为价值至少 50

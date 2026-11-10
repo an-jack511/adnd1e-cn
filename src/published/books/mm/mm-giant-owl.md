@@ -23,6 +23,6 @@
 
 巨型猫头鹰会用两组锋利的利爪与强壮的喙攻击。它的羽毛使其飞行时几乎绝对无声，因此它能以 <strong>1–5</strong>（六面骰）进行突袭。
 
-这些生物很聪明，有时会与其他生物结交。若在其巢穴中遇到它们，有 <strong>20%</strong> 的概率会有 <strong>1–3 枚</strong>蛋（25%）或 <strong>1–3 只</strong>雏鸟（成长至 <strong>20%–70%</strong>）。父母总会攻击任何威胁蛋或雏鸟的生物。蛋在公开市场上售价 <strong>1,000 金币</strong>，幼鸟售价 <strong>2,000 金币</strong>。
+这些生物很聪明，有时会与其他生物结交。若在其巢穴中遇到它们，有 <strong>20%</strong> 的概率会有 <strong>1–3 枚</strong>蛋（25%）或 <strong>1–3 只</strong>雏鸟（成长至 <strong>20%–70%</strong>）。父母总会攻击任何威胁蛋或雏鸟的生物。蛋在公开市场上售价 <strong>1,00金币</strong>，幼鸟售价 <strong>2,00金币</strong>。
 
 <!-- source_pages: OCR/mm-raw/text/page-078.txt; printed page 77 -->

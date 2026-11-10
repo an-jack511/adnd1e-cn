@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 46–47 / printed 铂金币. 45–46 -->
+<!-- source: PDF p. 46–47 / printed p. 45–46 -->
 
 # 实用小法术 Useful Cantrips
 

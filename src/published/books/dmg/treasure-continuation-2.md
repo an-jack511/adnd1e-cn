@@ -37,7 +37,7 @@
 
 #### 速度之靴 Boots of Speed
 
-穿戴者可如同快马般奔跑，基础移动速度为 <strong>24"</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100 金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1"</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20"</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5"</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，速度之靴可使护甲等级改善 <strong>2 点</strong>。
+穿戴者可如同快马般奔跑，基础移动速度为 <strong>24"</strong>。超过 <strong>200 磅</strong>的体重部分（包括每 <strong>10 磅</strong>或等值 <strong>100金币</strong>重量的装备），每增加一份便使移动速度降低 <strong>1"</strong>。例如，一名体重 <strong>180 磅</strong>、携带 <strong>60 磅</strong>装备的人类，基础移动速度为 <strong>20"</strong>；若再携带一袋 <strong>500 枚金币</strong>，则速度再降低 <strong>5"</strong>。每持续快速移动 <strong>1 小时</strong>，穿戴者必须休息 <strong>1 小时</strong>。连续快速移动最多 <strong>8 小时</strong>，之后必须休息。若战斗中有足够空间使用此类移动，速度之靴可使护甲等级改善 <strong>2 点</strong>。
 
 #### 跑跳之靴 Boots of Striding and Springing
 

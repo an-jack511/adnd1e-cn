@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-092.png–page-093.png; 原书印刷 铂金币. 91–92 -->
+<!-- source: OCR/ua-raw/pages/page-092.png–page-093.png; 原书印刷 p. 91–92 -->
 
 以下按原书印刷第 91–92 页译录。直径中的 `″` 沿用原书距离单位。各卷轴的保护对象、朗读时间与有效期不同，使用时依具体条目。
 

@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 34–35 / printed 铂金币. 33–34 -->
+<!-- source: PDF p. 34–35 / printed p. 33–34 -->
 
 # 二环法术 Second Level Spells
 

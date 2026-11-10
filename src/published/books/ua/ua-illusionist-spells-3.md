@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-068.png–page-069.png; 原书印刷 铂金币. 68–69 -->
+<!-- source: OCR/ua-raw/pages/page-068.png–page-069.png; 原书印刷 p. 68–69 -->
 
 # 幻术师三环法术 Third Level Spells
 

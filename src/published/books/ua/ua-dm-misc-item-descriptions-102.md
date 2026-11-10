@@ -4,7 +4,7 @@
 
 ## 随取袋 Pouch of Accessibility
 
-外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,000 金币重量</strong>。每小袋最多装 <strong>100 金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、次元洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>10 金币重量</strong>，装满后重 <strong>40 金币重量</strong>。
+外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,00金币重量</strong>。每小袋最多装 <strong>10金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、次元洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>1金币重量</strong>，装满后重 <strong>4金币重量</strong>。
 
 ## 扎吉格的牢笼 Prison of Zagyg
 
@@ -46,3 +46,4 @@
 ## 缩小床单 Sheet of Smallness
 
 精良亚麻或丝绸布，两面图案或颜色不同，散发变化系灵光。把<strong>普通魔法物品</strong>（神器与遗物除外）裹在一面，可使其大小和重量变为原来的 <strong>1/12</strong>；用布的<strong>反面</strong>接触该物件重新包裹，则恢复原状。只影响无生命物品，缩小时物品<strong>不能使用，也不发挥功能</strong>。缩小或恢复均需整整 <strong>2 轮</strong>。
+

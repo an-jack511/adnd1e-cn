@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 17–19 / printed 铂金币. 16–18 -->
+<!-- source: PDF p. 17–19 / printed p. 16–18 -->
 
 # 德鲁伊 Druid
 

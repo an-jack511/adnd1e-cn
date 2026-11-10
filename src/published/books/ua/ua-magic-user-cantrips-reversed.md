@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 47–48 / printed 铂金币. 46–47 -->
+<!-- source: PDF p. 47–48 / printed p. 46–47 -->
 
 # 反向小法术 Reversed Cantrips
 

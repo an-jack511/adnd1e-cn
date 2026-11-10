@@ -14,14 +14,14 @@
 
 | 方法 | 费用 | 成效 |
 |:---:|:---:|:---:|
-| 在公共场所张贴告示 | 50 金币 | 10%—40% |
-| 雇人街头宣告 | 10 金币 | 1%—10% |
-| 雇人四处物色候选者 | 300 金币 | 20%—50% |
+| 在公共场所张贴告示 | 50金币 | 10%—40% |
+| 雇人街头宣告 | 10金币 | 1%—10% |
+| 雇人四处物色候选者 | 300金币 | 20%—50% |
 | 常去旅店与酒馆 | 特殊 | 特殊 |
 
-每种方法每月只能尝试 <strong>1 次</strong>，才有希望成功。组合使用时，每种方法的成效概率须减少 <strong>5%</strong>，以反映重复投入。常去旅店与酒馆的特殊费用，是请全店喝一轮酒，并另付费用让酒保向冒险者提及雇主。每支付 <strong>10 金币</strong>（最多 <strong>50 金币</strong>），找到随从的概率增加 <strong>1%—4%</strong>。
+每种方法每月只能尝试 <strong>1 次</strong>，才有希望成功。组合使用时，每种方法的成效概率须减少 <strong>5%</strong>，以反映重复投入。常去旅店与酒馆的特殊费用，是请全店喝一轮酒，并另付费用让酒保向冒险者提及雇主。每支付 <strong>10金币</strong>（最多 <strong>50金币</strong>），找到随从的概率增加 <strong>1%—4%</strong>。
 
-最多可以光顾 <strong>10 家</strong>旅店；每多光顾一家，其他旅店的成效都降低 <strong>1%</strong>。因此，若玩家角色打算在多家店使用此法，最好支付给旅店老板与酒保超过 <strong>20 金币</strong>。例如，玩家角色打算大张旗鼓地招募随从：张贴告示成效 <strong>30%</strong>；街头宣告成效 <strong>3%</strong>；雇人寻找成效 <strong>30%</strong>；另花 <strong>500 金币</strong>在旅店酒馆打听，平均成效为 <strong>15%</strong>（考虑重叠之后）。总覆盖率为 <strong>30% + 3% + 30% + 15% = 78%</strong>，再减去组合使用三种方法的 <strong>15%</strong>，最终成效为 <strong>63%</strong>。假定所有合格 NPC 随从中有 <strong>65%</strong> 会前来应征。最终成效百分比乘以可招募的 NPC 随从总数，即为应征人数。按当地种族比例分配人选，除非传播消息的方法遗漏了某个特定种族聚居区。
+最多可以光顾 <strong>10 家</strong>旅店；每多光顾一家，其他旅店的成效都降低 <strong>1%</strong>。因此，若玩家角色打算在多家店使用此法，最好支付给旅店老板与酒保超过 <strong>20金币</strong>。例如，玩家角色打算大张旗鼓地招募随从：张贴告示成效 <strong>30%</strong>；街头宣告成效 <strong>3%</strong>；雇人寻找成效 <strong>30%</strong>；另花 <strong>500金币</strong>在旅店酒馆打听，平均成效为 <strong>15%</strong>（考虑重叠之后）。总覆盖率为 <strong>30% + 3% + 30% + 15% = 78%</strong>，再减去组合使用三种方法的 <strong>15%</strong>，最终成效为 <strong>63%</strong>。假定所有合格 NPC 随从中有 <strong>65%</strong> 会前来应征。最终成效百分比乘以可招募的 NPC 随从总数，即为应征人数。按当地种族比例分配人选，除非传播消息的方法遗漏了某个特定种族聚居区。
 
 <strong>应征所需时间 Length of Time Required for Responses。</strong> 所有会前来应征的潜在随从，需要 <strong>2—8 天</strong>找到玩家角色并提出申请。在这段时间内，玩家角色必须留在已公布的应征地点；否则当天及之后各日的应征者都会错过。DM 确定总应征人数后，用人数除以消息传播所需天数（<strong>2—8 天</strong>），即可得到每日应征人数。若有零头，始终安排在第一或第二天到达。
 
@@ -41,7 +41,7 @@
 
 <strong>成功招募的成本 Cost of Successful Employment。</strong> 除了让潜在随从前来应征的费用，玩家角色还必须提出丰厚条件，包括以下方面：
 
-<strong>初始报酬 Initial Payment。</strong> 必须向应征者提供不少于其每级 <strong>100 金币</strong>的报酬。此条件使其接受职位的基础兴趣度为 <strong>25%</strong>。每额外增加 <strong>100 金币</strong>，兴趣度提高 <strong>10%</strong>，最高为 <strong>55%</strong>。
+<strong>初始报酬 Initial Payment。</strong> 必须向应征者提供不少于其每级 <strong>100金币</strong>的报酬。此条件使其接受职位的基础兴趣度为 <strong>25%</strong>。每额外增加 <strong>100金币</strong>，兴趣度提高 <strong>10%</strong>，最高为 <strong>55%</strong>。
 
 <strong>装备 Equipment。</strong> 必须按应征者的职业或兼职职业提供完整装备。若提供魔法物品（弓箭除外，但每 <strong>5 支</strong>算一组），且应征者能够使用，则会提高接受意愿；每件魔法物品使兴趣度提高 <strong>15%</strong>。
 

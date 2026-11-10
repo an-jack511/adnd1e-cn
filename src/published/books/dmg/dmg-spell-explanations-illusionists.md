@@ -26,7 +26,7 @@
 
 ### 幻文术 Illusionary Script
 
-含铅墨水售价 <strong>100–400 金币</strong>，另加炼金术士 <strong>100 金币</strong>的利润。
+含铅墨水售价 <strong>100–400金币</strong>，另加炼金术士 <strong>100金币</strong>的利润。
 
 ### 半径10尺隐形术 Invisibility, 10' Radius
 

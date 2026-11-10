@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-057.png–page-058.png; 原书印刷 铂金币. 56–58 -->
+<!-- source: OCR/ua-raw/pages/page-057.png–page-058.png; 原书印刷 p. 56–58 -->
 
 # 魔法师四环法术 Fourth Level Spells
 
@@ -60,7 +60,7 @@
 <strong>施法时间 Casting Time：</strong>1 小时<br>
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
-把一面普通镜子暂时变成类似*水晶球*的窥视器具；其基本用法见《地下城主指南》第 <strong>141 页</strong>水晶球说明。镜子必须是精工打磨、抛光的银镜，价值至少 <strong>1,000 金币</strong>。施法不损伤镜子，但消耗其他材料：隼、鹰或鹏鸟的眼睛，以及硝酸、铜和锌。
+把一面普通镜子暂时变成类似*水晶球*的窥视器具；其基本用法见《地下城主指南》第 <strong>141 页</strong>水晶球说明。镜子必须是精工打磨、抛光的银镜，价值至少 <strong>1,00金币</strong>。施法不损伤镜子，但消耗其他材料：隼、鹰或鹏鸟的眼睛，以及硝酸、铜和锌。
 
 可直接透过魔镜施展*巧言术*、*阅读魔法*、*巧言术 Tongues*、*红外视觉*和*紫外视觉*。*侦测魔法*、*侦测善恶*、*传讯术*和*侦测幻象*通过魔镜施展时，每施法者等级有 <strong>5%</strong> 概率正确生效。
 
@@ -118,4 +118,5 @@
 <strong>施法时间 Casting Time：</strong>4 段<br>
 <strong>豁免检定 Saving Throw：</strong>无</div>
 
-使受术者看见紫外光谱。通常夜里 <strong>100 码</strong>内如白昼清楚，<strong>100–300 码</strong>间朦胧难辨；若夜色极暗且乌云厚重，视程降低 <strong>50%</strong>。若头顶隔着约 <strong>6 尺以上泥土</strong>或 <strong>3 尺以上石头</strong>，如大多地下空间，紫外线被遮蔽，只能在约 <strong>3 尺半径</strong>内看见极微弱的景象；附近若有紫外发射源，视力相应改善。近处光源，包括魔法物品的光辉，会使远处暗区因亮光“炫目”而更难看清。材料成分是一颗碾碎的紫水晶，价值至少 <strong>500 金币</strong>。
+使受术者看见紫外光谱。通常夜里 <strong>100 码</strong>内如白昼清楚，<strong>100–300 码</strong>间朦胧难辨；若夜色极暗且乌云厚重，视程降低 <strong>50%</strong>。若头顶隔着约 <strong>6 尺以上泥土</strong>或 <strong>3 尺以上石头</strong>，如大多地下空间，紫外线被遮蔽，只能在约 <strong>3 尺半径</strong>内看见极微弱的景象；附近若有紫外发射源，视力相应改善。近处光源，包括魔法物品的光辉，会使远处暗区因亮光“炫目”而更难看清。材料成分是一颗碾碎的紫水晶，价值至少 <strong>50金币</strong>。
+

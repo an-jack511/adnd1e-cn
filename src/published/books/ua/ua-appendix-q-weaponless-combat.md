@@ -1,6 +1,6 @@
 以下译录原书印刷第 106–108 页。本附录承接杂项武器说明末尾的附录索引。
 
-<!-- source: OCR/ua-raw/pages/page-107.png–page-109.png; 原书印刷 铂金币. 106–108 -->
+<!-- source: OCR/ua-raw/pages/page-107.png–page-109.png; 原书印刷 p. 106–108 -->
 
 ## 系统 I：简易规则
 

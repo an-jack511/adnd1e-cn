@@ -328,7 +328,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 94–98 | 飞天扫帚 Broom of Flying | 10,000 |
 | 99–00 | 巴克纳德永满钱袋 Bucknard's Everfull Purse | 15,000／25,000／40,000 |
 
-* 每高于 AC 10 一档计价；例如 AC 6 的防御护腕价值为 <strong>2,000 XP</strong>，售出价值为 <strong>12,000 金币</strong>。
+* 每高于 AC 10 一档计价；例如 AC 6 的防御护腕价值为 <strong>2,000 XP</strong>，售出价值为 <strong>12,000金币</strong>。
 
 #### 表 E.2 Miscellaneous Magic Table E.2
 
@@ -368,7 +368,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 98–99 | 微视镜片 Eyes of Minute Seeing | 2,000 | 12,500 |
 | 00 | 石化之眼 Eyes of Petrification | — | —* |
 
-* 逆转效果的 XP 为 <strong>12,500</strong>，售价为 <strong>50,000 金币</strong>。
+* 逆转效果的 XP 为 <strong>12,500</strong>，售价为 <strong>50,000金币</strong>。
 
 * 按防护加值计价。  
 ** 假设拥有全部充能次数。
@@ -641,7 +641,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 攀爬 Climbing
 
-饮用后，角色可以像盗贼一样攀爬垂直表面，基础滑落与坠落概率仅为 <strong>1%</strong>。应在攀爬到一半时检查一次；掷 <strong>d%</strong>，结果为 <strong>01</strong>即表示坠落。药水效果持续 <strong>1 回合</strong>，另加 <strong>5–20 轮</strong>。角色每携带相当于 <strong>1,000 金币</strong>重量的物品，滑落概率额外增加 <strong>1%</strong>。穿着护甲时，按下表追加滑落／坠落概率：
+饮用后，角色可以像盗贼一样攀爬垂直表面，基础滑落与坠落概率仅为 <strong>1%</strong>。应在攀爬到一半时检查一次；掷 <strong>d%</strong>，结果为 <strong>01</strong>即表示坠落。药水效果持续 <strong>1 回合</strong>，另加 <strong>5–20 轮</strong>。角色每携带相当于 <strong>1,000金币</strong>重量的物品，滑落概率额外增加 <strong>1%</strong>。穿着护甲时，按下表追加滑落／坠落概率：
 
 | 护甲类型 | 追加概率 |
 |:---|:---:|
@@ -1714,7 +1714,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 1. <strong>#1：</strong>长出 <strong>3 只</strong>尖叫菌，并开始哀嚎。
 2. <strong>#2：</strong>该区域遭到冰风暴袭击。
-3. <strong>#3：</strong>长出一丛有毒覆盆子灌木，并射出活动的根须；每颗浆果都是一颗价值 <strong>100 或 500 金币</strong>的宝石（也可能只是毫无价值的玻璃）。
+3. <strong>#3：</strong>长出一丛有毒覆盆子灌木，并射出活动的根须；每颗浆果都是一颗价值 <strong>100 或 500金币</strong>的宝石（也可能只是毫无价值的玻璃）。
 4. <strong>#4：</strong>地面出现一个洞；洞下可能有一条紫虫，也可能有一枚召唤气巨灵戒指。
 5. <strong>#5：</strong>烟雾与毒气覆盖半径 <strong>50'</strong>的区域，持续 <strong>5 轮</strong>；生物看不见东西，离开云团后仍会目盲 <strong>1–6 轮</strong>。
 6. <strong>#6：</strong>一只飞龙瞬间长成并发动攻击；它的尾刺是“穿刺标枪”。

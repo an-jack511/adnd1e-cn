@@ -14,7 +14,23 @@
 | 76–90 | 8 |
 | 91–00 | 9 |
 
-必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>1,000 金币</strong>。
+必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>以下依原书印刷第 97 页译录 III.E.6 与 III.E.7 的新物品说明。
+
+<!-- source: OCR/ua-raw/pages/page-098.png; 原书印刷 p. 97 -->
+
+## 防不死生物护符 Amulet Versus Undead
+
+这枚受祝福的符号如牧师驱散不死生物一样有效。平时外表普通；在不死生物面前如圣徽般郑重展示时会明亮发光。发现护符时掷 d% 决定其驱散效力：
+
+| d% | 相当于牧师等级 |
+|:---:|:---:|
+| 01–30 | 5 |
+| 31–55 | 6 |
+| 56–75 | 7 |
+| 76–90 | 8 |
+| 91–00 | 9 |
+
+必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>1,00金币</strong>。
 
 ## 万能物品 Anything Item
 
@@ -31,3 +47,4 @@
 ## 北地靴 Boots of the North
 
 可在雪地以正常速度行走而<strong>不留下脚印</strong>；在最滑的<strong>水平</strong>冰面上以半速行走而不会摔倒或打滑，不适用于垂直或陡斜冰面。还会使佩戴者保暖：只穿缠腰布与斗篷等少量衣物，也能舒适地承受 <strong>−50°F</strong>；若穿足冬衣，可承受低至 <strong>−100°F</strong>。
+

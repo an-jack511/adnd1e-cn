@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-096.png–page-098.png; 原书印刷 铂金币. 95–97 -->
+<!-- source: OCR/ua-raw/pages/page-096.png–page-098.png; 原书印刷 p. 95–97 -->
 
 以下依原书印刷第 95–97 页译录。
 
@@ -62,19 +62,4 @@
 
 | 耗费 | 效果 |
 |:---:|:---|
-| 1 次充能 | 将黄金变成铅，或将铅变成黄金；射程 <strong>3″</strong>，转化 <strong>1–6 磅</strong>（10–60 金币重量）。 |
-| 2 次充能 | 如同德鲁伊同名法术*灼热金属*；射程 <strong>3″</strong>，只影响一处直径 <strong>3 英尺</strong>的区域，最多加热其中 <strong>600 金币重量</strong>的金属。 |
-| 3 次充能 | 从*晶化脆裂*、*玻璃化*、*玻璃钢*中任选一种，如<strong>第 18 级魔法师</strong>施展。 |
-
-## 改变大小魔杖 Wand of Size Alteration
-
-使几乎任何体型的单一生物放大或缩小 <strong>50%</strong>；相对力量和能力也按比例变化，条件是武器的大小相称或仍可使用。类人生物变大后的力量大致对应同体型巨人，例如高 <strong>9 英尺</strong>如丘陵巨人、力量 <strong>19</strong>，高 <strong>13 英尺</strong>如火巨人、力量 <strong>22</strong>。射程 <strong>1″</strong>；目标及穿戴携带物一起变化，除非目标豁免成功；自愿受术者无须豁免。
-
-*解除魔法*可取消效果，但目标须作<strong>系统冲击检定</strong>。持杖者也可在持续时间结束前自行取消，不耗充能；每次施加效果耗<strong>一次充能</strong>。<strong>12 级以上魔法师</strong>可再充能。
-
-## 蒸汽烟雾魔杖 Wand of Steam and Vapor
-
-两种功能各耗<strong>一次充能</strong>：
-
-- <strong>蒸汽 Steam：</strong>花 1 分段喷出高热蒸汽，锥体尺寸按原书为 <strong>1″ × 3″ × 5″</strong>。范围内生物首轮受 <strong>6d6</strong>、第二轮 <strong>4d6</strong>、第三轮 <strong>2d6</strong> 伤害；每轮豁免成功减半。使用或栖息于火中的生物一般不受伤害，除非它害怕潮湿。
-- <strong>烟雾 Vapor：</strong>花 1 分段形成温热水汽，雾云<strong>深 4″、高 6″、宽 8″</strong>，持续 <strong>6 轮</strong>；除非被自然或魔法风吹动，否则停在原处。使用寒冷力量的生物在云中每轮受 <strong>1 点</strong>伤害，寒冷环境生物受<strong>双倍</strong>。
+| 1 次充能 | 将黄金变成铅，或将铅变成黄金；射程 <strong>3″</strong>，转化 <strong>1–6 磅</strong>（10–6

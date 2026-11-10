@@ -18,7 +18,7 @@ David Howery · 第 42、43 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>1–12</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>12″／游泳 6″</td></tr><tr><th scope="row">生命骰</th><td>9</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次前足攻击</td></tr><tr><th scope="row">伤害</th><td>2d6／2d6</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>动物</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>新生代地形，见正文</td></tr></tbody></table></div>
 
-铲齿象生活在中新世植被繁茂的河流和沼泽中。它的下颌向前伸成约六英尺半的铲状结构，短象鼻、笨重下颌与位置不利的象牙都不适合战斗，因此只用两只前脚攻击。每根短象牙价值 100–300 金币。近似的扁铲齿象 Platybelodon 有更宽的铲状下颌，可以沿用这份资料。
+铲齿象生活在中新世植被繁茂的河流和沼泽中。它的下颌向前伸成约六英尺半的铲状结构，短象鼻、笨重下颌与位置不利的象牙都不适合战斗，因此只用两只前脚攻击。每根短象牙价值 100–300金币。近似的扁铲齿象 Platybelodon 有更宽的铲状下颌，可以沿用这份资料。
 
 ## 阿斯特拉波兽 Astrapotherium
 
@@ -60,7 +60,7 @@ David Howery · 第 42、44、45 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>稀有</td></tr><tr><th scope="row">出现数量</th><td>1–8</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>10</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次象牙攻击、两次前足攻击</td></tr><tr><th scope="row">伤害</th><td>3d4／3d4／4d4／4d4</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>动物</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>新生代地形，见正文</td></tr></tbody></table></div>
 
-恐象是中新世的象类远亲，有短鼻、下弯的短象牙、小耳朵和倾斜的背部。它的鼻子不足以参战，战斗依靠象牙和前脚；每根象牙价值 100–400 金币。原刊认为，在 AD&D 世界中，它可以比乳齿象更适合作为 MM2 奥利象的近亲，但不因此把两种生物合成同一份统计。
+恐象是中新世的象类远亲，有短鼻、下弯的短象牙、小耳朵和倾斜的背部。它的鼻子不足以参战，战斗依靠象牙和前脚；每根象牙价值 100–400金币。原刊认为，在 AD&D 世界中，它可以比乳齿象更适合作为 MM2 奥利象的近亲，但不因此把两种生物合成同一份统计。
 
 ## 巨猿 Gigantopithecus
 
@@ -234,4 +234,4 @@ David Howery · 第 9、14 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>常见</td></tr><tr><th scope="row">出现数量</th><td>10–100</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>4″／游泳 12″</td></tr><tr><th scope="row">生命骰</th><td>6；雌性 5</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次象牙攻击或一次尾拍</td></tr><tr><th scope="row">伤害</th><td>1–8／1–8，或 2–7</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>见正文</td></tr></tbody></table></div>
 
-海象的群体和性别说明沿用本篇海豹：约 30% 为雄性，雌性生命骰按括注值 5 HD；原刊没有另列雌性的象牙或尾拍伤害。每根海象牙价值 6–36 金币。
+海象的群体和性别说明沿用本篇海豹：约 30% 为雄性，雌性生命骰按括注值 5 HD；原刊没有另列雌性的象牙或尾拍伤害。每根海象牙价值 6–36金币。

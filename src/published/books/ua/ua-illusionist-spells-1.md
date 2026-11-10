@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-066.png–page-067.png; 原书印刷 铂金币. 66–67 -->
+<!-- source: OCR/ua-raw/pages/page-066.png–page-067.png; 原书印刷 p. 66–67 -->
 
 # 幻术师一环法术 First Level Spells
 
@@ -39,47 +39,4 @@
 8. <strong>石化：</strong> 除非对石化豁免成功，目标化为石头；即便豁免成功，也会如受*减速术*影响 <strong>2–8 轮</strong>。
 9. <strong>致死：</strong> 除非对死亡魔法豁免成功，目标死亡；即便豁免成功，也会麻痹 <strong>2–5 轮</strong>。
 
-材料成分是与所选颜色相符的宝石，或钻石等透明晶体。颜色合适时，价值低至 <strong>50 金币</strong>的宝石即可。
-
-## 幻影护甲 Phantom Armor（变化／幻术系 Alteration/Illusion）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一人<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-造出一套半真实的板甲，包覆受术者。它有实际防护力，但敌人若主动怀疑并<strong>对法术豁免成功</strong>，便不再受其欺骗；*解除幻象*、*解除魔法*或*消除法杖*也能消去护甲。在消失或被识破之前，它按板甲提供 <strong>AC 3</strong>，护甲类别也按 <strong>3</strong>计算。
-
-每施法者等级，护甲可吸收 <strong>1 点</strong>原本会命中 AC 3 的打击伤害；累计吸收达到施法者等级数时即消散，多出的伤害及以后伤害由穿戴者承受。对于魔法盔甲通常能修正的各种攻击豁免，它另赋予 <strong>＋1</strong>。它不妨碍移动或施法，不受锈蚀怪攻击；这一点可能加强敌人对其真实性的怀疑。它不能与其他任何魔法防护并用。材料是一片价值 <strong>10 金币</strong>的小秘银片，施法时消失。
-
-## 阅读幻术魔法 Read Illusionist Magic（预言系 Divination，可逆）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每级 2 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-如魔法师一环*阅读魔法*，但仅适用于幻术师能够使用、由幻术师使用的法术，以及幻术师以幻术师式魔法文字写成的其他铭文。原书标为<strong>可逆</strong>，但本段没有另述逆向效果。
-
-## 惊吓术 Spook（幻术／幻影系 Illusion/Phantasm）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>幻术师 <strong>1″</strong>内一个生物<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
-
-利用目标本有的恐惧，使它把幻术师看成自己敌视、害怕的人或物。施法者无须知道那究竟是什么，只要威胁地朝目标前进即可。若目标对法术豁免失败，它会迅速转身，尽可能沿远离幻术师的方向逃跑，效果如*恐惧法杖*，但不会扔下携带物。施法者虽不真正追赶，目标脑中的幻象却会继续追它。
-
-初次施法后的每轮，目标可再度对法术豁免，且每轮累积 <strong>＋1</strong>；成功即破除法术。此术只对<strong>智力至少 1</strong>的生物有效。
+材料成分是与所选颜色相符的宝石，或钻石等透明晶体。颜色合适时，价值低至 <strong>5

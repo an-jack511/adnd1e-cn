@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-081.png–page-082.png; 原书印刷 铂金币. 81–82 -->
+<!-- source: OCR/ua-raw/pages/page-081.png–page-082.png; 原书印刷 p. 81–82 -->
 
 # 冒险：水下施法 Underwater Spell Use
 

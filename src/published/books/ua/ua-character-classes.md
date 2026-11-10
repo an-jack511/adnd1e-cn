@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 13–14 / printed 铂金币. 12–13 -->
+<!-- source: PDF p. 13–14 / printed p. 12–13 -->
 
 # 角色职业 Character Classes
 

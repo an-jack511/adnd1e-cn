@@ -174,7 +174,7 @@ Greg Holley · 第 46 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>0</td></tr><tr><th scope="row">移动</th><td>18″／游泳 24″</td></tr><tr><th scope="row">生命骰</th><td>6+2 至 13+4</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>成长会消耗财宝，见正文</td></tr><tr><th scope="row">攻击次数</th><td>2–5 次，依生命骰</td></tr><tr><th scope="row">伤害</th><td>每次 1–10 至 4–32，依生命骰</td></tr><tr><th scope="row">特殊攻击</th><td>溺水；愿望</td></tr><tr><th scope="row">特殊防御</th><td>普通武器半伤；特殊元素抗性</td></tr><tr><th scope="row">魔法抗性</th><td>10%</td></tr><tr><th scope="row">智力</th><td>神等</td></tr><tr><th scope="row">阵营</th><td>中立；10% 为随机阵营</td></tr><tr><th scope="row">体型</th><td>L，长 15–30 英尺、直径 3–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>主物质位面的许愿井；水元素位面</td></tr></tbody></table></div>
 
-许愿井灵诞生于水元素位面，约 250–300 岁时以 6+2 HD 来到主物质位面，独居许愿井，外形类似水元素。每积存相当于每生命骰 5,000 金币的财宝就消耗它并成长一级，固定生命值加值依成长表改变；例如 8+2 HD 积累四万金币变为 9+3。达到 13+4 HD 后再积六万五千金币，就传回水元素位面成为成体，因此井中财宝通常低于当前每 HD 五千金币。
+许愿井灵诞生于水元素位面，约 250–300 岁时以 6+2 HD 来到主物质位面，独居许愿井，外形类似水元素。每积存相当于每生命骰 5,000金币的财宝就消耗它并成长一级，固定生命值加值依成长表改变；例如 8+2 HD 积累四万金币变为 9+3。达到 13+4 HD 后再积六万五千金币，就传回水元素位面成为成体，因此井中财宝通常低于当前每 HD 五千金币。
 
 以伪足拍击，天然命中 19 或 20 时开始使对手溺水。被困者还能生存 2–5 轮，再加体质生命值调整的一半（体质低于 7 时可能为负）；不能攻击，每轮可对龙息豁免，每溺水一轮累积 −2。成功即挣脱，下一轮可战斗，但之后 3–6 轮命中 −3。
 

@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 14–17 / printed 铂金币. 13–16 -->
+<!-- source: PDF p. 14–17 / printed p. 13–16 -->
 
 # 骑士 Cavalier
 

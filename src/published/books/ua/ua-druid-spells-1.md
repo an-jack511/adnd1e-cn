@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 42–43 / printed 铂金币. 41–42 -->
+<!-- source: PDF p. 42–43 / printed p. 41–42 -->
 
 # 一环法术 First Level Spells
 

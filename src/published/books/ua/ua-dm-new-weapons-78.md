@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-077.png–page-078.png; 原书印刷 铂金币. 77–78 -->
+<!-- source: OCR/ua-raw/pages/page-077.png–page-078.png; 原书印刷 p. 77–78 -->
 
 # 新武器说明（二） Descriptions of New Weapon Types, Part II
 

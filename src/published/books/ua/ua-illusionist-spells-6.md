@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-070.png–page-071.png; 原书印刷 铂金币. 70–71 -->
+<!-- source: OCR/ua-raw/pages/page-070.png–page-071.png; 原书印刷 p. 70–71 -->
 
 # 幻术师六环法术 Sixth Level Spells
 

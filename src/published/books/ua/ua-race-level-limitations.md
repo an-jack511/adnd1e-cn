@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 9–10 / printed 铂金币. 8–9 -->
+<!-- source: PDF p. 9–10 / printed p. 8–9 -->
 
 # 角色种族表 II：职业等级上限 Character Race Table II: Class Level Limitations
 

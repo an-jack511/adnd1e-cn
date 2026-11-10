@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-059.png–page-061.png; 原书印刷 铂金币. 59–61 -->
+<!-- source: OCR/ua-raw/pages/page-059.png–page-061.png; 原书印刷 p. 59–61 -->
 
 # 魔法师六环法术 Sixth Level Spells
 
@@ -36,69 +36,4 @@
 
 触发条件须清楚，可以相当概括。例如“被水或类似液体淹没时”立刻触发*气水术*，“跌落超过 2″时”触发*羽落术*。条件发生后，伴随法术<strong>瞬间生效</strong>；设计得太复杂、纠结或含混，可能使整套法术在需要时失败。
 
-除伴随法术材料外，还需价值 <strong>100 金币</strong>的水银、一尊用象牙刻成的施法者小像，以及食人魔法师、麒麟或类似施法生物的一根睫毛。象牙像不在施法时消耗，但必须由施法者随身携带，触发术才会触发。
-
-## 陷捕术 Ensnarement（咒法／召唤系 Conjuration/Summoning）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 回合<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
-
-在异位面强大生物面前显现一扇像异界之门的开口，诱它踏入预设陷阱，直到它答应以一次服务换取自由。施法者须说出目标<strong>生物种类</strong>；若有特定名称、专名或本人姓名，也须说出。目标先检定能否识破陷阱：以 <strong>3d6 掷得不高于自身智力</strong>为成功。若目标智力较施法者高，骰值减去差额；若施法者智力较高，骰值加上差额。成功者忽略开口，法术失败；失败者走入开口而被困。
-
-陷住目标不等于防止它伤害施法者，故须预设相应屏障：对上层位面或星界生物用<strong>魔法圆阵</strong>；对以太、元素或绝对中立位面生物用<strong>奇术三角阵</strong>；对下层与炼狱位面生物用<strong>五芒星阵</strong>。生物仍有冲破屏障的概率：<strong>手绘阵基础 20%</strong>；<strong>镶嵌或刻入阵基础 10%</strong>，只在第一次用来判定制作是否正确。比较“施法者智力＋等级”与“目标智力＋等级或生命骰”：施法者总和较高，差额从脱困概率中减去；目标较高则加上。
-
-可进一步精制屏障。手绘阵若用特殊颜料耐心刻画，每花 <strong>1 回合和 1,000 金币</strong>，基础脱困率减 <strong>1%</strong>；镶嵌／刻入阵若再嵌金属和矿物，至少需 <strong>1 个月</strong>，且在原制作费外再花至少 <strong>50,000 金币</strong>，可将基础率降至 <strong>0%</strong>。但仍须计算上述智力与等级差，无法用准备工作消除该风险。任何保护线断裂或守护字形模糊都会立即使屏障无效；一根稻草横落圆阵线条也足以破坏它。被困生物自身却不能放上稻草，屏障会绝对阻止它。
-
-安全捕获后，施法者可用贿赂、承诺或威胁索取<strong>一次服务</strong>。地下城主给提出的条件评 <strong>0–6 分</strong>，从目标智力中减去；目标再次以掷得<strong>不高于调整后智力</strong>为成功，成功便<strong>拒绝</strong>服务。可改变提议，或在 <strong>24 小时</strong>后重提；因囚禁，目标智力届时降 <strong>1 点</strong>。这样反复至其答应、逃脱或被施法者用别的法术送走。其他法术也可能迫其屈服。
-
-完成约定服务后，目标只须告知施法者便会瞬间传回原处；它仍可寻求报复。不可能完成或极不合理的命令，它绝不会同意。
-
-## 摄心目光 Eyebite（附魔／魅惑、幻术／幻影系 Enchantment/Charm, Illusion/Phantasm）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>20 尺<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
-
-施法者与目标对视、说出一个词，便可选用下列<strong>四种效果之一</strong>；用过一次后，本术立即消散。
-
-- <strong>魅惑 Charm：</strong>目标无比忠诚、温顺，甚至愿为施法者涉险；其他规则同*魅惑人类*或*魅惑怪物*。<strong>对法术豁免</strong>成功则无效。
-- <strong>恐惧 Fear：</strong>目标如同受*恐惧术*影响，除非对法术豁免成功。
-- <strong>恶疾 Sicken：</strong>目标突发恶心、发热和痛楚，力量、智力等各项能力及移动速度都降至<strong>一半</strong>；没有属性值的生物不受影响。每回合须休息一半时间才能继续移动。豁免成功则无效；失败者每天失去 <strong>1 点实际体质</strong>，降至 0 时死亡。成功的*解除魔法*、*医疗术*、*改变现实*、*有限许愿术*或*祈愿术*可移除此症，*治愈疾病*则不能。非人类、非亚人类、非类人生物对该效果的豁免获得 <strong>＋4</strong>。
-- <strong>睡眠 Sleep：</strong>目标豁免失败便陷入昏睡。通常会受一环*睡眠术*影响的生物在此豁免承受 <strong>−2</strong>；不死生物免疫。须摇醒或以其他刺激使受术者恢复意识。
-
-## 魔邓肯冥思术 Mordenkainen's Lucubration（变化系 Alteration）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>施法者本人<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
-
-立即回想起过去 <strong>24 小时</strong>内曾经<strong>记忆并实际施展</strong>、随后遗忘的<strong>一至五环</strong>法术之一，仿佛该法术从未施展过。每次只能恢复一个；下一轮起可正常再施展。若该法术需要材料成分，施法者仍须备有材料，否则暂时不能施展回想起的法术。
-
-## 化水为尘 Transmute Water to Dust（变化系 Alteration，可逆向）
-
-<div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>6″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 立方″<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无；特殊目标见下文</div>
-
-效果与[德鲁伊六环的同名法术](/books/ua/ua-druid-spells-6/)相同：将水变为尘，按浑水、湿泥调整体积；对原生水元素位面的生物有特殊豁免，逆向则大量造水。魔法师版本<strong>不需要槲寄生</strong>作为材料成分，且施法时间为 <strong>6 段</strong>，德鲁伊版为 <strong>8 段</strong>。
+除伴随法术材料外，还需价值 <strong>10

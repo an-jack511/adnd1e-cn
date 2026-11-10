@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 29–30 / printed 铂金币. 28–29 -->
+<!-- source: PDF p. 29–30 / printed p. 28–29 -->
 
 # 魔法师法术表 Magic-Users, Spells
 

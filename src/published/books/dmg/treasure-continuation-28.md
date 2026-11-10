@@ -33,9 +33,9 @@
 | 48–54 | 在 <strong>12"</strong>范围内制造幻象，每日 <strong>2 次</strong>，效果如同魔杖 |
 | 55–61 | 悬浮术，持续 <strong>1 回合</strong>；每日 <strong>3 次</strong>，按 <strong>6 级施法者</strong>能力运作 |
 | 62–67 | 每日增强力量 <strong>1 次</strong>（仅作用于持有者） |
-| 68–75 | 心灵遥控，最大重量 <strong>2,500 金币</strong>；每日 <strong>2 次</strong>，每次 <strong>1 轮</strong> |
+| 68–75 | 心灵遥控，最大重量 <strong>2,500金币</strong>；每日 <strong>2 次</strong>，每次 <strong>1 轮</strong> |
 | 76–81 | 在 <strong>6"</strong>范围内进行心灵感应，每日 <strong>2 次</strong> |
-| 82–88 | 每日传送 <strong>1 次</strong>，最大负重 <strong>6,000 金币</strong>；启动需 <strong>2 段</strong> |
+| 82–88 | 每日传送 <strong>1 次</strong>，最大负重 <strong>6,000金币</strong>；启动需 <strong>2 段</strong> |
 | 89–94 | 在 <strong>4"</strong>范围内透视，每日 <strong>2 次</strong>，每次持续 <strong>1 回合</strong> |
 | 95–97 | 在本表再掷两次；忽略 <strong>95–97</strong> 的结果 |
 | 98–99 | 角色可从本表自选 <strong>1 项</strong>能力 |

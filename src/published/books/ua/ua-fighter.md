@@ -1,4 +1,4 @@
-<!-- source: PDF 铂金币. 19–20 / printed 铂金币. 18–19 -->
+<!-- source: PDF p. 19–20 / printed p. 18–19 -->
 
 # 战士 Fighter
 

@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-074.png–page-075.png; 原书印刷 铂金币. 74–75 -->
+<!-- source: OCR/ua-raw/pages/page-074.png–page-075.png; 原书印刷 p. 74–75 -->
 
 以下依原书印刷第 74–75 页译录。随从为武装士兵；部属人数受魅力限制；侍从则是随骑士成长而必须配备的专门人员。
 

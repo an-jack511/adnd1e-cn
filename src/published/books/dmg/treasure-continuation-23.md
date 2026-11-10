@@ -109,7 +109,7 @@
 | JJ | 每天 <strong>2 次</strong>与怪物交谈。 |
 | KK | 每天 <strong>1 次</strong>施展“化石为肉”。 |
 | LL | 每天 <strong>2 次</strong>施展“暗示术”。 |
-| MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000 金币</strong>重的物体。 |
+| MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000金币</strong>重的物体。 |
 | NN | 每天 <strong>2 次</strong>施展“传送术”，不会出错。 |
 | OO | 每天 <strong>2 次</strong>施展“化石为泥”。 |
 | 铂金币 | 每天 <strong>1 次</strong>获得“真知术”。 |
