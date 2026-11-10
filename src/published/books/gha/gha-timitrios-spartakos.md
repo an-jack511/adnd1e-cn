@@ -1,7 +1,7 @@
 
 ## 蒂米特里奥斯·斯巴达科斯 Timitrios Spartakos
 
-<strong>魔法使用者——大王国</strong>
+<strong>魔法师——大王国</strong>
 
 | 项目 | 数据 |
 | --- | --- |

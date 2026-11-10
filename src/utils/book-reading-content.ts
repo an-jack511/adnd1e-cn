@@ -65,7 +65,27 @@ function normalizeChineseSpacing(content:string) {
   .replace(/([（【《『“‘])\s+(?=[\u3400-\u9fff])/g,'$1');
 }
 function normalizeReadingTerminology(book:string,content:string) {
- return content.replaceAll('游侠','巡林客').replaceAll('THACO','THAC0');
+ return content
+  .replaceAll('游侠','巡林客')
+  .replaceAll('魔法使用者与附魔生物','施法生物与附魔生物')
+  .replaceAll('魔法使用者','魔法师')
+  .replaceAll('非武器专长','非武器熟练项')
+  .replaceAll('武器专长','武器熟练项')
+  .replaceAll('角色专长','角色熟练项')
+  .replaceAll('改进专长','改进熟练项')
+  .replaceAll('初始专长','初始熟练项')
+  .replaceAll('获得的专长','获得的熟练项')
+  .replaceAll('额外专长','额外熟练项')
+  .replaceAll('一项新专长','一项新熟练项')
+  .replaceAll('已有专长','已有熟练项')
+  .replaceAll('该专长','该熟练项')
+  .replaceAll('所用专长','所用熟练项')
+  .replaceAll('专长相关','熟练项相关')
+  .replaceAll('专长支配','熟练项支配')
+  .replaceAll('专长检定','熟练项检定')
+  .replaceAll('专长栏位','熟练项栏位')
+  .replaceAll('专长 Proficiency','熟练项 Proficiency')
+  .replaceAll('THACO','THAC0');
 }
 export const headingLabel=(html:string)=>html.replace(/<[^>]+>/g,'').split(/\s+·\s+|\s+(?=[A-Z])/)[0].replace(/[\s：:·（）()]/g,'');
 

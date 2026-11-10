@@ -29,8 +29,8 @@
 | 野狗（Dog, Wild） | 7 | 15” | 1+1 | 8 | 1 | 1d4 | 否 | 否 | N | 18 | dl2-30 |
 | 麋鹿（Elk） | 8 | 18” | 3 | 15 | 1 | 1d4 | 否 | 否 | N | 16 | dl2-30 |
 | <strong>奎利内斯提精灵（Qualinesti Elf）：边境巡逻（Border Patrol）</strong> | 5 | 12” | 2+2 | 17 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl1-8 |
-| <strong>奎利内斯提精灵：战士（Fighter）</strong> | 4 | 12” | 3 | 20 | 1 | 1d8+2 或 1d6+1 | 否 | 否 | LG | 17 | dl2-12 |
-| <strong>奎利内斯提精灵：魔法使用者（Magic-User）</strong> | 8 | 12” | 5 | 13 | 1 | 1d4 | 是 | 否 | LG | 20 | dl2-12 |
+| <strong>奎利内斯提精灵：战士 Fighter</strong> | 4 | 12” | 3 | 20 | 1 | 1d8+2 或 1d6+1 | 否 | 否 | LG | 17 | dl2-12 |
+| <strong>奎利内斯提精灵：魔法师 Magic-User</strong> | 8 | 12” | 5 | 13 | 1 | 1d4 | 是 | 否 | LG | 20 | dl2-12 |
 | <strong>奎利内斯提精灵：战士（Warriors）</strong> | 5 | 12” | 1+1 | 7 | 1 | 1d8+1 或 1d6 | 否 | 否 | LG | 19 | dl2-12 |
 | 巨蛙（Frog, Giant） | 7 | 3”/9” | 3 | 16 | 1 | 2d4 | 是 | 否 | N | 16 | M-41 |
 | 沼喉怪（Froghemoth） | 2/4/6 | 2”/18” | 1 | 69 | 5 | 15d10 | 是 | 是 | N | 7 | M2-67 |
@@ -60,7 +60,7 @@
 | 熊地精（Hobgoblin） | 5 | 9” | 1+1 | 5 | 1 | 1d8 | 否 | 否 | LE | 18 | dl1-4 |
 | 巨型水蛭（Leech, Giant） | 9 | 3” | 4 | 18 | 1 | 1d4 | 是 | 否 | N | 15 | M-60 |
 | 坎德人（Kender） | 5 | 9” | 3 | 12 | 1 | 1d4 | 是 | 否 | CG | 20 | DL-51 |
-| <strong>人类：自由战士（Man: Freedom Fighter）</strong> | 7 | 12” | 3 | 18 | 1 | 1d8 | 否 | 否 | NG | 18 | dl1-14 |
+| <strong>人类：自由战士 Man: Freedom Fighter</strong> | 7 | 12” | 3 | 18 | 1 | 1d8 | 否 | 否 | NG | 18 | dl1-14 |
 | <strong>人类：角斗士（Gladiator）</strong> | 4 | 9” | 2 | 11 | 3 | 1d3/1d3/1d6 | 是 | 是 | CE | 16 | dl1-14 |
 | <strong>人类：城市卫兵（Guard, City）</strong> | 8 | 12” | 2 | 8 | 1 | 1d6 | 否 | 否 | 任意 | 20 | dl1-10 |
 | <strong>人类：神圣卫兵（Guard, Holy）</strong> | 4 | 12” | 4 | 25 | 1 | 1d8 | 否 | 否 | CG | 18 | dl1-7 |
@@ -123,12 +123,12 @@
 | 玫瑰骑士 Knights of the Rose（KR） | 15/- | 10/- | 13/- | 12/- | 15/- | -/- | 3/2* | 2/1 每 2 级 | 《DL Adventures》 |
 | 战士 FIGHTER（F） | 9/15 | -/- | -/- | -/- | 7/- | -/- | 4/2 | 1/1 每 3 级 | 《Player's Handbook》 |
 | 野蛮人 Barbarian（B） | 15/- | -/- | (16)/- | 14/- | 15/- | -/- | 6/3 | 1/1 每 2 级 | 《Unearthed Arcana》 |
-| 巡林客 Ranger（R） | 13/15 | 13/15 | 14/15 | -/- | 14/- | -/- | 3/2 | 1/1 每 3 级 | 《Player's Handbook》 |
-| 魔法使用者（叛法者）MAGIC-USER (RENEGADE)（MU） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《Player's Handbook》 |
+| 巡林客 Ranger（R） | 13/15 | 13/15 | 14/15 | -/- | 14/- | -/- | 3/2 | 1/1 每 3 级 | 《玩家手册》（Player's Handbook） |
+| 魔法师（叛法者）MAGIC-USER (RENEGADE)（MU） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《Player's Handbook》 |
 | 幻术师（叛法者）Illusionist (Renegade)（I） | -/- | 15/- | -/- | 16/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《Player's Handbook》 |
-| 高等魔法师 Wizard of High Sorcery（W） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3‡ | 1/2 每 5 级 | 《DL Adventures》 |
+| 高等法术魔法师 Wizard of High Sorcery（W） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3‡ | 1/2 每 5 级 | 《龙枪冒险》（DL Adventures） |
 | 盗贼 THIEF（T） | -/- | -/- | -/- | 9/15 | -/- | -/- | 2/3 | 1/1 每 4 级 | 《Player's Handbook》 |
-| 盗贼／杂技师 Thief/Acrobat（A） | 15/16 | -/- | -/- | 16/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《Unearthed Arcana》 |
+| 盗贼／杂技师 Thief/Acrobat（A） | 15/16 | -/- | -/- | 16/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《扩展奥秘》（Unearthed Arcana） |
 | 牧师（异教徒）CLERIC (HEATHEN)（CL） | -/- | -/- | 9/15 | -/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《Player's Handbook》 |
 | 德鲁伊（异教徒）Druid (Heathen)（D） | -/- | -/- | 12/16 | -/- | -/- | 15/16 | 2/3 | 1/1 每 5 级 | 《Player's Handbook》 |
 | 星辰圣阶 Holy Orders of the Stars（H） | -/- | -/- | 9/15 | -/- | -/- | -/- | 3/4 | 1/2 每 5 级 | 《DL Adventures》 |
@@ -898,7 +898,7 @@
 
 ## 法术摘要（印刷第 126 页）
 
-以下法术列表中，第一项是略写的法术名称，第二项是法术环级与魔法类型：`C` = 牧师，`D` = 德鲁伊，`I` = 幻术师，`M` = 魔法使用者。组合学派法术的括号内列出涉及的另一种法术类型：`A` = 变化，`Ab` = 防护，`C` = 咒法，`Ch` = 魅惑，`D` = 卜测，`E` = 力场，`En` = 惑控，`I` = 秘法，`Il` = 幻术，`N` = 死灵，`P` = 幻象，`S` = 召唤。
+以下法术列表中，第一项是略写的法术名称，第二项是法术环级与魔法类型：`C` = 牧师，`D` = 德鲁伊，`I` = 幻术师，`M` = 魔法师。组合学派法术的括号内列出涉及的另一种法术类型：`A` = 变化，`Ab` = 防护，`C` = 咒法，`Ch` = 魅惑，`D` = 卜测，`E` = 力场，`En` = 惑控，`I` = 秘法，`Il` = 幻术，`N` = 死灵，`P` = 幻象，`S` = 召唤。
 
 ### 咒法／召唤（Conjuration/Summoning）
 

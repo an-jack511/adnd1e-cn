@@ -14,7 +14,7 @@ Rich Baldwin · 第 50 页
 <strong>持续时间 Duration：</strong>1 轮/级（彩虹云加倍）<br>
 <strong>影响范围 Area of Effect：</strong>5 英尺见方的云团<br>
 <strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 segments<br>
+<strong>施法时间 Casting Time：</strong>2 个分段<br>
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
@@ -32,7 +32,7 @@ Rich Baldwin · 第 50 页
 <strong>持续时间 Duration：</strong>永久<br>
 <strong>影响范围 Area of Effect：</strong>一个锁具／锁定机构<br>
 <strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 segments<br>
+<strong>施法时间 Casting Time：</strong>3 个分段<br>
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
@@ -52,7 +52,7 @@ Rich Baldwin · 第 52 页
 <strong>持续时间 Duration：</strong>永久<br>
 <strong>影响范围 Area of Effect：</strong>一套正被穿着的衣服或皮／布护甲<br>
 <strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 segment<br>
+<strong>施法时间 Casting Time：</strong>1 个分段<br>
 <strong>豁免检定 Saving Throw：</strong>特殊
 </div>
 
@@ -70,7 +70,7 @@ Rich Baldwin · 第 52 页
 <strong>持续时间 Duration：</strong>永久<br>
 <strong>影响范围 Area of Effect：</strong>一段法术铭文或同类文字<br>
 <strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>4 segments<br>
+<strong>施法时间 Casting Time：</strong>4 个分段<br>
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 
@@ -86,7 +86,7 @@ Rich Baldwin · 第 52 页
 <strong>持续时间 Duration：</strong>2 回合/级<br>
 <strong>影响范围 Area of Effect：</strong>一根木棒<br>
 <strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 segment<br>
+<strong>施法时间 Casting Time：</strong>1 个分段<br>
 <strong>豁免检定 Saving Throw：</strong>无
 </div>
 

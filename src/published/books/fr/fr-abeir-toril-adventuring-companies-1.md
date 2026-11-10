@@ -35,8 +35,8 @@
 
 四人会仔细安排行动，以杀死任何可能的敌人或对他们了解过多的人（例如前雇主），而且精通无形的或“意外”的死亡。他们全是男性人类，成员如下：
 
-* 贝尔杜因·塔斯克（Baerduin Thask），9 级魔法使用者，NE。
-* 菲尔法·努隆姆（Fiirfar Nulomn），6 级魔法使用者，CN。
+* 贝尔杜因·塔斯克（Baerduin Thask），9 级魔法师，NE。
+* 菲尔法·努隆姆（Fiirfar Nulomn），6 级魔法师，CN。
 * 迪卢尔·“灯手”（Diloule “Lanternhand”），8 级盗贼，NE。
 * 泰隆（Telorn），7 级盗贼，CN。
 

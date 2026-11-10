@@ -10697,7 +10697,7 @@
   {
     "category": "item",
     "en": "Sword +1, +2 vs. magic-using and enchanted creatures",
-    "zh": "+1 剑，对抗魔法使用者与附魔生物 +2",
+    "zh": "+1 剑，对抗施法生物与附魔生物 +2",
     "aliases": [
       "+1、对施法者与附魔生物 +2"
     ],
@@ -36196,5 +36196,53 @@
     "ids": [
       "ua-magic-user-2-zephyr"
     ]
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency",
+    "zh": "熟练项",
+    "aliases": ["专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Proficiency",
+    "zh": "武器熟练项",
+    "aliases": ["武器专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonweapon Proficiencies",
+    "zh": "非武器熟练项",
+    "aliases": ["非武器专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Character Proficiencies",
+    "zh": "角色熟练项",
+    "aliases": ["角色专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wilderness Proficiencies",
+    "zh": "荒野熟练项",
+    "aliases": ["荒野专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dungeon Proficiencies",
+    "zh": "地城熟练项",
+    "aliases": ["地城专长"],
+    "status": "pending",
+    "ids": []
   }
 ]

@@ -18,7 +18,7 @@ Gregg Sharp · 第 38、39、40、41 页
 <strong>豁免检定 Saving Throw：</strong>视所选戏法而定
 </div>
 
-艺伎可借此法术使用一个魔法使用者的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。
+艺伎可借此法术使用一个魔法师的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。
 
 ## *烛火戏法 Candletrick*（变化）
 
@@ -67,7 +67,7 @@ Gregg Sharp · 第 38、39、40、41 页
 <strong>影响范围 Area of Effect：</strong>被接触生物<br>
 <strong>成分 Components：</strong>V、S、M<br>
 <strong>施法时间 Casting Time：</strong>1段<br>
-<strong>豁免检定 Saving Throw：</strong> neg.
+<strong>豁免检定 Saving Throw：</strong>无
 </div>
 
 材料：装饰扇
@@ -119,7 +119,7 @@ Gregg Sharp · 第 38、39、40、41 页
 <strong>影响范围 Area of Effect：</strong>被接触生物<br>
 <strong>成分 Components：</strong>V、S、M<br>
 <strong>施法时间 Casting Time：</strong>1段<br>
-<strong>豁免检定 Saving Throw：</strong> neg.
+<strong>豁免检定 Saving Throw：</strong>无
 </div>
 
 材料：装饰扇
@@ -137,7 +137,7 @@ Gregg Sharp · 第 38、39、40、41 页
 <strong>影响范围 Area of Effect：</strong>半径1″内所有生物<br>
 <strong>成分 Components：</strong>V<br>
 <strong>施法时间 Casting Time：</strong>5段<br>
-<strong>豁免检定 Saving Throw：</strong> neg.
+<strong>豁免检定 Saving Throw：</strong>无
 </div>
 
 法术首先如幻术师的着迷术，使范围内听见声音且豁免失败的生物停止行动并听完五段施法。法术完成后，目标还要再次豁免；失败者会被笑得无法行动1至10轮，受到攻击时可立即摆脱效果。若整个失能期间没人攻击目标，目标会认为艺伎当天魅力和外貌都为20。

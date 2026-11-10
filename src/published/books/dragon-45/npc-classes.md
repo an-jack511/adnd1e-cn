@@ -49,7 +49,7 @@ Roger E. Moore · 第 10、11 页
 
 人类、精灵和半精灵可以成为炼金师；原文将限制归因于只有这些种族可以使用魔法。若魔法师试图雇用不同种族的炼金师，双方起初可能会遇到抵触和偏见，但时间或良好待遇可以缓和这些问题。
 
-生命生成方向的炼金师是制造魔宠人的必要顾问。建议原料包括伪龙毒液、石像鬼血液以及魔法师本人的血，因为这些材料与魔宠人的毒性咬击和外貌有关；制造成本与时间按《怪物手册》处理。鸡蛇兽的制造配方可参考原文列出的外部著作。主持人可以允许生命生成方向的炼金师进行克隆或制造血肉魔像，但这两种能力都应极少使用，每项至少花费100,000 gp。《魔像制造手册》只有在讨论血肉魔像制造时才能被炼金师使用；阅读其他制造魔像的手册会使炼金师受到6d6伤害。
+生命生成方向的炼金师是制造魔宠人的必要顾问。建议原料包括伪龙毒液、石像鬼血液以及魔法师本人的血，因为这些材料与魔宠人的毒性咬击和外貌有关；制造成本与时间按《怪物图鉴》处理。鸡蛇兽的制造配方可参考原文列出的外部著作。主持人可以允许生命生成方向的炼金师进行克隆或制造血肉魔像，但这两种能力都应极少使用，每项至少花费100,000 gp。《魔像制造手册》只有在讨论血肉魔像制造时才能被炼金师使用；阅读其他制造魔像的手册会使炼金师受到6d6伤害。
 
 <h3>属性生成</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">属性</th><th scope="col">掷骰</th><th scope="col">范围</th></tr></thead><tbody><tr><th scope="row">STR</th><td>1dS+8（原印）</td><td>未定</td></tr><tr><th scope="row">INT</th><td>1d6+12</td><td>13–18</td></tr><tr><th scope="row">WIS</th><td>1d8+8</td><td>9–16</td></tr><tr><th scope="row">DEX</th><td>2d6+4</td><td>6–16</td></tr><tr><th scope="row">CON</th><td>2d4+8</td><td>10–16</td></tr><tr><th scope="row">CHA</th><td>3d4+2</td><td>5–14</td></tr></tbody></table></div>
 <h3>阵营分布</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">d100</th><th scope="col">阵营</th></tr></thead><tbody><tr><th scope="row">01–05</th><td>守序善良</td></tr><tr><th scope="row">06–25</th><td>守序中立</td></tr><tr><th scope="row">26–30</th><td>守序邪恶</td></tr><tr><th scope="row">31–45</th><td>中立善良</td></tr><tr><th scope="row">46–65</th><td>绝对中立</td></tr><tr><th scope="row">66–80</th><td>中立邪恶</td></tr><tr><th scope="row">81–85</th><td>混乱善良</td></tr><tr><th scope="row">86–95</th><td>混乱中立</td></tr><tr><th scope="row">96–00</th><td>混乱邪恶</td></tr></tbody></table></div>
