@@ -1,5 +1,4 @@
 <!-- source: PDF page 66 / printed page 65; OCR: OCR/dsg-raw/text/page-066.txt -->
-<!-- retranslation status: complete for this printed page; every paragraph retained -->
 
 AD&D 游戏世界提供了种类繁多的地下通道，既有天然形成的，也有人工建造的。其中许多区域都有生物居住，而这些生物憎恨有人侵入自己的家园。这就形成了一个庞大的地下生态系统，其规模远远超过现实世界中的地下生态系统。
 

@@ -36279,6 +36279,94 @@
   },
   {
     "category": "rule",
+    "en": "Artisan Proficiencies",
+    "zh": "工匠熟练项",
+    "aliases": ["工匠专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Barbarian Proficiencies",
+    "zh": "蛮族熟练项",
+    "aliases": ["蛮族专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Common Proficiencies",
+    "zh": "通用熟练项",
+    "aliases": ["通用专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Court Proficiencies",
+    "zh": "宫廷熟练项",
+    "aliases": ["宫廷专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Riding Proficiency",
+    "zh": "骑乘熟练项",
+    "aliases": ["骑术熟练项", "骑术专长", "骑乘专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "The Boating Proficiency",
+    "zh": "划船熟练项",
+    "aliases": ["划船专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency in Airborne Riding",
+    "zh": "空中骑乘熟练项",
+    "aliases": ["空中骑乘专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency in Plant Lore",
+    "zh": "植物学熟练项",
+    "aliases": ["植物学专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Cultural Proficiencies",
+    "zh": "文化熟练项",
+    "aliases": ["文化专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Animal Handling Proficiency",
+    "zh": "动物处理熟练项",
+    "aliases": ["动物处理专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Land Riding Proficiency",
+    "zh": "陆地骑乘熟练项",
+    "aliases": ["陆地骑乘专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
     "en": "Proficiency Check",
     "zh": "熟练项检定",
     "aliases": ["专长检定"],
@@ -36290,6 +36378,206 @@
     "en": "Proficiency Slot",
     "zh": "熟练项栏位",
     "aliases": ["专长栏位"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiencies",
+    "zh": "熟练项",
+    "aliases": ["专长"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Choosing Proficiencies",
+    "zh": "选择熟练项",
+    "aliases": ["选择技能"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Improving Proficiencies",
+    "zh": "改进熟练项",
+    "aliases": ["提升技能"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic-Using Creature",
+    "zh": "施法生物",
+    "aliases": ["魔法使用者生物", "魔法使用生物"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic-Using Creatures",
+    "zh": "施法生物",
+    "aliases": ["魔法使用者生物", "魔法使用生物"],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Irdanaiath",
+    "zh": "伊尔达纳伊阿斯",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Igrane",
+    "zh": "伊格兰",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Solinari",
+    "zh": "索林那瑞",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Alokkair",
+    "zh": "阿洛凯尔",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Hlontar",
+    "zh": "赫隆塔尔",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Hlonagh",
+    "zh": "赫洛纳赫",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Shalaera",
+    "zh": "沙莱拉",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Alaphlame",
+    "zh": "阿拉弗莱姆",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Tesh",
+    "zh": "泰什",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Fox Ridge",
+    "zh": "狐岭",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Kozakura",
+    "zh": "小樱",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Hojo",
+    "zh": "北条",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Todahiro",
+    "zh": "户田广",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Norinoshima",
+    "zh": "则野岛",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Okane",
+    "zh": "大金",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Ezuwara",
+    "zh": "江原",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Yamashita Ichiro",
+    "zh": "山下一郎",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Isui",
+    "zh": "伊吹",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Tamako",
+    "zh": "玉子",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "proper",
+    "en": "Obuno",
+    "zh": "奥布诺",
+    "aliases": [],
     "status": "pending",
     "ids": []
   }

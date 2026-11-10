@@ -49,4 +49,4 @@
 
 ## 图腾与专名 Symbols and Names
 
-其他英雄与神祇包括 Hiawatha（海华沙）、Qagwaaz（卡格瓦兹）、Snake-Man（蛇人）和 Tobadzistsini（托巴齐斯齐尼）等英雄或神祇。
+其他英雄与神祇包括海华沙、卡格瓦兹、蛇人和托巴齐斯齐尼等英雄或神祇。

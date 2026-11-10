@@ -1,5 +1,4 @@
 <!-- source: PDF pages 79–80 / printed pages 78–79; OCR: OCR/dsg-raw/text/page-079.txt, page-080.txt -->
-<!-- retranslation status: complete for Areas 1–4; translated from OCR and checked against the two-column page order -->
 
 以下区域构成深地地图上的冒险框架。地下城主应当为每个区域补画三维地图，并设计遭遇。
 

@@ -124,13 +124,13 @@
 | 战士 FIGHTER（F） | 9/15 | -/- | -/- | -/- | 7/- | -/- | 4/2 | 1/1 每 3 级 | 《Player's Handbook》 |
 | 野蛮人 Barbarian（B） | 15/- | -/- | (16)/- | 14/- | 15/- | -/- | 6/3 | 1/1 每 2 级 | 《Unearthed Arcana》 |
 | 巡林客 Ranger（R） | 13/15 | 13/15 | 14/15 | -/- | 14/- | -/- | 3/2 | 1/1 每 3 级 | 《玩家手册》（Player's Handbook） |
-| 魔法师（叛法者）MAGIC-USER (RENEGADE)（MU） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《Player's Handbook》 |
-| 幻术师（叛法者）Illusionist (Renegade)（I） | -/- | 15/- | -/- | 16/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《Player's Handbook》 |
+| 魔法师（非法师）MAGIC-USER (RENEGADE)（MU） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《玩家手册》 |
+| 幻术师（非法师）Illusionist (Renegade)（I） | -/- | 15/- | -/- | 16/- | -/- | -/- | 1/3 | 1/2 每 6 级 | 《玩家手册》 |
 | 高等法术魔法师 Wizard of High Sorcery（W） | -/- | 9/16 | -/- | 6/- | -/- | -/- | 1/3‡ | 1/2 每 5 级 | 《龙枪冒险》（DL Adventures） |
 | 盗贼 THIEF（T） | -/- | -/- | -/- | 9/15 | -/- | -/- | 2/3 | 1/1 每 4 级 | 《Player's Handbook》 |
 | 盗贼／杂技师 Thief/Acrobat（A） | 15/16 | -/- | -/- | 16/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《扩展奥秘》（Unearthed Arcana） |
-| 牧师（异教徒）CLERIC (HEATHEN)（CL） | -/- | -/- | 9/15 | -/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《Player's Handbook》 |
-| 德鲁伊（异教徒）Druid (Heathen)（D） | -/- | -/- | 12/16 | -/- | -/- | 15/16 | 2/3 | 1/1 每 5 级 | 《Player's Handbook》 |
+| 牧师（异教徒）CLERIC (HEATHEN)（CL） | -/- | -/- | 9/15 | -/- | -/- | -/- | 2/3 | 1/1 每 4 级 | 《玩家手册》 |
+| 德鲁伊（异教徒）Druid (Heathen)（D） | -/- | -/- | 12/16 | -/- | -/- | 15/16 | 2/3 | 1/1 每 5 级 | 《玩家手册》 |
 | 星辰圣阶 Holy Orders of the Stars（H） | -/- | -/- | 9/15 | -/- | -/- | -/- | 3/4 | 1/2 每 5 级 | 《DL Adventures》 |
 | 工匠侏儒 TINKER GNOMES（TG） | 6/- | 10/15 | (12)/- | 12/- | 8/- | -/- | 2/3 | 1/2 每 3 级 | 《DL Adventures》 |
 
@@ -296,7 +296,7 @@
 | 战斗 | 魔法石 Magic Stone | UA | 1 | — | — | A | — | — | — |
 | 战斗 | 祈祷 Prayer | PH | 3 | — | — | A | Spc | — | — |
 | 战斗 | 灵体之锤 Spiritual Hammer | PH | 2 | — | — | A | Spc | — | — |
-| 创造 | 活化物件 Animate Object | PH | 6 | — | — | — | A | — | — |
+| 创造 | 活化物件 | PH | 6 | — | — | — | A | — | — |
 | 创造 | 创造食物与水 Create Food and Water | PH | 3 | — | — | Spc | A | Add | Add |
 | 创造 | 英雄宴 Heroes' Feast | UA | 6 | — | — | Add | A | Add | Add |
 
@@ -311,7 +311,7 @@
 | 卜测 | 探测／遮蔽魅惑 Detect/Obscure Charm | PH | 1R | — | A | — | A | — | — |
 | 卜测 | 探测善恶 Detect Evil/Good | PH | 1R | — | A | — | A | — | — |
 | 卜测 | 探测／无法探测谎言 Detect/Undetectable Lie | PH | 1R | — | True | — | True | — | — |
-| 卜测 | 探测生命 Detect Life | UA | 2 | — | — | — | — | Spc | Spc |
+| 卜测 | 探测生命 | UA | 2 | — | — | — | — | Spc | Spc |
 | 卜测 | 探测魔法 Detect Magic* | PH | 1 | — | A | Spc | A | — | — |
 | 卜测 | 探测毒素 Detect Poison | UA | 1 | — | A | — | A | — | — |
 | 卜测 | 探测陷阱与坑洞 Detect Snares and Pits* | PH | 1 | — | A | Add | A | — | Add |
@@ -321,7 +321,7 @@
 | 卜测 | 知晓／遮蔽阵营 Know/Obscure Alignment* | UA | 3R | — | A | — | A | — | — |
 | 卜测 | 寻觅动物 Locate Animal* | PH | 1 | — | A | — | A | Spc | — |
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | — | A | — | A | — | — |
-| 卜测 | 寻觅植物 Locate Plants* | PH | 2 | — | A | — | A | — | Spc |
+| 卜测 | 寻觅植物* | PH | 2 | — | A | — | A | — | Spc |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | — | A | — | A | — | — |
 | 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | — | A | Add | A | — | — |
 | 卜测 | 预兆 Portent | UA | 1 | — | A | — | A | — | — |
@@ -377,7 +377,7 @@
 | 治疗 | 治疗／造成疾病 Cure/Cause Disease* | PH | 3R | — | — | Rev | A | — | — |
 | 治疗 | 治疗／造成轻伤 Cure/Cause Light Wounds* | PH | 1R | True | — | Rev | A | — | — |
 | 治疗 | 治疗／造成中伤 Cure/Cause Serious Wounds* | PH | 4R | — | — | Rev | A | — | — |
-| 治疗 | 治疗／伤害 Heal/Harm | PH | 6R | — | — | Rev | A | — | — |
+| 治疗 | 治疗／伤害 | PH | 6R | — | — | Rev | A | — | — |
 | 治疗 | 中和／施毒 Neutralize/Poison* | PH | 4/3R | — | — | X | True | — | Add |
 | 治疗 | 移除／造成麻痹 Remove/Cause Paralysis | UA | 3R | — | — | Rev | A | — | — |
 | 治疗 | 延缓毒性 Slow Poison* | PH | 2 | — | — | X | A | — | Add |
@@ -425,7 +425,7 @@
 | 防护 | 负位面防护 Negative Plane Protection | UA | 3 | A | — | — | — | — | — |
 | 防护 | 防护邪恶／善良 Protection from Evil/Good | PH | 1R | True | True | True | True | True | True |
 | 防护 | 半径 10 英尺防护邪恶／善良 Prot. from Evil/Good 10' r. | PH | 4R | True | True | True | True | True | True |
-| 防护 | 防护火焰 Protection from Fire* | PH | 3 | A | — | — | — | — | — |
+| 防护 | 防护火焰* | PH | 3 | A | — | — | — | — | — |
 | 防护 | 防护闪电 Protection from Lightning* | PH | 4 | A | — | — | — | — | — |
 | 防护 | 移除／赋予诅咒 Remove/Bestow Curse | PH | 3R | A | — | — | Spc | — | — |
 | 防护 | 抵抗寒冷 Resist Cold | PH | 1 | A | — | — | Add | — | — |
@@ -468,7 +468,7 @@
 
 ## 诸神的影响领域：中立诸神（印刷第 122–123 页）
 
-中立诸神列顺序为：Gil = 吉立安（Gilean），Sir = Sirr，李奥克斯（Reorx） = 李奥克斯，奇思洛夫（Chislev） = 奇思洛夫，Zivil = 亦为林（Zivilyn），Shin = 西那瑞（Shinare）。法术代码沿用上一表的说明。
+中立诸神列顺序为：Gil = 吉立安，Sir = Sirr，李奥克斯 = 李奥克斯，奇思洛夫 = 奇思洛夫，Zivil = 亦为林，Shin = 西那瑞。法术代码沿用上一表的说明。
 
 ### 全部领域、动物、星界、魅惑、战斗、创造、卜测与元素
 
@@ -517,7 +517,7 @@
 | 战斗 | 魔法石 Magic Stone | UA | 1 | — | A | A | — | — | — |
 | 战斗 | 祈祷 Prayer | PH | 3 | Add | A | A | — | — | — |
 | 战斗 | 灵体之锤 Spiritual Hammer | PH | 2 | — | A | A | — | — | — |
-| 创造 | 活化物件 Animate Object | PH | 6 | A | — | A | — | — | A |
+| 创造 | 活化物件 | PH | 6 | A | — | A | — | — | A |
 | 创造 | 创造食物与水 Create Food and Water | PH | 3 | A | — | A | — | — | A |
 | 创造 | 英雄宴 Heroes' Feast | UA | 6 | A | — | A | — | — | A |
 | 卜测 | 卜筮术 Augury | PH | 2 | A | — | — | — | A | — |
@@ -527,7 +527,7 @@
 | 卜测 | 探测／遮蔽魅惑 Detect/Obscure Charm | PH | 1R | A | — | — | — | A | — |
 | 卜测 | 探测善恶 Detect Evil/Good | PH | 1R | A | — | — | — | A | — |
 | 卜测 | 探测／无法探测谎言 Detect/Undetectable Lie | PH | 1R | A | — | — | — | A | — |
-| 卜测 | 探测生命 Detect Life | UA | 2 | A | — | — | A | — | — |
+| 卜测 | 探测生命 | UA | 2 | A | — | — | A | — | — |
 | 卜测 | 探测魔法 Detect Magic* | PH | 1 | A | — | — | — | A | — |
 | 卜测 | 探测毒素 Detect Poison | UA | 1 | A | — | — | — | A | — |
 | 卜测 | 探测陷阱与坑洞 Detect Snares and Pits* | PH | 1 | A | — | — | — | A | — |
@@ -537,7 +537,7 @@
 | 卜测 | 知晓／遮蔽阵营 Know/Obscure Alignment* | UA | 3R | A | — | — | — | A | — |
 | 卜测 | 寻觅动物 Locate Animal* | PH | 1 | A | — | — | — | A | — |
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | A | — | — | — | A | Spc |
-| 卜测 | 寻觅植物 Locate Plants* | PH | 2 | A | — | — | — | A | — |
+| 卜测 | 寻觅植物* | PH | 2 | A | — | — | — | A | — |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | A | — | — | — | A | — |
 | 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | A | — | — | — | A | — |
 | 卜测 | 预兆 Portent | UA | 1 | A | — | — | — | A | — |
@@ -593,7 +593,7 @@
 | 治疗 | 治疗／造成疾病 Cure/Cause Disease* | PH | 3R | — | A | — | A | — | — |
 | 治疗 | 治疗／造成轻伤 Cure/Cause Light Wounds* | PH | 1R | Add | A | — | A | — | — |
 | 治疗 | 治疗／造成中伤 Cure/Cause Serious Wounds* | PH | 4R | Add | A | — | A | — | — |
-| 治疗 | 治疗／伤害 Heal/Harm | PH | 6R | — | A | — | A | — | — |
+| 治疗 | 治疗／伤害 | PH | 6R | — | A | — | A | — | — |
 | 治疗 | 中和／施毒 Neutralize/Poison* | PH | 4/3R | — | A | — | A | — | — |
 | 治疗 | 移除／造成麻痹 Remove/Cause Paralysis | UA | 3R | — | A | — | A | — | — |
 | 治疗 | 延缓毒性 Slow Poison* | PH | 2 | — | A | — | A | — | — |
@@ -641,7 +641,7 @@
 | 防护 | 负位面防护 Negative Plane Protection | UA | 3 | A | — | — | — | — | A |
 | 防护 | 防护邪恶／善良 Protection from Evil/Good | PH | 1R | A | A | A | A | A | A |
 | 防护 | 半径 10 英尺防护邪恶／善良 Prot. from Evil/Good 10' r. | PH | 4R | A | A | A | A | A | A |
-| 防护 | 防护火焰 Protection from Fire* | PH | 3 | A | — | — | — | — | A |
+| 防护 | 防护火焰* | PH | 3 | A | — | — | — | — | A |
 | 防护 | 防护闪电 Protection from Lightning* | PH | 4 | A | — | — | — | — | A |
 | 防护 | 移除／赋予诅咒 Remove/Bestow Curse | PH | 3R | A | — | — | — | — | A |
 | 防护 | 抵抗寒冷 Resist Cold | PH | 1 | A | — | — | — | — | A |
@@ -684,7 +684,7 @@
 
 ## 诸神的影响领域：邪恶诸神（印刷第 124–125 页）
 
-邪恶诸神列顺序为：Tak = 塔克西丝（Takhisis），Sarg = 沙苟纳（Sargonnas），Morg = 魔吉安（Morgion），Chem = 凯魔须（Chemosh），Zeb = 赛波音（Zeboim），Hidd = 西都凯（Hiddukel）。下表“可用性”栏始终按此顺序记录六列。
+邪恶诸神列顺序为：Tak = 塔克西丝，Sarg = 沙苟纳，Morg = 魔吉安，Chem = 凯魔须，Zeb = 赛波音，Hidd = 西都凯。下表“可用性”栏始终按此顺序记录六列。
 
 | 领域 | 法术 | 书 | 环 | 可用性（Tak／Sarg／Morg／Chem／Zeb／Hidd） |
 |---|---|---|---:|---|
@@ -731,7 +731,7 @@
 | 战斗 | 魔法石 Magic Stone | UA | 1 | —／A／—／A／—／— |
 | 战斗 | 祈祷 Prayer | PH | 3 | —／A／—／A／—／— |
 | 战斗 | 灵体之锤 Spiritual Hammer | PH | 2 | Add／A／—／A／—／— |
-| 创造 | 活化物件 Animate Object | PH | 6 | Spc／Add／—／Add／Add／— |
+| 创造 | 活化物件 | PH | 6 | Spc／Add／—／Add／Add／— |
 | 创造 | 创造食物与水 Create Food and Water | PH | 3 | Add／—／Add／—／Add／— |
 | 创造 | 英雄宴 Heroes' Feast | UA | 6 | —／—／—／—／—／— |
 | 卜测 | 卜筮术 Augury | PH | 2 | —／—／—／—／—／A |
@@ -741,7 +741,7 @@
 | 卜测 | 探测／遮蔽魅惑 Detect/Obscure Charm | PH | 1R | —／—／—／—／—／A |
 | 卜测 | 探测善恶 Detect Evil/Good | PH | 1R | —／—／—／—／—／A |
 | 卜测 | 探测／无法探测谎言 Detect/Undetectable Lie | PH | 1R | —／—／—／—／—／A |
-| 卜测 | 探测生命 Detect Life | UA | 2 | —／—／—／—／—／A |
+| 卜测 | 探测生命 | UA | 2 | —／—／—／—／—／A |
 | 卜测 | 探测魔法 Detect Magic* | PH | 1 | —／—／—／—／—／A |
 | 卜测 | 探测毒素 Detect Poison | UA | 1 | —／—／—／—／—／A |
 | 卜测 | 探测陷阱与坑洞 Detect Snares and Pits* | PH | 1 | —／—／—／—／—／A |
@@ -751,7 +751,7 @@
 | 卜测 | 知晓／遮蔽阵营 Know/Obscure Alignment* | UA | 3R | —／Spc／—／—／—／A |
 | 卜测 | 寻觅动物 Locate Animal* | PH | 1 | —／—／—／—／—／A |
 | 卜测 | 定位／遮蔽物体 Locate/Obscure Object | PH | 3R | —／—／—／—／—／A |
-| 卜测 | 寻觅植物 Locate Plants* | PH | 2 | —／—／—／—／—／A |
+| 卜测 | 寻觅植物* | PH | 2 | —／—／—／—／—／A |
 | 卜测 | 魔法源泉 Magic Font | UA | 5 | —／—／—／—／—／A |
 | 卜测 | 看破伪装 Penetrate Disguise | UA | 1 | —／—／—／—／—／A |
 | 卜测 | 预兆 Portent | UA | 1 | —／—／—／—／—／A |
@@ -807,7 +807,7 @@
 | 治疗 | 治疗／造成疾病 Cure/Cause Disease* | PH | 3R | —／Rev／Rev／—／—／— |
 | 治疗 | 治疗／造成轻伤 Cure/Cause Light Wounds* | PH | 1R | —／A／A／—／—／— |
 | 治疗 | 治疗／造成中伤 Cure/Cause Serious Wounds* | PH | 4R | —／Rev／Rev／—／—／— |
-| 治疗 | 治疗／伤害 Heal/Harm | PH | 6R | —／A／A／—／—／— |
+| 治疗 | 治疗／伤害 | PH | 6R | —／A／A／—／—／— |
 | 治疗 | 中和／施毒 Neutralize/Poison* | PH | 4/3R | —／A／A／—／—／— |
 | 治疗 | 移除／造成麻痹 Remove/Cause Paralysis | UA | 3R | —／Rev／Rev／—／—／— |
 | 治疗 | 延缓毒性 Slow Poison* | PH | 2 | —／A／A／—／—／— |
@@ -855,7 +855,7 @@
 | 防护 | 负位面防护 Negative Plane Protection | UA | 3 | A／—／—／—／—／— |
 | 防护 | 防护邪恶／善良 Protection from Evil/Good | PH | 1R | Rev／—／—／—／—／— |
 | 防护 | 半径 10 英尺防护邪恶／善良 Prot. from Evil/Good 10' r. | PH | 4R | Rev／—／—／—／—／— |
-| 防护 | 防护火焰 Protection from Fire* | PH | 3 | A／Add／—／—／—／— |
+| 防护 | 防护火焰* | PH | 3 | A／Add／—／—／—／— |
 | 防护 | 防护闪电 Protection from Lightning* | PH | 4 | A／—／—／—／—／— |
 | 防护 | 移除／赋予诅咒 Remove/Bestow Curse | PH | 3R | Rev／—／—／—／—／— |
 | 防护 | 抵抗寒冷 Resist Cold | PH | 1 | A／—／—／—／—／— |

@@ -1,5 +1,4 @@
 <!-- source: PDF page 76 / printed page 75; OCR: OCR/dsg-raw/text/page-076.txt -->
-<!-- retranslation status: complete for this printed page -->
 
 深地诸域将作为一个设定详细呈现，你可以把它用于自己的地下战役。已知的各种智能生命都宣称拥有其中一部分，而一群玩家角色可以在不探索整个深地诸域的情况下，获得许多等级并克服高耸的障碍。
 
