@@ -2,18 +2,18 @@
 
 | 编号（Number） | 一环（1st Level） | 二环（2nd Level） | 三环（3rd Level） | 四环（4th Level） | 五环（5th Level） | 六环（6th Level） | 七环（7th Level） |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 祝福术（Bless） | 卜筮术（Augury） | 活化死尸（Animate Dead） | 治疗重伤（Cure Serious Wounds） | 赎罪术（Atonement） | 空中仆役（Aerial Servant） | 星界法术（Astral Spell） |
-| 2 | 命令术（Command） | 圣歌术（Chant） | 恒定光亮（Continual Light） | 侦测谎言（Detect Lie） | 通神术（Commune） | 活化物件（Animate Object） | 操控天气（Control Weather） |
-| 3 | 造水术（Create Water） | 侦测魅惑术（Detect Charm） | 创造食粮（Create Food & Water） | 预言术（Divination） | 治疗致命伤（Cure Critical Wounds） | 剑刃护壁（Blade Barrier） | 地震术（Earthquake） |
-| 4 | 治疗轻伤（Cure Light Wounds） | 寻找陷阱（Find Traps） | 治疗失明（Cure Blindness） | 驱邪术（Exorcise） | 解除邪恶（Dispel Evil） | 咒唤兽群（Conjure Animals） | 异界之门（Gate） |
-| 5 | 侦测邪恶（Detect Evil） | 人类定身术（Hold Person） | 治愈疾病（Cure Disease） | 降水术（Lower Water） | 焰击术（Flame Strike） | 寻找捷径（Find the Path） | 神圣言辞（亵渎言辞）（Holy (Unholy) Word） |
-| 6 | 侦测魔法（Detect Magic） | 侦测阵营（Know Alignment） | 解除魔法（Dispel Magic） | 中和毒性（Neutralize Poison） | 疫病虫群（Insect Plague） | 医疗术（Heal） | 再生术（Regenerate） |
-| 7 | 光亮术（Light） | 抗火术（Resist Fire） | 假死术（Feign Death） | 防护邪恶（10尺半径）（Protection from Evil, 10' Radius） | 位面转移（Plane Shift） | 分水术（Part Water） | 复原术（Restoration） |
-| 8 | 防护邪恶（Protection from Evil） | 沉默术（15尺半径）（Silence, 15' Radius） | 守卫刻文（Glyph of Warding） | 植物交谈（Speak with Plants） | 使命术（Quest） | 与怪物交谈（Speak with Monsters） | 复生术（Resurrection） |
-| 9 | 净化食粮（Purify Food & Drink） | 缓毒术（Slow Poison） | 物品定位术（Locate Object） | 蛇杖术（Sticks to Snakes） | 死者复活（Raise Dead） | 石语术（Stone Tell） | 徽记术（Symbol） |
-| 10 | 移除恐惧（Remove Fear） | 蛇魅术（Snake Charm） | 祈祷术（Prayer） | 巧言术（Tongues） | 真知术（True Seeing） | 回返真言（Word of Recall） | 御风而行（Wind Walk） |
-| 11 | 抵抗寒冷（Resist Cold） | 动物交谈（Speak with Animals） | 移除诅咒（Remove Curse） |  |  |  |  |
-| 12 | 庇护术（Sanctuary） | 灵体战锤（Spiritual Hammer） | 死者交谈（Speak with Dead） |  |  |  |  |
+| 1 | 祝福术 | 卜筮术 | 活化死尸 | 治疗重伤 | 赎罪术 | 空中仆役 | 星界法术 |
+| 2 | 命令术 | 圣歌术 | 恒定光亮 | 侦测谎言 | 通神术 | 活化物件 | 操控天气 |
+| 3 | 造水术 | 侦测魅惑术 | 创造食粮 | 预言术 | 治疗致命伤 | 剑刃护壁 | 地震术 |
+| 4 | 治疗轻伤 | 寻找陷阱 | 治疗失明 | 驱邪术 | 解除邪恶 | 咒唤兽群 | 异界之门 |
+| 5 | 侦测邪恶 | 人类定身术 | 治愈疾病 | 降水术 | 焰击术 | 寻找捷径 | 神圣言辞（亵渎言辞） |
+| 6 | 侦测魔法 | 侦测阵营 | 解除魔法 | 中和毒性 | 疫病虫群 | 医疗术 | 再生术 |
+| 7 | 光亮术 | 抗火术 | 假死术 | 防护邪恶（10尺半径） | 位面转移 | 分水术 | 复原术 |
+| 8 | 防护邪恶 | 沉默术（15尺半径） | 守卫刻文 | 植物交谈 | 使命术 | 与怪物交谈 | 复生术 |
+| 9 | 净化食粮 | 缓毒术 | 物品定位术 | 蛇杖术 | 死者复活 | 石语术 | 徽记术 |
+| 10 | 移除恐惧 | 蛇魅术 | 祈祷术 | 巧言术 | 真知术 | 回返真言 | 御风而行 |
+| 11 | 抵抗寒冷 | 动物交谈 | 移除诅咒 |  |  |  |  |
+| 12 | 庇护术 | 灵体战锤 | 死者交谈 |  |  |  |  |
 
 ### 德鲁伊（牧师）法术
 
@@ -36,79 +36,79 @@
 
 | 编号（Number） | 一环（1st Level） | 二环（2nd Level） | 三环（3rd Level） | 四环（4th Level） | 五环（5th Level） |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 影响普通火焰 Affect Normal Fires | 可闻幻象 Audible Glamer | 闪现术 Blink | 魅惑怪物 Charm Monster | 空气化水 Airy Water |
-| 2 | 燃烧之手 Burning Hands | 恒定光亮 Continual Light | 隔墙闻声 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
-| 3 | 魅惑人类 Charm Person | 黑暗术（15尺半径） Darkness, 15' Radius | 鹰眼术 Clairvoyance | 掘地术 Dig | 活化死尸 Animate Dead |
-| 4 | 通晓语言 Comprehend Languages | 侦测邪恶 Detect Evil | 解除魔法 Dispel Magic | 任意门 Dimension Door | 毕格比护身掌 Bigby's Interposing Hand |
-| 5 | 舞光术 Dancing Lights | 侦测隐形 Detect Invisibility | 爆裂符文 Explosive Runes | 附魔武器 Enchanted Weapon | 死云术 Cloudkill |
-| 6 | 侦测魔法 Detect Magic | 超感知觉 ESP | 假死术 Feign Death | 法术延展 I Extension I | 咒唤元素 Conjure Elemental |
-| 7 | 放大术 Enlarge | 愚人金 Fools Gold | 火球术 Fireball | 恐惧术 Fear | 寒冰锥 Cone of Cold |
-| 8 | 抹消术 Erase | 遗忘术 Forget | 火焰箭 Flame Arrow | 火焰魅惑 Fire Charm | 异界探知 Contact Other Plane |
-| 9 | 羽落术 Feather Fall | 隐形术 Invisibility | 飞行术 Fly | 火焰护盾 Fire Shield | 扭曲距离 Distance Distortion |
-| 10 | 寻获魔宠 Find Familiar | 敲击术 Knock | 造风术 Gust of Wind | 火焰陷阱 Fire Trap | 法术延展 II Extension II |
-| 11 | 交友术 Friends | 李欧蒙的陷阱 Leomund's Trap | 加速术 Haste | 失手术 Fumble | 弱智术 Feeblemind |
-| 12 | 封门术 Hold Portal | 浮空术 Levitate | 人类定身术 Hold Person | 幻景 Hallucinatory Terrain | 怪物定身术 Hold Monster |
-| 13 | 鉴定术 Identify | 物品定位术 Locate Object | 红外视觉 Infravision | 冰风暴 Ice Storm | 李欧蒙的秘藏箱 Leomund's Secret Chest |
-| 14 | 跳跃术 Jump | 魔嘴 Magic Mouth | 隐形术（10尺半径） Invisibility, 10' Radius | 群体变树术 Massmorph | 魔魂壶 Magic Jar |
-| 15 | 光亮术 Light | 镜影术 Mirror Image | 李欧蒙小屋 Leomund's Tiny Hut | 小型法术无效结界 Minor Globe of Invulnerability | 召唤怪物 III Monster Summoning III |
-| 16 | 魔法飞弹 Magic Missile | 烟火术 Pyrotechnics | 闪电束 Lightning Bolt | 召唤怪物 II Monster Summoning II | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
-| 17 | 修复术 Mending | 衰弱射线 Ray of Enfeeblement | 召唤怪物 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
-| 18 | 传讯术 Message | 魔绳术 Rope Trick | 魅影之力 Phantasmal Force | 他者变形术 Polymorph Other | 塑石术 Stone Shape |
-| 19 | 奈斯图的魔法灵光 Nystul's Magic Aura | 惊恐术 Scare | 防护邪恶（10尺半径） Protection from Evil, 10' Radius | 自身变形术 Polymorph Self | 心灵遥控 Telekinesis |
-| 20 | 防护邪恶 Protection from Evil | 粉碎音波 Shatter | 防护普通投射物 Protection from Normal Missiles | 拉瑞的记忆强化术 Rary's Mnemonic Enhancer | 传送术 Teleport |
-| 21 | 推斥术 Push | 臭云术 Stinking Cloud | 缓慢术 Slow | 移除诅咒 Remove Curse | 化石为泥 Transmute Rock to Mud |
-| 22 | 阅读魔法 Read Magic | 力量术 Strength | 暗示术 Suggestion | 火墙术 Wall of Fire | 力墙术 Wall of Force |
-| 23 | 护盾术 Shield | 蛛网术 Web | 巧言术 Tongues | 冰墙术 Wall of Ice | 铁墙术 Wall of Iron |
-| 24 | 电爪 Shocking Grasp | 秘法锁 Wizard Lock | 水下呼吸 Water Breathing | 法师之眼 Wizard Eye | 石墙术 Wall of Stone |
-| 25 | 睡眠术 Sleep |  |  |  |  |
-| 26 | 蛛行术 Spider Climb |  |  |  |  |
-| 27 | 谭森浮碟术 Tenser's Floating Disc |  |  |  |  |
-| 28 | 隐形仆役 Unseen Servant |  |  |  |  |
-| 29 | 腹语术 Ventriloquism |  |  |  |  |
-| 30 | 书写术 Write |  |  |  |  |
+| 1 | 影响普通火焰 | 可闻幻象 | 闪现术 | 魅惑怪物 | 空气化水 |
+| 2 | 燃烧之手 | 恒定光亮 | 隔墙闻声 | 困惑术 | 动物成长 |
+| 3 | 魅惑人类 | 黑暗术（15尺半径） | 鹰眼术 | 掘地术 | 活化死尸 |
+| 4 | 通晓语言 | 侦测邪恶 | 解除魔法 | 任意门 | 毕格比护身掌 |
+| 5 | 舞光术 | 侦测隐形 | 爆裂符文 | 附魔武器 | 死云术 |
+| 6 | 侦测魔法 | 超感知觉 | 假死术 | 法术延展 I | 咒唤元素 |
+| 7 | 放大术 | 愚人金 | 火球术 | 恐惧术 | 寒冰锥 |
+| 8 | 抹消术 | 遗忘术 | 火焰箭 | 火焰魅惑 | 异界探知 |
+| 9 | 羽落术 | 隐形术 | 飞行术 | 火焰护盾 | 扭曲距离 |
+| 10 | 寻获魔宠 | 敲击术 | 造风术 | 火焰陷阱 | 法术延展 II |
+| 11 | 交友术 | 李欧蒙的陷阱 | 加速术 | 失手术 | 弱智术 |
+| 12 | 封门术 | 浮空术 | 人类定身术 | 幻景 | 怪物定身术 |
+| 13 | 鉴定术 | 物品定位术 | 红外视觉 | 冰风暴 | 李欧蒙的秘藏箱 |
+| 14 | 跳跃术 | 魔嘴 | 隐形术（10尺半径） | 群体变树术 | 魔魂壶 |
+| 15 | 光亮术 | 镜影术 | 李欧蒙小屋 | 小型法术无效结界 | 召唤怪物 III |
+| 16 | 魔法飞弹 | 烟火术 | 闪电束 | 召唤怪物 II | 魔邓肯忠犬 |
+| 17 | 修复术 | 衰弱射线 | 召唤怪物 I | 植物滋长 | 穿墙术 |
+| 18 | 传讯术 | 魔绳术 | 魅影之力 | 他者变形术 | 塑石术 |
+| 19 | 奈斯图的魔法灵光 | 惊恐术 | 防护邪恶（10尺半径） | 自身变形术 | 心灵遥控 |
+| 20 | 防护邪恶 | 粉碎音波 | 防护普通投射物 | 拉瑞的记忆强化术 | 传送术 |
+| 21 | 推斥术 | 臭云术 | 缓慢术 | 移除诅咒 | 化石为泥 |
+| 22 | 阅读魔法 | 力量术 | 暗示术 | 火墙术 | 力墙术 |
+| 23 | 护盾术 | 蛛网术 | 巧言术 | 冰墙术 | 铁墙术 |
+| 24 | 电爪 | 秘法锁 | 水下呼吸 | 法师之眼 | 石墙术 |
+| 25 | 睡眠术 |  |  |  |  |
+| 26 | 蛛行术 |  |  |  |  |
+| 27 | 谭森浮碟术 |  |  |  |  |
+| 28 | 隐形仆役 |  |  |  |  |
+| 29 | 腹语术 |  |  |  |  |
+| 30 | 书写术 |  |  |  |  |
 
 ### 魔法师法术（六至九环）
 
 | 编号（Number） | 六环（6th Level） | 七环（7th Level） | 八环（8th Level） | 九环（9th Level） |
 | --- | --- | --- | --- | --- |
-| 1 | 反魔法护罩 Anti-Magic Shell | 毕格比擒拿掌 Bigby's Grasping Hand | 嫌恶术/关怀术 Antipathy/Sympathy | 星界法术 Astral Spell |
-| 2 | 毕格比强袭掌 Bigby's Forceful Hand | 召唤恶魔 Cacodemon | 毕格比金刚拳 Bigby's Clenched Fist | 毕格比粉碎掌 Bigby's Crushing Hand |
-| 3 | 操控天气 Control Weather | 魅惑植物 Charm Plants | 克隆术 Clone | 异界之门 Gate |
-| 4 | 死亡术 Death Spell | 延迟爆裂火球 Delayed Blast Fireball | 钢化玻璃 Glassteel | 禁锢术 Imprisonment |
-| 5 | 解离术 Disintegrate | 卓姆吉瞬间召唤 Drawmij's Instant Summons | 焚云术 Incendiary Cloud | 流星爆 Meteor Swarm |
-| 6 | 附魔物品 Enchant an Item | 双重维度 Duo-Dimension | 群体魅惑 Mass Charm | 怪物召唤 VII Monster Summoning VII |
-| 7 | 法术延展 III Extension III | 有限许愿术 Limited Wish | 迷宫术 Maze | 律令死亡 Power Word, Kill |
-| 8 | 指使术 Geas | 群体隐形 Mass Invisibility | 心灵屏障 Mind Blank | 虹光法球 Prismatic Sphere |
-| 9 | 透材术 Glassee | 怪物召唤 V Monster Summoning V | 怪物召唤 VI Monster Summoning VI | 形体变化 Shape Change |
-| 10 | 法术无效结界 Globe of Invulnerability | 魔邓肯之剑 Mordenkainen's Sword | 奥图迷舞 Otto's Irresistible Dance | 时间静止 Temporal Stasis |
-| 11 | 铜墙铁壁 Guards and Wards | 相位门 Phase Door | 恒久术 Permanency | 时间停止 Time Stop |
-| 12 | 隐形潜猎者 Invisible Stalker | 律令震慑 Power Word, Stun | 任意物体变形术 Polymorph Any Object | 祈愿术 Wish |
-| 13 | 传奇学识 Legend Lore | 反转重力 Reverse Gravity | 律令：目盲 Power Word, Blind |  |
-| 14 | 降水术 Lower Water | 拟像术 Simulacrum | 瑟腾法术免疫 Serten's Spell Immunity |  |
-| 15 | 召唤怪物 IV Monster Summoning IV | 雕像术 Statue | 徽记术 Symbol |  |
-| 16 | 地动术 Move Earth | 消失术 Vanish | 缚魂术 Trap the Soul |  |
-| 17 | 欧提路克冰封法球 Otiluke's Freezing Sphere |  |  |  |
-| 18 | 分水术 Part Water |  |  |  |
-| 19 | 投影术 Project Image |  |  |  |
-| 20 | 转生术 Reincarnation |  |  |  |
-| 21 | 斥力术 Repulsion |  |  |  |
-| 22 | 灵体折磨术 Spiritwrack |  |  |  |
-| 23 | 化石为肉 Stone to Flesh |  |  |  |
-| 24 | 谭森变形术 Tenser's Transformation |  |  |  |
+| 1 | 反魔法护罩 | 毕格比擒拿掌 | 嫌恶术／关怀术 | 星界法术 |
+| 2 | 毕格比强袭掌 | 召唤恶魔 | 毕格比金刚拳 | 毕格比粉碎掌 |
+| 3 | 操控天气 | 魅惑植物 | 克隆术 | 异界之门 |
+| 4 | 死亡术 | 延迟爆裂火球 | 钢化玻璃 | 禁锢术 |
+| 5 | 解离术 | 卓姆吉瞬间召唤 | 焚云术 | 流星爆 |
+| 6 | 附魔物品 | 双重维度 | 群体魅惑 | 怪物召唤 VII |
+| 7 | 法术延展 III | 有限许愿术 | 迷宫术 | 律令死亡 |
+| 8 | 指使术 | 群体隐形 | 心灵屏障 | 虹光法球 |
+| 9 | 透材术 | 怪物召唤 V | 怪物召唤 VI | 形体变化 |
+| 10 | 法术无效结界 | 魔邓肯之剑 | 奥图迷舞 | 时间静止 |
+| 11 | 铜墙铁壁 | 相位门 | 恒久术 | 时间停止 |
+| 12 | 隐形潜猎者 | 律令震慑 | 任意物体变形术 | 祈愿术 |
+| 13 | 传奇学识 | 反转重力 | 律令：目盲 |  |
+| 14 | 降水术 | 拟像术 | 瑟腾法术免疫 |  |
+| 15 | 召唤怪物 IV | 雕像术 | 徽记术 |  |
+| 16 | 地动术 | 消失术 | 缚魂术 |  |
+| 17 | 欧提路克冰封法球 |  |  |  |
+| 18 | 分水术 |  |  |  |
+| 19 | 投影术 |  |  |  |
+| 20 | 转生术 |  |  |  |
+| 21 | 斥力术 |  |  |  |
+| 22 | 灵体折磨术 |  |  |  |
+| 23 | 化石为肉 |  |  |  |
+| 24 | 谭森变形术 |  |  |  |
 
 ### 幻术师（魔法师）法术
 
 | 编号（Number） | 一环（1st Level） | 二环（2nd Level） | 三环（3rd Level） | 四环（4th Level） | 五环（5th Level） | 六环（6th Level） | 七环（7th Level） |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 可闻幻象 Audible Glamer | 目盲术 Blindness | 恒定黑暗 Continual Darkness | 困惑术 Confusion | 混乱术 Chaos | 咒唤兽群 Conjure Animals | 改变现实 Alter Reality |
-| 2 | 易容术 Change Self | 朦胧术 Blur | 恒定光亮 Continual Light | 解除疲劳 Dispel Exhaustion | 半阴影怪物 Demi-Shadow Monsters | 半阴影魔法 Demi-Shadow Magic | 星界法术 Astral Spell |
-| 3 | 七彩喷射 Color Spray | 耳聋术 Deafness | 解除幻象 Dispel Illusion | 情绪术 Emotion | 高等创造术 Major Creation | 群体暗示术 Mass Suggestion | 虹光喷射 Prismatic Spray |
-| 4 | 舞光术 Dancing Lights | 侦测魔法 Detect Magic | 恐惧术 Fear | 高等隐形术 Improved Invisibility | 迷宫术 Maze | 恒久幻象 Permanent Illusion | 虹光法墙 Prismatic Wall |
-| 5 | 黑暗术 Darkness | 云雾术 Fog Cloud | 幻景 Hallucinatory Terrain | 群体变树术 Massmorph | 投影术 Projected Image | 预置幻影 Programmed Illusion | 异象术 Vision |
-| 6 | 侦测幻象 Detect Illusion | 催眠图纹 Hypnotic Pattern | 幻文术 Illusionary Script | 次级创造术 Minor Creation | 阴影门 Shadow Door | 幽影术 Shades | 一环魔法师法术 First Level Magic-User Spells |
-| 7 | 侦测隐形 Detect Invisibility | 强化魅影之力 Improved Phantasmal Force | 隐形术（10尺半径） Invisibility, 10' Radius | 魅影杀手 Phantasmal Killer | 阴影魔法 Shadow Magic | 真实视觉 True Sight |  |
-| 8 | 凝视反射术 Gaze Reflection | 隐形术 Invisibility | 防侦测术 Non-detection | 阴影怪物 Shadow Monsters | 召唤阴影 Summon Shadow | 隐匿之纱 Veil |  |
-| 9 | 催眠术 Hypnotism | 魔嘴 Magic Mouth | 麻痹术 Paralyzation |  |  |  |  |
-| 10 | 光亮术 Light | 镜影术 Mirror Image | 魔绳术 Rope Trick |  |  |  |  |
-| 11 | 魅影之力 Phantasmal Force | 误导术 Misdirection | 幽灵之力 Spectral Force |  |  |  |  |
-| 12 | 雾墙术 Wall of Fog | 腹语术 Ventriloquism | 暗示术 Suggestion |  |  |  |  |
+| 1 | 可闻幻象 | 目盲术 | 恒定黑暗 | 困惑术 | 混乱术 | 咒唤兽群 | 改变现实 |
+| 2 | 易容术 | 朦胧术 | 恒定光亮 | 解除疲劳 | 半阴影怪物 | 半阴影魔法 | 星界法术 |
+| 3 | 七彩喷射 | 耳聋术 | 解除幻象 | 情绪术 | 高等创造术 | 群体暗示术 | 虹光喷射 |
+| 4 | 舞光术 | 侦测魔法 | 恐惧术 | 高等隐形术 | 迷宫术 | 恒久幻象 | 虹光法墙 |
+| 5 | 黑暗术 | 云雾术 | 幻景 | 群体变树术 | 投影术 | 预置幻影 | 异象术 |
+| 6 | 侦测幻象 | 催眠图纹 | 幻文术 | 次级创造术 | 阴影门 | 幽影术 | 一环魔法师法术 |
+| 7 | 侦测隐形 | 强化魅影之力 | 隐形术（10尺半径） | 魅影杀手 | 阴影魔法 | 真实视觉 |  |
+| 8 | 凝视反射术 | 隐形术 | 防侦测术 | 阴影怪物 | 召唤阴影 | 隐匿之纱 |  |
+| 9 | 催眠术 | 魔嘴 | 麻痹术 |  |  |  |  |
+| 10 | 光亮术 | 镜影术 | 魔绳术 |  |  |  |  |
+| 11 | 魅影之力 | 误导术 | 幽灵之力 |  |  |  |  |
+| 12 | 雾墙术 | 腹语术 | 暗示术 |  |  |  |  |
