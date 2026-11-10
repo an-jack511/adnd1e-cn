@@ -1,6 +1,6 @@
 # 野生半身人
 
-The Dragon's Bestiary: A Walk through the Woods · Dragon #119
+龙之怪物志：穿行林间 The Dragon's Bestiary: A Walk through the Woods · Dragon #119
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine119.pdf)
 

@@ -1,6 +1,6 @@
 # 符文石
 
-Runestones · Dragon #69
+符文石 Runestones · Dragon #69
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine069.pdf)
 

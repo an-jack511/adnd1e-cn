@@ -1,6 +1,6 @@
 # 库贾努克圣鸟
 
-Dragon's Bestiary · Dragon #44
+巨龙怪物志 The Dragon's Bestiary · Dragon #44
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine044.pdf)
 

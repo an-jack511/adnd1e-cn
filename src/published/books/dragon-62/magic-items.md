@@ -1,6 +1,6 @@
 # 扎德隆奇物袋
 
-Zadron's Pouch of Wonders · Dragon #62
+扎德隆奇物袋 Zadron's Pouch of Wonders · Dragon #62
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine062.pdf)
 

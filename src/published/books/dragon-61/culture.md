@@ -1,6 +1,6 @@
 # 侏儒的观点
 
-Gnomish Point of View, The · Dragon #61
+侏儒观点 The Gnomish Point of View · Dragon #61
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine061.pdf)
 

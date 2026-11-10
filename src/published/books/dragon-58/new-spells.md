@@ -1,6 +1,6 @@
 # 忍受寒冷／炎热
 
-Beefing Up the Cleric · Dragon #58
+强化牧师 Beefing Up the Cleric · Dragon #58
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine058.pdf)
 

@@ -1,6 +1,6 @@
 # 深海之眼的生态与闪光攻击
 
-Ecology of the Eye of the Deep, The · Dragon #93
+深海之眼生态 The Ecology of the Eye of the Deep · Dragon #93
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine093.pdf)
 

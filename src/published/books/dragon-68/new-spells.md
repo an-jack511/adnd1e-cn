@@ -1,6 +1,6 @@
 # 遣返术
 
-Be the First To Cast These... · Dragon #68
+先施放这些法术…… Be the First To Cast These... · Dragon #68
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine068.pdf)
 

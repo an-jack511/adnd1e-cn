@@ -1,6 +1,6 @@
 # 决斗家
 
-Duelist, The · Dragon #73
+决斗家 The Duelist · Dragon #73
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine073.pdf)
 

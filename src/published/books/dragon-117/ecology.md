@@ -1,6 +1,6 @@
 # 掘地虫的生态与蜕壳期
 
-Ecology of the Ankheg, The · Dragon #117
+掘地虫的生态 The Ecology of the Ankheg · Dragon #117
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine117.pdf)
 

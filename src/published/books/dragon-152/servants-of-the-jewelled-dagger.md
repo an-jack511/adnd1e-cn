@@ -1,6 +1,6 @@
 # 宝石匕首的仆从
 
-Servants of the Jewelled Dagger · Dragon #152
+宝石匕首的侍从 Servants of the Jewelled Dagger · Dragon #152
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine152.pdf)
 

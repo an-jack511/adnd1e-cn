@@ -1,6 +1,6 @@
 # 龙的自卫
 
-Self Defense For Dragons · Dragon #50
+巨龙自卫 Self Defense For Dragons · Dragon #50
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine050.pdf)
 

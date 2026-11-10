@@ -1,6 +1,6 @@
 # 最恶毒的怪物
 
-Meanest of Monsters, The · Dragon #96
+最凶恶的怪物 The Meanest of Monsters · Dragon #96
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine096.pdf)
 

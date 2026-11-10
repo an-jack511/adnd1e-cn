@@ -1,6 +1,6 @@
 # +1／对海栖大地精 +3 匕首
 
-Bazaar of the Bizarre · Dragon #48
+奇异集市 Bazaar of the Bizarre · Dragon #48
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine048.pdf)
 

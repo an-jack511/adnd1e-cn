@@ -1,6 +1,6 @@
 # 重新编排并重新定义巨龙
 
-Rearranging and Redefining the Mighty Dragon · Dragon #38
+重排并重新定义强大巨龙 Rearranging and Redefining the Mighty Dragon · Dragon #38
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine038.pdf)
 

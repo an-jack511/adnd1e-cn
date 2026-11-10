@@ -1,6 +1,6 @@
 # 恶魔幼龙的独门法术
 
-Dragons are Wizards' Best Friends · Dragon #146
+巨龙是巫师最好的朋友 Dragons are Wizards' Best Friends · Dragon #146
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine146.pdf)
 

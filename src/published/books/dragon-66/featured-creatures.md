@@ -1,6 +1,6 @@
 # 精选生物：善良外层生物补遗
 
-Featured Creatures · Dragon #66
+精选生物 Featured Creatures · Dragon #66
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine066.pdf)
 

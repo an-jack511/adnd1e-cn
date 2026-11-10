@@ -1,6 +1,6 @@
 # 军队表与军队之表
 
-Tables and Tables of Troops · Dragon #99
+一表又一表的军队 Tables and Tables of Troops · Dragon #99
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine099.pdf)
 

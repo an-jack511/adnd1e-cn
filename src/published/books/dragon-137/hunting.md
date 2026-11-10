@@ -1,6 +1,6 @@
 # 狩猎：寻找猎物、突袭与各地遭遇
 
-What's for Lunch? · Dragon #137
+午餐吃什么？ What's for Lunch? · Dragon #137
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine137.pdf)
 

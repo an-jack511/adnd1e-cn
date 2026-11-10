@@ -1,6 +1,6 @@
 # 唯一好的俘虏……
 
-Only Good Captive..., The · Dragon #97
+唯一好的俘虏…… Only Good Captive..., The · Dragon #97
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine097.pdf)
 

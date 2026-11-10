@@ -1,6 +1,6 @@
 # 半食人魔：完整补充方案
 
-Whole Half-Ogre, The · Dragon #73
+完整的半食人魔 The Whole Half-Ogre · Dragon #73
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine073.pdf)
 

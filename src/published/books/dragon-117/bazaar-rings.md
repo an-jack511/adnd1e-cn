@@ -1,6 +1,6 @@
 # 奇珍集市：23 枚戒指
 
-Bazaar of the Bizarre · Dragon #117
+奇异集市 Bazaar of the Bizarre · Dragon #117
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine117.pdf) · [文字层](https://archive.org/download/DragonMagazine260_201801/DragonMagazine117_djvu.txt)
 

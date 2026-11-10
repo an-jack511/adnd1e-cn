@@ -1,6 +1,6 @@
 # 辨认矿物
 
-Better Living Through Alchemy · Dragon #49
+炼金术带来更好生活 Better Living Through Alchemy · Dragon #49
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine049.pdf)
 

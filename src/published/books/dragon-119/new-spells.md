@@ -1,6 +1,6 @@
 # 干柴术
 
-Cantrips For Druids -- Naturally · Dragon #119
+德鲁伊小法术……自然如此 Cantrips For Druids -- Naturally · Dragon #119
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine119.pdf)
 

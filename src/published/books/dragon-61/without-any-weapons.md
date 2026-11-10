@@ -1,6 +1,6 @@
 # 不使用武器
 
-Without Any Weapons... · Dragon #61
+不用任何武器…… Without Any Weapons... · Dragon #61
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine061.pdf)
 

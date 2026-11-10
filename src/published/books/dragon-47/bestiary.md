@@ -1,6 +1,6 @@
 # 怪物志
 
-Creatures From Elsewhere · Dragon #47
+来自异乡的生物 Creatures From Elsewhere · Dragon #47
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine047.pdf)
 

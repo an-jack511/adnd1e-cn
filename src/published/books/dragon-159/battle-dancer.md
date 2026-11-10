@@ -1,6 +1,6 @@
 # 战斗舞者
 
-Rhythm Warriors · Dragon #159
+节奏战士 Rhythm Warriors · Dragon #159
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine159.pdf)
 

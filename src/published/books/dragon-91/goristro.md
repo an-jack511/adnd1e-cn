@@ -1,6 +1,6 @@
 # 巨牛魔
 
-Goristro Revealed, The · Dragon #91
+巨牛魔揭秘 The Goristro Revealed · Dragon #91
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine091.pdf)
 

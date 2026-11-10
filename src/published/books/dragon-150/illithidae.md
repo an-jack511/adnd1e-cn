@@ -1,6 +1,6 @@
 # 灵吸怪的近亲与伴生生物
 
-Dragon's Bestiary, The · Dragon #150
+巨龙怪物志 The Dragon's Bestiary · Dragon #150
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine150.pdf)
 

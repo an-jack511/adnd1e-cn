@@ -1,6 +1,6 @@
 # 树精的生态与树魂羁绊
 
-Ecology of the Dryad, The · Dragon #87
+树精生态 The Ecology of the Dryad · Dragon #87
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine087.pdf)
 

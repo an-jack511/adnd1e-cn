@@ -1,6 +1,6 @@
 # 怪物志
 
-Dragon's Bestiary · Dragon #59
+巨龙怪物志 The Dragon's Bestiary · Dragon #59
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine059.pdf)
 

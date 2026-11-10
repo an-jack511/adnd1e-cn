@@ -1,6 +1,6 @@
 # 神祇与信徒
 
-Deities and Their Faithful · Dragon #97
+神祇与其信徒 Deities and Their Faithful · Dragon #97
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine097.pdf)
 

@@ -1,6 +1,6 @@
 # 兽人及半兽人的成长环境
 
-Half-Orcs · Dragon #62
+半兽人 Half-Orcs · Dragon #62
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine062.pdf)
 

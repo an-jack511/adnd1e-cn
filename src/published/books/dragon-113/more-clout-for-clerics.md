@@ -1,6 +1,6 @@
 # 让牧师更有影响力
 
-More Clout For Clerics · Dragon #113
+给牧师更多底气 More Clout For Clerics · Dragon #113
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine113.pdf)
 

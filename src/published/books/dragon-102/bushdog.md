@@ -1,6 +1,6 @@
 # 灌木犬
 
-Collection of Canines, A · Dragon #102
+犬类集录 A Collection of Canines · Dragon #102
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine102.pdf)
 

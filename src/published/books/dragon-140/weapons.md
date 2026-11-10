@@ -1,6 +1,6 @@
 # 肾形护手匕首
 
-Assortment of Knives, An · Dragon #140
+各式刀具 An Assortment of Knives · Dragon #140
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine140.pdf)
 

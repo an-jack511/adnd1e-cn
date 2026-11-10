@@ -1,6 +1,6 @@
 # 灰鹰世界：世界的形状
 
-Greyhawk: The Shape Of the World · Dragon #37
+灰鹰世界：世界的形状 Greyhawk: The Shape Of the World · Dragon #37
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine037.pdf)
 

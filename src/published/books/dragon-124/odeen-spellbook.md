@@ -1,6 +1,6 @@
 # 《奥丁法术集》资料
 
-Arcane Lore · Dragon #124
+秘法知识 Arcane Lore · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

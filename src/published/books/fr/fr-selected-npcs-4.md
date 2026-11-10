@@ -4,7 +4,7 @@ Osper 秃顶，胡子和浓密眉毛已经变白；他戴着许多戒指，其�
 
 ## 佩伦德拉 Perendra（Per-EN-drah）
 
-<strong>据点：</strong>沃恩拉尔。<strong>6 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与泰莫拉。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>据点：</strong>沃恩拉尔。<strong>6 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与泰莫拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 这位神秘女士出身高贵，是谭森尔一个在内战中失散的贵族家庭后裔。她的父母塞尔顿·拉斯伦塔尔领主和夫人赛莱恩来到深水城，佩伦德拉在那里长大。十四岁时，父母被继续进行谭森尔血仇的刺客杀死；银月城的阿露丝翠收养了她，深水城的“放贷人”米尔特则秘密把她带到阿露丝翠的宫殿。
 
@@ -52,7 +52,7 @@ Rathan 出生在阿拉贝尔，父母 Rathur 和 Ulla Thentraver 是鞋匠商人
 
 ## 朗泰德斯 Rhauntides（RAWN-tides）
 
-<strong>据点：</strong>深谷地。<strong>头衔：</strong>贤者。<strong>12 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>深谷地。<strong>头衔：</strong>贤者。<strong>12 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
 这个安静、有教养、善良的人住在深谷地一座小而华丽的石塔中；那座塔是他约三十年前设计并建造的（得到魔法帮助）。他在这里研究魔法及其历史，包括古代法师、他们的事迹、仇怨、思想、法术、成就和著作。
 
@@ -62,9 +62,9 @@ Rathan 出生在阿拉贝尔，父母 Rathur 和 Ulla Thentraver 是鞋匠商人
 
 ## 塞蒙 Sememmon（SEH-mem-on）
 
-<strong>据点：</strong>黑堡。<strong>12 级魔法使用者。</strong>阵营／信仰：<strong>守序邪恶，密斯特拉与班恩。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>黑堡。<strong>12 级魔法师。</strong>阵营／信仰：<strong>守序邪恶，密斯特拉与班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
-这名泽恩塔林的重要成员是一个残酷而傲慢的法师，多年来训练了许多泽恩塔林邪恶魔法使用者，也曾数次被杀。如今的塞蒙是原本人的复制体。曼松完全信任他——至少像曼松能够信任任何人那样信任——他是泽恩塔林网络中权力第二高的人，属于曼松与弗佐尔·钱伯瑞组成的核心圈，但地位低于两人。
+这名泽恩塔林的重要成员是一个残酷而傲慢的法师，多年来训练了许多泽恩塔林邪恶魔法师，也曾数次被杀。如今的塞蒙是原本人的复制体。曼松完全信任他——至少像曼松能够信任任何人那样信任——他是泽恩塔林网络中权力第二高的人，属于曼松与弗佐尔·钱伯瑞组成的核心圈，但地位低于两人。
 
 塞蒙拥有许多魔法物品、许多安全住所和许多策略。他总在计划和策划，是一个可怕的敌人。在他的指挥下，黑堡布满陷阱和魔法防御。他极少离开黑堡，除非伪装起来去学习某些他自己不敢或不愿交给手下的事情（例如窥探曼松的行动）。他的私人徽记是一枚黑色等边三角形，底边被一个椭圆环绕。
 
@@ -92,7 +92,7 @@ Thauntyr 是一个仁慈而高贵的人，把她当成亲生女儿在荒野中�
 
 ## 肖妮尔·萨姆 Shaunil Tharm（SHAW-nil Tharm）
 
-<strong>据点：</strong>深谷地。<strong>7 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>据点：</strong>深谷地。<strong>7 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 这个美丽、声音柔和而温和的女子出生在深谷地，父母是木匠和木雕师；她十六岁时，父母在一次强盗袭击中被杀。歇斯底里的 Shaunil 逃入森林，野外生活了几个月，直到一队精灵发现她，把她带给深谷地的朗泰德斯。朗泰德斯抚养她、训练她魔法，并把她当作高贵出身的女士对待，尽管他知道她的身世。
 
@@ -100,7 +100,7 @@ Thauntyr 是一个仁慈而高贵的人，把她当成亲生女儿在荒野中�
 
 ## 辛布尔 The Simbul
 
-<strong>头衔：</strong>阿戈拉隆统治者。<strong>据点：</strong>阿戈拉隆，常伪装在许多地方游荡。<strong>27 级魔法使用者。</strong>阵营：<strong>善良倾向。</strong>信仰：<strong>密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>头衔：</strong>阿戈拉隆统治者。<strong>据点：</strong>阿戈拉隆，常伪装在许多地方游荡。<strong>27 级魔法师。</strong>阵营：<strong>善良倾向。</strong>信仰：<strong>密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 辛布尔是一位拥有银发和令人惊叹魔法力量的高大女性。她拥有大量魔法物品，虽然很少使用；她的个人力量使泰伊的军队无法压倒她的王国。
 
@@ -124,7 +124,7 @@ Sundeth 最终死在乌鸦堡垒的城垛上，她在那里与一条袭击城市
 
 ## 希伦 Sylune（Sill-OO-nay）
 
-<strong>身份：</strong>暗影谷女巫与夫人。<strong>生卒：</strong>1202–1356，虫年死亡。<strong>22 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>身份：</strong>暗影谷女巫与夫人。<strong>生卒：</strong>1202–1356，虫年死亡。<strong>22 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 Sylune是暗影谷的女巫和夫人，曾是暗影谷领主奥姆里的妻子。她的丈夫死后，Sylune对抗并击败了许多邪恶篡位者，随后维持谷地和平；她与伊尔明斯特（Elminster）、吟游诗人Storm Silverhand及Mane’s Band合作，直到合法领主Doust Sulwood回来。
 
@@ -142,7 +142,7 @@ Temmi 悄悄搬进希尔斯法尔附近的精灵森林，作为奴隶贩子活�
 
 ## 萨格达尔 Thagdal（THAHG-dal）
 
-<strong>据点：</strong>迷斯卓诺游荡。<strong>9 级魔法使用者。</strong>阵营／信仰：<strong>中立邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>迷斯卓诺游荡。<strong>9 级魔法师。</strong>阵营／信仰：<strong>中立邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
 萨格达尔是一个傲慢、肥胖的法师，曾是泽恩塔林的塞蒙的学徒。他拥有一条飞弹项链；借助它，他在袭击暗影谷时勉强从 Florin·猎鹰手手中逃生。
 
@@ -168,7 +168,7 @@ Thurbrand 顽固而勇敢，曾多次进入石地，逐渐积攒财富，成为�
 
 ## 瑟洛克 Thurlock（THUR-lock）
 
-<strong>绰号：</strong>瑟洛克先知。<strong>据点：</strong>希尔斯法尔。<strong>10 级魔法使用者。</strong>阵营／信仰：<strong>中立，欧格玛。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>绰号：</strong>瑟洛克先知。<strong>据点：</strong>希尔斯法尔。<strong>10 级魔法师。</strong>阵营／信仰：<strong>中立，欧格玛。</strong>种族／性别：<strong>人类女性。</strong>
 
 瑟洛克住在希尔斯法尔贵族区一座大宅邸中，据说地下有广阔的地窖和通道。她自称占卜师，愿意收费刺穿谜团、揭示隐藏之物。为了这项生意，她不断寻找能帮助占卜魔法的魔法物品，也常用情报交换这类物品。
 
@@ -186,7 +186,7 @@ Thurbrand 顽固而勇敢，曾多次进入石地，逐渐积攒财富，成为�
 
 ## 范格达海斯特 Vangerdahast
 
-<strong>据点：</strong>苏萨尔。<strong>15 级魔法使用者。</strong>阵营／信仰：<strong>守序中立，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>苏萨尔。<strong>15 级魔法师。</strong>阵营／信仰：<strong>守序中立，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
 本页在这里开始范格达海斯特（Vangerdahast）条目，完整叙述见下一页。
 

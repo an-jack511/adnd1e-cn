@@ -1,6 +1,6 @@
 # 努拉索护尸术
 
-Pages From the Mages · Dragon #62
+法师手记 Pages From the Mages · Dragon #62
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine062.pdf)
 

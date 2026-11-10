@@ -1,6 +1,6 @@
 # 变换术
 
-More Cantrips · Dragon #60
+更多小法术 More Cantrips · Dragon #60
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine060.pdf)
 

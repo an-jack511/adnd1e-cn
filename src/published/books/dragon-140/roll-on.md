@@ -1,6 +1,6 @@
 # 继续掷骰！
 
-Roll On! · Dragon #140
+继续前进！ Roll On! · Dragon #140
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine140.pdf)
 

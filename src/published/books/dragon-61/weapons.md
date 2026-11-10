@@ -1,6 +1,6 @@
 # 带钩投网
 
-Or With a...Weird One · Dragon #61
+或者用一把怪武器…… Or With a...Weird One · Dragon #61
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine061.pdf)
 

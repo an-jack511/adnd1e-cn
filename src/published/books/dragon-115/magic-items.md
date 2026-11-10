@@ -1,6 +1,6 @@
 # 赞扎洛竖琴
 
-Airs of Ages Past · Dragon #115
+昔日时代的气息 Airs of Ages Past · Dragon #115
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine115.pdf)
 

@@ -1,6 +1,6 @@
 # 精灵骑士（Booth方案）
 
-Elven Cavalier, The · Dragon #114
+精灵骑士 The Elven Cavalier · Dragon #114
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine114.pdf)
 

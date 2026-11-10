@@ -1,6 +1,6 @@
 # 戈尔贡的生态与石化吐息
 
-Ecology of the Gorgon, The · Dragon #97
+石化铁牛生态 The Ecology of the Gorgon · Dragon #97
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine097.pdf)
 

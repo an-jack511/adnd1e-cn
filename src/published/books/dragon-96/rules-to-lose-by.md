@@ -1,6 +1,6 @@
 # 输掉游戏的规则
 
-Rules To Lose By · Dragon #96
+失败必学的规则 Rules To Lose By · Dragon #96
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine096.pdf)
 

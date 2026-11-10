@@ -1,6 +1,6 @@
 # 关键在于动能
 
-Kinetic Energy Is the Key · Dragon #88
+动能是关键 Kinetic Energy Is the Key · Dragon #88
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine088.pdf)
 

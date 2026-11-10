@@ -1,6 +1,6 @@
 # 气束术
 
-Ecology of the Spectator, The · Dragon #139
+观者生态 The Ecology of the Spectator · Dragon #139
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine139.pdf)
 

@@ -1,6 +1,6 @@
 # 驭兽师
 
-King of the Jungle · Dragon #119
+丛林之王 King of the Jungle · Dragon #119
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine119.pdf)
 

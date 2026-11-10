@@ -1,6 +1,6 @@
 # 仪式：见证誓约
 
-Natural Order, The · Dragon #122
+自然秩序 The Natural Order · Dragon #122
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine122.pdf)
 

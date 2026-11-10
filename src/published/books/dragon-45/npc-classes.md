@@ -1,6 +1,6 @@
 # 占星师（受雇NPC）
 
-NPCs For Hire: One Who Predicts... · Dragon #45
+可雇佣 NPC：预言者…… NPCs For Hire: One Who Predicts... · Dragon #45
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine045.pdf)
 

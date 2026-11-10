@@ -1,6 +1,6 @@
 # 半萨特与半树精
 
-Hooves and Green Hair · Dragon #109
+蹄子与绿发 Hooves and Green Hair · Dragon #109
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine109.pdf)
 

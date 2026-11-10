@@ -1,6 +1,6 @@
 # 全新的改良德鲁伊
 
-New, Improved Druid, The · Dragon #139
+全新改良德鲁伊 The New, Improved Druid · Dragon #139
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine139.pdf)
 

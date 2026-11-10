@@ -1,6 +1,6 @@
 # 旧规则的新武器
 
-New Weapons For Old · Dragon #169
+旧规则的新武器 New Weapons For Old · Dragon #169
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine169.pdf)
 

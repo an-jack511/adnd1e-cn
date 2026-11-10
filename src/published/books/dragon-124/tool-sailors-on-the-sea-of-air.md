@@ -1,6 +1,6 @@
 # 空之海的水手
 
-Sailors On the Sea of Air · Dragon #124
+空海水手 Sailors On the Sea of Air · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

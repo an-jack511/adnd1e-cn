@@ -1,6 +1,6 @@
 # 为了国王与国家
 
-For King and Country · Dragon #101
+为王与国 For King and Country · Dragon #101
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine101.pdf)
 

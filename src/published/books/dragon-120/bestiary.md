@@ -1,6 +1,6 @@
 # 怪物志
 
-Dining Out In the Hells · Dragon #120
+在地狱用餐 Dining Out In the Hells · Dragon #120
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine120.pdf)
 

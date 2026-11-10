@@ -1,6 +1,6 @@
 # 咒法师
 
-Enchanting Incantatrix, The · Dragon #90
+迷人的咒法师 The Enchanting Incantatrix · Dragon #90
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine090.pdf)
 

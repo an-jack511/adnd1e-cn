@@ -1,6 +1,6 @@
 # 野蛮人（Gygax早期测试稿）
 
-Big, Bad Barbarian, The · Dragon #63
+强悍野蛮人 The Big, Bad Barbarian · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 

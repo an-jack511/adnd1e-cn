@@ -1,6 +1,6 @@
 # 受训动物作为随从
 
-Trained Animals In Dungeons & Dragons · Dragon #29
+《龙与地下城》中的驯兽 Trained Animals In Dungeons & Dragons · Dragon #29
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine029.pdf)
 

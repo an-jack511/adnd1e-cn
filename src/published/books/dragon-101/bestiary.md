@@ -1,6 +1,6 @@
 # 怪物志
 
-Creature Catalog III · Dragon #101
+生物图鉴 III Creature Catalog III · Dragon #101
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine101.pdf)
 

@@ -1,6 +1,6 @@
 # 阿拉卡克拉：角色种族方案
 
-Wings of Eagles, The · Dragon #124
+鹰之翼 The Wings of Eagles · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

@@ -1,6 +1,6 @@
 # 不给余地
 
-No Quarter! · Dragon #127
+不留情面 No Quarter! · Dragon #127
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine127.pdf)
 

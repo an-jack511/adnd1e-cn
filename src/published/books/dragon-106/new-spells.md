@@ -1,6 +1,6 @@
 # 阅读帕拉曼德魔文
 
-Plethora of Paladins, A · Dragon #106
+圣武士众多 A Plethora of Paladins · Dragon #106
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine106.pdf)
 

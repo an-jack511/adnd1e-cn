@@ -1,6 +1,6 @@
 # 最公平的集市
 
-Fairest of the Fairs, The · Dragon #137
+集市之最 The Fairest of the Fairs · Dragon #137
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine137.pdf)
 

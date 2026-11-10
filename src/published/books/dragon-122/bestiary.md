@@ -1,6 +1,6 @@
 # 怪物志
 
-Gaming the Dark Continent · Dragon #122
+在黑暗大陆上游戏 Gaming the Dark Continent · Dragon #122
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine122.pdf)
 

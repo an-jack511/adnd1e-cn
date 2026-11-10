@@ -1,6 +1,6 @@
 # 飞越友善天空？
 
-Flying the Friendly(?) Skies · Dragon #124
+翱翔在友善的天空？ Flying the Friendly(?) Skies · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

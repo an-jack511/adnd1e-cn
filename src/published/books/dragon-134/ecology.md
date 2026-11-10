@@ -1,6 +1,6 @@
 # 红龙的生态与追踪能力
 
-Ecology of the Red Dragon, The · Dragon #134
+红龙生态 The Ecology of the Red Dragon · Dragon #134
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine134.pdf)
 

@@ -1,6 +1,6 @@
 # 飞行珍珠
 
-Bazaar of the Bizarre · Dragon #40
+奇异集市 Bazaar of the Bizarre · Dragon #40
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine040.pdf)
 

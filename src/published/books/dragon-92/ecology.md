@@ -1,6 +1,6 @@
 # 双头巨人的生态与双脑防护
 
-Duh 'Cology of Duh Ettin · Dragon #92
+双头巨人的生态 Duh 'Cology of Duh Ettin · Dragon #92
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine092.pdf)
 

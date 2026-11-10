@@ -1,6 +1,6 @@
 # 映照水池
 
-New Druid Spells...Naturally! · Dragon #71
+全新的德鲁伊法术……自然如此！ New Druid Spells...Naturally! · Dragon #71
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine071.pdf)
 

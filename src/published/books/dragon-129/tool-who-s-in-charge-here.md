@@ -1,6 +1,6 @@
 # 这里谁说了算？
 
-Who's In Charge Here? · Dragon #129
+这里谁说了算？ Who's In Charge Here? · Dragon #129
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine129.pdf)
 

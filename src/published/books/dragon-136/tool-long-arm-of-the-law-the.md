@@ -1,6 +1,6 @@
 # 法律的长臂
 
-Long Arm of the Law, The · Dragon #136
+法律的长臂 The Long Arm of the Law · Dragon #136
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine136.pdf)
 

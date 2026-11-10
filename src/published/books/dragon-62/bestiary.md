@@ -1,6 +1,6 @@
 # 怪物志
 
-Faerie Dragon · Dragon #62
+妖精龙 Faerie Dragon · Dragon #62
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine062.pdf)
 

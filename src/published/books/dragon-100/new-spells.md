@@ -1,6 +1,6 @@
 # 神圣连结
 
-Pages From the Mages V · Dragon #100
+法师手记 V Pages From the Mages V · Dragon #100
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine100.pdf)
 

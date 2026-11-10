@@ -1,6 +1,6 @@
 # 会计师
 
-Character That Really Counts, A · Dragon #48
+真正重要的角色 A Character That Really Counts · Dragon #48
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine048.pdf)
 

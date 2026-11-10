@@ -1,6 +1,6 @@
 # 怪物志
 
-Angels · Dragon #35
+天使 Angels · Dragon #35
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine035.pdf)
 

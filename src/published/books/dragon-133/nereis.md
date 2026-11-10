@@ -1,6 +1,6 @@
 # 沙蚕
 
-Dragon's Bestiary, The · Dragon #133
+巨龙怪物志 The Dragon's Bestiary · Dragon #133
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine133.pdf)
 

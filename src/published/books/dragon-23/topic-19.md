@@ -1,6 +1,6 @@
 # 永久伤残判定
 
-Damage Permanency · Dragon #23
+伤害永久化 Damage Permanency · Dragon #23
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine023.pdf)
 

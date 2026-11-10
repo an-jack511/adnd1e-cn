@@ -1,6 +1,6 @@
 # 幻想世界的牧师与牧师迷思
 
-Fantasy Clerics and Clerical Fallacies · Dragon #140
+奇幻牧师与牧师谬论 Fantasy Clerics and Clerical Fallacies · Dragon #140
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine140.pdf)
 

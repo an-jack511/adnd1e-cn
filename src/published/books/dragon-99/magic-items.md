@@ -1,6 +1,6 @@
 # 能量戒指
 
-Treasure Trove II: Seventeen New Treasures · Dragon #99
+宝藏库 II：十七件新宝藏 Treasure Trove II: Seventeen New Treasures · Dragon #99
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine099.pdf)
 

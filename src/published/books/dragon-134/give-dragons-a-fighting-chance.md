@@ -1,6 +1,6 @@
 # 给龙一个战斗机会
 
-Give Dragons a Fighting Chance · Dragon #134
+给巨龙一战之力 Give Dragons a Fighting Chance · Dragon #134
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine134.pdf)
 

@@ -1,6 +1,6 @@
 # 半身人的观点
 
-Halfling Point of View, The · Dragon #59
+半身人观点 The Halfling Point of View · Dragon #59
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine059.pdf)
 

@@ -1,6 +1,6 @@
 # 怪物志
 
-Hearts of Darkness · Dragon #126
+黑暗之心 Hearts of Darkness · Dragon #126
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine126.pdf)
 

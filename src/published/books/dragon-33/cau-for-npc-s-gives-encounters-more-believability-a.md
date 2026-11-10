@@ -1,6 +1,6 @@
 # 给 NPC 加上谨慎值，让遭遇更可信
 
-CAU for NPC's Gives Encounters More Believability, A · Dragon #33
+让遭遇更可信的 NPC CAU A CAU for NPC's Gives Encounters More Believability · Dragon #33
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine033.pdf)
 

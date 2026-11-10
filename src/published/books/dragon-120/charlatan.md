@@ -1,6 +1,6 @@
 # 骗子
 
-First Impressions Are Deceiving · Dragon #120
+第一印象会骗人 First Impressions Are Deceiving · Dragon #120
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine120.pdf)
 

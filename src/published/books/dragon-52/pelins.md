@@ -1,6 +1,6 @@
 # 气囊兽
 
-Dragon's Bestiary · Dragon #52
+巨龙怪物志 The Dragon's Bestiary · Dragon #52
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine052.pdf)
 

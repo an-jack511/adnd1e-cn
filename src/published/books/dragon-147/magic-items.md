@@ -1,6 +1,6 @@
 # 奇迹魔杖：三种扩展表
 
-WOW Your Players · Dragon #147
+让玩家惊叹 WOW Your Players · Dragon #147
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine147.pdf)
 

@@ -1,6 +1,6 @@
 # 双关语胜过利剑
 
-Pun Is Mightier Than the Sword, The · Dragon #120
+妙语胜过刀剑 The Pun Is Mightier Than the Sword · Dragon #120
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine120.pdf)
 

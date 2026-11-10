@@ -1,6 +1,6 @@
 # 静默戒指
 
-Bazaar of the Bizarre · Dragon #28
+奇异集市 Bazaar of the Bizarre · Dragon #28
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine028.pdf)
 

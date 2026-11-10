@@ -1,6 +1,6 @@
 # 仪式：誓言（零环祷术）
 
-Cantrips For Clerics · Dragon #108
+牧师小法术 Cantrips For Clerics · Dragon #108
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine108.pdf)
 

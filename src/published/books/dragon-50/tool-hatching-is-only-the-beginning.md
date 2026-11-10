@@ -1,6 +1,6 @@
 # 孵化只是开始……
 
-Hatching Is Only the Beginning... · Dragon #50
+孵化只是开始…… Hatching Is Only the Beginning... · Dragon #50
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine050.pdf)
 

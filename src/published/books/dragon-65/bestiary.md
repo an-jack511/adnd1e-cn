@@ -1,6 +1,6 @@
 # 怪物志
 
-Featured Creatures · Dragon #65
+精选生物 Featured Creatures · Dragon #65
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine065.pdf)
 

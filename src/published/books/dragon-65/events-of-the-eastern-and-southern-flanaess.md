@@ -1,6 +1,6 @@
 # 东部与南部弗兰纳斯大事记
 
-Events Of the Eastern and Southern Flanaess · Dragon #65
+东弗兰奈斯与南弗兰奈斯的事件 Events Of the Eastern and Southern Flanaess · Dragon #65
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine065.pdf)
 

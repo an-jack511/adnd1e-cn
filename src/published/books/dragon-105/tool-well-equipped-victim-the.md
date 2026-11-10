@@ -1,6 +1,6 @@
 # 装备齐全的受害者
 
-Well-Equipped Victim, The · Dragon #105
+装备精良的受害者 The Well-Equipped Victim · Dragon #105
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine105.pdf)
 

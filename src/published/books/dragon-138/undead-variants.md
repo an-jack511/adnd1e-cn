@@ -1,6 +1,6 @@
 # 不死生物变体
 
-The Ungrateful Dead · Dragon #138
+忘恩负义的不死者 The Ungrateful Dead · Dragon #138
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine138.pdf)
 

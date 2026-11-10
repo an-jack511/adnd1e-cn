@@ -1,6 +1,6 @@
 # 戏法
 
-The Geisya · Dragon #121
+艺伎 The Geisya · Dragon #121
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine121.pdf)
 

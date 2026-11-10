@@ -1,6 +1,6 @@
 # 人多更热闹
 
-More, the Merrier, The · Dragon #92
+越多越热闹 The More, the Merrier · Dragon #92
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine092.pdf)
 

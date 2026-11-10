@@ -1,6 +1,6 @@
 # 警觉戒指
 
-Rings That Do Weird Things · Dragon #82
+会做怪事的戒指 Rings That Do Weird Things · Dragon #82
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine082.pdf)
 

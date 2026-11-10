@@ -1,6 +1,6 @@
 # 阿迦纳萨灼热射流
 
-Pages From the Mages III · Dragon #92
+法师手记 III Pages From the Mages III · Dragon #92
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine092.pdf)
 

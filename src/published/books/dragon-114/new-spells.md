@@ -1,6 +1,6 @@
 # 魅惑男性 I／II（巫婆版）
 
-Witch, The · Dragon #114
+女巫 Witch, The · Dragon #114
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine114.pdf)
 

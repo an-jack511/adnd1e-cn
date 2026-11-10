@@ -1,6 +1,6 @@
 # 死灵师戒指
 
-Bazaar of the Bizarre · Dragon #29
+奇异集市 Bazaar of the Bizarre · Dragon #29
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine029.pdf)
 

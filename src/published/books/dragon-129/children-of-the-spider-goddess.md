@@ -1,6 +1,6 @@
 # 蜘蛛女神之子
 
-Children Of the Spider Goddess · Dragon #129
+蜘蛛女神之子 Children Of the Spider Goddess · Dragon #129
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine129.pdf)
 

@@ -1,6 +1,6 @@
 # 古基辅的勇士们
 
-Bogatyrs of Old Kiev, The · Dragon #53
+古基辅的勇士们 The Bogatyrs of Old Kiev · Dragon #53
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine053.pdf)
 

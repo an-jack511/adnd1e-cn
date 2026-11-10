@@ -1,6 +1,6 @@
 # 新龙与龙兽
 
-All dragons, great and small · Dragon #146
+大小巨龙 All dragons, great and small · Dragon #146
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine146.pdf)
 

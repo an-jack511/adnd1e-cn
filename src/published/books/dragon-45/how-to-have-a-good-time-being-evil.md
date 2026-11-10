@@ -1,6 +1,6 @@
 # 如何愉快地扮演邪恶角色
 
-How To Have a Good Time Being Evil · Dragon #45
+做个邪恶之徒也能开心 How To Have a Good Time Being Evil · Dragon #45
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine045.pdf)
 

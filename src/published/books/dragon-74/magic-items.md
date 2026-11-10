@@ -1,6 +1,6 @@
 # 阿贾莎“饮者”
 
-Seven Swords: Blades of the Realms · Dragon #74
+七把剑：诸国之刃 Seven Swords: Blades of the Realms · Dragon #74
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine074.pdf)
 

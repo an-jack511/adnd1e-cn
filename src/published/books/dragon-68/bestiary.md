@@ -1,6 +1,6 @@
 # 怪物志
 
-What's That In the Water? · Dragon #68
+水里那是什么？ What's That In the Water? · Dragon #68
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine068.pdf)
 

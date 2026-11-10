@@ -1,6 +1,6 @@
 # 矮人牧师的魔法
 
-Arcane Lore: Magic of the Dwarven Priests · Dragon #129
+秘法知识：矮人牧师的魔法 Arcane Lore: Magic of the Dwarven Priests · Dragon #129
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine129.pdf)
 

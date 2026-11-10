@@ -1,6 +1,6 @@
 # 龙类伤害修订
 
-Dragon Damage Revised · Dragon #98
+再修订巨龙伤害 Dragon Damage Revised · Dragon #98
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine098.pdf)
 

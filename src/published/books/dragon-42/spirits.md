@@ -1,6 +1,6 @@
 # 恶魔、魔鬼与原初精灵
 
-Demons, Devils and Spirits · Dragon #42
+恶魔、魔鬼与灵体 Demons, Devils and Spirits · Dragon #42
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine042.pdf)
 

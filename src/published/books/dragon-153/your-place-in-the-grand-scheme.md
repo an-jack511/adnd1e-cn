@@ -1,6 +1,6 @@
 # 你在宏大秩序中的位置
 
-Your Place In the Grand Scheme · Dragon #153
+你在宏大计划中的位置 Your Place In the Grand Scheme · Dragon #153
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine153.pdf)
 

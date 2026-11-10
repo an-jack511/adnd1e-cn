@@ -1,6 +1,6 @@
 # 九阵营的行为参考表
 
-Another View of the Nine-Point Alignment Scheme · Dragon #26
+九点阵营体系的另一种观点 Another View of the Nine-Point Alignment Scheme · Dragon #26
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine026.pdf)
 

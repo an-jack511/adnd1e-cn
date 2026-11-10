@@ -1,6 +1,6 @@
 # 气化戒指
 
-Nasty Additions To a DM's Arsenal · Dragon #77
+DM 兵器库的糟糕新增 Nasty Additions To a DM's Arsenal · Dragon #77
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine077.pdf)
 

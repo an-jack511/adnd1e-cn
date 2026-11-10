@@ -1,6 +1,6 @@
 # 巨鹰戒指
 
-Treasure Trove · Dragon #91
+宝藏库 Treasure Trove · Dragon #91
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine091.pdf)
 

@@ -1,6 +1,6 @@
 # 高等幻象
 
-New Spells For Illusionists · Dragon #66
+幻术师新法术 New Spells For Illusionists · Dragon #66
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine066.pdf)
 

@@ -1,6 +1,6 @@
 # 杂音术
 
-Cantrips For the Aspiring Illusionist · Dragon #61
+准幻术师小法术 Cantrips For the Aspiring Illusionist · Dragon #61
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine061.pdf)
 

@@ -1,6 +1,6 @@
 # 扮演反派？一个邪恶的点子
 
-Play a Villain? An Evil Idea · Dragon #57
+扮演反派？邪恶的点子 Play a Villain? An Evil Idea · Dragon #57
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine057.pdf)
 

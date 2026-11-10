@@ -1,6 +1,6 @@
 # 反圣武士
 
-Try This For Evil: The Anti-Paladin NPC · Dragon #39
+试试邪恶：反圣武士 NPC Try This For Evil: The Anti-Paladin NPC · Dragon #39
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine039.pdf)
 

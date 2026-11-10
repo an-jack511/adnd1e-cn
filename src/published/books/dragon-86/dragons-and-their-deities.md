@@ -1,6 +1,6 @@
 # 龙与它们的神祇
 
-Dragons and Their Deities · Dragon #86
+巨龙与其神祇 Dragons and Their Deities · Dragon #86
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine086.pdf)
 

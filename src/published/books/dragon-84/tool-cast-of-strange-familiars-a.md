@@ -1,6 +1,6 @@
 # 一群奇异魔宠
 
-Cast of Strange Familiars, A · Dragon #84
+一群奇异魔宠 A Cast of Strange Familiars · Dragon #84
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine084.pdf)
 

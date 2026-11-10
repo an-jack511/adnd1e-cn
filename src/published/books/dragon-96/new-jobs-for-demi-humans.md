@@ -1,6 +1,6 @@
 # 半人种族的新职业
 
-New Jobs For Demi-Humans · Dragon #96
+半人种族的新职业 New Jobs For Demi-Humans · Dragon #96
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine096.pdf)
 

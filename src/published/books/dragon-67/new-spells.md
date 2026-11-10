@@ -1,6 +1,6 @@
 # 嘲讽术
 
-New Magic-User Spells · Dragon #67
+魔法师新法术 New Magic-User Spells · Dragon #67
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine067.pdf)
 

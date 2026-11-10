@@ -1,6 +1,6 @@
 # 未完待续……
 
-To Be Continued... · Dragon #143
+未完待续 To Be Continued... · Dragon #143
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine143.pdf)
 

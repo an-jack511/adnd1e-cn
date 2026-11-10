@@ -1,6 +1,6 @@
 # 为健康干杯
 
-Here's To Your Health · Dragon #85
+为你的健康干杯 Here's To Your Health · Dragon #85
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine085.pdf)
 

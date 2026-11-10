@@ -1,6 +1,6 @@
 # 狂战士
 
-Wild Warriors, The · Dragon #133
+狂野战士 The Wild Warriors · Dragon #133
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine133.pdf)
 

@@ -1,6 +1,6 @@
 # 你总有机会
 
-You've Always Got a Chance · Dragon #68
+总有机会 You've Always Got a Chance · Dragon #68
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine068.pdf)
 

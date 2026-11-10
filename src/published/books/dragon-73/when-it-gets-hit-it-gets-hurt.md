@@ -1,6 +1,6 @@
 # 挨打就会受伤
 
-When It Gets Hit, It Gets Hurt · Dragon #73
+挨打就受伤 When It Gets Hit, It Gets Hurt · Dragon #73
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine073.pdf)
 

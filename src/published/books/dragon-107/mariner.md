@@ -1,6 +1,6 @@
 # 航海家
 
-For Sail: One New NPC · Dragon #107
+扬帆：一名全新 NPC For Sail: One New NPC · Dragon #107
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine107.pdf)
 

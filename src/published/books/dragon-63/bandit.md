@@ -1,6 +1,6 @@
 # 强盗
 
-Bandits! · Dragon #63
+土匪！ Bandits! · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 

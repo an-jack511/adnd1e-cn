@@ -1,6 +1,6 @@
 # 移位兽的生态与显形判定
 
-Ecology of the Displacer Beast · Dragon #109
+移位兽生态 Ecology of the Displacer Beast · Dragon #109
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine109.pdf)
 

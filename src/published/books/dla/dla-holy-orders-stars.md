@@ -509,7 +509,7 @@
 
 <strong>追随者能力：</strong>
 
-- <strong>特殊加值：</strong>任何艺术类专长获得 +2。
+- <strong>特殊加值：</strong>任何艺术类熟练项获得 +2。
 - <strong>领域：</strong>植物、星辰、天气。
 - <strong>特殊法术：</strong>II：Detect Life，Locate Plants。
 - <strong>额外法术：</strong>I：Detect Snares & Pits；II：Slow Poison；III：Create Food & Water，Neutralize Poison；V：Quest；VI：Aerial Servant，Heroes’ Feast。
@@ -595,7 +595,7 @@
 
 <strong>追随者能力：</strong>
 
-- <strong>特殊加值：</strong>任何工艺专长获得 +2。
+- <strong>特殊加值：</strong>任何工艺熟练项获得 +2。
 - <strong>领域：</strong>战斗、创造、元素、星辰。
 - <strong>特殊法术：</strong>无。
 - <strong>额外法术：</strong>无。

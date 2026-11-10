@@ -1,6 +1,6 @@
 # 与魔宠熟悉起来
 
-Getting Familiar · Dragon #147
+结识魔宠 Getting Familiar · Dragon #147
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine147.pdf)
 

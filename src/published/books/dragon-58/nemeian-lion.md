@@ -1,6 +1,6 @@
 # 涅墨亚狮
 
-Blood of Medusa, The · Dragon #58
+美杜莎之血 The Blood of Medusa · Dragon #58
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine058.pdf)
 

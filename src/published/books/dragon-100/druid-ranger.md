@@ -1,6 +1,6 @@
 # 德鲁伊／巡林客
 
-All About the Druid/Ranger · Dragon #100
+德鲁伊与巡林客全解 All About the Druid/Ranger · Dragon #100
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine100.pdf)
 

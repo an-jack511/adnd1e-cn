@@ -1,6 +1,6 @@
 # 决斗圈
 
-Fighting Circle, The · Dragon #118
+战斗圈 Fighting Circle, The · Dragon #118
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine118.pdf)
 

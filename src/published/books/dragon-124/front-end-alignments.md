@@ -1,6 +1,6 @@
 # 前端阵营
 
-Front-End Alignments · Dragon #124
+前置阵营 Front-End Alignments · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

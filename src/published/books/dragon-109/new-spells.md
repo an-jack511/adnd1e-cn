@@ -1,6 +1,6 @@
 # 役使宿敌之灵
 
-Barbarian Cleric, The · Dragon #109
+野蛮人牧师 The Barbarian Cleric · Dragon #109
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine109.pdf)
 

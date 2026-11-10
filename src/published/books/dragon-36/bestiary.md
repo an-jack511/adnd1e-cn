@@ -1,6 +1,6 @@
 # 怪物志
 
-Dragon's Bestiary · Dragon #36
+巨龙怪物志 The Dragon's Bestiary · Dragon #36
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine036.pdf)
 

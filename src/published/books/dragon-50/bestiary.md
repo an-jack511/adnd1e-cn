@@ -1,6 +1,6 @@
 # 怪物志
 
-Kzinti · Dragon #50
+克津提 Kzinti · Dragon #50
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine050.pdf)
 

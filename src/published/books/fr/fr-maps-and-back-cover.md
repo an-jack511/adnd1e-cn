@@ -215,6 +215,5 @@ PDF 第230页为《Forgotten Realms Campaign Set》封底。封底宣传文字�
 
 ![第230页封底中文覆盖层](/assets/books/fr/fr_back_cover_page_230_zh.png)
 
-![第230页封底原图](/assets/books/fr/fr_back_cover_page_230_original.png)
 
 原书 PDF 第198–229页整页扫描不嵌入阅读版；地图中文标注层仍在，待裁出地图主体并复核后再展示。第230页封底作为独立封底资源保留。

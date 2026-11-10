@@ -1,6 +1,6 @@
 # 保温祷术
 
-Higher Aspirations · Dragon #120
+更高的追求 Higher Aspirations · Dragon #120
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine120.pdf)
 

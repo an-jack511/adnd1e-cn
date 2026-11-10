@@ -1,6 +1,6 @@
 # 梅利克斯火焰魔嘴
 
-Arcane Lore · Dragon #123
+秘法知识 Arcane Lore · Dragon #123
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine123.pdf)
 

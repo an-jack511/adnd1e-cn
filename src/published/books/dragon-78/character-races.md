@@ -1,6 +1,6 @@
 # 德里尼
 
-Deryni, The · Dragon #78
+德里尼 The Deryni · Dragon #78
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine078.pdf)
 

@@ -1,6 +1,6 @@
 # 干燥术
 
-Cantrips: Minor Magics for Would-Be Wizards · Dragon #59
+小法术：准巫师的微小魔法 Cantrips: Minor Magics for Would-Be Wizards · Dragon #59
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine059.pdf)
 

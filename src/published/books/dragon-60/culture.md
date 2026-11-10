@@ -1,6 +1,6 @@
 # 精灵的观点
 
-Elven Point of View, The · Dragon #60
+精灵观点 The Elven Point of View · Dragon #60
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine060.pdf)
 

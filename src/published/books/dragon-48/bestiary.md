@@ -1,6 +1,6 @@
 # 怪物志
 
-Dragon's Bestiary · Dragon #48
+巨龙怪物志 The Dragon's Bestiary · Dragon #48
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine048.pdf)
 

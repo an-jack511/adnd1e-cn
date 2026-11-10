@@ -1,6 +1,6 @@
 # 下层位面生物随机生成
 
-Random Generation of Creatures From the Lower Planes · Dragon #23
+下层位面生物随机生成 Random Generation of Creatures From the Lower Planes · Dragon #23
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine023.pdf)
 

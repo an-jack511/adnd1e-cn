@@ -1,6 +1,6 @@
 # 类人生物的目标与宗教
 
-Humanoids, The · Dragon #63
+类人生物 The Humanoids · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 

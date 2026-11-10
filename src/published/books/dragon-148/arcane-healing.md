@@ -1,6 +1,6 @@
 # 奥术治疗：代谢与吸血
 
-Arcane Lore · Dragon #148
+秘法疗愈 Arcane Lore · Dragon #148
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine148.pdf)
 

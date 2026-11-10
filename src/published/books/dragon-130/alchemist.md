@@ -1,6 +1,6 @@
 # 炼金术士
 
-Better Living Through Alchemy · Dragon #130
+炼金术带来更好生活 Better Living Through Alchemy · Dragon #130
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine130.pdf)
 

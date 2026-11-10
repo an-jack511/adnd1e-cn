@@ -1,6 +1,6 @@
 # 善良并不等于愚蠢：圣武士与巡林客
 
-Good Isn't Stupid, Paladins & Rangers... · Dragon #38
+善良并不愚蠢：圣武士与巡林客…… Good Isn't Stupid, Paladins & Rangers... · Dragon #38
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine038.pdf)
 

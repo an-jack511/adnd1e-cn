@@ -1,6 +1,6 @@
 # 精选生物：天使族
 
-Featured Creatures · Dragon #63
+精选生物 Featured Creatures · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 

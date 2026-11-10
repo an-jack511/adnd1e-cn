@@ -1,6 +1,6 @@
 # 半身人守卫者
 
-Don't Sell Them Short! · Dragon #129
+别小看他们！ Don't Sell Them Short! · Dragon #129
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine129.pdf)
 

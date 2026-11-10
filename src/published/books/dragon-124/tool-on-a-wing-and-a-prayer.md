@@ -1,6 +1,6 @@
 # 凭翅膀与祈祷
 
-On a Wing and a Prayer · Dragon #124
+凭翅膀与祈祷 On a Wing and a Prayer · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf)
 

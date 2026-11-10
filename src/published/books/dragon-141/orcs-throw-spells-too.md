@@ -1,6 +1,6 @@
 # 兽人也会施法！
 
-Orcs Throw Spells, Too! · Dragon #141
+兽人也会施法！ Orcs Throw Spells, Too! · Dragon #141
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine141.pdf)
 

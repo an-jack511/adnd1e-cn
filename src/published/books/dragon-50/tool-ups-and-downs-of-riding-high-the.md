@@ -1,6 +1,6 @@
 # 高空骑乘的起起落落
 
-Ups and Downs of Riding High, The · Dragon #50
+骑乘有起有落 The Ups and Downs of Riding High · Dragon #50
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine050.pdf)
 

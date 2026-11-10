@@ -1,6 +1,6 @@
 # 消失半式（趣味／戏仿）
 
-Spells For Everyone · Dragon #72
+人人皆可用的法术 Spells For Everyone · Dragon #72
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine072.pdf)
 

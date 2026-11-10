@@ -1,6 +1,6 @@
 # 半食人魔：盖加克斯的早期方案
 
-Half-Ogre: Smiting Him Hip and Thigh, The · Dragon #29
+半食人魔：打得他四肢皆伤 The Half-Ogre: Smiting Him Hip and Thigh · Dragon #29
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine029.pdf)
 

@@ -1,6 +1,6 @@
 # 黑暗小球
 
-Orlow's Inventions Can Liven Up Your Life · Dragon #30
+奥洛的发明让生活更精彩 Orlow's Inventions Can Liven Up Your Life · Dragon #30
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine030.pdf)
 

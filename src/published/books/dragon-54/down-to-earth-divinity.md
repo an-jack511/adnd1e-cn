@@ -1,6 +1,6 @@
 # 脚踏实地的神性
 
-Down-To-Earth Divinity · Dragon #54
+脚踏实地的神性 Down-To-Earth Divinity · Dragon #54
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine054.pdf)
 

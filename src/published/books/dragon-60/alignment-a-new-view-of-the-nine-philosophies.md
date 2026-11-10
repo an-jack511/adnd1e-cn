@@ -1,6 +1,6 @@
 # 阵营：九种哲学的新视角
 
-Alignment: A New View of the Nine Philosophies · Dragon #60
+阵营：九种哲学的新观点 Alignment: A New View of the Nine Philosophies · Dragon #60
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine060.pdf)
 

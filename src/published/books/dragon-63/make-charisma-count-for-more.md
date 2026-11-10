@@ -1,6 +1,6 @@
 # 让魅力更有用
 
-Make Charisma Count For More · Dragon #63
+让魅力发挥更大作用 Make Charisma Count For More · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 

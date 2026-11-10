@@ -1,6 +1,6 @@
 # 皮革寄生兽
 
-Creature Catalog · Dragon #89
+生物图鉴 Creature Catalog · Dragon #89
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine089.pdf)
 

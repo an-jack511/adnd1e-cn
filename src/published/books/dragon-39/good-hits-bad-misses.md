@@ -1,6 +1,6 @@
 # 好命中与坏失误
 
-Good Hits & Bad Misses · Dragon #39
+好命中与坏失误 Good Hits & Bad Misses · Dragon #39
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine039.pdf)
 

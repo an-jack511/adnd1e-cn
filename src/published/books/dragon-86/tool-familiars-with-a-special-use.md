@@ -1,6 +1,6 @@
 # 有特殊用途的魔宠
 
-Familiars With a Special Use · Dragon #86
+有特殊用途的魔宠 Familiars With a Special Use · Dragon #86
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine086.pdf)
 

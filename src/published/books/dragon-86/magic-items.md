@@ -1,6 +1,6 @@
 # 锈蚀粉
 
-Five New Enchanted Objects · Dragon #86
+五件新附魔物品 Five New Enchanted Objects · Dragon #86
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine086.pdf)
 

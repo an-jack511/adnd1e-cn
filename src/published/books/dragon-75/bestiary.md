@@ -1,6 +1,6 @@
 # 怪物志
 
-New Denizens of Devildom · Dragon #75
+地狱魔域的新居民 New Denizens of Devildom · Dragon #75
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine075.pdf)
 

@@ -1,6 +1,6 @@
 # 小丑
 
-Jester, The · Dragon #60
+小丑 The Jester · Dragon #60
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine060.pdf)
 

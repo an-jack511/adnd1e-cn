@@ -1,6 +1,6 @@
 # 跨界行走
 
-All About Elminster · Dragon #110
+伊尔明斯特全解 All About Elminster · Dragon #110
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine110.pdf)
 

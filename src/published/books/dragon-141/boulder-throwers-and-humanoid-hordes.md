@@ -1,6 +1,6 @@
 # 投石者与类人生物大军
 
-Boulder-Throwers and Humanoid Hordes · Dragon #141
+投石者与类人生物大军 Boulder-Throwers and Humanoid Hordes · Dragon #141
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine141.pdf)
 

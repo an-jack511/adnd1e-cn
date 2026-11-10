@@ -1,6 +1,6 @@
 # 忠实读者
 
-Loyal Readers · Dragon #67
+忠实读者 Loyal Readers · Dragon #67
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine067.pdf)
 

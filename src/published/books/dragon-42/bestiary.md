@@ -1,6 +1,6 @@
 # 怪物志
 
-Demons, Devils and Spirits · Dragon #42
+恶魔、魔鬼与灵体 Demons, Devils and Spirits · Dragon #42
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine042.pdf)
 
@@ -150,9 +150,9 @@ Arn Ashleigh Parker · 第 9、10 页
 
 Phil Meyers · 第 45 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 HP</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法使用者制造的构装体</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 HP</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法师制造的构装体</td></tr></tbody></table></div>
 
-这种金属巨蟹般的构装体由中立或邪恶魔法使用者制造，目的是收集宝物。需祈愿术、任意物体变形术、巫师之眼、指使术、定身怪物、火球术、侦测魔法，费用和制造时间与铁魔像相同。只有制造者的命令有效，可当面说话或传讯；没有远程观察手段时，制造者须随行。
+这种金属巨蟹般的构装体由中立或邪恶魔法师制造，目的是收集宝物。需祈愿术、任意物体变形术、巫师之眼、指使术、定身怪物、火球术、侦测魔法，费用和制造时间与铁魔像相同。只有制造者的命令有效，可当面说话或传讯；没有远程观察手段时，制造者须随行。
 
 若制造者有水晶球，可以透过它看见魔蟹所见，再以传讯术从远处下令，此时传讯不受射程限制，除铅外的障碍都不能阻断。也可预先给简单命令，任其独立执行，直到制造者撤销。
 

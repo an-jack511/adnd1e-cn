@@ -1,6 +1,6 @@
 # 轻伤缓愈
 
-Arcane Lore · Dragon #134
+秘法知识 Arcane Lore · Dragon #134
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine134.pdf)
 

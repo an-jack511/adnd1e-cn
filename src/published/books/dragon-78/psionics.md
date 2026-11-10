@@ -1,6 +1,6 @@
 # 灵能结界
 
-And Now, the Psionicist · Dragon #78
+现在轮到灵能师 And Now, the Psionicist · Dragon #78
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine078.pdf)
 

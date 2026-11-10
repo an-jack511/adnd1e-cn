@@ -1,6 +1,6 @@
 # 邪恶阵营中的秩序与混乱
 
-Evil: Law Vs. Chaos · Dragon #28
+邪恶：守序对混沌 Evil: Law Vs. Chaos · Dragon #28
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine028.pdf)
 

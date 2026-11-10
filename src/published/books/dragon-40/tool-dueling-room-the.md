@@ -1,6 +1,6 @@
 # 决斗室
 
-Dueling Room, The · Dragon #40
+决斗室 The Dueling Room · Dragon #40
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine040.pdf)
 

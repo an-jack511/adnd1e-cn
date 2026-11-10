@@ -1,6 +1,6 @@
 # 物理与坠落伤害
 
-Physics and Falling Damage · Dragon #88
+物理学与坠落伤害 Physics and Falling Damage · Dragon #88
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine088.pdf)
 

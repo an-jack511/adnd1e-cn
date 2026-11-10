@@ -1,6 +1,6 @@
 # 做好人并不容易
 
-It's Not Easy Being Good · Dragon #51
+做好人不容易 It's Not Easy Being Good · Dragon #51
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine051.pdf)
 

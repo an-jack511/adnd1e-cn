@@ -1,6 +1,6 @@
 # 幻想遗传学：类人生物分类综述
 
-Humanoid Races In Review · Dragon #44
+重新审视类人生物种族 Humanoid Races In Review · Dragon #44
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine044.pdf)
 

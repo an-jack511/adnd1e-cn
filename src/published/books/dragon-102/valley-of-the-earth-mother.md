@@ -1,6 +1,6 @@
 # 大地母亲之谷
 
-Valley of the Earth Mother · Dragon #102
+大地母亲之谷 Valley of the Earth Mother · Dragon #102
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine102.pdf)
 

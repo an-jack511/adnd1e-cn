@@ -1,6 +1,6 @@
 # 坠落伤害
 
-Falling Damage · Dragon #70
+坠落伤害 Falling Damage · Dragon #70
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine070.pdf)
 

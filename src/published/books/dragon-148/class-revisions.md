@@ -1,6 +1,6 @@
 # 野蛮人（Howery修订）
 
-Tracking Down the Barbarian · Dragon #148
+追踪野蛮人 Tracking Down the Barbarian · Dragon #148
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine148.pdf)
 

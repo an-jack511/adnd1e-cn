@@ -1,6 +1,6 @@
 # 精选生物：星界使者
 
-Featured Creatures · Dragon #64
+精选生物 Featured Creatures · Dragon #64
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine064.pdf)
 

@@ -1,6 +1,6 @@
 # 怪物志
 
-The Ungrateful Dead · Dragon #138
+忘恩负义的不死者 The Ungrateful Dead · Dragon #138
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine138.pdf)
 
@@ -48,7 +48,7 @@ Tom Moldvay · 第 24 页
 
 另造变体时须考虑创造者等级，不宜因骷髅外观像低级敌人，就把高等级火球或闪电束放进低级冒险。
 
-<h3>八种宝石眼</h3><div class="table-wrap"><table><thead><tr><th>种类</th><th>能力</th><th>次数</th></tr></thead><tbody><tr><td>红宝石眼</td><td>燃烧之眼：同燃烧之手，但火从眼中喷出，按九级魔法使用者造成9点伤害</td><td>每日3次</td></tr><tr><td>蓝宝石眼</td><td>六十英尺内的创造者命中及所有豁免+2；毁掉宝石眼即终止</td><td>持续</td></tr><tr><td>钻石眼</td><td>加速术：自身移动与攻击加倍</td><td>每日3次</td></tr><tr><td>紫水晶眼</td><td>幻影之力</td><td>每日2次</td></tr><tr><td>蛋白石眼</td><td>镜影术</td><td>每日3次</td></tr><tr><td>珍珠眼</td><td>睡眠术</td><td>每日3次</td></tr><tr><td>黑曜石眼</td><td>十五英尺半径黑暗术</td><td>每日3次</td></tr><tr><td>祖母绿眼</td><td>接触施放衰弱射线</td><td>每日3次</td></tr></tbody></table></div>
+<h3>八种宝石眼</h3><div class="table-wrap"><table><thead><tr><th>种类</th><th>能力</th><th>次数</th></tr></thead><tbody><tr><td>红宝石眼</td><td>燃烧之眼：同燃烧之手，但火从眼中喷出，按九级魔法师造成9点伤害</td><td>每日3次</td></tr><tr><td>蓝宝石眼</td><td>六十英尺内的创造者命中及所有豁免+2；毁掉宝石眼即终止</td><td>持续</td></tr><tr><td>钻石眼</td><td>加速术：自身移动与攻击加倍</td><td>每日3次</td></tr><tr><td>紫水晶眼</td><td>幻影之力</td><td>每日2次</td></tr><tr><td>蛋白石眼</td><td>镜影术</td><td>每日3次</td></tr><tr><td>珍珠眼</td><td>睡眠术</td><td>每日3次</td></tr><tr><td>黑曜石眼</td><td>十五英尺半径黑暗术</td><td>每日3次</td></tr><tr><td>祖母绿眼</td><td>接触施放衰弱射线</td><td>每日3次</td></tr></tbody></table></div>
 
 ## 电击骷髅 Shock Bones
 
@@ -106,9 +106,9 @@ Tom Moldvay · 第 27 页
 
 Tom Moldvay · 第 27、28 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>13；固定65HP</td></tr><tr><th scope="row">巢穴比例</th><td>25%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次1–20</td></tr><tr><th scope="row">特殊攻击</th><td>二十二级魔法使用者／牧师法术；控制与召唤不死生物</td></tr><tr><th scope="row">特殊防御</th><td>仅+1或更好魔法武器可伤</td></tr><tr><th scope="row">魔法抗性</th><td>25%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>200；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>13；固定65HP</td></tr><tr><th scope="row">巢穴比例</th><td>25%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次1–20</td></tr><tr><th scope="row">特殊攻击</th><td>二十二级魔法师／牧师法术；控制与召唤不死生物</td></tr><tr><th scope="row">特殊防御</th><td>仅+1或更好魔法武器可伤</td></tr><tr><th scope="row">魔法抗性</th><td>25%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>200；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
-外表像极度腐烂的僵尸，可以控制所有骷髅、僵尸及其不死变体。主要靠二十二级魔法使用者／牧师施法；为免列八十四个不同法术，主持人可直接视为具有当下所需的任何一至六环魔法使用者或牧师法术，更高环只用下表列出的法术。
+外表像极度腐烂的僵尸，可以控制所有骷髅、僵尸及其不死变体。主要靠二十二级魔法师／牧师施法；为免列八十四个不同法术，主持人可直接视为具有当下所需的任何一至六环魔法师或牧师法术，更高环只用下表列出的法术。
 
 另有全部七种怪物召唤，但只能按表召来骷髅和僵尸变体。近战有两次攻击、每次 1–20 点伤害，不过它偏好魔法。需魔法武器命中，魔抗 25%，灵能 200 且拥有所有攻击防御模式。牧师按特殊类别驱散。
 

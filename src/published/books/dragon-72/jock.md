@@ -1,6 +1,6 @@
 # 运动健将
 
-Duh Jock · Dragon #72
+运动健将 Duh Jock · Dragon #72
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine072.pdf)
 

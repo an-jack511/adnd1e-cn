@@ -1,6 +1,6 @@
 # 毒蛇之噬
 
-Arcane Lore · Dragon #132
+秘法知识 Arcane Lore · Dragon #132
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine132.pdf)
 

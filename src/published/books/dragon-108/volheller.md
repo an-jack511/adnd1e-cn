@@ -1,6 +1,6 @@
 # 沃赫勒
 
-Plants of Biurndon, The · Dragon #108
+比尔恩登的植物 The Plants of Biurndon · Dragon #108
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine108.pdf)
 

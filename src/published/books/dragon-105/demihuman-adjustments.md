@@ -1,6 +1,6 @@
 # 半人种族能力调整
 
-Tone Down the Demi-Humans · Dragon #105
+给半人种族降温 Tone Down the Demi-Humans · Dragon #105
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine105.pdf)
 

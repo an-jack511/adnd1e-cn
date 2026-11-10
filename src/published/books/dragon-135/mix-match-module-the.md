@@ -1,6 +1,6 @@
 # 混搭模块
 
-Mix & Match Module, The · Dragon #135
+混搭模组 The Mix & Match Module · Dragon #135
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine135.pdf)
 

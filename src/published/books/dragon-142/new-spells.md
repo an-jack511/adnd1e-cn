@@ -1,6 +1,6 @@
 # 德鲁伊视界
 
-Arcane Lore · Dragon #142
+秘法知识 Arcane Lore · Dragon #142
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine142.pdf)
 

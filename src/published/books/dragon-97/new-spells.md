@@ -1,6 +1,6 @@
 # 解除寂静
 
-Pages From the Mages IV · Dragon #97
+法师手记 IV Pages From the Mages IV · Dragon #97
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine097.pdf)
 

@@ -1,6 +1,6 @@
 # 预言师
 
-Oracle: When He Talks, Everybody Listens, The · Dragon #53
+神谕者：他说话时人人倾听 The Oracle: When He Talks, Everybody Listens · Dragon #53
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine053.pdf)
 

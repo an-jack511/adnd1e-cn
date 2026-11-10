@@ -1,6 +1,6 @@
 # 修院牧师法术
 
-Cloistered Cleric, The · Dragon #68
+隐修牧师 The Cloistered Cleric · Dragon #68
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine068.pdf)
 

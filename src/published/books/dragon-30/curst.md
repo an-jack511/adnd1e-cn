@@ -1,6 +1,6 @@
 # 诅咒者
 
-Dragon's Bestiary · Dragon #30
+巨龙怪物志 The Dragon's Bestiary · Dragon #30
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine030.pdf)
 

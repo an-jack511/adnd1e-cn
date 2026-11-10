@@ -1,6 +1,6 @@
 # 控制住那个人！
 
-Hold That Person! · Dragon #90
+定住那个人！ Hold That Person! · Dragon #90
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine090.pdf)
 

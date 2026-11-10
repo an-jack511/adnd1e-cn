@@ -31,7 +31,7 @@
 
 ### 艾洛斯 Ailoth（EVE-loth）
 
-<strong>据点：</strong>希尔斯法尔与桑比亚。<strong>6 级魔法使用者，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
+<strong>据点：</strong>希尔斯法尔与桑比亚。<strong>6 级魔法师，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 艾洛斯是一个矮小、白发的法师，为泰伊红袍法师在桑比亚和希尔斯法尔搜集情报，同时充当放贷人和“救济品／损坏品”买家。他与红袍法师的关系在希尔斯法尔和桑比亚都广为人知。
 
@@ -51,7 +51,7 @@
 
 ### 阿尔泽贡德 Alzegund（AbL-zeh-gund）
 
-<strong>据点：</strong>在科米尔、桑比亚和龙湾一带游荡。<strong>10 级魔法使用者，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
+<strong>据点：</strong>在科米尔、桑比亚和龙湾一带游荡。<strong>10 级魔法师，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 这位年老、秃顶、身上带着战争伤疤的死灵法师，公开穿着胸前和背后都有红色火焰徽章的长袍，沿商路旅行时由一群红袍法师护卫。他据说拥有一个魔法戏法袋和一根闪电魔杖。
 
@@ -65,7 +65,7 @@
 
 ### 阿斯布拉斯·赫鲁明 Asbras Hlumin（AZZ-brazz Huh-LOO-min）
 
-<strong>据点：</strong>在月海／龙湾游荡。<strong>6 级魔法使用者。</strong>所属：<strong>龙之教团。</strong>阵营／信仰：<strong>中立邪恶，并伪装成中立善良。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>在月海／龙湾游荡。<strong>6 级魔法师。</strong>所属：<strong>龙之教团。</strong>阵营／信仰：<strong>中立邪恶，并伪装成中立善良。</strong>种族／性别：<strong>人类男性。</strong>
 
 这个法师用魔法隐藏自己的阵营，并声称自己是中立善良。他愿意为在该地区活动的冒险队训练、施法，甚至短期加入他们，借机了解他们的一切，然后在某个危险地点背叛他们，希望他们被杀死；随后 Asbras 会夺走冒险者的全部财宝，留下其中一部分给自己，把其余部分交给教团。
 
@@ -79,13 +79,13 @@
 
 ### 阿扎拉 Azala（Ah-ZALE-ah）
 
-<strong>绰号：</strong>火眼阿扎拉。<strong>据点：</strong>龙湖以南海岸的特泽尔。<strong>11 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>绰号：</strong>火眼阿扎拉。<strong>据点：</strong>龙湖以南海岸的特泽尔。<strong>11 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 阿扎拉与特泽尔政府关系密切，经常用魔法帮助守卫。她的青年时期是一段漫长而多彩的冒险生涯，其中包括参与杀死谭森尔巨虫。如今她住在特泽尔的一座塔中，大部分时间用于研究，以及制作小巧、有用而美丽的魔法物品。
 
 ### 阿扎加莎·尼穆妮 Azargatha Nimune（Abhz-zar-GAH-tha Nih-MOON-nee）
 
-<strong>据点：</strong>深谷地。<strong>10 级魔法使用者。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
+<strong>据点：</strong>深谷地。<strong>10 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
 
 Azargatha 要么是竖琴手成员，要么是其盟友；她常和被认为属于竖琴手的巡林客同行。她是一个身材高大、火红头发、性格和身体都很强健的女人，喜爱摔跤；在一次盾会节宴会上，她曾三局两胜地击败匕首谷的兰德尔·莫恩。
 
@@ -101,7 +101,7 @@ Azoun 的父亲是里加尔德二世，母亲是塔纳鲁斯塔·真银，姐妹
 
 ### 博鲁斯汀 Borustine（BORE-uh-stine）
 
-<strong>据点：</strong>月海的希尔斯法尔。<strong>7 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>月海的希尔斯法尔。<strong>7 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
 博鲁斯汀是一个寡言、宽容而受人尊敬的希尔斯法尔法师。他一生大部分时间都避开城里的政治，但仅凭他的存在和力量，就为那些对精灵和月海地区好战人类都心存戒备的旅行者与商人带来了一定社会稳定。博鲁斯汀常以合理费用帮助冒险者，但始终坚持一项公开政策：不施放进攻性魔法，帮助一个人或团体对付另一个人或团体。
 
@@ -121,7 +121,7 @@ Azoun 的父亲是里加尔德二世，母亲是塔纳鲁斯塔·真银，姐妹
 
 ### 戴奥·拉斯萨文 Deior Rasthavin（DAY-ore RAST-hah-vin）
 
-<strong>据点：</strong>塞尔伦。<strong>头衔：</strong>贤者。<strong>4 级魔法使用者。</strong>阵营／信仰：<strong>中立善良，欧格玛。</strong>种族／性别：<strong>人类男性。</strong>
+<strong>据点：</strong>塞尔伦。<strong>头衔：</strong>贤者。<strong>4 级魔法师。</strong>阵营／信仰：<strong>中立善良，欧格玛。</strong>种族／性别：<strong>人类男性。</strong>
 
 这个安静、轻声说话的贤者住在塞尔伦，保持低调，却受到来自国度各地人们的请教。Deior 富有到可以偶尔出资赞助冒险队，让他们去探索或研究危险、超出他这个年纪的人能力范围的地方。他的研究领域都与人类有关：内海地区的历史、传说和民俗、家谱与政治，以及作为副业的纹章、标志和徽记。
 
@@ -167,7 +167,7 @@ Dove 是一个著名姐妹家族中最年轻的成员之一；其他姐妹包括
 
 ### 伊尔明斯特 Elminster（EL-MIN-ster）
 
-<strong>据点：</strong>暗影谷。<strong>头衔：</strong>国度著名贤者。<strong>等级／职业：</strong>26 级魔法使用者。<strong>种族／性别：</strong>人类男性。**
+<strong>据点：</strong>暗影谷。<strong>头衔：</strong>国度著名贤者。<strong>等级／职业：</strong>26 级魔法师。<strong>种族／性别：</strong>人类男性。**
 
 贤者伊尔明斯特（Elminster）的确切年龄未知，出生年份也没有记录。本页在这里开始他的条目，后续叙述见下一页。
 

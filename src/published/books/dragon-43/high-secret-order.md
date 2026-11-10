@@ -1,6 +1,6 @@
 # 巫婆高阶秘社法术
 
-Brewing Up a New NPC: The Witch · Dragon #43
+酿造一个新 NPC：女巫 Brewing Up a New NPC: The Witch · Dragon #43
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine043.pdf)
 

@@ -1,6 +1,6 @@
 # 欢迎来到 Malachi
 
-Welcome To Malachi · Dragon #111
+欢迎来到马拉奇 Welcome To Malachi · Dragon #111
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine111.pdf)
 

@@ -1,6 +1,6 @@
 # 蛇类规则
 
-Sharper Than a Serpent's Tooth · Dragon #115
+比蛇牙更锋利 Sharper Than a Serpent's Tooth · Dragon #115
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine115.pdf)
 

@@ -1,6 +1,6 @@
 # 矮人的观点
 
-Dwarven Point of View, The · Dragon #58
+矮人观点 The Dwarven Point of View · Dragon #58
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine058.pdf)
 

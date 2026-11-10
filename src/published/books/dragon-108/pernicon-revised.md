@@ -1,6 +1,6 @@
 # 佩尼科虫（修订版）
 
-Pernicon: A New Version, The · Dragon #108
+佩尔尼孔：新版本 Pernicon: A New Version, The · Dragon #108
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine108.pdf)
 

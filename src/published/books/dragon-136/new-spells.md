@@ -1,6 +1,6 @@
 # 充能术
 
-Arcane Lore · Dragon #136
+秘法知识 Arcane Lore · Dragon #136
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine136.pdf)
 

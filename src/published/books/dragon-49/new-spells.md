@@ -1,6 +1,6 @@
 # 冷冻／加热金属（炼金术士版）
 
-Recipe For the Alchemist, A · Dragon #49
+炼金师配方 A Recipe For the Alchemist · Dragon #49
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine049.pdf)
 

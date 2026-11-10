@@ -1,6 +1,6 @@
 # 怪物志
 
-Creature Catalog II · Dragon #94
+生物图鉴 II Creature Catalog II · Dragon #94
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine094.pdf)
 

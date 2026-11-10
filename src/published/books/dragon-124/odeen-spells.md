@@ -1,6 +1,6 @@
 # 奥丁的五个法术
 
-Arcane Lore: The secrets of Odeen the Arch-Mage · Dragon #124
+奥丁大法师的秘法 Arcane Lore: The Secrets of Odeen the Arch-Mage · Dragon #124
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124.pdf) · [文字层](https://archive.org/download/DragonMagazine260_201801/DragonMagazine124_djvu.txt)
 

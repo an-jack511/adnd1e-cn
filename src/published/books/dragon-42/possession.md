@@ -1,6 +1,6 @@
 # 附体者：侵入、结合与驱魔
 
-Possessors, The · Dragon #42
+附身者 The Possessors · Dragon #42
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine042.pdf)
 

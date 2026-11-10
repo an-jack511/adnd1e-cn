@@ -1,6 +1,6 @@
 # 土地之法
 
-Law Of the Land · Dragon #65
+土地法则 Law Of the Land · Dragon #65
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine065.pdf)
 

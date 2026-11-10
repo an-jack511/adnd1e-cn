@@ -1,6 +1,6 @@
 # 中立立场
 
-Neutral Point of View, The · Dragon #99
+中立观点 The Neutral Point of View · Dragon #99
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine099.pdf)
 

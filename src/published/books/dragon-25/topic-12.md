@@ -1,6 +1,6 @@
 # 角色社会阶层应怎样进入战役
 
-Proper Place of Character Social Class In D&D, The · Dragon #25
+D&D 中角色社会阶层的适当位置 The Proper Place of Character Social Class In D&D · Dragon #25
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine025.pdf)
 

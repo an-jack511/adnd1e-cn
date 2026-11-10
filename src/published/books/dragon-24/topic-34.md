@@ -1,6 +1,6 @@
 # 阵营与宗教的替代体系
 
-Choir Practice At the First Church of Lawful Evil · Dragon #24
+守序邪恶第一教会的唱诗班练习 Choir Practice At the First Church of Lawful Evil · Dragon #24
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine024.pdf)
 

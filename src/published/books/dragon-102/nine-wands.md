@@ -1,6 +1,6 @@
 # 九种奇妙魔杖
 
-Nine Wands of Wonder · Dragon #102
+九根奇迹魔杖 Nine Wands of Wonder · Dragon #102
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine102.pdf)
 

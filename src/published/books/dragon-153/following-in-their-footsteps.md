@@ -1,6 +1,6 @@
 # 追随他们的脚步
 
-Following In Their Footsteps · Dragon #153
+跟随他们的脚步 Following In Their Footsteps · Dragon #153
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine153.pdf)
 

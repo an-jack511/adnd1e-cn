@@ -1,6 +1,6 @@
 # 怪物志
 
-Microscopic Monsters · Dragon #111
+微观怪物 Microscopic Monsters · Dragon #111
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine111.pdf)
 

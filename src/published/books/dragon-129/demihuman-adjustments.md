@@ -1,6 +1,6 @@
 # 半人类属性生成
 
-Give Demi-Humans an Even Break! · Dragon #129
+给半人种族公平机会！ Give Demi-Humans an Even Break! · Dragon #129
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine129.pdf)
 

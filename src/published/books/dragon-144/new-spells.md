@@ -1,6 +1,6 @@
 # 改变身形（趣味／戏仿）
 
-Still More Outrages From the Mages · Dragon #144
+法师们更多的胡闹 Still More Outrages From the Mages · Dragon #144
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine144.pdf)
 

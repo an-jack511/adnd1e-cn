@@ -1,6 +1,6 @@
 # 骑士（Gygax早期测试稿）
 
-Chivalrous Cavalier, The · Dragon #72
+骑士精神的骑士 The Chivalrous Cavalier · Dragon #72
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine072.pdf)
 

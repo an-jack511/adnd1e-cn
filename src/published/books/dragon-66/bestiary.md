@@ -1,6 +1,6 @@
 # 怪物志
 
-New Monsters For Low Levels · Dragon #66
+低等级的新怪物 New Monsters For Low Levels · Dragon #66
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine066.pdf)
 

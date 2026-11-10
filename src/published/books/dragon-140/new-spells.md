@@ -1,6 +1,6 @@
 # 重施法术（博学者版）
 
-Savant, The · Dragon #140
+博学者 The Savant · Dragon #140
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine140.pdf)
 

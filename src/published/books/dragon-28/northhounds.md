@@ -1,6 +1,6 @@
 # 北境猎犬
 
-Giants In the Earth · Dragon #28
+大地中的巨人 Giants In the Earth · Dragon #28
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine028.pdf)
 

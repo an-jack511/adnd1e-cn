@@ -1,6 +1,6 @@
 # 给角色使用的战车
 
-Chariots for Characters · Dragon #81
+角色战车 Chariots for Characters · Dragon #81
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine081.pdf)
 

@@ -1,6 +1,6 @@
 # 史前哺乳动物与冰期遭遇
 
-Into the Age of Mammals · Dragon #137
+进入哺乳动物时代 Into the Age of Mammals · Dragon #137
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine137.pdf)
 

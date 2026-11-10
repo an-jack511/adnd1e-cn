@@ -1,6 +1,6 @@
 # 肢体麻木
 
-Arcane Lore · Dragon #127
+秘法知识 Arcane Lore · Dragon #127
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine127.pdf)
 
