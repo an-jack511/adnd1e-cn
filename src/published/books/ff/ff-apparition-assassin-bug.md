@@ -70,7 +70,7 @@
 
 - <strong>治疗重伤 Cure serious wounds</strong>：施法者超过 6 级后，每高于 6 级一层，可以杀死一只幼虫。
 - <strong>治疗致命伤 Cure critical wounds</strong>：杀死所有幼虫。
-- <strong>疗愈 医疗术</strong>：杀死所有幼虫，并恢复受害者除 5–8 点之外的全部生命值。
+- <strong>疗愈医疗术</strong>：杀死所有幼虫，并恢复受害者除 5–8 点之外的全部生命值。
 
 在此期间，有限许愿术或类似法术也能发挥作用。
 
