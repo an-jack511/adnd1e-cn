@@ -1,6 +1,6 @@
 #### 无相位板甲 Plate Mail of Etherealness
 
-“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。无相位板甲共有 <strong>20 charges</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 charges</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 charges</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>个 charge 耗尽后则只剩 <strong>+1</strong>。
+“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。无相位板甲共有 <strong>20 次充能</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 次充能</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 次充能</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>次充能耗尽后则只剩 <strong>+1</strong>。
 
 #### 易损板甲 Plate Mail of Vulnerability
 

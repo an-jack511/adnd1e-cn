@@ -1,4 +1,4 @@
-但它每轮都有 <strong>5%</strong> 的累积概率吞下袋中物品，并将其吐入某个非空间。被拖入袋中的生物会在 <strong>7 segments</strong>内被吞噬，永远消失。
+但它每轮都有 <strong>5%</strong> 的累积概率吞下袋中物品，并将其吐入某个非空间。被拖入袋中的生物会在 <strong>7 段</strong>内被吞噬，永远消失。
 
 #### 次元袋 Bag of Holding
 

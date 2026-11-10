@@ -467,7 +467,7 @@ heading	Character Class Responsibilities	角色职业责任	pending	pending		Cha
 heading	Character Classes	角色职业	pending	pending		Character Classes			
 heading	Character Classes and Races	角色职业与种族	pending	pending		Character Classes and Races			
 heading	Character Encounters	角色遭遇 的魔法物品表 ·	pending	pending		Character Encounters			
-heading	Character Proficiencies	角色专长	pending	pending		Character Proficiencies			
+heading	Character Proficiencies	角色熟练项	pending	pending	角色专长	Character Proficiencies			
 heading	Character Race Descriptions	种族说明	pending	pending		Character Race Descriptions			
 heading	Character Races	角色种族	pending	pending		Character Races			
 heading	Character Rules	角色规则补充	pending	pending		Character Rules			
@@ -801,7 +801,7 @@ heading	Dragon Subtable	龙类子表	pending	pending	龙类子表 ·	Dragon Subt
 heading	Dragon's Bestiary	巴盖斯特魔犬	pending	pending	巨型吸血蛙; 库贾努克圣鸟; 怪物志; 气囊兽; 秃鹫猎犬; 诅咒者; 闪灭兽	Dragon's Bestiary			
 heading	Dragon's Bestiary, The	冰灵	pending	pending	冰淇淋筒虫; 怪物志; 沙蚕; 灵吸怪的近亲与伴生生物; 罔两; 鱼龙	Dragon's Bestiary, The			
 heading	Dragoneye Dealing Coster	龙眼贸易科斯特	pending	pending		Dragoneye Dealing Coster			
-heading	DRAGONLANCE Saga Proficiencies	龙枪传奇专长	pending	pending		DRAGONLANCE Saga Proficiencies			
+heading	DRAGONLANCE Saga Proficiencies	龙枪传奇熟练项	pending	pending	龙枪传奇专长	DRAGONLANCE Saga Proficiencies			
 heading	Dragonnel, Drelb, and Drider	Dragonnel、Drelb 与 Drider	pending	pending		Dragonnel, Drelb, and Drider			
 heading	Dragons	龙类	pending	pending		DRAGONS; Dragons			
 heading	Dragons and Other Creatures	龙与其他生物	pending	pending		Dragons and Other Creatures			
@@ -842,6 +842,9 @@ heading	Dungeon Masters' Section	地下城主部分	pending	pending		Dungeon Mas
 heading	Dungeon Random Encounter Tables	地下城随机遭遇表	pending	pending		Dungeon Random Encounter Tables			
 heading	Dungeon Random Monster Levels	地下城随机怪物等级	pending	pending		Dungeon Random Monster Levels			
 heading	DUNGEONEER'S SURVIVAL GUIDE	《地城生存指南》	pending	pending		DUNGEONEER'S SURVIVAL GUIDE			
+rule	Dungeon Proficiencies	地城熟练项	pending	pending	地城专长	Dungeon Proficiencies			
+rule	Dungeon Proficiency	地城熟练项	pending	pending	地城专长	Dungeon Proficiency			
+rule	Dungeon Proficiency Table	地城熟练项表	pending	pending	地城专长表	Dungeon Proficiency Table			
 heading	Dungeoneer's Survival Guide: What Is It?	什么是地城生存指南？	pending	pending		Dungeoneer's Survival Guide: What Is It?			
 heading	Duration Modifiers Chart	持续时间修正表	pending	pending		Duration Modifiers Chart			
 heading	During the Curse	诅咒期间	pending	pending		During the Curse			
@@ -1443,7 +1446,7 @@ heading	IMMERSEA MAP AND KEY	因默海地图	pending	pending		IMMERSEA MAP AND K
 heading	Immunity to Weapons	武器免疫	pending	pending		Immunity to Weapons			
 heading	Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North	因布图续文、伊里阿波尔、铁屋、卡拉图尔与北方骑士团	pending	pending		Impiltur Continued, Iriaebor, Iron House, Kara-Tur, and Knights of the North			
 heading	Improving Play	改善游戏	pending	pending		Improving Play			
-heading	Improving Proficiencies	改进专长	pending	pending		Improving Proficiencies			
+heading	Improving Proficiencies	改进熟练项	pending	pending	改进专长	Improving Proficiencies			
 heading	In Between	中间数	pending	pending		In Between			
 heading	in Lair	巢穴概率 %	pending	pending		in Lair			
 heading	Inanimate Servant	无生命仆役	pending	pending		Inanimate Servant			
@@ -1603,7 +1606,7 @@ heading	Languages and Mapping	幽暗地域语言与制图	pending	pending		Langu
 heading	Languages of the Realms	国度中的语言	pending	pending		Languages of the Realms			
 heading	Lanseril Snowmantle	Lanseril Snowmantle	pending	pending		Lanseril Snowmantle			
 heading	LANTAN	兰坦	pending	pending		LANTAN			
-heading	Lantan Continued, Laughing Hollow, Lonely Moor, Lords' Alliance, and Magic-Users	兰坦续文、欢笑空洞、孤寂荒原、领主联盟与魔法使用者	pending	pending		Lantan Continued, Laughing Hollow, Lonely Moor, Lords' Alliance, and Magic-Users			
+heading	Lantan Continued, Laughing Hollow, Lonely Moor, Lords' Alliance, and Magic-Users	兰坦续文、欢笑空洞、孤寂荒原、领主联盟与魔法师	pending	pending		Lantan Continued, Laughing Hollow, Lonely Moor, Lords' Alliance, and Magic-Users			
 heading	LANTANNA	兰坦人的外貌与活动	pending	pending		LANTANNA			
 heading	Large Body of Water	大型水域	pending	pending		Large Body of Water			
 heading	Large City: The Alchemist	大城市：炼金术师	pending	pending		Large City: The Alchemist			
@@ -1669,7 +1672,7 @@ heading	Magic-User Spells	魔法师法术	pending	pending		Magic-User Spells
 heading	Magic-User Spells: Cantrips	魔法师小法术	pending	pending		Magic-User Spells: Cantrips			
 heading	Magic-User, Thief, Assassin and Ranger	魔法师、盗贼、刺客与巡林客	pending	pending		Magic-User, Thief, Assassin and Ranger			
 heading	Magic-Users	魔法师	pending	pending		Magic-Users			
-heading	MAGIC-USERS (INCLUDING ILLUSIONISTS)	魔法使用者（包括幻术师）	pending	pending		MAGIC-USERS (INCLUDING ILLUSIONISTS)			
+heading	MAGIC-USERS (INCLUDING ILLUSIONISTS)	魔法师（包括幻术师）	pending	pending		MAGIC-USERS (INCLUDING ILLUSIONISTS)			
 heading	Magic-Users and Illusionists	魔法师与幻术师	pending	pending		Magic-Users and Illusionists			
 heading	Magic-Users, Spells	魔法师法术表	pending	pending		Magic-Users, Spells			
 heading	Magical Control	魔法控制	pending	pending		Magical Control			
@@ -1954,9 +1957,9 @@ heading	New Denizens of Devildom	怪物志	pending	pending		New Denizens of Devi
 heading	New Druid Spells...Naturally!	映照水池	pending	pending		New Druid Spells...Naturally!			
 heading	New Equipment	新装备	pending	pending		New Equipment			
 heading	New Jobs For Demi-Humans	半人种族的新职业	pending	pending		New Jobs For Demi-Humans			
-heading	New Magic-User Spells	嘲讽术	pending	pending		New Magic-User Spells			
+heading	New Magic-User Spells	魔法师新法术	pending	pending		New Magic-User Spells			
 heading	New Monsters For Low Levels	怪物志	pending	pending		New Monsters For Low Levels			
-heading	New Proficiencies	新专长	pending	pending		New Proficiencies			
+heading	New Proficiencies	新熟练项	pending	pending	新专长	New Proficiencies			
 heading	New Rules for Underground Play	地下游戏的新规则	pending	pending		New Rules for Underground Play			
 heading	New Spells For Illusionists	高等幻象	pending	pending		New Spells For Illusionists			
 heading	New Weapons For Old	旧规则的新武器	pending	pending		New Weapons For Old			
@@ -1981,6 +1984,8 @@ heading	None of the above	8. 以上都不是	pending	pending		None of the above
 heading	Nonhuman Deities	非人类种族神祇	pending	pending		Nonhuman Deities			
 heading	Nonhumans’ Deities	非人类种族神祇	pending	pending		Nonhumans’ Deities			
 heading	Nonweapon Proficiencies	非武器熟练项	pending	pending	非武器专长	Nonweapon Proficiencies			
+rule	Nonweapon Proficiency	非武器熟练项	pending	pending	非武器专长	Nonweapon Proficiency			
+rule	Nonweapon Proficiency Table	非武器熟练项表	pending	pending	非武器专长表	Nonweapon Proficiency Table			
 heading	Norse Mythos	北欧神话	pending	pending		Norse Mythos			
 heading	Norse Mythos Continued	北欧神话（续）	pending	pending		Norse Mythos Continued			
 heading	Note Regarding the Magical Properties of Gems, Herbs, etc.	关于宝石、草药等魔法属性的说明	pending	pending		Note Regarding the Magical Properties of Gems, Herbs, etc.			
@@ -2181,7 +2186,9 @@ heading	Procedure	遭遇程序	pending	pending		Procedure
 heading	Procedure for Lost Parties	迷路队伍的处理	pending	pending		Procedure for Lost Parties			
 heading	Professions and their normal gods	职业与其通常神祇	pending	pending		Professions and their normal gods			
 heading	Proficiencies	熟练项	pending	pending	专长	Proficiencies			
+rule	Proficiency Check	熟练项检定	pending	pending	专长检定	Proficiency Check			
 heading	Proficiency Checks	熟练项检定	pending	pending		Proficiency Checks			
+rule	Proficiency Slot	熟练项栏位	pending	pending	专长栏位	Proficiency Slot			
 heading	Progression on the Combat Tables	战斗表上的数值递进	pending	pending		Progression on the Combat Tables			
 heading	Proper Place of Character Social Class In D&D, The	角色社会阶层应怎样进入战役	pending	pending		Proper Place of Character Social Class In D&D, The			
 heading	PROS	普罗斯	pending	pending		PROS			
@@ -2621,7 +2628,7 @@ heading	Story Hooks / MacGuffins	故事钩子	pending	pending		Story Hooks / Mac
 heading	Strength Bonus Considerations	力量加值	pending	pending		Strength Bonus Considerations			
 heading	Strike Blows	打击	pending	pending		Strike Blows			
 heading	Striking to Subdue	制服性攻击	pending	pending		Striking to Subdue			
-heading	Student Magic-Users Game Data	学生魔法使用者游戏数据	pending	pending		Student Magic-Users Game Data			
+heading	Student Magic-Users Game Data	学生魔法师游戏数据	pending	pending		Student Magic-Users Game Data			
 heading	Student Wizard Advancement Table	学生巫师晋级表	pending	pending		Student Wizard Advancement Table			
 heading	Stunjelly, Sussurus, Svirfneblin, and Symbiotic Jelly	Stunjelly、Sussurus、Svirfneblin 与 Symbiotic Jelly	pending	pending		Stunjelly, Sussurus, Svirfneblin, and Symbiotic Jelly			
 heading	Styracosaurus	戟龙	pending	pending		Styracosaurus			
@@ -2978,7 +2985,7 @@ heading	Time	时间	pending	pending		Time
 heading	Time in the Campaign	战役中的时间	pending	pending		Time in the Campaign			
 heading	Time in the Dungeon	地下城中的时间	pending	pending		Time in the Dungeon			
 heading	Time in the Realms	国度中的时间	pending	pending		Time in the Realms			
-heading	Timitrios Spartakos: Magic-User of the Great Kingdom	Timitrios Spartakos：大王国魔法使用者	pending	pending	蒂米特里奥斯·斯巴达科斯：大王国魔法使用者	Timitrios Spartakos: Magic-User of the Great Kingdom			
+heading	Timitrios Spartakos: Magic-User of the Great Kingdom	蒂米特里奥斯·斯巴达科斯：大王国魔法师	pending	pending	蒂米特里奥斯·斯巴达科斯：大王国魔法使用者	Timitrios Spartakos: Magic-User of the Great Kingdom			
 heading	Tinker Class	发明家职业	pending	pending		Tinker Class			
 heading	Tinker Gnomes	发明侏儒	pending	pending		Tinker Gnomes			
 heading	Tinkers (Gnomes)	发明家（侏儒）	pending	pending		Tinkers (Gnomes)			
@@ -3184,7 +3191,9 @@ heading	Wayreth, Zhaman, and Thorbardin	威瑞斯、扎曼与索恩巴丁	pendin
 heading	Wealth	财富	pending	pending		Wealth			
 heading	Weapon Bless	武器祝福	pending	pending		Weapon Bless			
 heading	Weapon Factors	武器因素	pending	pending		Weapon Factors			
-heading	Weapon Proficiency Table	武器熟练表	pending	pending		Weapon Proficiency Table			
+rule	Weapon Proficiency	武器熟练项	pending	pending	武器专长	Weapon Proficiency			
+rule	Weapon Proficiencies	武器熟练项	pending	pending	武器专长	Weapon Proficiencies			
+heading	Weapon Proficiency Table	武器熟练项表	pending	pending		Weapon Proficiency Table			
 heading	Weapon Specialization	武器专精	pending	pending		Weapon Specialization			
 heading	Weapon Specialization Table for Fighters and Rangers	战士与巡林客武器专精表	pending	pending		Weapon Specialization Table for Fighters and Rangers			
 heading	Weapon Types, “To Hit” Adjustment Note	武器类型“命中”调整说明	pending	pending		Weapon Types, “To Hit” Adjustment Note			
@@ -3220,6 +3229,8 @@ heading	Wild Boar	野猪	pending	pending		Wild Boar
 heading	Wild Elves	野精灵	pending	pending		Wild Elves			
 heading	Wild Warriors, The	狂战士	pending	pending		Wild Warriors, The			
 heading	Wilderness Proficiencies	荒野熟练项	pending	pending		Wilderness Proficiencies			
+rule	Wilderness Proficiency	荒野熟练项	pending	pending	荒野专长	Wilderness Proficiency			
+rule	Wilderness Proficiency Table	荒野熟练项表	pending	pending	荒野专长表	Wilderness Proficiency Table			
 heading	Wilderness Survival Guide: What Is It?	什么是荒野生存指南？	pending	pending		Wilderness Survival Guide: What Is It?			
 heading	Wilderness: Bandits	荒野：匪徒	pending	pending		Wilderness: Bandits			
 heading	Wind Breath	风之吐息	pending	pending		Wind Breath			
@@ -4236,7 +4247,7 @@ item	Superior Shelter, Small	优良小型庇护所	pending	pending		Superior She
 item	Sustenance	维生戒指	pending	pending		Sustenance			
 item	Sweet Water	甜水药水	pending	pending	甜水	Sweet Water			
 item	Sword +1	+1 剑	pending	pending		Sword +1			
-item	Sword +1, +2 vs. magic-using and enchanted creatures	+1 剑，对抗魔法使用者与附魔生物 +2	pending	pending	+1、对施法者与附魔生物 +2	Sword +1, +2 vs. Magic-Using and Enchanted Creatures; Sword +1, +2 vs. magic-using and enchanted creatures			
+item	Sword +1, +2 vs. magic-using and enchanted creatures	+1 剑，对抗施法生物与附魔生物 +2	pending	pending	+1、对施法者与附魔生物 +2	Sword +1, +2 vs. Magic-Using and Enchanted Creatures; Sword +1, +2 vs. magic-using and enchanted creatures			
 item	Sword +1, +3 vs. lycanthropes and shape changers	+1 剑，对抗兽化生物与变形者 +3	pending	pending	+1、对兽化生物与变形者 +3	Sword +1, +3 vs. Lycanthropes and Shape Changers; Sword +1, +3 vs. lycanthropes and shape changers			
 item	Sword +1, +3 vs. regenerating creatures	+1 剑，对抗再生生物 +3	pending	pending	+1、对再生生物 +3	Sword +1, +3 vs. Regenerating Creatures; Sword +1, +3 vs. regenerating creatures			
 item	Sword +1, +4 vs. reptiles	+1 剑，对抗爬行类生物 +4	pending	pending	+1、对爬行类 +4	Sword +1, +4 vs. Reptiles; Sword +1, +4 vs. reptiles			

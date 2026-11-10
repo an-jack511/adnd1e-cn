@@ -31,7 +31,7 @@ function normalizeIllustrationMetadata(content:string) {
   .replace(/(<img\b[^>]*\balt=")([^"]*)("[^>]*>)/gi,(_all,prefix:string,alt:string,suffix:string)=>{
    const cleaned=alt
     .replace(/\s*imagegen\s*/gi,' ')
-    .replace(/生成式清晰化版本|清晰化版本|保形清晰化|进一步清晰化|扫描清晰化|清晰化/gi,'')
+    .replace(/生成式清晰化版本|清晰化版本|保形清晰化|进一步清晰化|扫描清晰化|进一步清晰修复版|清晰修复版|清晰修复图|修复版|修复图|清晰版|清晰化|插图裁片|地图裁片|裁片/gi,'')
     .replace(/\s{2,}/g,' ')
     .replace(/\s*，\s*$/,'')
     .replace(/\s*的\s*$/,'')

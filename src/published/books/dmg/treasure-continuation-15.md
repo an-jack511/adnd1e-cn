@@ -1,6 +1,6 @@
 #### 疯狂圣甲虫 Scarab of Insanity
 
-未通过豁免检定者会彻底陷入疯狂 <strong>9–12 轮</strong>，无法施法或理性思考；其状态视为受到“困惑术”影响，且无法以任何方式摆脱困惑。此圣甲虫有 <strong>9–16 charges</strong>。
+未通过豁免检定者会彻底陷入疯狂 <strong>9–12 轮</strong>，无法施法或理性思考；其状态视为受到“困惑术”影响，且无法以任何方式摆脱困惑。此圣甲虫有 <strong>9–16 次充能</strong>。
 
 #### 防护圣甲虫 Scarab of Protection
 

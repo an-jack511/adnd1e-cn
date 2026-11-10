@@ -962,33 +962,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 8 | 18 |
-| 智力 Intelligence | 3 | 18 |
-| 智慧 Wisdom | 3 | 18 |
-| 敏捷 Dexterity | 3 | 17 |
-| 体质 Constitution | 12 | 19 |
-| 魅力 Charisma | 3 | 16 |
+| 力量 | 8 | 18 |
+| 智力 | 3 | 18 |
+| 智慧 | 3 | 18 |
+| 敏捷 | 3 | 17 |
+| 体质 | 12 | 19 |
+| 魅力 | 3 | 16 |
 
 #### 山地矮人职业上限（Mountain Dwarf Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | 8 |
-| 圣武士 Paladin | 8 |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 不限 |
-| 野蛮人 Barbarian | N/E* |
-| 巡林客 Ranger | N/E* |
+| 骑士 | 8 |
+| 圣武士 | 8 |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 不限 |
+| 野蛮人 | N/E* |
+| 巡林客 | N/E* |
 | 魔法师（非法师）Magic-User (Renegade) | N/E* |
 | 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | N/E* |
-| 盗贼 Thief | 8 |
-| 盗贼／杂技师 Thief／Acrobat | 10 |
+| 高等法术巫师 | N/E* |
+| 盗贼 | 8 |
+| 盗贼／杂技师 | 10 |
 | 牧师（异教徒）Cleric (Heathen) | N/E* |
 | 德鲁伊（异教徒）Druid (Heathen) | N/E* |
-| 星辰神圣教团 Holy Orders of the Stars | 10 |
+| 星辰神圣教团 | 10 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -1048,33 +1048,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 骰法 | 最低 | 最高 |
 |---|---|---:|---:|
-| 力量 Strength | 4d4+2 | 6 | 18 |
-| 智力 Intelligence | 2d4+1 | 3 | 9 |
-| 智慧 Wisdom | 2d4+1 | 3 | 9 |
-| 敏捷 Dexterity | 4d4+2 | 6 | 18 |
-| 体质 Constitution | 3d4 | 3 | 12 |
-| 魅力 Charisma | 2d4+1 | 3 | 9 |
+| 力量 | 4d4+2 | 6 | 18 |
+| 智力 | 2d4+1 | 3 | 9 |
+| 智慧 | 2d4+1 | 3 | 9 |
+| 敏捷 | 4d4+2 | 6 | 18 |
+| 体质 | 3d4 | 3 | 12 |
+| 魅力 | 2d4+1 | 3 | 9 |
 
 #### 沟谷矮人职业上限（Gully Dwarf Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | N/E* |
-| 圣武士 Paladin | N/E* |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 6 |
-| 野蛮人 Barbarian | 7 |
-| 巡林客 Ranger | N/E* |
+| 骑士 | N/E* |
+| 圣武士 | N/E* |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 6 |
+| 野蛮人 | 7 |
+| 巡林客 | N/E* |
 | 魔法师（非法师）Magic-User (Renegade) | N/E* |
 | 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | N/E* |
-| 盗贼 Thief | 8 |
-| 盗贼／杂技师 Thief／Acrobat | 8 |
+| 高等法术巫师 | N/E* |
+| 盗贼 | 8 |
+| 盗贼／杂技师 | 8 |
 | 牧师（异教徒）Cleric (Heathen) | N/E* |
 | 德鲁伊（异教徒）Druid (Heathen) | N/E* |
-| 星辰神圣教团 Holy Orders of the Stars | 5 |
+| 星辰神圣教团 | 5 |
 
 \* N/E 表示不具备成为该职业的资格。
 
@@ -1132,33 +1132,33 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 
 | 属性 | 最低 | 最高 |
 |---|---:|---:|
-| 力量 Strength | 12 | 18 |
-| 智力 Intelligence | 5 | 20 |
-| 智慧 Wisdom | 10 | 18 |
-| 敏捷 Dexterity | 8 | 20 |
-| 体质 Constitution | 12 | 16 |
-| 魅力 Charisma | 15 | 20 |
+| 力量 | 12 | 18 |
+| 智力 | 5 | 20 |
+| 智慧 | 10 | 18 |
+| 敏捷 | 8 | 20 |
+| 体质 | 12 | 16 |
+| 魅力 | 15 | 20 |
 
 #### 伊尔达职业上限（Irda Class Limits）
 
 | 职业 | 最高等级 |
 |---|---:|
-| 骑士 Cavalier | 不限 |
-| 圣武士 Paladin | 不限 |
-| 王冠骑士 Knight of the Crown | N/E* |
-| 宝剑骑士 Knight of the Sword | N/E* |
-| 玫瑰骑士 Knight of the Rose | N/E* |
-| 战士 Fighter | 不限 |
-| 野蛮人 Barbarian | N/E* |
-| 巡林客 Ranger | 不限 |
+| 骑士 | 不限 |
+| 圣武士 | 不限 |
+| 王冠骑士 | N/E* |
+| 宝剑骑士 | N/E* |
+| 玫瑰骑士 | N/E* |
+| 战士 | 不限 |
+| 野蛮人 | N/E* |
+| 巡林客 | 不限 |
 | 魔法师（非法师）Magic-User (Renegade) | N/E* |
 | 幻术师（非法师）Illusionist (Renegade) | N/E* |
-| 高等法术巫师 Wizard of High Sorcery | 不限 |
-| 盗贼 Thief | 不限 |
-| 盗贼／杂技师 Thief／Acrobat | 不限 |
+| 高等法术巫师 | 不限 |
+| 盗贼 | 不限 |
+| 盗贼／杂技师 | 不限 |
 | 牧师（异教徒）Cleric (Heathen) | N/E* |
 | 德鲁伊（异教徒）Druid (Heathen) | N/E* |
-| 星辰神圣教团 Holy Orders of the Stars | 不限 |
+| 星辰神圣教团 | 不限 |
 
 \* N/E 表示不具备成为该职业的资格。
 

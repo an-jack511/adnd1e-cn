@@ -15,7 +15,7 @@
 | 7 | 侦测邪恶 Detect Evil | *注目术 Enthrall* | *死亡门槛 Death’s Door* |
 | 8 | 侦测魔法 Detect Magic | 寻找陷阱 Find Traps | 解除魔法 Dispel Magic |
 | 9 | *忍受寒暑 Endure Cold/Heat* | 人类定身术 Hold Person | 假死术 Feign Death |
-| 10 | *对不死生物隐形 对不死生物隐形* | *圣徽术 Holy Symbol* | *火焰行走 Flame Walk* |
+| 10 | *对不死生物隐形 Invisibility to Undead* | *圣徽术 Holy Symbol* | *火焰行走 Flame Walk* |
 | 11 | 光亮术 Light | 侦测阵营 Know Alignment | 守卫刻文 Glyph of Warding |
 | 12 | *魔石术 Magic Stone* | *信使术 Messenger* | 物品定位术 Locate Object |
 | 13 | *看破伪装 Penetrate Disguise* | 抗火术 Resist Fire | *魔化法衣 Magical Vestment* |

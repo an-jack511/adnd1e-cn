@@ -10,18 +10,18 @@
 <h3>目标生物的行动／追踪成功率 Creature&#x27;s Action / Chance to Track</h3>
 <TABLE>
 <TR><TH>目标生物的行动</TH><TH>追踪成功率</TH></TR>
-<TR><TD>沿普通通道或房间前进（going along normal passage or room）</TD><TD>65%</TD></TR>
-<TR><TD>穿过普通门或使用楼梯（passes through normal door or uses stairs）</TD><TD>55%</TD></TR>
-<TR><TD>通过活板门（goes through a trap door）</TD><TD>45%</TD></TR>
-<TR><TD>上下烟囱或穿过暗门（goes up or down a chimney or through concealed door）</TD><TD>35%</TD></TR>
-<TR><TD>穿过秘门（passes through a secret door）</TD><TD>25%</TD></TR>
+<TR><TD>沿普通通道或房间前进</TD><TD>65%</TD></TR>
+<TR><TD>穿过普通门或使用楼梯</TD><TD>55%</TD></TR>
+<TR><TD>通过活板门</TD><TD>45%</TD></TR>
+<TR><TD>上下烟囱或穿过暗门</TD><TD>35%</TD></TR>
+<TR><TD>穿过秘门</TD><TD>25%</TD></TR>
 </TABLE>
 <h3>户外追踪调整 Outdoors tracking modifiers</h3>
 <TABLE>
 <TR><TH>情形</TH><TH>成功率调整</TH></TR>
-<TR><TD>被追踪队伍中，每多出一个生物（for each creature above 1 in the party being tracked）</TD><TD>+02%</TD></TR>
-<TR><TD>踪迹留下后，每经过 24 小时（for every 24 hours elapsed between making the track and tracking）</TD><TD>&#8722;10%</TD></TR>
-<TR><TD>每有一小时降水（for each hour of precipitation）</TD><TD>&#8722;25%</TD></TR>
+<TR><TD>被追踪队伍中，每多出一个生物</TD><TD>+02%</TD></TR>
+<TR><TD>踪迹留下后，每经过 24 小时</TD><TD>&#8722;10%</TD></TR>
+<TR><TD>每有一小时降水</TD><TD>&#8722;25%</TD></TR>
 </TABLE>
 <h3>巡林客（战士）表 I Rangers (Fighters) Table I</h3>
 <TABLE>

@@ -58,7 +58,7 @@
 
 #### 火巨灵囚瓶 Efreeti Bottle
 
-此物通常由黄铜或青铜制成，瓶口以带有特殊封印的铅塞密封；瓶上常有细细烟流冒出。瓶中巨灵有 <strong>10%</strong> 的概率已经疯狂，一被释放便立刻攻击；另有 <strong>10%</strong> 的概率只给予 <strong>3 次祈愿术</strong>。其余 <strong>80%</strong> 情况下，瓶中生物会正常服侍主人（见《怪物图鉴》）。打开瓶子后，巨灵会在 <strong>1 segment</strong> 内出现。
+此物通常由黄铜或青铜制成，瓶口以带有特殊封印的铅塞密封；瓶上常有细细烟流冒出。瓶中巨灵有 <strong>10%</strong> 的概率已经疯狂，一被释放便立刻攻击；另有 <strong>10%</strong> 的概率只给予 <strong>3 次祈愿术</strong>。其余 <strong>80%</strong> 情况下，瓶中生物会正常服侍主人（见《怪物图鉴》）。打开瓶子后，巨灵会在 <strong>1 段</strong>内出现。
 
 #### 无尽烟壶 Eversmoking Bottle
 

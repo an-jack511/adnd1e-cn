@@ -18,47 +18,47 @@
 | 暗杀虫 | Ian Livingstone | 12 |
 | 星界搜寻者 | Tom Moldvay | 13 |
 | 喋喋怪 | Jeremy Goodwin and Ian McDowall | 13 |
-| 灾祸小虫——见 杰莱鼠 | - | - |
+| 灾祸小虫——见杰莱鼠 | - | - |
 | 巨型蝙蝠 | Lewis Pulsipher | 14 |
 | 分灵妖 | Albie Fiore | 14 |
-| Bird-man——见 鸟羽人 | - | - |
-| 黑加巴格——见 加巴格 | - | - |
-| 黑海胆——见 海胆 | - | - |
+| Bird-man——见鸟羽人 | - | - |
+| 黑加巴格——见加巴格 | - | - |
+| 黑海胆——见海胆 | - | - |
 | 炫目者 | Roger Musson | 15 |
 | 血鹰 | Ian Livingstone | 15 |
 | 巨型血虫 | Ian Livingstone | 15 |
-| 史拉蓝蟾——见 史拉蟾 | - | - |
-| 锅炉鸟——见 索克锅炉鸟 | - | - |
+| 史拉蓝蟾——见史拉蟾 | - | - |
+| 锅炉鸟——见索克锅炉鸟 | - | - |
 | 碎骨兽 | Ian Livingstone | 15 |
 | 布卡精 | Gary Gygax | 16 |
 | 蛙人 | Luke Gygax and Gary Gygax | 16 |
 | 本耶普水兽 | Dermot Jackson | 17 |
 | 红宝兽 | Albie Fiore | 17 |
-| 鲤龙——见 东方龙 | - | - |
+| 鲤龙——见东方龙 | - | - |
 | 女像柱 | Jean Wells | 18 |
 | 夜嚎兽 | Albie Fiore | 18 |
-| Catman——见 塔巴克西猫人 | - | - |
-| 九尾猫——见 九尾猫 | - | - |
-| Celestial 龙——见 东方龙 | - | - |
+| Catman——见塔巴克西猫人 | - | - |
+| 九尾猫——见九尾猫 | - | - |
+| Celestial 龙——见东方龙 | - | - |
 | 群虫聚怪 | Oliver Charles MacDonald | 19 |
 | 棍喙鸟 | M. English | 19 |
 | 棺尸 | Simon Eaton | 19 |
-| Coiled 龙——见 东方龙 | - | - |
+| Coiled 龙——见东方龙 | - | - |
 | 蟹人 | Ian Livingstone | 21 |
-| 克里欧纳克斯——见 邪恶元素王子 | - | - |
+| 克里欧纳克斯——见邪恶元素王子 | - | - |
 | 墓穴怪 | Roger Musson | 21 |
 | 达孔猿人 | Ian McDowall | 22 |
 | 黑暗潜伏者 | Rik Shepherd | 22 |
-| Dark 精灵——见 精灵: 卓尔 | - | - |
+| Dark 精灵——见精灵: 卓尔 | - | - |
 | 黑暗追猎者 | Simon Muth | 23 |
 | 亡命恶犬 | Underworld Oracle | 23 |
 | 死亡骑士 | Charles Stross | 23 |
-| Death 史拉蟾——见 史拉蟾 | - | - |
-| 死亡蠕虫——见 死灵蛇构装体 | - | - |
-| Deep 侏儒——见 斯涅布力深地侏儒 | - | - |
+| Death 史拉蟾——见史拉蟾 | - | - |
+| 死亡蠕虫——见死灵蛇构装体 | - | - |
+| Deep 侏儒——见斯涅布力深地侏儒 | - | - |
 | 恶魔 | - | 24 |
 | ↳ 罗丝 | Gary Gygax | 24 |
-| 恶魔 蚁后 of spiders——见 恶魔: 罗丝 | - | - |
+| 恶魔蚁后 of spiders——见恶魔: 罗丝 | - | - |
 | 丹泽利安 | Lewis Pulsipher | 25 |
 | 魔鬼 | - | 25 |
 | ↳ Styx | Ian Livingstone | 25 |
@@ -79,9 +79,9 @@
 | ↳ 天龙（celestial 龙，天龙） | - | 29 |
 | ↳ 鱼龙（鲤龙，鲤龙） | - | 30 |
 | 龙鱼 | Albie Fiore | 30 |
-| 卓尔——见 精灵: 卓尔 | - | - |
+| 卓尔——见精灵: 卓尔 | - | - |
 | 沙丘追猎者 | Ian Livingstone | 30 |
-| 地龙——见 东方龙 | - | - |
+| 地龙——见东方龙 | - | - |
 | 邪恶元素王子 | Lewis Pulsipher | 31 |
 | ↳ 克里欧纳克斯——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
 | ↳ 伊密克斯——Prince of evil fire creatures（火焰生物的邪恶王子） | - | 31 |
@@ -95,14 +95,14 @@
 | 杀目兽 | Ian Livingstone | 35 |
 | 火惧之眼 | Hugh Kernohan | 35 |
 | 火蜥龙 | Dave Waring | 36 |
-| 火魔蝠——见 魔蝠 | - | - |
+| 火魔蝠——见魔蝠 | - | - |
 | 火蜥人 | Albie Fiore | 36 |
 | 火蛇 | Michael McDonagh | 38 |
 | 火蟾蜍 | Roger Musson | 38 |
 | 链枷蜗牛 | Simon Tilbrook | 38 |
 | 弗林德鬣狗人 | J. D. Morris | 39 |
 | 呋噜 | Ian McDowall and Douglas Naismith | 39 |
-| 雾巨人——见 巨人 | - | - |
+| 雾巨人——见巨人 | - | - |
 | 魔羊人 | Ian Livingstone | 39 |
 | 霜人 | Julian Lawrence | 40 |
 | 加尔崔特 | Trevor Graver | 40 |
@@ -113,11 +113,11 @@
 | 巨人 | - | 41 |
 | ↳ Fog | Jean Wells | 42 |
 | ↳ Mountain | Louis Boschelli | 42 |
-| 巨型蝙蝠——见 巨型蝙蝠 | - | - |
-| 巨型血虫——见 巨型血虫 | - | - |
-| 巨型胡蜂——见 巨型胡蜂 | - | - |
-| 巨型巨魔——见 巨魔 | - | - |
-| 双头巨型巨魔——见 巨魔 | - | - |
+| 巨型蝙蝠——见巨型蝙蝠 | - | - |
+| 巨型血虫——见巨型血虫 | - | - |
+| 巨型胡蜂——见巨型胡蜂 | - | - |
+| 巨型巨魔——见巨魔 | - | - |
+| 双头巨型巨魔——见巨魔 | - | - |
 | 阔步鸟 | Albie Fiore | 42 |
 | 呱呱精 | Underworld Oracle | 43 |
 | 吉斯洋基人 | Charles Stross | 43 |
@@ -125,9 +125,9 @@
 | 金币虫 | David Taylor | 46 |
 | 戈贝尔 | Andrew Key | 46 |
 | 猩熊 | Cricky Hitchcock | 46 |
-| 史拉绿蟾——见 史拉蟾 | - | - |
-| 绿海胆——见 海胆 | - | - |
-| Grey 史拉蟾——见 史拉蟾 | - | - |
+| 史拉绿蟾——见史拉蟾 | - | - |
+| 绿海胆——见海胆 | - | - |
+| Grey 史拉蟾——见史拉蟾 | - | - |
 | 触须怪 | Ian Livingstone | 46 |
 | 幽邃盲族 | Albie Fiore | 48 |
 | 格里夫 | Peter Brown | 48 |
@@ -144,15 +144,15 @@
 | 巨型胡蜂 | Nick Louth | 51 |
 | 凶兆猎犬 | Mike Roberts | 51 |
 | 亵渎尸骸 | Underworld Oracle | 51 |
-| Ice 恶魔——见 霜人 | - | - |
+| Ice 恶魔——见霜人 | - | - |
 | 冰蜥蜴 | Mike Ferguson | 52 |
-| 冰巨魔——见 巨魔 | - | - |
-| 伊密克斯——见 邪恶元素王子 | - | - |
+| 冰巨魔——见巨魔 | - | - |
+| 伊密克斯——见邪恶元素王子 | - | - |
 | 变形兽 | Andrew Key | 52 |
 | 钢铁眼镜蛇 | Philip Masters | 52 |
 | 幻色蛇 | Philip Masters | 53 |
 | 杰莱鼠 | Gary Gygax | 53 |
-| 灾祸小妖——见 杰莱鼠 | - | - |
+| 灾祸小妖——见杰莱鼠 | - | - |
 | 六岐蛇豹 | Nick Louth | 55 |
 | 水鬼 | Lawrence Schick | 55 |
 | 鸦人 | Rik Shepherd | 56 |
@@ -161,15 +161,15 @@
 | 寇涛 | Gary Gygax | 57 |
 | 拉迷亚贵族 | Philip Masters | 59 |
 | 熔岩之子 | Jim Donohoe | 61 |
-| 熔岩魔蝠——见 魔蝠 | - | - |
-| 地龙——见 东方龙 | - | - |
+| 熔岩魔蝠——见魔蝠 | - | - |
+| 地龙——见东方龙 | - | - |
 | 蜥蜴之王 | Stephen Horne | 61 |
-| 罗丝——见 恶魔: 罗丝 | - | - |
-| 龙王——见 东方龙 | - | - |
+| 罗丝——见恶魔: 罗丝 | - | - |
+| 龙王——见东方龙 | - | - |
 | 镁光精魂 | Nick Louth | 62 |
-| Man-fish——见 寇涛 | - | - |
+| Man-fish——见寇涛 | - | - |
 | 曼塔里 | David Wormell | 62 |
-| Marsh-gibberer——见 喋喋怪 | - | - |
+| Marsh-gibberer——见喋喋怪 | - | - |
 | 鬾魊 | Dermot Jackson | 63 |
 | 凌弱怪 | Peter Korabik | 63 |
 | 魔蝠 | Martin Stollery | 64 |
@@ -179,52 +179,52 @@
 | ↳ Steam | - | 65 |
 | 夹层魔 | Gary Gygax | 66 |
 | 螨精 | Ian Livingstone | 66 |
-| 山巨人——见 巨人 | - | - |
+| 山巨人——见巨人 | - | - |
 | 死灵蛇构装体 | Simon Tilbrook | 67 |
 | 针叶人 | Trevor Graver | 67 |
 | 林布哥 | Roger Musson | 67 |
 | 九尾猫 | Dean Lockwood and P. S. Barton | 68 |
 | 诺克 | J. D. Morris | 68 |
 | 夜魔 | Gary Gygax | 69 |
-| Ogremoch——见 邪恶元素王子 | - | - |
+| Ogremoch——见邪恶元素王子 | - | - |
 | 食人魔混血种 | R. K. R. Chilman | 70 |
-| 奥尔海德拉——见 邪恶元素王子 | - | - |
+| 奥尔海德拉——见邪恶元素王子 | - | - |
 | 奥斯奎普 | Brendon Bulger | 70 |
 
 ### P-T（原书页 123）
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| 盘龙——见 东方龙 | - | - |
+| 盘龙——见东方龙 | - | - |
 | Pénanggalan | Stephen Hellman | 71 |
 | 佩尼孔虫 | Mary Patterson | 72 |
-| 恼人小妖——见 斯尼亚德 | - | - |
+| 恼人小妖——见斯尼亚德 | - | - |
 | 幻影追猎者 | Ian Livingstone | 72 |
 | 骚灵 | Lewis Pulsipher | 73 |
 | 原质变形怪 | Tom Moldvay | 73 |
 | 幽邃熊怪 | Andrew Torchia | 74 |
 | 食人鱼 | Albie Fiore | 74 |
 | 库兰人 | Neville White | 74 |
-| 史拉红蟾——见 史拉蟾 | - | - |
-| 红海胆——见 海胆 | - | - |
+| 史拉红蟾——见史拉蟾 | - | - |
+| 红海胆——见海胆 | - | - |
 | 猎魔蛛 | Tom Moldvay | 75 |
 | 还魂鬼 | Stephen Hellman | 75 |
-| Rockworm——见 熔岩虫 | - | - |
+| Rockworm——见熔岩虫 | - | - |
 | 洛斯兽 | Ghee Bowman | 76 |
-| Salaman——见 火蜥人 | - | - |
+| Salaman——见火蜥人 | - | - |
 | 沙人 | Roger Musson | 77 |
 | 稻草人 | Roger Musson | 77 |
 | 尖叫小鬼 | Philip Masters | 77 |
-| Sea 龙——见 东方龙 | - | - |
+| Sea 龙——见东方龙 | - | - |
 | 幽影恶魔 | Neville White | 78 |
 | 尸衣食尸鬼 | David Wormell | 78 |
 | 裹尸幻影 | David Wormell | 78 |
-| 神龙——见 东方龙 | - | - |
+| 神龙——见东方龙 | - | - |
 | 电击怪 | Roger Musson | 79 |
-| 银海胆——见 海胆 | - | - |
+| 银海胆——见海胆 | - | - |
 | 骷髅战士 | Nigel Morgan | 79 |
 | 潜伏客 | Simon Muth | 80 |
-| Skunk beast——见 枯臭兽 | - | - |
+| Skunk beast——见枯臭兽 | - | - |
 | 史拉蟾 | Charles Stross | 80 |
 | ↳ 史拉蓝蟾 | - | 80 |
 | ↳ Death 史拉蟾 | - | 81 |
@@ -233,16 +233,16 @@
 | ↳ 史拉红蟾 | - | 82 |
 | ↳ 森达姆 (史拉蟾 Lord) | - | 82 |
 | ↳ 耶戈尔 (史拉蟾 Lord) | - | 82 |
-| 烟魔蝠——见 魔蝠 | - | - |
+| 烟魔蝠——见魔蝠 | - | - |
 | 斯尼亚德 | Mark Barnes | 83 |
 | 凯厄斯之子 | Michael MacDonald | 83 |
-| Spirit 龙——见 东方龙 | - | - |
-| 灵体巨魔——见 巨魔 | - | - |
-| 森达姆——见 史拉蟾 | - | - |
-| 蒸汽魔蝠——见 魔蝠 | - | - |
-| Strider——见 阔步鸟 | - | - |
+| Spirit 龙——见东方龙 | - | - |
+| 灵体巨魔——见巨魔 | - | - |
+| 森达姆——见史拉蟾 | - | - |
+| 蒸汽魔蝠——见魔蝠 | - | - |
+| Strider——见阔步鸟 | - | - |
 | 震慑胶怪 | Neville White | 84 |
-| 冥河魔鬼——见 魔鬼: styx | - | - |
+| 冥河魔鬼——见魔鬼: styx | - | - |
 | 苏苏鲁斯 | Albie Fiore | 84 |
 | 斯涅布力深地侏儒 | Gary Gygax | 84 |
 | 共生胶怪 | Roger Musson | 85 |
@@ -252,15 +252,15 @@
 | 熔岩虫 | Nicholas Riggs | 87 |
 | 索克锅炉鸟 | Mark Barnes | 88 |
 | 咽喉水蛭 | Ian Livingstone | 88 |
-| 天龙——见 东方龙 | - | - |
+| 天龙——见东方龙 | - | - |
 | 虎蝇 | Mike Ferguson | 88 |
 | 三头三足怪 | Colin Reynolds | 89 |
 | 催亡精 | Mike Ferguson | 89 |
 | 巨魔 | - | 90 |
 | ↳ 巨人 | Ian Livingstone | 90 |
-| ↳ 巨人 双头 | Oliver Charles MacDonald | 90 |
+| ↳ 巨人双头 | Oliver Charles MacDonald | 90 |
 
-### T-Z 与 后记（原书页 124） · T-Z  Epilogue
+### T-Z 与后记（原书页 124） · T-Z  Epilogue
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
@@ -274,7 +274,7 @@
 | ↳ Red | - | 93 |
 | ↳ Silver | - | 93 |
 | ↳ Yellow | - | 93 |
-| 紫加巴格——见 加巴格 | - | - |
+| 紫加巴格——见加巴格 | - | - |
 | 幻象集合体 | Mike Ferguson | 93 |
 | 沃迪亚诺水怪 | Albie Fiore | 93 |
 | 伏特电怪 | Jonathan Jones | 94 |
@@ -284,12 +284,12 @@
 | 枯萎草 | Simon Eaton | 95 |
 | 希尔 | Brian Asbury | 96 |
 | 法特怪 | Cricky Hitchcock | 96 |
-| 扬西宾——见 邪恶元素王子 | - | - |
+| 扬西宾——见邪恶元素王子 | - | - |
 | 黄迷香爬藤 | Albie Fiore | 97 |
-| 黄麝香僵尸——见 黄麝香僵尸 | - | - |
-| 黄海胆——见 海胆 | - | - |
-| 耶戈尔——见 史拉蟾 | - | - |
-| 鱼龙——见 东方龙 | - | - |
+| 黄麝香僵尸——见黄麝香僵尸 | - | - |
+| 黄海胆——见海胆 | - | - |
+| 耶戈尔——见史拉蟾 | - | - |
+| 鱼龙——见东方龙 | - | - |
 | 黄麝香僵尸 | Albie Fiore | 97 |
 
 ## 后记 · Epilogue

@@ -37,7 +37,7 @@ AL 守序中立；RA 见下文；AEx +5%；WPN 标准；SPH 星界、魅惑（�
 
 ### 额外法术 Additional Spell
 
-#### 阳炎爆 阳炎爆（塑能）
+#### 阳炎爆 Sunburst（塑能）
 
 <div class="spell-meta">
 <strong>等级 Level：</strong>4<br>

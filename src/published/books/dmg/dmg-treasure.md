@@ -248,7 +248,7 @@
 | 00 | X射线戒指 Ring of X-Ray Vision | 4,000 | 35,000 |
 
 （M）仅魔法师可使用。  
-$ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有限 charges，用尽后便会耗尽。
+$ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有限充能次数，用尽后便会耗尽。
 
 ### III.D. 权杖、法杖与魔杖 Rods, Staves, and Wands
 
@@ -285,7 +285,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 93–94 | 暗门与陷阱探测魔杖 Wand of Secret Door and Trap Location（任意职业） | 5,000 | 40,000 |
 | 95–00 | 惊异魔杖 Wand of Wonder（任意职业） | 6,000 | 10,000 |
 
-* 假设物品 charges 充足。  
+* 假设物品充能次数充足。  
 （C）仅牧师可用；（F）仅战士可用；（M）仅魔法师可用；（T）仅盗贼可用；“任意职业”表示任何职业均可使用，除非另有职业限制。
 
 ### III.E. 杂项魔法物品 Miscellaneous Magic
@@ -371,7 +371,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 * 逆转效果的 XP 为 <strong>12,500</strong>，售价为 <strong>50,000 金币</strong>。
 
 * 按防护加值计价。  
-** 假设拥有全部 charges。
+** 假设拥有全部充能次数。
 
 #### 表 E.3 Miscellaneous Magic Table E.3
 
@@ -981,7 +981,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 任何种族的角色都可以使用戒指，但侏儒、矮人与半身人所戴戒指有 <strong>20%</strong> 概率发生故障。故障时戒指只是无法运作。诅咒戒指（反向、妄想、虚弱）也适用这一规则；若戒指不起作用，角色会察觉并可将其取下。
 
-戒指表（III.C）及下列说明中的 <strong>‡</strong> 符号，表示该戒指拥有最强大的魔法能力；DM 可决定它们拥有数量有限的 charges，用尽后即耗尽。
+戒指表（III.C）及下列说明中的 <strong>‡</strong> 符号，表示该戒指拥有最强大的魔法能力；DM 可决定它们拥有数量有限的充能次数，用尽后即耗尽。
 
 ### 反向戒指 Ring of Contrariness
 
@@ -1275,15 +1275,15 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 权杖与魔杖通常会放在盒子或类似容器中；法杖则能独立直立保存。当然，这并不妨碍它们被藏起来。
 
-除非另有说明，这些物品具有下列 charges；每使用一次，便消耗 <strong>1 charge</strong>（使用者未必知道物品还剩多少 charges）：
+除非另有说明，这些物品具有下列充能次数；每使用一次，便消耗 <strong>1 次充能</strong>（使用者未必知道物品还剩多少次充能）：
 
-| 物品 | 初始 charges |
+| 物品 | 初始充能次数 |
 |:---|:---:|
 | 权杖 | 50，减去 <strong>0–9</strong>（掷 <strong>1d10−1</strong>） |
 | 法杖 | 25，减去 <strong>0–5</strong>（掷 <strong>1d6−1</strong>） |
 | 魔杖 | 100，减去 <strong>0–19</strong>（掷 <strong>1d20−1</strong>） |
 
-多数此类物品可以由等级足够高的施法者重新充能，详见“魔法物品的制作”。权杖、法杖或魔杖一旦耗尽所有 charges，就会永久失效，最后化为粉末。
+多数此类物品可以由等级足够高的施法者重新充能，详见“魔法物品的制作”。权杖、法杖或魔杖一旦耗尽所有充能次数，就会永久失效，最后化为粉末。
 
 ### 权杖、法杖与魔杖的使用 Use of Rods, Staves, and Wands
 
@@ -1297,13 +1297,13 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此权杖会像磁铁一样吸收任何种类的法术——无论是牧师、德鲁伊、魔法师还是幻术师法术——使其效果无效，但会将潜在能量储存在权杖中，供持有者选择是否转化为自己施展的法术。被吸收的法术必须是以权杖持有者为目标的法术。（参见“法术反转戒指”。）持有者可以立即得知法术环级，并决定是否让权杖吸收该法术。只要法术环级等于或低于持有者已记忆的法术，他／她便可在 <strong>1 段</strong>内消耗储存能量施展该法术，且不会失去原先记忆的法术。高于持有者记忆法术等级的剩余能量，也可用同样方式施展；持有者只须记忆该法术，每次施展耗时 <strong>1 段</strong>。
 
-吸收权杖永远无法重新充能。它最多吸收 <strong>50 个法术环级</strong>的能量；达到此上限后只能释放尚存能量。持有者能得知权杖的 charges；若曾使用过，便会知道它已吸收多少法术环级。
+吸收权杖永远无法重新充能。它最多吸收 <strong>50 个法术环级</strong>的能量；达到此上限后只能释放尚存能量。持有者能得知权杖的充能次数；若曾使用过，便会知道它已吸收多少法术环级。
 
-例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“人类定身术”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 个 charges</strong>永久消耗。
+例如，一名牧师使用吸收权杖抵消魔法师施放于其身上的“人类定身术”，权杖便吸收了 <strong>3 个法术环级</strong>。此时权杖还可吸收 <strong>47 个法术环级</strong>。牧师可以在 <strong>1 段</strong>内消耗储存能量，施展任何已记忆的一、二或三环法术，且不会失去对该法术的记忆。假设牧师施展了一个二环法术，权杖便还剩 <strong>1 个法术环级</strong>的能量，并仍可继续吸收 <strong>47 个法术环级</strong>；但已有 <strong>2 次充能</strong>永久消耗。
 
 #### 迷惑权杖 Rod of Beguiling
 
-此权杖会向周围散发一种令人友善的情绪与心灵波动。所有智力为 <strong>1</strong> 或更高的生物，在距权杖 <strong>2"</strong>范围内都会几乎受到魅惑，视持杖者为同伴、朋友或导师（无豁免检定）。受迷惑生物会喜爱并尊重持杖者；只要双方能够交流，它们就会信任地倾听并服从，只要指令看起来合情合理，不会明显要求它们无谓受伤、遭到毁灭，或违背其本性与阵营。每个 charge 的迷惑效果持续 <strong>1 回合</strong>。此权杖可以重新充能。
+此权杖会向周围散发一种令人友善的情绪与心灵波动。所有智力为 <strong>1</strong> 或更高的生物，在距权杖 <strong>2"</strong>范围内都会几乎受到魅惑，视持杖者为同伴、朋友或导师（无豁免检定）。受迷惑生物会喜爱并尊重持杖者；只要双方能够交流，它们就会信任地倾听并服从，只要指令看起来合情合理，不会明显要求它们无谓受伤、遭到毁灭，或违背其本性与阵营。每次充能的迷惑效果持续 <strong>1 回合</strong>。此权杖可以重新充能。
 
 #### 取消权杖 Rod of Cancellation
 
@@ -1337,7 +1337,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 2. 持杖者可令所有看到权杖的敌人恐惧，最远 <strong>6"</strong>。
 3. 触碰对手可吸取 <strong>2–8 点</strong>生命值并转移给持杖者，但持杖者的生命值不能超过正常上限。（参见“再生戒指”。）
 
-每次发动上述能力都会消耗 <strong>1 charge</strong>。受影响者可以进行对抗魔法的豁免检定，但第三项能力要求持杖者在近战中成功击中目标。
+每次发动上述能力都会消耗 <strong>1 次充能</strong>。受影响者可以进行对抗魔法的豁免检定，但第三项能力要求持杖者在近战中成功击中目标。
 
 此权杖还可变为以下魔法武器：
 
@@ -1346,7 +1346,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 3. 按下 <strong>按钮 2</strong>，球头会弹出一柄 <strong>+4 战斧</strong>，整体长度变为 <strong>4 尺</strong>。
 4. 按下 <strong>按钮 3</strong>，球头会弹出一柄 <strong>+3 长矛</strong>，手柄可伸长至 <strong>6–15 尺</strong>，适合用作骑枪。
 
-以上武器形态不消耗 charges。
+以上武器形态不消耗充能次数。
 
 王者权杖还具有以下普通用途：
 
@@ -1354,13 +1354,13 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 2. 若把权杖底端插入地面，并与目标入口保持 <strong>30 尺</strong>以内直线距离，权杖可强行打开与其对齐的门；力量相当于风暴巨人。
 3. 按下 <strong>按钮 6</strong>，权杖会指示磁北方向，并告知持有者地表之下（或上方）的近似深度。
 
-这些功能也不消耗 charges。王者权杖不能重新充能。charges 耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。
+这些功能也不消耗充能次数。王者权杖不能重新充能。充能次数耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。
 
 #### 复生权杖 Rod of Resurrection
 
-此权杖使牧师能够复活死者——包括精灵、矮人、侏儒或半身人——如同施法者等级足够高，且不需要休息便能施展相应法术，因为权杖会提供复活生命所需的能量。每日可使用一次。复活角色消耗的 charges 取决于其职业与种族：
+此权杖使牧师能够复活死者——包括精灵、矮人、侏儒或半身人——如同施法者等级足够高，且不需要休息便能施展相应法术，因为权杖会提供复活生命所需的能量。每日可使用一次。复活角色消耗的充能次数取决于其职业与种族：
 
-| 职业 | charges | 种族 | charges |
+| 职业 | 充能次数 | 种族 | 充能次数 |
 |:---|:---:|:---|:---:|
 | 牧师 | 1 | 矮人 | 3 |
 | 德鲁伊 | 2 | 精灵 | 4 |
@@ -1378,11 +1378,11 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 统御权杖 Rod of Rulership
 
-持有此魔法权杖的人可以在启动装置时，支配 <strong>12"</strong>范围内的生物（命令其服从并忠诚）。一次可支配 <strong>200–500 个</strong>生命骰（或等级）的生物；智力达到 <strong>15</strong>或更高、且生命骰／等级达到 <strong>12</strong>或更高的生物，可以进行对抗魔法的豁免检定。被支配者会像面对绝对君主一样服从持杖者，但若命令绝对违背其本性，魔法便会破除。启动需 <strong>5 段</strong>；每个 charge 的效果持续 <strong>1 回合</strong>。此权杖不能重新充能。
+持有此魔法权杖的人可以在启动装置时，支配 <strong>12"</strong>范围内的生物（命令其服从并忠诚）。一次可支配 <strong>200–500 个</strong>生命骰（或等级）的生物；智力达到 <strong>15</strong>或更高、且生命骰／等级达到 <strong>12</strong>或更高的生物，可以进行对抗魔法的豁免检定。被支配者会像面对绝对君主一样服从持杖者，但若命令绝对违背其本性，魔法便会破除。启动需 <strong>5 段</strong>；每次充能的效果持续 <strong>1 回合</strong>。此权杖不能重新充能。
 
 #### 重击权杖 Rod of Smiting
 
-此权杖是 <strong>+3 魔法武器</strong>，造成 <strong>4–11 点</strong>伤害（<strong>1d8+3</strong>）。攻击魔像时造成 <strong>8–22 点</strong>伤害（<strong>2d8+6</strong>）；若掷出 <strong>20</strong>或更高，便会摧毁魔像，但每次命中魔像都会消耗 <strong>1 charge</strong>。攻击来自外层位面的生物，例如恶魔、魔鬼或夜魔时，造成正常的 <strong>4–11 点</strong>伤害；掷出 <strong>20</strong>或更高则额外消耗 <strong>1 charge</strong>，造成三倍伤害（<strong>(1d8+3)×3</strong>）。此权杖不能重新充能。
+此权杖是 <strong>+3 魔法武器</strong>，造成 <strong>4–11 点</strong>伤害（<strong>1d8+3</strong>）。攻击魔像时造成 <strong>8–22 点</strong>伤害（<strong>2d8+6</strong>）；若掷出 <strong>20</strong>或更高，便会摧毁魔像，但每次命中魔像都会消耗 <strong>1 次充能</strong>。攻击来自外层位面的生物，例如恶魔、魔鬼或夜魔时，造成正常的 <strong>4–11 点</strong>伤害；掷出 <strong>20</strong>或更高则额外消耗 <strong>1 次充能</strong>，造成三倍伤害（<strong>(1d8+3)×3</strong>）。此权杖不能重新充能。
 
 ### 法杖 Staves
 
@@ -1392,10 +1392,10 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此装置有 <strong>3</strong> 种能力。魔法师只能有效使用其中 <strong>2</strong> 种，但牧师持用时 <strong>3</strong> 种都能生效：
 
-1. <strong>影响人类：</strong>此能力与同名戒指相同。每次使用暗示术或魅惑都会消耗 <strong>1 charge</strong>。
+1. <strong>影响人类：</strong>此能力与同名戒指相同。每次使用暗示术或魅惑都会消耗 <strong>1 次充能</strong>。
 
-2. <strong>哺乳动物控制／动物控制：</strong>魔法师使用时，只能施展与同名戒指相同的“哺乳动物控制”；牧师使用时，则按同名药水的效果控制所有列出的动物种类。每使用 <strong>1 回合</strong>或不足 <strong>1 回合</strong>，消耗 <strong>1 charge</strong>。
-3. <strong>植物控制：</strong>效果与同名药水相同；每控制 <strong>1 回合</strong>或更短时间、面积为 <strong>1"</strong>见方的植物，消耗 <strong>1 charge</strong>。魔法师不能用此能力控制植物。
+2. <strong>哺乳动物控制／动物控制：</strong>魔法师使用时，只能施展与同名戒指相同的“哺乳动物控制”；牧师使用时，则按同名药水的效果控制所有列出的动物种类。每使用 <strong>1 回合</strong>或不足 <strong>1 回合</strong>，消耗 <strong>1 次充能</strong>。
+3. <strong>植物控制：</strong>效果与同名药水相同；每控制 <strong>1 回合</strong>或更短时间、面积为 <strong>1"</strong>见方的植物，消耗 <strong>1 次充能</strong>。魔法师不能用此能力控制植物。
 
 此法杖可以重新充能。
 
@@ -1405,7 +1405,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 贤者法杖 Staff of the Magi
 
-这根强大的法杖蕴含许多法术力量与其他能力，宛如一座可行走的军火库。以下能力不消耗 charges：
+这根强大的法杖蕴含许多法术力量与其他能力，宛如一座可行走的军火库。以下能力不消耗充能次数：
 
 - 侦测魔法
 - 扩大术
@@ -1413,7 +1413,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 - 光亮术
 - 防护邪恶／善良
 
-以下能力每次使用消耗 <strong>1 charge</strong>：
+以下能力每次使用消耗 <strong>1 次充能</strong>：
 
 - 隐形术
 - 敲击术
@@ -1426,7 +1426,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 - 火墙术
 - 穿墙术
 
-以下能力每次使用消耗 <strong>2 charges</strong>：
+以下能力每次使用消耗 <strong>2 次充能</strong>：
 
 - 旋风术
 - 位面旅行
@@ -1435,7 +1435,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 旋风效果与巨灵造成的旋风相同。位面旅行类似灵能能力“概率旅行”，但只可前往不同位面。每天可召唤 <strong>1 个</strong>任意种类的元素生物，拥有 <strong>8 个生命骰</strong>。心灵遥控按 <strong>8 级</strong>施法者计算，最大可移动 <strong>200 磅</strong>重量。
 
-贤者法杖会使持有者对抗魔法的豁免检定获得 <strong>+2</strong>。持有者也可用它攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害；消耗 <strong>1 charge</strong>可使伤害加倍。消耗 <strong>2 charges</strong>不会令伤害变为三倍。
+贤者法杖会使持有者对抗魔法的豁免检定获得 <strong>+2</strong>。持有者也可用它攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害；消耗 <strong>1 次充能</strong>可使伤害加倍。消耗 <strong>2 次充能</strong>不会令伤害变为三倍。
 
 贤者法杖可发动“报复性打击”（参见“威力法杖”）。你也可以掷随机骰，决定其中某些能力的替代形式。
 
@@ -1443,7 +1443,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 威力法杖是威力极强的魔法物品，兼具攻击与防御能力。它拥有以下能力：
 
-| 能力 | 消耗 charges |
+| 能力 | 消耗充能次数 |
 |:---|:---:|
 | 恒定光亮 | 1 |
 | 黑暗（半径 <strong>5 尺</strong>） | 1 |
@@ -1457,7 +1457,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 麻痹术会从法杖末端射出一道光线，形成长 <strong>4"</strong>、底部宽 <strong>2"</strong>的锥形区域。
 
-持杖者的护甲等级与豁免检定均获得 <strong>+2</strong>。他／她也可用法杖攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害。消耗 <strong>1 charge</strong>时，伤害加倍；但消耗 <strong>2 charges</strong>不会令伤害变为三倍。
+持杖者的护甲等级与豁免检定均获得 <strong>+2</strong>。他／她也可用法杖攻击对手，视为 <strong>+2 魔法武器</strong>，造成 <strong>3–8 点</strong>伤害。消耗 <strong>1 次充能</strong>时，伤害加倍；但消耗 <strong>2 次充能</strong>不会令伤害变为三倍。
 
 威力法杖可以发动“报复性打击”（参见“贤者法杖”）。你也可以掷随机骰，决定其替代能力。
 
@@ -1469,15 +1469,15 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 <strong>蝰蛇：</strong>作为 <strong>+1 魔法武器</strong>造成 <strong>2–4 点</strong>伤害。按下命令后，法杖头部会变成真正的蛇头，持续 <strong>1 回合</strong>；其护甲等级为 <strong>5</strong>，生命值为 <strong>20 点</strong>。命中不会增加伤害，但受害者必须通过对抗毒药的豁免检定，否则死亡。只有邪恶牧师会使用蝰蛇法杖。若蛇头被杀，法杖便会毁坏。
 
-两种蛇杖都不需要 charges；其中 <strong>60%</strong> 为蟒蛇杖。
+两种蛇杖都不需要充能次数；其中 <strong>60%</strong> 为蟒蛇杖。
 
 #### 强袭法杖 Staff of Striking
 
-这根橡木法杖相当于 <strong>+3 魔法武器</strong>。（若采用武器对护甲类型调整，强袭法杖始终按最有利于它的武器类型处理。）命中时造成 <strong>4–9 点</strong>伤害（<strong>1d6+3</strong>）。每次命中消耗 <strong>1 charge</strong>；若消耗 <strong>2 charges</strong>，额外伤害加倍（<strong>1d6+6</strong>）；若消耗 <strong>3 charges</strong>，额外伤害增至三倍（<strong>1d6+9</strong>）。每次攻击最多消耗 <strong>3 charges</strong>。此法杖可以重新充能。
+这根橡木法杖相当于 <strong>+3 魔法武器</strong>。（若采用武器对护甲类型调整，强袭法杖始终按最有利于它的武器类型处理。）命中时造成 <strong>4–9 点</strong>伤害（<strong>1d6+3</strong>）。每次命中消耗 <strong>1 次充能</strong>；若消耗 <strong>2 次充能</strong>，额外伤害加倍（<strong>1d6+6</strong>）；若消耗 <strong>3 次充能</strong>，额外伤害增至三倍（<strong>1d6+9</strong>）。每次攻击最多消耗 <strong>3 次充能</strong>。此法杖可以重新充能。
 
 #### 凋零法杖 Staff of Withering
 
-凋零法杖是 <strong>+1 魔法武器</strong>，命中时造成 <strong>2–5 点</strong>伤害。若命中时额外消耗 <strong>2 charges</strong>，目标会衰老 <strong>10 年</strong>，其能力与寿命也按增加的年龄相应调整。若额外消耗 <strong>3 charges</strong>，目标的 <strong>1 条肢体</strong>会枯萎并失去作用，除非通过对抗魔法的豁免检定；具体枯萎哪条肢体由随机骰决定。无年龄概念的生物（如不死生物、恶魔、魔鬼等）不会衰老或枯萎。法杖效果可以累积，因此消耗 <strong>3 charges</strong>会同时造成伤害、衰老与枯萎。矮人衰老影响甚微；衰老也可能有益于巨龙。
+凋零法杖是 <strong>+1 魔法武器</strong>，命中时造成 <strong>2–5 点</strong>伤害。若命中时额外消耗 <strong>2 次充能</strong>，目标会衰老 <strong>10 年</strong>，其能力与寿命也按增加的年龄相应调整。若额外消耗 <strong>3 次充能</strong>，目标的 <strong>1 条肢体</strong>会枯萎并失去作用，除非通过对抗魔法的豁免检定；具体枯萎哪条肢体由随机骰决定。无年龄概念的生物（如不死生物、恶魔、魔鬼等）不会衰老或枯萎。法杖效果可以累积，因此消耗 <strong>3 次充能</strong>会同时造成伤害、衰老与枯萎。矮人衰老影响甚微；衰老也可能有益于巨龙。
 
 ### 魔杖 Wands
 
@@ -1487,33 +1487,33 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 #### 咒法魔杖 Wand of Conjuration
 
-握住此魔杖后，魔法师可以立即辨认出任何已施放或写下的魔法师召唤／招致法术，即使自己看不见法术效果。它具有以下能力，每次使用消耗 <strong>1 charge</strong>：
+握住此魔杖后，魔法师可以立即辨认出任何已施放或写下的魔法师召唤／招致法术，即使自己看不见法术效果。它具有以下能力，每次使用消耗 <strong>1 次充能</strong>：
 
 - 隐形仆役
 - 怪物召唤*。
 
-\* 每次最多可消耗 <strong>6 charges</strong>：每级召唤怪物消耗 <strong>1 charge</strong>；或施放 <strong>1 次召唤怪物 II</strong>、<strong>1 次召唤怪物 III</strong>；也可混合使用，总消耗不超过 <strong>6 charges</strong>。魔法师必须达到足以施放相应召唤术的等级。召唤怪物需 <strong>5 segments</strong>。
+\* 每次最多可消耗 <strong>6 次充能</strong>：每级召唤怪物消耗 <strong>1 次充能</strong>；或施放 <strong>1 次召唤怪物 II</strong>、<strong>1 次召唤怪物 III</strong>；也可混合使用，总消耗不超过 <strong>6 次充能</strong>。魔法师必须达到足以施放相应召唤术的等级。召唤怪物需 <strong>5 节</strong>。
 
-此魔杖还可召出一片黑暗帷幕——完全吞噬所有光线的黑色屏障，最大面积为 <strong>600 平方尺</strong>（<strong>6" × 10"、40' × 15'、30' × 20'</strong>等），但必须从天花板延伸至地面，并从一面墙延伸至另一面墙。召出帷幕消耗 <strong>2 charges</strong>。只有物理手段或魔法才能穿透这片全黑帷幕。
+此魔杖还可召出一片黑暗帷幕——完全吞噬所有光线的黑色屏障，最大面积为 <strong>600 平方尺</strong>（<strong>6" × 10"、40' × 15'、30' × 20'</strong>等），但必须从天花板延伸至地面，并从一面墙延伸至另一面墙。召出帷幕消耗 <strong>2 次充能</strong>。只有物理手段或魔法才能穿透这片全黑帷幕。
 
-魔杖还可构造虹光法球（或虹光墙），但每次只能产生一种颜色，从红色到紫色依次施展；每种颜色消耗 <strong>1 charge</strong>。魔杖的每项能力均需 <strong>5 segments</strong>，每轮只能使用一项。此魔杖可以重新充能。
+魔杖还可构造虹光法球（或虹光墙），但每次只能产生一种颜色，从红色到紫色依次施展；每种颜色消耗 <strong>1 次充能</strong>。魔杖的每项能力均需 <strong>5 节</strong>，每轮只能使用一项。此魔杖可以重新充能。
 
 #### 搜敌魔杖 Wand of Enemy Detection
 
-此魔杖会发出脉冲，并指向任何意图伤害持有者的敌对生物。无论该生物隐形、以太态、星界态、处于异相、躲藏、伪装，还是就在明处，都能被侦测到。侦测范围为半径 <strong>6"</strong>。启动后持续 <strong>1 回合</strong>，消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
+此魔杖会发出脉冲，并指向任何意图伤害持有者的敌对生物。无论该生物隐形、以太态、星界态、处于异相、躲藏、伪装，还是就在明处，都能被侦测到。侦测范围为半径 <strong>6"</strong>。启动后持续 <strong>1 回合</strong>，消耗 <strong>1 次充能</strong>。此魔杖可以重新充能。
 
 #### 恐惧魔杖 Wand of Fear
 
-启动恐惧魔杖时，一道淡琥珀色光线会从杖尖射出，形成长 <strong>6"</strong>、底部直径 <strong>2"</strong>的锥形光束，并在 <strong>1 segment</strong> 内闪现后消失。被光线触及的每个生物都必须通过对抗魔杖的豁免检定，否则会如同受到恐惧术影响（牧师一环法术，可逆转）一般，转身以最快速度逃离持杖者 <strong>6 轮</strong>。每次使用消耗 <strong>1 charge</strong>。魔杖每轮最多使用一次，可以重新充能。
+启动恐惧魔杖时，一道淡琥珀色光线会从杖尖射出，形成长 <strong>6"</strong>、底部直径 <strong>2"</strong>的锥形光束，并在 <strong>1 节</strong>内闪现后消失。被光线触及的每个生物都必须通过对抗魔杖的豁免检定，否则会如同受到恐惧术影响（牧师一环法术，可逆转）一般，转身以最快速度逃离持杖者 <strong>6 轮</strong>。每次使用消耗 <strong>1 次充能</strong>。魔杖每轮最多使用一次，可以重新充能。
 
 #### 火焰魔杖 Wand of Fire
 
 此魔杖有 <strong>4</strong> 项能力，分别模拟下列魔法师法术：
 
-1. <strong>燃烧之手：</strong>魔杖射出扇形火焰，末端宽 <strong>10'</strong>、长 <strong>12'</strong>。被火焰触及的每个生物受到 <strong>6 点</strong>伤害。火焰在 <strong>1 segment</strong> 内出现、喷射，并于不到 <strong>1 秒</strong>后熄灭。消耗 <strong>1 charge</strong>。
-2. <strong>烟火术：</strong>此能力与同名法术完全相同，需 <strong>2 segments</strong> 启动，消耗 <strong>1 charge</strong>。
-3. <strong>火球术：</strong>魔杖射出一颗豌豆大小的炽焰法球，飞向指定距离（最远 <strong>16"</strong>）后爆炸，效果与以同名法术施放的火球术完全相同。需要 <strong>2 segments</strong>，消耗 <strong>2 charges</strong>。火球造成 <strong>6 颗六面骰</strong>的伤害，但所有 <strong>1 点</strong>均按 <strong>2 点</strong>计，即造成 <strong>12–36 点</strong>伤害。目标可进行对抗魔杖的豁免检定。
-4. <strong>火墙术：</strong>魔杖可划出一幅紫红色火焰帷幕，效果与魔法师施放的火墙术完全相同：形成面积为 <strong>12 平方尺</strong>（如 <strong>1" × 12'、2" × 6'、3" × 4'</strong>等）的火焰片，持续 <strong>6 轮</strong>；触碰者受到 <strong>8–18 点</strong>伤害（<strong>2d6+6</strong>）；距离火焰 <strong>1'</strong>以内者受到 <strong>2–8 点</strong>伤害，距离 <strong>2'</strong>以内者受到 <strong>1–4 点</strong>伤害。火焰还可围绕持杖者形成环形屏障（圆环直径仅 <strong>2½"</strong>）。此能力需 <strong>3 segments</strong>，消耗 <strong>2 charges</strong>。
+1. <strong>燃烧之手：</strong>魔杖射出扇形火焰，末端宽 <strong>10'</strong>、长 <strong>12'</strong>。被火焰触及的每个生物受到 <strong>6 点</strong>伤害。火焰在 <strong>1 节</strong>内出现、喷射，并于不到 <strong>1 秒</strong>后熄灭。消耗 <strong>1 次充能</strong>。
+2. <strong>烟火术：</strong>此能力与同名法术完全相同，需 <strong>2 节</strong>启动，消耗 <strong>1 次充能</strong>。
+3. <strong>火球术：</strong>魔杖射出一颗豌豆大小的炽焰法球，飞向指定距离（最远 <strong>16"</strong>）后爆炸，效果与以同名法术施放的火球术完全相同。需要 <strong>2 节</strong>，消耗 <strong>2 次充能</strong>。火球造成 <strong>6 颗六面骰</strong>的伤害，但所有 <strong>1 点</strong>均按 <strong>2 点</strong>计，即造成 <strong>12–36 点</strong>伤害。目标可进行对抗魔杖的豁免检定。
+4. <strong>火墙术：</strong>魔杖可划出一幅紫红色火焰帷幕，效果与魔法师施放的火墙术完全相同：形成面积为 <strong>12 平方尺</strong>（如 <strong>1" × 12'、2" × 6'、3" × 4'</strong>等）的火焰片，持续 <strong>6 轮</strong>；触碰者受到 <strong>8–18 点</strong>伤害（<strong>2d6+6</strong>）；距离火焰 <strong>1'</strong>以内者受到 <strong>2–8 点</strong>伤害，距离 <strong>2'</strong>以内者受到 <strong>1–4 点</strong>伤害。火焰还可围绕持杖者形成环形屏障（圆环直径仅 <strong>2½"</strong>）。此能力需 <strong>3 节</strong>，消耗 <strong>2 次充能</strong>。
 
 火焰魔杖每轮最多使用一次，可以重新充能。
 
@@ -1521,9 +1521,9 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 寒霜魔杖可施展 <strong>3</strong> 项模拟魔法师法术的能力：
 
-1. <strong>冰风暴：</strong>一道银色光线射出，在距持杖者不超过 <strong>6"</strong>处于 <strong>1 segment</strong> 内形成冰雹（或雨夹雪）风暴。消耗 <strong>1 charge</strong>。
-2. <strong>冰墙术：</strong>银色光线会形成一道厚 <strong>6 英寸</strong>、面积为 <strong>6 平方尺</strong>（如 <strong>1" × 6'、2" × 3'</strong>等）的冰墙，需 <strong>2 segments</strong>，消耗 <strong>1 charge</strong>。
-3. <strong>寒冷锥：</strong>跃动的白色晶粒从杖端喷出，形成长 <strong>6"</strong>、末端直径 <strong>2"</strong>的锥形寒流。寒流在 <strong>2 segments</strong> 内抵达，但仅持续 <strong>1 秒</strong>。温度为 <strong>−100°F</strong>；造成 <strong>6 颗六面骰</strong>伤害，所有 <strong>1 点</strong>均按 <strong>2 点</strong>计（<strong>6d6，12–36 点</strong>）。每次使用消耗 <strong>2 charges</strong>。目标可以进行对抗魔杖的豁免检定。
+1. <strong>冰风暴：</strong>一道银色光线射出，在距持杖者不超过 <strong>6"</strong>处于 <strong>1 节</strong>内形成冰雹（或雨夹雪）风暴。消耗 <strong>1 次充能</strong>。
+2. <strong>冰墙术：</strong>银色光线会形成一道厚 <strong>6 英寸</strong>、面积为 <strong>6 平方尺</strong>（如 <strong>1" × 6'、2" × 3'</strong>等）的冰墙，需 <strong>2 节</strong>，消耗 <strong>1 次充能</strong>。
+3. <strong>寒冷锥：</strong>跃动的白色晶粒从杖端喷出，形成长 <strong>6"</strong>、末端直径 <strong>2"</strong>的锥形寒流。寒流在 <strong>2 节</strong>内抵达，但仅持续 <strong>1 秒</strong>。温度为 <strong>−100°F</strong>；造成 <strong>6 颗六面骰</strong>伤害，所有 <strong>1 点</strong>均按 <strong>2 点</strong>计（<strong>6d6，12–36 点</strong>）。每次使用消耗 <strong>2 次充能</strong>。目标可以进行对抗魔杖的豁免检定。
 
 此魔杖每轮只能使用一次，可以重新充能。
 
@@ -1531,55 +1531,55 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 
 此魔杖有 <strong>4</strong> 项独立能力，其中 <strong>3</strong> 项接近魔法师法术，另 <strong>1</strong> 项为其独有：
 
-1. <strong>舞光术：</strong>在 <strong>1 segment</strong> 内产生该效果，消耗 <strong>1 charge</strong>。
-2. <strong>光亮术：</strong>照明魔杖在 <strong>2 segments</strong> 内射出光线，消耗 <strong>1 charge</strong>。
-3. <strong>恒定光亮术：</strong>施展此能力只需 <strong>2 segments</strong>，消耗 <strong>2 charges</strong>。
-4. <strong>日耀爆闪：</strong>魔杖发出突如其来的绿白色强光，带有耀眼的金色光芒。最大射程为 <strong>12"</strong>，持续时间仅 <strong>1/10 秒</strong>，影响区域为直径 <strong>4"</strong>的球体。球体内的所有不死生物受到 <strong>6–36 点</strong>伤害，且没有豁免检定。位于爆闪范围内或正对爆闪的生物必须通过对抗魔杖的豁免检定，否则目盲 <strong>2–12 segments</strong>，期间无法行动。（当然，相关生物必须具有能够感知可见光谱的视觉器官。）此能力需 <strong>3 segments</strong>，消耗 <strong>3 charges</strong>。
+1. <strong>舞光术：</strong>在 <strong>1 节</strong>内产生该效果，消耗 <strong>1 次充能</strong>。
+2. <strong>光亮术：</strong>照明魔杖在 <strong>2 节</strong>内射出光线，消耗 <strong>1 次充能</strong>。
+3. <strong>恒定光亮术：</strong>施展此能力只需 <strong>2 节</strong>，消耗 <strong>2 次充能</strong>。
+4. <strong>日耀爆闪：</strong>魔杖发出突如其来的绿白色强光，带有耀眼的金色光芒。最大射程为 <strong>12"</strong>，持续时间仅 <strong>1/10 秒</strong>，影响区域为直径 <strong>4"</strong>的球体。球体内的所有不死生物受到 <strong>6–36 点</strong>伤害，且没有豁免检定。位于爆闪范围内或正对爆闪的生物必须通过对抗魔杖的豁免检定，否则目盲 <strong>2–12 节</strong>，期间无法行动。（当然，相关生物必须具有能够感知可见光谱的视觉器官。）此能力需 <strong>3 节</strong>，消耗 <strong>3 次充能</strong>。
 
 此魔杖可以重新充能。
 
 #### 幻象魔杖 Wand of Illusion
 
-幻象魔杖可创造听觉与视觉幻象（参见“听觉幻象术”和“魅影之力”）。魔杖射出一道不可见光线，最大射程为 <strong>14"</strong>。幻象需 <strong>3 segments</strong>开始形成。持杖者必须集中精神维持幻象，但可以正常移动（不可近战），并在移动中继续专注。听觉或视觉部分每项均消耗 <strong>1 charge</strong>产生，并每持续 <strong>1 轮</strong>再消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
+幻象魔杖可创造听觉与视觉幻象（参见“听觉幻象术”和“魅影之力”）。魔杖射出一道不可见光线，最大射程为 <strong>14"</strong>。幻象需 <strong>3 节</strong>开始形成。持杖者必须集中精神维持幻象，但可以正常移动（不可近战），并在移动中继续专注。听觉或视觉部分每项均消耗 <strong>1 次充能</strong>产生，并每持续 <strong>1 轮</strong>再消耗 <strong>1 次充能</strong>。此魔杖可以重新充能。
 
 #### 闪电魔杖 Wand of Lightning
 
 此魔杖有 <strong>2</strong> 项能力，近似于魔法师法术：
 
-1. <strong>电击：</strong>近战命中时，目标受到 <strong>1–10 点</strong>伤害，无豁免检定。任何“命中”结果都会造成伤害，金属护甲与盾牌会降低伤害（对手视为护甲等级 <strong>10</strong>），但非金属护甲或木盾不会。针对金属护甲的魔法加值不影响护甲等级，不过防护戒指等物品仍有效。此能力消耗 <strong>1 charge</strong>。
-2. <strong>闪电束：</strong>持杖者可释放一道闪电，形态可以是分叉闪电或直线闪电（参见魔法师法术“闪电束”）。伤害为 <strong>12–36 点</strong>（<strong>6d6</strong>，所有 <strong>1 点</strong>按 <strong>2 点</strong>计），目标可进行豁免检定。此能力需 <strong>2 segments</strong>释放，消耗 <strong>2 charges</strong>。
+1. <strong>电击：</strong>近战命中时，目标受到 <strong>1–10 点</strong>伤害，无豁免检定。任何“命中”结果都会造成伤害，金属护甲与盾牌会降低伤害（对手视为护甲等级 <strong>10</strong>），但非金属护甲或木盾不会。针对金属护甲的魔法加值不影响护甲等级，不过防护戒指等物品仍有效。此能力消耗 <strong>1 次充能</strong>。
+2. <strong>闪电束：</strong>持杖者可释放一道闪电，形态可以是分叉闪电或直线闪电（参见魔法师法术“闪电束”）。伤害为 <strong>12–36 点</strong>（<strong>6d6</strong>，所有 <strong>1 点</strong>按 <strong>2 点</strong>计），目标可进行豁免检定。此能力需 <strong>2 节</strong>释放，消耗 <strong>2 次充能</strong>。
 
 此魔杖可以重新充能，每轮最多使用一项能力。
 
 #### 搜魔魔杖 Wand of Magic Detection
 
-此魔杖的运作方式与搜敌魔杖相似。若 <strong>3"</strong>范围内存在任何形式的魔法效应或魔法物品，魔杖会发出脉冲并指向最强的魔法源。注意，若某人曾施放法术，魔杖会指向此人。花费 <strong>1 回合</strong>专注于目标的光环，即可辨认魔法类别（防护、变化等）。每次使用消耗 <strong>1 charge</strong>。从连续使用的第 <strong>2 轮</strong>开始，魔杖每轮有 <strong>2%</strong> 的累积概率暂时失灵，并把非魔法物品误判为魔法物品，或反之。此魔杖可以重新充能。
+此魔杖的运作方式与搜敌魔杖相似。若 <strong>3"</strong>范围内存在任何形式的魔法效应或魔法物品，魔杖会发出脉冲并指向最强的魔法源。注意，若某人曾施放法术，魔杖会指向此人。花费 <strong>1 回合</strong>专注于目标的光环，即可辨认魔法类别（防护、变化等）。每次使用消耗 <strong>1 次充能</strong>。从连续使用的第 <strong>2 轮</strong>开始，魔杖每轮有 <strong>2%</strong> 的累积概率暂时失灵，并把非魔法物品误判为魔法物品，或反之。此魔杖可以重新充能。
 
 #### 金属与矿物侦测魔杖 Wand of Metal and Mineral Detection
 
-此魔杖的有效范围为半径 <strong>3"</strong>。它会发出脉冲并指向范围内最大的一团金属。持杖者也可专注于特定的金属或矿物（如金、铂、石英、绿柱石、钻石、刚玉等）；若范围内存在指定材质，魔杖就会指出其中一处或多处，并让持杖者大致知晓其数量。每次操作需 <strong>1 回合</strong>，每 <strong>1 charge</strong>可令魔杖运行整整 <strong>1 回合</strong>。此魔杖可以重新充能。
+此魔杖的有效范围为半径 <strong>3"</strong>。它会发出脉冲并指向范围内最大的一团金属。持杖者也可专注于特定的金属或矿物（如金、铂、石英、绿柱石、钻石、刚玉等）；若范围内存在指定材质，魔杖就会指出其中一处或多处，并让持杖者大致知晓其数量。每次操作需 <strong>1 回合</strong>，每 <strong>1 次充能</strong>可令魔杖运行整整 <strong>1 回合</strong>。此魔杖可以重新充能。
 
 #### 魔法飞弹魔杖 Wand of Magic Missiles
 
-此魔杖发射的魔法飞弹与魔法师一环法术“魔法飞弹”相似。每枚飞弹造成 <strong>2–5 点</strong>伤害。魔法师持用时，飞弹如同该法术一样必定命中目标；其他职业使用时，则需掷“命中”骰。每枚飞弹需要 <strong>3 segments</strong>发射，消耗 <strong>1 charge</strong>；每轮最多发射 <strong>2 枚</strong>。此魔杖可以重新充能。
+此魔杖发射的魔法飞弹与魔法师一环法术“魔法飞弹”相似。每枚飞弹造成 <strong>2–5 点</strong>伤害。魔法师持用时，飞弹如同该法术一样必定命中目标；其他职业使用时，则需掷“命中”骰。每枚飞弹需要 <strong>3 节</strong>发射，消耗 <strong>1 次充能</strong>；每轮最多发射 <strong>2 枚</strong>。此魔杖可以重新充能。
 
 #### 否定魔杖 Wand of Negation
 
-此装置可否定权杖、法杖、魔杖及其他魔法物品所施展的法术或类法术能力。持杖者须指向装置或个体，随后一道淡灰色光束射出并触及目标。这会完全否定任何魔杖能力，并有 <strong>75%</strong> 的概率否定其他装置的法术或类法术能力，不论其为低级法术还是超强法术。每轮仅需 <strong>1 segment</strong>即可启动；每轮只能发挥一次作用，每次否定消耗 <strong>1 charge</strong>。此魔杖不能重新充能。
+此装置可否定权杖、法杖、魔杖及其他魔法物品所施展的法术或类法术能力。持杖者须指向装置或个体，随后一道淡灰色光束射出并触及目标。这会完全否定任何魔杖能力，并有 <strong>75%</strong> 的概率否定其他装置的法术或类法术能力，不论其为低级法术还是超强法术。每轮仅需 <strong>1 节</strong>即可启动；每轮只能发挥一次作用，每次否定消耗 <strong>1 次充能</strong>。此魔杖不能重新充能。
 
 #### 麻痹魔杖 Wand of Paralyzation
 
-此魔杖会射出一道淡蓝色细光，最大射程为 <strong>6"</strong>。光线触及生物后，目标必须通过对抗魔杖的豁免检定，否则会僵直不动 <strong>5–20 轮</strong>。若豁免成功，说明光线未命中，不产生效果。每次操作需 <strong>3 segments</strong>，消耗 <strong>1 charge</strong>。此魔杖每轮最多使用一次，可以重新充能。（光线一旦触及一个生物便会停止，因此每轮只能攻击 <strong>1 个目标</strong>。）
+此魔杖会射出一道淡蓝色细光，最大射程为 <strong>6"</strong>。光线触及生物后，目标必须通过对抗魔杖的豁免检定，否则会僵直不动 <strong>5–20 轮</strong>。若豁免成功，说明光线未命中，不产生效果。每次操作需 <strong>3 节</strong>，消耗 <strong>1 次充能</strong>。此魔杖每轮最多使用一次，可以重新充能。（光线一旦触及一个生物便会停止，因此每轮只能攻击 <strong>1 个目标</strong>。）
 
 #### 变形魔杖 Wand of Polymorphing
 
 变形魔杖会射出一道绿色光束，细光线的最大射程为 <strong>6"</strong>。若光束触及生物，目标必须通过对抗魔杖的豁免检定（成功即表示未命中），否则会如同受到同名法术影响一般变形。持杖者可选择把受害者变成蜗牛、青蛙、昆虫等体型小、无害的生物。
 
-持有者也可选择将魔杖直接触碰某个生物。当持杖者如此做时（不愿接受者必须被命中，且仍有权进行豁免检定），目标会被翡翠色闪光环绕，继而变成持杖者指定的任何生物形态。这与“自我变形术”的魔法效果相同。两种能力都需 <strong>3 segments</strong>，每次消耗 <strong>1 charge</strong>。每轮只能使用一项能力。此魔杖可以重新充能。
+持有者也可选择将魔杖直接触碰某个生物。当持杖者如此做时（不愿接受者必须被命中，且仍有权进行豁免检定），目标会被翡翠色闪光环绕，继而变成持杖者指定的任何生物形态。这与“自我变形术”的魔法效果相同。两种能力都需 <strong>3 节</strong>，每次消耗 <strong>1 次充能</strong>。每轮只能使用一项能力。此魔杖可以重新充能。
 
 #### 暗门与陷阱探测魔杖 Wand of Secret Door and Trap Location
 
-此魔杖对密门的有效探测半径为 <strong>1½"</strong>，对陷阱则为 <strong>3"</strong>。启动后，它会发出脉冲并指向范围内的密门或陷阱。注意，一次操作只能定位其中一种，不能同时定位二者。启动需 <strong>1 回合</strong>并消耗 <strong>1 charge</strong>。此魔杖可以重新充能。
+此魔杖对密门的有效探测半径为 <strong>1½"</strong>，对陷阱则为 <strong>3"</strong>。启动后，它会发出脉冲并指向范围内的密门或陷阱。注意，一次操作只能定位其中一种，不能同时定位二者。启动需 <strong>1 回合</strong>并消耗 <strong>1 次充能</strong>。此魔杖可以重新充能。
 
 #### 惊异魔杖 Wand of Wonder
 
@@ -1607,7 +1607,7 @@ $ 这些戒指具有最强大的魔法能力；地下城主可规定其仅有有
 | 91–97 | 闪烁色彩在魔杖前方 <strong>4\" × 3\"</strong>区域内跃动；其中生物失明 <strong>1–6 轮</strong> |
 | 98–00 | 若目标位于 <strong>6\"</strong>内，使其由血肉变为石头（若目标是石头，则反向变回血肉） |
 
-魔杖每项能力均消耗 <strong>1 charge</strong>，且不能重新充能。适用时，目标应进行豁免检定。
+魔杖每项能力均消耗 <strong>1 次充能</strong>，且不能重新充能。适用时，目标应进行豁免检定。
 
 ### 杂项魔法物品 Miscellaneous Magic
 

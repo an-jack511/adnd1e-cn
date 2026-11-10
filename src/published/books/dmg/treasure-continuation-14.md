@@ -61,7 +61,7 @@
 
 <strong>1 名风暴巨人或火巨人 = 2 名霜巨人、石巨人或山丘巨人 = 3 名食人魔 = 4 名熊地精 = 6 名豺狼人 = 8 名人类 = 10 名精灵 = 12 名矮人 = 16 名侏儒或狗头人。</strong>
 
-绳子只需 <strong>1 segment</strong>便能射出，再用 <strong>1 segment</strong>缠住目标；发出命令也需 <strong>1 segment</strong>，整个过程共需 <strong>3 segments</strong>。不能徒手扯断纠缠绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。纠缠绳一旦被砍断便会彻底毁坏。
+绳子只需 <strong>1 段</strong>便能射出，再用 <strong>1 段</strong>缠住目标；发出命令也需 <strong>1 段</strong>，整个过程共需 <strong>3 段</strong>。不能徒手扯断纠缠绳，只能用刃器攻击。绳子的护甲等级为 <strong>AC −2</strong>，需造成 <strong>22 点伤害</strong>才能砍断；所有伤害必须由同一个生物造成，且不能是被缠住的目标。若伤害未达到 <strong>22 点</strong>，绳子会在 <strong>6 轮</strong>内自行修复。纠缠绳一旦被砍断便会彻底毁坏。
 
 <strong>注意：</strong>任何魔法绳一旦被破坏或割断，都会立即失去特殊能力。
 
@@ -83,7 +83,7 @@
 
 #### 激怒敌人圣甲虫 Scarab of Enraging Enemies
 
-展示这枚装置并说出命令语后，半径 <strong>4"</strong>内所有有智力的敌对生物都必须通过对抗魔法的豁免检定，否则便会陷入狂怒。通过检定者照常行动；陷入狂怒的敌人会进入狂暴状态，攻击最近的生物（甚至包括同伴），攻击检定获得 <strong>+1</strong>，伤害获得 <strong>+2</strong>，自身护甲等级受到 <strong>−3</strong> 惩罚。狂怒持续 <strong>7–12 轮</strong>。期间它们会持续攻击，不顾理由或恐惧；若最初的目标被杀死，就会转而攻击最近的其他生物。此圣甲虫有 <strong>19–24 charges</strong>。
+展示这枚装置并说出命令语后，半径 <strong>4"</strong>内所有有智力的敌对生物都必须通过对抗魔法的豁免检定，否则便会陷入狂怒。通过检定者照常行动；陷入狂怒的敌人会进入狂暴状态，攻击最近的生物（甚至包括同伴），攻击检定获得 <strong>+1</strong>，伤害获得 <strong>+2</strong>，自身护甲等级受到 <strong>−3</strong> 惩罚。狂怒持续 <strong>7–12 轮</strong>。期间它们会持续攻击，不顾理由或恐惧；若最初的目标被杀死，就会转而攻击最近的其他生物。此圣甲虫有 <strong>19–24 次充能</strong>。
 
 #### 疯狂圣甲虫 Scarab of Insanity
 
