@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-065.png–page-066.png; 原书印刷 pp. 65–66 -->
+<!-- source: OCR/ua-raw/pages/page-065.png–page-066.png; 原书印刷 铂金币. 65–66 -->
 
 # 幻术师专属小法术 Minor Illusion Cantrips
 

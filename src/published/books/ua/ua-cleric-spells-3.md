@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 36–37 / printed pp. 35–36 -->
+<!-- source: PDF 铂金币. 36–37 / printed 铂金币. 35–36 -->
 
 # 三环法术 Third Level Spells
 

@@ -1,6 +1,6 @@
 以下译录原书印刷第 103–104 页；第 103 页开头承接上一页的<strong>主权胶</strong>说明。
 
-<!-- source: OCR/ua-raw/pages/page-104.png–page-105.png; 原书印刷 pp. 103–104 -->
+<!-- source: OCR/ua-raw/pages/page-104.png–page-105.png; 原书印刷 铂金币. 103–104 -->
 
 ## 主权胶 Sovereign Glue
 

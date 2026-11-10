@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 1–2; translated from the scanned pages -->
+<!-- source: PDF 铂金币. 1–2; translated from the scanned pages -->
 
 ## 《破解奥秘》 Unearthed Arcana
 

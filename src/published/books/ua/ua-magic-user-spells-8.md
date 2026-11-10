@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-063.png–page-064.png; 原书印刷 pp. 63–64 -->
+<!-- source: OCR/ua-raw/pages/page-063.png–page-064.png; 原书印刷 铂金币. 63–64 -->
 
 # 魔法师八环法术 Eighth Level Spells
 

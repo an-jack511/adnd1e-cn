@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 7–8 / printed pp. 6–7 -->
+<!-- source: PDF 铂金币. 7–8 / printed 铂金币. 6–7 -->
 
 # 容貌 Comeliness
 

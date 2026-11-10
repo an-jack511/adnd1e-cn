@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-051.png–page-053.png; 原书印刷 pp. 51–53 -->
+<!-- source: OCR/ua-raw/pages/page-051.png–page-053.png; 原书印刷 铂金币. 51–53 -->
 
 # 魔法师一环法术 First Level Spells
 

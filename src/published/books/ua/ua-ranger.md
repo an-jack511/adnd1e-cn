@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 21–22 / printed pp. 20–21 -->
+<!-- source: PDF 铂金币. 21–22 / printed 铂金币. 20–21 -->
 
 # 巡林客 Ranger
 

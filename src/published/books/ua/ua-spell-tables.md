@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 29–31 / printed pp. 28–30 -->
+<!-- source: PDF 铂金币. 29–31 / printed 铂金币. 28–30 -->
 
 # 法术表 Spell Tables
 

@@ -35,7 +35,7 @@
 
 匪徒还俘虏了两名牧师，强迫他们为匪徒服务；高级牧师用死者施放活化死尸术制造了 30 具僵尸。
 
-<strong>牧师（0 级）：</strong> AC 8；移动 12"；HD 0；hp 4；法术：Bless、Cure Light Wounds×4、Slow Poison×5、Animate Dead×2。<strong>牧师（3 级）：</strong> WS 12；AC 2；移动 12"；HD 3；hp 15；无攻击；法术：Cure Light Wounds×2、Slow Poison。<strong>僵尸（30）：</strong> AC 8；移动 6"；HD 2；hp 12；#AT 1；伤害 1d8；THAC0 16；AL N。
+<strong>牧师（0 级）：</strong> AC 8；移动 12"；HD 0；hp 4；法术：祝福术、治疗轻伤×4、缓毒术×5、活化死尸×2。<strong>牧师（3 级）：</strong> WS 12；AC 2；移动 12"；HD 3；hp 15；无攻击；法术：治疗轻伤×2、缓毒术。<strong>僵尸（30）：</strong> AC 8；移动 6"；HD 2；hp 12；#AT 1；伤害 1d8；THAC0 16；AL N。
 
 若首领在近战中被牵制或离开看守，高级牧师会把僵尸派向匪徒，同时两名牧师逃向村庄；他们会解释自己是俘虏，被迫协助匪徒，并请求队伍保护，承诺把法术和僵尸交给队伍。二级匪徒装备长剑和短弓，其余匪徒装备长剑和弩。
 

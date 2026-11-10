@@ -57,7 +57,7 @@
 | MM | 每周 <strong>1 次</strong>植物交谈。 |
 | NN | 握住或佩戴并发出命令时获得“通晓语言”能力。 |
 | OO | 握住或佩戴时获得超视觉。 |
-| PP | 根据命令产生“腹语术”效果，每天 <strong>3 次</strong>。 |
+| 铂金币 | 根据命令产生“腹语术”效果，每天 <strong>3 次</strong>。 |
 | QQ | 根据命令获得水下呼吸能力。 |
 | RR | 获得水上行走能力。 |
 | SS | 穿戴者免疫“魅惑术”与“定身术”。 |
@@ -109,10 +109,10 @@
 | JJ | 每天 <strong>2 次</strong>与怪物交谈。 |
 | KK | 每天 <strong>1 次</strong>施展“化石为肉”。 |
 | LL | 每天 <strong>2 次</strong>施展“暗示术”。 |
-| MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000 gp</strong>重的物体。 |
+| MM | 每天 <strong>2 次</strong>施展“心灵遥控术”，可移动 <strong>1,000–6,000 金币</strong>重的物体。 |
 | NN | 每天 <strong>2 次</strong>施展“传送术”，不会出错。 |
 | OO | 每天 <strong>2 次</strong>施展“化石为泥”。 |
-| PP | 每天 <strong>1 次</strong>获得“真知术”。 |
+| 铂金币 | 每天 <strong>1 次</strong>获得“真知术”。 |
 | QQ | 每天 <strong>1 次</strong>施展“转木术”。 |
 | RR | 每天 <strong>2 次</strong>施展“造火墙术”。 |
 | SS | 每天 <strong>2 次</strong>施展“造冰墙术”。 |

@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-057.png–page-058.png; 原书印刷 pp. 56–58 -->
+<!-- source: OCR/ua-raw/pages/page-057.png–page-058.png; 原书印刷 铂金币. 56–58 -->
 
 # 魔法师四环法术 Fourth Level Spells
 

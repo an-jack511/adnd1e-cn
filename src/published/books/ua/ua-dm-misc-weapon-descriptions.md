@@ -1,6 +1,6 @@
 以下译录原书印刷第 105–107 页；本节承接杂项武器表 III.H.2。
 
-<!-- source: OCR/ua-raw/pages/page-106.png–page-108.png; 原书印刷 pp. 105–107 -->
+<!-- source: OCR/ua-raw/pages/page-106.png–page-108.png; 原书印刷 铂金币. 105–107 -->
 
 ## 投掷斧 Axe of Hurling
 

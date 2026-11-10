@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-085.png–page-086.png; 原书印刷 pp. 84–85 -->
+<!-- source: OCR/ua-raw/pages/page-085.png–page-086.png; 原书印刷 铂金币. 84–85 -->
 
 # 财宝：卷轴表 III.B 与 III.B.2 Scrolls
 

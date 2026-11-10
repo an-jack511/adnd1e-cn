@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 23–26 / printed pp. 22–25 -->
+<!-- source: PDF 铂金币. 23–26 / printed 铂金币. 22–25 -->
 
 # 杂技盗贼 Thief-Acrobat
 

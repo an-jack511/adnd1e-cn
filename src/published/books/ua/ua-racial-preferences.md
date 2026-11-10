@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 12–13 / printed pp. 11–12 -->
+<!-- source: PDF 铂金币. 12–13 / printed 铂金币. 11–12 -->
 
 # 种族偏好表 Racial Preferences Table
 

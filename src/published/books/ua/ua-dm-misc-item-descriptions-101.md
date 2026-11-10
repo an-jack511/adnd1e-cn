@@ -1,6 +1,6 @@
 以下依原书印刷第 101 页译录；贤者之石的说明延续至第 102 页。
 
-<!-- source: OCR/ua-raw/pages/page-102.png–page-103.png; 原书印刷 pp. 101–102 -->
+<!-- source: OCR/ua-raw/pages/page-102.png–page-103.png; 原书印刷 铂金币. 101–102 -->
 
 ## 霍华德便利袋 Heward’s Handy Haversack
 

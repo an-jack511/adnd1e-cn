@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-096.png–page-098.png; 原书印刷 pp. 95–97 -->
+<!-- source: OCR/ua-raw/pages/page-096.png–page-098.png; 原书印刷 铂金币. 95–97 -->
 
 以下依原书印刷第 95–97 页译录。
 

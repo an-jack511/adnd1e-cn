@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 13–14 / printed pp. 12–13 -->
+<!-- source: PDF 铂金币. 13–14 / printed 铂金币. 12–13 -->
 
 # 角色职业表 I：生命骰、法术能力与职业等级上限 Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit
 

@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 19–21 / printed pp. 18–20 -->
+<!-- source: PDF 铂金币. 19–21 / printed 铂金币. 18–20 -->
 
 # 野蛮人 Barbarian
 

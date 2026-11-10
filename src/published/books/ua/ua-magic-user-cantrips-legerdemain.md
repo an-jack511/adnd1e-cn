@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 48–49 / printed pp. 47–48 -->
+<!-- source: PDF 铂金币. 48–49 / printed 铂金币. 47–48 -->
 
 # 手法小法术 Legerdemain Cantrips
 

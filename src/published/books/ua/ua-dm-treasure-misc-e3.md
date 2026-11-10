@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-087.png–page-088.png; 原书印刷 pp. 86–87 -->
+<!-- source: OCR/ua-raw/pages/page-087.png–page-088.png; 原书印刷 铂金币. 86–87 -->
 
 # 财宝：杂项魔法物品表 III.E.3
 

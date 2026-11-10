@@ -5,7 +5,7 @@
 <strong>地形：</strong> 异界
 <strong>队伍总等级：</strong> 30（平均 6 级）
 <strong>魔法经验值总数：</strong> 8,800
-<strong>金币经验值总数：</strong> 500 gp（100 ch'ien）
+<strong>金币经验值总数：</strong> 500 金币（100 ch'ien）
 <strong>怪物经验值：</strong> 击杀 3,801；击败 2,851；撤退 950
 
 ## 引入

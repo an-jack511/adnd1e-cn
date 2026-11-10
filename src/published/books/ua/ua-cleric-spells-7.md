@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 41–42 / printed pp. 40–41 -->
+<!-- source: PDF 铂金币. 41–42 / printed 铂金币. 40–41 -->
 
 # 七环法术 Seventh Level Spells
 

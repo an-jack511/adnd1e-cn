@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-053.png–page-055.png; 原书印刷 pp. 53–55 -->
+<!-- source: OCR/ua-raw/pages/page-053.png–page-055.png; 原书印刷 铂金币. 53–55 -->
 
 # 魔法师二环法术 Second Level Spells
 

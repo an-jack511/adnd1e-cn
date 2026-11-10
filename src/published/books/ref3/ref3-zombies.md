@@ -16,7 +16,7 @@
 
 假修道院长热情迎接队伍，将其带进大房间；墙上有 20 个巨鹰栖木，看起来像塞满的标本。如果队伍有人受伤，魔法师会对他们施放解除疲劳，并称其为治疗法术。他说武僧发誓沉默，不会和队伍交谈；夜里听到的声音只是武僧去晚祷。
 
-<strong>幻术师/魔法师（12/9）：</strong> ST 8、IN 17、WI 7、CN 15、DX 16、CH 10、CM 10；AC 9；移动 12"；HD 10+2；hp 37；#AT 1；伤害取决于法术；阵营 CE。法术：Magic Missile（五次）、Stinking Cloud、Web、Hold Person、Slow、Polymorph Other、Two-color Spray、Blindness、Invisibility、Paralyzation、Shadow Monsters、Maze。
+<strong>幻术师/魔法师（12/9）：</strong> ST 8、IN 17、WI 7、CN 15、DX 16、CH 10、CM 10；AC 9；移动 12"；HD 10+2；hp 37；#AT 1；伤害取决于法术；阵营 CE。法术：魔法飞弹（五次）、臭云术、蛛网术、人类定身术、缓慢术、他塑形术、双色喷射、目盲术、隐形术、麻痹术、阴影怪物、迷宫术。
 
 <strong>僵尸巨鹰（25）：</strong> AC 9；移动 12"；HD 1；hp 3；#AT 1；伤害 1d6；THAC0 19。每五只一批从栖木飞下，只攻击一次后坠地，余下战斗无用；钝击武器造成一半伤害；免疫魅惑、寒冷、死亡、定身和睡眠，按食尸鬼处理，圣水造成 2d4；AL N。
 

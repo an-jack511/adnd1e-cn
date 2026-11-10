@@ -82,7 +82,7 @@
 
 <strong>特殊攻击（SA）</strong>描述龙息、魔法使用等生物特殊能力；<strong>特殊防御（SD）</strong>描述防御性魔法、伪装能力等必须计入战斗的能力；<strong>魔法抗性（MR）</strong>是生物能够忽略对其施放法术效果的百分比；<strong>阵营（AL）</strong>表示怪物的行为，是善是恶。
 
-<strong>gp.</strong> 表示金币；<strong>cp.</strong> 表示铜币；<strong>sp.</strong> 表示银币；<strong>ep.</strong> 表示电币；<strong>pp.</strong> 表示铂币。
+<strong>金币.</strong> 表示金币；<strong>铜币.</strong> 表示铜币；<strong>银币.</strong> 表示银币；<strong>电子币.</strong> 表示电币；<strong>铂金币.</strong> 表示铂币。
 
 ## 能力检定
 

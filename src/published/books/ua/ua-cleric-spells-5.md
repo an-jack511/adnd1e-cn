@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 40–41 / printed pp. 39–40 -->
+<!-- source: PDF 铂金币. 40–41 / printed 铂金币. 39–40 -->
 
 # 五环法术 Fifth Level Spells
 

@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-089.png–page-090.png; 原书印刷 pp. 88–89 -->
+<!-- source: OCR/ua-raw/pages/page-089.png–page-090.png; 原书印刷 铂金币. 88–89 -->
 
 # 财宝：剑表 III.G 与 III.G.2 Swords
 

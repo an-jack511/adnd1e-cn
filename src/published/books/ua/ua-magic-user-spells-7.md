@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-061.png–page-063.png; 原书印刷 pp. 61–63 -->
+<!-- source: OCR/ua-raw/pages/page-061.png–page-063.png; 原书印刷 铂金币. 61–63 -->
 
 # 魔法师七环法术 Seventh Level Spells
 

@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 27–29 / printed pp. 26–28 -->
+<!-- source: PDF 铂金币. 27–29 / printed 铂金币. 26–28 -->
 
 # 武器 Weapons
 

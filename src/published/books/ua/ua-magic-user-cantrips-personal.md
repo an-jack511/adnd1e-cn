@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 50–51 / printed pp. 49–50 -->
+<!-- source: PDF 铂金币. 50–51 / printed 铂金币. 49–50 -->
 
 # 个人小法术 Personal Cantrips
 

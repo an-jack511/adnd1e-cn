@@ -1,4 +1,4 @@
-<!-- source: PDF pp. 11–12 / printed pp. 10–11 -->
+<!-- source: PDF 铂金币. 11–12 / printed 铂金币. 10–11 -->
 
 # 精灵 Elves
 

@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-069.png–page-070.png; 原书印刷 pp. 69–70 -->
+<!-- source: OCR/ua-raw/pages/page-069.png–page-070.png; 原书印刷 铂金币. 69–70 -->
 
 # 幻术师五环法术 Fifth Level Spells
 

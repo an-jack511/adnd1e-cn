@@ -6,7 +6,7 @@
 
 <strong>队伍等级：</strong>45（平均九级）
 
-<strong>金币经验值：</strong>20,000 tael、500 ch’ien（12,500 gp）
+<strong>金币经验值：</strong>20,000 tael、500 ch’ien（12,500 金币）
 
 <strong>宝藏经验值：</strong>6,300
 

@@ -1,4 +1,4 @@
-<!-- source: OCR/ua-raw/pages/page-079.png–page-080.png; 原书印刷 pp. 79–80 -->
+<!-- source: OCR/ua-raw/pages/page-079.png–page-080.png; 原书印刷 铂金币. 79–80 -->
 
 # 魔法师法术书 Magic-User Spell Books
 
