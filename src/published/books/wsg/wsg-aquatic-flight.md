@@ -1,4 +1,3 @@
-<!-- strict retranslation from OCR and source scans: PDF pages 43–50 -->
 
 ## 流水的其他影响
 

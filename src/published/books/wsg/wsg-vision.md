@@ -1,4 +1,3 @@
-<!-- source: WSG scan PDF pages 73-76; strict retranslation from OCR and page images -->
 
 视觉能力是角色常常视为理所当然的东西，直到失去它。在荒野中，能看见远处并知道自己看见的是什么，可能决定角色能快速还是缓慢移动，谁能偷袭谁，甚至决定生死。
 

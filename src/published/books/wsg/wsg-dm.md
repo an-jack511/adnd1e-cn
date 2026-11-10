@@ -1,4 +1,3 @@
-<!-- source: PDF pages 103–107 (printed pages 102–106); OCR-first retranslation -->
 
 【印刷第 102 页为本节开篇的整页插图；无正文文字。】
 

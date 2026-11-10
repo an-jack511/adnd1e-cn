@@ -1,4 +1,3 @@
-<!-- strict retranslation from OCR and source scans: PDF pages 34–42 -->
 
 ## 特殊地形移动
 

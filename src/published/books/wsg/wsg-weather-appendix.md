@@ -1,4 +1,3 @@
-<!-- source: PDF pages 108–120 (printed pages 107–119); OCR-first retranslation -->
 
 ## 引言 Introduction
 

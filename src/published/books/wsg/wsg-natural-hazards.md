@@ -1,4 +1,3 @@
-<!-- source: WSG scan PDF pages 77-84; strict retranslation from OCR and page images -->
 
 ## 火山
 

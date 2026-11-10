@@ -1,4 +1,3 @@
-<!-- source: PDF pages 1–3; OCR-first retranslation -->
 
 ## 第 1 页：封面
 

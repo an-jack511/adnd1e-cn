@@ -1,4 +1,3 @@
-<!-- source: PDF pages 4–5; OCR-first retranslation -->
 
 ## 序言
 

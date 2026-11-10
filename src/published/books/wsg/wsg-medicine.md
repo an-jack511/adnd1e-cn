@@ -1,4 +1,3 @@
-<!-- source: WSG scan PDF pages 70-72; strict retranslation from OCR and page images -->
 
 在荒野的大多数地区，大自然已经提供了角色自救所需的手段，使他们在受伤或生病时仍有机会处理问题；但要利用这些好处，角色必须知道自己在寻找什么，并且能在找到后正确识别它。
 

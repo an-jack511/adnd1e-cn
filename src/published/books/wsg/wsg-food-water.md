@@ -1,4 +1,3 @@
-<!-- strict retranslation from OCR and source scans: PDF pages 51–61 -->
 
 战士不会因为没有武器而直接死亡；牧师没有圣徽仍能生存；魔法师也不会因为把法术书掉进无底洞而立即死去。但任何角色都不能在没有食物和水的情况下活太久。
 
