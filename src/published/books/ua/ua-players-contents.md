@@ -58,7 +58,7 @@
 - 杂技盗贼职能表 Thief-Acrobat Function Table——24
 - 杂技盗贼表 I／II／III／IV Thief-Acrobat Tables I–IV——23、25、25、25
 - 盗贼表 II Thieves Table II——22
-- 武器熟练表 Weapon Proficiency Table——26
+- 武器熟练项表 Weapon Proficiency Table——26
 - 战士与巡林客武器专精表 Weapon Specialization Table for Fighters and Rangers——18
 - 武器重量及分类伤害 Weapons, Weight and Damage by Type——26
 - 手持武器通用资料与命中调整 Weapons, Hand-held, General Data and “To Hit” Adjustments——27

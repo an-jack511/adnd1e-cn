@@ -72,7 +72,7 @@
 <LI>盗贼表 II：盗贼能力（含种族调整）　28</LI>
 <LI>典型刺杀费用　29</LI>
 <LI>典型雇工　39</LI>
-<LI>武器熟练表　37</LI>
+<LI>武器熟练项表　37</LI>
 <LI>武器类型、一般数据与命中调整　38</LI>
 <LI>&nbsp;&nbsp;&nbsp;&nbsp;手持武器　38</LI>
 <LI>&nbsp;&nbsp;&nbsp;&nbsp;投掷武器与射击武器　38</LI>
