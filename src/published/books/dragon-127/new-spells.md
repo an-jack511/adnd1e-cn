@@ -14,7 +14,7 @@ Arthur Collins · 第 63 页
 <strong>持续时间：</strong>1 回合/级<br>
 <strong>影响范围：</strong>1 条手臂、腿、尾、触手或翅膀<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>成功无效
 </div>
 

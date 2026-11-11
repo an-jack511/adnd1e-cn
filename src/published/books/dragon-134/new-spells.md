@@ -14,7 +14,7 @@ D.F. Fjellhaugen · 第 58 页
 <strong>持续时间：</strong>等待期 24 小时/级；恢复永久<br>
 <strong>影响范围：</strong>受触生物<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>7 施法时段<br>
+<strong>施法时间：</strong>7 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -38,7 +38,7 @@ D.F. Fjellhaugen · 第 58 页
 <strong>持续时间：</strong>等待期 48 小时/级；恢复永久<br>
 <strong>影响范围：</strong>受触生物<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>9 施法时段<br>
+<strong>施法时间：</strong>9 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

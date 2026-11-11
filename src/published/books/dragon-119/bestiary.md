@@ -88,7 +88,7 @@ Mark DeForest · 第 50 页
 
 受到攻击或激怒时，乐灵会唱第十三首歌。六十英尺内所有活物每轮都须以 −4 对法术豁免，失败就开始跳舞；只要歌曲继续，他们便持续跳下去，每跳一小时体质减少 1，降到 3 时失去意识。不会造成致命结果的伤害无法打断歌唱，堵耳也无效。只有已经学会前十二首歌的人，才能通过激怒乐灵学到这最后一首。
 
-除 25% 魔抗外，免疫睡眠、魅惑、定身和寒冷法术。可以随意使用动物交谈、植物交谈和动物友善，每日使用四次石言术。牧师驱散时按特殊不死生物处理。其形象可能是人类、精灵或半精灵，性别不限；传说它们是死去的吟游诗人或德鲁伊，但它们并不记得生前。
+除 25% 魔法抗性外，免疫睡眠、魅惑、定身和寒冷法术。可以随意使用动物交谈、植物交谈和动物友善，每日使用四次石言术。牧师驱散时按特殊不死生物处理。其形象可能是人类、精灵或半精灵，性别不限；传说它们是死去的吟游诗人或德鲁伊，但它们并不记得生前。
 
 ## 萨沙鲁斯 Sashalus
 
@@ -154,7 +154,7 @@ Samuel J. Offutt · 第 52、53 页
 
 Loran Wlodarski · 第 52、53 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极稀有</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>9，固定 55 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次拳击；或每回合发射一枚火种</td></tr><tr><th scope="row">伤害</th><td>拳击 2–24；火种依法术</td></tr><tr><th scope="row">特殊攻击</th><td>森林突袭；六枚火种</td></tr><tr><th scope="row">特殊防御</th><td>须 +2 武器；法术免疫</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无智慧</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L，高 8½ 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>常为林地</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极稀有</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>9，固定 55 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次拳击；或每轮发射一枚火种</td></tr><tr><th scope="row">伤害</th><td>拳击 2–24；火种依法术</td></tr><tr><th scope="row">特殊攻击</th><td>森林突袭；六枚火种</td></tr><tr><th scope="row">特殊防御</th><td>须 +2 武器；法术免疫</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无智慧</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L，高 8½ 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>常为林地</td></tr></tbody></table></div>
 
 木魔像一般由至少十三级德鲁伊制造；不足十三级时，每低一级有累积 10% 概率腐朽报废。必须持有木魔像手册，有手册后除材料外不再付制造费用；若能买到，手册价值 55,000–70,000金币，没有手册就不能开工。
 

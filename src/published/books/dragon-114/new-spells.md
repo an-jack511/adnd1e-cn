@@ -14,7 +14,7 @@ Bill Muhlhausen · 第 15、16 页
 <strong>持续时间：</strong>I：1d4+1 回合；II：1d6+4 回合<br>
 <strong>影响范围：</strong>I：5–8 名不高于三级；II：7–12 名不高于四级<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>I 为 1 时段；II 为 2 时段<br>
+<strong>施法时间：</strong>I 为 1 段；II 为 2 段<br>
 <strong>豁免检定：</strong>各自成功无效；领袖可先行抵消
 </div>
 
@@ -24,7 +24,7 @@ Bill Muhlhausen · 第 15、16 页
 
 若群体有领袖，以其魅力加 d8，比巫婆魅力高至少六点便能先抵消。未抵消时每个目标各自对法术豁免；超过人数上限优先较低等级者。同一遭遇已被此巫婆其他行为伤害者不受影响。
 
-至少需言语与姿势成分，材料由主持人决定。两环数版本分述于同一条目，不把第二版的限制覆盖到第一版。
+至少需言语与姿势成分，材料由主持人决定。两法术环级版本分述于同一条目，不把第二版的限制覆盖到第一版。
 
 ## *映像水晶（巫婆版） Vision Crystal*（原刊未列）
 
@@ -36,7 +36,7 @@ Bill Muhlhausen · 第 15、19 页
 <strong>持续时间：</strong>每完整 7 级 1 回合<br>
 <strong>影响范围：</strong>1 透明或反光物件，可窥视一次<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>6 施法时段<br>
+<strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>原刊未列
 </div>
 

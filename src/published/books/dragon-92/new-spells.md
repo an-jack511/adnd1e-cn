@@ -14,7 +14,7 @@ Ed Greenwood · 第 39 页
 <strong>持续时间：</strong>2 轮<br>
 <strong>影响范围：</strong>直径 2 英尺、长至多 7″ 火柱<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>指定目标无；扫过者减半
 </div>
 

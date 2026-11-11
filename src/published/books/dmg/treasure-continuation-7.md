@@ -2,7 +2,7 @@
 
 #### 魅惑镜片 Eyes of Charming
 
-此物由一对凸面水晶镜片构成，可戴在使用者双眼上。戴上后，穿戴者能够以目光魅惑他人。未通过对抗魔法豁免检定者会如同受到相应法术影响。每轮最多可注视 <strong>1 人</strong>。若穿戴者同时戴上两枚镜片，目标豁免检定受到 <strong>−2</strong> 惩罚；若只戴一枚，则穿戴者自身进行豁免检定时受到 <strong>+2</strong> 惩罚。
+此物由一对凸面水晶镜片构成，可戴在使用者双眼上。戴上后，穿戴者能够以目光魅惑他人。未通过对法术豁免检定者会如同受到相应法术影响。每轮最多可注视 <strong>1 人</strong>。若穿戴者同时戴上两枚镜片，目标豁免检定受到 <strong>−2</strong> 惩罚；若只戴一枚，则穿戴者自身进行豁免检定时受到 <strong>+2</strong> 惩罚。
 
 #### 鹰眼镜片 Eyes of the Eagle
 
@@ -46,7 +46,7 @@
 
 1. <strong>旅行山羊 Goat of Travailing：</strong>此雕像可变成一匹迅捷而耐力持久的坐骑，护甲等级 <strong>6</strong>，生命值 <strong>24 点</strong>，以双角发动 <strong>2 次</strong>攻击，每角造成 <strong>1–8 点</strong>伤害（视同 <strong>4 生命骰</strong>怪物）。它以 <strong>48"</strong>移动，可承载 <strong>280 磅</strong>或更少的重量；每超出 <strong>14 磅</strong>，速度降低 <strong>1"</strong>。每周最多旅行 <strong>1 天</strong>，可连续使用，也可分段使用，但总计不得超过 <strong>24 小时</strong>。时间用尽或有人说出命令语后，山羊会恢复小雕像形态；至少 <strong>1 天</strong>后才能再次使用。
 2. <strong>苦役山羊 Goat of Travail：</strong>奉命后，雕像会变成一只体型超过公牛的庞然大物，蹄子锋利（<strong>4–10／4–10</strong>），咬合凶猛（<strong>2–8</strong>），并长有一对巨角（<strong>2–12／2–12</strong>）。若冲锋攻击，只能使用双角，但每次命中额外造成 <strong>+6 点</strong>伤害，即每角造成 <strong>8–18 点</strong>。它护甲等级为 <strong>0</strong>，生命值 <strong>96 点</strong>，视同 <strong>16 生命骰</strong>怪物。每月只能召出一次，移动速度为 <strong>24"</strong>。
-3. <strong>恐怖山羊 Goat of Terror：</strong>说出正确命令语后，雕像会变成一只致命打击型怪物，移动速度 <strong>36"</strong>、护甲等级 <strong>2</strong>、生命值 <strong>48 点</strong>，本身不攻击。但骑乘者可把山羊的角当作武器：一角视同 <strong>+3 长矛</strong>，另一角视同 <strong>+6 长剑</strong>。对敌人发动攻击时，恐怖山羊会在半径 <strong>3"</strong>范围内散发恐惧；范围内的对手必须通过对抗魔法的豁免检定，否则力量减半，且“命中”检定至少受到 <strong>−3</strong> 惩罚。所有对手死亡或有人说出命令语后，山羊会恢复雕像形态。每 <strong>2 周</strong>可使用一次。三只山羊各使用 <strong>3 次</strong>后，都会永久失去魔力。
+3. <strong>恐怖山羊 Goat of Terror：</strong>说出正确命令语后，雕像会变成一只致命打击型怪物，移动速度 <strong>36"</strong>、护甲等级 <strong>2</strong>、生命值 <strong>48 点</strong>，本身不攻击。但骑乘者可把山羊的角当作武器：一角视同 <strong>+3 长矛</strong>，另一角视同 <strong>+6 长剑</strong>。对敌人发动攻击时，恐怖山羊会在半径 <strong>3"</strong>范围内散发恐惧；范围内的对手必须通过对法术的豁免检定，否则力量减半，且命中检定至少受到 <strong>−3</strong> 惩罚。所有对手死亡或有人说出命令语后，山羊会恢复雕像形态。每 <strong>2 周</strong>可使用一次。三只山羊各使用 <strong>3 次</strong>后，都会永久失去魔力。
 
 #### 大理石象 Marble Elephant
 

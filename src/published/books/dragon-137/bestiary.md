@@ -76,7 +76,7 @@ David Howery · 第 42、45 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>稀有</td></tr><tr><th scope="row">出现数量</th><td>1–4</td></tr><tr><th scope="row">护甲等级</th><td>2</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>7</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次尾击</td></tr><tr><th scope="row">伤害</th><td>3d4</td></tr><tr><th scope="row">特殊攻击</th><td>天然命中 20 时昏晕 1–3 轮</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>动物</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>新生代地形，见正文</td></tr></tbody></table></div>
 
-雕齿兽长约九英尺，外形像巨大犰狳，背部覆盖龟壳般的坚甲，长尾末端则是带刺的沉重骨球。它是和平的食草兽，遭挑衅时却很危险；尾击的天然命中骰为 20 时，目标还会昏晕 1–3 轮。
+雕齿兽长约九英尺，外形像巨大犰狳，背部覆盖龟壳般的坚甲，长尾末端则是带刺的沉重骨球。它是和平的食草兽，遭挑衅时却很危险；尾击的天然攻击骰为 20 时，目标还会昏晕 1–3 轮。
 
 ## 长颈驼兽 Macrauchenia
 

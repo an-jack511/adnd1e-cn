@@ -14,7 +14,7 @@ Ed Greenwood · 第 73 页
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>成功无效；反向也须检定
 </div>
 

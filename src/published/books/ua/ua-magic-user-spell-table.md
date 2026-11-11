@@ -2,7 +2,7 @@
 
 # 魔法师法术表 Magic-Users, Spells
 
-原书第 30–31 页的一至九环法术按编号逐项列出。*斜体*依原书标识本书另有详述的法术；第四环第 18 与第 20 行均印为 `Massmorph`，此处照录并标注待校勘。
+原书第 30–31 页的一至九环法术按编号逐项列出。*斜体*依原书标识本书另有详述的法术；第四环第 18 与第 20 行均印为 `Massmorph`，此处照录，并明确记录这一重复印刷。
 
 ## 一至五环
 
@@ -31,7 +31,7 @@
 | 21 | *熔化术 Melt* | 镜影术 Mirror Image | *马友夫微流星 Melf's Minute Meteor* | *欧提路克弹力法球 Otiluke's Resilient Sphere* | 魔邓肯忠犬 Mordenkainen's Faithful Hound |
 | 22 | 修复术 Mending | *保鲜术 Preserve* | 召唤怪物 I Monster Summoning I | 植物滋长 Plant Growth | 穿墙术 Passwall |
 | 23 | 短讯术 Message | *小法术防护 Protection From Cantrips* | 魅影之力 Phantasmal Force | 他塑形术 Polymorph Other | 短讯术 Sending |
-| 24 | *坐骑术 Mount* | 烟火术 Pyrotechnics | 防护邪恶（半径10尺） Protection From Evil 10' Radius | 自塑形术 Polymorph Self | 塑石术 Stone Shape |
+| 24 | *坐骑术 Mount* | 烟火术 Pyrotechnics | 防护邪恶（半径 10 尺） Protection From Evil 10' Radius | 自塑形术 Polymorph Self | 塑石术 Stone Shape |
 | 25 | 涅斯图魔法灵光 Nystul's Magic Aura | 衰弱射线 Ray of Enfeeblement | 防护普通飞弹 Protection From Normal Missiles | 拉瑞的记忆强化术 Rary's Mnemonic Enhancer | 心灵遥控 Telekinesis |
 | 26 | *降水术 Precipitation* | 魔绳术 Rope Trick | *秘密文页 Secret Page* | 移除诅咒 Remove Curse | 传送术 Teleport |
 | 27 | 防护邪恶 Protection From Evil | 恐吓术 Scare | *蛇纹法印 Sepia Snake Sigil* | *咆哮术 Shout* | 化石为泥 Transmute Rock To Mud |
@@ -49,7 +49,7 @@
 | 39 | *巫师印记 Wizard Mark* |  |  |  |  |
 | 40 | 书写术 Write |  |  |  |  |
 
-*校勘注：*原书第 30 页第四环第 18 与第 20 行重复印出 `Massmorph`；在找到可靠的原书勘误前，不擅自删改其中一行。
+*译校注：*原书第 30 页第四环第 18 与第 20 行重复印出 `Massmorph`；译文保留两行原文，不依据推测删改其中一行。
 
 ## 六至九环
 
@@ -62,10 +62,10 @@
 | 5 | 操控天气 Control Weather | 延迟爆裂火球 Delayed Blast Fireball | *强令术 Demand* | 异界之门 Gate |
 | 6 | 死亡术 Death Spell | 卓姆吉瞬间召唤 Drawmij's Instant Summons | 钢化玻璃 Glassteel | 禁锢术 Imprisonment |
 | 7 | 解离术 Disintegrate | 双重维度 Duo-Dimension | 焚云术 Incendiary Cloud | 流星爆 Meteor Swarm |
-| 8 | 附魔物品 Enchant Item | *力场监牢 Forcecage* | 群体魅惑 Mass Charm | 怪物召唤 VII Monster Summoning VII |
+| 8 | 附魔物品 Enchant Item | *力场监牢 Forcecage* | 群体魅惑 Mass Charm | 召唤怪物 VII Monster Summoning VII |
 | 9 | *陷捕术 Ensnarement* | 有限许愿术 Limited Wish | 迷宫术 Maze | *魔邓肯解离术 Mordenkainen's Disjunction* |
 | 10 | 延时术 III Extension III | 群体隐形 Mass Invisibility | 心灵屏障 Mind Blank | 律令：死亡 Power Word Kill |
-| 11 | *摄心目光 Eyebite* | 怪物召唤 V Monster Summoning V | 怪物召唤 VI Monster Summoning VI | 虹光法球 Prismatic Sphere |
+| 11 | *摄心目光 Eyebite* | 召唤怪物 V Monster Summoning V | 召唤怪物 VI Monster Summoning VI | 虹光法球 Prismatic Sphere |
 | 12 | 指使术 Geas | *魔邓肯豪宅术 Mordenkainen's Magnificent Mansion* | *欧提路克的念动力球 Otiluke's Telekinetic Sphere* | 形体变化 Shape Change |
 | 13 | 透材术 Glassee | 魔邓肯之剑 Mordenkainen's Sword | 奥图迷舞 Otto's Irresistible Dance | *救援术 Succor* |
 | 14 | 法术无效结界 Globe of Invulnerability | 相位门 Phase Door | 恒久术 Permanency | 时间静滞术 Temporal Stasis |

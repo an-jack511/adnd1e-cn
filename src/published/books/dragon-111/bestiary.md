@@ -12,7 +12,7 @@ Kent Colbath · 第 28 页
 
 多甲藻有厚甲片，只有鞭毛根部裸露（AC 9），但身体持续旋转，不能稳定瞄准，因此照表中 AC 攻击。甲片上的小孔各藏一枚刺丝，射出后数小时重新长好；旋转会不断把新的孔转向目标。小型有四十枚，按轻弩箭处理，短／中／远射程为 0–10／11–20／21–30 英尺；中型六十枚，射程 0–15／16–30／31–45 英尺；大型超过一百枚，射程 0–30／31–60／61–90 英尺。
 
-受击时必定闪光，也可能在生物靠近时主动闪光。10 英尺内须对法术豁免，失败失明 2–7 轮；另须对吐息豁免，计入敏捷加值，否则掉落手中武器。10–30 英尺处，对法术豁免失败者惊吓一轮，不能攻击，并再次检定是否掉落武器。中型使豁免 −1，大型使豁免 −2。每个细胞的闪光能力需要间隔 5–10 个轮才能再次使用。
+受击时必定闪光，也可能在生物靠近时主动闪光。10 英尺内须对法术豁免，失败失明 2–7 轮；另须对吐息豁免，计入敏捷加值，否则掉落手中武器。10–30 英尺处，对法术豁免失败者惊吓一轮，不能攻击，并再次检定是否掉落武器。中型使豁免 −1，大型使豁免 −2。每个细胞的闪光能力需要间隔 5–10 轮才能再次使用。
 
 它有两条使身体旋转推进的鞭毛。营养、光线或温度下降时能结合形成厚壁休眠囊，沉底数月乃至数年；环境恢复后再孵出。施法者可用寒冷或黑暗诱导包囊，以便离水搬运。它主要靠光合作用生存，长期黑暗会使其死亡或包囊。传说普罗蒂斯顿把宝物藏在一只大型多甲藻内，由八只中型及许多小型多甲藻和角藻围护，不断按复杂路线游动。
 
@@ -24,7 +24,7 @@ Kent Colbath · 第 28 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>1,000–4,000</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>1</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>0</td></tr><tr><th scope="row">伤害</th><td>0</td></tr><tr><th scope="row">特殊攻击</th><td>大量聚集产生麻痹毒素</td></tr><tr><th scope="row">特殊防御</th><td>闪光</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，约篮球大小</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>淡水、海水；有毒藻华只见营养丰富海水</td></tr></tbody></table></div>
 
-膝沟藻看似篮球大小的小型多甲藻，但不具可用于战斗的刺丝。它的闪光与小型多甲藻相同：10 英尺内对法术豁免失败失明 2–7 轮，并须另作计入敏捷的对吐息豁免，失败丢武器；10–30 英尺内，对法术豁免失败惊吓一轮、不能攻击，并再次判定是否丢武器。每个细胞的闪光能力需要间隔 5–10 个轮才能再次使用。
+膝沟藻看似篮球大小的小型多甲藻，但不具可用于战斗的刺丝。它的闪光与小型多甲藻相同：10 英尺内对法术豁免失败失明 2–7 轮，并须另作计入敏捷的对吐息豁免，失败丢武器；10–30 英尺内，对法术豁免失败惊吓一轮、不能攻击，并再次判定是否丢武器。每个细胞的闪光能力需要间隔 5–10 轮才能再次使用。
 
 单个细胞相对无害，但一千个以上形成藻华时，释放的毒素足以杀死无法离开的水生呼吸者，也会逐渐耗尽小水域中的氧气。毒使全身肌肉连同心脏和肺麻痹。毒性很弱，豁免掷出 2 就够，但身处其中每轮都须重掷，天然 1 无论其他条件如何都会失败，使无助的受害者在一轮内溺死。
 
@@ -46,7 +46,7 @@ Kent Colbath · 第 30 页
 
 夜光藻没有甲壳，也不能光合作用，靠触须捕食。普通缠绕不伤人，只有 d8 掷出 1、缠住喉咙时，造成 2–7 点伤害。吞入目标需要 3–5 轮，吞入后每轮造成 1d3 伤害，直到目标获救或被杀。它用短小鞭毛、挥动触须或抓住水底移动，大眼点只能分辨明暗。
 
-20 英尺内须以 −3 减值对法术豁免，失败失明 5–15 轮并自动掉落武器；成功也会惊吓一轮，并须另以敏捷修正对吐息豁免，失败掉落武器。20–80 英尺内以 −2 减值对法术豁免，失败惊吓两轮，另须检定是否丢武器。已吞入体内的人也会受闪光影响。每个细胞的闪光能力需要间隔 5–10 个轮才能再次使用。
+20 英尺内须以 −3 减值对法术豁免，失败失明 5–15 轮并自动掉落武器；成功也会惊吓一轮，并须另以敏捷修正对吐息豁免，失败掉落武器。20–80 英尺内以 −2 减值对法术豁免，失败惊吓两轮，另须检定是否丢武器。已吞入体内的人也会受闪光影响。每个细胞的闪光能力需要间隔 5–10 轮才能再次使用。
 
 它捕捉 AC 5 或更好目标时命中需要掷出 13 或更高，AC 6–8 需要 14 或更高，无甲者需要 15 或更高。盾牌使它的攻击 −1，但攻击失明者额外 +3，惊吓者额外 +2。
 
@@ -82,7 +82,7 @@ Kent Colbath · 第 32 页
 
 Kent Colbath · 第 32 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>5–20</td></tr><tr><th scope="row">护甲等级</th><td>3–4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>三次触丝攻击；正文另述每回合三次</td></tr><tr><th scope="row">伤害</th><td>1 HD 为 1；2 HD 为 1d2；3 HD 为 1d3</td></tr><tr><th scope="row">特殊攻击</th><td>重甲按 AC 5 处理</td></tr><tr><th scope="row">特殊防御</th><td>触丝受伤不损本体</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>温暖或寒冷海域的浅海沙底</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>5–20</td></tr><tr><th scope="row">护甲等级</th><td>3–4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>三次触丝攻击；正文另述每轮三次</td></tr><tr><th scope="row">伤害</th><td>1 HD 为 1；2 HD 为 1d2；3 HD 为 1d3</td></tr><tr><th scope="row">特殊攻击</th><td>重甲按 AC 5 处理</td></tr><tr><th scope="row">特殊防御</th><td>触丝受伤不损本体</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>温暖或寒冷海域的浅海沙底</td></tr></tbody></table></div>
 
 这种有孔虫带着多室外壳，越大的个体壳室越多，AC 也相应变化。它主要在海底食腐，壳体基本停在原地，以穿过壳孔的细长伪足把食物拉回。每次新攻击都须重新判定命中，伤害依生命骰为 1、1d2 或 1d3。统计栏列三次攻击，正文则写每回合三次，原刊两处并不一致。
 
@@ -92,11 +92,11 @@ Kent Colbath · 第 32 页
 
 Kent Colbath · 第 32、34 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>稀有</td></tr><tr><th scope="row">出现数量</th><td>10–60</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>0″；可缓慢升沉</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>刺丝每回合三次</td></tr><tr><th scope="row">伤害</th><td>尖刺 1d4；刺丝 1d2</td></tr><tr><th scope="row">特殊攻击</th><td>尖刺与黏困</td></tr><tr><th scope="row">特殊防御</th><td>长刺阻挡近身攻击</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>中央壳直径 3 英尺，连刺总直径 15 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>较深开阔海水，偶漂入港口</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>稀有</td></tr><tr><th scope="row">出现数量</th><td>10–60</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>0″；可缓慢升沉</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>刺丝每轮三次</td></tr><tr><th scope="row">伤害</th><td>尖刺 1d4；刺丝 1d2</td></tr><tr><th scope="row">特殊攻击</th><td>尖刺与黏困</td></tr><tr><th scope="row">特殊防御</th><td>长刺阻挡近身攻击</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>中央壳直径 3 英尺，连刺总直径 15 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>较深开阔海水，偶漂入港口</td></tr></tbody></table></div>
 
 球房有孔虫不能主动游动，只能随水漂流并缓慢升沉。同群常分布在不同深度，像一片浮雷，夜间尤其危险。小型螺旋壳四周伸出长而尖锐的刺；除长骑枪或飞射武器外，攻击者通常先受 1d4 刺伤，仍够不到中央壳体，除非先冒险折断长刺。
 
-猎物撞上时先受 1d4 伤害，再遭细丝攻击；命中额外造成 1d2，并使其困在长刺和细丝中。之后每回合可攻击三次，对受困目标命中 +2。逃脱须以 −4 减值对麻痹豁免。
+猎物撞上时先受 1d4 伤害，再遭细丝攻击；命中额外造成 1d2，并使其困在长刺和细丝中。之后每轮可攻击三次，对受困目标命中 +2。逃脱须以 −4 减值对麻痹豁免。
 
 ## 网柄黏菌 Dictyostelium
 

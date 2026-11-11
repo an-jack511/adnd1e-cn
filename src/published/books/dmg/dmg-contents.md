@@ -51,7 +51,7 @@
 - 护甲、护甲等级与武器 Armor, Armor Class, and Weapons
   - 护甲类型与负重 Types of Armor and Encumbrance
   - 敏捷带来的护甲等级加值 Dexterity Armor Class Bonus
-  - 武器类型与命中调整说明 Weapon Types, “To Hit” Adjustment Note
+  - 武器类型与命中修正说明 Weapon Types, “To Hit” Adjustment Note
 - 受雇者 Hirelings
 - 随从 Henchmen
 - 时间 Time

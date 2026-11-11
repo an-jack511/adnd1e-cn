@@ -14,7 +14,7 @@ Harold Dolan · 第 37 页
 <strong>持续时间：</strong>至触发一次；可配合恒定术<br>
 <strong>影响范围：</strong>1 物件；喷火锥长 15、尖端径 1、底径 10 英尺<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>减半
 </div>
 

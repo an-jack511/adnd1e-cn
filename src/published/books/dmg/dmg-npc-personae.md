@@ -257,7 +257,7 @@
 
 ## 非玩家角色遭遇／提议反应调整 Non-Player Character Encounter/Offer Reaction Adjustments
 
-以下为 NPC 遭遇或提出雇用等提议时的反应修正幅度。
+以下为 NPC 遭遇或提出雇用等提议时的反应调整幅度。
 
 | 特征类别 | 结果 | 反应调整 |
 |:---:|:---:|:---:|

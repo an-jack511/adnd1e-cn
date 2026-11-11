@@ -6,7 +6,7 @@
 
 修贤者通过清洁心灵的冥想准备法术，每日至少冥想 6 小时。冥想结束时选择当天使用的法术；法术施展后即被遗忘，直到再次整理心智。违背宗教、滥用反转法术或拒绝向需要帮助者提供服务，可能导致宗派失望、失去等级或经验，严重时改变阵营，后果由地下城主裁定。
 
-每个法术条目包括：<strong>范围</strong>（以英寸表示，取决于场景代表英尺或码；“接触”表示施法者必须碰触目标）、<strong>持续时间</strong>、<strong>作用范围</strong>、<strong>成分</strong>（V 言语、S 姿势、M 材料）、<strong>施法时间</strong>和<strong>豁免</strong>。对不情愿的接触目标须进行未调整的命中检定；失败时法术仍被消耗但效果浪费。持续时间为永久时，除非其他力量移除，否则一直有效；“瞬间”表示几乎无法躲避的一闪即逝效果。每轮 10 个时段，每回合 10 轮。
+每个法术条目包括：<strong>范围</strong>（以英寸表示，取决于场景代表英尺或码；“接触”表示施法者必须碰触目标）、<strong>持续时间</strong>、<strong>作用范围</strong>、<strong>成分</strong>（V 言语、S 姿势、M 材料）、<strong>施法时间</strong>和<strong>豁免</strong>。对不情愿的接触目标须进行未调整的命中检定；失败时法术仍被消耗但效果浪费。持续时间为永久时，除非其他力量移除，否则一直有效；“瞬间”表示几乎无法躲避的一闪即逝效果。每轮 10 段，每回合 10 轮。
 
 ## 表 62：修贤者法术
 
@@ -86,7 +86,7 @@
 <strong>持续时间：</strong>每等级 2 回合；<br>
 <strong>影响范围：</strong>每等级半径 1 英寸；<br>
 <strong>成分：</strong>V；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -114,7 +114,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>每等级一枚生命骰的生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>2 个时段；<br>
+<strong>施法时间：</strong>2 段；<br>
 <strong>豁免检定：</strong>neg.</div>
 
 
@@ -128,7 +128,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>被接触的角色；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -176,7 +176,7 @@
 
 ### 侦测毒素 Detect Poison
 
-目标为一件物品或一名生物。每轮只能检查一个物品，大区域可能需要多个回合。材料是冬青枝。
+目标为一件物品或一名生物。每轮只能检查一个物品，大区域可能需要多回合。材料是冬青枝。
 
 ### 占卜杖 Divining Rod
 
@@ -264,11 +264,11 @@
 <strong>持续时间：</strong>特殊；<br>
 <strong>影响范围：</strong>特殊；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
-施法者建立催眠图样，使一条或多条蛇停止一切行动，只保持半直立、摇摆的姿势。若蛇处于休眠状态，持续 3–6 回合；若蛇清醒但未攻击，持续 1–3 回合；若蛇愤怒或正在攻击，持续 5–8 个轮。可影响蛇的总生命值等于施法者当前生命值，可由一条蛇或多条蛇共同占用。
+施法者建立催眠图样，使一条或多条蛇停止一切行动，只保持半直立、摇摆的姿势。若蛇处于休眠状态，持续 3–6 回合；若蛇清醒但未攻击，持续 1–3 回合；若蛇愤怒或正在攻击，持续 5–8 轮。可影响蛇的总生命值等于施法者当前生命值，可由一条蛇或多条蛇共同占用。
 
 ### 恍惚 Trance（预言）
 
@@ -308,7 +308,7 @@
 <strong>持续时间：</strong>1 轮 + 每等级 1 轮；<br>
 <strong>影响范围：</strong>一人；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>4 个时段；<br>
+<strong>施法时间：</strong>4 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -396,7 +396,7 @@
 <strong>豁免检定：</strong>无</div>
 
 
-施法者陷入深睡，精神投射到希望观察的地点。梦中能看见并听见当时正在发生的事，梦魂可以正常移动并穿过固体，却不能进入受任何阵营防护法术守卫的区域，也听不见其中声音。梦魂每轮最多移动 36 英寸，并在下一轮观察；法术结束时自动返回。若肉身在梦魂返回前受到干扰，施法者必须作对抗死亡的豁免；成功则安全返回，失败则肉身进入深度紧张状态，梦魂不能自行归位。其他修贤者可以用“梦视”引导迷失的梦魂返回。梦魂在法术期间视为次等灵体，可被灵体法术强迫回答、被灵体隐形遮蔽，也可能被“重击”摧毁；梦魂被摧毁时肉身陷入昏迷，只能由死者复活、复活、有限许愿术或祈愿解除。材料是一根价值至少 1 ch'ien 的香。
+施法者陷入深睡，精神投射到希望观察的地点。梦中能看见并听见当时正在发生的事，梦魂可以正常移动并穿过固体，却不能进入受任何阵营防护法术守卫的区域，也听不见其中声音。梦魂每轮最多移动 36 英寸，并在下一轮观察；法术结束时自动返回。若肉身在梦魂返回前受到干扰，施法者必须作对死亡魔法豁免；成功则安全返回，失败则肉身进入深度紧张状态，梦魂不能自行归位。其他修贤者可以用“梦视”引导迷失的梦魂返回。梦魂在法术期间视为次等灵体，可被灵体法术强迫回答、被灵体隐形遮蔽，也可能被“重击”摧毁；梦魂被摧毁时肉身陷入昏迷，只能由死者复活、复活、有限许愿术或祈愿解除。材料是一根价值至少 1 ch'ien 的香。
 
 ### 注目术 Enthrall（附魔/魅惑）
 
@@ -420,7 +420,7 @@
 <strong>持续时间：</strong>4 回合 + 每等级 1 回合；<br>
 <strong>影响范围：</strong>一至三名生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>neg.</div>
 
 
@@ -476,7 +476,7 @@
 <strong>持续时间：</strong>每等级 4 回合；<br>
 <strong>影响范围：</strong>每等级 1 立方英寸；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>4 个时段；<br>
+<strong>施法时间：</strong>4 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -494,7 +494,7 @@
 <strong>豁免检定：</strong>特殊</div>
 
 
-在目标周围形成不可见屏障，阻止大多数灵体进入圆圈。次等灵体不能进入，但仍可向圈内发射飞弹或魔法；次等灵体命中 −2，圈内角色对这类攻击的豁免获得 +1。高等灵体若成功通过对抗死亡的豁免可以进入；每个高等灵体只有一次机会，失败后不能突破屏障，并且命中 −1，圈内角色对其魔法攻击豁免 +2。材料是带纸质祷条的银杏木杖。
+在目标周围形成不可见屏障，阻止大多数灵体进入圆圈。次等灵体不能进入，但仍可向圈内发射飞弹或魔法；次等灵体命中 −2，圈内角色对这类攻击的豁免获得 +1。高等灵体若成功通过对死亡魔法豁免可以进入；每个高等灵体只有一次机会，失败后不能突破屏障，并且命中 −1，圈内角色对其魔法攻击豁免 +2。材料是带纸质祷条的银杏木杖。
 
 ### 请求 Request（防护）
 
@@ -518,7 +518,7 @@
 <strong>持续时间：</strong>每等级 1 小时；<br>
 <strong>影响范围：</strong>接触的生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -546,7 +546,7 @@
 <strong>持续时间：</strong>每等级 2 回合；<br>
 <strong>影响范围：</strong>施法者 3 英寸内一只动物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -560,7 +560,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>半径 10 英尺；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>2 个时段；<br>
+<strong>施法时间：</strong>2 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -574,11 +574,11 @@
 <strong>持续时间：</strong>特殊；<br>
 <strong>影响范围：</strong>施法者；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>3 个时段；<br>
+<strong>施法时间：</strong>3 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
-改变时间流速，使外界 1 个时段等于修贤者主观上的 1 回合。持续时间为 2 个外界时段加上每等级 1 个时段。退隐期间可以阅读、思考、冥想、施放预兆等信息类法术，或只治疗自己；行走、隐形或治疗他人都会终止法术。材料是一张米纸小卷。
+改变时间流速，使外界 1 段等于修贤者主观上的 1 回合。持续时间为 2 个外界时段加上每等级 1 段。退隐期间可以阅读、思考、冥想、施放预兆等信息类法术，或只治疗自己；行走、隐形或治疗他人都会终止法术。材料是一张米纸小卷。
 
 ## 三环法术正文（原书第 62–65 页）
 
@@ -590,11 +590,11 @@
 <strong>持续时间：</strong>瞬间；<br>
 <strong>影响范围：</strong>半径 2 英寸；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>3 个时段；<br>
+<strong>施法时间：</strong>3 段；<br>
 <strong>豁免检定：</strong>特殊</div>
 
 
-向敌人发出带有力量的斥责。与修贤者阵营完全相同的目标若豁免失败，耳聋 1–3 个轮；与施法者相差一个阵营要素的目标受每等级 1 点伤害，成功豁免减半；两个阵营要素都不同的目标受每等级 1d4 点伤害，成功豁免减半。材料是修贤者的圣徽。
+向敌人发出带有力量的斥责。与修贤者阵营完全相同的目标若豁免失败，耳聋 1–3 轮；与施法者相差一个阵营要素的目标受每等级 1 点伤害，成功豁免减半；两个阵营要素都不同的目标受每等级 1d4 点伤害，成功豁免减半。材料是修贤者的圣徽。
 
 ### 治疗失明 Cure Blindness（防护，可反转）
 
@@ -632,7 +632,7 @@
 <strong>持续时间：</strong>每等级 1 小时；<br>
 <strong>影响范围：</strong>一名人类或半人类；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -660,7 +660,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>3 英寸立方体；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>6 个时段；<br>
+<strong>施法时间：</strong>6 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -702,7 +702,7 @@
 <strong>持续时间：</strong>1 回合 + 每等级 1 回合；<br>
 <strong>影响范围：</strong>特殊；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -734,7 +734,7 @@
 <strong>豁免检定：</strong>无</div>
 
 
-读取一名人类或非人类的精确阵营。反转的“遮蔽阵营”可遮蔽一名生物 1 回合，或两名生物 5 个时段，依此类推。
+读取一名人类或非人类的精确阵营。反转的“遮蔽阵营”可遮蔽一名生物 1 回合，或两名生物 5 段，依此类推。
 
 ### 浮空术 Levitate（变化）
 
@@ -744,7 +744,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>特殊；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>2 个时段；<br>
+<strong>施法时间：</strong>2 段；<br>
 <strong>豁免检定：</strong>neg.</div>
 
 
@@ -800,7 +800,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>半径 6 英寸；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>6 个时段；<br>
+<strong>施法时间：</strong>6 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -814,7 +814,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>特殊；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>6 个时段；<br>
+<strong>施法时间：</strong>6 段；<br>
 <strong>豁免检定：</strong>特殊</div>
 
 
@@ -828,11 +828,11 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>2×2 英寸内 1–4 名生物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>6 个时段；<br>
+<strong>施法时间：</strong>6 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
-解除目标的麻痹与定身效果，使其重新获得一次对抗麻痹的豁免；一名目标时豁免 +3，两名目标时 −2，三或四名目标时 +1。反转的“造成麻痹”必须以圣徽触碰一名目标，使其麻痹 1d6 回合 + 每等级 1 回合。
+解除目标的麻痹与定身效果，使其重新获得一次对麻痹豁免；一名目标时豁免 +3，两名目标时 −2，三或四名目标时 +1。反转的“造成麻痹”必须以圣徽触碰一名目标，使其麻痹 1d6 回合 + 每等级 1 回合。
 
 ### 死者交谈 Speak with Dead（死灵）
 
@@ -878,7 +878,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>接触的生物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>7 个时段；<br>
+<strong>施法时间：</strong>7 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -910,7 +910,7 @@
 <strong>持续时间：</strong>永久；<br>
 <strong>影响范围：</strong>一名生物或一件物品；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>1–100 个时段 + 回合；<br>
+<strong>施法时间：</strong>1–100 段 + 回合；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -952,7 +952,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>半径 8 英寸，每等级一名生物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>4 个时段；<br>
+<strong>施法时间：</strong>4 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -980,13 +980,13 @@
 <strong>持续时间：</strong>每等级 2 回合；<br>
 <strong>影响范围：</strong>施法者；<br>
 <strong>成分：</strong>V；<br>
-<strong>施法时间：</strong>3 个时段；<br>
+<strong>施法时间：</strong>3 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
-变成任意生物，从小鸟到大型马匹均可；不需系统冲击检定，只获得外形和移动方式，不获得特殊攻击、魔法能力等。持续期间可以任意改变形态，每次需要 5 个时段；变形后的形体受伤会伤害修贤者，恢复人形时恢复 1d12 点生命值。
+变成任意生物，从小鸟到大型马匹均可；不需系统冲击检定，只获得外形和移动方式，不获得特殊攻击、魔法能力等。持续期间可以任意改变形态，每次需要 5 段；变形后的形体受伤会伤害修贤者，恢复人形时恢复 1d12 点生命值。
 
-### 防护邪恶（10尺半径） Protection from Evil, 10' Radius（防护，可反转）
+### 防护邪恶（半径 10 尺） Protection from Evil, 10' Radius（防护，可反转）
 
 <strong>等级：</strong>4；<strong>范围：</strong>接触；<strong>持续时间：</strong>每等级 1 回合；<strong>作用范围：</strong>直径 20 英尺圆；<strong>成分：</strong>V、S、M；<strong>豁免：</strong>无。
 
@@ -1090,7 +1090,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>直径 6 英尺圆；<br>
 <strong>成分：</strong>V；<br>
-<strong>施法时间：</strong>7 个时段；<br>
+<strong>施法时间：</strong>7 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1106,7 +1106,7 @@
 <strong>持续时间：</strong>瞬间；<br>
 <strong>影响范围：</strong>一名生物；<br>
 <strong>成分：</strong>V；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>neg.</div>
 
 
@@ -1120,7 +1120,7 @@
 <strong>持续时间：</strong>6 回合 + 每等级 1 回合；<br>
 <strong>影响范围：</strong>一名不超过巨人大小的生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1182,7 +1182,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>接触的生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>5 个时段；<br>
+<strong>施法时间：</strong>5 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1220,7 +1220,7 @@
 <strong>豁免检定：</strong>特殊</div>
 
 
-可恢复因失忆、附身、遗忘等失去的全部记忆。另一种用法让目标获得前世作为他人或动物的有限记忆，目标必须通过对抗死亡的豁免；信息可用于追溯远古事件、地点和物品，具体能否得到有用信息由地下城主决定。反转的“遗忘过去”使目标每个修贤者等级失去一天记忆，从最近的事件开始，但不会遗忘已准备法术；目标可作法术豁免。所有形式的材料是一面金属镜。
+可恢复因失忆、附身、遗忘等失去的全部记忆。另一种用法让目标获得前世作为他人或动物的有限记忆，目标必须通过对死亡魔法豁免；信息可用于追溯远古事件、地点和物品，具体能否得到有用信息由地下城主决定。反转的“遗忘过去”使目标每个修贤者等级失去一天记忆，从最近的事件开始，但不会遗忘已准备法术；目标可作法术豁免。所有形式的材料是一面金属镜。
 
 ### 力量 Strength（变化）
 
@@ -1244,7 +1244,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>视野 12 英寸；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>8 个时段；<br>
+<strong>施法时间：</strong>8 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1274,7 +1274,7 @@
 <strong>持续时间：</strong>瞬间；<br>
 <strong>影响范围：</strong>每等级一名生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>1/2</div>
 
 
@@ -1302,7 +1302,7 @@
 <strong>持续时间：</strong>每 3 个等级 1 回合；<br>
 <strong>影响范围：</strong>接触的生物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1334,7 +1334,7 @@
 <strong>豁免检定：</strong>neg.</div>
 
 
-以极强的演说能力讲述宗教教义。施法期间修贤者视为魅力 18，听众必须作对抗死亡的豁免；失败者理解教义并成为信徒，掷出 1 的人会提供土地、建造神殿或其他特殊帮助。一旦某人对同一修贤者成功豁免，之后不再受其“教导”影响。
+以极强的演说能力讲述宗教教义。施法期间修贤者视为魅力 18，听众必须作对死亡魔法豁免；失败者理解教义并成为信徒，掷出 1 的人会提供土地、建造神殿或其他特殊帮助。一旦某人对同一修贤者成功豁免，之后不再受其“教导”影响。
 
 ### 对敌人隐形 Invisibility to Enemies（幻术/幻象）
 
@@ -1382,7 +1382,7 @@
 <strong>豁免检定：</strong>无</div>
 
 
-加速植物滋长，使其反季节长叶、开花和结果；最多可把自然生长时间提前每施法者等级 1 个月。反转的“枯萎”使普通植物自动枯死，植物类生物可作对抗死亡的豁免。材料是修贤者法杖。
+加速植物滋长，使其反季节长叶、开花和结果；最多可把自然生长时间提前每施法者等级 1 个月。反转的“枯萎”使普通植物自动枯死，植物类生物可作对死亡魔法豁免。材料是修贤者法杖。
 
 ### 重击 Smite（塑能）
 
@@ -1392,11 +1392,11 @@
 <strong>持续时间：</strong>瞬间；<br>
 <strong>影响范围：</strong>2×2 英寸区域；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>1/2</div>
 
 
-范围内所有生物作对抗死亡的豁免。失败者受 2d10 伤害，并同时失明、患病；成功者受 1d10 伤害并暂时失明 1d6 回合。材料是修贤者圣徽。
+范围内所有生物作对死亡魔法豁免。失败者受 2d10 伤害，并同时失明、患病；成功者受 1d10 伤害并暂时失明 1d6 回合。材料是修贤者圣徽。
 
 ### 与怪物交谈 Speak with Monsters（变化）
 
@@ -1406,7 +1406,7 @@
 <strong>持续时间：</strong>每等级 1 回合；<br>
 <strong>影响范围：</strong>一类生物；<br>
 <strong>成分：</strong>V、S；<br>
-<strong>施法时间：</strong>9 个时段；<br>
+<strong>施法时间：</strong>9 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1454,7 +1454,7 @@
 <strong>豁免检定：</strong>neg.</div>
 
 
-要求目标改变阵营和行为。目标作对抗死亡的豁免：低于修贤者等级者 −4；等级相同至高出 50% 者正常；高出 50% 以上者 +4。失败后阵营变为修贤者指定的阵营，行为随新的世界观改变；即使新阵营超出目标职业限制，也保留并提升原职业。材料是修贤者圣徽和交给目标的一套粗白袍。
+要求目标改变阵营和行为。目标作对死亡魔法豁免：低于修贤者等级者 −4；等级相同至高出 50% 者正常；高出 50% 以上者 +4。失败后阵营变为修贤者指定的阵营，行为随新的世界观改变；即使新阵营超出目标职业限制，也保留并提升原职业。材料是修贤者圣徽和交给目标的一套粗白袍。
 
 ### 神风 Divine Wind（咒法/召唤）
 
@@ -1482,7 +1482,7 @@
 <strong>持续时间：</strong>特殊；<br>
 <strong>影响范围：</strong>半径 3 英寸；<br>
 <strong>成分：</strong>V；<br>
-<strong>施法时间：</strong>1 个时段；<br>
+<strong>施法时间：</strong>1 段；<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -1496,7 +1496,7 @@
 <strong>持续时间：</strong>直到完成；<br>
 <strong>影响范围：</strong>一名生物；<br>
 <strong>成分：</strong>V、S、M；<br>
-<strong>施法时间：</strong>8 个时段；<br>
+<strong>施法时间：</strong>8 段；<br>
 <strong>豁免检定：</strong>neg.</div>
 
 

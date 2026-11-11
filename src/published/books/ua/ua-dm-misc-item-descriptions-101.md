@@ -16,11 +16,11 @@
 
 ## 比拉罗的铁索 Iron Bands of Bilarro
 
-初看是略生锈、直径 <strong>3 英寸</strong>的铁球，细看有多道箍。念命令字并掷向敌人，若以<strong>未修正的命中掷骰</strong>命中，铁箍展开紧缚目标；最多可困住一名<strong>霜巨人或火巨人体型</strong>的生物，直到再念命令字收回球形。受困者只有<strong>一次</strong>机会挣断并毁掉铁箍，几率等于其<strong>弯铁栏</strong>成功率；若失败，此后铁箍就牢不可脱。
+初看是略生锈、直径 <strong>3 英寸</strong>的铁球，细看有多道箍。念命令字并掷向敌人，若以<strong>未修正的攻击骰</strong>命中，铁箍展开紧缚目标；最多可困住一名<strong>霜巨人或火巨人体型</strong>的生物，直到再念命令字收回球形。受困者只有<strong>一次</strong>机会挣断并毁掉铁箍，几率等于其<strong>弯铁栏</strong>成功率；若失败，此后铁箍就牢不可脱。
 
 ## 侦测透镜 Lens of Detection
 
-直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为*微视镜片*的 <strong>50%</strong>；透过镜片追踪时则可如巡林客一般，只是基本移动速度为 <strong>6″</strong>。
+直径约 <strong>6 英寸</strong>的圆形棱镜，须装在带把的框架中。观察微物的效力为*微视镜片*的 <strong>50%</strong>；透过镜片追踪时则可如巡林客一般，只是基础移动率为 <strong>6″</strong>。
 
 ## 紫外视觉透镜 Lens of Ultravision
 
@@ -35,4 +35,4 @@
 | 食物 | 每天可从袋中取出足供<strong>一人一天</strong>的口粮一次。 |
 | 饮水 | 另一袋中的小水罐每天可倒出至多 <strong>7 加仑</strong>水，冷暖由倒水者决定。 |
 | 遮蔽 | 穿着者不会因环境变冷、变热、淋湿或受潮。 |
-| 储物 | 共 <strong>7 大、7 小</strong>口袋；扣除食水各一袋，余下 12 袋可存物。每小袋 <strong>7
+| 储物 | 共 <strong>7 大、7 小</strong>口袋；扣除食水各一袋，余下 12 袋可存物。每小袋 <strong>70 金币重量</strong>、每大袋 <strong>140 金币重量</strong>，无鼓胀或额外负重。 |

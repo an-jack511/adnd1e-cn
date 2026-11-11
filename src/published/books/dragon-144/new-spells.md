@@ -30,7 +30,7 @@ John M. Maxstadt · 第 79 页
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>每级 1 平方英尺，每平方英尺 64 枚飞矢<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

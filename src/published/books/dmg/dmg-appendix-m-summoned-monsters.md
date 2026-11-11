@@ -56,7 +56,7 @@
 | 87–93 | 冰蟾蜍 |
 | 94–00 | 毒蟾蜍 |
 
-## 怪物召唤 V Monster Summoning V
+## 召唤怪物 V Monster Summoning V
 
 | d% | 召唤怪物 |
 |:---:|---|
@@ -73,7 +73,7 @@
 | 86–90 | 巨蛇：喷吐蛇 |
 | 91–00 | 巨蜘蛛 |
 
-## 怪物召唤 VI Monster Summoning VI
+## 召唤怪物 VI Monster Summoning VI
 
 | d% | 召唤怪物 |
 |:---:|---|
@@ -94,7 +94,7 @@
 | 89–92 | 怨魂 |
 | 93–00 | 飞龙 |
 
-## 怪物召唤 VII Monster Summoning VII
+## 召唤怪物 VII Monster Summoning VII
 
 | d% | 召唤怪物 |
 |:---:|---|

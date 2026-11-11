@@ -25,7 +25,7 @@
 | 解除魔法 Dispel Magic | 虹光法球 Prismatic Sphere |
 | 变巨术 Enlarge | 臭云术 Stinking Cloud |
 | 恐惧术 Fear | 火墙术 Wall of Fire |
-| 力牢 Forcecage | 力墙术 Wall of Force |
+| 力牢 Forcecage | 力场墙 Wall of Force |
 | 风阵术 Gust of Wind | 蛛网术 Web |
 | 隐形术 Invisibility | 风墙术 Wind Wall |
 

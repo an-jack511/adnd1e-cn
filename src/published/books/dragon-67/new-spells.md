@@ -30,7 +30,7 @@ Gary Gygax · 第 9 页
 <strong>持续时间：</strong>狂笑 1 轮，另有恢复影响<br>
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>依智力
 </div>
 
@@ -48,7 +48,7 @@ Gary Gygax · 第 9 页
 <strong>持续时间：</strong>特殊，见原刊分级说明<br>
 <strong>影响范围：</strong>1 目标；酸液直径 1 英尺<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>特殊；装备作物品豁免
 </div>
 
@@ -84,15 +84,15 @@ Gary Gygax · 第 54 页
 <strong>持续时间：</strong>流星用尽、主动放弃或解除魔法<br>
 <strong>影响范围：</strong>每枚 1 目标；冲击直径 1 英尺<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>5 施法时段<br>
+<strong>施法时间：</strong>5 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
 材料：硝石、硫磺、松焦油制珠；至少 1,000金币的可重复使用金管
 
-生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两时段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。
+生成与等级数相等的火球，每枚 1d4，并能点燃可燃物甚至实木板。选择每两 段一枚连续发射，或每轮一枚且可暂停；后者可同轮另施不需持续专注的法术。失去精确余量计数即表示已放弃剩余流星。
 
-原刊列施法五时段，连续模式却写施法当轮第二时段开始发射，时序存在不一致；实跑须裁定起射时点。材料为硝石、硫磺、松焦油制珠及至少 1,000金币的精工刻纹中空金管；管可重复使用，除非损坏。
+原刊列施法五段，连续模式却写施法当轮第二段开始发射，时序存在不一致；实跑须裁定起射时点。材料为硝石、硫磺、松焦油制珠及至少 1,000金币的精工刻纹中空金管；管可重复使用，除非损坏。
 
 ## *解除幻象 Dispel Illusion*（防护）
 
@@ -104,7 +104,7 @@ Gary Gygax · 第 55 页
 <strong>持续时间：</strong>永久<br>
 <strong>影响范围：</strong>特殊<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -120,7 +120,7 @@ Gary Gygax · 第 58 页
 <strong>持续时间：</strong>6 回合 + 6 回合/级<br>
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

@@ -20,9 +20,9 @@ Gary Gygax · 第 24、25 页
 
 材料：依目标类型取厌恶或喜爱的材料
 
-须知道目标生物种类名称，有专名时也须知道并在施法时念出。先检定魔法抗力，再以目标 HD／等级与施法者等级之差修正对法术豁免：目标较低则减差值，较高则加差值；自愿遣返时豁免不修正。成功送走仍有 20% 概率送往错误位面。
+须知道目标生物种类名称，有专名时也须知道并在施法时念出。先检定魔法抗性，再以目标 HD／等级与施法者等级之差修正对法术豁免：目标较低则减差值，较高则加差值；自愿遣返时豁免不修正。成功送走仍有 20% 概率送往错误位面。
 
-反向为招来已知且具名的异位面生物，判定相同，但已知其专名时不检定魔法抗力；召来不保证友善或服从。遣返材料须令目标反感，招来则须令其喜爱。
+反向为招来已知且具名的异位面生物，判定相同，但已知其专名时不检定魔法抗性；召来不保证友善或服从。遣返材料须令目标反感，招来则须令其喜爱。
 
 ## *连锁闪电 Chain Lightning*（塑能）
 
@@ -34,7 +34,7 @@ Gary Gygax · 第 26 页
 <strong>持续时间：</strong>即时<br>
 <strong>影响范围：</strong>特殊<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>6 施法时段<br>
+<strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>首击减半；后续另判避击与减半
 </div>
 
@@ -54,7 +54,7 @@ Gary Gygax · 第 59 页
 <strong>持续时间：</strong>永久<br>
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -72,7 +72,7 @@ Gary Gygax · 第 56 页
 <strong>持续时间：</strong>即时<br>
 <strong>影响范围：</strong>自身及普通传送术允许的载重<br>
 <strong>成分：</strong>V<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -88,7 +88,7 @@ Gary Gygax · 第 57 页
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>特殊<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>特殊
 </div>
 

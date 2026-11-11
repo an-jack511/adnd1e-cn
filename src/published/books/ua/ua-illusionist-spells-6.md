@@ -15,9 +15,9 @@
 <strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>无</div>
 
-造出一片与*实体浓雾*相同、却<strong>强酸性</strong>的云雾。接触它的植物会死亡：青草等小植物 <strong>2 轮</strong>，灌木 <strong>4 轮</strong>，小树 <strong>8 轮</strong>，大树 <strong>16 轮</strong>。不免疫酸的动物生命，按在雾中暴露的连续轮次受伤：
+造出一片与*实体浓雾*相同、却<strong>强酸性</strong>的云雾。接触它的植物会死亡：青草等小植物 <strong>2 轮</strong>，灌木 <strong>4 轮</strong>，小树 <strong>8 轮</strong>，大树 <strong>16 轮</strong>。不免疫酸的动物生命，按在雾中暴露的连续的轮受伤：
 
-| 暴露轮次 | 伤害 |
+| 暴露轮数 | 伤害 |
 |:---:|:---:|
 | 第 1 轮 | 1 点 |
 | 第 2 轮 | 2 点 |

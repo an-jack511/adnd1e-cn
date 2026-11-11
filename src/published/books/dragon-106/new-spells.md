@@ -14,7 +14,7 @@ Christopher Wood · 第 51 页
 <strong>持续时间：</strong>3 轮 + 1 轮/级<br>
 <strong>影响范围：</strong>帕拉曼德魔文<br>
 <strong>成分：</strong>V、M<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

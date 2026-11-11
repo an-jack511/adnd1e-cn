@@ -14,7 +14,7 @@ Ed Greenwood · 第 31 页
 <strong>持续时间：</strong>施法当轮及随后 1 轮/级<br>
 <strong>影响范围：</strong>随施法者移动、半径 1″/级球体<br>
 <strong>成分：</strong>S、M<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

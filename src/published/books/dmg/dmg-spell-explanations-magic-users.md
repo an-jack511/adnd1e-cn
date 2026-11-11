@@ -236,7 +236,7 @@
 
 参见附录 C“随机怪物遭遇”中的星界／以太位面遭遇表。
 
-### 怪物召唤 V Monster Summoning V
+### 召唤怪物 V Monster Summoning V
 
 被召唤的怪物列表见附录 M“召唤怪物”。
 
@@ -254,7 +254,7 @@
 
 此物质的护甲等级为 <strong>1</strong>。
 
-### 怪物召唤 VI Monster Summoning VI
+### 召唤怪物 VI Monster Summoning VI
 
 被召唤的怪物列表见附录 M“召唤怪物”。
 
@@ -288,7 +288,7 @@
 
 要确定有多少生物被释放，先掷百分骰确定被禁锢生物的密度，再掷一次确定数量，将两次结果相乘，四舍五入至最接近的整数。每个被释放的生物只有 <strong>10%</strong> 的概率出现在施法者所在区域。使用附录 C 的随机怪物表确定这些生物，并掷 d20 决定其等级；掷出 <strong>9 或更高</strong>都视为 9 级怪物。
 
-### 怪物召唤 VII Monster Summoning VII
+### 召唤怪物 VII Monster Summoning VII
 
 被召唤的怪物列表见附录 M“召唤怪物”。
 

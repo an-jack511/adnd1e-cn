@@ -2,9 +2,9 @@
 
 <A NAME="dmg-types-of-armor-encumbrance"></A>
 <H2>护甲类型与负重 Types of Armor &amp; Encumbrance</H2>
-<P>护甲负重不只考虑重量，也考虑护甲重量的分布，以及穿戴者的相对行动能力。因此，下表所列重量是经过调整的重量，基本移动速度也一并列出。</P>
+<P>护甲负重不只考虑重量，也考虑护甲重量的分布，以及穿戴者的相对行动能力。因此，下表所列重量是经过调整的重量，基础移动率也一并列出。</P>
 <TABLE>
-<TR><TH>护甲类型</TH><TH>笨重程度</TH><TH>重量*</TH><TH>基本移动速度</TH></TR>
+<TR><TH>护甲类型</TH><TH>笨重程度</TH><TH>重量*</TH><TH>基础移动率</TH></TR>
 <TR><TD>带甲 Banded</TD><TD>笨重</TD><TD>35 磅</TD><TD>9 吋</TD></TR>
 <TR><TD>链甲 Chain</TD><TD>较笨重</TD><TD>30 磅</TD><TD>9 吋</TD></TR>
 <TR><TD>精灵链甲 Chain, Elfin</TD><TD>轻便</TD><TD>15 磅</TD><TD>12 吋</TD></TR>
@@ -32,7 +32,7 @@
 <P><STRONG>精灵链甲 Chain, Elfin。</STRONG> 精工打造的链甲，链环更细，但金属更坚固。只能从精灵族处获得，他们不会出售这种护甲。</P>
 <P><STRONG>皮甲 Leather Armor。</STRONG> 由 cuir bouilli（浸入沸油硬化的皮革）制成胸甲与肩甲，搭配较柔软的衬衣和护腿。</P>
 <P><STRONG>软甲 Padded Armor。</STRONG> 厚实的绗缝软甲外套，另配一件柔软皮革短上衣与护腿。</P>
-<P><STRONG>板甲 Plate Mail。</STRONG> 由轻型链甲与若干板甲部件组成，包括胸甲、肩甲、肘甲、膝甲与胫甲，重量分布良好。（全身板甲是一整套板甲，重量并不更大，体积反而稍小。若你允许战役中出现这种被称为“野战板甲”的护甲，使用相同重量、<STRONG>9 吋</STRONG>基础移动速度，以及不持盾时护甲等级 <STRONG>2</STRONG>。这种护甲非常昂贵，约 <STRONG>2,000金币</STRONG>。）</P>
+<P><STRONG>板甲 Plate Mail。</STRONG> 由轻型链甲与若干板甲部件组成，包括胸甲、肩甲、肘甲、膝甲与胫甲，重量分布良好。（全身板甲是一整套板甲，重量并不更大，体积反而稍小。若你允许战役中出现这种被称为“野战板甲”的护甲，使用相同重量、<STRONG>9 吋</STRONG>基础移动率，以及不持盾时护甲等级 <STRONG>2</STRONG>。这种护甲非常昂贵，约 <STRONG>2,000金币</STRONG>。）</P>
 <P><STRONG>环甲 Ring Mail。</STRONG> 衬垫外穿相对柔软的皮甲，并在长款皮甲上缝制金属环，因此这种护甲相当沉重、笨重。</P>
 <P><STRONG>鳞甲 Scale Mail。</STRONG> 与环甲类似，但将重叠的金属鳞片缝在外套与护腿上，也可以穿着带裙摆的外套。和链甲一样，重量主要落在穿戴者的肩部与腰部。</P>
 <P><STRONG>大盾 Shield, Large。</STRONG> 包括大型维京圆盾或诺曼风筝盾。盾牌以木头制成，外覆皮革，边缘以软铁包边。</P>

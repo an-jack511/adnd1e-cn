@@ -14,13 +14,13 @@ Gary Gygax · 第 25 页
 <strong>持续时间：</strong>1 轮/级<br>
 <strong>影响范围：</strong>4 平方″ + 1 平方″/级<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>5 施法时段<br>
+<strong>施法时间：</strong>5 段<br>
 <strong>豁免检定：</strong>特殊
 </div>
 
 材料：少许羊毛与数粒沙
 
-按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五时段，便按程序继续。
+按预设程序运行的幽影幻象，含视觉、完整声音、气味及温度。施放后只须再专注五段，便按程序继续。
 
 主动怀疑者可作对法术豁免；有人成功识破并告知能理解的旁观者后，这些人豁免加 4。材料为少许羊毛与几粒沙。
 
@@ -34,7 +34,7 @@ Gary Gygax · 第 24 页
 <strong>持续时间：</strong>永久<br>
 <strong>影响范围：</strong>3″ 立方体<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -50,7 +50,7 @@ Gary Gygax · 第 25 页
 <strong>持续时间：</strong>1 回合/级<br>
 <strong>影响范围：</strong>半径 1″/级<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>无；发现异常后特殊
 </div>
 
@@ -70,7 +70,7 @@ Gary Gygax · 第 24 页
 <strong>持续时间：</strong>2 轮/级<br>
 <strong>影响范围：</strong>施法者<br>
 <strong>成分：</strong>S、M<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -90,13 +90,13 @@ Gary Gygax · 第 22 页
 <strong>持续时间：</strong>依颜色<br>
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>依颜色
 </div>
 
 材料：价值至少 50金币的相应颜色宝石或透明宝石
 
-在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗力抵抗。可选自身等级已解锁的任何低阶颜色。
+在手中生成法球后投向无障碍的目标；距离 ≤1″／≤2″／≤3″，命中分别 +3／+2／+1。能伤仅受高加值武器伤害的生物，但仍受魔法抗性抵抗。可选自身等级已解锁的任何低阶颜色。
 
 一级珍珠色 1d4，发光 1 轮/级，豁免失败期间失明；二级红宝石 1d6，融化至多一立方码冰，失败力量与敏捷各减一、持续一轮；三级火焰色 1d8，点燃一英尺内可燃物，失败再受两点火伤，抗火者例外；四级琥珀色 1d10，失败失明 1d4+4 轮。
 

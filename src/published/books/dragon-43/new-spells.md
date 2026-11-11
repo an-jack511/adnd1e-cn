@@ -14,7 +14,7 @@ Bill Muhlhausen, et al · 第 62、65 页
 <strong>持续时间：</strong>6 回合<br>
 <strong>影响范围：</strong>至多宽 4″、高 4″、厚 1″<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>4 施法时段<br>
+<strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>原刊未另列；穿越受 HD 限制
 </div>
 
@@ -38,13 +38,13 @@ Bill Muhlhausen, et al · 第 62、67 页
 <strong>持续时间：</strong>3 回合/级，或至解除<br>
 <strong>影响范围：</strong>1 个半智能以上生物<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>6 施法时段<br>
-<strong>豁免检定：</strong>有魔抗者正常；无魔抗者 −2
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>有魔法抗性者正常；无魔法抗性者 −2
 </div>
 
 材料：由主持人决定
 
-不受目标 HD 限制。具有魔法抗力者先将魔抗降低九成，仍可正常作豁免；没有魔抗者的豁免减二。目标陷入无法唤醒的恍惚，至法术结束或被解除。
+不受目标 HD 限制。具有魔法抗性者先将魔法抗性降低九成，仍可正常作豁免；没有魔法抗性者的豁免减二。目标陷入无法唤醒的恍惚，至法术结束或被解除。
 
 目标服从简单命令；若本来能施法，会乐意代施一个自身掌握、由巫婆指定的法术。
 

@@ -14,7 +14,7 @@ Arthur Collins · 第 28 页
 <strong>持续时间：</strong>至履行、违背或完成补偿<br>
 <strong>影响范围：</strong>1 名同信仰誓言承担者<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -36,7 +36,7 @@ Arthur Collins · 第 28、29 页
 <strong>持续时间：</strong>1 回合<br>
 <strong>影响范围：</strong>施法者<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
@@ -54,7 +54,7 @@ Arthur Collins · 第 28、29 页
 <strong>持续时间：</strong>2 轮<br>
 <strong>影响范围：</strong>受触生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

@@ -237,7 +237,7 @@
 
 <strong>18 方向反转并造成伤害：</strong>装置造成等于其复杂度的伤害，然后失效。机器必须修理后才能再次使用。
 
-<strong>19 机器追逐：</strong>装置会对操作者造成等于其复杂度的伤害，并且会毫无偏差地追逐操作者，持续五 + 1d6 个轮，或直到装置被关闭，以先发生者为准。装置操作者必须通过一次敏捷检定才能关闭装置。机器的命中检定方式如同生命骰等于其复杂度的怪物。
+<strong>19 机器追逐：</strong>装置会对操作者造成等于其复杂度的伤害，并且会毫无偏差地追逐操作者，持续五 + 1d6 轮，或直到装置被关闭，以先发生者为准。装置操作者必须通过一次敏捷检定才能关闭装置。机器的命中检定方式如同生命骰等于其复杂度的怪物。
 
 <strong>20 爆炸！</strong>机器爆炸，在数量等于其复杂度的 10 英尺立方区域内造成等于其复杂度的伤害。机器随后损坏，必须修理后才能再次使用。
 
@@ -405,7 +405,7 @@
 | 植物 | 木遁术* | PH | 5 | — | — | — | — | — | A |
 | 植物 | 行动无踪* | PH | 1 | — | — | — | — | — | A |
 | 植物 | 植物之门* | PH | 4 | — | — | — | — | — | A |
-| 植物 | 植物成长* | PH | 3 | — | — | — | — | — | A |
+| 植物 | 植物滋长* | PH | 3 | — | — | — | — | — | A |
 | 植物 | 橡棍术* | PH | 1 | — | — | — | — | — | Add |
 | 植物 | 圈套术* | PH | 3 | — | — | — | — | — | A |
 | 植物 | 植物交谈* | PH | 4 | — | — | — | — | — | A |
@@ -417,7 +417,7 @@
 | 植物 | 转木术* | PH | 6 | — | — | — | — | — | A |
 | 植物 | 荆棘之墙* | PH | 6 | — | — | — | — | — | A |
 | 植物 | 弯木术* | PH | 2 | — | — | — | — | — | A |
-| 防护 | 驱散魔法* | PH | 3/4 | A | — | — | — | — | — |
+| 防护 | 解除魔法* | PH | 3/4 | A | — | — | — | — | — |
 | 防护 | 忍受／驱散寒热 | UA | 1R | A | — | — | Add | — | — |
 | 防护 | 火焰行走 | UA | 3 | A | — | — | — | — | — |
 | 防护 | 禁断术 | UA | 6 | A | — | — | — | Add | — |
@@ -621,7 +621,7 @@
 | 植物 | 木遁术* | PH | 5 | — | — | — | — | A | — |
 | 植物 | 行动无踪* | PH | 1 | — | — | — | — | A | — |
 | 植物 | 植物之门* | PH | 4 | — | — | — | — | A | — |
-| 植物 | 植物成长* | PH | 3 | — | — | — | — | A | — |
+| 植物 | 植物滋长* | PH | 3 | — | — | — | — | A | — |
 | 植物 | 橡棍术* | PH | 1 | — | — | — | — | A | — |
 | 植物 | 圈套术* | PH | 3 | — | — | — | — | A | — |
 | 植物 | 植物交谈* | PH | 4 | — | — | — | — | A | — |
@@ -633,7 +633,7 @@
 | 植物 | 转木术* | PH | 6 | — | — | — | — | A | — |
 | 植物 | 荆棘之墙* | PH | 6 | — | — | — | — | A | — |
 | 植物 | 弯木术 | PH | 2 | — | — | — | — | A | — |
-| 防护 | 驱散魔法* | PH | 3/4 | A | — | — | — | — | A |
+| 防护 | 解除魔法* | PH | 3/4 | A | — | — | — | — | A |
 | 防护 | 忍受／驱散寒热 | UA | 1R | A | — | — | — | — | A |
 | 防护 | 火焰行走 | UA | 3 | A | — | — | — | — | A |
 | 防护 | 禁断术 | UA | 6 | A | — | — | — | — | A |
@@ -835,7 +835,7 @@
 | 植物 | 木遁术* | PH | 5 | —／—／A／—／—／— |
 | 植物 | 行动无踪* | PH | 1 | —／—／A／—／—／— |
 | 植物 | 植物之门* | PH | 4 | —／—／A／—／—／— |
-| 植物 | 植物成长* | PH | 3 | —／—／A／—／—／— |
+| 植物 | 植物滋长* | PH | 3 | —／—／A／—／—／— |
 | 植物 | 橡棍术* | PH | 1 | —／—／A／—／—／— |
 | 植物 | 圈套术* | PH | 3 | —／—／A／—／—／— |
 | 植物 | 植物交谈* | PH | 4 | —／—／A／—／—／— |
@@ -847,7 +847,7 @@
 | 植物 | 转木术* | PH | 6 | —／—／A／—／—／— |
 | 植物 | 荆棘之墙* | PH | 6 | —／—／A／—／—／— |
 | 植物 | 弯木术 | PH | 2 | —／—／A／—／—／— |
-| 防护 | 驱散魔法* | PH | 3/4 | A／—／—／—／—／— |
+| 防护 | 解除魔法* | PH | 3/4 | A／—／—／—／—／— |
 | 防护 | 忍受／驱散寒热 | UA | 1R | A／—／—／—／—／— |
 | 防护 | 火焰行走 | UA | 3 | A／—／—／—／—／— |
 | 防护 | 禁断术 | UA | 6 | A／—／—／—／—／— |
@@ -906,7 +906,7 @@
 
 ### 秘法／力场 Invocation/Evocation
 
-打嗝（PA）；闪现（PA）；寒冷（UC）；色彩（UC）；咳嗽（PA）；减弱（UC）；污秽（RC）；尘土（RC）；点头（PA）；盐（UC）；抓痕（PA）；酸（RC）；喷嚏（PA）；香料（UC）；变甜（UC）；抽动（PA）；温暖（UC）；哈欠（PA）；怪异术（7I，Il/P）；发出标准火焰（1M）；水中呼吸（5M）；动物成长（5M）；回避术（5M，Ab）；束缚（2M，En）；闪现（3M）；燃烧之手（1M）；云爆术（3M）；巧言术（1M）；恒定光亮（2M）；操控天气（6M）；晶化术（9M）；舞光术（1M）；半径 15 英尺黑暗（2M，En）；深袋术（2M，En）；任意门（4M）；解离术（6M）；距离扭曲（5M）；二重维度（7M）；附魔武器（4M）；放大（1M）；抹除（1M）；爆炸符文（3M）；延展术（4M）；延展术（5M）；延展术（6M）；鬼斧神工（5M，En）；羽落术（1M）；火焰护盾（4M，E）；火焰水（1M）；炽焰法球（2M，E）；飞行（3M）；黄金幻觉（2M）；玻璃化（6M）；玻璃钢（8M）；铜墙铁壁（6M，E & En/Ch）；造风术（3M）；加速术（3M）；闭门术（1M）；焚云术（8M，E）；红外视觉（3M）；刺激（2M）；物品（3M）；跳跃（1M）；敲击术（2M）；李奥蒙德的箱子（5M，C/S）；李奥蒙德的小屋（3M）；李奥蒙德的避难所（4M，En）；悬浮术（2M）；光（1M）；降水术（6M）；魔嘴（2M）；梅尔夫的流星（3M，E）；熔化（1M）；修复术（1M）；传讯术（1M）；魔邓肯的解离术（9M，En）；魔邓肯豪宅术（7M，C）；地动术（6M）；欧提路克的冻寒球（6M，E）；欧提路克的抗性球（4M，E）；欧提路克的传送球（8M，E）；分水术（6M）；穿墙术（5M）；恒久术（8M）；植物成长（4M）；相位门（7M）；任意物变形（8M）；他塑形术（4M）；自塑形术（4M）；投影术（6M，Il/P）；降水（1M）；烟火术（2M）；拉瑞的记忆增强（4M）；反重力（7M）；魔绳术（2M）；塞尔腾的法术免疫（8M）；秘密页（3M）；变形术（9M）；粉碎音波（2M）；电爪（1M）；沉没（8M，En）；缓慢（3M）；蜘蛛攀爬（1M）；雕像术（7M）；石塑术（5M）；化石为肉（6M）；石肤术（4M）；力量（2M）；召唤援助（9M，En）；心灵遥控（5M）；传送术（5M）；时间停滞（9M）；谭森的变身（6M，E）；时间停止（9M）；语言（3M）；岩石化泥（5M）；水化尘（6M）；真名术（7M，En）；超视觉（4M）；消失（7M）；发声（2M）；水下呼吸（3M）；御风而行（3M）；巫师之眼（4M）；巫师印记（1M）；巫师锁（2M）。
+打嗝（PA）；闪现（PA）；寒冷（UC）；色彩（UC）；咳嗽（PA）；减弱（UC）；污秽（RC）；尘土（RC）；点头（PA）；盐（UC）；抓痕（PA）；酸（RC）；喷嚏（PA）；香料（UC）；变甜（UC）；抽动（PA）；温暖（UC）；哈欠（PA）；怪异术（7I，Il/P）；发出标准火焰（1M）；水中呼吸（5M）；动物成长（5M）；回避术（5M，Ab）；束缚（2M，En）；闪现（3M）；燃烧之手（1M）；云爆术（3M）；巧言术（1M）；恒定光亮（2M）；操控天气（6M）；晶化术（9M）；舞光术（1M）；半径 15 英尺黑暗（2M，En）；深袋术（2M，En）；任意门（4M）；解离术（6M）；距离扭曲（5M）；二重维度（7M）；附魔武器（4M）；放大（1M）；抹除（1M）；爆炸符文（3M）；延展术（4M）；延展术（5M）；延展术（6M）；鬼斧神工（5M，En）；羽落术（1M）；火焰护盾（4M，E）；火焰水（1M）；炽焰法球（2M，E）；飞行（3M）；黄金幻觉（2M）；玻璃化（6M）；玻璃钢（8M）；铜墙铁壁（6M，E & En/Ch）；造风术（3M）；加速术（3M）；闭门术（1M）；焚云术（8M，E）；红外视觉（3M）；刺激（2M）；物品（3M）；跳跃（1M）；敲击术（2M）；李奥蒙德的箱子（5M，C/S）；李奥蒙德的小屋（3M）；李奥蒙德的避难所（4M，En）；浮空术（2M）；光（1M）；降水术（6M）；魔嘴（2M）；梅尔夫的流星（3M，E）；熔化（1M）；修复术（1M）；传讯术（1M）；魔邓肯的解离术（9M，En）；魔邓肯豪宅术（7M，C）；地动术（6M）；欧提路克的冻寒球（6M，E）；欧提路克的抗性球（4M，E）；欧提路克的传送球（8M，E）；分水术（6M）；穿墙术（5M）；恒久术（8M）；植物滋长（4M）；相位门（7M）；任意物变形（8M）；他塑形术（4M）；自塑形术（4M）；投影术（6M，Il/P）；降水（1M）；烟火术（2M）；拉瑞的记忆增强（4M）；反转重力（7M）；魔绳术（2M）；塞尔腾的法术免疫（8M）；秘密页（3M）；变形术（9M）；粉碎音波（2M）；电爪（1M）；沉没（8M，En）；缓慢（3M）；蜘蛛攀爬（1M）；雕像术（7M）；石塑术（5M）；化石为肉（6M）；石肤术（4M）；力量（2M）；召唤援助（9M，En）；心灵遥控（5M）；传送术（5M）；时间停滞（9M）；谭森的变身（6M，E）；时间停止（9M）；语言（3M）；化石为泥（5M）；水化尘（6M）；真名术（7M，En）；超视觉（4M）；消失（7M）；发声（2M）；水下呼吸（3M）；御风而行（3M）；巫师之眼（4M）；巫师印记（1M）；巫师锁（2M）。
 
 ### 惑控／魅惑 Enchantment/Charm
 
@@ -934,7 +934,7 @@
 
 ### 变化 Alteration
 
-降水术 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 Mordenkainen's Disjunction（9M，En）；魔邓肯豪宅术 Mordenkainen's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 Otiluke's Freezing Sphere（6M，E）；欧提路克的抗性球 Otiluke's Resilient Sphere（4M，E）；欧提路克的传送球 Otiluke's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；他塑形术 Polymorph Other（4M）；自塑形术 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 Mordenkainen's Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；化石为肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 Tenser's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
+降水术 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 Mordenkainen's Disjunction（9M，En）；魔邓肯豪宅术 Mordenkainen's Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 Otiluke's Freezing Sphere（6M，E）；欧提路克的抗性球 Otiluke's Resilient Sphere（4M，E）；欧提路克的传送球 Otiluke's Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物滋长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；他塑形术 Polymorph Other（4M）；自塑形术 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 Mordenkainen's Mnemonic Enhancer（4M）；反转重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；化石为肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 Tenser's Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；化石为泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
 ### 幻术／幻象 Illusion/Phantasms
 
@@ -942,7 +942,7 @@
 
 ### 防护 Abjurations
 
-清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；驱散魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；小型法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；虹光法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；驱散魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
+清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；解除魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；小型法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；虹光法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；解除魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
 
 ## 第 128 页
 

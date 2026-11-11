@@ -32,7 +32,7 @@ Len Lakofka · 第 32 页
 <strong>持续时间：</strong>3d4 轮<br>
 <strong>影响范围：</strong>长 6″、底径 2″ 锥形<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>2 施法时段<br>
+<strong>施法时间：</strong>2 段<br>
 <strong>豁免检定：</strong>特殊
 </div>
 
@@ -110,7 +110,7 @@ Len Lakofka · 第 31 页
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>施法者手掌<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

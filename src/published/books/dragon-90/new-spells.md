@@ -14,7 +14,7 @@ Ed Greenwood · 第 11 页
 <strong>持续时间：</strong>2 轮/级<br>
 <strong>影响范围：</strong>幻术师法术及幻术魔文<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>1 施法时段<br>
+<strong>施法时间：</strong>1 段<br>
 <strong>豁免检定：</strong>无
 </div>
 

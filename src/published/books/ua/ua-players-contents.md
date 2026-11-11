@@ -61,5 +61,5 @@
 - 武器熟练项表 Weapon Proficiency Table——26
 - 战士与巡林客武器专精表 Weapon Specialization Table for Fighters and Rangers——18
 - 武器重量及分类伤害 Weapons, Weight and Damage by Type——26
-- 手持武器通用资料与命中调整 Weapons, Hand-held, General Data and “To Hit” Adjustments——27
-- 投掷与射击武器通用资料与命中调整 Weapons, Hurled and Missile, General Data and “To Hit” Adjustments——28
+- 手持武器通用资料与命中修正 Weapons, Hand-held, General Data and “To Hit” Adjustments——27
+- 投掷与射击武器通用资料与命中修正 Weapons, Hurled and Missile, General Data and “To Hit” Adjustments——28

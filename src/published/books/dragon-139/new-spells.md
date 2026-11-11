@@ -14,7 +14,7 @@ Dougal Demokopoliss · 第 89 页
 <strong>持续时间：</strong>即时<br>
 <strong>影响范围：</strong>1 目标<br>
 <strong>成分：</strong>V<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>参数栏无；正文允许对法术豁免减半
 </div>
 

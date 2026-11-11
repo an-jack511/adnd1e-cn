@@ -14,7 +14,7 @@ Rick Reid · 第 28 页
 <strong>持续时间：</strong>木材干燥后；未载回潮时限<br>
 <strong>影响范围：</strong>1 立方英尺木材<br>
 <strong>成分：</strong>S、M<br>
-<strong>施法时间：</strong>⅕ 施法时段<br>
+<strong>施法时间：</strong>⅕ 段<br>
 <strong>豁免检定：</strong>原刊未列
 </div>
 
@@ -34,7 +34,7 @@ Rick Reid · 第 28、29 页
 <strong>持续时间：</strong>未载固定时限；伤口照常愈合<br>
 <strong>影响范围：</strong>1 人的轻微伤口<br>
 <strong>成分：</strong>S<br>
-<strong>施法时间：</strong>⅒ 施法时段<br>
+<strong>施法时间：</strong>⅒ 段<br>
 <strong>豁免检定：</strong>原刊未列
 </div>
 
@@ -52,7 +52,7 @@ Rick Reid · 第 28、29 页
 <strong>持续时间：</strong>1 轮<br>
 <strong>影响范围：</strong>施法者<br>
 <strong>成分：</strong>V、S<br>
-<strong>施法时间：</strong>⅒ 施法时段<br>
+<strong>施法时间：</strong>⅒ 段<br>
 <strong>豁免检定：</strong>原刊未列
 </div>
 

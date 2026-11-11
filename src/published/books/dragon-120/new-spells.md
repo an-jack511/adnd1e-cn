@@ -14,7 +14,7 @@ Mark L. Palmer · 第 38、40 页
 <strong>持续时间：</strong>1 回合<br>
 <strong>影响范围：</strong>1 人<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>3 施法时段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>无
 </div>
 
