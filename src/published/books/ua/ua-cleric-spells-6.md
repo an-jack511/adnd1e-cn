@@ -5,13 +5,13 @@
 ## 禁制术 Forbiddance（防护系 Abjuration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 6 立方″<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>6 轮<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>每级 6 立方″<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>6 轮<br>
+<strong>豁免检定：</strong>特殊</div>
 
 此术只能用来保护已经圣化的区域（见一环*典礼术*）。入侵者能否进入，取决于其律法／混乱倾向和善良／邪恶倾向与牧师的关系：
 
@@ -26,13 +26,13 @@
 ## 英雄宴 Heroes’ Feast（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>1 小时<br>
-<strong>影响范围 Area of Effect：</strong>每级施法者一名生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>1 小时<br>
+<strong>影响范围：</strong>每级施法者一名生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师唤出丰盛宴席，包括桌椅、餐具及所有食物饮料，可供人数等于其等级。完成宴饮者的所有疾病均获治愈；饮下花蜜般的饮料后，恢复 5–8 点伤害，并在此后 12 小时免疫毒素。神馐般的食物给予持续 12 小时的*祝福术*效果；在同一期间，受宴者也免疫恐惧、绝望与惊慌。
 

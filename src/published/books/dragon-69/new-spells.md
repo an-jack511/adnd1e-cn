@@ -9,13 +9,13 @@
 Ed Greenwood · 第 73 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>9<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>1 生物<br>
-<strong>成分 Components：</strong>V<br>
-<strong>施法时间 Casting Time：</strong>2 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效；反向也须检定
+<strong>等级：</strong>9<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>1 生物<br>
+<strong>成分：</strong>V<br>
+<strong>施法时间：</strong>2 施法时段<br>
+<strong>豁免检定：</strong>成功无效；反向也须检定
 </div>
 
 念出短语并触碰，可对自身使用。目标心智离体，身体立即冻结生理过程，不呼吸、不老化，外有力场防止物理、魔法、火、毒、腐蚀与疾病接触。力场可被推移肢体，松手后缓缓回到原姿。
@@ -31,13 +31,13 @@ Ed Greenwood · 第 73 页
 Ed Greenwood · 第 72 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>1 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>1 名自然睡眠中的生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>1 回合/级<br>
+<strong>影响范围：</strong>1 名自然睡眠中的生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功无效
 </div>
 
 只能对自然入睡者施放，昏迷、药物、脑震荡、星界或灵能活动、魅惑相关状态均不适用，也不能对自身施放。豁免失败者深睡，只有施法者意愿、解除魔法、有限许愿术／祈愿或受伤等强烈痛楚能提前唤醒。

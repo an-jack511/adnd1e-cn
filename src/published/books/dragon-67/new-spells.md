@@ -9,13 +9,13 @@
 Gary Gygax · 第 7 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>即时<br>
-<strong>影响范围 Area of Effect：</strong>每级 2 等级或 HD<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>即时<br>
+<strong>影响范围：</strong>每级 2 等级或 HD<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功无效
 </div>
 
 只影响一种、智力至少二的生物，从最近者开始计算容量。魔法让嘲弄具有明确意义；对法术豁免失败者愤怒冲向施法者，能近战就用身体或手持武器攻击，不改为远程射击。
@@ -25,13 +25,13 @@ Gary Gygax · 第 7 页
 Gary Gygax · 第 9 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>5″<br>
-<strong>持续时间 Duration：</strong>狂笑 1 轮，另有恢复影响<br>
-<strong>影响范围 Area of Effect：</strong>1 生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>依智力
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>5″<br>
+<strong>持续时间：</strong>狂笑 1 轮，另有恢复影响<br>
+<strong>影响范围：</strong>1 生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 施法时段<br>
+<strong>豁免检定：</strong>依智力
 </div>
 
 材料：小羽毛、微型木拍与小馅饼
@@ -43,13 +43,13 @@ Gary Gygax · 第 9 页
 Gary Gygax · 第 9 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>特殊，见原刊分级说明<br>
-<strong>影响范围 Area of Effect：</strong>1 目标；酸液直径 1 英尺<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊；装备作物品豁免
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>特殊，见原刊分级说明<br>
+<strong>影响范围：</strong>1 目标；酸液直径 1 英尺<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>特殊；装备作物品豁免
 </div>
 
 材料：飞镖、粉碎大黄叶与蝰蛇胃
@@ -63,13 +63,13 @@ Gary Gygax · 第 9 页
 Gary Gygax · 第 54 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 立方英尺<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>每级 1 立方英尺<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 生成普通、未加工的石、土、木、水、空气、粪肥、稻草等基础材料，不能生成精炼、加工或制成品，也不能生成动物。生成草等简单植物的基础失败率为 100%，每施法者等级降低一个百分点。
@@ -79,13 +79,13 @@ Gary Gygax · 第 54 页
 Gary Gygax · 第 54 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1″/级<br>
-<strong>持续时间 Duration：</strong>流星用尽、主动放弃或解除魔法<br>
-<strong>影响范围 Area of Effect：</strong>每枚 1 目标；冲击直径 1 英尺<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1″/级<br>
+<strong>持续时间：</strong>流星用尽、主动放弃或解除魔法<br>
+<strong>影响范围：</strong>每枚 1 目标；冲击直径 1 英尺<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：硝石、硫磺、松焦油制珠；至少 1,000金币的可重复使用金管
@@ -99,13 +99,13 @@ Gary Gygax · 第 54 页
 Gary Gygax · 第 55 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>½″/级<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>½″/级<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 效果同幻术师三环同名法术；解除幻术师施放的幻术／心灵幻象类法术时，法师按实际等级减二计算效力。
@@ -115,13 +115,13 @@ Gary Gygax · 第 55 页
 Gary Gygax · 第 58 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>6 回合 + 6 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>1 生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>6 回合 + 6 回合/级<br>
+<strong>影响范围：</strong>1 生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：价值至少 500金币的碎紫水晶

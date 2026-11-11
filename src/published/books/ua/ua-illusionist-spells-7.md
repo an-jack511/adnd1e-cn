@@ -7,13 +7,13 @@
 ## 行影术 Shadow Walk（幻术／附魔系 Illusion-Enchantment）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 6 回合<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无（不愿同行者特殊）</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每级 6 回合<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无（不愿同行者特殊）</div>
 
 施法时，幻术师必须身处<strong>深浓阴影</strong>。自己及所接触的生物会被送往主物质位面与阴影位面相接的边缘。在那里，幻术师沿阴影位面边界正常行动，同时知道自己相对于主物质位面的位置；相对移动速度最高为<strong>每回合 7 里格</strong>。因此可以从阴影位面跨回主物质位面，到达幻术师控制的目的地，迅速旅行。
 
@@ -22,13 +22,13 @@
 ## 怪影杀手 Weird（塑能／幻术与幻影系 Evocation-Illusion/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>半径 <strong>2″</strong><br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>半径 <strong>2″</strong><br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>7 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 幻术师必须能与目标交谈才能发动法术。施法时，他向一名或多名目标宣告其最终命运、厄运已经降临。即使目标<strong>豁免成功</strong>，恐惧仍会令其麻痹整整 <strong>7 段</strong>，并失去 <strong>1–4 点力量</strong>；力量在 <strong>7 轮</strong>后恢复。
 

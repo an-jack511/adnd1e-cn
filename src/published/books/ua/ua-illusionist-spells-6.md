@@ -7,13 +7,13 @@
 ## 死亡雾 Death Fog（变化／塑能系 Alteration-Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong><strong>1–4 轮＋每级 1 轮</strong><br>
-<strong>影响范围 Area of Effect：</strong>每施法者等级 <strong>2 立方英尺</strong><br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong><strong>1–4 轮＋每级 1 轮</strong><br>
+<strong>影响范围：</strong>每施法者等级 <strong>2 立方英尺</strong><br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>无</div>
 
 造出一片与*实体浓雾*相同、却<strong>强酸性</strong>的云雾。接触它的植物会死亡：青草等小植物 <strong>2 轮</strong>，灌木 <strong>4 轮</strong>，小树 <strong>8 轮</strong>，大树 <strong>16 轮</strong>。不免疫酸的动物生命，按在雾中暴露的连续轮次受伤：
 
@@ -29,13 +29,13 @@
 ## 假象术 Mislead（幻术／幻影系 Illusion/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>仅姿势<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>仅姿势<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 施法者制造自己的幻影分身，同时以*高等隐形术*遮蔽真身。幻术师可自由离开，任分身貌似朝另一方向走去。分身能说话、做手势，并具有完整气味和触觉表现。
 
@@ -44,13 +44,13 @@
 ## 幻象群 Phantasmagoria（幻术／幻影系 Illusion/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>6″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong><strong>4 平方″＋每施法者等级 1 平方″</strong><br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>6″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong><strong>4 平方″＋每施法者等级 1 平方″</strong><br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 幻术师预设一种特殊动作作为触发条件，发动特别形式的*幽灵之力*。幻象通常包含完整的视觉、声音、气味和触觉，内容涉及<strong>坠落、滑行或高速运动</strong>。它可以让目标以为自己正在如此运动，也可令他们相信别的事物正在逼近。触发动作例如跌进陷坑、到达某地中央、打开一扇门等。
 
@@ -59,13 +59,13 @@
 ## 海市蜃楼 Mirage Arcane（幻术／幻影与变化系 Illusion/Phantasm-Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>每施法者等级半径 <strong>1″</strong><br>
-<strong>成分 Components：</strong>言语、姿势；材料可选<br>
-<strong>施法时间 Casting Time：</strong><strong>3 或 6 段</strong><br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>每施法者等级半径 <strong>1″</strong><br>
+<strong>成分：</strong>言语、姿势；材料可选<br>
+<strong>施法时间：</strong><strong>3 或 6 段</strong><br>
+<strong>豁免检定：</strong>无</div>
 
 与*空置幻景*相似，但更强、更复杂；也近似小法术*海市蜃楼*。幻术师可把区域变得像自己所设想的另一处地方，但此地须是施法者<strong>本人亲眼见过</strong>的真实地点。只要维持少量专注，法术便一直存在；停止专注后仍持续 <strong>6 回合＋每级 1 回合</strong>。这种轻度专注允许正常交谈，但不能在施法、近战或受攻击伤害时维持。
 

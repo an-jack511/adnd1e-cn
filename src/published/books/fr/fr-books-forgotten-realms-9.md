@@ -41,13 +41,13 @@
 ### 格里姆瓦尔德的灰披风 Grimwald’s Greymantle（死灵）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>施法者每等级 1 轮<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 个分段<br>
+<strong>豁免检定：</strong>否定</div>
 
 
 <strong>说明／描述：</strong>魔法师施放本法术时，材料成分周围会产生银灰色辉光。如果用材料成分（骨头或小动物骨架）触碰目标生物——需要成功命中检定，如同使用匕首或棍棒——辉光就会离开材料（材料无害消失），扩展开来包围目标，形成一圈光环或披风。这片闪烁的辉光在触碰后的下一轮生效，并持续施法者经验等级的1轮。
@@ -63,13 +63,13 @@
 ### 阿甘纳扎尔的灼流 Agannazar’s Scorcher（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>7 英寸<br>
-<strong>持续时间 Duration：</strong>2 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>3 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>见下文</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>7 英寸<br>
+<strong>持续时间：</strong>2 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>3 个分段<br>
+<strong>豁免检定：</strong>见下文</div>
 
 
 <strong>说明／描述：</strong>魔法师以本法术从指尖召出一道喷向指定生物的火焰。如果目标在施法者 7 英寸内，它会受到 3–18（3d6）点伤害，无豁免（除非目标免疫热与火焰的效果）。火焰喷流呈直径 2 英尺的圆柱，最长可达 7 英寸，施法者在一端，目标在另一端。
@@ -79,13 +79,13 @@
 ### 伊利库尔的披风 Illykur’s Mantle（防护）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>施法者周围的光环<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>施法者每等级 1 轮<br>
+<strong>影响范围：</strong>施法者周围的光环<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 个分段<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>伊利库尔的披风形成时，施法者周围会出现一层微弱发光的光环，沿着施法者身体的轮廓，并随其动作变化。可以从这层光环中施放法术，不会影响光环；但从外部进入、作用于披风的法术会受到下列影响：受保护的施法者对所有附魔／魅惑法术的豁免获得 +3，对所有原本允许豁免的其他法术获得 +1；如果电击相关法术（例如电爪、闪电束）仍对其生效，施法者只受到一半伤害。
@@ -97,13 +97,13 @@
 ### 普雷斯珀的月弓 Presper’s Moonbow（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>9 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>9 个分段<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>本魔法只能在有月亮的夜空下使用，并且云层状况必须允许月光抵达地面。普雷斯珀的月弓可以让 1–4 颗发光的小球（形似球状闪电）聚集在施法者伸出的手上方。这些月光球在施法进行的那一轮逐渐变大、变亮并缓慢旋转；此时它们类似舞光术。
@@ -151,13 +151,13 @@
 ### 盗法 Stealspell（附魔／魅惑）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>施法者每等级 1 英寸<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>7 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>施法者每等级 1 英寸<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>7 个分段<br>
+<strong>豁免检定：</strong>否定</div>
 
 
 <strong>说明／描述：</strong>这个强大的魔法法术很少有人知道，除了莱瑟曼女巫的圈子之外几乎无人知晓；它为何落入沙恩手中也不明。施法者指定射程内的单个生物；该生物必须以 -1 罚值对抗法术豁免，失败则从其心智中失去一个已记忆的法术或类法术能力。来自主物质位面以外位面的生物不承受豁免罚值；如果目标没有可用法术，本法术不产生效果。被夺走的法术由随机决定，而非由沙恩选择。

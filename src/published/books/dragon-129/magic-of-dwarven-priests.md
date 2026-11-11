@@ -23,13 +23,13 @@ Len Carpenter · 第 8、9、10、11、12、13、14、15、16、17、18 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>1回合+每等级半回合<br>
-<strong>影响范围 Area of Effect：</strong>直径6英尺球体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>1回合+每等级半回合<br>
+<strong>影响范围：</strong>直径6英尺球体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：施法者圣徽
@@ -41,13 +41,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>12英尺<br>
-<strong>持续时间 Duration：</strong>1回合<br>
-<strong>影响范围 Area of Effect：</strong>长12英尺、宽1英尺的通道<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>12英尺<br>
+<strong>持续时间：</strong>1回合<br>
+<strong>影响范围：</strong>长12英尺、宽1英尺的通道<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：施法者圣徽
@@ -59,13 +59,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>1英尺<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>6至20块石头<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>1英尺<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>6至20块石头<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：一组六至二十块石头
@@ -77,13 +77,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>2英尺<br>
-<strong>持续时间 Duration：</strong>每等级3回合<br>
-<strong>影响范围 Area of Effect：</strong>一座锻炉或熔炉<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>2英尺<br>
+<strong>持续时间：</strong>每等级3回合<br>
+<strong>影响范围：</strong>一座锻炉或熔炉<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：引火用的一小捆木柴或一块煤，以及一撮硫磺
@@ -95,13 +95,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级3回合<br>
-<strong>影响范围 Area of Effect：</strong>以施法者为中心、半径每等级1英尺的球体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级3回合<br>
+<strong>影响范围：</strong>以施法者为中心、半径每等级1英尺的球体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：施法者圣徽，以及监测区域的一小块土或石
@@ -113,13 +113,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1英尺<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>每等级2立方英尺的水<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1英尺<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>每等级2立方英尺的水<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：价值至少500金币的微型银避雷针，以及洒入水槽的一小瓶圣水
@@ -131,13 +131,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>3英尺<br>
-<strong>持续时间 Duration：</strong>每等级1轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>7段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>3英尺<br>
+<strong>持续时间：</strong>每等级1轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>7段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：一小段土柱或黏土柱
@@ -149,13 +149,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>每等级1轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>每等级1轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：混有铁屑、塑成原结构外形的一块黏土
@@ -167,13 +167,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>半径每等级半英里、深度每等级四分之一英里的区域<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>半径每等级半英里、深度每等级四分之一英里的区域<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：施法者圣徽，以及少量土、石或黏土
@@ -185,13 +185,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>半径每等级10英里、深度每等级半英里的区域<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>半径每等级10英里、深度每等级半英里的区域<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：圣徽，以及与目标矿脉同类的少量矿石；价值通常为普通金属1000金币、贵金属或宝石5000金币、秘银或精金等稀有金属10000金币
@@ -203,13 +203,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>2英尺<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>2英尺<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：价值25000至250000金币的精良材料
@@ -221,13 +221,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>6英尺<br>
-<strong>持续时间 Duration：</strong>每等级1轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>9段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>6英尺<br>
+<strong>持续时间：</strong>每等级1轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>9段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：少量泥土，以及价值至少1000金币、精工制作的微型石拳
@@ -239,13 +239,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>12回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>12回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：与矿床同类的矿物种子，普通金属价值5000金币，极稀有物质价值25000金币以上
@@ -257,13 +257,13 @@ Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 Len Carpenter · 第 10、11、12、13、14、15、16、17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>6英尺<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>最多2500平方英尺的城防表面<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>12回合<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>6英尺<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>最多2500平方英尺的城防表面<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>12回合<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：带钻石笔尖、价值至少5000金币的金制书写笔，以及所有参与联合术牧师的圣徽

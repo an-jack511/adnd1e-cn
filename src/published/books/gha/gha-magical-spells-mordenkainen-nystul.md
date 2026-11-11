@@ -4,78 +4,78 @@
 ### 魔邓肯的非魔法爬虫与两栖动物防御术 Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 5 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 受到此法术保护的生物，在与非魔法爬虫或两栖动物战斗时会获得优势，包括蛇、恐龙、青蛙以及这类动物的巨型种。龙不受此法术影响，其他拥有非自然能力的生物也不受影响。所有此类动物在攻击受保护生物时，生命骰都受到 −2 处罚；该生物针对爬虫或两栖动物毒素的豁免检定获得 +4 加值。材料成分是一小片蛇皮和一条干青蛙腿，放在硬化皮革袋中。
 
 ### 魔邓肯的昆虫与蛛形动物防护术 Mordenkainen's Protection from Insects and Arachnids（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 5 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术提供针对昆虫、蜘蛛和蝎子的保护，包括这类动物的巨型种和非自然种。所有这类动物攻击受保护生物时，生命骰受到 −2 处罚；受保护生物针对昆虫或蛛形动物毒液的所有豁免检定获得 +4 加值。此法术对所有种类的虫子合计不超过 20 生命骰时有效。如果超过 20 生命骰的昆虫发动攻击，法术会消散。材料成分是一只封在琥珀中的昆虫。
 
 ### 魔邓肯的电弧术 Mordenkainen's Electric Arc（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>每等级 5 码<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>伤害减半</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>每等级 5 码<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>伤害减半</div>
 
 <strong>解释／描述：</strong> 此法术会使一道或多道小型闪电从施法者的指尖迸发，击中一个或多个对手。施法者每三个等级可以产生一道闪电电弧。每道电弧造成 1d6 点伤害，再加上施法者每个等级 1 点伤害。对法术的豁免检定成功会使伤害减半。当每道电弧分别指向一个对手时，此法术最为有效。每个战斗轮只能有一道电弧击中一个目标；击中同一目标的其他电弧不起作用。材料成分是一小撮毛和一根玻璃棒。
 
 ### 魔邓肯的忠诚幻影盾女术 Mordenkainen's Faithful Phantom Shield-Maidens（召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>50 码<br>
-<strong>持续时间 Duration：</strong>每等级 3 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>50 码<br>
+<strong>持续时间：</strong>每等级 3 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会召唤一对闪烁的紫色幻影生物，它们会停在法师两侧，保护法师免受所有攻击。盾女的 AC 为 4（幻影锁子甲和大型盾牌）；移动 12”；HD 3；hp 20；伤害 1d6（幻影长矛）；THAC0 16；AL N。盾女会保持足够接近施法者，以便用盾牌帮助法师遮挡。一个盾女的盾牌会为施法者提供 −1 护甲等级加值。如果两名盾女都用盾牌保护施法者的同一侧，护甲等级加值就是 −2。虽然盾女可以保护施法者免受来自不同方向的攻击，但即便法师命令它们离开，它们也不会移动到距离施法者 50 英尺以外。无论施法者去往何处，它们都会通过魔法跟随。材料成分是一对小型水晶盾牌，用绳子系在施法者的微型木制人像上。
 
 ### 魔邓肯的防护黏液术 Mordenkainen's Protection from Slime（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 2 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 2 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术能帮助生物抵御所有霉菌、黏液、布丁、泥怪以及其他无形的原始生物发动的攻击。针对受保护生物的所有攻击都受到 −2 处罚，而受保护生物的豁免检定获得 +2 加值。此外，生物的皮肉对这类怪物的任何腐蚀攻击都具有高度抗性；为了抵抗黏液怪物的腐蚀攻击，视为实心石头。此法术在崩溃之前可以抵消来自黏液的最多 10d4 点伤害。材料成分是夹在两块扁平石头之间压实的一小块食物霉菌，以及一撮钻石尘。
 
 ### 魔邓肯的忠诚幻影防卫者术 Mordenkainen's Faithful Phantom Defenders（召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>60 码<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>60 码<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术召唤出一组幻影生物，它们显现为闪烁的紫色光线轮廓。防卫者会尽力停在法师与其敌人之间，为施法者提供足够时间和空间用法术保护自己。对大多数生物来说，幻影防卫者是实体，看起来像真实存在的生物。对法师而言，防卫者完全透明且没有实体，因此法师施放的任何攻击法术都不会影响防卫者。法师的法术可以穿过防卫者击中敌对生物。如果防卫者被施法者的法术作用范围覆盖，防卫者不会受到伤害。法师可以召唤四种不同的幻影防卫者组合之一，但施法者必须在记忆法术时决定召唤哪一组。每一组都最适合某种特定环境。四组防卫者如下：
 
@@ -92,26 +92,26 @@
 ### 魔邓肯私人密室 Mordenkainen's Private Sanctum（变化系－防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级 1 小时<br>
-<strong>影响范围 Area of Effect：</strong>一个房间<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级 1 小时<br>
+<strong>影响范围：</strong>一个房间<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术用于确保一个面积最多 1,600 平方英尺、尺寸为 40 英尺乘 40 英尺的房间保持私密。房间里的所有窗户从外面看都会变得昏暗而雾蒙蒙，使拥有正常视觉、红外视觉或其他特殊视觉的生物无法向房间内部窥视。房间内的人仍可以正常向外看。X 射线视觉无法穿透进入房间，就好像房间被铅盾完全封闭一样。无论声音多么响亮，都不能从房间中逃出，因此盗贼不能从外面窃听。诸如 ESP、听觉千里眼、视觉千里眼或水晶球之类的探知尝试无法穿透受保护的房间，魔法师之眼也无法进入。法师可以自由离开房间，而不会使保护失效。材料成分是一张薄铅片、一块不透明玻璃、一团棉花或布，以及粉末状黄玉髓。
 
 ### 魔邓肯的忠诚幻影守卫术 Mordenkainen's Faithful Phantom Guardian（召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会召唤一个忠诚的幻影生物，在一天之内看守并保护法师。守卫会留在以太位面，从那里作为无法被侦测的观察者监视施法者。守卫能看见施法者 60 英尺以内发生的事情，也能在法师周围区域发现隐形、错相、二维、以太或星界生物。如果守卫发现某个生物即将对施法者发动突袭，守卫会立即实体化，拦截攻击者并保护法师。
 
@@ -122,13 +122,13 @@
 ### 魔邓肯的末前思虑术 Mordenkainen's Penultimate Cogitation（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>施法者<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>施法者<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术允许法师从施法者个人法术书中的一本召回一个法术，前提是相应的法术书位于法师一英里以内。正如《玩家手册》中所解释的，该法术必须是施法者已知的法术。不能从卷轴或另一位法师的法术书中召回法术。被召回的法术可以是 1 至 6 级中的任意法术。每次施放末前思虑术只能召回一个法术。被召回的法术可以在之后的任何一轮施放。被召回的法术总有 10% 的几率会从法师的法术书中被魔法抹除。
 
@@ -137,39 +137,39 @@
 ### 涅斯图的舞动幽光术 Nystul's Dancing Werelight（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>60 码 + 每等级 20 码<br>
-<strong>持续时间 Duration：</strong>2 小时 + 每等级 1/2 小时<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>60 码 + 每等级 20 码<br>
+<strong>持续时间：</strong>2 小时 + 每等级 1/2 小时<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会创造一小点完全受施法者控制的光。光点发出的亮度可以按施法者意愿增强或减弱，从光亮术的亮度到蜡烛的昏光不等。幽光可以按施法者的指示从一处飘到另一处，只要始终留在法术射程内。幽光可以被召到施法者头顶，作为方便的阅读灯。幽光术不能附着在物体或生物上，只能作为悬在空中的光点存在。材料成分是一只活萤火虫。
 
 ### 涅斯图的闪光术 Nystul's Flash（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>30 码 + 每等级 5 码<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>半径 10 英尺的球体<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>30 码 + 每等级 5 码<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>半径 10 英尺的球体<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 <strong>解释／描述：</strong> 此法术会在一个半径 10 英尺的球体内制造突然的明亮闪光。作用范围内未通过对法术豁免检定的所有生物会目盲 1d4 轮。通过豁免检定的生物仅会晕眩 1d4 轮，所有生命骰受到 −2 处罚。它们在近战中也会失去平衡，因此对晕眩生物发动的任何攻击都获得 +2 命中修正。位于球体外、面向闪光的生物不会受到任何不良影响。没有眼睛的生物不受此法术影响。
 
 ### 涅斯图的黑微点术 Nystul's Blackmote（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>30 码 + 每等级 5 码<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>30 码 + 每等级 5 码<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会将一小点来自负能量位面的微观能量召唤到施法者手中。施法者必须立即以 +2 加值进行一次对死亡魔法的豁免检定，才能控制黑微点。如果施法者通过检定，黑微点会在法师手中休眠一轮，积蓄力量。在此期间施法者不能做任何其他事情，因为必须全神贯注于黑微点。如果施法者在此期间集中被打断，黑微点会被驱散。一轮结束时，法术达到完全力量，黑微点可以被掷向法术射程内的一个生物。黑微点会自动击中目标，在黑暗与寒冷的爆发中爆炸，造成 2d6 点伤害，再加上施法者每个等级 1 点伤害。亡灵，以及来自负能量位面或下层外位面的生物，不受黑微点影响。
 
@@ -178,52 +178,52 @@
 ### 涅斯图的灼热光束术 Nystul's Blazing Beam（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>30 码 + 每等级 10 码<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>30 码 + 每等级 10 码<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 <strong>解释／描述：</strong> 此法术从正能量位面抽取一部分能量到施法者手中，随后可以将其作为一道宽 1 英尺、射程最多为 30 英尺 + 每等级 10 英尺的光线发射出去。除了亡灵之外，被光束击中的生物都有权进行豁免检定。成功通过检定的生物只会被光束擦中，晕眩 1d4 轮，生命骰受到 −2 处罚，护甲等级受到 +2 处罚。未通过检定的生物会被光束正面完全击中，目盲 2d4 轮，生命骰受到 −4 处罚，AC 受到 +4 处罚。被光束击中的亡灵无权豁免，也不会晕眩或目盲，但会受到 4d6 点伤害。
 
 ### 涅斯图的水晶匕首术 Nystul's Crystal Dagger（塑能系－咒法系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>2 轮 + 每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>2 轮 + 每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会将一把由准元素矿物位面物质组成的匕首召唤到施法者手中，其中强烈注入了来自正物质位面的能量。水晶匕首没有命中加值，在近战中击中对手时造成 1d4 + 2 点伤害。对亡灵和来自下层外位面的生物，匕首造成 1d4 + 3 点伤害。如果水晶匕首对亡灵或下层位面生物造成最大伤害，该怪物会在接下来的近战轮中麻痹，而匕首会消失。材料成分是一把用精制铅水晶制成、价值 25金币的微型匕首。
 
 ### 涅斯图的水晶短剑术 Nystul's Crystal Dirk（塑能系－咒法系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>3 轮 + 每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>3 轮 + 每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术创造出一种类似于 2 级水晶匕首术所描述的武器。短剑带有微弱魔法，在攻击骰上提供 +1 加值。短剑命中时造成 1d4 + 2 点伤害。对亡灵和下层外位面的怪物，短剑成功命中时造成 1d4 + 3 点伤害。如果水晶短剑造成最大伤害，怪物会麻痹到命中后的下一轮结束。材料成分是一把用铅水晶制成、价值 35金币的微型匕首。
 
 ### 涅斯图的迅捷灭火术 Nystul's Expeditious Fire Extinguisher（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每等级 20 码<br>
-<strong>持续时间 Duration：</strong>1 段<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>每等级 20 码<br>
+<strong>持续时间：</strong>1 段<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 <strong>解释／描述：</strong> 这是影响普通火焰术的更强版本，能让施法者迅速扑灭大火。施法时，会从灰烬准位面瞬间将反能量抽向火焰。每个施法者等级最多 10 英尺范围的非魔法火焰都能在短短一段内熄灭，因此此法术非常适合对付森林火灾和灌木火灾。对魔法火焰，此法术的效果较弱。扑灭魔法火焰的几率只有 60%，而且无论施法者等级如何，最多只能熄灭 10 码乘 10 码的区域。此法术对火焰生物或从生物身体喷出的火焰不起作用，例如火元素、火焰咕噜或 VI 型恶魔。材料成分是一小撮与盐混合的冷灰。
 

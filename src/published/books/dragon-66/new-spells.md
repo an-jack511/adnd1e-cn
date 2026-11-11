@@ -9,13 +9,13 @@
 Gary Gygax · 第 25 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>6″ + 1″/级<br>
-<strong>持续时间 Duration：</strong>1 轮/级<br>
-<strong>影响范围 Area of Effect：</strong>4 平方″ + 1 平方″/级<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>6″ + 1″/级<br>
+<strong>持续时间：</strong>1 轮/级<br>
+<strong>影响范围：</strong>4 平方″ + 1 平方″/级<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 施法时段<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：少许羊毛与数粒沙
@@ -29,13 +29,13 @@ Gary Gygax · 第 25 页
 Gary Gygax · 第 24 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>9″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>3″ 立方体<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>9″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>3″ 立方体<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 除所列参数外同牧师三环解除魔法。幻术师以实际等级减二计算解除效力，例如九级按七级处理；不能把该早期版本直接当作法师三环版本。
@@ -45,13 +45,13 @@ Gary Gygax · 第 24 页
 Gary Gygax · 第 25 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>1″/级<br>
-<strong>持续时间 Duration：</strong>1 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>半径 1″/级<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无；发现异常后特殊
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>1″/级<br>
+<strong>持续时间：</strong>1 回合/级<br>
+<strong>影响范围：</strong>半径 1″/级<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>无；发现异常后特殊
 </div>
 
 材料：价值至少 100金币的优质黑丝方巾
@@ -65,13 +65,13 @@ Gary Gygax · 第 25 页
 Gary Gygax · 第 24 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>2 轮/级<br>
-<strong>影响范围 Area of Effect：</strong>施法者<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>1 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>2 轮/级<br>
+<strong>影响范围：</strong>施法者<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>1 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：一小片纱与一缕烟
@@ -85,13 +85,13 @@ Gary Gygax · 第 24 页
 Gary Gygax · 第 22 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0；投掷至多 3″<br>
-<strong>持续时间 Duration：</strong>依颜色<br>
-<strong>影响范围 Area of Effect：</strong>1 生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>依颜色
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0；投掷至多 3″<br>
+<strong>持续时间：</strong>依颜色<br>
+<strong>影响范围：</strong>1 生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 施法时段<br>
+<strong>豁免检定：</strong>依颜色
 </div>
 
 材料：价值至少 50金币的相应颜色宝石或透明宝石

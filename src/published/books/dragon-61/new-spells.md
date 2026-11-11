@@ -9,13 +9,13 @@
 Gary Gygax · 第 7 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>原刊未另载<br>
-<strong>影响范围 Area of Effect：</strong>1″ 声音区域<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>⅙ 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>成功对该听者无效
+<strong>等级：</strong>0<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>原刊未另载<br>
+<strong>影响范围：</strong>1″ 声音区域<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>⅙ 施法时段<br>
+<strong>豁免检定：</strong>成功对该听者无效
 </div>
 
 制造模糊混杂的幻音，可像远处多人说话、翅膀与风、脚步搬物等，但不能清楚传达话语。声音区域距施法者至多 1″，区内每名生物各自豁免。

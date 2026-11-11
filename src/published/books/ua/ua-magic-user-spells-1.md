@@ -7,26 +7,26 @@
 ## 魔法警报 Alarm（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>2–8 回合＋每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>每级至多 20 平方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>2–8 回合＋每级 1 回合<br>
+<strong>影响范围：</strong>每级至多 20 平方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 使门口、地板、楼梯等指定区域在有<strong>大于普通老鼠</strong>的活物接触、踩上时发出警报；门槛约为体积超过 <strong>1/2 立方尺</strong>或重量超过约 <strong>3 磅</strong>。铃声持续 <strong>1 段</strong>，在半径 <strong>60″</strong>内清楚可闻；若中间隔门，听觉半径减 <strong>10″</strong>，若隔厚墙，减 <strong>20″</strong>。隐形者、其他位面但仍活着的生物会触发；不死生物、以太态或星界投射生物不会。飞行和浮空的生物接触警戒区域时仍会触发。材料成分是一只小铃与一段极细的银线。
 
 ## 护甲术 Armor（咒法系 Conjuration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 在目标周围形成魔法力场，保护如同皮甲，即 <strong>AC 8</strong>。已有护甲者不会获益；若生物因体型、速度、皮肤等本来拥有优于 <strong>AC 9</strong> 的护甲等级，则现有 AC 再改善 <strong>1 级</strong>，如 AC 8 变 7。法术不妨碍移动，不增加重量或负重，也不阻止施法。
 
@@ -37,52 +37,52 @@
 ## 火水术 Firewater（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 品脱水<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>每级 1 品脱水<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 将水变成类似酒精、比水轻而且易挥发、易燃的物质。接触火焰、火星便猛烈燃烧，处于火水火焰中的每个生物受 <strong>2–12 点伤害</strong>。即使密封保存，火水也会在 <strong>1 轮</strong>内蒸发而失效，故须在变成后的 <strong>10 段</strong>内点燃。材料成分是数粒糖和一颗葡萄干。
 
 ## 油腻术 Grease（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 平方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>每级 1 平方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 在目标区域生成一层滑腻的油脂。走进该处的生物须<strong>对石化豁免</strong>，否则滑倒；已察觉油面者或许能绕开。也可令绳索、梯级、武器握柄等其他表面变滑。无人持用的物体总会受术；若物体正被生物拿着或使用，持用者<strong>对法术豁免失败</strong>时才会生效。一次成功豁免即可免除效果。材料成分是猪皮、黄油或其他油脂。
 
 ## 熔化术 Melt（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 立方码冰，或 2 立方码雪<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>每级 1 立方码冰，或 2 立方码雪<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 骤然升高影响范围内的温度，使 <strong>1 立方码冰</strong>在 <strong>1 轮</strong>内融成水；同样体积的雪须 <strong>2 轮</strong>融化，或在 <strong>1 轮</strong>内把 <strong>2 立方码雪</strong>变成水。对<strong>白龙、冬狼、雪人、披毛犀、准元素冰构成的生物</strong>等，每施法者等级造成 <strong>2 点伤害</strong>；目标对法术豁免成功则每级受 <strong>1 点</strong>。对其他类型生物通常无效。材料成分是几粒岩盐晶体及一撮煤烟。
 
 ## 坐骑术 Mount（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>12 回合＋每级 6 回合<br>
-<strong>影响范围 Area of Effect：</strong>一只生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>12 回合＋每级 6 回合<br>
+<strong>影响范围：</strong>一只生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 召来一只普通动物，自愿充当坐骑；法术结束时它消失并回到原处。施法者可选其等级所允许的较低档坐骑。
 
@@ -98,39 +98,39 @@
 ## 降水术 Precipitation（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>每级 1 段<br>
-<strong>影响范围 Area of Effect：</strong>直径 3″、最高 12″ 的圆柱<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无（及特殊情况）</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>每级 1 段<br>
+<strong>影响范围：</strong>直径 3″、最高 12″ 的圆柱<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无（及特殊情况）</div>
 
 效果与[牧师一环的同名法术](/books/ua/ua-cleric-spells-1/)相同，包括细雨对材料、火焰、温度和魔法冷热的作用；只是材料成分<strong>不需要圣徽</strong>。此版施法时间是 <strong>1 段</strong>，牧师版为 <strong>3 段</strong>。
 
 ## 奔跑术 Run（附魔系 Enchantment）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>5–8 小时<br>
-<strong>影响范围 Area of Effect：</strong>特殊；仅人类与亚人类<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>5–8 小时<br>
+<strong>影响范围：</strong>特殊；仅人类与亚人类<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 使受术者以<strong>两倍通常速度</strong>全速奔跑 <strong>5–8 小时</strong>而不疲倦。结束后须休息同样时数，并大量饮水、充分进食。施法者每有 <strong>2 级</strong>可影响一人：4 级可影响 2 人，6 级可影响 3 人，依此类推。只影响保持自然形态的人类与亚人类；有职业特殊奔跑能力的野蛮人免疫。材料成分是以泉水煮干李子所得的汁液，以及 <strong>5–8 粒蓖麻种子</strong>的油调成的药剂。
 
 ## 嘲讽术 Taunt（附魔系 Enchantment）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>每级共 2 等级或生命骰<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>每级共 2 等级或生命骰<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 让施法者的嘲弄和辱骂对<strong>智力至少 2</strong>的目标真正带有挑衅含义。对法术豁免失败者愤怒地冲向施法者，只要身体能做到，便会用身体或手持武器攻击，而非远程攻击。无法穿越的障碍，如火墙、深壑，会使法术中断。
 
@@ -139,13 +139,13 @@
 ## 巫师印记 Wizard Mark（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>1 平方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>1 平方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 在石、金属或更软材料上无损地刻下施法者自己的符文或记号，可见或不可见，还可附最多 <strong>6 个</strong>较小字符。不可见印记被*侦测魔法*作用时会发光并可被阅读，但未必能被理解；*侦测隐形*、*真知术*、*真实视界*、*窥视宝石*或*百目长袍*也能发现它。*阅读魔法*揭示留下印记者的意图，*抹消术*可清除印记。
 

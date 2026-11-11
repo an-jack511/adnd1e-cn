@@ -9,13 +9,13 @@
 Thomas M. Kane · 第 16 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>2 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>1 个曾击败的宿敌之灵<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>2 回合/级<br>
+<strong>影响范围：</strong>1 个曾击败的宿敌之灵<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：价值 100金币的罕见草药及圣徽
@@ -29,13 +29,13 @@ Thomas M. Kane · 第 16 页
 Thomas M. Kane · 第 16 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>无限<br>
-<strong>持续时间 Duration：</strong>依附加效果<br>
-<strong>影响范围 Area of Effect：</strong>1 人<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 天<br>
-<strong>豁免检定 Saving Throw：</strong>可先抵抗偶像巫术，再按附加法术另作豁免
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>无限<br>
+<strong>持续时间：</strong>依附加效果<br>
+<strong>影响范围：</strong>1 人<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 天<br>
+<strong>豁免检定：</strong>可先抵抗偶像巫术，再按附加法术另作豁免
 </div>
 
 材料：目标写实像 ≥500金币；装饰铜针／银针；每级 10金币的油

@@ -30,12 +30,12 @@ AL 中立善良或中立；RA 淡绿色长袍；AEx +5%；WPN 长弓*、小刀�
 #### 潜行 Stalk（变化／防护）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>5 轮／等级<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、M<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>5 轮／等级<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、M<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 此法术使目标在自然环境中几乎不可见，也几乎完全无声，仿佛穿着精灵斗篷和精灵之靴。此外，受术者的气味几乎完全被遮蔽。一个保持静止的受术者，在距离超过 30 英尺时，无论多远，都无法被非魔法手段侦测到。移动不会使法术失效；它只会让非魔法侦测变得可能。法术会在持续时间结束时失效，或者在受术者发动攻击时失效。材料成分是艾罗娜的独角兽角圣徽和一块干燥的变色龙皮。

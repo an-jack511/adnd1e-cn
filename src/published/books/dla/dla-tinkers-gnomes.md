@@ -35,7 +35,7 @@
 | 属性 | 最低值 |
 |---|---:|
 | 力量 Strength | — |
-| 智力 Intelligence | 10／15* |
+| 智力 | 10／15* |
 | 智慧 Wisdom | （12）** |
 | 敏捷 Dexterity | 12 |
 | 体质 Constitution | — |

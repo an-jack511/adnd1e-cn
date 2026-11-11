@@ -7,13 +7,13 @@
 ## 繁彩球 Chromatic Orb（变化／塑能系 Alteration-Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0；可投至 <strong>3″</strong><br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0；可投至 <strong>3″</strong><br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 幻术师在手中生成一枚不同颜色的小球，朝无遮挡、距自己不超过 <strong>3″</strong>的目标掷出。法球本身具有魔法，命中后连通常只能由 <strong>＋4、＋5</strong>等武器伤害的生物也受影响；魔法抗性仍然适用。目标距施法者 <strong>1″</strong>以内时命中 <strong>＋3</strong>，超过 <strong>1″</strong>至 <strong>2″</strong>时 <strong>＋2</strong>，超过 <strong>2″</strong>至 <strong>3″</strong>时 <strong>＋1</strong>。未命中的法球直接消散。幻术师可选择自己等级允许的任意颜色，也可选择较低等级的颜色。
 

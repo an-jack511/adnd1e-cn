@@ -9,13 +9,13 @@
 D.F. Fjellhaugen · 第 58 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>等待期 24 小时/级；恢复永久<br>
-<strong>影响范围 Area of Effect：</strong>受触生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>7 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>等待期 24 小时/级；恢复永久<br>
+<strong>影响范围：</strong>受触生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>7 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 受伤者每轮恢复一点生命值，总量 1d4+1。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。
@@ -33,13 +33,13 @@ D.F. Fjellhaugen · 第 58 页
 D.F. Fjellhaugen · 第 58 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>等待期 48 小时/级；恢复永久<br>
-<strong>影响范围 Area of Effect：</strong>受触生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>9 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>等待期 48 小时/级；恢复永久<br>
+<strong>影响范围：</strong>受触生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>9 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 受伤者每轮恢复一点生命值，总量 2d4+3。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。
@@ -57,13 +57,13 @@ D.F. Fjellhaugen · 第 58 页
 D.F. Fjellhaugen · 第 58、60 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>等待期 72 小时/级；恢复永久<br>
-<strong>影响范围 Area of Effect：</strong>受触生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>等待期 72 小时/级；恢复永久<br>
+<strong>影响范围：</strong>受触生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 受伤者每轮恢复一点生命值，总量 3d4+6。若施法时满生命值，则在等待期内首次受伤后启动；恢复至满值或达到总额度即结束，不能把剩余额度留待下次受伤。

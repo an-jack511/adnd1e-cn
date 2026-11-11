@@ -11,13 +11,13 @@
 #### 和谐对立圆盘 Disc of Concordant Opposition（塑能术）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>10 码<br>
-<strong>持续时间 Duration：</strong>1 次攻击<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>10 码<br>
+<strong>持续时间：</strong>1 次攻击<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 当博克布的牧师有资格施展 6 环法术时，会获赐此法术。它是博克布自己的和谐对立圆盘的弱化版本。施展法术时，牧师会召来一枚圆盘；除非生物对魔法具有抗性，否则圆盘会把大多数生物轰成虚无。
 
@@ -88,12 +88,12 @@ AL 任意善良；RA 布满星辰的黑袍；AEx +10%；WPN 长矛*、短剑、�
 #### 流星 Meteors（塑能术）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>20 码<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>20 码<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 此法术创造 2–5（1d4+1）个直径 6 英寸的石球。它们从施法者手中射出，沿直线飞向施法者选择的一个或多个目标。除非目标成功进行对法术豁免，流星必定击中目标（敏捷和种族加值不适用）；若射程为 10 码或更近，豁免受到 -2 处罚。每颗命中的流星造成 1d4+4 点伤害。施法者可以逐颗或同时释放流星，但法术持续时间结束时仍未释放的流星都会消失。材料成分是塞莱斯蒂安的星辰圆环象征，施法牧师必须处在露天之下才能施展此法术。

@@ -27,13 +27,13 @@ Peter Dosik · 第 26、27、28 页
 Peter Dosik · 第 27、28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>高于4级的每等级5轮<br>
-<strong>影响范围 Area of Effect：</strong>1名半身人<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>2段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>高于4级的每等级5轮<br>
+<strong>影响范围：</strong>1名半身人<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>2段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 使半身人长到人类大小，装备同比例变大，力量+2；超过18时进入18／01。无法以魔法识破真实种族。施法者可随时恢复自身体型，施放于他人则持续至法术结束。
@@ -43,13 +43,13 @@ Peter Dosik · 第 27、28 页
 Peter Dosik · 第 27、28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>即时<br>
-<strong>影响范围 Area of Effect：</strong>半径半英里<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>即时<br>
+<strong>影响范围：</strong>半径半英里<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 把一个预先在祈祷时确定的单词放大到户外约半英里范围，例如“入侵者！”或“救命！”。施法时不能更换词语。
@@ -59,13 +59,13 @@ Peter Dosik · 第 27、28 页
 Peter Dosik · 第 27、28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>施法者的剑<br>
-<strong>成分 Components：</strong>V、M<br>
-<strong>施法时间 Casting Time：</strong>2段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>施法者的剑<br>
+<strong>成分：</strong>V、M<br>
+<strong>施法时间：</strong>2段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：短剑和一撮硫磺
@@ -77,13 +77,13 @@ Peter Dosik · 第 27、28 页
 Peter Dosik · 第 27、28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>施法者的剑<br>
-<strong>成分 Components：</strong>V、M<br>
-<strong>施法时间 Casting Time：</strong>2段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>施法者的剑<br>
+<strong>成分：</strong>V、M<br>
+<strong>施法时间：</strong>2段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：短剑和一撮硫磺
@@ -95,13 +95,13 @@ Peter Dosik · 第 27、28 页
 Peter Dosik · 第 27、28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>9轮+高于7级的每等级3轮<br>
-<strong>影响范围 Area of Effect：</strong>1名半身人<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>3段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>9轮+高于7级的每等级3轮<br>
+<strong>影响范围：</strong>1名半身人<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>3段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 使半身人及其装备变成丘陵巨人大小，短剑变成巨人单手使用的巨剑，力量变为19。没有额外护甲等级变化，因为半身人没有巨人般的皮肤。

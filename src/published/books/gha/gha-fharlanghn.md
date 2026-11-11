@@ -40,12 +40,12 @@ AL 中立；RA 见下文；AEx 无；WPN 标准；SPH 星界、元素、治疗�
 #### 脚痛 Footsore（附魔／魅惑）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>20 码<br>
-<strong>持续时间 Duration：</strong>1 天／等级<br>
-<strong>影响范围 Area of Effect：</strong>每等级 1 个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>NA</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>20 码<br>
+<strong>持续时间：</strong>1 天／等级<br>
+<strong>影响范围：</strong>每等级 1 个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>7 段<br>
+<strong>豁免检定：</strong>NA</div>
 
 这种特殊诅咒会使任何超过一里格（三英里）的旅程变成正常时间的两倍。受害者会拖着脚走路，在圆圈或不规则的线路上行走，坚持进行长时间休息，并采取其他行动（或不采取行动），以增加已经走过的距离或减慢旅行速度。受害者所骑乘的任何坐骑也会受到类似影响。

@@ -7,26 +7,26 @@
 ## 变身术 Alter Self（变化／幻术系 Alteration/Illusion）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong><strong>3–12 轮＋每级 2 轮</strong><br>
-<strong>影响范围 Area of Effect：</strong>幻术师本人<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong><strong>3–12 轮＋每级 2 轮</strong><br>
+<strong>影响范围：</strong>幻术师本人<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 类似*改变自身外貌 Change Self*，但改变具有<strong>半真实</strong>性质，身材可较原本增减 <strong>50%</strong>。所选形态若有翅膀，幻术师确能飞行，但速度仅为该生物真实飞行速度的 <strong>1/4</strong>，机动等级降低两档，最低到 <strong>E</strong>。若有鳃，可在法术持续期间水下呼吸。变成更大的生物并不会自动得到额外攻击或伤害，除非幻术师本就习惯该形态。
 
 ## 着迷术 Fascinate（幻术／幻影系 Illusion/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 幻术师试图吸引目标的注意，赢得其喜爱、友谊或服从。此术使施法者在目标眼中成了可信赖或渴望亲近的伙伴。若目标对法术豁免失败，便会尽可能跟随幻术师，只要不必过分危及自己的性命或安全。
 
@@ -37,26 +37,26 @@
 ## 紫外视觉 Ultravision（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong><strong>6 回合＋每级 1 回合</strong><br>
-<strong>影响范围 Area of Effect：</strong>接触的生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong><strong>6 回合＋每级 1 回合</strong><br>
+<strong>影响范围：</strong>接触的生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 除上述等级、施法时间与持续时间等差别外，作用与[魔法师四环紫外视觉](/books/ua/ua-magic-user-spells-4/)相同。原书另指出，智力高的生物可能凭天生或魔法赋予的紫外视觉察觉隐形生物。此幻术师版本的材料成分为<strong>胡萝卜精质粉末</strong>。
 
 ## 风讯术 Whispering Wind（变化／幻影系 Alteration/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>半径 <strong>2″</strong><br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>半径 <strong>2″</strong><br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 可传递讯息或制造指定声响。地下传送距离以施法者等级乘 <strong>10 尺</strong>计算，地表以上则以等级乘<strong>英里</strong>计算；例如三级幻术师可在地下传 <strong>30 尺</strong>，户外传 <strong>3 英里</strong>。风在抵达指定目标前，轻柔得仿佛无人注意的微风；抵达后以低语声传讯，或发出别的声音，至多持续 <strong>2 段</strong>，随后消失。目标超出射程、施法后超过 <strong>2 小时</strong>，或法术被魔法解除时，它也会消失。
 

@@ -59,13 +59,13 @@
 ### 斯彭德拉德的追逐 Spendelard’s Chaser
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>8 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无<br>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>施法者每等级 1 轮<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>8 个轮<br>
+<strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>死灵</div>
 
 
@@ -78,13 +78,13 @@
 ### 离心术 Dismind
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>9<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V<br>
-<strong>施法时间 Casting Time：</strong>2 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无<br>
+<strong>等级：</strong>9<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V<br>
+<strong>施法时间：</strong>2 个轮<br>
+<strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>心灵创造</div>
 
 
@@ -95,13 +95,13 @@
 ## 图尔伦的追踪 Tulrun’s Tracer
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>施法者每等级 1 英寸<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>8 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无<br>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>施法者每等级 1 英寸<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>8 个轮<br>
+<strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>预言／变化</div>
 
 
@@ -114,13 +114,13 @@
 ## 图西林的鬼魅睡眠 Tusirin’s Haunted Sleep
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>否<br>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>施法者每等级 1 轮<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>否<br>
 <strong>学派 School：</strong>附魔／魅惑</div>
 
 

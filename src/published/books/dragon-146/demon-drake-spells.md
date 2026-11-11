@@ -9,13 +9,13 @@
 David E. Cates · 第 18 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊；见正文<br>
-<strong>影响范围 Area of Effect：</strong>½ 立方英尺<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效；正文规定对麻痹豁免
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊；见正文<br>
+<strong>影响范围：</strong>½ 立方英尺<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功无效；正文规定对麻痹豁免
 </div>
 
 材料：一小块羊毛、鸟绒或类似物品
@@ -29,13 +29,13 @@ David E. Cates · 第 18 页
 David E. Cates · 第 18 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>30 英尺<br>
-<strong>持续时间 Duration：</strong>24 小时<br>
-<strong>影响范围 Area of Effect：</strong>直径 10 英尺球形<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>30 英尺<br>
+<strong>持续时间：</strong>24 小时<br>
+<strong>影响范围：</strong>直径 10 英尺球形<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功无效
 </div>
 
 材料：蜥蜴皮或蛇皮
@@ -49,13 +49,13 @@ David E. Cates · 第 18 页
 David E. Cates · 第 19 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>24 小时<br>
-<strong>影响范围 Area of Effect：</strong>10 英尺球形；正文另列 5 英尺与 10 英尺距离<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>对魔杖豁免成功伤害减半
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>24 小时<br>
+<strong>影响范围：</strong>10 英尺球形；正文另列 5 英尺与 10 英尺距离<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>对魔杖豁免成功伤害减半
 </div>
 
 材料：至少价值 1金币的宝石

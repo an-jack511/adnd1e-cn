@@ -9,13 +9,13 @@
 Bill Muhlhausen, et al · 第 62、65 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>6 回合<br>
-<strong>影响范围 Area of Effect：</strong>至多宽 4″、高 4″、厚 1″<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>4 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未另列；穿越受 HD 限制
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>6 回合<br>
+<strong>影响范围：</strong>至多宽 4″、高 4″、厚 1″<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>4 施法时段<br>
+<strong>豁免检定：</strong>原刊未另列；穿越受 HD 限制
 </div>
 
 材料：由主持人决定
@@ -33,13 +33,13 @@ Bill Muhlhausen, et al · 第 62、65 页
 Bill Muhlhausen, et al · 第 62、67 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>12″<br>
-<strong>持续时间 Duration：</strong>3 回合/级，或至解除<br>
-<strong>影响范围 Area of Effect：</strong>1 个半智能以上生物<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>6 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>有魔抗者正常；无魔抗者 −2
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>12″<br>
+<strong>持续时间：</strong>3 回合/级，或至解除<br>
+<strong>影响范围：</strong>1 个半智能以上生物<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>6 施法时段<br>
+<strong>豁免检定：</strong>有魔抗者正常；无魔抗者 −2
 </div>
 
 材料：由主持人决定

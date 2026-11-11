@@ -3,13 +3,13 @@
 ### 荆棘缠绕 Briartangle（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>每等级 1 英寸（从施法者到选定法术焦点的距离）<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>减半</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>每等级 1 英寸（从施法者到选定法术焦点的距离）<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 个轮<br>
+<strong>豁免检定：</strong>减半</div>
 
 
 荆棘缠绕会把活灌木或任何下层植被瞬间变成密集、纠缠、最棘手的荆棘，长到 6 英尺高，水平体积为半径 1 英寸的圆，再加上施法者每 2 级增加 1 英寸半径。荆棘可以被强行穿过，但会钩住并拦截其中的飞弹、投掷物和飞行生物。
@@ -23,13 +23,13 @@
 ### 荆棘喷射 Thorn spray（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>1 英寸<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>1 英寸<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 个轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 德鲁伊使自然生长或魔法创造的荆棘、尖刺或棘刺从手中，或 1 英寸内的灌木与休息处中，以力量向外射出。每根荆棘造成 1 点伤害，可在施法轮内飞至 12 英寸，攻击德鲁伊看得见的任意生物或非生物目标。每根荆棘以 +4 命中，如同德鲁伊亲自挥舞，忽略射程减值。
@@ -39,13 +39,13 @@
 ### 死亡战车 Death chariot（塑能／召唤）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>1 英寸<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>1 英寸<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 施法时雷鸣响起，烟云从施法者身边涌出；烟云中出现一辆由两匹火焰战马拉动的燃烧战车。它在地面速度 24 英寸，飞行速度 48 英寸，可搭载最多九个类人生物，施法者不必在其中。战车热得像火炬。火焰战马会伤害试图靠近者；触碰一匹战马造成 3–24 点火焰伤害，但登车或触碰战车本身不会造成伤害。
@@ -71,12 +71,12 @@
 ### 散射喷 Scatterspray（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>以法术焦点为中心，每等级 1 英寸<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 个轮</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>以法术焦点为中心，每等级 1 英寸<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 个轮</div>
 
 
 施法者令作用范围半径 1 英寸球体内、没有被束缚的鸡蛋或硬币大小及更小物体向各方向猛烈喷射，如同爆炸抛出。物体必须是施法者手边或身上的物品，不能由法术创造；硬币、弹珠、宝石、骰子、投石弹等最常用。宝贵物品会被抓取，因此不应浪费或误用获得的东西。

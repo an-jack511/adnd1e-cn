@@ -9,13 +9,13 @@
 Rick Reid · 第 28 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>距离 Range：</strong>原刊未列；须把火焰置于木材上<br>
-<strong>持续时间 Duration：</strong>木材干燥后；未载回潮时限<br>
-<strong>影响范围 Area of Effect：</strong>1 立方英尺木材<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>⅕ 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>0<br>
+<strong>距离：</strong>原刊未列；须把火焰置于木材上<br>
+<strong>持续时间：</strong>木材干燥后；未载回潮时限<br>
+<strong>影响范围：</strong>1 立方英尺木材<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>⅕ 施法时段<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 材料：小火把或火焰；原刊未另列锯切手势所用材料
@@ -29,13 +29,13 @@ Rick Reid · 第 28 页
 Rick Reid · 第 28、29 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>距离 Range：</strong>原刊未列；对准伤口<br>
-<strong>持续时间 Duration：</strong>未载固定时限；伤口照常愈合<br>
-<strong>影响范围 Area of Effect：</strong>1 人的轻微伤口<br>
-<strong>成分 Components：</strong>S<br>
-<strong>施法时间 Casting Time：</strong>⅒ 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>0<br>
+<strong>距离：</strong>原刊未列；对准伤口<br>
+<strong>持续时间：</strong>未载固定时限；伤口照常愈合<br>
+<strong>影响范围：</strong>1 人的轻微伤口<br>
+<strong>成分：</strong>S<br>
+<strong>施法时间：</strong>⅒ 施法时段<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 对轻微伤口施放，防止感染，不恢复生命值。之后即使没有包扎或保持清洁，伤口仍按通常速度愈合。手势为吮吸一只手的食指，同时用另一手指向伤口；未另列言语或材料。
@@ -47,13 +47,13 @@ Rick Reid · 第 28、29 页
 Rick Reid · 第 28、29 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>距离 Range：</strong>自身<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>施法者<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>⅒ 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>0<br>
+<strong>距离：</strong>自身<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>施法者<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>⅒ 施法时段<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 暂时中和自身气味，依赖嗅觉辨识陌生者的动物不会因气味察觉施法者；这期间接触的生物与物品也不会沾上其气味。做把想象中的液体倒入手心并涂身的动作，同时哼短曲；不使外形或声音消失。

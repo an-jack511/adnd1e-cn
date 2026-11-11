@@ -9,13 +9,13 @@
 David Ulrich · 第 63 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>15 英尺；指挥距离另见说明<br>
-<strong>持续时间 Duration：</strong>12 回合 + 1 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>1 动物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 轮<br>
-<strong>豁免检定 Saving Throw：</strong>友好动物无；普通动物正常
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>15 英尺；指挥距离另见说明<br>
+<strong>持续时间：</strong>12 回合 + 1 回合/级<br>
+<strong>影响范围：</strong>1 动物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 轮<br>
+<strong>豁免检定：</strong>友好动物无；普通动物正常
 </div>
 
 材料：目标动物喜欢的食物
@@ -29,13 +29,13 @@ David Ulrich · 第 63 页
 Michael Harrison · 第 61 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>至多 10″×10″ 神龛或 20″×20″ 神殿<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>特殊；见区域效力
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>至多 10″×10″ 神龛或 20″×20″ 神殿<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>特殊；见区域效力
 </div>
 
 材料：勾勒区域的圣物质、相应价值祭品；神殿另需珍贵魔法物品

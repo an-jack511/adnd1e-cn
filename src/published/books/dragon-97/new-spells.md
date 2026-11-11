@@ -9,13 +9,13 @@
 Ed Greenwood · 第 31 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>施法当轮及随后 1 轮/级<br>
-<strong>影响范围 Area of Effect：</strong>随施法者移动、半径 1″/级球体<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>2 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>施法当轮及随后 1 轮/级<br>
+<strong>影响范围：</strong>随施法者移动、半径 1″/级球体<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>2 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：至少价值 50金币的钻石粉

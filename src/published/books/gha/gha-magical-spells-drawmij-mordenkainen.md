@@ -4,26 +4,26 @@
 ### 卓姆吉的负重兽术 Drawmij's Beast of Burden（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>30 码<br>
-<strong>持续时间 Duration：</strong>每等级 2 小时<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>30 码<br>
+<strong>持续时间：</strong>每等级 2 小时<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会部分减轻放置在一匹坐骑上的货物重量。坐骑上所有物体（包括骑乘者）的有效负重都会减少一半，实际上等于让坐骑能够承载双倍重量。一匹坐骑若在没有法术保护的情况下突然发现自己承载了相当于最大负重一又二分之一的重量，就无法行走，会慢慢沉到地面，并有 50% 的几率变瘸。一匹坐骑若突然负担了两倍于最大负重的重量，就会倒地，受到 1d6 点伤害，并自动变瘸。材料成分是一块磁石和一撮金属锉屑。
 
 ### 卓姆吉的轻步术 Drawmij's Light Step（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 5 轮<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术赋予生物一种非常有限的悬浮能力。生物可以正常在任何表面上行走，但脚步如此轻盈，以至于身后不会留下足迹。如果生物开始冲锋或奔跑，法术会立即结束。
 
@@ -32,39 +32,39 @@
 ### 卓姆吉的冒险者幸运术 Drawmij's Adventurer's Luck（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>3 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>3 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会赋予被接触的生物一种特殊形式的幸运。在法术持续期间，此魔法的接受者可以表现得如同手持幸运石并使用其魔法效果。材料成分是价值 5,00金币的红宝石粉，洒在生物头顶后会消失。
 
 ### 卓姆吉的生命气息术 Drawmij's Breath of Life（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>100 码<br>
-<strong>持续时间 Duration：</strong>5 轮<br>
-<strong>影响范围 Area of Effect：</strong>每等级 1 个生物<br>
-<strong>成分 Components：</strong>V<br>
-<strong>施法时间 Casting Time：</strong>1/6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>100 码<br>
+<strong>持续时间：</strong>5 轮<br>
+<strong>影响范围：</strong>每等级 1 个生物<br>
+<strong>成分：</strong>V<br>
+<strong>施法时间：</strong>1/6 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 借助此法术的力量，法师可以赋予一个或多个生物足够的耐力，使其能够屏住呼吸整整五轮。受影响的生物在屏住呼吸期间不会溺水，也不会受到吸入气体的影响。施法者每个经验等级可以将法术赋予一个生物。此法术只有一个词那么长，也没有姿势或材料成分，因此法师可以在紧急情况下迅速施放它。
 
 ### 卓姆吉的气味遮罩术 Drawmij's Scent Mask（幻术／幻象系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>每等级 1 个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>每等级 1 个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 <strong>解释／描述：</strong> 此法术会在其持续期间遮蔽从生物身上散发出的所有气味。如果施法对象是法师本人或其他人，此人就不会被嗅觉发现。
 
@@ -73,26 +73,26 @@
 ### 卓姆吉的迅捷坐骑术 Drawmij's Swift Mount（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>2 小时 + 每等级 1/2 小时<br>
-<strong>影响范围 Area of Effect：</strong>每两等级 1 匹坐骑<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>2 小时 + 每等级 1/2 小时<br>
+<strong>影响范围：</strong>每两等级 1 匹坐骑<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong>此法术会在持续期间使任何奔跑、游泳或飞行的坐骑移动速度加倍。法术结束后，坐骑会完全精疲力竭，并且在 24 小时内拒绝再移动。此法术不会以任何方式增加坐骑能够承载的重量。坐骑的最大负重限制不受影响。让坐骑超出其限制负重会自动使法术失效。卓姆吉（Drawmij）的负重兽术不能与迅捷坐骑术结合，以增加赛跑坐骑能够承载的负重。材料成分是一只兔脚或一小撮猎豹毛。
 
 ### 卓姆吉的奇妙护盾术 Drawmij's Marvelous Shield（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>法师<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>法师<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术是 1 级护盾术的改进版本。只要法师意识到攻击，它就会保护施法者免受来自所有方向的攻击，包括后方和上方。突袭会完全驱散改进护盾的保护。
 
@@ -101,39 +101,39 @@
 ### 卓姆吉的铁袋术 Drawmij's Iron Sack（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>6 小时 + 每等级 2 小时<br>
-<strong>影响范围 Area of Effect：</strong>一个袋子<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>6 小时 + 每等级 2 小时<br>
+<strong>影响范围：</strong>一个袋子<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会为一个普通袋子或背包中的物品提供更强的保护。受影响的袋子受到保护时，就仿佛内部完全衬有一英寸厚的实心钢材，尽管袋子不会因此变得更重或更不灵活。袋子针对物理或魔法伤害进行豁免检定时，视为由硬金属制成，并在豁免检定上额外获得 +2 加值。袋中的物品只有在袋子豁免失败时才需要检定。材料成分是一条一面缝有锁子甲的皮带。
 
 ### 卓姆吉的便携时计术 Drawmij's Handy Timepiece（咒法／召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>另一法术的持续时间<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>另一法术的持续时间<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术施放后，同一施法者施放的下一个法术会被计时。一只小型金色锣会出现在施法者面前，并在法术结束前一分钟轻轻鸣响警告。此魔法只对持续时间少于 48 小时的法术有效。要施放此法术，法师必须收集一根候鸟的羽毛、一只果蝇、几粒沙子、一只价值 10金币的实心银摆锤，以及一枚工艺精美、价值 5,00金币的实心金球；所有这些物品都会随法术结束而消失。
 
 ### 卓姆吉的瞬间出口术 Drawmij's Instant Exit（变化系－咒法系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>30 码<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>30 码<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术能让法师及其他人使用一种有限且危险的传送形式。施法时，一扇门会突然出现在施法者 3 码以内的墙壁或其他平坦表面上。施法者以及一轮内能够通过这扇门的其他人（通常速率为每段一个生物或人）可以穿过门口，进入一个虚无空间区域。当法师在身后关上门时，法师和虚无空间区域内与其同行的所有人都会被传送到门周围 250 码以内的随机地点。如果门在法术持续时间结束前没有关上，那么门会在该轮结束时自动砰然关闭。门会在被法师关上或自行关闭后消失。
 
@@ -142,39 +142,39 @@
 ### 卓姆吉的非魔法气体防护术 Drawmij's Protection from Non-Magical Gas（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮<br>
-<strong>影响范围 Area of Effect：</strong>以施法者为中心、半径 20 英尺的球体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级 5 轮<br>
+<strong>影响范围：</strong>以施法者为中心、半径 20 英尺的球体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会在施法者周围创造一个半径 20 英尺的空间体积；在其中，所有生物都受到保护，不受所有非魔法气体、烟雾和烟尘的影响。所有接触保护球边缘的天然气体都会被驱散。球体内的空气始终保持洁净、新鲜，并补充氧气，因此即使外界空气受到污染，或其中的氧气被火焰消耗，球体内的人也不会因缺氧而受苦。此法术在水下或真空中不起作用。球体会随施法者移动。如果保护球接触到魔法气体，或施法者使用魔法手段移动，球体就会被驱散。材料成分是一把扇子和一只装有至少价值 10金币香水的小瓶；两者都会在施法后消失。
 
 ### 卓姆吉的工具箱术 Drawmij's Tool Box（咒法／召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此实用法术允许法师在需要时暂时取得一至十件工具。召唤出的物体或物体总和，最大可以达到 20金币负重值的物品大小。施法者可以在法术持续期间持续把物品换成新物品。施法者可以在第一轮召唤锤子和凿子，在第五轮把它们换成锯子，在第八轮把锯子换成撬棍，如此类推。只有非生物物质能够被召唤。工具离开工具箱不能超过 100 码。工具箱不可移动，只有施法者可以从中取出工具。工具箱能够取出的唯一工具，是木匠或建筑工人可能拥有的东西。不应出现在工具箱中的东西包括：盗贼工具、蜡制钥匙坯、滚珠轴承、魔法武器和宝石切割刀片。熟练木匠的工具箱中可能出现的东西包括：绳子、万能钥匙、巨大的锤子和金属桩、大块帆布、网和沙子。材料成分是一只微型木制工具箱。
 
 ### 卓姆吉的飞行壮举术 Drawmij's Flying Feat（变化系／附魔系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>10 码<br>
-<strong>持续时间 Duration：</strong>每等级 3 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>10 码<br>
+<strong>持续时间：</strong>每等级 3 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 这种特殊的飞行法术施放的不是生物，而是物体。受附魔的物体获得飞行能力，在施法者指挥下每轮最多飞行 180 英尺。扫帚、椅子、桌子、地毯、马车或小屋都可以获得飞行能力。法师每个施法者等级最多可以影响 50金币重量的物体；如果物体足够大且足够坚固，能够在正常情况下支撑重量，那么它可以承载两倍于该重量的乘客或货物。例如，18 级法师可以举起一艘 9,00金币重量的船，以及最多 18,00金币重量的货物。
 
@@ -183,26 +183,26 @@
 ### 卓姆吉的仁慈变形术 Drawmij's Beneficent Polymorph（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术赋予被接触且自愿的生物变形自身术的全部好处。受影响的生物不需要进行系统震荡检定来存活。虽然最初采取的形态由施法者选择，但在法术剩余持续期间，生物完全能够控制自己的形态变化，并且可以随意多次改变形态，只须遵守变形自身术的所有限制。此法术不会赋予变形形态任何特殊能力。此法术不会以任何方式影响生物的精神状态。当生物返回原始形态时，会恢复 1d12 点生命值。法术的材料成分是一只柔软的丝绸毛虫茧。
 
 ### 卓姆吉的慈悲蜕变术 Drawmij's Merciful Metamorphosis（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>每等级 10 码<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无效则抵消</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>每等级 10 码<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>无效则抵消</div>
 
 <strong>解释／描述：</strong> 卓姆吉开发此法术，是为了以慈悲的方式摆脱敌人。此法术会像他人变形术一样把敌人变形成另一种生物，但目标的豁免检定以 −2 进行。目标只能被变形成一种不比典型畜群兽类更大的自然动物。变形后的生物不需要进行系统震荡检定来存活。变形后的生物会自动接受动物的精神状态，忘记关于原本自我的一切知识。该动物不会散发魔法或该生物原本的阵营灵光，因此几乎没有证据表明这只动物曾经不是现在呈现的样子。
 
@@ -213,39 +213,39 @@
 ### 魔邓肯的鸟类防护术 Mordenkainen's Protection from Avians（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 5 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 受到此法术保护的生物在与总生命骰不超过 15 的鸟类战斗时，会得到特殊好处。如果有更多生命骰的鸟类发动攻击，法术就会失效。在法术持续期间，受影响的鸟类对攻击受保护生物的生命骰受到 −2 处罚。材料成分是来自任意鸟类的一根羽毛，用一条坚韧皮革带缠绕。
 
 ### 魔邓肯的全方位视觉术 Mordenkainen's Encompassing Vision（变化系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 1 小时<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 1 小时<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术赋予生物完整 360 度的视野，因此生物既能看到侧面和后方，也能看到前方。生物不会被任何它本来能正常看见的攻击者从后方突袭。此法术可以与任何增强型或魔法视觉结合使用，包括红外视觉、超视觉或 X 射线视觉。一个同时拥有侦测隐形术和全方位视觉术的生物，也能从侧面或后方看见隐形、以太和星界生物。受此法术影响的人物针对所有气体攻击的豁免检定还受到 −2 处罚。材料成分是一块刻有八只眼睛的水晶圆盘，八只眼睛沿圆盘边缘以 45 度间隔排列。
 
 ### 魔邓肯的防御狼人术 Mordenkainen's Defense Against Lycanthropes（防护系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 2 轮<br>
-<strong>影响范围 Area of Effect：</strong>被接触的生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 2 轮<br>
+<strong>影响范围：</strong>被接触的生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会帮助生物在狼人类生物的攻击中存活。狼人类生物对该生物发动的任何攻击，命中时都受到 −2 处罚。无论狼人类生物造成多少伤害，只要法术有效，生物就不会感染狼人化。如果伤势发生在法术施放之前或法术结束之后，此法术不会保护生物免于感染狼人化。材料成分是碾碎的月长石。
 

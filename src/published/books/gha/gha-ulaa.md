@@ -45,12 +45,12 @@ AL 守序善良、中立；RA 见下文；AEx +5%；WPN 棍棒、连枷、锤*�
 #### 命令大地 Command Earth（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>6 回合 +1／等级<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、M<br>
-<strong>施法时间 Casting Time：</strong>9 段<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>6 回合 +1／等级<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、M<br>
+<strong>施法时间：</strong>9 段<br>
+<strong>豁免检定：</strong>否定</div>
 
 此法术赋予牧师对土元素生物的有限控制力。法术有效期间，土元素和其他来自土元素位面的生物无法在距离施法者五英尺以内接近或攻击施法者。施法者可以放弃这项保护，并尝试魅惑该生物。对抗魅惑的豁免受到 -2 处罚。如果魅惑失败，生物就可以自由攻击施法者。法术有效期间，施法者可以与土元素生物交谈；与牧师阵营相同的土元素生物会倾向于对牧师友好（除非牧师尝试魅惑）。如果成功魅惑一个土元素，施法者可以像使用六级魔法师法术一样让它施展<strong>移土术</strong>。此法术的材料成分是乌拉的圣徽（内含红宝石之心的山峰）和一颗不透明宝石。

@@ -19,13 +19,13 @@
 ### 解除沉默 Dispel Silence（防护／变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>以施法者为中心、半径每等级 1 英寸的球体<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>2 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>以施法者为中心、半径每等级 1 英寸的球体<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>2 个轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 施法者以手势并把一撮钻石粉（价值至少 5

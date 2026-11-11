@@ -10,26 +10,26 @@
 ### 毕格比的书虫灾厄术 Bigby's Bookworm Bane（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>20 码<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>20 码<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong>此法术用于搜寻并消灭法师最为恐惧的敌人之一：书虫。施法时，法术会创造出一只无身躯的手，它将搜索一座图书馆，并压碎它找到的所有书虫。这只手每轮可以搜索 100 本书或卷轴，以 95% 的发现几率寻找书虫。一旦找到一只书虫，这只手便会不懈地追逐它，并以等同于施法者等级的战士技能进行攻击。这只手成功命中，意味着书虫会被立即压死。这只手的力量为 8，因此它可以在追逐逃跑的书虫时移开书籍和卷轴。这只手不会受到物理攻击伤害，但遭受 4 点或更多魔法伤害时会被摧毁。这只手无法执行任何其他功能，也不能与任何其他敌人战斗。毕格比（Bigby）会定期使用此法术来保护他珍贵的图书馆。材料成分是一只用坚韧皮革制成的儿童尺寸手套。
 
 ### 毕格比的感觉手指术 Bigby's Feeling Fingers（塑能系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>60 码<br>
-<strong>持续时间 Duration：</strong>1 小时 + 每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>60 码<br>
+<strong>持续时间：</strong>1 小时 + 每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会在施法者的指挥下召唤出一只无身躯的手。这只手不能握持、抓取或搬运，但确实拥有惊人敏锐的触觉。这只手的触觉精细到可以注意到表面上的微小裂缝、分隔处或开口，因此有 50% 的几率发现秘密门或隐藏门。这只手每轮可以搜索一个 10 英尺乘 10 英尺的区域。这只手不会被物理攻击摧毁，但遭受 4 点或更多魔法伤害时会被驱散。如果陷阱位置已知，这只手可以触发非魔法陷阱。法术的材料成分是一只儿童尺寸的丝绸手套和一根天鹅羽毛。
 
@@ -38,12 +38,12 @@
 ![毕格比的灵巧手指术操控器具，原书 PDF 第 51 页裁片](/assets/books/gha/gha_bigby_dextrous_digits_illustration.png)
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>90 码<br>
-<strong>持续时间 Duration：</strong>每等级 3 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>90 码<br>
+<strong>持续时间：</strong>每等级 3 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 段<br>
+<strong>豁免检定：</strong>无</div>
 
 <strong>解释／描述：</strong> 此法术会召唤出一对无身躯的手，它们会遵从法师的每一道命令。这些手可以执行隐形仆从的所有功能，也能完成要求精细协调的工作，例如摆弄工具、操作实验室设备、雕刻、绘画或演奏乐器。这些手可以完成施法者能够完成的任何任务，包括法师所知的非武器熟练项。这些手的灵巧度等同于施法者。每只手可以单独握持和搬运最多 20

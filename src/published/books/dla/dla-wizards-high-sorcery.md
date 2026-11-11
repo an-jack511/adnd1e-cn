@@ -265,7 +265,7 @@
 | 属性 | 最低值 |
 |---|---:|
 | 力量 Strength | — |
-| 智力 Intelligence | 9／15* |
+| 智力 | 9／15* |
 | 智慧 Wisdom | — |
 | 敏捷 Dexterity | 6 |
 | 体质 Constitution | — |
@@ -546,13 +546,13 @@
 （塑能 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>9<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>1 次通过<br>
-<strong>影响范围 Area of Effect：</strong>1 人<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>9<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>1 次通过<br>
+<strong>影响范围：</strong>1 人<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 帕兰萨斯高等法术塔大师拥有保护任何进入肖伊坎林地之人的力量。大师通过亲吻目标的额头赋予这种保护。对善良或中立阵营的人来说，这个吻似乎会烧进他们的肉里；对邪恶阵营的人来说，这个吻会带来舒适、温暖的感觉。它会留下只有肖伊坎林地的不死生物才能看见的伤疤。
 
@@ -563,13 +563,13 @@
 （幻术／幻象 Illusion/Phantasm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>1 人<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>3 小时<br>
-<strong>豁免检定 Saving Throw：</strong>neg.（有害时）</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>1 人<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>3 小时<br>
+<strong>豁免检定：</strong>neg.（有害时）</div>
 
 心灵旋转取出目标内心最深处的噩梦，并把它们塑造成极其生动的幻术。这些幻术通常以梦魇与梦影的形式出现，见“生物”章节。
 
@@ -627,13 +627,13 @@
 （塑能 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>1 生物<br>
-<strong>成分 Components：</strong>V、M<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>1 生物<br>
+<strong>成分：</strong>V、M<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 这个法术使被施法的生物身体向后滑回时间中的某个节点，在那里它的健康状况更好，从而模拟治疗能力，而不使用牧师力量。时间对时间治愈法术至关重要；倒退时间越长，失败机会越大。
 
@@ -648,12 +648,12 @@
 （塑能 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>9<br>
-<strong>距离 Range：</strong>1 英寸<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>半径 1 英寸<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>9<br>
+<strong>距离：</strong>1 英寸<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>半径 1 英寸<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 时间逆流法术会把作用区域内的人沿克莱恩的时间流向前或向后送去，进入克莱恩的过去或未来。帕萨理安曾用它把卡拉蒙和泰斯送回过去；时间权杖也曾用它在《传奇》故事中把卡拉蒙与泰斯送往不同时间。

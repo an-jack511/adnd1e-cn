@@ -21,7 +21,7 @@
 | 灾祸小虫——见杰莱鼠 | - | - |
 | 巨型蝙蝠 | Lewis Pulsipher | 14 |
 | 分灵妖 | Albie Fiore | 14 |
-| Bird-man——见鸟羽人 | - | - |
+| 鸟羽人——见鸟羽人 | - | - |
 | 黑加巴格——见加巴格 | - | - |
 | 黑海胆——见海胆 | - | - |
 | 炫目者 | Roger Musson | 15 |
@@ -37,31 +37,31 @@
 | 鲤龙——见东方龙 | - | - |
 | 女像柱 | Jean Wells | 18 |
 | 夜嚎兽 | Albie Fiore | 18 |
-| Catman——见塔巴克西猫人 | - | - |
+| 塔巴克西猫人——见塔巴克西猫人 | - | - |
 | 九尾猫——见九尾猫 | - | - |
-| Celestial 龙——见东方龙 | - | - |
+| 天龙——见东方龙 | - | - |
 | 群虫聚怪 | Oliver Charles MacDonald | 19 |
 | 棍喙鸟 | M. English | 19 |
 | 棺尸 | Simon Eaton | 19 |
-| Coiled 龙——见东方龙 | - | - |
+| 盘龙——见东方龙 | - | - |
 | 蟹人 | Ian Livingstone | 21 |
 | 克里欧纳克斯——见邪恶元素王子 | - | - |
 | 墓穴怪 | Roger Musson | 21 |
 | 达孔猿人 | Ian McDowall | 22 |
 | 黑暗潜伏者 | Rik Shepherd | 22 |
-| Dark 精灵——见精灵: 卓尔 | - | - |
+| 卓尔——见精灵: 卓尔 | - | - |
 | 黑暗追猎者 | Simon Muth | 23 |
 | 亡命恶犬 | Underworld Oracle | 23 |
 | 死亡骑士 | Charles Stross | 23 |
-| Death 史拉蟾——见史拉蟾 | - | - |
+| 死亡史拉蟾——见史拉蟾 | - | - |
 | 死亡蠕虫——见死灵蛇构装体 | - | - |
-| Deep 侏儒——见斯涅布力深地侏儒 | - | - |
+| 深地侏儒——见斯涅布力深地侏儒 | - | - |
 | 恶魔 | - | 24 |
 | ↳ 罗丝 | Gary Gygax | 24 |
-| 恶魔蚁后 of spiders——见恶魔: 罗丝 | - | - |
+| 蜘蛛恶魔蚁后——见恶魔: 罗丝 | - | - |
 | 丹泽利安 | Lewis Pulsipher | 25 |
 | 魔鬼 | - | 25 |
-| ↳ Styx | Ian Livingstone | 25 |
+| ↳ 冥河 | Ian Livingstone | 25 |
 
 ### D-G（原书页 121）
 
@@ -73,21 +73,21 @@
 | 厄运蝠 | Julian Lawrence | 27 |
 | 东方龙 | David Sweet | 27 |
 | ↳ 地龙（地龙，土龙） | - | 28 |
-| ↳ 龙王（sea 龙，海龙） | - | 28 |
-| ↳ 盘龙（coiled 龙，盘龙） | - | 29 |
-| ↳ 神龙（spirit 龙，灵龙） | - | 29 |
-| ↳ 天龙（celestial 龙，天龙） | - | 29 |
+| ↳ 龙王（海龙，海龙） | - | 28 |
+| ↳ 盘龙（盘龙，盘龙） | - | 29 |
+| ↳ 神龙（灵龙，灵龙） | - | 29 |
+| ↳ 天龙（天龙，天龙） | - | 29 |
 | ↳ 鱼龙（鲤龙，鲤龙） | - | 30 |
 | 龙鱼 | Albie Fiore | 30 |
 | 卓尔——见精灵: 卓尔 | - | - |
 | 沙丘追猎者 | Ian Livingstone | 30 |
 | 地龙——见东方龙 | - | - |
 | 邪恶元素王子 | Lewis Pulsipher | 31 |
-| ↳ 克里欧纳克斯——Prince of evil cold creatures（寒冷生物的邪恶王子） | - | 31 |
-| ↳ 伊密克斯——Prince of evil fire creatures（火焰生物的邪恶王子） | - | 31 |
-| ↳ Ogremoch——Prince of evil earth creatures（土元素生物的邪恶王子） | - | 32 |
-| ↳ 奥尔海德拉——Princess of evil water creatures（水元素生物的邪恶公主） | - | 32 |
-| ↳ 扬西宾——Prince of evil aerial creatures（空中生物的邪恶王子） | - | 33 |
+|寒冷生物的邪恶王子| - | 31 |
+|火焰生物的邪恶王子| - | 31 |
+|土元素生物的邪恶王子| - | 32 |
+|水元素生物的邪恶公主| - | 32 |
+|空中生物的邪恶王子| - | 33 |
 | 精灵 | - | 33 |
 | ↳ 卓尔 | Gary Gygax | 33 |
 | 包裹怪 | Underworld Oracle | 34 |
@@ -108,11 +108,11 @@
 | 加尔崔特 | Trevor Graver | 40 |
 | 骷髅弹兽 | Simon Shaw | 41 |
 | 加巴格 | Jonathan Jones | 41 |
-| ↳ Black | - | 41 |
-| ↳ Violet | - | 41 |
+| ↳ 黑色 | - | 41 |
+| ↳ 紫色 | - | 41 |
 | 巨人 | - | 41 |
-| ↳ Fog | Jean Wells | 42 |
-| ↳ Mountain | Louis Boschelli | 42 |
+| ↳ 雾 | Jean Wells | 42 |
+| ↳ 山地 | Louis Boschelli | 42 |
 | 巨型蝙蝠——见巨型蝙蝠 | - | - |
 | 巨型血虫——见巨型血虫 | - | - |
 | 巨型胡蜂——见巨型胡蜂 | - | - |
@@ -127,7 +127,7 @@
 | 猩熊 | Cricky Hitchcock | 46 |
 | 史拉绿蟾——见史拉蟾 | - | - |
 | 绿海胆——见海胆 | - | - |
-| Grey 史拉蟾——见史拉蟾 | - | - |
+| 灰色 史拉蟾——见史拉蟾 | - | - |
 | 触须怪 | Ian Livingstone | 46 |
 | 幽邃盲族 | Albie Fiore | 48 |
 | 格里夫 | Peter Brown | 48 |
@@ -144,7 +144,7 @@
 | 巨型胡蜂 | Nick Louth | 51 |
 | 凶兆猎犬 | Mike Roberts | 51 |
 | 亵渎尸骸 | Underworld Oracle | 51 |
-| Ice 恶魔——见霜人 | - | - |
+| 冰恶魔——见霜人 | - | - |
 | 冰蜥蜴 | Mike Ferguson | 52 |
 | 冰巨魔——见巨魔 | - | - |
 | 伊密克斯——见邪恶元素王子 | - | - |
@@ -167,16 +167,16 @@
 | 罗丝——见恶魔: 罗丝 | - | - |
 | 龙王——见东方龙 | - | - |
 | 镁光精魂 | Nick Louth | 62 |
-| Man-fish——见寇涛 | - | - |
+| 鱼人——见寇涛 | - | - |
 | 曼塔里 | David Wormell | 62 |
-| Marsh-gibberer——见喋喋怪 | - | - |
+| 喋喋怪——见喋喋怪 | - | - |
 | 鬾魊 | Dermot Jackson | 63 |
 | 凌弱怪 | Peter Korabik | 63 |
 | 魔蝠 | Martin Stollery | 64 |
-| ↳ Fire | - | 64 |
-| ↳ Lava | - | 64 |
-| ↳ Smoke | - | 64 |
-| ↳ Steam | - | 65 |
+| ↳ 火 | - | 64 |
+| ↳ 熔岩 | - | 64 |
+| ↳ 烟雾 | - | 64 |
+| ↳ 蒸汽 | - | 65 |
 | 夹层魔 | Gary Gygax | 66 |
 | 螨精 | Ian Livingstone | 66 |
 | 山巨人——见巨人 | - | - |
@@ -186,7 +186,7 @@
 | 九尾猫 | Dean Lockwood and P. S. Barton | 68 |
 | 诺克 | J. D. Morris | 68 |
 | 夜魔 | Gary Gygax | 69 |
-| Ogremoch——见邪恶元素王子 | - | - |
+| 奥格莫克——见邪恶元素王子 | - | - |
 | 食人魔混血种 | R. K. R. Chilman | 70 |
 | 奥尔海德拉——见邪恶元素王子 | - | - |
 | 奥斯奎普 | Brendon Bulger | 70 |
@@ -196,7 +196,7 @@
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
 | 盘龙——见东方龙 | - | - |
-| Pénanggalan | Stephen Hellman | 71 |
+| 彭纳加兰 | Stephen Hellman | 71 |
 | 佩尼孔虫 | Mary Patterson | 72 |
 | 恼人小妖——见斯尼亚德 | - | - |
 | 幻影追猎者 | Ian Livingstone | 72 |
@@ -209,13 +209,13 @@
 | 红海胆——见海胆 | - | - |
 | 猎魔蛛 | Tom Moldvay | 75 |
 | 还魂鬼 | Stephen Hellman | 75 |
-| Rockworm——见熔岩虫 | - | - |
+| 熔岩虫——见熔岩虫 | - | - |
 | 洛斯兽 | Ghee Bowman | 76 |
-| Salaman——见火蜥人 | - | - |
+| 火蜥人——见火蜥人 | - | - |
 | 沙人 | Roger Musson | 77 |
 | 稻草人 | Roger Musson | 77 |
 | 尖叫小鬼 | Philip Masters | 77 |
-| Sea 龙——见东方龙 | - | - |
+| 海龙——见东方龙 | - | - |
 | 幽影恶魔 | Neville White | 78 |
 | 尸衣食尸鬼 | David Wormell | 78 |
 | 裹尸幻影 | David Wormell | 78 |
@@ -224,25 +224,25 @@
 | 银海胆——见海胆 | - | - |
 | 骷髅战士 | Nigel Morgan | 79 |
 | 潜伏客 | Simon Muth | 80 |
-| Skunk beast——见枯臭兽 | - | - |
+| 枯臭兽——见枯臭兽 | - | - |
 | 史拉蟾 | Charles Stross | 80 |
 | ↳ 史拉蓝蟾 | - | 80 |
-| ↳ Death 史拉蟾 | - | 81 |
+| ↳ 死亡史拉蟾 | - | 81 |
 | ↳ 史拉绿蟾 | - | 81 |
-| ↳ Grey 史拉蟾 | - | 81 |
+| ↳ 灰色 史拉蟾 | - | 81 |
 | ↳ 史拉红蟾 | - | 82 |
-| ↳ 森达姆 (史拉蟾 Lord) | - | 82 |
-| ↳ 耶戈尔 (史拉蟾 Lord) | - | 82 |
+| ↳ 森达姆 (史拉蟾领主) | - | 82 |
+| ↳ 耶戈尔 (史拉蟾领主) | - | 82 |
 | 烟魔蝠——见魔蝠 | - | - |
 | 斯尼亚德 | Mark Barnes | 83 |
 | 凯厄斯之子 | Michael MacDonald | 83 |
-| Spirit 龙——见东方龙 | - | - |
+| 神龙——见东方龙 | - | - |
 | 灵体巨魔——见巨魔 | - | - |
 | 森达姆——见史拉蟾 | - | - |
 | 蒸汽魔蝠——见魔蝠 | - | - |
-| Strider——见阔步鸟 | - | - |
+| 阔步鸟——见阔步鸟 | - | - |
 | 震慑胶怪 | Neville White | 84 |
-| 冥河魔鬼——见魔鬼: styx | - | - |
+| 冥河魔鬼——见魔鬼：冥河 | - | - |
 | 苏苏鲁斯 | Albie Fiore | 84 |
 | 斯涅布力深地侏儒 | Gary Gygax | 84 |
 | 共生胶怪 | Roger Musson | 85 |
@@ -264,16 +264,16 @@
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
-| ↳ Ice | Russell Cole | 90 |
-| ↳ Spirit | Chris Atkin | 91 |
+| ↳ 冰 | Russell Cole | 90 |
+| ↳ 灵 | Chris Atkin | 91 |
 | 影伴 | Ian Waugh | 91 |
 | 电毛兽 | Steve Wood | 92 |
 | 海胆 | Nick Louth | 92 |
-| ↳ Black | - | 92 |
-| ↳ Green | - | 93 |
-| ↳ Red | - | 93 |
-| ↳ Silver | - | 93 |
-| ↳ Yellow | - | 93 |
+| ↳ 黑色 | - | 92 |
+| ↳ 绿色 | - | 93 |
+| ↳ 红色 | - | 93 |
+| ↳ 银色 | - | 93 |
+| ↳ 黄色 | - | 93 |
 | 紫加巴格——见加巴格 | - | - |
 | 幻象集合体 | Mike Ferguson | 93 |
 | 沃迪亚诺水怪 | Albie Fiore | 93 |

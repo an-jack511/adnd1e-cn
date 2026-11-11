@@ -9,13 +9,13 @@
 Rich Baldwin · 第 50 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>2″ + 1″/级<br>
-<strong>持续时间 Duration：</strong>1 轮/级（彩虹云加倍）<br>
-<strong>影响范围 Area of Effect：</strong>5 英尺见方的云团<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>2″ + 1″/级<br>
+<strong>持续时间：</strong>1 轮/级（彩虹云加倍）<br>
+<strong>影响范围：</strong>5 英尺见方的云团<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 个分段<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：各云型至少需一团棉花；其他材料由主持人按云型决定。
@@ -27,13 +27,13 @@ Rich Baldwin · 第 50 页
 Rich Baldwin · 第 50 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一个锁具／锁定机构<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一个锁具／锁定机构<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 个分段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：拟形怪黏液 3 dram、变形怪血 2 dram，涂在一把小金钥匙上；金钥匙不消耗。
@@ -47,13 +47,13 @@ Rich Baldwin · 第 50 页
 Rich Baldwin · 第 52 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>½″/级<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一套正被穿着的衣服或皮／布护甲<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>½″/级<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一套正被穿着的衣服或皮／布护甲<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 个分段<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：小骨针、丝线及少量羊毛。
@@ -65,13 +65,13 @@ Rich Baldwin · 第 52 页
 Rich Baldwin · 第 52 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一段法术铭文或同类文字<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>4 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一段法术铭文或同类文字<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>4 个分段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 封闭文字的可读性，直到有人说出施法者选定的密语，凡俗与魔法阅读都不能绕过。解锁后仍须阅读魔法来读魔法文字，陌生语言仍须通晓语言；此时书写术才可复制。直接解除本法术会毁掉所附文字。不能作用于守卫刻文、符号、爆裂符文，或已受不可读魔法、不可通晓语言影响的文字。
@@ -81,13 +81,13 @@ Rich Baldwin · 第 52 页
 Rich Baldwin · 第 52 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>特殊：棒长四倍，最多 20 英尺<br>
-<strong>持续时间 Duration：</strong>2 回合/级<br>
-<strong>影响范围 Area of Effect：</strong>一根木棒<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>特殊：棒长四倍，最多 20 英尺<br>
+<strong>持续时间：</strong>2 回合/级<br>
+<strong>影响范围：</strong>一根木棒<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 个分段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：作为受术目标的一根木棒或木杆。

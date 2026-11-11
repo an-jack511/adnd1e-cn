@@ -256,7 +256,7 @@ DM 可以使用本书末尾第 114 页的“角色阵营追踪表”，根据玩
 | 属性 | 最低值 |
 |---|---:|
 | 力量 Strength | 10 |
-| 智力 Intelligence | 7 |
+| 智力 | 7 |
 | 智慧 Wisdom | 10 |
 | 敏捷 Dexterity | 8 |
 | 体质 Constitution | 10 |
@@ -293,7 +293,7 @@ DM 可以使用本书末尾第 114 页的“角色阵营追踪表”，根据玩
 | 属性 | 最低值 |
 |---|---:|
 | 力量 Strength | 12 |
-| 智力 Intelligence | 9 |
+| 智力 | 9 |
 | 智慧 Wisdom | 13 |
 | 敏捷 Dexterity | 9 |
 | 体质 Constitution | 10 |
@@ -373,7 +373,7 @@ DM 可以使用本书末尾第 114 页的“角色阵营追踪表”，根据玩
 | 属性 | 最低值 |
 |---|---:|
 | 力量 Strength | 15 |
-| 智力 Intelligence | 10 |
+| 智力 | 10 |
 | 智慧 Wisdom | 13 |
 | 敏捷 Dexterity | 12 |
 | 体质 Constitution | 15 |

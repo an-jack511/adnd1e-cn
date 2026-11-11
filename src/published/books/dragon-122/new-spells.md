@@ -9,13 +9,13 @@
 Arthur Collins · 第 33 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>听觉范围<br>
-<strong>持续时间 Duration：</strong>至履行誓约；可能多年或永久<br>
-<strong>影响范围 Area of Effect：</strong>1–4 人<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>听觉范围<br>
+<strong>持续时间：</strong>至履行誓约；可能多年或永久<br>
+<strong>影响范围：</strong>1–4 人<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 德鲁伊作为宗教与法律见证者，让立誓者亲口承诺任务、期限及违约后果；后果须相关者事先同意并写入誓言，可能永久致残。德鲁伊可建议修改，也可拒绝见证；完成后便不能再改条件。
@@ -27,13 +27,13 @@ Arthur Collins · 第 33 页
 Arthur Collins · 第 33、34 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>所辖领域<br>
-<strong>持续时间 Duration：</strong>1 年<br>
-<strong>影响范围 Area of Effect：</strong>德鲁伊照管的土地与信徒<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>黄昏至黎明<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>所辖领域<br>
+<strong>持续时间：</strong>1 年<br>
+<strong>影响范围：</strong>德鲁伊照管的土地与信徒<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>黄昏至黎明<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：仪式火焰、谷物嫩芽及祭品
@@ -47,13 +47,13 @@ Beltane 春祭以火、牲畜与谷物嫩芽庆祝生命与播种，使所辖人
 Arthur Collins · 第 33、34 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>所辖领域<br>
-<strong>持续时间 Duration：</strong>1 年<br>
-<strong>影响范围 Area of Effect：</strong>德鲁伊照管的土地与信徒<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>黄昏至黎明<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>所辖领域<br>
+<strong>持续时间：</strong>1 年<br>
+<strong>影响范围：</strong>德鲁伊照管的土地与信徒<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>黄昏至黎明<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：花环、亲自采集的槲寄生及祭品
@@ -69,13 +69,13 @@ Lugnasad 仪式从仲夏前夜守夜开始，以花环献祭，并于仲夏后�
 Arthur Collins · 第 33、34 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>所辖领域<br>
-<strong>持续时间 Duration：</strong>1 年<br>
-<strong>影响范围 Area of Effect：</strong>德鲁伊照管的土地与信徒<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>黄昏至黎明<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>所辖领域<br>
+<strong>持续时间：</strong>1 年<br>
+<strong>影响范围：</strong>德鲁伊照管的土地与信徒<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>黄昏至黎明<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：初熟收获与节庆祭品
@@ -91,13 +91,13 @@ Samain 收获节献出初熟果实，整夜篝火、宴饮与舞蹈。忽略仪�
 Arthur Collins · 第 33、35 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>所辖领域<br>
-<strong>持续时间 Duration：</strong>1 年<br>
-<strong>影响范围 Area of Effect：</strong>德鲁伊照管的土地与信徒<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>黄昏至黎明<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>所辖领域<br>
+<strong>持续时间：</strong>1 年<br>
+<strong>影响范围：</strong>德鲁伊照管的土地与信徒<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>黄昏至黎明<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：牛奶及仪式祭品
@@ -113,13 +113,13 @@ Imbalc 冬祭献奶，祈求来年力量；正文同时提到最长的 Yule 夜�
 Arthur Collins · 第 38 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>1 人<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>18 回合<br>
-<strong>豁免检定 Saving Throw：</strong>特殊：五项评定相加作为目标数
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>1 人<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>18 回合<br>
+<strong>豁免检定：</strong>特殊：五项评定相加作为目标数
 </div>
 
 材料：就职仪式、献祭与赠予；原刊未定统一金币额

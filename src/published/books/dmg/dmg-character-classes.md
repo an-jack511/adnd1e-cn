@@ -140,7 +140,7 @@
 <TR><TD>21—25</TD><TD>侏儒*</TD><TD>56—00</TD><TD>人类</TD></TR>
 <TR><TD>26—30</TD><TD>半精灵*</TD><TD></TD><TD></TD></TR>
 </TABLE>
-<P><STRONG>盗贼等级 Level of Thief</STRONG></P>
+<P><STRONG>盗贼等级 of Thief</STRONG></P>
 <TABLE>
 <TR><TH>d100</TH><TH>等级</TH><TH>d100</TH><TH>等级</TH></TR>
 <TR><TD>01—20</TD><TD>1 级*</TD><TD>81—90</TD><TD>5 级</TD></TR>
@@ -167,7 +167,7 @@
 <TR><TD>06—10</TD><TD>精灵*</TD><TD>26—50</TD><TD>半兽人*</TD></TR>
 <TR><TD>11—15</TD><TD>侏儒*</TD><TD>51—00</TD><TD>人类</TD></TR>
 </TABLE>
-<P><STRONG>刺客等级 Level of Assassin</STRONG></P>
+<P><STRONG>刺客等级 of Assassin</STRONG></P>
 <TABLE>
 <TR><TH>d100</TH><TH>等级</TH><TH>d100</TH><TH>等级</TH></TR>
 <TR><TD>01—15</TD><TD>1 级*</TD><TD>66—75</TD><TD>5 级</TD></TR>

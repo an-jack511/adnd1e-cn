@@ -5,13 +5,13 @@
 ## 暴雨术 Cloudburst（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>直径 3″、最高 6″ 的圆柱<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无；特殊情况见下文</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>直径 3″、最高 6″ 的圆柱<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无；特殊情况见下文</div>
 
 此术使范围内的大气瞬间将水汽凝成大颗雨滴，形成猛烈骤雨，同时把周围更多水汽吸入并凝结。范围内的一切物体在 1 段内都会湿透，因为每段约降雨 1/10 英寸，一轮累计约 1 英寸。普通火焰会熄灭：小火立即熄灭，中火在 3–5 段内熄灭，大火在 8–10 段内熄灭。魔法火焰也会受影响：
 
@@ -24,25 +24,25 @@
 ## 死亡门槛 Death’s Door（死灵系 Necromantic）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 1 小时<br>
-<strong>影响范围 Area of Effect：</strong>一名人类或亚人类<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每级 1 小时<br>
+<strong>影响范围：</strong>一名人类或亚人类<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师触碰一名失去意识且生命值在 −1 至 −9 的人类或亚人类，使其立即回到 0 生命值。在此术持续期间，只要受术者仍昏迷，流血与恶化便停止。此后可用*治疗轻伤*、*治疗重伤*、治疗药水、强效治疗药水，或其他能魔法恢复生命值的牧师或一般物品，使其醒来并恢复生命值。材料成分为牧师的圣徽或邪徽、一小片白亚麻布及任意膏剂。
 
 ## 火焰行走 Flame Walk（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>1 回合＋每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>1 回合＋每级 1 回合<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师使自己或一名大小、质量约等于成人的生物，能承受最高 2,000°F 的非魔法火焰，并在对抗魔法火焰的豁免上获得 +2。施法者每比施展此术所需的最低 5 级高出 1 级，就能再影响一名成人大小的生物；也可将相应份额用在更大、更重的生物身上。例如 11 级牧师可同时保护自己及坐骑，令两者走过熔岩。计算份额时，马相当于 6 名人类，半身人大小的生物相当于 1/2 人，皮克精大小的生物相当于 1/4 人。材料成分为价值至少 50

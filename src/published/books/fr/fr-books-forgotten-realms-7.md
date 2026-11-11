@@ -7,13 +7,13 @@
 ### 神圣连枷 Holy Flail（咒法／变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 个分段<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>施法牧师呼唤自己的神祇，将自己的圣徽，或另一名生物手中、由该牧师触摸的任意非刃武器，暂时变成一把魔法神圣连枷。在每个牧师经验等级 1 轮的时间里，圣徽或变形后的武器会变成一条附着在坚硬握柄上的蛇形柔性力场：这是一把不可见、噼啪作响的灵体连枷，战斗中使用时命中获得 +2，并就命中目的而言被视为魔法武器。
@@ -27,13 +27,13 @@
 ### 揭示 Reveal（预言；可逆）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>4 轮<br>
-<strong>影响范围 Area of Effect：</strong>视线 12 英寸<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>7 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>4 轮<br>
+<strong>影响范围：</strong>视线 12 英寸<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>7 个分段<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>法术施放在牧师自己或另一名自愿生物身上；牧师将本法术的材料成分诱入其眼中。受影响生物可以清楚看到所观察表面上徽记术、守卫刻文、魔法隐藏的铭文和魔法效应的位置与轮廓，即使这些东西尚未激活（例如魔嘴、魔邓肯（Mordenkainen）的忠犬、李奥蒙德的陷阱、涅斯图（Nystul）的魔法灵光、幻景地形、力场墙）。法术不会给出魔法性质的确切线索，但防护圈、徽记术和刻文可以被仔细检查，熟悉它们的人很可能据此识别它们，或记录下来供日后研究。
@@ -49,13 +49,13 @@
 ### 刃赐 Bladebless（死灵）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 <strong>说明／描述：</strong>牧师以此法术祝福造成伤口的武器，从而治愈一处特定伤口。本魔法只对非魔法的有刃武器生效；牧师必须触摸并握住它，同时吟诵祝福。施法完成后，在每个牧师经验等级 1 轮的时间范围内，由该刀刃造成的最后一处伤口（只要确实曾造成伤口，并且伤及任何活物）会立刻完全治愈，即使刀刃带毒、传播疾病，或造成肢体、头部断裂也一样。即使受影响的生物与施法牧师相隔数个位面，治疗也会发生；如果死亡是由于震撼检定失败或毒物豁免失败造成的，生命也会恢复。（如果死亡来自累计生命值损失，则不会复生；本魔法也不会治愈受害者身上的其他伤口。）
@@ -65,13 +65,13 @@
 ### 神圣链接 Sacred Link（塑能／变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>要建立神圣链接，牧师必须把将要链接的两件物品握在手中，然后施放法术。两件物品必须由相同材料制成、尺寸大致相同；它们不能是活着的生物，最好还应几乎完全相同（例如配对的剑、卷轴、小雕像等）。神圣链接会在两件物品之间建立不可见的魔法纽带；两件物品都会散发极其微弱的魔法灵光。虽然这条链接不是可以循迹的实体通道或绳线，但发生在一件物品上的事情也会发生在另一件上，即使二者相隔无数个位面或任何距离。
@@ -107,9 +107,9 @@
 ### 切断 Cut（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 件物品<br>
-<strong>施法时间 Casting Time：</strong>1/10 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 件物品<br>
+<strong>施法时间：</strong>1/10 个分段</div>
 
 
 <strong>说明／描述：</strong>这个有用的戏法可以瞬间切断细薄物体，例如绳、索、精细链条、金属丝、布、蜡烛、香肠等，以及每个施法等级不超过 1 英寸厚的类似物。施法者必须能看见要切的物体，且物体必须在 2 英寸以内。言语成分是轻柔的“嗖咔”声，姿势成分是用两根相邻手指做剪切动作。魔法物品（即使只是暂时被施法附魔的物品）不受此戏法影响。
@@ -117,9 +117,9 @@
 ### 疾驰 Gallop（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 个四足生物<br>
-<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 个四足生物<br>
+<strong>施法时间：</strong>1/2 个分段</div>
 
 
 <strong>说明／描述：</strong>使用这个有用的戏法时，施法者可以让一只四足生物（若它有智力，则可对抗法术进行豁免；成功即否定戏法）以其最大移动速率移动 1 轮，施法者每等级再增加 1 轮。生物可以被骑乘，也可以不被骑乘；它会沿施法者指向的方向直线移动，不顾坐骑、骑手或施法者的意愿。如果路线通向陷阱、坑或悬崖，坐骑或其上的任何骑手可以进行一次 +3 的对抗法术豁免；成功时，生物会在最后一刻转向，随后按照地形要求自由绕行，直至戏法结束。
@@ -129,9 +129,9 @@
 ### 刺痛 Sting（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>施法时间：</strong>1/2 个分段</div>
 
 
 <strong>说明／描述：</strong>这个作用于人的戏法能以轻微方式伤害最远 4 英寸外的单个生物：施法者发出嗡嗡声，把伸出的手指指向自己解剖学上的某个部位，就会令目标相应部位出现短暂（2 个分段）但强烈的疼痛，除非目标对抗法术成功。
@@ -141,13 +141,13 @@
 ### 重构 Reconstruction（变化／幻术）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>1 轮 + 每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>1 轮 + 每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>本法术可以暂时修复或使破碎的物品恢复完整，即使物品已经严重碎裂或缺少部分。物品会恢复成破碎前的样子，甚至包括气味、重量、坚实度、敲击时的声音和质地；在普通检查下，它看起来完整无损。侦测魔法会显示法术灵光，而观命术或真知术会把幻术显示为幻术，但物品仍可被触摸和使用——例如，绳子或木杆可以承重或固定物品，武器可以用来打击等——通常无需驱散幻术，使用效果就如同物品真的完整。
@@ -163,13 +163,13 @@
 ### 身体共鸣 Body Sympathy（死灵）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>8<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>8 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>8<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>8 个分段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 <strong>说明／描述：</strong>这是由魔法师对敌人施放的“描述”法术；敌人必须在魔法师的视线内，并被其集中注意，或虽不在视线内、但被施法者在脑中想象出来。施法者必须在施法时说出目标生物的真名（见《Unearthed Arcana》的真名法术）。它会把魔法师与选定的受害者连接起来；受害者必须以 -4 罚值对抗法术豁免，以避开法术效果。

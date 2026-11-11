@@ -9,13 +9,13 @@
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>原刊未列<br>
-<strong>持续时间 Duration：</strong>每有效等级1回合<br>
-<strong>影响范围 Area of Effect：</strong>每有效等级10×10英尺，深60英尺<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>原刊未列<br>
+<strong>持续时间：</strong>每有效等级1回合<br>
+<strong>影响范围：</strong>每有效等级10×10英尺，深60英尺<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 施法前说出要找的矿物，可辨认简单或复杂矿物。施法时间1轮。人工结构、植物及植物制品会阻断探测；矿石一旦冶炼便不再能被发现。
@@ -25,13 +25,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>每有效等级1小时<br>
-<strong>影响范围 Area of Effect：</strong>一份液体或混合物<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>每有效等级1小时<br>
+<strong>影响范围：</strong>一份液体或混合物<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>无
 </div>
 
 让木棒或短杆自行搅拌，可设定速度和节奏。施法时间1轮；施法者模仿所需动作后可离开，仍可命令搅拌停止和重新开始。
@@ -41,13 +41,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>原刊未列；至解除<br>
-<strong>影响范围 Area of Effect：</strong>两件平整物体；每有效等级20平方英尺<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>原刊未列；至解除<br>
+<strong>影响范围：</strong>两件平整物体；每有效等级20平方英尺<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 材料：蜂蜜，须涂在两面
@@ -59,13 +59,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>依测试持续时间<br>
-<strong>影响范围 Area of Effect：</strong>一份药水<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>依测试持续时间<br>
+<strong>影响范围：</strong>一份药水<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 材料：待鉴定药水的10%
@@ -77,13 +77,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>120英尺<br>
-<strong>持续时间 Duration：</strong>每有效等级1回合<br>
-<strong>影响范围 Area of Effect：</strong>直径60英尺圆形区域<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>120英尺<br>
+<strong>持续时间：</strong>每有效等级1回合<br>
+<strong>影响范围：</strong>直径60英尺圆形区域<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 材料：任意树叶
@@ -95,13 +95,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 59 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>直到混合或饮用<br>
-<strong>影响范围 Area of Effect：</strong>一瓶药水或一批材料<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>直到混合或饮用<br>
+<strong>影响范围：</strong>一瓶药水或一批材料<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>无
 </div>
 
 保护完成的药水免受普通空气和时间造成的变质，持续到液体被混合或饮用；一次只能保存一瓶，也能保存蛇眼、独角兽角、巨魔血等材料。施法时间1轮。
@@ -111,13 +111,13 @@ Len Lakofka · 第 59 页
 Len Lakofka · 第 60 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>100英尺<br>
-<strong>持续时间 Duration：</strong>即时<br>
-<strong>影响范围 Area of Effect：</strong>20立方英尺材料<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>100英尺<br>
+<strong>持续时间：</strong>即时<br>
+<strong>影响范围：</strong>20立方英尺材料<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>无
 </div>
 
 准确判断样本是否为毒药或是否被下毒，但不判断毒性强弱；施法时间8个时段。
@@ -127,13 +127,13 @@ Len Lakofka · 第 60 页
 Len Lakofka · 第 60 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>每有效等级1英里<br>
-<strong>持续时间 Duration：</strong>每有效等级1小时<br>
-<strong>影响范围 Area of Effect：</strong>范围内一株有样本的活植物<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>每有效等级1英里<br>
+<strong>持续时间：</strong>每有效等级1小时<br>
+<strong>影响范围：</strong>范围内一株有样本的活植物<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>无
 </div>
 
 手持植物任一部分，在范围内找出活植物，并在持续时间内无误指出方向。
@@ -143,13 +143,13 @@ Len Lakofka · 第 60 页
 Len Lakofka · 第 60 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一吨含矿岩石<br>
-<strong>成分 Components：</strong>原刊未列<br>
-<strong>施法时间 Casting Time：</strong>原刊未列<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一吨含矿岩石<br>
+<strong>成分：</strong>原刊未列<br>
+<strong>施法时间：</strong>原刊未列<br>
+<strong>豁免检定：</strong>无
 </div>
 
 把含矿岩石变成指定形态的纯矿。施法需一小时，被打断便完全失败；每次最多一吨，已加工石材不受影响。

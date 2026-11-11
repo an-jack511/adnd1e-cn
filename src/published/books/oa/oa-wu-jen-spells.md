@@ -81,13 +81,13 @@
 ### 准确术 Accuracy（附魔/魅惑，可反转）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>1 英寸；<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>每等级一件飞弹；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>1 英寸；<br>
+<strong>持续时间：</strong>每等级 1 轮；<br>
+<strong>影响范围：</strong>每等级一件飞弹；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 法术可附魔普通或魔法飞弹，只要它们能由普通人大小的生物发射或投掷。投石机巨石、巨人投出的石块或巨力带投掷的巨石不能受影响。飞弹所有射程类别加倍，因而远距离命中修正可能降低；被附魔的飞弹会微微发光。反转的不准确术施于生物，使射向它的所有飞弹都按远一档射程处理，短程视为中程，中程视为远程，远程视为超出范围。材料是毛笔和墨，用于在每枚飞弹上写下神秘字符；反转法术还需要厚玻璃粉。
@@ -95,13 +95,13 @@
 ### 活木 Animate Wood（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>接触；<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>特殊；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>接触；<br>
+<strong>持续时间：</strong>每等级 1 轮；<br>
+<strong>影响范围：</strong>特殊；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 法术使木制物品柔软并能移动、弯曲、抓取或缠绕。运动缓慢而僵硬，战斗中总是最后攻击，不改变物品形状；箭仍是一根箭，只是能像蛇一样扭动，树木扎根则不能走动。可命令被激活的物品像 0 级人类攻击，造成同尺寸同类型武器的伤害。物品 AC 10–5，视大小、坚固度和机动性而定；每 10 英尺高度或每平方码体积约有 1d10 生命值，箭最多 1–2 点，巨大树木可有 100–200 点。每级可影响一株活木或一件约两支箭大小的非活木；魔法木材可进行法术豁免抵抗。材料是朱砂粉与桃核粉。
@@ -137,13 +137,13 @@
 ### 通晓语言 Comprehend Languages（变化，可反转）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>接触；<br>
-<strong>持续时间 Duration：</strong>5 轮/等级；<br>
-<strong>影响范围 Area of Effect：</strong>一件文字物品或一个被接触的说话生物；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>接触；<br>
+<strong>持续时间：</strong>5 轮/等级；<br>
+<strong>影响范围：</strong>一件文字物品或一个被接触的说话生物；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 巫人能够理解非魔法文字或被接触生物的语言，但不能因此说或写该语言。反转的混淆语言术使文字或语言无法被理解，也能取消通晓语言。两者的材料成分是少量煤灰和几粒盐。
@@ -151,13 +151,13 @@
 ### 侦测魔法 Detect Magic（预言）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>0；<br>
-<strong>持续时间 Duration：</strong>2 轮；<br>
-<strong>影响范围 Area of Effect：</strong>施法者前方 1 英寸宽、12 英寸长的路径；<br>
-<strong>成分 Components：</strong>V、S；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>0；<br>
+<strong>持续时间：</strong>2 轮；<br>
+<strong>影响范围：</strong>施法者前方 1 英寸宽、12 英寸长的路径；<br>
+<strong>成分：</strong>V、S；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 除特别说明外，本法术同修贤者的同名一环法术。巫人每等级有 10% 的几率判断出被发现的魔法属于何种类型。
@@ -165,13 +165,13 @@
 ### 昏睡昆虫 Drowsy Insects（咒法/召唤，自然）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>6 英寸；<br>
-<strong>持续时间 Duration：</strong>立即；<br>
-<strong>影响范围 Area of Effect：</strong>每等级半英寸见方；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>6 英寸；<br>
+<strong>持续时间：</strong>立即；<br>
+<strong>影响范围：</strong>每等级半英寸见方；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 召来一小团叮咬昆虫，笼罩范围内生物。昆虫几乎不造成伤害，但每个被笼罩者都须作毒素豁免；成功则不受影响，失败则立即进入浅睡，持续 2d6 轮，直到被摇醒、击打或以其他方式打扰。战斗等巨大噪音有 50% 几率将其惊醒，对耳边喊叫则必定惊醒。材料是活蜜蜂或其他会蜇人的昆虫。
@@ -179,13 +179,13 @@
 ### 鬼火 Ghost Light（咒法）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>12 英寸；<br>
-<strong>持续时间 Duration：</strong>特殊；<br>
-<strong>影响范围 Area of Effect：</strong>1 英寸见方；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>5 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>12 英寸；<br>
+<strong>持续时间：</strong>特殊；<br>
+<strong>影响范围：</strong>1 英寸见方；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>5 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 召来绿色幽光，可照亮物体，也可在范围内塑成任意形状并控制其移动，例如塑成一个人形令其行走或飞行。巫人持续专注时法术持续。智力低于 9 或生命骰少于 1 的生物看见幽光时须作法术豁免；失败者恐慌，按全速逃离一轮，无法逃跑时则蜷缩躲藏；被迫战斗时攻击检定承受 -2。材料是少量磷。
@@ -193,13 +193,13 @@
 ### 封门 Hold Portal（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>2 英寸/等级；<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>每等级 80 平方英尺；<br>
-<strong>成分 Components：</strong>V；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>2 英寸/等级；<br>
+<strong>持续时间：</strong>每等级 1 轮；<br>
+<strong>影响范围：</strong>每等级 80 平方英尺；<br>
+<strong>成分：</strong>V；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 魔法封住范围内一扇门、门闩、闸门或阀门。异次元生物能自动破坏被封住的门；等级至少比施法者高 4 级的巫人可打开它。敲击术可以取消法术，门也可以被强行砸破。
@@ -207,13 +207,13 @@
 ### 催眠术 Hypnotism（附魔/魅惑）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>3 英寸；<br>
-<strong>持续时间 Duration：</strong>1 轮 + 每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>1–6 个生物；<br>
-<strong>成分 Components：</strong>V、S；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>3 英寸；<br>
+<strong>持续时间：</strong>1 轮 + 每等级 1 轮；<br>
+<strong>影响范围：</strong>1–6 个生物；<br>
+<strong>成分：</strong>V、S；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>否定</div>
 
 
 未通过豁免的目标会变得容易接受建议。建议必须使用目标理解的语言，而且不能明显要求目标自毁。
@@ -221,13 +221,13 @@
 ### 知晓历史 Know History（预言）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>12 英寸；<br>
-<strong>持续时间 Duration：</strong>立即；<br>
-<strong>影响范围 Area of Effect：</strong>一个生物或物体；<br>
-<strong>成分 Components：</strong>V、S；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>12 英寸；<br>
+<strong>持续时间：</strong>立即；<br>
+<strong>影响范围：</strong>一个生物或物体；<br>
+<strong>成分：</strong>V、S；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 本法术与修贤者的一环知晓历史术完全相同。
@@ -235,13 +235,13 @@
 ### 魔法飞弹 Magic Missile（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>6 英寸 + 1 英寸/等级；<br>
-<strong>持续时间 Duration：</strong>特殊；<br>
-<strong>影响范围 Area of Effect：</strong>10 平方英尺内的一个或多个生物；<br>
-<strong>成分 Components：</strong>V、S；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>6 英寸 + 1 英寸/等级；<br>
+<strong>持续时间：</strong>特殊；<br>
+<strong>影响范围：</strong>10 平方英尺内的一个或多个生物；<br>
+<strong>成分：</strong>V、S；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 从指尖射出必中目标的魔法飞弹，造成 2–5 点伤害，可在同一作用范围内分别攻击多个目标。巫人每多 2 个等级获得一枚额外飞弹，即 3、5、7、9 级等各增加一枚。
@@ -249,13 +249,13 @@
 ### 传讯术 Message（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>6 英寸 + 1 英寸/等级；<br>
-<strong>持续时间 Duration：</strong>5 段 + 每等级 1 段；<br>
-<strong>影响范围 Area of Effect：</strong>宽半英寸的路径；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>6 英寸 + 1 英寸/等级；<br>
+<strong>持续时间：</strong>5 段 + 每等级 1 段；<br>
+<strong>影响范围：</strong>宽半英寸的路径；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 巫人低声说出讯息并指向范围内目标；目标能听见，并可在剩余时间内回答。材料是蛾的翅膀。
@@ -263,13 +263,13 @@
 ### 戏法 Prestidigitation（咒法，可反转）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>0；<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>仅施法者；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>3 段；<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>0；<br>
+<strong>持续时间：</strong>每等级 1 轮；<br>
+<strong>影响范围：</strong>仅施法者；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>3 段；<br>
+<strong>豁免检定：</strong>特殊</div>
 
 
 法术强化巫人的手指灵活性，使其能偷取小物、让掌中物品消失并在身上其他位置出现，或把身上的小物移回手中。物品必须能轻易放入掌心；旁观者可作法术豁免以识破手法。受害者若被施以反转的笨拙手指术，在持续时间内每次进行需要手部灵巧的动作都须成功作法术豁免，否则动作失败；大型动作如近战不受影响。正向材料是涂在指尖上的一小滴油，反向材料是撒在受害者身上的少量油。
@@ -277,13 +277,13 @@
 ### 阅读魔法 Read Magic（预言，可反转）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>0；<br>
-<strong>持续时间 Duration：</strong>2 轮/等级；<br>
-<strong>影响范围 Area of Effect：</strong>特殊；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 轮；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>0；<br>
+<strong>持续时间：</strong>2 轮/等级；<br>
+<strong>影响范围：</strong>特殊；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 轮；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 能够阅读魔法铭文和书写，但不会因此释放卷轴中的魔法；不过，读取被施加在魔法文字上的诅咒会触发诅咒。读过一次的铭文以后无需本法术即可再次阅读。材料是透明水晶。反转的不可读魔法术令魔法文字在法术结束或被驱散前无法以魔法方式读取；材料是少量泥土和一滴水。
@@ -291,13 +291,13 @@
 ### 秘密手势 Secret Signs（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>0；<br>
-<strong>持续时间 Duration：</strong>1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>施法者与另一名生物；<br>
-<strong>成分 Components：</strong>特殊；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>0；<br>
+<strong>持续时间：</strong>1 轮；<br>
+<strong>影响范围：</strong>施法者与另一名生物；<br>
+<strong>成分：</strong>特殊；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 施法时指定一名智能生物，并以一个手势、声音或物品摆放传递不超过 25 个词的完整想法。目标无论语言为何都能理解讯息，但如何解释讯息仍取决于目标本身。目标必须能清楚看见并听见巫人；所用的传递方式就是成分，所以即使巫人被捆住并堵住嘴也能施法。本法术不能触发或传递任何其他法术。
@@ -305,13 +305,13 @@
 ### 护盾 Shield（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>0；<br>
-<strong>持续时间 Duration：</strong>每等级 5 轮；<br>
-<strong>影响范围 Area of Effect：</strong>仅施法者；<br>
-<strong>成分 Components：</strong>V、S；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>0；<br>
+<strong>持续时间：</strong>每等级 5 轮；<br>
+<strong>影响范围：</strong>仅施法者；<br>
+<strong>成分：</strong>V、S；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 在巫人面前升起不可见屏障：抵消所有魔法飞弹；对手掷飞弹时 AC 为 2，对器械发射的飞弹时 AC 为 3，对其他攻击时 AC 为 4；来自正面的攻击造成的豁免检定再获得 +1。
@@ -319,13 +319,13 @@
 ### 蛛行术 Spider Climb（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1；<br>
-<strong>距离 Range：</strong>接触；<br>
-<strong>持续时间 Duration：</strong>1 轮 + 每等级 1 轮；<br>
-<strong>影响范围 Area of Effect：</strong>被接触生物；<br>
-<strong>成分 Components：</strong>V、S、M；<br>
-<strong>施法时间 Casting Time：</strong>1 段；<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>1；<br>
+<strong>距离：</strong>接触；<br>
+<strong>持续时间：</strong>1 轮 + 每等级 1 轮；<br>
+<strong>影响范围：</strong>被接触生物；<br>
+<strong>成分：</strong>V、S、M；<br>
+<strong>施法时间：</strong>1 段；<br>
+<strong>豁免检定：</strong>无</div>
 
 
 目标可以每轮 3 英寸速度在垂直面和倒挂表面移动。目标必须裸手裸脚；重量低于 5

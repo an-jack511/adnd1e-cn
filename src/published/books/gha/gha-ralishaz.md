@@ -37,13 +37,13 @@ AL 混乱中立；RA 多色长袍；AEx 无；WPN 投石索*、硬头锤；SPH �
 #### 变易 Vicissitude（咒法／召唤）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 此法术允许牧师扭曲命运，但并非没有风险。当面对任何涉及机遇的情况时，牧师只需要完成此法术的神秘手势，就能让骰值获得 +10% 加值（参见<strong>好运石</strong>）。然而，每次使用此法术时，都有不可累积的 5% 概率发生反噬，为施法者产生最坏的结果。
 

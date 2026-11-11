@@ -32,13 +32,13 @@ AL 守序善良或守序中立；RA 见下文；AEx 无；WPN 棍棒*、连枷�
 #### 迷惑 Beguiling（附魔／魅惑）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无效</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无效</div>
 
 此法术使牧师的青铜木棍或橡棍术获得通过接触魅惑对手的力量。牧师可以选择尝试不造成伤害的接触，也可以进行正常的近战攻击。无论哪种情况，目标在被击中时都必须进行对法术豁免，否则会被魅惑。如果牧师选择造成伤害的攻击，目标每受到一点伤害，豁免就受到 +1 加值（但骰出“1”总是失败）。
 

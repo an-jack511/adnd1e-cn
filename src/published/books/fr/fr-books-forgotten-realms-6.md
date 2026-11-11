@@ -19,13 +19,13 @@
 ### 法术引擎 Spell Engine（防护／变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>8<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>以施法者为中心、每等级半径 1 英寸的球体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 个轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>8<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>以施法者为中心、每等级半径 1 英寸的球体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 个轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>这种罕见而强大的魔法，只有在其作用范围内施放了另一道法术后才会开始运作。那一刻，一只巨大的、闪耀的轮，或一道发出白色辉光的垂直圆盘，会瞬间出现：它位于当时地面或地板上方数英寸处；如果施法者在施放法术引擎时站在某处（即使法术施放发生在数百年前），它便会出现在那个位置。它开始转动，发出轻柔的呼啸声，并吸收其作用范围内施放的所有法术的能量，使那些法术白白消耗、无法生效，反而成为驱动旋转之轮的力量。
@@ -47,9 +47,9 @@
 ### 猫足 Catfeet（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>一双脚（自身）<br>
-<strong>施法时间 Casting Time：</strong>1/6 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>一双脚（自身）<br>
+<strong>施法时间：</strong>1/6 个分段</div>
 
 
 <strong>说明／描述：</strong>这是一个个人戏法。施法者用一只手的手指做出抚摸动作，即可作用于自己（不能令其作用于他人），持续 1 轮；施法者每超过第 1 级的经验等级再增加 1 轮。无论行走或攀爬的表面为何，施法者双脚的动作与踩踏重量都会变得无声。
@@ -61,9 +61,9 @@
 ### 拽取 Snatch（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 人<br>
-<strong>施法时间 Casting Time：</strong>1/6 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 人<br>
+<strong>施法时间：</strong>1/6 个分段</div>
 
 
 <strong>说明／描述：</strong>这个作用于人的戏法，会对目标生物身体的一部分或肢体施加短暂而剧烈的拉拽力量。这股力量并不强，但可以让正在奔跑的生物绊倒或转身，也可以使某人笨拙地失手，掉落钥匙、材料成分、宝石、硬币等小物件。目标进行一次对抗法术的豁免检定，以决定这些物品是否真的被看见掉落、跌倒或意外是否真的发生，还是拽取只让目标延迟 1–3 个分段。
@@ -73,9 +73,9 @@
 ### 火花 Spark（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>施法时间 Casting Time：</strong>1/2 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>施法时间：</strong>1/2 个分段</div>
 
 
 <strong>说明／描述：</strong>施法者同时打响手指并发出啪的一声口头声响，就能在施法者每等级 1 英寸的范围内、任何精确位置（施法者熟悉的位置，或仅凭方向与距离选择的不可见位置）产生一大团强烈的蓝色火花。火花接触到的任何导电材料都会传递其能量，但它不需要电能或任何其他能量存在，也不受潮湿或其他大气条件影响。施法者达到第 6 级或更高等级时，戏法会在同一位置快速连续地产生 2–5（1d4+1）团火花。
@@ -83,13 +83,13 @@
 ### 刃渴 Bladethirst（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>一件武器的刀刃（可为多刃）<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>一件武器的刀刃（可为多刃）<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>施法者以一撮银、精金或秘银粉末，再加上至少一滴（人类）血液，使一件有刃武器的刀刃（或多件刀刃）在下一轮获得 +3 命中加值。这种临时魔法表现为武器周围的蓝白色辉光，在刀刃击中生物或法术结束时消退，以先发生者为准。
@@ -101,13 +101,13 @@
 ### 梅拉尔德的致命迷雾 Merald’s Murderous Mist（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>2 轮<br>
-<strong>影响范围 Area of Effect：</strong>半径 2 英寸的球体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>2 轮<br>
+<strong>影响范围：</strong>半径 2 英寸的球体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 个分段<br>
+<strong>豁免检定：</strong>否定</div>
 
 
 <strong>说明／描述：</strong>施放此法术会产生一团翻涌的雾状蒸气；它从施法者向外扩散，在施法者所在地面高度的上方与下方填充一个半径 2 英寸的球形区域，只需 2 个分段便能穿过所有障碍物。施法轮结束时，魔法生效，迷雾由蓝灰色变为绿色，成为有毒的迷雾。
@@ -137,9 +137,9 @@
 ### 号角 Horn（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>施法时间 Casting Time：</strong>特殊</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>施法时间：</strong>特殊</div>
 
 
 <strong>说明／描述：</strong>号角戏法会产生一个不存在的号角或小号被吹响的幽幽声音，听起来最多可达 2 英寸远（若声音很响，则可达 6 英寸）。音调、音量、听起来的距离（回声与闷响）以及单个号音的长度都由施法者控制。施法者轻轻或无声地哼出音高，然后把嘴张成 O 形，一只手的手指在嘴旁合拢。号角声只要嘴保持 O 形就会持续。施法者可以用手指张开来增加音量、捏拢来使声音静音，也可以晃动手指产生颤抖的音调。熟练使用此戏法的施法者可以完美模仿号角声。
@@ -147,9 +147,9 @@
 ### 聆听 Listen（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>施法时间 Casting Time：</strong>1/10 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>施法时间：</strong>1/10 个分段</div>
 
 
 <strong>说明／描述：</strong>作用于人的聆听戏法可以让施法者吸引 6 英寸内目标生物的注意。施法者先指向目标，再指向自己，同时说“Ahem”。从施法开始后 1 个分段内，目标便会注意到施法者随后说出的信息；例如，施法者可以在宽阔街道对面或拥挤房间中引起对方注意。
@@ -159,9 +159,9 @@
 ### 焦灼 Scorch（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>0<br>
-<strong>影响范围 Area of Effect：</strong>1 件物品<br>
-<strong>施法时间 Casting Time：</strong>1/3 个分段</div>
+<strong>等级：</strong>0<br>
+<strong>影响范围：</strong>1 件物品<br>
+<strong>施法时间：</strong>1/3 个分段</div>
 
 
 <strong>说明／描述：</strong>这个逆转戏法虽然名为“焦灼”，却既不制造火焰，也不产生热量。它通过魔法激发任何非生物物体的分子（重量最多 10金币），使物体无声、无气味、无烟地炭化。施法者必须触摸物体（如果另一个生物试图保护物体或不让施法者接近，则需要命中检定），而物体可以对魔法火焰进行豁免。豁免失败时，物体被消耗。
@@ -171,13 +171,13 @@
 ### 烟魂 Smoke Ghost（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>每等级 1 英寸<br>
-<strong>持续时间 Duration：</strong>每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>4 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>1/2</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>每等级 1 英寸<br>
+<strong>持续时间：</strong>每等级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>4 个分段<br>
+<strong>豁免检定：</strong>1/2</div>
 
 
 <strong>说明／描述：</strong>德鲁伊以一撮尘土和槲寄生为材料，将法术施放进一团已有的火焰或烟雾（魔法或自然来源均可），便能控制烟雾，把它吸成幽灵般的兜帽形状，使其朝德鲁伊希望的方向飞行或滑行，每轮最多漂移 14 英寸。烟魂不是活着的生物，也不是有感知的力量；它不能穿衣、携带物品，也不能被迫说话。它只拥有一种攻击能力：用浓密、呛人的烟与灰包住敌人，使其窒息。

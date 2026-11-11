@@ -7,13 +7,13 @@
 ## 连锁闪电 Chain Lightning（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>4″＋每级 1/2″<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>伤害减半，或完全避开</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>4″＋每级 1/2″<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>伤害减半，或完全避开</div>
 
 一束宽 <strong>1/4″</strong>的闪电从施法者指尖射向射程内的<strong>首要目标</strong>。这与笼罩一片区域的*闪电束*不同。首要目标<strong>对法术豁免</strong>成功受一半伤害，失败受<strong>每施法者等级 1d6</strong>伤害。
 
@@ -24,13 +24,13 @@
 ## 触发术 Contingency（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每级 1 天<br>
-<strong>影响范围 Area of Effect：</strong>施法者本人<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 回合，两术合计<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每级 1 天<br>
+<strong>影响范围：</strong>施法者本人<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 回合，两术合计<br>
+<strong>豁免检定：</strong>无</div>
 
 在自己身上预置另一法术，待施术时声明的情形出现即刻触发。触发术与伴随法术<strong>同时施展</strong>，数值栏的 1 回合是两者总施法时间。伴随法术必须作用于施法者本人，例如*羽落术*、*浮空术*、*飞行术*、*雕像术*或*假死术*；其环级不得高于施法者等级<strong>除以 3 向下取整</strong>，且最高为 <strong>六环</strong>。因此 12–14 级最多预置四环，15–17 级最多五环，18 级起最多六环。同时只能保持<strong>一个</strong>触发术；施展新术会取消旧术。
 

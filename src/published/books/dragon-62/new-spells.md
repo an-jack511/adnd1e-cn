@@ -9,13 +9,13 @@
 Ed Greenwood · 第 17 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>1 具尸体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>5 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>1 具尸体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>5 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：同种族／物种新鲜血液；至少 7金币的月长石粉

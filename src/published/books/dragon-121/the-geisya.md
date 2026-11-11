@@ -9,13 +9,13 @@
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>特殊<br>
-<strong>豁免检定 Saving Throw：</strong>视所选戏法而定
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>特殊<br>
+<strong>豁免检定：</strong>视所选戏法而定
 </div>
 
 艺伎可借此法术使用一个魔法师的戏法。学习法术时必须先指定想要的戏法，其他参数依该戏法的描述决定；艺伎通常用它取得手法类戏法。
@@ -25,13 +25,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>每等级1回合<br>
-<strong>影响范围 Area of Effect：</strong>一根蜡烛、灯或火炬<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>3段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>每等级1回合<br>
+<strong>影响范围：</strong>一根蜡烛、灯或火炬<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>3段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：少量施法媒介
@@ -43,13 +43,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>4″<br>
-<strong>持续时间 Duration：</strong>每等级1轮<br>
-<strong>影响范围 Area of Effect：</strong>2″烟云<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>2段<br>
-<strong>豁免检定 Saving Throw：</strong>魔杖豁免；失败者失明2–5轮
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>4″<br>
+<strong>持续时间：</strong>每等级1轮<br>
+<strong>影响范围：</strong>2″烟云<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>2段<br>
+<strong>豁免检定：</strong>魔杖豁免；失败者失明2–5轮
 </div>
 
 材料：一撮白色粉末
@@ -61,13 +61,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>被接触生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>被接触生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：装饰扇
@@ -79,13 +79,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>每等级2轮<br>
-<strong>影响范围 Area of Effect：</strong>仅艺伎<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>每等级2轮<br>
+<strong>影响范围：</strong>仅艺伎<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 艺伎暂时强化和服、腰带与足袋，使衣物看起来不变，却实际提供相当于AC 5的防护。持续时间结束后，AC恢复原值；敏捷加值仍然适用，铁和服不会妨碍移动。
@@ -95,13 +95,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>S、M<br>
-<strong>施法时间 Casting Time：</strong>2轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>S、M<br>
+<strong>施法时间：</strong>2轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：若干围巾
@@ -113,13 +113,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每等级1回合<br>
-<strong>影响范围 Area of Effect：</strong>被接触生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每等级1回合<br>
+<strong>影响范围：</strong>被接触生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：装饰扇
@@ -131,13 +131,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>半径1″内所有生物<br>
-<strong>成分 Components：</strong>V<br>
-<strong>施法时间 Casting Time：</strong>5段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>半径1″内所有生物<br>
+<strong>成分：</strong>V<br>
+<strong>施法时间：</strong>5段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 法术首先如幻术师的着迷术，使范围内听见声音且豁免失败的生物停止行动并听完五段施法。法术完成后，目标还要再次豁免；失败者会被笑得无法行动1至10轮，受到攻击时可立即摆脱效果。若整个失能期间没人攻击目标，目标会认为艺伎当天魅力和外貌都为20。
@@ -147,13 +147,13 @@ Gregg Sharp · 第 38、39、40、41 页
 Gregg Sharp · 第 38、39、40、41 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>4″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>5段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>4″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>5段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 要求具备杂耍熟练项。施法者创造无害的火球并安全抛接；随着等级提高，也能改造出冰球、水球、彩色光球或发光白色匕首，每3级获得一种替代形态。物体接触施法者双手以外的东西或施法者停止集中时消失。每个投射物每轮可投掷两枚，每枚命中造成1d4点伤害并加艺伎等级；水球不造成伤害。

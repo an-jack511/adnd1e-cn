@@ -7,39 +7,39 @@
 ## 暴雨术 Cloudburst（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>直径 3″、最高 6″ 的圆柱<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无（及特殊情况）</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>直径 3″、最高 6″ 的圆柱<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无（及特殊情况）</div>
 
 效果与[牧师三环的同名法术](/books/ua/ua-cleric-spells-3/)相同，但材料成分<strong>不需要圣徽</strong>。其余雨量、火焰、积水和特殊豁免规则均按牧师版处理。
 
 ## 侦测幻象 Detect Illusion（预言系 Divination）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>2 轮＋每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>视线内宽 1″、长每级 1″<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>2 轮＋每级 1 轮<br>
+<strong>影响范围：</strong>视线内宽 1″、长每级 1″<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 除上列数值外，效果与<strong>幻术师一环的侦测幻象</strong>相同。
 
 ## 物品术 Item（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 6 回合；用于非活体时增为 4 倍<br>
-<strong>影响范围 Area of Effect：</strong>每级 2 立方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每级 6 回合；用于非活体时增为 4 倍<br>
+<strong>影响范围：</strong>每级 2 立方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 触碰体积未超上限的普通、非魔法物品，使其缩至原尺寸的 <strong>1/12</strong>；还可任选使缩小后的材质变得像布。活物也能作为目标，且只有活物可<strong>对法术豁免</strong>，其豁免获得 <strong>＋4</strong>。已经变成布状的物体或生物再遭攻击时，仍按原本状态进行相应豁免。
 
@@ -48,26 +48,26 @@
 ## 材料术 Material（塑能／咒法系 Evocation-Conjuration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 立方尺<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>每级 1 立方尺<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无</div>
 
 造出寻常的<strong>原始、未经加工材料</strong>，如石、土、木；水、空气、粪、稻草等其他无生命物质也可造出。尝试造出草地之类简单植物时，基础失败率为 <strong>100%</strong>，每施法者等级降低 <strong>1 个百分点</strong>。绝不能造出动物生命，也不能造出加工、精炼、制造完成的物品，或高价值宝石、贵金属。本术只创造普通而基本的事物。
 
 ## 马友夫微流星 Melf's Minute Meteors（塑能／变化系 Evocation/Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>每枚飞弹一个目标<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>每枚飞弹一个目标<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>无</div>
 
 施法者能投掷与自身等级相同数量的小火球。每枚作为<strong>投掷飞弹武器</strong>判定，未命中时按类似手榴弹的飞溅武器处理；命中时爆成直径 <strong>1 尺</strong>的火球，使目标受 <strong>1–4 点伤害</strong>，或点燃可燃物，甚至实木板。剩余飞弹持续可用，直到全部发出、施法者放弃，或对其施放的*解除魔法*成功。
 
@@ -81,13 +81,13 @@
 ## 秘密文页 Secret Page（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>直到被解除<br>
-<strong>影响范围 Area of Effect：</strong>一页，最大 2 尺见方<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>直到被解除<br>
+<strong>影响范围：</strong>一页，最大 2 尺见方<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 使一页的真实内容看起来完全不同：地图可装成研究黑檀手杖抛光的论文，法术文字可装成账本或另一种法术。可在密页上施放*语言混淆*和*爆炸符文*；*通晓语言*却不能揭示真实内容。
 
@@ -96,13 +96,13 @@
 ## 蛇纹法印 Sepia Snake Sigil（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>1/2″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个符印<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>1/2″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个符印<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>无</div>
 
 符印有三种形式，最终都召出一条深褐色蛇形力量，扑向最近的活物，但<strong>不会攻击施法者</strong>。其攻击如同生命骰等于施法者等级的怪物。若命中，目标被闪烁的琥珀色力场包围并冻结，直到施法者主动释放，或*解除魔法*解除。在此之前，外物无法触及或移动力场及受困者；受困者不衰老、不饥饿、不睡眠、不恢复法术，也不察觉周围环境。
 
@@ -117,13 +117,13 @@
 ## 风墙术 Wind Wall（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>每级 1″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>宽 1″、高每级 1/2″ 的区域<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>每级 1″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>宽 1″、高每级 1/2″ 的区域<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 召出一面强劲的无形风幕，足以吹起乌鸦大小的鸟，或扯走不提防者手中的纸张等轻物；是否握住物品有疑义时，可作<strong>对法术豁免</strong>。普通昆虫不能穿越。松散物，包括衣服等布料，碰到风墙便向上飞起。材料成分是一把微型扇子和一根来自异域的羽毛。
 

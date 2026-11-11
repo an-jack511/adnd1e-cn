@@ -19,13 +19,13 @@
 ### 冰雹锥 Hailcone（塑能）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>施法者每等级 1 英寸<br>
-<strong>持续时间 Duration：</strong>1 轮<br>
-<strong>影响范围 Area of Effect：</strong>直径 3 英寸的锥体<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>6 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>施法者每等级 1 英寸<br>
+<strong>持续时间：</strong>1 轮<br>
+<strong>影响范围：</strong>直径 3 英寸的锥体<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>6 个分段<br>
+<strong>豁免检定：</strong>无</div>
 
 
 <strong>说明／描述：</strong>施法者以一撮尘土（一两粒谷物或少量沙子即可）和几滴水为材料，使大颗冰雹（直径 2 英寸以上）从位于地面或指定目标上方 3 英寸的焦点处向下倾泻，形成底部直径 3 英寸的锥形区域。作用范围内的生物受到 3–30 点伤害；暴露的物品必须对粉碎打击进行豁免，才能不受损坏。
@@ -35,13 +35,13 @@
 ### 相位陷阱 Phase Trap（变化）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>2 英寸<br>
-<strong>持续时间 Duration：</strong>施法者每等级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>1 个生物<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 个分段<br>
-<strong>豁免检定 Saving Throw：</strong>否定</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>2 英寸<br>
+<strong>持续时间：</strong>施法者每等级 1 轮<br>
+<strong>影响范围：</strong>1 个生物<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 个分段<br>
+<strong>豁免检定：</strong>否定</div>
 
 
 <strong>说明／描述：</strong>施法者通过一个词、一种姿势，并把一颗价值至少 5

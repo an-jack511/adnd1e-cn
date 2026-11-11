@@ -9,13 +9,13 @@
 Ed Greenwood · 第 18 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>7<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>至一件毁坏或解除魔法<br>
-<strong>影响范围 Area of Effect：</strong>两件同材质、大小相近的非生物物件<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>7<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>至一件毁坏或解除魔法<br>
+<strong>影响范围：</strong>两件同材质、大小相近的非生物物件<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：两件待联系物、圣徽、细金属丝／人发／蛛丝
@@ -31,13 +31,13 @@ Ed Greenwood · 第 18 页
 Ed Greenwood · 第 19、20 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>1 轮 + 1 轮/级<br>
-<strong>影响范围 Area of Effect：</strong>现存碎片至多 1 立方英尺/级；重构完整物可更大<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>1 轮 + 1 轮/级<br>
+<strong>影响范围：</strong>现存碎片至多 1 立方英尺/级；重构完整物可更大<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：待恢复物或碎片、少许细沙、至少指甲大小的树脂／树胶

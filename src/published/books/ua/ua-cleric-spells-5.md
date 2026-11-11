@@ -5,13 +5,13 @@
 ## 空中行走 Air Walk（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>6 回合＋每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>一名生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>6 回合＋每级 1 回合<br>
+<strong>影响范围：</strong>一名生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 受术者可像踏在坚实地面上一样在空中行走。上升如同爬坡：以 45° 角上升时移动力减半，以 60° 角上升时降至四分之一，垂直上升时降至八分之一；下降则将这些比例倒转，垂直下降可达正常速度的八倍，也可自选较慢速度。受术者始终能控制移动速度，即使快速垂直下降，也能瞬间停住而不撞上地面或障碍。
 
@@ -20,13 +20,13 @@
 ## 活化死怪 Animate Dead Monsters（死灵系 Necromantic）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>特殊；每 2 级活化一具遗骸<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>特殊；每 2 级活化一具遗骸<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>7 段<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师每有 2 级，可使一具人形或近人形怪物的骸骨或尸体活动，并赋予其听从指令的能力。活化出的骷髅或僵尸会执行直接命令或不超过约 12 个词的指示（参见*活化死尸*）。可用的怪物包括但不限于食肉猿、巨猿、熊地精、双头巨人、各种巨人、食人魔及各种巨魔。一般而言，遗骸必须属于超过 3 HD、身高超过 7 尺、有类似人类内骨骼的双足怪物。
 
@@ -35,13 +35,13 @@
 ## 魔像术 Golem（附魔／魅惑系 Enchantment/Charm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>8 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>8 段<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师必须亲手先制成魔像形体，再对其施展*祈祷术*，此术才能生效。魔像必须为大致人形，身高约 3–7 尺。材料与牧师等级决定种类；以下制造时间结束后，才开始计算所列持续时间。
 
@@ -62,26 +62,26 @@
 ## 魔法圣水池 Magic Font（预言系 Divination）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>5 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>5 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 此术使圣水或邪水池成为探知装置。只有与所奉神祇关系良好的牧师才能使用。水池如同*水晶球*（见《地下城主指南》魔法杂项宝物）。池中每能容纳一小瓶水，牧师便可探知 1 轮，所以持续时间直接取决于水池容量。目标察觉探知的概率，参见《地下城主指南》的*水晶球*及本书魔法师法术*魔镜术*。牧师的圣徽或邪徽、水池及其附属陈设都是材料成分，但不会因施法耗尽。
 
 ## 彩虹术 Rainbow（塑能／变化系 Evocation/Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>12″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>7 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>12″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>7 段<br>
+<strong>豁免检定：</strong>无</div>
 
 牧师必须看得见某种彩虹，或备有下述特殊材料，才能施展此术。施法时从以下四种用途选择一种。
 
@@ -120,13 +120,13 @@
 ## 尖刺石地 Spike Stones（变化／附魔系 Alteration/Enchantment）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>3–12 回合＋每级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>每级一块 1″ 见方区域，每 1 尺见方一根石刺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>6 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>3–12 回合＋每级 1 回合<br>
+<strong>影响范围：</strong>每级一块 1″ 见方区域，每 1 尺见方一根石刺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>6 段<br>
+<strong>豁免检定：</strong>无</div>
 
 此术使天然岩石或加工石材长出与背景融为一体的尖长石刺，可阻碍通行并造成伤害。仔细观察该区域的人，每人有 25% 概率发现尖刺；否则踏入者直到受伤才会察觉。进入区域的第一步以及此后每走一步，都会受到石刺攻击。每根石刺的命中判定如同牧师本人攻击，命中造成 1–4 点伤害。第一步若命中，目标便知道有危险；若未命中，目标会继续行走，直至受伤。
 

@@ -5,13 +5,13 @@
 ## 典礼术 Ceremony（祈唤系 Invocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一名生物、一件物品或一片区域；见下文<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一名生物、一件物品或一片区域；见下文<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>特殊</div>
 
 典礼术在宗教组织中有多种用途，施法者等级决定可主持哪一种。仪式完成后不留下魔法灵光，但某些仪式可能留下可侦测的善良或邪恶灵光。各宗教的具体仪式可能不同，通常包括：
 

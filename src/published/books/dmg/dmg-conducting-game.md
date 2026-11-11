@@ -88,7 +88,7 @@
 
 <strong>护甲等级 Armor Class：</strong>与 AD&D 相同，因此 BOOT HILL 角色大多至少在初期为 AC 10（无护甲）。
 
-<strong>豁免检定 Saving Throws：</strong>按上文生命骰部分所确定的战士等级进行豁免。
+<strong>豁免检定s：</strong>按上文生命骰部分所确定的战士等级进行豁免。
 
 <strong>战斗能力 Fighting Ability：</strong>按上文生命骰部分所确定的战士等级计算。
 
@@ -173,12 +173,12 @@
 | GAMMA WORLD 角色换算为 AD&D | 规则 | AD&D 角色能力换算为 GAMMA WORLD | 规则 |
 |:---|:---|:---|:---|
 | 力量 Strength | 如原值；18 不掷百分骰 | 力量（体能） Strength (Physical) | 如 AD&D，计入百分骰加值 |
-| 智力 Intelligence | 如原值 | 智力 Intelligence | 如原值 |
+| 智力 | 如原值 | 智力 | 如原值 |
 | 感知 Wisdom | 使用精神力量数值 | 力量（精神） Strength (Mental) | 使用感知数值 |
 | 敏捷 Dexterity | 如原值 | 敏捷 Dexterity | 如原值 |
 | 体质 Constitution | 如原值 | 体质 Constitution | 如原值 |
 | 魅力 Charisma | 如原值 | 魅力 Charisma | 如原值 |
-| 魔法抗性 Magic Resistance | 无 | 辐射抗力 Radiation Resistance | 无 |
+| 魔法抗性 | 无 | 辐射抗力 | 无 |
 
 <strong>生命骰 Hit Dice：</strong>GAMMA WORLD 角色保留依其体质计算的总生命值；AD&D 角色则保留生命骰及等级带来的生命值加值。
 
@@ -197,7 +197,7 @@
 | 动力合金／能量甲／惯性甲／动力侦察甲／战斗甲 | −4 | AC −3 至 −4 的魔法护甲 | 2 |
 | 动力攻击甲／突击甲 | −8 | AC −5 至 −10 的魔法护甲 | 1 |
 
-<strong>豁免检定 Saving Throws：</strong>如前所述，GAMMA WORLD 角色对魔法（法术）没有豁免，某些精神突变能力可改变此规则（见下文）。同样，AD&D 角色没有辐射抗力。在 GAMMA WORLD 区域中，对毒素使用 GAMMA WORLD 矩阵；其他地方使用 AD&D 规则。其余豁免均按 AD&D 处理，GAMMA WORLD 角色视为战士；若精神突变能力近似法术，且相应豁免类别对魔法师更有利，则角色可按 <strong>1–5 级魔法师</strong>豁免。能力等级按角色获得的经验值数计算，每一档相当于提升一级：<strong>0–2,999</strong> 点为 1 级，<strong>3,000–5,999</strong> 点为 2 级，<strong>6,000–11,999</strong> 点为 3 级，<strong>12,000–24,999</strong> 点为 4 级，依此类推。
+<strong>豁免检定s：</strong>如前所述，GAMMA WORLD 角色对魔法（法术）没有豁免，某些精神突变能力可改变此规则（见下文）。同样，AD&D 角色没有辐射抗力。在 GAMMA WORLD 区域中，对毒素使用 GAMMA WORLD 矩阵；其他地方使用 AD&D 规则。其余豁免均按 AD&D 处理，GAMMA WORLD 角色视为战士；若精神突变能力近似法术，且相应豁免类别对魔法师更有利，则角色可按 <strong>1–5 级魔法师</strong>豁免。能力等级按角色获得的经验值数计算，每一档相当于提升一级：<strong>0–2,999</strong> 点为 1 级，<strong>3,000–5,999</strong> 点为 2 级，<strong>6,000–11,999</strong> 点为 3 级，<strong>12,000–24,999</strong> 点为 4 级，依此类推。
 
 <strong>战斗能力 Fighting Ability：</strong>GAMMA WORLD 角色在 AD&D 世界中按其累计经验值数所对应的等级战斗。AD&D 角色在 GAMMA WORLD 战役中则一律使用后者的命中判定方式，不论等级。
 

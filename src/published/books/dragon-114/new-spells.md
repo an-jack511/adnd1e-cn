@@ -9,13 +9,13 @@
 Bill Muhlhausen · 第 15、16 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>16 英尺半径<br>
-<strong>持续时间 Duration：</strong>I：1d4+1 回合；II：1d6+4 回合<br>
-<strong>影响范围 Area of Effect：</strong>I：5–8 名不高于三级；II：7–12 名不高于四级<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>I 为 1 时段；II 为 2 时段<br>
-<strong>豁免检定 Saving Throw：</strong>各自成功无效；领袖可先行抵消
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>16 英尺半径<br>
+<strong>持续时间：</strong>I：1d4+1 回合；II：1d6+4 回合<br>
+<strong>影响范围：</strong>I：5–8 名不高于三级；II：7–12 名不高于四级<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>I 为 1 时段；II 为 2 时段<br>
+<strong>豁免检定：</strong>各自成功无效；领袖可先行抵消
 </div>
 
 材料：由主持人决定
@@ -31,13 +31,13 @@ Bill Muhlhausen · 第 15、16 页
 Bill Muhlhausen · 第 15、19 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>原刊未列；对透明或反光物件<br>
-<strong>持续时间 Duration：</strong>每完整 7 级 1 回合<br>
-<strong>影响范围 Area of Effect：</strong>1 透明或反光物件，可窥视一次<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>6 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>原刊未列
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>原刊未列；对透明或反光物件<br>
+<strong>持续时间：</strong>每完整 7 级 1 回合<br>
+<strong>影响范围：</strong>1 透明或反光物件，可窥视一次<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>6 施法时段<br>
+<strong>豁免检定：</strong>原刊未列
 </div>
 
 材料：由主持人决定

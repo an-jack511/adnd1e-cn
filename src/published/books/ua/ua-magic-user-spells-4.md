@@ -7,26 +7,26 @@
 ## 解除幻象 Dispel Illusion（防护系 Abjuration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>每级 1/2″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>每级 1/2″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>无</div>
 
 与幻术师三环的同名法术相似。魔法师若试图解除由<strong>幻术师</strong>施展的幻象／幻影法术，判定时其有效等级比实际等级<strong>低 2 级</strong>。
 
 ## 艾伐黑触手 Evard's Black Tentacles（咒法／召唤系 Conjuration/Summoning）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>每级 30 平方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>8 段<br>
-<strong>豁免检定 Saving Throw：</strong>无（受击后可豁免）</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>每级 30 平方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>8 段<br>
+<strong>豁免检定：</strong>无（受击后可豁免）</div>
 
 从地面、地板或脚下其他表面——包括水面——冒出<strong>每施法者等级一条</strong>橡胶般的黑触手。每条长 <strong>10 尺</strong>、<strong>AC 4</strong>，须受等于施法者等级的伤害才会毁坏。触手攻击其触及范围内的生物；若一条触手够得到多个目标，用掷骰决定攻击对象。
 
@@ -35,13 +35,13 @@
 ## 雷欧蒙的安全庇护所 Leomund's Secure Shelter（变化／附魔系 Alteration-Enchantment）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>2″<br>
-<strong>持续时间 Duration：</strong>每级 6 回合<br>
-<strong>影响范围 Area of Effect：</strong>每级 30 平方尺<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>4 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>2″<br>
+<strong>持续时间：</strong>每级 6 回合<br>
+<strong>影响范围：</strong>每级 30 平方尺<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>4 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 召出一座坚固的小屋或猎屋，材料取施法地点常见之物：石、木，最差也是草皮。地面平整、干净、干燥，屋内有坚固的门、至少两扇带百叶窗的窗户及小壁炉。它能抵御最高 <strong>70 英里／小时</strong>的风，但除自然保温外不自带冷热调节，仍须像普通房屋一样生火取暖，极端高温仍会伤及屋内人。
 
@@ -52,13 +52,13 @@
 ## 魔镜术 Magic Mirror（附魔／预言系 Enchantment-Divination）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>特殊<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>特殊<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>无</div>
 
 把一面普通镜子暂时变成类似*水晶球*的窥视器具；其基本用法见《地下城主指南》第 <strong>141 页</strong>水晶球说明。镜子必须是精工打磨、抛光的银镜，价值至少 <strong>1,00金币</strong>。施法不损伤镜子，但消耗其他材料：隼、鹰或鹏鸟的眼睛，以及硝酸、铜和锌。
 
@@ -69,39 +69,39 @@
 ## 欧提路克弹力法球 Otiluke's Resilient Sphere（变化／塑能系 Alteration-Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>2″<br>
-<strong>持续时间 Duration：</strong>每级 1 轮<br>
-<strong>影响范围 Area of Effect：</strong>每级直径 1 尺的球体<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>2″<br>
+<strong>持续时间：</strong>每级 1 轮<br>
+<strong>影响范围：</strong>每级直径 1 尺的球体<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 造出闪烁力场球，包住一个<strong>小到能装入球内</strong>且<strong>对法术豁免失败</strong>的生物。只要法术持续，球体便困住目标。除*消除之杖*、*否定魔杖*、*解离术*或*解除魔法*外，任何伤害都不能破坏它；这些效果只摧毁球体，不伤及内部目标。任何东西都无法穿过球壁，但里面可以正常呼吸。受困者挣扎只会带动球体移动，外面的人也能推动球体。材料成分是钻石或同样坚硬透明宝石做的半球，以及一个相配的阿拉伯树胶半球。
 
 ## 咆哮术 Shout（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>瞬间<br>
-<strong>影响范围 Area of Effect：</strong>1″×3″ 的锥形<br>
-<strong>成分 Components：</strong>言语、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>瞬间<br>
+<strong>影响范围：</strong>1″×3″ 的锥形<br>
+<strong>成分：</strong>言语、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 施法者从口中发出撕裂耳膜的巨响，主要作用于向前延伸 <strong>3″</strong>的锥形区域。范围内生物若豁免失败，耳聋 <strong>2–12 轮</strong>并受 <strong>2–12 点伤害</strong>；豁免成功则不受这两项效果。暴露在声浪下、易碎或易受振动破坏的东西会粉碎，如*冰墙*。每天只能施展一次，否则施法者有永久失聪之虞。材料成分是一滴蜂蜜、一滴柠檬酸，以及一只牛角或羊角制成的小锥筒。
 
 ## 石肤术 Stoneskin（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 段<br>
+<strong>豁免检定：</strong>无</div>
 
 目标几乎免疫砍击、打击、投射物等物理攻击；即便是*锋锐之剑*、巨人掷石或蛇咬都无效。*火球术*、*魔法飞弹*、*闪电束*等魔法攻击仍正常生效。<strong>来自同一对手的一次攻击或一组连续攻击</strong>会被完全抵挡，但随后结束法术。
 
@@ -110,13 +110,13 @@
 ## 紫外视觉 Ultravision（变化系 Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>接触<br>
-<strong>持续时间 Duration：</strong>6 回合＋每级 6 回合<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>4 段<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>接触<br>
+<strong>持续时间：</strong>6 回合＋每级 6 回合<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>4 段<br>
+<strong>豁免检定：</strong>无</div>
 
 使受术者看见紫外光谱。通常夜里 <strong>100 码</strong>内如白昼清楚，<strong>100–300 码</strong>间朦胧难辨；若夜色极暗且乌云厚重，视程降低 <strong>50%</strong>。若头顶隔着约 <strong>6 尺以上泥土</strong>或 <strong>3 尺以上石头</strong>，如大多地下空间，紫外线被遮蔽，只能在约 <strong>3 尺半径</strong>内看见极微弱的景象；附近若有紫外发射源，视力相应改善。近处光源，包括魔法物品的光辉，会使远处暗区因亮光“炫目”而更难看清。材料成分是一颗碾碎的紫水晶，价值至少 <strong>50金币</strong>。
 

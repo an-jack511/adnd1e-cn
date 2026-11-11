@@ -7,13 +7,13 @@
 ## 回避术 Avoidance（防护／变化系 Abjuration/Alteration，可逆向）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>直到被解除<br>
-<strong>影响范围 Area of Effect：</strong>最大 3 尺见方的立方体<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>3 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>直到被解除<br>
+<strong>影响范围：</strong>最大 3 尺见方的立方体<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>3 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 在目标<strong>物体</strong>与所有活物之间建立斥力。生物试图触碰它时，依双方相对质量，或被弹开、无法靠近其 <strong>1 尺</strong>内，或反而把物体推走。例如，一名半身人去碰受术铁箱会被弹开；十余名半身人无法靠近箱子一尺内；巨型生物走近时，铁箱会滑开。不能直接对活物施展；若对活物所穿衣物或携带物施展，该活物可作豁免。材料成分是一枚磁化的针。
 
@@ -22,13 +22,13 @@
 ## 遣返术 Dismissal（防护系 Abjuration；逆向为咒法／召唤系）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功则无效</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>成功则无效</div>
 
 处于主物质位面的魔法师可强制或允许异位面生物回其所属位面，类似牧师四环*驱逐术*。须知道目标<strong>生物种类名称</strong>；若它有特定姓名、真名或姓氏，也须知道并在施法时使用。先检定魔法抗性，再比较施法者等级与目标等级或生命骰：施法者较高，则目标<strong>豁免掷骰点数减去差额</strong>；目标较高，则其掷骰点数<strong>加上差额</strong>。目标若自愿遣返，只作无修正的豁免。施法成功会立即送走目标，但有 <strong>20%</strong> 概率把它送去并非故乡的位面。
 
@@ -37,13 +37,13 @@
 ## 痛楚术 Dolor（附魔／魅惑系 Enchantment/Charm）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>2 轮<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>2 轮<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 试图迫使来自施法者位面以外、阵营相反或抱有敌意的生物服从。施法者吟诵时目标便不安；下一轮变得紧张多疑；最后一轮陷入迟钝而遍布全身的痛楚。它对命令及<strong>非攻击法术</strong>（包括魅惑）的豁免，随三个阶段分别承受掷骰 <strong>−1、−2、−3</strong>，有利于令其顺从；之后恢复正常。言语成分必须针对目标生物类别，包含尽可能多的相关信息。
 
@@ -52,13 +52,13 @@
 ## 鬼斧神工 Fabricate（附魔／变化系 Enchantment-Alteration）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>每级 1/2″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>每级 1 立方码<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>特殊<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>每级 1/2″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>每级 1 立方码<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>特殊<br>
+<strong>豁免检定：</strong>无</div>
 
 将已有材料制成基本由同种材料构成的成品，例如把一丛树变成木桥、一片大麻制成绳索、亚麻或羊毛制成衣物。不能创造或改造活物、魔法物品；成品品质取决于原料品质。加工矿物时，原书说影响体积缩为<strong>九分之一</strong>，并举例把 <strong>1 立方码</strong>缩至 <strong>1 立方尺</strong>。
 
@@ -69,13 +69,13 @@
 ## 雷欧蒙的烦扰术 Leomund's Lamentable Belabourment（附魔／塑能系 Enchantment/Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>1″<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>1″ 半径内的一个或多个生物<br>
-<strong>成分 Components：</strong>仅言语<br>
-<strong>施法时间 Casting Time：</strong>5 段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>1″<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>1″ 半径内的一个或多个生物<br>
+<strong>成分：</strong>仅言语<br>
+<strong>施法时间：</strong>5 段<br>
+<strong>豁免检定：</strong>特殊</div>
 
 让<strong>听得懂施法者语言</strong>的目标先入迷辩论，继而困惑，最后愤怒。施法者先谈起目标在意的话题；第一次<strong>对法术豁免失败</strong>者立即加入谈话，礼貌地赞同或反驳。只要施法者持续交谈、目标又没有遭攻击，就会忽略周围其他一切事。此术所有豁免均按目标智力调整：
 
@@ -94,12 +94,12 @@
 ## 短讯术 Sending（塑能系 Evocation）
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>特殊<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>一个生物<br>
-<strong>成分 Components：</strong>言语、姿势、材料<br>
-<strong>施法时间 Casting Time：</strong>1 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无</div>
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>特殊<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>一个生物<br>
+<strong>成分：</strong>言语、姿势、材料<br>
+<strong>施法时间：</strong>1 回合<br>
+<strong>豁免检定：</strong>无</div>
 
 联系施法者熟悉、姓名与相貌都知道的一个生物。目标不在同一位面时，每相隔 <strong>1 个位面</strong>有 <strong>5%</strong> 概率传讯不到达；相隔两个位面则失败率 <strong>10%</strong>。可传送每施法者等级 <strong>1 个词</strong>；英语的 *a、an、the* 等冠词不计入词数。接收者不必遵照信息行动。只要送达，即使目标仅有 <strong>智力 1</strong>或动物智力，也能理解。材料成分是两只一端开口的小圆筒，以一小段铜线相连。

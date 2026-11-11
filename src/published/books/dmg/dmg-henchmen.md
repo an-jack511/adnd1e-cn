@@ -1,6 +1,6 @@
 无论男女，精明的玩家都很希望拥有随从，因为从长远来看，随从往往决定了成败。他们能在个人冒险中提供保障，防范其他玩家角色的算计；能增强角色本人及其据点的实力；最后，当玩家角色无法亲自冒险时，随从也能成为代为冒险的角色。随从非常有用，通常也十分忠诚，因此魅力值会限制玩家角色所能吸引的随从数量。地下城主需要考虑的关键问题是：会吸引到谁？在哪里能找到？他们何时出现？招募成本是多少？下文将详细回答这些问题。
 
-<strong>潜在新随从的等级 Level of Prospective New Henchmen。</strong> 通常，只有 <strong>1 级</strong>角色会被玩家角色吸引而愿意效力。（如果 NPC 已经自行升过一级或更多，为什么还要寻求玩家角色的庇护？）若寻求 NPC 随从的玩家角色高于 <strong>6 级</strong>，找到的人选有 <strong>10%</strong> 概率为 <strong>2 级</strong>，因为玩家角色声名远播而主动前来效力；若玩家角色高于 <strong>11 级</strong>，则潜在随从有 <strong>25%</strong> 概率为 3 级、<strong>25%</strong> 概率为 2 级、<strong>50%</strong> 概率为 1 级。
+<strong>潜在新随从的等级 of Prospective New Henchmen。</strong> 通常，只有 <strong>1 级</strong>角色会被玩家角色吸引而愿意效力。（如果 NPC 已经自行升过一级或更多，为什么还要寻求玩家角色的庇护？）若寻求 NPC 随从的玩家角色高于 <strong>6 级</strong>，找到的人选有 <strong>10%</strong> 概率为 <strong>2 级</strong>，因为玩家角色声名远播而主动前来效力；若玩家角色高于 <strong>11 级</strong>，则潜在随从有 <strong>25%</strong> 概率为 3 级、<strong>25%</strong> 概率为 2 级、<strong>50%</strong> 概率为 1 级。
 
 <strong>潜在随从的种族 Race of Prospective Henchmen。</strong> 寻找 NPC 随从的地点、当地种族分布、潜在领主的种族，以及寻找随从的方式，都会影响可能招募到的种族。
 

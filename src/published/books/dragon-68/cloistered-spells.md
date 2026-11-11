@@ -9,13 +9,13 @@
 Len Lakofka · 第 31、32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>6 个月<br>
-<strong>影响范围 Area of Effect：</strong>1 名出生未满两周的婴儿<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 回合<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>6 个月<br>
+<strong>影响范围：</strong>1 名出生未满两周的婴儿<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 回合<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：未具体列出
@@ -27,13 +27,13 @@ Len Lakofka · 第 31、32 页
 Len Lakofka · 第 32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>6″<br>
-<strong>持续时间 Duration：</strong>3d4 轮<br>
-<strong>影响范围 Area of Effect：</strong>长 6″、底径 2″ 锥形<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>2 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>6″<br>
+<strong>持续时间：</strong>3d4 轮<br>
+<strong>影响范围：</strong>长 6″、底径 2″ 锥形<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>2 施法时段<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：未具体列出
@@ -45,13 +45,13 @@ Len Lakofka · 第 32 页
 Len Lakofka · 第 32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>3″<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>1 栋建筑、墓地或类似区域<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>3″<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>1 栋建筑、墓地或类似区域<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：按目标及仪式取圣水、邪水、粪污等
@@ -65,13 +65,13 @@ Len Lakofka · 第 32 页
 Len Lakofka · 第 32、33 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>至解除、破坏或失去清醒<br>
-<strong>影响范围 Area of Effect：</strong>半径至多 15 英尺半球<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 轮<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>至解除、破坏或失去清醒<br>
+<strong>影响范围：</strong>半径至多 15 英尺半球<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 轮<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：七颗各至少 100金币的珍珠
@@ -85,13 +85,13 @@ Len Lakofka · 第 32、33 页
 Len Lakofka · 第 33 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>5<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>至解除、破坏或失去清醒<br>
-<strong>影响范围 Area of Effect：</strong>半径至多 10 英尺半球<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 轮<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>5<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>至解除、破坏或失去清醒<br>
+<strong>影响范围：</strong>半径至多 10 英尺半球<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 轮<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：七颗各至少 250金币的宝石
@@ -105,13 +105,13 @@ Len Lakofka · 第 33 页
 Len Lakofka · 第 31 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>0<br>
-<strong>持续时间 Duration：</strong>特殊<br>
-<strong>影响范围 Area of Effect：</strong>施法者手掌<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>1 施法时段<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>0<br>
+<strong>持续时间：</strong>特殊<br>
+<strong>影响范围：</strong>施法者手掌<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>1 施法时段<br>
+<strong>豁免检定：</strong>无
 </div>
 
 手掌产生亮度相当于火把的冷焰，不伤人，也不能点燃油或其他可燃物。风不能吹熄，魔法黑暗会立即解除。
@@ -123,13 +123,13 @@ Len Lakofka · 第 31 页
 Len Lakofka · 第 31 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>1<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久（连续书写至多8小时）<br>
-<strong>影响范围 Area of Effect：</strong>所抄写或撰写的文本、地图<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>1<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久（连续书写至多8小时）<br>
+<strong>影响范围：</strong>所抄写或撰写的文本、地图<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：墨水、羽毛笔、羊皮纸书页或卷轴，必要时还有被抄写的原件
@@ -143,13 +143,13 @@ Len Lakofka · 第 31 页
 Len Lakofka · 第 32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>2<br>
-<strong>距离 Range：</strong>自身<br>
-<strong>持续时间 Duration：</strong>每级3回合<br>
-<strong>影响范围 Area of Effect：</strong>一份文本或卷轴<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无
+<strong>等级：</strong>2<br>
+<strong>距离：</strong>自身<br>
+<strong>持续时间：</strong>每级3回合<br>
+<strong>影响范围：</strong>一份文本或卷轴<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 轮<br>
+<strong>豁免检定：</strong>无
 </div>
 
 材料：原刊未具体列出
@@ -163,13 +163,13 @@ Len Lakofka · 第 32 页
 Len Lakofka · 第 32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>3<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一件物品；正文也允许对人施放<br>
-<strong>成分 Components：</strong>V、S<br>
-<strong>施法时间 Casting Time：</strong>6 轮<br>
-<strong>豁免检定 Saving Throw：</strong>成功无效
+<strong>等级：</strong>3<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一件物品；正文也允许对人施放<br>
+<strong>成分：</strong>V、S<br>
+<strong>施法时间：</strong>6 轮<br>
+<strong>豁免检定：</strong>成功无效
 </div>
 
 触碰物品后，若其豁免失败，即可判断是否带有诅咒；触碰也可能触发该诅咒。诅咒卷轴须打开，但无须阅读；神器完全不受影响。
@@ -183,13 +183,13 @@ Len Lakofka · 第 32 页
 Len Lakofka · 第 32 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>4<br>
-<strong>距离 Range：</strong>触碰<br>
-<strong>持续时间 Duration：</strong>永久<br>
-<strong>影响范围 Area of Effect：</strong>一份卷轴<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>1 小时<br>
-<strong>豁免检定 Saving Throw：</strong>特殊
+<strong>等级：</strong>4<br>
+<strong>距离：</strong>触碰<br>
+<strong>持续时间：</strong>永久<br>
+<strong>影响范围：</strong>一份卷轴<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>1 小时<br>
+<strong>豁免检定：</strong>特殊
 </div>
 
 材料：原刊未具体列出
@@ -203,13 +203,13 @@ Len Lakofka · 第 32 页
 Len Lakofka · 第 33 页
 
 <div class="spell-meta">
-<strong>等级 Level：</strong>6<br>
-<strong>距离 Range：</strong>不限<br>
-<strong>持续时间 Duration：</strong>1回合加每级1轮<br>
-<strong>影响范围 Area of Effect：</strong>施法者与另一人<br>
-<strong>成分 Components：</strong>V、S、M<br>
-<strong>施法时间 Casting Time：</strong>3 轮<br>
-<strong>豁免检定 Saving Throw：</strong>无；睡眠中的接收者另作唤醒豁免
+<strong>等级：</strong>6<br>
+<strong>距离：</strong>不限<br>
+<strong>持续时间：</strong>1回合加每级1轮<br>
+<strong>影响范围：</strong>施法者与另一人<br>
+<strong>成分：</strong>V、S、M<br>
+<strong>施法时间：</strong>3 轮<br>
+<strong>豁免检定：</strong>无；睡眠中的接收者另作唤醒豁免
 </div>
 
 材料：一面镜子
