@@ -41,7 +41,7 @@
 
 #### 跑跳之靴 Boots of Striding and Springing
 
-无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12"</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30'</strong>、向后跳 <strong>9'</strong>、垂直跳 <strong>15'</strong>。若在战斗中使用此类移动，穿戴者在近战轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。
+无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12"</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30'</strong>、向后跳 <strong>9'</strong>、垂直跳 <strong>15'</strong>。若在战斗中使用此类移动，穿戴者在轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。
 
 #### 水元素操控碗 Bowl Commanding Water Elementals
 

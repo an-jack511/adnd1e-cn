@@ -180,7 +180,7 @@
 
 ## 投掷与射击武器类型、一般数据与命中调整 Hurled Weapons and Missiles
 
-下表列出每轮／每回合射速、短／中／远射程，及对目标 AC <strong>0–10</strong> 的命中调整。`S`、`M`、`L` 分别为短、中、远射程。投索棍 Aklys 的短射程 `1*` 特指 <strong>10 英尺</strong>，而非 10 码。射速按桌面微缩模型的<strong>回合</strong>或通常的<strong>近战轮</strong>计算。表中的 AC 调整值针对<strong>短射程</strong>；中射程对各格再 <strong>−2</strong>，远射程再 <strong>−5</strong>。
+下表列出每轮／每回合射速、短／中／远射程，及对目标 AC <strong>0–10</strong> 的命中调整。`S`、`M`、`L` 分别为短、中、远射程。投索棍 Aklys 的短射程 `1*` 特指 <strong>10 英尺</strong>，而非 10 码。射速按桌面微缩模型的<strong>回合</strong>或通常的<strong>轮</strong>计算。表中的 AC 调整值针对<strong>短射程</strong>；中射程对各格再 <strong>−2</strong>，远射程再 <strong>−5</strong>。
 
 | 投掷／射击武器 | 射速 | S | M | L | AC 0 | AC 1 | AC 2 | AC 3 | AC 4 | AC 5 | AC 6 | AC 7 | AC 8 | AC 9 | AC 10 |
 |:---|:---:|:---:|:---:|:---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

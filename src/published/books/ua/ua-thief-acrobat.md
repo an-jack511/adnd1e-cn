@@ -12,17 +12,17 @@
 
 <strong>走钢索 Tightrope Walking。</strong> 角色可直立、通常不靠手支撑，以此横越狭窄地点；也可沿约 <strong>45°</strong> 以下的绳索或横梁上行，沿稍陡的路线下行。前提是携带负重符合后文限制，且行进距离不超过 <strong>60 英尺</strong>。速度为每轮 <strong>60 英尺</strong>；更长距离须另作检定。中等风势使成功率 <strong>−10%</strong>，强风 <strong>−20%</strong>；强而多阵的风中，<strong>始终有至少 5% 失败机会</strong>。无风时使用平衡长杆，成功率 <strong>+10%</strong>。失败即坠至下方，按坠落规则受伤。非杂技盗贼基础成功率为 <strong>20%</strong>，每轮最多移动 <strong>30 英尺</strong>。
 
-<strong>撑杆跳 Pole Vaulting。</strong> 包括借长杆、跷板、弹板等杠杆装置利用冲势跃高。须至少助跑 <strong>30 英尺</strong>，且长杆比跳跃者本人至少高 <strong>4 英尺</strong>；通过力量、敏捷与练习提高成绩。起跳时放开长杆。若上方确有可站立的表面，角色可双脚落在低于最大跃高 <strong>½ 英尺</strong>的位置；否则翻滚落地，并在 <strong>1 分段</strong>内站稳。非杂技盗贼不能有效地撑杆跳。
+<strong>撑杆跳 Pole Vaulting。</strong> 包括借长杆、跷板、弹板等杠杆装置利用冲势跃高。须至少助跑 <strong>30 英尺</strong>，且长杆比跳跃者本人至少高 <strong>4 英尺</strong>；通过力量、敏捷与练习提高成绩。起跳时放开长杆。若上方确有可站立的表面，角色可双脚落在低于最大跃高 <strong>½ 英尺</strong>的位置；否则翻滚落地，并在 <strong>1 段</strong>内站稳。非杂技盗贼不能有效地撑杆跳。
 
 <strong>跳跃 Jumping。</strong> 指不借外物的跳高与跳远，包括原地或助跑跳跃，均需要协调的力量与持续训练。
 
-- <strong>跳高 High Jumping：</strong> 须至少助跑 <strong>20 英尺</strong>。角色跃过近乎水平位置的障碍物，并双脚落地。若有高起的台阶或连续台阶，可在保持速度时从高处起跳，按正常方式跳跃；也可跳至另一更高表面，只要该表面不超过起跳处 <strong>4 英尺</strong>，或不低于正常最大跳高值 <strong>2 英尺</strong>的差值。所有情况下，杂技盗贼在 <strong>1 分段</strong>内双脚落地。非杂技盗贼通常可跳高约 <strong>3 英尺</strong>。
-- <strong>跳远 Broad Jumping：</strong> 每次跳跃只需 <strong>1 分段</strong>。助跑跳远须至少助跑 <strong>20 英尺</strong>；原地可向前跳至最大距离，或向后跳其一半，能否借此攻击或脱离攻击范围由地下城主裁定。默认双脚落地。若选择伸展身体，可再多跳 <strong>2 英尺</strong>，但会俯卧落地并花 <strong>2 整分段</strong>站起；伸展 <strong>3、4、5 英尺</strong>时，失败率分别为 <strong>25%、50%、75%</strong>，恢复时间分别为 <strong>3、4、5 分段</strong>。非杂技盗贼原地最多跳 <strong>4 英尺</strong>、助跑最多 <strong>8 英尺</strong>，均俯卧落地并须花 <strong>1 整轮</strong>恢复。跳高、跳远时不能携带额外重量或穿笨重护甲。
+- <strong>跳高 High Jumping：</strong> 须至少助跑 <strong>20 英尺</strong>。角色跃过近乎水平位置的障碍物，并双脚落地。若有高起的台阶或连续台阶，可在保持速度时从高处起跳，按正常方式跳跃；也可跳至另一更高表面，只要该表面不超过起跳处 <strong>4 英尺</strong>，或不低于正常最大跳高值 <strong>2 英尺</strong>的差值。所有情况下，杂技盗贼在 <strong>1 段</strong>内双脚落地。非杂技盗贼通常可跳高约 <strong>3 英尺</strong>。
+- <strong>跳远 Broad Jumping：</strong> 每次跳跃只需 <strong>1 段</strong>。助跑跳远须至少助跑 <strong>20 英尺</strong>；原地可向前跳至最大距离，或向后跳其一半，能否借此攻击或脱离攻击范围由地下城主裁定。默认双脚落地。若选择伸展身体，可再多跳 <strong>2 英尺</strong>，但会俯卧落地并花 <strong>2 整段</strong>站起；伸展 <strong>3、4、5 英尺</strong>时，失败率分别为 <strong>25%、50%、75%</strong>，恢复时间分别为 <strong>3、4、5 段</strong>。非杂技盗贼原地最多跳 <strong>4 英尺</strong>、助跑最多 <strong>8 英尺</strong>，均俯卧落地并须花 <strong>1 整轮</strong>恢复。跳高、跳远时不能携带额外重量或穿笨重护甲。
 
 <strong>翻腾 Tumbling。</strong> 包括翻滚、侧滚、跳跃与倒立等体操动作，可用于攻击、闪避与跳跃／坠落。
 
 - <strong>攻击 Attack：</strong> 表中百分比加到<strong>徒手拳击 Pummeling</strong>的成功机会；其他职业不能从这种翻腾动作受益。
-- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗性类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 分段</strong>。
+- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗性类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 段</strong>。
 - <strong>坠落 Falling：</strong> 表中百分比是从所列高度坠落而<strong>完全免伤</strong>的几率；若仍受伤，则承受正常伤害乘以未能免伤的百分比，结果向下取整。例如 6 级杂技盗贼从 <strong>10 英尺</strong>坠落，有 <strong>25%</strong> 几率无伤；若受伤，仅承受正常 <strong>1d6 的 75%</strong>。9 级从 10 英尺坠落不可能受伤，而从 <strong>20 英尺</strong>坠落有 <strong>25%</strong> 几率无伤。只对坠落距离超过所列“安全高度”的部分，另行加入<strong>正常</strong>坠落伤害：例如 23 级从 <strong>60 英尺</strong>跌落，若免伤检定失败，只受 <strong>6d6 的 80%</strong>；若从 <strong>70 英尺</strong>跌落，再加 <strong>7d6</strong> 正常伤害；从 <strong>80 英尺</strong>跌落，还须再加 <strong>8d6</strong>，总计为 <strong>6d6 的 80% 加 15d6</strong>。
 
 ## 杂技盗贼表 I Thief-Acrobat Table I
@@ -112,17 +112,17 @@
 
 <strong>走钢索 Tightrope Walking。</strong> 角色可直立、通常不靠手支撑，以此横越狭窄地点；也可沿约 <strong>45°</strong> 以下的绳索或横梁上行，沿稍陡的路线下行。前提是携带负重符合后文限制，且行进距离不超过 <strong>60 英尺</strong>。速度为每轮 <strong>60 英尺</strong>；更长距离须另作检定。中等风势使成功率 <strong>−10%</strong>，强风 <strong>−20%</strong>；强而多阵的风中，<strong>始终有至少 5% 失败机会</strong>。无风时使用平衡长杆，成功率 <strong>+10%</strong>。失败即坠至下方，按坠落规则受伤。非杂技盗贼基础成功率为 <strong>20%</strong>，每轮最多移动 <strong>30 英尺</strong>。
 
-<strong>撑杆跳 Pole Vaulting。</strong> 包括借长杆、跷板、弹板等杠杆装置利用冲势跃高。须至少助跑 <strong>30 英尺</strong>，且长杆比跳跃者本人至少高 <strong>4 英尺</strong>；通过力量、敏捷与练习提高成绩。起跳时放开长杆。若上方确有可站立的表面，角色可双脚落在低于最大跃高 <strong>½ 英尺</strong>的位置；否则翻滚落地，并在 <strong>1 分段</strong>内站稳。非杂技盗贼不能有效地撑杆跳。
+<strong>撑杆跳 Pole Vaulting。</strong> 包括借长杆、跷板、弹板等杠杆装置利用冲势跃高。须至少助跑 <strong>30 英尺</strong>，且长杆比跳跃者本人至少高 <strong>4 英尺</strong>；通过力量、敏捷与练习提高成绩。起跳时放开长杆。若上方确有可站立的表面，角色可双脚落在低于最大跃高 <strong>½ 英尺</strong>的位置；否则翻滚落地，并在 <strong>1 段</strong>内站稳。非杂技盗贼不能有效地撑杆跳。
 
 <strong>跳跃 Jumping。</strong> 指不借外物的跳高与跳远，包括原地或助跑跳跃，均需要协调的力量与持续训练。
 
-- <strong>跳高 High Jumping：</strong> 须至少助跑 <strong>20 英尺</strong>。角色跃过近乎水平位置的障碍物，并双脚落地。若有高起的台阶或连续台阶，可在保持速度时从高处起跳，按正常方式跳跃；也可跳至另一更高表面，只要该表面不超过起跳处 <strong>4 英尺</strong>，或不低于正常最大跳高值 <strong>2 英尺</strong>的差值。所有情况下，杂技盗贼在 <strong>1 分段</strong>内双脚落地。非杂技盗贼通常可跳高约 <strong>3 英尺</strong>。
-- <strong>跳远 Broad Jumping：</strong> 每次跳跃只需 <strong>1 分段</strong>。助跑跳远须至少助跑 <strong>20 英尺</strong>；原地可向前跳至最大距离，或向后跳其一半，能否借此攻击或脱离攻击范围由地下城主裁定。默认双脚落地。若选择伸展身体，可再多跳 <strong>2 英尺</strong>，但会俯卧落地并花 <strong>2 整分段</strong>站起；伸展 <strong>3、4、5 英尺</strong>时，失败率分别为 <strong>25%、50%、75%</strong>，恢复时间分别为 <strong>3、4、5 分段</strong>。非杂技盗贼原地最多跳 <strong>4 英尺</strong>、助跑最多 <strong>8 英尺</strong>，均俯卧落地并须花 <strong>1 整轮</strong>恢复。跳高、跳远时不能携带额外重量或穿笨重护甲。
+- <strong>跳高 High Jumping：</strong> 须至少助跑 <strong>20 英尺</strong>。角色跃过近乎水平位置的障碍物，并双脚落地。若有高起的台阶或连续台阶，可在保持速度时从高处起跳，按正常方式跳跃；也可跳至另一更高表面，只要该表面不超过起跳处 <strong>4 英尺</strong>，或不低于正常最大跳高值 <strong>2 英尺</strong>的差值。所有情况下，杂技盗贼在 <strong>1 段</strong>内双脚落地。非杂技盗贼通常可跳高约 <strong>3 英尺</strong>。
+- <strong>跳远 Broad Jumping：</strong> 每次跳跃只需 <strong>1 段</strong>。助跑跳远须至少助跑 <strong>20 英尺</strong>；原地可向前跳至最大距离，或向后跳其一半，能否借此攻击或脱离攻击范围由地下城主裁定。默认双脚落地。若选择伸展身体，可再多跳 <strong>2 英尺</strong>，但会俯卧落地并花 <strong>2 整段</strong>站起；伸展 <strong>3、4、5 英尺</strong>时，失败率分别为 <strong>25%、50%、75%</strong>，恢复时间分别为 <strong>3、4、5 段</strong>。非杂技盗贼原地最多跳 <strong>4 英尺</strong>、助跑最多 <strong>8 英尺</strong>，均俯卧落地并须花 <strong>1 整轮</strong>恢复。跳高、跳远时不能携带额外重量或穿笨重护甲。
 
 <strong>翻腾 Tumbling。</strong> 包括翻滚、侧滚、跳跃与倒立等体操动作，可用于攻击、闪避与跳跃／坠落。
 
 - <strong>攻击 Attack：</strong> 表中百分比加到<strong>徒手拳击 Pummeling</strong>的成功机会；其他职业不能从这种翻腾动作受益。
-- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗性类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 分段</strong>。
+- <strong>闪避 Evasion：</strong> 可选择闪避针对自己的攻击，包括魔法攻击、来自几平方英尺狭小区域内的攻击，或近战攻击（近战仅在杂技盗贼拥有先攻时）。其效果与针对本人的魔法抗性类似。无论敏捷与种族修正如何，基础成功率上限都是 <strong>60%</strong>；动作至多耗费 <strong>1 段</strong>。
 - <strong>坠落 Falling：</strong> 表中百分比是从所列高度坠落而<strong>完全免伤</strong>的几率；若仍受伤，则承受正常伤害乘以未能免伤的百分比，结果向下取整。例如 6 级杂技盗贼从 <strong>10 英尺</strong>坠落，有 <strong>25%</strong> 几率无伤；若受伤，仅承受正常 <strong>1d6 的 75%</strong>。9 级从 10 英尺坠落不可能受伤，而从 <strong>20 英尺</strong>坠落有 <strong>25%</strong> 几率无伤。只对坠落距离超过所列“安全高度”的部分，另行加入<strong>正常</strong>坠落伤害：例如 23 级从 <strong>60 英尺</strong>跌落，若免伤检定失败，只受 <strong>6d6 的 80%</strong>；若从 <strong>70 英尺</strong>跌落，再加 <strong>7d6</strong> 正常伤害；从 <strong>80 英尺</strong>跌落，还须再加 <strong>8d6</strong>，总计为 <strong>6d6 的 80% 加 15d6</strong>。
 
 ## 杂技盗贼表 I Thief-Acrobat Table I

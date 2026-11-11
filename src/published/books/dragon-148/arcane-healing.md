@@ -14,7 +14,7 @@ Bruce Kvam · 第 37 页
 <strong>持续时间：</strong>1 回合/级 + 1d6 回合<br>
 <strong>影响范围：</strong>一个生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>6 节<br>
+<strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>特殊：不愿意的目标可豁免
 </div>
 
@@ -34,7 +34,7 @@ Bruce Kvam · 第 37、38 页
 <strong>持续时间：</strong>1 轮/级<br>
 <strong>影响范围：</strong>施法者及特制匕首<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>6 节<br>
+<strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>对死亡魔法豁免；特殊
 </div>
 

@@ -41,7 +41,7 @@
 | 4 | <strong>1 根法杖：</strong>打击 |
 | 5 | <strong>1 根魔杖：</strong>幻象 |
 | 6 | <strong>1 根魔杖：</strong>消除魔法 |
-| 7 | <strong>1 对护腕：</strong>防护等级 4 |
+| 7 | <strong>1 对护腕：</strong>护甲等级 4 |
 | 8 | <strong>1 枚胸针：</strong>护盾 |
 | 9 | <strong>1 件斗篷：</strong>精灵披风 |
 | 10 | <strong>1 份粉尘：</strong>显形 |

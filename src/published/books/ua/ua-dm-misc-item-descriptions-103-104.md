@@ -114,7 +114,7 @@
 
 ### 迅捷短剑 Sword, Short, of Quickness
 
-持有者每个战斗轮总能最先出手。它是 <strong>+2 魔法武器</strong>，命中和伤害均享有该加值。
+持有者每轮总能最先出手。它是 <strong>+2 魔法武器</strong>，命中和伤害均享有该加值。
 
 ### 位面之剑 Sword of the Planes
 

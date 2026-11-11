@@ -24,7 +24,7 @@
 <strong>持续时间：</strong>1 轮<br>
 <strong>影响范围：</strong>直径 3 英寸的锥体<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>6 个分段<br>
+<strong>施法时间：</strong>6 段<br>
 <strong>豁免检定：</strong>无</div>
 
 
@@ -40,7 +40,7 @@
 <strong>持续时间：</strong>施法者每等级 1 轮<br>
 <strong>影响范围：</strong>1 个生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>3 个分段<br>
+<strong>施法时间：</strong>3 段<br>
 <strong>豁免检定：</strong>否定</div>
 
 

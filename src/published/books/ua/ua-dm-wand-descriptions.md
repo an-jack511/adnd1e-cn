@@ -8,7 +8,7 @@
 
 ## 小圆盾魔杖 Buckler Wand
 
-短粗、长约 <strong>1½ 英尺</strong>；一端有尖锐刺，钝的一端有扳机。除牧师职业外均可使用，<strong>1 分段</strong>启动。握住钝端并按下扳机后，尖端相当于<strong>匕首 +1</strong>，杖身展开为<strong>小圆盾 +1</strong>，整体如<strong>带刺小圆盾 +1</strong>。魔法师也能使用，但持盾形态时不能施法，除非兼有战士职业能力；盗贼持用时不能攀墙或执行其他需要双手的特殊能力。
+短粗、长约 <strong>1½ 英尺</strong>；一端有尖锐刺，钝的一端有扳机。除牧师职业外均可使用，<strong>1 段</strong>启动。握住钝端并按下扳机后，尖端相当于<strong>匕首 +1</strong>，杖身展开为<strong>小圆盾 +1</strong>，整体如<strong>带刺小圆盾 +1</strong>。魔法师也能使用，但持盾形态时不能施法，除非兼有战士职业能力；盗贼持用时不能攀墙或执行其他需要双手的特殊能力。
 
 ## 落叶魔杖 Wand of Defoliation
 
@@ -30,7 +30,7 @@
 
 ## 火球魔杖 Wand of Fireballs
 
-使持有者如<strong>第 6 级魔法师</strong>施展*火球术*，伤害 <strong>6d6（6–36）</strong>，豁免成功减半。启动魔杖需 <strong>1 分段</strong>，再激发火球需 <strong>1 分段</strong>。<strong>8 级以上魔法师</strong>可再充能。
+使持有者如<strong>第 6 级魔法师</strong>施展*火球术*，伤害 <strong>6d6（6–36）</strong>，豁免成功减半。启动魔杖需 <strong>1 段</strong>，再激发火球需 <strong>1 段</strong>。<strong>8 级以上魔法师</strong>可再充能。
 
 ## 灭火魔杖 Wand of Flame Extinguishing
 
@@ -50,11 +50,11 @@
 
 ## 冰风暴魔杖 Wand of Ice Storms
 
-如<strong>第 7 级魔法师</strong>施展*冰风暴*，可选择造成伤害的冰雹，或冰雨与湿滑地面。启动与放出法术各需 <strong>1 分段</strong>。<strong>9 级以上魔法师</strong>可再充能。
+如<strong>第 7 级魔法师</strong>施展*冰风暴*，可选择造成伤害的冰雹，或冰雨与湿滑地面。启动与放出法术各需 <strong>1 段</strong>。<strong>9 级以上魔法师</strong>可再充能。
 
 ## 闪电束魔杖 Wand of Lightning Bolts
 
-如<strong>第 6 级魔法师</strong>施展直线或分叉的*闪电束*，伤害 <strong>6d6（6–36）</strong>，豁免成功减半。启动和放电各需 <strong>1 分段</strong>。<strong>8 级以上魔法师</strong>可再充能。
+如<strong>第 6 级魔法师</strong>施展直线或分叉的*闪电束*，伤害 <strong>6d6（6–36）</strong>，豁免成功减半。启动和放电各需 <strong>1 段</strong>。<strong>8 级以上魔法师</strong>可再充能。
 
 ## 金属号令魔杖 Wand of Metal Command
 

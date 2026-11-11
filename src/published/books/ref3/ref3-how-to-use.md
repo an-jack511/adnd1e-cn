@@ -28,7 +28,7 @@
 - <strong>Move 移动</strong>：生物通常可以维持的速度；短时间内可以爆发更快的速度。多个速度表示不同移动方式：地面、飞行、游泳、攀爬、树间移动等。
 - <strong>HD 生命骰</strong>：用于计算生命值，也决定 THAC0 和豁免。
 - <strong>hp 生命值</strong>：本书生物多数接近最大值，因为它们是同类中的“优越”个体。
-- <strong>#AT 攻击次数</strong>：每个近战轮的物理攻击次数；3/2 表示奇数轮一次、偶数轮两次。
+- <strong>#AT 攻击次数</strong>：每轮的物理攻击次数；3/2 表示奇数轮一次、偶数轮两次。
 - <strong>Dmg 伤害</strong>：一次成功攻击造成的生命值损失范围。
 - <strong>THAC0</strong>：To Hit Armor Class 0，即命中 AC 0 所需的 d20 数值。攻击其他 AC 时，从 THAC0 中减去目标 AC；例如 THAC0 15 攻击 AC 4，需要掷 11。
 - <strong>SA 特殊攻击</strong>：龙息、法术等特殊进攻能力；<strong>SD 特殊防御</strong>：战斗中必须考虑的防御魔法、伪装等能力；<strong>MR 魔法抗性</strong>：忽略法术效果的百分比；<strong>AL 阵营</strong>：生物行为和善恶倾向。

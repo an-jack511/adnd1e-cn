@@ -36,7 +36,7 @@
 | 隐形追猎者 Invisible Stalker | 68 | 木精灵 Wood Elves | 37 |
 | 铁魔像 Iron Golem | 23 | 幽魂 Wraiths | 84 |
 | 麒麟 Ki-Rin | 12 | 翼龙 Wyverns | 38 |
-| 矮妖精 Leprechaun | 24 | 土元素生物 Xorn | 65 |
+| 矮妖精 Leprechaun | 24 | 石鼎兽 Xorn | 65 |
 | 刺尾狮 Manticore | 79 | 雅库扎 Yakuza | 66 |
 | 美杜莎 Medusa | 42 | 雪人 Yeti | 64 |
 |  |  | 元首蛇人 Yuan-Ti | 45 |
@@ -179,8 +179,8 @@
 幽魂（满强度） Wraiths         4        12"/24"         5+3            多个                         1    1-6                          15     Y   Y   —    CE
 幽魂（半强度）                4        12"/24"         3              15,14,12                    1    1d4                          16     Y   Y   —    LE
 翼龙 Wyvern                   3        6"/24"          7+7            44                          2    2d8/1d6                      —      Y   Y   —    NE
-土元素生物 Xorn               -2       9"              7+7            56                          4    6d4/1d3/1d3/1d3              13     Y   Y   N    N
-土元素幼体 Xornling           1        9"              3+3            20                          4    2d4/1d2/1d2/1d2              16     Y   Y   N    N
+石鼎兽 Xorn               -2       9"              7+7            56                          4    6d4/1d3/1d3/1d3              13     Y   Y   N    N
+石鼎兽幼体 Xornling           1        9"              3+3            20                          4    2d4/1d2/1d2/1d2              16     Y   Y   N    N
 雅库扎 Yakuza（6）             7        12"             3              12                          1    1d6                          20     Y   Y   LE   —
 雅库扎（3）                    6        12"             4              22                          1    1d6+1                        19     Y   Y   LE   —
 黄霉 Yellow Mold               9        0               —              1                           1    1d8                          —      Y   Y   N    N

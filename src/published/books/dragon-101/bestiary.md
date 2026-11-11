@@ -42,7 +42,7 @@ Alex Gray · 第 42、43 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>骨9；皮革或绳索8；金属3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>每英尺身高1HD</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>未另列固定财宝</td></tr><tr><th scope="row">攻击次数</th><td>每对前肢一次</td></tr><tr><th scope="row">伤害</th><td>1–8或依武器；高10英尺以上1–10或更多，另加力量</td></tr><tr><th scope="row">特殊攻击</th><td>依构造</td></tr><tr><th scope="row">特殊防御</th><td>依材料；多种免疫</td></tr><tr><th scope="row">魔法抗性</th><td>依材料和法术</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>5% S；75% M；20% L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>制造者的工坊、居所或守卫地点</td></tr></tbody></table></div>
 
-近似魔像的人工构造体，必须有能实际活动的关节；形态不限于人形。可以混合骨架、盔甲、链条、绳索等零件，但躯干与前肢必须同材质。材料说明提到骨、皮革、金属、木材，防护等级与抗性表却只列骨、皮革、金属、绳索；本篇未给木质的独立数值。使用魔法物品作零件会使该零件失去原有魔力。
+近似魔像的人工构造体，必须有能实际活动的关节；形态不限于人形。可以混合骨架、盔甲、链条、绳索等零件，但躯干与前肢必须同材质。材料说明提到骨、皮革、金属、木材，护甲等级与抗性表却只列骨、皮革、金属、绳索；本篇未给木质的独立数值。使用魔法物品作零件会使该零件失去原有魔力。
 
 材料及装配每点HP耗1,000金币和一天，需要相应工匠。完成后由创造者亲自按顺序施法，不可用卷轴：牧师依次施放活化物体、死者复活（有有机零件时）、祈祷、祝福、任务；魔法师依次为指使术、有限许愿术、活化死尸（有有机零件时）、附魔物品。之后像魔像一样听从创造者命令。
 

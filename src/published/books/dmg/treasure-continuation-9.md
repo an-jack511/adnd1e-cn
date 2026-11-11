@@ -207,7 +207,7 @@
 3. “浮空术”；
 4. “飞行术”。
 
-启动乐器的每项能力需要 <strong>5 节</strong>，且完成过程至少需要 <strong>1 整轮</strong>。
+启动乐器的每项能力需要 <strong>5 段</strong>，且完成过程至少需要 <strong>1 整轮</strong>。
 
 若乐器加成使吟游诗人的魅惑成功率超过 <strong>100%</strong>，目标进行抵抗该魔法的豁免检定时，每超过 <strong>100%</strong> 的 <strong>5%</strong>，便受到 <strong>−1</strong> 惩罚；零头向上进位（例如 <strong>103%</strong> 按 <strong>105%</strong>计算，<strong>108%</strong>按 <strong>110%</strong>计算，<strong>113%</strong>按 <strong>115%</strong>计算）。
 

@@ -15,7 +15,7 @@
 <strong>施法时间：</strong>4 段<br>
 <strong>豁免检定：</strong>无</div>
 
-基本等同牧师三环*解除魔法*，但幻术师须以<strong>实际等级减 2</strong>计算施法等级：例如 <strong>9 级</strong>幻术师施展时按 <strong>7 级</strong>判定。
+基本等同牧师三环*解除魔法*，但幻术师须以<strong>实际等级减 2</strong>计算施法者等级：例如 <strong>9 级</strong>幻术师施展时按 <strong>7 级</strong>判定。
 
 ## 虹彩图纹 Rainbow Pattern（变化／幻影系 Alteration/Phantasm）
 

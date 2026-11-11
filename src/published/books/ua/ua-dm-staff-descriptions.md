@@ -45,7 +45,7 @@
 | 闪电击 Lightning Stroke | 直线或分叉的 <strong>8d6</strong> 闪电，每颗 1 按 2 计；豁免失败者受 <strong>16–48 点</strong>伤害。 | 2 |
 | 雷鸣与闪电 Thunder & Lightning | 兼有雷鸣爆和分叉闪电；<strong>8d6</strong> 中的 1、2 均按 3 计，伤害 <strong>24–48 点</strong>。豁免成功仍失聪，伤害减半。 | 4 |
 
-发动任何能力所需的<strong>分段数等于消耗的充能数</strong>。
+发动任何能力所需的<strong>段数等于消耗的充能数</strong>。
 
 ## 林地法杖 Staff of the Woodlands
 

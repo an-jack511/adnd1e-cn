@@ -98,7 +98,7 @@
 
 <strong>武器射程 Weapon Range：</strong>BOOT HILL 的英寸射程换算为 AD&D 英寸（″）。
 
-<strong>枪械射速 Rate of Firearms：</strong>按 BOOT HILL 所列射速决定每轮可射击次数；多次射击不受惩罚。由于一轮为整整一分钟，你也可以允许射速翻倍，但超出标准射速的每次射击都承受 <strong>−10%</strong>，且惩罚累积：额外射击 <strong>3 次</strong>时，每次额外射击承受 <strong>−30%</strong>。装填速度按每轮的轮段数计算，因此任何枪械都可在 <strong>1 轮</strong>内完全装填。
+<strong>枪械射速 Rate of Firearms：</strong>按 BOOT HILL 所列射速决定每轮可射击次数；多次射击不受惩罚。由于一轮为整整一分钟，你也可以允许射速翻倍，但超出标准射速的每次射击都承受 <strong>−10%</strong>，且惩罚累积：额外射击 <strong>3 次</strong>时，每次额外射击承受 <strong>−30%</strong>。装填速度按每轮的段数计算，因此任何枪械都可在 <strong>1 轮</strong>内完全装填。
 
 <strong>先射判定基础数值修正 First Shot Determination Base Number Adjustments：</strong>依据下表所列武器速度因素、AD&D 飞弹武器射速和武器类别，确定先射判定基础数值。
 
@@ -203,11 +203,11 @@
 
 <strong>移动 Movement：</strong>角色使用 AD&D 移动速度，因为两种游戏的尺度大致相同。
 
-<strong>回合顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次近战回合视为一个轮段。
+<strong>回合顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次近战回合视为一段。
 
 <strong>武器射程 Weapon Range：</strong>在户外，将 GAMMA WORLD 的米换算为 AD&D 英寸（″），后者表示码。在地下环境中，GAMMA WORLD“神器”武器的射程不要换算成 AD&D 英寸，而应将其射程乘以 <strong>3</strong>，以补偿地下尺度缩至户外的三分之一。
 
-<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗近战回合换算为 AD&D 的轮段。
+<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗近战回合换算为 AD&D 的段。
 
 <strong>先攻 Initiative：</strong>使用 AD&D 规则。
 

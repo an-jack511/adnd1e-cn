@@ -85,7 +85,7 @@
 
 ## 彩虹色调药水 Potion of Rainbow Hues
 
-浓稠如糖浆，必须装在<strong>金属容器</strong>内。一整瓶的总药效长达 <strong>7 小时</strong>。饮用者集中想象某一种或几种颜色，便能在<strong>不足一个战斗分段</strong>内变成相应颜色；任意颜色组合均可。若分次少量饮用，可分为<strong>七份各持续 1 小时</strong>的剂量。
+浓稠如糖浆，必须装在<strong>金属容器</strong>内。一整瓶的总药效长达 <strong>7 小时</strong>。饮用者集中想象某一种或几种颜色，便能在<strong>不足一段</strong>内变成相应颜色；任意颜色组合均可。若分次少量饮用，可分为<strong>七份各持续 1 小时</strong>的剂量。
 
 ## 腹语药水 Potion of Ventriloquism
 

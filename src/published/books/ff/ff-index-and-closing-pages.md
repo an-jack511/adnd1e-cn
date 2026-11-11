@@ -260,7 +260,7 @@
 | ↳ 巨人 | Ian Livingstone | 90 |
 | ↳ 巨人双头 | Oliver Charles MacDonald | 90 |
 
-### T-Z 与后记（原书页 124） · T-Z  Epilogue
+### T–Z 与后记（原书页 124） · T–Z and Epilogue
 
 | 条目 | 贡献者 | 原书页 |
 |---|---|---:|
@@ -329,7 +329,7 @@ Lake Geneva, WI 53147
 
 Gen Con® 及 Gen Con® 标志是 TSR Hobbies, Inc. 的注册服务标志。
 
-## Role Playing Game Association 会员招募（原书页 126）
+## 角色扮演游戏协会会员招募 Role Playing Game Association（原书页 126）
 
 <strong>对角色扮演游戏感兴趣吗？正在寻找同样感兴趣的人吗？</strong>
 

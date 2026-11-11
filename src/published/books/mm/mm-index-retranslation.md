@@ -189,7 +189,7 @@
 - Elasmosaurus（薄板龙，见 Dinosaur〔恐龙〕）
 - Elemental（元素）……37
   - Air（空气；另见 Aerial Servant〔空中仆役〕、Djinni〔巨灵〕、Invisible Stalker〔隐形追踪者〕和 Wind Walker〔风行者〕）……37
-  - Earth（土；另见 Xorn〔Xorn〕）……38
+  - Earth（土；另见石鼎兽〔Xorn〕）……38
   - Fire（火；另见 Efreeti〔火巨灵〕、Salamander〔火蜥蜴〕）……38
   - Water（水；另见 Triton〔海精灵〕和 Water Weird〔水怪〕）……38
 - Elephant（大象；另见 Mammoth〔猛犸〕和 Mastodon〔乳齿象〕）……38
@@ -517,7 +517,7 @@
 - Worg（座狼，见 Wolf, Dire〔恐狼〕）
 - Wraith（幽魂）……102
 - Wyvern（飞龙）……102
-- Xorn（Xorn）……102
+- 石鼎兽（Xorn）……102
 - Yeenoghu（耶诺古，见 Demon〔恶魔〕）
 - Yellow Mold（黄色霉菌，见 Mold〔霉菌〕）
 - Yeti（雪怪）……103
