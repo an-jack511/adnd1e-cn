@@ -1,4 +1,4 @@
-## 纳斯鲁姆 Nathlum：毒药
+## 纳瑟伦 Nathlum：毒药
 
 ### 赫尔德 Huld（又称“跃动”或“死亡之舞”）
 
@@ -20,9 +20,9 @@
 
 矮人克星（Dwarfbane）是稀有、黏稠的油，只对矮人有毒，通常涂在武器上。它不会干燥，但长时间暴露空气会降低效力；有效期为 26–31 天。接触时造成 1–8 点伤害，疼痛如“燃烧的烤签”，随后三轮每轮再造成 1–6 点伤害；成功豁免则所有伤害减半。
 
-## Nathlum 中的守护符文
+## 纳瑟伦中的守护符文
 
-这些守护符文反映了纳斯勒姆（Nathlum）的邪恶本质，只能由邪恶阵营生物使用，也只会伤害善良阵营。善良生物可以说出符文名称或摧毁符文，安全通过其位置；中立或邪恶生物不会触发它们。
+这些守护符文反映了纳瑟伦（Nathlum）的邪恶本质，只能由邪恶阵营生物使用，也只会伤害善良阵营。善良生物可以说出符文名称或摧毁符文，安全通过其位置；中立或邪恶生物不会触发它们。
 
 ### 祖斯符文 Zuth
 
@@ -64,7 +64,7 @@
 <strong>持续时间：</strong>施法者每等级 1 轮<br>
 <strong>影响范围：</strong>一个生物<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>8 个轮<br>
+<strong>施法时间：</strong>8 轮<br>
 <strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>死灵</div>
 
@@ -83,7 +83,7 @@
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>一个生物<br>
 <strong>成分：</strong>V<br>
-<strong>施法时间：</strong>2 个轮<br>
+<strong>施法时间：</strong>2 轮<br>
 <strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>心灵创造</div>
 
@@ -100,7 +100,7 @@
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>特殊<br>
 <strong>成分：</strong>V、S、M<br>
-<strong>施法时间：</strong>8 个轮<br>
+<strong>施法时间：</strong>8 轮<br>
 <strong>豁免检定：</strong>无<br>
 <strong>学派 School：</strong>预言／变化</div>
 

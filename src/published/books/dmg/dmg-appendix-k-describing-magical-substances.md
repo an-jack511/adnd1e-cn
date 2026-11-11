@@ -2,63 +2,63 @@
 
 ## 外观／浓稠度 Appearance/Consistency
 
-| 描述词 | 译法 |
+| 中文描述 | 英文原词 |
 |---|---|
-| Bubbling | 起泡的 |
-| Cloudy | 混浊的 |
-| Effervescent | 冒泡的 |
-| Fuming | 冒烟的 |
-| Oily | 油状的 |
-| Smoky | 烟雾状的 |
-| Syrupy | 糖浆状的 |
-| Vaporous | 蒸气状的 |
-| Viscous | 黏稠的 |
-| Watery | 水状的、稀薄的 |
+| 起泡的 | Bubbling |
+| 混浊的 | Cloudy |
+| 冒泡的 | Effervescent |
+| 冒烟的 | Fuming |
+| 油状的 | Oily |
+| 烟雾状的 | Smoky |
+| 糖浆状的 | Syrupy |
+| 蒸气状的 | Vaporous |
+| 黏稠的 | Viscous |
+| 水状的、稀薄的 | Watery |
 
 ## 透明度 Transparency
 
-| 描述词 | 译法 |
+| 中文描述 | 英文原词 |
 |---|---|
-| Clear | 清澈（透明） |
-| Flecked | 斑点状（透明与其他状态混杂） |
-| Layered | 分层（颜色或透明度不同） |
-| Luminous | 发光（透明度另行决定） |
-| Opaline | 蛋白石般发光 |
-| Phosphorescent | 磷光（透明度另行决定） |
-| Rainbowed | 虹彩（透明） |
-| Ribboned | 丝带状（透明度另行决定） |
-| Translucent | 半透明 |
-| Variegated | 斑驳多色（颜色另行决定） |
+| 清澈（透明） | Clear |
+| 斑点状（透明与其他状态混杂） | Flecked |
+| 分层（颜色或透明度不同） | Layered |
+| 发光（透明度另行决定） | Luminous |
+| 蛋白石般发光 | Opaline |
+| 磷光（透明度另行决定） | Phosphorescent |
+| 虹彩（透明） | Rainbowed |
+| 丝带状（透明度另行决定） | Ribboned |
+| 半透明 | Translucent |
+| 斑驳多色（颜色另行决定） | Variegated |
 
 ## 味道／气味 Taste and/or Odor
 
-| 描述词 | 译法 |
+| 中文描述 | 英文原词 |
 |---|---|
-| Acidic | 酸性的 |
-| Bilious | 胆汁味的 |
-| Bitter | 苦的 |
-| Burning／biting | 灼热／刺鼻的 |
-| Buttery | 黄油味的 |
-| Dusty | 灰尘味的 |
-| Earthy | 泥土味的 |
-| Fiery | 辛辣灼热的 |
-| Fishy | 鱼腥味的 |
-| Greasy | 油腻的 |
-| Herbal | 草药味的 |
-| Honeyed | 蜂蜜味的 |
-| Lemony | 柠檬味的 |
-| Meaty | 肉味的 |
-| Metallic | 金属味的 |
-| Milky | 奶味的 |
-| Musty | 霉味的 |
-| Oniony | 洋葱味的 |
-| Peppery | 胡椒味的 |
-| Perfumy | 香水味的 |
-| Salty | 咸的 |
-| Soothing／sugary | 清凉／甜的 |
-| Sour | 酸的 |
-| Spicy | 香料味的 |
-| Sweet | 甜的 |
-| Tart | 酸涩的 |
-| Vinegary | 醋味的 |
-| Watery | 淡而无味的 |
+| 酸性的 | Acidic |
+| 胆汁味的 | Bilious |
+| 苦的 | Bitter |
+| 灼热／刺鼻的 | Burning／biting |
+| 黄油味的 | Buttery |
+| 灰尘味的 | Dusty |
+| 泥土味的 | Earthy |
+| 辛辣灼热的 | Fiery |
+| 鱼腥味的 | Fishy |
+| 油腻的 | Greasy |
+| 草药味的 | Herbal |
+| 蜂蜜味的 | Honeyed |
+| 柠檬味的 | Lemony |
+| 肉味的 | Meaty |
+| 金属味的 | Metallic |
+| 奶味的 | Milky |
+| 霉味的 | Musty |
+| 洋葱味的 | Oniony |
+| 胡椒味的 | Peppery |
+| 香水味的 | Perfumy |
+| 咸的 | Salty |
+| 清凉／甜的 | Soothing／sugary |
+| 酸的 | Sour |
+| 香料味的 | Spicy |
+| 甜的 | Sweet |
+| 酸涩的 | Tart |
+| 醋味的 | Vinegary |
+| 淡而无味的 | Watery |

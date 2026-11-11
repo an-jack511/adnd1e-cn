@@ -1,6 +1,5 @@
 以下依原书印刷第 102 页译录；本页开头延续上一页的贤者之石说明。
 
-<!-- source: OCR/ua-raw/pages/page-103.png; 原书印刷 p. 102 -->
 
 ## 随取袋 Pouch of Accessibility
 

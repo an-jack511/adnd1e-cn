@@ -1,6 +1,5 @@
 以下译录原书印刷第 109 页。
 
-<!-- source: OCR/ua-raw/pages/page-110.png; 原书印刷 p. 109 -->
 
 ## 制服 Subdual
 

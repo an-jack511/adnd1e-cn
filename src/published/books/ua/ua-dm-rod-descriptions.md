@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-094.png–page-095.png; 原书印刷 p. 93–94 -->
 
 以下按原书印刷第 93–94 页译录。
 

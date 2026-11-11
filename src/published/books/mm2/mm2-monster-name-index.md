@@ -12,7 +12,7 @@
 |---|---|---:|
 |酸龙|黑龙|M31|
 |气宁芙|西尔芙|M83|
-|Aerial Creatures, Prince of Evil|扬西宾|F33|
+|邪恶之王的空中生物（Aerial Creatures, Prince of Evil）|扬西宾|F33|
 |灾祸小虫|杰莱鼠|F53|
 |高等蛇蜥|高等蛇蜥|15|
 |黑柳|黑柳|126|

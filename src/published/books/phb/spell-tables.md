@@ -20,7 +20,7 @@
 | 编号（Number） | 一环（1st Level） | 二环（2nd Level） | 三环（3rd Level） | 四环（4th Level） | 五环（5th Level） | 六环（6th Level） | 七环（7th Level） |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 化兽为友（Animal Friendship） | 树肤术（Barkskin） | 召雷术（Call Lightning） | 召唤动物 I（Animal Summoning I） | 动物成长（Animal Growth） | 召唤动物 III（Animal Summoning III） | 活化岩石术（Animate Rock） |
-| 2 | 侦测魔法（Detect Magic） | 魅惑人类或哺乳动物（Charm Person or Mammal） | 治愈疾病（Cure Disease） | 召唤林地生物（Call Woodland Beings） | 召唤动物 II（Animal Summoning II） | 反动物力场（Anti-Animal Shell） | 萨斯塔尔战车（Chariot of Sustarre） |
+| 2 | 侦测魔法（Detect Magic） | 魅惑人类或哺乳动物（Charm Person or Mammal） | 治愈疾病（Cure Disease） | 召唤林地生物（Call Woodland Beings） | 召唤动物 II（Animal Summoning II） | 反动物力场（Anti-Animal Shell） | 苏斯塔雷战车（Chariot of Sustarre） |
 | 3 | 侦测陷阱与坑洞（Detect Snares & Pits） | 造水术（Create Water） | 定身动物（Hold Animal） | 控制温度（10尺半径）（Control Temperature, 10' Radius） | 反植物护罩（Anti-Plant Shell） | 召唤火元素（Conjure Fire Elemental） | 困惑术（Confusion） |
 | 4 | 纠缠术（Entangle） | 治疗轻伤（Cure Light Wounds） | 中和毒性（Neutralize Poison） | 治疗重伤（Cure Serious Wounds） | 问道自然（Commune with Nature） | 治疗致命伤（Cure Critical Wounds） | 召唤土元素（Conjure Earth Elemental） |
 | 5 | 妖火（Faerie Fire） | 假死术（Feign Death） | 植物滋长（Plant Growth） | 解除魔法（Dispel Magic） | 操控风力（Control Winds） | 弱智术（Feeblemind） | 操控天气（Control Weather） |

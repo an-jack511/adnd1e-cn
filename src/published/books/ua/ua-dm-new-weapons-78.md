@@ -16,7 +16,7 @@
 
 击中裸露或轻布覆盖的头部时，使目标昏厥的几率为<strong>使用者每点力量 5%</strong>；力量<strong>高于 18</strong>时必定昏厥，<strong>18/01</strong>已足够。击中头部以外仅造成<strong>一半伤害</strong>，无其他效果。
 
-## 刺钉小圆盾 Spiked Buckler
+## 带刺圆盾 Spiked Buckler
 
 带攻击性的盾牌中，只有小圆盾实用；更大的盾难以迅速转动，突起也容易被敌人抓住。此盾防御如普通小圆盾，每轮可帮助抵御<strong>一次攻击</strong>。制作精良者的刺有刃，但实际攻击一般是<strong>盾刺冲撞</strong>，几乎不会挥砍。
 

@@ -1,6 +1,6 @@
 ## 犀牛 Rhinoceros
 
-| 项目 | 犀牛 Rhinoceros | 长毛犀牛 Woolly Rhinoceros |
+| 项目 | 犀牛（Rhinoceros） | 长毛犀牛（Woolly Rhinoceros） |
 |---|---:|---:|
 | 出现频率 | 常见 | 常见 |
 | 出现数量 | 1–6 | 1–4 |

@@ -1,4 +1,3 @@
-<!-- source: PDF pages 74–75 / printed pages 73–74; OCR: OCR/dsg-raw/text/page-074.txt, page-075.txt -->
 
 ## 价值观与目标 Values and Objectives
 

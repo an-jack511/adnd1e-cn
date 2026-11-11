@@ -40,7 +40,7 @@
 
 每<strong>一回合</strong>最多敲响一次，回声持续整整 <strong>3 轮</strong>。回声期间，钟的 <strong>30 英尺半径</strong>内，任何须言语成分的法术只有施法者通过<strong>喷吐武器豁免</strong>才能施展。回声结束后须休止至少 <strong>7 轮</strong>；若提前再敲，不会发声，并从该时点重新等待<strong>整整一回合</strong>。
 
-## 蛛形斗篷 Cloak of Arachnidia
+## 节肢斗篷 Cloak of Arachnidia
 
 黑色斗篷，散发强烈变化系灵光。佩戴者可如受*蛛行术*般攀爬，免疫所有蛛网的缠困，还能在蛛网中以<strong>结网蜘蛛的速度</strong>移动；若无对应蜘蛛，则基本速度为 <strong>6″</strong>。每天一次可如二环魔法师法术*蛛网术*创造<strong>双倍大小</strong>的蛛网；对蛛形纲生物的毒素豁免 <strong>+2</strong>。
 

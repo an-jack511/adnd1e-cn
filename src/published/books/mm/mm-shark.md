@@ -1,6 +1,6 @@
 ## 鲨鱼 Shark
 
-| 项目 | 普通鲨鱼 Shark | 巨型鲨鱼（巨齿鲨） Giant Shark (Megalodon) |
+| 项目 | 普通鲨鱼（Shark） | 巨型鲨鱼（巨齿鲨；Giant Shark / Megalodon） |
 |---|---:|---:|
 | 出现频率 | 常见 | 罕见 |
 | 出现数量 | 3–12 | 1–3 |

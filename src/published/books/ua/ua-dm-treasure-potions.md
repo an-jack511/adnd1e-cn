@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-085.png; 原书印刷 p. 84 -->
 
 # 财宝：药水表 III.A 与 III.A.2 Potions
 

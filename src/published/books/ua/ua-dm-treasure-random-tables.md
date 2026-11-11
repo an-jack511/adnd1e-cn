@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-085.png; 原书印刷 p. 84 -->
 
 # 财宝：随机决定魔法物品 Treasure: Random Treasure Determination
 

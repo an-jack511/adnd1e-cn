@@ -79,35 +79,35 @@
 
 以下称号可作为不同文化中贵族与掌权者的例子；不必视为严格对应的等级表。
 
-| 原文称号 | 中文称号 | 原文称号 | 中文称号 |
+| 中文称号 | 英文原称号 | 中文称号 | 英文原称号 |
 |:---:|:---:|:---:|:---:|
-| Emperor / Empress | 皇帝／女皇 | Archbishop | 大主教 |
-| King / Queen | 国王／女王 | Pfalzgraf | 宫廷伯爵 |
-| Duke / Duchess | 公爵 | Herzog | 公爵 |
-| Prince / Princess | 亲王／公主 | Margrave | 边境伯爵 |
-| Marquis / Marquise | 侯爵 | Graf | 伯爵 |
-| Count (Earl) / Countess | 伯爵／女伯爵 | Waldgraf | 森林伯爵 |
-| Viscount / Viscountess | 子爵／女子爵 | Bishop | 主教 |
-| Baron (Thane) / Baroness | 男爵／女男爵 | Freiherr | 男爵 |
-| Baronet | 从男爵 | Seigneur | 领主 |
-| Knight | 骑士 | Ritter / Chevalier | 骑士 |
-| Abbot | 修道院院长 | Prior | 会院院长 |
+| 皇帝／女皇 | Emperor / Empress | 大主教 | Archbishop |
+| 国王／女王 | King / Queen | 宫廷伯爵 | Pfalzgraf |
+| 公爵 | Duke / Duchess | 公爵 | Herzog |
+| 亲王／公主 | Prince / Princess | 边境伯爵 | Margrave |
+| 侯爵 | Marquis / Marquise | 伯爵 | Graf |
+| 伯爵／女伯爵 | Count (Earl) / Countess | 森林伯爵 | Waldgraf |
+| 子爵／女子爵 | Viscount / Viscountess | 主教 | Bishop |
+| 男爵／女男爵 | Baron (Thane) / Baroness | 男爵 | Freiherr |
+| 从男爵 | Baronet | 领主 | Seigneur |
+| 骑士 | Knight | 骑士 | Ritter / Chevalier |
+| 修道院院长 | Abbot | 会院院长 | Prior |
 
 骑士并非世袭贵族；其位次（或重要程度）会依所属骑士团而异。宫廷中的各类官员也可能属于贵族阶层。有关这方面的优秀说明，可查阅百科全书中“位次”词条，或 TSR《灰鹰世界》的相应章节。
 
 ### 亚洲式贵族与官职称号 Royal and Noble Titles (Asian Forms)
 
-| 原文称号 | 中文称号 | 原文称号 | 中文称号 |
+| 中文称号 | 英文原称号 | 中文称号 | 英文原称号 |
 |:---:|:---:|:---:|:---:|
-| Padishah | 帕迪沙（帝王） | Maharaja | 摩诃罗阇（大君） |
-| Kha-Khan | 可汗 | Tarkhan | 达尔罕 |
-| Sultan | 苏丹 | Shah | 沙阿 |
-| Rajah | 罗阇 | Ilkhan | 伊儿汗 |
-| Dey | 代伊 | Caliph | 哈里发 |
-| Bey | 贝伊 | Orkhon | 鄂尔浑 |
-| Bashaw / Pasha | 帕夏 | Emir / Amir | 埃米尔 |
-| Khan | 汗 | Sheikh | 谢赫 |
-| Nawab | 纳瓦卜 | Malik | 马利克 |
+| 帕迪沙（帝王） | Padishah | 摩诃罗阇（大君） | Maharaja |
+| 可汗 | Kha-Khan | 达尔罕 | Tarkhan |
+| 苏丹 | Sultan | 沙阿 | Shah |
+| 罗阇 | Rajah | 伊儿汗 | Ilkhan |
+| 代伊 | Dey | 哈里发 | Caliph |
+| 贝伊 | Bey | 鄂尔浑 | Orkhon |
+| 帕夏 | Bashaw / Pasha | 埃米尔 | Emir / Amir |
+| 汗 | Khan | 谢赫 | Sheikh |
+| 纳瓦卜 | Nawab | 马利克 | Malik |
 
 你也可以混合这些头衔、自创新称号，并将其放进你设计的战役环境中。查阅各种历史资料会很有帮助，手边若有一本好的同义词词典也不错。
 

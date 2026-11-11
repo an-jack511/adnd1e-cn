@@ -14,4 +14,4 @@
 
 ## 附录四：进一步参考 Appendix 4: Further Reference
 
-参考书目包括 Aldington 等人的《新拉鲁斯神话百科》、Budge 的《埃及亡灵书》、Bullfinch 的《寓言时代》、Christie 的《中国神话》、Davidson 的《北欧诸神与神话》、Frazer 的《金枝》、Gantz 的《马比诺吉昂》、Hamilton 的《神话》、Hodge 的《美洲印第安人手册》、Kramer 的《古代世界神话》、Malory 的《亚瑟王之死》、Nicholson 的《墨西哥与中美洲神话》、Squire 的《凯尔特神话与传说》、Tripp 的《古典神话手册》，以及 Elric／Stormbringer 系列资料。
+参考书目包括 Aldington 等人的《新拉鲁斯神话百科》、Budge 的《埃及亡灵书》、Bullfinch 的《寓言时代》、Christie 的《中国神话》、Davidson 的《北欧诸神与神话》、Frazer 的《金枝》、Gantz 的《马比诺吉昂》、Hamilton 的《神话》、Hodge 的《美洲印第安人手册》、Kramer 的《古代世界神话》、Malory 的《亚瑟王之死》、Nicholson 的《墨西哥与中美洲神话》、Squire 的《凯尔特神话与传说》、Tripp 的《古典神话手册》，以及埃尔里克／风暴使者系列资料。

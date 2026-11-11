@@ -7,7 +7,7 @@
 | d% | 结果 | 经验值 | 售价 |
 |:---:|:---|---:|---:|
 | 01–15 | 奇妙力量塑像 Figurine of Wondrous Power | 100¹ | 1,000¹ |
-| 16 | 诅咒瓶 Flask of Curses | — | 1,000 |
+| 16 | 诅咒酒瓶 Flask of Curses | — | 1,000 |
 | 17–18 | 敏捷手套 Gauntlets of Dexterity | 1,000 | 10,000 |
 | 19–20 | 笨拙手套 Gauntlets of Fumbling | — | 1,000 |
 | 21–22 | 食人魔力量护手 Gauntlets of Ogre Power（C、F、T） | 1,000 | 10,000 |

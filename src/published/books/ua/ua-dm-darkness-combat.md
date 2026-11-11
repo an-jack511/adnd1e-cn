@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-082.png; 原书印刷 p. 82 -->
 
 # 战斗：黑暗的影响 Effects of Darkness
 

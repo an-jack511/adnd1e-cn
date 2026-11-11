@@ -9,8 +9,8 @@
 | 吉祥天 Kishijoten | 82–83 | 雷登 Raiden | 83 |
 | 雷光 Raiko | 84 | 须佐之男 Susanowo | 84 |
 | 月读 Tsukiyomi | 84 | 山本达／义家 | 85 |
-| 阎摩与水牛 Yama | 80 | Stormbringer | 86–87, 95 |
-| Elric | 86–87, 94–95 | Fafhrd | 96–97, 101 |
+| 阎摩与水牛 Yama | 80 | 风暴使者 Stormbringer | 86–87, 95 |
+| 埃尔里克 Elric | 86–87, 94–95 | 法弗赫德 Fafhrd | 96–97, 101 |
 | 灰耗子 Gray Mouser | 97, 101–102 | 尼赫旺诸神 | 96–105 |
 | 尼恩格布尔 Ningauble | 101–102 | 谢尔巴 Sheelba | 102, 101 |
 | 科斯 Kos | 100 | 利维坦 Leviathan | 100 |

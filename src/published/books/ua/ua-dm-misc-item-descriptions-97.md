@@ -1,6 +1,5 @@
 以下依原书印刷第 97 页译录 III.E.6 与 III.E.7 的新物品说明。
 
-<!-- source: OCR/ua-raw/pages/page-098.png; 原书印刷 p. 97 -->
 
 ## 防不死生物护符 Amulet Versus Undead
 
@@ -16,7 +15,6 @@
 
 必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>以下依原书印刷第 97 页译录 III.E.6 与 III.E.7 的新物品说明。
 
-<!-- source: OCR/ua-raw/pages/page-098.png; 原书印刷 p. 97 -->
 
 ## 防不死生物护符 Amulet Versus Undead
 

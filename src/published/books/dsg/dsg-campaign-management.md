@@ -1,4 +1,3 @@
-<!-- OCR核对：PDF page 099–100；印刷页 98–99。旧译文不作底稿，以下按扫描页栏序重新翻译。 -->
 
 ## 地下冒险 Underground Adventures
 

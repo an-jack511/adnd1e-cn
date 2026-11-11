@@ -8,99 +8,99 @@
 
 ## PDF 第 30 页
 
-| 原书标签 | 中文释义 |
+| 中文释义 | 英文原词 |
 | --- | --- |
-| DAY | 日、白昼 |
-| AID (SUPERNATURAL) | 援助（超自然） |
-| AIR | 空气 |
-| ANGER, QUARREL | 愤怒、争吵 |
-| ANSWER / SOLUTION | 答案／解决方案 |
-| BETRAYAL, DOUBLE DEALING | 背叛、两面派行径 |
-| BRASS | 黄铜 |
-| COPPER | 铜 |
-| DANGER, DANGEROUS, DEADLY | 危险、危险的、致命的 |
-| DARKNESS | 黑暗 |
-| DEATH | 死亡 |
-| DEMONIAC, DEMON POWER | 恶魔附身、恶魔之力 |
-| EVIL, EVIL PURSUER | 邪恶、邪恶追猎者 |
-| DRAGON, EVIL WATCHER | 龙、邪恶监视者 |
-| EARTH | 土、大地 |
-| ELECTRUM | 电子金 |
-| ELEMENTAL | 元素 |
-| ELEMENTAL PLANES | 元素位面 |
-| EVIL POWER, DESTRUCTIVE POWER | 邪恶力量、毁灭力量 |
+| 日、白昼 | DAY |
+| 援助（超自然） | AID (SUPERNATURAL) |
+| 空气 | AIR |
+| 愤怒、争吵 | ANGER, QUARREL |
+| 答案／解决方案 | ANSWER / SOLUTION |
+| 背叛、两面派行径 | BETRAYAL, DOUBLE DEALING |
+| 黄铜 | BRASS |
+| 铜 | COPPER |
+| 危险、危险的、致命的 | DANGER, DANGEROUS, DEADLY |
+| 黑暗 | DARKNESS |
+| 死亡 | DEATH |
+| 恶魔附身、恶魔之力 | DEMONIAC, DEMON POWER |
+| 邪恶、邪恶追猎者 | EVIL, EVIL PURSUER |
+| 龙、邪恶监视者 | DRAGON, EVIL WATCHER |
+| 土、大地 | EARTH |
+| 电子金 | ELECTRUM |
+| 元素 | ELEMENTAL |
+| 元素位面 | ELEMENTAL PLANES |
+| 邪恶力量、毁灭力量 | EVIL POWER, DESTRUCTIVE POWER |
 
 ## PDF 第 31 页
 
-| 原书标签 | 中文释义 |
+| 中文释义 | 英文原词 |
 | --- | --- |
-| EVIL SERVING/SERVANT | 邪恶侍奉／仆从 |
-| FEMALE | 女性 |
-| FIRE | 火 |
-| FRIENDLY | 友善 |
-| GIANT, HUGE | 巨人、巨大 |
-| GO | 前进 |
-| GOD | 神 |
-| GOLD | 金 |
-| GOOD | 善良 |
-| HAIL, STORM (COLD) | 冰雹、风暴（寒冷） |
-| HALT, STOP | 停止、停下 |
-| HOLY, HOLINESS | 神圣、神圣性 |
-| HONOR | 荣誉 |
-| HOUSE | 房屋 |
-| ICE | 冰 |
-| INFINITY, ENDLESS | 无限、无尽 |
-| INSANITY, INDUCES MADNESS | 疯狂、引发疯狂 |
-| IRON | 铁 |
-| IRRESISTIBLE, OVERPOWERING | 不可抗拒、压倒性 |
-| KEY | 钥匙 |
-| LIFE | 生命 |
-| LIFESPAN | 寿命 |
+| 邪恶侍奉／仆从 | EVIL SERVING/SERVANT |
+| 女性 | FEMALE |
+| 火 | FIRE |
+| 友善 | FRIENDLY |
+| 巨人、巨大 | GIANT, HUGE |
+| 前进 | GO |
+| 神 | GOD |
+| 金 | GOLD |
+| 善良 | GOOD |
+| 冰雹、风暴（寒冷） | HAIL, STORM (COLD) |
+| 停止、停下 | HALT, STOP |
+| 神圣、神圣性 | HOLY, HOLINESS |
+| 荣誉 | HONOR |
+| 房屋 | HOUSE |
+| 冰 | ICE |
+| 无限、无尽 | INFINITY, ENDLESS |
+| 疯狂、引发疯狂 | INSANITY, INDUCES MADNESS |
+| 铁 | IRON |
+| 不可抗拒、压倒性 | IRRESISTIBLE, OVERPOWERING |
+| 钥匙 | KEY |
+| 生命 | LIFE |
+| 寿命 | LIFESPAN |
 
 ## PDF 第 32 页
 
-| 原书标签 | 中文释义 |
+| 中文释义 | 英文原词 |
 | --- | --- |
-| LIGHT | 光明 |
-| LONG, FAR | 长、远 |
-| MAGIC POWER, EVIL, GOOD | 魔法力量、邪恶、善良 |
-| MALE | 男性 |
-| MIDDLE, CENTER, HEART | 中部、中心、核心 |
-| MOVEMENT, TRAVEL | 移动、旅行 |
-| OPPOSITION, OPPOSED | 对立、反对 |
-| PLANES (OF EXISTENCE) | （存在）位面 |
-| POISON, POISONOUS | 毒、含毒的 |
-| POISON ANTIDOTE | 毒药解毒剂 |
-| PURSUIT | 追逐 |
-| POSSESSION | 占有、附身 |
-| PRECIOUS GEM | 宝石 |
-| PRIVATE | 私人、私密 |
-| REGENERATION | 再生 |
-| ROYALTY, ROYAL | 王族、王室的 |
-| SCROLL, WRITING | 卷轴、书写 |
-| SECRET | 秘密 |
-| SENSES, SENSE | 感官、感知 |
-| SHORT, NEAR | 短、近 |
-| SILVER | 银 |
-| SULPHUR, INFERNAL | 硫、地狱的 |
+| 光明 | LIGHT |
+| 长、远 | LONG, FAR |
+| 魔法力量、邪恶、善良 | MAGIC POWER, EVIL, GOOD |
+| 男性 | MALE |
+| 中部、中心、核心 | MIDDLE, CENTER, HEART |
+| 移动、旅行 | MOVEMENT, TRAVEL |
+| 对立、反对 | OPPOSITION, OPPOSED |
+| （存在）位面 | PLANES (OF EXISTENCE) |
+| 毒、含毒的 | POISON, POISONOUS |
+| 毒药解毒剂 | POISON ANTIDOTE |
+| 追逐 | PURSUIT |
+| 占有、附身 | POSSESSION |
+| 宝石 | PRECIOUS GEM |
+| 私人、私密 | PRIVATE |
+| 再生 | REGENERATION |
+| 王族、王室的 | ROYALTY, ROYAL |
+| 卷轴、书写 | SCROLL, WRITING |
+| 秘密 | SECRET |
+| 感官、感知 | SENSES, SENSE |
+| 短、近 | SHORT, NEAR |
+| 银 | SILVER |
+| 硫、地狱的 | SULPHUR, INFERNAL |
 
 ## PDF 第 33 页
 
-| 原书标签 | 中文释义 |
+| 中文释义 | 英文原词 |
 | --- | --- |
-| STRENGTH | 力量 |
-| SUSPICIOUS | 可疑 |
-| THRALL, PRISONER | 奴仆、囚犯 |
-| TIME | 时间 |
-| TORCH | 火炬 |
-| TREASURE | 宝藏 |
-| TRUTH, SWORD | 真理、剑 |
-| UNCERTAIN, QUESTIONABLE | 不确定、可疑 |
-| UNIVERSE, ALL | 宇宙、一切 |
-| WARNING, DANGER | 警告、危险 |
-| WATCHER, VIEWER (SUPERNATURAL) | 监视者、观察者（超自然） |
-| WATER | 水 |
-| WIN, VICTORY | 胜利、获胜 |
+| 力量 | STRENGTH |
+| 可疑 | SUSPICIOUS |
+| 奴仆、囚犯 | THRALL, PRISONER |
+| 时间 | TIME |
+| 火炬 | TORCH |
+| 宝藏 | TREASURE |
+| 真理、剑 | TRUTH, SWORD |
+| 不确定、可疑 | UNCERTAIN, QUESTIONABLE |
+| 宇宙、一切 | UNIVERSE, ALL |
+| 警告、危险 | WARNING, DANGER |
+| 监视者、观察者（超自然） | WATCHER, VIEWER (SUPERNATURAL) |
+| 水 | WATER |
+| 胜利、获胜 | WIN, VICTORY |
 
 ### GenCon：美国首要游戏大会与贸易展
 

@@ -75,7 +75,7 @@
 
 #### 强力锯 Saw of Mighty Cutting
 
-这把带齿的精金锯长 <strong>12'</strong>、宽 <strong>1'</strong>以上。单人使用需要 <strong>18/00</strong>或更高力量；也可由两名力量至少为 <strong>17</strong>的角色协同操作。它能在 <strong>1 轮</strong>内锯断一棵树干直径 <strong>2'</strong>的硬木树，锯断直径 <strong>4'</strong>的树干需 <strong>3 轮</strong>，锯断直径 <strong>1'</strong>的树只需 <strong>3 轮次</strong>。连续锯切 <strong>6 轮</strong>后，操作者必须休息 <strong>6 轮</strong>才能继续。
+这把带齿的精金锯长 <strong>12'</strong>、宽 <strong>1'</strong>以上。单人使用需要 <strong>18/00</strong>或更高力量；也可由两名力量至少为 <strong>17</strong>的角色协同操作。它能在 <strong>1 轮</strong>内锯断一棵树干直径 <strong>2'</strong>的硬木树，锯断直径 <strong>4'</strong>的树干需 <strong>3 轮</strong>，锯断直径 <strong>1'</strong>的树只需 <strong>3 轮</strong>。连续锯切 <strong>6 轮</strong>后，操作者必须休息 <strong>6 轮</strong>才能继续。
 
 #### 死亡圣甲虫 Scarab of Death
 

@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-086.png; 原书印刷 p. 85 -->
 
 # 财宝：戒指表 III.C 与 III.C.2 Rings
 

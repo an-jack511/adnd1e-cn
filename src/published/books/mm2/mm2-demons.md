@@ -20,7 +20,7 @@
 
 下面列出统治深渊的主要恶魔，这份名单并不完整。地位较低、没有完全统治整个层面的恶魔，会以（L）标示为领主而不是王子；（F）表示女性。这里只详细给出其中少数恶魔的统计资料，读者需要自行研究。当然，深渊也有一些层面污秽到连最低等的恶魔贵族都不愿统治。
 
-Abraxas；Ahazu（L）；Ahrimanes；Aldinach（F）（L）；Alrunes（F）（L）；Anarazel；Ansitif；Ardat（F）（L）；Areex；Aseroth；Asima（L）；Astaroth；Azael（L）；Azazel；Barbu（F）（L）；Bayemon（L）；Bechard（L）；Baltazo（L）；巴弗灭；Cabiri（L）；Charun（L）；Dagon；狄摩高根；魔王鹤；Ereshkigal；弗拉兹厄鲁；格拉兹特；Gresil（L）；Juiblex；科斯彻奇（L）；Laraie（L）；罗丝（F）；Mastiphal；Munkir（L）；Nekir（L）；Nergel（L）；Nocticula（F）；Obox-ob；奥喀斯；帕祖祖（L）；Socothbenoth；Soneillon（F）（L）；Verin（L）；Yeenoghu；Zuggtmoy（F）。
+阿布拉克萨斯（Abraxas）；阿哈祖（Ahazu）（L）；阿里马内斯（Ahrimanes）；阿尔迪纳赫（Aldinach）（F）（L）；阿尔鲁内斯（Alrunes）（F）（L）；阿纳拉泽尔（Anarazel）；安西提夫（Ansitif）；阿尔达特（Ardat）（F）（L）；阿里克斯（Areex）；阿塞罗特（Aseroth）；阿西玛（Asima）（L）；阿斯塔罗特（Astaroth）；阿扎埃尔（Azael）（L）；阿扎泽尔（Azazel）；巴尔布（Barbu）（F）（L）；巴耶蒙（Bayemon）（L）；贝查德（Bechard）（L）；巴尔塔佐（Baltazo）（L）；巴弗灭；卡比里（Cabiri）（L）；卡伦（Charun）（L）；达贡（Dagon）；狄摩高根；魔王鹤；埃列什基伽尔（Ereshkigal）；弗拉兹厄鲁；格拉兹特；格雷西尔（Gresil）（L）；尤比勒克斯（Juiblex）；科斯彻奇（L）；拉莱伊（Laraie）（L）；罗丝（F）；马斯蒂法尔（Mastiphal）；蒙基尔（Munkir）（L）；内基尔（Nekir）（L）；内尔盖尔（Nergel）（L）；诺克蒂库拉（Nocticula）（F）；奥博克斯-奥（Obox-ob）；奥喀斯；帕祖祖（L）；索科斯贝诺特（Socothbenoth）；索内永（Soneillon）（F）（L）；维林（Verin）（L）；耶诺古（Yeenoghu）；祖格莫伊（Zuggtmoy）（F）。
 
 ## 深渊层面的典型居民
 

@@ -82,7 +82,7 @@
 | 87–88 | Illusionist | 1 |
 | 89–98 | Thief | 4 |
 | 99 | Assassin | 2 |
-| 00 | Monk 或 Bard | 1 或 1 |
+| 00 | 武僧（Monk）或吟游诗人（Bard） | 1 或 1 |
 
 ### 队伍魔法物品
 

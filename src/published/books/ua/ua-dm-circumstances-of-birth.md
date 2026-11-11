@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-084.png; 原书印刷 p. 83 -->
 
 # 战役：出生境况 Circumstances of Birth
 

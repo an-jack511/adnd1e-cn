@@ -24,7 +24,7 @@
 <strong>持续时间：</strong>特殊<br>
 <strong>影响范围：</strong>以施法者为中心、半径每等级 1 英寸的球体<br>
 <strong>成分：</strong>S、M<br>
-<strong>施法时间：</strong>2 个轮<br>
+<strong>施法时间：</strong>2 轮<br>
 <strong>豁免检定：</strong>无</div>
 
 

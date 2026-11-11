@@ -90,10 +90,10 @@
 
 #### 神圣复仇者 +5 剑 Sword +5, Holy Avenger
 
-这是一把圣剑。除圣武士以外的任何角色使用时，它只发挥 <strong>+2</strong> 剑的作用。但圣武士使用时，它会在半径 <strong>5'</strong>内产生 <strong>50%</strong> 魔法抗性；还能以等同于圣武士经验等级的法师等级，在半径 <strong>5'</strong>内施展“解除魔法”；对混乱邪恶阵营的对手另造成 <strong>+10 点伤害</strong>（另参见《玩家手册》“职业：圣武士”）。
+这是一把圣剑。除圣武士以外的任何角色使用时，它只发挥 <strong>+2</strong> 剑的作用。但圣武士使用时，它会在半径 <strong>5'</strong>内产生 <strong>50%</strong> 魔法抗性；还能以等同于圣武士经验等级的魔法师等级，在半径 <strong>5'</strong>内施展“解除魔法”；对混乱邪恶阵营的对手另造成 <strong>+10 点伤害</strong>（另参见《玩家手册》“职业：圣武士”）。
 
 #### 舞剑 Sword of Dancing
 
-舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续近战轮次</strong>后才能再次起舞。
+舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续近战轮</strong>后才能再次起舞。
 
 舞剑起舞期间会离开持有者的手，最远可达 <strong>3"</strong>。独自作战 <strong>4 轮</strong>结束时，会自动回到持有者手中。注意，起舞时剑无法被物理攻击击中……

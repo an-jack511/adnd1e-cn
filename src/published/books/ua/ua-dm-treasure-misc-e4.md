@@ -13,9 +13,9 @@
 | 05 | 健体手册 Manual of Bodily Health | 5,000 | 50,000 |
 | 06 | 增力手册 Manual of Gainful Exercise | 5,000 | 50,000 |
 | 07 | 魔像手册 Manual of Golems（C、M） | 3,000 | 30,000 |
-| 08 | 精湛武艺手册 Manual of Puissant Skill at Arms（F） | 8,000 | 40,000 |
+| 08 | 武艺精湛手册 Manual of Puissant Skill at Arms（F） | 8,000 | 40,000 |
 | 09 | 敏捷行动手册 Manual of Quickness of Action | 5,000 | 50,000 |
-| 10 | 隐秘窃取手册 Manual of Stealthy Pilfering（T） | 8,000 | 40,000 |
+| 10 | 偷窃巧手手册 Manual of Stealthy Pilfering（T） | 8,000 | 40,000 |
 | 11 | 泰坦十字镐 Mattock of the Titans（F） | 3,500 | 7,000 |
 | 12 | 泰坦大锤 Maul of the Titans | 4,000 | 12,000 |
 | 13–15 | 超感官知觉徽章 Medallion of ESP | 1,000／3,000 | 10,000／30,000 |
@@ -31,7 +31,7 @@
 | 39–42 | 圈套网 Net of Snaring（C、F、T） | 1,000 | 6,000 |
 | 43–44 | 诺祖尔的奇妙颜料 Nolzur’s Marvelous Pigments | 500³ | 3,000³ |
 | 45–46 | 威能珍珠 Pearl of Power（M） | 200⁴ | 2,000⁴ |
-| 47–48 | 智慧珍珠 Pearl of Wisdom（C） | 500 | 5,000 |
+| 47–48 | 感知珍珠 Pearl of Wisdom（C） | 500 | 5,000 |
 | 49–50 | 腐烂护符 Periapt of Foul Rotting | — | 1,000 |
 | 51–53 | 保健护符 Periapt of Health | 1,000 | 10,000 |
 | 54–60 | 辟毒护符 Periapt of Proof Against Poison | 1,500 | 12,500 |

@@ -1,4 +1,3 @@
-<!-- source: OCR/ua-raw/pages/page-086.png; 原书印刷 p. 85 -->
 
 # 财宝：权杖与法杖表 III.D Rods & Staves
 
