@@ -23,7 +23,7 @@
 
 已知的兽人部落包括：邪恶符文、血首、死亡之月、断骨、邪眼、麻风之手、腐眼、滴血之刃。如果在某地区遇到来自其中一个部落的兽人，那么附近其他兽人很可能也属于这个部落。
 
-每遇到 <strong>30 名</strong>兽人，就会有一名首领和 <strong>3 名</strong>助手。这些兽人每人有 <strong>8 点</strong>生命值（因为他们是群体中最大、最强、最凶恶的成员）。若遇到 <strong>150 名或更多</strong>兽人，队伍中还会增加一名副首领和 <strong>3–18 名</strong>卫兵；每人的护甲等级为 4、生命值为 <strong>11 点</strong>，并按 <strong>2 个生命骰</strong>的怪物战斗（造成 <strong>2–7 点</strong>伤害）。若兽人不在巢穴中，它们有 <strong>20%</strong> 的概率会护送一列 <strong>1–6 辆</strong>货车与 <strong>10–60 名</strong>奴隶搬运工，将补给和战利品运给首领或更强大的兽人部落。货车装载价值 <strong>10–1,00金币</strong>的货物，每名奴隶携带价值 <strong>5–3金币</strong>的货物。若出现这类运输队，首领与助手的数量加倍，每辆货车增加 <strong>10 名</strong>普通兽人，并且运输队中必定有一名副首领及 <strong>5–30 名</strong>卫兵负责指挥。
+每遇到 <strong>30 名</strong>兽人，就会有一名首领和 <strong>3 名</strong>助手。这些兽人每人有 <strong>8 点</strong>生命值（因为他们是群体中最大、最强、最凶恶的成员）。若遇到 <strong>150 名或更多</strong>兽人，队伍中还会增加一名副首领和 <strong>3–18 名</strong>卫兵；每人的护甲等级为 4、生命值为 <strong>11 点</strong>，并按 <strong>2 个生命骰</strong>的怪物战斗（造成 <strong>2–7 点</strong>伤害）。若兽人不在巢穴中，它们有 <strong>20%</strong> 的概率会护送一列 <strong>1–6 辆</strong>货车与 <strong>10–60 名</strong>奴隶搬运工，将补给和战利品运给首领或更强大的兽人部落。货车装载价值 <strong>10–1,000金币</strong>的货物，每名奴隶携带价值 <strong>5–3金币</strong>的货物。若出现这类运输队，首领与助手的数量加倍，每辆货车增加 <strong>10 名</strong>普通兽人，并且运输队中必定有一名副首领及 <strong>5–30 名</strong>卫兵负责指挥。
 
 兽人巢穴有 <strong>75%</strong> 位于地下，<strong>25%</strong> 是地面村落。若在兽人巢穴中遭遇它们，则总会有以下额外兽人：一名首领和 <strong>5–30 名</strong>贴身卫兵（护甲等级 4、生命值 <strong>13–16 点</strong>，按 <strong>3 个生命骰</strong>的怪物攻击，造成 <strong>2–8 点</strong>伤害）；雌性数量等于雄性数量的 <strong>50%</strong>；幼崽数量等于雄性数量的 <strong>100%</strong>。若巢穴位于地下，则有 <strong>50%</strong> 的概率会有 <strong>2–5 名</strong>食人魔与兽人同住。若巢穴位于地面，则会是一座由木屋组成的简陋村落，外有壕沟、土垒和木栅栏保护。村落有 <strong>1–4 座</strong>瞭望塔和一道大门。每 <strong>100 名</strong>成年雄性兽人（取最接近的整百数）配有 <strong>1 架</strong>投石机和 <strong>1 架</strong>弩炮。
 

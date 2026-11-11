@@ -23,6 +23,6 @@
 
 天马会用两只前蹄与强壮的牙齿战斗。雄性个体能够承载相当于中型战马的重量，雌性个体能够承载相当于轻型战马的重量。
 
-若在天马巢穴中遇到它们，则每一对天马有一个巢。每个巢有 <strong>20%</strong> 的概率包含 <strong>1–2 枚</strong>蛋（30%）或幼年动物（70%），其成长程度为 <strong>20%–50%</strong>。蛋在公开市场上价值 <strong>3,00金币</strong>，幼兽价值 <strong>5,00金币</strong>。
+若在天马巢穴中遇到它们，则每一对天马有一个巢。每个巢有 <strong>20%</strong> 的概率包含 <strong>1–2 枚</strong>蛋（30%）或幼年动物（70%），其成长程度为 <strong>20%–50%</strong>。蛋在公开市场上价值 <strong>3,000金币</strong>，幼兽价值 <strong>5,000金币</strong>。
 
 <!-- source_pages: OCR/mm-raw/text/page-079.txt; printed page 78 -->

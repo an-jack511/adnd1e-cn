@@ -885,7 +885,7 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 | 智慧 Wisdom | 3 | 18 |
 | 敏捷 Dexterity | 3 | 17 |
 | 体质 Constitution | 14 | 19 |
-| 魅力 Charisma | 3 | 12 |
+| 魅力 | 3 | 12 |
 
 #### 丘陵矮人职业上限（Hill Dwarf Class Limits）
 
@@ -1215,7 +1215,7 @@ DM 必须在游戏过程中维护这张表。每当坎德处理一件物品时�
 | 智慧 Wisdom | 3 | 16 |
 | 敏捷 Dexterity | 8 | 18 |
 | 体质 Constitution | 12 | 20 |
-| 魅力 Charisma | 3 | 16 |
+| 魅力 | 3 | 16 |
 
 #### 克莱恩牛头人职业上限（Krynn Minotaur Class Limits）
 

@@ -177,7 +177,7 @@
 | 感知 Wisdom | 使用精神力量数值 | 力量（精神） Strength (Mental) | 使用感知数值 |
 | 敏捷 Dexterity | 如原值 | 敏捷 Dexterity | 如原值 |
 | 体质 Constitution | 如原值 | 体质 Constitution | 如原值 |
-| 魅力 Charisma | 如原值 | 魅力 Charisma | 如原值 |
+| 魅力 | 如原值 | 魅力 | 如原值 |
 | 魔法抗性 | 无 | 辐射抗力 | 无 |
 
 <strong>生命骰 Hit Dice：</strong>GAMMA WORLD 角色保留依其体质计算的总生命值；AD&D 角色则保留生命骰及等级带来的生命值加值。
@@ -223,4 +223,4 @@
 
 <strong>神器 Artifacts：</strong>GAMMA WORLD 的“神器”（化学制品除外，因为后者可能被复制）在 AD&D 世界中仍能运作；大多数魔法物品也会在 GAMMA WORLD 设定中生效。AD&D 角色只能使用 GAMMA WORLD 图表 A 中可操作的“神器”，且相关掷骰承受 <strong>+1</strong>。智力至少 <strong>15</strong> 的牧师与魔法师可通过练习或研究消除这项限制及掷骰惩罚。每次成功操作“神器”，消除惩罚的累计概率增加 <strong>10%</strong>。研究物品可累计获得操作图表 B、C 物品的 <strong>1%</strong>概率：B 类物品每天研究 <strong>1 天</strong>，每天花费 <strong>100金币</strong>；C 类物品每研究 <strong>1 周</strong>，花费 <strong>1,000金币</strong>。（研究必须持续进行，不受打扰。）
 
-若角色已获演示并得到使用说明，便可不查图表直接操作相应“神器”或魔法物品。不过，AD&D 角色使用与其熟悉的武器或魔法物品差异极大的“神器”武器时，熟练度按比实际低 <strong>4 级</strong>处理。每次成功使用，角色有 <strong>25%</strong>概率提升一级熟练度（即减少一级惩罚），直到恢复正常能力。（这类角色在 BOOT HILL 环境中使用枪械时也可酌情优待：他们熟悉手枪与肩射枪械，可先有 <strong>25</strong>的基础准确度，练习后最高可达 <strong>50</strong>。）
+若角色已获演示并得到使用说明，便可不查图表直接操作相应“神器”或魔法物品。不过，AD&D 角色使用与其熟悉的武器或魔法物品差异极大的“神器”武器时，熟练等级按比实际低 <strong>4 级</strong>处理。每次成功使用，角色有 <strong>25%</strong>概率提升一级熟练等级（即减少一级惩罚），直到恢复正常能力。（这类角色在 BOOT HILL 环境中使用枪械时也可酌情优待：他们熟悉手枪与肩射枪械，可先有 <strong>25</strong>的基础准确度，练习后最高可达 <strong>50</strong>。）

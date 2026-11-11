@@ -4,7 +4,7 @@
 
 ## 随取袋 Pouch of Accessibility
 
-外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,00金币重量</strong>。每小袋最多装 <strong>10金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、次元洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>1金币重量</strong>，装满后重 <strong>4金币重量</strong>。
+外观普通，内有 <strong>30 个魔法口袋</strong>，总共可装 <strong>3,000金币重量</strong>。每小袋最多装 <strong>10金币重量</strong>或 <strong>1 立方英尺</strong>，以先达者为准。持有者只要打开袋子并说出所需物品的名字，物品便立即出现在袋口可抓取处。它与次元袋、次元洞同属魔法空间，两者相互放置的限制也照常适用。空袋重 <strong>1金币重量</strong>，装满后重 <strong>4金币重量</strong>。
 
 ## 扎吉格的牢笼 Prison of Zagyg
 

@@ -30,7 +30,7 @@
 | 76–90 | 8 |
 | 91–00 | 9 |
 
-必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>1,00金币</strong>。
+必须<strong>始终佩戴</strong>才有效；摘下即失效，重新戴上后的<strong>前七天</strong>仍无效。经验值按每有效牧师等级 <strong>200</strong> 计算，售价每级 <strong>1,000金币</strong>。
 
 ## 万能物品 Anything Item
 

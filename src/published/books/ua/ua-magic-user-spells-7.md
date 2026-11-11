@@ -36,7 +36,7 @@
 
 记忆法术时经特殊准备，可把它改成<strong>力场方盒 Forcecube</strong>：影响体积变成八分之一，即边长 <strong>1″</strong>的实心力场方盒；除施法与魔法器具之间本就存在的差别及破坏方式外，其余如同*力场方盒*器具。
 
-实际施展两种版本均不需材料；但<strong>记忆</strong>时必须磨碎价值至少 <strong>1,00金币</strong>的钻石，用钻石粉描出将来所要施展的牢笼或方盒轮廓。学习记忆完成后须把粉末抛向空中，粉末随即消失。
+实际施展两种版本均不需材料；但<strong>记忆</strong>时必须磨碎价值至少 <strong>1,000金币</strong>的钻石，用钻石粉描出将来所要施展的牢笼或方盒轮廓。学习记忆完成后须把粉末抛向空中，粉末随即消失。
 
 ## 魔邓肯豪宅术 Mordenkainen's Magnificent Mansion（变化／咒法系 Alteration/Conjuration）
 
@@ -104,7 +104,7 @@
 
 原书另称第 <strong>8 轮</strong>以后不再有惩罚。若生物挣脱，仍受本术影响：每持续 <strong>2 轮</strong>先攻 <strong>−1</strong>，第 8 轮最多 <strong>−4</strong>；第 3 轮后命中 <strong>−1</strong>、每颗伤害骰 <strong>−1</strong>，逐轮加深至第 6 轮 <strong>−4</strong>，之后回落，到第 9 轮为 <strong>−1</strong>。目标即使屈从，也会深恨施法者，严格按约定字面执行并寻找报复机会。
 
-准备此术须把目标类别的秘名或目标本人姓名写进咒文，施法者也须写出自己，以建立联系。若目标智力高于施法者，每高 <strong>1 点</strong>有 <strong>1%</strong> 概率夺得控制权，把施法者拖进其囚禁空间，再带到自己的位面；施法者诵读时若被打断或分心，则目标每有 <strong>1 点智力</strong>便有 <strong>5%</strong> 概率夺权。材料成分就是上述特制卷轴，所用特殊墨水每目标生命骰至少耗费 <strong>1,00金币</strong>。
+准备此术须把目标类别的秘名或目标本人姓名写进咒文，施法者也须写出自己，以建立联系。若目标智力高于施法者，每高 <strong>1 点</strong>有 <strong>1%</strong> 概率夺得控制权，把施法者拖进其囚禁空间，再带到自己的位面；施法者诵读时若被打断或分心，则目标每有 <strong>1 点智力</strong>便有 <strong>5%</strong> 概率夺权。材料成分就是上述特制卷轴，所用特殊墨水每目标生命骰至少耗费 <strong>1,000金币</strong>。
 
 ## 真名术 Truename（附魔／变化系 Enchantment/Alteration）
 

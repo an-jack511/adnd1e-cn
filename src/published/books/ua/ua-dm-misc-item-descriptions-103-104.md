@@ -83,7 +83,7 @@
 | 15–19 | 6 次 |
 | 20 | 7 次 |
 
-经验值为每日使用次数 ×100（200–700），售价为每日使用次数 ×1,000（2,000–7,00金币）。
+经验值为每日使用次数 ×100（200–700），售价为每日使用次数 ×1,000（2,000–7,000金币）。
 
 ## 护甲与盾牌的特殊说明 Armor and Shield
 
@@ -141,5 +141,5 @@
 
 阵营不符的生物在战斗中使用它时没有任何加值。阵营相符者使用时，它变为 <strong>+3</strong> 剑，每轮总是最后出手；但凡在同一轮较早攻击过持有者的敌人，无论是否命中，都会被它<strong>必然命中并造成伤害</strong>，次数不超过持有者每轮可进行的攻击次数。由于它只有 +3，免疫 +3 以下武器的生物不会受伤。
 
-每把剑的剑柄上镶有一颗价值 <strong>10,00金币</strong>的宝石，九颗宝石类型各不相同，并有独特名称：<strong>回答者</strong>、<strong>回嘴者</strong>、<strong>结论者</strong>、<strong>最后妙语</strong>、<strong>反驳者</strong>、<strong>答复者</strong>、<strong>反击者</strong>、<strong>鞭笞者</strong>、<strong>喝止者</strong>。
+每把剑的剑柄上镶有一颗价值 <strong>10,000金币</strong>的宝石，九颗宝石类型各不相同，并有独特名称：<strong>回答者</strong>、<strong>回嘴者</strong>、<strong>结论者</strong>、<strong>最后妙语</strong>、<strong>反驳者</strong>、<strong>答复者</strong>、<strong>反击者</strong>、<strong>鞭笞者</strong>、<strong>喝止者</strong>。
 
