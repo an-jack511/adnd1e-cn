@@ -22,7 +22,7 @@
 | 灵能能力 | 无 |
 | 攻击／防御模式 | 无 |
 
-## 剑齿虎 Sabre-Tooth Tiger（Smilodon）
+## 剑齿虎 Sabre-Tooth TigerSmilodon
 
 | 项目 | 剑齿虎 |
 |---|---|

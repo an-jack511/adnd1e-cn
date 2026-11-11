@@ -22,20 +22,20 @@
 <h3>德鲁伊（牧师）表 I Druids (Clerics) Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用八面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,000</TD><TD>1</TD><TD>1</TD><TD>Aspirant／求道者</TD></TR>
-<TR><TD>2,001–4,000</TD><TD>2</TD><TD>2</TD><TD>Ovate／吟咏者</TD></TR>
-<TR><TD>4,001–7,500</TD><TD>3</TD><TD>3</TD><TD>Initiate of the 1st Circle／第一环入门者</TD></TR>
-<TR><TD>7,501–12,500</TD><TD>4</TD><TD>4</TD><TD>Initiate of the 2nd Circle／第二环入门者</TD></TR>
-<TR><TD>12,501–20,000</TD><TD>5</TD><TD>5</TD><TD>Initiate of the 3rd Circle／第三环入门者</TD></TR>
-<TR><TD>20,001–35,000</TD><TD>6</TD><TD>6</TD><TD>Initiate of the 4th Circle／第四环入门者</TD></TR>
-<TR><TD>35,001–60,000</TD><TD>7</TD><TD>7</TD><TD>Initiate of the 5th Circle／第五环入门者</TD></TR>
-<TR><TD>60,001–90,000</TD><TD>8</TD><TD>8</TD><TD>Initiate of the 6th Circle／第六环入门者</TD></TR>
-<TR><TD>90,001–125,000</TD><TD>9</TD><TD>9</TD><TD>Initiate of the 7th Circle／第七环入门者</TD></TR>
-<TR><TD>125,001–200,000</TD><TD>10</TD><TD>10</TD><TD>Initiate of the 8th Circle／第八环入门者</TD></TR>
-<TR><TD>200,001–300,000</TD><TD>11</TD><TD>11</TD><TD>Initiate of the 9th Circle／第九环入门者</TD></TR>
-<TR><TD>300,001–750,000</TD><TD>12</TD><TD>12</TD><TD>Druid／德鲁伊</TD></TR>
-<TR><TD>750,001–1,500,000</TD><TD>13</TD><TD>13</TD><TD>Archdruid／大德鲁伊</TD></TR>
-<TR><TD>1,500,001</TD><TD>14</TD><TD>14</TD><TD>The Great Druid／最高德鲁伊</TD></TR>
+<TR><TD>0–2,000</TD><TD>1</TD><TD>1</TD><TD>求道者／Aspirant</TD></TR>
+<TR><TD>2,001–4,000</TD><TD>2</TD><TD>2</TD><TD>吟咏者／Ovate</TD></TR>
+<TR><TD>4,001–7,500</TD><TD>3</TD><TD>3</TD><TD>第一环入门者／Initiate of the 1st Circle</TD></TR>
+<TR><TD>7,501–12,500</TD><TD>4</TD><TD>4</TD><TD>第二环入门者／Initiate of the 2nd Circle</TD></TR>
+<TR><TD>12,501–20,000</TD><TD>5</TD><TD>5</TD><TD>第三环入门者／Initiate of the 3rd Circle</TD></TR>
+<TR><TD>20,001–35,000</TD><TD>6</TD><TD>6</TD><TD>第四环入门者／Initiate of the 4th Circle</TD></TR>
+<TR><TD>35,001–60,000</TD><TD>7</TD><TD>7</TD><TD>第五环入门者／Initiate of the 5th Circle</TD></TR>
+<TR><TD>60,001–90,000</TD><TD>8</TD><TD>8</TD><TD>第六环入门者／Initiate of the 6th Circle</TD></TR>
+<TR><TD>90,001–125,000</TD><TD>9</TD><TD>9</TD><TD>第七环入门者／Initiate of the 7th Circle</TD></TR>
+<TR><TD>125,001–200,000</TD><TD>10</TD><TD>10</TD><TD>第八环入门者／Initiate of the 8th Circle</TD></TR>
+<TR><TD>200,001–300,000</TD><TD>11</TD><TD>11</TD><TD>第九环入门者／Initiate of the 9th Circle</TD></TR>
+<TR><TD>300,001–750,000</TD><TD>12</TD><TD>12</TD><TD>德鲁伊／Druid</TD></TR>
+<TR><TD>750,001–1,500,000</TD><TD>13</TD><TD>13</TD><TD>大德鲁伊／Archdruid</TD></TR>
+<TR><TD>1,500,001</TD><TD>14</TD><TD>14</TD><TD>最高德鲁伊／The Great Druid</TD></TR>
 </TABLE>
 <h3>各等级德鲁伊（牧师）可用法术 Spells Usable By Class And Level—Druids (Clerics)</h3>
 <TABLE>

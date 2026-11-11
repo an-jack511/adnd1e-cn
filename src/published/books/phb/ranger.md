@@ -26,18 +26,18 @@
 <h3>巡林客（战士）表 I Rangers (Fighters) Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用八面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,250</TD><TD>1</TD><TD>2</TD><TD>Runner／奔行者</TD></TR>
-<TR><TD>2,251–4,500</TD><TD>2</TD><TD>3</TD><TD>Strider／行者</TD></TR>
-<TR><TD>4,501–10,000</TD><TD>3</TD><TD>4</TD><TD>Scout／斥候</TD></TR>
-<TR><TD>10,001–20,000</TD><TD>4</TD><TD>5</TD><TD>Courser／驰行者</TD></TR>
-<TR><TD>20,001–40,000</TD><TD>5</TD><TD>6</TD><TD>Tracker／追踪者</TD></TR>
-<TR><TD>40,001–90,000</TD><TD>6</TD><TD>7</TD><TD>Guide／向导</TD></TR>
-<TR><TD>90,001–150,000</TD><TD>7</TD><TD>8</TD><TD>Pathfinder／寻路者</TD></TR>
-<TR><TD>150,001–225,000</TD><TD>8</TD><TD>9</TD><TD>Ranger／巡林客</TD></TR>
-<TR><TD>225,001–325,000</TD><TD>9</TD><TD>10</TD><TD>Ranger Knight／巡林骑士</TD></TR>
-<TR><TD>325,001–650,000</TD><TD>10</TD><TD>11</TD><TD>Ranger Lord／巡林领主</TD></TR>
-<TR><TD>650,001–975,000</TD><TD>11</TD><TD>11+2</TD><TD>Ranger Lord (11th level)／巡林领主（第11级）</TD></TR>
-<TR><TD>975,001–1,300,000</TD><TD>12</TD><TD>11+4</TD><TD>Ranger Lord (12th level)／巡林领主（第12级）</TD></TR>
+<TR><TD>0–2,250</TD><TD>1</TD><TD>2</TD><TD>奔行者／Runner</TD></TR>
+<TR><TD>2,251–4,500</TD><TD>2</TD><TD>3</TD><TD>行者／Strider</TD></TR>
+<TR><TD>4,501–10,000</TD><TD>3</TD><TD>4</TD><TD>斥候／Scout</TD></TR>
+<TR><TD>10,001–20,000</TD><TD>4</TD><TD>5</TD><TD>驰行者／Courser</TD></TR>
+<TR><TD>20,001–40,000</TD><TD>5</TD><TD>6</TD><TD>追踪者／Tracker</TD></TR>
+<TR><TD>40,001–90,000</TD><TD>6</TD><TD>7</TD><TD>向导／Guide</TD></TR>
+<TR><TD>90,001–150,000</TD><TD>7</TD><TD>8</TD><TD>寻路者／Pathfinder</TD></TR>
+<TR><TD>150,001–225,000</TD><TD>8</TD><TD>9</TD><TD>巡林客／Ranger</TD></TR>
+<TR><TD>225,001–325,000</TD><TD>9</TD><TD>10</TD><TD>巡林骑士／Ranger Knight</TD></TR>
+<TR><TD>325,001–650,000</TD><TD>10</TD><TD>11</TD><TD>巡林领主／Ranger Lord</TD></TR>
+<TR><TD>650,001–975,000</TD><TD>11</TD><TD>11+2</TD><TD>巡林领主（第11级）／Ranger Lord (11th level)</TD></TR>
+<TR><TD>975,001–1,300,000</TD><TD>12</TD><TD>11+4</TD><TD>巡林领主（第12级）／Ranger Lord (12th level)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 12 级以后，每升一级另需 325,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 10 级以后，巡林客每级增加 2 点生命值。</FONT></P>

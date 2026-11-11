@@ -2,7 +2,7 @@
 
 奥斯珀秃顶，胡子和浓密眉毛已经变白；他戴着许多戒指，其中一些可能是魔法物品。
 
-## 佩伦德拉 Perendra（Per-EN-drah）
+## 佩伦德拉 Perendra Per-EN-drah
 
 <strong>据点：</strong>沃恩拉尔。<strong>6 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与泰莫拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -14,13 +14,13 @@
 
 佩伦德拉据说拥有飞弹项链、隐身戒指和某种魔杖，并正在研究制造一种新的魔杖。内海地区只有少数几个人知道她完整的背景。
 
-## 皮尔盖伦 Piergeiron（Peer-GEER-on）
+## 皮尔盖伦 Piergeiron Peer-GEER-on
 
 <strong>绰号：</strong>“圣骑士之子”。<strong>头衔：</strong>深水城领主。<strong>据点：</strong>深水城。<strong>14 级圣武士。</strong>阵营／信仰：<strong>守序善良，提尔。</strong>种族／性别：<strong>人类男性。</strong>
 
 皮尔盖伦是深水城唯一一个身份为所有人所知的领主。他以才干和不偏不倚的正义治理这个大港口城市，因此赢得了大多数居民与访客的尊敬。关于“圣骑士之子”的更多资料见《FR1：深水城与北方》；他的父亲是著名的阿萨尔“闪耀骑士”、“提尔之臂”。
 
-## 莱伦 Rairun（RARE-unn）
+## 莱伦 Rairun RARE-unn
 
 <strong>绰号：</strong>黑眉莱伦（Rairun）。<strong>据点：</strong>内海地区游荡。<strong>7 级德鲁伊。</strong>阵营／信仰：<strong>中立，西凡纳斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -40,7 +40,7 @@
 
 他身材中等，留着长棕发，相貌英俊，是一名出色的歌者和音乐家。
 
-## 拉森·森特拉弗 Rathan Thentraver（RATH-an THEN-traver）
+## 拉森·森特拉弗 Rathan Thentraver RATH-an THEN-traver
 
 <strong>据点：</strong>谷地诸国游荡。<strong>5 级牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -50,7 +50,7 @@
 
 他使用一枚在与泽恩塔林邪恶法师的激烈战斗中获得的冲击戒指，也使用更常见的牧师武器。拉森精通缓慢呼吸、耐力和真菌辨认；自从成为冒险者以来，他在女士的侍奉中迅速晋升。
 
-## 朗泰德斯 Rhauntides（RAWN-tides）
+## 朗泰德斯 Rhauntides RAWN-tides
 
 <strong>据点：</strong>深谷地。<strong>头衔：</strong>贤者。<strong>12 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -60,7 +60,7 @@
 
 如今冒险者会把找到的法术书带给他，因为他们知道他愿意为任何魔法书付出高价。他的财富及其防护方式无人知晓，但肯定相当可观，而且众所周知他拥有许多强大的魔法物品。觊觎者还应知道，他至少已经摧毁了十六名（很可能更多）强大法师和冒险队；这些人曾来到他的塔，企图替他取走那些“麻烦的财物”。
 
-## 塞蒙 Sememmon（SEH-mem-on）
+## 塞蒙 Sememmon SEH-mem-on
 
 <strong>据点：</strong>黑堡。<strong>12 级魔法师。</strong>阵营／信仰：<strong>守序邪恶，密斯特拉与班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -68,7 +68,7 @@
 
 塞蒙拥有许多魔法物品、许多安全住所和许多策略。他总在计划和策划，是一个可怕的敌人。在他的指挥下，黑堡布满陷阱和魔法防御。他极少离开黑堡，除非伪装起来去学习某些他自己不敢或不愿交给手下的事情（例如窥探曼松的行动）。他的私人徽记是一枚黑色等边三角形，底边被一个椭圆环绕。
 
-## 谢尔·安卡萨 Shaerl Amcathra（SHAY-erl AM-CATH-rah）
+## 谢尔·安卡萨 Shaerl Amcathra SHAY-erl AM-CATH-rah
 
 <strong>头衔：</strong>暗影谷夫人。<strong>6 级盗贼。</strong>阵营／信仰：<strong>守序中立，马斯克。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -78,7 +78,7 @@
 
 托姆多尔对谢尔十分满意，她在科米尔受到欢迎。她的父母不太了解她的成就，但很高兴她属于某个统治阶级，也很高兴她曾在亚桑的侍奉中扮演过重要角色，因为这增强了家族的声望。
 
-## 莎兰蒂尔 Sharantyr（SHAR-an-teer）
+## 莎兰蒂尔 Sharantyr SHAR-an-teer
 
 <strong>据点：</strong>谷地诸国游荡。<strong>2 级巡林客。</strong>阵营／信仰：<strong>混乱善良，梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -90,7 +90,7 @@
 
 莎兰蒂尔是熟练的骑手和游泳者，耐力高于平均水平，偏爱长剑或双手剑战斗。
 
-## 肖妮尔·萨姆 Shaunil Tharm（SHAW-nil Tharm）
+## 肖妮尔·萨姆 Shaunil Tharm SHAW-nil Tharm
 
 <strong>据点：</strong>深谷地。<strong>7 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -114,7 +114,7 @@
 
 暴风是巡林客多芙、银月城的阿露丝翠和已故女巫希伦的姐妹。她拥有一把 +1 幸运剑（还剩一次愿望），但如今已基本退休。她的长期伙伴马克桑最近被恶魔毁灭，暴风也不再进行过去与他共同享受的大胆、狂野冒险。
 
-## 桑德斯·戈希尔 Sundeth Gossyl（SUN-deth GAW-sill）
+## 桑德斯·戈希尔 Sundeth Gossyl SUN-deth GAW-sill
 
 <strong>生卒：</strong>1339–1356。<strong>据点：</strong>桑比亚。<strong>7 级牧师。</strong>阵营／信仰：<strong>混乱善良，泰莫拉。</strong>种族／性别：<strong>精灵女性。</strong>
 
@@ -122,7 +122,7 @@
 
 桑德斯最终死在乌鸦堡垒的城垛上，她在那里与一条袭击城市的失控飞龙战斗，救了许多人的性命。城垛重建时，她被安葬在“桑德斯之塔”中。月海地区的旅人有时会把那些帮助道路旅行者的人称作“桑德斯的……”（原书此处承接下一段）。
 
-## 希伦 Sylune（Sill-OO-nay）
+## 希伦 Sylune Sill-OO-nay
 
 <strong>身份：</strong>暗影谷女巫与夫人。<strong>生卒：</strong>1202–1356，虫年死亡。<strong>22 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -132,7 +132,7 @@
 
 希伦被龙之教团控制的一条巨大太古红龙杀死；她在自己消亡时杀死了巨龙，以魔法杖进行报复性打击。
 
-## 泰米·达里姆 Temmi Dharimm（TEHM-ee DARR-imm）
+## 泰米·达里姆 Temmi Dharimm TEHM-ee DARR-imm
 
 <strong>据点：</strong>精灵森林。<strong>5 级战士。</strong>阵营／信仰：<strong>中立邪恶，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -140,7 +140,7 @@
 
 泰米悄悄搬进希尔斯法尔附近的精灵森林，作为奴隶贩子活动，把抓到的人卖给散提尔堡代理人，由后者用有遮盖的马车向北运走。他的行动极其谨慎：被抓到的人类和半人类会被铐住、堵嘴、蒙眼，然后用套在喉部的项圈锁在奴隶车上，或者锁在一根长木上，由一群奴隶抬走。
 
-## 萨格达尔 Thagdal（THAHG-dal）
+## 萨格达尔 Thagdal THAHG-dal
 
 <strong>据点：</strong>迷斯卓诺游荡。<strong>9 级魔法师。</strong>阵营／信仰：<strong>中立邪恶，班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -148,7 +148,7 @@
 
 据说萨格达尔目前正在探索迷斯卓诺，带着许多武装人员，专门杀死在森林中遇到的所有非泽恩塔林成员。
 
-## 森蒂亚斯 Thentias（THEW-tie-ass）
+## 森蒂亚斯 Thentias THEW-tie-ass
 
 <strong>绰号：</strong>科米尔、桑比亚和谷地诸国的“奇才”。<strong>据点：</strong>科米尔。<strong>5 级高级牧师。</strong>阵营／信仰：<strong>中立善良，泰莫拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -166,7 +166,7 @@
 
 瑟布兰德顽固而勇敢，曾多次进入石地，逐渐积攒财富，成为老练而有经验的战士。他如今仍保持训练，偶尔受雇保护商队；但他正等待泽恩塔林的力量被打破，好在荒地建立自己的据点。据说他知道石地每一座山谷和每一座墓穴，其中包括大约半打废弃的地下城市和……（原书此处承接下一页）。
 
-## 瑟洛克 Thurlock（THUR-lock）
+## 瑟洛克 Thurlock THUR-lock
 
 <strong>绰号：</strong>瑟洛克先知。<strong>据点：</strong>希尔斯法尔。<strong>10 级魔法师。</strong>阵营／信仰：<strong>中立，欧格玛。</strong>种族／性别：<strong>人类女性。</strong>
 

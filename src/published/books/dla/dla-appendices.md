@@ -1,6 +1,6 @@
 ## 第 115 页
 
-## 安萨隆统一怪物图表（Unified Ansalon Monster Chart）
+## 安萨隆统一怪物图表 Unified Ansalon Monster Chart
 
 <strong>插图记录：</strong>页眉有附录长矛装饰图样；本页为完整的安萨隆统一怪物表，原书表格底纹、列标题和出处脚注均已转录。
 
@@ -47,7 +47,7 @@
 
 ## 第 116 页
 
-## 安萨隆统一怪物图表（Unified Ansalon Monster Chart）
+## 安萨隆统一怪物图表 Unified Ansalon Monster Chart
 
 <strong>插图记录：</strong>页眉有附录长矛装饰图样；本页承接统一怪物表，原书表格底纹、列标题和出处脚注均已转录。
 
@@ -900,19 +900,19 @@
 
 以下法术列表中，第一项是略写的法术名称，第二项是法术环级与魔法类型：`C` = 牧师，`D` = 德鲁伊，`I` = 幻术师，`M` = 魔法师。组合学派法术的括号内列出涉及的另一种法术类型：`A` = 变化，`Ab` = 防护，`C` = 咒法，`Ch` = 魅惑，`D` = 卜测，`E` = 力场，`En` = 惑控，`I` = 秘法，`Il` = 幻术，`N` = 死灵，`P` = 幻象，`S` = 召唤。
 
-### 咒法／召唤（Conjuration/Summoning）
+### 咒法／召唤 Conjuration/Summoning
 
 蜜蜂（PC，仅 S）；蓝光（PC，仅 C）；虫（PC，仅 S）；蚋（PC，仅 S）；老鼠（PC，仅 S）；蜘蛛（PC，仅 S）；小修（PC，仅 C）；解锁（PC，仅 C）；护甲（1M，仅 C）；召唤（5M，逆转／回避）；卡科恶魔（7M）；咒唤元素（5M）；死亡术（6M）；卓姆吉的即时召唤（卓姆吉）（7M）；附魔物品（6M）；诱捕（6M）；埃瓦德的黑触手（4M）；寻找魔宠（1M）；火焰箭（3M）；门（9M）；隐形追踪者（6M）；李奥蒙德的箱子（5M，Ab）；有限许愿术（7M）；魔法罐（5M）；物质（3M，C & E）；迷宫（8M）；召唤怪物（3M）；召唤怪物（4M）；召唤怪物（5M）；召唤怪物（6M）；召唤怪物（7M）；召唤怪物（8M）；召唤怪物（9M）；魔邓肯的猎犬（魔邓肯）（5M）；魔邓肯豪宅术（7M）；坐骑（1M）；致盲言语（8M）；死亡言语（9M）；沉默言语（7M）；虹光法球（9M，Ab）；推（1M）；闪光蛇徽记（3M）；徽记（8M）；灵魂陷阱（8M）；隐形仆役（1M）；祈愿（9M）；改变现实（7I，Il/P）；咒唤兽群（6I）；迷宫（5I）；棱彩喷射（7I，Ab）；棱彩墙（7I，Ab）；召唤阴影（5I）。
 
-### 秘法／力场（Invocation/Evocation）
+### 秘法／力场 Invocation/Evocation
 
 打嗝（PA）；闪现（PA）；寒冷（UC）；色彩（UC）；咳嗽（PA）；减弱（UC）；污秽（RC）；尘土（RC）；点头（PA）；盐（UC）；抓痕（PA）；酸（RC）；喷嚏（PA）；香料（UC）；变甜（UC）；抽动（PA）；温暖（UC）；哈欠（PA）；怪异术（7I，Il/P）；发出标准火焰（1M）；水中呼吸（5M）；动物成长（5M）；回避术（5M，Ab）；束缚（2M，En）；闪现（3M）；燃烧之手（1M）；云爆术（3M）；巧言术（1M）；恒定光亮（2M）；操控天气（6M）；晶化术（9M）；舞光术（1M）；半径 15 英尺黑暗（2M，En）；深袋术（2M，En）；任意门（4M）；解离术（6M）；距离扭曲（5M）；二重维度（7M）；附魔武器（4M）；放大（1M）；抹除（1M）；爆炸符文（3M）；延展术（4M）；延展术（5M）；延展术（6M）；鬼斧神工（5M，En）；羽落术（1M）；火焰护盾（4M，E）；火焰水（1M）；炽焰法球（2M，E）；飞行（3M）；黄金幻觉（2M）；玻璃化（6M）；玻璃钢（8M）；铜墙铁壁（6M，E & En/Ch）；造风术（3M）；加速术（3M）；闭门术（1M）；焚云术（8M，E）；红外视觉（3M）；刺激（2M）；物品（3M）；跳跃（1M）；敲击术（2M）；李奥蒙德的箱子（5M，C/S）；李奥蒙德的小屋（3M）；李奥蒙德的避难所（4M，En）；悬浮术（2M）；光（1M）；降水术（6M）；魔嘴（2M）；梅尔夫的流星（3M，E）；熔化（1M）；修复术（1M）；传讯术（1M）；魔邓肯的解离术（9M，En）；魔邓肯豪宅术（7M，C）；地动术（6M）；欧提路克的冻寒球 欧提路克（6M，E）；欧提路克的抗性球（4M，E）；欧提路克的传送球（8M，E）；分水术（6M）；穿墙术（5M）；恒久术（8M）；植物成长（4M）；相位门（7M）；任意物变形（8M）；他塑形术（4M）；自塑形术（4M）；投影术（6M，Il/P）；降水（1M）；烟火术（2M）；拉瑞的记忆增强 拉瑞（4M）；反重力（7M）；魔绳术（2M）；塞尔腾的法术免疫（8M）；秘密页（3M）；变形术（9M）；粉碎音波（2M）；电爪（1M）；沉没（8M，En）；缓慢（3M）；蜘蛛攀爬（1M）；雕像术（7M）；石塑术（5M）；化石为肉（6M）；石肤术（4M）；力量（2M）；召唤援助（9M，En）；心灵遥控（5M）；传送术（5M）；时间停滞（9M）；谭森的变身 谭森（6M，E）；时间停止（9M）；语言（3M）；岩石化泥（5M）；水化尘（6M）；真名术（7M，En）；超视觉（4M）；消失（7M）；发声（2M）；水下呼吸（3M）；御风而行（3M）；巫师之眼（4M）；巫师印记（1M）；巫师锁（2M）。
 
-### 惑控／魅惑（Enchantment/Charm）
+### 惑控／魅惑 Enchantment/Charm
 
 吱嘎（HC）；凝结（RC）；分心（LC）；调味（UC）；变鲜（UC）；烟雾喷吐（PC）；轻敲（HC）；口哨（HC）；枯萎（RC）；眨眼（PAC）；反感／同感（8M）；束缚（2M，En & A）；禁锢（8M，En & E）；魅惑怪物（4M）；魅惑人类（1M）；魅惑植物（7M）；困惑术（4M）；深袋术（2M，En & A）；要求（8M，En/Ch & E）；痛苦（4M）；邪眼（5M，En/Charm & Il/P）；鬼斧神工（5M，En & A）；弱智术（5M）；火焰魅惑（4M）；遗忘（2M）；友谊（1M）；笨拙（4M）；支配（5M）；铜墙铁壁（5M，En/Ch & A, E）；怪物定身术（5M）；人类定身术（3M）；李奥蒙德的魔法床（5M，E）；李奥蒙德的避难所（4M，En & A）；魔镜（4M，En & Conjuration）；群体魅惑（8M）；魔邓肯的解离术（9M，En & A）；欧提路克的恼人舞（8M）；削弱射线（2M）；符文（1M，仅 En）；恐吓（2M）；沉没（8M，En & A）；睡眠（1M）；召唤援助（9M，En & A）；暗示术（3M）；嘲弄（1M，仅 En）；真名术（7M，En & A）；混沌（5I）；困惑术（4I）；情绪（4I）；催眠术（1I）；魔镜（5I，En & D）；群体暗示术（6I）；行影术（7I，En & Il）；暗示术（3I）。
 
-### 变化（Alteration）
+### 变化 Alteration
 
 改变（1C）；火指（PC）；聚集（UC）；毛发（RC）；结（RC）；噤声（LC）；抛光（UC）；礼物（LC）；拆散（RC）；发光（UC）；泼洒（RC）；萌发（UC）；缝合（UC）；纠缠（RC）；失去光泽（RC）；系紧（UC）；解开（RC）；包裹（UC）。
 
@@ -920,7 +920,7 @@
 
 彩色光（MIC）；昏暗（MIC）；薄雾（MIC）；彩虹（MIC）；彩色宝珠（1I，E）；色彩喷射（1I）；持续黑暗（3I）；恒定光亮（3I）；舞光术（1I）；黑暗（1I）；死亡迷雾（6I，E）；欺骗（3I）；梦（5I，Il/P）；云雾（2I）；反射凝视（1I）；光（1I）；魔嘴（2I）；大型鬼斧神工（5I）；次级鬼斧神工（4I）；幻影护甲（1I，Il）；幻影之风（3I，P）；投影术（5I，Il/P）；彩虹图案（4I，P）；魔绳术（3I）；固态雾（4I）；超视觉（2I）；空缺（4I，P）；雾墙（1I）；幽灵形态（3I，Il）；风讯术（2I，P）。
 
-### 死灵与卜测（Necromantic / Divination）
+### 死灵与卜测 Necromantic / Divination
 
 活化死尸 Animate Dead（5M）；克隆 Clone（8M）；假死 Feign Death（3M）；转生术 Reincarnate（6M）。
 
@@ -932,15 +932,15 @@
 
 ## 法术摘要（印刷第 127 页）
 
-### 变化（Alteration）
+### 变化 Alteration
 
 降水术 Lower Water（6M）；魔嘴 Magic Mouth（2M）；梅尔夫的流星 Melf's Meteors（3M，E）；熔化 Melt（1M）；修复术 Mending（1M）；传讯术 Message（1M）；魔邓肯的解离术 魔邓肯的 Disjunction（9M，En）；魔邓肯豪宅术 魔邓肯的 Magnificent Mansion（7M，C）；地动术 Move Earth（6M）；欧提路克的冻寒球 欧提路克的 Freezing Sphere（6M，E）；欧提路克的抗性球 欧提路克的 Resilient Sphere（4M，E）；欧提路克的传送球 欧提路克的 Telekinetic Sphere（8M，E）；分水术 Part Water（6M）；穿墙术 Passwall（5M）；恒久术 Permanency（8M）；植物成长 Plant Growth（4M）；相位门 Phase Door（7M）；任意物变形 Polymorph Any Object（8M）；他塑形术 Polymorph Other（4M）；自塑形术 Polymorph Self（4M）；投影术 Project Image（6M，Il/P）；降水 Precipitation（1M）；烟火术 Pyrotechnics（2M）；拉瑞的记忆增强 拉瑞的 Mnemonic Enhancer（4M）；反重力 Reverse Gravity（7M）；魔绳术 Rope Trick（2M）；塞尔腾的法术免疫 Serten's Spell Immunity（8M）；秘密页 Secret Page（3M）；变形术 Shape Change（9M）；粉碎音波 Shatter（2M）；电爪 Shocking Grasp（1M）；沉没 Sink（8M，En）；缓慢 Slow（3M）；蜘蛛攀爬 Spider Climb（1M）；雕像术 Statue（7M）；石塑术 Stone Shape（5M）；化石为肉 Stone to Flesh（6M）；石肤术 Stoneskin（4M）；力量 Strength（2M）；召唤援助 Succor（9M，En）；心灵遥控 Telekinesis（5M）；传送术 Teleport（5M）；时间停滞 Temporal Stasis（9M）；谭森的变身 谭森的 Transformation（6M，E）；时间停止 Time Stop（9M）；语言 Tongues（3M）；岩石化泥 Transmute Rock/Mud（5M）；水化尘 Transmute Water/Dust（6M）；真名术 Truename（7M，En）；超视觉 Ultravision（4M）；消失 Vanish（7M）；发声 Vocalize（2M）；水下呼吸 Water Breathing（3M）；御风而行 Wind Walk（3M）；巫师之眼 Wizard Eye（4M）；巫师印记 Wizard Mark（1M）；巫师锁 Wizard Lock（2M）。
 
-### 幻术／幻象（Illusion/Phantasms）
+### 幻术／幻象 Illusion/Phantasms
 
 脚步声（HC，仅 Il）；呻吟（HC，仅 Il）；隐藏（LC，仅 Il）；呻吟（HC，仅 Il）；掌中戏法（LC，仅 Il）；杂响（HC，仅 Il）；砰响（HC，仅 Il）；声音幻象（2M）；邪眼（6M，En/Ch）；恐惧（4M）；幻觉地形（4M）；隐形（2M）；半径 10 英尺隐形（3M）；李奥蒙德的陷阱（2M）；群体隐形（7M）；群体变树术（4M）；镜像（2M）；奈斯图的魔法灵光 涅斯图（1M）；魅影之力（3M）；投影术（6M，A）；隐匿（7M，Ab）；拟像（7M）；腹语术（1M）；面具（MIC，仅 Il）；海市蜃楼（MIC，仅 Il）；噪声（MIC，仅 Il）；二维幻象（MIC，仅 Il）；高级幻术（5I）；改变现实（7I，C/S）；变身术（2I，仅 Il & A）；声音幻象（1I）；失明（2I）；朦胧术（2I）；改变外貌（1I）；失聪（2I）；半影怪（5I）；半影魔法（6I）；驱散疲劳（4I）；迷魂（2I）；恐惧（3I）；幻觉地形（3I）；催眠图案（2I）；幻术文书（3I）；强化隐形（4I）；强化魅影之力（2I）；半径 10 英尺隐形（3I）；梦（5I，A）；隐形（2I）；群体变树术（4I）；海市蜃楼（6I）；镜像（2I）；假象术（2I）；误导幻象（6I）；麻痹（3I）；永久幻术（6I）；幻景（6I）；魅影之力（1I）；幻影杀手（4I）；幻影护甲（1I，仅 Il & A）；魅影驹（3I，P & C）；幻影之风（3I，P & A）；程序幻术（6I）；投影术（5I，A）；彩虹图案（4I，P & A）；阴影（6I）；阴影之门（5I）；阴影魔法（5I）；阴影怪物（4I）；行影术（7I，Il & En）；幽灵之力（3I）；惊吓（1I）；时光飞逝（5I）；空缺（4I，P & A）；面纱（6I）；腹语术（2I）；怪异术（7I，E）；风讯术（2I，P & A）；幽灵形态（3I，Il & A）。
 
-### 防护（Abjurations）
+### 防护 Abjurations
 
 清洁 Clean（UC）；干燥 Dry（UC）；除尘 Dust（UC）；消灭 Exterminate（UC）；反魔法护罩 Anti-Magic Shell（6M）；回避术 Avoidance（5M，A）；驱逐术 Banishment（7M，E）；遣散 Dismissal（5M）；驱散幻术 Dispel Illusion（4M）；驱散魔法 Dispel Magic（3M）；法术无效结界 Globe of Invulnerability（6M）；监禁术 Imprisonment（9M）；心灵屏障 Mind Blank（8M）；小型法术无效结界 Minor Globe of Invulnerability（4M）；保存 Preserve（2M）；虹光法球 Prismatic Sphere（9M）；防护戏法 Prot/Cantrips（2M）；防护邪恶 Prot/Evil（1M）；半径 10 英尺防护邪恶 Prot/Evil 10' r.（3M）；防护普通飞弹 Prot/Normal Missiles（3M）；移除诅咒 Remove Curse（4M）；排斥术 Repulsion（6M）；灵魂锁 Spiritwrack（6M，E）；隐匿 Sequester（7M，Il/P）；齐射 Volley（7M）；驱散幻术 Dispel Illusion（3I）；驱散魔法 Dispel Magic（4I）；防侦测 Non-Detection（3I）；棱彩喷射 Prismatic Spray（7I，C/S）；棱彩墙 Prismatic Wall（7I，C/S）。
 

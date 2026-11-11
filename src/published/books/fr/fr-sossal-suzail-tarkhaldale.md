@@ -1,11 +1,11 @@
 
-## 索萨尔 SOSSAL（SAW-sall）
+## 索萨尔 SOSSAL SAW-sall
 
 ### 概览 AT A GLANCE
 
 在遥远北方、大冰川另一侧的是传奇王国索萨尔。这个偏远国家是索萨尔希姆人的家园；他们是一支非常高大、金发的民族，穿着白色衣物，能够隐藏在冰雪之间。没人知道，是他们本地萨满的强大魔法保留了大冰地区，还是那些魔法造成了大冰地区。
 
-## 苏巴尔 SOUBAR（SOO-bar）
+## 苏巴尔 SOUBAR SOO-bar
 
 ### 概览 AT A GLANCE
 
@@ -39,13 +39,13 @@
 
 立石上有某种附魔，会散发魔法。它无法被污损或破坏；污渍和刻痕都会在表面自行愈合。
 
-## 苏尔德 SURD（Serd）
+## 苏尔德 SURD Serd
 
 ### 概览 AT A GLANCE
 
 苏尔德是桑比亚的一座小型农业城镇（见“桑比亚”）。
 
-## 苏萨尔 SUZAIL（Soo-ZALE）
+## 苏萨尔 SUZAIL Soo-ZALE
 
 ### 概览 AT A GLANCE
 

@@ -9,7 +9,7 @@
 
 这个小社群主要以农耕与养马为生，目前没有高等级人物居住在此。
 
-## 梅尔沃特 MELVAUNT（MELL-vont）
+## 梅尔沃特 MELVAUNT MELL-vont
 
 ### 概览 AT A GLANCE
 

@@ -1,5 +1,5 @@
 
-## 拉乌林 RAURIN（ROAR-in）
+## 拉乌林 RAURIN ROAR-in
 
 ### 概览 AT A GLANCE
 
@@ -9,13 +9,13 @@
 
 和北方的埃诺奥克不同，拉乌林是一片被稀有绿洲与死去王国点缀的广阔沙海，也称尘埃沙漠与石头沙漠。据说伟大而强大的魔法王国曾经统治这片土地；它们的覆灭可能把人类推向内海地区和剑湾。那里究竟有什么，至今没有记录。
 
-## 雷丹瑟尔 REDDANSYR（Reh-DAHN-seer）
+## 雷丹瑟尔 REDDANSYR Reh-DAHN-seer
 
 ### 概览 AT A GLANCE
 
 雷丹瑟尔是一座位于泰齐尔与西门城之间的小镇，是向南出发的商队起点。
 
-## 塞尔伦 SAERLOON（Say-er-LOON）
+## 塞尔伦 SAERLOON Say-er-LOON
 
 ### 概览 AT A GLANCE
 
@@ -41,7 +41,7 @@
 
 因此，各驻军派系不断试探彼此的勇气与力量；他们之间的冲突已经超过酒馆斗殴与小规模战斗。拉山下落不明，未来仍可能回来主张自己的权利。
 
-## 斯科努贝尔 SCORNUBEL（SCOR-noo-bell）
+## 斯科努贝尔 SCORNUBEL SCOR-noo-bell
 
 ### 概览 AT A GLANCE
 

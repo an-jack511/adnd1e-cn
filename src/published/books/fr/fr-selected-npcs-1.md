@@ -29,13 +29,13 @@
 
 ## 著名人类
 
-### 艾洛斯 Ailoth（EVE-loth）
+### 艾洛斯 Ailoth EVE-loth
 
 <strong>据点：</strong>希尔斯法尔与桑比亚。<strong>6 级魔法师，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 艾洛斯是一个矮小、白发的法师，为泰伊红袍法师在桑比亚和希尔斯法尔搜集情报，同时充当放贷人和“救济品／损坏品”买家。他与红袍法师的关系在希尔斯法尔和桑比亚都广为人知。
 
-### 阿尔多弗斯 Aldolphus（aL-DOL-fuss）
+### 阿尔多弗斯 Aldolphus aL-DOL-fuss
 
 <strong>头衔：</strong>贤者。<strong>据点：</strong>科米尔的阿拉贝尔。<strong>0 级战士。</strong>阵营／信仰：<strong>守序中立，欧格玛。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -49,13 +49,13 @@
 
 阿洛克·雷是派驻在埃尔文·绿斗篷麾下的 20 名精灵长弓手的指挥官。她在战斗中使用双手剑。阿洛克宁愿离开这个世界，也不愿放弃长弓手指挥官的位置。
 
-### 阿尔泽贡德 Alzegund（AbL-zeh-gund）
+### 阿尔泽贡德 Alzegund AbL-zeh-gund
 
 <strong>据点：</strong>在科米尔、桑比亚和龙湾一带游荡。<strong>10 级魔法师，泰伊红袍法师。阵营／信仰：</strong>守序邪恶，科苏斯。<strong>种族／性别：</strong>人类男性。**
 
 这位年老、秃顶、身上带着战争伤疤的死灵法师，公开穿着胸前和背后都有红色火焰徽章的长袍，沿商路旅行时由一群红袍法师护卫。他据说拥有一个魔法戏法袋和一根闪电魔杖。
 
-### 阿萨格斯 Arthagus（Are-THAY-gus）
+### 阿萨格斯 Arthagus Are-THAY-gus
 
 <strong>绰号：</strong>“奇迹之阿萨格斯”。<strong>据点：</strong>桑比亚的尤昂。<strong>7 级幻术师。</strong>阵营／信仰：<strong>混乱中立，莱拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -63,13 +63,13 @@
 
 阿萨格斯拥有许多小型魔法物品，尤其是防护性质的物品；其中最不寻常的或许是他那件与特泽尔南岸有关的物品。
 
-### 阿斯布拉斯·赫鲁明 Asbras Hlumin（AZZ-brazz Huh-LOO-min）
+### 阿斯布拉斯·赫鲁明 Asbras Hlumin AZZ-brazz Huh-LOO-min
 
 <strong>据点：</strong>在月海／龙湾游荡。<strong>6 级魔法师。</strong>所属：<strong>龙之教团。</strong>阵营／信仰：<strong>中立邪恶，并伪装成中立善良。</strong>种族／性别：<strong>人类男性。</strong>
 
 这个法师用魔法隐藏自己的阵营，并声称自己是中立善良。他愿意为在该地区活动的冒险队训练、施法，甚至短期加入他们，借机了解他们的一切，然后在某个危险地点背叛他们，希望他们被杀死；随后阿斯布拉斯会夺走冒险者的全部财宝，留下其中一部分给自己，把其余部分交给教团。
 
-### 奥贝鲁斯 Aubaerus（AWE-bare-us）
+### 奥贝鲁斯 Aubaerus AWE-bare-us
 
 <strong>绰号：</strong>鸦之主。<strong>据点：</strong>雷霆峰地区。<strong>16 级大德鲁伊。</strong>阵营／信仰：<strong>中立，西凡纳斯。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -77,13 +77,13 @@
 
 奥贝鲁斯大部分时间化作一只巨大的黑鸦，在龙湾一带飞行，因此知道该区域大多数群体和生物的动向；他似乎很喜欢乌鸦。他不是竖琴手成员（尽管两者的利益经常一致），也不属于其他组织或利益集团。奥贝鲁斯必定非常富有，因为他从不需要花钱或支付任何东西，多年来以德鲁伊训练费的形式收取了大量金币和魔法物品。
 
-### 阿扎拉 Azala（Ah-ZALE-ah）
+### 阿扎拉 Azala Ah-ZALE-ah
 
 <strong>绰号：</strong>火眼阿扎拉。<strong>据点：</strong>龙湖以南海岸的特泽尔。<strong>11 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类女性。</strong>
 
 阿扎拉与特泽尔政府关系密切，经常用魔法帮助守卫。她的青年时期是一段漫长而多彩的冒险生涯，其中包括参与杀死谭森尔巨虫。如今她住在特泽尔的一座塔中，大部分时间用于研究，以及制作小巧、有用而美丽的魔法物品。
 
-### 阿扎加莎·尼穆妮 Azargatha Nimune（Abhz-zar-GAH-tha Nih-MOON-nee）
+### 阿扎加莎·尼穆妮 Azargatha Nimune Abhz-zar-GAH-tha Nih-MOON-nee
 
 <strong>据点：</strong>深谷地。<strong>10 级魔法师。</strong>阵营／信仰：<strong>混乱善良，密斯特拉与梅莉凯。</strong>种族／性别：<strong>人类女性。</strong>
 
@@ -91,7 +91,7 @@
 
 她目前住在深谷地的高月，拥有一根强力魔杖（很可能是巫师法杖）。阿扎加莎在高月经营一家玩具店，出售自己和精灵王庭精灵制作的精雕木制玩具。
 
-### 亚桑四世 Azoun IV（Ah-ZOON）
+### 亚桑四世 Azoun IV Ah-ZOON
 
 <strong>绰号：</strong>“紫龙”，科米尔国王。<strong>据点：</strong>苏萨尔。<strong>20 级骑士。</strong>阵营／信仰：<strong>守序善良，提尔与坦帕斯。</strong>种族／性别：<strong>人类男性，生于 1282 年；1311 年起统治至今。</strong>
 
@@ -99,7 +99,7 @@
 
 亚桑的父亲是里加尔德二世，母亲是塔纳鲁斯塔·真银，姐妹是苏莱斯塔；他们如今都已去世。亚桑的统治大体和平。贡德加尔和疤谷的拉尚曾构成威胁，石地仍有持续的小规模冲突，但没有爆发大规模战争。科米尔最近吞并了提尔弗顿；不过亚桑似乎不打算继续扩张，而是希望让王国在传统边界内保持强大。他是一位公正的国王，既获得人民的爱，也得到人民的忠诚。
 
-### 博鲁斯汀 Borustine（BORE-uh-stine）
+### 博鲁斯汀 Borustine BORE-uh-stine
 
 <strong>据点：</strong>月海的希尔斯法尔。<strong>7 级魔法师。</strong>阵营／信仰：<strong>中立善良，密斯特拉。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -109,7 +109,7 @@
 
 博鲁斯汀支持马尔希尔推翻腐败议会并夺取权力；他的行动为马尔希尔的统治提供了许多合法性和持久力量。他继续担任马尔希尔的顾问，必要时也偶尔提供魔法援助。博鲁斯汀住在希尔斯法尔南端、城墙内、最靠东的城角附近一座塔中，可以望见树林。
 
-### 布兰登 Brandon（BRAHN-don）
+### 布兰登 Brandon BRAHN-don
 
 <strong>绰号：</strong>“战斗大师”。<strong>据点：</strong>游荡，基地在普里亚普尔。<strong>6 级战士。</strong>阵营／信仰：<strong>混乱中立，坦帕斯。</strong>种族／性别：<strong>人类男性。</strong>
 

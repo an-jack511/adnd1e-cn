@@ -11,17 +11,17 @@
 <h3>圣武士（战士）表 I Paladins (Fighters) Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用十面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,750</TD><TD>1</TD><TD>1</TD><TD>Gallant／勇士</TD></TR>
-<TR><TD>2,751–5,500</TD><TD>2</TD><TD>2</TD><TD>Keeper／守护者</TD></TR>
-<TR><TD>5,501–12,000</TD><TD>3</TD><TD>3</TD><TD>Protector／保护者</TD></TR>
-<TR><TD>12,001–24,000</TD><TD>4</TD><TD>4</TD><TD>Defender／防卫者</TD></TR>
-<TR><TD>24,001–45,000</TD><TD>5</TD><TD>5</TD><TD>Warder／卫士</TD></TR>
-<TR><TD>45,001–95,000</TD><TD>6</TD><TD>6</TD><TD>Guardian／卫护者</TD></TR>
-<TR><TD>95,001–175,000</TD><TD>7</TD><TD>7</TD><TD>Chevalier／骑士</TD></TR>
-<TR><TD>175,001–350,000</TD><TD>8</TD><TD>8</TD><TD>Justiciar／执法官</TD></TR>
-<TR><TD>350,001–700,000</TD><TD>9</TD><TD>9</TD><TD>Paladin／圣武士</TD></TR>
-<TR><TD>700,001–1,050,000</TD><TD>10</TD><TD>9+3</TD><TD>Paladin (10th level)／圣武士（第10级）</TD></TR>
-<TR><TD>1,050,001–1,400,000</TD><TD>11</TD><TD>9+6</TD><TD>Paladin (11th level, etc.)／圣武士（第11级，依此类推）</TD></TR>
+<TR><TD>0–2,750</TD><TD>1</TD><TD>1</TD><TD>勇士／Gallant</TD></TR>
+<TR><TD>2,751–5,500</TD><TD>2</TD><TD>2</TD><TD>守护者／Keeper</TD></TR>
+<TR><TD>5,501–12,000</TD><TD>3</TD><TD>3</TD><TD>保护者／Protector</TD></TR>
+<TR><TD>12,001–24,000</TD><TD>4</TD><TD>4</TD><TD>防卫者／Defender</TD></TR>
+<TR><TD>24,001–45,000</TD><TD>5</TD><TD>5</TD><TD>卫士／Warder</TD></TR>
+<TR><TD>45,001–95,000</TD><TD>6</TD><TD>6</TD><TD>卫护者／Guardian</TD></TR>
+<TR><TD>95,001–175,000</TD><TD>7</TD><TD>7</TD><TD>骑士／Chevalier</TD></TR>
+<TR><TD>175,001–350,000</TD><TD>8</TD><TD>8</TD><TD>执法官／Justiciar</TD></TR>
+<TR><TD>350,001–700,000</TD><TD>9</TD><TD>9</TD><TD>圣武士／Paladin</TD></TR>
+<TR><TD>700,001–1,050,000</TD><TD>10</TD><TD>9+3</TD><TD>圣武士（第10级）／Paladin (10th level)</TD></TR>
+<TR><TD>1,050,001–1,400,000</TD><TD>11</TD><TD>9+6</TD><TD>圣武士（第11级，依此类推）／Paladin (11th level, etc.)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 11 级以后，每升一级另需 350,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 9 级以后，圣武士每级增加 3 点生命值。</FONT></P>
@@ -45,15 +45,15 @@
 <h3>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
 <TABLE>
 <TR><TH>等级</TH><TH>每轮近战攻击次数*</TH></TR>
-<TR><TD>Fighter 1–6／战士1–6</TD><TD>每轮1次</TD></TR>
-<TR><TD>Paladin 1–6／圣武士1–6</TD><TD>每轮1次</TD></TR>
-<TR><TD>Ranger 1–7／巡林客1–7</TD><TD>每轮1次</TD></TR>
-<TR><TD>Fighter 7–12／战士7–12</TD><TD>每两轮3次</TD></TR>
-<TR><TD>Paladin 7–12／圣武士7–12</TD><TD>每两轮3次</TD></TR>
-<TR><TD>Ranger 8–14／巡林客8–14</TD><TD>每两轮3次</TD></TR>
-<TR><TD>Fighter 13 &amp; up／战士13级以上</TD><TD>每轮2次</TD></TR>
-<TR><TD>Paladin 13 &amp; up／圣武士13级以上</TD><TD>每轮2次</TD></TR>
-<TR><TD>Ranger 15 &amp; up／巡林客15级以上</TD><TD>每轮2次</TD></TR>
+<TR><TD>战士 1–6／Fighter 1–6</TD><TD>每轮1次</TD></TR>
+<TR><TD>圣武士 1–6／Paladin 1–6</TD><TD>每轮1次</TD></TR>
+<TR><TD>巡林客 1–7／Ranger 1–7</TD><TD>每轮1次</TD></TR>
+<TR><TD>战士 7–12／Fighter 7–12</TD><TD>每两轮3次</TD></TR>
+<TR><TD>圣武士 7–12／Paladin 7–12</TD><TD>每两轮3次</TD></TR>
+<TR><TD>巡林客 8–14／Ranger 8–14</TD><TD>每两轮3次</TD></TR>
+<TR><TD>战士 13 级以上／Fighter 13 &amp; up</TD><TD>每轮2次</TD></TR>
+<TR><TD>圣武士 13 级以上／Paladin 13 &amp; up</TD><TD>每轮2次</TD></TR>
+<TR><TD>巡林客 15 级以上／Ranger 15 &amp; up</TD><TD>每轮2次</TD></TR>
 </TABLE>
 <P><FONT color=#808080>*使用任何刺击或打击武器时。</FONT></P>
 <P><FONT color=#808080>注意：此表不适用于与生命骰不足 1 枚（d8）的怪物（见相关条目），以及 0 级、并非出类拔萃的人类或半人类近战；也就是一切生命骰不足一枚八面骰的生物。面对这类生物时，战士每有一个经验等级即可攻击一次（见“战斗”）。</FONT></P>

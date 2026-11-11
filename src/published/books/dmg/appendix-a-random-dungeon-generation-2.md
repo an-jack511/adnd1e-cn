@@ -1,4 +1,4 @@
-### 表 I：周期检查（d20）Table I: Periodic Check (d20)
+### 表 I：周期检查 d20 Table I: Periodic Check (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -12,7 +12,7 @@
 | 19 | 机关／陷阱（见表 VII）；通道继续延伸，前进 <strong>30'</strong>后重新掷本表 |
 | 20 | 游荡怪物；立即重新掷本表，以确定前方情况并判断怪物从哪个方向接近 |
 
-### 表 II：门*（d20）Table II: Doors (d20)
+### 表 II：门* d20 Table II: Doors (d20)
 
 | 骰值 | 门的位置 | 骰值 | 门后空间 |
 |---:|---|---:|---|
@@ -31,7 +31,7 @@
 
 \*** 转向应符合当前地形；斜线前的方向优先于斜线后的方向。
 
-### 表 III：侧向通道（d20）Table III: Side Passages (d20)
+### 表 III：侧向通道 d20 Table III: Side Passages (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -48,7 +48,7 @@
 | 16–19 | 十字形交叉口 |
 | 20 | X 形交叉口；若原通道为水平或垂直方向，则会多出第五条通道接入 X 形交叉口 |
 
-#### 表 III.A：通道宽度（d20）Table III.A: Passage Width (d20)
+#### 表 III.A：通道宽度 d20 Table III.A: Passage Width (d20)
 
 | 骰值 | 通道宽度 |
 |---:|---:|
@@ -58,7 +58,7 @@
 | 18 | 5' |
 | 19–20 | 特殊通道（见下表 III.B） |
 
-#### 表 III.B：特殊通道（d20）Table III.B: Special Passage (d20)
+#### 表 III.B：特殊通道 d20 Table III.B: Special Passage (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -80,7 +80,7 @@
 
 \**** 深渊横穿通道，深 **150'–200'**；有 **50%** 概率架有桥梁，**25%** 概率有一处宽 **5'–10'**的跳跃点，另有 **25%** 概率构成障碍。
 
-### 表 IV：转向（d20）Table IV: Turns (d20)
+### 表 IV：转向 d20 Table IV: Turns (d20)
 
 转向后，按表 III.A 检查通道宽度。
 
@@ -93,7 +93,7 @@
 | 19 | 向右前方转 <strong>45°</strong> |
 | 20 | 向右后方转 <strong>45°</strong>（即向右转 <strong>135°</strong>） |
 
-### 表 V：大厅与房间的形状及大小（d20）Table V: Chamber and Room Shape and Size (d20)
+### 表 V：大厅与房间的形状及大小 d20 Table V: Chamber and Room Shape and Size (d20)
 
 依次掷骰决定形状、大小和出口；随后决定内部内容、财宝，以及适用时财宝的藏放方式。
 

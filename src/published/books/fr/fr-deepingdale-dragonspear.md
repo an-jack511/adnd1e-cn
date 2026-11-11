@@ -19,7 +19,7 @@
 
 深谷地的统治者是高月领主瑟雷门·乌拉斯（Theremen Ulath, Lord of Highmoon），一名 4 级半精灵战士。
 
-## 德德卢克 DHEDLUK（DED-luke）
+## 德德卢克 DHEDLUK DED-luke
 
 ### 概览 AT A GLANCE
 

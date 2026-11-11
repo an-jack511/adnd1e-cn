@@ -1,5 +1,5 @@
 
-## 埃乌兹（半神）（Iuz, Demi-god）
+## 埃乌兹（半神）Iuz, Demi-god
 
 AL 混乱邪恶；WAL 任意邪恶；SoC 压迫、欺骗、痛苦；SY 咧嘴笑的人类头骨；CR 锈黑色；PN 主物质位面。
 

@@ -7,18 +7,18 @@
 <h3>幻术师（魔法师）表 I Illusionists (Magic-Users) Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用四面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,250</TD><TD>1</TD><TD>1</TD><TD>Prestidigitator／戏法师</TD></TR>
-<TR><TD>2,251–4,500</TD><TD>2</TD><TD>2</TD><TD>Minor Trickster／小戏法师</TD></TR>
-<TR><TD>4,501–9,000</TD><TD>3</TD><TD>3</TD><TD>Trickster／戏术师</TD></TR>
-<TR><TD>9,001–18,000</TD><TD>4</TD><TD>4</TD><TD>Master Trickster／戏术大师</TD></TR>
-<TR><TD>18,001–35,000</TD><TD>5</TD><TD>5</TD><TD>Cabalist／秘法师</TD></TR>
-<TR><TD>35,001–60,000</TD><TD>6</TD><TD>6</TD><TD>Visionist／幻景师</TD></TR>
-<TR><TD>60,001–95,000</TD><TD>7</TD><TD>7</TD><TD>Phantasmist／幻象师</TD></TR>
-<TR><TD>95,001–145,000</TD><TD>8</TD><TD>8</TD><TD>Apparitionist／显像师</TD></TR>
-<TR><TD>145,001–220,000</TD><TD>9</TD><TD>9</TD><TD>Spellbinder／惑法师</TD></TR>
-<TR><TD>220,001–440,000</TD><TD>10</TD><TD>10</TD><TD>Illusionist／幻术师</TD></TR>
-<TR><TD>440,001–660,000</TD><TD>11</TD><TD>10+1</TD><TD>Illusionist (11th level)／幻术师（第11级）</TD></TR>
-<TR><TD>660,001–880,000</TD><TD>12</TD><TD>10+2</TD><TD>Illusionist (12th level)／幻术师（第12级）</TD></TR>
+<TR><TD>0–2,250</TD><TD>1</TD><TD>1</TD><TD>戏法师／Prestidigitator</TD></TR>
+<TR><TD>2,251–4,500</TD><TD>2</TD><TD>2</TD><TD>小戏法师／Minor Trickster</TD></TR>
+<TR><TD>4,501–9,000</TD><TD>3</TD><TD>3</TD><TD>戏术师／Trickster</TD></TR>
+<TR><TD>9,001–18,000</TD><TD>4</TD><TD>4</TD><TD>戏术大师／Master Trickster</TD></TR>
+<TR><TD>18,001–35,000</TD><TD>5</TD><TD>5</TD><TD>秘法师／Cabalist</TD></TR>
+<TR><TD>35,001–60,000</TD><TD>6</TD><TD>6</TD><TD>幻景师／Visionist</TD></TR>
+<TR><TD>60,001–95,000</TD><TD>7</TD><TD>7</TD><TD>幻象师／Phantasmist</TD></TR>
+<TR><TD>95,001–145,000</TD><TD>8</TD><TD>8</TD><TD>显像师／Apparitionist</TD></TR>
+<TR><TD>145,001–220,000</TD><TD>9</TD><TD>9</TD><TD>惑法师／Spellbinder</TD></TR>
+<TR><TD>220,001–440,000</TD><TD>10</TD><TD>10</TD><TD>幻术师／Illusionist</TD></TR>
+<TR><TD>440,001–660,000</TD><TD>11</TD><TD>10+1</TD><TD>幻术师（第11级）／Illusionist (11th level)</TD></TR>
+<TR><TD>660,001–880,000</TD><TD>12</TD><TD>10+2</TD><TD>幻术师（第12级）／Illusionist (12th level)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 12 级以后，每升一级另需 220,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 10 级以后，幻术师每级增加 1 点生命值。</FONT></P>

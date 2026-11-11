@@ -64,7 +64,7 @@
 
 关于匕首滩及其周围的国度地区，见冒险模组 N5《在伊勒法恩之下》（Under Illefarn）。
 
-## 谷伦 DAERLUN（Dare-LOON）
+## 谷伦 DAERLUN Dare-LOON
 
 ### 概览 AT A GLANCE
 

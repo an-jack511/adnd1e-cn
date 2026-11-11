@@ -7,17 +7,17 @@
 <h3>战士表 Fighters Table</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用十面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,000</TD><TD>1</TD><TD>1</TD><TD>Veteran／老兵</TD></TR>
-<TR><TD>2,001–4,000</TD><TD>2</TD><TD>2</TD><TD>Warrior／武人</TD></TR>
-<TR><TD>4,001–8,000</TD><TD>3</TD><TD>3</TD><TD>Swordsman／剑士</TD></TR>
-<TR><TD>8,001–18,000</TD><TD>4</TD><TD>4</TD><TD>Hero／英雄</TD></TR>
-<TR><TD>18,001–35,000</TD><TD>5</TD><TD>5</TD><TD>Swashbuckler／豪侠</TD></TR>
-<TR><TD>35,001–70,000</TD><TD>6</TD><TD>6</TD><TD>Myrmidon／勇士</TD></TR>
-<TR><TD>70,001–125,000</TD><TD>7</TD><TD>7</TD><TD>Champion／冠军</TD></TR>
-<TR><TD>125,001–250,000</TD><TD>8</TD><TD>8</TD><TD>Superhero／超凡英雄</TD></TR>
-<TR><TD>250,001–500,000</TD><TD>9</TD><TD>9</TD><TD>Lord／领主</TD></TR>
-<TR><TD>500,001–750,000</TD><TD>10</TD><TD>9+3</TD><TD>Lord (10th level)／领主（第10级）</TD></TR>
-<TR><TD>750,001–1,000,000</TD><TD>11</TD><TD>9+6</TD><TD>Lord (11th level)／领主（第11级）</TD></TR>
+<TR><TD>0–2,000</TD><TD>1</TD><TD>1</TD><TD>老兵／Veteran</TD></TR>
+<TR><TD>2,001–4,000</TD><TD>2</TD><TD>2</TD><TD>武人／Warrior</TD></TR>
+<TR><TD>4,001–8,000</TD><TD>3</TD><TD>3</TD><TD>剑士／Swordsman</TD></TR>
+<TR><TD>8,001–18,000</TD><TD>4</TD><TD>4</TD><TD>英雄／Hero</TD></TR>
+<TR><TD>18,001–35,000</TD><TD>5</TD><TD>5</TD><TD>豪侠／Swashbuckler</TD></TR>
+<TR><TD>35,001–70,000</TD><TD>6</TD><TD>6</TD><TD>勇士／Myrmidon</TD></TR>
+<TR><TD>70,001–125,000</TD><TD>7</TD><TD>7</TD><TD>冠军／Champion</TD></TR>
+<TR><TD>125,001–250,000</TD><TD>8</TD><TD>8</TD><TD>超凡英雄／Superhero</TD></TR>
+<TR><TD>250,001–500,000</TD><TD>9</TD><TD>9</TD><TD>领主／Lord</TD></TR>
+<TR><TD>500,001–750,000</TD><TD>10</TD><TD>9+3</TD><TD>领主（第10级）／Lord (10th level)</TD></TR>
+<TR><TD>750,001–1,000,000</TD><TD>11</TD><TD>9+6</TD><TD>领主（第11级）／Lord (11th level)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 11 级以后，每升一级另需 250,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 9 级以后，战士每级增加 3 点生命值。</FONT></P>

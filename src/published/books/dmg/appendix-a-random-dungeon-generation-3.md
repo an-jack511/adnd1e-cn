@@ -1,4 +1,4 @@
-#### 表 V.B：特殊面积（d20）Table V.B: Unusual Size (d20)
+#### 表 V.B：特殊面积 d20 Table V.B: Unusual Size (d20)
 
 | 骰值 | 面积 |
 |---:|---|
@@ -10,7 +10,7 @@
 | 13–14 | 约 <strong>3,400 平方尺</strong> |
 | 15–20 | 重新掷骰，并将结果加到上方 <strong>9–10</strong> 的面积上；若再次掷出 <strong>15–20</strong>，重复此过程，并将 <strong>9–10</strong> 的面积加倍，依此类推 |
 
-#### 表 V.C：出口数量（d20）Table V.C: Number of Exits (d20)
+#### 表 V.C：出口数量 d20 Table V.C: Number of Exits (d20)
 
 | 骰值 | 房间面积 | 出口数量 |
 |---:|---|---:|
@@ -29,7 +29,7 @@
 
 \* 每隔 <strong>10'</strong>检查一次密门（见表 V.D 注）。
 
-#### 表 V.D：出口位置*（d20）Table V.D: Exit Location (d20)
+#### 表 V.D：出口位置* d20 Table V.D: Exit Location (d20)
 
 | 骰值 | 位置 |
 |---:|---|
@@ -40,7 +40,7 @@
 
 \* 若墙上出现通道或门，而墙外紧邻空间已绘制，则出口为密门（掷 <strong>1–5</strong>）、单向门（掷 <strong>6–10</strong>），或位于相反方向（掷 <strong>11–20</strong>）。
 
-#### 表 V.E：出口方向（d20）Table V.E: Exit Direction (d20)
+#### 表 V.E：出口方向 d20 Table V.E: Exit Direction (d20)
 
 若出口是门，改用表 II；另按表 III.A 检查通道宽度。
 
@@ -52,7 +52,7 @@
 
 \* 出口方向应符合当前地形；斜线前的方向优先于斜线后的方向。
 
-#### 表 V.F：大厅或房间的内容（d20）Table V.F: Chamber or Room Contents (d20)
+#### 表 V.F：大厅或房间的内容 d20 Table V.F: Chamber or Room Contents (d20)
 
 | 骰值 | 内容 |
 |---:|---|
@@ -80,7 +80,7 @@
 
 另见表 V.H，以及表 V.I 或 V.J。
 
-#### 表 V.H：财宝的容器*（d20）Table V.H: Treasure Is Contained In (d20)
+#### 表 V.H：财宝的容器* d20 Table V.H: Treasure Is Contained In (d20)
 
 | 骰值 | 容器 |
 |---:|---|
@@ -97,7 +97,7 @@
 
 \* 若要确定防护方式，掷 <strong>1–8</strong>见表 V.I，掷 <strong>9–20</strong>见表 V.J。
 
-#### 表 V.I：财宝的守护方式（d20）Table V.I: Treasure Is Guarded By (d20)
+#### 表 V.I：财宝的守护方式 d20 Table V.I: Treasure Is Guarded By (d20)
 
 | 骰值 | 防护方式 |
 |---:|---|
@@ -118,7 +118,7 @@
 | 19 | 爆炸符文 |
 | 20 | 魔法徽记 |
 
-#### 表 V.J：财宝的隐藏方式（d20）Table V.J: Treasure Is Hidden By/In (d20)
+#### 表 V.J：财宝的隐藏方式 d20 Table V.J: Treasure Is Hidden By/In (d20)
 
 | 骰值 | 隐藏方式 |
 |---:|---|

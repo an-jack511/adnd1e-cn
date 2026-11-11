@@ -1,10 +1,10 @@
-# 野蛮人（Gygax早期测试稿）
+# 野蛮人（Gygax 早期测试稿）
 
 强悍野蛮人 The Big, Bad Barbarian · Dragon #63
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine063.pdf)
 
-## 野蛮人（Gygax早期测试稿） Barbarian
+## 野蛮人（Gygax 早期测试稿） Barbarian
 
 野蛮人是战士的子职业，仅限人类，等级无上限，阵营必须非守序。没有主属性，因此经验值没有主属性加成或罚值；不具有通常意义上的灵能，也不施法。部分天生能力虽类似法术，仍不算施法能力。
 

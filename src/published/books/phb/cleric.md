@@ -13,17 +13,17 @@
 <h3>牧师表 I Clerics Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用八面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–1,500</TD><TD>1</TD><TD>1</TD><TD>Acolyte／侍祭</TD></TR>
-<TR><TD>1,501–3,000</TD><TD>2</TD><TD>2</TD><TD>Adept／修士</TD></TR>
-<TR><TD>3,001–6,000</TD><TD>3</TD><TD>3</TD><TD>Priest／祭司</TD></TR>
-<TR><TD>6,001–13,000</TD><TD>4</TD><TD>4</TD><TD>Curate／助理牧师</TD></TR>
+<TR><TD>0–1,500</TD><TD>1</TD><TD>1</TD><TD>侍祭／Acolyte</TD></TR>
+<TR><TD>1,501–3,000</TD><TD>2</TD><TD>2</TD><TD>修士／Adept</TD></TR>
+<TR><TD>3,001–6,000</TD><TD>3</TD><TD>3</TD><TD>祭司／Priest</TD></TR>
+<TR><TD>6,001–13,000</TD><TD>4</TD><TD>4</TD><TD>助理牧师／Curate</TD></TR>
 <TR><TD>13,001–27,500</TD><TD>5</TD><TD>5</TD><TD>—</TD></TR>
-<TR><TD>27,501–55,000</TD><TD>6</TD><TD>6</TD><TD>Canon／法政牧师</TD></TR>
-<TR><TD>55,001–110,000</TD><TD>7</TD><TD>7</TD><TD>Lama／喇嘛</TD></TR>
-<TR><TD>110,001–225,000</TD><TD>8</TD><TD>8</TD><TD>Patriarch／宗主教</TD></TR>
-<TR><TD>225,001–450,000</TD><TD>9</TD><TD>9</TD><TD>High Priest／大祭司</TD></TR>
-<TR><TD>450,001–675,000</TD><TD>10</TD><TD>9+2</TD><TD>High Priest (10th level)／大祭司（第10级）</TD></TR>
-<TR><TD>675,001–900,000</TD><TD>11</TD><TD>9+4</TD><TD>High Priest (11th level)／大祭司（第11级）</TD></TR>
+<TR><TD>27,501–55,000</TD><TD>6</TD><TD>6</TD><TD>法政牧师／Canon</TD></TR>
+<TR><TD>55,001–110,000</TD><TD>7</TD><TD>7</TD><TD>喇嘛／Lama</TD></TR>
+<TR><TD>110,001–225,000</TD><TD>8</TD><TD>8</TD><TD>宗主教／Patriarch</TD></TR>
+<TR><TD>225,001–450,000</TD><TD>9</TD><TD>9</TD><TD>大祭司／High Priest</TD></TR>
+<TR><TD>450,001–675,000</TD><TD>10</TD><TD>9+2</TD><TD>大祭司（第10级）／High Priest (10th level)</TD></TR>
+<TR><TD>675,001–900,000</TD><TD>11</TD><TD>9+4</TD><TD>大祭司（第11级）／High Priest (11th level)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 11 级以后，每升一级另需 225,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 9 级以后，牧师每级增加 2 点生命值。</FONT></P>

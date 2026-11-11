@@ -25,7 +25,7 @@
 
 月海地区的许多文明兴衰已久，穆尔玛斯特、散提尔堡和其他城市都是建立在更古老废墟上的新城。海本身相对较浅；月海中央有一组水下废墟，称为沉没堡或“深处之钟”，其起源未知。
 
-## 月沙群岛 MOONSHAE ISLANDS（MOON-shay）
+## 月沙群岛 MOONSHAE ISLANDS MOON-shay
 
 ### 概览 AT A GLANCE
 
@@ -63,13 +63,13 @@
 
 关于月沙群岛的更多信息，见道格拉斯·奈尔斯的小说《月沙行者》以及《被遗忘国度资料集》FR-2。
 
-## 穆尔赫森 MULHESSEN（Muhl-HEH-sen）
+## 穆尔赫森 MULHESSEN Muhl-HEH-sen
 
 ### 概览 AT A GLANCE
 
 穆尔赫森是桑比亚的一座小镇，位于塞尔冈特以北、塞尔冈特至谷伦的主路上。见“桑比亚”。
 
-## 穆尔霍兰德 MULHORAND（Muhl-HOH-rand）
+## 穆尔霍兰德 MULHORAND Muhl-HOH-rand
 
 ### 概览 AT A GLANCE
 
@@ -79,7 +79,7 @@
 
 据说穆尔霍兰德由一代代美丽而不朽、拥有神一般力量的国王与王后统治。这里还是“行走雕像”的家园——巨大的战争机械遍布土地，有时会被不知名力量唤醒并肆意破坏。穆尔霍兰德是费伦已知国家中最古老的一个。
 
-## 穆尔玛斯特 MULMASTER（MUHL-mah-ster）
+## 穆尔玛斯特 MULMASTER MUHL-mah-ster
 
 ### 概览 AT A GLANCE
 
@@ -93,7 +93,7 @@
 
 穆尔玛斯特最高刀锋是一名 18 级中立邪恶战士。
 
-## 迷斯卓诺 MYTH DRANNOR（Myth DRANN-or）
+## 迷斯卓诺 MYTH DRANNOR Myth DRANN-or
 
 ### 概览 AT A GLANCE
 

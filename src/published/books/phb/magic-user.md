@@ -10,24 +10,24 @@
 <h3>魔法师表 I Magic-Users Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用四面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–2,500</TD><TD>1</TD><TD>1</TD><TD>Prestidigitator／戏法师</TD></TR>
-<TR><TD>2,501–5,000</TD><TD>2</TD><TD>2</TD><TD>Evoker／唤法师</TD></TR>
-<TR><TD>5,001–10,000</TD><TD>3</TD><TD>3</TD><TD>Conjurer／咒法师</TD></TR>
-<TR><TD>10,001–22,500</TD><TD>4</TD><TD>4</TD><TD>Theurgist／神术师</TD></TR>
-<TR><TD>22,501–40,000</TD><TD>5</TD><TD>5</TD><TD>Thaumaturgist／奇术师</TD></TR>
-<TR><TD>40,001–60,000</TD><TD>6</TD><TD>6</TD><TD>Magician／魔术师</TD></TR>
-<TR><TD>60,001–90,000</TD><TD>7</TD><TD>7</TD><TD>Enchanter／附魔师</TD></TR>
-<TR><TD>90,001–135,000</TD><TD>8</TD><TD>8</TD><TD>Warlock／术士</TD></TR>
-<TR><TD>135,001–250,000</TD><TD>9</TD><TD>9</TD><TD>Sorcerer／巫术师</TD></TR>
-<TR><TD>250,001–375,000</TD><TD>10</TD><TD>10</TD><TD>Necromancer／死灵师</TD></TR>
-<TR><TD>375,001–750,000</TD><TD>11</TD><TD>11</TD><TD>Wizard／大法师</TD></TR>
-<TR><TD>750,001–1,125,000</TD><TD>12</TD><TD>11+1</TD><TD>Wizard (12th level)／大法师（第12级）</TD></TR>
-<TR><TD>1,125,001–1,500,000</TD><TD>13</TD><TD>11+2</TD><TD>Wizard (13th level)／大法师（第13级）</TD></TR>
-<TR><TD>1,500,001–1,875,000</TD><TD>14</TD><TD>11+3</TD><TD>Wizard (14th level)／大法师（第14级）</TD></TR>
-<TR><TD>1,875,001–2,250,000</TD><TD>15</TD><TD>11+4</TD><TD>Wizard (15th level)／大法师（第15级）</TD></TR>
-<TR><TD>2,250,001–2,625,000</TD><TD>16</TD><TD>11+5</TD><TD>Wizard (16th level, or Mage)／大法师（第16级，或称法师）</TD></TR>
-<TR><TD>2,625,001–3,000,000</TD><TD>17</TD><TD>11+6</TD><TD>Wizard (17th level)／大法师（第17级）</TD></TR>
-<TR><TD>3,000,001–3,375,000</TD><TD>18</TD><TD>11+7</TD><TD>Wizard (18th level, or Arch-Mage)／大法师（第18级，或称至高法师）</TD></TR>
+<TR><TD>0–2,500</TD><TD>1</TD><TD>1</TD><TD>戏法师／Prestidigitator</TD></TR>
+<TR><TD>2,501–5,000</TD><TD>2</TD><TD>2</TD><TD>唤法师／Evoker</TD></TR>
+<TR><TD>5,001–10,000</TD><TD>3</TD><TD>3</TD><TD>咒法师／Conjurer</TD></TR>
+<TR><TD>10,001–22,500</TD><TD>4</TD><TD>4</TD><TD>神术师／Theurgist</TD></TR>
+<TR><TD>22,501–40,000</TD><TD>5</TD><TD>5</TD><TD>奇术师／Thaumaturgist</TD></TR>
+<TR><TD>40,001–60,000</TD><TD>6</TD><TD>6</TD><TD>魔术师／Magician</TD></TR>
+<TR><TD>60,001–90,000</TD><TD>7</TD><TD>7</TD><TD>附魔师／Enchanter</TD></TR>
+<TR><TD>90,001–135,000</TD><TD>8</TD><TD>8</TD><TD>术士／Warlock</TD></TR>
+<TR><TD>135,001–250,000</TD><TD>9</TD><TD>9</TD><TD>巫术师／Sorcerer</TD></TR>
+<TR><TD>250,001–375,000</TD><TD>10</TD><TD>10</TD><TD>死灵师／Necromancer</TD></TR>
+<TR><TD>375,001–750,000</TD><TD>11</TD><TD>11</TD><TD>大法师／Wizard</TD></TR>
+<TR><TD>750,001–1,125,000</TD><TD>12</TD><TD>11+1</TD><TD>大法师（第12级）／Wizard (12th level)</TD></TR>
+<TR><TD>1,125,001–1,500,000</TD><TD>13</TD><TD>11+2</TD><TD>大法师（第13级）／Wizard (13th level)</TD></TR>
+<TR><TD>1,500,001–1,875,000</TD><TD>14</TD><TD>11+3</TD><TD>大法师（第14级）／Wizard (14th level)</TD></TR>
+<TR><TD>1,875,001–2,250,000</TD><TD>15</TD><TD>11+4</TD><TD>大法师（第15级）／Wizard (15th level)</TD></TR>
+<TR><TD>2,250,001–2,625,000</TD><TD>16</TD><TD>11+5</TD><TD>大法师（第16级，或称法师）／Wizard (16th level, or Mage)</TD></TR>
+<TR><TD>2,625,001–3,000,000</TD><TD>17</TD><TD>11+6</TD><TD>大法师（第17级）／Wizard (17th level)</TD></TR>
+<TR><TD>3,000,001–3,375,000</TD><TD>18</TD><TD>11+7</TD><TD>大法师（第18级，或称至高法师）／Wizard (18th level, or Arch-Mage)</TD></TR>
 </TABLE>
 <h3>各等级魔法师可用法术 Spells Usable By Class And Level—Magic-Users</h3>
 <TABLE>

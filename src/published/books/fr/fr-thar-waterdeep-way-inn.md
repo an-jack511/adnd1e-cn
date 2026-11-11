@@ -83,13 +83,13 @@
 
 作为标准预防措施，大多数商队在经过这里时都有 20 名武装人员护卫。
 
-## 楚尔拉戈尔 TSURLAGOL（Tsss-SIR-lah-gel）
+## 楚尔拉戈尔 TSURLAGOL Tsss-SIR-lah-gel
 
 ### 概览 AT A GLANCE
 
 楚尔拉戈尔是普罗坎普以东的一座繁荣大城，也是抵达因布图边界前的最后一座城市。
 
-## 图尔贝格 TULBEGH（TULL-beg）
+## 图尔贝格 TULBEGH TULL-beg
 
 ### 概览 AT A GLANCE
 
@@ -105,7 +105,7 @@
 
 突米斯人据说身材高大、肤色如桃花心木般深、容貌美丽；商人阶层的男人留着方形的长胡子。除农场之外，突米斯还以华丽而精工制作的铠甲闻名。这种铠甲饰有尖塔和凹槽曲线，混合了精灵与人类风格。
 
-## 泰尔鲁克 TYRLUK（TEER-luke）
+## 泰尔鲁克 TYRLUK TEER-luke
 
 ### 概览 AT A GLANCE
 
@@ -123,13 +123,13 @@
 
 恩瑟是南方较神秘的国家之一；关于它所知甚少，只知道据说其统治者是不朽的。
 
-## 乌尔姆拉斯皮尔 URMLASPYR（Erm-LASS-peer）
+## 乌尔姆拉斯皮尔 URMLASPYR Erm-LASS-peer
 
 ### 概览 AT A GLANCE
 
 乌尔姆拉斯皮尔是南方一个规模不大的城市，位于恩瑟的范围内。
 
-## 瓦萨 VAASA（VASS-uh）
+## 瓦萨 VAASA VASS-uh
 
 ### 概览 AT A GLANCE
 
@@ -217,7 +217,7 @@
 
 关于深水城及其附近地区的更多信息，见 FR-1《深水城与北方》设定集。
 
-## 途道镇 WAYMOOT（WAY-moot）
+## 途道镇 WAYMOOT WAY-moot
 
 ### 概览 AT A GLANCE
 

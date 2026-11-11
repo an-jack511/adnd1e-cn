@@ -18,11 +18,11 @@ TSR UK Ltd.：The Mill，Rathmore Road，Cambridge CB1 4AD，英国
 
 ## 第 2 页
 
-### 献词（Dedication）
+### 献词 Dedication
 
 献给 Laura Curtis Hickman，我的妻子；为了她，才创造了诸多世界。
 
-### 制作人员（Credits）
+### 制作人员 Credits
 
 连续性与故事：Tracy Hickman、Margaret Weis
 
@@ -46,7 +46,7 @@ TSR UK Ltd.：The Mill，Rathmore Road，Cambridge CB1 4AD，英国
 
 线稿：Stephanie Tabat、Susan Myers
 
-### 特别感谢（Special Thanks）
+### 特别感谢 Special Thanks
 
 感谢 Dave Cook 对 AD&D 游戏系统修订的建议，尤其是牧师系统方面的建议。
 
@@ -68,7 +68,7 @@ ISBN 0-88038-452-2
 
 ## 第 4 页
 
-### 前言（Preface）
+### 前言 Preface
 
 终于……克莱恩的世界！
 

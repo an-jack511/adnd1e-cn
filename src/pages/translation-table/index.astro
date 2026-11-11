@@ -16,26 +16,42 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <tbody id="terms-body"></tbody>
     </table>
   </div>
+  <nav class="pagination" aria-label="术语表分页">
+    <button id="terms-prev" type="button">上一页</button>
+    <span id="terms-page" aria-live="polite">第 1 页</span>
+    <button id="terms-next" type="button">下一页</button>
+  </nav>
   <script>
     type Entry = { en:string; zh:string; category:string; status:string };
     const labels:Record<string,string> = { class:'职业', item:'物品', monster:'怪物', proper:'专名', race:'种族', rule:'规则', spell:'法术' };
+    const pageSize = 100;
     const form = document.querySelector<HTMLFormElement>('#terms-form')!;
     const query = document.querySelector<HTMLInputElement>('#terms-query')!;
     const category = document.querySelector<HTMLSelectElement>('#terms-category')!;
     const count = document.querySelector('#terms-count')!;
     const body = document.querySelector('#terms-body')!;
+    const previous = document.querySelector<HTMLButtonElement>('#terms-prev')!;
+    const next = document.querySelector<HTMLButtonElement>('#terms-next')!;
+    const pageLabel = document.querySelector('#terms-page')!;
     let entries:Entry[] = [];
+    let page = 1;
     function render() {
       const q = query.value.trim().toLowerCase();
       const hits = entries.filter(e => (!category.value || e.category === category.value) && (!q || `${e.zh} ${e.en}`.toLowerCase().includes(q)));
-      body.replaceChildren(...hits.slice(0, 500).map(e => {
+      const pageCount = Math.max(1, Math.ceil(hits.length / pageSize));
+      page = Math.min(page, pageCount);
+      const start = (page - 1) * pageSize;
+      body.replaceChildren(...hits.slice(start, start + pageSize).map(e => {
         const row = document.createElement('tr');
         for (const value of [e.zh, e.en, labels[e.category] || e.category, e.status]) {
           const cell = document.createElement('td'); cell.textContent = value; row.append(cell);
         }
         return row;
       }));
-      count.textContent = hits.length > 500 ? `共 ${hits.length} 项，当前显示前 500 项。` : `共 ${hits.length} 项。`;
+      count.textContent = `共 ${hits.length} 项。`;
+      pageLabel.textContent = `第 ${page} / ${pageCount} 页`;
+      previous.disabled = page <= 1;
+      next.disabled = page >= pageCount;
     }
     async function init() {
       const response = await fetch('/translation-table.json');
@@ -45,8 +61,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       [...new Set(entries.map(e => e.category))].sort().forEach(value => category.add(new Option(labels[value] || value, value)));
       render();
     }
-    form.onsubmit = event => { event.preventDefault(); render(); };
-    query.oninput = render; category.onchange = render;
+    form.onsubmit = event => { event.preventDefault(); page = 1; render(); };
+    query.oninput = () => { page = 1; render(); };
+    category.onchange = () => { page = 1; render(); };
+    previous.onclick = () => { page -= 1; render(); };
+    next.onclick = () => { page += 1; render(); };
     init().catch(() => { count.textContent = '术语表载入失败，请刷新页面重试。'; });
   </script>
 </BaseLayout>

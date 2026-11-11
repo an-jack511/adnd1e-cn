@@ -1,10 +1,10 @@
-# 精灵骑士（Booth方案）
+# 精灵骑士（Booth 方案）
 
 精灵骑士 The Elven Cavalier · Dragon #114
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine114.pdf)
 
-## 精灵骑士（Booth方案） Elven Cavalier
+## 精灵骑士（Booth 方案） Elven Cavalier
 
 以 UA 骑士为基础，适用于精灵及在精灵社会中成长的半精灵。最低属性为 STR15、DEX16、CON15、INT10、WIS10；生涯中任何时候不再满足要求，都降为受尊重的战士。
 

@@ -28,18 +28,18 @@
 <h3>盗贼表 I Thieves Table I</h3>
 <TABLE>
 <TR><TH>经验值</TH><TH>经验等级</TH><TH>累计生命值所用六面骰</TH><TH>等级称号</TH></TR>
-<TR><TD>0–1,250</TD><TD>1</TD><TD>1</TD><TD>Rogue (Apprentice)／无赖（学徒）</TD></TR>
-<TR><TD>1,251–2,500</TD><TD>2</TD><TD>2</TD><TD>Footpad／拦路贼</TD></TR>
-<TR><TD>2,501–5,000</TD><TD>3</TD><TD>3</TD><TD>Cutpurse／扒手</TD></TR>
-<TR><TD>5,001–10,000</TD><TD>4</TD><TD>4</TD><TD>Robber／强盗</TD></TR>
-<TR><TD>10,001–20,000</TD><TD>5</TD><TD>5</TD><TD>Burglar／夜盗</TD></TR>
-<TR><TD>20,001–42,500</TD><TD>6</TD><TD>6</TD><TD>Filcher／窃贼</TD></TR>
-<TR><TD>42,501–70,000</TD><TD>7</TD><TD>7</TD><TD>Sharper／老千</TD></TR>
-<TR><TD>70,001–110,000</TD><TD>8</TD><TD>8</TD><TD>Magsman／骗子</TD></TR>
-<TR><TD>110,001–160,000</TD><TD>9</TD><TD>9</TD><TD>Thief／盗贼</TD></TR>
-<TR><TD>160,001–220,000</TD><TD>10</TD><TD>10</TD><TD>Master Thief／盗贼大师</TD></TR>
-<TR><TD>220,001–440,000</TD><TD>11</TD><TD>10+2</TD><TD>Master Thief (11th level)／盗贼大师（第11级）</TD></TR>
-<TR><TD>440,001–660,000</TD><TD>12</TD><TD>10+4</TD><TD>Master Thief (12th level)／盗贼大师（第12级）</TD></TR>
+<TR><TD>0–1,250</TD><TD>1</TD><TD>1</TD><TD>无赖（学徒）／Rogue (Apprentice)</TD></TR>
+<TR><TD>1,251–2,500</TD><TD>2</TD><TD>2</TD><TD>拦路贼／Footpad</TD></TR>
+<TR><TD>2,501–5,000</TD><TD>3</TD><TD>3</TD><TD>扒手／Cutpurse</TD></TR>
+<TR><TD>5,001–10,000</TD><TD>4</TD><TD>4</TD><TD>强盗／Robber</TD></TR>
+<TR><TD>10,001–20,000</TD><TD>5</TD><TD>5</TD><TD>夜盗／Burglar</TD></TR>
+<TR><TD>20,001–42,500</TD><TD>6</TD><TD>6</TD><TD>窃贼／Filcher</TD></TR>
+<TR><TD>42,501–70,000</TD><TD>7</TD><TD>7</TD><TD>老千／Sharper</TD></TR>
+<TR><TD>70,001–110,000</TD><TD>8</TD><TD>8</TD><TD>骗子／Magsman</TD></TR>
+<TR><TD>110,001–160,000</TD><TD>9</TD><TD>9</TD><TD>盗贼／Thief</TD></TR>
+<TR><TD>160,001–220,000</TD><TD>10</TD><TD>10</TD><TD>盗贼大师／Master Thief</TD></TR>
+<TR><TD>220,001–440,000</TD><TD>11</TD><TD>10+2</TD><TD>盗贼大师（第11级）／Master Thief (11th level)</TD></TR>
+<TR><TD>440,001–660,000</TD><TD>12</TD><TD>10+4</TD><TD>盗贼大师（第12级）／Master Thief (12th level)</TD></TR>
 </TABLE>
 <P><FONT color=#808080>第 12 级以后，每升一级另需 220,000 点经验值。</FONT></P>
 <P><FONT color=#808080>第 10 级以后，盗贼每级增加 2 点生命值。</FONT></P>
@@ -63,10 +63,10 @@
 <TR><TD>15</TD><TD>115%</TD><TD>92%</TD><TD>90%</TD><TD>99%</TD><TD>99%</TD><TD>50%</TD><TD>99.5%</TD><TD>75%</TD></TR>
 <TR><TD>16</TD><TD>125%</TD><TD>97%</TD><TD>95%</TD><TD>99%</TD><TD>99%</TD><TD>50%</TD><TD>99.6%</TD><TD>80%</TD></TR>
 <TR><TD>17</TD><TD>125%</TD><TD>99%</TD><TD>99%</TD><TD>99%</TD><TD>99%</TD><TD>55%</TD><TD>99.7%</TD><TD>80%</TD></TR>
-<TR><TD>Dwarf／矮人</TD><TD>—</TD><TD>+10%</TD><TD>+15%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>&#8722;10%</TD><TD>&#8722;5%</TD></TR>
-<TR><TD>Elf／精灵</TD><TD>+5%</TD><TD>&#8722;5%</TD><TD>—</TD><TD>+5%</TD><TD>+10%</TD><TD>+5%</TD><TD>—</TD><TD>—</TD></TR>
-<TR><TD>Gnome／侏儒</TD><TD>—</TD><TD>+5%</TD><TD>+10%</TD><TD>+5%</TD><TD>+5%</TD><TD>+10%</TD><TD>&#8722;15%</TD><TD>—</TD></TR>
-<TR><TD>Half-Elf／半精灵</TD><TD>+10%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>+5%</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>
-<TR><TD>Halfling／半身人</TD><TD>+5%</TD><TD>+5%</TD><TD>+5%</TD><TD>+10%</TD><TD>+15%</TD><TD>+5%</TD><TD>&#8722;15%</TD><TD>&#8722;5%</TD></TR>
-<TR><TD>Half-Orc／半兽人</TD><TD>&#8722;5%</TD><TD>+5%</TD><TD>+5%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>+5%</TD><TD>&#8722;10%</TD></TR>
+<TR><TD>矮人／Dwarf</TD><TD>—</TD><TD>+10%</TD><TD>+15%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>&#8722;10%</TD><TD>&#8722;5%</TD></TR>
+<TR><TD>精灵／Elf</TD><TD>+5%</TD><TD>&#8722;5%</TD><TD>—</TD><TD>+5%</TD><TD>+10%</TD><TD>+5%</TD><TD>—</TD><TD>—</TD></TR>
+<TR><TD>侏儒／Gnome</TD><TD>—</TD><TD>+5%</TD><TD>+10%</TD><TD>+5%</TD><TD>+5%</TD><TD>+10%</TD><TD>&#8722;15%</TD><TD>—</TD></TR>
+<TR><TD>半精灵／Half-Elf</TD><TD>+10%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>+5%</TD><TD>—</TD><TD>—</TD><TD>—</TD></TR>
+<TR><TD>半身人／Halfling</TD><TD>+5%</TD><TD>+5%</TD><TD>+5%</TD><TD>+10%</TD><TD>+15%</TD><TD>+5%</TD><TD>&#8722;15%</TD><TD>&#8722;5%</TD></TR>
+<TR><TD>半兽人／Half-Orc</TD><TD>&#8722;5%</TD><TD>+5%</TD><TD>+5%</TD><TD>—</TD><TD>—</TD><TD>—</TD><TD>+5%</TD><TD>&#8722;10%</TD></TR>
 </TABLE>

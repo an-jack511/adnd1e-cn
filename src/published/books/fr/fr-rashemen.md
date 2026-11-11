@@ -1,5 +1,5 @@
 
-## 莱瑟曼 RASHEMEN（Rah-SHEH-men）
+## 莱瑟曼 RASHEMEN Rah-SHEH-men
 
 ### 概览 AT A GLANCE
 

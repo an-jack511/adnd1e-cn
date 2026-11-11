@@ -29,19 +29,19 @@
 
 黄蛇隘口地区的泽恩塔林巡逻队最强，每支至少有 40 名 2 级战士，另有一名 1–6 级魔法师和一名拥有相近等级的班恩牧师。
 
-## 尤昂 YHAUNN（Uh-HAWN）
+## 尤昂 YHAUNN Uh-HAWN
 
 ### 概览 AT A GLANCE
 
 尤昂是桑比亚在龙湾的港口。虽然它不是该国的古都，却是保留原始（乔恩达斯）名称的最古老城市。见“桑比亚”。
 
-## 伊拉丰 YLRAPHON（Ee-ul-RAFF-on）
+## 伊拉丰 YLRAPHON Ee-ul-RAFF-on
 
 ### 概览 AT A GLANCE
 
 伊拉丰是龙湾北端一座小型、类似谷地城镇的地方。这里居民的性格类似谷地人；他们或许是同一族群的早期定居者，那些人没有渡过利斯河，没有在精灵议会树林边缘定居。
 
-## 尤拉什 YULASH（Yoo-LASH）
+## 尤拉什 YULASH Yoo-LASH
 
 ### 概览 AT A GLANCE
 
@@ -59,7 +59,7 @@
 
 其中最重要的法师、也是尤拉什现任指挥官，是萨梅里尔，一名 10 级守序邪恶魔法师；他的助手是 6 级和 8 级魔法师。
 
-## 泽恩塔林 THE ZHENTARIM（Zz-HENT-ah-rim）
+## 泽恩塔林 THE ZHENTARIM Zz-HENT-ah-rim
 
 ### 概览 AT A GLANCE
 
@@ -77,7 +77,7 @@
 
 此外，泽恩塔林非常适合冒险穿越阿纳洛奇大沙漠的中心，以寻找安全的贸易路线，或寻找失落文明留下的财富与魔法。
 
-## 散提尔堡 ZHENTIL KEEP（Zz-HENT-il Keep）
+## 散提尔堡 ZHENTIL KEEP Zz-HENT-il Keep
 
 ### 概览 AT A GLANCE
 

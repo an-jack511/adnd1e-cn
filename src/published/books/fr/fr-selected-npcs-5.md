@@ -16,7 +16,7 @@
 
 低语持有姆森图尔遗失七戒中的两枚（杜斯特的同伴后来把戒指交给了当地神殿）。他残酷、冷静而工于算计，使用的私人符文是一只黑色、像爪子一样紧握的人手。
 
-## 约雷尔 Yorel（YORE-el）
+## 约雷尔 Yorel YORE-el
 
 <strong>据点：</strong>在散提尔堡控制的谷地诸国服役。<strong>3 级战士。</strong>阵营／信仰：<strong>中立邪恶，坦帕斯与班恩。</strong>种族／性别：<strong>人类男性。</strong>
 
@@ -28,7 +28,7 @@
 
 约雷尔是以少量兵力作战的专家，尤其擅长读取敌方行动并正确预判未来行动。他对内海北部地形的熟悉程度，在世人中几乎无人能及；他也可能比任何人都更了解活跃于当地的德鲁伊和巡林客。目前他正为散提尔堡在月海南部／谷地北部地区指挥特殊袭击。
 
-## 赞德斯·丹希尔 Zandess Danthiir（ZAHN-dess DAN-theer）
+## 赞德斯·丹希尔 Zandess Danthiir ZAHN-dess DAN-theer
 
 <strong>据点：</strong>龙湾地区游荡。<strong>2 级圣武士。</strong>阵营／信仰：<strong>守序善良，提尔。</strong>种族／性别：<strong>人类女性。</strong>
 

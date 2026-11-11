@@ -1,10 +1,10 @@
-# 骑士（Gygax早期测试稿）
+# 骑士（Gygax 早期测试稿）
 
 骑士精神的骑士 The Chivalrous Cavalier · Dragon #72
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine072.pdf)
 
-## 骑士（Gygax早期测试稿） Cavalier
+## 骑士（Gygax 早期测试稿） Cavalier
 
 本文是 Gygax 对骑士职业的早期测试稿。骑士是战士的子职业，必须服务于某位神祇、贵族、骑士团或事业，并且通常具有贵族背景；角色必须在成为骑士前得到主持人认可。骑士起初必须善良，之后可以在合理、渐进的情况下改变阵营；除特殊规定外，不能多职业或双职业。
 

@@ -1,4 +1,4 @@
-#### 表 VI：楼梯（d20）Table VI: Stairs (d20)
+#### 表 VI：楼梯 d20 Table VI: Stairs (d20)
 
 上下楼梯后，都要重新掷表 I。
 
@@ -25,7 +25,7 @@
 
 <strong>注意：</strong>若进行单人游戏，只在走下台阶之后检查这类门。
 
-#### 表 VII：机关／陷阱（d20）Table VII: Trick/Trap (d20)
+#### 表 VII：机关／陷阱 d20 Table VII: Trick/Trap (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -45,7 +45,7 @@
 | 19 | 幻象墙隐藏着：上方的坑（掷 <strong>1–6</strong>）、下方的滑道（掷 <strong>7–10</strong>），或有怪物与财宝的房间（掷 <strong>11–20</strong>；见表 V）。 |
 | 20 | 滑道通往下方 <strong>1 层</strong>，无法以任何方式向上攀回。 |
 
-##### 表 VII.A：毒气子表（d20）Table VII.A: Gas Sub-Table (d20)
+##### 表 VII.A：毒气子表 d20 Table VII.A: Gas Sub-Table (d20)
 
 | 骰值 | 效果 |
 |---:|---|
@@ -61,7 +61,7 @@
 
 你可以在地下城底层采用粗凿而成的天然隧道；若掷出房间或大厅，则改用下表生成洞穴与洞窟。出口规则不变。
 
-#### 表 VIII：洞穴与洞窟（d20）Table VIII: Caves and Caverns (d20)
+#### 表 VIII：洞穴与洞窟 d20 Table VIII: Caves and Caverns (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -78,7 +78,7 @@
 
 \** 掷骰决定其中是否有湖泊（见表 VIII.B）。
 
-#### 表 VIII.A：水池（d20）Table VIII.A: Pools (d20)
+#### 表 VIII.A：水池 d20 Table VIII.A: Pools (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -90,7 +90,7 @@
 
 见表 VIII.C。
 
-#### 表 VIII.B：湖泊（d20）Table VIII.B: Lakes (d20)
+#### 表 VIII.B：湖泊 d20 Table VIII.B: Lakes (d20)
 
 | 骰值 | 结果 |
 |---:|---|
@@ -103,7 +103,7 @@
 
 \** 成功渡过魔法湖泊的人会抵达另一位面、特殊神殿等地（若没有特殊地图，则按有怪物的普通湖泊处理）；有 **90%** 概率有怪物守卫湖泊。
 
-#### 表 VIII.C：魔法水池*（d20）Table VIII.C: Magic Pools (d20)
+#### 表 VIII.C：魔法水池* d20 Table VIII.C: Magic Pools (d20)
 
 | 骰值 | 结果 |
 |---:|---|

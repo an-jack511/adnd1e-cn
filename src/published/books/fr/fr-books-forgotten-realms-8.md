@@ -1,4 +1,4 @@
-## 奥贝雷尔的工作册（Aubayreer’s Workbook）
+## 奥贝雷尔的工作册 Aubayreer’s Workbook
 
 ### 外观
 

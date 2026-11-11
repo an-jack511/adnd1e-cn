@@ -1,6 +1,6 @@
 ![内海诸地地图，原书 PDF 第 23 页地图裁片](/assets/books/fr/fr_inner_sea_map_page_23_map.png)
 
-## 阿戈拉隆 AGLAROND（AHG-lah-rond）
+## 阿戈拉隆 AGLAROND AHG-lah-rond
 
 ### 概览 AT A GLANCE
 
@@ -33,7 +33,7 @@
 | 正常桨速 | 1 英里／小时 |
 | 最大桨速 | 2 英里／小时 |
 
-## 安姆 AMN（AWW-mmm）
+## 安姆 AMN AWW-mmm
 
 ### 概览 AT A GLANCE
 
@@ -55,7 +55,7 @@
 
 梅萨奇是一名 9 级混乱中立魔法师。他拥有 18／56 的力量和 18 的智力，被认为是这个团体中最聪明的人。他的保镖队伍由从小培养、愿意为保护他献出生命的年轻男女组成，而且全都是 6 级战士。梅萨奇本人生活放荡、腐败而厌世；比起学术著作，他的社交生活更适合在下等酒馆中讨论。
 
-## 埃诺奥克 ANAUROCH（Ann-OAR-ock）
+## 埃诺奥克 ANAUROCH Ann-OAR-ock
 
 *大沙漠（The Great Desert）*
 
@@ -71,7 +71,7 @@
 
 即使是这样的科学，也无法解释这片不断前进的沙漠为何会扩张；巨大的魔法力量或神祇力量可能参与其中。积极的一面是，沙漠的推进迫使贸易沿着荒地形成的瓶颈向南，进入科米尔、桑比亚和谷地的国度，使这些地区因失去奥罗林等大城市而变得更加富裕。
 
-## 阿拉贝尔 ARABEL（AIR-ah-bell）
+## 阿拉贝尔 ARABEL AIR-ah-bell
 
 ### 概览 AT A GLANCE
 

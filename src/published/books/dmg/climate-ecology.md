@@ -35,7 +35,7 @@
 
 <strong>劳动职业</strong>需要艰苦体力劳动，包括耕作、采矿及大多数粗重工作。
 
-## AD&D中的社会阶层与等级 Social Class and Rank in Advanced Dungeons & Dragons
+## AD&D 中的社会阶层与等级 Social Class and Rank in Advanced Dungeons & Dragons
 
 本书没有用于随机决定角色社会地位的表格。因为加入这一因素，要么几乎无法提供有用信息，要么会限制你塑造战役环境的自由。若表格只提供少量信息，不至于强加某种社会结构，那么它本身就毫无用处；若它规定了等级，就预设你的战役一定存在这类阶层，而你未必希望如此。不同政体各有不同的社会阶级、等级或种姓，选择哪一种完全由你决定。
 

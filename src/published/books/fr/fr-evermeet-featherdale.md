@@ -43,7 +43,7 @@
 
 永聚岛的船队过去曾与鲁阿西姆、内兰瑟海盗岛和卡林珊交战，把所有夺取岛屿或宝藏的企图击退。
 
-## 埃尔弗苏尔 ELVERSULT（EL-ver-suhlt）
+## 埃尔弗苏尔 ELVERSULT EL-ver-suhlt
 
 ### 概览 AT A GLANCE
 

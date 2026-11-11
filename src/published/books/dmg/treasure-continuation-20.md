@@ -36,7 +36,7 @@
 | V | 15 |
 | VI | 5 |
 
-#### 莱乌克-O的强力仆役 Mighty Servant of Leuk-O
+#### 莱乌克-O 的强力仆役 Mighty Servant of Leuk-O
 
 最熟悉古代圣物的人相信，此装置与卢姆之机出自同一工艺。著名将军莱乌克-O的强力仆役是一具高耸的自动机械，由水晶、未知金属与奇异纤维材料制成。它高 <strong>9'</strong>以上，深 <strong>6'</strong>，宽约 <strong>4½'</strong>。内部有一个可容纳 <strong>2 名类人生物大小</strong>生物的舱室，外部还可坐 <strong>4–5 人</strong>。
 

@@ -39,7 +39,7 @@
 
 在高于怪物指定等级的地下层，每高出 <strong>1 层</strong>，较强怪物的数量便减少 <strong>1</strong>，但最低仍为 <strong>1 只</strong>。例如，影通常在地下城第 <strong>4 层</strong>遭遇，数量为 <strong>1–3 只</strong>；影属于 IV 级怪物，因此……
 
-### 地下城随机怪物等级判定矩阵（d20）Dungeon Random Monster Level Determination Matrix (d20)
+### 地下城随机怪物等级判定矩阵 d20Dungeon Random Monster Level Determination Matrix (d20)
 
 | 地下城相当层级 | I | II | III | IV | V | VI | VII | VIII | IX | X |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

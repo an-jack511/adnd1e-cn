@@ -1,5 +1,5 @@
 
-## 阿比尔-托里尔 ABEIR-TORIL（Ai-BEER-toh-RILL）
+## 阿比尔-托里尔 ABEIR-TORIL Ai-BEER-toh-RILL
 
 ### 概览 AT A GLANCE
 

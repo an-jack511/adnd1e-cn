@@ -1,10 +1,10 @@
-# 占星师（受雇NPC）
+# 占星师（受雇 NPC）
 
 可雇佣 NPC：预言者…… NPCs For Hire: One Who Predicts... · Dragon #45
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine045.pdf)
 
-## 占星师（受雇NPC） Astrologer
+## 占星师（受雇 NPC） Astrologer
 
 Roger E. Moore · 第 10、11 页
 
@@ -29,7 +29,7 @@ Roger E. Moore · 第 10、11 页
 <h3>属性生成</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">属性</th><th scope="col">掷骰</th><th scope="col">范围</th></tr></thead><tbody><tr><th scope="row">STR</th><td>1d6+6</td><td>7–12</td></tr><tr><th scope="row">INT</th><td>1d4+14</td><td>15–18</td></tr><tr><th scope="row">WIS</th><td>1d6+12</td><td>13–18</td></tr><tr><th scope="row">DEX</th><td>4d4+1</td><td>5–17</td></tr><tr><th scope="row">CON</th><td>3d4+3</td><td>6–15</td></tr><tr><th scope="row">CHA</th><td>2d4+6</td><td>8–14</td></tr></tbody></table></div>
 <h3>预言基本准确率</h3><div class="table-wrap"><table class="data-table compact"><thead><tr><th scope="col">对象范围</th><th scope="col">一周内</th><th scope="col">一月内</th><th scope="col">一年内</th><th scope="col">超过一年</th></tr></thead><tbody><tr><th scope="row">个人</th><td>5%</td><td>15%</td><td>25%</td><td>35%</td></tr><tr><th scope="row">群体：至多100人的队伍、城堡及居民、小部落等</th><td>15%</td><td>25%</td><td>35%</td><td>45%</td></tr><tr><th scope="row">城市：至多1,000人的群体、封地、小城镇等</th><td>25%</td><td>35%</td><td>45%</td><td>55%</td></tr><tr><th scope="row">国家：超过1,000人的群体</th><td>35%</td><td>45%</td><td>55%</td><td>65%</td></tr></tbody></table></div>
 
-## 炼金师（摩尔NPC方案） Alchemist (NPC)
+## 炼金师（摩尔 NPC 方案） Alchemist (NPC)
 
 炼金师是研究和实验物质的人，是魔法世界里的化学家（在较小程度上也是生物化学家）。他们通常擅长调制制造药水所需的魔法物质与奇异物质，也擅长辨识魔法药水。许多炼金师会像贤者专精知识领域那样，专门研究某一方向。
 

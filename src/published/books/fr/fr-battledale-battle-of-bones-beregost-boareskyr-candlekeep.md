@@ -21,7 +21,7 @@
 
 聚集亡灵的神秘力量至少可能来自巫妖或骷髅战士；如果力量更强大，它可能拥有好几种上述亡灵作为仆从。
 
-## 贝雷戈斯特 BEREGOST（BEAR-eh-gost）
+## 贝雷戈斯特 BEREGOST BEAR-eh-gost
 
 ### 概览 AT A GLANCE
 
@@ -53,7 +53,7 @@
 
 凯尔达斯被视为城镇的统治者，但日常事务由五人城镇议会处理。
 
-## 博阿雷斯克尔桥 BOARESKYR BRIDGE（Boar-reh-SKEER）
+## 博阿雷斯克尔桥 BOARESKYR BRIDGE Boar-reh-SKEER
 
 ### 概览 AT A GLANCE
 

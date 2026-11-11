@@ -13,13 +13,13 @@
 
 希尔普的当地领主是前商人杜恩·扎瓦尔。他并非科米尔本地人，但在任职时间很短的情况下努力赢得了希尔普人民与王室的认可。
 
-## 赫林塔尔 HLINTAR（Heh-LIN-tar）
+## 赫林塔尔 HLINTAR Heh-LIN-tar
 
 ### 概览 AT A GLANCE
 
 赫林塔尔是一座小型十字路口城镇，位于龙湾以东，距离卡兰特与坦特里斯都需要一天的急行路程。
 
-## 赫卢萨尔 HLUTHVAR（Heh-LUTH-var）
+## 赫卢萨尔 HLUTHVAR Heh-LUTH-var
 
 ### 概览 AT A GLANCE
 
@@ -35,7 +35,7 @@
 
 城镇由海姆神殿支配，高阶牧首是 13 级牧首毛兰迪尔。城镇民兵由 70 名 2 级战士组成，穿板甲、使用剑和十字弩，由神殿组织。
 
-## 胡达格 HUDDAGH（HUHD-agh）
+## 胡达格 HUDDAGH HUHD-agh
 
 ### 概览 AT A GLANCE
 
@@ -94,7 +94,7 @@
 | 27 | 梅拉的寄宿屋 |
 | 28 | 努尔希的寄宿屋 |
 
-## 因布图 IMPILTUR（IM-pill-tur）
+## 因布图 IMPILTUR IM-pill-tur
 
 ### 概览 AT A GLANCE
 
