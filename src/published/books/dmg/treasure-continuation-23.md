@@ -73,7 +73,7 @@
 |---|---|
 | A | 召唤动物（II 或 III 类），每天 <strong>2 次</strong>。 |
 | B | 根据命令活化物件，每天 <strong>1 次</strong>。 |
-| C | 持有者的护甲等级获得 <strong>+2</strong>，或变为 <strong>AC 0</strong>，取较佳者。 |
+| C | 持有者的护甲等级获得 <strong>+2</strong>，或变为护甲等级 <strong>0</strong>，取较佳者。 |
 | D | 通过触碰造成“治疗重伤术”效果。 |
 | E | 每天 <strong>2 次</strong>魅惑怪物。 |
 | F | 每周 <strong>1 次</strong>魅惑人类。 |

@@ -42,7 +42,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 10 | 17 | 14 | 16 | 10 | 15 |
 
-<strong>THAC0：</strong>9　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>44　<strong>AC：</strong>-2
+<strong>THAC0：</strong>9　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>44　<strong>护甲等级：</strong>-2
 
 雷斯林看起来十分虚弱，但没有人真正确定这种虚弱究竟是真的，还是他故意装出来的，好让敌人产生虚假的安全感。他仍然用低声耳语说话，因为他发现这样能够吸引人们的注意。
 
@@ -72,7 +72,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 18/99 | 10 | 9 | 14 | 17 | 17 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>59　<strong>AC：</strong>0
+<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>59　<strong>护甲等级：</strong>0
 
 <strong>插图说明：</strong>本页含有塔克西丝、菲兹班、派瑞特、雷斯林与索斯爵士的人物插图或数据框。
 
@@ -96,7 +96,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 14 | 13 | 7 | 18 | 14 | 14 |
 
-<strong>THAC0：</strong>6　<strong>阵营：</strong>守序邪恶　<strong>生命值：</strong>68　<strong>AC：</strong>-3
+<strong>THAC0：</strong>6　<strong>阵营：</strong>守序邪恶　<strong>生命值：</strong>68　<strong>护甲等级：</strong>-3
 
 ## 邓肯 Duncan
 
@@ -114,7 +114,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 17 | 10 | 13 | 10 | 15 | 10 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>48　<strong>AC：</strong>-1
+<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>48　<strong>护甲等级：</strong>-1
 
 ## 卡拉斯 Kharas
 
@@ -138,7 +138,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 18/56 | 12 | 17 | 14 | 16 | 10 |
 
-<strong>THAC0：</strong>7　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>78　<strong>AC：</strong>2
+<strong>THAC0：</strong>7　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>78　<strong>护甲等级：</strong>2
 
 ## 瑞加·火铸 Reghar Fireforge
 
@@ -162,7 +162,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 17 | 10 | 8 | 12 | 14 | 12 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>52　<strong>AC：</strong>4
+<strong>THAC0：</strong>12　<strong>阵营：</strong>混乱善良　<strong>生命值：</strong>52　<strong>护甲等级：</strong>4
 
 ## 阿莫瑟斯·帕兰瑟斯 Amothus Palanthus
 
@@ -180,7 +180,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 11 | 14 | 12 | 16 | 11 | 15 |
 
-<strong>THAC0：</strong>14　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>41　<strong>AC：</strong>6
+<strong>THAC0：</strong>14　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>41　<strong>护甲等级：</strong>6
 
 ## 艾力斯坦 Elistan
 
@@ -198,7 +198,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 13 | 14 | 17 | 12 | 12 | 16 |
 
-<strong>THAC0：</strong>10　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>61　<strong>AC：</strong>-1
+<strong>THAC0：</strong>10　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>61　<strong>护甲等级：</strong>-1
 
 艾力斯坦在龙枪战争之前与战争期间的角色，在相关模组中已有描述。战争结束后遇到艾力斯坦的人，会发现这名牧师正在死于一种消耗性疾病。
 
@@ -226,7 +226,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 10 | 18 | 15 | 17 | 9 | 12 |
 
-<strong>THAC0：</strong>13　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>47　<strong>AC：</strong>0
+<strong>THAC0：</strong>13　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>47　<strong>护甲等级：</strong>0
 
 ## 贾斯塔里斯 Justarius
 
@@ -248,7 +248,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 14 | 17 | 14 | 16 | 13 | 12 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>守序中立　<strong>生命值：</strong>48　<strong>AC：</strong>-2
+<strong>THAC0：</strong>12　<strong>阵营：</strong>守序中立　<strong>生命值：</strong>48　<strong>护甲等级：</strong>-2
 
 ## 拉多娜 Ladonna
 
@@ -270,7 +270,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 9 | 18 | 16 | 18 | 12 | 18 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>守序邪恶　<strong>生命值：</strong>49　<strong>AC：</strong>-3
+<strong>THAC0：</strong>12　<strong>阵营：</strong>守序邪恶　<strong>生命值：</strong>49　<strong>护甲等级：</strong>-3
 
 <strong>插图说明：</strong>本页含有瑞加·火铸、阿莫瑟斯·帕兰瑟斯、艾力斯坦、帕萨理安、贾斯塔里斯与拉多娜的人物插图或数据框。
 
@@ -296,7 +296,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 15 | 11 | 13 | 18 | 16 | 13 |
 
-<strong>THAC0：</strong>14　<strong>阵营：</strong>中立　<strong>生命值：</strong>58　<strong>AC：</strong>4
+<strong>THAC0：</strong>14　<strong>阵营：</strong>中立　<strong>生命值：</strong>58　<strong>护甲等级：</strong>4
 
 ## 巴斯昂·科拉夫 Bas-Ohn Koraf
 
@@ -314,7 +314,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 18/90 | 8 | 6 | 10 | 14 | 6 |
 
-<strong>THAC0：</strong>10　<strong>阵营：</strong>中立（邪恶）　<strong>生命值：</strong>55　<strong>AC：</strong>6
+<strong>THAC0：</strong>10　<strong>阵营：</strong>中立（邪恶）　<strong>生命值：</strong>55　<strong>护甲等级：</strong>6
 
 ## 《龙枪传奇》系列书中的玩家角色 Player Characters from the Dragonlance Legends Books
 
@@ -348,7 +348,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 16 | 17 | 16 | 16 | 12 | 14 |
 
-<strong>THAC0：</strong>16　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>41　<strong>AC：</strong>0
+<strong>THAC0：</strong>16　<strong>阵营：</strong>混乱邪恶　<strong>生命值：</strong>41　<strong>护甲等级：</strong>0
 
 ## 克丽珊娜 Crysania
 
@@ -370,7 +370,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 10 | 13 | 12 | 11 | 16 | 16 |
 
-<strong>THAC0：</strong>14　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>63　<strong>AC：</strong>2
+<strong>THAC0：</strong>14　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>63　<strong>护甲等级：</strong>2
 
 <strong>插图说明：</strong>本页含有瑞加·火铸、达拉马、克丽珊娜与卡拉蒙的人物插图或数据框。
 
@@ -388,11 +388,11 @@
 | --- | --- | --- | --- | --- | --- |
 | 18/63 | 12 | 10 | 11 | 17 | 15 |
 
-<strong>THAC0：</strong>10　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>95　<strong>AC：</strong>-1
+<strong>THAC0：</strong>10　<strong>阵营：</strong>守序善良　<strong>生命值：</strong>95　<strong>护甲等级：</strong>-1
 
 卡拉蒙的问题是意志力和自尊，再加上酒精中毒这种疾病。他需要花费相当大的努力才能摆脱这种低谷。
 
-除了其他属性之外，卡拉蒙还拥有一项意志力数值。该数值从 1 开始。每当卡拉蒙经过酒吧或任何提供酒的地方时，他必须掷 1d10。如果结果大于他的意志力，他就会停下来喝醉。如果结果等于或小于意志力，他会坚定自己，经过酒吧。当他醉酒时，无论护甲或其他防护如何，他的攻击骰承受 -10 罚值，且 AC 为 8。
+除了其他属性之外，卡拉蒙还拥有一项意志力数值。该数值从 1 开始。每当卡拉蒙经过酒吧或任何提供酒的地方时，他必须掷 1d10。如果结果大于他的意志力，他就会停下来喝醉。如果结果等于或小于意志力，他会坚定自己，经过酒吧。当他醉酒时，无论护甲或其他防护如何，他的攻击骰承受 -10 罚值，且护甲等级为 8。
 
 只要卡拉蒙每三天至少醉一次，他的攻击骰和护甲等级就各承受 -5 罚值。他要么变得吵闹粗鲁，要么闷闷不乐、哭哭啼啼。他每天不能旅行超过两英里，否则就会倒下。
 
@@ -418,7 +418,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 13 | 9 | 12 | 16 | 14 | 11 |
 
-<strong>THAC0：</strong>16　<strong>阵营：</strong>中立　<strong>生命值：</strong>44　<strong>AC：</strong>1
+<strong>THAC0：</strong>16　<strong>阵营：</strong>中立　<strong>生命值：</strong>44　<strong>护甲等级：</strong>1
 
 ## 蒂卡·维兰·马哲里 Tika Waylan Majere
 
@@ -438,7 +438,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 14 | 9 | 12 | 16 | 13 | 14 |
 
-<strong>THAC0：</strong>12　<strong>阵营：</strong>中立善良　<strong>生命值：</strong>60　<strong>AC：</strong>0
+<strong>THAC0：</strong>12　<strong>阵营：</strong>中立善良　<strong>生命值：</strong>60　<strong>护甲等级：</strong>0
 
 ## 坦尼斯，半精灵 Tanis Half-Elven
 
@@ -458,7 +458,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 16 | 12 | 13 | 16 | 12 | 15 |
 
-<strong>THAC0：</strong>10　<strong>阵营：</strong>中立善良　<strong>生命值：</strong>79　<strong>AC：</strong>-3
+<strong>THAC0：</strong>10　<strong>阵营：</strong>中立善良　<strong>生命值：</strong>79　<strong>护甲等级：</strong>-3
 
 <strong>插图说明：</strong>本页含有卡拉蒙、泰斯、蒂卡与坦尼斯的人物插图或数据框。
 

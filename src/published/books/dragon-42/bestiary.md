@@ -134,7 +134,7 @@ Arn Ashleigh Parker · 第 10、11 页
 
 Arn Ashleigh Parker · 第 9、10 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-5</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>固定 140 点生命值；按 14 HD 攻击</td></tr><tr><th scope="row">巢穴比例</th><td>60%</td></tr><tr><th scope="row">宝藏</th><td>V×2、Y</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>右爪 1–10；左手骨棒 2–24，无棒时左爪 1–10</td></tr><tr><th scope="row">特殊攻击</th><td>强制注视；石化目光；召唤；魔法</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；免疫擒抱压倒；附体防护</td></tr><tr><th scope="row">魔法抗性</th><td>80%</td></tr><tr><th scope="row">智力</th><td>天才</td></tr><tr><th scope="row">阵营</th><td>守序邪恶</td></tr><tr><th scope="row">体型</th><td>M，高 7 英尺</td></tr><tr><th scope="row">灵能</th><td>250；全部攻击／全部防御模式</td></tr><tr><th scope="row">环境</th><td>地狱</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-5</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>固定 140 点生命值；按 14 个生命骰攻击</td></tr><tr><th scope="row">巢穴比例</th><td>60%</td></tr><tr><th scope="row">宝藏</th><td>V×2、Y</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>右爪 1–10；左手骨棒 2–24，无棒时左爪 1–10</td></tr><tr><th scope="row">特殊攻击</th><td>强制注视；石化目光；召唤；魔法</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；免疫擒抱压倒；附体防护</td></tr><tr><th scope="row">魔法抗性</th><td>80%</td></tr><tr><th scope="row">智力</th><td>天才</td></tr><tr><th scope="row">阵营</th><td>守序邪恶</td></tr><tr><th scope="row">体型</th><td>M，高 7 英尺</td></tr><tr><th scope="row">灵能</th><td>250；全部攻击／全部防御模式</td></tr><tr><th scope="row">环境</th><td>地狱</td></tr></tbody></table></div>
 
 塞尔姆沿用 MM 魔鬼通用能力，双足吸盘让它能沿任何坚实表面移动，连蛛网也能攀过。主要攻击为右爪与左手骨棒，失去骨棒后改为双爪。
 
@@ -150,7 +150,7 @@ Arn Ashleigh Parker · 第 9、10 页
 
 Phil Meyers · 第 45 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 HP</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法师制造的构装体</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法师制造的构装体</td></tr></tbody></table></div>
 
 这种金属巨蟹般的构装体由中立或邪恶魔法师制造，目的是收集宝物。需祈愿术、任意物体变形术、巫师之眼、指使术、定身怪物、火球术、侦测魔法，费用和制造时间与铁魔像相同。只有制造者的命令有效，可当面说话或传讯；没有远程观察手段时，制造者须随行。
 
@@ -164,9 +164,9 @@ Phil Meyers · 第 45 页
 
 游荡遭遇有 75% 概率正受主人通过水晶球观察；其余独立行动者中，有 25% 正带财宝返回，这种财宝按完整 F 类生成。也可静伏某处，发现六游戏英寸内有魔法物品便自行袭击。
 
-中央眼可独立攻击，AC −1、15 点生命值，不计入躯体总数；眼毁后失明，除非主人另有命令便尽量退走。可以沿海床在水下行动。火焰攻击只使其减速，其他法术不影响它；锈蚀怪能够伤害它。
+中央眼可独立攻击，护甲等级 −1、15 点生命值，不计入躯体总数；眼毁后失明，除非主人另有命令便尽量退走。可以沿海床在水下行动。火焰攻击只使其减速，其他法术不影响它；锈蚀怪能够伤害它。
 
-<div class="table-wrap"><table><thead><tr><th>生命骰</th><th>XP</th></tr></thead><tbody><tr><td>8</td><td>1,375 + 每 HP 10</td></tr><tr><td>9</td><td>2,100 + 每 HP 12</td></tr><tr><td>10</td><td>3,150 + 每 HP 15</td></tr><tr><td>11–12</td><td>4,550 + 每 HP 16</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>生命骰</th><th>XP</th></tr></thead><tbody><tr><td>8</td><td>1,375 + 每生命值 10 点</td></tr><tr><td>9</td><td>2,100 + 每生命值 12 点</td></tr><tr><td>10</td><td>3,150 + 每生命值 15 点</td></tr><tr><td>11–12</td><td>4,550 + 每生命值 16 点</td></tr></tbody></table></div>
 
 ## 许愿井灵 Well Spirit
 
@@ -174,16 +174,16 @@ Greg Holley · 第 46 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>0</td></tr><tr><th scope="row">移动</th><td>18″／游泳 24″</td></tr><tr><th scope="row">生命骰</th><td>6+2 至 13+4</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>成长会消耗财宝，见正文</td></tr><tr><th scope="row">攻击次数</th><td>2–5 次，依生命骰</td></tr><tr><th scope="row">伤害</th><td>每次 1–10 至 4–32，依生命骰</td></tr><tr><th scope="row">特殊攻击</th><td>溺水；愿望</td></tr><tr><th scope="row">特殊防御</th><td>普通武器半伤；特殊元素抗性</td></tr><tr><th scope="row">魔法抗性</th><td>10%</td></tr><tr><th scope="row">智力</th><td>神等</td></tr><tr><th scope="row">阵营</th><td>中立；10% 为随机阵营</td></tr><tr><th scope="row">体型</th><td>L，长 15–30 英尺、直径 3–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>主物质位面的许愿井；水元素位面</td></tr></tbody></table></div>
 
-许愿井灵诞生于水元素位面，约 250–300 岁时以 6+2 HD 来到主物质位面，独居许愿井，外形类似水元素。每积存相当于每生命骰 5,000金币的财宝就消耗它并成长一级，固定生命值加值依成长表改变；例如 8+2 HD 积累四万金币变为 9+3。达到 13+4 HD 后再积六万五千金币，就传回水元素位面成为成体，因此井中财宝通常低于当前每 HD 五千金币。
+许愿井灵诞生于水元素位面，约 250–300 岁时以 6+2 个生命骰来到主物质位面，独居许愿井，外形类似水元素。每积存相当于每生命骰 5,000金币的财宝就消耗它并成长一级，固定生命值加值依成长表改变；例如 8+2 个生命骰积累四万金币变为 9+3。达到 13+4 个生命骰后再积六万五千金币，就传回水元素位面成为成体，因此井中财宝通常低于当前每个生命骰五千金币。
 
 以伪足拍击，天然命中 19 或 20 时开始使对手溺水。被困者还能生存 2–5 轮，再加体质生命值调整的一半（体质低于 7 时可能为负）；不能攻击，每轮可对龙息豁免，每溺水一轮累积 −2。成功即挣脱，下一轮可战斗，但之后 3–6 轮命中 −3。
 
-普通武器只造成一半伤害。魔法武器也先按半伤，攻击者对法术豁免，武器每一点加值使豁免 +1，成功才造成全伤。电击不造成伤害，火焰造成双倍伤害，并可能蒸发生命骰：总 HP 除以生命骰、向上取整得到每骰生命值，每损失这么多火焰伤害就使有效生命骰减一，攻击与伤害随之降低，但最低 6+2 HD。
+普通武器只造成一半伤害。魔法武器也先按半伤，攻击者对法术豁免，武器每一点加值使豁免 +1，成功才造成全伤。电击不造成伤害，火焰造成双倍伤害，并可能蒸发生命骰：总生命值除以生命骰、向上取整得到每骰生命值，每损失这么多火焰伤害就使有效生命骰减一，攻击与伤害随之降低，但最低 6+2 个生命骰。
 
-寒冷普通攻击造成一倍半伤害。尝试制服时，通常攻击只造成原伤害的四分之三，寒冷改为双倍制服伤害，火焰不能用于制服。制服伤害中 25% 是真实伤害，其余每轮恢复 2 HP；真实与制服伤害合计耗尽生命值即制服。
+寒冷普通攻击造成一倍半伤害。尝试制服时，通常攻击只造成原伤害的四分之三，寒冷改为双倍制服伤害，火焰不能用于制服。制服伤害中 25% 是真实伤害，其余每轮恢复 2 点生命值；真实与制服伤害合计耗尽生命值即制服。
 
-被制服后愿意给予愿望，维持屈服 1d4+6 天。之后若希望它留下，须付至少每 HD 一千金币，并提供直径至少四英尺、深至少五十英尺、石砌井壁且水质合理洁净的井。未制服时，也可通过至少每 HD 一千金币的大礼求愿；一支队伍可获一至三个愿望，依生命骰见表。
+被制服后愿意给予愿望，维持屈服 1d4+6 天。之后若希望它留下，须付至少每个生命骰一千金币，并提供直径至少四英尺、深至少五十英尺、石砌井壁且水质合理洁净的井。未制服时，也可通过至少每个生命骰一千金币的大礼求愿；一支队伍可获一至三个愿望，依生命骰见表。
 
 通常为中立，10% 是随机阵营。善良井灵不愿给邪恶愿望，但被制服仍会服从。无论阵营，若觉得对方太贪心，例如献礼太少或索愿过多，都可能攻击。
 
-<div class="table-wrap"><table><thead><tr><th>生命骰</th><th>愿望</th><th>攻击次数</th><th>每次伤害</th><th>XP</th><th>等级</th></tr></thead><tbody><tr><td>6+2</td><td>1</td><td>2</td><td>1–10</td><td>955 + 每 HP 8</td><td>VII</td></tr><tr><td>7+2</td><td>1</td><td>2</td><td>1–10</td><td>1,450 + 每 HP 10</td><td>VII</td></tr><tr><td>8+2</td><td>1</td><td>2</td><td>1–10</td><td>2,300 + 每 HP 12</td><td>VIII</td></tr><tr><td>9+3</td><td>1</td><td>3</td><td>2–16</td><td>4,050 + 每 HP 14</td><td>VIII</td></tr><tr><td>10+3</td><td>2</td><td>3</td><td>2–16</td><td>4,050 + 每 HP 14</td><td>VIII</td></tr><tr><td>11+3</td><td>2</td><td>3</td><td>2–16</td><td>5,950 + 每 HP 16</td><td>IX</td></tr><tr><td>12+4</td><td>3</td><td>4</td><td>3–24</td><td>6,650 + 每 HP 16</td><td>IX</td></tr><tr><td>13+4</td><td>3</td><td>5</td><td>4–32</td><td>10,400 + 每 HP 18</td><td>X</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>生命骰</th><th>愿望</th><th>攻击次数</th><th>每次伤害</th><th>XP</th><th>等级</th></tr></thead><tbody><tr><td>6+2</td><td>1</td><td>2</td><td>1–10</td><td>955 + 每生命值 8 点</td><td>VII</td></tr><tr><td>7+2</td><td>1</td><td>2</td><td>1–10</td><td>1,450 + 每生命值 10 点</td><td>VII</td></tr><tr><td>8+2</td><td>1</td><td>2</td><td>1–10</td><td>2,300 + 每生命值 12 点</td><td>VIII</td></tr><tr><td>9+3</td><td>1</td><td>3</td><td>2–16</td><td>4,050 + 每生命值 14 点</td><td>VIII</td></tr><tr><td>10+3</td><td>2</td><td>3</td><td>2–16</td><td>4,050 + 每生命值 14 点</td><td>VIII</td></tr><tr><td>11+3</td><td>2</td><td>3</td><td>2–16</td><td>5,950 + 每生命值 16 点</td><td>IX</td></tr><tr><td>12+4</td><td>3</td><td>4</td><td>3–24</td><td>6,650 + 每生命值 16 点</td><td>IX</td></tr><tr><td>13+4</td><td>3</td><td>5</td><td>4–32</td><td>10,400 + 每生命值 18 点</td><td>X</td></tr></tbody></table></div>

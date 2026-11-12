@@ -20,7 +20,7 @@
 
 #### 通晓语言与阅读魔法头盔 Helm of Comprehending Languages and Reading Magic
 
-这顶头盔看起来像普通战盔。穿戴者能够理解 <strong>90%</strong> 的陌生语言与文字，以及 <strong>80%</strong> 的魔法文字。上述百分比指的是能否理解整段言语、文字或铭文，而不是只理解其中一部分；理解魔法文字并不意味着穿戴者因此能够施展其中的法术。其护甲等级与所配套的普通头盔相同，适用于 <strong>AC 5</strong> 的甲胄。
+这顶头盔看起来像普通战盔。穿戴者能够理解 <strong>90%</strong> 的陌生语言与文字，以及 <strong>80%</strong> 的魔法文字。上述百分比指的是能否理解整段言语、文字或铭文，而不是只理解其中一部分；理解魔法文字并不意味着穿戴者因此能够施展其中的法术。其护甲等级与所配套的普通头盔相同，适用于 <strong>护甲等级 5</strong> 的甲胄。
 
 #### 阵营相反头盔 Helm of Opposite Alignment
 
@@ -129,7 +129,7 @@
 \* 吸收 <strong>10–40 环</strong>法术后，石头会耗尽魔力并变成暗灰色，永远失效。  
 \** 吸收 **20–80 环**法术后，石头会耗尽魔力并变成暗灰色，永远失效。
 
-伊恩石遭受攻击时，视为 <strong>AC −4</strong>；它有 <strong>10 点生命值</strong>，受到足够伤害便会被摧毁。其豁免检定如同 <strong>+3</strong>硬金属物品。
+伊恩石遭受攻击时，视为护甲等级为 <strong>−4</strong>；它有 <strong>10 点生命值</strong>，受到足够伤害便会被摧毁。其豁免检定如同 <strong>+3</strong>硬金属物品。
 
 #### 吟游诗人乐器 Instrument of the Bards
 

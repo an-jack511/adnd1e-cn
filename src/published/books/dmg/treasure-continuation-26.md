@@ -94,6 +94,6 @@
 
 #### 舞剑 Sword of Dancing
 
-舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续轮</strong>后才能再次起舞。
+舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续轮</strong>后才能再次起舞。
 
 舞剑起舞期间会离开持有者的手，最远可达 <strong>3"</strong>。独自作战 <strong>4 轮</strong>结束时，会自动回到持有者手中。注意，起舞时剑无法被物理攻击击中……

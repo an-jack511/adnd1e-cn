@@ -22,7 +22,7 @@ Tom Moldvay · 第 23 页
 
 以至少四级战士的尸体制成，魔法保留了生前部分战斗技巧，通常持长剑与盾。更佳防御同时来自盾与相当于敏捷 15 的身手。
 
-实际生命骰 1+1，攻击却按 2 HD，THAC0 为 16。牧师按僵尸驱散。自己不带财宝，但常守卫宝藏。
+实际生命骰 1+1，攻击却按 2 个生命骰，THAC0 为 16。牧师按僵尸驱散。自己不带财宝，但常守卫宝藏。
 
 ## 不散枯骨 Dry Bones
 
@@ -30,7 +30,7 @@ Tom Moldvay · 第 23、24 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>2–20</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>4；固定32HP，攻击按1HD</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–6</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>散架后重组</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
-其他性质同普通骷髅，但必须彻底粉碎全部骨骼才能毁掉。固定 32 HP，虽有 4 HD，命中仍按 1 HD。每承受八点或更多伤害就散成骨堆，一轮后重组并继续攻击；伤害累计至三十二或更多才永久停止。
+其他性质同普通骷髅，但必须彻底粉碎全部骨骼才能毁掉。固定 32 点生命值，虽有 4 个生命骰，命中仍按 1 个生命骰。每承受八点或更多伤害就散成骨堆，一轮后重组并继续攻击；伤害累计至三十二或更多才永久停止。
 
 能主动拆散身体，伪装成旧骨堆，直到被彻底消灭为止。牧师按僵尸驱散。没有自身财宝，常受命守卫财宝。
 
@@ -40,7 +40,7 @@ Tom Moldvay · 第 24 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–12</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>4+2</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>两枚眼睛，各值1,000金币</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–6</td></tr><tr><th scope="row">特殊攻击</th><td>宝石法术</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>低</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
-强大魔法师制造的骷髅，双眼镶同种发光宝石，每对承载一种法术。法力依附骷髅的非生命力，HP 降至零或以下时，宝石失去魔法，仍保留宝石本身价值。
+强大魔法师制造的骷髅，双眼镶同种发光宝石，每对承载一种法术。法力依附骷髅的非生命力，生命值降至零或以下时，宝石失去魔法，仍保留宝石本身价值。
 
 制造者至少十一级，以一次活化死尸原本可活化十一具普通骷髅的力量，集中制造一具较强的宝石眼。可用附魔物品或恒定术把法术放入眼睛；通常限四环以下，与宝石传统性质有关的效果更容易永久化。
 
@@ -186,7 +186,7 @@ Tom Moldvay · 第 32 页
 
 每天可分别召唤 2–24 只食尸鬼、1–6 只妖鬼、1–3 只风行者，各一组；每回合最多用一次召唤能力，连续三回合才能把三组全部叫来。
 
-看见它者须对法术豁免，失败受恐惧影响，再对死亡魔法豁免。第二次也失败者成为完全受控的仆从，只有将温迪戈之主降至零 HP 或以下、杀死它，才能解除控制。
+看见它者须对法术豁免，失败受恐惧影响，再对死亡魔法豁免。第二次也失败者成为完全受控的仆从，只有将温迪戈之主降至零点生命值或以下、杀死它，才能解除控制。
 
 ## 卡利坎扎里 Callicantzari
 

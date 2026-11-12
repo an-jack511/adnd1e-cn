@@ -15,7 +15,7 @@ Len Lakofka · 第 7 页
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S<br>
 <strong>施法时间：</strong>1 轮<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 选择忍寒或耐热，裸身可分别在 −20°F（约 −28.9°C）或 120°F（约 48.9°C）内无害活动。超界每华氏度每小时受一点暴露伤害。
@@ -33,10 +33,10 @@ Len Lakofka · 第 75 页
 <strong>影响范围：</strong>底径 5、顶径 10、高 15 英尺旋风<br>
 <strong>成分：</strong>V、S<br>
 <strong>施法时间：</strong>3 轮<br>
-<strong>豁免检定：</strong>无；旋风内施法特殊
+<strong>豁免：</strong>无；旋风内施法特殊
 </div>
 
-召来最弱气元素：2 HD、AC 4、移动 18″，无有效伤害攻击；普通武器可伤，魔法武器伤害翻倍，气元素位面生物可随意解散。须始终留在施法者 3″ 内。
+召来最弱气元素：2 个生命骰、护甲等级 4、移动 18″，无有效伤害攻击；普通武器可伤，魔法武器伤害翻倍，气元素位面生物可随意解散。须始终留在施法者 3″ 内。
 
 可阻挡并推移气态形体与云团到射程边界，不能驱散或伤害云；熄灭小型非魔法裸火。扬尘时形成直径三十英尺遮蔽云，里面失明、近战命中 −3。旋风内施法须对法术豁免，失败法术浪费且从记忆消失，成功仍受可见度限制。异位面生物不受影响；接触具魔法抗性生物会取消旋风。
 
@@ -51,7 +51,7 @@ Len Lakofka · 第 76 页
 <strong>影响范围：</strong>施法者及至多 100 磅非生物装备<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>7 段<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 材料：与目标石材同类的样本
@@ -71,7 +71,7 @@ Len Lakofka · 第 5、6 页
 <strong>影响范围：</strong>1 生物、物品或区域<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>1 小时<br>
-<strong>豁免检定：</strong>无或成功无效，视仪式
+<strong>豁免：</strong>无或成功无效，视仪式
 </div>
 
 材料：随仪式及宗教组织而异
@@ -95,7 +95,7 @@ Len Lakofka · 第 73、74 页
 <strong>影响范围：</strong>一具尸体<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>1 回合<br>
-<strong>豁免检定：</strong>抵消
+<strong>豁免：</strong>抵消
 </div>
 
 材料：圣水；邪恶牧师改用邪水。

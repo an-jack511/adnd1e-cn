@@ -168,7 +168,7 @@ David Howery · 第 9、12 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>常见</td></tr><tr><th scope="row">出现数量</th><td>4–9</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>24″</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次蹄击或一次角击</td></tr><tr><th scope="row">伤害</th><td>1–2／1–2，或 1–6</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>动物</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>见正文</td></tr></tbody></table></div>
 
-本条代表白尾鹿、骡鹿、狍和黇鹿等较小鹿种的雄鹿，每轮选择一次角击或两次蹄击，不能同时使用。每遇到一只雄鹿，还伴有 1–3 只母鹿与 1–2 只幼鹿；母鹿统计相同但没有角，幼鹿移动 18″、½ HD，没有攻击。
+本条代表白尾鹿、骡鹿、狍和黇鹿等较小鹿种的雄鹿，每轮选择一次角击或两次蹄击，不能同时使用。每遇到一只雄鹿，还伴有 1–3 只母鹿与 1–2 只幼鹿；母鹿统计相同但没有角，幼鹿移动 18″、½ 个生命骰，没有攻击。
 
 ## 麝牛 Musk-ox
 
@@ -178,7 +178,7 @@ David Howery · 第 9、14 页
 
 麝牛生活于北极苔原和森林。遇险时，成体肩并肩围成向外的圆阵，把幼体护在中间；敌人接近十五英尺时，2–5 只成体冲出攻击。冲锋后的两足践踏分别检定。
 
-同一期史前哺乳动物专题另给出大小不同的史前麝牛类型，最高可至 4+5 HD，通常肩高四英尺半；该数值没有覆盖本篇标准麝牛的 4 HD。
+同一期史前哺乳动物专题另给出大小不同的史前麝牛类型，最高可至 4+5 个生命骰，通常肩高四英尺半；该数值没有覆盖本篇标准麝牛的 4 个生命骰。
 
 ## 霍加狓 Okapi
 
@@ -234,4 +234,4 @@ David Howery · 第 9、14 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>常见</td></tr><tr><th scope="row">出现数量</th><td>10–100</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>4″／游泳 12″</td></tr><tr><th scope="row">生命骰</th><td>6；雌性 5</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次象牙攻击或一次尾拍</td></tr><tr><th scope="row">伤害</th><td>1–8／1–8，或 2–7</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>见正文</td></tr></tbody></table></div>
 
-海象的群体和性别说明沿用本篇海豹：约 30% 为雄性，雌性生命骰按括注值 5 HD；原刊没有另列雌性的象牙或尾拍伤害。每根海象牙价值 6–36金币。
+海象的群体和性别说明沿用本篇海豹：约 30% 为雄性，雌性生命骰按括注值 5 个生命骰；原刊没有另列雌性的象牙或尾拍伤害。每根海象牙价值 6–36金币。

@@ -140,7 +140,7 @@
 <TR><TD>21—25</TD><TD>侏儒*</TD><TD>56—00</TD><TD>人类</TD></TR>
 <TR><TD>26—30</TD><TD>半精灵*</TD><TD></TD><TD></TD></TR>
 </TABLE>
-<P><STRONG>盗贼等级 of Thief</STRONG></P>
+<P><STRONG>盗贼等级 Thief Level</STRONG></P>
 <TABLE>
 <TR><TH>d100</TH><TH>等级</TH><TH>d100</TH><TH>等级</TH></TR>
 <TR><TD>01—20</TD><TD>1 级*</TD><TD>81—90</TD><TD>5 级</TD></TR>

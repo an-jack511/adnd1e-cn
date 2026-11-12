@@ -12,10 +12,10 @@ Gary Gygax · 第 7 页
 <strong>等级：</strong>1<br>
 <strong>距离：</strong>3″<br>
 <strong>持续时间：</strong>即时<br>
-<strong>影响范围：</strong>每级 2 等级或 HD<br>
+<strong>影响范围：</strong>每级 2 个等级或生命骰<br>
 <strong>成分：</strong>V、S<br>
 <strong>施法时间：</strong>1 轮<br>
-<strong>豁免检定：</strong>成功无效
+<strong>豁免：</strong>成功无效
 </div>
 
 只影响一种、智力至少二的生物，从最近者开始计算容量。魔法让嘲弄具有明确意义；对法术豁免失败者愤怒冲向施法者，能近战就用身体或手持武器攻击，不改为远程射击。
@@ -31,7 +31,7 @@ Gary Gygax · 第 9 页
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>2 段<br>
-<strong>豁免检定：</strong>依智力
+<strong>豁免：</strong>依智力
 </div>
 
 材料：小羽毛、微型木拍与小馅饼
@@ -49,7 +49,7 @@ Gary Gygax · 第 9 页
 <strong>影响范围：</strong>1 目标；酸液直径 1 英尺<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>4 段<br>
-<strong>豁免检定：</strong>特殊；装备作物品豁免
+<strong>豁免：</strong>特殊；装备作物品豁免
 </div>
 
 材料：飞镖、粉碎大黄叶与蝰蛇胃
@@ -69,7 +69,7 @@ Gary Gygax · 第 54 页
 <strong>影响范围：</strong>每级 1 立方英尺<br>
 <strong>成分：</strong>V、S<br>
 <strong>施法时间：</strong>1 轮<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 生成普通、未加工的石、土、木、水、空气、粪肥、稻草等基础材料，不能生成精炼、加工或制成品，也不能生成动物。生成草等简单植物的基础失败率为 100%，每施法者等级降低一个百分点。
@@ -85,7 +85,7 @@ Gary Gygax · 第 54 页
 <strong>影响范围：</strong>每枚 1 目标；冲击直径 1 英尺<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>5 段<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 材料：硝石、硫磺、松焦油制珠；至少 1,000金币的可重复使用金管
@@ -105,7 +105,7 @@ Gary Gygax · 第 55 页
 <strong>影响范围：</strong>特殊<br>
 <strong>成分：</strong>V、S<br>
 <strong>施法时间：</strong>4 段<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 效果同幻术师三环同名法术；解除幻术师施放的幻术／心灵幻象类法术时，法师按实际等级减二计算效力。
@@ -121,7 +121,7 @@ Gary Gygax · 第 58 页
 <strong>影响范围：</strong>1 生物<br>
 <strong>成分：</strong>V、S、M<br>
 <strong>施法时间：</strong>4 段<br>
-<strong>豁免检定：</strong>无
+<strong>豁免：</strong>无
 </div>
 
 材料：价值至少 500金币的碎紫水晶

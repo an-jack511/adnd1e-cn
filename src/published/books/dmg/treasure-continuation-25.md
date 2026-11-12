@@ -51,7 +51,7 @@
 
 地下城主必须熟悉护甲等级递进系统。由于早期游戏采用从较高基础数字（<strong>9</strong>）向上递进的方式，为了延续熟悉的体系，本书也沿用这一顺序。盾牌是所有角色共有的一种装备，因此必须赋予它 <strong>+1</strong> 因子——也就是比不穿护甲好 <strong>1 个等级（5%）</strong>——并在不同护甲类型之前列出，才能让其作为通用加值加入护甲等级，同时避免高估其价值。
 
-无论护甲类型如何，每增加 <strong>+1</strong>，穿戴者的护甲等级便向更好的方向递进（朝着 <strong>AC 2、AC 1、AC 0、AC −1、AC −2</strong>等）。例如，链甲 <strong>+1</strong> 相当于链甲（<strong>AC 5</strong>）提升一个类别（变为 <strong>AC 4</strong>）；而 <strong>+1 盾牌</strong>相当于 <strong>AC 8</strong>，即在所穿护甲基础上改善两个类别，而非一个（持盾 <strong>+1</strong>，再加盾牌的魔法 <strong>+1</strong>）。
+无论护甲类型如何，每增加 <strong>+1</strong>，穿戴者的护甲等级便向更好的方向递进（朝着护甲等级 <strong>2、1、0、−1、−2</strong>等）。例如，链甲 <strong>+1</strong> 相当于链甲（护甲等级 <strong>5</strong>）提升一个类别（变为护甲等级 <strong>4</strong>）；而 <strong>+1 盾牌</strong>相当于护甲等级 <strong>8</strong>，即在所穿护甲基础上改善两个类别，而非一个（持盾 <strong>+1</strong>，再加盾牌的魔法 <strong>+1</strong>）。
 
 从游戏角度看，所有魔法护甲都应视为几乎没有重量——姑且按普通衣物计算。因此，穿着魔法护甲的角色基础移动率与未着甲者相同。但魔法盾牌重量仍与同尺寸的普通盾牌相同。
 

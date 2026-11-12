@@ -219,7 +219,7 @@
 <TR><TD>板条甲或带甲＋盾／板甲</TD><TD>3</TD></TR>
 <TR><TD>板甲＋盾</TD><TD>2</TD></TR>
 </TABLE>
-<p>魔法护甲或魔法盾牌每有＋1，护甲等级便降低1级。例如，无甲角色使用＋1盾牌时为AC 8，使用＋2盾牌时为AC 7，依此类推；任何魔法护甲的加值也同样处理。每＋1相当于5%的概率变化，因此＋2表示被命中的概率降低10%。＋3魔法板甲配＋5魔法盾等同AC &#8722;6；也可视为AC 2，并令攻击者的攻击骰减8。</p>
+<p>魔法护甲或魔法盾牌每有＋1，护甲等级便降低1级。例如，无甲角色使用＋1盾牌时为护甲等级 8，使用＋2盾牌时为护甲等级 7，依此类推；任何魔法护甲的加值也同样处理。每＋1相当于5%的概率变化，因此＋2表示被命中的概率降低10%。＋3魔法板甲配＋5魔法盾等同护甲等级 &#8722;6；也可视为护甲等级 2，并令攻击者的攻击骰减8。</p>
 <A NAME="weapons"></A>
 <H1>武器 Weapons</H1>
 <p>角色可选武器可能受职业限制；除此之外，就要根据后文列出的因素自行取舍。游戏开始时，武器的价格当然会影响选择；此外还要考虑尺寸、重量、造成的伤害，以及挥舞武器需要的空间。详情见后文。</p>
@@ -301,7 +301,7 @@
 <h3>武器类型、一般数据与命中修正 Weapon Types, General Data, And ‘To Hit’ Adjustments</h3>
 <h4>手持武器 Hand Held Weapons</h4>
 <TABLE>
-<TR><TH>武器类型</TH><TH>长度</TH><TH>所需空间</TH><TH>速度因数</TH><TH>AC 2</TH><TH>AC 3</TH><TH>AC 4</TH><TH>AC 5</TH><TH>AC 6</TH><TH>AC 7</TH><TH>AC 8</TH><TH>AC 9</TH><TH>AC 10</TH></TR>
+<TR><TH>武器类型</TH><TH>长度</TH><TH>所需空间</TH><TH>速度因数</TH><TH>护甲等级 2</TH><TH>护甲等级 3</TH><TH>护甲等级 4</TH><TH>护甲等级 5</TH><TH>护甲等级 6</TH><TH>护甲等级 7</TH><TH>护甲等级 8</TH><TH>护甲等级 9</TH><TH>护甲等级 10</TH></TR>
 <TR><TD>战斧</TD><TD>约4′</TD><TD>4′</TD><TD>7</TD><TD>-3</TD><TD>-2</TD><TD>-1</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD></TR>
 <TR><TD>手斧</TD><TD>约1&#189;′</TD><TD>1′</TD><TD>4</TD><TD>-3</TD><TD>-2</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+1</TD></TR>
 <TR><TD>长柄战斧</TD><TD>约5′</TD><TD>5′</TD><TD>9</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+3</TD></TR>
@@ -349,7 +349,7 @@
 </TABLE>
 <h4>投掷武器与远程武器 Hurled Weapons and Missiles</h4>
 <TABLE>
-<TR><TH>武器类型</TH><TH>射速</TH><TH>短射程</TH><TH>中射程</TH><TH>长射程</TH><TH>AC 2</TH><TH>AC 3</TH><TH>AC 4</TH><TH>AC 5</TH><TH>AC 6</TH><TH>AC 7</TH><TH>AC 8</TH><TH>AC 9</TH><TH>AC 10</TH></TR>
+<TR><TH>武器类型</TH><TH>射速</TH><TH>短射程</TH><TH>中射程</TH><TH>长射程</TH><TH>护甲等级 2</TH><TH>护甲等级 3</TH><TH>护甲等级 4</TH><TH>护甲等级 5</TH><TH>护甲等级 6</TH><TH>护甲等级 7</TH><TH>护甲等级 8</TH><TH>护甲等级 9</TH><TH>护甲等级 10</TH></TR>
 <TR><TD>手斧</TD><TD>1</TD><TD>1</TD><TD>2</TD><TD>3</TD><TD>-4</TD><TD>-3</TD><TD>-2</TD><TD>-1</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>+1</TD></TR>
 <TR><TD>复合长弓</TD><TD>2</TD><TD>6</TD><TD>12</TD><TD>21</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+3</TD><TD>+3</TD></TR>
 <TR><TD>复合短弓</TD><TD>2</TD><TD>5</TD><TD>10</TD><TD>18</TD><TD>-3</TD><TD>-3</TD><TD>-1</TD><TD>0</TD><TD>+1</TD><TD>+2</TD><TD>+2</TD><TD>+2</TD><TD>+3</TD></TR>
@@ -367,7 +367,7 @@
 <TR><TD>长矛</TD><TD>1</TD><TD>1</TD><TD>2</TD><TD>3</TD><TD>-3</TD><TD>-3</TD><TD>-2</TD><TD>-2</TD><TD>-1</TD><TD>0</TD><TD>0</TD><TD>0</TD><TD>0</TD></TR>
 </TABLE>
 <P><FONT color=#808080><EM>斜体表示：若掷骰结果等于或高于命中所需数值，该武器可以把骑乘者打落坐骑。</EM></FONT></P>
-<P><FONT color=#808080>* 若掷骰达到命中AC 8所需的点数，该武器可以击落对手武器。<br>
+<P><FONT color=#808080>* 若掷骰达到命中护甲等级 8所需的点数，该武器可以击落对手武器。<br>
 ** 单手使用时视为长剑。</FONT></P>
 <P><FONT color=#808080>以任何武器攻击对手背后（或其他同样无法察觉攻击的方位）时，命中获得＋2；攻击昏迷、倒地或一动不动的对手时，任何武器命中均获得＋4。</FONT></P>
 <P><FONT color=#808080>射速以回合（用于桌面微缩模型）或轮为基准。射程缩写：S＝短，M＝中，L＝长。</FONT></P>

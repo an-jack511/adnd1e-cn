@@ -40,7 +40,7 @@
 | 能力 | 效果 | 耗费 |
 |:---|:---|:---:|
 | 雷鸣 Thunder | 如武器 +3 击打。被击中者若未通过<strong>权杖、法杖、魔杖豁免</strong>，本轮不能再行动，下一轮先攻自动最后。 | 1 |
-| 闪电 Lightning | 命中时另造成 <strong>2–12 点</strong>电击伤害。即使法杖未命中，放电仍无视金属护甲，以 <strong>AC 10</strong> 判定是否造成电击。 | 1 |
+| 闪电 Lightning | 命中时另造成 <strong>2–12 点</strong>电击伤害。即使法杖未命中，放电仍无视金属护甲，以<strong>护甲等级 10</strong>判定是否造成电击。 | 1 |
 | 雷鸣爆 Thunderclap | 巨响锥体，起点宽 <strong>½″</strong>、长 <strong>4″</strong>、末端宽 <strong>2″</strong>。豁免失败者震慑 <strong>1–2 轮</strong>不能攻击，随后失聪 <strong>1–2 轮</strong>；成功者只失聪 <strong>1–4 轮</strong>。 | 2 |
 | 闪电击 Lightning Stroke | 直线或分叉的 <strong>8d6</strong> 闪电，每颗 1 按 2 计；豁免失败者受 <strong>16–48 点</strong>伤害。 | 2 |
 | 雷鸣与闪电 Thunder & Lightning | 兼有雷鸣爆和分叉闪电；<strong>8d6</strong> 中的 1、2 均按 3 计，伤害 <strong>24–48 点</strong>。豁免成功仍失聪，伤害减半。 | 4 |

@@ -86,9 +86,9 @@
 
 每名 BOOT HILL 角色相当于 <strong>2 级战士</strong>（<strong>2d10</strong>，另加体质加值，如有）。此外，角色每拥有一类枪械战斗经验，就增加一等级战士能力，即增加 <strong>1d10</strong>及相应加值。
 
-<strong>护甲等级 Armor Class：</strong>与 AD&D 相同，因此 BOOT HILL 角色大多至少在初期为 AC 10（无护甲）。
+<strong>护甲等级 Armor Class：</strong>与 AD&D 相同，因此 BOOT HILL 角色大多至少在初期为护甲等级 10（无护甲）。
 
-<strong>豁免检定s：</strong>按上文生命骰部分所确定的战士等级进行豁免。
+<strong>豁免检定：</strong>按上文生命骰部分所确定的战士等级进行豁免。
 
 <strong>战斗能力 Fighting Ability：</strong>按上文生命骰部分所确定的战士等级计算。
 
@@ -100,9 +100,9 @@
 
 <strong>枪械射速 Rate of Firearms：</strong>按 BOOT HILL 所列射速决定每轮可射击次数；多次射击不受惩罚。由于一轮为整整一分钟，你也可以允许射速翻倍，但超出标准射速的每次射击都承受 <strong>−10%</strong>，且惩罚累积：额外射击 <strong>3 次</strong>时，每次额外射击承受 <strong>−30%</strong>。装填速度按每轮的段数计算，因此任何枪械都可在 <strong>1 轮</strong>内完全装填。
 
-<strong>先射判定基础数值修正 First Shot Determination Base Number Adjustments：</strong>依据下表所列武器速度因素、AD&D 飞弹武器射速和武器类别，确定先射判定基础数值。
+<strong>先射判定基础数值修正 First Shot Determination Base Number Adjustments：</strong>依据下表所列武器速度因数、AD&D 飞弹武器射速和武器类别，确定先射判定基础数值。
 
-| 武器速度因素 | AD&D 飞弹武器射速 | 对抗类别 |
+| 武器速度因数 | AD&D 飞弹武器射速 | 对抗类别 |
 |:---:|:---:|:---:|
 | 8–13 | ½ | S |
 | 6–7 | 1 | BA |
@@ -125,7 +125,7 @@
 | 3 | −7 |
 | 2 | −8 |
 
-* 为此项判定，所有魔法护甲均视为 AC 7。请注意，魔法戒指、护腕及类似防护并非护甲，在此判定中视为 AC 10。
+* 为此项判定，所有魔法护甲均视为护甲等级 7。请注意，魔法戒指、护腕及类似防护并非护甲，在此判定中视为护甲等级 10。
 
 <strong>命中判定修正 Hit Determination Modifier：</strong>
 
@@ -184,7 +184,7 @@
 
 <strong>护甲等级 Armor Class：</strong>根据行动发生在 GAMMA WORLD 还是 AD&D 世界，使用下表换算护甲等级：
 
-| GAMMA WORLD 护具 | AD&D AC | AD&D 护甲 | GAMMA WORLD AC |
+| GAMMA WORLD 护具 | AD&D 护甲等级 | AD&D 护甲 | GAMMA WORLD 护甲等级 |
 |:---|:---:|:---|:---:|
 | 无防护 | 10 | 无 | 10 |
 | 仅盾牌 | 9 | 仅盾牌 | 9 |
@@ -193,11 +193,11 @@
 | 鞣制皮甲或植物纤维甲加盾牌，或完整甲壳 | 6 | 镶钉皮甲或环甲加盾牌、鳞甲或链甲 | 6 |
 | 外覆甲／金属护具／完整甲壳 | 5 | 链甲加盾牌、带环甲或札甲 | 5 |
 | 外覆甲或金属护具，或完整甲壳并持盾 | 4 | 带环甲或札甲加盾牌、板甲 | 4 |
-| 动力板甲／塑料甲 | 0 | AC 1 至 −2 的魔法护甲 | 3 |
-| 动力合金／能量甲／惯性甲／动力侦察甲／战斗甲 | −4 | AC −3 至 −4 的魔法护甲 | 2 |
-| 动力攻击甲／突击甲 | −8 | AC −5 至 −10 的魔法护甲 | 1 |
+| 动力板甲／塑料甲 | 0 | 护甲等级 1 至 −2 的魔法护甲 | 3 |
+| 动力合金／能量甲／惯性甲／动力侦察甲／战斗甲 | −4 | 护甲等级 −3 至 −4 的魔法护甲 | 2 |
+| 动力攻击甲／突击甲 | −8 | 护甲等级 −5 至 −10 的魔法护甲 | 1 |
 
-<strong>豁免检定s：</strong>如前所述，GAMMA WORLD 角色对魔法（法术）没有豁免，某些精神突变能力可改变此规则（见下文）。同样，AD&D 角色没有辐射抗力。在 GAMMA WORLD 区域中，对毒素使用 GAMMA WORLD 矩阵；其他地方使用 AD&D 规则。其余豁免均按 AD&D 处理，GAMMA WORLD 角色视为战士；若精神突变能力近似法术，且相应豁免类别对魔法师更有利，则角色可按 <strong>1–5 级魔法师</strong>豁免。能力等级按角色获得的经验值数计算，每一档相当于提升一级：<strong>0–2,999</strong> 点为 1 级，<strong>3,000–5,999</strong> 点为 2 级，<strong>6,000–11,999</strong> 点为 3 级，<strong>12,000–24,999</strong> 点为 4 级，依此类推。
+<strong>豁免检定：</strong>如前所述，GAMMA WORLD 角色对魔法（法术）没有豁免，某些精神突变能力可改变此规则（见下文）。同样，AD&D 角色没有辐射抗力。在 GAMMA WORLD 区域中，对毒素使用 GAMMA WORLD 矩阵；其他地方使用 AD&D 规则。其余豁免均按 AD&D 处理，GAMMA WORLD 角色视为战士；若精神突变能力近似法术，且相应豁免类别对魔法师更有利，则角色可按 <strong>1–5 级魔法师</strong>豁免。能力等级按角色获得的经验值数计算，每一档相当于提升一级：<strong>0–2,999</strong> 点为 1 级，<strong>3,000–5,999</strong> 点为 2 级，<strong>6,000–11,999</strong> 点为 3 级，<strong>12,000–24,999</strong> 点为 4 级，依此类推。
 
 <strong>战斗能力 Fighting Ability：</strong>GAMMA WORLD 角色在 AD&D 世界中按其累计经验值数所对应的等级战斗。AD&D 角色在 GAMMA WORLD 战役中则一律使用后者的命中判定方式，不论等级。
 

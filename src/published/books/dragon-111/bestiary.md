@@ -84,7 +84,7 @@ Kent Colbath · 第 32 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>5–20</td></tr><tr><th scope="row">护甲等级</th><td>3–4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>三次触丝攻击；正文另述每轮三次</td></tr><tr><th scope="row">伤害</th><td>1 HD 为 1；2 HD 为 1d2；3 HD 为 1d3</td></tr><tr><th scope="row">特殊攻击</th><td>重甲按 AC 5 处理</td></tr><tr><th scope="row">特殊防御</th><td>触丝受伤不损本体</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>温暖或寒冷海域的浅海沙底</td></tr></tbody></table></div>
 
-这种有孔虫带着多室外壳，越大的个体壳室越多，AC 也相应变化。它主要在海底食腐，壳体基本停在原地，以穿过壳孔的细长伪足把食物拉回。每次新攻击都须重新判定命中，伤害依生命骰为 1、1d2 或 1d3。统计栏列三次攻击，正文则写每回合三次，原刊两处并不一致。
+这种有孔虫带着多室外壳，越大的个体壳室越多，护甲等级也相应变化。它主要在海底食腐，壳体基本停在原地，以穿过壳孔的细长伪足把食物拉回。每次新攻击都须重新判定命中，伤害依生命骰为 1、1d2 或 1d3。统计栏列三次攻击，正文则写每轮三次，原刊两处并不一致。
 
 触丝容易钻入护甲接缝，比链甲更重的护甲一律按 AC 5 处理。触丝受到任何伤害都会断开，但很容易长出；只有命中主要壳体才造成永久伤害。原刊触丝 AC 所在句缺字，没有完整数值可用。
 
