@@ -58,7 +58,7 @@
 | 1 | 反魔法护罩 Anti-Magic Shell | *放逐术 Banishment* | 嫌恶术/关怀术 Antipathy/Sympathy | 星界法术 Astral Spell |
 | 2 | 毕格比强力之手 Bigby's Forceful Hand | 毕格比擒拿掌 Bigby's Grasping Hand | 毕格比金刚拳 Bigby's Clenched Fist | 毕格比粉碎掌 Bigby's Crushing Hand |
 | 3 | *连锁闪电 Chain Lightning* | 召唤恶魔 Cacodemon | *束缚术 Binding* | *晶化脆裂 Crystalbrittle* |
-| 4 | *触发术 Contingency* | 魅惑植物 Charm Plants | 克隆术 Clone | *能量吸取 Energy Drain* |
+| 4 | *触发术 Contingency* | 魅惑植物 Charm Plants | 克隆术 Clone | *能级吸取 Energy Drain* |
 | 5 | 操控天气 Control Weather | 延迟爆裂火球 Delayed Blast Fireball | *强令术 Demand* | 异界之门 Gate |
 | 6 | 死亡术 Death Spell | 卓姆吉瞬间召唤 Drawmij's Instant Summons | 钢化玻璃 Glassteel | 禁锢术 Imprisonment |
 | 7 | 解离术 Disintegrate | 双重维度 Duo-Dimension | 焚云术 Incendiary Cloud | 流星爆 Meteor Swarm |

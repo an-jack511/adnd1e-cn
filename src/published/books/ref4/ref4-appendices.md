@@ -46,7 +46,7 @@
 下表保留原书《Combined Monsters Statistics Table》的字段顺序。`Y`、`N` 与 `—` 是原书的规则标记；`SA` 为特殊攻击，`SD` 为特殊防御，`MR` 为魔法抗性，`AL` 为阵营。
 
 ```text
-名称                         AC       MV             HD             hp                         #AT  伤害                         THAC0  SA  SD  MR   AL
+名称                         护甲等级 AC  移动速度 MV  生命骰 HD     生命值 hp                 攻击次数 #AT  伤害                         THAC0  SA  SD  MR   AL
 空中仆役 Aerial Servant      3        24"            16             96                         1    8d4                          7      Y   Y   N    N
 空气元素 Air Elemental       2        36"            12             72                         1    2d10                         9      Y   Y   标准 N
 蚁兽 Anhkhegs                2/4      12"(6")         7,8            40,46                      1    3d6+1d4                      14     Y   N   N    N
@@ -166,7 +166,7 @@
 魅魔 Succubus                  0        12"/18"         6              48                          2    1-3/1-3                      13     Y   N   —    LE
 天狗（乌鸦头） Tengu            6        9"/24"          5              28                          1    1-8                          15     Y   N   —    CE
 天狗（人形） Tengu              4        12"/15"         5              34                          2    1-8                          15     Y   Y   N    N
-乌帕雷 Urapper                 3        3"              12             60                          1    4+受害者 AC                  9      Y   Y   标准 N
+乌帕雷 Urapper                 3        3"              12             60                          1    4+受害者护甲等级              9      Y   Y   标准 N
 乌木巨兽 Umber Hulk            2        6"              8+8            55,53,48,47                 3    3-12/3-12/2-10               12     Y   N   —    CE
 紫色真菌 Violet Fungi          7        1"              3              24,18,15,14                1-4  特殊                         16     Y   N   N    N
 战犬 War Dogs                 6        12"             2+2            18,13                      1    2d4                          16     N   N   N    N

@@ -10,13 +10,13 @@ Kent Colbath · 第 28 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>小型常见；中型不常见；大型极罕见</td></tr><tr><th scope="row">出现数量</th><td>小型 2–12；中型 1–6；大型 1–2</td></tr><tr><th scope="row">护甲等级</th><td>小型 7；中型 5；大型 2</td></tr><tr><th scope="row">移动</th><td>小、中型 12″；大型 16″</td></tr><tr><th scope="row">生命骰</th><td>小型 1；中型 2–3；大型 5–8</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>通常无；特殊个体见正文</td></tr><tr><th scope="row">攻击次数</th><td>小型 1–3；中型 1–6；大型 2–8</td></tr><tr><th scope="row">伤害</th><td>每枚刺丝 1d4</td></tr><tr><th scope="row">特殊攻击</th><td>发射刺丝</td></tr><tr><th scope="row">特殊防御</th><td>致盲或惊吓闪光</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S、M 或 L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>淡水、海水，尤其热带清水</td></tr></tbody></table></div>
 
-多甲藻有厚甲片，只有鞭毛根部裸露（AC 9），但身体持续旋转，不能稳定瞄准，因此照表中 AC 攻击。甲片上的小孔各藏一枚刺丝，射出后数小时重新长好；旋转会不断把新的孔转向目标。小型有四十枚，按轻弩箭处理，短／中／远射程为 0–10／11–20／21–30 英尺；中型六十枚，射程 0–15／16–30／31–45 英尺；大型超过一百枚，射程 0–30／31–60／61–90 英尺。
+多甲藻有厚甲片，只有鞭毛根部裸露（护甲等级 9），但身体持续旋转，不能稳定瞄准，因此照表中护甲等级攻击。甲片上的小孔各藏一枚刺丝，射出后数小时重新长好；旋转会不断把新的孔转向目标。小型有四十枚，按轻弩箭处理，短／中／远射程为 0–10／11–20／21–30 英尺；中型六十枚，射程 0–15／16–30／31–45 英尺；大型超过一百枚，射程 0–30／31–60／61–90 英尺。
 
 受击时必定闪光，也可能在生物靠近时主动闪光。10 英尺内须对法术豁免，失败失明 2–7 轮；另须对吐息豁免，计入敏捷加值，否则掉落手中武器。10–30 英尺处，对法术豁免失败者惊吓一轮，不能攻击，并再次检定是否掉落武器。中型使豁免 −1，大型使豁免 −2。每个细胞的闪光能力需要间隔 5–10 轮才能再次使用。
 
 它有两条使身体旋转推进的鞭毛。营养、光线或温度下降时能结合形成厚壁休眠囊，沉底数月乃至数年；环境恢复后再孵出。施法者可用寒冷或黑暗诱导包囊，以便离水搬运。它主要靠光合作用生存，长期黑暗会使其死亡或包囊。传说普罗蒂斯顿把宝物藏在一只大型多甲藻内，由八只中型及许多小型多甲藻和角藻围护，不断按复杂路线游动。
 
-<div class="table-wrap"><table><thead><tr><th>参数</th><th>小型</th><th>中型</th><th>大型</th></tr></thead><tbody><tr><td>频率</td><td>常见</td><td>不常见</td><td>极罕见</td></tr><tr><td>数量</td><td>2–12</td><td>1–6</td><td>1–2</td></tr><tr><td>AC</td><td>7</td><td>5</td><td>2</td></tr><tr><td>移动</td><td>12″</td><td>12″</td><td>16″</td></tr><tr><td>生命骰</td><td>1</td><td>2–3</td><td>5–8</td></tr><tr><td>每轮刺丝</td><td>1–3</td><td>1–6</td><td>2–8</td></tr><tr><td>每枚伤害</td><td>1d4</td><td>1d4</td><td>1d4</td></tr><tr><td>体型</td><td>S</td><td>M</td><td>L</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>参数</th><th>小型</th><th>中型</th><th>大型</th></tr></thead><tbody><tr><td>频率</td><td>常见</td><td>不常见</td><td>极罕见</td></tr><tr><td>数量</td><td>2–12</td><td>1–6</td><td>1–2</td></tr><tr><td>护甲等级</td><td>7</td><td>5</td><td>2</td></tr><tr><td>移动</td><td>12″</td><td>12″</td><td>16″</td></tr><tr><td>生命骰</td><td>1</td><td>2–3</td><td>5–8</td></tr><tr><td>每轮刺丝</td><td>1–3</td><td>1–6</td><td>2–8</td></tr><tr><td>每枚伤害</td><td>1d4</td><td>1d4</td><td>1d4</td></tr><tr><td>体型</td><td>S</td><td>M</td><td>L</td></tr></tbody></table></div>
 
 ## 膝沟藻 Gonyaulax
 
@@ -36,7 +36,7 @@ Kent Colbath · 第 28、30 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>常见</td></tr><tr><th scope="row">出现数量</th><td>2–12</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>1–2</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次尖端刺击</td></tr><tr><th scope="row">伤害</th><td>1d4+1</td></tr><tr><th scope="row">特殊攻击</th><td>旋转钻刺</td></tr><tr><th scope="row">特殊防御</th><td>易用盾偏开</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>淡水及海水</td></tr></tbody></table></div>
 
-角藻的甲壳尖端有锋利棱脊，身体旋转时像钻头一样刺穿目标。攻击 AC 6–10 的轻甲目标时命中 +2；对任何持盾者命中 −3，两项修正可以同时适用。它很容易割穿网，d6 掷出 1–5 就成功。它有两条使身体旋转推进的鞭毛。营养、光线或温度下降时能结合形成厚壁休眠囊，沉底数月乃至数年；环境恢复后再孵出。施法者可用寒冷或黑暗诱导包囊，以便离水搬运。
+角藻的甲壳尖端有锋利棱脊，身体旋转时像钻头一样刺穿目标。攻击护甲等级 6–10 的轻甲目标时命中 +2；对任何持盾者命中 −3，两项修正可以同时适用。它很容易割穿网，d6 掷出 1–5 就成功。它有两条使身体旋转推进的鞭毛。营养、光线或温度下降时能结合形成厚壁休眠囊，沉底数月乃至数年；环境恢复后再孵出。施法者可用寒冷或黑暗诱导包囊，以便离水搬运。
 
 ## 夜光藻 Noctiluca
 
@@ -48,7 +48,7 @@ Kent Colbath · 第 30 页
 
 20 英尺内须以 −3 减值对法术豁免，失败失明 5–15 轮并自动掉落武器；成功也会惊吓一轮，并须另以敏捷修正对吐息豁免，失败掉落武器。20–80 英尺内以 −2 减值对法术豁免，失败惊吓两轮，另须检定是否丢武器。已吞入体内的人也会受闪光影响。每个细胞的闪光能力需要间隔 5–10 轮才能再次使用。
 
-它捕捉 AC 5 或更好目标时命中需要掷出 13 或更高，AC 6–8 需要 14 或更高，无甲者需要 15 或更高。盾牌使它的攻击 −1，但攻击失明者额外 +3，惊吓者额外 +2。
+它捕捉护甲等级 5 或更好目标时命中需要掷出 13 或更高，护甲等级 6–8 需要 14 或更高，无甲者需要 15 或更高。盾牌使它的攻击 −1，但攻击失明者额外 +3，惊吓者额外 +2。
 
 ## 眼虫 Euglena
 
@@ -82,11 +82,11 @@ Kent Colbath · 第 32 页
 
 Kent Colbath · 第 32 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>5–20</td></tr><tr><th scope="row">护甲等级</th><td>3–4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>三次触丝攻击；正文另述每轮三次</td></tr><tr><th scope="row">伤害</th><td>1 HD 为 1；2 HD 为 1d2；3 HD 为 1d3</td></tr><tr><th scope="row">特殊攻击</th><td>重甲按 AC 5 处理</td></tr><tr><th scope="row">特殊防御</th><td>触丝受伤不损本体</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>温暖或寒冷海域的浅海沙底</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>5–20</td></tr><tr><th scope="row">护甲等级</th><td>3–4</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>三次触丝攻击；正文另述每轮三次</td></tr><tr><th scope="row">伤害</th><td>1 生命骰为 1；2 生命骰为 1d2；3 生命骰为 1d3</td></tr><tr><th scope="row">特殊攻击</th><td>重甲按护甲等级 5 处理</td></tr><tr><th scope="row">特殊防御</th><td>触丝受伤不损本体</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>温暖或寒冷海域的浅海沙底</td></tr></tbody></table></div>
 
 这种有孔虫带着多室外壳，越大的个体壳室越多，护甲等级也相应变化。它主要在海底食腐，壳体基本停在原地，以穿过壳孔的细长伪足把食物拉回。每次新攻击都须重新判定命中，伤害依生命骰为 1、1d2 或 1d3。统计栏列三次攻击，正文则写每轮三次，原刊两处并不一致。
 
-触丝容易钻入护甲接缝，比链甲更重的护甲一律按 AC 5 处理。触丝受到任何伤害都会断开，但很容易长出；只有命中主要壳体才造成永久伤害。原刊触丝 AC 所在句缺字，没有完整数值可用。
+触丝容易钻入护甲接缝，比链甲更重的护甲一律按护甲等级 5 处理。触丝受到任何伤害都会断开，但很容易长出；只有命中主要壳体才造成永久伤害。原刊触丝护甲等级所在句缺字，没有完整数值可用。
 
 ## 球房有孔虫 Globigerina
 
@@ -96,7 +96,7 @@ Kent Colbath · 第 32、34 页
 
 球房有孔虫不能主动游动，只能随水漂流并缓慢升沉。同群常分布在不同深度，像一片浮雷，夜间尤其危险。小型螺旋壳四周伸出长而尖锐的刺；除长骑枪或飞射武器外，攻击者通常先受 1d4 刺伤，仍够不到中央壳体，除非先冒险折断长刺。
 
-猎物撞上时先受 1d4 伤害，再遭细丝攻击；命中额外造成 1d2，并使其困在长刺和细丝中。之后每轮可攻击三次，对受困目标命中 +2。逃脱须以 −4 减值对麻痹豁免。
+猎物撞上时先受 1d4 伤害，再遭细丝攻击；命中额外造成 1d2，并使其困在长刺和细丝中。之后每轮可攻击三次，对受困目标的命中检定获得 +2 加值。逃脱须以 −4 减值对麻痹豁免。
 
 ## 网柄黏菌 Dictyostelium
 
@@ -104,12 +104,12 @@ Kent Colbath · 第 34 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>见各阶段表</td></tr><tr><th scope="row">出现数量</th><td>见各阶段表</td></tr><tr><th scope="row">护甲等级</th><td>单细胞 10；聚合体 9；子实体 4；孢子 6</td></tr><tr><th scope="row">移动</th><td>单细胞 6″；聚合体 9″；其他不动</td></tr><tr><th scope="row">生命骰</th><td>生命值随阶段变化，见表</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>单细胞一次；聚合体吞没；其他无</td></tr><tr><th scope="row">伤害</th><td>单细胞 1；聚合体每名被吞者每轮 1d6+1</td></tr><tr><th scope="row">特殊攻击</th><td>聚合体吞没</td></tr><tr><th scope="row">特殊防御</th><td>钝器及飞射对聚合体伤害减半；受重创分散</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>单细胞及孢子 S；聚合体及子实体 L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>潮湿森林，极少进入地城</td></tr></tbody></table></div>
 
-网柄黏菌的各个细胞平时独自觅食，食物不足便聚合成可移动的胶质团，找到合适位置后，前面约三分之一的细胞组成柄状子实体并死去，其余形成孢子，成熟后释放，再在湿地孵出新细胞。各阶段的数量、AC、移动和生命值见表，不能把生命值栏误作生命骰。
+网柄黏菌的各个细胞平时独自觅食，食物不足便聚合成可移动的胶质团，找到合适位置后，前面约三分之一的细胞组成柄状子实体并死去，其余形成孢子，成熟后释放，再在湿地孵出新细胞。各阶段的数量、护甲等级、移动和生命值见表，不能把生命值栏误作生命骰。
 
-单细胞阶段按只有 1–2 点生命值的小型变形虫处理。聚合体受光吸引，行动像没有麻痹能力的胶质方块；每 15 点生命值能吞下一名角色，被吞者每轮受 2–7 点伤害。火把命中 +4，造成 1d6；钝器和飞射伤害减半。一轮内受到 15 点伤害时，它便散成单独细胞。
+单细胞阶段按只有 1–2 点生命值的小型变形虫处理。聚合体受光吸引，行动像没有麻痹能力的胶质方块；每 15 点生命值能吞下一名角色，被吞者每轮受 2–7 点伤害。用火把攻击时，命中检定获得 +4 加值，命中造成 1d6 点伤害；钝器和飞射伤害减半。一轮内受到 15 点伤害时，它便散成单独细胞。
 
-子实体不攻击。早期表面黏湿，火焰只造成一半伤害，成熟后干燥，火焰更有效；若不能一次彻底摧毁，通常反而会喷出大部分孢子，猛击菌柄或菌盖也可能触发释放。孢子直径 1–2 英尺、很轻，直接用火容易消灭，钝器攻击 +1、正常伤害。
+子实体不攻击。早期表面黏湿，火焰只造成一半伤害，成熟后干燥，火焰更有效；若不能一次彻底摧毁，通常反而会喷出大部分孢子，猛击菌柄或菌盖也可能触发释放。孢子直径 1–2 英尺、很轻，直接用火容易消灭；以钝器攻击时，命中检定获得 +1 加值，造成正常伤害。
 
 只要一颗孢子逃过毁灭，就能建立新群落。例如每六小时分裂一次，两天后就有 256 个细胞；实际速度取决于食物，群落很大后总会变慢。
 
-<div class="table-wrap"><table><thead><tr><th>参数</th><th>单细胞</th><th>聚合体</th><th>子实体</th><th>孢子</th></tr></thead><tbody><tr><td>频率</td><td>稀有</td><td>极罕见</td><td>极罕见</td><td>稀有</td></tr><tr><td>数量</td><td>30–600</td><td>1</td><td>1</td><td>1–100</td></tr><tr><td>AC</td><td>10</td><td>9</td><td>4</td><td>6</td></tr><tr><td>移动</td><td>6″</td><td>9″</td><td>无</td><td>无</td></tr><tr><td>生命值</td><td>1–2</td><td>30–600</td><td>20–400</td><td>1</td></tr><tr><td>攻击</td><td>1</td><td>吞没</td><td>无</td><td>无</td></tr><tr><td>伤害</td><td>1</td><td>每名目标每轮 2–7</td><td>无</td><td>无</td></tr><tr><td>体型</td><td>S</td><td>L</td><td>L</td><td>S</td></tr></tbody></table></div><p><a href="/books/dragon-111/protiston/">普罗蒂斯顿与巨型单细胞生物的共通规则</a></p>
+<div class="table-wrap"><table><thead><tr><th>参数</th><th>单细胞</th><th>聚合体</th><th>子实体</th><th>孢子</th></tr></thead><tbody><tr><td>频率</td><td>稀有</td><td>极罕见</td><td>极罕见</td><td>稀有</td></tr><tr><td>数量</td><td>30–600</td><td>1</td><td>1</td><td>1–100</td></tr><tr><td>护甲等级</td><td>10</td><td>9</td><td>4</td><td>6</td></tr><tr><td>移动</td><td>6″</td><td>9″</td><td>无</td><td>无</td></tr><tr><td>生命值</td><td>1–2</td><td>30–600</td><td>20–400</td><td>1</td></tr><tr><td>攻击</td><td>1</td><td>吞没</td><td>无</td><td>无</td></tr><tr><td>伤害</td><td>1</td><td>每名目标每轮 2–7</td><td>无</td><td>无</td></tr><tr><td>体型</td><td>S</td><td>L</td><td>L</td><td>S</td></tr></tbody></table></div><p><a href="/books/dragon-111/protiston/">普罗蒂斯顿与巨型单细胞生物的共通规则</a></p>

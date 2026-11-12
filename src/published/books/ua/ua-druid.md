@@ -25,7 +25,7 @@
 | 3,000,001–3,500,000 | 22 | 15+7 | 奥秘教主 Arcane Hierophant |
 | 3,500,001 以上 | 23 | 15+8 | 秘会教主 Hierophant of the Cabal |
 
-<strong>法术能力 Spell Abilities。</strong> 德鲁伊达到 <strong>16 级</strong>后，所有施法数量仍以 15 级为上限：一环至七环，每环各 <strong>6 个法术</strong>。他们不再获得前述至高德鲁伊及其特殊代理人的额外法术环级，但施法者等级仍随经验等级提高。他们改为获得下列类法术力量。
+<strong>法术能力 Spell Abilities。</strong> 德鲁伊达到 <strong>16 级</strong>后，所有施法数量仍以 15 级为上限：一环至七环，每环各 <strong>6 个法术</strong>。他们不再获得前述至高德鲁伊及其特殊代理人的额外法术环级，但施法者等级仍随经验等级提高。他们改为获得下列类法术能力。
 
 <strong>16 级。</strong> 获得以下能力：
 

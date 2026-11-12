@@ -18,7 +18,7 @@ Tom Moldvay · 第 23 页
 
 Tom Moldvay · 第 23 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>3–24</td></tr><tr><th scope="row">护甲等级</th><td>5；不用盾为6</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>1+1</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–8</td></tr><tr><th scope="row">特殊攻击</th><td>按2HD命中；THAC0 16</td></tr><tr><th scope="row">特殊防御</th><td>敏捷15</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>3–24</td></tr><tr><th scope="row">护甲等级</th><td>5；不用盾为6</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>1+1</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–8</td></tr><tr><th scope="row">特殊攻击</th><td>按2生命骰命中；THAC0 16</td></tr><tr><th scope="row">特殊防御</th><td>敏捷15</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 以至少四级战士的尸体制成，魔法保留了生前部分战斗技巧，通常持长剑与盾。更佳防御同时来自盾与相当于敏捷 15 的身手。
 
@@ -28,7 +28,7 @@ Tom Moldvay · 第 23 页
 
 Tom Moldvay · 第 23、24 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>2–20</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>4；固定32HP，攻击按1HD</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–6</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>散架后重组</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>2–20</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>4；固定32生命值，攻击按1生命骰</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>1–6</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>散架后重组</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 其他性质同普通骷髅，但必须彻底粉碎全部骨骼才能毁掉。固定 32 点生命值，虽有 4 个生命骰，命中仍按 1 个生命骰。每承受八点或更多伤害就散成骨堆，一轮后重组并继续攻击；伤害累计至三十二或更多才永久停止。
 
@@ -86,7 +86,7 @@ Tom Moldvay · 第 27 页
 
 Tom Moldvay · 第 27 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>11；固定50HP</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>3–18；整树为棍时双倍</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>同普通僵尸</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高11英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>11；固定50生命值</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>3–18；整树为棍时双倍</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>同普通僵尸</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高11英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 以许多尸体的骨肉重塑、拼成巨大僵尸，通常用拳头，也可拔起整棵树作棍，使通常伤害加倍。具有普通僵尸的魔法与寒冷免疫，动作迟缓，总失去先攻。每瓶圣水造成 2–8 点伤害。
 
@@ -96,7 +96,7 @@ Tom Moldvay · 第 27 页
 
 Tom Moldvay · 第 27 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>18″</td></tr><tr><th scope="row">生命骰</th><td>33；固定150HP</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>10–60；整树为棍时双倍</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>同普通僵尸</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高33英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>18″</td></tr><tr><th scope="row">生命骰</th><td>33；固定150生命值</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>10–60；整树为棍时双倍</td></tr><tr><th scope="row">特殊攻击</th><td>无</td></tr><tr><th scope="row">特殊防御</th><td>同普通僵尸</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高33英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 以许多尸体的骨肉重塑、拼成巨大僵尸，通常用拳头，也可拔起整棵树作棍，使通常伤害加倍。具有普通僵尸的魔法与寒冷免疫，动作迟缓，总失去先攻。每瓶圣水造成 2–8 点伤害。
 
@@ -106,13 +106,13 @@ Tom Moldvay · 第 27 页
 
 Tom Moldvay · 第 27、28 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>13；固定65HP</td></tr><tr><th scope="row">巢穴比例</th><td>25%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次1–20</td></tr><tr><th scope="row">特殊攻击</th><td>二十二级魔法师／牧师法术；控制与召唤不死生物</td></tr><tr><th scope="row">特殊防御</th><td>仅+1或更好魔法武器可伤</td></tr><tr><th scope="row">魔法抗性</th><td>25%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>200；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>13；固定65生命值</td></tr><tr><th scope="row">巢穴比例</th><td>25%</td></tr><tr><th scope="row">宝藏</th><td>E</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次1–20</td></tr><tr><th scope="row">特殊攻击</th><td>二十二级魔法师／牧师法术；控制与召唤不死生物</td></tr><tr><th scope="row">特殊防御</th><td>仅+1或更好魔法武器可伤</td></tr><tr><th scope="row">魔法抗性</th><td>25%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>200；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 外表像极度腐烂的僵尸，可以控制所有骷髅、僵尸及其不死变体。主要靠二十二级魔法师／牧师施法；为免列八十四个不同法术，主持人可直接视为具有当下所需的任何一至六环魔法师或牧师法术，更高环只用下表列出的法术。
 
 另有全部七种怪物召唤，但只能按表召来骷髅和僵尸变体。近战有两次攻击、每次 1–20 点伤害，不过它偏好魔法。需魔法武器命中，魔法抗性 25%，灵能 200 且拥有所有攻击防御模式。牧师按特殊类别驱散。
 
-<h3>高环法术</h3><div class="table-wrap"><table><thead><tr><th>类别</th><th>法术</th></tr></thead><tbody><tr><td>牧师七环</td><td>毁灭、邪言、枯萎</td></tr><tr><td>魔法七环</td><td>群体隐形、相位门、律令震慑</td></tr><tr><td>魔法八环</td><td>心灵屏障、律令目盲、缚魂</td></tr><tr><td>魔法九环</td><td>禁锢、能量吸取、律令死亡</td></tr></tbody></table></div><h3>怪物召唤替换表</h3><div class="table-wrap"><table><thead><tr><th>召唤法术</th><th>出现的不死生物</th></tr></thead><tbody><tr><td>I</td><td>2–16骷髅</td></tr><tr><td>II</td><td>2–12僵尸、精兵骷髅或电击骷髅</td></tr><tr><td>III</td><td>2–8不散枯骨或饥饿行尸</td></tr><tr><td>IV</td><td>1–6血骨</td></tr><tr><td>V</td><td>1–4不休行尸</td></tr><tr><td>VI</td><td>1–4宝石眼骷髅</td></tr><tr><td>VII</td><td>1–2次级尸骸巨像</td></tr></tbody></table></div>
+<h3>高环法术</h3><div class="table-wrap"><table><thead><tr><th>类别</th><th>法术</th></tr></thead><tbody><tr><td>牧师七环</td><td>毁灭、邪言、枯萎</td></tr><tr><td>魔法七环</td><td>群体隐形、相位门、律令震慑</td></tr><tr><td>魔法八环</td><td>心灵屏障、律令目盲、缚魂</td></tr><tr><td>魔法九环</td><td>禁锢、能级吸取、律令死亡</td></tr></tbody></table></div><h3>怪物召唤替换表</h3><div class="table-wrap"><table><thead><tr><th>召唤法术</th><th>出现的不死生物</th></tr></thead><tbody><tr><td>I</td><td>2–16骷髅</td></tr><tr><td>II</td><td>2–12僵尸、精兵骷髅或电击骷髅</td></tr><tr><td>III</td><td>2–8不散枯骨或饥饿行尸</td></tr><tr><td>IV</td><td>1–6血骨</td></tr><tr><td>V</td><td>1–4不休行尸</td></tr><tr><td>VI</td><td>1–4宝石眼骷髅</td></tr><tr><td>VII</td><td>1–2次级尸骸巨像</td></tr></tbody></table></div>
 
 ## 古拉食尸妖 Ghula
 
@@ -136,13 +136,13 @@ Tom Moldvay · 第 29、30 页
 
 Tom Moldvay · 第 30 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–6</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>6″／飞行18″／游泳12″</td></tr><tr><th scope="row">生命骰</th><td>5</td></tr><tr><th scope="row">巢穴比例</th><td>5%</td></tr><tr><th scope="row">宝藏</th><td>I</td></tr><tr><th scope="row">攻击次数</th><td>四次；咬击依正文</td></tr><tr><th scope="row">伤害</th><td>表列1–4／1–4／1–6／1–6；正文手爪1–6、足爪1–8</td></tr><tr><th scope="row">特殊攻击</th><td>吸取等级</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>50%</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，高7英尺</td></tr><tr><th scope="row">灵能</th><td>100；攻击E，防御F、G</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–6</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>6″／飞行18″／游泳12″</td></tr><tr><th scope="row">生命骰</th><td>5</td></tr><tr><th scope="row">巢穴比例</th><td>5%</td></tr><tr><th scope="row">宝藏</th><td>I</td></tr><tr><th scope="row">攻击次数</th><td>四次；咬击依正文</td></tr><tr><th scope="row">伤害</th><td>表列1–4／1–4／1–6／1–6；正文手爪1–6、足爪1–8</td></tr><tr><th scope="row">特殊攻击</th><td>能级吸取</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>50%</td></tr><tr><th scope="row">智力</th><td>平均</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，高7英尺</td></tr><tr><th scope="row">灵能</th><td>100；攻击E，防御F、G</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 女性上身、巨蛇下身，另有鳞腿、蹼爪及龙翼，手长利爪，口有吸血尖牙。能飞也善泳，虽常捕食儿童，饥饿时也袭击任何其他人。统计栏四击伤害与正文不同，两组数值分别保留。
 
-任一手爪或足爪命中后，会将受害者拉近，但该轮尚未束缚。下一轮若赢得先攻，可用 +2 命中咬住目标；随后每轮自动咬击并吸取一个生命等级，没有豁免。受害者每轮可用开门力量检定挣脱；未脱离时，魔物的手爪、足爪也以 +2 攻击。
+任一手爪或足爪命中后，会将受害者拉近，但该轮尚未束缚。下一轮若赢得先攻，可用 +2 命中咬住目标；随后每轮自动咬击并吸取一个生命能级，没有豁免。受害者每轮可用开门力量检定挣脱；未脱离时，魔物的手爪、足爪也以 +2 攻击。
 
-等级被吸取时外表逐渐变年轻，生命等级或生命骰耗尽则死，尸体成为幼童模样。若死前救出，外表年龄立即恢复，但等级损失仍永久存在。作为次级恶魔，牧师按特殊类别驱散。
+能级被吸取时外表逐渐变年轻，生命能级或生命骰耗尽则死，尸体成为幼童模样。若死前救出，外表年龄立即恢复，但等级损失仍永久存在。作为次级恶魔，牧师按特殊类别驱散。
 
 传说有十二个半秘密名：Guloy、Mora、Budzoy、Marmaroy、Petasis、Pelagia、Bordona、Apletoy、Khamodrakaina、Anabardalaia、Psychanaspastria、Paidopniktria，以及半名 Strigla。原文未把说出这些名字设为一项战斗能力。
 
@@ -180,7 +180,7 @@ Tom Moldvay · 第 32 页
 
 Tom Moldvay · 第 32 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-5</td></tr><tr><th scope="row">移动</th><td>24″</td></tr><tr><th scope="row">生命骰</th><td>30；固定135HP</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次3–30</td></tr><tr><th scope="row">特殊攻击</th><td>召唤；恐惧后支配</td></tr><tr><th scope="row">特殊防御</th><td>无法被驱散</td></tr><tr><th scope="row">魔法抗性</th><td>75%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，高15英尺</td></tr><tr><th scope="row">灵能</th><td>250；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>唯一</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-5</td></tr><tr><th scope="row">移动</th><td>24″</td></tr><tr><th scope="row">生命骰</th><td>30；固定135生命值</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两次</td></tr><tr><th scope="row">伤害</th><td>每次3–30</td></tr><tr><th scope="row">特殊攻击</th><td>召唤；恐惧后支配</td></tr><tr><th scope="row">特殊防御</th><td>无法被驱散</td></tr><tr><th scope="row">魔法抗性</th><td>75%</td></tr><tr><th scope="row">智力</th><td>超天才</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L，高15英尺</td></tr><tr><th scope="row">灵能</th><td>250；全部攻击／防御模式</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 本篇为唯一的强大实体，外形随观察者最深恐惧而变化，并非 #119 的多成员林地怪物种族。可表现为半人半兽的巨大幽影。是否视为不死生物可由主持人决定，但即使采用不死身份，也强大到无法驱散。
 
@@ -202,7 +202,7 @@ Tom Moldvay · 第 33、34、35 页
 
 Tom Moldvay · 第 34、35 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-1</td></tr><tr><th scope="row">移动</th><td>18″</td></tr><tr><th scope="row">生命骰</th><td>18；固定90HP</td></tr><tr><th scope="row">巢穴比例</th><td>10%</td></tr><tr><th scope="row">宝藏</th><td>I</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>6–36</td></tr><tr><th scope="row">特殊攻击</th><td>每日三次特殊困惑</td></tr><tr><th scope="row">特殊防御</th><td>不能驱散，但随多数同族逃跑</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>甚高</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高10英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-1</td></tr><tr><th scope="row">移动</th><td>18″</td></tr><tr><th scope="row">生命骰</th><td>18；固定90生命值</td></tr><tr><th scope="row">巢穴比例</th><td>10%</td></tr><tr><th scope="row">宝藏</th><td>I</td></tr><tr><th scope="row">攻击次数</th><td>一次</td></tr><tr><th scope="row">伤害</th><td>6–36</td></tr><tr><th scope="row">特殊攻击</th><td>每日三次特殊困惑</td></tr><tr><th scope="row">特殊防御</th><td>不能驱散，但随多数同族逃跑</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>甚高</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>L，高10英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>墓地、废墟、地下巢穴或守卫地点</td></tr></tbody></table></div>
 
 黑肤、蓬乱黑毛、大头、红眼、长耳獠牙的人兽混合怪，脚可能是兽蹄或畸形反足，虽跛行般摇晃却跑得快。多在夜间游荡，白日藏洞窟、磨坊下等阴暗处；日光不直接伤害它们，只是尽量回避。喜欢跳舞、贪食人肉，愚蠢易骗，缺乏纪律，常相互妨碍。
 

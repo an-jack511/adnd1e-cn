@@ -16,7 +16,7 @@
 
 | 编号 | 能力与效果 |
 |---|---|
-| A | 持有者的主要属性提高 <strong>1 点</strong>。 |
+| A | 持有者的主属性提高 <strong>1 点</strong>。 |
 | B | 通过触碰复活动尸（<strong>1 具</strong>），每周 <strong>1 次</strong>。 |
 | C | 根据命令产生听觉幻象，每天 <strong>3 次</strong>。 |
 | D | 通过触碰施展“祝福术”。 |

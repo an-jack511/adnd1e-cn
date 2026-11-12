@@ -21,7 +21,7 @@
 
 已晶化而未立即受到保护的物品，只要被金属工具或任何有重量的武器（包括长杖）正常击中，就会粉碎并永久毁坏。
 
-## 能量吸取 Energy Drain（塑能系 Evocation）
+## 能级吸取 Energy Drain（塑能系 Evocation）
 
 <div class="spell-meta">
 <strong>等级：</strong>9<br>

@@ -46,9 +46,9 @@ Tom Moldvay · 第 8 页
 
 Tom Moldvay · 第 8 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>0</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>固定 60 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>50%</td></tr><tr><th scope="row">宝藏</th><td>U</td></tr><tr><th scope="row">攻击次数</th><td>两次前蹄攻击</td></tr><tr><th scope="row">伤害</th><td>1d10／1d10</td></tr><tr><th scope="row">特殊攻击</th><td>吸取生命等级；老化；疾病；锈蚀；开启异界门</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 或更佳武器；恶魔通用抗性</td></tr><tr><th scope="row">魔法抗性</th><td>65%</td></tr><tr><th scope="row">智力</th><td>高</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>150；攻击 A、C、E／防御 A、B、E</td></tr><tr><th scope="row">环境</th><td>奥喀斯的信使</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-1</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>10</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>每两轮三次</td></tr><tr><th scope="row">伤害</th><td>1d8+7</td></tr><tr><th scope="row">特殊攻击</th><td>命中 +4；法术</td></tr><tr><th scope="row">特殊防御</th><td>火焰防护</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>很高</td></tr><tr><th scope="row">阵营</th><td>中立，偏向守序善良</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>火元素位面；主物质位面</td></tr></tbody></table></div>
 
-哈卡穆利是奥喀斯的信使之一，形如苍白、消瘦、遍布疥疮和苍蝇的病马，眼睛朦胧漆黑。与它对视者须对死亡豁免，失败失去三个生命等级，并相应降低生命值和能力。
+哈卡穆利是奥喀斯的信使之一，形如苍白、消瘦、遍布疥疮和苍蝇的病马，眼睛朦胧漆黑。与它对视者须对死亡豁免，失败失去三个生命能级，并相应降低生命值和能力。
 
 战斗时以后腿站起，双前蹄各造成 1–10 点伤害。右蹄命中另使目标老化 3–30 年，无豁免；左蹄命中引发疾病，对死亡豁免成功为轻症，失败为绝症。两次轻症合为重症，三次轻症或一次轻症叠一次重症合为绝症。
 
@@ -150,7 +150,7 @@ Arn Ashleigh Parker · 第 9、10 页
 
 Phil Meyers · 第 45 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法师制造的构装体</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>躯体 3；中央眼 −1</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>8–12；固定 40、45、50、55 或 60 点生命值</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>F，依任务与状态</td></tr><tr><th scope="row">攻击次数</th><td>两次螯击；可同时使用眼束</td></tr><tr><th scope="row">伤害</th><td>2–12／2–12</td></tr><tr><th scope="row">特殊攻击</th><td>麻痹眼束；火球能量；自爆</td></tr><tr><th scope="row">特殊防御</th><td>须 +1 武器；法术防护</td></tr><tr><th scope="row">魔法抗性</th><td>特殊：见正文</td></tr><tr><th scope="row">智力</th><td>半智能</td></tr><tr><th scope="row">阵营</th><td>中立或中立偏邪恶</td></tr><tr><th scope="row">体型</th><td>L，直径 4–6 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>由魔法师制造的构装体</td></tr></tbody></table></div>
 
 这种金属巨蟹般的构装体由中立或邪恶魔法师制造，目的是收集宝物。需祈愿术、任意物体变形术、巫师之眼、指使术、定身怪物、火球术、侦测魔法，费用和制造时间与铁魔像相同。只有制造者的命令有效，可当面说话或传讯；没有远程观察手段时，制造者须随行。
 

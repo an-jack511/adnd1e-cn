@@ -4,7 +4,7 @@
 
 <strong>钥匙：</strong>掷骰生成一张财宝地图，检定加值 <strong>+20%</strong>。地图所指的武器必须是角色可用的；必要时可使用剑（III.G）、杂项武器（III.H）或权杖等（III.D）相关表格。
 
-<strong>骑士：</strong>英雄会成为角色的随从，忠心侍奉直至死亡。其每项属性检定均获得 <strong>+1</strong>，最高可达 <strong>18</strong>。
+<strong>骑士：</strong>英雄会成为角色的随从，忠心侍奉直至死亡。其每项能力检定均获得 <strong>+1</strong>，最高可达 <strong>18</strong>。
 
 <strong>宝石：</strong>代表财富。珠宝均为镶有宝石的黄金制品，每颗宝石的基础价值均为 <strong>1,000金币</strong>。角色会获得等值的经验值数，但最多只足以提升 <strong>1 个经验等级</strong>。
 
@@ -54,7 +54,7 @@
 
 #### 喷嚏粉 Dust of Sneezing and Choking
 
-这种细粉看起来像上述两种魔法粉尘中的任一种。撒出后，<strong>20'</strong>范围内的生物会开始剧烈打喷嚏、咳嗽。未通过对毒药豁免检定者会立即死亡；通过者则因窒息而失去行动能力 <strong>5–20 轮</strong>。
+这种细粉看起来像上述两种魔法粉尘中的任一种。撒出后，<strong>20'</strong>范围内的生物会开始剧烈打喷嚏、咳嗽。未通过对毒素豁免检定者会立即死亡；通过者则因窒息而失去行动能力 <strong>5–20 轮</strong>。
 
 #### 火巨灵囚瓶 Efreeti Bottle
 

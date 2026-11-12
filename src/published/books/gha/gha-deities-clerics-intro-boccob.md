@@ -40,7 +40,7 @@
 
 <strong>Str：力量</strong>  
 <strong>Int：智力</strong>  
-<strong>Wis：感知</strong>  
+<strong>WIS：感知</strong>  
 <strong>Dex：敏捷</strong>  
 <strong>Con：体质</strong>  
 <strong>Cha：魅力</strong>
@@ -75,7 +75,7 @@ AL 中立；WAL 任意；SoC 魔法、奥术知识；SY 星中之眼；CR 紫色
 
 ### 博克布的化身
 
-HD 14；THAC0 13；SpA MU 18；MV 18"；AC -2；hp 62；#AT 1；Dmg 1d6+1 至 4（力量加值 + 可变魔法加值）；MR 50%；SZ M；Str 16，Int 20，Wis 18，Dex 18，Con 16，Cha 18。
+生命骰 14；THAC0 13；SpA MU 18；移动 18"；护甲等级 -2；生命值 62；#AT 1；Dmg 1d6+1 至 4（力量加值 + 可变魔法加值）；MR 50%；SZ M；Str 16，Int 20，感知 18，Dex 18，Con 16，Cha 18。
 
 博克布很少离开自己的大厅。他外出时，会以一名年龄难以判断、身穿飘逸紫色衣袍的英俊男子形象出现。他的衣服上布满闪烁的金色符文，这些符文会不断移动和变化。他对遇到的人冷漠而寡言，既不寻求冲突，也不躲避冲突，但总是试图获得知识。
 

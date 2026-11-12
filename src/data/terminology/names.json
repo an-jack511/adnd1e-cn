@@ -31312,7 +31312,11 @@
     "en": "Magic Jar",
     "zh": "魔魂壶",
     "aliases": [
-      "魔法容器"
+      "魔法容器",
+      "魔法罐",
+      "魔法瓶",
+      "魔魂壶术",
+      "魔法罐术"
     ],
     "status": "verified-exact",
     "ids": [
@@ -37800,11 +37804,13 @@
   {
     "category": "monster",
     "en": "Mind Blast",
-    "zh": "心灵爆破",
+    "zh": "灵能冲击",
     "aliases": [
-      "灵能心灵爆破"
+      "心灵爆破",
+      "灵能心灵爆破",
+      "灵能心灵震爆"
     ],
-    "status": "verified-exact",
+    "status": "adapted-variant",
     "ids": []
   },
   {

@@ -24,7 +24,7 @@
 
 ## 波寇布的祝福之书 Boccob’s Blessed Book
 
-结实的小书，通常高不超过 <strong>12 英寸</strong>、宽 <strong>6 英寸</strong>、厚 <strong>1 英寸</strong>，有的只有 <strong>6 英寸</strong>高。防水，铁银包边并上锁；按“皮革或书籍”作物品豁免时 <strong>+3</strong>。书页可抄写法术，每本最多容纳合计 <strong>45 个法术环位</strong>，因此适合作旅行法术书。随机发现的书几乎不会已有法术，因为主人总会严加保管已抄写的本子。
+结实的小书，通常高不超过 <strong>12 英寸</strong>、宽 <strong>6 英寸</strong>、厚 <strong>1 英寸</strong>，有的只有 <strong>6 英寸</strong>高。防水，铁银包边并上锁；按“皮革或书籍”作物品豁免时 <strong>+3</strong>。书页可抄写法术，所收录法术的环级总和最多为 <strong>45 环</strong>，因此适合作旅行法术书。随机发现的书几乎不会已有法术，因为主人总会严加保管已抄写的本子。
 
 ## 北地靴 Boots of the North
 

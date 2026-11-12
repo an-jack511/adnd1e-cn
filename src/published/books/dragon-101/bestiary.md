@@ -12,9 +12,9 @@ Michael Persinger · 第 41 页
 
 寒地蜥蜴人远亲，用宽扁尾巴作滑板，仅能顺坡滑行，不能自行推进；平地、上坡或短程改用双腿。以肉为食，主要追求猎物。
 
-每群有10%概率属于较聪明的制武器类型，携带简陋飞镖（1–3）、标枪（1–6）和近战矛。滑雪冲锋持矛命中+2、伤害加倍，冲完通常弃矛改用爪。
+每群有10%概率属于较聪明的制武器类型，携带简陋飞镖（1–3）、标枪（1–6）和近战矛。滑雪冲锋持矛可获得 +2 命中加值，伤害加倍，冲完通常弃矛改用爪。
 
-两爪一咬可集中攻击一敌，也可分给两个目标。尾击每两轮一次，滑雪时不能用，使用尾击的同轮不能爪击或咬。被尾击命中者对石化豁免，S型−4，L型+5；失败倒地，丧失本轮尚未进行的攻击，下一轮也只能起身不能攻击。攻击倒地者命中+4；雪蜥下一轮优先攻击自己击倒的敌人。
+两爪一咬可集中攻击一敌，也可分给两个目标。尾击每两轮一次，滑雪时不能用，使用尾击的同轮不能爪击或咬。被尾击命中者对石化豁免，S型−4，L型+5；失败倒地，丧失本轮尚未进行的攻击，下一轮也只能起身不能攻击。攻击倒地者时获得 +4 命中加值；雪蜥下一轮优先攻击自己击倒的敌人。
 
 持武器与低智力类型不会同群或共巢，偶然一起遇敌可暂时合作，之后各走各的。
 
@@ -40,7 +40,7 @@ Scott Bennie · 第 41、42 页
 
 Alex Gray · 第 42、43 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>骨9；皮革或绳索8；金属3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>每英尺身高1HD</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>未另列固定财宝</td></tr><tr><th scope="row">攻击次数</th><td>每对前肢一次</td></tr><tr><th scope="row">伤害</th><td>1–8或依武器；高10英尺以上1–10或更多，另加力量</td></tr><tr><th scope="row">特殊攻击</th><td>依构造</td></tr><tr><th scope="row">特殊防御</th><td>依材料；多种免疫</td></tr><tr><th scope="row">魔法抗性</th><td>依材料和法术</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>5% S；75% M；20% L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>制造者的工坊、居所或守卫地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>骨9；皮革或绳索8；金属3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>每英尺身高1生命骰</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>未另列固定财宝</td></tr><tr><th scope="row">攻击次数</th><td>每对前肢一次</td></tr><tr><th scope="row">伤害</th><td>1–8或依武器；高10英尺以上1–10或更多，另加力量</td></tr><tr><th scope="row">特殊攻击</th><td>依构造</td></tr><tr><th scope="row">特殊防御</th><td>依材料；多种免疫</td></tr><tr><th scope="row">魔法抗性</th><td>依材料和法术</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>5% S；75% M；20% L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>制造者的工坊、居所或守卫地点</td></tr></tbody></table></div>
 
 近似魔像的人工构造体，必须有能实际活动的关节；形态不限于人形。可以混合骨架、盔甲、链条、绳索等零件，但躯干与前肢必须同材质。材料说明提到骨、皮革、金属、木材，护甲等级与抗性表却只列骨、皮革、金属、绳索；本篇未给木质的独立数值。使用魔法物品作零件会使该零件失去原有魔力。
 
@@ -60,11 +60,11 @@ Alex Gray · 第 42、43 页
 
 Gregg Chamberlain · 第 43 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>通常1；城市有5%概率1–4</td></tr><tr><th scope="row">护甲等级</th><td>10</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两爪</td></tr><tr><th scope="row">伤害</th><td>每爪1–3</td></tr><tr><th scope="row">特殊攻击</th><td>幻术、惊吓</td></tr><tr><th scope="row">特殊防御</th><td>黑暗保护</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>S，高3英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>暗室、荒野道路或城市暗巷</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>通常1；城市有5%概率1–4</td></tr><tr><th scope="row">护甲等级</th><td>10</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>2</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>两爪</td></tr><tr><th scope="row">伤害</th><td>每爪1–3</td></tr><tr><th scope="row">特殊攻击</th><td>幻术、惊吓</td></tr><tr><th scope="row">特殊防御</th><td>黑暗保护</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智能</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>S，高3英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>暗室、荒野道路或城市暗巷</td></tr></tbody></table></div>
 
 靠受害者恐惧为生，常找独处的儿童，也袭扰孤身旅人。幻影之力、幻音、惊吓和恒常黑暗各每日两次，均按五级施法。
 
-以半径五英尺黑暗包住自己，外人攻击命中−4；红外与紫外视觉均不能穿透，它自己却能看见外界。黑暗被解除后露出惨白皮肤、大头与圆瞪眼睛。遇到强烈抵抗或失去黑暗便逃往附近暗处，等到能再用黑暗能力。
+以半径五英尺黑暗包住自己，外人攻击它时，命中检定受到 −4 罚值；红外与紫外视觉均不能穿透，它自己却能看见外界。黑暗被解除后露出惨白皮肤、大头与圆瞪眼睛。遇到强烈抵抗或失去黑暗便逃往附近暗处，等到能再用黑暗能力。
 
 经验值：44 + 每生命值 2 点。
 
@@ -102,13 +102,13 @@ Dan Proulx · 第 44 页
 
 K. L. Campbell · 第 44、45 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>9；战士超过9级后每级+3HP</td></tr><tr><th scope="row">巢穴比例</th><td>95%</td></tr><tr><th scope="row">宝藏</th><td>C</td></tr><tr><th scope="row">攻击次数</th><td>一咬一绞</td></tr><tr><th scope="row">伤害</th><td>2–9／3–10</td></tr><tr><th scope="row">特殊攻击</th><td>恐惧、强光、绞杀；可能有魔法与灵能</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>10%；战士超过9级每级再+5%</td></tr><tr><th scope="row">智力</th><td>平均至天才</td></tr><tr><th scope="row">阵营</th><td>任何含中立的阵营</td></tr><tr><th scope="row">体型</th><td>L，长30英尺</td></tr><tr><th scope="row">灵能</th><td>沿用战士生前能力</td></tr><tr><th scope="row">环境</th><td>战士领主的墓穴</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>-3</td></tr><tr><th scope="row">移动</th><td>15″</td></tr><tr><th scope="row">生命骰</th><td>9；战士超过9级后每级+3生命值</td></tr><tr><th scope="row">巢穴比例</th><td>95%</td></tr><tr><th scope="row">宝藏</th><td>C</td></tr><tr><th scope="row">攻击次数</th><td>一咬一绞</td></tr><tr><th scope="row">伤害</th><td>2–9／3–10</td></tr><tr><th scope="row">特殊攻击</th><td>恐惧、强光、绞杀；可能有魔法与灵能</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>10%；战士超过9级每级再+5%</td></tr><tr><th scope="row">智力</th><td>平均至天才</td></tr><tr><th scope="row">阵营</th><td>任何含中立的阵营</td></tr><tr><th scope="row">体型</th><td>L，长30英尺</td></tr><tr><th scope="row">灵能</th><td>沿用战士生前能力</td></tr><tr><th scope="row">环境</th><td>战士领主的墓穴</td></tr></tbody></table></div>
 
 巨蟒因长期接近死去战士领主的墓而被其战魂附身；适用于本职战士，包括双职业、多职业战士，不包括战士子职。鳞片金属色、微光，眼漆黑，能说战士生前会的语言。
 
 每日一次战魂可离蛇显形最多一小时，护甲等级 0、移动 6″，生命骰与生命值同附身状态。目睹者对法术豁免，失败惊逃 4–16 轮；离魂期间蛇恢复普通非魔法状态。结合时保留战士战斗知识、生前魔法能力及灵能。
 
-同轮可以咬和绞；绞圈命中后以后各轮自动造成绞杀伤害，无需再掷命中。强光使敌人命中与伤害−2。落败会装死或逃走；蛇真死后，若以后有蛇可用，战魂可再附一条。
+同轮可以咬和绞；绞圈命中后以后各轮自动造成绞杀伤害，无需再掷命中。强光使敌人的命中检定受到 −2 罚值，伤害掷骰也受到 −2 修正。落败会装死或逃走；蛇真死后，若以后有蛇可用，战魂可再附一条。
 
 附身后的阵营把生前较弱的一轴改为中立，例如混乱邪恶可变混乱中立或中立邪恶。只为保护自己和墓穴战斗，也可能因孤独与旅人交谈、结交朋友，甚至说服队伍复活战士。复活后的战士与蛇仍保持不限距离的心灵联系，拒绝分开。财宝来自陪葬物及守墓所得。
 
@@ -136,9 +136,9 @@ Michael Persinger · 第 45、46 页
 
 四臂石像鬼亲族，与普通石像鬼常合作，后者并不崇拜它。可以同时对多个敌人分配攻击。
 
-使用天然攻击时，至少两臂命中同一目标便抓住，额外撕裂 7 点生命值。力量15以上立即挣脱，但仍受当轮伤害；10–14困住1–3轮再挣脱；9以下只能等它放手。抓握的手臂以后自动造成各自正常伤害，并继续加7点撕裂；其余手臂、咬和尾仍掷命中。被抓者可正常攻击而无命中罚值，但只能用不长于三英尺的武器。
+使用天然攻击时，至少两臂命中同一目标便抓住，额外撕裂 7 点生命值。力量15以上立即挣脱，但仍受当轮伤害；10–14困住1–3轮再挣脱；9以下只能等它放手。抓握的手臂以后自动造成各自正常伤害，并继续加7点撕裂；其余手臂、咬和尾仍掷命中。被抓者仍可正常攻击，不承受命中检定罚值，但只能用不长于三英尺的武器。
 
-也可四臂各执一把不长于四英尺的武器，以力量19获得命中+3、伤害+7；这种模式不能咬、尾击或抓握。
+也可四臂各执一把不长于四英尺的武器；力量19时获得 +3 命中加值和 +7 伤害加值。这种模式不能咬、尾击或抓握。
 
 受伤次轮起每轮再生 1 点生命值，火酸伤害也能恢复；降到 0 点生命值即死亡并停止再生。需+1以上武器伤害，屠石像鬼箭不会直接杀死，但造成当前生命值的 75% 伤害。通常敌视人类，也可能被强者迫使守卫财宝。
 
@@ -148,7 +148,7 @@ Michael Persinger · 第 45、46 页
 
 Bruce Barber · 第 46、47 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–4</td></tr><tr><th scope="row">护甲等级</th><td>-4</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>固定1HP；按12HD攻击</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>所守卫的任何财宝</td></tr><tr><th scope="row">攻击次数</th><td>两拳或两剑</td></tr><tr><th scope="row">伤害</th><td>每击2–16</td></tr><tr><th scope="row">特殊攻击</th><td>爆炸</td></tr><tr><th scope="row">特殊防御</th><td>仅+3以上武器可伤；心智免疫；特殊法术豁免</td></tr><tr><th scope="row">魔法抗性</th><td>5%</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M，高6英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>入口、宝库或创造者身边</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1–4</td></tr><tr><th scope="row">护甲等级</th><td>-4</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>固定1生命值；按12生命骰攻击</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>所守卫的任何财宝</td></tr><tr><th scope="row">攻击次数</th><td>两拳或两剑</td></tr><tr><th scope="row">伤害</th><td>每击2–16</td></tr><tr><th scope="row">特殊攻击</th><td>爆炸</td></tr><tr><th scope="row">特殊防御</th><td>仅+3以上武器可伤；心智免疫；特殊法术豁免</td></tr><tr><th scope="row">魔法抗性</th><td>5%</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>M，高6英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>入口、宝库或创造者身边</td></tr></tbody></table></div>
 
 由至少十六级魔法师和十一级牧师共同制造的精金合金活铠甲，以至少十二级阵亡战士的生命力驱动。需要活化死尸、活化物体、附魔物品、指使术、魔魂壶、死者复活，按秘密仪式制造，至少四个月、每具35,000金币；传世书面仪式仅三份。
 
@@ -186,7 +186,7 @@ Richard Stump · 第 47、48 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>驯养1；野生1–3</td></tr><tr><th scope="row">护甲等级</th><td>4</td></tr><tr><th scope="row">移动</th><td>12″／飞行33″（MC B）</td></tr><tr><th scope="row">生命骰</th><td>1+1至3+3</td></tr><tr><th scope="row">巢穴比例</th><td>驯养无；野生50%</td></tr><tr><th scope="row">宝藏</th><td>野生K、L、M及1–4枚基础价值10金币宝石</td></tr><tr><th scope="row">攻击次数</th><td>两爪一咬一尾，共四次</td></tr><tr><th scope="row">伤害</th><td>1–2／1–2／1–4／1–2</td></tr><tr><th scope="row">特殊攻击</th><td>俯冲、臭气吐息</td></tr><tr><th scope="row">特殊防御</th><td>投射物免疫或减伤</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>低至平均</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，长1½–3½英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>森林与林木山丘</td></tr></tbody></table></div>
 
-可从出生驯养作猎鹰般的宠物，地面迅速，飞行灵活，落在大猎物身上也能完成四击。70%能俯冲，俯冲只能爪击及尾击，命中+4、伤害加倍；天然20另有50%使目标一眼失明，只能用医疗术治好。
+可从出生驯养作猎鹰般的宠物，地面迅速，飞行灵活，落在大猎物身上也能完成四击。70%能俯冲，俯冲只能爪击及尾击，可获得 +4 命中加值并造成双倍伤害；天然20另有50%使目标一眼失明，只能用医疗术治好。
 
 普通投射武器无效；魔法箭与弩矢每伤害骰−1，弩炮、投石机等投射物也每骰−1；不保护免受魔法飞弹。
 
@@ -206,7 +206,7 @@ Roger E. Moore · 第 48、49 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>2</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>5</td></tr><tr><th scope="row">巢穴比例</th><td>5%</td></tr><tr><th scope="row">宝藏</th><td>Q×5、T×5、X</td></tr><tr><th scope="row">攻击次数</th><td>两爪</td></tr><tr><th scope="row">伤害</th><td>每爪1–2</td></tr><tr><th scope="row">特殊攻击</th><td>吸命之吻</td></tr><tr><th scope="row">特殊防御</th><td>选择性隐形、法术免疫、仅魔法武器可伤</td></tr><tr><th scope="row">魔法抗性</th><td>90%</td></tr><tr><th scope="row">智力</th><td>超常</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>男性吟游诗人附近</td></tr></tbody></table></div>
 
-具有美女形象的吸血亡灵，几乎只找男性吟游诗人。超过十级者每月1%概率遇到，通常先隐形观察一个月，再独处时现身。可只让选定受害者看见自己，旁人仍看不见；用侦测隐形搜索，每回合按搜索者每级5%概率发现，普通高智力或高HD生物识破隐形的机会无效。
+具有美女形象的吸血亡灵，几乎只找男性吟游诗人。超过十级者每月1%概率遇到，通常先隐形观察一个月，再独处时现身。可只让选定受害者看见自己，旁人仍看不见；用侦测隐形搜索，每回合按搜索者每级5%概率发现，普通高智力或高生命骰生物识破隐形的机会无效。
 
 首次看见她须以−2对法术豁免，失败如受魅惑。每次见面95%想索吻，每吻自动永久吸去 1 点生命值并加到自己生命值中，最高 40 点生命值；受害者只能每个祈愿取回 1 点生命值。每天察觉吸命的概率为已失生命值 ×1%，察觉前会抗拒旁人怀疑，察觉立即打破魅惑。其他解除办法限祈愿、十级以上魔法师的解除魔法、十级以上牧师的移除诅咒。
 
@@ -232,7 +232,7 @@ Gregory Detwiler · 第 49 页
 
 Gregory Detwiler · 第 49、50 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>3″</td></tr><tr><th scope="row">生命骰</th><td>8–11</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>受害者遗留物</td></tr><tr><th scope="row">攻击次数</th><td>一次拳击</td></tr><tr><th scope="row">伤害</th><td>4–16</td></tr><tr><th scope="row">特殊攻击</th><td>黏胶、类法术</td></tr><tr><th scope="row">特殊防御</th><td>拟态</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智至平均</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>宝库或通道等可伏击地点</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>7</td></tr><tr><th scope="row">移动</th><td>3″</td></tr><tr><th scope="row">生命骰</th><td>8–11</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>受害者遗留物</td></tr><tr><th scope="row">攻击次数</th><td>一次拳击</td></tr><tr><th scope="row">伤害</th><td>4–16</td></tr><tr><th scope="row">特殊攻击</th><td>黏胶、类法术</td></tr><tr><th scope="row">特殊防御</th><td>拟态</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智能至平均</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>宝库或通道等可伏击地点</td></tr></tbody></table></div>
 
 在普通拟形怪模仿木石的能力之外，还能仿造原料金属或成品金属的形状、色泽及纹理。可仿任意纯金属，精金除外，不能仿合金。常变金属匣或柱，利用旁边旧受害者的钱币武器诱敌。
 
@@ -240,7 +240,7 @@ Gregory Detwiler · 第 49、50 页
 
 伪足命中造成 4–16 点伤害并分泌强胶。黏住后，后续攻击把目标当作护甲等级 10，仍计入敏捷及魔法护甲加值；任何一次对怪物造成至少 6 点生命值伤害的命中可破开伪足黏着。
 
-8–9 个生命骰属半智、主动攻击的杀戮类型；10–11 个生命骰较聪明，可能会当地语言并以食物谈判，不必一定攻击。没有自身财宝偏好，留下的物品主要用于设饵。
+8–9 个生命骰属半智能、主动攻击的杀戮类型；10–11 个生命骰较聪明，可能会当地语言并以食物谈判，不必一定攻击。没有自身财宝偏好，留下的物品主要用于设饵。
 
 经验值：900 + 每生命值 10 点至 3,400 + 每生命值 16 点。
 
@@ -264,7 +264,7 @@ Ed Greenwood · 第 50、51 页
 
 Richard Stump · 第 51 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>一丛</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>主株1″／活动藤9″</td></tr><tr><th scope="row">生命骰</th><td>1–10</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>Q×2；其他见正文</td></tr><tr><th scope="row">攻击次数</th><td>每条活动藤一次</td></tr><tr><th scope="row">伤害</th><td>每藤1–4；勒颈1–6/轮</td></tr><tr><th scope="row">特殊攻击</th><td>偷物、勒颈</td></tr><tr><th scope="row">特殊防御</th><td>钝器与寒冷抗性</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S至M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>森林、丛林、聚落或怪物巢穴附近</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>一丛</td></tr><tr><th scope="row">护甲等级</th><td>6</td></tr><tr><th scope="row">移动</th><td>主株1″／活动藤9″</td></tr><tr><th scope="row">生命骰</th><td>1–10</td></tr><tr><th scope="row">巢穴比例</th><td>100%</td></tr><tr><th scope="row">宝藏</th><td>Q×2；其他见正文</td></tr><tr><th scope="row">攻击次数</th><td>每条活动藤一次</td></tr><tr><th scope="row">伤害</th><td>每藤1–4；勒颈1–6/轮</td></tr><tr><th scope="row">特殊攻击</th><td>偷物、勒颈</td></tr><tr><th scope="row">特殊防御</th><td>钝器与寒冷抗性</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智能</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S至M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>森林、丛林、聚落或怪物巢穴附近</td></tr></tbody></table></div>
 
 有色盲的叶面视觉器官，专取亮闪物件。每个生命骰两条活动藤，各伸五英尺、负重5金币重，多藤可合力；能探背包或袋，每次偷取一轮，成功后藏入主株。
 
@@ -308,9 +308,9 @@ Gregg Chamberlain · 第 52、53 页
 
 两型分别列于表。Ⅰ型近人形，有蹼，住海岸洞窟、小岛或带海水通道的岸塔，常救渔民与落水者；能潜五百英尺深、闭气一小时。Ⅱ型下身鲸尾，有鳃及退化肺，可在水面活动一小时，独居或成对漫游深海，偶居海底洞窟或城堡，珠宝多为大珍珠。
 
-每轮一次拳或武器；Ⅱ型也可用尾，伤害随HD见表。武器可为巨人尺寸的三叉戟、网、矛或水下重弩；Ⅰ型伤害为通常两倍，Ⅱ型三倍。徒手对L型目标天然18以上抓住，立即在正常伤害外加撕裂伤。统计特殊攻击另列投石2–20，Ⅱ型以法术栏替代该项。
+每轮一次拳或武器；Ⅱ型也可用尾，伤害随生命骰见表。武器可为巨人尺寸的三叉戟、网、矛或水下重弩；Ⅰ型伤害为通常两倍，Ⅱ型三倍。徒手对L型目标天然18以上抓住，立即在正常伤害外加撕裂伤。统计特殊攻击另列投石2–20，Ⅱ型以法术栏替代该项。
 
-Ⅱ型下列能力各每日两次、每轮一项：控制天气、预测天气、控制风、召来天气、动物召唤Ⅲ（仅海生物）、他人变形（仅变海生物）。其中5%具有140–190灵能点，攻防模式随机，动物传心、身体武器、鹰耳、千里眼、心灵感应均为十二级熟练等级。
+Ⅱ型下列能力各每日两次、每轮一项：控制天气、预测天气、控制风、召来天气、动物召唤Ⅲ（仅海生物）、他人变形（仅变海生物）。其中5%具有140–190灵能点，攻防模式随机，动物传心、身体武器、鹰耳、千里眼、心灵感应均为十二级掌握等级。
 
 两型寒冷及毕格比诸手法术伤害减半，适用豁免时成功为四分之一。注入的毒素被隔热脂肪层吸收而无效；并非所有摄入或吸入毒都免疫。红外视觉12″，水下声呐六百英尺，可导航和辨识黑暗中的事物。
 
@@ -318,7 +318,7 @@ Gregg Chamberlain · 第 52、53 页
 
 经验值：按类型见表。
 
-<div class="table-wrap"><table><thead><tr><th>参数</th><th>Ⅰ型：两栖海巨人</th><th>Ⅱ型：深海巨人</th></tr></thead><tbody><tr><td>频率</td><td>不常见</td><td>极罕见</td></tr><tr><td>数量</td><td>1–2</td><td>1–2</td></tr><tr><td>AC</td><td>基础6；皮甲改善1–2级，可加盾</td><td>基础6；兽皮或巨贝甲改善2–5级，可加盾</td></tr><tr><td>移动</td><td>12″／游泳30″</td><td>仅游泳30″</td></tr><tr><td>HD</td><td>12</td><td>16–19</td></tr><tr><td>在巢概率</td><td>25%</td><td>10%</td></tr><tr><td>财宝</td><td>E</td><td>E、Q×100</td></tr><tr><td>智力</td><td>甚高</td><td>超常</td></tr><tr><td>阵营</td><td>中立善良</td><td>中立，50%偏善、50%偏恶</td></tr><tr><td>体型</td><td>L，高15英尺</td><td>L，长25英尺以上</td></tr><tr><td>力量</td><td>22</td><td>24</td></tr><tr><td>拳伤</td><td>5–30</td><td>8–48</td></tr><tr><td>武器</td><td>普通同类武器伤害两倍</td><td>普通同类武器伤害三倍</td></tr><tr><td>撕裂追加伤害</td><td>3–18</td><td>4–24</td></tr><tr><td>经验值</td><td>4,800 + 16/HP</td><td>10,250 + 20/HP 至 19,100 + 30/HP</td></tr></tbody></table></div><div class="table-wrap"><table><thead><tr><th>Ⅱ型HD</th><th>尾击伤害</th></tr></thead><tbody><tr><td>16</td><td>2–12</td></tr><tr><td>17</td><td>4–16</td></tr><tr><td>18</td><td>4–24</td></tr><tr><td>19</td><td>5–30</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>参数</th><th>Ⅰ型：两栖海巨人</th><th>Ⅱ型：深海巨人</th></tr></thead><tbody><tr><td>频率</td><td>不常见</td><td>极罕见</td></tr><tr><td>数量</td><td>1–2</td><td>1–2</td></tr><tr><td>护甲等级</td><td>基础6；皮甲改善1–2级，可加盾</td><td>基础6；兽皮或巨贝甲改善2–5级，可加盾</td></tr><tr><td>移动</td><td>12″／游泳30″</td><td>仅游泳30″</td></tr><tr><td>生命骰</td><td>12</td><td>16–19</td></tr><tr><td>在巢概率</td><td>25%</td><td>10%</td></tr><tr><td>财宝</td><td>E</td><td>E、Q×100</td></tr><tr><td>智力</td><td>甚高</td><td>超常</td></tr><tr><td>阵营</td><td>中立善良</td><td>中立，50%偏善、50%偏恶</td></tr><tr><td>体型</td><td>L，高15英尺</td><td>L，长25英尺以上</td></tr><tr><td>力量</td><td>22</td><td>24</td></tr><tr><td>拳伤</td><td>5–30</td><td>8–48</td></tr><tr><td>武器</td><td>普通同类武器伤害两倍</td><td>普通同类武器伤害三倍</td></tr><tr><td>撕裂追加伤害</td><td>3–18</td><td>4–24</td></tr><tr><td>经验值</td><td>4,800 + 16/每点生命值</td><td>10,250 + 20/每点生命值 至 19,100 + 30/每点生命值</td></tr></tbody></table></div><div class="table-wrap"><table><thead><tr><th>Ⅱ型生命骰</th><th>尾击伤害</th></tr></thead><tbody><tr><td>16</td><td>2–12</td></tr><tr><td>17</td><td>4–16</td></tr><tr><td>18</td><td>4–24</td></tr><tr><td>19</td><td>5–30</td></tr></tbody></table></div>
 
 ## 特纳四臂魔 Tener
 
@@ -330,7 +330,7 @@ Stephen Inniss · 第 53 页
 
 有红外、紫外视觉，免疫毒、毒气、麻痹、石化、变形；火冷半伤，仅+1以上武器可伤。
 
-两手命中即抓住目标，余下两爪和咬命中+3。毒咬1–2，另须以−2豁免，失败麻痹6–36回合。被抓者攻击命中−3，可每轮以掰弯铁条机会尝试挣脱，但整轮不能做别的。
+两手命中即抓住目标，余下两爪和咬的攻击获得 +3 命中加值。毒咬1–2，另须以−2豁免，失败麻痹6–36回合。被抓者的命中检定受到 −3 罚值，可每轮以掰弯铁条机会尝试挣脱，但整轮不能做别的。
 
 可以昂贵贿赂换取不攻击，承诺并不可靠；会离开故乡，游历星界、以太及主物质位面搜寻财宝。
 
@@ -342,7 +342,7 @@ Douglas Lent · 第 54 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>星界罕见，其他地方极罕见</td></tr><tr><th scope="row">出现数量</th><td>1；5%为2–8</td></tr><tr><th scope="row">护甲等级</th><td>原刊未给数值</td></tr><tr><th scope="row">移动</th><td>星界17–20″；其他12″</td></tr><tr><th scope="row">生命骰</th><td>5+5</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>旅行纪念品，无固定财宝</td></tr><tr><th scope="row">攻击次数</th><td>一次武器</td></tr><tr><th scope="row">伤害</th><td>依武器</td></tr><tr><th scope="row">特殊攻击</th><td>类法术能力</td></tr><tr><th scope="row">特殊防御</th><td>类法术与心智保护</td></tr><tr><th scope="row">魔法抗性</th><td>25%</td></tr><tr><th scope="row">智力</th><td>天才至超天才</td></tr><tr><th scope="row">阵营</th><td>中立善良</td></tr><tr><th scope="row">体型</th><td>M，高6–6½英尺</td></tr><tr><th scope="row">灵能</th><td>无；免疫灵能攻击与能力</td></tr><tr><th scope="row">环境</th><td>星界及其他位面</td></tr></tbody></table></div>
 
-长寿数千年的星界旅者，金肤银发、发光白眼，追求新知识与体验，通常少带武器。可能携古老首饰、手杖等旅行纪念品，魔力通常不大，但在原世界可能有古董价值。统计AC指向正文，正文未提供数值。
+长寿数千年的星界旅者，金肤银发、发光白眼，追求新知识与体验，通常少带武器。可能携古老首饰、手杖等旅行纪念品，魔力通常不大，但在原世界可能有古董价值。统计护甲等级指向正文，正文未提供数值。
 
 天然真知与巧言，能理解一切口语，有通常紫外视觉。每轮一种十二级类法术：易容、任意门、光亮不限次数，魔法飞弹每日五次，位面转移每日两次，投影每日一次，旭日爆发（如光杖）每日五次，力场墙每日一次。
 
@@ -356,7 +356,7 @@ Douglas Lent · 第 54 页
 
 Douglas Lent · 第 54、55 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>背和头5；腹7</td></tr><tr><th scope="row">移动</th><td>3″</td></tr><tr><th scope="row">生命骰</th><td>4+4</td></tr><tr><th scope="row">巢穴比例</th><td>90%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次咬击</td></tr><tr><th scope="row">伤害</th><td>5–30</td></tr><tr><th scope="row">特殊攻击</th><td>纠缠；5/6突袭</td></tr><tr><th scope="row">特殊防御</th><td>伪装</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L，长9英尺、肩高4英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>亚寒带及北部温带平原</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>罕见</td></tr><tr><th scope="row">出现数量</th><td>1–2</td></tr><tr><th scope="row">护甲等级</th><td>背和头5；腹7</td></tr><tr><th scope="row">移动</th><td>3″</td></tr><tr><th scope="row">生命骰</th><td>4+4</td></tr><tr><th scope="row">巢穴比例</th><td>90%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次咬击</td></tr><tr><th scope="row">伤害</th><td>5–30</td></tr><tr><th scope="row">特殊攻击</th><td>纠缠；5/6突袭</td></tr><tr><th scope="row">特殊防御</th><td>伪装</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智能</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>L，长9英尺、肩高4英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>亚寒带及北部温带平原</td></tr></tbody></table></div>
 
 独猎或配对的肉食兽，猎物稀少才搬迁。短腿、足垫大，上身长着能随植被变色的草状毛，头脚缩到身下像草丘，突袭骰1–5成功；能感知十五英尺内地面振动，有通常紫外视觉。
 
@@ -368,11 +368,11 @@ Douglas Lent · 第 54、55 页
 
 Scott Stansfield · 第 55 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>3–24</td></tr><tr><th scope="row">护甲等级</th><td>全身7；右臂3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>5+3</td></tr><tr><th scope="row">巢穴比例</th><td>33%</td></tr><tr><th scope="row">宝藏</th><td>M、Q×3、Y</td></tr><tr><th scope="row">攻击次数</th><td>一次武器</td></tr><tr><th scope="row">伤害</th><td>依武器，可能加力量</td></tr><tr><th scope="row">特殊攻击</th><td>掷风、灵能、可能远射</td></tr><tr><th scope="row">特殊防御</th><td>按8HD豁免，毒素免疫</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>甚高</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>S，高4英尺</td></tr><tr><th scope="row">灵能</th><td>180；攻击A、D，防御H</td></tr><tr><th scope="row">环境</th><td>丘陵、山地、沙漠，巢穴总在地下</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>3–24</td></tr><tr><th scope="row">护甲等级</th><td>全身7；右臂3</td></tr><tr><th scope="row">移动</th><td>9″</td></tr><tr><th scope="row">生命骰</th><td>5+3</td></tr><tr><th scope="row">巢穴比例</th><td>33%</td></tr><tr><th scope="row">宝藏</th><td>M、Q×3、Y</td></tr><tr><th scope="row">攻击次数</th><td>一次武器</td></tr><tr><th scope="row">伤害</th><td>依武器，可能加力量</td></tr><tr><th scope="row">特殊攻击</th><td>掷风、灵能、可能远射</td></tr><tr><th scope="row">特殊防御</th><td>按8生命骰豁免，毒素免疫</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>甚高</td></tr><tr><th scope="row">阵营</th><td>中立邪恶</td></tr><tr><th scope="row">体型</th><td>S，高4英尺</td></tr><tr><th scope="row">灵能</th><td>180；攻击A、D，防御H</td></tr><tr><th scope="row">环境</th><td>丘陵、山地、沙漠，巢穴总在地下</td></tr></tbody></table></div>
 
-浅蓝肤、红或白发的矮人远亲，全身镶钉皮甲、右臂肩至腕另覆板甲和金属手套，攻击右臂时按护甲等级 3。右臂力量 19、左臂 14，故偏用右手单手武器；短戟等双手武器不能获得力量命中和伤害加值。
+浅蓝肤、红或白发的矮人远亲，全身镶钉皮甲、右臂肩至腕另覆板甲和金属手套，攻击右臂时按护甲等级 3。右臂力量 19、左臂 14，故偏用右手单手武器；短戟等双手武器不能获得力量带来的命中加值和伤害加值。
 
-右臂掷出长6″、宽1″的旋风，持续五轮；原刊没有另列每日次数。风中鸟类速度减半，箭、弩矢、飞镖、投石索石弹与铅弹等轻投射物全失；矛、标枪、锤、匕首等重投射物命中−4。火球、焰击、龙息等火焰攻击每伤害骰−1，火把、灯等小火熄灭。每一道对抗的造风术令持续时间缩短一轮。
+右臂掷出长6″、宽1″的旋风，持续五轮；原刊没有另列每日次数。风中鸟类速度减半，箭、弩矢、飞镖、投石索石弹与铅弹等轻投射物全失；矛、标枪、锤、匕首等重投射物的命中检定受到 −4 罚值。火球、焰击、龙息等火焰攻击每伤害骰−1，火把、灯等小火熄灭。每一道对抗的造风术令持续时间缩短一轮。
 
 按 8 个生命骰怪物豁免、免疫毒，每个另有两项随机次级灵能修能。优先攻击地精、狗头人、矮人、侏儒。武装分布见表，男女战斗能力相同。
 

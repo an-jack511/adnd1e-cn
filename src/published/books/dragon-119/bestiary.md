@@ -74,7 +74,7 @@ Lance Hankins · 第 49、50 页
 
 狼首斯芬克斯体形近似鹰首斯芬克斯，头部如狼，体色由深灰至浅褐。它们偏爱精灵和半身人的血肉，能说本族语、阵营语和通用语。40% 的遭遇还伴有 5–20 名类人生物，通常为豺狼人或兹瓦特。每轮可啃咬一次，并分别用两只爪子攻击。
 
-每天可嚎叫两次。六十英尺内所有生物都须对法术豁免，失败则失聪 2–8 轮。不到 2 个生命骰者还须对恐惧豁免，失败便惊慌逃走；3–5 个生命骰者另作对法术豁免，失败则命中与伤害各 −1。不到 3 个生命骰的生物即使通过相关豁免，也仍受这项 −1 影响。6 个生命骰以上只受失聪影响。原刊没有明确列出恐惧和命中／伤害减值的持续时间。
+每天可嚎叫两次。六十英尺内所有生物都须对法术豁免，失败则失聪 2–8 轮。不到 2 个生命骰者还须对恐惧豁免，失败便惊慌逃走；3–5 个生命骰者另作对法术豁免，失败则命中检定受到 −1 罚值，伤害掷骰也受到 −1 修正。不到 3 个生命骰的生物即使通过相关豁免，也仍受这两项 −1 修正影响。6 个生命骰以上只受失聪影响。原刊没有明确列出恐惧和命中／伤害减值的持续时间。
 
 经验值随生命骰而异：6 个生命骰为 IV／225 + 每生命值 6 点；7 个生命骰为 V／350 + 每生命值 8 点；8 个生命骰为 VI／550 + 每生命值 10 点。
 
@@ -94,7 +94,7 @@ Mark DeForest · 第 50 页
 
 Ed Greenwood · 第 50、51 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>2″</td></tr><tr><th scope="row">生命骰</th><td>2+2 至 4+4</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>偶然积存的遗物</td></tr><tr><th scope="row">攻击次数</th><td>每轮射出 1–4 根毒刺；接触猎物时分泌消化酸</td></tr><tr><th scope="row">伤害</th><td>每刺 1d4+1 加毒；消化酸每轮 2d4</td></tr><tr><th scope="row">特殊攻击</th><td>毒刺</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智慧</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，3–4 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>沼泽、洞穴和森林</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>1</td></tr><tr><th scope="row">护甲等级</th><td>8</td></tr><tr><th scope="row">移动</th><td>2″</td></tr><tr><th scope="row">生命骰</th><td>2+2 至 4+4</td></tr><tr><th scope="row">巢穴比例</th><td>无</td></tr><tr><th scope="row">宝藏</th><td>偶然积存的遗物</td></tr><tr><th scope="row">攻击次数</th><td>每轮射出 1–4 根毒刺；接触猎物时分泌消化酸</td></tr><tr><th scope="row">伤害</th><td>每刺 1d4+1 加毒；消化酸每轮 2d4</td></tr><tr><th scope="row">特殊攻击</th><td>毒刺</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>半智能</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S，3–4 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>沼泽、洞穴和森林</td></tr></tbody></table></div>
 
 萨沙鲁斯是能行走的真菌，专挑小型、弱小、受伤、睡着或失去意识的猎物。表面像白蘑菇或马勃，褐斑夹杂着小眼睛；多条草根般触须从带刺基座延伸。经验值 III／105 + 每生命值 3 点起。
 

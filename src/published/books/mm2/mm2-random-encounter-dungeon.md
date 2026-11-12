@@ -59,7 +59,7 @@
 | 2 | 矮妖精 | Leprechaun | MM1 | 1 |
 | 3 | 火魔蝠或烟魔蝠 | Mephit, Fire or Smoke | FF | 1–3 |
 | 4 | 幻影 | Phantom | MM2 | 1 |
-| 5 | 掘地虫（4–5 HD） | Ankheg, 4–5 HD | MM1 | 1–3 |
+| 5 | 蚁兽（4–5 生命骰） | 蚁兽，4–5 生命骰 | MM1 | 1–3 |
 | 6 | 赭果冻 | Ochre Jelly | MM1 | 1 |
 | 7 | 鸦人 | Kenku | FF | 2–8 |
 | 8 | 食运兽 | Luck Eater | MM2 | 1 |

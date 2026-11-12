@@ -94,7 +94,7 @@
 
 <strong>移动 Movement：</strong>BOOT HILL 角色未着甲时的基础移动率为 <strong>12″</strong>。所有马匹均视为轻型马。
 
-<strong>回合顺序 Turn Sequence：</strong>除非双方都使用枪械，否则使用 AD&D 的正常回合顺序。若双方均使用枪械，则采用 BOOT HILL 的回合顺序和先射判定。使用 AD&D 回合顺序时，未着甲并使用枪械的 BOOT HILL 角色在先攻上获得 <strong>+1</strong>。
+<strong>行动顺序 Turn Sequence：</strong>除非双方都使用枪械，否则使用 AD&D 的标准行动顺序。若双方均使用枪械，则采用 BOOT HILL 的行动顺序和先射判定。使用 AD&D 标准行动顺序时，未着甲并使用枪械的 BOOT HILL 角色在先攻上获得 <strong>+1</strong>。
 
 <strong>武器射程 Weapon Range：</strong>BOOT HILL 的英寸射程换算为 AD&D 英寸（″）。
 
@@ -203,11 +203,11 @@
 
 <strong>移动 Movement：</strong>角色使用 AD&D 移动速度，因为两种游戏的尺度大致相同。
 
-<strong>回合顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次近战回合视为一段。
+<strong>行动顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次近战轮视为一段。
 
 <strong>武器射程 Weapon Range：</strong>在户外，将 GAMMA WORLD 的米换算为 AD&D 英寸（″），后者表示码。在地下环境中，GAMMA WORLD“神器”武器的射程不要换算成 AD&D 英寸，而应将其射程乘以 <strong>3</strong>，以补偿地下尺度缩至户外的三分之一。
 
-<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗近战回合换算为 AD&D 的段。
+<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗近战轮换算为 AD&D 的段。
 
 <strong>先攻 Initiative：</strong>使用 AD&D 规则。
 

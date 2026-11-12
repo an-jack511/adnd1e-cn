@@ -20,7 +20,7 @@
 
 ### 地下游戏的移动规则 Movement Rules for Underground Play（第 12 页）
 
-- 属性检定（第 12 页）
+- 能力检定（第 12 页）
 - 熟练项检定（第 12 页）
 
 ### 游泳 Swimming（第 12 页）
