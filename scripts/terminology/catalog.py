@@ -89,6 +89,13 @@ def inventory():
             for n,line in enumerate(p.read_text(encoding='utf-8-sig').splitlines(),1):
                 if line.startswith('#') or '\t' not in line:continue
                 en,zh,*_=line.split('\t');add(en,zh,'monster' if 'monster-names' in source else 'legacy-term','../'+source,str(n))
+    rule_catalog={}
+    rule_source=OUT/'rule-terms.tsv'
+    if rule_source.exists():
+        with rule_source.open(encoding='utf-8-sig',newline='') as stream:
+            for n,row in enumerate(csv.DictReader(stream,delimiter='\t'),2):
+                add(row['English'],row['Chinese'],'rule',rule_source.relative_to(ROOT).as_posix(),str(n))
+                rule_catalog[key('rule',row['English'])]=row
     for en,zh in load(ROOT/'scripts/import/regional-names.json',{}).items():add(en,zh,'proper','scripts/import/regional-names.json')
     for d in load(OUT/'decisions.json',{'entries':[]})['entries']:
         if d['category']=='proper':add(d['en'],d['zh'],'proper','terminology/decisions.json')
@@ -122,12 +129,16 @@ def inventory():
         if key('proper',r['en']) in selected_keys:refindex[key('proper',r['en'])].append(r)
     decisions=load(OUT/'decisions.json',{'entries':[]})['entries']
     manual={key(d['category'],d['en']):d for d in decisions}
+    for k,row in rule_catalog.items():
+        manual[k]={'en':row['English'],'zh':row['Chinese'],'status':row['status'],'verificationScope':row['verificationScope'],
+                   'reason':f"规则术语主表；证据：{row['evidence']}。项目术语对应已记录；未标为已核的条目继续待核。",
+                   'references':[{'edition':'1E','en':row['English'],'zh':row['Chinese'],'url':row['evidence']}], 'userOverride':False}
     for e in entries.values():
         refs=refindex[e['key']]
         if e['category']=='monster':refs=[r for r in refs if not r.get('isNpc')]
         e['references']=refs
         if refs:
-            rank={'3R':0,'5R':1,'5E':2}
+            rank={'3R':0,'5E':1,'5R':2}
             best=min(rank.get(r['edition'],9) for r in refs)
             options=sorted(set(r['zh'] for r in refs if rank.get(r['edition'],9)==best))
             if len(options)==1:
@@ -135,11 +146,14 @@ def inventory():
             else:e['status']='reference-conflict';e['notes'].append('同优先级来源译名有分歧，等待人工裁定：'+' / '.join(options))
         if e['key'] in manual:
             d=manual[e['key']]
+            if e['category']=='rule' and e['status']=='verified-exact' and any(r.get('edition')=='3R' for r in refs):
+                e['notes'].append('采用优先级更高的3R精确名称证据；1E术语主表记录不覆盖。')
+                d=None
             # A later-edition adaptation cannot override an exact 3R name.
-            if d.get('userOverride') or not (e['status']=='verified-exact' and any(r['edition']=='3R' for r in refs) and d['status'].startswith('adapted')):
+            if d and (d.get('userOverride') or not (e['status']=='verified-exact' and any(r['edition']=='3R' for r in refs) and d['status'].startswith('adapted'))):
                 e['zh']=d['zh'];e['status']=d['status'];e['references']+=d.get('references',[]);e['notes'].append(d['reason']);e['verificationScope']=d.get('verificationScope','whole-name')
         e['englishVariants']=sorted(e['englishVariants']);e['legacyZh']=sorted(e['legacyZh']-{e['zh']})
-    result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5R > 5E (user preference); names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
+    result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5E > 5R (user preference); names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
     write(OUT/'catalog.json',result)
     write(OUT/'reports/pending.json',[e for e in result['entries'] if e['status']=='pending'])
     write(OUT/'reports/conflicts.json',[e for e in result['entries'] if e['status']=='reference-conflict' or len(e['legacyZh'])>1])

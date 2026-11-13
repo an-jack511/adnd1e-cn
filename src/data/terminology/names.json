@@ -1603,7 +1603,9 @@
     "category": "item",
     "en": "Bloodstone of Fistandantilus",
     "zh": "Fistandantilus 的血石",
-    "aliases": [],
+    "aliases": [
+      "费斯坦但提勒斯的血石"
+    ],
     "status": "pending",
     "ids": [
       "dla-bloodstone-fistandantilus"
@@ -2205,7 +2207,9 @@
     "category": "item",
     "en": "Brooch of Imog",
     "zh": "Imog 的胸针",
-    "aliases": [],
+    "aliases": [
+      "伊莫格的胸针"
+    ],
     "status": "pending",
     "ids": [
       "dla-brooch-imog"
@@ -3805,6 +3809,7 @@
     "en": "Fauchard-Fork",
     "zh": "叉刃长柄刀",
     "aliases": [
+      "长柄刀叉",
       "长柄镰叉"
     ],
     "status": "pending",
@@ -4622,7 +4627,9 @@
     "category": "item",
     "en": "Hammer of Kharas",
     "zh": "Kharas 之锤",
-    "aliases": [],
+    "aliases": [
+      "卡拉斯之锤"
+    ],
     "status": "pending",
     "ids": [
       "dla-hammer-kharas"
@@ -8074,7 +8081,9 @@
     "category": "item",
     "en": "Rabbitslayer, Tasslehoff's Knife",
     "zh": "兔杀者",
-    "aliases": [],
+    "aliases": [
+      "兔杀者，泰斯的小刀"
+    ],
     "status": "pending",
     "ids": [
       "dla-rabbitslayer"
@@ -8576,7 +8585,8 @@
     "en": "Ring of Magic Resistance",
     "zh": "魔法抗力戒指",
     "aliases": [
-      "魔法抗力戒指 ·"
+      "魔法抗力戒指 ·",
+      "魔法抗性戒指 ·"
     ],
     "status": "pending",
     "ids": [
@@ -8894,6 +8904,7 @@
     "en": "Ring of Tongues",
     "zh": "通晓语言戒指",
     "aliases": [
+      "巧言术戒指 ·",
       "通晓语言戒指 ·"
     ],
     "status": "pending",
@@ -9687,7 +9698,9 @@
     "category": "item",
     "en": "Seven Fingers",
     "zh": "七指之书",
-    "aliases": [],
+    "aliases": [
+      "七指"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-seven-fingers"
@@ -9799,7 +9812,9 @@
     "category": "item",
     "en": "Shield of Huma",
     "zh": "Huma 之盾",
-    "aliases": [],
+    "aliases": [
+      "修玛之盾"
+    ],
     "status": "pending",
     "ids": [
       "dla-shield-huma"
@@ -9943,7 +9958,9 @@
     "category": "item",
     "en": "Silver Arm of Ergoth",
     "zh": "Ergoth 银臂",
-    "aliases": [],
+    "aliases": [
+      "艾尔戈斯银臂"
+    ],
     "status": "pending",
     "ids": [
       "dla-silver-arm-ergoth"
@@ -10402,7 +10419,9 @@
     "category": "item",
     "en": "Staff of Magius",
     "zh": "Magius 之杖",
-    "aliases": [],
+    "aliases": [
+      "马吉斯之杖"
+    ],
     "status": "pending",
     "ids": [
       "dla-staff-magius"
@@ -10697,7 +10716,7 @@
   {
     "category": "item",
     "en": "Sword +1, +2 vs. magic-using and enchanted creatures",
-    "zh": "+1 剑，对抗施法生物与附魔生物 +2",
+    "zh": "+1 剑，对抗魔法师与附魔生物 +2",
     "aliases": [
       "+1、对施法者与附魔生物 +2"
     ],
@@ -11315,7 +11334,9 @@
     "category": "item",
     "en": "The Plate of Solamnus",
     "zh": "Solamnus 的板甲",
-    "aliases": [],
+    "aliases": [
+      "索拉姆努斯的板甲"
+    ],
     "status": "pending",
     "ids": [
       "dla-plate-solamnus"
@@ -11325,7 +11346,9 @@
     "category": "item",
     "en": "The Red Book of War",
     "zh": "战争之红书",
-    "aliases": [],
+    "aliases": [
+      "《战争之红书》"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-the-red-book-of-war"
@@ -11335,7 +11358,9 @@
     "category": "item",
     "en": "The Scalamagdrion",
     "zh": "斯卡拉玛格德里昂之书",
-    "aliases": [],
+    "aliases": [
+      "斯卡拉玛格德里昂的内容与守护者"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-the-scalamagdrion"
@@ -11345,7 +11370,9 @@
     "category": "item",
     "en": "The Tome of the Covenant",
     "zh": "契约之书",
-    "aliases": [],
+    "aliases": [
+      "《契约之书》"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-the-tome-of-the-covenant"
@@ -11355,7 +11382,9 @@
     "category": "item",
     "en": "The Tome of the Unicorn",
     "zh": "独角兽之书",
-    "aliases": [],
+    "aliases": [
+      "《独角兽之书》"
+    ],
     "status": "pending",
     "ids": [
       "fr-book-the-tome-of-the-unicorn"
@@ -12049,9 +12078,7 @@
     "category": "item",
     "en": "Wand of Wonder: Variant",
     "zh": "惊异魔杖：三种扩展表",
-    "aliases": [
-      "奇迹魔杖：三种扩展表"
-    ],
+    "aliases": [],
     "status": "pending",
     "ids": []
   },
@@ -12464,16 +12491,6 @@
     "status": "verified-exact",
     "ids": [
       "ff-achaierai"
-    ]
-  },
-  {
-    "category": "monster",
-    "en": "Achaleral",
-    "zh": "阿查雷拉尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": [
-      "ff-achaleral"
     ]
   },
   {
@@ -14165,7 +14182,9 @@
     "category": "monster",
     "en": "Buso",
     "zh": "布索（虎斑兽）",
-    "aliases": [],
+    "aliases": [
+      "布索"
+    ],
     "status": "pending",
     "ids": [
       "oa-buso"
@@ -15413,7 +15432,9 @@
     "category": "monster",
     "en": "Doc cu'o'c",
     "zh": "Doc cu'o'c（高等守护灵）",
-    "aliases": [],
+    "aliases": [
+      "高等守护灵"
+    ],
     "status": "pending",
     "ids": [
       "oa-doc-cuoc"
@@ -15859,7 +15880,9 @@
     "category": "monster",
     "en": "Elemental Princes of Evil",
     "zh": "邪恶元素王子",
-    "aliases": [],
+    "aliases": [
+      "邪恶元素亲王"
+    ],
     "status": "pending",
     "ids": []
   },
@@ -16102,23 +16125,6 @@
     "status": "pending",
     "ids": [
       "mm2-farastu"
-    ]
-  },
-  {
-    "category": "monster",
-    "en": "Featured Creatures",
-    "zh": "精选生物：天使族",
-    "aliases": [
-      "怪物志",
-      "核心生物",
-      "精选生物：善良外层生物补遗",
-      "精选生物：星界使者"
-    ],
-    "status": "pending",
-    "ids": [
-      "dragon-063-rule-featured-creatures",
-      "dragon-064-rule-featured-creatures",
-      "dragon-066-rule-featured-creatures"
     ]
   },
   {
@@ -17900,7 +17906,8 @@
     "en": "Homunculus",
     "zh": "人工生命体",
     "aliases": [
-      "人造侏儒"
+      "人造侏儒",
+      "魔宠人偶的制造"
     ],
     "status": "verified-exact",
     "ids": [
@@ -20514,7 +20521,9 @@
     "category": "monster",
     "en": "P'oh",
     "zh": "P'oh（低等灵）",
-    "aliases": [],
+    "aliases": [
+      "波"
+    ],
     "status": "pending",
     "ids": [
       "oa-poh"
@@ -21611,7 +21620,9 @@
     "category": "monster",
     "en": "Scalamagdrion",
     "zh": "书之守护者",
-    "aliases": [],
+    "aliases": [
+      "斯卡拉玛格德里昂"
+    ],
     "status": "pending",
     "ids": [
       "fr-scalamagdrion"
@@ -21643,7 +21654,9 @@
     "category": "monster",
     "en": "Scorpion, Giant",
     "zh": "巨型蝎",
-    "aliases": [],
+    "aliases": [
+      "巨蝎"
+    ],
     "status": "pending",
     "ids": [
       "giant-scorpion",
@@ -22334,6 +22347,18 @@
   },
   {
     "category": "monster",
+    "en": "Skunk",
+    "zh": "臭鼬",
+    "aliases": [
+      "臭鼬 ·"
+    ],
+    "status": "pending",
+    "ids": [
+      "mm2-skunk"
+    ]
+  },
+  {
+    "category": "monster",
     "en": "Skunk, Giant",
     "zh": "巨型臭鼬",
     "aliases": [],
@@ -22499,7 +22524,9 @@
       "炽天使 ·"
     ],
     "status": "verified-exact",
-    "ids": []
+    "ids": [
+      "mm2-solar"
+    ]
   },
   {
     "category": "monster",
@@ -22509,7 +22536,9 @@
       "避日蛛 ·"
     ],
     "status": "pending",
-    "ids": []
+    "ids": [
+      "mm2-solifugid"
+    ]
   },
   {
     "category": "monster",
@@ -22529,7 +22558,8 @@
     "zh": "观察者眼魔",
     "aliases": [
       "眼魔监视者",
-      "眼魔监视者 ·"
+      "眼魔监视者 ·",
+      "观察者眼魔 ·"
     ],
     "status": "verified-exact",
     "ids": [
@@ -22673,7 +22703,9 @@
       "松鼠 ·"
     ],
     "status": "pending",
-    "ids": []
+    "ids": [
+      "mm2-squirrel"
+    ]
   },
   {
     "category": "monster",
@@ -23040,7 +23072,9 @@
       "塔拉斯克巨兽 ·"
     ],
     "status": "verified-exact",
-    "ids": []
+    "ids": [
+      "mm2-tarrasque"
+    ]
   },
   {
     "category": "monster",
@@ -23121,7 +23155,9 @@
       "巨型收获白蚁 ·"
     ],
     "status": "pending",
-    "ids": []
+    "ids": [
+      "mm2-termite-giant-harvester"
+    ]
   },
   {
     "category": "monster",
@@ -23683,7 +23719,9 @@
       "流浪者 ·"
     ],
     "status": "pending",
-    "ids": []
+    "ids": [
+      "mm2-vagabond"
+    ]
   },
   {
     "category": "monster",
@@ -23725,7 +23763,8 @@
     "zh": "飞首",
     "aliases": [
       "瓦古伊尔飞头怪",
-      "瓦古伊尔飞头怪 ·"
+      "瓦古伊尔飞头怪 ·",
+      "飞首 ·"
     ],
     "status": "verified-exact",
     "ids": [
@@ -24538,6 +24577,7 @@
     "en": "Yeth Hound",
     "zh": "夜嘶猎犬",
     "aliases": [
+      "夜嘶猎犬 ·",
       "耶斯猎犬",
       "耶斯猎犬 ·"
     ],
@@ -25436,7 +25476,8 @@
     "aliases": [
       "Iuz",
       "伊乌兹",
-      "伊乌兹的牧师"
+      "伊乌兹的牧师",
+      "埃乌兹的牧师"
     ],
     "status": "verified-exact",
     "ids": []
@@ -25624,6 +25665,7 @@
     "zh": "努林塔瑞",
     "aliases": [
       "Lunitari",
+      "中立魔法：努林塔瑞",
       "露妮塔瑞"
     ],
     "status": "verified-exact",
@@ -25844,16 +25886,6 @@
   },
   {
     "category": "proper",
-    "en": "Nordmaar",
-    "zh": "诺德玛",
-    "aliases": [
-      "Nordmaar"
-    ],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "proper",
     "en": "Nuitari",
     "zh": "努塔瑞",
     "aliases": [
@@ -25875,6 +25907,7 @@
     "en": "Num",
     "zh": "努姆",
     "aliases": [
+      "努姆的祷告书",
       "努姆的祷告书（续）"
     ],
     "status": "pending",
@@ -26148,7 +26181,9 @@
     "category": "proper",
     "en": "Shoon",
     "zh": "肖恩",
-    "aliases": [],
+    "aliases": [
+      "盗法术余文与沙恩"
+    ],
     "status": "pending",
     "ids": []
   },
@@ -26252,16 +26287,6 @@
   },
   {
     "category": "proper",
-    "en": "Sunndi",
-    "zh": "桑迪",
-    "aliases": [
-      "Sunndi"
-    ],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "proper",
     "en": "Suzail",
     "zh": "苏萨尔",
     "aliases": [
@@ -26339,16 +26364,6 @@
     "zh": "泰斯",
     "aliases": [],
     "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Telflamm",
-    "zh": "泰夫岚姆",
-    "aliases": [
-      "Telflamm"
-    ],
-    "status": "verified-exact",
     "ids": []
   },
   {
@@ -26874,6 +26889,2149 @@
     "ids": []
   },
   {
+    "category": "rule",
+    "en": "Ability Check",
+    "zh": "能力检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Ability Checks",
+    "zh": "能力检定",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Ability Score",
+    "zh": "属性值",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Actions During Combat and Similar Time-Important Situations",
+    "zh": "战斗及其他时间敏感情境中的行动",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Alignment",
+    "zh": "阵营",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Alignment Language",
+    "zh": "阵营语",
+    "aliases": [
+      "阵营语言"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Animal Handling Proficiency",
+    "zh": "动物处理熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Area of Effect",
+    "zh": "作用区域",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Armor Class",
+    "zh": "护甲等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Armor Class Adjustment",
+    "zh": "护甲等级调整",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Armor Effects on Character Width",
+    "zh": "护甲对角色宽度的影响",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Artisan Proficiencies",
+    "zh": "工匠熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Assassination Experience Points",
+    "zh": "刺杀经验值",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack Adjustment",
+    "zh": "攻击调整／攻击调整值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack and Saving Throw Matrices",
+    "zh": "攻击与豁免检定矩阵",
+    "aliases": [
+      "攻击与豁免矩阵"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack Matrix",
+    "zh": "攻击矩阵",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack Roll",
+    "zh": "攻击骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack Sequence",
+    "zh": "攻击序列",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attack Table",
+    "zh": "攻击表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attacks",
+    "zh": "攻击次数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Attacks Per Melee Round Table",
+    "zh": "每轮近战攻击次数表",
+    "aliases": [
+      "每轮攻击次数表",
+      "每近战轮攻击次数表"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Awaiting Action",
+    "zh": "等待行动",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Barbarian Proficiencies",
+    "zh": "蛮族熟练项",
+    "aliases": [
+      "野蛮人熟练项"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Base Armor Class",
+    "zh": "基础护甲等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Base Chance of Success",
+    "zh": "基础成功数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Bend Bars/Lift Gates",
+    "zh": "弯折铁条／抬起闸门",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Boat Damage",
+    "zh": "船只损坏",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Boat Draught and Ceilings",
+    "zh": "船只吃水与顶部净空",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Boat Movement Rates",
+    "zh": "船只移动率",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Breath Weapon",
+    "zh": "喷吐武器",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Broad Jumping",
+    "zh": "跳远",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Caster Level",
+    "zh": "施法者等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Casting Time",
+    "zh": "施法时间",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Cave-In Chain Reaction",
+    "zh": "坍塌连锁反应",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Cave-In Location",
+    "zh": "坍塌位置",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Character Level",
+    "zh": "角色等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Character Proficiencies",
+    "zh": "角色熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Charge",
+    "zh": "冲锋",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Check",
+    "zh": "检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Choosing Proficiencies",
+    "zh": "选择熟练项",
+    "aliases": [
+      "选择熟练项 ·"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Class Level",
+    "zh": "职业等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Cleric Level",
+    "zh": "牧师等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Climbing",
+    "zh": "攀爬",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Climbing Check",
+    "zh": "攀爬检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Climbing Rating",
+    "zh": "攀爬评级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Close to Striking Range",
+    "zh": "接近打击距离",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Collision Probability",
+    "zh": "碰撞概率",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Combat Rules for Underground Play",
+    "zh": "地下游戏的战斗规则",
+    "aliases": [
+      "地下战斗规则"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Common Proficiencies",
+    "zh": "通用熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Components",
+    "zh": "成分",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Course Changes in Darkness",
+    "zh": "黑暗中的路线变化",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Court Proficiencies",
+    "zh": "宫廷熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Crossing with a Grapple",
+    "zh": "使用爪钩跨越",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Cultural Proficiencies",
+    "zh": "文化熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Damage",
+    "zh": "伤害",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Damage Adjustment",
+    "zh": "伤害修正",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Damage Roll",
+    "zh": "伤害骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Defensive Adjustment",
+    "zh": "防御调整／防御调整值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Defensive Point Value",
+    "zh": "防御点数",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Determination of Spell Level",
+    "zh": "法术环级的确定",
+    "aliases": [
+      "新法术的环级"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dexterity Penalty and Bonus Considerations",
+    "zh": "敏捷惩罚与加值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Division of Experience Points",
+    "zh": "经验值分配",
+    "aliases": [
+      "经验值数分配"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dragon Riding Proficiency",
+    "zh": "龙骑乘熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Druid Level",
+    "zh": "德鲁伊等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dungeon Proficiencies",
+    "zh": "地城熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dungeon Proficiency",
+    "zh": "地城熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Dungeon Proficiency Table",
+    "zh": "地城熟练项表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Duration",
+    "zh": "持续时间",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Encounter Reactions",
+    "zh": "遭遇反应",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Excavation",
+    "zh": "挖掘",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Experience Level",
+    "zh": "经验等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Experience Points",
+    "zh": "经验值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Expertise",
+    "zh": "专长",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Falling (Expanded Rules)",
+    "zh": "坠落（扩展规则）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Fatigue and Exhaustion",
+    "zh": "疲劳与精疲力竭",
+    "aliases": [
+      "疲劳与力竭"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Fighter Level",
+    "zh": "战士等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Gemstone Quality",
+    "zh": "宝石品质",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grapple",
+    "zh": "擒抱",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grapple and Hold",
+    "zh": "擒抱与制伏",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grappling",
+    "zh": "擒抱",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grappling Success",
+    "zh": "爪钩成功率",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grappling Table",
+    "zh": "擒抱表",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Grenade-Like Missiles",
+    "zh": "类手榴弹投射物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Hit Determination",
+    "zh": "命中判定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Hit Dice",
+    "zh": "生命骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Hit Points",
+    "zh": "生命值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Improving Proficiencies",
+    "zh": "改进熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Initiative",
+    "zh": "先攻",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Initiative Check",
+    "zh": "先攻检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Initiative Die",
+    "zh": "先攻骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Initiative for Creatures with Multiple Attack Routines",
+    "zh": "多重攻击程序生物的先攻",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Initiative Modifier",
+    "zh": "先攻修正值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Item Saving Throws",
+    "zh": "物品豁免检定",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Jumping for Non-Acrobats",
+    "zh": "非杂技者跳跃",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Land Riding Proficiency",
+    "zh": "陆地骑乘熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Level",
+    "zh": "等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Level Drain",
+    "zh": "能级吸取",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Level of Mastery",
+    "zh": "掌握等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic Level",
+    "zh": "魔法等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic Resistance",
+    "zh": "魔法抗性",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic-User Level",
+    "zh": "魔法师等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic-Using Creature",
+    "zh": "施法生物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magic-Using Creatures",
+    "zh": "施法生物",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Magical Attack Adjustment",
+    "zh": "魔法攻击调整",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Melee Round",
+    "zh": "轮",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Mineral Vein Direction",
+    "zh": "矿脉方向",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Minimum Passageway Sizes",
+    "zh": "最小通道尺寸",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Mining Products",
+    "zh": "采矿产物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Mining Rates",
+    "zh": "采矿速率",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Missile",
+    "zh": "投射武器",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Missile Discharge",
+    "zh": "发射投射武器",
+    "aliases": [
+      "投射物攻击"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Missile Fire Cover and Concealment Adjustments",
+    "zh": "投射攻击的掩护与隐蔽调整",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Mithril Check",
+    "zh": "秘银检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Monster",
+    "zh": "怪物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Morale",
+    "zh": "士气",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Morale Check",
+    "zh": "士气检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Morale Failure",
+    "zh": "士气失败",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Morale Score",
+    "zh": "士气分数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Movement Effects of Darkness",
+    "zh": "黑暗对移动的影响",
+    "aliases": [
+      "黑暗中的移动影响"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Movement from a Standstill Position",
+    "zh": "从静止位置开始移动",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Movement on Slippery Horizontal Surfaces",
+    "zh": "在光滑水平表面上移动",
+    "aliases": [
+      "光滑水平表面上的移动"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Movement Rate",
+    "zh": "移动率",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Movement Rules for Underground Play",
+    "zh": "地下游戏的移动规则",
+    "aliases": [
+      "地下行动规则"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Natural 20",
+    "zh": "自然 20",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Natural Armor Class",
+    "zh": "天然护甲等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Non-Lethal and Weaponless Combat Procedures",
+    "zh": "非致命与无武器战斗流程",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Non-Proficiency Penalty",
+    "zh": "不熟练命中惩罚",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonproficiency",
+    "zh": "不熟练",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonproficiency Penalties for Boat Use",
+    "zh": "使用船只的不熟练惩罚",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonweapon Proficiencies",
+    "zh": "非武器熟练项",
+    "aliases": [
+      "非武器专长"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonweapon Proficiency",
+    "zh": "非武器熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Nonweapon Proficiency Table",
+    "zh": "非武器熟练项表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "NPC",
+    "zh": "非玩家角色",
+    "aliases": [
+      "长期地下探险中的"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Number of Hit Dice",
+    "zh": "生命骰数／生命骰数量",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Number of Opponents per Figure",
+    "zh": "每个角色可面对的对手数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Odor Detection",
+    "zh": "气味侦测",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Ore Quality",
+    "zh": "矿石品质",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Overbearing",
+    "zh": "压制",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Overbearing Table",
+    "zh": "压制表",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Paralyzation, Poison or Death Magic",
+    "zh": "麻痹、毒素或死亡魔法",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Parleying",
+    "zh": "交涉",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Party",
+    "zh": "队伍",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "PC",
+    "zh": "玩家角色",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Persona",
+    "zh": "角色",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Petrification",
+    "zh": "石化",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Petrification or Polymorph",
+    "zh": "石化或变形",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Philter",
+    "zh": "灵药",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Poison",
+    "zh": "毒素",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Poison Saving Throws",
+    "zh": "对毒素豁免",
+    "aliases": [
+      "毒素豁免"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pole Arm",
+    "zh": "长柄武器",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Polymorph",
+    "zh": "变形",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Prime Requisite",
+    "zh": "主属性",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiencies",
+    "zh": "熟练项",
+    "aliases": [
+      "专长"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency",
+    "zh": "熟练",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency Check",
+    "zh": "熟练项检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency in Airborne Riding",
+    "zh": "空中骑乘熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency in Plant Lore",
+    "zh": "植物学熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Proficiency Slot",
+    "zh": "熟练项栏位",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Psionic Blast",
+    "zh": "灵能冲击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Psionic Mind Blast",
+    "zh": "灵能冲击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Psionics",
+    "zh": "灵能",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pummel",
+    "zh": "拳击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pummeling",
+    "zh": "拳击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pummeling Table",
+    "zh": "拳击表",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pursuit and Evasion in Outdoor Settings",
+    "zh": "户外追逐与规避",
+    "aliases": [
+      "户外追击与规避"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pursuit and Evasion in Underground Settings",
+    "zh": "地下环境中的追逐与规避",
+    "aliases": [
+      "地下环境中的追击与规避"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Pursuit and Evasion of Pursuit",
+    "zh": "追击与规避追击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Random Generation",
+    "zh": "随机生成",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Range",
+    "zh": "射程",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Ranger Level",
+    "zh": "巡林客等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Rate of Fire",
+    "zh": "射速",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Rates of Climbing",
+    "zh": "攀爬速度",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Reaction Adjustment",
+    "zh": "反应调整／反应调整值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Reaction Roll",
+    "zh": "反应检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Recovery of Hit Points",
+    "zh": "生命值恢复",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Relic",
+    "zh": "圣遗物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Research",
+    "zh": "研究",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Resurrection",
+    "zh": "复生术",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Riding Proficiency",
+    "zh": "骑乘熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Rock Ledge",
+    "zh": "岩棚",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Rod, Staff, or Wand",
+    "zh": "权杖、法杖或魔杖",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Roll",
+    "zh": "掷骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Rope Use Proficiency",
+    "zh": "绳索使用熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Round (combat time unit)",
+    "zh": "轮",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Round Count",
+    "zh": "轮次",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Bludgeoning",
+    "zh": "对钝击豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Breath Weapon",
+    "zh": "对喷吐武器豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Crushing Blow",
+    "zh": "对粉碎打击豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Death Magic",
+    "zh": "对死亡魔法豁免",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Normal Fire",
+    "zh": "对普通火焰豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Paralyzation",
+    "zh": "对麻痹豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Petrification",
+    "zh": "对石化豁免",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Poison",
+    "zh": "对毒素豁免",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Spell",
+    "zh": "对法术豁免",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Save vs. Wands",
+    "zh": "对魔杖豁免",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw",
+    "zh": "豁免检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw Die",
+    "zh": "豁免骰",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw Matrices",
+    "zh": "豁免检定矩阵",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw Modifier",
+    "zh": "豁免修正",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw Modifiers",
+    "zh": "豁免修正",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throw Target Number",
+    "zh": "豁免目标值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Saving Throws",
+    "zh": "豁免检定",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Scrying",
+    "zh": "侦测",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Segment (combat time unit)",
+    "zh": "段",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Semi-intelligent",
+    "zh": "半智能",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Set Weapons Against Possible Opponent Charge",
+    "zh": "架起武器迎击可能的冲锋",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Special Note Regarding Giant and Machine Missiles",
+    "zh": "巨人与攻城器械投射物特别说明",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell (saving throw category)",
+    "zh": "法术（豁免类别）",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell Level",
+    "zh": "法术环级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell Level of Scroll Spells",
+    "zh": "卷轴法术的法术环级",
+    "aliases": [
+      "卷轴法术的环级"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell Level Range",
+    "zh": "卷轴法术环级范围",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell Slot",
+    "zh": "法术环位",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spell-Like Ability",
+    "zh": "类法术能力",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spellcaster",
+    "zh": "施法者",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spellcasting",
+    "zh": "施法",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Spelunking",
+    "zh": "地下探洞",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Strength Bonus Considerations",
+    "zh": "力量加值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Strike Blows",
+    "zh": "打击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Striking to Subdue",
+    "zh": "制服性攻击",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Structural Points",
+    "zh": "结构点数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Support Column",
+    "zh": "支柱",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Surprise",
+    "zh": "突袭",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Swimming",
+    "zh": "游泳",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Swimming Effects of Encumbrance",
+    "zh": "负重对游泳的影响",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "THAC0",
+    "zh": "命中护甲等级 0 所需数值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "The Boating Proficiency",
+    "zh": "划船熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Thief Level",
+    "zh": "盗贼等级",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Thrown Loop Ranges",
+    "zh": "投掷绳圈的距离",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Time Unit",
+    "zh": "时间单位",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To Hit",
+    "zh": "命中",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Adjustment",
+    "zh": "命中修正值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Bonus",
+    "zh": "命中加值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Check",
+    "zh": "命中检定",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Modifier",
+    "zh": "命中修正",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Number",
+    "zh": "命中所需数值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "To-Hit Probability Adjustment",
+    "zh": "命中概率修正",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Trap",
+    "zh": "陷阱",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Treasure",
+    "zh": "财宝",
+    "aliases": [
+      "宝藏"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Trick",
+    "zh": "诡计",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Turn (time unit)",
+    "zh": "回合",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Turn Sequence",
+    "zh": "行动顺序",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Turning Undead",
+    "zh": "驱散不死生物",
+    "aliases": [
+      "驱退不死生物"
+    ],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Undead",
+    "zh": "不死生物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Underground Structure Defensive Point Value",
+    "zh": "地下结构防御点数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Unsteady NPC Reactions",
+    "zh": "不稳定 NPC 的反应",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Using Rope",
+    "zh": "使用绳索",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Vein Path Alterations",
+    "zh": "矿脉路径变化",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wandering Monster",
+    "zh": "游荡怪物",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Proficiencies",
+    "zh": "武器熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Proficiency",
+    "zh": "武器熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Proficiency Table",
+    "zh": "武器熟练项表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Speed Factor",
+    "zh": "武器速度因数",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weapon Type",
+    "zh": "武器类型",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Weaponless Combat",
+    "zh": "无武器战斗",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wilderness Proficiencies",
+    "zh": "荒野熟练项",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wilderness Proficiency",
+    "zh": "荒野熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wilderness Proficiency Table",
+    "zh": "荒野熟练项表",
+    "aliases": [],
+    "status": "pending",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "WIS",
+    "zh": "感知",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wisdom",
+    "zh": "感知",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Wisdom Score",
+    "zh": "感知值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "WS",
+    "zh": "感知值",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": []
+  },
+  {
+    "category": "rule",
+    "en": "Zero Hit Points",
+    "zh": "生命值为零",
+    "aliases": [
+      "零生命值"
+    ],
+    "status": "pending",
+    "ids": []
+  },
+  {
     "category": "spell",
     "en": "Abjure",
     "zh": "驱逐术",
@@ -26952,6 +29110,7 @@
     "en": "Agannazar’s Scorcher",
     "zh": "阿甘纳萨的灼流",
     "aliases": [
+      "阿甘纳扎尔的灼流",
       "阿迦纳萨灼热射流"
     ],
     "status": "pending",
@@ -27460,7 +29619,7 @@
   {
     "category": "spell",
     "en": "Bigby's Sensing Fingers",
-    "zh": "Bigby 的感觉手指术",
+    "zh": "毕格比的感觉手指术",
     "aliases": [],
     "status": "pending",
     "ids": []
@@ -29529,6 +31688,7 @@
     "en": "Energy Drain",
     "zh": "能量吸取",
     "aliases": [
+      "能级吸取",
       "能量吸取（法师杂志版）"
     ],
     "status": "pending",
@@ -30325,7 +32485,9 @@
     "category": "spell",
     "en": "Grimwald’s Greymantle",
     "zh": "格里姆沃德的灰披风",
-    "aliases": [],
+    "aliases": [
+      "格里姆瓦尔德的灰披风"
+    ],
     "status": "pending",
     "ids": [
       "fr-grimwalds-greymantle"
@@ -31020,6 +33182,7 @@
     "en": "IV Monster Summoning IV",
     "zh": "怪物召唤",
     "aliases": [
+      "召唤怪物",
       "怪物召唤术"
     ],
     "status": "pending",
@@ -31312,11 +33475,7 @@
     "en": "Magic Jar",
     "zh": "魔魂壶",
     "aliases": [
-      "魔法容器",
-      "魔法罐",
-      "魔法瓶",
-      "魔魂壶术",
-      "魔法罐术"
+      "魔法容器"
     ],
     "status": "verified-exact",
     "ids": [
@@ -31486,7 +33645,8 @@
     "zh": "融身入石",
     "aliases": [
       "融入石中",
-      "融入石中（早期版）"
+      "融入石中（早期版）",
+      "融身入石（早期版）"
     ],
     "status": "verified-exact",
     "ids": [
@@ -32217,6 +34377,7 @@
     "en": "Nystul's Grue Conjuration",
     "zh": "涅斯图的元素孽怪召唤术",
     "aliases": [
+      "涅斯图的元素惧灵召唤术",
       "诺斯图的元素孽怪召唤术"
     ],
     "status": "adapted-element",
@@ -35167,7 +37328,7 @@
   {
     "category": "spell",
     "en": "Tenser's Weaponmaster",
-    "zh": "Tenser 的武器大师术",
+    "zh": "谭森的武器大师术",
     "aliases": [],
     "status": "pending",
     "ids": []
@@ -35564,6 +37725,7 @@
     "en": "V Monster Summoning V",
     "zh": "怪物召唤",
     "aliases": [
+      "召唤怪物",
       "怪物召唤术"
     ],
     "status": "pending",
@@ -35634,6 +37796,7 @@
     "en": "VI Monster Summoning VI",
     "zh": "怪物召唤",
     "aliases": [
+      "召唤怪物",
       "怪物召唤术"
     ],
     "status": "pending",
@@ -35656,6 +37819,7 @@
     "en": "VII Monster Summoning VII",
     "zh": "怪物召唤",
     "aliases": [
+      "召唤怪物",
       "怪物召唤术"
     ],
     "status": "pending",
@@ -36210,1699 +38374,5 @@
     "ids": [
       "ua-magic-user-2-zephyr"
     ]
-  },
-  {
-    "category": "rule",
-    "en": "Proficiency",
-    "zh": "熟练项",
-    "aliases": [
-      "专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Magic-Using Creature",
-    "zh": "施法生物",
-    "aliases": [
-      "魔法使用者生物",
-      "魔法使用生物"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Magic-Using Creatures",
-    "zh": "施法生物",
-    "aliases": [
-      "魔法使用者生物",
-      "魔法使用生物"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Weapon Proficiency",
-    "zh": "武器熟练项",
-    "aliases": [
-      "武器专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Nonweapon Proficiencies",
-    "zh": "非武器熟练项",
-    "aliases": [
-      "非武器专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Character Proficiencies",
-    "zh": "角色熟练项",
-    "aliases": [
-      "角色专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Wilderness Proficiencies",
-    "zh": "荒野熟练项",
-    "aliases": [
-      "荒野专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Dungeon Proficiencies",
-    "zh": "地城熟练项",
-    "aliases": [
-      "地城专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Weapon Proficiencies",
-    "zh": "武器熟练项",
-    "aliases": [
-      "武器专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Nonweapon Proficiency",
-    "zh": "非武器熟练项",
-    "aliases": [
-      "非武器专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Wilderness Proficiency",
-    "zh": "荒野熟练项",
-    "aliases": [
-      "荒野专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Dungeon Proficiency",
-    "zh": "地城熟练项",
-    "aliases": [
-      "地城专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Artisan Proficiencies",
-    "zh": "工匠熟练项",
-    "aliases": [
-      "工匠专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Barbarian Proficiencies",
-    "zh": "蛮族熟练项",
-    "aliases": [
-      "蛮族专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Common Proficiencies",
-    "zh": "通用熟练项",
-    "aliases": [
-      "通用专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Court Proficiencies",
-    "zh": "宫廷熟练项",
-    "aliases": [
-      "宫廷专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Riding Proficiency",
-    "zh": "骑乘熟练项",
-    "aliases": [
-      "骑术熟练项",
-      "骑术专长",
-      "骑乘专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "The Boating Proficiency",
-    "zh": "划船熟练项",
-    "aliases": [
-      "划船专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Proficiency in Airborne Riding",
-    "zh": "空中骑乘熟练项",
-    "aliases": [
-      "空中骑乘专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Proficiency in Plant Lore",
-    "zh": "植物学熟练项",
-    "aliases": [
-      "植物学专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Cultural Proficiencies",
-    "zh": "文化熟练项",
-    "aliases": [
-      "文化专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Animal Handling Proficiency",
-    "zh": "动物处理熟练项",
-    "aliases": [
-      "动物处理专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Land Riding Proficiency",
-    "zh": "陆地骑乘熟练项",
-    "aliases": [
-      "陆地骑乘专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Dragon Riding Proficiency",
-    "zh": "龙骑乘熟练项",
-    "aliases": [
-      "龙骑术熟练项",
-      "龙骑术"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Doust Sulwood",
-    "zh": "杜斯特·萨尔伍德",
-    "aliases": [
-      "道斯特·萨尔伍德",
-      "杜斯特·苏尔伍德"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Sylune",
-    "zh": "希伦",
-    "aliases": [
-      "西露妮"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Proficiency Check",
-    "zh": "熟练项检定",
-    "aliases": [
-      "专长检定"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Proficiency Slot",
-    "zh": "熟练项栏位",
-    "aliases": [
-      "专长栏位"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Weapon Proficiency Table",
-    "zh": "武器熟练项表",
-    "aliases": [
-      "武器专长表"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Nonweapon Proficiency Table",
-    "zh": "非武器熟练项表",
-    "aliases": [
-      "非武器专长表"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Wilderness Proficiency Table",
-    "zh": "荒野熟练项表",
-    "aliases": [
-      "荒野专长表"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Dungeon Proficiency Table",
-    "zh": "地城熟练项表",
-    "aliases": [
-      "地城专长表"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Proficiencies",
-    "zh": "熟练项",
-    "aliases": [
-      "专长"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Choosing Proficiencies",
-    "zh": "选择熟练项",
-    "aliases": [
-      "选择技能"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Improving Proficiencies",
-    "zh": "改进熟练项",
-    "aliases": [
-      "提升技能"
-    ],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Irdanaiath",
-    "zh": "伊尔达纳伊阿斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Igrane",
-    "zh": "伊格兰",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Solinari",
-    "zh": "索林那瑞",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alokkair",
-    "zh": "阿洛凯尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hlontar",
-    "zh": "赫隆塔尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hlonagh",
-    "zh": "赫洛纳赫",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Shalaera",
-    "zh": "沙莱拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alaphlame",
-    "zh": "阿拉弗莱姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Tesh",
-    "zh": "泰什",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Fox Ridge",
-    "zh": "狐岭",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Kozakura",
-    "zh": "小樱",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hojo",
-    "zh": "北条",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Todahiro",
-    "zh": "户田广",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Norinoshima",
-    "zh": "则野岛",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Okane",
-    "zh": "大金",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ezuwara",
-    "zh": "江原",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Yamashita Ichiro",
-    "zh": "山下一郎",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Isui",
-    "zh": "伊吹",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Tamako",
-    "zh": "玉子",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Obuno",
-    "zh": "奥布诺",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Casimur",
-    "zh": "卡西穆尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alzair",
-    "zh": "阿尔泽尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Galaswit",
-    "zh": "加拉斯维特",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Zephrum Nelagul",
-    "zh": "泽弗鲁姆·内拉古尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Amareh",
-    "zh": "阿马雷",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Elmyra",
-    "zh": "艾尔米拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hlassela",
-    "zh": "赫拉塞拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Borwyn",
-    "zh": "博尔温",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Mentor",
-    "zh": "导师",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Flamsterd",
-    "zh": "弗兰斯特德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Raurgoch",
-    "zh": "拉乌戈奇",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Myrdon",
-    "zh": "米尔登",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Salasker",
-    "zh": "萨拉斯克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Laertilus",
-    "zh": "莱尔提卢斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Vaerum",
-    "zh": "瓦伊鲁姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Muirhar",
-    "zh": "穆尔哈尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ulthorn",
-    "zh": "乌尔索恩",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Rendergallis",
-    "zh": "伦德加利斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ahrabose",
-    "zh": "阿拉博斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Yintros",
-    "zh": "因特罗斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Jupumvor",
-    "zh": "朱普姆沃尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ubergast",
-    "zh": "乌贝加斯特",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Telgin Gate",
-    "zh": "特尔金门",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Askrim",
-    "zh": "阿斯克里姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Dauntus",
-    "zh": "道恩图斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Azoun",
-    "zh": "阿祖恩",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hurbold Duethkatha",
-    "zh": "赫博尔德·杜伊斯卡萨",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Demogorgon",
-    "zh": "德莫戈贡",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Beluarion",
-    "zh": "贝卢阿里昂",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Kulurauk",
-    "zh": "库鲁劳克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Bellan",
-    "zh": "贝兰",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nenon",
-    "zh": "内农",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Koruelve",
-    "zh": "科鲁尔维",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Desedrak",
-    "zh": "德塞德拉克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Yulimtul",
-    "zh": "尤利姆图尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alok Leh",
-    "zh": "阿洛克·雷",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Asbras Hlumin",
-    "zh": "阿斯布拉斯·赫鲁明",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Azargatha Nimune",
-    "zh": "阿扎加莎·尼穆妮",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Deior Rasthavin",
-    "zh": "戴奥·拉斯萨文",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Eressea Ambergyles",
-    "zh": "埃瑞西娅·安伯盖尔斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Florin Falconhand",
-    "zh": "弗洛林·鹰手",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Fzoul Chembryl",
-    "zh": "弗佐尔·钱伯瑞",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Lanseril Snowmantle",
-    "zh": "兰瑟里尔·雪披风",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Luvon Greencoak",
-    "zh": "卢冯·绿斗篷",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Merith Strongbow",
-    "zh": "梅里斯·强弓",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Durkin",
-    "zh": "德金",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Gharri",
-    "zh": "加里",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Guthbert Golthammer",
-    "zh": "古斯伯特·金锤",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Neiron",
-    "zh": "奈隆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nurlar",
-    "zh": "努拉尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Zunzyr Thalomm",
-    "zh": "祖恩齐尔·萨洛姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nathla",
-    "zh": "纳斯拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Thauntyr",
-    "zh": "萨恩蒂尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Sundeth Gossyl",
-    "zh": "桑德斯·戈希尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Temmi Dharimm",
-    "zh": "泰米·达里姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Thurbrand",
-    "zh": "瑟布兰德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Strauph Omerehellin",
-    "zh": "斯特劳夫·奥梅雷林",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Umbolden",
-    "zh": "翁博尔登",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Eleaf Widen",
-    "zh": "伊利夫·怀登",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Dabron Sashenstar",
-    "zh": "达布隆·萨申斯塔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Irlentree",
-    "zh": "伊尔伦特里",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ruathyn",
-    "zh": "鲁阿辛",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ulphron",
-    "zh": "乌尔弗隆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Golthond",
-    "zh": "戈尔松德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Dhelar",
-    "zh": "德拉尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nentyarch",
-    "zh": "内提亚奇",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Aumark Lithyl",
-    "zh": "奥马克·利希尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Maerkla",
-    "zh": "梅尔克拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Saszesk",
-    "zh": "萨泽斯克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Shaless",
-    "zh": "沙莱斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Maerhult",
-    "zh": "梅尔赫尔特",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Narve Dwarfkin",
-    "zh": "纳尔夫·矮人族",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ryhinn Blackcloak",
-    "zh": "莱欣·黑袍",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Draughthothnor",
-    "zh": "德拉夫索斯诺尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Haspur",
-    "zh": "哈斯普尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Roald",
-    "zh": "罗尔德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Barach Hilthone",
-    "zh": "巴拉奇·希尔松",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Selfaril",
-    "zh": "塞尔法里尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Marchayn",
-    "zh": "马尔辰",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Thond",
-    "zh": "桑德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Lyran",
-    "zh": "莱兰",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Auvidarus",
-    "zh": "奥维达鲁斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Raithspur",
-    "zh": "莱斯斯珀",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Hlethl",
-    "zh": "赫莱斯尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alusair Nacacia",
-    "zh": "阿鲁赛尔·娜卡西亚",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Eiron",
-    "zh": "伊隆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Pentle",
-    "zh": "潘特尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Alkunda Gar",
-    "zh": "阿尔昆达·加尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Bendulphin",
-    "zh": "本杜尔芬",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Tresk",
-    "zh": "特雷斯克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Braszetor",
-    "zh": "布拉泽托尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nighteye",
-    "zh": "夜眼",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Telflamm",
-    "zh": "泰夫岚姆",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Taeron",
-    "zh": "泰伦",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Volludan",
-    "zh": "沃卢丹",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Wilund",
-    "zh": "威伦德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ultham-Urre",
-    "zh": "乌尔瑟姆-乌尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ardagundus",
-    "zh": "阿达贡杜斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nornagrym",
-    "zh": "诺纳格林",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Zemloth",
-    "zh": "泽姆洛斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Orgoth",
-    "zh": "奥格斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Malahuke",
-    "zh": "马拉休克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Mavrhune",
-    "zh": "马夫鲁恩",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Nungulfim",
-    "zh": "农古尔芬",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Iltkazar",
-    "zh": "伊尔特卡扎尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Calimshan",
-    "zh": "卡林珊",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Shoon",
-    "zh": "沙恩",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Luskan",
-    "zh": "路斯坎",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Thulnath",
-    "zh": "瑟尔纳斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Ruelve",
-    "zh": "鲁尔夫",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Vaasa",
-    "zh": "瓦萨",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Rawlinswood",
-    "zh": "拉沃林森林",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Damien Nuren",
-    "zh": "达米恩·努伦",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Laocoon",
-    "zh": "拉奥孔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Elegar",
-    "zh": "埃莱加尔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Robin",
-    "zh": "罗宾",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Daufin",
-    "zh": "多芬",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Hannes",
-    "zh": "汉内斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Petrus",
-    "zh": "彼得鲁斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Davic",
-    "zh": "达维克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Lauren",
-    "zh": "劳伦",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Joe",
-    "zh": "乔",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Rolf",
-    "zh": "罗尔夫",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Ned",
-    "zh": "内德",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Kendra",
-    "zh": "肯德拉",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Widden",
-    "zh": "温登",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Meryn",
-    "zh": "梅林",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Morningmist",
-    "zh": "晨雾",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "person",
-    "en": "Collins",
-    "zh": "柯林斯",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "item",
-    "en": "Black Sword",
-    "zh": "黑剑",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "item",
-    "en": "Heartseeker",
-    "zh": "觅心者",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "item",
-    "en": "Whiteleaf",
-    "zh": "白叶",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "item",
-    "en": "Whisperer",
-    "zh": "低语者",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "rule",
-    "en": "Psionic Blast",
-    "zh": "灵能冲击",
-    "aliases": [
-      "灵能爆破"
-    ],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Mind Blast",
-    "zh": "灵能冲击",
-    "aliases": [
-      "心灵爆破",
-      "灵能心灵爆破",
-      "灵能心灵震爆"
-    ],
-    "status": "adapted-variant",
-    "ids": []
-  },
-  {
-    "category": "proper",
-    "en": "Iconochronos",
-    "zh": "时序编年",
-    "aliases": [
-      "艾科诺克洛诺斯"
-    ],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "item",
-    "en": "hoopak",
-    "zh": "胡帕克",
-    "aliases": [],
-    "status": "pending",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Vrock",
-    "zh": "弗洛魔",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Hezrou",
-    "zh": "赫祖魔",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Glabrezu",
-    "zh": "格拉布雷祖",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Nalfeshnee",
-    "zh": "判魂魔",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Marilith",
-    "zh": "六臂蛇魔",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Balor",
-    "zh": "巴洛炎魔",
-    "aliases": [
-      "巴洛"
-    ],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Manta",
-    "zh": "蝠鲼",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Pungi",
-    "zh": "穿刺鳐",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
-  },
-  {
-    "category": "monster",
-    "en": "Sting",
-    "zh": "刺鳐",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": []
   }
 ]

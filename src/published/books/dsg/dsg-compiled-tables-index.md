@@ -15,7 +15,7 @@
 
 * 已负重角色不能靠自身力量在水中移动。如果他进入水中，就会下沉。
 
-### 表 2：攀爬速率 Table 2: Rates of Climbing
+### 表 2：攀爬速度 Table 2: Rates of Climbing
 
 | 被攀爬表面 | 不滑 | 略滑 | 滑 |
 |:---|---:|---:|---:|
@@ -31,9 +31,9 @@
 
 * 这些表面只有盗贼能够攀爬。
 
-### 表 3：擒抱成功 Table 3: Grappling Success
+### 表 3：爪钩成功率 Table 3: Grappling Success
 
-| 擒抱目标 | 失败 | 抓住并滑脱 | 抓住 |
+| 爪钩目标 | 未命中 | 钩住但会滑脱 | 稳固钩住 |
 |:---|:---:|:---:|:---:|
 | 石栏杆 | 01–72 | 73–78 | 79–00 |
 | 石墙顶 | 01–83 | 84–89 | 90–00 |
@@ -53,15 +53,15 @@
 | 19–22 | 1d6+5 英尺 | 1d6+12 英尺 |
 | 23+ | 1d6+6 英尺 | 1d6+15 英尺 |
 
-### 表 5：使用擒抱越过 Table 5: Crossing with a Grapple
+### 表 5：使用爪钩跨越 Table 5: Crossing with a Grapple
 
-| 擒抱目标 | 失败 | 抓住并滑脱 | 抓住 |
+| 爪钩目标 | 未命中 | 钩住但会滑脱 | 稳固钩住 |
 |:---|:---:|:---:|:---:|
 | 裸露石墙/地面 | 01–82 | 83–89 | 90–00 |
 | 洞窟构造 | 01–75 | 76–80 | 81–00 |
 | 废墟地基 | 01–66 | 67–71 | 72–00 |
 
-### 表 6：投掷绳套的距离 Table 6: Thrown Loop Ranges
+### 表 6：投掷绳圈的距离 Table 6: Thrown Loop Ranges
 
 | 角色等级 | 最大距离（英尺） |
 ---:|---:|
@@ -71,7 +71,7 @@
 | 13–16 | 75 |
 | 17+ | 90 |
 
-### 表 7：最低通道尺寸 Table 7: Minimum Passageway Sizes
+### 表 7：最小通道尺寸 Table 7: Minimum Passageway Sizes
 
 | 角色种族 | 通道宽度 | 通道高度 |
 |:---|---:|---:|
@@ -98,7 +98,7 @@
 | 野战板甲 | ⅚ 英尺 |
 | 全身板甲 | 1 英尺 |
 
-### 表 9：黑暗中的转向 Table 9: Course Changes in Darkness
+### 表 9：黑暗中的路线变化 Table 9: Course Changes in Darkness
 
 | d12 | 角色路线变化 |
 ---:|:---|
@@ -133,7 +133,7 @@
 | 中 | 加倍 | ½ | 1/10 |
 | 弱 | 加倍 | 正常 | 1/4 |
 
-### 表 17：塌方位置 Table 17: Cave-In Location
+### 表 17：坍塌位置 Table 17: Cave-In Location
 
 | d100 | 位置 |
 ---:|:---|
@@ -146,30 +146,30 @@
 | 56–95 | 玩家角色前方很远处，超出听觉范围 |
 | 96–00 | 玩家角色用来进入地下的入口处 |
 
-### 表 18：塌方链式反应 Table 18: Cave-In Chain Reaction
+### 表 18：坍塌连锁反应 Table 18: Cave-In Chain Reaction
 
-| 原塌方位置 | 塌方上方区域 | 紧邻塌方区域 |
+| 原坍塌位置 | 坍塌上方区域 | 紧邻坍塌区域 |
 |:---|---:|---:|
 | 天花板 | 48% | 32% |
 | 墙 | 32% | 12% |
-| 岩台/桥 | 5% | 12% |
-| 支撑柱 | 80% | 4% |
+| 岩棚／桥 | 5% | 12% |
+| 支柱 | 80% | 4% |
 
 ### 表 19：地下结构防御点数 Table 19: Underground Structure Defensive Point Value
 
 | 构造或结构 | 防御点数 |
 |:---|---:|
-| 房间，10 英尺立方体 | 50 |
-| 房间，20 英尺立方体 | 90 |
-| 柱，直径 3 英尺 | 10 |
-| 柱，直径 10 英尺 | 100 |
-| 墙，10 英尺见方 | 20 |
+| 10 英尺立方房间 | 50 |
+| 20 英尺立方房间 | 90 |
+| 3 英尺直径支柱 | 10 |
+| 10 英尺直径支柱 | 100 |
+| 10 英尺方墙 | 20 |
 | 小型木桥 | 12 |
 | 小型石桥 | 40 |
 | 大型石桥 | 80 |
-| 岩石突出部，每 1 英尺宽 | 10 |
-| 小型洞窟天花板 | 100 |
-| 大型洞窟天花板 | 250 |
+| 岩棚（每 1 英尺宽） | 10 |
+| 小型洞窟顶 | 100 |
+| 大型洞窟顶 | 250 |
 | 小型钟乳石 | 8 |
 | 大型钟乳石 | 20 |
 
@@ -182,7 +182,7 @@
 | 56–85 | 角色尽快悄悄设法逃走 |
 | 86–00 | 角色僵在原地，不作反应，也不移动 |
 
-### 表 21：船只移动速度 Table 21: Boat Movement Rates
+### 表 21：船只移动率 Table 21: Boat Movement Rates
 
 | 船只 | 普通速度 | 桨/桨叶最大速度* |
 |:---|---:|---:|
@@ -210,9 +210,9 @@
 | 大独木舟 | 1 轮 | 3 轮 |
 | 皮艇 | 1 轮 | 2 轮 |
 
-### 表 23：船只吃水与顶棚高度 Table 23: Boat Draught and Ceilings
+### 表 23：船只吃水与顶部净空 Table 23: Boat Draught and Ceilings
 
-| 船只 | 所需深度 | 所需顶棚高度 |
+| 船只 | 所需深度 | 所需净空 |
 |:---|---:|---:|
 | 小划艇 | ½ 英尺 | 2 英尺 |
 | 独木舟 | ½ 英尺 | 3 英尺 |
@@ -223,7 +223,7 @@
 | 大独木舟 | ⅓ 英尺 | 2 英尺 |
 | 皮艇 | ¼ 英尺 | 1½ 英尺 |
 
-### 表 24：使用船只时缺乏熟练项的惩罚 Table 24: Nonproficiency Penalties for Boat Use
+### 表 24：使用船只的不熟练惩罚 Table 24: Nonproficiency Penalties for Boat Use
 
 | 船只 | 移动修正 | 倾覆概率 |
 |:---|---:|---:|
@@ -261,7 +261,7 @@
 | 81–98 | 船只碎裂成许多小块 |
 | 99–00 | 没有损坏！ |
 
-### 表 27：挖掘速率 Table 27: Mining Rates
+### 表 27：采矿速率 Table 27: Mining Rates
 
 速率单位为每名矿工每八小时的立方英尺。
 
@@ -367,9 +367,9 @@
 |:---|---:|---:|
 | 血石 | 2d10 | 20+10d6金币 |
 | 琥珀 | 1d10 | 6d100金币 |
-| 玛瑙 | 3d10 | 10+10d6金币 |
+| 缟玛瑙 | 3d10 | 10+10d6金币 |
 | 绿松石 | 4d10 | 5d6金币 |
-| 晶石 | 4d10 | 5d6金币 |
+| 玛瑙 | 4d10 | 5d6金币 |
 | 海蓝宝石 | 1d10 | 10×5d6金币 |
 | 石榴石 | 1d10 | 100×1d4金币 |
 | 翡翠 | 2d10 | 10×5d6金币 |
@@ -394,12 +394,12 @@
 以下索引保留原书英文首词的字母顺序，并给出中文检索词和原书页码。
 
 - Ability Check 能力检定，12；Aboleth 底栖魔鱼，68、74、88、97、98；Adventurers 冒险者，99；Air supply 空气供应：持续时间 36、火 36、油 36、氧气使用 36、烟 36、通风 37；Animal noise 动物噪声，27；Animal trainer 驯兽师，25；Armorer 制甲师，25；Blind-fighting 盲斗，27；Boat in water 水中的船：32；bailing 排水，48；capsizing 倾覆，48；collapsible 可折叠，46、56；collisions 碰撞，47；folding 折叠，46；movement 移动，46；Bowyer 制弓师，25；Bridges 桥：原木 19、绳 19、石 19、悬索 19、木 19；Burrows 地洞，10；Beholder 眼魔，79；Belays 保险绳，18；Blacksmith 铁匠，25；Boating 划船，27；Boatwright 造船师，25。
-- Carpenter 木匠，26；Cascades 瀑布，45；Cave-ins 塌方：11、35、38；accidental 意外，39；by excavation 因挖掘，39；by sabotage 因破坏，39；chain reactions 链式反应，40；effects 影响，40；random 随机，39；Caves 洞窟：dead 死洞 7、lava 熔岩 9、limestone 石灰岩 7、living 有生物 7、sea 海洞 7；Climbing 攀爬：modifiers 修正 16、surfaces 表面 14；Climbing Check 攀爬检定，15；Climbing Rating 攀爬等级，15；Cloakers 斗篷怪，68、74、81、95、97；Collapsible boat 可折叠船，46、56；Crampons 冰爪，22、57；Crawling 爬行，20。
+- Carpenter 木匠，26；Cascades 瀑布，45；Cave-ins 坍塌：11、35、38；accidental 意外，39；by excavation 因挖掘，39；by sabotage 因破坏，39；chain reactions 连锁反应，40；effects 影响，40；random 随机，39；Caves 洞窟：dead 死洞 7、lava 熔岩 9、limestone 石灰岩 7、living 有生物 7、sea 海洞 7；Climbing 攀爬：modifiers 修正 16、surfaces 表面 14；Climbing Check 攀爬检定，15；Climbing Rating 攀爬评级，15；Cloakers 斗篷怪，68、74、81、95、97；Collapsible boat 可折叠船，46、56；Crampons 冰爪，22、57；Crawling 爬行，20。
 - Deepearth 深地，75；Derro 德洛，67、74、94、95、97；Dams 水坝，45；Direction sense 方向感，27；Dogs 狗，38、60；Draperies 帷幕，7；Drop-offs 落差，48；Drow 卓尔，66、69、73、79、83、94、95；Duergar 灰矮人，69、73、81、83、94、95；Dungeons 地城，8；Endurance 耐力，27；Equipment 装备，56–58；Excavating 挖掘，49；Falling 坠落：19；damage 伤害 19；onto spikes 落到尖刺上 20；onto water 落入水中 20；Fatigue 疲劳，21；Fire-building 生火，27；Fires 火，11、36、38；Fishing 捕鱼，27；Fletcher 箭匠，25；Floods 洪水，11；Flowstone 流石，7；Folding boat 折叠船，46；Fungus identification 真菌辨认，28。
-- Gas dogs 气体犬，38；Gem cutter 宝石切割师，26；Gems 宝石，51；finishing 加工 53；Geothermal heat 地热，9；Giants 巨人，78、90、91；Grappling hook 擒抱钩，16、17、56；Gypsum flowers 石膏花，7；Healing 治疗，28；Hirelings 雇工，42、54、113；Holding breath 屏息，12；Humans 人类，80、83；Humidity 湿度，70；Hydra 多头蛇，79。
-- Illithids 灵吸怪，见 Mind flayers；Jermalaine 杰马莱恩，68、83、85；Jumping 跳跃，17；Kraken 克拉肯，88；Kuo-toa 寇涛，66、69、73、80、87、88、95、97；Lakes 湖，43；Languages 语言，62；Lava caves 熔岩洞，9；Leatherworker 皮革匠，26；Lich 巫妖，95；Lodestone 磁石，42；Loop, thrown 投掷绳套，17；Magmen 岩浆人，91；Mapping 制图，62、114：geomorphic 几何拼图 117、orthographic 正交 114、perspective 透视 114；Mephits 火精灵，90；Mind flayers 灵吸怪，67、68、74、84、97；Miner 矿工，26；Mines 矿井，10；Mud men 泥人，88。
+- Gas dogs 气体犬，38；Gem cutter 宝石切割师，26；Gems 宝石，51；finishing 加工 53；Geothermal heat 地热，9；Giants 巨人，78、90、91；Grappling hook 爪钩，16、17、56；Gypsum flowers 石膏花，7；Healing 治疗，28；Hirelings 雇工，42、54、113；Holding breath 屏息，12；Humans 人类，80、83；Humidity 湿度，70；Hydra 多头蛇，79。
+- Illithids 灵吸怪，见 Mind flayers；Jermalaine 杰马莱恩，68、83、85；Jumping 跳跃，17；Kraken 克拉肯，88；Kuo-toa 寇涛，66、69、73、80、87、88、95、97；Lakes 湖，43；Languages 语言，62；Lava caves 熔岩洞，9；Leatherworker 皮革匠，26；Lich 巫妖，95；Lodestone 磁石，42；Loop, thrown 投掷绳圈，17；Magmen 岩浆人，91；Mapping 制图，62、114：geomorphic 几何拼图 117、orthographic 正交 114、perspective 透视 114；Mephits 火精灵，90；Mind flayers 灵吸怪，67、68、74、84、97；Miner 矿工，26；Mines 矿井，10；Mud men 泥人，88。
 - Mountaineering 登山，28；Mules 骡，59；Myconids 蘑菇人，68、82、95；NPCs 非玩家角色：proficiency use 熟练项使用 29、reactions 反应 42、unsteady 不稳定 43；Odor detection 气味侦测，37：duration 持续时间 37、noxious 有害 37、poisonous 有毒 11、37；Pech 佩奇，83、85、86、95；Plane of Earth 土元素位面，97；Plane of Fire 火元素位面，90、91、92；Plane of Water 水元素位面，97、98；Potter 陶匠，26；Problem-Solvers 解难者，99；Proficiencies 熟练项：adding 增加 23、adventuring 冒险 24、26、craftsman 工匠 24、25、equipment 装备 56、58、experience points for 熟练项经验值 29、modifiers 修正 24、25、26、nonweapon 非武器 23、slots 栏位 23、25、26；Proficiency Check 熟练项检定，12、23。
-- Rapids 急流，44；Rappelling 绳降，16；Realms 领域，10；Reservoirs 水库，43；Riding 骑乘，28；Role-Players 角色扮演者，99；Rope 绳，16；thrown loop 投掷绳套 17；Rope use 绳索使用，28；Scouting 侦察，59；Scrags 斯克拉格，78；Seas 海洋，44；Shoring 支护，50；Slow respiration 缓慢呼吸，28；Smelter 冶炼炉，26；Smell 气味，见 Odor detection；Smoke 烟，36、持续时间 37；Sound analysis 声音分析，28；Spells in darkness 黑暗中施法，32；Spike 尖桩，16；Stagnant water 死水，44；Stalactites 钟乳石，7；Stalagmites 石笋，7；Stonemason 石匠，26；Story 故事，103：denouement 收束 105、development 发展 104、exposition 铺陈 103、multiple story lines 多线故事 105；Story elements 故事要素，106：accomplishment 成就 108、challenge 挑战 107、discoveries 发现 108、foreshadowing 伏笔 106、moral 寓意 109、mystery 谜团 106、reward 奖励 107、villains 反派 106；Storytelling techniques 故事讲述技巧，112：pace 节奏 112、voice 声音 112；Story types 故事类型，109：linear adventure 线性冒险 109、matrix campaign 矩阵式战役 110、open campaign 开放式战役 110；Swimming 游泳，12。
+- Rapids 急流，44；Rappelling 绳降，16；Realms 领域，10；Reservoirs 水库，43；Riding 骑乘，28；Role-Players 角色扮演者，99；Rope 绳，16；thrown loop 投掷绳圈 17；Rope use 绳索使用，28；Scouting 侦察，59；Scrags 斯克拉格，78；Seas 海洋，44；Shoring 支护，50；Slow respiration 缓慢呼吸，28；Smelter 冶炼炉，26；Smell 气味，见 Odor detection；Smoke 烟，36、持续时间 37；Sound analysis 声音分析，28；Spells in darkness 黑暗中施法，32；Spike 尖桩，16；Stagnant water 死水，44；Stalactites 钟乳石，7；Stalagmites 石笋，7；Stonemason 石匠，26；Story 故事，103：denouement 收束 105、development 发展 104、exposition 铺陈 103、multiple story lines 多线故事 105；Story elements 故事要素，106：accomplishment 成就 108、challenge 挑战 107、discoveries 发现 108、foreshadowing 伏笔 106、moral 寓意 109、mystery 谜团 106、reward 奖励 107、villains 反派 106；Storytelling techniques 故事讲述技巧，112：pace 节奏 112、voice 声音 112；Story types 故事类型，109：linear adventure 线性冒险 109、matrix campaign 矩阵式战役 110、open campaign 开放式战役 110；Swimming 游泳，12。
 - Temperature 温度，70；Types of players 玩家类型，99；Umber hulks 掘土巨怪，95；Undead 不死生物，81、82、95；Underdark theories 幽暗地域理论，70：Hollow Earth 中空世界 71、Isolated Pockets 孤立囊地 71、Partial Connections 部分连接 71、Swiss Cheese 瑞士奶酪 71；Volcanoes 火山，11；Water 水：damming 筑坝 45、flowing 流动 44、standing 静止 43、temperature 温度 45；Waterfalls 瀑布，45；Weaponsmith 武器匠，26；Weaver 织工，26；Wind 风，38；Wood 木材：decay 腐烂 43；World design 世界设计，100；combat 战斗 33、forced dismount 强制下马 33、missile fire 发射投射物 33。
 
 ## 封底文案
