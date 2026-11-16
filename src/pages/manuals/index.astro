@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Bookshelf from '../../components/Bookshelf.astro';
+import { manuals, manualCategories } from '../../data/manuals';
+const shelfBooks = manuals.map(book => ({
+  id: book.id, title: book.title, cover: book.cover, href: `/manuals/${book.id}/`,
+  code: `${book.pages} 页 · PDF`, categories: [book.category],
+}));
+---
+<BaseLayout title="自编手册">
+  <header class="shelf-page-heading"><h1>自编手册</h1><p>把桌边常用的规则整理成册，也为每一本法术书留一个位置。</p><nav class="shelf-page-links" aria-label="图书馆导航"><a href="/books/">规则书库</a><a href="/rules/">规则库</a></nav></header>
+  <Bookshelf books={shelfBooks} categories={manualCategories} label="自编手册" />
+</BaseLayout>

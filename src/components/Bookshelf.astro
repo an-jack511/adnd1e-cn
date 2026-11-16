@@ -1,0 +1,71 @@
+---
+import type { ShelfBook } from '../data/bookshelf';
+import '../styles/bookshelf.css';
+interface Props {
+  books: ShelfBook[];
+  categories: { id: string; label: string }[];
+  label?: string;
+}
+const { books, categories, label = '图书馆' } = Astro.props;
+---
+<section class="bookshelf" data-bookshelf aria-label={label}>
+  <div class="shelf-toolbar">
+    <nav class="shelf-categories" aria-label={`${label}分类`}>
+      <a href="#all" data-shelf-category="all" aria-current="true">全部 <small>{books.length}</small></a>
+      {categories.map(category => <a href={`#${category.id}`} data-shelf-category={category.id}>
+        {category.label} <small>{books.filter(book => book.categories.includes(category.id)).length}</small>
+      </a>)}
+    </nav>
+    <label class="shelf-search">查找图书<input type="search" data-shelf-search placeholder="书名、英文名或简称" /></label>
+  </div>
+  <p class="shelf-status" data-shelf-status role="status">共 {books.length} 本 · 点击封面或书名阅读</p>
+  <ul class="shelf-grid">
+    {books.map(book => <li class="shelf-book" data-categories={book.categories.join(' ')} data-search={`${book.title} ${book.subtitle ?? ''} ${book.code ?? ''}`.toLowerCase()}>
+      <a class="shelf-book-link" href={book.href}>
+        <span class="shelf-cover">
+          {book.cover ? <img src={book.cover} alt="" loading="lazy" width="400" height="560" /> :
+            <span class="shelf-lettered-cover" data-cover-kind={book.categories[0]} aria-hidden="true">
+              <span class="shelf-cover-series">AD&amp;D · FIRST EDITION</span>
+              <span class="shelf-cover-ornament">✦</span>
+              <strong>{book.title}</strong>
+              <span class="shelf-cover-code">{book.code ?? '自编手册'}</span>
+            </span>}
+        </span>
+        <span class="shelf-title">{book.title}</span>
+        {book.subtitle && <span class="shelf-subtitle" lang="en">{book.subtitle}</span>}
+      </a>
+      {book.code && <span class="shelf-code">{book.code}</span>}
+    </li>)}
+  </ul>
+  <p class="shelf-empty" data-shelf-empty hidden>这个分类下还没有匹配的图书。</p>
+  <noscript><p>启用 JavaScript 后可按分类筛选和搜索；所有图书均可直接阅读。</p></noscript>
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-bookshelf]').forEach(shelf => {
+    const links = [...shelf.querySelectorAll<HTMLAnchorElement>('[data-shelf-category]')];
+    const cards = [...shelf.querySelectorAll<HTMLElement>('.shelf-book')];
+    const search = shelf.querySelector<HTMLInputElement>('[data-shelf-search]')!;
+    const status = shelf.querySelector<HTMLElement>('[data-shelf-status]')!;
+    const empty = shelf.querySelector<HTMLElement>('[data-shelf-empty]')!;
+    const update = () => {
+      const hash = location.hash.slice(1);
+      const category = links.some(link => link.dataset.shelfCategory === hash) ? hash : 'all';
+      const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      links.forEach(link => {
+        if (link.dataset.shelfCategory === category) link.setAttribute('aria-current', 'true');
+        else link.removeAttribute('aria-current');
+      });
+      let count = 0;
+      cards.forEach(card => {
+        card.hidden = !(category === 'all' || card.dataset.categories!.split(' ').includes(category))
+          || !words.every(word => card.dataset.search!.includes(word));
+        if (!card.hidden) count++;
+      });
+      status.textContent = `共 ${count} 本 · 点击封面或书名阅读`;
+      empty.hidden = count > 0;
+    };
+    search.addEventListener('input', update);
+    window.addEventListener('hashchange', update);
+    update();
+  });
+</script>
