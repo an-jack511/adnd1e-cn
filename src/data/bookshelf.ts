@@ -32,11 +32,12 @@ export const libraryBooks: ShelfBook[] = catalog.map(book => {
     : ['ff', 'mm2', 'ref3', 'ref4', 'ref5'].includes(book.id) ? ['monsters']
     : book.group.startsWith('战役设定') || book.id === 'dl-atlas' ? ['settings']
     : ['expansions'];
-  const cover = `/archive/${book.id}/book-cover.jpg`;
+  const cover = [`/assets/covers/${book.id}.jpg`, `/archive/${book.id}/book-cover.jpg`]
+    .find(path => existsSync(new URL(`../../public${path}`, import.meta.url)));
   return {
     id: book.id, title: book.titleZh, subtitle: book.title, code: book.short,
     href: book.archive ? `/read/${book.id}/` : `/books/${book.id}/`,
-    cover: existsSync(new URL(`../../public${cover}`, import.meta.url)) ? cover : undefined,
+    cover,
     categories,
   };
 }).sort((a, b) => {

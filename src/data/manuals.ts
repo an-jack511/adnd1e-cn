@@ -16,7 +16,7 @@ export const manualCategories = [
 export const manuals: Manual[] = [
   {
     id: 'player-reference-2',
-    title: 'AD&D 1e 玩家速查手册 · 第二册',
+    title: 'AD&D 1e 玩家速查手册 · 第二册：冒险与战役',
     category: 'compilations',
     cover: '/manuals/player-reference-2/cover.jpg',
     file: '/manuals/player-reference-2/player-reference-2.pdf',
