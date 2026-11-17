@@ -8,7 +8,7 @@ export function getStaticPaths() {
 const { book } = Astro.props;
 ---
 <BaseLayout title={book.title}>
-  <header class="shelf-page-heading"><h1>{book.title}</h1><p>{book.description}</p><p>{manualCategories.find(category => category.id === book.category)?.label} · {book.pages} 页 · PDF</p></header>
-  <nav class="manual-actions" aria-label="手册阅读操作"><a href={book.file}>打开 PDF 阅读</a><a href={book.file} download>下载 PDF</a><a href={`/manuals/#${book.category}`}>← 返回自编手册</a></nav>
+  <header class="shelf-page-heading"><h1>{book.title}</h1>{book.subtitle && <p lang="la">{book.subtitle}</p>}<p>{book.description}</p><p>{book.code && `${book.code} · `}{manualCategories.find(category => category.id === book.category)?.label} · {book.pages} 页 · PDF</p></header>
+  <nav class="manual-actions" aria-label="手册阅读操作"><a href={book.file}>打开 PDF 阅读</a><a href={book.file} download>下载 PDF</a><a href={`/books/#${book.category}`}>← 返回图书馆</a></nav>
   <object class="manual-reader" data={book.file} type="application/pdf" aria-label={book.title}><p>如浏览器未显示阅读器，<a href={book.file}>点击打开 PDF</a>，或下载后阅读。</p></object>
 </BaseLayout>

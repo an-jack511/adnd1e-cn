@@ -1,7 +1,11 @@
+import spellbooks from './spellbooks.json';
+
 export interface Manual {
   id: string;
   title: string;
-  category: 'compilations' | 'spellbooks';
+  subtitle?: string;
+  code?: string;
+  category: 'compilations' | 'magic-user-spellbooks' | 'illusionist-spellbooks';
   cover: string;
   file: string;
   description: string;
@@ -11,6 +15,8 @@ export interface Manual {
 export const manualCategories = [
   { id: 'compilations', label: '规则汇编' },
   { id: 'spellbooks', label: '法术书' },
+  { id: 'magic-user-spellbooks', label: '魔法师法术书' },
+  { id: 'illusionist-spellbooks', label: '幻术师法术书' },
 ];
 
 export const manuals: Manual[] = [
@@ -23,4 +29,5 @@ export const manuals: Manual[] = [
     description: '双面打印、单位换算与装订版。供玩家查阅及打印使用。',
     pages: 42,
   },
+  ...(spellbooks as Manual[]),
 ];

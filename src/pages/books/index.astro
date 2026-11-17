@@ -3,10 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Bookshelf from '../../components/Bookshelf.astro';
 import { libraryBooks, libraryCategories } from '../../data/bookshelf';
 ---
-<BaseLayout title="规则书库">
+<BaseLayout title="图书馆">
   <header class="shelf-page-heading">
-    <h1>规则书库</h1>
-    <nav class="shelf-page-links" aria-label="图书馆导航"><a href="/manuals/">自编手册与法术书 →</a><a href="/reference/">检索原书章节与表格</a></nav>
+    <h1>图书馆</h1>
+    <nav class="shelf-page-links" aria-label="图书馆导航"><a href="/reference/">检索原书章节与表格</a></nav>
   </header>
-  <Bookshelf books={libraryBooks} categories={libraryCategories} label="规则书库" />
+  <Bookshelf books={libraryBooks} categories={libraryCategories} label="图书馆" />
 </BaseLayout>

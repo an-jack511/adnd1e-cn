@@ -2,12 +2,16 @@ import { existsSync } from 'node:fs';
 import directory from './public/book-directory.json';
 import { books } from './public/books';
 import published from './published/topics';
+import { manuals, manualCategories } from './manuals';
 
 export interface ShelfBook {
   id: string;
   title: string;
   subtitle?: string;
+  subtitleLang?: string;
   code?: string;
+  pages?: number;
+  format?: string;
   href: string;
   cover?: string;
   categories: string[];
@@ -19,13 +23,14 @@ export const libraryCategories = [
   { id: 'monsters', label: '怪物' },
   { id: 'settings', label: '设定' },
   { id: 'magazines', label: '杂志' },
+  ...manualCategories,
 ];
 
 const catalog = [...directory, ...books.filter(book =>
   !directory.some(entry => entry.id === book.id) && published.some(topic => topic.book === book.id)
 ).map(book => ({ ...book, group: '', archive: '' }))];
 
-export const libraryBooks: ShelfBook[] = catalog.map(book => {
+const ruleBooks: ShelfBook[] = catalog.map(book => {
   const categories = /^dragon-\d+$/.test(book.id) ? ['magazines']
     : ['phb', 'dmg'].includes(book.id) ? ['core']
     : book.id === 'mm' ? ['core', 'monsters']
@@ -46,3 +51,9 @@ export const libraryBooks: ShelfBook[] = catalog.map(book => {
   return order || (a.categories[0] === 'magazines'
     ? Number(a.id.split('-')[1]) - Number(b.id.split('-')[1]) : 0);
 });
+
+export const libraryBooks: ShelfBook[] = [...ruleBooks, ...manuals.map(book => ({
+  id: book.id, title: book.title, subtitle: book.subtitle, subtitleLang: 'la', code: book.code,
+  cover: book.cover, href: `/manuals/${book.id}/`, pages: book.pages, format: 'PDF',
+  categories: book.category === 'compilations' ? [book.category] : ['spellbooks', book.category],
+}))];

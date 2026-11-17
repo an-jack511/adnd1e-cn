@@ -32,9 +32,13 @@ const { books, categories, label = '图书馆' } = Astro.props;
             </span>}
         </span>
         <span class="shelf-title">{book.title}</span>
-        {book.subtitle && <span class="shelf-subtitle" lang="en">{book.subtitle}</span>}
+        {book.subtitle && <span class="shelf-subtitle" lang={book.subtitleLang ?? 'en'}>{book.subtitle}</span>}
       </a>
-      {book.code && <span class="shelf-code">{book.code}</span>}
+      <div class="shelf-book-details" style={`--shelf-detail-count:${[book.code, book.pages, book.format].filter(Boolean).length || 1}`}>
+        {book.code && <span class="shelf-code">{book.code}</span>}
+        {book.pages && <span class="shelf-page-count">{book.pages} 页</span>}
+        {book.format && <span class="shelf-file-format">{book.format}</span>}
+      </div>
     </li>)}
   </ul>
   <p class="shelf-empty" data-shelf-empty hidden>这个分类下还没有匹配的图书。</p>

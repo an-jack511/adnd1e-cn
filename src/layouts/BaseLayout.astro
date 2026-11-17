@@ -13,10 +13,10 @@ const isHome = segments.length === 0;
 const sectionNames: Record<string, string> = {
   reference: '规则书检索', adventure: '冒险规则', combat: '战斗规则', races: '种族', classes: '职业',
   spells: '法术表', equipment: '装备与物品', monsters: '怪物合集',
-  psionics: '灵能与其他规则', character: '人物卡', books: '规则书',
-  rules: '规则库', manuals: '自编手册', tables: '随机表', search: '全站搜索', 'translation-table': '中英术语表', illustrations: '插图', play: '游戏中', dm: '主持游戏'
+  psionics: '灵能与其他规则', character: '人物卡', books: '图书馆',
+  rules: '图书馆', manuals: '图书馆', tables: '随机表', search: '全站搜索', 'translation-table': '中英术语表', illustrations: '插图', play: '游戏中', dm: '主持游戏'
 };
-const section = segments[0] === 'read' ? 'books' : segments[0];
+const section = ['read', 'manuals'].includes(segments[0]) ? 'books' : segments[0];
 const sectionHref = section === 'illustrations' ? '/monsters/' : `/${section}/`;
 const sectionTitle = section === 'illustrations' ? '怪物合集' : sectionNames[section];
 const crumbTitle = segments.length > 1 ? title.replace(/^.*? · /, '').replace(/\s+[A-Z][A-Za-z -]*$/, '') : undefined;
@@ -37,7 +37,7 @@ const crumbTitle = segments.length > 1 ? title.replace(/^.*? · /, '').replace(/
   <body class={`${isHome ? 'home-page' : `section-${section}`} ${bodyClass}`} data-character-page={characterPage} data-create-stage={createStage}>
     <SiteHeader />
     <main class="page-shell">
-      {!isHome && <nav class="breadcrumbs" aria-label="当前位置"><a href="/">首页</a> &gt; {section === 'books' && segments.length > 2 ? <><a href="/books/">规则书</a> &gt; <a href={segments[0]==='read' ? `/read/${segments[1]}/` : `/books/${segments[1]}/`}>{segments[1].toUpperCase()}</a> &gt; <span>{title.split(' · ')[0]}</span></> : segments.length > 1 ? <><a href={sectionHref}>{sectionTitle}</a> &gt; <span>{crumbTitle}</span></> : <span>{sectionTitle}</span>}</nav>}
+      {!isHome && <nav class="breadcrumbs" aria-label="当前位置"><a href="/">首页</a> &gt; {section === 'books' && segments.length > 2 ? <><a href="/books/">图书馆</a> &gt; <a href={segments[0]==='read' ? `/read/${segments[1]}/` : `/books/${segments[1]}/`}>{segments[1].toUpperCase()}</a> &gt; <span>{title.split(' · ')[0]}</span></> : segments.length > 1 ? <><a href={sectionHref}>{sectionTitle}</a> &gt; <span>{crumbTitle}</span></> : <span>{sectionTitle}</span>}</nav>}
       <slot />
     </main>
     <SiteFooter />
