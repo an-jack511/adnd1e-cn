@@ -21,6 +21,15 @@ export const manualCategories = [
 
 export const manuals: Manual[] = [
   {
+    id: 'player-reference-1',
+    title: 'AD&D 1e 玩家速查手册 · 第一册：角色与成长',
+    category: 'compilations',
+    cover: '/manuals/player-reference-1/cover.jpg',
+    file: '/manuals/player-reference-1/player-reference-1.pdf',
+    description: '人物创建、职业与角色成长速查。供玩家查阅及打印使用。',
+    pages: 44,
+  },
+  {
     id: 'player-reference-2',
     title: 'AD&D 1e 玩家速查手册 · 第二册：冒险与战役',
     category: 'compilations',

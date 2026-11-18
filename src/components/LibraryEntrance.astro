@@ -1,0 +1,71 @@
+---
+import { libraryBooks, libraryCategories } from '../data/bookshelf';
+const featured = ['phb', 'dmg', 'mm', 'player-reference-1', 'player-reference-2']
+  .map(id => libraryBooks.find(book => book.id === id)!)
+  .filter(Boolean);
+const supplements = ['ua', 'dsg', 'wsg', 'oa']
+  .map(id => libraryBooks.find(book => book.id === id)!)
+  .filter(Boolean);
+---
+<section class="reference-section library-entrance" aria-labelledby="home-library">
+  <div class="library-heading">
+    <h2 id="home-library"><a href="/books/">图书馆</a><small>{libraryBooks.length} 本</small></h2>
+    <a class="library-browse" href="/books/">浏览全部图书 <span aria-hidden="true">→</span></a>
+  </div>
+  <nav class="library-categories" aria-label="图书馆分类">
+    {libraryCategories.map(category => <a href={`/books/#${category.id}`}>{category.label}</a>)}
+  </nav>
+  <ul class="library-featured">
+    {featured.map(book => <li>
+      <a class="library-book" href={book.href}>
+        <span class="library-cover"><img src={book.cover} alt="" width="400" height="560" loading="lazy" /></span>
+        <span class="library-title">{book.title}</span>
+      </a>
+      <div class="library-details" style={`--detail-count:${[book.code, book.pages, book.format].filter(Boolean).length || 1}`}>
+        {book.code && <span>{book.code}</span>}
+        {book.pages && <span>{book.pages} 页</span>}
+        {book.format && <span>{book.format}</span>}
+      </div>
+    </li>)}
+    <li>
+      <ul class="library-mini-grid" aria-label="拓展规则精选">
+        {supplements.map(book => <li>
+          <a class="library-book" href={book.href}>
+            <span class="library-cover"><img src={book.cover} alt="" width="200" height="280" loading="lazy" /></span>
+            <span class="library-mini-label"><span>{book.title}</span><span class="library-mini-code">{book.code}</span></span>
+          </a>
+        </li>)}
+      </ul>
+    </li>
+  </ul>
+</section>
+<style>
+  .library-entrance { padding: 22px 24px 24px; border: 1px solid var(--line); background: var(--surface); }
+  .library-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .library-heading h2 { display: flex; align-items: baseline; gap: 12px; margin: 0; padding: 0; border: 0; }
+  .library-heading h2 a { text-decoration: none; }
+  .library-heading small { font-size: 12px; font-weight: normal; color: var(--muted); }
+  .library-browse { font-size: 14px; font-weight: bold; text-underline-offset: 4px; }
+  .library-categories { display: flex; flex-wrap: wrap; gap: 7px; margin: 16px 0 22px; }
+  .library-categories a { padding: 5px 10px; border: 1px solid var(--line); background: var(--paper); font-size: 13px; text-decoration: none; }
+  .library-categories a:hover { background: var(--surface-strong); }
+  .library-featured { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px; margin: 0; padding: 0; list-style: none; }
+  .library-featured li { margin: 0; min-width: 0; }
+  .library-book { display: block; text-decoration: none; }
+  .library-cover { display: flex; aspect-ratio: 5 / 7; align-items: center; justify-content: center; margin-bottom: 12px; box-shadow: 2px 4px 9px #0003; background: var(--paper); transition: transform .18s ease; }
+  .library-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .library-cover img[src^="/assets/covers/"] { filter: contrast(1.12) saturate(1.06); }
+  .library-book:hover .library-cover, .library-book:focus-visible .library-cover { transform: translateY(-4px); }
+  .library-title { display: block; font-size: 14px; font-weight: bold; line-height: 1.6; overflow-wrap: anywhere; }
+  .library-details { display: grid; grid-template-columns: repeat(var(--detail-count), minmax(0, 1fr)); gap: 4px; margin-top: 4px; font-size: 11px; line-height: 1.4; color: var(--muted); }
+  .library-details > :nth-child(2):not(:last-child) { text-align: center; }
+  .library-details > :last-child:not(:first-child) { text-align: right; }
+  .library-mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 10px; margin: 0; padding: 0; list-style: none; }
+  .library-mini-grid .library-cover { margin-bottom: 5px; }
+  .library-mini-label { display: flex; align-items: baseline; gap: 3px; font-size: 9px; line-height: 1.5; white-space: nowrap; }
+  .library-mini-code { flex-shrink: 0; font: 8px/1.5 Georgia, serif; color: var(--muted); }
+  .library-entrance a:focus-visible { outline: 2px solid var(--wine); outline-offset: 4px; }
+  @media (max-width: 960px) { .library-featured { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; } }
+  @media (max-width: 540px) { .library-entrance { padding: 16px; } .library-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; } .library-categories a { font-size: 12px; padding: 5px 8px; } }
+  @media (prefers-reduced-motion: reduce) { .library-cover { transition: none; } .library-book:hover .library-cover, .library-book:focus-visible .library-cover { transform: none; } }
+</style>

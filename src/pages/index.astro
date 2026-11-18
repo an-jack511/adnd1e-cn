@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import LibraryEntrance from '../components/LibraryEntrance.astro';
 import '../styles/table-reference.css';
 ---
-<BaseLayout description="AD&D 第一版中文 wiki：核心三本书、人物卡、战斗指南与桌边速查。">
+<BaseLayout description="AD&D 第一版中文 wiki：图书馆、人物卡、战斗指南与桌边速查。">
 <h1>AD&amp;D 第一版中文 wiki</h1>
 <p class="lede">为阅读、备团和跑团现场整理的中文规则参考站。可以按原书阅读，也可以从法术、怪物、装备和桌边表格直接找到当前需要的内容。</p>
 <form class="home-search" action="/reference/" method="get"><label for="home-search">原书查表</label><input id="home-search" name="q" type="search" placeholder="表名、列名或表内文字" /><button type="submit">搜索</button></form>
@@ -13,11 +14,7 @@ import '../styles/table-reference.css';
 <tr><th scope="row"><a href="/character/">人物卡</a></th><td>创建与记录人物、装备和准备法术；支持浏览器保存、JSON 备份与打印。<a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></td></tr>
 <tr><th scope="row"><a href="/play/character-creation/">创建角色</a></th><td>属性 → 种族与职业 → 装备 → 能力与法术。</td></tr>
 </tbody></table></section>
-<section class="reference-section" aria-labelledby="core-books"><h2 id="core-books">核心三本书</h2><p>从玩家人物、主持裁定和遭遇生物三个方向进入第一版的核心内容。</p><table class="home-directory core-books"><tbody>
-<tr><th scope="row"><a href="/books/phb/">PHB · 玩家手册</a></th><td>人物属性、种族、职业、装备、法术与玩家行动。<br /><a href="/books/phb/group-04/">人物属性</a> · <a href="/races/">种族</a> · <a href="/classes/">职业</a> · <a href="/equipment/">装备</a> · <a href="/spells/">法术</a></td></tr>
-<tr><th scope="row"><a href="/books/dmg/">DMG · 地下城主指南</a></th><td>遭遇与战斗裁定、攻击和豁免矩阵、经验、财宝及地下城工具。<br /><a href="/books/dmg/dmg-combat/">战斗原文</a> · <a href="/play/#attack-matrices">攻击矩阵</a> · <a href="/tables/">随机表</a> · <a href="/equipment/magic-items/">魔法物品</a></td></tr>
-<tr><th scope="row"><a href="/books/mm/">MM · 怪物图鉴</a></th><td>怪物数值、特殊攻击与防御、习性和遭遇资料。<br /><a href="/books/mm/">按原书阅读</a> · <a href="/monsters/">怪物条目检索</a></td></tr>
-</tbody></table><p><a href="/books/">查看扩展规则、世界设定及其他资料 →</a> 各条目按其来源书区分，扩展规则是否采用由本团决定。</p></section>
+<LibraryEntrance />
 <section class="reference-section"><h2>按当前需要查资料</h2><table class="home-directory"><tbody>
 <tr><th scope="row">人物与装备</th><td><a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/equipment/">普通装备与武器</a> · <a href="/equipment/magic-items/">魔法物品</a></td></tr>
 <tr><th scope="row">法术与怪物</th><td><a href="/spells/">法术</a> · <a href="/monsters/">怪物</a> · <a href="/psionics/">灵能</a></td></tr>
