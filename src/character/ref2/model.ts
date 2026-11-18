@@ -4,7 +4,7 @@ import {canonicalItemId} from '../../utils/merge-ua-equipment';
 export const CARD_FORMAT = 'adnd1e-ref2-card';
 export type Fields = Record<string, string | boolean>;
 export type Row = { id: string; values: Record<string, string> };
-export type PreparedSpell = { spellId: string; count: number; expended: number };
+export type PreparedSpell = { spellId: string; count: number; expended: number; sourceBookId?: string; sourceBookName?: string };
 export const collectionNames = ['weapons', 'unarmed', 'gear', 'family', 'henchmen', 'ammunition', 'proficiencies', 'valuables'] as const;
 export type CollectionName = typeof collectionNames[number];
 export type Card = { format: typeof CARD_FORMAT; version: 1; fields: Fields; rows: Record<CollectionName, Row[]>; preparedSpells: PreparedSpell[]; [key: string]: unknown };
@@ -46,7 +46,7 @@ export function normalizeCard(value: unknown): Card {
     if (!Array.isArray(value.preparedSpells)) throw new Error('准备法术记录损坏；原文件未改动。');
     card.preparedSpells = value.preparedSpells.map(entry => {
       if (!object(entry) || typeof entry.spellId !== 'string') throw new Error('准备法术记录损坏。');
-      const count=Math.max(1,integer(entry.count,1)); return {spellId:entry.spellId,count,expended:Math.min(count,integer(entry.expended,0))};
+      const count=Math.max(1,integer(entry.count,1)); return {spellId:entry.spellId,count,expended:Math.min(count,integer(entry.expended,0)),...(typeof entry.sourceBookId==='string'?{sourceBookId:entry.sourceBookId}:{}),...(typeof entry.sourceBookName==='string'?{sourceBookName:entry.sourceBookName}:{})};
     });
   } else {
     const legacyUnarmed: Record<string,string> = {unarmed_style:'style',unarmed_form:'form',unarmed_adjustment:'hit',unarmed_effect:'damage'};

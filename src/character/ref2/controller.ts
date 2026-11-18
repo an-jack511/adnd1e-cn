@@ -18,7 +18,7 @@ import {updateCardSpellSlots} from './spell-capacity';
 
 import {acceptsItem,type ItemRole} from './item-roles';
 import {automateSaves,combatProfile,generated,strengthScore,abilityBonus} from './automation';
-import {resolveItem,syncEquipped,carriedItems,selectAmmunition} from './inventory';
+import {resolveItem,syncEquipped,carriedItems,selectAmmunition,syncSpellbookGear} from './inventory';
 import {monkCombat} from './monk';
 import {proficiencyBudget,combatProficiencyAdjustment} from './proficiencies';
 import {selectReferences} from './references';
@@ -79,6 +79,7 @@ function renderRows(key:CollectionName) {
       if (control instanceof HTMLSelectElement && entry && ![...control.options].some(option=>option.value===entry)) control.add(new Option(entry,entry));
       if(control instanceof HTMLInputElement&&control.type==='checkbox')control.checked=entry==='1';else control.value=entry;
       if(key==='weapons'&&keyName==='notes')control.title=entry;
+      if(record.values.autoSpellbook==='1')control.readOnly=true;
       control.setAttribute('aria-label',`${section.querySelector('h3')!.childNodes[0].textContent!.trim()}第 ${index+1} 条 ${control.getAttribute('aria-label')}`);
     }
     table.append(row);
@@ -168,6 +169,7 @@ function update(editSource='') {
   for(const [key,entry] of [['ac_shieldless',computeArmorClass(armor,undefined,dexterity,Number(value('ac_modifier'))||0).value-magicAcBonus],['ac_surprised',computeArmorClass(armor,shield,'',Number(value('ac_modifier'))||0).value-magicAcBonus],['ac_rear',computeArmorClass(armor,undefined,'',Number(value('ac_modifier'))||0).value-magicAcBonus]] as const){if(!['monk','oa-kensai','barbarian'].includes(value('class'))){generated(card.fields,key,String(entry));set(key,String(card.fields[key]??''));}}
   document.querySelector('#ac-breakdown')!.textContent=ac.components.map(part=>`${part.label} ${part.value}`).join('；')+'。'+ac.notes.join(' ');
   const weaponItems=card.rows.weapons.map(row=>items.find(item=>item.id===row.values.name)).filter(Boolean) as typeof items;
+  if(syncSpellbookGear(card))renderRows('gear');
   const encumbrance=computeEncumbrance(carriedItems(card,items).map(entry=>({...entry,item:weaponWithBase(entry.item,items)})));
   const race=races.find(race=>race.id===value('race'));
   if(race){for(const [key,text] of [['languages',race.languages],['senses',race.abilities.filter(a=>/视觉|视力/.test(a)).join('；')],['detections',race.detection],['resistances',race.savingThrows],['special_abilities',race.abilities.join('；')]] as const){generated(card.fields,key,text);set(key,String(card.fields[key]??''));}}
@@ -349,7 +351,7 @@ function renderPrepared() {
     const remaining=document.createElement('strong');remaining.textContent=`剩余 ${entry.count-entry.expended}`;controls.append(remaining);
     const cast=document.createElement('button');cast.type='button';cast.textContent='施放一次';cast.disabled=entry.expended>=entry.count;cast.addEventListener('click',()=>{entry.expended++;renderPrepared();update();modified();});controls.append(cast);
     const remove=document.createElement('button');remove.type='button';remove.textContent='撤销准备';remove.addEventListener('click',()=>{card.preparedSpells=card.preparedSpells.filter(item=>item!==entry);renderPrepared();update();modified();});controls.append(remove);
-    const source=document.createElement('p');source.className='spell-source';source.textContent=spell ? [...new Set(spell.source.map(source=>`${source.book}${source.page?` p.${source.page}`:''}`))].join(' · ') : '';
+    const source=document.createElement('p');source.className='spell-source';source.textContent=[spell ? [...new Set(spell.source.map(source=>`${source.book}${source.page?` p.${source.page}`:''}`))].join(' · ') : '',entry.sourceBookName?`准备自：${entry.sourceBookName}`:''].filter(Boolean).join(' · ');
     article.append(heading,rules,controls,source);nodes.push(article);
   }
   container.replaceChildren(...nodes);
@@ -375,6 +377,14 @@ function knownBookSpells(){
   }
   return [...ids].map(id=>spells.find(spell=>spell.id===id)).filter(Boolean).sort((a,b)=>a!.level-b!.level||a!.nameZh.localeCompare(b!.nameZh,'zh-CN')) as typeof spells;
 }
+function spellSource(spellId:string){
+  let data:any={};try{data=JSON.parse(String(card.fields.spellbook_records||'{}'));}catch{}
+  const contains=(book:any)=>{const source=(spellbookCatalog as {id:string;spells?:{id:string}[]}[]).find(entry=>entry.id===book.id);return !!source?.spells?.some(entry=>entry.id===spellId)||Object.values(book.progression||{}).some((row:any)=>(row.spellIds||[]).includes(spellId))||Object.values(book.levels||{}).some((row:any)=>(row.spellIds||[]).includes(spellId));};
+  const travel=(data.travel||[]).find((book:any)=>Array.isArray(book.spells)&&book.spells.includes(spellId));
+  if(travel?.instanceId)return {id:`travel:${travel.instanceId}`,name:travel.name||'旅行法术书'};
+  const home=(data.books||[]).find(contains);if(home)return {id:`home:${home.id}`,name:(spellbookCatalog as {id:string;title:string}[]).find(entry=>entry.id===home.id)?.title||'主法术书'};
+  return undefined;
+}
 function renderKnownBookSpells(){
   const candidates=knownBookSpells();ownedSpellList.replaceChildren();
   if(!candidates.length){const note=document.createElement('p');note.textContent='暂无已知法术。先在法术书页登记。';const link=document.createElement('a');link.href='/character/spellbooks/';link.textContent='打开法术书';ownedSpellList.append(note,link);return;}
@@ -382,7 +392,7 @@ function renderKnownBookSpells(){
 }
 document.querySelector('#open-owned-spells')!.addEventListener('click',()=>{renderKnownBookSpells();ownedSpellDialog.showModal();});
 document.querySelector('#close-owned-spells')!.addEventListener('click',()=>ownedSpellDialog.close());
-document.querySelector('#add-owned-spells')!.addEventListener('click',()=>{const ids=[...ownedSpellList.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(input=>input.value),status=document.querySelector<HTMLElement>('#owned-spell-status')!;if(!ids.length){status.textContent='提示：未选择法术。';return;}selectPrepared(card,[...card.preparedSpells.map(entry=>entry.spellId),...ids]);renderPrepared();update();modified();ownedSpellDialog.close();status.textContent=`已加入 ${ids.length} 个法术。`;});
+document.querySelector('#add-owned-spells')!.addEventListener('click',()=>{const ids=[...ownedSpellList.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(input=>input.value),status=document.querySelector<HTMLElement>('#owned-spell-status')!;if(!ids.length){status.textContent='提示：未选择法术。';return;}selectPrepared(card,[...card.preparedSpells.map(entry=>entry.spellId),...ids]);for(const entry of card.preparedSpells)if(ids.includes(entry.spellId)&&!entry.sourceBookId){const source=spellSource(entry.spellId);if(source)Object.assign(entry,{sourceBookId:source.id,sourceBookName:source.name});}renderPrepared();update();modified();ownedSpellDialog.close();status.textContent=`已加入 ${ids.length} 个法术。`;});
 const library=document.querySelector<HTMLDialogElement>('#spell-library')!,frame=document.querySelector<HTMLIFrameElement>('#spell-library-frame')!;
 const sendSelection=()=>frame.contentWindow?.postMessage({type:'adnd1e-card-selection',ids:card.preparedSpells.map(entry=>entry.spellId),slots:Object.fromEntries(Array.from({length:10},(_,level)=>[level,String(value(`spell_slots_${level}`)||'')])),counts:Object.fromEntries(card.preparedSpells.map(entry=>[entry.spellId,entry.count]))},location.origin);
 document.querySelector('#open-spell-library')!.addEventListener('click',()=>{
@@ -404,7 +414,7 @@ window.addEventListener('message',event=>{
     const known=new Set(spells.map(spell=>spell.id));
     // Existing unknown IDs survive changes made with a newer/older library.
     const unknown=card.preparedSpells.filter(entry=>!known.has(entry.spellId)).map(entry=>entry.spellId);
-    selectPrepared(card,[...event.data.ids.filter((id:string)=>known.has(id)),...unknown]);renderPrepared();update();modified();library.close();
+    const ids=event.data.ids.filter((id:string)=>known.has(id));selectPrepared(card,[...ids,...unknown]);for(const entry of card.preparedSpells)if(ids.includes(entry.spellId)&&!entry.sourceBookId){const source=spellSource(entry.spellId);if(source)Object.assign(entry,{sourceBookId:source.id,sourceBookName:source.name});}renderPrepared();update();modified();library.close();
   }
 });
 
@@ -498,6 +508,7 @@ installCardPrinting(form,()=>{collect();});
 card=restoreWorkingCopy();applyCard(card);
 try{refreshSaved(String(card.fields.character_id||''));}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
 window.addEventListener('pagehide',()=>{try{persistWorkingCopy();}catch{}});
+window.addEventListener('pageshow',event=>{if(!event.persisted)return;try{card=restoreWorkingCopy();applyCard(card);refreshSaved(String(card.fields.character_id||''));}catch(error){notify(error instanceof Error?error.message:'人物卡恢复失败，浏览器记录已保留。');}});
 
 function updateCombat(strength:string){
  const profile=combatProfile(card.fields),base=profile?.attacks.find(a=>a.ac===0)?.target;

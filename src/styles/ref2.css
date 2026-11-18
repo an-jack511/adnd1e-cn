@@ -46,6 +46,7 @@
 .spellbook-heading h2 { margin:0;font:21px var(--display); }
 .spellbook-workspace { display:block;max-width:1180px; }
 .spellbook-workspace>.ref2-tabs { display:flex;gap:14px;align-items:center;flex-wrap:wrap; }
+.spellbook-cost-note { margin:4px 0 10px;color:var(--muted);font:11px/1.5 Arial,"Microsoft YaHei",sans-serif; }
 .spellbook-help-link { margin:0 0 12px;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
 .spellbook-content { min-width:0; }
 .spellbook-content>.ref2-paper { margin:0 0 12px; }
@@ -61,6 +62,10 @@
 .spellbook-growth-actions { display:flex;flex-wrap:wrap;align-items:center;gap:6px;min-width:0; }
 .spellbook-growth-actions button { min-height:26px!important;padding:3px 8px!important;font:11px Arial,"Microsoft YaHei",sans-serif!important; }
 .spellbook-growth-actions span { overflow-wrap:anywhere; }
+  .spellbook-growth-result { grid-column:1/-1;display:grid;justify-items:center;gap:5px;padding:8px 6px;text-align:center; }
+  .spellbook-growth-result strong { font:20px/1.25 var(--display);overflow-wrap:anywhere; }
+  .spellbook-growth-result span,.spellbook-growth-result small { color:var(--muted);font:11px/1.4 Arial,"Microsoft YaHei",sans-serif; }
+  .spellbook-growth-result input { width:105px;min-height:30px;text-align:center;font:14px Arial,"Microsoft YaHei",sans-serif; }
 .spellbook-spell-list { font-size:11px;line-height:1.6; }
 .spellbook-check-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px; }
 .spell-group-heading { grid-column:1/-1;margin:12px 0 2px;padding-bottom:4px;border-bottom:1px solid var(--line);font-size:14px; }
