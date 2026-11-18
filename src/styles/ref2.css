@@ -584,3 +584,27 @@
  #ref2-print-output.print-preview .ref2-original-logo{filter:none!important}
 }
 @media print{#ref2-print-output .checkline{display:none!important}}
+
+/* Keep labels readable at A4 size; combat matrices remain deliberately compact. */
+@media print{
+ #ref2-print-output .ref2-paper[data-card-panel]{font-size:9pt}
+ #ref2-print-output .ref2-paper h3 small,
+ #ref2-print-output .ref2-top-grid h3 small,
+ #ref2-print-output .ability-row>b span,
+ #ref2-print-output .ability-derived small,
+ #ref2-print-output .save-labels,
+ #ref2-print-output .movement-base .ref2-field,
+ #ref2-print-output .movement-rates .ref2-field,
+ #ref2-print-output .armor-variants .ref2-field,
+ #ref2-print-output .ref2-table th,
+ #ref2-print-output .ref2-page-foot{font-size:6.5pt!important}
+ #ref2-print-output .save-row>span,
+ #ref2-print-output .honor-ovals .ref2-field>span,
+ #ref2-print-output .ref2-band small,
+ #ref2-print-output .row-note label,
+ #ref2-print-output .ammunition-name input,
+ #ref2-print-output .ref2-supplies p{font-size:7pt!important}
+ #ref2-print-output .ref2-table :is(input,select){font-size:7.5pt!important}
+ #ref2-print-output .ref2-paper .repeater-weapons .ref2-table input{font-size:6.5pt!important}
+ #ref2-print-output .ref2-paper .ref2-table .ac-cell input{font-size:5.5pt!important}
+}
