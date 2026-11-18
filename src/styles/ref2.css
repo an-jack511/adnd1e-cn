@@ -4,8 +4,53 @@
   --display:"Book Antiqua","STZhongsong","华文中宋","Noto Serif SC","Songti SC",serif;
   color:var(--ref2-ink); max-width:1180px; margin:auto;
 }
+.ref2-workspace { display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:20px;align-items:start; }
+.card-workspace-heading,.ref2-toolbar,.ref2-print-settings,.card-status,.undo-row,.ref2-tabs,.card-source,.character-first-run { grid-column:1/-1; }
+.character-first-run { border-inline-start:3px solid var(--ref2-orange);background:color-mix(in srgb,var(--paper,#fffdf8) 86%,#f4d889);padding:8px 12px;margin:3px 0 8px;font-size:12px;line-height:1.55; }
+.character-first-run ol { display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:3px 18px;margin:5px 0 0;padding-inline-start:22px; }
+.ref2-card { grid-column:1;min-width:0; }
+.ref2-rule-check { grid-column:2;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;border:1px solid var(--line,#bfb5a3);border-top:3px solid var(--ref2-orange);background:var(--paper,#fffdf8);color:var(--ink,#24221f);padding:10px 12px;margin:0;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.ref2-rule-check h2 { margin:0 0 8px;font:600 16px/1.35 Arial,"Microsoft YaHei",sans-serif; }
+.ref2-rule-check #rule-status.has-conflicts { color:#a11919;font-weight:700; }
+.ref2-rule-check #rule-status.has-warnings { color:#805719;font-weight:700; }
+.ref2-rule-check li { margin:5px 0;font-family:Arial,"Microsoft YaHei",sans-serif; }
+.ref2-rule-check li.error { color:#a11919; }
+.ref2-rule-check li.warning { color:#805719; }
+.ref2-rule-check li.hint { color:#4b5662; }
+.rule-suggestions p { white-space:pre-line;font-family:Arial,"Microsoft YaHei",sans-serif; }
+.rule-suggestions { border-top:1px solid #c9c0b2;margin-top:12px;padding-top:8px; }
+.rule-suggestions h3 { font-size:13px;margin:0 0 5px; }
+.rule-suggestions p { margin:0 0 6px;line-height:1.6; }
+.rule-suggestions a { font-size:12px; }
+.ref2-tab-link { display:inline-flex;align-items:center;padding:9px 15px;border-inline:1px solid #d0c7b8;color:inherit;text-decoration:none;font-size:12px; }
+.magic-item-adjustments { display:flex;flex-wrap:wrap;gap:2px 5px;grid-column:1/-1;font-size:10px; }
+.magic-item-adjustments label { display:flex;align-items:center;gap:2px; }
+.magic-item-adjustments input { width:32px;min-height:20px;border-bottom:1px solid #a99d87!important;text-align:center; }
+.protection-ring-grade { display:flex;align-items:center;gap:4px;font-size:11px; }
+.protection-ring-grade select { min-height:24px;padding:1px 4px;font-size:11px; }
+.protection-ring-effect { align-self:center;font-size:10px;color:#665b4b; }
+.spellbook-heading { display:flex;justify-content:space-between;gap:12px;align-items:start; }
+.spellbook-heading h2 { margin:0;font:21px var(--display); }
+.spellbook-workspace>.ref2-tabs { display:flex;gap:14px;align-items:center;flex-wrap:wrap; }
+.spellbook-levels { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px; }
+.spellbook-level { border-top:1px solid #b8aa84;padding:8px 4px;min-width:0;break-inside:avoid; }
+.spellbook-level h3 { margin:0 0 5px;font-size:16px; }
+.spellbook-spell-list { font-size:11px;line-height:1.6; }
+.spellbook-counts { display:flex;gap:8px; }
+.spellbook-counts label { display:grid;gap:3px;font-size:11px; }
+.spellbook-counts input { width:64px;border-bottom:1px solid #887b65; }
+.spellbook-level>label { display:grid;gap:4px;margin-top:6px;font-size:11px; }
+.spellbook-level select { min-height:80px; }
+.travel-book-row { display:grid;grid-template-columns:1fr .7fr 2fr;gap:10px;margin:8px 0; }
+.travel-book-row label { display:grid;gap:4px;font-size:11px; }
+.travel-book-row input { width:100%;border-bottom:1px solid #887b65; }
+.travel-spell-picker { grid-column:1/-1;display:grid;grid-template-columns:minmax(150px,.7fr) minmax(0,2fr);gap:6px 10px;align-items:start; }
+.travel-spell-picker select { grid-column:2;grid-row:1/3;width:100%;min-height:112px; }
+.travel-spell-picker small { grid-column:1;grid-row:2;align-self:start; }
+.travel-book-row>button { grid-column:1/-1;justify-self:end; }
 .ref2-workspace :is(button,input,select,textarea,output,label,p,td) { font-family:var(--type); }
 .ref2-workspace :is(h1,h2,h3,th,b) { font-family:var(--display); }
+.ref2-workspace .ref2-rule-check :is(p,li,h2,h3,a,button) { font-family:Arial,"Microsoft YaHei",sans-serif; }
 .ref2-workspace [hidden] { display:none!important; }
 .card-workspace-heading { display:flex;align-items:center;justify-content:space-between;gap:1rem; }
 .card-workspace-heading h1 { margin:0;letter-spacing:.12em; }
@@ -204,8 +249,6 @@
 .prepared-controls button { padding:2px 5px;min-height:24px;font-size:10px; }
 .spell-source { margin-top:5px!important;font:10px "Book Antiqua",var(--type);color:#756344; }
 .ref2-spells>.ref2-field { margin-top:18px; }
-.ref2-rule-check { border-top:1px solid #bfb5a3;margin:20px 0 8px;font-size:12px; }
-.ref2-rule-check h2 { font-size:15px; }
 .ref2-rule-check ul:empty { display:none; }
 .card-source { font-size:10px;color:#7f7361;margin-top:15px; }
 #spell-library { width:min(1180px,96vw);height:90vh;max-height:95vh;padding:0;border:1px solid #62513a;background:#fcfaf4; }
@@ -294,9 +337,13 @@
   .ref2-rule-check { font-size:14px; }
   .ref2-rule-check h2 { font-size:18px; }
 }
-@media screen and (min-width:1100px) {
-  body.section-character:has(.ref2-workspace) { grid-template-columns:145px minmax(0,1180px); }
+@media screen and (max-width:1050px) { .ref2-workspace { grid-template-columns:minmax(0,1fr) 220px;gap:12px; } }
+@media screen and (min-width:1650px) {
+  .ref2-workspace { display:block; }
+  .ref2-rule-check { position:fixed;right:clamp(16px,calc((100vw - 1600px)/2),72px);top:96px;width:260px;max-height:calc(100vh - 112px);z-index:20;box-shadow:0 2px 12px #0002; }
 }
+@media screen and (max-width:1100px) { body.section-character,.page-shell,.ref2-workspace { overflow-x:clip; }.ref2-workspace { display:block; }.ref2-rule-check { position:static;max-height:none;width:auto;margin:16px 0; } }
+@media screen and (max-width:1100px) { :root:has(body.section-character) { overflow-x:clip; } }
 @media screen and (max-width:1000px) and (min-width:701px) {
   .ref2-top-grid { grid-template-columns:1.3fr .6fr 1.1fr; }
   .ability-row { grid-template-columns:40px 38px 1fr; }
@@ -321,6 +368,8 @@
   .spell-slots .ref2-field { font-size:13px; }
   .ref2-page-foot { font-size:11px; }
 }
+@media screen and (max-width:900px) { .spellbook-levels { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media screen and (max-width:580px) { .spellbook-levels { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr; }.travel-spell-picker { grid-template-columns:minmax(0,1fr); }.travel-spell-picker select,.travel-spell-picker small { grid-column:1;grid-row:auto; } }
 
 /* Source REF2 silhouettes and column order; screen sizing remains readable. */
 .ref2-paper { background:#fff; }

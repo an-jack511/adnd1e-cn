@@ -4,10 +4,12 @@ import {currentItemLabel,findNamedEntry} from '../../utils/terminology';
 import {installCardPrinting} from './printing';
 import abilityTables from '../../data/public/ability-tables.json';
 import options from '../../data/public/character-options.json';
+import classTables from '../../data/public/class-tables.json';
 import type {ClassEntry,RaceEntry} from '../../schemas';
 const classes=options.classes as ClassEntry[],races=options.races as RaceEntry[];
 import { itemIndex as items } from '../../data/public/item-index';
 import { spells } from '../../data/public/spell-index';
+import spellbookCatalog from '../../data/character-spellbooks.json';
 import { abilityAdjustment } from '../../rules-engine/abilities';
 import { checkEligibility, checkEquipment, computeArmorClass, computeEncumbrance, computeMovement, type Ability } from '../../rules-engine/character';
 import { blankCard, blankRow, collectionNames, normalizeCard, selectPrepared, selectInventory, type Card, type CollectionName, type Row } from './model';
@@ -84,9 +86,19 @@ function applyCard(next:Card) {
   }
   splitStrength(); collectionNames.forEach(renderRows); update(); renderPrepared(); dirty=false;
 }
-function update() {
+function update(editSource='') {
   collect();
-  const spellCapacity=updateCardSpellSlots(card.fields);
+  const magicAdjustments=magicItemAdjustments(card);
+  const xpClass=String(value('class')),xpTable=(classTables as Record<string,{rows:string[][]}>)[xpClass];
+  if(xpTable&&['xp','level','class'].includes(editSource)){
+    const rows=xpTable.rows.map(row=>({level:Number(row[1]),minimum:Number(row[0].match(/[\d,]+/)?.[0]?.replaceAll(',','')??NaN)})).filter(row=>Number.isFinite(row.minimum)&&Number.isFinite(row.level)).sort((a,b)=>a.level-b.level);
+    const currentLevel=Math.max(1,Number(value('level'))||1),currentXp=Math.max(0,Number(value('xp'))||0);
+    if(editSource==='level'||(editSource==='class'&&!String(value('xp')).trim())){const row=rows.find(entry=>entry.level===currentLevel);if(row){set('xp',row.minimum);card.fields.auto_xp=String(row.minimum);}}
+    else {const row=[...rows].reverse().find(entry=>currentXp>=entry.minimum);if(row){set('level',row.level);card.fields.auto_level=String(row.level);}}
+  }
+  const capacityFields={...card.fields,INT:/^\d+$/.test(value('INT'))?String(Math.min(25,Number(value('INT'))+magicAdjustments.INT)):value('INT'),WIS:/^\d+$/.test(value('WIS'))?String(Math.min(25,Number(value('WIS'))+magicAdjustments.WIS)):value('WIS')};
+  const spellCapacity=updateCardSpellSlots(capacityFields);
+  if(!checked('manual_spell_slots'))for(let level=0;level<=9;level++)card.fields[`spell_slots_${level}`]=String(capacityFields[`spell_slots_${level}`]??'');
   for(let level=0;level<=9;level++) {
     const name=`spell_slots_${level}`;
     set(name,String(card.fields[name]??''));
@@ -97,9 +109,12 @@ function update() {
   const abilities=['STR','INT','WIS','DEX','CON','CHA'] as Ability[];
   const exceptional=/^18(?:$|[/(（／])/.test(value('STR'));
   document.querySelector<HTMLElement>('#exceptional-row')!.hidden=!exceptional;
-  const strength=strengthScore(value('STR'),value('exceptional_strength'));
+  let strength=strengthScore(value('STR'),value('exceptional_strength'));
+  if(/^(?:[3-9]|1\d|2[0-5])$/.test(strength))strength=String(Math.max(3,Math.min(25,Number(strength)+magicAdjustments.STR)));
+  const effectiveDexterity=/^\d+$/.test(value('DEX'))?String(Math.max(3,Math.min(25,Number(value('DEX'))+magicAdjustments.DEX))):value('DEX');
   for (const ability of abilities) {
-    const result=abilityAdjustment(ability,ability==='STR' ? strength : value(ability));
+    const raw=ability==='STR'?strength:ability==='DEX'?effectiveDexterity:/^\d+$/.test(value(ability))?String(Math.max(3,Math.min(25,Number(value(ability))+magicAdjustments[ability]))):value(ability);
+    const result=abilityAdjustment(ability,raw);
     const target=form.querySelector<HTMLElement>(`[data-derived="${ability}"]`)!;
     target.title=result.source;
     const entries=result.values.length ? result.values : (abilityTables[ability]?.labels ?? []).map(label=>({label,value:"—"}));
@@ -113,57 +128,86 @@ function update() {
   const armor=selectedArmor('armor_item'),shield=selectedArmor('shield_item');
   for(const [slot,item] of [['armor_item',armor],['shield_item',shield]] as const)card.fields[slot]=item?.id??value(slot);
   if(syncEquipped(card,items))renderRows('gear');
-  document.querySelector('#save-breakdown')!.textContent=automateSaves(card.fields);
+  const protectionBonus=magicProtectionBonus(card)+magicAdjustments.save;
+  const saveNote=automateSaves(card.fields);
+  if(!checked('manual_saves')&&protectionBonus)for(let i=0;i<5;i++){const rawBase=String(card.fields[`auto_save_${i}`]??'').trim();const base=Number(rawBase);if(rawBase!==''&&Number.isFinite(base))card.fields[`save_${i}`]=String(base-protectionBonus);}
+  document.querySelector('#save-breakdown')!.textContent=saveNote+(protectionBonus?`；防护魔法物品豁免 +${protectionBonus} 已计入。`: '');
   for(let i=0;i<5;i++){set(`save_${i}`,String(card.fields[`save_${i}`]??''));(field(`save_${i}`) as HTMLInputElement).readOnly=false;}
   document.querySelector('#proficiency-budget')!.textContent=proficiencyBudget(card);
   for(const key of ['weapon_slots','nonweapon_slots','shared_slots'])set(key,String(card.fields[key]??''));
   updateCombat(strength);
   const monk=value('class')==='monk'?monkCombat(Number(value('level'))):null;
-  const dexterity=['monk','oa-kensai'].includes(value('class'))?'':value('DEX');
+  const dexterity=['monk','oa-kensai'].includes(value('class'))?'':effectiveDexterity;
   const ac=computeArmorClass(armor,shield,dexterity,Number(value('ac_modifier'))||0);
   if(monk&&!armor&&!shield){ac.value=monk.ac+(Number(value('ac_modifier'))||0);ac.notes.push('PHB p.31 武僧表 II；不叠加敏捷防御。');}
-  if(value('class')==='barbarian'&&Number(value('DEX'))>14){const dexPart=ac.components.find(p=>p.label.startsWith('DEX'));const old=dexPart?.value??0,next=-(Number(value('DEX'))-14)*(armor&&/链|带|板|鳞/.test(armor.nameZh)?1:2);ac.value+=next-old;ac.notes.push('UA 野蛮人敏捷防御：笨重护甲每点−1，其余每点−2。');}
-  if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(value('DEX'))>0){ac.value=23-Number(value('DEX'))-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整。');}
+  if(value('class')==='barbarian'&&Number(effectiveDexterity)>14){const dexPart=ac.components.find(p=>p.label.startsWith('DEX'));const old=dexPart?.value??0,next=-(Number(effectiveDexterity)-14)*(armor&&/链|带|板|鳞/.test(armor.nameZh)?1:2);ac.value+=next-old;ac.notes.push('UA 野蛮人敏捷防御：笨重护甲每点−1，其余每点−2。');}
+  if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(effectiveDexterity)>0){ac.value=23-Number(effectiveDexterity)-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整。');}
+  const magicAcBonus=magicProtectionBonus(card)+magicAdjustments.ac;
+  if(magicAcBonus){ac.value-=magicAcBonus;ac.components.push({label:'防护魔法物品',value:-magicAcBonus,source:'DMG Ring of Protection／手动物品修正'});}
   (field('ac') as HTMLInputElement).readOnly=!checked('manual_ac');
   if (!checked('manual_ac')) set('ac',ac.value);
-  for(const [key,entry] of [['ac_shieldless',computeArmorClass(armor,undefined,dexterity,Number(value('ac_modifier'))||0).value],['ac_surprised',computeArmorClass(armor,shield,'',Number(value('ac_modifier'))||0).value],['ac_rear',computeArmorClass(armor,undefined,'',Number(value('ac_modifier'))||0).value]] as const){if(!['monk','oa-kensai','barbarian'].includes(value('class'))){generated(card.fields,key,String(entry));set(key,String(card.fields[key]??''));}}
+  for(const [key,entry] of [['ac_shieldless',computeArmorClass(armor,undefined,dexterity,Number(value('ac_modifier'))||0).value-magicAcBonus],['ac_surprised',computeArmorClass(armor,shield,'',Number(value('ac_modifier'))||0).value-magicAcBonus],['ac_rear',computeArmorClass(armor,undefined,'',Number(value('ac_modifier'))||0).value-magicAcBonus]] as const){if(!['monk','oa-kensai','barbarian'].includes(value('class'))){generated(card.fields,key,String(entry));set(key,String(card.fields[key]??''));}}
   document.querySelector('#ac-breakdown')!.textContent=ac.components.map(part=>`${part.label} ${part.value}`).join('；')+'。'+ac.notes.join(' ');
   const weaponItems=card.rows.weapons.map(row=>items.find(item=>item.id===row.values.name)).filter(Boolean) as typeof items;
   const encumbrance=computeEncumbrance(carriedItems(card,items).map(entry=>({...entry,item:weaponWithBase(entry.item,items)})));
   const race=races.find(race=>race.id===value('race'));
   if(race){for(const [key,text] of [['languages',race.languages],['senses',race.abilities.filter(a=>/视觉|视力/.test(a)).join('；')],['detections',race.detection],['resistances',race.savingThrows],['special_abilities',race.abilities.join('；')]] as const){generated(card.fields,key,text);set(key,String(card.fields[key]??''));}}
-  const coins=Math.max(0,Number(value('coins_carried'))||0);
-  const movement=computeMovement({base:monk?.move??(['barbarian','oa-barbarian'].includes(value('class')) ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12)),weightPounds:encumbrance.value+coins/10,strength,bulky:checked('move_bulky'),difficultTerrain:checked('move_terrain'),otherAdjustment:Number(value('move_adjustment'))||0});
+  const coins=['gp','sp','cp','ep','pp'].reduce((sum,denom)=>sum+Math.max(0,Number(value(`coins_${denom}`))||0),0)+Math.max(0,Number(value('coins_other_count'))||0);
+  if(field('coins_carried'))set('coins_carried',coins);
+  const coinWeight=(coins-Math.max(0,Number(value('coins_other_count'))||0))/10+Math.max(0,Number(value('coins_other_count'))||0)*Math.max(0,Number(value('coins_other_weight_per_10'))||1)/10;
+  const totalWeight=encumbrance.value+coinWeight;
+  const movement=computeMovement({base:monk?.move??(['barbarian','oa-barbarian'].includes(value('class')) ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12)),weightPounds:totalWeight,strength,bulky:checked('move_bulky'),difficultTerrain:checked('move_terrain'),otherAdjustment:Number(value('move_adjustment'))||0});
   set('move_base',`${movement.base}″`);
   (field('move_loaded') as HTMLInputElement).readOnly=!checked('manual_movement');
   if (!checked('manual_movement')) set('move_loaded',`${movement.effective}″`);
   for (const [key,factor] of Object.entries({hvy:.75,load:.5,max:.25,run_rate:10,normal_rate:5,crawl:.5,hidden:2/3})) set(`move_${key}`,`${Math.round(movement.base*factor*10)/10}″`);
-  document.querySelector('#movement-breakdown')!.textContent=`已知装备 ${encumbrance.value.toFixed(1)} 磅；钱币 ${coins/10} 磅。${race&&!/\d/.test(race.movement)?'种族未提供固定地面移动率，当前按12寸暂算，请手动核对。 ':''}${movement.notes.join(' ')}`;
-  document.querySelector('#encumbrance-result')!.textContent=`已知负重 ${(encumbrance.value+coins/10).toFixed(1)} 磅${encumbrance.unknown.length ? '；另有未列重量的物品' : ''}。`;
+  document.querySelector('#movement-breakdown')!.textContent=`已知装备 ${encumbrance.value.toFixed(1)} 磅；${value('coins_other_name')||'标准钱币'} ${coinWeight.toFixed(1)} 磅（标准币按 10 枚／磅）。${race&&!/\d/.test(race.movement)?'种族未提供固定地面移动率，当前按12寸暂算，请手动核对。 ':''}${movement.notes.join(' ')}`;
+  document.querySelector('#encumbrance-result')!.textContent=`已知负重 ${totalWeight.toFixed(1)} 磅${encumbrance.unknown.length ? '；另有未列重量的物品' : ''}。`;
   renderOwnedMagic();
   const classEntry=classes.find(entry=>entry.id===value('class'));
   const issues=[...checkEligibility({raceId:value('race'),classId:value('class'),alignment:value('alignment'),abilities:card.fields as Record<Ability,string>},classes,races),...weaponItems.flatMap((weapon,index)=>checkEquipment(value('class'),weapon,index===0 ? armor : undefined,index===0 ? shield : undefined))];
-  const messages=issues.map(issue=>`${issue.message}（${issue.source}）`);
-  if(classEntry?.referenceOnly)messages.push('扩展／NPC 职业请确认战役采用；已核对的矩阵会自动计算，其余保留手填。');
-  if(classEntry?.characterEligible===false)messages.push('当前职业是 NPC 职业，人物卡不会在职业选择器中提供；已导入的旧人物仍可保留并手动记录。');
+  const messages=issues.map(issue=>`错误：${issue.message}（${issue.source}）`);
+  if(classEntry?.referenceOnly)messages.push('警告：该职业来自扩展规则。请确认战役启用该规则。');
+  if(classEntry?.characterEligible===false)messages.push('警告：该职业标记为 NPC 职业。');
+  if(classEntry?.id==='cavalier'&&!/贵族|王族/.test(String(value('social_status'))))messages.push(value('social_status')?'错误：骑士的社会阶层不符合贵族出身要求。':'提示：骑士要求贵族出身。请填写社会阶层。');
+  const levelLimit=race?.eligibleClasses.find(entry=>entry.id===classEntry?.id)?.limit;
+  if(levelLimit&&/最高|上限/.test(levelLimit)&&Number(value('level'))>(Number(levelLimit.match(/\d+/)?.[0]??0)))messages.push(`错误：${race?.nameZh}的${classEntry?.nameZh}等级超过种族上限（${levelLimit}）。`);
+  if(classEntry&&Number(value('level'))>0&&!xpTable)messages.push('警告：缺少该职业的经验等级表。请核对职业原表。');
+  for(const row of card.rows.henchmen){const identity=row.values.raceClass||'',parts=identity.split('/').map(part=>part.trim()).filter(Boolean);if(identity.includes('/')&&parts.length>2)messages.push(`警告：随从“${row.values.name||'未命名'}”请按“种族 / 职业”填写。`);if(row.values.level&&Number(row.values.level)>Number(value('level'))+2)messages.push(`警告：随从“${row.values.name||'未命名'}”高于人物等级两级。请核对 HD 与攻击次数。`);if(parts.length===2){const fr=races.find(entry=>entry.id===parts[0]||entry.nameZh===parts[0]||entry.nameEn.toLowerCase()===parts[0].toLowerCase()),fc=classes.find(entry=>entry.id===parts[1]||entry.nameZh===parts[1]||entry.nameEn.toLowerCase()===parts[1].toLowerCase());if(fr&&fc&&!fc.eligibleRaces.includes(fr.id))messages.push(`错误：随从的${fr.nameZh}不能选择${fc.nameZh}（${fc.source.map(source=>source.book).join('、')}）。`);}}
   for (const prepared of card.preparedSpells) {
     const spell=spells.find(spell=>spell.id===prepared.spellId);
-    if (spell && classEntry && !spell.classes.includes(classEntry.nameEn) && !['paladin','ranger','bard'].includes(classEntry.id)) messages.push(`${spell.nameZh}不在所选职业法术表中。`);
+    if (spell && classEntry && !spell.classes.includes(classEntry.nameEn) && !['paladin','ranger','bard'].includes(classEntry.id)) messages.push(`错误：${spell.nameZh}不在${classEntry.nameZh}法术表中。`);
   }
   for (let level=0;level<=9;level++) {
     const limit=value(`spell_slots_${level}`), used=card.preparedSpells.reduce((sum,entry)=>sum+(spells.find(spell=>spell.id===entry.spellId)?.level===level ? entry.count : 0),0);
-    if (limit!=='' && used>Number(limit)) messages.push(`${level}环准备 ${used} 次，超过填写的 ${limit} 个法术位。`);
+    if (limit!=='' && used>Number(limit)) messages.push(`错误：${level}环准备 ${used} 次，法术位为 ${limit}。`);
   }
   if (!checked('manual_spell_slots') && spellCapacity.tracks.length>1) for (const track of spellCapacity.tracks) track.daily.forEach((limit,index)=>{
     const used=card.preparedSpells.reduce((sum,entry)=>{
       const spell=spells.find(spell=>spell.id===entry.spellId);
       return sum+(spell?.level===index+1 && spell.classes.includes(track.listId==='druid'?'Druid':'Magic-User')?entry.count:0);
     },0);
-    if (used>limit) messages.push(`${track.label} ${index+1}环准备 ${used} 次，超过该法术表的 ${limit} 个法术位。`);
+    if (used>limit) messages.push(`错误：${track.label} ${index+1}环准备 ${used} 次，法术位为 ${limit}。`);
   });
-  document.querySelector('#rule-status')!.textContent=messages.length ? `${checked('dm_override') ? '已手动覆盖资格限制；' : ''}请核对 ${messages.length} 项` : '当前已填写项目未发现规则冲突。';
-  document.querySelector('#rule-hints')!.replaceChildren(...messages.map(message=>{const li=document.createElement('li');li.textContent=message;return li;}));
+  const errors=messages.filter(message=>message.startsWith('错误：')).length,warnings=messages.filter(message=>message.startsWith('警告：')).length,hints=messages.length-errors-warnings;
+  const ruleStatus=document.querySelector<HTMLElement>('#rule-status')!;
+  ruleStatus.textContent=[errors?`错误 ${errors} 项`:'',warnings?`警告 ${warnings} 项`:'',hints?`提示 ${hints} 项`:'' ].filter(Boolean).join(' · ')||'无规则错误。';
+  ruleStatus.classList.toggle('has-conflicts',errors>0);ruleStatus.classList.toggle('has-warnings',warnings>0&&!errors);
+  document.querySelector('#rule-hints')!.replaceChildren(...messages.map(message=>{const li=document.createElement('li');li.textContent=message;li.className=message.startsWith('错误：')?'error':message.startsWith('警告：')?'warning':'hint';return li;}));
+  const social=String(value('social_status')||'未设定社会阶层');
+  const followers=card.rows.henchmen.filter(row=>row.values.name||row.values.raceClass||row.values.level).map(row=>{const parts=(row.values.raceClass||'').split('/').map(part=>part.trim()),fc=classes.find(entry=>entry.id===parts[1]||entry.nameZh===parts[1]||entry.nameEn.toLowerCase()===parts[1]?.toLowerCase()),lvl=Number(row.values.level)||Number(value('level'));if(!fc)return `${row.values.name||'随从'}：填写“种族 / 职业”后可建议 HD、攻击次数与 THAC0。`;const profile=combatProfile({...card.fields,class:fc.id,level:String(lvl)}),thac0=profile?.attacks.find(entry=>entry.ac===0)?.target,attacks=profile?.attackFamily==='fighter'?(lvl>=13?'2/1':lvl>=7?'3/2':'1/1'):'1/1';return `${row.values.name||'随从'}：按${fc.nameZh} ${lvl}级暂建议 HD／等级 ${row.values.level||lvl}、攻击 ${attacks}${thac0===undefined?'':`、THAC0 ${thac0}`}；按其职业原表及怪物 HD 复核。`;}).join('\n');
+  const socialSuggestion=classEntry?.id==='cavalier'?`社会阶层：${social}。骑士须为贵族出身。`:`社会阶层：${social}。`;
+  const suggestion=[classEntry?`${classEntry.nameZh}：护甲 ${classEntry.armor}；武器 ${classEntry.weapons}。`: '提示：选择职业以查看装备建议。',race?`${race.nameZh}：移动 ${race.movement}；等级上限 ${race.levelLimits}。`:'提示：选择种族以查看等级限制。',socialSuggestion,`起始资金：${startingMoneyDice(classEntry?.id||'')}。`,`年龄：按 DMG 种族与职业骰取。身高、体重：查 DMG 人物特征表。`,followers].filter(Boolean).join('\n');
+  document.querySelector('#rule-suggestions')!.textContent=suggestion;
+  document.querySelector('#spellbook-summary')!.textContent=spellbookSummary(card.fields.spellbook_records);
+  document.querySelector('#character-spellbook-summary')!.textContent=spellbookSummary(card.fields.spellbook_records);
 }
+
+function startingMoneyDice(classId:string){return ({cleric:'3d6×10 gp',fighter:'5d4×10 gp',paladin:'5d4×10 gp（按战士类别）',ranger:'5d4×10 gp（按战士类别）','magic-user':'2d4×10 gp',illusionist:'2d4×10 gp（按魔法师类别）',thief:'2d6×10 gp',monk:'5d4 gp'} as Record<string,string>)[classId]??'按职业原表掷骰（此职业未映射）';}
+function magicProtectionBonus(card:Card){return card.rows.gear.reduce((sum,row)=>{const item=items.find(entry=>entry.id===row.values.itemId);if(!item||Number(row.values.quantity||1)<=0)return sum;const match=(item.nameEn+' '+item.nameZh).match(/(?:ring|cloak) of protection\s*\+\s*(\d)|防护(?:戒指|斗篷)[^+]{0,10}\+\s*(\d)/i);const preset=/ring of protection|防护戒指/i.test(item.nameEn+' '+item.nameZh)?Number(row.values.protection_bonus)||0:0;return sum+(match?Number(match[1]||match[2]):preset);},0);}
+function travelBookSpellIds(entry:any){const raw=Array.isArray(entry.spells)?entry.spells:String(entry.spells||'').split(/[，,、\s]+/);return raw.map((token:string)=>spells.find(spell=>spell.id===token||spell.nameZh===token||spell.nameEn.toLowerCase()===token.toLowerCase())?.id).filter(Boolean) as string[];}
+function spellbookSummary(raw:unknown){try{const data=JSON.parse(String(raw||'{}'));const books=(data.books||[]).map((entry:any)=>{const book=(spellbookCatalog as {id:string;code:string;title:string}[]).find(candidate=>candidate.id===entry.id),levels=Object.entries(entry.levels||{}).filter(([,v]:[string,any])=>Number(v.chosen||v.adventure||0)||(v.spellIds||[]).length).map(([level,v]:[string,any])=>`${level}环 自选${v.chosen??0}/冒险${v.adventure??0}`);return `${book?.code||entry.id}${levels.length?`：${levels.join('、')}`:''}`;});const travel=(data.travel||[]).map((entry:any)=>`${entry.name||'未命名旅行书'}（${travelBookSpellIds(entry).length}种）`);return books.length||travel.length?`${books.join('； ')}${travel.length?`；旅行书：${travel.join('、')}`:''}`:'暂无记录。';}catch{return '法术书记录无法读取。';}}
+function magicItemAdjustments(card:Card):Record<Ability|'ac'|'save',number>{const result:Record<Ability|'ac'|'save',number>={STR:0,INT:0,WIS:0,DEX:0,CON:0,CHA:0,ac:0,save:0};for(const row of card.rows.gear){const item=items.find(entry=>entry.id===row.values.itemId);if(!item||Number(row.values.quantity||1)<=0)continue;for(const key of Object.keys(result) as (Ability|'ac'|'save')[])result[key]+=Number(row.values[`magic_${key}`])||0;}return result;}
 
 let undo: {key:CollectionName;row:Row;index:number}|undefined;
 const undoButton=document.createElement('button'); undoButton.type='button';undoButton.textContent='撤销移除';undoButton.hidden=true;undoButton.className='undo-row';status.after(undoButton);
@@ -196,17 +240,58 @@ for (const key of collectionNames) {
     fillWeapon(row,item,missile?'missile':undefined,items);renderRows('weapons');update();modified();
   });
 }
-form.addEventListener('input',()=>{update();modified();});
+form.addEventListener('input',event=>{update((event.target as Control).name);modified();});
 form.addEventListener('focusout',event=>{if((event.target as HTMLInputElement).name==='STR'){splitStrength();update();}});
-form.addEventListener('change',event=>{const control=event.target as HTMLInputElement;if(control.name==='STR')splitStrength();if(control.name==='manual_saves'&&!control.checked){for(let i=0;i<5;i++)set(`save_${i}`,String(card.fields[`auto_save_${i}`]??''));}update();modified();});
+form.addEventListener('change',event=>{const control=event.target as HTMLInputElement;if(control.name==='STR')splitStrength();if(control.name==='manual_saves'&&!control.checked){for(let i=0;i<5;i++)set(`save_${i}`,String(card.fields[`auto_save_${i}`]??''));}update(control.name);modified();});
 form.addEventListener('submit',event=>event.preventDefault());
+document.querySelector<HTMLButtonElement>('#roll-starting-money')!.addEventListener('click',()=>{const id=value('class'),spec:Record<string,[number,number,number]>={cleric:[3,6,10],fighter:[5,4,10],paladin:[5,4,10],ranger:[5,4,10],'magic-user':[2,4,10],illusionist:[2,4,10],thief:[2,6,10],monk:[5,4,1]},roll=spec[id];if(!roll){document.querySelector('#starting-money-result')!.textContent='此职业无核对完成的起始资金骰法，请对照职业原表。';return;}const [n,sides,multiplier]=roll,total=Array.from({length:n},()=>1+Math.floor(Math.random()*sides)).reduce((a,b)=>a+b,0)*multiplier;set('coins_gp',total);update();modified();document.querySelector('#starting-money-result')!.textContent=`${n}d${sides}×${multiplier===1?'1':multiplier} gp = ${total} gp（PHB 金钱表；社会阶层限制仍需依战役核对）。`;});
+document.querySelector<HTMLButtonElement>('#roll-age')!.addEventListener('click',()=>{
+  const raceId=value('race'),classId=value('class');
+  const human:Record<string,[number,number,number]>={cleric:[18,1,4],druid:[18,1,4],fighter:[15,1,4],paladin:[17,1,4],ranger:[20,1,4],'magic-user':[24,2,8],illusionist:[30,1,6],thief:[18,1,4],assassin:[20,1,4],monk:[21,1,4]};
+  const nonHuman:Record<string,Record<string,[number,number,number]>>={
+    dwarf:{cleric:[250,2,20],fighter:[40,5,4],thief:[75,3,6]},
+    elf:{cleric:[500,10,10],fighter:[130,5,6],'magic-user':[150,5,6],thief:[100,5,6]},
+    gnome:{cleric:[300,3,12],fighter:[60,5,4],'magic-user':[100,2,12],thief:[80,5,4]},
+    'half-elf':{cleric:[40,2,4],fighter:[22,3,4],'magic-user':[30,2,8],thief:[22,3,8]},
+    halfling:{fighter:[20,3,4],thief:[40,2,4]},
+    'half-orc':{cleric:[20,1,4],fighter:[13,1,4],thief:[20,2,4]}
+  };
+  const spec=raceId==='human'?human[classId]:nonHuman[raceId]?.[classId];
+  if(!spec){notify('DMG 年龄表未列出此种族与职业组合；年龄未更改，请手动填写或查战役规则。');return;}
+  const [base,count,sides]=spec,rolls=Array.from({length:count},()=>1+Math.floor(Math.random()*sides)),age=base+rolls.reduce((sum,n)=>sum+n,0);
+  set('age',age);update();modified();notify(`按 DMG 年龄表：${base}+${count}d${sides}（${rolls.join('+')}）=${age} 岁。`);
+});
 
 function showPanel(panel:string) {
   document.querySelectorAll<HTMLElement>('[data-card-panel]').forEach(section=>section.hidden=panel!=='all' && section.dataset.cardPanel!==panel);
   document.querySelectorAll<HTMLButtonElement>('[data-card-tab]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.cardTab===panel)));
 }
 document.querySelectorAll<HTMLButtonElement>('[data-card-tab]').forEach(button=>button.addEventListener('click',()=>showPanel(button.dataset.cardTab!)));
-for(const drop of [false,true])document.querySelector(drop ? '#roll-4d6' : '#roll-3d6')!.addEventListener('click',()=>{for(const ability of ['STR','INT','WIS','DEX','CON','CHA'])set(ability,Array.from({length:drop?4:3},()=>1+Math.floor(Math.random()*6)).sort((a,b)=>b-a).slice(0,3).reduce((sum,n)=>sum+n,0));update();modified();});
+let abilityRollGroups:number[][]=[];
+const abilityNames=['STR','INT','WIS','DEX','CON','CHA'];
+const rollDice=(count:number,sides:number)=>Array.from({length:count},()=>1+Math.floor(Math.random()*sides));
+const writeAbilityGroup=(scores:number[])=>{abilityNames.forEach((ability,index)=>set(ability,scores[index]));update();modified();};
+document.querySelector<HTMLButtonElement>('#roll-abilities')!.addEventListener('click',()=>{
+  const method=value('ability_method'),result=document.querySelector<HTMLElement>('#ability-roll-result')!,groupWrap=document.querySelector<HTMLElement>('#ability-roll-group-wrap')!,groupChoice=document.querySelector<HTMLSelectElement>('#ability-roll-group')!;
+  groupWrap.hidden=method!=='IV';abilityRollGroups=[];
+  if(method==='I'){
+    const rolls=abilityNames.map(()=>rollDice(4,6).sort((a,b)=>b-a));
+    const scores=rolls.map(dice=>dice.slice(0,3).reduce((sum,n)=>sum+n,0)).sort((a,b)=>b-a);writeAbilityGroup(scores);
+    result.textContent=`方法 I：${rolls.map(dice=>`${dice.slice(0,3).join('+')}（去掉${dice[3]}）=${dice.slice(0,3).reduce((s,n)=>s+n,0)}`).join('；')}。六项已按高到低暂填，可自行改分配。`;
+  }else if(method==='II'){
+    const rolls=Array.from({length:12},()=>rollDice(3,6)),ranked=rolls.map(dice=>({dice,total:dice.reduce((s,n)=>s+n,0)})).sort((a,b)=>b.total-a.total),scores=ranked.slice(0,6).map(entry=>entry.total).sort((a,b)=>b-a);writeAbilityGroup(scores);
+    result.textContent=`方法 II：12 组结果 ${ranked.map(entry=>entry.total).join('、')}；已取最高 6 组并按高到低暂填：${scores.join('、')}。`;
+  }else if(method==='III'){
+    const rolls=abilityNames.map(()=>Array.from({length:6},()=>rollDice(3,6)).map(dice=>({dice,total:dice.reduce((s,n)=>s+n,0)})).sort((a,b)=>b.total-a.total)),scores=rolls.map(entries=>entries[0].total);writeAbilityGroup(scores);
+    result.textContent=`方法 III：${rolls.map((entries,index)=>`${abilityNames[index]} ${entries.map(entry=>entry.total).join('、')} → ${entries[0].total}`).join('；')}。每项已保留最高结果。`;
+  }else{
+    abilityRollGroups=Array.from({length:12},()=>abilityNames.map(()=>rollDice(3,6).reduce((s,n)=>s+n,0)));
+    groupChoice.replaceChildren(...abilityRollGroups.map((scores,index)=>new Option(`第 ${index+1} 组：${scores.join(' / ')}（合计 ${scores.reduce((a,b)=>a+b,0)}）`,String(index))));
+    const best=abilityRollGroups.reduce((best,scores,index)=>scores.reduce((a,b)=>a+b,0)>abilityRollGroups[best].reduce((a,b)=>a+b,0)?index:best,0);groupChoice.value=String(best);writeAbilityGroup(abilityRollGroups[best]);
+    result.textContent='方法 IV：已生成 12 组完整属性。先显示总分最高的一组；可在上方下拉框改选其他组。';
+  }
+});
+document.querySelector<HTMLSelectElement>('#ability-roll-group')!.addEventListener('change',event=>{const index=Number((event.target as HTMLSelectElement).value),scores=abilityRollGroups[index];if(scores){writeAbilityGroup(scores);document.querySelector<HTMLElement>('#ability-roll-result')!.textContent=`已选第 ${index+1} 组：${scores.join(' / ')}。`;}});
 
 function renderPrepared() {
   const container=document.querySelector('#prepared-spells')!,nodes:HTMLElement[]=[];
@@ -246,6 +331,23 @@ function refreshSpellSummary() {
   document.querySelector('#spell-summary')!.textContent=`${entries.length} 种 · 准备 ${total} 次 · 剩余 ${remaining} 次`;
 }
 document.querySelector('#restore-spells')!.addEventListener('click',()=>{card.preparedSpells.forEach(entry=>entry.expended=0);renderPrepared();modified();});
+const ownedSpellDialog=document.querySelector<HTMLDialogElement>('#owned-spell-library')!,ownedSpellList=document.querySelector<HTMLElement>('#owned-spell-list')!;
+function knownBookSpells(){
+  let data:{books?:{levels?:Record<string,{spellIds?:string[]}>}[];travel?:{spells?:string}[]}={};
+  try{data=JSON.parse(String(card.fields.spellbook_records||'{}'));}catch{}
+  const ids=new Set<string>();
+  for(const book of data.books||[])for(const level of Object.values(book.levels||{}))for(const id of level.spellIds||[])ids.add(id);
+  for(const travel of data.travel||[])for(const token of (Array.isArray(travel.spells)?travel.spells:String(travel.spells||'').split(/[，,、\s]+/))){const spell=spells.find(entry=>entry.id===token||entry.nameZh===token||entry.nameEn.toLowerCase()===String(token).toLowerCase());if(spell)ids.add(spell.id);}
+  return [...ids].map(id=>spells.find(spell=>spell.id===id)).filter(Boolean).sort((a,b)=>a!.level-b!.level||a!.nameZh.localeCompare(b!.nameZh,'zh-CN')) as typeof spells;
+}
+function renderKnownBookSpells(){
+  const candidates=knownBookSpells();ownedSpellList.replaceChildren();
+  if(!candidates.length){const note=document.createElement('p');note.textContent='暂无已知法术。先在法术书页登记。';const link=document.createElement('a');link.href='/character/spellbooks/';link.textContent='打开法术书';ownedSpellList.append(note,link);return;}
+  for(let level=0;level<=9;level++){const entries=candidates.filter(spell=>spell.level===level);if(!entries.length)continue;const group=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=level===0?'小法术':`${level}环`;group.append(legend);for(const spell of entries){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.value=spell.id;input.checked=card.preparedSpells.some(entry=>entry.spellId===spell.id);label.append(input,document.createTextNode(` ${spell.nameZh} · ${spell.nameEn}`));group.append(label);}ownedSpellList.append(group);}
+}
+document.querySelector('#open-owned-spells')!.addEventListener('click',()=>{renderKnownBookSpells();ownedSpellDialog.showModal();});
+document.querySelector('#close-owned-spells')!.addEventListener('click',()=>ownedSpellDialog.close());
+document.querySelector('#add-owned-spells')!.addEventListener('click',()=>{const ids=[...ownedSpellList.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(input=>input.value),status=document.querySelector<HTMLElement>('#owned-spell-status')!;if(!ids.length){status.textContent='提示：未选择法术。';return;}selectPrepared(card,[...card.preparedSpells.map(entry=>entry.spellId),...ids]);renderPrepared();update();modified();ownedSpellDialog.close();status.textContent=`已加入 ${ids.length} 个法术。`;});
 const library=document.querySelector<HTMLDialogElement>('#spell-library')!,frame=document.querySelector<HTMLIFrameElement>('#spell-library-frame')!;
 const sendSelection=()=>frame.contentWindow?.postMessage({type:'adnd1e-card-selection',ids:card.preparedSpells.map(entry=>entry.spellId)},location.origin);
 document.querySelector('#open-spell-library')!.addEventListener('click',()=>{
@@ -276,11 +378,25 @@ function renderOwnedMagic(){
  const container=document.querySelector('#owned-magic-items');if(!container)return;
  const owned=card.rows.gear.flatMap(row=>{const item=items.find(item=>item.id===row.values.itemId);return item?.category==='魔法物品'?[{item,row}]:[];});
  const signature=JSON.stringify(owned.map(({row})=>[row.id,row.values]));if(signature===magicSignature)return;magicSignature=signature;
- container.replaceChildren(...owned.map(({item,row})=>{const line=document.createElement('div');line.className='owned-magic-row';const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=cardName(item.nameZh);const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);return line;}));
+ container.replaceChildren(...owned.map(({item,row})=>{
+  const line=document.createElement('div');line.className='owned-magic-row';
+  const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=cardName(item.nameZh);
+  const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);
+  if(item.id==='magic-ring-of-protection'){
+   const wrap=document.createElement('label');wrap.className='protection-ring-grade';wrap.textContent='戒指等级';
+   const select=document.createElement('select');select.setAttribute('aria-label','防护戒指等级');
+   for(const [value,label] of [['0','选择加值'],['1','+1'],['2','+2'],['3','+3'],['4','+4'],['5','+5']]){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
+   select.value=row.values.protection_bonus||'0';select.addEventListener('change',()=>{row.values.protection_bonus=select.value;magicSignature='';update();modified();});wrap.append(select);line.append(wrap);
+   const effect=document.createElement('small');effect.className='protection-ring-effect';effect.textContent='加值自动计入 AC 与豁免';line.append(effect);
+  }
+  const adjustments=document.createElement('div');adjustments.className='magic-item-adjustments';adjustments.setAttribute('aria-label',`${item.nameZh}效果调整`);
+  for(const [key,label] of [['STR','STR'],['DEX','DEX'],['INT','INT'],['WIS','WIS'],['CON','CON'],['CHA','CHA'],['ac','额外 AC'],['save','额外豁免']] as const){const wrap=document.createElement('label');wrap.title=`${item.nameZh} ${label} 修正（按已鉴定效果填写）`;wrap.textContent=label;const input=document.createElement('input');input.type='number';input.value=row.values[`magic_${key}`]||'0';input.setAttribute('aria-label',`${item.nameZh} ${label}调整`);input.addEventListener('change',()=>{row.values[`magic_${key}`]=String(Number(input.value)||0);magicSignature='';update();modified();});wrap.append(input);adjustments.append(wrap);}
+  line.append(adjustments);return line;
+ }));
 }
 const itemLibrary=document.querySelector<HTMLDialogElement>('#item-library')!,itemFrame=document.querySelector<HTMLIFrameElement>('#item-library-frame')!;
 let itemKind:ItemRole='gear';
-function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.map(r=>r.values.name):itemKind==='ammunition'?card.rows.ammunition.map(r=>r.values.itemId):itemKind==='armor'||itemKind==='shield'?[resolveItem(items,value(itemKind+'_item'))?.id]:card.rows.gear.filter(r=>items.some(i=>i.id===r.values.itemId&&acceptsItem(i,itemKind))).map(r=>r.values.itemId);itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids:ids.filter(Boolean)},location.origin);}
+function sendItems(){const ids=itemKind==='weapons'?card.rows.weapons.map(r=>r.values.name):itemKind==='ammunition'?card.rows.ammunition.map(r=>r.values.itemId):itemKind==='armor'||itemKind==='shield'?[resolveItem(items,value(itemKind+'_item'))?.id]:card.rows.gear.filter(r=>items.some(i=>i.id===r.values.itemId&&acceptsItem(i,itemKind))).map(r=>r.values.itemId),blocked:Record<string,string>={};for(const item of items){if(!acceptsItem(item,itemKind))continue;const issues=itemKind==='weapons'?checkEquipment(value('class'),item,undefined,undefined):itemKind==='armor'?checkEquipment(value('class'),undefined,item,undefined):itemKind==='shield'?checkEquipment(value('class'),undefined,undefined,item):[];if(issues.length)blocked[item.id]=issues[0].message;}itemFrame.contentWindow?.postMessage({type:'adnd1e-item-selection',ids:ids.filter(Boolean),blocked},location.origin);}
 document.querySelectorAll<HTMLButtonElement>('[data-open-item-library]').forEach(button=>button.addEventListener('click',()=>{collect();itemKind=button.dataset.openItemLibrary as ItemRole;const label={weapons:'武器（含魔法武器）',magic:'魔法物品',gear:'装备',ammunition:'弹药',armor:'护甲',shield:'盾牌'}[itemKind];itemLibrary.querySelector('h2')!.textContent=`选取${label}`;itemFrame.title=`选取${label}`;if(itemFrame.dataset.kind!==itemKind){itemFrame.src='/character/library/items/?mode=select&use='+itemKind;itemFrame.dataset.kind=itemKind;}itemLibrary.showModal();sendItems();}));
 
 document.querySelector('#close-item-library')!.addEventListener('click',()=>itemLibrary.close());
@@ -352,7 +468,7 @@ function updateCombat(strength:string){
  for(const row of card.rows.weapons){
   const selected=resolveItem(items,row.values.name??'');if(!selected)continue;
   const weapon=weaponWithBase(selected,items,row.values.base_weapon),ranged=row.values.mode==='missile'||!weapon.weaponCombat?.handHeld&&!!weapon.weaponCombat?.missile;
-  const magic=enhancement(selected),hit=(value('class')==='monk'||(value('class')==='oa-kensai'&&ranged)?0:abilityBonus(ranged?'DEX':'STR',ranged?value('DEX'):strength,ranged?'投射':'命中'))+magic,damage=(value('class')==='monk'?Math.floor(Number(value('level'))/2):ranged?0:abilityBonus('STR',strength,'伤害'))+magic;
+  const magic=enhancement(selected),hit=(value('class')==='monk'||(value('class')==='oa-kensai'&&ranged)?0:abilityBonus(ranged?'DEX':'STR',ranged?String(Math.max(3,Math.min(25,Number(value('DEX'))+magicItemAdjustments(card).DEX))):strength,ranged?'投射':'命中'))+magic,damage=(value('class')==='monk'?Math.floor(Number(value('level'))/2):ranged?0:abilityBonus('STR',strength,'伤害'))+magic;
   generated(row.values,'thac0',base===undefined?'':String(base));generated(row.values,'hit',String(hit));generated(row.values,'damage_adj',String(damage));
   if(!profile)generated(row.values,'attacks','');
   else if(!ranged&&profile.attackFamily!=='fighter')generated(row.values,'attacks','1/1');

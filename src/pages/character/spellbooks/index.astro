@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import spellbooks from '../../../data/character-spellbooks.json';
+import spells from '../../../data/public/spell-index.json';
+import '../../../styles/ref2.css';
+---
+<BaseLayout title="人物法术书" description="法术书、已知法术与旅行副本。">
+<main class="ref2-workspace spellbook-workspace">
+  <header class="card-workspace-heading"><div><h1>法术书</h1><p>人物藏书与旅行副本</p></div><p><a href="/character/">返回人物卡</a> · <a href="/books/">图书馆</a></p></header>
+  <nav class="ref2-tabs"><label class="ref2-field"><span>人物</span><select id="character-choice"><option value="">当前人物</option></select></label><label class="ref2-field"><span>法术书</span><select id="spellbook-choice"><option value="">选择图书馆法术书</option>{spellbooks.map(book=><option value={book.id}>{book.code} · {book.title}</option>)}</select></label><a id="spellbook-pdf" href="/books/" target="_blank" rel="noreferrer">打开图书馆</a></nav>
+  <section class="ref2-paper">
+    <header class="spellbook-heading"><div><h2 id="spellbook-title">选择一本法术书</h2><p id="spellbook-meta">选择人物，再选法术书。</p></div><a id="spellbook-cover-link" href="/books/">打开图书馆</a></header>
+    <p id="spellbook-rule-note" class="card-source">目录中的法术不代表人物已学会。</p>
+    <div class="spellbook-levels" id="spellbook-levels"></div><a class="ref2-tab-link" href="/character/">返回人物卡准备法术</a>
+  </section>
+  <section class="ref2-paper">
+    <h2>旅行法术书</h2><p>记录副本容量，并从法术目录勾选抄录内容。</p>
+    <div id="travel-books"></div><button id="add-travel-book" type="button">＋ 添加旅行法术书</button>
+  </section>
+  <p id="spellbook-status" class="card-status" role="status" aria-live="polite"></p>
+</main>
+<script>
+  import catalog from '../../../data/character-spellbooks.json';
+  import spellData from '../../../data/public/spell-index.json';
+  import {cardSpellCapacity} from '../../../character/ref2/spell-capacity';
+  type Book=typeof catalog[number];
+  const books=catalog as Book[], spellList=spellData as {id:string;nameZh:string;nameEn:string;level:number;classes:string[]}[];
+  const $=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T;
+  const choice=$<HTMLSelectElement>('spellbook-choice'),characterChoice=$<HTMLSelectElement>('character-choice');
+  let card:Record<string,any>|null=null, selected:Book|undefined;
+  const readCard=()=>{try{const value=JSON.parse(localStorage.getItem('adnd1e-character')||'null');return value&&typeof value.fields==='object'&&value.fields?value:null;}catch{return null;}};
+  function savedCards(){try{return (JSON.parse(localStorage.getItem('adnd1e-characters')||'[]') as Record<string,any>[]).filter(row=>row&&typeof row.fields==='object'&&row.fields);}catch{return [];}}
+  function selectCard(){const saved=savedCards(),id=characterChoice.value;card=id?saved.find(row=>String(row.fields?.character_id)===id)??null:readCard();if(!card&&saved.length===1)card=saved[0];if(!card){$('spellbook-status').textContent=id?'未找到该人物。':'未保存人物。先保存人物卡。';render();return;}$('spellbook-status').textContent='';render();}
+  function records(){try{const data=JSON.parse(String(card?.fields?.spellbook_records||'{}'));return {books:Array.isArray(data.books)?data.books:[],travel:Array.isArray(data.travel)?data.travel:[]};}catch{return {books:[],travel:[]};}}
+  function persist(data=records()){if(!card)return;card.fields.spellbook_records=JSON.stringify(data);localStorage.setItem('adnd1e-character',JSON.stringify(card));const all=savedCards(),id=String(card.fields?.character_id||'');if(id){const index=all.findIndex(row=>String(row.fields?.character_id)===id);if(index>=0){all[index]=card;localStorage.setItem('adnd1e-characters',JSON.stringify(all));}}$('spellbook-status').textContent='已保存。';}
+  function render(){const data=records();selected=books.find(book=>book.id===choice.value)||books.find(book=>book.id===data.books?.[0]?.id);if(selected)choice.value=selected.id;
+    const levelHost=$<HTMLDivElement>('spellbook-levels');levelHost.replaceChildren();
+    if(selected){const saved=data.books?.find((entry:any)=>entry.id===selected!.id)||{id:selected.id,levels:{}};const info=selected.spells.map((entry:any)=>{const known=spellList.find(s=>s.id===entry.id);return {id:entry.id,level:entry.level,nameZh:known?.nameZh||entry.name}});const capacity=card?.fields?cardSpellCapacity(card.fields):null;$('spellbook-title').textContent=`${selected.code} · ${selected.title}`;$('spellbook-meta').textContent=`${card?.fields?.name||'未选人物'} · ${card?.fields?.class||'未选职业'} ${card?.fields?.level||''}级 · 目录 ${info.length} 项${capacity?.note?` · ${capacity.note}`:''}`;$('spellbook-pdf').setAttribute('href',selected.file);$('spellbook-cover-link').setAttribute('href',selected.file);$('spellbook-cover-link').textContent='打开本册 PDF';
+      for(let level=1;level<=9;level++){const row=document.createElement('section');row.className='spellbook-level';const title=document.createElement('h3');title.textContent=`${level} 环`;
+        const listed=info.filter(s=>s.level===level);const known=saved.levels?.[level]||{};
+        const spellDetails=document.createElement('details');spellDetails.className='spellbook-spell-list';const summary=document.createElement('summary');summary.textContent=`本册 ${Number(selected.counts[String(level)]??listed.length)} 项 · 索引 ${listed.length} 种 · 每日法术位 ${capacity?.daily?.[level]??'—'}`;const list=document.createElement('p');list.textContent=listed.length?listed.map(s=>s.nameZh).join('、'):'本册无此环法术';spellDetails.append(summary,list);
+      const fields=document.createElement('div');fields.className='spellbook-counts';for(const [key,label] of [['chosen','自选'],['adventure','冒险所得']] as const){const wrap=document.createElement('label');wrap.textContent=label;const input=document.createElement('input');input.type='number';input.min='0';input.step='1';input.value=String(known[key]??0);input.dataset.level=String(level);input.dataset.kind=key;const saveCount=(normalize:boolean)=>{if(!card){$('spellbook-status').textContent='未保存人物。先保存人物卡。';return;}const current=records(),book=current.books.find((b:any)=>b.id===selected!.id)||{id:selected!.id,levels:{}};book.levels??={};book.levels[level]??={};book.levels[level][key]=Math.max(0,Math.floor(Number(input.value)||0));if(normalize)input.value=String(book.levels[level][key]);if(!current.books.some((b:any)=>b.id===book.id))current.books.push(book);card.fields.spellbook_records=JSON.stringify(current);persist(current);};input.addEventListener('input',()=>saveCount(false));input.addEventListener('change',()=>saveCount(true));wrap.append(input);fields.append(wrap);}
+        const choose=document.createElement('label');choose.textContent=`本册已知法术（${(known.spellIds||[]).length}）`;const select=document.createElement('select');select.multiple=true;select.size=Math.min(5,Math.max(2,listed.length));select.dataset.level=String(level);for(const spell of listed){const option=new Option(spell.nameZh,spell.id);option.selected=(known.spellIds||[]).includes(spell.id);select.add(option);}select.addEventListener('change',()=>{if(!card){$('spellbook-status').textContent='未保存人物。先保存人物卡。';return;}const current=records(),book=current.books.find((b:any)=>b.id===selected!.id)||{id:selected!.id,levels:{}};book.levels??={};book.levels[level]??={};book.levels[level].spellIds=[...select.selectedOptions].map(o=>o.value);book.levels[level].chosen=book.levels[level].spellIds.length;const chosenInput=row.querySelector<HTMLInputElement>(`input[data-level="${level}"][data-kind="chosen"]`);if(chosenInput)chosenInput.value=String(book.levels[level].chosen);const knownLabel=row.querySelector('label');if(knownLabel)knownLabel.textContent=`本册已知法术（${book.levels[level].spellIds.length}）`;if(!current.books.some((b:any)=>b.id===book.id))current.books.push(book);card.fields.spellbook_records=JSON.stringify(current);persist();});choose.append(select);row.append(title,spellDetails,fields,choose);levelHost.append(row);
+      }
+    }else{$('spellbook-title').textContent='选择一本法术书';$('spellbook-meta').textContent='可从图书馆收录的法术书中选择。';}
+    renderTravel(data);
+  }
+  function travelSpellIds(entry:any){const raw=Array.isArray(entry.spells)?entry.spells:String(entry.spells||'').split(/[，,、\s]+/);return raw.map((token:string)=>spellList.find(spell=>spell.id===token||spell.nameZh===token||spell.nameEn.toLowerCase()===token.toLowerCase())?.id).filter(Boolean) as string[];}
+  function renderTravel(data:any){const host=$<HTMLDivElement>('travel-books');host.replaceChildren();for(const entry of data.travel||[]){const row=document.createElement('section');row.className='travel-book-row';
+    for(const [key,label] of [['name','书名'],['capacity','容量／页数']] as const){const wrap=document.createElement('label');wrap.textContent=label;const input=document.createElement('input');input.value=entry[key]||'';input.addEventListener('input',()=>{entry[key]=input.value;persist(data);});wrap.append(input);row.append(wrap);}
+    const known=new Set(travelSpellIds(entry)),spellWrap=document.createElement('div');spellWrap.className='travel-spell-picker';const search=document.createElement('input');search.type='search';search.placeholder='搜索法术';search.setAttribute('aria-label',`${entry.name||'旅行书'}搜索法术`);const select=document.createElement('select');select.multiple=true;select.size=6;select.setAttribute('aria-label',`${entry.name||'旅行书'}已抄法术`);const summary=document.createElement('small');
+    const paintOptions=()=>{const query=search.value.trim().toLocaleLowerCase();select.replaceChildren();const matches=spellList.filter(spell=>!query||`${spell.nameZh} ${spell.nameEn}`.toLocaleLowerCase().includes(query)).sort((a,b)=>a.level-b.level||a.nameZh.localeCompare(b.nameZh,'zh-CN'));let level=-1,group:HTMLOptGroupElement|undefined;for(const spell of matches){if(spell.level!==level){level=spell.level;group=document.createElement('optgroup');group.label=level===0?'小法术':`${level}环`;select.append(group);}const option=new Option(`${spell.nameZh} · ${spell.nameEn}`,spell.id);option.selected=known.has(spell.id);group!.append(option);}summary.textContent=`已抄 ${known.size} 种；可多选。`;};
+    search.addEventListener('input',paintOptions);select.addEventListener('change',()=>{for(const option of [...select.options])if(!option.selected)known.delete(option.value);for(const option of select.selectedOptions)known.add(option.value);entry.spells=[...known];summary.textContent=`已抄 ${known.size} 种法术；按住 Ctrl／⌘ 可多选。`;persist(data);});paintOptions();spellWrap.append(search,select,summary);row.append(spellWrap);
+    const remove=document.createElement('button');remove.type='button';remove.textContent='移除旅行书';remove.addEventListener('click',()=>{data.travel=data.travel.filter((book:any)=>book!==entry);card!.fields.spellbook_records=JSON.stringify(data);renderTravel(data);persist(data);});row.append(remove);host.append(row);}}
+  choice.addEventListener('change',()=>{selected=books.find(book=>book.id===choice.value);if(card){const data=records();if(selected&&!data.books.some((b:any)=>b.id===selected!.id))data.books.push({id:selected.id,levels:{}});card.fields.spellbook_records=JSON.stringify(data);render();persist();}else{render();$('spellbook-status').textContent=selected?'未保存人物。先保存人物卡。':'';}});
+  characterChoice.addEventListener('change',selectCard);
+  $('add-travel-book').addEventListener('click',()=>{if(!card){selectCard();if(!card)return;}const data=records();data.travel.push({name:'',capacity:'',spells:[]});card.fields.spellbook_records=JSON.stringify(data);render();persist();});
+  const stored=savedCards();for(const entry of stored){if(entry.fields?.character_id)characterChoice.add(new Option(String(entry.fields.name||'未命名人物'),String(entry.fields.character_id)));}selectCard();
+</script>
+</BaseLayout>

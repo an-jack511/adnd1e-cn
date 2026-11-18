@@ -20,3 +20,4 @@
 .library-entry .rule-body,.book-body .scroll-table{overflow-x:visible}
 
 .identity-entry .library-source-note{font-size:inherit}
+.library-picker-mode .library-list tr.is-unavailable{background:#ece9e3!important;color:#777;opacity:.72}.library-picker-mode .library-list tr.is-unavailable a,.library-picker-mode .library-list tr.is-unavailable small{color:#777}.library-picker-mode .library-list .library-unavailable-reason{display:block;margin-top:4px;color:#9b3026!important;font:12px/1.4 Arial,"Microsoft YaHei",sans-serif}.library-picker-mode .library-list tr.is-unavailable input{cursor:not-allowed}
