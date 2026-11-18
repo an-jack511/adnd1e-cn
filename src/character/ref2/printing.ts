@@ -77,9 +77,9 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
         const panel=sheet.firstElementChild as HTMLElement;
         const scale=fitPrintScale(value=>{
           sheet.style.setProperty('--print-scale',String(value));
-          return panel.getBoundingClientRect().height;
+          return panel.offsetHeight;
         });
-        const height=panel.getBoundingClientRect().height;
+        const height=panel.offsetHeight;
         sheet.style.setProperty('--print-scale',String(scale));sheet.dataset.continued=String(scale===1&&height>285*96/25.4);
         sheet.dataset.contentHeight=String(Math.round(height));
       }
