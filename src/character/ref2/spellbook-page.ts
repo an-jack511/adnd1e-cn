@@ -52,11 +52,18 @@ function persist(data = records()) {
   saveCharacter();
   $('spellbook-status').textContent = '已保存。';
 }
+const activeCharacterKey = 'adnd1e-active-character-id';
+const workingCopiesKey = 'adnd1e-character-drafts';
 function saveCharacter() {
   if (!card) return;
   const id = String(card.fields?.character_id || '');
   localStorage.setItem('adnd1e-character', JSON.stringify(card));
   if (id) {
+    let drafts: Record<string, Record<string, any>> = {};
+    try { drafts = JSON.parse(localStorage.getItem(workingCopiesKey) || '{}'); } catch {}
+    drafts[id] = card;
+    localStorage.setItem(workingCopiesKey, JSON.stringify(drafts));
+    localStorage.setItem(activeCharacterKey, id);
     const all = savedCards(), index = all.findIndex(row => String(row.fields?.character_id) === id);
     if (index >= 0) { all[index] = card; localStorage.setItem('adnd1e-characters', JSON.stringify(all)); }
   }
@@ -64,7 +71,10 @@ function saveCharacter() {
 function characterLevel() { return card ? Math.max(1, Math.min(20, Number(card.fields?.level) || 1)) : 20; }
 function classId() { return String(card?.fields?.class || ''); }
 function classNames() { return classLists[classId()] ?? []; }
-function classCompatible(spell: Spell) { return !classId() || !classLists[classId()] || spell.classes.some(name => classNames().includes(name)); }
+function classCompatible(spell: Spell) {
+  const source = spellList.find(entry => entry.id === spell.id);
+  return !classId() || !classLists[classId()] || !!source?.classes?.some(name => classNames().includes(name));
+}
 function maxRingAt(level: number) {
   const map = maxRingAccess[classId()];
   if (map) return Math.max(0, ...map.filter(([at]) => at <= level).map(([, ring]) => ring));

@@ -33,8 +33,10 @@ const set = (name:string, entry:string|number) => { if (field(name)) field(name)
 let card = blankCard();
 let dirty = false;
 const notify = (message:string) => { status.textContent=message; };
-const modified = () => { dirty=true; notify('有未保存的修改。可点击“保存”或导出 JSON。'); };
+const modified = () => { dirty=true; try{persistWorkingCopy();}catch{} notify('有未保存的修改。可点击“保存”或导出 JSON。'); };
 const repeater = (key:CollectionName) => form.querySelector<HTMLElement>(`[data-repeater="${key}"]`)!;
+const activeCharacterKey='adnd1e-active-character-id';
+const workingCopiesKey='adnd1e-character-drafts';
 
 function collect(): Card {
   for (const control of form.querySelectorAll<Control>('[name]')) card.fields[control.name] = control instanceof HTMLInputElement && control.type==='checkbox' ? control.checked : control.value;
@@ -46,6 +48,19 @@ function collect(): Card {
     if(key==='weapons')for(const row of card.rows.weapons){const old=previous.get(row.id)?.name,item=items.find(i=>i.id===old);if(item&&row.values.name===cardName(item.nameZh))row.values.name=item.id;if(row.values.name?.endsWith('::missile')){row.values.name=row.values.name.slice(0,-9);row.values.mode='missile';}}
   }
   return card;
+}
+function persistWorkingCopy(){
+  collect();if(!card.fields.character_id)card.fields.character_id=crypto.randomUUID();
+  const id=String(card.fields.character_id);let drafts:Record<string,Card>={};try{drafts=JSON.parse(localStorage.getItem(workingCopiesKey)||'{}');}catch{}
+  drafts[id]=card;localStorage.setItem(workingCopiesKey,JSON.stringify(drafts));localStorage.setItem('adnd1e-character',JSON.stringify(card));localStorage.setItem(activeCharacterKey,id);
+}
+function restoreWorkingCopy():Card{
+  let draft:Card|undefined;try{const raw=JSON.parse(localStorage.getItem('adnd1e-character')||'null');if(raw?.fields)draft=normalizeCard(raw);}catch{}
+  const activeId=localStorage.getItem(activeCharacterKey);
+  if(activeId){try{const drafts=JSON.parse(localStorage.getItem(workingCopiesKey)||'{}');if(drafts?.[activeId]?.fields)return normalizeCard(drafts[activeId]);}catch{}}
+  if(draft&&(!activeId||String(draft.fields.character_id||'')===activeId))return draft;
+  if(activeId){try{return readSaved().find(entry=>String(entry.fields.character_id)===activeId)??draft??blankCard();}catch{return draft??blankCard();}}
+  return draft??blankCard();
 }
 function renderRows(key:CollectionName) {
   const section=repeater(key), table=section.querySelector<HTMLElement>('[data-row-table]')!, template=section.querySelector<HTMLTemplateElement>('[data-row-template]')!;
@@ -470,18 +485,19 @@ function saveCurrent(copy=false) {
     if(copy){card.fields.character_id=crypto.randomUUID();card.fields.name=`${card.fields.name||'未命名人物'}（副本）`;applyCard(card);}
     if(!value('character_id'))set('character_id',crypto.randomUUID());collect();
     const next=saved.filter(entry=>entry.fields.character_id!==card.fields.character_id);next.push(card);
-    localStorage.setItem('adnd1e-characters',JSON.stringify(next));localStorage.setItem('adnd1e-character',JSON.stringify(card));refreshSaved(String(card.fields.character_id));dirty=false;notify('已保存到此浏览器。');
+    localStorage.setItem('adnd1e-characters',JSON.stringify(next));localStorage.setItem('adnd1e-character',JSON.stringify(card));localStorage.setItem(activeCharacterKey,String(card.fields.character_id));refreshSaved(String(card.fields.character_id));dirty=false;notify('已保存到此浏览器。');
   }catch(error){notify(error instanceof Error?error.message:'保存失败，请导出 JSON 备份。');}
 }
 document.querySelector('#save-character')!.addEventListener('click',()=>saveCurrent());
 document.querySelector('#copy-character')!.addEventListener('click',()=>saveCurrent(true));
-document.querySelector('#new-character')!.addEventListener('click',()=>{applyCard(blankCard());savedSelect.value='';showPanel('front');notify('已新建空白人物卡；已保存的人物仍在列表中。');});
-document.querySelector('#load-character')!.addEventListener('click',()=>{try{const saved=readSaved().find(entry=>entry.fields.character_id===savedSelect.value);const current=saved??normalizeCard(JSON.parse(localStorage.getItem('adnd1e-character')??'null'));applyCard(current);refreshSaved(String(current.fields.character_id||''));notify('已加载人物卡。');}catch(error){notify(error instanceof Error?error.message:'人物卡无法读取，原记录已保留。');}});
+document.querySelector('#new-character')!.addEventListener('click',()=>{const next=blankCard();next.fields.character_id=crypto.randomUUID();applyCard(next);persistWorkingCopy();savedSelect.value='';showPanel('front');notify('已新建空白人物卡；已保存的人物仍在列表中。');});
+document.querySelector('#load-character')!.addEventListener('click',()=>{try{const saved=readSaved().find(entry=>entry.fields.character_id===savedSelect.value);const current=saved??normalizeCard(JSON.parse(localStorage.getItem('adnd1e-character')??'null'));applyCard(current);persistWorkingCopy();refreshSaved(String(current.fields.character_id||''));notify('已加载人物卡。');}catch(error){notify(error instanceof Error?error.message:'人物卡无法读取，原记录已保留。');}});
 document.querySelector('#export-character')!.addEventListener('click',()=>{const data=collect(),blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`${String(card.fields.name||'adnd1e-ref2-card').replace(/[<>:"/\\|?*]/g,'_')}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);notify('已导出人物卡 JSON，包含所有追加记录与准备法术。');});
-document.querySelector<HTMLInputElement>('#import-character')!.addEventListener('change',async event=>{const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;try{const next=normalizeCard(JSON.parse(await file.text()));applyCard(next);dirty=true;notify('已导入人物卡。点击“保存”可存入浏览器。');}catch(error){notify(error instanceof Error?error.message:'文件无法读取；当前人物卡未改动。');}finally{input.value='';}});
+document.querySelector<HTMLInputElement>('#import-character')!.addEventListener('change',async event=>{const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;try{const next=normalizeCard(JSON.parse(await file.text()));if(!next.fields.character_id)next.fields.character_id=crypto.randomUUID();applyCard(next);persistWorkingCopy();dirty=true;notify('已导入人物卡。点击“保存”可存入浏览器。');}catch(error){notify(error instanceof Error?error.message:'文件无法读取；当前人物卡未改动。');}finally{input.value='';}});
 installCardPrinting(form,()=>{collect();});
-applyCard(card);
-try{refreshSaved();}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
+card=restoreWorkingCopy();applyCard(card);
+try{refreshSaved(String(card.fields.character_id||''));}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
+window.addEventListener('pagehide',()=>{try{persistWorkingCopy();}catch{}});
 
 function updateCombat(strength:string){
  const profile=combatProfile(card.fields),base=profile?.attacks.find(a=>a.ac===0)?.target;
