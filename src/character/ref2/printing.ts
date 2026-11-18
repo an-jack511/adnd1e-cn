@@ -1,10 +1,10 @@
 /** A4 at 96 dpi. Reserve a millimetre for browser rounding at each page edge. */
-export const printScale = (height:number, available=280*96/25.4) => {
+export const printScale = (height:number, available=285*96/25.4) => {
   const scale=Math.min(1,available/Math.max(1,height));
   return scale>=.72?scale:1;
 };
 /** Reflow at the full printed width for each candidate scale, rather than narrowing the page. */
-export function fitPrintScale(measureHeight:(scale:number)=>number,available=278*96/25.4){
+export function fitPrintScale(measureHeight:(scale:number)=>number,available=285*96/25.4){
   if(measureHeight(1)<=available)return 1;
   let low=.72,high=1;
   if(measureHeight(low)*low>available){measureHeight(1);return 1;}
@@ -35,6 +35,14 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
         if(control instanceof HTMLTextAreaElement){control.textContent=original.value;if(compact&&!control.value.trim())control.closest('.ref2-field')?.classList.add('print-empty-field');}
         control.removeAttribute('id');control.removeAttribute('name');
       });
+      if(source.dataset.cardPanel==='front'){
+        const weapons=panel.querySelector<HTMLElement>('[data-repeater="weapons"]');
+        if(weapons){for(const row of weapons.querySelectorAll<HTMLElement>('[data-card-row]')){const name=row.querySelector<HTMLInputElement>('[data-cell="name"]'),base=row.querySelector<HTMLInputElement>('[data-cell="base_weapon"]')?.value.trim(),mode=row.querySelector<HTMLSelectElement>('[data-cell="mode"]')?.value;if(name){const suffix=[base?`基础：${base}`:'',mode==='missile'?'投掷／射击':mode==='handHeld'?'手持':''].filter(Boolean).join(' · ');if(suffix)name.value=`${name.value}（${suffix}）`;}row.querySelector('[data-cell="base_weapon"]')?.closest('td')?.remove();row.querySelector('[data-cell="mode"]')?.closest('td')?.remove();}for(const head of weapons.querySelectorAll('th'))if(['基础武器（选填）','方式'].includes(head.textContent?.trim()||''))head.remove();}
+      }
+      if(source.dataset.cardPanel==='back'){
+        const gear=panel.querySelector<HTMLElement>('[data-repeater="gear"]');
+        if(gear){for(const row of gear.querySelectorAll<HTMLElement>('[data-card-row]')){const item=row.querySelector<HTMLInputElement>('[data-cell="item"]'),quantity=row.querySelector<HTMLInputElement>('[data-cell="quantity"]')?.value.trim();if(item&&quantity&&quantity!=='1')item.value=`${item.value} ×${quantity}`;row.querySelector('[data-cell="quantity"]')?.closest('td')?.remove();}for(const head of gear.querySelectorAll('th'))if(head.textContent?.trim()==='数量')head.remove();}
+      }
       if(compact)for(const section of panel.querySelectorAll('[data-repeater]')){
         const rows=[...section.querySelectorAll<HTMLElement>('[data-card-row]')];
         const filled=rows.filter(row=>[...row.querySelectorAll<HTMLInputElement|HTMLSelectElement>('input,select')].some(input=>input.value.trim()));
@@ -67,30 +75,12 @@ export function installCardPrinting(form:HTMLFormElement,collect:()=>void){
     try{
       for(const sheet of output.querySelectorAll<HTMLElement>('.ref2-print-sheet')){
         const panel=sheet.firstElementChild as HTMLElement;
-        // Wrap prose only. Native score boxes retain their input selectors, dimensions and borders.
-        const controls=[...panel.querySelectorAll<HTMLInputElement|HTMLSelectElement|HTMLTextAreaElement>('input,select,textarea')];
-        const properties=['font-family','font-size','font-weight','font-style','color','text-align','padding','border','border-radius','flex','align-self','vertical-align','letter-spacing','width','min-height'];
-        const styles=controls.map(control=>{const style=getComputedStyle(control);return Object.fromEntries(properties.map(key=>[key,style.getPropertyValue(key)]));});
-        controls.forEach((control,index)=>{
-          if(control instanceof HTMLInputElement&&['checkbox','radio','hidden','number'].includes(control.type))return;
-          // Replacing these inputs with spans loses the original geometric CSS (Honor, circles,
-          // attribute boxes, shield and movement). Empty controls also preserve writable space.
-          if(!control.value.trim()||control.matches('.honor-ovals input,.save-circle,.ability-row>input,.strength-score input,.armor-shield input,.movement-summary input,.spell-slots input'))return;
-          const text=document.createElement('span'),style=styles[index];
-          text.className=control.className+' print-value';
-          text.textContent=control instanceof HTMLSelectElement?control.selectedOptions[0]?.textContent??'':control.value;
-          for(const property of properties)text.style.setProperty(property,style[property]);
-          text.style.display='inline-block';
-          if(control instanceof HTMLTextAreaElement&&!control.value.trim()&&!compact)text.style.minHeight=getComputedStyle(control).height;
-          if(!text.textContent)text.textContent='\u00a0';
-          control.replaceWith(text);
-        });
         const scale=fitPrintScale(value=>{
           sheet.style.setProperty('--print-scale',String(value));
           return panel.getBoundingClientRect().height;
         });
         const height=panel.getBoundingClientRect().height;
-        sheet.style.setProperty('--print-scale',String(scale));sheet.dataset.continued=String(scale===1&&height>280*96/25.4);
+        sheet.style.setProperty('--print-scale',String(scale));sheet.dataset.continued=String(scale===1&&height>285*96/25.4);
         sheet.dataset.contentHeight=String(Math.round(height));
       }
     }finally{if(preview)previewStyle=measurement;else measurement.remove();output.classList.remove('print-measuring');}

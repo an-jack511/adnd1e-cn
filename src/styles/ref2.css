@@ -23,17 +23,29 @@
 .rule-suggestions p { margin:0 0 6px;line-height:1.6; }
 .rule-suggestions a { font-size:12px; }
 .ref2-tab-link { display:inline-flex;align-items:center;padding:9px 15px;border-inline:1px solid #d0c7b8;color:inherit;text-decoration:none;font-size:12px; }
-.magic-item-adjustments { display:flex;flex-wrap:wrap;gap:2px 5px;grid-column:1/-1;font-size:10px; }
-.magic-item-adjustments label { display:flex;align-items:center;gap:2px; }
-.magic-item-adjustments input { width:32px;min-height:20px;border-bottom:1px solid #a99d87!important;text-align:center; }
+.magic-effect-toggle { display:inline-flex;align-items:center;gap:3px;font:10px Arial,sans-serif;white-space:nowrap; }
+.magic-effect-toggle input { width:auto;min-height:0;margin:0; }
+.protection-ring-grade { display:flex;align-items:center;gap:3px;font:10px Arial,sans-serif;white-space:nowrap; }
+.protection-ring-grade select { width:52px;min-height:22px;padding:1px 2px; }
 .protection-ring-grade { display:flex;align-items:center;gap:4px;font-size:11px; }
 .protection-ring-grade select { min-height:24px;padding:1px 4px;font-size:11px; }
 .protection-ring-effect { align-self:center;font-size:10px;color:#665b4b; }
+.ammunition-layout{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,auto);gap:5px 18px;align-items:center;margin-top:5px}
+.ammunition-record{display:grid;grid-template-columns:minmax(45px,1fr) auto 14px;gap:7px;align-items:center;min-width:0}
+.ammunition-primary{grid-column:1;grid-row:1 / span 3;grid-template-columns:1fr;gap:7px;align-content:start}
+.ammunition-name{display:flex;min-width:0}
+.ammunition-name input{width:100%;min-height:20px;border-bottom:1px solid var(--ref2-ink)!important}
+.ammunition-primary .ammunition-name input{min-height:23px}
+.ammunition-boxes{display:grid;grid-template-columns:repeat(5,14px);gap:5px;justify-content:end}
+.ammunition-primary .ammunition-boxes{grid-template-columns:repeat(10,14px);gap:5px 7px;justify-content:start}
+.ref2-paper .ammunition-boxes input{appearance:none;width:14px;height:14px;min-height:0;border:1px solid var(--ref2-ink);padding:0;margin:0;background:transparent;cursor:pointer}
+.ref2-paper .ammunition-boxes input:checked{background:var(--ref2-ink);box-shadow:inset 0 0 0 2px var(--paper)}
+.ammunition-record .row-remove{border:0;background:transparent;padding:0;font:16px Arial,sans-serif;opacity:.55}
 .spellbook-heading { display:flex;justify-content:space-between;gap:12px;align-items:start; }
 .spellbook-heading h2 { margin:0;font:21px var(--display); }
 .spellbook-workspace>.ref2-tabs { display:flex;gap:14px;align-items:center;flex-wrap:wrap; }
-.spellbook-levels { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px; }
-.spellbook-level { border-top:1px solid #b8aa84;padding:8px 4px;min-width:0;break-inside:avoid; }
+.spellbook-levels { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px; }
+.spellbook-level { border:1px solid #d4c9b4;padding:8px 10px;min-width:0;break-inside:avoid; }
 .spellbook-level h3 { margin:0 0 5px;font-size:16px; }
 .spellbook-spell-list { font-size:11px;line-height:1.6; }
 .spellbook-counts { display:flex;gap:8px; }
@@ -41,6 +53,7 @@
 .spellbook-counts input { width:64px;border-bottom:1px solid #887b65; }
 .spellbook-level>label { display:grid;gap:4px;margin-top:6px;font-size:11px; }
 .spellbook-level select { min-height:80px; }
+.spellbook-help { margin:7px 0 12px;padding:8px 10px;border-inline-start:3px solid var(--ref2-orange);background:#faf6ea;font-size:12px;line-height:1.55; }
 .travel-book-row { display:grid;grid-template-columns:1fr .7fr 2fr;gap:10px;margin:8px 0; }
 .travel-book-row label { display:grid;gap:4px;font-size:11px; }
 .travel-book-row input { width:100%;border-bottom:1px solid #887b65; }
@@ -220,6 +233,10 @@
 .ref2-rewards>section { border:1px solid var(--ref2-rule);padding:5px 9px; }
 .ref2-rewards>section>h3 { text-align:center;margin-bottom:8px; }
 .ref2-rewards .ref2-field { margin-bottom:6px; }
+.coin-denominations { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px 9px;margin:0 0 9px; }
+.coin-denominations .ref2-field { min-width:0;font-size:11px; }
+.coin-denominations input { width:100%;min-width:0; }
+.treasure-section .repeater-valuables { margin-top:8px; }
 .ref2-back>.ref2-field { margin-top:6px; }
 .repeater-henchmen { margin-top:10px; }
 .repeater-henchmen .wide-cell { width:18%; }
@@ -338,9 +355,9 @@
   .ref2-rule-check h2 { font-size:18px; }
 }
 @media screen and (max-width:1050px) { .ref2-workspace { grid-template-columns:minmax(0,1fr) 220px;gap:12px; } }
-@media screen and (min-width:1650px) {
+@media screen and (min-width:1800px) {
   .ref2-workspace { display:block; }
-  .ref2-rule-check { position:fixed;right:clamp(16px,calc((100vw - 1600px)/2),72px);top:96px;width:260px;max-height:calc(100vh - 112px);z-index:20;box-shadow:0 2px 12px #0002; }
+  .ref2-rule-check { position:fixed;right:max(16px,calc(50% - 850px));top:96px;width:260px;max-height:calc(100vh - 112px);z-index:20;box-shadow:0 2px 12px #0002; }
 }
 @media screen and (max-width:1100px) { body.section-character,.page-shell,.ref2-workspace { overflow-x:clip; }.ref2-workspace { display:block; }.ref2-rule-check { position:static;max-height:none;width:auto;margin:16px 0; } }
 @media screen and (max-width:1100px) { :root:has(body.section-character) { overflow-x:clip; } }
@@ -370,6 +387,7 @@
 }
 @media screen and (max-width:900px) { .spellbook-levels { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media screen and (max-width:580px) { .spellbook-levels { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr; }.travel-spell-picker { grid-template-columns:minmax(0,1fr); }.travel-spell-picker select,.travel-spell-picker small { grid-column:1;grid-row:auto; } }
+@media screen and (max-width:700px) { .coin-denominations { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 
 /* Source REF2 silhouettes and column order; screen sizing remains readable. */
 .ref2-paper { background:#fff; }
@@ -393,7 +411,7 @@
 @media screen and (max-width:700px) { .movement-rates { grid-auto-flow:row;grid-template-rows:none; }.ref2-original-logo { max-width:310px; } }
 
 @media print {
-  @page{size:A4 portrait;margin:8mm}
+  @page{size:A4 portrait;margin:4mm}
   .ref2-workspace{max-width:none;color:#16130f;--type:"Noto Serif SC","STSong","SimSun",serif;--display:"Book Antiqua","STZhongsong","Noto Serif SC",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .ref2-workspace :is(.card-workspace-heading,.screen-tools,.ref2-toolbar,.ref2-tabs,.card-status,.undo-row,.ref2-rule-check,.card-source,.row-tools,.row-actions,.card-calculation-tools,.spell-planner-actions,dialog){display:none!important}
   .ref2-workspace .ref2-paper[data-card-panel]{display:block!important;box-shadow:none;border:0;padding:0;margin:0;break-after:page;page-break-after:always;font-size:8pt;line-height:1.2}
@@ -408,7 +426,7 @@
   .ref2-senses-movement{padding:1.5mm 2mm;margin:0 -2mm 1mm}.senses-row{grid-template-columns:1fr 1fr;gap:8mm}.senses-row .ref2-field{margin-bottom:1mm;font-size:8pt}.senses-row .ref2-field>textarea{height:8mm!important;line-height:4mm!important}.movement-row{grid-template-columns:.8fr 2.2fr 1.35fr;gap:3mm;margin:0}.movement-base h3{font-size:10pt}.movement-base .ref2-field{font-size:5pt;margin-top:1mm}.movement-base input{width:16mm;height:4mm}.movement-rates{gap:1mm 2mm}.movement-rates .ref2-field{font-size:5pt;gap:1mm}.movement-rates input{font-size:6pt!important;width:8mm}.movement-row>.ref2-field{font-size:7pt}.movement-row>.ref2-field textarea{height:15mm!important}
   .ref2-defense-grid{grid-template-columns:1.05fr 1fr;gap:4mm;margin:1mm 0}.ref2-armor{grid-template-columns:15mm 1fr;gap:1mm 2mm}.armor-emblem h3{font-size:9pt}.armor-emblem .ref2-field{height:19mm}.armor-emblem input{font-size:18pt!important;width:12mm}.armor-emblem .ref2-field>span{font-size:7pt}.armor-fields .ref2-field{font-size:6pt;margin-bottom:1mm}.armor-fields select{font-size:6pt!important}.armor-variants{gap:1.5mm}.armor-variants .ref2-field{font-size:5pt}.ref2-hitpoints{grid-template-columns:24mm 1fr}.ref2-hitpoints h3{font-size:9pt}.ref2-hitpoints>div{padding:1mm}.ref2-hitpoints>div .ref2-field{font-size:6pt;margin-top:1mm}.ref2-hitpoints input{font-size:14pt!important;width:10mm}.ref2-hitpoints>.ref2-field{font-size:8pt;padding:1mm 2mm}.ref2-hitpoints textarea{height:19mm!important;background:none}
   .ref2-band{font-size:11pt!important;padding:1mm 1mm;gap:3mm;margin-top:1mm!important;flex-wrap:nowrap}.ref2-band.orange,.ref2-band.yellow{margin-inline:-2mm!important;padding-inline:2mm}.ref2-band small{font-size:6pt}.ref2-table-wrap{overflow:visible}.ref2-table{table-layout:fixed;min-width:0!important}.ref2-table :is(th,td){border-color:#3a3327}.ref2-table thead{display:table-header-group}.ref2-table th{font-size:5pt!important;padding:1mm 0 .5mm}.ref2-table td{height:5.5mm}.ref2-table :is(input,select){font-size:7pt!important;min-height:4mm!important}.ref2-table tbody{break-inside:avoid}.ref2-table .wide-cell{width:24%}.repeater-weapons .wide-cell{width:15%}.repeater-weapons .ac-cell{width:2.6%;display:table-cell!important}.repeater-weapons .ref2-table input{font-size:6pt!important}.row-note label{font-size:6pt}.row-note input{font-size:7pt!important}
-  .combat-notes{grid-template-columns:1fr 1fr;gap:5mm}.combat-notes>.ref2-field{font-size:8pt}.combat-notes>.ref2-field textarea{height:13mm!important}.compact .ref2-band{font-size:9pt!important}.compact .ref2-table td{height:4.6mm}.ref2-special-grid{grid-template-columns:1fr 1.45fr 1fr;gap:3mm;margin-top:1mm}.ref2-special-grid>.ref2-field>span{font-size:10pt}.ref2-special-grid>.ref2-field textarea{height:48mm!important;line-height:4.5mm!important}.repeater-proficiencies{padding:0 2mm 1mm}.repeater-proficiencies .ref2-table td{height:4.8mm}.ref2-page-foot{font-size:5pt;margin-top:2mm;padding-top:1mm}
+  .combat-notes{grid-template-columns:1fr 1.05fr;gap:5mm}.combat-notes>.ref2-field{font-size:8pt}.combat-notes>.ref2-field textarea{height:13mm!important}.repeater-ammunition .ref2-band,.repeater-ammunition .row-tools{display:none!important}.ammunition-layout{grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,6mm);gap:1mm 5mm;margin-top:0}.ammunition-record{grid-template-columns:minmax(18mm,1fr) auto;gap:1mm}.ammunition-primary{grid-column:1;grid-row:1 / span 3;grid-template-columns:1fr;align-content:start;gap:1mm}.ammunition-name input{height:4mm;min-height:0!important;padding:0 1mm!important;font-size:6pt!important}.ammunition-primary .ammunition-name input{height:4mm}.ammunition-boxes{grid-template-columns:repeat(5,2.5mm);gap:1.2mm;justify-content:end}.ammunition-primary .ammunition-boxes{grid-template-columns:repeat(10,2.5mm);gap:1mm 1.3mm;justify-content:start}.ref2-paper .ammunition-boxes input{appearance:none;width:2.5mm;height:2.5mm;min-height:0!important;padding:0!important;margin:0!important;border:0.25mm solid var(--ref2-ink);background-color:transparent!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}.ref2-paper .ammunition-boxes input:checked{background-color:var(--ref2-ink)!important;box-shadow:inset 0 0 0 .5mm var(--paper)}.ammunition-record .row-remove{display:none!important}.combat-notes>div:before{content:"弹药／消耗品";display:block;font-size:8pt;font-weight:bold;margin-bottom:1mm}.combat-notes>div>.ref2-field{display:none}.compact .ref2-band{font-size:9pt!important}.compact .ref2-table td{height:4.6mm}.ref2-special-grid{grid-template-columns:1fr 1.45fr 1fr;gap:3mm;margin-top:1mm}.ref2-special-grid>.ref2-field>span{font-size:10pt}.ref2-special-grid>.ref2-field textarea{height:48mm!important;line-height:4.5mm!important}.repeater-proficiencies{padding:0 2mm 1mm}.repeater-proficiencies .ref2-table td{height:4.8mm}.ref2-page-foot{font-size:5pt;margin-top:2mm;padding-top:1mm}
   .ref2-description-title{font-size:13pt;margin-bottom:3mm!important}.description-grid{grid-template-columns:1.2fr 1fr 1fr;gap:5mm}.description-grid .ref2-field{margin-bottom:1.5mm;font-size:8pt}.description-pairs{gap:0 3mm}.description-notes{grid-template-columns:1fr 1fr;gap:6mm;margin:2mm 0 3mm}.description-notes textarea{height:16mm!important}.ref2-gear-supplies{grid-template-columns:3fr 1fr;gap:4mm}.ref2-supplies>.ref2-field{font-size:8pt;margin:4mm 0}.ref2-supplies p{font-size:6pt;margin-top:3mm}.ref2-rewards{grid-template-columns:1fr 2.2fr;gap:5mm;margin:3mm 0}.ref2-rewards>section{padding:1mm 2mm}.ref2-rewards>section>h3{margin-bottom:2mm}.ref2-rewards .ref2-field{margin-bottom:1mm;font-size:7pt}.ref2-rewards textarea{height:10mm!important}.ref2-rewards>section:first-child textarea{height:45mm!important}.ref2-back>.ref2-field{font-size:7pt;margin-top:1mm}.ref2-back>.ref2-field textarea{height:10mm!important}.ref2-back>.ref2-field:last-of-type textarea{height:20mm!important}.repeater-henchmen{margin-top:2mm}.repeater-henchmen .wide-cell{width:18%}
   .planner-heading{grid-template-columns:1fr 1.5fr;gap:6mm;padding-bottom:4mm}.planner-heading .ref2-wordmark strong{font-size:22pt}.planner-heading .ref2-wordmark h2{font-size:14pt;margin-top:3mm}.planner-heading p{font-size:7pt;margin:2mm 0 1mm}.spell-slots{grid-template-columns:repeat(5,1fr);gap:2mm}.spell-slots .ref2-field{font-size:6pt}.prepared-spells{grid-template-columns:1fr 1fr;gap:4mm 5mm;margin-top:5mm}.prepared-spell{padding-bottom:3mm}.prepared-spell h3{font-size:10pt;padding:1.5mm}.prepared-spell h3 small{font-size:7pt}.spell-quick-rules{font-size:7pt;margin:2mm 0!important;line-height:1.5}.prepared-controls{font-size:7pt;gap:2mm}.prepared-controls input{width:8mm}.prepared-controls button{display:none!important}.spell-source{font-size:6pt;margin-top:1mm!important}.ref2-spells>.ref2-field{font-size:9pt}.ref2-spells>.ref2-field textarea{height:30mm!important}
 }
@@ -491,16 +509,17 @@
 }
 /* Screen keeps the original paper frame; the print copy never mutates the editable card. */
 #print-settings label,.ref2-print-settings label{display:inline-flex;align-items:center;gap:5px;margin:6px 18px 6px 0}
-.owned-magic-row{display:flex;align-items:center;gap:5px;justify-content:space-between;margin:3px 0}
+.owned-magic-row{display:flex;align-items:center;gap:6px;justify-content:flex-start;flex-wrap:wrap;margin:3px 0;font:11px Arial,sans-serif}
 .owned-magic-row input{max-width:42px;text-align:center;border-bottom:1px solid var(--ref2-rule)!important}
 #ref2-print-output{display:none}
 @media print{
  body:has(#ref2-print-output)>:not(#ref2-print-output){display:none!important}
  body:has(#ref2-print-output){margin:0!important;padding:0!important;min-width:0!important}
- #ref2-print-output{display:block!important;margin:0!important;padding:0!important;width:194mm;max-width:none;--ref2-ink:#24221f;--ref2-rule:#37332d}
- #ref2-print-output .ref2-print-sheet{position:relative;width:194mm;height:280mm;break-after:page;page-break-after:always}
+ #ref2-print-output{display:block!important;margin:0!important;padding:0!important;width:202mm;max-width:none;--ref2-ink:#24221f;--ref2-rule:#37332d}
+ #ref2-print-output .ref2-print-sheet{position:relative;width:202mm;height:285mm;break-after:page;page-break-after:always}
  #ref2-print-output .ref2-print-sheet:last-child{break-after:auto;page-break-after:auto}
- #ref2-print-output .ref2-paper[data-card-panel]{position:absolute;top:0;left:0;width:calc(194mm / var(--print-scale,1));box-sizing:border-box;zoom:var(--print-scale,1);break-after:auto;page-break-after:auto;background:#fff;color:#24221f}
+ #ref2-print-output .ref2-paper[data-card-panel]{position:absolute;top:0;left:0;width:calc(202mm / var(--print-scale,1));box-sizing:border-box;zoom:var(--print-scale,1);break-after:auto;page-break-after:auto;background:#fff;color:#24221f}
+ #ref2-print-output .ref2-paper[data-card-panel] :is(input:not([type=checkbox]):not([type=radio]),select,textarea){background-color:transparent!important;color:inherit!important;box-shadow:none!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
  #ref2-print-output .ref2-print-sheet[data-continued=true]{height:auto}
  #ref2-print-output .ref2-print-sheet[data-continued=true]>.ref2-paper{position:static;zoom:1}
  #ref2-print-output .ref2-spells[data-has-spells=false]{display:block!important}

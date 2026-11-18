@@ -52,6 +52,8 @@ html[data-theme=dark]{color-scheme:dark;--paper:#192620;--ink:#e6ece3;--wine:#b5
  html .ref2-paper :is(input,select,textarea){background:transparent}
  html[data-theme=dark] .ref2-workspace{--ref2-ink:var(--ink);--ref2-rule:#7d96a4;color:var(--ink)}
  html[data-theme=dark] .ref2-paper{background:var(--paper);color:var(--ink);border-color:var(--line)}
+ html[data-theme=dark] .ref2-workspace .ref2-paper :is(input:not([type=checkbox]):not([type=radio]),select,textarea){background-color:var(--surface)!important;color:var(--ink)!important;border-color:var(--line)!important;color-scheme:dark}
+ html[data-theme=dark] .ref2-workspace .ref2-paper :is(input:not([type=checkbox]):not([type=radio]),select,textarea):focus{background-color:var(--surface-strong)!important;outline:2px solid var(--accent-blue);outline-offset:1px}
  html[data-theme=dark] .ref2-workspace :is(button,.file-button){background:var(--surface);color:var(--ink);border-color:var(--line)}
  html[data-theme=dark] .ref2-workspace :is(.card-workspace-heading p,.card-status,.screen-tools,.ref2-page-foot,.row-note label){color:var(--muted)}
  html[data-theme=dark] .ref2-paper :is(.ref2-band.orange,.ref2-band.yellow,.movement-row,.senses-row,.repeater-proficiencies){color:#24221f}

@@ -41,24 +41,28 @@ function collect(): Card {
   for (const key of collectionNames) {
     const previous=new Map(card.rows[key].map(row=>[row.id,row.values]));
     const hiddenMagic=key==='gear'?card.rows.gear.filter(row=>items.some(item=>item.id===row.values.itemId&&itemSelectionKind(item)==='magic')&&!row.values.equippedSlot):[];
-    card.rows[key] = [...hiddenMagic,...[...repeater(key).querySelectorAll<HTMLElement>('[data-card-row]')].map(row=>({id:row.dataset.rowId!,values:{...previous.get(row.dataset.rowId!),...Object.fromEntries([...row.querySelectorAll<Control>('[data-cell]')].map(control=>[control.dataset.cell!,control.value]))}}))];
+    card.rows[key] = [...hiddenMagic,...[...repeater(key).querySelectorAll<HTMLElement>('[data-card-row]')].map(row=>{const values={...previous.get(row.dataset.rowId!),...Object.fromEntries([...row.querySelectorAll<Control>('[data-cell]')].map(control=>[control.dataset.cell!,control instanceof HTMLInputElement&&control.type==='checkbox'?(control.checked?'1':''):control.value]))};if(key==='ammunition'){const boxes=[...row.querySelectorAll<HTMLInputElement>('[data-cell^="box_"]')];values.count=String(boxes.length);values.used=String(boxes.filter(box=>box.checked).length);}return{id:row.dataset.rowId!,values};})];
     if(key==='ammunition')for(const row of card.rows.ammunition){const item=items.find(i=>i.id===row.values.itemId);if(item&&row.values.name!==cardName(item.nameZh)){delete row.values.itemId;delete row.values.ammoPickerId;}}
     if(key==='weapons')for(const row of card.rows.weapons){const old=previous.get(row.id)?.name,item=items.find(i=>i.id===old);if(item&&row.values.name===cardName(item.nameZh))row.values.name=item.id;if(row.values.name?.endsWith('::missile')){row.values.name=row.values.name.slice(0,-9);row.values.mode='missile';}}
   }
   return card;
 }
 function renderRows(key:CollectionName) {
-  const section=repeater(key), table=section.querySelector<HTMLTableElement>('[data-row-table]')!, template=section.querySelector<HTMLTemplateElement>('[data-row-template]')!;
+  const section=repeater(key), table=section.querySelector<HTMLElement>('[data-row-table]')!, template=section.querySelector<HTMLTemplateElement>('[data-row-template]')!;
   table.querySelectorAll('[data-card-row]').forEach(row=>row.remove());
   card.rows[key].filter(record=>key!=='gear'||!items.some(item=>item.id===record.values.itemId&&itemSelectionKind(item)==='magic')||!!record.values.equippedSlot).forEach((record,index)=>{
-    const row=template.content.querySelector('tbody')!.cloneNode(true) as HTMLTableSectionElement;
+    const row=template.content.querySelector<HTMLElement>('[data-card-row]')!.cloneNode(true) as HTMLElement;
     row.dataset.rowId=record.id;
+    if(key==='ammunition'){
+      const boxes=row.querySelector<HTMLElement>('.ammunition-boxes')!,capacity=index===0?20:5,used=Math.max(0,Number(record.values.used)||0),hasBoxState=Object.keys(record.values).some(keyName=>keyName.startsWith('box_'));row.classList.toggle('ammunition-primary',index===0);
+      boxes.replaceChildren(...Array.from({length:capacity},(_,boxIndex)=>{const input=document.createElement('input');input.type='checkbox';input.dataset.cell=`box_${boxIndex}`;input.setAttribute('aria-label',`第 ${boxIndex+1} 发已用`);input.checked=hasBoxState?record.values[`box_${boxIndex}`]==='1':boxIndex<used;return input;}));
+    }
     for (const control of row.querySelectorAll<Control>('[data-cell]')) {
       const keyName=control.dataset.cell!;
       let entry=record.values[keyName] ?? '';
       if (key==='weapons' && keyName==='name') {const item=findNamedEntry(items,'item',entry);entry=item?.id??entry;entry=item?cardName(item.nameZh):entry;}
       if (control instanceof HTMLSelectElement && entry && ![...control.options].some(option=>option.value===entry)) control.add(new Option(entry,entry));
-      control.value=entry;
+      if(control instanceof HTMLInputElement&&control.type==='checkbox')control.checked=entry==='1';else control.value=entry;
       if(key==='weapons'&&keyName==='notes')control.title=entry;
       control.setAttribute('aria-label',`${section.querySelector('h3')!.childNodes[0].textContent!.trim()}第 ${index+1} 条 ${control.getAttribute('aria-label')}`);
     }
@@ -88,7 +92,7 @@ function applyCard(next:Card) {
 }
 function update(editSource='') {
   collect();
-  const magicAdjustments=magicItemAdjustments(card);
+  const magicAdjustments=magicItemAdjustments(card,Number(value('DEX'))||0,value('class'));
   const xpClass=String(value('class')),xpTable=(classTables as Record<string,{rows:string[][]}>)[xpClass];
   if(xpTable&&['xp','level','class'].includes(editSource)){
     const rows=xpTable.rows.map(row=>({level:Number(row[1]),minimum:Number(row[0].match(/[\d,]+/)?.[0]?.replaceAll(',','')??NaN)})).filter(row=>Number.isFinite(row.minimum)&&Number.isFinite(row.level)).sort((a,b)=>a.level-b.level);
@@ -109,8 +113,8 @@ function update(editSource='') {
   const abilities=['STR','INT','WIS','DEX','CON','CHA'] as Ability[];
   const exceptional=/^18(?:$|[/(（／])/.test(value('STR'));
   document.querySelector<HTMLElement>('#exceptional-row')!.hidden=!exceptional;
-  let strength=strengthScore(value('STR'),value('exceptional_strength'));
-  if(/^(?:[3-9]|1\d|2[0-5])$/.test(strength))strength=String(Math.max(3,Math.min(25,Number(strength)+magicAdjustments.STR)));
+  let strength=magicAdjustments.strengthOverride||strengthScore(value('STR'),value('exceptional_strength'));
+  if(!magicAdjustments.strengthOverride&&/^(?:[3-9]|1\d|2[0-5])$/.test(strength))strength=String(Math.max(3,Math.min(25,Number(strength)+magicAdjustments.STR)));
   const effectiveDexterity=/^\d+$/.test(value('DEX'))?String(Math.max(3,Math.min(25,Number(value('DEX'))+magicAdjustments.DEX))):value('DEX');
   for (const ability of abilities) {
     const raw=ability==='STR'?strength:ability==='DEX'?effectiveDexterity:/^\d+$/.test(value(ability))?String(Math.max(3,Math.min(25,Number(value(ability))+magicAdjustments[ability]))):value(ability);
@@ -128,7 +132,7 @@ function update(editSource='') {
   const armor=selectedArmor('armor_item'),shield=selectedArmor('shield_item');
   for(const [slot,item] of [['armor_item',armor],['shield_item',shield]] as const)card.fields[slot]=item?.id??value(slot);
   if(syncEquipped(card,items))renderRows('gear');
-  const protectionBonus=magicProtectionBonus(card)+magicAdjustments.save;
+  const protectionBonus=magicAdjustments.save;
   const saveNote=automateSaves(card.fields);
   if(!checked('manual_saves')&&protectionBonus)for(let i=0;i<5;i++){const rawBase=String(card.fields[`auto_save_${i}`]??'').trim();const base=Number(rawBase);if(rawBase!==''&&Number.isFinite(base))card.fields[`save_${i}`]=String(base-protectionBonus);}
   document.querySelector('#save-breakdown')!.textContent=saveNote+(protectionBonus?`；防护魔法物品豁免 +${protectionBonus} 已计入。`: '');
@@ -142,7 +146,7 @@ function update(editSource='') {
   if(monk&&!armor&&!shield){ac.value=monk.ac+(Number(value('ac_modifier'))||0);ac.notes.push('PHB p.31 武僧表 II；不叠加敏捷防御。');}
   if(value('class')==='barbarian'&&Number(effectiveDexterity)>14){const dexPart=ac.components.find(p=>p.label.startsWith('DEX'));const old=dexPart?.value??0,next=-(Number(effectiveDexterity)-14)*(armor&&/链|带|板|鳞/.test(armor.nameZh)?1:2);ac.value+=next-old;ac.notes.push('UA 野蛮人敏捷防御：笨重护甲每点−1，其余每点−2。');}
   if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(effectiveDexterity)>0){ac.value=23-Number(effectiveDexterity)-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整。');}
-  const magicAcBonus=magicProtectionBonus(card)+magicAdjustments.ac;
+  const magicAcBonus=magicAdjustments.ac;
   if(magicAcBonus){ac.value-=magicAcBonus;ac.components.push({label:'防护魔法物品',value:-magicAcBonus,source:'DMG Ring of Protection／手动物品修正'});}
   (field('ac') as HTMLInputElement).readOnly=!checked('manual_ac');
   if (!checked('manual_ac')) set('ac',ac.value);
@@ -152,9 +156,10 @@ function update(editSource='') {
   const encumbrance=computeEncumbrance(carriedItems(card,items).map(entry=>({...entry,item:weaponWithBase(entry.item,items)})));
   const race=races.find(race=>race.id===value('race'));
   if(race){for(const [key,text] of [['languages',race.languages],['senses',race.abilities.filter(a=>/视觉|视力/.test(a)).join('；')],['detections',race.detection],['resistances',race.savingThrows],['special_abilities',race.abilities.join('；')]] as const){generated(card.fields,key,text);set(key,String(card.fields[key]??''));}}
-  const coins=['gp','sp','cp','ep','pp'].reduce((sum,denom)=>sum+Math.max(0,Number(value(`coins_${denom}`))||0),0)+Math.max(0,Number(value('coins_other_count'))||0);
+  const coins=['gp','sp','cp','ep','pp','dl_steel'].reduce((sum,denom)=>sum+Math.max(0,Number(value(`coins_${denom}`))||0),0)+Math.max(0,Number(value('coins_other_count'))||0);
   if(field('coins_carried'))set('coins_carried',coins);
-  const coinWeight=(coins-Math.max(0,Number(value('coins_other_count'))||0))/10+Math.max(0,Number(value('coins_other_count'))||0)*Math.max(0,Number(value('coins_other_weight_per_10'))||1)/10;
+  const customCoins=Math.max(0,Number(value('coins_other_count'))||0);
+  const coinWeight=(coins-customCoins)/10+customCoins*Math.max(0,Number(value('coins_other_weight_per_10'))||1)/10;
   const totalWeight=encumbrance.value+coinWeight;
   const movement=computeMovement({base:monk?.move??(['barbarian','oa-barbarian'].includes(value('class')) ? 15 : Number(race?.movement.match(/\d+/)?.[0] ?? 12)),weightPounds:totalWeight,strength,bulky:checked('move_bulky'),difficultTerrain:checked('move_terrain'),otherAdjustment:Number(value('move_adjustment'))||0});
   set('move_base',`${movement.base}″`);
@@ -204,10 +209,21 @@ function update(editSource='') {
 }
 
 function startingMoneyDice(classId:string){return ({cleric:'3d6×10 gp',fighter:'5d4×10 gp',paladin:'5d4×10 gp（按战士类别）',ranger:'5d4×10 gp（按战士类别）','magic-user':'2d4×10 gp',illusionist:'2d4×10 gp（按魔法师类别）',thief:'2d6×10 gp',monk:'5d4 gp'} as Record<string,string>)[classId]??'按职业原表掷骰（此职业未映射）';}
-function magicProtectionBonus(card:Card){return card.rows.gear.reduce((sum,row)=>{const item=items.find(entry=>entry.id===row.values.itemId);if(!item||Number(row.values.quantity||1)<=0)return sum;const match=(item.nameEn+' '+item.nameZh).match(/(?:ring|cloak) of protection\s*\+\s*(\d)|防护(?:戒指|斗篷)[^+]{0,10}\+\s*(\d)/i);const preset=/ring of protection|防护戒指/i.test(item.nameEn+' '+item.nameZh)?Number(row.values.protection_bonus)||0:0;return sum+(match?Number(match[1]||match[2]):preset);},0);}
+type MagicAdjustments=Record<Ability,number>&{ac:number;save:number;hit:number;damage:number;strengthOverride:string};
+function magicItemEffectsFor(item:typeof items[number]){return ['magic-ring-of-protection','magic-cloak-of-protection','magic-gauntlets-of-dexterity','magic-gauntlets-of-ogre-power','dragon-117-magic-item-ring-of-the-bards'].includes(item.id);}
 function travelBookSpellIds(entry:any){const raw=Array.isArray(entry.spells)?entry.spells:String(entry.spells||'').split(/[，,、\s]+/);return raw.map((token:string)=>spells.find(spell=>spell.id===token||spell.nameZh===token||spell.nameEn.toLowerCase()===token.toLowerCase())?.id).filter(Boolean) as string[];}
 function spellbookSummary(raw:unknown){try{const data=JSON.parse(String(raw||'{}'));const books=(data.books||[]).map((entry:any)=>{const book=(spellbookCatalog as {id:string;code:string;title:string}[]).find(candidate=>candidate.id===entry.id),levels=Object.entries(entry.levels||{}).filter(([,v]:[string,any])=>Number(v.chosen||v.adventure||0)||(v.spellIds||[]).length).map(([level,v]:[string,any])=>`${level}环 自选${v.chosen??0}/冒险${v.adventure??0}`);return `${book?.code||entry.id}${levels.length?`：${levels.join('、')}`:''}`;});const travel=(data.travel||[]).map((entry:any)=>`${entry.name||'未命名旅行书'}（${travelBookSpellIds(entry).length}种）`);return books.length||travel.length?`${books.join('； ')}${travel.length?`；旅行书：${travel.join('、')}`:''}`:'暂无记录。';}catch{return '法术书记录无法读取。';}}
-function magicItemAdjustments(card:Card):Record<Ability|'ac'|'save',number>{const result:Record<Ability|'ac'|'save',number>={STR:0,INT:0,WIS:0,DEX:0,CON:0,CHA:0,ac:0,save:0};for(const row of card.rows.gear){const item=items.find(entry=>entry.id===row.values.itemId);if(!item||Number(row.values.quantity||1)<=0)continue;for(const key of Object.keys(result) as (Ability|'ac'|'save')[])result[key]+=Number(row.values[`magic_${key}`])||0;}return result;}
+function magicItemAdjustments(card:Card,dexterity:number,classId:string):MagicAdjustments{
+ const result:MagicAdjustments={STR:0,INT:0,WIS:0,DEX:0,CON:0,CHA:0,ac:0,save:0,hit:0,damage:0,strengthOverride:''};
+ for(const row of card.rows.gear){const item=items.find(entry=>entry.id===row.values.itemId);if(!item||Number(row.values.quantity||1)<=0||magicItemEffectsFor(item)&&row.values.magic_effect_active==='0')continue;
+  if(['magic-ring-of-protection','magic-cloak-of-protection'].includes(item.id)){
+   const fixed=(item.nameEn+' '+item.nameZh).match(/(?:ring|cloak) of protection\s*\+\s*([1-5])|防护(?:戒指|斗篷)[^+]{0,10}\+\s*([1-5])/i),bonus=Number(fixed?.[1]||fixed?.[2]||row.values.protection_bonus)||0;result.ac+=bonus;result.save+=bonus;
+  }else if(item.id==='dragon-117-magic-item-ring-of-the-bards'){result.ac+=2;result.save+=classId==='bard'?4:2;}
+  else if(item.id==='magic-gauntlets-of-dexterity')result.DEX+=dexterity<=6?4:dexterity<=13?2:1;
+  else if(item.id==='magic-gauntlets-of-ogre-power'){result.strengthOverride='18/00';result.hit+=3;result.damage+=6;}
+ }
+ return result;
+}
 
 let undo: {key:CollectionName;row:Row;index:number}|undefined;
 const undoButton=document.createElement('button'); undoButton.type='button';undoButton.textContent='撤销移除';undoButton.hidden=true;undoButton.className='undo-row';status.after(undoButton);
@@ -382,17 +398,32 @@ function renderOwnedMagic(){
   const line=document.createElement('div');line.className='owned-magic-row';
   const link=document.createElement('a');link.href=`/equipment/${item.id}/`;link.textContent=cardName(item.nameZh);
   const count=document.createElement('input');count.type='number';count.min='0';count.value=row.values.quantity||'1';count.setAttribute('aria-label',`${item.nameZh}数量`);count.addEventListener('change',()=>{row.values.quantity=String(Math.max(0,Number(count.value)||0));update();modified();});line.append(link,count);
-  if(item.id==='magic-ring-of-protection'){
-   const wrap=document.createElement('label');wrap.className='protection-ring-grade';wrap.textContent='戒指等级';
-   const select=document.createElement('select');select.setAttribute('aria-label','防护戒指等级');
-   for(const [value,label] of [['0','选择加值'],['1','+1'],['2','+2'],['3','+3'],['4','+4'],['5','+5']]){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
-   select.value=row.values.protection_bonus||'0';select.addEventListener('change',()=>{row.values.protection_bonus=select.value;magicSignature='';update();modified();});wrap.append(select);line.append(wrap);
-   const effect=document.createElement('small');effect.className='protection-ring-effect';effect.textContent='加值自动计入 AC 与豁免';line.append(effect);
+  if(magicItemEffectsFor(item)){
+   if(!row.values.magic_effect_active)row.values.magic_effect_active='1';
+   const active=document.createElement('label');active.className='magic-effect-toggle';const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.checked=row.values.magic_effect_active!=='0';checkbox.setAttribute('aria-label',`${item.nameZh}效果生效`);checkbox.addEventListener('change',()=>{row.values.magic_effect_active=checkbox.checked?'1':'0';magicSignature='';update();modified();});active.append(checkbox,document.createTextNode('生效'));line.append(active);
   }
-  const adjustments=document.createElement('div');adjustments.className='magic-item-adjustments';adjustments.setAttribute('aria-label',`${item.nameZh}效果调整`);
-  for(const [key,label] of [['STR','STR'],['DEX','DEX'],['INT','INT'],['WIS','WIS'],['CON','CON'],['CHA','CHA'],['ac','额外 AC'],['save','额外豁免']] as const){const wrap=document.createElement('label');wrap.title=`${item.nameZh} ${label} 修正（按已鉴定效果填写）`;wrap.textContent=label;const input=document.createElement('input');input.type='number';input.value=row.values[`magic_${key}`]||'0';input.setAttribute('aria-label',`${item.nameZh} ${label}调整`);input.addEventListener('change',()=>{row.values[`magic_${key}`]=String(Number(input.value)||0);magicSignature='';update();modified();});wrap.append(input);adjustments.append(wrap);}
-  line.append(adjustments);return line;
+  if(['magic-ring-of-protection','magic-cloak-of-protection'].includes(item.id)){
+   const wrap=document.createElement('label');wrap.className='protection-ring-grade';wrap.textContent='防护';
+   const select=document.createElement('select');select.setAttribute('aria-label',`${item.nameZh}防护等级`);
+   for(const [level,label] of [['0','选等级'],['1','+1'],['2','+2'],['3','+3'],['4','+4'],['5','+5']]){const option=document.createElement('option');option.value=level;option.textContent=label;select.append(option);}
+   select.value=row.values.protection_bonus||'0';select.addEventListener('change',()=>{row.values.protection_bonus=select.value;magicSignature='';update();modified();});wrap.append(select);line.append(wrap);
+  }
+  return line;
  }));
+}
+function syncMagicAttacks(){
+ const owned=card.rows.gear.flatMap(row=>{const item=items.find(entry=>entry.id===row.values.itemId);if(item?.category!=='魔法物品'||Number(row.values.quantity||1)<=0)return[];const attackable=acceptsItem(item,'weapons')||(/攻击/.test(item.description)&&/伤害/.test(item.description)&&/权杖|手套|龙枪|拳套|棍|杖/.test(item.nameZh));if(!attackable)return[];const modes=acceptsItem(item,'weapons')&&item.weaponCombat?.handHeld&&item.weaponCombat?.missile?['handHeld','missile']:['handHeld'];return modes.map(mode=>({id:item.id,mode,item}));});
+ const desired=new Set(owned.map(({id,mode})=>`${id}::${mode}`));
+ card.rows.weapons=card.rows.weapons.filter(row=>!row.values.magicAttackItemId||desired.has(`${row.values.magicAttackItemId}::${row.values.magicAttackMode||'handHeld'}`));
+ for(const {id,mode,item} of owned){if(card.rows.weapons.some(row=>row.values.magicAttackItemId===id&&row.values.magicAttackMode===mode))continue;
+  const row=card.rows.weapons.find(entry=>Object.values(entry.values).every(text=>!text.trim()))??blankRow();
+  const hit=enhancement(item)||Number(item.description.match(/(?:命中(?:与伤害)?|攻击骰)\s*\+\s*(\d+)/)?.[1]??item.description.match(/\+(\d)\s*魔法武器/)?.[1]??0);
+  const damage=item.description.match(/\((\d+d\d+)(?:\s*[+-]\s*\d+)?\)/i)?.[1]?.replace(/\s+/g,'')??'';
+  fillWeapon(row,item,mode,items);
+  row.values={...row.values,name:id,mode,attacks:row.values.attacks||'1/1',notes:row.values.notes||'魔法物品攻击；复杂效果见物品条目。',magicAttackItemId:id,magicAttackMode:mode,magicAttackHit:String(hit),sm:damage||row.values.sm||''};
+  if(!card.rows.weapons.includes(row))card.rows.weapons.push(row);
+ }
+ renderRows('weapons');
 }
 const itemLibrary=document.querySelector<HTMLDialogElement>('#item-library')!,itemFrame=document.querySelector<HTMLIFrameElement>('#item-library-frame')!;
 let itemKind:ItemRole='gear';
@@ -404,7 +435,7 @@ window.addEventListener('message',event=>{
  if(event.origin!==location.origin||event.source!==itemFrame.contentWindow||!event.data||typeof event.data!=='object')return;
  if(event.data.type==='adnd1e-item-picker-ready')sendItems();
  if(event.data.type==='adnd1e-item-picker-cancel')itemLibrary.close();
- if(event.data.type==='adnd1e-items-selected'&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();if(itemKind==='weapons'){selectWeapons(card,event.data.ids,items);renderRows('weapons');}else if(itemKind==='ammunition'){selectAmmunition(card,event.data.ids,items);renderRows('ammunition');}else if(itemKind==='armor'||itemKind==='shield'){const item=items.find(i=>event.data.ids.includes(i.id)&&acceptsItem(i,itemKind));card.fields[itemKind+'_item_id']=item?.id??'';set(itemKind+'_item',item?cardName(item.nameZh):'');}else{selectInventory(card,event.data.ids,itemKind,items);renderRows('gear');}update();modified();itemLibrary.close();}
+ if(event.data.type==='adnd1e-items-selected'&&Array.isArray(event.data.ids)&&event.data.ids.every((id:unknown)=>typeof id==='string')){collect();if(itemKind==='weapons'){selectWeapons(card,event.data.ids,items);renderRows('weapons');}else if(itemKind==='ammunition'){selectAmmunition(card,event.data.ids,items);renderRows('ammunition');}else if(itemKind==='armor'||itemKind==='shield'){const item=items.find(i=>event.data.ids.includes(i.id)&&acceptsItem(i,itemKind));card.fields[itemKind+'_item_id']=item?.id??'';set(itemKind+'_item',item?cardName(item.nameZh):'');}else{selectInventory(card,event.data.ids,itemKind,items);renderRows('gear');if(itemKind==='magic')syncMagicAttacks();}update();modified();itemLibrary.close();}
 });
 
 const identityLibrary=document.querySelector<HTMLDialogElement>('#identity-library')!,identityFrame=document.querySelector<HTMLIFrameElement>('#identity-library-frame')!;
@@ -450,7 +481,8 @@ try{refreshSaved();}catch(error){notify(error instanceof Error?error.message:'�
 
 function updateCombat(strength:string){
  const profile=combatProfile(card.fields),base=profile?.attacks.find(a=>a.ac===0)?.target;
- document.querySelector('#combat-breakdown')!.textContent=profile?'DMG p.74 原书攻击矩阵；THAC0 为基础目标值，命中／伤害加值另列。未计入专精、非熟练惩罚、特殊敌人或投掷特例，可改写调整。':'当前职业的攻击矩阵尚未核对，请按职业资料手填。';
+ const magicItems=magicItemAdjustments(card,Number(value('DEX'))||0,value('class'));
+ document.querySelector('#combat-breakdown')!.textContent=profile?'THAC0 按职业等级计算。开启自动调整后，熟练武器不受罚；不熟练惩罚按职业组计算；战士专精加命中 +1、伤害 +2。特殊敌人与情境修正另填。':'当前职业的攻击矩阵尚未核对，请按职业资料手填。';
  if(checked('manual_combat'))return;
  const monk=value('class')==='monk'?monkCombat(Number(value('level'))):null;
  if(monk){let row=card.rows.unarmed.find(r=>r.values.monkAuto==='yes');if(!row){row=card.rows.unarmed.find(r=>Object.values(r.values).every(v=>!v.trim()))??blankRow();row.values.monkAuto='yes';row.values.style='武僧徒手（PHB）';if(!card.rows.unarmed.includes(row))card.rows.unarmed.push(row);renderRows('unarmed');}for(const [key,entry] of Object.entries({attacks:monk.attacks,damage:monk.damage,thac0:String(base??''),hit:'0',damage_adj:'0'})){generated(row.values,key,entry);const input=repeater('unarmed').querySelector<HTMLInputElement>(`[data-row-id="${row.id}"] [data-cell="${key}"]`);if(input)input.value=row.values[key];}}
@@ -468,7 +500,7 @@ function updateCombat(strength:string){
  for(const row of card.rows.weapons){
   const selected=resolveItem(items,row.values.name??'');if(!selected)continue;
   const weapon=weaponWithBase(selected,items,row.values.base_weapon),ranged=row.values.mode==='missile'||!weapon.weaponCombat?.handHeld&&!!weapon.weaponCombat?.missile;
-  const magic=enhancement(selected),hit=(value('class')==='monk'||(value('class')==='oa-kensai'&&ranged)?0:abilityBonus(ranged?'DEX':'STR',ranged?String(Math.max(3,Math.min(25,Number(value('DEX'))+magicItemAdjustments(card).DEX))):strength,ranged?'投射':'命中'))+magic,damage=(value('class')==='monk'?Math.floor(Number(value('level'))/2):ranged?0:abilityBonus('STR',strength,'伤害'))+magic;
+  const magic=enhancement(selected),proficiency=card.rows.proficiencies.find(entry=>entry.values.weaponId===selected.id||entry.values.name.trim().toLocaleLowerCase()===selected.nameZh.trim().toLocaleLowerCase()||entry.values.name.trim().toLocaleLowerCase()===selected.nameEn.trim().toLocaleLowerCase()),rank=proficiency?.values.weaponRank||'',auto=checked('auto_weapon_proficiency'),classId=value('class'),className=classes.find(entry=>entry.id===classId)?.nameZh||'',penalty=profile?.attackFamily==='fighter'?-2:/牧师|德鲁伊|盗贼|刺客|武僧|僧兵|修贤者|忍者|神官/.test(className)?-3:-5,nonProficient=auto&&(!proficiency||rank==='untrained')?penalty:0,specialized=auto&&profile?.attackFamily==='fighter'&&rank==='specialized',hitBonus=(specialized?1:0)+nonProficient,damageBonus=specialized?2:0,gloveApplies=!ranged||!!weapon.weaponCombat?.handHeld&&!!weapon.weaponCombat?.missile&&/投掷|标枪|矛|飞镖/.test(weapon.nameZh),magicHit=gloveApplies?magicItems.hit:0,magicDamage=gloveApplies?magicItems.damage:0,hit=(value('class')==='monk'||(value('class')==='oa-kensai'&&ranged)?0:abilityBonus(ranged?'DEX':'STR',ranged?String(Math.max(3,Math.min(25,Number(value('DEX'))+magicItems.DEX))):strength,ranged?'投射':'命中'))+magic+(Number(row.values.magicAttackHit)||0)+magicHit+hitBonus,damage=(value('class')==='monk'?Math.floor(Number(value('level'))/2):ranged?0:abilityBonus('STR',strength,'伤害'))+magic+(Number(row.values.magicAttackHit)||0)+magicDamage+damageBonus;
   generated(row.values,'thac0',base===undefined?'':String(base));generated(row.values,'hit',String(hit));generated(row.values,'damage_adj',String(damage));
   if(!profile)generated(row.values,'attacks','');
   else if(!ranged&&profile.attackFamily!=='fighter')generated(row.values,'attacks','1/1');

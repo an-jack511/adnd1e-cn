@@ -8,7 +8,7 @@ export type PreparedSpell = { spellId: string; count: number; expended: number }
 export const collectionNames = ['weapons', 'unarmed', 'gear', 'family', 'henchmen', 'ammunition', 'proficiencies', 'valuables'] as const;
 export type CollectionName = typeof collectionNames[number];
 export type Card = { format: typeof CARD_FORMAT; version: 1; fields: Fields; rows: Record<CollectionName, Row[]>; preparedSpells: PreparedSpell[]; [key: string]: unknown };
-export const initialRows: Record<CollectionName, number> = { weapons: 6, unarmed: 3, gear: 30, family: 12, henchmen: 3, ammunition: 3, proficiencies: 22, valuables: 3 };
+export const initialRows: Record<CollectionName, number> = { weapons: 6, unarmed: 3, gear: 30, family: 12, henchmen: 3, ammunition: 4, proficiencies: 22, valuables: 3 };
 const object = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);
 const integer = (value: unknown, fallback: number) => Math.max(0, Math.min(9999, Number.isFinite(Number(value)) ? Math.floor(Number(value)) : fallback));
 export const blankRow = (): Row => ({ id: crypto.randomUUID(), values: {} });

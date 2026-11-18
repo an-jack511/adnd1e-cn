@@ -10,11 +10,11 @@ import '../../../styles/ref2.css';
   <nav class="ref2-tabs"><label class="ref2-field"><span>人物</span><select id="character-choice"><option value="">当前人物</option></select></label><label class="ref2-field"><span>法术书</span><select id="spellbook-choice"><option value="">选择图书馆法术书</option>{spellbooks.map(book=><option value={book.id}>{book.code} · {book.title}</option>)}</select></label><a id="spellbook-pdf" href="/books/" target="_blank" rel="noreferrer">打开图书馆</a></nav>
   <section class="ref2-paper">
     <header class="spellbook-heading"><div><h2 id="spellbook-title">选择一本法术书</h2><p id="spellbook-meta">选择人物，再选法术书。</p></div><a id="spellbook-cover-link" href="/books/">打开图书馆</a></header>
-    <p id="spellbook-rule-note" class="card-source">目录中的法术不代表人物已学会。</p>
+    <p id="spellbook-rule-note" class="spellbook-help">选书只建立来源记录，不代表学会。每环填写自选与冒险所得数量，再勾选本册学会的法术；内容自动存入所选人物。</p>
     <div class="spellbook-levels" id="spellbook-levels"></div><a class="ref2-tab-link" href="/character/">返回人物卡准备法术</a>
   </section>
   <section class="ref2-paper">
-    <h2>旅行法术书</h2><p>记录副本容量，并从法术目录勾选抄录内容。</p>
+    <h2>旅行法术书</h2><p>这里只记随身副本。填写书名和容量，再从目录勾选已抄入副本的法术；不会改变人物已学法术。</p>
     <div id="travel-books"></div><button id="add-travel-book" type="button">＋ 添加旅行法术书</button>
   </section>
   <p id="spellbook-status" class="card-status" role="status" aria-live="polite"></p>
