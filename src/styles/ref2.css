@@ -54,6 +54,13 @@
 .spellbook-level { border:1px solid var(--line);border-top:3px solid var(--wine);padding:12px;min-width:0;break-inside:avoid;background:var(--paper); }
 .spellbook-level h3 { margin:0 0 4px;font-size:17px; }
 .spellbook-level-meta { margin:0 0 9px;color:var(--muted);font:11px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.spellbook-growth { grid-column:1/-1;border-top:2px solid var(--line);padding-top:8px; }
+.spellbook-growth h3 { margin:0 0 6px;font-size:15px; }
+.spellbook-growth-rows { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 12px; }
+.spellbook-growth-row { display:grid;grid-template-columns:86px minmax(0,1fr);gap:8px;align-items:center;padding:5px 0;border-bottom:1px dotted var(--line);font:11px/1.45 Arial,"Microsoft YaHei",sans-serif; }
+.spellbook-growth-actions { display:flex;flex-wrap:wrap;align-items:center;gap:6px;min-width:0; }
+.spellbook-growth-actions button { min-height:26px!important;padding:3px 8px!important;font:11px Arial,"Microsoft YaHei",sans-serif!important; }
+.spellbook-growth-actions span { overflow-wrap:anywhere; }
 .spellbook-spell-list { font-size:11px;line-height:1.6; }
 .spellbook-check-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px; }
 .spell-group-heading { grid-column:1/-1;margin:12px 0 2px;padding-bottom:4px;border-bottom:1px solid var(--line);font-size:14px; }
@@ -424,7 +431,7 @@
   .ref2-page-foot { font-size:11px; }
 }
 @media screen and (max-width:900px) { .spellbook-levels { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media screen and (max-width:580px) { .spellbook-levels,.spellbook-check-list,.travel-spell-list { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr 1fr; }.travel-spell-picker { grid-column:1/-1; }.travel-book-row>button { grid-column:1/-1;grid-row:auto;justify-self:end; }.spellbook-heading { flex-direction:column; }.spellbook-workspace>.ref2-tabs { align-items:stretch; }.spellbook-workspace>.ref2-tabs>.ref2-field { width:100%; }.spellbook-workspace>.ref2-tabs select { width:100%; } }
+@media screen and (max-width:580px) { .spellbook-levels,.spellbook-check-list,.spellbook-growth-rows,.travel-spell-list { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr 1fr; }.travel-spell-picker { grid-column:1/-1; }.travel-book-row>button { grid-column:1/-1;grid-row:auto;justify-self:end; }.spellbook-heading { flex-direction:column; }.spellbook-workspace>.ref2-tabs { align-items:stretch; }.spellbook-workspace>.ref2-tabs>.ref2-field { width:100%; }.spellbook-workspace>.ref2-tabs select { width:100%; } }
 @media screen and (max-width:700px) { .coin-denominations { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 
 /* Source REF2 silhouettes and column order; screen sizing remains readable. */

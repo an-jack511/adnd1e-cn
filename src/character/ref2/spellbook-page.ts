@@ -133,9 +133,6 @@ function prepareAction(spell: Spell) {
     saveCharacter(); $('spellbook-status').textContent = already ? `已撤销${spell.nameZh}的准备。` : `${spell.nameZh}已加入准备法术。`; render();
   }};
 }
-function spellLevelSection(host: HTMLElement, level: number, label: string) {
-  const heading = document.createElement('h4'); heading.className = 'spell-group-heading'; heading.textContent = label; host.append(heading);
-}
 function render() {
   const data = records(); selected = books.find(book => book.id === choice.value) || books.find(book => book.id === data.books[0]?.id);
   if (selected) choice.value = selected.id;
@@ -144,51 +141,46 @@ function render() {
     const owned = data.books.find((entry: any) => entry.id === selected!.id), currentLevel = characterLevel();
     const fixedVisible = selected.spells.filter(spell => spell.characterLevel <= currentLevel && classCompatible(spell));
     $('spellbook-title').textContent = `${selected.code} · ${selected.title}`;
-    $('spellbook-meta').textContent = `${String(card?.fields?.name || '当前人物')} · ${String(card?.fields?.class || '未选职业')} ${card ? `${currentLevel}级` : '未选等级'} · 逐级藏抄 ${fixedVisible.length}/${selected.spells.length} 项`;
+    $('spellbook-meta').textContent = `${String(card?.fields?.name || '当前人物')} · ${String(card?.fields?.class || '未选职业')} ${card ? `${currentLevel}级` : '未选等级'} · 显示至角色 ${currentLevel} 级 · ${fixedVisible.length}/${selected.spells.length} 项`;
     $('spellbook-pdf').setAttribute('href', selected.file); $('spellbook-cover-link').setAttribute('href', selected.file);
-    const maximum = card ? currentLevel : 20;
-    for (let level = 1; level <= maximum; level++) {
-      const fixed = selected.spells.filter(spell => spell.characterLevel === level && classCompatible(spell));
+    const progressionIds = new Set<string>();
+    for (const progression of Object.values(owned?.progression || {}) as any[]) if (progression.attempt?.success) progressionIds.add(progression.attempt.spellId);
+    for (const entry of data.adventureRecords) if (entry.bookId === selected.id && entry.success && entry.characterLevel <= currentLevel) progressionIds.add(entry.spellId);
+    const knownIds = new Set<string>([...fixedVisible.map(spell => spell.id), ...progressionIds]);
+    for (const id of data.adventure) knownIds.add(id);
+    for (let ring = 0; ring <= 9; ring++) {
+      const spellsAtRing = [...knownIds].map(id => spellList.find(spell => spell.id === id)).filter((spell): spell is Spell => !!spell && spell.level === ring && classCompatible(spell));
+      if (!spellsAtRing.length) continue;
+      const row = document.createElement('section'); row.className = 'spellbook-level'; row.dataset.spellLevel = String(ring);
+      const title = document.createElement('h3'); title.textContent = ring === 0 ? '小法术' : `${ring} 环`;
+      const fixedCount = fixedVisible.filter(entry => spellList.find(spell => spell.id === entry.id)?.level === ring).length;
+      const meta = document.createElement('p'); meta.className = 'spellbook-level-meta'; meta.textContent = `固定目录 ${fixedCount} 种 · 已知 ${spellsAtRing.length} 种`;
+      const list = document.createElement('div'); list.className = 'spellbook-check-list';
+      for (const spell of spellsAtRing) list.append(spellRow(spell, prepareAction(spell)));
+      row.append(title, meta, list); host.append(row);
+    }
+    const growth = document.createElement('section'); growth.className = 'spellbook-growth';
+    const growthTitle = document.createElement('h3'); growthTitle.textContent = '逐级习得机会'; growth.append(growthTitle);
+    const growthRows = document.createElement('div'); growthRows.className = 'spellbook-growth-rows';
+    for (let level = 1; level <= currentLevel; level++) {
       const progression = owned?.progression?.[String(level)] || {}, elective = progression.attempt;
       const adventure = data.adventureRecords.find((entry: any) => entry.characterLevel === level && entry.bookId === selected!.id);
-      if (!fixed.length && !electiveLevels.has(level) && !adventureLevels.has(level)) continue;
-      const row = document.createElement('section'); row.className = 'spellbook-level'; row.dataset.characterLevel = String(level);
-      const title = document.createElement('h3'); title.textContent = `角色 ${level} 级`;
-      const meta = document.createElement('p'); meta.className = 'spellbook-level-meta';
-      meta.textContent = `固定新增 ${fixed.length} 种 · 当前可用至${maxRingAt(level)}环${electiveLevels.has(level) ? ' · 自选尝试 1 次' : ''}${adventureLevels.has(level) ? ' · 冒险所得 1 次（DM启用）' : ''}`;
-      row.append(title, meta);
-      const list = document.createElement('div'); list.className = 'spellbook-check-list';
-      for (const bookSpell of fixed) { const spell = spellList.find(entry => entry.id === bookSpell.id); if (spell) list.append(spellRow(spell, prepareAction(spell))); }
-      for (const id of progression.spellIds || []) { const spell = spellList.find(entry => entry.id === id); if (spell && !fixed.some(entry => entry.id === id)) list.append(spellRow(spell, prepareAction(spell))); }
-      if (list.childElementCount) row.append(list);
+      if (!electiveLevels.has(level) && !adventureLevels.has(level)) continue;
+      const item = document.createElement('div'); item.className = 'spellbook-growth-row';
+      const label = document.createElement('strong'); label.textContent = `角色 ${level} 级`;
+      const actions = document.createElement('div'); actions.className = 'spellbook-growth-actions';
       if (electiveLevels.has(level)) {
-        const panel = document.createElement('div'); panel.className = 'spellbook-attempt';
-        if (elective) {
-          const spell = spellList.find(entry => entry.id === elective.spellId);
-          const result = document.createElement('p'); result.textContent = `${spell?.nameZh || elective.spellId} · d100 ${elective.percentile} / 成功率 ${elective.chance}% · ${elective.success ? '习得成功' : '习得失败；本级机会已用'}`; panel.append(result);
-          if (elective.success && spell) panel.append(spellRow(spell, prepareAction(spell)));
-        } else {
-          const button = document.createElement('button'); button.type = 'button'; button.textContent = '自选法术'; button.disabled = !card;
-          button.title = card ? '从资料库选取，按智力进行习得判定' : '先保存人物卡'; button.addEventListener('click', () => openPicker({ kind: 'elective', level })); panel.append(button);
-          if (!card) { const note = document.createElement('small'); note.textContent = '保存人物卡后可登记'; panel.append(note); }
-        }
-        row.append(panel);
+        if (elective) { const spell = spellList.find(entry => entry.id === elective.spellId), result = document.createElement('span'); result.textContent = `自选：${spell?.nameZh || elective.spellId} · d100 ${elective.percentile}/${elective.chance}% · ${elective.success ? '成功' : '失败'}`; actions.append(result); }
+        else { const button = document.createElement('button'); button.type = 'button'; button.textContent = '自选法术'; button.disabled = !card; button.title = card ? '从资料库选取并按智力判定' : '先保存人物卡'; button.addEventListener('click', () => openPicker({ kind: 'elective', level })); actions.append(button); }
       }
       if (adventureLevels.has(level)) {
-        const panel = document.createElement('div'); panel.className = 'spellbook-attempt';
-        if (adventure) {
-          const spell = spellList.find(entry => entry.id === adventure.spellId), result = document.createElement('p');
-          result.textContent = `${spell?.nameZh || adventure.spellId} · d100 ${adventure.percentile} / 成功率 ${adventure.chance}% · ${adventure.success ? '习得成功' : '习得失败；本次机会已用'}`; panel.append(result);
-          if (adventure.success && spell) panel.append(spellRow(spell, prepareAction(spell)));
-        } else {
-          const button = document.createElement('button'); button.type = 'button'; button.textContent = '冒险所得'; button.disabled = !card;
-          button.title = card ? '登记实际发现的法术；本项由 DM 启用' : '先保存人物卡'; button.addEventListener('click', () => openPicker({ kind: 'adventure', level })); panel.append(button);
-        }
-        row.append(panel);
+        if (adventure) { const spell = spellList.find(entry => entry.id === adventure.spellId), result = document.createElement('span'); result.textContent = `冒险所得：${spell?.nameZh || adventure.spellId} · d100 ${adventure.percentile}/${adventure.chance}% · ${adventure.success ? '成功' : '失败'}`; actions.append(result); }
+        else { const button = document.createElement('button'); button.type = 'button'; button.textContent = '冒险所得'; button.disabled = !card; button.title = 'DM 启用后登记发现的法术'; button.addEventListener('click', () => openPicker({ kind: 'adventure', level })); actions.append(button); }
       }
-      host.append(row);
+      item.append(label, actions); growthRows.append(item);
     }
-    if (!host.childElementCount) { const empty = document.createElement('p'); empty.textContent = '当前等级之前没有固定法术。'; host.append(empty); }
+    if (growthRows.childElementCount) { growth.append(growthRows); host.append(growth); }
+    if (!host.childElementCount) { const empty = document.createElement('p'); empty.textContent = '当前等级及之前没有已知法术。'; host.append(empty); }
   } else {
     $('spellbook-title').textContent = '选择一本法术书'; $('spellbook-meta').textContent = '从图书馆收录的法术书中选择目录。';
   }
@@ -197,12 +189,9 @@ function render() {
 function renderAdventure(data = records()) {
   const host = $<HTMLDivElement>('adventure-spell-results'); host.replaceChildren();
   const recordsForBook = data.adventureRecords.filter((entry: any) => !selected || !entry.bookId || entry.bookId === selected.id);
-  const legacy = data.adventure.filter(id => !recordsForBook.some((entry: any) => entry.spellId === id));
-  $('adventure-spell-status').textContent = `已登记 ${data.adventure.length + recordsForBook.filter((entry: any) => entry.success).length} 种；按角色等级分配的冒险尝试仅在 DM 启用时使用。`;
-  for (const entry of recordsForBook) {
-    const spell = spellList.find(item => item.id === entry.spellId), line = document.createElement('p');
-    line.textContent = `角色 ${entry.characterLevel} 级 · ${spell?.nameZh || entry.spellId} · ${entry.success ? '习得成功' : '习得失败'}`; host.append(line);
-  }
+  const attempted = new Set(recordsForBook.map((entry: any) => entry.spellId));
+  const legacy = data.adventure.filter(id => !attempted.has(id) && !allBookSpellIds(data).has(id));
+  $('adventure-spell-status').textContent = `已登记 ${legacy.length} 种；重复法术及法术书目录中的法术不重复显示。`;
   for (const id of legacy) { const spell = spellList.find(item => item.id === id); if (spell) host.append(spellRow(spell, prepareAction(spell))); }
 }
 function travelSpellIds(entry: any) {
@@ -320,7 +309,6 @@ choice.addEventListener('change', () => {
 });
 characterChoice.addEventListener('change', selectCard);
 $('add-travel-book').addEventListener('click', () => { if (!card) return; const data = records(); data.travel.push({ name: '', capacity: '', spells: [] }); persist(data); renderTravel(data); });
-$('add-adventure-spell').addEventListener('click', () => { if (card) openPicker({ kind: 'adventure', level: characterLevel() }); });
 $('close-spell-library').addEventListener('click', () => { dialog.close(); pickerTarget = null; });
 window.addEventListener('message', event => {
   if (event.origin !== location.origin || event.source !== frame.contentWindow || !event.data || typeof event.data !== 'object') return;

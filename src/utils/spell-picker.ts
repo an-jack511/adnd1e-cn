@@ -27,7 +27,7 @@ export function initSpellPicker() {
   window.addEventListener('message',event=>{
     if(event.origin!==location.origin || event.source!==parent || event.data?.type!=='adnd1e-card-selection' || !Array.isArray(event.data.ids))return;
     selected.clear();for(const id of event.data.ids)if(typeof id==='string' && checks.has(id)&&!excluded.has(id)&&(!includeSet||includeSet.has(id)))selected.add(id);
-    slotLimits=event.data.slots&&typeof event.data.slots==='object'?event.data.slots:{};copyCounts=event.data.counts&&typeof event.data.counts==='object'?event.data.counts:{};
+    slotLimits=event.data.slots&&typeof event.data.slots==='object'?Object.fromEntries(Object.entries(event.data.slots).map(([level,value])=>[level,Number(value)]).filter(([,value])=>Number.isFinite(value))) as Record<string,number>:{};copyCounts=event.data.counts&&typeof event.data.counts==='object'?event.data.counts:{};
     for(const [id,check] of checks)check.checked=selected.has(id);update();
   });
   document.querySelector('#apply-spell-selection')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-spells-selected',ids:[...selected]},location.origin));
