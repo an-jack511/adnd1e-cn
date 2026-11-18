@@ -64,11 +64,12 @@
 .spell-choice>label span { min-width:0;overflow-wrap:anywhere; }
 .spell-choice>label:has(input:disabled) { color:var(--muted);cursor:not-allowed; }
 .spell-info-button { padding:2px 6px!important;min-height:25px!important;font:11px Arial,"Microsoft YaHei",sans-serif!important; }
-.spell-tooltip { position:absolute;z-index:8;top:calc(100% + 4px);left:0;width:min(500px,calc(100vw - 40px));max-height:min(60vh,520px);overflow:auto;padding:10px 12px;border:1px solid var(--line);border-top:3px solid var(--wine);background:var(--paper);color:var(--ink);box-shadow:0 5px 18px #0003;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.spell-tooltip { position:absolute;z-index:8;top:calc(100% + 4px);left:0;box-sizing:border-box;width:min(500px,calc(100vw - 40px));min-width:0;max-height:min(60vh,520px);overflow:auto;padding:10px 12px;border:1px solid var(--line);border-top:3px solid var(--wine);background:var(--paper);color:var(--ink);box-shadow:0 5px 18px #0003;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
 .spell-tooltip strong { display:block;margin-bottom:5px;font-size:13px; }
 .spell-tooltip p { margin:2px 0; }
-.spell-tooltip-facts { width:100%;border-collapse:collapse;table-layout:fixed;font:11px/1.4 Arial,"Microsoft YaHei",sans-serif; }
-.spell-tooltip-facts th,.spell-tooltip-facts td { padding:3px 5px;border:1px solid var(--line);vertical-align:top;text-align:start;overflow-wrap:anywhere; }
+.spell-tooltip-facts { width:100%;max-width:100%;box-sizing:border-box;border-collapse:collapse;table-layout:fixed;font:11px/1.4 Arial,"Microsoft YaHei",sans-serif; }
+.spell-tooltip-facts tr,.spell-tooltip-facts th,.spell-tooltip-facts td { min-width:0;max-width:100%;box-sizing:border-box; }
+.spell-tooltip-facts th,.spell-tooltip-facts td { padding:3px 5px;border:1px solid var(--line);vertical-align:top;text-align:start;overflow-wrap:anywhere;word-break:break-word; }
 .spell-tooltip-facts th { width:44px;background:var(--surface);font-weight:600;white-space:nowrap; }
 .spell-tooltip-facts td { width:calc((100% - 88px)/2); }
 .spell-tooltip-note { padding-top:5px;border-top:1px solid var(--line); }

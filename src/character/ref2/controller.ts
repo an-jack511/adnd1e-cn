@@ -320,9 +320,10 @@ function renderPrepared() {
     const rules=document.createElement('p');rules.className='spell-quick-rules';rules.textContent=spell ? `${spell.components.join('/')} · 施法 ${spell.castingTime} · 距离 ${spell.range} · 持续 ${spell.duration} · 范围 ${spell.areaOfEffect} · 豁免 ${spell.savingThrow}` : '此法术暂未收录于资料库；原记录仍保留。';
     const controls=document.createElement('div');controls.className='prepared-controls';
     for(const [key,label] of [['count','准备'],['expended','已用']] as const){
-      const wrap=document.createElement('label'),input=document.createElement('input');input.type='number';input.min=key==='count'?'1':'0';input.max=key==='count'?'9999':String(entry.count);input.value=String(entry[key]);input.setAttribute('aria-label',`${spell?.nameZh??entry.spellId}${label}次数`);wrap.append(label,input);
+      const wrap=document.createElement('label'),input=document.createElement('input'),slotValue=String(value(`spell_slots_${spell?.level??0}`)),slotLimit=slotValue===''?9999:Number(slotValue);input.type='number';input.min=key==='count'?'1':'0';input.max=key==='count'?String(Math.max(1,slotLimit-card.preparedSpells.filter(other=>other!==entry&&spells.find(candidate=>candidate.id===other.spellId)?.level===spell?.level).reduce((sum,other)=>sum+other.count,0))):String(entry.count);input.value=String(entry[key]);input.setAttribute('aria-label',`${spell?.nameZh??entry.spellId}${label}次数`);wrap.append(label,input);
       input.addEventListener('input',()=>{
-        entry[key]=Math.max(key==='count'?1:0,Math.min(9999,Math.floor(Number(input.value)||0)));entry.expended=Math.min(entry.count,entry.expended);
+        const otherCopies=key==='count'?card.preparedSpells.filter(other=>other!==entry&&spells.find(candidate=>candidate.id===other.spellId)?.level===spell?.level).reduce((sum,other)=>sum+other.count,0):0,rawLimit=String(value(`spell_slots_${spell?.level??0}`)),available=key==='count'?(rawLimit===''?9999:Number(rawLimit))-otherCopies:9999;
+        entry[key]=Math.max(key==='count'?1:0,Math.min(available>0?available:1,Math.floor(Number(input.value)||0)));input.value=String(entry[key]);entry.expended=Math.min(entry.count,entry.expended);
         const used=controls.querySelectorAll<HTMLInputElement>('input')[1];
         if(used){used.max=String(entry.count);if(key==='count')used.value=String(entry.expended);}
         remaining.textContent=`剩余 ${entry.count-entry.expended}`;cast.disabled=entry.expended>=entry.count;
@@ -332,7 +333,7 @@ function renderPrepared() {
     }
     const remaining=document.createElement('strong');remaining.textContent=`剩余 ${entry.count-entry.expended}`;controls.append(remaining);
     const cast=document.createElement('button');cast.type='button';cast.textContent='施放一次';cast.disabled=entry.expended>=entry.count;cast.addEventListener('click',()=>{entry.expended++;renderPrepared();update();modified();});controls.append(cast);
-    const remove=document.createElement('button');remove.type='button';remove.textContent='移除';remove.addEventListener('click',()=>{card.preparedSpells=card.preparedSpells.filter(item=>item!==entry);renderPrepared();update();modified();});controls.append(remove);
+    const remove=document.createElement('button');remove.type='button';remove.textContent='撤销准备';remove.addEventListener('click',()=>{card.preparedSpells=card.preparedSpells.filter(item=>item!==entry);renderPrepared();update();modified();});controls.append(remove);
     const source=document.createElement('p');source.className='spell-source';source.textContent=spell ? [...new Set(spell.source.map(source=>`${source.book}${source.page?` p.${source.page}`:''}`))].join(' · ') : '';
     article.append(heading,rules,controls,source);nodes.push(article);
   }
@@ -368,7 +369,7 @@ document.querySelector('#open-owned-spells')!.addEventListener('click',()=>{rend
 document.querySelector('#close-owned-spells')!.addEventListener('click',()=>ownedSpellDialog.close());
 document.querySelector('#add-owned-spells')!.addEventListener('click',()=>{const ids=[...ownedSpellList.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(input=>input.value),status=document.querySelector<HTMLElement>('#owned-spell-status')!;if(!ids.length){status.textContent='提示：未选择法术。';return;}selectPrepared(card,[...card.preparedSpells.map(entry=>entry.spellId),...ids]);renderPrepared();update();modified();ownedSpellDialog.close();status.textContent=`已加入 ${ids.length} 个法术。`;});
 const library=document.querySelector<HTMLDialogElement>('#spell-library')!,frame=document.querySelector<HTMLIFrameElement>('#spell-library-frame')!;
-const sendSelection=()=>frame.contentWindow?.postMessage({type:'adnd1e-card-selection',ids:card.preparedSpells.map(entry=>entry.spellId)},location.origin);
+const sendSelection=()=>frame.contentWindow?.postMessage({type:'adnd1e-card-selection',ids:card.preparedSpells.map(entry=>entry.spellId),slots:Object.fromEntries(Array.from({length:10},(_,level)=>[level,String(value(`spell_slots_${level}`)||'')])),counts:Object.fromEntries(card.preparedSpells.map(entry=>[entry.spellId,entry.count]))},location.origin);
 document.querySelector('#open-spell-library')!.addEventListener('click',()=>{
   {
     const className=classes.find(entry=>entry.id===value('class'))?.nameEn;
