@@ -1,6 +1,13 @@
 import {generated} from './automation';
 import {references} from './references';
 import type {Card} from './model';
+export function combatProficiencyAdjustment(enabled:boolean,attackFamily:string|undefined,className:string,rank:string){
+ if(!enabled)return{hit:0,damage:0};
+ if(rank==='specialized'&&attackFamily==='fighter')return{hit:1,damage:2};
+ if(rank!=='untrained'&&rank!=='')return{hit:0,damage:0};
+ const penalty=attackFamily==='fighter'?-2:/牧师|德鲁伊|盗贼|刺客|武僧|僧兵|修贤者|忍者|神官/.test(className)?-3:-5;
+ return{hit:penalty,damage:0};
+}
 // PHB p.37; WSG table 1 / DSG character proficiencies; OA table 56.
 const western:Record<string,[number,number,number,number]>={cleric:[2,3,4,1],druid:[2,3,5,1],fighter:[4,2,3,1],paladin:[3,2,2,1],ranger:[3,2,3,1],'magic-user':[1,3,6,2],illusionist:[1,3,6,2],thief:[2,3,4,1],assassin:[3,2,4,1],monk:[1,1,2,1],cavalier:[3,2,2,1],barbarian:[6,3,2,1],'thief-acrobat':[2,3,4,1]};
 const oriental:Record<string,[number,number]>={'oa-samurai':[5,1],'oa-shukenja':[6,2],'oa-sohei':[4,3],'oa-kensai':[3,2],'oa-barbarian':[9,3],'oa-bushi':[4,2],'oa-wu-jen':[6,2],'oa-ninja':[2,3]};

@@ -1,4 +1,4 @@
-import {proficiencyBudget} from '../src/character/ref2/proficiencies';
+import {proficiencyBudget,combatProficiencyAdjustment} from '../src/character/ref2/proficiencies';
 import {monkCombat} from '../src/character/ref2/monk';
 import assert from 'node:assert/strict';
 import {blankCard,normalizeCard} from '../src/character/ref2/model';
@@ -15,7 +15,11 @@ import {computeArmorClass,computeEncumbrance,weightPounds} from '../src/rules-en
 for(const raw of ['18/75','18（75）','１８／７５'])assert.equal(strengthScore(raw),'18/75');
 assert.equal(strengthScore('18','00'),'18/00');assert.equal(strengthScore('18/100'),'18/00');
 assert.equal(abilityBonus('STR','18/75','命中'),2);assert.equal(abilityBonus('DEX','18','投射'),3);
+assert.deepEqual(combatProficiencyAdjustment(true,'fighter','战士','specialized'),{hit:1,damage:2});assert.deepEqual(combatProficiencyAdjustment(true,'fighter','战士','proficient'),{hit:0,damage:0});assert.deepEqual(combatProficiencyAdjustment(true,'fighter','战士','untrained'),{hit:-2,damage:0});assert.deepEqual(combatProficiencyAdjustment(true,'thief','盗贼','untrained'),{hit:-3,damage:0});assert.deepEqual(combatProficiencyAdjustment(false,'fighter','战士','specialized'),{hit:0,damage:0});
 const card=blankCard();Object.assign(card.fields,{class:'fighter',level:'1'});automateSaves(card.fields);assert.equal(card.fields.save_0,'14');
+assert.equal(card.fields.auto_weapon_proficiency,true,'new characters calculate proficiency adjustments by default');
+assert.equal(normalizeCard({format:'adnd1e-ref2-card',version:1,fields:{class:'fighter'},rows:Object.fromEntries(['weapons','unarmed','gear','family','henchmen','ammunition','proficiencies','valuables'].map(key=>[key,Array.from({length:3},()=>({values:{}}))])),preparedSpells:[]}).fields.auto_weapon_proficiency,true,'older cards enable automatic adjustments when unset');
+assert.equal(normalizeCard({name:'旧人物',auto_weapon_proficiency:false}).fields.auto_weapon_proficiency,false,'explicit manual preference is preserved');
 card.fields.level='9';automateSaves(card.fields);assert.equal(card.fields.save_0,'8');
 card.fields.save_modifier_0='2';automateSaves(card.fields);assert.equal(card.fields.save_0,'6');
 card.fields.save_0='99';card.fields.level='13';automateSaves(card.fields);assert.equal(card.fields.save_0,'99','personal override survives');
@@ -44,4 +48,5 @@ const profCard=blankCard();Object.assign(profCard.fields,{class:'cleric',level:'
 Object.assign(profCard.fields,{class:'magic-user',level:'7'});proficiencyBudget(profCard);assert.equal(profCard.fields.nonweapon_slots,'5');
 Object.assign(profCard.fields,{class:'oa-samurai',level:'2'});proficiencyBudget(profCard);assert.equal(profCard.fields.shared_slots,'6');
 const costly=references.find(r=>r.kind==='proficiencies'&&r.source==='WSG'&&r.values.slots==='2')!;selectReferences(profCard,'proficiencies',[costly.id]);assert.match(proficiencyBudget(profCard),/共用已用 2/);
+const swordProficiency=references.find(r=>r.kind==='proficiencies'&&r.values.weaponId==='long-sword')!;selectReferences(profCard,'proficiencies',[swordProficiency.id]);assert.equal(profCard.rows.proficiencies.find(r=>r.values.referenceId===swordProficiency.id)?.values.weaponRank,'proficient','catalog weapon proficiencies start as proficient');
 profCard.fields.shared_slots='99';profCard.fields.level='3';proficiencyBudget(profCard);assert.equal(profCard.fields.shared_slots,'99');

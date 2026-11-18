@@ -581,5 +581,6 @@
 @media screen{
  #ref2-print-output.print-preview{margin:12px auto!important;padding:8mm!important;width:210mm!important;box-sizing:border-box;background:#eee}
  #ref2-print-output.print-preview .ref2-print-sheet{background:#fff;outline:1px solid #aaa;margin-bottom:8mm}
+ #ref2-print-output.print-preview .ref2-original-logo{filter:none!important}
 }
 @media print{#ref2-print-output .checkline{display:none!important}}

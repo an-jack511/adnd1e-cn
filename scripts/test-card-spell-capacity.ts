@@ -23,7 +23,7 @@ assert.deepEqual(capacity('oa-sohei',6,{WIS:'12'}).daily?.slice(1,5),[1,0,0,0]);
 assert.deepEqual(capacity('oa-sohei',7,{WIS:'16'}).daily?.slice(1,5),[3,3,0,0]);
 assert.equal(capacity('oa-wu-jen',21).daily?.[9],1);
 assert.equal(capacity('unknown',1).daily,null);
-const card=blankCard();card.fields={class:'cleric',level:'1',WIS:'18',manual_spell_slots:false};card.preparedSpells=[{spellId:'bless',count:2,expended:1}];
+const card=blankCard();card.fields={class:'cleric',level:'1',WIS:'18',manual_spell_slots:false,auto_weapon_proficiency:true};card.preparedSpells=[{spellId:'bless',count:2,expended:1}];
 updateCardSpellSlots(card.fields);assert.equal(card.fields.spell_slots_1,'3');
 card.fields.level='3';updateCardSpellSlots(card.fields);assert.equal(card.fields.spell_slots_2,'3');
 card.fields.manual_spell_slots=true;card.fields.spell_slots_1='7';card.fields.level='5';updateCardSpellSlots(card.fields);assert.equal(card.fields.spell_slots_1,'7');

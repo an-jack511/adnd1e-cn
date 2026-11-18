@@ -11,6 +11,7 @@ export function selectReferences(card:Card,kind:CollectionName,ids:string[]){
   if(card.rows[kind].some(row=>row.values.referenceId===id))continue;
   const record=known.get(id)!,row=card.rows[kind].find(r=>Object.values(r.values).every(v=>!v.trim()))??blankRow();
   row.values={...row.values,...Object.fromEntries(Object.entries(record.values).filter(([,v])=>typeof v==='string')) as Record<string,string>,referenceId:id,referenceSource:record.source};
+  if(kind==='proficiencies'&&record.values.weaponId&&!row.values.weaponRank)row.values.weaponRank='proficient';
   if(!card.rows[kind].includes(row))card.rows[kind].push(row);
  }
 }
