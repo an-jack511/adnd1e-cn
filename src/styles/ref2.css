@@ -7,7 +7,8 @@
 .ref2-workspace { display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:20px;align-items:start; }
 .card-workspace-heading,.ref2-toolbar,.ref2-print-settings,.card-status,.undo-row,.ref2-tabs,.card-source,.character-first-run { grid-column:1/-1; }
 .character-first-run { border-inline-start:3px solid var(--ref2-orange);background:color-mix(in srgb,var(--paper,#fffdf8) 86%,#f4d889);padding:8px 12px;margin:3px 0 8px;font-size:12px;line-height:1.55; }
-.character-first-run ol { display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:3px 18px;margin:5px 0 0;padding-inline-start:22px; }
+.character-first-run ol { display:block;margin:5px 0 0;padding-inline-start:20px; }
+.character-first-run li { margin:4px 0; }
 .ref2-card { grid-column:1;min-width:0; }
 .ref2-rule-check { grid-column:2;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;border:1px solid var(--line,#bfb5a3);border-top:3px solid var(--ref2-orange);background:var(--paper,#fffdf8);color:var(--ink,#24221f);padding:10px 12px;margin:0;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
 .ref2-rule-check h2 { margin:0 0 8px;font:600 16px/1.35 Arial,"Microsoft YaHei",sans-serif; }
@@ -22,7 +23,7 @@
 .rule-suggestions h3 { font-size:13px;margin:0 0 5px; }
 .rule-suggestions p { margin:0 0 6px;line-height:1.6; }
 .rule-suggestions a { font-size:12px; }
-.ref2-tab-link { display:inline-flex;align-items:center;padding:9px 15px;border-inline:1px solid #d0c7b8;color:inherit;text-decoration:none;font-size:12px; }
+.ref2-tab-link { display:inline-flex;align-items:center;padding:9px 15px;border-inline:0;color:inherit;text-decoration:none;font-size:12px; }
 .magic-effect-toggle { display:inline-flex;align-items:center;gap:3px;font:10px Arial,sans-serif;white-space:nowrap; }
 .magic-effect-toggle input { width:auto;min-height:0;margin:0; }
 .protection-ring-grade { display:flex;align-items:center;gap:3px;font:10px Arial,sans-serif;white-space:nowrap; }
@@ -43,24 +44,47 @@
 .ammunition-record .row-remove{border:0;background:transparent;padding:0;font:16px Arial,sans-serif;opacity:.55}
 .spellbook-heading { display:flex;justify-content:space-between;gap:12px;align-items:start; }
 .spellbook-heading h2 { margin:0;font:21px var(--display); }
+.spellbook-workspace { display:block;max-width:1180px; }
 .spellbook-workspace>.ref2-tabs { display:flex;gap:14px;align-items:center;flex-wrap:wrap; }
+.spellbook-help-link { margin:0 0 12px;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.spellbook-content { min-width:0; }
+.spellbook-content>.ref2-paper { margin:0 0 12px; }
+.spellbook-status-note { margin:8px 0;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif;color:var(--muted); }
 .spellbook-levels { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px; }
-.spellbook-level { border:1px solid #d4c9b4;padding:8px 10px;min-width:0;break-inside:avoid; }
-.spellbook-level h3 { margin:0 0 5px;font-size:16px; }
+.spellbook-level { border:1px solid var(--line);border-top:3px solid var(--wine);padding:12px;min-width:0;break-inside:avoid;background:var(--paper); }
+.spellbook-level h3 { margin:0 0 4px;font-size:17px; }
+.spellbook-level-meta { margin:0 0 9px;color:var(--muted);font:11px/1.5 Arial,"Microsoft YaHei",sans-serif; }
 .spellbook-spell-list { font-size:11px;line-height:1.6; }
+.spellbook-check-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px; }
+.spell-group-heading { grid-column:1/-1;margin:12px 0 2px;padding-bottom:4px;border-bottom:1px solid var(--line);font-size:14px; }
+.spell-choice { position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px;align-items:center;min-width:0;padding:4px;border-bottom:1px dotted var(--line);font:12px/1.45 Arial,"Microsoft YaHei",sans-serif; }
+.spell-choice>label { display:flex;align-items:flex-start;gap:6px;min-width:0;cursor:pointer; }
+.spell-choice>.spell-static-label { cursor:default; }
+.spell-choice>label input { flex:0 0 auto;width:15px;min-height:15px;margin:2px 0 0; }
+.spell-choice>label span { min-width:0;overflow-wrap:anywhere; }
+.spell-choice>label:has(input:disabled) { color:var(--muted);cursor:not-allowed; }
+.spell-info-button { padding:2px 6px!important;min-height:25px!important;font:11px Arial,"Microsoft YaHei",sans-serif!important; }
+.spell-tooltip { position:absolute;z-index:8;top:calc(100% + 4px);left:0;width:min(340px,calc(100vw - 64px));padding:10px 12px;border:1px solid var(--line);border-top:3px solid var(--wine);background:var(--paper);color:var(--ink);box-shadow:0 5px 18px #0003;font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.spell-tooltip strong { display:block;margin-bottom:5px;font-size:13px; }
+.spell-tooltip p { margin:2px 0; }
+.spell-incompatible { grid-column:1/-1;color:var(--muted);font-size:10px; }
+.spellbook-migration { grid-column:1/-1;margin:4px 0;padding:8px;border-inline-start:3px solid var(--ref2-orange);background:var(--surface);font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.adventure-spell-search { display:flex;align-items:center;gap:10px;max-width:560px;margin:12px 0;font:12px Arial,"Microsoft YaHei",sans-serif; }
+.adventure-spell-search input { flex:1;min-width:0;padding:7px 9px!important;border:1px solid var(--line)!important;background:var(--surface)!important;color:var(--ink)!important; }
 .spellbook-counts { display:flex;gap:8px; }
 .spellbook-counts label { display:grid;gap:3px;font-size:11px; }
-.spellbook-counts input { width:64px;border-bottom:1px solid #887b65; }
+.spellbook-counts input { width:64px;border-bottom:1px solid var(--line); }
 .spellbook-level>label { display:grid;gap:4px;margin-top:6px;font-size:11px; }
 .spellbook-level select { min-height:80px; }
-.spellbook-help { margin:7px 0 12px;padding:8px 10px;border-inline-start:3px solid var(--ref2-orange);background:#faf6ea;font-size:12px;line-height:1.55; }
-.travel-book-row { display:grid;grid-template-columns:1fr .7fr 2fr;gap:10px;margin:8px 0; }
+.spellbook-help { margin:7px 0 12px;padding:7px 9px;border-inline-start:3px solid #a66b18;background:var(--surface);color:var(--ink);font:12px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.travel-book-row { display:grid;grid-template-columns:minmax(180px,.7fr) minmax(140px,.5fr) minmax(0,2fr) auto;gap:12px;margin:12px 0;padding:12px;border:1px solid var(--line);background:var(--surface); }
 .travel-book-row label { display:grid;gap:4px;font-size:11px; }
-.travel-book-row input { width:100%;border-bottom:1px solid #887b65; }
-.travel-spell-picker { grid-column:1/-1;display:grid;grid-template-columns:minmax(150px,.7fr) minmax(0,2fr);gap:6px 10px;align-items:start; }
-.travel-spell-picker select { grid-column:2;grid-row:1/3;width:100%;min-height:112px; }
-.travel-spell-picker small { grid-column:1;grid-row:2;align-self:start; }
-.travel-book-row>button { grid-column:1/-1;justify-self:end; }
+.travel-book-row input { width:100%;border:1px solid var(--line)!important;background:var(--paper)!important;color:var(--ink)!important;padding:6px 8px!important; }
+.travel-spell-picker { grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr);gap:6px;align-items:start; }
+.travel-spell-picker>input { max-width:460px; }
+.travel-spell-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 12px;width:100%;max-height:360px;overflow:auto;padding:4px;border:1px solid var(--line);background:var(--paper); }
+.travel-spell-picker>small { color:var(--muted);font:11px Arial,"Microsoft YaHei",sans-serif; }
+.travel-book-row>button { grid-column:4;grid-row:1;align-self:start; }
 .ref2-workspace :is(button,input,select,textarea,output,label,p,td) { font-family:var(--type); }
 .ref2-workspace :is(h1,h2,h3,th,b) { font-family:var(--display); }
 .ref2-workspace .ref2-rule-check :is(p,li,h2,h3,a,button) { font-family:Arial,"Microsoft YaHei",sans-serif; }
@@ -386,7 +410,7 @@
   .ref2-page-foot { font-size:11px; }
 }
 @media screen and (max-width:900px) { .spellbook-levels { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media screen and (max-width:580px) { .spellbook-levels { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr; }.travel-spell-picker { grid-template-columns:minmax(0,1fr); }.travel-spell-picker select,.travel-spell-picker small { grid-column:1;grid-row:auto; } }
+@media screen and (max-width:580px) { .spellbook-levels,.spellbook-check-list,.travel-spell-list { grid-template-columns:1fr; }.travel-book-row { grid-template-columns:1fr 1fr; }.travel-spell-picker { grid-column:1/-1; }.travel-book-row>button { grid-column:1/-1;grid-row:auto;justify-self:end; }.spellbook-heading { flex-direction:column; }.spellbook-workspace>.ref2-tabs { align-items:stretch; }.spellbook-workspace>.ref2-tabs>.ref2-field { width:100%; }.spellbook-workspace>.ref2-tabs select { width:100%; } }
 @media screen and (max-width:700px) { .coin-denominations { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 
 /* Source REF2 silhouettes and column order; screen sizing remains readable. */

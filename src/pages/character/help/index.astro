@@ -4,7 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 <BaseLayout title="人物卡使用帮助">
   <h1>人物卡使用帮助</h1>
   <p><a href="/character/">← 返回人物卡</a></p>
-  <nav aria-label="帮助目录"><a href="#fill">填写人物卡</a> · <a href="#spells">准备法术</a> · <a href="#save">保存与备份</a> · <a href="#print">打印</a></nav>
+  <nav aria-label="帮助目录"><a href="#fill">填写人物卡</a> · <a href="#spellbooks">法术书</a> · <a href="#spells">准备法术</a> · <a href="#save">保存与备份</a> · <a href="#print">打印</a></nav>
   <section id="fill"><h2>填写人物卡</h2>
     <ol><li>在“正面”选择种族、职业与等级，填写姓名和阵营。属性可手填，也可展开“生成属性与资格设置”，投掷 3d6 或 4d6 去最低。</li>
       <li>填写六项属性。下方显示属性调整与资格检查；力量达到 18 时可为适用职业选择非凡力量。</li>
@@ -16,6 +16,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     <p>豁免按职业矩阵、等级与种族计算；毒素、元素、精神攻击等条件加值在豁免下方说明，不能扩大到整类攻击。武僧自然 AC、移动和徒手数据按 PHB 表 II 生成。未核对的扩展职业数据会提示手填；选取扩展与 NPC 条目后需确认战役采用。</p>
     <p>人物资料库：<a href="/character/library/references/?kind=proficiencies">熟练项</a> · <a href="/character/library/references/?kind=unarmed">徒手战斗</a> · <a href="/character/library/references/?kind=valuables">贵重物品</a>。</p>
     <p>查表：<a href="/character/abilities/">属性表</a> · <a href="/classes/">职业</a> · <a href="/races/">种族</a> · <a href="/equipment/">装备</a> · <a href="/spells/">法术</a>。</p>
+  </section>
+  <section id="spellbooks"><h2>法术书与旅行法术书</h2>
+    <ol><li>先保存人物卡，再打开“法术书”。选中人物和实际持有的图书馆法术书目录。目录中的法术就是该册内容，不用逐项登记。</li>
+      <li>职业、等级和属性会标出当前可用的法术环级与每日法术位。人物升级不会自动学会某册以外的法术；冒险中另行找到并学会的法术，在“冒险所得法术”搜索并勾选登记。</li>
+      <li>添加旅行法术书，再从已知法术中勾选要抄带的条目。页面按旅行书容量表显示各环限额。旅行书是副本，不会单独增加已知法术。</li>
+      <li>回人物卡“准备法术”，从人物法术书或旅行书可用的法术中选择当天准备的法术。悬停或键盘聚焦法术名可查看详情。人物卡和法术书记录分别保存。</li></ol>
+    <p><a href="/character/spellbooks/">打开人物法术书</a> · 目录法术详情可悬停查看。</p>
   </section>
   <section id="spells"><h2>准备法术</h2>
     <ol><li>切换到“准备法术”，点击“从法术资料库准备”。职业、环级、学派和来源均可多选；同组取并集，不同组交叉筛选。</li>

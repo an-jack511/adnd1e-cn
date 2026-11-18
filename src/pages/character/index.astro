@@ -25,10 +25,6 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
   </div>
   <details class="ref2-print-settings screen-tools"><summary>打印设置</summary><button type="button" id="preview-character">预览纸张布局</button><label><input type="checkbox" id="print-monochrome" /> 黑白打印（去除底色）</label><label><input type="checkbox" id="print-compact" /> 压缩空白栏目（默认保留纸笔填写空间）</label><p>按 A4 纵向将正面、背面分别适配一页；记录过多时保留可读字号并续页。准备法术另页。打印不改变保存的人物数据。</p></details>
   <p id="character-status" class="card-status" role="status" aria-live="polite">填写后点击“保存”，或导出 JSON 备份。</p>
-  <section class="character-first-run" aria-label="新手建卡顺序">
-    <strong>第一次建卡？按这个顺序来：</strong>
-    <ol><li>掷六项属性，再按职业要求分配。</li><li>选择阵营、种族、职业和等级；右侧会即时列出冲突与建议。</li><li>到“背面”补人物经历、钱币和装备，起始资金可按职业掷骰。</li><li>施法者先登记法术书／旅行书，再到“准备法术”选择本次要记忆的法术。</li><li>检查右侧红色提示后保存；法术书也需在法术书页面单独保存记录。</li></ol>
-  </section>
   <nav class="ref2-tabs" aria-label="人物卡页面"><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><a class="ref2-tab-link" href="/character/spellbooks/">法术书</a><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
   <form id="character-form" class="ref2-card" autocomplete="off">
     <input name="character_id" type="hidden" />
@@ -79,7 +75,7 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
       <footer class="ref2-page-foot"><span data-mirror="name"></span><span>REF2 · 法术计划</span></footer>
     </section>
   </form>
-  <aside class="ref2-rule-check"><h2>实时规则检查</h2><p id="rule-status" role="status"></p><ul id="rule-hints"></ul><section class="rule-suggestions"><h3>创建建议</h3><p id="rule-suggestions"></p><button type="button" id="roll-starting-money">按职业骰起始资金</button><p id="starting-money-result" role="status"></p></section><section class="rule-suggestions"><h3>法术书记录</h3><p id="spellbook-summary">尚未记录法术书。</p><a href="/character/spellbooks/">打开法术书页面</a></section></aside>
+  <aside class="ref2-rule-check"><h2>实时规则检查</h2><section class="character-first-run" aria-label="新手建卡顺序"><strong>第一次建卡？按这个顺序来：</strong><ol><li>掷六项属性，再按职业要求分配。</li><li>选择阵营、种族、职业和等级；这里会列出冲突与建议。</li><li>到“背面”补经历、钱币和装备；起始资金可按职业掷骰。</li><li>施法者先登记法术书／旅行书，再到“准备法术”选择法术。</li><li>处理红色提示后保存。法术书记录也要单独保存。</li></ol></section><p id="rule-status" role="status"></p><ul id="rule-hints"></ul><section class="rule-suggestions"><h3>创建建议</h3><p id="rule-suggestions"></p><button type="button" id="roll-starting-money">按职业骰起始资金</button><p id="starting-money-result" role="status"></p></section><section class="rule-suggestions"><h3>法术书记录</h3><p id="spellbook-summary">尚未记录法术书。</p><a href="/character/spellbooks/">打开法术书页面</a></section></aside>
   <p class="card-source">版式与栏目：REF2 · Player Character Sheets（1986），PDF 第 3–4 页；法术计划第 5–12 页。</p>
   <dialog id="item-library" aria-label="装备与魔法物品资料库"><header><h2>选取装备与魔法物品</h2><button type="button" id="close-item-library">返回人物卡</button></header><iframe id="item-library-frame" title="选择装备与魔法物品"></iframe></dialog>
   <dialog id="identity-library" aria-label="种族与职业资料库"><header><h2>选择种族</h2><button type="button" id="close-identity-library">返回人物卡</button></header><iframe id="identity-library-frame" title="选择种族"></iframe></dialog>

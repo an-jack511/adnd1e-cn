@@ -349,11 +349,14 @@ function refreshSpellSummary() {
 document.querySelector('#restore-spells')!.addEventListener('click',()=>{card.preparedSpells.forEach(entry=>entry.expended=0);renderPrepared();modified();});
 const ownedSpellDialog=document.querySelector<HTMLDialogElement>('#owned-spell-library')!,ownedSpellList=document.querySelector<HTMLElement>('#owned-spell-list')!;
 function knownBookSpells(){
-  let data:{books?:{levels?:Record<string,{spellIds?:string[]}>}[];travel?:{spells?:string}[]}={};
+  let data:{books?:{id?:string;levels?:Record<string,{spellIds?:string[]}>}[];adventure?:string[]}={};
   try{data=JSON.parse(String(card.fields.spellbook_records||'{}'));}catch{}
-  const ids=new Set<string>();
-  for(const book of data.books||[])for(const level of Object.values(book.levels||{}))for(const id of level.spellIds||[])ids.add(id);
-  for(const travel of data.travel||[])for(const token of (Array.isArray(travel.spells)?travel.spells:String(travel.spells||'').split(/[，,、\s]+/))){const spell=spells.find(entry=>entry.id===token||entry.nameZh===token||entry.nameEn.toLowerCase()===String(token).toLowerCase());if(spell)ids.add(spell.id);}
+  const ids=new Set<string>(data.adventure||[]);
+  for(const book of data.books||[]){
+    const catalog=(spellbookCatalog as {id:string;spells?:{id:string}[]}[]).find(entry=>entry.id===book.id);
+    for(const spell of catalog?.spells||[])ids.add(spell.id);
+    for(const level of Object.values(book.levels||{}))for(const id of level.spellIds||[])ids.add(id);
+  }
   return [...ids].map(id=>spells.find(spell=>spell.id===id)).filter(Boolean).sort((a,b)=>a!.level-b!.level||a!.nameZh.localeCompare(b!.nameZh,'zh-CN')) as typeof spells;
 }
 function renderKnownBookSpells(){
