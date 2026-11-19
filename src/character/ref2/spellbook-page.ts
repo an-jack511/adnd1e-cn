@@ -15,6 +15,7 @@ const spellList = spellData as Spell[];
 const spellDescriptions = new Map<string, string>(JSON.parse(document.getElementById('spell-descriptions')?.textContent || '[]'));
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const choice = $<HTMLSelectElement>('spellbook-choice');
+const newChoice = $<HTMLSelectElement>('new-spellbook-choice');
 const characterChoice = $<HTMLSelectElement>('character-choice');
 const dialog = $<HTMLDialogElement>('spell-library');
 const frame = $<HTMLIFrameElement>('spell-library-frame');
@@ -123,7 +124,7 @@ function learnedIds(data = records()) {
 }
 function spellRow(spell: Spell, action?: { text: string; disabled?: boolean; title?: string; run: () => void }) {
   const item = document.createElement('div'); item.className = 'spell-choice';
-  const name = document.createElement('span'); name.className = 'spell-name'; name.tabIndex = 0; name.textContent = `${spell.nameZh} · ${spell.nameEn}`;
+  const name = document.createElement('span'); name.className = 'spell-name'; name.tabIndex = 0; const zh = document.createElement('span'), en = document.createElement('span'); zh.className = 'spell-name-zh'; zh.textContent = spell.nameZh; en.className = 'spell-name-en'; en.textContent = spell.nameEn; name.append(zh, en);
   const popup = document.createElement('div'); popup.className = 'spell-tooltip'; popup.setAttribute('role', 'tooltip'); popup.hidden = true;
   const title = document.createElement('strong'); title.textContent = `${spell.nameZh} · ${spell.nameEn}`; popup.append(title);
   const facts: [string, string][] = [['环级', spell.level === 0 ? '小法术' : `${spell.level}环`], ['职业', spell.classes.join('、')], ['学派', spell.school], ['施法时间', spell.castingTime], ['距离', spell.range], ['持续时间', spell.duration], ['作用范围', spell.areaOfEffect], ['豁免', spell.savingThrow], ['成分', spell.components.join('、')], ['来源', spell.source.map(source => `${source.book}${source.page ? ` 第 ${source.page} 页` : ''}`).join('；')]];
@@ -156,8 +157,10 @@ function prepareAction(spell: Spell, sourceBookId?: string, sourceBookName?: str
   }};
 }
 function render() {
-  const data = records(); selected = books.find(book => book.id === choice.value) || books.find(book => book.id === data.books[0]?.id);
-  if (selected) choice.value = selected.id;
+  const data = records(); selected = books.find(book => book.id === choice.value && data.books.some(entry => entry.id === book.id)) || books.find(book => book.id === data.books[0]?.id);
+  choice.replaceChildren(new Option('选择主法术书', '')); for (const entry of data.books) { const book = books.find(item => item.id === entry.id); if (book) choice.add(new Option(`${book.code} · ${book.title}`, book.id)); }
+  if (selected && data.books.some(entry => entry.id === selected!.id)) choice.value = selected.id; else selected = undefined;
+  $('add-spellbook').toggleAttribute('disabled', !card);
   const host = $<HTMLDivElement>('spellbook-levels'); host.replaceChildren();
   if (selected) {
     const owned = data.books.find((entry: any) => entry.id === selected!.id), currentLevel = characterLevel();
@@ -166,7 +169,7 @@ function render() {
     $('spellbook-meta').textContent = `${String(card?.fields?.name || '当前人物')} · ${String(card?.fields?.class || '未选职业')} ${card ? `${currentLevel}级` : '未选等级'} · 显示至角色 ${currentLevel} 级 · ${fixedVisible.length}/${selected.spells.length} 项`;
     $('spellbook-pdf').setAttribute('href', selected.file); $('spellbook-cover-link').setAttribute('href', selected.file);
     const progressionIds = new Set<string>();
-    for (const progression of Object.values(owned?.progression || {}) as any[]) if (progression.attempt?.success) progressionIds.add(progression.attempt.spellId);
+    for (const [at, progression] of Object.entries(owned?.progression || {}) as [string, any][]) if (Number(at) <= currentLevel && progression.attempt?.success) progressionIds.add(progression.attempt.spellId);
     for (const entry of data.adventureRecords) if (entry.bookId === selected.id && entry.success && entry.characterLevel <= currentLevel) progressionIds.add(entry.spellId);
     const knownIds = new Set<string>([...fixedVisible.map(spell => spell.id), ...progressionIds]);
     for (const id of data.adventure) if (!data.adventureRecords.some((entry: any) => entry.spellId === id)) knownIds.add(id);
@@ -194,7 +197,7 @@ function render() {
       if (electiveLevels.has(level)) {
         if (elective) {
           const spell = spellList.find(entry => entry.id === elective.spellId), result = document.createElement('div'); result.className = 'spellbook-growth-result';
-          const name = document.createElement('strong'); name.textContent = `${spell?.nameZh || elective.spellId} · ${spell?.nameEn || ''}`; result.append(name);
+          const name = document.createElement('span'); name.textContent = `自选：${spell?.nameZh || elective.spellId} · ${spell?.nameEn || ''}`; result.append(name);
           if (elective.percentile == null) {
             const roll = document.createElement('input'); roll.type = 'number'; roll.min = '1'; roll.max = '100'; roll.placeholder = '自掷 d100'; roll.setAttribute('aria-label', '自选法术 d100 结果');
             const record = document.createElement('button'); record.type = 'button'; record.textContent = '记录'; record.addEventListener('click', () => { const value = Number(roll.value); if (!Number.isInteger(value) || value < 1 || value > 100) { $('spellbook-status').textContent = '输入 1–100 的 d100 结果。'; roll.focus(); return; } elective.percentile = value; elective.success = value <= elective.chance; const updated = records(), book = updated.books.find((entry: any) => entry.id === selected?.id); if (book) { const row = book.progression[String(level)]; row.attempt = elective; row.spellIds = elective.success ? [elective.spellId] : []; } persist(updated); render(); $('spellbook-status').textContent = `${spell?.nameZh || elective.spellId}：d100 ${value}，成功率 ${elective.chance}%，${elective.success ? '习得成功' : '习得失败；本级机会已用'}。`; });
@@ -205,7 +208,9 @@ function render() {
         else { const button = document.createElement('button'); button.type = 'button'; button.textContent = '自选法术'; button.disabled = !card; button.title = card ? '从资料库选取并按智力判定' : '先保存人物卡'; button.addEventListener('click', () => openPicker({ kind: 'elective', level })); actions.append(button); }
       }
       if (adventureLevels.has(level)) {
-        if (adventure) { const spell = spellList.find(entry => entry.id === adventure.spellId), result = document.createElement('span'); result.textContent = `冒险所得：${spell?.nameZh || adventure.spellId} · d100 ${adventure.percentile}/${adventure.chance}% · ${adventure.success ? '成功' : '失败'}`; actions.append(result); }
+        if (adventure) { const spell = spellList.find(entry => entry.id === adventure.spellId), result = document.createElement('div'); result.className = 'spellbook-growth-result'; const name = document.createElement('span'); name.textContent = `冒险所得：${spell?.nameZh || adventure.spellId} · ${spell?.nameEn || ''}`; result.append(name);
+          if (adventure.percentile == null) { const roll = document.createElement('input'); roll.type = 'number'; roll.min = '1'; roll.max = '100'; roll.placeholder = '自掷 d100'; roll.setAttribute('aria-label', '冒险所得 d100 结果'); const record = document.createElement('button'); record.type = 'button'; record.textContent = '记录'; record.addEventListener('click', () => { const value = Number(roll.value); if (!Number.isInteger(value) || value < 1 || value > 100) { $('spellbook-status').textContent = '输入 1–100 的 d100 结果。'; roll.focus(); return; } const updated = records(), attempt = updated.adventureRecords.find((entry: any) => entry.bookId === adventure.bookId && entry.characterLevel === level && entry.spellId === adventure.spellId); if (!attempt) return; attempt.percentile = value; attempt.success = value <= attempt.chance; if (attempt.success && !updated.adventure.includes(attempt.spellId)) updated.adventure.push(attempt.spellId); persist(updated); render(); $('spellbook-status').textContent = `${spell?.nameZh || adventure.spellId}：d100 ${value}，${attempt.success ? '习得成功' : '习得失败'}。`; }); const instructions = document.createElement('small'); instructions.textContent = `成功率 ${adventure.chance}%；自掷后记录。`; result.append(instructions, roll, record); }
+          else { const status = document.createElement('span'); status.textContent = `d100 ${adventure.percentile}／${adventure.chance}% · ${adventure.success ? '成功' : '失败'}`; result.append(status); } actions.append(result); }
         else { const button = document.createElement('button'); button.type = 'button'; button.textContent = '冒险所得'; button.disabled = !card; button.title = 'DM 启用后登记发现的法术'; button.addEventListener('click', () => openPicker({ kind: 'adventure', level })); actions.append(button); }
       }
       item.append(label, actions); growthRows.append(item);
@@ -239,7 +244,7 @@ function renderTravel(data = records()) {
     const spellWrap = document.createElement('div'); spellWrap.className = 'travel-spell-picker';
     const ids = travelSpellIds(entry), bands = travelBands(), summary = document.createElement('small');
     summary.textContent = bands.map(band => `${band.name} ${ids.filter(id => band.levels.includes(spellList.find(spell => spell.id === id)?.level ?? -1)).length}/${band.capacity}`).join(' · ') || `已抄 ${ids.length} 种`;
-    const picker = document.createElement('button'); picker.type = 'button'; picker.textContent = '从法术库选取'; picker.disabled = !card; picker.title = !card ? '先保存人物卡' : '已知法术及小法术可选'; picker.addEventListener('click', () => openPicker({ kind: 'travel', level: characterLevel(), entry }));
+    const picker = document.createElement('button'); picker.type = 'button'; picker.textContent = '从主法术书／小法术选取'; picker.disabled = !card; picker.title = !card ? '先保存人物卡' : '已知法术及小法术可选'; picker.addEventListener('click', () => openPicker({ kind: 'travel', level: characterLevel(), entry }));
     spellWrap.append(picker, summary);
     const list = document.createElement('div'); list.className = 'travel-spell-picked';
     for (const id of ids) {
@@ -316,10 +321,8 @@ function recordAcquisition(ids: string[]) {
       if (!book && selected) { book = { id: selected.id, levels: {}, progression: {} }; data.books.push(book); }
       if (book) { book.progression ||= {}; book.progression[String(pickerTarget.level)] = { spellIds: [], attempt: { spellId: id, percentile: null, chance, success: null } }; }
     } else {
-      const percentile = Math.floor(Math.random() * 100) + 1, success = percentile <= chance;
-      data.adventureRecords.push({ bookId: selected?.id || '', characterLevel: pickerTarget.level, spellId: id, percentile, chance, success });
-      if (success && !data.adventure.includes(id)) data.adventure.push(id);
-      persist(data); render(); $('spellbook-status').textContent = `${spell.nameZh}：d100 ${percentile}，成功率 ${chance}%，${success ? '习得成功' : '习得失败；本级机会已用'}。`;
+      data.adventureRecords.push({ bookId: selected?.id || '', characterLevel: pickerTarget.level, spellId: id, percentile: null, chance, success: null });
+      persist(data); render(); $('spellbook-status').textContent = `${spell.nameZh}已登记。请自掷 d100 后记录结果。`;
     }
     if (pickerTarget.kind === 'elective') { persist(data); render(); $('spellbook-status').textContent = `${spell.nameZh}已登记。请自掷 d100 后记录结果。`; }
   }
@@ -334,16 +337,17 @@ function selectCard() {
   $('spellbook-status').textContent = card ? '' : id ? '未找到该人物。' : '未保存人物。先保存人物卡。'; render();
 }
 
-choice.addEventListener('change', () => {
-  selected = books.find(book => book.id === choice.value); if (card && selected) {
-    const data = records(); if (!data.books.some((entry: any) => entry.id === selected!.id)) {
-      const price = data.books.length ? 1000 : 0;
-      if (!spendGold(price)) { choice.value = data.books[0]?.id || ''; selected = books.find(book => book.id === choice.value); $('spellbook-status').textContent = `金币不足：新标准法术书材料费 ${price} gp。`; render(); return; }
-      data.books.push({ id: selected.id, levels: {}, progression: {}, purchaseCost: price, name: selected.title });
-      saveCharacter();
-    }
-    persist(data);
-  } else render();
+choice.addEventListener('change', () => { selected = books.find(book => book.id === choice.value); render(); });
+$('add-spellbook').addEventListener('click', () => {
+  if (!card) return;
+  const book = books.find(item => item.id === newChoice.value), data = records();
+  if (!book) { $('spellbook-status').textContent = '先选择要添加的主法术书。'; return; }
+  if (data.books.some(entry => entry.id === book.id)) { choice.value = book.id; render(); $('spellbook-status').textContent = '这本主法术书已添加。'; return; }
+  const price = data.books.length ? 1000 : 0;
+  if (!spendGold(price)) { $('spellbook-status').textContent = `金币不足：新标准法术书材料费 ${price} gp。`; return; }
+  data.books.push({ id: book.id, levels: {}, progression: {}, purchaseCost: price, name: book.title });
+  persist(data); selected = book; choice.add(new Option(`${book.code} · ${book.title}`, book.id)); choice.value = book.id; render();
+  $('spellbook-status').textContent = price ? `已添加${book.title}，花费 ${price} gp。` : `已添加首本主法术书：${book.title}。`;
 });
 characterChoice.addEventListener('change', selectCard);
 $('add-travel-book').addEventListener('click', () => { if (!card) return; const data = records(), price = data.travel.length ? 500 : 0; if (!spendGold(price)) { $('spellbook-status').textContent = `金币不足：新旅行法术书材料费 ${price} gp。`; return; } data.travel.push({ instanceId: crypto.randomUUID(), name: '', capacity: '', spells: [], purchaseCost: price }); persist(data); renderTravel(data); });

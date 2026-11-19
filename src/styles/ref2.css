@@ -659,3 +659,19 @@
  #ref2-print-output .ref2-paper .repeater-weapons .ref2-table input{font-size:6.5pt!important}
  #ref2-print-output .ref2-paper .ref2-table .ac-cell input{font-size:5.5pt!important}
 }
+
+/* Spell titles rest on the rule; acquisition records stay compact. */
+.spellbook-check-list .spell-name,.travel-spell-picked .spell-name { display:flex;flex-direction:column;justify-content:end;align-items:center;min-height:3.2em;line-height:1.25;text-align:center; }
+.spell-name-zh { display:block; }
+.spell-name-en { display:block;font-size:.8em;font-style:italic;line-height:1.1; }
+.spellbook-growth-result { justify-items:start;text-align:left;padding:2px 0;gap:3px;font:11px/1.45 Arial,"Microsoft YaHei",sans-serif; }
+.spellbook-growth-result span { color:var(--ink); }
+
+/* Align the English title with the rule and keep the action at the edge. */
+.spellbook-check-list .spell-choice,.travel-spell-picked .spell-choice { display:flex;align-items:end;justify-content:center;gap:3px;min-height:44px;padding:2px 0 0;border-bottom:1px dotted var(--line); }
+.spellbook-check-list .spell-name,.travel-spell-picked .spell-name { flex:1 1 0;min-width:0;min-height:0;line-height:1.15; }
+.spellbook-check-list .spell-prepare-button,.travel-spell-picked .spell-prepare-button { position:static;flex:0 0 auto;margin:0 2px 1px 0; }
+.travel-spell-picked .travel-remove-spell { position:static;flex:0 0 auto; }
+.spell-tooltip-facts th { width:5.5em;white-space:normal;overflow-wrap:anywhere;word-break:break-word; }
+.spell-tooltip-facts td { width:auto;overflow-wrap:anywhere;word-break:break-word; }
+@media screen and (max-width:580px) { .spell-tooltip-facts th { width:4.5em; } .spell-tooltip-facts th,.spell-tooltip-facts td { padding:3px; } }
