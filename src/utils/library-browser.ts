@@ -1,3 +1,4 @@
+import {prioritizeSelectableRows} from './picker-order';
 import {bindFilterChoices,checkedValues,matchesChoices} from './filter-choices';
 import {priceInGold} from './item-price';
 import dragonItemVersions from '../data/public/dragon-item-versions.json';
@@ -23,7 +24,7 @@ export function initLibraryBrowser(){
   const key=button.dataset.librarySort!;ascending=sortKey===key?!ascending:true;sortKey=key;
   const collator=new Intl.Collator('zh-Hans-CN',{numeric:true});
   const sorted=[...rows].sort((a,b)=>{const order=key==='price'?priceInGold(a.record.price??'')-priceInGold(b.record.price??''):collator.compare(a.record[key]??'',b.record[key]??'');return (Number.isNaN(order)?0:order)*(ascending?1:-1);});
-  const tbody=root!.querySelector('tbody')!;sorted.forEach(({row})=>tbody.append(row));
+  const tbody=root!.querySelector('tbody')!;sorted.forEach(({row})=>tbody.append(row));if(picker)prioritizeSelectableRows(tbody,'.library-check input');
   root!.querySelectorAll('[aria-sort]').forEach(th=>th.setAttribute('aria-sort','none'));button.closest('th')!.setAttribute('aria-sort',ascending?'ascending':'descending');
  });
  function applyFilters(){
@@ -45,11 +46,13 @@ export function initLibraryBrowser(){
   document.documentElement.classList.add('library-picker-mode');root.querySelectorAll<HTMLElement>('.library-check,.library-selection').forEach(el=>el.hidden=false);
   const setUnavailable=(id:string,reason:string)=>{const row=rows.find(entry=>entry.row.dataset.libraryId===id)?.row;if(!row)return;const input=row.querySelector<HTMLInputElement>('.library-check input')!,cell=row.querySelector<HTMLTableCellElement>('td:not(.library-check)')!;unavailable.set(id,reason);row.classList.add('is-unavailable');row.setAttribute('aria-disabled','true');input.disabled=true;input.checked=false;selected.delete(id);let note=cell.querySelector<HTMLElement>('.library-unavailable-reason');if(!note){note=document.createElement('small');note.className='library-unavailable-reason';cell.append(note);}note.textContent=reason;};
   for(const [id,reason] of unavailable)setUnavailable(id,reason);
+  const orderChoices=()=>prioritizeSelectableRows(root.querySelector<HTMLTableSectionElement>('tbody')!,'.library-check input');
+  orderChoices();
   const count=()=>{root.querySelector('#library-selected-count')!.textContent=`已选 ${selected.size} 件`;root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>input.checked=selected.has(input.value));};
   root.querySelectorAll<HTMLInputElement>('.library-check input').forEach(input=>{input.disabled=unavailable.has(input.value);input.addEventListener('change',()=>{if(input.checked&&['armor','shield'].includes(selectionKind??''))selected.clear();input.checked&&!unavailable.has(input.value)?selected.add(input.value):selected.delete(input.value);count();});});
   root.querySelector('[data-library-apply]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-items-selected',ids:[...selected]},location.origin));
   root.querySelector('[data-library-cancel]')!.addEventListener('click',()=>parent.postMessage({type:'adnd1e-item-picker-cancel'},location.origin));
-  window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-item-selection'||!Array.isArray(event.data.ids)||!event.data.ids.every((id:unknown)=>typeof id==='string'))return;for(const {row} of rows){row.classList.remove('is-unavailable');row.removeAttribute('aria-disabled');row.querySelector('.library-unavailable-reason')?.remove();const input=row.querySelector<HTMLInputElement>('.library-check input')!;input.disabled=!eligibleIds.has(input.value);}unavailable.clear();for(const {row} of rows)if(!eligibleIds.has(row.dataset.libraryId!))unavailable.set(row.dataset.libraryId!,`不能用于${roleLabels[selectionKind!] }栏`);const blocked=event.data.blocked&&typeof event.data.blocked==='object'?event.data.blocked as Record<string,unknown>:{};for(const [id,reason] of Object.entries(blocked))if(typeof reason==='string')setUnavailable(id,reason);selected=new Set(event.data.ids.filter((id:string)=>eligibleIds.has(id)&&!unavailable.has(id)));count();});
+  window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='adnd1e-item-selection'||!Array.isArray(event.data.ids)||!event.data.ids.every((id:unknown)=>typeof id==='string'))return;for(const {row} of rows){row.classList.remove('is-unavailable');row.removeAttribute('aria-disabled');row.querySelector('.library-unavailable-reason')?.remove();const input=row.querySelector<HTMLInputElement>('.library-check input')!;input.disabled=!eligibleIds.has(input.value);}unavailable.clear();for(const {row} of rows)if(!eligibleIds.has(row.dataset.libraryId!))unavailable.set(row.dataset.libraryId!,`不能用于${roleLabels[selectionKind!] }栏`);const blocked=event.data.blocked&&typeof event.data.blocked==='object'?event.data.blocked as Record<string,unknown>:{};for(const [id,reason] of Object.entries(blocked))if(typeof reason==='string')setUnavailable(id,reason);selected=new Set(event.data.ids.filter((id:string)=>eligibleIds.has(id)&&!unavailable.has(id)));count();orderChoices();});
   parent.postMessage({type:'adnd1e-item-picker-ready'},location.origin);
  }
 }
