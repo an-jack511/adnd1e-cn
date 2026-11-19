@@ -117,7 +117,7 @@ function learnedIds(data = records()) {
     for (const spell of book?.spells || []) if (spell.characterLevel <= level) ids.add(spell.id);
     for (const [at, record] of Object.entries(entry.progression || {}) as [string, any][]) if (Number(at) <= level) for (const id of record.spellIds || []) ids.add(id);
   }
-  for (const id of data.adventure) ids.add(id);
+  for (const id of data.adventure) if (!data.adventureRecords.some((entry: any) => entry.spellId === id)) ids.add(id);
   for (const entry of data.adventureRecords) if (entry.success && entry.characterLevel <= level) ids.add(entry.spellId);
   return ids;
 }
@@ -167,9 +167,9 @@ function render() {
     $('spellbook-pdf').setAttribute('href', selected.file); $('spellbook-cover-link').setAttribute('href', selected.file);
     const progressionIds = new Set<string>();
     for (const progression of Object.values(owned?.progression || {}) as any[]) if (progression.attempt?.success) progressionIds.add(progression.attempt.spellId);
-    for (const entry of data.adventureRecords) if (entry.success && entry.characterLevel <= currentLevel) progressionIds.add(entry.spellId);
+    for (const entry of data.adventureRecords) if (entry.bookId === selected.id && entry.success && entry.characterLevel <= currentLevel) progressionIds.add(entry.spellId);
     const knownIds = new Set<string>([...fixedVisible.map(spell => spell.id), ...progressionIds]);
-    for (const id of data.adventure) knownIds.add(id);
+    for (const id of data.adventure) if (!data.adventureRecords.some((entry: any) => entry.spellId === id)) knownIds.add(id);
     for (let ring = 0; ring <= 9; ring++) {
       const spellsAtRing = [...knownIds].map(id => spellList.find(spell => spell.id === id)).filter((spell): spell is Spell => !!spell && spell.level === ring && classCompatible(spell));
       if (!spellsAtRing.length) continue;
@@ -186,7 +186,7 @@ function render() {
     const growthRows = document.createElement('div'); growthRows.className = 'spellbook-growth-rows';
     for (let level = 1; level <= currentLevel; level++) {
       const progression = owned?.progression?.[String(level)] || {}, elective = progression.attempt;
-      const adventure = data.adventureRecords.find((entry: any) => entry.characterLevel === level);
+      const adventure = data.adventureRecords.find((entry: any) => entry.characterLevel === level && (!entry.bookId || entry.bookId === selected?.id));
       if (!electiveLevels.has(level) && !adventureLevels.has(level)) continue;
       const item = document.createElement('div'); item.className = 'spellbook-growth-row';
       const label = document.createElement('strong'); label.textContent = `角色 ${level} 级`;
@@ -197,7 +197,7 @@ function render() {
           const name = document.createElement('strong'); name.textContent = `${spell?.nameZh || elective.spellId} · ${spell?.nameEn || ''}`; result.append(name);
           if (elective.percentile == null) {
             const roll = document.createElement('input'); roll.type = 'number'; roll.min = '1'; roll.max = '100'; roll.placeholder = '自掷 d100'; roll.setAttribute('aria-label', '自选法术 d100 结果');
-            const record = document.createElement('button'); record.type = 'button'; record.textContent = '记录'; record.addEventListener('click', () => { const value = Number(roll.value); if (!Number.isInteger(value) || value < 1 || value > 100) { $('spellbook-status').textContent = '输入 1–100 的 d100 结果。'; roll.focus(); return; } elective.percentile = value; elective.success = value <= elective.chance; const book = records().books.find((entry: any) => entry.id === selected?.id); if (book) { book.progression ||= {}; const row = book.progression[String(level)]; row.spellIds = elective.success ? [elective.spellId] : []; } persist(); render(); $('spellbook-status').textContent = `${spell?.nameZh || elective.spellId}：d100 ${value}，成功率 ${elective.chance}%，${elective.success ? '习得成功' : '习得失败；本级机会已用'}。`; });
+            const record = document.createElement('button'); record.type = 'button'; record.textContent = '记录'; record.addEventListener('click', () => { const value = Number(roll.value); if (!Number.isInteger(value) || value < 1 || value > 100) { $('spellbook-status').textContent = '输入 1–100 的 d100 结果。'; roll.focus(); return; } elective.percentile = value; elective.success = value <= elective.chance; const updated = records(), book = updated.books.find((entry: any) => entry.id === selected?.id); if (book) { const row = book.progression[String(level)]; row.attempt = elective; row.spellIds = elective.success ? [elective.spellId] : []; } persist(updated); render(); $('spellbook-status').textContent = `${spell?.nameZh || elective.spellId}：d100 ${value}，成功率 ${elective.chance}%，${elective.success ? '习得成功' : '习得失败；本级机会已用'}。`; });
             const instructions = document.createElement('small'); instructions.textContent = `成功率 ${elective.chance}%；按原书自掷。`; result.append(instructions, roll, record);
           } else { const status = document.createElement('span'); status.textContent = `d100 ${elective.percentile}／${elective.chance}% · ${elective.success ? '成功' : '失败'}`; result.append(status); }
           actions.append(result);
@@ -299,7 +299,7 @@ function recordAcquisition(ids: string[]) {
     for (const selectedId of ids) {
       const spell = spellList.find(item => item.id === selectedId); if (!spell) continue;
       const band = bands.find(item => item.levels.includes(spell.level));
-      const count = band ? travelSpellIds(entry).filter(value => band.levels.includes(spellList.find(item => item.id === value)?.level ?? -1)).length : 0;
+      const count = band ? [...existing].filter(value => band.levels.includes(spellList.find(item => item.id === value)?.level ?? -1)).length : 0;
       if (!existing.has(selectedId) && band && count >= band.capacity) continue;
       if (!existing.has(selectedId) && canAddSpell(selectedId, pickerTarget.level) && (spell.level === 0 || learnedIds(data).has(selectedId))) {
         if (!spendGold(100*Math.max(1,spell.level))) { unpaid++; continue; }

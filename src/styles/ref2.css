@@ -63,13 +63,14 @@
 .spellbook-growth-actions button { min-height:26px!important;padding:3px 8px!important;font:11px Arial,"Microsoft YaHei",sans-serif!important; }
 .spellbook-growth-actions span { overflow-wrap:anywhere; }
   .spellbook-growth-result { grid-column:1/-1;display:grid;justify-items:center;gap:5px;padding:8px 6px;text-align:center; }
-  .spellbook-growth-result strong { font:20px/1.25 var(--display);overflow-wrap:anywhere; }
+  .spellbook-growth-result strong { font:20px/1.35 "Century Modern TT","CenturymodernTT","Huiwen-mincho",var(--display);overflow-wrap:anywhere; }
   .spellbook-growth-result span,.spellbook-growth-result small { color:var(--muted);font:11px/1.4 Arial,"Microsoft YaHei",sans-serif; }
   .spellbook-growth-result input { width:105px;min-height:30px;text-align:center;font:14px Arial,"Microsoft YaHei",sans-serif; }
 .spellbook-spell-list { font-size:11px;line-height:1.6; }
 .spellbook-check-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 12px; }
 .spell-group-heading { grid-column:1/-1;margin:12px 0 2px;padding-bottom:4px;border-bottom:1px solid var(--line);font-size:14px; }
 .spell-choice { position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:3px;align-items:center;min-width:0;padding:4px;border-bottom:1px dotted var(--line);font:12px/1.45 Arial,"Microsoft YaHei",sans-serif; }
+.spellbook-check-list .spell-name,.travel-spell-picked .spell-name { grid-column:1/-1;text-align:center;overflow-wrap:anywhere;font:16px/1.4 "Century Modern TT","CenturymodernTT","Huiwen-mincho",var(--display); }
 .spell-choice>label { display:flex;align-items:flex-start;gap:6px;min-width:0;cursor:pointer; }
 .spell-choice>.spell-static-label { cursor:default; }
 .spell-choice>label input { flex:0 0 auto;width:15px;min-height:15px;margin:2px 0 0; }

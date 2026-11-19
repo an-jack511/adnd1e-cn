@@ -10,7 +10,7 @@ const spellDescriptionPayload=JSON.stringify(detailedSpells.filter(spell=>spell.
 <main class="ref2-workspace spellbook-workspace">
   <header class="card-workspace-heading"><div><h1>法术书</h1><p>人物藏书与旅行副本</p></div><p><a href="/character/">返回人物卡</a> · <a href="/books/">图书馆</a></p></header>
   <nav class="ref2-tabs spellbook-controls"><label class="ref2-field"><span>人物</span><select id="character-choice"><option value="">当前人物</option></select></label><label class="ref2-field"><span>法术书目录</span><select id="spellbook-choice"><option value="">选择图书馆法术书</option>{spellbooks.map(book=><option value={book.id}>{book.code} · {book.title}</option>)}</select></label><a id="spellbook-pdf" href="/books/" target="_blank" rel="noreferrer">打开图书馆 PDF</a></nav>
-  <p class="spellbook-cost-note">首本主书与首本旅行书免费；后续分别 1,000 gp、500 gp。旅行书抄录法术另收 100 gp／环，小法术按 1 环计。负重只计当前准备法术来源的书。</p>
+  <p class="spellbook-cost-note">首本主书与首本旅行书免费；后续分别 1,000 gp、500 gp。旅行书抄录法术另收 100 gp／环，小法术按 1 环计。准备法术会将来源书计入负重；外出建议从旅行书准备。</p>
   <p class="spellbook-help-link"><a href="/character/help/#spellbooks">法术书怎么用</a></p>
   <div class="spellbook-content">
     <section class="ref2-paper">

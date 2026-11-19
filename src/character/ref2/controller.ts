@@ -369,17 +369,20 @@ const ownedSpellDialog=document.querySelector<HTMLDialogElement>('#owned-spell-l
 function knownBookSpells(){
   let data:{books?:{id?:string;levels?:Record<string,{spellIds?:string[]}>}[];adventure?:string[]}={};
   try{data=JSON.parse(String(card.fields.spellbook_records||'{}'));}catch{}
-  const ids=new Set<string>(data.adventure||[]);
+  const raw:any=data, currentLevel=Math.max(1,Number(card.fields.level)||1);
+  const ids=new Set<string>((data.adventure||[]).filter(id=>!(raw.adventureRecords||[]).some((entry:any)=>entry.spellId===id)));
+  for(const entry of raw.adventureRecords||[])if(entry.success&&entry.characterLevel<=currentLevel)ids.add(entry.spellId);
   for(const book of data.books||[]){
-    const catalog=(spellbookCatalog as {id:string;spells?:{id:string}[]}[]).find(entry=>entry.id===book.id);
-    for(const spell of catalog?.spells||[])ids.add(spell.id);
+    const catalog=(spellbookCatalog as {id:string;spells?:{id:string;characterLevel:number}[]}[]).find(entry=>entry.id===book.id);
+    for(const spell of catalog?.spells||[])if(spell.characterLevel<=currentLevel)ids.add(spell.id);
+    for(const [level,row] of Object.entries((book as any).progression||{}) as [string,any][])if(Number(level)<=currentLevel)for(const id of row.spellIds||[])ids.add(id);
     for(const level of Object.values(book.levels||{}))for(const id of level.spellIds||[])ids.add(id);
   }
   return [...ids].map(id=>spells.find(spell=>spell.id===id)).filter(Boolean).sort((a,b)=>a!.level-b!.level||a!.nameZh.localeCompare(b!.nameZh,'zh-CN')) as typeof spells;
 }
 function spellSource(spellId:string){
   let data:any={};try{data=JSON.parse(String(card.fields.spellbook_records||'{}'));}catch{}
-  const contains=(book:any)=>{const source=(spellbookCatalog as {id:string;spells?:{id:string}[]}[]).find(entry=>entry.id===book.id);return !!source?.spells?.some(entry=>entry.id===spellId)||Object.values(book.progression||{}).some((row:any)=>(row.spellIds||[]).includes(spellId))||Object.values(book.levels||{}).some((row:any)=>(row.spellIds||[]).includes(spellId));};
+  const contains=(book:any)=>{const source=(spellbookCatalog as {id:string;spells?:{id:string}[]}[]).find(entry=>entry.id===book.id);return !!(source?.spells as {id:string;characterLevel:number}[] | undefined)?.some(entry=>entry.id===spellId&&entry.characterLevel<=Math.max(1,Number(card.fields.level)||1))||(data.adventureRecords||[]).some((entry:any)=>entry.bookId===book.id&&entry.spellId===spellId&&entry.success&&entry.characterLevel<=Math.max(1,Number(card.fields.level)||1))||Object.values(book.progression||{}).some((row:any)=>(row.spellIds||[]).includes(spellId))||Object.values(book.levels||{}).some((row:any)=>(row.spellIds||[]).includes(spellId));};
   const travel=(data.travel||[]).find((book:any)=>Array.isArray(book.spells)&&book.spells.includes(spellId));
   if(travel?.instanceId)return {id:`travel:${travel.instanceId}`,name:travel.name||'旅行法术书'};
   const home=(data.books||[]).find(contains);if(home)return {id:`home:${home.id}`,name:(spellbookCatalog as {id:string;title:string}[]).find(entry=>entry.id===home.id)?.title||'主法术书'};
