@@ -5,6 +5,18 @@ const $=s=>document.querySelector(s), pt=v=>`${v*25.4/72}mm`;
 const spec=await fetch('fields.json').then(r=>{if(!r.ok)throw Error('版面数据载入失败');return r.json()});
 const params=new URLSearchParams(location.search);let source=null,values={},unmapped=[],persistent=true;
 try{if(params.get('from')==='character'){source=JSON.parse(sessionStorage.getItem(TRANSFER)||'null');persistent=false;}else values=JSON.parse(localStorage.getItem(STORE)||'{}');}catch{$('#status').textContent='已有填写数据无法读取，未覆盖原数据。';persistent=false;}
+function migrateUnarmed(values){
+ for(let line=0;line<4;line++){
+  const key=`p3.unarmed.${line}`;
+  const old=values[key+'.hit_damage'];
+  if(typeof old!=='string')continue;
+  const [hit,...damage]=old.split(/[/／]/);
+  values[key+'.hit']??=hit.trim();
+  values[key+'.damage_adj']??=damage.join('/').trim();
+  delete values[key+'.hit_damage'];
+ }
+}
+migrateUnarmed(values);
 function translatedValue(key){
  const fields=source?.fields||{},rows=source?.rows||{};
  if(key.startsWith('derived.')){const [,r,c]=key.split('.');const col=Number(r)===3?[0,0,1][Number(c)]:Number(c);return source.derived?.[Number(r)]?.[col]||'';}
@@ -29,6 +41,14 @@ function translatedValue(key){
  return fields[key]??'';
 }
 const all=spec.flat();if(source)for(const f of all)values[f.id]=translatedValue(f.bind);
+function updateMovement(raw){
+ const match=/^\s*(\d+(?:\.\d+)?)\s*(["″]?)\s*$/.exec(raw);
+ for(const field of all.filter(f=>f.movementFactor!==undefined)){
+  const value=match?String(Math.round(Number(match[1])*field.movementFactor*100)/100)+match[2]:'';
+  values[field.id]=value;
+  document.getElementById(field.id).value=value;
+ }
+}
 for(let page=0;page<2;page++){
  const sheet=document.createElement('section');sheet.className='sheet';sheet.dataset.page=String(page+3);sheet.setAttribute('aria-label',page?'人物表背面':'人物表正面');
  // Inline vectors avoid Chromium rounding an external SVG image's intrinsic
@@ -47,6 +67,7 @@ for(let page=0;page<2;page++){
   if(f.type==='checkbox')control.checked=values[f.id]===true;else control.value=String(values[f.id]??'');
   control.addEventListener('input',()=>{
    values[f.id]=f.type==='checkbox'?control.checked:control.value;
+   if(f.id==='p3.move_base')updateMovement(control.value);
    // The name on the back mirrors the front; no geometric reflow.
    if(f.bind==='name')for(const peer of document.querySelectorAll('[data-bind="name"]'))if(peer!==control){peer.value=control.value;values[peer.id]=control.value;}
    try{if(persistent)localStorage.setItem(STORE,JSON.stringify(values));$('#status').textContent=persistent?'填写已自动保存于此浏览器。':'自动卡打印副本已修改；点击“保存填写”可单独保存。';}catch{$('#status').textContent='浏览器保存失败，请导出数据备份。';}
@@ -102,6 +123,6 @@ $('#zoom').onchange=e=>$('#sheets').style.setProperty('--preview',e.target.value
 $('#blank').onclick=()=>window.open('./?blank=1','_blank');
 if(params.has('blank')){for(const f of all){values[f.id]=f.type==='checkbox'?false:'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=false;else c.value='';}persistent=false;check();}
 $('#export').onclick=()=>{const blob=new Blob([JSON.stringify({format:'adnd1e-ref2-facsimile',version:1,values},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='REF2-人物表填写.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
-$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!=='adnd1e-ref2-facsimile'||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
+$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!=='adnd1e-ref2-facsimile'||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateUnarmed(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
 window.ref2Facsimile={spec,check,values};
 if(params.get('mode')==='print')$('#print').click();
