@@ -5,6 +5,24 @@ const style=permanent?'permanent':'ref2';
 const assetBase=permanent?'../ref2/':'./';
 const STORE=`adnd1e-${style}-facsimile.v1`, TRANSFER='adnd1e-ref2-print-record';
 const $=s=>document.querySelector(s), pt=v=>`${v*25.4/72}mm`;
+const fontKey='adnd1e-character-entry-font';
+const fontPicker=$('#entry-font'), customFont=$('#entry-font-custom');
+let entryFont='Ref2Entry';
+function useFont(mode,name){
+ const custom=typeof name==='string'?name.trim().replace(/[^\p{L}\p{N} ._()-]/gu,''):'';
+ entryFont=mode==='song'?'Ref2Song':mode==='custom'&&custom?'"'+custom+'", Ref2Entry':'Ref2Entry';
+ document.documentElement.style.setProperty('--entry-font',entryFont);
+ if(customFont)customFont.hidden=mode!=='custom';
+}
+function restoreFont(){
+ try{
+  const {mode,name}=JSON.parse(localStorage.getItem(fontKey)||'{}');
+  if(fontPicker)fontPicker.value=['song','custom'].includes(mode)?mode:'hand';
+  if(customFont)customFont.value=typeof name==='string'?name:'';
+  useFont(mode,name);
+ }catch{}
+}
+restoreFont();
 const spec=await fetch('fields.json').then(r=>{if(!r.ok)throw Error('版面数据载入失败');return r.json()});
 const params=new URLSearchParams(location.search), spellsOnly=params.get('spells')==='only';let source=null,values={},unmapped=[],persistent=true;
 try{if(params.get('from')==='character'){source=JSON.parse(sessionStorage.getItem(TRANSFER)||'null');persistent=false;}else values=JSON.parse(localStorage.getItem(STORE)||'{}');}catch{$('#status').textContent='已有填写数据无法读取，未覆盖原数据。';persistent=false;}
@@ -92,7 +110,7 @@ for(let page=0;page<spec.length;page++){
  for(const node of art.querySelectorAll('[clip-path]'))node.setAttribute('clip-path',node.getAttribute('clip-path').replace('url(#',`url(#p${pageNumber}-`));
  sheet.append(document.importNode(art,true));
  for(const f of spec[page]){
-  const control=document.createElement(f.rect[3]-f.rect[1]>25?'textarea':'input');
+  const control=document.createElement(!f.singleLine&&f.rect[3]-f.rect[1]>25?'textarea':'input');
   if(control instanceof HTMLInputElement)control.type=f.type==='checkbox'?'checkbox':'text';
   control.id=f.id;control.name=f.id;control.className='field';control.dataset.bind=f.bind;control.setAttribute('aria-label',f.label);control.title=f.label;control.autocomplete='off';control.spellcheck=false;
   const [x,y,right,bottom]=f.rect;Object.assign(control.style,{left:pt(x),top:pt(y),width:pt(right-x),height:pt(bottom-y),fontSize:`${f.fontSize}pt`,textAlign:f.textAlign||'left'});
@@ -108,11 +126,11 @@ for(let page=0;page<spec.length;page++){
  }$('#sheets').append(sheet);
 }
 const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
-function check(){
+function check(fontFamily=entryFont){
  const warnings=[...unmapped];
- for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px Ref2Entry`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let fontSize=f.fontSize;
- if(f.fitScore){const measured=ctx.measureText(c.value).width;if(measured>width)fontSize=Math.max(3,Math.floor(fontSize*width/measured*10)/10);c.style.fontSize=pt(fontSize);c.dataset.printFontSize=fontSize;ctx.font=fontSize*96/72+'px Ref2Entry';}
- const lines=c.value.split(/\r?\n/);const rows=Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
+ for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px ${fontFamily}`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let fontSize=f.fontSize;
+ if(f.fitScore){const measured=ctx.measureText(c.value).width;if(measured>width)fontSize=Math.max(3,Math.floor(fontSize*width/measured*10)/10);c.style.fontSize=pt(fontSize);c.dataset.printFontSize=fontSize;ctx.font=fontSize*96/72+'px '+fontFamily;}
+ const lines=c.value.split(/\r?\n/);const rows=f.singleLine?1:Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
  $('#warnings').replaceChildren(...warnings.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));$('#overflow').hidden=!warnings.length;$('#overflow').open=!!warnings.length;return warnings;
 }
 if(source&&!permanent){
@@ -124,7 +142,7 @@ if(source&&!permanent){
  for(const key of notes)if(source.fields?.[key]&&!supported.has(key)&&key!=='hp_current'&&!(key==='move_loaded'&&source.fields.move_loaded===source.fields.move_base))unmapped.push(`${key} 无对应原版栏目，请另存附页；原始数据未改动。`);
 
 }
-await document.fonts.load('9pt Ref2Entry','人物卡 ABC').catch(()=>{});await document.fonts.ready;await Promise.all([...document.images].map(img=>img.complete?Promise.resolve():new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;})));
+await document.fonts.load('9pt '+entryFont,'人物卡 ABC').catch(()=>{});await document.fonts.ready;await Promise.all([...document.images].map(img=>img.complete?Promise.resolve():new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;})));
 if(source&&permanent){
  const possessions=all.filter(f=>f.id.startsWith('p3.line')&&f.rect[1]<240);
  const entries=(source.rows?.gear||[]).map(r=>r.values).filter(v=>v.item).map(v=>[v.item,v.quantity&&v.quantity!=='1'?`×${v.quantity}`:'',v.location].filter(Boolean).join(' · '));
@@ -146,7 +164,7 @@ if(source){
   if(base==='coins')text=['gp','sp','cp','ep','pp','dl_steel'].filter(k=>Number(source.fields?.[`coins_${k}`])).map(k=>`${source.fields[`coins_${k}`]} ${k}`).join('；');
   if(base==='gems')text=(source.rows?.valuables||[]).map(r=>[r.values.name,r.values.quantity,r.values.worth].filter(Boolean).join(' ')).join('\n');
   let remaining=[...text];
-  for(const f of targets){ctx.font=`${f.fontSize*96/72}px Ref2Entry`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let line='';while(remaining.length){const ch=remaining[0];if(ch==='\n'){remaining.shift();break;}if(ctx.measureText(line+ch).width>width+.1)break;line+=remaining.shift();}values[f.id]=line;document.getElementById(f.id).value=line;}
+  for(const f of targets){ctx.font=`${f.fontSize*96/72}px ${entryFont}`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let line='';while(remaining.length){const ch=remaining[0];if(ch==='\n'){remaining.shift();break;}if(ctx.measureText(line+ch).width>width+.1)break;line+=remaining.shift();}values[f.id]=line;document.getElementById(f.id).value=line;}
   if(remaining.length)unmapped.push(`${base} 超过原表的 ${targets.length} 条填写横线，末尾内容请另附记录：${remaining.join('')}`);
  }
 }
@@ -179,21 +197,36 @@ check();document.documentElement.dataset.ready='true';$('#status').textContent=s
 $('#save').onclick=()=>{try{localStorage.setItem(STORE,JSON.stringify(values));persistent=true;$('#status').textContent='已保存此份复刻表填写数据。';}catch{$('#status').textContent='保存失败，请导出数据备份。';}};
 $('#print').onclick=()=>{if(!spellsOnly&&check().length){$('#status').textContent='请先处理填写范围检查，避免打印时遗漏内容。';return;}window.print();};
 $('#download-pdf').onclick=async()=>{
- if(check().length){$('#status').textContent='请先处理填写范围检查，避免 PDF 遗漏内容。';return;}
+ await document.fonts.load('9pt Ref2Entry','人物卡 ABC').catch(()=>{});
+ if(check('Ref2Entry').length){$('#status').textContent='请先处理填写范围检查，避免 PDF 遗漏内容。';return;}
  const button=$('#download-pdf');button.disabled=true;$('#status').textContent='正在生成精确 A4 可填写 PDF，首次需载入中文字体……';
  try{
   const script=(file,key)=>window[key]?Promise.resolve(window[key]):new Promise((resolve,reject)=>{const el=document.createElement('script');el.src=file;el.onload=()=>window[key]?resolve(window[key]):reject(Error('PDF 组件初始化失败'));el.onerror=()=>reject(Error('PDF 组件载入失败'));document.head.append(el);});
   const [{PDFDocument},fontkit,template,fontBytes]=await Promise.all([script(assetBase+'pdf-lib.min.js','PDFLib'),script(assetBase+'fontkit.umd.min.js','fontkit'),fetch(`${style}-fillable.pdf`).then(r=>{if(!r.ok)throw Error('PDF 模板载入失败');return r.arrayBuffer();}),fetch(assetBase+'ref2-entry.ttf').then(r=>{if(!r.ok)throw Error('中文字体载入失败');return r.arrayBuffer();})]);
   const pdf=await PDFDocument.load(template);pdf.registerFontkit(fontkit);const font=await pdf.embedFont(fontBytes,{subset:false}),form=pdf.getForm();
   for(const f of all){if(f.type==='checkbox'){const field=form.getCheckBox(f.id);if(document.getElementById(f.id).checked)field.check();else field.uncheck();}else{const field=form.getTextField(f.id);field.setText(document.getElementById(f.id).value);field.setFontSize(Number(document.getElementById(f.id).dataset.printFontSize||f.fontSize));}}
-  form.updateFieldAppearances(font);const data=await pdf.save({updateFieldAppearances:false}),url=URL.createObjectURL(new Blob([data],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download=style+'-中文人物表-已填写.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#status').textContent='已生成精确 A4 PDF；填写数据和可编辑字段均已保留。';
+  form.updateFieldAppearances(font);const data=await pdf.save({updateFieldAppearances:false}),url=URL.createObjectURL(new Blob([data],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download=style+'-中文人物表-已填写.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#status').textContent='已生成精确 A4 PDF；填写数据和可编辑字段均已保留。可编辑 PDF 使用内嵌文楷。';
  }catch(error){$('#status').textContent=`PDF 生成失败：${error.message}。填写内容仍在，可导出数据备份。`;}
- finally{button.disabled=false;}
+ finally{button.disabled=false;check();}
 };
 $('#zoom').onchange=e=>$('#sheets').style.setProperty('--preview',e.target.value);
 $('#blank').onclick=()=>window.open('./?blank=1','_blank');
 if(params.has('blank')){for(const f of all){values[f.id]=f.type==='checkbox'?false:'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=false;else c.value='';}persistent=false;check();}
 $('#export').onclick=()=>{const blob=new Blob([JSON.stringify({format:`adnd1e-${style}-facsimile`,version:1,values},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=style+'-人物表填写.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 $('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!==`adnd1e-${style}-facsimile`||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateFields(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
+async function refreshFont(){
+ await document.fonts.load('9pt '+entryFont,'人物卡 ABC').catch(()=>{});
+ check();
+}
+function saveFont(){
+ useFont(fontPicker.value,customFont.value);
+ try{localStorage.setItem(fontKey,JSON.stringify({mode:fontPicker.value,name:customFont.value}));}catch{}
+ void refreshFont();
+}
+fontPicker?.addEventListener('change',saveFont);
+customFont?.addEventListener('input',saveFont);
+window.addEventListener('storage',event=>{
+ if(event.key===fontKey||event.key===null){restoreFont();void refreshFont();}
+});
 window.ref2Facsimile={spec,check,values};
 if(params.get('mode')==='print')$('#print').click();

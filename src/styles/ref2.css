@@ -688,3 +688,7 @@
  .spellbook-workspace .spellbook-content{display:block}
  .spellbook-workspace .ref2-paper{max-width:none;margin:0;padding:6mm 10mm;box-shadow:none}
 }
+
+@font-face{font-family:Ref2Song;src:url('/character/ref2/ref2-song.woff2') format('woff2');font-display:swap}
+.ref2-paper :is(input:not([type=checkbox]),textarea,output),.ref2-paper :is(.ability-row>input,.save-row .save-circle){font-family:var(--entry-font,Ref2Entry),serif}
+#entry-font-custom{max-width:12rem}
