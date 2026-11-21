@@ -12,7 +12,8 @@ export function installExactPrinting(form:HTMLFormElement,collect:()=>void){
   const snapshot={fields,rows,derived,ammunitionBoxes,preparedSpellCount:form.querySelectorAll('.prepared-spell').length};
   try{sessionStorage.setItem('adnd1e-ref2-print-record',JSON.stringify(snapshot));}
   catch{const status=document.querySelector('#character-status');if(status)status.textContent='无法建立打印副本，请先导出人物数据备份。';return;}
-  const preview=window.open(`/character/ref2/?from=character&mode=${mode}`,'_blank');
+  const style=document.querySelector<HTMLSelectElement>('#exact-print-style')?.value==='permanent'?'permanent':'ref2';
+  const preview=window.open(`/character/${style}/?from=character&mode=${mode}`,'_blank');
   if(!preview){const status=document.querySelector('#character-status');if(status)status.textContent='浏览器拦截了打印窗口；允许本站弹出窗口后重试。';}
  }
  document.querySelector('#print-ref2-character')?.addEventListener('click',()=>open('print'));

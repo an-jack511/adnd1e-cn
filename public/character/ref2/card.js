@@ -1,6 +1,9 @@
 // @ts-nocheck -- standalone browser module; input JSON is checked at the boundary.
 export {};
-const STORE='adnd1e-ref2-facsimile.v1', TRANSFER='adnd1e-ref2-print-record';
+const permanent=document.documentElement.dataset.style==='permanent';
+const style=permanent?'permanent':'ref2';
+const assetBase=permanent?'../ref2/':'./';
+const STORE=`adnd1e-${style}-facsimile.v1`, TRANSFER='adnd1e-ref2-print-record';
 const $=s=>document.querySelector(s), pt=v=>`${v*25.4/72}mm`;
 const spec=await fetch('fields.json').then(r=>{if(!r.ok)throw Error('版面数据载入失败');return r.json()});
 const params=new URLSearchParams(location.search);let source=null,values={},unmapped=[],persistent=true;
@@ -19,9 +22,24 @@ function migrateUnarmed(values){
 migrateUnarmed(values);
 function translatedValue(key){
  const fields=source?.fields||{},rows=source?.rows||{};
+ if(permanent){
+  if(key==='vision')return fields.senses||'';
+  if(key==='detection')return fields.detections||'';
+  if(key==='STR'&&fields.STR==='18'&&fields.exceptional_strength)return `18/${fields.exceptional_strength}`;
+  const relation=/^relations\.(\d+)\.(\w+)$/.exec(key);
+  if(relation){
+   const [,index,column]=relation;
+   const row=[...(rows.family||[]),...(rows.henchmen||[])].filter(r=>r.values.name)[Number(index)]?.values;
+   if(!row)return '';
+   if(column==='number')return String(Number(index)+1);
+   return row[column]||(column==='relationship'?row.reaction:column==='class'?row.profession||row.raceClass:'')||'';
+  }
+ }
  if(key.startsWith('derived.')){const [,r,c]=key.split('.');const col=Number(r)===3?[0,0,1][Number(c)]:Number(c);return source.derived?.[Number(r)]?.[col]||'';}
  const row=key.match(/^(weapons|unarmed|gear|family|henchmen|proficiencies)\.(\d+)\.(.+)$/);
  if(row){const [,group,index,column]=row,v=rows[group]?.[Number(index)]?.values||{};
+  if(permanent&&group==='weapons'&&column==='damage')return [v.sm,v.large].filter(Boolean).join(' / ');
+  if(permanent&&group==='weapons'&&column==='magic')return v.magical||'';
   if(column==='hit_damage')return [v.hit,v.damage_adj].filter(Boolean).join(' / ');
   if(column==='damage'&&group==='weapons')return [v.sm,v.large].filter(Boolean).join(' / ');
   if(column==='item'&&v.quantity&&v.quantity!=='1')return `${v.item||''} ×${v.quantity}`;
@@ -49,15 +67,16 @@ function updateMovement(raw){
   document.getElementById(field.id).value=value;
  }
 }
-for(let page=0;page<2;page++){
- const sheet=document.createElement('section');sheet.className='sheet';sheet.dataset.page=String(page+3);sheet.setAttribute('aria-label',page?'人物表背面':'人物表正面');
+for(let page=0;page<spec.length;page++){
+ const pageNumber=page+(permanent?1:3);
+ const sheet=document.createElement('section');sheet.className='sheet';sheet.dataset.page=String(pageNumber);sheet.setAttribute('aria-label',page?'人物表背面':'人物表正面');
  // Inline vectors avoid Chromium rounding an external SVG image's intrinsic
  // viewport to whole pixels before printing. Namespaced clips remain page-local.
- const vector=await fetch(`p${page+3}.svg`).then(r=>r.text());
+ const vector=await fetch(`p${pageNumber}.svg`).then(r=>r.text());
  const art=new DOMParser().parseFromString(vector,'image/svg+xml').documentElement;
  art.setAttribute('class','art');art.setAttribute('aria-hidden','true');
- for(const node of art.querySelectorAll('[id]'))node.id=`p${page+3}-${node.id}`;
- for(const node of art.querySelectorAll('[clip-path]'))node.setAttribute('clip-path',node.getAttribute('clip-path').replace('url(#',`url(#p${page+3}-`));
+ for(const node of art.querySelectorAll('[id]'))node.id=`p${pageNumber}-${node.id}`;
+ for(const node of art.querySelectorAll('[clip-path]'))node.setAttribute('clip-path',node.getAttribute('clip-path').replace('url(#',`url(#p${pageNumber}-`));
  sheet.append(document.importNode(art,true));
  for(const f of spec[page]){
   const control=document.createElement(f.rect[3]-f.rect[1]>25?'textarea':'input');
@@ -81,7 +100,7 @@ function check(){
  for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px Ref2Song`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;const lines=c.value.split(/\r?\n/);const rows=Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
  $('#warnings').replaceChildren(...warnings.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));$('#overflow').hidden=!warnings.length;$('#overflow').open=!!warnings.length;return warnings;
 }
-if(source){
+if(source&&!permanent){
  const capacities={weapons:6,unarmed:4,gear:30,family:12,henchmen:3,proficiencies:22};
  for(const [key,limit] of Object.entries(capacities)){const rows=source.rows?.[key]||[];if(rows.slice(limit).some(r=>Object.values(r.values||{}).some(v=>String(v).trim())))unmapped.push(`${key} 超过原表 ${limit} 行，超出部分仍保存在自动人物卡中，未压缩排入。`);}
  const supported=new Set(all.map(f=>f.bind.replace(/_line\d+(?:_part\d+)?$/,'')));
@@ -91,6 +110,18 @@ if(source){
  if(source.preparedSpellCount)unmapped.push('准备法术不属于 REF 第 3–4 页，请从自动人物卡的法术页另行导出。');
 }
 await document.fonts.ready;await Promise.all([...document.images].map(img=>img.complete?Promise.resolve():new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;})));
+if(source&&permanent){
+ const possessions=all.filter(f=>f.id.startsWith('p3.line')&&f.rect[1]<240);
+ const entries=(source.rows?.gear||[]).map(r=>r.values).filter(v=>v.item).map(v=>[v.item,v.quantity&&v.quantity!=='1'?`×${v.quantity}`:'',v.location].filter(Boolean).join(' · '));
+ const events=all.filter(f=>f.id.startsWith('p4.line')&&f.rect[1]<580&&f.rect[2]-f.rect[0]>300);
+ const notes=String(source.fields?.noteworthy_events||'').split(/\r?\n/).filter(Boolean);
+ for(const [destinations,items,label] of [[possessions,entries,'物品'],[events,notes,'事件']]){
+  for(let i=0;i<Math.min(destinations.length,items.length);i++){
+   const id=destinations[i].id;values[id]=items[i];document.getElementById(id).value=items[i];
+  }
+  if(items.length>destinations.length)unmapped.push(`${label}超出原表行数，其余保留在自动人物卡。`);
+ }
+}
 // Flow notes only through the original pre-existing writing rules. This changes
 // neither their number nor their geometry, and retains overflow explicitly.
 if(source){
@@ -112,17 +143,17 @@ $('#download-pdf').onclick=async()=>{
  const button=$('#download-pdf');button.disabled=true;$('#status').textContent='正在生成精确 A4 可填写 PDF，首次需载入中文字体……';
  try{
   const script=(file,key)=>window[key]?Promise.resolve(window[key]):new Promise((resolve,reject)=>{const el=document.createElement('script');el.src=file;el.onload=()=>window[key]?resolve(window[key]):reject(Error('PDF 组件初始化失败'));el.onerror=()=>reject(Error('PDF 组件载入失败'));document.head.append(el);});
-  const [{PDFDocument},fontkit,template,fontBytes]=await Promise.all([script('pdf-lib.min.js','PDFLib'),script('fontkit.umd.min.js','fontkit'),fetch('ref2-fillable.pdf').then(r=>{if(!r.ok)throw Error('PDF 模板载入失败');return r.arrayBuffer();}),fetch('ref2-song.ttf').then(r=>{if(!r.ok)throw Error('中文字体载入失败');return r.arrayBuffer();})]);
+  const [{PDFDocument},fontkit,template,fontBytes]=await Promise.all([script(assetBase+'pdf-lib.min.js','PDFLib'),script(assetBase+'fontkit.umd.min.js','fontkit'),fetch(`${style}-fillable.pdf`).then(r=>{if(!r.ok)throw Error('PDF 模板载入失败');return r.arrayBuffer();}),fetch(assetBase+'ref2-song.ttf').then(r=>{if(!r.ok)throw Error('中文字体载入失败');return r.arrayBuffer();})]);
   const pdf=await PDFDocument.load(template);pdf.registerFontkit(fontkit);const font=await pdf.embedFont(fontBytes,{subset:false}),form=pdf.getForm();
   for(const f of all){if(f.type==='checkbox'){const field=form.getCheckBox(f.id);if(document.getElementById(f.id).checked)field.check();else field.uncheck();}else{const field=form.getTextField(f.id);field.setText(document.getElementById(f.id).value);field.setFontSize(f.fontSize);}}
-  form.updateFieldAppearances(font);const data=await pdf.save({updateFieldAppearances:false}),url=URL.createObjectURL(new Blob([data],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download='REF2-中文人物表-已填写.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#status').textContent='已生成精确 A4 PDF；填写数据和可编辑字段均已保留。';
+  form.updateFieldAppearances(font);const data=await pdf.save({updateFieldAppearances:false}),url=URL.createObjectURL(new Blob([data],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download=style+'-中文人物表-已填写.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#status').textContent='已生成精确 A4 PDF；填写数据和可编辑字段均已保留。';
  }catch(error){$('#status').textContent=`PDF 生成失败：${error.message}。填写内容仍在，可导出数据备份。`;}
  finally{button.disabled=false;}
 };
 $('#zoom').onchange=e=>$('#sheets').style.setProperty('--preview',e.target.value);
 $('#blank').onclick=()=>window.open('./?blank=1','_blank');
 if(params.has('blank')){for(const f of all){values[f.id]=f.type==='checkbox'?false:'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=false;else c.value='';}persistent=false;check();}
-$('#export').onclick=()=>{const blob=new Blob([JSON.stringify({format:'adnd1e-ref2-facsimile',version:1,values},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='REF2-人物表填写.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
-$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!=='adnd1e-ref2-facsimile'||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateUnarmed(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
+$('#export').onclick=()=>{const blob=new Blob([JSON.stringify({format:`adnd1e-${style}-facsimile`,version:1,values},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=style+'-人物表填写.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!==`adnd1e-${style}-facsimile`||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateUnarmed(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
 window.ref2Facsimile={spec,check,values};
 if(params.get('mode')==='print')$('#print').click();
