@@ -43,7 +43,7 @@ for(let page=0;page<2;page++){
   const control=document.createElement(f.rect[3]-f.rect[1]>25?'textarea':'input');
   if(control instanceof HTMLInputElement)control.type=f.type==='checkbox'?'checkbox':'text';
   control.id=f.id;control.name=f.id;control.className='field';control.dataset.bind=f.bind;control.setAttribute('aria-label',f.label);control.title=f.label;control.autocomplete='off';control.spellcheck=false;
-  const [x,y,right,bottom]=f.rect;Object.assign(control.style,{left:pt(x),top:pt(y),width:pt(right-x),height:pt(bottom-y),fontSize:`${f.fontSize}pt`});
+  const [x,y,right,bottom]=f.rect;Object.assign(control.style,{left:pt(x),top:pt(y),width:pt(right-x),height:pt(bottom-y),fontSize:`${f.fontSize}pt`,textAlign:f.textAlign||'left'});
   if(f.type==='checkbox')control.checked=values[f.id]===true;else control.value=String(values[f.id]??'');
   control.addEventListener('input',()=>{
    values[f.id]=f.type==='checkbox'?control.checked:control.value;
