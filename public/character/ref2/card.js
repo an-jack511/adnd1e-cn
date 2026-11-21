@@ -19,7 +19,20 @@ function migrateUnarmed(values){
   delete values[key+'.hit_damage'];
  }
 }
-migrateUnarmed(values);
+function migrateFields(values){
+ if(!permanent){migrateUnarmed(values);return;}
+ if(typeof values['p1.line028']==='string'){
+  const [attack,...defense]=values['p1.line028'].split(/[/／]/);
+  values['p1.psionic_attack']??=attack.trim();
+  values['p1.psionic_defense']??=defense.join('/').trim();
+  delete values['p1.line028'];
+ }
+ if(typeof values['p1.line070']==='string'){
+  if(!values['p1.hit_die'])values['p1.hit_die']=values['p1.line070'];
+  delete values['p1.line070'];
+ }
+}
+migrateFields(values);
 function translatedValue(key){
  const fields=source?.fields||{},rows=source?.rows||{};
  if(permanent){
@@ -154,6 +167,6 @@ $('#zoom').onchange=e=>$('#sheets').style.setProperty('--preview',e.target.value
 $('#blank').onclick=()=>window.open('./?blank=1','_blank');
 if(params.has('blank')){for(const f of all){values[f.id]=f.type==='checkbox'?false:'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=false;else c.value='';}persistent=false;check();}
 $('#export').onclick=()=>{const blob=new Blob([JSON.stringify({format:`adnd1e-${style}-facsimile`,version:1,values},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=style+'-人物表填写.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
-$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!==`adnd1e-${style}-facsimile`||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateUnarmed(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
+$('#import').onchange=async e=>{try{const file=e.target.files?.[0];if(!file)return;const data=JSON.parse(await file.text());if(data.format!==`adnd1e-${style}-facsimile`||data.version!==1||!data.values||typeof data.values!=='object'||Array.isArray(data.values))throw Error('文件格式不符');migrateFields(data.values);for(const f of all)if(f.id in data.values&&!(typeof data.values[f.id]==='string'||typeof data.values[f.id]==='boolean'))throw Error('字段值格式不符');for(const f of all){values[f.id]=data.values[f.id]??'';const c=document.getElementById(f.id);if(f.type==='checkbox')c.checked=values[f.id]===true;else c.value=String(values[f.id]);}unmapped=[];source=null;persistent=false;check();$('#status').textContent='导入完成；检查后可保存。';}catch(err){$('#status').textContent=`导入失败：${err.message}。现有填写未改动。`;}};
 window.ref2Facsimile={spec,check,values};
 if(params.get('mode')==='print')$('#print').click();
