@@ -1,3 +1,4 @@
+import {installExactPrinting} from './exact-printing';
 import {itemSelectionKind} from '../../utils/item-selection';
 import {cardName} from './labels';
 import {currentItemLabel,findNamedEntry} from '../../utils/terminology';
@@ -508,6 +509,7 @@ document.querySelector('#load-character')!.addEventListener('click',()=>{try{con
 document.querySelector('#export-character')!.addEventListener('click',()=>{const data=collect(),blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`${String(card.fields.name||'adnd1e-ref2-card').replace(/[<>:"/\\|?*]/g,'_')}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);notify('已导出人物卡 JSON，包含所有追加记录与准备法术。');});
 document.querySelector<HTMLInputElement>('#import-character')!.addEventListener('change',async event=>{const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;try{const next=normalizeCard(JSON.parse(await file.text()));if(!next.fields.character_id)next.fields.character_id=crypto.randomUUID();applyCard(next);persistWorkingCopy();dirty=true;notify('已导入人物卡。点击“保存”可存入浏览器。');}catch(error){notify(error instanceof Error?error.message:'文件无法读取；当前人物卡未改动。');}finally{input.value='';}});
 installCardPrinting(form,()=>{collect();});
+installExactPrinting(form,()=>{collect();});
 card=restoreWorkingCopy();applyCard(card);
 try{refreshSaved(String(card.fields.character_id||''));}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
 window.addEventListener('pagehide',()=>{try{persistWorkingCopy();}catch{}});
