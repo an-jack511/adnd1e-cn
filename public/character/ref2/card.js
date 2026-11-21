@@ -6,7 +6,7 @@ const assetBase=permanent?'../ref2/':'./';
 const STORE=`adnd1e-${style}-facsimile.v1`, TRANSFER='adnd1e-ref2-print-record';
 const $=s=>document.querySelector(s), pt=v=>`${v*25.4/72}mm`;
 const spec=await fetch('fields.json').then(r=>{if(!r.ok)throw Error('版面数据载入失败');return r.json()});
-const params=new URLSearchParams(location.search);let source=null,values={},unmapped=[],persistent=true;
+const params=new URLSearchParams(location.search), spellsOnly=params.get('spells')==='only';let source=null,values={},unmapped=[],persistent=true;
 try{if(params.get('from')==='character'){source=JSON.parse(sessionStorage.getItem(TRANSFER)||'null');persistent=false;}else values=JSON.parse(localStorage.getItem(STORE)||'{}');}catch{$('#status').textContent='已有填写数据无法读取，未覆盖原数据。';persistent=false;}
 function migrateUnarmed(values){
  for(let line=0;line<4;line++){
@@ -110,7 +110,9 @@ for(let page=0;page<spec.length;page++){
 const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
 function check(){
  const warnings=[...unmapped];
- for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px Ref2Song`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;const lines=c.value.split(/\r?\n/);const rows=Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
+ for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px Ref2Entry`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let fontSize=f.fontSize;
+ if(f.fitScore){const measured=ctx.measureText(c.value).width;if(measured>width)fontSize=Math.max(3,Math.floor(fontSize*width/measured*10)/10);c.style.fontSize=pt(fontSize);c.dataset.printFontSize=fontSize;ctx.font=fontSize*96/72+'px Ref2Entry';}
+ const lines=c.value.split(/\r?\n/);const rows=Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
  $('#warnings').replaceChildren(...warnings.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));$('#overflow').hidden=!warnings.length;$('#overflow').open=!!warnings.length;return warnings;
 }
 if(source&&!permanent){
@@ -118,11 +120,11 @@ if(source&&!permanent){
  for(const [key,limit] of Object.entries(capacities)){const rows=source.rows?.[key]||[];if(rows.slice(limit).some(r=>Object.values(r.values||{}).some(v=>String(v).trim())))unmapped.push(`${key} 超过原表 ${limit} 行，超出部分仍保存在自动人物卡中，未压缩排入。`);}
  const supported=new Set(all.map(f=>f.bind.replace(/_line\d+(?:_part\d+)?$/,'')));
  // Surface notes and newer fields that have no original cell instead of silently dropping them.
- const notes=['spellbook_notes','family_notes','henchmen','height_weight','hair_eyes','treasure_valuables','proficiencies','hp_current','move_loaded'];
+ const notes=['family_notes','henchmen','height_weight','hair_eyes','treasure_valuables','proficiencies','hp_current','move_loaded'];
  for(const key of notes)if(source.fields?.[key]&&!supported.has(key)&&key!=='hp_current'&&!(key==='move_loaded'&&source.fields.move_loaded===source.fields.move_base))unmapped.push(`${key} 无对应原版栏目，请另存附页；原始数据未改动。`);
- if(source.preparedSpellCount)unmapped.push('准备法术不属于 REF 第 3–4 页，请从自动人物卡的法术页另行导出。');
+
 }
-await document.fonts.ready;await Promise.all([...document.images].map(img=>img.complete?Promise.resolve():new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;})));
+await document.fonts.load('9pt Ref2Entry','人物卡 ABC').catch(()=>{});await document.fonts.ready;await Promise.all([...document.images].map(img=>img.complete?Promise.resolve():new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;})));
 if(source&&permanent){
  const possessions=all.filter(f=>f.id.startsWith('p3.line')&&f.rect[1]<240);
  const entries=(source.rows?.gear||[]).map(r=>r.values).filter(v=>v.item).map(v=>[v.item,v.quantity&&v.quantity!=='1'?`×${v.quantity}`:'',v.location].filter(Boolean).join(' · '));
@@ -144,21 +146,46 @@ if(source){
   if(base==='coins')text=['gp','sp','cp','ep','pp','dl_steel'].filter(k=>Number(source.fields?.[`coins_${k}`])).map(k=>`${source.fields[`coins_${k}`]} ${k}`).join('；');
   if(base==='gems')text=(source.rows?.valuables||[]).map(r=>[r.values.name,r.values.quantity,r.values.worth].filter(Boolean).join(' ')).join('\n');
   let remaining=[...text];
-  for(const f of targets){ctx.font=`${f.fontSize*96/72}px Ref2Song`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let line='';while(remaining.length){const ch=remaining[0];if(ch==='\n'){remaining.shift();break;}if(ctx.measureText(line+ch).width>width+.1)break;line+=remaining.shift();}values[f.id]=line;document.getElementById(f.id).value=line;}
+  for(const f of targets){ctx.font=`${f.fontSize*96/72}px Ref2Entry`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let line='';while(remaining.length){const ch=remaining[0];if(ch==='\n'){remaining.shift();break;}if(ctx.measureText(line+ch).width>width+.1)break;line+=remaining.shift();}values[f.id]=line;document.getElementById(f.id).value=line;}
   if(remaining.length)unmapped.push(`${base} 超过原表的 ${targets.length} 条填写横线，末尾内容请另附记录：${remaining.join('')}`);
+ }
+}
+const spells=source?.preparedSpells??[];
+const notes=source?.spellFields?.spellbook_notes??'';
+if(spellsOnly||(spells.length||notes)){
+ const sheets=$('#sheets'), appendix=document.createElement('section');
+ appendix.className='spell-appendix';
+ const add=(parent,tag,value)=>{const node=document.createElement(tag);node.textContent=value;parent.append(node);return node;};
+ add(appendix,'h2','准备法术 · 补充记录');
+ add(appendix,'p',String(source?.fields?.name??''));
+ const slots=Array.from({length:10},(_,i)=>[i,source?.spellFields?.['spell_slots_'+i]]).filter(([,v])=>v!==undefined&&v!=='');
+ if(slots.length)add(appendix,'p',slots.map(([i,v])=>(i?i+' 环':'小法术')+' '+v).join('　'));
+ for(const spell of spells){
+  const entry=document.createElement('article');appendix.append(entry);
+  add(entry,'h3',spell.name);
+  add(entry,'p',spell.rules);
+  add(entry,'p','准备 '+spell.counts[0]+'　已用 '+spell.counts[1]+'　剩余 '+(Number(spell.counts[0])-Number(spell.counts[1]))).className='spell-entry-values';
+  if(spell.source)add(entry,'p',spell.source);
+ }
+ if(!spells.length)add(appendix,'p','暂无准备法术。');
+ if(notes){add(appendix,'h3','法术书／祈祷记录');add(appendix,'p',notes).className='spell-entry-values';}
+ sheets.append(appendix);
+ if(spellsOnly){
+  for(const sheet of sheets.querySelectorAll('.sheet'))sheet.hidden=true;
+  for(const id of ['download-pdf','save','blank','export','import'])if($('#'+id))$('#'+id).disabled=true;
  }
 }
 check();document.documentElement.dataset.ready='true';$('#status').textContent=source?'已载入自动人物卡计算结果；原版固定尺寸未缩放。':'已载入两页原版固定尺寸，可直接填写。';
 $('#save').onclick=()=>{try{localStorage.setItem(STORE,JSON.stringify(values));persistent=true;$('#status').textContent='已保存此份复刻表填写数据。';}catch{$('#status').textContent='保存失败，请导出数据备份。';}};
-$('#print').onclick=()=>{if(check().length){$('#status').textContent='请先处理填写范围检查，避免打印时遗漏内容。';return;}window.print();};
+$('#print').onclick=()=>{if(!spellsOnly&&check().length){$('#status').textContent='请先处理填写范围检查，避免打印时遗漏内容。';return;}window.print();};
 $('#download-pdf').onclick=async()=>{
  if(check().length){$('#status').textContent='请先处理填写范围检查，避免 PDF 遗漏内容。';return;}
  const button=$('#download-pdf');button.disabled=true;$('#status').textContent='正在生成精确 A4 可填写 PDF，首次需载入中文字体……';
  try{
   const script=(file,key)=>window[key]?Promise.resolve(window[key]):new Promise((resolve,reject)=>{const el=document.createElement('script');el.src=file;el.onload=()=>window[key]?resolve(window[key]):reject(Error('PDF 组件初始化失败'));el.onerror=()=>reject(Error('PDF 组件载入失败'));document.head.append(el);});
-  const [{PDFDocument},fontkit,template,fontBytes]=await Promise.all([script(assetBase+'pdf-lib.min.js','PDFLib'),script(assetBase+'fontkit.umd.min.js','fontkit'),fetch(`${style}-fillable.pdf`).then(r=>{if(!r.ok)throw Error('PDF 模板载入失败');return r.arrayBuffer();}),fetch(assetBase+'ref2-song.ttf').then(r=>{if(!r.ok)throw Error('中文字体载入失败');return r.arrayBuffer();})]);
+  const [{PDFDocument},fontkit,template,fontBytes]=await Promise.all([script(assetBase+'pdf-lib.min.js','PDFLib'),script(assetBase+'fontkit.umd.min.js','fontkit'),fetch(`${style}-fillable.pdf`).then(r=>{if(!r.ok)throw Error('PDF 模板载入失败');return r.arrayBuffer();}),fetch(assetBase+'ref2-entry.ttf').then(r=>{if(!r.ok)throw Error('中文字体载入失败');return r.arrayBuffer();})]);
   const pdf=await PDFDocument.load(template);pdf.registerFontkit(fontkit);const font=await pdf.embedFont(fontBytes,{subset:false}),form=pdf.getForm();
-  for(const f of all){if(f.type==='checkbox'){const field=form.getCheckBox(f.id);if(document.getElementById(f.id).checked)field.check();else field.uncheck();}else{const field=form.getTextField(f.id);field.setText(document.getElementById(f.id).value);field.setFontSize(f.fontSize);}}
+  for(const f of all){if(f.type==='checkbox'){const field=form.getCheckBox(f.id);if(document.getElementById(f.id).checked)field.check();else field.uncheck();}else{const field=form.getTextField(f.id);field.setText(document.getElementById(f.id).value);field.setFontSize(Number(document.getElementById(f.id).dataset.printFontSize||f.fontSize));}}
   form.updateFieldAppearances(font);const data=await pdf.save({updateFieldAppearances:false}),url=URL.createObjectURL(new Blob([data],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download=style+'-中文人物表-已填写.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#status').textContent='已生成精确 A4 PDF；填写数据和可编辑字段均已保留。';
  }catch(error){$('#status').textContent=`PDF 生成失败：${error.message}。填写内容仍在，可导出数据备份。`;}
  finally{button.disabled=false;}

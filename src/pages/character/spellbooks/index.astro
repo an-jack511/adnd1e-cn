@@ -9,7 +9,7 @@ const spellDescriptionPayload=JSON.stringify(detailedSpells.filter(spell=>spell.
 <BaseLayout title="人物法术书" description="法术书、已知法术与旅行副本。">
 <main class="ref2-workspace spellbook-workspace">
   <header class="card-workspace-heading"><div><h1>法术书</h1><p>人物藏书与旅行副本</p></div><p><a href="/character/">返回人物卡</a> · <a href="/books/">图书馆</a></p></header>
-  <nav class="ref2-tabs spellbook-controls"><label class="ref2-field"><span>人物</span><select id="character-choice"><option value="">当前人物</option></select></label><label class="ref2-field"><span>主法术书</span><select id="spellbook-choice"><option value="">暂无主法术书</option></select></label><label class="ref2-field"><span>添加主法术书</span><select id="new-spellbook-choice"><option value="">选择图书馆法术书</option>{spellbooks.map(book=><option value={book.id}>{book.code} · {book.title}</option>)}</select></label><button id="add-spellbook" type="button">＋ 添加主法术书</button><a id="spellbook-pdf" href="/books/" target="_blank" rel="noreferrer">打开图书馆 PDF</a></nav>
+  <nav class="ref2-tabs spellbook-controls"><label>人物卡样式 <select id="exact-print-style"><option value="ref2">REF2 人物记录表</option><option value="permanent">永久人物记录表</option></select></label><button type="button" id="print-spellbooks">打印法术书</button><label class="ref2-field"><span>人物</span><select id="character-choice"><option value="">当前人物</option></select></label><label class="ref2-field"><span>主法术书</span><select id="spellbook-choice"><option value="">暂无主法术书</option></select></label><label class="ref2-field"><span>添加主法术书</span><select id="new-spellbook-choice"><option value="">选择图书馆法术书</option>{spellbooks.map(book=><option value={book.id}>{book.code} · {book.title}</option>)}</select></label><button id="add-spellbook" type="button">＋ 添加主法术书</button><a id="spellbook-pdf" href="/books/" target="_blank" rel="noreferrer">打开图书馆 PDF</a></nav>
   <p class="spellbook-cost-note">首本主书与首本旅行书免费；后续分别 1,000 gp、500 gp。旅行书抄录法术另收 100 gp／环，小法术按 1 环计。准备法术会将来源书计入负重；外出建议从旅行书准备。</p>
   <p class="spellbook-help-link"><a href="/character/help/#spellbooks">法术书怎么用</a></p>
   <div class="spellbook-content">
@@ -26,5 +26,5 @@ const spellDescriptionPayload=JSON.stringify(detailedSpells.filter(spell=>spell.
 </main>
 <dialog id="spell-library" aria-label="法术资料库"><header><h2 id="spell-library-title">法术资料库</h2><button id="close-spell-library" type="button">返回法术书</button></header><iframe id="spell-library-frame" title="筛选并选择法术"></iframe></dialog>
 <script type="application/json" id="spell-descriptions" set:html={spellDescriptionPayload}></script>
-<script>import '../../../character/ref2/spellbook-page';</script>
+<script>import '../../../character/ref2/spellbook-page'; import { installCardStyle } from '../../../character/ref2/card-style'; installCardStyle(); document.querySelector('#print-spellbooks')?.addEventListener('click', async () => { await document.fonts.ready; window.print(); });</script>
 </BaseLayout>

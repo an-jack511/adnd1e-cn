@@ -675,3 +675,16 @@
 .spell-tooltip-facts th { width:5.5em;white-space:normal;overflow-wrap:anywhere;word-break:break-word; }
 .spell-tooltip-facts td { width:auto;overflow-wrap:anywhere;word-break:break-word; }
 @media screen and (max-width:580px) { .spell-tooltip-facts th { width:4.5em; } .spell-tooltip-facts th,.spell-tooltip-facts td { padding:3px; } }
+
+@font-face{font-family:Ref2Entry;src:url('/character/ref2/ref2-entry.woff2') format('woff2');font-display:swap}
+.ref2-workspace[data-paper-style=permanent]{--ref2-orange:#fff;--ref2-yellow:#fff;--ref2-rule:#26221e;--ref2-ink:#1d1a16}
+.ref2-workspace[data-paper-style=permanent] .ref2-paper :is(h2,h3){border-bottom:1px solid var(--ref2-rule)}
+.ref2-workspace[data-paper-style=permanent] :is(.ref2-paper,.prepared-spell){background:white}
+.ref2-paper :is(input:not([type=checkbox]),textarea,output){font-family:Ref2Entry,serif}
+.ref2-paper :is(.ability-row>input,.save-row .save-circle){font-family:Ref2Entry,serif}
+#exact-print-style{max-width:100%}
+@media print{
+ body:has(.spellbook-workspace) :is(.spellbook-controls,.spellbook-help-link,.spellbook-cost-note,.spellbook-workspace button,.spellbook-workspace .card-status,.spellbook-heading>a){display:none!important}
+ .spellbook-workspace .spellbook-content{display:block}
+ .spellbook-workspace .ref2-paper{max-width:none;margin:0;padding:6mm 10mm;box-shadow:none}
+}

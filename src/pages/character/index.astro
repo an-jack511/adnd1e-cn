@@ -18,12 +18,12 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
 ---
 <BaseLayout title="人物卡" description="REF2 风格中文人物卡：属性、战斗、装备、随从与准备法术。">
 <div class="ref2-workspace">
-  <header class="card-workspace-heading"><div><h1>人物卡</h1><p>REF2 · 人物记录与法术计划</p></div><p><a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></p></header>
+  <header class="card-workspace-heading"><div><h1>人物卡</h1><p>人物记录与法术计划</p></div><p><a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></p></header>
   <div class="ref2-toolbar" aria-label="人物卡操作">
     <div><button type="button" id="new-character">新建</button><button type="button" id="save-character">保存</button><select id="saved-characters" aria-label="浏览器保存的人物"><option value="">选择已保存的人物</option></select><button type="button" id="load-character">加载</button><button type="button" id="copy-character">另存副本</button></div>
-    <div><button type="button" id="export-character">导出 JSON</button><label class="file-button">导入 JSON<input id="import-character" type="file" accept=".json,application/json" /></label><button type="button" id="print-ref2-character">原版复刻打印／PDF</button><button type="button" id="print-character">扩展记录打印（含法术）</button></div>
+    <div><label>人物卡样式 <select id="exact-print-style"><option value="ref2">REF2 人物记录表</option><option value="permanent">永久人物记录表</option></select></label><button type="button" id="export-character">导出 JSON</button><label class="file-button">导入 JSON<input id="import-character" type="file" accept=".json,application/json" /></label><button type="button" id="print-ref2-character">打印当前样式</button><button type="button" id="print-character">扩展记录打印（含法术）</button></div>
   </div>
-  <details class="ref2-print-settings screen-tools"><summary>打印设置</summary><label>复刻样式 <select id="exact-print-style"><option value="ref2">REF2 人物记录表</option><option value="permanent">永久人物记录表</option></select></label><button type="button" id="preview-ref2-character">预览原版复刻表</button><a href="/character/ref2/">空白 REF2／PDF</a> · <a href="/character/permanent/">空白永久记录表／PDF</a><button type="button" id="preview-character">预览纸张布局</button><label><input type="checkbox" id="print-monochrome" /> 黑白打印（去除底色）</label><label><input type="checkbox" id="print-compact" /> 压缩空白栏目（默认保留纸笔填写空间）</label><p>原版复刻保持原始尺寸。REF2 为 A4 两页，永久人物记录为 A4 四页。超出原表容量时会提示。下列黑白／压缩选项仅用于扩展记录打印；扩展记录含准备法术，可续页。打印不改变保存的人物数据。</p></details>
+  <details class="ref2-print-settings screen-tools"><summary>打印设置</summary><button type="button" id="preview-ref2-character">预览原版复刻表</button><a href="/character/ref2/">空白 REF2／PDF</a> · <a href="/character/permanent/">空白永久记录表／PDF</a><button type="button" id="preview-character">预览纸张布局</button><label><input type="checkbox" id="print-monochrome" /> 黑白打印（去除底色）</label><label><input type="checkbox" id="print-compact" /> 压缩空白栏目（默认保留纸笔填写空间）</label><p>原版复刻保持原始尺寸。REF2 为 A4 两页，永久人物记录为 A4 四页。超出原表容量时会提示。下列黑白／压缩选项仅用于扩展记录打印；扩展记录含准备法术，可续页。打印不改变保存的人物数据。</p></details>
   <p id="character-status" class="card-status" role="status" aria-live="polite">填写后点击“保存”，或导出 JSON 备份。</p>
   <nav class="ref2-tabs" aria-label="人物卡页面"><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><a class="ref2-tab-link" href="/character/spellbooks/">法术书</a><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
   <form id="character-form" class="ref2-card" autocomplete="off">
@@ -69,7 +69,7 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
       <div class="spell-planner-actions"><button type="button" id="open-spell-library">＋ 从法术资料库准备</button><button type="button" id="open-owned-spells">＋ 从法术书／旅行书准备</button><button type="button" id="restore-spells">恢复所有准备次数</button><span id="spell-summary" role="status"></span></div>
       <p id="character-spellbook-summary" class="card-source"></p><p><a href="/character/spellbooks/">查看／编辑法术书与旅行法术书</a></p>
       <p id="prepared-empty">尚未准备法术。</p>
-      <div id="prepared-spells" class="prepared-spells"></div>
+      <button type="button" class="screen-tools" id="print-prepared-spells">打印准备法术页</button><div id="prepared-spells" class="prepared-spells"></div>
       <Field name="spellbook_notes" label="法术书／祈祷记录" type="textarea" rows={4} />
       <p class="card-source">准备次数与剩余次数分开记录；施放后扣除一次。职业、环级与法术位以相应规则书为准。</p>
       <footer class="ref2-page-foot"><span data-mirror="name"></span><span>REF2 · 法术计划</span></footer>
