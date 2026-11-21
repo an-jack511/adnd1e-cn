@@ -105,7 +105,7 @@ function applyCard(next:Card) {
       if(['armor_item','shield_item'].includes(control.name)){const item=resolveItem(items,entry);if(item){card.fields[control.name+'_id']=item.id;control.value=cardName(item.nameZh);}else control.value=entry;}else control.value=entry;
     }
   }
-  splitStrength(); collectionNames.forEach(renderRows); update(); renderPrepared(); dirty=false;
+  splitStrength(); collectionNames.forEach(renderRows); update(); renderPrepared(); dirty=false;document.dispatchEvent(new Event('character-record-replaced'));
 }
 function update(editSource='') {
   collect();
@@ -509,7 +509,47 @@ document.querySelector('#load-character')!.addEventListener('click',()=>{try{con
 document.querySelector('#export-character')!.addEventListener('click',()=>{const data=collect(),blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`${String(card.fields.name||'adnd1e-ref2-card').replace(/[<>:"/\\|?*]/g,'_')}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);notify('已导出人物卡 JSON，包含所有追加记录与准备法术。');});
 document.querySelector<HTMLInputElement>('#import-character')!.addEventListener('change',async event=>{const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;try{const next=normalizeCard(JSON.parse(await file.text()));if(!next.fields.character_id)next.fields.character_id=crypto.randomUUID();applyCard(next);persistWorkingCopy();dirty=true;notify('已导入人物卡。点击“保存”可存入浏览器。');}catch(error){notify(error instanceof Error?error.message:'文件无法读取；当前人物卡未改动。');}finally{input.value='';}});
 installCardPrinting(form,()=>{collect();});
-installExactPrinting(form,()=>{collect();});
+function permanentNotes():Record<string,string|boolean>{
+ const record=card.permanentNotes;
+ if(!record||typeof record!=='object'||Array.isArray(record))return {};
+ return Object.fromEntries(Object.entries(record).filter(([key,value])=>/^p[1-4]\.[\w.]+$/.test(key)&&(typeof value==='string'||typeof value==='boolean')));
+}
+function updatePermanentField(id:string,bind:string,entry:string|boolean){
+ const aliases:Record<string,string>={vision:'senses',detection:'detections'};
+ const name=aliases[bind]??bind;
+ const control=field(name);
+ const direct=control instanceof HTMLElement&&!control.matches('input[readonly],textarea[readonly],input[type=hidden]');
+ if(direct&&typeof entry==='string'){
+  if(control instanceof HTMLSelectElement){
+   const option=[...control.options].find(option=>option.value===entry||option.textContent?.trim()===entry);
+   if(option)control.value=option.value;
+   else{card.permanentNotes={...permanentNotes(),[id]:entry};modified();return;}
+  }else{
+   control.value=entry;
+   if(name==='STR')splitStrength();
+   if(name.startsWith('save_')&&field('manual_saves'))(field('manual_saves') as HTMLInputElement).checked=true;
+  }
+  const notes=permanentNotes();delete notes[id];card.permanentNotes=notes;
+  update(name);
+ }else{
+  const match=/^(weapons)\.(\d+)\.(name|ac_\d+|damage)$/.exec(bind);
+  const index=match?Number(match[2]):-1;
+  const column=match?.[3];
+  const rows=[...repeater('weapons').querySelectorAll('[data-card-row]')];
+  const row=rows[index];
+  if(row&&column&&typeof entry==='string'){
+   const pieces=column==='damage'?entry.split(/[/／]/,2):[entry];
+   const keys=column==='damage'?['sm','large']:[column];
+   for(const [i,key] of keys.entries()){
+    const input=row.querySelector<HTMLInputElement>(`[data-cell="${key}"]`);
+    if(input)input.value=pieces[i]?.trim()??'';
+   }
+   update();
+  }else card.permanentNotes={...permanentNotes(),[id]:entry};
+ }
+ modified();
+}
+installExactPrinting(form,()=>{collect();},{notes:permanentNotes,update:updatePermanentField});
 card=restoreWorkingCopy();applyCard(card);
 try{refreshSaved(String(card.fields.character_id||''));}catch(error){notify(error instanceof Error?error.message:'人物库无法读取，原记录已保留。');}
 window.addEventListener('pagehide',()=>{try{persistWorkingCopy();}catch{}});

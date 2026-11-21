@@ -24,8 +24,9 @@ function restoreFont(){
 }
 restoreFont();
 const spec=await fetch('fields.json').then(r=>{if(!r.ok)throw Error('版面数据载入失败');return r.json()});
-const params=new URLSearchParams(location.search), spellsOnly=params.get('spells')==='only';let source=null,values={},unmapped=[],persistent=true;
-try{if(params.get('from')==='character'){source=JSON.parse(sessionStorage.getItem(TRANSFER)||'null');persistent=false;}else values=JSON.parse(localStorage.getItem(STORE)||'{}');}catch{$('#status').textContent='已有填写数据无法读取，未覆盖原数据。';persistent=false;}
+const params=new URLSearchParams(location.search), spellsOnly=params.get('spells')==='only', embedded=params.get('mode')==='edit'&&window.parent!==window;let source=null,values={},unmapped=[],persistent=true;
+if(embedded)document.documentElement.dataset.embedded='true';
+try{if(params.get('from')==='character'){source=JSON.parse(sessionStorage.getItem(embedded?'adnd1e-permanent-edit-record':TRANSFER)||'null');persistent=false;}else values=JSON.parse(localStorage.getItem(STORE)||'{}');}catch{$('#status').textContent='已有填写数据无法读取，未覆盖原数据。';persistent=false;}
 function migrateUnarmed(values){
  for(let line=0;line<4;line++){
   const key=`p3.unarmed.${line}`;
@@ -66,7 +67,7 @@ function translatedValue(key){
    return row[column]||(column==='relationship'?row.reaction:column==='class'?row.profession||row.raceClass:'')||'';
   }
  }
- if(key.startsWith('derived.')){const [,r,c]=key.split('.');const col=Number(r)===3?[0,0,1][Number(c)]:Number(c);return source.derived?.[Number(r)]?.[col]||'';}
+ if(key.startsWith('derived.')){const [,r,c]=key.split('.');const col=Number(r)===3?[0,0,1][Number(c)]:Number(c);const value=source.derived?.[Number(r)]?.[col]||'';return /^[+-]?\d{1,3}(?:,\d{3})+(?:\.\d+)?$/.test(value)?value.replaceAll(',',''):value;}
  const row=key.match(/^(weapons|unarmed|gear|family|henchmen|proficiencies)\.(\d+)\.(.+)$/);
  if(row){const [,group,index,column]=row,v=rows[group]?.[Number(index)]?.values||{};
   if(permanent&&group==='weapons'&&column==='damage')return [v.sm,v.large].filter(Boolean).join(' / ');
@@ -121,6 +122,7 @@ for(let page=0;page<spec.length;page++){
    // The name on the back mirrors the front; no geometric reflow.
    if(f.bind==='name')for(const peer of document.querySelectorAll('[data-bind="name"]'))if(peer!==control){peer.value=control.value;values[peer.id]=control.value;}
    try{if(persistent)localStorage.setItem(STORE,JSON.stringify(values));$('#status').textContent=persistent?'填写已自动保存于此浏览器。':'自动卡打印副本已修改；点击“保存填写”可单独保存。';}catch{$('#status').textContent='浏览器保存失败，请导出数据备份。';}
+   if(embedded)window.frameElement?.dispatchEvent(new CustomEvent('permanent-field-change',{detail:{id:f.id,bind:f.bind,value:values[f.id]}}));
    check();
   });sheet.append(control);
  }$('#sheets').append(sheet);
@@ -129,7 +131,7 @@ const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
 function check(fontFamily=entryFont){
  const warnings=[...unmapped];
  for(const f of all){const c=document.getElementById(f.id);if(f.type==='checkbox')continue;ctx.font=`${f.fontSize*96/72}px ${fontFamily}`;const width=(f.rect[2]-f.rect[0]-.8)*96/72;let fontSize=f.fontSize;
- if(f.fitScore){const measured=ctx.measureText(c.value).width;if(measured>width)fontSize=Math.max(3,Math.floor(fontSize*width/measured*10)/10);c.style.fontSize=pt(fontSize);c.dataset.printFontSize=fontSize;ctx.font=fontSize*96/72+'px '+fontFamily;}
+ if(f.fitScore){const measured=ctx.measureText(c.value).width;if(measured>width)fontSize=Math.max(f.key.startsWith('derived.')?4.5:3,Math.floor(fontSize*width/measured*10)/10);c.style.fontSize=pt(fontSize);c.dataset.printFontSize=fontSize;ctx.font=fontSize*96/72+'px '+fontFamily;}
  const lines=c.value.split(/\r?\n/);const rows=f.singleLine?1:Math.max(1,Math.floor((f.rect[3]-f.rect[1])/(f.fontSize*1.1)));const over=lines.some(t=>ctx.measureText(t).width>width+.5)||lines.length>rows;c.dataset.overflow=String(over);if(over)warnings.push(`${f.label}（${f.id}）：内容超出原表填写范围，请精简或另附记录。`);}
  $('#warnings').replaceChildren(...warnings.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));$('#overflow').hidden=!warnings.length;$('#overflow').open=!!warnings.length;return warnings;
 }
@@ -168,9 +170,40 @@ if(source){
   if(remaining.length)unmapped.push(`${base} 超过原表的 ${targets.length} 条填写横线，末尾内容请另附记录：${remaining.join('')}`);
  }
 }
+if(source&&permanent){
+ for(const f of all){
+  const value=source.permanentNotes?.[f.id];
+  if(typeof value!=='string'&&typeof value!=='boolean')continue;
+  values[f.id]=value;
+  const input=document.getElementById(f.id);
+  if(f.type==='checkbox')input.checked=value===true;
+  else input.value=String(value);
+ }
+}
+if(embedded){
+ const resize=()=>{
+  const sheets=$('#sheets');
+  sheets.style.setProperty('--preview',Math.min(1,document.documentElement.clientWidth/(210*96/25.4)));
+  window.parent.postMessage({type:'permanent-size',height:sheets.getBoundingClientRect().height+4},location.origin);
+ };
+ window.addEventListener('resize',resize);
+ resize();
+ window.addEventListener('message',event=>{
+  if(event.origin!==location.origin||event.source!==window.parent||event.data?.type!=='permanent-derived'||!source)return;
+  source.derived=event.data.derived;
+  source.fields=event.data.fields;
+  source.permanentNotes=event.data.permanentNotes;
+  for(const f of all.filter(f=>f.bind.startsWith('derived.'))){
+   const input=document.getElementById(f.id);
+   if(input===document.activeElement||Object.hasOwn(source.permanentNotes??{},f.id))continue;
+   input.value=values[f.id]=translatedValue(f.bind);
+  }
+  check();
+ });
+}
 const spells=source?.preparedSpells??[];
 const notes=source?.spellFields?.spellbook_notes??'';
-if(spellsOnly||(spells.length||notes)){
+if(!embedded&&(spellsOnly||(spells.length||notes))){
  const sheets=$('#sheets'), appendix=document.createElement('section');
  appendix.className='spell-appendix';
  const add=(parent,tag,value)=>{const node=document.createElement(tag);node.textContent=value;parent.append(node);return node;};

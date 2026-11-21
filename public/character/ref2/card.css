@@ -15,3 +15,6 @@ html,body{margin:0;padding:0;background:#e6e6e6;color:#24211e;font-family:Ref2So
 .spell-appendix .spell-entry-values{font:12pt/1.35 var(--entry-font,Ref2Entry),serif;white-space:pre-wrap}
 [data-style=permanent] .spell-appendix :is(h2,h3){background:white;border-bottom:.6pt solid}
 @media print{.spell-appendix{box-decoration-break:clone}}
+html[data-embedded=true],html[data-embedded=true] body{background:white;overflow:hidden}
+html[data-embedded=true] .tools{display:none}
+html[data-embedded=true] .sheet:last-child{margin-bottom:0}

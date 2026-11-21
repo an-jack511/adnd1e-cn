@@ -26,6 +26,11 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
   <details class="ref2-print-settings screen-tools"><summary>打印设置</summary><button type="button" id="preview-ref2-character">预览原版复刻表</button><a href="/character/ref2/">空白 REF2／PDF</a> · <a href="/character/permanent/">空白永久记录表／PDF</a><button type="button" id="preview-character">预览纸张布局</button><label><input type="checkbox" id="print-monochrome" /> 黑白打印（去除底色）</label><label><input type="checkbox" id="print-compact" /> 压缩空白栏目（默认保留纸笔填写空间）</label><p>原版复刻保持原始尺寸。REF2 为 A4 两页，永久人物记录为 A4 四页。超出原表容量时会提示。下列黑白／压缩选项仅用于扩展记录打印；扩展记录含准备法术，可续页。打印不改变保存的人物数据。</p></details>
   <p id="character-status" class="card-status" role="status" aria-live="polite">填写后点击“保存”，或导出 JSON 备份。</p>
   <nav class="ref2-tabs" aria-label="人物卡页面"><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><a class="ref2-tab-link" href="/character/spellbooks/">法术书</a><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
+  <button type="button" id="show-permanent-layout" class="screen-tools" hidden>永久人物表</button>
+  <section id="permanent-layout" class="screen-tools" aria-label="可填写永久人物表" hidden>
+    <p>可在表中直接填写。种族职业选择、装备资料库和准备法术仍可通过上方分页编辑。</p>
+    <iframe id="permanent-editor" title="可填写永久人物表"></iframe>
+  </section>
   <form id="character-form" class="ref2-card" autocomplete="off">
     <input name="character_id" type="hidden" />
     <section class="ref2-paper ref2-front" data-card-panel="front" aria-label="人物卡正面">
