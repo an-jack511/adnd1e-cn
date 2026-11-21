@@ -491,7 +491,7 @@ function readSaved():Card[] {
   return parsed.map(normalizeCard);
 }
 function refreshSaved(selected='') {
-  savedSelect.replaceChildren(new Option('选择已保存的人物',''),...readSaved().map(entry=>new Option(String(entry.fields.name||'未命名人物'),String(entry.fields.character_id||''))));savedSelect.value=selected;
+  savedSelect.replaceChildren(new Option('未选择已保存人物',''),...readSaved().map(entry=>new Option(String(entry.fields.name||'未命名人物'),String(entry.fields.character_id||''))));savedSelect.value=selected;
 }
 function saveCurrent(copy=false) {
   try {

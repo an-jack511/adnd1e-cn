@@ -21,7 +21,7 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
   <header class="card-workspace-heading"><div><h1>人物卡</h1><p>人物记录与法术计划</p></div><p><a href="/character/help/">使用帮助</a> · <a href="/character/abilities/">属性表</a></p></header>
   <div class="ref2-toolbar character-toolbar" aria-label="人物卡操作">
     <div class="character-toolbar-record">
-      <label class="character-toolbar-choice"><span>人物</span><select id="saved-characters" aria-label="浏览器保存的人物"><option value="">选择已保存的人物</option></select></label>
+      <label class="character-toolbar-choice"><span>人物</span><select id="saved-characters" aria-label="浏览器保存的人物"><option value="">未选择已保存人物</option></select></label>
       <button type="button" id="load-character">载入</button><button type="button" id="new-character">新建</button><button type="button" id="save-character">保存</button>
     </div>
     <div class="character-toolbar-paper">
@@ -32,14 +32,14 @@ const henchmen:Column[]=[{key:'name',label:'姓名',class:'wide-cell'},{key:'ac'
       <summary>更多设置</summary>
       <div class="character-toolbar-options">
         <div><label>填写字体 <select id="entry-font"><option value="hand">霞鹜文楷</option><option value="song">宋体</option><option value="custom">本机字体</option></select></label><input id="entry-font-custom" type="text" aria-label="本机字体名称" placeholder="输入本机字体名称" maxlength="80" hidden /></div>
-        <div><button type="button" id="copy-character">另存副本</button><button type="button" id="export-character">导出 JSON</button><label class="file-button">导入 JSON<input id="import-character" type="file" accept=".json,application/json" /></label></div>
-        <div><button type="button" id="preview-ref2-character">预览复刻表</button><a href="/character/ref2/">空白 REF2 PDF</a><a href="/character/permanent/">空白永久表 PDF</a></div>
-        <div><button type="button" id="print-character">打印扩展记录</button><button type="button" id="preview-character">预览扩展记录</button><label><input type="checkbox" id="print-monochrome" /> 黑白</label><label><input type="checkbox" id="print-compact" /> 压缩空栏</label></div>
+        <div><span class="character-option-label">文件</span><button type="button" id="copy-character">另存副本</button><button type="button" id="export-character">导出 JSON</button><label class="file-button">导入 JSON<input id="import-character" type="file" accept=".json,application/json" /></label></div>
+        <div><span class="character-option-label">复刻表</span><button type="button" id="preview-ref2-character">预览复刻表</button><a href="/character/ref2/">空白 REF2 PDF</a><a href="/character/permanent/">空白永久表 PDF</a></div>
+        <div><span class="character-option-label">扩展记录</span><button type="button" id="print-character">打印</button><button type="button" id="preview-character">预览</button><label><input type="checkbox" id="print-monochrome" /> 黑白</label><label><input type="checkbox" id="print-compact" /> 压缩空栏</label></div>
       </div>
     </details>
   </div>
   <p id="character-status" class="card-status" role="status" aria-live="polite">填写后点击“保存”，或导出 JSON 备份。</p>
-  <nav class="ref2-tabs" aria-label="人物卡页面">{[1,2,3,4].map(i=><button class="permanent-tab" type="button" data-permanent-page={i} aria-pressed="false">第 {i} 面</button>)}<button class="permanent-tab" type="button" data-card-tab="rules" aria-pressed="false">规则与装备</button><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><a class="ref2-tab-link" href="/character/spellbooks/">法术书</a><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
+  <nav class="ref2-tabs character-page-tabs" aria-label="人物卡页面">{[1,2,3,4].map(i=><button class="permanent-tab" type="button" data-permanent-page={i} aria-pressed="false">第 {i} 面</button>)}<button class="permanent-tab" type="button" data-card-tab="rules" aria-pressed="false">规则与装备</button><button type="button" data-card-tab="front" aria-pressed="true">正面 · 常用数据</button><button type="button" data-card-tab="back" aria-pressed="false">背面 · 人物与物资</button><button type="button" data-card-tab="spells" aria-pressed="false">准备法术 <span id="prepared-count">0</span></button><a class="ref2-tab-link" href="/character/spellbooks/">法术书</a><button type="button" data-card-tab="all" aria-pressed="false">整卡</button></nav>
   <button type="button" id="show-permanent-layout" class="screen-tools" hidden>永久人物表</button>
   <section id="permanent-layout" class="screen-tools" aria-label="可填写永久人物表" hidden>
     <p>可在表中直接填写。种族、职业和装备资料库可在“规则与装备”编辑。</p>
