@@ -37,7 +37,11 @@ export function installExactPrinting(form:HTMLFormElement,collect:()=>void,edito
  const frame=document.querySelector<HTMLIFrameElement>('#permanent-editor')!;
  const panel=document.querySelector<HTMLElement>('#permanent-layout')!;
  const pageButton=document.querySelector<HTMLButtonElement>('#show-permanent-layout')!;
+ const pageTabs=[...document.querySelectorAll<HTMLButtonElement>('[data-permanent-page]')];
+ let selectedPage=1;
  function display(show:boolean){
+  for(const tab of pageTabs)tab.setAttribute('aria-pressed',String(show&&Number(tab.dataset.permanentPage)===selectedPage));
+  if(show)document.querySelectorAll('[data-card-tab]').forEach(tab=>tab.setAttribute('aria-pressed','false'));
   panel.hidden=!show;
   form.classList.toggle('permanent-editor-open',show);
   pageButton.hidden=currentStyle()!=='permanent'||show;
@@ -47,20 +51,21 @@ export function installExactPrinting(form:HTMLFormElement,collect:()=>void,edito
   if(panel.hidden)return;
   try{
    sessionStorage.setItem('adnd1e-permanent-edit-record',JSON.stringify(snapshot()));
-   frame.src='/character/permanent/?from=character&mode=edit';
+   frame.src='/character/permanent/?from=character&mode=edit&page='+selectedPage;
   }catch{display(false);}
  }
  function updateStyle(){display(currentStyle()==='permanent');}
  document.querySelector('#exact-print-style')?.addEventListener('change',updateStyle);
  window.addEventListener('storage',event=>{if(event.key==='adnd1e-character-paper-style')updateStyle();});
  pageButton.addEventListener('click',()=>display(true));
+ for(const tab of pageTabs)tab.addEventListener('click',()=>{selectedPage=Number(tab.dataset.permanentPage);display(true);});
  document.querySelectorAll('[data-card-tab]').forEach(tab=>tab.addEventListener('click',()=>display(false)));
  document.addEventListener('character-record-replaced',refresh);
  window.addEventListener('message',event=>{
   if(event.origin!==location.origin||event.source!==frame.contentWindow)return;
   const message=event.data;
   if(message?.type==='permanent-size'&&typeof message.height==='number'&&Number.isFinite(message.height)){
-   frame.style.height=Math.min(5200,Math.max(240,message.height))+'px';
+   frame.style.height=Math.min(5600,Math.max(240,message.height))+'px';
   }
  });
  frame.addEventListener('permanent-field-change',event=>{

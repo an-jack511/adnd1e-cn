@@ -697,3 +697,17 @@
 #permanent-layout p{margin:.25rem 0;font-size:.9rem}
 #permanent-editor{display:block;width:100%;height:80vh;border:0}
 @media print{#permanent-layout,#show-permanent-layout{display:none!important}.ref2-card.permanent-editor-open{display:block!important}}
+.permanent-tab{display:none}
+[data-paper-style=permanent] .permanent-tab{display:inline-block}
+[data-paper-style=permanent] .ref2-tabs>[data-card-tab]:is([data-card-tab=front],[data-card-tab=back],[data-card-tab=all]){display:none}
+
+.character-toolbar{gap:.55rem 1.5rem;justify-content:flex-start;align-items:center}
+.character-toolbar .character-toolbar-choice{display:inline-flex;align-items:center;gap:.45rem}
+.character-toolbar button#save-character,.character-toolbar button#print-ref2-character{background:var(--ref2-ink);color:white;border-color:var(--ref2-ink)}
+.character-toolbar .character-toolbar-more{border:0;padding:0;margin:0}
+.character-toolbar-more summary{padding:.35rem 0;text-underline-offset:.2em}
+.character-toolbar-more summary:hover{text-decoration:underline}
+.character-toolbar-more[open]{flex:1 0 100%}
+.character-toolbar-options{display:grid!important;gap:.6rem!important;padding:.75rem 0 0}
+.character-toolbar-options>div{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem 1rem}
+@media(max-width:700px){.character-toolbar-record,.character-toolbar-paper{flex-wrap:wrap}.character-toolbar{gap:.45rem}}

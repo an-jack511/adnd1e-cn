@@ -12,7 +12,7 @@
         84.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -27,7 +27,7 @@
         84.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -42,7 +42,7 @@
         142
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -57,7 +57,7 @@
         143.41800537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -72,7 +72,7 @@
         164.13199462890626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -87,7 +87,7 @@
         164.3110107421875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -102,7 +102,7 @@
         164.95401611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -117,7 +117,7 @@
         177.97098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -132,7 +132,7 @@
         178.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -147,7 +147,7 @@
         191.47098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -162,7 +162,7 @@
         191.79300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -174,12 +174,28 @@
         74.28976377952756,
         209.75,
         83.66662354988578,
+        216.75
+      ],
+      "type": "text",
+      "fontSize": 6.2,
+      "textAlign": "center",
+      "singleLine": true
+    },
+    {
+      "id": "p1.exceptional_strength",
+      "key": "exceptional_strength",
+      "bind": "exceptional_strength",
+      "label": "超凡力量百分数",
+      "rect": [
+        74.28976377952756,
+        216.75,
+        83.66662354988578,
         223.75
       ],
       "type": "text",
-      "fontSize": 7,
+      "fontSize": 6.2,
       "textAlign": "center",
-      "fitScore": true
+      "singleLine": true
     },
     {
       "id": "p1.strength_extra",
@@ -193,7 +209,7 @@
         221.75
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -283,7 +299,7 @@
         232.29300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -298,7 +314,7 @@
         232.45401611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -313,7 +329,7 @@
         232.29300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -328,7 +344,7 @@
         244.5
       ],
       "type": "text",
-      "fontSize": 9.5,
+      "fontSize": 9.8,
       "textAlign": "center",
       "fitScore": true
     },
@@ -404,7 +420,7 @@
         250.45401611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -419,7 +435,7 @@
         250.6139892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -434,7 +450,7 @@
         265.25
       ],
       "type": "text",
-      "fontSize": 9.5,
+      "fontSize": 9.8,
       "textAlign": "center",
       "fitScore": true
     },
@@ -495,7 +511,7 @@
         266.4380249023437
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -510,7 +526,7 @@
         268.6139892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -525,7 +541,7 @@
         268.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -540,7 +556,7 @@
         287.25
       ],
       "type": "text",
-      "fontSize": 9.5,
+      "fontSize": 9.8,
       "textAlign": "center",
       "fitScore": true
     },
@@ -556,7 +572,7 @@
         282.275
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -616,7 +632,7 @@
         288.0730041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -631,7 +647,7 @@
         288.2460083007812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -646,7 +662,7 @@
         297.764990234375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -661,7 +677,7 @@
         308
       ],
       "type": "text",
-      "fontSize": 9.5,
+      "fontSize": 9.8,
       "textAlign": "center",
       "fitScore": true
     },
@@ -737,7 +753,7 @@
         308.9539855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -752,7 +768,7 @@
         319.5730041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -767,7 +783,7 @@
         329.25
       ],
       "type": "text",
-      "fontSize": 9.5,
+      "fontSize": 9.8,
       "textAlign": "center",
       "fitScore": true
     },
@@ -828,7 +844,7 @@
         330.3039916992187
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -843,7 +859,7 @@
         346.8859924316406
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -858,7 +874,7 @@
         346.8859924316406
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -873,7 +889,7 @@
         346.5730041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -888,7 +904,7 @@
         346.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -903,7 +919,7 @@
         346.2389892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -918,7 +934,7 @@
         346.91901245117185
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -948,7 +964,7 @@
         377.5789855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -963,7 +979,7 @@
         409.2389892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -978,7 +994,7 @@
         409.5730041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -993,7 +1009,7 @@
         409.7460083007812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1008,7 +1024,7 @@
         409.7460083007812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1023,7 +1039,7 @@
         410.09198608398435
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1038,7 +1054,7 @@
         422.4180053710937
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1068,7 +1084,7 @@
         423.41901245117185
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1083,7 +1099,7 @@
         425.27399291992185
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1098,7 +1114,7 @@
         425.3110107421875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1113,7 +1129,7 @@
         425.8549865722656
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1143,7 +1159,7 @@
         436.2389892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1158,7 +1174,7 @@
         436.7460083007812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1173,7 +1189,7 @@
         436.91901245117185
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1188,7 +1204,7 @@
         441.59198608398435
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1203,7 +1219,7 @@
         442.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1218,7 +1234,7 @@
         442.58099975585935
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1233,7 +1249,7 @@
         442.8039916992187
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1248,7 +1264,7 @@
         449.7389892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1263,7 +1279,7 @@
         450.2460083007812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1278,7 +1294,7 @@
         450.59198608398435
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -1353,7 +1369,7 @@
         461.9539855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1368,7 +1384,7 @@
         461.9539855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1383,7 +1399,7 @@
         462.59601440429685
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1398,7 +1414,7 @@
         462.9180053710937
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1413,7 +1429,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1428,7 +1444,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1443,7 +1459,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1458,7 +1474,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1473,7 +1489,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1488,7 +1504,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1503,7 +1519,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1518,7 +1534,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1533,7 +1549,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1548,7 +1564,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1563,7 +1579,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1578,7 +1594,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1593,7 +1609,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1608,7 +1624,7 @@
         481.36
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1623,7 +1639,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1638,7 +1654,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1653,7 +1669,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1668,7 +1684,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1683,7 +1699,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1698,7 +1714,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1713,7 +1729,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1728,7 +1744,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1743,7 +1759,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1758,7 +1774,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1773,7 +1789,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1788,7 +1804,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1803,7 +1819,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1818,7 +1834,7 @@
         492.85
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1833,7 +1849,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1848,7 +1864,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1863,7 +1879,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1878,7 +1894,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1893,7 +1909,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1908,7 +1924,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1923,7 +1939,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1938,7 +1954,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1953,7 +1969,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1968,7 +1984,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1983,7 +1999,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -1998,7 +2014,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2013,7 +2029,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2028,7 +2044,7 @@
         504.34000000000003
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2043,7 +2059,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2058,7 +2074,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2073,7 +2089,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2088,7 +2104,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2103,7 +2119,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2118,7 +2134,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2133,7 +2149,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2148,7 +2164,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2163,7 +2179,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2178,7 +2194,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2193,7 +2209,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2208,7 +2224,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2223,7 +2239,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2238,7 +2254,7 @@
         515.8299999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2253,7 +2269,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2268,7 +2284,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2283,7 +2299,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2298,7 +2314,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2313,7 +2329,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2328,7 +2344,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2343,7 +2359,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2358,7 +2374,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2373,7 +2389,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2388,7 +2404,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2403,7 +2419,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2418,7 +2434,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2433,7 +2449,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2448,7 +2464,7 @@
         527.3199999999999
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2463,7 +2479,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2478,7 +2494,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2493,7 +2509,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2508,7 +2524,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2523,7 +2539,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2538,7 +2554,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2553,7 +2569,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2568,7 +2584,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2583,7 +2599,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2598,7 +2614,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2613,7 +2629,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2628,7 +2644,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2643,7 +2659,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2658,7 +2674,7 @@
         538.81
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2673,7 +2689,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2688,7 +2704,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2703,7 +2719,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2718,7 +2734,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2733,7 +2749,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2748,7 +2764,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2763,7 +2779,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2778,7 +2794,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2793,7 +2809,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2808,7 +2824,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2823,7 +2839,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2838,7 +2854,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2853,7 +2869,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2868,7 +2884,7 @@
         550.3
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2883,7 +2899,7 @@
         581.275
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2898,7 +2914,7 @@
         581
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2929,7 +2945,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2944,7 +2960,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2959,7 +2975,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -2974,7 +2990,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -2989,7 +3005,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3004,7 +3020,7 @@
         607.5625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3019,7 +3035,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3034,7 +3050,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3049,7 +3065,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3064,7 +3080,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3079,7 +3095,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3094,7 +3110,7 @@
         618.635
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3109,7 +3125,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3124,7 +3140,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3139,7 +3155,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3154,7 +3170,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3169,7 +3185,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3184,7 +3200,7 @@
         629.7075
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3199,7 +3215,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3214,7 +3230,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3229,7 +3245,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3244,7 +3260,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3259,7 +3275,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3274,7 +3290,7 @@
         640.78
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3289,7 +3305,7 @@
         661.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3304,7 +3320,7 @@
         662.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3319,7 +3335,7 @@
         662.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3334,7 +3350,7 @@
         662.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3349,7 +3365,7 @@
         664.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3364,7 +3380,7 @@
         664.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3379,7 +3395,7 @@
         674.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3394,7 +3410,7 @@
         675.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3409,7 +3425,7 @@
         676.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3424,7 +3440,7 @@
         687.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3439,7 +3455,7 @@
         698.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3454,7 +3470,7 @@
         727
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3469,7 +3485,7 @@
         727.25
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3484,7 +3500,7 @@
         727.75
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3499,7 +3515,7 @@
         728
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3514,7 +3530,7 @@
         728.25
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3529,7 +3545,7 @@
         728.5
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3544,7 +3560,7 @@
         728
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3559,7 +3575,7 @@
         728.25
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     }
   ],
@@ -3576,7 +3592,7 @@
         178
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3591,7 +3607,7 @@
         180
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3606,7 +3622,7 @@
         187
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3621,7 +3637,7 @@
         195.8110107421875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3636,7 +3652,7 @@
         197.25699462890626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3651,7 +3667,7 @@
         209.79300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3666,7 +3682,7 @@
         225.41898193359376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3681,7 +3697,7 @@
         239.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3696,7 +3712,7 @@
         252.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3711,7 +3727,7 @@
         267.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3726,7 +3742,7 @@
         279.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3741,7 +3757,7 @@
         294.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3756,7 +3772,7 @@
         307.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3771,7 +3787,7 @@
         318.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3786,7 +3802,7 @@
         321.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3801,7 +3817,7 @@
         335.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3816,7 +3832,7 @@
         336.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3831,7 +3847,7 @@
         348.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3846,7 +3862,7 @@
         348.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3861,7 +3877,7 @@
         361.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3876,7 +3892,7 @@
         362.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3891,7 +3907,7 @@
         376.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3906,7 +3922,7 @@
         377.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -3936,7 +3952,7 @@
         394.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -3966,7 +3982,7 @@
         410.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4041,7 +4057,7 @@
         427.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4086,7 +4102,7 @@
         442.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4101,7 +4117,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4116,7 +4132,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4131,7 +4147,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4146,7 +4162,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4161,7 +4177,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4176,7 +4192,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4191,7 +4207,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4206,7 +4222,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4221,7 +4237,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4236,7 +4252,7 @@
         473.4552380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4251,7 +4267,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4266,7 +4282,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4281,7 +4297,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4296,7 +4312,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4311,7 +4327,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4326,7 +4342,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4341,7 +4357,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4356,7 +4372,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4371,7 +4387,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4386,7 +4402,7 @@
         487.2204761904761
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4401,7 +4417,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4416,7 +4432,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4431,7 +4447,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4446,7 +4462,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4461,7 +4477,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4476,7 +4492,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4491,7 +4507,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4506,7 +4522,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4521,7 +4537,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4536,7 +4552,7 @@
         500.98571428571427
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4551,7 +4567,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4566,7 +4582,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4581,7 +4597,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4596,7 +4612,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4611,7 +4627,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4626,7 +4642,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4641,7 +4657,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4656,7 +4672,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4671,7 +4687,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4686,7 +4702,7 @@
         514.7509523809523
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4701,7 +4717,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4716,7 +4732,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4731,7 +4747,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4746,7 +4762,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4761,7 +4777,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4776,7 +4792,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4791,7 +4807,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4806,7 +4822,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4821,7 +4837,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4836,7 +4852,7 @@
         528.5161904761904
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -4851,7 +4867,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4866,7 +4882,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4881,7 +4897,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4896,7 +4912,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4911,7 +4927,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4926,7 +4942,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4941,7 +4957,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4956,7 +4972,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4971,7 +4987,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -4986,7 +5002,7 @@
         542.2814285714285
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5001,7 +5017,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5016,7 +5032,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5031,7 +5047,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5046,7 +5062,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5061,7 +5077,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5076,7 +5092,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5091,7 +5107,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5106,7 +5122,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5121,7 +5137,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5136,7 +5152,7 @@
         556.0466666666666
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5151,7 +5167,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5166,7 +5182,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5181,7 +5197,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5196,7 +5212,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5211,7 +5227,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5226,7 +5242,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5241,7 +5257,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5256,7 +5272,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5271,7 +5287,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5286,7 +5302,7 @@
         569.8119047619048
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5301,7 +5317,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5316,7 +5332,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5331,7 +5347,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5346,7 +5362,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5361,7 +5377,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5376,7 +5392,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5391,7 +5407,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5406,7 +5422,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5421,7 +5437,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5436,7 +5452,7 @@
         583.5771428571429
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5451,7 +5467,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5466,7 +5482,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5481,7 +5497,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5496,7 +5512,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5511,7 +5527,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5526,7 +5542,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5541,7 +5557,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5556,7 +5572,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5571,7 +5587,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5586,7 +5602,7 @@
         597.342380952381
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5601,7 +5617,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5616,7 +5632,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5631,7 +5647,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5646,7 +5662,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5661,7 +5677,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5676,7 +5692,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5691,7 +5707,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5706,7 +5722,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5721,7 +5737,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5736,7 +5752,7 @@
         611.107619047619
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5751,7 +5767,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5766,7 +5782,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5781,7 +5797,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5796,7 +5812,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5811,7 +5827,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5826,7 +5842,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5841,7 +5857,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5856,7 +5872,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5871,7 +5887,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5886,7 +5902,7 @@
         624.8728571428571
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -5901,7 +5917,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5916,7 +5932,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5931,7 +5947,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5946,7 +5962,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5961,7 +5977,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5976,7 +5992,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -5991,7 +6007,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6006,7 +6022,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6021,7 +6037,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6036,7 +6052,7 @@
         638.6380952380953
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6051,7 +6067,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6066,7 +6082,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6081,7 +6097,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6096,7 +6112,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6111,7 +6127,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6126,7 +6142,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6141,7 +6157,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6156,7 +6172,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6171,7 +6187,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6186,7 +6202,7 @@
         652.4033333333334
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6201,7 +6217,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6216,7 +6232,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6231,7 +6247,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6246,7 +6262,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6261,7 +6277,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6276,7 +6292,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6291,7 +6307,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6306,7 +6322,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6321,7 +6337,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6336,7 +6352,7 @@
         666.1685714285715
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6351,7 +6367,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6366,7 +6382,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6381,7 +6397,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6396,7 +6412,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6411,7 +6427,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6426,7 +6442,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6441,7 +6457,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6456,7 +6472,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6471,7 +6487,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6486,7 +6502,7 @@
         679.9338095238095
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6501,7 +6517,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6516,7 +6532,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6531,7 +6547,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6546,7 +6562,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6561,7 +6577,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6576,7 +6592,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6591,7 +6607,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6606,7 +6622,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6621,7 +6637,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6636,7 +6652,7 @@
         693.6990476190476
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6651,7 +6667,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6666,7 +6682,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6681,7 +6697,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6696,7 +6712,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6711,7 +6727,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6726,7 +6742,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6741,7 +6757,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6756,7 +6772,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6771,7 +6787,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6786,7 +6802,7 @@
         707.4642857142858
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6801,7 +6817,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6816,7 +6832,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6831,7 +6847,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6846,7 +6862,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6861,7 +6877,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6876,7 +6892,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6891,7 +6907,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6906,7 +6922,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6921,7 +6937,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6936,7 +6952,7 @@
         721.2295238095239
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -6951,7 +6967,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6966,7 +6982,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6981,7 +6997,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -6996,7 +7012,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7011,7 +7027,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7026,7 +7042,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7041,7 +7057,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7056,7 +7072,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7071,7 +7087,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7086,7 +7102,7 @@
         734.9947619047618
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7101,7 +7117,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7116,7 +7132,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7131,7 +7147,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7146,7 +7162,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7161,7 +7177,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7176,7 +7192,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7191,7 +7207,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7206,7 +7222,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7221,7 +7237,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7236,7 +7252,7 @@
         748.76
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     }
   ],
@@ -7253,7 +7269,7 @@
         90.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -7268,7 +7284,7 @@
         92.764013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7283,7 +7299,7 @@
         92.764013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7298,7 +7314,7 @@
         93.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7313,7 +7329,7 @@
         105.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7328,7 +7344,7 @@
         105.368994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7343,7 +7359,7 @@
         105.368994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7358,7 +7374,7 @@
         106.264013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7373,7 +7389,7 @@
         105.97098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7388,7 +7404,7 @@
         106.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7403,7 +7419,7 @@
         116.57901611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7418,7 +7434,7 @@
         116.618994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7433,7 +7449,7 @@
         116.618994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7448,7 +7464,7 @@
         116.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7463,7 +7479,7 @@
         116.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7478,7 +7494,7 @@
         116.57901611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7493,7 +7509,7 @@
         127.535986328125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7508,7 +7524,7 @@
         127.535986328125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7523,7 +7539,7 @@
         126.93802490234376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7538,7 +7554,7 @@
         126.93802490234376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7553,7 +7569,7 @@
         126.95902099609376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7568,7 +7584,7 @@
         127.222998046875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7583,7 +7599,7 @@
         137.431005859375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7598,7 +7614,7 @@
         137.764013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7613,7 +7629,7 @@
         137.764013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7628,7 +7644,7 @@
         137.3229736328125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7643,7 +7659,7 @@
         137.3229736328125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7658,7 +7674,7 @@
         137.431005859375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7673,7 +7689,7 @@
         148.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7688,7 +7704,7 @@
         148.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7703,7 +7719,7 @@
         148.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7718,7 +7734,7 @@
         148.118994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7733,7 +7749,7 @@
         149.2179931640625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7748,7 +7764,7 @@
         149.2179931640625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7763,7 +7779,7 @@
         159.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7778,7 +7794,7 @@
         159.25302734375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7793,7 +7809,7 @@
         158.9880126953125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7808,7 +7824,7 @@
         160.67301025390626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7823,7 +7839,7 @@
         160.264013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7838,7 +7854,7 @@
         159.97098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7853,7 +7869,7 @@
         170.618994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7868,7 +7884,7 @@
         170.056005859375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7883,7 +7899,7 @@
         171.7179931640625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7898,7 +7914,7 @@
         171.30899658203126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7913,7 +7929,7 @@
         170.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7928,7 +7944,7 @@
         170.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7943,7 +7959,7 @@
         182.8119873046875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7958,7 +7974,7 @@
         182.8119873046875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7973,7 +7989,7 @@
         183.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -7988,7 +8004,7 @@
         183.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8003,7 +8019,7 @@
         183.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8018,7 +8034,7 @@
         183.014990234375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8033,7 +8049,7 @@
         193.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8048,7 +8064,7 @@
         193.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8063,7 +8079,7 @@
         193.80899658203126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8078,7 +8094,7 @@
         193.80899658203126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8093,7 +8109,7 @@
         194.04300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8108,7 +8124,7 @@
         193.72098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8123,7 +8139,7 @@
         204.78201904296876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8138,7 +8154,7 @@
         204.25302734375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8153,7 +8169,7 @@
         205.67301025390626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8168,7 +8184,7 @@
         205.67301025390626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8183,7 +8199,7 @@
         205.29300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8198,7 +8214,7 @@
         204.97098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8213,7 +8229,7 @@
         216.5920166015625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8228,7 +8244,7 @@
         216.743994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8243,7 +8259,7 @@
         217.12698974609376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8258,7 +8274,7 @@
         217.12698974609376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8273,7 +8289,7 @@
         216.93802490234376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8288,7 +8304,7 @@
         217.025
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8303,7 +8319,7 @@
         226.868994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8318,7 +8334,7 @@
         226.868994140625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8333,7 +8349,7 @@
         227.764013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8348,7 +8364,7 @@
         226.9770263671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8363,7 +8379,7 @@
         227.66898193359376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8378,7 +8394,7 @@
         227.3229736328125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8393,7 +8409,7 @@
         237.83701171875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8408,7 +8424,7 @@
         237.556005859375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8423,7 +8439,7 @@
         238.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8438,7 +8454,7 @@
         238.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8453,7 +8469,7 @@
         238.05399169921876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8468,7 +8484,7 @@
         237.7079833984375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8483,7 +8499,7 @@
         263.5
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -8498,7 +8514,7 @@
         265.8500122070312
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8513,7 +8529,7 @@
         265.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8528,7 +8544,7 @@
         265.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8543,7 +8559,7 @@
         279.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8558,7 +8574,7 @@
         279.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8573,7 +8589,7 @@
         280.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8588,7 +8604,7 @@
         280.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8603,7 +8619,7 @@
         280.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8618,7 +8634,7 @@
         290.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8633,7 +8649,7 @@
         291.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8648,7 +8664,7 @@
         291.1730102539062
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8663,7 +8679,7 @@
         290.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8678,7 +8694,7 @@
         290.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8693,7 +8709,7 @@
         301.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8708,7 +8724,7 @@
         302.4230102539062
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8723,7 +8739,7 @@
         302.2179931640625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8738,7 +8754,7 @@
         302.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8753,7 +8769,7 @@
         302.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8768,7 +8784,7 @@
         312.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8783,7 +8799,7 @@
         313.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8798,7 +8814,7 @@
         313.1000122070312
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8813,7 +8829,7 @@
         312.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8828,7 +8844,7 @@
         311.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8843,7 +8859,7 @@
         323.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8858,7 +8874,7 @@
         323.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8873,7 +8889,7 @@
         322.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8888,7 +8904,7 @@
         324.1049865722656
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8903,7 +8919,7 @@
         324.514013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8918,7 +8934,7 @@
         335.5589965820312
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8933,7 +8949,7 @@
         335.3549865722656
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8948,7 +8964,7 @@
         335.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8963,7 +8979,7 @@
         335.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8978,7 +8994,7 @@
         335.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -8993,7 +9009,7 @@
         346.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9008,7 +9024,7 @@
         346.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9023,7 +9039,7 @@
         346.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9038,7 +9054,7 @@
         346.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9053,7 +9069,7 @@
         346.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9068,7 +9084,7 @@
         357.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9083,7 +9099,7 @@
         357.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9098,7 +9114,7 @@
         357.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9113,7 +9129,7 @@
         358.264013671875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9128,7 +9144,7 @@
         358.0589965820312
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9143,7 +9159,7 @@
         368.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9158,7 +9174,7 @@
         368.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9173,7 +9189,7 @@
         368.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9188,7 +9204,7 @@
         368.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9203,7 +9219,7 @@
         368.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9218,7 +9234,7 @@
         392.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9233,7 +9249,7 @@
         397.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9248,7 +9264,7 @@
         398.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9263,7 +9279,7 @@
         398.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9278,7 +9294,7 @@
         398.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9293,7 +9309,7 @@
         406.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9308,7 +9324,7 @@
         406.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9323,7 +9339,7 @@
         409.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9338,7 +9354,7 @@
         409.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9353,7 +9369,7 @@
         409.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9368,7 +9384,7 @@
         410.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9383,7 +9399,7 @@
         417.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9398,7 +9414,7 @@
         417.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9413,7 +9429,7 @@
         421.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9428,7 +9444,7 @@
         421.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9443,7 +9459,7 @@
         421.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9458,7 +9474,7 @@
         421.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9473,7 +9489,7 @@
         429.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9488,7 +9504,7 @@
         429.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9503,7 +9519,7 @@
         433.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9518,7 +9534,7 @@
         433.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9533,7 +9549,7 @@
         433.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9548,7 +9564,7 @@
         432.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9563,7 +9579,7 @@
         440.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9578,7 +9594,7 @@
         440.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9593,7 +9609,7 @@
         451.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9608,7 +9624,7 @@
         451.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9623,7 +9639,7 @@
         461.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9638,7 +9654,7 @@
         462.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9653,7 +9669,7 @@
         462.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9668,7 +9684,7 @@
         462.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9683,7 +9699,7 @@
         462.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9698,7 +9714,7 @@
         473.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9713,7 +9729,7 @@
         473.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9728,7 +9744,7 @@
         473.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9743,7 +9759,7 @@
         473.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9758,7 +9774,7 @@
         473.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9773,7 +9789,7 @@
         483.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9788,7 +9804,7 @@
         484.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9803,7 +9819,7 @@
         485.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9818,7 +9834,7 @@
         485.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9833,7 +9849,7 @@
         484.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9848,7 +9864,7 @@
         494.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9863,7 +9879,7 @@
         495.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9878,7 +9894,7 @@
         495.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9893,7 +9909,7 @@
         495.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9908,7 +9924,7 @@
         495.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9923,7 +9939,7 @@
         518.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9938,7 +9954,7 @@
         519.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9953,7 +9969,7 @@
         531.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9968,7 +9984,7 @@
         531.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9983,7 +9999,7 @@
         532.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -9998,7 +10014,7 @@
         532.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10028,7 +10044,7 @@
         543.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10043,7 +10059,7 @@
         543.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10058,7 +10074,7 @@
         543.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10073,7 +10089,7 @@
         543.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10088,7 +10104,7 @@
         544.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10103,7 +10119,7 @@
         554.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10118,7 +10134,7 @@
         554.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10133,7 +10149,7 @@
         554.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10148,7 +10164,7 @@
         554.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10163,7 +10179,7 @@
         555.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10178,7 +10194,7 @@
         565.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10193,7 +10209,7 @@
         565.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10208,7 +10224,7 @@
         565.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10223,7 +10239,7 @@
         565.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10238,7 +10254,7 @@
         566.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10253,7 +10269,7 @@
         576.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10268,7 +10284,7 @@
         575.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10283,7 +10299,7 @@
         576.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10298,7 +10314,7 @@
         576.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10313,7 +10329,7 @@
         577.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10328,7 +10344,7 @@
         587.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10343,7 +10359,7 @@
         587.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10358,7 +10374,7 @@
         587.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10373,7 +10389,7 @@
         587.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10388,7 +10404,7 @@
         587.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10403,7 +10419,7 @@
         598.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10418,7 +10434,7 @@
         598.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10433,7 +10449,7 @@
         598.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10448,7 +10464,7 @@
         598.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10463,7 +10479,7 @@
         599.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10478,7 +10494,7 @@
         608.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10493,7 +10509,7 @@
         608.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10508,7 +10524,7 @@
         608.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10523,7 +10539,7 @@
         608.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10538,7 +10554,7 @@
         610.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10553,7 +10569,7 @@
         620.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10568,7 +10584,7 @@
         620.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10583,7 +10599,7 @@
         620.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10598,7 +10614,7 @@
         620.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10613,7 +10629,7 @@
         621.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10628,7 +10644,7 @@
         651.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10643,7 +10659,7 @@
         651.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10658,7 +10674,7 @@
         651.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10673,7 +10689,7 @@
         651.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10688,7 +10704,7 @@
         654.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10703,7 +10719,7 @@
         654.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10718,7 +10734,7 @@
         654.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10733,7 +10749,7 @@
         654.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10748,7 +10764,7 @@
         662.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10763,7 +10779,7 @@
         662.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10778,7 +10794,7 @@
         662.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10793,7 +10809,7 @@
         662.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10808,7 +10824,7 @@
         666.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10823,7 +10839,7 @@
         666.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10838,7 +10854,7 @@
         666.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10853,7 +10869,7 @@
         666.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10868,7 +10884,7 @@
         673.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10883,7 +10899,7 @@
         673.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10898,7 +10914,7 @@
         673.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -10913,7 +10929,7 @@
         672.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10928,7 +10944,7 @@
         677.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10943,7 +10959,7 @@
         677.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10958,7 +10974,7 @@
         676.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10973,7 +10989,7 @@
         677.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -10988,7 +11004,7 @@
         687.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11003,7 +11019,7 @@
         687.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11018,7 +11034,7 @@
         688.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11033,7 +11049,7 @@
         687.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11048,7 +11064,7 @@
         687.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11063,7 +11079,7 @@
         699.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11078,7 +11094,7 @@
         699.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11093,7 +11109,7 @@
         699.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11108,7 +11124,7 @@
         699.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11123,7 +11139,7 @@
         699.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11138,7 +11154,7 @@
         710.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11153,7 +11169,7 @@
         710.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11168,7 +11184,7 @@
         710.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11183,7 +11199,7 @@
         710.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11198,7 +11214,7 @@
         711.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11213,7 +11229,7 @@
         711.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11228,7 +11244,7 @@
         711.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11243,7 +11259,7 @@
         711.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11258,7 +11274,7 @@
         722.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11273,7 +11289,7 @@
         722.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11288,7 +11304,7 @@
         722.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11303,7 +11319,7 @@
         722.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11318,7 +11334,7 @@
         722.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11333,7 +11349,7 @@
         722.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11348,7 +11364,7 @@
         722.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11363,7 +11379,7 @@
         722.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11378,7 +11394,7 @@
         733.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11393,7 +11409,7 @@
         733.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11408,7 +11424,7 @@
         733.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11423,7 +11439,7 @@
         733.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11438,7 +11454,7 @@
         733.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11453,7 +11469,7 @@
         733.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11468,7 +11484,7 @@
         733.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11483,7 +11499,7 @@
         733.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11498,7 +11514,7 @@
         744.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11513,7 +11529,7 @@
         744.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11528,7 +11544,7 @@
         744.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11543,7 +11559,7 @@
         744.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11558,7 +11574,7 @@
         744.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11573,7 +11589,7 @@
         744.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11588,7 +11604,7 @@
         744.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11603,7 +11619,7 @@
         744.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     }
   ],
@@ -11620,7 +11636,7 @@
         114.00699462890626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11635,7 +11651,7 @@
         114.00699462890626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11650,7 +11666,7 @@
         128.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11665,7 +11681,7 @@
         128.66898193359376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11680,7 +11696,7 @@
         141.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11695,7 +11711,7 @@
         141.32901611328126
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11710,7 +11726,7 @@
         155.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11725,7 +11741,7 @@
         155.66898193359376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11740,7 +11756,7 @@
         169.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11755,7 +11771,7 @@
         169.6139892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11770,7 +11786,7 @@
         183.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11785,7 +11801,7 @@
         183.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11800,7 +11816,7 @@
         197.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11815,7 +11831,7 @@
         197.25699462890626
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11830,7 +11846,7 @@
         211.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11845,7 +11861,7 @@
         211.72098388671876
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11860,7 +11876,7 @@
         224.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11875,7 +11891,7 @@
         224.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11890,7 +11906,7 @@
         238.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11905,7 +11921,7 @@
         239.04300537109376
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11920,7 +11936,7 @@
         252.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11935,7 +11951,7 @@
         252.5920166015625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11950,7 +11966,7 @@
         265.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11965,7 +11981,7 @@
         266.0430053710937
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -11980,7 +11996,7 @@
         279.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -11995,7 +12011,7 @@
         280.285009765625
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12010,7 +12026,7 @@
         293.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12025,7 +12041,7 @@
         294.0069946289062
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12040,7 +12056,7 @@
         307.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12055,7 +12071,7 @@
         307.6309875488281
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12070,7 +12086,7 @@
         321.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12085,7 +12101,7 @@
         321.3289855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12100,7 +12116,7 @@
         335.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12115,7 +12131,7 @@
         335.3230041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12130,7 +12146,7 @@
         349.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12145,7 +12161,7 @@
         349.6139892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12160,7 +12176,7 @@
         362.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12175,7 +12191,7 @@
         363.014990234375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12190,7 +12206,7 @@
         376.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12205,7 +12221,7 @@
         377.5789855957031
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12220,7 +12236,7 @@
         391.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12235,7 +12251,7 @@
         391.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12250,7 +12266,7 @@
         404.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12265,7 +12281,7 @@
         404.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12280,7 +12296,7 @@
         418.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12295,7 +12311,7 @@
         418.72101440429685
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12310,7 +12326,7 @@
         432.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12325,7 +12341,7 @@
         433.6309875488281
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12340,7 +12356,7 @@
         446.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12355,7 +12371,7 @@
         446.6860107421875
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12370,7 +12386,7 @@
         460.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12385,7 +12401,7 @@
         460.6309875488281
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12400,7 +12416,7 @@
         473.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12415,7 +12431,7 @@
         474.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12430,7 +12446,7 @@
         488.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12445,7 +12461,7 @@
         488.3230041503906
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12460,7 +12476,7 @@
         502.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12475,7 +12491,7 @@
         502.2930053710937
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12490,7 +12506,7 @@
         515.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12505,7 +12521,7 @@
         516.014990234375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12520,7 +12536,7 @@
         529.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12535,7 +12551,7 @@
         529.6139892578125
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12550,7 +12566,7 @@
         543.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12565,7 +12581,7 @@
         543.7079833984375
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12580,7 +12596,7 @@
         557.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12595,7 +12611,7 @@
         557.5790161132812
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12610,7 +12626,7 @@
         570.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12625,7 +12641,7 @@
         571.0539916992187
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12640,7 +12656,7 @@
         583.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12655,7 +12671,7 @@
         583.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12670,7 +12686,7 @@
         598.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12685,7 +12701,7 @@
         612.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12700,7 +12716,7 @@
         612.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12715,7 +12731,7 @@
         613.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12730,7 +12746,7 @@
         624.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12745,7 +12761,7 @@
         625.9
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12760,7 +12776,7 @@
         626.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12775,7 +12791,7 @@
         627.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12790,7 +12806,7 @@
         641.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12805,7 +12821,7 @@
         653.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12820,7 +12836,7 @@
         695.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12835,7 +12851,7 @@
         696.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12850,7 +12866,7 @@
         709.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12865,7 +12881,7 @@
         722.4
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "left"
     },
     {
@@ -12880,7 +12896,7 @@
         735.65
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     },
     {
@@ -12895,7 +12911,7 @@
         738.15
       ],
       "type": "text",
-      "fontSize": 6.2,
+      "fontSize": 6.6,
       "textAlign": "center"
     }
   ]

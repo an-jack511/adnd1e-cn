@@ -297,7 +297,7 @@ document.querySelector<HTMLButtonElement>('#roll-age')!.addEventListener('click'
 });
 
 function showPanel(panel:string) {
-  document.querySelectorAll<HTMLElement>('[data-card-panel]').forEach(section=>section.hidden=panel!=='all' && section.dataset.cardPanel!==panel);
+  document.querySelectorAll<HTMLElement>('[data-card-panel]').forEach(section=>section.hidden=panel==='rules'?section.dataset.cardPanel==='spells':panel!=='all'&&section.dataset.cardPanel!==panel);
   document.querySelectorAll<HTMLButtonElement>('[data-card-tab]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.cardTab===panel)));
 }
 document.querySelectorAll<HTMLButtonElement>('[data-card-tab]').forEach(button=>button.addEventListener('click',()=>showPanel(button.dataset.cardTab!)));
@@ -525,7 +525,7 @@ function updatePermanentField(id:string,bind:string,entry:string|boolean){
    if(option)control.value=option.value;
    else{card.permanentNotes={...permanentNotes(),[id]:entry};modified();return;}
   }else{
-   control.value=entry;
+   control.value=name==='exceptional_strength'?entry.replace(/^[/／]/,''):entry;
    if(name==='STR')splitStrength();
    if(name.startsWith('save_')&&field('manual_saves'))(field('manual_saves') as HTMLInputElement).checked=true;
   }

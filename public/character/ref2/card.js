@@ -40,6 +40,11 @@ function migrateUnarmed(values){
 }
 function migrateFields(values){
  if(!permanent){migrateUnarmed(values);return;}
+ const strength=/^(18)[/／](\d{1,2})$/.exec(values['p1.STR']||'');
+ if(strength){
+  values['p1.STR']=strength[1];
+  values['p1.exceptional_strength']??=strength[2];
+ }
  if(typeof values['p1.line028']==='string'){
   const [attack,...defense]=values['p1.line028'].split(/[/／]/);
   values['p1.psionic_attack']??=attack.trim();
@@ -57,7 +62,8 @@ function translatedValue(key){
  if(permanent){
   if(key==='vision')return fields.senses||'';
   if(key==='detection')return fields.detections||'';
-  if(key==='STR'&&fields.STR==='18'&&fields.exceptional_strength)return `18/${fields.exceptional_strength}`;
+  if(key==='STR')return String(fields.STR||'').split('/')[0];
+  if(key==='exceptional_strength')return String(fields.STR)==='18'?fields.exceptional_strength||'':'';
   const relation=/^relations\.(\d+)\.(\w+)$/.exec(key);
   if(relation){
    const [,index,column]=relation;
@@ -90,7 +96,10 @@ function translatedValue(key){
  }
  return fields[key]??'';
 }
-const all=spec.flat();if(source)for(const f of all)values[f.id]=translatedValue(f.bind);
+const all=spec.flat();if(source)for(const f of all){
+ const saved=permanent?source.permanentNotes?.[f.id]:undefined;
+ values[f.id]=typeof saved==='string'||typeof saved==='boolean'?saved:translatedValue(f.bind);
+}
 function updateMovement(raw){
  const match=/^\s*(\d+(?:\.\d+)?)\s*(["″]?)\s*$/.exec(raw);
  for(const field of all.filter(f=>f.movementFactor!==undefined)){
@@ -101,7 +110,7 @@ function updateMovement(raw){
 }
 for(let page=0;page<spec.length;page++){
  const pageNumber=page+(permanent?1:3);
- const sheet=document.createElement('section');sheet.className='sheet';sheet.dataset.page=String(pageNumber);sheet.setAttribute('aria-label',page?'人物表背面':'人物表正面');
+ const sheet=document.createElement('section');sheet.className='sheet';sheet.dataset.page=String(pageNumber);sheet.setAttribute('aria-label',permanent?'永久人物表第 '+pageNumber+' 面':page?'人物表背面':'人物表正面');
  // Inline vectors avoid Chromium rounding an external SVG image's intrinsic
  // viewport to whole pixels before printing. Namespaced clips remain page-local.
  const vector=await fetch(`p${pageNumber}.svg`).then(r=>r.text());
@@ -109,6 +118,10 @@ for(let page=0;page<spec.length;page++){
  art.setAttribute('class','art');art.setAttribute('aria-hidden','true');
  for(const node of art.querySelectorAll('[id]'))node.id=`p${pageNumber}-${node.id}`;
  for(const node of art.querySelectorAll('[clip-path]'))node.setAttribute('clip-path',node.getAttribute('clip-path').replace('url(#',`url(#p${pageNumber}-`));
+ if(embedded){
+  sheet.inert=true;
+  if(pageNumber!==Number(params.get('page')||1))sheet.hidden=true;
+ }
  sheet.append(document.importNode(art,true));
  for(const f of spec[page]){
   const control=document.createElement(!f.singleLine&&f.rect[3]-f.rect[1]>25?'textarea':'input');
@@ -183,7 +196,7 @@ if(source&&permanent){
 if(embedded){
  const resize=()=>{
   const sheets=$('#sheets');
-  sheets.style.setProperty('--preview',Math.min(1,document.documentElement.clientWidth/(210*96/25.4)));
+  sheets.style.setProperty('--preview',Math.min(1.12,(document.documentElement.clientWidth-2)/(210*96/25.4)));
   window.parent.postMessage({type:'permanent-size',height:sheets.getBoundingClientRect().height+4},location.origin);
  };
  window.addEventListener('resize',resize);
@@ -226,6 +239,7 @@ if(!embedded&&(spellsOnly||(spells.length||notes))){
   for(const id of ['download-pdf','save','blank','export','import'])if($('#'+id))$('#'+id).disabled=true;
  }
 }
+if(embedded)for(const sheet of document.querySelectorAll('.sheet'))sheet.inert=false;
 check();document.documentElement.dataset.ready='true';$('#status').textContent=source?'已载入自动人物卡计算结果；原版固定尺寸未缩放。':'已载入两页原版固定尺寸，可直接填写。';
 $('#save').onclick=()=>{try{localStorage.setItem(STORE,JSON.stringify(values));persistent=true;$('#status').textContent='已保存此份复刻表填写数据。';}catch{$('#status').textContent='保存失败，请导出数据备份。';}};
 $('#print').onclick=()=>{if(!spellsOnly&&check().length){$('#status').textContent='请先处理填写范围检查，避免打印时遗漏内容。';return;}window.print();};
