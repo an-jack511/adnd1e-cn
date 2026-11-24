@@ -284,6 +284,100 @@
     ]
   },
   {
+    "key": "glossary-context:phylactery",
+    "category": "glossary-context",
+    "en": "Phylactery",
+    "zh": "命匣／圣匣",
+    "englishVariants": [
+      "Phylactery"
+    ],
+    "legacyZh": [
+      "命匣",
+      "圣匣"
+    ],
+    "occurrences": [
+      {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "18",
+        "zh": "圣匣"
+      },
+      {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "19",
+        "zh": "命匣"
+      }
+    ],
+    "activeIds": [],
+    "status": "reference-conflict",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Phylactery",
+        "zh": "圣匣",
+        "url": "src/published/books/dmg/glossary-2.md#18"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Phylactery",
+        "zh": "命匣",
+        "url": "src/published/books/dmg/glossary-2.md#19"
+      }
+    ],
+    "notes": [
+      "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
+    ],
+    "verificationScope": "1e-glossary-context"
+  },
+  {
+    "key": "glossary-context:save vs. poison",
+    "category": "glossary-context",
+    "en": "Save vs. Poison",
+    "zh": "对毒素豁免／对毒药豁免",
+    "englishVariants": [
+      "Save vs. Poison"
+    ],
+    "legacyZh": [
+      "对毒素豁免",
+      "对毒药豁免"
+    ],
+    "occurrences": [
+      {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "192",
+        "zh": "对毒素豁免"
+      },
+      {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "192",
+        "zh": "对毒药豁免"
+      }
+    ],
+    "activeIds": [],
+    "status": "reference-conflict",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Save vs. Poison",
+        "zh": "对毒素豁免",
+        "url": "src/published/books/dmg/glossary-2.md#192"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Save vs. Poison",
+        "zh": "对毒药豁免",
+        "url": "src/published/books/dmg/glossary-2.md#192"
+      }
+    ],
+    "notes": [
+      "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
+    ],
+    "verificationScope": "1e-glossary-context"
+  },
+  {
     "key": "heading:animal friendship",
     "category": "heading",
     "en": "Animal Friendship",
@@ -9888,12 +9982,12 @@
     "key": "monster:lycanthrope",
     "category": "monster",
     "en": "Lycanthrope",
-    "zh": "兽化生物",
+    "zh": "兽化人",
     "englishVariants": [
       "Lycanthrope"
     ],
     "legacyZh": [
-      "兽化人",
+      "兽化生物",
       "兽化生物 ·"
     ],
     "occurrences": [
@@ -9901,6 +9995,11 @@
         "path": "../translation/monster-names.tsv",
         "location": "408",
         "zh": "兽化生物"
+      },
+      {
+        "path": "src/published/books/dmg/dmg-glossary.md",
+        "location": "52",
+        "zh": "兽化人"
       },
       {
         "path": "src/data/published/book-search.json",
@@ -9919,9 +10018,20 @@
       }
     ],
     "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "DMG translated glossary",
+        "en": "Lycanthrope",
+        "zh": "兽化人",
+        "url": "src/published/books/dmg/dmg-glossary.md#52"
+      }
+    ],
+    "notes": [
+      "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+    ],
+    "verificationScope": "1e-glossary-label"
   },
   {
     "key": "monster:manticore",
@@ -10188,6 +10298,63 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "monster:mezzodaemon",
+    "category": "monster",
+    "en": "Mezzodaemon",
+    "zh": "梅佐恶魔",
+    "englishVariants": [
+      "Mezzodaemon"
+    ],
+    "legacyZh": [
+      "夹层魔",
+      "夹层魔 ·"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "夹层魔"
+      },
+      {
+        "path": "src/data/public/ff-monsters-imported.json",
+        "location": "/100",
+        "zh": "夹层魔"
+      },
+      {
+        "path": "../translation/monster-names.tsv",
+        "location": "128",
+        "zh": "夹层魔"
+      },
+      {
+        "path": "src/published/books/dmg/dmg-glossary.md",
+        "location": "57",
+        "zh": "梅佐恶魔"
+      },
+      {
+        "path": "src/published/books/ff/ff-mezzodaemon-mite.md",
+        "location": "1",
+        "zh": "夹层魔 ·"
+      }
+    ],
+    "activeIds": [
+      "ff-mezzodaemon"
+    ],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "DMG translated glossary",
+        "en": "Mezzodaemon",
+        "zh": "梅佐恶魔",
+        "url": "src/published/books/dmg/dmg-glossary.md#57"
+      }
+    ],
+    "notes": [
+      "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+    ],
+    "verificationScope": "1e-glossary-label"
   },
   {
     "key": "monster:mite",
@@ -17067,6 +17234,11 @@
     ],
     "occurrences": [
       {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "90",
+        "zh": "每轮近战攻击次数表"
+      },
+      {
         "path": "terminology/rule-terms.tsv",
         "location": "200",
         "zh": "每轮近战攻击次数表"
@@ -17095,6 +17267,13 @@
         "en": "Attacks Per Melee Round Table",
         "zh": "每轮近战攻击次数表",
         "url": "src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Attacks Per Melee Round Table",
+        "zh": "每轮近战攻击次数表",
+        "url": "src/published/books/dmg/glossary-2.md#90"
       }
     ],
     "notes": [
@@ -19478,6 +19657,11 @@
         "zh": "人类定身术"
       },
       {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "174",
+        "zh": "人类定身术"
+      },
+      {
         "path": "src/published/books/oa/oa-shukenja-spells.md",
         "location": "415",
         "zh": "人类定身术"
@@ -19532,7 +19716,8 @@
       }
     ],
     "notes": [
-      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
     ]
   },
   {
@@ -22265,6 +22450,11 @@
         "zh": "化石为肉"
       },
       {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "176",
+        "zh": "化石为肉"
+      },
+      {
         "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
         "location": "225",
         "zh": "化石为肉"
@@ -22295,6 +22485,13 @@
         "edition": "1E",
         "source": "UA",
         "url": "src/published/books/ua/ua-magic-user-spell-table.md#85"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Stone to Flesh",
+        "zh": "化石为肉",
+        "url": "src/published/books/dmg/glossary-2.md#176"
       }
     ],
     "notes": [

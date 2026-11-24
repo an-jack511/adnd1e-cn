@@ -10794,6 +10794,11 @@
           "zh": "魔法师"
         },
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "54",
+          "zh": "魔法师"
+        },
+        {
           "path": "src/data/public/character-options.json",
           "location": "/classes/8",
           "zh": "魔法师"
@@ -10807,9 +10812,20 @@
       "activeIds": [
         "magic-user"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Magic-User",
+          "zh": "魔法师",
+          "url": "src/published/books/dmg/dmg-glossary.md#54"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "class:mariner",
@@ -11236,6 +11252,11 @@
           "zh": "巡林客"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "33",
+          "zh": "巡林客"
+        },
+        {
           "path": "src/data/public/character-options.json",
           "location": "/classes/7",
           "zh": "巡林客"
@@ -11307,6 +11328,13 @@
           "url": "https://dnd3r.huijiwiki.com/wiki/术语/玩家角色",
           "accessed": "2026-11-06",
           "retrieval": "search-indexed bilingual heading"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Ranger",
+          "zh": "巡林客",
+          "url": "src/published/books/dmg/glossary-2.md#33"
         }
       ],
       "notes": [
@@ -32406,6 +32434,1587 @@
       "notes": [
         "仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。"
       ]
+    },
+    {
+      "key": "glossary-context:phylactery",
+      "category": "glossary-context",
+      "en": "Phylactery",
+      "zh": "命匣／圣匣",
+      "englishVariants": [
+        "Phylactery"
+      ],
+      "legacyZh": [
+        "命匣",
+        "圣匣"
+      ],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "18",
+          "zh": "圣匣"
+        },
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "19",
+          "zh": "命匣"
+        }
+      ],
+      "activeIds": [],
+      "status": "reference-conflict",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Phylactery",
+          "zh": "圣匣",
+          "url": "src/published/books/dmg/glossary-2.md#18"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Phylactery",
+          "zh": "命匣",
+          "url": "src/published/books/dmg/glossary-2.md#19"
+        }
+      ],
+      "notes": [
+        "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
+      ],
+      "verificationScope": "1e-glossary-context"
+    },
+    {
+      "key": "glossary-context:save vs. poison",
+      "category": "glossary-context",
+      "en": "Save vs. Poison",
+      "zh": "对毒素豁免／对毒药豁免",
+      "englishVariants": [
+        "Save vs. Poison"
+      ],
+      "legacyZh": [
+        "对毒素豁免",
+        "对毒药豁免"
+      ],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "192",
+          "zh": "对毒素豁免"
+        },
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "192",
+          "zh": "对毒药豁免"
+        }
+      ],
+      "activeIds": [],
+      "status": "reference-conflict",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Poison",
+          "zh": "对毒素豁免",
+          "url": "src/published/books/dmg/glossary-2.md#192"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Poison",
+          "zh": "对毒药豁免",
+          "url": "src/published/books/dmg/glossary-2.md#192"
+        }
+      ],
+      "notes": [
+        "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
+      ],
+      "verificationScope": "1e-glossary-context"
+    },
+    {
+      "key": "glossary-term:area of effect(aoe)",
+      "category": "glossary-term",
+      "en": "Area of Effect（AOE）",
+      "zh": "作用区域",
+      "englishVariants": [
+        "Area of Effect（AOE）"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "88",
+          "zh": "作用区域"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Area of Effect（AOE）",
+          "zh": "作用区域",
+          "url": "src/published/books/dmg/glossary-2.md#88"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:astral",
+      "category": "glossary-term",
+      "en": "Astral",
+      "zh": "星界",
+      "englishVariants": [
+        "Astral"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "10",
+          "zh": "星界"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Astral",
+          "zh": "星界",
+          "url": "src/published/books/dmg/dmg-glossary.md#10"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:barbarian proficiency",
+      "category": "glossary-term",
+      "en": "Barbarian Proficiency",
+      "zh": "蛮族熟练项",
+      "englishVariants": [
+        "Barbarian Proficiency"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "36",
+          "zh": "蛮族熟练项"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Barbarian Proficiency",
+          "zh": "蛮族熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#36"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:bolt",
+      "category": "glossary-term",
+      "en": "Bolt",
+      "zh": "弩矢",
+      "englishVariants": [
+        "Bolt"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "11",
+          "zh": "弩矢"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Bolt",
+          "zh": "弩矢",
+          "url": "src/published/books/dmg/dmg-glossary.md#11"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:c.p.",
+      "category": "glossary-term",
+      "en": "c.p.",
+      "zh": "铜币",
+      "englishVariants": [
+        "c.p."
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "17",
+          "zh": "铜币"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "c.p.",
+          "zh": "铜币",
+          "url": "src/published/books/dmg/dmg-glossary.md#17"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:cf.",
+      "category": "glossary-term",
+      "en": "Cf.",
+      "zh": "比较",
+      "englishVariants": [
+        "Cf."
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "14",
+          "zh": "比较"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Cf.",
+          "zh": "比较",
+          "url": "src/published/books/dmg/dmg-glossary.md#14"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:charm",
+      "category": "glossary-term",
+      "en": "Charm",
+      "zh": "魅惑",
+      "englishVariants": [
+        "Charm"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "15",
+          "zh": "魅惑"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Charm",
+          "zh": "魅惑",
+          "url": "src/published/books/dmg/dmg-glossary.md#15"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:court proficiency",
+      "category": "glossary-term",
+      "en": "Court Proficiency",
+      "zh": "宫廷熟练项",
+      "englishVariants": [
+        "Court Proficiency"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "38",
+          "zh": "宫廷熟练项"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Court Proficiency",
+          "zh": "宫廷熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#38"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:cultural proficiency",
+      "category": "glossary-term",
+      "en": "Cultural Proficiency",
+      "zh": "文化熟练项",
+      "englishVariants": [
+        "Cultural Proficiency"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "44",
+          "zh": "文化熟练项"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Cultural Proficiency",
+          "zh": "文化熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#44"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:deities",
+      "category": "glossary-term",
+      "en": "Deities",
+      "zh": "神祇",
+      "englishVariants": [
+        "Deities"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "21",
+          "zh": "神祇"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Deities",
+          "zh": "神祇",
+          "url": "src/published/books/dmg/dmg-glossary.md#21"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:dram",
+      "category": "glossary-term",
+      "en": "Dram",
+      "zh": "德拉姆",
+      "englishVariants": [
+        "Dram"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "56",
+          "zh": "德拉姆"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Dram",
+          "zh": "德拉姆",
+          "url": "src/published/books/dmg/glossary-2.md#56"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:dungeon",
+      "category": "glossary-term",
+      "en": "Dungeon",
+      "zh": "地下城",
+      "englishVariants": [
+        "Dungeon"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "24",
+          "zh": "地下城"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Dungeon",
+          "zh": "地下城",
+          "url": "src/published/books/dmg/dmg-glossary.md#24"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:dweomer",
+      "category": "glossary-term",
+      "en": "Dweomer",
+      "zh": "魔力",
+      "englishVariants": [
+        "Dweomer"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "25",
+          "zh": "魔力"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Dweomer",
+          "zh": "魔力",
+          "url": "src/published/books/dmg/dmg-glossary.md#25"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:e.p.(亦作琥珀金币)",
+      "category": "glossary-term",
+      "en": "e.p.（亦作琥珀金币）",
+      "zh": "电子币",
+      "englishVariants": [
+        "e.p.（亦作琥珀金币）"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "30",
+          "zh": "电子币"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "e.p.（亦作琥珀金币）",
+          "zh": "电子币",
+          "url": "src/published/books/dmg/dmg-glossary.md#30"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:elric",
+      "category": "glossary-term",
+      "en": "Elric",
+      "zh": "埃尔里克",
+      "englishVariants": [
+        "Elric"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "62",
+          "zh": "埃尔里克"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Elric",
+          "zh": "埃尔里克",
+          "url": "src/published/books/dmg/glossary-2.md#62"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:ethereal",
+      "category": "glossary-term",
+      "en": "Ethereal",
+      "zh": "以太位面",
+      "englishVariants": [
+        "Ethereal"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "32",
+          "zh": "以太位面"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Ethereal",
+          "zh": "以太位面",
+          "url": "src/published/books/dmg/dmg-glossary.md#32"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:fafhrd",
+      "category": "glossary-term",
+      "en": "Fafhrd",
+      "zh": "法弗赫德",
+      "englishVariants": [
+        "Fafhrd"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "63",
+          "zh": "法弗赫德"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Fafhrd",
+          "zh": "法弗赫德",
+          "url": "src/published/books/dmg/glossary-2.md#63"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:feet",
+      "category": "glossary-term",
+      "en": "Feet",
+      "zh": "尺",
+      "englishVariants": [
+        "Feet"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "37",
+          "zh": "尺"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Feet",
+          "zh": "尺",
+          "url": "src/published/books/dmg/dmg-glossary.md#37"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:g.p.",
+      "category": "glossary-term",
+      "en": "g.p.",
+      "zh": "金币",
+      "englishVariants": [
+        "g.p."
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "39",
+          "zh": "金币"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "g.p.",
+          "zh": "金币",
+          "url": "src/published/books/dmg/dmg-glossary.md#39"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:holy/unholy water",
+      "category": "glossary-term",
+      "en": "Holy/Unholy Water",
+      "zh": "圣水",
+      "englishVariants": [
+        "Holy/Unholy Water"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "44",
+          "zh": "圣水"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Holy/Unholy Water",
+          "zh": "圣水",
+          "url": "src/published/books/dmg/dmg-glossary.md#44"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:inches",
+      "category": "glossary-term",
+      "en": "Inches",
+      "zh": "寸",
+      "englishVariants": [
+        "Inches"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "47",
+          "zh": "寸"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Inches",
+          "zh": "寸",
+          "url": "src/published/books/dmg/dmg-glossary.md#47"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:initiative roll",
+      "category": "glossary-term",
+      "en": "Initiative Roll",
+      "zh": "先攻骰",
+      "englishVariants": [
+        "Initiative Roll"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "132",
+          "zh": "先攻骰"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Initiative Roll",
+          "zh": "先攻骰",
+          "url": "src/published/books/dmg/glossary-2.md#132"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:league",
+      "category": "glossary-term",
+      "en": "League",
+      "zh": "联盟",
+      "englishVariants": [
+        "League"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "50",
+          "zh": "联盟"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "League",
+          "zh": "联盟",
+          "url": "src/published/books/dmg/dmg-glossary.md#50"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:llirryn",
+      "category": "glossary-term",
+      "en": "Llirryn",
+      "zh": "利林",
+      "englishVariants": [
+        "Llirryn"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "65",
+          "zh": "利林"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Llirryn",
+          "zh": "利林",
+          "url": "src/published/books/dmg/glossary-2.md#65"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:magic",
+      "category": "glossary-term",
+      "en": "Magic",
+      "zh": "魔法",
+      "englishVariants": [
+        "Magic"
+      ],
+      "legacyZh": [
+        "以太位面的魔法"
+      ],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "53",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-astral-plane.md",
+          "location": "74",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-elemental-air.md",
+          "location": "53",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-elemental-earth.md",
+          "location": "57",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-elemental-fire.md",
+          "location": "51",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-elemental-water.md",
+          "location": "39",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-ethereal-combat-magic.md",
+          "location": "9",
+          "zh": "以太位面的魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-inner-planes.md",
+          "location": "73",
+          "zh": "魔法"
+        },
+        {
+          "path": "src/published/books/motp/motp-outer-planes.md",
+          "location": "68",
+          "zh": "魔法"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Magic",
+          "zh": "魔法",
+          "url": "src/published/books/dmg/dmg-glossary.md#53"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:milieu",
+      "category": "glossary-term",
+      "en": "Milieu",
+      "zh": "世界设定",
+      "englishVariants": [
+        "Milieu"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "58",
+          "zh": "世界设定"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Milieu",
+          "zh": "世界设定",
+          "url": "src/published/books/dmg/dmg-glossary.md#58"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:mind blast",
+      "category": "glossary-term",
+      "en": "Mind Blast",
+      "zh": "夺心魔的灵能冲击",
+      "englishVariants": [
+        "Mind Blast"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "218",
+          "zh": "夺心魔的灵能冲击"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Mind Blast",
+          "zh": "夺心魔的灵能冲击",
+          "url": "src/published/books/dmg/glossary-2.md#218"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:mizugumo",
+      "category": "glossary-term",
+      "en": "Mizugumo",
+      "zh": "水蜘蛛",
+      "englishVariants": [
+        "Mizugumo"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "54",
+          "zh": "水蜘蛛"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Mizugumo",
+          "zh": "水蜘蛛",
+          "url": "src/published/books/dmg/glossary-2.md#54"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:monty haul",
+      "category": "glossary-term",
+      "en": "Monty Haul",
+      "zh": "蒙蒂·豪尔",
+      "englishVariants": [
+        "Monty Haul"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "6",
+          "zh": "蒙蒂·豪尔"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Monty Haul",
+          "zh": "蒙蒂·豪尔",
+          "url": "src/published/books/dmg/glossary-2.md#6"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:morale roll",
+      "category": "glossary-term",
+      "en": "Morale Roll",
+      "zh": "士气检定",
+      "englishVariants": [
+        "Morale Roll"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "136",
+          "zh": "士气检定"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Morale Roll",
+          "zh": "士气检定",
+          "url": "src/published/books/dmg/glossary-2.md#136"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:p.p.(亦作铂金币)",
+      "category": "glossary-term",
+      "en": "p.p.（亦作铂金币）",
+      "zh": "白金币",
+      "englishVariants": [
+        "p.p.（亦作铂金币）"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "73",
+          "zh": "白金币"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "p.p.（亦作铂金币）",
+          "zh": "白金币",
+          "url": "src/published/books/dmg/glossary-2.md#73"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:round",
+      "category": "glossary-term",
+      "en": "Round",
+      "zh": "轮",
+      "englishVariants": [
+        "Round"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "81",
+          "zh": "轮"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Round",
+          "zh": "轮",
+          "url": "src/published/books/dmg/glossary-2.md#81"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:s.p.",
+      "category": "glossary-term",
+      "en": "s.p.",
+      "zh": "银币",
+      "englishVariants": [
+        "s.p."
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "198",
+          "zh": "银币"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "s.p.",
+          "zh": "银币",
+          "url": "src/published/books/dmg/glossary-2.md#198"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:segment",
+      "category": "glossary-term",
+      "en": "Segment",
+      "zh": "段",
+      "englishVariants": [
+        "Segment"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "197",
+          "zh": "段"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Segment",
+          "zh": "段",
+          "url": "src/published/books/dmg/glossary-2.md#197"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:shinobi kumade",
+      "category": "glossary-term",
+      "en": "Shinobi Kumade",
+      "zh": "忍者攀爬耙",
+      "englishVariants": [
+        "Shinobi Kumade"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "51",
+          "zh": "忍者攀爬耙"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Shinobi Kumade",
+          "zh": "忍者攀爬耙",
+          "url": "src/published/books/dmg/glossary-2.md#51"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:shinobi shozoku",
+      "category": "glossary-term",
+      "en": "Shinobi Shozoku",
+      "zh": "忍者装束",
+      "englishVariants": [
+        "Shinobi Shozoku"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "49",
+          "zh": "忍者装束"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Shinobi Shozoku",
+          "zh": "忍者装束",
+          "url": "src/published/books/dmg/glossary-2.md#49"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:silvershield",
+      "category": "glossary-term",
+      "en": "Silvershield",
+      "zh": "银盾",
+      "englishVariants": [
+        "Silvershield"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "66",
+          "zh": "银盾"
+        },
+        {
+          "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
+          "location": "43",
+          "zh": "银盾"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Silvershield",
+          "zh": "银盾",
+          "url": "src/published/books/dmg/glossary-2.md#66"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:te-kagi",
+      "category": "glossary-term",
+      "en": "Te-kagi",
+      "zh": "攀爬爪",
+      "englishVariants": [
+        "Te-kagi"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "50",
+          "zh": "攀爬爪"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Te-kagi",
+          "zh": "攀爬爪",
+          "url": "src/published/books/dmg/glossary-2.md#50"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:tobi-kunai",
+      "category": "glossary-term",
+      "en": "Tobi-kunai",
+      "zh": "多用途苦无",
+      "englishVariants": [
+        "Tobi-kunai"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "52",
+          "zh": "多用途苦无"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Tobi-kunai",
+          "zh": "多用途苦无",
+          "url": "src/published/books/dmg/glossary-2.md#52"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:tsuba-giri",
+      "category": "glossary-term",
+      "en": "Tsuba-giri",
+      "zh": "撬门叉",
+      "englishVariants": [
+        "Tsuba-giri"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "53",
+          "zh": "撬门叉"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Tsuba-giri",
+          "zh": "撬门叉",
+          "url": "src/published/books/dmg/glossary-2.md#53"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:turn",
+      "category": "glossary-term",
+      "en": "Turn",
+      "zh": "回合",
+      "englishVariants": [
+        "Turn"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "206",
+          "zh": "回合"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Turn",
+          "zh": "回合",
+          "url": "src/published/books/dmg/glossary-2.md#206"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:tyaa",
+      "category": "glossary-term",
+      "en": "Tyaa",
+      "zh": "泰亚",
+      "englishVariants": [
+        "Tyaa"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "67",
+          "zh": "泰亚"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Tyaa",
+          "zh": "泰亚",
+          "url": "src/published/books/dmg/glossary-2.md#67"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:votishal",
+      "category": "glossary-term",
+      "en": "Votishal",
+      "zh": "沃提沙尔",
+      "englishVariants": [
+        "Votishal"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "68",
+          "zh": "沃提沙尔"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Votishal",
+          "zh": "沃提沙尔",
+          "url": "src/published/books/dmg/glossary-2.md#68"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:waterfolk",
+      "category": "glossary-term",
+      "en": "WaterFolk",
+      "zh": "水族",
+      "englishVariants": [
+        "WaterFolk"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "64",
+          "zh": "水族"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "WaterFolk",
+          "zh": "水族",
+          "url": "src/published/books/dmg/glossary-2.md#64"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
+    },
+    {
+      "key": "glossary-term:战斗轮 combat round",
+      "category": "glossary-term",
+      "en": "战斗轮 Combat Round",
+      "zh": "近战轮",
+      "englishVariants": [
+        "战斗轮 Combat Round"
+      ],
+      "legacyZh": [],
+      "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "83",
+          "zh": "近战轮"
+        }
+      ],
+      "activeIds": [],
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "战斗轮 Combat Round",
+          "zh": "近战轮",
+          "url": "src/published/books/dmg/glossary-2.md#83"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "hazard:arcane effluence",
@@ -71860,64 +73469,6 @@
       "notes": []
     },
     {
-      "key": "heading:magic",
-      "category": "heading",
-      "en": "Magic",
-      "zh": "魔法",
-      "englishVariants": [
-        "Magic"
-      ],
-      "legacyZh": [
-        "以太位面的魔法"
-      ],
-      "occurrences": [
-        {
-          "path": "src/published/books/motp/motp-astral-plane.md",
-          "location": "74",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-elemental-air.md",
-          "location": "53",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-elemental-earth.md",
-          "location": "57",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-elemental-fire.md",
-          "location": "51",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-elemental-water.md",
-          "location": "39",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-ethereal-combat-magic.md",
-          "location": "9",
-          "zh": "以太位面的魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-inner-planes.md",
-          "location": "73",
-          "zh": "魔法"
-        },
-        {
-          "path": "src/published/books/motp/motp-outer-planes.md",
-          "location": "68",
-          "zh": "魔法"
-        }
-      ],
-      "activeIds": [],
-      "status": "pending",
-      "references": [],
-      "notes": []
-    },
-    {
       "key": "heading:magic in the wilderness",
       "category": "heading",
       "en": "Magic in the Wilderness",
@@ -90236,27 +91787,6 @@
           "path": "src/published/books/dla/dla-krynn-dragons.md",
           "location": "97",
           "zh": "银龙"
-        }
-      ],
-      "activeIds": [],
-      "status": "pending",
-      "references": [],
-      "notes": []
-    },
-    {
-      "key": "heading:silvershield",
-      "category": "heading",
-      "en": "Silvershield",
-      "zh": "银盾",
-      "englishVariants": [
-        "Silvershield"
-      ],
-      "legacyZh": [],
-      "occurrences": [
-        {
-          "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
-          "location": "43",
-          "zh": "银盾"
         }
       ],
       "activeIds": [],
@@ -310386,12 +311916,12 @@
       "key": "monster:lycanthrope",
       "category": "monster",
       "en": "Lycanthrope",
-      "zh": "兽化生物",
+      "zh": "兽化人",
       "englishVariants": [
         "Lycanthrope"
       ],
       "legacyZh": [
-        "兽化人",
+        "兽化生物",
         "兽化生物 ·"
       ],
       "occurrences": [
@@ -310399,6 +311929,11 @@
           "path": "../translation/monster-names.tsv",
           "location": "408",
           "zh": "兽化生物"
+        },
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "52",
+          "zh": "兽化人"
         },
         {
           "path": "src/data/published/book-search.json",
@@ -310417,9 +311952,20 @@
         }
       ],
       "activeIds": [],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Lycanthrope",
+          "zh": "兽化人",
+          "url": "src/published/books/dmg/dmg-glossary.md#52"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "monster:lycanthropickle",
@@ -314851,11 +316397,12 @@
       "key": "monster:mezzodaemon",
       "category": "monster",
       "en": "Mezzodaemon",
-      "zh": "夹层魔",
+      "zh": "梅佐恶魔",
       "englishVariants": [
         "Mezzodaemon"
       ],
       "legacyZh": [
+        "夹层魔",
         "夹层魔 ·"
       ],
       "occurrences": [
@@ -314875,6 +316422,11 @@
           "zh": "夹层魔"
         },
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "57",
+          "zh": "梅佐恶魔"
+        },
+        {
           "path": "src/published/books/ff/ff-mezzodaemon-mite.md",
           "location": "1",
           "zh": "夹层魔 ·"
@@ -314883,9 +316435,20 @@
       "activeIds": [
         "ff-mezzodaemon"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Mezzodaemon",
+          "zh": "梅佐恶魔",
+          "url": "src/published/books/dmg/dmg-glossary.md#57"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "monster:mezzoloth",
@@ -323116,11 +324679,13 @@
       "key": "monster:nycadaemon",
       "category": "monster",
       "en": "Nycadaemon",
-      "zh": "夜魔",
+      "zh": "尼卡恶魔",
       "englishVariants": [
         "Nycadaemon"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "夜魔"
+      ],
       "occurrences": [
         {
           "path": "@library",
@@ -323138,6 +324703,11 @@
           "zh": "夜魔"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "11",
+          "zh": "尼卡恶魔"
+        },
+        {
           "path": "src/data/published/book-search.json",
           "location": "/736",
           "zh": "夜魔"
@@ -323151,9 +324721,20 @@
       "activeIds": [
         "ff-nycadaemon"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Nycadaemon",
+          "zh": "尼卡恶魔",
+          "url": "src/published/books/dmg/glossary-2.md#11"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "monster:nycaloth",
@@ -364021,6 +365602,11 @@
           "zh": "影伴"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "55",
+          "zh": "影伴"
+        },
+        {
           "path": "src/published/books/ff/ff-trilloch-troll-tween.md",
           "location": "172",
           "zh": "影伴 ·"
@@ -364029,9 +365615,20 @@
       "activeIds": [
         "ff-tween"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Tween",
+          "zh": "影伴",
+          "url": "src/published/books/dmg/glossary-2.md#55"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "monster:twig blight",
@@ -430943,6 +432540,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "186",
+          "zh": "能力检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "64",
           "zh": "能力检定"
@@ -430956,6 +432558,13 @@
           "en": "Ability Check",
           "zh": "能力检定",
           "url": "src/published/books/dmg/glossary-2.md#161"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Ability Check",
+          "zh": "能力检定",
+          "url": "src/published/books/dmg/glossary-2.md#186"
         }
       ],
       "notes": [
@@ -431041,6 +432650,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "5",
+          "zh": "属性值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "346",
           "zh": "属性值"
@@ -431054,6 +432668,13 @@
           "en": "Ability Scores",
           "zh": "属性值",
           "url": "src/published/books/dmg/dmg-glossary.md:5"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Ability Scores",
+          "zh": "属性值",
+          "url": "src/published/books/dmg/dmg-glossary.md#5"
         }
       ],
       "notes": [
@@ -431071,6 +432692,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "146",
+          "zh": "战斗及其他时间敏感情境中的行动"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "293",
@@ -431090,6 +432716,13 @@
           "en": "Actions During Combat and Similar Time-Important Situations",
           "zh": "战斗及其他时间敏感情境中的行动",
           "url": "src/published/books/dmg/dmg-combat.md#478"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Actions During Combat and Similar Time-Important Situations",
+          "zh": "战斗及其他时间敏感情境中的行动",
+          "url": "src/published/books/dmg/glossary-2.md#146"
         }
       ],
       "notes": [
@@ -431294,6 +432927,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "181",
+          "zh": "阵营"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "132",
           "zh": "阵营"
@@ -431342,6 +432980,13 @@
           "en": "Alignment",
           "zh": "阵营",
           "url": "src/published/books/dmg/glossary-2.md#156"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Alignment",
+          "zh": "阵营",
+          "url": "src/published/books/dmg/glossary-2.md#181"
         }
       ],
       "notes": [
@@ -431439,6 +433084,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "45",
+          "zh": "动物处理熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "24",
           "zh": "动物处理熟练项"
@@ -431452,6 +433102,13 @@
           "en": "Animal Handling Proficiency",
           "zh": "动物处理熟练项",
           "url": "src/published/books/dmg/glossary-2.md#43"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Animal Handling Proficiency",
+          "zh": "动物处理熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#45"
         }
       ],
       "notes": [
@@ -431574,6 +433231,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "84",
+          "zh": "护甲等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "72",
           "zh": "护甲等级"
@@ -431602,6 +433264,13 @@
           "en": "Armor Class",
           "zh": "护甲等级",
           "url": "src/published/books/dmg/glossary-2.md#81"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Armor Class",
+          "zh": "护甲等级",
+          "url": "src/published/books/dmg/glossary-2.md#84"
         }
       ],
       "notes": [
@@ -431620,6 +433289,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "87",
+          "zh": "护甲等级调整"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "75",
           "zh": "护甲等级调整"
@@ -431633,6 +433307,13 @@
           "en": "Armor Class Adjustment",
           "zh": "护甲等级调整",
           "url": "src/published/books/dmg/glossary-2.md#84"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Armor Class Adjustment",
+          "zh": "护甲等级调整",
+          "url": "src/published/books/dmg/glossary-2.md#87"
         }
       ],
       "notes": [
@@ -431681,6 +433362,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "9",
+          "zh": "神器"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "347",
@@ -431864,6 +433550,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "35",
+          "zh": "工匠熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "15",
           "zh": "工匠熟练项"
@@ -431882,6 +433573,13 @@
           "en": "Artisan Proficiencies",
           "zh": "工匠熟练项",
           "url": "src/published/books/oa/oa-proficiencies.md:96"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Artisan Proficiencies",
+          "zh": "工匠熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#35"
         }
       ],
       "notes": [
@@ -432010,8 +433708,15 @@
       "englishVariants": [
         "Attack Adjustment"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "攻击调整"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "102",
+          "zh": "攻击调整"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "89",
@@ -432026,6 +433731,13 @@
           "en": "Attack Adjustment",
           "zh": "攻击调整／攻击调整值",
           "url": "src/published/books/dmg/glossary-2.md#97"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attack Adjustment",
+          "zh": "攻击调整",
+          "url": "src/published/books/dmg/glossary-2.md#102"
         }
       ],
       "notes": [
@@ -432087,6 +433799,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "92",
+          "zh": "攻击矩阵"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "79",
           "zh": "攻击矩阵"
@@ -432100,6 +433817,13 @@
           "en": "Attack Matrix",
           "zh": "攻击矩阵",
           "url": "src/published/books/dmg/glossary-2.md#88"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attack Matrix",
+          "zh": "攻击矩阵",
+          "url": "src/published/books/dmg/glossary-2.md#92"
         }
       ],
       "notes": [
@@ -432197,6 +433921,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "93",
+          "zh": "攻击骰"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "80",
           "zh": "攻击骰"
@@ -432210,6 +433939,13 @@
           "en": "Attack Roll",
           "zh": "攻击骰",
           "url": "src/published/books/dmg/glossary-2.md#89"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attack Roll",
+          "zh": "攻击骰",
+          "url": "src/published/books/dmg/glossary-2.md#93"
         }
       ],
       "notes": [
@@ -432228,6 +433964,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "91",
+          "zh": "攻击序列"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "78",
           "zh": "攻击序列"
@@ -432241,6 +433982,13 @@
           "en": "Attack Sequence",
           "zh": "攻击序列",
           "url": "src/published/books/dmg/glossary-2.md#87"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attack Sequence",
+          "zh": "攻击序列",
+          "url": "src/published/books/dmg/glossary-2.md#91"
         }
       ],
       "notes": [
@@ -432326,6 +434074,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "89",
+          "zh": "攻击次数"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "77",
           "zh": "攻击次数"
@@ -432339,6 +434092,13 @@
           "en": "Attacks",
           "zh": "攻击次数",
           "url": "src/published/books/dmg/glossary-2.md#86"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attacks",
+          "zh": "攻击次数",
+          "url": "src/published/books/dmg/glossary-2.md#89"
         }
       ],
       "notes": [
@@ -432359,6 +434119,11 @@
         "每近战轮攻击次数表"
       ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "90",
+          "zh": "每轮近战攻击次数表"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "200",
@@ -432388,6 +434153,13 @@
           "en": "Attacks Per Melee Round Table",
           "zh": "每轮近战攻击次数表",
           "url": "src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Attacks Per Melee Round Table",
+          "zh": "每轮近战攻击次数表",
+          "url": "src/published/books/dmg/glossary-2.md#90"
         }
       ],
       "notes": [
@@ -432478,6 +434250,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "149",
+          "zh": "等待行动"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "274",
           "zh": "等待行动"
@@ -432496,6 +434273,13 @@
           "en": "Awaiting Action",
           "zh": "等待行动",
           "url": "src/published/books/dmg/dmg-combat.md#137"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Awaiting Action",
+          "zh": "等待行动",
+          "url": "src/published/books/dmg/glossary-2.md#149"
         }
       ],
       "notes": [
@@ -432552,6 +434336,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "85",
+          "zh": "基础护甲等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "73",
           "zh": "基础护甲等级"
@@ -432565,6 +434354,13 @@
           "en": "Base Armor Class",
           "zh": "基础护甲等级",
           "url": "src/published/books/dmg/glossary-2.md#82"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Base Armor Class",
+          "zh": "基础护甲等级",
+          "url": "src/published/books/dmg/glossary-2.md#85"
         }
       ],
       "notes": [
@@ -432583,6 +434379,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "23",
+          "zh": "基础成功数"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "195",
           "zh": "基础成功数"
@@ -432596,6 +434397,13 @@
           "en": "Base Chance of Success",
           "zh": "基础成功数",
           "url": "src/published/books/dmg/glossary-2.md#22"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Base Chance of Success",
+          "zh": "基础成功数",
+          "url": "src/published/books/dmg/glossary-2.md#23"
         }
       ],
       "notes": [
@@ -432647,8 +434455,15 @@
       "englishVariants": [
         "Bend Bars/Lift Gates"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "弯折铁条"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "187",
+          "zh": "弯折铁条"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "143",
@@ -432663,6 +434478,13 @@
           "en": "Bend Bars/Lift Gates",
           "zh": "弯折铁条／抬起闸门",
           "url": "src/published/books/dmg/glossary-2.md#162"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Bend Bars/Lift Gates",
+          "zh": "弯折铁条",
+          "url": "src/published/books/dmg/glossary-2.md#187"
         }
       ],
       "notes": [
@@ -432810,6 +434632,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "40",
+          "zh": "划船熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "391",
           "zh": "划船熟练项"
@@ -432828,6 +434655,13 @@
           "en": "Boating",
           "zh": "划船熟练项",
           "url": "src/published/books/wsg/wsg-proficiencies.md:131; AD&D 1E Wilderness Survival Guide, Table 2"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Boating",
+          "zh": "划船熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#40"
         }
       ],
       "notes": [
@@ -432954,6 +434788,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "12",
+          "zh": "喷吐武器"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "194",
           "zh": "喷吐武器"
@@ -432967,6 +434806,13 @@
           "en": "Breath Weapon",
           "zh": "喷吐武器",
           "url": "src/published/books/dmg/glossary-2.md#167"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Breath Weapon",
+          "zh": "喷吐武器",
+          "url": "src/published/books/dmg/dmg-glossary.md#12"
         }
       ],
       "notes": [
@@ -433052,6 +434898,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "13",
+          "zh": "战役"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "329",
           "zh": "战役"
@@ -433065,6 +434916,13 @@
           "en": "Campaign",
           "zh": "战役",
           "url": "src/published/books/dmg/dmg-glossary.md:13"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Campaign",
+          "zh": "战役",
+          "url": "src/published/books/dmg/dmg-glossary.md#13"
         }
       ],
       "notes": [
@@ -433083,6 +434941,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "177",
+          "zh": "施法者等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "128",
           "zh": "施法者等级"
@@ -433096,6 +434959,13 @@
           "en": "Caster Level",
           "zh": "施法者等级",
           "url": "src/published/books/dmg/glossary-2.md#152"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Caster Level",
+          "zh": "施法者等级",
+          "url": "src/published/books/dmg/glossary-2.md#177"
         }
       ],
       "notes": [
@@ -433114,6 +434984,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "112",
+          "zh": "施法时间"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "99",
           "zh": "施法时间"
@@ -433127,6 +435002,13 @@
           "en": "Casting Time",
           "zh": "施法时间",
           "url": "src/published/books/dmg/glossary-2.md#107"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Casting Time",
+          "zh": "施法时间",
+          "url": "src/published/books/dmg/glossary-2.md#112"
         }
       ],
       "notes": [
@@ -433351,6 +435233,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "178",
+          "zh": "角色等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "129",
           "zh": "角色等级"
@@ -433364,6 +435251,13 @@
           "en": "Character Level",
           "zh": "角色等级",
           "url": "src/published/books/dmg/glossary-2.md#153"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Character Level",
+          "zh": "角色等级",
+          "url": "src/published/books/dmg/glossary-2.md#178"
         }
       ],
       "notes": [
@@ -433382,6 +435276,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "13",
+          "zh": "角色队伍"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "296",
           "zh": "角色队伍"
@@ -433395,6 +435294,13 @@
           "en": "Character Party",
           "zh": "角色队伍",
           "url": "src/published/books/mm2/mm2-random-encounter-dungeon.md:20; src/published/books/mm2/mm2-random-encounter-outdoor.md:38"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Character Party",
+          "zh": "角色队伍",
+          "url": "src/published/books/dmg/glossary-2.md#13"
         }
       ],
       "notes": [
@@ -433412,6 +435318,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "34",
+          "zh": "角色熟练项"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "8",
@@ -433431,6 +435342,13 @@
           "en": "Character Proficiencies",
           "zh": "角色熟练项",
           "url": "src/published/books/dmg/glossary-2.md#33"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Character Proficiencies",
+          "zh": "角色熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#34"
         }
       ],
       "notes": [
@@ -433448,6 +435366,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "152",
+          "zh": "冲锋"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "277",
@@ -433467,6 +435390,13 @@
           "en": "Charge",
           "zh": "冲锋",
           "url": "src/published/books/dmg/dmg-combat.md#287"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Charge",
+          "zh": "冲锋",
+          "url": "src/published/books/dmg/glossary-2.md#152"
         }
       ],
       "notes": [
@@ -433521,6 +435451,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "188",
+          "zh": "检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "144",
           "zh": "检定"
@@ -433534,6 +435469,13 @@
           "en": "Check",
           "zh": "检定",
           "url": "src/published/books/dmg/glossary-2.md#21"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Check",
+          "zh": "检定",
+          "url": "src/published/books/dmg/glossary-2.md#188"
         }
       ],
       "notes": [
@@ -433652,6 +435594,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "16",
+          "zh": "职业"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "330",
           "zh": "职业"
@@ -433670,6 +435617,13 @@
           "en": "Class",
           "zh": "职业",
           "url": "src/published/books/dmg/dmg-glossary.md:16"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Class",
+          "zh": "职业",
+          "url": "src/published/books/dmg/dmg-glossary.md#16"
         }
       ],
       "notes": [
@@ -433688,6 +435642,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "118",
+          "zh": "职业等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "106",
           "zh": "职业等级"
@@ -433701,6 +435660,13 @@
           "en": "Class Level",
           "zh": "职业等级",
           "url": "src/published/books/dmg/glossary-2.md#113"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Class Level",
+          "zh": "职业等级",
+          "url": "src/published/books/dmg/glossary-2.md#118"
         }
       ],
       "notes": [
@@ -433750,6 +435716,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "121",
+          "zh": "牧师等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "109",
           "zh": "牧师等级"
@@ -433763,6 +435734,13 @@
           "en": "Cleric Level",
           "zh": "牧师等级",
           "url": "src/published/books/dmg/glossary-2.md#116"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Cleric Level",
+          "zh": "牧师等级",
+          "url": "src/published/books/dmg/glossary-2.md#121"
         }
       ],
       "notes": [
@@ -433874,6 +435852,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "151",
+          "zh": "接近打击距离"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "276",
           "zh": "接近打击距离"
@@ -433892,6 +435875,13 @@
           "en": "Close to Striking Range",
           "zh": "接近打击距离",
           "url": "src/published/books/dmg/dmg-combat.md#283"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Close to Striking Range",
+          "zh": "接近打击距离",
+          "url": "src/published/books/dmg/glossary-2.md#151"
         }
       ],
       "notes": [
@@ -434126,6 +436116,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "37",
+          "zh": "通用熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "17",
           "zh": "通用熟练项"
@@ -434144,6 +436139,13 @@
           "en": "Common Proficiencies",
           "zh": "通用熟练项",
           "url": "src/published/books/oa/oa-proficiencies.md:189"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Common Proficiencies",
+          "zh": "通用熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#37"
         }
       ],
       "notes": [
@@ -434162,6 +436164,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "113",
+          "zh": "成分"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "100",
           "zh": "成分"
@@ -434175,6 +436182,13 @@
           "en": "Components",
           "zh": "成分",
           "url": "src/published/books/dmg/glossary-2.md#108"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Components",
+          "zh": "成分",
+          "url": "src/published/books/dmg/glossary-2.md#113"
         }
       ],
       "notes": [
@@ -434483,6 +436497,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "35",
+          "zh": "工匠熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "412",
           "zh": "工匠熟练项"
@@ -434501,6 +436520,13 @@
           "en": "Craftsman Proficiencies",
           "zh": "工匠熟练项",
           "url": "src/published/books/dsg/dsg-proficiencies.md:52; src/published/books/dsg/dsg-contents.md:88"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Craftsman Proficiencies",
+          "zh": "工匠熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#35"
         }
       ],
       "notes": [
@@ -434617,6 +436643,16 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "18",
+          "zh": "伤害"
+        },
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "107",
+          "zh": "伤害"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "94",
           "zh": "伤害"
@@ -434640,6 +436676,20 @@
           "en": "Damage",
           "zh": "伤害",
           "url": "src/published/books/dmg/glossary-2.md#100"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Damage",
+          "zh": "伤害",
+          "url": "src/published/books/dmg/dmg-glossary.md#18"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Damage",
+          "zh": "伤害",
+          "url": "src/published/books/dmg/glossary-2.md#107"
         }
       ],
       "notes": [
@@ -434658,6 +436708,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "105",
+          "zh": "伤害修正"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "92",
           "zh": "伤害修正"
@@ -434671,6 +436726,13 @@
           "en": "Damage Adjustment",
           "zh": "伤害修正",
           "url": "src/published/books/dmg/glossary-2.md#100"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Damage Adjustment",
+          "zh": "伤害修正",
+          "url": "src/published/books/dmg/glossary-2.md#105"
         }
       ],
       "notes": [
@@ -434689,6 +436751,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "106",
+          "zh": "伤害骰"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "93",
           "zh": "伤害骰"
@@ -434702,6 +436769,13 @@
           "en": "Damage Roll",
           "zh": "伤害骰",
           "url": "src/published/books/dmg/glossary-2.md#101"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Damage Roll",
+          "zh": "伤害骰",
+          "url": "src/published/books/dmg/glossary-2.md#106"
         }
       ],
       "notes": [
@@ -434719,6 +436793,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "19",
+          "zh": "死亡"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "421",
@@ -434743,6 +436822,13 @@
           "en": "Death",
           "zh": "死亡",
           "url": "src/published/books/dmg/dmg-character-age-aging-disease-death.md:159"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Death",
+          "zh": "死亡",
+          "url": "src/published/books/dmg/dmg-glossary.md#19"
         }
       ],
       "notes": [
@@ -434761,6 +436847,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "20",
+          "zh": "死亡魔法"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "331",
           "zh": "死亡魔法"
@@ -434774,6 +436865,13 @@
           "en": "Death Magic",
           "zh": "死亡魔法",
           "url": "src/published/books/dmg/dmg-glossary.md:20"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Death Magic",
+          "zh": "死亡魔法",
+          "url": "src/published/books/dmg/dmg-glossary.md#20"
         }
       ],
       "notes": [
@@ -434851,8 +436949,15 @@
       "englishVariants": [
         "Defensive Adjustment"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "防御调整"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "103",
+          "zh": "防御调整"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "90",
@@ -434867,6 +436972,13 @@
           "en": "Defensive Adjustment",
           "zh": "防御调整／防御调整值",
           "url": "src/published/books/dmg/glossary-2.md#98"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Defensive Adjustment",
+          "zh": "防御调整",
+          "url": "src/published/books/dmg/glossary-2.md#103"
         }
       ],
       "notes": [
@@ -435014,6 +437126,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "22",
+          "zh": "半人类"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "353",
           "zh": "半人类"
@@ -435027,6 +437144,13 @@
           "en": "Demi-humans",
           "zh": "半人类",
           "url": "src/published/books/dmg/dmg-glossary.md:22"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Demi-humans",
+          "zh": "半人类",
+          "url": "src/published/books/dmg/dmg-glossary.md#22"
         }
       ],
       "notes": [
@@ -435222,6 +437346,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "141",
+          "zh": "敏捷惩罚与加值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "286",
           "zh": "敏捷惩罚与加值"
@@ -435235,6 +437364,13 @@
           "en": "Dexterity Penalty and Bonus",
           "zh": "敏捷惩罚与加值",
           "url": "src/published/books/dmg/glossary-2.md#140; shortened label for Dexterity Penalty and Bonus Considerations"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Dexterity Penalty and Bonus",
+          "zh": "敏捷惩罚与加值",
+          "url": "src/published/books/dmg/glossary-2.md#141"
         }
       ],
       "notes": [
@@ -435289,6 +437425,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "35",
+          "zh": "敏捷对突袭反应的影响"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "344",
           "zh": "敏捷对突袭反应的影响"
@@ -435302,6 +437443,13 @@
           "en": "Dexterity Reaction in Surprise",
           "zh": "敏捷对突袭反应的影响",
           "url": "src/published/books/dmg/dmg-combat.md:67"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Dexterity Reaction in Surprise",
+          "zh": "敏捷对突袭反应的影响",
+          "url": "src/published/books/dmg/dmg-glossary.md#35"
         }
       ],
       "notes": [
@@ -435543,6 +437691,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "47",
+          "zh": "龙骑乘熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "26",
           "zh": "龙骑乘熟练项"
@@ -435556,6 +437709,13 @@
           "en": "Dragon Riding Proficiency",
           "zh": "龙骑乘熟练项",
           "url": "src/published/books/dmg/glossary-2.md#45"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Dragon Riding Proficiency",
+          "zh": "龙骑乘熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#47"
         }
       ],
       "notes": [
@@ -435574,6 +437734,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "122",
+          "zh": "德鲁伊等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "110",
           "zh": "德鲁伊等级"
@@ -435587,6 +437752,13 @@
           "en": "Druid Level",
           "zh": "德鲁伊等级",
           "url": "src/published/books/dmg/glossary-2.md#117"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Druid Level",
+          "zh": "德鲁伊等级",
+          "url": "src/published/books/dmg/glossary-2.md#122"
         }
       ],
       "notes": [
@@ -435636,6 +437808,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "32",
+          "zh": "地城熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "14",
           "zh": "地城熟练项"
@@ -435649,6 +437826,13 @@
           "en": "Dungeon Proficiency",
           "zh": "地城熟练项",
           "url": "src/published/books/dmg/glossary-2.md#31"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Dungeon Proficiency",
+          "zh": "地城熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#32"
         }
       ],
       "notes": [
@@ -435698,6 +437882,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "111",
+          "zh": "持续时间"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "98",
           "zh": "持续时间"
@@ -435711,6 +437900,13 @@
           "en": "Duration",
           "zh": "持续时间",
           "url": "src/published/books/dmg/glossary-2.md#106"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Duration",
+          "zh": "持续时间",
+          "url": "src/published/books/dmg/glossary-2.md#111"
         }
       ],
       "notes": [
@@ -435868,6 +438064,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "27",
+          "zh": "遭遇"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "332",
           "zh": "遭遇"
@@ -435881,6 +438082,13 @@
           "en": "Encounter",
           "zh": "遭遇",
           "url": "src/published/books/dmg/dmg-glossary.md:27"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Encounter",
+          "zh": "遭遇",
+          "url": "src/published/books/dmg/dmg-glossary.md#27"
         }
       ],
       "notes": [
@@ -435898,6 +438106,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "28",
+          "zh": "遭遇距离"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "343",
@@ -435917,6 +438130,13 @@
           "en": "Encounter Distance",
           "zh": "遭遇距离",
           "url": "src/published/books/dmg/dmg-combat.md:75"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Encounter Distance",
+          "zh": "遭遇距离",
+          "url": "src/published/books/dmg/dmg-glossary.md#28"
         }
       ],
       "notes": [
@@ -435935,6 +438155,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "139",
+          "zh": "遭遇反应"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "271",
           "zh": "遭遇反应"
@@ -435948,6 +438173,13 @@
           "en": "Encounter Reaction",
           "zh": "遭遇反应",
           "url": "src/published/books/dmg/glossary-2.md#138; singular form of Encounter Reactions"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Encounter Reaction",
+          "zh": "遭遇反应",
+          "url": "src/published/books/dmg/glossary-2.md#139"
         }
       ],
       "notes": [
@@ -436002,6 +438234,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "29",
+          "zh": "负重"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "333",
           "zh": "负重"
@@ -436025,6 +438262,13 @@
           "en": "Encumbrance",
           "zh": "负重",
           "url": "src/published/books/dmg/dmg-glossary.md:28"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Encumbrance",
+          "zh": "负重",
+          "url": "src/published/books/dmg/dmg-glossary.md#29"
         }
       ],
       "notes": [
@@ -436120,6 +438364,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "117",
+          "zh": "能级吸取"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "105",
           "zh": "能级吸取"
@@ -436133,6 +438382,13 @@
           "en": "Energy Drain",
           "zh": "能级吸取",
           "url": "src/published/books/dmg/glossary-2.md#116; same life-energy-level loss rule term as Level Drain"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Energy Drain",
+          "zh": "能级吸取",
+          "url": "src/published/books/dmg/glossary-2.md#117"
         }
       ],
       "notes": [
@@ -436254,6 +438510,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "58",
+          "zh": "以太化"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "490",
           "zh": "以太化"
@@ -436272,6 +438533,13 @@
           "en": "Etherealness",
           "zh": "以太化",
           "url": "src/published/books/phb/major-sciences.md:87; terminology/references/5etools-names.json (PHB, XPHB exact spell name); no current 3R record; name borrowed only, not rules"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Etherealness",
+          "zh": "以太化",
+          "url": "src/published/books/dmg/glossary-2.md#58"
         }
       ],
       "notes": [
@@ -436367,6 +438635,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "33",
+          "zh": "特殊力量"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "334",
           "zh": "特殊力量"
@@ -436380,6 +438653,13 @@
           "en": "Exceptional Strength",
           "zh": "特殊力量",
           "url": "src/published/books/dmg/dmg-glossary.md:32"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Exceptional Strength",
+          "zh": "特殊力量",
+          "url": "src/published/books/dmg/dmg-glossary.md#33"
         }
       ],
       "notes": [
@@ -436470,6 +438750,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "34",
+          "zh": "经验"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "335",
           "zh": "经验"
@@ -436493,6 +438778,13 @@
           "en": "Experience",
           "zh": "经验",
           "url": "src/published/books/dmg/dmg-glossary.md:33"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Experience",
+          "zh": "经验",
+          "url": "src/published/books/dmg/dmg-glossary.md#34"
         }
       ],
       "notes": [
@@ -436511,6 +438803,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "116",
+          "zh": "经验等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "103",
           "zh": "经验等级"
@@ -436524,6 +438821,13 @@
           "en": "Experience Level",
           "zh": "经验等级",
           "url": "src/published/books/dmg/glossary-2.md#111"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Experience Level",
+          "zh": "经验等级",
+          "url": "src/published/books/dmg/glossary-2.md#116"
         }
       ],
       "notes": [
@@ -436541,6 +438845,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "114",
+          "zh": "经验值"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "101",
@@ -436560,6 +438869,13 @@
           "en": "Experience Points",
           "zh": "经验值",
           "url": "src/published/books/dmg/glossary-2.md#109"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Experience Points",
+          "zh": "经验值",
+          "url": "src/published/books/dmg/glossary-2.md#114"
         }
       ],
       "notes": [
@@ -436652,6 +438968,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "24",
+          "zh": "专长"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "166",
           "zh": "专长"
@@ -436665,6 +438986,13 @@
           "en": "Expertise",
           "zh": "专长",
           "url": "src/published/books/dmg/glossary-2.md#23"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Expertise",
+          "zh": "专长",
+          "url": "src/published/books/dmg/glossary-2.md#24"
         }
       ],
       "notes": [
@@ -436719,6 +439047,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "36",
+          "zh": "导致突袭的因素"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "345",
           "zh": "导致突袭的因素"
@@ -436732,6 +439065,13 @@
           "en": "Factors Contributing to Surprise",
           "zh": "导致突袭的因素",
           "url": "src/published/books/dmg/dmg-combat.md:69"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Factors Contributing to Surprise",
+          "zh": "导致突袭的因素",
+          "url": "src/published/books/dmg/dmg-glossary.md#36"
         }
       ],
       "notes": [
@@ -436832,6 +439172,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "123",
+          "zh": "战士等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "111",
           "zh": "战士等级"
@@ -436845,6 +439190,13 @@
           "en": "Fighter Level",
           "zh": "战士等级",
           "url": "src/published/books/dmg/glossary-2.md#118"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Fighter Level",
+          "zh": "战士等级",
+          "url": "src/published/books/dmg/glossary-2.md#123"
         }
       ],
       "notes": [
@@ -436971,6 +439323,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "38",
+          "zh": "追随者"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "336",
           "zh": "追随者"
@@ -436984,6 +439341,13 @@
           "en": "Followers",
           "zh": "追随者",
           "url": "src/published/books/dmg/dmg-glossary.md:35"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Followers",
+          "zh": "追随者",
+          "url": "src/published/books/dmg/dmg-glossary.md#38"
         }
       ],
       "notes": [
@@ -437251,6 +439615,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "142",
+          "zh": "巨人与攻城器械投射物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "288",
           "zh": "巨人与攻城器械投射物"
@@ -437264,6 +439633,13 @@
           "en": "Giant and Machine Missiles",
           "zh": "巨人与攻城器械投射物",
           "url": "src/published/books/dmg/glossary-2.md#141"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Giant and Machine Missiles",
+          "zh": "巨人与攻城器械投射物",
+          "url": "src/published/books/dmg/glossary-2.md#142"
         }
       ],
       "notes": [
@@ -437281,6 +439657,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "156",
+          "zh": "擒抱"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "282",
@@ -437300,6 +439681,13 @@
           "en": "Grapple",
           "zh": "擒抱",
           "url": "src/published/books/dmg/dmg-combat.md#591"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Grapple",
+          "zh": "擒抱",
+          "url": "src/published/books/dmg/glossary-2.md#156"
         }
       ],
       "notes": [
@@ -437483,6 +439871,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "144",
+          "zh": "类手榴弹投射物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "291",
           "zh": "类手榴弹投射物"
@@ -437496,6 +439889,13 @@
           "en": "Grenade-Like Missiles",
           "zh": "类手榴弹投射物",
           "url": "src/published/books/dmg/dmg-combat.md#176"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Grenade-Like Missiles",
+          "zh": "类手榴弹投射物",
+          "url": "src/published/books/dmg/glossary-2.md#144"
         }
       ],
       "notes": [
@@ -437581,6 +439981,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "40",
+          "zh": "随从"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "337",
           "zh": "随从"
@@ -437594,6 +439999,13 @@
           "en": "Henchman",
           "zh": "随从",
           "url": "src/published/books/dmg/dmg-glossary.md:37"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Henchman",
+          "zh": "随从",
+          "url": "src/published/books/dmg/dmg-glossary.md#40"
         }
       ],
       "notes": [
@@ -437612,6 +440024,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "43",
+          "zh": "草药师熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "411",
           "zh": "草药师熟练项"
@@ -437625,6 +440042,13 @@
           "en": "Herbalist",
           "zh": "草药师熟练项",
           "url": "src/published/books/oa/oa-proficiencies.md:122"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Herbalist",
+          "zh": "草药师熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#43"
         }
       ],
       "notes": [
@@ -437643,6 +440067,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "41",
+          "zh": "受雇者"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "338",
           "zh": "受雇者"
@@ -437656,6 +440085,13 @@
           "en": "Hireling",
           "zh": "受雇者",
           "url": "src/published/books/dmg/dmg-glossary.md:38"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Hireling",
+          "zh": "受雇者",
+          "url": "src/published/books/dmg/dmg-glossary.md#41"
         }
       ],
       "notes": [
@@ -437673,6 +440109,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "95",
+          "zh": "命中判定"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "82",
@@ -437692,6 +440133,13 @@
           "en": "Hit Determination",
           "zh": "命中判定",
           "url": "src/published/books/dmg/glossary-2.md#91"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Hit Determination",
+          "zh": "命中判定",
+          "url": "src/published/books/dmg/glossary-2.md#95"
         }
       ],
       "notes": [
@@ -437710,6 +440158,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "126",
+          "zh": "生命骰"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "114",
@@ -437734,6 +440187,13 @@
           "en": "Hit Dice",
           "zh": "生命骰",
           "url": "src/published/books/dmg/glossary-2.md#121"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Hit Dice",
+          "zh": "生命骰",
+          "url": "src/published/books/dmg/glossary-2.md#126"
         }
       ],
       "notes": [
@@ -437751,6 +440211,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "128",
+          "zh": "生命值"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "116",
@@ -437770,6 +440235,13 @@
           "en": "Hit Points",
           "zh": "生命值",
           "url": "src/published/books/dmg/glossary-2.md#123"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Hit Points",
+          "zh": "生命值",
+          "url": "src/published/books/dmg/glossary-2.md#128"
         }
       ],
       "notes": [
@@ -437824,6 +440296,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "45",
+          "zh": "类人生物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "357",
           "zh": "类人生物"
@@ -437842,6 +440319,13 @@
           "en": "Humanoid",
           "zh": "类人生物",
           "url": "src/published/books/dmg/dmg-glossary.md:45"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Humanoid",
+          "zh": "类人生物",
+          "url": "src/published/books/dmg/dmg-glossary.md#45"
         }
       ],
       "notes": [
@@ -438207,6 +440691,16 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "48",
+          "zh": "先攻"
+        },
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "130",
+          "zh": "先攻"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "118",
           "zh": "先攻"
@@ -438235,6 +440729,20 @@
           "en": "Initiative",
           "zh": "先攻",
           "url": "src/published/books/dmg/glossary-2.md#125"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Initiative",
+          "zh": "先攻",
+          "url": "src/published/books/dmg/dmg-glossary.md#48"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Initiative",
+          "zh": "先攻",
+          "url": "src/published/books/dmg/glossary-2.md#130"
         }
       ],
       "notes": [
@@ -438253,6 +440761,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "131",
+          "zh": "先攻检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "120",
           "zh": "先攻检定"
@@ -438266,6 +440779,13 @@
           "en": "Initiative Check",
           "zh": "先攻检定",
           "url": "src/published/books/dmg/glossary-2.md#126"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Initiative Check",
+          "zh": "先攻检定",
+          "url": "src/published/books/dmg/glossary-2.md#131"
         }
       ],
       "notes": [
@@ -438284,6 +440804,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "132",
+          "zh": "先攻骰"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "119",
           "zh": "先攻骰"
@@ -438297,6 +440822,13 @@
           "en": "Initiative Die",
           "zh": "先攻骰",
           "url": "src/published/books/dmg/glossary-2.md#127"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Initiative Die",
+          "zh": "先攻骰",
+          "url": "src/published/books/dmg/glossary-2.md#132"
         }
       ],
       "notes": [
@@ -438382,6 +440914,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "133",
+          "zh": "先攻修正值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "122",
           "zh": "先攻修正值"
@@ -438395,6 +440932,13 @@
           "en": "Initiative Modifier(s)",
           "zh": "先攻修正值",
           "url": "src/published/books/dmg/glossary-2.md#132; plural/parenthetical form of Initiative Modifier"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Initiative Modifier(s)",
+          "zh": "先攻修正值",
+          "url": "src/published/books/dmg/glossary-2.md#133"
         }
       ],
       "notes": [
@@ -438516,6 +441060,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "49",
+          "zh": "隐形"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "341",
           "zh": "隐形"
@@ -438529,6 +441078,13 @@
           "en": "Invisibility",
           "zh": "隐形",
           "url": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md:673"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Invisibility",
+          "zh": "隐形",
+          "url": "src/published/books/dmg/dmg-glossary.md#49"
         }
       ],
       "notes": [
@@ -438722,6 +441278,16 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "51",
+          "zh": "等级"
+        },
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "115",
+          "zh": "等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "102",
           "zh": "等级"
@@ -438740,6 +441306,20 @@
           "en": "Level",
           "zh": "等级",
           "url": "src/published/books/dmg/glossary-2.md#25"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Level",
+          "zh": "等级",
+          "url": "src/published/books/dmg/dmg-glossary.md#51"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Level",
+          "zh": "等级",
+          "url": "src/published/books/dmg/glossary-2.md#115"
         }
       ],
       "notes": [
@@ -438758,6 +441338,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "117",
+          "zh": "能级吸取"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "104",
           "zh": "能级吸取"
@@ -438771,6 +441356,13 @@
           "en": "Level Drain",
           "zh": "能级吸取",
           "url": "src/published/books/dmg/glossary-2.md#116"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Level Drain",
+          "zh": "能级吸取",
+          "url": "src/published/books/dmg/glossary-2.md#117"
         }
       ],
       "notes": [
@@ -438789,6 +441381,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "26",
+          "zh": "掌握等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "168",
           "zh": "掌握等级"
@@ -438802,6 +441399,13 @@
           "en": "Level of Mastery",
           "zh": "掌握等级",
           "url": "src/published/books/dmg/glossary-2.md#25"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Level of Mastery",
+          "zh": "掌握等级",
+          "url": "src/published/books/dmg/glossary-2.md#26"
         }
       ],
       "notes": [
@@ -438923,6 +441527,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "120",
+          "zh": "魔法等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "108",
           "zh": "魔法等级"
@@ -438936,6 +441545,13 @@
           "en": "Magic Level",
           "zh": "魔法等级",
           "url": "src/published/books/dmg/glossary-2.md#115"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Magic Level",
+          "zh": "魔法等级",
+          "url": "src/published/books/dmg/glossary-2.md#120"
         }
       ],
       "notes": [
@@ -438954,6 +441570,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "191",
+          "zh": "魔法抗性"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "147",
@@ -438978,6 +441599,13 @@
           "en": "Magic Resistance",
           "zh": "魔法抗性",
           "url": "src/published/books/dmg/glossary-2.md#166"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Magic Resistance",
+          "zh": "魔法抗性",
+          "url": "src/published/books/dmg/glossary-2.md#191"
         }
       ],
       "notes": [
@@ -439032,6 +441660,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "119",
+          "zh": "魔法师等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "107",
           "zh": "魔法师等级"
@@ -439045,6 +441678,13 @@
           "en": "Magic-User Level",
           "zh": "魔法师等级",
           "url": "src/published/books/dmg/glossary-2.md#114"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Magic-User Level",
+          "zh": "魔法师等级",
+          "url": "src/published/books/dmg/glossary-2.md#119"
         }
       ],
       "notes": [
@@ -439063,6 +441703,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "57",
+          "zh": "施法生物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "4",
           "zh": "施法生物"
@@ -439076,6 +441721,13 @@
           "en": "Magic-Using Creature",
           "zh": "施法生物",
           "url": "src/published/books/dmg/glossary-2.md#55"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Magic-Using Creature",
+          "zh": "施法生物",
+          "url": "src/published/books/dmg/glossary-2.md#57"
         }
       ],
       "notes": [
@@ -439125,6 +441777,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "104",
+          "zh": "魔法攻击调整"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "91",
           "zh": "魔法攻击调整"
@@ -439138,6 +441795,13 @@
           "en": "Magical Attack Adjustment",
           "zh": "魔法攻击调整",
           "url": "src/published/books/dmg/glossary-2.md#99"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Magical Attack Adjustment",
+          "zh": "魔法攻击调整",
+          "url": "src/published/books/dmg/glossary-2.md#104"
         }
       ],
       "notes": [
@@ -439408,6 +442072,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/dmg-glossary.md",
+          "location": "56",
+          "zh": "近战"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "310",
           "zh": "近战"
@@ -439431,6 +442100,13 @@
           "en": "Melee",
           "zh": "近战",
           "url": "src/published/books/dmg/dmg-combat.md:462"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Melee",
+          "zh": "近战",
+          "url": "src/published/books/dmg/dmg-glossary.md#56"
         }
       ],
       "notes": [
@@ -439446,8 +442122,15 @@
       "englishVariants": [
         "Melee Round"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "近战轮"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "83",
+          "zh": "近战轮"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "181",
@@ -439462,6 +442145,13 @@
           "en": "Melee Round",
           "zh": "轮",
           "url": "src/published/books/dmg/glossary-2.md#80"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Melee Round",
+          "zh": "近战轮",
+          "url": "src/published/books/dmg/glossary-2.md#83"
         }
       ],
       "notes": [
@@ -439712,6 +442402,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "3",
+          "zh": "微缩模型"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "3",
           "zh": "微缩模型"
@@ -439722,6 +442417,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Miniature",
+          "zh": "微缩模型",
+          "url": "src/published/books/dmg/glossary-2.md#3"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Miniature",
           "zh": "微缩模型",
           "url": "src/published/books/dmg/glossary-2.md#3"
@@ -439898,6 +442600,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "4",
+          "zh": "投射武器"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "160",
           "zh": "投射武器"
@@ -439908,6 +442615,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Missile",
+          "zh": "投射武器",
+          "url": "src/published/books/dmg/glossary-2.md#4"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Missile",
           "zh": "投射武器",
           "url": "src/published/books/dmg/glossary-2.md#4"
@@ -439930,6 +442644,11 @@
         "投射物攻击"
       ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "150",
+          "zh": "发射投射武器"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "275",
@@ -439959,6 +442678,13 @@
           "en": "Missile Discharge",
           "zh": "发射投射武器",
           "url": "src/published/books/dmg/dmg-combat.md#141"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Missile Discharge",
+          "zh": "发射投射武器",
+          "url": "src/published/books/dmg/glossary-2.md#150"
         }
       ],
       "notes": [
@@ -439977,6 +442703,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "143",
+          "zh": "投射攻击的掩护与隐蔽"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "290",
           "zh": "投射攻击的掩护与隐蔽"
@@ -439990,6 +442721,13 @@
           "en": "Missile Fire Cover and Concealment",
           "zh": "投射攻击的掩护与隐蔽",
           "url": "src/published/books/dmg/glossary-2.md#142; shortened label for Missile Fire Cover and Concealment Adjustments"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Missile Fire Cover and Concealment",
+          "zh": "投射攻击的掩护与隐蔽",
+          "url": "src/published/books/dmg/glossary-2.md#143"
         }
       ],
       "notes": [
@@ -440183,6 +442921,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "5",
+          "zh": "怪物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "161",
           "zh": "怪物"
@@ -440198,6 +442941,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Monster",
+          "zh": "怪物",
+          "url": "src/published/books/dmg/glossary-2.md#5"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Monster",
           "zh": "怪物",
           "url": "src/published/books/dmg/glossary-2.md#5"
@@ -440255,6 +443005,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "135",
+          "zh": "士气"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "124",
           "zh": "士气"
@@ -440283,6 +443038,13 @@
           "en": "Morale",
           "zh": "士气",
           "url": "src/published/books/dmg/glossary-2.md#130"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Morale",
+          "zh": "士气",
+          "url": "src/published/books/dmg/glossary-2.md#135"
         }
       ],
       "notes": [
@@ -440301,6 +443063,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "136",
+          "zh": "士气检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "125",
           "zh": "士气检定"
@@ -440314,6 +443081,13 @@
           "en": "Morale Check",
           "zh": "士气检定",
           "url": "src/published/books/dmg/glossary-2.md#131"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Morale Check",
+          "zh": "士气检定",
+          "url": "src/published/books/dmg/glossary-2.md#136"
         }
       ],
       "notes": [
@@ -440332,6 +443106,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "138",
+          "zh": "士气失败"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "142",
           "zh": "士气失败"
@@ -440345,6 +443124,13 @@
           "en": "Morale Failure",
           "zh": "士气失败",
           "url": "src/published/books/dmg/dmg-combat.md#368"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Morale Failure",
+          "zh": "士气失败",
+          "url": "src/published/books/dmg/glossary-2.md#138"
         }
       ],
       "notes": [
@@ -440363,6 +443149,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "137",
+          "zh": "士气分数"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "141",
           "zh": "士气分数"
@@ -440376,6 +443167,13 @@
           "en": "Morale Score",
           "zh": "士气分数",
           "url": "src/published/books/dmg/dmg-combat.md#362"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Morale Score",
+          "zh": "士气分数",
+          "url": "src/published/books/dmg/glossary-2.md#137"
         }
       ],
       "notes": [
@@ -440752,6 +443550,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "134",
+          "zh": "移动率"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "123",
           "zh": "移动率"
@@ -440765,6 +443568,13 @@
           "en": "Movement Rate",
           "zh": "移动率",
           "url": "src/published/books/dmg/glossary-2.md#129"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Movement Rate",
+          "zh": "移动率",
+          "url": "src/published/books/dmg/glossary-2.md#134"
         }
       ],
       "notes": [
@@ -440831,6 +443641,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "8",
+          "zh": "自然 20"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "162",
           "zh": "自然 20"
@@ -440841,6 +443656,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Natural 20",
+          "zh": "自然 20",
+          "url": "src/published/books/dmg/glossary-2.md#8"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Natural 20",
           "zh": "自然 20",
           "url": "src/published/books/dmg/glossary-2.md#8"
@@ -440862,6 +443684,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "86",
+          "zh": "天然护甲等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "74",
           "zh": "天然护甲等级"
@@ -440875,6 +443702,13 @@
           "en": "Natural Armor Class",
           "zh": "天然护甲等级",
           "url": "src/published/books/dmg/glossary-2.md#83"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Natural Armor Class",
+          "zh": "天然护甲等级",
+          "url": "src/published/books/dmg/glossary-2.md#86"
         }
       ],
       "notes": [
@@ -440965,6 +443799,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "28",
+          "zh": "不熟练命中惩罚"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "170",
           "zh": "不熟练命中惩罚"
@@ -440978,6 +443817,13 @@
           "en": "Non-Proficiency Penalty",
           "zh": "不熟练命中惩罚",
           "url": "src/published/books/dmg/glossary-2.md#27"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Non-Proficiency Penalty",
+          "zh": "不熟练命中惩罚",
+          "url": "src/published/books/dmg/glossary-2.md#28"
         }
       ],
       "notes": [
@@ -440996,6 +443842,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "27",
+          "zh": "不熟练"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "169",
           "zh": "不熟练"
@@ -441009,6 +443860,13 @@
           "en": "Nonproficiency",
           "zh": "不熟练",
           "url": "src/published/books/dmg/glossary-2.md#26"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Nonproficiency",
+          "zh": "不熟练",
+          "url": "src/published/books/dmg/glossary-2.md#27"
         }
       ],
       "notes": [
@@ -441106,6 +443964,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "30",
+          "zh": "非武器熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "12",
           "zh": "非武器熟练项"
@@ -441119,6 +443982,13 @@
           "en": "Nonweapon Proficiency",
           "zh": "非武器熟练项",
           "url": "src/published/books/dmg/glossary-2.md#29"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Nonweapon Proficiency",
+          "zh": "非武器熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#30"
         }
       ],
       "notes": [
@@ -441239,8 +444109,15 @@
       "englishVariants": [
         "Number of Hit Dice"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "生命骰数"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "127",
+          "zh": "生命骰数"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "115",
@@ -441255,6 +444132,13 @@
           "en": "Number of Hit Dice",
           "zh": "生命骰数／生命骰数量",
           "url": "src/published/books/dmg/glossary-2.md#122"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Number of Hit Dice",
+          "zh": "生命骰数",
+          "url": "src/published/books/dmg/glossary-2.md#127"
         }
       ],
       "notes": [
@@ -441272,6 +444156,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "145",
+          "zh": "每个角色可面对的对手数"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "292",
@@ -441291,6 +444180,13 @@
           "en": "Number of Opponents per Figure",
           "zh": "每个角色可面对的对手数",
           "url": "src/published/books/dmg/dmg-combat.md#466"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Number of Opponents per Figure",
+          "zh": "每个角色可面对的对手数",
+          "url": "src/published/books/dmg/glossary-2.md#145"
         }
       ],
       "notes": [
@@ -441577,6 +444473,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "148",
+          "zh": "交涉"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "273",
           "zh": "交涉"
@@ -441590,6 +444491,13 @@
           "en": "Parley",
           "zh": "交涉",
           "url": "src/published/books/dmg/glossary-2.md#147"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Parley",
+          "zh": "交涉",
+          "url": "src/published/books/dmg/glossary-2.md#148"
         }
       ],
       "notes": [
@@ -441644,6 +444552,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "12",
+          "zh": "队伍"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "295",
           "zh": "队伍"
@@ -441654,6 +444567,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Party",
+          "zh": "队伍",
+          "url": "src/published/books/dmg/glossary-2.md#12"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Party",
           "zh": "队伍",
           "url": "src/published/books/dmg/glossary-2.md#12"
@@ -441706,6 +444626,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "15",
+          "zh": "角色"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "297",
           "zh": "角色"
@@ -441716,6 +444641,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Persona",
+          "zh": "角色",
+          "url": "src/published/books/dmg/glossary-2.md#15"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Persona",
           "zh": "角色",
           "url": "src/published/books/dmg/glossary-2.md#15"
@@ -441737,6 +444669,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "16",
+          "zh": "石化"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "165",
           "zh": "石化"
@@ -441750,6 +444687,13 @@
           "en": "Petrification",
           "zh": "石化",
           "url": "src/published/books/dmg/glossary-2.md#15"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Petrification",
+          "zh": "石化",
+          "url": "src/published/books/dmg/glossary-2.md#16"
         }
       ],
       "notes": [
@@ -441799,6 +444743,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "17",
+          "zh": "灵药"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "298",
           "zh": "灵药"
@@ -441809,6 +444758,13 @@
       "references": [
         {
           "edition": "1E",
+          "en": "Philter",
+          "zh": "灵药",
+          "url": "src/published/books/dmg/glossary-2.md#17"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
           "en": "Philter",
           "zh": "灵药",
           "url": "src/published/books/dmg/glossary-2.md#17"
@@ -441830,6 +444786,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "42",
+          "zh": "植物学熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "401",
           "zh": "植物学熟练项"
@@ -441848,6 +444809,13 @@
           "en": "Plant Lore",
           "zh": "植物学熟练项",
           "url": "src/published/books/wsg/wsg-proficiencies.md:187; AD&D 1E Wilderness Survival Guide, Table 2"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Plant Lore",
+          "zh": "植物学熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#42"
         }
       ],
       "notes": [
@@ -441909,6 +444877,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "70",
+          "zh": "毒素"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "299",
           "zh": "毒素"
@@ -441922,6 +444895,13 @@
           "en": "Poison",
           "zh": "毒素",
           "url": "src/published/books/dmg/glossary-2.md#69"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Poison",
+          "zh": "毒素",
+          "url": "src/published/books/dmg/glossary-2.md#70"
         }
       ],
       "notes": [
@@ -441976,6 +444956,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "71",
+          "zh": "长柄武器"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "171",
           "zh": "长柄武器"
@@ -441989,6 +444974,13 @@
           "en": "Pole Arm",
           "zh": "长柄武器",
           "url": "src/published/books/dmg/glossary-2.md#68"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Pole Arm",
+          "zh": "长柄武器",
+          "url": "src/published/books/dmg/glossary-2.md#71"
         }
       ],
       "notes": [
@@ -442007,6 +444999,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "72",
+          "zh": "变形"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "172",
           "zh": "变形"
@@ -442020,6 +445017,13 @@
           "en": "Polymorph",
           "zh": "变形",
           "url": "src/published/books/dmg/glossary-2.md#69"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Polymorph",
+          "zh": "变形",
+          "url": "src/published/books/dmg/glossary-2.md#72"
         }
       ],
       "notes": [
@@ -442110,6 +445114,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "25",
+          "zh": "主属性"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "167",
           "zh": "主属性"
@@ -442123,6 +445132,13 @@
           "en": "Prime Requisite",
           "zh": "主属性",
           "url": "src/published/books/dmg/glossary-2.md#24"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Prime Requisite",
+          "zh": "主属性",
+          "url": "src/published/books/dmg/glossary-2.md#25"
         }
       ],
       "notes": [
@@ -442276,6 +445292,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "20",
+          "zh": "熟练"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "2",
           "zh": "熟练"
@@ -442289,6 +445310,13 @@
           "en": "Proficiency",
           "zh": "熟练",
           "url": "src/published/books/dmg/glossary-2.md#19"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Proficiency",
+          "zh": "熟练",
+          "url": "src/published/books/dmg/glossary-2.md#20"
         }
       ],
       "notes": [
@@ -442307,6 +445335,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "22",
+          "zh": "熟练项检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "28",
           "zh": "熟练项检定"
@@ -442320,6 +445353,13 @@
           "en": "Proficiency Check",
           "zh": "熟练项检定",
           "url": "src/published/books/dmg/glossary-2.md#21"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Proficiency Check",
+          "zh": "熟练项检定",
+          "url": "src/published/books/dmg/glossary-2.md#22"
         }
       ],
       "notes": [
@@ -442436,6 +445476,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "21",
+          "zh": "熟练项栏位"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "29",
           "zh": "熟练项栏位"
@@ -442449,6 +445494,13 @@
           "en": "Proficiency Slot",
           "zh": "熟练项栏位",
           "url": "src/published/books/dmg/glossary-2.md#20"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Proficiency Slot",
+          "zh": "熟练项栏位",
+          "url": "src/published/books/dmg/glossary-2.md#21"
         }
       ],
       "notes": [
@@ -442606,6 +445658,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "217",
+          "zh": "灵能冲击"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "37",
           "zh": "灵能冲击"
@@ -442619,6 +445676,13 @@
           "en": "Psionic Blast",
           "zh": "灵能冲击",
           "url": "src/published/books/dmg/glossary-2.md#192"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Psionic Blast",
+          "zh": "灵能冲击",
+          "url": "src/published/books/dmg/glossary-2.md#217"
         }
       ],
       "notes": [
@@ -442696,8 +445760,15 @@
       "englishVariants": [
         "Psionic Mind Blast"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "夺心魔的灵能冲击"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "218",
+          "zh": "夺心魔的灵能冲击"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "183",
@@ -442712,6 +445783,13 @@
           "en": "Psionic Mind Blast",
           "zh": "灵能冲击",
           "url": "src/published/books/dmg/glossary-2.md#193"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Psionic Mind Blast",
+          "zh": "夺心魔的灵能冲击",
+          "url": "src/published/books/dmg/glossary-2.md#218"
         }
       ],
       "notes": [
@@ -442792,6 +445870,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "74",
+          "zh": "灵能"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "173",
           "zh": "灵能"
@@ -442805,6 +445888,13 @@
           "en": "Psionics",
           "zh": "灵能",
           "url": "src/published/books/dmg/glossary-2.md#71"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Psionics",
+          "zh": "灵能",
+          "url": "src/published/books/dmg/glossary-2.md#74"
         }
       ],
       "notes": [
@@ -443029,6 +446119,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "155",
+          "zh": "追击与规避追击"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "281",
           "zh": "追击与规避追击"
@@ -443047,6 +446142,13 @@
           "en": "Pursuit and Evasion of Pursuit",
           "zh": "追击与规避追击",
           "url": "src/published/books/dmg/dmg-combat.md#379"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Pursuit and Evasion of Pursuit",
+          "zh": "追击与规避追击",
+          "url": "src/published/books/dmg/glossary-2.md#155"
         }
       ],
       "notes": [
@@ -443101,6 +446203,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "77",
+          "zh": "随机生成"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "174",
           "zh": "随机生成"
@@ -443114,6 +446221,13 @@
           "en": "Random Generation",
           "zh": "随机生成",
           "url": "src/published/books/dmg/glossary-2.md#74"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Random Generation",
+          "zh": "随机生成",
+          "url": "src/published/books/dmg/glossary-2.md#77"
         }
       ],
       "notes": [
@@ -443132,6 +446246,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "179",
+          "zh": "射程"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "130",
           "zh": "射程"
@@ -443145,6 +446264,13 @@
           "en": "Range",
           "zh": "射程",
           "url": "src/published/books/dmg/glossary-2.md#85"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Range",
+          "zh": "射程",
+          "url": "src/published/books/dmg/glossary-2.md#179"
         }
       ],
       "notes": [
@@ -443163,6 +446289,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "124",
+          "zh": "巡林客等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "112",
           "zh": "巡林客等级"
@@ -443176,6 +446307,13 @@
           "en": "Ranger Level",
           "zh": "巡林客等级",
           "url": "src/published/books/dmg/glossary-2.md#119"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Ranger Level",
+          "zh": "巡林客等级",
+          "url": "src/published/books/dmg/glossary-2.md#124"
         }
       ],
       "notes": [
@@ -443194,6 +446332,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "110",
+          "zh": "射速"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "97",
           "zh": "射速"
@@ -443207,6 +446350,13 @@
           "en": "Rate of Fire",
           "zh": "射速",
           "url": "src/published/books/dmg/glossary-2.md#105"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Rate of Fire",
+          "zh": "射速",
+          "url": "src/published/books/dmg/glossary-2.md#110"
         }
       ],
       "notes": [
@@ -443253,8 +446403,15 @@
       "englishVariants": [
         "Reaction Adjustment"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "反应调整"
+      ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "101",
+          "zh": "反应调整"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "88",
@@ -443269,6 +446426,13 @@
           "en": "Reaction Adjustment",
           "zh": "反应调整／反应调整值",
           "url": "src/published/books/dmg/glossary-2.md#96"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Reaction Adjustment",
+          "zh": "反应调整",
+          "url": "src/published/books/dmg/glossary-2.md#101"
         }
       ],
       "notes": [
@@ -443287,6 +446451,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "180",
+          "zh": "反应检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "131",
           "zh": "反应检定"
@@ -443300,6 +446469,13 @@
           "en": "Reaction Roll",
           "zh": "反应检定",
           "url": "src/published/books/dmg/glossary-2.md#155"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Reaction Roll",
+          "zh": "反应检定",
+          "url": "src/published/books/dmg/glossary-2.md#180"
         }
       ],
       "notes": [
@@ -443426,6 +446602,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "78",
+          "zh": "圣遗物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "175",
           "zh": "圣遗物"
@@ -443439,6 +446620,13 @@
           "en": "Relic",
           "zh": "圣遗物",
           "url": "src/published/books/dmg/glossary-2.md#75"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Relic",
+          "zh": "圣遗物",
+          "url": "src/published/books/dmg/glossary-2.md#78"
         }
       ],
       "notes": [
@@ -443493,6 +446681,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "79",
+          "zh": "研究"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "176",
           "zh": "研究"
@@ -443506,6 +446699,13 @@
           "en": "Research",
           "zh": "研究",
           "url": "src/published/books/dmg/glossary-2.md#76"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Research",
+          "zh": "研究",
+          "url": "src/published/books/dmg/glossary-2.md#79"
         }
       ],
       "notes": [
@@ -443596,6 +446796,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "80",
+          "zh": "复生术"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "300",
           "zh": "复生术"
@@ -443609,6 +446814,13 @@
           "en": "Resurrection",
           "zh": "复生术",
           "url": "src/published/books/dmg/glossary-2.md#79"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Resurrection",
+          "zh": "复生术",
+          "url": "src/published/books/dmg/glossary-2.md#80"
         }
       ],
       "notes": [
@@ -443627,6 +446839,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "39",
+          "zh": "骑乘熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "19",
           "zh": "骑乘熟练项"
@@ -443640,6 +446857,13 @@
           "en": "Riding Proficiency",
           "zh": "骑乘熟练项",
           "url": "src/published/books/dmg/glossary-2.md#38"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Riding Proficiency",
+          "zh": "骑乘熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#39"
         }
       ],
       "notes": [
@@ -443657,6 +446881,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "41",
+          "zh": "空中骑乘熟练项"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "402",
@@ -443676,6 +446905,13 @@
           "en": "Riding, airborne",
           "zh": "空中骑乘熟练项",
           "url": "src/published/books/wsg/wsg-proficiencies.md:191; AD&D 1E Wilderness Survival Guide, Table 2"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Riding, airborne",
+          "zh": "空中骑乘熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#41"
         }
       ],
       "notes": [
@@ -443693,6 +446929,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "46",
+          "zh": "陆地骑乘熟练项"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "403",
@@ -443712,6 +446953,13 @@
           "en": "Riding, land-based",
           "zh": "陆地骑乘熟练项",
           "url": "src/published/books/wsg/wsg-proficiencies.md:202; AD&D 1E Wilderness Survival Guide, Table 2"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Riding, land-based",
+          "zh": "陆地骑乘熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#46"
         }
       ],
       "notes": [
@@ -443792,6 +447040,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "189",
+          "zh": "掷骰"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "145",
           "zh": "掷骰"
@@ -443805,6 +447058,13 @@
           "en": "Roll",
           "zh": "掷骰",
           "url": "src/published/books/dmg/glossary-2.md#89"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Roll",
+          "zh": "掷骰",
+          "url": "src/published/books/dmg/glossary-2.md#189"
         }
       ],
       "notes": [
@@ -443859,6 +447119,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "48",
+          "zh": "绳索使用熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "27",
           "zh": "绳索使用熟练项"
@@ -443872,6 +447137,13 @@
           "en": "Rope Use Proficiency",
           "zh": "绳索使用熟练项",
           "url": "src/published/books/dmg/glossary-2.md#46"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Rope Use Proficiency",
+          "zh": "绳索使用熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#48"
         }
       ],
       "notes": [
@@ -443921,6 +447193,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "82",
+          "zh": "轮次"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "180",
           "zh": "轮次"
@@ -443934,6 +447211,13 @@
           "en": "Round Count",
           "zh": "轮次",
           "url": "src/published/books/dmg/glossary-2.md#79"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Round Count",
+          "zh": "轮次",
+          "url": "src/published/books/dmg/glossary-2.md#82"
         }
       ],
       "notes": [
@@ -443988,6 +447272,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "195",
+          "zh": "对钝击豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "193",
           "zh": "对钝击豁免"
@@ -444001,6 +447290,13 @@
           "en": "Save vs. Bludgeoning",
           "zh": "对钝击豁免",
           "url": "src/published/books/dmg/glossary-2.md:194"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Bludgeoning",
+          "zh": "对钝击豁免",
+          "url": "src/published/books/dmg/glossary-2.md#195"
         }
       ],
       "notes": [
@@ -444019,6 +447315,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "192",
+          "zh": "对喷吐武器豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "188",
           "zh": "对喷吐武器豁免"
@@ -444032,6 +447333,13 @@
           "en": "Save vs. Breath Weapon",
           "zh": "对喷吐武器豁免",
           "url": "src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Breath Weapon",
+          "zh": "对喷吐武器豁免",
+          "url": "src/published/books/dmg/glossary-2.md#192"
         }
       ],
       "notes": [
@@ -444050,6 +447358,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "195",
+          "zh": "对粉碎打击豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "191",
           "zh": "对粉碎打击豁免"
@@ -444063,6 +447376,13 @@
           "en": "Save vs. Crushing Blow",
           "zh": "对粉碎打击豁免",
           "url": "src/published/books/dmg/glossary-2.md:194"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Crushing Blow",
+          "zh": "对粉碎打击豁免",
+          "url": "src/published/books/dmg/glossary-2.md#195"
         }
       ],
       "notes": [
@@ -444081,6 +447401,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "194",
+          "zh": "对死亡魔法豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "190",
           "zh": "对死亡魔法豁免"
@@ -444094,6 +447419,13 @@
           "en": "Save vs. Death Magic",
           "zh": "对死亡魔法豁免",
           "url": "src/published/books/dmg/glossary-2.md#169"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Death Magic",
+          "zh": "对死亡魔法豁免",
+          "url": "src/published/books/dmg/glossary-2.md#194"
         }
       ],
       "notes": [
@@ -444112,6 +447444,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "195",
+          "zh": "对普通火焰豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "192",
           "zh": "对普通火焰豁免"
@@ -444125,6 +447462,13 @@
           "en": "Save vs. Normal Fire",
           "zh": "对普通火焰豁免",
           "url": "src/published/books/dmg/glossary-2.md:194"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Normal Fire",
+          "zh": "对普通火焰豁免",
+          "url": "src/published/books/dmg/glossary-2.md#195"
         }
       ],
       "notes": [
@@ -444143,6 +447487,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "192",
+          "zh": "对麻痹豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "187",
           "zh": "对麻痹豁免"
@@ -444156,6 +447505,13 @@
           "en": "Save vs. Paralyzation",
           "zh": "对麻痹豁免",
           "url": "src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Paralyzation",
+          "zh": "对麻痹豁免",
+          "url": "src/published/books/dmg/glossary-2.md#192"
         }
       ],
       "notes": [
@@ -444174,6 +447530,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "192",
+          "zh": "对石化豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "186",
           "zh": "对石化豁免"
@@ -444187,6 +447548,13 @@
           "en": "Save vs. Petrification",
           "zh": "对石化豁免",
           "url": "src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Petrification",
+          "zh": "对石化豁免",
+          "url": "src/published/books/dmg/glossary-2.md#192"
         }
       ],
       "notes": [
@@ -444236,6 +447604,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "190",
+          "zh": "对法术豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "146",
           "zh": "对法术豁免"
@@ -444249,6 +447622,13 @@
           "en": "Save vs. Spell",
           "zh": "对法术豁免",
           "url": "src/published/books/dmg/glossary-2.md#165"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Spell",
+          "zh": "对法术豁免",
+          "url": "src/published/books/dmg/glossary-2.md#190"
         }
       ],
       "notes": [
@@ -444267,6 +447647,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "193",
+          "zh": "对魔杖豁免"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "189",
           "zh": "对魔杖豁免"
@@ -444280,6 +447665,13 @@
           "en": "Save vs. Wands",
           "zh": "对魔杖豁免",
           "url": "src/published/books/dmg/glossary-2.md#168"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Save vs. Wands",
+          "zh": "对魔杖豁免",
+          "url": "src/published/books/dmg/glossary-2.md#193"
         }
       ],
       "notes": [
@@ -444297,6 +447689,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "182",
+          "zh": "豁免检定"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "133",
@@ -444321,6 +447718,13 @@
           "en": "Saving Throw",
           "zh": "豁免检定",
           "url": "src/published/books/dmg/glossary-2.md#157"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Saving Throw",
+          "zh": "豁免检定",
+          "url": "src/published/books/dmg/glossary-2.md#182"
         }
       ],
       "notes": [
@@ -444339,6 +447743,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "183",
+          "zh": "豁免骰"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "134",
           "zh": "豁免骰"
@@ -444352,6 +447761,13 @@
           "en": "Saving Throw Die",
           "zh": "豁免骰",
           "url": "src/published/books/dmg/glossary-2.md#158"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Saving Throw Die",
+          "zh": "豁免骰",
+          "url": "src/published/books/dmg/glossary-2.md#183"
         }
       ],
       "notes": [
@@ -444499,6 +447915,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "185",
+          "zh": "豁免修正"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "136",
           "zh": "豁免修正"
@@ -444512,6 +447933,13 @@
           "en": "Saving Throw Modifier",
           "zh": "豁免修正",
           "url": "src/published/books/dmg/glossary-2.md#160"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Saving Throw Modifier",
+          "zh": "豁免修正",
+          "url": "src/published/books/dmg/glossary-2.md#185"
         }
       ],
       "notes": [
@@ -444566,6 +447994,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "184",
+          "zh": "豁免目标值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "135",
           "zh": "豁免目标值"
@@ -444579,6 +448012,13 @@
           "en": "Saving Throw Target Number",
           "zh": "豁免目标值",
           "url": "src/published/books/dmg/glossary-2.md#159"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Saving Throw Target Number",
+          "zh": "豁免目标值",
+          "url": "src/published/books/dmg/glossary-2.md#184"
         }
       ],
       "notes": [
@@ -444633,6 +448073,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "196",
+          "zh": "侦测"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "148",
           "zh": "侦测"
@@ -444646,6 +448091,13 @@
           "en": "Scrying",
           "zh": "侦测",
           "url": "src/published/books/dmg/glossary-2.md#171"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Scrying",
+          "zh": "侦测",
+          "url": "src/published/books/dmg/glossary-2.md#196"
         }
       ],
       "notes": [
@@ -444695,6 +448147,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "216",
+          "zh": "半智能"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "182",
           "zh": "半智能"
@@ -444708,6 +448165,13 @@
           "en": "Semi-intelligent",
           "zh": "半智能",
           "url": "src/published/books/dmg/glossary-2.md#191"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Semi-intelligent",
+          "zh": "半智能",
+          "url": "src/published/books/dmg/glossary-2.md#216"
         }
       ],
       "notes": [
@@ -444762,6 +448226,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "153",
+          "zh": "架起武器迎击冲锋"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "279",
           "zh": "架起武器迎击冲锋"
@@ -444775,6 +448244,13 @@
           "en": "Set Weapons Against Charge",
           "zh": "架起武器迎击冲锋",
           "url": "src/published/books/dmg/glossary-2.md#152; shortened label for Set Weapons Against Possible Opponent Charge"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Set Weapons Against Charge",
+          "zh": "架起武器迎击冲锋",
+          "url": "src/published/books/dmg/glossary-2.md#153"
         }
       ],
       "notes": [
@@ -445047,6 +448523,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "97",
+          "zh": "特殊命中加值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "84",
           "zh": "特殊命中加值"
@@ -445060,6 +448541,13 @@
           "en": "Special “To Hit” Bonuses",
           "zh": "特殊命中加值",
           "url": "src/published/books/dmg/dmg-combat.md#323"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Special “To Hit” Bonuses",
+          "zh": "特殊命中加值",
+          "url": "src/published/books/dmg/glossary-2.md#97"
         }
       ],
       "notes": [
@@ -445176,6 +448664,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "157",
+          "zh": "法术环级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "126",
           "zh": "法术环级"
@@ -445189,6 +448682,13 @@
           "en": "Spell Level",
           "zh": "法术环级",
           "url": "src/published/books/dmg/glossary-2.md#132"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Spell Level",
+          "zh": "法术环级",
+          "url": "src/published/books/dmg/glossary-2.md#157"
         }
       ],
       "notes": [
@@ -445317,6 +448817,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "158",
+          "zh": "法术环位"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "127",
           "zh": "法术环位"
@@ -445330,6 +448835,13 @@
           "en": "Spell Slot",
           "zh": "法术环位",
           "url": "src/published/books/dmg/glossary-2.md#133"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Spell Slot",
+          "zh": "法术环位",
+          "url": "src/published/books/dmg/glossary-2.md#158"
         }
       ],
       "notes": [
@@ -445348,6 +448860,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "61",
+          "zh": "类法术能力"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "179",
           "zh": "类法术能力"
@@ -445361,6 +448878,13 @@
           "en": "Spell-Like Ability",
           "zh": "类法术能力",
           "url": "src/published/books/dmg/glossary-2.md#58"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Spell-Like Ability",
+          "zh": "类法术能力",
+          "url": "src/published/books/dmg/glossary-2.md#61"
         }
       ],
       "notes": [
@@ -445379,6 +448903,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "60",
+          "zh": "施法者"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "178",
           "zh": "施法者"
@@ -445392,6 +448921,13 @@
           "en": "Spellcaster",
           "zh": "施法者",
           "url": "src/published/books/dmg/glossary-2.md#57"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Spellcaster",
+          "zh": "施法者",
+          "url": "src/published/books/dmg/glossary-2.md#60"
         }
       ],
       "notes": [
@@ -445410,6 +448946,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "59",
+          "zh": "施法"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "177",
           "zh": "施法"
@@ -445423,6 +448964,13 @@
           "en": "Spellcasting",
           "zh": "施法",
           "url": "src/published/books/dmg/glossary-2.md#56"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Spellcasting",
+          "zh": "施法",
+          "url": "src/published/books/dmg/glossary-2.md#59"
         }
       ],
       "notes": [
@@ -445477,6 +449025,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "140",
+          "zh": "力量加值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "284",
           "zh": "力量加值"
@@ -445490,6 +449043,13 @@
           "en": "Strength Bonus",
           "zh": "力量加值",
           "url": "src/published/books/dmg/glossary-2.md#139"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Strength Bonus",
+          "zh": "力量加值",
+          "url": "src/published/books/dmg/glossary-2.md#140"
         }
       ],
       "notes": [
@@ -445544,6 +449104,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "147",
+          "zh": "打击"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "294",
           "zh": "打击"
@@ -445562,6 +449127,13 @@
           "en": "Strike Blows",
           "zh": "打击",
           "url": "src/published/books/dmg/dmg-combat.md#303"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Strike Blows",
+          "zh": "打击",
+          "url": "src/published/books/dmg/glossary-2.md#147"
         }
       ],
       "notes": [
@@ -445579,6 +449151,11 @@
       ],
       "legacyZh": [],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "154",
+          "zh": "制服性攻击"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "280",
@@ -445598,6 +449175,13 @@
           "en": "Striking to Subdue",
           "zh": "制服性攻击",
           "url": "src/published/books/dmg/dmg-combat.md#317"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Striking to Subdue",
+          "zh": "制服性攻击",
+          "url": "src/published/books/dmg/glossary-2.md#154"
         }
       ],
       "notes": [
@@ -445616,6 +449200,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "199",
+          "zh": "结构点数"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "149",
           "zh": "结构点数"
@@ -445629,6 +449218,13 @@
           "en": "Structural Points",
           "zh": "结构点数",
           "url": "src/published/books/dmg/glossary-2.md#174"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Structural Points",
+          "zh": "结构点数",
+          "url": "src/published/books/dmg/glossary-2.md#199"
         }
       ],
       "notes": [
@@ -445714,6 +449310,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "200",
+          "zh": "突袭"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "150",
           "zh": "突袭"
@@ -445742,6 +449343,13 @@
           "en": "Surprise",
           "zh": "突袭",
           "url": "src/published/books/dmg/glossary-2.md#175"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Surprise",
+          "zh": "突袭",
+          "url": "src/published/books/dmg/glossary-2.md#200"
         }
       ],
       "notes": [
@@ -446290,6 +449898,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "125",
+          "zh": "盗贼等级"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "113",
           "zh": "盗贼等级"
@@ -446303,6 +449916,13 @@
           "en": "Thief Level",
           "zh": "盗贼等级",
           "url": "src/published/books/dmg/glossary-2.md#120"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Thief Level",
+          "zh": "盗贼等级",
+          "url": "src/published/books/dmg/glossary-2.md#125"
         }
       ],
       "notes": [
@@ -446491,6 +450111,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "208",
+          "zh": "时间单位"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "156",
           "zh": "时间单位"
@@ -446504,6 +450129,13 @@
           "en": "Time Unit",
           "zh": "时间单位",
           "url": "src/published/books/dmg/glossary-2.md#183"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Time Unit",
+          "zh": "时间单位",
+          "url": "src/published/books/dmg/glossary-2.md#208"
         }
       ],
       "notes": [
@@ -446522,6 +450154,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "202",
+          "zh": "命中"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "151",
           "zh": "命中"
@@ -446535,6 +450172,13 @@
           "en": "To Hit",
           "zh": "命中",
           "url": "src/published/books/dmg/glossary-2.md#177"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To Hit",
+          "zh": "命中",
+          "url": "src/published/books/dmg/glossary-2.md#202"
         }
       ],
       "notes": [
@@ -446553,6 +450197,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "99",
+          "zh": "命中修正值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "86",
           "zh": "命中修正值"
@@ -446566,6 +450215,13 @@
           "en": "To-Hit Adjustment",
           "zh": "命中修正值",
           "url": "src/published/books/dmg/glossary-2.md#94"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Adjustment",
+          "zh": "命中修正值",
+          "url": "src/published/books/dmg/glossary-2.md#99"
         }
       ],
       "notes": [
@@ -446584,6 +450240,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "96",
+          "zh": "命中加值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "83",
           "zh": "命中加值"
@@ -446597,6 +450258,13 @@
           "en": "To-Hit Bonus",
           "zh": "命中加值",
           "url": "src/published/books/dmg/glossary-2.md#92"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Bonus",
+          "zh": "命中加值",
+          "url": "src/published/books/dmg/glossary-2.md#96"
         }
       ],
       "notes": [
@@ -446615,6 +450283,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "94",
+          "zh": "命中检定"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "81",
           "zh": "命中检定"
@@ -446628,6 +450301,13 @@
           "en": "To-Hit Check",
           "zh": "命中检定",
           "url": "src/published/books/dmg/glossary-2.md#90"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Check",
+          "zh": "命中检定",
+          "url": "src/published/books/dmg/glossary-2.md#94"
         }
       ],
       "notes": [
@@ -446646,6 +450326,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "98",
+          "zh": "命中修正"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "85",
           "zh": "命中修正"
@@ -446659,6 +450344,13 @@
           "en": "To-Hit Modifier",
           "zh": "命中修正",
           "url": "src/published/books/dmg/glossary-2.md#93"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Modifier",
+          "zh": "命中修正",
+          "url": "src/published/books/dmg/glossary-2.md#98"
         }
       ],
       "notes": [
@@ -446677,6 +450369,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "129",
+          "zh": "命中所需数值"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "117",
           "zh": "命中所需数值"
@@ -446690,6 +450387,13 @@
           "en": "To-Hit Number",
           "zh": "命中所需数值",
           "url": "src/published/books/dmg/glossary-2.md#124"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Number",
+          "zh": "命中所需数值",
+          "url": "src/published/books/dmg/glossary-2.md#129"
         }
       ],
       "notes": [
@@ -446708,6 +450412,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "100",
+          "zh": "命中概率修正"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "87",
           "zh": "命中概率修正"
@@ -446721,6 +450430,13 @@
           "en": "To-Hit Probability Adjustment",
           "zh": "命中概率修正",
           "url": "src/published/books/dmg/glossary-2.md#95"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "To-Hit Probability Adjustment",
+          "zh": "命中概率修正",
+          "url": "src/published/books/dmg/glossary-2.md#100"
         }
       ],
       "notes": [
@@ -446811,6 +450527,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "203",
+          "zh": "陷阱"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "152",
           "zh": "陷阱"
@@ -446824,6 +450545,13 @@
           "en": "Trap",
           "zh": "陷阱",
           "url": "src/published/books/dmg/glossary-2.md#178"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Trap",
+          "zh": "陷阱",
+          "url": "src/published/books/dmg/glossary-2.md#203"
         }
       ],
       "notes": [
@@ -446843,6 +450571,11 @@
         "宝藏"
       ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "204",
+          "zh": "财宝"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "153",
@@ -446872,6 +450605,13 @@
           "en": "Treasure",
           "zh": "财宝",
           "url": "src/published/books/dmg/glossary-2.md#179"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Treasure",
+          "zh": "财宝",
+          "url": "src/published/books/dmg/glossary-2.md#204"
         }
       ],
       "notes": [
@@ -446890,6 +450630,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "205",
+          "zh": "诡计"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "154",
           "zh": "诡计"
@@ -446903,6 +450648,13 @@
           "en": "Trick",
           "zh": "诡计",
           "url": "src/published/books/dmg/glossary-2.md#180"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Trick",
+          "zh": "诡计",
+          "url": "src/published/books/dmg/glossary-2.md#205"
         }
       ],
       "notes": [
@@ -446952,6 +450704,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "207",
+          "zh": "行动顺序"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "155",
           "zh": "行动顺序"
@@ -446965,6 +450722,13 @@
           "en": "Turn Sequence",
           "zh": "行动顺序",
           "url": "src/published/books/dmg/glossary-2.md#182"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Turn Sequence",
+          "zh": "行动顺序",
+          "url": "src/published/books/dmg/glossary-2.md#207"
         }
       ],
       "notes": [
@@ -446984,6 +450748,11 @@
         "驱退不死生物"
       ],
       "occurrences": [
+        {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "209",
+          "zh": "驱散不死生物"
+        },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "157",
@@ -447013,6 +450782,13 @@
           "en": "Turning Undead",
           "zh": "驱散不死生物",
           "url": "src/published/books/dmg/glossary-2.md#184"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Turning Undead",
+          "zh": "驱散不死生物",
+          "url": "src/published/books/dmg/glossary-2.md#209"
         }
       ],
       "notes": [
@@ -447098,6 +450874,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "210",
+          "zh": "不死生物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "158",
           "zh": "不死生物"
@@ -447116,6 +450897,13 @@
           "en": "Undead",
           "zh": "不死生物",
           "url": "src/published/books/dmg/glossary-2.md#184"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Undead",
+          "zh": "不死生物",
+          "url": "src/published/books/dmg/glossary-2.md#210"
         }
       ],
       "notes": [
@@ -447492,6 +451280,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "213",
+          "zh": "游荡怪物"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "159",
           "zh": "游荡怪物"
@@ -447505,6 +451298,13 @@
           "en": "Wandering Monster",
           "zh": "游荡怪物",
           "url": "src/published/books/dmg/glossary-2.md#188"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Wandering Monster",
+          "zh": "游荡怪物",
+          "url": "src/published/books/dmg/glossary-2.md#213"
         }
       ],
       "notes": [
@@ -447554,6 +451354,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "29",
+          "zh": "武器熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "6",
           "zh": "武器熟练项"
@@ -447567,6 +451372,13 @@
           "en": "Weapon Proficiency",
           "zh": "武器熟练项",
           "url": "src/published/books/dmg/glossary-2.md#28"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Weapon Proficiency",
+          "zh": "武器熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#29"
         }
       ],
       "notes": [
@@ -447693,6 +451505,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "109",
+          "zh": "武器速度因数"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "96",
           "zh": "武器速度因数"
@@ -447706,6 +451523,13 @@
           "en": "Weapon Speed Factor",
           "zh": "武器速度因数",
           "url": "src/published/books/dmg/glossary-2.md#104"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Weapon Speed Factor",
+          "zh": "武器速度因数",
+          "url": "src/published/books/dmg/glossary-2.md#109"
         }
       ],
       "notes": [
@@ -447724,6 +451548,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "108",
+          "zh": "武器类型"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "95",
           "zh": "武器类型"
@@ -447737,6 +451566,13 @@
           "en": "Weapon Type",
           "zh": "武器类型",
           "url": "src/published/books/dmg/glossary-2.md#103"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Weapon Type",
+          "zh": "武器类型",
+          "url": "src/published/books/dmg/glossary-2.md#108"
         }
       ],
       "notes": [
@@ -447870,6 +451706,11 @@
       "legacyZh": [],
       "occurrences": [
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "31",
+          "zh": "荒野熟练项"
+        },
+        {
           "path": "terminology/rule-terms.tsv",
           "location": "13",
           "zh": "荒野熟练项"
@@ -447883,6 +451724,13 @@
           "en": "Wilderness Proficiency",
           "zh": "荒野熟练项",
           "url": "src/published/books/dmg/glossary-2.md#30"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Wilderness Proficiency",
+          "zh": "荒野熟练项",
+          "url": "src/published/books/dmg/glossary-2.md#31"
         }
       ],
       "notes": [
@@ -581362,6 +585210,11 @@
           "zh": "魅惑怪物"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "170",
+          "zh": "魅惑怪物"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
           "location": "93",
           "zh": "魅惑怪物"
@@ -581410,7 +585263,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -581466,6 +585320,11 @@
           "zh": "魅惑人类"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "169",
+          "zh": "魅惑人类"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-magic-users.md",
           "location": "33",
           "zh": "魅惑人类"
@@ -581509,7 +585368,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -582960,6 +586820,11 @@
           "zh": "通晓语言"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "165",
+          "zh": "通晓语言"
+        },
+        {
           "path": "src/published/books/oa/oa-wu-jen-spells.md",
           "location": "137",
           "zh": "通晓语言"
@@ -583008,7 +586873,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -586406,6 +590272,11 @@
           "zh": "死亡术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "168",
+          "zh": "死亡术"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
           "location": "185",
           "zh": "死亡术"
@@ -586436,6 +590307,13 @@
           "edition": "1E",
           "source": "UA",
           "url": "src/published/books/ua/ua-magic-user-spell-table.md#63"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Death Spell",
+          "zh": "死亡术",
+          "url": "src/published/books/dmg/glossary-2.md#168"
         }
       ],
       "notes": [
@@ -587431,6 +591309,11 @@
           "zh": "侦测隐形"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "163",
+          "zh": "侦测隐形"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-illusionists.md",
           "location": "93",
           "zh": "侦测隐形"
@@ -587445,9 +591328,20 @@
         "detect-invisibility",
         "detect-invisibility-level-1"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Detect Invisibility",
+          "zh": "侦测隐形",
+          "url": "src/published/books/dmg/glossary-2.md#163"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "spell:detect lie",
@@ -587581,6 +591475,11 @@
           "zh": "侦测魔法"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "164",
+          "zh": "侦测魔法"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-clerics.md",
           "location": "7",
           "zh": "侦测魔法"
@@ -587665,7 +591564,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -588882,6 +592782,11 @@
           "zh": "解除魔法"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "161",
+          "zh": "解除魔法"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-clerics.md",
           "location": "75",
           "zh": "解除魔法"
@@ -588962,7 +592867,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -594657,6 +598563,11 @@
           "zh": "火球术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "173",
+          "zh": "火球术"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-magic-users.md",
           "location": "853",
           "zh": "火球术"
@@ -594691,7 +598602,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -599502,6 +603414,11 @@
           "zh": "人类定身术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "174",
+          "zh": "人类定身术"
+        },
+        {
           "path": "src/published/books/oa/oa-shukenja-spells.md",
           "location": "415",
           "zh": "人类定身术"
@@ -599556,7 +603473,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -603255,6 +607173,11 @@
           "zh": "光亮术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "172",
+          "zh": "光亮术"
+        },
+        {
           "path": "src/data/published/book-search.json",
           "location": "/14",
           "zh": "光照"
@@ -603333,7 +607256,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -604376,6 +608300,11 @@
           "zh": "魔魂壶"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "171",
+          "zh": "魔魂壶"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-magic-users.md",
           "location": "1686",
           "zh": "魔魂壶"
@@ -604410,7 +608339,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -605221,6 +609151,11 @@
           "zh": "群体变树术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "159",
+          "zh": "群体变树术"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-illusionists.md",
           "location": "582",
           "zh": "群体变树术"
@@ -605251,6 +609186,13 @@
           "edition": "1E",
           "source": "UA",
           "url": "src/published/books/ua/ua-magic-user-spell-table.md#28"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Massmorph",
+          "zh": "群体变树术",
+          "url": "src/published/books/dmg/glossary-2.md#159"
         }
       ],
       "notes": [
@@ -617043,11 +620985,13 @@
       "key": "spell:read languages",
       "category": "spell",
       "en": "Read Languages",
-      "zh": "阅读语言（神谕者版）",
+      "zh": "阅读语言",
       "englishVariants": [
         "Read Languages"
       ],
-      "legacyZh": [],
+      "legacyZh": [
+        "阅读语言（神谕者版）"
+      ],
       "occurrences": [
         {
           "path": "@library",
@@ -617065,6 +621009,11 @@
           "zh": "阅读语言（神谕者版）"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "166",
+          "zh": "阅读语言"
+        },
+        {
           "path": "src/published/books/dragon-53/new-spells.md",
           "location": "7",
           "zh": "阅读语言（神谕者版）"
@@ -617073,9 +621022,20 @@
       "activeIds": [
         "dragon-053-spell-read-languages"
       ],
-      "status": "pending",
-      "references": [],
-      "notes": []
+      "status": "verified-exact",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Read Languages",
+          "zh": "阅读语言",
+          "url": "src/published/books/dmg/glossary-2.md#166"
+        }
+      ],
+      "notes": [
+        "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+      ],
+      "verificationScope": "1e-glossary-label"
     },
     {
       "key": "spell:read magic",
@@ -617108,6 +621068,11 @@
           "zh": "阅读魔法"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "167",
+          "zh": "阅读魔法"
+        },
+        {
           "path": "src/published/books/oa/oa-wu-jen-spells.md",
           "location": "277",
           "zh": "阅读魔法"
@@ -617134,7 +621099,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -617792,6 +621758,11 @@
           "zh": "移除诅咒"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "162",
+          "zh": "移除诅咒"
+        },
+        {
           "path": "src/published/books/oa/oa-shukenja-spells.md",
           "location": "809",
           "zh": "移除诅咒"
@@ -617846,7 +621817,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {
@@ -620155,6 +624127,11 @@
           "zh": "阴影门"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "160",
+          "zh": "阴影门"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-illusionists.md",
           "location": "51",
           "zh": "阴影门"
@@ -620185,6 +624162,13 @@
           "edition": "1E",
           "source": "DMG",
           "url": "src/published/books/dmg/dmg-spell-explanations-illusionists.md#51"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Shadow Door",
+          "zh": "阴影门",
+          "url": "src/published/books/dmg/glossary-2.md#160"
         }
       ],
       "notes": [
@@ -624397,6 +628381,11 @@
           "zh": "化石为肉"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "176",
+          "zh": "化石为肉"
+        },
+        {
           "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
           "location": "225",
           "zh": "化石为肉"
@@ -624427,6 +628416,13 @@
           "edition": "1E",
           "source": "UA",
           "url": "src/published/books/ua/ua-magic-user-spell-table.md#85"
+        },
+        {
+          "edition": "1E",
+          "source": "AD&D 1E curated glossary",
+          "en": "Stone to Flesh",
+          "zh": "化石为肉",
+          "url": "src/published/books/dmg/glossary-2.md#176"
         }
       ],
       "notes": [
@@ -626524,6 +630520,11 @@
           "zh": "传送术"
         },
         {
+          "path": "src/published/books/dmg/glossary-2.md",
+          "location": "175",
+          "zh": "传送术"
+        },
+        {
           "path": "src/published/books/phb/spell-explanations-magic-users.md",
           "location": "1771",
           "zh": "传送术"
@@ -626558,7 +630559,8 @@
         }
       ],
       "notes": [
-        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
+        "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+        "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
       ]
     },
     {

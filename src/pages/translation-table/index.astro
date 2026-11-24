@@ -22,13 +22,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <button id="terms-next" type="button">下一页</button>
   </nav>
   <script>
-    type Entry = { en:string; zh:string; category:string; status:string; references:string[] };
+    type Entry = { en:string; zh:string; category:string; status:string; references:string[]; aliases:string[]; englishVariants:string[] };
     const labels:Record<string,string> = {
       action:'行动', background:'背景', boon:'恩赐', book:'书目', candidate:'名称候选', charoption:'角色选项', class:'职业',
       classFeature:'职业特性', condition:'状态', cult:'教团', disease:'疾病', feat:'专长', hazard:'危害', heading:'资料标题候选',
       item:'物品', language:'语言', languageScript:'文字系统', magicvariant:'魔法物品变体', monster:'怪物',
       object:'物件', optionalfeature:'可选特性', psionic:'灵能', proper:'专名', race:'种族', recipe:'配方',
-      'legacy-term':'历史译名索引', reward:'奖励', rule:'规则', 'setting-reference':'设定名称索引（含标题候选）', skill:'技能',
+      'glossary-context':'原书术语表（语境待分）', 'glossary-term':'原书术语表', 'legacy-term':'历史译名索引', reward:'奖励', rule:'规则', 'setting-reference':'设定名称索引（含标题候选）', skill:'技能',
       spell:'法术', status:'状态', subclass:'子职', subclassFeature:'子职特性', table:'表格名称',
       trap:'陷阱', variantrule:'变体规则', vehicle:'载具', vehicleUpgrade:'载具改装',
     };
@@ -50,7 +50,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     let page = 1;
     function render() {
       const q = query.value.trim().toLowerCase();
-      const hits = entries.filter(e => (!category.value || e.category === category.value) && (!q || `${e.zh} ${e.en}`.toLowerCase().includes(q)));
+      const hits = entries.filter(e => (!category.value || e.category === category.value) && (!q || `${e.zh} ${e.en} ${e.aliases.join(' ')} ${e.englishVariants.join(' ')}`.toLowerCase().includes(q)));
       const pageCount = Math.max(1, Math.ceil(hits.length / pageSize));
       page = Math.min(page, pageCount);
       const start = (page - 1) * pageSize;

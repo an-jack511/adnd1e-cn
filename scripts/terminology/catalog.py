@@ -96,11 +96,77 @@ def inventory():
                 en,zh,*_=line.split('\t');add(en,zh,'monster' if 'monster-names' in source else 'legacy-term','../'+source,str(n))
     rule_catalog={}
     rule_source=OUT/'rule-terms.tsv'
+    rule_rows=[]
     if rule_source.exists():
         with rule_source.open(encoding='utf-8-sig',newline='') as stream:
-            for n,row in enumerate(csv.DictReader(stream,delimiter='\t'),2):
-                add(row['English'],row['Chinese'],'rule',rule_source.relative_to(ROOT).as_posix(),str(n))
-                rule_catalog[key('rule',row['English'])]=row
+            rule_rows=list(csv.DictReader(stream,delimiter='\t'))
+    rule_english={norm(row['English']) for row in rule_rows}
+    # Index explicit bilingual entries from both maintained DMG glossary files.
+    # They are useful 1E name evidence; definitions remain contextual evidence,
+    # not automatic claims that the related rule mechanism was audited.
+    glossary_candidates=defaultdict(list)
+    glossary_sources=[
+        (ROOT/'src/published/books/dmg/dmg-glossary.md','DMG translated glossary'),
+        (ROOT/'src/published/books/dmg/glossary-2.md','AD&D 1E curated glossary'),
+    ]
+    for glossary_path,glossary_source in glossary_sources:
+      for line_number,line in enumerate(glossary_path.read_text(encoding='utf-8-sig').splitlines(),1):
+        if not line.startswith('|') or line.startswith('|---'):continue
+        cell=line.strip('|').split('|',1)[0].strip()
+        first_english=re.search('[A-Za-z]',cell)
+        if not first_english:continue
+        zh=cell[:first_english.start()].strip();en=cell[first_english.start():].strip()
+        if not zh:continue
+        # Parenthetical stat abbreviations are lookup aliases, not part of the
+        # English headword. Keep the abbreviation in the glossary itself.
+        en=re.sub(r'[（(](?:AC|HD|HP|XP|MU|M-U|THAC0|DM|NPC|PC|WIS|WS)[）)]$','',en).strip()
+        zh_parts=[part.strip() for part in zh.split('／')]
+        en_parts=[part.strip() for part in en.split('／')]
+        pairs=[]
+        if len(zh_parts)>1 and len(en_parts)>1:
+            suffix=''
+            if zh_parts[-1].endswith('豁免'):
+                zh_parts[-1]=zh_parts[-1][:-2]
+                suffix='豁免'
+            if len(zh_parts)==len(en_parts):
+                save_prefix=en_parts[0].split(' ',2)[:2] if en_parts[0].startswith('Save vs.') else []
+                for index,(zh_part,en_part) in enumerate(zip(zh_parts,en_parts)):
+                    if index and save_prefix and not en_part.startswith('Save vs.'):
+                        en_part=' '.join(save_prefix+[en_part])
+                    pairs.append((en_part,zh_part+suffix))
+            elif en_parts[0].startswith('Save vs.') and len(zh_parts)==len(en_parts)+1:
+                pairs.append((en_parts[0],zh_parts[0]+suffix))
+                pairs.append((en_parts[0],zh_parts[1]+suffix))
+                for zh_part,en_part in zip(zh_parts[2:],en_parts[1:]):
+                    pairs.append((en_part if en_part.startswith('Save vs.') else 'Save vs. '+en_part,zh_part+suffix))
+            else:continue
+        else:
+            for en_part in en_parts:
+                pairs.append((en_part,zh_parts[0]))
+        for term_en,term_zh in pairs:
+            if not term_en or not term_zh or not re.search(r'[\u3400-\u9fff]',term_zh):continue
+            evidence={'edition':'1E','source':glossary_source,'en':term_en,'zh':term_zh,
+                'url':f"{glossary_path.relative_to(ROOT).as_posix()}#{line_number}"}
+            glossary_candidates[norm(term_en)].append({'en':term_en,'zh':term_zh,'path':glossary_path.relative_to(ROOT).as_posix(),
+                'line':line_number,'reference':evidence})
+    glossary_decisions={}
+    glossary_category_priority={'rule':0,'class':1,'monster':2,'item':3,'spell':4,'race':5,'proper':6}
+    for candidate_rows in glossary_candidates.values():
+        en=candidate_rows[0]['en']
+        translations=sorted({row['zh'] for row in candidate_rows})
+        contextual=len(translations)>1
+        zh='／'.join(translations) if contextual else translations[0]
+        matches=[e for e in entries.values() if norm(e['en'])==norm(en) and e['occurrences'] and e['category'] not in ['heading','candidate','legacy-term']]
+        category='glossary-context' if contextual else 'rule' if norm(en) in rule_english else min((e['category'] for e in matches),key=lambda value:glossary_category_priority.get(value,9)) if matches else 'glossary-term'
+        for row in candidate_rows:add(en,row['zh'],category,row['path'],str(row['line']))
+        glossary_key=key(category,en)
+        glossary_decisions[glossary_key]={'en':en,'zh':zh,'status':'reference-conflict' if contextual else 'verified-exact',
+            'verificationScope':'1e-glossary-context' if contextual else '1e-glossary-label',
+            'reason':'同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。' if contextual else 'AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。',
+            'references':[row['reference'] for row in candidate_rows],'userOverride':False}
+    for n,row in enumerate(rule_rows,2):
+        add(row['English'],row['Chinese'],'rule',rule_source.relative_to(ROOT).as_posix(),str(n))
+        rule_catalog[key('rule',row['English'])]=row
     # A small number of creature-category labels (e.g. Humanoid, Undead) were
     # historically stored in monster-names.tsv as well as the reviewed rule
     # lexicon. Keep the source occurrence for audit, but expose one canonical
@@ -152,6 +218,11 @@ def inventory():
         manual[k]={'en':row['English'],'zh':row['Chinese'],'status':row['status'],'verificationScope':row['verificationScope'],
                    'reason':f"规则术语主表；证据：{row['evidence']}。项目术语对应已记录；未标为已核的条目继续待核。",
                    'references':[{'edition':'1E','en':row['English'],'zh':row['Chinese'],'url':row['evidence']}], 'userOverride':False}
+    for k,d in glossary_decisions.items():
+        if k in manual:
+            for reference in d['references']:
+                if reference not in manual[k].setdefault('references',[]):manual[k]['references'].append(reference)
+        else:manual[k]=d
     for e in entries.values():
         decision=manual.get(e['key'])
         if decision:
@@ -348,6 +419,7 @@ def apply(catalog,do_apply=False):
     # Small browser-safe lookup supports old-name searches and stored character labels.
     runtime=[]
     for e in entries:
+        if e['category'] in ['heading','candidate','legacy-term'] or not e['status'].startswith(('verified','adapted')):continue
         runtime.append({'category':e['category'],'en':e['en'],'zh':e['zh'],'aliases':e['legacyZh'],'status':e['status'],'ids':e['activeIds'],
             'references':[{'edition':r.get('edition'),'world':r.get('world'),'source':r.get('source'),'page':r.get('page')} for r in e['references']]})
     write(ROOT/'src/data/terminology/names.json',runtime)

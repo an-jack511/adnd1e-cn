@@ -3374,26 +3374,6 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "spell:detect invisibility",
-    "en": "Detect Invisibility",
-    "currentZh": "侦测隐形",
-    "candidates": [
-      {
-        "en": "See Invisibility",
-        "zh": "识破隐形",
-        "similarity": 0.857,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      },
-      {
-        "en": "Greater Invisibility",
-        "zh": "高等隐形术",
-        "similarity": 0.821,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
     "key": "spell:disguise scent",
     "en": "Disguise Scent",
     "currentZh": "遮掩气味",

@@ -1236,44 +1236,6 @@
     "notes": []
   },
   {
-    "key": "class:magic-user",
-    "category": "class",
-    "en": "Magic-User",
-    "zh": "魔法师",
-    "englishVariants": [
-      "Magic-User"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "魔法师"
-      },
-      {
-        "path": "src/data/public/classes-base.ts",
-        "location": "97",
-        "zh": "魔法师"
-      },
-      {
-        "path": "src/data/public/character-options.json",
-        "location": "/classes/8",
-        "zh": "魔法师"
-      },
-      {
-        "path": "src/published/books/dmg/appendix-c-random-monster-encounters-16.md",
-        "location": "168",
-        "zh": "魔法师"
-      }
-    ],
-    "activeIds": [
-      "magic-user"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "class:mariner",
     "category": "class",
     "en": "Mariner",
@@ -39524,64 +39486,6 @@
     "notes": []
   },
   {
-    "key": "heading:magic",
-    "category": "heading",
-    "en": "Magic",
-    "zh": "魔法",
-    "englishVariants": [
-      "Magic"
-    ],
-    "legacyZh": [
-      "以太位面的魔法"
-    ],
-    "occurrences": [
-      {
-        "path": "src/published/books/motp/motp-astral-plane.md",
-        "location": "74",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-air.md",
-        "location": "53",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-earth.md",
-        "location": "57",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-fire.md",
-        "location": "51",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-water.md",
-        "location": "39",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-ethereal-combat-magic.md",
-        "location": "9",
-        "zh": "以太位面的魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-inner-planes.md",
-        "location": "73",
-        "zh": "魔法"
-      },
-      {
-        "path": "src/published/books/motp/motp-outer-planes.md",
-        "location": "68",
-        "zh": "魔法"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:magic in the wilderness",
     "category": "heading",
     "en": "Magic in the Wilderness",
@@ -57857,27 +57761,6 @@
         "path": "src/published/books/dla/dla-krynn-dragons.md",
         "location": "97",
         "zh": "银龙"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:silvershield",
-    "category": "heading",
-    "en": "Silvershield",
-    "zh": "银盾",
-    "englishVariants": [
-      "Silvershield"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/dmdk/dmdk-sample-adventure.md",
-        "location": "43",
-        "zh": "银盾"
       }
     ],
     "activeIds": [],
@@ -128192,45 +128075,6 @@
     "notes": []
   },
   {
-    "key": "monster:lycanthrope",
-    "category": "monster",
-    "en": "Lycanthrope",
-    "zh": "兽化生物",
-    "englishVariants": [
-      "Lycanthrope"
-    ],
-    "legacyZh": [
-      "兽化人",
-      "兽化生物 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "408",
-        "zh": "兽化生物"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/361",
-        "zh": "兽化人"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/361",
-        "zh": "兽化人"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-land-lamprey-luck-eater.md",
-        "location": "63",
-        "zh": "兽化生物 ·"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "monster:lynx, giant",
     "category": "monster",
     "en": "Lynx, Giant",
@@ -128925,46 +128769,6 @@
     ],
     "activeIds": [
       "dragon-101-monster-metal-mimic"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:mezzodaemon",
-    "category": "monster",
-    "en": "Mezzodaemon",
-    "zh": "夹层魔",
-    "englishVariants": [
-      "Mezzodaemon"
-    ],
-    "legacyZh": [
-      "夹层魔 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "夹层魔"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/100",
-        "zh": "夹层魔"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "128",
-        "zh": "夹层魔"
-      },
-      {
-        "path": "src/published/books/ff/ff-mezzodaemon-mite.md",
-        "location": "1",
-        "zh": "夹层魔 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-mezzodaemon"
     ],
     "status": "pending",
     "references": [],
@@ -130535,49 +130339,6 @@
     ],
     "activeIds": [
       "dragon-122-monster-nunda"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:nycadaemon",
-    "category": "monster",
-    "en": "Nycadaemon",
-    "zh": "夜魔",
-    "englishVariants": [
-      "Nycadaemon"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "夜魔"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/107",
-        "zh": "夜魔"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "137",
-        "zh": "夜魔"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/736",
-        "zh": "夜魔"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/736",
-        "zh": "夜魔"
-      }
-    ],
-    "activeIds": [
-      "ff-nycadaemon"
     ],
     "status": "pending",
     "references": [],
@@ -138730,46 +138491,6 @@
     ],
     "activeIds": [
       "turtle"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "monster:tween",
-    "category": "monster",
-    "en": "Tween",
-    "zh": "影伴",
-    "englishVariants": [
-      "Tween"
-    ],
-    "legacyZh": [
-      "影伴 ·"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "影伴"
-      },
-      {
-        "path": "src/data/public/ff-monsters-imported.json",
-        "location": "/161",
-        "zh": "影伴"
-      },
-      {
-        "path": "../translation/monster-names.tsv",
-        "location": "194",
-        "zh": "影伴"
-      },
-      {
-        "path": "src/published/books/ff/ff-trilloch-troll-tween.md",
-        "location": "172",
-        "zh": "影伴 ·"
-      }
-    ],
-    "activeIds": [
-      "ff-tween"
     ],
     "status": "pending",
     "references": [],
@@ -149552,60 +149273,6 @@
     "notes": []
   },
   {
-    "key": "spell:detect invisibility",
-    "category": "spell",
-    "en": "Detect Invisibility",
-    "zh": "侦测隐形",
-    "englishVariants": [
-      "Detect Invisibility"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/179",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/338",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/179",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/338",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-illusionists.md",
-        "location": "93",
-        "zh": "侦测隐形"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "515",
-        "zh": "侦测隐形"
-      }
-    ],
-    "activeIds": [
-      "detect-invisibility",
-      "detect-invisibility-level-1"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "spell:detect lie",
     "category": "spell",
     "en": "Detect Lie",
@@ -158470,44 +158137,6 @@
     ],
     "activeIds": [
       "ua-illusionist-1-read-illusionist-magic"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "spell:read languages",
-    "category": "spell",
-    "en": "Read Languages",
-    "zh": "阅读语言（神谕者版）",
-    "englishVariants": [
-      "Read Languages"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "阅读语言（神谕者版）"
-      },
-      {
-        "path": "src/data/public/dragon-spells.json",
-        "location": "/50",
-        "zh": "阅读语言（神谕者版）"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/820",
-        "zh": "阅读语言（神谕者版）"
-      },
-      {
-        "path": "src/published/books/dragon-53/new-spells.md",
-        "location": "7",
-        "zh": "阅读语言（神谕者版）"
-      }
-    ],
-    "activeIds": [
-      "dragon-053-spell-read-languages"
     ],
     "status": "pending",
     "references": [],

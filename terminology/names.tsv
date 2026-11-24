@@ -368,7 +368,7 @@ class	Jock	运动健将	pending	pending		Jock
 class	Kensai	剑圣	pending	pending		Kensai			
 class	Knight of Solamnia	索兰尼亚骑士	pending	pending		Knight of Solamnia			
 class	Mage	法师	reference-only	pending			5E	https://5e.kiwee.top/data/class/class-mage.json	2026-11-24
-class	Magic-User	魔法师	pending	pending		Magic-User			
+class	Magic-User	魔法师	verified-exact	1e-glossary-label		Magic-User	1E	src/published/books/dmg/dmg-glossary.md#54	2026-11-24
 class	Mariner	航海家	pending	pending		Mariner			
 class	Merchant	商人	pending	pending		Merchant			
 class	Monk	武僧	verified-exact	whole-name	僧侣	Monk	5E; 5R	https://5e.kiwee.top/data/class/class-monk.json	2026-11-24
@@ -377,7 +377,7 @@ class	Ninja	忍者	pending	pending		Ninja
 class	Oracle	预言师	pending	pending		Oracle			
 class	Paladin	圣武士	reference-conflict	pending		Paladin	5E; 5R	https://5e.kiwee.top/data/class/class-paladin.json	2026-11-24
 class	Priest	牧师	reference-only	pending			5E	https://5e.kiwee.top/data/class/class-priest.json	2026-11-24
-class	Ranger	巡林客	verified-exact	whole-name	游侠	Ranger	3R; 5E; 5R	https://5e.kiwee.top/data/class/class-ranger.json; https://dnd3r.huijiwiki.com/wiki/术语/玩家角色	2026-11-24
+class	Ranger	巡林客	verified-exact	whole-name	游侠	Ranger	1E; 3R; 5E; 5R	https://5e.kiwee.top/data/class/class-ranger.json; https://dnd3r.huijiwiki.com/wiki/术语/玩家角色; src/published/books/dmg/glossary-2.md#33	2026-11-24
 class	Rogue	游荡者	reference-conflict	pending			5E; 5R	https://5e.kiwee.top/data/class/class-rogue.json	2026-11-24
 class	Samurai	武士	pending	pending		Samurai			
 class	Shaman	萨满祭司	reference-only	pending			5E	https://5e.kiwee.top/data/class/class-shaman.json	2026-11-24
@@ -1046,6 +1046,53 @@ feat	Will to Survive	求生意志	reference-only	pending			5E	https://5e.kiwee.t
 feat	Wood Elf Magic	木精灵魔法	reference-only	pending			5E	https://5e.kiwee.top/data/feats.json	2026-11-24
 feat	Zhentarim Ruffian	散塔林会暴徒	reference-only	pending			5R	https://5e.kiwee.top/data/feats.json	2026-11-24
 feat	Zhentarim Tactics	散塔林会战术	reference-only	pending			5R	https://5e.kiwee.top/data/feats.json	2026-11-24
+glossary-context	Phylactery	命匣／圣匣	reference-conflict	1e-glossary-context	命匣; 圣匣	Phylactery	1E	src/published/books/dmg/glossary-2.md#18; src/published/books/dmg/glossary-2.md#19	2026-11-24
+glossary-context	Save vs. Poison	对毒素豁免／对毒药豁免	reference-conflict	1e-glossary-context	对毒素豁免; 对毒药豁免	Save vs. Poison	1E	src/published/books/dmg/glossary-2.md#192	2026-11-24
+glossary-term	Area of Effect（AOE）	作用区域	verified-exact	1e-glossary-label		Area of Effect（AOE）	1E	src/published/books/dmg/glossary-2.md#88	2026-11-24
+glossary-term	Astral	星界	verified-exact	1e-glossary-label		Astral	1E	src/published/books/dmg/dmg-glossary.md#10	2026-11-24
+glossary-term	Barbarian Proficiency	蛮族熟练项	verified-exact	1e-glossary-label		Barbarian Proficiency	1E	src/published/books/dmg/glossary-2.md#36	2026-11-24
+glossary-term	Bolt	弩矢	verified-exact	1e-glossary-label		Bolt	1E	src/published/books/dmg/dmg-glossary.md#11	2026-11-24
+glossary-term	c.p.	铜币	verified-exact	1e-glossary-label		c.p.	1E	src/published/books/dmg/dmg-glossary.md#17	2026-11-24
+glossary-term	Cf.	比较	verified-exact	1e-glossary-label		Cf.	1E	src/published/books/dmg/dmg-glossary.md#14	2026-11-24
+glossary-term	Charm	魅惑	verified-exact	1e-glossary-label		Charm	1E	src/published/books/dmg/dmg-glossary.md#15	2026-11-24
+glossary-term	Court Proficiency	宫廷熟练项	verified-exact	1e-glossary-label		Court Proficiency	1E	src/published/books/dmg/glossary-2.md#38	2026-11-24
+glossary-term	Cultural Proficiency	文化熟练项	verified-exact	1e-glossary-label		Cultural Proficiency	1E	src/published/books/dmg/glossary-2.md#44	2026-11-24
+glossary-term	Deities	神祇	verified-exact	1e-glossary-label		Deities	1E	src/published/books/dmg/dmg-glossary.md#21	2026-11-24
+glossary-term	Dram	德拉姆	verified-exact	1e-glossary-label		Dram	1E	src/published/books/dmg/glossary-2.md#56	2026-11-24
+glossary-term	Dungeon	地下城	verified-exact	1e-glossary-label		Dungeon	1E	src/published/books/dmg/dmg-glossary.md#24	2026-11-24
+glossary-term	Dweomer	魔力	verified-exact	1e-glossary-label		Dweomer	1E	src/published/books/dmg/dmg-glossary.md#25	2026-11-24
+glossary-term	e.p.（亦作琥珀金币）	电子币	verified-exact	1e-glossary-label		e.p.（亦作琥珀金币）	1E	src/published/books/dmg/dmg-glossary.md#30	2026-11-24
+glossary-term	Elric	埃尔里克	verified-exact	1e-glossary-label		Elric	1E	src/published/books/dmg/glossary-2.md#62	2026-11-24
+glossary-term	Ethereal	以太位面	verified-exact	1e-glossary-label		Ethereal	1E	src/published/books/dmg/dmg-glossary.md#32	2026-11-24
+glossary-term	Fafhrd	法弗赫德	verified-exact	1e-glossary-label		Fafhrd	1E	src/published/books/dmg/glossary-2.md#63	2026-11-24
+glossary-term	Feet	尺	verified-exact	1e-glossary-label		Feet	1E	src/published/books/dmg/dmg-glossary.md#37	2026-11-24
+glossary-term	g.p.	金币	verified-exact	1e-glossary-label		g.p.	1E	src/published/books/dmg/dmg-glossary.md#39	2026-11-24
+glossary-term	Holy/Unholy Water	圣水	verified-exact	1e-glossary-label		Holy/Unholy Water	1E	src/published/books/dmg/dmg-glossary.md#44	2026-11-24
+glossary-term	Inches	寸	verified-exact	1e-glossary-label		Inches	1E	src/published/books/dmg/dmg-glossary.md#47	2026-11-24
+glossary-term	Initiative Roll	先攻骰	verified-exact	1e-glossary-label		Initiative Roll	1E	src/published/books/dmg/glossary-2.md#132	2026-11-24
+glossary-term	League	联盟	verified-exact	1e-glossary-label		League	1E	src/published/books/dmg/dmg-glossary.md#50	2026-11-24
+glossary-term	Llirryn	利林	verified-exact	1e-glossary-label		Llirryn	1E	src/published/books/dmg/glossary-2.md#65	2026-11-24
+glossary-term	Magic	魔法	verified-exact	1e-glossary-label	以太位面的魔法	Magic	1E	src/published/books/dmg/dmg-glossary.md#53	2026-11-24
+glossary-term	Milieu	世界设定	verified-exact	1e-glossary-label		Milieu	1E	src/published/books/dmg/dmg-glossary.md#58	2026-11-24
+glossary-term	Mind Blast	夺心魔的灵能冲击	verified-exact	1e-glossary-label		Mind Blast	1E	src/published/books/dmg/glossary-2.md#218	2026-11-24
+glossary-term	Mizugumo	水蜘蛛	verified-exact	1e-glossary-label		Mizugumo	1E	src/published/books/dmg/glossary-2.md#54	2026-11-24
+glossary-term	Monty Haul	蒙蒂·豪尔	verified-exact	1e-glossary-label		Monty Haul	1E	src/published/books/dmg/glossary-2.md#6	2026-11-24
+glossary-term	Morale Roll	士气检定	verified-exact	1e-glossary-label		Morale Roll	1E	src/published/books/dmg/glossary-2.md#136	2026-11-24
+glossary-term	p.p.（亦作铂金币）	白金币	verified-exact	1e-glossary-label		p.p.（亦作铂金币）	1E	src/published/books/dmg/glossary-2.md#73	2026-11-24
+glossary-term	Round	轮	verified-exact	1e-glossary-label		Round	1E	src/published/books/dmg/glossary-2.md#81	2026-11-24
+glossary-term	s.p.	银币	verified-exact	1e-glossary-label		s.p.	1E	src/published/books/dmg/glossary-2.md#198	2026-11-24
+glossary-term	Segment	段	verified-exact	1e-glossary-label		Segment	1E	src/published/books/dmg/glossary-2.md#197	2026-11-24
+glossary-term	Shinobi Kumade	忍者攀爬耙	verified-exact	1e-glossary-label		Shinobi Kumade	1E	src/published/books/dmg/glossary-2.md#51	2026-11-24
+glossary-term	Shinobi Shozoku	忍者装束	verified-exact	1e-glossary-label		Shinobi Shozoku	1E	src/published/books/dmg/glossary-2.md#49	2026-11-24
+glossary-term	Silvershield	银盾	verified-exact	1e-glossary-label		Silvershield	1E	src/published/books/dmg/glossary-2.md#66	2026-11-24
+glossary-term	Te-kagi	攀爬爪	verified-exact	1e-glossary-label		Te-kagi	1E	src/published/books/dmg/glossary-2.md#50	2026-11-24
+glossary-term	Tobi-kunai	多用途苦无	verified-exact	1e-glossary-label		Tobi-kunai	1E	src/published/books/dmg/glossary-2.md#52	2026-11-24
+glossary-term	Tsuba-giri	撬门叉	verified-exact	1e-glossary-label		Tsuba-giri	1E	src/published/books/dmg/glossary-2.md#53	2026-11-24
+glossary-term	Turn	回合	verified-exact	1e-glossary-label		Turn	1E	src/published/books/dmg/glossary-2.md#206	2026-11-24
+glossary-term	Tyaa	泰亚	verified-exact	1e-glossary-label		Tyaa	1E	src/published/books/dmg/glossary-2.md#67	2026-11-24
+glossary-term	Votishal	沃提沙尔	verified-exact	1e-glossary-label		Votishal	1E	src/published/books/dmg/glossary-2.md#68	2026-11-24
+glossary-term	WaterFolk	水族	verified-exact	1e-glossary-label		WaterFolk	1E	src/published/books/dmg/glossary-2.md#64	2026-11-24
+glossary-term	战斗轮 Combat Round	近战轮	verified-exact	1e-glossary-label		战斗轮 Combat Round	1E	src/published/books/dmg/glossary-2.md#83	2026-11-24
 hazard	Arcane Effluence	奥术溢流	reference-only	pending			5E	https://5e.kiwee.top/data/trapshazards.json	2026-11-24
 hazard	Avalanche	雪崩	reference-only	pending			5E	https://5e.kiwee.top/data/trapshazards.json	2026-11-24
 hazard	Bile Lichen	胆汁苔藓	reference-only	pending			5R	https://5e.kiwee.top/data/trapshazards.json	2026-11-24
@@ -2575,7 +2622,6 @@ heading	Lycanthropy	兽化症	pending	pending		Lycanthropy
 heading	Mad Gnomes	疯侏儒	pending	pending		Mad Gnomes			
 heading	MAGES' SIGILS	法师印记	pending	pending		MAGES' SIGILS			
 heading	Mages' Sigils, Mankind, Marsember, and Marsh of Chelimber	法师印记、人类、马林博尔与切林伯沼泽	pending	pending		Mages' Sigils, Mankind, Marsember, and Marsh of Chelimber			
-heading	Magic	魔法	pending	pending	以太位面的魔法	Magic			
 heading	Magic in the Wilderness	荒野中的魔法	pending	pending		Magic in the Wilderness			
 heading	Magic Item Tables for Character Encounters	角色遭遇的魔法物品表	pending	pending		Magic Item Tables for Character Encounters			
 heading	Magic Possessed by Encountered Creatures	遭遇生物持有的魔法	pending	pending		Magic Possessed by Encountered Creatures			
@@ -3343,7 +3389,6 @@ heading	Silvanesti Elves Game Statistics	西尔瓦内斯提精灵游戏数据	pe
 heading	Silvanesti, Balifor, and Flotsam	西尔瓦诺斯提、巴利福尔与漂浮残骸港	pending	pending		Silvanesti, Balifor, and Flotsam			
 heading	SILVANUS Sihl-VANN-us	塞尔万纳斯	pending	pending		SILVANUS Sihl-VANN-us			
 heading	Silver Dragons	银龙	pending	pending		Silver Dragons			
-heading	Silvershield	银盾	pending	pending		Silvershield			
 heading	Sir Lamorak	兰马洛克爵士	pending	pending		Sir Lamorak			
 heading	Sir Launcelot du Lake	湖中骑士兰斯洛特	pending	pending		Sir Launcelot du Lake			
 heading	Sir Tristram of Lyonesse	莱昂内斯的崔斯坦爵士	pending	pending		Sir Tristram of Lyonesse			
@@ -10236,7 +10281,7 @@ monster	Lungtian	隆天	reference-only	pending			5E	https://5e.kiwee.top/data/be
 monster	Luposphinx	狼首斯芬克斯	pending	pending		Luposphinx			
 monster	Lurker Above	穹顶潜伏怪	pending	pending		Lurker Above			
 monster	Luvash	鲁瓦斯	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-cos.json	2026-11-24
-monster	Lycanthrope	兽化生物	pending	pending	兽化人; 兽化生物 ·	Lycanthrope			
+monster	Lycanthrope	兽化人	verified-exact	1e-glossary-label	兽化生物; 兽化生物 ·	Lycanthrope	1E	src/published/books/dmg/dmg-glossary.md#52	2026-11-24
 monster	Lycanthropickle	狼人病	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-rmbre.json	2026-11-24
 monster	Lynx, Giant	巨型猞猁	pending	pending		Lynx, Giant			
 monster	Lyra	莉拉	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-ps-d.json	2026-11-24
@@ -10369,7 +10414,7 @@ monster	Metal Wasp	金属胡蜂	reference-only	pending			5E	https://5e.kiwee.top
 monster	Metallic Peacekeeper	金属和平卫士	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-ftd.json	2026-11-24
 monster	Metallic Warbler	金属啭鸟	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-ftd.json	2026-11-24
 monster	Mev Flintknapper	梅夫·弗林特纳普	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-oota.json	2026-11-24
-monster	Mezzodaemon	夹层魔	pending	pending	夹层魔 ·	Mezzodaemon			
+monster	Mezzodaemon	梅佐恶魔	verified-exact	1e-glossary-label	夹层魔; 夹层魔 ·	Mezzodaemon	1E	src/published/books/dmg/dmg-glossary.md#57	2026-11-24
 monster	Mezzoloth	毒虫罗斯魔	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-24
 monster	Mi-Go	米·戈	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-rhw.json	2026-11-24
 monster	Miasmorne	米亚斯莫恩	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-coa.json	2026-11-24
@@ -10617,7 +10662,7 @@ monster	Nunda	恩达猫	pending	pending		Nunda
 monster	Nundro Rockseeker	南卓·寻岩者	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-lmop.json; https://5e.kiwee.top/data/bestiary/bestiary-pabtso.json	2026-11-24
 monster	Nupperibo	臃肿魔	verified-exact	whole-name	劣魔; 劣魔 ·	Nupperibo	5E	https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json; https://5e.kiwee.top/data/bestiary/bestiary-mtf.json	2026-11-24
 monster	Nurvureem, The Dark Lady	努尔维瑞姆，黑暗女士	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-pota.json	2026-11-24
-monster	Nycadaemon	夜魔	pending	pending		Nycadaemon			
+monster	Nycadaemon	尼卡恶魔	verified-exact	1e-glossary-label	夜魔	Nycadaemon	1E	src/published/books/dmg/glossary-2.md#11	2026-11-24
 monster	Nycaloth	征伐罗斯魔	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-24
 monster	Nym	尼姆	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-skt.json	2026-11-24
 monster	Nymph	宁芙	pending	pending		Nymph			
@@ -11852,7 +11897,7 @@ monster	Turlang	图尔朗	reference-only	pending			5E	https://5e.kiwee.top/data/
 monster	Turntimber Giant	转木巨人	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-ps-z.json	2026-11-24
 monster	Turtle	巨龟	pending	pending		Turtle			
 monster	Turvy	特威	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-oota.json	2026-11-24
-monster	Tween	影伴	pending	pending	影伴 ·	Tween			
+monster	Tween	影伴	verified-exact	1e-glossary-label	影伴 ·	Tween	1E	src/published/books/dmg/glossary-2.md#55	2026-11-24
 monster	Twig Blight	枯枝怪	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/bestiary/bestiary-mm.json; https://5e.kiwee.top/data/bestiary/bestiary-xmm.json	2026-11-24
 monster	Twilight Bloom	暮光花	pending	pending	暮光花 ·	Twilight Bloom			
 monster	Twilight Lord Kelris	暮光领主克尔里斯	reference-only	pending			5E	https://5e.kiwee.top/data/bestiary/bestiary-wow.json	2026-11-24
@@ -13942,97 +13987,97 @@ reward	Vlagomir's Spark	弗拉戈米尔的火花	reference-only	pending			5E	htt
 reward	Wildguard Blessing	野卫祝福	reference-only	pending			5E	https://5e.kiwee.top/data/rewards.json	2026-11-24
 reward	Wongo	望戈	reference-only	pending			5E	https://5e.kiwee.top/data/rewards.json	2026-11-24
 reward	Yuan-Ti Pureblood Transformation	纯血蛇人变形	reference-only	pending			5E	https://5e.kiwee.top/data/rewards.json	2026-11-24
-rule	Ability Check	能力检定	verified-exact	project-glossary		Ability Check	1E	src/published/books/dmg/glossary-2.md#161	2026-11-24
+rule	Ability Check	能力检定	verified-exact	project-glossary		Ability Check	1E	src/published/books/dmg/glossary-2.md#161; src/published/books/dmg/glossary-2.md#186	2026-11-24
 rule	Ability Checks	能力检定	verified-exact	1e-bilingual-heading		Ability Checks	1E	src/published/books/dsg/dsg-movement-rules.md:6	2026-11-24
 rule	Ability Score	属性值	verified-exact	1e-glossary-definition		Ability Score	1E	src/published/books/dmg/dmg-glossary.md:5	2026-11-24
-rule	Ability Scores	属性值	verified-exact	1e-glossary-definition		Ability Scores	1E	src/published/books/dmg/dmg-glossary.md:5	2026-11-24
-rule	Actions During Combat and Similar Time-Important Situations	战斗及其他时间敏感情境中的行动	verified-exact	1e-bilingual-heading		Actions During Combat and Similar Time-Important Situations	1E	src/published/books/dmg/dmg-combat.md#478	2026-11-24
+rule	Ability Scores	属性值	verified-exact	1e-glossary-definition		Ability Scores	1E	src/published/books/dmg/dmg-glossary.md#5; src/published/books/dmg/dmg-glossary.md:5	2026-11-24
+rule	Actions During Combat and Similar Time-Important Situations	战斗及其他时间敏感情境中的行动	verified-exact	1e-bilingual-heading		Actions During Combat and Similar Time-Important Situations	1E	src/published/books/dmg/dmg-combat.md#478; src/published/books/dmg/glossary-2.md#146	2026-11-24
 rule	Adventuring Proficiencies	冒险熟练项	verified-exact	1e-bilingual-heading		Adventuring Proficiencies	1E	src/published/books/dsg/dsg-proficiencies.md:111; src/published/books/dsg/dsg-contents.md:89	2026-11-24
 rule	Aerial Combat	空中战斗	verified-exact	1e-bilingual-heading		Aerial Combat	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:127	2026-11-24
 rule	Aerial Travel	空中旅行	verified-exact	1e-bilingual-heading		Aerial Travel	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:101	2026-11-24
 rule	Aging	衰老	verified-exact	1e-bilingual-heading		Aging	1E	src/published/books/dmg/dmg-character-age-aging-disease-death.md:28	2026-11-24
 rule	Alertness	警觉	verified-exact	1e-bilingual-proficiency-entry		Alertness	1E	src/published/books/wsg/wsg-proficiencies.md:111; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Alignment	阵营	verified-exact	project-glossary		ALIGNMENT; Alignment	1E	src/published/books/dmg/glossary-2.md#156	2026-11-24
+rule	Alignment	阵营	verified-exact	project-glossary		ALIGNMENT; Alignment	1E	src/published/books/dmg/glossary-2.md#156; src/published/books/dmg/glossary-2.md#181	2026-11-24
 rule	Alignment Language	阵营语	verified-exact	1e-bilingual-heading	阵营语言	Alignment Language	1E	src/published/books/dmg/dmg-contents.md:44	2026-11-24
 rule	Animal Handling	动物驯养	verified-exact	1e-bilingual-proficiency-entry		Animal Handling	1E	src/published/books/wsg/wsg-proficiencies.md:115; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Animal Handling Proficiency	动物处理熟练项	verified-exact	project-glossary		Animal Handling Proficiency	1E	src/published/books/dmg/glossary-2.md#43	2026-11-24
+rule	Animal Handling Proficiency	动物处理熟练项	verified-exact	project-glossary		Animal Handling Proficiency	1E	src/published/books/dmg/glossary-2.md#43; src/published/books/dmg/glossary-2.md#45	2026-11-24
 rule	Animal Lore	动物学	verified-exact	1e-bilingual-proficiency-entry		Animal Lore	1E	src/published/books/wsg/wsg-proficiencies.md:119; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Animal Telepathy	动物心灵感应	verified-exact	1e-bilingual-psionic-minor-devotion		Animal Telepathy	1E	src/published/books/phb/minor-devotions.md:31	2026-11-24
 rule	Area of Effect	作用区域	verified-exact	project-glossary		Area of Effect	1E	src/published/books/dmg/glossary-2.md#85	2026-11-24
-rule	Armor Class	护甲等级	verified-exact	project-glossary		ARMOR CLASS; Armor Class	1E	src/published/books/dmg/glossary-2.md#81	2026-11-24
-rule	Armor Class Adjustment	护甲等级调整	verified-exact	project-glossary		Armor Class Adjustment	1E	src/published/books/dmg/glossary-2.md#84	2026-11-24
+rule	Armor Class	护甲等级	verified-exact	project-glossary		ARMOR CLASS; Armor Class	1E	src/published/books/dmg/glossary-2.md#81; src/published/books/dmg/glossary-2.md#84	2026-11-24
+rule	Armor Class Adjustment	护甲等级调整	verified-exact	project-glossary		Armor Class Adjustment	1E	src/published/books/dmg/glossary-2.md#84; src/published/books/dmg/glossary-2.md#87	2026-11-24
 rule	Armor Effects on Character Width	护甲对角色宽度的影响	verified-exact	1e-table-title		Armor Effects on Character Width	1E	src/published/books/dsg/dsg-compiled-tables-index.md:85	2026-11-24
 rule	Artifact	神器	verified-exact	whole-name		Artifact	3R	https://dnd3r.huijiwiki.com/wiki/%E6%9C%AF%E8%AF%AD/%E7%8E%A9%E5%AE%B6%E8%A7%92%E8%89%B2	2026-11-24
 rule	Artifact or Relic	神器或圣遗物	verified-exact	1e-bilingual-table-title		Artifact or Relic	1E	src/published/books/dmg/dmg-treasure.md:304	2026-11-24
 rule	Artifacts	神器	verified-exact	3R-name-and-1e-rule-concept	神器与重要物品	Artifacts	1E	terminology/references/huiji-names.json#Artifact; src/published/books/dmg/dmg-combat.md:1099	2026-11-24
 rule	Artifacts & Relics	神器与圣遗物	verified-exact	1e-bilingual-heading		Artifacts & Relics	1E	src/published/books/dmg/dmg-combat.md:1099	2026-11-24
 rule	Artifacts and Relics	神器与圣遗物	verified-exact	1e-bilingual-heading	圣物与遗物	Artifacts and Relics	1E	src/published/books/dmg/treasure-continuation-17.md:1	2026-11-24
-rule	Artisan Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading		Artisan Proficiencies	1E	src/published/books/oa/oa-proficiencies.md:96	2026-11-24
+rule	Artisan Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading		Artisan Proficiencies	1E	src/published/books/dmg/glossary-2.md#35; src/published/books/oa/oa-proficiencies.md:96	2026-11-24
 rule	Assassination Experience Points	刺杀经验值	verified-exact	1e-bilingual-heading		Assassination Experience Points	1E	src/published/books/dmg/dmg-character-classes.md:300	2026-11-24
 rule	Astral Projection	星界投射	verified-exact	1e-bilingual-psionic-major-science		Astral Projection	1E	src/published/books/phb/major-sciences.md:30	2026-11-24
 rule	Astral Travel	星界旅行	verified-exact	1e-bilingual-rule-heading		Astral Travel	1E	src/published/books/phb/appendix-known-planes.md:42	2026-11-24
-rule	Attack Adjustment	攻击调整／攻击调整值	verified-exact	project-glossary		Attack Adjustment	1E	src/published/books/dmg/glossary-2.md#97	2026-11-24
+rule	Attack Adjustment	攻击调整／攻击调整值	verified-exact	project-glossary	攻击调整	Attack Adjustment	1E	src/published/books/dmg/glossary-2.md#102; src/published/books/dmg/glossary-2.md#97	2026-11-24
 rule	Attack and Saving Throw Matrices	攻击与豁免检定矩阵	pending	pending	攻击与豁免矩阵	Attack and Saving Throw Matrices	1E	src/data/published/book-search.json; source page and table scope need verification	2026-11-24
-rule	Attack Matrix	攻击矩阵	verified-exact	project-glossary		Attack Matrix	1E	src/published/books/dmg/glossary-2.md#88	2026-11-24
+rule	Attack Matrix	攻击矩阵	verified-exact	project-glossary		Attack Matrix	1E	src/published/books/dmg/glossary-2.md#88; src/published/books/dmg/glossary-2.md#92	2026-11-24
 rule	Attack Modes	攻击方式	verified-exact	1e-bilingual-heading	攻击模式	Attack Modes	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:155	2026-11-24
 rule	Attack Point(s)	攻击点数	verified-exact	1e-original-PHB-rule-text		Attack Point(s)	1E	AD&D 1E PHB Appendix I, pp. 110, 118	2026-11-24
-rule	Attack Roll	攻击骰	verified-exact	project-glossary		Attack Roll	1E	src/published/books/dmg/glossary-2.md#89	2026-11-24
-rule	Attack Sequence	攻击序列	verified-exact	project-glossary		Attack Sequence	1E	src/published/books/dmg/glossary-2.md#87	2026-11-24
+rule	Attack Roll	攻击骰	verified-exact	project-glossary		Attack Roll	1E	src/published/books/dmg/glossary-2.md#89; src/published/books/dmg/glossary-2.md#93	2026-11-24
+rule	Attack Sequence	攻击序列	verified-exact	project-glossary		Attack Sequence	1E	src/published/books/dmg/glossary-2.md#87; src/published/books/dmg/glossary-2.md#91	2026-11-24
 rule	Attack Strength	攻击强度	verified-exact	1e-bilingual-heading		Attack Strength	1E	manuscript/phb/topics/psionic-ability.md	2026-11-24
 rule	Attack Table	攻击表	verified-exact	1e-bilingual-heading		Attack Table	1E	src/published/books/dmg/dmg-appendix-d-lower-planes.md:73	2026-11-24
-rule	Attacks	攻击次数	verified-exact	project-glossary		Attacks	1E	src/published/books/dmg/glossary-2.md#86	2026-11-24
-rule	Attacks Per Melee Round Table	每轮近战攻击次数表	verified-exact	1e-bilingual-heading	每轮攻击次数表; 每近战轮攻击次数表	Attacks Per Melee Round Table	1E	src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41	2026-11-24
+rule	Attacks	攻击次数	verified-exact	project-glossary		Attacks	1E	src/published/books/dmg/glossary-2.md#86; src/published/books/dmg/glossary-2.md#89	2026-11-24
+rule	Attacks Per Melee Round Table	每轮近战攻击次数表	verified-exact	1e-bilingual-heading	每轮攻击次数表; 每近战轮攻击次数表	Attacks Per Melee Round Table	1E	src/published/books/dmg/glossary-2.md#90; src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41	2026-11-24
 rule	Aura Alteration	灵光改变	verified-exact	1e-bilingual-psionic-major-science		Aura Alteration	1E	src/published/books/phb/major-sciences.md:36	2026-11-24
 rule	Avoiding	避战	verified-exact	1e-bilingual-heading		Avoiding	1E	src/published/books/dmg/dmg-combat.md:122	2026-11-24
-rule	Awaiting Action	等待行动	verified-exact	1e-bilingual-heading		Awaiting Action	1E	src/published/books/dmg/dmg-combat.md#137	2026-11-24
+rule	Awaiting Action	等待行动	verified-exact	1e-bilingual-heading		Awaiting Action	1E	src/published/books/dmg/dmg-combat.md#137; src/published/books/dmg/glossary-2.md#149	2026-11-24
 rule	Barbarian Proficiencies	蛮族熟练项	verified-exact	1e-bilingual-heading	野蛮人熟练项	Barbarian Proficiencies	1E	src/published/books/oa/oa-proficiencies.md:130	2026-11-24
-rule	Base Armor Class	基础护甲等级	verified-exact	project-glossary		Base Armor Class	1E	src/published/books/dmg/glossary-2.md#82	2026-11-24
-rule	Base Chance of Success	基础成功数	verified-exact	project-glossary		Base Chance of Success	1E	src/published/books/dmg/glossary-2.md#22	2026-11-24
+rule	Base Armor Class	基础护甲等级	verified-exact	project-glossary		Base Armor Class	1E	src/published/books/dmg/glossary-2.md#82; src/published/books/dmg/glossary-2.md#85	2026-11-24
+rule	Base Chance of Success	基础成功数	verified-exact	project-glossary		Base Chance of Success	1E	src/published/books/dmg/glossary-2.md#22; src/published/books/dmg/glossary-2.md#23	2026-11-24
 rule	Becoming Lost	迷路	verified-exact	1e-bilingual-heading		Becoming Lost	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:56	2026-11-24
-rule	Bend Bars/Lift Gates	弯折铁条／抬起闸门	verified-exact	project-glossary		Bend Bars/Lift Gates	1E	src/published/books/dmg/glossary-2.md#162	2026-11-24
+rule	Bend Bars/Lift Gates	弯折铁条／抬起闸门	verified-exact	project-glossary	弯折铁条	Bend Bars/Lift Gates	1E	src/published/books/dmg/glossary-2.md#162; src/published/books/dmg/glossary-2.md#187	2026-11-24
 rule	Blind-fighting	盲斗	verified-exact	1e-bilingual-proficiency-entry		Blind-fighting	1E	src/published/books/wsg/wsg-proficiencies.md:123; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Boat Damage	船只损坏	verified-exact	1e-source-crosscheck		Boat Damage	1E	src/published/books/dsg/dsg-contents.md:239; src/published/books/dsg/dsg-compiled-tables-index.md#251	2026-11-24
 rule	Boat Draught and Ceilings	船只吃水与顶部净空	verified-exact	1e-source-crosscheck		Boat Draught and Ceilings	1E	src/published/books/dsg/dsg-underground-waterways.md#40; src/published/books/dsg/dsg-compiled-tables-index.md#213	2026-11-24
 rule	Boat Movement Rates	船只移动率	verified-exact	1e-source-crosscheck		Boat Movement Rates	1E	src/published/books/dsg/dsg-contents.md:234; src/published/books/dsg/dsg-compiled-tables-index.md#185	2026-11-24
-rule	Boating	划船熟练项	verified-exact	1e-bilingual-proficiency-entry		Boating	1E	src/published/books/wsg/wsg-proficiencies.md:131; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
+rule	Boating	划船熟练项	verified-exact	1e-bilingual-proficiency-entry		Boating	1E	src/published/books/dmg/glossary-2.md#40; src/published/books/wsg/wsg-proficiencies.md:131; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Body Control	身体控制	verified-exact	1e-bilingual-psionic-major-science		Body Control	1E	src/published/books/phb/major-sciences.md:50	2026-11-24
 rule	Body Equilibrium	身体平衡	verified-exact	1e-bilingual-psionic-minor-devotion		Body Equilibrium	1E	src/published/books/phb/minor-devotions.md:51	2026-11-24
 rule	Body Weaponry	身体武器化	verified-exact	1e-bilingual-psionic-minor-devotion		Body Weaponry	1E	src/published/books/phb/minor-devotions.md:57	2026-11-24
-rule	Breath Weapon	喷吐武器	verified-exact	project-glossary		Breath Weapon	1E	src/published/books/dmg/glossary-2.md#167	2026-11-24
+rule	Breath Weapon	喷吐武器	verified-exact	project-glossary		Breath Weapon	1E	src/published/books/dmg/dmg-glossary.md#12; src/published/books/dmg/glossary-2.md#167	2026-11-24
 rule	Breathing	呼吸	verified-exact	1e-contextual-rule-heading-underwater		Breathing	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,486	2026-11-24
 rule	Broad Jumping	跳远	verified-exact	1e-table-title		Broad Jumping	1E	src/published/books/dsg/dsg-compiled-tables-index.md:44	2026-11-24
-rule	Campaign	战役	verified-exact	1e-glossary-definition		Campaign	1E	src/published/books/dmg/dmg-glossary.md:13	2026-11-24
-rule	Caster Level	施法者等级	verified-exact	project-glossary		Caster Level	1E	src/published/books/dmg/glossary-2.md#152	2026-11-24
-rule	Casting Time	施法时间	verified-exact	project-glossary		Casting Time	1E	src/published/books/dmg/glossary-2.md#107	2026-11-24
+rule	Campaign	战役	verified-exact	1e-glossary-definition		Campaign	1E	src/published/books/dmg/dmg-glossary.md#13; src/published/books/dmg/dmg-glossary.md:13	2026-11-24
+rule	Caster Level	施法者等级	verified-exact	project-glossary		Caster Level	1E	src/published/books/dmg/glossary-2.md#152; src/published/books/dmg/glossary-2.md#177	2026-11-24
+rule	Casting Time	施法时间	verified-exact	project-glossary		Casting Time	1E	src/published/books/dmg/glossary-2.md#107; src/published/books/dmg/glossary-2.md#112	2026-11-24
 rule	Cave-In Chain Reaction	坍塌连锁反应	verified-exact	1e-source-crosscheck		Cave-In Chain Reaction	1E	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3; src/published/books/dsg/dsg-compiled-tables-index.md#149	2026-11-24
 rule	Cave-In Location	坍塌位置	verified-exact	1e-source-crosscheck		Cave-In Location	1E	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3; src/published/books/dsg/dsg-compiled-tables-index.md#136	2026-11-24
 rule	Cell Adjustment	细胞调整	verified-exact	1e-bilingual-psionic-minor-devotion		Cell Adjustment	1E	src/published/books/phb/minor-devotions.md:80	2026-11-24
 rule	Chance of Success	成功概率	verified-exact	1e-bilingual-heading		Chance of Success	1E	src/published/books/dmg/dmg-magical-research.md:63	2026-11-24
 rule	Character Age	角色年龄	verified-exact	1e-bilingual-heading		Character Age	1E	src/published/books/dmg/dmg-character-age-aging-disease-death.md:4	2026-11-24
 rule	Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit	角色职业表 I：生命骰、法术能力与职业等级上限	verified-exact	1e-bilingual-heading		Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit	1E	src/published/books/ua/ua-class-hit-dice.md:3	2026-11-24
-rule	Character Level	角色等级	verified-exact	project-glossary		Character Level	1E	src/published/books/dmg/glossary-2.md#153	2026-11-24
-rule	Character Party	角色队伍	verified-exact	1e-bilingual-table-crosscheck		Character Party	1E	src/published/books/mm2/mm2-random-encounter-dungeon.md:20; src/published/books/mm2/mm2-random-encounter-outdoor.md:38	2026-11-24
-rule	Character Proficiencies	角色熟练项	verified-exact	project-glossary		Character Proficiencies	1E	src/published/books/dmg/glossary-2.md#33	2026-11-24
-rule	Charge	冲锋	verified-exact	1e-bilingual-heading		Charge	1E	src/published/books/dmg/dmg-combat.md#287	2026-11-24
+rule	Character Level	角色等级	verified-exact	project-glossary		Character Level	1E	src/published/books/dmg/glossary-2.md#153; src/published/books/dmg/glossary-2.md#178	2026-11-24
+rule	Character Party	角色队伍	verified-exact	1e-bilingual-table-crosscheck		Character Party	1E	src/published/books/dmg/glossary-2.md#13; src/published/books/mm2/mm2-random-encounter-dungeon.md:20; src/published/books/mm2/mm2-random-encounter-outdoor.md:38	2026-11-24
+rule	Character Proficiencies	角色熟练项	verified-exact	project-glossary		Character Proficiencies	1E	src/published/books/dmg/glossary-2.md#33; src/published/books/dmg/glossary-2.md#34	2026-11-24
+rule	Charge	冲锋	verified-exact	1e-bilingual-heading		Charge	1E	src/published/books/dmg/dmg-combat.md#287; src/published/books/dmg/glossary-2.md#152	2026-11-24
 rule	Charioteering	御车	verified-exact	1e-bilingual-proficiency-entry		Charioteering	1E	src/published/books/wsg/wsg-proficiencies.md:135; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Check	检定	verified-exact	project-glossary		Check	1E	src/published/books/dmg/glossary-2.md#21	2026-11-24
+rule	Check	检定	verified-exact	project-glossary		Check	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/glossary-2.md#21	2026-11-24
 rule	Choosing Proficiencies	选择熟练项	verified-exact	1e-bilingual-heading	选择熟练项 ·	Choosing Proficiencies	1E	src/published/books/dla/dla-races-krynn.md:1251	2026-11-24
 rule	Clairaudience	锐耳术	adapted-variant	3R-composite-component-map		Clairaudience	1E	3R Huiji pairs Clairaudience/Clairvoyance with 锐耳术/鹰眼术; first name component mapped to first English term. PHB 1E psionic ability references the same-named spell but has its own range rule: src/published/books/phb/minor-devotions.md:86	2026-11-24
 rule	Clairvoyance	鹰眼术	adapted-variant	3R-5E-5R-spell-name		Clairvoyance	1E	3R Huiji paired spell and 5E/5R spell references use 鹰眼术; PHB 1E psionic ability is the same-named power with its own range rule: src/published/books/phb/minor-devotions.md:92	2026-11-24
-rule	Class	职业	verified-exact	1e-glossary-definition		Class	1E	src/published/books/dmg/dmg-glossary.md:16	2026-11-24
-rule	Class Level	职业等级	verified-exact	project-glossary		Class Level	1E	src/published/books/dmg/glossary-2.md#113	2026-11-24
+rule	Class	职业	verified-exact	1e-glossary-definition		Class	1E	src/published/books/dmg/dmg-glossary.md#16; src/published/books/dmg/dmg-glossary.md:16	2026-11-24
+rule	Class Level	职业等级	verified-exact	project-glossary		Class Level	1E	src/published/books/dmg/glossary-2.md#113; src/published/books/dmg/glossary-2.md#118	2026-11-24
 rule	Class Level Limitations	职业等级上限	verified-exact	1e-bilingual-heading		Class Level Limitations	1E	src/published/books/ua/ua-race-level-limitations.md:3	2026-11-24
-rule	Cleric Level	牧师等级	verified-exact	project-glossary		Cleric Level	1E	src/published/books/dmg/glossary-2.md#116	2026-11-24
+rule	Cleric Level	牧师等级	verified-exact	project-glossary		Cleric Level	1E	src/published/books/dmg/glossary-2.md#116; src/published/books/dmg/glossary-2.md#121	2026-11-24
 rule	Climbing	攀爬	verified-exact	1e-bilingual-heading		Climbing	1E	src/published/books/dsg/dsg-contents.md:32	2026-11-24
 rule	Climbing Check	攀爬检定	verified-exact	1e-source-crosscheck		Climbing Check	1E	src/published/books/dsg/dsg-compiled-tables-index.md#397; src/published/books/dsg/dsg-climbing.md	2026-11-24
 rule	Climbing Rating	攀爬评级	verified-exact	1e-source-crosscheck		Climbing Rating	1E	src/published/books/dsg/dsg-compiled-tables-index.md#397; src/published/books/dsg/dsg-climbing.md	2026-11-24
-rule	Close to Striking Range	接近打击距离	verified-exact	1e-bilingual-heading		Close to Striking Range	1E	src/published/books/dmg/dmg-combat.md#283	2026-11-24
+rule	Close to Striking Range	接近打击距离	verified-exact	1e-bilingual-heading		Close to Striking Range	1E	src/published/books/dmg/dmg-combat.md#283; src/published/books/dmg/glossary-2.md#151	2026-11-24
 rule	Collision Probability	碰撞概率	verified-exact	1e-table-title		Collision Probability	1E	src/published/books/dsg/dsg-compiled-tables-index.md:239	2026-11-24
 rule	Combat	战斗	verified-exact	1e-contextual-rule-heading-underwater		Combat	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,506	2026-11-24
 rule	Combat Round	轮	adapted-variant	1e-bilingual-glossary-variant		Combat Round	1E	src/published/books/dmg/glossary-2.md#82; combat-context variant of Round, not a separate time unit	2026-11-24
 rule	Combat Rules for Underground Play	地下游戏的战斗规则	verified-exact	1e-bilingual-heading	地下战斗规则	Combat Rules for Underground Play	1E	src/published/books/dsg/dsg-contents.md:92	2026-11-24
-rule	Common Proficiencies	通用熟练项	verified-exact	1e-bilingual-heading		Common Proficiencies	1E	src/published/books/oa/oa-proficiencies.md:189	2026-11-24
-rule	Components	成分	verified-exact	project-glossary		Components	1E	src/published/books/dmg/glossary-2.md#108	2026-11-24
+rule	Common Proficiencies	通用熟练项	verified-exact	1e-bilingual-heading		Common Proficiencies	1E	src/published/books/dmg/glossary-2.md#37; src/published/books/oa/oa-proficiencies.md:189	2026-11-24
+rule	Components	成分	verified-exact	project-glossary		Components	1E	src/published/books/dmg/glossary-2.md#108; src/published/books/dmg/glossary-2.md#113	2026-11-24
 rule	Conditions Under Which Spell Research Is Possible	允许进行法术研究的条件	verified-exact	1e-bilingual-heading		Conditions Under Which Spell Research Is Possible	1E	src/published/books/dmg/dmg-magical-research.md:53	2026-11-24
 rule	Conducting Combat	空战流程	verified-exact	1e-bilingual-heading		Conducting Combat	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:230	2026-11-24
 rule	Confidentiality of New Spells	新法术的保密	verified-exact	1e-bilingual-heading		Confidentiality of New Spells	1E	src/published/books/dmg/dmg-magical-research.md:71	2026-11-24
@@ -14041,79 +14086,79 @@ rule	Construction Defensive Values	建筑防御数值	verified-exact	1e-bilingua
 rule	Cost of Research	研究费用	verified-exact	1e-bilingual-heading		Cost of Research	1E	src/published/books/dmg/dmg-magical-research.md:45	2026-11-24
 rule	Course Changes in Darkness	黑暗中的路线变化	verified-exact	1e-source-crosscheck		Course Changes in Darkness	1E	src/published/books/dsg/dsg-contents.md:222; src/published/books/dsg/dsg-compiled-tables-index.md#101	2026-11-24
 rule	Court Proficiencies	宫廷熟练项	verified-exact	1e-bilingual-heading		Court Proficiencies	1E	src/published/books/oa/oa-proficiencies.md:240	2026-11-24
-rule	Craftsman Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading		Craftsman Proficiencies	1E	src/published/books/dsg/dsg-proficiencies.md:52; src/published/books/dsg/dsg-contents.md:88	2026-11-24
+rule	Craftsman Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading		Craftsman Proficiencies	1E	src/published/books/dmg/glossary-2.md#35; src/published/books/dsg/dsg-proficiencies.md:52; src/published/books/dsg/dsg-contents.md:88	2026-11-24
 rule	Crew	船员	verified-exact	1e-bilingual-heading		Crew	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:322	2026-11-24
 rule	Crossing with a Grapple	使用爪钩跨越	verified-exact	1e-source-crosscheck		Crossing with a Grapple	1E	src/published/books/dsg/dsg-jumping-rope.md#21; src/published/books/dsg/dsg-compiled-tables-index.md#56	2026-11-24
 rule	Cultural Proficiencies	文化熟练项	adapted-variant	1e-proficiency-variant		Cultural Proficiencies	1E	Plural variant mapped to canonical singular Cultural Proficiency; src/published/books/dmg/glossary-2.md#44	2026-11-24
-rule	Damage	伤害	verified-exact	project-glossary		Damage	1E	src/published/books/dmg/glossary-2.md#100	2026-11-24
-rule	Damage Adjustment	伤害修正	verified-exact	project-glossary		Damage Adjustment	1E	src/published/books/dmg/glossary-2.md#100	2026-11-24
-rule	Damage Roll	伤害骰	verified-exact	project-glossary		Damage Roll	1E	src/published/books/dmg/glossary-2.md#101	2026-11-24
-rule	Death	死亡	verified-exact	1e-bilingual-heading		Death	1E	src/published/books/dmg/dmg-character-age-aging-disease-death.md:159	2026-11-24
-rule	Death Magic	死亡魔法	verified-exact	1e-glossary-definition		Death Magic	1E	src/published/books/dmg/dmg-glossary.md:20	2026-11-24
+rule	Damage	伤害	verified-exact	project-glossary		Damage	1E	src/published/books/dmg/dmg-glossary.md#18; src/published/books/dmg/glossary-2.md#100; src/published/books/dmg/glossary-2.md#107	2026-11-24
+rule	Damage Adjustment	伤害修正	verified-exact	project-glossary		Damage Adjustment	1E	src/published/books/dmg/glossary-2.md#100; src/published/books/dmg/glossary-2.md#105	2026-11-24
+rule	Damage Roll	伤害骰	verified-exact	project-glossary		Damage Roll	1E	src/published/books/dmg/glossary-2.md#101; src/published/books/dmg/glossary-2.md#106	2026-11-24
+rule	Death	死亡	verified-exact	1e-bilingual-heading		Death	1E	src/published/books/dmg/dmg-character-age-aging-disease-death.md:159; src/published/books/dmg/dmg-glossary.md#19	2026-11-24
+rule	Death Magic	死亡魔法	verified-exact	1e-glossary-definition		Death Magic	1E	src/published/books/dmg/dmg-glossary.md#20; src/published/books/dmg/dmg-glossary.md:20	2026-11-24
 rule	Defense Point(s)	防御点数	verified-exact	1e-original-PHB-rule-text		Defense Point(s)	1E	AD&D 1E PHB Appendix I, pp. 110, 118	2026-11-24
 rule	Defense Strength	防御强度	verified-exact	1e-bilingual-heading		Defense Strength	1E	manuscript/phb/topics/psionic-ability.md	2026-11-24
-rule	Defensive Adjustment	防御调整／防御调整值	verified-exact	project-glossary		Defensive Adjustment	1E	src/published/books/dmg/glossary-2.md#98	2026-11-24
+rule	Defensive Adjustment	防御调整／防御调整值	verified-exact	project-glossary	防御调整	Defensive Adjustment	1E	src/published/books/dmg/glossary-2.md#103; src/published/books/dmg/glossary-2.md#98	2026-11-24
 rule	Defensive Point Value	防御点数	verified-exact	1e-bilingual-table-component		Defensive Point Value	1E	src/published/books/dsg/dsg-compiled-tables-index.md:158,160	2026-11-24
 rule	Demi-human	半人类	verified-exact	1e-glossary-definition		Demi-human	1E	src/published/books/dmg/dmg-glossary.md:22	2026-11-24
 rule	Demi-Human Subtable	半人类子表	verified-exact	1e-bilingual-heading		Demi-Human Subtable	1E	src/published/books/dmg/appendix-c-random-monster-encounters-11.md:29	2026-11-24
 rule	Demi-Humankind	半人类族群学	verified-exact	1e-bilingual-table-title		Demi-Humankind	1E	src/published/books/dmg/dmg-hirelings.md:247	2026-11-24
-rule	Demi-humans	半人类	verified-exact	1e-glossary-definition		Demi-humans	1E	src/published/books/dmg/dmg-glossary.md:22	2026-11-24
+rule	Demi-humans	半人类	verified-exact	1e-glossary-definition		Demi-humans	1E	src/published/books/dmg/dmg-glossary.md#22; src/published/books/dmg/dmg-glossary.md:22	2026-11-24
 rule	Demi-Humans, Table II	半人类表 II	verified-exact	1e-bilingual-heading		Demi-Humans, Table II	1E	src/published/books/dmg/dmg-followers-upper-level-player-characters.md:80	2026-11-24
 rule	Detection of Good or Evil	侦测善良或邪恶	verified-exact	1e-bilingual-psionic-minor-devotion		Detection of Good or Evil	1E	src/published/books/phb/minor-devotions.md:98	2026-11-24
 rule	Detection of Magic	侦测魔法	verified-exact	1e-bilingual-psionic-minor-devotion		Detection of Magic	1E	src/published/books/phb/minor-devotions.md:118	2026-11-24
 rule	Determination of Spell Level	法术环级的确定	verified-exact	1e-bilingual-heading	新法术的环级	Determination of Spell Level	1E	src/published/books/dmg/dmg-magical-research.md:37	2026-11-24
 rule	Determination of Success	判定成功	verified-exact	1e-bilingual-heading		Determination of Success	1E	src/published/books/dmg/dmg-magical-research.md:67	2026-11-24
-rule	Dexterity Penalty and Bonus	敏捷惩罚与加值	adapted-variant	1e-bilingual-glossary-variant		Dexterity Penalty and Bonus	1E	src/published/books/dmg/glossary-2.md#140; shortened label for Dexterity Penalty and Bonus Considerations	2026-11-24
+rule	Dexterity Penalty and Bonus	敏捷惩罚与加值	adapted-variant	1e-bilingual-glossary-variant		Dexterity Penalty and Bonus	1E	src/published/books/dmg/glossary-2.md#140; shortened label for Dexterity Penalty and Bonus Considerations; src/published/books/dmg/glossary-2.md#141	2026-11-24
 rule	Dexterity Penalty and Bonus Considerations	敏捷惩罚与加值	verified-exact	1e-bilingual-heading		Dexterity Penalty and Bonus Considerations	1E	src/published/books/dmg/dmg-combat.md#153	2026-11-24
-rule	Dexterity Reaction in Surprise	敏捷对突袭反应的影响	verified-exact	1e-bilingual-heading		Dexterity Reaction in Surprise	1E	src/published/books/dmg/dmg-combat.md:67	2026-11-24
+rule	Dexterity Reaction in Surprise	敏捷对突袭反应的影响	verified-exact	1e-bilingual-heading		Dexterity Reaction in Surprise	1E	src/published/books/dmg/dmg-combat.md:67; src/published/books/dmg/dmg-glossary.md#35	2026-11-24
 rule	Dimension Walk	次元行走	verified-exact	1e-bilingual-psionic-major-science		Dimension Walk	1E	src/published/books/phb/major-sciences.md:62	2026-11-24
 rule	Direction Sense	方向感	verified-exact	1e-bilingual-proficiency-entry		Direction Sense	1E	src/published/books/wsg/wsg-proficiencies.md:139; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Disease	疾病	verified-exact	1e-bilingual-heading		Disease	1E	src/published/books/dmg/dmg-character-age-aging-disease-death.md:68	2026-11-24
 rule	Distance	遭遇距离	verified-exact	1e-bilingual-heading		Distance	1E	src/published/books/dmg/dmg-combat.md:75	2026-11-24
 rule	Division of Experience Points	经验值分配	verified-exact	1e-bilingual-heading	经验值数分配	Division of Experience Points	1E	src/published/books/dmg/dmg-experience.md:9	2026-11-24
 rule	Domination	支配	verified-exact	1e-bilingual-psionic-minor-devotion		Domination	1E	src/published/books/phb/minor-devotions.md:124	2026-11-24
-rule	Dragon Riding Proficiency	龙骑乘熟练项	verified-exact	project-glossary		Dragon Riding Proficiency	1E	src/published/books/dmg/glossary-2.md#45	2026-11-24
-rule	Druid Level	德鲁伊等级	verified-exact	project-glossary		Druid Level	1E	src/published/books/dmg/glossary-2.md#117	2026-11-24
+rule	Dragon Riding Proficiency	龙骑乘熟练项	verified-exact	project-glossary		Dragon Riding Proficiency	1E	src/published/books/dmg/glossary-2.md#45; src/published/books/dmg/glossary-2.md#47	2026-11-24
+rule	Druid Level	德鲁伊等级	verified-exact	project-glossary		Druid Level	1E	src/published/books/dmg/glossary-2.md#117; src/published/books/dmg/glossary-2.md#122	2026-11-24
 rule	Dungeon Proficiencies	地城熟练项	adapted-variant	1e-proficiency-variant		Dungeon Proficiencies	1E	Plural variant mapped to canonical singular Dungeon Proficiency; src/published/books/dmg/glossary-2.md#32	2026-11-24
-rule	Dungeon Proficiency	地城熟练项	verified-exact	project-glossary		Dungeon Proficiency	1E	src/published/books/dmg/glossary-2.md#31	2026-11-24
+rule	Dungeon Proficiency	地城熟练项	verified-exact	project-glossary		Dungeon Proficiency	1E	src/published/books/dmg/glossary-2.md#31; src/published/books/dmg/glossary-2.md#32	2026-11-24
 rule	Dungeon Proficiency Table	地城熟练项表	pending	pending		Dungeon Proficiency Table	1E	requires source/context cross-check	2026-11-24
-rule	Duration	持续时间	verified-exact	project-glossary		Duration	1E	src/published/books/dmg/glossary-2.md#106	2026-11-24
+rule	Duration	持续时间	verified-exact	project-glossary		Duration	1E	src/published/books/dmg/glossary-2.md#106; src/published/books/dmg/glossary-2.md#111	2026-11-24
 rule	Effect of Cover on Spells and Spell-like Powers	掩护对法术与类法术能力的影响	verified-exact	1e-bilingual-heading		Effect of Cover on Spells and Spell-like Powers	1E	src/published/books/dmg/dmg-combat.md:253	2026-11-24
 rule	Effects of Alcohol and Drugs	酒精与药物的影响	verified-exact	1e-bilingual-heading		Effects of Alcohol and Drugs	1E	src/published/books/dmg/dmg-combat.md:1162	2026-11-24
 rule	Ego Whip	自我鞭笞	verified-exact	1e-bilingual-table		Ego Whip	1E	manuscript/phb/topics/psionic-attack-modes.md	2026-11-24
 rule	Empathy	共情	verified-exact	1e-bilingual-psionic-minor-devotion		Empathy	1E	src/published/books/phb/minor-devotions.md:130	2026-11-24
-rule	Encounter	遭遇	verified-exact	1e-glossary-definition		Encounter	1E	src/published/books/dmg/dmg-glossary.md:27	2026-11-24
-rule	Encounter Distance	遭遇距离	verified-exact	1e-bilingual-heading		Encounter Distance	1E	src/published/books/dmg/dmg-combat.md:75	2026-11-24
-rule	Encounter Reaction	遭遇反应	adapted-variant	1e-bilingual-glossary-variant		Encounter Reaction	1E	src/published/books/dmg/glossary-2.md#138; singular form of Encounter Reactions	2026-11-24
+rule	Encounter	遭遇	verified-exact	1e-glossary-definition		Encounter	1E	src/published/books/dmg/dmg-glossary.md#27; src/published/books/dmg/dmg-glossary.md:27	2026-11-24
+rule	Encounter Distance	遭遇距离	verified-exact	1e-bilingual-heading		Encounter Distance	1E	src/published/books/dmg/dmg-combat.md:75; src/published/books/dmg/dmg-glossary.md#28	2026-11-24
+rule	Encounter Reaction	遭遇反应	adapted-variant	1e-bilingual-glossary-variant		Encounter Reaction	1E	src/published/books/dmg/glossary-2.md#138; singular form of Encounter Reactions; src/published/books/dmg/glossary-2.md#139	2026-11-24
 rule	Encounter Reactions	遭遇反应	verified-exact	1e-bilingual-heading		Encounter Reactions	1E	src/published/books/dmg/dmg-combat.md#106	2026-11-24
-rule	Encumbrance	负重	verified-exact	1e-glossary-definition		Encumbrance	1E	src/published/books/dmg/dmg-glossary.md:28	2026-11-24
+rule	Encumbrance	负重	verified-exact	1e-glossary-definition		Encumbrance	1E	src/published/books/dmg/dmg-glossary.md#29; src/published/books/dmg/dmg-glossary.md:28	2026-11-24
 rule	Endurance	耐力	verified-exact	1e-bilingual-proficiency-entry		Endurance	1E	src/published/books/wsg/wsg-proficiencies.md:145; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Energy Control	能量控制	verified-exact	1e-bilingual-psionic-major-science		Energy Control	1E	src/published/books/phb/major-sciences.md:81	2026-11-24
-rule	Energy Drain	能级吸取	adapted-variant	1e-bilingual-glossary-variant		Energy Drain	1E	src/published/books/dmg/glossary-2.md#116; same life-energy-level loss rule term as Level Drain	2026-11-24
+rule	Energy Drain	能级吸取	adapted-variant	1e-bilingual-glossary-variant		Energy Drain	1E	src/published/books/dmg/glossary-2.md#116; same life-energy-level loss rule term as Level Drain; src/published/books/dmg/glossary-2.md#117	2026-11-24
 rule	ESP	心灵感应	verified-exact	1e-cross-book-standardized		ESP	1E	PHB psionic devotion explicitly says it functions similarly to the same-named Magic-User spell; both PHB pages title it 心灵感应 ESP, src/published/books/phb/minor-devotions.md:136; src/published/books/phb/spell-explanations-magic-users.md:529	2026-11-24
 rule	Ethereal and Astral Combat	以太位面与星界位面上的战斗	verified-exact	1e-bilingual-rule-heading		Ethereal and Astral Combat	1E	src/published/books/phb/appendix-known-planes.md:50	2026-11-24
 rule	Ethereal Travel	以太旅行	verified-exact	1e-bilingual-rule-heading		Ethereal Travel	1E	src/published/books/phb/appendix-known-planes.md:34	2026-11-24
-rule	Etherealness	以太化	verified-exact	5e-5r-name-priority-fallback; 1e-psionic-science mechanism distinct		Etherealness	1E	src/published/books/phb/major-sciences.md:87; terminology/references/5etools-names.json (PHB, XPHB exact spell name); no current 3R record; name borrowed only, not rules	2026-11-24
+rule	Etherealness	以太化	verified-exact	5e-5r-name-priority-fallback; 1e-psionic-science mechanism distinct		Etherealness	1E	src/published/books/dmg/glossary-2.md#58; src/published/books/phb/major-sciences.md:87; terminology/references/5etools-names.json (PHB, XPHB exact spell name); no current 3R record; name borrowed only, not rules	2026-11-24
 rule	Example of Melee	近战示例	verified-exact	1e-bilingual-heading		Example of Melee	1E	src/published/books/dmg/dmg-combat.md:486	2026-11-24
 rule	Excavation	挖掘	verified-exact	1e-bilingual-heading		Excavation	1E	src/published/books/dsg/dsg-contents.md:67	2026-11-24
-rule	Exceptional Strength	特殊力量	verified-exact	1e-glossary-definition		Exceptional Strength	1E	src/published/books/dmg/dmg-glossary.md:32	2026-11-24
+rule	Exceptional Strength	特殊力量	verified-exact	1e-glossary-definition		Exceptional Strength	1E	src/published/books/dmg/dmg-glossary.md#33; src/published/books/dmg/dmg-glossary.md:32	2026-11-24
 rule	Exhaustion	疲劳	verified-exact	1e-bilingual-heading		Exhaustion	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:361	2026-11-24
 rule	Expansion	扩大	verified-exact	1e-bilingual-psionic-minor-devotion		Expansion	1E	src/published/books/phb/minor-devotions.md:142	2026-11-24
-rule	Experience	经验	verified-exact	1e-glossary-definition		Experience	1E	src/published/books/dmg/dmg-glossary.md:33	2026-11-24
-rule	Experience Level	经验等级	verified-exact	project-glossary		Experience Level	1E	src/published/books/dmg/glossary-2.md#111	2026-11-24
-rule	Experience Points	经验值	verified-exact	project-glossary		Experience Points	1E	src/published/books/dmg/glossary-2.md#109	2026-11-24
+rule	Experience	经验	verified-exact	1e-glossary-definition		Experience	1E	src/published/books/dmg/dmg-glossary.md#34; src/published/books/dmg/dmg-glossary.md:33	2026-11-24
+rule	Experience Level	经验等级	verified-exact	project-glossary		Experience Level	1E	src/published/books/dmg/glossary-2.md#111; src/published/books/dmg/glossary-2.md#116	2026-11-24
+rule	Experience Points	经验值	verified-exact	project-glossary		Experience Points	1E	src/published/books/dmg/glossary-2.md#109; src/published/books/dmg/glossary-2.md#114	2026-11-24
 rule	Experience Points Value of Monsters	怪物经验值	verified-exact	1e-bilingual-heading	怪物的经验值数	Experience Points Value of Monsters	1E	src/published/books/dmg/dmg-experience.md:35	2026-11-24
 rule	Experience Value of Treasure Taken	取得财宝所得的经验值	verified-exact	1e-bilingual-heading		Experience Value of Treasure Taken	1E	src/published/books/dmg/dmg-experience.md:23	2026-11-24
-rule	Expertise	专长	verified-exact	project-glossary		Expertise	1E	src/published/books/dmg/glossary-2.md#23	2026-11-24
+rule	Expertise	专长	verified-exact	project-glossary		Expertise	1E	src/published/books/dmg/glossary-2.md#23; src/published/books/dmg/glossary-2.md#24	2026-11-24
 rule	Fabrication of Magic Items, Including Potions and Scrolls	制作魔法物品（包括药水与卷轴）	verified-exact	1e-bilingual-heading		Fabrication of Magic Items, Including Potions and Scrolls	1E	src/published/books/dmg/dmg-magical-research.md:79	2026-11-24
-rule	Factors Contributing to Surprise	导致突袭的因素	verified-exact	1e-bilingual-heading		Factors Contributing to Surprise	1E	src/published/books/dmg/dmg-combat.md:69	2026-11-24
+rule	Factors Contributing to Surprise	导致突袭的因素	verified-exact	1e-bilingual-heading		Factors Contributing to Surprise	1E	src/published/books/dmg/dmg-combat.md:69; src/published/books/dmg/dmg-glossary.md#36	2026-11-24
 rule	Falling (Expanded Rules)	坠落（扩展规则）	verified-exact	1e-bilingual-heading		Falling (Expanded Rules)	1E	src/published/books/dsg/dsg-contents.md:57	2026-11-24
 rule	Fatigue and Exhaustion	疲劳与力竭	verified-exact	1e-section-title-crosscheck		Fatigue and Exhaustion	1E	src/published/books/dsg/dsg-contents.md#72; src/published/books/dsg/dsg-spelunking-excavation-darkness.md#78; src/published/books/wsg/wsg-preface-contents.md#173	2026-11-24
-rule	Fighter Level	战士等级	verified-exact	project-glossary		Fighter Level	1E	src/published/books/dmg/glossary-2.md#118	2026-11-24
+rule	Fighter Level	战士等级	verified-exact	project-glossary		Fighter Level	1E	src/published/books/dmg/glossary-2.md#118; src/published/books/dmg/glossary-2.md#123	2026-11-24
 rule	Fire-building	生火	verified-exact	1e-bilingual-proficiency-entry		Fire-building	1E	src/published/books/wsg/wsg-proficiencies.md:149; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Fishing	捕鱼	verified-exact	1e-bilingual-proficiency-entry		Fishing	1E	src/published/books/wsg/wsg-proficiencies.md:153; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Flying Mounts	飞行坐骑	verified-exact	1e-bilingual-heading		Flying Mounts	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:109	2026-11-24
-rule	Followers	追随者	verified-exact	1e-glossary-definition		Followers	1E	src/published/books/dmg/dmg-glossary.md:35	2026-11-24
+rule	Followers	追随者	verified-exact	1e-glossary-definition		Followers	1E	src/published/books/dmg/dmg-glossary.md#38; src/published/books/dmg/dmg-glossary.md:35	2026-11-24
 rule	Foraging	觅食	verified-exact	1e-bilingual-proficiency-entry		Foraging	1E	src/published/books/wsg/wsg-proficiencies.md:157; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Forced Movement	强行军	verified-exact	1e-bilingual-heading		Forced Movement	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:85	2026-11-24
 rule	Further Actions	进一步行动	verified-exact	1e-bilingual-heading		Further Actions	1E	src/published/books/dmg/dmg-combat.md:281	2026-11-24
@@ -14121,24 +14166,24 @@ rule	Gaining Experience Levels	提升经验等级	verified-exact	1e-bilingual-he
 rule	Gemstone Quality	宝石品质	verified-exact	1e-source-crosscheck		Gemstone Quality	1E	src/published/books/dsg/dsg-contents.md:148; src/published/books/dsg/dsg-compiled-tables-index.md#352	2026-11-24
 rule	General Classes of Vessels	船只大类	verified-exact	1e-bilingual-heading		General Classes of Vessels	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:258	2026-11-24
 rule	General Notes	通用说明	verified-exact	1e-bilingual-heading		General Notes	1E	src/published/books/dmg/dmg-combat.md:684	2026-11-24
-rule	Giant and Machine Missiles	巨人与攻城器械投射物	verified-exact	1e-bilingual-glossary-variant		Giant and Machine Missiles	1E	src/published/books/dmg/glossary-2.md#141	2026-11-24
-rule	Grapple	擒抱	verified-exact	1e-bilingual-heading		Grapple	1E	src/published/books/dmg/dmg-combat.md#591	2026-11-24
+rule	Giant and Machine Missiles	巨人与攻城器械投射物	verified-exact	1e-bilingual-glossary-variant		Giant and Machine Missiles	1E	src/published/books/dmg/glossary-2.md#141; src/published/books/dmg/glossary-2.md#142	2026-11-24
+rule	Grapple	擒抱	verified-exact	1e-bilingual-heading		Grapple	1E	src/published/books/dmg/dmg-combat.md#591; src/published/books/dmg/glossary-2.md#156	2026-11-24
 rule	Grapple and Hold	擒抱与制伏	verified-exact	1e-source		Grapple and Hold	1E	src/published/books/dmg/dmg-combat.md#321	2026-11-24
 rule	Grappling	擒抱	verified-exact	1e-source		Grappling	1E	src/published/books/ua/ua-appendix-q-weaponless-combat.md#82	2026-11-24
 rule	Grappling and Boarding	爪钩与接舷	verified-exact	1e-bilingual-heading		Grappling and Boarding	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:437	2026-11-24
 rule	Grappling Success	爪钩成功率	verified-exact	1e-source-crosscheck		Grappling Success	1E	src/published/books/dsg/dsg-jumping-rope.md#23; src/published/books/dsg/dsg-compiled-tables-index.md#34	2026-11-24
 rule	Grappling Table	擒抱表	verified-exact	1e-source		Grappling Table	1E	src/published/books/dmg/dmg-combat.md#635	2026-11-24
-rule	Grenade-Like Missiles	类手榴弹投射物	verified-exact	1e-bilingual-heading		Grenade-Like Missiles	1E	src/published/books/dmg/dmg-combat.md#176	2026-11-24
+rule	Grenade-Like Missiles	类手榴弹投射物	verified-exact	1e-bilingual-heading		Grenade-Like Missiles	1E	src/published/books/dmg/dmg-combat.md#176; src/published/books/dmg/glossary-2.md#144	2026-11-24
 rule	Grenade-Like Missiles: Boulders and Containers of Acid, Holy/Unholy Water, Oil, Poison	类手榴弹投射物：巨石与液体容器	verified-exact	1e-bilingual-rule-subheading		Grenade-Like Missiles: Boulders and Containers of Acid, Holy/Unholy Water, Oil, Poison	1E	src/published/books/dmg/dmg-combat.md:176	2026-11-24
 rule	Healing	治疗	verified-exact	1e-bilingual-proficiency-entry		Healing	1E	src/published/books/wsg/wsg-proficiencies.md:161; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Henchman	随从	verified-exact	1e-glossary-definition		Henchman	1E	src/published/books/dmg/dmg-glossary.md:37	2026-11-24
-rule	Herbalist	草药师熟练项	verified-exact	1e-bilingual-proficiency-entry		Herbalist	1E	src/published/books/oa/oa-proficiencies.md:122	2026-11-24
-rule	Hireling	受雇者	verified-exact	1e-glossary-definition		Hireling	1E	src/published/books/dmg/dmg-glossary.md:38	2026-11-24
-rule	Hit Determination	命中判定	verified-exact	project-glossary		Hit Determination	1E	src/published/books/dmg/glossary-2.md#91	2026-11-24
-rule	Hit Dice	生命骰	verified-exact	project-glossary		HIT DICE; Hit Dice	1E	src/published/books/dmg/glossary-2.md#121	2026-11-24
-rule	Hit Points	生命值	verified-exact	project-glossary		Hit Points	1E	src/published/books/dmg/glossary-2.md#123	2026-11-24
+rule	Henchman	随从	verified-exact	1e-glossary-definition		Henchman	1E	src/published/books/dmg/dmg-glossary.md#40; src/published/books/dmg/dmg-glossary.md:37	2026-11-24
+rule	Herbalist	草药师熟练项	verified-exact	1e-bilingual-proficiency-entry		Herbalist	1E	src/published/books/dmg/glossary-2.md#43; src/published/books/oa/oa-proficiencies.md:122	2026-11-24
+rule	Hireling	受雇者	verified-exact	1e-glossary-definition		Hireling	1E	src/published/books/dmg/dmg-glossary.md#41; src/published/books/dmg/dmg-glossary.md:38	2026-11-24
+rule	Hit Determination	命中判定	verified-exact	project-glossary		Hit Determination	1E	src/published/books/dmg/glossary-2.md#91; src/published/books/dmg/glossary-2.md#95	2026-11-24
+rule	Hit Dice	生命骰	verified-exact	project-glossary		HIT DICE; Hit Dice	1E	src/published/books/dmg/glossary-2.md#121; src/published/books/dmg/glossary-2.md#126	2026-11-24
+rule	Hit Points	生命值	verified-exact	project-glossary		Hit Points	1E	src/published/books/dmg/glossary-2.md#123; src/published/books/dmg/glossary-2.md#128	2026-11-24
 rule	Hull Values	船体耐久	verified-exact	1e-bilingual-heading		Hull Values	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:288	2026-11-24
-rule	Humanoid	类人生物	verified-exact	1e-glossary-definition		Humanoid	1E	src/published/books/dmg/dmg-glossary.md:45	2026-11-24
+rule	Humanoid	类人生物	verified-exact	1e-glossary-definition		Humanoid	1E	src/published/books/dmg/dmg-glossary.md#45; src/published/books/dmg/dmg-glossary.md:45	2026-11-24
 rule	Humanoid Racial Preferences Table	类人生物种族偏好表	verified-exact	1e-bilingual-heading		Humanoid Racial Preferences Table	1E	src/published/books/dmg/dmg-npc-personae.md:517	2026-11-24
 rule	Humanoid Subtable	类人生物子表	verified-exact	1e-bilingual-heading	类人生物子表 ·	Humanoid Subtable	1E	src/published/books/dmg/appendix-c-random-monster-encounters-11.md:77	2026-11-24
 rule	Humanoids	类人生物	verified-exact	1e-creature-category		Humanoids	1E	src/published/books/dmg/appendix-e-alphabetical-monsters-7.md:45	2026-11-24
@@ -14149,34 +14194,34 @@ rule	Id Insinuation	本我暗示	verified-exact	1e-bilingual-table		Id Insinuati
 rule	Improving Proficiencies	改进熟练项	verified-exact	1e-bilingual-heading		Improving Proficiencies	1E	src/published/books/dla/dla-races-krynn.md:1267	2026-11-24
 rule	Inflicting Damage	造成伤害	verified-exact	1e-bilingual-heading		Inflicting Damage	1E	src/published/books/dmg/dmg-combat.md:102	2026-11-24
 rule	Infravision	红外视觉	verified-exact	1e-bilingual-heading		Infravision	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:659	2026-11-24
-rule	Initiative	先攻	verified-exact	project-glossary		Initiative	1E	src/published/books/dmg/glossary-2.md#125	2026-11-24
-rule	Initiative Check	先攻检定	verified-exact	project-glossary		Initiative Check	1E	src/published/books/dmg/glossary-2.md#126	2026-11-24
-rule	Initiative Die	先攻骰	verified-exact	project-glossary		Initiative Die	1E	src/published/books/dmg/glossary-2.md#127	2026-11-24
+rule	Initiative	先攻	verified-exact	project-glossary		Initiative	1E	src/published/books/dmg/dmg-glossary.md#48; src/published/books/dmg/glossary-2.md#125; src/published/books/dmg/glossary-2.md#130	2026-11-24
+rule	Initiative Check	先攻检定	verified-exact	project-glossary		Initiative Check	1E	src/published/books/dmg/glossary-2.md#126; src/published/books/dmg/glossary-2.md#131	2026-11-24
+rule	Initiative Die	先攻骰	verified-exact	project-glossary		Initiative Die	1E	src/published/books/dmg/glossary-2.md#127; src/published/books/dmg/glossary-2.md#132	2026-11-24
 rule	Initiative for Creatures with Multiple Attack Routines	多重攻击程序生物的先攻	verified-exact	1e-bilingual-heading		Initiative for Creatures with Multiple Attack Routines	1E	src/published/books/dmg/dmg-combat.md:92	2026-11-24
 rule	Initiative Modifier	先攻修正值	verified-exact	project-glossary		Initiative Modifier	1E	src/published/books/dmg/glossary-2.md#128	2026-11-24
-rule	Initiative Modifier(s)	先攻修正值	adapted-variant	1e-bilingual-glossary-variant		Initiative Modifier(s)	1E	src/published/books/dmg/glossary-2.md#132; plural/parenthetical form of Initiative Modifier	2026-11-24
+rule	Initiative Modifier(s)	先攻修正值	adapted-variant	1e-bilingual-glossary-variant		Initiative Modifier(s)	1E	src/published/books/dmg/glossary-2.md#132; plural/parenthetical form of Initiative Modifier; src/published/books/dmg/glossary-2.md#133	2026-11-24
 rule	Insanity	精神错乱	verified-exact	1e-bilingual-heading		Insanity	1E	src/published/books/dmg/dmg-combat.md:1210	2026-11-24
 rule	Intellect Fortress	智力堡垒	verified-exact	1e-bilingual-table		Intellect Fortress	1E	manuscript/phb/topics/psionic-defense-modes.md	2026-11-24
 rule	Intoxication Table	醉酒效果表	verified-exact	1e-bilingual-heading		Intoxication Table	1E	src/published/books/dmg/dmg-combat.md:1166	2026-11-24
-rule	Invisibility	隐形	verified-exact	1e-bilingual-heading		Invisibility	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:673	2026-11-24
+rule	Invisibility	隐形	verified-exact	1e-bilingual-heading		Invisibility	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:673; src/published/books/dmg/dmg-glossary.md#49	2026-11-24
 rule	Item Saving Throws	物品豁免检定	verified-exact	1e-bilingual-heading		Item Saving Throws	1E	src/published/books/dmg/dmg-combat.md:1095	2026-11-24
 rule	Jumping for Non-Acrobats	非杂技者跳跃	verified-exact	1e-bilingual-heading		Jumping for Non-Acrobats	1E	src/published/books/dsg/dsg-contents.md:41	2026-11-24
 rule	Land Riding Proficiency	陆地骑乘熟练项	adapted-variant	1e-proficiency-variant		Land Riding Proficiency	1E	Canonical 1E WSG entry: Riding, land-based; src/published/books/wsg/wsg-proficiencies.md:202	2026-11-24
 rule	Length and Width	船只长宽	verified-exact	1e-bilingual-heading		Length and Width	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:307	2026-11-24
 rule	Length of Research	研究时长	verified-exact	1e-bilingual-heading		Length of Research	1E	src/published/books/dmg/dmg-magical-research.md:49	2026-11-24
-rule	Level	等级	verified-exact	project-glossary		Level	1E	src/published/books/dmg/glossary-2.md#25	2026-11-24
-rule	Level Drain	能级吸取	verified-exact	project-glossary		Level Drain	1E	src/published/books/dmg/glossary-2.md#116	2026-11-24
-rule	Level of Mastery	掌握等级	verified-exact	project-glossary		Level of Mastery	1E	src/published/books/dmg/glossary-2.md#25	2026-11-24
+rule	Level	等级	verified-exact	project-glossary		Level	1E	src/published/books/dmg/dmg-glossary.md#51; src/published/books/dmg/glossary-2.md#115; src/published/books/dmg/glossary-2.md#25	2026-11-24
+rule	Level Drain	能级吸取	verified-exact	project-glossary		Level Drain	1E	src/published/books/dmg/glossary-2.md#116; src/published/books/dmg/glossary-2.md#117	2026-11-24
+rule	Level of Mastery	掌握等级	verified-exact	project-glossary		Level of Mastery	1E	src/published/books/dmg/glossary-2.md#25; src/published/books/dmg/glossary-2.md#26	2026-11-24
 rule	Listening at Doors	隔门聆听	verified-exact	1e-bilingual-heading		Listening at Doors	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:711	2026-11-24
 rule	Loyalty Base Modifiers	忠诚度基础修正值	verified-exact	1e-bilingual-heading		Loyalty Base Modifiers	1E	src/published/books/dmg/dmg-henchmen.md:103	2026-11-24
 rule	Magic Armor and Saving Throws	魔法护甲与豁免检定	verified-exact	1e-bilingual-heading		Magic Armor and Saving Throws	1E	src/published/books/dmg/dmg-combat.md:1107	2026-11-24
-rule	Magic Level	魔法等级	verified-exact	project-glossary		Magic Level	1E	src/published/books/dmg/glossary-2.md#115	2026-11-24
-rule	Magic Resistance	魔法抗性	verified-exact	project-glossary		MAGIC RESISTANCE; Magic Resistance	1E	src/published/books/dmg/glossary-2.md#166	2026-11-24
+rule	Magic Level	魔法等级	verified-exact	project-glossary		Magic Level	1E	src/published/books/dmg/glossary-2.md#115; src/published/books/dmg/glossary-2.md#120	2026-11-24
+rule	Magic Resistance	魔法抗性	verified-exact	project-glossary		MAGIC RESISTANCE; Magic Resistance	1E	src/published/books/dmg/glossary-2.md#166; src/published/books/dmg/glossary-2.md#191	2026-11-24
 rule	Magic Spell Failure	法术失败	verified-exact	1e-bilingual-rule-heading		Magic Spell Failure	1E	src/published/books/dmg/dmg-treasure.md:889	2026-11-24
-rule	Magic-User Level	魔法师等级	verified-exact	project-glossary		Magic-User Level	1E	src/published/books/dmg/glossary-2.md#114	2026-11-24
-rule	Magic-Using Creature	施法生物	verified-exact	project-glossary		Magic-Using Creature	1E	src/published/books/dmg/glossary-2.md#55	2026-11-24
+rule	Magic-User Level	魔法师等级	verified-exact	project-glossary		Magic-User Level	1E	src/published/books/dmg/glossary-2.md#114; src/published/books/dmg/glossary-2.md#119	2026-11-24
+rule	Magic-Using Creature	施法生物	verified-exact	project-glossary		Magic-Using Creature	1E	src/published/books/dmg/glossary-2.md#55; src/published/books/dmg/glossary-2.md#57	2026-11-24
 rule	Magic-Using Creatures	施法生物	adapted-variant	1e-term-variant		Magic-Using Creatures	1E	Plural variant of Magic-Using Creature; canonical Chinese term remains 施法生物	2026-11-24
-rule	Magical Attack Adjustment	魔法攻击调整	verified-exact	project-glossary		Magical Attack Adjustment	1E	src/published/books/dmg/glossary-2.md#99	2026-11-24
+rule	Magical Attack Adjustment	魔法攻击调整	verified-exact	project-glossary		Magical Attack Adjustment	1E	src/published/books/dmg/glossary-2.md#104; src/published/books/dmg/glossary-2.md#99	2026-11-24
 rule	Magical Device Attacks	魔法装置攻击	verified-exact	1e-bilingual-heading		Magical Device Attacks	1E	src/published/books/dmg/dmg-combat.md:249	2026-11-24
 rule	Major Discipline	主要学科	verified-exact	1e-bilingual-heading		Major Discipline	1E	manuscript/phb/topics/major-sciences.md	2026-11-24
 rule	Major Science	主要灵能科学	verified-exact	1e-bilingual-heading		Major Science	1E	manuscript/phb/topics/major-sciences.md	2026-11-24
@@ -14184,8 +14229,8 @@ rule	Maneuverability	机动等级	verified-exact	1e-bilingual-heading		Maneuvera
 rule	Manufacture of Potions	制作药水	verified-exact	1e-bilingual-heading		Manufacture of Potions	1E	src/published/books/dmg/dmg-magical-research.md:87	2026-11-24
 rule	Manufacture of Scrolls	制作卷轴	verified-exact	1e-bilingual-heading		Manufacture of Scrolls	1E	src/published/books/dmg/dmg-magical-research.md:140	2026-11-24
 rule	Mass Domination	群体支配	verified-exact	1e-bilingual-psionic-major-science		Mass Domination	1E	src/published/books/phb/major-sciences.md:93	2026-11-24
-rule	Melee	近战	verified-exact	1e-bilingual-heading		Melee	1E	src/published/books/dmg/dmg-combat.md:462	2026-11-24
-rule	Melee Round	轮	verified-exact	project-glossary		Melee Round	1E	src/published/books/dmg/glossary-2.md#80	2026-11-24
+rule	Melee	近战	verified-exact	1e-bilingual-heading		Melee	1E	src/published/books/dmg/dmg-combat.md:462; src/published/books/dmg/dmg-glossary.md#56	2026-11-24
+rule	Melee Round	轮	verified-exact	project-glossary	近战轮	Melee Round	1E	src/published/books/dmg/glossary-2.md#80; src/published/books/dmg/glossary-2.md#83	2026-11-24
 rule	Men and Humanoids	人类与类人生物	verified-exact	1e-bilingual-heading		Men and Humanoids	1E	src/published/books/dmg/appendix-e-alphabetical-monsters-7.md:45	2026-11-24
 rule	Mental Barrier	心智屏障	verified-exact	1e-bilingual-table		Mental Barrier	1E	manuscript/phb/topics/psionic-defense-modes.md	2026-11-24
 rule	Mind Bar	心灵屏障	verified-exact	1e-bilingual-psionic-major-science		Mind Bar	1E	src/published/books/phb/major-sciences.md:101	2026-11-24
@@ -14200,8 +14245,8 @@ rule	Mining Rates	采矿速率	verified-exact	1e-source-crosscheck		Mining Rates
 rule	Minor Devotion	次级灵能技艺	verified-exact	1e-bilingual-heading		Minor Devotion	1E	manuscript/phb/topics/minor-devotions.md	2026-11-24
 rule	Minor Discipline	次级学科	verified-exact	1e-bilingual-heading		Minor Discipline	1E	manuscript/phb/topics/minor-devotions.md	2026-11-24
 rule	Missile	投射武器	verified-exact	project-glossary		Missile	1E	src/published/books/dmg/glossary-2.md#4	2026-11-24
-rule	Missile Discharge	发射投射武器	verified-exact	1e-bilingual-heading	投射物攻击	Missile Discharge	1E	src/published/books/dmg/dmg-combat.md#141	2026-11-24
-rule	Missile Fire Cover and Concealment	投射攻击的掩护与隐蔽	adapted-variant	1e-bilingual-glossary-variant		Missile Fire Cover and Concealment	1E	src/published/books/dmg/glossary-2.md#142; shortened label for Missile Fire Cover and Concealment Adjustments	2026-11-24
+rule	Missile Discharge	发射投射武器	verified-exact	1e-bilingual-heading	投射物攻击	Missile Discharge	1E	src/published/books/dmg/dmg-combat.md#141; src/published/books/dmg/glossary-2.md#150	2026-11-24
+rule	Missile Fire Cover and Concealment	投射攻击的掩护与隐蔽	adapted-variant	1e-bilingual-glossary-variant		Missile Fire Cover and Concealment	1E	src/published/books/dmg/glossary-2.md#142; shortened label for Missile Fire Cover and Concealment Adjustments; src/published/books/dmg/glossary-2.md#143	2026-11-24
 rule	Missile Fire Cover and Concealment Adjustments	投射攻击的掩护与隐蔽调整	verified-exact	1e-bilingual-heading		Missile Fire Cover and Concealment Adjustments	1E	src/published/books/dmg/dmg-combat.md#163	2026-11-24
 rule	Mithril Check	秘银检定	verified-exact	1e-source-crosscheck		Mithril Check	1E	src/published/books/dsg/dsg-compiled-tables-index.md#320; src/published/books/dsg/dsg-mining.md	2026-11-24
 rule	Molecular Agitation	分子激发	verified-exact	1e-bilingual-psionic-minor-devotion		Molecular Agitation	1E	src/published/books/phb/minor-devotions.md:191	2026-11-24
@@ -14209,10 +14254,10 @@ rule	Molecular Manipulation	分子操控	verified-exact	1e-bilingual-psionic-maj
 rule	Molecular Rearrangement	分子重组	verified-exact	1e-bilingual-psionic-major-science		Molecular Rearrangement	1E	src/published/books/phb/major-sciences.md:134	2026-11-24
 rule	Monster	怪物	verified-exact	project-glossary		Monster	1E	src/published/books/dmg/glossary-2.md#5	2026-11-24
 rule	Monster Charm Power	怪物魅惑能力	verified-exact	1e-bilingual-heading		Monster Charm Power	1E	src/published/books/dmg/dmg-combat.md:257	2026-11-24
-rule	Morale	士气	verified-exact	project-glossary		Morale	1E	src/published/books/dmg/glossary-2.md#130	2026-11-24
-rule	Morale Check	士气检定	verified-exact	project-glossary		Morale Check	1E	src/published/books/dmg/glossary-2.md#131	2026-11-24
-rule	Morale Failure	士气失败	verified-exact	1e-bilingual-heading		Morale Failure	1E	src/published/books/dmg/dmg-combat.md#368	2026-11-24
-rule	Morale Score	士气分数	verified-exact	1e-bilingual-heading		Morale Score	1E	src/published/books/dmg/dmg-combat.md#362	2026-11-24
+rule	Morale	士气	verified-exact	project-glossary		Morale	1E	src/published/books/dmg/glossary-2.md#130; src/published/books/dmg/glossary-2.md#135	2026-11-24
+rule	Morale Check	士气检定	verified-exact	project-glossary		Morale Check	1E	src/published/books/dmg/glossary-2.md#131; src/published/books/dmg/glossary-2.md#136	2026-11-24
+rule	Morale Failure	士气失败	verified-exact	1e-bilingual-heading		Morale Failure	1E	src/published/books/dmg/dmg-combat.md#368; src/published/books/dmg/glossary-2.md#138	2026-11-24
+rule	Morale Score	士气分数	verified-exact	1e-bilingual-heading		Morale Score	1E	src/published/books/dmg/dmg-combat.md#362; src/published/books/dmg/glossary-2.md#137	2026-11-24
 rule	Morale Scores	士气分数	verified-exact	1e-bilingual-heading		Morale Scores	1E	src/published/books/dmg/dmg-combat.md:362	2026-11-24
 rule	Mountaineering	登山	verified-exact	1e-bilingual-proficiency-entry		Mountaineering	1E	src/published/books/wsg/wsg-proficiencies.md:183; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Movement	移动	verified-exact	1e-contextual-rule-heading		Movement	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:52,365,490	2026-11-24
@@ -14222,22 +14267,22 @@ rule	Movement in Cities	城镇移动	verified-exact	1e-bilingual-heading		Moveme
 rule	Movement in the Dungeon	地下城移动	verified-exact	1e-bilingual-heading		Movement in the Dungeon	1E	src/published/books/phb/movement-time-distance.md:3	2026-11-24
 rule	Movement on Slippery Horizontal Surfaces	在光滑水平表面上移动	verified-exact	1e-section-title-crosscheck	光滑水平表面上的移动	Movement on Slippery Horizontal Surfaces	1E	src/published/books/dsg/dsg-contents.md#79; src/published/books/dsg/dsg-spelunking-excavation-darkness.md#105	2026-11-24
 rule	Movement Outdoors	户外移动	verified-exact	1e-bilingual-heading		Movement Outdoors	1E	src/published/books/phb/movement-time-distance.md:14	2026-11-24
-rule	Movement Rate	移动率	verified-exact	project-glossary		Movement Rate	1E	src/published/books/dmg/glossary-2.md#129	2026-11-24
+rule	Movement Rate	移动率	verified-exact	project-glossary		Movement Rate	1E	src/published/books/dmg/glossary-2.md#129; src/published/books/dmg/glossary-2.md#134	2026-11-24
 rule	Movement Rules for Underground Play	地下游戏的移动规则	verified-exact	1e-bilingual-heading	地下行动规则	Movement Rules for Underground Play	1E	src/published/books/dsg/dsg-contents.md:21	2026-11-24
 rule	Natural 20	自然 20	verified-exact	project-glossary		Natural 20	1E	src/published/books/dmg/glossary-2.md#8	2026-11-24
-rule	Natural Armor Class	天然护甲等级	verified-exact	project-glossary		Natural Armor Class	1E	src/published/books/dmg/glossary-2.md#83	2026-11-24
+rule	Natural Armor Class	天然护甲等级	verified-exact	project-glossary		Natural Armor Class	1E	src/published/books/dmg/glossary-2.md#83; src/published/books/dmg/glossary-2.md#86	2026-11-24
 rule	Non-Lethal and Weaponless Combat Procedures	非致命与无武器战斗流程	verified-exact	1e-source		Non-Lethal and Weaponless Combat Procedures	1E	src/published/books/dmg/dmg-combat.md#516	2026-11-24
 rule	Non-Player Character Encounter/Offer Reaction Adjustments	非玩家角色遭遇／提议反应调整	verified-exact	1e-bilingual-heading		Non-Player Character Encounter/Offer Reaction Adjustments	1E	src/published/books/dmg/dmg-npc-personae.md:258	2026-11-24
-rule	Non-Proficiency Penalty	不熟练命中惩罚	verified-exact	project-glossary		Non-Proficiency Penalty	1E	src/published/books/dmg/glossary-2.md#27	2026-11-24
-rule	Nonproficiency	不熟练	verified-exact	project-glossary		Nonproficiency	1E	src/published/books/dmg/glossary-2.md#26	2026-11-24
+rule	Non-Proficiency Penalty	不熟练命中惩罚	verified-exact	project-glossary		Non-Proficiency Penalty	1E	src/published/books/dmg/glossary-2.md#27; src/published/books/dmg/glossary-2.md#28	2026-11-24
+rule	Nonproficiency	不熟练	verified-exact	project-glossary		Nonproficiency	1E	src/published/books/dmg/glossary-2.md#26; src/published/books/dmg/glossary-2.md#27	2026-11-24
 rule	Nonproficiency Penalties for Boat Use	使用船只的不熟练惩罚	verified-exact	1e-source-crosscheck		Nonproficiency Penalties for Boat Use	1E	src/published/books/dsg/dsg-compiled-tables-index.md#226	2026-11-24
 rule	Nonweapon Proficiencies	非武器熟练项	verified-exact	1e-bilingual-heading	非武器专长	Nonweapon Proficiencies	1E	src/published/books/dla/dla-races-krynn.md:1249; src/published/books/oa/oa-proficiencies.md:54	2026-11-24
-rule	Nonweapon Proficiency	非武器熟练项	verified-exact	project-glossary		Nonweapon Proficiency	1E	src/published/books/dmg/glossary-2.md#29	2026-11-24
+rule	Nonweapon Proficiency	非武器熟练项	verified-exact	project-glossary		Nonweapon Proficiency	1E	src/published/books/dmg/glossary-2.md#29; src/published/books/dmg/glossary-2.md#30	2026-11-24
 rule	Nonweapon Proficiency Table	非武器熟练项表	pending	pending		Nonweapon Proficiency Table	1E	requires source/context cross-check	2026-11-24
 rule	Notes on Intoxication Table	醉酒效果表注释	verified-exact	1e-bilingual-heading		Notes on Intoxication Table	1E	src/published/books/dmg/dmg-combat.md:1181	2026-11-24
 rule	NPC	非玩家角色	verified-exact	project-glossary	长期地下探险中的	NPC	1E	src/published/books/dmg/glossary-2.md#10	2026-11-24
-rule	Number of Hit Dice	生命骰数／生命骰数量	verified-exact	project-glossary		Number of Hit Dice	1E	src/published/books/dmg/glossary-2.md#122	2026-11-24
-rule	Number of Opponents per Figure	每个角色可面对的对手数	verified-exact	1e-bilingual-heading		Number of Opponents per Figure	1E	src/published/books/dmg/dmg-combat.md#466	2026-11-24
+rule	Number of Hit Dice	生命骰数／生命骰数量	verified-exact	project-glossary	生命骰数	Number of Hit Dice	1E	src/published/books/dmg/glossary-2.md#122; src/published/books/dmg/glossary-2.md#127	2026-11-24
+rule	Number of Opponents per Figure	每个角色可面对的对手数	verified-exact	1e-bilingual-heading		Number of Opponents per Figure	1E	src/published/books/dmg/dmg-combat.md#466; src/published/books/dmg/glossary-2.md#145	2026-11-24
 rule	Object Reading	物品读取	verified-exact	1e-bilingual-psionic-minor-devotion		Object Reading	1E	src/published/books/phb/minor-devotions.md:209	2026-11-24
 rule	Odor Detection	气味侦测	verified-exact	1e-table-title		Odor Detection	1E	src/published/books/dsg/dsg-compiled-tables-index.md:114	2026-11-24
 rule	Ore Quality	矿石品质	verified-exact	1e-source-crosscheck		Ore Quality	1E	src/published/books/dsg/dsg-contents.md:147; src/published/books/dsg/dsg-compiled-tables-index.md#329	2026-11-24
@@ -14246,103 +14291,103 @@ rule	Overbear	压制	verified-exact	1e-bilingual-heading		Overbear	1E	src/publis
 rule	Overbearing	压制	verified-exact	1e-source		Overbearing	1E	src/published/books/ua/ua-appendix-q-weaponless-combat.md#100	2026-11-24
 rule	Overbearing Table	压制表	verified-exact	1e-source		Overbearing Table	1E	src/published/books/dmg/dmg-combat.md#673	2026-11-24
 rule	Paralyzation, Poison or Death Magic	麻痹、毒素或死亡魔法	verified-exact	1e-rule-category		Paralyzation, Poison or Death Magic	1E	src/published/books/dmg/dmg-combat.md#984	2026-11-24
-rule	Parley	交涉	verified-exact	1e-bilingual-glossary-variant		Parley	1E	src/published/books/dmg/glossary-2.md#147	2026-11-24
+rule	Parley	交涉	verified-exact	1e-bilingual-glossary-variant		Parley	1E	src/published/books/dmg/glossary-2.md#147; src/published/books/dmg/glossary-2.md#148	2026-11-24
 rule	Parleying	交涉	verified-exact	1e-bilingual-heading		Parleying	1E	src/published/books/dmg/dmg-combat.md#133	2026-11-24
 rule	Party	队伍	verified-exact	project-glossary		Party	1E	src/published/books/dmg/glossary-2.md#12	2026-11-24
 rule	PC	玩家角色	verified-exact	project-glossary		PC	1E	src/published/books/dmg/glossary-2.md#10	2026-11-24
 rule	Persona	角色	verified-exact	project-glossary		Persona	1E	src/published/books/dmg/glossary-2.md#15	2026-11-24
-rule	Petrification	石化	verified-exact	project-glossary		Petrification	1E	src/published/books/dmg/glossary-2.md#15	2026-11-24
+rule	Petrification	石化	verified-exact	project-glossary		Petrification	1E	src/published/books/dmg/glossary-2.md#15; src/published/books/dmg/glossary-2.md#16	2026-11-24
 rule	Petrification or Polymorph	石化或变形	verified-exact	1e-rule-category		Petrification or Polymorph	1E	src/published/books/dmg/dmg-combat.md#984	2026-11-24
 rule	Philter	灵药	verified-exact	project-glossary		Philter	1E	src/published/books/dmg/glossary-2.md#17	2026-11-24
-rule	Plant Lore	植物学熟练项	verified-exact	1e-bilingual-proficiency-entry		Plant Lore	1E	src/published/books/wsg/wsg-proficiencies.md:187; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
+rule	Plant Lore	植物学熟练项	verified-exact	1e-bilingual-proficiency-entry		Plant Lore	1E	src/published/books/dmg/glossary-2.md#42; src/published/books/wsg/wsg-proficiencies.md:187; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Player Character Non-Professional Skills	玩家角色非职业技能	verified-exact	1e-bilingual-heading	玩家角色的非职业技能	Player Character Non-Professional Skills	1E	src/published/books/dmg/dmg-create-player-character.md:35	2026-11-24
-rule	Poison	毒素	verified-exact	project-glossary		Poison	1E	src/published/books/dmg/glossary-2.md#69	2026-11-24
+rule	Poison	毒素	verified-exact	project-glossary		Poison	1E	src/published/books/dmg/glossary-2.md#69; src/published/books/dmg/glossary-2.md#70	2026-11-24
 rule	Poison Saving Throws	毒素豁免	verified-exact	1e-bilingual-heading		Poison Saving Throws	1E	src/published/books/dmg/dmg-combat.md:1101	2026-11-24
-rule	Pole Arm	长柄武器	verified-exact	project-glossary		Pole Arm	1E	src/published/books/dmg/glossary-2.md#68	2026-11-24
-rule	Polymorph	变形	verified-exact	project-glossary		Polymorph	1E	src/published/books/dmg/glossary-2.md#69	2026-11-24
+rule	Pole Arm	长柄武器	verified-exact	project-glossary		Pole Arm	1E	src/published/books/dmg/glossary-2.md#68; src/published/books/dmg/glossary-2.md#71	2026-11-24
+rule	Polymorph	变形	verified-exact	project-glossary		Polymorph	1E	src/published/books/dmg/glossary-2.md#69; src/published/books/dmg/glossary-2.md#72	2026-11-24
 rule	Potion Miscibility	药水混合	verified-exact	1e-bilingual-heading		Potion Miscibility	1E	src/published/books/dmg/dmg-use-magic-items.md:21	2026-11-24
 rule	Precognition	预知	verified-exact	1e-bilingual-psionic-minor-devotion		Precognition	1E	src/published/books/phb/minor-devotions.md:215	2026-11-24
-rule	Prime Requisite	主属性	verified-exact	project-glossary		Prime Requisite	1E	src/published/books/dmg/glossary-2.md#24	2026-11-24
+rule	Prime Requisite	主属性	verified-exact	project-glossary		Prime Requisite	1E	src/published/books/dmg/glossary-2.md#24; src/published/books/dmg/glossary-2.md#25	2026-11-24
 rule	Probability Travel	概率旅行	verified-exact	1e-bilingual-psionic-major-science		Probability Travel	1E	src/published/books/phb/major-sciences.md:151	2026-11-24
 rule	Procedure for Lost Parties	迷路队伍的处理	verified-exact	1e-bilingual-heading		Procedure for Lost Parties	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:73	2026-11-24
 rule	Proficiencies	熟练项	verified-exact	project-glossary	专长	Proficiencies	1E	src/published/books/dmg/glossary-2.md#33	2026-11-24
-rule	Proficiency	熟练	verified-exact	project-glossary		Proficiency	1E	src/published/books/dmg/glossary-2.md#19	2026-11-24
-rule	Proficiency Check	熟练项检定	verified-exact	project-glossary		Proficiency Check	1E	src/published/books/dmg/glossary-2.md#21	2026-11-24
+rule	Proficiency	熟练	verified-exact	project-glossary		Proficiency	1E	src/published/books/dmg/glossary-2.md#19; src/published/books/dmg/glossary-2.md#20	2026-11-24
+rule	Proficiency Check	熟练项检定	verified-exact	project-glossary		Proficiency Check	1E	src/published/books/dmg/glossary-2.md#21; src/published/books/dmg/glossary-2.md#22	2026-11-24
 rule	Proficiency Checks	熟练项检定	adapted-variant	1e-proficiency-variant		Proficiency Checks	1E	Canonical singular: Proficiency Check；src/published/books/dsg/dsg-movement-rules.md:14	2026-11-24
 rule	Proficiency in Airborne Riding	空中骑乘熟练项	adapted-variant	1e-proficiency-variant		Proficiency in Airborne Riding	1E	Canonical 1E WSG entry: Riding, airborne; src/published/books/wsg/wsg-proficiencies.md:191	2026-11-24
 rule	Proficiency in Plant Lore	植物学熟练项	adapted-variant	1e-proficiency-variant		Proficiency in Plant Lore	1E	Canonical 1E WSG entry: Plant Lore; src/published/books/wsg/wsg-proficiencies.md:187	2026-11-24
-rule	Proficiency Slot	熟练项栏位	verified-exact	project-glossary		Proficiency Slot	1E	src/published/books/dmg/glossary-2.md#20	2026-11-24
+rule	Proficiency Slot	熟练项栏位	verified-exact	project-glossary		Proficiency Slot	1E	src/published/books/dmg/glossary-2.md#20; src/published/books/dmg/glossary-2.md#21	2026-11-24
 rule	Progression on the Combat Tables	战斗表上的数值递进	verified-exact	1e-bilingual-heading		Progression on the Combat Tables	1E	src/published/books/dmg/dmg-combat.md:1127	2026-11-24
 rule	Psionic Ability	灵能能力	verified-exact	1e-bilingual-heading		Psionic Ability	1E	manuscript/phb/topics/psionic-ability.md	2026-11-24
 rule	Psionic Ability Score	灵能能力值	verified-exact	1e-bilingual-heading		Psionic Ability Score	1E	manuscript/phb/topics/psionic-ability.md	2026-11-24
 rule	Psionic Attack Mode	灵能攻击模式	verified-exact	1e-bilingual-heading		Psionic Attack Mode	1E	manuscript/phb/topics/psionic-attack-modes.md	2026-11-24
-rule	Psionic Blast	灵能冲击	verified-exact	project-glossary		Psionic Blast	1E	src/published/books/dmg/glossary-2.md#192	2026-11-24
+rule	Psionic Blast	灵能冲击	verified-exact	project-glossary		Psionic Blast	1E	src/published/books/dmg/glossary-2.md#192; src/published/books/dmg/glossary-2.md#217	2026-11-24
 rule	Psionic Defense Mode	灵能防御模式	verified-exact	1e-bilingual-heading		Psionic Defense Mode	1E	manuscript/phb/topics/psionic-defense-modes.md	2026-11-24
 rule	Psionic Discipline	灵能学科	verified-exact	1e-bilingual-heading		Psionic Discipline	1E	manuscript/phb/topics/psionic-disciplines.md	2026-11-24
-rule	Psionic Mind Blast	灵能冲击	verified-exact	project-glossary		Psionic Mind Blast	1E	src/published/books/dmg/glossary-2.md#193	2026-11-24
+rule	Psionic Mind Blast	灵能冲击	verified-exact	project-glossary	夺心魔的灵能冲击	Psionic Mind Blast	1E	src/published/books/dmg/glossary-2.md#193; src/published/books/dmg/glossary-2.md#218	2026-11-24
 rule	Psionic Strength	灵能强度	verified-exact	1e-bilingual-heading		Psionic Strength	1E	manuscript/phb/topics/psionic-ability.md	2026-11-24
 rule	Psionic Strength Point(s)	灵能强度点数	verified-exact	1e-bilingual-heading		Psionic Strength Point(s)	1E	manuscript/phb/topics/recovery-psionic-strength.md	2026-11-24
-rule	Psionics	灵能	verified-exact	project-glossary		Psionics	1E	src/published/books/dmg/glossary-2.md#71	2026-11-24
+rule	Psionics	灵能	verified-exact	project-glossary		Psionics	1E	src/published/books/dmg/glossary-2.md#71; src/published/books/dmg/glossary-2.md#74	2026-11-24
 rule	Psychic Crush	心灵粉碎	verified-exact	1e-bilingual-table		Psychic Crush	1E	manuscript/phb/topics/psionic-attack-modes.md	2026-11-24
 rule	Pummel	拳击	verified-exact	1e-source		Pummel	1E	src/published/books/dmg/dmg-combat.md#532	2026-11-24
 rule	Pummeling	拳击	verified-exact	1e-source		Pummeling	1E	src/published/books/ua/ua-appendix-q-weaponless-combat.md#24	2026-11-24
 rule	Pummeling Table	拳击表	verified-exact	1e-source		Pummeling Table	1E	src/published/books/ua/ua-dm-contents.md#60	2026-11-24
 rule	Pursuit and Evasion in Outdoor Settings	户外追击与规避	verified-exact	1e-bilingual-heading		Pursuit and Evasion in Outdoor Settings	1E	src/published/books/dmg/dmg-combat.md:429	2026-11-24
 rule	Pursuit and Evasion in Underground Settings	地下环境中的追击与规避	verified-exact	1e-bilingual-heading		Pursuit and Evasion in Underground Settings	1E	src/published/books/dmg/dmg-combat.md:383	2026-11-24
-rule	Pursuit and Evasion of Pursuit	追击与规避追击	verified-exact	1e-bilingual-heading		Pursuit and Evasion of Pursuit	1E	src/published/books/dmg/dmg-combat.md#379	2026-11-24
+rule	Pursuit and Evasion of Pursuit	追击与规避追击	verified-exact	1e-bilingual-heading		Pursuit and Evasion of Pursuit	1E	src/published/books/dmg/dmg-combat.md#379; src/published/books/dmg/glossary-2.md#155	2026-11-24
 rule	Ramming	冲撞	verified-exact	1e-bilingual-heading		Ramming	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:433	2026-11-24
-rule	Random Generation	随机生成	verified-exact	project-glossary		Random Generation	1E	src/published/books/dmg/glossary-2.md#74	2026-11-24
-rule	Range	射程	verified-exact	project-glossary		Range	1E	src/published/books/dmg/glossary-2.md#85	2026-11-24
-rule	Ranger Level	巡林客等级	verified-exact	project-glossary		Ranger Level	1E	src/published/books/dmg/glossary-2.md#119	2026-11-24
-rule	Rate of Fire	射速	verified-exact	project-glossary		Rate of Fire	1E	src/published/books/dmg/glossary-2.md#105	2026-11-24
+rule	Random Generation	随机生成	verified-exact	project-glossary		Random Generation	1E	src/published/books/dmg/glossary-2.md#74; src/published/books/dmg/glossary-2.md#77	2026-11-24
+rule	Range	射程	verified-exact	project-glossary		Range	1E	src/published/books/dmg/glossary-2.md#179; src/published/books/dmg/glossary-2.md#85	2026-11-24
+rule	Ranger Level	巡林客等级	verified-exact	project-glossary		Ranger Level	1E	src/published/books/dmg/glossary-2.md#119; src/published/books/dmg/glossary-2.md#124	2026-11-24
+rule	Rate of Fire	射速	verified-exact	project-glossary		Rate of Fire	1E	src/published/books/dmg/glossary-2.md#105; src/published/books/dmg/glossary-2.md#110	2026-11-24
 rule	Rates of Climbing	攀爬速度	verified-exact	1e-source-crosscheck		Rates of Climbing	1E	src/published/books/dsg/dsg-climbing.md#5; src/published/books/dsg/dsg-compiled-tables-index.md#18	2026-11-24
-rule	Reaction Adjustment	反应调整／反应调整值	verified-exact	project-glossary		Reaction Adjustment	1E	src/published/books/dmg/glossary-2.md#96	2026-11-24
-rule	Reaction Roll	反应检定	verified-exact	project-glossary		Reaction Roll	1E	src/published/books/dmg/glossary-2.md#155	2026-11-24
+rule	Reaction Adjustment	反应调整／反应调整值	verified-exact	project-glossary	反应调整	Reaction Adjustment	1E	src/published/books/dmg/glossary-2.md#101; src/published/books/dmg/glossary-2.md#96	2026-11-24
+rule	Reaction Roll	反应检定	verified-exact	project-glossary		Reaction Roll	1E	src/published/books/dmg/glossary-2.md#155; src/published/books/dmg/glossary-2.md#180	2026-11-24
 rule	Recovery from Intoxication	醉酒后的恢复	verified-exact	1e-bilingual-heading		Recovery from Intoxication	1E	src/published/books/dmg/dmg-combat.md:1193	2026-11-24
 rule	Recovery of Hit Points	生命值恢复	verified-exact	1e-bilingual-heading		Recovery of Hit Points	1E	src/published/books/dmg/dmg-combat.md:1148	2026-11-24
 rule	Reduction	缩小	verified-exact	1e-bilingual-psionic-minor-devotion		Reduction	1E	src/published/books/phb/minor-devotions.md:232	2026-11-24
-rule	Relic	圣遗物	verified-exact	project-glossary		Relic	1E	src/published/books/dmg/glossary-2.md#75	2026-11-24
+rule	Relic	圣遗物	verified-exact	project-glossary		Relic	1E	src/published/books/dmg/glossary-2.md#75; src/published/books/dmg/glossary-2.md#78	2026-11-24
 rule	Repairing Damage	修理损伤	verified-exact	1e-bilingual-heading		Repairing Damage	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:303	2026-11-24
-rule	Research	研究	verified-exact	project-glossary		Research	1E	src/published/books/dmg/glossary-2.md#76	2026-11-24
+rule	Research	研究	verified-exact	project-glossary		Research	1E	src/published/books/dmg/glossary-2.md#76; src/published/books/dmg/glossary-2.md#79	2026-11-24
 rule	Research Materials	研究材料	verified-exact	1e-bilingual-heading		Research Materials	1E	src/published/books/dmg/dmg-magical-research.md:57	2026-11-24
 rule	Rest	休息	verified-exact	1e-contextual-rule-heading		Rest	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:81	2026-11-24
-rule	Resurrection	复生术	verified-exact	project-glossary		Resurrection	1E	src/published/books/dmg/glossary-2.md#79	2026-11-24
-rule	Riding Proficiency	骑乘熟练项	verified-exact	project-glossary		Riding Proficiency	1E	src/published/books/dmg/glossary-2.md#38	2026-11-24
-rule	Riding, airborne	空中骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry		Riding, airborne	1E	src/published/books/wsg/wsg-proficiencies.md:191; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Riding, land-based	陆地骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry		Riding, land-based	1E	src/published/books/wsg/wsg-proficiencies.md:202; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
+rule	Resurrection	复生术	verified-exact	project-glossary		Resurrection	1E	src/published/books/dmg/glossary-2.md#79; src/published/books/dmg/glossary-2.md#80	2026-11-24
+rule	Riding Proficiency	骑乘熟练项	verified-exact	project-glossary		Riding Proficiency	1E	src/published/books/dmg/glossary-2.md#38; src/published/books/dmg/glossary-2.md#39	2026-11-24
+rule	Riding, airborne	空中骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry		Riding, airborne	1E	src/published/books/dmg/glossary-2.md#41; src/published/books/wsg/wsg-proficiencies.md:191; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
+rule	Riding, land-based	陆地骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry		Riding, land-based	1E	src/published/books/dmg/glossary-2.md#46; src/published/books/wsg/wsg-proficiencies.md:202; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Rock Ledge	岩棚	pending	1e-context-candidate		Rock Ledge	1E	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3	2026-11-24
 rule	Rod, Staff, or Wand	权杖、法杖或魔杖	verified-exact	1e-rule-category		Rod, Staff, or Wand	1E	src/published/books/dmg/dmg-combat.md#984	2026-11-24
-rule	Roll	掷骰	verified-exact	project-glossary		Roll	1E	src/published/books/dmg/glossary-2.md#89	2026-11-24
+rule	Roll	掷骰	verified-exact	project-glossary		Roll	1E	src/published/books/dmg/glossary-2.md#189; src/published/books/dmg/glossary-2.md#89	2026-11-24
 rule	Rope Use	绳索使用熟练项	verified-exact	1e-bilingual-proficiency-entry		Rope Use	1E	src/published/books/wsg/wsg-proficiencies.md:215; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Rope Use Proficiency	绳索使用熟练项	verified-exact	project-glossary		Rope Use Proficiency	1E	src/published/books/dmg/glossary-2.md#46	2026-11-24
+rule	Rope Use Proficiency	绳索使用熟练项	verified-exact	project-glossary		Rope Use Proficiency	1E	src/published/books/dmg/glossary-2.md#46; src/published/books/dmg/glossary-2.md#48	2026-11-24
 rule	Round (combat time unit)	轮	verified-exact	project-glossary		Round (combat time unit)	1E	src/published/books/dmg/glossary-2.md#78	2026-11-24
-rule	Round Count	轮次	verified-exact	project-glossary		Round Count	1E	src/published/books/dmg/glossary-2.md#79	2026-11-24
+rule	Round Count	轮次	verified-exact	project-glossary		Round Count	1E	src/published/books/dmg/glossary-2.md#79; src/published/books/dmg/glossary-2.md#82	2026-11-24
 rule	Running	奔跑	verified-exact	1e-bilingual-proficiency-entry		Running	1E	src/published/books/wsg/wsg-proficiencies.md:223; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Save vs. Bludgeoning	对钝击豁免	verified-exact	project-glossary		Save vs. Bludgeoning	1E	src/published/books/dmg/glossary-2.md:194	2026-11-24
-rule	Save vs. Breath Weapon	对喷吐武器豁免	verified-exact	project-glossary		Save vs. Breath Weapon	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986	2026-11-24
-rule	Save vs. Crushing Blow	对粉碎打击豁免	verified-exact	project-glossary		Save vs. Crushing Blow	1E	src/published/books/dmg/glossary-2.md:194	2026-11-24
-rule	Save vs. Death Magic	对死亡魔法豁免	verified-exact	project-glossary		Save vs. Death Magic	1E	src/published/books/dmg/glossary-2.md#169	2026-11-24
-rule	Save vs. Normal Fire	对普通火焰豁免	verified-exact	project-glossary		Save vs. Normal Fire	1E	src/published/books/dmg/glossary-2.md:194	2026-11-24
-rule	Save vs. Paralyzation	对麻痹豁免	verified-exact	project-glossary		Save vs. Paralyzation	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986	2026-11-24
-rule	Save vs. Petrification	对石化豁免	verified-exact	project-glossary		Save vs. Petrification	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986	2026-11-24
+rule	Save vs. Bludgeoning	对钝击豁免	verified-exact	project-glossary		Save vs. Bludgeoning	1E	src/published/books/dmg/glossary-2.md#195; src/published/books/dmg/glossary-2.md:194	2026-11-24
+rule	Save vs. Breath Weapon	对喷吐武器豁免	verified-exact	project-glossary		Save vs. Breath Weapon	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986; src/published/books/dmg/glossary-2.md#192	2026-11-24
+rule	Save vs. Crushing Blow	对粉碎打击豁免	verified-exact	project-glossary		Save vs. Crushing Blow	1E	src/published/books/dmg/glossary-2.md#195; src/published/books/dmg/glossary-2.md:194	2026-11-24
+rule	Save vs. Death Magic	对死亡魔法豁免	verified-exact	project-glossary		Save vs. Death Magic	1E	src/published/books/dmg/glossary-2.md#169; src/published/books/dmg/glossary-2.md#194	2026-11-24
+rule	Save vs. Normal Fire	对普通火焰豁免	verified-exact	project-glossary		Save vs. Normal Fire	1E	src/published/books/dmg/glossary-2.md#195; src/published/books/dmg/glossary-2.md:194	2026-11-24
+rule	Save vs. Paralyzation	对麻痹豁免	verified-exact	project-glossary		Save vs. Paralyzation	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986; src/published/books/dmg/glossary-2.md#192	2026-11-24
+rule	Save vs. Petrification	对石化豁免	verified-exact	project-glossary		Save vs. Petrification	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986; src/published/books/dmg/glossary-2.md#192	2026-11-24
 rule	Save vs. Poison	对毒素豁免	verified-exact	project-glossary		Save vs. Poison	1E	src/published/books/dmg/glossary-2.md#167	2026-11-24
-rule	Save vs. Spell	对法术豁免	verified-exact	project-glossary		Save vs. Spell	1E	src/published/books/dmg/glossary-2.md#165	2026-11-24
-rule	Save vs. Wands	对魔杖豁免	verified-exact	project-glossary		Save vs. Wands	1E	src/published/books/dmg/glossary-2.md#168	2026-11-24
-rule	Saving Throw	豁免检定	verified-exact	project-glossary		Saving Throw	1E	src/published/books/dmg/glossary-2.md#157	2026-11-24
-rule	Saving Throw Die	豁免骰	verified-exact	project-glossary		Saving Throw Die	1E	src/published/books/dmg/glossary-2.md#158	2026-11-24
+rule	Save vs. Spell	对法术豁免	verified-exact	project-glossary		Save vs. Spell	1E	src/published/books/dmg/glossary-2.md#165; src/published/books/dmg/glossary-2.md#190	2026-11-24
+rule	Save vs. Wands	对魔杖豁免	verified-exact	project-glossary		Save vs. Wands	1E	src/published/books/dmg/glossary-2.md#168; src/published/books/dmg/glossary-2.md#193	2026-11-24
+rule	Saving Throw	豁免检定	verified-exact	project-glossary		Saving Throw	1E	src/published/books/dmg/glossary-2.md#157; src/published/books/dmg/glossary-2.md#182	2026-11-24
+rule	Saving Throw Die	豁免骰	verified-exact	project-glossary		Saving Throw Die	1E	src/published/books/dmg/glossary-2.md#158; src/published/books/dmg/glossary-2.md#183	2026-11-24
 rule	Saving Throw Matrices	豁免检定矩阵	verified-exact	1e-bilingual-heading		Saving Throw Matrices	1E	src/published/books/dmg/dmg-combat.md:964	2026-11-24
 rule	Saving Throw Matrix for Characters and Human Types	角色与人类类型豁免检定矩阵	verified-exact	1e-bilingual-heading		Saving Throw Matrix for Characters and Human Types	1E	src/published/books/dmg/dmg-combat.md:984	2026-11-24
 rule	Saving Throw Matrix for Magical and Non-Magical Items	魔法与非魔法物品豁免检定矩阵	verified-exact	1e-bilingual-heading		Saving Throw Matrix for Magical and Non-Magical Items	1E	src/published/books/dmg/dmg-combat.md:1028	2026-11-24
 rule	Saving Throw Matrix for Monsters	怪物豁免检定矩阵	verified-exact	1e-bilingual-heading		Saving Throw Matrix for Monsters	1E	src/published/books/dmg/dmg-combat.md:1021	2026-11-24
-rule	Saving Throw Modifier	豁免修正	verified-exact	project-glossary		Saving Throw Modifier	1E	src/published/books/dmg/glossary-2.md#160	2026-11-24
+rule	Saving Throw Modifier	豁免修正	verified-exact	project-glossary		Saving Throw Modifier	1E	src/published/books/dmg/glossary-2.md#160; src/published/books/dmg/glossary-2.md#185	2026-11-24
 rule	Saving Throw Modifiers	豁免修正	verified-exact	1e-bilingual-heading		Saving Throw Modifiers	1E	src/published/books/dmg/dmg-combat.md:1083	2026-11-24
-rule	Saving Throw Target Number	豁免目标值	verified-exact	project-glossary		Saving Throw Target Number	1E	src/published/books/dmg/glossary-2.md#159	2026-11-24
+rule	Saving Throw Target Number	豁免目标值	verified-exact	project-glossary		Saving Throw Target Number	1E	src/published/books/dmg/glossary-2.md#159; src/published/books/dmg/glossary-2.md#184	2026-11-24
 rule	Saving Throws	豁免检定	verified-exact	1e-bilingual-heading		Saving Throws	1E	src/published/books/dmg/dmg-combat.md:1067	2026-11-24
-rule	Scrying	侦测	verified-exact	project-glossary		Scrying	1E	src/published/books/dmg/glossary-2.md#171	2026-11-24
+rule	Scrying	侦测	verified-exact	project-glossary		Scrying	1E	src/published/books/dmg/glossary-2.md#171; src/published/books/dmg/glossary-2.md#196	2026-11-24
 rule	Segment (combat time unit)	段	verified-exact	project-glossary		Segment (combat time unit)	1E	src/published/books/dmg/glossary-2.md#172	2026-11-24
-rule	Semi-intelligent	半智能	verified-exact	project-glossary		Semi-intelligent	1E	src/published/books/dmg/glossary-2.md#191	2026-11-24
+rule	Semi-intelligent	半智能	verified-exact	project-glossary		Semi-intelligent	1E	src/published/books/dmg/glossary-2.md#191; src/published/books/dmg/glossary-2.md#216	2026-11-24
 rule	Sensitivity to Psychic Impressions	感知心灵印象	verified-exact	1e-bilingual-psionic-minor-devotion		Sensitivity to Psychic Impressions	1E	src/published/books/phb/minor-devotions.md:238	2026-11-24
-rule	Set Weapons Against Charge	架起武器迎击冲锋	adapted-variant	1e-bilingual-glossary-variant		Set Weapons Against Charge	1E	src/published/books/dmg/glossary-2.md#152; shortened label for Set Weapons Against Possible Opponent Charge	2026-11-24
+rule	Set Weapons Against Charge	架起武器迎击冲锋	adapted-variant	1e-bilingual-glossary-variant		Set Weapons Against Charge	1E	src/published/books/dmg/glossary-2.md#152; shortened label for Set Weapons Against Possible Opponent Charge; src/published/books/dmg/glossary-2.md#153	2026-11-24
 rule	Set Weapons Against Possible Opponent Charge	架起武器迎击可能的冲锋	verified-exact	1e-bilingual-heading		Set Weapons Against Possible Opponent Charge	1E	src/published/books/dmg/dmg-combat.md#299	2026-11-24
 rule	Shape Alteration	形体改变	verified-exact	1e-bilingual-psionic-major-science		Shape Alteration	1E	src/published/books/phb/major-sciences.md:185	2026-11-24
 rule	Ship's Capture	船只被俘	verified-exact	1e-bilingual-heading		Ship's Capture	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:451	2026-11-24
@@ -14350,27 +14395,27 @@ rule	Siege Attack Values	攻城攻击数值	verified-exact	1e-bilingual-heading	
 rule	Sinking a Ship	船只沉没	verified-exact	1e-bilingual-heading		Sinking a Ship	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:447	2026-11-24
 rule	Special Bonus Award to Experience Points	经验值特别奖励	verified-exact	1e-bilingual-heading	经验值数特别奖励	Special Bonus Award to Experience Points	1E	src/published/books/dmg/dmg-experience.md:79	2026-11-24
 rule	Special Note Regarding Giant and Machine Missiles	巨人与攻城器械投射物特别说明	verified-exact	1e-bilingual-heading		Special Note Regarding Giant and Machine Missiles	1E	src/published/books/dmg/dmg-combat.md#157	2026-11-24
-rule	Special “To Hit” Bonuses	特殊命中加值	verified-exact	1e-bilingual-heading-and-table		Special “To Hit” Bonuses	1E	src/published/books/dmg/dmg-combat.md#323	2026-11-24
+rule	Special “To Hit” Bonuses	特殊命中加值	verified-exact	1e-bilingual-heading-and-table		Special “To Hit” Bonuses	1E	src/published/books/dmg/dmg-combat.md#323; src/published/books/dmg/glossary-2.md#97	2026-11-24
 rule	Spell (saving throw category)	法术（豁免类别）	verified-exact	1e-rule-category		Spell (saving throw category)	1E	src/published/books/dmg/dmg-combat.md#984	2026-11-24
 rule	Spell Ability	施法能力	verified-exact	1e-cross-book-standardized		Spell Ability	1E	src/published/books/phb/classes.md:6,8,30; src/published/books/ua/ua-class-hit-dice.md:3,5,25,27; identical class-table field, standardized to PHB wording	2026-11-24
 rule	Spell Casting During Melee	近战中的施法	verified-exact	1e-bilingual-heading		Spell Casting During Melee	1E	src/published/books/dmg/dmg-combat.md:231	2026-11-24
-rule	Spell Level	法术环级	verified-exact	project-glossary		Spell Level	1E	src/published/books/dmg/glossary-2.md#132	2026-11-24
+rule	Spell Level	法术环级	verified-exact	project-glossary		Spell Level	1E	src/published/books/dmg/glossary-2.md#132; src/published/books/dmg/glossary-2.md#157	2026-11-24
 rule	Spell Level of Scroll Spells	卷轴法术的法术环级	verified-exact	1e-bilingual-heading	卷轴法术的环级	Spell Level of Scroll Spells	1E	src/published/books/dmg/dmg-treasure.md:885	2026-11-24
 rule	Spell Level Range	卷轴法术环级范围	verified-exact	1e-bilingual-heading		Spell Level Range	1E	src/published/books/dmg/dmg-treasure.md:910	2026-11-24
 rule	Spell Research	法术研究	verified-exact	1e-bilingual-heading		Spell Research	1E	src/published/books/dmg/dmg-magical-research.md:35	2026-11-24
-rule	Spell Slot	法术环位	verified-exact	project-glossary		Spell Slot	1E	src/published/books/dmg/glossary-2.md#133	2026-11-24
-rule	Spell-Like Ability	类法术能力	verified-exact	project-glossary		Spell-Like Ability	1E	src/published/books/dmg/glossary-2.md#58	2026-11-24
-rule	Spellcaster	施法者	verified-exact	project-glossary		Spellcaster	1E	src/published/books/dmg/glossary-2.md#57	2026-11-24
-rule	Spellcasting	施法	verified-exact	project-glossary		Spellcasting	1E	src/published/books/dmg/glossary-2.md#56	2026-11-24
+rule	Spell Slot	法术环位	verified-exact	project-glossary		Spell Slot	1E	src/published/books/dmg/glossary-2.md#133; src/published/books/dmg/glossary-2.md#158	2026-11-24
+rule	Spell-Like Ability	类法术能力	verified-exact	project-glossary		Spell-Like Ability	1E	src/published/books/dmg/glossary-2.md#58; src/published/books/dmg/glossary-2.md#61	2026-11-24
+rule	Spellcaster	施法者	verified-exact	project-glossary		Spellcaster	1E	src/published/books/dmg/glossary-2.md#57; src/published/books/dmg/glossary-2.md#60	2026-11-24
+rule	Spellcasting	施法	verified-exact	project-glossary		Spellcasting	1E	src/published/books/dmg/glossary-2.md#56; src/published/books/dmg/glossary-2.md#59	2026-11-24
 rule	Spelunking	地下探洞	verified-exact	1e-bilingual-heading		Spelunking	1E	src/published/books/dsg/dsg-contents.md:63	2026-11-24
-rule	Strength Bonus	力量加值	verified-exact	1e-bilingual-glossary-variant		Strength Bonus	1E	src/published/books/dmg/glossary-2.md#139	2026-11-24
+rule	Strength Bonus	力量加值	verified-exact	1e-bilingual-glossary-variant		Strength Bonus	1E	src/published/books/dmg/glossary-2.md#139; src/published/books/dmg/glossary-2.md#140	2026-11-24
 rule	Strength Bonus Considerations	力量加值	verified-exact	1e-bilingual-heading		Strength Bonus Considerations	1E	src/published/books/dmg/dmg-combat.md#149	2026-11-24
-rule	Strike Blows	打击	verified-exact	1e-bilingual-heading		Strike Blows	1E	src/published/books/dmg/dmg-combat.md#303	2026-11-24
-rule	Striking to Subdue	制服性攻击	verified-exact	1e-bilingual-heading		Striking to Subdue	1E	src/published/books/dmg/dmg-combat.md#317	2026-11-24
-rule	Structural Points	结构点数	verified-exact	project-glossary		Structural Points	1E	src/published/books/dmg/glossary-2.md#174	2026-11-24
+rule	Strike Blows	打击	verified-exact	1e-bilingual-heading		Strike Blows	1E	src/published/books/dmg/dmg-combat.md#303; src/published/books/dmg/glossary-2.md#147	2026-11-24
+rule	Striking to Subdue	制服性攻击	verified-exact	1e-bilingual-heading		Striking to Subdue	1E	src/published/books/dmg/dmg-combat.md#317; src/published/books/dmg/glossary-2.md#154	2026-11-24
+rule	Structural Points	结构点数	verified-exact	project-glossary		Structural Points	1E	src/published/books/dmg/glossary-2.md#174; src/published/books/dmg/glossary-2.md#199	2026-11-24
 rule	Subdual	制服	verified-exact	1e-contextual-rule-heading		Subdual	1E	src/published/books/ua/ua-appendix-r-nonlethal-combat.md:4	2026-11-24
 rule	Support Column	支柱	pending	1e-context-candidate		Support Column	1E	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3	2026-11-24
-rule	Surprise	突袭	verified-exact	project-glossary		Surprise	1E	src/published/books/dmg/glossary-2.md#175	2026-11-24
+rule	Surprise	突袭	verified-exact	project-glossary		Surprise	1E	src/published/books/dmg/glossary-2.md#175; src/published/books/dmg/glossary-2.md#200	2026-11-24
 rule	Survival, cold	寒地生存	verified-exact	1e-bilingual-proficiency-entry		Survival, cold	1E	src/published/books/wsg/wsg-proficiencies.md:235; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Survival, desert	沙漠生存	verified-exact	1e-bilingual-proficiency-entry		Survival, desert	1E	src/published/books/wsg/wsg-proficiencies.md:239; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Survival, heat	热地生存	verified-exact	1e-bilingual-proficiency-entry		Survival, heat	1E	src/published/books/wsg/wsg-proficiencies.md:243; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
@@ -14386,31 +14431,31 @@ rule	Telepathy	心灵传讯	verified-exact	1e-bilingual-psionic-major-science		T
 rule	Teleportation	传送	verified-exact	1e-bilingual-psionic-major-science		Teleportation	1E	src/published/books/phb/major-sciences.md:204	2026-11-24
 rule	THAC0	命中护甲等级 0 所需数值	verified-exact	project-glossary		THAC0	1E	src/published/books/dmg/glossary-2.md#176	2026-11-24
 rule	The Boating Proficiency	划船熟练项	adapted-variant	1e-proficiency-variant		The Boating Proficiency	1E	Canonical 1E WSG entry: Boating; src/published/books/wsg/wsg-proficiencies.md:131	2026-11-24
-rule	Thief Level	盗贼等级	verified-exact	project-glossary		Thief Level	1E	src/published/books/dmg/glossary-2.md#120	2026-11-24
+rule	Thief Level	盗贼等级	verified-exact	project-glossary		Thief Level	1E	src/published/books/dmg/glossary-2.md#120; src/published/books/dmg/glossary-2.md#125	2026-11-24
 rule	Thought Shield	思想护盾	verified-exact	1e-bilingual-table		Thought Shield	1E	manuscript/phb/topics/psionic-defense-modes.md	2026-11-24
 rule	Thrown Loop Ranges	投掷绳圈的距离	verified-exact	1e-source-crosscheck		Thrown Loop Ranges	1E	src/published/books/dsg/dsg-jumping-rope.md#33; src/published/books/dsg/dsg-compiled-tables-index.md#64	2026-11-24
 rule	Ties	平手	verified-exact	1e-bilingual-heading		Ties	1E	src/published/books/dmg/dmg-combat.md:98	2026-11-24
 rule	Time in the Campaign	战役中的时间	verified-exact	1e-bilingual-heading		Time in the Campaign	1E	src/published/books/dmg/dmg-time.md:1	2026-11-24
 rule	Time in the Dungeon	地下城中的时间	verified-exact	1e-bilingual-heading		Time in the Dungeon	1E	src/published/books/dmg/dmg-time.md:25	2026-11-24
-rule	Time Unit	时间单位	verified-exact	project-glossary		Time Unit	1E	src/published/books/dmg/glossary-2.md#183	2026-11-24
-rule	To Hit	命中	verified-exact	project-glossary		To Hit	1E	src/published/books/dmg/glossary-2.md#177	2026-11-24
-rule	To-Hit Adjustment	命中修正值	verified-exact	project-glossary		To-Hit Adjustment	1E	src/published/books/dmg/glossary-2.md#94	2026-11-24
-rule	To-Hit Bonus	命中加值	verified-exact	project-glossary		To-Hit Bonus	1E	src/published/books/dmg/glossary-2.md#92	2026-11-24
-rule	To-Hit Check	命中检定	verified-exact	project-glossary		To-Hit Check	1E	src/published/books/dmg/glossary-2.md#90	2026-11-24
-rule	To-Hit Modifier	命中修正	verified-exact	project-glossary		To-Hit Modifier	1E	src/published/books/dmg/glossary-2.md#93	2026-11-24
-rule	To-Hit Number	命中所需数值	verified-exact	project-glossary		To-Hit Number	1E	src/published/books/dmg/glossary-2.md#124	2026-11-24
-rule	To-Hit Probability Adjustment	命中概率修正	verified-exact	project-glossary		To-Hit Probability Adjustment	1E	src/published/books/dmg/glossary-2.md#95	2026-11-24
+rule	Time Unit	时间单位	verified-exact	project-glossary		Time Unit	1E	src/published/books/dmg/glossary-2.md#183; src/published/books/dmg/glossary-2.md#208	2026-11-24
+rule	To Hit	命中	verified-exact	project-glossary		To Hit	1E	src/published/books/dmg/glossary-2.md#177; src/published/books/dmg/glossary-2.md#202	2026-11-24
+rule	To-Hit Adjustment	命中修正值	verified-exact	project-glossary		To-Hit Adjustment	1E	src/published/books/dmg/glossary-2.md#94; src/published/books/dmg/glossary-2.md#99	2026-11-24
+rule	To-Hit Bonus	命中加值	verified-exact	project-glossary		To-Hit Bonus	1E	src/published/books/dmg/glossary-2.md#92; src/published/books/dmg/glossary-2.md#96	2026-11-24
+rule	To-Hit Check	命中检定	verified-exact	project-glossary		To-Hit Check	1E	src/published/books/dmg/glossary-2.md#90; src/published/books/dmg/glossary-2.md#94	2026-11-24
+rule	To-Hit Modifier	命中修正	verified-exact	project-glossary		To-Hit Modifier	1E	src/published/books/dmg/glossary-2.md#93; src/published/books/dmg/glossary-2.md#98	2026-11-24
+rule	To-Hit Number	命中所需数值	verified-exact	project-glossary		To-Hit Number	1E	src/published/books/dmg/glossary-2.md#124; src/published/books/dmg/glossary-2.md#129	2026-11-24
+rule	To-Hit Probability Adjustment	命中概率修正	verified-exact	project-glossary		To-Hit Probability Adjustment	1E	src/published/books/dmg/glossary-2.md#100; src/published/books/dmg/glossary-2.md#95	2026-11-24
 rule	Tower of Iron Will	钢铁意志之塔	verified-exact	1e-bilingual-table		Tower of Iron Will	1E	manuscript/phb/topics/psionic-defense-modes.md	2026-11-24
 rule	Tracking	追踪	verified-exact	1e-bilingual-proficiency-entry		Tracking	1E	src/published/books/wsg/wsg-proficiencies.md:251; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Trap	陷阱	verified-exact	project-glossary		Trap	1E	src/published/books/dmg/glossary-2.md#178	2026-11-24
-rule	Treasure	财宝	verified-exact	project-glossary	宝藏	Treasure	1E	src/published/books/dmg/glossary-2.md#179	2026-11-24
-rule	Trick	诡计	verified-exact	project-glossary		Trick	1E	src/published/books/dmg/glossary-2.md#180	2026-11-24
+rule	Trap	陷阱	verified-exact	project-glossary		Trap	1E	src/published/books/dmg/glossary-2.md#178; src/published/books/dmg/glossary-2.md#203	2026-11-24
+rule	Treasure	财宝	verified-exact	project-glossary	宝藏	Treasure	1E	src/published/books/dmg/glossary-2.md#179; src/published/books/dmg/glossary-2.md#204	2026-11-24
+rule	Trick	诡计	verified-exact	project-glossary		Trick	1E	src/published/books/dmg/glossary-2.md#180; src/published/books/dmg/glossary-2.md#205	2026-11-24
 rule	Turn (time unit)	回合	verified-exact	project-glossary		Turn (time unit)	1E	src/published/books/dmg/glossary-2.md#181	2026-11-24
-rule	Turn Sequence	行动顺序	verified-exact	project-glossary		Turn Sequence	1E	src/published/books/dmg/glossary-2.md#182	2026-11-24
-rule	Turning Undead	驱散不死生物	verified-exact	project-glossary	驱退不死生物	Turning Undead	1E	src/published/books/dmg/glossary-2.md#184	2026-11-24
+rule	Turn Sequence	行动顺序	verified-exact	project-glossary		Turn Sequence	1E	src/published/books/dmg/glossary-2.md#182; src/published/books/dmg/glossary-2.md#207	2026-11-24
+rule	Turning Undead	驱散不死生物	verified-exact	project-glossary	驱退不死生物	Turning Undead	1E	src/published/books/dmg/glossary-2.md#184; src/published/books/dmg/glossary-2.md#209	2026-11-24
 rule	Types of Insanity	精神错乱类型	verified-exact	1e-bilingual-heading		Types of Insanity	1E	src/published/books/dmg/dmg-combat.md:1214	2026-11-24
 rule	Ultravision	紫外视觉	verified-exact	1e-bilingual-heading		Ultravision	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:669	2026-11-24
-rule	Undead	不死生物	verified-exact	project-glossary		Undead	1E	src/published/books/dmg/glossary-2.md#184	2026-11-24
+rule	Undead	不死生物	verified-exact	project-glossary		Undead	1E	src/published/books/dmg/glossary-2.md#184; src/published/books/dmg/glossary-2.md#210	2026-11-24
 rule	Underground Structure Defensive Point Value	地下结构防御点数	verified-exact	1e-source-crosscheck		Underground Structure Defensive Point Value	1E	src/published/books/dsg/dsg-contents.md:128,232; src/published/books/dsg/dsg-compiled-tables-index.md#158	2026-11-24
 rule	Underwater Adventures	水下冒险	verified-exact	1e-bilingual-heading		Underwater Adventures	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482	2026-11-24
 rule	Underwater Spell Use	水下法术	verified-exact	1e-bilingual-heading	冒险：水下施法; 水下施法	Underwater Spell Use	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:518	2026-11-24
@@ -14421,18 +14466,18 @@ rule	Using the Combat Tables	使用战斗表	verified-exact	1e-bilingual-heading
 rule	Vanquishing	征服	verified-exact	1e-contextual-rule-heading		Vanquishing	1E	src/published/books/ua/ua-appendix-r-nonlethal-combat.md:14	2026-11-24
 rule	Vein Path Alterations	矿脉路径变化	verified-exact	1e-source-crosscheck		Vein Path Alterations	1E	src/published/books/dsg/dsg-mining.md#9; src/published/books/dsg/dsg-compiled-tables-index.md#288	2026-11-24
 rule	Vision	视野	verified-exact	1e-contextual-rule-heading-underwater		Vision	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,498	2026-11-24
-rule	Wandering Monster	游荡怪物	verified-exact	project-glossary		Wandering Monster	1E	src/published/books/dmg/glossary-2.md#188	2026-11-24
+rule	Wandering Monster	游荡怪物	verified-exact	project-glossary		Wandering Monster	1E	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/glossary-2.md#213	2026-11-24
 rule	Weapon Proficiencies	武器熟练项	adapted-variant	1e-proficiency-variant		Weapon Proficiencies	1E	Plural variant mapped to canonical singular Weapon Proficiency; PHB heading and table use the singular, src/published/books/phb/money-equipment-and-arms.md:226,228	2026-11-24
-rule	Weapon Proficiency	武器熟练项	verified-exact	project-glossary		Weapon Proficiency	1E	src/published/books/dmg/glossary-2.md#28	2026-11-24
+rule	Weapon Proficiency	武器熟练项	verified-exact	project-glossary		Weapon Proficiency	1E	src/published/books/dmg/glossary-2.md#28; src/published/books/dmg/glossary-2.md#29	2026-11-24
 rule	Weapon Proficiency Table	武器熟练项表	verified-exact	1e-bilingual-heading		Weapon Proficiency Table	1E	src/published/books/phb/money-equipment-and-arms.md:228; src/published/books/ua/ua-weapons.md:7	2026-11-24
 rule	Weapon Specialization	武器专精	verified-exact	1e-bilingual-heading		Weapon Specialization	1E	src/published/books/ua/ua-fighter.md:7	2026-11-24
 rule	Weapon Specialization Table for Fighters and Rangers	战士与巡林客武器专精表	verified-exact	1e-bilingual-heading		Weapon Specialization Table for Fighters and Rangers	1E	src/published/books/ua/ua-fighter.md:23	2026-11-24
-rule	Weapon Speed Factor	武器速度因数	verified-exact	project-glossary		Weapon Speed Factor	1E	src/published/books/dmg/glossary-2.md#104	2026-11-24
-rule	Weapon Type	武器类型	verified-exact	project-glossary		Weapon Type	1E	src/published/books/dmg/glossary-2.md#103	2026-11-24
+rule	Weapon Speed Factor	武器速度因数	verified-exact	project-glossary		Weapon Speed Factor	1E	src/published/books/dmg/glossary-2.md#104; src/published/books/dmg/glossary-2.md#109	2026-11-24
+rule	Weapon Type	武器类型	verified-exact	project-glossary		Weapon Type	1E	src/published/books/dmg/glossary-2.md#103; src/published/books/dmg/glossary-2.md#108	2026-11-24
 rule	Weaponless Combat	无武器战斗	verified-exact	1e-source		Weaponless Combat	1E	src/published/books/ua/ua-appendix-q-weaponless-combat.md#9	2026-11-24
 rule	Weather Sense	天气感知	verified-exact	1e-bilingual-proficiency-entry		Weather Sense	1E	src/published/books/wsg/wsg-proficiencies.md:255; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
 rule	Wilderness Proficiencies	荒野熟练项	verified-exact	1e-bilingual-heading	表 2：荒野熟练项	Wilderness Proficiencies	1E	src/published/books/wsg/wsg-proficiencies.md:71; AD&D 1E Wilderness Survival Guide, Table 2	2026-11-24
-rule	Wilderness Proficiency	荒野熟练项	verified-exact	project-glossary		Wilderness Proficiency	1E	src/published/books/dmg/glossary-2.md#30	2026-11-24
+rule	Wilderness Proficiency	荒野熟练项	verified-exact	project-glossary		Wilderness Proficiency	1E	src/published/books/dmg/glossary-2.md#30; src/published/books/dmg/glossary-2.md#31	2026-11-24
 rule	Wilderness Proficiency Table	荒野熟练项表	pending	pending		Wilderness Proficiency Table	1E	requires source/context cross-check	2026-11-24
 rule	Wind Direction and Force	风向与风力	verified-exact	1e-bilingual-heading		Wind Direction and Force	1E	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:326	2026-11-24
 rule	Wind Effects on Odors	风对气味的影响	verified-exact	1e-table-title-crosscheck		Wind Effects on Odors	1E	src/published/books/dsg/dsg-compiled-tables-index.md:128	2026-11-24
@@ -18798,7 +18843,7 @@ spell	Death chariot	死亡战车	pending	pending		Death chariot
 spell	Death Fog	死亡雾	pending	pending		Death Fog			
 spell	Death Grip	死亡之握	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-wow.json	2026-11-24
 spell	Death Prayer	临终祷告	pending	pending		Death Prayer			
-spell	Death Spell	死亡术	verified-exact	1e-exact-spell-title	死亡法术	Death Spell	1E	src/published/books/phb/spell-explanations-magic-users.md#1895; src/published/books/ua/ua-magic-user-spell-table.md#63	2026-11-24
+spell	Death Spell	死亡术	verified-exact	1e-exact-spell-title	死亡法术	Death Spell	1E	src/published/books/dmg/glossary-2.md#168; src/published/books/phb/spell-explanations-magic-users.md#1895; src/published/books/ua/ua-magic-user-spell-table.md#63	2026-11-24
 spell	Death Ward	防死结界	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Death’s Door	死亡门槛	pending	pending	Death's Door; 死亡之门	Death's Door; Death’s Door			
 spell	Deep Slumber	深度睡眠	reference-only	pending			3R	https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-24
@@ -18822,7 +18867,7 @@ spell	Detect Evil	侦测邪恶	pending	pending		Detect Evil
 spell	Detect Evil and Good	侦测善恶	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Detect Harmful Gas	探测有害气体	pending	pending		Detect Harmful Gas			
 spell	Detect Illusion	侦测幻象	pending	pending		Detect Illusion			
-spell	Detect Invisibility	侦测隐形	pending	pending		Detect Invisibility			
+spell	Detect Invisibility	侦测隐形	verified-exact	1e-glossary-label		Detect Invisibility	1E	src/published/books/dmg/glossary-2.md#163	2026-11-24
 spell	Detect Lie	侦测谎言	pending	pending		Detect Lie			
 spell	Detect Life	侦测生命	pending	pending		Detect Life			
 spell	Detect Magic	侦测魔法	verified-exact	whole-name		Detect Magic	3R; 5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json; https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-24
@@ -19242,7 +19287,7 @@ spell	Mass Healing Word	群体治愈真言	reference-only	pending			5E; 5R	https
 spell	Mass Invisibility	群体隐形	pending	pending		Mass Invisibility			
 spell	Mass Polymorph	群体变形术	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-wow.json; https://5e.kiwee.top/data/spells/spells-xge.json	2026-11-24
 spell	Mass Suggestion	群体暗示术	verified-exact	whole-name	群体暗示	Mass Suggestion	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
-spell	Massmorph	群体变树术	verified-exact	1e-exact-spell-title	群体变形	Massmorph	1E	src/published/books/phb/spell-explanations-magic-users.md#1345; src/published/books/ua/ua-magic-user-spell-table.md#28	2026-11-24
+spell	Massmorph	群体变树术	verified-exact	1e-exact-spell-title	群体变形	Massmorph	1E	src/published/books/dmg/glossary-2.md#159; src/published/books/phb/spell-explanations-magic-users.md#1345; src/published/books/ua/ua-magic-user-spell-table.md#28	2026-11-24
 spell	Material	材料术	pending	pending	造材术	Material			
 spell	Maximilian's Earthen Grasp	麦克斯米利安的地之攫	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-xge.json	2026-11-24
 spell	Maze	迷宫术	verified-exact	whole-name		Maze	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
@@ -19487,7 +19532,7 @@ spell	Ray of Enfeeblement	衰弱射线	verified-exact	whole-name	虚弱射线	Ra
 spell	Ray of Frost	冷冻射线	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Ray of Sickness	致病射线	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Read Illusionist Magic	阅读幻术魔法	pending	pending	阅读幻术魔法（魔咒师版）	Read Illusionist Magic			
-spell	Read Languages	阅读语言（神谕者版）	pending	pending		Read Languages			
+spell	Read Languages	阅读语言	verified-exact	1e-glossary-label	阅读语言（神谕者版）	Read Languages	1E	src/published/books/dmg/glossary-2.md#166	2026-11-24
 spell	Read Magic	阅读魔法	verified-exact	whole-name		Read Magic	3R	https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-24
 spell	Read Paramandic Magic	阅读帕拉曼德魔文	pending	pending		Read Paramandic Magic			
 spell	Reality Break	崩坏现实	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-egw.json	2026-11-24
@@ -19560,7 +19605,7 @@ spell	Serten's Spell Immunity	瑟腾法术免疫	pending	pending	塞尔滕法术
 spell	Shades	幽影术	pending	pending		Shades			
 spell	Shadow Blade	幽影刃	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-xge.json	2026-11-24
 spell	Shadow Conjuration	幽影咒法术	reference-only	pending			3R	https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-24
-spell	Shadow Door	阴影门	verified-exact	1e-exact-spell-title	暗影门	Shadow Door	1E	src/published/books/dmg/dmg-spell-explanations-illusionists.md#51; src/published/books/phb/spell-explanations-illusionists.md#724	2026-11-24
+spell	Shadow Door	阴影门	verified-exact	1e-exact-spell-title	暗影门	Shadow Door	1E	src/published/books/dmg/dmg-spell-explanations-illusionists.md#51; src/published/books/dmg/glossary-2.md#160; src/published/books/phb/spell-explanations-illusionists.md#724	2026-11-24
 spell	Shadow Evocation	幽影塑能术	reference-only	pending			3R	https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF	2026-11-24
 spell	Shadow Magic	阴影魔法	pending	pending	暗影魔法	Shadow Magic			
 spell	Shadow Monsters	阴影怪物	pending	pending		Shadow Monsters			
@@ -19661,7 +19706,7 @@ spell	Stir	搅拌术	pending	pending		Stir
 spell	Stitch	缝合	pending	pending		Stitch			
 spell	Stone Shape	塑石术	verified-exact	whole-name	石形	Stone Shape	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Stone Tell	石语术	pending	pending		Stone Tell			
-spell	Stone to Flesh	化石为肉	verified-exact	1e-exact-spell-title	石化复原; 石转肉	Stone to Flesh	1E	src/published/books/phb/spell-explanations-magic-users.md#2234; src/published/books/ua/ua-magic-user-spell-table.md#85	2026-11-24
+spell	Stone to Flesh	化石为肉	verified-exact	1e-exact-spell-title	石化复原; 石转肉	Stone to Flesh	1E	src/published/books/dmg/glossary-2.md#176; src/published/books/phb/spell-explanations-magic-users.md#2234; src/published/books/ua/ua-magic-user-spell-table.md#85	2026-11-24
 spell	Stoneskin	石肤术	verified-exact	whole-name		Stoneskin	5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Storm of Vengeance	复仇风暴	reference-only	pending			5E; 5R	https://5e.kiwee.top/data/spells/spells-phb.json; https://5e.kiwee.top/data/spells/spells-xphb.json	2026-11-24
 spell	Storm Sphere	风暴法球	reference-only	pending			5E	https://5e.kiwee.top/data/spells/spells-xge.json	2026-11-24

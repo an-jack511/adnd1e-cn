@@ -1,13 +1,15 @@
-import names from '../data/terminology/names.json';
+import catalog from '../../terminology/catalog.json';
 
 export function GET() {
-  const entries = names
+  const entries = catalog.entries
     .filter(entry => entry.en && entry.zh)
     .map(entry => ({
       en: entry.en,
       zh: entry.zh,
       category: entry.category,
       status: entry.status,
+      aliases: entry.legacyZh ?? [],
+      englishVariants: entry.englishVariants ?? [],
       references: [...new Set((entry.references ?? []).map(reference => [
         reference.edition,
         reference.world,
