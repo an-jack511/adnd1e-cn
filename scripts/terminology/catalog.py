@@ -14,6 +14,7 @@ OUT = ROOT / 'terminology'
 DATE = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
 KINDS = {'spells':'spell','items':'item','monsters':'monster','classes':'class','races':'race'}
 REFKINDS = {'baseitem':'item','subrace':'race','deity':'proper','book':'book'}
+SETTING_REFERENCE_CATEGORY = 'setting-reference'
 
 def load(p, fallback=None):
     return json.loads(p.read_text(encoding='utf-8-sig')) if p.exists() else fallback
@@ -72,9 +73,13 @@ def inventory():
             for n,line in enumerate(p.read_text(encoding='utf-8-sig').splitlines(),1):
                 if not re.match(r'^#{1,6}\s',line):continue
                 clean=html.unescape(re.sub('<[^>]+>','',re.sub(r'^#+\s*','',line))).replace('*','').strip()
-                m=re.match(r'(?P<zh>[^A-Za-z]+?)\s+(?P<en>[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+?)(?:[（（]|$)',clean)
-                if m:add(m['en'].rstrip(' ('),m['zh'].strip(' （('),'heading',rel,str(n))
-                elif re.fullmatch(r'[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+',clean):
+                ordinal=re.match(r'(?P<zh>[\u3400-\u9fff·]+)\s+(?P<level>VII|VI|V|IV|III|II|I|X)\s+(?P<en>[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+?)(?:[（]|$)',clean)
+                if ordinal and ordinal['en'].rstrip().endswith(' '+ordinal['level']):
+                    add(ordinal['en'].rstrip(),ordinal['zh']+' '+ordinal['level'],'heading',rel,str(n))
+                else:
+                    m=re.match(r'(?P<zh>[^A-Za-z]+?)\s+(?P<en>[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+?)(?:[（（]|$)',clean)
+                    if m:add(m['en'].rstrip(' ('),m['zh'].strip(' （('),'heading',rel,str(n))
+                if not ordinal and re.fullmatch(r'[A-Za-z][A-Za-z0-9 ,’\'\-/:&().+]+',clean):
                     add(clean,clean,'heading',rel,str(n),untranslated=True)
         elif p.suffix=='.ts':
             s=p.read_text(encoding='utf-8-sig')
@@ -96,6 +101,20 @@ def inventory():
             for n,row in enumerate(csv.DictReader(stream,delimiter='\t'),2):
                 add(row['English'],row['Chinese'],'rule',rule_source.relative_to(ROOT).as_posix(),str(n))
                 rule_catalog[key('rule',row['English'])]=row
+    # A small number of creature-category labels (e.g. Humanoid, Undead) were
+    # historically stored in monster-names.tsv as well as the reviewed rule
+    # lexicon. Keep the source occurrence for audit, but expose one canonical
+    # lookup record when both English and Chinese labels match exactly.
+    for rule_key,row in rule_catalog.items():
+        monster_key=key('monster',row['English'])
+        if monster_key not in entries or rule_key not in entries:continue
+        legacy=entries[monster_key];rule=entries[rule_key]
+        if norm(legacy['zh'])!=norm(rule['zh']):continue
+        rule['legacyZh'].update(legacy['legacyZh'])
+        rule['englishVariants'].update(legacy['englishVariants'])
+        for occurrence in legacy['occurrences']:
+            if occurrence not in rule['occurrences']:rule['occurrences'].append(occurrence)
+        del entries[monster_key]
     for en,zh in load(ROOT/'scripts/import/regional-names.json',{}).items():add(en,zh,'proper','scripts/import/regional-names.json')
     for d in load(OUT/'decisions.json',{'entries':[]})['entries']:
         if d['category']=='proper':add(d['en'],d['zh'],'proper','terminology/decisions.json')
@@ -134,6 +153,10 @@ def inventory():
                    'reason':f"规则术语主表；证据：{row['evidence']}。项目术语对应已记录；未标为已核的条目继续待核。",
                    'references':[{'edition':'1E','en':row['English'],'zh':row['Chinese'],'url':row['evidence']}], 'userOverride':False}
     for e in entries.values():
+        decision=manual.get(e['key'])
+        if decision:
+            e['legacyZh'].update(decision.get('legacyZh',[]))
+            e['englishVariants'].update(decision.get('englishVariants',[]))
         refs=refindex[e['key']]
         if e['category']=='monster':refs=[r for r in refs if not r.get('isNpc')]
         e['references']=refs
@@ -146,13 +169,44 @@ def inventory():
             else:e['status']='reference-conflict';e['notes'].append('同优先级来源译名有分歧，等待人工裁定：'+' / '.join(options))
         if e['key'] in manual:
             d=manual[e['key']]
-            if e['category']=='rule' and e['status']=='verified-exact' and any(r.get('edition')=='3R' for r in refs):
-                e['notes'].append('采用优先级更高的3R精确名称证据；1E术语主表记录不覆盖。')
-                d=None
-            # A later-edition adaptation cannot override an exact 3R name.
-            if d and (d.get('userOverride') or not (e['status']=='verified-exact' and any(r['edition']=='3R' for r in refs) and d['status'].startswith('adapted'))):
+            # Exact edition-name evidence follows the declared 3R > 5E > 5R
+            # priority. A normal local decision is only a fallback; only an
+            # explicit userOverride may supersede a matched edition record.
+            if refs and not d.get('userOverride'):
+                best_edition=min((r.get('edition') for r in refs),key=lambda ed:{'3R':0,'5E':1,'5R':2}.get(ed,9))
+                e['notes'].append(f'采用优先级最高的{best_edition}精确名称证据；普通人工译名记录不覆盖。')
+            else:
                 e['zh']=d['zh'];e['status']=d['status'];e['references']+=d.get('references',[]);e['notes'].append(d['reason']);e['verificationScope']=d.get('verificationScope','whole-name')
         e['englishVariants']=sorted(e['englishVariants']);e['legacyZh']=sorted(e['legacyZh']-{e['zh']})
+    # Make the full name-reference bank searchable without treating later-edition
+    # translations as approved 1E wording. Entries with no 1E occurrence remain
+    # explicitly marked reference-only and are excluded from replacement plans.
+    reference_rows=[]
+    for r in load(OUT/'references/huiji-names.json',{'records':[]})['records']:
+        reference_rows.append((key(r['category'],r['en']),r['category'],r['en'],r['zh'],r))
+    for r in load(OUT/'references/5etools-names.json',{'records':[]})['records']:
+        category=REFKINDS.get(r['category'],r['category'])
+        reference_rows.append((key(category,r['en']),category,r['en'],r['zh'],r))
+    for r in load(OUT/'references/setting-names.json',{'records':[]})['records']:
+        scoped=f"{r.get('world','')}: {r['en']}"
+        reference_rows.append((key(SETTING_REFERENCE_CATEGORY,scoped),SETTING_REFERENCE_CATEGORY,r['en'],r['zh'],r))
+    for ref_key,category,en,zh,reference in reference_rows:
+        if ref_key in entries:
+            existing=entries[ref_key]
+            if existing['status']=='reference-only':
+                if reference not in existing['references']:existing['references'].append(reference)
+                rank={'3R':0,'5E':1,'5R':2}
+                best=min(rank.get(r.get('edition'),9) for r in existing['references'])
+                options=sorted({r['zh'] for r in existing['references'] if rank.get(r.get('edition'),9)==best})
+                if len(options)==1:existing['zh']=options[0]
+                elif options:existing['status']='reference-conflict'
+                existing['status']='reference-only' if len(options)<=1 else 'reference-conflict'
+            # Existing 1E entries already received exact-name evidence above.
+            continue
+        entries[ref_key]={'key':ref_key,'category':category,'en':en,'zh':zh,
+            'englishVariants':[],'legacyZh':[],'occurrences':[],'activeIds':[],
+            'status':'reference-only','references':[reference],
+            'notes':['仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。']}
     result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5E > 5R (user preference); names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
     write(OUT/'catalog.json',result)
     write(OUT/'reports/pending.json',[e for e in result['entries'] if e['status']=='pending'])
@@ -180,6 +234,7 @@ def replacement_plan(catalog):
     approved=[e for e in catalog['entries'] if e['status'].startswith(('verified','adapted')) and e['category'] not in ['heading','legacy-term','candidate']]
     owners=defaultdict(set);targets=defaultdict(set)
     for e in catalog['entries']:
+        if e['status']=='reference-only':continue
         for zh in [e['zh']]+e['legacyZh']:owners[zh].add(e['key'])
     for e in approved:
         for old in e['legacyZh']:targets[old].add(e['zh'])
@@ -293,8 +348,8 @@ def apply(catalog,do_apply=False):
     # Small browser-safe lookup supports old-name searches and stored character labels.
     runtime=[]
     for e in entries:
-        if e['category'] in ['heading','candidate','legacy-term']:continue
-        runtime.append({'category':e['category'],'en':e['en'],'zh':e['zh'],'aliases':e['legacyZh'],'status':e['status'],'ids':e['activeIds']})
+        runtime.append({'category':e['category'],'en':e['en'],'zh':e['zh'],'aliases':e['legacyZh'],'status':e['status'],'ids':e['activeIds'],
+            'references':[{'edition':r.get('edition'),'world':r.get('world'),'source':r.get('source'),'page':r.get('page')} for r in e['references']]})
     write(ROOT/'src/data/terminology/names.json',runtime)
     print(('Applied' if do_apply else 'Found')+f' terminology changes in {len(changes)} files; {len(blocked)} names require contextual handling.')
     return len(changes)

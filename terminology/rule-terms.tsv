@@ -1,46 +1,72 @@
 English	Chinese	status	verificationScope	evidence
 Proficiency	熟练	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#19
+Miniature	微缩模型	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#3
 Magic-Using Creature	施法生物	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#55
-Magic-Using Creatures	施法生物	pending	pending	requires source/context cross-check
+Magic-Using Creatures	施法生物	adapted-variant	1e-term-variant	Plural variant of Magic-Using Creature; canonical Chinese term remains 施法生物
 Weapon Proficiency	武器熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#28
-Nonweapon Proficiencies	非武器熟练项	pending	pending	requires source/context cross-check
+Nonweapon Proficiencies	非武器熟练项	verified-exact	1e-bilingual-heading	src/published/books/dla/dla-races-krynn.md:1249; src/published/books/oa/oa-proficiencies.md:54
 Character Proficiencies	角色熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#33
-Wilderness Proficiencies	荒野熟练项	pending	pending	requires source/context cross-check
-Dungeon Proficiencies	地城熟练项	pending	pending	requires source/context cross-check
-Weapon Proficiencies	武器熟练项	pending	pending	requires source/context cross-check
+Wilderness Proficiencies	荒野熟练项	verified-exact	1e-bilingual-heading	src/published/books/wsg/wsg-proficiencies.md:71; AD&D 1E Wilderness Survival Guide, Table 2
+Dungeon Proficiencies	地城熟练项	adapted-variant	1e-proficiency-variant	Plural variant mapped to canonical singular Dungeon Proficiency; src/published/books/dmg/glossary-2.md#32
+Weapon Proficiencies	武器熟练项	adapted-variant	1e-proficiency-variant	Plural variant mapped to canonical singular Weapon Proficiency; PHB heading and table use the singular, src/published/books/phb/money-equipment-and-arms.md:226,228
 Nonweapon Proficiency	非武器熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#29
 Wilderness Proficiency	荒野熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#30
 Dungeon Proficiency	地城熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#31
-Artisan Proficiencies	工匠熟练项	pending	pending	requires source/context cross-check
-Barbarian Proficiencies	蛮族熟练项	pending	pending	requires source/context cross-check
-Common Proficiencies	通用熟练项	pending	pending	requires source/context cross-check
-Court Proficiencies	宫廷熟练项	pending	pending	requires source/context cross-check
+Artisan Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading	src/published/books/oa/oa-proficiencies.md:96
+Barbarian Proficiencies	蛮族熟练项	verified-exact	1e-bilingual-heading	src/published/books/oa/oa-proficiencies.md:130
+Common Proficiencies	通用熟练项	verified-exact	1e-bilingual-heading	src/published/books/oa/oa-proficiencies.md:189
+Court Proficiencies	宫廷熟练项	verified-exact	1e-bilingual-heading	src/published/books/oa/oa-proficiencies.md:240
 Riding Proficiency	骑乘熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#38
-The Boating Proficiency	划船熟练项	pending	pending	requires source/context cross-check
-Proficiency in Airborne Riding	空中骑乘熟练项	pending	pending	requires source/context cross-check
-Proficiency in Plant Lore	植物学熟练项	pending	pending	requires source/context cross-check
-Cultural Proficiencies	文化熟练项	pending	pending	requires source/context cross-check
+The Boating Proficiency	划船熟练项	adapted-variant	1e-proficiency-variant	Canonical 1E WSG entry: Boating; src/published/books/wsg/wsg-proficiencies.md:131
+Proficiency in Airborne Riding	空中骑乘熟练项	adapted-variant	1e-proficiency-variant	Canonical 1E WSG entry: Riding, airborne; src/published/books/wsg/wsg-proficiencies.md:191
+Proficiency in Plant Lore	植物学熟练项	adapted-variant	1e-proficiency-variant	Canonical 1E WSG entry: Plant Lore; src/published/books/wsg/wsg-proficiencies.md:187
+Cultural Proficiencies	文化熟练项	adapted-variant	1e-proficiency-variant	Plural variant mapped to canonical singular Cultural Proficiency; src/published/books/dmg/glossary-2.md#44
 Animal Handling Proficiency	动物处理熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#43
-Land Riding Proficiency	陆地骑乘熟练项	pending	pending	requires source/context cross-check
+Land Riding Proficiency	陆地骑乘熟练项	adapted-variant	1e-proficiency-variant	Canonical 1E WSG entry: Riding, land-based; src/published/books/wsg/wsg-proficiencies.md:202
 Dragon Riding Proficiency	龙骑乘熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#45
 Rope Use Proficiency	绳索使用熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#46
 Proficiency Check	熟练项检定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#21
 Proficiency Slot	熟练项栏位	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#20
-Weapon Proficiency Table	武器熟练项表	pending	pending	requires source/context cross-check
+Weapon Proficiency Table	武器熟练项表	verified-exact	1e-bilingual-heading	src/published/books/phb/money-equipment-and-arms.md:228; src/published/books/ua/ua-weapons.md:7
 Nonweapon Proficiency Table	非武器熟练项表	pending	pending	requires source/context cross-check
 Wilderness Proficiency Table	荒野熟练项表	pending	pending	requires source/context cross-check
 Dungeon Proficiency Table	地城熟练项表	pending	pending	requires source/context cross-check
 Proficiencies	熟练项	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#33
-Choosing Proficiencies	选择熟练项	pending	pending	requires source/context cross-check
-Improving Proficiencies	改进熟练项	pending	pending	requires source/context cross-check
+Choosing Proficiencies	选择熟练项	verified-exact	1e-bilingual-heading	src/published/books/dla/dla-races-krynn.md:1251
+Improving Proficiencies	改进熟练项	verified-exact	1e-bilingual-heading	src/published/books/dla/dla-races-krynn.md:1267
 Psionic Blast	灵能冲击	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#192
+Psionic Strength Point(s)	灵能强度点数	verified-exact	1e-bilingual-heading	manuscript/phb/topics/recovery-psionic-strength.md
+Psionic Strength	灵能强度	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-ability.md
+Psionic Ability	灵能能力	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-ability.md
+Psionic Ability Score	灵能能力值	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-ability.md
+Attack Strength	攻击强度	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-ability.md
+Defense Strength	防御强度	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-ability.md
+Attack Point(s)	攻击点数	verified-exact	1e-original-PHB-rule-text	AD&D 1E PHB Appendix I, pp. 110, 118
+Defense Point(s)	防御点数	verified-exact	1e-original-PHB-rule-text	AD&D 1E PHB Appendix I, pp. 110, 118
+Psionic Discipline	灵能学科	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-disciplines.md
+Minor Devotion	次级灵能技艺	verified-exact	1e-bilingual-heading	manuscript/phb/topics/minor-devotions.md
+Major Science	主要灵能科学	verified-exact	1e-bilingual-heading	manuscript/phb/topics/major-sciences.md
+Minor Discipline	次级学科	verified-exact	1e-bilingual-heading	manuscript/phb/topics/minor-devotions.md
+Major Discipline	主要学科	verified-exact	1e-bilingual-heading	manuscript/phb/topics/major-sciences.md
+Psionic Attack Mode	灵能攻击模式	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-attack-modes.md
+Mind Thrust	心灵突刺	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-attack-modes.md
+Ego Whip	自我鞭笞	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-attack-modes.md
+Id Insinuation	本我暗示	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-attack-modes.md
+Psychic Crush	心灵粉碎	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-attack-modes.md
+Psionic Defense Mode	灵能防御模式	verified-exact	1e-bilingual-heading	manuscript/phb/topics/psionic-defense-modes.md
+Mind Blank	心灵空白	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-defense-modes.md
+Thought Shield	思想护盾	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-defense-modes.md
+Mental Barrier	心智屏障	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-defense-modes.md
+Intellect Fortress	智力堡垒	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-defense-modes.md
+Tower of Iron Will	钢铁意志之塔	verified-exact	1e-bilingual-table	manuscript/phb/topics/psionic-defense-modes.md
 Wisdom	感知	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#189
-Ability Score	属性值	pending	pending	requires source/context cross-check
+Ability Score	属性值	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:5
 Ability Check	能力检定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#161
 WIS	感知	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#189
 Wisdom Score	感知值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#190
 Turn (time unit)	回合	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#181
 Round (combat time unit)	轮	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#78
+Combat Round	轮	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#82; combat-context variant of Round, not a separate time unit
 Segment (combat time unit)	段	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#172
 WS	感知值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#190
 Armor Class	护甲等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#81
@@ -55,6 +81,7 @@ Attack Roll	攻击骰	verified-exact	project-glossary	src/published/books/dmg/gl
 To-Hit Check	命中检定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#90
 Hit Determination	命中判定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#91
 To-Hit Bonus	命中加值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#92
+Special “To Hit” Bonuses	特殊命中加值	verified-exact	1e-bilingual-heading-and-table	src/published/books/dmg/dmg-combat.md#323
 To-Hit Modifier	命中修正	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#93
 To-Hit Adjustment	命中修正值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#94
 To-Hit Probability Adjustment	命中概率修正	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#95
@@ -74,7 +101,8 @@ Components	成分	verified-exact	project-glossary	src/published/books/dmg/glossa
 Experience Points	经验值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#109
 Level	等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#25
 Experience Level	经验等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#111
-Level Drain	能级吸取	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#112
+Level Drain	能级吸取	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#116
+Energy Drain	能级吸取	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#116; same life-energy-level loss rule term as Level Drain
 Class Level	职业等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#113
 Magic-User Level	魔法师等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#114
 Magic Level	魔法等级	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#115
@@ -91,6 +119,7 @@ Initiative	先攻	verified-exact	project-glossary	src/published/books/dmg/glossa
 Initiative Die	先攻骰	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#127
 Initiative Check	先攻检定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#126
 Initiative Modifier	先攻修正值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#128
+Initiative Modifier(s)	先攻修正值	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#132; plural/parenthetical form of Initiative Modifier
 Movement Rate	移动率	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#129
 Morale	士气	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#130
 Morale Check	士气检定	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#131
@@ -105,10 +134,10 @@ Saving Throw	豁免检定	verified-exact	project-glossary	src/published/books/dm
 Saving Throw Die	豁免骰	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#158
 Saving Throw Target Number	豁免目标值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#159
 Saving Throw Modifier	豁免修正	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#160
-Paralyzation, Poison or Death Magic	麻痹、毒素或死亡魔法	pending	1e-rule-category-candidate	src/published/books/dmg/dmg-combat.md#986
-Petrification or Polymorph	石化或变形	pending	1e-rule-category-candidate	src/published/books/dmg/dmg-combat.md#986
-Rod, Staff, or Wand	权杖、法杖或魔杖	pending	1e-rule-category-candidate	src/published/books/dmg/dmg-combat.md#986
-Spell (saving throw category)	法术（豁免类别）	pending	1e-rule-category-candidate	src/published/books/dmg/dmg-combat.md#986
+Paralyzation, Poison or Death Magic	麻痹、毒素或死亡魔法	verified-exact	1e-rule-category	src/published/books/dmg/dmg-combat.md#984
+Petrification or Polymorph	石化或变形	verified-exact	1e-rule-category	src/published/books/dmg/dmg-combat.md#984
+Rod, Staff, or Wand	权杖、法杖或魔杖	verified-exact	1e-rule-category	src/published/books/dmg/dmg-combat.md#984
+Spell (saving throw category)	法术（豁免类别）	verified-exact	1e-rule-category	src/published/books/dmg/dmg-combat.md#984
 Morale Score	士气分数	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#362
 Morale Failure	士气失败	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#368
 Bend Bars/Lift Gates	弯折铁条／抬起闸门	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#162
@@ -154,38 +183,38 @@ Semi-intelligent	半智能	verified-exact	project-glossary	src/published/books/d
 Psionic Mind Blast	灵能冲击	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#193
 THAC0	命中护甲等级 0 所需数值	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#176
 Save vs. Poison	对毒素豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#167
-Save vs. Petrification	对石化豁免	pending	pending	requires source/context cross-check
-Save vs. Paralyzation	对麻痹豁免	pending	pending	requires source/context cross-check
-Save vs. Breath Weapon	对喷吐武器豁免	pending	pending	requires source/context cross-check
+Save vs. Petrification	对石化豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986
+Save vs. Paralyzation	对麻痹豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986
+Save vs. Breath Weapon	对喷吐武器豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#188; src/published/books/dmg/dmg-combat.md#986
 Save vs. Wands	对魔杖豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#168
 Save vs. Death Magic	对死亡魔法豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#169
-Save vs. Crushing Blow	对粉碎打击豁免	pending	pending	requires source/context cross-check
-Save vs. Normal Fire	对普通火焰豁免	pending	pending	requires source/context cross-check
-Save vs. Bludgeoning	对钝击豁免	pending	pending	requires source/context cross-check
+Save vs. Crushing Blow	对粉碎打击豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md:194
+Save vs. Normal Fire	对普通火焰豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md:194
+Save vs. Bludgeoning	对钝击豁免	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md:194
 Breath Weapon	喷吐武器	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#167
 Base Chance of Success	基础成功数	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#22
-Ability Checks	能力检定	pending	pending	src/published/books/dsg/dsg-movement-rules.md
-Alignment Language	阵营语	pending	pending	src/data/published/book-search.json; source page and 1E usage need verification
+Ability Checks	能力检定	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-movement-rules.md:6
+Alignment Language	阵营语	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-contents.md:44
 Attack and Saving Throw Matrices	攻击与豁免检定矩阵	pending	pending	src/data/published/book-search.json; source page and table scope need verification
-Attack Table	攻击表	pending	pending	src/published/books/dmg/dmg-appendix-d-lower-planes.md
-Attacks Per Melee Round Table	每轮近战攻击次数表	pending	pending	src/published/books/ua/ua-attacks-per-melee-round.md
-Assassination Experience Points	刺杀经验值	pending	pending	src/data/published/book-search.json; source page and award rule need verification
-Determination of Spell Level	法术环级的确定	pending	pending	src/published/books/dmg/dmg-magical-research.md
-Division of Experience Points	经验值分配	pending	pending	src/published/books/dmg/dmg-experience.md
+Attack Table	攻击表	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-appendix-d-lower-planes.md:73
+Attacks Per Melee Round Table	每轮近战攻击次数表	verified-exact	1e-bilingual-heading	src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41
+Assassination Experience Points	刺杀经验值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-character-classes.md:300
+Determination of Spell Level	法术环级的确定	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:37
+Division of Experience Points	经验值分配	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-experience.md:9
 Grappling	擒抱	verified-exact	1e-source	src/published/books/ua/ua-appendix-q-weaponless-combat.md#82
-Item Saving Throws	物品豁免检定	pending	pending	src/published/books/dmg/dmg-combat.md
-Initiative for Creatures with Multiple Attack Routines	多重攻击程序生物的先攻	pending	pending	src/published/books/dmg/dmg-combat.md
+Item Saving Throws	物品豁免检定	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1095
+Initiative for Creatures with Multiple Attack Routines	多重攻击程序生物的先攻	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:92
 Overbearing	压制	verified-exact	1e-source	src/published/books/ua/ua-appendix-q-weaponless-combat.md#100
-Poison Saving Throws	对毒素豁免	pending	pending	src/published/books/dmg/dmg-combat.md
-Pursuit and Evasion in Outdoor Settings	户外追逐与规避	pending	pending	src/published/books/dmg/dmg-combat.md
-Pursuit and Evasion in Underground Settings	地下环境中的追逐与规避	pending	pending	src/published/books/dmg/dmg-combat.md
-Recovery of Hit Points	生命值恢复	pending	pending	src/published/books/dmg/dmg-combat.md
-Saving Throw Matrices	豁免检定矩阵	pending	pending	src/published/books/dmg/dmg-combat.md
-Saving Throw Modifiers	豁免修正	pending	pending	src/published/books/dmg/dmg-combat.md
-Saving Throws	豁免检定	pending	pending	src/published/books/dmg/dmg-combat.md
-Spell Level of Scroll Spells	卷轴法术的法术环级	pending	pending	src/published/books/dmg/dmg-treasure.md
-Spell Level Range	卷轴法术环级范围	pending	pending	src/published/books/dmg/dmg-treasure.md
-Zero Hit Points	生命值为零	pending	pending	src/published/books/dmg/dmg-combat.md
+Poison Saving Throws	毒素豁免	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1101
+Pursuit and Evasion in Outdoor Settings	户外追击与规避	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:429
+Pursuit and Evasion in Underground Settings	地下环境中的追击与规避	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:383
+Recovery of Hit Points	生命值恢复	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1148
+Saving Throw Matrices	豁免检定矩阵	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:964
+Saving Throw Modifiers	豁免修正	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1083
+Saving Throws	豁免检定	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1067
+Spell Level of Scroll Spells	卷轴法术的法术环级	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-treasure.md:885
+Spell Level Range	卷轴法术环级范围	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-treasure.md:910
+Zero Hit Points	生命值为零	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1154
 Pummel	拳击	verified-exact	1e-source	src/published/books/dmg/dmg-combat.md#532
 Pummeling	拳击	verified-exact	1e-source	src/published/books/ua/ua-appendix-q-weaponless-combat.md#24
 Pummeling Table	拳击表	verified-exact	1e-source	src/published/books/ua/ua-dm-contents.md#60
@@ -194,36 +223,36 @@ Grappling Table	擒抱表	verified-exact	1e-source	src/published/books/dmg/dmg-c
 Overbearing Table	压制表	verified-exact	1e-source	src/published/books/dmg/dmg-combat.md#673
 Non-Lethal and Weaponless Combat Procedures	非致命与无武器战斗流程	verified-exact	1e-source	src/published/books/dmg/dmg-combat.md#516
 Weaponless Combat	无武器战斗	verified-exact	1e-source	src/published/books/ua/ua-appendix-q-weaponless-combat.md#9
-Movement Rules for Underground Play	地下游戏的移动规则	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#21
-Swimming	游泳	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#26
-Climbing	攀爬	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#32
-Jumping for Non-Acrobats	非杂技者跳跃	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#41
-Using Rope	使用绳索	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#45
-Falling (Expanded Rules)	坠落（扩展规则）	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#57
-Spelunking	地下探洞	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#63
-Excavation	挖掘	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#67
-Fatigue and Exhaustion	疲劳与精疲力竭	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#72
-Movement Effects of Darkness	黑暗对移动的影响	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#77
-Movement on Slippery Horizontal Surfaces	在光滑水平表面上移动	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#79
-Combat Rules for Underground Play	地下游戏的战斗规则	pending	1e-heading-candidate	src/published/books/dsg/dsg-contents.md#92
-Swimming Effects of Encumbrance	负重对游泳的影响	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#6
+Movement Rules for Underground Play	地下游戏的移动规则	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:21
+Swimming	游泳	verified-exact	1e-bilingual-heading+proficiency-entry	src/published/books/dsg/dsg-contents.md:26; src/published/books/wsg/wsg-proficiencies.md:247
+Climbing	攀爬	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:32
+Jumping for Non-Acrobats	非杂技者跳跃	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:41
+Using Rope	使用绳索	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:45
+Falling (Expanded Rules)	坠落（扩展规则）	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:57
+Spelunking	地下探洞	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:63
+Excavation	挖掘	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:67
+Fatigue and Exhaustion	疲劳与力竭	verified-exact	1e-section-title-crosscheck	src/published/books/dsg/dsg-contents.md#72; src/published/books/dsg/dsg-spelunking-excavation-darkness.md#78; src/published/books/wsg/wsg-preface-contents.md#173
+Movement Effects of Darkness	黑暗对移动的影响	verified-exact	1e-section-title-crosscheck	src/published/books/dsg/dsg-contents.md#77; src/published/books/dsg/dsg-spelunking-excavation-darkness.md#86
+Movement on Slippery Horizontal Surfaces	在光滑水平表面上移动	verified-exact	1e-section-title-crosscheck	src/published/books/dsg/dsg-contents.md#79; src/published/books/dsg/dsg-spelunking-excavation-darkness.md#105
+Combat Rules for Underground Play	地下游戏的战斗规则	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-contents.md:92
+Swimming Effects of Encumbrance	负重对游泳的影响	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:6
 Rates of Climbing	攀爬速度	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-climbing.md#5; src/published/books/dsg/dsg-compiled-tables-index.md#18
 Grappling Success	爪钩成功率	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-jumping-rope.md#23; src/published/books/dsg/dsg-compiled-tables-index.md#34
-Broad Jumping	跳远	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#44
+Broad Jumping	跳远	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:44
 Thrown Loop Ranges	投掷绳圈的距离	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-jumping-rope.md#33; src/published/books/dsg/dsg-compiled-tables-index.md#64
 Minimum Passageway Sizes	最小通道尺寸	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-contents.md:220; src/published/books/dsg/dsg-compiled-tables-index.md#74
-Armor Effects on Character Width	护甲对角色宽度的影响	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#85
+Armor Effects on Character Width	护甲对角色宽度的影响	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:85
 Course Changes in Darkness	黑暗中的路线变化	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-contents.md:222; src/published/books/dsg/dsg-compiled-tables-index.md#101
-Odor Detection	气味侦测	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#114
+Odor Detection	气味侦测	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:114
 Cave-In Location	坍塌位置	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3; src/published/books/dsg/dsg-compiled-tables-index.md#136
 Cave-In Chain Reaction	坍塌连锁反应	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3; src/published/books/dsg/dsg-compiled-tables-index.md#149
 Underground Structure Defensive Point Value	地下结构防御点数	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-contents.md:128,232; src/published/books/dsg/dsg-compiled-tables-index.md#158
-Unsteady NPC Reactions	不稳定 NPC 的反应	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#176
+Unsteady NPC Reactions	不稳定 NPC 的反应	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:176
 Boat Movement Rates	船只移动率	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-contents.md:234; src/published/books/dsg/dsg-compiled-tables-index.md#185
-Movement from a Standstill Position	从静止位置开始移动	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#200
+Movement from a Standstill Position	从静止位置开始移动	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:200
 Boat Draught and Ceilings	船只吃水与顶部净空	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-underground-waterways.md#40; src/published/books/dsg/dsg-compiled-tables-index.md#213
 Nonproficiency Penalties for Boat Use	使用船只的不熟练惩罚	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-compiled-tables-index.md#226
-Collision Probability	碰撞概率	pending	1e-heading-candidate	src/published/books/dsg/dsg-compiled-tables-index.md#239
+Collision Probability	碰撞概率	verified-exact	1e-table-title	src/published/books/dsg/dsg-compiled-tables-index.md:239
 Boat Damage	船只损坏	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-contents.md:239; src/published/books/dsg/dsg-compiled-tables-index.md#251
 Mining Rates	采矿速率	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-mining.md#21; src/published/books/dsg/dsg-compiled-tables-index.md#264
 Mithril Check	秘银检定	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-compiled-tables-index.md#320; src/published/books/dsg/dsg-mining.md
@@ -235,29 +264,237 @@ Gemstone Quality	宝石品质	verified-exact	1e-source-crosscheck	src/published/
 Crossing with a Grapple	使用爪钩跨越	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-jumping-rope.md#21; src/published/books/dsg/dsg-compiled-tables-index.md#56
 Climbing Check	攀爬检定	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-compiled-tables-index.md#397; src/published/books/dsg/dsg-climbing.md
 Climbing Rating	攀爬评级	verified-exact	1e-source-crosscheck	src/published/books/dsg/dsg-compiled-tables-index.md#397; src/published/books/dsg/dsg-climbing.md
-Defensive Point Value	防御点数	pending	1e-glossary-candidate	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#地下结构防御点
+Defensive Point Value	防御点数	verified-exact	1e-bilingual-table-component	src/published/books/dsg/dsg-compiled-tables-index.md:158,160
 Support Column	支柱	pending	1e-context-candidate	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3
 Rock Ledge	岩棚	pending	1e-context-candidate	src/published/books/dsg/dsg-cave-ins-cold-magnetism.md#3
 Encounter Reactions	遭遇反应	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#106
+Encounter Reaction	遭遇反应	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#138; singular form of Encounter Reactions
 Parleying	交涉	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#133
+Parley	交涉	verified-exact	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#147
 Awaiting Action	等待行动	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#137
 Missile Discharge	发射投射武器	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#141
 Close to Striking Range	接近打击距离	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#283
 Charge	冲锋	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#287
 Set Weapons Against Possible Opponent Charge	架起武器迎击可能的冲锋	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#299
+Set Weapons Against Charge	架起武器迎击冲锋	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#152; shortened label for Set Weapons Against Possible Opponent Charge
 Striking to Subdue	制服性攻击	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#317
 Pursuit and Evasion of Pursuit	追击与规避追击	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#379
 Grapple	擒抱	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#591
 Strength Bonus Considerations	力量加值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#149
+Strength Bonus	力量加值	verified-exact	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#139
 Dexterity Penalty and Bonus Considerations	敏捷惩罚与加值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#153
+Dexterity Penalty and Bonus	敏捷惩罚与加值	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#140; shortened label for Dexterity Penalty and Bonus Considerations
 Special Note Regarding Giant and Machine Missiles	巨人与攻城器械投射物特别说明	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#157
+Giant and Machine Missiles	巨人与攻城器械投射物	verified-exact	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#141
 Missile Fire Cover and Concealment Adjustments	投射攻击的掩护与隐蔽调整	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#163
+Missile Fire Cover and Concealment	投射攻击的掩护与隐蔽	adapted-variant	1e-bilingual-glossary-variant	src/published/books/dmg/glossary-2.md#142; shortened label for Missile Fire Cover and Concealment Adjustments
 Grenade-Like Missiles	类手榴弹投射物	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#176
 Number of Opponents per Figure	每个角色可面对的对手数	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#466
 Actions During Combat and Similar Time-Important Situations	战斗及其他时间敏感情境中的行动	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#478
 Strike Blows	打击	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md#303
-Party	队伍	pending	1e-glossary-candidate	src/published/books/dmg/glossary-2.md:12
-Persona	角色	pending	1e-glossary-candidate	src/published/books/dmg/glossary-2.md:14
-Philter	灵药	pending	1e-glossary-candidate	src/published/books/dmg/glossary-2.md:16
-Poison	毒素	pending	1e-glossary-candidate	src/published/books/dmg/glossary-2.md:67
-Resurrection	复生术	pending	1e-glossary-candidate	src/published/books/dmg/glossary-2.md:77
+Party	队伍	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#12
+Character Party	角色队伍	verified-exact	1e-bilingual-table-crosscheck	src/published/books/mm2/mm2-random-encounter-dungeon.md:20; src/published/books/mm2/mm2-random-encounter-outdoor.md:38
+Persona	角色	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#15
+Philter	灵药	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#17
+Poison	毒素	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#69
+Resurrection	复生术	verified-exact	project-glossary	src/published/books/dmg/glossary-2.md#79
+Distance	遭遇距离	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:75
+Ties	平手	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:98
+Inflicting Damage	造成伤害	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:102
+Avoiding	避战	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:122
+Spell Casting During Melee	近战中的施法	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:231
+Magical Device Attacks	魔法装置攻击	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:249
+Effect of Cover on Spells and Spell-like Powers	掩护对法术与类法术能力的影响	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:253
+Monster Charm Power	怪物魅惑能力	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:257
+Further Actions	进一步行动	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:281
+Melee	近战	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:462
+Example of Melee	近战示例	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:486
+Overbear	压制	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:649
+General Notes	通用说明	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:684
+Using the Combat Tables	使用战斗表	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:696
+Progression on the Combat Tables	战斗表上的数值递进	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1127
+Effects of Alcohol and Drugs	酒精与药物的影响	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1162
+Intoxication Table	醉酒效果表	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1166
+Notes on Intoxication Table	醉酒效果表注释	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1181
+Recovery from Intoxication	醉酒后的恢复	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1193
+Insanity	精神错乱	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1210
+Types of Insanity	精神错乱类型	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1214
+Saving Throw Matrix for Characters and Human Types	角色与人类类型豁免检定矩阵	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:984
+Saving Throw Matrix for Monsters	怪物豁免检定矩阵	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1021
+Saving Throw Matrix for Magical and Non-Magical Items	魔法与非魔法物品豁免检定矩阵	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1028
+Magic Armor and Saving Throws	魔法护甲与豁免检定	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1107
+Movement in the Dungeon	地下城移动	verified-exact	1e-bilingual-heading	src/published/books/phb/movement-time-distance.md:3
+Movement Outdoors	户外移动	verified-exact	1e-bilingual-heading	src/published/books/phb/movement-time-distance.md:14
+Movement in Cities	城镇移动	verified-exact	1e-bilingual-heading	src/published/books/phb/movement-time-distance.md:16
+Campaign	战役	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:13
+Class	职业	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:16
+Death Magic	死亡魔法	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:20
+Encounter	遭遇	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:27
+Encumbrance	负重	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:28
+Exceptional Strength	特殊力量	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:32
+Experience	经验	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:33
+Followers	追随者	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:35
+Henchman	随从	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:37
+Hireling	受雇者	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:38
+Infravision	红外视觉	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:659
+Ultravision	紫外视觉	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:669
+Invisibility	隐形	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:673
+Wind Effects on Odors	风对气味的影响	verified-exact	1e-table-title-crosscheck	src/published/books/dsg/dsg-compiled-tables-index.md:128
+Encounter Distance	遭遇距离	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:75
+Dexterity Reaction in Surprise	敏捷对突袭反应的影响	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:67
+Factors Contributing to Surprise	导致突袭的因素	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:69
+Ability Scores	属性值	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:5
+Artifact	神器	verified-exact	3R-name-and-1e-rule-concept	terminology/references/huiji-names.json#Artifact; src/published/books/dmg/dmg-glossary.md:9
+Artifacts	神器	verified-exact	3R-name-and-1e-rule-concept	terminology/references/huiji-names.json#Artifact; src/published/books/dmg/dmg-combat.md:1099
+Artifacts and Relics	神器与圣遗物	verified-exact	1e-bilingual-heading	src/published/books/dmg/treasure-continuation-17.md:1
+Artifacts & Relics	神器与圣遗物	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:1099
+Artifact or Relic	神器或圣遗物	verified-exact	1e-bilingual-table-title	src/published/books/dmg/dmg-treasure.md:304
+Demi-human	半人类	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:22
+Demi-humans	半人类	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:22
+Demi-Human Subtable	半人类子表	verified-exact	1e-bilingual-heading	src/published/books/dmg/appendix-c-random-monster-encounters-11.md:29
+Demi-Humans, Table II	半人类表 II	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-followers-upper-level-player-characters.md:80
+Demi-Humankind	半人类族群学	verified-exact	1e-bilingual-table-title	src/published/books/dmg/dmg-hirelings.md:247
+Humanoid	类人生物	verified-exact	1e-glossary-definition	src/published/books/dmg/dmg-glossary.md:45
+Humanoids	类人生物	verified-exact	1e-creature-category	src/published/books/dmg/appendix-e-alphabetical-monsters-7.md:45
+Humanoid Subtable	类人生物子表	verified-exact	1e-bilingual-heading	src/published/books/dmg/appendix-c-random-monster-encounters-11.md:77
+Humanoid Racial Preferences Table	类人生物种族偏好表	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-npc-personae.md:517
+Humanoids & Giantkind	类人生物与巨人族	verified-exact	1e-bilingual-table-title	src/published/books/dmg/dmg-hirelings.md:248
+Men and Humanoids	人类与类人生物	verified-exact	1e-bilingual-heading	src/published/books/dmg/appendix-e-alphabetical-monsters-7.md:45
+Confrontation	正面冲突	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:43
+Becoming Lost	迷路	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:56
+Procedure for Lost Parties	迷路队伍的处理	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:73
+Forced Movement	强行军	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:85
+Aerial Travel	空中旅行	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:101
+Flying Mounts	飞行坐骑	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:109
+Aerial Combat	空中战斗	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:127
+Maneuverability	机动等级	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:141
+Attack Modes	攻击方式	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:155
+Conducting Combat	空战流程	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:230
+General Classes of Vessels	船只大类	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:258
+Hull Values	船体耐久	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:288
+Repairing Damage	修理损伤	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:303
+Crew	船员	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:322
+Wind Direction and Force	风向与风力	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:326
+Exhaustion	疲劳	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:361
+Ramming	冲撞	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:433
+Grappling and Boarding	爪钩与接舷	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:437
+Sinking a Ship	船只沉没	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:447
+Ship's Capture	船只被俘	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:451
+Underwater Adventures	水下冒险	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482
+Underwater Spell Use	水下法术	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:518
+Outdoor Movement	野外移动	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:594
+Listening at Doors	隔门聆听	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:711
+Alertness	警觉	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:111; AD&D 1E Wilderness Survival Guide, Table 2
+Animal Handling	动物驯养	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:115; AD&D 1E Wilderness Survival Guide, Table 2
+Animal Lore	动物学	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:119; AD&D 1E Wilderness Survival Guide, Table 2
+Blind-fighting	盲斗	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:123; AD&D 1E Wilderness Survival Guide, Table 2
+Boating	划船熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:131; AD&D 1E Wilderness Survival Guide, Table 2
+Charioteering	御车	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:135; AD&D 1E Wilderness Survival Guide, Table 2
+Direction Sense	方向感	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:139; AD&D 1E Wilderness Survival Guide, Table 2
+Endurance	耐力	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:145; AD&D 1E Wilderness Survival Guide, Table 2
+Fire-building	生火	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:149; AD&D 1E Wilderness Survival Guide, Table 2
+Fishing	捕鱼	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:153; AD&D 1E Wilderness Survival Guide, Table 2
+Foraging	觅食	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:157; AD&D 1E Wilderness Survival Guide, Table 2
+Healing	治疗	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:161; AD&D 1E Wilderness Survival Guide, Table 2
+Hunting	狩猎	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:175; AD&D 1E Wilderness Survival Guide, Table 2
+Mountaineering	登山	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:183; AD&D 1E Wilderness Survival Guide, Table 2
+Plant Lore	植物学熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:187; AD&D 1E Wilderness Survival Guide, Table 2
+Riding, airborne	空中骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:191; AD&D 1E Wilderness Survival Guide, Table 2
+Riding, land-based	陆地骑乘熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:202; AD&D 1E Wilderness Survival Guide, Table 2
+Rope Use	绳索使用熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:215; AD&D 1E Wilderness Survival Guide, Table 2
+Running	奔跑	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:223; AD&D 1E Wilderness Survival Guide, Table 2
+Survival, cold	寒地生存	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:235; AD&D 1E Wilderness Survival Guide, Table 2
+Survival, desert	沙漠生存	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:239; AD&D 1E Wilderness Survival Guide, Table 2
+Survival, heat	热地生存	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:243; AD&D 1E Wilderness Survival Guide, Table 2
+Tracking	追踪	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:251; AD&D 1E Wilderness Survival Guide, Table 2
+Weather Sense	天气感知	verified-exact	1e-bilingual-proficiency-entry	src/published/books/wsg/wsg-proficiencies.md:255; AD&D 1E Wilderness Survival Guide, Table 2
+Herbalist	草药师熟练项	verified-exact	1e-bilingual-proficiency-entry	src/published/books/oa/oa-proficiencies.md:122
+Craftsman Proficiencies	工匠熟练项	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-proficiencies.md:52; src/published/books/dsg/dsg-contents.md:88
+Adventuring Proficiencies	冒险熟练项	verified-exact	1e-bilingual-heading	src/published/books/dsg/dsg-proficiencies.md:111; src/published/books/dsg/dsg-contents.md:89
+Experience Value of Treasure Taken	取得财宝所得的经验值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-experience.md:23
+Experience Points Value of Monsters	怪物经验值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-experience.md:35
+Special Bonus Award to Experience Points	经验值特别奖励	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-experience.md:79
+Gaining Experience Levels	提升经验等级	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-experience.md:85
+Character Age	角色年龄	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-character-age-aging-disease-death.md:4
+Aging	衰老	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-character-age-aging-disease-death.md:28
+Disease	疾病	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-character-age-aging-disease-death.md:68
+Death	死亡	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-character-age-aging-disease-death.md:159
+Player Character Non-Professional Skills	玩家角色非职业技能	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-create-player-character.md:35
+Length and Width	船只长宽	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:307
+Grenade-Like Missiles: Boulders and Containers of Acid, Holy/Unholy Water, Oil, Poison	类手榴弹投射物：巨石与液体容器	verified-exact	1e-bilingual-rule-subheading	src/published/books/dmg/dmg-combat.md:176
+Movement	移动	verified-exact	1e-contextual-rule-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:52,365,490
+Rest	休息	verified-exact	1e-contextual-rule-heading	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:81
+Breathing	呼吸	verified-exact	1e-contextual-rule-heading-underwater	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,486
+Vision	视野	verified-exact	1e-contextual-rule-heading-underwater	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,498
+Combat	战斗	verified-exact	1e-contextual-rule-heading-underwater	src/published/books/dmg/dmg-adventure-outdoor-exploration.md:482,506
+Ethereal Travel	以太旅行	verified-exact	1e-bilingual-rule-heading	src/published/books/phb/appendix-known-planes.md:34
+Astral Travel	星界旅行	verified-exact	1e-bilingual-rule-heading	src/published/books/phb/appendix-known-planes.md:42
+Ethereal and Astral Combat	以太位面与星界位面上的战斗	verified-exact	1e-bilingual-rule-heading	src/published/books/phb/appendix-known-planes.md:50
+Subdual	制服	verified-exact	1e-contextual-rule-heading	src/published/books/ua/ua-appendix-r-nonlethal-combat.md:4
+Vanquishing	征服	verified-exact	1e-contextual-rule-heading	src/published/books/ua/ua-appendix-r-nonlethal-combat.md:14
+System Shock Roll	系统冲击检定	verified-exact	1e-rule-context	PHB 体质表系统冲击存活率规则；DMG 原译“系统震撼骰”已按一致译名校正，src/published/books/dmg/dmg-conducting-game.md:9
+Weapon Specialization	武器专精	verified-exact	1e-bilingual-heading	src/published/books/ua/ua-fighter.md:7
+Weapon Specialization Table for Fighters and Rangers	战士与巡林客武器专精表	verified-exact	1e-bilingual-heading	src/published/books/ua/ua-fighter.md:23
+Class Level Limitations	职业等级上限	verified-exact	1e-bilingual-heading	src/published/books/ua/ua-race-level-limitations.md:3
+Character Classes Table I: Hit Dice, Spell Ability, and Class Level Limit	角色职业表 I：生命骰、法术能力与职业等级上限	verified-exact	1e-bilingual-heading	src/published/books/ua/ua-class-hit-dice.md:3
+Spell Research	法术研究	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:35
+Conditions Under Which Spell Research Is Possible	允许进行法术研究的条件	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:53
+Loyalty Base Modifiers	忠诚度基础修正值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-henchmen.md:103
+Cost of Research	研究费用	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:45
+Length of Research	研究时长	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:49
+Research Materials	研究材料	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:57
+Chance of Success	成功概率	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:63
+Determination of Success	判定成功	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:67
+Confidentiality of New Spells	新法术的保密	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:71
+Fabrication of Magic Items, Including Potions and Scrolls	制作魔法物品（包括药水与卷轴）	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:79
+Manufacture of Potions	制作药水	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:87
+Manufacture of Scrolls	制作卷轴	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-magical-research.md:140
+Morale Scores	士气分数	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-combat.md:362
+Non-Player Character Encounter/Offer Reaction Adjustments	非玩家角色遭遇／提议反应调整	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-npc-personae.md:258
+Spell Ability	施法能力	verified-exact	1e-cross-book-standardized	src/published/books/phb/classes.md:6,8,30; src/published/books/ua/ua-class-hit-dice.md:3,5,25,27; identical class-table field, standardized to PHB wording
+System Shock	系统冲击	verified-exact	1e-rule-context	PHB 体质表“系统冲击存活率”及正文定义，src/published/books/phb/constitution.md:7,28
+System Shock Survival	系统冲击存活率	verified-exact	1e-rule-context	PHB 体质表列名及定义，src/published/books/phb/constitution.md:7,28
+Potion Miscibility	药水混合	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-use-magic-items.md:21
+Magic Spell Failure	法术失败	verified-exact	1e-bilingual-rule-heading	src/published/books/dmg/dmg-treasure.md:889
+Use of Scroll Spells	使用卷轴法术	verified-exact	1e-bilingual-rule-heading	src/published/books/dmg/dmg-treasure.md:902
+Time in the Campaign	战役中的时间	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-time.md:1
+Time in the Dungeon	地下城中的时间	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-time.md:25
+Siege Attack Values	攻城攻击数值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-construction-siege.md:288
+Construction Defensive Values	建筑防御数值	verified-exact	1e-bilingual-heading	src/published/books/dmg/dmg-construction-siege.md:325
+Proficiency Checks	熟练项检定	adapted-variant	1e-proficiency-variant	Canonical singular: Proficiency Check；src/published/books/dsg/dsg-movement-rules.md:14
+Animal Telepathy	动物心灵感应	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:31
+Body Equilibrium	身体平衡	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:51
+Body Weaponry	身体武器化	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:57
+Cell Adjustment	细胞调整	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:80
+Clairaudience	锐耳术	adapted-variant	3R-composite-component-map	3R Huiji pairs Clairaudience/Clairvoyance with 锐耳术/鹰眼术; first name component mapped to first English term. PHB 1E psionic ability references the same-named spell but has its own range rule: src/published/books/phb/minor-devotions.md:86
+Clairvoyance	鹰眼术	adapted-variant	3R-5E-5R-spell-name	3R Huiji paired spell and 5E/5R spell references use 鹰眼术; PHB 1E psionic ability is the same-named power with its own range rule: src/published/books/phb/minor-devotions.md:92
+Detection of Good or Evil	侦测善良或邪恶	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:98
+Detection of Magic	侦测魔法	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:118
+Domination	支配	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:124
+Empathy	共情	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:130
+ESP	心灵感应	verified-exact	1e-cross-book-standardized	PHB psionic devotion explicitly says it functions similarly to the same-named Magic-User spell; both PHB pages title it 心灵感应 ESP, src/published/books/phb/minor-devotions.md:136; src/published/books/phb/spell-explanations-magic-users.md:529
+Expansion	扩大	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:142
+Hypnosis	催眠	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:165
+Mind Over Body	心控躯体	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:185
+Molecular Agitation	分子激发	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:191
+Object Reading	物品读取	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:209
+Precognition	预知	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:215
+Reduction	缩小	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:232
+Sensitivity to Psychic Impressions	感知心灵印象	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:238
+Suspend Animation	暂停生命活动	verified-exact	1e-bilingual-psionic-minor-devotion	src/published/books/phb/minor-devotions.md:244
+Astral Projection	星界投射	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:30
+Aura Alteration	灵光改变	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:36
+Body Control	身体控制	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:50
+Dimension Walk	次元行走	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:62
+Energy Control	能量控制	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:81
+Etherealness	以太化	verified-exact	5e-5r-name-priority-fallback; 1e-psionic-science mechanism distinct	src/published/books/phb/major-sciences.md:87; terminology/references/5etools-names.json (PHB, XPHB exact spell name); no current 3R record; name borrowed only, not rules
+Mass Domination	群体支配	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:93
+Mind Bar	心灵屏障	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:101
+Molecular Manipulation	分子操控	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:109
+Molecular Rearrangement	分子重组	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:134
+Probability Travel	概率旅行	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:151
+Shape Alteration	形体改变	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:185
+Telempathic Projection	心灵感应投射	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:165
+Telepathic Projection	心灵投射	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:177
+Telepathy	心灵传讯	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:171
+Teleportation	传送	verified-exact	1e-bilingual-psionic-major-science	src/published/books/phb/major-sciences.md:204

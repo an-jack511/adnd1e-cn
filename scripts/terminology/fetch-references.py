@@ -21,10 +21,20 @@ def main():
     index = fetch('data/spells/index.json')[2]
     paths = ['data/spells/' + p for p in index.values()]
     paths += ['data/items.json', 'data/items-base.json', 'data/races.json', 'data/deities.json', 'data/books.json']
+    # Additional translated name indexes useful for future magazine translation
+    # and terminology discovery. These remain edition-tagged references only.
+    paths += [
+        'data/feats.json', 'data/backgrounds.json', 'data/optionalfeatures.json',
+        'data/actions.json', 'data/conditionsdiseases.json', 'data/objects.json',
+        'data/vehicles.json', 'data/skills.json', 'data/languages.json',
+        'data/variantrules.json', 'data/rewards.json', 'data/psionics.json',
+        'data/tables.json', 'data/charcreationoptions.json', 'data/cultsboons.json',
+        'data/magicvariants.json', 'data/trapshazards.json', 'data/recipes.json',
+    ]
     # Include adventure bestiaries: setting-specific creatures and named NPCs
     # are absent from the core five monster books.
     paths += ['data/bestiary/' + p for p in fetch('data/bestiary/index.json')[2].values()]
-    paths += ['data/class/class-' + x + '.json' for x in ['barbarian','bard','cleric','druid','fighter','monk','paladin','ranger','rogue','wizard']]
+    paths += ['data/class/' + p for p in fetch('data/class/index.json')[2].values()]
     records, sources, errors = [], [], []
     def safe(path):
         for attempt in range(3):
@@ -36,13 +46,19 @@ def main():
             if data is None:
                 errors.append({'url':BASE+path,'error':obj}); continue
             count = 0
-            for kind in ['spell','item','baseitem','monster','race','subrace','class','deity','book']:
+            for kind in ['spell','item','baseitem','monster','race','subrace','class','deity','book',
+                         'feat','background','optionalfeature','action','condition','disease','status',
+                         'object','vehicle','vehicleUpgrade','skill','language','languageScript',
+                         'variantrule','reward','psionic','table','charoption','cult','boon',
+                         'magicvariant','trap','hazard','recipe','subclass','classFeature','subclassFeature']:
                 for entry in obj.get(kind, []):
                     en, zh = entry.get('ENG_name'), entry.get('name')
                     if not en or not zh or en == zh: continue
                     source = entry.get('source', entry.get('id',''))
                     edition = '5R' if source in ['XPHB','XDMG','XMM','FRHoF','FRAiF','EFA'] else '5E'
-                    page = {'spell':'spells','item':'items','baseitem':'items','monster':'bestiary','race':'races','subrace':'races','class':'classes','deity':'deities','book':'books'}[kind]
+                    page = {'spell':'spells','item':'items','baseitem':'items','monster':'bestiary','race':'races','subrace':'races','class':'classes','deity':'deities','book':'books'}.get(kind)
+                    if page is None:
+                        page = path.removeprefix('data/').removesuffix('.json').replace('class/class-', 'class-')
                     records.append({'en':en,'zh':zh,'category':kind,'edition':edition,'source':source,'page':entry.get('page'),'url':BASE+path,'entryUrl':BASE+page+'.html#'+quote(zh.lower(),safe='')+'_'+quote(source.lower(),safe=''),'accessed':DATE})
                     if kind == 'monster': records[-1]['isNpc']=bool(entry.get('isNpc',False))
                     count += 1

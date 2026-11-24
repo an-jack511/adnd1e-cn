@@ -668,6 +668,34 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:mattock of the titans",
+    "en": "Mattock of the Titans",
+    "currentZh": "泰坦鹤嘴锄",
+    "candidates": [
+      {
+        "en": "Flask of the Titans",
+        "zh": "泰坦合剂",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:maul of the titans",
+    "en": "Maul of the Titans",
+    "currentZh": "泰坦战锤",
+    "candidates": [
+      {
+        "en": "Flask of the Titans",
+        "zh": "泰坦合剂",
+        "similarity": 0.811,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:morning star",
     "en": "Morning Star",
     "currentZh": "晨星",
@@ -764,26 +792,6 @@
         "en": "Scroll of Protection from Fiends",
         "zh": "邪魔守护卷轴",
         "similarity": 0.82,
-        "url": "https://5e.kiwee.top/data/items.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
-    "key": "item:plate mail of etherealness",
-    "en": "Plate Mail of Etherealness",
-    "currentZh": "无相位板甲",
-    "candidates": [
-      {
-        "en": "Plate Armor of Etherealness",
-        "zh": "以太化板甲",
-        "similarity": 0.868,
-        "url": "https://5e.kiwee.top/data/items.json"
-      },
-      {
-        "en": "Oil of Etherealness",
-        "zh": "以太化之油",
-        "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/items.json"
       }
     ],
@@ -1934,6 +1942,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:warbringer",
+    "en": "Warbringer",
+    "currentZh": "战争使者",
+    "candidates": [
+      {
+        "en": "Ashbringer",
+        "zh": "灰烬使者",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:water breathing",
     "en": "Water Breathing",
     "currentZh": "水下呼吸药水",
@@ -2100,20 +2122,6 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "monster:barkburr",
-    "en": "Barkburr",
-    "currentZh": "树皮刺怪",
-    "candidates": [
-      {
-        "en": "Barkburr",
-        "zh": "树皮嗡嗡",
-        "similarity": 1.0,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
     "key": "monster:boalisk",
     "en": "Boalisk",
     "currentZh": "石化蚺蛇",
@@ -2252,7 +2260,7 @@
       },
       {
         "en": "Dragon Tortoise",
-        "zh": "龙龟",
+        "zh": "陆生龙龟",
         "similarity": 0.815,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-cm.json"
       },
@@ -2394,7 +2402,7 @@
     "candidates": [
       {
         "en": "Fire Kraken",
-        "zh": "火 Kraken",
+        "zh": "火克拉肯",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json"
       }
@@ -3050,6 +3058,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "monster:skunk",
+    "en": "Skunk",
+    "currentZh": "臭鼬",
+    "candidates": [
+      {
+        "en": "Skulk",
+        "zh": "潜伏客",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mpmm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "monster:snake, giant",
     "en": "Snake, Giant",
     "currentZh": "巨蛇",
@@ -3087,6 +3109,26 @@
         "zh": "恶灵",
         "similarity": 0.857,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "monster:squirrel",
+    "en": "Squirrel",
+    "currentZh": "松鼠",
+    "candidates": [
+      {
+        "en": "Squire",
+        "zh": "侍从",
+        "similarity": 0.857,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-hol.json"
+      },
+      {
+        "en": "Birdsquirrel",
+        "zh": "松鸟",
+        "similarity": 0.8,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-awm.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -3175,20 +3217,6 @@
         "zh": "战马",
         "similarity": 0.842,
         "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
-    "key": "monster:wolfwere",
-    "en": "Wolfwere",
-    "currentZh": "化人狼",
-    "candidates": [
-      {
-        "en": "Wolfwere",
-        "zh": "狼人",
-        "similarity": 1.0,
-        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -3498,15 +3526,15 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "spell:massmorph",
-    "en": "Massmorph",
-    "currentZh": "群体变树术",
+    "key": "spell:meditation",
+    "en": "Meditation",
+    "currentZh": "冥思祷术",
     "candidates": [
       {
-        "en": "Mass Polymorph",
-        "zh": "群体变形术",
+        "en": "Time Dilation",
+        "zh": "时间膨胀",
         "similarity": 0.783,
-        "url": "https://5e.kiwee.top/data/spells/spells-xge.json"
+        "url": "https://5e.kiwee.top/data/spells/spells-wow.json"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"

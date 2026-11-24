@@ -1,6 +1,22 @@
 {
-  "files": 0,
-  "changes": [],
+  "files": 3,
+  "changes": [
+    {
+      "path": "src/data/public/dragon-monsters.json",
+      "beforeSha256": "7bf7387ae9ab7cb0fda89a3c62ffd96bdb18c9023a5ac3f8fd7893dcdee53ac1",
+      "afterSha256": "5f04c9df6d8b01d28544269ff1a96069c541efb2c15d2e0e344992c39c67b7b0"
+    },
+    {
+      "path": "src/data/public/ua-tables-imported.json",
+      "beforeSha256": "85cebbbdbae17d674ad2f729e480253797e3b6b0199acddf5331566fa1f2539c",
+      "afterSha256": "0b3a2cbd81ae899161a1c2627f2691765a5179125d3997fc0c207613ab224632"
+    },
+    {
+      "path": "src/data/published/book-search.json",
+      "beforeSha256": "6d987cf6b7395734fc962d9b7658385cde67c846859eadc9c85bedf0790843da",
+      "afterSha256": "7eb16762889c3649f289bff4cc5a8444949775afc739285ca3ec591d53d737b7"
+    }
+  ],
   "globalReplacements": {
     "蛮族": "野蛮人",
     "僧侣": "武僧",
@@ -22,6 +38,7 @@
     "控气元素香炉": "命令气元素香炉",
     "开启风铃": "开门钟琴",
     "开门风铃": "开门钟琴",
+    "蛛形斗篷": "节肢斗篷",
     "位移斗篷": "移位斗篷",
     "力场方块": "力场魔方",
     "力量立方": "力场魔方",
@@ -79,6 +96,7 @@
     "祈祷珠项链": "念珠项链",
     "诺泽尔的奇妙颜料": "诺泽尔的惊奇颜料",
     "诺祖尔奇妙颜料": "诺泽尔的惊奇颜料",
+    "以太化油": "以太化之油",
     "以太油剂": "以太化之油",
     "星界油": "以太化之油",
     "锐化油": "锐锋之油",
@@ -96,6 +114,8 @@
     "爱情滤剂": "迷情媚药",
     "爱情灵药": "迷情媚药",
     "下水道笛": "唤鼠乐笙",
+    "幽界化板甲": "以太化板甲",
+    "无相位板甲": "以太化板甲",
     "便携洞": "次元洞",
     "母亲之祸毒药": "普雷斯普拉",
     "艾丽莎女王的奇妙夜莺": "爱莉莎女王的奇妙夜莺",
@@ -192,6 +212,7 @@
     "胡言兽": "呱呱精",
     "哥布林": "地精",
     "戈尔贡": "石化铁牛",
+    "戈里斯特罗": "巨牛魔",
     "灰色软泥怪": "灰泥怪",
     "绿史拉蟾": "史拉绿蟾",
     "格瑞尔": "触须怪",
@@ -351,6 +372,31 @@
     "泽波音": "赛波音",
     "珍铎城": "散提尔堡",
     "吉维林": "亦为林",
+    "阵营语言": "阵营语",
+    "神器与重要物品": "神器",
+    "圣物与遗物": "神器与圣遗物",
+    "攻击模式": "攻击方式",
+    "每轮攻击次数表": "每轮近战攻击次数表",
+    "每近战轮攻击次数表": "每轮近战攻击次数表",
+    "野蛮人熟练项": "蛮族熟练项",
+    "地下战斗规则": "地下游戏的战斗规则",
+    "遭遇对峙": "正面冲突",
+    "新法术的环级": "法术环级的确定",
+    "经验值数分配": "经验值分配",
+    "怪物的经验值数": "怪物经验值",
+    "获得经验等级": "提升经验等级",
+    "投射物攻击": "发射投射武器",
+    "黑暗中的移动影响": "黑暗对移动的影响",
+    "光滑水平表面上的移动": "在光滑水平表面上移动",
+    "地下行动规则": "地下游戏的移动规则",
+    "非武器专长": "非武器熟练项",
+    "长期地下探险中的": "非玩家角色",
+    "玩家角色的非职业技能": "玩家角色非职业技能",
+    "经验值数特别奖励": "经验值特别奖励",
+    "卷轴法术的环级": "卷轴法术的法术环级",
+    "驱退不死生物": "驱散不死生物",
+    "水下施法": "水下法术",
+    "零生命值": "生命值为零",
     "警报术": "魔法警报",
     "操纵死尸": "活化死尸",
     "死者复生": "活化死尸",
@@ -452,7 +498,6 @@
     "梅尔夫的微型流星": "马友夫微流星",
     "马友夫微型流星": "马友夫微流星",
     "修补术": "修复术",
-    "心灵空白": "心灵屏障",
     "奥术海市蜃楼": "海市蜃楼",
     "月光术": "月华之光",
     "莫登凯南的防御狼人术": "魔邓肯的防御狼人术",
@@ -482,6 +527,7 @@
     "诺斯图的迅捷灭火术": "涅斯图的迅捷灭火术",
     "诺斯图的闪光术": "涅斯图的闪光术",
     "诺斯图的黄金揭示术": "涅斯图的黄金揭示术",
+    "涅斯图的元素惧灵召唤术": "涅斯图的元素孽怪召唤术",
     "诺斯图的元素孽怪召唤术": "涅斯图的元素孽怪召唤术",
     "诺斯图的光爆术": "涅斯图的光爆术",
     "诺斯图的魔法灵光": "涅斯图魔法灵光",
@@ -553,6 +599,7 @@
     "真实视域": "真知术",
     "无形仆役": "隐形仆役",
     "迷幕术": "隐匿之纱",
+    "口技术": "腹语术",
     "力场墙术": "力场墙",
     "荆棘墙": "棘墙术",
     "诡异术": "怪影杀手",
@@ -587,13 +634,6 @@
       "old": "蒺藜",
       "targets": [
         "铁蒺藜"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
-      "old": "蛛形斗篷",
-      "targets": [
-        "节肢斗篷"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1328,13 +1368,6 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "戈里斯特罗",
-      "targets": [
-        "巨牛魔"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
       "old": "格拉兹特 ·",
       "targets": [
         "格拉兹特"
@@ -1387,6 +1420,13 @@
       "old": "圣象",
       "targets": [
         "圣飞象"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "魔宠人偶的制造",
+      "targets": [
+        "人工生命体"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1930,6 +1970,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "观察者眼魔 ·",
+      "targets": [
+        "观察者眼魔"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "刺魔",
       "targets": [
         "棘魔"
@@ -2056,6 +2103,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "飞首 ·",
+      "targets": [
+        "飞首"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "植化矮人 ·",
       "targets": [
         "孢子人"
@@ -2150,6 +2204,13 @@
       "old": "黄麝香僵尸",
       "targets": [
         "黄迷香丧尸"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "夜嘶猎犬 ·",
+      "targets": [
+        "夜嘶猎犬"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2364,6 +2425,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "埃乌兹的牧师",
+      "targets": [
+        "埃乌兹"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Jotens",
       "targets": [
         "约顿山脉"
@@ -2386,6 +2454,13 @@
     },
     {
       "old": "Lunitari",
+      "targets": [
+        "努林塔瑞"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "中立魔法：努林塔瑞",
       "targets": [
         "努林塔瑞"
       ],
@@ -2469,13 +2544,6 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "Nordmaar",
-      "targets": [
-        "诺德玛"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
       "old": "Nuitari",
       "targets": [
         "努塔瑞"
@@ -2546,13 +2614,6 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "Sunndi",
-      "targets": [
-        "桑迪"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
       "old": "Suzail",
       "targets": [
         "苏萨尔"
@@ -2577,13 +2638,6 @@
       "old": "Tarsis",
       "targets": [
         "塔西斯"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
-      "old": "Telflamm",
-      "targets": [
-        "泰夫岚姆"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2686,6 +2740,48 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "选择熟练项 ·",
+      "targets": [
+        "选择熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "类人生物子表 ·",
+      "targets": [
+        "类人生物子表"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "专长",
+      "targets": [
+        "熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "宝藏",
+      "targets": [
+        "财宝"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "冒险：水下施法",
+      "targets": [
+        "水下法术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "表 2：荒野熟练项",
+      "targets": [
+        "荒野熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "援助",
       "targets": [
         "援助术"
@@ -2777,6 +2873,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "隔墙闻声",
+      "targets": [
+        "锐耳术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "隔墙观望",
       "targets": [
         "鹰眼术"
@@ -2830,6 +2933,20 @@
       "old": "尘魔",
       "targets": [
         "龙卷尘暴"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "能量吸取",
+      "targets": [
+        "能级吸取"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "能量吸取（法师杂志版）",
+      "targets": [
+        "能级吸取"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2918,6 +3035,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "融身入石（早期版）",
+      "targets": [
+        "融身入石"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "马友夫强酸箭（早期版）",
       "targets": [
         "马友夫强酸箭"
@@ -2928,6 +3052,13 @@
       "old": "传讯",
       "targets": [
         "传讯术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "心灵空白",
+      "targets": [
+        "心灵屏障"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3131,13 +3262,6 @@
       "old": "面纱",
       "targets": [
         "隐匿之纱"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
-      "old": "口技术",
-      "targets": [
-        "腹语术"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },

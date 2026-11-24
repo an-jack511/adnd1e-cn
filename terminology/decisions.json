@@ -2886,6 +2886,422 @@
           "retrieval": "search-indexed bilingual heading"
         }
       ]
+    },
+    {
+      "category": "spell",
+      "en": "Clairaudience",
+      "zh": "锐耳术",
+      "status": "adapted-variant",
+      "verificationScope": "name-component mapped from the 3R combined spell title; 1E separates the auditory and visual spells",
+      "userOverride": true,
+      "reason": "3R 灰机双语条目将 Clairaudience/Clairvoyance 并列为“锐耳术/鹰眼术”；按原名顺序映射两个英语成分。1E 将其拆为两项法术，且灵能次级技艺引用同名法术但有不同射程规则；这里只采用名称，不认定规则机制相同。",
+      "references": [
+        {
+          "en": "Clairaudience/Clairvoyance",
+          "zh": "锐耳术/鹰眼术",
+          "category": "spell",
+          "edition": "3R",
+          "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+          "accessed": "2026-11-06",
+          "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Energy Drain",
+      "zh": "能级吸取",
+      "status": "verified-exact",
+      "verificationScope": "1e-bilingual-spell-name; normalized to the exact Dragon #68 and UA spell title; distinct from generic energy-drain prose",
+      "references": [
+        {
+          "en": "Energy Drain",
+          "zh": "能级吸取",
+          "category": "spell",
+          "edition": "1E",
+          "source": "Dragon #68",
+          "page": 59,
+          "url": "src/published/books/dragon-68/new-spells.md#47"
+        },
+        {
+          "en": "Energy Drain",
+          "zh": "能级吸取",
+          "category": "spell",
+          "edition": "1E",
+          "source": "UA",
+          "url": "src/published/books/ua/ua-magic-user-spells-9.md#24"
+        },
+        {
+          "en": "Energy Drain",
+          "zh": "能级吸取",
+          "category": "rule",
+          "edition": "1E",
+          "source": "DMG glossary",
+          "url": "src/published/books/dmg/glossary-2.md#116"
+        }
+      ],
+      "reason": "两处 1E 法术页均以“能级吸取 Energy Drain”列出法术；DMG 术语释义将 Energy Drain 列为能级吸取的同义规则名称。统一网站法术索引／书库记录；不替换泛指能量流失的叙述。",
+      "userOverride": true
+    },
+    {
+      "category": "item",
+      "en": "Plate Mail of Etherealness",
+      "zh": "以太化板甲",
+      "status": "verified-exact",
+      "verificationScope": "1e-ua-bilingual-item-name; identical DMG item harmonized to explicit UA title",
+      "references": [
+        {
+          "en": "Plate Mail of Etherealness",
+          "zh": "以太化板甲",
+          "category": "item",
+          "edition": "1E",
+          "source": "UA",
+          "url": "src/published/books/ua/ua-dm-treasure-armor-shields.md#20"
+        },
+        {
+          "en": "Plate Mail of Etherealness",
+          "zh": "以太化板甲",
+          "category": "item",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-treasure.md#514"
+        }
+      ],
+      "reason": "UA 魔法护甲表给出该名称的精确中英对照；DMG 同名物品具有相同效果。统一 DMG 主表、分段详情与同一物品的其他用例。",
+      "userOverride": true
+    },
+    {
+      "category": "item",
+      "en": "Oil of Etherealness",
+      "zh": "以太化之油",
+      "legacyZh": [
+        "以太化油"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "5E-5R exact name evidence; 1E contextual alias harmonized",
+      "reason": "5E 与 5R 名称数据均精确对应“以太化之油”；记录 1E 正文中同一魔法油剂的简称“以太化油”为旧译别名，并统一为术语表主译。",
+      "userOverride": false
+    },
+    {
+      "category": "spell",
+      "en": "Death Spell",
+      "zh": "死亡术",
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title",
+      "references": [
+        {
+          "en": "Death Spell",
+          "zh": "死亡术",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#1895"
+        },
+        {
+          "en": "Death Spell",
+          "zh": "死亡术",
+          "category": "spell",
+          "edition": "1E",
+          "source": "UA",
+          "url": "src/published/books/ua/ua-magic-user-spell-table.md#63"
+        }
+      ],
+      "reason": "PHB 法术详述标题与 UA 法术表均明确列为“死亡术 Death Spell”；无相同法术名时按 AD&D 1E 原书中英标题核准。"
+    },
+    {
+      "category": "spell",
+      "en": "Massmorph",
+      "zh": "群体变树术",
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title",
+      "references": [
+        {
+          "en": "Massmorph",
+          "zh": "群体变树术",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#1345"
+        },
+        {
+          "en": "Massmorph",
+          "zh": "群体变树术",
+          "category": "spell",
+          "edition": "1E",
+          "source": "UA",
+          "url": "src/published/books/ua/ua-magic-user-spell-table.md#28"
+        }
+      ],
+      "reason": "PHB 法术详述标题与 UA 法术表均明确列为“群体变树术 Massmorph”；不同职业列表同名法术沿用同一译名。"
+    },
+    {
+      "category": "spell",
+      "en": "Shadow Door",
+      "zh": "阴影门",
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title",
+      "references": [
+        {
+          "en": "Shadow Door",
+          "zh": "阴影门",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-illusionists.md#724"
+        },
+        {
+          "en": "Shadow Door",
+          "zh": "阴影门",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-illusionists.md#51"
+        }
+      ],
+      "reason": "PHB 与 DMG 幻术师法术详述均用“阴影门 Shadow Door”；术语表明确排除旧译“暗影门”。"
+    },
+    {
+      "category": "spell",
+      "en": "Stone to Flesh",
+      "zh": "化石为肉",
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title",
+      "references": [
+        {
+          "en": "Stone to Flesh",
+          "zh": "化石为肉",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#2234"
+        },
+        {
+          "en": "Stone to Flesh",
+          "zh": "化石为肉",
+          "category": "spell",
+          "edition": "1E",
+          "source": "UA",
+          "url": "src/published/books/ua/ua-magic-user-spell-table.md#85"
+        }
+      ],
+      "reason": "PHB 法术详述标题与 UA 法术表均明确列为“化石为肉 Stone to Flesh”；保留该法术原书方向，不与相反效果 Flesh to Stone 混淆。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning I",
+      "zh": "召唤怪物 I",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning I",
+          "zh": "召唤怪物 I",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#1021"
+        },
+        {
+          "en": "Monster Summoning I",
+          "zh": "召唤怪物 I",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#79"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning II",
+      "zh": "召唤怪物 II",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning II",
+          "zh": "召唤怪物 II",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#1317"
+        },
+        {
+          "en": "Monster Summoning II",
+          "zh": "召唤怪物 II",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#113"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning III",
+      "zh": "召唤怪物 III",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning III",
+          "zh": "召唤怪物 III",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#1656"
+        },
+        {
+          "en": "Monster Summoning III",
+          "zh": "召唤怪物 III",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#155"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning IV",
+      "zh": "召唤怪物 IV",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning IV",
+          "zh": "召唤怪物 IV",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#2091"
+        },
+        {
+          "en": "Monster Summoning IV",
+          "zh": "召唤怪物 IV",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#205"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning V",
+      "zh": "召唤怪物 V",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning V",
+          "zh": "召唤怪物 V",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#2402"
+        },
+        {
+          "en": "Monster Summoning V",
+          "zh": "召唤怪物 V",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#239"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning VI",
+      "zh": "召唤怪物 VI",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning VI",
+          "zh": "召唤怪物 VI",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#2665"
+        },
+        {
+          "en": "Monster Summoning VI",
+          "zh": "召唤怪物 VI",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#257"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Monster Summoning VII",
+      "zh": "召唤怪物 VII",
+      "legacyZh": [
+        "召唤怪物",
+        "怪物召唤",
+        "怪物召唤术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name",
+      "references": [
+        {
+          "en": "Monster Summoning VII",
+          "zh": "召唤怪物 VII",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#2888"
+        },
+        {
+          "en": "Monster Summoning VII",
+          "zh": "召唤怪物 VII",
+          "category": "spell",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#291"
+        }
+      ],
+      "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
     }
   ]
 }
