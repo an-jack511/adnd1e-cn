@@ -27,7 +27,7 @@ for(const [name,price,note] of [
  ['Blowgun and needle','20.05 gp','吹箭筒 20 gp＋针 1 sp（UA）。'],
  ['Quarrel (or Bolt), heavy','2 sp','PHB 每二十支 2 gp，折算为每支。'],
  ['Sling Bullet','5 cp','PHB 每二十颗 10 sp，折算为每颗。'],
- ['Staff Sling Bullet','5 cp','投石索铅弹；PHB 每二十颗 10 sp，折算为每颗。'],
+ ['Staff Sling Bullet','5 cp','投石索子弹；PHB 每二十颗 10 sp，折算为每颗。'],
 ])prices[key(name)]={price,source:{book:note.includes('UA')?'UA':'PHB',page:note.includes('UA')?25:35,section:note.includes('UA')?section:'Equipment'},note};
 writeFileSync('src/data/public/ua-equipment-prices.json',JSON.stringify(prices,null,2)+'\n');
 console.log(`Indexed ${Object.keys(prices).length} sourced equipment prices.`);

@@ -10,7 +10,7 @@
 | IV | 1 |
 | VI | 1 |
 
-## 圣物与遗物能力／效果表 Artifacts and Relics Power/Effects Tables
+## 神器与圣遗物能力／效果表 Artifacts and Relics Power/Effects Tables
 
 ### I. 次要善性能力 Minor Benign Powers
 
@@ -21,7 +21,7 @@
 | C | 根据命令产生听觉幻象，每天 <strong>3 次</strong>。 |
 | D | 通过触碰施展“祝福术”。 |
 | E | 贴近耳朵时获得“通晓语言”。 |
-| F | 触碰眼睛时获得“千里眼术”。 |
+| F | 触碰眼睛时获得“鹰眼术”。 |
 | G | 施展“色彩喷射术”，每天 <strong>3 次</strong>。 |
 | H | 握住时可“通晓语言”。 |
 | I | 每天 <strong>1 次</strong>创造食物与水。 |
