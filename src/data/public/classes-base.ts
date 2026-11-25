@@ -39,9 +39,9 @@ const baseClasses: ClassEntry[] = [
     id: 'cleric', nameZh: '牧师', nameEn: 'Cleric', primeRequisite: 'WIS', minimumAbilities: { WIS: 9 },
     eligibleRaces: ['human', 'half-elf', 'half-orc'], hitDie: 'd8', alignment: '除绝对中立外任意',
     armor: '任意护甲与盾牌', weapons: '棍棒、连枷、锤、硬头锤、长杖', spellcasting: '牧师法术；祈祷准备',
-    description: '防护、治疗与驱退不死生物；能穿甲，但不得使用带刃或尖头武器。',
+    description: '防护、治疗与驱散不死生物；能穿甲，但不得使用带刃或尖头武器。',
     abilities: [
-      { name: '驱退不死生物', description: '按牧师等级与目标类别使用驱退矩阵。', href: '/books/phb/turning-undead/' },
+      { name: '驱散不死生物', description: '按牧师等级与目标类别使用驱退矩阵。', href: '/books/phb/turning-undead/' },
       { name: '施法', description: '感知影响额外法术与施法；法术须高声念诵。', href: '/spells/?class=Cleric' },
       { name: '8 级追随者', description: '建立礼拜场所后，可吸引 20—200 名追随者。' },
       { name: '9 级宗教要塞', description: '可修建宗教要塞；建造费用按同类建筑的一半计算。', href: '/rules/strongholds' }
@@ -77,7 +77,7 @@ const baseClasses: ClassEntry[] = [
       { name: '探测邪恶', description: '集中精神时，可探测最远 60 英尺内的邪恶。' },
       { name: '豁免与疾病', description: '所有豁免 +2；免疫疾病。' },
       { name: '圣疗', description: '每日一次，每等级治疗 2 点伤害。' },
-      { name: '驱退与战马', description: '3 级起驱退不死生物；4 级起可召来特殊战马。' },
+      { name: '驱退与战马', description: '3 级起驱散不死生物；4 级起可召来特殊战马。' },
       { name: '圣武士戒律', description: '魔法物品数量受限；收入须取十分之一捐赠。' }
     ], source: source('Paladin')
   },
@@ -132,7 +132,7 @@ const baseClasses: ClassEntry[] = [
     abilities: [
       { name: '行刺', description: '目标遭到突袭时可使用行刺表；失败仍造成正常武器伤害。' },
       { name: '乔装', description: '可伪装成人类、半人类或类人生物；被识破概率视伪装内容而变。' },
-      { name: '阵营语言', description: '9 级起，符合智力条件者可学习额外阵营语言。' }
+      { name: '阵营语', description: '9 级起，符合智力条件者可学习额外阵营语。' }
     ], source: source('Assassin')
   },
   {
