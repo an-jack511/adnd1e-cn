@@ -203,11 +203,11 @@
 
 <strong>移动 Movement：</strong>角色使用 AD&D 移动速度，因为两种游戏的尺度大致相同。
 
-<strong>行动顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次近战轮视为一段。
+<strong>行动顺序 Turn Sequence：</strong>使用 AD&D 规则；一次搜索行动视为一轮，一次轮视为一段。
 
 <strong>武器射程 Weapon Range：</strong>在户外，将 GAMMA WORLD 的米换算为 AD&D 英寸（″），后者表示码。在地下环境中，GAMMA WORLD“神器”武器的射程不要换算成 AD&D 英寸，而应将其射程乘以 <strong>3</strong>，以补偿地下尺度缩至户外的三分之一。
 
-<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗近战轮换算为 AD&D 的段。
+<strong>射速 Rate of Fire：</strong>使用 AD&D 规则；需要时将 GAMMA WORLD 的战斗轮换算为 AD&D 的段。
 
 <strong>先攻 Initiative：</strong>使用 AD&D 规则。
 

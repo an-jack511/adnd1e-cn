@@ -12,7 +12,7 @@ export const lowLevelMuCombat = Object.freeze({
     {id:'death',label:'麻痹／毒素／死亡魔法',target:14},
     {id:'polymorph',label:'石化／变形',target:13},
     {id:'device',label:'权杖／法杖／魔杖',target:11},
-    {id:'breath',label:'吐息武器',target:15},
+    {id:'breath',label:'喷吐武器',target:15},
     {id:'spell',label:'法术',target:12},
   ]),
   caveats:'职业基础值；物品变形、造成石化/变形的吐息、已有指定类别的法术应归入对应类别。自然1总是失败。武器、距离、能力、魔法及情境修正另算。',

@@ -69,14 +69,14 @@
 - 碎石（第 21 页）
 - 固体屏障（第 21 页）
 
-### 疲劳与精疲力竭 Fatigue and Exhaustion（第 21 页）
+### 疲劳与力竭 Fatigue and Exhaustion（第 21 页）
 
 - 疲劳的影响（第 21 页）
 - 精疲力竭的影响（第 22 页）
 
-### 黑暗中的移动影响 Movement Effects of Darkness（第 22 页）
+### 黑暗对移动的影响 Movement Effects of Darkness（第 22 页）
 
-### 光滑水平表面上的移动 Movement on Slippery Horizontal Surfaces（第 22 页）
+### 在光滑水平表面上移动 Movement on Slippery Horizontal Surfaces（第 22 页）
 
 ### 熟练项 Proficiencies（第 23 页）
 
