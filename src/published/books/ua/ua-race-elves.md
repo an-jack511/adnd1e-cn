@@ -22,7 +22,7 @@
 
 黑暗精灵具有 <strong>12″</strong>范围的红外视觉。卓尔女性的基础移动率是 <strong>15″</strong>，男性是 <strong>12″</strong>。他们和其他精灵一样能侦测密门与隐蔽门，也能像矮人一样侦测新建石工、石制陷阱、滑动墙及地下深度。黑暗精灵在相同条件下能像其他精灵一样无声移动，遭到突袭的概率只有 <strong>1/8</strong>。
 
-所有卓尔天生每天各可使用一次*舞光术 Dancing Lights*、*妖火 Faerie Fire*和*黑暗术（5 尺半径） Darkness, 5′ Radius*。达到任一职业 <strong>4 级</strong>后，他们每天还可各施展一次*侦测魔法 Detect Magic*、*侦测阵营 Know Alignment*和*浮空术 Levitate*。达到 <strong>4 级</strong>或更高的女性另外每天各可使用一次*千里眼术 Clairvoyance*、*侦测谎言 Detect Lie*（或其逆转法术）、*暗示术 Suggestion*和*解除魔法 Dispel Magic*。
+所有卓尔天生每天各可使用一次*舞光术 Dancing Lights*、*妖火 Faerie Fire*和*黑暗术（5 尺半径） Darkness, 5′ Radius*。达到任一职业 <strong>4 级</strong>后，他们每天还可各施展一次*侦测魔法 Detect Magic*、*侦测阵营 Know Alignment*和*浮空术 Levitate*。达到 <strong>4 级</strong>或更高的女性另外每天各可使用一次*鹰眼术 Clairvoyance*、*侦测谎言 Detect Lie*（或其逆转法术）、*暗示术 Suggestion*和*解除魔法 Dispel Magic*。
 
 卓尔角色的属性值可按通常方法生成，也可由地下城主选择采用《恶魔宝典》第 <strong>34 页</strong>所述方法。若采用后者，《玩家手册》第 <strong>14 页</strong>“种族的减值与加值”所列精灵初始掷骰调整便不适用。
 

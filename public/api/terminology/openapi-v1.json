@@ -1,0 +1,58 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "AD&D 1E 中文资料中英术语 API",
+    "version": "1.0.0",
+    "description": "公开读取 AD&D 1E 中文资料术语库。每条记录保留英文原词、中文译名、类别、核对状态、别名及可追溯出处。reference-only 表示跨版本参考，不应直接作为 AD&D 1E 定译。"
+  },
+  "servers": [{ "url": "https://adnd1e-cn.pages.dev" }],
+  "paths": {
+    "/api/terminology/v1.json": {
+      "get": {
+        "operationId": "getTerminologyCatalog",
+        "summary": "获取完整中英术语表",
+        "description": "静态 JSON 快照，无需 API 密钥。响应按 3R、5E、5R 顺序记录译名参考优先级。可由调用方按 category、status、en、zh、aliases 筛选。",
+        "responses": {
+          "200": {
+            "description": "术语目录",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["schemaVersion", "total", "translationPriority", "statusDefinitions", "entries"],
+                  "properties": {
+                    "schemaVersion": { "type": "string", "example": "1.0.0" },
+                    "total": { "type": "integer" },
+                    "translationPriority": { "type": "array", "items": { "type": "string" }, "example": ["3R", "5E", "5R"] },
+                    "statusDefinitions": { "type": "object", "additionalProperties": { "type": "string" } },
+                    "entries": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["id", "en", "zh", "category", "status", "aliases", "englishVariants", "references", "occurrences", "notes"],
+                        "properties": {
+                          "id": { "type": "string" },
+                          "en": { "type": "string", "description": "英文原词或名称" },
+                          "zh": { "type": "string", "description": "当前中文译名或待核暂译" },
+                          "category": { "type": "string" },
+                          "status": { "type": "string", "enum": ["verified-exact", "pending", "adapted-variant", "adapted-element", "reference-conflict", "reference-only"] },
+                          "verificationScope": { "type": ["string", "null"] },
+                          "aliases": { "type": "array", "items": { "type": "string" } },
+                          "englishVariants": { "type": "array", "items": { "type": "string" } },
+                          "activeIds": { "type": "array", "items": { "type": "string" } },
+                          "references": { "type": "array", "items": { "type": "object" } },
+                          "occurrences": { "type": "array", "items": { "type": "object" } },
+                          "notes": { "type": "array", "items": { "type": "string" } }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

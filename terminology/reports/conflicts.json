@@ -13,11 +13,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "野蛮人"
-      },
-      {
         "path": "src/data/public/classes-base.ts",
         "location": "20",
         "zh": "野蛮人"
@@ -25,7 +20,7 @@
       {
         "path": "src/data/public/dragon-classes.json",
         "location": "/7",
-        "zh": "野蛮人"
+        "zh": "野蛮人（Gygax早期测试稿）"
       },
       {
         "path": "src/data/public/oa-classes.ts",
@@ -63,10 +58,7 @@
         "zh": "野蛮人"
       }
     ],
-    "activeIds": [
-      "barbarian",
-      "oa-barbarian"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -107,11 +99,6 @@
     "legacyZh": [],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "圣武士"
-      },
-      {
         "path": "src/data/public/classes-base.ts",
         "location": "73",
         "zh": "圣武士"
@@ -142,9 +129,7 @@
         "zh": "圣武士"
       }
     ],
-    "activeIds": [
-      "paladin"
-    ],
+    "activeIds": [],
     "status": "reference-conflict",
     "references": [
       {
@@ -298,12 +283,12 @@
     "occurrences": [
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "18",
+        "location": "17",
         "zh": "圣匣"
       },
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "19",
+        "location": "18",
         "zh": "命匣"
       }
     ],
@@ -315,14 +300,14 @@
         "source": "AD&D 1E curated glossary",
         "en": "Phylactery",
         "zh": "圣匣",
-        "url": "src/published/books/dmg/glossary-2.md#18"
+        "url": "src/published/books/dmg/glossary-2.md#17"
       },
       {
         "edition": "1E",
         "source": "AD&D 1E curated glossary",
         "en": "Phylactery",
         "zh": "命匣",
-        "url": "src/published/books/dmg/glossary-2.md#19"
+        "url": "src/published/books/dmg/glossary-2.md#18"
       }
     ],
     "notes": [
@@ -345,12 +330,12 @@
     "occurrences": [
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "192",
+        "location": "187",
         "zh": "对毒素豁免"
       },
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "192",
+        "location": "187",
         "zh": "对毒药豁免"
       }
     ],
@@ -362,14 +347,14 @@
         "source": "AD&D 1E curated glossary",
         "en": "Save vs. Poison",
         "zh": "对毒素豁免",
-        "url": "src/published/books/dmg/glossary-2.md#192"
+        "url": "src/published/books/dmg/glossary-2.md#187"
       },
       {
         "edition": "1E",
         "source": "AD&D 1E curated glossary",
         "en": "Save vs. Poison",
         "zh": "对毒药豁免",
-        "url": "src/published/books/dmg/glossary-2.md#192"
+        "url": "src/published/books/dmg/glossary-2.md#187"
       }
     ],
     "notes": [
@@ -719,64 +704,29 @@
     "key": "heading:clairaudience",
     "category": "heading",
     "en": "Clairaudience",
-    "zh": "盗听",
+    "zh": "锐耳术",
     "englishVariants": [
       "Clairaudience"
     ],
     "legacyZh": [
       "千里耳",
-      "锐耳术",
       "隔墙闻声"
     ],
     "occurrences": [
       {
         "path": "src/published/books/dmg/dmg-treasure.md",
         "location": "634",
-        "zh": "盗听"
+        "zh": "锐耳术"
       },
       {
         "path": "src/published/books/phb/minor-devotions.md",
         "location": "86",
-        "zh": "千里耳"
+        "zh": "锐耳术"
       },
       {
         "path": "src/published/books/phb/spell-explanations-magic-users.md",
         "location": "811",
         "zh": "锐耳术"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:clairvoyance",
-    "category": "heading",
-    "en": "Clairvoyance",
-    "zh": "千里眼",
-    "englishVariants": [
-      "Clairvoyance"
-    ],
-    "legacyZh": [
-      "隔墙观望",
-      "鹰眼术"
-    ],
-    "occurrences": [
-      {
-        "path": "src/published/books/dmg/dmg-treasure.md",
-        "location": "638",
-        "zh": "千里眼"
-      },
-      {
-        "path": "src/published/books/phb/minor-devotions.md",
-        "location": "92",
-        "zh": "千里眼"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "825",
-        "zh": "鹰眼术"
       }
     ],
     "activeIds": [],
@@ -1977,7 +1927,7 @@
       {
         "path": "src/data/published/books.json",
         "location": "/791",
-        "zh": "幽影龙、巨蜻蜓与龙马"
+        "zh": "Shadow Dragon、Giant Dragonfly 与 Dragon Horse"
       }
     ],
     "activeIds": [],
@@ -2324,7 +2274,7 @@
       },
       {
         "path": "src/published/books/dmg/treasure-continuation-26.md",
-        "location": "24",
+        "location": "28",
         "zh": "剑"
       },
       {
@@ -2725,11 +2675,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "长柄战斧"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/19",
         "zh": "长柄战斧"
@@ -2755,9 +2700,7 @@
         "zh": "长柄战斧"
       }
     ],
-    "activeIds": [
-      "phb-item-020"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -2776,11 +2719,6 @@
       "鸦嘴锤"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "鸦喙锤"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/20",
@@ -2807,9 +2745,7 @@
         "zh": "鸦喙锤"
       }
     ],
-    "activeIds": [
-      "phb-item-021"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -2828,11 +2764,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "开门钟琴"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/258",
         "zh": "开门钟琴"
@@ -2848,9 +2779,7 @@
         "zh": "开门钟琴"
       }
     ],
-    "activeIds": [
-      "magic-chime-of-opening"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -2881,6 +2810,47 @@
     ]
   },
   {
+    "key": "item:clairaudience",
+    "category": "item",
+    "en": "Clairaudience",
+    "zh": "锐耳术药水",
+    "englishVariants": [
+      "Clairaudience"
+    ],
+    "legacyZh": [
+      "千里传音",
+      "千里传音药水"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/public/item-index.json",
+        "location": "/166",
+        "zh": "千里传音药水"
+      },
+      {
+        "path": "src/data/public/magic-items-imported.json",
+        "location": "/1",
+        "zh": "千里传音药水"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "en": "Clairaudience",
+        "zh": "锐耳术药水",
+        "category": "item",
+        "edition": "1E",
+        "source": "DMG",
+        "url": "src/published/books/dmg/dmg-treasure.md#134"
+      }
+    ],
+    "notes": [
+      "DMG 药水表与详情说明均指向同名三环魔法师法术；按 3R 术语表中的法术译名统一名称，并补出“药水”类别。旧译保留为检索别名。"
+    ],
+    "verificationScope": "1e-potion-name-derived-from-canonical-spell plus potion category"
+  },
+  {
     "key": "item:cube of force",
     "category": "item",
     "en": "Cube of Force",
@@ -2893,11 +2863,6 @@
       "力量立方"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "力场魔方"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/267",
@@ -2914,9 +2879,7 @@
         "zh": "力场魔方"
       }
     ],
-    "activeIds": [
-      "magic-cube-of-force"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -2960,11 +2923,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "异界之门魔方"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/269",
         "zh": "异界之门魔方"
@@ -2980,9 +2938,7 @@
         "zh": "异界之门魔方"
       }
     ],
-    "activeIds": [
-      "magic-cubic-gate"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3026,11 +2982,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "淬毒匕首"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/421",
         "zh": "淬毒匕首"
@@ -3046,9 +2997,7 @@
         "zh": "淬毒匕首"
       }
     ],
-    "activeIds": [
-      "magic-dagger-of-venom"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3092,11 +3041,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "无尽水瓶"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/271",
         "zh": "无尽水瓶"
@@ -3112,9 +3056,7 @@
         "zh": "无尽水瓶"
       }
     ],
-    "activeIds": [
-      "magic-decanter-of-endless-water"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3158,11 +3100,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "无踪粉"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/276",
         "zh": "无踪粉"
@@ -3178,9 +3115,7 @@
         "zh": "无踪粉"
       }
     ],
-    "activeIds": [
-      "magic-dust-of-disappearance"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3224,11 +3159,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "喷嚏粉"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/277",
         "zh": "喷嚏粉"
@@ -3244,9 +3174,7 @@
         "zh": "喷嚏粉"
       }
     ],
-    "activeIds": [
-      "magic-dust-of-sneezing-and-choking"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3290,11 +3218,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "火巨灵囚瓶"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/278",
         "zh": "火巨灵囚瓶"
@@ -3310,9 +3233,7 @@
         "zh": "火巨灵囚瓶"
       }
     ],
-    "activeIds": [
-      "magic-efreeti-bottle"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3356,11 +3277,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魅惑镜片"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/280",
         "zh": "魅惑镜片"
@@ -3376,9 +3292,7 @@
         "zh": "魅惑镜片"
       }
     ],
-    "activeIds": [
-      "magic-eyes-of-charming"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3422,11 +3336,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "微视镜片"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/282",
         "zh": "微视镜片"
@@ -3442,9 +3351,7 @@
         "zh": "微视镜片"
       }
     ],
-    "activeIds": [
-      "magic-eyes-of-minute-seeing"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3488,11 +3395,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "长柄刀"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/30",
         "zh": "长柄刀"
@@ -3518,9 +3420,7 @@
         "zh": "长柄刀"
       }
     ],
-    "activeIds": [
-      "phb-item-031"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3539,11 +3439,6 @@
       "长柄镰叉"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "叉刃长柄刀"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/31",
@@ -3565,9 +3460,7 @@
         "zh": "叉刃长柄刀"
       }
     ],
-    "activeIds": [
-      "phb-item-032"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3586,11 +3479,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "真视宝石"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/291",
         "zh": "真视宝石"
@@ -3606,9 +3494,7 @@
         "zh": "真视宝石"
       }
     ],
-    "activeIds": [
-      "magic-gem-of-seeing"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3653,11 +3539,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "刀钩戟"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/36",
         "zh": "刀钩戟"
@@ -3683,9 +3564,7 @@
         "zh": "刀钩戟"
       }
     ],
-    "activeIds": [
-      "phb-item-037"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3703,11 +3582,6 @@
       "钩镰"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "钩镰枪"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/37",
@@ -3734,9 +3608,7 @@
         "zh": "钩镰枪"
       }
     ],
-    "activeIds": [
-      "phb-item-038"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3755,11 +3627,6 @@
       "钩镰屠刀"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "钩镰斧"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/38",
@@ -3786,9 +3653,7 @@
         "zh": "钩镰斧"
       }
     ],
-    "activeIds": [
-      "phb-item-039"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3807,11 +3672,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "治疗药水"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/180",
         "zh": "治疗药水"
@@ -3822,9 +3682,7 @@
         "zh": "治疗药水"
       }
     ],
-    "activeIds": [
-      "magic-healing"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -3843,11 +3701,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "音爆号角"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/300",
         "zh": "音爆号角"
@@ -3863,9 +3716,7 @@
         "zh": "音爆号角"
       }
     ],
-    "activeIds": [
-      "magic-horn-of-blasting"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3909,11 +3760,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "西风马蹄铁"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/306",
         "zh": "西风马蹄铁"
@@ -3929,9 +3775,7 @@
         "zh": "西风马蹄铁"
       }
     ],
-    "activeIds": [
-      "magic-horseshoes-of-a-zephyr"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -3975,11 +3819,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "加速马蹄铁"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/305",
         "zh": "加速马蹄铁"
@@ -3995,9 +3834,7 @@
         "zh": "加速马蹄铁"
       }
     ],
-    "activeIds": [
-      "magic-horseshoes-of-speed"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4041,11 +3878,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "卡夫统灵药"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/316",
         "zh": "卡夫统灵药"
@@ -4061,9 +3893,7 @@
         "zh": "卡夫统灵药"
       }
     ],
-    "activeIds": [
-      "magic-keoghtoms-ointment"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4108,11 +3938,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "浮空药水"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/185",
         "zh": "浮空药水"
@@ -4138,9 +3963,7 @@
         "zh": "浮空术"
       }
     ],
-    "activeIds": [
-      "magic-levitation"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -4158,11 +3981,6 @@
       "长生"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "长生药水"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/186",
@@ -4184,9 +4002,7 @@
         "zh": "长生"
       }
     ],
-    "activeIds": [
-      "magic-longevity"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -4205,11 +4021,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "建筑里拉琴"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/320",
         "zh": "建筑里拉琴"
@@ -4225,9 +4036,7 @@
         "zh": "建筑里拉琴"
       }
     ],
-    "activeIds": [
-      "magic-lyre-of-building"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4260,11 +4069,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "瓦解之锤"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/430",
         "zh": "瓦解之锤"
@@ -4280,9 +4084,7 @@
         "zh": "瓦解之锤"
       }
     ],
-    "activeIds": [
-      "magic-mace-of-disruption"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4326,11 +4128,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "健体手册"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/322",
         "zh": "健体手册"
@@ -4346,9 +4143,7 @@
         "zh": "健体手册"
       }
     ],
-    "activeIds": [
-      "magic-manual-of-gainful-exercise"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4392,11 +4187,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "摄心镜"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/331",
         "zh": "摄心镜"
@@ -4412,9 +4202,7 @@
         "zh": "摄心镜"
       }
     ],
-    "activeIds": [
-      "magic-mirror-of-life-trapping"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4458,11 +4246,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "诺泽尔的惊奇颜料"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/340",
         "zh": "诺泽尔的惊奇颜料"
@@ -4478,9 +4261,7 @@
         "zh": "诺泽尔的惊奇颜料"
       }
     ],
-    "activeIds": [
-      "magic-nolzurs-marvelous-pigments"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4525,11 +4306,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "以太化之油"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/187",
         "zh": "以太化之油"
@@ -4545,9 +4321,7 @@
         "zh": "以太化之油"
       }
     ],
-    "activeIds": [
-      "magic-oil-of-etherealness"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4592,11 +4366,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "滑溜之油"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/188",
         "zh": "滑溜之油"
@@ -4612,9 +4381,7 @@
         "zh": "滑溜之油"
       }
     ],
-    "activeIds": [
-      "magic-oil-of-slipperiness"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4658,11 +4425,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "龙珠"
-      },
-      {
         "path": "src/data/public/dla-items.ts",
         "location": "15",
         "zh": "龙珠"
@@ -4693,10 +4455,7 @@
         "zh": "龙珠"
       }
     ],
-    "activeIds": [
-      "dla-orb-dragonkind",
-      "dmg-item-orb-of-dragonkind"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4740,11 +4499,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阔刃矛"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/47",
         "zh": "阔刃矛"
@@ -4770,9 +4524,7 @@
         "zh": "阔刃矛"
       }
     ],
-    "activeIds": [
-      "phb-item-048"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -4791,11 +4543,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "法力再生珍珠"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/341",
         "zh": "法力再生珍珠"
@@ -4811,9 +4558,7 @@
         "zh": "法力再生珍珠"
       }
     ],
-    "activeIds": [
-      "magic-pearl-of-power"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4857,11 +4602,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "辟毒护符"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/345",
         "zh": "辟毒护符"
@@ -4877,9 +4617,7 @@
         "zh": "辟毒护符"
       }
     ],
-    "activeIds": [
-      "magic-periapt-of-proof-against-poison"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4923,11 +4661,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "愈合护符"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/346",
         "zh": "愈合护符"
@@ -4943,9 +4676,7 @@
         "zh": "愈合护符"
       }
     ],
-    "activeIds": [
-      "magic-periapt-of-wound-closure"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -4989,11 +4720,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "迷情媚药"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/189",
         "zh": "迷情媚药"
@@ -5009,9 +4735,7 @@
         "zh": "迷情媚药"
       }
     ],
-    "activeIds": [
-      "magic-philter-of-love"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5055,29 +4779,27 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "以太化板甲"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/362",
-        "zh": "以太化板甲"
+        "zh": "无相位板甲"
       },
       {
         "path": "src/data/public/magic-items-imported.json",
         "location": "/197",
-        "zh": "以太化板甲"
+        "zh": "无相位板甲"
       },
       {
         "path": "src/published/books/dmg/treasure-continuation-25.md",
         "location": "66",
-        "zh": "以太化板甲"
+        "zh": "无相位板甲"
+      },
+      {
+        "path": "src/published/books/dmg/treasure-continuation-26.md",
+        "location": "1",
+        "zh": "无相位板甲"
       }
     ],
-    "activeIds": [
-      "magic-plate-mail-of-etherealness"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5116,11 +4838,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "长柄叉"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/53",
         "zh": "长柄叉"
@@ -5146,9 +4863,7 @@
         "zh": "长柄叉"
       }
     ],
-    "activeIds": [
-      "phb-item-054"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5167,11 +4882,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魔法抗力戒指"
-      },
-      {
         "path": "src/data/public/dragon-items.json",
         "location": "/21",
         "zh": "魔法抗力戒指"
@@ -5187,9 +4897,7 @@
         "zh": "魔法抗性戒指 ·"
       }
     ],
-    "activeIds": [
-      "dragon-117-magic-item-ring-of-magic-resistance"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5208,11 +4916,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "通晓语言戒指"
-      },
-      {
         "path": "src/data/public/dragon-items.json",
         "location": "/6",
         "zh": "通晓语言戒指"
@@ -5228,9 +4931,7 @@
         "zh": "巧言术戒指 ·"
       }
     ],
-    "activeIds": [
-      "dragon-117-magic-item-ring-of-tongues"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5249,11 +4950,6 @@
       "飞行速度"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "加速药水"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/194",
@@ -5280,9 +4976,7 @@
         "zh": "迅捷"
       }
     ],
-    "activeIds": [
-      "magic-speed"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5300,11 +4994,6 @@
       "双叉长枪"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "戟矛"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/58",
@@ -5331,9 +5020,7 @@
         "zh": "戟矛"
       }
     ],
-    "activeIds": [
-      "phb-item-059"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5351,11 +5038,6 @@
       "长柄屠刀"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "长柄砍斧"
-      },
       {
         "path": "src/data/public/item-index.json",
         "location": "/65",
@@ -5382,9 +5064,7 @@
         "zh": "长柄砍斧"
       }
     ],
-    "activeIds": [
-      "phb-item-066"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5403,11 +5083,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "搜敌魔杖"
-      },
-      {
         "path": "src/data/public/item-index.json",
         "location": "/239",
         "zh": "搜敌魔杖"
@@ -5423,9 +5098,7 @@
         "zh": "搜敌魔杖"
       }
     ],
-    "activeIds": [
-      "magic-wand-of-enemy-detection"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5469,11 +5142,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "鸟羽人"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/0",
         "zh": "鸟羽人"
@@ -5494,9 +5162,7 @@
         "zh": "阿拉科克拉（鸟人）"
       }
     ],
-    "activeIds": [
-      "ff-aarakocra-bird-man"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5530,11 +5196,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阿比沙魔（五色）"
-      },
-      {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/180",
         "zh": "阿比沙魔（五色）"
@@ -5555,9 +5216,7 @@
         "zh": "阿比沙魔 ·"
       }
     ],
-    "activeIds": [
-      "dragon-075-monster-abishai"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5576,11 +5235,6 @@
       "鲍勒斯"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "底栖魔鱼"
-      },
       {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/143",
@@ -5602,9 +5256,7 @@
         "zh": "底栖魔鱼"
       }
     ],
-    "activeIds": [
-      "mm2-aboleth"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5650,11 +5302,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阿卡伊拉伊"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/1",
         "zh": "阿卡伊拉伊"
@@ -5670,9 +5317,7 @@
         "zh": "阿卡伊拉伊"
       }
     ],
-    "activeIds": [
-      "ff-achaierai"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5706,11 +5351,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幻灵"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/6",
         "zh": "幻灵"
@@ -5726,9 +5366,7 @@
         "zh": "幻灵 ·"
       }
     ],
-    "activeIds": [
-      "ff-apparition"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -5747,11 +5385,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "暗杀虫"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/7",
         "zh": "暗杀虫"
@@ -5767,9 +5400,7 @@
         "zh": "暗杀虫"
       }
     ],
-    "activeIds": [
-      "ff-assassin-bug"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5803,11 +5434,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "吞金兽"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/141",
         "zh": "吞金兽"
@@ -5823,9 +5449,7 @@
         "zh": "吞金兽"
       }
     ],
-    "activeIds": [
-      "mm2-aurumvorax"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5859,11 +5483,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "火矮人"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/142",
         "zh": "火矮人"
@@ -5879,9 +5498,7 @@
         "zh": "火矮人"
       }
     ],
-    "activeIds": [
-      "mm2-azer"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5915,11 +5532,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "巴布魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/25",
         "zh": "巴布魔"
@@ -5935,9 +5547,7 @@
         "zh": "巴布魔"
       }
     ],
-    "activeIds": [
-      "mm2-babau"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -5983,11 +5593,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "巴艾尔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/42",
         "zh": "巴艾尔"
@@ -6003,9 +5608,7 @@
         "zh": "巴艾尔"
       }
     ],
-    "activeIds": [
-      "mm2-bael"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6041,20 +5644,15 @@
     "key": "monster:baku",
     "category": "monster",
     "en": "Baku",
-    "zh": "巴库",
+    "zh": "貘",
     "englishVariants": [
       "Baku"
     ],
     "legacyZh": [
-      "巴库 ·",
-      "貘"
+      "巴库",
+      "巴库 ·"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "巴库"
-      },
       {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/8",
@@ -6081,9 +5679,7 @@
         "zh": "巴库 ·"
       }
     ],
-    "activeIds": [
-      "mm2-baku"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -6102,11 +5698,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "巴弗灭"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/26",
         "zh": "巴弗灭"
@@ -6122,9 +5713,7 @@
         "zh": "巴弗灭"
       }
     ],
-    "activeIds": [
-      "mm2-baphomet"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6239,14 +5828,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "犬魔"
-      },
-      {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/0",
-        "zh": "犬魔"
+        "zh": "巴盖斯特魔犬"
       },
       {
         "path": "src/data/public/mm2-monsters-imported.json",
@@ -6269,9 +5853,7 @@
         "zh": "犬魔"
       }
     ],
-    "activeIds": [
-      "mm2-barghest"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6317,11 +5899,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "树皮刺怪"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/149",
         "zh": "树皮刺怪"
@@ -6337,9 +5914,7 @@
         "zh": "树皮刺怪 ·"
       }
     ],
-    "activeIds": [
-      "mm2-barkburr"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6374,11 +5949,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "分灵妖"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/64",
         "zh": "分灵妖"
@@ -6394,9 +5964,7 @@
         "zh": "分灵妖"
       }
     ],
-    "activeIds": [
-      "ff-berbalang"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6442,11 +6010,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "炫目者"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/10",
         "zh": "炫目者"
@@ -6462,9 +6025,7 @@
         "zh": "炫目者"
       }
     ],
-    "activeIds": [
-      "ff-blindheim"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6498,11 +6059,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "血海牛头人"
-      },
-      {
         "path": "src/data/public/regional-monsters.json",
         "location": "/22",
         "zh": "血海牛头人"
@@ -6518,9 +6074,7 @@
         "zh": "血海牛头人生物数据"
       }
     ],
-    "activeIds": [
-      "dla-bloodsea-minotaur"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -6539,11 +6093,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "史拉蓝蟾"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/139",
         "zh": "史拉蓝蟾"
@@ -6559,9 +6108,7 @@
         "zh": "史拉蓝蟾"
       }
     ],
-    "activeIds": [
-      "ff-blue-slaad"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6607,11 +6154,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "捣蛋鬼"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/154",
         "zh": "捣蛋鬼"
@@ -6627,9 +6169,7 @@
         "zh": "捣蛋鬼"
       }
     ],
-    "activeIds": [
-      "mm2-boggle"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6675,11 +6215,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "布布里巨鸟"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/155",
         "zh": "布布里巨鸟"
@@ -6700,9 +6235,7 @@
         "zh": "布布里巨鸟"
       }
     ],
-    "activeIds": [
-      "mm2-boobrie"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -6721,11 +6254,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "啵灵蛙"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/15",
         "zh": "啵灵蛙"
@@ -6741,9 +6269,7 @@
         "zh": "啵灵蛙"
       }
     ],
-    "activeIds": [
-      "ff-bullywug"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6777,11 +6303,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "坎比翁"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/28",
         "zh": "坎比翁"
@@ -6792,9 +6313,7 @@
         "zh": "坎比翁半恶魔"
       }
     ],
-    "activeIds": [
-      "mm2-cambion"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6840,11 +6359,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "穴钓蟹"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/171",
         "zh": "穴钓蟹"
@@ -6860,9 +6374,7 @@
         "zh": "穴钓蟹"
       }
     ],
-    "activeIds": [
-      "mm2-cave-fisher"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6908,11 +6420,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "喀嘶魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/16",
         "zh": "喀嘶魔"
@@ -6928,9 +6435,7 @@
         "zh": "喀嘶魔"
       }
     ],
-    "activeIds": [
-      "mm2-chasme"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -6976,11 +6481,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "斗篷怪"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/180",
         "zh": "斗篷怪"
@@ -6996,9 +6496,7 @@
         "zh": "斗篷怪"
       }
     ],
-    "activeIds": [
-      "mm2-cloaker"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7044,11 +6542,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "克里欧纳克斯"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/40",
         "zh": "克里欧纳克斯"
@@ -7064,9 +6557,7 @@
         "zh": "克里欧纳克斯"
       }
     ],
-    "activeIds": [
-      "ff-cryonax"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7100,11 +6591,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "亡命恶犬"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/28",
         "zh": "亡命恶犬"
@@ -7120,9 +6606,7 @@
         "zh": "亡命恶犬"
       }
     ],
-    "activeIds": [
-      "ff-death-dog"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7168,11 +6652,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "迪洛矮人"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/29",
         "zh": "迪洛矮人"
@@ -7193,9 +6672,7 @@
         "zh": "迪洛矮人"
       }
     ],
-    "activeIds": [
-      "mm2-derro"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7309,11 +6786,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "恶鸦人"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/34",
         "zh": "恶鸦人"
@@ -7329,9 +6801,7 @@
         "zh": "恶鸦人"
       }
     ],
-    "activeIds": [
-      "ff-dire-corby"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7365,11 +6835,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "四足亚龙"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/45",
         "zh": "四足亚龙"
@@ -7385,9 +6850,7 @@
         "zh": "四足亚龙"
       }
     ],
-    "activeIds": [
-      "mm2-dragonnel"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7421,11 +6884,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "二元冢"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/126",
         "zh": "二元冢"
@@ -7441,9 +6899,7 @@
         "zh": "二元冢"
       }
     ],
-    "activeIds": [
-      "mm2-duodrone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7477,11 +6933,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魔王鹤"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/52",
         "zh": "魔王鹤"
@@ -7490,16 +6941,9 @@
         "path": "../translation/monster-names.tsv",
         "location": "357",
         "zh": "艾布利斯鹤"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-eagle-eblis-eel.md",
-        "location": "33",
-        "zh": "魔王鹤"
       }
     ],
-    "activeIds": [
-      "mm2-eblis"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7589,11 +7033,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "伊特怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/46",
         "zh": "伊特怪"
@@ -7609,9 +7048,7 @@
         "zh": "伊特怪"
       }
     ],
-    "activeIds": [
-      "ff-ettercap"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7657,11 +7094,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "火惧之眼"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/48",
         "zh": "火惧之眼"
@@ -7677,9 +7109,7 @@
         "zh": "火惧之眼"
       }
     ],
-    "activeIds": [
-      "ff-eye-of-fear-and-flame"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7713,11 +7143,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "妖精龙"
-      },
-      {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/28",
         "zh": "妖精龙"
@@ -7748,9 +7173,7 @@
         "zh": "妖精龙 ·"
       }
     ],
-    "activeIds": [
-      "mm2-faerie-dragon"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -7769,11 +7192,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "链枷蜗牛"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/51",
         "zh": "链枷蜗牛"
@@ -7789,9 +7207,7 @@
         "zh": "链枷蜗牛"
       }
     ],
-    "activeIds": [
-      "ff-flail-snail"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7837,11 +7253,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "弗林德鬣狗人"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/54",
         "zh": "弗林德鬣狗人"
@@ -7857,9 +7268,7 @@
         "zh": "弗林德鬣狗人"
       }
     ],
-    "activeIds": [
-      "ff-flind"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7905,11 +7314,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "呋噜"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/55",
         "zh": "呋噜"
@@ -7925,9 +7329,7 @@
         "zh": "呋噜"
       }
     ],
-    "activeIds": [
-      "ff-flumph"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -7973,11 +7375,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魔羊人"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/56",
         "zh": "魔羊人"
@@ -7993,9 +7390,7 @@
         "zh": "魔羊人"
       }
     ],
-    "activeIds": [
-      "ff-forlarren"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8029,11 +7424,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "弗拉兹厄鲁"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/18",
         "zh": "弗拉兹厄鲁"
@@ -8044,9 +7434,7 @@
         "zh": "弗拉兹乌鲁"
       }
     ],
-    "activeIds": [
-      "mm2-fraz-urbluu"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8092,11 +7480,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "石人"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/66",
         "zh": "石人"
@@ -8112,9 +7495,7 @@
         "zh": "石人"
       }
     ],
-    "activeIds": [
-      "mm2-galeb-duhr"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8160,11 +7541,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "妖鬼"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/50",
         "zh": "妖鬼"
@@ -8185,10 +7561,7 @@
         "zh": "妖鬼"
       }
     ],
-    "activeIds": [
-      "ghast",
-      "ref5-ghast"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8235,11 +7608,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "巨蜻蜓"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/219",
         "zh": "巨蜻蜓"
@@ -8255,9 +7623,7 @@
         "zh": "巨蜻蜓"
       }
     ],
-    "activeIds": [
-      "mm2-giant-dragonfly"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8347,11 +7713,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阔步鸟"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/59",
         "zh": "阔步鸟"
@@ -8367,9 +7728,7 @@
         "zh": "阔步鸟"
       }
     ],
-    "activeIds": [
-      "ff-giant-strider"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8415,11 +7774,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "呓语之口"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/70",
         "zh": "呓语之口"
@@ -8440,9 +7794,7 @@
         "zh": "呓语之口"
       }
     ],
-    "activeIds": [
-      "mm2-gibbering-mouther"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8488,11 +7840,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "呱呱精"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/65",
         "zh": "呱呱精"
@@ -8508,9 +7855,7 @@
         "zh": "呱呱精"
       }
     ],
-    "activeIds": [
-      "ff-gibberling"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8556,11 +7901,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "史拉绿蟾"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/141",
         "zh": "史拉绿蟾"
@@ -8576,9 +7916,7 @@
         "zh": "史拉绿蟾"
       }
     ],
-    "activeIds": [
-      "ff-green-slaad"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8624,11 +7962,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "触须怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/71",
         "zh": "触须怪"
@@ -8644,9 +7977,7 @@
         "zh": "触须怪"
       }
     ],
-    "activeIds": [
-      "ff-grell"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8692,11 +8023,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽邃盲族"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/72",
         "zh": "幽邃盲族"
@@ -8712,9 +8038,7 @@
         "zh": "幽邃盲族"
       }
     ],
-    "activeIds": [
-      "ff-grimlock"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8760,11 +8084,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "格龙蛙人"
-      },
-      {
         "path": "src/data/public/gha-monsters.ts",
         "location": "9",
         "zh": "格龙蛙人"
@@ -8790,9 +8109,7 @@
         "zh": "格龙蛙人"
       }
     ],
-    "activeIds": [
-      "gha-grung"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8838,11 +8155,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "人工生命体"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/80",
         "zh": "人工生命体"
@@ -8860,12 +8172,10 @@
       {
         "path": "src/published/books/fr/fr-books-forgotten-realms-5.md",
         "location": "96",
-        "zh": "人工生命体"
+        "zh": "魔宠人偶的制造"
       }
     ],
-    "activeIds": [
-      "homunculus"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8911,11 +8221,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "恐爪怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/78",
         "zh": "恐爪怪"
@@ -8931,9 +8236,7 @@
         "zh": "恐爪怪"
       }
     ],
-    "activeIds": [
-      "ff-hook-horror"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -8979,11 +8282,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "多头蛇"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/81",
         "zh": "多头蛇"
@@ -9009,9 +8307,7 @@
         "zh": "多头蛇"
       }
     ],
-    "activeIds": [
-      "hydra"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9069,11 +8365,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "钢铁眼镜蛇"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/84",
         "zh": "钢铁眼镜蛇"
@@ -9089,9 +8380,7 @@
         "zh": "钢铁眼镜蛇"
       }
     ],
-    "activeIds": [
-      "ff-iron-cobra"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9125,11 +8414,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "胡狼"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/87",
         "zh": "胡狼"
@@ -9140,9 +8424,7 @@
         "zh": "胡狼"
       }
     ],
-    "activeIds": [
-      "jackal-jaguar"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9244,11 +8526,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幻色蛇"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/85",
         "zh": "幻色蛇"
@@ -9264,9 +8541,7 @@
         "zh": "幻色蛇"
       }
     ],
-    "activeIds": [
-      "ff-jaculi"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9300,11 +8575,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "杰莱鼠"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/86",
         "zh": "杰莱鼠"
@@ -9320,9 +8590,7 @@
         "zh": "杰莱鼠"
       }
     ],
-    "activeIds": [
-      "ff-jermlaine"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9356,11 +8624,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "六岐蛇豹"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/87",
         "zh": "六岐蛇豹"
@@ -9376,9 +8639,7 @@
         "zh": "六岐蛇豹"
       }
     ],
-    "activeIds": [
-      "ff-kamadan"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9412,11 +8673,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "藻形水鬼"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/88",
         "zh": "藻形水鬼"
@@ -9432,9 +8688,7 @@
         "zh": "藻形水鬼"
       }
     ],
-    "activeIds": [
-      "ff-kelpie"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9468,11 +8722,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "天狗"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/89",
         "zh": "天狗"
@@ -9488,9 +8737,7 @@
         "zh": "天狗"
       }
     ],
-    "activeIds": [
-      "ff-kenku"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9536,11 +8783,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "土鱼"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/90",
         "zh": "土鱼"
@@ -9556,9 +8798,7 @@
         "zh": "土鱼"
       }
     ],
-    "activeIds": [
-      "ff-khargra"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9592,11 +8832,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "考芮精"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/110",
         "zh": "考芮精"
@@ -9612,9 +8847,7 @@
         "zh": "考芮精"
       }
     ],
-    "activeIds": [
-      "mm2-korred"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9660,11 +8893,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "克拉肯"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/111",
         "zh": "克拉肯"
@@ -9680,9 +8908,7 @@
         "zh": "克拉肯"
       }
     ],
-    "activeIds": [
-      "mm2-kraken"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9730,25 +8956,15 @@
     "key": "monster:kuei",
     "category": "monster",
     "en": "Kuei",
-    "zh": "亡魂鬼（低等灵）",
+    "zh": "魁（附体者）",
     "englishVariants": [
       "Kuei"
     ],
     "legacyZh": [
-      "亡魂鬼（低等灵） ·",
-      "魁（附体者）"
+      "亡魂鬼（低等灵）",
+      "亡魂鬼（低等灵） ·"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "亡魂鬼（低等灵）"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "魁（附体者）"
-      },
       {
         "path": "src/data/public/dragon-monsters.json",
         "location": "/101",
@@ -9770,10 +8986,7 @@
         "zh": "亡魂鬼（低等灵） ·"
       }
     ],
-    "activeIds": [
-      "oa-kuei",
-      "dragon-042-monster-kuei"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -9791,11 +9004,6 @@
       "库奎托阿"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "寇涛"
-      },
       {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/92",
@@ -9822,9 +9030,7 @@
         "zh": "寇涛"
       }
     ],
-    "activeIds": [
-      "ff-kuo-toa"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9870,11 +9076,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "矮妖精"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/93",
         "zh": "矮妖精"
@@ -9900,9 +9101,7 @@
         "zh": "森林：矮妖精"
       }
     ],
-    "activeIds": [
-      "leprechaun"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9936,11 +9135,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "蜥蜴之王"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/95",
         "zh": "蜥蜴之王"
@@ -9956,9 +9150,7 @@
         "zh": "蜥蜴之王"
       }
     ],
-    "activeIds": [
-      "ff-lizard-king"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -9998,7 +9190,7 @@
       },
       {
         "path": "src/published/books/dmg/dmg-glossary.md",
-        "location": "52",
+        "location": "49",
         "zh": "兽化人"
       },
       {
@@ -10025,7 +9217,7 @@
         "source": "DMG translated glossary",
         "en": "Lycanthrope",
         "zh": "兽化人",
-        "url": "src/published/books/dmg/dmg-glossary.md#52"
+        "url": "src/published/books/dmg/dmg-glossary.md#49"
       }
     ],
     "notes": [
@@ -10047,11 +9239,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "刺尾狮"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/100",
         "zh": "刺尾狮"
@@ -10072,10 +9259,7 @@
         "zh": "蝎狮"
       }
     ],
-    "activeIds": [
-      "manticore",
-      "ref4-manticore"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10121,11 +9305,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "捕人草"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/115",
         "zh": "捕人草"
@@ -10141,9 +9320,7 @@
         "zh": "捕人草"
       }
     ],
-    "activeIds": [
-      "mm2-mantrap"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10177,11 +9354,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "鬾魊"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/98",
         "zh": "鬾魊"
@@ -10197,9 +9369,7 @@
         "zh": "鬾魊"
       }
     ],
-    "activeIds": [
-      "ff-meazel"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10245,11 +9415,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "凌弱怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/99",
         "zh": "凌弱怪"
@@ -10265,9 +9430,7 @@
         "zh": "凌弱怪"
       }
     ],
-    "activeIds": [
-      "ff-meenlock"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10313,11 +9476,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "夹层魔"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/100",
         "zh": "夹层魔"
@@ -10329,7 +9487,7 @@
       },
       {
         "path": "src/published/books/dmg/dmg-glossary.md",
-        "location": "57",
+        "location": "54",
         "zh": "梅佐恶魔"
       },
       {
@@ -10338,9 +9496,7 @@
         "zh": "夹层魔 ·"
       }
     ],
-    "activeIds": [
-      "ff-mezzodaemon"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10348,7 +9504,7 @@
         "source": "DMG translated glossary",
         "en": "Mezzodaemon",
         "zh": "梅佐恶魔",
-        "url": "src/published/books/dmg/dmg-glossary.md#57"
+        "url": "src/published/books/dmg/dmg-glossary.md#54"
       }
     ],
     "notes": [
@@ -10370,11 +9526,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "螨精"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/101",
         "zh": "螨精"
@@ -10390,9 +9541,7 @@
         "zh": "螨精"
       }
     ],
-    "activeIds": [
-      "ff-mite"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10426,11 +9575,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "单元冢"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/125",
         "zh": "单元冢"
@@ -10446,9 +9590,7 @@
         "zh": "单元冢"
       }
     ],
-    "activeIds": [
-      "mm2-monodrone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10482,11 +9624,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "掠魂魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/21",
         "zh": "掠魂魔"
@@ -10497,9 +9634,7 @@
         "zh": "纳巴苏魔"
       }
     ],
-    "activeIds": [
-      "mm2-nabassu"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10589,11 +9724,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "涅瑞伊德"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/185",
         "zh": "涅瑞伊德"
@@ -10609,9 +9739,7 @@
         "zh": "涅瑞伊德"
       }
     ],
-    "activeIds": [
-      "mm2-nereid"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10645,11 +9773,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "夜鬼婆"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/112",
         "zh": "夜鬼婆"
@@ -10675,9 +9798,7 @@
         "zh": "夜鬼婆"
       }
     ],
-    "activeIds": [
-      "night-hag"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10723,11 +9844,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "林布哥"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/104",
         "zh": "林布哥"
@@ -10738,9 +9854,7 @@
         "zh": "反地精"
       }
     ],
-    "activeIds": [
-      "ff-nilbog"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10786,11 +9900,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "诺克"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/106",
         "zh": "诺克"
@@ -10806,9 +9915,7 @@
         "zh": "诺克"
       }
     ],
-    "activeIds": [
-      "ff-norker"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10842,11 +9949,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "臃肿魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/38",
         "zh": "臃肿魔"
@@ -10862,9 +9964,7 @@
         "zh": "臃肿魔"
       }
     ],
-    "activeIds": [
-      "mm2-nupperibo"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10910,11 +10010,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "赭果冻"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/116",
         "zh": "赭果冻"
@@ -10940,9 +10035,7 @@
         "zh": "赭果冻"
       }
     ],
-    "activeIds": [
-      "ochre-jelly"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -10988,11 +10081,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "五元冢"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/132",
         "zh": "五元冢"
@@ -11008,9 +10096,7 @@
         "zh": "五元冢"
       }
     ],
-    "activeIds": [
-      "mm2-pentadrone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11044,11 +10130,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "恐鹤"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/79",
         "zh": "恐鹤"
@@ -11069,9 +10150,7 @@
         "zh": "恐鹤"
       }
     ],
-    "activeIds": [
-      "mm2-phororhacos"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -11090,11 +10169,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "四元冢"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/131",
         "zh": "四元冢"
@@ -11110,9 +10184,7 @@
         "zh": "四元冢"
       }
     ],
-    "activeIds": [
-      "mm2-quadrone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11146,11 +10218,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽邃熊怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/121",
         "zh": "幽邃熊怪"
@@ -11166,9 +10233,7 @@
         "zh": "幽邃熊怪"
       }
     ],
-    "activeIds": [
-      "ff-quaggoth"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11214,11 +10279,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "快可灵"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/206",
         "zh": "快可灵"
@@ -11234,9 +10294,7 @@
         "zh": "快可灵"
       }
     ],
-    "activeIds": [
-      "mm2-quickling"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11282,11 +10340,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "老鼠"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/209",
         "zh": "老鼠"
@@ -11297,9 +10350,7 @@
         "zh": "老鼠"
       }
     ],
-    "activeIds": [
-      "mm2-rat"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11345,11 +10396,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "史拉红蟾"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/124",
         "zh": "史拉红蟾"
@@ -11365,9 +10411,7 @@
         "zh": "史拉红蟾"
       }
     ],
-    "activeIds": [
-      "ff-red-slaad"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11413,11 +10457,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "百足魔兽"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/139",
         "zh": "百足魔兽"
@@ -11438,9 +10477,7 @@
         "zh": "百足魔兽"
       }
     ],
-    "activeIds": [
-      "remorhaz"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11486,11 +10523,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "猎魔蛛"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/127",
         "zh": "猎魔蛛"
@@ -11506,9 +10538,7 @@
         "zh": "猎魔蛛"
       }
     ],
-    "activeIds": [
-      "ff-retriever"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11554,11 +10584,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "还魂鬼"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/128",
         "zh": "还魂鬼"
@@ -11574,9 +10599,7 @@
         "zh": "还魂鬼"
       }
     ],
-    "activeIds": [
-      "ff-revenant"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11622,11 +10645,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "畸魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/23",
         "zh": "畸魔"
@@ -11637,9 +10655,7 @@
         "zh": "鲁特金魔"
       }
     ],
-    "activeIds": [
-      "mm2-rutterkin"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11685,11 +10701,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "尖叫小鬼"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/132",
         "zh": "尖叫小鬼"
@@ -11700,9 +10711,7 @@
         "zh": "尖啸小魔"
       }
     ],
-    "activeIds": [
-      "ff-screaming-devilkin"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11737,11 +10746,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽影"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/152",
         "zh": "幽影"
@@ -11772,10 +10776,7 @@
         "zh": "幽影"
       }
     ],
-    "activeIds": [
-      "shadow",
-      "ref5-shadow"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11833,11 +10834,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽影恶魔"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/133",
         "zh": "幽影恶魔"
@@ -11853,9 +10849,7 @@
         "zh": "幽影恶魔"
       }
     ],
-    "activeIds": [
-      "ff-shadow-demon"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11902,11 +10896,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽影龙"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/218",
         "zh": "幽影龙"
@@ -11927,10 +10916,7 @@
         "zh": "幽影龙"
       }
     ],
-    "activeIds": [
-      "mm2-shadow-dragon",
-      "ref4-shadow-dragon"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -11964,11 +10950,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "阴影獒犬"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/119",
         "zh": "阴影獒犬"
@@ -11984,9 +10965,7 @@
         "zh": "阴影獒犬"
       }
     ],
-    "activeIds": [
-      "mm2-shadow-mastiff"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12032,11 +11011,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "潜伏客"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/138",
         "zh": "潜伏客"
@@ -12052,9 +11026,7 @@
         "zh": "潜伏客"
       }
     ],
-    "activeIds": [
-      "ff-skulk"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12100,16 +11072,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "炽天神侍"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/225",
-        "zh": "炽天神侍"
-      },
-      {
         "path": "../translation/monster-names.tsv",
         "location": "501",
         "zh": "炽天使"
@@ -12120,9 +11082,7 @@
         "zh": "炽天神侍"
       }
     ],
-    "activeIds": [
-      "mm2-solar"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12169,13 +11129,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "观察者眼魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/229",
+        "location": "/226",
         "zh": "观察者眼魔"
       },
       {
@@ -12189,9 +11144,7 @@
         "zh": "观察者眼魔"
       }
     ],
-    "activeIds": [
-      "mm2-spectator"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12237,21 +11190,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幽魂"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "幽影"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "死灵"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/162",
         "zh": "幽魂"
@@ -12292,11 +11230,7 @@
         "zh": "幽魂"
       }
     ],
-    "activeIds": [
-      "spectre",
-      "ref3-spectre",
-      "ref5-spectre"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -12315,11 +11249,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "棘魔"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/40",
         "zh": "棘魔"
@@ -12335,9 +11264,7 @@
         "zh": "棘魔"
       }
     ],
-    "activeIds": [
-      "mm2-spined-devil"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12383,13 +11310,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "恶臭野牛"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/235",
+        "location": "/231",
         "zh": "恶臭野牛"
       },
       {
@@ -12403,9 +11325,7 @@
         "zh": "恶臭野牛"
       }
     ],
-    "activeIds": [
-      "mm2-stench-kow"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12451,13 +11371,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "天鹅之女"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/239",
+        "location": "/235",
         "zh": "天鹅之女"
       },
       {
@@ -12471,9 +11386,7 @@
         "zh": "天鹅之女"
       }
     ],
-    "activeIds": [
-      "mm2-swanmay"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12507,16 +11420,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "泰拉斯奎"
-      },
-      {
-        "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/242",
-        "zh": "泰拉斯奎"
-      },
-      {
         "path": "../translation/monster-names.tsv",
         "location": "518",
         "zh": "塔拉斯克巨兽"
@@ -12527,9 +11430,7 @@
         "zh": "泰拉斯奎"
       }
     ],
-    "activeIds": [
-      "mm2-tarrasque"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12575,13 +11476,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "塔斯洛伊"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/243",
+        "location": "/238",
         "zh": "塔斯洛伊"
       },
       {
@@ -12595,9 +11491,7 @@
         "zh": "塔斯洛伊"
       }
     ],
-    "activeIds": [
-      "mm2-tasloi"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12631,13 +11525,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "特萨尔蛇蜥"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/245",
+        "location": "/239",
         "zh": "特萨尔蛇蜥"
       },
       {
@@ -12651,9 +11540,7 @@
         "zh": "特萨尔蛇蜥"
       }
     ],
-    "activeIds": [
-      "mm2-thessalhydra"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12689,13 +11576,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "螳螂人"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/246",
+        "location": "/240",
         "zh": "螳螂人"
       },
       {
@@ -12714,10 +11596,7 @@
         "zh": "螳螂人"
       }
     ],
-    "activeIds": [
-      "mm2-thri-kreen",
-      "ref3-thri-kreen"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12751,11 +11630,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "诱陷者"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/178",
         "zh": "诱陷者"
@@ -12776,9 +11650,7 @@
         "zh": "诱陷者"
       }
     ],
-    "activeIds": [
-      "trapper"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12824,13 +11696,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "三花株"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/251",
+        "location": "/245",
         "zh": "三花株"
       },
       {
@@ -12844,9 +11711,7 @@
         "zh": "三花株"
       }
     ],
-    "activeIds": [
-      "mm2-tri-flower-frond"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12880,11 +11745,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "三元冢"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
         "location": "/127",
         "zh": "三元冢"
@@ -12900,9 +11760,7 @@
         "zh": "三元冢"
       }
     ],
-    "activeIds": [
-      "mm2-tridrone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -12936,11 +11794,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "掘土巨怪"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/184",
         "zh": "掘土巨怪"
@@ -12961,9 +11814,7 @@
         "zh": "掘土巨怪"
       }
     ],
-    "activeIds": [
-      "umber-hulk"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13010,29 +11861,17 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "飞首"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/256",
+        "location": "/249",
         "zh": "飞首"
       },
       {
         "path": "../translation/monster-names.tsv",
         "location": "537",
         "zh": "瓦古伊尔飞头怪"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-urchin-ustilagor-vagabond-vargouille.md",
-        "location": "82",
-        "zh": "飞首"
       }
     ],
-    "activeIds": [
-      "mm2-vargouille"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13078,13 +11917,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "孢子人"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/257",
+        "location": "/250",
         "zh": "孢子人"
       },
       {
@@ -13098,9 +11932,7 @@
         "zh": "孢子人"
       }
     ],
-    "activeIds": [
-      "mm2-vegepygmy"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13146,11 +11978,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "尸妖"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/191",
         "zh": "尸妖"
@@ -13181,10 +12008,7 @@
         "zh": "尸妖"
       }
     ],
-    "activeIds": [
-      "wight",
-      "ref5-wight"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13230,13 +12054,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "披着羊皮的狼"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/268",
+        "location": "/261",
         "zh": "披着羊皮的狼"
       },
       {
@@ -13250,9 +12069,7 @@
         "zh": "披着羊皮的狼"
       }
     ],
-    "activeIds": [
-      "mm2-wolf-in-sheeps-clothing"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13286,13 +12103,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "化人狼"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/269",
+        "location": "/262",
         "zh": "化人狼"
       },
       {
@@ -13306,9 +12118,7 @@
         "zh": "化人狼 ·"
       }
     ],
-    "activeIds": [
-      "mm2-wolfwere"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13345,11 +12155,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "邪灵"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/196",
         "zh": "邪灵"
@@ -13380,10 +12185,7 @@
         "zh": "邪灵"
       }
     ],
-    "activeIds": [
-      "wraith",
-      "ref4-wraith"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13441,11 +12243,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "希尔"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/170",
         "zh": "希尔"
@@ -13461,9 +12258,7 @@
         "zh": "希尔"
       }
     ],
-    "activeIds": [
-      "ff-xill"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13497,11 +12292,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "石鼎兽"
-      },
-      {
         "path": "src/data/public/monsters-imported.json",
         "location": "/198",
         "zh": "石鼎兽"
@@ -13522,9 +12312,7 @@
         "zh": "石鼎兽"
       }
     ],
-    "activeIds": [
-      "xorn"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13570,11 +12358,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "法特怪"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/171",
         "zh": "法特怪"
@@ -13590,9 +12373,7 @@
         "zh": "法特怪"
       }
     ],
-    "activeIds": [
-      "ff-xvart"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13638,11 +12419,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "黄迷香爬藤"
-      },
-      {
         "path": "src/data/public/ff-monsters-imported.json",
         "location": "/172",
         "zh": "黄迷香爬藤"
@@ -13658,9 +12434,7 @@
         "zh": "黄迷香爬藤"
       }
     ],
-    "activeIds": [
-      "ff-yellow-musk-creeper"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13695,29 +12469,17 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "夜嘶猎犬"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/274",
+        "location": "/267",
         "zh": "夜嘶猎犬"
       },
       {
         "path": "../translation/monster-names.tsv",
         "location": "556",
         "zh": "耶斯猎犬"
-      },
-      {
-        "path": "src/published/books/mm2/mm2-xaren-yeth-yuan-ti.md",
-        "location": "89",
-        "zh": "夜嘶猎犬"
       }
     ],
-    "activeIds": [
-      "mm2-yeth-hound"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -13763,13 +12525,8 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "佐博怪"
-      },
-      {
         "path": "src/data/public/mm2-monsters-imported.json",
-        "location": "/279",
+        "location": "/272",
         "zh": "佐博怪"
       },
       {
@@ -13779,13 +12536,11 @@
       },
       {
         "path": "src/published/books/mm2/mm2-zombies-zorbo-zygom.md",
-        "location": "53",
+        "location": "47",
         "zh": "佐博怪"
       }
     ],
-    "activeIds": [
-      "mm2-zorbo"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -15526,11 +14281,6 @@
       },
       {
         "path": "src/published/books/dla/dla-holy-orders-stars.md",
-        "location": "674",
-        "zh": "努林塔瑞"
-      },
-      {
-        "path": "src/published/books/dla/dla-holy-orders-stars.md",
         "location": "678",
         "zh": "Lunitari"
       },
@@ -15552,7 +14302,7 @@
       {
         "path": "src/published/books/dla/dla-holy-orders-stars.md",
         "location": "674",
-        "zh": "努林塔瑞"
+        "zh": "中立魔法：努林塔瑞"
       }
     ],
     "activeIds": [],
@@ -17179,11 +15929,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "坎德人"
-      },
-      {
         "path": "src/data/public/dla-races.ts",
         "location": "7",
         "zh": "坎德人"
@@ -17199,9 +15944,7 @@
         "zh": "坎德人"
       }
     ],
-    "activeIds": [
-      "dla-kender"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17234,29 +15977,24 @@
     ],
     "occurrences": [
       {
-        "path": "src/published/books/dmg/glossary-2.md",
-        "location": "90",
-        "zh": "每轮近战攻击次数表"
-      },
-      {
         "path": "terminology/rule-terms.tsv",
-        "location": "200",
+        "location": "202",
         "zh": "每轮近战攻击次数表"
       },
       {
         "path": "src/data/published/book-search.json",
         "location": "/397",
-        "zh": "每轮近战攻击次数表"
+        "zh": "每近战轮攻击次数表"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/397",
-        "zh": "每轮近战攻击次数表"
+        "zh": "每近战轮攻击次数表"
       },
       {
         "path": "src/published/books/ua/ua-attacks-per-melee-round.md",
         "location": "3",
-        "zh": "每轮近战攻击次数表"
+        "zh": "每轮攻击次数表"
       }
     ],
     "activeIds": [],
@@ -17267,13 +16005,6 @@
         "en": "Attacks Per Melee Round Table",
         "zh": "每轮近战攻击次数表",
         "url": "src/published/books/phb/paladin.md#45; src/published/books/ua/ua-attacks-per-melee-round.md#3; src/published/books/ua/ua-players-contents.md:41"
-      },
-      {
-        "edition": "1E",
-        "source": "AD&D 1E curated glossary",
-        "en": "Attacks Per Melee Round Table",
-        "zh": "每轮近战攻击次数表",
-        "url": "src/published/books/dmg/glossary-2.md#90"
       }
     ],
     "notes": [
@@ -17296,18 +16027,18 @@
     "occurrences": [
       {
         "path": "terminology/rule-terms.tsv",
-        "location": "384",
+        "location": "386",
         "zh": "水下法术"
       },
       {
         "path": "src/data/published/book-search.json",
         "location": "/467",
-        "zh": "水下法术"
+        "zh": "水下施法"
       },
       {
         "path": "src/data/published/books.json",
         "location": "/467",
-        "zh": "水下法术"
+        "zh": "水下施法"
       },
       {
         "path": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md",
@@ -17317,7 +16048,7 @@
       {
         "path": "src/published/books/ua/ua-dm-underwater-spells.md",
         "location": "3",
-        "zh": "水下法术"
+        "zh": "冒险：水下施法"
       }
     ],
     "activeIds": [],
@@ -17338,27 +16069,17 @@
   {
     "key": "spell:agannazar's scorcher",
     "category": "spell",
-    "en": "Agannazar’s Scorcher",
-    "zh": "阿甘纳萨的灼流",
+    "en": "Agannazar's Scorcher",
+    "zh": "阿迦纳萨灼热射流",
     "englishVariants": [
       "Agannazar's Scorcher",
       "Agannazar’s Scorcher"
     ],
     "legacyZh": [
       "阿甘纳扎尔的灼流",
-      "阿迦纳萨灼热射流"
+      "阿甘纳萨的灼流"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "阿甘纳萨的灼流"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "阿迦纳萨灼热射流"
-      },
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/57",
@@ -17390,10 +16111,7 @@
         "zh": "阿甘纳扎尔的灼流"
       }
     ],
-    "activeIds": [
-      "fr-agannazars-scorcher",
-      "dragon-092-spell-agannazars-scorcher"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -17411,11 +16129,6 @@
       "死者复生"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "活化死尸"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/24",
@@ -17457,10 +16170,7 @@
         "zh": "活化死尸"
       }
     ],
-    "activeIds": [
-      "animate-dead",
-      "animate-dead-level-5"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17504,11 +16214,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "嫌恶术/关怀术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/305",
         "zh": "嫌恶术/关怀术"
@@ -17524,9 +16229,7 @@
         "zh": "嫌恶术/关怀术"
       }
     ],
-    "activeIds": [
-      "antipathy-sympathy"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17570,11 +16273,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "卜筮术"
-      },
-      {
         "path": "src/data/public/oa-spells.ts",
         "location": "8",
         "zh": "卜筮术"
@@ -17610,10 +16308,7 @@
         "zh": "卜筮术"
       }
     ],
-    "activeIds": [
-      "augury",
-      "oa-augury"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17657,11 +16352,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "剑刃护壁"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/58",
         "zh": "剑刃护壁"
@@ -17682,9 +16372,7 @@
         "zh": "剑刃护壁"
       }
     ],
-    "activeIds": [
-      "blade-barrier"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17728,14 +16416,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "典礼术"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/47",
-        "zh": "典礼术"
+        "zh": "仪式（牧师早期方案）"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17773,10 +16456,7 @@
         "zh": "典礼术"
       }
     ],
-    "activeIds": [
-      "ua-cleric-1-ceremony",
-      "ua-druid-1-ceremony"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17809,14 +16489,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "连锁闪电"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/35",
-        "zh": "连锁闪电"
+        "zh": "连锁闪电（早期版）"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17839,9 +16514,7 @@
         "zh": "连锁闪电"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-6-chain-lightning"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17885,11 +16558,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "颤栗之触"
-      },
-      {
         "path": "src/data/public/ref5-spells.ts",
         "location": "16",
         "zh": "颤栗之触"
@@ -17900,9 +16568,7 @@
         "zh": "颤栗之触"
       }
     ],
-    "activeIds": [
-      "ref5-chill-touch"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -17946,14 +16612,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "繁彩球"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/26",
-        "zh": "繁彩球"
+        "zh": "七彩法球"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -17976,9 +16637,7 @@
         "zh": "繁彩球"
       }
     ],
-    "activeIds": [
-      "ua-illusionist-1-chromatic-orb"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18009,6 +16668,115 @@
     ]
   },
   {
+    "key": "spell:clairaudience",
+    "category": "spell",
+    "en": "Clairaudience",
+    "zh": "锐耳术",
+    "englishVariants": [
+      "Clairaudience"
+    ],
+    "legacyZh": [
+      "千里传音",
+      "千里耳",
+      "隔墙闻声"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/200",
+        "zh": "隔墙闻声"
+      },
+      {
+        "path": "src/data/public/spells-imported.json",
+        "location": "/200",
+        "zh": "隔墙闻声"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "en": "Clairaudience/Clairvoyance",
+        "zh": "锐耳术/鹰眼术",
+        "category": "spell",
+        "edition": "3R",
+        "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+        "accessed": "2026-11-06",
+        "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "3R 灰机双语条目将 Clairaudience/Clairvoyance 并列为“锐耳术/鹰眼术”；按原名顺序映射两个英语成分。1E 将其拆为两项法术，且灵能次级技艺引用同名法术但有不同射程规则；这里只采用名称，不认定规则机制相同。"
+    ],
+    "verificationScope": "name-component mapped from the 3R combined spell title; 1E separates the auditory and visual spells"
+  },
+  {
+    "key": "spell:clairvoyance",
+    "category": "spell",
+    "en": "Clairvoyance",
+    "zh": "鹰眼术",
+    "englishVariants": [
+      "Clairvoyance"
+    ],
+    "legacyZh": [
+      "千里眼",
+      "千里眼术",
+      "隔墙观望"
+    ],
+    "occurrences": [
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/201",
+        "zh": "鹰眼术"
+      },
+      {
+        "path": "src/data/public/spells-imported.json",
+        "location": "/201",
+        "zh": "鹰眼术"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "en": "Clairvoyance",
+        "zh": "鹰眼术",
+        "category": "spell",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 222,
+        "url": "https://5e.kiwee.top/data/spells/spells-phb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%B9%B0%E7%9C%BC%E6%9C%AF_phb",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Clairvoyance",
+        "zh": "鹰眼术",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 250,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%B9%B0%E7%9C%BC%E6%9C%AF_xphb",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Clairaudience/Clairvoyance",
+        "zh": "锐耳术/鹰眼术",
+        "category": "spell",
+        "edition": "3R",
+        "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+        "accessed": "2026-11-06",
+        "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "3R 灰机双语条目将 Clairaudience/Clairvoyance 并列为“锐耳术/鹰眼术”；按原名顺序映射两个英语成分。1E 将其拆为两项法术；这里只采用名称，不认定规则机制相同。"
+    ],
+    "verificationScope": "name-component mapped from the 3R combined spell title; 1E separates the auditory and visual spells"
+  },
+  {
     "key": "spell:cloudkill",
     "category": "spell",
     "en": "Cloudkill",
@@ -18021,11 +16789,6 @@
       "毒云术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "死云术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/247",
@@ -18047,9 +16810,7 @@
         "zh": "死云术"
       }
     ],
-    "activeIds": [
-      "cloudkill"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18093,11 +16854,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "咒唤元素"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/249",
         "zh": "咒唤元素"
@@ -18118,9 +16874,7 @@
         "zh": "咒唤元素"
       }
     ],
-    "activeIds": [
-      "conjure-elemental"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18164,16 +16918,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "恒定光亮"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "恒久光亮术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/25",
         "zh": "恒定光亮"
@@ -18214,10 +16958,7 @@
         "zh": "恒定光亮"
       }
     ],
-    "activeIds": [
-      "continual-light",
-      "continual-light-level-2"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -18235,11 +16976,6 @@
       "操纵天气"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "操控天气"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/67",
@@ -18286,10 +17022,7 @@
         "zh": "操控天气"
       }
     ],
-    "activeIds": [
-      "control-weather",
-      "control-weather-level-6"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18322,27 +17055,17 @@
   {
     "key": "spell:death's door",
     "category": "spell",
-    "en": "Death’s Door",
-    "zh": "死亡门槛",
+    "en": "Death's Door",
+    "zh": "死亡之门",
     "englishVariants": [
       "Death's Door",
       "Death’s Door"
     ],
     "legacyZh": [
       "Death's Door",
-      "死亡之门"
+      "死亡门槛"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "死亡门槛"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "死亡之门"
-      },
       {
         "path": "src/data/public/ref5-spells.ts",
         "location": "13",
@@ -18379,10 +17102,7 @@
         "zh": "死亡门槛"
       }
     ],
-    "activeIds": [
-      "ua-cleric-3-death-s-door",
-      "ref5-deaths-door"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -18391,20 +17111,15 @@
     "key": "spell:dispel illusion",
     "category": "spell",
     "en": "Dispel Illusion",
-    "zh": "解除幻象",
+    "zh": "解除幻术（法师杂志版）",
     "englishVariants": [
       "Dispel Illusion"
     ],
     "legacyZh": [
-      "解除幻术（法师杂志版）",
+      "解除幻象",
       "驱散幻象"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "解除幻象"
-      },
       {
         "path": "src/data/public/dragon-spells.json",
         "location": "/32",
@@ -18446,10 +17161,7 @@
         "zh": "解除幻象"
       }
     ],
-    "activeIds": [
-      "dispel-illusion",
-      "ua-magic-user-4-dispel-illusion"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -18467,11 +17179,6 @@
       "预言"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "预言术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/38",
@@ -18493,9 +17200,7 @@
         "zh": "预言术"
       }
     ],
-    "activeIds": [
-      "divination"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18539,11 +17244,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "卓姆吉的冒险者幸运术"
-      },
-      {
         "path": "src/data/public/gha-spells.ts",
         "location": "8",
         "zh": "卓姆吉的冒险者幸运术"
@@ -18564,9 +17264,7 @@
         "zh": "卓姆吉的冒险者幸运术"
       }
     ],
-    "activeIds": [
-      "gha-drawmij-adventurers-luck"
-    ],
+    "activeIds": [],
     "status": "adapted-element",
     "references": [
       {
@@ -18600,11 +17298,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "卓姆吉瞬间召唤"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/293",
         "zh": "卓姆吉瞬间召唤"
@@ -18625,9 +17318,7 @@
         "zh": "卓姆吉瞬间召唤"
       }
     ],
-    "activeIds": [
-      "drawmijs-instant-summons"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18671,14 +17362,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "龙卷尘暴"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/45",
-        "zh": "龙卷尘暴"
+        "zh": "尘卷风（早期牧师版）"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -18701,9 +17387,7 @@
         "zh": "龙卷尘暴"
       }
     ],
-    "activeIds": [
-      "ua-cleric-2-dust-devil"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18736,29 +17420,22 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "能级吸取"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/36",
-        "zh": "能级吸取"
+        "zh": "能量吸取（法师杂志版）"
       },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/608",
-        "zh": "能级吸取"
+        "zh": "能量吸取"
       },
       {
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/221",
-        "zh": "能级吸取"
+        "zh": "能量吸取"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-9-energy-drain"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18806,11 +17483,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "注目术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/398",
         "zh": "注目术"
@@ -18831,9 +17503,7 @@
         "zh": "注目术"
       }
     ],
-    "activeIds": [
-      "ua-cleric-2-enthrall"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18886,11 +17556,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "鬼斧神工"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/586",
         "zh": "鬼斧神工"
@@ -18906,9 +17571,7 @@
         "zh": "鬼斧神工"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-5-fabricate"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -18953,11 +17616,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "寻找捷径"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/60",
         "zh": "寻找捷径"
@@ -18983,9 +17641,7 @@
         "zh": "寻找捷径"
       }
     ],
-    "activeIds": [
-      "find-the-path"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19038,11 +17694,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "火焰风暴"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/145",
         "zh": "火焰风暴"
@@ -19063,9 +17714,7 @@
         "zh": "火焰风暴"
       }
     ],
-    "activeIds": [
-      "fire-storm"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19109,11 +17758,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "云雾术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/347",
         "zh": "云雾术"
@@ -19134,9 +17778,7 @@
         "zh": "云雾术"
       }
     ],
-    "activeIds": [
-      "fog-cloud"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19179,11 +17821,6 @@
       "神门术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "异界之门"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/69",
@@ -19230,10 +17867,7 @@
         "zh": "异界之门"
       }
     ],
-    "activeIds": [
-      "gate",
-      "gate-level-9"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19277,11 +17911,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "指使术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/273",
         "zh": "指使术"
@@ -19302,9 +17931,7 @@
         "zh": "指使术"
       }
     ],
-    "activeIds": [
-      "geas"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19348,11 +17975,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "透材术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/274",
         "zh": "透材术"
@@ -19373,9 +17995,7 @@
         "zh": "透材术"
       }
     ],
-    "activeIds": [
-      "glassee"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -19393,11 +18013,6 @@
       "疾风术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "造风术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/206",
@@ -19419,9 +18034,7 @@
         "zh": "造风术"
       }
     ],
-    "activeIds": [
-      "gust-of-wind"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19465,11 +18078,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "幻景"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/229",
         "zh": "幻景"
@@ -19500,10 +18108,7 @@
         "zh": "幻景"
       }
     ],
-    "activeIds": [
-      "hallucinatory-terrain",
-      "hallucinatory-terrain-level-3"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19556,11 +18161,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "医疗术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/61",
         "zh": "医疗术"
@@ -19586,9 +18186,7 @@
         "zh": "医疗术"
       }
     ],
-    "activeIds": [
-      "heal"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19632,11 +18230,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "人类定身术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/16",
         "zh": "人类定身术"
@@ -19658,7 +18251,7 @@
       },
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "174",
+        "location": "169",
         "zh": "人类定身术"
       },
       {
@@ -19677,10 +18270,7 @@
         "zh": "人类定身术"
       }
     ],
-    "activeIds": [
-      "hold-person",
-      "hold-person-level-3"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19724,25 +18314,15 @@
     "key": "spell:invisibility to undead",
     "category": "spell",
     "en": "Invisibility to Undead",
-    "zh": "对不死生物隐形",
+    "zh": "对不死者隐形",
     "englishVariants": [
       "Invisibility to Undead"
     ],
     "legacyZh": [
       "Invisibility to Undead",
-      "对不死者隐形"
+      "对不死生物隐形"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "对不死生物隐形"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "对不死者隐形"
-      },
       {
         "path": "src/data/public/ref5-spells.ts",
         "location": "7",
@@ -19764,10 +18344,7 @@
         "zh": "对不死生物隐形"
       }
     ],
-    "activeIds": [
-      "ua-cleric-1-invisibility-to-undead",
-      "ref5-invisibility-to-undead"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -19785,11 +18362,6 @@
       "隐形术（半径10尺）"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "半径10尺隐形术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/210",
@@ -19816,9 +18388,7 @@
         "zh": "半径10尺隐形术"
       }
     ],
-    "activeIds": [
-      "invisibility-10-radius"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -19836,11 +18406,6 @@
       "雷欧蒙秘匣"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "李欧蒙秘藏箱"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/256",
@@ -19862,9 +18427,7 @@
         "zh": "李欧蒙秘藏箱"
       }
     ],
-    "activeIds": [
-      "leomunds-secret-chest"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19908,11 +18471,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "有限许愿术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/295",
         "zh": "有限许愿术"
@@ -19928,9 +18486,7 @@
         "zh": "有限许愿术"
       }
     ],
-    "activeIds": [
-      "limited-wish"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -19961,11 +18517,6 @@
       "物件定位术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "物品定位术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/32",
@@ -20007,10 +18558,7 @@
         "zh": "物品定位术"
       }
     ],
-    "activeIds": [
-      "locate-object",
-      "locate-object-level-2"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20063,11 +18611,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魔嘴"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/188",
         "zh": "魔嘴"
@@ -20088,9 +18631,7 @@
         "zh": "魔嘴"
       }
     ],
-    "activeIds": [
-      "magic-mouth"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20144,14 +18685,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "融身入石"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/46",
-        "zh": "融身入石"
+        "zh": "融入石中（早期版）"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -20166,12 +18702,10 @@
       {
         "path": "src/published/books/dragon-58/new-spells.md",
         "location": "43",
-        "zh": "融身入石"
+        "zh": "融身入石（早期版）"
       }
     ],
-    "activeIds": [
-      "ua-cleric-3-meld-into-stone"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20215,14 +18749,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "马友夫强酸箭"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/29",
-        "zh": "马友夫强酸箭"
+        "zh": "马友夫强酸箭（早期版）"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -20240,9 +18769,7 @@
         "zh": "马友夫强酸箭"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-2-melf-s-acid-arrow"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20286,14 +18813,9 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "马友夫微流星"
-      },
-      {
         "path": "src/data/public/dragon-spells.json",
         "location": "/31",
-        "zh": "马友夫微流星"
+        "zh": "马友夫微型流星"
       },
       {
         "path": "src/data/public/spell-index.json",
@@ -20316,9 +18838,7 @@
         "zh": "马友夫微流星"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-3-melf-s-minute-meteors"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20351,11 +18871,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "小型法术无效结界"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/232",
         "zh": "小型法术无效结界"
@@ -20376,516 +18891,10 @@
         "zh": "小型法术无效结界"
       }
     ],
-    "activeIds": [
-      "minor-globe-of-invulnerability"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
-  },
-  {
-    "key": "spell:monster summoning i",
-    "category": "spell",
-    "en": "Monster Summoning I",
-    "zh": "召唤怪物 I",
-    "englishVariants": [
-      "Monster Summoning I"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 I"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/213",
-        "zh": "召唤怪物 I"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/213",
-        "zh": "召唤怪物 I"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "3",
-        "zh": "召唤怪物 I"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "79",
-        "zh": "召唤怪物 I"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1021",
-        "zh": "召唤怪物 I"
-      }
-    ],
-    "activeIds": [
-      "i-monster-summoning-i"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning I",
-        "zh": "召唤怪物 I",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#1021"
-      },
-      {
-        "en": "Monster Summoning I",
-        "zh": "召唤怪物 I",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#79"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning ii",
-    "category": "spell",
-    "en": "Monster Summoning II",
-    "zh": "召唤怪物 II",
-    "englishVariants": [
-      "Monster Summoning II"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 II"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/233",
-        "zh": "召唤怪物 II"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/233",
-        "zh": "召唤怪物 II"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "14",
-        "zh": "召唤怪物 II"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "113",
-        "zh": "召唤怪物 II"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1317",
-        "zh": "召唤怪物 II"
-      }
-    ],
-    "activeIds": [
-      "ii-monster-summoning-ii"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning II",
-        "zh": "召唤怪物 II",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#1317"
-      },
-      {
-        "en": "Monster Summoning II",
-        "zh": "召唤怪物 II",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#113"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning iii",
-    "category": "spell",
-    "en": "Monster Summoning III",
-    "zh": "召唤怪物 III",
-    "englishVariants": [
-      "Monster Summoning III"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 III"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/255",
-        "zh": "召唤怪物 III"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/255",
-        "zh": "召唤怪物 III"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "25",
-        "zh": "召唤怪物 III"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "155",
-        "zh": "召唤怪物 III"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "1656",
-        "zh": "召唤怪物 III"
-      }
-    ],
-    "activeIds": [
-      "iii-monster-summoning-iii"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning III",
-        "zh": "召唤怪物 III",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#1656"
-      },
-      {
-        "en": "Monster Summoning III",
-        "zh": "召唤怪物 III",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#155"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning iv",
-    "category": "spell",
-    "en": "Monster Summoning IV",
-    "zh": "召唤怪物 IV",
-    "englishVariants": [
-      "Monster Summoning IV"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 IV"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/280",
-        "zh": "召唤怪物 IV"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/280",
-        "zh": "召唤怪物 IV"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "42",
-        "zh": "召唤怪物 IV"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "205",
-        "zh": "召唤怪物 IV"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2091",
-        "zh": "召唤怪物 IV"
-      }
-    ],
-    "activeIds": [
-      "iv-monster-summoning-iv"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning IV",
-        "zh": "召唤怪物 IV",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#2091"
-      },
-      {
-        "en": "Monster Summoning IV",
-        "zh": "召唤怪物 IV",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#205"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning v",
-    "category": "spell",
-    "en": "Monster Summoning V",
-    "zh": "召唤怪物 V",
-    "englishVariants": [
-      "Monster Summoning V"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 V"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/297",
-        "zh": "召唤怪物 V"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/297",
-        "zh": "召唤怪物 V"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "59",
-        "zh": "召唤怪物 V"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "239",
-        "zh": "召唤怪物 V"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2402",
-        "zh": "召唤怪物 V"
-      }
-    ],
-    "activeIds": [
-      "v-monster-summoning-v"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning V",
-        "zh": "召唤怪物 V",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#2402"
-      },
-      {
-        "en": "Monster Summoning V",
-        "zh": "召唤怪物 V",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#239"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning vi",
-    "category": "spell",
-    "en": "Monster Summoning VI",
-    "zh": "召唤怪物 VI",
-    "englishVariants": [
-      "Monster Summoning VI"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 VI"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/313",
-        "zh": "召唤怪物 VI"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/313",
-        "zh": "召唤怪物 VI"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "76",
-        "zh": "召唤怪物 VI"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "257",
-        "zh": "召唤怪物 VI"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2665",
-        "zh": "召唤怪物 VI"
-      }
-    ],
-    "activeIds": [
-      "vi-monster-summoning-vi"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning VI",
-        "zh": "召唤怪物 VI",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#2665"
-      },
-      {
-        "en": "Monster Summoning VI",
-        "zh": "召唤怪物 VI",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#257"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
-  },
-  {
-    "key": "spell:monster summoning vii",
-    "category": "spell",
-    "en": "Monster Summoning VII",
-    "zh": "召唤怪物 VII",
-    "englishVariants": [
-      "Monster Summoning VII"
-    ],
-    "legacyZh": [
-      "召唤怪物",
-      "怪物召唤",
-      "怪物召唤术"
-    ],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "召唤怪物 VII"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/326",
-        "zh": "召唤怪物 VII"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/326",
-        "zh": "召唤怪物 VII"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-appendix-m-summoned-monsters.md",
-        "location": "97",
-        "zh": "召唤怪物 VII"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
-        "location": "291",
-        "zh": "召唤怪物 VII"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-magic-users.md",
-        "location": "2888",
-        "zh": "召唤怪物 VII"
-      }
-    ],
-    "activeIds": [
-      "vii-monster-summoning-vii"
-    ],
-    "status": "verified-exact",
-    "references": [
-      {
-        "en": "Monster Summoning VII",
-        "zh": "召唤怪物 VII",
-        "category": "spell",
-        "edition": "1E",
-        "source": "PHB",
-        "url": "src/published/books/phb/spell-explanations-magic-users.md#2888"
-      },
-      {
-        "en": "Monster Summoning VII",
-        "zh": "召唤怪物 VII",
-        "category": "spell",
-        "edition": "1E",
-        "source": "DMG",
-        "url": "src/published/books/dmg/dmg-spell-explanations-magic-users.md#291"
-      }
-    ],
-    "notes": [
-      "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
-    ],
-    "verificationScope": "1e-exact-spell-title; roman-number level is part of the canonical name"
   },
   {
     "key": "spell:move earth",
@@ -20900,11 +18909,6 @@
       "移土术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "地动术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/281",
@@ -20926,9 +18930,7 @@
         "zh": "地动术"
       }
     ],
-    "activeIds": [
-      "move-earth"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -20972,11 +18974,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "涅斯图的灼热光束术"
-      },
-      {
         "path": "src/data/public/gha-spells.ts",
         "location": "9",
         "zh": "涅斯图的灼热光束术"
@@ -20997,9 +18994,7 @@
         "zh": "涅斯图的灼热光束术"
       }
     ],
-    "activeIds": [
-      "gha-nystul-blazing-beam"
-    ],
+    "activeIds": [],
     "status": "adapted-element",
     "references": [
       {
@@ -21033,11 +19028,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "涅斯图的元素孽怪召唤术"
-      },
-      {
         "path": "src/data/public/regional-spells.json",
         "location": "/57",
         "zh": "涅斯图的元素孽怪召唤术"
@@ -21050,12 +19040,10 @@
       {
         "path": "src/published/books/gha/gha-magical-spells-nystul-otiluke.md",
         "location": "53",
-        "zh": "涅斯图的元素孽怪召唤术"
+        "zh": "涅斯图的元素惧灵召唤术"
       }
     ],
-    "activeIds": [
-      "gha-nystuls-grue-conjuration"
-    ],
+    "activeIds": [],
     "status": "adapted-element",
     "references": [
       {
@@ -21089,11 +19077,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "迷雾术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/95",
         "zh": "迷雾术"
@@ -21119,9 +19102,7 @@
         "zh": "迷雾术"
       }
     ],
-    "activeIds": [
-      "obscurement"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -21139,11 +19120,6 @@
       "永久术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "恒久术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/315",
@@ -21170,9 +19146,7 @@
         "zh": "恒久术"
       }
     ],
-    "activeIds": [
-      "permanency"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -21192,11 +19166,6 @@
       "幻象力场"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "魅影之力"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/214",
@@ -21233,10 +19202,7 @@
         "zh": "魅影之力"
       }
     ],
-    "activeIds": [
-      "phantasmal-force",
-      "phantasmal-force-level-1"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21280,11 +19246,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "位面转移"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/52",
         "zh": "位面转移"
@@ -21310,9 +19271,7 @@
         "zh": "位面转移"
       }
     ],
-    "activeIds": [
-      "plane-shift"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21356,11 +19315,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "律令死亡"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/327",
         "zh": "律令死亡"
@@ -21376,9 +19330,7 @@
         "zh": "律令死亡"
       }
     ],
-    "activeIds": [
-      "power-word-kill"
-    ],
+    "activeIds": [],
     "status": "adapted-variant",
     "references": [
       {
@@ -21412,11 +19364,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "律令震慑"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/300",
         "zh": "律令震慑"
@@ -21432,9 +19379,7 @@
         "zh": "律令震慑"
       }
     ],
-    "activeIds": [
-      "power-word-stun"
-    ],
+    "activeIds": [],
     "status": "adapted-variant",
     "references": [
       {
@@ -21468,11 +19413,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "燃火术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/96",
         "zh": "燃火术"
@@ -21493,9 +19433,7 @@
         "zh": "燃火术"
       }
     ],
-    "activeIds": [
-      "produce-flame"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21541,16 +19479,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "防护邪恶（10尺半径）"
-      },
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "防护邪恶（半径10尺）"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/42",
         "zh": "防护邪恶（10尺半径）"
@@ -21591,10 +19519,7 @@
         "zh": "防护邪恶（半径 10 尺）"
       }
     ],
-    "activeIds": [
-      "protection-from-evil-10-radius",
-      "protection-from-evil-10-radius-level-3"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -21612,11 +19537,6 @@
       "任务术"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "使命术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/53",
@@ -21643,9 +19563,7 @@
         "zh": "使命术"
       }
     ],
-    "activeIds": [
-      "quest"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -21663,11 +19581,6 @@
       "起死回生"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "死者复活"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/54",
@@ -21689,9 +19602,7 @@
         "zh": "死者复活"
       }
     ],
-    "activeIds": [
-      "raise-dead"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21735,11 +19646,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "转生术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/146",
         "zh": "转生术"
@@ -21760,9 +19666,7 @@
         "zh": "转生术"
       }
     ],
-    "activeIds": [
-      "reincarnate"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21806,11 +19710,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "复生术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/73",
         "zh": "复生术"
@@ -21821,9 +19720,7 @@
         "zh": "复生术"
       }
     ],
-    "activeIds": [
-      "resurrection"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21867,11 +19764,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "魔绳术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/192",
         "zh": "魔绳术"
@@ -21902,10 +19794,7 @@
         "zh": "魔绳术"
       }
     ],
-    "activeIds": [
-      "rope-trick",
-      "rope-trick-level-3"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -21950,11 +19839,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "瑟腾法术免疫"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/318",
         "zh": "瑟腾法术免疫"
@@ -21980,9 +19864,7 @@
         "zh": "瑟藤的法术免疫"
       }
     ],
-    "activeIds": [
-      "sertens-spell-immunity"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -22001,11 +19883,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "咆哮术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/580",
         "zh": "咆哮术"
@@ -22021,9 +19898,7 @@
         "zh": "咆哮术"
       }
     ],
-    "activeIds": [
-      "ua-magic-user-4-shout"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22054,11 +19929,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "圈套术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/105",
         "zh": "圈套术"
@@ -22079,9 +19949,7 @@
         "zh": "圈套术"
       }
     ],
-    "activeIds": [
-      "snare"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22114,11 +19982,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "死者交谈"
-      },
-      {
         "path": "src/data/public/ref5-spells.ts",
         "location": "14",
         "zh": "死者交谈"
@@ -22129,9 +19992,7 @@
         "zh": "死者交谈"
       }
     ],
-    "activeIds": [
-      "ref5-speak-with-the-dead"
-    ],
+    "activeIds": [],
     "status": "adapted-variant",
     "references": [
       {
@@ -22165,11 +20026,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "蛛行术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/170",
         "zh": "蛛行术"
@@ -22190,9 +20046,7 @@
         "zh": "蛛行术"
       }
     ],
-    "activeIds": [
-      "spider-climb"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22236,11 +20090,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "荆棘丛生"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/416",
         "zh": "荆棘丛生"
@@ -22271,10 +20120,7 @@
         "zh": "荆棘丛生"
       }
     ],
-    "activeIds": [
-      "ua-cleric-4-spike-growth",
-      "ua-druid-3-spike-growth"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22318,11 +20164,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "灵体折磨术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/286",
         "zh": "灵体折磨术"
@@ -22343,9 +20184,7 @@
         "zh": "灵体折磨术"
       }
     ],
-    "activeIds": [
-      "spiritwrack"
-    ],
+    "activeIds": [],
     "status": "pending",
     "references": [],
     "notes": []
@@ -22363,11 +20202,6 @@
       "臭云"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "臭云术"
-      },
       {
         "path": "src/data/public/spell-index.json",
         "location": "/195",
@@ -22389,9 +20223,7 @@
         "zh": "臭云术"
       }
     ],
-    "activeIds": [
-      "stinking-cloud"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22435,11 +20267,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "化石为肉"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/287",
         "zh": "化石为肉"
@@ -22451,7 +20278,7 @@
       },
       {
         "path": "src/published/books/dmg/glossary-2.md",
-        "location": "176",
+        "location": "171",
         "zh": "化石为肉"
       },
       {
@@ -22465,9 +20292,7 @@
         "zh": "化石为肉"
       }
     ],
-    "activeIds": [
-      "stone-to-flesh"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22491,7 +20316,7 @@
         "source": "AD&D 1E curated glossary",
         "en": "Stone to Flesh",
         "zh": "化石为肉",
-        "url": "src/published/books/dmg/glossary-2.md#176"
+        "url": "src/published/books/dmg/glossary-2.md#171"
       }
     ],
     "notes": [
@@ -22512,11 +20337,6 @@
       "太阳爆发"
     ],
     "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "阳炎爆"
-      },
       {
         "path": "src/data/public/ref5-spells.ts",
         "location": "22",
@@ -22543,10 +20363,7 @@
         "zh": "阳炎爆"
       }
     ],
-    "activeIds": [
-      "ref5-sunburst",
-      "gha-sunburst"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22590,11 +20407,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "徽记术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/74",
         "zh": "徽记术"
@@ -22625,10 +20437,7 @@
         "zh": "徽记术"
       }
     ],
-    "activeIds": [
-      "symbol",
-      "symbol-level-8"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22672,11 +20481,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "真知术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/55",
         "zh": "真知术"
@@ -22697,9 +20501,7 @@
         "zh": "真知术"
       }
     ],
-    "activeIds": [
-      "true-seeing"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22743,11 +20545,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "隐匿之纱"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/381",
         "zh": "隐匿之纱"
@@ -22763,9 +20560,7 @@
         "zh": "隐匿之纱"
       }
     ],
-    "activeIds": [
-      "veil"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22796,11 +20591,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "力场墙"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/263",
         "zh": "力场墙"
@@ -22821,9 +20611,7 @@
         "zh": "力场墙"
       }
     ],
-    "activeIds": [
-      "wall-of-force"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22867,11 +20655,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "风讯术"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/460",
         "zh": "风讯术"
@@ -22887,9 +20670,7 @@
         "zh": "风讯术"
       }
     ],
-    "activeIds": [
-      "ua-illusionist-2-whispering-wind"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {
@@ -22921,11 +20702,6 @@
     ],
     "occurrences": [
       {
-        "path": "@library",
-        "location": "",
-        "zh": "回返真言"
-      },
-      {
         "path": "src/data/public/spell-index.json",
         "location": "/65",
         "zh": "回返真言"
@@ -22946,9 +20722,7 @@
         "zh": "回返真言"
       }
     ],
-    "activeIds": [
-      "word-of-recall"
-    ],
+    "activeIds": [],
     "status": "verified-exact",
     "references": [
       {

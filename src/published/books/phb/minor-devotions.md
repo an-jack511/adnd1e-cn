@@ -83,13 +83,13 @@
 
 持有者通过灵能调整受伤生物的细胞，可治疗伤势或疾病。治疗每1点生命值伤害消耗1点灵能强度。治疗疾病需消耗20点（轻微、早期疾病）至70点（晚期瘟疫或麻风病）。每级掌握等级可治疗的上限取决于职业：牧师5点、战士4点、魔法师3点、盗贼2点。
 
-### 千里耳 Clairaudience
+### 锐耳术 Clairaudience
 
 <strong>范围：</strong>特殊。 <strong>消耗：</strong>每轮5点。 <strong>持续时间：</strong>专注期间。 <strong>豁免：</strong>无。 <strong>效果范围：</strong>特殊。
 
 此能力与魔法师法术“千里耳”相同，但可扫描至多30英尺外的未知区域。
 
-### 千里眼 Clairvoyance
+### 鹰眼术 Clairvoyance
 
 <strong>范围：</strong>特殊。 <strong>消耗：</strong>每轮5点。 <strong>持续时间：</strong>专注期间。 <strong>豁免：</strong>无。 <strong>效果范围：</strong>特殊。
 

@@ -9,7 +9,7 @@
 | 编号 | 一环 | 二环 | 三环 | 四环 | 五环 |
 |:---:|:---|:---|:---|:---|:---|
 | 1 | 影响普通火焰 Affect Normal Fires | 可闻幻象 Audible Glamer | 闪现术 Blink | 魅惑怪物 Charm Monster | 气水术 Airy Water |
-| 2 | *魔法警报 Alarm* | *绑缚术 Bind* | 隔墙闻声 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
+| 2 | *魔法警报 Alarm* | *绑缚术 Bind* | 锐耳术 Clairaudience | 困惑术 Confusion | 动物成长 Animal Growth |
 | 3 | *护甲术 Armor* | 恒定光亮 Continual Light | 鹰眼术 Clairvoyance | 挖掘术 Dig | 活化死尸 Animate Dead |
 | 4 | 燃烧之手 Burning Hands | 半径15尺黑暗术 Darkness 15' Radius | *暴雨术 Cloudburst* | 任意门 Dimension Door | *回避术 Avoidance* |
 | 5 | 魅惑人类 Charm Person | *深袋术 Deeppockets* | *侦测幻象 Detect Illusion* | *解除幻象 Dispel Illusion* | 毕格比阻截之手 Bigby's Interposing Hand |

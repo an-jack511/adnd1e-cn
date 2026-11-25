@@ -3,19 +3,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="中英术语对照表" description="AD&D 第一版中文规则索引的中英术语与专名对照表。">
   <h1>中英术语对照表</h1>
-  <p>本表收录 AD&amp;D 1E 资料中的术语与跨版本名称参考。标为“版本参考”的译名只适用于对应版本，不直接作为 1E 定译；规则缩写、骰式和来源代码保留原格式。</p>
+  <p>本表收录 AD&amp;D 1E 资料中的术语与跨版本名称参考。标为“版本参考”的译名只适用于对应版本，不直接作为 1E 定译；规则缩写、骰式和来源代码保留原格式。AI 与其他程序可通过 <a href="/api/terminology/v1.json">开放 JSON 接口</a>读取全表，接口说明见 <a href="/api/terminology/openapi-v1.json">OpenAPI 文档</a>。</p>
   <form id="terms-form" class="lookup">
-    <label>查找术语<input id="terms-query" type="search" placeholder="中文或 English" /></label>
+    <label>查找术语<input id="terms-query" type="search" placeholder="中文、English 或旧译" /></label>
     <label>类别<select id="terms-category"><option value="">全部</option></select></label>
     <button>查找</button>
   </form>
   <p id="terms-count" role="status">正在载入术语表…</p>
-  <div class="table-wrap" tabindex="0" role="region" aria-label="中英术语对照表">
-    <table>
-      <thead><tr><th>中文译名</th><th>English</th><th>类别</th><th>核对状态</th></tr></thead>
-      <tbody id="terms-body"></tbody>
-    </table>
-  </div>
+  <div id="terms-grid" class="terms-grid" role="list" aria-label="中英术语对照表"></div>
   <nav class="pagination" aria-label="术语表分页">
     <button id="terms-prev" type="button">上一页</button>
     <span id="terms-page" aria-live="polite">第 1 页</span>
@@ -37,12 +32,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       'adapted-variant':'译名已注明调整', 'reference-conflict':'来源译名有分歧',
       'reference-only':'版本参考（仅名称）',
     };
-    const pageSize = 100;
+    const pageSize = 600;
     const form = document.querySelector<HTMLFormElement>('#terms-form')!;
     const query = document.querySelector<HTMLInputElement>('#terms-query')!;
     const category = document.querySelector<HTMLSelectElement>('#terms-category')!;
     const count = document.querySelector('#terms-count')!;
-    const body = document.querySelector('#terms-body')!;
+    const grid = document.querySelector<HTMLDivElement>('#terms-grid')!;
     const previous = document.querySelector<HTMLButtonElement>('#terms-prev')!;
     const next = document.querySelector<HTMLButtonElement>('#terms-next')!;
     const pageLabel = document.querySelector('#terms-page')!;
@@ -54,15 +49,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       const pageCount = Math.max(1, Math.ceil(hits.length / pageSize));
       page = Math.min(page, pageCount);
       const start = (page - 1) * pageSize;
-      body.replaceChildren(...hits.slice(start, start + pageSize).map(e => {
-        const row = document.createElement('tr');
-        const evidence = e.references.length ? ` · ${e.references.join('；')}` : '';
-        for (const value of [e.zh, e.en, labels[e.category] || e.category, (statuses[e.status] || e.status) + evidence]) {
-          const cell = document.createElement('td'); cell.textContent = value; row.append(cell);
-        }
-        return row;
+      grid.replaceChildren(...hits.slice(start, start + pageSize).map(e => {
+        const card = document.createElement('article');
+        card.className = 'term-card';
+        card.setAttribute('role', 'listitem');
+        card.title = e.references.join('；');
+        const zh = document.createElement('strong');
+        zh.className = 'term-zh';
+        zh.textContent = e.zh;
+        const en = document.createElement('span');
+        en.className = 'term-en';
+        en.textContent = e.en;
+        const meta = document.createElement('span');
+        meta.className = 'term-meta';
+        meta.textContent = `${labels[e.category] || e.category} · ${statuses[e.status] || e.status}`;
+        card.append(zh, en, meta);
+        return card;
       }));
-      count.textContent = `共 ${hits.length} 项。`;
+      count.textContent = `共 ${hits.length} 项。将鼠标悬停在词条上可查看出处。`;
       pageLabel.textContent = `第 ${page} / ${pageCount} 页`;
       previous.disabled = page <= 1;
       next.disabled = page >= pageCount;
@@ -82,4 +86,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     next.onclick = () => { page += 1; render(); };
     init().catch(() => { count.textContent = '术语表载入失败，请刷新页面重试。'; });
   </script>
+  <style>
+    .terms-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:5px; }
+    .term-card { min-width:0; padding:5px 6px; border:1px solid var(--line); background:var(--surface); color:var(--ink); font-size:11px; line-height:1.35; }
+    .term-zh,.term-en,.term-meta { display:block; min-width:0; overflow-wrap:anywhere; }
+    .term-zh { font-size:12px; line-height:1.4; }
+    .term-en { margin-top:2px; color:var(--muted); font-size:10px; }
+    .term-meta { margin-top:3px; color:var(--muted); font-size:9px; }
+    @media(max-width:760px) { .terms-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    @media(max-width:560px) { .terms-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; } .term-card { padding:5px; } }
+    @media(max-width:420px) { .terms-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:320px) { .terms-grid { grid-template-columns:1fr; } }
+  </style>
 </BaseLayout>

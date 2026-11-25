@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import names from '../../src/data/terminology/names.json';
 import {spells} from '../../src/data/public/spells';
 import {items} from '../../src/data/public/items';
@@ -8,15 +9,19 @@ import {races} from '../../src/data/public/races';
 import {currentItemLabel,findNamedEntry,nameAliases,sourceSectionLabel} from '../../src/utils/terminology';
 
 const normalize=(s:string)=>s.normalize('NFKC').replace(/[‘’]/g,"'").replace(/[–—]/g,'-').trim().replace(/\s+/g,' ').toLowerCase();
-const known=new Map(names.map(e=>[`${e.category}:${normalize(e.en)}`,e]));
+const catalog=JSON.parse(readFileSync(new URL('../../terminology/catalog.json',import.meta.url),'utf8')) as {entries:{category:string;en:string;zh:string;activeIds:string[];status:string}[]};
+const known=new Map(catalog.entries.map(e=>[`${e.category}:${normalize(e.en)}`,e]));
+const runtimeKnown=new Map(names.map(e=>[`${e.category}:${normalize(e.en)}`,e]));
 let count=0,verified=0;
 for(const [category,entries] of [['spell',spells],['item',items],['monster',monsters],['class',classes],['race',races]] as const){
   for(const entry of entries){
     const row=known.get(`${category}:${normalize(entry.nameEn)}`);
     assert.ok(row,`Inventory missing ${category} ${entry.id}; run terminology:apply`);
-    assert.ok(row.ids.includes(entry.id),`Stable ID missing from table: ${entry.id}`);
+    assert.ok(row.activeIds.includes(entry.id),`Stable ID missing from terminology catalog: ${entry.id}`);
     if(row.status.startsWith('verified')||row.status.startsWith('adapted')){
       assert.equal(entry.nameZh,row.zh,`Name regressed after import: ${category} ${entry.id}`);verified++;
+      const runtime=runtimeKnown.get(`${category}:${normalize(entry.nameEn)}`);
+      assert.ok(runtime?.ids.includes(entry.id),`Verified entry missing from runtime terminology index: ${entry.id}`);
     }
     count++;
   }

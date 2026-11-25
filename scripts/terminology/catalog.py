@@ -51,6 +51,9 @@ def inventory():
         occurrence={'path':path,'location':location,'zh':zh}
         if occurrence not in e['occurrences']:e['occurrences'].append(occurrence)
         if active and id and id not in e['activeIds']:e['activeIds'].append(id)
+    source_drafts=load(OUT/'source-draft-candidates.json',{'entries':[]})['entries']
+    for index,draft in enumerate(source_drafts,1):
+        add(draft['en'],draft['zh'],draft['category'],'terminology/source-draft-candidates.json',str(index))
     library=load(ROOT/'.git/terminology/library.json',{})
     for group, rows in library.items():
         for r in rows:add(r['nameEn'],r['nameZh'],KINDS[group],'@library',id=r['id'],active=True)
@@ -223,6 +226,9 @@ def inventory():
             for reference in d['references']:
                 if reference not in manual[k].setdefault('references',[]):manual[k]['references'].append(reference)
         else:manual[k]=d
+    for d in source_drafts:
+        k=key(d['category'],d['en'])
+        if k not in manual:manual[k]=d
     for e in entries.values():
         decision=manual.get(e['key'])
         if decision:

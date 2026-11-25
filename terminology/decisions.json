@@ -2905,6 +2905,10 @@
           "accessed": "2026-11-06",
           "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
         }
+      ],
+      "legacyZh": [
+        "千里传音",
+        "千里耳"
       ]
     },
     {
@@ -3302,6 +3306,105 @@
         }
       ],
       "reason": "PHB 与 DMG 的法术详述均以“召唤怪物 {r} Monster Summoning {r}”列名。按原书级别保留 I–VII；统一此前被漏掉级别或倒置词序的索引显示名。"
+    },
+    {
+      "category": "spell",
+      "en": "Clairvoyance",
+      "zh": "鹰眼术",
+      "legacyZh": [
+        "千里眼",
+        "千里眼术"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "name-component mapped from the 3R combined spell title; 1E separates the auditory and visual spells",
+      "userOverride": true,
+      "reason": "3R 灰机双语条目将 Clairaudience/Clairvoyance 并列为“锐耳术/鹰眼术”；按原名顺序映射两个英语成分。1E 将其拆为两项法术；这里只采用名称，不认定规则机制相同。",
+      "references": [
+        {
+          "en": "Clairaudience/Clairvoyance",
+          "zh": "锐耳术/鹰眼术",
+          "category": "spell",
+          "edition": "3R",
+          "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+          "accessed": "2026-11-06",
+          "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Clairaudience",
+      "zh": "锐耳术药水",
+      "legacyZh": [
+        "千里传音药水",
+        "千里传音"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "1e-potion-name-derived-from-canonical-spell plus potion category",
+      "userOverride": true,
+      "reason": "DMG 药水表与详情说明均指向同名三环魔法师法术；按 3R 术语表中的法术译名统一名称，并补出“药水”类别。旧译保留为检索别名。",
+      "references": [
+        {
+          "en": "Clairaudience",
+          "zh": "锐耳术药水",
+          "category": "item",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-treasure.md#134"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Clairvoyance",
+      "zh": "鹰眼术药水",
+      "legacyZh": [
+        "千里眼药水"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "1e-potion-name-derived-from-canonical-spell plus potion category",
+      "userOverride": true,
+      "reason": "DMG 药水表与详情说明均指向同名三环魔法师法术；按 3R 术语表中的法术译名统一名称，并补出“药水”类别。旧译保留为检索别名。",
+      "references": [
+        {
+          "en": "Clairvoyance",
+          "zh": "鹰眼术药水",
+          "category": "item",
+          "edition": "1E",
+          "source": "DMG",
+          "url": "src/published/books/dmg/dmg-treasure.md#135"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Magic Missile",
+      "zh": "魔法飞弹",
+      "legacyZh": [
+        "魔法飞弹术"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "userOverride": true,
+      "reason": "PHB 隐形师法术表旧译“魔法飞弹术”与同书法术正文及其他 1E 法术表的规范译名不一致；统一为“魔法飞弹”，旧译保留为检索别名。",
+      "references": [
+        {
+          "en": "Magic Missile",
+          "zh": "魔法飞弹",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-illusionists.md#990"
+        },
+        {
+          "en": "Magic Missile",
+          "zh": "魔法飞弹",
+          "category": "spell",
+          "edition": "1E",
+          "source": "PHB",
+          "url": "src/published/books/phb/spell-explanations-magic-users.md#237"
+        }
+      ]
     }
   ]
 }

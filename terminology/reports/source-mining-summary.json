@@ -1,0 +1,27 @@
+{
+  "method": "OCR title-case and all-caps phrase extraction plus bilingual manuscript headings/table labels",
+  "ocrCorpus": {
+    "rawBooks": 24,
+    "rawPages": 2928,
+    "dragonOCRFiles": 128,
+    "sourceFiles": 3056
+  },
+  "manuscriptFiles": 1899,
+  "uniqueCandidates": 60118,
+  "candidateStatusCounts": {
+    "source-candidate": 56671,
+    "in-1e-catalog": 2806,
+    "catalogue-candidate": 427,
+    "reference-only": 214
+  },
+  "priorityReviewCandidates": 19500,
+  "bilingualDraftCandidatesAddedToSearch": 155,
+  "limitations": [
+    "OCR phrase extraction includes false positives, OCR errors and incomplete table text.",
+    "Exact 3R/5E/5R name matches are suggestions only and do not establish an AD&D 1E canonical translation.",
+    "Candidate rows retain source locators but exclude OCR prose; verify each term in its source context before catalog approval."
+  ],
+  "output": "terminology/reports/source-candidates.tsv",
+  "priorityOutput": "terminology/reports/source-candidates-priority.tsv",
+  "draftCandidateCatalog": "terminology/source-draft-candidates.json"
+}

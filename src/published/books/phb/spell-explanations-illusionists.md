@@ -987,4 +987,4 @@
 | 羽落术 Feather Fall | 电爪 Shocking Grasp |
 | 交友术 Friends | 睡眠术 Sleep |
 | 止门术 Hold Portal | 谭森浮碟术 Tenser's Floating Disc |
-| 魔法飞弹术 Magic Missile | 隐形仆役术 Unseen Servant |
+| 魔法飞弹 Magic Missile | 隐形仆役术 Unseen Servant |
