@@ -107,7 +107,7 @@ for t in SOURCES:
   if t['book']=='dmg' and english.startswith('Protection from '):english='Scroll of '+english;chinese+='卷轴'
   iid=t['book']+'-item-'+re.sub(r'[^a-z0-9]+','-',english.lower()).strip('-')
   if any(i['id']==iid for i in existing):continue
-  artifact=t['book']=='dmg' and h['start']>next(x['start'] for x in t['blocks'] if x['title']=='圣物与遗物 Artifacts and Relics') and h['start']<next(x['start'] for x in t['blocks'] if x['title']=='圣物与遗物能力／效果表 Artifacts and Relics Power/Effects Tables') or t['book']=='dmg' and bool(re.search('Vecna|Kas|Orcus|Baba Yaga|Codex|Al.Akbar|Arnd|Jacinth|Lum the Mad|Regalia|Mighty Servant|Axe of the Dwarvish|Rod of Seven|Queen Ehlissa|Teeth of Dahlver',english,re.I))
+  artifact=t['book']=='dmg' and h['start']>next(x['start'] for x in t['blocks'] if x['title']=='神器与圣遗物 Artifacts and Relics') and h['start']<next(x['start'] for x in t['blocks'] if x['title']=='圣物与遗物能力／效果表 Artifacts and Relics Power/Effects Tables') or t['book']=='dmg' and bool(re.search('Vecna|Kas|Orcus|Baba Yaga|Codex|Al.Akbar|Arnd|Jacinth|Lum the Mad|Regalia|Mighty Servant|Axe of the Dwarvish|Rod of Seven|Queen Ehlissa|Teeth of Dahlver',english,re.I))
   if english=='Mighty Servant of Leuk-O':chinese='莱乌克-欧的强力仆役'
   entry={'id':iid,'nameZh':chinese,'nameEn':english,'category':'神器' if artifact else '魔法物品','price':'未列售价','weight':'未列','description':body.split('。')[0]+'。','tags':['魔法']+(['神器'] if artifact else []),'source':[{'book':t['book'].upper(),'section':h['title']}],'details':[detail(t,h)]}
   additions.append(entry);existing.append(entry)

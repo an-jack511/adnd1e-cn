@@ -19,20 +19,20 @@
 | 1 | 协调对立 Concordant Opposition | 皮革棕 |
 | 2 | 快乐狩猎场 Happy Hunting Grounds | 翡翠绿 |
 | 3 | 盖勒斯尼姆 Gladsheim | 靛蓝 |
-| 4 | 林勃 Limbo | 反光黑 |
-| 5 | 潘德莫尼姆 Pandemonium | 洋红 |
-| 6 | 深渊 Abyss | 紫水晶 |
+| 4 | 混沌海 Limbo | 反光黑 |
+| 5 | 喧癫空隧 Pandemonium | 洋红 |
+| 6 | 无底深渊 Abyss | 紫水晶 |
 | 7 | 塔纳厘 Tarterus | 橄榄色 |
 | 8 | 哈迪斯 Hades | 铁锈红 |
-| 9 | 格赫纳 Gehenna | 赤褐色 |
+| 9 | 焦炎火狱 Gehenna | 赤褐色 |
 | 10 | 九层地狱 Nine Hells | 红色 |
-| 11 | 阿刻戎 Acheron | 火焰橙 |
+| 11 | 修罗场 Acheron | 火焰橙 |
 | 12 | 尼维尔海姆 Niflheim | 钴蓝 |
 | 13 | 尼瓦尔 Nirvana | 钻石蓝 |
-| 14 | 阿卡狄 Arcadia | 蓝灰 |
+| 14 | 世外桃源 Arcadia | 蓝灰 |
 | 15 | 七重天堂 Seven Heavens | 金色 |
 | 16 | 双子天堂 Twin Paradises | 琥珀 |
-| 17 | 伊吕希昂 Elysium | 蛋白石 |
+| 17 | 极乐境 Elysium | 蛋白石 |
 | 18 | 原初位面 Prime Material | 银色 |
 | 19 | 其他原初位面 | 其他金属色 |
 | 20 | 其他位面 | 闪亮白 |

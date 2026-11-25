@@ -1,6 +1,6 @@
-#### 无相位板甲 Plate Mail of Etherealness
+#### 以太化板甲 Plate Mail of Etherealness
 
-“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。无相位板甲共有 <strong>20 次充能</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 次充能</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 次充能</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>次充能耗尽后则只剩 <strong>+1</strong>。
+“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。以太化板甲共有 <strong>20 次充能</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 次充能</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 次充能</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>次充能耗尽后则只剩 <strong>+1</strong>。
 
 #### 易损板甲 Plate Mail of Vulnerability
 
@@ -39,9 +39,9 @@
 
 此剑始终获得 <strong>+1</strong> 加值；用于对付魔法师、施法生物，以及被召唤、创造、异界之门召来或召唤术唤来的生物时，获得 <strong>+2</strong>。若某生物仅因物品赋予而能施法（例如借助储法戒指），则不受此 <strong>+2</strong> 加值影响。
 
-#### +1 剑，对抗兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers
+#### +1 剑，对抗兽化人与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers
 
-此剑对狼人及其他兽化生物、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 <strong>+3</strong> 加值。
+此剑对狼人及其他兽化人、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 <strong>+3</strong> 加值。
 
 #### +1 剑，对抗再生生物 +3 Sword +1, +3 vs. Regenerating Creatures
 
