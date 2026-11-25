@@ -170,7 +170,7 @@
 | 17 | 幽魂 | Spectre | MM1 | 1 |
 | 18 | 隐形追猎者 | Invisible Stalker | MM1 | 1 |
 | 19 | 迪亚克 | Diakk | MM2 | 1–4 |
-| 20 | 夹层魔 | Daemon, Mezzo- | FF | 1 |
+| 20 | 梅佐恶魔 | Daemon, Mezzo- | FF | 1 |
 
 ## 地下城等级 VIII
 

@@ -29,7 +29,7 @@
 | 55–57 | 无敌药水 Invulnerability（F） | 350 | 500 |
 | 58–60 | 浮空药水 Levitation | 250 | 400 |
 | 61–63 | 长寿药水 Longevity | 500 | 1,000 |
-| 64–66 | 以太化油 Oil of Etherealness | 600 | 1,500 |
+| 64–66 | 以太化之油 Oil of Etherealness | 600 | 1,500 |
 | 67–69 | 滑溜之油 Oil of Slipperiness | 400 | 750 |
 | 70–72 | 爱情媚药 Philter of Love | 200 | 300 |
 | 73–75 | 说服媚药 Philter of Persuasiveness | 400 | 850 |

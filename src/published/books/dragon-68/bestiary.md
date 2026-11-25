@@ -4,7 +4,7 @@
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine068.pdf)
 
-## 科林斯海生大地精 Koalinth
+## 海地精 Koalinth
 
 Mark S. Harcourt · 第 39、40 页
 

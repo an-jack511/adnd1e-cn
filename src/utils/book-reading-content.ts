@@ -69,7 +69,7 @@ function normalizeReadingTerminology(book:string,content:string) {
   .replaceAll('游侠','巡林客')
   .replaceAll('魔法使用者与附魔生物','施法生物与附魔生物')
   .replaceAll('魔法使用者','魔法师')
-  .replaceAll('非武器专长','非武器熟练项')
+  .replaceAll('非武器熟练项','非武器熟练项')
   .replaceAll('武器专长','武器熟练项')
   .replaceAll('角色专长','角色熟练项')
   .replaceAll('改进专长','改进熟练项')

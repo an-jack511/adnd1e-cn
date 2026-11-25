@@ -21,13 +21,13 @@ ADVANCED DUNGEONS & DRAGONS 的多元宇宙中存在无数平行宇宙与存在�
 14. <strong>奥林匹斯诸界</strong>：绝对混乱善良。
 15. <strong>格拉斯海姆诸界</strong>（阿斯加德、英灵殿、华纳海姆等）：中立混乱善良。
 16. <strong>混沌海</strong>：绝对混乱（熵）。
-17. <strong>潘德莫尼姆诸界</strong>：中立混乱邪恶。
+17. <strong>喧癫空隧诸界</strong>：中立混乱邪恶。
 18. <strong>深渊的666层</strong>：绝对混乱邪恶。
 19. <strong>塔尔忒罗斯诸界</strong>：混乱中立邪恶。
 20. <strong>哈迪斯的“三重阴霾”</strong>：绝对中立邪恶。
 21. <strong>盖赫纳熔炉</strong>：中立守序邪恶。
 22. <strong>九层地狱</strong>：绝对守序邪恶。
-23. <strong>阿刻戎冥界</strong>：守序中立邪恶。
+23. <strong>修罗场冥界</strong>：守序中立邪恶。
 24. <strong>尼尔瓦纳诸界</strong>：绝对中立（守序）。
 25. <strong>阿卡狄亚诸界</strong>：守序中立善良。
 

@@ -32,7 +32,7 @@
 <TR><TD>女性</TD><TD>2—12 英寸</TD><TD>10—120 磅</TD></TR>
 </TABLE>
 <A NAME="dmg-player-character-non-professional-skills"></A>
-<H2>玩家角色的非职业技能 Player Character Non-Professional Skills</H2>
+<H2>玩家角色非职业技能 Player Character Non-Professional Skills</H2>
 <P>玩家角色选择职业时，默认该职业是角色此前一直从事的专业活动，几乎排除了其他所有活动。因此，角色在相应职业能力上处于 <STRONG>1 级</STRONG>。不过，角色也可能掌握一些日常技能：这些知识与训练或许来自早年经历，或是在学习牧师、战士等主要职业技能的学徒阶段偶然习得。</P>
 <P>如果你的战役会考虑次要技能，可以使用下表为玩家角色分配技能；若你愿意，也可以为随从分配。你可以随机分配，或根据战役背景选择。若要判断角色是否掌握第二项技能，再掷一次表格；若结果为“掷两次”，则再分配一项合适的技能。</P>
 <P><STRONG>次要技能表 Secondary Skills Table</STRONG></P>

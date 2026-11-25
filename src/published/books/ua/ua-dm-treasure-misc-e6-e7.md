@@ -52,7 +52,7 @@
 | 22–23 | 塞勒斯提安的披肩 Mantle of Celestian | 1,500 | 15,000 |
 | 24–27 | 穆尔林德的勺子 Murlynd’s Spoon | 750 | 4,000 |
 | 28–29 | 海妖珍珠 Pearl of the Sirines | 900 | 4,500 |
-| 30–31 | 贤者之石 Philosopher’s Stone | 1,000 | 10,000 |
+| 30–31 | 点金石 Philosopher’s Stone | 1,000 | 10,000 |
 | 32–37 | 随取袋 Pouch of Accessibility | 1,250 | 12,500 |
 | 38 | 扎吉格的牢笼 Prison of Zagyg（M） | 2,750 | 25,000 |
 | 39–40 | 艾罗娜的箭袋 Quiver of Ehlonna | 1,500 | 10,000 |

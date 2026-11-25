@@ -10,7 +10,7 @@ Tom Moldvay · 第 22 页
 
 <div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>极罕见</td></tr><tr><th scope="row">出现数量</th><td>1d8</td></tr><tr><th scope="row">护甲等级</th><td>5</td></tr><tr><th scope="row">移动</th><td>12″</td></tr><tr><th scope="row">生命骰</th><td>5</td></tr><tr><th scope="row">巢穴比例</th><td>10%</td></tr><tr><th scope="row">宝藏</th><td>A</td></tr><tr><th scope="row">攻击次数</th><td>1</td></tr><tr><th scope="row">伤害</th><td>爪1d6；抓握吸血每轮3d6</td></tr><tr><th scope="row">特殊攻击</th><td>法术；吸血</td></tr><tr><th scope="row">特殊防御</th><td>无</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>高</td></tr><tr><th scope="row">阵营</th><td>混乱邪恶</td></tr><tr><th scope="row">体型</th><td>M</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>夜间游荡</td></tr></tbody></table></div>
 
-巴欧班希吸血妖外表像年轻美丽的女子，夜间出没，诱骗活人供自己吸血。它属于低等恶魔，牧师尝试驱散时按“特殊”类别处理。它会使用魅惑人类、锐耳术、建议术、幻影之力和传送术，设法让目标自愿靠近并接受触碰。
+巴欧班希吸血妖外表像年轻美丽的女子，夜间出没，诱骗活人供自己吸血。它属于低等恶魔，牧师尝试驱散时按“特殊”类别处理。它会使用魅惑人类、锐耳术、建议术、魅影之力和传送术，设法让目标自愿靠近并接受触碰。
 
 当它抓住目标，并成功进行一次吸血接触的命中检定后，当轮就会自动吸取鲜血，造成 3d6 点伤害。此时，控制受害者的魅惑或建议效果立即解除，受害者可以正常还击，但必须按力量属性的开门概率检定，才能摆脱它的抓握。例如，力量 15 的受害者掷 d6，得到 1 或 2 时便能挣脱。
 

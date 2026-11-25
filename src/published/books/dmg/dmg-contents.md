@@ -41,7 +41,7 @@
   - 怪物作为玩家角色 The Monster as a Player Character — 21
   - 兽化症 Lycanthropy — 21
 - 阵营 Alignment
-  - 阵营语言 Alignment Language
+  - 阵营语 Alignment Language
   - 改变阵营 Changing Alignment
 - 金钱 Money
   - 玩家角色起始金钱 Player Character Starting Money

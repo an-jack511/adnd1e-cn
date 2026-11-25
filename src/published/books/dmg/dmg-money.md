@@ -138,7 +138,7 @@
 <TR><TD>石榴石</TD><TD>赋予龙之视觉能力</TD></TR>
 <TR><TD>红玉髓</TD><TD>防护邪恶</TD></TR>
 <TR><TD>猫眼玛瑙</TD><TD>防护灵体</TD></TR>
-<TR><TD>玉髓</TD><TD>驱退不死生物</TD></TR>
+<TR><TD>玉髓</TD><TD>驱散不死生物</TD></TR>
 <TR><TD>金绿玉</TD><TD>防止附身</TD></TR>
 <TR><TD>贵橄榄石</TD><TD>抵御法术</TD></TR>
 <TR><TD>绿玉髓</TD><TD>隐形</TD></TR>

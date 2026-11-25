@@ -1,6 +1,6 @@
 <!-- source: OCR/ua-raw/pages/page-081.png–page-082.png; 原书印刷 p. 81–82 -->
 
-# 冒险：水下施法 Underwater Spell Use
+# 水下法术 Underwater Spell Use
 
 以下依原书印刷第 81–82 页译录。带 * 的法术虽然通常无法在水下使用，但可以在*空气水泡*（Airy Water）法术的范围内施展并生效。
 

@@ -75,21 +75,21 @@
 - 概览、前往、生存、移动、遭遇、战斗、魔法、玩家角色 …… 73–84
 - 外层位面详述 Outer Plane Descriptions …… 82
 - 尼维尔 Nirvana …… 84
-- 阿卡狄亚 Arcadia …… 86
+- 阿卡狄亚 世外桃源（Arcadia） …… 86
 - 七重天堂 Seven Heavens …… 87
 - 双子天堂 Twin Paradises …… 89
-- 伊利西昂 Elysium …… 90
+- 伊利西昂 极乐境（Elysium） …… 90
 - 快乐狩猎场 Happy Hunting Grounds …… 91
 - 奥林匹斯 Olympus …… 92
 - 格拉希亚 Gladsheim …… 94
-- 林博 Limbo …… 97
-- 潘德摩尼姆 Pandemonium …… 99
+- 林博 混沌海（Limbo） …… 97
+- 潘德摩尼姆 喧癫空隧（Pandemonium） …… 99
 - 深渊 The Abyss …… 101
 - 谭森鲁斯 Tarterus …… 103
-- 赫德斯 Hades …… 105
+- 赫德斯 哈迪斯（Hades） …… 105
 - 几内亚 Gehennas …… 107
 - 九层地狱 The Nine Hells …… 109
-- 阿刻戎 Acheron …… 113
+- 修罗场 Acheron …… 113
 - 和谐对立 Concordant Opposition …… 114
 - 超越 Beyond the Outer Planes …… 116
 

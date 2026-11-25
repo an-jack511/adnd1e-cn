@@ -42,7 +42,7 @@
 <TR><TD>20*</TD><TD>3</TD><TD>3</TD><TD>3</TD><TD>3</TD></TR>
 </TABLE>
 <P><FONT color=#808080>*法术能力上限。</FONT></P>
-<h3>战士、圣武士与巡林客每轮攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
+<h3>战士、圣武士与巡林客每轮近战攻击次数表 Fighters&#x27;, Paladins&#x27;, &amp; Rangers&#x27; Attacks Per Melee Round Table</h3>
 <TABLE>
 <TR><TH>等级</TH><TH>每轮近战攻击次数*</TH></TR>
 <TR><TD>战士 1–6／Fighter 1–6</TD><TD>每轮1次</TD></TR>

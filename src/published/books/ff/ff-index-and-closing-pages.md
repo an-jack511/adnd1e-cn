@@ -177,7 +177,7 @@
 | ↳ 熔岩 | - | 64 |
 | ↳ 烟雾 | - | 64 |
 | ↳ 蒸汽 | - | 65 |
-| 夹层魔 | Gary Gygax | 66 |
+| 梅佐恶魔 | Gary Gygax | 66 |
 | 螨精 | Ian Livingstone | 66 |
 | 山巨人——见巨人 | - | - |
 | 死灵蛇构装体 | Simon Tilbrook | 67 |
