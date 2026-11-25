@@ -184,7 +184,7 @@
   "magic-clairvoyance": {
     "details": [
       {
-        "title": "千里眼 Clairvoyance",
+        "title": "鹰眼术 Clairvoyance",
         "html": "<p>饮用者获得如同使用同名三环魔法师法术的视觉能力（见该法术说明），可看见距离不超过 <strong>3”</strong>的未知区域。与法术不同的是，它也能看见已知区域。效果持续 <strong>1 回合</strong>。</p>",
         "source": {
           "book": "DMG",
@@ -577,7 +577,7 @@
     "details": [
       {
         "title": "超级英雄主义 Super-Heroism",
-        "html": "<p>若饮用者的经验等级低于 <strong>13 级</strong>，此药水会暂时提升其生命能量等级：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">饮用者等级</th><th align=\"center\">获得的能量等级</th><th align=\"center\">累积伤害所掷的十面骰</th></tr></thead><tbody><tr><td align=\"center\">0</td><td align=\"center\">6</td><td align=\"center\">5</td></tr><tr><td align=\"center\">1–3</td><td align=\"center\">5</td><td align=\"center\">4+1</td></tr><tr><td align=\"center\">4–6</td><td align=\"center\">4</td><td align=\"center\">3+2</td></tr><tr><td align=\"center\">7–9</td><td align=\"center\">3</td><td align=\"center\">2+3</td></tr><tr><td align=\"center\">10–12</td><td align=\"center\">2</td><td align=\"center\">1+4</td></tr></tbody></table>\n<p>除此之外，此药水与“英雄主义”药水相同，但效果持续 <strong>5–30 个近战轮</strong>。</p>",
+        "html": "<p>若饮用者的经验等级低于 <strong>13 级</strong>，此药水会暂时提升其生命能量等级：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">饮用者等级</th><th align=\"center\">获得的能量等级</th><th align=\"center\">累积伤害所掷的十面骰</th></tr></thead><tbody><tr><td align=\"center\">0</td><td align=\"center\">6</td><td align=\"center\">5</td></tr><tr><td align=\"center\">1–3</td><td align=\"center\">5</td><td align=\"center\">4+1</td></tr><tr><td align=\"center\">4–6</td><td align=\"center\">4</td><td align=\"center\">3+2</td></tr><tr><td align=\"center\">7–9</td><td align=\"center\">3</td><td align=\"center\">2+3</td></tr><tr><td align=\"center\">10–12</td><td align=\"center\">2</td><td align=\"center\">1+4</td></tr></tbody></table>\n<p>除此之外，此药水与“英雄主义”药水相同，但效果持续 <strong>5–30 个轮</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "超级英雄主义 Super-Heroism"
@@ -1025,7 +1025,7 @@
     "details": [
       {
         "title": "王者权杖 Rod of Lordly Might",
-        "html": "<p>此权杖兼具类法术能力、数种魔法武器形态与日常用途。它由金属制成，比其他权杖更粗，一端有凸缘球头，长度方向上设有数枚突起。重 <strong>10 磅</strong>；只有力量至少 <strong>16</strong> 才能正常使用，低于 <strong>16</strong> 的每一点力量都会使命中骰承受 <strong>−1</strong>。</p>\n<p>类法术能力如下：</p>\n<ol>\n<li>持杖者下令后，触碰即可麻痹生物。</li>\n<li>持杖者可令所有看到权杖的敌人恐惧，最远 <strong>6”</strong>。</li>\n<li>触碰对手可吸取 <strong>2–8 点</strong>生命值并转移给持杖者，但持杖者的生命值不能超过正常上限。（参见“再生戒指”。）</li>\n</ol>\n<p>每次发动上述能力都会消耗 <strong>1 charge</strong>。受影响者可以进行对抗魔法的豁免检定，但第三项能力要求持杖者在近战中成功击中目标。</p>\n<p>此权杖还可变为以下魔法武器：</p>\n<ol>\n<li>保持原状时是一把 <strong>+2 硬头锤</strong>。</li>\n<li>按下 <strong>按钮 1</strong>，球头会弹出一柄 <strong>+1 火焰之剑</strong>，手柄随之缩短，使总长约 <strong>3 尺</strong>。</li>\n<li>按下 <strong>按钮 2</strong>，球头会弹出一柄 <strong>+4 战斧</strong>，整体长度变为 <strong>4 尺</strong>。</li>\n<li>按下 <strong>按钮 3</strong>，球头会弹出一柄 <strong>+3 长矛</strong>，手柄可伸长至 <strong>6–15 尺</strong>，适合用作骑枪。</li>\n</ol>\n<p>以上武器形态不消耗 charges。</p>\n<p>王者权杖还具有以下普通用途：</p>\n<ol>\n<li>按下 <strong>按钮 4</strong>，权杖会变成攀爬杆：杆尾弹出一枚可钉入花岗岩的尖钉，顶端则伸出 <strong>3 个</strong>尖钩；每段长度增加 <strong>5 尺</strong>，直到按下 <strong>按钮 5</strong>，或长度达到 <strong>50 尺</strong>。在杆的两侧，每隔 <strong>1 尺</strong>会依次弹出长度 <strong>3 英寸</strong>的横杆。尖钉与尖钩牢牢固定后，可承受最多 <strong>4,000 磅</strong>重量。再按 <strong>按钮 5</strong>即可收回权杖。</li>\n<li>若把权杖底端插入地面，并与目标入口保持 <strong>30 尺</strong>以内直线距离，权杖可强行打开与其对齐的门；力量相当于风暴巨人。</li>\n<li>按下 <strong>按钮 6</strong>，权杖会指示磁北方向，并告知持有者地表之下（或上方）的近似深度。</li>\n</ol>\n<p>这些功能也不消耗 charges。王者权杖不能重新充能。charges 耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。</p>",
+        "html": "<p>此权杖兼具类法术能力、数种魔法武器形态与日常用途。它由金属制成，比其他权杖更粗，一端有凸缘球头，长度方向上设有数枚突起。重 <strong>10 磅</strong>；只有力量至少 <strong>16</strong> 才能正常使用，低于 <strong>16</strong> 的每一点力量都会使命中骰承受 <strong>−1</strong>。</p>\n<p>类法术能力如下：</p>\n<ol>\n<li>持杖者下令后，触碰即可麻痹生物。</li>\n<li>持杖者可令所有看到权杖的敌人恐惧，最远 <strong>6”</strong>。</li>\n<li>触碰对手可吸取 <strong>2–8 点</strong>生命值并转移给持杖者，但持杖者的生命值不能超过正常上限。（参见“再生戒指”。）</li>\n</ol>\n<p>每次发动上述能力都会消耗 <strong>1 charge</strong>。受影响者可以进行对抗魔法的豁免检定，但第三项能力要求持杖者在近战中成功击中目标。</p>\n<p>此权杖还可变为以下魔法武器：</p>\n<ol>\n<li>保持原状时是一把 <strong>+2 硬头锤</strong>。</li>\n<li>按下 <strong>按钮 1</strong>，球头会弹出一柄 <strong>+1 火焰之剑</strong>，手柄随之缩短，使总长约 <strong>3 尺</strong>。</li>\n<li>按下 <strong>按钮 2</strong>，球头会弹出一柄 <strong>+4 战斧</strong>，整体长度变为 <strong>4 尺</strong>。</li>\n<li>按下 <strong>按钮 3</strong>，球头会弹出一柄 <strong>+3 长矛</strong>，手柄可伸长至 <strong>6–15 尺</strong>，适合用作骑枪。</li>\n</ol>\n<p>以上武器形态不消耗 charges。</p>\n<p>王者权杖还具有以下普通用途：</p>\n<ol>\n<li>按下 <strong>按钮 4</strong>，权杖会变成攀爬杆：杆尾弹出一枚可钉入花岗岩的尖钉，顶端则伸出 <strong>3 个</strong>尖钩；每段长度增加 <strong>5 尺</strong>，直到按下 <strong>按钮 5</strong>，或长度达到 <strong>50 尺</strong>。在杆的两侧，每隔 <strong>1 尺</strong>会依次弹出长度 <strong>3 英寸</strong>的横杆。尖钉与尖钩牢牢固定后，可承受最多 <strong>4,000 磅</strong>重量。再按 <strong>按钮 5</strong>即可收回权杖。</li>\n<li>若把权杖底端插入地面，并与目标入口保持 <strong>30 尺</strong>以内直线距离，权杖可强行打开与其对齐的门；力量相当于风暴巨人。</li>\n<li>按下 <strong>按钮 6</strong>，权杖会指示磁北地向，并告知持有者地表之下（或上方）的近似深度。</li>\n</ol>\n<p>这些功能也不消耗 charges。王者权杖不能重新充能。charges 耗尽后，所有类法术能力及第 <strong>2、3</strong> 种武器功能都会停止，但其他功能仍可使用。</p>",
         "source": {
           "book": "DMG",
           "section": "君主威仪权杖 Rod of Lordly Might"
@@ -1557,7 +1557,7 @@
     "details": [
       {
         "title": "水晶球 Crystal Ball",
-        "html": "<p>水晶球是最常见的占卜装置，通常是直径约 <strong>½’</strong>的水晶球。魔法师可用它观察几乎任何距离之外的事物，或窥视其他存在位面。使用者必须知道要观察的对象。相关知识可来自私人熟识、拥有对方的私人物品、拥有肖像、或积累相关信息。决定能否成功定位的关键是知识，而非距离：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>对对象的了解程度</th><th align=\"right\">定位概率*</th></tr></thead><tbody><tr><td>私人熟识</td><td align=\"right\">100%</td></tr><tr><td>略微认识</td><td align=\"right\">85%</td></tr><tr><td>有其肖像</td><td align=\"right\">50%</td></tr><tr><td>持有其物品</td><td align=\"right\">50%</td></tr><tr><td>持有其衣物</td><td align=\"right\">25%</td></tr><tr><td>对其情况了解充分</td><td align=\"right\">25%</td></tr><tr><td>对其情况略有了解</td><td align=\"right\">20%</td></tr><tr><td>对象位于另一位面</td><td align=\"right\">25%</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>定位概率还决定魔法师能够观察目标多久、观察频率如何：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>定位概率*</th><th align=\"right\">每次观察时长</th><th align=\"right\">频率</th></tr></thead><tbody><tr><td>100% 或更高</td><td align=\"right\">1 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>90%–99%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>75%–89%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 2 次</td></tr><tr><td>50%–74%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>25%–49%</td><td align=\"right\">¼ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>24% 或更低</td><td align=\"right\">⅙ 小时</td><td align=\"right\">每天 1 次</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>若超过上述时长或频率继续观察，魔法师每轮都必须进行对抗魔法的豁免检定。失败会使其智力永久降低 <strong>1 点</strong>，并陷入疯狂，直到得到治疗。</p>\n<p>对水晶球使用某些法术，可能提高其能力：<strong>通晓语言、阅读魔法、红外视觉术、通晓语言术</strong>。另有两种法术可以透过水晶球施展，但魔法师每有 <strong>1 个经验等级</strong>，正确施展的概率才增加 <strong>5%</strong>：<strong>侦测魔法</strong>与<strong>侦测善恶</strong>。</p>\n<p>某些水晶球还有额外能力，掷随机骰决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>能力</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>普通水晶球</td></tr><tr><td align=\"right\">51–75</td><td>水晶球，附带千里耳</td></tr><tr><td align=\"right\">76–90</td><td>水晶球，附带 ESP</td></tr><tr><td align=\"right\">91–00</td><td>水晶球，附带心灵感应*</td></tr></tbody></table>\n<p>* 仅限通信。</p>\n<p>装置法术能力按 <strong>10 级</strong>计算。</p>\n<p>只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、巡林客 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、武僧 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。</p>\n<p>智力每高于 <strong>12</strong> 点，生物察觉占卜的累积概率便按算术递增方式增加：从 <strong>1%</strong>开始，智力 <strong>13–18</strong>时依次为 <strong>1%、3%、6%、10%、15%、21%</strong>。此外，每有 <strong>1 个经验等级</strong>，察觉占卜的概率再增加 <strong>1%</strong>。怪物按最适合的上述职业计算。</p>\n<p>每轮检查一次。若掷骰结果不高于相应概率，目标便察觉自己正被观察。若目标是施法者（牧师、德鲁伊、魔法师或幻术师），则使用原书第 <strong>60 页</strong>的“隐形侦测”表，而不是以上概率，并且每轮都要检查。施展“解除魔法”会使水晶球停止运作 <strong>1 天</strong>。针对水晶球窥视的各类防护法术则会使装置变得朦胧、无法正常工作。</p>\n\n<p>（注：你也可以允许牧师与德鲁伊使用占卜装置，例如水盆和镜子；其功能视同普通水晶球。）</p>",
+        "html": "<p>水晶球是最常见的占卜装置，通常是直径约 <strong>½’</strong>的水晶球。魔法师可用它观察几乎任何距离之外的事物，或窥视其他存在位面。使用者必须知道要观察的对象。相关知识可来自私人熟识、拥有对方的私人物品、拥有肖像、或积累相关信息。决定能否成功定位的关键是知识，而非距离：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>对对象的了解程度</th><th align=\"right\">定位概率*</th></tr></thead><tbody><tr><td>私人熟识</td><td align=\"right\">100%</td></tr><tr><td>略微认识</td><td align=\"right\">85%</td></tr><tr><td>有其肖像</td><td align=\"right\">50%</td></tr><tr><td>持有其物品</td><td align=\"right\">50%</td></tr><tr><td>持有其衣物</td><td align=\"right\">25%</td></tr><tr><td>对其情况了解充分</td><td align=\"right\">25%</td></tr><tr><td>对其情况略有了解</td><td align=\"right\">20%</td></tr><tr><td>对象位于另一位面</td><td align=\"right\">25%</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>定位概率还决定魔法师能够观察目标多久、观察频率如何：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>定位概率*</th><th align=\"right\">每次观察时长</th><th align=\"right\">频率</th></tr></thead><tbody><tr><td>100% 或更高</td><td align=\"right\">1 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>90%–99%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 3 次</td></tr><tr><td>75%–89%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 2 次</td></tr><tr><td>50%–74%</td><td align=\"right\">½ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>25%–49%</td><td align=\"right\">¼ 小时</td><td align=\"right\">每天 1 次</td></tr><tr><td>24% 或更低</td><td align=\"right\">⅙ 小时</td><td align=\"right\">每天 1 次</td></tr></tbody></table>\n<p>* 除非受到魔法或灵能遮蔽。</p>\n<p>若超过上述时长或频率继续观察，魔法师每轮都必须进行对抗魔法的豁免检定。失败会使其智力永久降低 <strong>1 点</strong>，并陷入疯狂，直到得到治疗。</p>\n<p>对水晶球使用某些法术，可能提高其能力：<strong>通晓语言、阅读魔法、红外视觉术、通晓语言术</strong>。另有两种法术可以透过水晶球施展，但魔法师每有 <strong>1 个经验等级</strong>，正确施展的概率才增加 <strong>5%</strong>：<strong>侦测魔法</strong>与<strong>侦测善恶</strong>。</p>\n<p>某些水晶球还有额外能力，掷随机骰决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>能力</th></tr></thead><tbody><tr><td align=\"right\">01–50</td><td>普通水晶球</td></tr><tr><td align=\"right\">51–75</td><td>水晶球，附带锐耳术</td></tr><tr><td align=\"right\">76–90</td><td>水晶球，附带 ESP</td></tr><tr><td align=\"right\">91–00</td><td>水晶球，附带心灵感应*</td></tr></tbody></table>\n<p>* 仅限通信。</p>\n<p>装置法术能力按 <strong>10 级</strong>计算。</p>\n<p>只有智力达到 <strong>12</strong>或更高的生物，才有机会察觉自己正在被占卜。基础概率取决于职业：战士 <strong>2%</strong>、圣武士 <strong>6%</strong>、巡林客 <strong>4%</strong>、盗贼 <strong>6%</strong>、行刺者 <strong>5%</strong>、武僧 <strong>1%</strong>、吟游诗人 <strong>3%</strong>。</p>\n<p>智力每高于 <strong>12</strong> 点，生物察觉占卜的累积概率便按算术递增方式增加：从 <strong>1%</strong>开始，智力 <strong>13–18</strong>时依次为 <strong>1%、3%、6%、10%、15%、21%</strong>。此外，每有 <strong>1 个经验等级</strong>，察觉占卜的概率再增加 <strong>1%</strong>。怪物按最适合的上述职业计算。</p>\n<p>每轮检查一次。若掷骰结果不高于相应概率，目标便察觉自己正被观察。若目标是施法者（牧师、德鲁伊、魔法师或幻术师），则使用原书第 <strong>60 页</strong>的“隐形侦测”表，而不是以上概率，并且每轮都要检查。施展“解除魔法”会使水晶球停止运作 <strong>1 天</strong>。针对水晶球窥视的各类防护法术则会使装置变得朦胧、无法正常工作。</p>\n\n<p>（注：你也可以允许牧师与德鲁伊使用占卜装置，例如水盆和镜子；其功能视同普通水晶球。）</p>",
         "source": {
           "book": "DMG",
           "section": "水晶球 Crystal Ball"
@@ -1921,7 +1921,7 @@
     "details": [
       {
         "title": "巨人力量腰带 Girdle of Giant Strength",
-        "html": "<p>这条腰带看起来与冒险者常用腰带相似，但蕴含强大魔力。穿戴后会增强体能，具体如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>巨人类型与力量值</th><th align=\"right\">命中加值</th><th align=\"right\">伤害加值</th><th>开门*</th></tr></thead><tbody><tr><td align=\"right\">01–30</td><td>山丘巨人，19</td><td align=\"right\">+3</td><td align=\"right\">+7</td><td>7/8（3）</td></tr><tr><td align=\"right\">31–50</td><td>石巨人，20</td><td align=\"right\">+3</td><td align=\"right\">+8</td><td>7/8（3）</td></tr><tr><td align=\"right\">51–70</td><td>冰霜巨人，21</td><td align=\"right\">+4</td><td align=\"right\">+9</td><td>9/10（4）</td></tr><tr><td align=\"right\">71–85</td><td>火巨人，22</td><td align=\"right\">+4</td><td align=\"right\">+10</td><td>11/12（4）</td></tr><tr><td align=\"right\">86–95</td><td>云巨人，23</td><td align=\"right\">+5</td><td align=\"right\">+11</td><td>11/12（5）</td></tr><tr><td align=\"right\">96–00</td><td>风暴巨人，24</td><td align=\"right\">+6</td><td align=\"right\">+12</td><td>19/20（7/8）</td></tr></tbody></table>\n<p>* 括号中的数字表示角色每 <strong>6 次</strong>（风暴巨人力量时为每 <strong>8 次</strong>）尝试中，能够推开一扇锁住、横闩、以魔法封闭或施有法师锁的门的概率。每扇门只能尝试一次；若失败，便不能再尝试。</p>\n<p>穿戴者还能像饮用了巨人力量药水一样投掷巨石并弯折铁条。具体能力如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>巨人类型</th><th align=\"right\">负重加值</th><th align=\"right\">投石射程</th><th align=\"right\">基础伤害</th><th align=\"right\">石块重量**</th><th align=\"right\">弯折铁条／抬起闸门</th></tr></thead><tbody><tr><td>山丘</td><td align=\"right\">+4,500 磅</td><td align=\"right\">8”</td><td align=\"right\">1–6</td><td align=\"right\">140 磅</td><td align=\"right\">50%</td></tr><tr><td>石</td><td align=\"right\">+5,000 磅</td><td align=\"right\">16”</td><td align=\"right\">1–12</td><td align=\"right\">198 磅</td><td align=\"right\">60%</td></tr><tr><td>冰霜</td><td align=\"right\">+6,000 磅</td><td align=\"right\">10”</td><td align=\"right\">1–8</td><td align=\"right\">156 磅</td><td align=\"right\">70%</td></tr><tr><td>火</td><td align=\"right\">+7,500 磅</td><td align=\"right\">12”</td><td align=\"right\">1–8</td><td align=\"right\">170 磅</td><td align=\"right\">80%</td></tr><tr><td>云</td><td align=\"right\">+9,000 磅</td><td align=\"right\">14”</td><td align=\"right\">1–10</td><td align=\"right\">184 磅</td><td align=\"right\">90%</td></tr><tr><td>风暴</td><td align=\"right\">+12,000 磅</td><td align=\"right\">16”</td><td align=\"right\">1–12</td><td align=\"right\">212 磅</td><td align=\"right\">100%</td></tr></tbody></table>\n<p>** 石块的大致平均重量。</p>\n<p>获得的力量不会与普通或魔法力量加值累积，除非与食人魔力量护手和带棱魔法战锤（见下文）组合使用。</p>",
+        "html": "<p>这条腰带看起来与冒险者常用腰带相似，但蕴含强大魔力。穿戴后会增强体能，具体如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d100</th><th>巨人类型与力量值</th><th align=\"right\">命中加值</th><th align=\"right\">伤害加值</th><th>开门*</th></tr></thead><tbody><tr><td align=\"right\">01–30</td><td>山丘巨人，19</td><td align=\"right\">+3</td><td align=\"right\">+7</td><td>7/8（3）</td></tr><tr><td align=\"right\">31–50</td><td>石巨人，20</td><td align=\"right\">+3</td><td align=\"right\">+8</td><td>7/8（3）</td></tr><tr><td align=\"right\">51–70</td><td>冰霜巨人，21</td><td align=\"right\">+4</td><td align=\"right\">+9</td><td>9/10（4）</td></tr><tr><td align=\"right\">71–85</td><td>火巨人，22</td><td align=\"right\">+4</td><td align=\"right\">+10</td><td>11/12（4）</td></tr><tr><td align=\"right\">86–95</td><td>云巨人，23</td><td align=\"right\">+5</td><td align=\"right\">+11</td><td>11/12（5）</td></tr><tr><td align=\"right\">96–00</td><td>风暴巨人，24</td><td align=\"right\">+6</td><td align=\"right\">+12</td><td>19/20（7/8）</td></tr></tbody></table>\n<p>* 括号中的数字表示角色每 <strong>6 次</strong>（风暴巨人力量时为每 <strong>8 次</strong>）尝试中，能够推开一扇锁住、横闩、以魔法封闭或施有法师锁的门的概率。每扇门只能尝试一次；若失败，便不能再尝试。</p>\n<p>穿戴者还能像饮用了巨人力量药水一样投掷巨石并弯折铁条／抬起闸门。具体能力如下：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>巨人类型</th><th align=\"right\">负重加值</th><th align=\"right\">投石射程</th><th align=\"right\">基础伤害</th><th align=\"right\">石块重量**</th><th align=\"right\">弯折铁条／抬起闸门</th></tr></thead><tbody><tr><td>山丘</td><td align=\"right\">+4,500 磅</td><td align=\"right\">8”</td><td align=\"right\">1–6</td><td align=\"right\">140 磅</td><td align=\"right\">50%</td></tr><tr><td>石</td><td align=\"right\">+5,000 磅</td><td align=\"right\">16”</td><td align=\"right\">1–12</td><td align=\"right\">198 磅</td><td align=\"right\">60%</td></tr><tr><td>冰霜</td><td align=\"right\">+6,000 磅</td><td align=\"right\">10”</td><td align=\"right\">1–8</td><td align=\"right\">156 磅</td><td align=\"right\">70%</td></tr><tr><td>火</td><td align=\"right\">+7,500 磅</td><td align=\"right\">12”</td><td align=\"right\">1–8</td><td align=\"right\">170 磅</td><td align=\"right\">80%</td></tr><tr><td>云</td><td align=\"right\">+9,000 磅</td><td align=\"right\">14”</td><td align=\"right\">1–10</td><td align=\"right\">184 磅</td><td align=\"right\">90%</td></tr><tr><td>风暴</td><td align=\"right\">+12,000 磅</td><td align=\"right\">16”</td><td align=\"right\">1–12</td><td align=\"right\">212 磅</td><td align=\"right\">100%</td></tr></tbody></table>\n<p>** 石块的大致平均重量。</p>\n<p>获得的力量不会与普通或魔法力量加值累积，除非与食人魔力量护手和带棱魔法战锤（见下文）组合使用。</p>",
         "source": {
           "book": "DMG",
           "section": "巨人力量腰带 Girdle of Giant Strength"
@@ -1977,7 +1977,7 @@
     "details": [
       {
         "title": "心灵感应头盔 Helm of Telepathy",
-        "html": "<p>这顶结实的金属头盔看起来像普通头盔，但检测时会散发魔力。只要穿戴者懂得目标所用的语言，就能感知 <strong>6”</strong>范围内生物的思想；思想中优先使用其种族语言，其次是通用语，最后才是阵营语言。穿戴者与目标之间不得隔有超过 <strong>3’</strong>厚的实心石头、<strong>½”</strong>厚的铁，或任何厚实的铅板或金板。感知思想具有方向性，且需要穿戴者主动集中注意力。</p>\n<p>若双方都懂得某种语言，穿戴者可以与范围内的生物进行语言交流；也可以传递情绪（共情），使对方接收到穿戴者的情感信息。穿戴者还可尝试植入一个“暗示”（参见《玩家手册》角色法术中的魔法师三环法术“暗示术”）：穿戴者每比目标高 <strong>2 点智力</strong>，成功概率提高 <strong>5%</strong>；每比目标低 <strong>1 点智力</strong>，成功概率降低 <strong>5%</strong>。受到暗示的目标须进行对抗魔法的豁免检定：其智力每比穿戴者低 <strong>2 点</strong>，豁免检定便受到 <strong>−1</strong> 惩罚；每比穿戴者高 <strong>1 点</strong>，则获得 <strong>+1</strong> 加值；双方智力相同则不作调整。此头盔还使穿戴者抵御灵能相关攻击的豁免检定获得 <strong>+4</strong>，并使灵能总强度提高 <strong>40 点</strong>。</p>",
+        "html": "<p>这顶结实的金属头盔看起来像普通头盔，但检测时会散发魔力。只要穿戴者懂得目标所用的语言，就能感知 <strong>6”</strong>范围内生物的思想；思想中优先使用其种族语言，其次是通用语，最后才是阵营语。穿戴者与目标之间不得隔有超过 <strong>3’</strong>厚的实心石头、<strong>½”</strong>厚的铁，或任何厚实的铅板或金板。感知思想具有方向性，且需要穿戴者主动集中注意力。</p>\n<p>若双方都懂得某种语言，穿戴者可以与范围内的生物进行语言交流；也可以传递情绪（共情），使对方接收到穿戴者的情感信息。穿戴者还可尝试植入一个“暗示”（参见《玩家手册》角色法术中的魔法师三环法术“暗示术”）：穿戴者每比目标高 <strong>2 点智力</strong>，成功概率提高 <strong>5%</strong>；每比目标低 <strong>1 点智力</strong>，成功概率降低 <strong>5%</strong>。受到暗示的目标须进行对抗魔法的豁免检定：其智力每比穿戴者低 <strong>2 点</strong>，豁免检定便受到 <strong>−1</strong> 惩罚；每比穿戴者高 <strong>1 点</strong>，则获得 <strong>+1</strong> 加值；双方智力相同则不作调整。此头盔还使穿戴者抵御灵能相关攻击的豁免检定获得 <strong>+4</strong>，并使灵能总强度提高 <strong>40 点</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "心灵感应头盔 Helm of Telepathy"
@@ -1985,7 +1985,7 @@
         "href": "/books/dmg/treasure-continuation-9/"
       }
     ],
-    "description": "这顶结实的金属头盔看起来像普通头盔，但检测时会散发魔力。只要穿戴者懂得目标所用的语言，就能感知 6” 范围内生物的思想；思想中优先使用其种族语言，其次是通用语，最后才是阵营语言。穿戴者与目标之间不得隔有超过 3’ 厚的实心石头、 ½” 厚的铁，或任何厚实的铅板或金板。感知思想具有方向性，且需要穿戴者主动集中注意力。"
+    "description": "这顶结实的金属头盔看起来像普通头盔，但检测时会散发魔力。只要穿戴者懂得目标所用的语言，就能感知 6” 范围内生物的思想；思想中优先使用其种族语言，其次是通用语，最后才是阵营语。穿戴者与目标之间不得隔有超过 3’ 厚的实心石头、 ½” 厚的铁，或任何厚实的铅板或金板。感知思想具有方向性，且需要穿戴者主动集中注意力。"
   },
   "magic-helm-of-teleportation": {
     "details": [
@@ -2774,8 +2774,8 @@
   "magic-plate-mail-of-etherealness": {
     "details": [
       {
-        "title": "幽界化板甲 Plate Mail of Etherealness",
-        "html": "<p>这套护甲看起来像普通的 <strong>+5</strong> 护甲；但说出命令语后，穿戴者以及其穿戴、携带的所有非生命物品都会变成以太态，效果如同使用了一瓶“以太油”。处于以太态时，穿戴者无法攻击物质位面的生物。“相位门”法术可以抵消……</p>\n\n\n\n<p>“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。幽界化板甲共有 <strong>20 charges</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 charges</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 charges</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>个 charge 耗尽后则只剩 <strong>+1</strong>。</p>",
+        "title": "以太化板甲 Plate Mail of Etherealness",
+        "html": "<p>这套护甲看起来像普通的 <strong>+5</strong> 护甲；但说出命令语后，穿戴者以及其穿戴、携带的所有非生命物品都会变成以太态，效果如同使用了一瓶“以太油”。处于以太态时，穿戴者无法攻击物质位面的生物。“相位门”法术可以抵消……</p>\n\n\n\n<p>“相位门”法术会抵消以太态，并使护甲 <strong>1 天</strong>内无法再次发挥此能力。以太化板甲共有 <strong>20 charges</strong>，使用后不能补充或重新充能。此外，每消耗 <strong>5 charges</strong>，护甲加值便降低 <strong>1</strong>：消耗 <strong>5 charges</strong>后为 <strong>+4</strong>，消耗 <strong>10</strong>后为 <strong>+3</strong>，消耗 <strong>15</strong>后为 <strong>+2</strong>，全部 <strong>20</strong>个 charge 耗尽后则只剩 <strong>+1</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "幽界化板甲 Plate Mail of Etherealness"
@@ -2816,8 +2816,8 @@
   "magic-sword-1-3-vs-lycanthropes-and-shape-changers": {
     "details": [
       {
-        "title": "+1、对兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers",
-        "html": "<p>此剑对狼人及其他兽化生物、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 <strong>+3</strong> 加值。</p>",
+        "title": "+1、对兽化人与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers",
+        "html": "<p>此剑对狼人及其他兽化人、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 <strong>+3</strong> 加值。</p>",
         "source": {
           "book": "DMG",
           "section": "+1、对兽化生物与变形者 +3 Sword +1, +3 vs. Lycanthropes and Shape Changers"
@@ -2825,7 +2825,7 @@
         "href": "/books/dmg/treasure-continuation-26/"
       }
     ],
-    "description": "此剑对狼人及其他兽化生物、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 +3 加值。"
+    "description": "此剑对狼人及其他兽化人、能变成其他生物形态的生物（例如吸血鬼或德鲁伊），以及受到“变形术”或“改变形态术”影响的生物，获得 +3 加值。"
   },
   "magic-sword-1-3-vs-regenerating-creatures": {
     "details": [
@@ -2971,7 +2971,7 @@
     "details": [
       {
         "title": "舞剑 Sword of Dancing",
-        "html": "<p>舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续近战轮次</strong>后才能再次起舞。</p>\n<p>舞剑起舞期间会离开持有者的手，最远可达 <strong>3”</strong>。独自作战 <strong>4 轮</strong>结束时，会自动回到持有者手中。注意，起舞时剑无法被物理攻击击中……</p>\n\n\n\n<p>舞剑能够自行战斗，但仍可能受火球术、闪电束或金属化木等魔法攻击影响。它起舞时的战斗能力与持有者相同：若持有者是 <strong>4 级战士</strong>，舞剑独自战斗时也按 <strong>4 级战士</strong>处理；若持有者是 <strong>7 级盗贼</strong>，它起舞时也按 <strong>7 级盗贼</strong>处理。持有者因此可以在 <strong>4 个近战轮次</strong>内自由行动，只要始终与剑相距不超过 <strong>3”</strong>即可；若距离更远，剑便会“失去生命”，掉到地上，重新握住后仍是一把 <strong>+1</strong> 武器。</p>",
+        "html": "<p>舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 <strong>1 轮</strong>为 <strong>+1</strong>，第 <strong>2 轮</strong>为 <strong>+2</strong>，第 <strong>3 轮</strong>为 <strong>+3</strong>，第 <strong>4 轮</strong>为 <strong>+4</strong>；但第 <strong>5 轮</strong>又降回 <strong>+1</strong>，之后重新递增。近战 <strong>4 轮</strong>后，持有者可以让它“起舞”。只能在其加值为 <strong>+1</strong>的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 <strong>4 轮</strong>。之后必须再次握住它：它会返回持有者手中，以 <strong>+1</strong>阶段继续下一轮，再由持有者亲自使用 <strong>4 个连续轮次</strong>后才能再次起舞。</p>\n<p>舞剑起舞期间会离开持有者的手，最远可达 <strong>3”</strong>。独自作战 <strong>4 轮</strong>结束时，会自动回到持有者手中。注意，起舞时剑无法被物理攻击击中……</p>\n\n\n\n<p>舞剑能够自行战斗，但仍可能受火球术、闪电束或金属化木等魔法攻击影响。它起舞时的战斗能力与持有者相同：若持有者是 <strong>4 级战士</strong>，舞剑独自战斗时也按 <strong>4 级战士</strong>处理；若持有者是 <strong>7 级盗贼</strong>，它起舞时也按 <strong>7 级盗贼</strong>处理。持有者因此可以在 <strong>4 个轮次</strong>内自由行动，只要始终与剑相距不超过 <strong>3”</strong>即可；若距离更远，剑便会“失去生命”，掉到地上，重新握住后仍是一把 <strong>+1</strong> 武器。</p>",
         "source": {
           "book": "DMG",
           "section": "舞剑 Sword of Dancing"
@@ -2979,13 +2979,13 @@
         "href": "/books/dmg/treasure-continuation-26/"
       }
     ],
-    "description": "舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 1 轮 为 +1 ，第 2 轮 为 +2 ，第 3 轮 为 +3 ，第 4 轮 为 +4 ；但第 5 轮 又降回 +1 ，之后重新递增。近战 4 轮 后，持有者可以让它“起舞”。只能在其加值为 +1 的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 4 轮 。之后必须再次握住它：它会返回持有者手中，以 +1 阶段继续下一轮，再由持有者亲自使用 4 个连续近战轮次 后才能再次起舞。"
+    "description": "舞剑会逐渐变得愈发危险，且加值以双倍速度上升：近战第 1 轮 为 +1 ，第 2 轮 为 +2 ，第 3 轮 为 +3 ，第 4 轮 为 +4 ；但第 5 轮 又降回 +1 ，之后重新递增。近战 4 轮 后，持有者可以让它“起舞”。只能在其加值为 +1 的轮次放手令其起舞；随后它会以与持有者相同的经验等级自行作战 4 轮 。之后必须再次握住它：它会返回持有者手中，以 +1 阶段继续下一轮，再由持有者亲自使用 4 个连续轮次 后才能再次起舞。"
   },
   "magic-sword-of-wounding": {
     "details": [
       {
         "title": "创伤剑 Sword of Wounding",
-        "html": "<p>这把剑只有 <strong>+1</strong> 加值，但它造成的伤口无法通过再生治愈。受伤者在伤口造成后的每个轮次还会额外失去 <strong>1 点生命值</strong>。例如，某生物在第 <strong>1 近战轮</strong>受到 <strong>4 点</strong>伤害，从第 <strong>2 近战轮</strong>起，每轮都会自动再失去 <strong>1 点生命值</strong>。只有包扎伤口，或经过 <strong>10 个近战轮次（1 回合）</strong>，额外失血才会停止。创伤剑造成的伤害只能通过正常方式（休息与时间）恢复；除祈愿术外，药水、法术或其他魔法方式均不能治愈。后续伤口也会以同样方式持续失血。</p>",
+        "html": "<p>这把剑只有 <strong>+1</strong> 加值，但它造成的伤口无法通过再生治愈。受伤者在伤口造成后的每个轮次还会额外失去 <strong>1 点生命值</strong>。例如，某生物在第 <strong>1 轮</strong>受到 <strong>4 点</strong>伤害，从第 <strong>2 轮</strong>起，每轮都会自动再失去 <strong>1 点生命值</strong>。只有包扎伤口，或经过 <strong>10 个轮次（1 回合）</strong>，额外失血才会停止。创伤剑造成的伤害只能通过正常方式（休息与时间）恢复；除祈愿术外，药水、法术或其他魔法方式均不能治愈。后续伤口也会以同样方式持续失血。</p>",
         "source": {
           "book": "DMG",
           "section": "创伤剑 Sword of Wounding"
@@ -2993,7 +2993,7 @@
         "href": "/books/dmg/treasure-continuation-27/"
       }
     ],
-    "description": "这把剑只有 +1 加值，但它造成的伤口无法通过再生治愈。受伤者在伤口造成后的每个轮次还会额外失去 1 点生命值 。例如，某生物在第 1 近战轮 受到 4 点 伤害，从第 2 近战轮 起，每轮都会自动再失去 1 点生命值 。只有包扎伤口，或经过 10 个近战轮次（1 回合） ，额外失血才会停止。创伤剑造成的伤害只能通过正常方式（休息与时间）恢复；除祈愿术外，药水、法术或其他魔法方式均不能治愈。后续伤口也会以同样方式持续失血。"
+    "description": "这把剑只有 +1 加值，但它造成的伤口无法通过再生治愈。受伤者在伤口造成后的每个轮次还会额外失去 1 点生命值 。例如，某生物在第 1 轮 受到 4 点 伤害，从第 2 轮 起，每轮都会自动再失去 1 点生命值 。只有包扎伤口，或经过 10 个轮次（1 回合） ，额外失血才会停止。创伤剑造成的伤害只能通过正常方式（休息与时间）恢复；除祈愿术外，药水、法术或其他魔法方式均不能治愈。后续伤口也会以同样方式持续失血。"
   },
   "magic-sword-of-life-stealing": {
     "details": [
@@ -3111,7 +3111,7 @@
     "details": [
       {
         "title": "速射弩 Crossbow of Speed",
-        "html": "<p>此弩使持有者的射速加倍；握持时会自动上弦。遭遇突袭时它没有帮助；但若遭遇完全突袭，持弩者可在第 <strong>2 段</strong>射击。其他情况下，持有者可在每个近战轮次中首先开火，并在适用时于轮末再次射击。此类武器中有 <strong>10%</strong> 为重弩。武器加值为 <strong>+1</strong>。</p>",
+        "html": "<p>此弩使持有者的射速加倍；握持时会自动上弦。遭遇突袭时它没有帮助；但若遭遇完全突袭，持弩者可在第 <strong>2 段</strong>射击。其他情况下，持有者可在每个轮次中首先开火，并在适用时于轮末再次射击。此类武器中有 <strong>10%</strong> 为重弩。武器加值为 <strong>+1</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "速射弩 Crossbow of Speed"
@@ -3119,7 +3119,7 @@
         "href": "/books/dmg/treasure-continuation-29/"
       }
     ],
-    "description": "此弩使持有者的射速加倍；握持时会自动上弦。遭遇突袭时它没有帮助；但若遭遇完全突袭，持弩者可在第 2 段 射击。其他情况下，持有者可在每个近战轮次中首先开火，并在适用时于轮末再次射击。此类武器中有 10% 为重弩。武器加值为 +1 。"
+    "description": "此弩使持有者的射速加倍；握持时会自动上弦。遭遇突袭时它没有帮助；但若遭遇完全突袭，持弩者可在第 2 段 射击。其他情况下，持有者可在每个轮次中首先开火，并在适用时于轮末再次射击。此类武器中有 10% 为重弩。武器加值为 +1 。"
   },
   "magic-dagger-of-venom": {
     "details": [
@@ -3740,7 +3740,7 @@
   "ua-magic-cloak-of-arachnida": {
     "details": [
       {
-        "title": "蛛形斗篷 Cloak of Arachnidia",
+        "title": "节肢斗篷 Cloak of Arachnidia",
         "html": "<p>黑色斗篷，散发强烈变化系灵光。佩戴者可如受<em>蛛行术</em>般攀爬，免疫所有蛛网的缠困，还能在蛛网中以<strong>结网蜘蛛的速度</strong>移动；若无对应蜘蛛，则基本速度为 <strong>6″</strong>。每天一次可如二环魔法师法术<em>蛛网术</em>创造<strong>双倍大小</strong>的蛛网；对蛛形纲生物的毒素豁免 <strong>+2</strong>。</p>",
         "source": {
           "book": "UA",
@@ -4132,7 +4132,7 @@
   "ua-magic-philosopher-s-stone": {
     "details": [
       {
-        "title": "贤者之石 Philosopher’s Stone",
+        "title": "点金石 Philosopher’s Stone",
         "html": "<p>外观像黑而多煤灰的普通石块，散发难辨的微弱魔法灵光。砸开后可见晶洞，内壁水银状物质能将铁炼成银、铅炼成金；须由炼金术士或魔法师操作。一颗石头可把 <strong>50–500 磅铁</strong>变为银，或把 <strong>10–100 磅铅</strong>变为金；<strong>第一次操作必须用尽全部水银</strong>。</p>\n<p>晶洞还可能有两种额外物质：<strong>75%</strong> 几率出现绿色晶盐，可制作 <strong>1–4 瓶长寿药水</strong>；<strong>25%</strong> 几率出现纯白粉末，加入长寿药水并在死亡后<strong>一周内</strong>让人类或亚人类从体内服下，可使其复活，参见<em>活化死尸术</em>。随机表的经验值与金币售价<strong>仅适用于未砸开的石头</strong>。</p>",
         "source": {
           "book": "UA",
@@ -5385,7 +5385,7 @@
     "details": [
       {
         "title": "恐怖之手",
-        "html": "<p>制造这种魔法物品需要一只被砍下的人手。经过附魔后，它会变得像钢铁一样坚硬且无法弯曲（AC 0，需造成 16 hp 伤害才能击碎）。它的功能如下：</p>\n<p>当活着的生物释放它时，它会在释放之处原地躺着或悬浮在半空中，无视重力，直到再次被活着的生物触碰。</p>\n<p>它的触碰会对不死生物造成 3d4 点伤害，并使它们震慑 1d4 轮。（见本节“镜子”中关于不死者震慑的效果。）当它被放置在门、拱门或门槛上（窗台或排水口也可以）时，试图以任何方向或方式通过受守卫区域的不死者（包括以太方式通过的幽灵）都会承受剧烈疼痛。</p>\n<p>恐怖之手 3”以内的不死生物，移动速度会降低到每轮 1”，不允许豁免检定。它们每处于恐怖之手的有效范围内一轮，都必须进行一次对死亡魔法的豁免检定，否则会被迫远离恐怖之手 1”。此外，每轮处于有效范围内时，所有不死者受到 2d4 点伤害（如果通过吐息武器豁免检定，则为 1d4）。恐怖之手通常用于保护墓穴，防止饥饿的食尸鬼或寻找魔法的巫妖进行掠夺。</p>\n<p>邪恶阵营的生物每轮接触恐怖之手（或用它攻击时每次打击）受到 1d3 hp 伤害，但如果愿意，可以放置或挥舞这类手。除此之外，没有生物会受到恐怖之手影响，除非把它当作普通的棍棒状武器，造成 1d2 点伤害。恐怖之手通常安装在杆子上，以便使用。</p>\n<p>所有恐怖之手中有 10% 带有邪恶阵营，并且会影响善良生物而不是不死者。</p>\n<p><strong>gp 价值：</strong>25,000；<strong>XP 价值：</strong>2,000。</p>",
+        "html": "<p>制造这种魔法物品需要一只被砍下的人手。经过附魔后，它会变得像钢铁一样坚硬且无法弯曲（AC 0，需造成 16 hp 伤害才能击碎）。它的功能如下：</p>\n<p>当活着的生物释放它时，它会在释放之处原地躺着或悬浮在半空中，无视重力，直到再次被活着的生物触碰。</p>\n<p>它的触碰会对不死生物造成 3d4 点伤害，并使它们震慑 1d4 轮。（见本节“镜子”中关于不死者震慑的效果。）当它被放置在门、拱门或门槛上（窗台或排水口也可以）时，试图以任何方向或方式通过受守卫区域的不死者（包括以太方式通过的幽灵）都会承受剧烈疼痛。</p>\n<p>恐怖之手 3”以内的不死生物，移动速度会降低到每轮 1”，不允许豁免检定。它们每处于恐怖之手的有效范围内一轮，都必须进行一次对死亡魔法的豁免检定，否则会被迫远离恐怖之手 1”。此外，每轮处于有效范围内时，所有不死者受到 2d4 点伤害（如果通过喷吐武器豁免检定，则为 1d4）。恐怖之手通常用于保护墓穴，防止饥饿的食尸鬼或寻找魔法的巫妖进行掠夺。</p>\n<p>邪恶阵营的生物每轮接触恐怖之手（或用它攻击时每次打击）受到 1d3 hp 伤害，但如果愿意，可以放置或挥舞这类手。除此之外，没有生物会受到恐怖之手影响，除非把它当作普通的棍棒状武器，造成 1d2 点伤害。恐怖之手通常安装在杆子上，以便使用。</p>\n<p>所有恐怖之手中有 10% 带有邪恶阵营，并且会影响善良生物而不是不死者。</p>\n<p><strong>gp 价值：</strong>25,000；<strong>XP 价值：</strong>2,000。</p>",
         "source": {
           "book": "REF5",
           "section": "恐怖之手"
@@ -5469,7 +5469,7 @@
     "details": [
       {
         "title": "Huma 之盾 Shield of Huma",
-        "html": "<p>Huma 最为人所知的事迹，是使用最初的龙枪，将黑暗女王驱逐回她自己的领域。不过，他的盾牌也在许多较次要的传说中占据显著位置。据说它从未让他失望，在使用龙枪之前与巨龙作战的过程中，还经常挽救他的性命。</p>\n<p>这面盾牌看起来是一面中型盾牌，上面刻有皇冠骑士团复杂的标志。</p>\n<p>Huma 之盾被视为中型盾牌 +3／+5 对巨龙。它的护盾魔法能保护持有者免受吐息武器攻击：对吐息武器成功进行豁免检定时不会受到伤害，豁免失败时也只受到一半伤害。</p>",
+        "html": "<p>Huma 最为人所知的事迹，是使用最初的龙枪，将黑暗女王驱逐回她自己的领域。不过，他的盾牌也在许多较次要的传说中占据显著位置。据说它从未让他失望，在使用龙枪之前与巨龙作战的过程中，还经常挽救他的性命。</p>\n<p>这面盾牌看起来是一面中型盾牌，上面刻有皇冠骑士团复杂的标志。</p>\n<p>Huma 之盾被视为中型盾牌 +3／+5 对巨龙。它的护盾魔法能保护持有者免受喷吐武器攻击：对喷吐武器成功进行豁免检定时不会受到伤害，豁免失败时也只受到一半伤害。</p>",
         "source": {
           "book": "DLA",
           "section": "Huma 之盾 Shield of Huma"

@@ -59,7 +59,7 @@ export const savingMatrices:Record<MatrixFamily,readonly (readonly number[])[]>=
   arcane:[[14,13,11,15,12],[13,11,9,13,10],[11,9,7,11,8],[10,7,5,9,6],[8,5,3,7,4]],
   thief:[[13,12,14,16,15],[12,11,12,15,13],[11,10,10,14,11],[10,9,8,13,9],[9,8,6,12,7],[8,7,4,11,5]],
 };
-export const saveLabels=['麻痹／毒素／死亡魔法','石化／变形','权杖／法杖／魔杖','吐息武器','法术'] as const;
+export const saveLabels=['麻痹／毒素／死亡魔法','石化／变形','权杖／法杖／魔杖','喷吐武器','法术'] as const;
 export const combatMatrixNotes={
   attacks:'职业原表目标，不含能力、武器对护甲、距离、魔法、熟练、背刺或情境修正；不自动判定命中。',
   saves:'自然1总是失败；变形魔杖攻击不归石化/变形栏；导致石化/变形的吐息、另有指定类别的法术须按原表脚注归类。',

@@ -77,7 +77,7 @@
     "details": [
       {
         "title": "防护元素生物 Protection from Elementals",
-        "html": "<p>阅读时间为 <strong>6 段</strong>。掷 <strong>d100</strong>确定卷轴对应的元素生物种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">防护对象</th></tr></thead><tbody><tr><td align=\"center\">01–15</td><td align=\"left\">防护气元素生物（包括飞翼仆役、巨灵、隐形潜行者、风行者）</td></tr><tr><td align=\"center\">16–30</td><td align=\"left\">防护土元素生物（包括泽恩）</td></tr><tr><td align=\"center\">31–45</td><td align=\"left\">防护火元素生物（包括火巨灵、沙罗曼达）</td></tr><tr><td align=\"center\">46–60</td><td align=\"left\">防护水元素生物（包括海妖与水异怪）</td></tr><tr><td align=\"center\">61–00</td><td align=\"left\">防护所有元素生物</td></tr></tbody></table>\n<p>魔法会保护卷轴阅读者，以及其 <strong>10 尺</strong>范围内的所有生物，使其免受所指定种类或全部种类的元素生物侵害。若卷轴针对特定元素种类，防护圈最多可保护 <strong>24 个生命骰</strong>的元素生物；若针对全部元素种类，则最多保护 <strong>16 个生命骰</strong>。效果持续 <strong>5–40 轮</strong>（掷 <strong>5d8</strong>）。元素生物仍可以从防护圈外发动攻击；若某个元素生物的生命骰数超过该卷轴可防护的上限，或有多个元素生物令总生命骰数超过上限，超出部分便能够进入并攻击。</p>",
+        "html": "<p>阅读时间为 <strong>6 段</strong>。掷 <strong>d100</strong>确定卷轴对应的元素生物种类：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">防护对象</th></tr></thead><tbody><tr><td align=\"center\">01–15</td><td align=\"left\">防护气元素生物（包括飞翼仆役、巨灵、隐形潜行者、风行者）</td></tr><tr><td align=\"center\">16–30</td><td align=\"left\">防护土元素生物（包括泽恩）</td></tr><tr><td align=\"center\">31–45</td><td align=\"left\">防护火元素生物（包括火巨灵、沙罗曼达）</td></tr><tr><td align=\"center\">46–60</td><td align=\"left\">防护水元素生物（包括海妖与水异怪）</td></tr><tr><td align=\"center\">61–00</td><td align=\"left\">防护所有元素生物</td></tr></tbody></table>\n<p>魔法会保护卷轴阅读者，以及其 <strong>10 尺</strong>范围内的所有生物，使其免受所指定种类或全部种类的元素生物侵害。若卷轴针对特定元素种类，防护圈最多可保护 <strong>24 个生命骰</strong>的元素生物；若针对全部元素种类，则最多保护 <strong>16 个生命骰</strong>。效果持续 <strong>5–40 轮</strong>（掷 <strong>5d8</strong>）。元素生物仍可以从防护圈外发动攻击；若某个元素生物的生命骰数／生命骰数量超过该卷轴可防护的上限，或有多个元素生物令总生命骰数／生命骰数量超过上限，超出部分便能够进入并攻击。</p>",
         "source": {
           "book": "DMG",
           "section": "防护元素生物 Protection from Elementals"
@@ -88,7 +88,7 @@
   },
   {
     "id": "dmg-item-scroll-of-protection-from-lycanthropes",
-    "nameZh": "防护兽化生物卷轴",
+    "nameZh": "防护兽化人卷轴",
     "nameEn": "Scroll of Protection from Lycanthropes",
     "category": "魔法物品",
     "price": "未列售价",
@@ -105,8 +105,8 @@
     ],
     "details": [
       {
-        "title": "防护兽化生物 Protection from Lycanthropes",
-        "html": "<p>阅读时间为 <strong>4 段</strong>。此卷轴有 <strong>7</strong> 种，由 <strong>d100</strong>决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">防护对象</th></tr></thead><tbody><tr><td align=\"center\">01–05</td><td align=\"left\">防护熊人</td></tr><tr><td align=\"center\">06–10</td><td align=\"left\">防护猪人</td></tr><tr><td align=\"center\">11–20</td><td align=\"left\">防护鼠人</td></tr><tr><td align=\"center\">21–25</td><td align=\"left\">防护虎人</td></tr><tr><td align=\"center\">26–40</td><td align=\"left\">防护狼人</td></tr><tr><td align=\"center\">41–98</td><td align=\"left\">防护所有兽化生物</td></tr><tr><td align=\"center\">99–00</td><td align=\"left\">防护变形者</td></tr></tbody></table>\n<p>阅读卷轴后会生成一个半径 <strong>10 尺</strong>、随阅读者移动的防护圈。每张卷轴可抵御 <strong>49 个生命骰</strong>的兽化生物；若生命骰带有余数，则向下计入，除非余数超过 <strong>+2</strong>。除此之外，效果与元素生物防护卷轴相似。针对变形者的卷轴，可以防护能够变成人形的怪物（变形怪、某些巨龙、德鲁伊、豺狼人等），以及受到变形术影响的生物和真正的兽化生物。防护持续 <strong>5–30 轮</strong>。</p>",
+        "title": "防护兽化人 Protection from Lycanthropes",
+        "html": "<p>阅读时间为 <strong>4 段</strong>。此卷轴有 <strong>7</strong> 种，由 <strong>d100</strong>决定：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"center\">d100</th><th align=\"left\">防护对象</th></tr></thead><tbody><tr><td align=\"center\">01–05</td><td align=\"left\">防护熊人</td></tr><tr><td align=\"center\">06–10</td><td align=\"left\">防护猪人</td></tr><tr><td align=\"center\">11–20</td><td align=\"left\">防护鼠人</td></tr><tr><td align=\"center\">21–25</td><td align=\"left\">防护虎人</td></tr><tr><td align=\"center\">26–40</td><td align=\"left\">防护狼人</td></tr><tr><td align=\"center\">41–98</td><td align=\"left\">防护所有兽化人</td></tr><tr><td align=\"center\">99–00</td><td align=\"left\">防护变形者</td></tr></tbody></table>\n<p>阅读卷轴后会生成一个半径 <strong>10 尺</strong>、随阅读者移动的防护圈。每张卷轴可抵御 <strong>49 个生命骰</strong>的兽化人；若生命骰带有余数，则向下计入，除非余数超过 <strong>+2</strong>。除此之外，效果与元素生物防护卷轴相似。针对变形者的卷轴，可以防护能够变成人形的怪物（变形怪、某些巨龙、德鲁伊、豺狼人等），以及受到变形术影响的生物和真正的兽化人。防护持续 <strong>5–30 轮</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "防护兽化生物 Protection from Lycanthropes"
@@ -338,7 +338,7 @@
     "details": [
       {
         "title": "位面护符 Amulet of the Planes",
-        "html": "<p>此装置能让持有者瞬间往返外层位面的上层位面。持有者尚未掌握此装置时，传送目的地是随机的。掷 <strong>d6</strong>：结果为 <strong>1–3</strong>时不加 <strong>12</strong>；结果为 <strong>4–6</strong>时，在 <strong>d12</strong>结果上加 <strong>12</strong>，然后依照下表确定目的地（范围为 <strong>1–24</strong>）：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d12／d24</th><th>位面</th></tr></thead><tbody><tr><td align=\"right\">1–2</td><td>七重天堂</td></tr><tr><td align=\"right\">3</td><td>双重乐园</td></tr><tr><td align=\"right\">4</td><td>极乐境</td></tr><tr><td align=\"right\">5</td><td>幸福狩猎场</td></tr><tr><td align=\"right\">6–7</td><td>奥林匹斯诸界</td></tr><tr><td align=\"right\">8</td><td>格拉斯海姆诸界</td></tr><tr><td align=\"right\">9</td><td>混沌海</td></tr><tr><td align=\"right\">10</td><td>潘德莫尼姆诸界</td></tr><tr><td align=\"right\">11–12</td><td>深渊的 666 层</td></tr><tr><td align=\"right\">13</td><td>塔尔忒罗斯诸界</td></tr><tr><td align=\"right\">14</td><td>哈迪斯的“三重阴霾”</td></tr><tr><td align=\"right\">15</td><td>盖赫纳熔炉</td></tr><tr><td align=\"right\">16–17</td><td>九层地狱</td></tr><tr><td align=\"right\">18</td><td>阿刻戎冥界</td></tr><tr><td align=\"right\">19</td><td>尼尔瓦纳诸界</td></tr><tr><td align=\"right\">20</td><td>阿卡狄亚诸界</td></tr><tr><td align=\"right\">21–24</td><td>主物质位面</td></tr></tbody></table>\n<p>你也可以改用以下结果：<strong>22</strong> 以太位面；<strong>23</strong> 星界位面；<strong>24</strong> 主物质位面，但抵达的是另一个版本的主物质世界（例如另一颗地球）。</p>",
+        "html": "<p>此装置能让持有者瞬间往返外层位面的上层位面。持有者尚未掌握此装置时，传送目的地是随机的。掷 <strong>d6</strong>：结果为 <strong>1–3</strong>时不加 <strong>12</strong>；结果为 <strong>4–6</strong>时，在 <strong>d12</strong>结果上加 <strong>12</strong>，然后依照下表确定目的地（范围为 <strong>1–24</strong>）：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th align=\"right\">d12／d24</th><th>位面</th></tr></thead><tbody><tr><td align=\"right\">1–2</td><td>七重天堂</td></tr><tr><td align=\"right\">3</td><td>双重乐园</td></tr><tr><td align=\"right\">4</td><td>极乐境</td></tr><tr><td align=\"right\">5</td><td>幸福狩猎场</td></tr><tr><td align=\"right\">6–7</td><td>奥林匹斯诸界</td></tr><tr><td align=\"right\">8</td><td>格拉斯海姆诸界</td></tr><tr><td align=\"right\">9</td><td>混沌海</td></tr><tr><td align=\"right\">10</td><td>喧癫空隧诸界</td></tr><tr><td align=\"right\">11–12</td><td>深渊的 666 层</td></tr><tr><td align=\"right\">13</td><td>塔尔忒罗斯诸界</td></tr><tr><td align=\"right\">14</td><td>哈迪斯的“三重阴霾”</td></tr><tr><td align=\"right\">15</td><td>盖赫纳熔炉</td></tr><tr><td align=\"right\">16–17</td><td>九层地狱</td></tr><tr><td align=\"right\">18</td><td>修罗场冥界</td></tr><tr><td align=\"right\">19</td><td>尼尔瓦纳诸界</td></tr><tr><td align=\"right\">20</td><td>阿卡狄亚诸界</td></tr><tr><td align=\"right\">21–24</td><td>主物质位面</td></tr></tbody></table>\n<p>你也可以改用以下结果：<strong>22</strong> 以太位面；<strong>23</strong> 星界位面；<strong>24</strong> 主物质位面，但抵达的是另一个版本的主物质世界（例如另一颗地球）。</p>",
         "source": {
           "book": "DMG",
           "section": "位面护符 Amulet of the Planes"
@@ -367,7 +367,7 @@
     "details": [
       {
         "title": "反侦护符 Amulet of Proof Against Detection and Location",
-        "html": "<p>此装置可使佩戴者免受一切占卜、心灵或魔法定位／侦测。不能通过通灵术、千里眼、ESP、心灵感应、水晶球或其他占卜装置侦测佩戴者。佩戴者身上没有可辨识的灵光；除非求助某位强大的存在，否则也无法对其作出预测。</p>",
+        "html": "<p>此装置可使佩戴者免受一切占卜、心灵或魔法定位／侦测。不能通过通灵术、鹰眼术、ESP、心灵感应、水晶球或其他占卜装置侦测佩戴者。佩戴者身上没有可辨识的灵光；除非求助某位强大的存在，否则也无法对其作出预测。</p>",
         "source": {
           "book": "DMG",
           "section": "防侦测与定位护符 Amulet of Proof Against Detection and Location"
@@ -860,7 +860,7 @@
     "details": [
       {
         "title": "跑跳之靴 Boots of Striding and Springing",
-        "html": "<p>无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12”</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30’</strong>、向后跳 <strong>9’</strong>、垂直跳 <strong>15’</strong>。若在战斗中使用此类移动，穿戴者在近战轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。</p>",
+        "html": "<p>无论穿戴者体型或体重如何，此魔法靴的基础移动速度均为 <strong>12”</strong>。每天可不知疲倦地持续移动最多 <strong>12 小时</strong>；之后靴子会失效 <strong>12 小时</strong>，相当于“充能”恢复期。除跨跃能力外，靴子还具备弹跳能力：穿戴者可向前跳 <strong>30’</strong>、向后跳 <strong>9’</strong>、垂直跳 <strong>15’</strong>。若在战斗中使用此类移动，穿戴者在轮中先攻时可以有效打击后立即弹开。但这种行动有一定危险：基础概率为 <strong>20%</strong>，穿戴者会失足并在下一轮昏迷。穿戴者的敏捷每高于 <strong>12</strong> 点，失足概率便降低 <strong>3%</strong>：敏捷 <strong>13</strong>时为 <strong>17%</strong>，<strong>14</strong>时为 <strong>14%</strong>，<strong>15</strong>时为 <strong>11%</strong>，<strong>16</strong>时为 <strong>8%</strong>，<strong>17</strong>时为 <strong>5%</strong>，<strong>18</strong>时为 <strong>2%</strong>。无论如何，靴子的迅捷可使护甲等级改善 <strong>1 点</strong>。</p>",
         "source": {
           "book": "DMG",
           "section": "跨跃与弹跳靴 Boots of Striding and Springing"
@@ -2544,7 +2544,7 @@
     "details": [
       {
         "title": "巴巴雅嘎小屋 Baba Yaga’s Hut",
-        "html": "<p>很久以前，最强大的女性法师耗费大量力量，创造了一处非凡的魔法居所。她前往另一个位面后，小屋便消失无踪，此后只据说出现过一两次。巴巴雅嘎建造的小屋外观普通，是一座直径 <strong>15’</strong>、高 <strong>10’</strong>的圆形茅草建筑，下方长着两条强壮的禽类腿，每条长 <strong>12’</strong>，看起来像高跷。</p>\n<p>小屋拥有高等智力、人的感官，以及 <strong>120’</strong>红外视觉和超视觉。内部却是一座小型宫殿：有花园、喷泉（涌出清水与葡萄酒），以及 <strong>3 层共 30 个房间</strong>，装潢极尽奢华。尽管内部宽敞，两条鸟腿仍能令小屋以每轮 <strong>48’</strong>的速度穿越沼泽、以 <strong>36’</strong>的速度穿越崎岖或普通地形，并以 <strong>12”</strong>的速度翻越丘陵、穿行森林等。小屋会服从最先说出特定暗语者的命令，并能响应最远 <strong>1 联盟</strong>外的召唤。</p>\n<p>任何未受邀请、也不知道暗语而贸然靠近者，都会遭到小屋双腿攻击；每条腿的攻击相当于山丘巨人，每轮可攻击 <strong>2 次</strong>。每条腿的护甲等级为 <strong>AC 2</strong>，有 <strong>48 点生命值</strong>，每近战轮再生 <strong>1 点</strong>。小屋墙壁相当于 <strong>5’厚的花岗岩</strong>。</p>\n<p>小屋另有以下能力／影响：</p>\n<ul>\n<li><strong>4 × I</strong></li>\n<li><strong>2 × II</strong></li>\n<li><strong>1 × III</strong></li>\n<li><strong>1 × IV</strong></li>\n<li><strong>1 × V</strong></li>\n<li><strong>1 × VI</strong></li>\n</ul>",
+        "html": "<p>很久以前，最强大的女性法师耗费大量力量，创造了一处非凡的魔法居所。她前往另一个位面后，小屋便消失无踪，此后只据说出现过一两次。巴巴雅嘎建造的小屋外观普通，是一座直径 <strong>15’</strong>、高 <strong>10’</strong>的圆形茅草建筑，下方长着两条强壮的禽类腿，每条长 <strong>12’</strong>，看起来像高跷。</p>\n<p>小屋拥有高等智力、人的感官，以及 <strong>120’</strong>红外视觉和超视觉。内部却是一座小型宫殿：有花园、喷泉（涌出清水与葡萄酒），以及 <strong>3 层共 30 个房间</strong>，装潢极尽奢华。尽管内部宽敞，两条鸟腿仍能令小屋以每轮 <strong>48’</strong>的速度穿越沼泽、以 <strong>36’</strong>的速度穿越崎岖或普通地形，并以 <strong>12”</strong>的速度翻越丘陵、穿行森林等。小屋会服从最先说出特定暗语者的命令，并能响应最远 <strong>1 联盟</strong>外的召唤。</p>\n<p>任何未受邀请、也不知道暗语而贸然靠近者，都会遭到小屋双腿攻击；每条腿的攻击相当于山丘巨人，每轮可攻击 <strong>2 次</strong>。每条腿的护甲等级为 <strong>AC 2</strong>，有 <strong>48 点生命值</strong>，每轮再生 <strong>1 点</strong>。小屋墙壁相当于 <strong>5’厚的花岗岩</strong>。</p>\n<p>小屋另有以下能力／影响：</p>\n<ul>\n<li><strong>4 × I</strong></li>\n<li><strong>2 × II</strong></li>\n<li><strong>1 × III</strong></li>\n<li><strong>1 × IV</strong></li>\n<li><strong>1 × V</strong></li>\n<li><strong>1 × VI</strong></li>\n</ul>",
         "source": {
           "book": "DMG",
           "section": "巴巴雅嘎小屋 Baba Yaga’s Hut"
@@ -3971,7 +3971,7 @@
     "details": [
       {
         "title": "屠龙者 Wyrmsbane",
-        "html": "<p>这是一件来自第三次龙之战争的神器，在力量时代锻造，后来在那个时代中遗失。灾变之后巨龙再次出现时，对这种强力武器的需求极为迫切。</p>\n<p>屠龙者是一把双手剑，对大多数生物为 +2。然而，用它对抗巨龙和龙兽时，会造成双倍伤害；对黑龙和海龙时，会造成通常伤害的三倍。当一只 Baaz 龙人死亡并石化时，剑不会被卡在它所形成的石像中。</p>\n<p>屠龙者还可以每天三次定位物体。如果使用者想要寻找某件他十分熟悉的东西，而该物体位于 18” 以内，地下城主应当引导他朝正确方向前进。</p>",
+        "html": "<p>这是一件来自第三次龙之战争的神器，在力量时代锻造，后来在那个时代中遗失。灾变之后巨龙再次出现时，对这种强力武器的需求极为迫切。</p>\n<p>屠龙者是一把双手剑，对大多数生物为 +2。然而，用它对抗巨龙和龙人时，会造成双倍伤害；对黑龙和海龙时，会造成通常伤害的三倍。当一只 Baaz 龙人死亡并石化时，剑不会被卡在它所形成的石像中。</p>\n<p>屠龙者还可以每天三次定位物体。如果使用者想要寻找某件他十分熟悉的东西，而该物体位于 18” 以内，地下城主应当引导他朝正确方向前进。</p>",
         "source": {
           "book": "DLA",
           "section": "屠龙者 Wyrmsbane"
@@ -4261,7 +4261,7 @@
     "details": [
       {
         "title": "翁瓦尔权杖（M）",
-        "html": "<p>这根魔法权杖最初是为了保护翁瓦尔居民免受经常袭击盖纳特海的猛烈风暴而创造的。众所周知，它也曾有效对抗光明沙漠的沙尘暴、北方国家的暴风雪，以及各山脉的多风山峰。</p>\n<p>通过命令，权杖会使半径 50 英尺内的空气平静，风速变为 0。只要被风吹的一侧结构能够被包含在权杖作用范围内，它就可以用来抵消风对结构造成的伤害。不过，权杖不会影响雨、雪，也不会影响被风携带并抛入作用范围的固体物体。权杖也不会保护在作用范围外发射或投掷的投射物。</p>\n<p>权杖会防止利用强风作为特殊攻击形式的生物造成伤害。例如，气元素仍可以正常攻击，但不能以旋风形态攻击。权杖每次使用消耗一次充能。每次充能持续一小时，权杖可以重新充能。</p>\n<p>XP 价值：4,000 XP。GP 价值：15,000 GP。</p>",
+        "html": "<p>这根魔法权杖最初是为了保护翁瓦尔居民免受经常袭击盖纳特海的猛烈风暴而创造的。众所周知，它也曾有效对抗光明沙漠的沙尘暴、北地国家的暴风雪，以及各山脉的多风山峰。</p>\n<p>通过命令，权杖会使半径 50 英尺内的空气平静，风速变为 0。只要被风吹的一侧结构能够被包含在权杖作用范围内，它就可以用来抵消风对结构造成的伤害。不过，权杖不会影响雨、雪，也不会影响被风携带并抛入作用范围的固体物体。权杖也不会保护在作用范围外发射或投掷的投射物。</p>\n<p>权杖会防止利用强风作为特殊攻击形式的生物造成伤害。例如，气元素仍可以正常攻击，但不能以旋风形态攻击。权杖每次使用消耗一次充能。每次充能持续一小时，权杖可以重新充能。</p>\n<p>XP 价值：4,000 XP。GP 价值：15,000 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "翁瓦尔权杖（M）"
@@ -4596,7 +4596,7 @@
     "category": "魔法物品",
     "price": "未列售价",
     "weight": "未列",
-    "description": "埃尔迪王国的法师创造这枚护符，以帮助对抗北方野蛮人的战争。",
+    "description": "埃尔迪王国的法师创造这枚护符，以帮助对抗北地野蛮人的战争。",
     "tags": [
       "魔法"
     ],
@@ -4609,7 +4609,7 @@
     "details": [
       {
         "title": "斯派恩城堡护符",
-        "html": "<p></p>\n<p>埃尔迪王国的法师创造这枚护符，以帮助对抗北方野蛮人的战争。斯派恩城堡陷落后，护符消失了。学者认为它没能在野蛮人的愤怒中幸存，但关于护符在骨沼边区使用的故事仍然流传。</p>\n<p>每小时一次，可以命令这枚金色护符在半径 30 英尺内释放魔法灵光，持续一轮。灵光会对所有北方野蛮人产生负面效果，提高他们的迷信恐惧，并产生对魔法的憎恨。1 至 4 级者必须通过对法术的豁免检定，否则会立即退出作用范围，持续 1d8 轮。5 至 7 级者必须通过对法术的豁免，否则会被震慑一轮。更高等级者的“命中”骰受到 −1 处罚。</p>\n<p>XP 价值：900 XP。GP 价值：4,500 GP。</p>",
+        "html": "<p></p>\n<p>埃尔迪王国的法师创造这枚护符，以帮助对抗北地野蛮人的战争。斯派恩城堡陷落后，护符消失了。学者认为它没能在野蛮人的愤怒中幸存，但关于护符在骨沼边区使用的故事仍然流传。</p>\n<p>每小时一次，可以命令这枚金色护符在半径 30 英尺内释放魔法灵光，持续一轮。灵光会对所有北地野蛮人产生负面效果，提高他们的迷信恐惧，并产生对魔法的憎恨。1 至 4 级者必须通过对法术的豁免检定，否则会立即退出作用范围，持续 1d8 轮。5 至 7 级者必须通过对法术的豁免，否则会被震慑一轮。更高等级者的“命中”骰受到 −1 处罚。</p>\n<p>XP 价值：900 XP。GP 价值：4,500 GP。</p>",
         "source": {
           "book": "GHA",
           "section": "斯派恩城堡护符"
@@ -5450,7 +5450,7 @@
     "details": [
       {
         "title": "冰海的铁钉",
-        "html": "<p><strong>Iron Pin of the Icy Sea</strong></p>\n<p>这枚铁钉装在圆形透明水晶容器中。它最初由在雾气弥漫的夏季航行于冰海的野蛮猎人／劫掠者使用。一个命令可以让铁钉始终指向正东；第二个命令可以使它指向指定的目的地。此外，如果有外来的魔法或超自然力量正在影响航行，水晶就会发光。</p>\n<p>然而，它和磁石一样会受到强大磁力的影响，并且无法防护自然航行危险，例如北方雾气中若隐若现的巨大冰山。</p>\n<p>经验值：500；金币价值：4,500。</p>",
+        "html": "<p><strong>Iron Pin of the Icy Sea</strong></p>\n<p>这枚铁钉装在圆形透明水晶容器中。它最初由在雾气弥漫的夏季航行于冰海的野蛮猎人／劫掠者使用。一个命令可以让铁钉始终指向正东；第二个命令可以使它指向指定的目的地。此外，如果有外来的魔法或超自然力量正在影响航行，水晶就会发光。</p>\n<p>然而，它和磁石一样会受到强大磁力的影响，并且无法防护自然航行危险，例如北地雾气中若隐若现的巨大冰山。</p>\n<p>经验值：500；金币价值：4,500。</p>",
         "source": {
           "book": "GHA",
           "section": "冰海的铁钉"
@@ -6378,7 +6378,7 @@
     "details": [
       {
         "title": "荒野海岸之剑 +3",
-        "html": "<p><strong>Sword of the Wild Coast +3</strong></p>\n<p>这把受诅咒的双手剑由一名刻薄的魔法师附魔，企图暴露“所有战士都拥有的真正内在性格”。它会使持有者进行对法术的豁免检定；失败则变成中立邪恶阵营，并且热爱战斗。豁免修正取决于受害者的职业：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>职业</th><th align=\"right\">修正</th></tr></thead><tbody><tr><td>圣武士</td><td align=\"right\">+6</td></tr><tr><td>巡林客</td><td align=\"right\">+3</td></tr><tr><td>战士或盗贼</td><td align=\"right\">−3</td></tr></tbody></table>\n<p>豁免失败后，持有者会永远寻找战斗，并且永远战斗至死。如果看见斗殴或拔出的武器，他几乎无法抵抗参加战斗的冲动。即使只是受到战斗威胁，也会使他进行一次感知检定；失败则立即攻击。只有移除诅咒术才能释放角色。如果角色在诅咒状态下死亡，他的心灵会前往阿刻戎外层位面，永远无法返回。</p>\n<p>任何角色都可以尝试挥舞这把武器，但不是中立邪恶阵营的角色无法获得它的魔法加值。此外，善良阵营角色每次使用它都会受到 1–4 点电击伤害。</p>\n<p>经验值：—；金币价值：1,000。</p>",
+        "html": "<p><strong>Sword of the Wild Coast +3</strong></p>\n<p>这把受诅咒的双手剑由一名刻薄的魔法师附魔，企图暴露“所有战士都拥有的真正内在性格”。它会使持有者进行对法术的豁免检定；失败则变成中立邪恶阵营，并且热爱战斗。豁免修正取决于受害者的职业：</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>职业</th><th align=\"right\">修正</th></tr></thead><tbody><tr><td>圣武士</td><td align=\"right\">+6</td></tr><tr><td>巡林客</td><td align=\"right\">+3</td></tr><tr><td>战士或盗贼</td><td align=\"right\">−3</td></tr></tbody></table>\n<p>豁免失败后，持有者会永远寻找战斗，并且永远战斗至死。如果看见斗殴或拔出的武器，他几乎无法抵抗参加战斗的冲动。即使只是受到战斗威胁，也会使他进行一次感知检定；失败则立即攻击。只有移除诅咒术才能释放角色。如果角色在诅咒状态下死亡，他的心灵会前往修罗场外层位面，永远无法返回。</p>\n<p>任何角色都可以尝试挥舞这把武器，但不是中立邪恶阵营的角色无法获得它的魔法加值。此外，善良阵营角色每次使用它都会受到 1–4 点电击伤害。</p>\n<p>经验值：—；金币价值：1,000。</p>",
         "source": {
           "book": "GHA",
           "section": "荒野海岸之剑 +3"
