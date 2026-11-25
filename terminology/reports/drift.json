@@ -2664,7 +2664,6 @@
     "双功能魔冢": "二元冢",
     "艾布利斯鹤": "魔王鹤",
     "蛛化精怪": "伊特怪",
-    "恐惧烈焰之眼": "火惧之眼",
     "连枷蜗牛": "链枷蜗牛",
     "弗林德豺狼人": "弗林德鬣狗人",
     "弗伦浮怪": "呋噜",
@@ -3752,6 +3751,13 @@
       "old": "蛛化精怪 ·",
       "targets": [
         "伊特怪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "恐惧烈焰之眼",
+      "targets": [
+        "火惧之眼"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
