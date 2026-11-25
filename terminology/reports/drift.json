@@ -2993,7 +2993,6 @@
     "群体变形": "群体变树术",
     "融入石中": "融身入石",
     "梅尔夫的酸箭": "马友夫强酸箭",
-    "梅尔夫的微型流星": "马友夫微流星",
     "马友夫微型流星": "马友夫微流星",
     "修补术": "修复术",
     "奥术海市蜃楼": "海市蜃楼",
@@ -5911,6 +5910,13 @@
       "old": "马友夫强酸箭（早期版）",
       "targets": [
         "马友夫强酸箭"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "梅尔夫的微型流星",
+      "targets": [
+        "马友夫微流星"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
