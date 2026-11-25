@@ -1,5 +1,5 @@
 {
-  "files": 497,
+  "files": 496,
   "changes": [
     {
       "path": "src/character/ref2/controller.ts",
@@ -59,12 +59,12 @@
     {
       "path": "src/data/public/character-options.json",
       "beforeSha256": "b04688049823268d2a73e109970ee8579289426523f1050ce50489abe29fce2d",
-      "afterSha256": "e5870e91e906c92dd2ff35aeefeea121b6097e477118c60a6002eff26c27b3e7"
+      "afterSha256": "3f945bf647b11a6429c239c7c1a1c64d2a31a0639e30e96d67f1c08d71ac9301"
     },
     {
       "path": "src/data/public/class-additions.json",
       "beforeSha256": "0709aadf0bd0d695ac11ecb583f5c8014d8f21ca9c34e8a3fe529bb8c1316fec",
-      "afterSha256": "883388b2e2025bb2730446789e20f719fbb726989014a9c9f3c2dd9a78d235a3"
+      "afterSha256": "4f526b8da2cd9c7603eee138c2b1f078b3db220369c0c8549b217cafaf87aa96"
     },
     {
       "path": "src/data/public/class-details.json",
@@ -179,7 +179,7 @@
     {
       "path": "src/data/public/race-details.json",
       "beforeSha256": "3a8cf2e709778dacbb95d34c677df2229d736dff158e2130e0c348bcd7c7c59c",
-      "afterSha256": "c1f07bcbdde1fe9fd8b5dbbe22e1bee2fe14ce4a3287ea1ebc4b0554879e468a"
+      "afterSha256": "f3a4f037ac78d345c8dcb210acf50d4df01a0dfa7346d8d8d031e3ed41174a0d"
     },
     {
       "path": "src/data/public/ref3-monsters.ts",
@@ -259,12 +259,12 @@
     {
       "path": "src/data/published/book-search.json",
       "beforeSha256": "6e87121c609d48de3269f135f92f01359e1cf71fac7a80d9fa62afdb8e736e83",
-      "afterSha256": "5c7a18af254a97f6c33bc0f829f9774be631828937e27086f0567700627011b4"
+      "afterSha256": "f3d613f45ae233a2429fadd837fb8bfb783a138bf9f8bc7f485766d5098403f3"
     },
     {
       "path": "src/data/published/books.json",
       "beforeSha256": "3c87caace96b1a48729273550e0bd8f7e0b630bf11daf7170e7fb1c7e45a7f05",
-      "afterSha256": "6b9ea12bc2177bd582d04b42dc78aac7853c30bfa0bf355f5cbd5d58ad5154d8"
+      "afterSha256": "b2fa53428df9de3f33f8f0e4db51d732354402808d2788a14cb332b3a20b8be2"
     },
     {
       "path": "src/pages/character/index.astro",
@@ -414,7 +414,7 @@
     {
       "path": "src/published/books/dla/dla-characters-krynn.md",
       "beforeSha256": "16e6231002b0cdea2bc851da53e5b55c1ffce268dbd34d3710943f4c1537bde1",
-      "afterSha256": "1155a46814b264c7e8a13b73e8011a2e281cb0b0bd023854ddb27a4334fd1f37"
+      "afterSha256": "da54de77c457214ec762cca1fb1df0fea5ce1249e6ecf3fab30071b2b811c95a"
     },
     {
       "path": "src/published/books/dla/dla-creatures-krynn.md",
@@ -444,12 +444,7 @@
     {
       "path": "src/published/books/dla/dla-races-krynn.md",
       "beforeSha256": "f7d44537f24a5431c9aa8cdff6506b9edf1c5ab01883ba5204b0db2894acce35",
-      "afterSha256": "36f17bfb984f856ee6b55faeb1257c3f6d9bd5c84a99d6f4af6ae2ed80281ead"
-    },
-    {
-      "path": "src/published/books/dla/dla-realms-above.md",
-      "beforeSha256": "dd6fefed4a7f134c5946f62d64d70c2e3afba4b8d471a11e5e742307406a3f5f",
-      "afterSha256": "281b7f545fa9f572897afb63c86b1d3ddad11b53751339e30d9591e75eb95e0c"
+      "afterSha256": "6dad69f40c3d9e096ef35834a47ec07fb86e1cddba8e38218637be767456a0ab"
     },
     {
       "path": "src/published/books/dla/dla-tinkers-gnomes.md",
@@ -2474,7 +2469,7 @@
     {
       "path": "scripts/import/complete-library.py",
       "beforeSha256": "c89486b22665b34aad67fe4eda3789fbb3338d67e44165658dab37d15047cfa9",
-      "afterSha256": "d54cdccf92a49cd7936017ab6ec20cc97a7e6b445b0c51bc7bb98872a364e47d"
+      "afterSha256": "4147e0064261511d9fbb51263c86442a05ff8c09471a2cd2633d88b299a5e8f4"
     },
     {
       "path": "scripts/import/reader_cleanup.py",
@@ -2821,7 +2816,6 @@
     "伊乌兹的牧师": "埃乌兹",
     "奇力·乔里斯": "奇力·裘理斯",
     "索拉姆尼亚骑士": "索兰尼亚骑士团",
-    "宝剑骑士": "圣剑骑士",
     "林勃": "混沌海",
     "索斯爵士": "索思爵士",
     "黑玫瑰骑士": "索思爵士",
@@ -5200,6 +5194,13 @@
     },
     {
       "old": "Knights of the Sword",
+      "targets": [
+        "圣剑骑士"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "宝剑骑士",
       "targets": [
         "圣剑骑士"
       ],
