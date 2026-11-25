@@ -8,6 +8,7 @@ from collections import defaultdict, Counter
 import argparse, csv, hashlib, html, json, re, shutil, unicodedata
 from difflib import SequenceMatcher, get_close_matches
 from datetime import datetime, timezone, timedelta
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'terminology'
@@ -54,7 +55,13 @@ def inventory():
     source_drafts=load(OUT/'source-draft-candidates.json',{'entries':[]})['entries']
     for index,draft in enumerate(source_drafts,1):
         add(draft['en'],draft['zh'],draft['category'],'terminology/source-draft-candidates.json',str(index))
-    library=load(ROOT/'.git/terminology/library.json',{})
+    try:
+        library_path=subprocess.check_output(['git','rev-parse','--git-path','terminology/library.json'],cwd=ROOT,text=True).strip()
+        library_path=Path(library_path)
+        if not library_path.is_absolute():library_path=ROOT/library_path
+    except (subprocess.CalledProcessError,FileNotFoundError):
+        library_path=ROOT/'.git/terminology/library.json'
+    library=load(library_path,{})
     for group, rows in library.items():
         for r in rows:add(r['nameEn'],r['nameZh'],KINDS[group],'@library',id=r['id'],active=True)
     def walk(obj,path,category,loc=''):

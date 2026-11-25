@@ -1,9 +1,12 @@
 import {writeFileSync,mkdirSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {dirname,resolve} from 'node:path';
 import {spells} from '../../src/data/public/spells';
 import {items} from '../../src/data/public/items';
 import {monsters} from '../../src/data/public/monsters';
 import {classes} from '../../src/data/public/classes';
 import {races} from '../../src/data/public/races';
-mkdirSync('.git/terminology',{recursive:true});
-writeFileSync('.git/terminology/library.json',JSON.stringify({spells,items,monsters,classes,races}));
+const output=resolve(execFileSync('git',['rev-parse','--git-path','terminology/library.json'],{encoding:'utf8'}).trim());
+mkdirSync(dirname(output),{recursive:true});
+writeFileSync(output,JSON.stringify({spells,items,monsters,classes,races}));
 console.log('Exported current library for terminology audit.');

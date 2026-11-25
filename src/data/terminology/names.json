@@ -8,7 +8,10 @@
       "野蛮人（Gygax早期测试稿）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "barbarian",
+      "oa-barbarian"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30,7 +33,9 @@
     "zh": "吟游诗人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "bard"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -52,7 +57,9 @@
     "zh": "牧师",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cleric"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -74,7 +81,9 @@
     "zh": "德鲁伊",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "druid"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -102,7 +111,9 @@
     "zh": "战士",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fighter"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -124,7 +135,9 @@
     "zh": "魔法师",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-user"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -142,7 +155,10 @@
       "僧侣"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "monk",
+      "oa-monk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -172,7 +188,9 @@
       "游侠"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ranger"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -273,7 +291,7 @@
   {
     "category": "glossary-term",
     "en": "Barbarian Proficiency",
-    "zh": "野蛮人熟练项",
+    "zh": "蛮族熟练项",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -1011,7 +1029,7 @@
   {
     "category": "glossary-term",
     "en": "战斗轮 Combat Round",
-    "zh": "近战轮",
+    "zh": "轮",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -1030,7 +1048,9 @@
     "zh": "炼金壶",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-alchemy-jug"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1054,7 +1074,9 @@
       "防侦测与定位护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-amulet-of-proof-against-detection-and-location"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1076,7 +1098,9 @@
     "zh": "位面护符",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-amulet-of-the-planes"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1100,7 +1124,9 @@
       "克瓦利什装置"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-apparatus-of-kwalish"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1122,7 +1148,9 @@
     "zh": "箭",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-weapon-arrow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1146,7 +1174,9 @@
       "矮人领主之斧"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-axe-of-the-dwarvish-lords"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1168,7 +1198,9 @@
     "zh": "背包",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "backpack"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1192,7 +1224,9 @@
       "豆袋"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-bag-of-beans"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1214,7 +1248,9 @@
     "zh": "吞噬袋",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-bag-of-devouring"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1238,7 +1274,9 @@
       "收纳袋"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-bag-of-holding"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1262,7 +1300,9 @@
       "衔铁与缰绳"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-150"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1280,7 +1320,9 @@
       "吹管"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "oa-gear-blowgun"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1304,7 +1346,9 @@
       "崇高功绩之书"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-book-of-exalted-deeds"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1328,7 +1372,9 @@
       "邪恶黑暗之书"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-book-of-vile-darkness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1352,7 +1398,9 @@
       "精灵靴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-boots-of-elvenkind"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1376,7 +1424,9 @@
       "浮空靴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-boots-of-levitation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1400,7 +1450,9 @@
       "迅捷靴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-boots-of-speed"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1424,7 +1476,9 @@
       "跨跃与弹跳靴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-boots-of-striding-and-springing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1446,7 +1500,9 @@
     "zh": "射手护腕",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-bracers-of-archery"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1468,7 +1524,9 @@
     "zh": "防御护腕",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-bracers-of-defense"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1490,7 +1548,9 @@
     "zh": "护盾胸针",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-brooch-of-shielding"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1514,7 +1574,9 @@
       "飞行扫帚"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-broom-of-flying"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1538,7 +1600,9 @@
       "蒺藜"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-weapon-caltrop"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1556,7 +1620,9 @@
       "祈祷蜡烛"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-candle-of-invocation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1580,7 +1646,9 @@
       "双轮车"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-159"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1604,7 +1672,9 @@
       "控气元素香炉"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-censer-of-controlling-air-elementals"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1626,7 +1696,9 @@
     "zh": "链甲",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-002"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1648,7 +1720,9 @@
     "zh": "鸡",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-081"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1673,7 +1747,9 @@
       "开门风铃"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-chime-of-opening"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1698,7 +1774,9 @@
       "千里传音药水"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "magic-clairaudience"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -1716,7 +1794,9 @@
       "千里眼药水"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "magic-clairvoyance"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -1734,7 +1814,9 @@
       "蛛形斗篷"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-cloak-of-arachnida"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1758,7 +1840,9 @@
       "位移斗篷"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cloak-of-displacement"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1780,7 +1864,9 @@
     "zh": "精灵斗篷",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cloak-of-elvenkind"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1802,7 +1888,9 @@
     "zh": "防护斗篷",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cloak-of-protection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1824,7 +1912,9 @@
     "zh": "蝙蝠斗篷",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-cloak-of-the-bat"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1846,7 +1936,9 @@
     "zh": "蝠鲼斗篷",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cloak-of-the-manta-ray"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1870,7 +1962,9 @@
       "木棒"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-weapon-club"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1894,7 +1988,9 @@
       "牛"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-082"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1916,7 +2012,9 @@
     "zh": "撬棍",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dsg-crowbar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1938,7 +2036,9 @@
     "zh": "水晶球",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-crystal-ball"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1963,7 +2063,9 @@
       "力量立方"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cube-of-force"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -1988,7 +2090,9 @@
       "立方门"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-cubic-gate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2012,7 +2116,9 @@
       "德恩即时堡垒"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-daerns-instant-fortress"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2036,7 +2142,9 @@
       "匕首与鞘"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dagger"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2061,7 +2169,9 @@
       "毒液匕首"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-dagger-of-venom"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2083,7 +2193,9 @@
     "zh": "飞镖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-030"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2108,7 +2220,9 @@
       "无尽之水醒酒瓶"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-decanter-of-endless-water"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2130,7 +2244,9 @@
     "zh": "幻象牌组",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-deck-of-illusions"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2154,7 +2270,9 @@
       "万象牌组"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-deck-of-many-things"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2182,7 +2300,9 @@
     "zh": "驴",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-085"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2201,7 +2321,9 @@
       "消隐尘"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-dust-of-disappearance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2225,7 +2347,9 @@
       "吸水粉"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-dust-of-dryness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2250,7 +2374,9 @@
       "喷嚏／窒息尘"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-dust-of-sneezing-and-choking"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2275,7 +2401,9 @@
       "火巨灵瓶"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-efreeti-bottle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2297,7 +2425,9 @@
     "zh": "健康灵药",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-elixir-of-health"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2321,7 +2451,9 @@
       "永烟瓶"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-eversmoking-bottle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2345,7 +2477,9 @@
       "维克那之眼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-eye-of-vecna"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2370,7 +2504,9 @@
       "魅惑之眼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-eyes-of-charming"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2395,7 +2531,9 @@
       "微观视物之眼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-eyes-of-minute-seeing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2419,7 +2557,9 @@
       "鹰眼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-eyes-of-the-eagle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2441,7 +2581,9 @@
     "zh": "折叠船",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dsg-folding-boat"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2465,7 +2607,9 @@
       "食人魔力量手套"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-gauntlets-of-ogre-power"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2489,7 +2633,9 @@
       "光辉宝石"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-gem-of-brightness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2514,7 +2660,9 @@
       "观视宝石"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-gem-of-seeing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2538,7 +2686,9 @@
       "长刃枪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-036"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2562,7 +2712,9 @@
       "截接飞弹手套"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-gloves-of-missile-snaring"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2586,7 +2738,9 @@
       "盗窃手套"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-gloves-of-thievery"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2608,7 +2762,9 @@
     "zh": "山羊",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-086"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2632,7 +2788,9 @@
       "抓钩"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dsg-grappling-hook"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2656,7 +2814,9 @@
       "戟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-040"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2680,7 +2840,9 @@
       "锤"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-042"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2698,7 +2860,9 @@
       "雷霆之锤"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-hammer-of-thunderbolts"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2714,7 +2878,9 @@
     "zh": "易容帽",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-hat-of-disguise"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2738,7 +2904,9 @@
       "辉煌头盔"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-helm-of-brilliance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2760,7 +2928,9 @@
     "zh": "心灵感应头盔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-helm-of-telepathy"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2782,7 +2952,9 @@
     "zh": "传送头盔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-helm-of-teleportation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2804,7 +2976,9 @@
     "zh": "水下行动头盔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-helm-of-underwater-action"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2822,7 +2996,9 @@
       "休沃德的便利背包"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-heward-s-handy-haversack"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2847,7 +3023,9 @@
       "爆鸣号角"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-horn-of-blasting"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2872,7 +3050,9 @@
       "风精马掌"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-horseshoes-of-a-zephyr"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2897,7 +3077,9 @@
       "速度马蹄铁"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-horseshoes-of-speed"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2921,7 +3103,9 @@
       "比拉罗的铁箍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-iron-bands-of-bilarro"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2945,7 +3129,9 @@
       "铁瓶"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-iron-flask"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2969,7 +3155,9 @@
       "铁锅"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "oa-iron-pot"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -2991,7 +3179,9 @@
     "zh": "标枪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-043"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3013,7 +3203,9 @@
     "zh": "闪电标枪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-javelin-of-lightning"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3038,7 +3230,9 @@
       "凯欧格托姆药膏"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-keoghtoms-ointment"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3060,7 +3254,9 @@
     "zh": "骑枪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-044"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3082,7 +3278,10 @@
     "zh": "皮甲",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "leather-armor",
+      "oa-leather-armor"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3106,7 +3305,9 @@
       "长剑与鞘"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "long-sword"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -3125,7 +3326,9 @@
       "建造竖琴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-lyre-of-building"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3143,7 +3346,9 @@
       "钉头锤"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mace"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3168,7 +3373,9 @@
       "破邪锤"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-mace-of-disruption"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3192,7 +3399,9 @@
       "体魄健康手册"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-manual-of-bodily-health"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3217,7 +3426,9 @@
       "获益锻炼手册"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-manual-of-gainful-exercise"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3241,7 +3452,9 @@
       "动作敏捷手册"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-manual-of-quickness-of-action"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3265,7 +3478,9 @@
       "莱乌克-欧的强力仆役"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-mighty-servant-of-leuk-o"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3284,7 +3499,9 @@
       "生命囚禁镜"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-mirror-of-life-trapping"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3308,7 +3525,9 @@
       "骡"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-094"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3332,7 +3551,9 @@
       "适应护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-necklace-of-adaptation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3356,7 +3577,9 @@
       "祈祷珠项链"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-necklace-of-prayer-beads"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3380,7 +3603,9 @@
       "夜临"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dla-item-nightbringer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3399,7 +3624,9 @@
       "诺祖尔奇妙颜料"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-nolzurs-marvelous-pigments"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3425,7 +3652,9 @@
       "星界油"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-oil-of-etherealness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3449,7 +3678,9 @@
       "锐化油"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-oil-of-sharpness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3474,7 +3705,9 @@
       "滑溜油"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-oil-of-slipperiness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3499,7 +3732,10 @@
       "龙族宝珠"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dla-orb-dragonkind",
+      "dmg-item-orb-of-dragonkind"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3521,7 +3757,9 @@
     "zh": "公牛",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-095"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3545,7 +3783,9 @@
       "衬甲"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-006"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3570,7 +3810,9 @@
       "法力珍珠"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-pearl-of-power"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3594,7 +3836,9 @@
       "健康护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-periapt-of-health"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3619,7 +3863,9 @@
       "防毒护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-periapt-of-proof-against-poison"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3644,7 +3890,9 @@
       "止血护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-periapt-of-wound-closure"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3668,7 +3916,9 @@
       "贤者之石"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-philosopher-s-stone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3687,7 +3937,9 @@
       "爱情灵药"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-philter-of-love"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3709,7 +3961,9 @@
     "zh": "猪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-098"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3733,7 +3987,9 @@
       "下水道笛"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-pipes-of-the-sewers"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3758,7 +4014,9 @@
       "无相位板甲"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-plate-mail-of-etherealness"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -3780,7 +4038,9 @@
     "zh": "矮种马",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-099"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3804,7 +4064,9 @@
       "便携洞"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-portable-hole"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3826,7 +4088,9 @@
     "zh": "治疗药水",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "healing-potion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3850,7 +4114,9 @@
       "母亲之祸毒药"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fr-poison-prespra"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -3868,7 +4134,9 @@
       "艾丽莎女王的奇妙夜莺"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-queen-ehlissa-s-marvelous-nightingale"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3884,7 +4152,9 @@
     "zh": "艾罗娜的箭袋",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-quiver-of-ehlonna"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3906,7 +4176,9 @@
     "zh": "环甲",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-008"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3930,7 +4202,9 @@
       "召唤巨灵戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-djinni-summoning"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3952,7 +4226,9 @@
     "zh": "羽落戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-feather-falling"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3974,7 +4250,9 @@
     "zh": "火焰抗性戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-fire-resistance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -3998,7 +4276,9 @@
       "行动自如戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-free-action"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4022,7 +4302,9 @@
       "隐形戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-invisibility"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4044,7 +4326,9 @@
     "zh": "防护戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-protection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4066,7 +4350,9 @@
     "zh": "再生戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-regeneration"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4090,7 +4376,9 @@
       "星辰射击戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-shooting-stars"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4114,7 +4402,9 @@
       "法术储存戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-spell-storing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4136,7 +4426,9 @@
     "zh": "法术反转戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-spell-turning"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4160,7 +4452,9 @@
       "游泳戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-swimming"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4182,7 +4476,9 @@
     "zh": "心灵遥控戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-telekinesis"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4204,7 +4500,9 @@
     "zh": "三愿戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-three-wishes"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4228,7 +4526,9 @@
       "保暖戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-warmth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4250,7 +4550,9 @@
     "zh": "水上行走戒指",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-water-walking"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4274,7 +4576,9 @@
       "X光视觉戒指"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-ring-of-x-ray-vision"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4298,7 +4602,9 @@
       "长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-077"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -4316,7 +4622,9 @@
       "眼睛长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-robe-of-eyes"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4340,7 +4648,9 @@
       "炫彩长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-robe-of-scintillating-colors"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4364,7 +4674,9 @@
       "星辰长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-robe-of-stars"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4388,7 +4700,9 @@
       "大法师长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-robe-of-the-archmagi"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4412,7 +4726,9 @@
       "实用长袍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-robe-of-useful-items"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4434,7 +4750,9 @@
     "zh": "吸收权杖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-rod-of-absorption"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4458,7 +4776,9 @@
       "君主威仪权杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-rod-of-lordly-might"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4482,7 +4802,9 @@
       "复活权杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-rod-of-resurrection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4506,7 +4828,9 @@
       "支配权杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-rod-of-rulership"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4530,7 +4854,9 @@
       "七段之杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-rod-of-seven-parts"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4546,7 +4872,9 @@
     "zh": "攀爬绳",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-rope-of-climbing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4570,7 +4898,9 @@
       "缠缚绳"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-rope-of-entanglement"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4592,7 +4922,9 @@
     "zh": "鳞甲",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-009"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4614,7 +4946,9 @@
     "zh": "防护圣甲虫",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-scarab-of-protection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4636,7 +4970,9 @@
     "zh": "弯刀",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-055"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4660,7 +4996,9 @@
       "迅捷弯刀"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-scimitar-of-speed"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4684,7 +5022,9 @@
       "防护元素生物卷轴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-scroll-of-protection-from-elementals"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4702,7 +5042,9 @@
       "防护不死生物卷轴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-scroll-of-protection-from-undead"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4720,7 +5062,9 @@
       "羊"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-100"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4742,7 +5086,9 @@
     "zh": "盾牌",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shield"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4766,7 +5112,9 @@
       "短剑与鞘"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "short-sword"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -4784,7 +5132,9 @@
       "铁锹"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dsg-shovel"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4808,7 +5158,9 @@
       "投石索铅弹"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-weapon-sling-bullet"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4832,7 +5184,9 @@
       "长矛"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-058"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4854,7 +5208,9 @@
     "zh": "湮灭法球",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-sphere-of-annihilation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4878,7 +5234,9 @@
       "力量法杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-staff-of-power"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4902,7 +5260,9 @@
       "打击法杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-staff-of-striking"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4926,7 +5286,9 @@
       "魔法师法杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-staff-of-the-magi"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4950,7 +5312,9 @@
       "枯萎法杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-staff-of-withering"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4974,7 +5338,9 @@
       "土元素操控石"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-stone-of-controlling-earth-elementals"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -4998,7 +5364,9 @@
       "镶嵌皮甲"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-014"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5022,7 +5390,9 @@
       "卡斯之剑"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-sword-of-kas"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5044,7 +5414,9 @@
     "zh": "纯善护符",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-talisman-of-pure-good"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5066,7 +5438,9 @@
     "zh": "法球护符",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-talisman-of-the-sphere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5090,7 +5464,9 @@
       "极恶护符"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-talisman-of-ultimate-evil"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5114,7 +5490,9 @@
       "通晓思维之书"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-tome-of-clear-thought"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5138,7 +5516,9 @@
       "领导力与影响力之书"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-tome-of-leadership-and-influence"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5160,7 +5540,9 @@
     "zh": "火把",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-130"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5182,7 +5564,9 @@
     "zh": "三叉戟",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-065"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5206,7 +5590,9 @@
       "控鱼三叉戟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-trident-of-fish-command"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5230,7 +5616,9 @@
       "乌尔克伦毒液"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fr-poison-ulcrun"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -5246,7 +5634,9 @@
     "zh": "四轮货车",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phb-item-165"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5271,7 +5661,9 @@
       "敌意侦测魔杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-wand-of-enemy-detection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5293,7 +5685,9 @@
     "zh": "恐惧魔杖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-wand-of-fear"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5317,7 +5711,9 @@
       "魔法侦测魔杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-wand-of-magic-detection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5339,7 +5735,9 @@
     "zh": "魔法飞弹魔杖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-wand-of-magic-missiles"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5363,7 +5761,9 @@
       "奥库斯之杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-wand-of-orcus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5385,7 +5785,9 @@
     "zh": "利齿魔杖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-102-magic-item-wand-of-teeth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5403,7 +5805,9 @@
       "奇迹魔杖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-wand-of-wonder"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5425,7 +5829,9 @@
     "zh": "战马",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "warhorse"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5455,7 +5861,9 @@
       "万界之井"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-well-of-many-worlds"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5479,7 +5887,9 @@
       "鞭"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-weapon-whip"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5503,7 +5913,9 @@
       "风扇"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-wind-fan"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5527,7 +5939,9 @@
       "飞行之翼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dmg-item-wings-of-flying"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5552,7 +5966,9 @@
       "阿拉科克拉（鸟人）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-aarakocra-bird-man"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5572,7 +5988,9 @@
       "鲍勒斯"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-aboleth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5597,7 +6015,9 @@
       "阿查伊莱 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-achaierai"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5662,7 +6082,9 @@
       "刺客虫 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-assassin-bug"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5699,7 +6121,9 @@
       "黄金兽 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-aurumvorax"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5717,7 +6141,9 @@
       "斧喙鸟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "axe-beak"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5742,7 +6168,9 @@
       "火矮灵 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-azer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5801,7 +6229,9 @@
       "巴巴乌魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-babau"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5823,7 +6253,9 @@
     "zh": "狒狒",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "baboon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5845,7 +6277,9 @@
     "zh": "獾",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "badger"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5870,7 +6304,9 @@
       "贝尔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-bael"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5895,7 +6331,9 @@
       "巴风特 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-baphomet"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5952,7 +6390,9 @@
       "巴盖斯特魔犬"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-barghest"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5977,7 +6417,9 @@
       "树皮刺怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-barkburr"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -5993,7 +6435,9 @@
     "zh": "石化蜥蜴",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "basilisk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6041,7 +6485,9 @@
       "须魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-bearded-devil"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6071,7 +6517,9 @@
       "贝希摩斯"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-behir"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6093,7 +6541,9 @@
     "zh": "眼魔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "beholder"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6117,7 +6567,9 @@
       "贝利亚 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-belial"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6136,7 +6588,9 @@
       "贝尔巴朗 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-berbalang"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6160,7 +6614,9 @@
       "黑色布丁怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "black-pudding"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6185,7 +6641,9 @@
       "炫目蛙怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-blindheim"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6201,7 +6659,9 @@
     "zh": "闪现犬",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "blink-dog"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6225,7 +6685,9 @@
       "血鹰 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-blood-hawk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6250,7 +6712,9 @@
       "蓝史拉蟾 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-blue-slaad"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6274,7 +6738,9 @@
       "波达尸 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-bodak"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6299,7 +6765,9 @@
       "波格小妖 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-boggle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6361,7 +6829,9 @@
     "zh": "熊地精",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "bugbear"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6379,7 +6849,9 @@
       "布雷特"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "bulette"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6404,7 +6876,9 @@
       "蛙人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-bullywug"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6423,7 +6897,9 @@
       "坎比翁半恶魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-cambion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6447,7 +6923,9 @@
       "腐尸爬行者"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "carrion-crawler"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6469,7 +6947,9 @@
     "zh": "卡托布莱帕斯",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "catoblepas"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6494,7 +6974,9 @@
       "洞穴渔夫 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-cave-fisher"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6518,7 +7000,9 @@
       "半人马"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "centaur"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6537,7 +7021,9 @@
       "蝇魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-chasme"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6559,7 +7045,9 @@
     "zh": "奇美拉",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "chimera"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6584,7 +7072,9 @@
       "蛰伏伪怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-cloaker"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6608,7 +7098,9 @@
       "鸡蛇"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cockatrice"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6632,7 +7124,9 @@
       "库奥托"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "couatl"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6673,7 +7167,9 @@
       "克里奥纳克斯 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-cryonax"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6691,7 +7187,9 @@
       "土巨灵 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-dao"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6716,7 +7214,9 @@
       "死亡犬 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-death-dog"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6740,7 +7240,9 @@
       "死亡骑士 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-death-knight"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6764,7 +7266,9 @@
       "恐爪龙 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-deinonychus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6788,7 +7292,9 @@
       "半巫妖 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-demilich"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6840,7 +7346,9 @@
       "恶魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "demon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6865,7 +7373,9 @@
       "迪洛矮人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-derro"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6920,7 +7430,9 @@
       "异齿龙 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-dimetrodon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6945,7 +7457,9 @@
       "凶暴鸦人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-dire-corby"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -6979,7 +7493,10 @@
       "位移兽"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "displacer-beast",
+      "ref4-displacer-beast"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7003,7 +7520,9 @@
       "风巨灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "djinni"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7025,7 +7544,9 @@
     "zh": "海豚",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dolphin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7047,7 +7568,9 @@
     "zh": "龙",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7063,7 +7586,9 @@
     "zh": "龙龟",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-turtle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7088,7 +7613,9 @@
       "小型翼龙 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-dragonnel"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7106,7 +7633,9 @@
       "怯魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-dretch"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7136,7 +7665,9 @@
       "蛛化卓尔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-drider"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7176,7 +7707,10 @@
     "zh": "树精",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dryad",
+      "ref3-dryad"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7206,7 +7740,9 @@
       "灰矮人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-duergar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7225,7 +7761,9 @@
       "双功能魔冢 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-duodrone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7241,7 +7779,9 @@
     "zh": "矮人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dwarf"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7259,7 +7799,9 @@
       "鹰 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-eagle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7284,7 +7826,9 @@
       "艾布利斯鹤 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-eblis"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7300,7 +7844,9 @@
     "zh": "火巨灵",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "efreeti"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7350,7 +7896,9 @@
       "蛛化精怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-ettercap"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7372,7 +7920,9 @@
     "zh": "双头巨人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ettin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7397,7 +7947,9 @@
       "恐惧烈焰之眼 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-eye-of-fear-and-flame"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7415,7 +7967,9 @@
       "火蛇 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-fire-snake"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7434,7 +7988,9 @@
       "连枷蜗牛 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-flail-snail"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7459,7 +8015,9 @@
       "弗林德豺狼人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-flind"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7484,7 +8042,9 @@
       "弗伦浮怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-flumph"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7506,7 +8066,9 @@
     "zh": "飞蛇",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-115-monster-flying-snake"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7530,7 +8092,9 @@
       "雾巨人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-fog-giant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7549,7 +8113,9 @@
       "弗拉伦 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-forlarren"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7568,7 +8134,9 @@
       "弗拉兹乌鲁 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-fraz-urbluu"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7592,7 +8160,9 @@
       "蛙怪巨兽"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-froghemoth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7617,7 +8187,9 @@
       "伽雷布土灵 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-galeb-duhr"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7639,7 +8211,10 @@
     "zh": "石像鬼",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gargoyle",
+      "ref3-gargoyle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7663,7 +8238,9 @@
       "气孢"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gas-spore"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7681,7 +8258,9 @@
       "胶质立方体"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gelatinous-cube"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7730,7 +8309,10 @@
       "食尸鬼怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ghast",
+      "ref5-ghast"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7754,7 +8336,10 @@
       "幽灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ghost",
+      "ref5-ghost"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7776,7 +8361,10 @@
     "zh": "食尸鬼",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ghoul",
+      "ref5-ghoul"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7800,7 +8388,9 @@
       "巨人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "giant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -7889,7 +8479,9 @@
       "巨型蜻蜓 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-giant-dragonfly"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8000,7 +8592,9 @@
       "巨型蜘蛛"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "giant-spider"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8031,7 +8625,9 @@
       "巨型跨步鸟 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-giant-strider"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8056,7 +8652,9 @@
       "胡言乱语兽 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-gibbering-mouther"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8081,7 +8679,9 @@
       "胡言兽 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-gibberling"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8105,7 +8705,9 @@
       "格莱西雅 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-glasya"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8123,7 +8725,9 @@
       "豺狼人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gnoll"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8139,7 +8743,9 @@
     "zh": "山羊",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-goat"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8163,7 +8769,9 @@
       "哥布林"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "goblin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8181,7 +8789,9 @@
       "戈尔贡"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gorgon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8205,7 +8815,9 @@
       "戈里斯特罗"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-091-rule-goristro-revealed-the"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8229,7 +8841,9 @@
       "灰色软泥怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gray-ooze"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8253,7 +8867,9 @@
       "格拉兹特 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-grazzt"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8278,7 +8894,9 @@
       "绿史拉蟾 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-green-slaad"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8303,7 +8921,9 @@
       "格瑞尔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-grell"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8325,7 +8945,9 @@
     "zh": "狮鹫",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "griffon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8350,7 +8972,9 @@
       "石盲蛮族 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-grimlock"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8375,7 +8999,9 @@
       "格蛙 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gha-grung"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8399,7 +9025,9 @@
       "守护纳迦"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref3-guardian-naga"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8423,7 +9051,9 @@
       "古林树灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-101-monster-hamadryad"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8441,7 +9071,9 @@
       "鹰身女妖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "harpy"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8471,7 +9103,9 @@
       "地狱犬"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hell-hound"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8501,7 +9135,9 @@
       "鹰马"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hippogriff"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8523,7 +9159,9 @@
     "zh": "河马",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hippopotamus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8545,7 +9183,9 @@
     "zh": "大地精",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hobgoblin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8563,7 +9203,9 @@
       "圣象"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-hollyphant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8582,7 +9224,9 @@
       "魔宠人偶的制造"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "homunculus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8607,7 +9251,9 @@
       "钩爪恐兽 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-hook-horror"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8631,7 +9277,9 @@
       "凶兆猎犬 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-hound-of-ill-omen"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8649,7 +9297,9 @@
       "胡提金 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-hutijin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8674,7 +9324,9 @@
       "多头蛇蜥"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hydra"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8704,7 +9356,9 @@
       "冰巨魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-ice-troll"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8726,7 +9380,9 @@
     "zh": "小魔鬼",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "imp"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8748,7 +9404,9 @@
     "zh": "噬脑怪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "intellect-devourer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8770,7 +9428,10 @@
     "zh": "隐形追猎者",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "invisible-stalker",
+      "ref4-invisible-stalker"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8795,7 +9456,9 @@
       "铁眼镜蛇 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-iron-cobra"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8813,7 +9476,9 @@
       "恶魔魟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ixitxachitl"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8832,7 +9497,9 @@
       "豺狗—豺狼人—美洲豹"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "jackal-jaguar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8882,7 +9549,9 @@
       "标枪蛇 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-jaculi"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8901,7 +9570,9 @@
       "杰姆莱恩 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-jermlaine"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8920,7 +9591,9 @@
       "卡玛丹蛇豹 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-kamadan"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8957,7 +9630,9 @@
       "水鬼 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-kelpie"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -8976,7 +9651,9 @@
       "鸦人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-kenku"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9001,7 +9678,9 @@
       "卡格拉 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-khargra"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9019,7 +9698,9 @@
       "麒麟—狗头人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ki-rin-kobold"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9043,7 +9724,9 @@
       "基尔莫利斯"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-killmoulis"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9077,7 +9760,9 @@
     "zh": "狗头人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "kobold"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9096,7 +9781,9 @@
       "科瑞德 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-korred"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9121,7 +9808,9 @@
       "克拉肯海怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-kraken"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9152,7 +9841,9 @@
       "库奎托阿"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-kuo-toa"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9176,7 +9867,9 @@
       "拉弥亚"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "lamia"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9200,7 +9893,9 @@
       "幼虫"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "larva"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9247,7 +9942,9 @@
       "森林：矮妖精"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "leprechaun"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9265,7 +9962,9 @@
       "勒克洛塔"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "leucrotta"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9287,7 +9986,11 @@
     "zh": "巫妖",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "lich",
+      "ref3-lich",
+      "ref5-lich"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9312,7 +10015,9 @@
       "蜥蜴王 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-lizard-king"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9330,7 +10035,9 @@
       "洛卡萨"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "locathah"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9367,7 +10074,9 @@
       "玛门 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-mammon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9385,7 +10094,9 @@
       "猛犸象"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mammoth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9410,7 +10121,10 @@
       "蝎狮"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "manticore",
+      "ref4-manticore"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9435,7 +10149,9 @@
       "食人花 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-mantrap"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9453,7 +10169,9 @@
       "水巨灵 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-marid"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9478,7 +10196,9 @@
       "米泽尔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-meazel"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9500,7 +10220,9 @@
     "zh": "美杜莎",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "medusa"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9537,7 +10259,9 @@
       "恐惧之锁 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-meenlock"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9561,7 +10285,9 @@
       "墨菲斯托费利斯 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-mephistopheles"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9610,7 +10336,9 @@
       "夹层魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-mezzodaemon"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -9628,7 +10356,9 @@
       "拟态怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mimic"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9650,7 +10380,10 @@
     "zh": "夺心魔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mind-flayer",
+      "ref4-mind-flayer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9674,7 +10407,9 @@
       "牛头怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "minotaur"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9693,7 +10428,9 @@
       "小蠹怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-mite"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9711,7 +10448,9 @@
       "摩洛克 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-moloch"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9736,7 +10475,9 @@
       "单功能魔冢 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-monodrone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9754,7 +10495,9 @@
       "深渊幽灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "morkoth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9778,7 +10521,9 @@
       "骡"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mule"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9800,7 +10545,10 @@
     "zh": "木乃伊",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mummy",
+      "ref5-mummy"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9825,7 +10573,9 @@
       "纳巴苏魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-nabassu"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9849,7 +10599,9 @@
       "新食腐兽"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "neo-otyugh"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9868,7 +10620,9 @@
       "水宁芙 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-nereid"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9887,7 +10641,9 @@
       "夜巫婆"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "night-hag"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9911,7 +10667,9 @@
       "梦魇马"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "nightmare"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9936,7 +10694,9 @@
       "反地精 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-nilbog"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9961,7 +10721,9 @@
       "诺克地精 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-norker"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -9980,7 +10742,9 @@
       "劣魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-nupperibo"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10004,7 +10768,9 @@
       "夜魔"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-nycadaemon"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -10023,7 +10789,9 @@
       "黄褐色胶冻"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ochre-jelly"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10045,7 +10813,9 @@
     "zh": "食人魔",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ogre"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10069,7 +10839,9 @@
       "普通鬼人（低等灵）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "oa-oni"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10091,7 +10863,9 @@
     "zh": "兽人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "orc"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10133,7 +10907,9 @@
       "奥提尤格"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "otyugh"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10157,7 +10933,9 @@
       "猫头鹰 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-owl"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10179,7 +10957,9 @@
     "zh": "枭熊",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "owlbear"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10203,7 +10983,9 @@
       "帕祖祖 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-pazuzu"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10221,7 +11003,9 @@
       "佩奇土灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-pech"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10245,7 +11029,9 @@
       "飞马"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "pegasus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10270,7 +11056,9 @@
       "五功能魔冢 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-pentadrone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10288,7 +11076,9 @@
       "鹏鸟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "peryton"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10312,7 +11102,9 @@
       "凤凰"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-phoenix"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10336,7 +11128,9 @@
       "穿刺怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "piercer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10380,7 +11174,9 @@
     "zh": "皮克精",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "pixie"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10404,7 +11200,9 @@
       "行星天使"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-planetar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10450,7 +11248,9 @@
       "骚灵 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-poltergeist"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10472,7 +11272,9 @@
     "zh": "紫虫",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "purple-worm"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10497,7 +11299,9 @@
       "四功能魔冢 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-quadrone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10516,7 +11320,9 @@
       "地底兽人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-quaggoth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10540,7 +11346,9 @@
       "夸赛魔"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "quasit"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10565,7 +11373,9 @@
       "快步精 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-quickling"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10589,7 +11399,9 @@
       "食人鱼 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-quipper"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10605,7 +11417,9 @@
     "zh": "罗刹",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "rakshasa"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10630,7 +11444,9 @@
       "普通鼠 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-rat"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10678,7 +11494,9 @@
       "红色阿比沙伊"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref4-red-abishai"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10703,7 +11521,9 @@
       "红史拉蟾 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-red-slaad"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10728,7 +11548,9 @@
       "雷莫拉兹"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "remorhaz"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10753,7 +11575,9 @@
       "寻猎魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-retriever"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10778,7 +11602,9 @@
       "还魂尸 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-revenant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10800,7 +11626,9 @@
     "zh": "犀牛",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "rhinoceros"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10824,7 +11652,9 @@
       "巨鸟"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "roc"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10848,7 +11678,9 @@
       "绳怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "roper"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10870,7 +11702,9 @@
     "zh": "洛斯兽",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-rothe"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10894,7 +11728,10 @@
       "锈蚀怪物"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "rust-monster",
+      "ref4-rust-monster"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10919,7 +11756,9 @@
       "鲁特金魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-rutterkin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10943,7 +11782,10 @@
       "沙华鱼人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sahuagin",
+      "ref3-sahuagin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10959,7 +11801,9 @@
     "zh": "火蜥蜴",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "salamander"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -10983,7 +11827,9 @@
       "萨梯"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "satyr"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11007,7 +11853,9 @@
       "稻草人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-scarecrow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11080,7 +11928,9 @@
       "尖啸小魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-screaming-devilkin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11098,7 +11948,9 @@
       "海巫婆"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sea-hag"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11120,7 +11972,9 @@
     "zh": "海狮",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sea-lion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11158,7 +12012,10 @@
       "阴影"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shadow",
+      "ref5-shadow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11189,7 +12046,9 @@
       "暗影恶魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-shadow-demon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11215,7 +12074,10 @@
       "暗影龙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-shadow-dragon",
+      "ref4-shadow-dragon"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -11234,7 +12096,9 @@
       "暗影獒犬 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-shadow-mastiff"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11258,7 +12122,9 @@
       "蹒跚怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shambling-mound"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11282,7 +12148,9 @@
       "尖叫蕈"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shrieker"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11316,7 +12184,10 @@
     "zh": "骷髅",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "skeleton",
+      "ref5-skeleton"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11340,7 +12211,9 @@
       "骷髅战士 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-skeleton-warrior"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11359,7 +12232,9 @@
       "隐伏者 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-skulk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11383,7 +12258,9 @@
       "滑行追踪者"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "slithering-tracker"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11458,7 +12335,9 @@
       "观察者眼魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-spectator"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11480,7 +12359,9 @@
     "zh": "蜘蛛",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "spider"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11505,7 +12386,9 @@
       "刺魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-spined-devil"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11529,7 +12412,9 @@
       "灵体巨魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-spirit-troll"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11553,7 +12438,9 @@
       "斑点狮"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref3-spotted-lion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11571,7 +12458,9 @@
       "精灵妖"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sprite"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11620,7 +12509,9 @@
       "恶臭牛 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-stench-kow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11644,7 +12535,9 @@
       "血蚊"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "stirge"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11666,7 +12559,9 @@
     "zh": "石魔像",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref3-stone-golem"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11690,7 +12585,9 @@
       "苏魔兽"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "su-monster"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11709,7 +12606,9 @@
       "天鹅女 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-swanmay"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -11753,7 +12652,9 @@
       "塔斯罗伊人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-tasloi"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11772,7 +12673,9 @@
       "塞萨尔多头怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-thessalhydra"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11792,7 +12695,10 @@
       "蟹人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-thri-kreen",
+      "ref3-thri-kreen"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11810,7 +12716,9 @@
       "虎"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "tiger"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11834,7 +12742,9 @@
       "泰坦兽"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "titanothere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11852,7 +12762,9 @@
       "提提维鲁斯 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-titivilus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11877,7 +12789,9 @@
       "诱捕者"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "trapper"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11899,7 +12813,9 @@
     "zh": "树人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "treant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11924,7 +12840,9 @@
       "三花叶怪 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-tri-flower-frond"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11943,7 +12861,9 @@
       "三功能魔冢 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-tridrone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11961,7 +12881,9 @@
       "穴居怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "troglodyte"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -11985,7 +12907,9 @@
       "巨魔 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "troll"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12009,7 +12933,9 @@
       "影伴 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-tween"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -12028,7 +12954,9 @@
       "土巨怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "umber-hulk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12050,7 +12978,9 @@
     "zh": "独角兽",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "unicorn"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12072,7 +13002,9 @@
     "zh": "吸血鬼",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "vampire"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12098,7 +13030,9 @@
       "飞首 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-vargouille"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12123,7 +13057,9 @@
       "植化矮人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-vegepygmy"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12147,7 +13083,9 @@
       "秃鹫 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-066-monster-vulture"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12169,7 +13107,9 @@
     "zh": "海象",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-137-monster-walrus"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12187,7 +13127,9 @@
       "水怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "water-weird"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12211,7 +13153,9 @@
       "鼬 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-weasel"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12258,7 +13202,10 @@
       "怨魂"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wight",
+      "ref5-wight"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12302,7 +13249,9 @@
     "zh": "狼",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wolf"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12327,7 +13276,9 @@
       "披羊皮的狼 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-wolf-in-sheeps-clothing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12346,7 +13297,9 @@
       "化人狼 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-wolfwere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12389,7 +13342,10 @@
       "缚灵"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wraith",
+      "ref4-wraith"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12419,7 +13375,9 @@
       "双足飞龙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wyvern"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12444,7 +13402,9 @@
       "希尔虫人 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-xill"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12463,7 +13423,9 @@
       "索尔石怪"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "xorn"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12488,7 +13450,9 @@
       "泽瓦特 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-xvart"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12513,7 +13477,9 @@
       "黄麝香蔓 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ff-yellow-musk-creeper"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12551,7 +13517,9 @@
       "耶斯猎犬 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-yeth-hound"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12573,7 +13541,9 @@
     "zh": "雪怪",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "yeti"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12597,7 +13567,9 @@
       "蜡融妖 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-yochlol"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12621,7 +13593,9 @@
       "幼年红龙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "young-red-dragon"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12645,7 +13619,10 @@
       "僵尸"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "zombie",
+      "ref5-zombie"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -12670,7 +13647,9 @@
       "佐博兽 ·"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mm2-zorbo"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -13111,6 +14090,10 @@
     "zh": "达拉玛",
     "aliases": [
       "Dalamar",
+      "达拉玛的房间",
+      "达拉玛的治疗戒指",
+      "达拉玛的闪电魔杖",
+      "达拉玛的魔法抗性手镯",
       "达拉马",
       "达拉马的房间",
       "达拉马的治疗戒指",
@@ -15152,7 +16135,8 @@
     "aliases": [
       "WESTGATE",
       "西门",
-      "西门地图索引"
+      "西门地图索引",
+      "西门城地图索引"
     ],
     "status": "verified-exact",
     "ids": [],
@@ -15298,7 +16282,9 @@
     "zh": "矮人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dwarf"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15326,7 +16312,9 @@
     "zh": "精灵",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "elf"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15360,7 +16348,9 @@
     "zh": "侏儒",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gnome"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15388,7 +16378,9 @@
     "zh": "半精灵",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "half-elf"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15404,7 +16396,9 @@
     "zh": "半兽人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "half-orc"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15420,7 +16414,9 @@
     "zh": "半身人",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "halfling"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15442,7 +16438,9 @@
     "zh": "人类",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "human"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -15473,7 +16471,9 @@
       "肯德"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dla-kender"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24525,7 +25525,9 @@
       "援助"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-2-aid"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24549,7 +25551,9 @@
       "警报术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-1-alarm"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24579,7 +25583,9 @@
       "改变自身"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-2-alter-self"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24609,7 +25615,9 @@
       "动物友谊"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "animal-friendship"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24634,7 +25642,10 @@
       "死者复生"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "animate-dead",
+      "animate-dead-level-5"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24658,7 +25669,9 @@
       "活化物体"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "animate-object"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24677,7 +25690,9 @@
       "嫌恶／关爱术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "antipathy-sympathy"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24702,7 +25717,10 @@
       "预兆"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "augury",
+      "oa-augury"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24724,7 +25742,9 @@
     "zh": "放逐术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-7-banishment"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24748,7 +25768,9 @@
       "树皮术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "barkskin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -24770,7 +25792,9 @@
     "zh": "毕格比的破门铁拳术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-battering-gauntlet"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24786,7 +25810,9 @@
     "zh": "毕格比的围城弩矢术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-besieging-bolt"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24804,7 +25830,9 @@
       "Bigby 的书虫灾厄术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigby-bookworm-bane"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24820,7 +25848,9 @@
     "zh": "毕格比金刚拳",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "bigbys-clenched-fist"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24836,7 +25866,9 @@
     "zh": "毕格比的施工队术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-construction-crew"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24852,7 +25884,9 @@
     "zh": "毕格比粉碎掌",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "bigbys-crushing-hand"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24868,7 +25902,9 @@
     "zh": "毕格比的灵巧手指术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-dextrous-digits"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24884,7 +25920,9 @@
     "zh": "毕格比的奇绝剑士术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-fantastic-fencers"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24900,7 +25938,9 @@
     "zh": "毕格比的感觉手指术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigby-sensing-fingers"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24916,7 +25956,9 @@
     "zh": "毕格比的力量雕塑术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-force-sculpture"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24932,7 +25974,9 @@
     "zh": "毕格比强力之手",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "bigbys-forceful-hand"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24948,7 +25992,9 @@
     "zh": "毕格比擒拿掌",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "bigbys-grasping-hand"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24964,7 +26010,9 @@
     "zh": "毕格比阻截之手",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "bigbys-interposing-hand"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24980,7 +26028,9 @@
     "zh": "毕格比的至高力量雕塑术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-most-excellent-force-sculpture"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -24996,7 +26046,9 @@
     "zh": "毕格比的好斗拳士术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-pugnacious-pugilist"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -25012,7 +26064,9 @@
     "zh": "毕格比的缄默之手术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-silencing-hand"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -25028,7 +26082,9 @@
     "zh": "毕格比的绞杀之握术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-strangling-grip"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -25044,7 +26100,9 @@
     "zh": "毕格比的高级力量雕塑术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-bigbys-superior-force-sculpture"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -25063,7 +26121,9 @@
       "刃墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "blade-barrier"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25087,7 +26147,10 @@
       "祝福"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "bless",
+      "oa-bless"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25111,7 +26174,10 @@
       "眨眼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "blink",
+      "ua-magic-user-0-blink"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25139,7 +26205,9 @@
     "zh": "朦胧术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "blur"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25167,7 +26235,9 @@
     "zh": "燃烧之手",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "burning-hands"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25189,7 +26259,9 @@
     "zh": "召雷术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "call-lightning"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25214,7 +26286,10 @@
       "仪式（牧师早期方案）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-1-ceremony",
+      "ua-druid-1-ceremony"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25233,7 +26308,9 @@
       "连锁闪电（早期版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-6-chain-lightning"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25255,7 +26332,9 @@
     "zh": "魅惑怪物",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "charm-monster"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25285,7 +26364,9 @@
       "魅惑类人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "charm-person"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25316,7 +26397,9 @@
       "寒冷之触"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref5-chill-touch"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25341,7 +26424,9 @@
       "彩色法球"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-1-chromatic-orb"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25367,7 +26452,9 @@
       "隔墙闻声"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "clairaudience"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -25387,7 +26474,9 @@
       "隔墙观望"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "clairvoyance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25415,7 +26504,9 @@
     "zh": "克隆术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "clone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25440,7 +26531,9 @@
       "毒云术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cloudkill"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25464,7 +26557,9 @@
       "彩色喷射"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "color-spray"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25486,7 +26581,9 @@
     "zh": "命令术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "command"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25510,7 +26607,9 @@
       "神谕术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "commune"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25534,7 +26633,9 @@
       "与自然合一"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "commune-with-nature"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25558,7 +26659,9 @@
       "理解语言"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "comprehend-languages"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25586,7 +26689,9 @@
     "zh": "寒冰锥",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cone-of-cold"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25610,7 +26715,10 @@
       "混乱"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "confusion",
+      "confusion-level-4"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25640,7 +26748,9 @@
       "召唤动物"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "conjure-animals"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25665,7 +26775,9 @@
       "召唤元素生物"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "conjure-elemental"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25689,7 +26801,9 @@
       "接触异界"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "contact-other-plane"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25713,7 +26827,9 @@
       "应急术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-6-contingency"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25738,7 +26854,10 @@
       "操纵天气"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "control-weather",
+      "control-weather-level-6"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25762,7 +26881,9 @@
       "控制风力"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "control-winds"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25780,7 +26901,10 @@
       "重度致命伤治疗"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cure-critical-wounds",
+      "cure-critical-wounds-level-6"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -25798,7 +26922,11 @@
       "轻伤治疗"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cure-light-wounds",
+      "cure-light-wounds-level-2",
+      "oa-cure-light-wounds"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -25816,7 +26944,9 @@
       "重伤治疗"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "cure-serious-wounds"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -25832,7 +26962,9 @@
     "zh": "舞光术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dancing-lights"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25860,7 +26992,9 @@
     "zh": "黑暗术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "darkness"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25890,7 +27024,9 @@
       "死亡法术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "death-spell"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -25918,7 +27054,9 @@
     "zh": "延迟爆裂火球",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "delayed-blast-fireball"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25940,7 +27078,10 @@
     "zh": "侦测隐形",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "detect-invisibility",
+      "detect-invisibility-level-1"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -25956,7 +27097,10 @@
     "zh": "侦测魔法",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "detect-magic",
+      "detect-magic-level-2"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -25986,7 +27130,9 @@
       "次元门"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dimension-door"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26014,7 +27160,9 @@
     "zh": "解离术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "disintegrate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26036,7 +27184,11 @@
     "zh": "解除魔法",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dispel-magic",
+      "dispel-magic-level-4",
+      "ua-illusionist-4-dispel-magic"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26067,7 +27219,9 @@
       "预言"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "divination"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26092,7 +27246,9 @@
       "德拉维吉的冒险者幸运术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmij-adventurers-luck"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26110,7 +27266,9 @@
       "德拉维吉的负重兽术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-beast-of-burden"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26128,7 +27286,9 @@
       "德拉维吉的仁慈变形术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-beneficent-polymorph"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26146,7 +27306,9 @@
       "德拉维吉的生命气息术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-breath-of-life"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26164,7 +27326,9 @@
       "德拉维吉的飞行壮举术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-flying-feat"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26182,7 +27346,9 @@
       "德拉维吉的便携时计术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-handy-timepiece"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26200,7 +27366,9 @@
       "德拉维吉的瞬间出口术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-instant-exit"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26219,7 +27387,9 @@
       "德罗米即时召唤术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "drawmijs-instant-summons"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26243,7 +27413,9 @@
       "德拉维吉的铁袋术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-iron-sack"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26261,7 +27433,9 @@
       "德拉维吉的轻步术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-light-step"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26279,7 +27453,9 @@
       "德拉维吉的奇妙护盾术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-marvelous-shield"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26297,7 +27473,9 @@
       "德拉维吉的慈悲蜕变术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-merciful-metamorphosis"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26315,7 +27493,9 @@
       "德拉维吉的非魔法气体防护术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-protection-from-non-magical-gas"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26333,7 +27513,9 @@
       "德拉维吉的气味遮罩术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-scent-mask"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26351,7 +27533,9 @@
       "德拉维吉的迅捷坐骑术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-swift-mount"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26369,7 +27553,9 @@
       "德拉维吉的工具箱术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-drawmijs-tool-box"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -26387,7 +27573,9 @@
       "梦境术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-5-dream"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26418,7 +27606,9 @@
       "尘魔"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-2-dust-devil"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26434,7 +27624,9 @@
     "zh": "地震术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "earthquake"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26459,7 +27651,9 @@
       "能量吸取（法师杂志版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-9-energy-drain"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -26487,7 +27681,9 @@
     "zh": "纠缠术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "entangle"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26512,7 +27708,9 @@
       "魅众术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-2-enthrall"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26540,7 +27738,9 @@
     "zh": "抹消术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "erase"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -26558,7 +27758,9 @@
       "艾伐德的黑触手"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-4-evard-s-black-tentacles"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26582,7 +27784,9 @@
       "邪眼术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-6-eyebite"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26613,7 +27817,9 @@
       "制造术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-5-fabricate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26635,7 +27841,9 @@
     "zh": "妖火",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "faerie-fire"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26657,7 +27865,10 @@
     "zh": "恐惧术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fear",
+      "fear-level-3"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26685,7 +27896,9 @@
     "zh": "羽落术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "feather-fall"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26715,7 +27928,10 @@
       "心智衰弱术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "feeblemind",
+      "feeblemind-level-5"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26733,7 +27949,10 @@
       "装死"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "feign-death",
+      "feign-death-level-2"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26757,7 +27976,9 @@
       "寻觅魔宠"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "find-familiar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26782,7 +28003,9 @@
       "寻路术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "find-the-path"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26810,7 +28033,9 @@
     "zh": "寻找陷阱",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "find-traps"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26834,7 +28059,9 @@
       "死亡指触"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "finger-of-death"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26856,7 +28083,9 @@
     "zh": "火焰护盾",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fire-shield"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26881,7 +28110,9 @@
       "火风暴术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fire-storm"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26903,7 +28134,9 @@
     "zh": "火球术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fireball"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26927,7 +28160,9 @@
       "火焰之刃"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-druid-2-flame-blade"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26949,7 +28184,9 @@
     "zh": "焰击术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "flame-strike"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26973,7 +28210,9 @@
       "火焰球"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-2-flaming-sphere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -26995,7 +28234,9 @@
     "zh": "飞行术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fly"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27020,7 +28261,9 @@
       "雾云术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "fog-cloud"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27042,7 +28285,9 @@
     "zh": "禁制术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-6-forbiddance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27066,7 +28311,9 @@
       "力牢术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-7-forcecage"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27090,7 +28337,9 @@
       "友谊术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "friends"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27115,7 +28364,10 @@
       "神门术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gate",
+      "gate-level-9"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27140,7 +28392,9 @@
       "神谕任务术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "geas"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27162,7 +28416,9 @@
     "zh": "巨虫术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-4-giant-insect"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27186,7 +28442,9 @@
       "无敌法球"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "globe-of-invulnerability"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27208,7 +28466,9 @@
     "zh": "守卫刻文",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "glyph-of-warding"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27232,7 +28492,9 @@
       "善莓术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-druid-2-goodberry"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27254,7 +28516,9 @@
     "zh": "油腻术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-1-grease"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27284,7 +28548,9 @@
       "守卫与结界"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "guards-and-wards"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27309,7 +28575,9 @@
       "疾风术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gust-of-wind"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27334,7 +28602,10 @@
       "幻象地形"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hallucinatory-terrain",
+      "hallucinatory-terrain-level-3"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27364,7 +28635,9 @@
       "加速"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "haste"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27395,7 +28668,9 @@
       "治疗术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "heal"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27419,7 +28694,9 @@
       "金属加热"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "heat-metal"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27443,7 +28720,9 @@
       "英雄盛宴"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-6-heroes-feast"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27491,7 +28770,9 @@
       "定身怪物"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hold-monster"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27522,7 +28803,10 @@
       "定身类人"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hold-person",
+      "hold-person-level-3"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27550,7 +28834,9 @@
     "zh": "催眠图纹",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hypnotic-pattern"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27578,7 +28864,9 @@
     "zh": "催眠术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "hypnotism"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -27596,7 +28884,9 @@
       "冰暴术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ice-storm"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27618,7 +28908,9 @@
     "zh": "鉴定术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "identify"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27648,7 +28940,9 @@
       "监禁"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "imprisonment"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27672,7 +28966,9 @@
       "燃烧云"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "incendiary-cloud"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27696,7 +28992,9 @@
       "昆虫瘟疫"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "insect-plague"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27718,7 +29016,9 @@
     "zh": "隐形术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "invisibility"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27746,7 +29046,9 @@
     "zh": "跳跃术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "jump"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27770,7 +29072,9 @@
       "敲击"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "knock"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27792,7 +29096,9 @@
     "zh": "通晓传奇",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "legend-lore"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27823,7 +29129,9 @@
       "雷欧蒙秘匣"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "leomunds-secret-chest"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27847,7 +29155,9 @@
       "雷欧蒙微型小屋"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "leomunds-tiny-hut"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27871,7 +29181,9 @@
       "漂浮"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "levitate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27895,7 +29207,9 @@
       "光照"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "light"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27925,7 +29239,9 @@
       "闪电术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "lightning-bolt"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -27950,7 +29266,9 @@
       "有限祈愿"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "limited-wish"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -27970,7 +29288,10 @@
       "物件定位术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "locate-object",
+      "locate-object-level-2"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28000,7 +29321,9 @@
       "魔法容器"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-jar"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28024,7 +29347,9 @@
       "魔法飞弹术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-missile"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28061,7 +29386,9 @@
       "魔法之口"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "magic-mouth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28089,7 +29416,9 @@
     "zh": "魔石术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-1-magic-stone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28107,7 +29436,9 @@
       "群体暗示"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mass-suggestion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28131,7 +29462,9 @@
       "群体变形"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "massmorph"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -28159,7 +29492,10 @@
     "zh": "迷宫术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "maze",
+      "maze-level-5"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28185,7 +29521,9 @@
       "融身入石（早期版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-3-meld-into-stone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28210,7 +29548,9 @@
       "马友夫强酸箭（早期版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-2-melf-s-acid-arrow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28235,7 +29575,9 @@
       "马友夫微型流星"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-3-melf-s-minute-meteors"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28253,7 +29595,9 @@
       "修补术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mending"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28283,7 +29627,9 @@
       "传讯"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "message"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28311,7 +29657,9 @@
     "zh": "流星爆",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "meteor-swarm"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28335,7 +29683,9 @@
       "心灵空白"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mind-blank"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28359,7 +29709,9 @@
       "奥术海市蜃楼"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-6-mirage-arcane"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28381,7 +29733,9 @@
     "zh": "镜影术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mirror-image"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28411,7 +29765,9 @@
       "误导"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "misdirection"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -28429,7 +29785,9 @@
       "误导术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-6-mislead"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28459,7 +29817,9 @@
       "月光术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-druid-5-moonbeam"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28483,7 +29843,9 @@
       "莫登凯南的防御狼人术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-defense-against-lycanthropes"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28501,7 +29863,9 @@
       "莫登凯南的非魔法爬虫与两栖动物防御术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-defense-against-nonmagical-reptiles-and-amphibians"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28519,7 +29883,9 @@
       "莫登凯南解离术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-9-mordenkainen-s-disjunction"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28537,7 +29903,9 @@
       "莫登凯南的电弧术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-electric-arc"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28555,7 +29923,9 @@
       "莫登凯南的全方位视觉术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-encompassing-vision"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28573,7 +29943,9 @@
       "莫登凯南忠诚猎犬"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mordenkainens-faithful-hound"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28597,7 +29969,9 @@
       "莫登凯南的忠诚幻影防卫者术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-faithful-phantom-defenders"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28615,7 +29989,9 @@
       "莫登凯南的忠诚幻影守卫术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-faithful-phantom-guardian"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28633,7 +30009,9 @@
       "莫登凯南的忠诚幻影盾女术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-faithful-phantom-shield-maidens"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28651,7 +30029,9 @@
       "莫登凯南的记忆回想"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-6-mordenkainen-s-lucubration"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28669,7 +30049,9 @@
       "莫登凯南的豪宅"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-7-mordenkainen-s-magnificent-mansion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28693,7 +30075,9 @@
       "莫登凯南的末前思虑术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-penultimate-cogitation"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28711,7 +30095,9 @@
       "莫登凯南的私人圣所术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-private-sanctum"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28735,7 +30121,9 @@
       "莫登凯南的鸟类防护术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-protection-from-avians"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28753,7 +30141,9 @@
       "莫登凯南的昆虫与蛛形动物防护术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-protection-from-insects-and-arachnids"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28771,7 +30161,9 @@
       "莫登凯南的防护黏液术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-mordenkainens-protection-from-slime"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28789,7 +30181,9 @@
       "莫登凯南之剑"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "mordenkainens-sword"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28814,7 +30208,9 @@
       "移土术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "move-earth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -28838,7 +30234,10 @@
       "中和毒素"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "neutralize-poison",
+      "neutralize-poison-level-3"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -28856,7 +30255,9 @@
       "诺斯图的黑光爆发术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-blacklight-burst"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28874,7 +30275,9 @@
       "诺斯图的黑微点术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-blackmote"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28893,7 +30296,9 @@
       "诺斯图的灼热光束术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystul-blazing-beam"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28911,7 +30316,9 @@
       "诺斯图的水晶匕首术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-crystal-dagger"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28929,7 +30336,9 @@
       "诺斯图的水晶短剑术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-crystal-dirk"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28947,7 +30356,9 @@
       "诺斯图的舞动幽光术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-dancing-werelight"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28965,7 +30376,9 @@
       "诺斯图的包覆黑暗术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-enveloping-darkness"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -28983,7 +30396,9 @@
       "诺斯图的迅捷灭火术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-expeditious-fire-extinguisher"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29001,7 +30416,9 @@
       "诺斯图的闪光术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-flash"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29019,7 +30436,9 @@
       "诺斯图的黄金揭示术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-golden-revelation"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29038,7 +30457,9 @@
       "诺斯图的元素孽怪召唤术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-grue-conjuration"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29056,7 +30477,9 @@
       "诺斯图的光爆术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-lightburst"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29074,7 +30497,9 @@
       "诺斯图的魔法灵光"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "nystuls-magic-aura"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29098,7 +30523,9 @@
       "诺斯图的辉光拱门术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-radiant-arch"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29116,7 +30543,9 @@
       "诺斯图的辉光棱杖术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-nystuls-radiant-baton"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29134,7 +30563,9 @@
       "Otiluke 的酸云术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otiluke-acid-cloud"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29150,7 +30581,9 @@
     "zh": "欧提路克的沸油浴术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-boiling-oil-bath"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29166,7 +30599,9 @@
     "zh": "欧提路克的气泡浮力术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-bubbling-buoyancy"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29182,7 +30617,9 @@
     "zh": "欧提路克的死亡屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-death-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29198,7 +30635,9 @@
     "zh": "欧提路克的钻石屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-diamond-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29214,7 +30653,9 @@
     "zh": "欧提路克的驱散屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-dispelling-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29230,7 +30671,9 @@
     "zh": "欧提路克的电屏术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-electrical-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29246,7 +30689,9 @@
     "zh": "欧提路克的剧痛屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-excruciating-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29262,7 +30707,9 @@
     "zh": "欧提路克的火冰双球术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-fire-and-ice"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29278,7 +30725,9 @@
     "zh": "欧提路克的力伞术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-force-umbrella"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29296,7 +30745,9 @@
       "欧提路克冷冻球"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "otilukes-freezing-sphere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29318,7 +30769,9 @@
     "zh": "欧提路克的容纳球术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-orb-of-containment"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29334,7 +30787,9 @@
     "zh": "欧提路克的极寒屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-polar-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29350,7 +30805,9 @@
     "zh": "欧提路克的辉光屏障术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-radiant-screen"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29368,7 +30825,9 @@
       "欧提路克的韧性球"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-4-otiluke-s-resilient-sphere"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29390,7 +30849,9 @@
     "zh": "欧提路克的攻城球术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-siege-sphere"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29406,7 +30867,9 @@
     "zh": "欧提路克的烟雾球术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-smoky-sphere"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29422,7 +30885,9 @@
     "zh": "欧提路克的蒸汽球术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-otilukes-steaming-sphere"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29438,7 +30903,9 @@
     "zh": "欧提路克的念动球",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-8-otiluke-s-telekinetic-sphere"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29456,7 +30923,9 @@
       "奥托的解放钟声术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-chime-of-release"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29474,7 +30943,9 @@
       "奥托的水晶节律术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-crystal-rhythms"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29492,7 +30963,9 @@
       "奥托的绝望鼓声术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-drums-of-despair"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29510,7 +30983,9 @@
       "奥托的隔绝钟声术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-gong-of-isolation"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29528,7 +31003,9 @@
       "奥托魔舞"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ottos-irresistible-dance"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29552,7 +31029,9 @@
       "奥托的银舌术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-silver-tongue"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29570,7 +31049,9 @@
       "奥托的舒缓振动术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-soothing-vibrations"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29588,7 +31069,9 @@
       "奥托的稳足曳步术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-sure-footed-shuffle"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29606,7 +31089,9 @@
       "奥托的锡兵术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-tin-soldiers"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29624,7 +31109,9 @@
       "奥托的音调攻击术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-tonal-attack"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29642,7 +31129,9 @@
       "奥托的遗忘音调术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-tones-of-forgetfulness"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29660,7 +31149,9 @@
       "奥托的警戒音调术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-ottos-warding-tones"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29678,7 +31169,9 @@
       "无痕行走"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "pass-without-trace"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29702,7 +31195,9 @@
       "穿墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "passwall"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29729,7 +31224,10 @@
       "幻象力场"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phantasmal-force",
+      "phantasmal-force-level-1"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29753,7 +31251,9 @@
       "幻象杀手"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "phantasmal-killer"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29777,7 +31277,9 @@
       "幻影坐骑"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-3-phantom-steed"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29808,7 +31310,9 @@
       "异界传送"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "plane-shift"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29832,7 +31336,10 @@
       "植物生长"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "plant-growth",
+      "plant-growth-level-4"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29857,7 +31364,9 @@
       "死亡之言"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "power-word-kill"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29876,7 +31385,9 @@
       "昏厥之言"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "power-word-stun"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -29894,7 +31405,9 @@
       "棱彩喷射术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "prismatic-spray"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29918,7 +31431,9 @@
       "棱彩之墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "prismatic-wall"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29943,7 +31458,9 @@
       "生火术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "produce-flame"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29967,7 +31484,9 @@
       "程序幻象"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "programmed-illusion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -29989,7 +31508,9 @@
     "zh": "投影术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "project-image"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30017,7 +31538,9 @@
     "zh": "投影术",
     "aliases": [],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "projected-image"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30033,7 +31556,10 @@
     "zh": "烟火术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "pyrotechnics",
+      "pyrotechnics-level-2"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30057,7 +31583,9 @@
       "彩虹图纹"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-4-rainbow-pattern"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30076,7 +31604,9 @@
       "起死回生"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "raise-dead"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30098,7 +31628,9 @@
     "zh": "拉瑞的能力借取术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-aptitude-appropriater"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30114,7 +31646,9 @@
     "zh": "拉瑞的共情感知术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-empathic-perception"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30130,7 +31664,9 @@
     "zh": "拉瑞的记忆改变术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-memory-alteration"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30146,7 +31682,9 @@
     "zh": "拉瑞的心灵扫描术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-mind-scan"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30162,7 +31700,9 @@
     "zh": "拉瑞的心灵护盾术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-mind-shield"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30180,7 +31720,9 @@
       "拉瑞的记忆增强术"
     ],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "rarys-mnemonic-enhancer"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30196,7 +31738,9 @@
     "zh": "拉瑞的位面真相术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-plane-truth"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30212,7 +31756,9 @@
     "zh": "拉瑞的防侦测术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-protection-from-scrying"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30228,7 +31774,9 @@
     "zh": "拉瑞的过去重演术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-replay-of-the-past"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30244,7 +31792,9 @@
     "zh": "拉瑞的法术增强术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-spell-enhancer"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30260,7 +31810,9 @@
     "zh": "拉瑞的高级法术增强术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-superior-spell-enhancer"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30278,7 +31830,9 @@
       "拉瑞的心灵纽带术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "gha-rarys-telepathic-bond"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30300,7 +31854,9 @@
     "zh": "拉瑞的紧急言辞术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-rarys-urgent-utterance"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30318,7 +31874,9 @@
       "虚弱射线"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ray-of-enfeeblement"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30342,7 +31900,9 @@
       "阅读语言（神谕者版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-053-spell-read-languages"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -30358,7 +31918,9 @@
     "zh": "阅读魔法",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "read-magic"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30374,7 +31936,9 @@
     "zh": "再生术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "regenerate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30399,7 +31963,9 @@
       "转生"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "reincarnate"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30421,7 +31987,9 @@
     "zh": "转生术",
     "aliases": [],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "reincarnation"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30439,7 +32007,10 @@
       "解除诅咒"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "remove-curse",
+      "remove-curse-level-4"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30467,7 +32038,9 @@
     "zh": "移除恐惧",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "remove-fear"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30483,7 +32056,9 @@
     "zh": "复原术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "restoration"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30502,7 +32077,9 @@
       "复活术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "resurrection"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30526,7 +32103,9 @@
       "重力反转"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "reverse-gravity"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30551,7 +32130,10 @@
       "绳索戏法"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "rope-trick",
+      "rope-trick-level-3"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30575,7 +32157,9 @@
       "圣域术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sanctuary"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30599,7 +32183,9 @@
       "惊吓术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "scare"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30617,7 +32203,9 @@
       "密页术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-3-secret-page"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30635,7 +32223,9 @@
       "传讯术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-5-sending"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30659,7 +32249,9 @@
       "褐蛇符印"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-3-sepia-snake-sigil"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30677,7 +32269,9 @@
       "匿藏术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-7-sequester"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30701,7 +32295,9 @@
       "暗影门"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shadow-door"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -30731,7 +32327,9 @@
       "阴影行走"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-7-shadow-walk"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30749,7 +32347,9 @@
       "形变"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "shape-change"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -30767,7 +32367,9 @@
       "粉碎术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shatter"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30795,7 +32397,9 @@
     "zh": "护盾术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shield"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30819,7 +32423,9 @@
       "橡木棍"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shillelagh"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30843,7 +32449,9 @@
       "电爪术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "shocking-grasp"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30868,7 +32476,9 @@
       "喊叫术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-4-shout"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -30884,7 +32494,9 @@
     "zh": "拟像术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "simulacrum"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30906,7 +32518,9 @@
     "zh": "睡眠术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "sleep"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30934,7 +32548,9 @@
     "zh": "缓慢术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "slow"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30965,7 +32581,9 @@
       "套索术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "snare"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -30983,7 +32601,10 @@
       "与动物交谈"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "speak-with-animals",
+      "speak-with-animals-level-1"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31013,7 +32634,9 @@
       "与死者交谈"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "speak-with-dead"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31037,7 +32660,9 @@
       "与植物交谈"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "speak-with-plants"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31068,7 +32693,9 @@
       "与死者交谈"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "ref5-speak-with-the-dead"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31087,7 +32714,9 @@
       "蜘蛛攀行"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "spider-climb"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31112,7 +32741,10 @@
       "棘刺丛生"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-4-spike-growth",
+      "ua-druid-3-spike-growth"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31137,7 +32769,9 @@
       "臭云"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "stinking-cloud"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31161,7 +32795,10 @@
       "石形"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "stone-shape",
+      "stone-shape-level-5"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31186,7 +32823,9 @@
       "石转肉"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "stone-to-flesh"
+    ],
     "references": [
       {
         "edition": "1E",
@@ -31214,7 +32853,9 @@
     "zh": "石肤术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-4-stoneskin"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31238,7 +32879,9 @@
       "暗示"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "suggestion"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31269,7 +32912,10 @@
       "太阳爆发"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ref5-sunburst",
+      "gha-sunburst"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31294,7 +32940,10 @@
       "符文术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "symbol",
+      "symbol-level-8"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31316,7 +32965,9 @@
     "zh": "心灵遥控",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "telekinesis"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31338,7 +32989,9 @@
     "zh": "传送术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "teleport"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31360,7 +33013,9 @@
     "zh": "谭森的肉搏术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-brawl"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31376,7 +33031,9 @@
     "zh": "谭森的致命一击术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-deadly-strike"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31392,7 +33049,9 @@
     "zh": "谭森的鹰眼术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-eye-of-the-eagle"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31408,7 +33067,9 @@
     "zh": "谭森的虎眼术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-eye-of-the-tiger"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31424,7 +33085,9 @@
     "zh": "谭森的燃焰之刃术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-flaming-blade"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31442,7 +33105,9 @@
       "谭森浮空圆盘"
     ],
     "status": "adapted-variant",
-    "ids": [],
+    "ids": [
+      "tensers-floating-disc"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31458,7 +33123,9 @@
     "zh": "谭森的战争福运术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-fortunes-of-war"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31474,7 +33141,9 @@
     "zh": "谭森的巨力术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-giant-strength"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31490,7 +33159,9 @@
     "zh": "谭森的猎鹰术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-hunting-hawk"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31506,7 +33177,9 @@
     "zh": "谭森的武器大师术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tenser-weaponmaster"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31522,7 +33195,9 @@
     "zh": "谭森的原始狂怒术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-primal-fury"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31538,7 +33213,9 @@
     "zh": "谭森的奔行战士术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-running-warrior"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31554,7 +33231,9 @@
     "zh": "谭森的重击法杖术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-staff-of-smiting"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31570,7 +33249,9 @@
     "zh": "谭森的稳准射击术",
     "aliases": [],
     "status": "adapted-element",
-    "ids": [],
+    "ids": [
+      "gha-tensers-steady-aim"
+    ],
     "references": [
       {
         "edition": "5R",
@@ -31586,7 +33267,9 @@
     "zh": "谭森变形术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "tensers-transformation"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31604,7 +33287,9 @@
       "时间停止术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "time-stop"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31628,7 +33313,10 @@
       "通晓语言"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "tongues",
+      "tongues-level-3"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31658,7 +33346,9 @@
       "穿越植物"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "transport-via-plants"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31683,7 +33373,9 @@
       "真实视觉"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "true-seeing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31707,7 +33399,9 @@
       "无形仆役"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "unseen-servant"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31738,7 +33432,9 @@
       "面纱"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "veil"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -31756,7 +33452,10 @@
       "口技术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ventriloquism",
+      "ventriloquism-level-2"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -31774,7 +33473,10 @@
       "火墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wall-of-fire",
+      "wall-of-fire-level-4"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31799,7 +33501,9 @@
       "力墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wall-of-force"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31821,7 +33525,9 @@
     "zh": "冰墙术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wall-of-ice"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31845,7 +33551,9 @@
       "石墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wall-of-stone"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31869,7 +33577,9 @@
       "荆棘墙"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wall-of-thorns"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31893,7 +33603,9 @@
       "水墙（巫婆版）"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "dragon-043-spell-wall-of-water"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31909,7 +33621,9 @@
     "zh": "水下呼吸",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "water-breathing"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31931,7 +33645,9 @@
     "zh": "水上行走",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-cleric-3-water-walk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31953,7 +33669,9 @@
     "zh": "蛛网术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "web"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -31977,7 +33695,9 @@
       "诡异术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-7-weird"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -32002,7 +33722,9 @@
       "耳语风"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-illusionist-2-whispering-wind"
+    ],
     "references": [
       {
         "edition": "3R",
@@ -32020,7 +33742,9 @@
       "风行术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wind-walk"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -32042,7 +33766,9 @@
     "zh": "风墙术",
     "aliases": [],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "ua-magic-user-3-wind-wall"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -32066,7 +33792,9 @@
       "愿望"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "wish"
+    ],
     "references": [
       {
         "edition": "5E",
@@ -32091,7 +33819,9 @@
       "回归术"
     ],
     "status": "verified-exact",
-    "ids": [],
+    "ids": [
+      "word-of-recall"
+    ],
     "references": [
       {
         "edition": "5E",
