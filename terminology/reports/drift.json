@@ -2747,7 +2747,6 @@
     "雷莫拉兹": "百足魔兽",
     "寻猎魔": "猎魔蛛",
     "还魂尸": "还魂鬼",
-    "锈蚀怪物": "锈蚀怪",
     "鲁特金魔": "畸魔",
     "沙华鱼人": "鲨华鱼人",
     "尖啸小魔": "尖叫小鬼",
@@ -4404,6 +4403,13 @@
       "old": "绳怪",
       "targets": [
         "石绳怪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "锈蚀怪物",
+      "targets": [
+        "锈蚀怪"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
