@@ -1,440 +1,185 @@
 {
-  "files": 87,
+  "files": 36,
   "changes": [
     {
-      "path": "src/character/rules/core-combat-matrices.ts",
-      "beforeSha256": "c33a235665cc07f71abd60128cec08f40a644f56c8771079dee83fbfc618e148",
-      "afterSha256": "a976a2c216ed388c91ab7778c26393a04b684058e9f3a9f45355686492bd1f1b"
-    },
-    {
-      "path": "src/character/rules/core-mu-low-level-combat.ts",
-      "beforeSha256": "60d606effbb8ee0cb23838317800ffa09a3ff0cd38001a52d7a591ecee0e7ddb",
-      "afterSha256": "01081907f633639d7af63586e0f1020fba7e6be37f1438bf9af738c2851e18c1"
-    },
-    {
-      "path": "src/character/ui/campaign-capabilities-panel.ts",
-      "beforeSha256": "e92d5a47c451079df1b51599b31ec3b64b63b2bf8d6e4c4c78be0b05bcfbad99",
-      "afterSha256": "d525a3397f7d5582f18bc7312555bf3e33bf334e290a9d6c41a531339eb08f89"
-    },
-    {
       "path": "src/data/public/class-details.json",
-      "beforeSha256": "40fd7981b3ea19028b6d7120266f401402a81c2c5429f77c45978d50d460a6af",
-      "afterSha256": "7e037f3512029f3ef85e2f26881c1cfd8c1463252418f3416a20cf6727b123cc"
+      "beforeSha256": "7e037f3512029f3ef85e2f26881c1cfd8c1463252418f3416a20cf6727b123cc",
+      "afterSha256": "94ea22a314e5d4ab8f3c700cfa0d38e5ceb21c2617475519e286744a1ec39021"
     },
     {
-      "path": "src/data/public/dragon-items.json",
-      "beforeSha256": "66c63c168c822eddbbca1e9a17b8631d0b6d775bb4084d3ffb54306691d3fff4",
-      "afterSha256": "9449733f92ee35de7a11a4c0e3ad238caacbdad68ee7bbcc3c5835cd2b15e8b0"
-    },
-    {
-      "path": "src/data/public/dragon-monsters.json",
-      "beforeSha256": "720d75ed55be8f66606cfaf45cb965cd6202183c5e46136c5cbab9aec17c499e",
-      "afterSha256": "32f7c1e8ae0c1c88207bbcf24140e7bccc0f638e3d12e76645ce4809344b327b"
-    },
-    {
-      "path": "src/data/public/dragon-rules.json",
-      "beforeSha256": "56bd7bf23198eff5e9da6a1a25add7c279e34bce7f21f483dcb5d469ad2cf892",
-      "afterSha256": "64ad1c4ab13d530937ea6233b89e3fbfb7376eb6eada00fb1a611f4a99635d61"
-    },
-    {
-      "path": "src/data/public/ff-monsters-imported.json",
-      "beforeSha256": "f18ceaa587f7d8a8a029d44bbf6317f0a7166160b40155488898fd97dd8e3e6f",
-      "afterSha256": "2e7c5374699667ff4f2c612652154440b3a81ece541c45bbfa8ef83f9cf3c4c2"
-    },
-    {
-      "path": "src/data/public/gha-monsters.ts",
-      "beforeSha256": "d3de0c821239764563660ab1ead272fd9c3cb2b32579768300334cca324cb375",
-      "afterSha256": "ae9a7b3a4b867411a327ecfd59863fa541d87326b8e0680b73433e3dfe25ba54"
-    },
-    {
-      "path": "src/data/public/item-additions.json",
-      "beforeSha256": "cd1853d3a0508639d9c1b45bdf39105328e7effa1cb4340037304cbcae78bd1a",
-      "afterSha256": "e734747072a208d0e284fcd96c25773afe84c21fbf2835c53c885527eb9c9de4"
-    },
-    {
-      "path": "src/data/public/item-details.json",
-      "beforeSha256": "5a99d5ed750af5f1e4070c70a7ee0bb5ac24a944cf624f5e8418054edf3e3229",
-      "afterSha256": "1f120ef62aad1ab6dd0c7db7c20fd79e7026b4178ce91b6f8b3e5207e80695ce"
-    },
-    {
-      "path": "src/data/public/item-index.json",
-      "beforeSha256": "3161aaa31415b9250b53104578fc141c513399c29a983727dfdbecf65c8cbe94",
-      "afterSha256": "f61f06095ee431d78bf18e8892fdaadd35dfa3551b85e5e76d4100de492438a1"
-    },
-    {
-      "path": "src/data/public/mm2-monsters-imported.json",
-      "beforeSha256": "1210dc6beba9bfa5e12321b0c699348219e116006860e2f5215e8072a9b5a65e",
-      "afterSha256": "46c0cf8ff068a69bb517431f4d35ffe6ce3a0c370fcb2186170e5dc0d9c19b6d"
-    },
-    {
-      "path": "src/data/public/monster-reading.json",
-      "beforeSha256": "7dc258444c8530d91aee368bcc089129a3eccb8c4f40b9487dc71ee7a115831b",
-      "afterSha256": "c691b18b11122d87a7e6e37591824182e649dc07895e24115d28512b2d053d1c"
-    },
-    {
-      "path": "src/data/public/monsters-imported.json",
-      "beforeSha256": "b7f930b16f1855cd04fdd6111ba45b1149de7362c0fcb3e41becf6c350cf1597",
-      "afterSha256": "2fd8c772bef64e642bbc53de3b91891fd2b239cf7058a0c039312b96af0a4c8d"
-    },
-    {
-      "path": "src/data/public/ref5-spells.ts",
-      "beforeSha256": "0641252626854438b8875f97876a7595223bab2805017e3d3b79a62041fff772",
-      "afterSha256": "1f9ccbc876ef0ccccbf88cb7025b68c04b2ec8a128461e090be6d9ad13e6f3b0"
+      "path": "src/data/public/dragon-classes.json",
+      "beforeSha256": "3e0bf32d5ec7c2fcd3ebf1dae32e4847e8da04305af13781e5cf707204b4ee37",
+      "afterSha256": "888447d9ecae8683c2c6b693b198ba2cff91af8c7176656a4f92707ca27b8225"
     },
     {
       "path": "src/data/public/regional-monsters.json",
-      "beforeSha256": "d4c54a3920eb857c573faaed3a3be49a2d5181a2cb16dd385f34b2967b63c8e5",
-      "afterSha256": "ff11708e19fa7766e4dde1cb861c895fe3b3a38fbc3c28834b97157c09d7407b"
+      "beforeSha256": "ff11708e19fa7766e4dde1cb861c895fe3b3a38fbc3c28834b97157c09d7407b",
+      "afterSha256": "b6c81e9e8d5faa6033011096d6d1304b75744cd921e7d152bca56138a8c7a3d2"
     },
     {
       "path": "src/data/public/regional-spells.json",
-      "beforeSha256": "6db86dc5ea30db9e83d3ecd3aad55f53a7be12f1e65ecb50ea0cd1dd8a86301f",
-      "afterSha256": "07744b22db797f21d8d13864db499da54cc91eadfb9aa03355d2616fd1376ee6"
+      "beforeSha256": "07744b22db797f21d8d13864db499da54cc91eadfb9aa03355d2616fd1376ee6",
+      "afterSha256": "c9fa2efe208161616d33d89e855ba1363991cbb95b38c61a622b80acb40cea91"
     },
     {
-      "path": "src/data/public/rules.ts",
-      "beforeSha256": "43c141f6afae9058a4af8d9ba21342e83c4c09b90ad4c30818ea21803efb89bb",
-      "afterSha256": "007ebee692b52d6a9ee9ccb8579fbb4188ce806543b8bdb1ae6fe96a68aaac09"
-    },
-    {
-      "path": "src/data/public/spells-imported.json",
-      "beforeSha256": "05c5aa012b7e0eb4e985576210485ddf4025f7c5106ac864006a9c923163efbb",
-      "afterSha256": "59bf1737a646929fa1b6a6966b7cba8a738804f66d69ad6f0da850af8a01928a"
+      "path": "src/data/public/ua-spells-imported.json",
+      "beforeSha256": "7de47532a8044e8bb322ebf687edf2e0c628e19f77ab20f5c25bb35dc83afe69",
+      "afterSha256": "2c7740578bff07447a6e808f9d1955e020b67e12ffc850cf7606e958ff07b51d"
     },
     {
       "path": "src/data/published/book-search.json",
-      "beforeSha256": "e1b8ed6703f77c8b8f836e2a5e1f1171575c736dbfafbb7e762047e4bc342ed3",
-      "afterSha256": "b5e46788ad97ff080f57037f60a4b28a3e472e65d0924408ca66e05660345d40"
+      "beforeSha256": "b5e46788ad97ff080f57037f60a4b28a3e472e65d0924408ca66e05660345d40",
+      "afterSha256": "0bed3b90385fa62ee864684aff6b8bc6cdd8fe9649dcb2c474c1ae88a54a10c2"
     },
     {
       "path": "src/data/published/books.json",
-      "beforeSha256": "c3a13a4a2f4684688168dd69354ab8cb3bdbfb363c7892f19e40481421a5f976",
-      "afterSha256": "19a369b0845a3ce250c12af2d6fd68a72d209096b024a51a7b9e3943df7764d5"
-    },
-    {
-      "path": "src/pages/character/index.astro",
-      "beforeSha256": "7fb06cc95518d1a8498b8c9ae3415da9f91b266cb03ab524c369b268f22a707d",
-      "afterSha256": "61b00ff1f91f9c673cc9a6bac24375035b3ef514e1d634b1e5349bc358100eaa"
-    },
-    {
-      "path": "src/published/books/dla/dla-creatures-krynn.md",
-      "beforeSha256": "866f4815529d0bc90fbec5e46204bf44027db179319c0e79b64935fb588b5d98",
-      "afterSha256": "40cd8ea8f00fd3f7ed7bf68bae904098de22b448719680d46e464fc64b07553c"
-    },
-    {
-      "path": "src/published/books/dla/dla-krynn-dragons.md",
-      "beforeSha256": "20cbd8c121d481cb1e588e42aa7302f9fbcd5872d542eda7097aad15b0627e1f",
-      "afterSha256": "284a2a335e548ffc0da445dd470556cc1a6efa0759ccf3a0c71ce057ccd7a5a7"
-    },
-    {
-      "path": "src/published/books/dla/dla-magical-items.md",
-      "beforeSha256": "52e116c7f6ed4cb1133ef0f420642a6b714d3c714c91ffd89c879ee7553cc41f",
-      "afterSha256": "e810fc19791d5f340ed96df9f8f1ec7f57428ace662acd90b6946d000d3227c7"
-    },
-    {
-      "path": "src/published/books/dmdk/dmdk-forms.md",
-      "beforeSha256": "9fccc4f68ed433b9638db005f1c969d7b35a9e7fa43970b07d0332515c370fe0",
-      "afterSha256": "a322cf156584a008eb919618669215a7202509837492a1722c7f4477b8afeb70"
-    },
-    {
-      "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-7.md",
-      "beforeSha256": "99c57e222f901251480a486c56681894bafe2cbeae102cf5e502fa39e81efd30",
-      "afterSha256": "8d9d8568206df35f10da33b26dc98ca3aa90f510b75e41f5e6bedf475ad8d597"
+      "beforeSha256": "19a369b0845a3ce250c12af2d6fd68a72d209096b024a51a7b9e3943df7764d5",
+      "afterSha256": "806f38b53cc18d1b27b2a80a53723eabf41da79c770bc2a549c690196636a46e"
     },
     {
       "path": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md",
-      "beforeSha256": "3200683dc98349e862191492761bf61afe852a680ab95b71637f1bdb6dca3887",
-      "afterSha256": "f25f6b591f0121c48e077e537650fd14b037468b1a8fe65de4d177fc2006a8fd"
+      "beforeSha256": "f25f6b591f0121c48e077e537650fd14b037468b1a8fe65de4d177fc2006a8fd",
+      "afterSha256": "bad62f967e3df4d5806b44583b6fa9282e2af0327bd728169d4a11fcacbe2e6d"
     },
     {
-      "path": "src/published/books/dmg/dmg-armor-armor-class-weapons.md",
-      "beforeSha256": "112edf6c383686478e24ec4ebaab1565535d4830de80ea5082a12fcccc7721c5",
-      "afterSha256": "52d493c01cca0392f23f8e49aac53b2c634febbd3322774a7198ad4dd0af0c66"
+      "path": "src/published/books/dmg/dmg-combat.md",
+      "beforeSha256": "f1b9b34296c0afbdb39430d20b2540eed661d9c26cb3e66ad725e32c3bc58303",
+      "afterSha256": "b29b9445f73321e96fd24a937cae9cff94078a59f2687abbad7c6459012f1949"
     },
     {
-      "path": "src/published/books/dmg/dmg-conducting-game.md",
-      "beforeSha256": "3f7c6e1d0038a339959f0aba552b88369ec42c934c79c98c80d6735bebb7261c",
-      "afterSha256": "8c5b1f4bfac226526e43dfd42d46b77e399a9594f4a2c9979e759b638487625a"
+      "path": "src/published/books/dmg/dmg-henchmen.md",
+      "beforeSha256": "ddf912c04766caa1d3365b4c4bed5347fc7ad0f6f969d5bceee8504c1ea8125f",
+      "afterSha256": "5cf0d9d170acc220d766ac53b15f6d5fe7b116e8b0c80168b93a0bc3e37c7b05"
     },
     {
-      "path": "src/published/books/dmg/dmg-dexterity-armor-class-bonus.md",
-      "beforeSha256": "f4b8b7da1e42d36c266b22b297c29b0402a0a63c54846565d2fc6d9fd8ecabfb",
-      "afterSha256": "8f68ffb8dcb78d2e91405e69260cccbe7e5e2f9c6375d3636361de25eff971d1"
+      "path": "src/published/books/dmg/dmg-npc-personae.md",
+      "beforeSha256": "3b8e94e16f627d9566ee27d92fc45d7bf0516c21d285fc29bd06f5a22711b46b",
+      "afterSha256": "41183a88ba9d718282d690d83d3ea3c950732abab904ce04d64ce98a0c8dff39"
     },
     {
-      "path": "src/published/books/dmg/dmg-experience.md",
-      "beforeSha256": "27474e56132d64fa3fb1221f50b0c654b597838ed250fb444a543b85bef65b87",
-      "afterSha256": "32f0ecd05e8bf77c7d348eed325bd2b7fbe1a0c8b49d0a54307648ab699f6494"
+      "path": "src/published/books/dragon-120/pun-is-mightier-than-the-sword-the.md",
+      "beforeSha256": "964fbc8949a6b8f720ce247b9a2d3a726c93fb93e26635a1d8e0a60105527c53",
+      "afterSha256": "ae802730ff187752c0bc41dc84c4f17a0f2201cd554d11265bfe468d92d09aee"
     },
     {
-      "path": "src/published/books/dmg/dmg-glossary.md",
-      "beforeSha256": "b5c504bfefb741192f85be4c90cdd0fe7fbeeb34b296edc43fb8aa93be9842e7",
-      "afterSha256": "2a28c9b8cff4a91c0cb3478eb4ea2e75a34f1e99715c58513dd7631da978753b"
+      "path": "src/published/books/dragon-45/npc-classes.md",
+      "beforeSha256": "442b9e941d14dca4e783727d6e8c429eab0debd448b0cd41b84ddba97174870d",
+      "afterSha256": "d853a0f227aed5999c45bdfa56d2dfbd40819913459b61458af0b83f1547a28b"
     },
     {
-      "path": "src/published/books/dmg/glossary-2.md",
-      "beforeSha256": "67e3042f9138092a04394791864ab7d62256baf18ea2a2e47ebdaca5d1a78e46",
-      "afterSha256": "137acea63763e8cae787abfee44633913c9c797fec053074a45685aaeef2c42b"
+      "path": "src/published/books/dragon-63/make-charisma-count-for-more.md",
+      "beforeSha256": "97f9835d56987f9b38b67500df00fbd49f1bc0c8a35c8138237eac609033cbf8",
+      "afterSha256": "a7800a2760e1e4fff663d76ce6f175c4708a14ac0da6dc1bc25a201ae3c79c62"
     },
     {
-      "path": "src/published/books/dragon-134/ichthyodrake.md",
-      "beforeSha256": "11bf1151ce910b943fe8de663919b77f41cdd90033e0b047e3acab4b8e94b40d",
-      "afterSha256": "af97df56ff0fe0f1ed97e33489ddb815547665433f059349c34cd2ec2d1428cc"
+      "path": "src/published/books/gha/gha-camprat.md",
+      "beforeSha256": "d4d5cf6914ac721bc87f7bbd88b0ad67634696b48ce2b0c6849746e1d76a2ea1",
+      "afterSha256": "a9be65275a6dc615a1a45a8529867a6fb771c052ac5e24c7dee3d41753c4c9a4"
     },
     {
-      "path": "src/published/books/dragon-149/bestiary.md",
-      "beforeSha256": "54ef5c763ba51a6df3bec6add238bf5774f789fff89493adefa7599e9686d3c0",
-      "afterSha256": "9e5ce3789e7c47964c3a2c7a8c04fea7d2912559575d74c020770f4c99efa925"
+      "path": "src/published/books/gha/gha-changecat.md",
+      "beforeSha256": "117b2a4a4e16a13d09ca5ded11c972eaf5f22d1b05d4c32ee1fb2f42049be822",
+      "afterSha256": "7ea4cb8a494cad3a58eb4aa0e33ccee0a63fb0b37f66912a4a17e9a84ac843f7"
     },
     {
-      "path": "src/published/books/dragon-94/bestiary.md",
-      "beforeSha256": "1b49a6b1a4dcc48f64661942b941aa0ccb31b5e389dc1cfbd8836237da009538",
-      "afterSha256": "57cd0ccf414865fa79e8b74bcf0191ff2e342f7e0ba93b2f91c12a5b84825701"
+      "path": "src/published/books/gha/gha-crystalmist.md",
+      "beforeSha256": "246db7321beb1321c83f31c571b0ed38c6383fdf951e452b5b51416872c34bae",
+      "afterSha256": "1120d56d2868a451015a291076863d38fdb3f22aa5363a46b2c8d97cbebed9f4"
     },
     {
-      "path": "src/published/books/dsg/dsg-contents.md",
-      "beforeSha256": "75243d193a9e4c1eb6d52d111d5bc988e80c6ce5e6f161c3357883dbdf427543",
-      "afterSha256": "6b34a1863fc63049f1a9ac6e712103b77afdde58a5f3c9b6dba8dbc065b14359"
+      "path": "src/published/books/gha/gha-dragon-greyhawk.md",
+      "beforeSha256": "489ef226771f5f218e0872fa327bf49080c3bc02533b27d3af7c8ce6214136e8",
+      "afterSha256": "bce6b711ca7135026de3d633f6ec81a3bd9091d961d518a60d5dc22c48764ec5"
     },
     {
-      "path": "src/published/books/dsg/dsg-deepearth-areas.md",
-      "beforeSha256": "55aca4b12e43b5449e43e9a41859b0dfd8427b16c19fda8ac118576433b2e7a0",
-      "afterSha256": "aa4e75c447833473f8e4c0c2dce5f378e9f5f969616afc12aa9518ff58f485cb"
+      "path": "src/published/books/gha/gha-grung.md",
+      "beforeSha256": "8b350a47d320d6e266faf735347667e3ab1feeeff7b50b1848830dc19ec6dce4",
+      "afterSha256": "e590e0b34258cf42b30b7db80af255357113efeb51e2c5887334f8e76828407c"
     },
     {
-      "path": "src/published/books/dsg/dsg-swimming.md",
-      "beforeSha256": "00614a56e75c1f22c63ec3f2b266dea5e48be4ac0d63d5c8d30bab16c14d3e54",
-      "afterSha256": "a2835f85ae9bc26639ffa296112558ca3387cc511d031aea246f9b5642d9dc6d"
+      "path": "src/published/books/gha/gha-ingundi.md",
+      "beforeSha256": "96c24939295ec1f05e793a93c6c3ecf18fafdd8e753ba7b227960d53914a5742",
+      "afterSha256": "3694ee5329ee74acdf8fae119ed1aa7a3f51819a9c24568126e46b07179bcebe"
     },
     {
-      "path": "src/published/books/ff/ff-bunyip-carbuncle-caryatid-caterwaul.md",
-      "beforeSha256": "4bb1c7f4d611b2c7c521f6b1b9361db681e9f62da453a76cd2b7dbdf762ea879",
-      "afterSha256": "b1ceacace5d5d4f3614f1cc78684983818bfa94737de029f78c7ab096450d967"
+      "path": "src/published/books/gha/gha-magical-items-miscellaneous-2.md",
+      "beforeSha256": "44865faf6f7ade1e3dbd6dbe1d9e990235c5bf5c75f9071e7d5ca85a9850052c",
+      "afterSha256": "22ab06d0a075999bbf7c3bc5a9831c8abd3ef5c36cffba6d43c6687dff53b109"
     },
     {
-      "path": "src/published/books/ff/ff-guardian-daemon-familiar.md",
-      "beforeSha256": "91cbb984d5da9ea7fe44a4679770a0c1dc73a0397463f41b94216b81b7d8344e",
-      "afterSha256": "59974939ee587ae927a0c2fef58667a5246b9f5e25573f5d6ce292763e733eb8"
-    },
-    {
-      "path": "src/published/books/ff/ff-hellcat-hoar-fox.md",
-      "beforeSha256": "33b6dbcbc330ce78cc4454a3e497b1cb7e9d0ec4495eefebcce05a51245be772",
-      "afterSha256": "cc2af35059d830ed484ed9ba4364d83e298f96d276b01912fc9331cd9738f6de"
-    },
-    {
-      "path": "src/published/books/ff/ff-ice-lizard-imorph-iron-cobra.md",
-      "beforeSha256": "283636066b8f1097b2e8ac4e48fe8b6dd6f1c67316dfccd6247277d3d20675e6",
-      "afterSha256": "c21d610d2d6f321ee60abd4bd762d6e5594c06a579395481a4ff87f87f24e612"
-    },
-    {
-      "path": "src/published/books/ff/ff-kamadan-kelpie.md",
-      "beforeSha256": "80b0a60fbcffdfc3e28a8d3385269a7e0798fe14443f2657bae1a73f001891a6",
-      "afterSha256": "1d1a05e7792cb57e6f8b8cc0b1772c043cf291104ce317e1cd28c5bcc2f5ab00"
-    },
-    {
-      "path": "src/published/books/ff/ff-lamia-noble.md",
-      "beforeSha256": "cf71bb38dd76dad18ac53b0ebf52888d57d3f4ccc4c401ff75de1a84285dd5f4",
-      "afterSha256": "76620075c5719c68a7e3d78f772bdaa3711299006c14524e7e2a3858894c7bde"
-    },
-    {
-      "path": "src/published/books/ff/ff-mephit.md",
-      "beforeSha256": "24041e558b48963cc5c873a83ef1ffd980c9db550933c2e05686cda57ef12de1",
-      "afterSha256": "827473d5ec1489b1392adf1515bf5946bc3bc76106499090ac98509ac4e86d18"
-    },
-    {
-      "path": "src/published/books/fr/fr-books-forgotten-realms-6.md",
-      "beforeSha256": "92aef199692714a0cb6c53284e03fcf8ab768818b229539132d75add5f637fd6",
-      "afterSha256": "28e705c3aba01b2085177923c26081183df7fa3ae109273b3bbedee82113f279"
-    },
-    {
-      "path": "src/published/books/fr/fr-dm-encounters-dragons.md",
-      "beforeSha256": "2a892becc23c888997c3f8b81ee041ceb22638c0813369f9c28abaaa1c420b48",
-      "afterSha256": "7360f4fdf177655a454002b39812a60cb1f4dcd0564d56f0a23b8bcd5327a63f"
-    },
-    {
-      "path": "src/published/books/gh-folio/gh-folio-front.md",
-      "beforeSha256": "07b639d6534e17cdf2715d4b848685947cd8113dbbfa1baac01aaf88816449eb",
-      "afterSha256": "5912ba19d0c4f3bbc7bfe4187231cfff6d10cb8086b53deeba548efa7430ceb7"
-    },
-    {
-      "path": "src/published/books/gha/gha-geography-azoralq-sea-of-dust.md",
-      "beforeSha256": "dcfca590935a4efc3a21d0ad01176dc901a18faee3a8d94c22d5ecbac009652c",
-      "afterSha256": "560860170b289854d98b4dd10516fbb0bb536fd61ec52edf0e592c609ac4d3c6"
-    },
-    {
-      "path": "src/published/books/gha/gha-geography-burning-cliffs-geysers-tovag.md",
-      "beforeSha256": "9b81cb1f872832ca0798d1944b62bb028fbb2834eb3a311469403e1e7075e9f3",
-      "afterSha256": "7772fbc9ed1c922995ed83625afcb2ccc1c360a5a655b340f1ce426b882823cb"
+      "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+      "beforeSha256": "cf3e2693f7a20e6fd8a9850cef4afeb9ce8fba09ed8d00695e0373d37ead4ead",
+      "afterSha256": "ce8c012e939f901f37bf24448c3a5aa19c5a2c1463cc8a18dc428390995edcc2"
     },
     {
       "path": "src/published/books/gha/gha-mist-wolf.md",
-      "beforeSha256": "f50775b624b10378a252f18818f1da5ed44c625ffbef797ad02ccb841318c099",
-      "afterSha256": "c8c5daccccb4c4141fc878df65c51d893ec4a4632741cabaf0c17bb34dd6554e"
+      "beforeSha256": "c8c5daccccb4c4141fc878df65c51d893ec4a4632741cabaf0c17bb34dd6554e",
+      "afterSha256": "f5333eed2452e1e45ee13deafba1c7a45794620efa8406c252e99536dc539813"
     },
     {
-      "path": "src/published/books/ilh/ilh-war-journal.md",
-      "beforeSha256": "e5d41007f74467d052eb91af4cb93b88cb057cbd66b2bea6b2606b8d8aed9905",
-      "afterSha256": "0505f58e2e1f28ff60b65e0a073e6901572964b938c621e1dfc8dac836af55fd"
+      "path": "src/published/books/gha/gha-monsters-intro-beastman.md",
+      "beforeSha256": "3c8f96b652df5f201c3713615cb1c1614a21afb38e48ec58a97264b877a0138d",
+      "afterSha256": "d735134c624ab48646f6161a67e3cd8907970fc2b2ad70e207487717db8f58dd"
     },
     {
-      "path": "src/published/books/mm/mm-chimera.md",
-      "beforeSha256": "ff9d17314e898ebbe893002a169bbdb4af08dc53140655bfdb335781ed374ec7",
-      "afterSha256": "c0dc4c97c1a0d5a51b6f9320591b62fa4bd251771d191ddc92b3b069c15dff6f"
+      "path": "src/published/books/gha/gha-nimbus.md",
+      "beforeSha256": "1f65def44b12d1f2c7a70763cd18ba8e779edd73ea5b425aed54a1fe086f5eed",
+      "afterSha256": "3e8f6da5d5692a04c5f572a87138bde489ed8aaba1c655660abfe3bc939572c0"
     },
     {
-      "path": "src/published/books/mm/mm-dragon.md",
-      "beforeSha256": "bb82670e4a3aa0fb5031047942e75f727c44516b2e02690bb0fbcd2a05d5b2e8",
-      "afterSha256": "d62e2ab95c26bcd3b84fc612ad64a8a3274dab774fc748b8f0bae37467ef56c2"
+      "path": "src/published/books/gha/gha-sea-sprite.md",
+      "beforeSha256": "175baa97c0884bf0ae66e4237da8a50d697ec838255f0971ed984dcf89a34590",
+      "afterSha256": "688a3c3811e1c2bf02fce3737658320bcd5a02501497147df1439a210dd3bdf1"
     },
     {
-      "path": "src/published/books/mm/mm-elemental.md",
-      "beforeSha256": "aec1062dcc1358c6c85b71f234f0a672e18bb97f7e433283da9475b53aef230e",
-      "afterSha256": "d615f172ed5d8096df6b989cfde8d335d2d30a771177e1b82e66eca65104d8ef"
+      "path": "src/published/books/gha/gha-sea-zombie.md",
+      "beforeSha256": "d8645c0e45bb25cda766c08270e19b5fcc20d0163b2ac5eb9d86fc7c5869b9ca",
+      "afterSha256": "af08344692c8c9ad082875a6d0b98fc2aff7d36d75823ff618b26689ed3d2edd"
     },
     {
-      "path": "src/published/books/mm/mm-hell-hound.md",
-      "beforeSha256": "b22d881ad8fa749fcd8fe3f3651c8bd6804879e8b55d35bf37d10b7857a4e4e0",
-      "afterSha256": "07eef557aa93563713cc3fe13c65eaffa889c840e01b78a280f477bdc7767bf6"
+      "path": "src/published/books/gha/gha-swordwraith.md",
+      "beforeSha256": "904fcfbad5fc0c10a79a6377291da6bb80914e3bd7ea9745e78f060105ec05c4",
+      "afterSha256": "02e5135531602070ada77a2ff6d54d85064632c3c9a1dd95ad0b0e9144e92198"
     },
     {
-      "path": "src/published/books/mm/mm-hydra.md",
-      "beforeSha256": "978e82cb2cf7adafdf5889483a9a021ac70f4c8965631a8ac0115b9e38d7bbba",
-      "afterSha256": "828d0f2c82b5f6abe3f897f133dd6ed55236e2752aad1fca616d16d3efb2670f"
+      "path": "src/published/books/gha/gha-vampire-cactus.md",
+      "beforeSha256": "074a1ced6b634ec8dc902854d2edc6b025d5ddbf5e85a37b99a27c3d1a8cb48f",
+      "afterSha256": "b841054ff8676a92549c61a509be6fcb40766769f3dda52bb5bb5d4cb892a90f"
     },
     {
-      "path": "src/published/books/mm2/mm2-behir.md",
-      "beforeSha256": "8c1356b3e52094b6c1c3e17537560871689061c6acb0ad342b26aa6bed794a87",
-      "afterSha256": "f674b8fdccbe0f3f79fe080a96505115de739583f3140fceeda5d0ba327d7986"
+      "path": "src/published/books/oa/oa-abilities.md",
+      "beforeSha256": "2636a42591ee22d9e4cf1c9d91011996430e8fff3789c70eddf5cc0e31ee9586",
+      "afterSha256": "8e2894cd0624244e1bb91e42b384abdb7bb12ec0d65dc55ad0488413cd8fdb26"
     },
     {
-      "path": "src/published/books/mm2/mm2-devils-continued.md",
-      "beforeSha256": "afa31433ee6d82e04e48b1ba27cb2b4846bdea76a183e59d3e4a9522a3ed5515",
-      "afterSha256": "0172b87ebbe60d11e17c255cd80aa235b8648d900e806b0488b7c1674159ba9a"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-dragonnel-drelb-drider.md",
-      "beforeSha256": "e30c9c5306e03c829174621eff319a7fa056cf2aa034b173193cce9320f21660",
-      "afterSha256": "5f48ea0ea76db6b5ed017e514b94ae41b5ea53fcc28616db34d122df4ade6451"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-dragons-general-cloud.md",
-      "beforeSha256": "425465910ed55e6c6ebfcb5120562a18d55db5e1f96d8f5409a28c82a4e211ee",
-      "afterSha256": "63b4d4a99c6f4af7655b59445131a197689b52d2f4e1956fd65185428380aca7"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-faerie-mist-dragons.md",
-      "beforeSha256": "f24a52bd582e0eb4aae8767aa17f361cad9838f0353eb34c45f0a6eb8605f6fd",
-      "afterSha256": "5ff5fb35c78419b55cbacb6673ecffea899c3393f609423d26952f39f4946a54"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-nereid-narwhale.md",
-      "beforeSha256": "cc19cdf3990084d0fba5cd8a98b30a8de30d1f05d40724856d3b8c0da9011401",
-      "afterSha256": "230656e15504bcfbf8be0498cf8e6719160eecda53d1eb0a7db488c897350492"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-shadow-dragon-dragonfly-dragon-horse.md",
-      "beforeSha256": "102cfe4090198edf32ef968fed0d05c2337648651c8dce89282bf879c6fe1a12",
-      "afterSha256": "1dbb5d9bf79ed91be114202cbabce9a9c61a28b3e2a63a8fc712aa345b996cea"
-    },
-    {
-      "path": "src/published/books/mm2/mm2-taer-tarrasque.md",
-      "beforeSha256": "1d716529c999abdbd51d15d50c235a27f024ea595450cee5158cf0bbc76256bd",
-      "afterSha256": "f1231dacbc3680fb84d56978c2fbb7bf2a1c3229b66322f002b236de99aa9307"
-    },
-    {
-      "path": "src/published/books/oa/oa-monsters.md",
-      "beforeSha256": "0e2388485196ba4dca3ea206f01fd4b1b55fb4330682e860c126a3985372d4fe",
-      "afterSha256": "45cbbe588618ee0cb37c366841504a5578332744ae73a204ddd5be17b71238bc"
+      "path": "src/published/books/oa/oa-families-clans-caste.md",
+      "beforeSha256": "521ec389b68ea0d428c9fcea098ac4f9ef2461a260bb593e4c01ad125dba00f8",
+      "afterSha256": "232425bb661e1abedd76ab26fb50d8997f28297348d19043bea3b227a57dae08"
     },
     {
       "path": "src/published/books/oa/oa-oriental-classes.md",
-      "beforeSha256": "40cfcd6a28cff581abdb9b6a630c4b125cc33bd6549033e09b3dfd2c91e0ba16",
-      "afterSha256": "1741d04d6caeaa64e57426a9b84f14cd7cfd305e97607b992cd63e8b50394530"
+      "beforeSha256": "1741d04d6caeaa64e57426a9b84f14cd7cfd305e97607b992cd63e8b50394530",
+      "afterSha256": "2b0606ac4ed8681db8901d35db6514e49d6e281c3756277c170b2e2cb0a4ccb7"
     },
     {
-      "path": "src/published/books/phb/breath-weapon-attacks.md",
-      "beforeSha256": "d0b4ffb40779e9b3d1eb993aaad83ed48ef9177aa4c8ee657cbfea653869c943",
-      "afterSha256": "b9ee304d89857e0a00d494e2e4cff7373d44178528a4e34183ccc2387ab64471"
-    },
-    {
-      "path": "src/published/books/phb/combat-procedures.md",
-      "beforeSha256": "abcd983960a5c96d32f3d8f783a3b8a2d412f7598af1ba2c45193757b09d9a7b",
-      "afterSha256": "8fdf56d41f67487451bc505a52e09cc0d0b233ce9eb19dc87d2951b4b0b73b60"
-    },
-    {
-      "path": "src/published/books/phb/experience.md",
-      "beforeSha256": "2c5f4d6c7c090eb145d4b509285e8a0cadabf9d82ac346576750e883f2348d57",
-      "afterSha256": "f5241060aea2499fee0d2819a834f871679b776409cc001b8d010531cd9fa4e6"
-    },
-    {
-      "path": "src/published/books/phb/group-25.md",
-      "beforeSha256": "8e53ea572f80fb65083b7e89d803024bf5177b4ac3dfa84abfaeb9dbe245d3d8",
-      "afterSha256": "03e1aedc42b23701f1d05840d0574ffaefb60b68a14d342056ef72b8974c548e"
-    },
-    {
-      "path": "src/published/books/phb/major-sciences.md",
-      "beforeSha256": "56fab9c0bec6325edc88aa1d02d1fa1ef3ed9dafa7edb0ba38b840397f4a39a8",
-      "afterSha256": "586626586fa099e0a1ec67c5324c8e4e9cb0ab41e395c0dc624999de3098dcaa"
-    },
-    {
-      "path": "src/published/books/phb/original-contents.md",
-      "beforeSha256": "a1758c7647c5f732dc62fb437655a88fcb6c1f43109c34db52ea1a4fbec6eff5",
-      "afterSha256": "c276ecc106135ba4ec64f90c500f94bb81397a8f242848fb6cd9511ba7de8551"
-    },
-    {
-      "path": "src/published/books/phb/spell-explanations-magic-users.md",
-      "beforeSha256": "850365025cb3dead2f0633c6d13bc54216c2561a3367d20c20618fc236900e85",
-      "afterSha256": "5fbd6a014fa54c44e1b2152334226aecf5d875c13c09f7b5e4d669f21595e4c9"
-    },
-    {
-      "path": "src/published/books/phb/surprise.md",
-      "beforeSha256": "c131056519c1adb4fe4fef80c613ca342dbafc8bfcbbdbac5972addb583d3124",
-      "afterSha256": "2c2507be8f2ee513d7e7bd71472e9751b7a349681c7b4885f74df6affa5165ee"
-    },
-    {
-      "path": "src/published/books/ref3/ref3-faerie-dragon.md",
-      "beforeSha256": "df0e9a98efcc7cec7c8a92615a2189b7f1dc3cd4c7c793a1d1c34ded07de3747",
-      "afterSha256": "d1982bd505bfec6d9307a9c063581edb6da1e6725461f22ab73572d7e96bb0ad"
-    },
-    {
-      "path": "src/published/books/ref4/ref4-chimera.md",
-      "beforeSha256": "a2ac454f49d9e1e52c1043726a7ffd62d0206bf57282a4d0696a9a83ff47f9a1",
-      "afterSha256": "936534545ebe9b6ff7fc068aea8d2a56cf0b4aba0002383b783b040106cda27e"
-    },
-    {
-      "path": "src/published/books/ref4/ref4-movanic-deva.md",
-      "beforeSha256": "c77e71369d1d36ad82461bf23ef40b57d16d21acb84de6a1f53e2bed21fb5b4b",
-      "afterSha256": "496745a2194b4bb3de512f39390151f75d4404e4325ef7bff90ce8c515323626"
-    },
-    {
-      "path": "src/published/books/ref4/ref4-perytons.md",
-      "beforeSha256": "518fd4757892a41b501da85fa7ddb02b17749bb40ee5250686d80379bdf04604",
-      "afterSha256": "3706fa7b4dc9ba967b8620ea2545d0987500437b2f68a8d1ef4e8a12b0dbc0e9"
-    },
-    {
-      "path": "src/published/books/ref4/ref4-shadow-dragons.md",
-      "beforeSha256": "c46add3d610213394f3063317d876d146e32ca35c70bd0f564b97b5a7f3ec7f3",
-      "afterSha256": "b086398325e5d641ea983ded2609da21ec3f8e0ccac1978acdee236d65732e09"
+      "path": "src/published/books/phb/charisma.md",
+      "beforeSha256": "0521f2d082cb20d54a77ce80d954b428e8b42edae2bafdb84b14f4d2720e123c",
+      "afterSha256": "b655bd2b5a01c44a12eaa29918e729379e5ad65280aba2d8aaecfda8848b7129"
     },
     {
       "path": "src/published/books/ref5/ref5-mummies.md",
-      "beforeSha256": "33a67b970ae9c7cfb079f78aa3ccd7cf5eae638a920054a2de5ccce2de0d0c44",
-      "afterSha256": "1c891f582b838c26e0cecaa8efff8fa68672253561f80668787023fcb7f8854b"
+      "beforeSha256": "1c891f582b838c26e0cecaa8efff8fa68672253561f80668787023fcb7f8854b",
+      "afterSha256": "89ba16d99dea944e8d2256dd5c1555c70de72299bbab8e53f9cf72a201b864e4"
     },
     {
-      "path": "src/published/books/ref5/ref5-night-gallery.md",
-      "beforeSha256": "c3197bdbf5fee459a1ae6d40abb70003abd4f6da4b898a77e9ced2eca457057f",
-      "afterSha256": "7346d70d0ab0486190cac98c26fe25172ef73f05644c92acfa6b95020b45af2d"
+      "path": "src/published/books/ua/ua-cleric-spells-2.md",
+      "beforeSha256": "52cd929b7cf116753b0c5fe1d7fdbae9c7ecb9b9253c9c2748dbcb27a96215bc",
+      "afterSha256": "3f5b07b443981a9e881e832652afe50c541811f80841f6251d839f861187c2d8"
     },
     {
-      "path": "src/published/books/wsg/wsg-aquatic-flight.md",
-      "beforeSha256": "defb34b45f7368d08ecf0c31d6cbfaaf9a6a7fff9349fbef98f1b066cf3c5218",
-      "afterSha256": "5b06392645f403bbedcc646f99d418083993a77f64b27cf83a17f64afbaf12c9"
-    },
-    {
-      "path": "src/published/books/wsg/wsg-natural-hazards.md",
-      "beforeSha256": "d8f867489e5e549dd20ca1a391e47557c3c43acacad43672448f8b12fb3d6139",
-      "afterSha256": "32c1980220ec123093fe481879312208d2e7e7cfd2836ec93cb417ab5fd691fb"
+      "path": "src/published/books/ua/ua-comeliness.md",
+      "beforeSha256": "44f57618246b02c3af1a449cef9b71f6567e959d4c424737f716108ede40ed5c",
+      "afterSha256": "f241311b74e4cf3ee6fabafd7b817f755a1e98a973fd7a45cc9496ff90f27adb"
     }
   ],
   "globalReplacements": {
@@ -841,9 +586,8 @@
     "地下行动规则": "地下游戏的移动规则",
     "非武器专长": "非武器熟练项",
     "长期地下探险中的": "非玩家角色",
-    "生命骰数": "生命骰数／生命骰数量",
     "玩家角色的非职业技能": "玩家角色非职业技能",
-    "反应调整": "反应调整／反应调整值",
+    "反应调整": "反应调整值",
     "经验值数特别奖励": "经验值特别奖励",
     "卷轴法术的环级": "卷轴法术的法术环级",
     "驱退不死生物": "驱散不死生物",

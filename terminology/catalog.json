@@ -476370,7 +476370,7 @@
         {
           "path": "src/published/books/dmg/dmg-glossary.md",
           "location": "9",
-          "zh": "圣物"
+          "zh": "神器"
         },
         {
           "path": "terminology/rule-terms.tsv",
@@ -477741,7 +477741,7 @@
         {
           "path": "src/published/books/dmg/dmg-glossary.md",
           "location": "12",
-          "zh": "吐息武器"
+          "zh": "喷吐武器"
         },
         {
           "path": "terminology/rule-terms.tsv",
@@ -477762,7 +477762,7 @@
           "edition": "1E",
           "source": "DMG translated glossary",
           "en": "Breath Weapon",
-          "zh": "吐息武器",
+          "zh": "喷吐武器",
           "url": "src/published/books/dmg/dmg-glossary.md#12"
         }
       ],
@@ -480025,7 +480025,7 @@
         {
           "path": "src/published/books/dmg/dmg-glossary.md",
           "location": "22",
-          "zh": "类人种"
+          "zh": "半人类"
         },
         {
           "path": "terminology/rule-terms.tsv",
@@ -480046,7 +480046,7 @@
           "edition": "1E",
           "source": "DMG translated glossary",
           "en": "Demi-humans",
-          "zh": "类人种",
+          "zh": "半人类",
           "url": "src/published/books/dmg/dmg-glossary.md#22"
         }
       ],
@@ -481413,7 +481413,7 @@
         {
           "path": "src/published/books/phb/major-sciences.md",
           "location": "87",
-          "zh": "太虚化"
+          "zh": "以太化"
         }
       ],
       "activeIds": [],
@@ -482017,7 +482017,7 @@
         {
           "path": "src/published/books/dsg/dsg-contents.md",
           "location": "72",
-          "zh": "疲劳与精疲力竭"
+          "zh": "疲劳与力竭"
         }
       ],
       "activeIds": [],
@@ -482641,7 +482641,7 @@
         {
           "path": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md",
           "location": "437",
-          "zh": "抓钩与接舷"
+          "zh": "爪钩与接舷"
         }
       ],
       "activeIds": [],
@@ -485023,7 +485023,7 @@
         {
           "path": "src/published/books/dmg/appendix-e-alphabetical-monsters-7.md",
           "location": "45",
-          "zh": "人类与类人怪物"
+          "zh": "人类与类人生物"
         }
       ],
       "activeIds": [],
@@ -486946,13 +486946,11 @@
       "key": "rule:number of hit dice",
       "category": "rule",
       "en": "Number of Hit Dice",
-      "zh": "生命骰数／生命骰数量",
+      "zh": "生命骰数",
       "englishVariants": [
         "Number of Hit Dice"
       ],
-      "legacyZh": [
-        "生命骰数"
-      ],
+      "legacyZh": [],
       "occurrences": [
         {
           "path": "src/published/books/dmg/glossary-2.md",
@@ -486962,7 +486960,7 @@
         {
           "path": "terminology/rule-terms.tsv",
           "location": "117",
-          "zh": "生命骰数／生命骰数量"
+          "zh": "生命骰数"
         }
       ],
       "activeIds": [],
@@ -486971,7 +486969,7 @@
         {
           "edition": "1E",
           "en": "Number of Hit Dice",
-          "zh": "生命骰数／生命骰数量",
+          "zh": "生命骰数",
           "url": "src/published/books/dmg/glossary-2.md#127"
         },
         {
@@ -489249,7 +489247,7 @@
       "key": "rule:reaction adjustment",
       "category": "rule",
       "en": "Reaction Adjustment",
-      "zh": "反应调整／反应调整值",
+      "zh": "反应调整值",
       "englishVariants": [
         "Reaction Adjustment"
       ],
@@ -489260,12 +489258,12 @@
         {
           "path": "src/published/books/dmg/glossary-2.md",
           "location": "96",
-          "zh": "反应调整"
+          "zh": "反应调整值"
         },
         {
           "path": "terminology/rule-terms.tsv",
           "location": "90",
-          "zh": "反应调整／反应调整值"
+          "zh": "反应调整值"
         }
       ],
       "activeIds": [],
@@ -489274,14 +489272,14 @@
         {
           "edition": "1E",
           "en": "Reaction Adjustment",
-          "zh": "反应调整／反应调整值",
+          "zh": "反应调整值",
           "url": "src/published/books/dmg/glossary-2.md#101"
         },
         {
           "edition": "1E",
           "source": "AD&D 1E curated glossary",
           "en": "Reaction Adjustment",
-          "zh": "反应调整",
+          "zh": "反应调整值",
           "url": "src/published/books/dmg/glossary-2.md#96"
         }
       ],

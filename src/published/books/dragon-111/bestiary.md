@@ -72,11 +72,11 @@ Kent Colbath · 第 30、32 页
 
 Kent Colbath · 第 32 页
 
-<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>3–30</td></tr><tr><th scope="row">护甲等级</th><td>10</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次附着攻击</td></tr><tr><th scope="row">伤害</th><td>每轮 1–3 点，等于生命骰数量</td></tr><tr><th scope="row">特殊攻击</th><td>附着后持续吞食</td></tr><tr><th scope="row">特殊防御</th><td>钝击及飞射伤害减半，细胞核例外</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–5 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>湿林、沼泽、池湖及潮湿洞穴</td></tr></tbody></table></div>
+<div class="table-wrap"><table class="statblock"><tbody><tr><th scope="row">频率</th><td>不常见</td></tr><tr><th scope="row">出现数量</th><td>3–30</td></tr><tr><th scope="row">护甲等级</th><td>10</td></tr><tr><th scope="row">移动</th><td>6″</td></tr><tr><th scope="row">生命骰</th><td>1–3</td></tr><tr><th scope="row">巢穴比例</th><td>0%</td></tr><tr><th scope="row">宝藏</th><td>无</td></tr><tr><th scope="row">攻击次数</th><td>一次附着攻击</td></tr><tr><th scope="row">伤害</th><td>每轮 1–3 点，等于生命骰数</td></tr><tr><th scope="row">特殊攻击</th><td>附着后持续吞食</td></tr><tr><th scope="row">特殊防御</th><td>钝击及飞射伤害减半，细胞核例外</td></tr><tr><th scope="row">魔法抗性</th><td>标准</td></tr><tr><th scope="row">智力</th><td>无</td></tr><tr><th scope="row">阵营</th><td>中立</td></tr><tr><th scope="row">体型</th><td>S–M，直径 2–5 英尺</td></tr><tr><th scope="row">灵能</th><td>无</td></tr><tr><th scope="row">环境</th><td>湿林、沼泽、池湖及潮湿洞穴</td></tr></tbody></table></div>
 
 变形虫无色、扁平、轮廓不规则，靠伸出伪足移动和吞食腐败有机物。钝器和飞射武器只造成一半伤害，天然掷出 19–20 击中细胞核时除外。锋刃与尖刺武器造成正常伤害；事先声明瞄准细胞核，并以天然 19–20 命中时，伤害加倍。
 
-一旦攻击命中，它便附着在受害者身上，每轮按自己的生命骰数量造成伤害，即 1、2 或 3 点，逐渐吞下血肉。它极怕火；把火把直接贴住，每轮造成 1d6 伤害，不需命中检定，只有投掷火把才需要检定。
+一旦攻击命中，它便附着在受害者身上，每轮按自己的生命骰数造成伤害，即 1、2 或 3 点，逐渐吞下血肉。它极怕火；把火把直接贴住，每轮造成 1d6 伤害，不需命中检定，只有投掷火把才需要检定。
 
 ## 艾尔菲迪有孔虫 Elphidium
 

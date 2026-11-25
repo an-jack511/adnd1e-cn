@@ -4,7 +4,7 @@
 
 [原刊扫描 PDF](https://archive.org/download/DragonMagazine260_201801/DragonMagazine053.pdf)
 
-## *阅读语言（神谕者版） Read Languages*（原刊未列）
+## *阅读语言 Read Languages*（原刊未列）
 
 Andrew Dewar · 第 71 页
 

@@ -162,7 +162,7 @@ function update(editSource='') {
   const ac=computeArmorClass(armor,shield,dexterity,Number(value('ac_modifier'))||0);
   if(monk&&!armor&&!shield){ac.value=monk.ac+(Number(value('ac_modifier'))||0);ac.notes.push('PHB p.31 武僧表 II；不叠加敏捷防御。');}
   if(value('class')==='barbarian'&&Number(effectiveDexterity)>14){const dexPart=ac.components.find(p=>p.label.startsWith('DEX'));const old=dexPart?.value??0,next=-(Number(effectiveDexterity)-14)*(armor&&/链|带|板|鳞/.test(armor.nameZh)?1:2);ac.value+=next-old;ac.notes.push('UA 野蛮人敏捷防御：笨重护甲每点−1，其余每点−2。');}
-  if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(effectiveDexterity)>0){ac.value=23-Number(effectiveDexterity)-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整。');}
+  if(value('class')==='oa-kensai'&&!armor&&!shield&&Number(effectiveDexterity)>0){ac.value=23-Number(effectiveDexterity)-Math.floor(Number(value('level'))/3)+(Number(value('ac_modifier'))||0);ac.notes.push('OA 剑圣：23−DEX，每3级改善1；不另加敏捷防御调整／防御调整值。');}
   const magicAcBonus=magicAdjustments.ac;
   if(magicAcBonus){ac.value-=magicAcBonus;ac.components.push({label:'防护魔法物品',value:-magicAcBonus,source:'DMG Ring of Protection／手动物品修正'});}
   (field('ac') as HTMLInputElement).readOnly=!checked('manual_ac');

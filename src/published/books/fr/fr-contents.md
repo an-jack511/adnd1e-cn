@@ -24,7 +24,7 @@
 | 老骷髅客栈地图 Old Skull Inn Map | 76 |
 | 暗影谷地图 Shadowdale Map | 78 |
 | 苏萨尔地图 Suzail Map | 82、83 |
-| 西门地图 Westgate Map | 90、91 |
+| 西门城地图 Westgate Map | 90、91 |
 | 津提尔要塞网络 Zhentil Keep Network | 93 |
 | 附录：暗影谷人口普查 Appendix: The Shadowdale Census | 94 |
 

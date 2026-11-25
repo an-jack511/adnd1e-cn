@@ -56,7 +56,7 @@ export function equipmentUnitLabel(value: string): string {
 const sourceSections: Record<string, string> = {
   'Attack Matrices I.A–I.D.1': '攻击矩阵 I.A–I.D.1',
   'Saving Throw Matrix for Characters and Human Types': '人物与人类类型的豁免矩阵',
-  'Dexterity Table I and defensive adjustment notes': '敏捷表 I 与防御调整说明',
+  'Dexterity Table I and defensive adjustment notes': '敏捷表 I 与防御调整／防御调整值说明',
   'Armor; Armor Class Table; shield limits': '护甲、护甲等级表与盾牌限制',
   'The Monk; Monks Table II': '武僧；武僧表 II',
   'The Thief; Thief Function Table': '盗贼；盗贼技能表',

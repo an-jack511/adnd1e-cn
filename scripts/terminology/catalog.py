@@ -346,11 +346,9 @@ def apply(catalog,do_apply=False):
     entries=catalog['entries'];by_key={e['key']:e for e in entries if e['status'].startswith(('verified','adapted'))}
     changes=[]
     def substitute(s):
-        for _ in range(5):
-            updated=pattern.sub(lambda m:replacements.get(m[0],m[0]),s)
-            if updated==s:return s
-            s=updated
-        raise ValueError('Replacement chain did not converge; review conflicting aliases.')
+        # Apply once against the original string. Re-scanning generated Chinese
+        # can match a shorter alias inside a longer canonical translation.
+        return pattern.sub(lambda m:replacements.get(m[0],m[0]),s)
     # Bilingual labels disambiguate short and colliding Chinese names. The English
     # phrase must match in full (not Hold Person within Hold Person or Mammal).
     bilingual=defaultdict(list)

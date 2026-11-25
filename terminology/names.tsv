@@ -15539,7 +15539,7 @@ rule	Nonweapon Proficiency	非武器熟练项	verified-exact	project-glossary		N
 rule	Nonweapon Proficiency Table	非武器熟练项表	pending	pending		Nonweapon Proficiency Table	1E	requires source/context cross-check	2026-11-25
 rule	Notes on Intoxication Table	醉酒效果表注释	verified-exact	1e-bilingual-heading		Notes on Intoxication Table	1E	src/published/books/dmg/dmg-combat.md:1181	2026-11-25
 rule	NPC	非玩家角色	verified-exact	project-glossary	长期地下探险中的	NPC	1E	src/published/books/dmg/glossary-2.md#10	2026-11-25
-rule	Number of Hit Dice	生命骰数／生命骰数量	verified-exact	project-glossary	生命骰数	Number of Hit Dice	1E	src/published/books/dmg/glossary-2.md#122; src/published/books/dmg/glossary-2.md#127	2026-11-25
+rule	Number of Hit Dice	生命骰数	verified-exact	project-glossary		Number of Hit Dice	1E	src/published/books/dmg/glossary-2.md#122; src/published/books/dmg/glossary-2.md#127	2026-11-25
 rule	Number of Opponents per Figure	每个角色可面对的对手数	verified-exact	1e-bilingual-heading		Number of Opponents per Figure	1E	src/published/books/dmg/dmg-combat.md#466; src/published/books/dmg/glossary-2.md#140	2026-11-25
 rule	Object Reading	物品读取	verified-exact	1e-bilingual-psionic-minor-devotion		Object Reading	1E	src/published/books/phb/minor-devotions.md:209	2026-11-25
 rule	Odor Detection	气味侦测	verified-exact	1e-table-title		Odor Detection	1E	src/published/books/dsg/dsg-compiled-tables-index.md:114	2026-11-25
@@ -15600,7 +15600,7 @@ rule	Range	射程	verified-exact	project-glossary		Range	1E	src/published/books/
 rule	Ranger Level	巡林客等级	verified-exact	project-glossary		Ranger Level	1E	src/published/books/dmg/glossary-2.md#119; src/published/books/dmg/glossary-2.md#124	2026-11-25
 rule	Rate of Fire	射速	verified-exact	project-glossary		Rate of Fire	1E	src/published/books/dmg/glossary-2.md#105; src/published/books/dmg/glossary-2.md#110	2026-11-25
 rule	Rates of Climbing	攀爬速度	verified-exact	1e-source-crosscheck		Rates of Climbing	1E	src/published/books/dsg/dsg-climbing.md#5; src/published/books/dsg/dsg-compiled-tables-index.md#18	2026-11-25
-rule	Reaction Adjustment	反应调整／反应调整值	verified-exact	project-glossary	反应调整	Reaction Adjustment	1E	src/published/books/dmg/glossary-2.md#101; src/published/books/dmg/glossary-2.md#96	2026-11-25
+rule	Reaction Adjustment	反应调整值	verified-exact	project-glossary	反应调整	Reaction Adjustment	1E	src/published/books/dmg/glossary-2.md#101; src/published/books/dmg/glossary-2.md#96	2026-11-25
 rule	Reaction Roll	反应检定	verified-exact	project-glossary		Reaction Roll	1E	src/published/books/dmg/glossary-2.md#175; src/published/books/dmg/glossary-2.md#180	2026-11-25
 rule	Recovery from Intoxication	醉酒后的恢复	verified-exact	1e-bilingual-heading		Recovery from Intoxication	1E	src/published/books/dmg/dmg-combat.md:1193	2026-11-25
 rule	Recovery of Hit Points	生命值恢复	verified-exact	1e-bilingual-heading		Recovery of Hit Points	1E	src/published/books/dmg/dmg-combat.md:1148	2026-11-25
