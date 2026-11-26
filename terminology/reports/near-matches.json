@@ -798,6 +798,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:philosopher's stone",
+    "en": "Philosopher’s Stone",
+    "currentZh": "点金石",
+    "candidates": [
+      {
+        "en": "Philosopher's Stone",
+        "zh": "点金石",
+        "similarity": 1.0,
+        "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:quaal's feather token",
     "en": "Quaal's Feather Token",
     "currentZh": "坎尔的羽毛信物",

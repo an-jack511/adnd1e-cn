@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-26",
+  "scope": "Terminology-only checkpoint; existing unrelated character-card changes and older body edits excluded.",
+  "baseCommit": "8483d99bd545703065e7c3a53e864446536b2532",
+  "branch": "codex/terminology-checkpoint-20261126",
+  "revisionLedgerTotal": 45887,
+  "catalogEntries": 8591,
+  "ruleForms": 754,
+  "currentGroupNewTerms": 86,
+  "validation": {
+    "test:terminology": "PASS:3052 live records,893 sourced/partially sourced names",
+    "newTermStructure": "PASS:86 approved labels/status,1E provenance,senses",
+    "build": "PASS:7059 pages in106.85s",
+    "check:links": "PASS:All built internal links resolve",
+    "staticApi": "PASS:v1 + compatibility contain8591 records, current senses/labels, no standalone reference-only terms",
+    "OpenAPI/CORS": "Present and checked in built output"
+  },
+  "buildReason": "Early concentrated build to verify isolated checkpoint, API contract and independent repository build, rather than waiting for next500-revision threshold.",
+  "rawCacheCommitted": false,
+  "globalBodyApply": false,
+  "next": "PHB printed pp.25–33: remaining character classes and multiclass/dual-class; all other planned books and Dragon still in scope.",
+  "publication": "Commit/push receipt to be added after successful Git command; this record does not claim whole-corpus completion."
+}

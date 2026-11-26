@@ -97,197 +97,10 @@
     ]
   },
   {
-    "key": "class:paladin",
-    "category": "class",
-    "en": "Paladin",
-    "zh": "圣武士",
-    "englishVariants": [
-      "Paladin"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/data/public/classes-base.ts",
-        "location": "73",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/data/public/character-options.json",
-        "location": "/classes/6",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/392",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/392",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/published/books/dmg/appendix-c-random-monster-encounters-17.md",
-        "location": "5",
-        "zh": "圣武士"
-      },
-      {
-        "path": "src/published/books/ua/ua-paladin.md",
-        "location": "3",
-        "zh": "圣武士"
-      }
-    ],
-    "activeIds": [
-      "paladin"
-    ],
-    "status": "reference-conflict",
-    "references": [
-      {
-        "en": "Paladin",
-        "zh": "圣武士",
-        "category": "class",
-        "edition": "5E",
-        "source": "PHB",
-        "page": 82,
-        "url": "https://5e.kiwee.top/data/class/class-paladin.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E5%9C%A3%E6%AD%A6%E5%A3%AB_phb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Paladin",
-        "zh": "圣武士",
-        "category": "class",
-        "edition": "5R",
-        "source": "XPHB",
-        "page": 108,
-        "url": "https://5e.kiwee.top/data/class/class-paladin.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E5%9C%A3%E6%AD%A6%E5%A3%AB_xphb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Paladin",
-        "zh": "圣骑士",
-        "category": "class",
-        "edition": "5E",
-        "source": "WoW",
-        "page": null,
-        "url": "https://5e.kiwee.top/data/class/class-paladin.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E5%9C%A3%E9%AA%91%E5%A3%AB_wow",
-        "accessed": "2026-11-24"
-      }
-    ],
-    "notes": [
-      "同优先级来源译名有分歧，等待人工裁定：圣武士 / 圣骑士"
-    ]
-  },
-  {
-    "key": "class:rogue",
-    "category": "class",
-    "en": "Rogue",
-    "zh": "游荡者",
-    "englishVariants": [],
-    "legacyZh": [],
-    "occurrences": [],
-    "activeIds": [],
-    "status": "reference-conflict",
-    "references": [
-      {
-        "en": "Rogue",
-        "zh": "游荡者",
-        "category": "class",
-        "edition": "5E",
-        "source": "PHB",
-        "page": 94,
-        "url": "https://5e.kiwee.top/data/class/class-rogue.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E6%B8%B8%E8%8D%A1%E8%80%85_phb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Rogue",
-        "zh": "游荡者",
-        "category": "class",
-        "edition": "5R",
-        "source": "XPHB",
-        "page": 128,
-        "url": "https://5e.kiwee.top/data/class/class-rogue.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E6%B8%B8%E8%8D%A1%E8%80%85_xphb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Rogue",
-        "zh": "潜行者",
-        "category": "class",
-        "edition": "5E",
-        "source": "WoW",
-        "page": null,
-        "url": "https://5e.kiwee.top/data/class/class-rogue.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E6%BD%9C%E8%A1%8C%E8%80%85_wow",
-        "accessed": "2026-11-24"
-      }
-    ],
-    "notes": [
-      "仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。"
-    ]
-  },
-  {
-    "key": "class:warlock",
-    "category": "class",
-    "en": "Warlock",
-    "zh": "魔契师",
-    "englishVariants": [],
-    "legacyZh": [],
-    "occurrences": [],
-    "activeIds": [],
-    "status": "reference-conflict",
-    "references": [
-      {
-        "en": "Warlock",
-        "zh": "魔契师",
-        "category": "class",
-        "edition": "5E",
-        "source": "PHB",
-        "page": 105,
-        "url": "https://5e.kiwee.top/data/class/class-warlock.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E9%AD%94%E5%A5%91%E5%B8%88_phb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Warlock",
-        "zh": "魔契师",
-        "category": "class",
-        "edition": "5R",
-        "source": "XPHB",
-        "page": 152,
-        "url": "https://5e.kiwee.top/data/class/class-warlock.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E9%AD%94%E5%A5%91%E5%B8%88_xphb",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Warlock",
-        "zh": "术士",
-        "category": "class",
-        "edition": "5E",
-        "source": "WoW",
-        "page": null,
-        "url": "https://5e.kiwee.top/data/class/class-warlock.json",
-        "entryUrl": "https://5e.kiwee.top/classes.html#%E6%9C%AF%E5%A3%AB_wow",
-        "accessed": "2026-11-24"
-      }
-    ],
-    "notes": [
-      "仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。"
-    ]
-  },
-  {
     "key": "glossary-context:phylactery",
     "category": "glossary-context",
     "en": "Phylactery",
-    "zh": "命匣／圣匣",
+    "zh": "圣匣（宗教文字臂缠盒）／命匣（巫妖储魂器）",
     "englishVariants": [
       "Phylactery"
     ],
@@ -312,6 +125,20 @@
     "references": [
       {
         "edition": "1E",
+        "source": "DMG",
+        "en": "Phylactery",
+        "zh": "圣匣",
+        "url": "src/published/books/dmg/glossary-2.md#17"
+      },
+      {
+        "edition": "1E",
+        "source": "DMG",
+        "en": "Phylactery",
+        "zh": "命匣",
+        "url": "src/published/books/dmg/glossary-2.md#18"
+      },
+      {
+        "edition": "1E",
         "source": "AD&D 1E curated glossary",
         "en": "Phylactery",
         "zh": "圣匣",
@@ -326,56 +153,9 @@
       }
     ],
     "notes": [
-      "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
+      "同一英文词有两个不同物件义项，不应合并为同一译名或做全局替换：圣匣指缠在手臂上、用于存放宗教文字的盒状护符；命匣指巫妖用来保存生命力与灵魂的器物。按语境分别使用“圣匣”和“命匣”。"
     ],
-    "verificationScope": "1e-glossary-context"
-  },
-  {
-    "key": "glossary-context:save vs. poison",
-    "category": "glossary-context",
-    "en": "Save vs. Poison",
-    "zh": "对毒素豁免／对毒药豁免",
-    "englishVariants": [
-      "Save vs. Poison"
-    ],
-    "legacyZh": [
-      "对毒素豁免",
-      "对毒药豁免"
-    ],
-    "occurrences": [
-      {
-        "path": "src/published/books/dmg/glossary-2.md",
-        "location": "187",
-        "zh": "对毒素豁免"
-      },
-      {
-        "path": "src/published/books/dmg/glossary-2.md",
-        "location": "187",
-        "zh": "对毒药豁免"
-      }
-    ],
-    "activeIds": [],
-    "status": "reference-conflict",
-    "references": [
-      {
-        "edition": "1E",
-        "source": "AD&D 1E curated glossary",
-        "en": "Save vs. Poison",
-        "zh": "对毒素豁免",
-        "url": "src/published/books/dmg/glossary-2.md#187"
-      },
-      {
-        "edition": "1E",
-        "source": "AD&D 1E curated glossary",
-        "en": "Save vs. Poison",
-        "zh": "对毒药豁免",
-        "url": "src/published/books/dmg/glossary-2.md#187"
-      }
-    ],
-    "notes": [
-      "同一英文词头在术语表中对应多个中文语境，保留冲突供人工区分。"
-    ],
-    "verificationScope": "1e-glossary-context"
+    "verificationScope": "AD&D 1E DMG glossary; two distinct senses, not competing translations for one sense"
   },
   {
     "key": "heading:all dragons, great and small",
@@ -2241,80 +2021,6 @@
         "path": "src/published/books/motp/motp-appendix-powers.md",
         "location": "3",
         "zh": "标准神性"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:survival",
-    "category": "heading",
-    "en": "Survival",
-    "zh": "星界生存",
-    "englishVariants": [
-      "Survival"
-    ],
-    "legacyZh": [
-      "外层位面生存",
-      "生存"
-    ],
-    "occurrences": [
-      {
-        "path": "src/published/books/motp/motp-astral-plane.md",
-        "location": "44",
-        "zh": "星界生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-air.md",
-        "location": "5",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-earth.md",
-        "location": "3",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-fire.md",
-        "location": "5",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-elemental-water.md",
-        "location": "3",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-energy-planes.md",
-        "location": "3",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-ethereal-overview.md",
-        "location": "23",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-inner-planes.md",
-        "location": "27",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-outer-planes.md",
-        "location": "38",
-        "zh": "外层位面生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-para-elemental-planes.md",
-        "location": "3",
-        "zh": "生存"
-      },
-      {
-        "path": "src/published/books/motp/motp-quasi-elemental-planes.md",
-        "location": "5",
-        "zh": "生存"
       }
     ],
     "activeIds": [],
@@ -4646,8 +4352,10 @@
     ],
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
-      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
-    ]
+      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。",
+      "5E 与 5R 名称数据均精确对应“以太化之油”；记录 1E 正文中同一魔法油剂的简称“以太化油”为旧译别名，并统一为术语表主译。"
+    ],
+    "verificationScope": "5E-5R exact name evidence; 1E contextual alias harmonized"
   },
   {
     "key": "item:oil of slipperiness",
@@ -6429,11 +6137,24 @@
         "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%A0%91%E7%9A%AE%E5%97%A1%E5%97%A1_qftis",
         "accessed": "2026-11-24",
         "isNpc": false
+      },
+      {
+        "en": "Barkburr",
+        "zh": "树皮嗡嗡",
+        "category": "monster",
+        "edition": "5E",
+        "source": "QftIS",
+        "page": 195,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-qftis.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%A0%91%E7%9A%AE%E5%97%A1%E5%97%A1_qftis",
+        "accessed": "2026-11-06",
+        "isNpc": false
       }
     ],
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
-      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
+      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。",
+      "参考译名“树皮嗡嗡”质量可疑，暂保留项目译名，等待3R或其他可靠双语证据。"
     ]
   },
   {
@@ -10131,16 +9852,6 @@
         "path": "src/data/public/ref4-monsters.ts",
         "location": "11",
         "zh": "刺尾狮"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/364",
-        "zh": "蝎狮"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/364",
-        "zh": "蝎狮"
       }
     ],
     "activeIds": [
@@ -13400,11 +13111,24 @@
         "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%8B%BC%E4%BA%BA_mabjov",
         "accessed": "2026-11-24",
         "isNpc": false
+      },
+      {
+        "en": "Wolfwere",
+        "zh": "狼人",
+        "category": "monster",
+        "edition": "5E",
+        "source": "MaBJoV",
+        "page": 155,
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-mabjov.json",
+        "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%8B%BC%E4%BA%BA_mabjov",
+        "accessed": "2026-11-06",
+        "isNpc": false
       }
     ],
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
-      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。"
+      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。",
+      "Wolfwere 与 Werewolf 为不同生物；参考译名“狼人”会抹去区别，暂不采用。"
     ]
   },
   {
@@ -14174,6 +13898,146 @@
     ]
   },
   {
+    "key": "proper:astral plane",
+    "category": "proper",
+    "en": "Astral Plane",
+    "zh": "星光位面",
+    "englishVariants": [
+      "Astral Plane"
+    ],
+    "legacyZh": [
+      "Astral Plane",
+      "星界位面"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "星光位面"
+      },
+      {
+        "path": "src/published/books/motp/motp-astral-plane.md",
+        "location": "5",
+        "zh": "Astral Plane"
+      },
+      {
+        "path": "src/published/books/motp/motp-astral-plane.md",
+        "location": "84",
+        "zh": "Astral Plane"
+      },
+      {
+        "path": "src/published/books/motp/motp-contents.md",
+        "location": "71",
+        "zh": "Astral Plane"
+      },
+      {
+        "path": "src/published/books/motp/motp-introduction.md",
+        "location": "9",
+        "zh": "Astral Plane"
+      },
+      {
+        "path": "src/published/books/mm2/mm2-random-encounter-aquatic-astral.md",
+        "location": "175",
+        "zh": "Astral Plane"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "category": "proper",
+        "en": "Astral Plane",
+        "zh": "星光位面",
+        "world": "Greyhawk",
+        "edition": "5R",
+        "source": "XDMG",
+        "page": 184,
+        "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+        "location": "/bookData/0/data/5/entries/6/entries/5",
+        "accessed": "2026-11-06",
+        "evidenceType": "explicit-name-pair"
+      },
+      {
+        "en": "Astral Plane",
+        "zh": "星光位面",
+        "category": "recipe",
+        "edition": "5E",
+        "source": "PaF",
+        "page": 20,
+        "url": "https://5e.kiwee.top/data/recipes.json",
+        "entryUrl": "https://5e.kiwee.top/recipes.html#%E6%98%9F%E5%85%89%E4%BD%8D%E9%9D%A2_paf",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Astral Plane",
+        "zh": "星光位面",
+        "category": "proper",
+        "edition": "5R",
+        "source": "XDMG",
+        "page": 184,
+        "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+        "location": "/bookData/0/data/5/entries/6/entries/5",
+        "accessed": "2026-11-06",
+        "evidenceType": "explicit-name-pair"
+      }
+    ],
+    "notes": [
+      "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
+      "采用优先级最高的5E精确名称证据；普通人工译名记录不覆盖。",
+      "3R 精确名称在本地灰机名称快照中未命中；直接页面访问返回 HTTP 403，不能据此断言 3R 无译名。采用可定位的 5E PaF p.20 精确名称对“星光位面”，并由 5R XDMG p.184 独立同译旁证；1E 语境仍指同一 Astral Plane 位面。"
+    ],
+    "verificationScope": "cross-edition-exact-name; 1E plane reference"
+  },
+  {
+    "key": "proper:bigby",
+    "category": "proper",
+    "en": "Bigby",
+    "zh": "毕格比",
+    "englishVariants": [
+      "Bigby"
+    ],
+    "legacyZh": [
+      "毕格比之手",
+      "毕格比的法术"
+    ],
+    "occurrences": [
+      {
+        "path": "scripts/import/regional-names.json",
+        "location": "",
+        "zh": "毕格比"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "毕格比"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-bigby.md",
+        "location": "8",
+        "zh": "毕格比"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Bigby's Hand",
+        "zh": "毕格比之手",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 246,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%AF%95%E6%A0%BC%E6%AF%94%E4%B9%8B%E6%89%8B_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "从已核实法术 Bigby's Hand 的中文名称提取施法者姓名语素；不是自行音译。"
+    ],
+    "verificationScope": "person-name extracted from attested spell name"
+  },
+  {
     "key": "proper:calimshan",
     "category": "proper",
     "en": "Calimshan",
@@ -14512,6 +14376,7 @@
       "Drawmij"
     ],
     "legacyZh": [
+      "卓姆吉瞬间召唤",
       "德拉维吉",
       "德拉维吉的法术"
     ],
@@ -15785,7 +15650,8 @@
     ],
     "legacyZh": [
       "莫登凯南",
-      "莫登凯南的法术"
+      "莫登凯南的法术",
+      "魔邓肯之剑"
     ],
     "occurrences": [
       {
@@ -16054,6 +15920,7 @@
       "Nystul"
     ],
     "legacyZh": [
+      "涅斯图魔法灵光",
       "诺斯图",
       "诺斯图的法术"
     ],
@@ -16154,6 +16021,55 @@
     ]
   },
   {
+    "key": "proper:otiluke",
+    "category": "proper",
+    "en": "Otiluke",
+    "zh": "欧提路克",
+    "englishVariants": [
+      "Otiluke"
+    ],
+    "legacyZh": [
+      "欧提路克弹力法球",
+      "欧提路克的法术"
+    ],
+    "occurrences": [
+      {
+        "path": "scripts/import/regional-names.json",
+        "location": "",
+        "zh": "欧提路克"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "欧提路克"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "2",
+        "zh": "欧提路克"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otiluke's Resilient Sphere",
+        "zh": "欧提路克弹力法球",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%AC%A7%E6%8F%90%E8%B7%AF%E5%85%8B%E5%BC%B9%E5%8A%9B%E6%B3%95%E7%90%83_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "从已核实法术 Otiluke's Resilient Sphere 的中文名称提取施法者姓名语素；不是自行音译。"
+    ],
+    "verificationScope": "person-name extracted from attested spell name"
+  },
+  {
     "key": "proper:otto",
     "category": "proper",
     "en": "Otto",
@@ -16162,6 +16078,7 @@
       "Otto"
     ],
     "legacyZh": [
+      "奥图迷舞",
       "奥托",
       "奥托的法术"
     ],
@@ -16307,6 +16224,55 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "proper:rary",
+    "category": "proper",
+    "en": "Rary",
+    "zh": "拉瑞",
+    "englishVariants": [
+      "Rary"
+    ],
+    "legacyZh": [
+      "拉瑞心灵联结",
+      "拉瑞的法术"
+    ],
+    "occurrences": [
+      {
+        "path": "scripts/import/regional-names.json",
+        "location": "",
+        "zh": "拉瑞"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "拉瑞"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-rary-tenser.md",
+        "location": "2",
+        "zh": "拉瑞"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Rary's Telepathic Bond",
+        "zh": "拉瑞心灵联结",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 311,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%8B%89%E7%91%9E%E5%BF%83%E7%81%B5%E8%81%94%E7%BB%93_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "从已核实法术 Rary's Telepathic Bond 的中文名称提取施法者姓名语素；不是自行音译。"
+    ],
+    "verificationScope": "person-name extracted from attested spell name"
   },
   {
     "key": "proper:rashemen",
@@ -16731,6 +16697,60 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "proper:tenser",
+    "category": "proper",
+    "en": "Tenser",
+    "zh": "谭森",
+    "englishVariants": [
+      "Tenser"
+    ],
+    "legacyZh": [
+      "谭森浮碟术",
+      "谭森的法术"
+    ],
+    "occurrences": [
+      {
+        "path": "scripts/import/regional-names.json",
+        "location": "",
+        "zh": "谭森"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "谭森"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-rary-tenser.md",
+        "location": "166",
+        "zh": "谭森"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-tenser-combat.md",
+        "location": "2",
+        "zh": "谭森"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Tenser's Floating Disk",
+        "zh": "谭森浮碟术",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 332,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E8%B0%AD%E6%A3%AE%E6%B5%AE%E7%A2%9F%E6%9C%AF_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "从已核实法术 Tenser's Floating Disk 的中文名称提取施法者姓名语素；不是自行音译。"
+    ],
+    "verificationScope": "person-name extracted from attested spell name"
   },
   {
     "key": "proper:thar",
@@ -17299,6 +17319,139 @@
     ]
   },
   {
+    "key": "rule:animal handling",
+    "category": "rule",
+    "en": "Animal Handling",
+    "zh": "驯兽",
+    "englishVariants": [
+      "Animal Handling"
+    ],
+    "legacyZh": [
+      "动物处理",
+      "动物驯养"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "401",
+        "zh": "驯兽"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Animal Handling",
+        "zh": "驯兽",
+        "url": "terminology/references/5etools-names.json#records[64025-64036] (PHB p.178; XPHB p.14); AD&D 1E WSG Table 2 and Proficiency Descriptions, printed pp.13–14; original English OCR `../OCR/wsg-raw/text/page-013.txt`–`page-014.txt` confirms Animal Handling is the 1E proficiency label. The current Chinese page is not used as translation proof."
+      },
+      {
+        "en": "Animal Handling",
+        "zh": "驯兽",
+        "category": "skill",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 178,
+        "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_phb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Animal Handling",
+        "zh": "驯兽",
+        "category": "skill",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 14,
+        "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_xphb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Animal Handling",
+        "category": "rule",
+        "edition": "1E",
+        "source": "WSG Table 2 and Proficiency Descriptions",
+        "page": "13–14",
+        "url": "../OCR/wsg-raw/text/page-013.txt; ../OCR/wsg-raw/text/page-014.txt",
+        "retrieval": "original English OCR; establishes the 1E proficiency context only"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：terminology/references/5etools-names.json#records[64025-64036] (PHB p.178; XPHB p.14); AD&D 1E WSG Table 2 and Proficiency Descriptions, printed pp.13–14; original English OCR `../OCR/wsg-raw/text/page-013.txt`–`page-014.txt` confirms Animal Handling is the 1E proficiency label. The current Chinese page is not used as translation proof.。项目术语对应已记录；未标为已核的条目继续待核。 AD&D 1E WSG Table 2 and its proficiency description confirm Animal Handling as a nonweapon proficiency (original English OCR, printed pp.13–14). 5E PHB p.178 and 5R XPHB p.14 translate the exact same English skill name as 驯兽. Adopt the verified Chinese name for the 1E term while retaining the editions’ separate mechanics. The available 3R local snapshot has no exact entry; this is not evidence that 3R has no translation."
+    ],
+    "verificationScope": "5E-5R-exact-name; 1E-proficiency-context"
+  },
+  {
+    "key": "rule:animal handling proficiency",
+    "category": "rule",
+    "en": "Animal Handling Proficiency",
+    "zh": "驯兽熟练项",
+    "englishVariants": [
+      "Animal Handling Proficiency"
+    ],
+    "legacyZh": [
+      "动物处理熟练项",
+      "驯兽"
+    ],
+    "occurrences": [
+      {
+        "path": "src/published/books/dmg/glossary-2.md",
+        "location": "43",
+        "zh": "驯兽熟练项"
+      },
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "33",
+        "zh": "驯兽熟练项"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Animal Handling Proficiency",
+        "zh": "驯兽熟练项",
+        "url": "1E DMG glossary identifies the nonweapon proficiency; 5E PHB and 5R XPHB translate the exact base name Animal Handling as 驯兽; Proficiency remains 熟练项"
+      },
+      {
+        "en": "Animal Handling",
+        "zh": "驯兽",
+        "category": "skill",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 178,
+        "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_phb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Animal Handling",
+        "zh": "驯兽",
+        "category": "skill",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 14,
+        "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_xphb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Animal Handling Proficiency",
+        "zh": "驯兽熟练项",
+        "url": "src/published/books/dmg/glossary-2.md#43"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：1E DMG glossary identifies the nonweapon proficiency; 5E PHB and 5R XPHB translate the exact base name Animal Handling as 驯兽; Proficiency remains 熟练项。项目术语对应已记录；未标为已核的条目继续待核。 AD&D 1E DMG 术语表将其列为熟练项；5E PHB 与 5R XPHB 的精确底词 Animal Handling 均译为“驯兽”，按用户确定的 proficiency 规则单位译为“熟练项”。不能据此把 1E 熟练项机制等同于后续版技能。"
+    ],
+    "verificationScope": "1E-proficiency-term/5E-5R-base-name"
+  },
+  {
     "key": "rule:attacks per melee round table",
     "category": "rule",
     "en": "Attacks Per Melee Round Table",
@@ -17313,7 +17466,7 @@
     "occurrences": [
       {
         "path": "terminology/rule-terms.tsv",
-        "location": "202",
+        "location": "213",
         "zh": "每轮近战攻击次数表"
       },
       {
@@ -17348,6 +17501,313 @@
     "verificationScope": "1e-bilingual-heading"
   },
   {
+    "key": "rule:determination of spell level",
+    "category": "rule",
+    "en": "Determination of Spell Level",
+    "zh": "法术环阶的确定",
+    "englishVariants": [
+      "Determination of Spell Level"
+    ],
+    "legacyZh": [
+      "新法术的环级",
+      "法术环级的确定"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "215",
+        "zh": "法术环阶的确定"
+      },
+      {
+        "path": "src/published/books/dmg/dmg-magical-research.md",
+        "location": "37",
+        "zh": "法术环阶的确定"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Determination of Spell Level",
+        "zh": "法术环阶的确定",
+        "url": "src/published/books/dmg/dmg-magical-research.md:37"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：src/published/books/dmg/dmg-magical-research.md:37。项目术语对应已记录；未标为已核的条目继续待核。"
+    ],
+    "verificationScope": "1e-bilingual-heading"
+  },
+  {
+    "key": "rule:intellect fortress",
+    "category": "rule",
+    "en": "Intellect Fortress",
+    "zh": "智能壁垒",
+    "englishVariants": [
+      "Intellect Fortress"
+    ],
+    "legacyZh": [
+      "智力堡垒",
+      "智识壁垒"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "68",
+        "zh": "智能壁垒"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Intellect Fortress",
+        "zh": "智能壁垒",
+        "url": "5E TCE p.107 exact spell Intellect Fortress → 智能壁垒 (https://5e.kiwee.top/spells.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_tce); independently same 5E UA psionic entry, p.14. 1E PHB defense-mode table OCR/scan at tmp/rule-source-audit/PHB.txt, printed pp.109–110 and src/published/books/phb/psionic-defense-modes.md. Adopt the exact later-edition name only; 1E defense-mode rules remain distinct. Local 3R term snapshot has no exact entry; this is not a claim that 3R has no translation."
+      },
+      {
+        "en": "Intellect Fortress",
+        "zh": "智能壁垒",
+        "category": "spell",
+        "edition": "5E",
+        "source": "TCE",
+        "page": 107,
+        "url": "https://5e.kiwee.top/data/spells/spells-tce.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_tce",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Intellect Fortress",
+        "zh": "智能壁垒",
+        "category": "psionic",
+        "edition": "5E",
+        "source": "UATheMysticClass",
+        "page": 14,
+        "url": "https://5e.kiwee.top/data/psionics.json",
+        "entryUrl": "https://5e.kiwee.top/psionics.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_uathemysticclass",
+        "accessed": "2026-11-24"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：5E TCE p.107 exact spell Intellect Fortress → 智能壁垒 (https://5e.kiwee.top/spells.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_tce); independently same 5E UA psionic entry, p.14. 1E PHB defense-mode table OCR/scan at tmp/rule-source-audit/PHB.txt, printed pp.109–110 and src/published/books/phb/psionic-defense-modes.md. Adopt the exact later-edition name only; 1E defense-mode rules remain distinct. Local 3R term snapshot has no exact entry; this is not a claim that 3R has no translation.。项目术语对应已记录；未标为已核的条目继续待核。 采用 5E TCE 精确同名译法“智能壁垒”，5E UA 灵能条目同译作旁证；1E 灵能防御模式与后续版法术／灵能规则保持独立。3R 本地名称快照无精确命中，不据此断言 3R 无译名。"
+    ],
+    "verificationScope": "cross-edition-exact-name; 1E-psionic-defense-mode"
+  },
+  {
+    "key": "rule:size",
+    "category": "rule",
+    "en": "Size",
+    "zh": "体型",
+    "englishVariants": [
+      "SIZE",
+      "Size"
+    ],
+    "legacyZh": [
+      "地下区域规模",
+      "面积"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "569",
+        "zh": "体型"
+      },
+      {
+        "path": "src/published/books/dsg/dsg-dm-underground-environment.md",
+        "location": "220",
+        "zh": "体型"
+      },
+      {
+        "path": "src/published/books/ff/ff-explanatory-notes.md",
+        "location": "99",
+        "zh": "体型"
+      },
+      {
+        "path": "src/published/books/mm2/mm2-how-to-use-this-book.md",
+        "location": "168",
+        "zh": "体型"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Size",
+        "zh": "体型",
+        "url": "terminology/references/5etools-names.json#records[6196] (5R XPHB p.374, Size → 体型); AD&D 1E Monster Manual stat-block label, e.g. OCR/mm-raw/text/page-007.txt; name translation reference only, rules are not equated"
+      },
+      {
+        "en": "Size",
+        "zh": "体型",
+        "category": "variantrule",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 374,
+        "url": "https://5e.kiwee.top/variantrules.html#%E4%BD%93%E5%9E%8B_xphb",
+        "sourceData": "https://5e.kiwee.top/data/variantrules.json",
+        "accessed": "2026-11-24"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：terminology/references/5etools-names.json#records[6196] (5R XPHB p.374, Size → 体型); AD&D 1E Monster Manual stat-block label, e.g. OCR/mm-raw/text/page-007.txt; name translation reference only, rules are not equated。项目术语对应已记录；未标为已核的条目继续待核。 5R XPHB p.374 的精确英文词条 Size 对应中文“体型”，可用于 AD&D 1E Monster Manual 的 Size 怪物数据字段。此处只采用名称译法，不把两个版本的体型规则视为相同。灰机 3R 名称索引未检得精确条目，故按版本顺序采用 5R 可核名称。"
+    ],
+    "verificationScope": "5R-exact-name; 1E-MM-stat-block-label; exact 3R entry not found in local index"
+  },
+  {
+    "key": "rule:spell level of scroll spells",
+    "category": "rule",
+    "en": "Spell Level of Scroll Spells",
+    "zh": "卷轴法术的法术环阶",
+    "englishVariants": [
+      "Spell Level of Scroll Spells"
+    ],
+    "legacyZh": [
+      "卷轴法术的法术环级",
+      "卷轴法术的环级"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "228",
+        "zh": "卷轴法术的法术环阶"
+      },
+      {
+        "path": "src/published/books/dmg/dmg-treasure.md",
+        "location": "885",
+        "zh": "卷轴法术的法术环阶"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Spell Level of Scroll Spells",
+        "zh": "卷轴法术的法术环阶",
+        "url": "src/published/books/dmg/dmg-treasure.md:885"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：src/published/books/dmg/dmg-treasure.md:885。项目术语对应已记录；未标为已核的条目继续待核。"
+    ],
+    "verificationScope": "1e-bilingual-heading"
+  },
+  {
+    "key": "rule:survival",
+    "category": "rule",
+    "en": "Survival",
+    "zh": "求生",
+    "englishVariants": [
+      "Survival"
+    ],
+    "legacyZh": [
+      "外层位面生存",
+      "星界生存",
+      "生存"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "535",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-astral-plane.md",
+        "location": "44",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-elemental-air.md",
+        "location": "5",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-elemental-earth.md",
+        "location": "3",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-elemental-fire.md",
+        "location": "5",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-elemental-water.md",
+        "location": "3",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-energy-planes.md",
+        "location": "3",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-ethereal-overview.md",
+        "location": "23",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-inner-planes.md",
+        "location": "27",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-outer-planes.md",
+        "location": "38",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-para-elemental-planes.md",
+        "location": "3",
+        "zh": "求生"
+      },
+      {
+        "path": "src/published/books/motp/motp-quasi-elemental-planes.md",
+        "location": "5",
+        "zh": "求生"
+      }
+    ],
+    "activeIds": [],
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Survival",
+        "zh": "求生",
+        "url": "terminology/references/5etools-names.json#records[64377-64392] (5E PHB p.178, Survival → 求生; 5R XPHB p.14 corroborates); AD&D 1E OA Table 59/definition, original PDF text extraction and ../OCR/oa-raw/text/page-054.txt; name translation only, rules differ"
+      },
+      {
+        "en": "Survival",
+        "zh": "求生",
+        "category": "skill",
+        "edition": "5E",
+        "source": "PHB",
+        "page": 178,
+        "url": "https://5e.kiwee.top/skills.html#%E6%B1%82%E7%94%9F_phb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      },
+      {
+        "en": "Survival",
+        "zh": "求生",
+        "category": "skill",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 14,
+        "url": "https://5e.kiwee.top/skills.html#%E6%B1%82%E7%94%9F_xphb",
+        "sourceData": "https://5e.kiwee.top/data/skills.json",
+        "accessed": "2026-11-24"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：terminology/references/5etools-names.json#records[64377-64392] (5E PHB p.178, Survival → 求生; 5R XPHB p.14 corroborates); AD&D 1E OA Table 59/definition, original PDF text extraction and ../OCR/oa-raw/text/page-054.txt; name translation only, rules differ。项目术语对应已记录；未标为已核的条目继续待核。 3R 本地名称索引未检得精确英文词条，且对应页面不可用；按 3R→5E→5R 顺序继续核查，5E PHB p.178 的精确名称 Survival 译为“求生”，已足以采用。5R XPHB p.14 同样译为“求生”作为旁证。此处仅采用名称译法；AD&D 1E OA 的非武器熟练项与后续版技能机制不同。"
+    ],
+    "verificationScope": "5E-exact-name; 1E-OA-proficiency-context; 3R-exact-index-miss/direct-page-unavailable"
+  },
+  {
     "key": "rule:underwater spell use",
     "category": "rule",
     "en": "Underwater Spell Use",
@@ -17362,7 +17822,7 @@
     "occurrences": [
       {
         "path": "terminology/rule-terms.tsv",
-        "location": "386",
+        "location": "397",
         "zh": "水下法术"
       },
       {
@@ -17400,6 +17860,41 @@
       "规则术语主表；证据：src/published/books/dmg/dmg-adventure-outdoor-exploration.md:518。项目术语对应已记录；未标为已核的条目继续待核。"
     ],
     "verificationScope": "1e-bilingual-heading"
+  },
+  {
+    "key": "rule:who can use missiles",
+    "category": "rule",
+    "en": "Who Can Use Missiles",
+    "zh": "远程武器使用资格",
+    "englishVariants": [
+      "WHO CAN USE MISSILES",
+      "Who Can Use Missiles"
+    ],
+    "legacyZh": [
+      "谁能射击",
+      "远程武器使用条件"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "638",
+        "zh": "远程武器使用资格"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Who Can Use Missiles",
+        "zh": "远程武器使用资格",
+        "url": "1E BATTLESYSTEM original OCR; source section and rule context cited. Searched available 3R Huiji index and 5E/5R name datasets in 3R→5E→5R order; no exact applicable translation found. Online search endpoint returned 404 during this work session, so this is a contextual self-translation, not an official translation or 5E-origin entry. AD&D 1E source locator: battlesystem-raw/p.021."
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：1E BATTLESYSTEM original OCR; source section and rule context cited. Searched available 3R Huiji index and 5E/5R name datasets in 3R→5E→5R order; no exact applicable translation found. Online search endpoint returned 404 during this work session, so this is a contextual self-translation, not an official translation or 5E-origin entry. AD&D 1E source locator: battlesystem-raw/p.021.。项目术语对应已记录；未标为已核的条目继续待核。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search"
   },
   {
     "key": "spell:agannazar's scorcher",
@@ -17708,6 +18203,67 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "spell:bigby's bookworm bane",
+    "category": "spell",
+    "en": "Bigby's Bookworm Bane",
+    "zh": "毕格比的书虫灾厄术",
+    "englishVariants": [
+      "Bigby's Bookworm Bane"
+    ],
+    "legacyZh": [
+      "Bigby 的书虫灾厄术",
+      "毕格比之手"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "毕格比的书虫灾厄术"
+      },
+      {
+        "path": "src/data/public/gha-spells.ts",
+        "location": "6",
+        "zh": "毕格比的书虫灾厄术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/7",
+        "zh": "毕格比的书虫灾厄术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/650",
+        "zh": "毕格比的书虫灾厄术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-bigby.md",
+        "location": "10",
+        "zh": "毕格比的书虫灾厄术"
+      }
+    ],
+    "activeIds": [
+      "gha-bigby-bookworm-bane"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Bigby's Hand",
+        "zh": "毕格比之手",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 246,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%AF%95%E6%A0%BC%E6%AF%94%E4%B9%8B%E6%89%8B_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
   },
   {
     "key": "spell:blade barrier",
@@ -18724,6 +19280,7 @@
     ],
     "legacyZh": [
       "Drawmij 的冒险者幸运术",
+      "卓姆吉瞬间召唤",
       "德拉维吉的冒险者幸运术"
     ],
     "occurrences": [
@@ -18755,6 +19312,342 @@
     ],
     "activeIds": [
       "gha-drawmij-adventurers-luck"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's beast of burden",
+    "category": "spell",
+    "en": "Drawmij's Beast of Burden",
+    "zh": "卓姆吉的负重兽术",
+    "englishVariants": [
+      "Drawmij's Beast of Burden"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的负重兽术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的负重兽术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/20",
+        "zh": "卓姆吉的负重兽术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/663",
+        "zh": "卓姆吉的负重兽术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "4",
+        "zh": "卓姆吉的负重兽术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-beast-of-burden"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's beneficent polymorph",
+    "category": "spell",
+    "en": "Drawmij's Beneficent Polymorph",
+    "zh": "卓姆吉的仁慈变形术",
+    "englishVariants": [
+      "Drawmij's Beneficent Polymorph"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的仁慈变形术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的仁慈变形术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/33",
+        "zh": "卓姆吉的仁慈变形术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/676",
+        "zh": "卓姆吉的仁慈变形术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "183",
+        "zh": "卓姆吉的仁慈变形术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-beneficent-polymorph"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's breath of life",
+    "category": "spell",
+    "en": "Drawmij's Breath of Life",
+    "zh": "卓姆吉的生命气息术",
+    "englishVariants": [
+      "Drawmij's Breath of Life"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的生命气息术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的生命气息术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/23",
+        "zh": "卓姆吉的生命气息术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/666",
+        "zh": "卓姆吉的生命气息术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "45",
+        "zh": "卓姆吉的生命气息术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-breath-of-life"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's flying feat",
+    "category": "spell",
+    "en": "Drawmij's Flying Feat",
+    "zh": "卓姆吉的飞行壮举术",
+    "englishVariants": [
+      "Drawmij's Flying Feat"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的飞行壮举术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的飞行壮举术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/32",
+        "zh": "卓姆吉的飞行壮举术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/675",
+        "zh": "卓姆吉的飞行壮举术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "168",
+        "zh": "卓姆吉的飞行壮举术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-flying-feat"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's handy timepiece",
+    "category": "spell",
+    "en": "Drawmij's Handy Timepiece",
+    "zh": "卓姆吉的便携时计术",
+    "englishVariants": [
+      "Drawmij's Handy Timepiece"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的便携时计术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的便携时计术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/28",
+        "zh": "卓姆吉的便携时计术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/671",
+        "zh": "卓姆吉的便携时计术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "114",
+        "zh": "卓姆吉的便携时计术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-handy-timepiece"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's instant exit",
+    "category": "spell",
+    "en": "Drawmij's Instant Exit",
+    "zh": "卓姆吉的瞬间出口术",
+    "englishVariants": [
+      "Drawmij's Instant Exit"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的瞬间出口术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的瞬间出口术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/29",
+        "zh": "卓姆吉的瞬间出口术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/672",
+        "zh": "卓姆吉的瞬间出口术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "127",
+        "zh": "卓姆吉的瞬间出口术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-instant-exit"
     ],
     "status": "adapted-element",
     "references": [
@@ -18845,6 +19738,454 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "spell:drawmij's iron sack",
+    "category": "spell",
+    "en": "Drawmij's Iron Sack",
+    "zh": "卓姆吉的铁袋术",
+    "englishVariants": [
+      "Drawmij's Iron Sack"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的铁袋术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的铁袋术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/27",
+        "zh": "卓姆吉的铁袋术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/670",
+        "zh": "卓姆吉的铁袋术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "101",
+        "zh": "卓姆吉的铁袋术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-iron-sack"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's light step",
+    "category": "spell",
+    "en": "Drawmij's Light Step",
+    "zh": "卓姆吉的轻步术",
+    "englishVariants": [
+      "Drawmij's Light Step"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的轻步术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的轻步术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/21",
+        "zh": "卓姆吉的轻步术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/664",
+        "zh": "卓姆吉的轻步术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "17",
+        "zh": "卓姆吉的轻步术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-light-step"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's marvelous shield",
+    "category": "spell",
+    "en": "Drawmij's Marvelous Shield",
+    "zh": "卓姆吉的奇妙护盾术",
+    "englishVariants": [
+      "Drawmij's Marvelous Shield"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的奇妙护盾术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的奇妙护盾术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/26",
+        "zh": "卓姆吉的奇妙护盾术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/669",
+        "zh": "卓姆吉的奇妙护盾术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "86",
+        "zh": "卓姆吉的奇妙护盾术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-marvelous-shield"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's merciful metamorphosis",
+    "category": "spell",
+    "en": "Drawmij's Merciful Metamorphosis",
+    "zh": "卓姆吉的慈悲蜕变术",
+    "englishVariants": [
+      "Drawmij's Merciful Metamorphosis"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的慈悲蜕变术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的慈悲蜕变术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/34",
+        "zh": "卓姆吉的慈悲蜕变术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/677",
+        "zh": "卓姆吉的慈悲蜕变术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "196",
+        "zh": "卓姆吉的慈悲蜕变术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-merciful-metamorphosis"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's protection from non-magical gas",
+    "category": "spell",
+    "en": "Drawmij's Protection from Non-Magical Gas",
+    "zh": "卓姆吉的非魔法气体防护术",
+    "englishVariants": [
+      "Drawmij's Protection from Non-Magical Gas"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的非魔法气体防护术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的非魔法气体防护术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/30",
+        "zh": "卓姆吉的非魔法气体防护术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/673",
+        "zh": "卓姆吉的非魔法气体防护术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "142",
+        "zh": "卓姆吉的非魔法气体防护术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-protection-from-non-magical-gas"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's scent mask",
+    "category": "spell",
+    "en": "Drawmij's Scent Mask",
+    "zh": "卓姆吉的气味遮罩术",
+    "englishVariants": [
+      "Drawmij's Scent Mask"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的气味遮罩术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的气味遮罩术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/24",
+        "zh": "卓姆吉的气味遮罩术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/667",
+        "zh": "卓姆吉的气味遮罩术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "58",
+        "zh": "卓姆吉的气味遮罩术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-scent-mask"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's swift mount",
+    "category": "spell",
+    "en": "Drawmij's Swift Mount",
+    "zh": "卓姆吉的迅捷坐骑术",
+    "englishVariants": [
+      "Drawmij's Swift Mount"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的迅捷坐骑术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的迅捷坐骑术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/25",
+        "zh": "卓姆吉的迅捷坐骑术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/668",
+        "zh": "卓姆吉的迅捷坐骑术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "73",
+        "zh": "卓姆吉的迅捷坐骑术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-swift-mount"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:drawmij's tool box",
+    "category": "spell",
+    "en": "Drawmij's Tool Box",
+    "zh": "卓姆吉的工具箱术",
+    "englishVariants": [
+      "Drawmij's Tool Box"
+    ],
+    "legacyZh": [
+      "卓姆吉瞬间召唤",
+      "德拉维吉的工具箱术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "卓姆吉的工具箱术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/31",
+        "zh": "卓姆吉的工具箱术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/674",
+        "zh": "卓姆吉的工具箱术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "155",
+        "zh": "卓姆吉的工具箱术"
+      }
+    ],
+    "activeIds": [
+      "gha-drawmijs-tool-box"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Drawmij's Instant Summons",
+        "zh": "卓姆吉瞬间召唤",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 266,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%8D%93%E5%A7%86%E5%90%89%E7%9E%AC%E9%97%B4%E5%8F%AC%E5%94%A4_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
   },
   {
     "key": "spell:dust devil",
@@ -19902,12 +21243,21 @@
         "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
         "accessed": "2026-11-06",
         "retrieval": "search-indexed bilingual table; direct page returned HTTP 403"
+      },
+      {
+        "edition": "1E",
+        "source": "AD&D 1E curated glossary",
+        "en": "Hold Person",
+        "zh": "人类定身术",
+        "url": "src/published/books/dmg/glossary-2.md#169"
       }
     ],
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。",
-      "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。"
-    ]
+      "采用优先级最高的3R精确名称证据；普通人工译名记录不覆盖。",
+      "AD&D 1E 术语表提供明确中英名称对照；此证据只核定术语名称，不替代对规则机制的审查。"
+    ],
+    "verificationScope": "1e-glossary-label"
   },
   {
     "key": "spell:invisibility to undead",
@@ -20573,6 +21923,678 @@
     "notes": []
   },
   {
+    "key": "spell:mordenkainen's defense against lycanthropes",
+    "category": "spell",
+    "en": "Mordenkainen's Defense Against Lycanthropes",
+    "zh": "魔邓肯的防御狼人术",
+    "englishVariants": [
+      "Mordenkainen's Defense Against Lycanthropes"
+    ],
+    "legacyZh": [
+      "莫登凯南的防御狼人术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的防御狼人术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/37",
+        "zh": "魔邓肯的防御狼人术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/680",
+        "zh": "魔邓肯的防御狼人术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "239",
+        "zh": "魔邓肯的防御狼人术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-defense-against-lycanthropes"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's defense against nonmagical reptiles and amphibians",
+    "category": "spell",
+    "en": "Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians",
+    "zh": "魔邓肯的非魔法爬虫与两栖动物防御术",
+    "englishVariants": [
+      "Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians"
+    ],
+    "legacyZh": [
+      "莫登凯南的非魔法爬虫与两栖动物防御术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的非魔法爬虫与两栖动物防御术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/38",
+        "zh": "魔邓肯的非魔法爬虫与两栖动物防御术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/681",
+        "zh": "魔邓肯的非魔法爬虫与两栖动物防御术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "4",
+        "zh": "魔邓肯的非魔法爬虫与两栖动物防御术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-defense-against-nonmagical-reptiles-and-amphibians"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's disjunction",
+    "category": "spell",
+    "en": "Mordenkainen's Disjunction",
+    "zh": "魔邓肯解离术",
+    "englishVariants": [
+      "Mordenkainen's Disjunction"
+    ],
+    "legacyZh": [
+      "莫登凯南解离术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯解离术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/609",
+        "zh": "魔邓肯解离术"
+      },
+      {
+        "path": "src/data/public/ua-spells-imported.json",
+        "location": "/222",
+        "zh": "魔邓肯解离术"
+      },
+      {
+        "path": "src/published/books/ua/ua-magic-user-spells-9.md",
+        "location": "39",
+        "zh": "魔邓肯解离术"
+      }
+    ],
+    "activeIds": [
+      "ua-magic-user-9-mordenkainen-s-disjunction"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's electric arc",
+    "category": "spell",
+    "en": "Mordenkainen's Electric Arc",
+    "zh": "魔邓肯的电弧术",
+    "englishVariants": [
+      "Mordenkainen's Electric Arc"
+    ],
+    "legacyZh": [
+      "莫登凯南的电弧术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的电弧术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/40",
+        "zh": "魔邓肯的电弧术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/683",
+        "zh": "魔邓肯的电弧术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "30",
+        "zh": "魔邓肯的电弧术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-electric-arc"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's encompassing vision",
+    "category": "spell",
+    "en": "Mordenkainen's Encompassing Vision",
+    "zh": "魔邓肯的全方位视觉术",
+    "englishVariants": [
+      "Mordenkainen's Encompassing Vision"
+    ],
+    "legacyZh": [
+      "莫登凯南的全方位视觉术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的全方位视觉术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/36",
+        "zh": "魔邓肯的全方位视觉术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/679",
+        "zh": "魔邓肯的全方位视觉术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "226",
+        "zh": "魔邓肯的全方位视觉术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-encompassing-vision"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's faithful phantom defenders",
+    "category": "spell",
+    "en": "Mordenkainen's Faithful Phantom Defenders",
+    "zh": "魔邓肯的忠诚幻影防卫者术",
+    "englishVariants": [
+      "Mordenkainen's Faithful Phantom Defenders"
+    ],
+    "legacyZh": [
+      "莫登凯南的忠诚幻影防卫者术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的忠诚幻影防卫者术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/43",
+        "zh": "魔邓肯的忠诚幻影防卫者术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/686",
+        "zh": "魔邓肯的忠诚幻影防卫者术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "69",
+        "zh": "魔邓肯的忠诚幻影防卫者术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-faithful-phantom-defenders"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's faithful phantom guardian",
+    "category": "spell",
+    "en": "Mordenkainen's Faithful Phantom Guardian",
+    "zh": "魔邓肯的忠诚幻影守卫术",
+    "englishVariants": [
+      "Mordenkainen's Faithful Phantom Guardian"
+    ],
+    "legacyZh": [
+      "莫登凯南的忠诚幻影守卫术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的忠诚幻影守卫术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/45",
+        "zh": "魔邓肯的忠诚幻影守卫术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/688",
+        "zh": "魔邓肯的忠诚幻影守卫术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "105",
+        "zh": "魔邓肯的忠诚幻影守卫术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-faithful-phantom-guardian"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's faithful phantom shield-maidens",
+    "category": "spell",
+    "en": "Mordenkainen's Faithful Phantom Shield-Maidens",
+    "zh": "魔邓肯的忠诚幻影盾女术",
+    "englishVariants": [
+      "Mordenkainen's Faithful Phantom Shield-Maidens"
+    ],
+    "legacyZh": [
+      "莫登凯南的忠诚幻影盾女术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的忠诚幻影盾女术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/41",
+        "zh": "魔邓肯的忠诚幻影盾女术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/684",
+        "zh": "魔邓肯的忠诚幻影盾女术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "43",
+        "zh": "魔邓肯的忠诚幻影盾女术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-faithful-phantom-shield-maidens"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's penultimate cogitation",
+    "category": "spell",
+    "en": "Mordenkainen's Penultimate Cogitation",
+    "zh": "魔邓肯的末前思虑术",
+    "englishVariants": [
+      "Mordenkainen's Penultimate Cogitation"
+    ],
+    "legacyZh": [
+      "莫登凯南的末前思虑术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的末前思虑术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/46",
+        "zh": "魔邓肯的末前思虑术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/689",
+        "zh": "魔邓肯的末前思虑术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "122",
+        "zh": "魔邓肯的末前思虑术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-penultimate-cogitation"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's protection from avians",
+    "category": "spell",
+    "en": "Mordenkainen's Protection from Avians",
+    "zh": "魔邓肯的鸟类防护术",
+    "englishVariants": [
+      "Mordenkainen's Protection from Avians"
+    ],
+    "legacyZh": [
+      "莫登凯南的鸟类防护术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的鸟类防护术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/35",
+        "zh": "魔邓肯的鸟类防护术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/678",
+        "zh": "魔邓肯的鸟类防护术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-drawmij-mordenkainen.md",
+        "location": "213",
+        "zh": "魔邓肯的鸟类防护术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-protection-from-avians"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's protection from insects and arachnids",
+    "category": "spell",
+    "en": "Mordenkainen's Protection from Insects and Arachnids",
+    "zh": "魔邓肯的昆虫与蛛形动物防护术",
+    "englishVariants": [
+      "Mordenkainen's Protection from Insects and Arachnids"
+    ],
+    "legacyZh": [
+      "莫登凯南的昆虫与蛛形动物防护术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的昆虫与蛛形动物防护术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/39",
+        "zh": "魔邓肯的昆虫与蛛形动物防护术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/682",
+        "zh": "魔邓肯的昆虫与蛛形动物防护术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "17",
+        "zh": "魔邓肯的昆虫与蛛形动物防护术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-protection-from-insects-and-arachnids"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:mordenkainen's protection from slime",
+    "category": "spell",
+    "en": "Mordenkainen's Protection from Slime",
+    "zh": "魔邓肯的防护黏液术",
+    "englishVariants": [
+      "Mordenkainen's Protection from Slime"
+    ],
+    "legacyZh": [
+      "莫登凯南的防护黏液术",
+      "魔邓肯之剑"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "魔邓肯的防护黏液术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/42",
+        "zh": "魔邓肯的防护黏液术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/685",
+        "zh": "魔邓肯的防护黏液术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "56",
+        "zh": "魔邓肯的防护黏液术"
+      }
+    ],
+    "activeIds": [
+      "gha-mordenkainens-protection-from-slime"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Mordenkainen's Sword",
+        "zh": "魔邓肯之剑",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E9%AD%94%E9%82%93%E8%82%AF%E4%B9%8B%E5%89%91_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
     "key": "spell:move earth",
     "category": "spell",
     "en": "Move Earth",
@@ -20644,6 +22666,118 @@
     ]
   },
   {
+    "key": "spell:nystul's blacklight burst",
+    "category": "spell",
+    "en": "Nystul's Blacklight Burst",
+    "zh": "涅斯图的黑光爆发术",
+    "englishVariants": [
+      "Nystul's Blacklight Burst"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的黑光爆发术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的黑光爆发术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/56",
+        "zh": "涅斯图的黑光爆发术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/699",
+        "zh": "涅斯图的黑光爆发术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-nystul-otiluke.md",
+        "location": "40",
+        "zh": "涅斯图的黑光爆发术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-blacklight-burst"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's blackmote",
+    "category": "spell",
+    "en": "Nystul's Blackmote",
+    "zh": "涅斯图的黑微点术",
+    "englishVariants": [
+      "Nystul's Blackmote"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的黑微点术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的黑微点术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/49",
+        "zh": "涅斯图的黑微点术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/692",
+        "zh": "涅斯图的黑微点术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "163",
+        "zh": "涅斯图的黑微点术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-blackmote"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
     "key": "spell:nystul's blazing beam",
     "category": "spell",
     "en": "Nystul's Blazing Beam",
@@ -20653,6 +22787,7 @@
     ],
     "legacyZh": [
       "Nystul 的灼热光束术",
+      "涅斯图魔法灵光",
       "诺斯图的灼热光束术"
     ],
     "occurrences": [
@@ -20705,6 +22840,393 @@
     "verificationScope": "caster-name only; remaining spell name pending"
   },
   {
+    "key": "spell:nystul's crystal dagger",
+    "category": "spell",
+    "en": "Nystul's Crystal Dagger",
+    "zh": "涅斯图的水晶匕首术",
+    "englishVariants": [
+      "Nystul's Crystal Dagger"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的水晶匕首术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的水晶匕首术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/51",
+        "zh": "涅斯图的水晶匕首术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/694",
+        "zh": "涅斯图的水晶匕首术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "191",
+        "zh": "涅斯图的水晶匕首术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-crystal-dagger"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's crystal dirk",
+    "category": "spell",
+    "en": "Nystul's Crystal Dirk",
+    "zh": "涅斯图的水晶短剑术",
+    "englishVariants": [
+      "Nystul's Crystal Dirk"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的水晶短剑术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的水晶短剑术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/52",
+        "zh": "涅斯图的水晶短剑术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/695",
+        "zh": "涅斯图的水晶短剑术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "204",
+        "zh": "涅斯图的水晶短剑术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-crystal-dirk"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's dancing werelight",
+    "category": "spell",
+    "en": "Nystul's Dancing Werelight",
+    "zh": "涅斯图的舞动幽光术",
+    "englishVariants": [
+      "Nystul's Dancing Werelight"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的舞动幽光术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的舞动幽光术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/47",
+        "zh": "涅斯图的舞动幽光术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/690",
+        "zh": "涅斯图的舞动幽光术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "137",
+        "zh": "涅斯图的舞动幽光术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-dancing-werelight"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's enveloping darkness",
+    "category": "spell",
+    "en": "Nystul's Enveloping Darkness",
+    "zh": "涅斯图的包覆黑暗术",
+    "englishVariants": [
+      "Nystul's Enveloping Darkness"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的包覆黑暗术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的包覆黑暗术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/59",
+        "zh": "涅斯图的包覆黑暗术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/702",
+        "zh": "涅斯图的包覆黑暗术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-enveloping-darkness"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's expeditious fire extinguisher",
+    "category": "spell",
+    "en": "Nystul's Expeditious Fire Extinguisher",
+    "zh": "涅斯图的迅捷灭火术",
+    "englishVariants": [
+      "Nystul's Expeditious Fire Extinguisher"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的迅捷灭火术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的迅捷灭火术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/53",
+        "zh": "涅斯图的迅捷灭火术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/696",
+        "zh": "涅斯图的迅捷灭火术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "217",
+        "zh": "涅斯图的迅捷灭火术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-expeditious-fire-extinguisher"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's flash",
+    "category": "spell",
+    "en": "Nystul's Flash",
+    "zh": "涅斯图的闪光术",
+    "englishVariants": [
+      "Nystul's Flash"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的闪光术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的闪光术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/48",
+        "zh": "涅斯图的闪光术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/691",
+        "zh": "涅斯图的闪光术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-mordenkainen-nystul.md",
+        "location": "150",
+        "zh": "涅斯图的闪光术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-flash"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's golden revelation",
+    "category": "spell",
+    "en": "Nystul's Golden Revelation",
+    "zh": "涅斯图的黄金揭示术",
+    "englishVariants": [
+      "Nystul's Golden Revelation"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的黄金揭示术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的黄金揭示术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/54",
+        "zh": "涅斯图的黄金揭示术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/697",
+        "zh": "涅斯图的黄金揭示术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-nystul-otiluke.md",
+        "location": "4",
+        "zh": "涅斯图的黄金揭示术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-golden-revelation"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
     "key": "spell:nystul's grue conjuration",
     "category": "spell",
     "en": "Nystul's Grue Conjuration",
@@ -20714,6 +23236,7 @@
     ],
     "legacyZh": [
       "涅斯图的元素惧灵召唤术",
+      "涅斯图魔法灵光",
       "诺斯图的元素孽怪召唤术"
     ],
     "occurrences": [
@@ -20740,6 +23263,164 @@
     ],
     "activeIds": [
       "gha-nystuls-grue-conjuration"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's lightburst",
+    "category": "spell",
+    "en": "Nystul's Lightburst",
+    "zh": "涅斯图的光爆术",
+    "englishVariants": [
+      "Nystul's Lightburst"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的光爆术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的光爆术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/58",
+        "zh": "涅斯图的光爆术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/701",
+        "zh": "涅斯图的光爆术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-lightburst"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's radiant arch",
+    "category": "spell",
+    "en": "Nystul's Radiant Arch",
+    "zh": "涅斯图的辉光拱门术",
+    "englishVariants": [
+      "Nystul's Radiant Arch"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的辉光拱门术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的辉光拱门术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/60",
+        "zh": "涅斯图的辉光拱门术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/703",
+        "zh": "涅斯图的辉光拱门术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-radiant-arch"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Nystul's Magic Aura",
+        "zh": "涅斯图魔法灵光",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 302,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%B6%85%E6%96%AF%E5%9B%BE%E9%AD%94%E6%B3%95%E7%81%B5%E5%85%89_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:nystul's radiant baton",
+    "category": "spell",
+    "en": "Nystul's Radiant Baton",
+    "zh": "涅斯图的辉光棱杖术",
+    "englishVariants": [
+      "Nystul's Radiant Baton"
+    ],
+    "legacyZh": [
+      "涅斯图魔法灵光",
+      "诺斯图的辉光棱杖术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "涅斯图的辉光棱杖术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/55",
+        "zh": "涅斯图的辉光棱杖术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/698",
+        "zh": "涅斯图的辉光棱杖术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-nystul-otiluke.md",
+        "location": "17",
+        "zh": "涅斯图的辉光棱杖术"
+      }
+    ],
+    "activeIds": [
+      "gha-nystuls-radiant-baton"
     ],
     "status": "adapted-element",
     "references": [
@@ -20810,6 +23491,678 @@
     "status": "pending",
     "references": [],
     "notes": []
+  },
+  {
+    "key": "spell:otiluke's acid cloud",
+    "category": "spell",
+    "en": "Otiluke's Acid Cloud",
+    "zh": "欧提路克的酸云术",
+    "englishVariants": [
+      "Otiluke's Acid Cloud"
+    ],
+    "legacyZh": [
+      "Otiluke 的酸云术",
+      "欧提路克弹力法球"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "欧提路克的酸云术"
+      },
+      {
+        "path": "src/data/public/gha-spells.ts",
+        "location": "10",
+        "zh": "欧提路克的酸云术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/64",
+        "zh": "欧提路克的酸云术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/707",
+        "zh": "欧提路克的酸云术"
+      }
+    ],
+    "activeIds": [
+      "gha-otiluke-acid-cloud"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otiluke's Resilient Sphere",
+        "zh": "欧提路克弹力法球",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%AC%A7%E6%8F%90%E8%B7%AF%E5%85%8B%E5%BC%B9%E5%8A%9B%E6%B3%95%E7%90%83_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's chime of release",
+    "category": "spell",
+    "en": "Otto's Chime of Release",
+    "zh": "奥图的解放钟声术",
+    "englishVariants": [
+      "Otto's Chime of Release"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的解放钟声术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的解放钟声术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/77",
+        "zh": "奥图的解放钟声术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/720",
+        "zh": "奥图的解放钟声术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "70",
+        "zh": "奥图的解放钟声术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-chime-of-release"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's crystal rhythms",
+    "category": "spell",
+    "en": "Otto's Crystal Rhythms",
+    "zh": "奥图的水晶节律术",
+    "englishVariants": [
+      "Otto's Crystal Rhythms"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的水晶节律术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的水晶节律术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/80",
+        "zh": "奥图的水晶节律术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/723",
+        "zh": "奥图的水晶节律术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "109",
+        "zh": "奥图的水晶节律术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-crystal-rhythms"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's drums of despair",
+    "category": "spell",
+    "en": "Otto's Drums of Despair",
+    "zh": "奥图的绝望鼓声术",
+    "englishVariants": [
+      "Otto's Drums of Despair"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的绝望鼓声术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的绝望鼓声术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/82",
+        "zh": "奥图的绝望鼓声术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/725",
+        "zh": "奥图的绝望鼓声术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "135",
+        "zh": "奥图的绝望鼓声术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-drums-of-despair"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's gong of isolation",
+    "category": "spell",
+    "en": "Otto's Gong of Isolation",
+    "zh": "奥图的隔绝钟声术",
+    "englishVariants": [
+      "Otto's Gong of Isolation"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的隔绝钟声术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的隔绝钟声术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/87",
+        "zh": "奥图的隔绝钟声术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/730",
+        "zh": "奥图的隔绝钟声术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "212",
+        "zh": "奥图的隔绝钟声术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-gong-of-isolation"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's silver tongue",
+    "category": "spell",
+    "en": "Otto's Silver Tongue",
+    "zh": "奥图的银舌术",
+    "englishVariants": [
+      "Otto's Silver Tongue"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的银舌术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的银舌术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/83",
+        "zh": "奥图的银舌术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/726",
+        "zh": "奥图的银舌术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "150",
+        "zh": "奥图的银舌术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-silver-tongue"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's soothing vibrations",
+    "category": "spell",
+    "en": "Otto's Soothing Vibrations",
+    "zh": "奥图的舒缓振动术",
+    "englishVariants": [
+      "Otto's Soothing Vibrations"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的舒缓振动术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的舒缓振动术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/78",
+        "zh": "奥图的舒缓振动术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/721",
+        "zh": "奥图的舒缓振动术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "83",
+        "zh": "奥图的舒缓振动术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-soothing-vibrations"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's sure-footed shuffle",
+    "category": "spell",
+    "en": "Otto's Sure-Footed Shuffle",
+    "zh": "奥图的稳足曳步术",
+    "englishVariants": [
+      "Otto's Sure-Footed Shuffle"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的稳足曳步术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的稳足曳步术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/81",
+        "zh": "奥图的稳足曳步术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/724",
+        "zh": "奥图的稳足曳步术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "122",
+        "zh": "奥图的稳足曳步术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-sure-footed-shuffle"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's tin soldiers",
+    "category": "spell",
+    "en": "Otto's Tin Soldiers",
+    "zh": "奥图的锡兵术",
+    "englishVariants": [
+      "Otto's Tin Soldiers"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的锡兵术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的锡兵术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/84",
+        "zh": "奥图的锡兵术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/727",
+        "zh": "奥图的锡兵术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "163",
+        "zh": "奥图的锡兵术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-tin-soldiers"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's tonal attack",
+    "category": "spell",
+    "en": "Otto's Tonal Attack",
+    "zh": "奥图的音调攻击术",
+    "englishVariants": [
+      "Otto's Tonal Attack"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的音调攻击术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的音调攻击术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/85",
+        "zh": "奥图的音调攻击术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/728",
+        "zh": "奥图的音调攻击术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "186",
+        "zh": "奥图的音调攻击术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-tonal-attack"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's tones of forgetfulness",
+    "category": "spell",
+    "en": "Otto's Tones of Forgetfulness",
+    "zh": "奥图的遗忘音调术",
+    "englishVariants": [
+      "Otto's Tones of Forgetfulness"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的遗忘音调术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的遗忘音调术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/79",
+        "zh": "奥图的遗忘音调术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/722",
+        "zh": "奥图的遗忘音调术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "96",
+        "zh": "奥图的遗忘音调术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-tones-of-forgetfulness"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
+  },
+  {
+    "key": "spell:otto's warding tones",
+    "category": "spell",
+    "en": "Otto's Warding Tones",
+    "zh": "奥图的警戒音调术",
+    "englishVariants": [
+      "Otto's Warding Tones"
+    ],
+    "legacyZh": [
+      "奥图迷舞",
+      "奥托的警戒音调术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "奥图的警戒音调术"
+      },
+      {
+        "path": "src/data/public/regional-spells.json",
+        "location": "/86",
+        "zh": "奥图的警戒音调术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/729",
+        "zh": "奥图的警戒音调术"
+      },
+      {
+        "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
+        "location": "199",
+        "zh": "奥图的警戒音调术"
+      }
+    ],
+    "activeIds": [
+      "gha-ottos-warding-tones"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Otto's Irresistible Dance",
+        "zh": "奥图迷舞",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 303,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E5%A5%A5%E5%9B%BE%E8%BF%B7%E8%88%9E_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
   },
   {
     "key": "spell:permanency",
@@ -21405,6 +24758,67 @@
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
     ]
+  },
+  {
+    "key": "spell:rary's mnemonic enhancer",
+    "category": "spell",
+    "en": "Rary's Mnemonic Enhancer",
+    "zh": "拉瑞的记忆强化术",
+    "englishVariants": [
+      "Rary's Mnemonic Enhancer"
+    ],
+    "legacyZh": [
+      "拉瑞心灵联结",
+      "拉瑞的记忆增强术"
+    ],
+    "occurrences": [
+      {
+        "path": "@library",
+        "location": "",
+        "zh": "拉瑞的记忆强化术"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "location": "/238",
+        "zh": "拉瑞的记忆强化术"
+      },
+      {
+        "path": "src/data/public/spells-imported.json",
+        "location": "/238",
+        "zh": "拉瑞的记忆强化术"
+      },
+      {
+        "path": "src/published/books/dmg/dmg-spell-explanations-magic-users.md",
+        "location": "121",
+        "zh": "拉瑞的记忆强化术"
+      },
+      {
+        "path": "src/published/books/phb/spell-explanations-magic-users.md",
+        "location": "1387",
+        "zh": "拉瑞的记忆强化术"
+      }
+    ],
+    "activeIds": [
+      "rarys-mnemonic-enhancer"
+    ],
+    "status": "adapted-element",
+    "references": [
+      {
+        "en": "Rary's Telepathic Bond",
+        "zh": "拉瑞心灵联结",
+        "category": "spell",
+        "edition": "5R",
+        "source": "XPHB",
+        "page": 311,
+        "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
+        "entryUrl": "https://5e.kiwee.top/spells.html#%E6%8B%89%E7%91%9E%E5%BF%83%E7%81%B5%E8%81%94%E7%BB%93_xphb",
+        "accessed": "2026-11-06"
+      }
+    ],
+    "notes": [
+      "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
+    ],
+    "verificationScope": "caster-name only; remaining spell name pending"
   },
   {
     "key": "spell:reincarnate",
@@ -22661,44 +26075,6 @@
     ],
     "notes": [
       "英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。"
-    ]
-  },
-  {
-    "key": "subclassFeature:shadow spells",
-    "category": "subclassFeature",
-    "en": "Shadow Spells",
-    "zh": "暗影法术",
-    "englishVariants": [],
-    "legacyZh": [],
-    "occurrences": [],
-    "activeIds": [],
-    "status": "reference-conflict",
-    "references": [
-      {
-        "en": "Shadow Spells",
-        "zh": "暗影法术",
-        "category": "subclassFeature",
-        "edition": "5E",
-        "source": "WoW",
-        "page": null,
-        "url": "https://5e.kiwee.top/data/class/class-cleric.json",
-        "entryUrl": "https://5e.kiwee.top/class-cleric.html#%E6%9A%97%E5%BD%B1%E6%B3%95%E6%9C%AF_wow",
-        "accessed": "2026-11-24"
-      },
-      {
-        "en": "Shadow Spells",
-        "zh": "幽影法术",
-        "category": "subclassFeature",
-        "edition": "5E",
-        "source": "RHW",
-        "page": 23,
-        "url": "https://5e.kiwee.top/data/class/class-sorcerer.json",
-        "entryUrl": "https://5e.kiwee.top/class-sorcerer.html#%E5%B9%BD%E5%BD%B1%E6%B3%95%E6%9C%AF_rhw",
-        "accessed": "2026-11-24"
-      }
-    ],
-    "notes": [
-      "仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。"
     ]
   }
 ]

@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "stage": "source-term-inventory",
+  "coverage": "Printed pp.13–18 / PDF pp.14–19, race sections only; charisma table on p.13 and class introduction on p.18 cross-referenced, not claimed as entire class review.",
+  "source": "Local original PDF text layer; PDF pp.15–17 rendered; pp.15 and 17 visually inspected for OCR ambiguities. DMG printed p.97 definition checked for two door types.",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Race",
+      "zh": "种族",
+      "page": 13
+    },
+    {
+      "category": "rule",
+      "en": "Character Class",
+      "zh": "角色职业",
+      "page": 18
+    },
+    {
+      "category": "rule",
+      "en": "Sub-Class",
+      "zh": "子职",
+      "page": 13
+    },
+    {
+      "category": "rule",
+      "en": "Character Class Limitations",
+      "zh": "职业选择限制",
+      "page": 13
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Scores",
+      "zh": "属性值下限",
+      "page": 15
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Scores",
+      "zh": "属性值上限",
+      "page": 15
+    },
+    {
+      "category": "rule",
+      "en": "Multi-Classed Character",
+      "zh": "多职业角色",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Racial Preferences",
+      "zh": "种族好恶",
+      "page": 18
+    },
+    {
+      "category": "rule",
+      "en": "Initial Ability Scores",
+      "zh": "初始属性值",
+      "page": 14
+    },
+    {
+      "category": "rule",
+      "en": "Penalties and Bonuses for Race",
+      "zh": "种族减值与加值",
+      "page": 14
+    },
+    {
+      "category": "rule",
+      "en": "Secret Door",
+      "zh": "暗门",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Concealed Door",
+      "zh": "掩蔽门",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Detect Grade or Slope in Passage, Upwards or Downwards",
+      "zh": "辨识通道坡向",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Detect New Construction or Passage/Tunnel",
+      "zh": "辨识新建通道／隧道",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Detect Sliding or Shifting Walls or Rooms",
+      "zh": "辨识滑动或移动的墙壁与房间",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Detect Traps Involving Pits, Falling Blocks and Other Stonework",
+      "zh": "辨识陷坑、落石及其他石工陷阱",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Determine Approximate Depth Underground",
+      "zh": "估计地下深度",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Detect Unsafe Walls, Ceilings, or Floors",
+      "zh": "辨识不稳固的墙壁、顶壁与地面",
+      "page": 16
+    },
+    {
+      "category": "rule",
+      "en": "Determine Direction of Travel Underground",
+      "zh": "辨识地下行进方向",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Common Tongue",
+      "zh": "通用语",
+      "page": 15
+    },
+    {
+      "category": "language",
+      "en": "Dwarvish",
+      "zh": "矮人语",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Elvish",
+      "zh": "精灵语",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Gnome",
+      "zh": "侏儒语",
+      "page": 15
+    },
+    {
+      "category": "language",
+      "en": "Halfling",
+      "zh": "半身人语",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Orcish",
+      "zh": "兽人语",
+      "page": 15
+    },
+    {
+      "category": "language",
+      "en": "Goblin",
+      "zh": "地精语",
+      "page": 15
+    },
+    {
+      "category": "language",
+      "en": "Hobgoblin",
+      "zh": "大地精语",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Gnoll",
+      "zh": "鬣狗语",
+      "page": 16
+    },
+    {
+      "category": "language",
+      "en": "Kobold",
+      "zh": "狗头人语",
+      "page": 15
+    },
+    {
+      "category": "race",
+      "en": "Mountain Dwarves",
+      "zh": "山地矮人",
+      "page": 15
+    },
+    {
+      "category": "race",
+      "en": "High Elves",
+      "zh": "高等精灵",
+      "page": 16
+    },
+    {
+      "category": "race",
+      "en": "Hairfeet",
+      "zh": "毛足半身人",
+      "page": 14
+    },
+    {
+      "category": "race",
+      "en": "Tallfellows",
+      "zh": "高个半身人",
+      "page": 14
+    },
+    {
+      "category": "race",
+      "en": "Stouts",
+      "zh": "敦实半身人",
+      "page": 14
+    }
+  ],
+  "reviewedRaceAliases": [
+    {
+      "en": "Dwarf",
+      "variant": "Dwarves"
+    },
+    {
+      "en": "Elf",
+      "variant": "Elves"
+    },
+    {
+      "en": "Gnome",
+      "variant": "Gnomes"
+    },
+    {
+      "en": "Half-Elf",
+      "variant": "Half-Elves"
+    },
+    {
+      "en": "Halfling",
+      "variant": "Halflings"
+    },
+    {
+      "en": "Half-Orc",
+      "variant": "Half-Orcs"
+    },
+    {
+      "en": "Human",
+      "variant": "Humans"
+    }
+  ],
+  "machineCandidates": 52,
+  "pageSpecificReceipts": 62,
+  "receiptOutcomes": {
+    "alias": 22,
+    "excluded": 34,
+    "reuse": 4,
+    "approved": 2
+  },
+  "limits": [
+    "Candidate TSV may truncate locators; receipts close only listed page occurrences, not all occurrences of these words.",
+    "3R offline evidence partial. No match does not prove no translation.",
+    "Same spelling across language, monster and race categories is intentionally preserved.",
+    "Character class rules and compound class combinations continue with PHB pp.18 onward."
+  ],
+  "next": "PHB printed pp.18–33: class tables, cleric/druid/fighter/paladin/ranger/magic-user/illusionist/thief/assassin/monk; then multiclass and dual-class rules.",
+  "validation": "All 34 new names and senses, seven reviewed race aliases, separated language/creature homonyms and distinct door labels checked; test:terminology passed. All 52 listed candidates closed at their 62 listed page occurrences.",
+  "counts": {
+    "catalog": 8497,
+    "catalogStatus": {
+      "pending": 6757,
+      "verified-exact": 1384,
+      "reference-conflict": 1,
+      "adapted-variant": 233,
+      "adapted-element": 122
+    },
+    "ruleForms": 682,
+    "ruleStatus": {
+      "verified-exact": 472,
+      "adapted-variant": 210
+    }
+  }
+}

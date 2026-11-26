@@ -3,15 +3,19 @@
   "info": {
     "title": "AD&D 1E 中文资料中英术语 API",
     "version": "1.0.0",
-    "description": "公开读取 AD&D 1E 中文资料术语库。每条记录保留英文原词、中文译名、类别、核对状态、别名及可追溯出处。reference-only 表示跨版本参考，不应直接作为 AD&D 1E 定译。"
+    "description": "公开读取只收录自 AD&D 1E 资料库英文原文的术语表。每条记录保留 1E 英文原词、中文主译、类别、译名处理状态、适用范围、义项语境、别名及出处；3R、5E、5R 只作为对应 1E 词项的译名参考，不作为独立词条加入。按 3R→5E→5R 查找现成译法；无适用译法时按术语惯例自译，并在 verificationScope 标明。多义词提供 senses 语境数组。pending 仅表示原词或关键语境未辨明。"
   },
-  "servers": [{ "url": "https://adnd1e-cn.pages.dev" }],
+  "servers": [
+    {
+      "url": "https://adnd1e-cn.pages.dev"
+    }
+  ],
   "paths": {
     "/api/terminology/v1.json": {
       "get": {
         "operationId": "getTerminologyCatalog",
         "summary": "获取完整中英术语表",
-        "description": "静态 JSON 快照，无需 API 密钥。响应按 3R、5E、5R 顺序记录译名参考优先级。可由调用方按 category、status、en、zh、aliases 筛选。",
+        "description": "静态 JSON 快照，无需 API 密钥。只含 AD&D 1E 原文词项；后续版本仅作为译名证据附在对应 1E 条目上。按 3R、5E、5R 顺序记录译名参考优先级，可由调用方按 category、status、en、zh、aliases、senses 筛选。",
         "responses": {
           "200": {
             "description": "术语目录",
@@ -19,30 +23,206 @@
               "application/json": {
                 "schema": {
                   "type": "object",
-                  "required": ["schemaVersion", "total", "translationPriority", "statusDefinitions", "entries"],
+                  "required": [
+                    "schemaVersion",
+                    "total",
+                    "translationPriority",
+                    "statusDefinitions",
+                    "entries"
+                  ],
                   "properties": {
-                    "schemaVersion": { "type": "string", "example": "1.0.0" },
-                    "total": { "type": "integer" },
-                    "translationPriority": { "type": "array", "items": { "type": "string" }, "example": ["3R", "5E", "5R"] },
-                    "statusDefinitions": { "type": "object", "additionalProperties": { "type": "string" } },
+                    "schemaVersion": {
+                      "type": "string",
+                      "example": "1.0.0"
+                    },
+                    "total": {
+                      "type": "integer"
+                    },
+                    "translationPriority": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "example": [
+                        "3R",
+                        "5E",
+                        "5R"
+                      ]
+                    },
+                    "statusDefinitions": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
                     "entries": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["id", "en", "zh", "category", "status", "aliases", "englishVariants", "references", "occurrences", "notes"],
+                        "required": [
+                          "id",
+                          "en",
+                          "zh",
+                          "category",
+                          "status",
+                          "aliases",
+                          "englishVariants",
+                          "references",
+                          "occurrences",
+                          "notes",
+                          "senses"
+                        ],
                         "properties": {
-                          "id": { "type": "string" },
-                          "en": { "type": "string", "description": "英文原词或名称" },
-                          "zh": { "type": "string", "description": "当前中文译名或待核暂译" },
-                          "category": { "type": "string" },
-                          "status": { "type": "string", "enum": ["verified-exact", "pending", "adapted-variant", "adapted-element", "reference-conflict", "reference-only"] },
-                          "verificationScope": { "type": ["string", "null"] },
-                          "aliases": { "type": "array", "items": { "type": "string" } },
-                          "englishVariants": { "type": "array", "items": { "type": "string" } },
-                          "activeIds": { "type": "array", "items": { "type": "string" } },
-                          "references": { "type": "array", "items": { "type": "object" } },
-                          "occurrences": { "type": "array", "items": { "type": "object" } },
-                          "notes": { "type": "array", "items": { "type": "string" } }
+                          "id": {
+                            "type": "string"
+                          },
+                          "en": {
+                            "type": "string",
+                            "description": "英文原词或名称"
+                          },
+                          "zh": {
+                            "type": "string",
+                            "description": "当前中文译名或待核暂译"
+                          },
+                          "category": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "string",
+                            "enum": [
+                              "verified-exact",
+                              "pending",
+                              "adapted-variant",
+                              "adapted-element",
+                              "reference-conflict",
+                              "reference-only"
+                            ]
+                          },
+                          "verificationScope": {
+                            "type": [
+                              "string",
+                              "null"
+                            ],
+                            "description": "译名来源及适用范围；`self-translated-after-3R-5E-5R-search` 表示查找现成译法后按 1E 语境、D&D 惯例和词素完成自译；仅有版本参考时不代表规则机制已核定。"
+                          },
+                          "aliases": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "description": "目录中记录的旧中文译名或搜索别名；不保证可在所有语境互换。"
+                          },
+                          "englishVariants": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "description": "英文拼写、单复数或词形变体。"
+                          },
+                          "activeIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "description": "与站内资料关联的稳定 ID。"
+                          },
+                          "references": {
+                            "type": "array",
+                            "description": "可追溯的版本名称依据；空值表示该字段未提供。跨版本参考不自动构成 AD&D 1E 定译。",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "edition": {
+                                  "type": [
+                                    "string",
+                                    "null"
+                                  ],
+                                  "description": "版本标记，例如 3R、5E、5R、1E；other 表示非这些版本的附加来源，不参与 3R→5E→5R 定译优先级。"
+                                },
+                                "source": {
+                                  "type": [
+                                    "string",
+                                    "null"
+                                  ],
+                                  "description": "书目缩写。"
+                                },
+                                "world": {
+                                  "type": [
+                                    "string",
+                                    "null"
+                                  ],
+                                  "description": "设定世界名称（若适用）。"
+                                },
+                                "page": {
+                                  "type": [
+                                    "integer",
+                                    "string",
+                                    "null"
+                                  ],
+                                  "description": "来源页码或页段，例如 13 或 13–14。"
+                                },
+                                "url": {
+                                  "type": [
+                                    "string",
+                                    "null"
+                                  ],
+                                  "format": "uri",
+                                  "description": "来源或词条链接。"
+                                },
+                                "entryUrl": {
+                                  "type": [
+                                    "string",
+                                    "null"
+                                  ],
+                                  "format": "uri",
+                                  "description": "可直达具体词条的链接。"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          },
+                          "occurrences": {
+                            "type": "array",
+                            "description": "该词条在本地资料中的出现位置；不表示该处中文译法已核定。",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "path": {
+                                  "type": "string",
+                                  "description": "资料相对路径。"
+                                },
+                                "location": {
+                                  "type": "string",
+                                  "description": "行号、章节锚点或其他位置标记。"
+                                },
+                                "zh": {
+                                  "type": "string",
+                                  "description": "该位置现有中文显示；可能缺省或仍待修订。"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          },
+                          "notes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "senses": {
+                            "type": "array",
+                            "description": "同一英文词头的语境化义项；列出中文义项、使用语境、释义及原书定位。",
+                            "items": {
+                              "type": "object",
+                              "required": ["context", "zh", "meaning", "source"],
+                              "properties": {
+                                "context": {"type": "string"},
+                                "zh": {"type": "string"},
+                                "meaning": {"type": "string"},
+                                "source": {"type": "string"}
+                              }
+                            }
+                          }
                         }
                       }
                     }

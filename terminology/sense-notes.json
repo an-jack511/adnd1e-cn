@@ -1,0 +1,2135 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "category": "rule",
+      "en": "Level",
+      "senses": [
+        {
+          "context": "地下城结构",
+          "zh": "地下城层级",
+          "meaning": "楼层所在深度或挑战难度；按原文具体用法选择，不误作角色等级。",
+          "source": "src/published/books/dmg/dmg-glossary.md#48"
+        },
+        {
+          "context": "法术",
+          "zh": "法术环阶",
+          "meaning": "法术本身的等级；与角色等级、施法者等级和法术环位区分。",
+          "source": "src/published/books/dmg/glossary-2.md#152"
+        },
+        {
+          "context": "角色与职业成长",
+          "zh": "角色等级／职业等级／经验等级",
+          "meaning": "依原文所指，区分角色总体等级、单一职业等级及经验进阶等级。",
+          "source": "src/published/books/dmg/glossary-2.md#110; #111; #113; #173"
+        },
+        {
+          "context": "怪物数据",
+          "zh": "怪物强度级别",
+          "meaning": "部分原文以 level 表示怪物强弱尺度；须与 Hit Dice（生命骰）等具体数据字段分别判断。",
+          "source": "src/published/books/dmg/dmg-glossary.md#48; src/published/books/dmg/glossary-2.md#110"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Turn",
+      "senses": [
+        {
+          "context": "AD&D 1E 探索时间",
+          "zh": "回合",
+          "meaning": "十分钟，由十个一轮组成；不套用后续版本的六秒 turn。",
+          "source": "src/published/books/dmg/glossary-2.md#201"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Round",
+      "senses": [
+        {
+          "context": "AD&D 1E 战斗时间",
+          "zh": "轮",
+          "meaning": "一分钟，由十个六秒段组成；与十分钟回合及后续版本的 round 区分。",
+          "source": "src/published/books/dmg/glossary-2.md#78"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Segment",
+      "senses": [
+        {
+          "context": "AD&D 1E 战斗时间",
+          "zh": "段",
+          "meaning": "六秒，为一轮的十分之一。",
+          "source": "src/published/books/dmg/glossary-2.md#192"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Game Round",
+      "senses": [
+        {
+          "context": "AD&D 1E BATTLESYSTEM 大规模战斗",
+          "zh": "游戏轮",
+          "meaning": "由七个阶段构成的大规模战斗轮次；行动量可近似对应一轮近战，但实际历时更长，不能等同于通常的一分钟 melee round。",
+          "source": "../OCR/battlesystem-raw/text/page-005.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Mob",
+      "senses": [
+        {
+          "context": "AD&D 1E BATTLESYSTEM 部队类别",
+          "zh": "乌合之众",
+          "meaning": "未组织、未受指挥的群体部队类型；不要按普通语境笼统译作任意人群。",
+          "source": "../OCR/battlesystem-raw/text/page-007.txt; ../OCR/battlesystem-raw/text/page-012.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Rout",
+      "senses": [
+        {
+          "context": "AD&D 1E BATTLESYSTEM 士气与撤退规则",
+          "zh": "溃逃",
+          "meaning": "部队因士气失败而失序撤离战场的规则状态或行动；按句法判断名词和动词用法。",
+          "source": "../OCR/battlesystem-raw/text/page-007.txt; ../OCR/battlesystem-raw/text/page-012.txt; ../OCR/battlesystem-raw/text/page-016.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Strength",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "力量",
+          "meaning": "衡量肌肉力量、耐力与体能；特殊力量另列。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Dexterity",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "敏捷",
+          "meaning": "涵盖手眼协调、敏捷程度、反射、精确性、平衡与移动速度。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Constitution",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "体质",
+          "meaning": "涵盖体格、体能、健康与抵抗力；影响生命骰调整及生还概率。",
+          "source": "PHB printed p.12 / PDF p.13; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Charisma",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "魅力",
+          "meaning": "涵盖外貌吸引力、说服力与个人感染力；影响随从及交涉。",
+          "source": "PHB printed p.13 / PDF p.14; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hit Probability",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "命中概率修正",
+          "meaning": "力量表的数值是近战命中掷骰的加减修正，并非最终命中百分比。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Weight Allowance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "负重额度调整",
+          "meaning": "相对无负重移动基准的携重增减量，以金币重量计；不是总负重上限或举重上限。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Open Doors",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "撞门",
+          "meaning": "以六面骰判定强行打开卡住或沉重的门；特殊力量的括号值另用于锁住、闩住或魔法封住的门。与盗贼开锁分开。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Possible Number of Additional Languages",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "可额外掌握的语言数",
+          "meaning": "智力表列出的额外语言数量；原文另说明非人类种族语言限制，不将此数当作全部已知语言数。",
+          "source": "PHB printed p.10 / PDF p.11; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chance to Know Each Listed Spell",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "逐项法术习得概率",
+          "meaning": "魔法师按法术逐项作百分骰判定，决定是否能够习得；并非施法成功率。",
+          "source": "PHB printed p.10 / PDF p.11; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Number of Spells/Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "每环可习得法术数下限",
+          "meaning": "某环完整检索后若不足智力所定下限，可再检索未能习得的法术；不是每日准备或可施展次数下限。",
+          "source": "PHB printed p.10 / PDF p.11; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Number of Spells/Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "每环可习得法术数上限",
+          "meaning": "智力所限的每环可知、可记入法术书的法术数量；达到上限后不再继续检索该环法术，不是法术环位。",
+          "source": "PHB printed p.10 / PDF p.11; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spell Bonus",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "额外法术",
+          "meaning": "高感知给牧师的额外可用法术，须先具备使用相应环阶法术的资格；按表累加，不是法术攻击加值。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chance of Spell Failure",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "法术失败率",
+          "meaning": "低感知牧师施法失败的百分比；失败时法术消耗且无效果，与魔法师习得概率和后续版护甲施法失败分开。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Reaction/Attacking Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "反应／攻击调整",
+          "meaning": "敏捷表修正同时影响突袭情形与远程武器攻击；不是魅力表的交涉反应调整，也不是5E反应动作。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hit Point Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "生命值调整",
+          "meaning": "体质对每颗生命骰结果的增减；每颗结果最低为1，超过+2的加值限战士及其子职。不是每颗骰的骰型调整。",
+          "source": "PHB printed p.12 / PDF p.13; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Resurrection Survival",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "复生存活率",
+          "meaning": "体质决定被死者复活或复生术成功救回的百分比；与系统冲击存活率及初始体质所限的总复活次数分别记录。",
+          "source": "PHB printed p.12 / PDF p.13; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Number of Henchmen",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "随从人数上限",
+          "meaning": "魅力所限的长期随从人数；不限制受薪雇佣兵、武装侍从或其他雇员总数。",
+          "source": "PHB printed p.13 / PDF p.14; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Loyalty Base",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "忠诚度基础修正值",
+          "meaning": "魅力表对随从及其他侍从忠诚度数值的增减量；对应既有Loyalty Base Modifiers，不是最终忠诚度概率。",
+          "source": "PHB printed p.13 / PDF p.14; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Ability Score",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "属性值",
+          "meaning": "六项属性的数值；与属性修正值、技能值分开。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Intelligence",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "智力",
+          "meaning": "影响语言、魔法师法术习得与可用法术环阶；不移植后续版智力调整值公式。",
+          "source": "PHB printed p.10 / PDF p.11; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Wisdom",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "感知",
+          "meaning": "影响精神攻击相关豁免以及牧师额外法术与低感知失败率；不移植后续版技能机制。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Exceptional Strength",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "特殊力量",
+          "meaning": "力量18的战士及其子职使用百分骰细分；不是属性19，也不是一般属性调整值。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prime Requisite",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "主要属性",
+          "meaning": "本职业的主要属性；PHB pp.9–11以主要特征／主要属性措辞说明高分经验奖励，细则另见职业。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Damage Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "伤害修正",
+          "meaning": "力量对近战伤害掷骰的加减修正。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Bend Bars/Lift Gates",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "弯折铁条／抬起闸门",
+          "meaning": "百分骰判定弯折铁条或抬起垂直闸门的两种尝试，与六面骰撞门分开。",
+          "source": "PHB printed p.9 / PDF p.10; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Magical Attack Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "魔法攻击调整",
+          "meaning": "感知对特定精神攻击形式的豁免掷骰调整；不是施法攻击命中修正。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Defensive Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "防御调整／防御调整值",
+          "meaning": "敏捷对护甲防御及某些可闪避攻击的豁免调整；不能将较低AC误说成较差防御。",
+          "source": "PHB printed p.11 / PDF p.12; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "System Shock Survival",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "系统冲击存活率",
+          "meaning": "体质决定承受衰老、石化或变形等变化的生还概率，与复生存活率分开。",
+          "source": "PHB printed p.12 / PDF p.13; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Reaction Adjustment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 属性表与说明",
+          "zh": "反应调整值",
+          "meaning": "魅力对遭遇交涉的反应调整；不是敏捷的突袭／攻击调整或5E反应动作。",
+          "source": "PHB printed p.13 / PDF p.14; tmp/rule-source-audit/PHB.txt"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Race",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "种族",
+          "meaning": "角色的种族类别；种族、职业及种族亚种分别处理。",
+          "source": "PHB printed p.13 / PDF p.14"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Character Class",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "角色职业",
+          "meaning": "角色的职业；1E 主职业与子职分层，多职业角色同时在多种职业中成长。",
+          "source": "PHB printed p.18 / PDF p.19"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Sub-Class",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "子职",
+          "meaning": "隶属于主职业的类别，例如战士下的圣武士与巡林客；不是后续版在某级选择的子职机制。",
+          "source": "PHB printed p.13 / PDF p.14"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Character Class Limitations",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "职业选择限制",
+          "meaning": "种族表 I 的职业选择资格限制；与表 II 的职业等级上限分开。",
+          "source": "PHB printed p.13 / PDF p.14"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Scores",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "属性值下限",
+          "meaning": "种族所需的最低属性值，种族加值适用时计入；低于要求者不得选择该种族。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Scores",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "属性值上限",
+          "meaning": "先计入种族增减后，再把超出种族上限的属性值降低；与职业等级上限分开。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Multi-Classed Character",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "多职业角色",
+          "meaning": "非人类或半人类同时拥有多种职业，经验均分，即使其中职业已达上限；与人类先后更换职业分开。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Racial Preferences",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "种族好恶",
+          "meaning": "P偏爱、G友善、T容忍、N中立（仍可能存疑）、A反感、H憎恨；按原表表达种族关系，不合并为阵营或5E态度机制。",
+          "source": "PHB printed p.18 / PDF p.19"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initial Ability Scores",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "初始属性值",
+          "meaning": "原始生成的属性值，需与种族调整后数值区分；矮人和半兽人面对同族时的魅力说明使用未调整值。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Penalties and Bonuses for Race",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "种族减值与加值",
+          "meaning": "角色选择种族后对初始属性值的增减；与后续版统一属性调整值公式分开。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Secret Door",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "暗门",
+          "meaning": "门本身伪装为墙面等表面的一部分；精灵主动搜索时概率与掩蔽门不同。定义另见 DMG p.97。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Concealed Door",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "掩蔽门",
+          "meaning": "门被帘子、灰泥或地毯等遮住，移去遮掩后即可看出是门。DMG p.97明定与暗门有别；后续版将两者同译暗门的名称对不适用于本库消歧。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect Grade or Slope in Passage, Upwards or Downwards",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识通道坡向",
+          "meaning": "矮人、侏儒的地下辨识能力，侏儒与矮人的成功概率不同；须主动查探。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect New Construction or Passage/Tunnel",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识新建通道／隧道",
+          "meaning": "矮人辨识新建工程的表格字段；保留扫描原表的 or 字样，未自行校改英文。该表已目视核对。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect Sliding or Shifting Walls or Rooms",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识滑动或移动的墙壁与房间",
+          "meaning": "矮人地下辨识表所列的活动墙壁／房间侦测能力；不是施法侦测或自动察觉。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect Traps Involving Pits, Falling Blocks and Other Stonework",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识陷坑、落石及其他石工陷阱",
+          "meaning": "矮人专长范围内的石工陷阱辨识，不等同盗贼通用寻找／解除陷阱能力。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Determine Approximate Depth Underground",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "估计地下深度",
+          "meaning": "矮人与侏儒均可主动估计深度，但成功概率不同；此项不受其他侦测项目的近距要求限制。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect Unsafe Walls, Ceilings, or Floors",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识不稳固的墙壁、顶壁与地面",
+          "meaning": "侏儒地下侦测字段；按结构是否安全判别，不与矮人的活动墙壁侦测混为一项。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Determine Direction of Travel Underground",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "辨识地下行进方向",
+          "meaning": "侏儒地下辨向字段；不是感知方位法术或后续版技能检定。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Common Tongue",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "通用语",
+          "meaning": "人类通用语；不是怪物出现频率 Common“常见”。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Dwarvish",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "矮人语",
+          "meaning": "语言名称；PHB矮人段作 dwarven，侏儒段作 dwarvish。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Elvish",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "精灵语",
+          "meaning": "语言名称；PHB精灵段作 elvish，半身人段作 elven。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Gnome",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "侏儒语",
+          "meaning": "语言语境下的 gnome，不是侏儒种族。后续版用 Gnomish，作为词形线索而非精确原词证据。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Halfling",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "半身人语",
+          "meaning": "语言语境下的 halfling，与同名种族分别归类。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Orcish",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "兽人语",
+          "meaning": "PHB语言名称；后续版语言 Orc 的“兽人语”仅作词形依据，排除 WoW 词库。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Goblin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "地精语",
+          "meaning": "语言名称；与地精生物区分，保留1E不同种族语言列表。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Hobgoblin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "大地精语",
+          "meaning": "1E语言列表明确单列；不以5E常合并到地精语为由删去，依既有大地精名称加“语”构词。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Gnoll",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "鬣狗语",
+          "meaning": "语言名称；与鬣狗人生物区分，采用精确语言译名。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Kobold",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则／语言",
+          "zh": "狗头人语",
+          "meaning": "1E语言列表明确单列；不按5E通常使用龙语的规则合并，依狗头人名称加“语”构词。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Mountain Dwarves",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "山地矮人",
+          "meaning": "PHB可选矮人亚种；只采用名称，不套用后续版种族特性。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "High Elves",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "高等精灵",
+          "meaning": "PHB默认精灵角色所属类型；不把其他书中的精灵亚种自动视作已覆盖。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Hairfeet",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "毛足半身人",
+          "meaning": "原表脚注明确半身人亚种，已目视PDF p.15核实 OCR；按hair“毛”与feet“足”及半身人构词，不并入5E轻足亚种。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Tallfellows",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "高个半身人",
+          "meaning": "原表脚注明确半身人亚种；按tall“高个”及半身人构词。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Stouts",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "敦实半身人",
+          "meaning": "原表脚注明确半身人亚种；5E Stout 为“敦实”，复数词形并补种族名，标作有依据的自译／扩展名，不称后续版精确全称。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Dwarf",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "矮人",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Elf",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "精灵",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Gnome",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "侏儒",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.16 / PDF p.17"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Half-Elf",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "半精灵",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.17 / PDF p.18"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Halfling",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "半身人",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.17 / PDF p.18"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Half-Orc",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "半兽人",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.17 / PDF p.18"
+        }
+      ]
+    },
+    {
+      "category": "race",
+      "en": "Human",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "人类",
+          "meaning": "PHB可选角色种族；复数标题归并至此词头。",
+          "source": "PHB printed p.17 / PDF p.18"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Infravision",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "红外视觉",
+          "meaning": "借热辐射差异在黑暗中视物；矮人等通常为60英尺，半身人依血统有30／60英尺差异；不改称5E黑暗视觉或移植其机制。",
+          "source": "PHB printed p.15 / PDF p.16"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Class Level Limitations",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 种族规则",
+          "zh": "职业等级上限",
+          "meaning": "种族表II限定可达到的职业等级；括号表示仅NPC可有该职业，U表示无种族上限，不同于表I的是否可选。",
+          "source": "PHB printed p.14 / PDF p.15"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hit Dice Type",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表字段",
+          "zh": "生命骰骰型",
+          "meaning": "职业表I中决定所掷骰子的骰型；不同于生命骰数量或累计生命值。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Number of Hit Dice",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表字段",
+          "zh": "生命骰数量上限",
+          "meaning": "职业表I中的生命骰累积上限；达到后仍可能按等级增加固定生命值，不等同最高职业等级。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Level Title",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表字段",
+          "zh": "等级头衔",
+          "meaning": "职业等级表给出的称号；相同英文称号在其他职业或生物语境须另判义。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Armor and Weapons Permitted",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表字段",
+          "zh": "准用护甲与武器",
+          "meaning": "职业表II的装备使用限制标签；不把职业许可自动解释为已具有武器熟练项。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Acolyte",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "侍僧",
+          "meaning": "PHB牧师第1级的等级头衔。同名5E背景／生物提供名称对照，但不是将背景或怪物机制导入1E。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Adept",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "修士",
+          "meaning": "PHB牧师第2级的等级头衔。按宗教修习者语境定译；离线行家里手一名属于不适用的其他语境。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Priest",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "祭司",
+          "meaning": "PHB牧师第3级的等级头衔。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Curate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "助理牧师",
+          "meaning": "PHB牧师第4级的等级头衔。参考库虽有HotB同名译对，但该来源版本归属尚未核明，不按精确版别证据采用；本项目依助理教士语义自译。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Canon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "座堂教士",
+          "meaning": "PHB牧师第6级的等级头衔。canon在此指教士职位，不作经典、正典或规则正史解。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lama",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "喇嘛",
+          "meaning": "PHB牧师第7级的等级头衔。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Patriarch",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "宗主教",
+          "meaning": "PHB牧师第8级的等级头衔。正文另列女性同职头衔Matriarch；二者同为第8级，区别于家族族长或神祇身份。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "High Priest",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师等级头衔",
+          "zh": "高级祭司",
+          "meaning": "PHB牧师第9级的等级头衔。正文另列女性同职头衔High Priestess；后续等级沿用该头衔并带等级说明。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Aspirant",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "见习者",
+          "meaning": "PHB德鲁伊第1级头衔；依见习／占卜宗教职位语义构词，不按普通叙述词处理。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Ovate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "卜者",
+          "meaning": "PHB德鲁伊第2级头衔；依见习／占卜宗教职位语义构词，不按普通叙述词处理。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 1st Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第一环入门者",
+          "meaning": "德鲁伊第3级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 2nd Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第二环入门者",
+          "meaning": "德鲁伊第4级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 3rd Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第三环入门者",
+          "meaning": "德鲁伊第5级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 4th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第四环入门者",
+          "meaning": "德鲁伊第6级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 5th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第五环入门者",
+          "meaning": "德鲁伊第7级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 6th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第六环入门者",
+          "meaning": "德鲁伊第8级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 7th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第七环入门者",
+          "meaning": "德鲁伊第9级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 8th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第八环入门者",
+          "meaning": "德鲁伊第10级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 9th Circle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "第九环入门者",
+          "meaning": "德鲁伊第11级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Archdruid",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "大德鲁伊",
+          "meaning": "第13级头衔，同时只容三位；名称采用PHB(2014)的精确词对，1E席位限制另依原书。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "The Great Druid",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "至高德鲁伊",
+          "meaning": "第14级且只有一位；Great表达最高领袖，不能与第13级Archdruid同译大德鲁伊。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Grand Master of Flowers",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "百花大宗师",
+          "meaning": "职业表I明确武僧第17级头衔；依Grand Master“大宗师”及Flowers“百花”构词，完整武僧机制留待其小节盘点。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Plant Type",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊职业能力",
+          "zh": "辨识植物种类",
+          "meaning": "德鲁伊第3级能力；辨认植物种类，不是植物学技能检定或鉴定术。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Animal Type",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊职业能力",
+          "zh": "辨识动物种类",
+          "meaning": "德鲁伊第3级能力；辨认动物种类，不等同驯养、交涉或动物处理技能。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Pure Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊职业能力",
+          "zh": "辨识纯净水",
+          "meaning": "德鲁伊第3级能力；辨认纯净水，不意味着净化污染水或施放净化食粮。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Change Form",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊职业能力",
+          "zh": "变换形态",
+          "meaning": "德鲁伊第7级能力，变化为爬行动物、鸟或哺乳动物；不把后续版Wild Shape名称或机制反向当作1E原文。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Sacred Groves",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊住所",
+          "zh": "神圣林地",
+          "meaning": "德鲁伊通常居住的神圣林地；沿用神圣、林地词素，后续版Sacred Grove单数只作词形线索，不称精确复数证据。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Place of Worship",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师追随者",
+          "zh": "礼拜场所",
+          "meaning": "牧师吸引追随者的建设条件中的礼拜建筑；与第9级可建的宗教据点区分。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Religious Stronghold",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师领地",
+          "zh": "宗教要塞",
+          "meaning": "牧师第9级的堡垒化宗教建筑及领地经营条件；不将此称为一般礼拜场所或直接套用后续版据点系统。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Holy Symbol",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 宗教施法器物",
+          "zh": "圣徽",
+          "meaning": "牧师宗教象征物；与同名Holy Symbol法术分列类别，名称采用5E PHB的明确中英字段。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mistletoe",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊圣徽",
+          "zh": "槲寄生",
+          "meaning": "原文明确用作德鲁伊圣徽的植物；以通行植物名定译，不扩造Sprig of Mistletoe等后续版物品原词。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Centaur",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "人马语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按人马与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Dryad",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "树精语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按树精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Faun",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "半羊人语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按半羊人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。MM原文明确Satyrs (or fauns)，故依已核Satyr“半羊人”确定同义词根。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Green Dragon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "绿龙语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按绿龙与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Hill Giant",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "山丘巨人语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按山丘巨人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Lizardman",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "蜥蜴人语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按蜥蜴人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Manticore",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "刺尾狮语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按刺尾狮与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Nixie",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "水妖精语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按水妖精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。1E MM PDF p.75明确该水生精类使用本族语言；Nixie生物词头现有暂译未作为核译依据，此语名按水妖精语义自译。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Pixie",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "皮克精语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按皮克精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Sprite",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "小仙灵语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按小仙灵与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Treantish",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊附加语言",
+          "zh": "树人语",
+          "meaning": "PHB德鲁伊可选择学习的语言名；按树人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Druid",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊等级头衔",
+          "zh": "德鲁伊",
+          "meaning": "Druid既是职业名，也是该职业第12级的头衔；第12级只容九位，与13级大德鲁伊及14级至高德鲁伊分开。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表",
+          "zh": "牧师",
+          "meaning": "PHB主职业名；等级称号Priest并非将主职业改名为祭司。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spell Ability",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业表I",
+          "zh": "施法能力",
+          "meaning": "此栏只标示该职业能否使用法术；不表示施法属性修正值或每次施法的检定加值。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hit Dice",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业成长",
+          "zh": "生命骰",
+          "meaning": "不同职业有不同骰型与累积上限；职业等级、生命骰总数和固定生命值成长不可互相替代。",
+          "source": "PHB printed p.19 / PDF p.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Experience Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业等级表",
+          "zh": "经验等级",
+          "meaning": "角色的经验进阶等级；与同列Experience Points数值、生命骰数和等级头衔分开。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Followers",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师追随者",
+          "zh": "追随者",
+          "meaning": "牧师建成合格礼拜场所吸引的信众，与普通随从和受雇者分别处理。",
+          "source": "PHB printed p.20 / PDF p.21"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Henchman",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊侍从",
+          "zh": "随从",
+          "meaning": "原文明确高阶德鲁伊的职业体系侍从并不自动算作一般henchmen；不能据servitor一词混并身份。",
+          "source": "PHB printed p.21 / PDF p.22"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Veteran",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "老兵",
+          "meaning": "PHB战士第1级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Warrior",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "武者",
+          "meaning": "PHB战士第2级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Swordsman",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "剑士",
+          "meaning": "PHB战士第3级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hero",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "英雄",
+          "meaning": "PHB战士第4级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Swashbuckler",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "剑客",
+          "meaning": "PHB战士第5级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Myrmidon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "精锐战士",
+          "meaning": "PHB战士第6级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。按精锐武士的语义定译，不借用其他版本元素役灵等不同生物概念。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Champion",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "勇士",
+          "meaning": "PHB战士第7级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Superhero",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "超级英雄",
+          "meaning": "PHB战士第8级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lord",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士等级头衔",
+          "zh": "领主",
+          "meaning": "PHB战士第9级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。其后等级继续使用此称号附等级说明；不能据头衔自动认定角色已实际拥有领地。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Gallant",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "勇者",
+          "meaning": "PHB圣武士第1级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Keeper",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "看守者",
+          "meaning": "PHB圣武士第2级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Protector",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "护卫者",
+          "meaning": "PHB圣武士第3级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Defender",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "捍卫者",
+          "meaning": "PHB圣武士第4级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Warder",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "守卫者",
+          "meaning": "PHB圣武士第5级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Guardian",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "守护者",
+          "meaning": "PHB圣武士第6级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chevalier",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "骑士",
+          "meaning": "PHB圣武士第7级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Justiciar",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "执法官",
+          "meaning": "PHB圣武士第8级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Runner",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "奔行者",
+          "meaning": "PHB巡林客第1级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Strider",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "健步者",
+          "meaning": "PHB巡林客第2级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Scout",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "斥候",
+          "meaning": "PHB巡林客第3级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Courser",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "疾行者",
+          "meaning": "PHB巡林客第4级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Tracker",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "追踪者",
+          "meaning": "PHB巡林客第5级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Guide",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "向导",
+          "meaning": "PHB巡林客第6级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Pathfinder",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "探路者",
+          "meaning": "PHB巡林客第7级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Ranger Knight",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "巡林骑士",
+          "meaning": "PHB巡林客第9级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Ranger Lord",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "巡林领主",
+          "meaning": "PHB巡林客第10级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Detect Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业能力",
+          "zh": "侦测邪恶",
+          "meaning": "圣武士专注时感知邪恶的天赋能力；与同名法术分列类别，不移植后续版Detect Evil and Good的侦测对象。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lay on Hands",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业能力",
+          "zh": "圣疗",
+          "meaning": "以按手治疗恢复伤害；采用5E PHB精确名称，保留1E按等级与每日次数的机制。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Cure Disease",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业能力",
+          "zh": "治愈疾病",
+          "meaning": "按圣武士等级决定每周使用次数的固有疗病能力；与同名法术分列，不叫后续版疾病免疫能力。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Protection from Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业能力",
+          "zh": "防护邪恶",
+          "meaning": "持续围绕圣武士的防护效果；与同名法术分列，原文给出的是半径，与圣剑力量圈的直径表述分开。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Circle of Power",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士圣剑效果",
+          "zh": "力量圈",
+          "meaning": "拔出并持有圣剑时形成且驱散魔法的力量圈。离线5E同名法术译作原力法阵，机制与此不对应，拒绝借用该法术名。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Tithe",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业约束",
+          "zh": "什一奉献",
+          "meaning": "将收入十分之一交给合格慈善宗教机构的义务；不是向同伴牧师付款，也不是一般领地税率。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Giant Class",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客特定敌人分类",
+          "zh": "巨人类",
+          "meaning": "1E巡林客额外伤害的专门分类，列有熊地精、双头巨人、巨人、鬣狗人、地精、大地精、狗头人、食人魔、食人魔法师、兽人与巨魔；不是通常巨人生物类型或仅大体型敌人。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chance to Track",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客追踪字段",
+          "zh": "追踪成功率",
+          "meaning": "按目标行经地形与门户等给出的百分比；户外另有基础百分比与时间、降水等修正，不改为技能难度等级。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Attacks per Melee Round",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士系攻击次数字段",
+          "zh": "每近战轮攻击次数",
+          "meaning": "例如3/2表示按两轮计算攻击次数；适用于表中武器攻击，原文另排除低于一颗d8生命骰的普通生物情况。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Freehold",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 战士领地经营",
+          "zh": "自由领地",
+          "meaning": "战士建设城堡并清剿周边后建立的领地；与作为军事建筑的要塞区分。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Stronghold",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业领地与建筑",
+          "zh": "要塞",
+          "meaning": "职业角色建设的军事据点，采用5E DMG精确词对；不等同5R Bastion专门经营系统。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Immunity to All Forms of Disease",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士职业能力",
+          "zh": "疾病免疫",
+          "meaning": "原书列出的对一切疾病的免疫；保留原文短语，不反向补写Divine Health等未在本页出现的能力名。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Holy Sword",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士装备",
+          "zh": "圣剑",
+          "meaning": "原文称特殊魔法剑并说明圣武士持剑时的力量圈；不凭名称近似自动归并成3R同名法术或改名为Holy Avenger。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Tracking",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客职业能力",
+          "zh": "追踪",
+          "meaning": "此义项使用巡林客专门的地下与户外百分比程序；与OA非武器熟练项、DSG/WSG熟练项检定分开。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Warhorse",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士坐骑",
+          "zh": "战马",
+          "meaning": "圣武士可召来的特殊战马有本段特定数据与补领限制；这些特性不适用于普通装备表中的所有战马。",
+          "source": "PHB printed p.22 / PDF p.23"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Paladin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 圣武士等级头衔",
+          "zh": "圣武士",
+          "meaning": "Paladin既为子职名，也是第9级起的称号；不另立新的职业概念。",
+          "source": "PHB printed p.24 / PDF p.25"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Ranger",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 巡林客等级头衔",
+          "zh": "巡林客",
+          "meaning": "Ranger既为子职名，也是第8级头衔；等级9、10分别另名Ranger Knight和Ranger Lord。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prefect",
+      "senses": [
+        {
+          "context": "AD&D 1E 牧师等级头衔",
+          "zh": "教务长",
+          "meaning": "牧师第5级头衔；通过同时代1E屏风同一职业表补证缺失原词，不作一般行政官职使用。",
+          "source": "PHB printed p.20 location; TSR 9024 (1979), CLERICS TABLE level 5; https://pdfcoffee.com/adampd-dm-screen-pdf-free.html"
+        }
+      ]
+    }
+  ]
+}

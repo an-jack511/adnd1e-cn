@@ -26,7 +26,9 @@
     "terminology:fetch": "python scripts/terminology/fetch-references.py && python scripts/terminology/fetch-settings.py",
     "terminology:audit": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --check --export-parent",
     "terminology:apply": "tsx scripts/terminology/export-library.ts && python scripts/terminology/catalog.py --inventory --apply --export-parent && tsx scripts/import/library-index.ts",
-    "test:terminology": "tsx scripts/terminology/check.ts"
+    "test:terminology": "tsx scripts/terminology/check.ts",
+    "terminology:cache": "python scripts/terminology/offline-references.py fetch",
+    "terminology:lookup": "python scripts/terminology/offline-references.py query"
   },
   "dependencies": {
     "astro": "5.15.5",

@@ -1,0 +1,374 @@
+[
+  {
+    "en": "Classes",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.017",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Character Abilities",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "reuse",
+    "reason": "复用已有主词头及本次PHB上下文，不重复建条。"
+  },
+  {
+    "en": "Character Abilities",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "reuse",
+    "reason": "复用已有主词头及本次PHB上下文，不重复建条。"
+  },
+  {
+    "en": "MANUAL",
+    "locator": "PHB-core/pdf-p.017",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "MANUAL",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "RACIAL",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.017",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "MINIMUM",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Elven",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.017",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "DWARVEN",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "HALF-ELVEN",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "IB",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "IP",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "G3",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Character Class Limitations",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "approved",
+    "reason": "按实际表格语境纳入职业选择限制／种族减值与加值，完整原词及页码见本批清单。"
+  },
+  {
+    "en": "M/F",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "CLASS LEVEL LIMITATIONS",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "reuse",
+    "reason": "复用已有主词头及本次PHB上下文，不重复建条。"
+  },
+  {
+    "en": "CHARACTER RACES CHARACTER RACES",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "CHARACTER RACES CHARACTER RACES",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Character Race Table",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "PREFERENCES",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "Score",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  },
+  {
+    "en": "CHARACTER RACE TABLE I",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "CHARACTER RACE TABLE II",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "Functions",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS A DRAGONS",
+    "locator": "PHB-core/pdf-p.017",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "CHARACTER RACE TABLE III",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "M/F M/F M/F M/F M/F M/F",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "MONSE MANUAL",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "ABILITY SCORE MINIMUMS",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "ABILITY SCORE MINIMUMS & MAXIMUMS",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "Character CHARACTERS RACE",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "CHARACTERS RACE",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "CHARISAAA",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "DWARVEN P A G N G",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "ELVEN A P T G T A N",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "GJ",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HALF-ELVEN N P T P N A T",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HALF-ORC H A H A N P T",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HALFUNG",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HALFUNG GJ G3",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HALFUNG GJ G3 T N P N N",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "HUMAN N N N T N N P",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "MAXIMUMS",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "MINIMUMS",
+    "locator": "PHB-core/pdf-p.016",
+    "outcome": "alias",
+    "reason": "原书表格入口或断行标题；指向种族、职业选择限制、职业等级上限、属性值上下限，未新增重复表名术语。"
+  },
+  {
+    "en": "MONSE",
+    "locator": "PHB-core/pdf-p.018",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "T P T G H",
+    "locator": "PHB-core/pdf-p.019",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Ability No",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Loyalty Reaction",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "excluded",
+    "reason": "在本页为OCR错字、重复页眉、出版物名片段、属性表残片、表格代码／数值或普通说明词；不作为独立术语。"
+  },
+  {
+    "en": "Maximum Number of Henchmen",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "reuse",
+    "reason": "复用已有主词头及本次PHB上下文，不重复建条。"
+  },
+  {
+    "en": "Penalty or Bonus",
+    "locator": "PHB-core/pdf-p.015",
+    "outcome": "approved",
+    "reason": "按实际表格语境纳入职业选择限制／种族减值与加值，完整原词及页码见本批清单。"
+  },
+  {
+    "en": "Racial Stock of Character",
+    "locator": "PHB-core/pdf-p.014",
+    "outcome": "alias",
+    "reason": "普通词形、栏目简称或种族形容词；按本页种族／语言／属性语境挂靠完整词头，不作独立概念。"
+  }
+]

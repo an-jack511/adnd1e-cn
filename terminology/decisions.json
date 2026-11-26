@@ -2355,27 +2355,6 @@
     },
     {
       "category": "spell",
-      "en": "Tenser's Floating Disc",
-      "zh": "谭森浮空圆盘",
-      "status": "adapted-element",
-      "verificationScope": "caster-name only; remaining spell name pending",
-      "references": [
-        {
-          "en": "Tenser's Floating Disk",
-          "zh": "谭森浮碟术",
-          "category": "spell",
-          "edition": "5R",
-          "source": "XPHB",
-          "page": 332,
-          "url": "https://5e.kiwee.top/data/spells/spells-xphb.json",
-          "entryUrl": "https://5e.kiwee.top/spells.html#%E8%B0%AD%E6%A3%AE%E6%B5%AE%E7%A2%9F%E6%9C%AF_xphb",
-          "accessed": "2026-11-06"
-        }
-      ],
-      "reason": "仅据通行译名统一人物语素；其余语素保留现有暂译，完整名称仍待核。"
-    },
-    {
-      "category": "spell",
       "en": "Tenser's Fortunes of War",
       "zh": "谭森的战争福运术",
       "status": "adapted-element",
@@ -2602,7 +2581,10 @@
           "accessed": "2026-11-06"
         }
       ],
-      "reason": "Disc/Disk 为拼写异体，不改变法术规则。 不与参考版本合并规则。"
+      "reason": "Disc/Disk 为拼写异体，不改变法术规则。 不与参考版本合并规则。",
+      "legacyZh": [
+        "谭森浮空圆盘"
+      ]
     },
     {
       "category": "spell",
@@ -3405,6 +3387,4404 @@
           "url": "src/published/books/phb/spell-explanations-magic-users.md#237"
         }
       ]
+    },
+    {
+      "category": "rule",
+      "en": "Animal Handling",
+      "zh": "驯兽",
+      "status": "verified-exact",
+      "verificationScope": "exact-5E-5R-name/1E-proficiency-context; 3R-local-index-not-found",
+      "reason": "AD&D 1E WSG Table 2 and its proficiency description confirm Animal Handling as a nonweapon proficiency (original English OCR, printed pp.13–14). 5E PHB p.178 and 5R XPHB p.14 translate the exact same English skill name as 驯兽. Adopt the verified Chinese name for the 1E term while retaining the editions’ separate mechanics. The available 3R local snapshot has no exact entry; this is not evidence that 3R has no translation.",
+      "references": [
+        {
+          "en": "Animal Handling",
+          "zh": "驯兽",
+          "category": "skill",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 178,
+          "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_phb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Animal Handling",
+          "zh": "驯兽",
+          "category": "skill",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 14,
+          "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_xphb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Animal Handling",
+          "category": "rule",
+          "edition": "1E",
+          "source": "WSG Table 2 and Proficiency Descriptions",
+          "page": "13–14",
+          "url": "../OCR/wsg-raw/text/page-013.txt; ../OCR/wsg-raw/text/page-014.txt",
+          "retrieval": "original English OCR; establishes the 1E proficiency context only"
+        }
+      ],
+      "legacyZh": [
+        "动物处理",
+        "动物驯养"
+      ],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Animal Handling Proficiency",
+      "zh": "驯兽熟练项",
+      "status": "adapted-variant",
+      "verificationScope": "1E-proficiency-term/5E-5R-base-name",
+      "reason": "AD&D 1E DMG 术语表将其列为熟练项；5E PHB 与 5R XPHB 的精确底词 Animal Handling 均译为“驯兽”，按用户确定的 proficiency 规则单位译为“熟练项”。不能据此把 1E 熟练项机制等同于后续版技能。",
+      "references": [
+        {
+          "en": "Animal Handling",
+          "zh": "驯兽",
+          "category": "skill",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 178,
+          "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_phb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Animal Handling",
+          "zh": "驯兽",
+          "category": "skill",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 14,
+          "url": "https://5e.kiwee.top/skills.html#%E9%A9%AF%E5%85%BD_xphb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "legacyZh": [
+        "动物处理熟练项"
+      ],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Blind-fighting",
+      "zh": "盲斗",
+      "status": "adapted-variant",
+      "verificationScope": "5R exact-name translation reference; 1E proficiency and 5R feat remain mechanically distinct; exact 3R match not found",
+      "reason": "5R XPHB p.209 contains the exact English feature name Blind Fighting and the local bilingual reference maps it to 盲斗. This supports the Chinese rendering of the name only; AD&D 1E Blind-fighting is a nonweapon proficiency with different rules, so the editions are not treated as the same mechanic. The local 3R name index has no exact match, and direct Huiji access is blocked.",
+      "references": [
+        {
+          "en": "Blind Fighting",
+          "zh": "盲斗",
+          "category": "feat",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 209,
+          "url": "https://5e.kiwee.top/feats.html#%E7%9B%B2%E6%96%97_xphb",
+          "sourceData": "https://5e.kiwee.top/data/feats.json",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "legacyZh": [],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Religion",
+      "zh": "宗教",
+      "status": "verified-exact",
+      "verificationScope": "5E-5R exact-name translation; 1E OA nonweapon-proficiency context; mechanics remain distinct; no exact 3R index entry",
+      "reason": "本地 5E PHB 与 5R XPHB 名称数据均将精确词条 Religion 译为“宗教”。AD&D 1E OA 中它是非武器熟练项，后续版本将其列为技能；只借用相同名称的中文译法，不视为规则机制相同。灰机 3R 名称索引未检得精确词条，直接页面无法读取。",
+      "references": [
+        {
+          "en": "Religion",
+          "zh": "宗教",
+          "category": "skill",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 178,
+          "url": "https://5e.kiwee.top/skills.html#%E5%AE%97%E6%95%99_phb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Religion",
+          "zh": "宗教",
+          "category": "skill",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 14,
+          "url": "https://5e.kiwee.top/skills.html#%E5%AE%97%E6%95%99_xphb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "legacyZh": [],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Survival",
+      "zh": "求生",
+      "status": "verified-exact",
+      "verificationScope": "5E exact-name translation; AD&D 1E OA nonweapon-proficiency name; 3R exact-name index miss and direct page unavailable; rules not equated",
+      "reason": "3R 本地名称索引未检得精确英文词条，且对应页面不可用；按 3R→5E→5R 顺序继续核查，5E PHB p.178 的精确名称 Survival 译为“求生”，已足以采用。5R XPHB p.14 同样译为“求生”作为旁证。此处仅采用名称译法；AD&D 1E OA 的非武器熟练项与后续版技能机制不同。",
+      "references": [
+        {
+          "en": "Survival",
+          "zh": "求生",
+          "category": "skill",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 178,
+          "url": "https://5e.kiwee.top/skills.html#%E6%B1%82%E7%94%9F_phb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Survival",
+          "zh": "求生",
+          "category": "skill",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 14,
+          "url": "https://5e.kiwee.top/skills.html#%E6%B1%82%E7%94%9F_xphb",
+          "sourceData": "https://5e.kiwee.top/data/skills.json",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "legacyZh": [
+        "生存"
+      ],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Size",
+      "zh": "体型",
+      "status": "verified-exact",
+      "verificationScope": "5R exact-name translation reference; AD&D 1E Monster Manual stat-block field; no exact 3R entry in local index; rule mechanics not equated",
+      "reason": "5R XPHB p.374 的精确英文词条 Size 对应中文“体型”，可用于 AD&D 1E Monster Manual 的 Size 怪物数据字段。此处只采用名称译法，不把两个版本的体型规则视为相同。灰机 3R 名称索引未检得精确条目，故按版本顺序采用 5R 可核名称。",
+      "references": [
+        {
+          "en": "Size",
+          "zh": "体型",
+          "category": "variantrule",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 374,
+          "url": "https://5e.kiwee.top/variantrules.html#%E4%BD%93%E5%9E%8B_xphb",
+          "sourceData": "https://5e.kiwee.top/data/variantrules.json",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "legacyZh": [],
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Save vs. Poison",
+      "zh": "对毒素豁免",
+      "status": "verified-exact",
+      "verificationScope": "AD&D 1E curated rule glossary; canonical term selected from the glossary’s grouped alternatives",
+      "reason": "项目规则术语主表已将 Save vs. Poison 统一为“对毒素豁免”。DMG 规则术语表第 187 行明确列出该对应；“对毒药豁免”作为旧译保留检索，不作为规范显示。",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "en": "Save vs. Poison",
+          "zh": "对毒素豁免",
+          "url": "src/published/books/dmg/glossary-2.md#187"
+        }
+      ],
+      "legacyZh": [
+        "对毒药豁免"
+      ],
+      "userOverride": false
+    },
+    {
+      "category": "glossary-context",
+      "en": "Phylactery",
+      "zh": "圣匣（宗教文字臂缠盒）／命匣（巫妖储魂器）",
+      "status": "reference-conflict",
+      "verificationScope": "AD&D 1E DMG glossary; two distinct senses, not competing translations for one sense",
+      "reason": "同一英文词有两个不同物件义项，不应合并为同一译名或做全局替换：圣匣指缠在手臂上、用于存放宗教文字的盒状护符；命匣指巫妖用来保存生命力与灵魂的器物。按语境分别使用“圣匣”和“命匣”。",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "en": "Phylactery",
+          "zh": "圣匣",
+          "url": "src/published/books/dmg/glossary-2.md#17"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "en": "Phylactery",
+          "zh": "命匣",
+          "url": "src/published/books/dmg/glossary-2.md#18"
+        }
+      ],
+      "legacyZh": [],
+      "userOverride": false
+    },
+    {
+      "category": "proper",
+      "en": "Astral Plane",
+      "zh": "星光位面",
+      "legacyZh": [
+        "星界位面"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "cross-edition-exact-name; 1E plane reference",
+      "references": [
+        {
+          "en": "Astral Plane",
+          "zh": "星光位面",
+          "category": "recipe",
+          "edition": "5E",
+          "source": "PaF",
+          "page": 20,
+          "url": "https://5e.kiwee.top/data/recipes.json",
+          "entryUrl": "https://5e.kiwee.top/recipes.html#%E6%98%9F%E5%85%89%E4%BD%8D%E9%9D%A2_paf",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Astral Plane",
+          "zh": "星光位面",
+          "category": "proper",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 184,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/5",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "reason": "3R 精确名称在本地灰机名称快照中未命中；直接页面访问返回 HTTP 403，不能据此断言 3R 无译名。采用可定位的 5E PaF p.20 精确名称对“星光位面”，并由 5R XDMG p.184 独立同译旁证；1E 语境仍指同一 Astral Plane 位面。",
+      "rankSupplementalReferences": true
+    },
+    {
+      "category": "proper",
+      "en": "Ethereal Plane",
+      "zh": "以太位面",
+      "legacyZh": [
+        "以太界"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "cross-edition-exact-name; 1E plane reference",
+      "references": [
+        {
+          "en": "Ethereal Plane",
+          "zh": "以太位面",
+          "category": "proper",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 192,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/15",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "reason": "本地 3R 名称快照未检出精确词条，不据此断言 3R 无译名；采用 5R XDMG p.192 可定位的精确名称对“以太位面”。1E 原书语境中的 Ethereal Plane 指同一位面，仅统一名称，不移植新版规则。",
+      "rankSupplementalReferences": true
+    },
+    {
+      "category": "heading",
+      "en": "Time in the Realms",
+      "zh": "国度的历法",
+      "legacyZh": [
+        "国度中的时间"
+      ],
+      "status": "verified-exact",
+      "verificationScope": "cross-edition-exact-heading",
+      "rankSupplementalReferences": true,
+      "references": [
+        {
+          "category": "proper",
+          "en": "Time in the Realms",
+          "zh": "国度的历法",
+          "world": "FR",
+          "edition": "5E",
+          "source": "SCAG",
+          "page": 14,
+          "url": "https://5e.kiwee.top/data/book/book-scag.json",
+          "location": "/bookData/0/data/1/entries/8",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        },
+        {
+          "category": "proper",
+          "en": "Time in the Realms",
+          "zh": "国度的历法",
+          "world": "FR",
+          "edition": "5R",
+          "source": "FRHoF",
+          "page": 45,
+          "url": "https://5e.kiwee.top/data/book/book-frhof.json",
+          "location": "/bookData/0/data/2/entries/5",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "reason": "5E《剑湾冒险者指南》p.14 与 5R《被遗忘国度英雄》p.45 均给出英文精确对应标题“国度的历法”；页面内容为各地历法与纪年。3R 本地名称索引未命中，直接查询不可用时不推断该版本没有译名。"
+    },
+    {
+      "category": "rule",
+      "en": "Mind Thrust",
+      "zh": "心灵戳刺",
+      "legacyZh": [
+        "心灵突刺"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "cross-edition-exact-name; 1E-psionic-attack-mode",
+      "references": [
+        {
+          "en": "Mind Thrust",
+          "zh": "心灵戳刺",
+          "category": "psionic",
+          "edition": "5E",
+          "source": "UATheMysticClass",
+          "page": 28,
+          "url": "https://5e.kiwee.top/data/psionics.json",
+          "entryUrl": "https://5e.kiwee.top/psionics.html#%E5%BF%83%E7%81%B5%E6%88%B3%E5%88%BA_uathemysticclass",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "采用可定位的 5E 精确同名译法“心灵戳刺”；1E 与 5E 的灵能攻击机制各自保留。3R 本地名称快照无精确命中，不据此断言 3R 无译名。",
+      "rankSupplementalReferences": true
+    },
+    {
+      "category": "rule",
+      "en": "Thought Shield",
+      "zh": "思维之盾",
+      "legacyZh": [
+        "思想护盾"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "cross-edition-exact-name; 1E-psionic-defense-mode",
+      "references": [
+        {
+          "en": "Thought Shield",
+          "zh": "思维之盾",
+          "category": "subclassFeature",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 109,
+          "url": "https://5e.kiwee.top/data/class/class-warlock.json",
+          "entryUrl": "https://5e.kiwee.top/class-warlock.html#%E6%80%9D%E7%BB%B4%E4%B9%8B%E7%9B%BE_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Thought Shield",
+          "zh": "思维之盾",
+          "category": "subclassFeature",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 163,
+          "url": "https://5e.kiwee.top/data/class/class-warlock.json",
+          "entryUrl": "https://5e.kiwee.top/class-warlock.html#%E6%80%9D%E7%BB%B4%E4%B9%8B%E7%9B%BE_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "5E PHB 与 5R XPHB 精确同名均译为“思维之盾”；将其作为同名防御术语的名称规范，不把 1E 灵能防御模式与后续版职业特性视为同一机制。3R 本地名称快照无精确命中，不据此断言 3R 无译名。",
+      "rankSupplementalReferences": true
+    },
+    {
+      "category": "rule",
+      "en": "Intellect Fortress",
+      "zh": "智能壁垒",
+      "legacyZh": [
+        "智力堡垒",
+        "智识壁垒"
+      ],
+      "status": "adapted-variant",
+      "verificationScope": "cross-edition-exact-name; 1E-psionic-defense-mode",
+      "references": [
+        {
+          "en": "Intellect Fortress",
+          "zh": "智能壁垒",
+          "category": "spell",
+          "edition": "5E",
+          "source": "TCE",
+          "page": 107,
+          "url": "https://5e.kiwee.top/data/spells/spells-tce.json",
+          "entryUrl": "https://5e.kiwee.top/spells.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_tce",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Intellect Fortress",
+          "zh": "智能壁垒",
+          "category": "psionic",
+          "edition": "5E",
+          "source": "UATheMysticClass",
+          "page": 14,
+          "url": "https://5e.kiwee.top/data/psionics.json",
+          "entryUrl": "https://5e.kiwee.top/psionics.html#%E6%99%BA%E8%83%BD%E5%A3%81%E5%9E%92_uathemysticclass",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "采用 5E TCE 精确同名译法“智能壁垒”，5E UA 灵能条目同译作旁证；1E 灵能防御模式与后续版法术／灵能规则保持独立。3R 本地名称快照无精确命中，不据此断言 3R 无译名。",
+      "rankSupplementalReferences": true
+    },
+    {
+      "category": "rule",
+      "en": "Fire Building",
+      "zh": "生火",
+      "status": "pending",
+      "verificationScope": "1E-nonweapon-proficiency-name; spelling-variant; 3R-5E-5R-translation-unverified",
+      "references": [],
+      "legacyZh": [],
+      "englishVariants": [
+        "Fire-building"
+      ],
+      "userOverride": false,
+      "reason": "AD&D 1E WSG Table 2 and OA Table 59 use Fire-building/Fire Building for the same fire-starting proficiency. Keep one canonical concept and both English spellings searchable. The provisional Chinese wording 生火 remains pending until an exact, context-matched 3R/5E/5R translation is verified."
+    },
+    {
+      "category": "proper",
+      "en": "Outer Planes",
+      "zh": "外层位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.112–113",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "en": "Outer Planes"
+        },
+        {
+          "category": "proper",
+          "en": "Outer Planes",
+          "zh": "外层位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 174,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/3/entries/5",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at PDF pp.112–113 (tmp/rule-source-audit/DMG.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.174 gives the exact English name pair ‘Outer Planes’ → ‘外层位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Inner Planes",
+      "zh": "内层位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Player’s Handbook original text",
+          "page": "PDF p.121",
+          "url": "tmp/rule-source-audit/PHB.txt",
+          "en": "Inner Planes"
+        },
+        {
+          "category": "proper",
+          "en": "Inner Planes",
+          "zh": "内层位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 174,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/3/entries/4",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at PDF p.121 (tmp/rule-source-audit/PHB.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.174 gives the exact English name pair ‘Inner Planes’ → ‘内层位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Nine Hells",
+      "zh": "九层地狱",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF p.138",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "en": "Nine Hells"
+        },
+        {
+          "category": "proper",
+          "en": "Nine Hells",
+          "zh": "九层地狱",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 201,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/25",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at PDF p.138 (tmp/rule-source-audit/DMG.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.201 gives the exact English name pair ‘Nine Hells’ → ‘九层地狱’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Elemental Plane of Air",
+      "zh": "气元素位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Player’s Handbook original text",
+          "page": "PDF pp.85, 121",
+          "url": "tmp/rule-source-audit/PHB.txt",
+          "en": "Elemental Plane of Air"
+        },
+        {
+          "category": "proper",
+          "en": "Elemental Plane of Air",
+          "zh": "气元素位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 188,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/10",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at PDF pp.85, 121 (tmp/rule-source-audit/PHB.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.188 gives the exact English name pair ‘Elemental Plane of Air’ → ‘气元素位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Elemental Plane of Fire",
+      "zh": "火元素位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Player’s Handbook original text",
+          "page": "PDF pp.62, 66, 121",
+          "url": "tmp/rule-source-audit/PHB.txt",
+          "en": "Elemental Plane of Fire"
+        },
+        {
+          "category": "proper",
+          "en": "Elemental Plane of Fire",
+          "zh": "火元素位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 189,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/12",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at PDF pp.62, 66, 121 (tmp/rule-source-audit/PHB.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.189 gives the exact English name pair ‘Elemental Plane of Fire’ → ‘火元素位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Elemental Plane of Earth",
+      "zh": "土元素位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Unearthed Arcana original text",
+          "page": "printed p.12",
+          "url": "OCR/ua-raw/text/page-012.txt",
+          "en": "Elemental Plane of Earth"
+        },
+        {
+          "category": "proper",
+          "en": "Elemental Plane of Earth",
+          "zh": "土元素位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 189,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/11",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at printed p.12 (OCR/ua-raw/text/page-012.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.189 gives the exact English name pair ‘Elemental Plane of Earth’ → ‘土元素位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "proper",
+      "en": "Bandit Kingdoms",
+      "zh": "匪徒王国",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; only 5R exact match surfaced in current candidate index",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF p.158",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.158",
+          "en": "Bandit Kingdoms"
+        },
+        {
+          "category": "proper",
+          "en": "Bandit Kingdoms",
+          "zh": "匪徒王国",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 168,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/4/entries/8/entries/6/entries/6/entries/5/entries/1",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "1E DMG PDF p.158 uses Bandit Kingdoms as a Greyhawk geographic name. The exact 5R XDMG name pair gives 匪徒王国; the available index surfaced no exact 3R or 5E pair. Only the proper name is matched, not setting or rules details."
+    },
+    {
+      "category": "proper",
+      "en": "White Plume Mountain",
+      "zh": "白羽山",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; only 5R exact match surfaced in current candidate index",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF p.236",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.236",
+          "en": "WHITE PLUME MOUNTAIN"
+        },
+        {
+          "category": "proper",
+          "en": "White Plume Mountain",
+          "zh": "白羽山",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 147,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/4/entries/8/entries/4/entries/3/entries/10/entries/6",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "1E DMG PDF p.236 lists WHITE PLUME MOUNTAIN among published AD&D adventures. The exact 5R XDMG name pair gives 白羽山; only the title translation is adopted."
+    },
+    {
+      "category": "proper",
+      "en": "Tomb of Horrors",
+      "zh": "恐怖之墓",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; only 5R exact match surfaced in current candidate index",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF p.236",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.236",
+          "en": "TOMB OF HORRORS"
+        },
+        {
+          "category": "proper",
+          "en": "Tomb of Horrors",
+          "zh": "恐怖之墓",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 165,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/4/entries/8/entries/6/entries/5/entries/6/entries/2",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "1E DMG PDF p.236 lists TOMB OF HORRORS among published AD&D adventures. The exact 5R XDMG name pair gives 恐怖之墓; only the title translation is adopted."
+    },
+    {
+      "category": "proper",
+      "en": "Elemental Plane of Water",
+      "zh": "水元素位面",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5R name evidence; 3R/5E exact-match lookup not found in available local indexes",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Design Kit original text",
+          "page": "printed pp.24–25",
+          "url": "OCR/dmdk-raw/text/page-024.txt; page-025.txt",
+          "en": "Elemental Plane of Water"
+        },
+        {
+          "category": "proper",
+          "en": "Elemental Plane of Water",
+          "zh": "水元素位面",
+          "world": "Greyhawk",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 190,
+          "url": "https://5e.kiwee.top/data/book/book-xdmg.json",
+          "location": "/bookData/0/data/5/entries/6/entries/13",
+          "accessed": "2026-11-06",
+          "evidenceType": "explicit-name-pair"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false,
+      "reason": "Confirmed in AD&D 1E source at printed pp.24–25 (OCR/dmdk-raw/text/page-024.txt; page-025.txt). No exact 3R or 5E match was found in the available local lookup indexes; 5R XDMG p.190 gives the exact English name pair ‘Elemental Plane of Water’ → ‘水元素位面’, adopted as the Chinese label. Only the name is matched; this does not assert that later-edition planar rules or cosmology are identical."
+    },
+    {
+      "category": "item",
+      "en": "Hand of Vecna",
+      "zh": "维克那魔掌",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Hand of Vecna” in the magic-item tables and p.158 describes the same item. The exact later-edition name pair gives “维克那魔掌”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 158",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.158",
+          "en": "Hand of Vecna"
+        },
+        {
+          "category": "item",
+          "en": "Hand of Vecna",
+          "zh": "维克那魔掌",
+          "edition": "5E",
+          "source": "DMG",
+          "page": 224,
+          "url": "https://5e.kiwee.top/data/items.json",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%BB%B4%E5%85%8B%E9%82%A3%E9%AD%94%E6%8E%8C_dmg",
+          "accessed": "2026-11-24"
+        },
+        {
+          "category": "recipe",
+          "en": "Hand Of Vecna",
+          "zh": "维克那魔掌",
+          "edition": "5E",
+          "source": "PaF",
+          "page": 36,
+          "url": "https://5e.kiwee.top/data/recipes.json",
+          "entryUrl": "https://5e.kiwee.top/recipes.html#%E7%BB%B4%E5%85%8B%E9%82%A3%E9%AD%94%E6%8E%8C_paf",
+          "accessed": "2026-11-24"
+        },
+        {
+          "category": "item",
+          "en": "Hand of Vecna",
+          "zh": "维克那魔掌",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 259,
+          "url": "https://5e.kiwee.top/data/items.json",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%BB%B4%E5%85%8B%E9%82%A3%E9%AD%94%E6%8E%8C_xdmg",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Flame Tongue",
+      "zh": "焰舌",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Flame Tongue” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “焰舌”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Flame Tongue"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Flame Tongue",
+          "zh": "焰舌",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E7%84%B0%E8%88%8C_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Holy Avenger",
+      "zh": "神圣复仇者",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Holy Avenger” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “神圣复仇者”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Holy Avenger"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Holy Avenger",
+          "zh": "神圣复仇者",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E7%A5%9E%E5%9C%A3%E5%A4%8D%E4%BB%87%E8%80%85_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Giant Slayer",
+      "zh": "巨人屠杀者",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Giant Slayer” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “巨人屠杀者”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Giant Slayer"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Giant Slayer",
+          "zh": "巨人屠杀者",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E5%B7%A8%E4%BA%BA%E5%B1%A0%E6%9D%80%E8%80%85_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Dragon Slayer",
+      "zh": "屠龙者",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Dragon Slayer” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “屠龙者”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Dragon Slayer"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Dragon Slayer",
+          "zh": "屠龙者",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E5%B1%A0%E9%BE%99%E8%80%85_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Frost Brand",
+      "zh": "霜铭",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Frost Brand” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “霜铭”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Frost Brand"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Frost Brand",
+          "zh": "霜铭",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E9%9C%9C%E9%93%AD_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Luck Blade",
+      "zh": "吉兆之刃",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Luck Blade” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “吉兆之刃”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Luck Blade"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Luck Blade",
+          "zh": "吉兆之刃",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E5%90%89%E5%85%86%E4%B9%8B%E5%88%83_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Dwarven Thrower",
+      "zh": "矮人飞锤",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.126 lists “Dwarven Thrower” in the magic-item tables and p.169 describes the same item. The exact later-edition name pair gives “矮人飞锤”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.126, 169",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.126;#PDF-p.169",
+          "en": "Dwarven Thrower"
+        },
+        {
+          "category": "item",
+          "en": "Dwarven Thrower",
+          "zh": "矮人飞锤",
+          "edition": "5E",
+          "source": "DMG",
+          "page": 167,
+          "url": "https://5e.kiwee.top/data/items.json",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9F%AE%E4%BA%BA%E9%A3%9E%E9%94%A4_dmg",
+          "accessed": "2026-11-24"
+        },
+        {
+          "category": "item",
+          "en": "Dwarven Thrower",
+          "zh": "矮人飞锤",
+          "edition": "5R",
+          "source": "XDMG",
+          "page": 256,
+          "url": "https://5e.kiwee.top/data/items.json",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9F%AE%E4%BA%BA%E9%A3%9E%E9%94%A4_xdmg",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Nine Lives Stealer",
+      "zh": "九转夺命剑",
+      "status": "verified-exact",
+      "verificationScope": "1E-source-term; exact 5E/5R name evidence; no exact 3R match surfaced in local index",
+      "reason": "AD&D 1E DMG PDF p.125 lists “Nine Lives Stealer” in the magic-item tables and p.166 describes the same item. The exact later-edition name pair gives “九转夺命剑”; the available local 3R index did not surface an exact match, so the matching 5E/5R reference is used. Only the item name is matched; later-edition mechanics are not imported.",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "AD&D 1E Dungeon Masters Guide original text",
+          "page": "PDF pp.125, 166",
+          "url": "tmp/rule-source-audit/DMG.txt#PDF-p.125;#PDF-p.166",
+          "en": "Nine Lives Stealer"
+        },
+        {
+          "category": "magicvariant",
+          "en": "Nine Lives Stealer",
+          "zh": "九转夺命剑",
+          "edition": "5E",
+          "source": "",
+          "url": "https://5e.kiwee.top/data/magicvariants.json",
+          "entryUrl": "https://5e.kiwee.top/magicvariants.html#%E4%B9%9D%E8%BD%AC%E5%A4%BA%E5%91%BD%E5%89%91_",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "rankSupplementalReferences": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Race",
+      "zh": "种族",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Races",
+        "Character Race",
+        "Racial Stock of Character"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 13,
+          "en": "Race",
+          "zh": "种族",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.13; PDF p.14"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Race",
+          "location": "/bookData/0/data/5/entries/25/entries/6/entries/5/entries/12",
+          "page": 193,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "0af7eb482ea7d4e221d25808ff408ac82a8f43e1b9a1ddb670594b317fef14aa",
+          "source": "EGW",
+          "url": "https://5e.kiwee.top/data/book/book-egw.json",
+          "zh": "种族"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。角色的种族类别；种族、职业及种族亚种分别处理。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Character Class",
+      "zh": "角色职业",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Character Classes",
+        "Classes"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 18,
+          "en": "Character Class",
+          "zh": "角色职业",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.18; PDF p.19"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。角色的职业；1E 主职业与子职分层，多职业角色同时在多种职业中成长。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Sub-Class",
+      "zh": "子职",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "sub-classes"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 13,
+          "en": "Sub-Class",
+          "zh": "子职",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.13; PDF p.14"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。隶属于主职业的类别，例如战士下的圣武士与巡林客；不是后续版在某级选择的子职机制。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Character Class Limitations",
+      "zh": "职业选择限制",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 13,
+          "en": "Character Class Limitations",
+          "zh": "职业选择限制",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.13; PDF p.14"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。种族表 I 的职业选择资格限制；与表 II 的职业等级上限分开。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Scores",
+      "zh": "属性值下限",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Minimum Scores",
+          "zh": "属性值下限",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。种族所需的最低属性值，种族加值适用时计入；低于要求者不得选择该种族。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Scores",
+      "zh": "属性值上限",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Maximum Scores",
+          "zh": "属性值上限",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。先计入种族增减后，再把超出种族上限的属性值降低；与职业等级上限分开。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Multi-Classed Character",
+      "zh": "多职业角色",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "multi-class character",
+        "multi-classed individual"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Multi-Classed Character",
+          "zh": "多职业角色",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。非人类或半人类同时拥有多种职业，经验均分，即使其中职业已达上限；与人类先后更换职业分开。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Racial Preferences",
+      "zh": "种族好恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Racial Preferences Table"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 18,
+          "en": "Racial Preferences",
+          "zh": "种族好恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.18; PDF p.19"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。P偏爱、G友善、T容忍、N中立（仍可能存疑）、A反感、H憎恨；按原表表达种族关系，不合并为阵营或5E态度机制。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Initial Ability Scores",
+      "zh": "初始属性值",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 14,
+          "en": "Initial Ability Scores",
+          "zh": "初始属性值",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.14; PDF p.15"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。原始生成的属性值，需与种族调整后数值区分；矮人和半兽人面对同族时的魅力说明使用未调整值。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Penalties and Bonuses for Race",
+      "zh": "种族减值与加值",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 14,
+          "en": "Penalties and Bonuses for Race",
+          "zh": "种族减值与加值",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.14; PDF p.15"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。角色选择种族后对初始属性值的增减；与后续版统一属性调整值公式分开。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Secret Door",
+      "zh": "暗门",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Secret Doors"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Secret Door",
+          "zh": "暗门",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-06",
+          "category": "proper",
+          "edition": "5E",
+          "en": "Secret Door",
+          "evidenceType": "explicit-name-pair",
+          "location": "/adventureData/0/data/5/entries/5/entries/4/entries/12/entries/3",
+          "page": 115,
+          "referenceFile": "setting-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-dsotdq.json",
+          "world": "Dragonlance",
+          "zh": "暗门"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。门本身伪装为墙面等表面的一部分；精灵主动搜索时概率与掩蔽门不同。定义另见 DMG p.97。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Concealed Door",
+      "zh": "掩蔽门",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Concealed Doors",
+        "concealed portal"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Concealed Door",
+          "zh": "掩蔽门",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Concealed Door",
+          "location": "/adventureData/0/data/19/entries/4/entries/32/entries/3",
+          "page": 218,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "1154a818fe045982a2cf35eb0eff6b63826878c5bee1d8584557a2e855a0a1fe",
+          "source": "CoS",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-cos.json",
+          "zh": "暗门"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。门被帘子、灰泥或地毯等遮住，移去遮掩后即可看出是门。DMG p.97明定与暗门有别；后续版将两者同译暗门的名称对不适用于本库消歧。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Detect Grade or Slope in Passage, Upwards or Downwards",
+      "zh": "辨识通道坡向",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Detect Grade or Slope in Passage, Upwards or Downwards",
+          "zh": "辨识通道坡向",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。矮人、侏儒的地下辨识能力，侏儒与矮人的成功概率不同；须主动查探。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Detect New Construction or Passage/Tunnel",
+      "zh": "辨识新建通道／隧道",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Detect New Construction or Passage/Tunnel",
+          "zh": "辨识新建通道／隧道",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。矮人辨识新建工程的表格字段；保留扫描原表的 or 字样，未自行校改英文。该表已目视核对。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Detect Sliding or Shifting Walls or Rooms",
+      "zh": "辨识滑动或移动的墙壁与房间",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Detect Sliding or Shifting Walls or Rooms",
+          "zh": "辨识滑动或移动的墙壁与房间",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。矮人地下辨识表所列的活动墙壁／房间侦测能力；不是施法侦测或自动察觉。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Detect Traps Involving Pits, Falling Blocks and Other Stonework",
+      "zh": "辨识陷坑、落石及其他石工陷阱",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Detect Traps Involving Pits, Falling Blocks and Other Stonework",
+          "zh": "辨识陷坑、落石及其他石工陷阱",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。矮人专长范围内的石工陷阱辨识，不等同盗贼通用寻找／解除陷阱能力。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Determine Approximate Depth Underground",
+      "zh": "估计地下深度",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Determine Approximate Depth Underground",
+          "zh": "估计地下深度",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。矮人与侏儒均可主动估计深度，但成功概率不同；此项不受其他侦测项目的近距要求限制。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Detect Unsafe Walls, Ceilings, or Floors",
+      "zh": "辨识不稳固的墙壁、顶壁与地面",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Detect Unsafe Walls, Ceilings, or Floors",
+          "zh": "辨识不稳固的墙壁、顶壁与地面",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。侏儒地下侦测字段；按结构是否安全判别，不与矮人的活动墙壁侦测混为一项。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Determine Direction of Travel Underground",
+      "zh": "辨识地下行进方向",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Determine Direction of Travel Underground",
+          "zh": "辨识地下行进方向",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。侏儒地下辨向字段；不是感知方位法术或后续版技能检定。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Common Tongue",
+      "zh": "通用语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Common Tongue",
+          "zh": "通用语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Common",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E9%80%9A%E7%94%A8%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "通用语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。人类通用语；不是怪物出现频率 Common“常见”。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Dwarvish",
+      "zh": "矮人语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "dwarven"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Dwarvish",
+          "zh": "矮人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Dwarvish",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E7%9F%AE%E4%BA%BA%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "矮人语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。语言名称；PHB矮人段作 dwarven，侏儒段作 dwarvish。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Elvish",
+      "zh": "精灵语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "elven"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Elvish",
+          "zh": "精灵语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Elvish",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E7%B2%BE%E7%81%B5%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "精灵语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。语言名称；PHB精灵段作 elvish，半身人段作 elven。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Gnome",
+      "zh": "侏儒语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Gnome",
+          "zh": "侏儒语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Gnomish",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E4%BE%8F%E5%84%92%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "侏儒语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。语言语境下的 gnome，不是侏儒种族。后续版用 Gnomish，作为词形线索而非精确原词证据。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Halfling",
+      "zh": "半身人语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Halfling",
+          "zh": "半身人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Halfling",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E5%8D%8A%E8%BA%AB%E4%BA%BA%E8%AF%AD_erlw",
+          "page": 6,
+          "referenceFile": "5etools-names.json",
+          "source": "ERLW",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "半身人语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。语言语境下的 halfling，与同名种族分别归类。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Orcish",
+      "zh": "兽人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Orcish",
+          "zh": "兽人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Orc",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E5%85%BD%E4%BA%BA%E8%AF%AD_erlw",
+          "page": 6,
+          "referenceFile": "5etools-names.json",
+          "source": "ERLW",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "兽人语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。PHB语言名称；后续版语言 Orc 的“兽人语”仅作词形依据，排除 WoW 词库。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Goblin",
+      "zh": "地精语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Goblin",
+          "zh": "地精语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Goblin",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E5%9C%B0%E7%B2%BE%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "地精语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。语言名称；与地精生物区分，保留1E不同种族语言列表。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Hobgoblin",
+      "zh": "大地精语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Hobgoblin",
+          "zh": "大地精语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。1E语言列表明确单列；不以5E常合并到地精语为由删去，依既有大地精名称加“语”构词。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Gnoll",
+      "zh": "鬣狗语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Gnoll",
+          "zh": "鬣狗语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Gnoll",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E9%AC%A3%E7%8B%97%E8%AF%AD_mm",
+          "page": 163,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "鬣狗语"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。语言名称；与鬣狗人生物区分，采用精确语言译名。",
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Kobold",
+      "zh": "狗头人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Kobold",
+          "zh": "狗头人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。1E语言列表明确单列；不按5E通常使用龙语的规则合并，依狗头人名称加“语”构词。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Mountain Dwarves",
+      "zh": "山地矮人",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Mountain Dwarves",
+          "zh": "山地矮人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "accessed": "2026-11-06",
+          "category": "proper",
+          "edition": "5E",
+          "en": "Mountain Dwarves",
+          "evidenceType": "explicit-name-pair",
+          "location": "/adventureData/0/data/1/entries/9/entries/1/entries/3",
+          "page": 22,
+          "referenceFile": "setting-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-dsotdq.json",
+          "world": "Dragonlance",
+          "zh": "山地矮人"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。PHB可选矮人亚种；只采用名称，不套用后续版种族特性。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "High Elves",
+      "zh": "高等精灵",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "High Elves",
+          "zh": "高等精灵",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "High Elves",
+          "location": "/bookData/0/data/1/entries/4/entries/5/entries/4/entries/1",
+          "page": 14,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "9f2acee7e87f6862d9ed33cdd2af046a65e3e93baa3ab35e74867fb245b8400d",
+          "source": "GGR",
+          "url": "https://5e.kiwee.top/data/book/book-ggr.json",
+          "zh": "高等精灵"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。适用精确名称对已定位；只借译名，不移植后续版机制。PHB默认精灵角色所属类型；不把其他书中的精灵亚种自动视作已覆盖。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Hairfeet",
+      "zh": "毛足半身人",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 14,
+          "en": "Hairfeet",
+          "zh": "毛足半身人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.14; PDF p.15"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。原表脚注明确半身人亚种，已目视PDF p.15核实 OCR；按hair“毛”与feet“足”及半身人构词，不并入5E轻足亚种。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Tallfellows",
+      "zh": "高个半身人",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 14,
+          "en": "Tallfellows",
+          "zh": "高个半身人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.14; PDF p.15"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。原表脚注明确半身人亚种；按tall“高个”及半身人构词。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Stouts",
+      "zh": "敦实半身人",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 14,
+          "en": "Stouts",
+          "zh": "敦实半身人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.14; PDF p.15"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subrace",
+          "edition": "5E",
+          "en": "Stout",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E6%95%A6%E5%AE%9E_phb",
+          "page": 28,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/races.json",
+          "zh": "敦实"
+        }
+      ],
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。原表脚注明确半身人亚种；5E Stout 为“敦实”，复数词形并补种族名，标作有依据的自译／扩展名，不称后续版精确全称。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Dwarf",
+      "zh": "矮人",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Dwarves"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 15,
+          "en": "Dwarves",
+          "zh": "矮人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.15; PDF p.16"
+        },
+        {
+          "en": "Dwarf",
+          "zh": "矮人",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 18,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%9F%AE%E4%BA%BA_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Dwarf",
+          "zh": "矮人",
+          "category": "race",
+          "edition": "other",
+          "source": "WoW",
+          "page": 74,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%9F%AE%E4%BA%BA_wow",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Dwarf",
+          "zh": "矮人",
+          "category": "race",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 188,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%9F%AE%E4%BA%BA_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Elf",
+      "zh": "精灵",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Elves"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Elves",
+          "zh": "精灵",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "en": "Elf",
+          "zh": "精灵",
+          "category": "race",
+          "edition": "5E",
+          "source": "LFL",
+          "page": null,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%B2%BE%E7%81%B5_lfl",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Elf",
+          "zh": "精灵",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 21,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%B2%BE%E7%81%B5_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Elf",
+          "zh": "精灵",
+          "category": "race",
+          "edition": "other",
+          "source": "WoW",
+          "page": 76,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%B2%BE%E7%81%B5_wow",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Elf",
+          "zh": "精灵",
+          "category": "race",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 189,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E7%B2%BE%E7%81%B5_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Gnome",
+      "zh": "侏儒",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Gnomes"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 16,
+          "en": "Gnomes",
+          "zh": "侏儒",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.16; PDF p.17"
+        },
+        {
+          "en": "Gnome",
+          "zh": "侏儒",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 35,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BE%8F%E5%84%92_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Gnome",
+          "zh": "侏儒",
+          "category": "race",
+          "edition": "other",
+          "source": "WoW",
+          "page": 80,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BE%8F%E5%84%92_wow",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Gnome",
+          "zh": "侏儒",
+          "category": "race",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 191,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BE%8F%E5%84%92_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Half-Elf",
+      "zh": "半精灵",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Half-Elves"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 17,
+          "en": "Half-Elves",
+          "zh": "半精灵",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.17; PDF p.18"
+        },
+        {
+          "en": "Half-Elf",
+          "zh": "半精灵",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 38,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E5%8D%8A%E7%B2%BE%E7%81%B5_phb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Halfling",
+      "zh": "半身人",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Halflings"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 17,
+          "en": "Halflings",
+          "zh": "半身人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.17; PDF p.18"
+        },
+        {
+          "en": "Halfling",
+          "zh": "半身人",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 26,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E5%8D%8A%E8%BA%AB%E4%BA%BA_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Halfling",
+          "zh": "半身人",
+          "category": "race",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 193,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E5%8D%8A%E8%BA%AB%E4%BA%BA_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Half-Orc",
+      "zh": "半兽人",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Half-Orcs"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 17,
+          "en": "Half-Orcs",
+          "zh": "半兽人",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.17; PDF p.18"
+        },
+        {
+          "en": "Half-Orc",
+          "zh": "半兽人",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 40,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E5%8D%8A%E5%85%BD%E4%BA%BA_phb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "race",
+      "en": "Human",
+      "zh": "人类",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "englishVariants": [
+        "Humans"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 17,
+          "en": "Humans",
+          "zh": "人类",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.17; PDF p.18"
+        },
+        {
+          "en": "Human",
+          "zh": "人类",
+          "category": "race",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 29,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BA%BA%E7%B1%BB_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Human",
+          "zh": "人类",
+          "category": "race",
+          "edition": "other",
+          "source": "WoW",
+          "page": 84,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BA%BA%E7%B1%BB_wow",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Human",
+          "zh": "人类",
+          "category": "race",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 194,
+          "url": "https://5e.kiwee.top/data/races.json",
+          "entryUrl": "https://5e.kiwee.top/races.html#%E4%BA%BA%E7%B1%BB_xphb",
+          "accessed": "2026-11-24"
+        }
+      ],
+      "reason": "PHB种族小节的复数词形，经原文核对作为既有单数词头的显式检索异体；不另立新种族概念。",
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Hit Dice Type",
+      "zh": "生命骰骰型",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Hit Dice Type",
+          "zh": "生命骰骰型",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.19; PDF p.20"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。职业表I中决定所掷骰子的骰型；不同于生命骰数量或累计生命值。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Maximum Number of Hit Dice",
+      "zh": "生命骰数量上限",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Maximum Number of Hit Dice",
+          "zh": "生命骰数量上限",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.19; PDF p.20"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。职业表I中的生命骰累积上限；达到后仍可能按等级增加固定生命值，不等同最高职业等级。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Level Title",
+      "zh": "等级头衔",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Level Title",
+          "zh": "等级头衔",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.19; PDF p.20"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。职业等级表给出的称号；相同英文称号在其他职业或生物语境须另判义。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Armor and Weapons Permitted",
+      "zh": "准用护甲与武器",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Armor and Weapons Permitted",
+          "zh": "准用护甲与武器",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.19; PDF p.20"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。职业表II的装备使用限制标签；不把职业许可自动解释为已具有武器熟练项。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Acolyte",
+      "zh": "侍僧",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Acolyte",
+          "zh": "侍僧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "background",
+          "edition": "5E",
+          "en": "Acolyte",
+          "entryUrl": "https://5e.kiwee.top/backgrounds.html#%E4%BE%8D%E5%83%A7_phb",
+          "page": 127,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/backgrounds.json",
+          "zh": "侍僧"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词；现有3R资料不完整。精确译名只供名称采用，不移植后续版机制。PHB牧师第1级的等级头衔。同名5E背景／生物提供名称对照，但不是将背景或怪物机制导入1E。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Adept",
+      "zh": "修士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Adept",
+          "zh": "修士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB牧师第2级的等级头衔。按宗教修习者语境定译；离线行家里手一名属于不适用的其他语境。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Priest",
+      "zh": "祭司",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Priest",
+          "zh": "祭司",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Priest",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%A5%AD%E5%8F%B8_mm",
+          "isNpc": false,
+          "page": 348,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "祭司"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词；现有3R资料不完整。精确译名只供名称采用，不移植后续版机制。PHB牧师第3级的等级头衔。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Curate",
+      "zh": "助理牧师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Curate",
+          "zh": "助理牧师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB牧师第4级的等级头衔。参考库虽有HotB同名译对，但该来源版本归属尚未核明，不按精确版别证据采用；本项目依助理教士语义自译。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Canon",
+      "zh": "座堂教士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Canon",
+          "zh": "座堂教士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB牧师第6级的等级头衔。canon在此指教士职位，不作经典、正典或规则正史解。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Lama",
+      "zh": "喇嘛",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Lama",
+          "zh": "喇嘛",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB牧师第7级的等级头衔。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Patriarch",
+      "zh": "宗主教",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Matriarch"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Patriarch",
+          "zh": "宗主教",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB牧师第8级的等级头衔。正文另列女性同职头衔Matriarch；二者同为第8级，区别于家族族长或神祇身份。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "High Priest",
+      "zh": "高级祭司",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "High Priestess"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "High Priest",
+          "zh": "高级祭司",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "High Priest",
+          "location": "/adventureData/0/data/4/entries/8/entries/3/entries/2",
+          "page": 40,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "73d2370b33eff3ef18a0557e853f1adb45929187a96aef727ddd4b8654c184fa",
+          "source": "IMR",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-imr.json",
+          "zh": "高级祭司"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词；现有3R资料不完整。精确译名只供名称采用，不移植后续版机制。PHB牧师第9级的等级头衔。正文另列女性同职头衔High Priestess；后续等级沿用该头衔并带等级说明。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Aspirant",
+      "zh": "见习者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Aspirant",
+          "zh": "见习者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊第1级头衔；依见习／占卜宗教职位语义构词，不按普通叙述词处理。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Ovate",
+      "zh": "卜者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Ovate",
+          "zh": "卜者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊第2级头衔；依见习／占卜宗教职位语义构词，不按普通叙述词处理。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 1st Circle",
+      "zh": "第一环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 1st Circle",
+          "zh": "第一环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第3级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 2nd Circle",
+      "zh": "第二环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 2nd Circle",
+          "zh": "第二环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第4级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 3rd Circle",
+      "zh": "第三环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 3rd Circle",
+          "zh": "第三环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第5级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 4th Circle",
+      "zh": "第四环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 4th Circle",
+          "zh": "第四环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第6级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 5th Circle",
+      "zh": "第五环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 5th Circle",
+          "zh": "第五环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第7级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 6th Circle",
+      "zh": "第六环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 6th Circle",
+          "zh": "第六环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第8级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 7th Circle",
+      "zh": "第七环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 7th Circle",
+          "zh": "第七环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第9级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 8th Circle",
+      "zh": "第八环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 8th Circle",
+          "zh": "第八环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第10级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Initiate of the 9th Circle",
+      "zh": "第九环入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Initiate of the 9th Circle",
+          "zh": "第九环入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第11级的头衔；Circle为修习层级，不是法术环阶或5E德鲁伊结社。九个序号为同一称号系列的词形。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Archdruid",
+      "zh": "大德鲁伊",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Archdruid",
+          "zh": "大德鲁伊",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "classFeature",
+          "edition": "5E",
+          "en": "Archdruid",
+          "entryUrl": "https://5e.kiwee.top/class-druid.html#%E5%A4%A7%E5%BE%B7%E9%B2%81%E4%BC%8A_phb",
+          "page": 64,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-druid.json",
+          "zh": "大德鲁伊"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词；现有3R资料不完整。精确译名只供名称采用，不移植后续版机制。第13级头衔，同时只容三位；名称采用PHB(2014)的精确词对，1E席位限制另依原书。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "The Great Druid",
+      "zh": "至高德鲁伊",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Great Druid"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "The Great Druid",
+          "zh": "至高德鲁伊",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。第14级且只有一位；Great表达最高领袖，不能与第13级Archdruid同译大德鲁伊。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Grand Master of Flowers",
+      "zh": "百花大宗师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Grand Master of Flowers",
+          "zh": "百花大宗师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.19; PDF p.20"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。职业表I明确武僧第17级头衔；依Grand Master“大宗师”及Flowers“百花”构词，完整武僧机制留待其小节盘点。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Plant Type",
+      "zh": "辨识植物种类",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Identification of Plant Type",
+          "zh": "辨识植物种类",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第3级能力；辨认植物种类，不是植物学技能检定或鉴定术。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Animal Type",
+      "zh": "辨识动物种类",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Identification of Animal Type",
+          "zh": "辨识动物种类",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第3级能力；辨认动物种类，不等同驯养、交涉或动物处理技能。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Identification of Pure Water",
+      "zh": "辨识纯净水",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Identification of Pure Water",
+          "zh": "辨识纯净水",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第3级能力；辨认纯净水，不意味着净化污染水或施放净化食粮。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Change Form",
+      "zh": "变换形态",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Change Form",
+          "zh": "变换形态",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊第7级能力，变化为爬行动物、鸟或哺乳动物；不把后续版Wild Shape名称或机制反向当作1E原文。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Sacred Groves",
+      "zh": "神圣林地",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Sacred Groves",
+          "zh": "神圣林地",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。德鲁伊通常居住的神圣林地；沿用神圣、林地词素，后续版Sacred Grove单数只作词形线索，不称精确复数证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Place of Worship",
+      "zh": "礼拜场所",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Place of Worship",
+          "zh": "礼拜场所",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。牧师吸引追随者的建设条件中的礼拜建筑；与第9级可建的宗教据点区分。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Religious Stronghold",
+      "zh": "宗教要塞",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Religious Stronghold",
+          "zh": "宗教据点",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。牧师第9级的堡垒化宗教建筑及领地经营条件；不将此称为一般礼拜场所或直接套用后续版据点系统。本批新查到Stronghold=要塞的精确词对，作为新证据将组合名由宗教据点校为宗教要塞；完整组合仍为项目自译。",
+      "userOverride": false,
+      "sourceInventory": true,
+      "legacyZh": [
+        "宗教据点"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Holy Symbol",
+      "zh": "圣徽",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "holy symbols"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 20,
+          "en": "Holy Symbol",
+          "zh": "圣徽",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.20; PDF p.21"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "itemGroup",
+          "edition": "5E",
+          "en": "Holy Symbol",
+          "location": "/itemGroup/53",
+          "page": 151,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "707748aab855fafbe2d4ef8cc18db7e5e5b9c58e4fa8251550f9161bdc3e73ac",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items.json",
+          "zh": "圣徽"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词；现有3R资料不完整。精确译名只供名称采用，不移植后续版机制。牧师宗教象征物；与同名Holy Symbol法术分列类别，名称采用5E PHB的明确中英字段。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "item",
+      "en": "Mistletoe",
+      "zh": "槲寄生",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Mistletoe",
+          "zh": "槲寄生",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。原文明确用作德鲁伊圣徽的植物；以通行植物名定译，不扩造Sprig of Mistletoe等后续版物品原词。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Centaur",
+      "zh": "人马语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Centaur",
+          "zh": "人马语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按人马与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Dryad",
+      "zh": "树精语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Dryad",
+          "zh": "树精语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按树精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Faun",
+      "zh": "半羊人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Faun",
+          "zh": "半羊人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        },
+        {
+          "edition": "1E",
+          "source": "MM",
+          "page": "PDF 86",
+          "url": "tmp/rule-source-audit/MM.txt",
+          "location": "Satyrs (or fauns) paragraph"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按半羊人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。MM原文明确Satyrs (or fauns)，故依已核Satyr“半羊人”确定同义词根。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Green Dragon",
+      "zh": "绿龙语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Green Dragon",
+          "zh": "绿龙语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按绿龙与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Hill Giant",
+      "zh": "山丘巨人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Hill Giant",
+          "zh": "山丘巨人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按山丘巨人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Lizardman",
+      "zh": "蜥蜴人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Lizardman",
+          "zh": "蜥蜴人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按蜥蜴人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Manticore",
+      "zh": "刺尾狮语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Manticore",
+          "zh": "刺尾狮语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按刺尾狮与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Nixie",
+      "zh": "水妖精语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Nixie",
+          "zh": "水妖精语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        },
+        {
+          "edition": "1E",
+          "source": "MM",
+          "page": "PDF 75",
+          "url": "tmp/rule-source-audit/MM.txt",
+          "location": "Nixies speak their own language paragraph"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按水妖精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。1E MM PDF p.75明确该水生精类使用本族语言；Nixie生物词头现有暂译未作为核译依据，此语名按水妖精语义自译。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Pixie",
+      "zh": "皮克精语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Pixie",
+          "zh": "皮克精语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按皮克精与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Sprite",
+      "zh": "小仙灵语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Sprite",
+          "zh": "小仙灵语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按小仙灵与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "language",
+      "en": "Treantish",
+      "zh": "树人语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 21,
+          "en": "Treantish",
+          "zh": "树人语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.21; PDF p.22"
+        }
+      ],
+      "reason": "离线3R→5E→5R名称库未找到适用于此1E义项的可核精确译名；以原文含义及既有词素自译，3R缺项不等于全站无译法。PHB德鲁伊可选择学习的语言名；按树人与“语”构词，与同名生物分列，保留1E语言划分，不合并成后续版龙语、巨人语或木族语。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Class Level Limitations",
+      "zh": "职业等级上限",
+      "status": "verified-exact",
+      "verificationScope": "1e-bilingual-heading",
+      "references": [
+        {
+          "edition": "1E",
+          "en": "Class Level Limitations",
+          "zh": "职业等级上限",
+          "url": "src/published/books/ua/ua-race-level-limitations.md:3"
+        }
+      ],
+      "reason": "PHB职业表I的Class Level Limit是既有职业等级上限概念的单数词形，不另造概念。",
+      "englishVariants": [
+        "Class Level Limit"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Veteran",
+      "zh": "老兵",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Veteran",
+          "zh": "老兵",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Veteran",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E8%80%81%E5%85%B5_mm",
+          "isNpc": false,
+          "page": 350,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "老兵"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第1级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Warrior",
+      "zh": "武者",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Warrior",
+          "zh": "武者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Warrior",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%AD%A6%E8%80%85_esk",
+          "isNpc": false,
+          "page": 63,
+          "referenceFile": "5etools-names.json",
+          "source": "ESK",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-esk.json",
+          "zh": "武者"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第2级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Swordsman",
+      "zh": "剑士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Swordsman",
+          "zh": "剑士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第3级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Hero",
+      "zh": "英雄",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Hero",
+          "zh": "英雄",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第4级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Swashbuckler",
+      "zh": "剑客",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Swashbuckler",
+          "zh": "剑客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subclass",
+          "edition": "5E",
+          "en": "Swashbuckler",
+          "entryUrl": "https://5e.kiwee.top/class-rogue.html#%E5%89%91%E5%AE%A2_xge",
+          "page": 48,
+          "referenceFile": "5etools-names.json",
+          "source": "XGE",
+          "url": "https://5e.kiwee.top/data/class/class-rogue.json",
+          "zh": "剑客"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第5级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Myrmidon",
+      "zh": "精锐战士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Myrmidon",
+          "zh": "精锐战士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第6级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。按精锐武士的语义定译，不借用其他版本元素役灵等不同生物概念。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Champion",
+      "zh": "勇士",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Champion",
+          "zh": "勇士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subclass",
+          "edition": "5E",
+          "en": "Champion",
+          "entryUrl": "https://5e.kiwee.top/class-fighter.html#%E5%8B%87%E5%A3%AB_phb",
+          "page": 72,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-fighter.json",
+          "zh": "勇士"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第7级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Superhero",
+      "zh": "超级英雄",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Superhero",
+          "zh": "超级英雄",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第8级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Lord",
+      "zh": "领主",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Lord",
+          "zh": "领主",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB战士第9级的等级头衔；同名后续版生物或子职仅供名称对照，不引入其机制。其后等级继续使用此称号附等级说明；不能据头衔自动认定角色已实际拥有领地。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Gallant",
+      "zh": "勇者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Gallant",
+          "zh": "勇者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第1级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Keeper",
+      "zh": "看守者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Keeper",
+          "zh": "看守者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第2级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Protector",
+      "zh": "护卫者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Protector",
+          "zh": "护卫者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第3级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Defender",
+      "zh": "捍卫者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Defender",
+          "zh": "捍卫者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第4级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Warder",
+      "zh": "守卫者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Warder",
+          "zh": "守卫者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第5级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Guardian",
+      "zh": "守护者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Guardian",
+          "zh": "守护者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第6级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Chevalier",
+      "zh": "骑士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Chevalier",
+          "zh": "骑士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第7级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Justiciar",
+      "zh": "执法官",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Justiciar",
+          "zh": "执法官",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB圣武士第8级的等级头衔；按勇武、守护或执法职位语义构词，不把同名武器、护甲形态或亚种名称当作此等级职位的核译证据。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Runner",
+      "zh": "奔行者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Runner",
+          "zh": "奔行者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第1级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Strider",
+      "zh": "健步者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Strider",
+          "zh": "健步者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第2级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Scout",
+      "zh": "斥候",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Scout",
+          "zh": "斥候",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Scout",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%96%A5%E5%80%99_mm",
+          "isNpc": false,
+          "page": 349,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "斥候"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第3级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Courser",
+      "zh": "疾行者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Courser",
+          "zh": "疾行者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第4级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Tracker",
+      "zh": "追踪者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Tracker",
+          "zh": "追踪者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第5级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Guide",
+      "zh": "向导",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Guide",
+          "zh": "向导",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Guide",
+          "location": "/bookData/0/data/0/entries/3/entries/9/entries/2/entries/2/items/2",
+          "page": 8,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "fa178fe85d698b85b26548ef071daf2f0b65e312beb70fee447c796af1927933",
+          "source": "DoD",
+          "url": "https://5e.kiwee.top/data/book/book-dod.json",
+          "zh": "向导"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第6级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Pathfinder",
+      "zh": "探路者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Pathfinder",
+          "zh": "探路者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第7级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Ranger Knight",
+      "zh": "巡林骑士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Ranger Knight",
+          "zh": "巡林骑士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第9级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Ranger Lord",
+      "zh": "巡林领主",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Ranger Lord",
+          "zh": "巡林领主",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。PHB巡林客第10级的等级头衔；原书以职衔标示成长，不因此添加额外移动、追踪或贵族权利。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Detect Evil",
+      "zh": "侦测邪恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Detect Evil",
+          "zh": "侦测邪恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。圣武士专注时感知邪恶的天赋能力；与同名法术分列类别，不移植后续版Detect Evil and Good的侦测对象。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Lay on Hands",
+      "zh": "圣疗",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Lay on Hands",
+          "zh": "圣疗",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "classFeature",
+          "edition": "5E",
+          "en": "Lay on Hands",
+          "entryUrl": "https://5e.kiwee.top/class-paladin.html#%E5%9C%A3%E7%96%97_phb",
+          "page": 82,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-paladin.json",
+          "zh": "圣疗"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。以按手治疗恢复伤害；采用5E PHB精确名称，保留1E按等级与每日次数的机制。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Cure Disease",
+      "zh": "治愈疾病",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Cure Disease",
+          "zh": "治愈疾病",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。按圣武士等级决定每周使用次数的固有疗病能力；与同名法术分列，不叫后续版疾病免疫能力。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Protection from Evil",
+      "zh": "防护邪恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Protection from Evil",
+          "zh": "防护邪恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。持续围绕圣武士的防护效果；与同名法术分列，原文给出的是半径，与圣剑力量圈的直径表述分开。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Circle of Power",
+      "zh": "力量圈",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Circle of Power",
+          "zh": "力量圈",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。拔出并持有圣剑时形成且驱散魔法的力量圈。离线5E同名法术译作原力法阵，机制与此不对应，拒绝借用该法术名。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Tithe",
+      "zh": "什一奉献",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Tithe",
+          "zh": "什一奉献",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。将收入十分之一交给合格慈善宗教机构的义务；不是向同伴牧师付款，也不是一般领地税率。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Giant Class",
+      "zh": "巨人类",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Giant Class",
+          "zh": "巨人类",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。1E巡林客额外伤害的专门分类，列有熊地精、双头巨人、巨人、鬣狗人、地精、大地精、狗头人、食人魔、食人魔法师、兽人与巨魔；不是通常巨人生物类型或仅大体型敌人。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Chance to Track",
+      "zh": "追踪成功率",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 24,
+          "en": "Chance to Track",
+          "zh": "追踪成功率",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.24; PDF p.25"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。按目标行经地形与门户等给出的百分比；户外另有基础百分比与时间、降水等修正，不改为技能难度等级。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Attacks per Melee Round",
+      "zh": "每近战轮攻击次数",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Attacks per Melee Round",
+          "zh": "每近战轮攻击次数",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。例如3/2表示按两轮计算攻击次数；适用于表中武器攻击，原文另排除低于一颗d8生命骰的普通生物情况。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Freehold",
+      "zh": "自由领地",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Freehold",
+          "zh": "自由领地",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。战士建设城堡并清剿周边后建立的领地；与作为军事建筑的要塞区分。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Stronghold",
+      "zh": "要塞",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Stronghold",
+          "zh": "要塞",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Stronghold",
+          "location": "/bookData/0/data/5/entries/6/entries/1/entries/3/entries/8",
+          "page": 101,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "b0f651de9a0a73337b619e4a61ff6a7609abae033cb1accdb977ec8c9d147483",
+          "source": "DMG",
+          "url": "https://5e.kiwee.top/data/book/book-dmg.json",
+          "zh": "要塞"
+        }
+      ],
+      "reason": "离线3R→5E→5R检索后采用适用的精确名称对；只借名称。3R本地覆盖有限，不据缺项断言该版无译法。职业角色建设的军事据点，采用5E DMG精确词对；不等同5R Bastion专门经营系统。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Immunity to All Forms of Disease",
+      "zh": "疾病免疫",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Immunity to All Forms of Disease",
+          "zh": "疾病免疫",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。原书列出的对一切疾病的免疫；保留原文短语，不反向补写Divine Health等未在本页出现的能力名。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "item",
+      "en": "Holy Sword",
+      "zh": "圣剑",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 22,
+          "en": "Holy Sword",
+          "zh": "圣剑",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.22; PDF p.23"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E义项的可核精确名称对，按原文与既有词素自译。3R本地覆盖有限，不据缺项断言该版无译法。原文称特殊魔法剑并说明圣武士持剑时的力量圈；不凭名称近似自动归并成3R同名法术或改名为Holy Avenger。",
+      "userOverride": false,
+      "sourceInventory": true
+    },
+    {
+      "category": "rule",
+      "en": "Prefect",
+      "zh": "教务长",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "Dungeon Master’s Screen (1979), TSR 9024",
+          "page": "CLERICS TABLE, level 5",
+          "en": "Prefect",
+          "zh": "教务长",
+          "url": "https://pdfcoffee.com/adampd-dm-screen-pdf-free.html",
+          "location": "Online original-document transcription, cleric XP 13,001–27,500; page also identifies 1979 and product 9024.",
+          "accessed": "2026-11-26",
+          "retrieval": "read original-document text transcription; not a rendered second PHB scan"
+        }
+      ],
+      "reason": "PHB本地扫描第5级头衔缺字；另读1979年TSR9024《Dungeon Master’s Screen》原文转录的CLERICS TABLE：经验13,001–27,500、第5级为Prefect，前后列Curate/Canon，补证同一职位。只称读到原文转录，不称已目视另一PHB扫描。离线3R→5E→5R无适用于此职衔的精确译名，按宗教管理职衔语义自译为教务长；3R本地覆盖仍不完整。",
+      "sourceInventory": true,
+      "userOverride": false
     }
   ]
 }

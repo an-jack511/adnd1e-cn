@@ -1,190 +1,10 @@
 {
-  "files": 36,
-  "changes": [
-    {
-      "path": "src/data/public/class-details.json",
-      "beforeSha256": "7e037f3512029f3ef85e2f26881c1cfd8c1463252418f3416a20cf6727b123cc",
-      "afterSha256": "94ea22a314e5d4ab8f3c700cfa0d38e5ceb21c2617475519e286744a1ec39021"
-    },
-    {
-      "path": "src/data/public/dragon-classes.json",
-      "beforeSha256": "3e0bf32d5ec7c2fcd3ebf1dae32e4847e8da04305af13781e5cf707204b4ee37",
-      "afterSha256": "888447d9ecae8683c2c6b693b198ba2cff91af8c7176656a4f92707ca27b8225"
-    },
-    {
-      "path": "src/data/public/regional-monsters.json",
-      "beforeSha256": "ff11708e19fa7766e4dde1cb861c895fe3b3a38fbc3c28834b97157c09d7407b",
-      "afterSha256": "b6c81e9e8d5faa6033011096d6d1304b75744cd921e7d152bca56138a8c7a3d2"
-    },
-    {
-      "path": "src/data/public/regional-spells.json",
-      "beforeSha256": "07744b22db797f21d8d13864db499da54cc91eadfb9aa03355d2616fd1376ee6",
-      "afterSha256": "c9fa2efe208161616d33d89e855ba1363991cbb95b38c61a622b80acb40cea91"
-    },
-    {
-      "path": "src/data/public/ua-spells-imported.json",
-      "beforeSha256": "7de47532a8044e8bb322ebf687edf2e0c628e19f77ab20f5c25bb35dc83afe69",
-      "afterSha256": "2c7740578bff07447a6e808f9d1955e020b67e12ffc850cf7606e958ff07b51d"
-    },
-    {
-      "path": "src/data/published/book-search.json",
-      "beforeSha256": "b5e46788ad97ff080f57037f60a4b28a3e472e65d0924408ca66e05660345d40",
-      "afterSha256": "0bed3b90385fa62ee864684aff6b8bc6cdd8fe9649dcb2c474c1ae88a54a10c2"
-    },
-    {
-      "path": "src/data/published/books.json",
-      "beforeSha256": "19a369b0845a3ce250c12af2d6fd68a72d209096b024a51a7b9e3943df7764d5",
-      "afterSha256": "806f38b53cc18d1b27b2a80a53723eabf41da79c770bc2a549c690196636a46e"
-    },
-    {
-      "path": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md",
-      "beforeSha256": "f25f6b591f0121c48e077e537650fd14b037468b1a8fe65de4d177fc2006a8fd",
-      "afterSha256": "bad62f967e3df4d5806b44583b6fa9282e2af0327bd728169d4a11fcacbe2e6d"
-    },
-    {
-      "path": "src/published/books/dmg/dmg-combat.md",
-      "beforeSha256": "f1b9b34296c0afbdb39430d20b2540eed661d9c26cb3e66ad725e32c3bc58303",
-      "afterSha256": "b29b9445f73321e96fd24a937cae9cff94078a59f2687abbad7c6459012f1949"
-    },
-    {
-      "path": "src/published/books/dmg/dmg-henchmen.md",
-      "beforeSha256": "ddf912c04766caa1d3365b4c4bed5347fc7ad0f6f969d5bceee8504c1ea8125f",
-      "afterSha256": "5cf0d9d170acc220d766ac53b15f6d5fe7b116e8b0c80168b93a0bc3e37c7b05"
-    },
-    {
-      "path": "src/published/books/dmg/dmg-npc-personae.md",
-      "beforeSha256": "3b8e94e16f627d9566ee27d92fc45d7bf0516c21d285fc29bd06f5a22711b46b",
-      "afterSha256": "41183a88ba9d718282d690d83d3ea3c950732abab904ce04d64ce98a0c8dff39"
-    },
-    {
-      "path": "src/published/books/dragon-120/pun-is-mightier-than-the-sword-the.md",
-      "beforeSha256": "964fbc8949a6b8f720ce247b9a2d3a726c93fb93e26635a1d8e0a60105527c53",
-      "afterSha256": "ae802730ff187752c0bc41dc84c4f17a0f2201cd554d11265bfe468d92d09aee"
-    },
-    {
-      "path": "src/published/books/dragon-45/npc-classes.md",
-      "beforeSha256": "442b9e941d14dca4e783727d6e8c429eab0debd448b0cd41b84ddba97174870d",
-      "afterSha256": "d853a0f227aed5999c45bdfa56d2dfbd40819913459b61458af0b83f1547a28b"
-    },
-    {
-      "path": "src/published/books/dragon-63/make-charisma-count-for-more.md",
-      "beforeSha256": "97f9835d56987f9b38b67500df00fbd49f1bc0c8a35c8138237eac609033cbf8",
-      "afterSha256": "a7800a2760e1e4fff663d76ce6f175c4708a14ac0da6dc1bc25a201ae3c79c62"
-    },
-    {
-      "path": "src/published/books/gha/gha-camprat.md",
-      "beforeSha256": "d4d5cf6914ac721bc87f7bbd88b0ad67634696b48ce2b0c6849746e1d76a2ea1",
-      "afterSha256": "a9be65275a6dc615a1a45a8529867a6fb771c052ac5e24c7dee3d41753c4c9a4"
-    },
-    {
-      "path": "src/published/books/gha/gha-changecat.md",
-      "beforeSha256": "117b2a4a4e16a13d09ca5ded11c972eaf5f22d1b05d4c32ee1fb2f42049be822",
-      "afterSha256": "7ea4cb8a494cad3a58eb4aa0e33ccee0a63fb0b37f66912a4a17e9a84ac843f7"
-    },
-    {
-      "path": "src/published/books/gha/gha-crystalmist.md",
-      "beforeSha256": "246db7321beb1321c83f31c571b0ed38c6383fdf951e452b5b51416872c34bae",
-      "afterSha256": "1120d56d2868a451015a291076863d38fdb3f22aa5363a46b2c8d97cbebed9f4"
-    },
-    {
-      "path": "src/published/books/gha/gha-dragon-greyhawk.md",
-      "beforeSha256": "489ef226771f5f218e0872fa327bf49080c3bc02533b27d3af7c8ce6214136e8",
-      "afterSha256": "bce6b711ca7135026de3d633f6ec81a3bd9091d961d518a60d5dc22c48764ec5"
-    },
-    {
-      "path": "src/published/books/gha/gha-grung.md",
-      "beforeSha256": "8b350a47d320d6e266faf735347667e3ab1feeeff7b50b1848830dc19ec6dce4",
-      "afterSha256": "e590e0b34258cf42b30b7db80af255357113efeb51e2c5887334f8e76828407c"
-    },
-    {
-      "path": "src/published/books/gha/gha-ingundi.md",
-      "beforeSha256": "96c24939295ec1f05e793a93c6c3ecf18fafdd8e753ba7b227960d53914a5742",
-      "afterSha256": "3694ee5329ee74acdf8fae119ed1aa7a3f51819a9c24568126e46b07179bcebe"
-    },
-    {
-      "path": "src/published/books/gha/gha-magical-items-miscellaneous-2.md",
-      "beforeSha256": "44865faf6f7ade1e3dbd6dbe1d9e990235c5bf5c75f9071e7d5ca85a9850052c",
-      "afterSha256": "22ab06d0a075999bbf7c3bc5a9831c8abd3ef5c36cffba6d43c6687dff53b109"
-    },
-    {
-      "path": "src/published/books/gha/gha-magical-spells-otiluke-otto.md",
-      "beforeSha256": "cf3e2693f7a20e6fd8a9850cef4afeb9ce8fba09ed8d00695e0373d37ead4ead",
-      "afterSha256": "ce8c012e939f901f37bf24448c3a5aa19c5a2c1463cc8a18dc428390995edcc2"
-    },
-    {
-      "path": "src/published/books/gha/gha-mist-wolf.md",
-      "beforeSha256": "c8c5daccccb4c4141fc878df65c51d893ec4a4632741cabaf0c17bb34dd6554e",
-      "afterSha256": "f5333eed2452e1e45ee13deafba1c7a45794620efa8406c252e99536dc539813"
-    },
-    {
-      "path": "src/published/books/gha/gha-monsters-intro-beastman.md",
-      "beforeSha256": "3c8f96b652df5f201c3713615cb1c1614a21afb38e48ec58a97264b877a0138d",
-      "afterSha256": "d735134c624ab48646f6161a67e3cd8907970fc2b2ad70e207487717db8f58dd"
-    },
-    {
-      "path": "src/published/books/gha/gha-nimbus.md",
-      "beforeSha256": "1f65def44b12d1f2c7a70763cd18ba8e779edd73ea5b425aed54a1fe086f5eed",
-      "afterSha256": "3e8f6da5d5692a04c5f572a87138bde489ed8aaba1c655660abfe3bc939572c0"
-    },
-    {
-      "path": "src/published/books/gha/gha-sea-sprite.md",
-      "beforeSha256": "175baa97c0884bf0ae66e4237da8a50d697ec838255f0971ed984dcf89a34590",
-      "afterSha256": "688a3c3811e1c2bf02fce3737658320bcd5a02501497147df1439a210dd3bdf1"
-    },
-    {
-      "path": "src/published/books/gha/gha-sea-zombie.md",
-      "beforeSha256": "d8645c0e45bb25cda766c08270e19b5fcc20d0163b2ac5eb9d86fc7c5869b9ca",
-      "afterSha256": "af08344692c8c9ad082875a6d0b98fc2aff7d36d75823ff618b26689ed3d2edd"
-    },
-    {
-      "path": "src/published/books/gha/gha-swordwraith.md",
-      "beforeSha256": "904fcfbad5fc0c10a79a6377291da6bb80914e3bd7ea9745e78f060105ec05c4",
-      "afterSha256": "02e5135531602070ada77a2ff6d54d85064632c3c9a1dd95ad0b0e9144e92198"
-    },
-    {
-      "path": "src/published/books/gha/gha-vampire-cactus.md",
-      "beforeSha256": "074a1ced6b634ec8dc902854d2edc6b025d5ddbf5e85a37b99a27c3d1a8cb48f",
-      "afterSha256": "b841054ff8676a92549c61a509be6fcb40766769f3dda52bb5bb5d4cb892a90f"
-    },
-    {
-      "path": "src/published/books/oa/oa-abilities.md",
-      "beforeSha256": "2636a42591ee22d9e4cf1c9d91011996430e8fff3789c70eddf5cc0e31ee9586",
-      "afterSha256": "8e2894cd0624244e1bb91e42b384abdb7bb12ec0d65dc55ad0488413cd8fdb26"
-    },
-    {
-      "path": "src/published/books/oa/oa-families-clans-caste.md",
-      "beforeSha256": "521ec389b68ea0d428c9fcea098ac4f9ef2461a260bb593e4c01ad125dba00f8",
-      "afterSha256": "232425bb661e1abedd76ab26fb50d8997f28297348d19043bea3b227a57dae08"
-    },
-    {
-      "path": "src/published/books/oa/oa-oriental-classes.md",
-      "beforeSha256": "1741d04d6caeaa64e57426a9b84f14cd7cfd305e97607b992cd63e8b50394530",
-      "afterSha256": "2b0606ac4ed8681db8901d35db6514e49d6e281c3756277c170b2e2cb0a4ccb7"
-    },
-    {
-      "path": "src/published/books/phb/charisma.md",
-      "beforeSha256": "0521f2d082cb20d54a77ce80d954b428e8b42edae2bafdb84b14f4d2720e123c",
-      "afterSha256": "b655bd2b5a01c44a12eaa29918e729379e5ad65280aba2d8aaecfda8848b7129"
-    },
-    {
-      "path": "src/published/books/ref5/ref5-mummies.md",
-      "beforeSha256": "1c891f582b838c26e0cecaa8efff8fa68672253561f80668787023fcb7f8854b",
-      "afterSha256": "89ba16d99dea944e8d2256dd5c1555c70de72299bbab8e53f9cf72a201b864e4"
-    },
-    {
-      "path": "src/published/books/ua/ua-cleric-spells-2.md",
-      "beforeSha256": "52cd929b7cf116753b0c5fe1d7fdbae9c7ecb9b9253c9c2748dbcb27a96215bc",
-      "afterSha256": "3f5b07b443981a9e881e832652afe50c541811f80841f6251d839f861187c2d8"
-    },
-    {
-      "path": "src/published/books/ua/ua-comeliness.md",
-      "beforeSha256": "44f57618246b02c3af1a449cef9b71f6567e959d4c424737f716108ede40ed5c",
-      "afterSha256": "f241311b74e4cf3ee6fabafd7b817f755a1e98a973fd7a45cc9496ff90f27adb"
-    }
-  ],
+  "files": 0,
+  "changes": [],
   "globalReplacements": {
     "蛮族": "野蛮人",
     "僧侣": "武僧",
+    "作用区域": "效应区域",
     "以太位面的魔法": "魔法",
     "防侦测与定位护符": "反侦护符",
     "克瓦利什装置": "夸力许装置",
@@ -276,7 +96,6 @@
     "防毒护符": "辟毒护符",
     "创伤闭合护符": "愈合护符",
     "止血护符": "愈合护符",
-    "贤者之石": "点金石",
     "爱情滤剂": "迷情媚药",
     "爱情灵药": "迷情媚药",
     "下水道笛": "唤鼠乐笙",
@@ -558,10 +377,13 @@
     "泽波音": "赛波音",
     "珍铎城": "散提尔堡",
     "吉维林": "亦为林",
+    "能力检定": "属性检定",
     "阵营语言": "阵营语",
     "神器与重要物品": "神器",
     "圣物与遗物": "神器与圣遗物",
+    "星界投射": "星界投影",
     "攻击调整": "攻击调整／攻击调整值",
+    "攻击骰": "攻击检定",
     "每轮攻击次数表": "每轮近战攻击次数表",
     "每近战轮攻击次数表": "每轮近战攻击次数表",
     "野蛮人熟练项": "蛮族熟练项",
@@ -569,17 +391,24 @@
     "吐息武器": "喷吐武器",
     "地下战斗规则": "地下游戏的战斗规则",
     "遭遇对峙": "正面冲突",
+    "伤害骰": "伤害掷骰",
     "防御调整": "防御调整／防御调整值",
     "类人种": "半人类",
-    "新法术的环级": "法术环级的确定",
+    "新法术的环级": "法术环阶的确定",
+    "法术环级的确定": "法术环阶的确定",
     "经验值数分配": "经验值分配",
+    "以太位面与星光位面上的战斗": "以太位面与星界位面上的战斗",
     "太虚化": "以太化",
     "怪物的经验值数": "怪物经验值",
     "疲劳与精疲力竭": "疲劳与力竭",
     "获得经验等级": "提升经验等级",
     "抓钩与接舷": "爪钩与接舷",
+    "智力堡垒": "智能壁垒",
+    "智识壁垒": "智能壁垒",
     "近战轮": "轮",
     "人类与类人怪物": "人类与类人生物",
+    "心灵空白": "心灵屏障",
+    "心灵突刺": "心灵戳刺",
     "投射物攻击": "发射投射武器",
     "黑暗中的移动影响": "黑暗对移动的影响",
     "光滑水平表面上的移动": "在光滑水平表面上移动",
@@ -588,10 +417,19 @@
     "长期地下探险中的": "非玩家角色",
     "玩家角色的非职业技能": "玩家角色非职业技能",
     "反应调整": "反应调整值",
+    "对毒药豁免": "对毒素豁免",
+    "地下区域规模": "体型",
     "经验值数特别奖励": "经验值特别奖励",
-    "卷轴法术的环级": "卷轴法术的法术环级",
+    "卷轴法术的法术环级": "卷轴法术的法术环阶",
+    "卷轴法术的环级": "卷轴法术的法术环阶",
+    "卷轴法术环级范围": "卷轴法术环阶范围",
+    "外层位面生存": "求生",
+    "星界生存": "求生",
+    "心灵传讯": "心灵感应",
+    "思想护盾": "思维之盾",
     "驱退不死生物": "驱散不死生物",
     "水下施法": "水下法术",
+    "极稀有": "非常珍稀",
     "零生命值": "生命值为零",
     "警报术": "魔法警报",
     "操纵死尸": "活化死尸",
@@ -2610,9 +2448,48 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "Astral Plane",
+      "targets": [
+        "星光位面"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "星界位面",
+      "targets": [
+        "星光位面"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Barrier Peaks",
       "targets": [
         "屏障峰"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "毕格比之手",
+      "targets": [
+        "毕格比",
+        "毕格比强力之手",
+        "毕格比擒拿掌",
+        "毕格比的书虫灾厄术",
+        "毕格比的力量雕塑术",
+        "毕格比的围城弩矢术",
+        "毕格比的奇绝剑士术",
+        "毕格比的好斗拳士术",
+        "毕格比的感觉手指术",
+        "毕格比的施工队术",
+        "毕格比的灵巧手指术",
+        "毕格比的破门铁拳术",
+        "毕格比的绞杀之握术",
+        "毕格比的缄默之手术",
+        "毕格比的至高力量雕塑术",
+        "毕格比的高级力量雕塑术",
+        "毕格比粉碎掌",
+        "毕格比金刚拳",
+        "毕格比阻截之手"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2729,6 +2606,28 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "卓姆吉瞬间召唤",
+      "targets": [
+        "卓姆吉",
+        "卓姆吉的仁慈变形术",
+        "卓姆吉的便携时计术",
+        "卓姆吉的冒险者幸运术",
+        "卓姆吉的奇妙护盾术",
+        "卓姆吉的工具箱术",
+        "卓姆吉的慈悲蜕变术",
+        "卓姆吉的气味遮罩术",
+        "卓姆吉的生命气息术",
+        "卓姆吉的瞬间出口术",
+        "卓姆吉的负重兽术",
+        "卓姆吉的轻步术",
+        "卓姆吉的迅捷坐骑术",
+        "卓姆吉的铁袋术",
+        "卓姆吉的非魔法气体防护术",
+        "卓姆吉的飞行壮举术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Elturel",
       "targets": [
         "埃尔托瑞尔"
@@ -2746,6 +2645,13 @@
       "old": "Estwilde",
       "targets": [
         "埃思特维德"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "以太界",
+      "targets": [
+        "以太位面"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -2925,6 +2831,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "李欧蒙小屋",
+      "targets": [
+        "李欧蒙"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Limbo",
       "targets": [
         "混沌海"
@@ -2960,6 +2873,13 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "马友夫强酸箭",
+      "targets": [
+        "马友夫"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Melvaunt",
       "targets": [
         "梅尔沃特"
@@ -2977,6 +2897,25 @@
       "old": "Moonsea",
       "targets": [
         "月海"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "魔邓肯之剑",
+      "targets": [
+        "魔邓肯",
+        "魔邓肯的全方位视觉术",
+        "魔邓肯的忠诚幻影守卫术",
+        "魔邓肯的忠诚幻影盾女术",
+        "魔邓肯的忠诚幻影防卫者术",
+        "魔邓肯的昆虫与蛛形动物防护术",
+        "魔邓肯的末前思虑术",
+        "魔邓肯的电弧术",
+        "魔邓肯的防御狼人术",
+        "魔邓肯的防护黏液术",
+        "魔邓肯的非魔法爬虫与两栖动物防御术",
+        "魔邓肯的鸟类防护术",
+        "魔邓肯解离术"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3051,9 +2990,72 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "涅斯图魔法灵光",
+      "targets": [
+        "涅斯图",
+        "涅斯图的元素孽怪召唤术",
+        "涅斯图的光爆术",
+        "涅斯图的包覆黑暗术",
+        "涅斯图的水晶匕首术",
+        "涅斯图的水晶短剑术",
+        "涅斯图的灼热光束术",
+        "涅斯图的舞动幽光术",
+        "涅斯图的辉光拱门术",
+        "涅斯图的辉光棱杖术",
+        "涅斯图的迅捷灭火术",
+        "涅斯图的闪光术",
+        "涅斯图的黄金揭示术",
+        "涅斯图的黑光爆发术",
+        "涅斯图的黑微点术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "Orlumbor",
       "targets": [
         "欧伦伯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "欧提路克弹力法球",
+      "targets": [
+        "欧提路克",
+        "欧提路克的剧痛屏障术",
+        "欧提路克的力伞术",
+        "欧提路克的容纳球术",
+        "欧提路克的念动球",
+        "欧提路克的攻城球术",
+        "欧提路克的极寒屏障术",
+        "欧提路克的死亡屏障术",
+        "欧提路克的气泡浮力术",
+        "欧提路克的沸油浴术",
+        "欧提路克的火冰双球术",
+        "欧提路克的烟雾球术",
+        "欧提路克的电屏术",
+        "欧提路克的蒸汽球术",
+        "欧提路克的辉光屏障术",
+        "欧提路克的酸云术",
+        "欧提路克的钻石屏障术",
+        "欧提路克的驱散屏障术"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "奥图迷舞",
+      "targets": [
+        "奥图",
+        "奥图的水晶节律术",
+        "奥图的稳足曳步术",
+        "奥图的绝望鼓声术",
+        "奥图的舒缓振动术",
+        "奥图的解放钟声术",
+        "奥图的警戒音调术",
+        "奥图的遗忘音调术",
+        "奥图的银舌术",
+        "奥图的锡兵术",
+        "奥图的隔绝钟声术",
+        "奥图的音调攻击术"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3075,6 +3077,25 @@
       "old": "Procampur",
       "targets": [
         "普罗坎普"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "拉瑞心灵联结",
+      "targets": [
+        "拉瑞",
+        "拉瑞的位面真相术",
+        "拉瑞的共情感知术",
+        "拉瑞的心灵扫描术",
+        "拉瑞的心灵护盾术",
+        "拉瑞的法术增强术",
+        "拉瑞的紧急言辞术",
+        "拉瑞的能力借取术",
+        "拉瑞的记忆强化术",
+        "拉瑞的记忆改变术",
+        "拉瑞的过去重演术",
+        "拉瑞的防侦测术",
+        "拉瑞的高级法术增强术"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3138,6 +3159,26 @@
       "old": "Tarsis",
       "targets": [
         "塔西斯"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "谭森浮碟术",
+      "targets": [
+        "谭森",
+        "谭森的原始狂怒术",
+        "谭森的奔行战士术",
+        "谭森的巨力术",
+        "谭森的战争福运术",
+        "谭森的武器大师术",
+        "谭森的燃焰之刃术",
+        "谭森的猎鹰术",
+        "谭森的稳准射击术",
+        "谭森的肉搏术",
+        "谭森的致命一击术",
+        "谭森的虎眼术",
+        "谭森的重击法杖术",
+        "谭森的鹰眼术"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3289,6 +3330,34 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "动物处理",
+      "targets": [
+        "驯兽"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "动物驯养",
+      "targets": [
+        "驯兽"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "动物处理熟练项",
+      "targets": [
+        "驯兽熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "驯兽",
+      "targets": [
+        "驯兽熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "圣物",
       "targets": [
         "神器"
@@ -3310,6 +3379,21 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "疲劳",
+      "targets": [
+        "力竭"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "专长",
+      "targets": [
+        "专精",
+        "熟练项"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "类人生物子表 ·",
       "targets": [
         "类人生物子表"
@@ -3317,16 +3401,37 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "专长",
+      "old": "夺心魔的灵能冲击",
       "targets": [
-        "熟练项"
+        "灵能冲击"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
-      "old": "夺心魔的灵能冲击",
+      "old": "侦测",
       "targets": [
-        "灵能冲击"
+        "探知"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "面积",
+      "targets": [
+        "体型"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "法术环级",
+      "targets": [
+        "法术环阶"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "生存",
+      "targets": [
+        "求生"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -3622,13 +3727,6 @@
       "old": "传讯",
       "targets": [
         "传讯术"
-      ],
-      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
-    },
-    {
-      "old": "心灵空白",
-      "targets": [
-        "心灵屏障"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },

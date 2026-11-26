@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-26T10:47:37.965957+00:00",
+  "records": 148507,
+  "editions": {
+    "3R": 180,
+    "5E": 115330,
+    "5R": 22722,
+    "other": 3484,
+    "unclassified": 6791
+  },
+  "downloadedFiles": 353,
+  "downloadedBytes": 104090247,
+  "errors": [
+    {
+      "url": "https://5e.kiwee.top/data/adventure/adventure-fraif.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://5e.kiwee.top/data/bestiary/bestiary-wbtw.json",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)>"
+    },
+    {
+      "url": "https://5e.kiwee.top/data/book/book-hf.json",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)>"
+    },
+    {
+      "url": "https://dnd3r.huijiwiki.com/index.php?title=Data%3A%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%AE%E5%BD%95.json&action=raw",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://dnd3r.huijiwiki.com/api.php?action=query&format=json&prop=revisions&rvprop=content&titles=Data%3A%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%AE%E5%BD%95.json",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "policy": "Reference evidence only. Headings are not automatically terms. No result does not prove absence; 3R coverage remains partial.",
+  "localCache": "X:\\Games\\DND\\1e\\tmp\\terminology-reference-cache",
+  "sourceDiscovery": [
+    "https://dnd.huijiwiki.com/wiki/DND_中文共库",
+    "https://dnd3r.huijiwiki.com/wiki/数据库目录"
+  ],
+  "uniqueTermCount": null,
+  "countMeaning": "Records include repeated bilingual names and chapter headings; not unique concepts or new 1E terms.",
+  "offlineValidation": "Index and queries tested with network calls forbidden; hash mismatch rejects rebuild and preserves last good database.",
+  "nextBatch": "generated/phb-races-offline-review.json"
+}

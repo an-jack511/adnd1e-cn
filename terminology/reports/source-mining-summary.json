@@ -1,23 +1,28 @@
 {
-  "method": "OCR title-case and all-caps phrase extraction plus bilingual manuscript headings/table labels",
+  "method": "OCR title-case and all-caps phrase extraction plus single-token heading/table-label extraction from scanned AD&D 1E books, including full PHB/DMG PDF text-layer extracts, and bilingual manuscript headings/table labels",
   "ocrCorpus": {
-    "rawBooks": 24,
-    "rawPages": 2928,
-    "dragonOCRFiles": 128,
-    "sourceFiles": 3056
+    "rawBooks": 26,
+    "rawPages": 3298,
+    "corePdfTextLayerPages": {
+      "PHB": 130,
+      "DMG": 240
+    },
+    "dragonOCRFiles": 126,
+    "sourceFiles": 3424
   },
   "manuscriptFiles": 1899,
-  "uniqueCandidates": 60118,
+  "uniqueCandidates": 74999,
   "candidateStatusCounts": {
-    "source-candidate": 56671,
-    "in-1e-catalog": 2806,
-    "catalogue-candidate": 427,
-    "reference-only": 214
+    "source-candidate": 69153,
+    "in-1e-catalog": 4473,
+    "catalogue-candidate": 689,
+    "external-name-match": 684
   },
-  "priorityReviewCandidates": 19500,
-  "bilingualDraftCandidatesAddedToSearch": 1248,
+  "priorityReviewCandidates": 32577,
+  "bilingualDraftCandidatesAddedToSearch": 1199,
   "limitations": [
     "OCR phrase extraction includes false positives, OCR errors and incomplete table text.",
+    "PHB/DMG core text-layer extracts are page-delimited by PDF page and must be verified against the scanned page; printed page numbering can differ.",
     "Exact 3R/5E/5R name matches are suggestions only and do not establish an AD&D 1E canonical translation.",
     "Candidate rows retain source locators but exclude OCR prose; verify each term in its source context before catalog approval."
   ],

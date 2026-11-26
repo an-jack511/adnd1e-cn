@@ -1,101 +1,278 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="中英术语对照表" description="AD&D 第一版中文规则索引的中英术语与专名对照表。">
+<BaseLayout title="中英术语对照表" description="只收录 AD&D 1E 资料库原文词项的中文术语表，支持类别筛选、义项辨析和开放 API。">
   <h1>中英术语对照表</h1>
-  <p>本表收录 AD&amp;D 1E 资料中的术语与跨版本名称参考。标为“版本参考”的译名只适用于对应版本，不直接作为 1E 定译；规则缩写、骰式和来源代码保留原格式。AI 与其他程序可通过 <a href="/api/terminology/v1.json">开放 JSON 接口</a>读取全表，接口说明见 <a href="/api/terminology/openapi-v1.json">OpenAPI 文档</a>。</p>
+  <p>本表只收录 AD&amp;D 1E 资料库原文中的词项。3R、5E、5R 译名仅作为对应 1E 词项的核查依据；义项说明用于区分同一英文在不同规则语境下的译法。AI 与其他程序可通过 <a href="/api/terminology/v1.json">开放 JSON 接口</a>读取全表，接口说明见 <a href="/api/terminology/openapi-v1.json">OpenAPI 文档</a>。</p>
+
   <form id="terms-form" class="lookup">
-    <label>查找术语<input id="terms-query" type="search" placeholder="中文、English 或旧译" /></label>
-    <label>类别<select id="terms-category"><option value="">全部</option></select></label>
-    <button>查找</button>
+    <label class="search-field">查找术语<input id="terms-query" type="search" placeholder="中文、English、别名或义项" autocomplete="off" /></label>
+    <label>类别<select id="terms-category"><option value="">全部类别</option></select></label>
+    <label>核对状态<select id="terms-status"><option value="">全部状态</option></select></label>
+    <label class="polysemy-filter"><input id="terms-polysemy" type="checkbox" />只看多义词</label>
+    <button type="submit">查找</button>
+    <button id="terms-clear" type="button" class="clear-button">清除筛选</button>
   </form>
-  <p id="terms-count" role="status">正在载入术语表…</p>
-  <div id="terms-grid" class="terms-grid" role="list" aria-label="中英术语对照表"></div>
-  <nav class="pagination" aria-label="术语表分页">
-    <button id="terms-prev" type="button">上一页</button>
-    <span id="terms-page" aria-live="polite">第 1 页</span>
-    <button id="terms-next" type="button">下一页</button>
-  </nav>
+
+  <p id="terms-count" class="terms-count" role="status" aria-live="polite">正在载入术语表…</p>
+  <nav id="terms-pagination-top" class="pagination" aria-label="术语表分页"></nav>
+  <div class="terms-results">
+    <div id="terms-grid" class="terms-grid" role="list" aria-label="中英术语对照表"></div>
+  </div>
+  <nav id="terms-pagination-bottom" class="pagination" aria-label="术语表分页"></nav>
+
   <script>
-    type Entry = { en:string; zh:string; category:string; status:string; references:string[]; aliases:string[]; englishVariants:string[] };
+    type Sense = { context:string; zh:string; meaning:string; source:string };
+    type Reference = { edition:string|null; source:string|null; world:string|null; page:string|number|null; url:string|null; entryUrl:string|null };
+    type Entry = { en:string; zh:string; category:string; status:string; references:Reference[]; aliases:string[]; englishVariants:string[]; senses:Sense[]; searchIndex:string };
     const labels:Record<string,string> = {
       action:'行动', background:'背景', boon:'恩赐', book:'书目', candidate:'名称候选', charoption:'角色选项', class:'职业',
-      classFeature:'职业特性', condition:'状态', cult:'教团', disease:'疾病', feat:'专长', hazard:'危害', heading:'资料标题候选',
+      classFeature:'职业特性', condition:'异常状态', cult:'教团', disease:'疾病', feat:'专长', hazard:'危害', heading:'资料标题候选',
       item:'物品', language:'语言', languageScript:'文字系统', magicvariant:'魔法物品变体', monster:'怪物',
       object:'物件', optionalfeature:'可选特性', psionic:'灵能', proper:'专名', race:'种族', recipe:'配方',
-      'glossary-context':'原书术语表（语境待分）', 'glossary-term':'原书术语表', 'legacy-term':'历史译名索引', reward:'奖励', rule:'规则', 'setting-reference':'设定名称索引（含标题候选）', skill:'技能',
-      spell:'法术', status:'状态', subclass:'子职', subclassFeature:'子职特性', table:'表格名称',
+      'glossary-context':'原书术语（语境待分）', 'glossary-term':'原书术语', 'legacy-term':'历史译名索引', reward:'奖励', rule:'规则', 'setting-reference':'设定名称候选', skill:'技能',
+      spell:'法术', status:'状态术语', subclass:'子职', subclassFeature:'子职特性', table:'表格名称',
       trap:'陷阱', variantrule:'变体规则', vehicle:'载具', vehicleUpgrade:'载具改装',
     };
     const statuses:Record<string,string> = {
       'verified-exact':'名称已核对', pending:'待核对', 'adapted-element':'部分语素已核',
-      'adapted-variant':'译名已注明调整', 'reference-conflict':'来源译名有分歧',
-      'reference-only':'版本参考（仅名称）',
+      'adapted-variant':'译名已定（含自译）', 'reference-conflict':'译名来源有分歧',
+      'reference-only':'1E 词项的版本译名参考',
     };
-    const pageSize = 600;
+    const statusOrder = ['verified-exact','adapted-variant','adapted-element','pending','reference-conflict','reference-only'];
+    const preferredCategories = ['rule','spell','monster','item','proper','class','race','psionic','skill'];
+    const pageSize = 60;
     const form = document.querySelector<HTMLFormElement>('#terms-form')!;
     const query = document.querySelector<HTMLInputElement>('#terms-query')!;
     const category = document.querySelector<HTMLSelectElement>('#terms-category')!;
-    const count = document.querySelector('#terms-count')!;
+    const status = document.querySelector<HTMLSelectElement>('#terms-status')!;
+    const polysemy = document.querySelector<HTMLInputElement>('#terms-polysemy')!;
+    const clear = document.querySelector<HTMLButtonElement>('#terms-clear')!;
+    const count = document.querySelector<HTMLParagraphElement>('#terms-count')!;
     const grid = document.querySelector<HTMLDivElement>('#terms-grid')!;
-    const previous = document.querySelector<HTMLButtonElement>('#terms-prev')!;
-    const next = document.querySelector<HTMLButtonElement>('#terms-next')!;
-    const pageLabel = document.querySelector('#terms-page')!;
+    const pagination = [
+      document.querySelector<HTMLElement>('#terms-pagination-top')!,
+      document.querySelector<HTMLElement>('#terms-pagination-bottom')!,
+    ];
     let entries:Entry[] = [];
     let page = 1;
-    function render() {
-      const q = query.value.trim().toLowerCase();
-      const hits = entries.filter(e => (!category.value || e.category === category.value) && (!q || `${e.zh} ${e.en} ${e.aliases.join(' ')} ${e.englishVariants.join(' ')}`.toLowerCase().includes(q)));
-      const pageCount = Math.max(1, Math.ceil(hits.length / pageSize));
-      page = Math.min(page, pageCount);
-      const start = (page - 1) * pageSize;
-      grid.replaceChildren(...hits.slice(start, start + pageSize).map(e => {
+    let loaded = false;
+    let composing = false;
+    let searchTimer = 0;
+
+    const normalize = (value:string) => value.normalize('NFKC').toLocaleLowerCase('zh-CN').trim();
+    const params = new URLSearchParams(location.search);
+    query.value = params.get('q') ?? '';
+    category.value = params.get('category') ?? '';
+    status.value = params.get('status') ?? '';
+    polysemy.checked = params.get('polysemy') === '1';
+    page = Math.max(1, Number.parseInt(params.get('page') ?? '1', 10) || 1);
+
+    function setEnabled(enabled:boolean) {
+      for (const field of Array.from(form.elements)) {
+        if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement || field instanceof HTMLButtonElement) field.disabled = !enabled;
+      }
+      for (const nav of pagination) nav.querySelectorAll('button').forEach(button => { (button as HTMLButtonElement).disabled = !enabled; });
+    }
+
+    function writeUrl() {
+      const next = new URLSearchParams(location.search);
+      for (const key of ['q','category','status','polysemy','page']) next.delete(key);
+      if (query.value.trim()) next.set('q', query.value.trim());
+      if (category.value) next.set('category', category.value);
+      if (status.value) next.set('status', status.value);
+      if (polysemy.checked) next.set('polysemy', '1');
+      if (page > 1) next.set('page', String(page));
+      history.replaceState(null, '', `${location.pathname}${next.size ? `?${next.toString()}` : ''}${location.hash}`);
+    }
+
+    function createDetails(label:string, className:string) {
+      const details = document.createElement('details');
+      details.className = className;
+      const summary = document.createElement('summary');
+      summary.textContent = label;
+      details.append(summary);
+      return details;
+    }
+
+    function renderPagination(nav:HTMLElement, pageCount:number, hitCount:number) {
+      nav.replaceChildren();
+      nav.hidden = hitCount === 0 || pageCount <= 1;
+      if (nav.hidden) return;
+      const makeButton = (label:string, target:number, disabled=false, current=false) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = label;
+        button.disabled = disabled;
+        if (current) button.setAttribute('aria-current', 'page');
+        button.addEventListener('click', () => { page = target; render(); });
+        return button;
+      };
+      nav.append(makeButton('上一页',page-1,page<=1));
+      const start = Math.max(1, Math.min(page-2, pageCount-4));
+      const end = Math.min(pageCount, start+4);
+      if (start > 1) nav.append(makeButton('1',1,false,page===1));
+      if (start > 2) { const gap=document.createElement('span'); gap.textContent='…'; gap.setAttribute('aria-hidden','true'); nav.append(gap); }
+      for (let n=start;n<=end;n++) nav.append(makeButton(String(n),n,false,page===n));
+      if (end < pageCount-1) { const gap=document.createElement('span'); gap.textContent='…'; gap.setAttribute('aria-hidden','true'); nav.append(gap); }
+      if (end < pageCount) nav.append(makeButton(String(pageCount),pageCount,false,page===pageCount));
+      nav.append(makeButton('下一页',page+1,page>=pageCount));
+    }
+
+    function render(updateHistory=true) {
+      const q = normalize(query.value);
+      const hits = entries.filter(e =>
+        (!category.value || e.category === category.value) &&
+        (!status.value || e.status === status.value) &&
+        (!polysemy.checked || e.senses.length > 1) &&
+        (!q || e.searchIndex.includes(q))
+      );
+      const pageCount = Math.ceil(hits.length/pageSize);
+      page = pageCount ? Math.min(page,pageCount) : 1;
+      const start = (page-1)*pageSize;
+      const visible = hits.slice(start,start+pageSize);
+      grid.replaceChildren(...visible.map(e => {
         const card = document.createElement('article');
         card.className = 'term-card';
-        card.setAttribute('role', 'listitem');
-        card.title = e.references.join('；');
+        card.setAttribute('role','listitem');
         const zh = document.createElement('strong');
         zh.className = 'term-zh';
         zh.textContent = e.zh;
         const en = document.createElement('span');
         en.className = 'term-en';
+        en.lang = 'en';
         en.textContent = e.en;
         const meta = document.createElement('span');
         meta.className = 'term-meta';
         meta.textContent = `${labels[e.category] || e.category} · ${statuses[e.status] || e.status}`;
-        card.append(zh, en, meta);
+        card.append(zh,en,meta);
+
+        if (e.senses.length) {
+          const senseLabel = e.senses.length > 1 ? `多义 · ${e.senses.length}` : '语境说明';
+          const details = createDetails(senseLabel,'term-details term-senses');
+          for (const item of e.senses) {
+            const section = document.createElement('div');
+            section.className = 'sense-item';
+            const heading = document.createElement('strong');
+            heading.textContent = `${item.context}：${item.zh}`;
+            const meaning = document.createElement('span');
+            meaning.textContent = item.meaning;
+            const source = document.createElement('small');
+            source.textContent = item.source;
+            section.append(heading,meaning,source);
+            details.append(section);
+          }
+          card.append(details);
+        }
+
+        if (e.references.length) {
+          const details = createDetails(`出处 · ${e.references.length}`,'term-details term-references');
+          for (const ref of e.references) {
+            const row = document.createElement('div');
+            row.className = 'reference-item';
+            const text = [ref.edition,ref.world,ref.source,ref.page ? `p. ${ref.page}` : ''].filter(Boolean).join(' · ') || ref.url || '原书定位';
+            const href = ref.entryUrl || ref.url || '';
+            if (/^https?:\/\//i.test(href)) {
+              const link = document.createElement('a');
+              link.href = href;
+              link.textContent = text;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              row.append(link);
+            } else row.textContent = text;
+            details.append(row);
+          }
+          card.append(details);
+        }
         return card;
       }));
-      count.textContent = `共 ${hits.length} 项。将鼠标悬停在词条上可查看出处。`;
-      pageLabel.textContent = `第 ${page} / ${pageCount} 页`;
-      previous.disabled = page <= 1;
-      next.disabled = page >= pageCount;
+
+      if (!hits.length) {
+        count.textContent = '没有符合条件的词条。';
+        grid.setAttribute('aria-label','没有符合条件的术语');
+      } else {
+        const first = start+1;
+        const last = Math.min(start+pageSize,hits.length);
+        count.textContent = `共 ${hits.length.toLocaleString('zh-CN')} 项 · 显示 ${first}–${last} 项 · 第 ${page} / ${pageCount} 页`;
+        grid.setAttribute('aria-label',`中英术语表，共 ${hits.length} 项`);
+      }
+      clear.hidden = !(query.value || category.value || status.value || polysemy.checked);
+      for (const nav of pagination) renderPagination(nav,pageCount,hits.length);
+      if (updateHistory) writeUrl();
     }
+
+    function clearFilters() {
+      query.value=''; category.value=''; status.value=''; polysemy.checked=false; page=1; render(); query.focus();
+    }
+
     async function init() {
+      setEnabled(false);
       const response = await fetch('/translation-table.json');
       if (!response.ok) throw new Error('translation table');
-      const data = await response.json() as { entries:Entry[] };
-      entries = data.entries;
-      [...new Set(entries.map(e => e.category))].sort().forEach(value => category.add(new Option(labels[value] || value, value)));
-      render();
+      const data = await response.json() as { entries:Omit<Entry,'searchIndex'>[] };
+      entries = data.entries.map(e => {
+        const senses = e.senses ?? [];
+        const searchable = [e.zh,e.en,...e.aliases,...e.englishVariants,...senses.flatMap(s=>[s.context,s.zh,s.meaning])].join(' ');
+        return {...e,senses,searchIndex:normalize(searchable)};
+      });
+      const foundCategories = [...new Set(entries.map(e=>e.category))];
+      const order = [...preferredCategories.filter(value=>foundCategories.includes(value)),...foundCategories.filter(value=>!preferredCategories.includes(value)).sort((a,b)=>(labels[a]||a).localeCompare(labels[b]||b,'zh-CN'))];
+      for (const value of order) category.add(new Option(labels[value]||value,value));
+      const activeStatuses = statusOrder.filter(value=>entries.some(e=>e.status===value));
+      for (const value of activeStatuses) status.add(new Option(statuses[value]||value,value));
+      if (![...category.options].some(o=>o.value===category.value)) category.value='';
+      if (![...status.options].some(o=>o.value===status.value)) status.value='';
+      loaded=true;
+      setEnabled(true);
+      render(false);
     }
-    form.onsubmit = event => { event.preventDefault(); page = 1; render(); };
-    query.oninput = () => { page = 1; render(); };
-    category.onchange = () => { page = 1; render(); };
-    previous.onclick = () => { page -= 1; render(); };
-    next.onclick = () => { page += 1; render(); };
-    init().catch(() => { count.textContent = '术语表载入失败，请刷新页面重试。'; });
+
+    form.addEventListener('submit',event=>{event.preventDefault();page=1;render();});
+    query.addEventListener('compositionstart',()=>{composing=true;});
+    query.addEventListener('compositionend',()=>{composing=false;page=1;render();});
+    query.addEventListener('input',()=>{if(composing)return;window.clearTimeout(searchTimer);searchTimer=window.setTimeout(()=>{page=1;render();},120);});
+    category.addEventListener('change',()=>{page=1;render();});
+    status.addEventListener('change',()=>{page=1;render();});
+    polysemy.addEventListener('change',()=>{page=1;render();});
+    clear.addEventListener('click',clearFilters);
+    window.addEventListener('popstate',()=>{
+      const p=new URLSearchParams(location.search);query.value=p.get('q')??'';category.value=p.get('category')??'';status.value=p.get('status')??'';polysemy.checked=p.get('polysemy')==='1';page=Math.max(1,Number.parseInt(p.get('page')??'1',10)||1);if(loaded)render(false);
+    });
+    init().catch(()=>{count.textContent='术语表载入失败，请刷新页面重试。';setEnabled(false);});
   </script>
   <style>
+    .lookup { display:grid; grid-template-columns:minmax(240px,2fr) minmax(145px,1fr) minmax(145px,1fr) auto auto auto; align-items:end; gap:8px; margin:18px 0 10px; }
+    .lookup label { display:flex; flex-direction:column; gap:4px; min-width:0; font-size:.8rem; color:var(--ink); }
+    .lookup input[type=search],.lookup select,.lookup button { min-width:0; min-height:38px; padding:7px 9px; border:1px solid var(--line); border-radius:3px; background:var(--surface); color:var(--ink); font:inherit; }
+    .lookup .polysemy-filter { flex-direction:row; align-items:center; min-height:38px; white-space:nowrap; }
+    .lookup .polysemy-filter input { width:16px; height:16px; accent-color:var(--wine); }
+    .lookup button { cursor:pointer; white-space:nowrap; }
+    .lookup button:disabled { opacity:.55; cursor:wait; }
+    .clear-button[hidden] { display:none; }
+    .terms-count { margin:10px 0; color:var(--muted); font-size:.8rem; }
+    .terms-results { width:100%; container-type:inline-size; }
     .terms-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:5px; }
-    .term-card { min-width:0; padding:5px 6px; border:1px solid var(--line); background:var(--surface); color:var(--ink); font-size:11px; line-height:1.35; }
-    .term-zh,.term-en,.term-meta { display:block; min-width:0; overflow-wrap:anywhere; }
-    .term-zh { font-size:12px; line-height:1.4; }
-    .term-en { margin-top:2px; color:var(--muted); font-size:10px; }
-    .term-meta { margin-top:3px; color:var(--muted); font-size:9px; }
-    @media(max-width:760px) { .terms-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
-    @media(max-width:560px) { .terms-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; } .term-card { padding:5px; } }
-    @media(max-width:420px) { .terms-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-    @media(max-width:320px) { .terms-grid { grid-template-columns:1fr; } }
+    .terms-grid :global(.term-card) { min-width:0; padding:6px; border:1px solid var(--line); border-radius:3px; background:var(--surface); color:var(--ink); font-size:.75rem; line-height:1.4; }
+    .terms-grid :global(.term-zh),.terms-grid :global(.term-en),.terms-grid :global(.term-meta),.terms-grid :global(.term-details) { display:block; min-width:0; overflow-wrap:anywhere; word-break:normal; }
+    .terms-grid :global(.term-zh) { font-size:.82rem; line-height:1.4; }
+    .terms-grid :global(.term-en) { margin-top:2px; color:var(--muted); font-size:.72rem; }
+    .terms-grid :global(.term-meta) { margin-top:3px; color:var(--muted); font-size:.68rem; }
+    .terms-grid :global(.term-details) { margin-top:5px; font-size:.7rem; }
+    .terms-grid :global(.term-details summary) { color:var(--wine); cursor:pointer; font-weight:600; }
+    .terms-grid :global(.sense-item),.terms-grid :global(.reference-item) { display:grid; gap:2px; margin-top:5px; padding-top:5px; border-top:1px solid var(--line); overflow-wrap:anywhere; }
+    .terms-grid :global(.sense-item small) { color:var(--muted); font-size:.62rem; }
+    .pagination { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:4px; margin:12px 0; }
+    .pagination[hidden] { display:none; }
+    .pagination :global(button) { min-width:34px; min-height:34px; padding:5px 8px; border:1px solid var(--line); border-radius:3px; background:var(--surface); color:var(--ink); font:inherit; font-size:.78rem; cursor:pointer; }
+    .pagination :global(button[aria-current=page]) { background:var(--selected); font-weight:700; }
+    .pagination :global(button:disabled) { opacity:.5; cursor:not-allowed; }
+    .pagination :global(span) { color:var(--muted); padding:0 3px; }
+    .lookup :is(input,select,button):focus-visible,.pagination :global(button:focus-visible),.terms-grid :global(summary:focus-visible),.terms-grid :global(a:focus-visible) { outline:2px solid var(--accent-blue); outline-offset:2px; }
+    @container (max-width:900px) { .terms-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    @container (max-width:680px) { .terms-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; } }
+    @container (max-width:470px) { .terms-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @container (max-width:300px) { .terms-grid { grid-template-columns:1fr; } }
+    @media(max-width:900px) { .lookup { grid-template-columns:repeat(3,minmax(0,1fr)); } .lookup .search-field { grid-column:span 2; } }
+    @media(max-width:620px) { .lookup { grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; } .lookup .search-field { grid-column:1/-1; } .lookup button { width:100%; } }
   </style>
 </BaseLayout>

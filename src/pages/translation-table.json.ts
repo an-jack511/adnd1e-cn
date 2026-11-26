@@ -10,12 +10,15 @@ export function GET() {
       status: entry.status,
       aliases: entry.legacyZh ?? [],
       englishVariants: entry.englishVariants ?? [],
-      references: [...new Set((entry.references ?? []).map(reference => [
-        reference.edition,
-        reference.world,
-        reference.source,
-        reference.page ? `p. ${reference.page}` : '',
-      ].filter(Boolean).join(' · ')))],
+      senses: entry.senses ?? [],
+      references: (entry.references ?? []).map(reference => ({
+        edition: reference.edition ?? null,
+        world: reference.world ?? null,
+        source: reference.source ?? null,
+        page: reference.page ?? null,
+        url: reference.url ?? null,
+        entryUrl: reference.entryUrl ?? null,
+      })),
     }));
   return new Response(JSON.stringify({ entries }), { headers: { 'content-type': 'application/json; charset=utf-8' } });
 }

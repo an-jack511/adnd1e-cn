@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-26",
+  "stage": "source-term-inventory; no global body replacement",
+  "book": "AD&D 1E PHB",
+  "coverage": "Printed pp.9–13 / PDF pp.10–14: six abilities, ability-table fields and explanatory paragraphs. Race table beginning on printed p.13 excluded; thief skill names cross-referenced to class review, not claimed complete.",
+  "material": "Local PDF text layer; broken table OCR reconstructed using explanatory paragraphs. No raw rule prose exported.",
+  "newTerms": [
+    {
+      "en": "Strength",
+      "zh": "力量",
+      "printedPage": 9,
+      "decision": "3R exact indexed heading"
+    },
+    {
+      "en": "Dexterity",
+      "zh": "敏捷",
+      "printedPage": 11,
+      "decision": "3R exact indexed heading"
+    },
+    {
+      "en": "Constitution",
+      "zh": "体质",
+      "printedPage": 12,
+      "decision": "3R exact indexed heading"
+    },
+    {
+      "en": "Charisma",
+      "zh": "魅力",
+      "printedPage": 13,
+      "decision": "3R exact indexed heading"
+    },
+    {
+      "en": "Hit Probability",
+      "zh": "命中概率修正",
+      "printedPage": 9,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Weight Allowance",
+      "zh": "负重额度调整",
+      "printedPage": 9,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Open Doors",
+      "zh": "撞门",
+      "printedPage": 9,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Possible Number of Additional Languages",
+      "zh": "可额外掌握的语言数",
+      "printedPage": 10,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Chance to Know Each Listed Spell",
+      "zh": "逐项法术习得概率",
+      "printedPage": 10,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Minimum Number of Spells/Level",
+      "zh": "每环可习得法术数下限",
+      "printedPage": 10,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Maximum Number of Spells/Level",
+      "zh": "每环可习得法术数上限",
+      "printedPage": 10,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Spell Bonus",
+      "zh": "额外法术",
+      "printedPage": 11,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Chance of Spell Failure",
+      "zh": "法术失败率",
+      "printedPage": 11,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Reaction/Attacking Adjustment",
+      "zh": "反应／攻击调整",
+      "printedPage": 11,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Hit Point Adjustment",
+      "zh": "生命值调整",
+      "printedPage": 12,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Resurrection Survival",
+      "zh": "复生存活率",
+      "printedPage": 12,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Maximum Number of Henchmen",
+      "zh": "随从人数上限",
+      "printedPage": 13,
+      "decision": "contextual self-translation"
+    },
+    {
+      "en": "Loyalty Base",
+      "zh": "忠诚度基础修正值",
+      "printedPage": 13,
+      "decision": "contextual self-translation"
+    }
+  ],
+  "existingTermsReviewed": [
+    "Ability Score",
+    "Intelligence",
+    "Wisdom",
+    "Exceptional Strength",
+    "Prime Requisite",
+    "Damage Adjustment",
+    "Bend Bars/Lift Gates",
+    "Magical Attack Adjustment",
+    "Defensive Adjustment",
+    "System Shock Survival",
+    "Reaction Adjustment"
+  ],
+  "limitations": [
+    "Primary web endpoint 404; search-service fallback operational.",
+    "Direct Huiji full page returned 403; indexed bilingual headings recorded as indexed evidence.",
+    "No applicable exact later-edition field-name pair found in bounded local-index and targeted web review.",
+    "Not a full PHB or all-book coverage claim."
+  ],
+  "next": "PHB printed pp.13–18: race restrictions, race traits and multiclass terminology; then class sections.",
+  "ruleRows": 663,
+  "ruleStatusCounts": {
+    "verified-exact": 470,
+    "adapted-variant": 193
+  }
+}

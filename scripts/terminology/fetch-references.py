@@ -55,7 +55,14 @@ def main():
                     en, zh = entry.get('ENG_name'), entry.get('name')
                     if not en or not zh or en == zh: continue
                     source = entry.get('source', entry.get('id',''))
-                    edition = '5R' if source in ['XPHB','XDMG','XMM','FRHoF','FRAiF','EFA'] else '5E'
+                    if source in ['XPHB','XDMG','XMM','FRHoF','FRAiF','EFA']:
+                        edition = '5R'
+                    elif source == 'WoW':
+                        # The site's WoW conversion data is not a D&D 5E rules source.
+                        # Keep it searchable, but never let it compete with 3R/5E/5R.
+                        edition = 'other'
+                    else:
+                        edition = '5E'
                     page = {'spell':'spells','item':'items','baseitem':'items','monster':'bestiary','race':'races','subrace':'races','class':'classes','deity':'deities','book':'books'}.get(kind)
                     if page is None:
                         page = path.removeprefix('data/').removesuffix('.json').replace('class/class-', 'class-')

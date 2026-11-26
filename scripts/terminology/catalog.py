@@ -44,11 +44,16 @@ def inventory():
         en,zh=str(en).strip(),str(zh).strip().strip('*')
         if not en or not zh or not re.search('[A-Za-z]',en) or (not untranslated and not re.search('[\u3400-\u9fff]',zh)): return
         k=key(category,en)
+        prev=previous.get(k,{})
         if k not in entries:
-            prev=previous.get(k,{})
             current=prev.get('zh',zh) if prev.get('status','').startswith(('verified','adapted')) else zh
             entries[k]={'key':k,'category':category,'en':en,'zh':current,'englishVariants':set(prev.get('englishVariants',[])), 'legacyZh':set(prev.get('legacyZh',[])),'occurrences':[], 'activeIds':[], 'status':'pending','references':[],'notes':[]}
         e=entries[k];e['englishVariants'].add(en);e['legacyZh'].add(zh)
+        if (prev.get('status','').startswith(('verified','adapted'))
+                and prev.get('zh') and prev['zh'] != zh):
+            # Keep the previously approved canonical label searchable when a
+            # reviewed source correction changes it.
+            e['legacyZh'].add(prev['zh'])
         occurrence={'path':path,'location':location,'zh':zh}
         if occurrence not in e['occurrences']:e['occurrences'].append(occurrence)
         if active and id and id not in e['activeIds']:e['activeIds'].append(id)
@@ -193,7 +198,13 @@ def inventory():
         del entries[monster_key]
     for en,zh in load(ROOT/'scripts/import/regional-names.json',{}).items():add(en,zh,'proper','scripts/import/regional-names.json')
     for d in load(OUT/'decisions.json',{'entries':[]})['entries']:
-        if d['category']=='proper':add(d['en'],d['zh'],'proper','terminology/decisions.json')
+        # Reviewed source names may be absent from the playable library. Newly
+        # inventoried non-race/language categories opt in explicitly; later-
+        # edition references alone must never seed them into the 1E catalog.
+        has_1e_source=any(r.get('edition')=='1E' for r in d.get('references',[]))
+        reviewed_inventory=d.get('sourceInventory') and d.get('status') in ['verified-exact','adapted-variant']
+        if d['category']=='proper' or (has_1e_source and (d['category'] in ['race','language'] or reviewed_inventory)):
+            add(d['en'],d['zh'],d['category'],'terminology/decisions.json')
     selected=load(OUT/'settings-entities.json',{'entries':[]})['entries']
     for entity in selected:
         en=entity['en']; token=re.compile(r'(?<![A-Za-z])'+re.escape(en)+r'(?![A-Za-z])')
@@ -208,9 +219,22 @@ def inventory():
                     if label:add(en,label[1],'proper',p.relative_to(ROOT).as_posix(),str(n))
     # A heading is not automatically a named entity. Link exact bilingual spell/monster
     # headings to known names, preserving uncertain chapter headings separately.
+    explicit_aliases=defaultdict(set)
+    for decision in load(OUT/'decisions.json',{'entries':[]})['entries']:
+        if decision.get('status') not in ['verified-exact','adapted-variant']:continue
+        # Dwarven/Elven can denote languages or racial adjectives. Expose their
+        # language aliases for lookup, but do not reclassify headings by them.
+        if decision['category']=='language':continue
+        explicit_aliases[key(decision['category'],decision['en'])].update(
+            norm(alias) for alias in decision.get('englishVariants',[]))
     known=defaultdict(list)
     for e in entries.values():
-        if e['category'] not in ['heading','candidate','legacy-term']:known[norm(e['en'])].append(e)
+        if e['category'] not in ['heading','candidate','legacy-term']:
+            # Explicit reviewed aliases only: do not guess plurals or resolve
+            # homonyms when more than one sense/category shares an alias.
+            aliases={norm(e['en'])}
+            aliases.update(explicit_aliases[e['key']])
+            for alias in aliases:known[alias].append(e)
     for k,e in list(entries.items()):
         matches=known[norm(e['en'])]
         if e['category'] in ['heading','candidate'] and len(matches)==1:
@@ -225,9 +249,16 @@ def inventory():
     decisions=load(OUT/'decisions.json',{'entries':[]})['entries']
     manual={key(d['category'],d['en']):d for d in decisions}
     for k,row in rule_catalog.items():
-        manual[k]={'en':row['English'],'zh':row['Chinese'],'status':row['status'],'verificationScope':row['verificationScope'],
-                   'reason':f"规则术语主表；证据：{row['evidence']}。项目术语对应已记录；未标为已核的条目继续待核。",
-                   'references':[{'edition':'1E','en':row['English'],'zh':row['Chinese'],'url':row['evidence']}], 'userOverride':False}
+        supplemental=manual.get(k,{})
+        merged={'en':row['English'],'zh':row['Chinese'],'status':row['status'],'verificationScope':row['verificationScope'],
+                'reason':f"规则术语主表；证据：{row['evidence']}。项目术语对应已记录；未标为已核的条目继续待核。",
+                'references':[{'edition':'1E','en':row['English'],'zh':row['Chinese'],'url':row['evidence']}], 'userOverride':False}
+        for field in ('references','legacyZh','englishVariants'):
+            for value in supplemental.get(field,[]):
+                if value not in merged.setdefault(field,[]):merged[field].append(value)
+        if supplemental.get('reason'):
+            merged['reason'] += ' ' + supplemental['reason']
+        manual[k]=merged
     for k,d in glossary_decisions.items():
         if k in manual:
             for reference in d['references']:
@@ -243,11 +274,16 @@ def inventory():
             e['englishVariants'].update(decision.get('englishVariants',[]))
         refs=refindex[e['key']]
         if e['category']=='monster':refs=[r for r in refs if not r.get('isNpc')]
+        supplemental_decision=manual.get(e['key'],{})
+        supplemental=supplemental_decision.get('references',[]) if supplemental_decision.get('rankSupplementalReferences') else []
+        for reference in supplemental:
+            if reference not in refs:refs.append(reference)
         e['references']=refs
-        if refs:
+        ranked_refs=[r for r in refs if r.get('edition') in {'3R','5E','5R'}]
+        if ranked_refs:
             rank={'3R':0,'5E':1,'5R':2}
-            best=min(rank.get(r['edition'],9) for r in refs)
-            options=sorted(set(r['zh'] for r in refs if rank.get(r['edition'],9)==best))
+            best=min(rank[r['edition']] for r in ranked_refs)
+            options=sorted(set(r['zh'] for r in ranked_refs if rank[r['edition']]==best))
             if len(options)==1:
                 e['zh']=options[0];e['status']='verified-exact';e['notes'].append('英文仅正规化大小写、空白、弯引号及横线；名称据源数据核对，规则仍为1e。')
             else:e['status']='reference-conflict';e['notes'].append('同优先级来源译名有分歧，等待人工裁定：'+' / '.join(options))
@@ -256,15 +292,21 @@ def inventory():
             # Exact edition-name evidence follows the declared 3R > 5E > 5R
             # priority. A normal local decision is only a fallback; only an
             # explicit userOverride may supersede a matched edition record.
-            if refs and not d.get('userOverride'):
-                best_edition=min((r.get('edition') for r in refs),key=lambda ed:{'3R':0,'5E':1,'5R':2}.get(ed,9))
+            if ranked_refs and not d.get('userOverride'):
+                best_edition=min((r['edition'] for r in ranked_refs),key=lambda ed:{'3R':0,'5E':1,'5R':2}[ed])
                 e['notes'].append(f'采用优先级最高的{best_edition}精确名称证据；普通人工译名记录不覆盖。')
+                if d.get('verificationScope'):
+                    e['verificationScope']=d['verificationScope']
+                if d.get('reason') and d['reason'] not in e['notes']:
+                    e['notes'].append(d['reason'])
+                for reference in d.get('references',[]):
+                    if reference not in e['references']:e['references'].append(reference)
             else:
                 e['zh']=d['zh'];e['status']=d['status'];e['references']+=d.get('references',[]);e['notes'].append(d['reason']);e['verificationScope']=d.get('verificationScope','whole-name')
         e['englishVariants']=sorted(e['englishVariants']);e['legacyZh']=sorted(e['legacyZh']-{e['zh']})
-    # Make the full name-reference bank searchable without treating later-edition
-    # translations as approved 1E wording. Entries with no 1E occurrence remain
-    # explicitly marked reference-only and are excluded from replacement plans.
+    # Later-edition name banks are lookup evidence only. They may enrich a term
+    # already found in AD&D 1E source material, but must never create standalone
+    # dictionary entries for 3R/5E/5R-only terms.
     reference_rows=[]
     for r in load(OUT/'references/huiji-names.json',{'records':[]})['records']:
         reference_rows.append((key(r['category'],r['en']),r['category'],r['en'],r['zh'],r))
@@ -279,19 +321,33 @@ def inventory():
             existing=entries[ref_key]
             if existing['status']=='reference-only':
                 if reference not in existing['references']:existing['references'].append(reference)
-                rank={'3R':0,'5E':1,'5R':2}
-                best=min(rank.get(r.get('edition'),9) for r in existing['references'])
-                options=sorted({r['zh'] for r in existing['references'] if rank.get(r.get('edition'),9)==best})
-                if len(options)==1:existing['zh']=options[0]
-                elif options:existing['status']='reference-conflict'
-                existing['status']='reference-only' if len(options)<=1 else 'reference-conflict'
+                ranked_refs=[r for r in existing['references'] if r.get('edition') in {'3R','5E','5R'}]
+                if ranked_refs:
+                    rank={'3R':0,'5E':1,'5R':2}
+                    best=min(rank[r['edition']] for r in ranked_refs)
+                    options=sorted({r['zh'] for r in ranked_refs if rank[r['edition']]==best})
+                    if len(options)==1:existing['zh']=options[0]
+                    existing['status']='reference-only' if len(options)<=1 else 'reference-conflict'
             # Existing 1E entries already received exact-name evidence above.
             continue
-        entries[ref_key]={'key':ref_key,'category':category,'en':en,'zh':zh,
-            'englishVariants':[],'legacyZh':[],'occurrences':[],'activeIds':[],
-            'status':'reference-only','references':[reference],
-            'notes':['仅供跨版本名称检索；译名属于所列版本，不作为 AD&D 1E 定译。']}
-    result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5E > 5R (user preference); names only, never rule equivalence. Unverified entries retain project translations.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
+        # No matching AD&D 1E corpus term: keep the reference in its source bank,
+        # but do not add it to the wiki glossary or its public API.
+    seen_sense_keys=set()
+    for sense_record in load(OUT/'sense-notes.json',{'entries':[]})['entries']:
+        sense_key=key(sense_record['category'],sense_record['en'])
+        if sense_key in seen_sense_keys:
+            raise ValueError(f"Duplicate sense record: {sense_key}")
+        seen_sense_keys.add(sense_key)
+        if sense_key not in entries:
+            raise ValueError(f"Sense notes reference missing term: {sense_key}")
+        senses=sense_record.get('senses')
+        if not isinstance(senses,list) or not senses:
+            raise ValueError(f"Sense record has no senses: {sense_key}")
+        for sense in senses:
+            if any(not isinstance(sense.get(field),str) or not sense[field].strip() for field in ('context','zh','meaning','source')):
+                raise ValueError(f"Incomplete sense metadata: {sense_key}")
+        entries[sense_key]['senses']=sense_record['senses']
+    result={'schemaVersion':1,'accessed':DATE,'policy':'3R > 5E > 5R (user preference); names only, never rule equivalence. Unverified entries retain project translations. Homographic senses are annotated with context.','scannedFiles':file_count,'entries':sorted(entries.values(),key=lambda e:e['key'])}
     write(OUT/'catalog.json',result)
     write(OUT/'reports/pending.json',[e for e in result['entries'] if e['status']=='pending'])
     write(OUT/'reports/conflicts.json',[e for e in result['entries'] if e['status']=='reference-conflict' or len(e['legacyZh'])>1])
@@ -324,12 +380,16 @@ def replacement_plan(catalog):
         for old in e['legacyZh']:targets[old].add(e['zh'])
     replacements={};blocked=[]
     proper_aliases={old for e in approved if e['category'] in ['proper','class'] for old in e['legacyZh']}
+    # These are ordinary Chinese phrases, not safe substring-level aliases.
+    # Keep them searchable, but only replace when the matching English label is
+    # present in context.
+    contextual_only_aliases={'动物处理','动物驯养','动物处理熟练项','动物驯养熟练项'}
     for old,values in targets.items():
         other_targets={e['zh'] for e in catalog['entries'] if e['key'] in owners[old] and e not in approved}
         # A former label can be another entity's CURRENT canonical label (e.g.
         # Raise Dead / Resurrection). Never rewrite those references globally.
         other_targets|={e['zh'] for e in catalog['entries'] if e['zh']==old}
-        if len(values)!=1 or (other_targets-values) or len(old)<(2 if old in proper_aliases else 3) or not re.fullmatch('[\u3400-\u9fff·]+',old):
+        if old in contextual_only_aliases or len(values)!=1 or (other_targets-values) or len(old)<(2 if old in proper_aliases else 3) or not re.fullmatch('[\u3400-\u9fff·]+',old):
             blocked.append({'old':old,'targets':sorted(values),'reason':'ambiguous, short/generic, or mixed-language name; contextual replacement only'});continue
         replacements[old]=next(iter(values))
     # Protect canonical and longer known names against substring damage and repeat suffixes.

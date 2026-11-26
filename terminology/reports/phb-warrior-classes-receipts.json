@@ -1,0 +1,32 @@
+[
+  {
+    "en": "Table I",
+    "locator": "PHB-core/pdf-p.025",
+    "outcome": "alias",
+    "reason": "职业等级表入口；复用经验等级、生命骰、等级头衔等完整词项，不新增表名概念。"
+  },
+  {
+    "en": "FIGHTERS TABLE",
+    "locator": "PHB-core/pdf-p.023",
+    "outcome": "alias",
+    "reason": "职业等级表入口；复用经验等级、生命骰、等级头衔等完整词项，不新增表名概念。"
+  },
+  {
+    "en": "Experience Experience Accumulated Level",
+    "locator": "PHB-core/pdf-p.023",
+    "outcome": "excluded",
+    "reason": "断栏拼接或普通指示语，不作独立术语。"
+  },
+  {
+    "en": "Your DM",
+    "locator": "PHB-core/pdf-p.025",
+    "outcome": "excluded",
+    "reason": "断栏拼接或普通指示语，不作独立术语。"
+  },
+  {
+    "en": "Ranger Lord",
+    "locator": "PHB-core/pdf-p.025",
+    "outcome": "approved",
+    "reason": "本批已核的巡林客等级头衔。"
+  }
+]

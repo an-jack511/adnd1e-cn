@@ -32,9 +32,11 @@ TITLE = re.compile(
     r"\b[A-Z][A-Za-z0-9’'/-]*(?:&[A-Za-z0-9]+)?(?:\s+&?\s*(?:[A-Z][A-Za-z0-9’'/-]*(?:&[A-Za-z0-9]+)?|of|the|and|in|to|from|for|on|with|by|or|vs\.)){1,7}\b"
 )
 CAPS = re.compile(r"\b[A-Z][A-Z0-9’'/-]{1,}(?:\s+[A-Z][A-Z0-9’'/-]{1,}){1,5}\b")
+SINGLE = re.compile(r"\b[A-Z][A-Za-z0-9’'/-]{1,}\b")
 WORD = re.compile(r"[A-Za-z]")
 CJK = re.compile(r"[\u3400-\u9fff]")
 TRIM = " \t\r\n.,;:!?*_`|()[]{}<>（）《》“”‘’、，。；：！？—–-"
+SINGLE_STOP_WORDS = {"a", "an", "and", "as", "at", "by", "for", "from", "in", "into", "of", "on", "or", "the", "to", "vs", "with"}
 
 
 def norm(value: str) -> str:
@@ -50,13 +52,13 @@ def load_json(path: Path, default: dict) -> dict:
         return default
 
 
-def clean_phrase(value: str) -> str:
+def clean_phrase(value: str, allow_single: bool = False) -> str:
     value = re.sub(r"\s+", " ", value.strip(TRIM))
     value = re.sub(r"\s*([/’'-])\s*", r"\1", value)
-    if len(value) < 5 or not WORD.search(value):
+    if len(value) < (2 if allow_single else 5) or not WORD.search(value):
         return ""
     words = value.split()
-    if len(words) < 2 or words[-1].casefold().strip(".,") in {"of", "the", "and", "in", "to", "from", "for", "on", "with", "by", "or", "vs"}:
+    if (len(words) < 2 and not allow_single) or words[-1].casefold().strip(".,") in {"of", "the", "and", "in", "to", "from", "for", "on", "with", "by", "or", "vs"}:
         return ""
     return value
 
@@ -109,8 +111,8 @@ def main() -> None:
 
     candidates: dict[str, dict] = {}
 
-    def add(english: str, source: str, kind: str, draft_zh: str = "") -> None:
-        english = clean_phrase(english)
+    def add(english: str, source: str, kind: str, draft_zh: str = "", allow_single: bool = False) -> None:
+        english = clean_phrase(english, allow_single=allow_single)
         if not english:
             return
         key = norm(english)
@@ -129,7 +131,7 @@ def main() -> None:
             row["ocrHits"] += 1
             row["ocrPages"].add(source)
             row["ocrBooks"].add(source.split("/", 1)[0])
-            if kind == "ocr-heading":
+            if kind.startswith("ocr-heading"):
                 row["ocrHeadingHits"] += 1
         else:
             row["draftHits"] += 1
@@ -144,6 +146,25 @@ def main() -> None:
             text_dir = book_dir / "text"
             if text_dir.is_dir():
                 ocr_files.extend((book_dir.name, path, "page") for path in sorted(text_dir.glob("page-*.txt")))
+
+    # The repository also retains full text-layer extracts of the core PHB and
+    # DMG scans in a local audit folder. They are page-delimited by form feeds
+    # and are not part of OCR_ROOT, so include each PDF page as a source chunk.
+    core_extracts = PROJECT_TMP / "rule-source-audit"
+    core_pdf_page_counts: dict[str, int] = {}
+    for title in ("PHB", "DMG"):
+        path = core_extracts / f"{title}.txt"
+        try:
+            pages = path.read_text(encoding="utf-8", errors="replace").split("\f")
+        except OSError:
+            continue
+        if pages and not pages[-1].strip():
+            pages.pop()  # The final form feed terminates the last PDF page.
+        core_pdf_page_counts[title] = len(pages)
+        ocr_files.extend(
+            (f"{title}-core", (page_number, page_text), "core-page")
+            for page_number, page_text in enumerate(pages, 1)
+        )
 
     dragon_files: list[tuple[str, Path, str]] = []
     dragon_page = re.compile(r"dragon(?:-bulk)?-(\d{2,3})-pdf(\d+)\.txt$", re.I)
@@ -161,14 +182,19 @@ def main() -> None:
                 dragon_files.append((f"Dragon-{int(match.group(1)):03d}", path, "djvu"))
 
     for book, path, source_type in [*ocr_files, *dragon_files]:
-        try:
-            text = path.read_text(encoding="utf-8", errors="replace")
-        except OSError:
-            continue
+        if source_type == "core-page":
+            page_number, text = path
+        else:
+            try:
+                text = path.read_text(encoding="utf-8", errors="replace")
+            except OSError:
+                continue
         for line_number, line in enumerate(text.splitlines(), 1):
             if source_type == "page":
                 page = re.search(r"(\d+)$", path.stem)
                 locator = f"{book}/p.{int(page.group(1)):03d}" if page else f"{book}/{path.stem}"
+            elif source_type == "core-page":
+                locator = f"{book}/pdf-p.{page_number:03d}"
             elif source_type == "djvu":
                 locator = f"{book}/djvu-line-{line_number}"
             else:
@@ -182,6 +208,14 @@ def main() -> None:
             if is_heading:
                 for match in CAPS.finditer(line):
                     add(match.group(), locator, "ocr-heading")
+                # Single-word names, rule labels, and abbreviations frequently
+                # appear alone in scanned headings and table labels.
+                for match in SINGLE.finditer(line):
+                    token = match.group()
+                    if token.casefold() not in SINGLE_STOP_WORDS:
+                        phrase = clean_phrase(token, allow_single=True)
+                        if phrase:
+                            add(phrase, locator, "ocr-heading-single", allow_single=True)
 
     draft_files = sorted(MANUSCRIPT_ROOT.rglob("*.md")) if MANUSCRIPT_ROOT.is_dir() else []
     for path in draft_files:
@@ -195,8 +229,17 @@ def main() -> None:
                 continue
             for match in TITLE.finditer(line):
                 add(match.group(), f"manuscript/{relative}#L{line_number}", "draft", draft_pair(line, match.start()))
+            for match in SINGLE.finditer(line):
+                token = match.group()
+                label = draft_pair(line, match.start())
+                if label and token.casefold() not in SINGLE_STOP_WORDS:
+                    phrase = clean_phrase(token, allow_single=True)
+                    if phrase:
+                        add(phrase, f"manuscript/{relative}#L{line_number}", "draft", label, allow_single=True)
 
-    fields = ["en", "status", "catalogChinese", "catalogCategories", "draftChinese", "draftPairs", "externalChinese", "externalEditions", "ocrHits", "ocrPageCount", "ocrHeadingHits", "ocrPages", "draftHits", "draftFiles"]
+    # Keep the numeric draftHits field last so rows with no manuscript clue do
+    # not end in a tab that appears as trailing whitespace in diffs.
+    fields = ["en", "status", "catalogChinese", "catalogCategories", "draftChinese", "draftPairs", "externalChinese", "externalEditions", "ocrHits", "ocrPageCount", "ocrHeadingHits", "ocrPages", "draftFiles", "draftHits"]
     output_rows = []
     for key, row in sorted(candidates.items(), key=lambda item: item[1]["en"].casefold()):
         known_rows = known.get(key, [])
@@ -240,8 +283,50 @@ def main() -> None:
             is_repeated_title = first == "the" and len(row["en"].split()) >= 3 and int(row["ocrPageCount"]) >= 2 and int(row["ocrHeadingHits"]) >= 3
             if not is_repeated_title:
                 continue
+        # Rank evidence before raw OCR frequency. Repeated column collisions
+        # (for example "Permanent Saving Throw" from Duration/Saving Throw
+        # columns) must not outrank a bilingual manuscript pair or a real
+        # source heading simply because the OCR repeated them many times.
+        editions = set(filter(None, row["externalEditions"].split("; ")))
+        score = 0
+        signals = []
+        if row["draftChinese"]:
+            score += 100
+            signals.append("中英底稿对照")
+        if "3R" in editions:
+            score += 80
+            signals.append("3R译名证据")
+        if "5E" in editions:
+            score += 55
+            signals.append("5E译名证据")
+        if "5R" in editions:
+            score += 45
+            signals.append("5R译名证据")
+        heading_hits = int(row["ocrHeadingHits"])
+        page_count = int(row["ocrPageCount"])
+        draft_hits = int(row["draftHits"])
+        ocr_hits = int(row["ocrHits"])
+        if heading_hits:
+            score += min(heading_hits, 5) * 12
+            signals.append(f"OCR标题{heading_hits}处")
+        if draft_hits:
+            score += min(draft_hits, 5) * 5
+            signals.append(f"底稿出现{draft_hits}处")
+        if page_count >= 2:
+            score += min(page_count, 12)
+            signals.append(f"原书跨{page_count}页")
+        if ocr_hits >= 3 and not heading_hits and not row["draftChinese"] and not editions:
+            score -= 20
+            signals.append("仅重复OCR正文，需警惕串栏")
+        row["priorityScore"] = score
+        row["reviewSignal"] = "；".join(signals) or "单一来源候选"
         priority_rows.append(row)
-    write_rows(PRIORITY_OUT, priority_rows)
+    priority_rows.sort(key=lambda row: (-row["priorityScore"], row["en"].casefold()))
+    priority_fields = [*fields, "priorityScore", "reviewSignal"]
+    with PRIORITY_OUT.open("w", encoding="utf-8-sig", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=priority_fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(priority_rows)
 
     draft_entries = []
     for row in output_rows:
@@ -286,10 +371,11 @@ def main() -> None:
 
     counts = Counter(row["status"] for row in output_rows)
     summary = {
-        "method": "OCR title-case and all-caps phrase extraction plus bilingual manuscript headings/table labels",
+        "method": "OCR title-case and all-caps phrase extraction plus single-token heading/table-label extraction from scanned AD&D 1E books, including full PHB/DMG PDF text-layer extracts, and bilingual manuscript headings/table labels",
         "ocrCorpus": {
             "rawBooks": len({book for book, _, _ in ocr_files}),
             "rawPages": len(ocr_files),
+            "corePdfTextLayerPages": core_pdf_page_counts,
             "dragonOCRFiles": len(dragon_files),
             "sourceFiles": len(ocr_files) + len(dragon_files),
         },
@@ -300,6 +386,7 @@ def main() -> None:
         "bilingualDraftCandidatesAddedToSearch": len(draft_entries),
         "limitations": [
             "OCR phrase extraction includes false positives, OCR errors and incomplete table text.",
+            "PHB/DMG core text-layer extracts are page-delimited by PDF page and must be verified against the scanned page; printed page numbering can differ.",
             "Exact 3R/5E/5R name matches are suggestions only and do not establish an AD&D 1E canonical translation.",
             "Candidate rows retain source locators but exclude OCR prose; verify each term in its source context before catalog approval.",
         ],

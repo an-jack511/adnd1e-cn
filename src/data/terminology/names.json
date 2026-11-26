@@ -98,7 +98,7 @@
         "page": 78
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": null
@@ -173,7 +173,37 @@
         "page": 100
       },
       {
+        "edition": "other",
+        "world": null,
+        "source": "WoW",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Paladin",
+    "zh": "圣武士",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "paladin"
+    ],
+    "references": [
+      {
         "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 82
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 108
+      },
+      {
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": null
@@ -226,41 +256,11 @@
   },
   {
     "category": "glossary-term",
-    "en": "Airborne Riding Proficiency",
-    "zh": "空中骑乘熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
     "en": "Area of Effect（AOE）",
-    "zh": "作用区域",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Artisan Proficiency",
-    "zh": "工匠熟练项",
-    "aliases": [],
+    "zh": "效应区域",
+    "aliases": [
+      "作用区域"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -284,38 +284,6 @@
         "edition": "1E",
         "world": null,
         "source": "DMG translated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Barbarian Proficiency",
-    "zh": "蛮族熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Boating Proficiency",
-    "zh": "划船熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -380,38 +348,6 @@
         "edition": "1E",
         "world": null,
         "source": "DMG translated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Court Proficiency",
-    "zh": "宫廷熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Cultural Proficiency",
-    "zh": "文化熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -578,38 +514,6 @@
   },
   {
     "category": "glossary-term",
-    "en": "General Proficiency",
-    "zh": "通用熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Herbalism Proficiency",
-    "zh": "植物学熟练项",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
     "en": "Holy/Unholy Water",
     "zh": "圣水",
     "aliases": [],
@@ -644,22 +548,6 @@
     "category": "glossary-term",
     "en": "Initiative Roll",
     "zh": "先攻骰",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Land-Based Riding Proficiency",
-    "zh": "陆地骑乘熟练项",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -820,40 +708,8 @@
   },
   {
     "category": "glossary-term",
-    "en": "Round",
-    "zh": "轮",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
     "en": "s.p.",
     "zh": "银币",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Segment",
-    "zh": "段",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -950,22 +806,6 @@
     "category": "glossary-term",
     "en": "Tsuba-giri",
     "zh": "撬门叉",
-    "aliases": [],
-    "status": "verified-exact",
-    "ids": [],
-    "references": [
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
-      }
-    ]
-  },
-  {
-    "category": "glossary-term",
-    "en": "Turn",
-    "zh": "回合",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -3016,6 +2856,44 @@
   },
   {
     "category": "item",
+    "en": "Holy Sword",
+    "zh": "圣剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Holy Symbol",
+    "zh": "圣徽",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Horn of Blasting",
     "zh": "音爆号角",
     "aliases": [
@@ -3519,6 +3397,22 @@
   },
   {
     "category": "item",
+    "en": "Mistletoe",
+    "zh": "槲寄生",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Mule",
     "zh": "骡子",
     "aliases": [
@@ -3905,26 +3799,6 @@
         "world": null,
         "source": "XDMG",
         "page": 284
-      }
-    ]
-  },
-  {
-    "category": "item",
-    "en": "Philosopher’s Stone",
-    "zh": "点金石",
-    "aliases": [
-      "贤者之石"
-    ],
-    "status": "verified-exact",
-    "ids": [
-      "ua-magic-philosopher-s-stone"
-    ],
-    "references": [
-      {
-        "edition": "5E",
-        "world": null,
-        "source": "WoW",
-        "page": 111
       }
     ]
   },
@@ -5840,7 +5714,7 @@
         "page": 157
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": null
@@ -5954,6 +5828,530 @@
         "world": null,
         "source": "XDMG",
         "page": 324
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Centaur",
+    "zh": "人马语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Common Tongue",
+    "zh": "通用语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Dryad",
+    "zh": "树精语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Dwarvish",
+    "zh": "矮人语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 123
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Elvish",
+    "zh": "精灵语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "GGR",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 123
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Faun",
+    "zh": "半羊人语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "MM",
+        "page": "PDF 86"
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Gnoll",
+    "zh": "鬣狗语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 163
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XMM",
+        "page": 141
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 163
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Gnome",
+    "zh": "侏儒语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Goblin",
+    "zh": "地精语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "GGR",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 123
+      },
+      {
+        "edition": "other",
+        "world": null,
+        "source": "WoW",
+        "page": null
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Green Dragon",
+    "zh": "绿龙语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Halfling",
+    "zh": "半身人语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 123
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Hill Giant",
+    "zh": "山丘巨人语",
+    "aliases": [
+      "山丘巨人"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Hobgoblin",
+    "zh": "大地精语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Kobold",
+    "zh": "狗头人语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Lizardman",
+    "zh": "蜥蜴人语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Manticore",
+    "zh": "刺尾狮语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Nixie",
+    "zh": "水妖精语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "MM",
+        "page": "PDF 75"
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Orcish",
+    "zh": "兽人语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "other",
+        "world": null,
+        "source": "WoW",
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ERLW",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Pixie",
+    "zh": "皮克精语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Sprite",
+    "zh": "小仙灵语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Treantish",
+    "zh": "树人语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
       }
     ]
   },
@@ -6421,6 +6819,12 @@
       "mm2-barkburr"
     ],
     "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "QftIS",
+        "page": 195
+      },
       {
         "edition": "5E",
         "world": null,
@@ -11999,6 +12403,12 @@
         "world": null,
         "source": "PSZ",
         "page": 28
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PSZ",
+        "page": 28
       }
     ]
   },
@@ -13306,6 +13716,12 @@
         "world": null,
         "source": "MaBJoV",
         "page": 155
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MaBJoV",
+        "page": 155
       }
     ]
   },
@@ -13780,6 +14196,59 @@
   },
   {
     "category": "proper",
+    "en": "Astral Plane",
+    "zh": "星光位面",
+    "aliases": [
+      "Astral Plane",
+      "星界位面"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 184
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PaF",
+        "page": 20
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XDMG",
+        "page": 184
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Bandit Kingdoms",
+    "zh": "匪徒王国",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Guide original text",
+        "page": "PDF p.158"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 168
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Barrier Peaks",
     "zh": "屏障峰",
     "aliases": [
@@ -13801,6 +14270,7 @@
     "en": "Bigby",
     "zh": "毕格比",
     "aliases": [
+      "毕格比之手",
       "毕格比的法术"
     ],
     "status": "adapted-element",
@@ -14189,6 +14659,7 @@
     "en": "Drawmij",
     "zh": "卓姆吉",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉",
       "德拉维吉的法术"
     ],
@@ -14200,6 +14671,94 @@
         "world": null,
         "source": "XPHB",
         "page": 266
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Elemental Plane of Air",
+    "zh": "气元素位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Player’s Handbook original text",
+        "page": "PDF pp.85, 121"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 188
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Elemental Plane of Earth",
+    "zh": "土元素位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Unearthed Arcana original text",
+        "page": "printed p.12"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 189
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Elemental Plane of Fire",
+    "zh": "火元素位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Player’s Handbook original text",
+        "page": "PDF pp.62, 66, 121"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 189
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Elemental Plane of Water",
+    "zh": "水元素位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Design Kit original text",
+        "page": "printed pp.24–25"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 190
       }
     ]
   },
@@ -14262,6 +14821,24 @@
         "world": "Dragonlance",
         "source": "DSotDQ",
         "page": 25
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Ethereal Plane",
+    "zh": "以太位面",
+    "aliases": [
+      "以太界"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XDMG",
+        "page": 192
       }
     ]
   },
@@ -14668,6 +15245,28 @@
   },
   {
     "category": "proper",
+    "en": "Inner Planes",
+    "zh": "内层位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Player’s Handbook original text",
+        "page": "PDF p.121"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 174
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Iuz",
     "zh": "埃乌兹",
     "aliases": [
@@ -14827,7 +15426,9 @@
     "category": "proper",
     "en": "Leomund",
     "zh": "李欧蒙",
-    "aliases": [],
+    "aliases": [
+      "李欧蒙小屋"
+    ],
     "status": "adapted-element",
     "ids": [],
     "references": [
@@ -14998,7 +15599,9 @@
     "category": "proper",
     "en": "Melf",
     "zh": "马友夫",
-    "aliases": [],
+    "aliases": [
+      "马友夫强酸箭"
+    ],
     "status": "adapted-element",
     "ids": [],
     "references": [
@@ -15100,7 +15703,8 @@
     "zh": "魔邓肯",
     "aliases": [
       "莫登凯南",
-      "莫登凯南的法术"
+      "莫登凯南的法术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [],
@@ -15275,6 +15879,28 @@
   },
   {
     "category": "proper",
+    "en": "Nine Hells",
+    "zh": "九层地狱",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Guide original text",
+        "page": "PDF p.138"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 201
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Nuitari",
     "zh": "努塔瑞",
     "aliases": [
@@ -15326,6 +15952,7 @@
     "en": "Nystul",
     "zh": "涅斯图",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图",
       "诺斯图的法术"
     ],
@@ -15370,6 +15997,7 @@
     "en": "Otiluke",
     "zh": "欧提路克",
     "aliases": [
+      "欧提路克弹力法球",
       "欧提路克的法术"
     ],
     "status": "adapted-element",
@@ -15388,6 +16016,7 @@
     "en": "Otto",
     "zh": "奥图",
     "aliases": [
+      "奥图迷舞",
       "奥托",
       "奥托的法术"
     ],
@@ -15399,6 +16028,28 @@
         "world": null,
         "source": "XPHB",
         "page": 303
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Outer Planes",
+    "zh": "外层位面",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Guide original text",
+        "page": "PDF pp.112–113"
+      },
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 174
       }
     ]
   },
@@ -15475,6 +16126,7 @@
     "en": "Rary",
     "zh": "拉瑞",
     "aliases": [
+      "拉瑞心灵联结",
       "拉瑞的法术"
     ],
     "status": "adapted-element",
@@ -15796,6 +16448,7 @@
     "en": "Tenser",
     "zh": "谭森",
     "aliases": [
+      "谭森浮碟术",
       "谭森的法术"
     ],
     "status": "adapted-element",
@@ -15906,6 +16559,28 @@
         "world": "FR",
         "source": "FRHoF",
         "page": 72
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Tomb of Horrors",
+    "zh": "恐怖之墓",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 165
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Guide original text",
+        "page": "PDF p.236"
       }
     ]
   },
@@ -16151,6 +16826,28 @@
   },
   {
     "category": "proper",
+    "en": "White Plume Mountain",
+    "zh": "白羽山",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5R",
+        "world": "Greyhawk",
+        "source": "XDMG",
+        "page": 147
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E Dungeon Masters Guide original text",
+        "page": "PDF p.236"
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Yondalla",
     "zh": "悠达拉",
     "aliases": [
@@ -16293,7 +16990,7 @@
         "page": 18
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": 74
@@ -16303,6 +17000,12 @@
         "world": null,
         "source": "XPHB",
         "page": 188
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
       }
     ]
   },
@@ -16329,7 +17032,7 @@
         "page": 21
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": 76
@@ -16339,6 +17042,12 @@
         "world": null,
         "source": "XPHB",
         "page": 189
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
       }
     ]
   },
@@ -16359,7 +17068,7 @@
         "page": 35
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": 80
@@ -16369,6 +17078,28 @@
         "world": null,
         "source": "XPHB",
         "page": 191
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Hairfeet",
+    "zh": "毛足半身人",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 14
       }
     ]
   },
@@ -16387,6 +17118,12 @@
         "world": null,
         "source": "PHB",
         "page": 38
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 17
       }
     ]
   },
@@ -16394,7 +17131,9 @@
     "category": "race",
     "en": "Half-Orc",
     "zh": "半兽人",
-    "aliases": [],
+    "aliases": [
+      "兽人及半兽人的成长环境"
+    ],
     "status": "verified-exact",
     "ids": [
       "half-orc"
@@ -16405,6 +17144,12 @@
         "world": null,
         "source": "PHB",
         "page": 40
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 17
       }
     ]
   },
@@ -16429,6 +17174,34 @@
         "world": null,
         "source": "XPHB",
         "page": 193
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 17
+      }
+    ]
+  },
+  {
+    "category": "race",
+    "en": "High Elves",
+    "zh": "高等精灵",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "GGR",
+        "page": 14
       }
     ]
   },
@@ -16449,7 +17222,7 @@
         "page": 29
       },
       {
-        "edition": "5E",
+        "edition": "other",
         "world": null,
         "source": "WoW",
         "page": 84
@@ -16459,6 +17232,12 @@
         "world": null,
         "source": "XPHB",
         "page": 194
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 17
       }
     ]
   },
@@ -16484,11 +17263,89 @@
     ]
   },
   {
-    "category": "rule",
-    "en": "Ability Check",
-    "zh": "能力检定",
+    "category": "race",
+    "en": "Mountain Dwarves",
+    "zh": "山地矮人",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      },
+      {
+        "edition": "5E",
+        "world": "Dragonlance",
+        "source": "DSotDQ",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Stouts",
+    "zh": "敦实半身人",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 14
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
+      }
+    ]
+  },
+  {
+    "category": "race",
+    "en": "Tallfellows",
+    "zh": "高个半身人",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "% In Lair",
+    "zh": "巢穴出现率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Ability Check",
+    "zh": "属性检定",
+    "aliases": [
+      "能力检定"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -16508,9 +17365,11 @@
   {
     "category": "rule",
     "en": "Ability Checks",
-    "zh": "能力检定",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "属性检定",
+    "aliases": [
+      "能力检定"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -16561,6 +17420,34 @@
   },
   {
     "category": "rule",
+    "en": "Acolyte",
+    "zh": "侍僧",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 127
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Actions During Combat and Similar Time-Important Situations",
     "zh": "战斗及其他时间敏感情境中的行动",
     "aliases": [],
@@ -16578,6 +17465,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Adept",
+    "zh": "修士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
       }
     ]
   },
@@ -16647,6 +17556,44 @@
   },
   {
     "category": "rule",
+    "en": "Agriculture",
+    "zh": "农业",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Airborne Riding Proficiency",
+    "zh": "空中骑乘熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Alertness",
     "zh": "警觉",
     "aliases": [],
@@ -16704,8 +17651,11 @@
   {
     "category": "rule",
     "en": "Animal Handling",
-    "zh": "动物驯养",
-    "aliases": [],
+    "zh": "驯兽",
+    "aliases": [
+      "动物处理",
+      "动物驯养"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -16714,15 +17664,36 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 178
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 14
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "WSG Table 2 and Proficiency Descriptions",
+        "page": "13–14"
       }
     ]
   },
   {
     "category": "rule",
     "en": "Animal Handling Proficiency",
-    "zh": "动物处理熟练项",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "驯兽熟练项",
+    "aliases": [
+      "动物处理熟练项",
+      "驯兽"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -16730,6 +17701,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 178
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 14
       },
       {
         "edition": "1E",
@@ -16773,8 +17756,8 @@
   },
   {
     "category": "rule",
-    "en": "Area of Effect",
-    "zh": "作用区域",
+    "en": "Archdruid",
+    "zh": "大德鲁伊",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -16784,6 +17767,58 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 64
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Area of Effect",
+    "zh": "效应区域",
+    "aliases": [
+      "作用区域"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Armor and Weapons Permitted",
+    "zh": "准用护甲与武器",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
       }
     ]
   },
@@ -16849,6 +17884,38 @@
   },
   {
     "category": "rule",
+    "en": "Armorer",
+    "zh": "护甲修造",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Army Commander",
+    "zh": "军队指挥官",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Artifact",
     "zh": "神器",
     "aliases": [
@@ -16861,6 +17928,18 @@
         "edition": "3R",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG translated glossary",
         "page": null
       }
     ]
@@ -16935,6 +18014,24 @@
   },
   {
     "category": "rule",
+    "en": "Artillery Weapons",
+    "zh": "攻城武器",
+    "aliases": [
+      "炮械武器"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Artisan Proficiencies",
     "zh": "工匠熟练项",
     "aliases": [],
@@ -16946,6 +18043,50 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Artisan Proficiency",
+    "zh": "工匠熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Aspirant",
+    "zh": "见习者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
       }
     ]
   },
@@ -16968,9 +18109,11 @@
   {
     "category": "rule",
     "en": "Astral Projection",
-    "zh": "星界投射",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "星界投影",
+    "aliases": [
+      "星界投射"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -17017,6 +18160,22 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Attack and Saving Throw Matrices",
+    "zh": "攻击与豁免矩阵",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -17080,9 +18239,11 @@
   {
     "category": "rule",
     "en": "Attack Roll",
-    "zh": "攻击骰",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "攻击检定",
+    "aliases": [
+      "攻击骰"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -17155,6 +18316,22 @@
   },
   {
     "category": "rule",
+    "en": "Attack/Defense Modes",
+    "zh": "攻击／防御模式",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Attacks",
     "zh": "攻击次数",
     "aliases": [],
@@ -17172,6 +18349,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Attacks per Melee Round",
+    "zh": "每近战轮攻击次数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -17250,6 +18449,22 @@
   },
   {
     "category": "rule",
+    "en": "Awe and Fear",
+    "zh": "敬畏与恐惧",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Barbarian Proficiencies",
     "zh": "蛮族熟练项",
     "aliases": [
@@ -17262,6 +18477,28 @@
         "edition": "1E",
         "world": null,
         "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Barbarian Proficiency",
+    "zh": "蛮族熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -17312,6 +18549,22 @@
   },
   {
     "category": "rule",
+    "en": "Base Morale",
+    "zh": "基础士气",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Becoming Lost",
     "zh": "迷路",
     "aliases": [],
@@ -17352,10 +18605,10 @@
   },
   {
     "category": "rule",
-    "en": "Blind-fighting",
-    "zh": "盲斗",
+    "en": "Blacksmith",
+    "zh": "铁匠",
     "aliases": [],
-    "status": "verified-exact",
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -17363,6 +18616,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Blind-fighting",
+    "zh": "盲斗",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 209
       }
     ]
   },
@@ -17432,6 +18707,28 @@
   },
   {
     "category": "rule",
+    "en": "Boating Proficiency",
+    "zh": "划船熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Body Control",
     "zh": "身体控制",
     "aliases": [],
@@ -17468,6 +18765,22 @@
     "zh": "身体武器化",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Bowyer",
+    "zh": "制弓",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -17520,10 +18833,58 @@
   },
   {
     "category": "rule",
+    "en": "Brewer",
+    "zh": "酿酒",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Brigade Commander",
+    "zh": "旅指挥官",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Broad Jumping",
     "zh": "跳远",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Calligraphy",
+    "zh": "书法",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -17552,6 +18913,44 @@
         "edition": "1E",
         "world": null,
         "source": "DMG translated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Canon",
+    "zh": "座堂教士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Carpenter",
+    "zh": "木工",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -17650,8 +19049,180 @@
   },
   {
     "category": "rule",
+    "en": "Champion",
+    "zh": "勇士",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 72
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chance of Spell Failure",
+    "zh": "法术失败率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Chance of Success",
     "zh": "成功概率",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chance to Know Each Listed Spell",
+    "zh": "逐项法术习得概率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chance to Track",
+    "zh": "追踪成功率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Change Form",
+    "zh": "变换形态",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Changing Direction",
+    "zh": "改变朝向",
+    "aliases": [
+      "改变方向"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Changing Frontage",
+    "zh": "调整正面宽度",
+    "aliases": [
+      "调整正面"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chanting",
+    "zh": "吟诵",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Character Abilities",
+    "zh": "角色属性",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -17677,6 +19248,52 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Character Class",
+    "zh": "角色职业",
+    "aliases": [
+      "职业"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Character Class Limitations",
+    "zh": "职业选择限制",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 13
       }
     ]
   },
@@ -17796,6 +19413,28 @@
   },
   {
     "category": "rule",
+    "en": "Charisma",
+    "zh": "魅力",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Check",
     "zh": "检定",
     "aliases": [],
@@ -17818,12 +19457,72 @@
   },
   {
     "category": "rule",
+    "en": "Chevalier",
+    "zh": "骑士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Choosing Proficiencies",
     "zh": "选择熟练项",
     "aliases": [
       "选择熟练项 ·"
     ],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Circle of Power",
+    "zh": "力量圈",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Civil Engineer",
+    "zh": "土木工程",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18020,6 +19719,22 @@
   },
   {
     "category": "rule",
+    "en": "Closed Formation",
+    "zh": "密集队形",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Collision Probability",
     "zh": "碰撞概率",
     "aliases": [],
@@ -18086,6 +19801,54 @@
   },
   {
     "category": "rule",
+    "en": "Command Hierarchy",
+    "zh": "指挥层级",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Command Radius",
+    "zh": "指挥半径",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Common",
+    "zh": "常见",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Common Proficiencies",
     "zh": "通用熟练项",
     "aliases": [],
@@ -18118,6 +19881,52 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Concealed Door",
+    "zh": "掩蔽门",
+    "aliases": [
+      "隐藏门"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "CoS",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Conditions for Rally",
+    "zh": "重整条件",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -18190,10 +19999,48 @@
   },
   {
     "category": "rule",
+    "en": "Constitution",
+    "zh": "体质",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Construction Defensive Values",
     "zh": "建筑防御数值",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cooking",
+    "zh": "烹饪",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18222,6 +20069,42 @@
   },
   {
     "category": "rule",
+    "en": "Counter Ratios",
+    "zh": "棋子代表比率",
+    "aliases": [
+      "算子代表比例"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Counter Scale",
+    "zh": "棋子规格",
+    "aliases": [
+      "算子尺寸"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Course Changes in Darkness",
     "zh": "黑暗中的路线变化",
     "aliases": [],
@@ -18233,6 +20116,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Courser",
+    "zh": "疾行者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -18254,10 +20159,50 @@
   },
   {
     "category": "rule",
+    "en": "Court Proficiency",
+    "zh": "宫廷熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Craftsman Proficiencies",
     "zh": "工匠熟练项",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Create Troops",
+    "zh": "创造部队",
+    "aliases": [
+      "创造兵力"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18304,6 +20249,88 @@
     "category": "rule",
     "en": "Cultural Proficiencies",
     "zh": "文化熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cultural Proficiency",
+    "zh": "文化熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Curate",
+    "zh": "助理牧师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cure Disease",
+    "zh": "治愈疾病",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Current Morale",
+    "zh": "当前士气",
     "aliases": [],
     "status": "adapted-variant",
     "ids": [],
@@ -18369,9 +20396,11 @@
   {
     "category": "rule",
     "en": "Damage Roll",
-    "zh": "伤害骰",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "伤害掷骰",
+    "aliases": [
+      "伤害骰"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18384,6 +20413,38 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Damage/Attack",
+    "zh": "每次攻击伤害",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Dance",
+    "zh": "舞蹈",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -18429,6 +20490,28 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Defender",
+    "zh": "捍卫者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
       }
     ]
   },
@@ -18494,6 +20577,22 @@
     "zh": "防御点数",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Definition of Command",
+    "zh": "指挥的定义",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18594,6 +20693,138 @@
   },
   {
     "category": "rule",
+    "en": "Detect Evil",
+    "zh": "侦测邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Detect Grade or Slope in Passage, Upwards or Downwards",
+    "zh": "辨识通道坡向",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Detect New Construction or Passage/Tunnel",
+    "zh": "辨识新建通道／隧道",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Detect Sliding or Shifting Walls or Rooms",
+    "zh": "辨识滑动或移动的墙壁与房间",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Detect Traps Involving Pits, Falling Blocks and Other Stonework",
+    "zh": "辨识陷坑、落石及其他石工陷阱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Detect Unsafe Walls, Ceilings, or Floors",
+    "zh": "辨识不稳固的墙壁、顶壁与地面",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Detection of Good or Evil",
     "zh": "侦测善良或邪恶",
     "aliases": [],
@@ -18627,9 +20858,10 @@
   {
     "category": "rule",
     "en": "Determination of Spell Level",
-    "zh": "法术环级的确定",
+    "zh": "法术环阶的确定",
     "aliases": [
-      "新法术的环级"
+      "新法术的环级",
+      "法术环级的确定"
     ],
     "status": "verified-exact",
     "ids": [],
@@ -18650,6 +20882,126 @@
     "status": "verified-exact",
     "ids": [],
     "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Determine Approximate Depth Underground",
+    "zh": "估计地下深度",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Determine Direction of Travel Underground",
+    "zh": "辨识地下行进方向",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Determining Attack Ratings",
+    "zh": "判定攻击值",
+    "aliases": [
+      "确定攻击值"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Determining Base Morale",
+    "zh": "基础士气的确定",
+    "aliases": [
+      "确定基础士气"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Determining Current Morale",
+    "zh": "当前士气的确定",
+    "aliases": [
+      "确定当前士气"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Dexterity",
+    "zh": "敏捷",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      },
       {
         "edition": "1E",
         "world": null,
@@ -18714,6 +21066,22 @@
   },
   {
     "category": "rule",
+    "en": "Dice Conversions",
+    "zh": "骰型换算",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Dimension Walk",
     "zh": "次元行走",
     "aliases": [],
@@ -18734,6 +21102,38 @@
     "zh": "方向感",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Discipline Check",
+    "zh": "纪律检定",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Discipline Rating",
+    "zh": "纪律值",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -18948,6 +21348,22 @@
   },
   {
     "category": "rule",
+    "en": "Effect of Morale Checks",
+    "zh": "士气检定的影响",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Effects of Alcohol and Drugs",
     "zh": "酒精与药物的影响",
     "aliases": [],
@@ -19094,6 +21510,40 @@
   },
   {
     "category": "rule",
+    "en": "End of Game Round Phase",
+    "zh": "游戏轮结束阶段",
+    "aliases": [
+      "轮末阶段"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Ending a Melee",
+    "zh": "结束近战",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Endurance",
     "zh": "耐力",
     "aliases": [],
@@ -19166,7 +21616,9 @@
     "category": "rule",
     "en": "Ethereal and Astral Combat",
     "zh": "以太位面与星界位面上的战斗",
-    "aliases": [],
+    "aliases": [
+      "以太位面与星光位面上的战斗"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -19202,6 +21654,22 @@
       "太虚化"
     ],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Etiquette",
+    "zh": "礼仪",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19269,9 +21737,11 @@
   {
     "category": "rule",
     "en": "Exhaustion",
-    "zh": "疲劳",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "力竭",
+    "aliases": [
+      "疲劳"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19401,9 +21871,11 @@
   {
     "category": "rule",
     "en": "Expertise",
-    "zh": "专长",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "专精",
+    "aliases": [
+      "专长"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19442,6 +21914,22 @@
     "zh": "导致突袭的因素",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Falconry",
+    "zh": "驯鹰",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19510,10 +21998,28 @@
   },
   {
     "category": "rule",
-    "en": "Fire-building",
+    "en": "Fighting Withdrawal",
+    "zh": "边战边撤",
+    "aliases": [
+      "且战且退"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Fire Building",
     "zh": "生火",
     "aliases": [],
-    "status": "verified-exact",
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19530,6 +22036,22 @@
     "zh": "捕鱼",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Flower Arranging",
+    "zh": "插花",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19596,10 +22118,84 @@
   },
   {
     "category": "rule",
+    "en": "Forced March",
+    "zh": "强行军",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Forced Movement",
     "zh": "强行军",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Forces Eligible to Fight",
+    "zh": "可参与近战的兵力",
+    "aliases": [
+      "可以参战的兵力"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Freehold",
+    "zh": "自由领地",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Frequency",
+    "zh": "出现频率",
+    "aliases": [
+      "出现频率 ·"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19634,6 +22230,60 @@
       "获得经验等级"
     ],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Gallant",
+    "zh": "勇者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Game Round",
+    "zh": "游戏轮",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Gaming",
+    "zh": "博戏",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -19694,6 +22344,28 @@
   },
   {
     "category": "rule",
+    "en": "General Proficiency",
+    "zh": "通用熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Giant and Machine Missiles",
     "zh": "巨人与攻城器械投射物",
     "aliases": [],
@@ -19711,6 +22383,66 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Giant Class",
+    "zh": "巨人类",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Giving Orders to a Mob",
+    "zh": "向乌合之众下达命令",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Grand Master of Flowers",
+    "zh": "百花大宗师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
       }
     ]
   },
@@ -19858,6 +22590,74 @@
   },
   {
     "category": "rule",
+    "en": "Ground Scale",
+    "zh": "战场比例尺",
+    "aliases": [
+      "地面比例"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Guardian",
+    "zh": "守护者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Guide",
+    "zh": "向导",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DoD",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Healing",
     "zh": "治疗",
     "aliases": [],
@@ -19896,6 +22696,44 @@
   },
   {
     "category": "rule",
+    "en": "Heraldry",
+    "zh": "纹章学",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Herbalism Proficiency",
+    "zh": "植物学熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Herbalist",
     "zh": "草药师熟练项",
     "aliases": [],
@@ -19907,6 +22745,56 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hero",
+    "zh": "英雄",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "High Priest",
+    "zh": "高级祭司",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "IMR",
+        "page": 40
       }
     ]
   },
@@ -19978,6 +22866,44 @@
   },
   {
     "category": "rule",
+    "en": "Hit Dice Type",
+    "zh": "生命骰骰型",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hit Point Adjustment",
+    "zh": "生命值调整",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Hit Points",
     "zh": "生命值",
     "aliases": [],
@@ -19994,6 +22920,56 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hit Probability",
+    "zh": "命中概率修正",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Horsemanship",
+    "zh": "骑术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "How to Check Morale",
+    "zh": "士气检定方法",
+    "aliases": [
+      "士气检定"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -20152,10 +23128,182 @@
   },
   {
     "category": "rule",
+    "en": "Identification of Animal Type",
+    "zh": "辨识动物种类",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Identification of Plant Type",
+    "zh": "辨识植物种类",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Identification of Pure Water",
+    "zh": "辨识纯净水",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "If the Unit Does Not Rally",
+    "zh": "部队未能重整时",
+    "aliases": [
+      "未能重整"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "If the Unit is Rallied",
+    "zh": "部队成功重整后",
+    "aliases": [
+      "重整成功"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Immunity to All Forms of Disease",
+    "zh": "疾病免疫",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Improving Proficiencies",
     "zh": "改进熟练项",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "In Command",
+    "zh": "处于指挥范围内",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Indirect Fire",
+    "zh": "间接射击",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Individual Combat",
+    "zh": "个人战斗",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -20195,6 +23343,244 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initial Ability Scores",
+    "zh": "初始属性值",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initial Missile Phase",
+    "zh": "初始远程攻击阶段",
+    "aliases": [
+      "初始射击阶段"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 1st Circle",
+    "zh": "第一环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 2nd Circle",
+    "zh": "第二环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 3rd Circle",
+    "zh": "第三环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 4th Circle",
+    "zh": "第四环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 5th Circle",
+    "zh": "第五环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 6th Circle",
+    "zh": "第六环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 7th Circle",
+    "zh": "第七环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 8th Circle",
+    "zh": "第八环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate of the 9th Circle",
+    "zh": "第九环入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
       }
     ]
   },
@@ -20326,6 +23712,22 @@
   },
   {
     "category": "rule",
+    "en": "Initiative Phase",
+    "zh": "先攻阶段",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Insanity",
     "zh": "精神错乱",
     "aliases": [],
@@ -20343,9 +23745,40 @@
   {
     "category": "rule",
     "en": "Intellect Fortress",
-    "zh": "智力堡垒",
+    "zh": "智能壁垒",
+    "aliases": [
+      "智力堡垒",
+      "智识壁垒"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "TCE",
+        "page": 107
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "UATheMysticClass",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Intelligence",
+    "zh": "智力",
     "aliases": [],
-    "status": "verified-exact",
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -20412,6 +23845,38 @@
   },
   {
     "category": "rule",
+    "en": "Jeweler",
+    "zh": "珠宝加工",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Juggling",
+    "zh": "杂耍",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Jumping for Non-Acrobats",
     "zh": "非杂技者跳跃",
     "aliases": [],
@@ -20428,6 +23893,90 @@
   },
   {
     "category": "rule",
+    "en": "Justiciar",
+    "zh": "执法官",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Keeper",
+    "zh": "看守者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Killed and Wounded Figures",
+    "zh": "阵亡与受伤棋子",
+    "aliases": [
+      "死亡与负伤模型"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lama",
+    "zh": "喇嘛",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Land Riding Proficiency",
     "zh": "陆地骑乘熟练项",
     "aliases": [],
@@ -20439,6 +23988,72 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Land-Based Riding Proficiency",
+    "zh": "陆地骑乘熟练项",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Landscape Gardening",
+    "zh": "园林设计",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lay on Hands",
+    "zh": "圣疗",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 82
       }
     ]
   },
@@ -20526,6 +24141,22 @@
   },
   {
     "category": "rule",
+    "en": "Level Draining",
+    "zh": "等级吸取",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Level of Mastery",
     "zh": "掌握等级",
     "aliases": [],
@@ -20548,10 +24179,102 @@
   },
   {
     "category": "rule",
+    "en": "Level Title",
+    "zh": "等级头衔",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Level/X.P. Value",
+    "zh": "等级／经验值",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Level/XP Value",
+    "zh": "等级／经验值",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Listening at Doors",
     "zh": "隔门聆听",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lord",
+    "zh": "领主",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Loyalty Base",
+    "zh": "忠诚度基础修正值",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -20738,6 +24461,22 @@
   },
   {
     "category": "rule",
+    "en": "Magical Defenses",
+    "zh": "魔法防御",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Magical Device Attacks",
     "zh": "魔法装置攻击",
     "aliases": [],
@@ -20850,6 +24589,98 @@
   },
   {
     "category": "rule",
+    "en": "Masseur",
+    "zh": "按摩",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Maximum Number of Henchmen",
+    "zh": "随从人数上限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Maximum Number of Hit Dice",
+    "zh": "生命骰数量上限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Maximum Number of Spells/Level",
+    "zh": "每环可习得法术数上限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Maximum Scores",
+    "zh": "属性值上限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Melee",
     "zh": "近战",
     "aliases": [],
@@ -20866,6 +24697,22 @@
         "edition": "1E",
         "world": null,
         "source": "DMG translated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Melee Phase",
+    "zh": "近战阶段",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -20947,9 +24794,11 @@
   {
     "category": "rule",
     "en": "Mind Blank",
-    "zh": "心灵空白",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "心灵屏障",
+    "aliases": [
+      "心灵空白"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -20979,9 +24828,11 @@
   {
     "category": "rule",
     "en": "Mind Thrust",
-    "zh": "心灵突刺",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "心灵戳刺",
+    "aliases": [
+      "心灵突刺"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -20989,6 +24840,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "UATheMysticClass",
+        "page": 28
       }
     ]
   },
@@ -21032,6 +24889,22 @@
   },
   {
     "category": "rule",
+    "en": "Minimum Number of Spells/Level",
+    "zh": "每环可习得法术数下限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Minimum Passageway Sizes",
     "zh": "最小通道尺寸",
     "aliases": [],
@@ -21043,6 +24916,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Minimum Scores",
+    "zh": "属性值下限",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 15
       }
     ]
   },
@@ -21134,6 +25029,24 @@
   },
   {
     "category": "rule",
+    "en": "Missile and Magic Phase",
+    "zh": "远程攻击与魔法阶段",
+    "aliases": [
+      "射击与魔法阶段"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Missile Discharge",
     "zh": "发射投射武器",
     "aliases": [
@@ -21200,6 +25113,22 @@
     "zh": "秘银检定",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Mob",
+    "zh": "乌合之众",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -21418,6 +25347,24 @@
   },
   {
     "category": "rule",
+    "en": "Move",
+    "zh": "移动率",
+    "aliases": [
+      "移动"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Movement",
     "zh": "移动",
     "aliases": [],
@@ -21534,6 +25481,22 @@
   },
   {
     "category": "rule",
+    "en": "Movement Phase",
+    "zh": "移动阶段",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Movement Rate",
     "zh": "移动率",
     "aliases": [],
@@ -21569,6 +25532,66 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Multi-Classed Character",
+    "zh": "多职业角色",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Music",
+    "zh": "音乐",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Myrmidon",
+    "zh": "精锐战士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
       }
     ]
   },
@@ -21612,6 +25635,88 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Navigator",
+    "zh": "航海术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Night Battles",
+    "zh": "夜间战斗",
+    "aliases": [
+      "夜战"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "No. Appearing",
+    "zh": "出现数量",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "No. of Attacks",
+    "zh": "攻击次数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Noh",
+    "zh": "能乐",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -21860,10 +25965,90 @@
   },
   {
     "category": "rule",
+    "en": "Open Doors",
+    "zh": "撞门",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Open Formation",
+    "zh": "疏开队形",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Ore Quality",
     "zh": "矿石品质",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Origami",
+    "zh": "折纸",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Out of Command",
+    "zh": "失去指挥",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Out of Command Units",
+    "zh": "失去指挥的部队",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -21887,6 +26072,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Ovate",
+    "zh": "卜者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
       }
     ]
   },
@@ -21928,6 +26135,38 @@
     "zh": "压制表",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Painting",
+    "zh": "绘画",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Paper-maker",
+    "zh": "造纸",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -22016,6 +26255,66 @@
   },
   {
     "category": "rule",
+    "en": "Pass-Through Fire",
+    "zh": "穿越射击",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Pathfinder",
+    "zh": "探路者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Patriarch",
+    "zh": "宗主教",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "PC",
     "zh": "玩家角色",
     "aliases": [],
@@ -22027,6 +26326,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Penalties and Bonuses for Race",
+    "zh": "种族减值与加值",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 14
       }
     ]
   },
@@ -22092,6 +26413,22 @@
   },
   {
     "category": "rule",
+    "en": "Phasing Player",
+    "zh": "当前行动方",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Philter",
     "zh": "灵药",
     "aliases": [],
@@ -22109,6 +26446,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Place of Worship",
+    "zh": "礼拜场所",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
       }
     ]
   },
@@ -22152,6 +26511,22 @@
       "玩家角色的非职业技能"
     ],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Poetry",
+    "zh": "诗歌",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -22246,10 +26621,42 @@
   },
   {
     "category": "rule",
+    "en": "Possible Number of Additional Languages",
+    "zh": "可额外掌握的语言数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Potion Miscibility",
     "zh": "药水混合",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Potter",
+    "zh": "制陶",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -22273,6 +26680,56 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Prefect",
+    "zh": "教务长",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "Dungeon Master’s Screen (1979), TSR 9024",
+        "page": "CLERICS TABLE, level 5"
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Priest",
+    "zh": "祭司",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 348
       }
     ]
   },
@@ -22468,6 +26925,66 @@
     "zh": "战斗表上的数值递进",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Protection from Evil",
+    "zh": "防护邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Protector",
+    "zh": "护卫者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Psionic Abilities",
+    "zh": "灵能能力",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -22778,6 +27295,90 @@
   },
   {
     "category": "rule",
+    "en": "Race",
+    "zh": "种族",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 13
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "EGW",
+        "page": 193
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Racial Preferences",
+    "zh": "种族好恶",
+    "aliases": [
+      "种族偏好表"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rally Attempt",
+    "zh": "重整尝试",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rally Phase",
+    "zh": "重整阶段",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Ramming",
     "zh": "冲撞",
     "aliases": [],
@@ -22838,6 +27439,28 @@
   },
   {
     "category": "rule",
+    "en": "Ranger Knight",
+    "zh": "巡林骑士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Ranger Level",
     "zh": "巡林客等级",
     "aliases": [],
@@ -22854,6 +27477,44 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Ranger Lord",
+    "zh": "巡林领主",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rare",
+    "zh": "珍稀",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -22944,6 +27605,38 @@
   },
   {
     "category": "rule",
+    "en": "Reaction/Attacking Adjustment",
+    "zh": "反应／攻击调整",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Reading/Writing",
+    "zh": "读写",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Recovery from Intoxication",
     "zh": "醉酒后的恢复",
     "aliases": [],
@@ -22992,6 +27685,22 @@
   },
   {
     "category": "rule",
+    "en": "Regular Unit",
+    "zh": "常规部队",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Relic",
     "zh": "圣遗物",
     "aliases": [],
@@ -23009,6 +27718,58 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Religion",
+    "zh": "宗教",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 178
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Religious Stronghold",
+    "zh": "宗教要塞",
+    "aliases": [
+      "宗教据点"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 20
       }
     ]
   },
@@ -23106,6 +27867,22 @@
   },
   {
     "category": "rule",
+    "en": "Resurrection Survival",
+    "zh": "复生存活率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Riding Proficiency",
     "zh": "骑乘熟练项",
     "aliases": [],
@@ -23146,6 +27923,22 @@
     "category": "rule",
     "en": "Riding, land-based",
     "zh": "陆地骑乘熟练项",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rock Ledge",
+    "zh": "岩棚",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -23236,6 +28029,28 @@
   },
   {
     "category": "rule",
+    "en": "Round",
+    "zh": "轮",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Round (combat time unit)",
     "zh": "轮",
     "aliases": [],
@@ -23274,10 +28089,88 @@
   },
   {
     "category": "rule",
+    "en": "Rout",
+    "zh": "溃逃",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Runner",
+    "zh": "奔行者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Running",
     "zh": "奔跑",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Sacred Groves",
+    "zh": "神圣林地",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Sailing Craft",
+    "zh": "驾船",
+    "aliases": [
+      "船艺"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -23322,12 +28215,6 @@
         "edition": "1E",
         "world": null,
         "source": null,
-        "page": null
-      },
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -23411,12 +28298,6 @@
         "world": null,
         "source": null,
         "page": null
-      },
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
       }
     ]
   },
@@ -23433,12 +28314,6 @@
         "world": null,
         "source": null,
         "page": null
-      },
-      {
-        "edition": "1E",
-        "world": null,
-        "source": "AD&D 1E curated glossary",
-        "page": null
       }
     ]
   },
@@ -23446,7 +28321,9 @@
     "category": "rule",
     "en": "Save vs. Poison",
     "zh": "对毒素豁免",
-    "aliases": [],
+    "aliases": [
+      "对毒药豁免"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -23454,6 +28331,18 @@
         "edition": "1E",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -23688,10 +28577,106 @@
   },
   {
     "category": "rule",
-    "en": "Scrying",
-    "zh": "侦测",
+    "en": "Scout",
+    "zh": "斥候",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 349
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Scrying",
+    "zh": "探知",
+    "aliases": [
+      "侦测"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Seamstress/tailor",
+    "zh": "裁缝",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Secret Door",
+    "zh": "暗门",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 16
+      },
+      {
+        "edition": "5E",
+        "world": "Dragonlance",
+        "source": "DSotDQ",
+        "page": 115
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Segment",
+    "zh": "段",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -23818,6 +28803,22 @@
   },
   {
     "category": "rule",
+    "en": "Shield Wall",
+    "zh": "盾墙",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Ship's Capture",
     "zh": "船只被俘",
     "aliases": [],
@@ -23850,10 +28851,201 @@
   },
   {
     "category": "rule",
+    "en": "Signaling",
+    "zh": "信号传递",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Silk maker",
+    "zh": "织丝",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Singing",
+    "zh": "歌唱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Sinking a Ship",
     "zh": "船只沉没",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Size",
+    "zh": "体型",
+    "aliases": [
+      "地下区域规模",
+      "面积"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 374
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Skirmish Formation",
+    "zh": "散兵队形",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Skirmish Unit",
+    "zh": "散兵部队",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Small Water Craft",
+    "zh": "小船驾驶",
+    "aliases": [
+      "小船"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Snare Building",
+    "zh": "陷阱制作",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Sound Imitation",
+    "zh": "模仿声音",
+    "aliases": [
+      "声音模仿"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Special Attack",
+    "zh": "特殊攻击",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Special Attacks",
+    "zh": "特殊攻击",
+    "aliases": [
+      "特殊攻击（掷 1–3 项）"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -23884,10 +29076,62 @@
   },
   {
     "category": "rule",
+    "en": "Special Defense",
+    "zh": "特殊防御",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Special Defenses",
+    "zh": "特殊防御",
+    "aliases": [
+      "特殊防御（掷 1–4 项）"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Special Note Regarding Giant and Machine Missiles",
     "zh": "巨人与攻城器械投射物特别说明",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Special Weather Conditions",
+    "zh": "特殊天气状况",
+    "aliases": [
+      "特殊天气"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -23948,6 +29192,22 @@
   },
   {
     "category": "rule",
+    "en": "Spell Bonus",
+    "zh": "额外法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Spell Casting During Melee",
     "zh": "近战中的施法",
     "aliases": [],
@@ -23965,9 +29225,11 @@
   {
     "category": "rule",
     "en": "Spell Level",
-    "zh": "法术环级",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "法术环阶",
+    "aliases": [
+      "法术环级"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -23987,8 +29249,9 @@
   {
     "category": "rule",
     "en": "Spell Level of Scroll Spells",
-    "zh": "卷轴法术的法术环级",
+    "zh": "卷轴法术的法术环阶",
     "aliases": [
+      "卷轴法术的法术环级",
       "卷轴法术的环级"
     ],
     "status": "verified-exact",
@@ -24005,8 +29268,10 @@
   {
     "category": "rule",
     "en": "Spell Level Range",
-    "zh": "卷轴法术环级范围",
-    "aliases": [],
+    "zh": "卷轴法术环阶范围",
+    "aliases": [
+      "卷轴法术环级范围"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -24140,6 +29405,44 @@
   },
   {
     "category": "rule",
+    "en": "Stonemason",
+    "zh": "石工",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Strength",
+    "zh": "力量",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Strength Bonus",
     "zh": "力量加值",
     "aliases": [],
@@ -24173,6 +29476,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Strider",
+    "zh": "健步者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -24222,6 +29547,34 @@
   },
   {
     "category": "rule",
+    "en": "Stronghold",
+    "zh": "要塞",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 101
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Structural Points",
     "zh": "结构点数",
     "aliases": [],
@@ -24244,8 +29597,68 @@
   },
   {
     "category": "rule",
+    "en": "Sub-Class",
+    "zh": "子职",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Subdual",
     "zh": "制服",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Superhero",
+    "zh": "超级英雄",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Support Column",
+    "zh": "支柱",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -24277,6 +29690,38 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Survival",
+    "zh": "求生",
+    "aliases": [
+      "外层位面生存",
+      "星界生存",
+      "生存"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 178
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 14
       }
     ]
   },
@@ -24346,6 +29791,34 @@
   },
   {
     "category": "rule",
+    "en": "Swashbuckler",
+    "zh": "剑客",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "XGE",
+        "page": 48
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Swimming",
     "zh": "游泳",
     "aliases": [],
@@ -24373,6 +29846,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Swordsman",
+    "zh": "剑士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
       }
     ]
   },
@@ -24426,6 +29921,56 @@
   },
   {
     "category": "rule",
+    "en": "Tanner/Leatherworker",
+    "zh": "制革",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Tea Ceremony",
+    "zh": "茶道",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Team Initiative",
+    "zh": "阵营先攻",
+    "aliases": [
+      "团队先攻"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Telempathic Projection",
     "zh": "心灵感应投射",
     "aliases": [],
@@ -24459,9 +30004,11 @@
   {
     "category": "rule",
     "en": "Telepathy",
-    "zh": "心灵传讯",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "心灵感应",
+    "aliases": [
+      "心灵传讯"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -24478,6 +30025,22 @@
     "zh": "传送",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Temporary Immobilization",
+    "zh": "暂时定身",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -24522,6 +30085,30 @@
   },
   {
     "category": "rule",
+    "en": "The Great Druid",
+    "zh": "至高德鲁伊",
+    "aliases": [
+      "大德鲁伊"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Thief Level",
     "zh": "盗贼等级",
     "aliases": [],
@@ -24545,9 +30132,11 @@
   {
     "category": "rule",
     "en": "Thought Shield",
-    "zh": "思想护盾",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "思维之盾",
+    "aliases": [
+      "思想护盾"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -24555,6 +30144,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 109
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 163
       }
     ]
   },
@@ -24641,6 +30242,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Tithe",
+    "zh": "什一奉献",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
       }
     ]
   },
@@ -24816,6 +30439,28 @@
   },
   {
     "category": "rule",
+    "en": "Tracker",
+    "zh": "追踪者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Tracking",
     "zh": "追踪",
     "aliases": [],
@@ -24878,10 +30523,50 @@
   },
   {
     "category": "rule",
+    "en": "Treasure Type",
+    "zh": "财宝类型",
+    "aliases": [
+      "宝藏类型"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Trick",
     "zh": "诡计",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Turn",
+    "zh": "回合",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -24994,6 +30679,22 @@
   },
   {
     "category": "rule",
+    "en": "Uncommon",
+    "zh": "不常见",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Undead",
     "zh": "不死生物",
     "aliases": [],
@@ -25055,6 +30756,38 @@
       "水下施法"
     ],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Unit Combat",
+    "zh": "部队战斗",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Unit Commander",
+    "zh": "部队指挥官",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -25163,6 +30896,52 @@
   },
   {
     "category": "rule",
+    "en": "Very Rare",
+    "zh": "非常珍稀",
+    "aliases": [
+      "极稀有"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Veteran",
+    "zh": "老兵",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 350
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Vision",
     "zh": "视野",
     "aliases": [],
@@ -25195,6 +30974,72 @@
         "edition": "1E",
         "world": null,
         "source": "AD&D 1E curated glossary",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Warder",
+    "zh": "守卫者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Warrior",
+    "zh": "武者",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 22
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ESK",
+        "page": 63
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Weapon in Hand",
+    "zh": "手持武器",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
         "page": null
       }
     ]
@@ -25347,10 +31192,77 @@
   },
   {
     "category": "rule",
+    "en": "Weaponsmith",
+    "zh": "武器锻造",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Weather Sense",
     "zh": "天气感知",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Weaver",
+    "zh": "织造",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Weight Allowance",
+    "zh": "负重额度调整",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Who Can Use Missiles",
+    "zh": "远程武器使用资格",
+    "aliases": [
+      "谁能射击",
+      "远程武器使用条件"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -25483,10 +31395,44 @@
   },
   {
     "category": "rule",
+    "en": "Wrap-Around Movement",
+    "zh": "包抄机动",
+    "aliases": [
+      "包抄移动"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "WS",
     "zh": "感知值",
     "aliases": [],
     "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "XP Value",
+    "zh": "经验值",
+    "aliases": [],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
       {
@@ -25788,7 +31734,9 @@
     "category": "spell",
     "en": "Bigby's Battering Gauntlet",
     "zh": "毕格比的破门铁拳术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-battering-gauntlet"
@@ -25806,7 +31754,9 @@
     "category": "spell",
     "en": "Bigby's Besieging Bolt",
     "zh": "毕格比的围城弩矢术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-besieging-bolt"
@@ -25825,7 +31775,8 @@
     "en": "Bigby's Bookworm Bane",
     "zh": "毕格比的书虫灾厄术",
     "aliases": [
-      "Bigby 的书虫灾厄术"
+      "Bigby 的书虫灾厄术",
+      "毕格比之手"
     ],
     "status": "adapted-element",
     "ids": [
@@ -25844,7 +31795,9 @@
     "category": "spell",
     "en": "Bigby's Clenched Fist",
     "zh": "毕格比金刚拳",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "bigbys-clenched-fist"
@@ -25862,7 +31815,9 @@
     "category": "spell",
     "en": "Bigby's Construction Crew",
     "zh": "毕格比的施工队术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-construction-crew"
@@ -25880,7 +31835,9 @@
     "category": "spell",
     "en": "Bigby's Crushing Hand",
     "zh": "毕格比粉碎掌",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "bigbys-crushing-hand"
@@ -25898,7 +31855,9 @@
     "category": "spell",
     "en": "Bigby's Dextrous Digits",
     "zh": "毕格比的灵巧手指术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-dextrous-digits"
@@ -25916,7 +31875,9 @@
     "category": "spell",
     "en": "Bigby's Fantastic Fencers",
     "zh": "毕格比的奇绝剑士术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-fantastic-fencers"
@@ -25934,7 +31895,9 @@
     "category": "spell",
     "en": "Bigby's Feeling Fingers",
     "zh": "毕格比的感觉手指术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigby-sensing-fingers"
@@ -25952,7 +31915,9 @@
     "category": "spell",
     "en": "Bigby's Force Sculpture",
     "zh": "毕格比的力量雕塑术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-force-sculpture"
@@ -25970,7 +31935,9 @@
     "category": "spell",
     "en": "Bigby's Forceful Hand",
     "zh": "毕格比强力之手",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "bigbys-forceful-hand"
@@ -25988,7 +31955,9 @@
     "category": "spell",
     "en": "Bigby's Grasping Hand",
     "zh": "毕格比擒拿掌",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "bigbys-grasping-hand"
@@ -26006,7 +31975,9 @@
     "category": "spell",
     "en": "Bigby's Interposing Hand",
     "zh": "毕格比阻截之手",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "bigbys-interposing-hand"
@@ -26024,7 +31995,9 @@
     "category": "spell",
     "en": "Bigby's Most Excellent Force Sculpture",
     "zh": "毕格比的至高力量雕塑术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-most-excellent-force-sculpture"
@@ -26042,7 +32015,9 @@
     "category": "spell",
     "en": "Bigby's Pugnacious Pugilist",
     "zh": "毕格比的好斗拳士术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-pugnacious-pugilist"
@@ -26060,7 +32035,9 @@
     "category": "spell",
     "en": "Bigby's Silencing Hand",
     "zh": "毕格比的缄默之手术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-silencing-hand"
@@ -26078,7 +32055,9 @@
     "category": "spell",
     "en": "Bigby's Strangling Grip",
     "zh": "毕格比的绞杀之握术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-strangling-grip"
@@ -26096,7 +32075,9 @@
     "category": "spell",
     "en": "Bigby's Superior Force Sculpture",
     "zh": "毕格比的高级力量雕塑术",
-    "aliases": [],
+    "aliases": [
+      "毕格比之手"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-bigbys-superior-force-sculpture"
@@ -26351,6 +32332,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -26382,6 +32369,12 @@
         "edition": "3R",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -26677,6 +32670,12 @@
         "edition": "3R",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -27117,6 +33116,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -27205,6 +33210,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -27241,6 +33252,7 @@
     "zh": "卓姆吉的冒险者幸运术",
     "aliases": [
       "Drawmij 的冒险者幸运术",
+      "卓姆吉瞬间召唤",
       "德拉维吉的冒险者幸运术"
     ],
     "status": "adapted-element",
@@ -27261,6 +33273,7 @@
     "en": "Drawmij's Beast of Burden",
     "zh": "卓姆吉的负重兽术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的负重兽术"
     ],
     "status": "adapted-element",
@@ -27281,6 +33294,7 @@
     "en": "Drawmij's Beneficent Polymorph",
     "zh": "卓姆吉的仁慈变形术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的仁慈变形术"
     ],
     "status": "adapted-element",
@@ -27301,6 +33315,7 @@
     "en": "Drawmij's Breath of Life",
     "zh": "卓姆吉的生命气息术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的生命气息术"
     ],
     "status": "adapted-element",
@@ -27321,6 +33336,7 @@
     "en": "Drawmij's Flying Feat",
     "zh": "卓姆吉的飞行壮举术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的飞行壮举术"
     ],
     "status": "adapted-element",
@@ -27341,6 +33357,7 @@
     "en": "Drawmij's Handy Timepiece",
     "zh": "卓姆吉的便携时计术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的便携时计术"
     ],
     "status": "adapted-element",
@@ -27361,6 +33378,7 @@
     "en": "Drawmij's Instant Exit",
     "zh": "卓姆吉的瞬间出口术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的瞬间出口术"
     ],
     "status": "adapted-element",
@@ -27408,6 +33426,7 @@
     "en": "Drawmij's Iron Sack",
     "zh": "卓姆吉的铁袋术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的铁袋术"
     ],
     "status": "adapted-element",
@@ -27428,6 +33447,7 @@
     "en": "Drawmij's Light Step",
     "zh": "卓姆吉的轻步术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的轻步术"
     ],
     "status": "adapted-element",
@@ -27448,6 +33468,7 @@
     "en": "Drawmij's Marvelous Shield",
     "zh": "卓姆吉的奇妙护盾术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的奇妙护盾术"
     ],
     "status": "adapted-element",
@@ -27468,6 +33489,7 @@
     "en": "Drawmij's Merciful Metamorphosis",
     "zh": "卓姆吉的慈悲蜕变术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的慈悲蜕变术"
     ],
     "status": "adapted-element",
@@ -27488,6 +33510,7 @@
     "en": "Drawmij's Protection from Non-Magical Gas",
     "zh": "卓姆吉的非魔法气体防护术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的非魔法气体防护术"
     ],
     "status": "adapted-element",
@@ -27508,6 +33531,7 @@
     "en": "Drawmij's Scent Mask",
     "zh": "卓姆吉的气味遮罩术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的气味遮罩术"
     ],
     "status": "adapted-element",
@@ -27528,6 +33552,7 @@
     "en": "Drawmij's Swift Mount",
     "zh": "卓姆吉的迅捷坐骑术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的迅捷坐骑术"
     ],
     "status": "adapted-element",
@@ -27548,6 +33573,7 @@
     "en": "Drawmij's Tool Box",
     "zh": "卓姆吉的工具箱术",
     "aliases": [
+      "卓姆吉瞬间召唤",
       "德拉维吉的工具箱术"
     ],
     "status": "adapted-element",
@@ -28147,6 +34173,12 @@
         "world": null,
         "source": "XPHB",
         "page": 274
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -28823,6 +34855,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -29226,6 +35264,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -29334,6 +35378,12 @@
         "world": null,
         "source": "XPHB",
         "page": 294
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -29838,7 +35888,8 @@
     "en": "Mordenkainen's Defense Against Lycanthropes",
     "zh": "魔邓肯的防御狼人术",
     "aliases": [
-      "莫登凯南的防御狼人术"
+      "莫登凯南的防御狼人术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29858,7 +35909,8 @@
     "en": "Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians",
     "zh": "魔邓肯的非魔法爬虫与两栖动物防御术",
     "aliases": [
-      "莫登凯南的非魔法爬虫与两栖动物防御术"
+      "莫登凯南的非魔法爬虫与两栖动物防御术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29878,7 +35930,8 @@
     "en": "Mordenkainen's Disjunction",
     "zh": "魔邓肯解离术",
     "aliases": [
-      "莫登凯南解离术"
+      "莫登凯南解离术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29898,7 +35951,8 @@
     "en": "Mordenkainen's Electric Arc",
     "zh": "魔邓肯的电弧术",
     "aliases": [
-      "莫登凯南的电弧术"
+      "莫登凯南的电弧术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29918,7 +35972,8 @@
     "en": "Mordenkainen's Encompassing Vision",
     "zh": "魔邓肯的全方位视觉术",
     "aliases": [
-      "莫登凯南的全方位视觉术"
+      "莫登凯南的全方位视觉术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29964,7 +36019,8 @@
     "en": "Mordenkainen's Faithful Phantom Defenders",
     "zh": "魔邓肯的忠诚幻影防卫者术",
     "aliases": [
-      "莫登凯南的忠诚幻影防卫者术"
+      "莫登凯南的忠诚幻影防卫者术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -29984,7 +36040,8 @@
     "en": "Mordenkainen's Faithful Phantom Guardian",
     "zh": "魔邓肯的忠诚幻影守卫术",
     "aliases": [
-      "莫登凯南的忠诚幻影守卫术"
+      "莫登凯南的忠诚幻影守卫术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30004,7 +36061,8 @@
     "en": "Mordenkainen's Faithful Phantom Shield-Maidens",
     "zh": "魔邓肯的忠诚幻影盾女术",
     "aliases": [
-      "莫登凯南的忠诚幻影盾女术"
+      "莫登凯南的忠诚幻影盾女术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30070,7 +36128,8 @@
     "en": "Mordenkainen's Penultimate Cogitation",
     "zh": "魔邓肯的末前思虑术",
     "aliases": [
-      "莫登凯南的末前思虑术"
+      "莫登凯南的末前思虑术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30116,7 +36175,8 @@
     "en": "Mordenkainen's Protection from Avians",
     "zh": "魔邓肯的鸟类防护术",
     "aliases": [
-      "莫登凯南的鸟类防护术"
+      "莫登凯南的鸟类防护术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30136,7 +36196,8 @@
     "en": "Mordenkainen's Protection from Insects and Arachnids",
     "zh": "魔邓肯的昆虫与蛛形动物防护术",
     "aliases": [
-      "莫登凯南的昆虫与蛛形动物防护术"
+      "莫登凯南的昆虫与蛛形动物防护术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30156,7 +36217,8 @@
     "en": "Mordenkainen's Protection from Slime",
     "zh": "魔邓肯的防护黏液术",
     "aliases": [
-      "莫登凯南的防护黏液术"
+      "莫登凯南的防护黏液术",
+      "魔邓肯之剑"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30250,6 +36312,7 @@
     "en": "Nystul's Blacklight Burst",
     "zh": "涅斯图的黑光爆发术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的黑光爆发术"
     ],
     "status": "adapted-element",
@@ -30270,6 +36333,7 @@
     "en": "Nystul's Blackmote",
     "zh": "涅斯图的黑微点术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的黑微点术"
     ],
     "status": "adapted-element",
@@ -30291,6 +36355,7 @@
     "zh": "涅斯图的灼热光束术",
     "aliases": [
       "Nystul 的灼热光束术",
+      "涅斯图魔法灵光",
       "诺斯图的灼热光束术"
     ],
     "status": "adapted-element",
@@ -30311,6 +36376,7 @@
     "en": "Nystul's Crystal Dagger",
     "zh": "涅斯图的水晶匕首术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的水晶匕首术"
     ],
     "status": "adapted-element",
@@ -30331,6 +36397,7 @@
     "en": "Nystul's Crystal Dirk",
     "zh": "涅斯图的水晶短剑术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的水晶短剑术"
     ],
     "status": "adapted-element",
@@ -30351,6 +36418,7 @@
     "en": "Nystul's Dancing Werelight",
     "zh": "涅斯图的舞动幽光术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的舞动幽光术"
     ],
     "status": "adapted-element",
@@ -30371,6 +36439,7 @@
     "en": "Nystul's Enveloping Darkness",
     "zh": "涅斯图的包覆黑暗术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的包覆黑暗术"
     ],
     "status": "adapted-element",
@@ -30391,6 +36460,7 @@
     "en": "Nystul's Expeditious Fire Extinguisher",
     "zh": "涅斯图的迅捷灭火术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的迅捷灭火术"
     ],
     "status": "adapted-element",
@@ -30411,6 +36481,7 @@
     "en": "Nystul's Flash",
     "zh": "涅斯图的闪光术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的闪光术"
     ],
     "status": "adapted-element",
@@ -30431,6 +36502,7 @@
     "en": "Nystul's Golden Revelation",
     "zh": "涅斯图的黄金揭示术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的黄金揭示术"
     ],
     "status": "adapted-element",
@@ -30452,6 +36524,7 @@
     "zh": "涅斯图的元素孽怪召唤术",
     "aliases": [
       "涅斯图的元素惧灵召唤术",
+      "涅斯图魔法灵光",
       "诺斯图的元素孽怪召唤术"
     ],
     "status": "adapted-element",
@@ -30472,6 +36545,7 @@
     "en": "Nystul's Lightburst",
     "zh": "涅斯图的光爆术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的光爆术"
     ],
     "status": "adapted-element",
@@ -30518,6 +36592,7 @@
     "en": "Nystul's Radiant Arch",
     "zh": "涅斯图的辉光拱门术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的辉光拱门术"
     ],
     "status": "adapted-element",
@@ -30538,6 +36613,7 @@
     "en": "Nystul's Radiant Baton",
     "zh": "涅斯图的辉光棱杖术",
     "aliases": [
+      "涅斯图魔法灵光",
       "诺斯图的辉光棱杖术"
     ],
     "status": "adapted-element",
@@ -30558,7 +36634,8 @@
     "en": "Otiluke's Acid Cloud",
     "zh": "欧提路克的酸云术",
     "aliases": [
-      "Otiluke 的酸云术"
+      "Otiluke 的酸云术",
+      "欧提路克弹力法球"
     ],
     "status": "adapted-element",
     "ids": [
@@ -30577,7 +36654,9 @@
     "category": "spell",
     "en": "Otiluke's Boiling Oil Bath",
     "zh": "欧提路克的沸油浴术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-boiling-oil-bath"
@@ -30595,7 +36674,9 @@
     "category": "spell",
     "en": "Otiluke's Bubbling Buoyancy",
     "zh": "欧提路克的气泡浮力术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-bubbling-buoyancy"
@@ -30613,7 +36694,9 @@
     "category": "spell",
     "en": "Otiluke's Death Screen",
     "zh": "欧提路克的死亡屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-death-screen"
@@ -30631,7 +36714,9 @@
     "category": "spell",
     "en": "Otiluke's Diamond Screen",
     "zh": "欧提路克的钻石屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-diamond-screen"
@@ -30649,7 +36734,9 @@
     "category": "spell",
     "en": "Otiluke's Dispelling Screen",
     "zh": "欧提路克的驱散屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-dispelling-screen"
@@ -30667,7 +36754,9 @@
     "category": "spell",
     "en": "Otiluke's Electrical Screen",
     "zh": "欧提路克的电屏术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-electrical-screen"
@@ -30685,7 +36774,9 @@
     "category": "spell",
     "en": "Otiluke's Excruciating Screen",
     "zh": "欧提路克的剧痛屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-excruciating-screen"
@@ -30703,7 +36794,9 @@
     "category": "spell",
     "en": "Otiluke's Fire and Ice",
     "zh": "欧提路克的火冰双球术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-fire-and-ice"
@@ -30721,7 +36814,9 @@
     "category": "spell",
     "en": "Otiluke's Force Umbrella",
     "zh": "欧提路克的力伞术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-force-umbrella"
@@ -30765,7 +36860,9 @@
     "category": "spell",
     "en": "Otiluke's Orb of Containment",
     "zh": "欧提路克的容纳球术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-orb-of-containment"
@@ -30783,7 +36880,9 @@
     "category": "spell",
     "en": "Otiluke's Polar Screen",
     "zh": "欧提路克的极寒屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-polar-screen"
@@ -30801,7 +36900,9 @@
     "category": "spell",
     "en": "Otiluke's Radiant Screen",
     "zh": "欧提路克的辉光屏障术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-radiant-screen"
@@ -30845,7 +36946,9 @@
     "category": "spell",
     "en": "Otiluke's Siege Sphere",
     "zh": "欧提路克的攻城球术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-siege-sphere"
@@ -30863,7 +36966,9 @@
     "category": "spell",
     "en": "Otiluke's Smoky Sphere",
     "zh": "欧提路克的烟雾球术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-smoky-sphere"
@@ -30881,7 +36986,9 @@
     "category": "spell",
     "en": "Otiluke's Steaming Sphere",
     "zh": "欧提路克的蒸汽球术",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-otilukes-steaming-sphere"
@@ -30899,7 +37006,9 @@
     "category": "spell",
     "en": "Otiluke's Telekinetic Sphere",
     "zh": "欧提路克的念动球",
-    "aliases": [],
+    "aliases": [
+      "欧提路克弹力法球"
+    ],
     "status": "adapted-element",
     "ids": [
       "ua-magic-user-8-otiluke-s-telekinetic-sphere"
@@ -30918,6 +37027,7 @@
     "en": "Otto's Chime of Release",
     "zh": "奥图的解放钟声术",
     "aliases": [
+      "奥图迷舞",
       "奥托的解放钟声术"
     ],
     "status": "adapted-element",
@@ -30938,6 +37048,7 @@
     "en": "Otto's Crystal Rhythms",
     "zh": "奥图的水晶节律术",
     "aliases": [
+      "奥图迷舞",
       "奥托的水晶节律术"
     ],
     "status": "adapted-element",
@@ -30958,6 +37069,7 @@
     "en": "Otto's Drums of Despair",
     "zh": "奥图的绝望鼓声术",
     "aliases": [
+      "奥图迷舞",
       "奥托的绝望鼓声术"
     ],
     "status": "adapted-element",
@@ -30978,6 +37090,7 @@
     "en": "Otto's Gong of Isolation",
     "zh": "奥图的隔绝钟声术",
     "aliases": [
+      "奥图迷舞",
       "奥托的隔绝钟声术"
     ],
     "status": "adapted-element",
@@ -31024,6 +37137,7 @@
     "en": "Otto's Silver Tongue",
     "zh": "奥图的银舌术",
     "aliases": [
+      "奥图迷舞",
       "奥托的银舌术"
     ],
     "status": "adapted-element",
@@ -31044,6 +37158,7 @@
     "en": "Otto's Soothing Vibrations",
     "zh": "奥图的舒缓振动术",
     "aliases": [
+      "奥图迷舞",
       "奥托的舒缓振动术"
     ],
     "status": "adapted-element",
@@ -31064,6 +37179,7 @@
     "en": "Otto's Sure-Footed Shuffle",
     "zh": "奥图的稳足曳步术",
     "aliases": [
+      "奥图迷舞",
       "奥托的稳足曳步术"
     ],
     "status": "adapted-element",
@@ -31084,6 +37200,7 @@
     "en": "Otto's Tin Soldiers",
     "zh": "奥图的锡兵术",
     "aliases": [
+      "奥图迷舞",
       "奥托的锡兵术"
     ],
     "status": "adapted-element",
@@ -31104,6 +37221,7 @@
     "en": "Otto's Tonal Attack",
     "zh": "奥图的音调攻击术",
     "aliases": [
+      "奥图迷舞",
       "奥托的音调攻击术"
     ],
     "status": "adapted-element",
@@ -31124,6 +37242,7 @@
     "en": "Otto's Tones of Forgetfulness",
     "zh": "奥图的遗忘音调术",
     "aliases": [
+      "奥图迷舞",
       "奥托的遗忘音调术"
     ],
     "status": "adapted-element",
@@ -31144,6 +37263,7 @@
     "en": "Otto's Warding Tones",
     "zh": "奥图的警戒音调术",
     "aliases": [
+      "奥图迷舞",
       "奥托的警戒音调术"
     ],
     "status": "adapted-element",
@@ -31624,7 +37744,9 @@
     "category": "spell",
     "en": "Rary's Aptitude Appropriater",
     "zh": "拉瑞的能力借取术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-aptitude-appropriater"
@@ -31642,7 +37764,9 @@
     "category": "spell",
     "en": "Rary's Empathic Perception",
     "zh": "拉瑞的共情感知术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-empathic-perception"
@@ -31660,7 +37784,9 @@
     "category": "spell",
     "en": "Rary's Memory Alteration",
     "zh": "拉瑞的记忆改变术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-memory-alteration"
@@ -31678,7 +37804,9 @@
     "category": "spell",
     "en": "Rary's Mind Scan",
     "zh": "拉瑞的心灵扫描术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-mind-scan"
@@ -31696,7 +37824,9 @@
     "category": "spell",
     "en": "Rary's Mind Shield",
     "zh": "拉瑞的心灵护盾术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-mind-shield"
@@ -31715,6 +37845,7 @@
     "en": "Rary's Mnemonic Enhancer",
     "zh": "拉瑞的记忆强化术",
     "aliases": [
+      "拉瑞心灵联结",
       "拉瑞的记忆增强术"
     ],
     "status": "adapted-element",
@@ -31734,7 +37865,9 @@
     "category": "spell",
     "en": "Rary's Plane Truth",
     "zh": "拉瑞的位面真相术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-plane-truth"
@@ -31752,7 +37885,9 @@
     "category": "spell",
     "en": "Rary's Protection from Scrying",
     "zh": "拉瑞的防侦测术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-protection-from-scrying"
@@ -31770,7 +37905,9 @@
     "category": "spell",
     "en": "Rary's Replay of the Past",
     "zh": "拉瑞的过去重演术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-replay-of-the-past"
@@ -31788,7 +37925,9 @@
     "category": "spell",
     "en": "Rary's Spell Enhancer",
     "zh": "拉瑞的法术增强术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-spell-enhancer"
@@ -31806,7 +37945,9 @@
     "category": "spell",
     "en": "Rary's Superior Spell Enhancer",
     "zh": "拉瑞的高级法术增强术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-superior-spell-enhancer"
@@ -31850,7 +37991,9 @@
     "category": "spell",
     "en": "Rary's Urgent Utterance",
     "zh": "拉瑞的紧急言辞术",
-    "aliases": [],
+    "aliases": [
+      "拉瑞心灵联结"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-rarys-urgent-utterance"
@@ -31924,6 +38067,12 @@
         "edition": "3R",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -32026,6 +38175,12 @@
         "edition": "3R",
         "world": null,
         "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
         "page": null
       }
     ]
@@ -33002,6 +39157,12 @@
         "world": null,
         "source": "XPHB",
         "page": 331
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "AD&D 1E curated glossary",
+        "page": null
       }
     ]
   },
@@ -33009,7 +39170,9 @@
     "category": "spell",
     "en": "Tenser's Brawl",
     "zh": "谭森的肉搏术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-brawl"
@@ -33027,7 +39190,9 @@
     "category": "spell",
     "en": "Tenser's Deadly Strike",
     "zh": "谭森的致命一击术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-deadly-strike"
@@ -33045,7 +39210,9 @@
     "category": "spell",
     "en": "Tenser's Eye of the Eagle",
     "zh": "谭森的鹰眼术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-eye-of-the-eagle"
@@ -33063,7 +39230,9 @@
     "category": "spell",
     "en": "Tenser's Eye of the Tiger",
     "zh": "谭森的虎眼术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-eye-of-the-tiger"
@@ -33081,7 +39250,9 @@
     "category": "spell",
     "en": "Tenser's Flaming Blade",
     "zh": "谭森的燃焰之刃术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-flaming-blade"
@@ -33119,7 +39290,9 @@
     "category": "spell",
     "en": "Tenser's Fortunes of War",
     "zh": "谭森的战争福运术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-fortunes-of-war"
@@ -33137,7 +39310,9 @@
     "category": "spell",
     "en": "Tenser's Giant Strength",
     "zh": "谭森的巨力术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-giant-strength"
@@ -33155,7 +39330,9 @@
     "category": "spell",
     "en": "Tenser's Hunting Hawk",
     "zh": "谭森的猎鹰术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-hunting-hawk"
@@ -33173,7 +39350,9 @@
     "category": "spell",
     "en": "Tenser's Master of Arms",
     "zh": "谭森的武器大师术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tenser-weaponmaster"
@@ -33191,7 +39370,9 @@
     "category": "spell",
     "en": "Tenser's Primal Fury",
     "zh": "谭森的原始狂怒术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-primal-fury"
@@ -33209,7 +39390,9 @@
     "category": "spell",
     "en": "Tenser's Running Warrior",
     "zh": "谭森的奔行战士术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-running-warrior"
@@ -33227,7 +39410,9 @@
     "category": "spell",
     "en": "Tenser's Staff of Smiting",
     "zh": "谭森的重击法杖术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-staff-of-smiting"
@@ -33245,7 +39430,9 @@
     "category": "spell",
     "en": "Tenser's Steady Aim",
     "zh": "谭森的稳准射击术",
-    "aliases": [],
+    "aliases": [
+      "谭森浮碟术"
+    ],
     "status": "adapted-element",
     "ids": [
       "gha-tensers-steady-aim"
