@@ -16,9 +16,11 @@
     "isolatedWorktree": "PASS:test:terminology3052/948;API8706/recent197;names.tsv8706rows×10columns;data diff28nameZh only;other fields and IDs unchanged",
     "whitespace": "PASS:changed files except TSV empty trailing cells;TSV parsed with fixed10-column width"
   },
-  "publication": "Prepared and validated in isolated branch;commit/push outcomes recorded after execution",
+  "publication": "git push origin HEAD:main succeeded;tool returned f92cf4e4..9434ecb8 HEAD -> main",
   "nextArchiveLedgerTotal": 46295,
   "nextBuildLedgerTotal": 46387,
   "rawCacheCommitted": false,
-  "globalBodyApply": false
+  "globalBodyApply": false,
+  "commit": "9434ecb8f45266b0e671425e58808c7e7ac00019",
+  "publishedFiles": 35
 }

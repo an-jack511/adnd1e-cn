@@ -3651,7 +3651,11 @@
     "en": "Guisarme",
     "zh": "钩镰枪",
     "englishVariants": [
-      "Guisarme"
+      "Bill",
+      "Bill Hook",
+      "Bill hook",
+      "Guisarme",
+      "bill hook"
     ],
     "legacyZh": [
       "钩枪",
@@ -3689,6 +3693,11 @@
         "zh": "钩镰"
       },
       {
+        "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
+        "location": "113",
+        "zh": "钩镰"
+      },
+      {
         "path": "scripts/import/phb-equipment-names.json",
         "location": "/phb-item-038",
         "zh": "钩镰枪"
@@ -3716,6 +3725,24 @@
         "zh": "钩镰枪",
         "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
         "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Bill",
+        "zh": "钩镰枪",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Bill Hook",
+        "zh": "钩镰枪",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
       }
     ],
     "notes": [
@@ -3728,6 +3755,12 @@
         "zh": "钩镰枪",
         "meaning": "原书独立长柄武器，与Bill-Guisarme区分。",
         "source": "PHB printedp.35 / PDFp.36"
+      },
+      {
+        "context": "AD&D 1E PHB 护甲／武器表",
+        "zh": "钩镰枪",
+        "meaning": "本表includes列将Bill, Bill Hook归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+        "source": "PHB printedp.37 / PDFp.38"
       }
     ]
   },
@@ -3739,9 +3772,12 @@
     "englishVariants": [
       "Guisarme-Voulge",
       "Guisarme-voulge",
-      "Guisarme—Voulge"
+      "Guisarme—Voulge",
+      "Lochaber Axe",
+      "Lochaber axe"
     ],
     "legacyZh": [
+      "洛哈伯斧",
       "钩刃枪",
       "钩镰屠刀"
     ],
@@ -3770,6 +3806,11 @@
         "path": "terminology/decisions.json",
         "location": "",
         "zh": "钩镰斧"
+      },
+      {
+        "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
+        "location": "95",
+        "zh": "洛哈伯斧"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3804,6 +3845,15 @@
         "zh": "钩镰斧",
         "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
         "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Lochaber Axe",
+        "zh": "钩镰斧",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
       }
     ],
     "notes": [
@@ -3816,6 +3866,12 @@
         "zh": "钩镰斧",
         "meaning": "原书独立长柄武器，复合名保留。",
         "source": "PHB printedp.35 / PDFp.36"
+      },
+      {
+        "context": "AD&D 1E PHB 护甲／武器表",
+        "zh": "钩镰斧",
+        "meaning": "本表includes列将Lochaber Axe归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+        "source": "PHB printedp.37 / PDFp.38"
       }
     ]
   },
@@ -4760,6 +4816,7 @@
     "en": "Partisan",
     "zh": "阔刃矛",
     "englishVariants": [
+      "Bohemian Ear-Spoon",
       "Partisan"
     ],
     "legacyZh": [
@@ -4825,6 +4882,15 @@
         "zh": "阔刃矛",
         "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
         "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Bohemian Ear-Spoon",
+        "zh": "阔刃矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
       }
     ],
     "notes": [
@@ -4837,6 +4903,12 @@
         "zh": "阔刃矛",
         "meaning": "原书武器表长柄武器名，不是普通政治党派成员。",
         "source": "PHB printedp.35 / PDFp.36"
+      },
+      {
+        "context": "AD&D 1E PHB 护甲／武器表",
+        "zh": "阔刃矛",
+        "meaning": "本表includes列将Bohemian Ear-Spoon归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+        "source": "PHB printedp.37 / PDFp.38"
       }
     ]
   },
@@ -5176,7 +5248,12 @@
     "en": "Ranseur",
     "zh": "三叉矛",
     "englishVariants": [
-      "Ranseur"
+      "Chauves Souris",
+      "Ranseur",
+      "Ransom",
+      "Rhonca",
+      "Roncie",
+      "Runka"
     ],
     "legacyZh": [
       "侧刃叉枪",
@@ -5255,6 +5332,51 @@
         "zh": "三叉矛",
         "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
         "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Chauves Souris",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Ransom",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Rhonca",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Roncie",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Runka",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
       }
     ],
     "notes": [
@@ -5267,6 +5389,12 @@
         "zh": "三叉矛",
         "meaning": "原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。",
         "source": "PHB printedp.35 / PDFp.36"
+      },
+      {
+        "context": "AD&D 1E PHB 护甲／武器表",
+        "zh": "三叉矛",
+        "meaning": "本表includes列将Chauves Souris, Ransom, Rhonca, Roncie, Runka归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+        "source": "PHB printedp.37 / PDFp.38"
       }
     ]
   },
@@ -5410,6 +5538,8 @@
     "en": "Spetum",
     "zh": "戟矛",
     "englishVariants": [
+      "Corseque",
+      "Korseke",
       "Spetum"
     ],
     "legacyZh": [
@@ -5475,6 +5605,24 @@
         "zh": "戟矛",
         "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
         "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Corseque",
+        "zh": "戟矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 37,
+        "en": "Korseke",
+        "zh": "戟矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.37 / PDFp.38; original page visually checked"
       }
     ],
     "notes": [
@@ -5487,6 +5635,12 @@
         "zh": "戟矛",
         "meaning": "原表独立长柄武器名，与三叉戟分列，不推定机制等同。",
         "source": "PHB printedp.35 / PDFp.36"
+      },
+      {
+        "context": "AD&D 1E PHB 护甲／武器表",
+        "zh": "戟矛",
+        "meaning": "本表includes列将Corseque, Korseke归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+        "source": "PHB printedp.37 / PDFp.38"
       }
     ]
   },
@@ -17943,6 +18097,75 @@
     "verificationScope": "1e-bilingual-heading"
   },
   {
+    "key": "rule:ground scale",
+    "category": "rule",
+    "en": "Ground Scale",
+    "zh": "地面比例尺",
+    "englishVariants": [
+      "GROUND SCALE",
+      "Ground Scale"
+    ],
+    "legacyZh": [
+      "地面比例",
+      "战场比例尺"
+    ],
+    "occurrences": [
+      {
+        "path": "terminology/rule-terms.tsv",
+        "location": "599",
+        "zh": "地面比例尺"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "地面比例尺"
+      }
+    ],
+    "activeIds": [],
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "en": "Ground Scale",
+        "zh": "地面比例尺",
+        "url": "1E Battlesystem original OCR: battlesystem-raw/p.005; battlesystem-raw/p.038; The exact phrase is absent from the available 3R Huiji name index and 5E/5R name datasets; Huiji direct API access is blocked (403), which is not evidence that 3R has no translation. No approximate later-edition term was substituted for this BATTLESYSTEM concept. Self-translated after 3R→5E→5R search using the 1E source definition, adjacent rule distinctions, and standard Chinese tabletop-rules wording; existing bilingual manuscript wording was only a discovery clue.; PHB printedp.39 / PDFp.40; PHB此处用于地城／荒野的地面距离换算，旧译战场比例尺过窄；保留旧译供检索，BATTLESYSTEM的具体战场尺度另看该书义项。"
+      },
+      {
+        "edition": "1E",
+        "en": "Ground Scale",
+        "zh": "战场比例尺",
+        "url": "1E Battlesystem original OCR: battlesystem-raw/p.005; battlesystem-raw/p.038; The exact phrase is absent from the available 3R Huiji name index and 5E/5R name datasets; Huiji direct API access is blocked (403), which is not evidence that 3R has no translation. No approximate later-edition term was substituted for this BATTLESYSTEM concept. Self-translated after 3R→5E→5R search using the 1E source definition, adjacent rule distinctions, and standard Chinese tabletop-rules wording; existing bilingual manuscript wording was only a discovery clue."
+      },
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 39,
+        "en": "Ground Scale",
+        "zh": "地面比例尺",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.39 / PDFp.40"
+      }
+    ],
+    "notes": [
+      "规则术语主表；证据：1E Battlesystem original OCR: battlesystem-raw/p.005; battlesystem-raw/p.038; The exact phrase is absent from the available 3R Huiji name index and 5E/5R name datasets; Huiji direct API access is blocked (403), which is not evidence that 3R has no translation. No approximate later-edition term was substituted for this BATTLESYSTEM concept. Self-translated after 3R→5E→5R search using the 1E source definition, adjacent rule distinctions, and standard Chinese tabletop-rules wording; existing bilingual manuscript wording was only a discovery clue.; PHB printedp.39 / PDFp.40; PHB此处用于地城／荒野的地面距离换算，旧译战场比例尺过窄；保留旧译供检索，BATTLESYSTEM的具体战场尺度另看该书义项。。项目术语对应已记录；未标为已核的条目继续待核。 原书新增语境触发的主译范围修正。PHB此处用于地城／荒野的地面距离换算，旧译战场比例尺过窄；保留旧译供检索，BATTLESYSTEM的具体战场尺度另看该书义项。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 语境补充",
+        "zh": "战场比例尺",
+        "meaning": "本节以地面距离与模型代表数量相区分；户外射程三倍不自动扩大效应区域。",
+        "source": "PHB printedp.39 / PDFp.40"
+      },
+      {
+        "context": "AD&D 1E PHB 一般距离／比例尺度",
+        "zh": "地面比例尺",
+        "meaning": "PHB此处用于地城／荒野的地面距离换算，旧译战场比例尺过窄；保留旧译供检索，BATTLESYSTEM的具体战场尺度另看该书义项。",
+        "source": "PHB printedp.39 / PDFp.40"
+      }
+    ]
+  },
+  {
     "key": "rule:intellect fortress",
     "category": "rule",
     "en": "Intellect Fortress",
@@ -19628,16 +19851,6 @@
       {
         "path": "src/data/public/spells-imported.json",
         "location": "/38",
-        "zh": "预言术"
-      },
-      {
-        "path": "src/published/books/oa/oa-shukenja-spells.md",
-        "location": "669",
-        "zh": "预言术"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-clerics.md",
-        "location": "556",
         "zh": "预言术"
       }
     ],

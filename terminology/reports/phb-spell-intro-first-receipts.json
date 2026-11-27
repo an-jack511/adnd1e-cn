@@ -1,0 +1,302 @@
+[
+  {
+    "en": "Area of Effect",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "reuse",
+    "reason": "效应区域既有词项，本页的区域／数量意义已补入义项。"
+  },
+  {
+    "en": "Area of Effect",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "reuse",
+    "reason": "效应区域既有词项，本页的区域／数量意义已补入义项。"
+  },
+  {
+    "en": "Spell Explanations",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "OCR表格跨栏／表头拼接、普通组织性标题或错误字形；不作为单一术语或正式英语异体。"
+  },
+  {
+    "en": "EXPLANATIONS",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "OCR表格跨栏／表头拼接、普通组织性标题或错误字形；不作为单一术语或正式英语异体。"
+  },
+  {
+    "en": "Permanent Saving Throw",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Permanent Saving Throw",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Special Saving Throw",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Touch Casting Time",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "TERM",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "OCR表格跨栏／表头拼接、普通组织性标题或错误字形；不作为单一术语或正式英语异体。"
+  },
+  {
+    "en": "SPELL EXPLANATIONS CLERIC SPELLS",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "OCR表格跨栏／表头拼接、普通组织性标题或错误字形；不作为单一术语或正式英语异体。"
+  },
+  {
+    "en": "Areo of Effect",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "SPELL EXPLANATIONS Level Spells",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "OCR表格跨栏／表头拼接、普通组织性标题或错误字形；不作为单一术语或正式英语异体。"
+  },
+  {
+    "en": "Cure Light Wounds Find Traps Cure Blindness",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Divination Cure Critical Wounds Blade Barrier Earthquake",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "I Components",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Light Resist Fire Feign Death",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Lower Water Flame Strike Find The Path Holy",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Protection From Evil Silence",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Radius Glyph Of Warding",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Remove Fear Snake Charm Prayer",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Sanctuary Spiritual Hammer Speak With Dead",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Tongues True Seeing Word Of Recall Wind Walk",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "M Level",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "None Duration",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "None Range",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Touch Costing Time",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "J Components",
+    "locator": "PHB-core/pdf-p.044",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "M Duration",
+    "locator": "PHB-core/pdf-p.045",
+    "outcome": "excluded",
+    "reason": "原图为相邻标签／数值分栏或OCR错形；实际Permanent、Touch、Saving Throw、Components、Duration等字段各自已录入／复用，不收拼接假名。"
+  },
+  {
+    "en": "Your Dungeon Master",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "reuse",
+    "reason": "Dungeon Master主持人称呼，复用DM地下城主；Your不是名称部分。"
+  },
+  {
+    "en": "Bless Augury Animate Dead",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Detect Evil Hold Person Cure Disease",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Detect Lie Commune Animate Object Control Weather",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Detect Magic Know Alignment Dispel Magic",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Purify Food & Drink Slow Poison Locate Object",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  },
+  {
+    "en": "Resist Cold Speak With Animals Remove Curse",
+    "locator": "PHB-core/pdf-p.041",
+    "outcome": "excluded",
+    "reason": "法术表跨等级列串接形成的伪词头；本表一环12项已逐条按43–44页确认，其他级别须回正文核译。不得排除其所含各个真实法术。",
+    "disposition": "route-child-spells-to-description",
+    "targetPrintedPages": [
+      43,
+      53
+    ],
+    "closesChildSpellCoverage": false
+  }
+]

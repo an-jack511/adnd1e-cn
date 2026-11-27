@@ -825,11 +825,19 @@
   {
     "category": "glossary-term",
     "en": "Holy/Unholy Water",
-    "zh": "圣水",
-    "aliases": [],
-    "status": "verified-exact",
+    "zh": "圣水／邪水",
+    "aliases": [
+      "圣水"
+    ],
+    "status": "adapted-variant",
     "ids": [],
     "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
       {
         "edition": "1E",
         "world": null,
@@ -1218,6 +1226,24 @@
   },
   {
     "category": "item",
+    "en": "Ale, Pint",
+    "zh": "麦酒，一品脱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-131"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Amulet of Proof Against Detection and Location",
     "zh": "反侦护符",
     "aliases": [
@@ -1473,6 +1499,12 @@
         "world": null,
         "source": "PHB",
         "page": 149
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -1497,6 +1529,30 @@
         "world": null,
         "source": "XPHB",
         "page": 224
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Backpack, Leather",
+    "zh": "皮背包",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-102"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
       }
     ]
   },
@@ -1623,6 +1679,146 @@
   },
   {
     "category": "item",
+    "en": "Barding, Chain",
+    "zh": "链甲具装",
+    "aliases": [
+      "链甲马铠"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-147"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 155
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 145
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Barding, Leather",
+    "zh": "皮甲具装",
+    "aliases": [
+      "皮甲马铠"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-148"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 155
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 144
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Barding, Plate",
+    "zh": "板甲具装",
+    "aliases": [
+      "板甲马铠"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-149"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 155
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 145
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Barge (or Raft), Small",
+    "zh": "小型驳船（或木筏）",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-156"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Beads, Prayer",
+    "zh": "念珠",
+    "aliases": [
+      "祈祷珠"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-141"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 182
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Bec de Corbin",
     "zh": "鸦喙锤",
     "aliases": [
@@ -1650,6 +1846,66 @@
   },
   {
     "category": "item",
+    "en": "Beer, Small, Pint",
+    "zh": "淡啤酒，一品脱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-132"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Belladonna, Sprig",
+    "zh": "颠茄，一枝",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-078"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "HoL",
+        "page": 214
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Belt",
+    "zh": "腰带",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-067"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Bill-Guisarme",
     "zh": "钩镰",
     "aliases": [
@@ -1671,6 +1927,12 @@
         "world": null,
         "source": "UA",
         "page": 128
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -1691,6 +1953,22 @@
         "world": null,
         "source": "PHB",
         "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Blood",
+    "zh": "血液",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -1717,6 +1995,64 @@
         "world": null,
         "source": "XPHB",
         "page": 215
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bo Stick",
+    "zh": "长棒",
+    "aliases": [
+      "短棍"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-bo-stick"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Boat, Long",
+    "zh": "长艇",
+    "aliases": [
+      "长船"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-158"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Boat, Small",
+    "zh": "小船",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-157"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
       }
     ]
   },
@@ -1878,6 +2214,102 @@
   },
   {
     "category": "item",
+    "en": "Boots, High, Hard",
+    "zh": "高筒硬靴",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-068"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Boots, High, Soft",
+    "zh": "高筒软靴",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-069"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Boots, Low, Hard",
+    "zh": "低筒硬靴",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-070"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Boots, Low, Soft",
+    "zh": "低筒软靴",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-071"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Bow, Composite Long",
     "zh": "复合长弓",
     "aliases": [],
@@ -1969,6 +2401,42 @@
         "world": null,
         "source": "PHB",
         "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Box, Iron, Large",
+    "zh": "大型铁箱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-103"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Box, Iron, Small",
+    "zh": "小型铁箱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-104"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
       }
     ]
   },
@@ -2118,6 +2586,76 @@
   },
   {
     "category": "item",
+    "en": "Candle, Tallow",
+    "zh": "兽脂蜡烛",
+    "aliases": [
+      "牛脂蜡烛"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-105"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Candle, Wax",
+    "zh": "蜡质蜡烛",
+    "aliases": [
+      "蜂蜡蜡烛"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-106"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Cap",
+    "zh": "便帽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-072"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Cart",
     "zh": "二轮货车",
     "aliases": [
@@ -2139,6 +2677,54 @@
         "world": null,
         "source": "XPHB",
         "page": 230
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Case, Bone, Map or Scroll",
+    "zh": "骨制地图或卷轴匣",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-107"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Case, Leather, Map or Scroll",
+    "zh": "皮制地图或卷轴匣",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-108"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
       }
     ]
   },
@@ -2189,6 +2775,54 @@
         "world": null,
         "source": "XPHB",
         "page": 219
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Chest, Wooden, Large",
+    "zh": "大型木箱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-109"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Chest, Wooden, Small",
+    "zh": "小型木箱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-110"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
       }
     ]
   },
@@ -2281,6 +2915,30 @@
         "world": null,
         "source": "DMG",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Cloak",
+    "zh": "斗篷",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "phb-item-073"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 236
       }
     ]
   },
@@ -2844,6 +3502,42 @@
   },
   {
     "category": "item",
+    "en": "Dog, Guard",
+    "zh": "护卫犬",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-083"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dog, Hunting",
+    "zh": "猎犬",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-084"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Donkey",
     "zh": "驴",
     "aliases": [],
@@ -2857,6 +3551,38 @@
         "world": null,
         "source": "PHB",
         "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dung",
+    "zh": "粪便",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dust",
+    "zh": "尘土",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -3257,6 +3983,44 @@
   },
   {
     "category": "item",
+    "en": "Food, Merchant's Meal",
+    "zh": "商人餐食",
+    "aliases": [
+      "商旅餐食"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-133"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Food, Rich Meal",
+    "zh": "丰盛餐食",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-134"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Fork, Military",
     "zh": "军用叉",
     "aliases": [],
@@ -3276,6 +4040,72 @@
         "world": null,
         "source": "UA",
         "page": 127
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Galley, Large",
+    "zh": "大型桨帆船",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-160"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 119
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Galley, Small",
+    "zh": "小型桨帆船",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-161"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 119
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Garlic, Bud",
+    "zh": "大蒜，一瓣",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-079"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -3360,6 +4190,42 @@
   },
   {
     "category": "item",
+    "en": "Girdle, Broad",
+    "zh": "宽束带",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-074"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Girdle, Normal",
+    "zh": "普通束带",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-075"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Glaive",
     "zh": "长柄刀",
     "aliases": [
@@ -3381,6 +4247,12 @@
         "world": null,
         "source": "XPHB",
         "page": 215
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -3489,6 +4361,30 @@
   },
   {
     "category": "item",
+    "en": "Grain, Horse Meal, 1 Day",
+    "zh": "马料，一日份",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-135"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Grappling Hook",
     "zh": "爪钩",
     "aliases": [
@@ -3537,6 +4433,18 @@
         "world": null,
         "source": "UA",
         "page": 126
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -3545,6 +4453,7 @@
     "en": "Guisarme-Voulge",
     "zh": "钩镰斧",
     "aliases": [
+      "洛哈伯斧",
       "钩刃枪",
       "钩镰屠刀"
     ],
@@ -3564,6 +4473,12 @@
         "world": null,
         "source": "UA",
         "page": 128
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -3661,6 +4576,42 @@
   },
   {
     "category": "item",
+    "en": "Harness",
+    "zh": "挽具",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-151"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Hat",
+    "zh": "帽子",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-076"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Hat of Disguise",
     "zh": "易容帽",
     "aliases": [],
@@ -3680,6 +4631,58 @@
         "world": null,
         "source": "XDMG",
         "page": 266
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Hawk, Large",
+    "zh": "大型隼",
+    "aliases": [
+      "大型鹰"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-087"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 330
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Hawk, Small",
+    "zh": "小型隼",
+    "aliases": [
+      "小型鹰"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-088"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 330
       }
     ]
   },
@@ -3877,6 +4880,34 @@
   },
   {
     "category": "item",
+    "en": "Holy Water",
+    "zh": "圣水",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 226
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Horn of Blasting",
     "zh": "音爆号角",
     "aliases": [
@@ -3899,6 +4930,130 @@
         "world": null,
         "source": "XDMG",
         "page": 270
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Horse, Draft",
+    "zh": "驮用马",
+    "aliases": [
+      "挽马"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-089"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Horse, Heavy War",
+    "zh": "重型战马",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-090"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Horse, Light War",
+    "zh": "轻型战马",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-091"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Horse, Medium War",
+    "zh": "中型战马",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-092"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Horse, Riding (Light)",
+    "zh": "轻型乘用马",
+    "aliases": [
+      "轻型骑乘马"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-093"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
       }
     ]
   },
@@ -3953,6 +5108,52 @@
         "world": null,
         "source": "XDMG",
         "page": 270
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Incense",
+    "zh": "香",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "JttRC",
+        "page": 210
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Incense, Stick",
+    "zh": "香，一炷",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-142"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "JttRC",
+        "page": 210
       }
     ]
   },
@@ -4084,6 +5285,26 @@
   },
   {
     "category": "item",
+    "en": "Jo Stick",
+    "zh": "短棒",
+    "aliases": [
+      "约棍"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-jo-stick"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Keoghtom's Ointment",
     "zh": "卡夫统灵药",
     "aliases": [
@@ -4130,6 +5351,124 @@
         "world": null,
         "source": "XPHB",
         "page": 215
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Lance (heavy horse)",
+    "zh": "重骑枪",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-lance-heavy-horse"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Lance (light horse)",
+    "zh": "轻骑枪",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-lance-light-horse"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Lance (medium horse)",
+    "zh": "中骑枪",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-lance-medium-horse"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Lantern, Bullseye",
+    "zh": "牛眼提灯",
+    "aliases": [
+      "聚光提灯"
+    ],
+    "status": "verified-exact",
+    "ids": [
+      "phb-item-111"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 152
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 152
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Lantern, Hooded",
+    "zh": "附盖提灯",
+    "aliases": [
+      "风帽提灯"
+    ],
+    "status": "verified-exact",
+    "ids": [
+      "phb-item-112"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 152
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 152
       }
     ]
   },
@@ -4381,6 +5720,24 @@
   },
   {
     "category": "item",
+    "en": "Mead, Pint",
+    "zh": "蜂蜜酒，一品脱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-136"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Mighty Servant of Leuk-O",
     "zh": "琉克欧的非凡机仆",
     "aliases": [
@@ -4428,6 +5785,60 @@
   },
   {
     "category": "item",
+    "en": "Mirror, Large Metal",
+    "zh": "大型金属镜",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-113"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 227
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Mirror, Small, Silver",
+    "zh": "小型银镜",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-114"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 227
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Mistletoe",
     "zh": "槲寄生",
     "aliases": [],
@@ -4465,6 +5876,18 @@
         "world": null,
         "source": "PHB",
         "page": 149
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -4595,6 +6018,22 @@
   },
   {
     "category": "item",
+    "en": "Normal-Sized Shield",
+    "zh": "普通尺寸盾牌",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Oil of Etherealness",
     "zh": "以太化之油",
     "aliases": [
@@ -4671,6 +6110,38 @@
         "world": null,
         "source": "XDMG",
         "page": 283
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Oil, Flask of",
+    "zh": "燃油，一瓶",
+    "aliases": [
+      "油，一瓶"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-115"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 152
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 227
       }
     ]
   },
@@ -4776,6 +6247,12 @@
         "world": null,
         "source": "UA",
         "page": 124
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -4987,6 +6464,42 @@
   },
   {
     "category": "item",
+    "en": "Pigeon",
+    "zh": "鸽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-096"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Piglet",
+    "zh": "小猪",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-097"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Pike, Awl",
     "zh": "长锥枪",
     "aliases": [
@@ -5090,6 +6603,38 @@
   },
   {
     "category": "item",
+    "en": "Pole, 10 ft.",
+    "zh": "长杆，10英尺",
+    "aliases": [
+      "十英尺长杆"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-116"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 228
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Pony",
     "zh": "矮种马",
     "aliases": [],
@@ -5164,6 +6709,80 @@
   },
   {
     "category": "item",
+    "en": "Pouch, Belt, Large",
+    "zh": "大型腰包",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-117"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Pouch, Belt, Small",
+    "zh": "小型腰包",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-118"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Prayer Beads",
+    "zh": "念珠",
+    "aliases": [
+      "祈祷珠"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "oa-prayer-beads"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 182
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Prespra",
     "zh": "普雷斯普拉",
     "aliases": [
@@ -5179,6 +6798,30 @@
         "world": null,
         "source": "FRAiF",
         "page": 237
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quarrel (or Bolt), heavy",
+    "zh": "重弩矢",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-quarrel-or-bolt-heavy"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
       }
     ]
   },
@@ -5203,6 +6846,30 @@
         "world": null,
         "source": "PHB",
         "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quarrel (or Bolt), light",
+    "zh": "轻弩矢",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-quarrel-or-bolt-light"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       },
       {
         "edition": "5E",
@@ -5288,6 +6955,102 @@
   },
   {
     "category": "item",
+    "en": "Quiver, 1 Dozen Arrows Capacity",
+    "zh": "箭袋，可装12支箭",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-119"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quiver, 1 Score Arrows Capacity",
+    "zh": "箭袋，可装20支箭",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-120"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quiver, 1 Score Bolts Capacity",
+    "zh": "弩矢袋，可装20支弩矢",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-121"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quiver, 2 Score Bolts Capacity",
+    "zh": "弩矢袋，可装40支弩矢",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-122"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Ranseur",
     "zh": "三叉矛",
     "aliases": [
@@ -5317,6 +7080,84 @@
         "world": null,
         "source": "UA",
         "page": 124
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Rations, Iron, 1 Week",
+    "zh": "耐久口粮，一周份",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-137"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Rations, Standard, 1 Week",
+    "zh": "标准口粮，一周份",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-138"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
       }
     ]
   },
@@ -6094,6 +7935,166 @@
   },
   {
     "category": "item",
+    "en": "Rope, 50 ft.",
+    "zh": "绳索，50英尺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-123"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 228
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sack, Large",
+    "zh": "大型麻袋",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-124"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sack, Small",
+    "zh": "小型麻袋",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-125"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Saddle",
+    "zh": "马鞍",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-152"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Saddle Bags, Large",
+    "zh": "大型鞍囊",
+    "aliases": [
+      "大型鞍袋"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-153"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Saddle Bags, Small",
+    "zh": "小型鞍囊",
+    "aliases": [
+      "小型鞍袋"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-154"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 157
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Saddle Blanket",
+    "zh": "鞍毯",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-155"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Scale Mail",
     "zh": "鳞甲",
     "aliases": [],
@@ -6161,6 +8162,30 @@
         "world": null,
         "source": "XPHB",
         "page": 215
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -6354,6 +8379,68 @@
   },
   {
     "category": "item",
+    "en": "Ship, Merchant, Large",
+    "zh": "大型商船",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-162"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ship, Merchant, Small",
+    "zh": "小型商船",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-163"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ship, War",
+    "zh": "战舰",
+    "aliases": [
+      "战船"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-164"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 119
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Short Sword",
     "zh": "短剑",
     "aliases": [
@@ -6395,6 +8482,70 @@
         "world": null,
         "source": "XPHB",
         "page": 228
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Skin for Water or Wine",
+    "zh": "水或酒皮囊",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-126"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sling",
+    "zh": "投石索",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 215
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -6492,6 +8643,42 @@
   },
   {
     "category": "item",
+    "en": "Sling Stone",
+    "zh": "投石索石弹",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-sling-stone"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Songbird",
+    "zh": "鸣禽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-101"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Spear",
     "zh": "矛",
     "aliases": [
@@ -6562,6 +8749,18 @@
         "world": null,
         "source": "UA",
         "page": 124
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -6586,6 +8785,30 @@
         "world": null,
         "source": "XDMG",
         "page": 306
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Spike, Iron, Large",
+    "zh": "大型铁钉",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-127"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
       }
     ]
   },
@@ -6719,6 +8942,30 @@
   },
   {
     "category": "item",
+    "en": "Staff, Quarter",
+    "zh": "长棍",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "ua-weapon-staff-quarter"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Stone of Controlling Earth Elementals",
     "zh": "命令土元素石核",
     "aliases": [
@@ -6771,6 +9018,22 @@
   },
   {
     "category": "item",
+    "en": "Sulphur",
+    "zh": "硫磺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Sword of Kas",
     "zh": "凯斯之剑",
     "aliases": [
@@ -6797,6 +9060,22 @@
   },
   {
     "category": "item",
+    "en": "Sword, Bastard",
+    "zh": "混种剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Sword, Bastard, & Scabbard",
     "zh": "混种剑与鞘",
     "aliases": [],
@@ -6810,6 +9089,22 @@
         "world": null,
         "source": "PHB",
         "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Broad",
+    "zh": "阔剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -6833,6 +9128,28 @@
   },
   {
     "category": "item",
+    "en": "Sword, Long",
+    "zh": "长剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Sword, Long, & Scabbard",
     "zh": "长剑与鞘",
     "aliases": [],
@@ -6844,6 +9161,28 @@
         "world": null,
         "source": "PHB",
         "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Short",
+    "zh": "短剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       },
       {
         "edition": "5E",
@@ -6896,6 +9235,78 @@
         "world": null,
         "source": "PHB",
         "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Symbol, Holy, Iron",
+    "zh": "铁制圣徽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-143"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Symbol, Holy, Silver",
+    "zh": "银制圣徽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-144"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Symbol, Holy, Wooden",
+    "zh": "木制圣徽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-145"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
       }
     ]
   },
@@ -6970,6 +9381,54 @@
         "world": null,
         "source": "XDMG",
         "page": 315
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Thieves' Picks & Tools",
+    "zh": "盗贼开锁器与工具",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-128"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 154
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Tinder Box, with Flint & Steel",
+    "zh": "火绒盒，含燧石与火镰",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-129"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
       }
     ]
   },
@@ -7116,6 +9575,38 @@
         "world": null,
         "source": "FRAiF",
         "page": 237
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Unholy Symbol",
+    "zh": "邪徽",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Unholy Water",
+    "zh": "邪水",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -7447,6 +9938,48 @@
   },
   {
     "category": "item",
+    "en": "Water",
+    "zh": "水",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Water, Holy or Unholy, Vial",
+    "zh": "圣水或邪水，一小瓶",
+    "aliases": [
+      "圣水*或邪水，一小瓶"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-146"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 151
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Well of Many Worlds",
     "zh": "诸界之井",
     "aliases": [
@@ -7525,6 +10058,42 @@
   },
   {
     "category": "item",
+    "en": "Wine, Pint, Good",
+    "zh": "优质葡萄酒，一品脱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-139"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wine, Pint, Watered",
+    "zh": "兑水葡萄酒，一品脱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-140"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wings of Flying",
     "zh": "飞翼斗篷",
     "aliases": [
@@ -7546,6 +10115,24 @@
         "world": null,
         "source": "XDMG",
         "page": 324
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wolvesbane, Sprig",
+    "zh": "乌头，一枝",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-080"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -16175,6 +18762,22 @@
   },
   {
     "category": "proper",
+    "en": "Angore",
+    "zh": "安戈尔",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Arcadia",
     "zh": "世外桃源",
     "aliases": [
@@ -16866,6 +19469,22 @@
   },
   {
     "category": "proper",
+    "en": "Falstaff",
+    "zh": "福斯塔夫",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "Fargab",
     "zh": "远程唠嗑背包",
     "aliases": [
@@ -16880,6 +19499,22 @@
         "world": "Dragonlance",
         "source": "DSotDQ",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "Filmar",
+    "zh": "菲尔玛",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
       }
     ]
   },
@@ -19466,6 +22101,34 @@
   },
   {
     "category": "rule",
+    "en": "Abjuration",
+    "zh": "防护",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Acolyte",
     "zh": "侍僧",
     "aliases": [],
@@ -19516,6 +22179,34 @@
   },
   {
     "category": "rule",
+    "en": "Added Proficiency in Weapons Per Level",
+    "zh": "每若干等级新增的武器熟练项数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Adept",
     "zh": "修士",
     "aliases": [],
@@ -19533,6 +22224,56 @@
         "world": null,
         "source": "PHB",
         "page": 20
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Adventure",
+    "zh": "冒险",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 360
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Adventurer",
+    "zh": "冒险者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
       }
     ]
   },
@@ -19640,6 +22381,34 @@
   },
   {
     "category": "rule",
+    "en": "Alchemist",
+    "zh": "炼金师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "TCE",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Alertness",
     "zh": "警觉",
     "aliases": [],
@@ -19691,6 +22460,36 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Alteration",
+    "zh": "变化",
+    "aliases": [
+      "变化续"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
       }
     ]
   },
@@ -19824,6 +22623,28 @@
   },
   {
     "category": "rule",
+    "en": "Approximate Weight in Gold Pieces",
+    "zh": "重量约值（金币重量）",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Arch-Mage",
     "zh": "大法师",
     "aliases": [],
@@ -19937,6 +22758,12 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
       }
     ]
   },
@@ -20755,6 +23582,34 @@
   },
   {
     "category": "rule",
+    "en": "Bearer",
+    "zh": "搬运工",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Becoming Lost",
     "zh": "迷路",
     "aliases": [],
@@ -21197,6 +24052,28 @@
   },
   {
     "category": "rule",
+    "en": "Campaign Milieu",
+    "zh": "战役环境",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Canon",
     "zh": "座堂教士",
     "aliases": [],
@@ -21587,6 +24464,28 @@
   },
   {
     "category": "rule",
+    "en": "Character",
+    "zh": "角色",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Character Abilities",
     "zh": "角色属性",
     "aliases": [],
@@ -21736,6 +24635,34 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Character Record",
+    "zh": "角色记录表",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 363
       }
     ]
   },
@@ -22054,6 +24981,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Clerical Spells",
+    "zh": "牧师类法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
       }
     ]
   },
@@ -22437,6 +25386,34 @@
   },
   {
     "category": "rule",
+    "en": "Conjuration/Summoning",
+    "zh": "咒法／召唤",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Conjurer",
     "zh": "咒法师",
     "aliases": [],
@@ -22570,6 +25547,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -22714,6 +25697,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Crossbowman",
+    "zh": "弩手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -22946,6 +25951,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Damage vs. Opponent",
+    "zh": "对目标的伤害",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -23646,6 +26673,28 @@
   },
   {
     "category": "rule",
+    "en": "Disarming",
+    "zh": "缴械",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Disciple",
     "zh": "弟子",
     "aliases": [],
@@ -23738,8 +26787,110 @@
   },
   {
     "category": "rule",
+    "en": "Disloyalty",
+    "zh": "不忠",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Dismounting",
+    "zh": "击落骑手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Distance",
-    "zh": "遭遇距离",
+    "zh": "距离",
+    "aliases": [
+      "遭遇距离"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 236
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Distance Scale",
+    "zh": "距离比例尺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Divination",
+    "zh": "预言术",
     "aliases": [],
     "status": "verified-exact",
     "ids": [],
@@ -23749,6 +26900,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
       }
     ]
   },
@@ -23774,7 +26937,9 @@
     "category": "rule",
     "en": "DM",
     "zh": "地下城主",
-    "aliases": [],
+    "aliases": [
+      "地下城主作为首席故事讲述者"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -23783,6 +26948,24 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
       }
     ]
   },
@@ -23843,6 +27026,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Dungeon Level",
+    "zh": "地城层数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
       }
     ]
   },
@@ -24060,6 +27265,34 @@
   },
   {
     "category": "rule",
+    "en": "Enchantment/Charm",
+    "zh": "惑控／魅惑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Encounter",
     "zh": "遭遇",
     "aliases": [],
@@ -24241,6 +27474,34 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Engineer",
+    "zh": "工程师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "WDH",
+        "page": 141
       }
     ]
   },
@@ -24684,6 +27945,28 @@
   },
   {
     "category": "rule",
+    "en": "Fantasy Role Playing Game",
+    "zh": "奇幻角色扮演游戏",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Fatigue and Exhaustion",
     "zh": "疲劳与力竭",
     "aliases": [
@@ -24802,6 +28085,34 @@
   },
   {
     "category": "rule",
+    "en": "Fire Rate",
+    "zh": "射击速率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Fishing",
     "zh": "捕鱼",
     "aliases": [],
@@ -24813,6 +28124,30 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Fist or Open Hand",
+    "zh": "拳击或徒手",
+    "aliases": [
+      "拳或徒手"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -25067,6 +28402,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Game Time",
+    "zh": "游戏时间",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
       }
     ]
   },
@@ -25427,9 +28784,10 @@
   {
     "category": "rule",
     "en": "Ground Scale",
-    "zh": "战场比例尺",
+    "zh": "地面比例尺",
     "aliases": [
-      "地面比例"
+      "地面比例",
+      "战场比例尺"
     ],
     "status": "adapted-variant",
     "ids": [],
@@ -25439,6 +28797,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -25516,6 +28886,28 @@
   },
   {
     "category": "rule",
+    "en": "Hand Held Weapon Type",
+    "zh": "手持武器类型",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Healing",
     "zh": "治疗",
     "aliases": [],
@@ -25562,7 +28954,9 @@
     "category": "rule",
     "en": "Henchman",
     "zh": "随从",
-    "aliases": [],
+    "aliases": [
+      "部属"
+    ],
     "status": "verified-exact",
     "ids": [],
     "references": [
@@ -25577,6 +28971,12 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -25727,6 +29127,12 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -26001,6 +29407,30 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hurled Weapons and Missiles",
+    "zh": "投掷武器与投射物",
+    "aliases": [
+      "投掷与射击武器类型、一般数据与命中修正"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -26315,6 +29745,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initial Number of Weapons",
+    "zh": "起始武器熟练项数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
       }
     ]
   },
@@ -26693,6 +30145,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Instantaneous",
+    "zh": "立即",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
       }
     ]
   },
@@ -27101,6 +30581,28 @@
   },
   {
     "category": "rule",
+    "en": "Length",
+    "zh": "长度",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Length and Width",
     "zh": "船只长宽",
     "aliases": [],
@@ -27297,6 +30799,34 @@
   },
   {
     "category": "rule",
+    "en": "Linkboy",
+    "zh": "持灯仆役",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Listening at Doors",
     "zh": "隔门聆听",
     "aliases": [],
@@ -27308,6 +30838,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Long Range",
+    "zh": "远射程",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -27330,6 +30882,34 @@
         "world": null,
         "source": "PHB",
         "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Loyalty",
+    "zh": "忠诚",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 93
       }
     ]
   },
@@ -27585,6 +31165,28 @@
   },
   {
     "category": "rule",
+    "en": "Magical Spells",
+    "zh": "魔法师类法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Magician",
     "zh": "术师",
     "aliases": [],
@@ -27662,6 +31264,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Man-at-arms",
+    "zh": "武装兵",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
       }
     ]
   },
@@ -28067,6 +31691,34 @@
   },
   {
     "category": "rule",
+    "en": "Material Component",
+    "zh": "材料成分",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Maximum Number of Henchmen",
     "zh": "随从人数上限",
     "aliases": [],
@@ -28138,6 +31790,28 @@
         "world": null,
         "source": "PHB",
         "page": 15
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Medium Range",
+    "zh": "中射程",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -28799,6 +32473,28 @@
   },
   {
     "category": "rule",
+    "en": "Monster Level",
+    "zh": "怪物等级",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Morale",
     "zh": "士气",
     "aliases": [],
@@ -28898,6 +32594,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Motionless",
+    "zh": "静止不动",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -29109,6 +32827,28 @@
   },
   {
     "category": "rule",
+    "en": "Movement Scale",
+    "zh": "移动比例尺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Moving Silently",
     "zh": "无声移动",
     "aliases": [],
@@ -29302,6 +33042,34 @@
         "world": null,
         "source": "VGM",
         "page": 217
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Necromantic",
+    "zh": "死灵",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
       }
     ]
   },
@@ -29600,6 +33368,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
       }
     ]
   },
@@ -29881,6 +33661,28 @@
   },
   {
     "category": "rule",
+    "en": "Outdoor Scale",
+    "zh": "户外比例尺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Ovate",
     "zh": "卜者",
     "aliases": [],
@@ -30130,6 +33932,18 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 8
       }
     ]
   },
@@ -30152,6 +33966,28 @@
         "world": null,
         "source": "PHB",
         "page": 14
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Permanent",
+    "zh": "永久",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -30370,6 +34206,50 @@
         "world": null,
         "source": "PHB",
         "page": 35
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Play Balance",
+    "zh": "游戏平衡",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Player",
+    "zh": "玩家",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
       }
     ]
   },
@@ -30868,6 +34748,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Prone",
+    "zh": "倒地",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 292
       }
     ]
   },
@@ -31761,6 +35669,28 @@
   },
   {
     "category": "rule",
+    "en": "Remuneration",
+    "zh": "报酬",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Repairing Damage",
     "zh": "修理损伤",
     "aliases": [],
@@ -31864,6 +35794,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Reversible Spell",
+    "zh": "可逆法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -31994,6 +35946,34 @@
         "world": null,
         "source": "PHB",
         "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Role Playing",
+    "zh": "角色扮演",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "CoA",
+        "page": 60
       }
     ]
   },
@@ -32953,6 +36933,28 @@
   },
   {
     "category": "rule",
+    "en": "Short Range",
+    "zh": "近射程",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Siege Attack Values",
     "zh": "攻城攻击数值",
     "aliases": [],
@@ -33080,6 +37082,50 @@
   },
   {
     "category": "rule",
+    "en": "Size L",
+    "zh": "大型体型",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Size S or M",
+    "zh": "小型或中型体型",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 37
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Skirmish Formation",
     "zh": "散兵队形",
     "aliases": [],
@@ -33146,6 +37192,34 @@
   },
   {
     "category": "rule",
+    "en": "Somatic Component",
+    "zh": "姿势成分",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Sorcerer",
     "zh": "术士",
     "aliases": [],
@@ -33187,6 +37261,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Space Required",
+    "zh": "挥用所需空间",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -33414,6 +37510,34 @@
   },
   {
     "category": "rule",
+    "en": "Spell",
+    "zh": "法术",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 51
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Spell (saving throw category)",
     "zh": "法术（豁免类别）",
     "aliases": [],
@@ -33457,6 +37581,62 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Spell Caster",
+    "zh": "施法者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "ESK",
+        "page": 63
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Spell Casting",
+    "zh": "施法",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "XGE",
+        "page": 85
       }
     ]
   },
@@ -33727,6 +37907,34 @@
   },
   {
     "category": "rule",
+    "en": "Steward",
+    "zh": "管事",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Stonemason",
     "zh": "石工",
     "aliases": [],
@@ -33914,6 +38122,34 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Stunned",
+    "zh": "震慑",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 292
       }
     ]
   },
@@ -34217,6 +38453,34 @@
   },
   {
     "category": "rule",
+    "en": "Swords & Sorcery",
+    "zh": "剑与巫术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 7
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DMG",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Swordsman",
     "zh": "剑士",
     "aliases": [],
@@ -34331,6 +38595,34 @@
         "edition": "1E",
         "world": null,
         "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Teamster",
+    "zh": "车夫",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
         "page": null
       }
     ]
@@ -34685,6 +38977,28 @@
   },
   {
     "category": "rule",
+    "en": "Time Scale",
+    "zh": "时间尺度",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Time Unit",
     "zh": "时间单位",
     "aliases": [],
@@ -34878,6 +39192,34 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Touch",
+    "zh": "触及",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 202
       }
     ]
   },
@@ -35151,6 +39493,28 @@
   },
   {
     "category": "rule",
+    "en": "Type of Armor",
+    "zh": "护甲类型",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Types of Insanity",
     "zh": "精神错乱类型",
     "aliases": [],
@@ -35368,6 +39732,34 @@
   },
   {
     "category": "rule",
+    "en": "Valet",
+    "zh": "贴身仆役",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 39
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Vanquishing",
     "zh": "征服",
     "aliases": [],
@@ -35395,6 +39787,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Verbal Component",
+    "zh": "言语成分",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 40
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 203
       }
     ]
   },
@@ -35719,6 +40139,12 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 38
       }
     ]
   },
@@ -36740,6 +41166,12 @@
         "world": null,
         "source": "XPHB",
         "page": 247
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -36851,6 +41283,58 @@
         "world": null,
         "source": "XPHB",
         "page": 248
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Cause Fear",
+    "zh": "惊恐术",
+    "aliases": [
+      "造成恐惧"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "XGE",
+        "page": 151
+      },
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Cause Light Wounds",
+    "zh": "造成轻伤",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -37185,6 +41669,12 @@
         "world": null,
         "source": "XPHB",
         "page": 251
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -37490,6 +41980,31 @@
   },
   {
     "category": "spell",
+    "en": "Create Water",
+    "zh": "造水术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "create-water",
+      "create-water-level-2"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 229
+      }
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Cure Critical Wounds",
     "zh": "治疗致命伤",
     "aliases": [
@@ -37528,6 +42043,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -37548,6 +42069,22 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Curse",
+    "zh": "诅咒术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
       }
     ]
   },
@@ -37608,6 +42145,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -37669,6 +42212,63 @@
   },
   {
     "category": "spell",
+    "en": "Destroy Water",
+    "zh": "枯水术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 43
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 229
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Detect Evil",
+    "zh": "侦测邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "detect-evil",
+      "detect-evil-level-2"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Detect Good",
+    "zh": "侦测善良",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Detect Invisibility",
     "zh": "侦测隐形",
     "aliases": [],
@@ -37720,6 +42320,12 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -39868,6 +44474,12 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -42268,6 +46880,66 @@
   },
   {
     "category": "spell",
+    "en": "Protection from Evil",
+    "zh": "防护邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "protection-from-evil"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Protection From Good",
+    "zh": "防护善良",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Purify Food & Drink",
+    "zh": "净化饮食",
+    "aliases": [
+      "净化食粮"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "drink"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 270
+      }
+    ]
+  },
+  {
+    "category": "spell",
     "en": "Pyrotechnics",
     "zh": "烟火术",
     "aliases": [],
@@ -42798,6 +47470,30 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "category": "spell",
+    "en": "Resist Cold",
+    "zh": "抵抗寒冷",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "resist-cold"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },
@@ -42923,6 +47619,12 @@
         "world": null,
         "source": "XPHB",
         "page": 313
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 44
       }
     ]
   },

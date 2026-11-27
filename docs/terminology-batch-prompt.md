@@ -86,3 +86,36 @@
 - 目录8706项，规则864词形（500已核、364自译／变体）；test:terminology3052资料／948可用名称通过，API GET8706项且197近两组词项中文／状态／义项／1E出处核对通过。未做全站正文apply，未重做全站build；下次build46387。
 - 本次隔离归档需包括上一批Rod of Cancellation两处元数据和本批metadataSync列出的26处名称；仅按nameEn+id更改nameZh，不能整份复制混杂的source JSON。完整清单在各review报告。提交／推送后单独记真实回执；若成功下次留档46295。
 - 下一主线PHB印刷p.35 Clothing／Herbs，再p.36 Livestock／Miscellaneous Equipment and Items／Provisions／Religious Items／Tack and Harness／Transport；随后Armor、Weapons、熟练项与各武器统计。继续依离线3R→5E→5R和原页语境处理，后续所有书目及最终一致性范围保持active。
+
+### 最新真实归档（2026-11-27）
+
+- 9434ecb8（9434ecb8f45266b0e671425e58808c7e7ac00019）已成功推送main；35个术语文件，208处决策，累计46095。下次隔离归档以此提交为基准，不再以f92cf4e4为当前基准。下一留档46295，构建46387。
+- 检查点回执checkpoint-20261127.json已补真实提交号；本段回执属于下次提交内容。下一入口仍PHB p.35衣物／草药、p.36其他装备及其后护甲／武器规则。目标active，其他资料与最终全站一致性未完成。
+
+
+### 最新接续：PHB价目表与武器资料（2026-11-27）
+
+- 本组23新增、98既有待核定译、12既有异体决策，共133处，累计46228。p.35衣物／草药14行、p.36其余85行全部逐项处理；与上一组共165价目记录，不视作165独立机制。pp.36–38护甲／武器、熟练项、统计表、includes及脚注已盘点。
+- 报告phb-equipment-clothing-herbs-review、phb-equipment-other-equipment-review、phb-weapons-proficiency-review及phb-equipment-weapons-validation；PDFpp.37–39的24候选／26列出定位回执闭合，无未辨原词。
+- 目录8726项，规则885词形（502已核、383自译／变体）；源表、词项、义项、异体及父目录一致性通过。test:terminology3052资料／1042可用名称通过，API GET8726且318近几组主译／状态／义项／1E出处通过。未正文apply、未全站build或新发布。50处元数据只改nameZh；44旧名标签可搜，6处为无语义的末尾星号清理。
+- 最近真实推送仍9434ecb8/46095；本组尚未提交，距检查点133处，下次留档46295、构建46387。归档时需汇总这三份报告metadataSync清单，按id+nameEn精确修改干净基线nameZh，不能复制混杂source JSON。
+- 新明确的前置缺口：PHB前置页及印刷pp.7–8／PDFpp.1–9尚无本轮逐页回执，下一轮先补源页／前言／目录的去向，再接印刷p.39（PDFp.40）的雇员、随从、时间、距离。p.39只定向读Slings一句作为投石索旁证，不算整页覆盖。准备包generated/phb-hirelings-distance-next-review.json只有12个抽取线索，不能漏掉该页正文职业名、规则名与单位定义。随后p.40移动、光照、负重。全目标保持active。
+
+
+### 最新接续：前置页缺口已补，PHB p.39已读（2026-11-27）
+
+- 本组32新增（前置16、p.39十六）、6异体、2主译范围修正，共40处，累计46268；规则914词形（506已核、408自译／变体），目录8753项。Distance一般主译距离，Encounter Distance仍为遭遇距离；Ground Scale主译地面比例尺，旧译保留。Armorer职业义护甲匠与熟练项护甲修造分义。Spell Level既有主译法术环阶，工作流旧说明已同步。
+- PDFpp.1–9逐页回执现齐；136候选／156列出定位闭合。前言／目录／书目不是怪物或作者角色来源；目录目标页明确不因本回执关闭。PDFp.6缓存非空，复杂版面已补目视核读，不沿用先前口误称缺页。p.39受雇者、随从、时间、距离12候选／定位闭合；原词问题0。报告phb-front-review、phb-front-receipts、phb-hirelings-distance-review／receipts与phb-front-hirelings-validation。
+- 测试：主译／状态／1E路径／义项／异体／父目录一致性通过；test:terminology3052资料／1042可用名称通过；API GET8753且352近几组词项通过。无正文apply、新构建或发布。
+- 最近真实推送仍9434ecb8/46095，距检查点173处；下一留档46295（再27处），下一build46387。本组没有新增主资料nameZh修改；下一隔离归档仍要按上组equipment/weapons三个review中的50字段清单在干净9434ecb8上精确patch，不能整份复制混杂source JSON；Rod等28字段已在9434ecb8归档，不重带旧基线。
+- 下一入口PHB印刷p.40／PDFp.41的Monster,The Term与Character Spells（总体施法／记忆／成分规则），然后pp.40–42法术表、p.43起法术释义。目录证实移动／光照／负重在pp.101–102，并非p.40；纠正旧入口但不跳过法术章节。当前长期目标继续active，其他书目和Dragon及最终全站一致性未完成。
+
+
+### 最新接续：通用施法及一环牧师（2026-11-27）
+
+- 已核PHB p.40 Monster,The Term／Character Spells正文，p.43字段与牧师注，以及pp.43–44全部12一环牧师条目。新增33、待核完成6、异体1、合称修正1，共41处，累计46309；距9434ecb8/46095共214，正在准备留档。目录8784，规则932（510已核、422自译／变体）。
+- 关键：Cause Fear＝惊恐术（3R）；Purify Food & Drink＝净化饮食（5E词形适配），旧净化食粮留搜；Prayer Beads＝念珠。Curse为Bless逆向语境，不是Bestow Curse；Light逆向darkness有自己范围。净化饮食逆转只描述腐败，没有补造正式Putrefy英文名。Reversible选择时点只据牧师注，不泛推所有施法者。疗伤类型保留1E Necromantic。
+- 普通材料Water／Dust／Blood等及宗教物分别入物品词，不等于新增购买行或新机制；元数据preserveUnclassifiedHeadings防止将同名未审标题强并。catalog.py新增该保护，Water水与heading:Water水元素戒指、Dust物质与同名戏法回归通过。Holy/Unholy Water原合称遗漏一侧已改圣水／邪水，普通Holy Water仍圣水。
+- 源包PDF41、44–45中33候选／35定位闭合；PDF42–43更高法术表及PDF46二环仍留开放。报告phb-spell-intro-first-review／receipts和phb-first-spells-validation。test:terminology3052／1050通过，API8784／392近几组词项通过，父目录一致；未正文apply，未全站build。下一build46387。
+- 本次隔离从9434ecb8基线：除词库／docs／runtime外，需带catalog.py小保护；按4份报告（此前equipment三份、本次spell-intro-first）的metadataSync清单精确patch共54处nameZh，含oa-items.ts的oa-prayer-beads一处，不复制混杂source JSON／TS整文件。提交／推送后记真实回执；成功后下一留档46509。
+- 下一主线先核完整pp.40–42法术表的列与名字并路由对应释义，再二环牧师pp.45–46，逐环继续；本批未审的更高表格并未因旧词库存在名称而完成。后续所有原书／拓展／计划材料／Dragon及最终一致性保持active。

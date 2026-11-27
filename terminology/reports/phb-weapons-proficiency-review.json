@@ -1,0 +1,576 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "Printedpp.36–38 Armor/Weapons introduction,proficiency table,weapon weight/damage/general/ranged tables and all notes;hirelings p.39 excluded",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Initial Number of Weapons",
+      "zh": "起始武器熟练项数",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Added Proficiency in Weapons Per Level",
+      "zh": "每若干等级新增的武器熟练项数",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Approximate Weight in Gold Pieces",
+      "zh": "重量约值（金币重量）",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Damage vs. Opponent",
+      "zh": "对目标的伤害",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Size S or M",
+      "zh": "小型或中型体型",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Size L",
+      "zh": "大型体型",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "rule",
+      "en": "Hand Held Weapon Type",
+      "zh": "手持武器类型",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Length",
+      "zh": "长度",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Space Required",
+      "zh": "挥用所需空间",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Hurled Weapons and Missiles",
+      "zh": "投掷武器与投射物",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Fire Rate",
+      "zh": "射击速率",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Short Range",
+      "zh": "近射程",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Medium Range",
+      "zh": "中射程",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Long Range",
+      "zh": "远射程",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Fist or Open Hand",
+      "zh": "拳击或徒手",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Type of Armor",
+      "zh": "护甲类型",
+      "status": "adapted-variant",
+      "printedPage": 36
+    },
+    {
+      "category": "rule",
+      "en": "Stunned",
+      "zh": "震慑",
+      "status": "verified-exact",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Prone",
+      "zh": "倒地",
+      "status": "verified-exact",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Motionless",
+      "zh": "静止不动",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Dismounting",
+      "zh": "击落骑手",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "rule",
+      "en": "Disarming",
+      "zh": "缴械",
+      "status": "adapted-variant",
+      "printedPage": 38
+    },
+    {
+      "category": "item",
+      "en": "Normal-Sized Shield",
+      "zh": "普通尺寸盾牌",
+      "status": "adapted-variant",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Sling",
+      "zh": "投石索",
+      "status": "verified-exact",
+      "printedPage": 38
+    }
+  ],
+  "updatedPendingEntries": [
+    {
+      "category": "item",
+      "en": "Bo Stick",
+      "zh": "长棒",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Jo Stick",
+      "zh": "短棒",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Staff, Quarter",
+      "zh": "长棍",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Lance (light horse)",
+      "zh": "轻骑枪",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Lance (medium horse)",
+      "zh": "中骑枪",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Lance (heavy horse)",
+      "zh": "重骑枪",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), light",
+      "zh": "轻弩矢",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), heavy",
+      "zh": "重弩矢",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Sling Stone",
+      "zh": "投石索石弹",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Sword, Bastard",
+      "zh": "混种剑",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Sword, Broad",
+      "zh": "阔剑",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Sword, Long",
+      "zh": "长剑",
+      "status": "adapted-variant",
+      "printedPage": 37
+    },
+    {
+      "category": "item",
+      "en": "Sword, Short",
+      "zh": "短剑",
+      "status": "adapted-variant",
+      "printedPage": 37
+    }
+  ],
+  "reviewedAliases": [
+    {
+      "category": "item",
+      "en": "Bill-Guisarme",
+      "variants": [
+        "Scorpion"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Scorpion归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Glaive",
+      "variants": [
+        "Couteaux de Breche"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Couteaux de Breche归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Guisarme",
+      "variants": [
+        "Bill",
+        "Bill Hook"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Bill, Bill Hook归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Guisarme-Voulge",
+      "variants": [
+        "Lochaber Axe"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Lochaber Axe归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Morning Star",
+      "variants": [
+        "Godentag",
+        "Holy Water Sprinkler"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Godentag, Holy Water Sprinkler归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Partisan",
+      "variants": [
+        "Bohemian Ear-Spoon"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Bohemian Ear-Spoon归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Ranseur",
+      "variants": [
+        "Chauves Souris",
+        "Ransom",
+        "Rhonca",
+        "Roncie",
+        "Runka"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Chauves Souris, Ransom, Rhonca, Roncie, Runka归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Scimitar",
+      "variants": [
+        "Cutlass",
+        "Sabre",
+        "Sickle-sword",
+        "Tulwar"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Cutlass, Sabre, Sickle-sword, Tulwar归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Spetum",
+      "variants": [
+        "Corseque",
+        "Korseke"
+      ],
+      "printedPage": 37,
+      "scope": "本表includes列将Corseque, Korseke归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。"
+    },
+    {
+      "category": "item",
+      "en": "Axe, Hand or Throwing",
+      "variants": [
+        "Axe, Hand"
+      ],
+      "printedPage": 38,
+      "scope": "p.38投掷／手持两表将本武器简写为Axe,Hand；此异体不指普通战斧。"
+    },
+    {
+      "category": "rule",
+      "en": "Weapon Speed Factor",
+      "variants": [
+        "Speed Factor"
+      ],
+      "printedPage": 38,
+      "scope": "武器表Speed Factor栏是既有武器速度因数的短写，保留1E数值及其程序用途，不当作射击速率。"
+    },
+    {
+      "category": "rule",
+      "en": "Armor Class",
+      "variants": [
+        "Armor Class Rating"
+      ],
+      "printedPage": 36,
+      "scope": "护甲表数值列，与已有护甲等级为同一字段。"
+    }
+  ],
+  "reusedTerms": [
+    {
+      "category": "rule",
+      "en": "Armor Class",
+      "zh": "护甲等级",
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Encumbrance",
+      "zh": "负重",
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Weapon Proficiency",
+      "zh": "武器熟练项",
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Non-Proficiency Penalty",
+      "zh": "不熟练命中惩罚",
+      "status": "verified-exact"
+    }
+  ],
+  "unresolvedOriginalWords": [],
+  "lookupQueries": {
+    "Initial Number of Weapons": [
+      "Initial Number of Weapons"
+    ],
+    "Added Proficiency in Weapons Per Level": [
+      "Added Proficiency in Weapons Per Level"
+    ],
+    "Approximate Weight in Gold Pieces": [
+      "Approximate Weight in Gold Pieces"
+    ],
+    "Damage vs. Opponent": [
+      "Damage vs. Opponent"
+    ],
+    "Size S or M": [
+      "Size S or M"
+    ],
+    "Size L": [
+      "Size L"
+    ],
+    "Hand Held Weapon Type": [
+      "Hand Held Weapon Type"
+    ],
+    "Length": [
+      "Length"
+    ],
+    "Space Required": [
+      "Space Required"
+    ],
+    "Hurled Weapons and Missiles": [
+      "Hurled Weapons and Missiles"
+    ],
+    "Fire Rate": [
+      "Fire Rate"
+    ],
+    "Short Range": [
+      "Short Range"
+    ],
+    "Medium Range": [
+      "Medium Range"
+    ],
+    "Long Range": [
+      "Long Range"
+    ],
+    "Fist or Open Hand": [
+      "Fist or Open Hand"
+    ],
+    "Type of Armor": [
+      "Type of Armor"
+    ],
+    "Stunned": [
+      "Stunned"
+    ],
+    "Prone": [
+      "Prone"
+    ],
+    "Motionless": [
+      "Motionless"
+    ],
+    "Dismounting": [
+      "Dismounting"
+    ],
+    "Disarming": [
+      "Disarming"
+    ],
+    "Normal-Sized Shield": [
+      "Normal-Sized Shield"
+    ],
+    "Bo Stick": [
+      "Bo Stick",
+      "Bo Stick"
+    ],
+    "Jo Stick": [
+      "Jo Stick",
+      "Jo Stick"
+    ],
+    "Staff, Quarter": [
+      "Staff, Quarter",
+      "Quarterstaff"
+    ],
+    "Lance (light horse)": [
+      "Lance (light horse)",
+      "Light Lance"
+    ],
+    "Lance (medium horse)": [
+      "Lance (medium horse)",
+      "Medium Lance"
+    ],
+    "Lance (heavy horse)": [
+      "Lance (heavy horse)",
+      "Heavy Lance"
+    ],
+    "Quarrel (or Bolt), light": [
+      "Quarrel (or Bolt), light",
+      "Crossbow Bolt"
+    ],
+    "Quarrel (or Bolt), heavy": [
+      "Quarrel (or Bolt), heavy",
+      "Crossbow Bolt"
+    ],
+    "Sling Stone": [
+      "Sling Stone",
+      "Sling Stone"
+    ],
+    "Sword, Bastard": [
+      "Sword, Bastard",
+      "Bastard Sword"
+    ],
+    "Sword, Broad": [
+      "Sword, Broad",
+      "Broadsword"
+    ],
+    "Sword, Long": [
+      "Sword, Long",
+      "Longsword"
+    ],
+    "Sword, Short": [
+      "Sword, Short",
+      "Shortsword"
+    ]
+  },
+  "semanticGuards": [
+    "No later-edition combat mechanics imported.",
+    "Includes lists are 1E statistical grouping, not claims of historical synonymy.",
+    "English range labels normalized from Range plus S=Short/M=Medium/L=Long, not falsely quoted as continuous print headings."
+  ],
+  "metadataSync": {
+    "changes": [
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Bo Stick",
+        "id": "ua-weapon-bo-stick",
+        "oldZh": "短棍",
+        "newZh": "长棒"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Jo Stick",
+        "id": "ua-weapon-jo-stick",
+        "oldZh": "约棍",
+        "newZh": "短棒"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Bo Stick",
+        "id": "ua-weapon-bo-stick",
+        "oldZh": "短棍",
+        "newZh": "长棒"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Jo Stick",
+        "id": "ua-weapon-jo-stick",
+        "oldZh": "约棍",
+        "newZh": "短棒"
+      }
+    ],
+    "scope": "Patch matching nameZh only;preserve IDs/other fields;do not copy mixed source JSON wholesale at checkpoint."
+  },
+  "next": "PHB printedp.39 hirelings/henchmen,time,distance;then p.40 movement,light,encumbrance.",
+  "sourceCrossChecks": [
+    "Sling base noun corroborated by Slings prose printedp.39;this targeted reference does not close hirelings/time/distance page coverage."
+  ],
+  "latestSnapshot": {
+    "catalogEntries": 8726,
+    "ruleForms": 885,
+    "revisionLedgerTotal": 46228
+  },
+  "validationReport": "phb-equipment-weapons-validation.json"
+}

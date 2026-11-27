@@ -1,0 +1,1198 @@
+[
+  {
+    "en": "EQUIPMENT",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Classes",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.18/PDFp.19；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 18,
+    "targetPdfPage": 19,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Classes",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.18/PDFp.19；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 18,
+    "targetPdfPage": 19,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Players",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Players",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DIVISION",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ADVANCED",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "ADVANCED DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "Character Abilities",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.9/PDFp.10；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 9,
+    "targetPdfPage": 10,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "GAME",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "GAME",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "PLAYER",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Spell Explanations",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.43/PDFp.44；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 43,
+    "targetPdfPage": 44,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Ml",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Casting",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "COMPILED",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "CONTENTS",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "CREATING",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DESCRIPTIONS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "INFORMATION",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "INFORMATION",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "EXPLANATIONS",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "HANDBOOK",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "THE GAME",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "THE GAME",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "FOREWORD",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "PLANES",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.120/PDFp.121；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 120,
+    "targetPdfPage": 121,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "POINTS",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.13/PDFp.14；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 13,
+    "targetPdfPage": 14,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Races",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.13/PDFp.14；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 13,
+    "targetPdfPage": 14,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Combat Procedures",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.105/PDFp.106；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 105,
+    "targetPdfPage": 106,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "ADVENTURING",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "SPELL CASTING",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.100/PDFp.101；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 100,
+    "targetPdfPage": 101,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "EQUIPPING",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "SUCCESSFUL",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Weapon Types",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.38/PDFp.39；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 38,
+    "targetPdfPage": 39,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Bard Race",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Multiple Psionic Operations",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Psionic Disciplines",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.111/PDFp.112；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 111,
+    "targetPdfPage": 112,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "SUCCESSFUL ADVENTURES",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.107/PDFp.108；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 107,
+    "targetPdfPage": 108,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Use of Psionic Powers",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Defense Modes",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.110/PDFp.111；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 110,
+    "targetPdfPage": 111,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "BARDS",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "The Dungeon Master",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "alias",
+    "reason": "DM地下城主的本页完整称呼或复数，已明示关联；不是书目标题本身。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DUNGEONS",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "GUIDE",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Outdoor Exploration",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.101/PDFp.102；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 101,
+    "targetPdfPage": 102,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Psionic Combat",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.116/PDFp.117；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 116,
+    "targetPdfPage": 117,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Dungeon Expeditions",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.101/PDFp.102；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 101,
+    "targetPdfPage": 102,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Melee Combat",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.104/PDFp.105；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 104,
+    "targetPdfPage": 105,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Bard Abilities",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Breath Weapon Attacks",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.104/PDFp.105；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 104,
+    "targetPdfPage": 105,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Example of Combat",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.105/PDFp.106；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 105,
+    "targetPdfPage": 106,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Invisible Movement",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.102/PDFp.103；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 102,
+    "targetPdfPage": 103,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Monster Attack Damage",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.105/PDFp.106；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 105,
+    "targetPdfPage": 106,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Recovery of Psionic Strength Points",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Silent Movement",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.102/PDFp.103；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 102,
+    "targetPdfPage": 103,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Spell Combat",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.104/PDFp.105；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 104,
+    "targetPdfPage": 105,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Weapon Factors",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.105/PDFp.106；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 105,
+    "targetPdfPage": 106,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "First Strike",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.105/PDFp.106；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 105,
+    "targetPdfPage": 106,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Magical Control",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.104/PDFp.105；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 104,
+    "targetPdfPage": 105,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Psionic Powers",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.110/PDFp.111；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 110,
+    "targetPdfPage": 111,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "The Class",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "DUNGEONS & DRAGONS",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "Table I",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Table II",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Appendix I",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.110/PDFp.111；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 110,
+    "targetPdfPage": 111,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "DUNGEON MASTERS GUIDE",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "DUNGEON MASTERS GUIDE",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "此处是游戏／书目名称引用，留作来源与出版上下文，不从其拆词创建规则或怪物。"
+  },
+  {
+    "en": "THE KNOWN PLANES OF EXISTENCE",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.120/PDFp.121；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 120,
+    "targetPdfPage": 121,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "TSR Games",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "APPENDIX IV",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.120/PDFp.121；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 120,
+    "targetPdfPage": 121,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Ay",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Pl",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "YER",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "KNOWN",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "COSTS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "MASTERS",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DATA",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "EXISTENCE",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "PLA",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "CHARACTER ALIGNMENT GRAPH",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.119/PDFp.120；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 119,
+    "targetPdfPage": 120,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "INCLUDING",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "REFERENCE",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "WORK",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Spell Ability",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.19/PDFp.20；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 19,
+    "targetPdfPage": 20,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "APPENDIX III",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.119/PDFp.120；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 119,
+    "targetPdfPage": 120,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Crea",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "STARTING MONEY",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.35/PDFp.36；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 35,
+    "targetPdfPage": 36,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "INTRODUCTION THE GAME",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "SPECIAL REFERENCE WORK",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Dave SUTHERLAND",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "SUGGESTED AGREEMENTS FOR DIVISION OF TREASURE",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.122/PDFp.123；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 122,
+    "targetPdfPage": 123,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "TERM",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "THE MONETARY SYSTEM",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.35/PDFp.36；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 35,
+    "targetPdfPage": 36,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Volume",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "GRAPH",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "APPENDIX II",
+    "locator": "PHB-core/pdf-p.005",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.117/PDFp.118；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 117,
+    "targetPdfPage": 118,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "APPENDIX V",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.122/PDFp.123；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 122,
+    "targetPdfPage": 123,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "CHARACTER HIT POINTS",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.34/PDFp.35；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 34,
+    "targetPdfPage": 35,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "CHARACTER LANGUAGES",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.34/PDFp.35；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 34,
+    "targetPdfPage": 35,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "CHARTS",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "ESTABLISHING",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "SUGGESTED",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Wisdom Table II",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.11/PDFp.12；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 11,
+    "targetPdfPage": 12,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "ADVANCED DUNGEONS A DRAGONS",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "EQUIPMENT COSTS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.35/PDFp.36；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 35,
+    "targetPdfPage": 36,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "ESTABLISHING THE CHARACTERS",
+    "locator": "PHB-core/pdf-p.004",
+    "outcome": "excluded",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.34/PDFp.35；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 34,
+    "targetPdfPage": 35,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "OMP1LED INFORMATION FOR PLAYERS AND GEON",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "PL AY EKS HANDBOIOK",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "SPELL TABLES AND DESCRIPTIONS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "WEAPONS DATA",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Steve Marsh",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "T5H O",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "VII A",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "AKI",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "BMSOSr",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "COMPILED VOLUME OF INFORMATION FOR PLAYERS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Dave Trampier",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "DUIGEOIS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "DUIGEOIS & BMSOSr",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "EKS",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "GEON",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "HANDBOIOK",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "I AKI",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Jim Ward",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "OMP1LED",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "T5H",
+    "locator": "PHB-core/pdf-p.001",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "TING",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "YER CHARACTER",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "excluded",
+    "reason": "普通组织性标题、出版说明、图表编号片段或已校明的OCR错形；不作独立游戏术语，不将OCR错字列为正式异体。"
+  },
+  {
+    "en": "Mike Carr",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "David C",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Brian Blume",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Sutherland III",
+    "locator": "PHB-core/pdf-p.002",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Dennis Sustare",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Peter Aronson",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Tom Holsinger",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Intelligence Table I",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.10/PDFp.11；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 10,
+    "targetPdfPage": 11,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Thieves Table I",
+    "locator": "PHB-core/pdf-p.006",
+    "outcome": "reuse",
+    "reason": "目录／表目录条目，定位已目视核对并路由正文印刷p.27/PDFp.28；此回执只关闭目录出现位置，不排除术语，也不据此关闭目标章节。 既有已核概念可复用，仍按正文语境使用。",
+    "targetBook": "PHB",
+    "targetPrintedPage": 27,
+    "targetPdfPage": 28,
+    "closesTargetCoverage": false,
+    "disposition": "route-to-body-page"
+  },
+  {
+    "en": "Tom Wham",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "TSR Games & Rules Editor",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  },
+  {
+    "en": "Dungeon Masters",
+    "locator": "PHB-core/pdf-p.003",
+    "outcome": "alias",
+    "reason": "DM地下城主的本页完整称呼或复数，已明示关联；不是书目标题本身。"
+  },
+  {
+    "en": "Dungeon Masters",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "alias",
+    "reason": "DM地下城主的本页完整称呼或复数，已明示关联；不是书目标题本身。"
+  },
+  {
+    "en": "Dungeon Masters",
+    "locator": "PHB-core/pdf-p.008",
+    "outcome": "alias",
+    "reason": "DM地下城主的本页完整称呼或复数，已明示关联；不是书目标题本身。"
+  },
+  {
+    "en": "Dungeon Masters",
+    "locator": "PHB-core/pdf-p.009",
+    "outcome": "alias",
+    "reason": "DM地下城主的本页完整称呼或复数，已明示关联；不是书目标题本身。"
+  },
+  {
+    "en": "Timothy Jones",
+    "locator": "PHB-core/pdf-p.007",
+    "outcome": "excluded",
+    "reason": "此定位为作者、画师、编辑或致谢署名，不是游戏世界人物；仅排除此出处，不全局屏蔽同名。"
+  }
+]

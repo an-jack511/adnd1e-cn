@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "Printedp.39/PDFp.40:hirelings,henchmen,time,distance;targeted DMG PDFpp.29/35 profession definitions only",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Alchemist",
+      "zh": "炼金师",
+      "status": "verified-exact",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Bearer",
+      "zh": "搬运工",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Crossbowman",
+      "zh": "弩手",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Engineer",
+      "zh": "工程师",
+      "status": "verified-exact",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Linkboy",
+      "zh": "持灯仆役",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Man-at-arms",
+      "zh": "武装兵",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Steward",
+      "zh": "管事",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Teamster",
+      "zh": "车夫",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Valet",
+      "zh": "贴身仆役",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Loyalty",
+      "zh": "忠诚",
+      "status": "verified-exact",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Disloyalty",
+      "zh": "不忠",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Remuneration",
+      "zh": "报酬",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Distance Scale",
+      "zh": "距离比例尺",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Movement Scale",
+      "zh": "移动比例尺",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Outdoor Scale",
+      "zh": "户外比例尺",
+      "status": "adapted-variant",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Time Scale",
+      "zh": "时间尺度",
+      "status": "adapted-variant",
+      "printedPage": 39
+    }
+  ],
+  "reviewedAliases": [
+    {
+      "category": "rule",
+      "en": "Hireling",
+      "variants": [
+        "Hirelings"
+      ],
+      "printedPage": 39,
+      "scope": "人数不受魅力值上限直接限制的受雇人员；可否招到人、报酬和忠诚仍受环境与魅力等影响，区别随从。"
+    },
+    {
+      "category": "rule",
+      "en": "Henchman",
+      "variants": [
+        "Henchmen"
+      ],
+      "printedPage": 39,
+      "scope": "有角色种族与职业、但不是玩家角色的随从；魅力影响数量，须支付供养及冒险份额，通常只得约一半经验。此处follower是一般描述，不与各职业招来的followers全部混同。"
+    },
+    {
+      "category": "rule",
+      "en": "Counter Ratios",
+      "variants": [
+        "Figure Ratio"
+      ],
+      "printedPage": 39,
+      "scope": "棋子／模型代表实际单位数量的比例；PHB例为1:10或1:20，与模型几何尺寸和地面比例尺不同，不将两版具体模型规则完全等同。"
+    }
+  ],
+  "correctedEntries": [
+    {
+      "category": "rule",
+      "en": "Distance",
+      "oldZh": "遭遇距离",
+      "zh": "距离",
+      "status": "verified-exact",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Ground Scale",
+      "oldZh": "战场比例尺",
+      "zh": "地面比例尺",
+      "status": "adapted-variant",
+      "printedPage": 39
+    }
+  ],
+  "contextUpdates": [
+    {
+      "category": "rule",
+      "en": "Armorer",
+      "zh": "护甲匠",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Blacksmith",
+      "zh": "铁匠",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Turn",
+      "zh": "回合",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Round",
+      "zh": "轮",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Segment",
+      "zh": "段",
+      "printedPage": 39
+    },
+    {
+      "category": "rule",
+      "en": "Ground Scale",
+      "zh": "战场比例尺",
+      "printedPage": 39
+    }
+  ],
+  "lookupQueries": {
+    "Alchemist": [
+      "Alchemist"
+    ],
+    "Bearer": [
+      "Bearer"
+    ],
+    "Crossbowman": [
+      "Crossbowman"
+    ],
+    "Engineer": [
+      "Engineer"
+    ],
+    "Linkboy": [
+      "Linkboy"
+    ],
+    "Man-at-arms": [
+      "Man-at-arms"
+    ],
+    "Steward": [
+      "Steward"
+    ],
+    "Teamster": [
+      "Teamster"
+    ],
+    "Valet": [
+      "Valet"
+    ],
+    "Loyalty": [
+      "Loyalty"
+    ],
+    "Disloyalty": [
+      "Disloyalty"
+    ],
+    "Remuneration": [
+      "Remuneration"
+    ],
+    "Distance Scale": [
+      "Distance Scale"
+    ],
+    "Movement Scale": [
+      "Movement Scale"
+    ],
+    "Outdoor Scale": [
+      "Outdoor Scale"
+    ],
+    "Time Scale": [
+      "Time Scale"
+    ],
+    "Distance": [
+      "Distance"
+    ],
+    "Ground Scale": [
+      "Ground Scale"
+    ]
+  },
+  "unresolvedOriginalWords": [],
+  "next": "PHB printedp.40 character spells and spell tables;adventure/movement material actually beginspp.101–102,notp.40.",
+  "latestSnapshot": {
+    "catalogEntries": 8753,
+    "ruleForms": 914,
+    "revisionLedgerTotal": 46268
+  },
+  "validationReport": "phb-front-hirelings-validation.json"
+}

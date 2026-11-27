@@ -102,6 +102,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:basket, small",
+    "en": "Basket, Small",
+    "currentZh": "小篮",
+    "candidates": [
+      {
+        "en": "Boat, Small",
+        "zh": "小船",
+        "similarity": 0.833,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:battle axe +1",
     "en": "Battle Axe +1",
     "currentZh": "+1 战斧",
@@ -184,14 +198,14 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:boat, long",
-    "en": "Boat, Long",
-    "currentZh": "长船",
+    "key": "item:boat, folding",
+    "en": "Boat, Folding",
+    "currentZh": "折叠船",
     "candidates": [
       {
-        "en": "Bow, long",
-        "zh": "长弓",
-        "similarity": 0.842,
+        "en": "Boat, Long",
+        "zh": "长艇",
+        "similarity": 0.783,
         "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
@@ -235,6 +249,20 @@
         "zh": "命令水元素水钵",
         "similarity": 0.955,
         "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:box, gold, small",
+    "en": "Box, Gold, Small",
+    "currentZh": "小型金箱",
+    "candidates": [
+      {
+        "en": "Box, Iron, Small",
+        "zh": "小型铁箱",
+        "similarity": 0.812,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -850,28 +878,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:quarrel (or bolt), heavy",
-    "en": "Quarrel (or Bolt), heavy",
-    "currentZh": "重弩矢",
+    "key": "item:quarrel (or bolt), hand",
+    "en": "Quarrel (or Bolt), hand",
+    "currentZh": "手弩矢",
     "candidates": [
       {
-        "en": "Quarrel (or Bolt), heavy, score",
-        "zh": "重型弩矢，二十支",
-        "similarity": 0.873,
+        "en": "Quarrel (or Bolt), heavy",
+        "zh": "重弩矢",
+        "similarity": 0.894,
         "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
-    "key": "item:quarrel (or bolt), light",
-    "en": "Quarrel (or Bolt), light",
-    "currentZh": "轻弩矢",
-    "candidates": [
+      },
       {
-        "en": "Quarrel (or Bolt), light, single",
-        "zh": "轻型弩矢，单支",
-        "similarity": 0.857,
+        "en": "Quarrel (or Bolt), light",
+        "zh": "轻弩矢",
+        "similarity": 0.851,
         "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
@@ -1620,32 +1640,6 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:sling stone",
-    "en": "Sling Stone",
-    "currentZh": "投石索石弹",
-    "candidates": [
-      {
-        "en": "Sending Stone",
-        "zh": "短讯石",
-        "similarity": 0.833,
-        "url": "https://5e.kiwee.top/data/items.json"
-      },
-      {
-        "en": "Dispelling Stone",
-        "zh": "解除石",
-        "similarity": 0.815,
-        "url": "https://5e.kiwee.top/data/items.json"
-      },
-      {
-        "en": "Speaking Stone",
-        "zh": "通讯石",
-        "similarity": 0.8,
-        "url": "https://5e.kiwee.top/data/items.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
     "key": "item:spiked buckler",
     "en": "Spiked Buckler",
     "currentZh": "带刺圆盾",
@@ -1743,6 +1737,20 @@
         "zh": "投石索子弹",
         "similarity": 0.8,
         "url": "https://5e.kiwee.top/data/items-base.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:staff sling stone",
+    "en": "Staff Sling Stone",
+    "currentZh": "长柄投石索石弹",
+    "candidates": [
+      {
+        "en": "Sling Stone",
+        "zh": "投石索石弹",
+        "similarity": 0.786,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -3658,37 +3666,17 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "spell:protection from evil",
-    "en": "Protection from Evil",
-    "currentZh": "防护邪恶",
-    "candidates": [
-      {
-        "en": "Protection from Evil and Good",
-        "zh": "防护善恶",
-        "similarity": 0.816,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      },
-      {
-        "en": "Protection from Poison",
-        "zh": "防护毒素",
-        "similarity": 0.81,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      },
-      {
-        "en": "Protection from Energy",
-        "zh": "防护能量",
-        "similarity": 0.81,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
     "key": "spell:protection from fire",
     "en": "Protection from Fire",
     "currentZh": "防护火焰",
     "candidates": [
       {
+        "en": "Protection From Evil",
+        "zh": "防护邪恶",
+        "similarity": 0.85,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      },
+      {
         "en": "Protection from Poison",
         "zh": "防护毒素",
         "similarity": 0.81,
@@ -3698,20 +3686,6 @@
         "en": "Protection from Energy",
         "zh": "防护能量",
         "similarity": 0.81,
-        "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
-    "key": "spell:purify food & drink",
-    "en": "Purify Food & Drink",
-    "currentZh": "净化食粮",
-    "candidates": [
-      {
-        "en": "Purify Food and Drink",
-        "zh": "净化饮食",
-        "similarity": 0.9,
         "url": "https://5e.kiwee.top/data/spells/spells-phb.json"
       }
     ],

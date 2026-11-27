@@ -30,7 +30,7 @@ export const oaItems: Item[] = [
   { id: 'oa-iron-pot', nameZh: '铁壶', nameEn: 'Iron Pot', category: '冒险用品', price: '6 yuan', weight: '见 OA 表 47', description: '用于烹煮和野外补给的铁制锅具。', tags: ['冒险', '补给'], source: equipmentSource },
   { id: 'oa-rope', nameZh: '麻绳（50 尺）', nameEn: 'Hemp Rope', category: '冒险用品', price: '10 yuan', weight: '见 OA 表 47', description: '五十尺麻绳；攀爬、固定营地和牵引时使用。', tags: ['冒险', '攀爬'], source: equipmentSource },
   { id: 'oa-sake', nameZh: '一罐清酒', nameEn: 'Jar of Sake', category: '补给', price: '5 yuan', weight: '见 OA 表 47', description: '东方常见酒类补给。', tags: ['补给', '食物'], source: equipmentSource },
-  { id: 'oa-prayer-beads', nameZh: '祈祷珠', nameEn: 'Prayer Beads', category: '宗教用品', price: '1 yuan', weight: '见 OA 表 47', description: '用于祈祷、冥想和宗教仪式的珠串。', tags: ['宗教', '修贤者'], source: equipmentSource },
+  { id: 'oa-prayer-beads', nameZh: '念珠', nameEn: 'Prayer Beads', category: '宗教用品', price: '1 yuan', weight: '见 OA 表 47', description: '用于祈祷、冥想和宗教仪式的珠串。', tags: ['宗教', '修贤者'], source: equipmentSource },
   { id: 'oa-kiseru', nameZh: '铁管烟斗', nameEn: 'Kiseru', category: '冒险用品', price: '50 yuan', weight: '见 OA 表 47', description: '东方烟斗，也可作为隐藏或装饰性的日常用品。', tags: ['冒险', '日常'], source: equipmentSource },
   { id: 'oa-family-seal', nameZh: '家族传印', nameEn: 'Family Seal', category: '魔法物品', price: '未列售价', weight: '未列', description: '与家族身份、继承和荣誉相关的东方特殊魔法物品；其具体能力依原书条目与家族背景处理。', tags: ['魔法', '家族', '东方'], source: magicSource },
   { id: 'oa-oriental-mirror', nameZh: '东方镜', nameEn: 'Oriental Mirror', category: '魔法物品', price: '未列售价', weight: '未列', description: '东方特殊魔法镜，按 OA 东方魔法物品条目处理。', tags: ['魔法', '镜'], source: magicSource },

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-27",
+  "scope": "PHB front matter PDFpp.1–9 plus printedp.39/PDFp.40;TOC targets routed,not closed",
+  "newTerms": 32,
+  "aliasDecisions": 6,
+  "contextCorrections": 2,
+  "catalogEntries": 8753,
+  "catalogStatuses": {
+    "pending": 6577,
+    "verified-exact": 1429,
+    "adapted-variant": 624,
+    "reference-conflict": 1,
+    "adapted-element": 122
+  },
+  "ruleForms": 914,
+  "ruleStatuses": {
+    "verified-exact": 506,
+    "adapted-variant": 408
+  },
+  "validation": {
+    "labelsSourcesSenses": "PASS:32 new entries,2 corrected labels and6 alias decisions",
+    "sourcePaths": "PASS:all new/corrected local1E reference paths exist",
+    "polysemy": "PASS:four level meanings;Armorer occupation/proficiency;generic/encounter distance;ratio/scale",
+    "candidateReceipts": "PASS:136 front candidates at156 locators+12 hireling candidates at12 locators,0 remaining",
+    "contentsRouting": "PASS:route records do not close body target coverage",
+    "parentExport": "PASS:5 authoritative/generated files byte-identical",
+    "test:terminology": "PASS:3052 live records,1042 sourced/partially sourced names;stable IDs and legacy aliases preserved",
+    "API GET": "PASS:8753 entries;352 recently reviewed labels,status,senses and1E sources;unique IDs;no standalone reference-only",
+    "build": "Not repeated below46387 node;no new commit,push or deployment claimed"
+  },
+  "revisionLedgerTotal": 46268,
+  "nextArchiveLedgerTotal": 46295,
+  "nextBuildLedgerTotal": 46387,
+  "globalBodyApply": false,
+  "fullSourceCoverage": false,
+  "next": "PHB printedp.40 character spells/general component rules;spell tables pp.40–42 then descriptionsp.43 onward",
+  "resolvedCoverageGap": "PHB front matter PDFpp.1–9 reviewed;earlier front-page gap in phb-equipment-weapons-validation.json is historical and superseded by this review",
+  "coverageGaps": [
+    "PHB printedp.40 onward remains unfinished;contents routes do not close their destination chapters.",
+    "Spell tables pp.40–42 and descriptionsp.43 onward are next;movement/light/encumbrance arepp.101–102,notp.40.",
+    "Other core books,expansions,planned material and Dragon remain in scope and unfinished;all-site consistency phase still pending."
+  ],
+  "publication": "Last true push9434ecb8/46095;current46268,173 decisions since checkpoint;next archive46295,next build46387",
+  "metadataSync": "No new live-library nameZh changes this group;next checkpoint must include earlier50 fields from equipment/weapons reports,patched into clean9434ecb8 baseline."
+}

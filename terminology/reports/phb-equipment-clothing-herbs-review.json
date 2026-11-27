@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "Printedp.35 Clothing+Herbs:14 price rows",
+  "newTerms": [],
+  "updatedPendingEntries": [
+    {
+      "category": "item",
+      "en": "Belt",
+      "zh": "腰带",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-067"
+    },
+    {
+      "category": "item",
+      "en": "Boots, High, Hard",
+      "zh": "高筒硬靴",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-068"
+    },
+    {
+      "category": "item",
+      "en": "Boots, High, Soft",
+      "zh": "高筒软靴",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-069"
+    },
+    {
+      "category": "item",
+      "en": "Boots, Low, Hard",
+      "zh": "低筒硬靴",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-070"
+    },
+    {
+      "category": "item",
+      "en": "Boots, Low, Soft",
+      "zh": "低筒软靴",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-071"
+    },
+    {
+      "category": "item",
+      "en": "Cap",
+      "zh": "便帽",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-072"
+    },
+    {
+      "category": "item",
+      "en": "Cloak",
+      "zh": "斗篷",
+      "status": "verified-exact",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-073"
+    },
+    {
+      "category": "item",
+      "en": "Girdle, Broad",
+      "zh": "宽束带",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-074"
+    },
+    {
+      "category": "item",
+      "en": "Girdle, Normal",
+      "zh": "普通束带",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-075"
+    },
+    {
+      "category": "item",
+      "en": "Hat",
+      "zh": "帽子",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-076"
+    },
+    {
+      "category": "item",
+      "en": "Belladonna, Sprig",
+      "zh": "颠茄，一枝",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-078"
+    },
+    {
+      "category": "item",
+      "en": "Garlic, Bud",
+      "zh": "大蒜，一瓣",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-079"
+    },
+    {
+      "category": "item",
+      "en": "Wolvesbane, Sprig",
+      "zh": "乌头，一枝",
+      "status": "adapted-variant",
+      "printedPage": 35,
+      "sourceItemId": "phb-item-080"
+    }
+  ],
+  "reusedTerms": [
+    {
+      "category": "item",
+      "en": "Robe",
+      "zh": "法袍",
+      "status": "verified-exact",
+      "printedPage": 35
+    }
+  ],
+  "lookupQueries": {
+    "Belt": [
+      "Belt"
+    ],
+    "Boots, High, Hard": [
+      "Boots, High, Hard",
+      "Boots"
+    ],
+    "Boots, High, Soft": [
+      "Boots, High, Soft",
+      "Boots"
+    ],
+    "Boots, Low, Hard": [
+      "Boots, Low, Hard",
+      "Boots"
+    ],
+    "Boots, Low, Soft": [
+      "Boots, Low, Soft",
+      "Boots"
+    ],
+    "Cap": [
+      "Cap"
+    ],
+    "Cloak": [
+      "Cloak"
+    ],
+    "Girdle, Broad": [
+      "Girdle, Broad",
+      "Girdle"
+    ],
+    "Girdle, Normal": [
+      "Girdle, Normal",
+      "Girdle"
+    ],
+    "Hat": [
+      "Hat"
+    ],
+    "Robe": [
+      "Robe"
+    ],
+    "Belladonna, Sprig": [
+      "Belladonna, Sprig",
+      "Belladonna"
+    ],
+    "Garlic, Bud": [
+      "Garlic, Bud",
+      "Garlic"
+    ],
+    "Wolvesbane, Sprig": [
+      "Wolvesbane, Sprig",
+      "Wolvesbane"
+    ]
+  },
+  "unresolvedOriginalWords": [],
+  "metadataSync": {
+    "changes": [],
+    "scope": "Only matching nameEn/nameZh fields; preserve stable IDs and all other source data. For checkpoint patch these fields into clean baseline instead of copying mixed source JSON."
+  },
+  "referenceGuards": [
+    "Only inspected physical item headings accepted; Belladonna plant context read, not inferred from a name alone.",
+    "Cloak/Boots/Incense magical context supplies common noun only;no magical properties imported.",
+    "Full compounds/modifiers remain adapted when only base noun matches.",
+    "Material,color,capacity,sale units and transport size retained;no invented material specifics."
+  ],
+  "cacheCoverage": "Offline exact SQLite/tracked name evidence;3R remains partial;an absent local match is not a site-wide absence claim.",
+  "next": "PHB printedp.36 Armor and Weapons introduction;printedpp.37–38 proficiency and weapon tables;then encumbrance and hirelings.",
+  "latestSnapshot": {
+    "catalogEntries": 8726,
+    "ruleForms": 885,
+    "revisionLedgerTotal": 46228
+  },
+  "validationReport": "phb-equipment-weapons-validation.json"
+}

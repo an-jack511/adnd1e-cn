@@ -28,6 +28,30 @@
           "zh": "怪物强度级别",
           "meaning": "部分原文以 level 表示怪物强弱尺度；须与 Hit Dice（生命骰）等具体数据字段分别判断。",
           "source": "src/published/books/dmg/dmg-glossary.md#48; src/published/books/dmg/glossary-2.md#110"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "等级",
+          "meaning": "衡量角色力量及成长阶段；较高数值表示更强角色。",
+          "source": "PHB printedp.8 / PDFp.9"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "层",
+          "meaning": "表示地城的地下层次／深度，数值越高通常越深入地下。",
+          "source": "PHB printedp.8 / PDFp.9"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "法术环阶",
+          "meaning": "衡量法术复杂程度及相对效力，不能等同施法者等级或法术环位。",
+          "source": "PHB printedp.8 / PDFp.9"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "怪物等级",
+          "meaning": "本页怪物威胁分组，与怪物的角色职业等级分开。",
+          "source": "PHB printedp.8 / PDFp.9"
         }
       ]
     },
@@ -40,6 +64,12 @@
           "zh": "回合",
           "meaning": "十分钟，由十个一轮组成；不套用后续版本的六秒 turn。",
           "source": "src/published/books/dmg/glossary-2.md#201"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "回合",
+          "meaning": "本节地城回合为10分钟；不能与模型桌面战斗中的turn用法机械等同。",
+          "source": "PHB printedp.39 / PDFp.40"
         }
       ]
     },
@@ -52,6 +82,12 @@
           "zh": "轮",
           "meaning": "一分钟，由十个六秒段组成；与十分钟回合及后续版本的 round 区分。",
           "source": "src/published/books/dmg/glossary-2.md#78"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "轮",
+          "meaning": "本节一轮为1分钟，十轮为一回合；不是后续版常用的6秒轮。",
+          "source": "PHB printedp.39 / PDFp.40"
         }
       ]
     },
@@ -64,6 +100,12 @@
           "zh": "段",
           "meaning": "六秒，为一轮的十分之一。",
           "source": "src/published/books/dmg/glossary-2.md#192"
+        },
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "段",
+          "meaning": "本节每轮分十段，一段6秒。",
+          "source": "PHB printedp.39 / PDFp.40"
         }
       ]
     },
@@ -1624,6 +1666,12 @@
           "zh": "随从",
           "meaning": "原文明确高阶德鲁伊的职业体系侍从并不自动算作一般henchmen；不能据servitor一词混并身份。",
           "source": "PHB printed p.21 / PDF p.22"
+        },
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "随从",
+          "meaning": "有角色种族与职业、但不是玩家角色的随从；魅力影响数量，须支付供养及冒险份额，通常只得约一半经验。此处follower是一般描述，不与各职业招来的followers全部混同。",
+          "source": "PHB printedp.39 / PDFp.40"
         }
       ]
     },
@@ -2656,6 +2704,12 @@
           "zh": "记忆法术",
           "meaning": "原文用于施法前记住所需法术；与Prepare一并描述预备施法，不据两个动词出现便创设两套独立检定或资源。",
           "source": "PHB printed p.25 / PDF p.26"
+        },
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "记忆法术",
+          "meaning": "本页选术与记忆在冒险前进行；每环阶约15分钟为经验法则，可多次记同术，施放一份即失去该份记忆；不是所有职业均靠阅读法术书记忆。",
+          "source": "PHB printedp.40 / PDFp.41"
         }
       ]
     },
@@ -4246,6 +4300,12 @@
           "zh": "手斧或投斧",
           "meaning": "原表以or并列命名，不拆成两条不同价格武器。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "手斧或投斧",
+          "meaning": "p.38投掷／手持两表将本武器简写为Axe,Hand；此异体不指普通战斧。",
+          "source": "PHB printedp.38 / PDFp.39"
         }
       ]
     },
@@ -4282,6 +4342,12 @@
           "zh": "钩镰",
           "meaning": "与Guisarme、Glaive-Guisarme分别列名及价格，不归并。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "钩镰",
+          "meaning": "本表includes列将Scorpion归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4450,6 +4516,12 @@
           "zh": "长柄刀",
           "meaning": "复用已核武器名，不与Fauchard因旧译同字而归并。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "长柄刀",
+          "meaning": "本表includes列将Couteaux de Breche归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4474,6 +4546,12 @@
           "zh": "钩镰枪",
           "meaning": "原书独立长柄武器，与Bill-Guisarme区分。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "钩镰枪",
+          "meaning": "本表includes列将Bill, Bill Hook归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4486,6 +4564,12 @@
           "zh": "钩镰斧",
           "meaning": "原书独立长柄武器，复合名保留。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "钩镰斧",
+          "meaning": "本表includes列将Lochaber Axe归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4582,6 +4666,12 @@
           "zh": "钉头锤",
           "meaning": "武器名，名称保持与星象和人名语境可区分。采用5E明确名称Morningstar＝钉头锤；旧译晨星仅作检索。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "钉头锤",
+          "meaning": "本表includes列将Godentag, Holy Water Sprinkler归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4594,6 +4684,12 @@
           "zh": "阔刃矛",
           "meaning": "原书武器表长柄武器名，不是普通政治党派成员。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "阔刃矛",
+          "meaning": "本表includes列将Bohemian Ear-Spoon归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4666,6 +4762,12 @@
           "zh": "三叉矛",
           "meaning": "原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "三叉矛",
+          "meaning": "本表includes列将Chauves Souris, Ransom, Rhonca, Roncie, Runka归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4678,6 +4780,12 @@
           "zh": "弯刀",
           "meaning": "复用已核武器名。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "弯刀",
+          "meaning": "本表includes列将Cutlass, Sabre, Sickle-sword, Tulwar归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4726,6 +4834,12 @@
           "zh": "戟矛",
           "meaning": "原表独立长柄武器名，与三叉戟分列，不推定机制等同。",
           "source": "PHB printedp.35 / PDFp.36"
+        },
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "戟矛",
+          "meaning": "本表includes列将Corseque, Korseke归入此武器的统计行；这是1E统计归组，不宣称所有名称在真实武器史上完全同义。Scorpion不是蝎类生物，Holy Water Sprinkler在这里是武器名而非宗教容器，Ransom在这里不是赎金。",
+          "source": "PHB printedp.37 / PDFp.38"
         }
       ]
     },
@@ -4810,6 +4924,2892 @@
           "zh": "长柄砍斧",
           "meaning": "原表独立长柄武器，保留与Guisarme-Voulge区别。",
           "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Belt",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "腰带",
+          "meaning": "与girdle束带分列的衣物价目。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boots, High, Hard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "高筒硬靴",
+          "meaning": "保留筒高与hard限定，价目本身未详细规定制作结构。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boots, High, Soft",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "高筒软靴",
+          "meaning": "保留筒高与soft限定，不额外赋予无声移动加值。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boots, Low, Hard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "低筒硬靴",
+          "meaning": "保留筒高与hard限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boots, Low, Soft",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "低筒软靴",
+          "meaning": "保留筒高与soft限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Cap",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "便帽",
+          "meaning": "与Hat分列的帽类，保持不同主译。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Cloak",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "斗篷",
+          "meaning": "普通衣物价目；5E同名物件标题只供名称借用，不赋予魔法属性。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Girdle, Broad",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "宽束带",
+          "meaning": "保留broad限定，与Belt腰带和普通束带分列。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Girdle, Normal",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "普通束带",
+          "meaning": "保留normal限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Hat",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "帽子",
+          "meaning": "普通衣物，与Cap便帽分列。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Robe",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "法袍",
+          "meaning": "复用已核名称；此处为普通衣物，不因主译有法字而推定魔法、职业或同调限制。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Belladonna, Sprig",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "颠茄，一枝",
+          "meaning": "sprig为枝条包装；已读5E HoL同名植物段落，确认不是人物名。名称不构成现实用药建议。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Garlic, Bud",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大蒜，一瓣",
+          "meaning": "bud为本表售卖单位；按既有中文蒜瓣习惯自译。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wolvesbane, Sprig",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "乌头，一枝",
+          "meaning": "草药名，sprig为一枝；游戏物品名，不按字面译为狼之克星。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Chicken",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "鸡",
+          "meaning": "本表是可购买牲畜，复用物品类别的已核名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Cow",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "家牛",
+          "meaning": "本表是可购买牲畜，复用已核名称；与Ox公牛另列。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dog, Guard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "护卫犬",
+          "meaning": "guard是用途限定，不据名称导入别版怪物数据。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dog, Hunting",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "猎犬",
+          "meaning": "hunting是用途限定，与护卫犬分列。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Donkey",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "驴",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Goat",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "山羊",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Hawk, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型隼",
+          "meaning": "按5E同名Hawk生物译名隼作名称词素；large是1E价目尺寸限定，不导入后续版体型和数据。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Hawk, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型隼",
+          "meaning": "保留small尺寸限定，按同名Hawk译名词素构词。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Horse, Draft",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "驮用马",
+          "meaning": "采用5E Draft Horse驮用马的名称对；1E倒装词形Horse, Draft，承载与挽曳数据仍依1E。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Horse, Heavy War",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "重型战马",
+          "meaning": "重型为1E战马细分，不抹去限定或与后续版单一Warhorse统计等同。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Horse, Light War",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "轻型战马",
+          "meaning": "轻型为1E战马细分。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Horse, Medium War",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "中型战马",
+          "meaning": "中型为1E战马细分。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Horse, Riding (Light)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "轻型乘用马",
+          "meaning": "按5E Riding Horse乘用马的名称词素，保留1E(light)限定。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mule",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "骡子",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ox",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "公牛",
+          "meaning": "复用已核名称；此处是牲畜价目，不新增怪物能力。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pigeon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "鸽",
+          "meaning": "普通禽鸟名，原表未限定信鸽或驯养通信能力。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Piglet",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小猪",
+          "meaning": "猪仔，与成年Pig分列价格，不创建新种族。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pig",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "猪",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pony",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "矮种马",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sheep",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "绵羊",
+          "meaning": "复用已核物品名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Songbird",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "鸣禽",
+          "meaning": "普通鸣禽总称，原表未限定某种鸟。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Backpack, Leather",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "皮背包",
+          "meaning": "保留leather材质。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Box, Iron, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型铁箱",
+          "meaning": "保留iron和large，与木制chest分开。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Box, Iron, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型铁箱",
+          "meaning": "保留iron和small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Candle, Tallow",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "兽脂蜡烛",
+          "meaning": "tallow只说明兽脂，不擅自限定为牛脂。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Candle, Wax",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "蜡质蜡烛",
+          "meaning": "wax只说明蜡质，不擅自限定为蜂蜡；与兽脂款分别记录。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Case, Bone, Map or Scroll",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "骨制地图或卷轴匣",
+          "meaning": "保留bone材质与map or scroll用途；or不表示同时附赠两种内容。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Case, Leather, Map or Scroll",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "皮制地图或卷轴匣",
+          "meaning": "保留leather材质及用途。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Chest, Wooden, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型木箱",
+          "meaning": "保留wooden和large，与铁箱分列。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Chest, Wooden, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型木箱",
+          "meaning": "保留wooden和small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lantern, Bullseye",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "牛眼提灯",
+          "meaning": "采用5E同名普通装备译名；1E倒装词形与照明机制分别记录。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lantern, Hooded",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "附盖提灯",
+          "meaning": "采用5E同名普通装备译名；不用旧译风帽提灯作主名。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mirror, Large Metal",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型金属镜",
+          "meaning": "large metal只说明金属，不擅定为铁或银。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mirror, Small, Silver",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型银镜",
+          "meaning": "保留small及silver。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Oil, Flask of",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "燃油，一瓶",
+          "meaning": "原表普通燃油flask包装，不能与同名魔法油合并。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pole, 10 ft.",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "长杆，10英尺",
+          "meaning": "保留十英尺长度，未按后续版译本中的尺转换单位。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pouch, Belt, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型腰包",
+          "meaning": "保留belt及large，不当作普通无尺寸钱袋。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pouch, Belt, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型腰包",
+          "meaning": "保留belt及small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Dozen Arrows Capacity",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "箭袋，可装12支箭",
+          "meaning": "dozen为12，cap.为容量而非随附箭数。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Score Arrows Capacity",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "箭袋，可装20支箭",
+          "meaning": "score为20，容量不表示附送弹药。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Score Bolts Capacity",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "弩矢袋，可装20支弩矢",
+          "meaning": "保留bolt种类与容量。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 2 Score Bolts Capacity",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "弩矢袋，可装40支弩矢",
+          "meaning": "2 score为40，不能当作2支或20支。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Rope, 50 ft.",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "绳索，50英尺",
+          "meaning": "原表未说明绳索材质，不据后续版商品规格增加麻质或丝质。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sack, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型麻袋",
+          "meaning": "采用已核Sack麻袋词素并保留large；原价目未列承载数据。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sack, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型麻袋",
+          "meaning": "保留small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Skin for Water or Wine",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "水或酒皮囊",
+          "meaning": "原文明确可装water or wine，不能删去酒或补入固定容量。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Spike, Iron, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型铁钉",
+          "meaning": "保留large与iron；不能无证改成特定大小攀爬岩钉。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Thieves' Picks & Tools",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "盗贼开锁器与工具",
+          "meaning": "保留原文picks与tools并列；5E盗贼工具仅供名称词素，不导入熟练机制。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Tinder Box, with Flint & Steel",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "火绒盒，含燧石与火镰",
+          "meaning": "with flint & steel是包含物；不因词头合写而删除。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Torch",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "火把",
+          "meaning": "复用已核名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ale, Pint",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "麦酒，一品脱",
+          "meaning": "保留pint体积单位。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Beer, Small, Pint",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "淡啤酒，一品脱",
+          "meaning": "small指啤酒种类，非小品脱；保留原表pint数量。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Food, Merchant's Meal",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "商人餐食",
+          "meaning": "按原表merchant's meal语义定译，不据现成中文商旅餐食反推原词。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Food, Rich Meal",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "丰盛餐食",
+          "meaning": "rich修饰餐食档次，不是名为富人的人物。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Grain, Horse Meal, 1 Day",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "马料，一日份",
+          "meaning": "grain和horse meal是马匹谷物饲料，不是人类食用马肉餐。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mead, Pint",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "蜂蜜酒，一品脱",
+          "meaning": "保留pint数量。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Rations, Iron, 1 Week",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "耐久口粮，一周份",
+          "meaning": "iron不是铁制食物；译作耐久口粮，保留一周供应。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Rations, Standard, 1 Week",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "标准口粮，一周份",
+          "meaning": "standard与iron两种价目分列，保留一周供应。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wine, Pint, Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "优质葡萄酒，一品脱",
+          "meaning": "保留good档次及pint。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wine, Pint, Watered",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "兑水葡萄酒，一品脱",
+          "meaning": "watered为兑水，不能译为水质葡萄酒或删去限定。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Beads, Prayer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "念珠",
+          "meaning": "普通宗教物品，按Prayer Beads在已核Necklace of Prayer Beads念珠项链中的词素构词；不是带法术效果的魔法项链。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Incense, Stick",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "香，一炷",
+          "meaning": "stick是本表一炷的售卖单位；不导入5E同名特殊香的幻觉／毒性。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Iron",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "铁制圣徽",
+          "meaning": "原表Symbol,Holy*,iron；*or Unholy也允许同材质邪徽，另记语境义项，星号不是名称文字。",
+          "source": "PHB printedp.36 / PDFp.37"
+        },
+        {
+          "context": "AD&D 1E PHB 宗教物品*or Unholy脚注",
+          "zh": "铁制邪徽",
+          "meaning": "本表*or Unholy脚注容许相应材质的邪徽使用同一价目。此义项是原表脚注扩展，不把Holy与Unholy视为全局英文同义词，也不推定魔法性质相同。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Silver",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "银制圣徽",
+          "meaning": "*or Unholy亦适用；删除名称中排版脚注星号，不删脚注含义。",
+          "source": "PHB printedp.36 / PDFp.37"
+        },
+        {
+          "context": "AD&D 1E PHB 宗教物品*or Unholy脚注",
+          "zh": "银制邪徽",
+          "meaning": "本表*or Unholy脚注容许相应材质的邪徽使用同一价目。此义项是原表脚注扩展，不把Holy与Unholy视为全局英文同义词，也不推定魔法性质相同。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Wooden",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "木制圣徽",
+          "meaning": "*or Unholy亦适用；各材质分列。",
+          "source": "PHB printedp.36 / PDFp.37"
+        },
+        {
+          "context": "AD&D 1E PHB 宗教物品*or Unholy脚注",
+          "zh": "木制邪徽",
+          "meaning": "本表*or Unholy脚注容许相应材质的邪徽使用同一价目。此义项是原表脚注扩展，不把Holy与Unholy视为全局英文同义词，也不推定魔法性质相同。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Water, Holy or Unholy, Vial",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "圣水或邪水，一小瓶",
+          "meaning": "原表Water,Holy*,vial，脚注*or Unholy；保留两种液体及vial包装，脚注星号不是名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Barding, Chain",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "链甲具装",
+          "meaning": "借用5E具装名称并保留chain材质种类；不是人穿的链甲，不移植后续版通用四倍造价规则。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Barding, Leather",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "皮甲具装",
+          "meaning": "保留leather种类。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Barding, Plate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "板甲具装",
+          "meaning": "保留plate种类。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bit and Bridle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "辔具",
+          "meaning": "复用已核名称，包含衔铁与马勒。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Harness",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "挽具",
+          "meaning": "牲畜牵引所用挽具，不等同鞍囊或单独辔具。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Saddle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "马鞍",
+          "meaning": "原表泛称，未额外分为骑乘、军用或异兽鞍。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Saddle Bags, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型鞍囊",
+          "meaning": "采用已核Saddlebags鞍囊词素，保留large。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Saddle Bags, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型鞍囊",
+          "meaning": "保留small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Saddle Blanket",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "鞍毯",
+          "meaning": "置于鞍下的毯类装备，不等同马匹具装。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Barge (or Raft), Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型驳船（或木筏）",
+          "meaning": "原表以or并列同一价目；不由此推定两者船只统计完全相同。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boat, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小船",
+          "meaning": "原表未限定为5E Rowboat划艇，不用相近船名反推推进方式。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Boat, Long",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "长艇",
+          "meaning": "原表Boat,long与船舶行分开，价格150金币；不误作后续版独立大型Longship或维京长船。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Cart",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "二轮货车",
+          "meaning": "复用已核名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Galley, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型桨帆船",
+          "meaning": "保留large船型尺寸，不据后续版Galley统一数据。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Galley, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型桨帆船",
+          "meaning": "保留small船型尺寸。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ship, Merchant, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "大型商船",
+          "meaning": "保留merchant用途及large；不据近似Sailing Ship删去商船限定。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ship, Merchant, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "小型商船",
+          "meaning": "保留merchant用途及small。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ship, War",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "战舰",
+          "meaning": "采用5E Warship战舰名称，保留1E倒装写法Ship,War，不移植船只统计。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wagon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 价目表物品",
+          "zh": "四轮货车",
+          "meaning": "复用已核名称。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initial Number of Weapons",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "起始武器熟练项数",
+          "meaning": "表示初始能熟练使用的武器数，不是最多可携带武器数。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Added Proficiency in Weapons Per Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "每若干等级新增的武器熟练项数",
+          "meaning": "1/4 levels等分数写法表示在首级之后每四级新增一项，不表示每级只取得四分之一把武器。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Approximate Weight in Gold Pieces",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "重量约值（金币重量）",
+          "meaning": "金币在本表是重量计量单位，不是武器价格；具体值按1E表。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Damage vs. Opponent",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "对目标的伤害",
+          "meaning": "按目标体型分别列示伤害，不是命中概率或攻击次数。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Size S or M",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "小型或中型体型",
+          "meaning": "伤害表的目标体型分组；S/M缩写可保留但其语义在此记明。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Size L",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "大型体型",
+          "meaning": "本表大于人类大小的目标分组，不能套用后续版所有体型等级边界。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hand Held Weapon Type",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "手持武器类型",
+          "meaning": "近身持用武器表的类型栏，与下方投射武器及投射物分栏。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Length",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "长度",
+          "meaning": "本表武器长度，含约数、英尺／英寸及加号；不能和研究时长或船只长度自动混同。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Space Required",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "挥用所需空间",
+          "meaning": "使用该武器需要的空间；不是武器自身长度或人物占地体型。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hurled Weapons and Missiles",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "投掷武器与投射物",
+          "meaning": "本表投射武器及弹药分组，含弓弩／投石索条目；不局限徒手投掷。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Fire Rate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "射击速率",
+          "meaning": "本表按桌面模型用turn或melee round计射速；重弩1/2等分数不得读成每轮两次，也不能把该表turn机械套成地城10分钟回合。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Short Range",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "近射程",
+          "meaning": "由Range栏及注释S=Short展开的字段名；本表护甲调整以近射程为基准。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Medium Range",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "中射程",
+          "meaning": "由Range栏及M=Medium展开；本表另有-2修正，不移植后续版优劣势规则。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Long Range",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "远射程",
+          "meaning": "由Range栏及L=Long展开；本表另有-5修正。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Fist or Open Hand",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "拳击或徒手",
+          "meaning": "无武器攻击的表内行，不作为可购买物品；并非武僧Open Hand Combat能力本身。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Type of Armor",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "护甲类型",
+          "meaning": "护甲等级表的类型栏，护甲加盾牌组合只是护甲等级计算状态，不另计为新护甲种类。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Stunned",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "震慑",
+          "meaning": "本表对处于震慑的目标攻击有+4；这里只借用状态名称，不附加5E条件条款。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prone",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "倒地",
+          "meaning": "本表对倒地目标攻击有+4；不附加5E远程攻击优劣势等机制。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Motionless",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "静止不动",
+          "meaning": "本表对静止不动目标攻击有+4；不直接等同麻痹、束缚或后续版失能。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Dismounting",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "击落骑手",
+          "meaning": "特定斜体武器命中超过所需命中数的指定幅度时可将骑手击落；不是骑手自行下马。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Disarming",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "缴械",
+          "meaning": "表内星号武器可按命中AC8的分数缴械；这是1E表内能力，不导入后续版缴械程序。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Normal-Sized Shield",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "普通尺寸盾牌",
+          "meaning": "本节与小盾、大盾分别说明，每轮能对两次攻击计盾牌收益；有别于小盾一次和大盾三次。保留原书从正面格挡及右侧／后方失效的限定。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bo Stick",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "长棒",
+          "meaning": "p.38长度约5英尺，区别约3英尺的Jo Stick；旧译短棍不能准确区分本表两者。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Jo Stick",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "短棒",
+          "meaning": "p.38长度约3英尺，与Bo Stick的长度和速度因数分列，不作约棍音译。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Staff, Quarter",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "长棍",
+          "meaning": "借用Quarterstaff长棍词对，保留1E倒装写法。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lance (light horse)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "轻骑枪",
+          "meaning": "表内骑枪供轻型战马使用；1E星号冲锋双倍伤害说明另记。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lance (medium horse)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "中骑枪",
+          "meaning": "表内骑枪供中型战马使用。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lance (heavy horse)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "重骑枪",
+          "meaning": "表内骑枪供重型战马使用。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), light",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "轻弩矢",
+          "meaning": "轻弩弹药的统计行，与单支价目是同一种弹药的不同记录形式。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), heavy",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "重弩矢",
+          "meaning": "重弩弹药的统计行，与二十支包装价目分开检索。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sling Stone",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "投石索石弹",
+          "meaning": "石弹与金属／专制子弹分列，不能混用本表不同伤害值。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Bastard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "混种剑",
+          "meaning": "独立剑种；p.38双星说明单手使用时按长剑处理，不表示长剑与混种剑是同义词。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Broad",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "阔剑",
+          "meaning": "与长剑分列，不按价格表是否附鞘合并武器类型。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Long",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "长剑",
+          "meaning": "统计行不含剑鞘；译名词素与已核价目记录一致。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Short",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "短剑",
+          "meaning": "本表包括刀刃15至24英寸的尖头切刺武器，不把其全部后续版属性引入1E。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Weapon Speed Factor",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "武器速度因数",
+          "meaning": "武器表Speed Factor栏是既有武器速度因数的短写，保留1E数值及其程序用途，不当作射击速率。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Armor Class",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "护甲等级",
+          "meaning": "p.36说明护甲等级不仅来自所穿护甲；怪物的速度、敏捷、体型或超自然因素也影响AC，不能由怪物AC反推它穿某种护甲或持盾。盾牌仅对可格挡正面攻击适用；护甲／盾牌魔法加值降低AC。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Encumbrance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "负重",
+          "meaning": "p.36说明魔法护甲不计移动负重；该说明不等于所有魔法物品都没有重量。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Weapon Proficiency",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "武器熟练项",
+          "meaning": "p.36–37按职业授予初始武器熟练项，随后按等级间隔新增；不熟练使用武器仍可攻击，但受本职命中惩罚。",
+          "source": "PHB printedp.36 / PDFp.37"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Non-Proficiency Penalty",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 护甲／武器表",
+          "zh": "不熟练命中惩罚",
+          "meaning": "p.37是使用不熟练武器时近战或投射攻击命中骰的减值，不等同于缺少后续版熟练加值。",
+          "source": "PHB printedp.37 / PDFp.38"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sling",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 投射武器本体",
+          "zh": "投石索",
+          "meaning": "p.38按使用bullet或stone两种弹药分列射程资料；本体与弹药商品分开。",
+          "source": "PHB printedp.38 / PDFp.39; prose Slings printedp.39 / PDFp.40"
+        },
+        {
+          "context": "Sling (bullet)发射模式",
+          "zh": "投石索（弹丸）",
+          "meaning": "本表使用弹丸的投石索发射模式，射程列与石弹模式分开。不是单独一枚Sling Bullet。",
+          "source": "PHB printedp.38 / PDFp.39"
+        },
+        {
+          "context": "Sling (stone)发射模式",
+          "zh": "投石索（石弹）",
+          "meaning": "本表使用石弹的投石索发射模式；不是单独的Sling Stone商品。",
+          "source": "PHB printedp.38 / PDFp.39"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Role Playing",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "角色扮演",
+          "meaning": "此处指参与者扮演虚构人物、按其能力与阵营行动，并非玩家本人身份；不视作独立检定系统。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Swords & Sorcery",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "剑与巫术",
+          "meaning": "幻想题材说明；已读5E DMG同一题材标题Sword and Sorcery，不是新增施法职业或法术系统。参考正文另有剑与魔法表述，主译采用标题词对。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Play Balance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "游戏平衡",
+          "meaning": "序言说明职业／种族的长短处与限制用于保持游戏平衡，是设计概念，不是额外数值资源。",
+          "source": "PHB printedp.6 / PDFp.7"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Character Record",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "角色记录表",
+          "meaning": "可用专门纸表或自制记录表保存能力、装备位置、已知及记忆法术、经验值等；记录不是玩家角色本体。Character Sheet角色卡是近义参考，非完整同名译对。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Dungeon Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "地城层数",
+          "meaning": "level在此表示地下复合建筑的层次／深度；编号越大通常越深，不是角色等级。WDMM的Dungeon Level是第一层专名地牢之阶，已读该条结构并排除为不适用译名。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Monster Level",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "怪物等级",
+          "meaning": "本页以level衡量怪物潜在威胁，并举1至16等分组；不是怪物角色职业等级或生命骰数量的同义词。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Game Time",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "游戏时间",
+          "meaning": "虚构世界的时间进程，可有多个角色在同一游戏时刻参与不同冒险；与现实游玩时长及单次聚会不同。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "Falstaff",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "福斯塔夫",
+          "meaning": "战士示例角色；不是将现实玩家Jim等姓名当作人物，也不据同名推定莎士比亚人物身份。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "Angore",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "安戈尔",
+          "meaning": "牧师示例角色，未给出神祇或背景，不臆补设定。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "Filmar",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门／角色记录",
+          "zh": "菲尔玛",
+          "meaning": "魔法师示例角色；mistress of magic是本段描述，不据此创设新的职业或等级头衔。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "DM",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "地下城主",
+          "meaning": "游戏主持及裁判，构建世界并扮演其他人物；保留既有缩写词头，长名可检索。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "PC",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "玩家角色",
+          "meaning": "由参与者创建和扮演的角色；本页建议开局每人一个，后续可按主持裁量增加，并非PC永远只能一个。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "NPC",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "非玩家角色",
+          "meaning": "由主持创建或控制的其他人物，与玩家角色区分；非玩家角色不等同于敌人或怪物阵营。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Alchemist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "炼金师",
+          "meaning": "受雇专业人员，借用5E同名炼金师名称，不视为获得奇械师子职或法术能力。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Bearer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "搬运工",
+          "meaning": "按指示搬运物品的劳动者，DMG释义与Porter并列；不能按词面泛指物品持有者。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Crossbowman",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "弩手",
+          "meaning": "以弩作战的受雇人员，不是武器物品或玩家职业。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Engineer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "工程师",
+          "meaning": "受雇专业人员，借用同名5E人物／生物标签的职业名称，不移植其种族、构造或战斗数据。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Linkboy",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "持灯仆役",
+          "meaning": "DMG明定为持火炬或提灯的人，常是年轻人但成年人也可任职；不把boy变成强制年龄或把光源限为火炬。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Man-at-arms",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "武装兵",
+          "meaning": "受雇武装人员，不等同战士玩家职业；本书p.34以常人为生命值例子。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Steward",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "管事",
+          "meaning": "管理事务的受雇人员；定向读DMG PDFp.35 Steward/Castellan城堡管理释义，不凭名称附加所有军官能力。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Teamster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "车夫",
+          "meaning": "DMG指驾驶并装卸cart或wagon的人员，不是现代卡车司机或整个马队。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Valet",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "贴身仆役",
+          "meaning": "DMG指私人／家务仆役的职业组，不是现代代客停车服务。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Loyalty",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "忠诚",
+          "meaning": "受雇者和随从对服务对象的忠诚；已读5E同名可选规则名称，仅借用中文，不采用该版数值上限／增减机制。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Disloyalty",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "不忠",
+          "meaning": "本节描述在战斗与压力情形下的背叛或逃离；不自动等同于一次士气检定失败。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Remuneration",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "报酬",
+          "meaning": "本页包括供养、维持开销、工资、奖金及财宝份额的总体回报；影响随从忠诚，不仅指单次工资。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Distance Scale",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "距离比例尺",
+          "meaning": "以桌面英寸符号标示的游戏距离尺度；户外1英寸代表10码，室内／地下1英寸代表10英尺，并非现实只有一英寸距离。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Movement Scale",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "移动比例尺",
+          "meaning": "移动所采用的距离与时间尺度依地城、城市、荒野及战斗情境调整，不把所有移动率按同一时长解释。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Outdoor Scale",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "户外比例尺",
+          "meaning": "本节户外三倍比例仅用于射程，不能一并放大法术效应区域；特定1:10或1:20模型比例且建筑也按模型缩放时另有例外。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Time Scale",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 受雇者／随从／尺度",
+          "zh": "时间尺度",
+          "meaning": "移动率所对应的时间单位依场景选择，不能因turn、round都可称作回合而混为一项。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hireling",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "受雇者",
+          "meaning": "人数不受魅力值上限直接限制的受雇人员；可否招到人、报酬和忠诚仍受环境与魅力等影响，区别随从。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Counter Ratios",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文词形与语境",
+          "zh": "棋子代表比率",
+          "meaning": "棋子／模型代表实际单位数量的比例；PHB例为1:10或1:20，与模型几何尺寸和地面比例尺不同，不将两版具体模型规则完全等同。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Armorer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "护甲匠",
+          "meaning": "此处是可雇用的护甲制作人员；原主表的护甲修造用于熟练项含义，职业义与熟练项名称分别看语境。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Blacksmith",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "铁匠",
+          "meaning": "本页是可受雇的铁匠，不据熟练项词头直接赋予人物数据。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Ground Scale",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 语境补充",
+          "zh": "战场比例尺",
+          "meaning": "本节以地面距离与模型代表数量相区分；户外射程三倍不自动扩大效应区域。",
+          "source": "PHB printedp.39 / PDFp.40"
+        },
+        {
+          "context": "AD&D 1E PHB 一般距离／比例尺度",
+          "zh": "地面比例尺",
+          "meaning": "PHB此处用于地城／荒野的地面距离换算，旧译战场比例尺过窄；保留旧译供检索，BATTLESYSTEM的具体战场尺度另看该书义项。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Distance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 一般距离／比例尺度",
+          "zh": "距离",
+          "meaning": "PHB此处讨论一般距离和比例，既有遭遇距离主译只适于DMG遭遇语境，已有Encounter Distance继续专指遭遇距离；新主译采用更通用的距离。",
+          "source": "PHB printedp.39 / PDFp.40"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Character",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门的游戏实体与类型",
+          "zh": "角色",
+          "meaning": "参与游戏故事的虚构人物／化身，可为玩家角色或非玩家角色；不是现实玩家本人。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Player",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门的游戏实体与类型",
+          "zh": "玩家",
+          "meaning": "现实参与游戏的人；其中一位担任地下城主，其他人扮演冒险角色。玩家与玩家角色不是同一概念。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Adventurer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门的游戏实体与类型",
+          "zh": "冒险者",
+          "meaning": "在幻想世界探索并面对挑战的角色总称，不是新增角色职业。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Adventure",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门的游戏实体与类型",
+          "zh": "冒险",
+          "meaning": "战役中的一次或一段虚构探索／挑战活动，不等同整个战役或现实的一次聚会。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Fantasy Role Playing Game",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 入门的游戏实体与类型",
+          "zh": "奇幻角色扮演游戏",
+          "meaning": "序言和介绍对本作游戏类型的说明，不是新的法术、职业或可购买物品。",
+          "source": "PHB printedp.7 / PDFp.8"
+        }
+      ]
+    },
+    {
+      "category": "glossary-term",
+      "en": "Dungeon",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 地城及层数说明",
+          "zh": "地下城",
+          "meaning": "地下隧道、通路、房间、厅室等组成的复合探索环境；复用既有地下城释义，不新增同名规则词头。",
+          "source": "PHB printedp.8 / PDFp.9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Campaign Milieu",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 角色选择／战役背景",
+          "zh": "战役环境",
+          "meaning": "由地下城主构建、供角色探索的具体游戏世界和背景环境，区别于战役的连续游戏过程或一场真实战争。",
+          "source": "PHB printedpp.7–8 / PDFpp.8–9"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spell",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "法术",
+          "meaning": "本条指法术本体，区别于Spell豁免类别；按条目有等级、成分与效果等，不把法术本体等同一次施法、法术环位或所记忆的一份。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spell Casting",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "施法",
+          "meaning": "实施法术的动作／过程；参照Spellcasting名称，保留1E拼写和施法程序，不采用后续版动作经济。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spell Caster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "施法者",
+          "meaning": "能施放法术者的泛称；Spell User在本段同指施法者，不是仅指Magic-User魔法师职业。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Verbal Component",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "言语成分",
+          "meaning": "本段V标记表示需发声的言语成分；多数而非所有法术都有该成分。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Somatic Component",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "姿势成分",
+          "meaning": "S标记表示身体动作／手势成分；不从后续版补入具体空手规则。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Material Component",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "材料成分",
+          "meaning": "M标记表示需备的材料。牧师本节说明一般材料施法完成即用掉，但标准宗教用品等例外；不把该段推广为全部职业的同一消耗制度，也不引入后续版材料包／法器替代。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Clerical Spells",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "牧师类法术",
+          "meaning": "本段包括牧师及德鲁伊法术，由神明一方授予言语／姿势内容，材料仍须自备；不凭本段创设后续版Divine Spells作为1E原词。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Magical Spells",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "魔法师类法术",
+          "meaning": "本段明确指魔法师及幻术师法术，与上段Clerical Spells分组；不是泛指游戏中所有魔法效果。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Reversible Spell",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "可逆法术",
+          "meaning": "本页牧师须在学习／记忆前选定正用或反用，不能一份法术同时两用；逆转可影响阵营与神明是否授予。Reversible是标题中的标记，不据后版规则把一份记忆改成可临时任意切换。 该选择时点只据牧师总注，不泛推到其他职业。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Instantaneous",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "立即",
+          "meaning": "持续时间词，依5E同名持续时间标题采用立即；指效果仅短暂发生，绝不是施法时间为零。是否留下物理后果、能否驱散等仍看1E本术，不推入5E全部定义。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Permanent",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "永久",
+          "meaning": "持续时间词。本页造出的水及治好的伤可长期保留，但水仍会蒸发／用掉、身体仍可再次受伤；不等于不可破坏或永久免疫，也不同于Permanency法术名。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Touch",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "触及",
+          "meaning": "1E本页明定须以手实际接触受术者。中文借用已读5E射程说明的触及表达；不把怪物攻击标题Touch触碰当作本字段精确译对，不等同只站在近战触及距离。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Conjuration/Summoning",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "咒法／召唤",
+          "meaning": "1E复合魔法类型，完整词组自译，后续版Conjuration只供咒法词素；不是把1E类别强改为单一后版标签。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Enchantment/Charm",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "惑控／魅惑",
+          "meaning": "完整1E类型，惑控词素有据，魅惑部分依本页Command影响心智语境自译；不把后版超自然恩赐Charm当此类别。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Alteration",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "变化",
+          "meaning": "保留1E原词Alteration；后续版Transmutation的变化只供译名词素，不设为1E正式英语异体。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Divination",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "预言术",
+          "meaning": "本条是魔法类型；5E学校列表亦名预言术，与同名独立法术分条、分义，不合并。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Abjuration",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "防护",
+          "meaning": "本页Protection From Evil、Remove Fear、Sanctuary等的类型标签，只借后版同名类型译名，不更改各术所属分类。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Necromantic",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 法术与成分／类型",
+          "zh": "死灵",
+          "meaning": "保留原书形容词词形。1E本页Cure Light Wounds明确属此类，不按后续版治疗法术分类改写。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Bless",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "祝福术",
+          "meaning": "本版正向提高未参加近战友方的士气和命中，逆转curse降低敌方士气／命中；不套用后续版1d4机制。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Curse",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "诅咒术",
+          "meaning": "Bless逆转段以curse名词称呼的形式；不是后续Bestow Curse，也不主张本书另有独立标题段。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Command",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "命令术",
+          "meaning": "一字命令，语言须能理解；对不死生物无效，高智力或较多生命骰者可豁免。仅为游戏法术语境。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Create Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "造水术",
+          "meaning": "创造清洁可饮用的水，按施法者等级计量；后续版同名造水分支只作命名依据，不把复合法术名移入本版。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Destroy Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "枯水术",
+          "meaning": "Create Water段明示destroy water的逆转形式，消除相应水量；采用后续同名分支枯水词素并加法术称名。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Cure Light Wounds",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "治疗轻伤",
+          "meaning": "本版触碰治疗1至8点伤害，限制非活物等；治愈后仍可再受伤。原文类型Necromantic须保留。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Cause Light Wounds",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "造成轻伤",
+          "meaning": "本段明确的治疗轻伤逆转名；造成1至8点伤害，规避触碰者须近战命中，不与后续版Inflict Wounds等名强合。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Detect Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "侦测邪恶",
+          "meaning": "侦测生物或物品的邪恶辐射，逆转为善良；无智毒蛇或隐藏陷阱不因危险就显邪恶。不是后续Detect Evil and Good的生物种类探测。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Detect Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "侦测善良",
+          "meaning": "Detect Evil段明示detect good的逆转名；不是独立拼造新的善恶合并探测法术。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Detect Magic",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "侦测魔法",
+          "meaning": "本版定向路径中的魔法辐射探测，材料为圣徽／邪徽；不套用后续版球形范围或专注制度。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Light",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "光亮术",
+          "meaning": "本版光亮如火炬，黑暗逆转仅持续正向的一半；对生物施放另涉及抗性／豁免，不套用后续版光照参数。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Darkness",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "黑暗术",
+          "meaning": "本条新增语境是1E牧师Light的逆转，同区域、半时长；不与另一个完整名Darkness,15' Radius强合，也不带入3R或5E机制。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Protection From Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "防护邪恶",
+          "meaning": "本版既有对部分魔法／召唤生物的身体接触屏障，也对邪恶攻击有命中／豁免修正；不是后续同名复合法术的全部规则。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Protection From Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "防护善良",
+          "meaning": "本段明确逆转名；原文仍保留阻挡某些邪恶魔法生物的说明，不能仅因名称相反而翻转所有效果。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Purify Food & Drink",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "净化饮食",
+          "meaning": "净化腐败／受毒或污染的饮食使可食用；采用5E Purify Food and Drink净化饮食，&／and书写适配，旧译净化食粮留搜索。",
+          "source": "PHB printedp.44 / PDFp.45"
+        },
+        {
+          "context": "AD&D 1E 牧师净化饮食的未命名逆转效果",
+          "zh": "腐败饮食",
+          "meaning": "本页只用putrefies food and drink叙述逆转效果，未给出正式完整反向英文名；不臆造Putrefy Food & Drink词头。原句purify water另与独立德鲁伊Purify Water同形，不据此给本术添加那个英语异体。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Remove Fear",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "移除恐惧",
+          "meaning": "借用已核3R名称，本版给予抗恐惧加值或重试豁免，并可抵消逆转Cause Fear；1E数值独立。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Cause Fear",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "惊恐术",
+          "meaning": "本段明示cause fear逆转；采用3R精确同名惊恐术，保留1E逃离时长／范围等。本词头不是普通叙述造成恐惧，旧词只供有语境的搜索，不授权全局替换泛动词。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Resist Cold",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "抵抗寒冷",
+          "meaning": "本版抵御环境寒冷并改善寒冷攻击豁免／伤害；无适用完整译对，依原意自译，不改名成后续通用Resist Energy。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "spell",
+      "en": "Sanctuary",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 牧师一环法术／逆转形式",
+          "zh": "庇护术",
+          "meaning": "本版对攻击牧师的对手要求豁免，不阻区域攻击，受护者不得采取攻击行动；只复用译名，不补后续版目标选择或触发机制。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Monster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "怪物",
+          "meaning": "本页泛指冒险中遭遇的生物／人物，可友善或并非邪恶；不能将monster一律推成敌人。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Components",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "成分",
+          "meaning": "V/S/M是言语／姿势／材料成分，可能只有部分标记；本节神授内容不包括免费出现材料。",
+          "source": "PHB printedp.40 / PDFp.41"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Casting Time",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "施法时间",
+          "meaning": "按轮、段或更长时间标明施法所需时间，不是持续时间；每轮十段、每回合十轮。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Saving Throw",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "豁免检定",
+          "meaning": "本字段注明是否可豁免，成功可能使效果无效或减半；None、Special、Neg.和1/2是需看各术解释的值，不为普通词或代码另外造新机制。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Range",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "射程",
+          "meaning": "本页以英寸符号或Touch表示，须结合39页比例；Touch必须手接触目标。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Duration",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "持续时间",
+          "meaning": "按回合、轮或立即等列示；与施法时间不同，永久也不表示物理物品无法损毁。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Area of Effect",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 通用法术说明",
+          "zh": "效应区域",
+          "meaning": "可为覆盖区域或受影响生物数量，不一定是几何半径；户外比例不自动放大此字段。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "水",
+          "meaning": "普通物质水，在本段为一滴材料或所造的清水；不是水元素族裔、戒指或魔法物品省略标题。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dust",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "尘土",
+          "meaning": "普通尘土，逆转造水的材料为一撮；不同于同名Dust戏法或魔法尘。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Blood",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "血液",
+          "meaning": "本段防护善良描绘护圈所用材料；未指定供血者、物种或另加取血过程，不能臆补。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Incense",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "香",
+          "meaning": "本段燃烧的香用于描绘法术防护；只借用后版同名物件的普通名词，不导入该件特殊香的毒性或幻觉效果。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dung",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "粪便",
+          "meaning": "本段阴燃的粪便是描绘防护善良的材料选项；未限定来自何种动物，不擅译牛粪。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sulphur",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "硫磺",
+          "meaning": "抵抗寒冷所需的一撮硫磺；保留1E sulphur原拼写，不当作硫酸或其他硫化物。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Holy Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "圣水",
+          "meaning": "本段用作祝福术材料；本词是一般圣水，不是小瓶包装名，后版同名物品只供名称。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Unholy Water",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "邪水",
+          "meaning": "净化饮食段明确区分的邪水；不能把Bless逆转另称的specially polluted water无证等同于邪水。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Unholy Symbol",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "邪徽",
+          "meaning": "本段与holy symbol并列的普通邪恶宗教象征物；扩展自holy(or unholy)symbol的明确共用名词，不当作同名法术。",
+          "source": "PHB printedp.44 / PDFp.45"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Prayer Beads",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 施法材料／普通宗教用品",
+          "zh": "念珠",
+          "meaning": "本页明确是一般宗教用品／材料例外；与念珠项链魔法物品分开。借已核念珠词素自译，保留OA现有稳定ID及书系价格，不声称已完成OA整页审查。",
+          "source": "PHB printedp.43 / PDFp.44"
+        }
+      ]
+    },
+    {
+      "category": "glossary-term",
+      "en": "Holy/Unholy Water",
+      "senses": [
+        {
+          "context": "AD&D 1E 合称与施法材料",
+          "zh": "圣水／邪水",
+          "meaning": "同时包括holy和unholy两种液体的合称；单独Holy Water仍为圣水，Unholy Water为邪水。",
+          "source": "PHB printedpp.43–44 / PDFpp.44–45"
         }
       ]
     }

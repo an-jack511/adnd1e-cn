@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-27",
+  "scope": "Printedp.40 Monster/Character Spells prose;printedp.43 explanation of fields and cleric notes;all12 first-level cleric entries printedpp.43–44;spell tables routed separately,second-level descriptions not closed",
+  "newTerms": 33,
+  "pendingCompleted": 6,
+  "aliasDecisions": 1,
+  "contextCorrections": 1,
+  "catalogEntries": 8784,
+  "catalogStatuses": {
+    "pending": 6569,
+    "verified-exact": 1435,
+    "adapted-variant": 657,
+    "reference-conflict": 1,
+    "adapted-element": 122
+  },
+  "ruleForms": 932,
+  "ruleStatuses": {
+    "verified-exact": 510,
+    "adapted-variant": 422
+  },
+  "validation": {
+    "labelsSourcesSenses": "PASS:40 new/completed/corrected labels and1 alias decision",
+    "firstClericLevel": "PASS:12 base entries+7 reversed lexemes;unnamed reverse recorded without invented English name",
+    "headingRegression": "PASS:water material does not absorb water-ring heading;Dust material/spell remain separate",
+    "scope": "PASS:cleric reversal choice restriction remains scoped;holy/unholy aggregate and single liquids distinct",
+    "metadata": "PASS:4 old names searchable,drink/oa-prayer-beads IDs preserved",
+    "candidateReceipts": "PASS:17 prose candidates+16 description candidates at35 locators closed;PDF42/43/46 remain open",
+    "parentExport": "PASS:5 files byte-identical",
+    "test:terminology": "PASS:3052 live records,1050 sourced/partially sourced names;stable IDs and aliases preserved",
+    "API GET": "PASS:8784 entries;392 recently reviewed labels,status,senses and1E sources;unique IDs;no standalone reference-only",
+    "build": "Not repeated before established46387 node;Python classifier change exercised by full inventory and real Water/Dust regression checks"
+  },
+  "revisionLedgerTotal": 46309,
+  "nextArchiveLedgerTotal": 46509,
+  "nextBuildLedgerTotal": 46387,
+  "globalBodyApply": false,
+  "fullSourceCoverage": false,
+  "next": "PHB printedpp.40–42 full spell table names/routing;then second-level cleric descriptionspp.45–46",
+  "publication": "Preparing214-decision isolated checkpoint from9434ecb8;commit/push outcomes recorded separately",
+  "coverageGaps": [
+    "Higher spell table rows printedpp.40–42/PDFpp.41–43 still need per-column name/routing review.",
+    "Second-level cleric descriptions printedpp.45–46 and later remain unfinished;incidental reading did not close those pages.",
+    "Remaining PHB and all other planned books/Dragon,then all-site consistency,remain active."
+  ]
+}

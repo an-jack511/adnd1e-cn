@@ -1,0 +1,637 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "Printedp.40 Monster/Character Spells prose;printedp.43 explanation of fields and cleric notes;all12 first-level cleric entries printedpp.43–44;spell tables routed separately,second-level descriptions not closed",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Spell",
+      "zh": "法术",
+      "status": "verified-exact",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Spell Casting",
+      "zh": "施法",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Spell Caster",
+      "zh": "施法者",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Verbal Component",
+      "zh": "言语成分",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Somatic Component",
+      "zh": "姿势成分",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Material Component",
+      "zh": "材料成分",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Clerical Spells",
+      "zh": "牧师类法术",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Magical Spells",
+      "zh": "魔法师类法术",
+      "status": "adapted-variant",
+      "printedPage": 40
+    },
+    {
+      "category": "rule",
+      "en": "Reversible Spell",
+      "zh": "可逆法术",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Instantaneous",
+      "zh": "立即",
+      "status": "verified-exact",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Permanent",
+      "zh": "永久",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Touch",
+      "zh": "触及",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Conjuration/Summoning",
+      "zh": "咒法／召唤",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Enchantment/Charm",
+      "zh": "惑控／魅惑",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Alteration",
+      "zh": "变化",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "rule",
+      "en": "Divination",
+      "zh": "预言术",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "rule",
+      "en": "Abjuration",
+      "zh": "防护",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "rule",
+      "en": "Necromantic",
+      "zh": "死灵",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Curse",
+      "zh": "诅咒术",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Destroy Water",
+      "zh": "枯水术",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Cause Light Wounds",
+      "zh": "造成轻伤",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Detect Good",
+      "zh": "侦测善良",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Protection From Good",
+      "zh": "防护善良",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Cause Fear",
+      "zh": "惊恐术",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Water",
+      "zh": "水",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "item",
+      "en": "Dust",
+      "zh": "尘土",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "item",
+      "en": "Blood",
+      "zh": "血液",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Incense",
+      "zh": "香",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Dung",
+      "zh": "粪便",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Sulphur",
+      "zh": "硫磺",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Holy Water",
+      "zh": "圣水",
+      "status": "verified-exact",
+      "printedPage": 43
+    },
+    {
+      "category": "item",
+      "en": "Unholy Water",
+      "zh": "邪水",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Unholy Symbol",
+      "zh": "邪徽",
+      "status": "adapted-variant",
+      "printedPage": 44
+    }
+  ],
+  "updatedPendingEntries": [
+    {
+      "category": "spell",
+      "en": "Create Water",
+      "zh": "造水术",
+      "status": "adapted-variant",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Detect Evil",
+      "zh": "侦测邪恶",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Protection From Evil",
+      "zh": "防护邪恶",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Purify Food & Drink",
+      "zh": "净化饮食",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Resist Cold",
+      "zh": "抵抗寒冷",
+      "status": "adapted-variant",
+      "printedPage": 44
+    },
+    {
+      "category": "item",
+      "en": "Prayer Beads",
+      "zh": "念珠",
+      "status": "adapted-variant",
+      "printedPage": 43
+    }
+  ],
+  "reusedTerms": [
+    {
+      "category": "spell",
+      "en": "Bless",
+      "zh": "祝福术",
+      "status": "verified-exact",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Command",
+      "zh": "命令术",
+      "status": "verified-exact",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Cure Light Wounds",
+      "zh": "治疗轻伤",
+      "status": "verified-exact",
+      "printedPage": 43
+    },
+    {
+      "category": "spell",
+      "en": "Detect Magic",
+      "zh": "侦测魔法",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Light",
+      "zh": "光亮术",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Darkness",
+      "zh": "黑暗术",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Remove Fear",
+      "zh": "移除恐惧",
+      "status": "verified-exact",
+      "printedPage": 44
+    },
+    {
+      "category": "spell",
+      "en": "Sanctuary",
+      "zh": "庇护术",
+      "status": "verified-exact",
+      "printedPage": 44
+    }
+  ],
+  "contextUpdates": [
+    {
+      "category": "rule",
+      "en": "Monster",
+      "zh": "怪物"
+    },
+    {
+      "category": "rule",
+      "en": "Memorize",
+      "zh": "记忆法术"
+    },
+    {
+      "category": "rule",
+      "en": "Components",
+      "zh": "成分"
+    },
+    {
+      "category": "rule",
+      "en": "Casting Time",
+      "zh": "施法时间"
+    },
+    {
+      "category": "rule",
+      "en": "Saving Throw",
+      "zh": "豁免检定"
+    },
+    {
+      "category": "rule",
+      "en": "Range",
+      "zh": "射程"
+    },
+    {
+      "category": "rule",
+      "en": "Duration",
+      "zh": "持续时间"
+    },
+    {
+      "category": "rule",
+      "en": "Area of Effect",
+      "zh": "效应区域"
+    }
+  ],
+  "lookupQueries": {
+    "Spell": [
+      "Spell"
+    ],
+    "Spell Casting": [
+      "Spell Casting",
+      "Spellcasting"
+    ],
+    "Spell Caster": [
+      "Spell Caster",
+      "Spellcaster"
+    ],
+    "Verbal Component": [
+      "Verbal Component",
+      "Verbal (V)"
+    ],
+    "Somatic Component": [
+      "Somatic Component",
+      "Somatic (S)"
+    ],
+    "Material Component": [
+      "Material Component",
+      "Material (M)"
+    ],
+    "Clerical Spells": [
+      "Clerical Spells"
+    ],
+    "Magical Spells": [
+      "Magical Spells"
+    ],
+    "Reversible Spell": [
+      "Reversible Spell",
+      "Reversible"
+    ],
+    "Instantaneous": [
+      "Instantaneous"
+    ],
+    "Permanent": [
+      "Permanent"
+    ],
+    "Touch": [
+      "Touch",
+      "Range"
+    ],
+    "Conjuration/Summoning": [
+      "Conjuration/Summoning",
+      "Conjuration",
+      "Summoning"
+    ],
+    "Enchantment/Charm": [
+      "Enchantment/Charm",
+      "Enchantment",
+      "Charm"
+    ],
+    "Alteration": [
+      "Alteration",
+      "Transmutation"
+    ],
+    "Divination": [
+      "Divination",
+      "School of Divination"
+    ],
+    "Abjuration": [
+      "Abjuration"
+    ],
+    "Necromantic": [
+      "Necromantic",
+      "Necromancy"
+    ],
+    "Bless": [
+      "Bless"
+    ],
+    "Curse": [
+      "Curse"
+    ],
+    "Command": [
+      "Command"
+    ],
+    "Create Water": [
+      "Create Water"
+    ],
+    "Destroy Water": [
+      "Destroy Water"
+    ],
+    "Cure Light Wounds": [
+      "Cure Light Wounds"
+    ],
+    "Cause Light Wounds": [
+      "Cause Light Wounds"
+    ],
+    "Detect Evil": [
+      "Detect Evil"
+    ],
+    "Detect Good": [
+      "Detect Good"
+    ],
+    "Detect Magic": [
+      "Detect Magic"
+    ],
+    "Light": [
+      "Light"
+    ],
+    "Darkness": [
+      "Darkness"
+    ],
+    "Protection From Evil": [
+      "Protection From Evil"
+    ],
+    "Protection From Good": [
+      "Protection From Good"
+    ],
+    "Purify Food & Drink": [
+      "Purify Food & Drink",
+      "Purify Food and Drink"
+    ],
+    "Remove Fear": [
+      "Remove Fear"
+    ],
+    "Cause Fear": [
+      "Cause Fear"
+    ],
+    "Resist Cold": [
+      "Resist Cold"
+    ],
+    "Sanctuary": [
+      "Sanctuary"
+    ],
+    "Water": [
+      "Water"
+    ],
+    "Dust": [
+      "Dust"
+    ],
+    "Blood": [
+      "Blood"
+    ],
+    "Incense": [
+      "Incense"
+    ],
+    "Dung": [
+      "Dung"
+    ],
+    "Sulphur": [
+      "Sulphur"
+    ],
+    "Holy Water": [
+      "Holy Water"
+    ],
+    "Unholy Water": [
+      "Unholy Water"
+    ],
+    "Unholy Symbol": [
+      "Unholy Symbol"
+    ],
+    "Prayer Beads": [
+      "Prayer Beads"
+    ]
+  },
+  "unresolvedOriginalWords": [],
+  "metadataSync": {
+    "changes": [
+      {
+        "path": "src/data/public/spells-imported.json",
+        "id": "drink",
+        "en": "Purify Food & Drink",
+        "oldZh": "净化食粮",
+        "newZh": "净化饮食"
+      },
+      {
+        "path": "src/data/public/spell-index.json",
+        "id": "drink",
+        "en": "Purify Food & Drink",
+        "oldZh": "净化食粮",
+        "newZh": "净化饮食"
+      },
+      {
+        "path": "src/data/public/oa-items.ts",
+        "id": "oa-prayer-beads",
+        "en": "Prayer Beads",
+        "oldZh": "祈祷珠",
+        "newZh": "念珠"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "oa-prayer-beads",
+        "en": "Prayer Beads",
+        "oldZh": "祈祷珠",
+        "newZh": "念珠"
+      }
+    ],
+    "scope": "ExactnameZh only:Purify Food & Drink two records andPrayer Beads two records;IDs including drink andoa-prayer-beads preserved;patch clean baseline instead of copying mixed source files."
+  },
+  "firstLevelCoverage": {
+    "baseEntries": 12,
+    "reversedForms": 8,
+    "namedReversedForms": 7,
+    "unnamedReverse": "Purify Food & Drink:effect recorded under parent,no invented formal English name",
+    "separateClericDruidNames": "Purify Food & Drink and Purify Water kept separate;targeted Druid PDFp.56 title checked,not closure of Druid page",
+    "namingNote": "7 counts lexical names/noun expressions in reversal prose,not7 separately titled spell entries;curse/darkness are expressly scoped to their base-spell context."
+  },
+  "guards": [
+    "3R Cause Fear惊恐术 adopted;generic造成恐惧 is not globally replaced.",
+    "1E healing staysNecromantic;later schools do not overwrite source types.",
+    "Named reverse Curse belongsBless context,not Bestow Curse.",
+    "Spell tables throughprintedp.42 still need full routing;reading first-level descriptions does not close higher spell lists."
+  ],
+  "next": "PHB spell tables printedpp.40–42 crosscheck all names and route to descriptions;then clericsecond-level printedpp.45–46;other cleric spells continue.",
+  "candidateReceiptScope": {
+    "pdfPages": [
+      41,
+      44,
+      45
+    ],
+    "listedLocatorsHandled": 35,
+    "higherSpellTablesPdfPages": [
+      42,
+      43
+    ],
+    "secondLevelPdfPage": 46,
+    "unreviewedCandidateLocatorsRemain": true
+  },
+  "reviewedAliases": [
+    {
+      "category": "item",
+      "en": "Mirror, Small, Silver",
+      "variants": [
+        "Small Silver Mirror"
+      ],
+      "printedPage": 44,
+      "scope": "庇护术材料中的完整词形，含small/silver；不把所有Mirror合并。"
+    }
+  ],
+  "materialCoverage": {
+    "newMaterialOrReligiousNames": 9,
+    "existingNameCompleted": "Prayer Beads念珠",
+    "notNewMechanics": "物质泛名、宗教用品及现有包装记录分层，不能当作新增法术机制计数。",
+    "rejectedEvidence": "Water种族名不是普通物质水；Blood仅other/unclassified命中未采用；Dust物质不同于同名戏法。",
+    "headingGuard": "preserveUnclassifiedHeadings keeps generic names from resolving unrelated pending headings;Water/水元素戒指 is checked as regression."
+  },
+  "correctedEntries": [
+    {
+      "category": "glossary-term",
+      "en": "Holy/Unholy Water",
+      "oldZh": "圣水",
+      "zh": "圣水／邪水",
+      "status": "adapted-variant",
+      "printedPage": 44
+    }
+  ],
+  "latestSnapshot": {
+    "catalogEntries": 8784,
+    "ruleForms": 932,
+    "revisionLedgerTotal": 46309
+  },
+  "validationReport": "phb-first-spells-validation.json"
+}

@@ -220,8 +220,14 @@ def inventory():
     # A heading is not automatically a named entity. Link exact bilingual spell/monster
     # headings to known names, preserving uncertain chapter headings separately.
     explicit_aliases=defaultdict(set)
+    protected_heading_names=set()
     for decision in load(OUT/'decisions.json',{'entries':[]})['entries']:
         if decision.get('status') not in ['verified-exact','adapted-variant']:continue
+        if decision.get('preserveUnclassifiedHeadings'):
+            # A generic material such as Water does not identify an unrelated
+            # abbreviated item heading with the same English spelling.
+            protected_heading_names.update(norm(v) for v in
+                [decision['en']]+decision.get('englishVariants',[]))
         # Dwarven/Elven can denote languages or racial adjectives. Expose their
         # language aliases for lookup, but do not reclassify headings by them.
         if decision['category']=='language':continue
@@ -237,7 +243,8 @@ def inventory():
             for alias in aliases:known[alias].append(e)
     for k,e in list(entries.items()):
         matches=known[norm(e['en'])]
-        if e['category'] in ['heading','candidate'] and len(matches)==1:
+        if (e['category'] in ['heading','candidate'] and len(matches)==1
+                and norm(e['en']) not in protected_heading_names):
             dest=matches[0];dest['legacyZh'].update(e['legacyZh']);dest['englishVariants'].update(e['englishVariants']);dest['occurrences']+=e['occurrences'];del entries[k]
     refindex=defaultdict(list)
     for r in load(OUT/'references/5etools-names.json',{'records':[]})['records']:

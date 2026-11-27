@@ -1,0 +1,786 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "PDFpp.1–9:cover,title,foreword,contents,preface,introduction and character creation;contents route to body without closing destination pages",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Role Playing",
+      "zh": "角色扮演",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Swords & Sorcery",
+      "zh": "剑与巫术",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Play Balance",
+      "zh": "游戏平衡",
+      "status": "adapted-variant",
+      "printedPage": 6
+    },
+    {
+      "category": "rule",
+      "en": "Character Record",
+      "zh": "角色记录表",
+      "status": "adapted-variant",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Dungeon Level",
+      "zh": "地城层数",
+      "status": "adapted-variant",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Monster Level",
+      "zh": "怪物等级",
+      "status": "adapted-variant",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Game Time",
+      "zh": "游戏时间",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "proper",
+      "en": "Falstaff",
+      "zh": "福斯塔夫",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "proper",
+      "en": "Angore",
+      "zh": "安戈尔",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "proper",
+      "en": "Filmar",
+      "zh": "菲尔玛",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Character",
+      "zh": "角色",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Player",
+      "zh": "玩家",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Adventurer",
+      "zh": "冒险者",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Adventure",
+      "zh": "冒险",
+      "status": "verified-exact",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Fantasy Role Playing Game",
+      "zh": "奇幻角色扮演游戏",
+      "status": "adapted-variant",
+      "printedPage": 7
+    },
+    {
+      "category": "rule",
+      "en": "Campaign Milieu",
+      "zh": "战役环境",
+      "status": "adapted-variant",
+      "printedPage": 7
+    }
+  ],
+  "reviewedAliases": [
+    {
+      "category": "rule",
+      "en": "DM",
+      "variants": [
+        "Dungeon Master",
+        "Dungeon Masters",
+        "The Dungeon Master"
+      ],
+      "printedPage": 7,
+      "scope": "游戏主持及裁判，构建世界并扮演其他人物；保留既有缩写词头，长名可检索。"
+    },
+    {
+      "category": "rule",
+      "en": "PC",
+      "variants": [
+        "Player Character",
+        "Player Characters"
+      ],
+      "printedPage": 8,
+      "scope": "由参与者创建和扮演的角色；本页建议开局每人一个，后续可按主持裁量增加，并非PC永远只能一个。"
+    },
+    {
+      "category": "rule",
+      "en": "NPC",
+      "variants": [
+        "Non-Player Character",
+        "Non-Player Characters"
+      ],
+      "printedPage": 8,
+      "scope": "由主持创建或控制的其他人物，与玩家角色区分；非玩家角色不等同于敌人或怪物阵营。"
+    }
+  ],
+  "correctedEntries": [],
+  "contextUpdates": [
+    {
+      "category": "rule",
+      "en": "Level",
+      "zh": "等级",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Level",
+      "zh": "层",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Level",
+      "zh": "法术环阶",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Level",
+      "zh": "怪物等级",
+      "printedPage": 8
+    },
+    {
+      "category": "rule",
+      "en": "Race",
+      "zh": "种族",
+      "printedPage": 8,
+      "scope": "复用已核种族词头；前置页选择角色种族的语境，不新增或改判已有词项。"
+    }
+  ],
+  "lookupQueries": {
+    "Role Playing": [
+      "Role Playing",
+      "Roleplaying"
+    ],
+    "Swords & Sorcery": [
+      "Swords & Sorcery",
+      "Sword and Sorcery"
+    ],
+    "Play Balance": [
+      "Play Balance",
+      "Game Balance"
+    ],
+    "Character Record": [
+      "Character Record",
+      "Character Sheet"
+    ],
+    "Dungeon Level": [
+      "Dungeon Level"
+    ],
+    "Monster Level": [
+      "Monster Level"
+    ],
+    "Game Time": [
+      "Game Time"
+    ],
+    "Falstaff": [
+      "Falstaff"
+    ],
+    "Angore": [
+      "Angore"
+    ],
+    "Filmar": [
+      "Filmar"
+    ],
+    "Character": [
+      "Character"
+    ],
+    "Player": [
+      "Player"
+    ],
+    "Adventurer": [
+      "Adventurer"
+    ],
+    "Adventure": [
+      "Adventure"
+    ],
+    "Fantasy Role Playing Game": [
+      "Fantasy Role Playing Game"
+    ],
+    "Campaign Milieu": [
+      "Campaign Milieu"
+    ]
+  },
+  "unresolvedOriginalWords": [],
+  "rejectedHistoricalTerminology": [
+    "rank for character level",
+    "power for spell level",
+    "order for monster level:author explicitly says these were considered but not adopted;not active aliases"
+  ],
+  "next": "PHB printedp.40 character spells and spell tables;adventure/movement material actually beginspp.101–102,notp.40.",
+  "contentsRoutes": [
+    {
+      "en": "Classes",
+      "locator": "PHB-core/pdf-p.002",
+      "targetBook": "PHB",
+      "targetPrintedPage": 18,
+      "targetPdfPage": 19,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Classes",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 18,
+      "targetPdfPage": 19,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Character Abilities",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 9,
+      "targetPdfPage": 10,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Spell Explanations",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 43,
+      "targetPdfPage": 44,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "PLANES",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 120,
+      "targetPdfPage": 121,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Races",
+      "locator": "PHB-core/pdf-p.002",
+      "targetBook": "PHB",
+      "targetPrintedPage": 13,
+      "targetPdfPage": 14,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Races",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 13,
+      "targetPdfPage": 14,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Combat Procedures",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 105,
+      "targetPdfPage": 106,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "SPELL CASTING",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 100,
+      "targetPdfPage": 101,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Weapon Types",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 38,
+      "targetPdfPage": 39,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Bard Race",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Multiple Psionic Operations",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Psionic Disciplines",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 111,
+      "targetPdfPage": 112,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "SUCCESSFUL ADVENTURES",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 107,
+      "targetPdfPage": 108,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Use of Psionic Powers",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Defense Modes",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 110,
+      "targetPdfPage": 111,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "BARDS",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Outdoor Exploration",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 101,
+      "targetPdfPage": 102,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Psionic Combat",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 116,
+      "targetPdfPage": 117,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Dungeon Expeditions",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 101,
+      "targetPdfPage": 102,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Melee Combat",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 104,
+      "targetPdfPage": 105,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Bard Abilities",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Breath Weapon Attacks",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 104,
+      "targetPdfPage": 105,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Example of Combat",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 105,
+      "targetPdfPage": 106,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Invisible Movement",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 102,
+      "targetPdfPage": 103,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Monster Attack Damage",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 105,
+      "targetPdfPage": 106,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Recovery of Psionic Strength Points",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Silent Movement",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 102,
+      "targetPdfPage": 103,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Spell Combat",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 104,
+      "targetPdfPage": 105,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Weapon Factors",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 105,
+      "targetPdfPage": 106,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "First Strike",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 105,
+      "targetPdfPage": 106,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Magical Control",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 104,
+      "targetPdfPage": 105,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Psionic Powers",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 110,
+      "targetPdfPage": 111,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "The Class",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Appendix I",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 110,
+      "targetPdfPage": 111,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "THE KNOWN PLANES OF EXISTENCE",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 120,
+      "targetPdfPage": 121,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "APPENDIX IV",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 120,
+      "targetPdfPage": 121,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "CHARACTER ALIGNMENT GRAPH",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 119,
+      "targetPdfPage": 120,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Spell Ability",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 19,
+      "targetPdfPage": 20,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "APPENDIX III",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 119,
+      "targetPdfPage": 120,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "STARTING MONEY",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 35,
+      "targetPdfPage": 36,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "SUGGESTED AGREEMENTS FOR DIVISION OF TREASURE",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 122,
+      "targetPdfPage": 123,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "THE MONETARY SYSTEM",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 35,
+      "targetPdfPage": 36,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "APPENDIX II",
+      "locator": "PHB-core/pdf-p.005",
+      "targetBook": "PHB",
+      "targetPrintedPage": 117,
+      "targetPdfPage": 118,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "APPENDIX V",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 122,
+      "targetPdfPage": 123,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "CHARACTER HIT POINTS",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 34,
+      "targetPdfPage": 35,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "CHARACTER LANGUAGES",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 34,
+      "targetPdfPage": 35,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Wisdom Table II",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 11,
+      "targetPdfPage": 12,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "EQUIPMENT COSTS",
+      "locator": "PHB-core/pdf-p.002",
+      "targetBook": "PHB",
+      "targetPrintedPage": 35,
+      "targetPdfPage": 36,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "ESTABLISHING THE CHARACTERS",
+      "locator": "PHB-core/pdf-p.004",
+      "targetBook": "PHB",
+      "targetPrintedPage": 34,
+      "targetPdfPage": 35,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Intelligence Table I",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 10,
+      "targetPdfPage": 11,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    },
+    {
+      "en": "Thieves Table I",
+      "locator": "PHB-core/pdf-p.006",
+      "targetBook": "PHB",
+      "targetPrintedPage": 27,
+      "targetPdfPage": 28,
+      "closesTargetCoverage": false,
+      "disposition": "route-to-body-page"
+    }
+  ],
+  "pageReview": [
+    {
+      "pdfPage": 1,
+      "disposition": "封面；书目／美术，不作为游戏规则定义。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 2,
+      "disposition": "标题／版权／署名和扫描水印；不把署名与水印当游戏人物。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 3,
+      "disposition": "Foreword前言；主持和玩家行为说明，书目引用与现有概念分开。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 4,
+      "disposition": "Contents第一部分；完整标题路由相应正文，不以目录代正文。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 5,
+      "disposition": "Contents续页；战斗与附录标题路由正文。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 6,
+      "disposition": "Contents/Table list及Preface开头；复杂双栏与空行已补目视核对，缓存非空。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 7,
+      "disposition": "Preface续页；设计平衡与作者署名，spell point system为本书未采用的替代系统。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 8,
+      "disposition": "Introduction/The Game；词项、示例人物、游戏时间及虚构身份已处理。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    },
+    {
+      "pdfPage": 9,
+      "disposition": "The Game续／Creating the Player Character；记录与四种level义项已处理。",
+      "sourcePageScanned": true,
+      "closesReferencedBodyPages": false
+    }
+  ],
+  "sourceReview": {
+    "visual": "PDFpp.1–9 contact sheet plus pp.4–6 detailed renders;source bodies read from text,complex table references checked against images",
+    "textCaveat": "PDFp.6 is not empty;an earlier excerpt hid content because of whitespace/complex layout. No missing-text issue is claimed.",
+    "excludedSourceNames": "CHAINMAIL is a game/book here,not chain-mail armor;GREYHAWK in Preface is a supplement reference,not evidence for a city/setting entity. Real-world credits and rejected rank/power/order alternatives are not active game terms."
+  },
+  "machineCandidates": 136,
+  "listedLocators": 156,
+  "latestSnapshot": {
+    "catalogEntries": 8753,
+    "ruleForms": 914,
+    "revisionLedgerTotal": 46268
+  },
+  "validationReport": "phb-front-hirelings-validation.json"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-27",
+  "scope": "PHB printedpp.35–38 remaining equipment,armor/weapons rules and table notes;targeted Sling prosep.39",
+  "newTerms": 23,
+  "pendingCompleted": 98,
+  "reviewedAliasDecisions": 12,
+  "catalogEntries": 8726,
+  "catalogStatuses": {
+    "pending": 6582,
+    "verified-exact": 1425,
+    "adapted-variant": 596,
+    "reference-conflict": 1,
+    "adapted-element": 122
+  },
+  "ruleForms": 885,
+  "ruleStatuses": {
+    "verified-exact": 502,
+    "adapted-variant": 383
+  },
+  "validation": {
+    "labelsSourcesSenses": "PASS:121 current reviewed entries plus12 alias decisions",
+    "priceTable": "PASS:165 source price rows all approved,including99 current reviewed/reused rows",
+    "sourceDistinctions": "PASS:holy/unholy footnotes;Bo/Jo;weapon/ammunition/firing profiles;speed/fire rate",
+    "legacyAliases": "PASS:44 old name labels searchable;6 trailing footnote-marker labels normalize to unchanged approved name",
+    "candidateReceipts": "PASS:24 candidates at26 listed locators,0 remaining",
+    "parentExport": "PASS:5 files byte-identical",
+    "test:terminology": "PASS:3052 live records,1042 sourced/partially sourced names;legacy aliases and IDs preserved",
+    "API GET": "PASS:8726 entries;318 recently reviewed labels/status/senses/1E sources;unique IDs;no standalone reference-only",
+    "build": "Not repeated below existing46387 node;no new publication or deployment claimed"
+  },
+  "revisionLedgerTotal": 46228,
+  "nextArchiveLedgerTotal": 46295,
+  "nextBuildLedgerTotal": 46387,
+  "globalBodyApply": false,
+  "fullSourceCoverage": false,
+  "next": "PHB printedp.39 hirelings/henchmen,time,distance;then p.40 movement,light,encumbrance",
+  "sourceTableRowGroups": {
+    "Armor": 14,
+    "Arms": 52,
+    "Clothing": 11,
+    "Herbs": 3,
+    "Livestock": 21,
+    "Miscellaneous Equipment and Items": 29,
+    "Provisions": 10,
+    "Religious Items": 6,
+    "Tack and Harness": 9,
+    "Transport": 10
+  },
+  "coverageGaps": [
+    "PHB front matter and printedpp.7–8/PDFpp.1–9 still lack page-specific review receipts;review credits/contents as source context,not game concepts.",
+    "PHB printedp.39 onward remains unclosed;only targeted Slings prose used as corroboration.",
+    "Other core books,expansions,planned sources and Dragon remain unfinished;all-site consistency phase has not started."
+  ],
+  "publication": "No new commit/push;last9434ecb8/ledger46095;current46228,next archive46295"
+}

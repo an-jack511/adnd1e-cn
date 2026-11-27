@@ -1,0 +1,1370 @@
+{
+  "date": "2026-11-27",
+  "book": "PHB",
+  "scope": "Printedp.36 Livestock,Miscellaneous Equipment and Items,Provisions,Religious Items,Tack and Harness,Transport:85 price rows; armor/weapons rules excluded",
+  "newTerms": [],
+  "updatedPendingEntries": [
+    {
+      "category": "item",
+      "en": "Dog, Guard",
+      "zh": "护卫犬",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-083"
+    },
+    {
+      "category": "item",
+      "en": "Dog, Hunting",
+      "zh": "猎犬",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-084"
+    },
+    {
+      "category": "item",
+      "en": "Hawk, Large",
+      "zh": "大型隼",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-087"
+    },
+    {
+      "category": "item",
+      "en": "Hawk, Small",
+      "zh": "小型隼",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-088"
+    },
+    {
+      "category": "item",
+      "en": "Horse, Draft",
+      "zh": "驮用马",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-089"
+    },
+    {
+      "category": "item",
+      "en": "Horse, Heavy War",
+      "zh": "重型战马",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-090"
+    },
+    {
+      "category": "item",
+      "en": "Horse, Light War",
+      "zh": "轻型战马",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-091"
+    },
+    {
+      "category": "item",
+      "en": "Horse, Medium War",
+      "zh": "中型战马",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-092"
+    },
+    {
+      "category": "item",
+      "en": "Horse, Riding (Light)",
+      "zh": "轻型乘用马",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-093"
+    },
+    {
+      "category": "item",
+      "en": "Pigeon",
+      "zh": "鸽",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-096"
+    },
+    {
+      "category": "item",
+      "en": "Piglet",
+      "zh": "小猪",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-097"
+    },
+    {
+      "category": "item",
+      "en": "Songbird",
+      "zh": "鸣禽",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-101"
+    },
+    {
+      "category": "item",
+      "en": "Backpack, Leather",
+      "zh": "皮背包",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-102"
+    },
+    {
+      "category": "item",
+      "en": "Box, Iron, Large",
+      "zh": "大型铁箱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-103"
+    },
+    {
+      "category": "item",
+      "en": "Box, Iron, Small",
+      "zh": "小型铁箱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-104"
+    },
+    {
+      "category": "item",
+      "en": "Candle, Tallow",
+      "zh": "兽脂蜡烛",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-105"
+    },
+    {
+      "category": "item",
+      "en": "Candle, Wax",
+      "zh": "蜡质蜡烛",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-106"
+    },
+    {
+      "category": "item",
+      "en": "Case, Bone, Map or Scroll",
+      "zh": "骨制地图或卷轴匣",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-107"
+    },
+    {
+      "category": "item",
+      "en": "Case, Leather, Map or Scroll",
+      "zh": "皮制地图或卷轴匣",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-108"
+    },
+    {
+      "category": "item",
+      "en": "Chest, Wooden, Large",
+      "zh": "大型木箱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-109"
+    },
+    {
+      "category": "item",
+      "en": "Chest, Wooden, Small",
+      "zh": "小型木箱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-110"
+    },
+    {
+      "category": "item",
+      "en": "Lantern, Bullseye",
+      "zh": "牛眼提灯",
+      "status": "verified-exact",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-111"
+    },
+    {
+      "category": "item",
+      "en": "Lantern, Hooded",
+      "zh": "附盖提灯",
+      "status": "verified-exact",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-112"
+    },
+    {
+      "category": "item",
+      "en": "Mirror, Large Metal",
+      "zh": "大型金属镜",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-113"
+    },
+    {
+      "category": "item",
+      "en": "Mirror, Small, Silver",
+      "zh": "小型银镜",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-114"
+    },
+    {
+      "category": "item",
+      "en": "Oil, Flask of",
+      "zh": "燃油，一瓶",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-115"
+    },
+    {
+      "category": "item",
+      "en": "Pole, 10 ft.",
+      "zh": "长杆，10英尺",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-116"
+    },
+    {
+      "category": "item",
+      "en": "Pouch, Belt, Large",
+      "zh": "大型腰包",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-117"
+    },
+    {
+      "category": "item",
+      "en": "Pouch, Belt, Small",
+      "zh": "小型腰包",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-118"
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Dozen Arrows Capacity",
+      "zh": "箭袋，可装12支箭",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-119"
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Score Arrows Capacity",
+      "zh": "箭袋，可装20支箭",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-120"
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 1 Score Bolts Capacity",
+      "zh": "弩矢袋，可装20支弩矢",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-121"
+    },
+    {
+      "category": "item",
+      "en": "Quiver, 2 Score Bolts Capacity",
+      "zh": "弩矢袋，可装40支弩矢",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-122"
+    },
+    {
+      "category": "item",
+      "en": "Rope, 50 ft.",
+      "zh": "绳索，50英尺",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-123"
+    },
+    {
+      "category": "item",
+      "en": "Sack, Large",
+      "zh": "大型麻袋",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-124"
+    },
+    {
+      "category": "item",
+      "en": "Sack, Small",
+      "zh": "小型麻袋",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-125"
+    },
+    {
+      "category": "item",
+      "en": "Skin for Water or Wine",
+      "zh": "水或酒皮囊",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-126"
+    },
+    {
+      "category": "item",
+      "en": "Spike, Iron, Large",
+      "zh": "大型铁钉",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-127"
+    },
+    {
+      "category": "item",
+      "en": "Thieves' Picks & Tools",
+      "zh": "盗贼开锁器与工具",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-128"
+    },
+    {
+      "category": "item",
+      "en": "Tinder Box, with Flint & Steel",
+      "zh": "火绒盒，含燧石与火镰",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-129"
+    },
+    {
+      "category": "item",
+      "en": "Ale, Pint",
+      "zh": "麦酒，一品脱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-131"
+    },
+    {
+      "category": "item",
+      "en": "Beer, Small, Pint",
+      "zh": "淡啤酒，一品脱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-132"
+    },
+    {
+      "category": "item",
+      "en": "Food, Merchant's Meal",
+      "zh": "商人餐食",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-133"
+    },
+    {
+      "category": "item",
+      "en": "Food, Rich Meal",
+      "zh": "丰盛餐食",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-134"
+    },
+    {
+      "category": "item",
+      "en": "Grain, Horse Meal, 1 Day",
+      "zh": "马料，一日份",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-135"
+    },
+    {
+      "category": "item",
+      "en": "Mead, Pint",
+      "zh": "蜂蜜酒，一品脱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-136"
+    },
+    {
+      "category": "item",
+      "en": "Rations, Iron, 1 Week",
+      "zh": "耐久口粮，一周份",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-137"
+    },
+    {
+      "category": "item",
+      "en": "Rations, Standard, 1 Week",
+      "zh": "标准口粮，一周份",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-138"
+    },
+    {
+      "category": "item",
+      "en": "Wine, Pint, Good",
+      "zh": "优质葡萄酒，一品脱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-139"
+    },
+    {
+      "category": "item",
+      "en": "Wine, Pint, Watered",
+      "zh": "兑水葡萄酒，一品脱",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-140"
+    },
+    {
+      "category": "item",
+      "en": "Beads, Prayer",
+      "zh": "念珠",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-141"
+    },
+    {
+      "category": "item",
+      "en": "Incense, Stick",
+      "zh": "香，一炷",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-142"
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Iron",
+      "zh": "铁制圣徽",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-143"
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Silver",
+      "zh": "银制圣徽",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-144"
+    },
+    {
+      "category": "item",
+      "en": "Symbol, Holy, Wooden",
+      "zh": "木制圣徽",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-145"
+    },
+    {
+      "category": "item",
+      "en": "Water, Holy or Unholy, Vial",
+      "zh": "圣水或邪水，一小瓶",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-146"
+    },
+    {
+      "category": "item",
+      "en": "Barding, Chain",
+      "zh": "链甲具装",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-147"
+    },
+    {
+      "category": "item",
+      "en": "Barding, Leather",
+      "zh": "皮甲具装",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-148"
+    },
+    {
+      "category": "item",
+      "en": "Barding, Plate",
+      "zh": "板甲具装",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-149"
+    },
+    {
+      "category": "item",
+      "en": "Harness",
+      "zh": "挽具",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-151"
+    },
+    {
+      "category": "item",
+      "en": "Saddle",
+      "zh": "马鞍",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-152"
+    },
+    {
+      "category": "item",
+      "en": "Saddle Bags, Large",
+      "zh": "大型鞍囊",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-153"
+    },
+    {
+      "category": "item",
+      "en": "Saddle Bags, Small",
+      "zh": "小型鞍囊",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-154"
+    },
+    {
+      "category": "item",
+      "en": "Saddle Blanket",
+      "zh": "鞍毯",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-155"
+    },
+    {
+      "category": "item",
+      "en": "Barge (or Raft), Small",
+      "zh": "小型驳船（或木筏）",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-156"
+    },
+    {
+      "category": "item",
+      "en": "Boat, Small",
+      "zh": "小船",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-157"
+    },
+    {
+      "category": "item",
+      "en": "Boat, Long",
+      "zh": "长艇",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-158"
+    },
+    {
+      "category": "item",
+      "en": "Galley, Large",
+      "zh": "大型桨帆船",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-160"
+    },
+    {
+      "category": "item",
+      "en": "Galley, Small",
+      "zh": "小型桨帆船",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-161"
+    },
+    {
+      "category": "item",
+      "en": "Ship, Merchant, Large",
+      "zh": "大型商船",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-162"
+    },
+    {
+      "category": "item",
+      "en": "Ship, Merchant, Small",
+      "zh": "小型商船",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-163"
+    },
+    {
+      "category": "item",
+      "en": "Ship, War",
+      "zh": "战舰",
+      "status": "adapted-variant",
+      "printedPage": 36,
+      "sourceItemId": "phb-item-164"
+    }
+  ],
+  "reusedTerms": [
+    {
+      "category": "item",
+      "en": "Chicken",
+      "zh": "鸡",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Cow",
+      "zh": "家牛",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Donkey",
+      "zh": "驴",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Goat",
+      "zh": "山羊",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Mule",
+      "zh": "骡子",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Ox",
+      "zh": "公牛",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Pig",
+      "zh": "猪",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Pony",
+      "zh": "矮种马",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Sheep",
+      "zh": "绵羊",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Torch",
+      "zh": "火把",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Bit and Bridle",
+      "zh": "辔具",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Cart",
+      "zh": "二轮货车",
+      "status": "verified-exact",
+      "printedPage": 36
+    },
+    {
+      "category": "item",
+      "en": "Wagon",
+      "zh": "四轮货车",
+      "status": "verified-exact",
+      "printedPage": 36
+    }
+  ],
+  "lookupQueries": {
+    "Chicken": [
+      "Chicken"
+    ],
+    "Cow": [
+      "Cow"
+    ],
+    "Dog, Guard": [
+      "Dog, Guard",
+      "Guard Dog",
+      "Dog"
+    ],
+    "Dog, Hunting": [
+      "Dog, Hunting",
+      "Hunting Dog",
+      "Dog"
+    ],
+    "Donkey": [
+      "Donkey"
+    ],
+    "Goat": [
+      "Goat"
+    ],
+    "Hawk, Large": [
+      "Hawk, Large",
+      "Hawk"
+    ],
+    "Hawk, Small": [
+      "Hawk, Small",
+      "Hawk"
+    ],
+    "Horse, Draft": [
+      "Horse, Draft",
+      "Draft Horse"
+    ],
+    "Horse, Heavy War": [
+      "Horse, Heavy War",
+      "Heavy Warhorse",
+      "Warhorse"
+    ],
+    "Horse, Light War": [
+      "Horse, Light War",
+      "Light Warhorse",
+      "Warhorse"
+    ],
+    "Horse, Medium War": [
+      "Horse, Medium War",
+      "Medium Warhorse",
+      "Warhorse"
+    ],
+    "Horse, Riding (Light)": [
+      "Horse, Riding (Light)",
+      "Riding Horse"
+    ],
+    "Mule": [
+      "Mule"
+    ],
+    "Ox": [
+      "Ox"
+    ],
+    "Pigeon": [
+      "Pigeon"
+    ],
+    "Piglet": [
+      "Piglet"
+    ],
+    "Pig": [
+      "Pig"
+    ],
+    "Pony": [
+      "Pony"
+    ],
+    "Sheep": [
+      "Sheep"
+    ],
+    "Songbird": [
+      "Songbird"
+    ],
+    "Backpack, Leather": [
+      "Backpack, Leather",
+      "Backpack"
+    ],
+    "Box, Iron, Large": [
+      "Box, Iron, Large",
+      "Iron Box",
+      "Box"
+    ],
+    "Box, Iron, Small": [
+      "Box, Iron, Small",
+      "Iron Box",
+      "Box"
+    ],
+    "Candle, Tallow": [
+      "Candle, Tallow",
+      "Tallow Candle",
+      "Candle"
+    ],
+    "Candle, Wax": [
+      "Candle, Wax",
+      "Wax Candle",
+      "Candle"
+    ],
+    "Case, Bone, Map or Scroll": [
+      "Case, Bone, Map or Scroll",
+      "Case, Map or Scroll",
+      "Map or Scroll Case"
+    ],
+    "Case, Leather, Map or Scroll": [
+      "Case, Leather, Map or Scroll",
+      "Case, Map or Scroll",
+      "Map or Scroll Case"
+    ],
+    "Chest, Wooden, Large": [
+      "Chest, Wooden, Large",
+      "Chest"
+    ],
+    "Chest, Wooden, Small": [
+      "Chest, Wooden, Small",
+      "Chest"
+    ],
+    "Lantern, Bullseye": [
+      "Lantern, Bullseye",
+      "Bullseye Lantern"
+    ],
+    "Lantern, Hooded": [
+      "Lantern, Hooded",
+      "Hooded Lantern"
+    ],
+    "Mirror, Large Metal": [
+      "Mirror, Large Metal",
+      "Mirror"
+    ],
+    "Mirror, Small, Silver": [
+      "Mirror, Small, Silver",
+      "Mirror"
+    ],
+    "Oil, Flask of": [
+      "Oil, Flask of",
+      "Oil (Flask)",
+      "Oil"
+    ],
+    "Pole, 10 ft.": [
+      "Pole, 10 ft.",
+      "Pole (10-foot)",
+      "Pole"
+    ],
+    "Pouch, Belt, Large": [
+      "Pouch, Belt, Large",
+      "Pouch"
+    ],
+    "Pouch, Belt, Small": [
+      "Pouch, Belt, Small",
+      "Pouch"
+    ],
+    "Quiver, 1 Dozen Arrows Capacity": [
+      "Quiver, 1 Dozen Arrows Capacity",
+      "Quiver"
+    ],
+    "Quiver, 1 Score Arrows Capacity": [
+      "Quiver, 1 Score Arrows Capacity",
+      "Quiver"
+    ],
+    "Quiver, 1 Score Bolts Capacity": [
+      "Quiver, 1 Score Bolts Capacity",
+      "Quiver"
+    ],
+    "Quiver, 2 Score Bolts Capacity": [
+      "Quiver, 2 Score Bolts Capacity",
+      "Quiver"
+    ],
+    "Rope, 50 ft.": [
+      "Rope, 50 ft.",
+      "Rope",
+      "Rope, Hempen (50 feet)"
+    ],
+    "Sack, Large": [
+      "Sack, Large",
+      "Sack"
+    ],
+    "Sack, Small": [
+      "Sack, Small",
+      "Sack"
+    ],
+    "Skin for Water or Wine": [
+      "Skin for Water or Wine",
+      "Waterskin"
+    ],
+    "Spike, Iron, Large": [
+      "Spike, Iron, Large",
+      "Iron Spike",
+      "Spike"
+    ],
+    "Thieves' Picks & Tools": [
+      "Thieves' Picks & Tools",
+      "Thieves' Tools"
+    ],
+    "Tinder Box, with Flint & Steel": [
+      "Tinder Box, with Flint & Steel",
+      "Tinderbox"
+    ],
+    "Torch": [
+      "Torch"
+    ],
+    "Ale, Pint": [
+      "Ale, Pint",
+      "Ale"
+    ],
+    "Beer, Small, Pint": [
+      "Beer, Small, Pint",
+      "Small Beer",
+      "Beer"
+    ],
+    "Food, Merchant's Meal": [
+      "Food, Merchant's Meal",
+      "Merchant's Meal",
+      "Food"
+    ],
+    "Food, Rich Meal": [
+      "Food, Rich Meal",
+      "Rich Meal",
+      "Food"
+    ],
+    "Grain, Horse Meal, 1 Day": [
+      "Grain, Horse Meal, 1 Day",
+      "Feed (per day)",
+      "Grain"
+    ],
+    "Mead, Pint": [
+      "Mead, Pint",
+      "Mead"
+    ],
+    "Rations, Iron, 1 Week": [
+      "Rations, Iron, 1 Week",
+      "Iron Rations",
+      "Rations"
+    ],
+    "Rations, Standard, 1 Week": [
+      "Rations, Standard, 1 Week",
+      "Rations"
+    ],
+    "Wine, Pint, Good": [
+      "Wine, Pint, Good",
+      "Wine"
+    ],
+    "Wine, Pint, Watered": [
+      "Wine, Pint, Watered",
+      "Wine"
+    ],
+    "Beads, Prayer": [
+      "Beads, Prayer",
+      "Prayer Beads",
+      "Necklace of Prayer Beads"
+    ],
+    "Incense, Stick": [
+      "Incense, Stick",
+      "Incense"
+    ],
+    "Symbol, Holy, Iron": [
+      "Symbol, Holy, Iron",
+      "Holy Symbol"
+    ],
+    "Symbol, Holy, Silver": [
+      "Symbol, Holy, Silver",
+      "Holy Symbol"
+    ],
+    "Symbol, Holy, Wooden": [
+      "Symbol, Holy, Wooden",
+      "Holy Symbol"
+    ],
+    "Water, Holy or Unholy, Vial": [
+      "Water, Holy or Unholy, Vial",
+      "Holy Water",
+      "Unholy Water"
+    ],
+    "Barding, Chain": [
+      "Barding, Chain",
+      "Barding",
+      "Chain Mail"
+    ],
+    "Barding, Leather": [
+      "Barding, Leather",
+      "Barding",
+      "Leather Armor"
+    ],
+    "Barding, Plate": [
+      "Barding, Plate",
+      "Barding",
+      "Plate Armor"
+    ],
+    "Bit and Bridle": [
+      "Bit and Bridle"
+    ],
+    "Harness": [
+      "Harness"
+    ],
+    "Saddle": [
+      "Saddle"
+    ],
+    "Saddle Bags, Large": [
+      "Saddle Bags, Large",
+      "Saddlebags"
+    ],
+    "Saddle Bags, Small": [
+      "Saddle Bags, Small",
+      "Saddlebags"
+    ],
+    "Saddle Blanket": [
+      "Saddle Blanket"
+    ],
+    "Barge (or Raft), Small": [
+      "Barge (or Raft), Small",
+      "Barge",
+      "Raft"
+    ],
+    "Boat, Small": [
+      "Boat, Small",
+      "Small Boat",
+      "Boat"
+    ],
+    "Boat, Long": [
+      "Boat, Long",
+      "Longboat",
+      "Boat"
+    ],
+    "Cart": [
+      "Cart"
+    ],
+    "Galley, Large": [
+      "Galley, Large",
+      "Galley"
+    ],
+    "Galley, Small": [
+      "Galley, Small",
+      "Galley"
+    ],
+    "Ship, Merchant, Large": [
+      "Ship, Merchant, Large",
+      "Merchant Ship"
+    ],
+    "Ship, Merchant, Small": [
+      "Ship, Merchant, Small",
+      "Merchant Ship"
+    ],
+    "Ship, War": [
+      "Ship, War",
+      "Warship"
+    ],
+    "Wagon": [
+      "Wagon"
+    ]
+  },
+  "unresolvedOriginalWords": [],
+  "metadataSync": {
+    "changes": [
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-087",
+        "en": "Hawk, Large",
+        "oldZh": "大型鹰",
+        "newZh": "大型隼"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-088",
+        "en": "Hawk, Small",
+        "oldZh": "小型鹰",
+        "newZh": "小型隼"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-089",
+        "en": "Horse, Draft",
+        "oldZh": "挽马",
+        "newZh": "驮用马"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-093",
+        "en": "Horse, Riding (Light)",
+        "oldZh": "轻型骑乘马",
+        "newZh": "轻型乘用马"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-105",
+        "en": "Candle, Tallow",
+        "oldZh": "牛脂蜡烛",
+        "newZh": "兽脂蜡烛"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-106",
+        "en": "Candle, Wax",
+        "oldZh": "蜂蜡蜡烛",
+        "newZh": "蜡质蜡烛"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-111",
+        "en": "Lantern, Bullseye",
+        "oldZh": "聚光提灯",
+        "newZh": "牛眼提灯"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-112",
+        "en": "Lantern, Hooded",
+        "oldZh": "风帽提灯",
+        "newZh": "附盖提灯"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-115",
+        "en": "Oil, Flask of",
+        "oldZh": "油，一瓶",
+        "newZh": "燃油，一瓶"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-116",
+        "en": "Pole, 10 ft.",
+        "oldZh": "十英尺长杆",
+        "newZh": "长杆，10英尺"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-133",
+        "en": "Food, Merchant's Meal",
+        "oldZh": "商旅餐食",
+        "newZh": "商人餐食"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-141",
+        "en": "Beads, Prayer",
+        "oldZh": "祈祷珠",
+        "newZh": "念珠"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-143",
+        "en": "Symbol, Holy, Iron",
+        "oldZh": "铁制圣徽*",
+        "newZh": "铁制圣徽"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-144",
+        "en": "Symbol, Holy, Silver",
+        "oldZh": "银制圣徽*",
+        "newZh": "银制圣徽"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-145",
+        "en": "Symbol, Holy, Wooden",
+        "oldZh": "木制圣徽*",
+        "newZh": "木制圣徽"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-146",
+        "en": "Water, Holy or Unholy, Vial",
+        "oldZh": "圣水*或邪水，一小瓶",
+        "newZh": "圣水或邪水，一小瓶"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-147",
+        "en": "Barding, Chain",
+        "oldZh": "链甲马铠",
+        "newZh": "链甲具装"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-148",
+        "en": "Barding, Leather",
+        "oldZh": "皮甲马铠",
+        "newZh": "皮甲具装"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-149",
+        "en": "Barding, Plate",
+        "oldZh": "板甲马铠",
+        "newZh": "板甲具装"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-153",
+        "en": "Saddle Bags, Large",
+        "oldZh": "大型鞍袋",
+        "newZh": "大型鞍囊"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-154",
+        "en": "Saddle Bags, Small",
+        "oldZh": "小型鞍袋",
+        "newZh": "小型鞍囊"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-158",
+        "en": "Boat, Long",
+        "oldZh": "长船",
+        "newZh": "长艇"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "id": "phb-item-164",
+        "en": "Ship, War",
+        "oldZh": "战船",
+        "newZh": "战舰"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-087",
+        "en": "Hawk, Large",
+        "oldZh": "大型鹰",
+        "newZh": "大型隼"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-088",
+        "en": "Hawk, Small",
+        "oldZh": "小型鹰",
+        "newZh": "小型隼"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-089",
+        "en": "Horse, Draft",
+        "oldZh": "挽马",
+        "newZh": "驮用马"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-093",
+        "en": "Horse, Riding (Light)",
+        "oldZh": "轻型骑乘马",
+        "newZh": "轻型乘用马"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-105",
+        "en": "Candle, Tallow",
+        "oldZh": "牛脂蜡烛",
+        "newZh": "兽脂蜡烛"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-106",
+        "en": "Candle, Wax",
+        "oldZh": "蜂蜡蜡烛",
+        "newZh": "蜡质蜡烛"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-111",
+        "en": "Lantern, Bullseye",
+        "oldZh": "聚光提灯",
+        "newZh": "牛眼提灯"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-112",
+        "en": "Lantern, Hooded",
+        "oldZh": "风帽提灯",
+        "newZh": "附盖提灯"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-115",
+        "en": "Oil, Flask of",
+        "oldZh": "油，一瓶",
+        "newZh": "燃油，一瓶"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-116",
+        "en": "Pole, 10 ft.",
+        "oldZh": "十英尺长杆",
+        "newZh": "长杆，10英尺"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-133",
+        "en": "Food, Merchant's Meal",
+        "oldZh": "商旅餐食",
+        "newZh": "商人餐食"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-141",
+        "en": "Beads, Prayer",
+        "oldZh": "祈祷珠",
+        "newZh": "念珠"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-143",
+        "en": "Symbol, Holy, Iron",
+        "oldZh": "铁制圣徽*",
+        "newZh": "铁制圣徽"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-144",
+        "en": "Symbol, Holy, Silver",
+        "oldZh": "银制圣徽*",
+        "newZh": "银制圣徽"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-145",
+        "en": "Symbol, Holy, Wooden",
+        "oldZh": "木制圣徽*",
+        "newZh": "木制圣徽"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-146",
+        "en": "Water, Holy or Unholy, Vial",
+        "oldZh": "圣水*或邪水，一小瓶",
+        "newZh": "圣水或邪水，一小瓶"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-147",
+        "en": "Barding, Chain",
+        "oldZh": "链甲马铠",
+        "newZh": "链甲具装"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-148",
+        "en": "Barding, Leather",
+        "oldZh": "皮甲马铠",
+        "newZh": "皮甲具装"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-149",
+        "en": "Barding, Plate",
+        "oldZh": "板甲马铠",
+        "newZh": "板甲具装"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-153",
+        "en": "Saddle Bags, Large",
+        "oldZh": "大型鞍袋",
+        "newZh": "大型鞍囊"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-154",
+        "en": "Saddle Bags, Small",
+        "oldZh": "小型鞍袋",
+        "newZh": "小型鞍囊"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-158",
+        "en": "Boat, Long",
+        "oldZh": "长船",
+        "newZh": "长艇"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "id": "phb-item-164",
+        "en": "Ship, War",
+        "oldZh": "战船",
+        "newZh": "战舰"
+      }
+    ],
+    "scope": "Only matching nameEn/nameZh fields; preserve stable IDs and all other source data. For checkpoint patch these fields into clean baseline instead of copying mixed source JSON."
+  },
+  "referenceGuards": [
+    "Only inspected physical item headings accepted; Belladonna plant context read, not inferred from a name alone.",
+    "Cloak/Boots/Incense magical context supplies common noun only;no magical properties imported.",
+    "Full compounds/modifiers remain adapted when only base noun matches.",
+    "Material,color,capacity,sale units and transport size retained;no invented material specifics."
+  ],
+  "cacheCoverage": "Offline exact SQLite/tracked name evidence;3R remains partial;an absent local match is not a site-wide absence claim.",
+  "next": "PHB printedp.36 Armor and Weapons introduction;printedpp.37–38 proficiency and weapon tables;then encumbrance and hirelings.",
+  "latestSnapshot": {
+    "catalogEntries": 8726,
+    "ruleForms": 885,
+    "revisionLedgerTotal": 46228
+  },
+  "validationReport": "phb-equipment-weapons-validation.json"
+}

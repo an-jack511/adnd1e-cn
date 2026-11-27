@@ -563,6 +563,27 @@
     "verificationScope": "draft-bilingual-pair-unreviewed"
   },
   {
+    "key": "candidate:alchemist",
+    "category": "candidate",
+    "en": "Alchemist",
+    "zh": "炼金师",
+    "englishVariants": [
+      "Alchemist"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/data/public/character-options.json",
+        "location": "/classes/28",
+        "zh": "炼金师"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "candidate:aldegath of mohes",
     "category": "candidate",
     "en": "Aldegath OF Mohes",
@@ -10339,39 +10360,6 @@
         "source": "bilingual translation manuscript",
         "zh": "第一高个子部队",
         "url": "manuscript/battlesystem/topics/roster-059.md#L74"
-      }
-    ],
-    "notes": [
-      "暂从 1E 中文底稿的中英并列标题或表格标签提取；尚未逐项核对英文原书、规则语境及 3R→5E→5R 名称。其他版本的同英文名称仅供比较，不作为 AD&D 1E 定译。"
-    ],
-    "verificationScope": "draft-bilingual-pair-unreviewed"
-  },
-  {
-    "key": "candidate:fist or open hand",
-    "category": "candidate",
-    "en": "Fist or Open Hand",
-    "zh": "拳或徒手",
-    "englishVariants": [
-      "Fist or Open Hand"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "terminology/source-draft-candidates.json",
-        "location": "303",
-        "zh": "拳或徒手"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [
-      {
-        "category": "candidate",
-        "en": "Fist or Open Hand",
-        "edition": "1E",
-        "source": "bilingual translation manuscript",
-        "zh": "拳或徒手",
-        "url": "manuscript/ua/topics/weapons.md#L121"
       }
     ],
     "notes": [
@@ -31856,40 +31844,6 @@
     "verificationScope": "draft-bilingual-pair-unreviewed"
   },
   {
-    "key": "candidate:spell casting",
-    "category": "candidate",
-    "en": "SPELL CASTING",
-    "zh": "施法",
-    "englishVariants": [
-      "SPELL CASTING",
-      "Spell Casting"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "terminology/source-draft-candidates.json",
-        "location": "944",
-        "zh": "施法"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [
-      {
-        "category": "candidate",
-        "en": "SPELL CASTING",
-        "edition": "1E",
-        "source": "bilingual translation manuscript",
-        "zh": "施法",
-        "url": "manuscript/phb/overviews/spell-casting.md#L1"
-      }
-    ],
-    "notes": [
-      "暂从 1E 中文底稿的中英并列标题或表格标签提取；尚未逐项核对英文原书、规则语境及 3R→5E→5R 名称。其他版本的同英文名称仅供比较，不作为 AD&D 1E 定译。"
-    ],
-    "verificationScope": "draft-bilingual-pair-unreviewed"
-  },
-  {
     "key": "candidate:spell storing",
     "category": "candidate",
     "en": "Spell Storing",
@@ -33888,39 +33842,6 @@
         "source": "bilingual translation manuscript",
         "zh": "守护者",
         "url": "manuscript/ua/topics/appendix-s-halflings-reference.md#L60"
-      }
-    ],
-    "notes": [
-      "暂从 1E 中文底稿的中英并列标题或表格标签提取；尚未逐项核对英文原书、规则语境及 3R→5E→5R 名称。其他版本的同英文名称仅供比较，不作为 AD&D 1E 定译。"
-    ],
-    "verificationScope": "draft-bilingual-pair-unreviewed"
-  },
-  {
-    "key": "candidate:the dungeon master",
-    "category": "candidate",
-    "en": "The Dungeon Master",
-    "zh": "地下城主作为首席故事讲述者",
-    "englishVariants": [
-      "The Dungeon Master"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "terminology/source-draft-candidates.json",
-        "location": "1006",
-        "zh": "地下城主作为首席故事讲述者"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [
-      {
-        "category": "candidate",
-        "en": "The Dungeon Master",
-        "edition": "1E",
-        "source": "bilingual translation manuscript",
-        "zh": "地下城主作为首席故事讲述者",
-        "url": "manuscript/dsg/topics/campaign-design-retranslation.md#L428"
       }
     ],
     "notes": [
@@ -40524,11 +40445,6 @@
         "path": "@library",
         "location": "",
         "zh": "炼金师"
-      },
-      {
-        "path": "src/data/public/character-options.json",
-        "location": "/classes/28",
-        "zh": "炼金师"
       }
     ],
     "activeIds": [
@@ -42781,27 +42697,6 @@
     "notes": []
   },
   {
-    "key": "heading:adventurers",
-    "category": "heading",
-    "en": "Adventurers",
-    "zh": "冒险者",
-    "englishVariants": [
-      "Adventurers"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/dsg/dsg-campaign-management.md",
-        "location": "10",
-        "zh": "冒险者"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:adventures in the air",
     "category": "heading",
     "en": "Adventures in the Air",
@@ -43753,34 +43648,6 @@
         "path": "src/published/books/dmg/dmg-appendix-h-tricks.md",
         "location": "51",
         "zh": "祭坛"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:alteration",
-    "category": "heading",
-    "en": "Alteration",
-    "zh": "变化",
-    "englishVariants": [
-      "Alteration"
-    ],
-    "legacyZh": [
-      "变化续"
-    ],
-    "occurrences": [
-      {
-        "path": "src/published/books/dla/dla-appendices.md",
-        "location": "915",
-        "zh": "变化"
-      },
-      {
-        "path": "src/published/books/dla/dla-appendices.md",
-        "location": "935",
-        "zh": "变化"
       }
     ],
     "activeIds": [],
@@ -49058,28 +48925,6 @@
         "path": "src/data/published/books.json",
         "location": "/1474",
         "zh": "野蛮人（Gygax早期测试稿）"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:bill hook",
-    "category": "heading",
-    "en": "Bill hook",
-    "zh": "钩镰",
-    "englishVariants": [
-      "Bill hook",
-      "bill hook"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
-        "location": "113",
-        "zh": "钩镰"
       }
     ],
     "activeIds": [],
@@ -54422,27 +54267,6 @@
     "notes": []
   },
   {
-    "key": "heading:conjuration/summoning",
-    "category": "heading",
-    "en": "Conjuration/Summoning",
-    "zh": "咒法／召唤",
-    "englishVariants": [
-      "Conjuration/Summoning"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/dla/dla-appendices.md",
-        "location": "903",
-        "zh": "咒法／召唤"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:conjurations and summonings",
     "category": "heading",
     "en": "Conjurations and Summonings",
@@ -58614,6 +58438,32 @@
     "notes": []
   },
   {
+    "key": "heading:divination",
+    "category": "heading",
+    "en": "Divination",
+    "zh": "预言术",
+    "englishVariants": [
+      "Divination"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/oa/oa-shukenja-spells.md",
+        "location": "669",
+        "zh": "预言术"
+      },
+      {
+        "path": "src/published/books/phb/spell-explanations-clerics.md",
+        "location": "556",
+        "zh": "预言术"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
     "key": "heading:divinations",
     "category": "heading",
     "en": "Divinations",
@@ -60451,6 +60301,27 @@
         "path": "src/published/books/fr/fr-druids-dwarves-elturel.md",
         "location": "30",
         "zh": "杜拉格之塔"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:dust",
+    "category": "heading",
+    "en": "Dust",
+    "zh": "除尘",
+    "englishVariants": [
+      "Dust"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/ua/ua-magic-user-cantrips-useful.md",
+        "location": "37",
+        "zh": "除尘"
       }
     ],
     "activeIds": [],
@@ -62547,27 +62418,6 @@
         "path": "src/data/published/books.json",
         "location": "/1529",
         "zh": "阅读幻术魔法（魔咒师版）"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:enchantment/charm",
-    "category": "heading",
-    "en": "Enchantment/Charm",
-    "zh": "惑控／魅惑",
-    "englishVariants": [
-      "Enchantment/Charm"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/dla/dla-appendices.md",
-        "location": "911",
-        "zh": "惑控／魅惑"
       }
     ],
     "activeIds": [],
@@ -71985,44 +71835,6 @@
     "notes": []
   },
   {
-    "key": "heading:henchmen",
-    "category": "heading",
-    "en": "Henchmen",
-    "zh": "随从",
-    "englishVariants": [
-      "Henchmen"
-    ],
-    "legacyZh": [
-      "部属"
-    ],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/136",
-        "zh": "随从"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/136",
-        "zh": "随从"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-npc-personae.md",
-        "location": "356",
-        "zh": "随从"
-      },
-      {
-        "path": "src/published/books/ua/ua-dm-cavalier-followers.md",
-        "location": "36",
-        "zh": "部属"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:heng",
     "category": "heading",
     "en": "Heng",
@@ -72553,37 +72365,6 @@
         "path": "src/data/published/books.json",
         "location": "/1115",
         "zh": "希尔普、赫林塔尔、赫卢萨尔、胡达格、因默海与因布图"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:hirelings",
-    "category": "heading",
-    "en": "Hirelings",
-    "zh": "受雇者",
-    "englishVariants": [
-      "Hirelings"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/135",
-        "zh": "受雇者"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/135",
-        "zh": "受雇者"
-      },
-      {
-        "path": "src/published/books/dmg/dmg-npc-personae.md",
-        "location": "364",
-        "zh": "受雇者"
       }
     ],
     "activeIds": [],
@@ -73725,27 +73506,6 @@
         "path": "src/published/books/ddg/ddg-central-american.md",
         "location": "23",
         "zh": "赫纳普与沙巴兰奎"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:hurled weapons and missiles",
-    "category": "heading",
-    "en": "Hurled Weapons and Missiles",
-    "zh": "投掷与射击武器类型、一般数据与命中修正",
-    "englishVariants": [
-      "Hurled Weapons and Missiles"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/ua/ua-weapons.md",
-        "location": "181",
-        "zh": "投掷与射击武器类型、一般数据与命中修正"
       }
     ],
     "activeIds": [],
@@ -78919,27 +78679,6 @@
         "path": "src/published/books/dla/dla-wizards-high-sorcery.md",
         "location": "63",
         "zh": "月亮的位置"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:lochaber axe",
-    "category": "heading",
-    "en": "Lochaber axe",
-    "zh": "洛哈伯斧",
-    "englishVariants": [
-      "Lochaber axe"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
-        "location": "95",
-        "zh": "洛哈伯斧"
       }
     ],
     "activeIds": [],
@@ -86535,47 +86274,6 @@
     "notes": []
   },
   {
-    "key": "heading:non-player characters",
-    "category": "heading",
-    "en": "Non-Player Characters",
-    "zh": "非玩家角色",
-    "englishVariants": [
-      "Non-Player Characters"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/98",
-        "zh": "非玩家角色"
-      },
-      {
-        "path": "src/data/published/book-search.json",
-        "location": "/149",
-        "zh": "非玩家角色"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/98",
-        "zh": "非玩家角色"
-      },
-      {
-        "path": "src/data/published/books.json",
-        "location": "/149",
-        "zh": "非玩家角色"
-      },
-      {
-        "path": "src/published/books/oa/oa-abilities.md",
-        "location": "21",
-        "zh": "非玩家角色"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "heading:non-standard magic items",
     "category": "heading",
     "en": "Non-Standard Magic Items",
@@ -89819,37 +89517,6 @@
         "path": "src/data/published/books.json",
         "location": "/127",
         "zh": "玩家角色起始金钱"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "heading:player characters",
-    "category": "heading",
-    "en": "Player Characters",
-    "zh": "玩家角色",
-    "englishVariants": [
-      "Player Characters"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/published/books/motp/motp-astral-plane.md",
-        "location": "80",
-        "zh": "玩家角色"
-      },
-      {
-        "path": "src/published/books/motp/motp-ethereal-players-demi-planes.md",
-        "location": "1",
-        "zh": "玩家角色"
-      },
-      {
-        "path": "src/published/books/motp/motp-inner-planes.md",
-        "location": "103",
-        "zh": "玩家角色"
       }
     ],
     "activeIds": [],
@@ -95873,6 +95540,27 @@
         "path": "src/published/books/fr/fr-raurin-scardale-scornubel.md",
         "location": "44",
         "zh": "斯科努贝尔"
+      }
+    ],
+    "activeIds": [],
+    "status": "pending",
+    "references": [],
+    "notes": []
+  },
+  {
+    "key": "heading:scorpion",
+    "category": "heading",
+    "en": "Scorpion",
+    "zh": "蝎子",
+    "englishVariants": [
+      "Scorpion"
+    ],
+    "legacyZh": [],
+    "occurrences": [
+      {
+        "path": "src/published/books/mm2/mm2-scorpion-scum-creeper-selkie.md",
+        "location": "3",
+        "zh": "蝎子"
       }
     ],
     "activeIds": [],
@@ -114868,44 +114556,6 @@
     "notes": []
   },
   {
-    "key": "item:ale, pint",
-    "category": "item",
-    "en": "Ale, Pint",
-    "zh": "麦酒，一品脱",
-    "englishVariants": [
-      "Ale, Pint"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "麦酒，一品脱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/130",
-        "zh": "麦酒，一品脱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/130",
-        "zh": "麦酒，一品脱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-131",
-        "zh": "麦酒，一品脱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-131"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:amulet of furyondy",
     "category": "item",
     "en": "Amulet of Furyondy",
@@ -116321,44 +115971,6 @@
     "notes": []
   },
   {
-    "key": "item:backpack, leather",
-    "category": "item",
-    "en": "Backpack, Leather",
-    "zh": "皮背包",
-    "englishVariants": [
-      "Backpack, Leather"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "皮背包"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/101",
-        "zh": "皮背包"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/101",
-        "zh": "皮背包"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-102",
-        "zh": "皮背包"
-      }
-    ],
-    "activeIds": [
-      "phb-item-102"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:backpack, wicker",
     "category": "item",
     "en": "Backpack, Wicker",
@@ -116538,158 +116150,6 @@
     ],
     "activeIds": [
       "oa-banner-of-protection"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:barding, chain",
-    "category": "item",
-    "en": "Barding, Chain",
-    "zh": "链甲马铠",
-    "englishVariants": [
-      "Barding, Chain"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "链甲马铠"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/146",
-        "zh": "链甲马铠"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/146",
-        "zh": "链甲马铠"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-147",
-        "zh": "链甲马铠"
-      }
-    ],
-    "activeIds": [
-      "phb-item-147"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:barding, leather",
-    "category": "item",
-    "en": "Barding, Leather",
-    "zh": "皮甲马铠",
-    "englishVariants": [
-      "Barding, Leather"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "皮甲马铠"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/147",
-        "zh": "皮甲马铠"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/147",
-        "zh": "皮甲马铠"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-148",
-        "zh": "皮甲马铠"
-      }
-    ],
-    "activeIds": [
-      "phb-item-148"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:barding, plate",
-    "category": "item",
-    "en": "Barding, Plate",
-    "zh": "板甲马铠",
-    "englishVariants": [
-      "Barding, Plate"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "板甲马铠"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/148",
-        "zh": "板甲马铠"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/148",
-        "zh": "板甲马铠"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-149",
-        "zh": "板甲马铠"
-      }
-    ],
-    "activeIds": [
-      "phb-item-149"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:barge (or raft), small",
-    "category": "item",
-    "en": "Barge (or Raft), Small",
-    "zh": "小型驳船（或木筏）",
-    "englishVariants": [
-      "Barge (or Raft), Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型驳船（或木筏）"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/155",
-        "zh": "小型驳船（或木筏）"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/155",
-        "zh": "小型驳船（或木筏）"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-156",
-        "zh": "小型驳船（或木筏）"
-      }
-    ],
-    "activeIds": [
-      "phb-item-156"
     ],
     "status": "pending",
     "references": [],
@@ -116955,44 +116415,6 @@
     "notes": []
   },
   {
-    "key": "item:beads, prayer",
-    "category": "item",
-    "en": "Beads, Prayer",
-    "zh": "祈祷珠",
-    "englishVariants": [
-      "Beads, Prayer"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "祈祷珠"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/140",
-        "zh": "祈祷珠"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/140",
-        "zh": "祈祷珠"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-141",
-        "zh": "祈祷珠"
-      }
-    ],
-    "activeIds": [
-      "phb-item-141"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:beaker of plentiful potions",
     "category": "item",
     "en": "Beaker of Plentiful Potions",
@@ -117058,44 +116480,6 @@
     ],
     "activeIds": [
       "gha-item-bear-cloak-of-the-sulhaut-mountains"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:beer, small, pint",
-    "category": "item",
-    "en": "Beer, Small, Pint",
-    "zh": "淡啤酒，一品脱",
-    "englishVariants": [
-      "Beer, Small, Pint"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "淡啤酒，一品脱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/131",
-        "zh": "淡啤酒，一品脱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/131",
-        "zh": "淡啤酒，一品脱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-132",
-        "zh": "淡啤酒，一品脱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-132"
     ],
     "status": "pending",
     "references": [],
@@ -117178,44 +116562,6 @@
     "notes": []
   },
   {
-    "key": "item:belladonna, sprig",
-    "category": "item",
-    "en": "Belladonna, Sprig",
-    "zh": "颠茄，一枝",
-    "englishVariants": [
-      "Belladonna, Sprig"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "颠茄，一枝"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/77",
-        "zh": "颠茄，一枝"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/77",
-        "zh": "颠茄，一枝"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-078",
-        "zh": "颠茄，一枝"
-      }
-    ],
-    "activeIds": [
-      "phb-item-078"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:belpren",
     "category": "item",
     "en": "Belpren",
@@ -117245,44 +116591,6 @@
     ],
     "activeIds": [
       "fr-poison-belpren"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:belt",
-    "category": "item",
-    "en": "Belt",
-    "zh": "腰带",
-    "englishVariants": [
-      "Belt"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "腰带"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/66",
-        "zh": "腰带"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/66",
-        "zh": "腰带"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-067",
-        "zh": "腰带"
-      }
-    ],
-    "activeIds": [
-      "phb-item-067"
     ],
     "status": "pending",
     "references": [],
@@ -117760,39 +117068,6 @@
     "notes": []
   },
   {
-    "key": "item:bo stick",
-    "category": "item",
-    "en": "Bo Stick",
-    "zh": "短棍",
-    "englishVariants": [
-      "Bo Stick"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "短棍"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/445",
-        "zh": "短棍"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/8",
-        "zh": "短棍"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-bo-stick"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:boat, folding",
     "category": "item",
     "en": "Boat, Folding",
@@ -117825,82 +117100,6 @@
     ],
     "activeIds": [
       "dmg-item-boat-folding"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:boat, long",
-    "category": "item",
-    "en": "Boat, Long",
-    "zh": "长船",
-    "englishVariants": [
-      "Boat, Long"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "长船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/157",
-        "zh": "长船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/157",
-        "zh": "长船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-158",
-        "zh": "长船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-158"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:boat, small",
-    "category": "item",
-    "en": "Boat, Small",
-    "zh": "小船",
-    "englishVariants": [
-      "Boat, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/156",
-        "zh": "小船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/156",
-        "zh": "小船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-157",
-        "zh": "小船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-157"
     ],
     "status": "pending",
     "references": [],
@@ -118229,158 +117428,6 @@
     "notes": []
   },
   {
-    "key": "item:boots, high, hard",
-    "category": "item",
-    "en": "Boots, High, Hard",
-    "zh": "高筒硬靴",
-    "englishVariants": [
-      "Boots, High, Hard"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "高筒硬靴"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/67",
-        "zh": "高筒硬靴"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/67",
-        "zh": "高筒硬靴"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-068",
-        "zh": "高筒硬靴"
-      }
-    ],
-    "activeIds": [
-      "phb-item-068"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:boots, high, soft",
-    "category": "item",
-    "en": "Boots, High, Soft",
-    "zh": "高筒软靴",
-    "englishVariants": [
-      "Boots, High, Soft"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "高筒软靴"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/68",
-        "zh": "高筒软靴"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/68",
-        "zh": "高筒软靴"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-069",
-        "zh": "高筒软靴"
-      }
-    ],
-    "activeIds": [
-      "phb-item-069"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:boots, low, hard",
-    "category": "item",
-    "en": "Boots, Low, Hard",
-    "zh": "低筒硬靴",
-    "englishVariants": [
-      "Boots, Low, Hard"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "低筒硬靴"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/69",
-        "zh": "低筒硬靴"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/69",
-        "zh": "低筒硬靴"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-070",
-        "zh": "低筒硬靴"
-      }
-    ],
-    "activeIds": [
-      "phb-item-070"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:boots, low, soft",
-    "category": "item",
-    "en": "Boots, Low, Soft",
-    "zh": "低筒软靴",
-    "englishVariants": [
-      "Boots, Low, Soft"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "低筒软靴"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/70",
-        "zh": "低筒软靴"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/70",
-        "zh": "低筒软靴"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-071",
-        "zh": "低筒软靴"
-      }
-    ],
-    "activeIds": [
-      "phb-item-071"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:boots, winged",
     "category": "item",
     "en": "Boots, Winged",
@@ -118631,82 +117678,6 @@
     ],
     "activeIds": [
       "dsg-gear-box-gold-small"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:box, iron, large",
-    "category": "item",
-    "en": "Box, Iron, Large",
-    "zh": "大型铁箱",
-    "englishVariants": [
-      "Box, Iron, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型铁箱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/102",
-        "zh": "大型铁箱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/102",
-        "zh": "大型铁箱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-103",
-        "zh": "大型铁箱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-103"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:box, iron, small",
-    "category": "item",
-    "en": "Box, Iron, Small",
-    "zh": "小型铁箱",
-    "englishVariants": [
-      "Box, Iron, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型铁箱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/103",
-        "zh": "小型铁箱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/103",
-        "zh": "小型铁箱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-104",
-        "zh": "小型铁箱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-104"
     ],
     "status": "pending",
     "references": [],
@@ -119460,120 +118431,6 @@
     "notes": []
   },
   {
-    "key": "item:candle, tallow",
-    "category": "item",
-    "en": "Candle, Tallow",
-    "zh": "牛脂蜡烛",
-    "englishVariants": [
-      "Candle, Tallow"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "牛脂蜡烛"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/104",
-        "zh": "牛脂蜡烛"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/104",
-        "zh": "牛脂蜡烛"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-105",
-        "zh": "牛脂蜡烛"
-      }
-    ],
-    "activeIds": [
-      "phb-item-105"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:candle, wax",
-    "category": "item",
-    "en": "Candle, Wax",
-    "zh": "蜂蜡蜡烛",
-    "englishVariants": [
-      "Candle, Wax"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "蜂蜡蜡烛"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/105",
-        "zh": "蜂蜡蜡烛"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/105",
-        "zh": "蜂蜡蜡烛"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-106",
-        "zh": "蜂蜡蜡烛"
-      }
-    ],
-    "activeIds": [
-      "phb-item-106"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:cap",
-    "category": "item",
-    "en": "Cap",
-    "zh": "便帽",
-    "englishVariants": [
-      "Cap"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "便帽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/71",
-        "zh": "便帽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/71",
-        "zh": "便帽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-072",
-        "zh": "便帽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-072"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:carpet of flying",
     "category": "item",
     "en": "Carpet of Flying",
@@ -119606,82 +118463,6 @@
     ],
     "activeIds": [
       "magic-carpet-of-flying"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:case, bone, map or scroll",
-    "category": "item",
-    "en": "Case, Bone, Map or Scroll",
-    "zh": "骨制地图或卷轴匣",
-    "englishVariants": [
-      "Case, Bone, Map or Scroll"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "骨制地图或卷轴匣"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/106",
-        "zh": "骨制地图或卷轴匣"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/106",
-        "zh": "骨制地图或卷轴匣"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-107",
-        "zh": "骨制地图或卷轴匣"
-      }
-    ],
-    "activeIds": [
-      "phb-item-107"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:case, leather, map or scroll",
-    "category": "item",
-    "en": "Case, Leather, Map or Scroll",
-    "zh": "皮制地图或卷轴匣",
-    "englishVariants": [
-      "Case, Leather, Map or Scroll"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "皮制地图或卷轴匣"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/107",
-        "zh": "皮制地图或卷轴匣"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/107",
-        "zh": "皮制地图或卷轴匣"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-108",
-        "zh": "皮制地图或卷轴匣"
-      }
-    ],
-    "activeIds": [
-      "phb-item-108"
     ],
     "status": "pending",
     "references": [],
@@ -120179,82 +118960,6 @@
     "notes": []
   },
   {
-    "key": "item:chest, wooden, large",
-    "category": "item",
-    "en": "Chest, Wooden, Large",
-    "zh": "大型木箱",
-    "englishVariants": [
-      "Chest, Wooden, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型木箱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/108",
-        "zh": "大型木箱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/108",
-        "zh": "大型木箱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-109",
-        "zh": "大型木箱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-109"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:chest, wooden, small",
-    "category": "item",
-    "en": "Chest, Wooden, Small",
-    "zh": "小型木箱",
-    "englishVariants": [
-      "Chest, Wooden, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型木箱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/109",
-        "zh": "小型木箱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/109",
-        "zh": "小型木箱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-110",
-        "zh": "小型木箱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-110"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:chijiriki",
     "category": "item",
     "en": "Chijiriki",
@@ -120464,44 +119169,6 @@
     ],
     "activeIds": [
       "magic-climbing"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:cloak",
-    "category": "item",
-    "en": "Cloak",
-    "zh": "斗篷",
-    "englishVariants": [
-      "Cloak"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "斗篷"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/72",
-        "zh": "斗篷"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/72",
-        "zh": "斗篷"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-073",
-        "zh": "斗篷"
-      }
-    ],
-    "activeIds": [
-      "phb-item-073"
     ],
     "status": "pending",
     "references": [],
@@ -122016,82 +120683,6 @@
     ],
     "activeIds": [
       "oa-do-maru"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:dog, guard",
-    "category": "item",
-    "en": "Dog, Guard",
-    "zh": "护卫犬",
-    "englishVariants": [
-      "Dog, Guard"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "护卫犬"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/82",
-        "zh": "护卫犬"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/82",
-        "zh": "护卫犬"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-083",
-        "zh": "护卫犬"
-      }
-    ],
-    "activeIds": [
-      "phb-item-083"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:dog, hunting",
-    "category": "item",
-    "en": "Dog, Hunting",
-    "zh": "猎犬",
-    "englishVariants": [
-      "Dog, Hunting"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "猎犬"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/83",
-        "zh": "猎犬"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/83",
-        "zh": "猎犬"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-084",
-        "zh": "猎犬"
-      }
-    ],
-    "activeIds": [
-      "phb-item-084"
     ],
     "status": "pending",
     "references": [],
@@ -123706,82 +122297,6 @@
     "notes": []
   },
   {
-    "key": "item:food, merchant's meal",
-    "category": "item",
-    "en": "Food, Merchant's Meal",
-    "zh": "商旅餐食",
-    "englishVariants": [
-      "Food, Merchant's Meal"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "商旅餐食"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/132",
-        "zh": "商旅餐食"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/132",
-        "zh": "商旅餐食"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-133",
-        "zh": "商旅餐食"
-      }
-    ],
-    "activeIds": [
-      "phb-item-133"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:food, rich meal",
-    "category": "item",
-    "en": "Food, Rich Meal",
-    "zh": "丰盛餐食",
-    "englishVariants": [
-      "Food, Rich Meal"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "丰盛餐食"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/133",
-        "zh": "丰盛餐食"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/133",
-        "zh": "丰盛餐食"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-134",
-        "zh": "丰盛餐食"
-      }
-    ],
-    "activeIds": [
-      "phb-item-134"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:footman's dragonlance",
     "category": "item",
     "en": "Footman’s Dragonlance",
@@ -123853,120 +122368,6 @@
     ],
     "activeIds": [
       "dla-frostreaver"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:galley, large",
-    "category": "item",
-    "en": "Galley, Large",
-    "zh": "大型桨帆船",
-    "englishVariants": [
-      "Galley, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型桨帆船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/159",
-        "zh": "大型桨帆船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/159",
-        "zh": "大型桨帆船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-160",
-        "zh": "大型桨帆船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-160"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:galley, small",
-    "category": "item",
-    "en": "Galley, Small",
-    "zh": "小型桨帆船",
-    "englishVariants": [
-      "Galley, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型桨帆船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/160",
-        "zh": "小型桨帆船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/160",
-        "zh": "小型桨帆船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-161",
-        "zh": "小型桨帆船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-161"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:garlic, bud",
-    "category": "item",
-    "en": "Garlic, Bud",
-    "zh": "大蒜，一瓣",
-    "englishVariants": [
-      "Garlic, Bud"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大蒜，一瓣"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/78",
-        "zh": "大蒜，一瓣"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/78",
-        "zh": "大蒜，一瓣"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-079",
-        "zh": "大蒜，一瓣"
-      }
-    ],
-    "activeIds": [
-      "phb-item-079"
     ],
     "status": "pending",
     "references": [],
@@ -124509,82 +122910,6 @@
     "notes": []
   },
   {
-    "key": "item:girdle, broad",
-    "category": "item",
-    "en": "Girdle, Broad",
-    "zh": "宽束带",
-    "englishVariants": [
-      "Girdle, Broad"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "宽束带"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/73",
-        "zh": "宽束带"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/73",
-        "zh": "宽束带"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-074",
-        "zh": "宽束带"
-      }
-    ],
-    "activeIds": [
-      "phb-item-074"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:girdle, normal",
-    "category": "item",
-    "en": "Girdle, Normal",
-    "zh": "普通束带",
-    "englishVariants": [
-      "Girdle, Normal"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "普通束带"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/74",
-        "zh": "普通束带"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/74",
-        "zh": "普通束带"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-075",
-        "zh": "普通束带"
-      }
-    ],
-    "activeIds": [
-      "phb-item-075"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:glanvyl's workbook",
     "category": "item",
     "en": "Glanvyl's Workbook",
@@ -125007,44 +123332,6 @@
     "notes": []
   },
   {
-    "key": "item:grain, horse meal, 1 day",
-    "category": "item",
-    "en": "Grain, Horse Meal, 1 Day",
-    "zh": "马料，一日份",
-    "englishVariants": [
-      "Grain, Horse Meal, 1 Day"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "马料，一日份"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/134",
-        "zh": "马料，一日份"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/134",
-        "zh": "马料，一日份"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-135",
-        "zh": "马料，一日份"
-      }
-    ],
-    "activeIds": [
-      "phb-item-135"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:grass mat",
     "category": "item",
     "en": "Grass Mat",
@@ -125363,44 +123650,6 @@
     "notes": []
   },
   {
-    "key": "item:harness",
-    "category": "item",
-    "en": "Harness",
-    "zh": "挽具",
-    "englishVariants": [
-      "Harness"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "挽具"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/150",
-        "zh": "挽具"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/150",
-        "zh": "挽具"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-151",
-        "zh": "挽具"
-      }
-    ],
-    "activeIds": [
-      "phb-item-151"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:harpoon",
     "category": "item",
     "en": "Harpoon",
@@ -125461,44 +123710,6 @@
     ],
     "activeIds": [
       "gha-item-hasty-barge-of-nyr-dyv"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:hat",
-    "category": "item",
-    "en": "Hat",
-    "zh": "帽子",
-    "englishVariants": [
-      "Hat"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "帽子"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/75",
-        "zh": "帽子"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/75",
-        "zh": "帽子"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-076",
-        "zh": "帽子"
-      }
-    ],
-    "activeIds": [
-      "phb-item-076"
     ],
     "status": "pending",
     "references": [],
@@ -125575,82 +123786,6 @@
     ],
     "activeIds": [
       "ua-magic-hat-of-stupidity"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:hawk, large",
-    "category": "item",
-    "en": "Hawk, Large",
-    "zh": "大型鹰",
-    "englishVariants": [
-      "Hawk, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型鹰"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/86",
-        "zh": "大型鹰"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/86",
-        "zh": "大型鹰"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-087",
-        "zh": "大型鹰"
-      }
-    ],
-    "activeIds": [
-      "phb-item-087"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:hawk, small",
-    "category": "item",
-    "en": "Hawk, Small",
-    "zh": "小型鹰",
-    "englishVariants": [
-      "Hawk, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型鹰"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/87",
-        "zh": "小型鹰"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/87",
-        "zh": "小型鹰"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-088",
-        "zh": "小型鹰"
-      }
-    ],
-    "activeIds": [
-      "phb-item-088"
     ],
     "status": "pending",
     "references": [],
@@ -126549,196 +124684,6 @@
     "notes": []
   },
   {
-    "key": "item:horse, draft",
-    "category": "item",
-    "en": "Horse, Draft",
-    "zh": "挽马",
-    "englishVariants": [
-      "Horse, Draft"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "挽马"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/88",
-        "zh": "挽马"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/88",
-        "zh": "挽马"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-089",
-        "zh": "挽马"
-      }
-    ],
-    "activeIds": [
-      "phb-item-089"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:horse, heavy war",
-    "category": "item",
-    "en": "Horse, Heavy War",
-    "zh": "重型战马",
-    "englishVariants": [
-      "Horse, Heavy War"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "重型战马"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/89",
-        "zh": "重型战马"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/89",
-        "zh": "重型战马"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-090",
-        "zh": "重型战马"
-      }
-    ],
-    "activeIds": [
-      "phb-item-090"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:horse, light war",
-    "category": "item",
-    "en": "Horse, Light War",
-    "zh": "轻型战马",
-    "englishVariants": [
-      "Horse, Light War"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "轻型战马"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/90",
-        "zh": "轻型战马"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/90",
-        "zh": "轻型战马"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-091",
-        "zh": "轻型战马"
-      }
-    ],
-    "activeIds": [
-      "phb-item-091"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:horse, medium war",
-    "category": "item",
-    "en": "Horse, Medium War",
-    "zh": "中型战马",
-    "englishVariants": [
-      "Horse, Medium War"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "中型战马"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/91",
-        "zh": "中型战马"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/91",
-        "zh": "中型战马"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-092",
-        "zh": "中型战马"
-      }
-    ],
-    "activeIds": [
-      "phb-item-092"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:horse, riding (light)",
-    "category": "item",
-    "en": "Horse, Riding (Light)",
-    "zh": "轻型骑乘马",
-    "englishVariants": [
-      "Horse, Riding (Light)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "轻型骑乘马"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/92",
-        "zh": "轻型骑乘马"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/92",
-        "zh": "轻型骑乘马"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-093",
-        "zh": "轻型骑乘马"
-      }
-    ],
-    "activeIds": [
-      "phb-item-093"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:hot clothing",
     "category": "item",
     "en": "Hot Clothing",
@@ -127021,44 +124966,6 @@
     ],
     "activeIds": [
       "magic-incense-of-obsession"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:incense, stick",
-    "category": "item",
-    "en": "Incense, Stick",
-    "zh": "香，一炷",
-    "englishVariants": [
-      "Incense, Stick"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "香，一炷"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/141",
-        "zh": "香，一炷"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/141",
-        "zh": "香，一炷"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-142",
-        "zh": "香，一炷"
-      }
-    ],
-    "activeIds": [
-      "phb-item-142"
     ],
     "status": "pending",
     "references": [],
@@ -127885,39 +125792,6 @@
     "notes": []
   },
   {
-    "key": "item:jo stick",
-    "category": "item",
-    "en": "Jo Stick",
-    "zh": "约棍",
-    "englishVariants": [
-      "Jo Stick"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "约棍"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/451",
-        "zh": "约棍"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/21",
-        "zh": "约棍"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-jo-stick"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:johydee's mask",
     "category": "item",
     "en": "Johydee’s Mask",
@@ -128430,105 +126304,6 @@
     "notes": []
   },
   {
-    "key": "item:lance (heavy horse)",
-    "category": "item",
-    "en": "Lance (heavy horse)",
-    "zh": "重骑枪",
-    "englishVariants": [
-      "Lance (heavy horse)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "重骑枪"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/455",
-        "zh": "重骑枪"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/25",
-        "zh": "重骑枪"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-lance-heavy-horse"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:lance (light horse)",
-    "category": "item",
-    "en": "Lance (light horse)",
-    "zh": "轻骑枪",
-    "englishVariants": [
-      "Lance (light horse)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "轻骑枪"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/453",
-        "zh": "轻骑枪"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/23",
-        "zh": "轻骑枪"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-lance-light-horse"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:lance (medium horse)",
-    "category": "item",
-    "en": "Lance (medium horse)",
-    "zh": "中骑枪",
-    "englishVariants": [
-      "Lance (medium horse)"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "中骑枪"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/454",
-        "zh": "中骑枪"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/24",
-        "zh": "中骑枪"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-lance-medium-horse"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:lantern",
     "category": "item",
     "en": "Lantern",
@@ -128589,82 +126364,6 @@
     ],
     "activeIds": [
       "gha-lantern-of-greyhawk"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:lantern, bullseye",
-    "category": "item",
-    "en": "Lantern, Bullseye",
-    "zh": "聚光提灯",
-    "englishVariants": [
-      "Lantern, Bullseye"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "聚光提灯"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/110",
-        "zh": "聚光提灯"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/110",
-        "zh": "聚光提灯"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-111",
-        "zh": "聚光提灯"
-      }
-    ],
-    "activeIds": [
-      "phb-item-111"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:lantern, hooded",
-    "category": "item",
-    "en": "Lantern, Hooded",
-    "zh": "风帽提灯",
-    "englishVariants": [
-      "Lantern, Hooded"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "风帽提灯"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/111",
-        "zh": "风帽提灯"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/111",
-        "zh": "风帽提灯"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-112",
-        "zh": "风帽提灯"
-      }
-    ],
-    "activeIds": [
-      "phb-item-112"
     ],
     "status": "pending",
     "references": [],
@@ -130021,44 +127720,6 @@
     "notes": []
   },
   {
-    "key": "item:mead, pint",
-    "category": "item",
-    "en": "Mead, Pint",
-    "zh": "蜂蜜酒，一品脱",
-    "englishVariants": [
-      "Mead, Pint"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "蜂蜜酒，一品脱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/135",
-        "zh": "蜂蜜酒，一品脱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/135",
-        "zh": "蜂蜜酒，一品脱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-136",
-        "zh": "蜂蜜酒，一品脱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-136"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:medallion of esp",
     "category": "item",
     "en": "Medallion of ESP",
@@ -130707,82 +128368,6 @@
     ],
     "activeIds": [
       "oa-mirror-of-spirit-seeing"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:mirror, large metal",
-    "category": "item",
-    "en": "Mirror, Large Metal",
-    "zh": "大型金属镜",
-    "englishVariants": [
-      "Mirror, Large Metal"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型金属镜"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/112",
-        "zh": "大型金属镜"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/112",
-        "zh": "大型金属镜"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-113",
-        "zh": "大型金属镜"
-      }
-    ],
-    "activeIds": [
-      "phb-item-113"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:mirror, small, silver",
-    "category": "item",
-    "en": "Mirror, Small, Silver",
-    "zh": "小型银镜",
-    "englishVariants": [
-      "Mirror, Small, Silver"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型银镜"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/113",
-        "zh": "小型银镜"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/113",
-        "zh": "小型银镜"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-114",
-        "zh": "小型银镜"
-      }
-    ],
-    "activeIds": [
-      "phb-item-114"
     ],
     "status": "pending",
     "references": [],
@@ -131911,44 +129496,6 @@
     ],
     "activeIds": [
       "ua-magic-oil-of-timelessness"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:oil, flask of",
-    "category": "item",
-    "en": "Oil, Flask of",
-    "zh": "油，一瓶",
-    "englishVariants": [
-      "Oil, Flask of"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "油，一瓶"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/114",
-        "zh": "油，一瓶"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/114",
-        "zh": "油，一瓶"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-115",
-        "zh": "油，一瓶"
-      }
-    ],
-    "activeIds": [
-      "phb-item-115"
     ],
     "status": "pending",
     "references": [],
@@ -133302,82 +130849,6 @@
     "notes": []
   },
   {
-    "key": "item:pigeon",
-    "category": "item",
-    "en": "Pigeon",
-    "zh": "鸽",
-    "englishVariants": [
-      "Pigeon"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "鸽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/95",
-        "zh": "鸽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/95",
-        "zh": "鸽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-096",
-        "zh": "鸽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-096"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:piglet",
-    "category": "item",
-    "en": "Piglet",
-    "zh": "小猪",
-    "englishVariants": [
-      "Piglet"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小猪"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/96",
-        "zh": "小猪"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/96",
-        "zh": "小猪"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-097",
-        "zh": "小猪"
-      }
-    ],
-    "activeIds": [
-      "phb-item-097"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:plant control",
     "category": "item",
     "en": "Plant Control",
@@ -133654,44 +131125,6 @@
     "notes": []
   },
   {
-    "key": "item:pole, 10 ft.",
-    "category": "item",
-    "en": "Pole, 10 ft.",
-    "zh": "十英尺长杆",
-    "englishVariants": [
-      "Pole, 10 ft."
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "十英尺长杆"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/115",
-        "zh": "十英尺长杆"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/115",
-        "zh": "十英尺长杆"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-116",
-        "zh": "十英尺长杆"
-      }
-    ],
-    "activeIds": [
-      "phb-item-116"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:polymorph (self)",
     "category": "item",
     "en": "Polymorph (Self)",
@@ -133863,115 +131296,6 @@
     ],
     "activeIds": [
       "ua-magic-pouch-of-accessibility"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:pouch, belt, large",
-    "category": "item",
-    "en": "Pouch, Belt, Large",
-    "zh": "大型腰包",
-    "englishVariants": [
-      "Pouch, Belt, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型腰包"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/116",
-        "zh": "大型腰包"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/116",
-        "zh": "大型腰包"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-117",
-        "zh": "大型腰包"
-      }
-    ],
-    "activeIds": [
-      "phb-item-117"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:pouch, belt, small",
-    "category": "item",
-    "en": "Pouch, Belt, Small",
-    "zh": "小型腰包",
-    "englishVariants": [
-      "Pouch, Belt, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型腰包"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/117",
-        "zh": "小型腰包"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/117",
-        "zh": "小型腰包"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-118",
-        "zh": "小型腰包"
-      }
-    ],
-    "activeIds": [
-      "phb-item-118"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:prayer beads",
-    "category": "item",
-    "en": "Prayer Beads",
-    "zh": "祈祷珠",
-    "englishVariants": [
-      "Prayer Beads"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "祈祷珠"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/587",
-        "zh": "祈祷珠"
-      },
-      {
-        "path": "src/data/public/oa-items.ts",
-        "location": "33",
-        "zh": "祈祷珠"
-      }
-    ],
-    "activeIds": [
-      "oa-prayer-beads"
     ],
     "status": "pending",
     "references": [],
@@ -134474,72 +131798,6 @@
     "notes": []
   },
   {
-    "key": "item:quarrel (or bolt), heavy",
-    "category": "item",
-    "en": "Quarrel (or Bolt), heavy",
-    "zh": "重弩矢",
-    "englishVariants": [
-      "Quarrel (or Bolt), heavy"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "重弩矢"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/460",
-        "zh": "重弩矢"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/32",
-        "zh": "重弩矢"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-quarrel-or-bolt-heavy"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:quarrel (or bolt), light",
-    "category": "item",
-    "en": "Quarrel (or Bolt), light",
-    "zh": "轻弩矢",
-    "englishVariants": [
-      "Quarrel (or Bolt), light"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "轻弩矢"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/459",
-        "zh": "轻弩矢"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/31",
-        "zh": "轻弩矢"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-quarrel-or-bolt-light"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:quarterstaff, magic",
     "category": "item",
     "en": "Quarterstaff, Magic",
@@ -134572,158 +131830,6 @@
     ],
     "activeIds": [
       "ua-magic-quarterstaff-magic"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:quiver, 1 dozen arrows capacity",
-    "category": "item",
-    "en": "Quiver, 1 Dozen Arrows Capacity",
-    "zh": "箭袋，可装12支箭",
-    "englishVariants": [
-      "Quiver, 1 Dozen Arrows Capacity"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "箭袋，可装12支箭"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/118",
-        "zh": "箭袋，可装12支箭"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/118",
-        "zh": "箭袋，可装12支箭"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-119",
-        "zh": "箭袋，可装12支箭"
-      }
-    ],
-    "activeIds": [
-      "phb-item-119"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:quiver, 1 score arrows capacity",
-    "category": "item",
-    "en": "Quiver, 1 Score Arrows Capacity",
-    "zh": "箭袋，可装20支箭",
-    "englishVariants": [
-      "Quiver, 1 Score Arrows Capacity"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "箭袋，可装20支箭"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/119",
-        "zh": "箭袋，可装20支箭"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/119",
-        "zh": "箭袋，可装20支箭"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-120",
-        "zh": "箭袋，可装20支箭"
-      }
-    ],
-    "activeIds": [
-      "phb-item-120"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:quiver, 1 score bolts capacity",
-    "category": "item",
-    "en": "Quiver, 1 Score Bolts Capacity",
-    "zh": "弩矢袋，可装20支弩矢",
-    "englishVariants": [
-      "Quiver, 1 Score Bolts Capacity"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "弩矢袋，可装20支弩矢"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/120",
-        "zh": "弩矢袋，可装20支弩矢"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/120",
-        "zh": "弩矢袋，可装20支弩矢"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-121",
-        "zh": "弩矢袋，可装20支弩矢"
-      }
-    ],
-    "activeIds": [
-      "phb-item-121"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:quiver, 2 score bolts capacity",
-    "category": "item",
-    "en": "Quiver, 2 Score Bolts Capacity",
-    "zh": "弩矢袋，可装40支弩矢",
-    "englishVariants": [
-      "Quiver, 2 Score Bolts Capacity"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "弩矢袋，可装40支弩矢"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/121",
-        "zh": "弩矢袋，可装40支弩矢"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/121",
-        "zh": "弩矢袋，可装40支弩矢"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-122",
-        "zh": "弩矢袋，可装40支弩矢"
-      }
-    ],
-    "activeIds": [
-      "phb-item-122"
     ],
     "status": "pending",
     "references": [],
@@ -134831,82 +131937,6 @@
     ],
     "activeIds": [
       "ua-magic-ram"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:rations, iron, 1 week",
-    "category": "item",
-    "en": "Rations, Iron, 1 Week",
-    "zh": "耐久口粮，一周份",
-    "englishVariants": [
-      "Rations, Iron, 1 Week"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "耐久口粮，一周份"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/136",
-        "zh": "耐久口粮，一周份"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/136",
-        "zh": "耐久口粮，一周份"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-137",
-        "zh": "耐久口粮，一周份"
-      }
-    ],
-    "activeIds": [
-      "phb-item-137"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:rations, standard, 1 week",
-    "category": "item",
-    "en": "Rations, Standard, 1 Week",
-    "zh": "标准口粮，一周份",
-    "englishVariants": [
-      "Rations, Standard, 1 Week"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "标准口粮，一周份"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/137",
-        "zh": "标准口粮，一周份"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/137",
-        "zh": "标准口粮，一周份"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-138",
-        "zh": "标准口粮，一周份"
-      }
-    ],
-    "activeIds": [
-      "phb-item-138"
     ],
     "status": "pending",
     "references": [],
@@ -137649,44 +134679,6 @@
     "notes": []
   },
   {
-    "key": "item:rope, 50 ft.",
-    "category": "item",
-    "en": "Rope, 50 ft.",
-    "zh": "绳索，50英尺",
-    "englishVariants": [
-      "Rope, 50 ft."
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "绳索，50英尺"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/122",
-        "zh": "绳索，50英尺"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/122",
-        "zh": "绳索，50英尺"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-123",
-        "zh": "绳索，50英尺"
-      }
-    ],
-    "activeIds": [
-      "phb-item-123"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:ruby slippers",
     "category": "item",
     "en": "Ruby Slippers",
@@ -137871,234 +134863,6 @@
     ],
     "activeIds": [
       "fr-book-sabirines-specular"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:sack, large",
-    "category": "item",
-    "en": "Sack, Large",
-    "zh": "大型麻袋",
-    "englishVariants": [
-      "Sack, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型麻袋"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/123",
-        "zh": "大型麻袋"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/123",
-        "zh": "大型麻袋"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-124",
-        "zh": "大型麻袋"
-      }
-    ],
-    "activeIds": [
-      "phb-item-124"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:sack, small",
-    "category": "item",
-    "en": "Sack, Small",
-    "zh": "小型麻袋",
-    "englishVariants": [
-      "Sack, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型麻袋"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/124",
-        "zh": "小型麻袋"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/124",
-        "zh": "小型麻袋"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-125",
-        "zh": "小型麻袋"
-      }
-    ],
-    "activeIds": [
-      "phb-item-125"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:saddle",
-    "category": "item",
-    "en": "Saddle",
-    "zh": "马鞍",
-    "englishVariants": [
-      "Saddle"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "马鞍"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/151",
-        "zh": "马鞍"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/151",
-        "zh": "马鞍"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-152",
-        "zh": "马鞍"
-      }
-    ],
-    "activeIds": [
-      "phb-item-152"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:saddle bags, large",
-    "category": "item",
-    "en": "Saddle Bags, Large",
-    "zh": "大型鞍袋",
-    "englishVariants": [
-      "Saddle Bags, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型鞍袋"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/152",
-        "zh": "大型鞍袋"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/152",
-        "zh": "大型鞍袋"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-153",
-        "zh": "大型鞍袋"
-      }
-    ],
-    "activeIds": [
-      "phb-item-153"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:saddle bags, small",
-    "category": "item",
-    "en": "Saddle Bags, Small",
-    "zh": "小型鞍袋",
-    "englishVariants": [
-      "Saddle Bags, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型鞍袋"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/153",
-        "zh": "小型鞍袋"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/153",
-        "zh": "小型鞍袋"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-154",
-        "zh": "小型鞍袋"
-      }
-    ],
-    "activeIds": [
-      "phb-item-154"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:saddle blanket",
-    "category": "item",
-    "en": "Saddle Blanket",
-    "zh": "鞍毯",
-    "englishVariants": [
-      "Saddle Blanket"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "鞍毯"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/154",
-        "zh": "鞍毯"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/154",
-        "zh": "鞍毯"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-155",
-        "zh": "鞍毯"
-      }
-    ],
-    "activeIds": [
-      "phb-item-155"
     ],
     "status": "pending",
     "references": [],
@@ -139389,120 +136153,6 @@
     "notes": []
   },
   {
-    "key": "item:ship, merchant, large",
-    "category": "item",
-    "en": "Ship, Merchant, Large",
-    "zh": "大型商船",
-    "englishVariants": [
-      "Ship, Merchant, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型商船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/161",
-        "zh": "大型商船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/161",
-        "zh": "大型商船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-162",
-        "zh": "大型商船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-162"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:ship, merchant, small",
-    "category": "item",
-    "en": "Ship, Merchant, Small",
-    "zh": "小型商船",
-    "englishVariants": [
-      "Ship, Merchant, Small"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "小型商船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/162",
-        "zh": "小型商船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/162",
-        "zh": "小型商船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-163",
-        "zh": "小型商船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-163"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:ship, war",
-    "category": "item",
-    "en": "Ship, War",
-    "zh": "战船",
-    "englishVariants": [
-      "Ship, War"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "战船"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/163",
-        "zh": "战船"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/163",
-        "zh": "战船"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-164",
-        "zh": "战船"
-      }
-    ],
-    "activeIds": [
-      "phb-item-164"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:shocking grasp",
     "category": "item",
     "en": "Shocking Grasp",
@@ -139713,44 +136363,6 @@
     "notes": []
   },
   {
-    "key": "item:skin for water or wine",
-    "category": "item",
-    "en": "Skin for Water or Wine",
-    "zh": "水或酒皮囊",
-    "englishVariants": [
-      "Skin for Water or Wine"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "水或酒皮囊"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/125",
-        "zh": "水或酒皮囊"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/125",
-        "zh": "水或酒皮囊"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-126",
-        "zh": "水或酒皮囊"
-      }
-    ],
-    "activeIds": [
-      "phb-item-126"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:skull-staff of hepmonaland",
     "category": "item",
     "en": "Skull-Staff of Hepmonaland",
@@ -139820,39 +136432,6 @@
     ],
     "activeIds": [
       "magic-sling-of-seeking-2"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:sling stone",
-    "category": "item",
-    "en": "Sling Stone",
-    "zh": "投石索石弹",
-    "englishVariants": [
-      "Sling Stone"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "投石索石弹"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/463",
-        "zh": "投石索石弹"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/36",
-        "zh": "投石索石弹"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-sling-stone"
     ],
     "status": "pending",
     "references": [],
@@ -140089,44 +136668,6 @@
     ],
     "activeIds": [
       "oa-gear-sode-garami"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:songbird",
-    "category": "item",
-    "en": "Songbird",
-    "zh": "鸣禽",
-    "englishVariants": [
-      "Songbird"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "鸣禽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/100",
-        "zh": "鸣禽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/100",
-        "zh": "鸣禽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-101",
-        "zh": "鸣禽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-101"
     ],
     "status": "pending",
     "references": [],
@@ -140470,44 +137011,6 @@
     ],
     "activeIds": [
       "dragon-145-magic-item-sphere-of-false-calling"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:spike, iron, large",
-    "category": "item",
-    "en": "Spike, Iron, Large",
-    "zh": "大型铁钉",
-    "englishVariants": [
-      "Spike, Iron, Large"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "大型铁钉"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/126",
-        "zh": "大型铁钉"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/126",
-        "zh": "大型铁钉"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-127",
-        "zh": "大型铁钉"
-      }
-    ],
-    "activeIds": [
-      "phb-item-127"
     ],
     "status": "pending",
     "references": [],
@@ -141083,39 +137586,6 @@
     ],
     "activeIds": [
       "ua-weapon-staff-sling-stone"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:staff, quarter",
-    "category": "item",
-    "en": "Staff, Quarter",
-    "zh": "长棍",
-    "englishVariants": [
-      "Staff, Quarter"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "长棍"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/465",
-        "zh": "长棍"
-      },
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/40",
-        "zh": "长棍"
-      }
-    ],
-    "activeIds": [
-      "ua-weapon-staff-quarter"
     ],
     "status": "pending",
     "references": [],
@@ -142575,48 +139045,6 @@
     "notes": []
   },
   {
-    "key": "item:sword, bastard",
-    "category": "item",
-    "en": "Sword, Bastard",
-    "zh": "混种剑",
-    "englishVariants": [
-      "Sword, Bastard"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/43",
-        "zh": "混种剑"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:sword, broad",
-    "category": "item",
-    "en": "Sword, Broad",
-    "zh": "阔剑",
-    "englishVariants": [
-      "Sword, Broad"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/44",
-        "zh": "阔剑"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:sword, cursed berserking",
     "category": "item",
     "en": "Sword, Cursed Berserking",
@@ -142728,48 +139156,6 @@
     "notes": []
   },
   {
-    "key": "item:sword, long",
-    "category": "item",
-    "en": "Sword, Long",
-    "zh": "长剑",
-    "englishVariants": [
-      "Sword, Long"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/47",
-        "zh": "长剑"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:sword, short",
-    "category": "item",
-    "en": "Sword, Short",
-    "zh": "短剑",
-    "englishVariants": [
-      "Sword, Short"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "src/data/public/ua-items-imported.json",
-        "location": "/48",
-        "zh": "短剑"
-      }
-    ],
-    "activeIds": [],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:sword, vorpal weapon",
     "category": "item",
     "en": "Sword, Vorpal Weapon",
@@ -142802,120 +139188,6 @@
     ],
     "activeIds": [
       "magic-sword-vorpal-weapon"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:symbol, holy, iron",
-    "category": "item",
-    "en": "Symbol, Holy, Iron",
-    "zh": "铁制圣徽",
-    "englishVariants": [
-      "Symbol, Holy, Iron"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "铁制圣徽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/142",
-        "zh": "铁制圣徽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/142",
-        "zh": "铁制圣徽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-143",
-        "zh": "铁制圣徽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-143"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:symbol, holy, silver",
-    "category": "item",
-    "en": "Symbol, Holy, Silver",
-    "zh": "银制圣徽",
-    "englishVariants": [
-      "Symbol, Holy, Silver"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "银制圣徽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/143",
-        "zh": "银制圣徽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/143",
-        "zh": "银制圣徽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-144",
-        "zh": "银制圣徽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-144"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:symbol, holy, wooden",
-    "category": "item",
-    "en": "Symbol, Holy, Wooden",
-    "zh": "木制圣徽",
-    "englishVariants": [
-      "Symbol, Holy, Wooden"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "木制圣徽"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/144",
-        "zh": "木制圣徽"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/144",
-        "zh": "木制圣徽"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-145",
-        "zh": "木制圣徽"
-      }
-    ],
-    "activeIds": [
-      "phb-item-145"
     ],
     "status": "pending",
     "references": [],
@@ -143721,44 +139993,6 @@
     "notes": []
   },
   {
-    "key": "item:thieves' picks & tools",
-    "category": "item",
-    "en": "Thieves' Picks & Tools",
-    "zh": "盗贼开锁器与工具",
-    "englishVariants": [
-      "Thieves' Picks & Tools"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "盗贼开锁器与工具"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/127",
-        "zh": "盗贼开锁器与工具"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/127",
-        "zh": "盗贼开锁器与工具"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-128",
-        "zh": "盗贼开锁器与工具"
-      }
-    ],
-    "activeIds": [
-      "phb-item-128"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:thillonrian shield of berserking +2",
     "category": "item",
     "en": "Thillonrian Shield of Berserking +2",
@@ -143956,44 +140190,6 @@
     ],
     "activeIds": [
       "gha-item-timeglass-of-the-mage"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:tinder box, with flint & steel",
-    "category": "item",
-    "en": "Tinder Box, with Flint & Steel",
-    "zh": "火绒盒，含燧石与火镰",
-    "englishVariants": [
-      "Tinder Box, with Flint & Steel"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "火绒盒，含燧石与火镰"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/128",
-        "zh": "火绒盒，含燧石与火镰"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/128",
-        "zh": "火绒盒，含燧石与火镰"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-129",
-        "zh": "火绒盒，含燧石与火镰"
-      }
-    ],
-    "activeIds": [
-      "phb-item-129"
     ],
     "status": "pending",
     "references": [],
@@ -145580,44 +141776,6 @@
     "notes": []
   },
   {
-    "key": "item:water, holy or unholy, vial",
-    "category": "item",
-    "en": "Water, Holy or Unholy, Vial",
-    "zh": "圣水*或邪水，一小瓶",
-    "englishVariants": [
-      "Water, Holy or Unholy, Vial"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "圣水*或邪水，一小瓶"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/145",
-        "zh": "圣水*或邪水，一小瓶"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/145",
-        "zh": "圣水*或邪水，一小瓶"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-146",
-        "zh": "圣水*或邪水，一小瓶"
-      }
-    ],
-    "activeIds": [
-      "phb-item-146"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:waterproof lantern",
     "category": "item",
     "en": "Waterproof Lantern",
@@ -145963,82 +142121,6 @@
     "notes": []
   },
   {
-    "key": "item:wine, pint, good",
-    "category": "item",
-    "en": "Wine, Pint, Good",
-    "zh": "优质葡萄酒，一品脱",
-    "englishVariants": [
-      "Wine, Pint, Good"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "优质葡萄酒，一品脱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/138",
-        "zh": "优质葡萄酒，一品脱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/138",
-        "zh": "优质葡萄酒，一品脱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-139",
-        "zh": "优质葡萄酒，一品脱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-139"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:wine, pint, watered",
-    "category": "item",
-    "en": "Wine, Pint, Watered",
-    "zh": "兑水葡萄酒，一品脱",
-    "englishVariants": [
-      "Wine, Pint, Watered"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "兑水葡萄酒，一品脱"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/139",
-        "zh": "兑水葡萄酒，一品脱"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/139",
-        "zh": "兑水葡萄酒，一品脱"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-140",
-        "zh": "兑水葡萄酒，一品脱"
-      }
-    ],
-    "activeIds": [
-      "phb-item-140"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "item:wings of the rakers",
     "category": "item",
     "en": "Wings of the Rakers",
@@ -146099,44 +142181,6 @@
     ],
     "activeIds": [
       "gha-item-wolf-cloak-of-wegwiur"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "item:wolvesbane, sprig",
-    "category": "item",
-    "en": "Wolvesbane, Sprig",
-    "zh": "乌头，一枝",
-    "englishVariants": [
-      "Wolvesbane, Sprig"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "乌头，一枝"
-      },
-      {
-        "path": "src/data/public/item-index.json",
-        "location": "/79",
-        "zh": "乌头，一枝"
-      },
-      {
-        "path": "src/data/public/items-imported.json",
-        "location": "/79",
-        "zh": "乌头，一枝"
-      },
-      {
-        "path": "scripts/import/phb-equipment-names.json",
-        "location": "/phb-item-080",
-        "zh": "乌头，一枝"
-      }
-    ],
-    "activeIds": [
-      "phb-item-080"
     ],
     "status": "pending",
     "references": [],
@@ -185367,60 +181411,6 @@
     "notes": []
   },
   {
-    "key": "spell:create water",
-    "category": "spell",
-    "en": "Create Water",
-    "zh": "造水术",
-    "englishVariants": [
-      "Create Water"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/2",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/89",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/2",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/89",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-clerics.md",
-        "location": "35",
-        "zh": "造水术"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-druids.md",
-        "location": "212",
-        "zh": "造水术"
-      }
-    ],
-    "activeIds": [
-      "create-water",
-      "create-water-level-2"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "spell:creeping doom",
     "category": "spell",
     "en": "Creeping Doom",
@@ -186352,50 +182342,6 @@
     ],
     "activeIds": [
       "oa-detect-disease"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "spell:detect evil",
-    "category": "spell",
-    "en": "Detect Evil",
-    "zh": "侦测邪恶",
-    "englishVariants": [
-      "Detect Evil"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "侦测邪恶"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/4",
-        "zh": "侦测邪恶"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/178",
-        "zh": "侦测邪恶"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/4",
-        "zh": "侦测邪恶"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/178",
-        "zh": "侦测邪恶"
-      }
-    ],
-    "activeIds": [
-      "detect-evil",
-      "detect-evil-level-2"
     ],
     "status": "pending",
     "references": [],
@@ -187805,11 +183751,6 @@
       {
         "path": "src/data/public/ua-spells-imported.json",
         "location": "/143",
-        "zh": "除尘"
-      },
-      {
-        "path": "src/published/books/ua/ua-magic-user-cantrips-useful.md",
-        "location": "37",
         "zh": "除尘"
       }
     ],
@@ -194890,40 +190831,6 @@
     "notes": []
   },
   {
-    "key": "spell:protection from evil",
-    "category": "spell",
-    "en": "Protection from Evil",
-    "zh": "防护邪恶",
-    "englishVariants": [
-      "Protection From Evil",
-      "Protection from Evil"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "防护邪恶"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/7",
-        "zh": "防护邪恶"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/7",
-        "zh": "防护邪恶"
-      }
-    ],
-    "activeIds": [
-      "protection-from-evil"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
     "key": "spell:protection from evil, 10' radius",
     "category": "spell",
     "en": "Protection from Evil, 10' Radius",
@@ -195113,44 +191020,6 @@
     ],
     "activeIds": [
       "protection-from-normal-missiles"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "spell:purify food & drink",
-    "category": "spell",
-    "en": "Purify Food & Drink",
-    "zh": "净化食粮",
-    "englishVariants": [
-      "Purify Food & Drink"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "净化食粮"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/8",
-        "zh": "净化食粮"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/8",
-        "zh": "净化食粮"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-clerics.md",
-        "location": "119",
-        "zh": "净化食粮"
-      }
-    ],
-    "activeIds": [
-      "drink"
     ],
     "status": "pending",
     "references": [],
@@ -195953,44 +191822,6 @@
     ],
     "activeIds": [
       "repulsion"
-    ],
-    "status": "pending",
-    "references": [],
-    "notes": []
-  },
-  {
-    "key": "spell:resist cold",
-    "category": "spell",
-    "en": "Resist Cold",
-    "zh": "抵抗寒冷",
-    "englishVariants": [
-      "Resist Cold"
-    ],
-    "legacyZh": [],
-    "occurrences": [
-      {
-        "path": "@library",
-        "location": "",
-        "zh": "抵抗寒冷"
-      },
-      {
-        "path": "src/data/public/spell-index.json",
-        "location": "/10",
-        "zh": "抵抗寒冷"
-      },
-      {
-        "path": "src/data/public/spells-imported.json",
-        "location": "/10",
-        "zh": "抵抗寒冷"
-      },
-      {
-        "path": "src/published/books/phb/spell-explanations-clerics.md",
-        "location": "147",
-        "zh": "抵抗寒冷"
-      }
-    ],
-    "activeIds": [
-      "resist-cold"
     ],
     "status": "pending",
     "references": [],
