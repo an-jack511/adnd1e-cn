@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "scope": "Printedpp.33–35 alignment,hit points,establishing character,languages,money; equipment list excluded",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Chaotic Evil",
+      "zh": "混乱邪恶",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Good",
+      "zh": "混乱善良",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Neutral",
+      "zh": "混乱中立",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Evil",
+      "zh": "守序邪恶",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Good",
+      "zh": "守序善良",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Neutral",
+      "zh": "守序中立",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Evil",
+      "zh": "中立邪恶",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Good",
+      "zh": "中立善良",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "True Neutral",
+      "zh": "绝对中立",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Changing Alignment",
+      "zh": "改变阵营",
+      "printedPage": 34,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Starting Money",
+      "zh": "起始资金",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Monetary System",
+      "zh": "货币体系",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Money Changing",
+      "zh": "货币兑换",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Copper Piece",
+      "zh": "铜币",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Silver Piece",
+      "zh": "银币",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Electrum Piece",
+      "zh": "银金币",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Gold Piece",
+      "zh": "金币",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Platinum Piece",
+      "zh": "铂金币",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Ogrish",
+      "zh": "食人魔语",
+      "printedPage": 34,
+      "status": "adapted-variant"
+    }
+  ],
+  "updatedPendingEntries": [],
+  "reviewedAliases": [
+    {
+      "category": "language",
+      "en": "Chaotic Neutrality",
+      "variant": "Chaotic Neutral",
+      "printedPage": 34
+    },
+    {
+      "category": "language",
+      "en": "Lawful Neutrality",
+      "variant": "Lawful Neutral",
+      "printedPage": 34
+    }
+  ],
+  "contextNotes": [
+    "Hit Points,Hit Dice,Alignment,Alignment Language reused with page-specific senses.",
+    "Racial languages and Thieves Cant/Druidic reused; no invented generic character-creation heading concepts."
+  ],
+  "unresolvedOriginalWords": [],
+  "next": "PHB printedp.35 basic equipment table; armor+arms then clothing/herbs and printedp.36 remainder",
+  "latestSnapshot": {
+    "catalogEntries": 8706,
+    "ruleForms": 864,
+    "revisionLedgerTotal": 46095
+  },
+  "validationReport": "phb-basics-equipment-validation.json"
+}

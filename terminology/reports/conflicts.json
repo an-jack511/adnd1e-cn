@@ -2471,7 +2471,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/4",
-        "zh": "阔刃长柄斧"
+        "zh": "长柄战斧"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "长柄战斧"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -2487,9 +2492,39 @@
     "activeIds": [
       "phb-item-020"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Bardiche",
+        "zh": "长柄战斧",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 125,
+        "en": "Bardiche",
+        "zh": "长柄战斧",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.125; OCR page-126; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器名称，沿用既有可辨主译；不与普通战斧归并。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "长柄战斧",
+        "meaning": "独立长柄武器名称，沿用既有可辨主译；不与普通战斧归并。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:bec de corbin",
@@ -2523,7 +2558,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/5",
-        "zh": "鸦嘴锤"
+        "zh": "鸦喙锤"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "鸦喙锤"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -2539,9 +2579,39 @@
     "activeIds": [
       "phb-item-021"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Bec de corbin",
+        "zh": "鸦喙锤",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 127,
+        "en": "Bec de Corbin",
+        "zh": "鸦喙锤",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器名称；按原名鸦喙词义与既有锤类称名自译。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "鸦喙锤",
+        "meaning": "独立长柄武器名称；按原名鸦喙词义与既有锤类称名自译。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:chime of opening",
@@ -3255,11 +3325,12 @@
     "key": "item:fauchard",
     "category": "item",
     "en": "Fauchard",
-    "zh": "长柄刀",
+    "zh": "长柄镰刀",
     "englishVariants": [
       "Fauchard"
     ],
     "legacyZh": [
+      "长柄刀",
       "长柄弯刀",
       "长柄镰"
     ],
@@ -3267,22 +3338,27 @@
       {
         "path": "@library",
         "location": "",
-        "zh": "长柄刀"
+        "zh": "长柄镰刀"
       },
       {
         "path": "src/data/public/item-index.json",
         "location": "/30",
-        "zh": "长柄刀"
+        "zh": "长柄镰刀"
       },
       {
         "path": "src/data/public/items-imported.json",
         "location": "/30",
-        "zh": "长柄刀"
+        "zh": "长柄镰刀"
       },
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/12",
-        "zh": "长柄弯刀"
+        "zh": "长柄镰刀"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "长柄镰刀"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3298,20 +3374,52 @@
     "activeIds": [
       "phb-item-031"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Fauchard",
+        "zh": "长柄镰刀",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 126,
+        "en": "Fauchard",
+        "zh": "长柄镰刀",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器，按镰形刃的传统称名自译；与既有Glaive长柄刀分开。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "长柄镰刀",
+        "meaning": "独立长柄武器，按镰形刃的传统称名自译；与既有Glaive长柄刀分开。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:fauchard-fork",
     "category": "item",
     "en": "Fauchard-Fork",
-    "zh": "叉刃长柄刀",
+    "zh": "叉刃长柄镰刀",
     "englishVariants": [
       "Fauchard-Fork",
-      "Fauchard-fork"
+      "Fauchard-fork",
+      "Fauchard—Fork"
     ],
     "legacyZh": [
+      "叉刃长柄刀",
       "长柄刀叉",
       "长柄镰叉"
     ],
@@ -3319,17 +3427,22 @@
       {
         "path": "@library",
         "location": "",
-        "zh": "叉刃长柄刀"
+        "zh": "叉刃长柄镰刀"
       },
       {
         "path": "src/data/public/item-index.json",
         "location": "/31",
-        "zh": "叉刃长柄刀"
+        "zh": "叉刃长柄镰刀"
       },
       {
         "path": "src/data/public/items-imported.json",
         "location": "/31",
-        "zh": "叉刃长柄刀"
+        "zh": "叉刃长柄镰刀"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "叉刃长柄镰刀"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3345,9 +3458,39 @@
     "activeIds": [
       "phb-item-032"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Fauchard—Fork",
+        "zh": "叉刃长柄镰刀",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 127,
+        "en": "Fauchard-Fork",
+        "zh": "叉刃长柄镰刀",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。与Fauchard分列；保留fork复合名称。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "叉刃长柄镰刀",
+        "meaning": "与Fauchard分列；保留fork复合名称。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:gem of seeing",
@@ -3447,7 +3590,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/15",
-        "zh": "长刃钩枪"
+        "zh": "刀钩戟"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "刀钩戟"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3463,9 +3611,39 @@
     "activeIds": [
       "phb-item-037"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Glaive-Guisarme",
+        "zh": "刀钩戟",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 128,
+        "en": "Glaive-Guisarme",
+        "zh": "刀钩戟",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，复合名保留。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "刀钩戟",
+        "meaning": "原书独立长柄武器，复合名保留。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:guisarme",
@@ -3498,7 +3676,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/16",
-        "zh": "钩枪"
+        "zh": "钩镰枪"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "钩镰枪"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3514,9 +3697,39 @@
     "activeIds": [
       "phb-item-038"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Guisarme",
+        "zh": "钩镰枪",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 126,
+        "en": "Guisarme",
+        "zh": "钩镰枪",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，与Bill-Guisarme区分。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "钩镰枪",
+        "meaning": "原书独立长柄武器，与Bill-Guisarme区分。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:guisarme-voulge",
@@ -3525,7 +3738,8 @@
     "zh": "钩镰斧",
     "englishVariants": [
       "Guisarme-Voulge",
-      "Guisarme-voulge"
+      "Guisarme-voulge",
+      "Guisarme—Voulge"
     ],
     "legacyZh": [
       "钩刃枪",
@@ -3550,7 +3764,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/17",
-        "zh": "钩刃枪"
+        "zh": "钩镰斧"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "钩镰斧"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -3566,9 +3785,39 @@
     "activeIds": [
       "phb-item-039"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Guisarme—Voulge",
+        "zh": "钩镰斧",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 128,
+        "en": "Guisarme-Voulge",
+        "zh": "钩镰斧",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，复合名保留。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "钩镰斧",
+        "meaning": "原书独立长柄武器，复合名保留。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:healing",
@@ -4536,7 +4785,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/28",
-        "zh": "宽刃长枪"
+        "zh": "阔刃矛"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "阔刃矛"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -4552,9 +4806,39 @@
     "activeIds": [
       "phb-item-048"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Partisan",
+        "zh": "阔刃矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 124,
+        "en": "Partisan",
+        "zh": "阔刃矛",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书武器表长柄武器名，不是普通政治党派成员。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "阔刃矛",
+        "meaning": "原书武器表长柄武器名，不是普通政治党派成员。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:pearl of power",
@@ -4890,34 +5174,40 @@
     "key": "item:ranseur",
     "category": "item",
     "en": "Ranseur",
-    "zh": "长柄叉",
+    "zh": "三叉矛",
     "englishVariants": [
       "Ranseur"
     ],
     "legacyZh": [
       "侧刃叉枪",
-      "叉枪"
+      "叉枪",
+      "长柄叉"
     ],
     "occurrences": [
       {
         "path": "@library",
         "location": "",
-        "zh": "长柄叉"
+        "zh": "三叉矛"
       },
       {
         "path": "src/data/public/item-index.json",
         "location": "/53",
-        "zh": "长柄叉"
+        "zh": "三叉矛"
       },
       {
         "path": "src/data/public/items-imported.json",
         "location": "/53",
-        "zh": "长柄叉"
+        "zh": "三叉矛"
       },
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/33",
-        "zh": "侧刃叉枪"
+        "zh": "三叉矛"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "三叉矛"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -4933,9 +5223,52 @@
     "activeIds": [
       "phb-item-054"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "verified-exact",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Ranseur",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "accessed": "2026-11-26",
+        "category": "heading-reference",
+        "edition": "5E",
+        "en": "Ranseur",
+        "location": "/monster/13/legendary/0",
+        "page": 221,
+        "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+        "snapshotSha256": "a1d81bde3829a950465be2089a208ca6aced0d05fc437317ddda9ce824bbf051",
+        "source": "CoA",
+        "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json",
+        "zh": "三叉矛"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 124,
+        "en": "Ranseur",
+        "zh": "三叉矛",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。完整名称证据已核语境，仅采用名称，不移植后续版机制。原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。"
+    ],
+    "verificationScope": "exact-name-after-source-sense-review",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "三叉矛",
+        "meaning": "原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:ring of magic resistance",
@@ -5102,7 +5435,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/38",
-        "zh": "双叉长枪"
+        "zh": "戟矛"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "戟矛"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -5118,9 +5456,39 @@
     "activeIds": [
       "phb-item-059"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Spetum",
+        "zh": "戟矛",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 124,
+        "en": "Spetum",
+        "zh": "戟矛",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表独立长柄武器名，与三叉戟分列，不推定机制等同。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "戟矛",
+        "meaning": "原表独立长柄武器名，与三叉戟分列，不推定机制等同。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:voulge",
@@ -5153,7 +5521,12 @@
       {
         "path": "src/data/public/ua-items-imported.json",
         "location": "/49",
-        "zh": "宽刃长柄枪"
+        "zh": "长柄砍斧"
+      },
+      {
+        "path": "terminology/decisions.json",
+        "location": "",
+        "zh": "长柄砍斧"
       },
       {
         "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
@@ -5169,9 +5542,39 @@
     "activeIds": [
       "phb-item-066"
     ],
-    "status": "pending",
-    "references": [],
-    "notes": []
+    "status": "adapted-variant",
+    "references": [
+      {
+        "edition": "1E",
+        "source": "PHB",
+        "page": 35,
+        "en": "Voulge",
+        "zh": "长柄砍斧",
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+        "location": "printedp.35 / PDFp.36"
+      },
+      {
+        "edition": "1E",
+        "source": "UA",
+        "page": 126,
+        "en": "Voulge",
+        "zh": "长柄砍斧",
+        "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+        "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+      }
+    ],
+    "notes": [
+      "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表独立长柄武器，保留与Guisarme-Voulge区别。"
+    ],
+    "verificationScope": "self-translated-after-3R-5E-5R-search",
+    "senses": [
+      {
+        "context": "AD&D 1E PHB 货币／基本装备",
+        "zh": "长柄砍斧",
+        "meaning": "原表独立长柄武器，保留与Guisarme-Voulge区别。",
+        "source": "PHB printedp.35 / PDFp.36"
+      }
+    ]
   },
   {
     "key": "item:wand of enemy detection",

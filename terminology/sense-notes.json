@@ -532,6 +532,12 @@
           "zh": "多职业角色",
           "meaning": "非人类或半人类同时拥有多种职业，经验均分，即使其中职业已达上限；与人类先后更换职业分开。",
           "source": "PHB printed p.16 / PDF p.17"
+        },
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "多职业角色",
+          "meaning": "多职业小节所指非人类／半人类同时拥有多个职业的角色，组合与人类先后转职的双职业制度分开；不重开已定主译。",
+          "source": "PHB printedp.32 / PDFp.33"
         }
       ]
     },
@@ -1276,6 +1282,12 @@
           "zh": "百花大宗师",
           "meaning": "职业表I明确武僧第17级头衔；依Grand Master“大宗师”及Flowers“百花”构词，完整武僧机制留待其小节盘点。",
           "source": "PHB printed p.19 / PDF p.20"
+        },
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "百花大宗师",
+          "meaning": "武僧第17级，复用先前总职业表已经核定的称号，不重复建条。",
+          "source": "PHB printedp.31 / PDFp.32"
         }
       ]
     },
@@ -1564,6 +1576,12 @@
           "zh": "生命骰",
           "meaning": "不同职业有不同骰型与累积上限；职业等级、生命骰总数和固定生命值成长不可互相替代。",
           "source": "PHB printed p.19 / PDF p.20"
+        },
+        {
+          "context": "AD&D 1E PHB 阵营／生命值／语言",
+          "zh": "生命骰",
+          "meaning": "生命值按职业规定的生命骰产生；巡林客和武僧开始为两颗，不能套用后续版生命骰恢复资源规则。",
+          "source": "PHB printedp.34 / PDFp.35"
         }
       ]
     },
@@ -1588,6 +1606,12 @@
           "zh": "追随者",
           "meaning": "牧师建成合格礼拜场所吸引的信众，与普通随从和受雇者分别处理。",
           "source": "PHB printed p.20 / PDF p.21"
+        },
+        {
+          "context": "AD&D 1E PHB 武僧追随者",
+          "zh": "追随者",
+          "meaning": "达到第8级并满足席位／住所条件后获得的门徒；与受雇者、一般随从的获取及离队条件区分。",
+          "source": "PHB printedp.32 / PDFp.33"
         }
       ]
     },
@@ -2128,6 +2152,2664 @@
           "zh": "教务长",
           "meaning": "牧师第5级头衔；通过同时代1E屏风同一职业表补证缺失原词，不作一般行政官职使用。",
           "source": "PHB printed p.20 location; TSR 9024 (1979), CLERICS TABLE level 5; https://pdfcoffee.com/adampd-dm-screen-pdf-free.html"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prestidigitator",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "戏法师",
+          "meaning": "魔法师第1级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。戏法在此指称号词素，不表示原始PHB已有后续版零环戏法机制。",
+          "source": "PHB printed p.25 / PDF p.26"
+        },
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "戏法师",
+          "meaning": "幻术师第1级也用此称号，与魔法师同名等级头衔共用词头，按职业语境区分。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Evoker",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "塑能师",
+          "meaning": "魔法师第2级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Conjurer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "咒法师",
+          "meaning": "魔法师第3级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Theurgist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "通神者",
+          "meaning": "魔法师第4级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。按通神的术者语义构词，但此称号不授予牧师神术。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Thaumaturgist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "奇术师",
+          "meaning": "魔法师第5级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Magician",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "术师",
+          "meaning": "魔法师第6级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Enchanter",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "惑控师",
+          "meaning": "魔法师第7级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Warlock",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "巫士",
+          "meaning": "魔法师第8级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。1E此处是一般魔法师头衔；5E魔契师体现契约职业义项，不适用于此处，故另译巫士。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Sorcerer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "术士",
+          "meaning": "魔法师第9级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Necromancer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "死灵师",
+          "meaning": "魔法师第10级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Wizard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "法师",
+          "meaning": "魔法师第11级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Mage",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "魔法师",
+          "meaning": "魔法师第16级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。第16级表中作Wizard (16th level, or Mage)，是可替换头衔；中文也可作全职业普通称谓，依语境区分。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Arch-Mage",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师等级头衔",
+          "zh": "大法师",
+          "meaning": "第18级表中Wizard的另一头衔；Arch-Mage/Archmage为本次明示核对的连字符异体，采用大法师但标词形处理，不冒称1E原文写作Archmage。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Minor Trickster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "初阶诡术师",
+          "meaning": "幻术师第2级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Trickster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "诡术师",
+          "meaning": "幻术师第3级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master Trickster",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "诡术大师",
+          "meaning": "幻术师第4级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Cabalist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "秘仪师",
+          "meaning": "幻术师第5级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Visionist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "幻景师",
+          "meaning": "幻术师第6级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Phantasmist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "幻象师",
+          "meaning": "幻术师第7级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Apparitionist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "幻影师",
+          "meaning": "幻术师第8级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spellbinder",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "惑心师",
+          "meaning": "幻术师第9级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Rogue (Apprentice)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "无赖（学徒）",
+          "meaning": "本地PHB盗贼等级表第1级的头衔；按盗窃、抢掠或行骗角色语义定译。原表保留Apprentice括注；不把后续版Rogue完整职业机制导入此一级头衔。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Footpad",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "拦路贼",
+          "meaning": "本地PHB盗贼等级表第2级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Cutpurse",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "扒手",
+          "meaning": "本地PHB盗贼等级表第3级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Robber",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "强盗",
+          "meaning": "本地PHB盗贼等级表第4级的头衔；按盗窃、抢掠或行骗角色语义定译。与Burglar保持不同译名，原表与正文的Burglar等级分歧另记。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Burglar",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "窃贼",
+          "meaning": "本地PHB盗贼等级表第5级的头衔；按盗窃、抢掠或行骗角色语义定译。同页正文又称第4级(Burglar)，与表列第5级冲突；这里保留原表定位并记录分歧，不擅改等级。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Filcher",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "小偷",
+          "meaning": "本地PHB盗贼等级表第6级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Sharper",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "老千",
+          "meaning": "本地PHB盗贼等级表第7级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Magsman",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "骗术师",
+          "meaning": "本地PHB盗贼等级表第8级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "盗贼大师",
+          "meaning": "本地PHB盗贼等级表第10级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Picking Pockets",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "扒窃",
+          "meaning": "轻手取走衣袋、衣褶等处小物的盗贼能力；原文按受害者等级等修正，失败与被察觉不是同一阈值。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Opening Locks",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "开锁",
+          "meaning": "盗贼处理锁具的职业能力；同一把锁通常一次机会，升级后可再试，不替换成5E盗贼工具检定。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Finding/Removing Traps",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "寻找／解除陷阱",
+          "meaning": "主要针对小型机械陷阱；寻找与解除须分别掷骰，先找到才能拆除，不视作一次同时完成。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Moving Silently",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "无声移动",
+          "meaning": "盗贼降低移动噪声的职业能力；不是隐藏本身或后续版潜行技能的一揽子同义词。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hiding in Shadows",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "躲藏于阴影",
+          "meaning": "借暗处、着装及静止隐蔽的盗贼能力；受直接观察及红外视觉等条件限制，与无声移动分开。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hearing Noise",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "聆听声响",
+          "meaning": "盗贼功能表按等级给出的聆听成功率；本书以一分钟聆听，与普通隔门聆听的规则位置分别记录。",
+          "source": "PHB printed p.28 / PDF p.29"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Climbing Walls",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "攀爬墙壁",
+          "meaning": "盗贼攀爬能力，在攀爬中点判定；不能移作DSG普通攀爬评级或攀爬检定。",
+          "source": "PHB printed p.28 / PDF p.29"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Reading Languages",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "阅读语言",
+          "meaning": "盗贼非魔法解读文字的职业能力；与同名Read Languages法术分列类别，失败后通常需升级才能重试。",
+          "source": "PHB printed p.28 / PDF p.29"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Back Stabbing",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "背刺",
+          "meaning": "1E盗贼从背后突袭的武器攻击能力，按等级提高武器伤害倍数；不套用后续版Sneak Attack偷袭的触发与伤害骰。",
+          "source": "PHB printed p.27 / PDF p.28"
+        },
+        {
+          "context": "AD&D 1E PHB 刺客攻击选择",
+          "zh": "背刺",
+          "meaning": "刺客可选择暗杀、背刺或普通近战；暗杀和背刺不是叠加使用的同一个攻击方式。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Base Chance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼职业能力与字段",
+          "zh": "基础成功率",
+          "meaning": "盗贼功能表中的基础百分比，种族、敏捷、目标等级等修正另计；不是难度等级。",
+          "source": "PHB printed p.28 / PDF p.29"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Memorize",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师施法准备动词",
+          "zh": "记忆法术",
+          "meaning": "原文用于施法前记住所需法术；与Prepare一并描述预备施法，不据两个动词出现便创设两套独立检定或资源。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prepare",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师施法准备动词",
+          "zh": "准备法术",
+          "meaning": "原文用于为每个法术的使用作准备；具体休息与恢复程序另见施法章节，不把后续版已备法术清单制度移入。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Thieves Guild",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼组织规则",
+          "zh": "盗贼公会",
+          "meaning": "盗贼建团后可能遭遇的地方公会组织；不是所有设定中的一个统一具名公会。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Spell Book",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 魔法师装备",
+          "zh": "法术书",
+          "meaning": "原文spell book／book of spells指记载并供复习法术的实体书；Spellbook为已核的空格异体检索形式，1E法术记录和记忆机制仍按原书。",
+          "source": "PHB printed p.25 / PDF p.26"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Thieves' Cant",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼语言",
+          "zh": "盗贼黑话",
+          "meaning": "所有盗贼另懂的职业暗语；以5E精确语言名借名，不引入后续版交流耗时或背景选项。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Illusionist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业",
+          "zh": "幻术师",
+          "meaning": "1E魔法师的子职；采用5E VGM精确同名幻术施法者的名称，不移植其数据块，也不是5E学派选择制度。",
+          "source": "PHB printed p.26 / PDF p.27"
+        },
+        {
+          "context": "AD&D 1E PHB 幻术师等级头衔",
+          "zh": "幻术师",
+          "meaning": "Illusionist也是该子职第10级起的等级头衔；不另造职业。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业",
+          "zh": "盗贼",
+          "meaning": "1E主要职业；采用5E PHB同名子职的名称对照，不把其Rogue母职业或子职等级能力移植到1E。",
+          "source": "PHB printed p.27 / PDF p.28"
+        },
+        {
+          "context": "AD&D 1E PHB 盗贼等级头衔",
+          "zh": "盗贼",
+          "meaning": "Thief也是该职业第9级头衔；第10级起为Master Thief。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Listening at Doors",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 盗贼次要能力",
+          "zh": "隔门聆听",
+          "meaning": "正文说明包括门与窗等门户；专门等级成功率见Hearing Noise，不把一般角色聆听概率覆写成盗贼表。",
+          "source": "PHB printed p.27 / PDF p.28"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Rod of Cancellation",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师可用魔法物品",
+          "zh": "消解权杖",
+          "meaning": "本地DMG完整名称与描述确认其触击能消除物品魔力；按Cancellation消解、Rod权杖构词，旧译取消权杖保留检索。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wand of Illusion",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师可用魔法物品",
+          "zh": "幻象魔杖",
+          "meaning": "DMG原条目明确创造视听幻象；采用幻象、魔杖词素，不凭相似魔杖名称套用。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wand of Metal and Mineral Detection",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师可用魔法物品",
+          "zh": "金属与矿物侦测魔杖",
+          "meaning": "DMG完整原词与指向金属／特定矿物的功能已确认，名称各部分均保留。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wand of Secret Door and Trap Location",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 幻术师可用魔法物品",
+          "zh": "暗门与陷阱探测魔杖",
+          "meaning": "DMG完整原词已确认；PHB列表用secret door & trap detection简写。保留可用的探测主译，不把它扩成同时侦测两类目标或涵盖掩蔽门。",
+          "source": "PHB printed p.26 / PDF p.27"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Bravo (Apprentice)",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "打手（学徒）",
+          "meaning": "刺客第1级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Rutterkin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "恶棍",
+          "meaning": "刺客第2级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。此处为人类职业头衔，不是同名恶魔Rutterkin；拒用生物名畸魔。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Waghalter",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "亡命徒",
+          "meaning": "刺客第3级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。以旧词指亡命罪犯的语义译，不制造绞刑判决状态。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Murderer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "凶手",
+          "meaning": "刺客第4级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Thug",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "暴徒",
+          "meaning": "刺客第5级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Killer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "杀手",
+          "meaning": "刺客第6级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Cutthroat",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "割喉者",
+          "meaning": "刺客第7级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Executioner",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "刽子手",
+          "meaning": "刺客第8级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Expert Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "老练刺客",
+          "meaning": "刺客第10级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Senior Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "资深刺客",
+          "meaning": "刺客第11级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chief Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "首席刺客",
+          "meaning": "刺客第12级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Prime Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "顶尖刺客",
+          "meaning": "刺客第13级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Guildmaster Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "刺客公会会长",
+          "meaning": "刺客第14级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。正文有女性称号Guildmistress Assassin，任职与公会控制权相同。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Grandfather of Assassins",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "刺客祖师",
+          "meaning": "刺客第15级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。最高职位而非家族或年龄身份；正文允许Grandmother称呼，中文同用刺客祖师。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Novice",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "初学者",
+          "meaning": "武僧第1级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Initiate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "入门者",
+          "meaning": "武僧第2级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Brother",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "修士",
+          "meaning": "武僧第3级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Disciple",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "弟子",
+          "meaning": "武僧第4级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Immaculate",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "无垢者",
+          "meaning": "武僧第5级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "大师",
+          "meaning": "武僧第6级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Superior Master",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "上位大师",
+          "meaning": "武僧第7级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Dragons",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "龙之大师",
+          "meaning": "武僧第8级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of the North Wind",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "北风大师",
+          "meaning": "武僧第9级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of the West Wind",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "西风大师",
+          "meaning": "武僧第10级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of the South Wind",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "南风大师",
+          "meaning": "武僧第11级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of the East Wind",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "东风大师",
+          "meaning": "武僧第12级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Winter",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "冬之大师",
+          "meaning": "武僧第13级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Autumn",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "秋之大师",
+          "meaning": "武僧第14级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Summer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "夏之大师",
+          "meaning": "武僧第15级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Spring",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧等级头衔",
+          "zh": "春之大师",
+          "meaning": "武僧第16级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Assassination",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "暗杀",
+          "meaning": "刺客惊袭时可选的专门攻击方式，使用暗杀表；与背刺或普通近战三选一，失败后仍可产生普通伤害。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Disguise",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "易容",
+          "meaning": "刺客通过外貌伪装冒充其他身份的能力；与Disguise Self法术及后续版技能机制分开。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Spying",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "谍报",
+          "meaning": "刺客次要职能：秘密刺探与获取情报，可伴随盗取物品；不是公开侦察地形。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Assassins Guild",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "刺客公会",
+          "meaning": "地方刺客组织及其会长管理体系，不是所有设定中唯一具名公会。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Fees for Assassination",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "最低暗杀酬金",
+          "meaning": "虚构角色暗杀委托的酬金表；本词条仅为AD&D游戏规则标签，不改写原书金额。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Level of Victim",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客机制与字段",
+          "zh": "目标等级",
+          "meaning": "酬金表中用于计价的目标等级；DM可因声望／地位按更高等级计价，不等同改变角色实际经验等级。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Combat",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "空手战斗",
+          "meaning": "武僧专门的徒手击打规则，与一般斗殴、擒抱及后续版特定武僧子职分开。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Attacks per Round",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "每轮空手攻击次数",
+          "meaning": "武僧空手攻击数；表中分数按轮序末追加攻击，不是同一轮直接取分数次行动。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Damage",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "空手伤害",
+          "meaning": "武僧空手命中的伤害数值，不能误当普通武器伤害骰或固定伤害加值。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Effective Armor Class",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "有效护甲等级",
+          "meaning": "武僧表中的实际防御等级，不表示穿着护甲，也不移植后续版无甲防御公式。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Special Abilities",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "特殊能力",
+          "meaning": "此表以A–K指向不同等级能力；未给出的后续版专有能力名不得反向添加到1E。",
+          "source": "PHB printedp.31 / PDFp.32"
+        },
+        {
+          "context": "AD&D 1E PHB 武僧A–K能力表",
+          "zh": "特殊能力",
+          "meaning": "A动物交谈；B遮蔽心智；C疾病及haste/slow效果豁免；D自致强直昏厥；E自疗；F植物交谈；G抵抗特定魅惑／催眠／暗示类魔法；H对心灵攻击的特殊防御；I毒素免疫；J不受geas/quest影响；K渗透劲。只记录原表各项，未加后续版命名。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Self-Induced Catalepsy",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "自致强直昏厥",
+          "meaning": "武僧主动装死的状态；降低体温与心率的叙述属游戏能力，持续时间以十分钟回合计，不是近战轮。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Quivering Palm",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "渗透劲",
+          "meaning": "武僧通过触击设下致命震动并延后发出死亡指令的能力；借用精确名称，保留1E限制，不移植后续版气点机制。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Animals",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "动物交谈",
+          "meaning": "武僧职业能力的与动物沟通效果，与同名法术分列类别，不表示武僧获得该法术或环位。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Plants",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "植物交谈",
+          "meaning": "武僧职业能力的与植物沟通效果，与同名法术分列类别，不表示武僧获得施法能力。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Mask the Mind",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧机制与字段",
+          "zh": "遮蔽心智",
+          "meaning": "降低ESP读心成功机会的武僧能力；不是灵能防御模式Mind Blank或后续版同名心灵防护法术。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "The White",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧席位别称",
+          "zh": "白者",
+          "meaning": "第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "The Green",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧席位别称",
+          "zh": "绿者",
+          "meaning": "第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "proper",
+      "en": "The Red",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧席位别称",
+          "zh": "红者",
+          "meaning": "第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "混乱邪恶阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "混乱善良阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Neutrality",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "混乱中立阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        },
+        {
+          "context": "AD&D 1E PHB 角色语言",
+          "zh": "混乱中立阵营语",
+          "meaning": "本节语言列表以Chaotic Neutral称呼同一阵营语；并非新增第十种阵营语。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Lawful Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "守序邪恶阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Lawful Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "守序善良阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Lawful Neutrality",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "守序中立阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        },
+        {
+          "context": "AD&D 1E PHB 角色语言",
+          "zh": "守序中立阵营语",
+          "meaning": "本节语言列表以Lawful Neutral称呼同一阵营语；阵营性质另外列rule类别。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Neutral Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "中立邪恶阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Neutral Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "中立善良阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Neutrality",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客可学习的阵营语言",
+          "zh": "中立阵营语",
+          "meaning": "原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Druidic",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 德鲁伊秘密语言",
+          "zh": "德鲁伊语",
+          "meaning": "此处原文语言表明确命名Druidic，补足先前德鲁伊段仅称秘密语言的指称；与中立阵营语分列，刺客特殊语言能力是本书的例外。",
+          "source": "PHB printedp.29 / PDFp.30"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业",
+          "zh": "刺客",
+          "meaning": "1E盗贼的子职，采用5E PHB精确同名的刺客名称，不引入后续版职业／子职机制。",
+          "source": "PHB printedp.28 / PDFp.29"
+        },
+        {
+          "context": "AD&D 1E PHB 刺客等级头衔",
+          "zh": "刺客",
+          "meaning": "Assassin同时是第9级头衔，职业概念不另建；之后依表有更高称号。",
+          "source": "PHB printedp.30 / PDFp.31"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Healing",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 武僧自疗",
+          "zh": "治疗",
+          "meaning": "武僧按等级获得的每日一次自身疗伤；复用治疗概念，不倒造Wholeness of Body等未出现的能力名称。",
+          "source": "PHB printedp.31 / PDFp.32"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Alignment Language",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 刺客例外",
+          "zh": "阵营语",
+          "meaning": "达到条件的刺客可以学习额外阵营语，包括文中另列的秘密语言例外；不能将阵营语当普通地区语言。",
+          "source": "PHB printedp.29 / PDFp.30"
+        },
+        {
+          "context": "AD&D 1E PHB 阵营／生命值／语言",
+          "zh": "阵营语",
+          "meaning": "可说话的有智生物使用与阵营相应的语言，改变阵营会失去旧阵营语言；通常仅能用一种，刺客职业例外另见本职规定。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Fighter",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／战士",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Fighter/Magic-user",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／战士／魔法师",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Ranger",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／巡林客",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Magic-user",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／魔法师",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／盗贼",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "牧师／刺客",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "战士／魔法师",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.32 / PDFp.33"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Illusionist",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "战士／幻术师",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "战士／盗贼",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Assassin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "战士／刺客",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user/Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "战士／魔法师／盗贼",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Magic-user/Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "魔法师／盗贼",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Illusionist/Thief",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "幻术师／盗贼",
+          "meaning": "原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Character with Two Classes",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "双职业角色",
+          "meaning": "必须为人类、先后转换职业的1E制度；与非人类同时推进的多职业角色分开。旧职业停止成长，新职业先受单独使用限制，超过原等级后才能依规则结合能力。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Switch from One Class to Another",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 多职业与转职",
+          "zh": "转职",
+          "meaning": "原文描述人类从旧职业改入新职业的动作；须区分双职业角色制度、被迫失去职业能力及后续版兼职，不据名称将它们合成一种机制。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Master of Assassins",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 职业总表称号",
+          "zh": "刺客之主",
+          "meaning": "职业总表将刺客上限写为14（Master of Assassins）；详细刺客等级表则写14 Guildmaster Assassin、15 Grandfather of Assassins。此词仅保留总表原称，不推定与两者等同，也不据总表覆写详细等级规则。",
+          "source": "PHB printedp.19 / PDFp.20"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "混乱邪恶",
+          "meaning": "重自由、随机与苦难，蔑视秩序与善行。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "混乱善良",
+          "meaning": "重自由和个人福利，以善为价值。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Neutral",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "混乱中立",
+          "meaning": "以随机与无序为首要，不使善恶任一独占。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "守序邪恶",
+          "meaning": "利用严格法律秩序和纪律推广邪恶。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "守序善良",
+          "meaning": "以法律秩序增进共同福祉，重真理与生命。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Neutral",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "守序中立",
+          "meaning": "以法律、秩序及可预测性为首要，不以善恶为关键。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Evil",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "中立邪恶",
+          "meaning": "以邪恶为首要，秩序与混乱只是可用手段。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Good",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "中立善良",
+          "meaning": "以生灵福祉为首要，结合必要规制和自由。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "True Neutral",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "绝对中立",
+          "meaning": "维持善恶及秩序混乱各面的平衡与自然状态；不是单轴的中立，也不是同名阵营语言。此记录是阵营性质，不能与language类别的阵营语合并。",
+          "source": "PHB printedp.33 / PDFp.34"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Changing Alignment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "改变阵营",
+          "meaning": "阵营偏移与主动改变阵营的规则主题；主动转换可要求牺牲、行为证明或任务，不等同法术造成的强制改变。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Starting Money",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "起始资金",
+          "meaning": "角色开始冒险前按职业生成的资金；牧师3d6×10、战士5d4×10、魔法师2d4×10、盗贼2d6×10金币，武僧为5d4金币，不对武僧也乘10。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Monetary System",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "货币体系",
+          "meaning": "1E此表200铜币＝20银币＝2银金币＝1金币＝1/5铂金币；币值与后续版不同，名称相同不表示兑换率相同。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Money Changing",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "货币兑换",
+          "meaning": "将较低面额钱币兑换成较高面额的钱币；原文给通常3%的费用，并述及银行存款、贷款及珠宝交易；不是魔法钱币转换。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Copper Piece",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "铜币",
+          "meaning": "货币单位，原书缩写c.p.。200铜币＝1金币。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Silver Piece",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "银币",
+          "meaning": "货币单位，原书缩写s.p.。20银币＝1金币。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Electrum Piece",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "银金币",
+          "meaning": "货币单位，原书缩写e.p.。2银金币＝1金币；electrum为金银合金，不能误译成白银币。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Gold Piece",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "金币",
+          "meaning": "货币单位，原书缩写g.p.。此处交易基本单位。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Platinum Piece",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "铂金币",
+          "meaning": "货币单位，原书缩写p.p.。1铂金币＝5金币；不是后续版的10金币。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "en": "Ogrish",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／角色规则",
+          "zh": "食人魔语",
+          "meaning": "原书典型语言列表中的食人魔语言名称；按同族语言Ogre的既有译名适配1E形容词词形，不把生物和语言混为一条。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Hit Points",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／生命值／语言",
+          "zh": "生命值",
+          "meaning": "生命值不仅表示肉体承伤，也概括技巧、运气及魔法因素；本节的治疗与休息恢复不允许超过已有生命值上限。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Alignment",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 阵营／生命值／语言",
+          "zh": "阵营",
+          "meaning": "本节九种阵营的行为价值描述；阵营偏移和改变另记，不能当作阵营语言名称。",
+          "source": "PHB printedp.34 / PDFp.35"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Banded Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "带甲",
+          "meaning": "护甲表简称；与板条甲、环甲分别记录。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Chain Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "链甲",
+          "meaning": "护甲表简称。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Great",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "大型头盔",
+          "meaning": "大型头盔；不把great解释为魔法品质。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "小型头盔",
+          "meaning": "小型头盔。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Leather Armor",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "皮甲",
+          "meaning": "护甲表简称。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Padded Armor",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "布甲",
+          "meaning": "护甲表简称；沿用已核主译。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Plate Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "板甲",
+          "meaning": "护甲表简称；这里只借用板甲名称，不移植后续版护甲等级。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ring Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "环甲",
+          "meaning": "护甲表简称，不是戒指。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Scale Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "鳞甲",
+          "meaning": "护甲表简称，不是比例或重量秤。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Shield, Large",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "大盾",
+          "meaning": "大盾，盾牌尺寸的格挡次数见1E护甲章节。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "小盾",
+          "meaning": "小盾；不能自动等同只绑在前臂上的其他盾种。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small, Wooden",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "小木盾",
+          "meaning": "小型木质盾牌，保留材质。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Splint Mail",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "板条甲",
+          "meaning": "护甲表简称；区分带甲。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Studded Leather Armor",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "镶钉皮甲",
+          "meaning": "护甲表简称。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Single",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "普通箭，单支",
+          "meaning": "价格表包装数量；不是单独新箭种。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Dozen",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "普通箭，一打",
+          "meaning": "一打是12支；价格表包装，不另立伤害机制。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Silver, Single",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "银箭，单支",
+          "meaning": "明确为银箭；原表没有给出纯银或镀银制造细节，不擅自补写。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Axe, Battle",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "战斧",
+          "meaning": "倒装武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Axe, Hand or Throwing",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "手斧或投斧",
+          "meaning": "原表以or并列命名，不拆成两条不同价格武器。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bardiche",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长柄战斧",
+          "meaning": "独立长柄武器名称，沿用既有可辨主译；不与普通战斧归并。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bec de Corbin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "鸦喙锤",
+          "meaning": "独立长柄武器名称；按原名鸦喙词义与既有锤类称名自译。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bill-Guisarme",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "钩镰",
+          "meaning": "与Guisarme、Glaive-Guisarme分别列名及价格，不归并。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Short",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "复合短弓",
+          "meaning": "复合结构与短弓同时保留；不删除composite限制。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Long",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "复合长弓",
+          "meaning": "复合结构与长弓同时保留；原表逗号写法保留为检索异体。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bow, Long",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长弓",
+          "meaning": "倒装武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Bow, Short",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "短弓",
+          "meaning": "倒装武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Heavy",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "重弩",
+          "meaning": "倒装武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Light",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "轻弩",
+          "meaning": "倒装武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dagger and Scabbard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "匕首与鞘",
+          "meaning": "价目条目包括刀鞘；不将and scabbard删去或当成新武器种类。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Dart",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "飞镖",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Fauchard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长柄镰刀",
+          "meaning": "独立长柄武器，按镰形刃的传统称名自译；与既有Glaive长柄刀分开。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Fauchard-Fork",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "叉刃长柄镰刀",
+          "meaning": "与Fauchard分列；保留fork复合名称。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Flail, Footman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "步兵链枷",
+          "meaning": "保留步兵式限定，不将后续版单一连枷数据用于1E。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Flail, Horseman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "骑兵链枷",
+          "meaning": "保留骑兵式限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Fork, Military",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "军用叉",
+          "meaning": "独立长柄武器名，不按普通餐叉理解。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Glaive",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "长柄刀",
+          "meaning": "复用已核武器名，不与Fauchard因旧译同字而归并。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Glaive-Guisarme",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "刀钩戟",
+          "meaning": "原书独立长柄武器，复合名保留。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Guisarme",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "钩镰枪",
+          "meaning": "原书独立长柄武器，与Bill-Guisarme区分。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Guisarme-Voulge",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "钩镰斧",
+          "meaning": "原书独立长柄武器，复合名保留。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Halberd",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "长戟",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Hammer, Lucern",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "琉森锤",
+          "meaning": "Lucern是武器专名词素，不把它当作附魔性质。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Hammer",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "锤子",
+          "meaning": "沿用既有词项；武器统计另依1E表格，不据后续版工具锤属性改写。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Javelin",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "标枪",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Lance",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "骑枪",
+          "meaning": "复用已核武器名；轻中重骑枪规格留待武器统计页。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mace, Footman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "步兵硬头锤",
+          "meaning": "保留步兵式限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Mace, Horseman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "骑兵硬头锤",
+          "meaning": "保留骑兵式限定。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Morning Star",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "钉头锤",
+          "meaning": "武器名，名称保持与星象和人名语境可区分。采用5E明确名称Morningstar＝钉头锤；旧译晨星仅作检索。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Partisan",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "阔刃矛",
+          "meaning": "原书武器表长柄武器名，不是普通政治党派成员。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Footman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "步兵军用镐",
+          "meaning": "原表步兵式军用镐，不是矿镐。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Horseman's",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "骑兵军用镐",
+          "meaning": "原表骑兵式军用镐，不是矿镐。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Pike, Awl",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长锥枪",
+          "meaning": "保留awl名称，不自动合并所有pike规格。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Light, Single",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "轻型弩矢，单支",
+          "meaning": "quarrel与bolt在此是同义称法；轻型单支包装。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Heavy, Score",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "重型弩矢，二十支",
+          "meaning": "score是20支，不能误作分数；不将轻重规格合并。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Ranseur",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "三叉矛",
+          "meaning": "原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Scimitar",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "弯刀",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sling & Bullets, Dozen",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "投石索与弹丸，一打",
+          "meaning": "价目含投石索与12枚弹丸，不是12把投石索。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sling Bullets, Score",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "投石索弹丸，二十枚",
+          "meaning": "只列20枚弹丸，与上一条带投石索套装分开。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Spear",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "矛",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Spetum",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "戟矛",
+          "meaning": "原表独立长柄武器名，与三叉戟分列，不推定机制等同。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Bastard, & Scabbard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "混种剑与鞘",
+          "meaning": "价目含剑鞘；保留1E独立剑种。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Broad, & Scabbard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "阔剑与鞘",
+          "meaning": "价目含剑鞘，不与长剑归并。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Long, & Scabbard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长剑与鞘",
+          "meaning": "价目含剑鞘。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Short, & Scabbard",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "短剑与鞘",
+          "meaning": "价目含剑鞘。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sword, Two-Handed",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "双手剑",
+          "meaning": "按1E双手剑名称处理；不能直接套用后续版巨剑机制。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Trident",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 原文页段补充语境",
+          "zh": "三叉戟",
+          "meaning": "复用已核武器名。",
+          "source": "PHB printedp.35 / PDFp.36"
+        }
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Voulge",
+      "senses": [
+        {
+          "context": "AD&D 1E PHB 货币／基本装备",
+          "zh": "长柄砍斧",
+          "meaning": "原表独立长柄武器，保留与Guisarme-Voulge区别。",
+          "source": "PHB printedp.35 / PDFp.36"
         }
       ]
     }

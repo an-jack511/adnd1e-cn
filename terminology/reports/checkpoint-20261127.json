@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-27",
+  "baseCommit": "f92cf4e4ae06b84180922cf0df37d590fb1c2f49",
+  "scope": "208 terminology decisions since prior checkpoint; no unrelated body/character changes",
+  "revisionLedgerTotal": 46095,
+  "catalogEntries": 8706,
+  "ruleForms": 864,
+  "validation": {
+    "labelsSourceSenses": "PASS:70 reviewed entries",
+    "legacyAliases": "PASS:all26 changed source names preserved",
+    "candidateReceipts": "PASS:31 candidates at36 listed locators,0 remaining; includes3 prior multiclass receipts",
+    "parentExport": "PASS:5 files byte-identical",
+    "test:terminology": "PASS:3052 live records,948 sourced/partially sourced names; stable IDs and aliases preserved",
+    "API GET": "PASS:8706 entries;197 recently reviewed labels/status/senses/1E sources;unique IDs;no standalone reference-only",
+    "build": "Not repeated at208-decision archive node;next build46387;prior7059-page build remains baseline",
+    "isolatedWorktree": "PASS:test:terminology3052/948;API8706/recent197;names.tsv8706rows×10columns;data diff28nameZh only;other fields and IDs unchanged",
+    "whitespace": "PASS:changed files except TSV empty trailing cells;TSV parsed with fixed10-column width"
+  },
+  "publication": "Prepared and validated in isolated branch;commit/push outcomes recorded after execution",
+  "nextArchiveLedgerTotal": 46295,
+  "nextBuildLedgerTotal": 46387,
+  "rawCacheCommitted": false,
+  "globalBodyApply": false
+}

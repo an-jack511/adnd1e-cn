@@ -11,6 +11,24 @@
       "resolvedTerm": "Prefect",
       "resolutionSource": "https://pdfcoffee.com/adampd-dm-screen-pdf-free.html",
       "resolution": "1979 TSR9024 CLERICS TABLE names level5/XP13,001–27,500 Prefect; read transcript, not a second PHB image."
+    },
+    {
+      "id": "phb-thief-burglar-level-reference",
+      "book": "PHB",
+      "locator": "printedp.27 / PDFp.28, table vs Read Languages paragraph",
+      "status": "recorded-source-internal-rule-conflict",
+      "evidence": "Original page visually inspected; table4Robber/5Burglar, paragraph4Burglar.",
+      "termDecisionComplete": true,
+      "nextAction": "Compare original printings or errata during rule audit; retain both source statements meanwhile."
+    },
+    {
+      "id": "phb-assassin-general-table-level-limit",
+      "book": "PHB",
+      "locator": "printedp.19 / PDFp.20 vs printedp.29 / PDFp.30",
+      "status": "recorded-source-internal-rule-conflict",
+      "evidence": "Visually checked original general table:14(Master of Assassins); detailed assassin table:14 Guildmaster Assassin,15 Grandfather of Assassins.",
+      "termDecisionComplete": true,
+      "nextAction": "Compare original printings or errata during rule audit; retain source-bound titles without guessing equivalence."
     }
   ]
 }

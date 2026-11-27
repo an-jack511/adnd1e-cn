@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-26",
+  "scope": "PHB remaining classes and multiclass; general-table addendum",
+  "newTerms": 120,
+  "updatedPending": 7,
+  "catalogEntries": 8685,
+  "catalogStatuses": {
+    "pending": 6732,
+    "verified-exact": 1418,
+    "adapted-variant": 412,
+    "reference-conflict": 1,
+    "adapted-element": 122
+  },
+  "ruleForms": 846,
+  "ruleStatuses": {
+    "verified-exact": 500,
+    "adapted-variant": 346
+  },
+  "runtimeEntries": 1950,
+  "validation": {
+    "newTerms": "PASS:main labels,status,1E source,senses,runtime",
+    "candidateReceipts": "PASS:77 candidates at84 listed locators; zero unhandled",
+    "parentExport": "PASS:5 authoritative/generated files byte-identical",
+    "globalBodyApply": false,
+    "test:terminology": "PASS:3052 live records,900 sourced/partially sourced names; stable IDs and aliases preserved",
+    "fullBuild": "Not repeated:next established build node46387; prior f92cf4e4 build remains baseline",
+    "staticApi": "API source catalog updated; static built artifact will refresh at next build node, no publication claimed"
+  },
+  "revisionLedgerTotal": 46023,
+  "nextArchiveLedgerTotal": 46087,
+  "nextBuildLedgerTotal": 46387,
+  "next": "PHB printedpp.33–35 alignment,hit points,languages,money; then equipment tables",
+  "fullSourceCoverage": false,
+  "publication": "No new commit or push in this group; next archive node46087",
+  "metadataSync": {
+    "term": "Rod of Cancellation",
+    "newZh": "消解权杖",
+    "oldZhAlias": "取消权杖",
+    "files": [
+      "src/data/public/magic-items-imported.json",
+      "src/data/public/item-index.json"
+    ],
+    "records": 2,
+    "archiveInstruction": "Patch only exact nameZh fields in clean checkpoint; do not copy mixed source JSON wholesale."
+  }
+}

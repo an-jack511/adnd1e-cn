@@ -54,10 +54,35 @@
 - 最近处理：PHB总职业表与牧师、德鲁伊、战士、圣武士、巡林客（印刷pp.19–25，魔法师起始部分除外）；新增86词项，另1个词形别名和1项新证据触发的组合译名修正。
 - 来源与去向：`phb-cleric-druid-review.json`／receipts、`phb-warrior-classes-review.json`／receipts；Prefect原词缺字已由同时代1E屏风原文转录补证，`source-issues.json`留档。当前无未解决原词。
 - 当前主表754个规则词形；目录8591项。目录中的pending仍包括未审书页与跨类别同名标题候选，不以整组词条数宣称全册完成。
-- 下一入口：PHB印刷pp.25–33（PDFpp.26–34）的魔法师、隐形师、盗贼、刺客、武僧、多职业及转职；PDFp.26是跨职业共页，已读巡林客部分不重复审，整页候选在下批闭合。
+- 下一入口：PHB印刷pp.25–33（PDFpp.26–34）的魔法师、幻术师、盗贼、刺客、武僧、多职业及转职；PDFp.26是跨职业共页，已读巡林客部分不重复审，整页候选在下批闭合。
 - 修订累计45887。正在隔离工作树 `../tmp/terminology-release-20261126` 补交仅术语任务的归档；主目录保留其他未提交改动。
 
 ### 集中验证结果
 
 - `../tmp/terminology-release-20261126` 已通过test:terminology、86项新增词结构与语境、标准build（7059页）、check:links、静态API8591项及OpenAPI/CORS配置核对。
 - 当前术语生成与验证基准为累计45887；下一次约500处构建节点46387。当前隔离检查点只包含术语任务，不把既存正文或人物卡改动视为已归档。
+
+### 最新真实留档回执
+
+- 术语相关检查点 `f92cf4e4ae06b84180922cf0df37d590fb1c2f49` 已通过 `git push origin HEAD:main` 推送成功；不再沿用旧43519节点作为当前术语推送基准。
+- 当前修订计数45887；下一术语留档约46087，下一构建约46387。当前目标保持active；只完成部分PHB覆盖，其他核心、拓展及Dragon仍需继续。
+- 原工作目录的既存正文与人物卡改动继续保留；未混入46文件的术语归档。
+- 下批准备包：`generated/phb-caster-classes-next-review.json`（PDFpp.26–28；含跨页巡林客尾部与盗贼开头，需要依实际职业小节分流）。下一主线为剩余PHB职业及多职业／转职。
+
+
+### 最新接续：PHB职业后半已录入
+
+- 本组120个新增来源词项、7个既有待核完成、9项异体决策，共136处内容决策；累计46023。13个组合标签不是13个新职业，等级头衔不是后续版职业机制。总表Master of Assassins与详表差异、盗贼Burglar等级冲突均留在source-issues.json。
+- PDFpp.26–33的77候选／84列出定位已闭合；PDFp.34多职业部分另有回执，阵营栏待审。报告phb-caster-thief、phb-assassin-monk、phb-multiclass及general-class-table-addendum；无未辨原词，不宣称全PHB覆盖。
+- 当前目录8685项，规则846词形（500已核、346自译／变体）；120项新增结构／来源／义项／运行时与父目录主文件一致性通过；test:terminology通过3052条资料、900项可用名称。API源数据已同步，静态构建将在既定节点更新；未做正文apply或新发布。
+- 最近真实推送仍f92cf4e4（基准45887）；下一留档46087，下一构建46387。后续隔离归档时，两份现有物品JSON只按Rod of Cancellation精确修改nameZh为消解权杖，不能整份复制混杂改动；详见phb-class-group-validation.json的metadataSync。
+- 下一入口PHB印刷pp.33–35／PDFpp.34–36：阵营、生命值、角色语言和货币，随后装备表与武器。prepared packet generated/phb-multiclass-alignment-review.json；PDFp.34可带phb-multiclass-receipts.json过滤已处理3候选。其他核心／拓展／计划资料／Dragon及最后全站一致性工作继续保留在active目标中。
+
+
+### 最新接续：阵营、货币与装备表前半（2026-11-27）
+
+- 已读PHB印刷pp.33–35阵营／生命值／建立角色／语言／货币，新增19词项和2语言异体；p.35 Armor+Arms价目66记录中51待核定译、15复用。累计46095（距f92cf4e4共208处），到留档节点。UA附录T pp.124–128仅定向补证，不算完成UA覆盖。
+- 报告phb-alignment-money-review、phb-equipment-armor-arms-review与phb-basics-equipment-validation；PDFpp.34–36列出的31候选／36定位回执闭合。原词问题0；同页衣物草药及下一页其他装备未审，不能写整页完成。
+- 目录8706项，规则864词形（500已核、364自译／变体）；test:terminology3052资料／948可用名称通过，API GET8706项且197近两组词项中文／状态／义项／1E出处核对通过。未做全站正文apply，未重做全站build；下次build46387。
+- 本次隔离归档需包括上一批Rod of Cancellation两处元数据和本批metadataSync列出的26处名称；仅按nameEn+id更改nameZh，不能整份复制混杂的source JSON。完整清单在各review报告。提交／推送后单独记真实回执；若成功下次留档46295。
+- 下一主线PHB印刷p.35 Clothing／Herbs，再p.36 Livestock／Miscellaneous Equipment and Items／Provisions／Religious Items／Tack and Harness／Transport；随后Armor、Weapons、熟练项与各武器统计。继续依离线3R→5E→5R和原页语境处理，后续所有书目及最终一致性范围保持active。

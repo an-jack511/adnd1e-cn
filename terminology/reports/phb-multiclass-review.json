@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "scope": "Printedpp.32–33 multiclass combinations and The Character With Two Classes; alignment section startingp.33 excluded.",
+  "newTerms": [
+    {
+      "category": "class",
+      "en": "Cleric/Fighter",
+      "zh": "牧师／战士",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Fighter/Magic-user",
+      "zh": "牧师／战士／魔法师",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Ranger",
+      "zh": "牧师／巡林客",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Magic-user",
+      "zh": "牧师／魔法师",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Thief",
+      "zh": "牧师／盗贼",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Assassin",
+      "zh": "牧师／刺客",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user",
+      "zh": "战士／魔法师",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Illusionist",
+      "zh": "战士／幻术师",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Thief",
+      "zh": "战士／盗贼",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Assassin",
+      "zh": "战士／刺客",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user/Thief",
+      "zh": "战士／魔法师／盗贼",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Magic-user/Thief",
+      "zh": "魔法师／盗贼",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "class",
+      "en": "Illusionist/Thief",
+      "zh": "幻术师／盗贼",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Character with Two Classes",
+      "zh": "双职业角色",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Switch from One Class to Another",
+      "zh": "转职",
+      "printedPage": 33,
+      "status": "adapted-variant"
+    }
+  ],
+  "combinationForms": 13,
+  "independentNewClasses": 0,
+  "reviewedAliases": [
+    {
+      "category": "rule",
+      "en": "Multi-Classed Character",
+      "variant": "The Multi-Classed Character"
+    }
+  ],
+  "distinctions": [
+    "Simultaneous nonhuman multiclass vs sequential human two-class system.",
+    "13 combination labels are compositions of approved class names, not13 new classes.",
+    "No Dual-Class headword invented from a modern description; original wording retained."
+  ],
+  "unresolvedOriginalWords": [],
+  "next": "PHB alignment and Character Level/Hit Points/Languages; continue equipment/money and adventuring/combat afterward.",
+  "latestSnapshot": {
+    "catalogEntries": 8685,
+    "ruleForms": 846,
+    "revisionLedgerTotal": 46023
+  },
+  "validationReport": "phb-class-group-validation.json"
+}

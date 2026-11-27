@@ -1,0 +1,447 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "scope": "Printed pp.25–28 magic-user/illusionist/thief, including named item list; PDFpp.27–28 rendered to verify rank spelling and table/body discrepancy. Assassin intro on printedp.28 excluded.",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Prestidigitator",
+      "zh": "戏法师",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Evoker",
+      "zh": "塑能师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Conjurer",
+      "zh": "咒法师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Theurgist",
+      "zh": "通神者",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Thaumaturgist",
+      "zh": "奇术师",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Magician",
+      "zh": "术师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Enchanter",
+      "zh": "惑控师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Warlock",
+      "zh": "巫士",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Sorcerer",
+      "zh": "术士",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Necromancer",
+      "zh": "死灵师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Wizard",
+      "zh": "法师",
+      "printedPage": 25,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Mage",
+      "zh": "魔法师",
+      "printedPage": 26,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Arch-Mage",
+      "zh": "大法师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Minor Trickster",
+      "zh": "初阶诡术师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Trickster",
+      "zh": "诡术师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master Trickster",
+      "zh": "诡术大师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Cabalist",
+      "zh": "秘仪师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Visionist",
+      "zh": "幻景师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Phantasmist",
+      "zh": "幻象师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Apparitionist",
+      "zh": "幻影师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Spellbinder",
+      "zh": "惑心师",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Rogue (Apprentice)",
+      "zh": "无赖（学徒）",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Footpad",
+      "zh": "拦路贼",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Cutpurse",
+      "zh": "扒手",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Robber",
+      "zh": "强盗",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Burglar",
+      "zh": "窃贼",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Filcher",
+      "zh": "小偷",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Sharper",
+      "zh": "老千",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Magsman",
+      "zh": "骗术师",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master Thief",
+      "zh": "盗贼大师",
+      "printedPage": 27,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Picking Pockets",
+      "zh": "扒窃",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Opening Locks",
+      "zh": "开锁",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Finding/Removing Traps",
+      "zh": "寻找／解除陷阱",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Moving Silently",
+      "zh": "无声移动",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Hiding in Shadows",
+      "zh": "躲藏于阴影",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Hearing Noise",
+      "zh": "聆听声响",
+      "printedPage": 28,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Climbing Walls",
+      "zh": "攀爬墙壁",
+      "printedPage": 28,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Reading Languages",
+      "zh": "阅读语言",
+      "printedPage": 28,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Back Stabbing",
+      "zh": "背刺",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Base Chance",
+      "zh": "基础成功率",
+      "printedPage": 28,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Memorize",
+      "zh": "记忆法术",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Prepare",
+      "zh": "准备法术",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Thieves Guild",
+      "zh": "盗贼公会",
+      "printedPage": 27,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Spell Book",
+      "zh": "法术书",
+      "printedPage": 25,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Thieves' Cant",
+      "zh": "盗贼黑话",
+      "printedPage": 27,
+      "status": "verified-exact"
+    }
+  ],
+  "updatedPendingEntries": [
+    {
+      "category": "class",
+      "en": "Illusionist",
+      "zh": "幻术师",
+      "printedPage": 26,
+      "status": "verified-exact"
+    },
+    {
+      "category": "class",
+      "en": "Thief",
+      "zh": "盗贼",
+      "printedPage": 27,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Rod of Cancellation",
+      "zh": "消解权杖",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Wand of Illusion",
+      "zh": "幻象魔杖",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Wand of Metal and Mineral Detection",
+      "zh": "金属与矿物侦测魔杖",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Wand of Secret Door and Trap Location",
+      "zh": "暗门与陷阱探测魔杖",
+      "printedPage": 26,
+      "status": "adapted-variant"
+    }
+  ],
+  "reviewedAliases": [
+    {
+      "category": "class",
+      "en": "Magic-User",
+      "variants": [
+        "Magic-Users"
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Illusionist",
+      "variants": [
+        "Illusionists"
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Thief",
+      "variants": [
+        "Thieves"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Fabrication of Magic Items, Including Potions and Scrolls",
+      "variants": [
+        "Enchant Items",
+        "Enchanting Items"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Manufacture of Scrolls",
+      "variants": [
+        "Scribe Magic Scrolls",
+        "Inscribing Scrolls of Magic Spells"
+      ]
+    }
+  ],
+  "reusedItemNames": [
+    "Staff of Striking",
+    "Wand of Enemy Detection",
+    "Wand of Fear",
+    "Wand of Magic Detection",
+    "Wand of Wonder",
+    "Crystal Ball",
+    "Robe of the Archmagi"
+  ],
+  "sourceIssues": [
+    {
+      "id": "phb-thief-burglar-level-reference",
+      "locator": "PHB printedp.27 / PDFp.28",
+      "issue": "THIEVES TABLE I puts Robber at4 and Burglar at5, while paragraph calls level4 Burglar.",
+      "effectOnTermDecision": "Headwords and translations determined; conflicting numeric reference retained, not silently corrected."
+    }
+  ],
+  "distinctions": [
+    "Level titles do not grant later-edition class or school features.",
+    "Warlock title differs from pact-caster sense; Mage/Wizard/Arch-Mage remain distinct headwords.",
+    "Read Languages spell vs Reading Languages thief skill; Back Stabbing vs later Sneak Attack.",
+    "Memorize and Prepare are lexical verbs here, not proof of two separate procedures."
+  ],
+  "next": "PHB printedpp.28–33 assassin/monk, multiclass/dual-class; then alignment and general character rules.",
+  "machineCandidates": 21,
+  "pageSpecificReceipts": 25,
+  "metadataSync": {
+    "scope": "Only canonical nameZh fields; no whole-site body apply.",
+    "term": "Rod of Cancellation",
+    "records": 2,
+    "files": [
+      "src/data/public/magic-items-imported.json",
+      "src/data/public/item-index.json"
+    ],
+    "reason": "Approved main name must match live-library metadata; earlier notes/body remain for later consistency phase."
+  },
+  "latestSnapshot": {
+    "catalogEntries": 8685,
+    "ruleForms": 846,
+    "revisionLedgerTotal": 46023
+  },
+  "validationReport": "phb-class-group-validation.json"
+}

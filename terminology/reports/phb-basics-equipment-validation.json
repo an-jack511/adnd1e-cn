@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-27",
+  "scope": "PHB printedpp.33–35 basic rules,Armor+Arms price table; targeted UA polearm corroboration",
+  "newTerms": 19,
+  "pendingCompleted": 51,
+  "reviewedAliasDecisions": 2,
+  "catalogEntries": 8706,
+  "catalogStatuses": {
+    "pending": 6683,
+    "verified-exact": 1419,
+    "adapted-variant": 481,
+    "reference-conflict": 1,
+    "adapted-element": 122
+  },
+  "ruleForms": 864,
+  "ruleStatuses": {
+    "verified-exact": 500,
+    "adapted-variant": 364
+  },
+  "validation": {
+    "labelsSourceSenses": "PASS:70 reviewed entries",
+    "legacyAliases": "PASS:all26 changed source names preserved",
+    "candidateReceipts": "PASS:31 candidates at36 listed locators,0 remaining; includes3 prior multiclass receipts",
+    "parentExport": "PASS:5 files byte-identical",
+    "test:terminology": "PASS:3052 live records,948 sourced/partially sourced names; stable IDs and aliases preserved",
+    "API GET": "PASS:8706 entries;197 recently reviewed labels/status/senses/1E sources;unique IDs;no standalone reference-only",
+    "build": "Not repeated at208-decision archive node;next build46387;prior7059-page build remains baseline"
+  },
+  "revisionLedgerTotal": 46095,
+  "nextArchiveLedgerTotal": 46295,
+  "nextBuildLedgerTotal": 46387,
+  "globalBodyApply": false,
+  "sourceCoverageComplete": false,
+  "next": "PHB printedp.35 clothing/herbs,p.36 other equipment then armor/weapons rules",
+  "publication": "Archive checkpoint being prepared; commit/push outcome recorded separately after execution"
+}

@@ -1,10 +1,15 @@
 {
-  "files": 108,
+  "files": 123,
   "changes": [
     {
       "path": "src/character/rules/core-class-capabilities.ts",
       "beforeSha256": "8c74b707124b3e283d1e71aa7fa46d99f4108916b3e476539f3fce9b80e3cb91",
       "afterSha256": "23e0293c4ff47db6be34292199dbbfd6c49600de72326dc84bd74ce9e1100371"
+    },
+    {
+      "path": "src/character/ui/character-labels.ts",
+      "beforeSha256": "ebe1ae42b8d8d40fa98f68da196761ba7eadc02a1de96e8f8e4d20b9cd84461a",
+      "afterSha256": "7fe622b77c24f37cddef0769087d2447452b648bd9dfe90d6aac191d669c83a4"
     },
     {
       "path": "src/data/public/book-outlines.json",
@@ -24,12 +29,12 @@
     {
       "path": "src/data/public/character-options.json",
       "beforeSha256": "d68e77a97d851264a3b5f2a7b732afe49a3f509ec8d5efc8ef0d2f84bc12f083",
-      "afterSha256": "de32ccffc3d4768ec3eb72a21b1689d48ba1f979d9d8550f36316d9f57c0a059"
+      "afterSha256": "92a12b9a894acd1d44d7edbdb901788102e20fa07d0139677b5271578bb1b5bd"
     },
     {
       "path": "src/data/public/class-details.json",
       "beforeSha256": "c6908e6b6890782f455e769ddae389fdbd48c9ab88618577c6cf6aa2d1c81f27",
-      "afterSha256": "5c8a74af77b7e940cde3deb6d64ca30b9e77f9241a1501e52fbead36d85f4fe3"
+      "afterSha256": "2e70802e6ed7a0477a38fb49ca92c8a7ebbc96fede958c0763a6ca309d38409d"
     },
     {
       "path": "src/data/public/dragon-books.json",
@@ -39,7 +44,7 @@
     {
       "path": "src/data/public/dragon-classes.json",
       "beforeSha256": "c77d1d841dead3a7867f7e8c6079f3380a0db3e6d2b40e29d708d14cf85b8ca8",
-      "afterSha256": "6ffde47f876d64d9039aa6db33ae949a81e0e6a3934bfa2d2e70bb3a559348aa"
+      "afterSha256": "b0c196fa99e915ab174ba1566c6d8954e6aebc2769c995fdd6c3daef6a13db90"
     },
     {
       "path": "src/data/public/dragon-monsters.json",
@@ -49,7 +54,7 @@
     {
       "path": "src/data/public/dragon-rules.json",
       "beforeSha256": "3d0e1fca3db050b592ab8b5bb4bf97a80ab6c5fd1b9610177b56bbbc03264673",
-      "afterSha256": "260f529722fd27920ecd4ae4002afa5083096c7aab89b90b41ba368e01abc2ed"
+      "afterSha256": "9b19b6af552e7e8a931e2c356aad85a8df9f84f4ce8f5dbe2a29e15ed105db63"
     },
     {
       "path": "src/data/public/dragon-spells.json",
@@ -59,7 +64,7 @@
     {
       "path": "src/data/public/ff-monsters-imported.json",
       "beforeSha256": "596796fa845c0fabbe1e582b116549db505ed5cdc248c9e9a5ef61aeb9bb5804",
-      "afterSha256": "15d96ca3071b1c33f3a9ac4ac3dadc2414f6fd4d7e35a71bc4d3e635a6b96bdc"
+      "afterSha256": "6535660f7eb79dfb7e7b24548638d8e7474d210d540e2ea46e4859f787dfd79e"
     },
     {
       "path": "src/data/public/gha-spells.ts",
@@ -74,17 +79,22 @@
     {
       "path": "src/data/public/item-details.json",
       "beforeSha256": "ee936ad0160b61580dab7965a7c748d5b1afbb308ca43afae953bc0e0797fa5f",
-      "afterSha256": "c6179ff197ac382a9c2ac5b92a4ad0bb5fdd553472bca48986a5873ab943ab56"
+      "afterSha256": "90d8ceb3613e49ed1439c2ddd55cdb800fccf3a64420a40ed2716d233d230fee"
+    },
+    {
+      "path": "src/data/public/item-index.json",
+      "beforeSha256": "c23ffad21fe4e70c3e8d255d057fd4c13aec8365c9aaaf1fa91519e224c29576",
+      "afterSha256": "81c390a76ba8e566cef8c637bc0ca341f5bfce69de094d7974882e2065b22750"
     },
     {
       "path": "src/data/public/mm2-monsters-imported.json",
       "beforeSha256": "f308cee5e4bbf1913bc0f3a84d127b3e6dfaf3b968f0ea09b4133a26c80f1eae",
-      "afterSha256": "f258a1765b242bee6a0a7dbd8277e2a5060ba41128e6564351cb716e44a1813b"
+      "afterSha256": "3e5205df0c2cab67cfabf8596f47549cc3c18bd2a0ab851127d849dbd282d6f2"
     },
     {
       "path": "src/data/public/monster-reading.json",
       "beforeSha256": "d6af219275ad245a3275c94652dca71fd2026aa91be1ea4039ce9db3037f6062",
-      "afterSha256": "6b4c6885abf9bb41601c2d1d4fb4194a1b4e8e8979083e0b6781ec9ed70fec03"
+      "afterSha256": "55e7d6acb88e17093853c991c5a1e92bb9e137feedc156ae8b94470dcd9c56a4"
     },
     {
       "path": "src/data/public/monsters-imported.json",
@@ -94,7 +104,7 @@
     {
       "path": "src/data/public/race-details.json",
       "beforeSha256": "37f5eb3c12e88ef86c7af16d789229b5fa22993ee51da52f1ff8e0390834a26e",
-      "afterSha256": "b19cc6c0747cb4dbd88986f29f9cc67a71a7845c311ce759f2faaac219096431"
+      "afterSha256": "c66c7481289568a6c42da0d2002bfddca15e7418b1b0ca3b5004703b5d8dc2cc"
     },
     {
       "path": "src/data/public/races-base.ts",
@@ -109,7 +119,7 @@
     {
       "path": "src/data/public/regional-monsters.json",
       "beforeSha256": "f07d26170ff4da6d610f0919775f43ccd195a94dc0dbb5487aaea0c5a6649131",
-      "afterSha256": "158b7d88a4942cc9b8693cc636bee6bee7aa338f69aec166d21227ed020be72d"
+      "afterSha256": "7bedcb2f8bf96e2dc3bea76822fe37fc0fe75a73d913ee1204a894732926f2be"
     },
     {
       "path": "src/data/public/regional-spells.json",
@@ -124,17 +134,17 @@
     {
       "path": "src/data/public/tables-imported.json",
       "beforeSha256": "745b000e981c38be3bd9e430eda95cf848ac9eaa8d2bce850e84958f6d268e86",
-      "afterSha256": "a39570e3536aa8b997e12b1b602a394d945bdae5cb7b1ab82ccec9fd04fa228c"
+      "afterSha256": "e077ea0f139206c2187a6017da0839299b2bc192b41236e9fc62e27f5b1f6bd1"
     },
     {
       "path": "src/data/published/book-search.json",
       "beforeSha256": "55c9968938f90597d1cb7b03b5d55cd78975f99570a4280f107dcf525f444fee",
-      "afterSha256": "30b55439c78c751a47bdba2cfec5e19bd5611c624c968075d78913df8be309b5"
+      "afterSha256": "4ea54e0be768f6b30b80c68b1cbea6cd71e456b1d04372a9a2c62b190ffbc4a2"
     },
     {
       "path": "src/data/published/books.json",
       "beforeSha256": "c3e9303d13d9ffaa75a3b819bc14932bd70c875877bc16520e38d5916dfc430e",
-      "afterSha256": "e0a9c1d8967fe65bc8bd85fb298595485c43e23fb6f905b73b8175a334fca68e"
+      "afterSha256": "e3779fbedc91187aed9bea9f2644d804ade77b72aba26c42757205f26b27523d"
     },
     {
       "path": "src/published/books/dl-atlas/dl-atlas-sanction.md",
@@ -159,7 +169,12 @@
     {
       "path": "src/published/books/dmg/dmg-adventure-outdoor-exploration.md",
       "beforeSha256": "86e34571fa9e66bb6df6e902e61eadb22c7d5b1ce11b16fb3452e85293042f1a",
-      "afterSha256": "93167720bdb98cb7b92df5f338cafed6e51df8d0bc2d59ca1985d8cbb222e88d"
+      "afterSha256": "9740571c6d7fa4d88598ed2f159fb5e7a39c134f479098380f3694fd1239e4f6"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-alignment.md",
+      "beforeSha256": "7b92a7a99a1850c2a7b78b9b2c3f0ae87c3610f8d6d2d4b7a693f36fa91a6dfa",
+      "afterSha256": "64a33f20b846f6c3ac8b6ee721b03be209e60a4e819a95333f2b2e88b4e1859f"
     },
     {
       "path": "src/published/books/dmg/dmg-appendix-d-lower-planes.md",
@@ -167,14 +182,29 @@
       "afterSha256": "8e4cb4697bfc71bf69c39371358ee3d66b40e6ce26f660df321724f3436ccea3"
     },
     {
+      "path": "src/published/books/dmg/dmg-character-classes.md",
+      "beforeSha256": "1407c67778ff8e61620fbe1bce278600a7319ba20faa1a2dc77a1ead4cab4150",
+      "afterSha256": "5bac3270f4093ac3135f3d04505172676337acf44da14f927a9e7b3d88a28fb2"
+    },
+    {
+      "path": "src/published/books/dmg/dmg-contents.md",
+      "beforeSha256": "e4615b6680fdda52d1bfbf224099b04b45879564698fe5d1471f284e44735bda",
+      "afterSha256": "577710996c61759f645efcd4ab4a0f88b41c7b9ae990edbb45bc4429b9e6b58c"
+    },
+    {
       "path": "src/published/books/dmg/dmg-npc-personae.md",
       "beforeSha256": "57f7aa70d5b3b385ac239b49753b4e8ef87046220f3643200453e96520dbbce6",
       "afterSha256": "ba47b195decfc4b3562cbfa005d3b5936a4e7464cefa88750ed49a2d96d664c5"
     },
     {
+      "path": "src/published/books/dmg/dmg-thief-abilities.md",
+      "beforeSha256": "65b89be8f1c6769dabaa4f9042390ff23b8f39f3d42c26fbd23d920c69a61797",
+      "afterSha256": "a280684d5238e10143b9b976176a39711640c839b92d63878148a8ea89ee59ed"
+    },
+    {
       "path": "src/published/books/dmg/dmg-treasure.md",
       "beforeSha256": "65579119481e1ed604d4fbe8b133e329c6b6a0837e0cf67fc1de26b8927bc0b3",
-      "afterSha256": "78031449944758384c773186edfb9701b9b626a7a16ac69c4507e4f03758f950"
+      "afterSha256": "a239a18bb1af57a87752218dca7bd6b43e49734231cd62fb9e77fbd1d5098c71"
     },
     {
       "path": "src/published/books/dmg/glossary-2.md",
@@ -202,11 +232,6 @@
       "afterSha256": "1dcf11b48e2e268b15307b461b62cb9e061c9006e1a0512fabe351d3e1fd58f2"
     },
     {
-      "path": "src/published/books/dragon-117/ecology.md",
-      "beforeSha256": "e09cc280e674bc43aeb7f9e5b2a4eddb027ca3e0e42c60a02aa2f9202bfb88c5",
-      "afterSha256": "4b1167f860b7f015807ceb4e035ce68b5419a13bf23f11d95c2cbe9c4894e8f0"
-    },
-    {
       "path": "src/published/books/dragon-124/odeen-spells.md",
       "beforeSha256": "04f9c5830b5b261e3df047ace7d26d88a6d203b2c5eff839323443040a85d850",
       "afterSha256": "bb522d186bd64a62cb600a3283820560ca3cf35d213849f71a6cb2517e0821f4"
@@ -222,14 +247,14 @@
       "afterSha256": "85f63174f6c1c4818e096e8d87891975c056a6974fdfee8c311e1d3d2dc2814e"
     },
     {
+      "path": "src/published/books/dragon-148/class-revisions.md",
+      "beforeSha256": "5bfffb7c0ed38b9737d31ab71a6d0df197724053b96a3aa48dc8aee6d453ace2",
+      "afterSha256": "eb32e10c7904822bfa89042d0e3f5e1253081bf2f010ad9e4c69fe30c2945784"
+    },
+    {
       "path": "src/published/books/dragon-44/fantasy-genetics.md",
       "beforeSha256": "e349fd55e66aa85f08522b6274c67df74ac6e6263cb002caffae1967378fafee",
       "afterSha256": "3b87f98380ed0a6027600bcff1e07f3efde4d38ea90996419240f821040fb12d"
-    },
-    {
-      "path": "src/published/books/dragon-45/npc-classes.md",
-      "beforeSha256": "5838f4909ae1d4146b93e56f0bf8e36837d10b80fa020e5f8ecdbb9365f5a26f",
-      "afterSha256": "09cd818eb0f397b314b696ac0970d42aa0867ae633126acacfba6159268fddd8"
     },
     {
       "path": "src/published/books/dragon-50/tool-ups-and-downs-of-riding-high-the.md",
@@ -242,9 +267,9 @@
       "afterSha256": "512a0ef85b98c366ade54520016e03bb3d9f1b1bbc5f4928beb7a3cb864a2cb7"
     },
     {
-      "path": "src/published/books/dragon-68/cloistered-cleric.md",
-      "beforeSha256": "c516851d3b02013bfbf56f5cd02aa539fe96bd5cca370b4d84ea78e866da545a",
-      "afterSha256": "0bc34751fdc062841a2aa9e3967b286a42d783b317d42f412d196452b74579bd"
+      "path": "src/published/books/dragon-72/class-revisions.md",
+      "beforeSha256": "25c7b4ddc922ceb0ec38f7568538f5ad5085200bf444086482581fad8473cb75",
+      "afterSha256": "4314252c1df171099d240743a8b6be1f8ef4fe6989e2ce2fbdcc71ec34e97f88"
     },
     {
       "path": "src/published/books/dragon-90/incantatrix.md",
@@ -280,6 +305,11 @@
       "path": "src/published/books/dsg/dsg-mining.md",
       "beforeSha256": "67634782700d3555927fba8ec1497a9310a8cafbdce3e3acdf27a9119bcd1cd2",
       "afterSha256": "ea579f112d39699dba1c87e0f719e1c16f0cb0b20a17f55605f4c6a948a4cf7e"
+    },
+    {
+      "path": "src/published/books/ff/ff-bunyip-carbuncle-caryatid-caterwaul.md",
+      "beforeSha256": "30bddd6729e4fd08ad935e2a02b7488061ae8cd2e05937c2155a0dfcb6fa6062",
+      "afterSha256": "5b7e864853fa06c662ddf2fc0fc550ff9aaba1f33bd45a10b265629ed41d56a5"
     },
     {
       "path": "src/published/books/ff/ff-drow.md",
@@ -382,9 +412,9 @@
       "afterSha256": "e7ec7c3cb94d58271620d1b891968948378d792b113c35aaaa2be9104d602634"
     },
     {
-      "path": "src/published/books/mm2/mm2-monsters-a-continued.md",
-      "beforeSha256": "6b7b4aecea4a18f3bfd53a17982c89916fd04de0f2e172a16f3a30e07e876f50",
-      "afterSha256": "f47dec7f95d066c68c320e3e83957935d91c88577ae54fb3a39c8f62566f5dbb"
+      "path": "src/published/books/mm2/mm2-modron-monodrone-duodrone-tridrone.md",
+      "beforeSha256": "61634424c9e41ea0f942e02c7da9c5732498bdc35844a388b82ec8e69e473e27",
+      "afterSha256": "903a1ea93b89ca2efe533d7d8fbac0a3460a0f4d74cebfeeac7a430053a37a9f"
     },
     {
       "path": "src/published/books/mm2/mm2-random-encounter-dungeon.md",
@@ -412,6 +442,11 @@
       "afterSha256": "8217fd891ca82af32bb3b26faa4c5a56b9b8d2e270d20c7824ce84136d4062d3"
     },
     {
+      "path": "src/published/books/oa/oa-classes-races.md",
+      "beforeSha256": "98074d15168582c2dcee8c573b42501a02fd3a9933e872f329bd62fe8fb26f35",
+      "afterSha256": "dadd4928c379aeb17be3eb729c89ef516482da0fd4d8e09b371ed1a76b732f5f"
+    },
+    {
       "path": "src/published/books/oa/oa-monsters.md",
       "beforeSha256": "9c0f199b78693f591317dd805f9e426fb000021511fbd6fe9d6bebea7ce51a7c",
       "afterSha256": "99390038d5774675d7c78661c73f04d92b5c995c9bbdb8e45dcd3132e8c7fd3c"
@@ -437,9 +472,19 @@
       "afterSha256": "8c5dd57b3da17eb14367a1d72bf9c313b0f896963fb837d9c6bf15aaf5fb8482"
     },
     {
+      "path": "src/published/books/phb/example-of-combat.md",
+      "beforeSha256": "afd64729548e8835ef756cb3004613ba0486da96abf5a0f0b5c8134eba483ea2",
+      "afterSha256": "d367be41f962d0398c995e83b096d4d06e4363da6066573856c4cefdc01e4530"
+    },
+    {
       "path": "src/published/books/phb/half-elves.md",
       "beforeSha256": "f456c2322187296291c3a8ef7062b66ebcc83921d68d988a2785c738a907bc51",
       "afterSha256": "c3f50be9e360bd35f82c3849ba8bfda91880d4cfd881ae7ec6b9610919c7dfa4"
+    },
+    {
+      "path": "src/published/books/phb/money-equipment-and-arms.md",
+      "beforeSha256": "2ec5cf94fab59880bde891d5912680bcfd976e7b61b7324a67030a55e1814ef8",
+      "afterSha256": "9593ba5f0c9794a74097440a99fa79659b05d8af9a031b7ffeb8499566973972"
     },
     {
       "path": "src/published/books/phb/racial-preferences.md",
@@ -482,9 +527,24 @@
       "afterSha256": "52b647d064e54abf01e2cda890f5625c2b290f31a3d1cf3e8089bc0b036f6745"
     },
     {
+      "path": "src/published/books/ua/ua-appendix-t-pole-arms.md",
+      "beforeSha256": "79e75aaf854742c07f86ef56d14de0a5d4848c69cd72414e8518c98ff4285955",
+      "afterSha256": "cdfe18e34c41c7b1924387af3a32028cfed31f2f147dc78700be148272b4a644"
+    },
+    {
+      "path": "src/published/books/ua/ua-cavalier.md",
+      "beforeSha256": "3e533a1d54a8b40f8e328e491328763df5210996e405600f25f6a3e9b02fc0af",
+      "afterSha256": "20e6607884c6c872a00ded2ca9a4d984883e8c989766655d9632503a9f16e08e"
+    },
+    {
       "path": "src/published/books/ua/ua-character-races.md",
       "beforeSha256": "cc7090d68deabd14fe81dba74d8def9f2f3d4f74792430dbd2001d93cf5cc8af",
       "afterSha256": "0eba893154f37e5f3d4060a2e78eee83c588c6a9a743f810b1e58f7ae0410fa2"
+    },
+    {
+      "path": "src/published/books/ua/ua-dm-cavalier-followers.md",
+      "beforeSha256": "16d8bc48c83d6bd6211ebbc3d41c9c666ec6f559f7ab1af29ee230f107a03034",
+      "afterSha256": "096c0b29926ab4b2df051e8b0af18a257da6cdd4b4a29ec7e4089f73e06f06bc"
     },
     {
       "path": "src/published/books/ua/ua-druid.md",
@@ -500,6 +560,11 @@
       "path": "src/published/books/ua/ua-racial-preferences.md",
       "beforeSha256": "e11cde9ff9fb919470f04c5c67cccdfd20b3bc2e957561a54548f7e59f4c1839",
       "afterSha256": "750c4dd308d636efdbd431b8011615f59aec6b801fbc1e75eb5a5ece53a47006"
+    },
+    {
+      "path": "src/published/books/ua/ua-weapons.md",
+      "beforeSha256": "9e54cdc48dc2e56512b8204d55963af9a42d86d293d741523c6264bd31e0528e",
+      "afterSha256": "d1b9fdbcd0e422243c9ea899dfd7a3c305ef50a814afbede1ea4048d64b4e87d"
     },
     {
       "path": "src/published/books/wsg/wsg-aquatic-flight.md",
@@ -540,6 +605,16 @@
       "path": "scripts/import/curate-character-library.py",
       "beforeSha256": "a44dfb1ec80765acc4d373c767f0726ea0008c84554b71d97c836f37f0de8020",
       "afterSha256": "1dd0c6589085b837d374af2d1d87324bf624545f74a3fcbf00d7b5bfc3c5227d"
+    },
+    {
+      "path": "scripts/import/items.ts",
+      "beforeSha256": "38bfc1662120f7f07627e217491b6ca383de2e94fd406ccd1cbbfd5691337ba1",
+      "afterSha256": "321ac3f51e50ed61f34b33c8b169f88b288f6b186614a181826ceb06355a4c85"
+    },
+    {
+      "path": "scripts/import/phb-equipment-names.json",
+      "beforeSha256": "3f9ae6961bd4251ae68f019aaba299c22511f7c7f4e17a4aa3b8bc6d35e803fe",
+      "afterSha256": "095eefdfec377e8ed73352bc8161e2dad89030b34f2f299c2d97ea2dc85238df"
     }
   ],
   "globalReplacements": {
@@ -552,6 +627,10 @@
     "克瓦利什装置": "夸力许装置",
     "矮人领主之斧": "矮人王圣斧",
     "收纳袋": "次元袋",
+    "阔刃长柄斧": "长柄战斧",
+    "乌鸦嘴": "鸦喙锤",
+    "鸦嘴锤": "鸦喙锤",
+    "钩刃长柄武器": "钩镰",
     "衔铁与缰绳": "辔具",
     "崇高功绩之书": "崇善之书",
     "邪恶黑暗之书": "秽暗之书",
@@ -591,14 +670,25 @@
     "魅惑之眼": "魅惑镜片",
     "微察之眼": "微视镜片",
     "微观视物之眼": "微视镜片",
+    "长柄弯刀": "长柄镰刀",
+    "长柄镰": "长柄镰刀",
+    "叉刃长柄刀": "叉刃长柄镰刀",
+    "长柄刀叉": "叉刃长柄镰刀",
+    "长柄镰叉": "叉刃长柄镰刀",
+    "步兵连枷": "步兵链枷",
+    "骑兵连枷": "骑兵链枷",
     "食人魔力量手套": "食人魔力量护手",
     "光辉宝石": "光彩夺目宝石",
     "洞察宝石": "真视宝石",
     "观视宝石": "真视宝石",
     "长刃枪": "长柄刀",
+    "长刃钩枪": "刀钩戟",
     "截接飞弹手套": "辟矢夺箭手套",
     "盗窃手套": "窃贼手套",
+    "钩刃枪": "钩镰斧",
+    "钩镰屠刀": "钩镰斧",
     "雷霆之锤": "雷神之锤",
+    "卢塞恩锤": "琉森锤",
     "辉煌头盔": "光辉头盔",
     "休沃德的便利背包": "霍华德便利袋",
     "爆裂号角": "音爆号角",
@@ -612,7 +702,6 @@
     "凯欧格托姆药膏": "卡夫统灵药",
     "建造之琴": "建筑里拉琴",
     "建造竖琴": "建筑里拉琴",
-    "钉头锤": "硬头锤",
     "破邪钉头锤": "瓦解之锤",
     "破邪锤": "瓦解之锤",
     "体魄健康手册": "强身手册",
@@ -633,6 +722,8 @@
     "滑溜油": "滑溜之油",
     "屠龙宝珠": "龙珠",
     "龙族宝珠": "龙珠",
+    "党卫矛": "阔刃矛",
+    "宽刃长枪": "阔刃矛",
     "力量珍珠": "法力再生珍珠",
     "法力珍珠": "法力再生珍珠",
     "健康护符": "保健护符",
@@ -648,6 +739,8 @@
     "便携洞": "次元洞",
     "母亲之祸毒药": "普雷斯普拉",
     "艾丽莎女王的奇妙夜莺": "爱莉莎女王的奇妙夜莺",
+    "侧刃叉枪": "三叉矛",
+    "长柄叉": "三叉矛",
     "召唤巨灵戒指": "召唤气巨灵戒指",
     "行动自如戒指": "自由行动戒指",
     "隐形戒指": "隐身戒指",
@@ -660,6 +753,7 @@
     "星辰长袍": "星辰法袍",
     "大法师长袍": "大法师法袍",
     "实用长袍": "杂货法袍",
+    "取消权杖": "消解权杖",
     "君主威仪权杖": "王者权杖",
     "复活权杖": "复生权杖",
     "支配权杖": "统御权杖",
@@ -669,6 +763,8 @@
     "防护元素生物卷轴": "元素生物守护卷轴",
     "防护不死生物卷轴": "不死生物守护卷轴",
     "投石索铅弹": "投石索子弹",
+    "三叉枪": "戟矛",
+    "双叉长枪": "戟矛",
     "力量法杖": "威力法杖",
     "打击法杖": "强袭法杖",
     "魔法师法杖": "贤者法杖",
@@ -680,10 +776,13 @@
     "通晓思维之书": "静思卷册",
     "领导力与影响力之书": "统御卷册",
     "控鱼三叉戟": "唤鱼三叉戟",
+    "宽刃长柄枪": "长柄砍斧",
+    "长柄屠刀": "长柄砍斧",
     "敌人侦测魔杖": "搜敌魔杖",
     "敌意侦测魔杖": "搜敌魔杖",
     "魔法侦测魔杖": "搜魔魔杖",
     "奥库斯之杖": "奥喀斯之杖",
+    "密门与陷阱定位魔杖": "暗门与陷阱探测魔杖",
     "奇迹魔杖": "惊异魔杖",
     "万界之井": "诸界之井",
     "飞行之翼": "飞翼斗篷",
@@ -967,6 +1066,7 @@
     "获得经验等级": "提升经验等级",
     "抓钩与接舷": "爪钩与接舷",
     "地面比例": "战场比例尺",
+    "躲入阴影": "躲藏于阴影",
     "未能重整": "部队未能重整时",
     "重整成功": "部队成功重整后",
     "初始射击阶段": "初始远程攻击阶段",
@@ -991,6 +1091,7 @@
     "对毒药豁免": "对毒素豁免",
     "地下区域规模": "体型",
     "声音模仿": "模仿声音",
+    "有一种或更多特殊能力": "特殊能力",
     "经验值数特别奖励": "经验值特别奖励",
     "特殊天气": "特殊天气状况",
     "卷轴法术的法术环级": "卷轴法术的法术环阶",
@@ -1238,9 +1339,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "手斧／投斧",
+      "targets": [
+        "手斧或投斧"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "豆袋",
       "targets": [
         "魔豆之袋"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "战斧",
+      "targets": [
+        "长柄战斧"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1302,9 +1417,37 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "长柄刀",
+      "targets": [
+        "长柄镰刀"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "长柄刀钩",
+      "targets": [
+        "刀钩戟"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "抓钩",
       "targets": [
         "爪钩"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "钩枪",
+      "targets": [
+        "钩镰枪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "钩镰",
+      "targets": [
+        "钩镰枪"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1344,9 +1487,23 @@
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
     {
+      "old": "钉头锤",
+      "targets": [
+        "硬头锤"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
       "old": "莱乌克-欧的强力仆役",
       "targets": [
         "琉克欧的非凡机仆"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "晨星",
+      "targets": [
+        "钉头锤"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1368,6 +1525,20 @@
       "old": "衬甲",
       "targets": [
         "布甲"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "锥枪",
+      "targets": [
+        "长锥枪"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "叉枪",
+      "targets": [
+        "三叉矛"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -1431,6 +1602,41 @@
       "old": "风扇",
       "targets": [
         "造风之扇"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "混乱邪恶",
+      "targets": [
+        "混乱邪恶阵营语"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "混乱善良",
+      "targets": [
+        "混乱善良阵营语"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "守序善良",
+      "targets": [
+        "守序善良阵营语"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "中立邪恶",
+      "targets": [
+        "中立邪恶阵营语"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "中立善良",
+      "targets": [
+        "中立善良阵营语"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },
@@ -4017,6 +4223,13 @@
       "old": "法术环级",
       "targets": [
         "法术环阶"
+      ],
+      "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
+    },
+    {
+      "old": "侦察",
+      "targets": [
+        "谍报"
       ],
       "reason": "ambiguous, short/generic, or mixed-language name; contextual replacement only"
     },

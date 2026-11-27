@@ -1,6 +1,36 @@
 [
   {
     "category": "class",
+    "en": "Assassin",
+    "zh": "刺客",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "assassin"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 97
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
+      }
+    ]
+  },
+  {
+    "category": "class",
     "en": "Barbarian",
     "zh": "野蛮人",
     "aliases": [
@@ -77,6 +107,102 @@
   },
   {
     "category": "class",
+    "en": "Cleric/Assassin",
+    "zh": "牧师／刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Cleric/Fighter",
+    "zh": "牧师／战士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Cleric/Fighter/Magic-user",
+    "zh": "牧师／战士／魔法师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Cleric/Magic-user",
+    "zh": "牧师／魔法师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Cleric/Ranger",
+    "zh": "牧师／巡林客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Cleric/Thief",
+    "zh": "牧师／盗贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
     "en": "Druid",
     "zh": "德鲁伊",
     "aliases": [],
@@ -131,6 +257,132 @@
   },
   {
     "category": "class",
+    "en": "Fighter/Assassin",
+    "zh": "战士／刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Fighter/Illusionist",
+    "zh": "战士／幻术师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Fighter/Magic-user",
+    "zh": "战士／魔法师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Fighter/Magic-user/Thief",
+    "zh": "战士／魔法师／盗贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Fighter/Thief",
+    "zh": "战士／盗贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Illusionist",
+    "zh": "幻术师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "illusionist"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 214
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Illusionist/Thief",
+    "zh": "幻术师／盗贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "class",
     "en": "Magic-User",
     "zh": "魔法师",
     "aliases": [],
@@ -144,6 +396,28 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Magic-user/Thief",
+    "zh": "魔法师／盗贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -177,6 +451,12 @@
         "world": null,
         "source": "WoW",
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -251,6 +531,36 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "class",
+    "en": "Thief",
+    "zh": "盗贼",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [
+      "thief"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 97
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -1008,6 +1318,90 @@
   },
   {
     "category": "item",
+    "en": "Arrow, Normal, Dozen",
+    "zh": "普通箭，一打",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-016"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow, Normal, Single",
+    "zh": "普通箭，单支",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-015"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Arrow, Silver, Single",
+    "zh": "银箭，单支",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-017"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Axe of the Dwarvish Lords",
     "zh": "矮人王圣斧",
     "aliases": [
@@ -1029,6 +1423,56 @@
         "world": null,
         "source": "XDMG",
         "page": 231
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Axe, Battle",
+    "zh": "战斧",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-018"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Axe, Hand or Throwing",
+    "zh": "手斧或投斧",
+    "aliases": [
+      "手斧／投斧"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-019"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -1129,6 +1573,104 @@
         "world": null,
         "source": "XDMG",
         "page": 234
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Banded Mail",
+    "zh": "带甲",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-001"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bardiche",
+    "zh": "长柄战斧",
+    "aliases": [
+      "战斧",
+      "阔刃长柄斧"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-020"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 125
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bec de Corbin",
+    "zh": "鸦喙锤",
+    "aliases": [
+      "乌鸦嘴",
+      "鸦嘴锤"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-021"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 127
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bill-Guisarme",
+    "zh": "钩镰",
+    "aliases": [
+      "钩刃长柄武器"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-022"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 128
       }
     ]
   },
@@ -1331,6 +1873,102 @@
         "world": null,
         "source": "XDMG",
         "page": 240
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bow, Composite Long",
+    "zh": "复合长弓",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-024"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bow, Composite Short",
+    "zh": "复合短弓",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-023"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bow, Long",
+    "zh": "长弓",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-025"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Bow, Short",
+    "zh": "短弓",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-026"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -1848,6 +2486,54 @@
   },
   {
     "category": "item",
+    "en": "Crossbow, Heavy",
+    "zh": "重弩",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-027"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Crossbow, Light",
+    "zh": "轻弩",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-028"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Crowbar",
     "zh": "撬棍",
     "aliases": [],
@@ -1997,6 +2683,28 @@
         "world": null,
         "source": "XPHB",
         "page": 215
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Dagger and Scabbard",
+    "zh": "匕首与鞘",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -2417,6 +3125,114 @@
   },
   {
     "category": "item",
+    "en": "Fauchard",
+    "zh": "长柄镰刀",
+    "aliases": [
+      "长柄刀",
+      "长柄弯刀",
+      "长柄镰"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-031"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 126
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Fauchard-Fork",
+    "zh": "叉刃长柄镰刀",
+    "aliases": [
+      "叉刃长柄刀",
+      "长柄刀叉",
+      "长柄镰叉"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-032"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 127
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Flail, Footman's",
+    "zh": "步兵链枷",
+    "aliases": [
+      "步兵连枷"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-033"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Flail, Horseman's",
+    "zh": "骑兵链枷",
+    "aliases": [
+      "骑兵连枷"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-034"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Folding Boat",
     "zh": "折叠船",
     "aliases": [],
@@ -2436,6 +3252,30 @@
         "world": null,
         "source": "XDMG",
         "page": 263
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Fork, Military",
+    "zh": "军用叉",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-035"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 127
       }
     ]
   },
@@ -2546,6 +3386,33 @@
   },
   {
     "category": "item",
+    "en": "Glaive-Guisarme",
+    "zh": "刀钩戟",
+    "aliases": [
+      "长刃钩枪",
+      "长柄刀钩"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-037"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 128
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Gloves of Missile Snaring",
     "zh": "辟矢夺箭手套",
     "aliases": [
@@ -2648,6 +3515,60 @@
   },
   {
     "category": "item",
+    "en": "Guisarme",
+    "zh": "钩镰枪",
+    "aliases": [
+      "钩枪",
+      "钩镰"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-038"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 126
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Guisarme-Voulge",
+    "zh": "钩镰斧",
+    "aliases": [
+      "钩刃枪",
+      "钩镰屠刀"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-039"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 128
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Halberd",
     "zh": "长戟",
     "aliases": [
@@ -2709,6 +3630,32 @@
         "world": null,
         "source": "DMG",
         "page": 173
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Hammer, Lucern",
+    "zh": "琉森锤",
+    "aliases": [
+      "卢塞恩锤"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-041"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 127
       }
     ]
   },
@@ -2825,6 +3772,42 @@
         "world": null,
         "source": "GoS",
         "page": 229
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Helmet, Great",
+    "zh": "大型头盔",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-003"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Helmet, Small",
+    "zh": "小型头盔",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-004"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -3271,6 +4254,54 @@
   },
   {
     "category": "item",
+    "en": "Mace, Footman's",
+    "zh": "步兵硬头锤",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-045"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Mace, Horseman's",
+    "zh": "骑兵硬头锤",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-046"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Manual of Bodily Health",
     "zh": "强身手册",
     "aliases": [
@@ -3408,6 +4439,32 @@
         "world": null,
         "source": "PHB",
         "page": 21
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Morning Star",
+    "zh": "钉头锤",
+    "aliases": [
+      "晨星"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-047"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -3697,6 +4754,33 @@
   },
   {
     "category": "item",
+    "en": "Partisan",
+    "zh": "阔刃矛",
+    "aliases": [
+      "党卫矛",
+      "宽刃长枪"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-048"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 124
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Pearl of Power",
     "zh": "法力再生珍珠",
     "aliases": [
@@ -3831,6 +4915,54 @@
   },
   {
     "category": "item",
+    "en": "Pick, Military, Footman's",
+    "zh": "步兵军用镐",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-049"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Pick, Military, Horseman's",
+    "zh": "骑兵军用镐",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-050"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Pig",
     "zh": "猪",
     "aliases": [],
@@ -3850,6 +4982,32 @@
         "world": null,
         "source": "XDMG",
         "page": 213
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Pike, Awl",
+    "zh": "长锥枪",
+    "aliases": [
+      "锥枪"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-051"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -3876,6 +5034,30 @@
         "world": null,
         "source": "XDMG",
         "page": 285
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Plate Mail",
+    "zh": "板甲",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-007"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 145
       }
     ]
   },
@@ -4002,6 +5184,66 @@
   },
   {
     "category": "item",
+    "en": "Quarrel (or Bolt), Heavy, Score",
+    "zh": "重型弩矢，二十支",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-053"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Quarrel (or Bolt), Light, Single",
+    "zh": "轻型弩矢，单支",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-052"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Queen Ehlissa’s Marvelous Nightingale",
     "zh": "爱莉莎女王的奇妙夜莺",
     "aliases": [
@@ -4041,6 +5283,40 @@
         "world": null,
         "source": "XDMG",
         "page": 189
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Ranseur",
+    "zh": "三叉矛",
+    "aliases": [
+      "侧刃叉枪",
+      "叉枪",
+      "长柄叉"
+    ],
+    "status": "verified-exact",
+    "ids": [
+      "phb-item-054"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "CoA",
+        "page": 221
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 124
       }
     ]
   },
@@ -4644,6 +5920,32 @@
   },
   {
     "category": "item",
+    "en": "Rod of Cancellation",
+    "zh": "消解权杖",
+    "aliases": [
+      "取消权杖"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "magic-rod-of-cancellation"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": "PDF 134"
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Rod of Lordly Might",
     "zh": "王者权杖",
     "aliases": [
@@ -4980,6 +6282,78 @@
   },
   {
     "category": "item",
+    "en": "Shield, Large",
+    "zh": "大盾",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-010"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 144
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Shield, Small",
+    "zh": "小盾",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-011"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 144
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Shield, Small, Wooden",
+    "zh": "小木盾",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-012"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 144
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Short Sword",
     "zh": "短剑",
     "aliases": [
@@ -5026,6 +6400,42 @@
   },
   {
     "category": "item",
+    "en": "Sling & Bullets, Dozen",
+    "zh": "投石索与弹丸，一打",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-056"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Sling Bullet",
     "zh": "投石索子弹",
     "aliases": [
@@ -5047,6 +6457,36 @@
         "world": null,
         "source": "XPHB",
         "page": 222
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sling Bullets, Score",
+    "zh": "投石索弹丸，二十枚",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-057"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 150
       }
     ]
   },
@@ -5078,6 +6518,55 @@
   },
   {
     "category": "item",
+    "en": "Spell Book",
+    "zh": "法术书",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 153
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Spetum",
+    "zh": "戟矛",
+    "aliases": [
+      "三叉枪",
+      "双叉长枪"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-059"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 124
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Sphere of Annihilation",
     "zh": "湮灭法球",
     "aliases": [],
@@ -5097,6 +6586,30 @@
         "world": null,
         "source": "XDMG",
         "page": 306
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Splint Mail",
+    "zh": "板条甲",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-013"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 145
       }
     ]
   },
@@ -5279,6 +6792,110 @@
         "world": null,
         "source": "XDMG",
         "page": 313
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Bastard, & Scabbard",
+    "zh": "混种剑与鞘",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-060"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Broad, & Scabbard",
+    "zh": "阔剑与鞘",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-061"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Long, & Scabbard",
+    "zh": "长剑与鞘",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Short, & Scabbard",
+    "zh": "短剑与鞘",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Sword, Two-Handed",
+    "zh": "双手剑",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-064"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 149
       }
     ]
   },
@@ -5504,6 +7121,33 @@
   },
   {
     "category": "item",
+    "en": "Voulge",
+    "zh": "长柄砍斧",
+    "aliases": [
+      "宽刃长柄枪",
+      "长柄屠刀"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "phb-item-066"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "UA",
+        "page": 126
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wagon",
     "zh": "四轮货车",
     "aliases": [],
@@ -5579,6 +7223,30 @@
   },
   {
     "category": "item",
+    "en": "Wand of Illusion",
+    "zh": "幻象魔杖",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "magic-wand-of-illusion"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": "PDF 136"
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wand of Magic Detection",
     "zh": "搜魔魔杖",
     "aliases": [
@@ -5629,6 +7297,30 @@
   },
   {
     "category": "item",
+    "en": "Wand of Metal and Mineral Detection",
+    "zh": "金属与矿物侦测魔杖",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [
+      "magic-wand-of-metal-and-mineral-detection"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": "PDF 137"
+      }
+    ]
+  },
+  {
+    "category": "item",
     "en": "Wand of Orcus",
     "zh": "奥喀斯之杖",
     "aliases": [
@@ -5650,6 +7342,32 @@
         "world": null,
         "source": "XDMG",
         "page": 320
+      }
+    ]
+  },
+  {
+    "category": "item",
+    "en": "Wand of Secret Door and Trap Location",
+    "zh": "暗门与陷阱探测魔杖",
+    "aliases": [
+      "密门与陷阱定位魔杖"
+    ],
+    "status": "adapted-variant",
+    "ids": [
+      "magic-wand-of-secret-door-and-trap-location"
+    ],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "DMG",
+        "page": "PDF 137"
       }
     ]
   },
@@ -5849,6 +7567,64 @@
   },
   {
     "category": "language",
+    "en": "Chaotic Evil",
+    "zh": "混乱邪恶阵营语",
+    "aliases": [
+      "混乱邪恶"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Chaotic Good",
+    "zh": "混乱善良阵营语",
+    "aliases": [
+      "混乱善良"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Chaotic Neutrality",
+    "zh": "混乱中立阵营语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 34
+      }
+    ]
+  },
+  {
+    "category": "language",
     "en": "Common Tongue",
     "zh": "通用语",
     "aliases": [],
@@ -5866,6 +7642,52 @@
         "world": null,
         "source": "DSotDQ",
         "page": 9
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Druidic",
+    "zh": "德鲁伊语",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "GGR",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 64
+      },
+      {
+        "edition": "other",
+        "world": null,
+        "source": "WoW",
+        "page": null
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 64
       }
     ]
   },
@@ -6227,6 +8049,62 @@
   },
   {
     "category": "language",
+    "en": "Lawful Evil",
+    "zh": "守序邪恶阵营语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Lawful Good",
+    "zh": "守序善良阵营语",
+    "aliases": [
+      "守序善良"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Lawful Neutrality",
+    "zh": "守序中立阵营语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 34
+      }
+    ]
+  },
+  {
+    "category": "language",
     "en": "Lizardman",
     "zh": "蜥蜴人语",
     "aliases": [],
@@ -6259,6 +8137,58 @@
   },
   {
     "category": "language",
+    "en": "Neutral Evil",
+    "zh": "中立邪恶阵营语",
+    "aliases": [
+      "中立邪恶"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Neutral Good",
+    "zh": "中立善良阵营语",
+    "aliases": [
+      "中立善良"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Neutrality",
+    "zh": "中立阵营语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "language",
     "en": "Nixie",
     "zh": "水妖精语",
     "aliases": [],
@@ -6276,6 +8206,28 @@
         "world": null,
         "source": "MM",
         "page": "PDF 75"
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Ogrish",
+    "zh": "食人魔语",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 34
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "DSotDQ",
+        "page": 9
       }
     ]
   },
@@ -6336,6 +8288,52 @@
         "world": null,
         "source": "PHB",
         "page": 21
+      }
+    ]
+  },
+  {
+    "category": "language",
+    "en": "Thieves' Cant",
+    "zh": "盗贼黑话",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "GGR",
+        "page": 9
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 94
+      },
+      {
+        "edition": "other",
+        "world": null,
+        "source": "WoW",
+        "page": null
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 37
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 94
       }
     ]
   },
@@ -16526,6 +18524,22 @@
   },
   {
     "category": "proper",
+    "en": "The Green",
+    "zh": "绿者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "proper",
     "en": "THE HARPERS",
     "zh": "竖琴手联盟",
     "aliases": [
@@ -16559,6 +18573,38 @@
         "world": "FR",
         "source": "FRHoF",
         "page": 72
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "The Red",
+    "zh": "红者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "proper",
+    "en": "The White",
+    "zh": "白者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
       }
     ]
   },
@@ -17756,6 +19802,56 @@
   },
   {
     "category": "rule",
+    "en": "Apparitionist",
+    "zh": "幻影师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Arch-Mage",
+    "zh": "大法师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Archdruid",
     "zh": "大德鲁伊",
     "aliases": [],
@@ -18092,6 +20188,34 @@
   },
   {
     "category": "rule",
+    "en": "Assassination",
+    "zh": "暗杀",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      },
+      {
+        "edition": "5E",
+        "world": "Dragonlance",
+        "source": "DSotDQ",
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Assassination Experience Points",
     "zh": "刺杀经验值",
     "aliases": [],
@@ -18103,6 +20227,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Assassins Guild",
+    "zh": "刺客公会",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
       }
     ]
   },
@@ -18465,6 +20611,28 @@
   },
   {
     "category": "rule",
+    "en": "Back Stabbing",
+    "zh": "背刺",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Barbarian Proficiencies",
     "zh": "蛮族熟练项",
     "aliases": [
@@ -18522,6 +20690,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Base Chance",
+    "zh": "基础成功率",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
       }
     ]
   },
@@ -18793,6 +20983,28 @@
   },
   {
     "category": "rule",
+    "en": "Bravo (Apprentice)",
+    "zh": "打手（学徒）",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Breath Weapon",
     "zh": "喷吐武器",
     "aliases": [
@@ -18876,6 +21088,72 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Brother",
+    "zh": "修士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Burglar",
+    "zh": "窃贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cabalist",
+    "zh": "秘仪师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
       }
     ]
   },
@@ -19169,6 +21447,28 @@
   },
   {
     "category": "rule",
+    "en": "Changing Alignment",
+    "zh": "改变阵营",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 34
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Changing Direction",
     "zh": "改变朝向",
     "aliases": [
@@ -19216,6 +21516,72 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chaotic Evil",
+    "zh": "混乱邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chaotic Good",
+    "zh": "混乱善良",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chaotic Neutral",
+    "zh": "混乱中立",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -19375,6 +21741,28 @@
   },
   {
     "category": "rule",
+    "en": "Character with Two Classes",
+    "zh": "双职业角色",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Charge",
     "zh": "冲锋",
     "aliases": [],
@@ -19474,6 +21862,28 @@
         "world": null,
         "source": "PHB",
         "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Chief Assassin",
+    "zh": "首席刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -19692,6 +22102,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Climbing Walls",
+    "zh": "攀爬墙壁",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "SKT",
+        "page": 148
       }
     ]
   },
@@ -19999,6 +22437,34 @@
   },
   {
     "category": "rule",
+    "en": "Conjurer",
+    "zh": "咒法师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 212
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Constitution",
     "zh": "体质",
     "aliases": [],
@@ -20048,6 +22514,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Copper Piece",
+    "zh": "铜币",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -20340,6 +22828,50 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cutpurse",
+    "zh": "扒手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Cutthroat",
+    "zh": "割喉者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -21114,6 +23646,28 @@
   },
   {
     "category": "rule",
+    "en": "Disciple",
+    "zh": "弟子",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Discipline Check",
     "zh": "纪律检定",
     "aliases": [],
@@ -21157,6 +23711,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Disguise",
+    "zh": "易容",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
       }
     ]
   },
@@ -21364,6 +23940,28 @@
   },
   {
     "category": "rule",
+    "en": "Effective Armor Class",
+    "zh": "有效护甲等级",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Effects of Alcohol and Drugs",
     "zh": "酒精与药物的影响",
     "aliases": [],
@@ -21396,6 +23994,28 @@
   },
   {
     "category": "rule",
+    "en": "Electrum Piece",
+    "zh": "银金币",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Empathy",
     "zh": "共情",
     "aliases": [],
@@ -21407,6 +24027,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Enchanter",
+    "zh": "惑控师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 213
       }
     ]
   },
@@ -21682,6 +24330,34 @@
   },
   {
     "category": "rule",
+    "en": "Evoker",
+    "zh": "塑能师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 214
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Example of Melee",
     "zh": "近战示例",
     "aliases": [],
@@ -21731,6 +24407,28 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Executioner",
+    "zh": "刽子手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -21870,6 +24568,28 @@
   },
   {
     "category": "rule",
+    "en": "Expert Assassin",
+    "zh": "老练刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Expertise",
     "zh": "专精",
     "aliases": [
@@ -21905,6 +24625,12 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -22016,6 +24742,50 @@
   },
   {
     "category": "rule",
+    "en": "Filcher",
+    "zh": "小偷",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Finding/Removing Traps",
+    "zh": "寻找／解除陷阱",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Fire Building",
     "zh": "生火",
     "aliases": [],
@@ -22097,6 +24867,28 @@
         "world": null,
         "source": "DMG translated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Footpad",
+    "zh": "拦路贼",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -22426,6 +25218,28 @@
   },
   {
     "category": "rule",
+    "en": "Gold Piece",
+    "zh": "金币",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Grand Master of Flowers",
     "zh": "百花大宗师",
     "aliases": [],
@@ -22443,6 +25257,28 @@
         "world": null,
         "source": "PHB",
         "page": 19
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Grandfather of Assassins",
+    "zh": "刺客祖师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -22658,6 +25494,28 @@
   },
   {
     "category": "rule",
+    "en": "Guildmaster Assassin",
+    "zh": "刺客公会会长",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Healing",
     "zh": "治疗",
     "aliases": [],
@@ -22669,6 +25527,34 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hearing Noise",
+    "zh": "聆听声响",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
       }
     ]
   },
@@ -22767,6 +25653,30 @@
         "world": null,
         "source": "PHB",
         "page": 22
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Hiding in Shadows",
+    "zh": "躲藏于阴影",
+    "aliases": [
+      "躲入阴影"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -23230,6 +26140,28 @@
   },
   {
     "category": "rule",
+    "en": "Immaculate",
+    "zh": "无垢者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Immunity to All Forms of Disease",
     "zh": "疾病免疫",
     "aliases": [],
@@ -23383,6 +26315,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Initiate",
+    "zh": "入门者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
       }
     ]
   },
@@ -23955,6 +26909,28 @@
   },
   {
     "category": "rule",
+    "en": "Killer",
+    "zh": "杀手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Lama",
     "zh": "喇嘛",
     "aliases": [],
@@ -24026,6 +27002,72 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lawful Evil",
+    "zh": "守序邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lawful Good",
+    "zh": "守序善良",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Lawful Neutral",
+    "zh": "守序中立",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -24179,6 +27221,28 @@
   },
   {
     "category": "rule",
+    "en": "Level of Victim",
+    "zh": "目标等级",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Level Title",
     "zh": "等级头衔",
     "aliases": [],
@@ -24298,6 +27362,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Mage",
+    "zh": "魔法师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 347
       }
     ]
   },
@@ -24493,6 +27585,56 @@
   },
   {
     "category": "rule",
+    "en": "Magician",
+    "zh": "术师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 80
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Magsman",
+    "zh": "骗术师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Major Discipline",
     "zh": "主要学科",
     "aliases": [],
@@ -24568,6 +27710,34 @@
         "world": null,
         "source": null,
         "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Mask the Mind",
+    "zh": "遮蔽心智",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
       }
     ]
   },
@@ -24600,6 +27770,298 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master",
+    "zh": "大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Assassins",
+    "zh": "刺客之主",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 19
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Autumn",
+    "zh": "秋之大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Dragons",
+    "zh": "龙之大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Spring",
+    "zh": "春之大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Summer",
+    "zh": "夏之大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of the East Wind",
+    "zh": "东风大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of the North Wind",
+    "zh": "北风大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of the South Wind",
+    "zh": "南风大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of the West Wind",
+    "zh": "西风大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master of Winter",
+    "zh": "冬之大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master Thief",
+    "zh": "盗贼大师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 216
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Master Trickster",
+    "zh": "诡术大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
       }
     ]
   },
@@ -24738,6 +28200,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Memorize",
+    "zh": "记忆法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -24889,6 +28373,28 @@
   },
   {
     "category": "rule",
+    "en": "Minimum Fees for Assassination",
+    "zh": "最低暗杀酬金",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Minimum Number of Spells/Level",
     "zh": "每环可习得法术数下限",
     "aliases": [],
@@ -25002,6 +28508,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Minor Trickster",
+    "zh": "初阶诡术师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
       }
     ]
   },
@@ -25184,6 +28712,50 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Monetary System",
+    "zh": "货币体系",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Money Changing",
+    "zh": "货币兑换",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -25537,6 +29109,28 @@
   },
   {
     "category": "rule",
+    "en": "Moving Silently",
+    "zh": "无声移动",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Multi-Classed Character",
     "zh": "多职业角色",
     "aliases": [],
@@ -25554,6 +29148,34 @@
         "world": null,
         "source": "PHB",
         "page": 16
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Murderer",
+    "zh": "凶手",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -25652,6 +29274,78 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Necromancer",
+    "zh": "死灵师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "VGM",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Neutral Evil",
+    "zh": "中立邪恶",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Neutral Good",
+    "zh": "中立善良",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -25871,6 +29565,28 @@
   },
   {
     "category": "rule",
+    "en": "Novice",
+    "zh": "初学者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "NPC",
     "zh": "非玩家角色",
     "aliases": [
@@ -25992,6 +29708,94 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Open Hand Attacks per Round",
+    "zh": "每轮空手攻击次数",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Open Hand Combat",
+    "zh": "空手战斗",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Open Hand Damage",
+    "zh": "空手伤害",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Opening Locks",
+    "zh": "开锁",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -26413,6 +30217,28 @@
   },
   {
     "category": "rule",
+    "en": "Phantasmist",
+    "zh": "幻象师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Phasing Player",
     "zh": "当前行动方",
     "aliases": [],
@@ -26446,6 +30272,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Picking Pockets",
+    "zh": "扒窃",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -26500,6 +30348,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Platinum Piece",
+    "zh": "铂金币",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -26707,6 +30577,50 @@
   },
   {
     "category": "rule",
+    "en": "Prepare",
+    "zh": "准备法术",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Prestidigitator",
+    "zh": "戏法师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Priest",
     "zh": "祭司",
     "aliases": [],
@@ -26730,6 +30644,28 @@
         "world": null,
         "source": "MM",
         "page": 348
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Prime Assassin",
+    "zh": "顶尖刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -27295,6 +31231,34 @@
   },
   {
     "category": "rule",
+    "en": "Quivering Palm",
+    "zh": "渗透劲",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 32
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 79
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Race",
     "zh": "种族",
     "aliases": [],
@@ -27621,6 +31585,28 @@
   },
   {
     "category": "rule",
+    "en": "Reading Languages",
+    "zh": "阅读语言",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 28
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Reading/Writing",
     "zh": "读写",
     "aliases": [],
@@ -27937,6 +31923,28 @@
   },
   {
     "category": "rule",
+    "en": "Robber",
+    "zh": "强盗",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Rock Ledge",
     "zh": "岩棚",
     "aliases": [],
@@ -27964,6 +31972,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rogue (Apprentice)",
+    "zh": "无赖（学徒）",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -28138,6 +32168,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Rutterkin",
+    "zh": "恶棍",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -28711,6 +32763,28 @@
   },
   {
     "category": "rule",
+    "en": "Self-Induced Catalepsy",
+    "zh": "自致强直昏厥",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Semi-intelligent",
     "zh": "半智能",
     "aliases": [],
@@ -28728,6 +32802,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Senior Assassin",
+    "zh": "资深刺客",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
       }
     ]
   },
@@ -28798,6 +32894,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Sharper",
+    "zh": "老千",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -28878,6 +32996,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Silver Piece",
+    "zh": "银币",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -29006,6 +33146,34 @@
   },
   {
     "category": "rule",
+    "en": "Sorcerer",
+    "zh": "术士",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 99
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Sound Imitation",
     "zh": "模仿声音",
     "aliases": [
@@ -29019,6 +33187,92 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Speak with Animals",
+    "zh": "动物交谈",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      },
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Speak with Plants",
+    "zh": "植物交谈",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      },
+      {
+        "edition": "3R",
+        "world": null,
+        "source": null,
+        "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Special Abilities",
+    "zh": "特殊能力",
+    "aliases": [
+      "有一种或更多特殊能力"
+    ],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      },
+      {
+        "edition": "5R",
+        "world": null,
+        "source": "XPHB",
+        "page": 235
       }
     ]
   },
@@ -29345,6 +33599,28 @@
   },
   {
     "category": "rule",
+    "en": "Spellbinder",
+    "zh": "惑心师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Spellcaster",
     "zh": "施法者",
     "aliases": [],
@@ -29400,6 +33676,52 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Spying",
+    "zh": "谍报",
+    "aliases": [
+      "侦察"
+    ],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 29
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Starting Money",
+    "zh": "起始资金",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 35
       }
     ]
   },
@@ -29657,6 +33979,28 @@
   },
   {
     "category": "rule",
+    "en": "Superior Master",
+    "zh": "上位大师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 31
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Support Column",
     "zh": "支柱",
     "aliases": [],
@@ -29846,6 +34190,28 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Switch from One Class to Another",
+    "zh": "转职",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -30069,6 +34435,28 @@
   },
   {
     "category": "rule",
+    "en": "Thaumaturgist",
+    "zh": "奇术师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "The Boating Proficiency",
     "zh": "划船熟练项",
     "aliases": [],
@@ -30109,6 +34497,28 @@
   },
   {
     "category": "rule",
+    "en": "Theurgist",
+    "zh": "通神者",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Thief Level",
     "zh": "盗贼等级",
     "aliases": [],
@@ -30126,6 +34536,28 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Thieves Guild",
+    "zh": "盗贼公会",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 27
       }
     ]
   },
@@ -30172,6 +34604,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Thug",
+    "zh": "暴徒",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "MM",
+        "page": 350
       }
     ]
   },
@@ -30558,6 +35018,50 @@
         "world": null,
         "source": "AD&D 1E curated glossary",
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Trickster",
+    "zh": "诡术师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "True Neutral",
+    "zh": "绝对中立",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 33
       }
     ]
   },
@@ -30958,6 +35462,50 @@
   },
   {
     "category": "rule",
+    "en": "Visionist",
+    "zh": "幻景师",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Waghalter",
+    "zh": "亡命徒",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "category": "rule",
     "en": "Wandering Monster",
     "zh": "游荡怪物",
     "aliases": [],
@@ -30997,6 +35545,28 @@
         "world": null,
         "source": "PHB",
         "page": 24
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Warlock",
+    "zh": "巫士",
+    "aliases": [],
+    "status": "adapted-variant",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
       }
     ]
   },
@@ -31390,6 +35960,34 @@
         "world": null,
         "source": null,
         "page": null
+      }
+    ]
+  },
+  {
+    "category": "rule",
+    "en": "Wizard",
+    "zh": "法师",
+    "aliases": [],
+    "status": "verified-exact",
+    "ids": [],
+    "references": [
+      {
+        "edition": "1E",
+        "world": null,
+        "source": null,
+        "page": null
+      },
+      {
+        "edition": "1E",
+        "world": null,
+        "source": "PHB",
+        "page": 25
+      },
+      {
+        "edition": "5E",
+        "world": null,
+        "source": "PHB",
+        "page": 112
       }
     ]
   },

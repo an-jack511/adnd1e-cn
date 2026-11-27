@@ -184,6 +184,20 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
+    "key": "item:boat, long",
+    "en": "Boat, Long",
+    "currentZh": "长船",
+    "candidates": [
+      {
+        "en": "Bow, long",
+        "zh": "长弓",
+        "similarity": 0.842,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
     "key": "item:bone ring",
     "en": "Bone Ring",
     "currentZh": "骨戒指",
@@ -376,15 +390,15 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:crossbow, light",
-    "en": "Crossbow, Light",
-    "currentZh": "轻弩",
+    "key": "item:crossbow, hand",
+    "en": "Crossbow, Hand",
+    "currentZh": "手弩",
     "candidates": [
       {
-        "en": "Crossbow Bolt",
-        "zh": "弩矢",
-        "similarity": 0.786,
-        "url": "https://5e.kiwee.top/data/items-base.json"
+        "en": "Crossbow, heavy",
+        "zh": "重弩",
+        "similarity": 0.828,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -414,6 +428,12 @@
     "en": "Dust of Illusion",
     "currentZh": "幻象粉",
     "candidates": [
+      {
+        "en": "Wand of Illusion",
+        "zh": "幻象魔杖",
+        "similarity": 0.812,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      },
       {
         "en": "Deck of Illusions",
         "zh": "幻象牌组",
@@ -696,24 +716,16 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:morning star",
-    "en": "Morning Star",
-    "currentZh": "晨星",
-    "candidates": [
-      {
-        "en": "Morningstar",
-        "zh": "钉头锤",
-        "similarity": 0.957,
-        "url": "https://5e.kiwee.top/data/items-base.json"
-      }
-    ],
-    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
-  },
-  {
     "key": "item:morning star +1",
     "en": "Morning Star +1",
     "currentZh": "+1 晨星锤",
     "candidates": [
+      {
+        "en": "Morning Star",
+        "zh": "钉头锤",
+        "similarity": 0.889,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      },
       {
         "en": "Morningstar",
         "zh": "钉头锤",
@@ -833,6 +845,34 @@
         "zh": "夸尔羽符，树",
         "similarity": 0.875,
         "url": "https://5e.kiwee.top/data/items.json"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:quarrel (or bolt), heavy",
+    "en": "Quarrel (or Bolt), heavy",
+    "currentZh": "重弩矢",
+    "candidates": [
+      {
+        "en": "Quarrel (or Bolt), heavy, score",
+        "zh": "重型弩矢，二十支",
+        "similarity": 0.873,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+      }
+    ],
+    "action": "review-only; never automatically merge plurals, word order or omitted name elements"
+  },
+  {
+    "key": "item:quarrel (or bolt), light",
+    "en": "Quarrel (or Bolt), light",
+    "currentZh": "轻弩矢",
+    "candidates": [
+      {
+        "en": "Quarrel (or Bolt), light, single",
+        "zh": "轻型弩矢，单支",
+        "similarity": 0.857,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
@@ -1874,15 +1914,15 @@
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"
   },
   {
-    "key": "item:wand of illusion",
-    "en": "Wand of Illusion",
-    "currentZh": "幻象魔杖",
+    "key": "item:wand of illumination",
+    "en": "Wand of Illumination",
+    "currentZh": "照明魔杖",
     "candidates": [
       {
-        "en": "Deck of Illusions",
-        "zh": "幻象牌组",
-        "similarity": 0.788,
-        "url": "https://5e.kiwee.top/data/items.json"
+        "en": "Wand of Illusion",
+        "zh": "幻象魔杖",
+        "similarity": 0.833,
+        "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
       }
     ],
     "action": "review-only; never automatically merge plurals, word order or omitted name elements"

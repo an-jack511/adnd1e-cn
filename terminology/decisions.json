@@ -4619,6 +4619,7 @@
       "status": "adapted-variant",
       "verificationScope": "self-translated-after-3R-5E-5R-search",
       "englishVariants": [
+        "The Multi-Classed Character",
         "multi-class character",
         "multi-classed individual"
       ],
@@ -4631,9 +4632,18 @@
           "zh": "多职业角色",
           "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
           "location": "printed p.16; PDF p.17"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "The Multi-Classed Character",
+          "zh": "多职业角色",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
         }
       ],
-      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。非人类或半人类同时拥有多种职业，经验均分，即使其中职业已达上限；与人类先后更换职业分开。",
+      "reason": "已读 PHB 原文及上下文。按离线 3R→5E→5R 名称证据检索；3R 本地覆盖有限，不把缺项说成全站无译法。未找到适用于该 1E 原词义项的精确中英名称对，按原文及既有 D&D 中文词素自译。非人类或半人类同时拥有多种职业，经验均分，即使其中职业已达上限；与人类先后更换职业分开。 本批复核完整多职业小节：适用非人类／半人类并行职业，不能与人类Character with Two Classes合并。",
       "userOverride": false
     },
     {
@@ -7783,6 +7793,5592 @@
         }
       ],
       "reason": "PHB本地扫描第5级头衔缺字；另读1979年TSR9024《Dungeon Master’s Screen》原文转录的CLERICS TABLE：经验13,001–27,500、第5级为Prefect，前后列Curate/Canon，补证同一职位。只称读到原文转录，不称已目视另一PHB扫描。离线3R→5E→5R无适用于此职衔的精确译名，按宗教管理职衔语义自译为教务长；3R本地覆盖仍不完整。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Prestidigitator",
+      "zh": "戏法师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Prestidigitator",
+          "zh": "戏法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第1级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。戏法在此指称号词素，不表示原始PHB已有后续版零环戏法机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Evoker",
+      "zh": "塑能师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Evoker",
+          "zh": "塑能师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Evoker",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%A1%91%E8%83%BD%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 214,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "塑能师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第2级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Conjurer",
+      "zh": "咒法师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Conjurer",
+          "zh": "咒法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Conjurer",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%92%92%E6%B3%95%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 212,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "咒法师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第3级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Theurgist",
+      "zh": "通神者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Theurgist",
+          "zh": "通神者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第4级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。按通神的术者语义构词，但此称号不授予牧师神术。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Thaumaturgist",
+      "zh": "奇术师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Thaumaturgist",
+          "zh": "奇术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第5级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Magician",
+      "zh": "术师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Magician",
+          "zh": "术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "classFeature",
+          "edition": "5R",
+          "en": "Magician",
+          "entryUrl": "https://5e.kiwee.top/class-druid.html#%E6%9C%AF%E5%B8%88_xphb",
+          "page": 80,
+          "referenceFile": "5etools-names.json",
+          "source": "XPHB",
+          "url": "https://5e.kiwee.top/data/class/class-druid.json",
+          "zh": "术师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第6级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Enchanter",
+      "zh": "惑控师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Enchanter",
+          "zh": "惑控师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Enchanter",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%83%91%E6%8E%A7%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 213,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "惑控师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第7级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Warlock",
+      "zh": "巫士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Warlock",
+          "zh": "巫士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第8级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。1E此处是一般魔法师头衔；5E魔契师体现契约职业义项，不适用于此处，故另译巫士。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Sorcerer",
+      "zh": "术士",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Sorcerer",
+          "zh": "术士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "class",
+          "edition": "5E",
+          "en": "Sorcerer",
+          "entryUrl": "https://5e.kiwee.top/classes.html#%E6%9C%AF%E5%A3%AB_phb",
+          "page": 99,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-sorcerer.json",
+          "zh": "术士"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第9级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Necromancer",
+      "zh": "死灵师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Necromancer",
+          "zh": "死灵师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Necromancer",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%AD%BB%E7%81%B5%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 217,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "死灵师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第10级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Wizard",
+      "zh": "法师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Wizard",
+          "zh": "法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "class",
+          "edition": "5E",
+          "en": "Wizard",
+          "entryUrl": "https://5e.kiwee.top/classes.html#%E6%B3%95%E5%B8%88_phb",
+          "page": 112,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-wizard.json",
+          "zh": "法师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第11级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Mage",
+      "zh": "魔法师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Mage",
+          "zh": "魔法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Mage",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E9%AD%94%E6%B3%95%E5%B8%88_mm",
+          "isNpc": false,
+          "page": 347,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "魔法师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。魔法师第16级的等级头衔；不是另选一个后续版职业或学派专精，不因此增加或限制法术能力。第16级表中作Wizard (16th level, or Mage)，是可替换头衔；中文也可作全职业普通称谓，依语境区分。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Arch-Mage",
+      "zh": "大法师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Archmage"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Arch-Mage",
+          "zh": "大法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Archmage",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%A4%A7%E6%B3%95%E5%B8%88_mm",
+          "isNpc": false,
+          "page": 342,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "大法师"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。第18级表中Wizard的另一头衔；Arch-Mage/Archmage为本次明示核对的连字符异体，采用大法师但标词形处理，不冒称1E原文写作Archmage。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Minor Trickster",
+      "zh": "初阶诡术师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Minor Trickster",
+          "zh": "初阶诡术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第2级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Trickster",
+      "zh": "诡术师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Trickster",
+          "zh": "诡术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第3级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master Trickster",
+      "zh": "诡术大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Master Trickster",
+          "zh": "诡术大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第4级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Cabalist",
+      "zh": "秘仪师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Cabalist",
+          "zh": "秘仪师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第5级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Visionist",
+      "zh": "幻景师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Visionist",
+          "zh": "幻景师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第6级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Phantasmist",
+      "zh": "幻象师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Phantasmist",
+          "zh": "幻象师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第7级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Apparitionist",
+      "zh": "幻影师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Apparitionist",
+          "zh": "幻影师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第8级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Spellbinder",
+      "zh": "惑心师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Spellbinder",
+          "zh": "惑心师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。幻术师第9级称号；按诡术、秘仪、幻景／幻象／幻影或迷惑人心的语义构词，仅是等级头衔，不据名称增造职业能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Rogue (Apprentice)",
+      "zh": "无赖（学徒）",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Rogue"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Rogue (Apprentice)",
+          "zh": "无赖（学徒）",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第1级的头衔；按盗窃、抢掠或行骗角色语义定译。原表保留Apprentice括注；不把后续版Rogue完整职业机制导入此一级头衔。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Footpad",
+      "zh": "拦路贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Footpad",
+          "zh": "拦路贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第2级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Cutpurse",
+      "zh": "扒手",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Cutpurse",
+          "zh": "扒手",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第3级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Robber",
+      "zh": "强盗",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Robber",
+          "zh": "强盗",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第4级的头衔；按盗窃、抢掠或行骗角色语义定译。与Burglar保持不同译名，原表与正文的Burglar等级分歧另记。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Burglar",
+      "zh": "窃贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Burglar",
+          "zh": "窃贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第5级的头衔；按盗窃、抢掠或行骗角色语义定译。同页正文又称第4级(Burglar)，与表列第5级冲突；这里保留原表定位并记录分歧，不擅改等级。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Filcher",
+      "zh": "小偷",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Filcher",
+          "zh": "小偷",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第6级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Sharper",
+      "zh": "老千",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Sharper",
+          "zh": "老千",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第7级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Magsman",
+      "zh": "骗术师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Magsman",
+          "zh": "骗术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第8级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master Thief",
+      "zh": "盗贼大师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Master Thief",
+          "zh": "盗贼大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Master Thief",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E7%9B%97%E8%B4%BC%E5%A4%A7%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 216,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "盗贼大师"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。本地PHB盗贼等级表第10级的头衔；按盗窃、抢掠或行骗角色语义定译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Picking Pockets",
+      "zh": "扒窃",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Pick Pockets"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Picking Pockets",
+          "zh": "扒窃",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。轻手取走衣袋、衣褶等处小物的盗贼能力；原文按受害者等级等修正，失败与被察觉不是同一阈值。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Opening Locks",
+      "zh": "开锁",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Open Locks"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Opening Locks",
+          "zh": "开锁",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼处理锁具的职业能力；同一把锁通常一次机会，升级后可再试，不替换成5E盗贼工具检定。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Finding/Removing Traps",
+      "zh": "寻找／解除陷阱",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Find/Remove Traps"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Finding/Removing Traps",
+          "zh": "寻找／解除陷阱",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。主要针对小型机械陷阱；寻找与解除须分别掷骰，先找到才能拆除，不视作一次同时完成。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Moving Silently",
+      "zh": "无声移动",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Move Silently"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Moving Silently",
+          "zh": "无声移动",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼降低移动噪声的职业能力；不是隐藏本身或后续版潜行技能的一揽子同义词。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Hiding in Shadows",
+      "zh": "躲藏于阴影",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Hide in Shadows"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Hiding in Shadows",
+          "zh": "躲藏于阴影",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。借暗处、着装及静止隐蔽的盗贼能力；受直接观察及红外视觉等条件限制，与无声移动分开。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Hearing Noise",
+      "zh": "聆听声响",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Hear Noise"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Hearing Noise",
+          "zh": "聆听声响",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.28; PDF p.29"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼功能表按等级给出的聆听成功率；本书以一分钟聆听，与普通隔门聆听的规则位置分别记录。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Climbing Walls",
+      "zh": "攀爬墙壁",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Climb Walls",
+        "Ascending and Descending Vertical Surfaces"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Climbing Walls",
+          "zh": "攀爬墙壁",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.28; PDF p.29"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Climbing Walls",
+          "location": "/adventureData/0/data/6/entries/4/entries/3/entries/2",
+          "page": 148,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "06fd4c3d3e05ec59917e47d5c7341ad6d9dc06df0c7b3df1fc1bf8c2a3cb48c9",
+          "source": "SKT",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-skt.json",
+          "zh": "攀爬墙壁"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。盗贼攀爬能力，在攀爬中点判定；不能移作DSG普通攀爬评级或攀爬检定。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Reading Languages",
+      "zh": "阅读语言",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Read Languages"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Reading Languages",
+          "zh": "阅读语言",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.28; PDF p.29"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼非魔法解读文字的职业能力；与同名Read Languages法术分列类别，失败后通常需升级才能重试。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Back Stabbing",
+      "zh": "背刺",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Back Stab"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Back Stabbing",
+          "zh": "背刺",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。1E盗贼从背后突袭的武器攻击能力，按等级提高武器伤害倍数；不套用后续版Sneak Attack偷袭的触发与伤害骰。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Base Chance",
+      "zh": "基础成功率",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Base Chance",
+          "zh": "基础成功率",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.28; PDF p.29"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼功能表中的基础百分比，种族、敏捷、目标等级等修正另计；不是难度等级。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Memorize",
+      "zh": "记忆法术",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Memorize",
+          "zh": "记忆法术",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。原文用于施法前记住所需法术；与Prepare一并描述预备施法，不据两个动词出现便创设两套独立检定或资源。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Prepare",
+      "zh": "准备法术",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Prepare",
+          "zh": "准备法术",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。原文用于为每个法术的使用作准备；具体休息与恢复程序另见施法章节，不把后续版已备法术清单制度移入。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Thieves Guild",
+      "zh": "盗贼公会",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Thieves Guild",
+          "zh": "盗贼公会",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。盗贼建团后可能遭遇的地方公会组织；不是所有设定中的一个统一具名公会。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Spell Book",
+      "zh": "法术书",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "book of spells",
+        "Spellbook"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Spell Book",
+          "zh": "法术书",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "item",
+          "edition": "5E",
+          "en": "Spellbook",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%B3%95%E6%9C%AF%E4%B9%A6_phb",
+          "page": 153,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items.json",
+          "zh": "法术书"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。原文spell book／book of spells指记载并供复习法术的实体书；Spellbook为已核的空格异体检索形式，1E法术记录和记忆机制仍按原书。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Thieves' Cant",
+      "zh": "盗贼黑话",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Thieves' Cant",
+          "zh": "盗贼黑话",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Thieves' Cant",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E7%9B%97%E8%B4%BC%E9%BB%91%E8%AF%9D_phb",
+          "page": 94,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "盗贼黑话"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。所有盗贼另懂的职业暗语；以5E精确语言名借名，不引入后续版交流耗时或背景选项。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Illusionist",
+      "zh": "幻术师",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Illusionists"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Illusionist",
+          "zh": "幻术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Illusionist",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E5%B9%BB%E6%9C%AF%E5%B8%88_vgm",
+          "isNpc": false,
+          "page": 214,
+          "referenceFile": "5etools-names.json",
+          "source": "VGM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-vgm.json",
+          "zh": "幻术师"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Illusionist",
+          "zh": "幻术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。1E魔法师的子职；采用5E VGM精确同名幻术施法者的名称，不移植其数据块，也不是5E学派选择制度。 职业标题的复数形式，不新增职业概念。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Thief",
+      "zh": "盗贼",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Thieves"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Thief",
+          "zh": "盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subclass",
+          "edition": "5E",
+          "en": "Thief",
+          "entryUrl": "https://5e.kiwee.top/class-rogue.html#%E7%9B%97%E8%B4%BC_phb",
+          "page": 97,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-rogue.json",
+          "zh": "盗贼"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 27,
+          "en": "Thief",
+          "zh": "盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.27; PDF p.28"
+        }
+      ],
+      "reason": "离线3R→5E→5R核词后采用适用的精确名称对，仅核名称。3R本地覆盖有限，不据缺项断言全站无译法。1E主要职业；采用5E PHB同名子职的名称对照，不把其Rogue母职业或子职等级能力移植到1E。 职业标题的复数形式，不新增职业概念。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Magic-User",
+      "zh": "魔法师",
+      "status": "verified-exact",
+      "verificationScope": "1e-glossary-label",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "DMG translated glossary",
+          "en": "Magic-User",
+          "zh": "魔法师",
+          "url": "src/published/books/dmg/dmg-glossary.md#51"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Magic-User",
+          "zh": "魔法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "复用已有定译；补入PHB明确词形与来源。 PHB原文复数职业词形，原有魔法师主译直接复用。",
+      "englishVariants": [
+        "Magic-Users"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Fabrication of Magic Items, Including Potions and Scrolls",
+      "zh": "制作魔法物品（包括药水与卷轴）",
+      "status": "verified-exact",
+      "verificationScope": "1e-bilingual-heading",
+      "references": [
+        {
+          "edition": "1E",
+          "en": "Fabrication of Magic Items, Including Potions and Scrolls",
+          "zh": "制作魔法物品（包括药水与卷轴）",
+          "url": "src/published/books/dmg/dmg-magical-research.md:79"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Enchant Items",
+          "zh": "制作魔法物品（包括药水与卷轴）",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "复用已有定译；补入PHB明确词形与来源。 本页魔法师制作魔法物品的行动词形，关联已有制造概念，不另起同义规则。",
+      "englishVariants": [
+        "Enchant Items",
+        "Enchanting Items"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Manufacture of Scrolls",
+      "zh": "制作卷轴",
+      "status": "verified-exact",
+      "verificationScope": "1e-bilingual-heading",
+      "references": [
+        {
+          "edition": "1E",
+          "en": "Manufacture of Scrolls",
+          "zh": "制作卷轴",
+          "url": "src/published/books/dmg/dmg-magical-research.md:140"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 25,
+          "en": "Scribe Magic Scrolls",
+          "zh": "制作卷轴",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.25; PDF p.26"
+        }
+      ],
+      "reason": "复用已有定译；补入PHB明确词形与来源。 本页制作魔法卷轴的行动词形，关联已有制作卷轴概念，不与Scribe同名法术合并。",
+      "englishVariants": [
+        "Inscribing Scrolls of Magic Spells",
+        "Scribe Magic Scrolls"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Rod of Cancellation",
+      "zh": "消解权杖",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Rod of Cancellation",
+          "zh": "消解权杖",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "page": "PDF 134",
+          "en": "Rod of Cancellation",
+          "zh": "消解权杖",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "location": "PDF 134"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。本地DMG完整名称与描述确认其触击能消除物品魔力；按Cancellation消解、Rod权杖构词，旧译取消权杖保留检索。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "取消权杖"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Wand of Illusion",
+      "zh": "幻象魔杖",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Wand of Illusion",
+          "zh": "幻象魔杖",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "page": "PDF 136",
+          "en": "Wand of Illusion",
+          "zh": "幻象魔杖",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "location": "PDF 136"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。DMG原条目明确创造视听幻象；采用幻象、魔杖词素，不凭相似魔杖名称套用。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Wand of Metal and Mineral Detection",
+      "zh": "金属与矿物侦测魔杖",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Wand of Metal and Mineral Detection",
+          "zh": "金属与矿物侦测魔杖",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "page": "PDF 137",
+          "en": "Wand of Metal and Mineral Detection",
+          "zh": "金属与矿物侦测魔杖",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "location": "PDF 137"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。DMG完整原词与指向金属／特定矿物的功能已确认，名称各部分均保留。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Wand of Secret Door and Trap Location",
+      "zh": "暗门与陷阱探测魔杖",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 26,
+          "en": "Wand of Secret Door and Trap Location",
+          "zh": "暗门与陷阱探测魔杖",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printed p.26; PDF p.27"
+        },
+        {
+          "edition": "1E",
+          "source": "DMG",
+          "page": "PDF 137",
+          "en": "Wand of Secret Door and Trap Location",
+          "zh": "暗门与陷阱探测魔杖",
+          "url": "tmp/rule-source-audit/DMG.txt",
+          "location": "PDF 137"
+        }
+      ],
+      "reason": "离线3R→5E→5R未找到适用于此1E原词义项的精确译名，按原文与既有词素自译／处理明示词形。3R本地覆盖有限，不据缺项断言全站无译法。DMG完整原词已确认；PHB列表用secret door & trap detection简写。保留可用的探测主译，不把它扩成同时侦测两类目标或涵盖掩蔽门。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Bravo (Apprentice)",
+      "zh": "打手（学徒）",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Bravo (Apprentice)",
+          "zh": "打手（学徒）",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第1级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Rutterkin",
+      "zh": "恶棍",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Rutterkin",
+          "zh": "恶棍",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第2级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。此处为人类职业头衔，不是同名恶魔Rutterkin；拒用生物名畸魔。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Waghalter",
+      "zh": "亡命徒",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Waghalter",
+          "zh": "亡命徒",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第3级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。以旧词指亡命罪犯的语义译，不制造绞刑判决状态。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Murderer",
+      "zh": "凶手",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Murderer",
+          "zh": "凶手",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第4级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Thug",
+      "zh": "暴徒",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Thug",
+          "zh": "暴徒",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "monster",
+          "edition": "5E",
+          "en": "Thug",
+          "entryUrl": "https://5e.kiwee.top/bestiary.html#%E6%9A%B4%E5%BE%92_mm",
+          "isNpc": false,
+          "page": 350,
+          "referenceFile": "5etools-names.json",
+          "source": "MM",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-mm.json",
+          "zh": "暴徒"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。刺客第5级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Killer",
+      "zh": "杀手",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Killer",
+          "zh": "杀手",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第6级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Cutthroat",
+      "zh": "割喉者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Cutthroat",
+          "zh": "割喉者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第7级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Executioner",
+      "zh": "刽子手",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Executioner",
+          "zh": "刽子手",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第8级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Expert Assassin",
+      "zh": "老练刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Expert Assassin",
+          "zh": "老练刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第10级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Senior Assassin",
+      "zh": "资深刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Senior Assassin",
+          "zh": "资深刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第11级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Chief Assassin",
+      "zh": "首席刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Chief Assassin",
+          "zh": "首席刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第12级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Prime Assassin",
+      "zh": "顶尖刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Prime Assassin",
+          "zh": "顶尖刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第13级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Guildmaster Assassin",
+      "zh": "刺客公会会长",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Guildmistress Assassin"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Guildmaster Assassin",
+          "zh": "刺客公会会长",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第14级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。正文有女性称号Guildmistress Assassin，任职与公会控制权相同。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Grandfather of Assassins",
+      "zh": "刺客祖师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Grandmother of Assassins"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Grandfather of Assassins",
+          "zh": "刺客祖师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客第15级头衔；按受雇打手、罪犯、杀手或职级含义构词，不据称号增加能力。最高职位而非家族或年龄身份；正文允许Grandmother称呼，中文同用刺客祖师。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Novice",
+      "zh": "初学者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Novice",
+          "zh": "初学者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第1级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Initiate",
+      "zh": "入门者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Initiate",
+          "zh": "入门者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第2级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Brother",
+      "zh": "修士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Brother",
+          "zh": "修士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第3级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Disciple",
+      "zh": "弟子",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Disciple",
+          "zh": "弟子",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第4级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Immaculate",
+      "zh": "无垢者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Immaculate",
+          "zh": "无垢者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第5级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master",
+      "zh": "大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master",
+          "zh": "大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第6级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Superior Master",
+      "zh": "上位大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Superior Master",
+          "zh": "上位大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第7级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Dragons",
+      "zh": "龙之大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of Dragons",
+          "zh": "龙之大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第8级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of the North Wind",
+      "zh": "北风大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of the North Wind",
+          "zh": "北风大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第9级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of the West Wind",
+      "zh": "西风大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of the West Wind",
+          "zh": "西风大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第10级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of the South Wind",
+      "zh": "南风大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of the South Wind",
+          "zh": "南风大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第11级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of the East Wind",
+      "zh": "东风大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of the East Wind",
+          "zh": "东风大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第12级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Winter",
+      "zh": "冬之大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of Winter",
+          "zh": "冬之大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第13级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Autumn",
+      "zh": "秋之大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of Autumn",
+          "zh": "秋之大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第14级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Summer",
+      "zh": "夏之大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of Summer",
+          "zh": "夏之大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第15级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Spring",
+      "zh": "春之大师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Master of Spring",
+          "zh": "春之大师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧第16级称号；沿用修行者、门徒、大师与风向／季节词素，不由称号推定龙、风或季节法术。Initiate沿用已定入门者词素，不强套其他版背景身份。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Assassination",
+      "zh": "暗杀",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Assassination",
+          "zh": "暗杀",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        },
+        {
+          "accessed": "2026-11-06",
+          "category": "proper",
+          "edition": "5E",
+          "en": "Assassination",
+          "evidenceType": "explicit-name-pair",
+          "location": "/adventureData/0/data/3/entries/13/entries/6/entries/7/entries/1/items/0",
+          "page": null,
+          "referenceFile": "setting-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/adventure/adventure-dsotdq.json",
+          "world": "Dragonlance",
+          "zh": "暗杀"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。刺客惊袭时可选的专门攻击方式，使用暗杀表；与背刺或普通近战三选一，失败后仍可产生普通伤害。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Disguise",
+      "zh": "易容",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Disguise",
+          "zh": "易容",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客通过外貌伪装冒充其他身份的能力；与Disguise Self法术及后续版技能机制分开。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Spying",
+      "zh": "谍报",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Spying",
+          "zh": "谍报",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。刺客次要职能：秘密刺探与获取情报，可伴随盗取物品；不是公开侦察地形。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Assassins Guild",
+      "zh": "刺客公会",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Assassins' Guilds"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Assassins Guild",
+          "zh": "刺客公会",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。地方刺客组织及其会长管理体系，不是所有设定中唯一具名公会。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Fees for Assassination",
+      "zh": "最低暗杀酬金",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Minimum Fees for Assassination",
+          "zh": "最低暗杀酬金",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。虚构角色暗杀委托的酬金表；本词条仅为AD&D游戏规则标签，不改写原书金额。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Level of Victim",
+      "zh": "目标等级",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Level of Victim",
+          "zh": "目标等级",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。酬金表中用于计价的目标等级；DM可因声望／地位按更高等级计价，不等同改变角色实际经验等级。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Combat",
+      "zh": "空手战斗",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Open Hand Fighting"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Open Hand Combat",
+          "zh": "空手战斗",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧专门的徒手击打规则，与一般斗殴、擒抱及后续版特定武僧子职分开。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Attacks per Round",
+      "zh": "每轮空手攻击次数",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Open Hand Attacks per Round",
+          "zh": "每轮空手攻击次数",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧空手攻击数；表中分数按轮序末追加攻击，不是同一轮直接取分数次行动。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Damage",
+      "zh": "空手伤害",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Open Hand Damage",
+          "zh": "空手伤害",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧空手命中的伤害数值，不能误当普通武器伤害骰或固定伤害加值。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Effective Armor Class",
+      "zh": "有效护甲等级",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Effective Armor Class",
+          "zh": "有效护甲等级",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧表中的实际防御等级，不表示穿着护甲，也不移植后续版无甲防御公式。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Special Abilities",
+      "zh": "特殊能力",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Special Abilities",
+          "zh": "特殊能力",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5R",
+          "en": "Special Abilities",
+          "location": "/bookData/0/data/7/entries/3/entries/1/entries/2/entries/1/items/2",
+          "page": 235,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "b7c3f94af3d3b5b2018999b64a8513e6b42282d9deb0e6c6dd6b7b3814c9832b",
+          "source": "XPHB",
+          "url": "https://5e.kiwee.top/data/book/book-xphb.json",
+          "zh": "特殊能力"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。此表以A–K指向不同等级能力；未给出的后续版专有能力名不得反向添加到1E。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Self-Induced Catalepsy",
+      "zh": "自致强直昏厥",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Catalepsy"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Self-Induced Catalepsy",
+          "zh": "自致强直昏厥",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。武僧主动装死的状态；降低体温与心率的叙述属游戏能力，持续时间以十分钟回合计，不是近战轮。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Quivering Palm",
+      "zh": "渗透劲",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Quivering Palm",
+          "zh": "渗透劲",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subclassFeature",
+          "edition": "5E",
+          "en": "Quivering Palm",
+          "entryUrl": "https://5e.kiwee.top/class-monk.html#%E6%B8%97%E9%80%8F%E5%8A%B2_phb",
+          "page": 79,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-monk.json",
+          "zh": "渗透劲"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。武僧通过触击设下致命震动并延后发出死亡指令的能力；借用精确名称，保留1E限制，不移植后续版气点机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Animals",
+      "zh": "动物交谈",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Speak with Animals",
+          "zh": "动物交谈",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        },
+        {
+          "accessed": "2026-11-06",
+          "category": "spell",
+          "edition": "3R",
+          "en": "Speak with Animals",
+          "referenceFile": "huiji-names.json",
+          "retrieval": "search-indexed bilingual table; direct page returned HTTP 403",
+          "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+          "zh": "动物交谈"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。武僧职业能力的与动物沟通效果，与同名法术分列类别，不表示武僧获得该法术或环位。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Plants",
+      "zh": "植物交谈",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Speak with Plants",
+          "zh": "植物交谈",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        },
+        {
+          "accessed": "2026-11-06",
+          "category": "spell",
+          "edition": "3R",
+          "en": "Speak with Plants",
+          "referenceFile": "huiji-names.json",
+          "retrieval": "search-indexed bilingual table; direct page returned HTTP 403",
+          "url": "https://dnd3r.huijiwiki.com/wiki/%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C/%E5%90%9F%E6%B8%B8%E8%AF%97%E4%BA%BA%E6%B3%95%E6%9C%AF",
+          "zh": "植物交谈"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。武僧职业能力的与植物沟通效果，与同名法术分列类别，不表示武僧获得施法能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Mask the Mind",
+      "zh": "遮蔽心智",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Mask the Mind",
+          "zh": "遮蔽心智",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。降低ESP读心成功机会的武僧能力；不是灵能防御模式Mind Blank或后续版同名心灵防护法术。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "proper",
+      "en": "The White",
+      "zh": "白者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "The White",
+          "zh": "白者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "proper",
+      "en": "The Green",
+      "zh": "绿者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "The Green",
+          "zh": "绿者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "proper",
+      "en": "The Red",
+      "zh": "红者",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "The Red",
+          "zh": "红者",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。第8级三名龙之大师之一的颜色称号；不是新职业、龙种或人物真实姓名，中文只按颜色与称谓构词。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Evil",
+      "zh": "混乱邪恶阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Chaotic Evil",
+          "zh": "混乱邪恶阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Good",
+      "zh": "混乱善良阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Chaotic Good",
+          "zh": "混乱善良阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Neutrality",
+      "zh": "混乱中立阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Chaotic Neutral"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Chaotic Neutrality",
+          "zh": "混乱中立阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 34,
+          "en": "Chaotic Neutral",
+          "zh": "混乱中立阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.34 / PDFp.35"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Lawful Evil",
+      "zh": "守序邪恶阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Lawful Evil",
+          "zh": "守序邪恶阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Lawful Good",
+      "zh": "守序善良阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Lawful Good",
+          "zh": "守序善良阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Lawful Neutrality",
+      "zh": "守序中立阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [
+        "Lawful Neutral"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Lawful Neutrality",
+          "zh": "守序中立阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 34,
+          "en": "Lawful Neutral",
+          "zh": "守序中立阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.34 / PDFp.35"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Neutral Evil",
+      "zh": "中立邪恶阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Neutral Evil",
+          "zh": "中立邪恶阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Neutral Good",
+      "zh": "中立善良阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Neutral Good",
+          "zh": "中立善良阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Neutrality",
+      "zh": "中立阵营语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Neutrality",
+          "zh": "中立阵营语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        }
+      ],
+      "reason": "离线版本名称库无适用精确译对；依1E语境、既有词素与中文惯例自译。3R覆盖有限。原表以阵营名列举语言；按守序／混乱、善良／邪恶／中立及已核阵营语构词。此为语言记录，不能与阵营本身或后续版生物语言合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Druidic",
+      "zh": "德鲁伊语",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 29,
+          "en": "Druidic",
+          "zh": "德鲁伊语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.29 / PDFp.30"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Druidic",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E5%BE%B7%E9%B2%81%E4%BC%8A%E8%AF%AD_phb",
+          "page": 64,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "德鲁伊语"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。此处原文语言表明确命名Druidic，补足先前德鲁伊段仅称秘密语言的指称；与中立阵营语分列，刺客特殊语言能力是本书的例外。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Assassin",
+      "zh": "刺客",
+      "status": "verified-exact",
+      "verificationScope": "offline-exact-name-context-reviewed",
+      "englishVariants": [
+        "Assassins"
+      ],
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Assassin",
+          "zh": "刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.28 / PDFp.29"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "subclass",
+          "edition": "5E",
+          "en": "Assassin",
+          "entryUrl": "https://5e.kiwee.top/class-rogue.html#%E5%88%BA%E5%AE%A2_phb",
+          "page": 97,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/class/class-rogue.json",
+          "zh": "刺客"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 28,
+          "en": "Assassin",
+          "zh": "刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.28 / PDFp.29"
+        }
+      ],
+      "reason": "离线3R→5E→5R后采用适用精确名称对，只借名称。3R覆盖有限。1E盗贼的子职，采用5E PHB精确同名的刺客名称，不引入后续版职业／子职机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Monk",
+      "zh": "武僧",
+      "status": "verified-exact",
+      "verificationScope": "whole-name",
+      "references": [
+        {
+          "en": "Monk",
+          "zh": "武僧",
+          "category": "class",
+          "edition": "5E",
+          "source": "PHB",
+          "page": 76,
+          "url": "https://5e.kiwee.top/data/class/class-monk.json",
+          "entryUrl": "https://5e.kiwee.top/classes.html#%E6%AD%A6%E5%83%A7_phb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Monk",
+          "zh": "武僧",
+          "category": "class",
+          "edition": "5R",
+          "source": "XPHB",
+          "page": 100,
+          "url": "https://5e.kiwee.top/data/class/class-monk.json",
+          "entryUrl": "https://5e.kiwee.top/classes.html#%E6%AD%A6%E5%83%A7_xphb",
+          "accessed": "2026-11-24"
+        },
+        {
+          "en": "Monk",
+          "zh": "武僧",
+          "category": "class",
+          "edition": "other",
+          "source": "WoW",
+          "page": null,
+          "url": "https://5e.kiwee.top/data/class/class-monk.json",
+          "entryUrl": "https://5e.kiwee.top/classes.html#%E6%AD%A6%E5%83%A7_wow",
+          "accessed": "2026-11-24"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 30,
+          "en": "Monk",
+          "zh": "武僧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.30 / PDFp.31"
+        }
+      ],
+      "reason": "复用既有主译，补录PHB原文词形与语境。",
+      "englishVariants": [
+        "Monks"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Healing",
+      "zh": "治疗",
+      "status": "verified-exact",
+      "verificationScope": "1e-bilingual-proficiency-entry",
+      "references": [
+        {
+          "edition": "1E",
+          "en": "Healing",
+          "zh": "治疗",
+          "url": "src/published/books/wsg/wsg-proficiencies.md:161; AD&D 1E Wilderness Survival Guide, Table 2"
+        },
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 31,
+          "en": "Heal Damage",
+          "zh": "治疗",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.31 / PDFp.32"
+        }
+      ],
+      "reason": "复用既有主译，补录PHB原文词形与语境。",
+      "englishVariants": [
+        "Heal Damage"
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Fighter",
+      "zh": "牧师／战士",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Fighter",
+          "zh": "牧师／战士",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Fighter/Magic-user",
+      "zh": "牧师／战士／魔法师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Fighter/Magic-user",
+          "zh": "牧师／战士／魔法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Ranger",
+      "zh": "牧师／巡林客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Ranger",
+          "zh": "牧师／巡林客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Magic-user",
+      "zh": "牧师／魔法师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Magic-user",
+          "zh": "牧师／魔法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Thief",
+      "zh": "牧师／盗贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Thief",
+          "zh": "牧师／盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Cleric/Assassin",
+      "zh": "牧师／刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Cleric/Assassin",
+          "zh": "牧师／刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user",
+      "zh": "战士／魔法师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 32,
+          "en": "Fighter/Magic-user",
+          "zh": "战士／魔法师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.32 / PDFp.33"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Illusionist",
+      "zh": "战士／幻术师",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Fighter/Illusionist",
+          "zh": "战士／幻术师",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Thief",
+      "zh": "战士／盗贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Fighter/Thief",
+          "zh": "战士／盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Assassin",
+      "zh": "战士／刺客",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Fighter/Assassin",
+          "zh": "战士／刺客",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Fighter/Magic-user/Thief",
+      "zh": "战士／魔法师／盗贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Fighter/Magic-user/Thief",
+          "zh": "战士／魔法师／盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Magic-user/Thief",
+      "zh": "魔法师／盗贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Magic-user/Thief",
+          "zh": "魔法师／盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "class",
+      "en": "Illusionist/Thief",
+      "zh": "幻术师／盗贼",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Illusionist/Thief",
+          "zh": "幻术师／盗贼",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文明确列出的非人类／半人类多职业组合；中文按已定职业名组合。是组合标签，不是新独立职业，不导入后续版逐级兼职规则；种族资格和装备限制按原文。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Character with Two Classes",
+      "zh": "双职业角色",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Character with Two Classes",
+          "zh": "双职业角色",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [
+        "The Character With Two Classes"
+      ],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。必须为人类、先后转换职业的1E制度；与非人类同时推进的多职业角色分开。旧职业停止成长，新职业先受单独使用限制，超过原等级后才能依规则结合能力。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Switch from One Class to Another",
+      "zh": "转职",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Switch from One Class to Another",
+          "zh": "转职",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R无此完整英文的适用精确译对；依1E定义与既有职业词素构词，3R索引覆盖有限。原文描述人类从旧职业改入新职业的动作；须区分双职业角色制度、被迫失去职业能力及后续版兼职，不据名称将它们合成一种机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Master of Assassins",
+      "zh": "刺客之主",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 19,
+          "en": "Master of Assassins",
+          "zh": "刺客之主",
+          "location": "printedp.19 / PDFp.20; visually checked character classes table I",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R未检得此完整名称的适用精确译对；依1E称号自译。3R名称索引覆盖有限。职业总表将刺客上限写为14（Master of Assassins）；详细刺客等级表则写14 Guildmaster Assassin、15 Grandfather of Assassins。此词仅保留总表原称，不推定与两者等同，也不据总表覆写详细等级规则。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Evil",
+      "zh": "混乱邪恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Chaotic Evil",
+          "zh": "混乱邪恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。重自由、随机与苦难，蔑视秩序与善行。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Good",
+      "zh": "混乱善良",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Chaotic Good",
+          "zh": "混乱善良",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。重自由和个人福利，以善为价值。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Chaotic Neutral",
+      "zh": "混乱中立",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Chaotic Neutral",
+          "zh": "混乱中立",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。以随机与无序为首要，不使善恶任一独占。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Evil",
+      "zh": "守序邪恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Lawful Evil",
+          "zh": "守序邪恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。利用严格法律秩序和纪律推广邪恶。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Good",
+      "zh": "守序善良",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Lawful Good",
+          "zh": "守序善良",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。以法律秩序增进共同福祉，重真理与生命。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Lawful Neutral",
+      "zh": "守序中立",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Lawful Neutral",
+          "zh": "守序中立",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。以法律、秩序及可预测性为首要，不以善恶为关键。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Evil",
+      "zh": "中立邪恶",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Neutral Evil",
+          "zh": "中立邪恶",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。以邪恶为首要，秩序与混乱只是可用手段。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Neutral Good",
+      "zh": "中立善良",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "Neutral Good",
+          "zh": "中立善良",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。以生灵福祉为首要，结合必要规制和自由。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "True Neutral",
+      "zh": "绝对中立",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 33,
+          "en": "True Neutral",
+          "zh": "绝对中立",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.33 / PDFp.34"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。维持善恶及秩序混乱各面的平衡与自然状态；不是单轴的中立，也不是同名阵营语言。此记录是阵营性质，不能与language类别的阵营语合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Changing Alignment",
+      "zh": "改变阵营",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 34,
+          "en": "Changing Alignment",
+          "zh": "改变阵营",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.34 / PDFp.35"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。阵营偏移与主动改变阵营的规则主题；主动转换可要求牺牲、行为证明或任务，不等同法术造成的强制改变。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Starting Money",
+      "zh": "起始资金",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Starting Money",
+          "zh": "起始资金",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。角色开始冒险前按职业生成的资金；牧师3d6×10、战士5d4×10、魔法师2d4×10、盗贼2d6×10金币，武僧为5d4金币，不对武僧也乘10。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Monetary System",
+      "zh": "货币体系",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Monetary System",
+          "zh": "货币体系",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "The Monetary System"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。1E此表200铜币＝20银币＝2银金币＝1金币＝1/5铂金币；币值与后续版不同，名称相同不表示兑换率相同。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Money Changing",
+      "zh": "货币兑换",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Money Changing",
+          "zh": "货币兑换",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。将较低面额钱币兑换成较高面额的钱币；原文给通常3%的费用，并述及银行存款、贷款及珠宝交易；不是魔法钱币转换。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Copper Piece",
+      "zh": "铜币",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Copper Piece",
+          "zh": "铜币",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Copper Pieces"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。货币单位，原书缩写c.p.。200铜币＝1金币。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Silver Piece",
+      "zh": "银币",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Silver Piece",
+          "zh": "银币",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Silver Pieces"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。货币单位，原书缩写s.p.。20银币＝1金币。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Electrum Piece",
+      "zh": "银金币",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Electrum Piece",
+          "zh": "银金币",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Electrum Pieces"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。货币单位，原书缩写e.p.。2银金币＝1金币；electrum为金银合金，不能误译成白银币。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Gold Piece",
+      "zh": "金币",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Gold Piece",
+          "zh": "金币",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Gold Pieces"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。货币单位，原书缩写g.p.。此处交易基本单位。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "rule",
+      "en": "Platinum Piece",
+      "zh": "铂金币",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Platinum Piece",
+          "zh": "铂金币",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Platinum Pieces"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。货币单位，原书缩写p.p.。1铂金币＝5金币；不是后续版的10金币。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "language",
+      "en": "Ogrish",
+      "zh": "食人魔语",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 34,
+          "en": "Ogrish",
+          "zh": "食人魔语",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.34 / PDFp.35"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "language",
+          "edition": "5E",
+          "en": "Ogre",
+          "entryUrl": "https://5e.kiwee.top/languages.html#%E9%A3%9F%E4%BA%BA%E9%AD%94%E8%AF%AD_dsotdq",
+          "page": 9,
+          "referenceFile": "5etools-names.json",
+          "source": "DSotDQ",
+          "url": "https://5e.kiwee.top/data/languages.json",
+          "zh": "食人魔语"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书典型语言列表中的食人魔语言名称；按同族语言Ogre的既有译名适配1E形容词词形，不把生物和语言混为一条。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Banded Mail",
+      "zh": "带甲",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Banded",
+          "zh": "带甲",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [
+        "Banded"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。护甲表简称；与板条甲、环甲分别记录。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Great",
+      "zh": "大型头盔",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Helmet, great",
+          "zh": "大型头盔",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。大型头盔；不把great解释为魔法品质。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Small",
+      "zh": "小型头盔",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Helmet, small",
+          "zh": "小型头盔",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。小型头盔。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Plate Mail",
+      "zh": "板甲",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Plate",
+          "zh": "板甲",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Plate Armor",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%9D%BF%E7%94%B2_phb",
+          "page": 145,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "板甲"
+        }
+      ],
+      "englishVariants": [
+        "Plate"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。护甲表简称；这里只借用板甲名称，不移植后续版护甲等级。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Shield, Large",
+      "zh": "大盾",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Shield, large",
+          "zh": "大盾",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shield",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9B%BE%E7%89%8C_phb",
+          "page": 144,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "盾牌"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。大盾，盾牌尺寸的格挡次数见1E护甲章节。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small",
+      "zh": "小盾",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Shield, small",
+          "zh": "小盾",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shield",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9B%BE%E7%89%8C_phb",
+          "page": 144,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "盾牌"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。小盾；不能自动等同只绑在前臂上的其他盾种。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small, Wooden",
+      "zh": "小木盾",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Shield, small, wooden",
+          "zh": "小木盾",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shield",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9B%BE%E7%89%8C_phb",
+          "page": 144,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "盾牌"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。小型木质盾牌，保留材质。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Splint Mail",
+      "zh": "板条甲",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Splinted",
+          "zh": "板条甲",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Splint Armor",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%9D%BF%E6%9D%A1%E7%94%B2_phb",
+          "page": 145,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "板条甲"
+        }
+      ],
+      "englishVariants": [
+        "Splinted"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。护甲表简称；区分带甲。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Single",
+      "zh": "普通箭，单支",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Arrow, normal, single",
+          "zh": "普通箭，单支",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Arrow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%AE%AD_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "箭"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Arrows (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%AE%AD%E7%9F%A2%20%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "箭矢 (20)"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价格表包装数量；不是单独新箭种。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Dozen",
+      "zh": "普通箭，一打",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Arrow, normal, dozen",
+          "zh": "普通箭，一打",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Arrow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%AE%AD_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "箭"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Arrows (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%AE%AD%E7%9F%A2%20%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "箭矢 (20)"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。一打是12支；价格表包装，不另立伤害机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Silver, Single",
+      "zh": "银箭，单支",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Arrow, silver, single",
+          "zh": "银箭，单支",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Arrow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%AE%AD_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "箭"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。明确为银箭；原表没有给出纯银或镀银制造细节，不擅自补写。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Axe, Battle",
+      "zh": "战斧",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Axe, battle",
+          "zh": "战斧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Battleaxe",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%88%98%E6%96%A7_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "战斧"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。倒装武器名。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Axe, Hand or Throwing",
+      "zh": "手斧或投斧",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Axe, hand or throwing",
+          "zh": "手斧或投斧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Handaxe",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%89%8B%E6%96%A7_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "手斧"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表以or并列命名，不拆成两条不同价格武器。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bardiche",
+      "zh": "长柄战斧",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bardiche",
+          "zh": "长柄战斧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 125,
+          "en": "Bardiche",
+          "zh": "长柄战斧",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.125; OCR page-126; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器名称，沿用既有可辨主译；不与普通战斧归并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bec de Corbin",
+      "zh": "鸦喙锤",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bec de corbin",
+          "zh": "鸦喙锤",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 127,
+          "en": "Bec de Corbin",
+          "zh": "鸦喙锤",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器名称；按原名鸦喙词义与既有锤类称名自译。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bill-Guisarme",
+      "zh": "钩镰",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bill-Guisarme",
+          "zh": "钩镰",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 128,
+          "en": "Bill-Guisarme",
+          "zh": "钩镰",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。与Guisarme、Glaive-Guisarme分别列名及价格，不归并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Short",
+      "zh": "复合短弓",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bow, composite short",
+          "zh": "复合短弓",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shortbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9F%AD%E5%BC%93_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "短弓"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。复合结构与短弓同时保留；不删除composite限制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Long",
+      "zh": "复合长弓",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bow, composite, long",
+          "zh": "复合长弓",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Longbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%95%BF%E5%BC%93_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "长弓"
+        }
+      ],
+      "englishVariants": [
+        "Bow, composite, long"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。复合结构与长弓同时保留；原表逗号写法保留为检索异体。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bow, Long",
+      "zh": "长弓",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bow, long",
+          "zh": "长弓",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Longbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%95%BF%E5%BC%93_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "长弓"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。倒装武器名。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Bow, Short",
+      "zh": "短弓",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Bow, short",
+          "zh": "短弓",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shortbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9F%AD%E5%BC%93_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "短弓"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。倒装武器名。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Heavy",
+      "zh": "重弩",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Crossbow, heavy",
+          "zh": "重弩",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Heavy Crossbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%87%8D%E5%BC%A9_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "重弩"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。倒装武器名。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Light",
+      "zh": "轻弩",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Crossbow, light",
+          "zh": "轻弩",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Light Crossbow",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E8%BD%BB%E5%BC%A9_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "轻弩"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。倒装武器名。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Dagger and Scabbard",
+      "zh": "匕首与鞘",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Dagger and scabbard",
+          "zh": "匕首与鞘",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Dagger",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%8C%95%E9%A6%96_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "匕首"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目条目包括刀鞘；不将and scabbard删去或当成新武器种类。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Fauchard",
+      "zh": "长柄镰刀",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Fauchard",
+          "zh": "长柄镰刀",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 126,
+          "en": "Fauchard",
+          "zh": "长柄镰刀",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器，按镰形刃的传统称名自译；与既有Glaive长柄刀分开。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "长柄刀"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Fauchard-Fork",
+      "zh": "叉刃长柄镰刀",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Fauchard—Fork",
+          "zh": "叉刃长柄镰刀",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 127,
+          "en": "Fauchard-Fork",
+          "zh": "叉刃长柄镰刀",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [
+        "Fauchard—Fork"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。与Fauchard分列；保留fork复合名称。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "叉刃长柄刀"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Flail, Footman's",
+      "zh": "步兵链枷",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Flail, footman's",
+          "zh": "步兵链枷",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Flail",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%93%BE%E6%9E%B7_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "链枷"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。保留步兵式限定，不将后续版单一连枷数据用于1E。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "步兵连枷"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Flail, Horseman's",
+      "zh": "骑兵链枷",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Flail, horseman's",
+          "zh": "骑兵链枷",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Flail",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%93%BE%E6%9E%B7_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "链枷"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。保留骑兵式限定。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "骑兵连枷"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Fork, Military",
+      "zh": "军用叉",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Fork, Military",
+          "zh": "军用叉",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 127,
+          "en": "Fork, Military",
+          "zh": "军用叉",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。独立长柄武器名，不按普通餐叉理解。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Glaive-Guisarme",
+      "zh": "刀钩戟",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Glaive-Guisarme",
+          "zh": "刀钩戟",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 128,
+          "en": "Glaive-Guisarme",
+          "zh": "刀钩戟",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，复合名保留。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Guisarme",
+      "zh": "钩镰枪",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Guisarme",
+          "zh": "钩镰枪",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 126,
+          "en": "Guisarme",
+          "zh": "钩镰枪",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，与Bill-Guisarme区分。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Guisarme-Voulge",
+      "zh": "钩镰斧",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Guisarme—Voulge",
+          "zh": "钩镰斧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 128,
+          "en": "Guisarme-Voulge",
+          "zh": "钩镰斧",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.128; OCR page-129; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [
+        "Guisarme—Voulge"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书独立长柄武器，复合名保留。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Hammer, Lucern",
+      "zh": "琉森锤",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Hammer, Lucern",
+          "zh": "琉森锤",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 127,
+          "en": "Hammer, Lucern",
+          "zh": "琉森锤",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.127; OCR page-128; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。Lucern是武器专名词素，不把它当作附魔性质。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Mace, Footman's",
+      "zh": "步兵硬头锤",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Mace, footman's",
+          "zh": "步兵硬头锤",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Mace",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%A1%AC%E5%A4%B4%E9%94%A4_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "硬头锤"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。保留步兵式限定。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Mace, Horseman's",
+      "zh": "骑兵硬头锤",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Mace, horseman's",
+          "zh": "骑兵硬头锤",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Mace",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%A1%AC%E5%A4%B4%E9%94%A4_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "硬头锤"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。保留骑兵式限定。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Morning Star",
+      "zh": "钉头锤",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Morning Star",
+          "zh": "钉头锤",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Morningstar",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%92%89%E5%A4%B4%E9%94%A4_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "钉头锤"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。武器名，名称保持与星象和人名语境可区分。采用5E明确名称Morningstar＝钉头锤；旧译晨星仅作检索。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "晨星"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Partisan",
+      "zh": "阔刃矛",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Partisan",
+          "zh": "阔刃矛",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 124,
+          "en": "Partisan",
+          "zh": "阔刃矛",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原书武器表长柄武器名，不是普通政治党派成员。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Footman's",
+      "zh": "步兵军用镐",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Pick, Military, footman's",
+          "zh": "步兵军用镐",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "War Pick",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%88%98%E9%95%90_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "战镐"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表步兵式军用镐，不是矿镐。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Horseman's",
+      "zh": "骑兵军用镐",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Pick, Military, horseman's",
+          "zh": "骑兵军用镐",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "War Pick",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%88%98%E9%95%90_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "战镐"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表骑兵式军用镐，不是矿镐。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Pike, Awl",
+      "zh": "长锥枪",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Pike, awl",
+          "zh": "长锥枪",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Pike",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%95%BF%E7%9F%9B_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "长矛"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。保留awl名称，不自动合并所有pike规格。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Light, Single",
+      "zh": "轻型弩矢，单支",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Quarrel (or Bolt), light, single",
+          "zh": "轻型弩矢，单支",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Crossbow Bolt",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%BC%A9%E7%9F%A2_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "弩矢"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Crossbow Bolts (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%BC%A9%E7%9F%A2%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "弩矢(20)"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。quarrel与bolt在此是同义称法；轻型单支包装。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Heavy, Score",
+      "zh": "重型弩矢，二十支",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Quarrel (or Bolt), heavy, score",
+          "zh": "重型弩矢，二十支",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Crossbow Bolt",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%BC%A9%E7%9F%A2_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "弩矢"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Crossbow Bolts (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%BC%A9%E7%9F%A2%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "弩矢(20)"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。score是20支，不能误作分数；不将轻重规格合并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Ranseur",
+      "zh": "三叉矛",
+      "status": "verified-exact",
+      "verificationScope": "exact-name-after-source-sense-review",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Ranseur",
+          "zh": "三叉矛",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-26",
+          "category": "heading-reference",
+          "edition": "5E",
+          "en": "Ranseur",
+          "location": "/monster/13/legendary/0",
+          "page": 221,
+          "retrieval": "downloaded explicit ENG_name/name fields; sense review required",
+          "snapshotSha256": "a1d81bde3829a950465be2089a208ca6aced0d05fc437317ddda9ce824bbf051",
+          "source": "CoA",
+          "url": "https://5e.kiwee.top/data/bestiary/bestiary-coa.json",
+          "zh": "三叉矛"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 124,
+          "en": "Ranseur",
+          "zh": "三叉矛",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。完整名称证据已核语境，仅采用名称，不移植后续版机制。原表独立武器名；不与Military Fork或Trident同价归并。已读CoA贝利亚的Ranseur传奇动作与Ranseur of Torture武器攻击上下文，确认译名属于武器，不是人物名；只采用名称。",
+      "sourceInventory": true,
+      "userOverride": false,
+      "legacyZh": [
+        "长柄叉"
+      ]
+    },
+    {
+      "category": "item",
+      "en": "Sling & Bullets, Dozen",
+      "zh": "投石索与弹丸，一打",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sling & Bullets, dozen",
+          "zh": "投石索与弹丸，一打",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Sling",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%8A%95%E7%9F%B3%E7%B4%A2_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "投石索"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Sling Bullets (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%8A%95%E7%9F%B3%E7%B4%A2%E5%AD%90%E5%BC%B9%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "投石索子弹(20)"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Sling Bullet",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%8A%95%E7%9F%B3%E7%B4%A2%E5%AD%90%E5%BC%B9_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "投石索子弹"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目含投石索与12枚弹丸，不是12把投石索。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sling Bullets, Score",
+      "zh": "投石索弹丸，二十枚",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sling Bullets, score",
+          "zh": "投石索弹丸，二十枚",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Sling Bullets (20)",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%8A%95%E7%9F%B3%E7%B4%A2%E5%AD%90%E5%BC%B9%2820%29_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "投石索子弹(20)"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Sling Bullet",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E6%8A%95%E7%9F%B3%E7%B4%A2%E5%AD%90%E5%BC%B9_phb",
+          "page": 150,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "投石索子弹"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。只列20枚弹丸，与上一条带投石索套装分开。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Spetum",
+      "zh": "戟矛",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Spetum",
+          "zh": "戟矛",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 124,
+          "en": "Spetum",
+          "zh": "戟矛",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.124; OCR page-125; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表独立长柄武器名，与三叉戟分列，不推定机制等同。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sword, Bastard, & Scabbard",
+      "zh": "混种剑与鞘",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sword, bastard, & scabbard",
+          "zh": "混种剑与鞘",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目含剑鞘；保留1E独立剑种。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sword, Broad, & Scabbard",
+      "zh": "阔剑与鞘",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sword, broad, & scabbard",
+          "zh": "阔剑与鞘",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目含剑鞘，不与长剑归并。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sword, Long, & Scabbard",
+      "zh": "长剑与鞘",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sword, long & scabbard",
+          "zh": "长剑与鞘",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Longsword",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E9%95%BF%E5%89%91_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "长剑"
+        }
+      ],
+      "englishVariants": [
+        "Sword, long & scabbard"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目含剑鞘。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sword, Short, & Scabbard",
+      "zh": "短剑与鞘",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sword, short & scabbard",
+          "zh": "短剑与鞘",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Shortsword",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E7%9F%AD%E5%89%91_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "短剑"
+        }
+      ],
+      "englishVariants": [
+        "Sword, short & scabbard"
+      ],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。价目含剑鞘。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Sword, Two-Handed",
+      "zh": "双手剑",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Sword, two-handed",
+          "zh": "双手剑",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "accessed": "2026-11-24",
+          "category": "baseitem",
+          "edition": "5E",
+          "en": "Greatsword",
+          "entryUrl": "https://5e.kiwee.top/items.html#%E5%B7%A8%E5%89%91_phb",
+          "page": 149,
+          "referenceFile": "5etools-names.json",
+          "source": "PHB",
+          "url": "https://5e.kiwee.top/data/items-base.json",
+          "zh": "巨剑"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。按1E双手剑名称处理；不能直接套用后续版巨剑机制。",
+      "sourceInventory": true,
+      "userOverride": false
+    },
+    {
+      "category": "item",
+      "en": "Voulge",
+      "zh": "长柄砍斧",
+      "status": "adapted-variant",
+      "verificationScope": "self-translated-after-3R-5E-5R-search",
+      "references": [
+        {
+          "edition": "1E",
+          "source": "PHB",
+          "page": 35,
+          "en": "Voulge",
+          "zh": "长柄砍斧",
+          "url": "../__RESOURCES/CORE 3/tsr02100 - AD&D Player's Handbook.pdf",
+          "location": "printedp.35 / PDFp.36"
+        },
+        {
+          "edition": "1E",
+          "source": "UA",
+          "page": 126,
+          "en": "Voulge",
+          "zh": "长柄砍斧",
+          "url": "../__RESOURCES/Extensions/AD&D Unearthed Arcana.pdf",
+          "location": "Appendix T Pole Arms printedp.126; OCR page-127; p.126 visually checked"
+        }
+      ],
+      "englishVariants": [],
+      "reason": "离线3R→5E→5R完整原词及列明的名称词素检索；3R覆盖有限，缺项不表示该版本没有译名。未找到完整原词的适用精确译对；按1E语境及已核词素自译／处理词形。原表独立长柄武器，保留与Guisarme-Voulge区别。",
       "sourceInventory": true,
       "userOverride": false
     }

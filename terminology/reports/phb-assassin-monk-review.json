@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "scope": "Printedpp.28–32 assassin/monk; multiclass section startingp.32 excluded. Monk abilities without original proper names retained under original Special Abilities field/context, not renamed from later editions.",
+  "newTerms": [
+    {
+      "category": "rule",
+      "en": "Bravo (Apprentice)",
+      "zh": "打手（学徒）",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Rutterkin",
+      "zh": "恶棍",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Waghalter",
+      "zh": "亡命徒",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Murderer",
+      "zh": "凶手",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Thug",
+      "zh": "暴徒",
+      "printedPage": 30,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Killer",
+      "zh": "杀手",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Cutthroat",
+      "zh": "割喉者",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Executioner",
+      "zh": "刽子手",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Expert Assassin",
+      "zh": "老练刺客",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Senior Assassin",
+      "zh": "资深刺客",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Chief Assassin",
+      "zh": "首席刺客",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Prime Assassin",
+      "zh": "顶尖刺客",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Guildmaster Assassin",
+      "zh": "刺客公会会长",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Grandfather of Assassins",
+      "zh": "刺客祖师",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Novice",
+      "zh": "初学者",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Initiate",
+      "zh": "入门者",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Brother",
+      "zh": "修士",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Disciple",
+      "zh": "弟子",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Immaculate",
+      "zh": "无垢者",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master",
+      "zh": "大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Superior Master",
+      "zh": "上位大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of Dragons",
+      "zh": "龙之大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of the North Wind",
+      "zh": "北风大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of the West Wind",
+      "zh": "西风大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of the South Wind",
+      "zh": "南风大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of the East Wind",
+      "zh": "东风大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of Winter",
+      "zh": "冬之大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of Autumn",
+      "zh": "秋之大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of Summer",
+      "zh": "夏之大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Master of Spring",
+      "zh": "春之大师",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Assassination",
+      "zh": "暗杀",
+      "printedPage": 29,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Disguise",
+      "zh": "易容",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Spying",
+      "zh": "谍报",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Assassins Guild",
+      "zh": "刺客公会",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Minimum Fees for Assassination",
+      "zh": "最低暗杀酬金",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Level of Victim",
+      "zh": "目标等级",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Combat",
+      "zh": "空手战斗",
+      "printedPage": 30,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Attacks per Round",
+      "zh": "每轮空手攻击次数",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Open Hand Damage",
+      "zh": "空手伤害",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Effective Armor Class",
+      "zh": "有效护甲等级",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Special Abilities",
+      "zh": "特殊能力",
+      "printedPage": 31,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Self-Induced Catalepsy",
+      "zh": "自致强直昏厥",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "rule",
+      "en": "Quivering Palm",
+      "zh": "渗透劲",
+      "printedPage": 32,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Animals",
+      "zh": "动物交谈",
+      "printedPage": 31,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Speak with Plants",
+      "zh": "植物交谈",
+      "printedPage": 31,
+      "status": "verified-exact"
+    },
+    {
+      "category": "rule",
+      "en": "Mask the Mind",
+      "zh": "遮蔽心智",
+      "printedPage": 31,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "proper",
+      "en": "The White",
+      "zh": "白者",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "proper",
+      "en": "The Green",
+      "zh": "绿者",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "proper",
+      "en": "The Red",
+      "zh": "红者",
+      "printedPage": 32,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Evil",
+      "zh": "混乱邪恶阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Good",
+      "zh": "混乱善良阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Chaotic Neutrality",
+      "zh": "混乱中立阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Lawful Evil",
+      "zh": "守序邪恶阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Lawful Good",
+      "zh": "守序善良阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Lawful Neutrality",
+      "zh": "守序中立阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Neutral Evil",
+      "zh": "中立邪恶阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Neutral Good",
+      "zh": "中立善良阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Neutrality",
+      "zh": "中立阵营语",
+      "printedPage": 29,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "language",
+      "en": "Druidic",
+      "zh": "德鲁伊语",
+      "printedPage": 29,
+      "status": "verified-exact"
+    }
+  ],
+  "updatedPendingEntries": [
+    {
+      "category": "class",
+      "en": "Assassin",
+      "zh": "刺客",
+      "printedPage": 28,
+      "status": "verified-exact"
+    }
+  ],
+  "reviewedAliases": [
+    {
+      "category": "class",
+      "en": "Assassin",
+      "variants": [
+        "Assassins"
+      ]
+    },
+    {
+      "category": "class",
+      "en": "Monk",
+      "variants": [
+        "Monks"
+      ]
+    },
+    {
+      "category": "rule",
+      "en": "Healing",
+      "variants": [
+        "Heal Damage"
+      ]
+    }
+  ],
+  "semanticGuards": [
+    "Rutterkin rank is not the same-name demon.",
+    "Druidic is not Neutrality alignment language.",
+    "Two spells with Speak with… names remain separate from monk ability contexts.",
+    "Color titles name three seats, not three new classes or dragon species.",
+    "Partial English descriptors do not justify inventing later-edition named abilities."
+  ],
+  "unresolvedOriginalWords": [],
+  "next": "PHB printedpp.32–33 multiclass and character with two classes; then alignment and general character rules.",
+  "latestSnapshot": {
+    "catalogEntries": 8685,
+    "ruleForms": 846,
+    "revisionLedgerTotal": 46023
+  },
+  "validationReport": "phb-class-group-validation.json",
+  "machineCandidates": 56,
+  "pageSpecificReceipts": 59
+}

@@ -1,0 +1,953 @@
+{
+  "date": "2026-11-26",
+  "book": "PHB",
+  "scope": "Printedp.35 Armor+Arms price table only; clothing/herbs and printedp.36 other goods not yet reviewed",
+  "newTerms": [],
+  "updatedPendingEntries": [
+    {
+      "category": "item",
+      "en": "Banded Mail",
+      "zh": "带甲",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Great",
+      "zh": "大型头盔",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Helmet, Small",
+      "zh": "小型头盔",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Plate Mail",
+      "zh": "板甲",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Shield, Large",
+      "zh": "大盾",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small",
+      "zh": "小盾",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Shield, Small, Wooden",
+      "zh": "小木盾",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Splint Mail",
+      "zh": "板条甲",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Single",
+      "zh": "普通箭，单支",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Normal, Dozen",
+      "zh": "普通箭，一打",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Arrow, Silver, Single",
+      "zh": "银箭，单支",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Axe, Battle",
+      "zh": "战斧",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Axe, Hand or Throwing",
+      "zh": "手斧或投斧",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bardiche",
+      "zh": "长柄战斧",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bec de Corbin",
+      "zh": "鸦喙锤",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bill-Guisarme",
+      "zh": "钩镰",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Short",
+      "zh": "复合短弓",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bow, Composite Long",
+      "zh": "复合长弓",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bow, Long",
+      "zh": "长弓",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Bow, Short",
+      "zh": "短弓",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Heavy",
+      "zh": "重弩",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Crossbow, Light",
+      "zh": "轻弩",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Dagger and Scabbard",
+      "zh": "匕首与鞘",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Fauchard",
+      "zh": "长柄镰刀",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Fauchard-Fork",
+      "zh": "叉刃长柄镰刀",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Flail, Footman's",
+      "zh": "步兵链枷",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Flail, Horseman's",
+      "zh": "骑兵链枷",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Fork, Military",
+      "zh": "军用叉",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Glaive-Guisarme",
+      "zh": "刀钩戟",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Guisarme",
+      "zh": "钩镰枪",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Guisarme-Voulge",
+      "zh": "钩镰斧",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Hammer, Lucern",
+      "zh": "琉森锤",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Mace, Footman's",
+      "zh": "步兵硬头锤",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Mace, Horseman's",
+      "zh": "骑兵硬头锤",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Morning Star",
+      "zh": "钉头锤",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Partisan",
+      "zh": "阔刃矛",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Footman's",
+      "zh": "步兵军用镐",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Pick, Military, Horseman's",
+      "zh": "骑兵军用镐",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Pike, Awl",
+      "zh": "长锥枪",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Light, Single",
+      "zh": "轻型弩矢，单支",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Quarrel (or Bolt), Heavy, Score",
+      "zh": "重型弩矢，二十支",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Ranseur",
+      "zh": "三叉矛",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Sling & Bullets, Dozen",
+      "zh": "投石索与弹丸，一打",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sling Bullets, Score",
+      "zh": "投石索弹丸，二十枚",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Spetum",
+      "zh": "戟矛",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sword, Bastard, & Scabbard",
+      "zh": "混种剑与鞘",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sword, Broad, & Scabbard",
+      "zh": "阔剑与鞘",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sword, Long, & Scabbard",
+      "zh": "长剑与鞘",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sword, Short, & Scabbard",
+      "zh": "短剑与鞘",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Sword, Two-Handed",
+      "zh": "双手剑",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    },
+    {
+      "category": "item",
+      "en": "Voulge",
+      "zh": "长柄砍斧",
+      "printedPage": 35,
+      "status": "adapted-variant"
+    }
+  ],
+  "reviewedAliases": [],
+  "reusedTerms": [
+    {
+      "category": "item",
+      "en": "Chain Mail",
+      "zh": "链甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Leather Armor",
+      "zh": "皮甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Padded Armor",
+      "zh": "布甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Ring Mail",
+      "zh": "环甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Scale Mail",
+      "zh": "鳞甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Studded Leather Armor",
+      "zh": "镶钉皮甲",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Dart",
+      "zh": "飞镖",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Glaive",
+      "zh": "长柄刀",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Halberd",
+      "zh": "长戟",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Hammer",
+      "zh": "锤子",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Javelin",
+      "zh": "标枪",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Lance",
+      "zh": "骑枪",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Scimitar",
+      "zh": "弯刀",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Spear",
+      "zh": "矛",
+      "printedPage": 35,
+      "status": "verified-exact"
+    },
+    {
+      "category": "item",
+      "en": "Trident",
+      "zh": "三叉戟",
+      "printedPage": 35,
+      "status": "verified-exact"
+    }
+  ],
+  "sourceCrossChecks": [
+    "UA Appendix T printedpp.124–128 read to distinguish polearm identities; printedp.126 visually checked. This is targeted PHB corroboration, not completion of UA appendix coverage.",
+    "5E CoA p.221 Ranseur weapon-action context read; heading evidence not accepted without sense confirmation."
+  ],
+  "translationGuards": [
+    "No inferred collapse of polearms.",
+    "Price packages and quantity are retained; no new weapon mechanics inferred.",
+    "Morningstar/Flail use applicable later-version name elements; Greatsword not substituted for 1E Two-Handed Sword.",
+    "Compound/modifier names remain adapted even when their base component is exact."
+  ],
+  "unresolvedOriginalWords": [],
+  "next": "PHB printedp.35 clothing/herbs and printedp.36 livestock,equipment,provisions,tack,transport; then armor/weapons rules",
+  "metadataSync": {
+    "changes": [
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Fauchard",
+        "oldZh": "长柄刀",
+        "newZh": "长柄镰刀",
+        "id": "phb-item-031"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Fauchard-Fork",
+        "oldZh": "叉刃长柄刀",
+        "newZh": "叉刃长柄镰刀",
+        "id": "phb-item-032"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Flail, Footman's",
+        "oldZh": "步兵连枷",
+        "newZh": "步兵链枷",
+        "id": "phb-item-033"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Flail, Horseman's",
+        "oldZh": "骑兵连枷",
+        "newZh": "骑兵链枷",
+        "id": "phb-item-034"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Morning Star",
+        "oldZh": "晨星",
+        "newZh": "钉头锤",
+        "id": "phb-item-047"
+      },
+      {
+        "path": "src/data/public/item-index.json",
+        "en": "Ranseur",
+        "oldZh": "长柄叉",
+        "newZh": "三叉矛",
+        "id": "phb-item-054"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Fauchard",
+        "oldZh": "长柄刀",
+        "newZh": "长柄镰刀",
+        "id": "phb-item-031"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Fauchard-Fork",
+        "oldZh": "叉刃长柄刀",
+        "newZh": "叉刃长柄镰刀",
+        "id": "phb-item-032"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Flail, Footman's",
+        "oldZh": "步兵连枷",
+        "newZh": "步兵链枷",
+        "id": "phb-item-033"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Flail, Horseman's",
+        "oldZh": "骑兵连枷",
+        "newZh": "骑兵链枷",
+        "id": "phb-item-034"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Morning Star",
+        "oldZh": "晨星",
+        "newZh": "钉头锤",
+        "id": "phb-item-047"
+      },
+      {
+        "path": "src/data/public/items-imported.json",
+        "en": "Ranseur",
+        "oldZh": "长柄叉",
+        "newZh": "三叉矛",
+        "id": "phb-item-054"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Axe, Hand or Throwing",
+        "oldZh": "手斧／投斧",
+        "newZh": "手斧或投斧",
+        "id": "ua-weapon-axe-hand-or-throwing"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Bardiche",
+        "oldZh": "阔刃长柄斧",
+        "newZh": "长柄战斧",
+        "id": "ua-weapon-bardiche"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Bec de Corbin",
+        "oldZh": "鸦嘴锤",
+        "newZh": "鸦喙锤",
+        "id": "ua-weapon-bec-de-corbin"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Bill-Guisarme",
+        "oldZh": "钩刃长柄武器",
+        "newZh": "钩镰",
+        "id": "ua-weapon-bill-guisarme"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Fauchard",
+        "oldZh": "长柄弯刀",
+        "newZh": "长柄镰刀",
+        "id": "ua-weapon-fauchard"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Glaive-Guisarme",
+        "oldZh": "长刃钩枪",
+        "newZh": "刀钩戟",
+        "id": "ua-weapon-glaive-guisarme"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Guisarme",
+        "oldZh": "钩枪",
+        "newZh": "钩镰枪",
+        "id": "ua-weapon-guisarme"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Guisarme-Voulge",
+        "oldZh": "钩刃枪",
+        "newZh": "钩镰斧",
+        "id": "ua-weapon-guisarme-voulge"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Hammer, Lucern",
+        "oldZh": "卢塞恩锤",
+        "newZh": "琉森锤",
+        "id": "ua-weapon-hammer-lucern"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Partisan",
+        "oldZh": "宽刃长枪",
+        "newZh": "阔刃矛",
+        "id": "ua-weapon-partisan"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Pike, Awl",
+        "oldZh": "锥枪",
+        "newZh": "长锥枪",
+        "id": "ua-weapon-pike-awl"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Ranseur",
+        "oldZh": "侧刃叉枪",
+        "newZh": "三叉矛",
+        "id": "ua-weapon-ranseur"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Spetum",
+        "oldZh": "双叉长枪",
+        "newZh": "戟矛",
+        "id": "ua-weapon-spetum"
+      },
+      {
+        "path": "src/data/public/ua-items-imported.json",
+        "en": "Voulge",
+        "oldZh": "宽刃长柄枪",
+        "newZh": "长柄砍斧",
+        "id": "ua-weapon-voulge"
+      }
+    ],
+    "scope": "Only exact approved nameEn/nameZh pairs; other content and stable IDs preserved; do not copy mixed source JSON wholesale for archive."
+  },
+  "offlineLookup": {
+    "queryForms": {
+      "Banded Mail": [
+        "Banded Mail"
+      ],
+      "Chain Mail": [
+        "Chain Mail"
+      ],
+      "Helmet, Great": [
+        "Helmet, Great",
+        "Great Helm",
+        "Helmet"
+      ],
+      "Helmet, Small": [
+        "Helmet, Small",
+        "Helmet"
+      ],
+      "Leather Armor": [
+        "Leather Armor"
+      ],
+      "Padded Armor": [
+        "Padded Armor"
+      ],
+      "Plate Mail": [
+        "Plate Mail",
+        "Plate Armor"
+      ],
+      "Ring Mail": [
+        "Ring Mail"
+      ],
+      "Scale Mail": [
+        "Scale Mail"
+      ],
+      "Shield, Large": [
+        "Shield, Large",
+        "Large Shield",
+        "Shield"
+      ],
+      "Shield, Small": [
+        "Shield, Small",
+        "Small Shield",
+        "Shield"
+      ],
+      "Shield, Small, Wooden": [
+        "Shield, Small, Wooden",
+        "Wooden Shield",
+        "Shield"
+      ],
+      "Splint Mail": [
+        "Splint Mail",
+        "Splint Armor"
+      ],
+      "Studded Leather Armor": [
+        "Studded Leather Armor"
+      ],
+      "Arrow, Normal, Single": [
+        "Arrow, Normal, Single",
+        "Arrow",
+        "Arrows (20)"
+      ],
+      "Arrow, Normal, Dozen": [
+        "Arrow, Normal, Dozen",
+        "Arrow",
+        "Arrows (20)"
+      ],
+      "Arrow, Silver, Single": [
+        "Arrow, Silver, Single",
+        "Silver Arrow",
+        "Silvered Arrow",
+        "Arrow"
+      ],
+      "Axe, Battle": [
+        "Axe, Battle",
+        "Battleaxe",
+        "Battle Axe"
+      ],
+      "Axe, Hand or Throwing": [
+        "Axe, Hand or Throwing",
+        "Handaxe",
+        "Throwing Axe"
+      ],
+      "Bardiche": [
+        "Bardiche"
+      ],
+      "Bec de Corbin": [
+        "Bec de Corbin"
+      ],
+      "Bill-Guisarme": [
+        "Bill-Guisarme"
+      ],
+      "Bow, Composite Short": [
+        "Bow, Composite Short",
+        "Composite Shortbow",
+        "Shortbow"
+      ],
+      "Bow, Composite Long": [
+        "Bow, Composite Long",
+        "Composite Longbow",
+        "Longbow"
+      ],
+      "Bow, Long": [
+        "Bow, Long",
+        "Longbow"
+      ],
+      "Bow, Short": [
+        "Bow, Short",
+        "Shortbow"
+      ],
+      "Crossbow, Heavy": [
+        "Crossbow, Heavy",
+        "Heavy Crossbow"
+      ],
+      "Crossbow, Light": [
+        "Crossbow, Light",
+        "Light Crossbow"
+      ],
+      "Dagger and Scabbard": [
+        "Dagger and Scabbard",
+        "Dagger",
+        "Scabbard"
+      ],
+      "Dart": [
+        "Dart"
+      ],
+      "Fauchard": [
+        "Fauchard"
+      ],
+      "Fauchard-Fork": [
+        "Fauchard-Fork"
+      ],
+      "Flail, Footman's": [
+        "Flail, Footman's",
+        "Flail"
+      ],
+      "Flail, Horseman's": [
+        "Flail, Horseman's",
+        "Flail"
+      ],
+      "Fork, Military": [
+        "Fork, Military",
+        "Military Fork"
+      ],
+      "Glaive": [
+        "Glaive"
+      ],
+      "Glaive-Guisarme": [
+        "Glaive-Guisarme"
+      ],
+      "Guisarme": [
+        "Guisarme"
+      ],
+      "Guisarme-Voulge": [
+        "Guisarme-Voulge"
+      ],
+      "Halberd": [
+        "Halberd"
+      ],
+      "Hammer, Lucern": [
+        "Hammer, Lucern",
+        "Lucerne Hammer",
+        "Lucern Hammer"
+      ],
+      "Hammer": [
+        "Hammer"
+      ],
+      "Javelin": [
+        "Javelin"
+      ],
+      "Lance": [
+        "Lance"
+      ],
+      "Mace, Footman's": [
+        "Mace, Footman's",
+        "Mace"
+      ],
+      "Mace, Horseman's": [
+        "Mace, Horseman's",
+        "Mace"
+      ],
+      "Morning Star": [
+        "Morning Star",
+        "Morningstar"
+      ],
+      "Partisan": [
+        "Partisan"
+      ],
+      "Pick, Military, Footman's": [
+        "Pick, Military, Footman's",
+        "War Pick",
+        "Military Pick"
+      ],
+      "Pick, Military, Horseman's": [
+        "Pick, Military, Horseman's",
+        "War Pick",
+        "Military Pick"
+      ],
+      "Pike, Awl": [
+        "Pike, Awl",
+        "Awl Pike",
+        "Pike"
+      ],
+      "Quarrel (or Bolt), Light, Single": [
+        "Quarrel (or Bolt), Light, Single",
+        "Crossbow Bolt",
+        "Crossbow Bolts (20)"
+      ],
+      "Quarrel (or Bolt), Heavy, Score": [
+        "Quarrel (or Bolt), Heavy, Score",
+        "Crossbow Bolt",
+        "Crossbow Bolts (20)"
+      ],
+      "Ranseur": [
+        "Ranseur"
+      ],
+      "Scimitar": [
+        "Scimitar"
+      ],
+      "Sling & Bullets, Dozen": [
+        "Sling & Bullets, Dozen",
+        "Sling",
+        "Sling Bullets (20)",
+        "Sling Bullet"
+      ],
+      "Sling Bullets, Score": [
+        "Sling Bullets, Score",
+        "Sling Bullets (20)",
+        "Sling Bullet"
+      ],
+      "Spear": [
+        "Spear"
+      ],
+      "Spetum": [
+        "Spetum"
+      ],
+      "Sword, Bastard, & Scabbard": [
+        "Sword, Bastard, & Scabbard",
+        "Bastard Sword",
+        "Scabbard"
+      ],
+      "Sword, Broad, & Scabbard": [
+        "Sword, Broad, & Scabbard",
+        "Broadsword",
+        "Broad Sword",
+        "Scabbard"
+      ],
+      "Sword, Long, & Scabbard": [
+        "Sword, Long, & Scabbard",
+        "Longsword",
+        "Scabbard"
+      ],
+      "Sword, Short, & Scabbard": [
+        "Sword, Short, & Scabbard",
+        "Shortsword",
+        "Scabbard"
+      ],
+      "Sword, Two-Handed": [
+        "Sword, Two-Handed",
+        "Two-Handed Sword",
+        "Greatsword"
+      ],
+      "Trident": [
+        "Trident"
+      ],
+      "Voulge": [
+        "Voulge"
+      ]
+    },
+    "editionPriority": [
+      "3R",
+      "5E",
+      "5R"
+    ],
+    "cacheManifest": "../tmp/terminology-reference-cache/manifest.json",
+    "coverageCaveat": "3R indexed evidence remains partial; exact-name components do not verify complete modified names."
+  },
+  "latestSnapshot": {
+    "catalogEntries": 8706,
+    "ruleForms": 864,
+    "revisionLedgerTotal": 46095
+  },
+  "validationReport": "phb-basics-equipment-validation.json"
+}
